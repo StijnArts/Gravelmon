@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviianwishiwashi",
-  "nationalPokedexNumber": 748,
+  "nationalPokedexNumber": 746,
   "primaryType": "ghost",
   "abilities": [
     "schooling",
@@ -50,8 +50,8 @@
       ],
       "baseScale": 1.9125,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -155,8 +155,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

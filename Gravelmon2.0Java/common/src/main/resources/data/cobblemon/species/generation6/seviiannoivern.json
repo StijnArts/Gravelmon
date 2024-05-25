@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviiannoivern",
-  "nationalPokedexNumber": 714,
+  "nationalPokedexNumber": 715,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
@@ -136,15 +136,17 @@
   "labels": [
     "radicalred",
     "gen6",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviiannoivern.desc"
   ],
-  "baseScale": 0.28125,
+  "preEvolution": "seviiannoibat",
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

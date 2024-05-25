@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:varitasiantrevenant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation6_varitasiantrevenant",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/varitasiantrevenant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation6/varitasiantrevenant_shiny.png"
+    }  ]
+}

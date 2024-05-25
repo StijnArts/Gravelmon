@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "possasse",
+  "nationalPokedexNumber": 2460,
+  "primaryType": "ghost",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 66,
+    "defence": 60,
+    "special_attack": 37,
+    "special_defence": 77,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:lick",
+    "7:scaryface",
+    "10:bite",
+    "14:shadowsneak",
+    "18:meanlook",
+    "22:poisonfang",
+    "26:slash",
+    "30:hypnosis",
+    "35:nightslash",
+    "39:nightmare",
+    "42:shadowclaw",
+    "48:punishment",
+    "53:phantomforce",
+    "57:memento"  ],
+  "labels": [
+    "isiah",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.possasse.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "possasse_vasegeist",
+      "variant": "level_up",
+      "result": "vasegeist",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

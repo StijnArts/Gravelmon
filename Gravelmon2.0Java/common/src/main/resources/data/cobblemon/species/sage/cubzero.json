@@ -1,9 +1,10 @@
 {
   "implemented": true,
   "name": "cubzero",
-  "nationalPokedexNumber": 1114,
+  "nationalPokedexNumber": 1039,
   "primaryType": "ice",
   "abilities": [
+    "iceslick",
     "snowcloak",
     "h:slushrush"
   ],
@@ -130,10 +131,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

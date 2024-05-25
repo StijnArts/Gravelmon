@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "name": "darakuma",
+  "nationalPokedexNumber": 2909,
+  "primaryType": "normal",
+  "abilities": [
+    "truant",
+    "h:truant"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:yawn",
+    "6:encore",
+    "9:slackoff",
+    "14:headbutt",
+    "17:amnesia",
+    "22:covet",
+    "25:throatchop",
+    "30:counter",
+    "33:flail",
+    "38:playrough",
+    "tm:takedown",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:thief",
+    "tm:chillingwater",
+    "tm:facade",
+    "tm:aerialace",
+    "tm:metalclaw",
+    "tm:icywind",
+    "tm:mudshot",
+    "tm:rocktomb",
+    "tm:fling",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:falseswipe",
+    "tm:brickbreak",
+    "tm:zenheadbutt",
+    "tm:shadowclaw",
+    "tm:bulkup",
+    "tm:bodyslam",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:icepunch",
+    "tm:sleeptalksound",
+    "tm:seedbomb",
+    "tm:metronome",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:gunkshot",
+    "tm:substitute",
+    "tm:xscissor",
+    "tm:shadowball",
+    "tm:encore",
+    "tm:flamethrower",
+    "tm:thunderbolt",
+    "tm:playrough",
+    "tm:amnesia",
+    "tm:helpinghand",
+    "tm:icebeam",
+    "tm:fireblast",
+    "tm:blizzard",
+    "tm:thunder",
+    "tm:solarbeam",
+    "tm:terablast",
+    "egg:afteryou",
+    "egg:bodyslam",
+    "egg:crushclaw",
+    "egg:curse",
+    "egg:hammerarm",
+    "egg:nightslash",
+    "egg:slash",
+    "egg:snoresound",
+    "egg:tickle"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.darakuma.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "darakuma_hatarakuma",
+      "variant": "item_interact",
+      "result": "hatarakuma",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:sun_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 46,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

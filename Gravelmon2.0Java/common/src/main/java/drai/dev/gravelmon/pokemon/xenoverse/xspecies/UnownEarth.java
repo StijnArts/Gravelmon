@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -28,7 +29,7 @@ public class UnownEarth extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 20, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.END_CITY),
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Unown");

@@ -3,9 +3,8 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import drai.dev.gravelmon.util.*;
-
 import java.util.*;
+import drai.dev.gravelmon.util.*;
 
 public class HoennianTangela extends Pokemon {
     public HoennianTangela(int dexNo) {
@@ -62,10 +61,10 @@ public class HoennianTangela extends Pokemon {
                 List.of(Label.BLAZING_EMERALD, Label.GEN1),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 44, 1.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Tangela");

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:katuna",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:deneb_katuna",
+      "model": "cobblemon:deneb_katuna.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/katuna/katuna.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/katuna/katuna_shiny.png"
+    }  ]
+}

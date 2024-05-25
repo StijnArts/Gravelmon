@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bandeon",
-  "nationalPokedexNumber": 1153,
+  "nationalPokedexNumber": 1556,
   "primaryType": "sound",
   "abilities": [
     "owntempo",
@@ -47,6 +47,7 @@
     "field"
   ],
   "moves": [
+    "1:soundpledge",
     "1:helpinghand",
     "1:tackle",
     "1:tailwhip",
@@ -81,6 +82,7 @@
     "tm:protect",
     "tm:raindance",
     "tm:safeguard",
+    "tm:subwoofer",
     "tm:return",
     "tm:dig",
     "tm:shadowball",
@@ -115,6 +117,7 @@
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
+    "tutor:soundbarrier",
     "tutor:uproar"  ],
   "labels": [
     "infinity",
@@ -123,10 +126,10 @@
   "pokedex": [
     "cobblemon.species.bandeon.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

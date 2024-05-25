@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 import java.util.*;
 
 public class Rocano extends Pokemon {
@@ -96,10 +95,10 @@ public class Rocano extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:magma",100, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 28, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_NETHER_BASALT, Biome.IS_VOLCANIC)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.38, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

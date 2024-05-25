@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
@@ -68,7 +69,7 @@ public class HoennianOnix extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(new BiomeSpawnCondition(List.of())),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Onix");

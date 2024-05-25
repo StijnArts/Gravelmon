@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wormeel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:eternalforest_wormeel",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/eternalforest/wormeel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/eternalforest/wormeel_shiny.png"
+    }  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoenniandewgong",
-  "nationalPokedexNumber": 86,
+  "nationalPokedexNumber": 87,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -50,12 +50,14 @@
   ],
   "moves": [
     "1:cometpunch",
+    "1:swindle",
     "1:aquajet",
     "1:hornattack",
     "9:pursuit",
     "17:beatup",
     "21:knockoff",
     "29:slackoff",
+    "34:knucklefins",
     "42:icepunch",
     "50:megahorn",
     "64:bulkup",
@@ -64,6 +66,7 @@
     "tm:hail",
     "tm:pursuit",
     "tm:hiddenpower",
+    "tm:veiledsky",
     "tm:icebeam",
     "tm:blizzard",
     "tm:hyperbeam",
@@ -72,6 +75,7 @@
     "tm:freezedry",
     "tm:return",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:gigaimpact",
     "tm:facade",
     "tm:secretpower",
@@ -89,15 +93,17 @@
   "labels": [
     "blazing_emerald",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoenniandewgong.desc"
   ],
-  "baseScale": 0.3,
+  "preEvolution": "hoennianseel",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

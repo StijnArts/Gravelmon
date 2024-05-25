@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "joltalope",
-  "nationalPokedexNumber": 1395,
+  "nationalPokedexNumber": 1460,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -145,15 +145,18 @@
     "egg:synthesis"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.joltalope.desc"
   ],
-  "baseScale": 0.20625,
+  "preEvolution": "zapalope",
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drilladin",
-  "nationalPokedexNumber": 1176,
+  "nationalPokedexNumber": 2180,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -55,6 +55,7 @@
     "31:poisonjab",
     "38:megahorn",
     "43:uturn",
+    "49:virugait",
     "56:return",
     "65:leafblade",
     "tm:toxic",
@@ -86,10 +87,10 @@
     "cobblemon.species.drilladin.desc"
   ],
   "preEvolution": "kakuna",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

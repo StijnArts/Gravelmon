@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "erycoon",
-  "nationalPokedexNumber": 1252,
+  "nationalPokedexNumber": 1177,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -47,16 +47,6 @@
     "field",
     "fairy"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-1",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:stockpile",
     "1:spitup",
@@ -147,10 +137,10 @@
   "pokedex": [
     "cobblemon.species.erycoon.desc"
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

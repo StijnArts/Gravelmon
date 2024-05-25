@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rocano",
-  "nationalPokedexNumber": 1151,
+  "nationalPokedexNumber": 1076,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:magma",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:harden",
@@ -152,8 +142,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

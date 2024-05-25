@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cephalotox-1",
+      "pokemon": "cephalotox",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "2-33",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

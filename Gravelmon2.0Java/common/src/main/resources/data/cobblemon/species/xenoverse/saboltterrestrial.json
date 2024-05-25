@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "saboltterrestrial",
-  "nationalPokedexNumber": 1125,
+  "nationalPokedexNumber": 1525,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -47,6 +47,26 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:thunderpunch",
     "1:knockoff",
@@ -135,10 +155,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

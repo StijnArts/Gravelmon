@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoenniantynamo",
-  "nationalPokedexNumber": 587,
+  "nationalPokedexNumber": 602,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -49,6 +49,7 @@
   ],
   "moves": [
     "egg:earthpower",
+    "egg:electroburst",
     "egg:dragonrage",
     "tm:flash",
     "tm:toxic",
@@ -62,6 +63,7 @@
     "tm:earthquake",
     "tm:return",
     "tm:dig",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:sandstorm",
@@ -78,7 +80,8 @@
     "15:magnitude",
     "19:bite",
     "25:dig",
-    "31:thunderbolt"  ],
+    "31:thunderbolt",
+    "37:boltblitz"  ],
   "labels": [
     "blazing_emerald",
     "gen5",
@@ -104,8 +107,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

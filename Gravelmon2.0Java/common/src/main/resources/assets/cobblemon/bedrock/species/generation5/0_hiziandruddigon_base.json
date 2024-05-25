@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hiziandruddigon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_hiziandruddigon",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/hiziandruddigon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/hiziandruddigon_shiny.png"
+    }  ]
+}

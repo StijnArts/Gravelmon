@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "birigiri",
-  "nationalPokedexNumber": 1134,
+  "nationalPokedexNumber": 1537,
   "primaryType": "electric",
   "secondaryType": "water",
   "abilities": [
@@ -51,7 +51,7 @@
   "moves": [
     "1:charge",
     "4:watergun",
-    "8:vicegrip",
+    "8:visegrip",
     "12:spark",
     "16:chipaway",
     "20:paraboliccharge",
@@ -105,10 +105,10 @@
   "pokedex": [
     "cobblemon.species.birigiri.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

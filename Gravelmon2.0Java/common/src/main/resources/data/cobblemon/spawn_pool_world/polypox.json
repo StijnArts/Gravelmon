@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "polypox-1",
+      "pokemon": "polypox",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "2-21",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

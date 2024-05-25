@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Gigantusk extends Pokemon {
                 140, ExperienceGroup.ERRATIC,
                 70,
                 48, List.of(EggGroup.MONSTER, EggGroup.FIELD),
-                List.of("This Pokémon was revived from a specimen found frozen in an ancient glacier. It was hunted by ancient humans for its extremely durable armor."),
+                List.of("This Pokemon was revived from a specimen found frozen in an ancient glacier. It was hunted by ancient humans for its extremely durable armor."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_HEAD,1),
@@ -98,13 +99,13 @@ public class Gigantusk extends Pokemon {
                         new MoveLearnSetEntry(Move.SHELL_SMASH,"egg"),
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"egg")
                         ),
-                List.of(Label.SAGE),
+                List.of(Label.INFINITY),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 31, 46, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.42, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skulkraken",
-  "nationalPokedexNumber": 1344,
+  "nationalPokedexNumber": 1411,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -47,16 +47,6 @@
   "eggGroups": [
     "water_3"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:iron_ingot",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:metalclaw",
     "1:heavyslam",
@@ -151,15 +141,17 @@
     "egg:waterpulse"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.skulkraken.desc"
   ],
-  "baseScale": 0.375,
+  "preEvolution": "eghoshellder",
+  "baseScale": 0.5,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

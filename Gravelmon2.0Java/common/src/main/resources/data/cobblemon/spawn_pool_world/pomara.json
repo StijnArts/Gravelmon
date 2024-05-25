@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pomara-1",
+      "pokemon": "pomara",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_freshwater" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

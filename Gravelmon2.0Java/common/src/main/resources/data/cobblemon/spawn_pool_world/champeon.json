@@ -7,7 +7,7 @@
       "id": "champeon-1",
       "pokemon": "champeon",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "enigmite",
-  "nationalPokedexNumber": 1281,
+  "nationalPokedexNumber": 1206,
   "primaryType": "bug",
   "abilities": [
     "compoundeyes",
@@ -47,16 +47,6 @@
   "eggGroups": [
     "bug"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:scratch",
     "1:meditate",
@@ -106,7 +96,7 @@
     "tm:substitute",
     "tm:sleeptalksound",
     "tm:cut",
-    "egg:cosmicpower",
+    "egg:cosmicpowercosmic",
     "egg:hypnosis",
     "egg:magicroom",
     "egg:meditate",
@@ -138,8 +128,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

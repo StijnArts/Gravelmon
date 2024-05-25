@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fligianvigoroth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_fligianvigoroth",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/fligianvigoroth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/fligianvigoroth_shiny.png"
+    }  ]
+}

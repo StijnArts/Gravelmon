@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:norheimancorphish",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_norheimancorphish",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/norheimancorphish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/norheimancorphish_shiny.png"
+    }  ]
+}

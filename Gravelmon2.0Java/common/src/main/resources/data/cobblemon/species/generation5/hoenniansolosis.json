@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "hoenniansolosis",
-  "nationalPokedexNumber": 556,
+  "nationalPokedexNumber": 577,
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "fruitrition",
+    "h:fruitrition"
   ],
   "baseStats": {
     "hp": 45,
@@ -53,6 +53,7 @@
     "1:poisonpowder",
     "7:confusion",
     "13:magicalleaf",
+    "20:ripen",
     "28:synthesis",
     "32:psybeam",
     "38:megadrain",
@@ -74,6 +75,7 @@
     "tm:return",
     "tm:psychic",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:flamethrower",
@@ -109,8 +111,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

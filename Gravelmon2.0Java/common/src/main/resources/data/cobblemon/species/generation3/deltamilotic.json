@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltamilotic",
-  "nationalPokedexNumber": 349,
+  "nationalPokedexNumber": 350,
   "primaryType": "ghost",
   "abilities": [
     "regenerator",
@@ -51,8 +51,8 @@
       ],
       "baseScale": 0.48,
         "hitbox": {
-          "width": 1.7307692307692306,
-          "height": 1.7307692307692306,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -205,15 +205,17 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltamilotic.desc"
   ],
-  "baseScale": 1.1625,
+  "preEvolution": "deltafeebas",
+  "baseScale": 0.775,
   "hitbox": {
-    "width": 1.7307692307692306,
-    "height": 1.7307692307692306,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -225,7 +227,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 62,
+  "height": 31,
   "weight": 1620,
   "aspects": [],
 "features": [

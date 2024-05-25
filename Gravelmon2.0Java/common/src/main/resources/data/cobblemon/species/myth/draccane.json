@@ -1,0 +1,117 @@
+{
+  "implemented": true,
+  "name": "draccane",
+  "nationalPokedexNumber": 2531,
+  "primaryType": "poison",
+  "secondaryType": "dragon",
+  "abilities": [
+    "poisonpoint",
+    "intimidate",
+    "h:moxie"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 95,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 164,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "1:poisonsting",
+    "1:leer",
+    "5:bite",
+    "10:headbutt",
+    "15:poisonfang",
+    "18:acid",
+    "20:scaryface",
+    "23:swordsdance",
+    "25:crunch",
+    "31:dragonclaw",
+    "35:crosspoison",
+    "38:focusenergy",
+    "41:dragontail",
+    "50:outrage",
+    "55:doubleedge",
+    "egg:defensecurl",
+    "egg:dragonrush",
+    "egg:thrash",
+    "egg:twister"  ],
+  "labels": [
+    "myth",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.draccane.desc"
+  ],
+  "preEvolution": "raccane",
+  "evolutions": [
+    {
+      "id": "draccane_raccolossus",
+      "variant": "level_up",
+      "result": "raccolossus",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 43
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 69,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

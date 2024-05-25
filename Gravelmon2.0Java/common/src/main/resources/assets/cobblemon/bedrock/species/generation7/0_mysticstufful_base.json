@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mysticstufful",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation7_mysticstufful",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation7/mysticstufful.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation7/mysticstufful_shiny.png"
+    }  ]
+}

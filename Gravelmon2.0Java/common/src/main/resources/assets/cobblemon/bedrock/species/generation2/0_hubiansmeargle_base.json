@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hubiansmeargle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_hubiansmeargle",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/hubiansmeargle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/hubiansmeargle_shiny.png"
+    }  ]
+}

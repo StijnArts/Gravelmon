@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gigantusk",
-  "nationalPokedexNumber": 1368,
+  "nationalPokedexNumber": 1435,
   "primaryType": "ice",
   "secondaryType": "steel",
   "abilities": [
@@ -126,16 +126,19 @@
     "egg:shellsmash",
     "egg:wildcharge"  ],
   "labels": [
-    "sage",
-    "not_modeled"
+    "infinity",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gigantusk.desc"
   ],
-  "baseScale": 0.45,
+  "preEvolution": "arctusk",
+  "baseScale": 0.6,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

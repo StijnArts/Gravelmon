@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "bluffin",
-  "nationalPokedexNumber": 1121,
+  "nationalPokedexNumber": 1046,
   "primaryType": "ice",
   "abilities": [
     "keeneye",
+    "iceslick",
     "h:superluck"
   ],
   "baseStats": {
@@ -54,6 +55,7 @@
     "11:swiftcosmic",
     "14:icywind",
     "17:mist",
+    "21:tempest",
     "24:doubleteam",
     "27:aurorabeam",
     "31:featherdance",
@@ -129,10 +131,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

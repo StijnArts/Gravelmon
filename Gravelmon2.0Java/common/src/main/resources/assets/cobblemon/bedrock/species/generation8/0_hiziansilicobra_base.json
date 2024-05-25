@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hiziansilicobra",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation8_hiziansilicobra",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation8/hiziansilicobra.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation8/hiziansilicobra_shiny.png"
+    }  ]
+}

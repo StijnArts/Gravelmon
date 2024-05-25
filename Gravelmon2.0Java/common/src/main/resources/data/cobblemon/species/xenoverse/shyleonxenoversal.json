@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "shyleonxenoversal",
-  "nationalPokedexNumber": 1100,
+  "nationalPokedexNumber": 1498,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "majesticaura",
+    "h:junglespirit"
   ],
   "baseStats": {
     "hp": 118,
@@ -47,8 +47,46 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
+    "1:feralclutch",
+    "1:hawthorns",
     "1:dazzlinggleam",
+    "1:hiss",
     "1:extrasensory",
     "1:absorb",
     "1:pound",
@@ -59,6 +97,8 @@
     "25:magicalleaf",
     "28:agility",
     "32:gigadrain",
+    "36:feralclutch",
+    "38:magicwall",
     "40:synthesis",
     "45:moonblast",
     "48:earthpower",
@@ -91,11 +131,14 @@
     "tm:dazzlinggleam",
     "tutor:bind",
     "tutor:covet",
+    "tutor:fairypledge",
     "tutor:frenzyplant",
     "tutor:gigadrain",
+    "tutor:hawthorns",
     "tutor:irontail",
     "tutor:magiccoat",
     "tutor:magicroom",
+    "tutor:magicwall",
     "tutor:secretpower",
     "tutor:seedbomb",
     "tutor:sleeptalksound",
@@ -168,10 +211,10 @@
       ]   
  }
   ],
-  "baseScale": 0.50625,
+  "baseScale": 0.6749999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

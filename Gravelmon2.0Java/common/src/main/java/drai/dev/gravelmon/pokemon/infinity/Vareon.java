@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Vareon extends Pokemon {
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
                 35, List.of(EggGroup.FIELD),
-                List.of("Vareon is the result of an Eevee trying to adapt to overly mutated DNA. This Pokémon seems to be able to change its typing fluidly throughout battle."),
+                List.of("Vareon is the result of an Eevee trying to adapt to overly mutated DNA. This Pokemon seems to be able to change its typing fluidly throughout battle."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),

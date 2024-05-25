@@ -7,7 +7,7 @@
       "id": "pressaur-1",
       "pokemon": "pressaur",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

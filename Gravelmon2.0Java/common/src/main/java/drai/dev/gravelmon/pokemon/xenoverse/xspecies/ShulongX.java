@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class ShulongX extends Pokemon {
                 90, ExperienceGroup.SLOW,
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
-                List.of("Made of pure X Energy, this Pokémon stuns its enemies from behind, then takes advantage of them and hits them relentlessly."),
+                List.of("Made of pure X Energy, this Pokemon stuns its enemies from behind, then takes advantage of them and hits them relentlessly."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),

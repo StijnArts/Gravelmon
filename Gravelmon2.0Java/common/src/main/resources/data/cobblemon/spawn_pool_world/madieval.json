@@ -7,7 +7,7 @@
       "id": "madieval-1",
       "pokemon": "madieval",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

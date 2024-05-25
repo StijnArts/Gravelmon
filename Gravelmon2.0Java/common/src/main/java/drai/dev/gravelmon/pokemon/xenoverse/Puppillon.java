@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Puppillon extends Pokemon {
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.AMORPHOUS, EggGroup.HUMAN_LIKE),
-                List.of("It takes control of other Pokémon to do whatever it wants. However, it does this not with malevolence, but just because it is bashful."),
+                List.of("It takes control of other Pokemon to do whatever it wants. However, it does this not with malevolence, but just because it is bashful."),
                 List.of(new EvolutionEntry("hangead", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"gravelmon:dread_pendant")),
                 List.of(

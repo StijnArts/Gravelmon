@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltamagmortar",
-  "nationalPokedexNumber": 466,
+  "nationalPokedexNumber": 467,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -151,15 +151,17 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltamagmortar.desc"
   ],
-  "baseScale": 0.3,
+  "preEvolution": "deltamagmar",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

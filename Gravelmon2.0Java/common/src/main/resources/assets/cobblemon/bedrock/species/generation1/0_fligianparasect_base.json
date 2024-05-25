@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fligianparasect",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_fligianparasect",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/fligianparasect.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/fligianparasect_shiny.png"
+    }  ]
+}

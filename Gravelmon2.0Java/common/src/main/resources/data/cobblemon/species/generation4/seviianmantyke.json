@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviianmantyke",
-  "nationalPokedexNumber": 455,
+  "nationalPokedexNumber": 458,
   "primaryType": "electric",
   "secondaryType": "poison",
   "abilities": [
@@ -108,9 +108,9 @@
   ],
   "evolutions": [
     {
-      "id": "seviianmantyke_seviianmantyne",
+      "id": "seviianmantyke_seviianmantine",
       "variant": "level_up",
-      "result": "seviianmantyne",
+      "result": "seviianmantine",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -121,10 +121,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

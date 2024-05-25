@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltablaziken",
-  "nationalPokedexNumber": 256,
+  "nationalPokedexNumber": 257,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -61,7 +61,7 @@
     "16:doublehit",
     "20:heartstamp",
     "25:quickattack",
-    "31:cosmicpower",
+    "31:cosmicpowercosmic",
     "36:fly",
     "37:imprison",
     "44:powergemcrystal",
@@ -194,15 +194,17 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltablaziken.desc"
   ],
-  "baseScale": 0.35625,
+  "preEvolution": "deltacombusken",
+  "baseScale": 0.47500000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

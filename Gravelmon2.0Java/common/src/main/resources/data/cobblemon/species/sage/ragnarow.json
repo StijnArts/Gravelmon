@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ragnarow",
-  "nationalPokedexNumber": 1319,
+  "nationalPokedexNumber": 1244,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -49,16 +49,6 @@
     "dragon",
     "water_1"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:spruce_log",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:tailwind",
     "1:whirlpool",
@@ -137,15 +127,18 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ragnarow.desc"
   ],
-  "baseScale": 0.6,
+  "preEvolution": "draggar",
+  "baseScale": 0.7999999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

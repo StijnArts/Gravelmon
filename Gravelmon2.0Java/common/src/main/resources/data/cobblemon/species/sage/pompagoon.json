@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pompagoon",
-  "nationalPokedexNumber": 1250,
+  "nationalPokedexNumber": 1175,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -49,16 +49,6 @@
     "field",
     "human_like"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:fakeout",
     "1:lowkick",
@@ -154,11 +144,14 @@
     "egg:quickguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pompagoon.desc"
   ],
+  "preEvolution": "pomparunt",
   "evolutions": [
     {
       "id": "pompagoon_hyekuza",
@@ -174,10 +167,10 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

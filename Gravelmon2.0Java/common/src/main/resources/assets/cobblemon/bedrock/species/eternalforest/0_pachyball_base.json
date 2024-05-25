@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pachyball",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:eternalforest_pachyball",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/eternalforest/pachyball.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/eternalforest/pachyball_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ospredator",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:umbra_ospredator",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/umbra/ospredator.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/umbra/ospredator_shiny.png"
+    }  ]
+}

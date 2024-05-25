@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "budewx",
-  "nationalPokedexNumber": 478,
+  "nationalPokedexNumber": 406,
   "primaryType": "sound",
   "secondaryType": "poison",
   "abilities": [
@@ -59,6 +59,7 @@
     "tm:venoshock",
     "tm:hiddenpower",
     "tm:protect",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:sludgebomb",
@@ -73,7 +74,8 @@
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",
-    "tutor:secretpower"  ],
+    "tutor:secretpower",
+    "tutor:soundbarrier"  ],
   "labels": [
     "xenoverse",
     "gen4",
@@ -99,8 +101,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

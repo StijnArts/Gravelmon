@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Kairoglyph extends Pokemon {
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
                 39, List.of(EggGroup.FIELD, EggGroup.MONSTER),
-                List.of("Kairoglyph values secrets and riddles above all else. The eye on its tail can reveal the innermost secrets of both humans and Pokémon."),
+                List.of("Kairoglyph values secrets and riddles above all else. The eye on its tail can reveal the innermost secrets of both humans and Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PSYCHO_SHIFT,1),

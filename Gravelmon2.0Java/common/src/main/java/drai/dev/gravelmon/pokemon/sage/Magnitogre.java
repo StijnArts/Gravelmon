@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Magnitogre extends Pokemon {
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
                 51, List.of(EggGroup.MINERAL),
-                List.of("Magnitogre was first discovered when factories became commonplace. It feeds on leftover industrial waste, providing a safe environment for other Pokémon."),
+                List.of("Magnitogre was first discovered when factories became commonplace. It feeds on leftover industrial waste, providing a safe environment for other Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SPIKES,1),

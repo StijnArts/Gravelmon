@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltachandelure",
-  "nationalPokedexNumber": 608,
+  "nationalPokedexNumber": 609,
   "primaryType": "fairy",
   "secondaryType": "fire",
   "abilities": [
@@ -94,6 +94,7 @@
     "tm:sleeptalksound",
     "tm:dazzlinggleam",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:allyswitch",
     "tm:roundsound",
@@ -123,15 +124,17 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltachandelure.desc"
   ],
-  "baseScale": 0.1875,
+  "preEvolution": "deltalampent",
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaavalugg",
-  "nationalPokedexNumber": 712,
+  "nationalPokedexNumber": 713,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -144,11 +144,13 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen6",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaavalugg.desc"
   ],
+  "preEvolution": "deltabergmite",
   "baseScale": 0.9,
   "hitbox": {
     "width": 4.0,

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianferaligatr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_ayreianferaligatr",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianferaligatr.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianferaligatr_shiny.png"
+    }  ]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "childer-1",
+      "pokemon": "childer",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "4-26",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#gravelmon:is_snowy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

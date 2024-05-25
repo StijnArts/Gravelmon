@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -11,7 +12,7 @@ public class Giragira extends Pokemon {
         super("Giragira",
                 Type.DARK, Type.PSYCHIC,
                 new Stats(70, 120, 70, 110, 70, 105),
-                List.of(Ability.PIXILATE, Ability.PIXILATE), Ability.SAP_SIPPER,
+                List.of(Ability.STRONG_JAW, Ability.STRONG_JAW), Ability.SAP_SIPPER,
                 23, 950,
                 new Stats(0,0,0,3,0,0), 60,
                 0.5,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghogloom",
-  "nationalPokedexNumber": 43,
+  "nationalPokedexNumber": 44,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -48,16 +48,6 @@
     "amorphous",
     "monster"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:memento",
     "1:taunt",
@@ -126,11 +116,13 @@
   "labels": [
     "infinity",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghogloom.desc"
   ],
+  "preEvolution": "eghooddish",
   "evolutions": [
     {
       "id": "eghogloom_viledoom",
@@ -160,10 +152,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

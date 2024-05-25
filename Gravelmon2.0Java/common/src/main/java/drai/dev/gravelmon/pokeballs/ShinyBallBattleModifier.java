@@ -10,7 +10,8 @@ public class ShinyBallBattleModifier implements CatchRateModifier {
 
     @Override
     public float value(@NotNull LivingEntity livingEntity, @NotNull Pokemon pokemon) {
-        return 255F;
+        if(pokemon.getShiny()) return 255F;
+        return 1F;
     }
 
     @NotNull

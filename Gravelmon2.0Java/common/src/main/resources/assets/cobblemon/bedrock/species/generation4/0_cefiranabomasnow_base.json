@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cefiranabomasnow",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_cefiranabomasnow",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/cefiranabomasnow.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/cefiranabomasnow_shiny.png"
+    }  ]
+}

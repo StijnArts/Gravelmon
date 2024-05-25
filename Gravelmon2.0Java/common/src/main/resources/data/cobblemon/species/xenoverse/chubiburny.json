@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chubiburny",
-  "nationalPokedexNumber": 1135,
+  "nationalPokedexNumber": 1538,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -62,6 +62,7 @@
     "29:lavaplume",
     "32:yawn",
     "36:recycle",
+    "40:sugarrush",
     "44:belch",
     "tm:toxic",
     "tm:hiddenpower",
@@ -121,10 +122,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

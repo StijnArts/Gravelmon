@@ -1,4 +1,32 @@
 {"target": "cobblemon:Corsola",
+ "evolutions": [
+  {
+   "id": "corsola_amacorala",
+   "variant": "level_up",
+   "result": "amacorala",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 26
+    }
+   ]
+  },
+  {
+   "id": "corsola_corsoreef",
+   "variant": "level_up",
+   "result": "corsoreef",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "friendship",
+     "amount": 200
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:harden",
     "1:tackle",

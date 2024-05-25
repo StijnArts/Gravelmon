@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghonoctowl",
-  "nationalPokedexNumber": 163,
+  "nationalPokedexNumber": 164,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -47,21 +47,6 @@
   "eggGroups": [
     "flying"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:foulplay",
     "1:growl",
@@ -128,11 +113,13 @@
   "labels": [
     "infinity",
     "gen2",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghonoctowl.desc"
   ],
+  "preEvolution": "eghohoothoot",
   "evolutions": [
     {
       "id": "eghonoctowl_grimfowl",
@@ -146,10 +133,10 @@
       "requiredContext": "cobblemon:dusk_stone"   
  }
   ],
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

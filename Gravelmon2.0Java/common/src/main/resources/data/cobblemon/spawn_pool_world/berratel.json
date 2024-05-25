@@ -7,7 +7,7 @@
       "id": "berratel-1",
       "pokemon": "berratel",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +19,7 @@
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_snowy" ]    }
+"biomes": [ "#gravelmon:is_snowy" ]    }
     }
   ]
 }

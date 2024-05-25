@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltacamerupt",
-  "nationalPokedexNumber": 322,
+  "nationalPokedexNumber": 323,
   "primaryType": "poison",
   "abilities": [
     "poisonpoint",
@@ -49,8 +49,8 @@
       ],
       "baseScale": 0.48,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -154,6 +154,7 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:roundsound",
     "tm:captivate",
@@ -185,15 +186,17 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltacamerupt.desc"
   ],
-  "baseScale": 0.13125,
+  "preEvolution": "deltanumel",
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

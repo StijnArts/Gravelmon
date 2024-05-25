@@ -3,9 +3,8 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import drai.dev.gravelmon.util.*;
-
 import java.util.*;
+import drai.dev.gravelmon.util.*;
 
 public class HoennianTangrowth extends Pokemon {
     public HoennianTangrowth(int dexNo) {
@@ -67,7 +66,7 @@ public class HoennianTangrowth extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Tangrowth");

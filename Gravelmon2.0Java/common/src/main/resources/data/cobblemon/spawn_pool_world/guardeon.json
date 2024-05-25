@@ -7,7 +7,7 @@
       "id": "guardeon-1",
       "pokemon": "guardeon",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

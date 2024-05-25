@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltasnivy",
-  "nationalPokedexNumber": 569,
+  "nationalPokedexNumber": 495,
   "primaryType": "water",
   "abilities": [
     "multiscale",
@@ -139,10 +139,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

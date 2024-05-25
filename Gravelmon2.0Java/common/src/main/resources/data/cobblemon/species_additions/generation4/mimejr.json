@@ -1,4 +1,19 @@
 {"target": "cobblemon:Mimejr",
+ "evolutions": [
+  {
+   "id": "mimejr_avorianmrmime",
+   "variant": "level_up",
+   "result": "avorianmrmime",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "suckerpunch"
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:barrier",
     "1:confusion",
@@ -16,7 +31,7 @@
     "15:mimic",
     "16:roleplay",
     "18:encore",
-    "18:mimic",
+    "18:suckerpunch",
     "20:protect",
     "22:lightscreen",
     "22:reflect",

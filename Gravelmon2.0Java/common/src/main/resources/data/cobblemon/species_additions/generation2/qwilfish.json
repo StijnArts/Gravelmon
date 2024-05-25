@@ -2,9 +2,10 @@
  "evolutions": [
   {
    "id": "qwilfish_kablowfish",
-   "variant": "item_interact",
+   "variant": "level_up",
    "result": "kablowfish",
    "consumeHeldItem": true,
+   "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {

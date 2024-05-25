@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:bowlaphod",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:fliga_bowlaphod",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/fliga/bowlaphod.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fliga/bowlaphod_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:avorianmrmime",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_avorianmrmime",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/avorianmrmime.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/avorianmrmime_shiny.png"
+    }  ]
+}

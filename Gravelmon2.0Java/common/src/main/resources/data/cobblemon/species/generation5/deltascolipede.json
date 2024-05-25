@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltascolipede",
-  "nationalPokedexNumber": 544,
+  "nationalPokedexNumber": 545,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -145,30 +145,17 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltascolipede.desc"
   ],
-  "evolutions": [
-    {
-      "id": "deltascolipede_deltascolipede",
-      "variant": "level_up",
-      "result": "deltascolipede",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 30
-        }
-      ]   
- }
-  ],
-  "baseScale": 0.225,
+  "preEvolution": "deltawhirlipede",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

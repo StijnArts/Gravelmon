@@ -1,8 +1,9 @@
 {
   "implemented": true,
   "name": "deltagreninja",
-  "nationalPokedexNumber": 657,
-  "primaryType": "water",
+  "nationalPokedexNumber": 658,
+  "primaryType": "grass",
+  "secondaryType": "fire",
   "abilities": [
     "steadfast",
     "h:prankster"
@@ -134,15 +135,17 @@
   "labels": [
     "gen6",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltagreninja.desc"
   ],
-  "baseScale": 0.28125,
+  "preEvolution": "deltafrogadier",
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "nodescape",
+  "nationalPokedexNumber": 1671,
+  "primaryType": "fairy",
+  "secondaryType": "rock",
+  "abilities": [
+    "battlearmor",
+    "h:magicguard"
+  ],
+  "baseStats": {
+    "hp": 66,
+    "attack": 63,
+    "defence": 93,
+    "special_attack": 77,
+    "special_defence": 90,
+    "speed": 21
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 144,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:hypnosis",
+    "1:dazzlinggleam",
+    "1:protect",
+    "1:helpinghand",
+    "1:rockthrow",
+    "1:wideguard",
+    "1:allyswitch",
+    "1:rockblast",
+    "1:bide",
+    "1:mirrorcoat",
+    "1:lightscreen",
+    "1:reflect",
+    "1:harden"  ],
+  "labels": [
+    "oceane",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.nodescape.desc"
+  ],
+  "preEvolution": "cupscape",
+  "evolutions": [
+    {
+      "id": "nodescape_reefazoid",
+      "variant": "level_up",
+      "result": "reefazoid",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nebyura",
-  "nationalPokedexNumber": 1133,
+  "nationalPokedexNumber": 1536,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -60,7 +60,7 @@
     "1:dive",
     "22:ancientpower",
     "26:haze",
-    "30:cosmicpower",
+    "30:cosmicpowercosmic",
     "35:smackdown",
     "42:storedpower",
     "48:gravitycosmic",
@@ -115,15 +115,18 @@
     "tutor:wonderroom"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.nebyura.desc"
   ],
-  "baseScale": 0.45,
+  "preEvolution": "sputnink",
+  "baseScale": 0.6,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

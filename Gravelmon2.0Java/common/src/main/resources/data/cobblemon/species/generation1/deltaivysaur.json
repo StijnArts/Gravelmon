@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaivysaur",
-  "nationalPokedexNumber": 1,
+  "nationalPokedexNumber": 2,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
@@ -108,6 +108,7 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -141,11 +142,13 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaivysaur.desc"
   ],
+  "preEvolution": "deltabulbasaur",
   "evolutions": [
     {
       "id": "deltaivysaur_deltavenusaur",

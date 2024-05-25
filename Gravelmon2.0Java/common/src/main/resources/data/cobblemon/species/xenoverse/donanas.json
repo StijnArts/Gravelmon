@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "donanas",
-  "nationalPokedexNumber": 1151,
+  "nationalPokedexNumber": 1554,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -99,6 +99,7 @@
     "egg:leafblade",
     "tutor:aircutter",
     "tutor:gigadrain",
+    "tutor:hawthorns",
     "tutor:hurricane",
     "tutor:irondefense",
     "tutor:ironhead",
@@ -116,10 +117,10 @@
   "pokedex": [
     "cobblemon.species.donanas.desc"
   ],
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

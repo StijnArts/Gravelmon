@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quibble",
-  "nationalPokedexNumber": 1191,
+  "nationalPokedexNumber": 1116,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -49,21 +49,6 @@
     "flying",
     "field"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:leer",
     "1:tackle",
@@ -75,6 +60,7 @@
     "19:aircutter",
     "22:tailwind",
     "25:uproar",
+    "28:tempest",
     "31:roost",
     "34:razorwind",
     "37:taunt",
@@ -154,8 +140,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

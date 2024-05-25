@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianpumpkaboo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation6_ayreianpumpkaboo",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/ayreianpumpkaboo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation6/ayreianpumpkaboo_shiny.png"
+    }  ]
+}

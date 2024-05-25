@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "icigloo-1",
+      "pokemon": "icigloo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "41-57",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#gravelmon:is_snowy" ],
+        "isRaining": true,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

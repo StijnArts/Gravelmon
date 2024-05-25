@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 import java.util.*;
 
 public class Tokakle extends Pokemon {
@@ -80,7 +79,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.4, 0.5,
                 List.of(new PokemonForm(
                         "Blue", false,
@@ -156,7 +155,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.4, 0.5
                 ),new PokemonForm(
                         "Blue", false,
@@ -232,7 +231,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.4, 0.5
                 ),new PokemonForm(
                         "Green", false,
@@ -308,7 +307,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.4, 0.5
                 ),new PokemonForm(
                         "Yellow", false,
@@ -384,7 +383,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.4, 0.5
                 ),new PokemonForm(
                         "Red", false,
@@ -460,7 +459,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.4, 0.5
                 )));
         this.setPortraitXYZ(0.1,2.0,0.0);

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltapawniard",
-  "nationalPokedexNumber": 623,
+  "nationalPokedexNumber": 624,
   "primaryType": "flying",
   "secondaryType": "fighting",
   "abilities": [
@@ -164,10 +164,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

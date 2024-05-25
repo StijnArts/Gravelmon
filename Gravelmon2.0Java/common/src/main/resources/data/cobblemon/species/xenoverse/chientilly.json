@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chientilly",
-  "nationalPokedexNumber": 1157,
+  "nationalPokedexNumber": 1560,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -54,7 +54,7 @@
       {
         "item": "gravelmon:xenolith",
         "quantityRange": "1-1",
-        "percentage": 50
+        "percentage": 40
       }
     ]
   },
@@ -73,7 +73,9 @@
     "1:milkdrink",
     "1:aromatherapy",
     "1:flail",
+    "44:creamwhip",
     "50:present",
+    "58:sugarrush",
     "tm:calmmind",
     "tm:toxic",
     "tm:hail",
@@ -96,19 +98,22 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:dazzlinggleam",
+    "tutor:magicwall",
     "tutor:secretpower",
     "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chientilly.desc"
   ],
-  "baseScale": 0.31875,
+  "preEvolution": "smearglex",
+  "baseScale": 0.425,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 40,

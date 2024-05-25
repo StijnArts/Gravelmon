@@ -1,15 +1,9 @@
 package drai.dev.gravelmon.registries;
 
-import com.cobblemon.mod.common.*;
-import com.cobblemon.mod.common.api.data.*;
-import com.cobblemon.mod.common.api.pokeball.*;
 import com.cobblemon.mod.common.item.*;
 import com.cobblemon.mod.common.pokeball.*;
-import com.google.gson.*;
 import dev.architectury.registry.registries.*;
 import drai.dev.gravelmon.apricorn.*;
-import drai.dev.gravelmon.pokeballs.*;
-import kotlin.jvm.*;
 import net.minecraft.core.registries.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
@@ -20,7 +14,7 @@ import static drai.dev.gravelmon.Gravelmon.MOD_ID;
 
 public class GravelmonItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
-    public static final ArrayList<RegistrySupplier<PokeBallItem>> POKE_BALLS = new ArrayList();
+    public static final ArrayList<RegistrySupplier<PokeBallItem>> POKE_BALLS = new ArrayList<>();
 
     //Evolution Items
     public static RegistrySupplier<Item> VARIA_STONE = item("varia_stone");
@@ -151,9 +145,8 @@ public class GravelmonItems {
     }
 
     private static RegistrySupplier<Item> heldItem(String name) {
-        var heldItem = ITEMS.register(name, ()-> new Item(new Item.Properties()));
         //CobblemonHeldItemManager.INSTANCE.registerRemap(heldItem.get(),name);
-        return heldItem;
+        return ITEMS.register(name, ()-> new Item(new Item.Properties()));
     }
 
     public static void touch(){

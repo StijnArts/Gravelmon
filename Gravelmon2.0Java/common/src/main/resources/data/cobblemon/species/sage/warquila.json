@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "warquila",
-  "nationalPokedexNumber": 1111,
+  "nationalPokedexNumber": 1036,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -48,26 +48,6 @@
   "eggGroups": [
     "flying"
   ],
-  "drops": {
-    "amount": "6",
-    "entries": [
-      {
-        "item": "cobblemon:sharp_beak",
-        "quantityRange": "1-1",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2",
-        "percentage": 40
-      }
-    ]
-  },
   "moves": [
     "1:skydrop",
     "1:peck",
@@ -139,15 +119,18 @@
     "egg:whirlwind"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.warquila.desc"
   ],
-  "baseScale": 0.225,
+  "preEvolution": "aquilor",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

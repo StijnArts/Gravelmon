@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaSnorlax extends Pokemon {
                 189, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("Trees and plants tend to grow on this Pokémon’s back because it moves so little. It loves eating food while playing with tiny Pokémon."),
+                List.of("Trees and plants tend to grow on this Pokemon’s back because it moves so little. It loves eating food while playing with tiny Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,1),

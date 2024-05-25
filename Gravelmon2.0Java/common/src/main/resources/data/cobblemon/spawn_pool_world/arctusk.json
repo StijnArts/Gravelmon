@@ -7,7 +7,7 @@
       "id": "arctusk-1",
       "pokemon": "arctusk",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -15,7 +15,7 @@
       "level": "8-25",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
+"biomes": [ "#gravelmon:is_snowy" ],
         "canSeeSky": false
       }
     }

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fungorse",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:opal_fungorse",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/opal/fungorse.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/opal/fungorse_shiny.png"
+    }  ]
+}

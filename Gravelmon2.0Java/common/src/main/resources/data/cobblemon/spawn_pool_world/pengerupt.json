@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pengerupt-1",
+      "pokemon": "pengerupt",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-52",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_basalt" ]
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltatangela",
-  "nationalPokedexNumber": 110,
+  "nationalPokedexNumber": 114,
   "primaryType": "ground",
   "abilities": [
     "dryskin",
@@ -146,10 +146,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

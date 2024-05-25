@@ -10,6 +10,6 @@ public class Insurgence extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new UFI(1100));
+        pokemon.add(new UFI());
     }
 }

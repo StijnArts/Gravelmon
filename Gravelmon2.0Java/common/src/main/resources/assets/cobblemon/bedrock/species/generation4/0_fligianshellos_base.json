@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fligianshellos",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_fligianshellos",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/fligianshellos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/fligianshellos_shiny.png"
+    }  ]
+}

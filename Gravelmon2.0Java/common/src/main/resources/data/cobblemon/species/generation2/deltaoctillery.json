@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaoctillery",
-  "nationalPokedexNumber": 223,
+  "nationalPokedexNumber": 224,
   "primaryType": "fire",
   "abilities": [
     "heatproof",
@@ -144,15 +144,17 @@
   "labels": [
     "gen2",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaoctillery.desc"
   ],
-  "baseScale": 0.16875,
+  "preEvolution": "deltaremoraid",
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "trishoutastral",
-  "nationalPokedexNumber": 1100,
+  "nationalPokedexNumber": 1499,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "voicetuning",
+    "h:voicetuning"
   ],
   "baseStats": {
     "hp": 143,
@@ -47,9 +47,55 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:ember",
     "1:tackle",
+    "6:babble",
     "9:howlsound",
     "13:takedown",
     "18:firefang",
@@ -69,6 +115,7 @@
     "tm:taunt",
     "tm:hyperbeam",
     "tm:protect",
+    "tm:subwoofer",
     "tm:solarbeam",
     "tm:earthquake",
     "tm:return",
@@ -93,9 +140,12 @@
     "tutor:heatwave",
     "tutor:hypervoicesound",
     "tutor:irontail",
+    "tutor:scorchedashes",
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
+    "tutor:soundbarrier",
+    "tutor:soundpledge",
     "tutor:uproar"  ],
   "labels": [
     "xenoverse",
@@ -142,10 +192,10 @@
       ]   
  }
   ],
-  "baseScale": 0.58125,
+  "baseScale": 0.775,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

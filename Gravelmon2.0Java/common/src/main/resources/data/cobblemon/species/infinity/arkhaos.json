@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arkhaos",
-  "nationalPokedexNumber": 1382,
+  "nationalPokedexNumber": 1463,
   "primaryType": "cosmic",
   "abilities": [
     "shedskin",
@@ -48,7 +48,7 @@
   ],
   "moves": [
     "1:extremespeed",
-    "1:cosmicpower",
+    "1:cosmicpowercosmic",
     "1:agility",
     "1:coil",
     "10:storedpower",
@@ -200,7 +200,7 @@
   "pokedex": [
     "cobblemon.species.arkhaos.desc"
   ],
-  "baseScale": 16.5,
+  "baseScale": 22.0,
   "hitbox": {
     "width": 3.0,
     "height": 3.0,

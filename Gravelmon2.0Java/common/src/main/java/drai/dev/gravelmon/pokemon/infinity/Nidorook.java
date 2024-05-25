@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -14,7 +15,7 @@ public class Nidorook extends Pokemon {
                 List.of(Ability.POISON_POINT, Ability.MERCILESS), Ability.SHEER_FORCE,
                 14, 768,
                 new Stats(0,2,0,0,0,2), 45,
-                1,
+                0.5,
                 214, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.FIELD, EggGroup.MONSTER),
@@ -121,7 +122,9 @@ public class Nidorook extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.32, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
         this.setPreEvolution("nidorino");
+        setModeled(true);
+        setBaseScale(1);
+        setHitbox(1,1);
     }
 }

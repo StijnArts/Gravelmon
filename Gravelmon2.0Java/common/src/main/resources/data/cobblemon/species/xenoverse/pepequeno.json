@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pepequeno",
-  "nationalPokedexNumber": 1127,
+  "nationalPokedexNumber": 1529,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -85,10 +85,10 @@
       "requiredContext": "cobblemon:fire_stone"   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

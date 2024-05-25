@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "shakutto",
+  "nationalPokedexNumber": 2921,
+  "primaryType": "bug",
+  "secondaryType": "normal",
+  "abilities": [
+    "swarm",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 44,
+    "attack": 33,
+    "defence": 43,
+    "special_attack": 48,
+    "special_defence": 47,
+    "speed": 28
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 54,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:stringshot",
+    "1:tackle",
+    "9:bugbite"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.shakutto.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "shakutto_kureigu",
+      "variant": "level_up",
+      "result": "kureigu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 13
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 178,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

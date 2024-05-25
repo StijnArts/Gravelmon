@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoenniandreepy",
-  "nationalPokedexNumber": 781,
+  "nationalPokedexNumber": 885,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -73,6 +73,7 @@
     "tm:thunder",
     "tm:return",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:shockwave",
     "tm:flamethrower",
     "tm:sludgebomb",
@@ -110,10 +111,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

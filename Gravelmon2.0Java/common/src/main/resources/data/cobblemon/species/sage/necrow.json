@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "necrow",
-  "nationalPokedexNumber": 1230,
+  "nationalPokedexNumber": 1155,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -48,21 +48,6 @@
   "eggGroups": [
     "flying"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:bone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:nightshade",
     "1:sandattack",
@@ -134,11 +119,14 @@
     "egg:whirlwind"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.necrow.desc"
   ],
+  "preEvolution": "desoula",
   "evolutions": [
     {
       "id": "necrow_vultergyst",
@@ -152,10 +140,10 @@
       "requiredContext": "cobblemon:dusk_stone"   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

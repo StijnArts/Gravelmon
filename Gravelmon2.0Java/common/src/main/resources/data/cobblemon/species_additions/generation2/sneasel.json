@@ -1,5 +1,25 @@
 {"target": "cobblemon:Sneasel",
-   "moves": [
+ "evolutions": [
+  {
+   "id": "sneasel_reavler",
+   "variant": "level_up",
+   "result": "reavler",
+   "consumeHeldItem": true,
+   "learnableMoves": [],
+     "permanent": true,
+   "requirements": [
+      {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:razor_claw"
+    },
+    {
+     "variant": "time_range",
+     "range": "night"
+    }
+   ]
+  }
+ ],
+ "moves": [
     "1:leer",
     "1:scratch",
     "6:taunt",

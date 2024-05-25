@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "musbushel",
-  "nationalPokedexNumber": 1139,
+  "nationalPokedexNumber": 1064,
   "primaryType": "normal",
   "secondaryType": "grass",
   "abilities": [
@@ -48,26 +48,6 @@
     "field",
     "grass"
   ],
-  "drops": {
-    "amount": "8",
-    "entries": [
-      {
-        "item": "minecraft:sweet_berry",
-        "quantityRange": "1-3",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:glow_berry",
-        "quantityRange": "1-3",
-        "percentage": 40
-      },
-      {
-        "item": "cobblemon:berry_sweet",
-        "quantityRange": "1-2",
-        "percentage": 20
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -153,15 +133,18 @@
     "egg:synthesis"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.musbushel.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "musburry",
+  "baseScale": 0.19999999999999998,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

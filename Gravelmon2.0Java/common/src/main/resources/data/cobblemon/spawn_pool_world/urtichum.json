@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "urtichum-1",
+      "pokemon": "urtichum",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "19-32",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean",
+"#minecraft:is_deep_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

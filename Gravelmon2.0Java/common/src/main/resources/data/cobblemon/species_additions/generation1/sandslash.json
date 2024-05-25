@@ -3,7 +3,7 @@
   {
    "id": "sandslash_sandrill",
    "variant": "level_up",
-   "result": "folifarig",
+   "result": "sandrill",
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [
@@ -12,9 +12,22 @@
      "minLevel": 36
     }
    ]
+  },
+  {
+   "id": "sandslash_sandridger",
+   "variant": "level_up",
+   "result": "sandridger",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 40
+    }
+   ]
   }
  ],
-   "moves": [
+ "moves": [
     "1:crushclaw",
     "1:defensecurl",
     "1:poisonsting",

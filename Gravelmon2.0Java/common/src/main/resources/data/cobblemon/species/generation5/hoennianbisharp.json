@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianbisharp",
-  "nationalPokedexNumber": 624,
+  "nationalPokedexNumber": 625,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -50,6 +50,7 @@
   "moves": [
     "1:slash",
     "1:batonpass",
+    "50:knightsvow",
     "tm:toxic",
     "tm:pursuit",
     "tm:hiddenpower",
@@ -60,6 +61,7 @@
     "tm:earthquake",
     "tm:return",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:sandstorm",
     "tm:gigaimpact",
@@ -75,15 +77,17 @@
   "labels": [
     "blazing_emerald",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoennianbisharp.desc"
   ],
-  "baseScale": 0.3375,
+  "preEvolution": "hoennianpawniard",
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

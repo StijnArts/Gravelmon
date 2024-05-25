@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ocerumi",
-  "nationalPokedexNumber": 1264,
+  "nationalPokedexNumber": 1189,
   "primaryType": "fighting",
   "abilities": [
     "ironfist",
@@ -46,16 +46,6 @@
   "eggGroups": [
     "human_like"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:cocoa_beans",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:bulletpunch",
     "1:dizzypunch",
@@ -130,15 +120,18 @@
     "tutor:thunderpunch"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ocerumi.desc"
   ],
-  "baseScale": 0.3,
+  "preEvolution": "chayan",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "shyleon",
-  "nationalPokedexNumber": 1100,
+  "nationalPokedexNumber": 1498,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
     "rattled",
-    "h:keeneye"
+    "h:junglespirit"
   ],
   "baseStats": {
     "hp": 58,
@@ -47,6 +47,31 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:absorb",
     "1:pound",
@@ -88,11 +113,14 @@
     "tm:dazzlinggleam",
     "tutor:bind",
     "tutor:covet",
+    "tutor:fairypledge",
     "tutor:frenzyplant",
     "tutor:gigadrain",
+    "tutor:hawthorns",
     "tutor:irontail",
     "tutor:magiccoat",
     "tutor:magicroom",
+    "tutor:magicwall",
     "tutor:secretpower",
     "tutor:seedbomb",
     "tutor:sleeptalksound",

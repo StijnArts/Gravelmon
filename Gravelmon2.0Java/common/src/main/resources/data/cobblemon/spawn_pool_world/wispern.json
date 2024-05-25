@@ -7,7 +7,7 @@
       "id": "wispern-1",
       "pokemon": "wispern",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +16,8 @@
       "weight": 8.0,
       "condition": {
 "biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_tropical_island",
-"#cobblemon:is_tropical" ],
+"#cobblemon:is_jungle",
+"#cobblemon:is_jungle" ],
         "canSeeSky": true,
         "timeRange": "night"
       }

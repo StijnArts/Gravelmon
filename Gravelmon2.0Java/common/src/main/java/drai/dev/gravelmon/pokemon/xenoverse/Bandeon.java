@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Bandeon extends Pokemon {
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
                 35, List.of(EggGroup.FIELD),
-                List.of("It can perfectly replicate the sound of any musical instrument. Once it learns a melody, this Pokémon will never forget it."),
+                List.of("It can perfectly replicate the sound of any musical instrument. Once it learns a melody, this Pokemon will never forget it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SOUND_PLEDGE,1),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tapulelex",
-  "nationalPokedexNumber": 785,
+  "nationalPokedexNumber": 786,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:xenolith",
-        "quantityRange": "1-1",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:powdersnow",
     "1:psychic",
@@ -113,10 +103,10 @@
   "pokedex": [
     "cobblemon.species.tapulelex.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

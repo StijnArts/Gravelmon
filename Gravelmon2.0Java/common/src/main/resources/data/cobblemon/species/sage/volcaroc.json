@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "volcaroc",
-  "nationalPokedexNumber": 1152,
+  "nationalPokedexNumber": 1077,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:magma",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:harden",
@@ -139,11 +129,14 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.volcaroc.desc"
   ],
+  "preEvolution": "rocano",
   "evolutions": [
     {
       "id": "volcaroc_volcoalder",
@@ -157,10 +150,10 @@
       "requiredContext": "cobblemon:fire_stone"   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaTorterra extends Pokemon {
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("As it moves in the ocean continuously, pirates store their loot in its back for safekeeping. It oftentimes participates in treasure hunts for younger Pokémon."),
+                List.of("As it moves in the ocean continuously, pirates store their loot in its back for safekeeping. It oftentimes participates in treasure hunts for younger Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,1),

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pomara",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:eternalforest_pomara",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/eternalforest/pomara.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/eternalforest/pomara_shiny.png"
+    }  ]
+}

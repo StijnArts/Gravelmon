@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ghoskarf-1",
+      "pokemon": "ghoskarf",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-45",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#gravelmon:is_snowy" ],
+        "isRaining": true,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

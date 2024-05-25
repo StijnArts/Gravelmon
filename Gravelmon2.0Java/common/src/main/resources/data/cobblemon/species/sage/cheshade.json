@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cheshade",
-  "nationalPokedexNumber": 1245,
+  "nationalPokedexNumber": 1170,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:feintattack",
     "1:shadowclaw",
@@ -138,15 +128,18 @@
     "egg:pursuit"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cheshade.desc"
   ],
-  "baseScale": 0.16875,
+  "preEvolution": "chegrin",
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

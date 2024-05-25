@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kousetsu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:umbra_kousetsu",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/umbra/kousetsu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/umbra/kousetsu_shiny.png"
+    }  ]
+}

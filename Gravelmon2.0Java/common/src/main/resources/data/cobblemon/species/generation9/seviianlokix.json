@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviianlokix",
-  "nationalPokedexNumber": 919,
+  "nationalPokedexNumber": 920,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -100,15 +100,17 @@
   "labels": [
     "radicalred",
     "gen9",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviianlokix.desc"
   ],
-  "baseScale": 0.1875,
+  "preEvolution": "seviiannymble",
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

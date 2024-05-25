@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaquagsire",
-  "nationalPokedexNumber": 194,
+  "nationalPokedexNumber": 195,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -151,11 +151,13 @@
     "tutor:worryseed"  ],
   "labels": [
     "gen2",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaquagsire.desc"
   ],
+  "preEvolution": "deltawooper",
   "baseScale": 1.1,
   "hitbox": {
     "width": 0.8,

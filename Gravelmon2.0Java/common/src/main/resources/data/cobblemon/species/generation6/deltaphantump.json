@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaphantump",
-  "nationalPokedexNumber": 706,
+  "nationalPokedexNumber": 708,
   "primaryType": "fairy",
   "abilities": [
     "snowwarning",
@@ -104,6 +104,7 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:avalanche",
+    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
@@ -150,8 +151,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

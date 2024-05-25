@@ -7,7 +7,7 @@
       "id": "somberado-1",
       "pokemon": "somberado",
       "presets": [
-          "ruined_structures"
+          "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

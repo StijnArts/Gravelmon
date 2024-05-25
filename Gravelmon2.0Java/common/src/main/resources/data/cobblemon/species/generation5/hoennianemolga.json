@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "hoennianemolga",
-  "nationalPokedexNumber": 579,
+  "nationalPokedexNumber": 587,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "skyscourge",
+    "h:nefarious"
   ],
   "baseStats": {
     "hp": 75,
@@ -51,12 +51,15 @@
     "1:leechlife",
     "3:mist",
     "7:ominouswind",
+    "13:veiledsky",
     "21:airslash",
+    "31:spectralsap",
     "43:hyperfang",
     "tm:trickroom",
     "tm:toxic",
     "tm:pursuit",
     "tm:hiddenpower",
+    "tm:veiledsky",
     "tm:hyperbeam",
     "tm:protect",
     "tm:raindance",
@@ -67,6 +70,7 @@
     "tm:dig",
     "tm:psychic",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:shockwave",
     "tm:bravebird",
     "tm:gigaimpact",

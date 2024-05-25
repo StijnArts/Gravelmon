@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaspidermetang",
-  "nationalPokedexNumber": 374,
+  "nationalPokedexNumber": 375,
   "primaryType": "ground",
   "secondaryType": "bug",
   "abilities": [
@@ -150,11 +150,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaspidermetang.desc"
   ],
+  "preEvolution": "deltaspiderbeldum",
   "evolutions": [
     {
       "id": "deltaspidermetang_deltaspidermetagross",
@@ -170,10 +172,10 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

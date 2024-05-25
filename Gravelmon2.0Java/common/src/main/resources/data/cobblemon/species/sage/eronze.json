@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eronze",
-  "nationalPokedexNumber": 1320,
+  "nationalPokedexNumber": 1245,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "3",
-    "entries": [
-      {
-        "item": "minecraft:copper_block",
-        "quantityRange": "3-10",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:ancientpower",
     "1:lockon",
@@ -119,10 +109,10 @@
   "pokedex": [
     "cobblemon.species.eronze.desc"
   ],
-  "baseScale": 0.61875,
+  "baseScale": 0.8250000000000001,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

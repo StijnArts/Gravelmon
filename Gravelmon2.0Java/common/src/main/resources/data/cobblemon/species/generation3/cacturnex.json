@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cacturnex",
-  "nationalPokedexNumber": 331,
+  "nationalPokedexNumber": 332,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -53,7 +53,7 @@
       {
         "item": "gravelmon:xenolith",
         "quantityRange": "1-1",
-        "percentage": 50
+        "percentage": 40
       }
     ]
   },
@@ -126,11 +126,13 @@
     "tutor:worryseed"  ],
   "labels": [
     "xenoverse",
-    "gen3"
+    "gen3",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cacturnex.desc"
   ],
+  "preEvolution": "cacneax",
   "baseScale": 1.0,
   "hitbox": {
     "width": 0.8,

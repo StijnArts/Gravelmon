@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaAurorus extends Pokemon {
                 104, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon willingly offers rides to other Pokémon and ferries them to other islands. It can float in the ocean endlessly so long as the sun is shining."),
+                List.of("This Pokemon willingly offers rides to other Pokemon and ferries them to other islands. It can float in the ocean endlessly so long as the sun is shining."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SOAK,1),
@@ -116,9 +117,10 @@ public class DeltaAurorus extends Pokemon {
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.RARE, 39, 58, 0.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_WARM_OCEAN))
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.30, 0.3,
                 List.of());
         this.setLangFileName("Aurorus");

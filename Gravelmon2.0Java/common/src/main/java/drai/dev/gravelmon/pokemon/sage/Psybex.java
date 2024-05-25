@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Psybex extends Pokemon {
                 79, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 51, List.of(EggGroup.FIELD),
-                List.of("Psybex takes long journeys to mountain tops, searching for inner peace. Through meditation, it is able to see into the hearts of humans and Pokémon alike."),
+                List.of("Psybex takes long journeys to mountain tops, searching for inner peace. Through meditation, it is able to see into the hearts of humans and Pokemon alike."),
                 List.of(new EvolutionEntry("gnuru", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(

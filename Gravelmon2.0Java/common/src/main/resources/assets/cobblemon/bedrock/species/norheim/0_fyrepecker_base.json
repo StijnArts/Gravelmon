@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fyrepecker",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:norheim_fyrepecker",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/fyrepecker.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/fyrepecker_shiny.png"
+    }  ]
+}

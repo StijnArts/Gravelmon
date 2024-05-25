@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "trishoutterrestrial",
-  "nationalPokedexNumber": 1101,
+  "nationalPokedexNumber": 1499,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
     "guts",
-    "h:keeneye"
+    "h:voicetuning"
   ],
   "baseStats": {
     "hp": 88,
@@ -47,12 +47,48 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:firepunch",
     "1:jetstrike",
     "1:roarsound",
     "1:ember",
     "1:tackle",
+    "8:babble",
     "13:howlsound",
     "17:takedown",
     "21:firefang",
@@ -60,6 +96,7 @@
     "28:screechsound",
     "32:flamethrower",
     "36:hypervoicesound",
+    "38:soundbarrier",
     "40:swagger",
     "45:boomburstsound",
     "51:roarsound",
@@ -72,6 +109,7 @@
     "tm:taunt",
     "tm:hyperbeam",
     "tm:protect",
+    "tm:subwoofer",
     "tm:solarbeam",
     "tm:earthquake",
     "tm:return",
@@ -96,9 +134,12 @@
     "tutor:heatwave",
     "tutor:hypervoicesound",
     "tutor:irontail",
+    "tutor:scorchedashes",
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
+    "tutor:soundbarrier",
+    "tutor:soundpledge",
     "tutor:uproar"  ],
   "labels": [
     "xenoverse"

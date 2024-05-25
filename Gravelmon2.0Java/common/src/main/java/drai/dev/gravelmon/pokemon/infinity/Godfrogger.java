@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Godfrogger extends Pokemon {
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.MONSTER, EggGroup.WATER_1),
-                List.of("A lethargic Pokémon that prefers to give orders to its underlings instead of doing things itself. It tries to control wild areas, usually humid and swampy locations."),
+                List.of("A lethargic Pokemon that prefers to give orders to its underlings instead of doing things itself. It tries to control wild areas, usually humid and swampy locations."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

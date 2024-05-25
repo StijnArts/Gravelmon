@@ -1,5 +1,36 @@
 {"target": "cobblemon:Clamperl",
-   "moves": [
+ "evolutions": [
+  {
+   "id": "clamperl_novranhuntail",
+   "variant": "trade",
+   "result": "novranhuntail",
+   "consumeHeldItem": true,
+    "permanent": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:deep_sea_tooth"
+    }
+   ]
+  },
+  {
+   "id": "clamperl_novrangorebyss",
+   "variant": "trade",
+   "result": "novrangorebyss",
+   "consumeHeldItem": true,
+    "permanent": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:deep_sea_scale"
+    }
+   ]
+  }
+ ],
+
+ "moves": [
     "1:clamp",
     "1:irondefense",
     "1:watergun",

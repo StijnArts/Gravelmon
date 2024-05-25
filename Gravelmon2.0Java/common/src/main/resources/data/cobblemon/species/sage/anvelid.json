@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "anvelid",
-  "nationalPokedexNumber": 1257,
+  "nationalPokedexNumber": 1182,
   "primaryType": "steel",
   "abilities": [
     "shedskin",
@@ -48,16 +48,6 @@
     "mineral",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:iron_ore",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:thrash",
     "1:spikes",
@@ -122,11 +112,14 @@
     "egg:stealthrock"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.anvelid.desc"
   ],
+  "preEvolution": "orett",
   "evolutions": [
     {
       "id": "anvelid_magroplex",
@@ -142,10 +135,10 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

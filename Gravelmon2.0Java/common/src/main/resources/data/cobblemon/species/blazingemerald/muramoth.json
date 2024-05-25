@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "muramoth",
-  "nationalPokedexNumber": 1174,
+  "nationalPokedexNumber": 2178,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
+    "elusive",
     "h:illuminate"
   ],
   "baseStats": {
@@ -53,10 +53,14 @@
     "12:signalbeam",
     "16:attract",
     "24:confuseray",
+    "31:moonrazer",
+    "36:hivemind",
     "43:magiccoat",
+    "49:dazzledust",
     "tm:calmmind",
     "tm:toxic",
     "tm:hiddenpower",
+    "tm:veiledsky",
     "tm:hyperbeam",
     "tm:lightscreen",
     "tm:protect",
@@ -66,6 +70,7 @@
     "tm:psychic",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:sludgebomb",
@@ -77,15 +82,17 @@
     "tm:steelwing"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.muramoth.desc"
   ],
-  "baseScale": 0.13125,
+  "preEvolution": "hoennianvenonat",
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

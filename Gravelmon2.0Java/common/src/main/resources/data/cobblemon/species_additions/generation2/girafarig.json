@@ -30,6 +30,19 @@
      "minLevel": 30
     }
    ]
+  },
+  {
+   "id": "girafarig_kirinirik",
+   "variant": "level_up",
+   "result": "kirinirik",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "outrage"
+    }
+   ]
   }
  ],
    "moves": [
@@ -51,6 +64,7 @@
     "41:batonpass",
     "46:nastyplot",
     "50:psychic",
+    "55:outrage",
     "egg:allyswitch",
     "egg:amnesia",
     "egg:beatup",

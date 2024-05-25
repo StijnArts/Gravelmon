@@ -1,4 +1,23 @@
 {"target": "cobblemon:Noibat",
+ "evolutions": [
+  {
+   "id": "noibat_mythiannoivern",
+   "variant": "level_up",
+   "result": "mythiannoivern",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_glacial"
+    },
+    {
+     "variant": "level",
+     "minLevel": 48
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:absorb",
     "1:tackle",

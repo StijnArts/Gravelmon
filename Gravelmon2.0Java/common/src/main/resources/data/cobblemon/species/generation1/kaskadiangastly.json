@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "kaskadiangastly",
+  "nationalPokedexNumber": 92,
+  "primaryType": "ghost",
+  "secondaryType": "water",
+  "abilities": [
+    "levitate",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 35,
+    "defence": 40,
+    "special_attack": 80,
+    "special_defence": 25,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 26,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:confuseray",
+    "1:lick",
+    "4:raindance",
+    "8:meanlook",
+    "12:watergun",
+    "16:spite",
+    "20:curse",
+    "24:hex",
+    "28:nightshade",
+    "32:waterpulse",
+    "36:darkpulse",
+    "40:shadowball",
+    "44:destinybond",
+    "48:dreameater",
+    "egg:astonish",
+    "egg:clearsmog",
+    "egg:disable",
+    "egg:haze",
+    "egg:perishsongsound",
+    "egg:reflecttype",
+    "egg:smog",
+    "egg:toxic",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:confuseray",
+    "tm:thief",
+    "tm:facade",
+    "tm:hex",
+    "tm:icywind",
+    "tm:nightshade",
+    "tm:hydropump",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:foulplay",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:icepunch",
+    "tm:sleeptalksound",
+    "tm:dazzlinggleam",
+    "tm:liquidation",
+    "tm:rest",
+    "tm:taunt",
+    "tm:imprison",
+    "tm:darkpulse",
+    "tm:skillswap",
+    "tm:aquaring",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:trick",
+    "tm:gigadrain",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:thunderbolt",
+    "tm:nastyplot",
+    "tm:aquatail",
+    "tm:trickroom",
+    "tm:thunder",
+    "tm:terablast"  ],
+  "labels": [
+    "lockemon",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kaskadiangastly.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "kaskadiangastly_kaskadianhaunter",
+      "variant": "level_up",
+      "result": "kaskadianhaunter",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 1,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

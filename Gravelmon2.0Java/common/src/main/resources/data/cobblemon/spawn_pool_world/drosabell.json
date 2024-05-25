@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "drosabell-1",
+      "pokemon": "drosabell",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "34-50",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_arid",
+"#cobblemon:is_cold" ]    }
+    }
+  ]
+}

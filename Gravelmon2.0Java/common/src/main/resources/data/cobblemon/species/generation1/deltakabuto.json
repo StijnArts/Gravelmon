@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltakabuto",
-  "nationalPokedexNumber": 132,
+  "nationalPokedexNumber": 140,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -93,6 +93,7 @@
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
@@ -126,7 +127,7 @@
   "evolutions": [
     {
       "id": "deltakabuto_deltakabutops",
-      "variant": "item_interact",
+      "variant": "level_up",
       "result": "deltakabutops",
       "consumeHeldItem": false,
       "learnableMoves": [],
@@ -138,10 +139,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

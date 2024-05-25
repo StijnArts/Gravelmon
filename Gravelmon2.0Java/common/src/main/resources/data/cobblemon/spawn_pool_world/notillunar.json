@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "notillunar-1",
+      "pokemon": "notillunar",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "31-53",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_ocean" ],
+        "timeRange": "night",
+        "isRaining": false,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "royjibiv",
-  "nationalPokedexNumber": 1284,
+  "nationalPokedexNumber": 1209,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -53,11 +53,12 @@
       {
         "item": "gravelmon:kaleidoscope",
         "quantityRange": "1-1",
-        "percentage": 25
+        "percentage": 40
       }
     ]
   },
   "moves": [
+    "1:tempest",
     "1:psybeam",
     "1:morningsun",
     "1:sunnyday",
@@ -146,15 +147,18 @@
     "egg:recover"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.royjibiv.desc"
   ],
-  "baseScale": 0.84375,
+  "preEvolution": "arjibi",
+  "baseScale": 1.125,
   "hitbox": {
-    "width": 1.1538461538461537,
-    "height": 1.1538461538461537,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

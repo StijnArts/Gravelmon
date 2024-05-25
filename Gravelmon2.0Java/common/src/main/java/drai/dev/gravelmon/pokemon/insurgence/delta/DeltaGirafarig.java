@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaGirafarig extends Pokemon {
                 159, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by nico. The tail's insults temper the Pokémon's iron will, becoming stronger as the Pokémon grows."),
+                List.of("A Delta Species discovered by nico. The tail's insults temper the Pokemon's iron will, becoming stronger as the Pokemon grows."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BELCH,1),

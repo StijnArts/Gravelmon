@@ -1,0 +1,141 @@
+{
+  "implemented": true,
+  "name": "chiquail",
+  "nationalPokedexNumber": 1798,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "tangledfeet",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 66,
+    "attack": 53,
+    "defence": 42,
+    "special_attack": 43,
+    "special_defence": 43,
+    "speed": 56
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 240,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:quickattack",
+    "3:growl",
+    "10:pluck",
+    "17:featherdance",
+    "tm:dualwingbeat",
+    "tm:tailwind",
+    "tm:snoresound",
+    "tm:uturn",
+    "tm:darkpulse",
+    "tm:thief",
+    "tm:thunderbolt",
+    "tm:sunnyday",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:defog",
+    "tm:fly",
+    "tm:roost",
+    "tm:snowscape",
+    "tm:icebeam",
+    "tm:attract",
+    "tm:bide",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:hypervoicesound",
+    "tm:protect",
+    "tm:razorwind",
+    "tm:retaliate",
+    "tm:return",
+    "tm:roundsound",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:rest",
+    "tm:steelwing",
+    "tm:flatter",
+    "tm:babydolleyes",
+    "tm:charm",
+    "tm:featherdance",
+    "tm:flail",
+    "tm:razorwind"  ],
+  "labels": [
+    "junnin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.chiquail.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "chiquail_mavriquail",
+      "variant": "level_up",
+      "result": "mavriquail",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

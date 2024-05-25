@@ -38,8 +38,8 @@ public class CreativeTabInit {
                         return Unit.INSTANCE;
                     }
                 }
+                var language = Language.getInstance();
                 if(stackDescription.contains("nuzlocke")){
-                    var language = Language.getInstance();
                     var key1 = baseLangKeyForItem(stack)+1;
                     var key2 = baseLangKeyForItem(stack)+2;
                     if (language.has(key1)) {
@@ -49,7 +49,6 @@ public class CreativeTabInit {
                         lines.add(Component.translatable(key2).setStyle(Style.EMPTY.withColor(ChatFormatting.DARK_RED)));
                     }
                 } else {
-                    var language = Language.getInstance();
                     var key = baseLangKeyForItem(stack);
                     if (language.has(key)) {
                         lines.add(Component.translatable(key).setStyle(Style.EMPTY.withColor(ChatFormatting.GRAY)));

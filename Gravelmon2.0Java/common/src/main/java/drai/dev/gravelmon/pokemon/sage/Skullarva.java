@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Skullarva extends Pokemon {
                 43, ExperienceGroup.FAST,
                 70,
                 39, List.of(EggGroup.BUG),
-                List.of("Skullarva spends its early life hidden away in damp caves and crevasses. It tries to scare away predators and trainers by mimicking the cries of stronger Pokémon."),
+                List.of("Skullarva spends its early life hidden away in damp caves and crevasses. It tries to scare away predators and trainers by mimicking the cries of stronger Pokemon."),
                 List.of(new EvolutionEntry("maskoon", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"13")))),
                 List.of(

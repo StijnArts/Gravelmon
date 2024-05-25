@@ -16,10 +16,6 @@ public class LangJSONWriter {
         game.getPokemon().forEach(pokemon -> {writePokemon(pokemon);});
     }
 
-    public static void writePlaceholder(){
-        EghoPokemon.placeholders.forEach(pokemon -> {writePokemon(pokemon);});
-    }
-
     public static void writeTranslationKey(String key, String text){
         contents+="    \""+key+"\": \"" + text + "\",\n";
     }
@@ -38,10 +34,13 @@ public class LangJSONWriter {
                 contents += "    \"cobblemon.species." + pokemon.getCleanName() + ".name\": \"" + pokemon.getName() + "\",\n";
             }
 
-            for (String entry : pokemon.getDexEntries()) {
-                contents += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc\": \"" + entry + "\"";
-                dexEntryCounter++;
+            if(pokemon.getDexEntries().size() > 0){
+                for (String entry : pokemon.getDexEntries()) {
+                    contents += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc\": \"" + entry + "\"";
+                    dexEntryCounter++;
+                }
             }
+
         }
         for (PokemonForm form : pokemon.getForms()){
             if (isFirst) {
@@ -51,9 +50,11 @@ public class LangJSONWriter {
             }
             contents+="    \"cobblemon.species."+form.getCleanName()+"_"+pokemon.getCleanName()+".name\": \""+pokemon.getName()+"\"";
             dexEntryCounter = 1;
-            for (String entry : form.getDexEntries()){
-                contents += ",\n    \"cobblemon.species."+form.getCleanName()+"_"+pokemon.getCleanName()+".desc"+dexEntryCounter+"\": \""+entry+"\"";
-                dexEntryCounter++;
+            if(pokemon.getDexEntries().size() > 0) {
+                for (String entry : form.getDexEntries()) {
+                    contents += ",\n    \"cobblemon.species." + form.getCleanName() + "_" + pokemon.getCleanName() + ".desc" + dexEntryCounter + "\": \"" + entry + "\"";
+                    dexEntryCounter++;
+                }
             }
         }
     }

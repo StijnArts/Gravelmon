@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:doodloo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:deneb_doodloo",
+      "model": "cobblemon:deneb_doodloo.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/doodloo/doodloo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/doodloo/doodloo_shiny.png"
+    }  ]
+}

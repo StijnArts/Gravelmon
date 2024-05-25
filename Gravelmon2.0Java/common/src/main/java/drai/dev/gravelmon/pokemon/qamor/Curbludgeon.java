@@ -1,0 +1,59 @@
+package drai.dev.gravelmon.pokemon.qamor;
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
+
+public class Curbludgeon extends drai.dev.gravelmon.pokemon.Pokemon {
+    public Curbludgeon() {
+        super("Curbludgeon",
+                Type.STEEL,
+                new Stats(111,
+                        111,
+                        111,
+                        61,
+                        71,
+                        41),
+                List.of(Ability.ROCK_HEAD), Ability.HEAVY_METAL,
+                16, 165,
+                new Stats(0,0,0,0,0,0), 70,
+                0.5,
+                0, ExperienceGroup.ERRATIC,
+                70,
+                50, List.of(EggGroup.WATER_2),
+                List.of(""),
+                List.of(),
+                List.of(
+                        new MoveLearnSetEntry(Move.WIDE_GUARD,1),
+                        new MoveLearnSetEntry(Move.POISON_STING,6),
+                        new MoveLearnSetEntry(Move.PROTECT,10),
+                        new MoveLearnSetEntry(Move.TICKLE,15),
+                        new MoveLearnSetEntry(Move.BUBBLE_BEAM,20),
+                        new MoveLearnSetEntry(Move.REFLECT,25),
+                        new MoveLearnSetEntry(Move.MIRROR_SHOT,29),
+                        new MoveLearnSetEntry(Move.IRON_DEFENSE,35),
+                        new MoveLearnSetEntry(Move.RAZOR_SHELL,39),
+                        new MoveLearnSetEntry(Move.POWER_TRICK,44),
+                        new MoveLearnSetEntry(Move.SHIELD_BASH,49),
+                        new MoveLearnSetEntry(Move.METAL_BURST,56),
+                        new MoveLearnSetEntry(Move.SHELL_SMASH,63)
+                ),
+                List.of(Label.QAMOR),
+                0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 41, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
+
+    }
+
+
+}

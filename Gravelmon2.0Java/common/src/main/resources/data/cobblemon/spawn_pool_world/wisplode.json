@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wisplode-1",
+      "pokemon": "wisplode",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "33-54",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky",
+"#cobblemon:is_nether_basalt" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+  ]
+}

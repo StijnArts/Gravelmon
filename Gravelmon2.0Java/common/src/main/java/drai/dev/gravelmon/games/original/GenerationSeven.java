@@ -1,17 +1,30 @@
 package drai.dev.gravelmon.games.original;
 
-import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
+import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.nosto.regional.*;
+import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
+import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
-public class GenerationSeven extends Original {
+import java.util.*;
+
+public class GenerationSeven extends Game {
     public GenerationSeven() {
         super("generation7");
     }
 
     @Override
     public void registerPokemon() {
+
+        pokemon.add(new VaritasianBounsweet(761));
+        pokemon.add(new VaritasianSteenee(762));
+
         //X-Species (Xenoverse)
         pokemon.add(new MareanieX(747));
         pokemon.add(new ToxapexX(748));
@@ -28,6 +41,18 @@ public class GenerationSeven extends Original {
         //Radical Red
         pokemon.add(new SeviianWishiwashi(746));
         pokemon.add(new SeviianDhelmise(781));
+
+        //Vanguard
+        pokemon.add(new AyreianYungoos(734));
+        pokemon.add(new AyreianGumshoos(735));
+
+        //Kaskadian
+        pokemon.add(new KaskadianPalossand(770));
+        pokemon.add(new KaskadianBruxish(779));
+
+        //Azure (Mystic)
+        pokemon.add(new MysticStufful(759));
+        pokemon.add(new MysticBewear(760));
 
     }
 }

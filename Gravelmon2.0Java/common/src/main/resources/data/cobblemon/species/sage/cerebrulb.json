@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cerebrulb",
-  "nationalPokedexNumber": 1157,
+  "nationalPokedexNumber": 1082,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:glowstone_dust",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:lusterpurge",
     "1:skillswap",
@@ -144,10 +134,10 @@
   "pokedex": [
     "cobblemon.species.cerebrulb.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

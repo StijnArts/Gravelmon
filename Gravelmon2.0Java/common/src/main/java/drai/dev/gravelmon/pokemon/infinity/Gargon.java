@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Gargon extends Pokemon {
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 100, List.of(EggGroup.MINERAL, EggGroup.DRAGON),
-                List.of("Gargon is one of the earliest discovered Dragon Pokémon, and was a symbol of the Dragon Tamer Clan in Johto. Statues of this Pokémon are scattered around the world."),
+                List.of("Gargon is one of the earliest discovered Dragon Pokemon, and was a symbol of the Dragon Tamer Clan in Johto. Statues of this Pokemon are scattered around the world."),
                 List.of(new EvolutionEntry("wardern", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
@@ -106,7 +107,7 @@ public class Gargon extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.23, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

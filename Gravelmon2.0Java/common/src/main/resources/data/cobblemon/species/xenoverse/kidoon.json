@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kidoon",
-  "nationalPokedexNumber": 1115,
+  "nationalPokedexNumber": 1516,
   "primaryType": "flying",
   "abilities": [
     "dryskin",
@@ -56,6 +56,7 @@
     "egg:whirlwind",
     "egg:dragonbreath",
     "egg:haze",
+    "egg:hiss",
     "tutor:aircutter",
     "tutor:bind",
     "tutor:hurricane",
@@ -85,10 +86,10 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "skewern",
+  "nationalPokedexNumber": 1585,
+  "primaryType": "grass",
+  "abilities": [
+    "hustle",
+    "superluck",
+    "h:skilllink"
+  ],
+  "baseStats": {
+    "hp": 54,
+    "attack": 42,
+    "defence": 62,
+    "special_attack": 39,
+    "special_defence": 38,
+    "speed": 47
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:harden",
+    "5:leer",
+    "9:vinewhip",
+    "13:lowkick",
+    "17:armthrust",
+    "21:needlearm",
+    "25:brickbreak",
+    "33:bulkup",
+    "37:spikyshield",
+    "41:hammerarm",
+    "45:woodhammer",
+    "49:irondefense",
+    "53:highhorsepower",
+    "57:closecombat",
+    "60:flowershield"  ],
+  "labels": [
+    "avoris",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.skewern.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "skewern_pierceed",
+      "variant": "level_up",
+      "result": "pierceed",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 14
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

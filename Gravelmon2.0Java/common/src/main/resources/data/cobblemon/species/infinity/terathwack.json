@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terathwack",
-  "nationalPokedexNumber": 1357,
+  "nationalPokedexNumber": 1424,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "monster"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:long_club",
-        "quantityRange": "1-1",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:bonesweep",
     "1:boneclub",
@@ -178,10 +168,10 @@
     "cobblemon.species.terathwack.desc"
   ],
   "preEvolution": "marowak",
-  "baseScale": 0.4875,
+  "baseScale": 0.65,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

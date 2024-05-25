@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swirlixx",
-  "nationalPokedexNumber": 681,
+  "nationalPokedexNumber": 684,
   "primaryType": "poison",
   "abilities": [
     "poisontouch",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:sweetscent",
@@ -70,6 +80,7 @@
     "tm:protect",
     "tm:raindance",
     "tm:safeguard",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:sludgebomb",
@@ -104,10 +115,10 @@
       "requiredContext": "gravelmon:xenolith"   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

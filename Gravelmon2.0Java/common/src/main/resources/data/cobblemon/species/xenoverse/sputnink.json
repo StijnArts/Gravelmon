@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sputnink",
-  "nationalPokedexNumber": 1132,
+  "nationalPokedexNumber": 1535,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -57,7 +57,7 @@
     "18:dive",
     "22:ancientpower",
     "26:haze",
-    "30:cosmicpower",
+    "30:cosmicpowercosmic",
     "35:smackdown",
     "40:storedpower",
     "44:gravitycosmic",
@@ -128,10 +128,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

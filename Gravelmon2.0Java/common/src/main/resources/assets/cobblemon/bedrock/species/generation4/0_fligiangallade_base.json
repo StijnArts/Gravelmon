@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fligiangallade",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_fligiangallade",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/fligiangallade.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/fligiangallade_shiny.png"
+    }  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianpinsir",
-  "nationalPokedexNumber": 114,
+  "nationalPokedexNumber": 127,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -67,6 +67,7 @@
     "tm:return",
     "tm:dig",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:sludgebomb",
     "tm:sandstorm",
     "tm:rocktomb",
@@ -92,10 +93,10 @@
   "pokedex": [
     "cobblemon.species.hoennianpinsir.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

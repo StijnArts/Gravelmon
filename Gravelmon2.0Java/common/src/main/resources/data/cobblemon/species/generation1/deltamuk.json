@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltamuk",
-  "nationalPokedexNumber": 88,
+  "nationalPokedexNumber": 89,
   "primaryType": "ground",
   "abilities": [
     "sapsipper",
@@ -148,11 +148,13 @@
     "tutor:uproar"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltamuk.desc"
   ],
+  "preEvolution": "deltagrimer",
   "baseScale": 1.4,
   "hitbox": {
     "width": 1.4,

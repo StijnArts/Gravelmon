@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianspinarak",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_ayreianspinarak",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianspinarak.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianspinarak_shiny.png"
+    }  ]
+}

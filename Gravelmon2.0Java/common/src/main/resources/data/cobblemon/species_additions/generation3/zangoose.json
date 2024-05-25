@@ -10,15 +10,58 @@
  },
  "evolutions": [
   {
+   "id": "zangoose_viperzang",
+   "variant": "level_up",
+   "result": "viperzang",
+   "consumeHeldItem": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "party_member",
+     "target": "seviper",
+     "contains": true
+    }
+   ]
+  },
+  {
+   "id": "zangoose_viperzang",
+   "variant": "level_up",
+   "result": "viperzang",
+   "consumeHeldItem": true,
+   "permanent": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:dusk_stone"
+    }
+   ]
+  },
+  {
    "id": "zangoose_zangoro",
-   "variant": "item_interact",
+   "variant": "level_up",
    "result": "zangoro",
    "consumeHeldItem": true,
+   "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {
      "variant": "held_item",
      "itemCondition": "gravelmon:murky_claw"
+    }
+   ]
+  },
+  {
+   "id": "zangoose_zangarsh",
+   "variant": "level_up",
+   "result": "zangarsh",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 39
     }
    ]
   }

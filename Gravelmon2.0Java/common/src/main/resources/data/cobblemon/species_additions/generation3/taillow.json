@@ -1,4 +1,20 @@
 {"target": "cobblemon:Taillow",
+ "evolutions": [
+  {
+   "id": "taillow_armiranswellow",
+   "variant": "level_up",
+   "result": "armiranswellow",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_highlands"
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:growl",
     "1:peck",

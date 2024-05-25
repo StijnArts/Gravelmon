@@ -1,4 +1,23 @@
 {"target": "cobblemon:Lillipup",
+ "evolutions": [
+  {
+   "id": "lillipup_novranherdier",
+   "variant": "level_up",
+   "result": "novranherdier",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_snowy"
+    },
+    {
+     "variant": "level",
+     "minLevel": 16
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:leer",
     "1:tackle",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltavolcarona",
-  "nationalPokedexNumber": 636,
+  "nationalPokedexNumber": 637,
   "primaryType": "dark",
   "secondaryType": "poison",
   "abilities": [
@@ -51,8 +51,8 @@
       ],
       "baseScale": 0.3,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -189,6 +189,7 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:skydrop",
     "tm:roundsound",
@@ -242,15 +243,17 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltavolcarona.desc"
   ],
-  "baseScale": 0.3,
+  "preEvolution": "deltalarvesta",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

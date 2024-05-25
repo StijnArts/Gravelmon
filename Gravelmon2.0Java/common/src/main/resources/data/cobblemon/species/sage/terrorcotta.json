@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terrorcotta",
-  "nationalPokedexNumber": 1215,
+  "nationalPokedexNumber": 1140,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -49,16 +49,6 @@
     "grass",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:terracotta",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:spikes",
     "1:pinmissile",
@@ -139,15 +129,18 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.terrorcotta.desc"
   ],
-  "baseScale": 0.375,
+  "preEvolution": "trikotta",
+  "baseScale": 0.5,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

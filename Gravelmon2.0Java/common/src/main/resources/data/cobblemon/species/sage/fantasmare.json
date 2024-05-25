@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fantasmare",
-  "nationalPokedexNumber": 1241,
+  "nationalPokedexNumber": 1166,
   "primaryType": "ghost",
   "abilities": [
     "perforate",
@@ -48,16 +48,6 @@
     "field",
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:dead_bush",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:nightmare",
     "1:flamecharge",
@@ -115,15 +105,18 @@
     "egg:smokescreen"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fantasmare.desc"
   ],
-  "baseScale": 0.31875,
+  "preEvolution": "coltergeist",
+  "baseScale": 0.425,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

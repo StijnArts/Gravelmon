@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghoaltaria",
-  "nationalPokedexNumber": 333,
+  "nationalPokedexNumber": 334,
   "primaryType": "dragon",
   "secondaryType": "ice",
   "abilities": [
@@ -48,21 +48,6 @@
     "flying",
     "dragon"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:defog",
     "1:pluck",
@@ -142,15 +127,17 @@
   "labels": [
     "infinity",
     "gen3",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghoaltaria.desc"
   ],
-  "baseScale": 0.1875,
+  "preEvolution": "eghoswablu",
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

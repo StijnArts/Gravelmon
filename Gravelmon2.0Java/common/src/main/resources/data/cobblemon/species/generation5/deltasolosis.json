@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltasolosis",
-  "nationalPokedexNumber": 563,
+  "nationalPokedexNumber": 577,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
@@ -148,9 +148,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltasolosis_deltasolosis",
+      "id": "deltasolosis_deltaduosion",
       "variant": "level_up",
-      "result": "deltasolosis",
+      "result": "deltaduosion",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -163,8 +163,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

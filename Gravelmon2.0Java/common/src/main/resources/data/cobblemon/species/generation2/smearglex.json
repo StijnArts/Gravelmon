@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "smearglex",
-  "nationalPokedexNumber": 201,
+  "nationalPokedexNumber": 235,
   "primaryType": "fairy",
   "abilities": [
     "immunity",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:lick",
     "1:sweetscent",
@@ -60,7 +70,9 @@
     "24:charm",
     "28:wringout",
     "32:milkdrink",
+    "36:creamwhip",
     "39:present",
+    "43:sugarrush",
     "tm:calmmind",
     "tm:toxic",
     "tm:hail",
@@ -100,10 +112,10 @@
       "requiredContext": "gravelmon:xenolith"   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

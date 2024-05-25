@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltanoibat",
-  "nationalPokedexNumber": 713,
+  "nationalPokedexNumber": 714,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -168,10 +168,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

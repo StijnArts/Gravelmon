@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:relicgogoat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation6_relicgogoat",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/relicgogoat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation6/relicgogoat_shiny.png"
+    }  ]
+}

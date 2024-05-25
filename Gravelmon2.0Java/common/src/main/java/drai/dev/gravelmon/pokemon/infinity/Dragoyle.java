@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Dragoyle extends Pokemon {
                 199, ExperienceGroup.MEDIUM_FAST,
                 70,
                 100, List.of(EggGroup.MINERAL, EggGroup.DRAGON),
-                List.of("Hundreds of years ago, this Pokémon would be perched atop cathedrals and large stone architecture. It seemed to want to protect the inhabitants below."),
+                List.of("Hundreds of years ago, this Pokemon would be perched atop cathedrals and large stone architecture. It seemed to want to protect the inhabitants below."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_POLISH,1),
@@ -117,7 +118,7 @@ public class Dragoyle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.48, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

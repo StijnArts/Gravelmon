@@ -1,5 +1,8 @@
 {"target": "cobblemon:Magikarp",
-   "moves": [
+ "evolutions": [
+ ],
+
+ "moves": [
     "1:splash",
     "15:tackle",
     "25:flail",

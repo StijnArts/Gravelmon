@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Necronite extends Pokemon {
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 62, List.of(EggGroup.MINERAL),
-                List.of("Necronite emits a strange frequency as it floats about the ancient ruins it inhabits. Making contact with this Pokémon can leave one lightheaded."),
+                List.of("Necronite emits a strange frequency as it floats about the ancient ruins it inhabits. Making contact with this Pokemon can leave one lightheaded."),
                 List.of(new EvolutionEntry("gravollum", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
@@ -112,7 +113,7 @@ public class Necronite extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

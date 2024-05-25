@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reindear",
-  "nationalPokedexNumber": 1139,
+  "nationalPokedexNumber": 1542,
   "primaryType": "fairy",
   "abilities": [
     "vitalspirit",
@@ -94,6 +94,7 @@
     "tutor:covet",
     "tutor:endeavor",
     "tutor:helpinghand",
+    "tutor:magicwall",
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound"  ],
@@ -119,10 +120,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

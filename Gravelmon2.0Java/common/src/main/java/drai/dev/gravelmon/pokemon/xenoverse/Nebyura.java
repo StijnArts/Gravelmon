@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Nebyura extends Pokemon {
                 181, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.AMORPHOUS, EggGroup.WATER_2),
-                List.of("A Pokémon from outer space. Using its terrible psychic powers it can drive creatures it establishes mental connection with crazy."),
+                List.of("A Pokemon from outer space. Using its terrible psychic powers it can drive creatures it establishes mental connection with crazy."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POWER_GEM,1),

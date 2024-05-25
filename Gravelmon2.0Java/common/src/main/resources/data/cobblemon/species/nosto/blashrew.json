@@ -1,0 +1,141 @@
+{
+  "implemented": true,
+  "name": "blashrew",
+  "nationalPokedexNumber": 1994,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:aftermath"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 87,
+    "defence": 78,
+    "special_attack": 55,
+    "special_defence": 71,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 152,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "4:leer",
+    "6:ember",
+    "9:firespin",
+    "13:yawn",
+    "16:incinerate",
+    "22:flameburst",
+    "28:snoresound",
+    "31:metalclaw",
+    "34:takedown",
+    "39:flareblitz",
+    "45:ironhead",
+    "47:gyroball",
+    "tm:firepledge",
+    "tm:endeavor",
+    "tm:snoresound",
+    "tm:foulplay",
+    "tm:fireblast",
+    "tm:incinerate",
+    "tm:sunnyday",
+    "tm:attract",
+    "tm:bide",
+    "tm:bodyslam",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:encore",
+    "tm:explosion",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:naturalgift",
+    "tm:protect",
+    "tm:return",
+    "tm:roarsound",
+    "tm:roundsound",
+    "tm:scaryface",
+    "tm:screechsound",
+    "tm:secretpower",
+    "tm:selfdestruct",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:rest",
+    "tm:captivate"  ],
+  "labels": [
+    "nosto",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.blashrew.desc"
+  ],
+  "preEvolution": "charrat",
+  "evolutions": [
+    {
+      "id": "blashrew_explodent",
+      "variant": "level_up",
+      "result": "explodent",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

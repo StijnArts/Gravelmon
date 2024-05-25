@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -79,13 +80,13 @@ public class Iceros extends Pokemon {
                         new MoveLearnSetEntry(Move.IRON_HEAD,"egg"),
                         new MoveLearnSetEntry(Move.SLACK_OFF,"egg")
                         ),
-                List.of(Label.SAGE),
+                List.of(Label.INFINITY),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 8, 25, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.32, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

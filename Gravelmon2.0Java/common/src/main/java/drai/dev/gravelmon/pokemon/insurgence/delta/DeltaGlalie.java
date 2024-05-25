@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaGlalie extends Pokemon {
                 259, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon has the power to evaporate entire oceans with a single breath."),
+                List.of("This Pokemon has the power to evaporate entire oceans with a single breath."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HEAD_SMASH,1),

@@ -7,7 +7,7 @@
       "id": "eronze-1",
       "pokemon": "eronze",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

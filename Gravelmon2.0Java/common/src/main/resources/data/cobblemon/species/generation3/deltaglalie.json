@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaglalie",
-  "nationalPokedexNumber": 361,
+  "nationalPokedexNumber": 362,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -51,8 +51,8 @@
       ],
       "baseScale": 0.28125,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -191,15 +191,17 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaglalie.desc"
   ],
-  "baseScale": 0.28125,
+  "preEvolution": "deltasnorunt",
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

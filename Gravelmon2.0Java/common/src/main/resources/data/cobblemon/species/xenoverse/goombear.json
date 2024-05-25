@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goombear",
-  "nationalPokedexNumber": 1136,
+  "nationalPokedexNumber": 1539,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -49,6 +49,7 @@
     "field"
   ],
   "moves": [
+    "1:sugarrush",
     "1:defensecurl",
     "1:lick",
     "5:ember",
@@ -62,6 +63,7 @@
     "34:lavaplume",
     "40:yawn",
     "45:recycle",
+    "50:sugarrush",
     "55:belch",
     "60:heatcrash",
     "tm:toxic",
@@ -103,21 +105,26 @@
     "tutor:block",
     "tutor:firepunch",
     "tutor:heatwave",
+    "tutor:magicwall",
     "tutor:recycle",
+    "tutor:scorchedashes",
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.goombear.desc"
   ],
-  "baseScale": 0.4125,
+  "preEvolution": "chubiburny",
+  "baseScale": 0.5499999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

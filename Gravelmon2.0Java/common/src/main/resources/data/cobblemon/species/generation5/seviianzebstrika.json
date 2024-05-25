@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviianzebstrika",
-  "nationalPokedexNumber": 522,
+  "nationalPokedexNumber": 523,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -103,15 +103,17 @@
   "labels": [
     "radicalred",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviianzebstrika.desc"
   ],
-  "baseScale": 0.3,
+  "preEvolution": "seviianblitzle",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aguanaut",
-  "nationalPokedexNumber": 1108,
+  "nationalPokedexNumber": 1033,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -48,21 +48,6 @@
     "water_1",
     "monster"
   ],
-  "drops": {
-    "amount": "5",
-    "entries": [
-      {
-        "item": "minecraft:prismarine",
-        "quantityRange": "4-8",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "4-8",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:bodyslam",
     "1:bellydrum",
@@ -172,11 +157,14 @@
     "egg:superpower",
     "egg:waterpulse"  ],
   "labels": [
-    "sage"
+    "sage",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.aguanaut.desc"
   ],
+  "preEvolution": "iguadium",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.8,

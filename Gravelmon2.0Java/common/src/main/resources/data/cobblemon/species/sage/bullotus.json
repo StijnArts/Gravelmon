@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bullotus",
-  "nationalPokedexNumber": 1184,
+  "nationalPokedexNumber": 1109,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -56,8 +56,8 @@
       ],
       "baseScale": 0.225,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -85,7 +85,8 @@
       "eggGroups": [
     "water_1",
     "grass"
-  ],
+  ],  "preEvolution": "flowger form=blue",
+
   "moves": [
     "1:uproar",
     "1:mudslide",
@@ -169,16 +170,14 @@
   "drops": {
     "amount": "2",
     "entries": [
-      {
-        "item": "minecraft:lily_pad",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
+
     ]
       },
       "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
       ],
       "aspects": [
         "blue"
@@ -196,16 +195,6 @@
     "water_1",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:lily_pad",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:uproar",
     "1:mudslide",
@@ -288,15 +277,18 @@
     "egg:yawn"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bullotus.desc"
   ],
-  "baseScale": 0.225,
+  "preEvolution": "flowger",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

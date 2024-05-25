@@ -7,7 +7,7 @@
       "id": "grolem-1",
       "pokemon": "grolem",
       "presets": [
-          "ruined_structures"
+          "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

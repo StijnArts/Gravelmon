@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hallowither",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:goetia_hallowither",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/goetia/hallowither.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/hallowither_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cefiranteddiursa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_cefiranteddiursa",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiranteddiursa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/cefiranteddiursa_shiny.png"
+    }  ]
+}

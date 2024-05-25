@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "platikhao",
-  "nationalPokedexNumber": 1176,
+  "nationalPokedexNumber": 1101,
   "primaryType": "fighting",
   "secondaryType": "poison",
   "abilities": [
@@ -48,16 +48,6 @@
     "field",
     "water_1"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:potato",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:reversal",
     "1:rollingkick",
@@ -154,15 +144,18 @@
     "egg:tailslap"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.platikhao.desc"
   ],
-  "baseScale": 0.24375,
+  "preEvolution": "platypow",
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

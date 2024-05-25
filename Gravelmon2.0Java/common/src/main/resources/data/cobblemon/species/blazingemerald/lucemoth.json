@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "lucemoth",
-  "nationalPokedexNumber": 1175,
+  "nationalPokedexNumber": 2179,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
+    "tactician",
     "h:illuminate"
   ],
   "baseStats": {
@@ -55,12 +55,14 @@
     "17:signalbeam",
     "21:confuseray",
     "31:darkpulse",
+    "36:hivemind",
     "43:skillswap",
     "49:nightshade",
     "tm:calmmind",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
+    "tm:veiledsky",
     "tm:hyperbeam",
     "tm:lightscreen",
     "tm:protect",
@@ -73,6 +75,7 @@
     "tm:psychic",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:shockwave",
     "tm:gigaimpact",
     "tm:facade",
@@ -81,18 +84,20 @@
     "tm:attract",
     "tm:thief",
     "tm:flash",
-    "tm:cosmicpower"  ],
+    "tm:cosmicpowercosmic"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lucemoth.desc"
   ],
-  "baseScale": 0.3375,
+  "preEvolution": "hoennianvenonat",
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

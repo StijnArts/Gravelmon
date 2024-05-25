@@ -1,4 +1,37 @@
 {"target": "cobblemon:Wingull",
+ "evolutions": [
+  {
+  "id": "wingull_larintenant",
+  "variant": "level_up",
+  "result": "larintenant",
+  "consumeHeldItem": false,
+  "learnableMoves": [],
+  "requirements": [
+   {
+    "variant": "has_move",
+    "move": "acrobatics"
+   }
+  ]
+ },
+  {
+   "id": "wingull_seascull",
+   "variant": "level_up",
+   "result": "seascull",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_cold"
+    },
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:growl",
     "1:watergun",
@@ -11,6 +44,7 @@
     "26:pursuit",
     "29:aerialace",
     "30:airslash",
+    "33:acrobatics",
     "35:mist",
     "40:roost",
     "45:hurricane",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swelephant",
-  "nationalPokedexNumber": 1169,
+  "nationalPokedexNumber": 1572,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -104,15 +104,18 @@
     "tutor:secretpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.swelephant.desc"
   ],
-  "baseScale": 0.3375,
+  "preEvolution": "floatusk",
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

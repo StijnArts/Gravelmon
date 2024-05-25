@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:plummora",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:aristos_plummora",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/aristos/plummora.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aristos/plummora_shiny.png"
+    }  ]
+}

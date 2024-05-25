@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaLucario extends Pokemon {
                 184, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("The afterlife and rebirth of souls are sacred to this Pokémon. It will fiercely guard any tomb or cemetery that it comes across from graverobbers."),
+                List.of("The afterlife and rebirth of souls are sacred to this Pokemon. It will fiercely guard any tomb or cemetery that it comes across from graverobbers."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.EXTREME_SPEED,1),
@@ -159,7 +160,7 @@ public class DeltaLucario extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.DESERT_TEMPLE),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.2, 0.3,
                 List.of(new PokemonForm(
                         "Mega", true,

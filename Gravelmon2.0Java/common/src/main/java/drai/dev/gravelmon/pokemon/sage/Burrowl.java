@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Burrowl extends Pokemon {
                 175, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 51, List.of(EggGroup.FIELD, EggGroup.FLYING),
-                List.of("Burrowl’s heavy wings prevent it from flying, but it uses them as shovels to dig underground. It also uses its wings to protect small Pokémon from sandstorms."),
+                List.of("Burrowl’s heavy wings prevent it from flying, but it uses them as shovels to dig underground. It also uses its wings to protect small Pokemon from sandstorms."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghovenusaur",
-  "nationalPokedexNumber": 2,
+  "nationalPokedexNumber": 3,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -49,16 +49,6 @@
     "grass",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:cactus",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "0:bulldoze",
     "1:thornwhip",
@@ -150,11 +140,13 @@
     "egg:skullbash"  ],
   "labels": [
     "gen1",
-    "infinity"
+    "infinity",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghovenusaur.desc"
   ],
+  "preEvolution": "eghoivysaur",
   "baseScale": 2.0,
   "hitbox": {
     "width": 1.5,

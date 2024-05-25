@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:alterannidoranwintercoat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_alterannidoranwintercoat",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/alterannidoranwintercoat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/alterannidoranwintercoat_shiny.png"
+    }  ]
+}

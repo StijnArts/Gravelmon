@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltamedicham",
-  "nationalPokedexNumber": 307,
+  "nationalPokedexNumber": 308,
   "primaryType": "fairy",
   "secondaryType": "ground",
   "abilities": [
@@ -51,8 +51,8 @@
       ],
       "baseScale": 0.24375,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -172,6 +172,7 @@
     "tm:sleeptalksound",
     "tm:dazzlinggleam",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:echoedvoicesound",
     "tm:roundsound",
     "tm:captivate",
@@ -221,15 +222,17 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltamedicham.desc"
   ],
-  "baseScale": 0.24375,
+  "preEvolution": "deltameditite",
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

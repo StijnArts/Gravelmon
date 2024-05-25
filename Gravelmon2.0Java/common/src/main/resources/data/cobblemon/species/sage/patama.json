@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "patama",
-  "nationalPokedexNumber": 1323,
+  "nationalPokedexNumber": 1248,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "3",
-    "entries": [
-      {
-        "item": "minecraft:spruce_sapling",
-        "quantityRange": "3-10",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:ingrain",
     "1:magicalleaf",
@@ -116,10 +106,10 @@
   "pokedex": [
     "cobblemon.species.patama.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "barracute",
-  "nationalPokedexNumber": 1285,
+  "nationalPokedexNumber": 1210,
   "primaryType": "water",
   "abilities": [
     "scavenger",
+    "ironjaw",
     "h:vitalspirit"
   ],
   "baseStats": {
@@ -47,16 +48,6 @@
     "water_2",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:bite",
     "1:tailwhip",
@@ -144,10 +135,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

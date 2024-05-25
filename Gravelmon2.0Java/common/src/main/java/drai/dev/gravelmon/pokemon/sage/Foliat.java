@@ -4,12 +4,13 @@ import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
 public class Foliat extends Pokemon {
     public Foliat() {
-        super(1101,"Foliat",
+        super("Foliat",
                 Type.GRASS,
                 new Stats(42, 42, 45, 68, 46, 75),
                 List.of(Ability.OVERGROW), Ability.GALE_WINGS,

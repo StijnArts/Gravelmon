@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bullverin",
-  "nationalPokedexNumber": 1165,
+  "nationalPokedexNumber": 1568,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -94,11 +94,14 @@
     "tutor:secretpower"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bullverin.desc"
   ],
+  "preEvolution": "croakling",
   "evolutions": [
     {
       "id": "bullverin_croakraze",
@@ -114,10 +117,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

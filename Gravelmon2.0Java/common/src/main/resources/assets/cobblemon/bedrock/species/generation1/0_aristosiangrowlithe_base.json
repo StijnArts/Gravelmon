@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:aristosiangrowlithe",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_aristosiangrowlithe",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosiangrowlithe.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/aristosiangrowlithe_shiny.png"
+    }  ]
+}

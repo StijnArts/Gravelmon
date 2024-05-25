@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianlanturn",
-  "nationalPokedexNumber": 170,
+  "nationalPokedexNumber": 171,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -54,12 +54,16 @@
     "5:astonish",
     "13:hypnosis",
     "17:watergun",
+    "25:abyssallure",
     "32:confuseray",
+    "46:darkbargain",
+    "46:siphon",
     "50:hydropump",
     "tm:scald",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
+    "tm:veiledsky",
     "tm:icebeam",
     "tm:blizzard",
     "tm:hyperbeam",
@@ -71,6 +75,7 @@
     "tm:thunder",
     "tm:return",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:shockwave",
     "tm:gigaimpact",
     "tm:facade",
@@ -85,15 +90,17 @@
   "labels": [
     "blazing_emerald",
     "gen2",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoennianlanturn.desc"
   ],
-  "baseScale": 0.3,
+  "preEvolution": "hoennianchinchou",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

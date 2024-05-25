@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trikotta",
-  "nationalPokedexNumber": 1214,
+  "nationalPokedexNumber": 1139,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -49,16 +49,6 @@
     "grass",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:terracotta",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:spikes",
     "1:pinmissile",
@@ -135,11 +125,14 @@
     "egg:toxicspikes"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.trikotta.desc"
   ],
+  "preEvolution": "pottle",
   "evolutions": [
     {
       "id": "trikotta_terrorcotta",
@@ -155,10 +148,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

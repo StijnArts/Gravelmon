@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caranox",
-  "nationalPokedexNumber": 1135,
+  "nationalPokedexNumber": 1060,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "bug"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:webball",
     "1:stringshot",
@@ -124,15 +114,18 @@
     "egg:pursuit"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.caranox.desc"
   ],
-  "baseScale": 0.13125,
+  "preEvolution": "larvabidae",
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

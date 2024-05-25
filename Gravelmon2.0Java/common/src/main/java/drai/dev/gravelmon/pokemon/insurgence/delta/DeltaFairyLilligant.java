@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaFairyLilligant extends Pokemon {
                 168, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("Capable of producing massive barriers that provide weaker Pokémon with a sanctuary, it observed the Torren Region from afar during its greatest times of crisis."),
+                List.of("Capable of producing massive barriers that provide weaker Pokemon with a sanctuary, it observed the Torren Region from afar during its greatest times of crisis."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FAIRY_WIND,1),

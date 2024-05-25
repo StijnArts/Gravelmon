@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fuelong",
-  "nationalPokedexNumber": 1317,
+  "nationalPokedexNumber": 1242,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -49,16 +49,6 @@
     "dragon",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:gunpowder",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:luckychant",
     "1:ember",
@@ -137,15 +127,18 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fuelong.desc"
   ],
-  "baseScale": 0.6,
+  "preEvolution": "crakling",
+  "baseScale": 0.7999999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,11 @@
+{
+  "condition": {
+    "neededNearbyBlocks": [
+	  "#minecraft:leaves",
+      "#c:leaves",
+      "minecraft:kelp",
+      "minecraft:seagrass",
+      "minecraft:tall_seagrass"
+    ]
+  }
+}

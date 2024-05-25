@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "purimodo-1",
+      "pokemon": "purimodo",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "6-27",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#gravelmon:is_snowy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

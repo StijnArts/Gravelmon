@@ -18,6 +18,7 @@
    "variant": "level_up",
    "result": "porygonx",
    "consumeHeldItem": true,
+   "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {
@@ -27,10 +28,28 @@
    ]
   },
   {
+   "id": "porygon2_porygony",
+   "variant": "level_up",
+   "result": "porygony",
+   "consumeHeldItem": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#minecraft:is_end"
+    },
+    {
+     "variant": "level",
+     "minLevel": 33
+    }
+   ]
+  },
+  {
    "id": "porygon2_porygonwes",
    "variant": "level_up",
    "result": "porygonwes",
    "consumeHeldItem": true,
+   "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {
@@ -38,6 +57,16 @@
      "itemCondition": "gravelmon:wes_update"
     }
    ]
+  },
+  {
+   "id": "porygon2_porygonomega",
+   "variant": "item_interact",
+   "result": "porygonomega",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:amaze_drive"
   }
  ],
    "moves": [

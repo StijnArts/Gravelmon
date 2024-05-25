@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadugtrio",
-  "nationalPokedexNumber": 50,
+  "nationalPokedexNumber": 51,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
@@ -130,11 +130,13 @@
     "tutor:uproar"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltadugtrio.desc"
   ],
+  "preEvolution": "deltadiglett",
   "baseScale": 0.8,
   "hitbox": {
     "width": 0.9,

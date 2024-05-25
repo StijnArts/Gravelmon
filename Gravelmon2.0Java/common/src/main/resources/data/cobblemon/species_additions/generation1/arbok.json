@@ -12,6 +12,19 @@
      "minLevel": 44
     }
    ]
+  },
+  {
+   "id": "arbok_setsarec",
+   "variant": "level_up",
+   "result": "setsarec",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 42
+    }
+   ]
   }
  ],
    "moves": [

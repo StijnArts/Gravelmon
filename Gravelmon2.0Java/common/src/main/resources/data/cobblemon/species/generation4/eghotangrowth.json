@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghotangrowth",
-  "nationalPokedexNumber": 462,
+  "nationalPokedexNumber": 465,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
@@ -49,16 +49,6 @@
     "monster",
     "mineral"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:redstone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:thundershock",
     "1:discharge",
@@ -151,15 +141,17 @@
   "labels": [
     "infinity",
     "gen4",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghotangrowth.desc"
   ],
-  "baseScale": 0.375,
+  "preEvolution": "eghotangela",
+  "baseScale": 0.5,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

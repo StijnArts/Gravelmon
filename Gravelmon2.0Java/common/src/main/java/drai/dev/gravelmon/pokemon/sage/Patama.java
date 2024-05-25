@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Patama extends Pokemon {
                 261, ExperienceGroup.SLOW,
                 70,
                 200, List.of(EggGroup.UNDISCOVERED),
-                List.of("Patama presides over land and forests, caring for the plants and Pokémon. It perpetuates the life cycle, making sure death always brings forth new life."),
+                List.of("Patama presides over land and forests, caring for the plants and Pokemon. It perpetuates the life cycle, making sure death always brings forth new life."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.INGRAIN,1),

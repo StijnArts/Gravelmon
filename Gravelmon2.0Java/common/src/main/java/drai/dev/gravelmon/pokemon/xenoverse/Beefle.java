@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Beefle extends Pokemon {
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.BUG),
-                List.of("It runs around full of vitality and charges into bigger and stronger Pokémon. Its external shell hardens over time."),
+                List.of("It runs around full of vitality and charges into bigger and stronger Pokemon. Its external shell hardens over time."),
                 List.of(new EvolutionEntry("punchbug", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(

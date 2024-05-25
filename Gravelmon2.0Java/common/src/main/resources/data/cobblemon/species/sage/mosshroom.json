@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mosshroom",
-  "nationalPokedexNumber": 1148,
+  "nationalPokedexNumber": 1073,
   "primaryType": "poison",
   "secondaryType": "grass",
   "abilities": [
@@ -48,21 +48,6 @@
   "eggGroups": [
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:brown_mushroom",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:moss",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:grassknot",
     "1:bide",
@@ -127,15 +112,18 @@
     "egg:pursuit"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mosshroom.desc"
   ],
-  "baseScale": 0.20625,
+  "preEvolution": "kertruffle",
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

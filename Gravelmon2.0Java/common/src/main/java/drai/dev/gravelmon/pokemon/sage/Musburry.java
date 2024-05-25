@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Musburry extends Pokemon {
                 52, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.FIELD, EggGroup.GRASS),
-                List.of("Because this Pokémon grows delicious berries, it is often preyed upon by Berratel. Some Musburry try to exist with Berratel symbiotically."),
+                List.of("Because this Pokemon grows delicious berries, it is often preyed upon by Berratel. Some Musburry try to exist with Berratel symbiotically."),
                 List.of(new EvolutionEntry("musbushel", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(

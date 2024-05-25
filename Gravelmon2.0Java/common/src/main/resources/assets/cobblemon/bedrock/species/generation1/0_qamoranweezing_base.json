@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:qamoranweezing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_qamoranweezing",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/qamoranweezing.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/qamoranweezing_shiny.png"
+    }  ]
+}

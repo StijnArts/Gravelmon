@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grudako",
-  "nationalPokedexNumber": 1123,
+  "nationalPokedexNumber": 1524,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -99,21 +99,25 @@
     "tutor:dualchop",
     "tutor:hurricane",
     "tutor:irondefense",
+    "tutor:magicwall",
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
     "tutor:steelwing"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.grudako.desc"
   ],
-  "baseScale": 0.2625,
+  "preEvolution": "chigami",
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

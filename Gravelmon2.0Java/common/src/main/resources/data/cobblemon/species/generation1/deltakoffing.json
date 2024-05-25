@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltakoffing",
-  "nationalPokedexNumber": 89,
+  "nationalPokedexNumber": 109,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -151,7 +151,7 @@
   "evolutions": [
     {
       "id": "deltakoffing_deltaweezing",
-      "variant": "item_interact",
+      "variant": "level_up",
       "result": "deltaweezing",
       "consumeHeldItem": false,
       "learnableMoves": [],

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltafairylilligant",
-  "nationalPokedexNumber": 548,
+  "nationalPokedexNumber": 549,
   "primaryType": "water",
   "abilities": [
     "serenegrace",
@@ -97,6 +97,7 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:skydrop",
     "tm:allyswitch",
     "tm:echoedvoicesound",
@@ -135,15 +136,17 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltafairylilligant.desc"
   ],
-  "baseScale": 0.20625,
+  "preEvolution": "deltafairypetilil",
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

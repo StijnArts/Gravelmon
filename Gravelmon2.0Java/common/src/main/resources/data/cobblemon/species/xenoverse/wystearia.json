@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wystearia",
-  "nationalPokedexNumber": 1126,
+  "nationalPokedexNumber": 1528,
   "primaryType": "grass",
   "secondaryType": "sound",
   "abilities": [
@@ -53,6 +53,7 @@
     "1:absorb",
     "6:supersonic",
     "10:ingrain",
+    "14:babble",
     "18:megadrain",
     "22:screechsound",
     "26:echoedvoicesound",
@@ -69,6 +70,7 @@
     "tm:taunt",
     "tm:hyperbeam",
     "tm:protect",
+    "tm:subwoofer",
     "tm:solarbeam",
     "tm:return",
     "tm:doubleteam",
@@ -95,13 +97,17 @@
     "tutor:seedbomb",
     "tutor:sleeptalksound",
     "tutor:snoresound",
+    "tutor:soundbarrier",
     "tutor:synthesis"  ],
   "labels": [
-    "xenoverse"
+    "xenoverse",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.wystearia.desc"
   ],
+  "preEvolution": "hystearic",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.2,

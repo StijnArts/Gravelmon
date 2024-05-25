@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghomagnezone",
-  "nationalPokedexNumber": 440,
+  "nationalPokedexNumber": 462,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -49,16 +49,6 @@
     "grass",
     "mineral"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:vines",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:heavyslam",
     "1:growth",
@@ -136,15 +126,17 @@
   "labels": [
     "infinity",
     "gen4",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghomagnezone.desc"
   ],
-  "baseScale": 0.4125,
+  "preEvolution": "eghomagneton",
+  "baseScale": 0.5499999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -4,11 +4,11 @@ import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 import org.jetbrains.annotations.*;
 
 import java.io.*;
 import java.nio.file.*;
-import java.util.*;
 
 public class SpeciesDataJSONWriter {
     public static void writeSpecies(Game game, String resourcesDir){
@@ -19,17 +19,6 @@ public class SpeciesDataJSONWriter {
                 writePokemon(pokemon, dir, game, true);
                 //dir = resourcesDir+"\\data\\gravelmon\\species\\"+game.getName().toLowerCase()+"\\";
                 //writePokemon(pokemon, dir, game, false);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        });
-    }
-    public static void writePlaceholder(String resourcesDir) {
-        String dir = resourcesDir+"\\data\\cobblemon\\species\\infinity\\";
-        EghoPokemon.placeholders.forEach(pokemon -> {
-            try {
-                Files.createDirectories(new File(dir).toPath());
-                writePokemon(pokemon, dir, null, false);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -71,9 +60,9 @@ public class SpeciesDataJSONWriter {
                         "  \"baseStats\": {\n" +
                         "    \"hp\": "+pokemon.getStats().getHP()+",\n" +
                         "    \"attack\": "+pokemon.getStats().getAttack()+",\n" +
-                        "    \"defence\": "+pokemon.getStats().getDefense()+",\n" +
+                        "    \"defence\": "+pokemon.getStats().getDefence()+",\n" +
                         "    \"special_attack\": "+pokemon.getStats().getSpecialAttack()+",\n" +
-                        "    \"special_defence\": "+pokemon.getStats().getSpecialDefense()+",\n" +
+                        "    \"special_defence\": "+pokemon.getStats().getSpecialDefence()+",\n" +
                         "    \"speed\": "+pokemon.getStats().getSpeed()+"\n" +
                         "  },\n" +
                 "  \"behaviour\": {\n" +
@@ -203,9 +192,9 @@ public class SpeciesDataJSONWriter {
                         "  \"evYield\": {\n" +
                         "    \"hp\": "+pokemon.getEvYield().getHP()+",\n" +
                         "    \"attack\": "+pokemon.getEvYield().getAttack()+",\n" +
-                        "    \"defence\": "+pokemon.getEvYield().getDefense()+",\n" +
+                        "    \"defence\": "+pokemon.getEvYield().getDefence()+",\n" +
                         "    \"special_attack\": "+pokemon.getEvYield().getSpecialAttack()+",\n" +
-                        "    \"special_defence\": "+pokemon.getEvYield().getSpecialDefense()+",\n" +
+                        "    \"special_defence\": "+pokemon.getEvYield().getSpecialDefence()+",\n" +
                         "    \"speed\": "+pokemon.getEvYield().getSpeed()+"\n" +
                         "  },\n" +
                         "  \"height\": "+pokemon.getHeight()+",\n" +
@@ -325,7 +314,11 @@ public class SpeciesDataJSONWriter {
                     fileContents += ",\n" +
                             "      \"requiredContext\": \""+evolution.getRequiredContext()+"\"";
                 }
+                fileContents += ",\n" +
+                            "      \"permanent\": true";
+
                 fileContents += "   \n }";
+
             }
             fileContents += "\n  ],\n";
         }
@@ -381,9 +374,9 @@ public class SpeciesDataJSONWriter {
                 "      \"baseStats\": {\n" +
                 "        \"hp\": "+form.getStats().getHP()+",\n" +
                 "        \"attack\": "+form.getStats().getAttack()+",\n" +
-                "        \"defence\": "+form.getStats().getDefense()+",\n" +
+                "        \"defence\": "+form.getStats().getDefence()+",\n" +
                 "        \"special_attack\": "+form.getStats().getSpecialAttack()+",\n" +
-                "        \"special_defence\": "+form.getStats().getSpecialDefense()+",\n" +
+                "        \"special_defence\": "+form.getStats().getSpecialDefence()+",\n" +
                 "        \"speed\": "+form.getStats().getSpeed()+"\n" +
                 "      },\n" +
                 "      \"catchRate\": "+form.getCatchRate()+",\n" +
@@ -393,9 +386,9 @@ public class SpeciesDataJSONWriter {
                 "      \"evYield\": {\n" +
                 "        \"hp\": "+form.getEvYield().getHP()+",\n" +
                 "        \"attack\": "+form.getEvYield().getAttack()+",\n" +
-                "        \"defence\": "+form.getEvYield().getDefense()+",\n" +
+                "        \"defence\": "+form.getEvYield().getDefence()+",\n" +
                 "        \"special_attack\": "+form.getEvYield().getSpecialAttack()+",\n" +
-                "        \"special_defence\": "+form.getEvYield().getSpecialDefense()+",\n" +
+                "        \"special_defence\": "+form.getEvYield().getSpecialDefence()+",\n" +
                 "        \"speed\": "+form.getEvYield().getSpeed()+"\n" +
                 "      },\n" +
                 "      \"experienceGroup\": \""+form.getExperienceGroup().getName()+"\",\n" +
@@ -416,6 +409,9 @@ public class SpeciesDataJSONWriter {
         }
 
         formString += "\n  ],";
+        if(form.getPreEvolution()!=null){
+            formString += "  \"preEvolution\": \""+form.getPreEvolution()+"\",\n";
+        }
         if(!form.getLearnSet().isEmpty()){
             formString += getMoves(form.getLearnSet(), isSubstitutedMoveImplementation);
         }
@@ -515,6 +511,9 @@ public class SpeciesDataJSONWriter {
                     formString += ",\n" +
                             "      \"requiredContext\": \""+evolution.getRequiredContext()+"\"";
                 }
+                    formString += ",\n" +
+                            "      \"permanent\": true";
+
                 formString += "\n    }";
             }
             formString += "\n  ],\n";

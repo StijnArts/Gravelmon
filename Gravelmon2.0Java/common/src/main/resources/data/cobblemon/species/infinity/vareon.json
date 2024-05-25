@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vareon",
-  "nationalPokedexNumber": 1356,
+  "nationalPokedexNumber": 1423,
   "primaryType": "questionmark",
   "abilities": [
     "protean",
@@ -150,10 +150,10 @@
     "cobblemon.species.vareon.desc"
   ],
   "preEvolution": "eevee",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

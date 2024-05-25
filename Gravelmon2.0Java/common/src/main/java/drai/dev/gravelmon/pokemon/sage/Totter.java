@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Totter extends Pokemon {
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 55, List.of(EggGroup.WATER_1),
-                List.of("Totter’s skin requires constant moisture, so it makes its home near riverbanks. It likes to soak up water with its tail and splash other Pokémon with it."),
+                List.of("Totter’s skin requires constant moisture, so it makes its home near riverbanks. It likes to soak up water with its tail and splash other Pokemon with it."),
                 List.of(new EvolutionEntry("cascotta", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(

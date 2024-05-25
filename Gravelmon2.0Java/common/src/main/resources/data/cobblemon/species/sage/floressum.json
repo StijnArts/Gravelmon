@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "floressum",
-  "nationalPokedexNumber": 1102,
+  "nationalPokedexNumber": 1027,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -48,21 +48,6 @@
     "grass",
     "flying"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:melon_seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:jetstrike",
     "1:tackle",
@@ -74,6 +59,7 @@
     "20:grasswhistle",
     "24:leaftornado",
     "28:agility",
+    "32:tempest",
     "36:gigadrain",
     "40:windshear",
     "44:synthesis",
@@ -124,11 +110,14 @@
     "egg:synthesis",
     "egg:worryseed"  ],
   "labels": [
-    "sage"
+    "sage",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.floressum.desc"
   ],
+  "preEvolution": "florabri",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.4,

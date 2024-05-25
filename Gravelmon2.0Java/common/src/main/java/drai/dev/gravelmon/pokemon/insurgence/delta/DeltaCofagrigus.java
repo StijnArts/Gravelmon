@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaCofagrigus extends Pokemon {
                 169, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon frequents nuclear landfills in order to keep surrounding areas free from radiation. Destroying its exterior would produce an explosion exceeding 720 kilotons."),
+                List.of("This Pokemon frequents nuclear landfills in order to keep surrounding areas free from radiation. Destroying its exterior would produce an explosion exceeding 720 kilotons."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOG,1),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "egholudicolo",
-  "nationalPokedexNumber": 271,
+  "nationalPokedexNumber": 272,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -128,15 +128,17 @@
   "labels": [
     "infinity",
     "gen3",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.egholudicolo.desc"
   ],
-  "baseScale": 0.31875,
+  "preEvolution": "egholombre",
+  "baseScale": 0.425,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

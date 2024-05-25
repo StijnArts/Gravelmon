@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carvanhax",
-  "nationalPokedexNumber": 315,
+  "nationalPokedexNumber": 318,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:aquajet",
     "1:leer",

@@ -1,4 +1,33 @@
 {"target": "cobblemon:Chimecho",
+ "evolutions": [
+  {
+   "id": "chimecho_chimeaura",
+   "variant": "level_up",
+   "result": "chimeaura",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 36
+    }
+   ]
+  },
+  {
+   "id": "chimecho_karakoron",
+   "variant": "level_up",
+   "result": "karakoron",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "hypervoice"
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:astonish",
     "1:confusion",
@@ -14,6 +43,7 @@
     "32:uproar",
     "37:safeguard",
     "42:doubleedge",
+    "44:hypervoice",
     "46:psychic",
     "47:healpulse",
     "egg:cosmicpower",

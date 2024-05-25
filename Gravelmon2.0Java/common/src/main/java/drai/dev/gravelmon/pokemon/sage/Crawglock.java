@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -124,7 +125,7 @@ public class Crawglock extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 23, 39, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_COLD_OCEAN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cairup",
-  "nationalPokedexNumber": 1220,
+  "nationalPokedexNumber": 1145,
   "primaryType": "ground",
   "abilities": [
     "sandstream",
@@ -48,16 +48,6 @@
     "field",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:sandstone",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:sandattack",
@@ -155,10 +145,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

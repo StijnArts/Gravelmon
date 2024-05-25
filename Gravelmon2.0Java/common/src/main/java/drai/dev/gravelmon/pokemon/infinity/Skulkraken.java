@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -117,12 +118,14 @@ public class Skulkraken extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:iron_ingot",50, 1,2)
                 ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 20, 34, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN, Biome.IS_DEEP)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN, Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
                 List.of(SpawnPreset.UNDERWATER),
                 0.43, 0.2,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
         this.setPortraitXYZ(0,1.8,0);
     }
 }

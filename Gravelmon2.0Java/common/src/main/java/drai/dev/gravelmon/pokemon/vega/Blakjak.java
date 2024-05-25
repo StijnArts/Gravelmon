@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -97,7 +98,7 @@ public class Blakjak extends Pokemon {
                         new MoveLearnSetEntry(Move.STEEL_WING,"egg"),
                         new MoveLearnSetEntry(Move.SUNNY_DAY,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.DENEB),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 43, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD)),

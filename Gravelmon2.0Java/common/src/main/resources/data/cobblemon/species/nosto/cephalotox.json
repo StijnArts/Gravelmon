@@ -1,0 +1,168 @@
+{
+  "implemented": true,
+  "name": "cephalotox",
+  "nationalPokedexNumber": 2089,
+  "primaryType": "rock",
+  "secondaryType": "poison",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 22,
+    "defence": 85,
+    "special_attack": 124,
+    "special_defence": 100,
+    "speed": 72
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:poisongas",
+    "4:rockthrow",
+    "8:acid",
+    "11:ancientpower",
+    "15:venomdrench",
+    "19:hex",
+    "23:brine",
+    "29:toxic",
+    "34:scald",
+    "39:sludgebomb",
+    "44:powergemcrystal",
+    "50:stealthrock",
+    "57:sludgewave",
+    "65:headsmash",
+    "tm:snoresound",
+    "tm:corrosivegas",
+    "tm:gunkshot",
+    "tm:uturn",
+    "tm:brutalswing",
+    "tm:darkpulse",
+    "tm:embargo",
+    "tm:fling",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:taunt",
+    "tm:thief",
+    "tm:torment",
+    "tm:chargebeam",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:dazzlinggleam",
+    "tm:flamethrower",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:icebeam",
+    "tm:attract",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:echoedvoicesound",
+    "tm:explosion",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:psychup",
+    "tm:return",
+    "tm:roundsound",
+    "tm:safeguard",
+    "tm:sleeptalksound",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:workup",
+    "tm:poisonjab",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:calmmind",
+    "tm:lightscreen",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:trickroom",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:smackdown",
+    "tm:stoneedge",
+    "tm:flashcannon",
+    "tm:gyroball",
+    "tm:smartstrike",
+    "tm:dive",
+    "tm:liquidation",
+    "tm:raindance",
+    "tm:scald",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:whirlpool"  ],
+  "labels": [
+    "nosto",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cephalotox.desc"
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oozma",
-  "nationalPokedexNumber": 1345,
+  "nationalPokedexNumber": 1412,
   "primaryType": "poison",
   "secondaryType": "rock",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:basalt",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:poisongas",
     "1:metalclaw",
@@ -158,15 +148,17 @@
     "egg:swallow"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.oozma.desc"
   ],
-  "baseScale": 0.4125,
+  "preEvolution": "eghomuk",
+  "baseScale": 0.5499999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

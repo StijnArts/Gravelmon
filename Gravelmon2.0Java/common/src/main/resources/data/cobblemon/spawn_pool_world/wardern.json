@@ -7,7 +7,7 @@
       "id": "wardern-1",
       "pokemon": "wardern",
       "presets": [
-          "ruined_structures"
+          "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

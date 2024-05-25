@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragalis",
-  "nationalPokedexNumber": 1375,
+  "nationalPokedexNumber": 1442,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -105,11 +105,14 @@
     "egg:taunt"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dragalis.desc"
   ],
+  "preEvolution": "scalarva",
   "evolutions": [
     {
       "id": "dragalis_ceregal",
@@ -125,10 +128,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

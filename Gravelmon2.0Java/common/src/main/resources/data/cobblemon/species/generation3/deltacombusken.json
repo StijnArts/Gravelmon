@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltacombusken",
-  "nationalPokedexNumber": 255,
+  "nationalPokedexNumber": 256,
   "primaryType": "psychic",
   "abilities": [
     "keeneye",
@@ -57,7 +57,7 @@
     "16:doublehit",
     "20:heartstamp",
     "25:quickattack",
-    "31:cosmicpower",
+    "31:cosmicpowercosmic",
     "36:imprison",
     "42:powergemcrystal",
     "47:futuresight",
@@ -151,11 +151,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltacombusken.desc"
   ],
+  "preEvolution": "deltatorchic",
   "evolutions": [
     {
       "id": "deltacombusken_deltablaziken",
@@ -171,10 +173,10 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

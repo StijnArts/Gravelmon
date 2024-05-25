@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltafairypetilil",
-  "nationalPokedexNumber": 549,
+  "nationalPokedexNumber": 548,
   "primaryType": "water",
   "abilities": [
     "serenegrace",
@@ -98,6 +98,7 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:skydrop",
     "tm:allyswitch",
     "tm:echoedvoicesound",
@@ -149,10 +150,10 @@
       "requiredContext": "cobblemon:shiny_stone"   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

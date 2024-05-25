@@ -6,7 +6,7 @@
     {
       "id": "yellow_tokakle-1",
       "pokemon": "tokakle yellow",
-      "presets": [ "urban"],
+      "presets": [ "village"],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",

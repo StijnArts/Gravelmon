@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Kungfur extends Pokemon {
                 146, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.FIELD, EggGroup.HUMAN_LIKE),
-                List.of("Thanks to the strong experience it has acquired in countless battles, it teaches weak Pokémon to fight. It is very strict as an instructor."),
+                List.of("Thanks to the strong experience it has acquired in countless battles, it teaches weak Pokemon to fight. It is very strict as an instructor."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HIGH_JUMP_KICK,1),

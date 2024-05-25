@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chillnobyl",
-  "nationalPokedexNumber": 1301,
+  "nationalPokedexNumber": 1226,
   "primaryType": "ice",
   "secondaryType": "poison",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:redstone",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:glaciate",
     "1:memento",
@@ -79,6 +69,7 @@
     "44:sludgebomb",
     "47:blizzard",
     "51:recover",
+    "57:meltdownnuclear",
     "60:sheercold",
     "tm:toxic",
     "tm:hail",
@@ -129,15 +120,18 @@
     "egg:toxicspikes"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chillnobyl.desc"
   ],
-  "baseScale": 0.24375,
+  "preEvolution": "icetope",
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

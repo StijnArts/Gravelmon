@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:norheimanunown",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "nineteen"
+     ],
+      "poser": "cobblemon:generation2_norheimanunown",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/19_norheimanunown.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "nineteen",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/19_norheimanunown_shiny.png"
+    }  ]
+}

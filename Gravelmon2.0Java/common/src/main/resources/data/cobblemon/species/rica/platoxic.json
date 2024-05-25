@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "name": "platoxic",
+  "nationalPokedexNumber": 1350,
+  "primaryType": "poison",
+  "abilities": [
+    "poisonpoint",
+    "poisontouch",
+    "h:skilllink"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 107,
+    "defence": 65,
+    "special_attack": 73,
+    "special_defence": 73,
+    "speed": 88
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:leer",
+    "5:poisonsting",
+    "9:taunt",
+    "12:pinmissile",
+    "16:sludge",
+    "19:mudbomb",
+    "23:slash",
+    "27:aquajet",
+    "38:honeclaws",
+    "42:poisonjab",
+    "47:toxicspikes",
+    "51:sludgewave",
+    "tm:bodyslam",
+    "tm:lowkick",
+    "tm:closecombat",
+    "tm:superpower",
+    "tm:muddywater",
+    "tm:flipturn",
+    "tm:foulplay",
+    "tm:knockoff",
+    "tm:throatchop",
+    "tm:darkestlariat",
+    "tm:crosspoison",
+    "tm:sludgewave",
+    "tm:gunkshot",
+    "tm:dig",
+    "tm:playrough",
+    "tm:spikes",
+    "tm:corrosivegas",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:return",
+    "tm:frustration",
+    "tm:facade",
+    "tm:hiddenpower",
+    "tm:aerialace",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:lowsweep",
+    "tm:xscissor",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:earthpower",
+    "tm:poisonjab",
+    "tm:venoshock",
+    "tm:sludgebomb",
+    "tm:darkpulse",
+    "tm:payback",
+    "tm:thief",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:protect",
+    "tm:swagger",
+    "tm:doubleteam",
+    "tm:attract",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:workup",
+    "tm:swordsdance",
+    "tm:toxic",
+    "tm:cut",
+    "tm:rocksmash",
+    "tm:strength",
+    "tm:surf",
+    "tm:steamroller",
+    "tm:suckerpunch",
+    "tm:rockblast"  ],
+  "labels": [
+    "rica",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.platoxic.desc"
+  ],
+  "preEvolution": "platypoint",
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

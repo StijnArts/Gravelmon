@@ -3,12 +3,13 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
 public class Katuna extends Pokemon {
-    public Katuna(int dexNo) {
-            super(dexNo, "Katuna",
+    public Katuna() {
+            super( "Katuna",
                     Type.WATER,
                     new Stats(40, 64, 60, 40, 50, 64),
                     List.of(Ability.TORRENT), Ability.SWIFT_SWIM,
@@ -76,7 +77,7 @@ public class Katuna extends Pokemon {
                             new MoveLearnSetEntry(Move.STARFREEZE,"egg"),
                             new MoveLearnSetEntry(Move.TORMENT,"egg")
                             ),
-                    List.of(Label.VEGA),
+                    List.of(Label.DENEB),
                     0, List.of(), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 6, 19, 8.0, List.of(
                             new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                             new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

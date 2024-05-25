@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianshuckle",
-  "nationalPokedexNumber": 211,
+  "nationalPokedexNumber": 213,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -65,6 +65,7 @@
     "tm:earthquake",
     "tm:return",
     "tm:dig",
+    "tm:shimmershot",
     "tm:sludgebomb",
     "tm:sandstorm",
     "tm:rocktomb",
