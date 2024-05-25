@@ -46,7 +46,7 @@ public class Smolter extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.FERROA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 36, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_VOLCANIC)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

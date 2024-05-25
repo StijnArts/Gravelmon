@@ -16,7 +16,7 @@
       "level": "7-26",
       "weight": 4.6,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ]
+"biomes": [ "#cobblemon:is_ocean" ]
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_cold_ocean" ]    }

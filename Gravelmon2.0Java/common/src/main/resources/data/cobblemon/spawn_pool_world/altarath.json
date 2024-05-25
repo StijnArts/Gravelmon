@@ -16,7 +16,7 @@
       "level": "41-51",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
+"biomes": [ "#cobblemon:is_ocean" ],
         "canSeeSky": true
       }
     }

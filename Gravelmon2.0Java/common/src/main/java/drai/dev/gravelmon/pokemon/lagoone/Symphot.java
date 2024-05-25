@@ -42,7 +42,7 @@ public class Symphot extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.LAGOONE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 56, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_SKY)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),

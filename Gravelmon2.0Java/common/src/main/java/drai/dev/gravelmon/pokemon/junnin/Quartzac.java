@@ -4,10 +4,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
-
 public class Quartzac extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quartzac() {
         super("Quartzac",
@@ -44,7 +40,7 @@ public class Quartzac extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.JUNNIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_VOLCANIC, Biome.IS_NETHER_WASTELAND))
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

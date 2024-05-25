@@ -290,7 +290,9 @@ public class SpeciesDataJSONWriter {
                 }
                 fileContents += "      \"requirements\": [\n";
                 boolean isFirstRequirement = true;
+                boolean hasHeldItem = false;
                 for(EvolutionRequirementEntry entry: evolution.getRequirements()){
+                    if(entry.getCondition().equalsIgnoreCase(EvolutionRequirementCondition.HELD_ITEM.getCondition())) hasHeldItem = true;
                     if(isFirstRequirement){
                         isFirstRequirement = false;
                     } else {
@@ -314,7 +316,12 @@ public class SpeciesDataJSONWriter {
                     fileContents += ",\n" +
                             "      \"requiredContext\": \""+evolution.getRequiredContext()+"\"";
                 }
+                if(hasHeldItem){
+                    fileContents += ",\n" +
+                            "      \"permanent\": true";
+                }
                 fileContents += "   \n }";
+
             }
             fileContents += "\n  ],\n";
         }

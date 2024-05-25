@@ -66,6 +66,7 @@
    "variant": "level_up",
    "result": "champeon",
    "consumeHeldItem": true,
+   "permanent": true,
    "learnableMoves": ["reversal"],
    "requirements": [
     {
@@ -84,6 +85,7 @@
    "result": "icheon",
    "consumeHeldItem": true,
    "learnableMoves": [],
+   "permanent": true,
    "requirements": [
     {
      "variant": "held_item",
@@ -97,6 +99,7 @@
    "result": "lepideon",
    "consumeHeldItem": true,
    "learnableMoves": ["signalbeam"],
+   "permanent": true,
    "requirements": [
     {
      "variant": "time_range",
@@ -114,6 +117,7 @@
    "result": "guardeon",
    "consumeHeldItem": true,
    "learnableMoves": ["irondefense"],
+   "permanent": true,
    "requirements": [
     {
      "variant": "time_range",
@@ -131,6 +135,7 @@
    "result": "obsideon",
    "consumeHeldItem": true,
    "learnableMoves": ["smackdown"],
+   "permanent": true,
    "requirements": [
     {
      "variant": "time_range",
@@ -148,6 +153,7 @@
    "result": "scorpeon",
    "consumeHeldItem": true,
    "learnableMoves": ["poisontail"],
+   "permanent": true,
    "requirements": [
     {
      "variant": "time_range",
@@ -165,6 +171,7 @@
    "result": "sphynxeon",
    "consumeHeldItem": true,
    "learnableMoves": ["bonemerang"],
+   "permanent": true,
    "requirements": [
     {
      "variant": "time_range",
@@ -182,6 +189,7 @@
    "result": "nimbeon",
    "consumeHeldItem": true,
    "learnableMoves": ["roost"],
+   "permanent": true,
    "requirements": [
     {
      "variant": "time_range",
@@ -199,6 +207,7 @@
    "result": "draconeon",
    "consumeHeldItem": true,
    "learnableMoves": ["dragonclaw"],
+   "permanent": true,
    "requirements": [
     {
      "variant": "time_range",
@@ -325,6 +334,7 @@
    "id": "eevee_toxeon",
    "variant": "level_up",
    "result": "toxeon",
+   "permanent": true,
    "consumeHeldItem": true,
    "learnableMoves": [],
    "requirements": [
@@ -391,6 +401,7 @@
    "result": "ascenteon",
    "consumeHeldItem": true,
    "learnableMoves": [],
+   "permanent": true,
    "requirements": [
     {
      "variant": "held_item",

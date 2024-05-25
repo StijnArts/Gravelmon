@@ -11,7 +11,8 @@
  "evolutions": [
   {
    "id": "marowak_terathwack",
-   "variant": "item_interact",
+   "variant": "level_up",
+   "permanent": true,
    "result": "terathwack",
    "consumeHeldItem": true,
    "learnableMoves": [],

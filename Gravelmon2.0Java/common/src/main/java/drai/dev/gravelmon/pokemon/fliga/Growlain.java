@@ -48,7 +48,7 @@ public class Growlain extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.FLIGA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

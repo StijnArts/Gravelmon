@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Infernadeer extends Pokemon {
     public Infernadeer() {
         super("Infernadeer",
@@ -113,7 +111,7 @@ public class Infernadeer extends Pokemon {
                 List.of(Label.VANGUARD),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 57, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_BADLANDS)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),

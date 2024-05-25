@@ -15,7 +15,7 @@
       "level": "51-67",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
+"biomes": [ "#cobblemon:is_nether_basalt",
 "#minecraft:is_nether" ],
         "canSeeSky": false
       }

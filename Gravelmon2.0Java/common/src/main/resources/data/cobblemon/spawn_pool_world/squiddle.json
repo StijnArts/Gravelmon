@@ -16,7 +16,7 @@
       "weight": 8.0,
       "condition": {
 "biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_volvanic" ],
+"#cobblemon:is_nether_basalt" ],
         "canSeeSky": true
       }
     }

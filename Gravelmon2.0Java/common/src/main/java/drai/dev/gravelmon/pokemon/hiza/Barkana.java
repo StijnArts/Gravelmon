@@ -37,7 +37,7 @@ public class Barkana extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.HIZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 43, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL, Biome.IS_TROPICAL_ISLAND)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

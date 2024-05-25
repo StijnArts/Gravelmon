@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Wisplode extends Pokemon {
     public Wisplode() {
         super( "Wisplode",
@@ -97,7 +95,7 @@ public class Wisplode extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_VOLCANIC)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),

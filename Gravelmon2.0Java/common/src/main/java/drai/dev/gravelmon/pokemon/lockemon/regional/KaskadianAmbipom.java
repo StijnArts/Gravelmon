@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class KaskadianAmbipom extends Pokemon {
     public KaskadianAmbipom(int dexNo) {
         super(dexNo,"KaskadianAmbipom",
@@ -102,7 +100,7 @@ public class KaskadianAmbipom extends Pokemon {
                 List.of(Label.LOCKEMON, Label.GEN4),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.RARE, 32, 48, 0.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_VOLCANIC))
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_NETHER_BASALT))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

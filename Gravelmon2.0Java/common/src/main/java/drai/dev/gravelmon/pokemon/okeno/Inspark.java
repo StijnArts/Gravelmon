@@ -38,7 +38,7 @@ public class Inspark extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 17, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_CHERRY_GROVE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class EghoMeganium extends Pokemon {
     public EghoMeganium(int dexNo) {
         super(dexNo,"EghoMeganium",
@@ -120,7 +118,7 @@ public class EghoMeganium extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:apple",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 49, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_TROPICAL_ISLAND)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),

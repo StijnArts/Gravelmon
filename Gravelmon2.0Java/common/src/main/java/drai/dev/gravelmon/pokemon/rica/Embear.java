@@ -26,7 +26,7 @@ public class Embear extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("This Pokemon loves to test its strength with friendly battles. Embear cubs can play for hours on end."),
                 List.of(new EvolutionEntry("bearserk", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_VOLCANIC.getId() + ":" + Biome.IS_VOLCANIC.getName() +"\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_NETHER_BASALT.getId() + ":" + Biome.IS_NETHER_BASALT.getName() +"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.EMBER,6),

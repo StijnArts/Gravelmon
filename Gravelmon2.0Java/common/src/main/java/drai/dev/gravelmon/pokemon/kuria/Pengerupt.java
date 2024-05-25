@@ -38,7 +38,7 @@ public class Pengerupt extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.KURIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 52, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC))
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

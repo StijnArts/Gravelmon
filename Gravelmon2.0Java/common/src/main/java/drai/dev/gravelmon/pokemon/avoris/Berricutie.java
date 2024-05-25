@@ -5,11 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
-
 public class Berricutie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Berricutie() {
         super("Berricutie",
@@ -48,7 +43,7 @@ public class Berricutie extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

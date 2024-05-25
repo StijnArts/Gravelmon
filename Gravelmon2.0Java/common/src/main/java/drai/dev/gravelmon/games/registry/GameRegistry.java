@@ -21,7 +21,7 @@ public class GameRegistry {
         games.add(new GenerationSeven());
         games.add(new GenerationEight());
         games.add(new GenerationNine());
-        GravelmonJsonGenerator.setDexCounter(1024);
+        GravelmonJsonGenerator.setDexCounter(1025);
         games.add(new Sage());
         games.add(new Realidea());
         games.add(new Rica());

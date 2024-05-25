@@ -27,7 +27,5 @@ public class GravelmonFabric implements ModInitializer {
         Gravelmon.init();
         GravelmonFeatures.registerFeatures();
         initCreativeTabs();
-
-
     }
 }

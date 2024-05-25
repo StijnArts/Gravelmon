@@ -106,7 +106,7 @@ public class Dendrago extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 51, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL, Biome.IS_LUSH))
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

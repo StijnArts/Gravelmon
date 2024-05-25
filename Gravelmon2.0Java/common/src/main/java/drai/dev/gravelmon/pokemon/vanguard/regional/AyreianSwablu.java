@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class AyreianSwablu extends Pokemon {
     public AyreianSwablu(int dexNo) {
         super(dexNo,"AyreianSwablu",
@@ -101,7 +99,7 @@ public class AyreianSwablu extends Pokemon {
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 34, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE, Biome.IS_VOLCANIC)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE, Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),

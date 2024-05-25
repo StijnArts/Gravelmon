@@ -15,7 +15,7 @@
       "level": "17-39",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_volvanic",
+"biomes": [ "#cobblemon:is_nether_basalt",
 "#cobblemon:is_nether_crimson" ],
         "timeRange": "night"
       }

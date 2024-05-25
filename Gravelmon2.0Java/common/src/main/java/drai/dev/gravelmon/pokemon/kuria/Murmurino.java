@@ -45,7 +45,7 @@ public class Murmurino extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.KURIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

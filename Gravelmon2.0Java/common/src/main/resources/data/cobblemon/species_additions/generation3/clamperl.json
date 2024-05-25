@@ -5,6 +5,7 @@
    "variant": "trade",
    "result": "novranhuntail",
    "consumeHeldItem": true,
+    "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {
@@ -18,6 +19,7 @@
    "variant": "trade",
    "result": "novrangorebyss",
    "consumeHeldItem": true,
+    "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {

@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class KaskadianDubwool extends Pokemon {
     public KaskadianDubwool(int dexNo) {
         super(dexNo,"KaskadianDubwool",
@@ -69,7 +67,7 @@ public class KaskadianDubwool extends Pokemon {
                 List.of(Label.GEN8,Label.LOCKEMON),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 49, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_FIRE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

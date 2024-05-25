@@ -2,9 +2,10 @@
   "evolutions": [
     {
       "id": "unown_metunn",
-      "variant": "item_interact",
+      "variant": "level_up",
       "result": "metunn",
       "consumeHeldItem": true,
+      "permanent": true,
       "learnableMoves": [],
       "requirements": [
         {

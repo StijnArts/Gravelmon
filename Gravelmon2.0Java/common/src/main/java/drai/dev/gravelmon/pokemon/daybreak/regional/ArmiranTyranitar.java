@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class ArmiranTyranitar extends Pokemon {
     public ArmiranTyranitar(int dexNo) {
         super(dexNo,"ArmiranTyranitar",
@@ -119,7 +117,7 @@ public class ArmiranTyranitar extends Pokemon {
                 List.of(Label.GEN2,Label.DAYBREAK),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 51, 67, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

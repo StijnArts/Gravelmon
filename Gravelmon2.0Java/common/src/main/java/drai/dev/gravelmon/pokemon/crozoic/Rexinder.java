@@ -39,7 +39,7 @@ public class Rexinder extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.CROZOIC),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 32, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_VOLCANIC, Biome.IS_LUSH))
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_NETHER_BASALT, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
