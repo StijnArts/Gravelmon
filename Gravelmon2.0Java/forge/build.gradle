@@ -48,7 +48,7 @@ dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
     runtimeOnly "maven.modrinth:midnightlib:1.4.1-forge"
-    runtimeOnly "maven.modrinth:gravels-extended-battles:NKlvWuEI"
+    modImplementation "maven.modrinth:gravels-extended-battles:NKlvWuEI"
 
     mappings loom.layered() {
         officialMojangMappings()
