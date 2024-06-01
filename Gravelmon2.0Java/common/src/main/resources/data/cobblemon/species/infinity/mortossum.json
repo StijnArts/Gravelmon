@@ -131,17 +131,16 @@
     "egg:solarbeam"  ],
   "labels": [
     "infinity",
-    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mortossum.desc"
   ],
   "preEvolution": "eghogloom",
-  "baseScale": 0.1,
+  "baseScale": 0.4,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 0.4,
+    "height": 0.4,
     "fixed": false
   },
   "baseFriendship": 70,
