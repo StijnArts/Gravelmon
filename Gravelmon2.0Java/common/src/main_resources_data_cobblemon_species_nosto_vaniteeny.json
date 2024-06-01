@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "vaniteeny",
+  "nationalPokedexNumber": 2099,
+  "primaryType": "ghost",
+  "secondaryType": "fairy",
+  "abilities": [
+    "magicbounce",
+    "h:magicbounce"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 73,
+    "defence": 52,
+    "special_attack": 47,
+    "special_defence": 33,
+    "speed": 34
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:reflecttype",
+    "6:tackle",
+    "10:doubleteam",
+    "14:shadowsneak",
+    "19:metalsound",
+    "22:drainingkiss",
+    "27:takedown",
+    "32:playrough",
+    "37:lightscreen",
+    "42:phantomforce"  ],
+  "labels": [
+    "nosto",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vaniteeny.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "vaniteeny_boodoir",
+      "variant": "level_up",
+      "result": "boodoir",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

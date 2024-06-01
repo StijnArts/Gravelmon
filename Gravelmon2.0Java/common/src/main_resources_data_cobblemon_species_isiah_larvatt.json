@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "larvatt",
+  "nationalPokedexNumber": 2483,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 27,
+    "defence": 37,
+    "special_attack": 50,
+    "special_defence": 42,
+    "speed": 21
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 210,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:megadrain",
+    "1:strugglebug",
+    "5:supersonic",
+    "8:echoedvoicesound",
+    "12:paraboliccharge",
+    "16:torment",
+    "19:electroweb",
+    "23:roundsound",
+    "27:gigadrain",
+    "30:quash",
+    "34:lunge",
+    "38:overdrive",
+    "41:leechlife",
+    "45:superfang",
+    "49:screechsound",
+    "52:bugbuzzsound",
+    "56:strengthsap"  ],
+  "labels": [
+    "isiah",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.larvatt.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "larvatt_sparkroll",
+      "variant": "level_up",
+      "result": "sparkroll",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 23
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

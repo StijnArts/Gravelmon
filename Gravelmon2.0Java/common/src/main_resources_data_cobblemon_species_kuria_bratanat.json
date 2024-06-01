@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "bratanat",
+  "nationalPokedexNumber": 2241,
+  "primaryType": "bug",
+  "abilities": [
+    "immunity",
+    "h:poisonpoint"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 40,
+    "defence": 40,
+    "special_attack": 55,
+    "special_defence": 80,
+    "speed": 68
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:confusion",
+    "7:stunspore",
+    "11:disable",
+    "15:strugglebug",
+    "19:cottonspore",
+    "22:psybeam",
+    "26:sleeppowder",
+    "30:magiccoat",
+    "33:signalbeam",
+    "37:lightscreen",
+    "41:psychic",
+    "46:ragepowder",
+    "50:bugbuzzsound",
+    "55:wonderroom"  ],
+  "labels": [
+    "kuria",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bratanat.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "bratanat_witherwind",
+      "variant": "level_up",
+      "result": "witherwind",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        },
+        {
+          "variant": "time_range",
+          "range": night
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 11,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

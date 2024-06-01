@@ -1,0 +1,98 @@
+{
+  "implemented": true,
+  "name": "sinklutter",
+  "nationalPokedexNumber": 1742,
+  "primaryType": "poison",
+  "secondaryType": "steel",
+  "abilities": [
+    "stormdrain",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 132,
+    "defence": 77,
+    "special_attack": 47,
+    "special_defence": 86,
+    "speed": 77
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:razorshell",
+    "1:poisonsting",
+    "1:bide",
+    "6:withdraw",
+    "12:spikecannon",
+    "17:sludge",
+    "22:toxicspikes",
+    "27:irondefense",
+    "32:gyroball",
+    "36:poisonjab",
+    "40:spikes",
+    "47:toxic",
+    "52:ironhead",
+    "57:sludgewave",
+    "63:megahorn",
+    "70:shellsmash"  ],
+  "labels": [
+    "varitas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sinklutter.desc"
+  ],
+  "preEvolution": "piplex",
+  "baseScale": 0.625,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 25,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

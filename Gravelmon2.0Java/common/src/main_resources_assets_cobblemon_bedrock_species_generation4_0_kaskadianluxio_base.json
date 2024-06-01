@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kaskadianluxio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_kaskadianluxio",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/kaskadianluxio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/kaskadianluxio_shiny.png"
+    }  ]
+}

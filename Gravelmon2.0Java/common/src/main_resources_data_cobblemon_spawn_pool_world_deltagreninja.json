@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltagreninja-1",
+      "pokemon": "deltagreninja",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-59",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

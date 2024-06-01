@@ -1,0 +1,181 @@
+{
+  "implemented": true,
+  "name": "eghocharmeleon",
+  "nationalPokedexNumber": 5,
+  "primaryType": "fire",
+  "secondaryType": "dragon",
+  "abilities": [
+    "oblivious",
+    "competitive",
+    "h:competitive"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 64,
+    "defence": 58,
+    "special_attack": 80,
+    "special_defence": 65,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "monster"
+  ],
+  "moves": [
+    "1:flameburst",
+    "1:nailflick",
+    "1:scratch",
+    "1:growl",
+    "1:ember",
+    "7:incinerate",
+    "10:smokescreen",
+    "16:nostrilflare",
+    "20:flamewheel",
+    "23:bite",
+    "27:dragonrage",
+    "30:incinerate",
+    "34:dragondance",
+    "38:dragonclaw",
+    "40:dragonpulse",
+    "45:flamethrower",
+    "47:firefang",
+    "54:inferno",
+    "tm:honeclaws",
+    "tm:dragonclaw",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:dig",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:thief",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:overheat",
+    "tm:falseswipe",
+    "tm:incinerate",
+    "tm:quash",
+    "tm:willowisp",
+    "tm:shadowclaw",
+    "tm:flash",
+    "tm:swordsdance",
+    "tm:rockslide",
+    "tm:dragontail",
+    "tm:workup",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:rocksmash",
+    "tm:cut",
+    "tm:strength",
+    "tm:cinderbreath",
+    "tutor:ancientpower",
+    "tutor:dragonpulse",
+    "tutor:firepunch",
+    "tutor:healbellsound",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:suckerpunch",
+    "tutor:zenheadbutt",
+    "egg:ancientpower",
+    "egg:bite",
+    "egg:crunch",
+    "egg:dragondance",
+    "egg:dragonpulse",
+    "egg:dragonrush",
+    "egg:flareblitz",
+    "egg:metalclaw",
+    "egg:outrage"  ],
+  "labels": [
+    "gen1",
+    "infinity",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghocharmeleon.desc"
+  ],
+  "preEvolution": "eghocharmander",
+  "evolutions": [
+    {
+      "id": "eghocharmeleon_eghocharizard",
+      "variant": "level_up",
+      "result": "eghocharizard",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.3,
+    "height": 2.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 13,
+  "weight": 190,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

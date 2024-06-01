@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cerebrulb",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sage_cerebrulb",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/sage/cerebrulb.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/cerebrulb_shiny.png"
+    }  ]
+}

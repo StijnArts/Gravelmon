@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:varitasianraikou",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_varitasianraikou",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/varitasianraikou.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/varitasianraikou_shiny.png"
+    }  ]
+}

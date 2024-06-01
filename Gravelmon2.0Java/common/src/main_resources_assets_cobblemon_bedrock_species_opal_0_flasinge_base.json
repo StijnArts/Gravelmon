@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:flasinge",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:opal_flasinge",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/opal/flasinge.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/opal/flasinge_shiny.png"
+    }  ]
+}

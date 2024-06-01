@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aerocea-1",
+      "pokemon": "aerocea",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "52-64",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

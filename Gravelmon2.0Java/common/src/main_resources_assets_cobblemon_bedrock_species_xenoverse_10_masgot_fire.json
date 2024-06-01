@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:masgot",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fire"
+     ],
+      "poser": "cobblemon:xenoverse_masgot",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/fire_masgot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fire",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/fire_masgot_shiny.png"
+    }  ]
+}

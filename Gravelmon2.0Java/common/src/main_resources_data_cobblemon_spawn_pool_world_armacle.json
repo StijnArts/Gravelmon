@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "armacle-1",
+      "pokemon": "armacle",
+      "presets": [
+          "shipwreck"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "sphericoil",
+  "nationalPokedexNumber": 2735,
+  "primaryType": "electric",
+  "abilities": [
+    "soundproof",
+    "h:static"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 50,
+    "defence": 70,
+    "special_attack": 105,
+    "special_defence": 95,
+    "speed": 165
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 208,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:charge",
+    "1:tackle",
+    "1:sonicboomsound",
+    "1:spark",
+    "5:lockon",
+    "22:shockwave",
+    "29:thunderbolt",
+    "35:selfdestruct",
+    "57:explosion",
+    "62:zapcannon",
+    "tm:magnetbomb",
+    "tm:thunderwave",
+    "tm:headbutt",
+    "tm:substitute",
+    "tm:signalbeam",
+    "tm:zapcannon",
+    "tm:batonpass",
+    "tm:discharge",
+    "tm:explosion",
+    "tm:flash",
+    "tutor:bugnoise",
+    "tutor:hiddenpower",
+    "tutor:cosmicpowercosmic",
+    "tutor:hydropump",
+    "tutor:nastyplot",
+    "tutor:rest",
+    "tutor:toxic"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sphericoil.desc"
+  ],
+  "preEvolution": "electrode",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 1232,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

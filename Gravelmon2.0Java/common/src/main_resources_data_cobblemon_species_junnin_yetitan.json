@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "yetitan",
+  "nationalPokedexNumber": 1775,
+  "primaryType": "grass",
+  "secondaryType": "ice",
+  "abilities": [
+    "overgrow",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 91,
+    "attack": 111,
+    "defence": 99,
+    "special_attack": 74,
+    "special_defence": 71,
+    "speed": 84
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like",
+    "grass"
+  ],
+  "moves": [
+    "44:gigadrain",
+    "47:roarsound",
+    "51:icehammer",
+    "58:woodhammer",
+    "tm:frenzyplant",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:helpinghand",
+    "tm:snoresound",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:attract",
+    "tm:bide",
+    "tm:bodyslam",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:return",
+    "tm:roarsound",
+    "tm:roundsound",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:toxic",
+    "tm:rest",
+    "tm:flatter",
+    "tm:captivate",
+    "tm:charm"  ],
+  "labels": [
+    "junnin",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.yetitan.desc"
+  ],
+  "preEvolution": "yeteen",
+  "baseScale": 0.525,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:grimfowl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:infinity_grimfowl",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/grimfowl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/grimfowl_shiny.png"
+    }  ]
+}

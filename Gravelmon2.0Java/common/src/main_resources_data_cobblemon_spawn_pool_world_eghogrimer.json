@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "eghogrimer-1",
+      "pokemon": "eghogrimer",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-22",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_basalt",
+"#cobblemon:is_nether_soul_sand",
+"#cobblemon:is_nether_toxic" ]
+      }
+    }
+  ]
+}

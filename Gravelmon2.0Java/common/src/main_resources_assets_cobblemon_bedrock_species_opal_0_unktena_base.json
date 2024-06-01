@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:unktena",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:opal_unktena",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/opal/unktena.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/opal/unktena_shiny.png"
+    }  ]
+}

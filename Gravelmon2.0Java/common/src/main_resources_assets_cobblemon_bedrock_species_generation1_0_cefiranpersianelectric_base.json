@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cefiranpersianelectric",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_cefiranpersianelectric",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranpersianelectric.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranpersianelectric_shiny.png"
+    }  ]
+}

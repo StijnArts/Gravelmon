@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "sparkroll",
+  "nationalPokedexNumber": 2484,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 39,
+    "defence": 53,
+    "special_attack": 72,
+    "special_defence": 60,
+    "speed": 31
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:megadrain",
+    "1:strugglebug",
+    "5:supersonic",
+    "8:echoedvoicesound",
+    "12:paraboliccharge",
+    "16:torment",
+    "19:electroweb",
+    "23:roundsound",
+    "27:gigadrain",
+    "30:quash",
+    "34:lunge",
+    "38:overdrive",
+    "41:leechlife",
+    "45:superfang",
+    "49:screechsound",
+    "52:bugbuzzsound",
+    "56:strengthsap"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sparkroll.desc"
+  ],
+  "preEvolution": "larvatt",
+  "evolutions": [
+    {
+      "id": "sparkroll_megawatt",
+      "variant": "level_up",
+      "result": "megawatt",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

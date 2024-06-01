@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:seijitsu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:umbra_seijitsu",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/umbra/seijitsu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/umbra/seijitsu_shiny.png"
+    }  ]
+}

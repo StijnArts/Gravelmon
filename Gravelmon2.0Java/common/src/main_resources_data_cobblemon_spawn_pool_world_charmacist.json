@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "charmacist-1",
+      "pokemon": "charmacist",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-49",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#gravelmon:is_snowy" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

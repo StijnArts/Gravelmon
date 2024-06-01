@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:oviseed",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:umbra_oviseed",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/umbra/oviseed.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/umbra/oviseed_shiny.png"
+    }  ]
+}

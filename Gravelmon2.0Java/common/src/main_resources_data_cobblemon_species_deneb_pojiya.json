@@ -1,0 +1,102 @@
+{
+  "implemented": true,
+  "name": "pojiya",
+  "nationalPokedexNumber": 2924,
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisonpoint",
+    "h:runaway"
+  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 59,
+    "defence": 57,
+    "special_attack": 25,
+    "special_defence": 31,
+    "speed": 28
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:poisonsting",
+    "6:rollout",
+    "10:screechsound",
+    "13:pinmissile",
+    "17:poisontail",
+    "25:steamroller",
+    "27:sludge"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.pojiya.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "pojiya_monebu",
+      "variant": "level_up",
+      "result": "monebu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 51,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

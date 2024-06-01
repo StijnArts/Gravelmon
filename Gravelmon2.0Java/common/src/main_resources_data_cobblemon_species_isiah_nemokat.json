@@ -1,0 +1,167 @@
+{
+  "implemented": true,
+  "name": "nemokat",
+  "nationalPokedexNumber": 2384,
+  "primaryType": "normal",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 105,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 225,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:focusenergy",
+    "5:scratch",
+    "8:focusenergy",
+    "14:furyswipes",
+    "16:doublehit",
+    "20:screechsound",
+    "24:fakeout",
+    "29:slash",
+    "36:shadowclaw",
+    "42:willowisp",
+    "51:honeclaws",
+    "59:nightslash",
+    "tm:suckerpunch",
+    "tm:bounce",
+    "tm:covet",
+    "tm:endeavor",
+    "tm:helpinghand",
+    "tm:recycle",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:roleplay",
+    "tm:zenheadbutt",
+    "tm:irontail",
+    "tm:darkpulse",
+    "tm:embargo",
+    "tm:fling",
+    "tm:payback",
+    "tm:quash",
+    "tm:taunt",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:bulkup",
+    "tm:flamecharge",
+    "tm:sunnyday",
+    "tm:aerialace",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:dig",
+    "tm:attract",
+    "tm:bide",
+    "tm:bodyslam",
+    "tm:confide",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:echoedvoicesound",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:psychup",
+    "tm:retaliate",
+    "tm:return",
+    "tm:roarsound",
+    "tm:roundsound",
+    "tm:secretpower",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:swordsdance",
+    "tm:workup",
+    "tm:toxic",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:rest",
+    "tm:raindance",
+    "tm:flatter",
+    "tm:suckerpunch",
+    "tm:charm",
+    "tm:curse",
+    "tm:assist",
+    "tm:batonpass",
+    "tm:captivate",
+    "tm:fakeout",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:tickle",
+    "tm:uproar",
+    "tm:wish",
+    "tm:hypnosis",
+    "tm:zenheadbutt",
+    "tm:rollout"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.nemokat.desc"
+  ],
+  "preEvolution": "munchwin",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

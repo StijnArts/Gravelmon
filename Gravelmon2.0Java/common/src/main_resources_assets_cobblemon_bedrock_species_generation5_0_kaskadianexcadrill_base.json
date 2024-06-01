@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kaskadianexcadrill",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_kaskadianexcadrill",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/kaskadianexcadrill.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/kaskadianexcadrill_shiny.png"
+    }  ]
+}

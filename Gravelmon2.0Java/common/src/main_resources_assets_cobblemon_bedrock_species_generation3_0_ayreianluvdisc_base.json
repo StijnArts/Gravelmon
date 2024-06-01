@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianluvdisc",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_ayreianluvdisc",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianluvdisc.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianluvdisc_shiny.png"
+    }  ]
+}

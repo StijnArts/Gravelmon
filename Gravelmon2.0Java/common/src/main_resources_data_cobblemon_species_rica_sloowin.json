@@ -1,0 +1,163 @@
+{
+  "implemented": true,
+  "name": "sloowin",
+  "nationalPokedexNumber": 1270,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:torrent"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 78,
+    "defence": 63,
+    "special_attack": 63,
+    "special_defence": 63,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "1:growl",
+    "7:watergun",
+    "9:mudsport",
+    "12:focusenergy",
+    "15:headbutt",
+    "20:waterpulse",
+    "25:assurance",
+    "29:swagger",
+    "33:bodyslam",
+    "39:muddywater",
+    "42:workup",
+    "47:suckerpunch",
+    "53:hydropump",
+    "59:thrash",
+    "tm:waterpledge",
+    "tm:bodyslam",
+    "tm:superpower",
+    "tm:muddywater",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:foulplay",
+    "tm:knockoff",
+    "tm:sludgewave",
+    "tm:playrough",
+    "tm:swordsdance",
+    "tm:surf",
+    "tm:icebeam",
+    "tm:strength",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:waterfall",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:sludgebomb",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:shadowball",
+    "tm:rocksmash",
+    "tm:snowscape",
+    "tm:torment",
+    "tm:facade",
+    "tm:taunt",
+    "tm:brickbreak",
+    "tm:dive",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:bulkup",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:darkpulse",
+    "tm:focusblast",
+    "tm:stoneedge",
+    "tm:scald",
+    "tm:dragontail",
+    "tm:workup",
+    "tm:brutalswing",
+    "tm:powertrip",
+    "tm:aquajet"  ],
+  "labels": [
+    "rica",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sloowin.desc"
+  ],
+  "preEvolution": "mirmoor",
+  "evolutions": [
+    {
+      "id": "sloowin_atrocean",
+      "variant": "level_up",
+      "result": "atrocean",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

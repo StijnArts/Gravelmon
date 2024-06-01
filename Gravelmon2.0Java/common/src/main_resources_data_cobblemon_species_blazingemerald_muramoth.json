@@ -1,0 +1,113 @@
+{
+  "implemented": true,
+  "name": "muramoth",
+  "nationalPokedexNumber": 2178,
+  "primaryType": "bug",
+  "secondaryType": "dark",
+  "abilities": [
+    "elusive",
+    "h:illuminate"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 50,
+    "special_attack": 115,
+    "special_defence": 75,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:faketears",
+    "4:hypnosis",
+    "12:signalbeam",
+    "16:attract",
+    "24:confuseray",
+    "31:moonrazer",
+    "36:hivemind",
+    "43:magiccoat",
+    "49:dazzledust",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:veiledsky",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:shimmershot",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:sludgebomb",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:steelwing"  ],
+  "labels": [
+    "blazing_emerald",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.muramoth.desc"
+  ],
+  "preEvolution": "hoennianvenonat",
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 7,
+  "weight": 379,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

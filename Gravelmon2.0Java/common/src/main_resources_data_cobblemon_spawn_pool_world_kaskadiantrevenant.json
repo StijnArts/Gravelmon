@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskadiantrevenant-1",
+      "pokemon": "kaskadiantrevenant",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "30-52",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_fungus" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

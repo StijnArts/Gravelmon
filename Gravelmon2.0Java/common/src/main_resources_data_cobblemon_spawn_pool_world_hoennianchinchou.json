@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoennianchinchou-1",
+      "pokemon": "hoennianchinchou",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "9-31",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#minecraft:is_deep_ocean" ],
+        "maxY": 48
+      }
+    }
+  ]
+}

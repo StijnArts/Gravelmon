@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltaralts-1",
+      "pokemon": "deltaralts",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 18.0,
+      "condition": {
+"biomes": [ "#gravelmon:is_snowy" ],
+        "isThundering": true,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

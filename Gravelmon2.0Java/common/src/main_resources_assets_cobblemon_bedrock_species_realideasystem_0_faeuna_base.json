@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:faeuna",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:realideasystem_faeuna",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/realideasystem/faeuna.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/realideasystem/faeuna_shiny.png"
+    }  ]
+}

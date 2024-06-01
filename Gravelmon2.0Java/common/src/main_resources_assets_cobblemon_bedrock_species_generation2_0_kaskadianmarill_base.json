@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kaskadianmarill",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_kaskadianmarill",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/kaskadianmarill.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/kaskadianmarill_shiny.png"
+    }  ]
+}

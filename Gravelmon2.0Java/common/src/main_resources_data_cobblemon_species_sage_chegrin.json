@@ -1,0 +1,167 @@
+{
+  "implemented": true,
+  "name": "chegrin",
+  "nationalPokedexNumber": 1169,
+  "primaryType": "dark",
+  "secondaryType": "psychic",
+  "abilities": [
+    "shadowtag",
+    "h:unnerve"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 90,
+    "special_defence": 68,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:barrage",
+    "1:growl",
+    "5:bite",
+    "9:faketears",
+    "13:swiftcosmic",
+    "19:cheapshot",
+    "21:teeterdance",
+    "25:taunt",
+    "29:uproar",
+    "33:encore",
+    "37:fling",
+    "41:flatter",
+    "45:darkpulse",
+    "49:switcheroo",
+    "53:snatch",
+    "57:trumpcard",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:echoedvoicesound",
+    "tm:energyball",
+    "tm:fling",
+    "tm:endure",
+    "tm:acrobatics",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:thunderwave",
+    "tm:psychup",
+    "tm:workup",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:snarl",
+    "tm:darkpulse",
+    "tm:sleeptalksound",
+    "tutor:endeavor",
+    "tutor:fling",
+    "tutor:helpinghand",
+    "tutor:hypervoicesound",
+    "tutor:megapunch",
+    "tutor:metronome",
+    "tutor:mudslap",
+    "tutor:secretpower",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:wonderroom",
+    "egg:aurasphere",
+    "egg:batonpass",
+    "egg:covet",
+    "egg:crunch",
+    "egg:hypervoicesound",
+    "egg:hypnosis",
+    "egg:lick",
+    "egg:memento",
+    "egg:psywave",
+    "egg:pursuit"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.chegrin.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "chegrin_cheshade",
+      "variant": "item_interact",
+      "result": "cheshade",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 85,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

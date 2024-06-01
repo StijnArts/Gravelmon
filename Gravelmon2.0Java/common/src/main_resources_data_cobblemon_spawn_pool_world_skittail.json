@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "skittail-1",
+      "pokemon": "skittail",
+      "presets": [
+          "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "19-32",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest",
+"#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_ocean" ]    }
+    }
+  ]
+}

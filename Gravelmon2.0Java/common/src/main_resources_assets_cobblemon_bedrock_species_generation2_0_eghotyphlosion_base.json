@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:eghotyphlosion",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_eghotyphlosion",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/eghotyphlosion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/eghotyphlosion_shiny.png"
+    }  ]
+}

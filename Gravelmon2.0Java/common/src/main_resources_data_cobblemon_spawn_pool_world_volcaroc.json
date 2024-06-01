@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "volcaroc-1",
+      "pokemon": "volcaroc",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 1.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_nether_basalt",
+"#cobblemon:is_nether_basalt" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

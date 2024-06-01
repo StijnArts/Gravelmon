@@ -1,0 +1,301 @@
+{
+  "implemented": true,
+  "name": "deltaruinmetagross",
+  "nationalPokedexNumber": 376,
+  "primaryType": "grass",
+  "secondaryType": "rock",
+  "abilities": [
+    "sturdy",
+    "h:rockhead"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 135,
+    "defence": 130,
+    "special_attack": 95,
+    "special_defence": 90,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Mega",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "abilities": [
+    "rockhead",
+    "h:rockhead"
+      ],
+      "baseScale": 0.3,
+        "hitbox": {
+          "width": 6.0,
+          "height": 6.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 145,
+        "defence": 150,
+        "special_attack": 105,
+        "special_defence": 110,
+        "speed": 110
+      },
+      "catchRate": 3,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 300,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 3,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence",
+    "not_modeled"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 1,
+      "weight": 55000,
+      "cannotDynamax": false,
+      "battleOnly": true
+    },
+    {
+      "name": "Mega-Crystal",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "abilities": [
+    "weakarmor",
+    "h:rockhead"
+      ],
+      "baseScale": 0.3,
+        "hitbox": {
+          "width": 6.0,
+          "height": 6.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 180,
+        "defence": 100,
+        "special_attack": 120,
+        "special_defence": 100,
+        "speed": 100
+      },
+      "catchRate": 3,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 300,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 3,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence",
+    "not_modeled"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 1,
+      "weight": 55000,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:stealthrock",
+    "1:woodhammer",
+    "1:megadrain",
+    "1:smackdown",
+    "20:megadrain",
+    "20:smackdown",
+    "23:pursuit",
+    "26:bulletseed",
+    "29:leechseed",
+    "32:seedbomb",
+    "35:scaryface",
+    "38:energyball",
+    "41:rockpolish",
+    "44:stoneedge",
+    "45:diamondstormcrystal",
+    "52:growth",
+    "60:headsmash",
+    "65:crystalrush",
+    "tm:honeclaws",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:recycle",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:chargebeam",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:thunderwave",
+    "tm:wildcharge",
+    "tm:drainpunch",
+    "tm:voltswitch",
+    "tm:rockslide",
+    "tm:xscissor",
+    "tm:shockwave",
+    "tm:poisonjab",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:flash",
+    "tm:naturepower",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bodyslam",
+    "tutor:bulletseed",
+    "tutor:dig",
+    "tutor:doubleedge",
+    "tutor:dynamicpunch",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:gigadrain",
+    "tutor:gunkshot",
+    "tutor:headbutt",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:seedbomb",
+    "tutor:seismictoss",
+    "tutor:selfdestruct",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:synthesis",
+    "tutor:thunderpunch",
+    "tutor:worryseed",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaruinmetagross.desc"
+  ],
+  "preEvolution": "deltaruinmetang",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 5500,
+  "aspects": [],
+"features": [
+"mega",
+"megacrystal"
+  ],  "cannotDynamax": false
+}

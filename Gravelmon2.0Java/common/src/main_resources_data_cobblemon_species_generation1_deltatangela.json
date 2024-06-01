@@ -1,0 +1,171 @@
+{
+  "implemented": true,
+  "name": "deltatangela",
+  "nationalPokedexNumber": 114,
+  "primaryType": "ground",
+  "abilities": [
+    "dryskin",
+    "sandforce",
+    "h:roughskin"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 55,
+    "defence": 115,
+    "special_attack": 100,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 87,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:endure",
+    "1:constrict",
+    "4:sandattack",
+    "7:vinewhip",
+    "10:sandtomb",
+    "14:rollout",
+    "17:bind",
+    "20:bide",
+    "23:magnitude",
+    "27:reversal",
+    "30:focusenergy",
+    "33:sandstorm",
+    "36:earthquake",
+    "38:ancientpower",
+    "41:slam",
+    "44:wideguard",
+    "46:rototiller",
+    "48:wringout",
+    "50:powerwhip",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:overheat",
+    "tm:fling",
+    "tm:embargo",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:rockslide",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:ancientpower",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:dig",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:seedbomb",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:synthesis",
+    "tutor:worryseed"  ],
+  "labels": [
+    "gen1",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltatangela.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltatangela_deltatangrowth",
+      "variant": "level_up",
+      "result": "deltatangrowth",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "ancientpower"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 350,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

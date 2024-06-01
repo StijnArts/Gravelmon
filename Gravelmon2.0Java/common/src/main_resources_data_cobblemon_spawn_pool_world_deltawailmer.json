@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltawailmer-1",
+      "pokemon": "deltawailmer",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-38",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#gravelmon:is_snowy" ],
+        "isRaining": true,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

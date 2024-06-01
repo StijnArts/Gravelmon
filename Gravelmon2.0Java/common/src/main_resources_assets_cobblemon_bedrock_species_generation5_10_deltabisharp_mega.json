@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltabisharp",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation5_deltabisharp",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/mega_deltabisharp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/mega_deltabisharp_shiny.png"
+    }  ]
+}

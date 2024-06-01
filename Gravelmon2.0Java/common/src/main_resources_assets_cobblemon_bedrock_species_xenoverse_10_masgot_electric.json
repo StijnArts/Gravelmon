@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:masgot",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "electric"
+     ],
+      "poser": "cobblemon:xenoverse_masgot",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/electric_masgot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "electric",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/electric_masgot_shiny.png"
+    }  ]
+}

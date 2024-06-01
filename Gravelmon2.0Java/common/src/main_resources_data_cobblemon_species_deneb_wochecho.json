@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "wochecho",
+  "nationalPokedexNumber": 2895,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye",
+    "h:tangledfeet"
+  ],
+  "baseStats": {
+    "hp": 57,
+    "attack": 76,
+    "defence": 57,
+    "special_attack": 44,
+    "special_defence": 52,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 103,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:peck",
+    "1:quickattack",
+    "6:quickattack",
+    "13:singsound",
+    "18:wingattack",
+    "22:whirlwind",
+    "27:aerialace",
+    "33:airslash",
+    "37:roost",
+    "42:crushclaw",
+    "46:mirrormove",
+    "52:bravebird",
+    "tutor:glide",
+    "tutor:leer",
+    "tutor:snarl",
+    "tutor:feintattack",
+    "tutor:torment",
+    "tutor:confide",
+    "tutor:doubleedge",
+    "tm:toxic",
+    "tm:ominouswind",
+    "tm:airslash",
+    "tm:return",
+    "tm:roost",
+    "tm:jetstrike",
+    "tm:fly",
+    "egg:aircutter",
+    "egg:pursuit",
+    "egg:razorwind",
+    "egg:endeavor",
+    "egg:facade",
+    "egg:defog",
+    "egg:twister",
+    "egg:supersonic",
+    "egg:uturn",
+    "egg:featherdance",
+    "egg:furyattack",
+    "egg:foresight"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.wochecho.desc"
+  ],
+  "preEvolution": "birarchy",
+  "evolutions": [
+    {
+      "id": "wochecho_Dokangu",
+      "variant": "level_up",
+      "result": "Dokangu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

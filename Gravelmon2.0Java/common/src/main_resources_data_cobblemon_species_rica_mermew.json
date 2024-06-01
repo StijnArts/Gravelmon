@@ -1,0 +1,142 @@
+{
+  "implemented": true,
+  "name": "mermew",
+  "nationalPokedexNumber": 1361,
+  "primaryType": "fairy",
+  "abilities": [
+    "keeneye",
+    "h:cutecharm"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 53,
+    "special_attack": 55,
+    "special_defence": 72,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 95,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_3"
+  ],
+  "moves": [
+    "1:refresh",
+    "6:disarmingvoicesound",
+    "10:sandattack",
+    "18:fakeout",
+    "22:lifedew",
+    "29:brine",
+    "32:wish",
+    "36:hypervoicesound",
+    "39:playrough",
+    "47:lastresort",
+    "51:healingwish",
+    "tm:bodyslam",
+    "tm:mysticalfire",
+    "tm:muddywater",
+    "tm:knockoff",
+    "tm:psychicfangs",
+    "tm:zenheadbutt",
+    "tm:dig",
+    "tm:scorchingsands",
+    "tm:playrough",
+    "tm:spikes",
+    "tm:allyswitch",
+    "tm:healbellsound",
+    "tm:falseswipe",
+    "tm:echoedvoicesound",
+    "tm:naturepower",
+    "tm:return",
+    "tm:frustration",
+    "tm:facade",
+    "tm:hiddenpower",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:bulldoze",
+    "tm:snarl",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:dazzlinggleam",
+    "tm:protect",
+    "tm:swagger",
+    "tm:doubleteam",
+    "tm:attract",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:raindance",
+    "tm:stealthrock",
+    "tm:roarsound",
+    "tm:workup",
+    "tm:thunderwave",
+    "tm:cut",
+    "tm:rocksmash",
+    "tm:flash",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:healbellsound"  ],
+  "labels": [
+    "rica",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mermew.desc"
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,108 @@
+{
+  "implemented": true,
+  "name": "teslax",
+  "nationalPokedexNumber": 2086,
+  "primaryType": "electric",
+  "secondaryType": "dark",
+  "abilities": [
+    "levitate",
+    "h:illuminate"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 20,
+    "defence": 40,
+    "special_attack": 70,
+    "special_defence": 40,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 235,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 49,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3",
+    "amorphous"
+  ],
+  "moves": [
+    "1:supersonic",
+    "4:flash",
+    "8:thunderwave",
+    "12:snarl",
+    "17:shockwave",
+    "22:charge",
+    "27:lockon",
+    "33:payback",
+    "37:paraboliccharge",
+    "42:discharge",
+    "47:darkpulse",
+    "52:nastyplot"  ],
+  "labels": [
+    "nosto",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.teslax.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "teslax_zexalax",
+      "variant": "level_up",
+      "result": "zexalax",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

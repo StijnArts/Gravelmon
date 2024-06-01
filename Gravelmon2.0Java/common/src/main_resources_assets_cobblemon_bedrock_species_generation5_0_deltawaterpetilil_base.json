@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltawaterpetilil",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_deltawaterpetilil",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/deltawaterpetilil.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/deltawaterpetilil_shiny.png"
+    }  ]
+}

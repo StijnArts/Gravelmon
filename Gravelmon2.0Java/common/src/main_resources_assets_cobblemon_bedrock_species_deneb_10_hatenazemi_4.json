@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:hatenazemi",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "four"
+     ],
+      "poser": "cobblemon:deneb_hatenazemi",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/4_hatenazemi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "four",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/4_hatenazemi_shiny.png"
+    }  ]
+}

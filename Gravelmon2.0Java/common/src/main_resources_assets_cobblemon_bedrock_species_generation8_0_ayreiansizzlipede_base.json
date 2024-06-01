@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreiansizzlipede",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation8_ayreiansizzlipede",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation8/ayreiansizzlipede.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation8/ayreiansizzlipede_shiny.png"
+    }  ]
+}

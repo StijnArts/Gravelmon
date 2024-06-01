@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kaskadianphantump",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation6_kaskadianphantump",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/kaskadianphantump.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation6/kaskadianphantump_shiny.png"
+    }  ]
+}

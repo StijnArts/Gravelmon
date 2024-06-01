@@ -1,0 +1,154 @@
+{
+  "implemented": true,
+  "name": "mysticvoltorb",
+  "nationalPokedexNumber": 100,
+  "primaryType": "psychic",
+  "abilities": [
+    "telepathy",
+    "anticipation",
+    "h:synchronize"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 50,
+    "special_attack": 100,
+    "special_defence": 55,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 26,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:confusion",
+    "1:endeavor",
+    "1:protect",
+    "1:recover",
+    "12:psybeam",
+    "16:charm",
+    "20:psyshock",
+    "24:lightscreen",
+    "24:reflect",
+    "28:allyswitch",
+    "35:painsplit",
+    "40:psychic",
+    "46:skillswap",
+    "52:futuresight",
+    "58:wonderroom",
+    "tm:charm",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:confuseray",
+    "tm:facade",
+    "tm:swiftcosmic",
+    "tm:rocktomb",
+    "tm:storedpower",
+    "tm:nightshade",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:psyshock",
+    "tm:zenheadbutt",
+    "tm:sleeptalksound",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:imprison",
+    "tm:flashcannon",
+    "tm:skillswap",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:trick",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:encore",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:psychicterrain",
+    "tm:trickroom",
+    "tm:thunder",
+    "tm:terablast",
+    "tm:gravitycosmic",
+    "tm:gyroball",
+    "tm:painsplit",
+    "tm:psychup",
+    "tm:endeavor",
+    "tm:futuresight",
+    "tm:expandingforce"  ],
+  "labels": [
+    "azure",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mysticvoltorb.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "mysticvoltorb_mysticelectrode",
+      "variant": "level_up",
+      "result": "mysticelectrode",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 104,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

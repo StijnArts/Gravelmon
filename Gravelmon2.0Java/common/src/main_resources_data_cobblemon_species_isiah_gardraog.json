@@ -1,0 +1,120 @@
+{
+  "implemented": true,
+  "name": "gardraog",
+  "nationalPokedexNumber": 2357,
+  "primaryType": "grass",
+  "abilities": [
+    "overgrow",
+    "h:overcoat"
+  ],
+  "baseStats": {
+    "hp": 119,
+    "attack": 122,
+    "defence": 90,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 64
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 241,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "grass"
+  ],
+  "moves": [
+    "1:leer",
+    "1:pound",
+    "3:leafage",
+    "6:quickattack",
+    "9:megadrain",
+    "12:detect",
+    "15:quickguard",
+    "18:assurance",
+    "21:gigadrain",
+    "24:slam",
+    "27:doubleteam",
+    "30:energyball",
+    "33:screechsound",
+    "36:endeavor",
+    "39:leafstorm",
+    "tm:frenzyplant",
+    "tm:grasspledge",
+    "tm:snoresound",
+    "tm:playrough",
+    "tm:grassknot",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:attract",
+    "tm:confide",
+    "tm:doubleedge",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:naturalgift",
+    "tm:protect",
+    "tm:return",
+    "tm:roundsound",
+    "tm:secretpower",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:rest"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.gardraog.desc"
+  ],
+  "preEvolution": "shibark",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

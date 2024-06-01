@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "nirvache",
+  "nationalPokedexNumber": 2395,
+  "primaryType": "psychic",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 57,
+    "attack": 44,
+    "defence": 50,
+    "special_attack": 65,
+    "special_defence": 84,
+    "speed": 44
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:confusion",
+    "5:kinesis",
+    "7:luckychant",
+    "12:psybeam",
+    "18:hiddenpower",
+    "20:safeguard",
+    "25:psyshock",
+    "29:confuseray",
+    "33:calmmind",
+    "37:psychic",
+    "41:psychup",
+    "57:recover"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.nirvache.desc"
+  ],
+  "preEvolution": "bovinda",
+  "evolutions": [
+    {
+      "id": "nirvache_tabooves",
+      "variant": "level_up",
+      "result": "tabooves",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "solarisen-1",
+      "pokemon": "solarisen",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "45-61",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_basalt",
+"#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

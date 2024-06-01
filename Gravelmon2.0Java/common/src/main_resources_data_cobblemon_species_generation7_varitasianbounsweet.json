@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "varitasianbounsweet",
+  "nationalPokedexNumber": 761,
+  "primaryType": "ghost",
+  "secondaryType": "bug",
+  "abilities": [
+    "unnerve",
+    "h:poisonheal"
+  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 30,
+    "defence": 38,
+    "special_attack": 30,
+    "special_defence": 38,
+    "speed": 32
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 235,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 42,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:splash",
+    "5:playnice",
+    "9:rapidspin",
+    "13:razorleaf",
+    "17:sweetscent",
+    "21:magicalleaf",
+    "25:teeterdance",
+    "29:flail",
+    "33:aromaticmist",
+    "tm:snoresound",
+    "tm:gigadrain",
+    "tm:synthesis",
+    "tm:helpinghand",
+    "tm:endeavor",
+    "tm:bounce",
+    "tm:covet",
+    "tm:worryseed",
+    "tm:seedbomb",
+    "tm:zenheadbutt",
+    "tm:solarbeam",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:rest",
+    "tm:substitute",
+    "tm:protect",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:safeguard",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:naturepower",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:roundsound",
+    "tm:confide",
+    "tm:dazzlinggleam",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:playrough",
+    "tm:swiftcosmic",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:charm",
+    "tm:grasswhistle",
+    "tm:feint",
+    "tm:acupressure",
+    "tm:playrough"  ],
+  "labels": [
+    "varitas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.varitasianbounsweet.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "varitasianbounsweet_varitasiansteenee",
+      "variant": "level_up",
+      "result": "varitasiansteenee",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

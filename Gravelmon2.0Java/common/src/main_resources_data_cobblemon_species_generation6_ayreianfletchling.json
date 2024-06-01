@@ -1,0 +1,150 @@
+{
+  "implemented": true,
+  "name": "ayreianfletchling",
+  "nationalPokedexNumber": 661,
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "abilities": [
+    "swiftswim",
+    "h:galewings"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 43,
+    "special_attack": 62,
+    "special_defence": 45,
+    "speed": 38
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 56,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:gust",
+    "1:growl",
+    "4:powdersnow",
+    "7:watergun",
+    "10:raindance",
+    "13:waterpulse",
+    "18:wingattack",
+    "25:agility",
+    "30:bulkup",
+    "35:tailwind",
+    "40:steelwing",
+    "45:roost",
+    "50:fly",
+    "tutor:uproar",
+    "tutor:acrobatics",
+    "tutor:aerialace",
+    "tutor:agility",
+    "tutor:attract",
+    "tutor:confide",
+    "tutor:defog",
+    "tutor:doubleteam",
+    "tutor:dualwingbeat",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:flamecharge",
+    "tutor:fly",
+    "tutor:frustration",
+    "tutor:heatwave",
+    "tutor:hiddenpower",
+    "tutor:overheat",
+    "tutor:protect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:roost",
+    "tutor:roundsound",
+    "tutor:sleeptalksound",
+    "tutor:snatch",
+    "tutor:snoresound",
+    "tutor:steelwing",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:swiftcosmic",
+    "tutor:swordsdance",
+    "tutor:tailwind",
+    "tutor:taunt",
+    "tutor:thief",
+    "tutor:toxic",
+    "tutor:uturn",
+    "tutor:willowisp",
+    "tutor:workup",
+    "egg:flamecharge",
+    "egg:quickguard",
+    "egg:defog"  ],
+  "labels": [
+    "gen6",
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianfletchling.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ayreianfletchling_ayreianfletchinder",
+      "variant": "level_up",
+      "result": "ayreianfletchinder",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 17
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 17,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

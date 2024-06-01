@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "aquaff",
+  "nationalPokedexNumber": 2561,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 55,
+    "special_attack": 45,
+    "special_defence": 40,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "1:leer",
+    "6:bubble",
+    "9:supersonic",
+    "12:bubblebeam",
+    "15:headbutt",
+    "18:aquajet",
+    "21:waterpulse",
+    "24:hornattack",
+    "27:powergemcrystal",
+    "30:bellydrum",
+    "33:skullbash",
+    "36:aquatail",
+    "39:hydropump",
+    "tm:takedown",
+    "tm:mist",
+    "tm:confusion",
+    "tm:substitute",
+    "tm:endure",
+    "tm:mirrorcoat",
+    "tm:brine"  ],
+  "labels": [
+    "midamis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.aquaff.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "aquaff_aqualf",
+      "variant": "level_up",
+      "result": "aqualf",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

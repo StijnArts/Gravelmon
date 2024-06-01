@@ -1,0 +1,146 @@
+{
+  "implemented": true,
+  "name": "nebulent",
+  "nationalPokedexNumber": 1471,
+  "primaryType": "poison",
+  "abilities": [
+    "shedskin",
+    "h:anticipation"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 35,
+    "special_attack": 50,
+    "special_defence": 35,
+    "speed": 68
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "moves": [
+    "1:wrap",
+    "4:leer",
+    "7:bite",
+    "11:acid",
+    "14:pursuit",
+    "19:poisonfang",
+    "22:slam",
+    "25:glare",
+    "30:crunch",
+    "35:acidspray",
+    "41:coil",
+    "46:toxic",
+    "51:sludgebomb",
+    "55:moonlight",
+    "60:gunkshot",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:roundsound",
+    "tm:focusblast",
+    "tm:infestation",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:incinerate",
+    "tm:shadowball",
+    "tm:darkpulse",
+    "tm:brutalswing",
+    "tm:poisonjab",
+    "tm:sludgebomb",
+    "tm:venoshock",
+    "tm:rockslide",
+    "tm:smackdown",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:mistyterrain",
+    "tm:swiftcosmic",
+    "tm:wish",
+    "tm:nastyplot"  ],
+  "labels": [
+    "dhiome",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.nebulent.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "nebulent_slithair",
+      "variant": "trade",
+      "result": "slithair",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

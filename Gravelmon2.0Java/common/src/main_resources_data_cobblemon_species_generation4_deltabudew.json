@@ -1,0 +1,172 @@
+{
+  "implemented": true,
+  "name": "deltabudew",
+  "nationalPokedexNumber": 406,
+  "primaryType": "dark",
+  "secondaryType": "fairy",
+  "abilities": [
+    "shadowdance",
+    "heliophobia",
+    "h:innerfocus"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 35,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 56,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:disarmingvoicesound",
+    "4:faketears",
+    "7:babydolleyes",
+    "10:attract",
+    "13:drainingkiss",
+    "16:confide",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:energyball",
+    "tm:fling",
+    "tm:skillswap",
+    "tm:newmoon",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:psychup",
+    "tm:thunderwave",
+    "tm:poisonjab",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:lunarcannon",
+    "tm:allyswitch",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:quash",
+    "tm:darkmatter",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:cut",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:aircutter",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:healbellsound",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:tailwind",
+    "tutor:trick",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen4",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltabudew.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltabudew_deltaroselia",
+      "variant": "level_up",
+      "result": "deltaroselia",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 12,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

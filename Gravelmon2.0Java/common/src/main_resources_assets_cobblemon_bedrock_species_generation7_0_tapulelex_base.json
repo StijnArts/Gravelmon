@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:tapulelex",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation7_tapulelex",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation7/tapulelex.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation7/tapulelex_shiny.png"
+    }  ]
+}

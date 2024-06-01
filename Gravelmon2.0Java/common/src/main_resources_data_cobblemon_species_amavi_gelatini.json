@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "gelatini",
+  "nationalPokedexNumber": 3048,
+  "primaryType": "psychic",
+  "secondaryType": "fighting",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 25,
+    "defence": 65,
+    "special_attack": 30,
+    "special_defence": 65,
+    "speed": 47
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:vacuumwave",
+    "7:armthrust",
+    "12:counter",
+    "16:confusion",
+    "20:hypnosis",
+    "24:magiccoat",
+    "28:psybeam",
+    "32:forcepalm",
+    "36:recover",
+    "41:amnesia",
+    "46:psychic",
+    "50:mirrorcoat",
+    "55:psychoshift",
+    "60:focusblast"  ],
+  "labels": [
+    "amavi",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.gelatini.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "gelatini_jellodiac",
+      "variant": "level_up",
+      "result": "jellodiac",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

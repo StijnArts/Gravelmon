@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wormini-1",
+      "pokemon": "wormini",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "2-22",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": false
+      },
+      "anticondition": {
+"biomes": [ "#gravelmon:is_snowy" ]    }
+    }
+  ]
+}

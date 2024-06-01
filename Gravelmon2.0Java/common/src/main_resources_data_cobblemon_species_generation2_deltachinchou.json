@@ -1,0 +1,170 @@
+{
+  "implemented": true,
+  "name": "deltachinchou",
+  "nationalPokedexNumber": 170,
+  "primaryType": "ghost",
+  "secondaryType": "fire",
+  "abilities": [
+    "flashfire",
+    "unnerve",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 38,
+    "defence": 38,
+    "special_attack": 56,
+    "special_defence": 56,
+    "speed": 67
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:smokescreen",
+    "6:haze",
+    "9:ember",
+    "12:smog",
+    "17:confuseray",
+    "20:incinerate",
+    "23:nightshade",
+    "28:willowisp",
+    "31:followme",
+    "34:flamethrower",
+    "39:clearsmog",
+    "42:painsplit",
+    "45:phantomforce",
+    "47:faketears",
+    "50:tailglow",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:fireblast",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:overheat",
+    "tm:chargebeam",
+    "tm:skillswap",
+    "tm:willowisp",
+    "tm:newmoon",
+    "tm:embargo",
+    "tm:venoshock",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:sleeptalksound",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:lunarcannon",
+    "tm:incinerate",
+    "tm:allyswitch",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:darkmatter",
+    "tm:secretpower",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:bounce",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:gravitycosmic",
+    "tutor:heatwave",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:nightshade",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:trick",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen2",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltachinchou.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltachinchou_deltalanturn",
+      "variant": "level_up",
+      "result": "deltalanturn",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.7,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 168,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

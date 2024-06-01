@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "illapod",
+  "nationalPokedexNumber": 2951,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "abilities": [
+    "swarm",
+    "h:voltabsorb"
+  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 30,
+    "defence": 80,
+    "special_attack": 36,
+    "special_defence": 85,
+    "speed": 27
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 125,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:furycutter",
+    "4:electroweb",
+    "8:bugbite",
+    "12:stringshot",
+    "16:thunderwave",
+    "20:electroball",
+    "24:agility",
+    "28:suckerpunch",
+    "32:slash",
+    "37:discharge",
+    "40:screechsound",
+    "44:gastroacid",
+    "48:bugbuzzsound",
+    "tm:agility",
+    "tm:protect",
+    "tm:strugglebug",
+    "tm:thief",
+    "tm:pounce",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:swiftcosmic",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:raindance",
+    "tm:sleeptalksound",
+    "tm:electroball",
+    "tm:lightscreen",
+    "tm:thunderwave",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:leechlife",
+    "tm:substitute",
+    "tm:xscissor",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:thunderbolt",
+    "tm:helpinghand",
+    "tm:wildcharge",
+    "tm:bugbuzzsound",
+    "tm:thunder",
+    "tm:terablast",
+    "tm:bugbite",
+    "tm:lunge",
+    "tm:electroweb",
+    "tm:skittersmack",
+    "egg:doubleteam",
+    "egg:infestation",
+    "egg:lunge",
+    "egg:poisonsting",
+    "egg:strugglebug"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.illapod.desc"
+  ],
+  "preEvolution": "illime",
+  "evolutions": [
+    {
+      "id": "illapod_Illiran",
+      "variant": "item_interact",
+      "result": "Illiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 222,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

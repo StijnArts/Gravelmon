@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "raptrocas",
+  "nationalPokedexNumber": 2689,
+  "primaryType": "fighting",
+  "secondaryType": "rock",
+  "abilities": [
+    "quickfeet",
+    "h:sandrush"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 120,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:focusenergy",
+    "6:cometpunch",
+    "11:armthrust",
+    "14:rockthrow",
+    "17:mindreader",
+    "21:machpunch",
+    "23:feint",
+    "28:roarsound",
+    "32:bulletpunch",
+    "33:poweruppunch",
+    "36:megapunch",
+    "40:stoneedge",
+    "44:focuspunch"  ],
+  "labels": [
+    "midamis",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.raptrocas.desc"
+  ],
+  "preEvolution": "velifite",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

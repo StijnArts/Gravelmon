@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "laquagon-1",
+      "pokemon": "laquagon",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "18-39",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean",
+"#cobblemon:is_river" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_temperate",
+"#cobblemon:is_arid" ]    }
+    }
+  ]
+}

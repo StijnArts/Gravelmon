@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "troglolith-1",
+      "pokemon": "troglolith",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "38-52",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "timeRange": "day"
+      }
+    }
+  ]
+}

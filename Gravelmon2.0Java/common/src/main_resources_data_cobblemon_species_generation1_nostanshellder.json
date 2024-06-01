@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "nostanshellder",
+  "nationalPokedexNumber": 90,
+  "primaryType": "steel",
+  "abilities": [
+    "shellarmor",
+    "heavymetal",
+    "h:megalauncher"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 60,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 25,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:watergun",
+    "4:withdraw",
+    "8:supersonic",
+    "13:iciclespear",
+    "16:protect",
+    "20:leer",
+    "25:clamp",
+    "28:iceshard",
+    "32:razorshell",
+    "37:aurorabeam",
+    "40:whirlpool",
+    "44:brine",
+    "49:irondefense",
+    "52:icebeam",
+    "56:shellsmash",
+    "61:hydropump",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:snoresound",
+    "tm:liquidation",
+    "tm:waterpulse",
+    "tm:payback",
+    "tm:blizzard",
+    "tm:snowscape",
+    "tm:icebeam",
+    "tm:attract",
+    "tm:bide",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:explosion",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:mimic",
+    "tm:protect",
+    "tm:return",
+    "tm:roundsound",
+    "tm:selfdestruct",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:takedown",
+    "tm:triattack",
+    "tm:rage",
+    "tm:toxic",
+    "tm:reflect",
+    "tm:rest",
+    "tm:teleport",
+    "tm:bubblebeam",
+    "tm:raindance",
+    "tm:surf",
+    "tm:watergun",
+    "tm:takedown",
+    "tm:twineedle",
+    "tm:bubblebeam",
+    "tm:screechsound",
+    "tm:barrier",
+    "tm:rapidspin",
+    "tm:iciclespear",
+    "tm:mudshot",
+    "tm:rockblast",
+    "tm:aquaring",
+    "tm:avalanche"  ],
+  "labels": [
+    "nosto",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.nostanshellder.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "nostanshellder_nostancloyster",
+      "variant": "item_interact",
+      "result": "nostancloyster",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

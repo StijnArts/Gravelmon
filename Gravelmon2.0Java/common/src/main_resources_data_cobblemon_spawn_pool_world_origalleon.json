@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "origalleon-1",
+      "pokemon": "origalleon",
+      "presets": [
+          "shipwreck"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "42-54",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_ocean" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

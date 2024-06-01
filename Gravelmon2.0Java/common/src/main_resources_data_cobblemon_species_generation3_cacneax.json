@@ -1,0 +1,146 @@
+{
+  "implemented": true,
+  "name": "cacneax",
+  "nationalPokedexNumber": 331,
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "abilities": [
+    "ironbarbs",
+    "h:cursedbody"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 50,
+    "special_attack": 85,
+    "special_defence": 40,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 67,
+  "experienceGroup": "slow",
+  "eggCycles": 39,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:poisonsting",
+    "4:absorb",
+    "7:acupressure",
+    "10:astonish",
+    "13:curse",
+    "16:needlearm",
+    "19:pursuit",
+    "22:ingrain",
+    "26:shadowpunch",
+    "30:spikes",
+    "34:shadowsneak",
+    "38:pinmissile",
+    "42:energyball",
+    "46:grudge",
+    "50:meanlook",
+    "54:destinybond",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:energyball",
+    "tm:fling",
+    "tm:brutalswing",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:smartstrike",
+    "tm:swordsdance",
+    "tm:poisonjab",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:darkpulse",
+    "tutor:secretpower"  ],
+  "labels": [
+    "xenoverse",
+    "gen3"
+  ],
+  "pokedex": [
+    "cobblemon.species.cacneax.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cacneax_cacturnex",
+      "variant": "item_interact",
+      "result": "cacturnex",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:xenolith",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.4,
+    "height": 0.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 315,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

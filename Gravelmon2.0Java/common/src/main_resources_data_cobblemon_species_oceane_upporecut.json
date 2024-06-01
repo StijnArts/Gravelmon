@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "upporecut",
+  "nationalPokedexNumber": 1661,
+  "primaryType": "fighting",
+  "abilities": [
+    "waterabsorb",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 92,
+    "defence": 84,
+    "special_attack": 52,
+    "special_defence": 83,
+    "speed": 88
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 171,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "amorphous"
+  ],
+  "moves": [
+    "1:headcharge",
+    "1:machpunch",
+    "1:megapunch",
+    "1:poweruppunch",
+    "1:dynamicpunch",
+    "1:cometpunch",
+    "1:bulletpunch",
+    "1:icepunch",
+    "1:firepunch",
+    "1:thunderpunch",
+    "1:block",
+    "1:recover",
+    "1:drainpunch",
+    "1:bulkup"  ],
+  "labels": [
+    "oceane",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.upporecut.desc"
+  ],
+  "preEvolution": "spunch",
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

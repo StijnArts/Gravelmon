@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaspiderbeldum",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltaspiderbeldum",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaspiderbeldum.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltaspiderbeldum_shiny.png"
+    }  ]
+}

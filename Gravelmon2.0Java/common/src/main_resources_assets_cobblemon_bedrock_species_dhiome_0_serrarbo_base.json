@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:serrarbo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dhiome_serrarbo",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/dhiome/serrarbo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/serrarbo_shiny.png"
+    }  ]
+}

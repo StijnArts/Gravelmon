@@ -1,0 +1,142 @@
+{
+  "implemented": true,
+  "name": "aromutt",
+  "nationalPokedexNumber": 1794,
+  "primaryType": "normal",
+  "abilities": [
+    "forewarn",
+    "pickup",
+    "h:friendguard"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 64,
+    "defence": 50,
+    "special_attack": 47,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 244,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:sandattack",
+    "4:growl",
+    "7:scratch",
+    "10:tailwhip",
+    "13:bite",
+    "16:babydolleyes",
+    "19:takedown",
+    "22:odorsleuth",
+    "tm:lastresort",
+    "tm:snoresound",
+    "tm:payback",
+    "tm:snarl",
+    "tm:taunt",
+    "tm:thief",
+    "tm:torment",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:playrough",
+    "tm:lowsweep",
+    "tm:aerialace",
+    "tm:grassknot",
+    "tm:bulldoze",
+    "tm:dig",
+    "tm:snowscape",
+    "tm:icebeam",
+    "tm:attract",
+    "tm:bide",
+    "tm:confide",
+    "tm:cut",
+    "tm:echoedvoicesound",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:return",
+    "tm:roarsound",
+    "tm:roundsound",
+    "tm:secretpower",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:rest",
+    "tm:raindance",
+    "tm:charm"  ],
+  "labels": [
+    "junnin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.aromutt.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "aromutt_odorog",
+      "variant": "level_up",
+      "result": "odorog",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

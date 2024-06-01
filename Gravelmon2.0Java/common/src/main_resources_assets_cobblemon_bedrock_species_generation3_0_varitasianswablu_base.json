@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:varitasianswablu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_varitasianswablu",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/varitasianswablu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/varitasianswablu_shiny.png"
+    }  ]
+}

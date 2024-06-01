@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "zennycastform-1",
+      "pokemon": "zennycastform",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-60",
+      "weight": 1.0,
+      "condition": {
+        "canSeeSky": true,
+        "isRaining": true
+      }
+    }
+  ]
+}

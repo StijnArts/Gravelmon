@@ -1,0 +1,126 @@
+{
+  "implemented": true,
+  "name": "armirangreninja",
+  "nationalPokedexNumber": 658,
+  "primaryType": "dark",
+  "secondaryType": "fire",
+  "abilities": [
+    "blaze",
+    "skilllink",
+    "h:protean"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 103,
+    "defence": 67,
+    "special_attack": 95,
+    "special_defence": 71,
+    "speed": 122
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:nightslash",
+    "1:roleplay",
+    "1:ember",
+    "1:pound",
+    "1:growl",
+    "5:pursuit",
+    "8:quickattack",
+    "10:ember",
+    "14:feintattack",
+    "20:smokescreen",
+    "23:shadowsneak",
+    "28:spikes",
+    "36:morningsun",
+    "43:flamecharge",
+    "49:extrasensory",
+    "52:doubleteam",
+    "56:protect",
+    "60:knockoff",
+    "70:nightslash",
+    "75:shadowball",
+    "tm:protect",
+    "tm:shadowball",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:willowisp",
+    "tm:uturn",
+    "tm:darkpulse",
+    "tm:cut",
+    "tm:rocksmash",
+    "tutor:rocktomb",
+    "tutor:firefang",
+    "tutor:heatwave",
+    "tutor:foulplay",
+    "tutor:knockoff",
+    "tutor:foulplay",
+    "tutor:heatwave",
+    "tutor:knockoff",
+    "egg:bestow",
+    "egg:camouflage",
+    "egg:mindreader",
+    "egg:mudsport",
+    "egg:toxicspikes"  ],
+  "labels": [
+    "gen6",
+    "daybreak",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.armirangreninja.desc"
+  ],
+  "preEvolution": "armiranfrogadier",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 400,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cefiranlilligant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_cefiranlilligant",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/cefiranlilligant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/cefiranlilligant_shiny.png"
+    }  ]
+}

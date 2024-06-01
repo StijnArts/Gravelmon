@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:submurchin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dhiome_submurchin",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/dhiome/submurchin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/submurchin_shiny.png"
+    }  ]
+}

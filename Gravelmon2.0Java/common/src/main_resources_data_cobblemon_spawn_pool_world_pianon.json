@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pianon-1",
+      "pokemon": "pianon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "24-51",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical",
+"#cobblemon:is_grassland" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_arid" ]    }
+    }
+  ]
+}

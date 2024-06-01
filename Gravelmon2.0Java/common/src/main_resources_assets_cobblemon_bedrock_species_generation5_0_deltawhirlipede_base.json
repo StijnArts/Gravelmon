@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltawhirlipede",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_deltawhirlipede",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/deltawhirlipede.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/deltawhirlipede_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kaskadiangurdurr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_kaskadiangurdurr",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/kaskadiangurdurr.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/kaskadiangurdurr_shiny.png"
+    }  ]
+}

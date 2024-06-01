@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "mysticgrovyle",
+  "nationalPokedexNumber": 253,
+  "primaryType": "flying",
+  "secondaryType": "fairy",
+  "abilities": [
+    "limber",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 45,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 85,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 164,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "monster"
+  ],
+  "moves": [
+    "5:fairywind",
+    "1:growl",
+    "2:lifedew",
+    "1:pound",
+    "8:gust",
+    "12:charm",
+    "16:ancientpower",
+    "20:aircutter",
+    "24:metronome",
+    "28:afteryou",
+    "32:doubleedge",
+    "36:safeguard",
+    "40:followme",
+    "44:batonpass",
+    "48:lastresort",
+    "52:wish"  ],
+  "labels": [
+    "gen3",
+    "azure",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mysticgrovyle.desc"
+  ],
+  "preEvolution": "mystictreecko",
+  "evolutions": [
+    {
+      "id": "mysticgrovyle_mysticsceptile",
+      "variant": "level_up",
+      "result": "mysticsceptile",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 216,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

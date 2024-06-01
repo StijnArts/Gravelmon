@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "name": "oarwish",
+  "nationalPokedexNumber": 1191,
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "abilities": [
+    "healer",
+    "regenerator",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 99,
+    "attack": 55,
+    "defence": 88,
+    "special_attack": 94,
+    "special_defence": 127,
+    "speed": 77
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 189,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2",
+    "dragon"
+  ],
+  "moves": [
+    "1:healpulse",
+    "1:healingwish",
+    "1:roundsound",
+    "1:watergun",
+    "7:whirlpool",
+    "14:covet",
+    "21:waterpulse",
+    "28:flail",
+    "35:wish",
+    "35:psybeam",
+    "42:aquatail",
+    "49:recover",
+    "56:psychic",
+    "63:safeguard",
+    "70:hydropump",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:telekinesis",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:skillswap",
+    "tm:energyball",
+    "tm:scald",
+    "tm:endure",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:psychup",
+    "tm:dragontail",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:waterpulse",
+    "tm:depthcharge",
+    "tm:miraclewill",
+    "tm:surf",
+    "tm:dive",
+    "tm:waterfall",
+    "tutor:aquatail",
+    "tutor:dragonpulse",
+    "tutor:healbellsound",
+    "tutor:helpinghand",
+    "tutor:magiccoat",
+    "tutor:secretpower",
+    "tutor:signalbeam",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
+    "tutor:wonderroom",
+    "egg:agility",
+    "egg:amnesia",
+    "egg:aquatail",
+    "egg:confuseray",
+    "egg:dragonpulse",
+    "egg:soak",
+    "egg:whirlpool"  ],
+  "labels": [
+    "sage",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.oarwish.desc"
+  ],
+  "preEvolution": "fortifry",
+  "baseScale": 0.65,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 26,
+  "weight": 547,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

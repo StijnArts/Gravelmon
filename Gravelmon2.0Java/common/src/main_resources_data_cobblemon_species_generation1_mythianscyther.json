@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "mythianscyther",
+  "nationalPokedexNumber": 123,
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "abilities": [
+    "sheerforce",
+    "cursedbody",
+    "h:shadowtag"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 80,
+    "special_attack": 55,
+    "special_defence": 80,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:preadite",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:bulletpunch",
+    "1:flamecharge",
+    "1:agility",
+    "1:airslash",
+    "1:quickattack",
+    "1:leer",
+    "1:phantomforce",
+    "1:falseswipe",
+    "12:shadowclaw",
+    "16:doubleteam",
+    "20:thunderbolt",
+    "24:slash",
+    "28:willowisp",
+    "32:shadowball",
+    "36:flamethrower",
+    "40:thunder",
+    "44:shadowsneak",
+    "48:swordsdance",
+    "48:flareblitz",
+    "egg:counter",
+    "egg:batonpass",
+    "egg:razorwind",
+    "egg:reversal",
+    "egg:endure",
+    "egg:silverwind",
+    "egg:bugbuzzsound",
+    "egg:nightslash",
+    "egg:defog",
+    "egg:steelwing",
+    "egg:quickguard"  ],
+  "labels": [
+    "gen1",
+    "myth",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mythianscyther.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "mythianscyther_mythianscizor",
+      "variant": "item_interact",
+      "result": "mythianscizor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ },
+    {
+      "id": "mythianscyther_mythiankleavor",
+      "variant": "item_interact",
+      "result": "mythiankleavor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:preadite",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 560,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

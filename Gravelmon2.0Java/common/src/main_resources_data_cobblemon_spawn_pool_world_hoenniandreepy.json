@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoenniandreepy-1",
+      "pokemon": "hoenniandreepy",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-30",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_basalt",
+"#cobblemon:is_nether_soul_fire" ]
+      }
+    }
+  ]
+}
