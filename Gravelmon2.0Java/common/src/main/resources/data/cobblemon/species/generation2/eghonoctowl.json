@@ -113,7 +113,6 @@
   "labels": [
     "infinity",
     "gen2",
-    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -134,10 +133,10 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.95,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.25,
+    "height": 1.9,
     "fixed": false
   },
   "baseFriendship": 70,
