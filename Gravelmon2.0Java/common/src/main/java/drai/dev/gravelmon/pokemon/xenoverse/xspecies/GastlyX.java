@@ -70,5 +70,9 @@ public class GastlyX extends Pokemon {
                 List.of());
         this.setLangFileName("Gastly");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        setModeled(true);
+        setBaseScale(1.2);
+        setHitbox(0.7,1.3);
+
     }
 }

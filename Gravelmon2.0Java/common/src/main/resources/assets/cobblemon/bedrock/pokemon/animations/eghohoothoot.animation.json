@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.hoothoot_egho.ground_idle": {
+		"animation.eghohoothoot.ground_idle": {
 			"loop": true,
 			"bones": {
 				"leg_right": {
@@ -28,7 +28,7 @@
 				}
 			}
 		},
-		"animation.hoothoot_egho.demo": {
+		"animation.eghohoothoot.demo": {
 			"loop": true,
 			"bones": {
 				"leg_right": {
@@ -110,7 +110,7 @@
 				}
 			}
 		},
-		"animation.hoothoot_egho.cry": {
+		"animation.eghohoothoot.cry": {
 			"animation_length": 2,
 			"bones": {
 				"torso": {
@@ -132,7 +132,7 @@
 				}
 			}
 		},
-		"animation.hoothoot_egho.blink": {
+		"animation.eghohoothoot.blink": {
 			"animation_length": 0.16667,
 			"bones": {
 				"eyes_closed": {
@@ -147,6 +147,17 @@
 						"0.0": [0, 0, 1],
 						"0.125": [0, 0, 0]
 					}
+				}
+			}
+		},
+		"animation.eghohoothoot.sleep": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyes_closed": {
+					"position": [0, 0, -1]
+				},
+				"pupils": {
+					"position": [0, 0, 1]
 				}
 			}
 		}
