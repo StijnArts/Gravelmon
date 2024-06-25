@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Absol extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Absol(int dex) {
-        super(dex, "Absol",
+    public Absol(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Absol",
                 Type.ICE,
                 new Stats(65,
                         130,

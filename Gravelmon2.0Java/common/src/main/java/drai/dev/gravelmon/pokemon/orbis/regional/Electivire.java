@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Electivire extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Electivire(int dex) {
-        super(dex, "Electivire",
+    public Electivire(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Electivire",
                 Type.ELECTRIC,
                 new Stats(75,
                         123,

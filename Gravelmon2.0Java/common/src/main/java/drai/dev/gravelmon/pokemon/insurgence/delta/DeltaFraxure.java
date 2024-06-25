@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaFraxure extends Pokemon {
-    public DeltaFraxure(int dexNo) {
-        super(dexNo,"DeltaFraxure",
+    public DeltaFraxure(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaFraxure",
                 Type.WATER,
                 new Stats(66, 117, 70, 40, 50, 67),
                 List.of(Ability.STRONG_JAW, Ability.WATER_VEIL), Ability.SWIFT_SWIM,

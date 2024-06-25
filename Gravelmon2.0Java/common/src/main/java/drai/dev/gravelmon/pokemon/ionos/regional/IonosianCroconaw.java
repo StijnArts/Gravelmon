@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianCroconaw extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianCroconaw(int dex) {
-        super(dex, "Croconaw",
+    public IonosianCroconaw(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Croconaw",
                 Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,

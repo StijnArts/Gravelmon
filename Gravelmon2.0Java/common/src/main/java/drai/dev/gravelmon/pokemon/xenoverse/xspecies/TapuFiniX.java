@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class TapuFiniX extends Pokemon {
-    public TapuFiniX(int dexNo) {
-        super(dexNo,"TapuFiniX",
+    public TapuFiniX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"TapuFiniX",
                 Type.PSYCHIC, Type.DARK,
                 new Stats(70, 85, 115, 130, 105, 95),
                 List.of(Ability.FULL_METAL_BODY), Ability.SHEER_FORCE,

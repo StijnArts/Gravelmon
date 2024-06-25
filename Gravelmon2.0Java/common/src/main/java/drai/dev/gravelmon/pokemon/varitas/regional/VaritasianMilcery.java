@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianMilcery extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianMilcery(int dex) {
-        super(dex, "Milcery",
+    public VaritasianMilcery(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Milcery",
                 Type.FAIRY, Type.POISON,
                 new Stats(45,
                         40,

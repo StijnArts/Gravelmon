@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cacnea extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cacnea(int dex) {
-        super(dex, "Cacnea",
+    public Cacnea(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cacnea",
                 Type.GRASS,
                 new Stats(0,
                         0,

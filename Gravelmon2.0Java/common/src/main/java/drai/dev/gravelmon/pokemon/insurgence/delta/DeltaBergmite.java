@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaBergmite extends Pokemon {
-    public DeltaBergmite(int dexNo) {
-        super(dexNo,"DeltaBergmite",
+    public DeltaBergmite(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaBergmite",
                 Type.ROCK,
                 new Stats(55, 69,85,32,35,28),
                 List.of(Ability.SOLID_ROCK, Ability.BATTLE_ARMOR), Ability.SAND_STREAM,

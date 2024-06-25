@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class EghoGarbodor extends Pokemon {
-    public EghoGarbodor(int dexNo) {
-        super(dexNo,"EghoGarbodor",
+    public EghoGarbodor(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EghoGarbodor",
                 Type.POISON, Type.STEEL,
                 new Stats(80, 50, 97, 90, 82, 75),
                 List.of(Ability.BATTLE_ARMOR), Ability.FILTER,

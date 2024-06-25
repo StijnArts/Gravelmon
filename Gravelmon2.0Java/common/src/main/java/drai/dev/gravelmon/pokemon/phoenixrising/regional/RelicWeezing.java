@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicWeezing extends Pokemon {
-    public RelicWeezing(int dexNo) {
-        super(dexNo,"RelicWeezing",
+    public RelicWeezing(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"RelicWeezing",
                 Type.FIRE, Type.STEEL,
                 new Stats(75, 85, 125, 90, 75, 40),
                 List.of(Ability.AFTERMATH), Ability.WHITE_SMOKE,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaRegirock extends Pokemon {
-    public DeltaRegirock(int dexNo) {
-        super(dexNo,"DeltaRegirock",
+    public DeltaRegirock(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaRegirock",
                 Type.GROUND,
                 new Stats(80, 100, 200, 50, 100, 50),
                 List.of(Ability.SAND_VEIL), Ability.DRY_SKIN,

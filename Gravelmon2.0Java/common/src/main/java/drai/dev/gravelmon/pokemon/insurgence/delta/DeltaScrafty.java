@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaScrafty extends Pokemon {
-    public DeltaScrafty(int dexNo) {
-        super(dexNo,"DeltaScrafty",
+    public DeltaScrafty(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaScrafty",
                 Type.GRASS,
                 new Stats(65, 90, 115, 45, 115, 58),
                 List.of(Ability.ROUGH_SKIN, Ability.RIVALRY), Ability.ANGER_POINT,

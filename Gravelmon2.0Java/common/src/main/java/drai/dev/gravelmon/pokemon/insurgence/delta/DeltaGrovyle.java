@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaGrovyle extends Pokemon {
-    public DeltaGrovyle(int dexNo) {
-        super(dexNo,"DeltaGrovyle",
+    public DeltaGrovyle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaGrovyle",
                 Type.NORMAL, Type.FIGHTING,
                 new Stats(50, 65, 45, 85, 65, 95),
                 List.of(Ability.INNER_FOCUS), Ability.GUTS,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticMudkip extends Pokemon {
-    public MysticMudkip(int dexNo) {
-        super(dexNo,"MysticMudkip",
+    public MysticMudkip(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"MysticMudkip",
                 Type.FIGHTING,
                 new Stats(50, 70, 50, 40, 50, 50),
                 List.of(Ability.IMMUNITY), Ability.INNER_FOCUS,

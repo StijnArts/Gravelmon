@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianTotodile extends Pokemon {
-    public AyreianTotodile(int dexNo) {
-        super(dexNo,"AyreianTotodile",
+    public AyreianTotodile(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianTotodile",
                 Type.WATER, Type.DRAGON,
                 new Stats(50,55,54,43,44,48),
                 List.of(Ability.TOUGH_CLAWS, Ability.MULTISCALE), Ability.TORRENT,

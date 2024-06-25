@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hypno extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hypno(int dex) {
-        super(dex, "Hypno",
+    public Hypno(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hypno",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,

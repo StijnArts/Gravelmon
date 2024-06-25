@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Mimikyu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Mimikyu(int dex) {
-        super(dex, "Mimikyu",
+    public Mimikyu(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Mimikyu",
                 Type.GHOST, Type.FAIRY,
                 new Stats(55,
                         90,

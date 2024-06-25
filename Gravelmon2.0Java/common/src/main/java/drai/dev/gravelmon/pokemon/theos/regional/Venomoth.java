@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Venomoth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Venomoth(int dex) {
-        super(dex, "Venomoth",
+    public Venomoth(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Venomoth",
                 Type.PSYCHIC, Type.POISON,
                 new Stats(70,
                         65,

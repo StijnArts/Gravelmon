@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Mewtwo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Mewtwo(int dex) {
-        super(dex, "Mewtwo",
+    public Mewtwo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Mewtwo",
                 Type.PSYCHIC,
                 new Stats(106,
                         110,

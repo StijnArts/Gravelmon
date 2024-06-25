@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianDunsparce extends Pokemon {
-    public HoennianDunsparce(int dexNo) {
-        super(dexNo,"HoennianDunsparce",
+    public HoennianDunsparce(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianDunsparce",
                 Type.NORMAL, Type.ELECTRIC,
                 new Stats(50, 70, 85, 65, 80, 65),
                 List.of(Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,

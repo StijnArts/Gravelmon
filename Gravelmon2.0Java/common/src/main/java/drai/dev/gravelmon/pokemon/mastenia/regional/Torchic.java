@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Torchic extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Torchic(int dex) {
-        super(dex, "Torchic",
+    public Torchic(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Torchic",
                 Type.FAIRY,
                 new Stats(0,
                         0,

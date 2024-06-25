@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Chimecho extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Chimecho(int dex) {
-        super(dex, "Chimecho",
+    public Chimecho(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Chimecho",
                 Type.PSYCHIC,
                 new Stats(75,
                         50,

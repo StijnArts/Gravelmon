@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Greavard extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Greavard(int dex) {
-        super(dex, "Greavard",
+    public Greavard(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Greavard",
                 Type.GHOST,
                 new Stats(50,
                         61,

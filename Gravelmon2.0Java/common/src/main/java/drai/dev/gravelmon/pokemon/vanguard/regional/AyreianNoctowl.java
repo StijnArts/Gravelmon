@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianNoctowl extends Pokemon {
-    public AyreianNoctowl(int dexNo) {
-        super(dexNo,"AyreianNoctowl",
+    public AyreianNoctowl(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianNoctowl",
                 Type.PSYCHIC, Type.FLYING,
                 new Stats(100,50,50,100,90,75),
                 List.of(Ability.INSOMNIA, Ability.MIRROR_ARMOR), Ability.TINTED_LENS,

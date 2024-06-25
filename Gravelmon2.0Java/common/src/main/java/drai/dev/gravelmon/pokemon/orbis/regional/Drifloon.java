@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Drifloon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Drifloon(int dex) {
-        super(dex, "Drifloon",
+    public Drifloon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Drifloon",
                 Type.GHOST, Type.FLYING,
                 new Stats(90,
                         50,

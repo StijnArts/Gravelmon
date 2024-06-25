@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Torkoal extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Torkoal(int dex) {
-        super(dex, "Torkoal",
+    public Torkoal(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Torkoal",
                 Type.FIRE,
                 new Stats(70,
                         85,

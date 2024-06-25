@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sandygast extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sandygast(int dex) {
-        super(dex, "Sandygast",
+    public Sandygast(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sandygast",
                 Type.GHOST, Type.GROUND,
                 new Stats(55,
                         55,

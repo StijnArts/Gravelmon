@@ -7,8 +7,8 @@ import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 public class HoennianPinsir extends Pokemon {
-    public HoennianPinsir(int dexNo) {
-        super(dexNo,"HoennianPinsir",
+    public HoennianPinsir(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianPinsir",
                 Type.BUG, Type.GROUND,
                 new Stats(65, 105, 80, 50, 55, 50),
                 List.of(Ability.PURE_POWER), Ability.PURE_POWER,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gothita extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gothita(int dex) {
-        super(dex, "Gothita",
+    public Gothita(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gothita",
                 Type.GHOST,
                 new Stats(45,
                         30,

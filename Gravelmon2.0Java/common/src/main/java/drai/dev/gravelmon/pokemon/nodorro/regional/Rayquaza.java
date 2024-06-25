@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Rayquaza extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Rayquaza(int dex) {
-        super(dex, "Rayquaza",
+    public Rayquaza(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Rayquaza",
                 Type.DRAGON, Type.FLYING,
                 new Stats(105,
                         150,

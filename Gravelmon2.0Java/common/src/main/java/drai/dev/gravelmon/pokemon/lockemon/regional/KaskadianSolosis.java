@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class KaskadianSolosis extends Pokemon {
-    public KaskadianSolosis(int dexNo) {
-        super(dexNo,"KaskadianSolosis",
+    public KaskadianSolosis(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"KaskadianSolosis",
                 Type.PSYCHIC, Type.WATER,
                 new Stats(45, 30, 40, 105, 50, 20),
                 List.of(Ability.OVERCOAT, Ability.CARBON_CAPTURE), Ability.MAGIC_GUARD,

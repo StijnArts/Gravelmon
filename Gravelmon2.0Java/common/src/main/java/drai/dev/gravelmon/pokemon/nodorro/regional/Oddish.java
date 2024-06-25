@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Oddish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Oddish(int dex) {
-        super(dex, "Oddish",
+    public Oddish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Oddish",
                 Type.GRASS, Type.POISON,
                 new Stats(55,
                         50,

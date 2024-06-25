@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaPawniard extends Pokemon {
-    public DeltaPawniard(int dexNo) {
-        super(dexNo,"DeltaPawniard",
+    public DeltaPawniard(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaPawniard",
                 Type.FLYING, Type.FIGHTING,
                 new Stats(45, 85, 70, 40, 40, 60),
                 List.of(Ability.DEFIANT, Ability.FRISK), Ability.WIND_FORCE,

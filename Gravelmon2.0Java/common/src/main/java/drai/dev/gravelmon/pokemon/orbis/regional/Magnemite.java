@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Magnemite extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Magnemite(int dex) {
-        super(dex, "Magnemite",
+    public Magnemite(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Magnemite",
                 Type.ELECTRIC, Type.STEEL,
                 new Stats(25,
                         35,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class HoennianShuckle extends Pokemon {
-    public HoennianShuckle(int dexNo) {
-        super(dexNo,"HoennianShuckle",
+    public HoennianShuckle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianShuckle",
                 Type.GRASS, Type.ROCK,
                 new Stats(40, 10,220,10,220,5),
                 List.of(Ability.EFFECT_SPORE), Ability.SOLID_ROCK,

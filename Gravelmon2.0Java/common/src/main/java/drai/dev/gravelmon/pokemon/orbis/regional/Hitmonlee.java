@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hitmonlee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hitmonlee(int dex) {
-        super(dex, "Hitmonlee",
+    public Hitmonlee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hitmonlee",
                 Type.FIGHTING,
                 new Stats(50,
                         120,

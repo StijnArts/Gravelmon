@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Heracross extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Heracross(int dex) {
-        super(dex, "Heracross",
+    public Heracross(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Heracross",
                 Type.BUG, Type.STEEL,
                 new Stats(85,
                         125,

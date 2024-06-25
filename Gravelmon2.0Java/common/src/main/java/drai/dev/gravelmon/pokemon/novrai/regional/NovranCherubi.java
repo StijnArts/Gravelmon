@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranCherubi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranCherubi(int dex) {
-        super(dex, "Cherubi",
+    public NovranCherubi(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cherubi",
                 Type.GRASS, Type.FLYING,
                 new Stats(45,
                         35,

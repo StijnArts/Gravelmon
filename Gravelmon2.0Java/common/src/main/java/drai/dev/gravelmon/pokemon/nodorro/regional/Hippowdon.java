@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hippowdon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hippowdon(int dex) {
-        super(dex, "Hippowdon",
+    public Hippowdon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hippowdon",
                 Type.WATER,
                 new Stats(107,
                         100,

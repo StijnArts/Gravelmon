@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Trubbish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Trubbish(int dex) {
-        super(dex, "Trubbish",
+    public Trubbish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Trubbish",
                 Type.POISON,
                 new Stats(50,
                         50,

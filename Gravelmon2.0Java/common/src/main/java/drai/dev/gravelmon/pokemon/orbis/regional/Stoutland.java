@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Stoutland extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Stoutland(int dex) {
-        super(dex, "Stoutland",
+    public Stoutland(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Stoutland",
                 Type.NORMAL,
                 new Stats(85,
                         110,

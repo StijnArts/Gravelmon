@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSudowoodo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSudowoodo(int id) {
-        super(id, "Sudowoodo",
+    public NovranSudowoodo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"Sudowoodo",
                 Type.ROCK, Type.ICE,
                 new Stats(90,
                         125,

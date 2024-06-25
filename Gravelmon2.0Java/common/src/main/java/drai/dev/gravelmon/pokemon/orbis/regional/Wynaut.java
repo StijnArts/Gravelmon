@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Wynaut extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Wynaut(int dex) {
-        super(dex, "Wynaut",
+    public Wynaut(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Wynaut",
                 Type.PSYCHIC,
                 new Stats(95,
                         23,

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianTrevenant extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTrevenant(int dex) {
-        super(dex, "Trevenant",
+    public VaritasianTrevenant(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Trevenant",
                 Type.GHOST, Type.POISON,
                 new Stats(85,
                         81,

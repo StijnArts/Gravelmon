@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Samurott extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Samurott(int dex) {
-        super(dex, "Samurott",
+    public Samurott(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Samurott",
                 Type.WATER, Type.GHOST,
                 new Stats(67,
                         120,

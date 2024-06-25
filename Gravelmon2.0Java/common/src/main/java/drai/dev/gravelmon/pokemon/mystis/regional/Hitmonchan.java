@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hitmonchan extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hitmonchan(int dex) {
-        super(dex, "Hitmonchan",
+    public Hitmonchan(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hitmonchan",
                 Type.FIGHTING,
                 new Stats(50,
                         105,

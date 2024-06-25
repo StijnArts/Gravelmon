@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianAggron extends Pokemon {
-    public AyreianAggron(int dexNo) {
-        super(dexNo,"AyreianAggron",
+    public AyreianAggron(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianAggron",
                 Type.FIRE, Type.ROCK,
                 new Stats(70,100,130,60,110,60),
                 List.of(Ability.BLAZE_IMPACT, Ability.SHEER_FORCE), Ability.EARTH_EATER,

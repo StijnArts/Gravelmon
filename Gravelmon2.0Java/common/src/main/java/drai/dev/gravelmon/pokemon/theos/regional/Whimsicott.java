@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Whimsicott extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Whimsicott(int dex) {
-        super(dex, "Whimsicott",
+    public Whimsicott(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Whimsicott",
                 Type.GRASS, Type.GROUND,
                 new Stats(60,
                         95,

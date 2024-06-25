@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianLanturn extends Pokemon {
-    public HoennianLanturn(int dexNo) {
-        super(dexNo,"HoennianLanturn",
+    public HoennianLanturn(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianLanturn",
                 Type.WATER, Type.GHOST,
                 new Stats(90, 55, 50, 140, 78, 67),
                 List.of(Ability.CLEAR_BODY), Ability.SWIFT_SWIM,

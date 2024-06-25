@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class AyreianGrimer extends Pokemon {
-    public AyreianGrimer(int dexNo) {
-        super(dexNo,"AyreianGrimer",
+    public AyreianGrimer(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianGrimer",
                 Type.WATER, Type.POISON,
                 new Stats(80,40,80,25,80,80),
                 List.of(Ability.STENCH, Ability.WATER_ABSORB), Ability.POISON_POINT,

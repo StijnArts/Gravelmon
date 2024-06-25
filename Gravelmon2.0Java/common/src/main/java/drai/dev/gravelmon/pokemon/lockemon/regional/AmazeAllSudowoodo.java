@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AmazeAllSudowoodo extends Pokemon {
-    public AmazeAllSudowoodo(int dexNo) {
-        super(dexNo,"AmazeAllSudowoodo",
+    public AmazeAllSudowoodo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AmazeAllSudowoodo",
                 Type.STEEL, Type.PSYCHIC,
                 new Stats(70, 40, 75, 100, 105, 20),
                 List.of(Ability.LIGHTNING_ROD, Ability.SURVEILLANCE), Ability.HEAVY_METAL,

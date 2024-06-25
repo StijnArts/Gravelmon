@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanRookidee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanRookidee(int dex) {
-        super(dex, "Rookidee",
+    public NorheimanRookidee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Rookidee",
                 Type.FLYING,
                 new Stats(38,
                         47,

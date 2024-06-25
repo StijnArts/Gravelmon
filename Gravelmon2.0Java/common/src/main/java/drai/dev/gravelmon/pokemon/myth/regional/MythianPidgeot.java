@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianPidgeot extends Pokemon {
-    public MythianPidgeot(int dexNo) {
-        super(dexNo,"MythianPidgeot",
+    public MythianPidgeot(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"MythianPidgeot",
                 Type.ELECTRIC, Type.FLYING,
                 new Stats( 83,80,75,101,70,70),
                 List.of(Ability.KEEN_EYE,Ability.TANGLED_FEET), Ability.BIG_PECKS,

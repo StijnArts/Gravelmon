@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.sage.*;
 
 public class Sage extends Game {
@@ -436,7 +437,7 @@ public class Sage extends Game {
 
         var quetzar = new Quetzar();
         pokemon.add(quetzar);
-        pokemon.add(new QuetzarSpace(quetzar.getPokedexNumber()));
+        pokemon.add(new QuetzarSpace("", Aspect.SPACE));
 
         pokemon.add(new Xochi());
 

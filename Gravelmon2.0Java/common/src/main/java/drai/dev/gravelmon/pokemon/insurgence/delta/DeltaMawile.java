@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaMawile extends Pokemon {
-    public DeltaMawile(int dexNo) {
-        super(dexNo,"DeltaMawile",
+    public DeltaMawile(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaMawile",
                 Type.GRASS, Type.DARK,
                 new Stats(50, 85, 85, 55, 55, 50),
                 List.of(Ability.SERENE_GRACE,Ability.FLOWER_VEIL), Ability.IMMUNITY,

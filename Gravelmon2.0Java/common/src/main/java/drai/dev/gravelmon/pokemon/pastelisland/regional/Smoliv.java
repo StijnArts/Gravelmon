@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Smoliv extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Smoliv(int dex) {
-        super(dex, "Smoliv",
+    public Smoliv(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Smoliv",
                 Type.GRASS, Type.NORMAL,
                 new Stats(0,
                         0,

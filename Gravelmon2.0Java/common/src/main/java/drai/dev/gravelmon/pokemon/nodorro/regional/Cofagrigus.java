@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cofagrigus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cofagrigus(int dex) {
-        super(dex, "Cofagrigus",
+    public Cofagrigus(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cofagrigus",
                 Type.GHOST,
                 new Stats(58,
                         50,

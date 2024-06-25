@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Farfetchd extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Farfetchd(int dex) {
-        super(dex, "Farfetchd",
+    public Farfetchd(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Farfetchd",
                 Type.FIGHTING,
                 new Stats(52,
                         95,

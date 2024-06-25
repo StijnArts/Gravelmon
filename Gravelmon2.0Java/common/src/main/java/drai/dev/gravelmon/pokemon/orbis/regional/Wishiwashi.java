@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Wishiwashi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Wishiwashi(int dex) {
-        super(dex, "Wishiwashi",
+    public Wishiwashi(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Wishiwashi",
                 Type.WATER,
                 new Stats(45,
                         20,

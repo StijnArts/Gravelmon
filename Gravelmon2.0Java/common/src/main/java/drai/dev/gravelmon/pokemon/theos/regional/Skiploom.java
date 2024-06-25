@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Skiploom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Skiploom(int dex) {
-        super(dex, "Skiploom",
+    public Skiploom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Skiploom",
                 Type.GROUND, Type.GRASS,
                 new Stats(80,
                         45,

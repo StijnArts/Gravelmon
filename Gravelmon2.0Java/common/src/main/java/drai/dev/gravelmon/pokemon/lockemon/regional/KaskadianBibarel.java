@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianBibarel extends Pokemon {
-    public KaskadianBibarel(int dexNo) {
-        super(dexNo,"KaskadianBibarel",
+    public KaskadianBibarel(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"KaskadianBibarel",
                 Type.STEEL, Type.PSYCHIC,
                 new Stats(79, 50,55,85,70,71),
                 List.of(Ability.SIMPLE, Ability.TRACE   ), Ability.GRAVITY_SLING,

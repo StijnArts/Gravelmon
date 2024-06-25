@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Walrein extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Walrein(int dex) {
-        super(dex, "Walrein",
+    public Walrein(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Walrein",
                 Type.ICE, Type.WATER,
                 new Stats(110,
                         80,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cubone extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cubone(int dex) {
-        super(dex, "Cubone",
+    public Cubone(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cubone",
                 Type.GROUND,
                 new Stats(50,
                         50,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Nickit extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Nickit(int dex) {
-        super(dex, "Nickit",
+    public Nickit(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Nickit",
                 Type.DARK,
                 new Stats(40,
                         28,

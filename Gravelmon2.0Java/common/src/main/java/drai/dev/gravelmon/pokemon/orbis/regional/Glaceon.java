@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Glaceon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Glaceon(int dex) {
-        super(dex, "Glaceon",
+    public Glaceon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Glaceon",
                 Type.ICE,
                 new Stats(65,
                         60,

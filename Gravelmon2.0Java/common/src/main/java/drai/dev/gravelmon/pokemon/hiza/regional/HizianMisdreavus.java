@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianMisdreavus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianMisdreavus(int dex) {
-        super(dex, "Misdreavus",
+    public HizianMisdreavus(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Misdreavus",
                 Type.FIRE,
                 new Stats(60,
                         60,

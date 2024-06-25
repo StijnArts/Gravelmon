@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianCombusken extends Pokemon {
-    public AyreianCombusken(int dexNo) {
-        super(dexNo,"AyreianCombusken",
+    public AyreianCombusken(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianCombusken",
                 Type.GHOST, Type.FIGHTING,
                 new Stats(50,90,50,85,60,70),
                 List.of(Ability.LONG_REACH, Ability.BIRDLIKE), Ability.CONTRARY,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Shroodle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Shroodle(int dex) {
-        super(dex, "Shroodle",
+    public Shroodle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Shroodle",
                 Type.POISON, Type.NORMAL,
                 new Stats(40,
                         65,

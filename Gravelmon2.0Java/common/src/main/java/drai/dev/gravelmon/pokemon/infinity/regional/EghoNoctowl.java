@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoNoctowl extends Pokemon {
-    public EghoNoctowl(int dexNo) {
-        super(dexNo,"EghoNoctowl",
+    public EghoNoctowl(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EghoNoctowl",
                 Type.DARK, Type.FLYING,
                 new Stats(86, 50, 77, 99, 70, 70),
                 List.of(Ability.UNNERVE), Ability.NO_GUARD,

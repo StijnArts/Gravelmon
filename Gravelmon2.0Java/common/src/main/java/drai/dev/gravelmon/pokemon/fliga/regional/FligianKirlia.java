@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianKirlia extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianKirlia(int dex) {
-        super(dex, "Kirlia",
+    public FligianKirlia(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Kirlia",
                 Type.FAIRY, Type.FIGHTING,
                 new Stats(42,
                         50,

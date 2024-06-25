@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class TrishoutTerrestrial extends Pokemon {
-    public TrishoutTerrestrial(int dexNo) {
-        super(dexNo,"TrishoutTerrestrial",
+    public TrishoutTerrestrial(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"TrishoutTerrestrial",
                 Type.FIRE, Type.SOUND,
                 new Stats(88, 105, 55, 80, 44, 78),
                 List.of(Ability.GUTS), Ability.VOICE_TUNING,

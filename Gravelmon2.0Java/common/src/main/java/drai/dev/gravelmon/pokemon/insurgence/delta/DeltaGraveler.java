@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaGraveler extends Pokemon {
-    public DeltaGraveler(int dexNo) {
-        super(dexNo,"DeltaGraveler",
+    public DeltaGraveler(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaGraveler",
                 Type.PSYCHIC, Type.ROCK,
                 new Stats(55, 95, 115, 45, 45, 35),
                 List.of(Ability.REGENERATOR,Ability.SAP_SIPPER), Ability.MAGIC_BOUNCE,

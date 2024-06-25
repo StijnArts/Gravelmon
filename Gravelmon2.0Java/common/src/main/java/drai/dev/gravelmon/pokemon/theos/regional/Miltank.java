@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Miltank extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Miltank(int dex) {
-        super(dex, "Miltank",
+    public Miltank(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Miltank",
                 Type.FAIRY, Type.NORMAL,
                 new Stats(105,
                         80,

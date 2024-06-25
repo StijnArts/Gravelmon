@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Poliwhirl extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Poliwhirl(int dex) {
-        super(dex, "Poliwhirl",
+    public Poliwhirl(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Poliwhirl",
                 Type.WATER,
                 new Stats(65,
                         65,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaGrotle extends Pokemon {
-    public DeltaGrotle(int dexNo) {
-        super(dexNo,"DeltaGrotle",
+    public DeltaGrotle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaGrotle",
                 Type.WATER, Type.GROUND,
                 new Stats(75, 89, 85, 55, 65, 36),
                 List.of(Ability.WATER_ABSORB), Ability.SWIFT_SWIM,

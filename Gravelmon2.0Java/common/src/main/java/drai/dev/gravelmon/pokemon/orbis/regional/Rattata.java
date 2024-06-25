@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Rattata extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Rattata(int dex) {
-        super(dex, "Rattata",
+    public Rattata(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Rattata",
                 Type.NORMAL,
                 new Stats(30,
                         56,

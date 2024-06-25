@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Pupitar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Pupitar(int dex) {
-        super(dex, "Pupitar",
+    public Pupitar(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Pupitar",
                 Type.WATER, Type.GROUND,
                 new Stats(0,
                         0,

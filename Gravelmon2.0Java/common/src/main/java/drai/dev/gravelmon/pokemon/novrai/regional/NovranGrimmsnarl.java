@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranGrimmsnarl extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranGrimmsnarl(int dex) {
-        super(dex, "Grimmsnarl",
+    public NovranGrimmsnarl(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Grimmsnarl",
                 Type.DARK, Type.STEEL,
                 new Stats(95,
                         120,

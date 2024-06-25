@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanShellder extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanShellder(int dex) {
-        super(dex, "Shellder",
+    public NorheimanShellder(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Shellder",
                 Type.WATER, Type.STEEL,
                 new Stats(50,
                         60,

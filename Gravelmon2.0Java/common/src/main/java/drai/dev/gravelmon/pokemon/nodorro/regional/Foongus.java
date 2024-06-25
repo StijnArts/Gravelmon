@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Foongus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Foongus(int dex) {
-        super(dex, "Foongus",
+    public Foongus(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Foongus",
                 Type.GRASS,
                 new Stats(68,
                         50,

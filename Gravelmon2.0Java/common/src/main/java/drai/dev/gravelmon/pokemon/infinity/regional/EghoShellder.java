@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoShellder extends Pokemon {
-    public EghoShellder(int dexNo) {
-        super(dexNo,"EghoShellder",
+    public EghoShellder(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EghoShellder",
                 Type.WATER, Type.STEEL,
                 new Stats(52, 40, 70, 55, 57, 31),
                 List.of(Ability.IRON_BARBS), Ability.SUPER_LUCK,

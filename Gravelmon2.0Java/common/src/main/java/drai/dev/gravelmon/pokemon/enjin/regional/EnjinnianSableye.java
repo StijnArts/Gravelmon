@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianSableye extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianSableye(int dex) {
-        super(dex, "Sableye",
+    public EnjinnianSableye(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sableye",
                 Type.ICE, Type.GHOST,
                 new Stats(50,
                         75,

@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianQwilfish extends Pokemon {
-    public HoennianQwilfish(int dexNo) {
-        super(dexNo,"HoennianQwilfish",
+    public HoennianQwilfish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianQwilfish",
                 Type.POISON, Type.STEEL,
                 new Stats(55, 52, 160, 93, 110, 5),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

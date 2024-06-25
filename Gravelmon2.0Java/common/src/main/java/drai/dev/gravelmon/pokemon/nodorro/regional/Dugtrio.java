@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Dugtrio extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dugtrio(int dex) {
-        super(dex, "Dugtrio",
+    public Dugtrio(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Dugtrio",
                 Type.GROUND,
                 new Stats(0,
                         0,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Luxio extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Luxio(int dex) {
-        super(dex, "Luxio",
+    public Luxio(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Luxio",
                 Type.ELECTRIC,
                 new Stats(75,
                         95,

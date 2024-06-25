@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Diggersby extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Diggersby(int dex) {
-        super(dex, "Diggersby",
+    public Diggersby(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Diggersby",
                 Type.NORMAL, Type.GROUND,
                 new Stats(85,
                         56,

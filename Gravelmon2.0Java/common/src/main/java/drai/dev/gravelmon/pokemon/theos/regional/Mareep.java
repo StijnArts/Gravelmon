@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Mareep extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Mareep(int dex) {
-        super(dex, "Mareep",
+    public Mareep(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Mareep",
                 Type.GRASS,
                 new Stats(55,
                         30,

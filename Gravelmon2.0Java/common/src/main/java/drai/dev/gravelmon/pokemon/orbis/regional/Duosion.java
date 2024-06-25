@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Duosion extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Duosion(int dex) {
-        super(dex, "Duosion",
+    public Duosion(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Duosion",
                 Type.PSYCHIC,
                 new Stats(65,
                         40,

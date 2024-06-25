@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Typhlosion extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Typhlosion(int dex) {
-        super(dex, "Typhlosion",
+    public Typhlosion(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Typhlosion",
                 Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,

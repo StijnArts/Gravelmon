@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class LagoonanLumineon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public LagoonanLumineon(int dex) {
-        super(dex, "Lumineon",
+    public LagoonanLumineon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Lumineon",
                 Type.GHOST,
                 new Stats(69,
                         69,

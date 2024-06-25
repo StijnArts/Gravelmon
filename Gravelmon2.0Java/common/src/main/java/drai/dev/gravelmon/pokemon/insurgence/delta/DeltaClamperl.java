@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaClamperl extends Pokemon {
-    public DeltaClamperl(int dexNo) {
-        super(dexNo,"DeltaClamperl",
+    public DeltaClamperl(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaClamperl",
                 Type.DRAGON,
                 new Stats(35, 65, 85, 74, 55, 32),
                 List.of(Ability.PRESSURE), Ability.BATTLE_ARMOR,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Swinub extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Swinub(int dex) {
-        super(dex, "Swinub",
+    public Swinub(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Swinub",
                 Type.ICE, Type.GROUND,
                 new Stats(50,
                         50,

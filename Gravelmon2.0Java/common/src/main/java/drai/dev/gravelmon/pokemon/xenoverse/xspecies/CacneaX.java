@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CacneaX extends Pokemon {
-    public CacneaX(int dexNo) {
-        super(dexNo,"CacneaX",
+    public CacneaX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"CacneaX",
                 Type.GRASS, Type.GHOST,
                 new Stats(50, 85, 50, 85, 40, 35),
                 List.of(Ability.IRON_BARBS), Ability.CURSED_BODY,

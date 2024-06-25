@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Roserade extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Roserade(int dex) {
-        super(dex, "Roserade",
+    public Roserade(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Roserade",
                 Type.GRASS, Type.POISON,
                 new Stats(85,
                         70,

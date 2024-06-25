@@ -8,15 +8,9 @@ import com.cobblemon.mod.common.api.pokeball.*;
 import com.cobblemon.mod.common.api.pokeball.catching.*;
 import com.cobblemon.mod.common.api.pokeball.catching.modifiers.*;
 import com.cobblemon.mod.common.api.pokemon.egg.*;
-import com.cobblemon.mod.common.api.storage.party.*;
-import com.cobblemon.mod.common.api.tags.CobblemonBiomeTags;
-import com.cobblemon.mod.common.battles.*;
-import com.cobblemon.mod.common.net.messages.server.storage.party.*;
 import com.cobblemon.mod.common.pokeball.*;
 import com.cobblemon.mod.common.pokemon.*;
-import com.cobblemon.mod.common.pokemon.status.*;
-import com.cobblemon.mod.common.pokemon.status.statuses.*;
-import com.mojang.authlib.minecraft.client.*;
+import com.cobblemon.mod.common.pokemon.status.statuses.persistent.*;
 import drai.dev.gravelmon.pokeballs.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import kotlin.*;
@@ -358,7 +352,7 @@ public abstract class PokeBallsMixin {
                                    List<CaptureEffect> effects, float waterDragValue, ResourceLocation model2d, ResourceLocation model3d){
         var identifier = new ResourceLocation("cobblemon", name);
         var pokeball = new GravelmonPokeBall(identifier, multiplierModifier,
-                effects, waterDragValue, model2d, model3d);
+                effects, waterDragValue, model2d, model3d, 1, false);
         defaults.put(identifier, pokeball);
         return pokeball;
     }

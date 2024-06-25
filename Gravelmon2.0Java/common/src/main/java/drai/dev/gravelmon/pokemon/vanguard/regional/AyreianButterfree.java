@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianButterfree extends Pokemon {
-    public AyreianButterfree(int dexNo) {
-        super(dexNo,"AyreianButterfree",
+    public AyreianButterfree(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianButterfree",
                 Type.BUG, Type.ELECTRIC,
                 new Stats(70,55,85,85,105,70),
                 List.of(Ability.SURGE_SURFER), Ability.COMPOUND_EYES,

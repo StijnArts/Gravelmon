@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Shuckle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Shuckle(int dex) {
-        super(dex, "Shuckle",
+    public Shuckle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Shuckle",
                 Type.WATER, Type.BUG,
                 new Stats(0,
                         0,

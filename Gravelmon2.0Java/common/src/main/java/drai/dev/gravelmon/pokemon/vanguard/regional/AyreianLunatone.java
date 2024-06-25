@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianLunatone extends Pokemon {
-    public AyreianLunatone(int dexNo) {
-        super(dexNo,"AyreianLunatone",
+    public AyreianLunatone(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianLunatone",
                 Type.ROCK, Type.SOUND,
                 new Stats(120,55,85,70,95,85),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

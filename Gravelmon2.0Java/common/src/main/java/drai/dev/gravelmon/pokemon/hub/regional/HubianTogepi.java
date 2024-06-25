@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HubianTogepi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HubianTogepi(int dex) {
-        super(dex,"Togepi",
+    public HubianTogepi(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"Togepi",
                 Type.FAIRY,
                 new Stats(35,
                         20,

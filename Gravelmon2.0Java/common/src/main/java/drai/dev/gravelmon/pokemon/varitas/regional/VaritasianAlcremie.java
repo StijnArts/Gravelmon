@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianAlcremie extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianAlcremie(int dex) {
-        super(dex, "Alcremie",
+    public VaritasianAlcremie(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Alcremie",
                 Type.FAIRY, Type.POISON,
                 new Stats(65,
                         60,

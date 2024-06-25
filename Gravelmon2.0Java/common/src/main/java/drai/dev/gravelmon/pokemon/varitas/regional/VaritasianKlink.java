@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianKlink extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianKlink(int dex) {
-        super(dex, "Klink",
+    public VaritasianKlink(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Klink",
                 Type.STEEL, Type.GROUND,
                 new Stats(40,
                         55,

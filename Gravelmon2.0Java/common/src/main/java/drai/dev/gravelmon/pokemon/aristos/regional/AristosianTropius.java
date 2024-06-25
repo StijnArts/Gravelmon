@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianTropius extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianTropius(int dexNo) {
-        super(dexNo,"AristosianTropius",
+    public AristosianTropius(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AristosianTropius",
                 Type.GRASS, Type.DRAGON,
                 new Stats(99,
                         99,

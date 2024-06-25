@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EldiwanMeowth extends Pokemon {
-    public EldiwanMeowth(int dexNo) {
-        super(dexNo,"EldiwanMeowth",
+    public EldiwanMeowth(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EldiwanMeowth",
                 Type.PSYCHIC,
                 new Stats(50, 40, 40, 65, 55, 40),
                 List.of(Ability.PICKUP, Ability.ANTICIPATION), Ability.WONDER_SKIN,

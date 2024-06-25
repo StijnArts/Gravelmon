@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Weezing extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Weezing(int dex) {
-        super(dex, "Weezing",
+    public Weezing(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Weezing",
                 Type.POISON,
                 new Stats(65,
                         90,

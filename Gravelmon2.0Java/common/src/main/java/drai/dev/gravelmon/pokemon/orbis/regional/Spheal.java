@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Spheal extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Spheal(int dex) {
-        super(dex, "Spheal",
+    public Spheal(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Spheal",
                 Type.ICE, Type.WATER,
                 new Stats(70,
                         40,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Deerling extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Deerling(int dex) {
-        super(dex, "Deerling",
+    public Deerling(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Deerling",
                 Type.NORMAL, Type.GRASS,
                 new Stats(0,
                         0,

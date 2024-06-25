@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianLairon extends Pokemon {
-    public AyreianLairon(int dexNo) {
-        super(dexNo,"AyreianLairon",
+    public AyreianLairon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianLairon",
                 Type.FIRE, Type.ROCK,
                 new Stats(50,80,100,50,90,50),
                 List.of(Ability.STURDY, Ability.ROCK_HEAD), Ability.HEAVY_METAL,

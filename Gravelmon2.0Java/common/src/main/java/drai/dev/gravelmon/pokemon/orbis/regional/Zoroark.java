@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Zoroark extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Zoroark(int dex) {
-        super(dex, "Zoroark",
+    public Zoroark(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Zoroark",
                 Type.DARK,
                 new Stats(60,
                         105,

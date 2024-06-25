@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hoppip extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hoppip(int dex) {
-        super(dex, "Hoppip",
+    public Hoppip(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hoppip",
                 Type.GRASS, Type.FLYING,
                 new Stats(35,
                         35,

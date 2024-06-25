@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sceptile extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sceptile(int dex) {
-        super(dex, "Sceptile",
+    public Sceptile(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sceptile",
                 Type.GRASS, Type.PSYCHIC,
                 new Stats(85,
                         65,

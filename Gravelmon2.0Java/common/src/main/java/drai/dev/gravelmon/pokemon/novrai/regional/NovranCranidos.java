@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranCranidos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranCranidos(int dex) {
-        super(dex, "Cranidos",
+    public NovranCranidos(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cranidos",
                 Type.ROCK, Type.FIRE,
                 new Stats(67,
                         115,

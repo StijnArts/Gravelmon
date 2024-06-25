@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Pikipek extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Pikipek(int dex) {
-        super(dex, "Pikipek",
+    public Pikipek(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Pikipek",
                 Type.NORMAL, Type.FLYING,
                 new Stats(35,
                         75,

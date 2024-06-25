@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianCroconaw extends Pokemon {
-    public AyreianCroconaw(int dexNo) {
-        super(dexNo,"AyreianCroconaw",
+    public AyreianCroconaw(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianCroconaw",
                 Type.WATER, Type.DRAGON,
                 new Stats(75,75,68,53,54,68),
                 List.of(Ability.TOUGH_CLAWS, Ability.MULTISCALE), Ability.TORRENT,

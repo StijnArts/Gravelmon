@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Watchog extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Watchog(int dex) {
-        super(dex, "Watchog",
+    public Watchog(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Watchog",
                 Type.NORMAL,
                 new Stats(60,
                         85,

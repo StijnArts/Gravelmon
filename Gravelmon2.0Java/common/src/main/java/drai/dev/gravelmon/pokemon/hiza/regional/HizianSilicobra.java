@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianSilicobra extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianSilicobra(int dex) {
-        super(dex, "Silicobra",
+    public HizianSilicobra(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Silicobra",
                 Type.FIRE, Type.GROUND,
                 new Stats(52,
                         35,

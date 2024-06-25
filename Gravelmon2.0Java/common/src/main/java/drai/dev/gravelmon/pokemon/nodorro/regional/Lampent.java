@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Lampent extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Lampent(int dex) {
-        super(dex, "Lampent",
+    public Lampent(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Lampent",
                 Type.FIRE, Type.GHOST,
                 new Stats(75,
                         45,

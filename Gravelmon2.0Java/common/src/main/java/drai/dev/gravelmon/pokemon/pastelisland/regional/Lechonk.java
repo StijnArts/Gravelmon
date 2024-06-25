@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Lechonk extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Lechonk(int dex) {
-        super(dex, "Lechonk",
+    public Lechonk(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Lechonk",
                 Type.NORMAL,
                 new Stats(0,
                         0,

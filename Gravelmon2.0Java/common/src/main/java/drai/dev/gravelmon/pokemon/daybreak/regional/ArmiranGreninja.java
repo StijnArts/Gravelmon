@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ArmiranGreninja extends Pokemon {
-    public ArmiranGreninja(int dexNo) {
-        super(dexNo,"ArmiranGreninja",
+    public ArmiranGreninja(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"ArmiranGreninja",
                 Type.DARK, Type.FIRE,
                 new Stats(72, 103, 67, 95, 71, 122),
                 List.of(Ability.BLAZE, Ability.SKILL_LINK), Ability.PROTEAN,

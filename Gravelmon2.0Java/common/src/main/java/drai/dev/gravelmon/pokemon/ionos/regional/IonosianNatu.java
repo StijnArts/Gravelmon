@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianNatu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianNatu(int dex) {
-        super(dex, "Natu",
+    public IonosianNatu(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Natu",
                 Type.FLYING, Type.GHOST,
                 new Stats(0,
                         0,

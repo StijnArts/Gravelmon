@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SpiritombX extends Pokemon {
-    public SpiritombX(int dexNo) {
-        super(dexNo,"SpiritombX",
+    public SpiritombX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"SpiritombX",
                 Type.GHOST, Type.GRASS,
                 new Stats(50, 108, 92, 108, 92, 35),
                 List.of(Ability.LEAF_GUARD), Ability.LEAF_GUARD,

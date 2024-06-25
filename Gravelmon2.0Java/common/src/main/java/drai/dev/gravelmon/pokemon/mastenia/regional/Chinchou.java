@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Chinchou extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Chinchou(int dex) {
-        super(dex, "Chinchou",
+    public Chinchou(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Chinchou",
                 Type.DARK, Type.ELECTRIC,
                 new Stats(0,
                         0,

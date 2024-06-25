@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Graveler extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Graveler(int dex) {
-        super(dex, "Graveler",
+    public Graveler(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Graveler",
                 Type.ROCK, Type.GROUND,
                 new Stats(55,
                         95,

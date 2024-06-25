@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicSpinda extends Pokemon {
-    public RelicSpinda(int dexNo) {
-        super(dexNo,"RelicSpinda",
+    public RelicSpinda(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"RelicSpinda",
                 Type.GHOST, Type.NORMAL,
                 new Stats(50, 45, 40, 90, 50, 85),
                 List.of(Ability.CURSED_BODY, Ability.MAGIC_GUARD), Ability.MAGICIAN,

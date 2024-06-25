@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Combee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Combee(int dex) {
-        super(dex, "Combee",
+    public Combee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Combee",
                 Type.BUG, Type.FLYING,
                 new Stats(30,
                         30,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Umbreon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Umbreon(int dex) {
-        super(dex, "Umbreon",
+    public Umbreon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Umbreon",
                 Type.DARK,
                 new Stats(95,
                         65,

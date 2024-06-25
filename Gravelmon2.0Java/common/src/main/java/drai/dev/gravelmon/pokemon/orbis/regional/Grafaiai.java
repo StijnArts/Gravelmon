@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Grafaiai extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Grafaiai(int dex) {
-        super(dex, "Grafaiai",
+    public Grafaiai(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Grafaiai",
                 Type.POISON, Type.NORMAL,
                 new Stats(63,
                         95,

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianGardevoir extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianGardevoir(int dex) {
-        super(dex, "Gardevoir",
+    public FligianGardevoir(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gardevoir",
                 Type.FAIRY, Type.FIGHTING,
                 new Stats(68,
                         115,

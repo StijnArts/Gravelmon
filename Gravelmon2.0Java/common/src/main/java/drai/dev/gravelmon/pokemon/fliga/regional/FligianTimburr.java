@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianTimburr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianTimburr(int dex) {
-        super(dex, "Timburr",
+    public FligianTimburr(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Timburr",
                 Type.FIGHTING,
                 new Stats(75,
                         80,

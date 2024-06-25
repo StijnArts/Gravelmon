@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Muk extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Muk(int dex) {
-        super(dex, "Muk",
+    public Muk(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Muk",
                 Type.POISON, Type.DARK,
                 new Stats(105,
                         105,

@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cyndaquil extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cyndaquil(int dex) {
-        super(dex, "Cyndaquil",
+    public Cyndaquil(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cyndaquil",
                 Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,

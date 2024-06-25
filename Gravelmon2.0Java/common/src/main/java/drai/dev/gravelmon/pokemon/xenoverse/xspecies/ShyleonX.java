@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ShyleonX extends Pokemon {
-    public ShyleonX(int dexNo) {
-        super(dexNo,"ShyleonX",
+    public ShyleonX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"ShyleonX",
                 Type.GRASS, Type.FAIRY,
                 new Stats(68, 44, 87, 100, 87, 114),
                 List.of(Ability.RATTLED), Ability.RATTLED,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Charmeleon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Charmeleon(int dex) {
-        super(dex, "Charmeleon",
+    public Charmeleon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Charmeleon",
                 Type.FIRE,
                 new Stats(58,
                         64,

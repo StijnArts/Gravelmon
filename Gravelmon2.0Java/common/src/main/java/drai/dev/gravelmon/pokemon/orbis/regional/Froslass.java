@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Froslass extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Froslass(int dex) {
-        super(dex, "Froslass",
+    public Froslass(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Froslass",
                 Type.ICE, Type.GHOST,
                 new Stats(70,
                         80,

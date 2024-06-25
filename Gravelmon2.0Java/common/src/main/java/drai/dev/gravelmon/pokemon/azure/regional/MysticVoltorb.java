@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticVoltorb extends Pokemon {
-    public MysticVoltorb(int dexNo) {
-        super(dexNo,"MysticVoltorb",
+    public MysticVoltorb(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"MysticVoltorb",
                 Type.PSYCHIC,
                 new Stats(40,30,50, 100,55,55),
                 List.of(Ability.TELEPATHY, Ability.ANTICIPATION), Ability.SYNCHRONIZE,

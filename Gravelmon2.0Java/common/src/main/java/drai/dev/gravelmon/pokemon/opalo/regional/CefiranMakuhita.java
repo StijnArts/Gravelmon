@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranMakuhita extends Pokemon {
-    public CefiranMakuhita(int dexNo) {
-        super(dexNo,"CefiranMakuhita",
+    public CefiranMakuhita(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"CefiranMakuhita",
                 Type.FIGHTING, Type.PSYCHIC,
                 new Stats(72,20,30,25,60,30),
                 List.of(Ability.THICK_FAT, Ability.WHITE_SMOKE), Ability.MAGIC_BOUNCE,

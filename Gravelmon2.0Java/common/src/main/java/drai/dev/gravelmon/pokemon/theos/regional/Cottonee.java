@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cottonee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cottonee(int dex) {
-        super(dex, "Cottonee",
+    public Cottonee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cottonee",
                 Type.GRASS, Type.GROUND,
                 new Stats(40,
                         37,

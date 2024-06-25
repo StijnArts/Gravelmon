@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Trapinch extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Trapinch(int dex) {
-        super(dex, "Trapinch",
+    public Trapinch(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Trapinch",
                 Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,

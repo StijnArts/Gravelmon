@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Wobbuffet extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Wobbuffet(int dex) {
-        super(dex, "Wobbuffet",
+    public Wobbuffet(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Wobbuffet",
                 Type.PSYCHIC,
                 new Stats(190,
                         33,

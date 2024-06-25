@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranMuk extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranMuk(int id) {
-        super(id, "Muk",
+    public NovranMuk(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"Muk",
                 Type.POISON, Type.GROUND,
                 new Stats(105,
                         65,

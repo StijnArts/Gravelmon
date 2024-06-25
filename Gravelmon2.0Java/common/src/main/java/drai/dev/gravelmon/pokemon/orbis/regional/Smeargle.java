@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Smeargle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Smeargle(int dex) {
-        super(dex, "Smeargle",
+    public Smeargle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Smeargle",
                 Type.NORMAL,
                 new Stats(55,
                         20,

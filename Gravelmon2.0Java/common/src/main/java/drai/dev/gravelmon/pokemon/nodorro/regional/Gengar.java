@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gengar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gengar(int dex) {
-        super(dex, "Gengar",
+    public Gengar(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gengar",
                 Type.GHOST, Type.ICE,
                 new Stats(60,
                         70,

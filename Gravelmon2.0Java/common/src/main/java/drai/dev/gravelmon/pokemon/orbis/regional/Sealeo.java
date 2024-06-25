@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sealeo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sealeo(int dex) {
-        super(dex, "Sealeo",
+    public Sealeo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sealeo",
                 Type.ICE, Type.WATER,
                 new Stats(90,
                         60,

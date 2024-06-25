@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cubchoo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cubchoo(int dex) {
-        super(dex, "Cubchoo",
+    public Cubchoo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cubchoo",
                 Type.FIRE,
                 new Stats(50,
                         35,

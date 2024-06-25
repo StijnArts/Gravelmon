@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaTorterra extends Pokemon {
-    public DeltaTorterra(int dexNo) {
-        super(dexNo,"DeltaTorterra",
+    public DeltaTorterra(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaTorterra",
                 Type.WATER, Type.GROUND,
                 new Stats(95, 109, 105, 75, 85, 56),
                 List.of(Ability.WATER_ABSORB), Ability.SWIFT_SWIM,

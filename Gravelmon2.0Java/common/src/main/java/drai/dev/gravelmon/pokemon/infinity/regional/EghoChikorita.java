@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoChikorita extends Pokemon {
-    public EghoChikorita(int dexNo) {
-        super(dexNo,"EghoChikorita",
+    public EghoChikorita(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "EghoChikorita",
                 Type.GRASS, Type.DRAGON,
                 new Stats(85, 10, 49, 65, 65, 44),
                 List.of(Ability.CHLOROPHYLL), Ability.REGENERATOR,

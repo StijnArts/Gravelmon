@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SwarmyCastform extends Pokemon {
-    public SwarmyCastform(int dexNo) {
-        super(dexNo,"SwarmyCastform",
+    public SwarmyCastform(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"SwarmyCastform",
                 Type.BUG,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

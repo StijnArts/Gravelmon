@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Klefki extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Klefki(int dex) {
-        super(dex, "Klefki",
+    public Klefki(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Klefki",
                 Type.STEEL, Type.FAIRY,
                 new Stats(57,
                         80,

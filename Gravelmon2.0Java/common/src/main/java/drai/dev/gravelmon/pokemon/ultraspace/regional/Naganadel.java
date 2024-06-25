@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Naganadel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Naganadel(int dex) {
-        super(dex, "Naganadel",
+    public Naganadel(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Naganadel",
                 Type.POISON, Type.DRAGON,
                 new Stats(73,
                         73,

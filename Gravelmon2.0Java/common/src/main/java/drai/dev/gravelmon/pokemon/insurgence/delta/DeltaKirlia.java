@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaKirlia extends Pokemon {
-    public DeltaKirlia(int dexNo) {
-        super(dexNo,"DeltaKirlia",
+    public DeltaKirlia(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaKirlia",
                 Type.ELECTRIC, Type.ICE,
                 new Stats(38, 38, 35, 65, 55, 50),
                 List.of(Ability.LIGHTNING_ROD, Ability.CLEAR_BODY), Ability.SNOW_CLOAK,

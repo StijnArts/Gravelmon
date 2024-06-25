@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianKangaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianKangaskhan(int dexNo) {
-        super(dexNo,"AristosianKangaskhan",
+    public AristosianKangaskhan(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AristosianKangaskhan",
                 Type.NORMAL,
                 new Stats(105,
                         95,

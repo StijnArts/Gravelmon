@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Binacle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Binacle(int dex) {
-        super(dex, "Binacle",
+    public Binacle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Binacle",
                 Type.ROCK, Type.WATER,
                 new Stats(42,
                         52,

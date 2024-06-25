@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class RicanShellos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public RicanShellos(int dex) {
-        super(dex, "RicanShellos",
+    public RicanShellos(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "RicanShellos",
                 Type.ROCK, Type.FIRE,
                 new Stats(76,
                         48,

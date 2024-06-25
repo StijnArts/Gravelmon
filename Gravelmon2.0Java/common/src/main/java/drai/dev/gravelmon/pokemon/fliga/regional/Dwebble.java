@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Dwebble extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dwebble(int dex) {
-        super(dex, "Dwebble",
+    public Dwebble(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Dwebble",
                 Type.BUG, Type.ROCK,
                 new Stats(50,
                         55,

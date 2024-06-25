@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gabite extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gabite(int dex) {
-        super(dex, "Gabite",
+    public Gabite(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gabite",
                 Type.DRAGON, Type.GROUND,
                 new Stats(68,
                         90,

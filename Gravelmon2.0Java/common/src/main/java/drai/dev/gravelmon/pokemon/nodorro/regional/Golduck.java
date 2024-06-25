@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Golduck extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Golduck(int dex) {
-        super(dex, "Golduck",
+    public Golduck(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Golduck",
                 Type.WATER,
                 new Stats(80,
                         82,

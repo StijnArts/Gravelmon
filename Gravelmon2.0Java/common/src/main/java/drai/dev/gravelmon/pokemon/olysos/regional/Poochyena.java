@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Poochyena extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Poochyena(int dex) {
-        super(dex, "Poochyena",
+    public Poochyena(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Poochyena",
                 Type.GROUND,
                 new Stats(0,
                         0,

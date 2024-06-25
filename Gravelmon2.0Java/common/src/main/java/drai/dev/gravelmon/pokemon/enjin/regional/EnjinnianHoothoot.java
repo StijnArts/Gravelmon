@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianHoothoot extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianHoothoot(int dex) {
-        super(dex, "Hoothoot",
+    public EnjinnianHoothoot(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hoothoot",
                 Type.PSYCHIC,
                 new Stats(60,
                         30,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gible extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gible(int dex) {
-        super(dex, "Gible",
+    public Gible(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gible",
                 Type.DRAGON, Type.GROUND,
                 new Stats(58,
                         70,

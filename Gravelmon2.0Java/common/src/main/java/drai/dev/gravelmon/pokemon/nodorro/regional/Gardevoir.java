@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gardevoir extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gardevoir(int dex) {
-        super(dex, "Gardevoir",
+    public Gardevoir(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gardevoir",
                 Type.PSYCHIC, Type.FAIRY,
                 new Stats(80,
                         65,

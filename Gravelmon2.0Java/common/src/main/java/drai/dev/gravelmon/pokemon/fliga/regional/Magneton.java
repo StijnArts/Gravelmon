@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Magneton extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Magneton(int dex) {
-        super(dex, "Magneton",
+    public Magneton(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Magneton",
                 Type.ELECTRIC, Type.STEEL,
                 new Stats(50,
                         60,

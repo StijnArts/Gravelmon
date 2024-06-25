@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Metapod extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Metapod(int dex) {
-        super(dex, "Metapod",
+    public Metapod(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Metapod",
                 Type.BUG,
                 new Stats(45,
                         40,

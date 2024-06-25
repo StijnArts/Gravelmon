@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class WindyCastform extends Pokemon {
-    public WindyCastform(int dexNo) {
-        super(dexNo,"WindyCastform",
+    public WindyCastform(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"WindyCastform",
                 Type.FLYING,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

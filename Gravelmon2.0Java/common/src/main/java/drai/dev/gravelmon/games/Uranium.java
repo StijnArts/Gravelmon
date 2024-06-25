@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.uranium.*;
 
@@ -40,8 +41,8 @@ public class Uranium extends Game {
         pokemon.add(new Empirilla());
         var owten = new Owten(); pokemon.add(owten);
         var eshouten = new Eshouten(); pokemon.add(eshouten);
-        pokemon.add(new AlteranOwten(owten.getPokedexNumber()));
-        pokemon.add(new AlteranEshouten(eshouten.getPokedexNumber()));
+        pokemon.add(new AlteranOwten("", Aspect.ALTERAN));
+        pokemon.add(new AlteranEshouten("", Aspect.ALTERAN));
         pokemon.add(new Smore());
         pokemon.add(new Firoke());
         pokemon.add(new Brailip());
@@ -161,7 +162,7 @@ public class Uranium extends Game {
         pokemon.add(new Actan());
         var urayne = new Urayne();
         pokemon.add(urayne);
-        pokemon.add(new BetaUrayne(urayne.getPokedexNumber()));
+        pokemon.add(new BetaUrayne("", Aspect.BETA));
         pokemon.add(new Aotius());
         pokemon.add(new Mutios());
         pokemon.add(new Zephy());

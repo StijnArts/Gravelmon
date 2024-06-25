@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Masquerain extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Masquerain(int dex) {
-        super(dex, "Masquerain",
+    public Masquerain(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Masquerain",
                 Type.BUG, Type.FLYING,
                 new Stats(70,
                         60,

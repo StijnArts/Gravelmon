@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Tropius extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Tropius(int dex) {
-        super(dex, "Tropius",
+    public Tropius(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Tropius",
                 Type.GRASS, Type.FLYING,
                 new Stats(119,
                         78,

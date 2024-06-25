@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Scovillain extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Scovillain(int dex) {
-        super(dex, "Scovillain",
+    public Scovillain(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Scovillain",
                 Type.GRASS, Type.FIRE,
                 new Stats(65,
                         108,

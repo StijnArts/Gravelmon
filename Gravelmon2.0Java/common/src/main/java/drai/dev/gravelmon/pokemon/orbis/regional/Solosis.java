@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Solosis extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Solosis(int dex) {
-        super(dex, "Solosis",
+    public Solosis(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Solosis",
                 Type.PSYCHIC,
                 new Stats(45,
                         30,

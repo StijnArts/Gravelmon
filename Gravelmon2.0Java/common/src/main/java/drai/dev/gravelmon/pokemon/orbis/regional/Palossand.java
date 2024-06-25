@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Palossand extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Palossand(int dex) {
-        super(dex, "Palossand",
+    public Palossand(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Palossand",
                 Type.GHOST, Type.GROUND,
                 new Stats(85,
                         75,

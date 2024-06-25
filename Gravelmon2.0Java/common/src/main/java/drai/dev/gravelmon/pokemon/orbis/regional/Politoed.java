@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Politoed extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Politoed(int dex) {
-        super(dex, "Politoed",
+    public Politoed(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Politoed",
                 Type.WATER,
                 new Stats(90,
                         75,

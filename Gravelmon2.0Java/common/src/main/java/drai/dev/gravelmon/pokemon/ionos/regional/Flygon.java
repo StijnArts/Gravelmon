@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Flygon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Flygon(int dex) {
-        super(dex, "Flygon",
+    public Flygon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Flygon",
                 Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,

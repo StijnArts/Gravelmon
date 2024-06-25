@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaToxicroak extends Pokemon {
-    public DeltaToxicroak(int dexNo) {
-        super(dexNo,"DeltaToxicroak",
+    public DeltaToxicroak(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaToxicroak",
                 Type.FIRE,
                 new Stats(83, 106,65,86,65,85),
                 List.of(Ability.MAGMA_ARMOR, Ability.BLAZE), Ability.HUSTLE,

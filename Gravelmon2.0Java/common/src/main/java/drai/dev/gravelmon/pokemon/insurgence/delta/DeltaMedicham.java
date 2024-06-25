@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaMedicham extends Pokemon {
-    public DeltaMedicham(int dexNo) {
-        super(dexNo,"DeltaMedicham",
+    public DeltaMedicham(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaMedicham",
                 Type.FAIRY, Type.GROUND,
                 new Stats(60, 60, 75, 60, 75, 80),
                 List.of(Ability.SAP_SIPPER), Ability.ATHENIAN,

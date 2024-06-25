@@ -16,8 +16,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class NeoTurtwig extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NeoTurtwig(int dex) {
-        super(dex, "Turtwig",
+    public NeoTurtwig(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Turtwig",
                 Type.FAIRY, Type.GROUND,
                 new Stats(55,
                         55,

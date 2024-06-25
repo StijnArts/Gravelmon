@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Noctowl extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Noctowl(int dex) {
-        super(dex, "Noctowl",
+    public Noctowl(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Noctowl",
                 Type.DARK, Type.FLYING,
                 new Stats(76,
                         56,

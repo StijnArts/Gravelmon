@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaSpiderMetagross extends Pokemon {
-    public DeltaSpiderMetagross(int dexNo) {
-        super(dexNo,"DeltaSpiderMetagross",
+    public DeltaSpiderMetagross(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaSpiderMetagross",
                 Type.GROUND, Type.BUG,
                 new Stats(80, 135, 130, 95, 90, 70),
                 List.of(Ability.POISON_TOUCH, Ability.IMMUNITY), Ability.POISON_HEAL,

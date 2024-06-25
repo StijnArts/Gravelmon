@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Obstagoon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Obstagoon(int dex) {
-        super(dex, "Obstagoon",
+    public Obstagoon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Obstagoon",
                 Type.DARK, Type.NORMAL,
                 new Stats(93,
                         90,

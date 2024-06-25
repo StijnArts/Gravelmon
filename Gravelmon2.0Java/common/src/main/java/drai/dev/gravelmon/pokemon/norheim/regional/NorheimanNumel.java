@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanNumel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanNumel(int dex) {
-        super(dex, "Numel",
+    public NorheimanNumel(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Numel",
                 Type.GROUND, Type.ICE,
                 new Stats(70,
                         65,

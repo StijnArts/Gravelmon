@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianPumpkaboo extends Pokemon {
-    public AyreianPumpkaboo(int dexNo) {
-        super(dexNo,"AyreianPumpkaboo",
+    public AyreianPumpkaboo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianPumpkaboo",
                 Type.GRASS, Type.FAIRY,
                 new Stats(70,45,70,20,45,70),
                 List.of(Ability.STAMINA, Ability.TRIAGE), Ability.INSOMNIA,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Trumbeak extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Trumbeak(int dex) {
-        super(dex, "Trumbeak",
+    public Trumbeak(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Trumbeak",
                 Type.NORMAL, Type.FLYING,
                 new Stats(55,
                         85,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Vaporeon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Vaporeon(int dex) {
-        super(dex, "Vaporeon",
+    public Vaporeon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Vaporeon",
                 Type.WATER,
                 new Stats(130,
                         65,

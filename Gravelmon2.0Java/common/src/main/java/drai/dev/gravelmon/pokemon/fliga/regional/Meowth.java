@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Meowth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Meowth(int dex) {
-        super(dex, "Meowth",
+    public Meowth(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Meowth",
                 Type.NORMAL,
                 new Stats(40,
                         45,

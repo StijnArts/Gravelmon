@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Linoone extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Linoone(int dex) {
-        super(dex, "Linoone",
+    public Linoone(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Linoone",
                 Type.DARK, Type.NORMAL,
                 new Stats(78,
                         70,

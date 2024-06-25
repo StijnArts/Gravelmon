@@ -22,45 +22,45 @@ public class GenerationSeven extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new QamoranSandygast(769));
+        pokemon.add(new QamoranSandygast("", Aspect.QAMORAN));
 
-        pokemon.add(new NostanMorelull(755));
-        pokemon.add(new NostanShiinotic(756, new Stats(405, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
+        pokemon.add(new NostanMorelull("", Aspect.NOSTAN));
+        pokemon.add(new NostanShiinotic("", Aspect.NOSTAN, new Stats(405, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
 
-        pokemon.add(new VaritasianBounsweet(761));
-        pokemon.add(new VaritasianSteenee(762));
+        pokemon.add(new VaritasianBounsweet("", Aspect.VARITASIAN));
+        pokemon.add(new VaritasianSteenee("", Aspect.VARITASIAN));
 
         //X-Species (Xenoverse)
-        pokemon.add(new MareanieX(747));
-        pokemon.add(new ToxapexX(748));
-        pokemon.add(new PyukumukuX(771));
-        pokemon.add(new TapuKokoX(785));
-        pokemon.add(new TapuLeleX(786));
-        pokemon.add(new TapuBuluX(787));
-        pokemon.add(new TapuFiniX(788));
+        pokemon.add(new MareanieX("", Aspect.X));
+        pokemon.add(new ToxapexX("", Aspect.X));
+        pokemon.add(new PyukumukuX("", Aspect.X));
+        pokemon.add(new TapuKokoX("", Aspect.X));
+        pokemon.add(new TapuLeleX("", Aspect.X));
+        pokemon.add(new TapuBuluX("", Aspect.X));
+        pokemon.add(new TapuFiniX("", Aspect.X));
 
         //Pokemon Blazing Emerald
-        pokemon.add(new HoennianMareanie(747));
-        pokemon.add(new HoennianToxapex(748));
+        pokemon.add(new HoennianMareanie("", Aspect.HOENN));
+        pokemon.add(new HoennianToxapex("", Aspect.HOENN));
 
         //Radical Red
-        pokemon.add(new SeviianWishiwashi(746));
-        pokemon.add(new SeviianDhelmise(781));
+        pokemon.add(new SeviianWishiwashi("", Aspect.SEVIIAN));
+        pokemon.add(new SeviianDhelmise("", Aspect.SEVIIAN));
 
         //Pokemon Flux
-        pokemon.add(new DeepWishiwashi(746));
+        pokemon.add(new DeepWishiwashi("", Aspect.DEEP));
 
         //Vanguard
-        pokemon.add(new AyreianYungoos(734));
-        pokemon.add(new AyreianGumshoos(735));
+        pokemon.add(new AyreianYungoos("", Aspect.AYREIAN));
+        pokemon.add(new AyreianGumshoos("", Aspect.AYREIAN));
 
         //Kaskadian
-        pokemon.add(new KaskadianPalossand(770));
-        pokemon.add(new KaskadianBruxish(779));
+        pokemon.add(new KaskadianPalossand("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianBruxish("", Aspect.KASKADIAN));
 
         //Azure (Mystic)
-        pokemon.add(new MysticStufful(759));
-        pokemon.add(new MysticBewear(760));
+        pokemon.add(new MysticStufful("", Aspect.MYSTIC));
+        pokemon.add(new MysticBewear("", Aspect.MYSTIC));
 
     }
 }

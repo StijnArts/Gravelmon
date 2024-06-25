@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianAzumarill extends Pokemon {
-    public KaskadianAzumarill(int dexNo) {
-        super(dexNo,"KaskadianAzumarill",
+    public KaskadianAzumarill(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"KaskadianAzumarill",
                 Type.WATER, Type.GRASS,
                 new Stats(100, 20, 80, 90, 80, 50),
                 List.of(Ability.HYDRATION, Ability.STICKY_HOLD), Ability.VEGETATE,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class JunkRotom extends Pokemon {
-    public JunkRotom(int dexNo) {
-        super(dexNo,"JunkRotom",
+    public JunkRotom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"JunkRotom",
                 Type.ELECTRIC, Type.POISON,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.POISON_POINT,

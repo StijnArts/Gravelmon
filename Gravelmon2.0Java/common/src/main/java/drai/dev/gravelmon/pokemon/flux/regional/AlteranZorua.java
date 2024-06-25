@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AlteranZorua extends Pokemon {
-    public AlteranZorua(int dexNo) {
-        super(dexNo,"AlteranZorua",
+    public AlteranZorua(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AlteranZorua",
                 Type.GHOST,
                 new Stats(40, 65, 40, 85, 45, 55),
                 List.of(Ability.ILLUSION), Ability.INFILTRATOR,

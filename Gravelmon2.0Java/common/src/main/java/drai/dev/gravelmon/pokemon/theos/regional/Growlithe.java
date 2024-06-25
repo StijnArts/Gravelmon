@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Growlithe extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Growlithe(int dex) {
-        super(dex, "Growlithe",
+    public Growlithe(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Growlithe",
                 Type.GROUND,
                 new Stats(55,
                         65,

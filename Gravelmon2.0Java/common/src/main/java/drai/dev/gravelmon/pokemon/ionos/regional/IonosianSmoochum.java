@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianSmoochum extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianSmoochum(int dex) {
-        super(dex, "Smoochum",
+    public IonosianSmoochum(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Smoochum",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,

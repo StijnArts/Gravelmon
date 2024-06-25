@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sawsbuck extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sawsbuck(int dex) {
-        super(dex, "Sawsbuck",
+    public Sawsbuck(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sawsbuck",
                 Type.NORMAL, Type.GRASS,
                 new Stats(0,
                         0,

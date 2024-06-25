@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Kangaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Kangaskhan(int dex) {
-        super(dex, "Kangaskhan",
+    public Kangaskhan(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Kangaskhan",
                 Type.NORMAL,
                 new Stats(0,
                         0,

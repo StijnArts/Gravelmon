@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class MrRime extends drai.dev.gravelmon.pokemon.Pokemon {
-    public MrRime(int dex) {
-        super(dex, "MrRime",
+    public MrRime(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "MrRime",
                 Type.ICE, Type.PSYCHIC,
                 new Stats(80,
                         85,

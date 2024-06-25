@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Meganium extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Meganium(int dex) {
-        super(dex, "Meganium",
+    public Meganium(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Meganium",
                 Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,

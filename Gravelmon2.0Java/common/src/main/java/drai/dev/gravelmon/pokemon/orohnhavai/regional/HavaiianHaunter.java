@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class HavaiianHaunter extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HavaiianHaunter(int dex) {
-        super(dex, "HavaiianHaunter",
+    public HavaiianHaunter(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "HavaiianHaunter",
                 Type.GHOST, Type.FIRE,
                 new Stats(45,
                         45,

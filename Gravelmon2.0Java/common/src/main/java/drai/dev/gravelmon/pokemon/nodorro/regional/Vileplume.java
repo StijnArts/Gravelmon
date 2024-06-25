@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Vileplume extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Vileplume(int dex) {
-        super(dex, "Vileplume",
+    public Vileplume(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Vileplume",
                 Type.GRASS, Type.POISON,
                 new Stats(75,
                         80,

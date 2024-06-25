@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranVanilluxe extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranVanilluxe(int dex) {
-        super(dex, "Vanilluxe",
+    public NovranVanilluxe(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Vanilluxe",
                 Type.ICE, Type.GRASS,
                 new Stats(71,
                         95,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianPidgey extends Pokemon {
-    public AyreianPidgey(int dexNo) {
-        super(dexNo,"AyreianPidgey",
+    public AyreianPidgey(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianPidgey",
                 Type.GRASS, Type.FLYING,
                 new Stats(40,56,40,56,35,35),
                 List.of(Ability.FLOWER_GIFT, Ability.OVERGROW), Ability.GRASSY_SURGE,

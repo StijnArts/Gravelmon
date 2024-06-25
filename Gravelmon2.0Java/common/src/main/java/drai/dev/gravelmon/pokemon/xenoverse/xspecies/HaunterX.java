@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class HaunterX extends Pokemon {
-    public HaunterX(int dexNo) {
-        super(dexNo,"HaunterX",
+    public HaunterX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HaunterX",
                 Type.DRAGON,
                 new Stats(45, 55, 70, 115, 75, 45),
                 List.of(Ability.OBLIVIOUS, Ability.MOLD_BREAKER), Ability.STURDY,

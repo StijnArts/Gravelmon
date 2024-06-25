@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Azumarill extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Azumarill(int dex) {
-        super(dex, "Azumarill",
+    public Azumarill(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Azumarill",
                 Type.WATER, Type.FAIRY,
                 new Stats(100,
                         60,

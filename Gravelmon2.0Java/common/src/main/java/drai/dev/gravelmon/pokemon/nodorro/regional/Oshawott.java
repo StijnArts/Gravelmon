@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Oshawott extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Oshawott(int dex) {
-        super(dex, "Oshawott",
+    public Oshawott(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Oshawott",
                 Type.WATER, Type.GHOST,
                 new Stats(58,
                         50,

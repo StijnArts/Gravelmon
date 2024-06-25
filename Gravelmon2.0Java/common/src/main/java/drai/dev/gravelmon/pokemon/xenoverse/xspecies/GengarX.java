@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class GengarX extends Pokemon {
-    public GengarX(int dexNo) {
-        super(dexNo,"GengarX",
+    public GengarX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"GengarX",
                 Type.DRAGON, Type.PSYCHIC,
                 new Stats(80, 70, 80, 130, 85, 55),
                 List.of(Ability.OBLIVIOUS, Ability.MOLD_BREAKER), Ability.ANGER_POINT,

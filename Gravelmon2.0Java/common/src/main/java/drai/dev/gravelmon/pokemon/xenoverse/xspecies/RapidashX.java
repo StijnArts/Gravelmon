@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RapidashX  extends Pokemon {
-    public RapidashX(int dexNo) {
-        super(dexNo,"RapidashX",
+    public RapidashX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"RapidashX",
                 Type.FLYING,
                 new Stats(65, 90, 70, 80, 80, 115),
                 List.of(Ability.CLOUD_BURST), Ability.CLOUD_BURST,

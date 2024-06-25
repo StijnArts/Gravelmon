@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Beartic extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Beartic(int dex) {
-        super(dex, "Beartic",
+    public Beartic(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Beartic",
                 Type.FIRE,
                 new Stats(90,
                         100,

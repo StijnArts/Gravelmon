@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicKoffing extends Pokemon {
-    public RelicKoffing(int dexNo) {
-        super(dexNo,"RelicKoffing",
+    public RelicKoffing(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"RelicKoffing",
                 Type.FIRE, Type.STEEL,
                 new Stats(45, 60, 100, 65, 45, 25),
                 List.of(Ability.AFTERMATH), Ability.LEVITATE,

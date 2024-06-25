@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Doublade extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Doublade(int dex) {
-        super(dex, "Doublade",
+    public Doublade(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Doublade",
                 Type.GRASS, Type.GHOST,
                 new Stats(0,
                         0,

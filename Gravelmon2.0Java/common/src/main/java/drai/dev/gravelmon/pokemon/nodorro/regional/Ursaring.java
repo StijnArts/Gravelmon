@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ursaring extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ursaring(int dex) {
-        super(dex, "Ursaring",
+    public Ursaring(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ursaring",
                 Type.NORMAL, Type.FIGHTING,
                 new Stats(100,
                         135,

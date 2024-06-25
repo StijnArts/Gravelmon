@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cresselia extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cresselia(int dex) {
-        super(dex, "Cresselia",
+    public Cresselia(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cresselia",
                 Type.PSYCHIC,
                 new Stats(0,
                         0,

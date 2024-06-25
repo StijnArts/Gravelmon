@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianMareanie extends Pokemon {
-    public HoennianMareanie(int dexNo) {
-        super(dexNo,"HoennianMareanie",
+    public HoennianMareanie(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianMareanie",
                 Type.ROCK, Type.POISON,
                 new Stats(50, 53, 92, 33, 52, 35),
                 List.of(Ability.POISON_POINT), Ability.SOLID_ROCK,

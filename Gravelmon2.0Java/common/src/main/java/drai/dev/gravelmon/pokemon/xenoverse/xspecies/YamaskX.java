@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class YamaskX extends Pokemon {
-    public YamaskX(int dexNo) {
-        super(dexNo,"YamaskX",
+    public YamaskX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"YamaskX",
                 Type.WATER, Type.ROCK,
                 new Stats(38, 30, 85, 65, 55, 30),
                 List.of(Ability.STORM_DRAIN), Ability.WEAK_ARMOR,

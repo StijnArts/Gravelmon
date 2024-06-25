@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Magmortar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Magmortar(int dex) {
-        super(dex, "Magmortar",
+    public Magmortar(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Magmortar",
                 Type.FIRE,
                 new Stats(75,
                         95,

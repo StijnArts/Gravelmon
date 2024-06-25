@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaRemoraid extends Pokemon {
-    public DeltaRemoraid(int dexNo) {
-        super(dexNo,"DeltaRemoraid",
+    public DeltaRemoraid(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaRemoraid",
                 Type.FIRE,
                 new Stats(35, 65,35,65,35,65),
                 List.of(Ability.HEATPROOF, Ability.WHITE_SMOKE), Ability.CONTRARY,

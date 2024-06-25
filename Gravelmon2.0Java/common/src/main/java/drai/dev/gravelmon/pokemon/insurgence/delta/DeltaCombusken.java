@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaCombusken extends Pokemon {
-    public DeltaCombusken(int dexNo) {
-        super(dexNo,"DeltaCombusken",
+    public DeltaCombusken(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaCombusken",
                 Type.PSYCHIC,
                 new Stats(60, 85, 60, 85, 60, 55),
                 List.of(Ability.KEEN_EYE), Ability.RIVALRY,

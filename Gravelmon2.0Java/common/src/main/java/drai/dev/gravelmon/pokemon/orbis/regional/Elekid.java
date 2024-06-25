@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Elekid extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Elekid(int dex) {
-        super(dex, "Elekid",
+    public Elekid(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Elekid",
                 Type.ELECTRIC,
                 new Stats(45,
                         63,

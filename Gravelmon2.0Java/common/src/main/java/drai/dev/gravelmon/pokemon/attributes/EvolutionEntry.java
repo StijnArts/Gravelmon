@@ -89,4 +89,8 @@ public class EvolutionEntry {
     public String getRequiredContext() {
         return requiredContext;
     }
+
+    public void setResult(String s) {
+        this.result = s;
+    }
 }

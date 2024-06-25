@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Probopass extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Probopass(int dex) {
-        super(dex, "Probopass",
+    public Probopass(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Probopass",
                 Type.ROCK, Type.GRASS,
                 new Stats(75,
                         70,

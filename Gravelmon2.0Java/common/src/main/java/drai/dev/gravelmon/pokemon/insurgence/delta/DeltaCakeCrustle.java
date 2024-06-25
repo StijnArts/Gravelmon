@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaCakeCrustle extends Pokemon {
-    public DeltaCakeCrustle(int dexNo) {
-        super(dexNo,"DeltaCakeCrustle",
+    public DeltaCakeCrustle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaCakeCrustle",
                 Type.FAIRY, Type.NORMAL,
                 new Stats(70, 95, 125, 65, 75, 45),
                 List.of(Ability.OWN_TEMPO, Ability.SCRAPPY), Ability.SIMPLE,

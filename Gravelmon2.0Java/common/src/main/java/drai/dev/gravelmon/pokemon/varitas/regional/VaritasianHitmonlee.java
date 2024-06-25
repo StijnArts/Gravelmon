@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianHitmonlee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianHitmonlee(int dex) {
-        super(dex,"VaritasianHitmonlee",
+    public VaritasianHitmonlee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"VaritasianHitmonlee",
                 Type.PSYCHIC,
                 new Stats(50,
                         35,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Scraggy extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Scraggy(int dex) {
-        super(dex, "Scraggy",
+    public Scraggy(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Scraggy",
                 Type.DARK, Type.FIGHTING,
                 new Stats(50,
                         75,

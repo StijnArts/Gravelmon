@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Buneary extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Buneary(int dex) {
-        super(dex, "Buneary",
+    public Buneary(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Buneary",
                 Type.ICE, Type.FAIRY,
                 new Stats(0,
                         0,

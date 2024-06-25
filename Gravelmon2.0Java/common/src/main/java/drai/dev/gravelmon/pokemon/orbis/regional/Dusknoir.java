@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Dusknoir extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dusknoir(int dex) {
-        super(dex, "Dusknoir",
+    public Dusknoir(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Dusknoir",
                 Type.GHOST,
                 new Stats(45,
                         100,

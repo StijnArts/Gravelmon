@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Dreepy extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dreepy(int dex) {
-        super(dex, "Dreepy",
+    public Dreepy(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Dreepy",
                 Type.DRAGON, Type.GHOST,
                 new Stats(28,
                         60,

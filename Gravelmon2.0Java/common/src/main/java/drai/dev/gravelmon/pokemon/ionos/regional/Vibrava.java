@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Vibrava extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Vibrava(int dex) {
-        super(dex, "Vibrava",
+    public Vibrava(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Vibrava",
                 Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,

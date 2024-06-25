@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Swanna extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Swanna(int dex) {
-        super(dex, "Swanna",
+    public Swanna(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Swanna",
                 Type.WATER, Type.FLYING,
                 new Stats(75,
                         87,

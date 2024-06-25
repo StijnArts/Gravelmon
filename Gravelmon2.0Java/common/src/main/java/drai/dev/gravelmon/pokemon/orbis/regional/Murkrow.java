@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Murkrow extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Murkrow(int dex) {
-        super(dex, "Murkrow",
+    public Murkrow(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Murkrow",
                 Type.DARK, Type.FLYING,
                 new Stats(60,
                         85,

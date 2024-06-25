@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaCamerupt extends Pokemon {
-    public DeltaCamerupt(int dexNo) {
-        super(dexNo,"DeltaCamerupt",
+    public DeltaCamerupt(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaCamerupt",
                 Type.POISON,
                 new Stats(70, 100, 70, 105, 75, 40),
                 List.of(Ability.VENOMOUS, Ability.POISON_POINT), Ability.LIQUID_OOZE,

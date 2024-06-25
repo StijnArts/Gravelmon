@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Indeedee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Indeedee(int dex) {
-        super(dex, "Indeedee",
+    public Indeedee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Indeedee",
                 Type.PSYCHIC, Type.NORMAL,
                 new Stats(60,
                         65,

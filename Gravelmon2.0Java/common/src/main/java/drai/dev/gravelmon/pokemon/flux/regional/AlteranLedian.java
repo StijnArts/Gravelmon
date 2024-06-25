@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AlteranLedian extends Pokemon {
-    public AlteranLedian(int dexNo) {
-        super(dexNo,"AlteranLedian",
+    public AlteranLedian(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AlteranLedian",
                 Type.BUG, Type.FIGHTING,
                 new Stats(55, 85, 45, 40, 80, 85),
                 List.of(Ability.SWARM, Ability.IRON_FIST), Ability.JUSTIFIED,

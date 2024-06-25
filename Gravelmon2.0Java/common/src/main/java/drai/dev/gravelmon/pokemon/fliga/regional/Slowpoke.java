@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Slowpoke extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Slowpoke(int dex) {
-        super(dex, "Slowpoke",
+    public Slowpoke(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Slowpoke",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(90,
                         65,

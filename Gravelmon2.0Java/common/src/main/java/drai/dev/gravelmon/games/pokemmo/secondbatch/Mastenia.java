@@ -23,8 +23,8 @@ public class Mastenia extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Bulbasaur(1));   Missing Stats
 //        pokemon.add(new Ivysaur(2));   Missing Stats
         pokemon.add(new Cereusaur());
-        pokemon.add(new Charmander(4));
-        pokemon.add(new Charmeleon(5));
+//        pokemon.add(new Charmander(4));
+//        pokemon.add(new Charmeleon(5));
         pokemon.add(new Savazard());
 //        pokemon.add(new Squirtle(7));   Missing Stats
 //        pokemon.add(new Wartortle(8));   Missing Stats
@@ -88,8 +88,8 @@ public class Mastenia extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Nonono());   Missing Stats
         pokemon.add(new Serpyre());
 //        pokemon.add(new Adaptoad()); Member of line not finished
-        pokemon.add(new Psyduck(54));
-        pokemon.add(new Golduck(55));
+//        pokemon.add(new Psyduck(54));
+//        pokemon.add(new Golduck(55));
 //        pokemon.add(new Trancendo());   Missing Stats
 //        pokemon.add(new Komala(775));   Missing Stats
 //        pokemon.add(new Lizphard());   Missing Stats

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianSuicune extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianSuicune(int dex) {
-        super(dex,"Suicune",
+    public VaritasianSuicune(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"Suicune",
                 Type.DRAGON, Type.WATER,
                 new Stats(100,
                         75,

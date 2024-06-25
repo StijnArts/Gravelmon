@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Charmander extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Charmander(int dex) {
-        super(dex, "Charmander",
+    public Charmander(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Charmander",
                 Type.FIRE,
                 new Stats(39,
                         52,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianAmbipom extends Pokemon {
-    public KaskadianAmbipom(int dexNo) {
-        super(dexNo,"KaskadianAmbipom",
+    public KaskadianAmbipom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"KaskadianAmbipom",
                 Type.NORMAL, Type.ROCK,
                 new Stats(75, 100, 66, 60, 66, 115),
                 List.of(Ability.SAND_FORCE, Ability.PICKUP), Ability.SKILL_LINK,

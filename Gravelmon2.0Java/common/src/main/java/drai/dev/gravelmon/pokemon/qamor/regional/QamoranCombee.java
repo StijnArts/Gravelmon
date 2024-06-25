@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranCombee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranCombee(int dex) {
-        super(dex, "Combee",
+    public QamoranCombee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Combee",
                 Type.STEEL, Type.FLYING,
                 new Stats(30,
                         30,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Flaaffy extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Flaaffy(int dex) {
-        super(dex, "Flaaffy",
+    public Flaaffy(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Flaaffy",
                 Type.GRASS,
                 new Stats(70,
                         45,

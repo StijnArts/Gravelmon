@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaSableye extends Pokemon {
-    public DeltaSableye(int dexNo) {
-        super(dexNo,"DeltaSableye",
+    public DeltaSableye(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaSableye",
                 Type.FIRE, Type.ROCK,
                 new Stats(50, 75, 75, 65, 65, 50),
                 List.of(Ability.SOLID_ROCK, Ability.WEAK_ARMOR), Ability.UNBURDEN,

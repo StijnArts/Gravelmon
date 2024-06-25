@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Persian extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Persian(int dex) {
-        super(dex, "Persian",
+    public Persian(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Persian",
                 Type.NORMAL,
                 new Stats(65,
                         70,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Barbaracle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Barbaracle(int dex) {
-        super(dex, "Barbaracle",
+    public Barbaracle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Barbaracle",
                 Type.ROCK, Type.WATER,
                 new Stats(72,
                         105,

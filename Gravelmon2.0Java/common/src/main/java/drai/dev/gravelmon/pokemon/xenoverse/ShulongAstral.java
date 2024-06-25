@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ShulongAstral extends Pokemon {
-    public ShulongAstral(int dexNo) {
-        super(dexNo,"ShulongAstral",
+    public ShulongAstral(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"ShulongAstral",
                 Type.WATER, Type.DRAGON,
                 new Stats(143, 80, 156, 80, 155, 86),
                 List.of(Ability.DRAGON_ARMOR), Ability.DRAGON_ARMOR,

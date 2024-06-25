@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Wimpod extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Wimpod(int dex) {
-        super(dex, "Wimpod",
+    public Wimpod(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Wimpod",
                 Type.BUG, Type.WATER,
                 new Stats(25,
                         35,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicLedian extends Pokemon {
-    public RelicLedian(int dexNo) {
-        super(dexNo,"RelicLedian",
+    public RelicLedian(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"RelicLedian",
                 Type.FIRE, Type.STEEL,
                 new Stats(80, 100, 90, 35, 60, 75),
                 List.of(Ability.IRON_FIST, Ability.COMPOUND_EYES), Ability.IRON_FIST,

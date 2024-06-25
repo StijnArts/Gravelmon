@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class HoennianTeddiursa extends Pokemon {
-    public HoennianTeddiursa(int dexNo) {
-        super(dexNo,"HoennianTeddiursa",
+    public HoennianTeddiursa(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianTeddiursa",
                 Type.NORMAL, Type.FIRE,
                 new Stats(55, 70,45,45,40,80),
                 List.of(Ability.PICKUP), Ability.CUTE_CHARM,

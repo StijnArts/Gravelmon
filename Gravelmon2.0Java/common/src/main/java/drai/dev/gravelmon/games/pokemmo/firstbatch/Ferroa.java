@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo.firstbatch;
 
 import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.crozoic.*;
 import drai.dev.gravelmon.pokemon.mushi.*;
@@ -142,10 +143,10 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Flingzer());
         var partae = new Partae();
         pokemon.add(partae);
-        pokemon.add(new LostIslandsPartae(partae.getPokedexNumber()));
+        pokemon.add(new LostIslandsPartae("", Aspect.LOST_ISLANDS));
         var loftival = new Loftival();
         pokemon.add(loftival);
-        pokemon.add(new LostIslandsLoftival(loftival.getPokedexNumber()));
+        pokemon.add(new LostIslandsLoftival("", Aspect.LOST_ISLANDS));
         pokemon.add(new Hotdach());
         pokemon.add(new Schnausage());
         pokemon.add(new Hammerod());

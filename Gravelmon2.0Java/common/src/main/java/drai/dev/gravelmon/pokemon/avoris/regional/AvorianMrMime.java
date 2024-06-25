@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class AvorianMrMime extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AvorianMrMime(int dex) {
-        super(dex,  "AvorianMrMime",
+    public AvorianMrMime(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,  "AvorianMrMime",
                 Type.FIGHTING, Type.FAIRY,
                 new Stats(60,
                         100,

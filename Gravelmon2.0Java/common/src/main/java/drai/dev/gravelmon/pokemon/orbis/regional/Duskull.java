@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Duskull extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Duskull(int dex) {
-        super(dex, "Duskull",
+    public Duskull(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Duskull",
                 Type.GHOST,
                 new Stats(20,
                         40,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianRiolu extends Pokemon {
-    public MythianRiolu(int dexNo) {
-        super(dexNo,"MythianRiolu",
+    public MythianRiolu(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"MythianRiolu",
                 Type.GROUND, Type.GHOST,
                 new Stats(40,70,40,35,40,60),
                 List.of(Ability.LEVITATE, Ability.ARENA_TRAP), Ability.DRY_SKIN,

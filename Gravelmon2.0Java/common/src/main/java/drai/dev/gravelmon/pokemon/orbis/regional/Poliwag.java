@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Poliwag extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Poliwag(int dex) {
-        super(dex, "Poliwag",
+    public Poliwag(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Poliwag",
                 Type.WATER,
                 new Stats(40,
                         50,

@@ -16,8 +16,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class NeoZubat extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NeoZubat(int dex) {
-        super(dex, "Zubat",
+    public NeoZubat(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Zubat",
                 Type.DARK, Type.FLYING,
                 new Stats(50,
                         55,

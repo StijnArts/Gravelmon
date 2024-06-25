@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sylveon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sylveon(int dex) {
-        super(dex, "Sylveon",
+    public Sylveon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sylveon",
                 Type.FAIRY,
                 new Stats(95,
                         65,

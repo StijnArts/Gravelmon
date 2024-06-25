@@ -14,11 +14,13 @@ public class SpawnPoolWorldJSONWriter {
     public static void writeSpawns(Game game, String resourcesDir){
         String dir = resourcesDir+"\\data\\cobblemon\\spawn_pool_world\\";
         game.getPokemon().forEach(pokemon -> {
-            try {
-                Files.createDirectories(new File(dir).toPath());
-                writeSpawn(pokemon, dir, game);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+            if(!Pokemon.isAnAdditionalForm(pokemon)) {
+                try {
+                    Files.createDirectories(new File(dir).toPath());
+                    writeSpawn(pokemon, dir, game);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
             }
         });
     }
@@ -149,7 +151,7 @@ public class SpawnPoolWorldJSONWriter {
         }
     }
 
-    private static String conditionsToString(String fileContents, SpawnCondition spawnCondition) {
+    public static String conditionsToString(String fileContents, SpawnCondition spawnCondition) {
         if(spawnCondition instanceof BiomeSpawnCondition){
             fileContents+="\""+spawnCondition.getConditionKind().getName()+"\": [ ";
             boolean isFirstBiomeCondition = true;

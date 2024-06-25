@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaHeatmor extends Pokemon {
-    public DeltaHeatmor(int dexNo) {
-        super(dexNo,"DeltaHeatmor",
+    public DeltaHeatmor(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaHeatmor",
                 Type.POISON, Type.STEEL,
                 new Stats(85, 97, 66, 105, 66, 65),
                 List.of(Ability.LIQUID_OOZE, Ability.SHEER_FORCE), Ability.MEGA_LAUNCHER,

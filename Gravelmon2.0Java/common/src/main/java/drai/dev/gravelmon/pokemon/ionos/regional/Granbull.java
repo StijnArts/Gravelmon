@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Granbull extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Granbull(int dex) {
-        super(dex, "Granbull",
+    public Granbull(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Granbull",
                 Type.FAIRY, Type.DARK,
                 new Stats(0,
                         0,

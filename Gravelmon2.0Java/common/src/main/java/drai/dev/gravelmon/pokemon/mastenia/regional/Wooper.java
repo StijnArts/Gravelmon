@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Wooper extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Wooper(int dex) {
-        super(dex, "Wooper",
+    public Wooper(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Wooper",
                 Type.FIRE,
                 new Stats(0,
                         0,

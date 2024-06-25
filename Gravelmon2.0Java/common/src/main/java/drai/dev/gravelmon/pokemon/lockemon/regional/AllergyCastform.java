@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AllergyCastform extends Pokemon {
-    public AllergyCastform(int dexNo) {
-        super(dexNo,"AllergyCastform",
+    public AllergyCastform(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AllergyCastform",
                 Type.GRASS,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

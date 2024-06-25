@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class InterianGenesect extends drai.dev.gravelmon.pokemon.Pokemon {
-    public InterianGenesect(int dex) {
-        super(dex ,"Genesect",
+    public InterianGenesect(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"Genesect",
                 Type.ELECTRIC, Type.STEEL,
                 new Stats(100,
                         150,

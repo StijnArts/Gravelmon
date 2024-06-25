@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianBulbasaur extends Pokemon {
-    public AyreianBulbasaur(int dexNo) {
-        super(dexNo,"AyreianBulbasaur",
+    public AyreianBulbasaur(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianBulbasaur",
                 Type.DARK, Type.GROUND,
                 new Stats(81, 54, 69, 15, 40, 60),
                 List.of(Ability.STAMINA, Ability.WEAK_ARMOR), Ability.SAND_STREAM,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Drakloak extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Drakloak(int dex) {
-        super(dex, "Drakloak",
+    public Drakloak(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Drakloak",
                 Type.DRAGON, Type.GHOST,
                 new Stats(68,
                         80,

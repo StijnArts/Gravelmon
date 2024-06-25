@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class AyreianDugtrio extends Pokemon {
-    public AyreianDugtrio(int dexNo) {
-        super(dexNo,"AyreianDugtrio",
+    public AyreianDugtrio(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianDugtrio",
                 Type.ICE,
                 new Stats(120,95,50,105,35,70),
                 List.of(Ability.SNOW_CLOAK, Ability.ARENA_TRAP), Ability.TECHNICIAN,

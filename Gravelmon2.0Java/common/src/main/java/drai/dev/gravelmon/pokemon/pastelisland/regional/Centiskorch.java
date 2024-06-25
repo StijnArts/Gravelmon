@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Centiskorch extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Centiskorch(int dex) {
-        super(dex, "Centiskorch",
+    public Centiskorch(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Centiskorch",
                 Type.FIRE, Type.BUG,
                 new Stats(100,
                         115,

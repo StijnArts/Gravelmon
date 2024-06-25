@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaRuinBeldum extends Pokemon {
-    public DeltaRuinBeldum(int dexNo) {
-        super(dexNo,"DeltaRuinBeldum",
+    public DeltaRuinBeldum(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaRuinBeldum",
                 Type.GRASS, Type.ROCK,
                 new Stats(40, 55, 80, 35, 60, 30),
                 List.of(Ability.STURDY), Ability.ROCK_HEAD,

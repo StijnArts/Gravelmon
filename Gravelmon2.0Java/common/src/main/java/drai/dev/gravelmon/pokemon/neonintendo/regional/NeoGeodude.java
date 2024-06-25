@@ -16,8 +16,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class NeoGeodude extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NeoGeodude(int dex) {
-        super(dex, "Geodude",
+    public NeoGeodude(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Geodude",
                 Type.ROCK, Type.FAIRY,
                 new Stats(40,
                         75,

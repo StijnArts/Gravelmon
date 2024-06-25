@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Copperajah extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Copperajah(int dex) {
-        super(dex, "Copperajah",
+    public Copperajah(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Copperajah",
                 Type.STEEL,
                 new Stats(122,
                         130,

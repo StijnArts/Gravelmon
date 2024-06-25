@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianVenomoth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianVenomoth(int dex) {
-        super(dex, "Venomoth",
+    public HizianVenomoth(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Venomoth",
                 Type.BUG, Type.ELECTRIC,
                 new Stats(80,
                         65,

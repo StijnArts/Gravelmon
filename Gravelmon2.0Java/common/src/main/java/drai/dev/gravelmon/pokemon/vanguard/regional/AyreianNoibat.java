@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianNoibat extends Pokemon {
-    public AyreianNoibat(int dexNo) {
-        super(dexNo,"AyreianNoibat",
+    public AyreianNoibat(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianNoibat",
                 Type.SOUND, Type.FAIRY,
                 new Stats(70,45,55,50,98,60),
                 List.of(Ability.MOLD_BREAKER, Ability.FRIEND_GUARD), Ability.TELEPATHY,

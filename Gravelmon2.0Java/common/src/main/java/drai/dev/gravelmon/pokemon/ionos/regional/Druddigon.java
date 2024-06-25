@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Druddigon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Druddigon(int dex) {
-        super(dex, "Druddigon",
+    public Druddigon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Druddigon",
                 Type.DRAGON, Type.GROUND,
                 new Stats(0,
                         0,

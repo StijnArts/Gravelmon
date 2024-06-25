@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Espeon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Espeon(int dex) {
-        super(dex, "Espeon",
+    public Espeon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Espeon",
                 Type.PSYCHIC,
                 new Stats(65,
                         65,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Budew extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Budew(int dex) {
-        super(dex, "Budew",
+    public Budew(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Budew",
                 Type.GRASS, Type.POISON,
                 new Stats(55,
                         30,

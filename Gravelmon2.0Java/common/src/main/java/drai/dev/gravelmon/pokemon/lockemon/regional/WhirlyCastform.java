@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class WhirlyCastform extends Pokemon {
-    public WhirlyCastform(int dexNo) {
-        super(dexNo,"WhirlyCastform",
+    public WhirlyCastform(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"WhirlyCastform",
                 Type.STEEL,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

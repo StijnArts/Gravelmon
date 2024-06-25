@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaLampent extends Pokemon {
-    public DeltaLampent(int dexNo) {
-        super(dexNo,"DeltaLampent",
+    public DeltaLampent(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaLampent",
                 Type.FAIRY, Type.FIRE,
                 new Stats(60, 40, 60, 95, 60, 55),
                 List.of(Ability.FLASH_FIRE, Ability.WEAK_ARMOR), Ability.FAIRY_AURA,

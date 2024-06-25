@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class HomeRotom extends Pokemon {
-    public HomeRotom(int dexNo) {
-        super(dexNo,"HomeRotom",
+    public HomeRotom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HomeRotom",
                 Type.ELECTRIC, Type.NORMAL,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.SURVEILLANCE,

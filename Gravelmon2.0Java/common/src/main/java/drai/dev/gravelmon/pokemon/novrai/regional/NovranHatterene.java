@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHatterene extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHatterene(int dex) {
-        super(dex, "Hatterene",
+    public NovranHatterene(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hatterene",
                 Type.GRASS, Type.FAIRY,
                 new Stats(57,
                         90,

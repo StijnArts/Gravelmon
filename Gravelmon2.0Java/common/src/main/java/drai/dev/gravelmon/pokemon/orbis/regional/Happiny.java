@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Happiny extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Happiny(int dex) {
-        super(dex, "Happiny",
+    public Happiny(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Happiny",
                 Type.NORMAL,
                 new Stats(100,
                         5,

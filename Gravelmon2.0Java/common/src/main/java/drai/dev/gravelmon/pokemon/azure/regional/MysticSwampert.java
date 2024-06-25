@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticSwampert extends Pokemon {
-    public MysticSwampert(int dexNo) {
-        super(dexNo,"MysticSwampert",
+    public MysticSwampert(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"MysticSwampert",
                 Type.FIGHTING, Type.DRAGON,
                 new Stats(100, 110, 90, 60, 80, 90),
                 List.of(Ability.IMMUNITY), Ability.THICK_FAT,

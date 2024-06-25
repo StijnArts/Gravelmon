@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SaboltXenoversal extends Pokemon {
-    public SaboltXenoversal(int dexNo) {
-        super(dexNo,"SaboltXenoversal",
+    public SaboltXenoversal(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"SaboltXenoversal",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(118, 67, 123, 142, 90, 60),
                 List.of(Ability.DOWNLOAD), Ability.DOWNLOAD,

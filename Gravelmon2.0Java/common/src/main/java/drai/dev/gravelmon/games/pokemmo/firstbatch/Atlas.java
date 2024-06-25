@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo.firstbatch;
 
 import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.mushi.*;
 import drai.dev.gravelmon.pokemon.theos.*;
@@ -177,7 +178,7 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Silxie());
         var dustar = new Dustar();
         pokemon.add(dustar);
-        pokemon.add(new OkenianDustar(dustar.getPokedexNumber()));
+        pokemon.add(new OkenianDustar("", Aspect.OKENIAN));
         pokemon.add(new Clustar());
         pokemon.add(new Astervoid());
         pokemon.add(new Compella());

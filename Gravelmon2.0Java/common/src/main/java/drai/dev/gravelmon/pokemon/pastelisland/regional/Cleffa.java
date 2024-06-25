@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cleffa extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cleffa(int dex) {
-        super(dex, "Cleffa",
+    public Cleffa(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cleffa",
                 Type.FAIRY,
                 new Stats(50,
                         25,

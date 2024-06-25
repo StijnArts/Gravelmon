@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Haunter extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Haunter(int dex) {
-        super(dex, "Haunter",
+    public Haunter(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Haunter",
                 Type.GHOST, Type.ICE,
                 new Stats(50,
                         50,

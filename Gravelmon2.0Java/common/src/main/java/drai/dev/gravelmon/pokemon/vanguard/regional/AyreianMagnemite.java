@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianMagnemite extends Pokemon {
-    public AyreianMagnemite(int dexNo) {
-        super(dexNo,"AyreianMagnemite",
+    public AyreianMagnemite(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianMagnemite",
                 Type.FIRE, Type.STEEL,
                 new Stats(25,35,45,65,95,60),
                 List.of(Ability.FLAME_BODY, Ability.MAGNET_PULL), Ability.TRANSISTOR,

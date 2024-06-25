@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranGrimer extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranGrimer(int id) {
-        super(id, "Grimer",
+    public NovranGrimer(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"Grimer",
                 Type.POISON, Type.GROUND,
                 new Stats(80,
                         40,

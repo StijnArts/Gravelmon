@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Crawdaunt extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Crawdaunt(int dex) {
-        super(dex, "Crawdaunt",
+    public Crawdaunt(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Crawdaunt",
                 Type.WATER, Type.DARK,
                 new Stats(63,
                         120,

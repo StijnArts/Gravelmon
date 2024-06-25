@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ivysaur extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ivysaur(int dex) {
-        super(dex, "Ivysaur",
+    public Ivysaur(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ivysaur",
                 Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,

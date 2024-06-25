@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaFrogadier extends Pokemon {
-    public DeltaFrogadier(int dexNo) {
-        super(dexNo,"DeltaFrogadier",
+    public DeltaFrogadier(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaFrogadier",
                 Type.GRASS,
                 new Stats(54, 63, 52, 83, 56, 97),
                 List.of(Ability.STEADFAST), Ability.PRANKSTER,

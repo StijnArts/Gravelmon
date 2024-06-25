@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianVibrava extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianVibrava(int dex) {
-        super(dex, "Vibrava",
+    public IonosianVibrava(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Vibrava",
                 Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,

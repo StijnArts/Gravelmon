@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicTentacool extends Pokemon {
-    public RelicTentacool(int dexNo) {
-        super(dexNo,"RelicTentacool",
+    public RelicTentacool(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"RelicTentacool",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(80, 40, 35, 60, 65, 55),
                 List.of(Ability.FOREWARN), Ability.FOREWARN,

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianTotodile extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianTotodile(int dex) {
-        super(dex, "Totodile",
+    public IonosianTotodile(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Totodile",
                 Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,

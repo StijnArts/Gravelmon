@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Lurantis extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Lurantis(int dex) {
-        super(dex, "Lurantis",
+    public Lurantis(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Lurantis",
                 Type.GRASS,
                 new Stats(70,
                         105,

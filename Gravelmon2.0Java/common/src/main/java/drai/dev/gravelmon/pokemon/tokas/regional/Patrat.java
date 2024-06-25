@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Patrat extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Patrat(int dex) {
-        super(dex, "Patrat",
+    public Patrat(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Patrat",
                 Type.NORMAL,
                 new Stats(45,
                         55,

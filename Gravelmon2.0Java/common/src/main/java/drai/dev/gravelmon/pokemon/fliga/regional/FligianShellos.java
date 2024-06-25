@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianShellos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianShellos(int dex) {
-        super(dex, "Shellos",
+    public FligianShellos(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Shellos",
                 Type.WATER, Type.GHOST,
                 new Stats(58,
                         67,

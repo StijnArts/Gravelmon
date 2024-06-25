@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Toxicroak extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Toxicroak(int dex) {
-        super(dex, "Toxicroak",
+    public Toxicroak(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Toxicroak",
                 Type.POISON, Type.FIGHTING,
                 new Stats(83,
                         106,

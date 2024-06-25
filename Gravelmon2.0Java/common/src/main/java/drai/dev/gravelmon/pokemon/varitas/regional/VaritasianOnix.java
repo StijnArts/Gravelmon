@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianOnix extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianOnix(int dex) {
-        super(dex, "VaritasianOnix",
+    public VaritasianOnix(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "VaritasianOnix",
                 Type.ROCK, Type.PSYCHIC,
                 new Stats(35,
                         45,

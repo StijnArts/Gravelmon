@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Treecko extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Treecko(int dex) {
-        super(dex, "Treecko",
+    public Treecko(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Treecko",
                 Type.GRASS, Type.PSYCHIC,
                 new Stats(55,
                         40,

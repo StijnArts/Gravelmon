@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianSkorupi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianSkorupi(int dex) {
-        super(dex, "Skorupi",
+    public HizianSkorupi(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Skorupi",
                 Type.GROUND,
                 new Stats(40,
                         60,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Litwick extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Litwick(int dex) {
-        super(dex, "Litwick",
+    public Litwick(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Litwick",
                 Type.FIRE, Type.GHOST,
                 new Stats(55,
                         35,

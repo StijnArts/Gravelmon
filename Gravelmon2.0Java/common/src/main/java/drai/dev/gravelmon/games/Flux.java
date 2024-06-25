@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.flux.*;
 
 public class Flux extends Game {
@@ -38,7 +39,7 @@ public class Flux extends Game {
         pokemon.add(new Garbagull());
         var nidorimewinter = new NidorimeWinterCoat();
         pokemon.add(nidorimewinter);
-        pokemon.add(new NidorimeSummerCoat(nidorimewinter.getPokedexNumber()));
+        pokemon.add(new NidorimeSummerCoat("", Aspect.SUMMER));
         pokemon.add(new Nidoregina());
         pokemon.add(new Nidoregus());
         pokemon.add(new Roadillo());

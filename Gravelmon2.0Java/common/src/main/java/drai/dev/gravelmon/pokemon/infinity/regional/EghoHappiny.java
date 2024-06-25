@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoHappiny extends Pokemon {
-    public EghoHappiny(int dexNo) {
-        super(dexNo,"EghoHappiny",
+    public EghoHappiny(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EghoHappiny",
                 Type.FIGHTING, Type.FAIRY,
                 new Stats(65, 100, 15, 5, 5, 30),
                 List.of(Ability.ANGER_POINT, Ability.RECKLESS), Ability.OWN_TEMPO,

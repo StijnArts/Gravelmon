@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicGogoat extends Pokemon {
-    public RelicGogoat(int dexNo) {
-        super(dexNo,"RelicGogoat",
+    public RelicGogoat(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"RelicGogoat",
                 Type.GRASS, Type.ROCK,
                 new Stats(99, 110, 82, 72, 86, 82),
                 List.of(Ability.BATTLE_ARMOR, Ability.NO_GUARD), Ability.ROCK_HEAD,

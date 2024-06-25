@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cryogonal extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cryogonal(int dex) {
-        super(dex, "Cryogonal",
+    public Cryogonal(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cryogonal",
                 Type.ICE,
                 new Stats(80,
                         50,

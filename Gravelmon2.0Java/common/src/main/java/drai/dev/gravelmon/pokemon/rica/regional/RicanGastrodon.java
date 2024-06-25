@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class RicanGastrodon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public RicanGastrodon(int dex) {
-        super(dex, "RicanGastrodon",
+    public RicanGastrodon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "RicanGastrodon",
                 Type.ROCK, Type.FIRE,
                 new Stats(111,
                         83,

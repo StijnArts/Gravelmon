@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Impidimp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Impidimp(int dex) {
-        super(dex, "Impidimp",
+    public Impidimp(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Impidimp",
                 Type.FIRE,
                 new Stats(45,
                         55,

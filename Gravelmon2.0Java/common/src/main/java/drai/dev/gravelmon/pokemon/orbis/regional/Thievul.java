@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Thievul extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Thievul(int dex) {
-        super(dex, "Thievul",
+    public Thievul(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Thievul",
                 Type.DARK,
                 new Stats(70,
                         58,

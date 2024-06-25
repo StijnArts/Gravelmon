@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaGirafarig extends Pokemon {
-    public DeltaGirafarig(int dexNo) {
-        super(dexNo,"DeltaGirafarig",
+    public DeltaGirafarig(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaGirafarig",
                 Type.STEEL, Type.POISON,
                 new Stats(70, 80, 65, 90, 65, 85),
                 List.of(Ability.INTIMIDATE), Ability.INTIMIDATE,

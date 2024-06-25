@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranMagcargo extends Pokemon {
-    public CefiranMagcargo(int dexNo) {
-        super(dexNo,"CefiranMagcargo",
+    public CefiranMagcargo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"CefiranMagcargo",
                 Type.POISON, Type.STEEL,
                 new Stats(70,50,140,30,100,80),
                 List.of(Ability.INFLAMABLE), Ability.WEAK_ARMOR,

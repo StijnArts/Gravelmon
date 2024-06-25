@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class LostIslandsPartae extends drai.dev.gravelmon.pokemon.Pokemon {
-    public LostIslandsPartae(int dex) {
-        super(dex, "Partae",
+    public LostIslandsPartae(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Partae",
                 Type.FIRE, Type.FAIRY,
                 new Stats(0,
                         0,

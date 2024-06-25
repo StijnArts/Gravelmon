@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Dragapult extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dragapult(int dex) {
-        super(dex, "Dragapult",
+    public Dragapult(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Dragapult",
                 Type.DRAGON, Type.GHOST,
                 new Stats(88,
                         120,

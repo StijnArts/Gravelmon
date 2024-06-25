@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AlteranNidoranWinterCoat extends Pokemon {
-    public AlteranNidoranWinterCoat(int dexNo) {
-        super(dexNo,"AlteranNidoranWinterCoat",
+    public AlteranNidoranWinterCoat(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AlteranNidoranWinterCoat",
                 Type.ICE,
                 new Stats(55, 47, 52, 45, 40, 36),
                 List.of(Ability.SNOW_CLOAK, Ability.SLUSH_RUSH), Ability.ADAPTABILITY,

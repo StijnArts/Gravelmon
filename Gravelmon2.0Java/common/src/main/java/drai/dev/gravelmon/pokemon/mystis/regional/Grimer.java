@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Grimer extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Grimer(int dex) {
-        super(dex, "Grimer",
+    public Grimer(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Grimer",
                 Type.POISON, Type.DARK,
                 new Stats(80,
                         80,

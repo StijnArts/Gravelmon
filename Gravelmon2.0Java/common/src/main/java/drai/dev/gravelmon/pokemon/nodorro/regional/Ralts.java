@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ralts extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ralts(int dex) {
-        super(dex, "Ralts",
+    public Ralts(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ralts",
                 Type.PSYCHIC, Type.FAIRY,
                 new Stats(50,
                         40,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianFletchling extends Pokemon {
-    public AyreianFletchling(int dexNo) {
-        super(dexNo,"AyreianFletchling",
+    public AyreianFletchling(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianFletchling",
                 Type.WATER, Type.FLYING,
                 new Stats(45,50,43,62,45,38),
                 List.of(Ability.SWIFT_SWIM), Ability.GALE_WINGS,

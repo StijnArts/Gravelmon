@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianBidoof extends Pokemon {
-    public KaskadianBidoof(int dexNo) {
-        super(dexNo,"KaskadianBidoof",
+    public KaskadianBidoof(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"KaskadianBidoof",
                 Type.NORMAL, Type.STEEL,
                 new Stats(59, 40,40,35,45,31),
                 List.of(Ability.SIMPLE, Ability.TRACE   ), Ability.GRAVITY_SLING,

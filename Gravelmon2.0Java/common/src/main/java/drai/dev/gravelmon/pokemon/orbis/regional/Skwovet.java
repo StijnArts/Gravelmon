@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Skwovet extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Skwovet(int dex) {
-        super(dex, "Skwovet",
+    public Skwovet(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Skwovet",
                 Type.NORMAL,
                 new Stats(70,
                         55,

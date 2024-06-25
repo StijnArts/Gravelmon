@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AlteranBreloom extends Pokemon {
-    public AlteranBreloom(int dexNo) {
-        super(dexNo,"AlteranBreloom",
+    public AlteranBreloom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AlteranBreloom",
                 Type.GRASS, Type.POISON,
                 new Stats(60, 100, 80, 75, 75, 70),
                 List.of(Ability.EFFECT_SPORE, Ability.POISON_TOUCH), Ability.MOLD_BREAKER,

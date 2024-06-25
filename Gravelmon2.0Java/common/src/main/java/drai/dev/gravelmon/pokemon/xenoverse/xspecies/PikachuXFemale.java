@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class PikachuXFemale extends Pokemon {
-    public PikachuXFemale(int dexNo) {
-        super(dexNo,"PikachuXFemale",
+    public PikachuXFemale(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"PikachuXFemale",
                 Type.FAIRY,
                 new Stats(85, 40, 65, 85, 40, 90),
                 List.of(Ability.KEEN_EYE), Ability.FRIEND_GUARD,

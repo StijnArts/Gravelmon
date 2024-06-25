@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Luvdisc extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Luvdisc(int dex) {
-        super(dex, "Luvdisc",
+    public Luvdisc(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Luvdisc",
                 Type.WATER,
                 new Stats(0,
                         0,

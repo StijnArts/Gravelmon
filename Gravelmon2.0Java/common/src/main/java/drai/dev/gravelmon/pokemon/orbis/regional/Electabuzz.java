@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Electabuzz extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Electabuzz(int dex) {
-        super(dex, "Electabuzz",
+    public Electabuzz(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Electabuzz",
                 Type.ELECTRIC,
                 new Stats(65,
                         83,

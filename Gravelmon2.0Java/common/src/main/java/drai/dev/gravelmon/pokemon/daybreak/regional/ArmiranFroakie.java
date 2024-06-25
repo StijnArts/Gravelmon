@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ArmiranFroakie extends Pokemon {
-    public ArmiranFroakie(int dexNo) {
-        super(dexNo,"ArmiranFroakie",
+    public ArmiranFroakie(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"ArmiranFroakie",
                 Type.DARK,
                 new Stats(41, 62, 40, 56, 44, 71),
                 List.of(Ability.BLAZE, Ability.SKILL_LINK), Ability.PROTEAN,

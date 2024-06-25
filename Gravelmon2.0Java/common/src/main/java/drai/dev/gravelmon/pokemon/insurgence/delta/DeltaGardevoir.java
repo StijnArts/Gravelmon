@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaGardevoir extends Pokemon {
-    public DeltaGardevoir(int dexNo) {
-        super(dexNo,"DeltaGardevoir",
+    public DeltaGardevoir(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaGardevoir",
                 Type.ELECTRIC, Type.ICE,
                 new Stats(68, 65, 65, 125, 115, 80),
                 List.of(Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,

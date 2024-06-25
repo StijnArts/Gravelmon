@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianWishiwashi extends Pokemon {
-    public SeviianWishiwashi(int dexNo) {
-        super(dexNo, "SeviianWishiwashi",
+    public SeviianWishiwashi(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "SeviianWishiwashi",
                 Type.GHOST,
                 new Stats(60, 20, 20, 25, 15, 35),
                 List.of(Ability.SCHOOLING), Ability.SCHOOLING,

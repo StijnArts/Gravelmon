@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Chimchar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Chimchar(int dex) {
-        super(dex, "Chimchar",
+    public Chimchar(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Chimchar",
                 Type.FIRE,
                 new Stats(44,
                         58,

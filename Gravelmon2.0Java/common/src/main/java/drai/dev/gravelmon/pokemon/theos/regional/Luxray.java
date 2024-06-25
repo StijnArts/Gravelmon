@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Luxray extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Luxray(int dex) {
-        super(dex, "Luxray",
+    public Luxray(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Luxray",
                 Type.PSYCHIC,
                 new Stats(80,
                         95,

@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Inkay extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Inkay(int dex) {
-        super(dex, "Inkay",
+    public Inkay(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Inkay",
                 Type.DARK,
                 new Stats(0,
                         0,

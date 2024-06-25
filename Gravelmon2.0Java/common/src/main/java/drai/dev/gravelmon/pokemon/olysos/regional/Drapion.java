@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Drapion extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Drapion(int dex) {
-        super(dex, "Drapion",
+    public Drapion(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Drapion",
                 Type.DRAGON, Type.BUG,
                 new Stats(0,
                         0,

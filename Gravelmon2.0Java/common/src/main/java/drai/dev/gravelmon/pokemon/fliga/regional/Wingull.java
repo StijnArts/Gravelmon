@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Wingull extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Wingull(int dex) {
-        super(dex, "Wingull",
+    public Wingull(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Wingull",
                 Type.WATER, Type.FLYING,
                 new Stats(40,
                         30,

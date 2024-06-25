@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NostanShellder extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NostanShellder(int dex) {
-        super(dex, "Shellder",
+    public NostanShellder(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Shellder",
                 Type.STEEL,
                 new Stats(30,
                         60,

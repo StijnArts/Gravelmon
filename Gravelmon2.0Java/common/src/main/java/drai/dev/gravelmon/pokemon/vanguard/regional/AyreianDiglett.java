@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class AyreianDiglett extends Pokemon {
-    public AyreianDiglett(int dexNo) {
-        super(dexNo,"AyreianDiglett",
+    public AyreianDiglett(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianDiglett",
                 Type.ICE,
                 new Stats(95,55,35,60,10,45),
                 List.of(Ability.SNOW_CLOAK, Ability.ARENA_TRAP), Ability.TECHNICIAN,

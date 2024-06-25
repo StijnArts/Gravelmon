@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Carnivine extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Carnivine(int dex) {
-        super(dex, "Carnivine",
+    public Carnivine(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Carnivine",
                 Type.GRASS,
                 new Stats(74,
                         100,

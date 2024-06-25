@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Chandelure extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Chandelure(int dex) {
-        super(dex, "Chandelure",
+    public Chandelure(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Chandelure",
                 Type.FIRE, Type.GHOST,
                 new Stats(80,
                         55,

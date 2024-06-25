@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaLombre extends Pokemon {
-    public DeltaLombre(int dexNo) {
-        super(dexNo,"DeltaLombre",
+    public DeltaLombre(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaLombre",
                 Type.PSYCHIC, Type.WATER,
                 new Stats(60, 50, 50, 60, 70, 50),
                 List.of(Ability.MAGIC_BOUNCE, Ability.SYNCHRONIZE), Ability.UNAWARE,

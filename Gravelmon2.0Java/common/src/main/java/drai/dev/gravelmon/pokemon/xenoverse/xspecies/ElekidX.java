@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ElekidX extends Pokemon {
-    public ElekidX(int dexNo) {
-        super(dexNo,"ElekidX",
+    public ElekidX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"ElekidX",
                 Type.FIRE,
                 new Stats(45, 63, 37, 65, 55, 95),
                 List.of(Ability.AFTERMATH), Ability.VITAL_SPIRIT,

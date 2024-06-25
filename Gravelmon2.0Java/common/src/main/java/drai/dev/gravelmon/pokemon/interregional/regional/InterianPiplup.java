@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class InterianPiplup extends drai.dev.gravelmon.pokemon.Pokemon {
-    public InterianPiplup(int dex) {
-        super(dex ,"Piplup",
+    public InterianPiplup(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"Piplup",
                 Type.BUG,
                 new Stats(0,
                         0,

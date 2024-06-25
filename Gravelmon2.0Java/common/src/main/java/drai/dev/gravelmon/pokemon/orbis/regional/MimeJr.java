@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class MimeJr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public MimeJr(int dex) {
-        super(dex, "MimeJr",
+    public MimeJr(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "MimeJr",
                 Type.PSYCHIC, Type.FAIRY,
                 new Stats(20,
                         25,

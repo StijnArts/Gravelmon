@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Helioptile extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Helioptile(int dex) {
-        super(dex, "Helioptile",
+    public Helioptile(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Helioptile",
                 Type.ELECTRIC, Type.NORMAL,
                 new Stats(44,
                         38,

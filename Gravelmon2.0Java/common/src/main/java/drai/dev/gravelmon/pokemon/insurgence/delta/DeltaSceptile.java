@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaSceptile extends Pokemon {
-    public DeltaSceptile(int dexNo) {
-        super(dexNo,"DeltaSceptile",
+    public DeltaSceptile(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaSceptile",
                 Type.DRAGON, Type.FIGHTING,
                 new Stats(70, 85, 65, 105, 85, 120),
                 List.of(Ability.INNER_FOCUS), Ability.GUTS,

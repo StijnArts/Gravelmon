@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ArmiranBoldore extends Pokemon {
-    public ArmiranBoldore(int dexNo) {
-        super(dexNo,"ArmiranBoldore",
+    public ArmiranBoldore(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"ArmiranBoldore",
                 Type.GROUND, Type.GHOST,
                 new Stats(70, 40, 105, 50, 105, 20),
                 List.of(Ability.LEVITATE), Ability.SAND_STREAM,

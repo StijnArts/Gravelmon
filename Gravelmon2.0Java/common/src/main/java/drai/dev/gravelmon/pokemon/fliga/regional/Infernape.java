@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Infernape extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Infernape(int dex) {
-        super(dex, "Infernape",
+    public Infernape(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Infernape",
                 Type.FIRE, Type.FIGHTING,
                 new Stats(76,
                         104,

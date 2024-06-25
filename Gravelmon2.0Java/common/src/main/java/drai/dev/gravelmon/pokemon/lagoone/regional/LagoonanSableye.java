@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class LagoonanSableye extends drai.dev.gravelmon.pokemon.Pokemon {
-    public LagoonanSableye(int dex) {
-        super(dex, "Sableye",
+    public LagoonanSableye(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sableye",
                 Type.DARK, Type.STEEL,
                 new Stats(50,
                         75,

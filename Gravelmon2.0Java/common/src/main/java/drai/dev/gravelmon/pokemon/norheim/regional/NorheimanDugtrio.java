@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanDugtrio extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanDugtrio(int dex, Stats stats) {
-        super(dex, "Dugtrio",
+    public NorheimanDugtrio(String originalMon, Aspect aspect, Stats stats) {
+        super(originalMon, aspect, "Dugtrio",
                 Type.GHOST, Type.GROUND,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

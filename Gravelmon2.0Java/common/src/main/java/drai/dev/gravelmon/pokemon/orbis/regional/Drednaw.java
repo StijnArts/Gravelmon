@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Drednaw extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Drednaw(int dex) {
-        super(dex, "Drednaw",
+    public Drednaw(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Drednaw",
                 Type.WATER, Type.ROCK,
                 new Stats(90,
                         115,

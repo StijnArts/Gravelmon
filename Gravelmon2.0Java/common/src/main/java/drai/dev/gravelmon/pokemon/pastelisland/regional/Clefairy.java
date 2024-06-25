@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Clefairy extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Clefairy(int dex) {
-        super(dex, "Clefairy",
+    public Clefairy(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Clefairy",
                 Type.FAIRY,
                 new Stats(70,
                         45,

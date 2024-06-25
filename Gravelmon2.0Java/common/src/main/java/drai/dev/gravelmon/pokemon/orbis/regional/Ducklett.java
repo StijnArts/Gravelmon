@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ducklett extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ducklett(int dex) {
-        super(dex, "Ducklett",
+    public Ducklett(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ducklett",
                 Type.WATER, Type.FLYING,
                 new Stats(62,
                         44,

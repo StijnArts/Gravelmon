@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Clefable extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Clefable(int dex) {
-        super(dex, "Clefable",
+    public Clefable(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Clefable",
                 Type.FAIRY,
                 new Stats(95,
                         70,

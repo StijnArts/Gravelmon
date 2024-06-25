@@ -7,8 +7,8 @@ import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 public class HoennianRegigigas extends Pokemon {
-    public HoennianRegigigas(int dexNo) {
-        super(dexNo,"HoennianRegigigas",
+    public HoennianRegigigas(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianRegigigas",
                 Type.GHOST,
                 new Stats(55, 195, 95, 90, 180, 85),
                 List.of(Ability.CLEAR_BODY), Ability.SHADOW_TAG,

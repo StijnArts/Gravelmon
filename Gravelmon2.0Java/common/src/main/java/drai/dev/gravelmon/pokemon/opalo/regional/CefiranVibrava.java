@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranVibrava extends Pokemon {
-    public CefiranVibrava(int dexNo) {
-        super(dexNo,"CefiranVibrava",
+    public CefiranVibrava(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"CefiranVibrava",
                 Type.BUG, Type.DRAGON,
                 new Stats(50,70,50,70,50,50),
                 List.of(Ability.STEALTH_WINGED), Ability.STEALTH_WINGED,

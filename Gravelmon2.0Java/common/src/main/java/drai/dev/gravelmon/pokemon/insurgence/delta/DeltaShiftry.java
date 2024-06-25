@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaShiftry extends Pokemon {
-    public DeltaShiftry(int dexNo) {
-        super(dexNo,"DeltaShiftry",
+    public DeltaShiftry(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaShiftry",
                 Type.ELECTRIC,
                 new Stats(90, 100, 60, 90, 60, 80),
                 List.of(Ability.VOLT_ABSORB, Ability.MINUS), Ability.HUBRIS,

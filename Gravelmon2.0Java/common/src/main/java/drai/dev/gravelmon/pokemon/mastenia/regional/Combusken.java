@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Combusken extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Combusken(int dex) {
-        super(dex, "Combusken",
+    public Combusken(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Combusken",
                 Type.FAIRY, Type.PSYCHIC,
                 new Stats(0,
                         0,

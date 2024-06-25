@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Yanmega extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Yanmega(int dex) {
-        super(dex, "Yanmega",
+    public Yanmega(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Yanmega",
                 Type.BUG, Type.FLYING,
                 new Stats(86,
                         76,

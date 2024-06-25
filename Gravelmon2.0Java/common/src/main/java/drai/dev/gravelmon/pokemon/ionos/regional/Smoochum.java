@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Smoochum extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Smoochum(int dex) {
-        super(dex, "Smoochum",
+    public Smoochum(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Smoochum",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,

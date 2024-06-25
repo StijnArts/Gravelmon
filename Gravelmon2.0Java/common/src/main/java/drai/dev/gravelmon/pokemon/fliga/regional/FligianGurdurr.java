@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianGurdurr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianGurdurr(int dex) {
-        super(dex, "Gurdurr",
+    public FligianGurdurr(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gurdurr",
                 Type.FIGHTING,
                 new Stats(85,
                         105,

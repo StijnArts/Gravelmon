@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Reuniclus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Reuniclus(int dex) {
-        super(dex, "Reuniclus",
+    public Reuniclus(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Reuniclus",
                 Type.PSYCHIC,
                 new Stats(110,
                         65,

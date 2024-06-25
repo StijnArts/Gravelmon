@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoBulbasaur extends Pokemon {
-    public EghoBulbasaur(int dexNo) {
-        super(dexNo,"EghoBulbasaur",
+    public EghoBulbasaur(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EghoBulbasaur",
                 Type.GRASS, Type.ROCK,
                 new Stats(44, 60, 54, 50, 64, 37),
                 List.of(Ability.ROUGH_SKIN, Ability.POISON_POINT), Ability.POISON_POINT,

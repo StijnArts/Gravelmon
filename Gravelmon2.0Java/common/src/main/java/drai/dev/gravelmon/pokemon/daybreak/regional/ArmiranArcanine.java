@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ArmiranArcanine extends Pokemon {
-    public ArmiranArcanine(int dexNo) {
-        super(dexNo,"ArmiranArcanine",
+    public ArmiranArcanine(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"ArmiranArcanine",
                 Type.WATER,
                 new Stats(90, 110, 90, 100, 90, 95),
                 List.of(Ability.INTIMIDATE,Ability.WATER_ABSORB), Ability.JUSTIFIED,

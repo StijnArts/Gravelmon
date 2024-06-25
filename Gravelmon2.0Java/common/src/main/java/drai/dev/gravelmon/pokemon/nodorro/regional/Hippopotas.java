@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hippopotas extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hippopotas(int dex) {
-        super(dex, "Hippopotas",
+    public Hippopotas(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hippopotas",
                 Type.WATER,
                 new Stats(68,
                         60,

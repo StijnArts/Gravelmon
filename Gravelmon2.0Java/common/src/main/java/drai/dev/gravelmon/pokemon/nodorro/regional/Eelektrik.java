@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Eelektrik extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Eelektrik(int dex) {
-        super(dex, "Eelektrik",
+    public Eelektrik(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Eelektrik",
                 Type.FIRE,
                 new Stats(60,
                         65,

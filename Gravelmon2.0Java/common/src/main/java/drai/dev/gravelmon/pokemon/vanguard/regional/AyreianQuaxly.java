@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianQuaxly extends Pokemon {
-    public AyreianQuaxly(int dexNo) {
-        super(dexNo,"AyreianQuaxly",
+    public AyreianQuaxly(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianQuaxly",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(30,40,54,60,71,55),
                 List.of(Ability.TORRENT, Ability.MINDTUNING ), Ability.TECHNICIAN,

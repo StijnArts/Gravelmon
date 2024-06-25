@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Teddiursa extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Teddiursa(int dex) {
-        super(dex, "Teddiursa",
+    public Teddiursa(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Teddiursa",
                 Type.NORMAL, Type.FIGHTING,
                 new Stats(65,
                         85,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Aromatisse extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Aromatisse(int dex) {
-        super(dex, "Aromatisse",
+    public Aromatisse(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Aromatisse",
                 Type.FAIRY,
                 new Stats(101,
                         72,

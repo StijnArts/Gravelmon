@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaNoctowl extends Pokemon {
-    public DeltaNoctowl(int dexNo) {
-        super(dexNo,"DeltaNoctowl",
+    public DeltaNoctowl(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaNoctowl",
                 Type.ICE, Type.FLYING,
                 new Stats(100, 50,50,76,96,70),
                 List.of(Ability.NO_GUARD, Ability.KEEN_EYE), Ability.SNOW_CLOAK,

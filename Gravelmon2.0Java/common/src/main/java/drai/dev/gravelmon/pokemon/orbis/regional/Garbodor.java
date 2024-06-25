@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Garbodor extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Garbodor(int dex) {
-        super(dex, "Garbodor",
+    public Garbodor(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Garbodor",
                 Type.POISON,
                 new Stats(80,
                         95,

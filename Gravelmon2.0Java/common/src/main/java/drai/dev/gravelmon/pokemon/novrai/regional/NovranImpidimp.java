@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranImpidimp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranImpidimp(int dex) {
-        super(dex, "Impidimp",
+    public NovranImpidimp(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Impidimp",
                 Type.DARK, Type.STEEL,
                 new Stats(45,
                         55,

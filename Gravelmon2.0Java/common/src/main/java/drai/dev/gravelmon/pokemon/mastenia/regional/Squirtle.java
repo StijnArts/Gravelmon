@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Squirtle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Squirtle(int dex) {
-        super(dex, "Squirtle",
+    public Squirtle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Squirtle",
                 Type.WATER,
                 new Stats(0,
                         0,

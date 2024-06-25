@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class WebRotom extends Pokemon {
-    public WebRotom(int dexNo) {
-        super(dexNo,"WebRotom",
+    public WebRotom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"WebRotom",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.INFILTRATOR,

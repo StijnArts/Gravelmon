@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Croconaw extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Croconaw(int dex) {
-        super(dex, "Croconaw",
+    public Croconaw(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Croconaw",
                 Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,

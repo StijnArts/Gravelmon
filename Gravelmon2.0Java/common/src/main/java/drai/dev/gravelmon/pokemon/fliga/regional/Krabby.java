@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Krabby extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Krabby(int dex) {
-        super(dex, "Krabby",
+    public Krabby(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Krabby",
                 Type.WATER,
                 new Stats(30,
                         105,

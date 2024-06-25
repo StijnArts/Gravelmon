@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaRaichu extends Pokemon {
-    public DeltaRaichu(int dexNo) {
-        super(dexNo,"DeltaRaichu",
+    public DeltaRaichu(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaRaichu",
                 Type.FLYING, Type.FAIRY,
                 new Stats(60, 90, 55, 90, 80, 110),
                 List.of(Ability.CUTE_CHARM, Ability.CLOUD_NINE), Ability.GALE_WINGS,

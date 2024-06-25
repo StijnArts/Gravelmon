@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class BisharpX extends Pokemon {
-    public BisharpX(int dexNo) {
-        super(dexNo,"BisharpX",
+    public BisharpX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"BisharpX",
                 Type.FIRE, Type.STEEL,
                 new Stats(130, 125, 100, 60, 70, 70),
                 List.of(Ability.STURDY), Ability.UNBURDEN,

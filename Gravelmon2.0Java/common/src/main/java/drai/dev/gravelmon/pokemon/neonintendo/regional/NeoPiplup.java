@@ -16,8 +16,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class NeoPiplup extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NeoPiplup(int dex) {
-        super(dex, "Piplup",
+    public NeoPiplup(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Piplup",
                 Type.FIGHTING,
                 new Stats(53,
                         56,

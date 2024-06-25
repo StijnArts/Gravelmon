@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Magby extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Magby(int dex) {
-        super(dex, "Magby",
+    public Magby(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Magby",
                 Type.FIRE, Type.STEEL,
                 new Stats(0,
                         0,

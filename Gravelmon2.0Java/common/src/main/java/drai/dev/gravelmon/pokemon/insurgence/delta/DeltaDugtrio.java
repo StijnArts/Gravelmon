@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaDugtrio extends Pokemon {
-    public DeltaDugtrio(int dexNo) {
-        super(dexNo,"DeltaDugtrio",
+    public DeltaDugtrio(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaDugtrio",
                 Type.ICE, Type.NORMAL,
                 new Stats(35, 80, 50, 50, 70, 120),
                 List.of(Ability.SNOW_CLOAK,Ability.FUR_COAT), Ability.OBLIVIOUS,

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class CefiranDelibird extends Pokemon {
-    public CefiranDelibird(int dexNo) {
-        super(dexNo,"CefiranDelibird",
+    public CefiranDelibird(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"CefiranDelibird",
                 Type.DARK, Type.FLYING,
                 new Stats(70,85,70,90,75,65),
                 List.of(Ability.SKILL_LINK), Ability.PICKPOCKET,

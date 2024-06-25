@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianLuxray extends Pokemon {
-    public KaskadianLuxray(int dexNo) {
-        super(dexNo,"KaskadianLuxray",
+    public KaskadianLuxray(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"KaskadianLuxray",
                 Type.ICE, Type.ELECTRIC,
                 new Stats(80, 117,80,65,80,101),
                 List.of(Ability.FUR_COAT, Ability.MOXIE), Ability.SLUSH_RUSH,

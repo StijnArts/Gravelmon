@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Morgrem extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Morgrem(int dex) {
-        super(dex, "Morgrem",
+    public Morgrem(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Morgrem",
                 Type.FIRE, Type.STEEL,
                 new Stats(65,
                         60,

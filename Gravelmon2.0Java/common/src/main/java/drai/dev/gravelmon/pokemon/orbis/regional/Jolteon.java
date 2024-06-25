@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Jolteon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Jolteon(int dex) {
-        super(dex, "Jolteon",
+    public Jolteon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Jolteon",
                 Type.ELECTRIC,
                 new Stats(65,
                         65,

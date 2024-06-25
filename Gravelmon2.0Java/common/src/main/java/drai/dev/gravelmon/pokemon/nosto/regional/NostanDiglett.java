@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NostanDiglett extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NostanDiglett(int dex) {
-        super(dex, "Diglett",
+    public NostanDiglett(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Diglett",
                 Type.GROUND, Type.GRASS,
                 new Stats(35,
                         45,

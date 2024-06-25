@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianSnorlax extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianSnorlax(int dex) {
-        super(dex, "Snorlax",
+    public IonosianSnorlax(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Snorlax",
                 Type.GRASS, Type.NORMAL,
                 new Stats(0,
                         0,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Machamp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Machamp(int dex) {
-        super(dex, "Machamp",
+    public Machamp(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Machamp",
                 Type.FIGHTING,
                 new Stats(90,
                         130,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Whismur extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Whismur(int dex) {
-        super(dex, "Whismur",
+    public Whismur(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Whismur",
                 Type.NORMAL,
                 new Stats(64,
                         51,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ambipom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ambipom(int dex) {
-        super(dex, "Ambipom",
+    public Ambipom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ambipom",
                 Type.NORMAL,
                 new Stats(75,
                         100,

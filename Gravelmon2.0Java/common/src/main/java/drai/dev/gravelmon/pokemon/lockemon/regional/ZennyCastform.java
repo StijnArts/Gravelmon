@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ZennyCastform extends Pokemon {
-    public ZennyCastform(int dexNo) {
-        super(dexNo,"ZennyCastform",
+    public ZennyCastform(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"ZennyCastform",
                 Type.PSYCHIC,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Yanma extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Yanma(int dex) {
-        super(dex, "Yanma",
+    public Yanma(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Yanma",
                 Type.BUG, Type.FLYING,
                 new Stats(65,
                         65,

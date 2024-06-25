@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Mudkip extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Mudkip(int dex) {
-        super(dex, "Mudkip",
+    public Mudkip(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Mudkip",
                 Type.STEEL,
                 new Stats(0,
                         0,

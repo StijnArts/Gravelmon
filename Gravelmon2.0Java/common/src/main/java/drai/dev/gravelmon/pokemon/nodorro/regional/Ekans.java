@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ekans extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ekans(int dex) {
-        super(dex, "Ekans",
+    public Ekans(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ekans",
                 Type.FIRE, Type.POISON,
                 new Stats(35,
                         45,

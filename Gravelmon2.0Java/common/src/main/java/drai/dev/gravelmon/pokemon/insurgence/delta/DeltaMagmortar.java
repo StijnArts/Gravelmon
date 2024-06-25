@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaMagmortar extends Pokemon {
-    public DeltaMagmortar(int dexNo) {
-        super(dexNo,"DeltaMagmortar",
+    public DeltaMagmortar(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaMagmortar",
                 Type.WATER, Type.STEEL,
                 new Stats(75, 95,67,125,95,83),
                 List.of(Ability.MEGA_LAUNCHER), Ability.FILTER,

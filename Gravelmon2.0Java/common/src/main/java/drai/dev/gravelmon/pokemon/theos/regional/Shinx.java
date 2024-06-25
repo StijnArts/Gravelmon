@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Shinx extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Shinx(int dex) {
-        super(dex, "Shinx",
+    public Shinx(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Shinx",
                 Type.PSYCHIC,
                 new Stats(45,
                         40,

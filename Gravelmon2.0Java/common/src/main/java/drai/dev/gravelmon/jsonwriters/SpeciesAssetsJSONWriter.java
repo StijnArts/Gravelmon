@@ -11,16 +11,17 @@ import java.nio.file.*;
 
 public class SpeciesAssetsJSONWriter {
 
-
     public static void writeSpecies(Game game, String resourcesDir){
         String dir = resourcesDir+"\\assets\\cobblemon\\bedrock\\species\\"+game.getName().toLowerCase()+"\\";
 
         game.getPokemon().forEach(pokemon -> {
-            try {
-                Files.createDirectories(new File(dir).toPath());
-                writePokemon(pokemon, game,dir,resourcesDir);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+            if(!Pokemon.isAnAdditionalForm(pokemon)){
+                try {
+                    Files.createDirectories(new File(dir).toPath());
+                    writePokemon(pokemon, game,dir,resourcesDir);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
             }
         });
     }
@@ -117,7 +118,7 @@ public class SpeciesAssetsJSONWriter {
                         }
                         fileContents += "        \"female\"" +
                                 "\n      ],\n" +
-                                "      \"texture\": \"cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + pokemon.getCleanName() + "_female.png\"\n" +
+                                "      \"texture\": \"cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/"+ form.getCleanName() + "_" + pokemon.getCleanName() + "_female.png\"\n" +
                                 "    },\n" +
                                 "    {\n" +
                                 "      \"aspects\": [\n";
@@ -127,7 +128,7 @@ public class SpeciesAssetsJSONWriter {
                         fileContents += "        \"female\",\n" +
                                 "        \"shiny\"\n" +
                                 "      ],\n" +
-                                "      \"texture\": \"cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + pokemon.getCleanName() + "_female_shiny.png\"\n" +
+                                "      \"texture\": \"cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/"+ form.getCleanName() + "_" + pokemon.getCleanName() + "_female_shiny.png\"\n" +
                                 "    }\n";
                         createPlaceholderTextureIfNotExists(game.getName().toLowerCase() ,form.getCleanName()+"_"+ pokemon.getCleanName() + "_female.png", resourcesDir);
                         createPlaceholderTextureIfNotExists(game.getName().toLowerCase() ,form.getCleanName()+"_"+ pokemon.getCleanName() + "_female_shiny.png", resourcesDir);
@@ -193,7 +194,7 @@ public class SpeciesAssetsJSONWriter {
         writer.close();
     }
 
-    private static void createPlaceholderTextureIfNotExists(String game, String filename, String resourcesDir) {
+    public static void createPlaceholderTextureIfNotExists(String game, String filename, String resourcesDir) {
         String textureDir = resourcesDir+"\\assets\\cobblemon\\textures\\pokemon\\";
         File textureLocation = new File(textureDir+ game + "\\" +filename);
 

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Skorupi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Skorupi(int dex) {
-        super(dex, "Skorupi",
+    public Skorupi(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Skorupi",
                 Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Piplup extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Piplup(int dex) {
-        super(dex, "Piplup",
+    public Piplup(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Piplup",
                 Type.WATER,
                 new Stats(53,
                         51,

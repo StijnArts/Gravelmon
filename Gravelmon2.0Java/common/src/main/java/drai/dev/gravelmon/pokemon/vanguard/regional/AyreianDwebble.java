@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianDwebble extends Pokemon {
-    public AyreianDwebble(int dexNo) {
-        super(dexNo,"AyreianDwebble",
+    public AyreianDwebble(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianDwebble",
                 Type.WATER, Type.BUG,
                 new Stats(70,45,45,55,25,85),
                 List.of(Ability.RAIN_DISH, Ability.SHELL_ARMOR), Ability.WEAK_ARMOR,

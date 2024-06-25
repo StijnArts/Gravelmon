@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class PyukumukuX extends Pokemon {
-    public PyukumukuX(int dexNo) {
-        super(dexNo,"PyukumukuX",
+    public PyukumukuX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"PyukumukuX",
                 Type.FIGHTING,
                 new Stats(55, 130, 60, 5, 30, 130),
                 List.of(Ability.IRON_FIST), Ability.SHEER_FORCE,

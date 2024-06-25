@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Exploud extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Exploud(int dex) {
-        super(dex, "Exploud",
+    public Exploud(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Exploud",
                 Type.NORMAL,
                 new Stats(104,
                         91,

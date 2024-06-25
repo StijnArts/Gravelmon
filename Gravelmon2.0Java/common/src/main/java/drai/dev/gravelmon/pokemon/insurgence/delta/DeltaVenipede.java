@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaVenipede extends Pokemon {
-    public DeltaVenipede(int dexNo) {
-        super(dexNo,"DeltaVenipede",
+    public DeltaVenipede(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaVenipede",
                 Type.ROCK, Type.FIRE,
                 new Stats(30, 45, 59, 30, 39, 57),
                 List.of(Ability.WEAK_ARMOR, Ability.MAGMA_ARMOR), Ability.MOLD_BREAKER,

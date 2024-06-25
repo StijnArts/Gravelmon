@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Zorua extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Zorua(int dex) {
-        super(dex, "Zorua",
+    public Zorua(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Zorua",
                 Type.DARK,
                 new Stats(40,
                         65,

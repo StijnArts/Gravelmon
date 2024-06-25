@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSlowpoke extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSlowpoke(int id) {
-        super(id, "Slowpoke",
+    public NovranSlowpoke(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"Slowpoke",
                 Type.BUG,
                 new Stats(90,
                         65,

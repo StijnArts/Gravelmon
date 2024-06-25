@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Omastar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Omastar(int dex) {
-        super(dex, "Omastar",
+    public Omastar(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Omastar",
                 Type.ROCK, Type.WATER,
                 new Stats(0,
                         0,

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanCorphish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanCorphish(int dex) {
-        super(dex, "Corphish",
+    public NorheimanCorphish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Corphish",
                 Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,

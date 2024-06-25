@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianTyphlosion extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianTyphlosion(int dex) {
-        super(dex, "Typhlosion",
+    public IonosianTyphlosion(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Typhlosion",
                 Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,

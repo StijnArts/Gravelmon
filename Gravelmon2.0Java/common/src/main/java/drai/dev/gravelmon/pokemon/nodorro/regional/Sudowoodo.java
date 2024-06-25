@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sudowoodo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sudowoodo(int dex) {
-        super(dex, "Sudowoodo",
+    public Sudowoodo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sudowoodo",
                 Type.GROUND,
                 new Stats(60,
                         45,

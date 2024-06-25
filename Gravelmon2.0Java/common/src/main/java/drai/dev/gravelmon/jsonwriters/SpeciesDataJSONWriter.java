@@ -13,14 +13,17 @@ import java.nio.file.*;
 public class SpeciesDataJSONWriter {
     public static void writeSpecies(Game game, String resourcesDir){
         game.getPokemon().forEach(pokemon -> {
-            try {
-                var dir = resourcesDir+"\\data\\cobblemon\\species\\"+game.getName().toLowerCase()+"\\";
-                Files.createDirectories(new File(dir).toPath());
-                writePokemon(pokemon, dir, game, true);
-                //dir = resourcesDir+"\\data\\gravelmon\\species\\"+game.getName().toLowerCase()+"\\";
-                //writePokemon(pokemon, dir, game, false);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+
+            if(!Pokemon.isAnAdditionalForm(pokemon)) {
+                try {
+                    var dir = resourcesDir + "\\data\\cobblemon\\species\\" + game.getName().toLowerCase() + "\\";
+                    Files.createDirectories(new File(dir).toPath());
+                    writePokemon(pokemon, dir, game, true);
+                    //dir = resourcesDir+"\\data\\gravelmon\\species\\"+game.getName().toLowerCase()+"\\";
+                    //writePokemon(pokemon, dir, game, false);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
             }
         });
     }

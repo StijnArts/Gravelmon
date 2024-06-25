@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Girafarig extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Girafarig(int dex) {
-        super(dex, "Girafarig",
+    public Girafarig(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Girafarig",
                 Type.FAIRY, Type.PSYCHIC,
                 new Stats(0,
                         0,

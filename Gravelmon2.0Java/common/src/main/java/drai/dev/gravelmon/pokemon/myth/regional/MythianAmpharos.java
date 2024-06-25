@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianAmpharos extends Pokemon {
-    public MythianAmpharos(int dexNo) {
-        super(dexNo,"MythianAmpharos",
+    public MythianAmpharos(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"MythianAmpharos",
                 Type.FIRE, Type.DARK,
                 new Stats(90,75,85,55,115,90),
                 List.of(Ability.FLAME_BODY), Ability.SPEED_BOOST,

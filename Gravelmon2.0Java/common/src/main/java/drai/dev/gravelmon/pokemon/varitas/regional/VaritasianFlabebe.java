@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianFlabebe extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianFlabebe(int dex) {
-        super(dex, "VaritasianFlabebe",
+    public VaritasianFlabebe(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "VaritasianFlabebe",
                 Type.FAIRY, Type.POISON,
                 new Stats(44,
                         38,

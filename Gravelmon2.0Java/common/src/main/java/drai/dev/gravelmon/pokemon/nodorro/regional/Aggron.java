@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Aggron extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Aggron(int dex) {
-        super(dex, "Aggron",
+    public Aggron(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Aggron",
                 Type.STEEL, Type.ROCK,
                 new Stats(70,
                         115,

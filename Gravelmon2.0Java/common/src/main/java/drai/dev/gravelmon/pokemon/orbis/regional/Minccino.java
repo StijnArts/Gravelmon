@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Minccino extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Minccino(int dex) {
-        super(dex, "Minccino",
+    public Minccino(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Minccino",
                 Type.NORMAL,
                 new Stats(55,
                         50,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Herdier extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Herdier(int dex) {
-        super(dex, "Herdier",
+    public Herdier(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Herdier",
                 Type.NORMAL,
                 new Stats(65,
                         80,

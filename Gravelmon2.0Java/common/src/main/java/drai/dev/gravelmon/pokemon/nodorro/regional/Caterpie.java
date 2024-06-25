@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Caterpie extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Caterpie(int dex) {
-        super(dex, "Caterpie",
+    public Caterpie(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Caterpie",
                 Type.BUG,
                 new Stats(45,
                         35,

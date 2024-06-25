@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Pelipper extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Pelipper(int dex) {
-        super(dex, "Pelipper",
+    public Pelipper(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Pelipper",
                 Type.WATER, Type.FLYING,
                 new Stats(60,
                         50,

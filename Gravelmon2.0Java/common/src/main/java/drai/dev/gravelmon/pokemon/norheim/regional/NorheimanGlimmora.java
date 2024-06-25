@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanGlimmora extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanGlimmora(int i, Stats stats) {
-        super(i, "Glimmora",
+    public NorheimanGlimmora(String originalMon, Aspect aspect, Stats stats) {
+        super(originalMon, aspect,"Glimmora",
                 Type.ICE, Type.POISON,
                 stats,
                 List.of(Ability.TOXIC_DEBRIS), Ability.TOXIC_DEBRIS,

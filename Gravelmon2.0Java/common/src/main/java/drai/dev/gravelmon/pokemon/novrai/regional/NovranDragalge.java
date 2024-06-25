@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranDragalge extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranDragalge(int dex) {
-        super(dex, "Dragalge",
+    public NovranDragalge(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Dragalge",
                 Type.GRASS, Type.DRAGON,
                 new Stats(65,
                         75,

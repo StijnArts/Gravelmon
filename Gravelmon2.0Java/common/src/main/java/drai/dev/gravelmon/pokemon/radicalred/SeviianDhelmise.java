@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianDhelmise extends Pokemon {
-    public SeviianDhelmise(int dexNo) {
-        super(dexNo, "SeviianDhelmise",
+    public SeviianDhelmise(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "SeviianDhelmise",
                 Type.WATER, Type.GRASS,
                 new Stats(90, 81, 105, 106, 95, 40),
                 List.of(Ability.SAP_SIPPER, Ability.GOOEY), Ability.TINTED_LENS,

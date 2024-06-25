@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianSquirtle extends Pokemon {
-    public AyreianSquirtle(int dexNo) {
-        super(dexNo,"AyreianSquirtle",
+    public AyreianSquirtle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianSquirtle",
                 Type.FIGHTING,
                 new Stats(44, 63, 70, 43, 35, 59),
                 List.of(Ability.BULLETPROOF, Ability.SHELL_ARMOR), Ability.GUTS,

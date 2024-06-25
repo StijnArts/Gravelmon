@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Onix extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Onix(int dex) {
-        super(dex, "Onix",
+    public Onix(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Onix",
                 Type.ROCK, Type.ELECTRIC,
                 new Stats(35,
                         30,

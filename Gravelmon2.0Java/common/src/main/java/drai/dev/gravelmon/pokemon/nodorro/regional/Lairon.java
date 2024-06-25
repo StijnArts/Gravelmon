@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Lairon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Lairon(int dex) {
-        super(dex, "Lairon",
+    public Lairon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Lairon",
                 Type.STEEL, Type.ROCK,
                 new Stats(60,
                         90,

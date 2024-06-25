@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianVanniluxe extends Pokemon {
-    public AyreianVanniluxe(int dexNo) {
-        super(dexNo,"AyreianVanniluxe",
+    public AyreianVanniluxe(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianVanniluxe",
                 Type.FIRE, Type.GROUND,
                 new Stats(81,75,95,79,110,95),
                 List.of(Ability.LEVITATE, Ability.FLAME_BODY), Ability.DRY_SKIN,

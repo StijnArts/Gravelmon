@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Marowak extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Marowak(int dex) {
-        super(dex, "Marowak",
+    public Marowak(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Marowak",
                 Type.GROUND,
                 new Stats(60,
                         80,

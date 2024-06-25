@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sunkern extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sunkern(int dex) {
-        super(dex, "Sunkern",
+    public Sunkern(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sunkern",
                 Type.GRASS,
                 new Stats(30,
                         30,

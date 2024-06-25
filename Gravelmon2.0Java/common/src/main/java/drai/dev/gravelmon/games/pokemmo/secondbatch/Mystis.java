@@ -57,21 +57,21 @@ public class Mystis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Contamaggot());
         pokemon.add(new Hazardip());
         pokemon.add(new Apolalgae());
-        pokemon.add(new Impidimp(859));
-        pokemon.add(new Morgrem(860));
-        pokemon.add(new Grimmsnarl(861));
+//        pokemon.add(new Impidimp(859));
+//        pokemon.add(new Morgrem(860));
+//        pokemon.add(new Grimmsnarl(861));
         pokemon.add(new Shroomlet());
         pokemon.add(new Moreaper());
-        pokemon.add(new Grimer(88));
-        pokemon.add(new Muk(89));
+//        pokemon.add(new Grimer(88));
+//        pokemon.add(new Muk(89));
         pokemon.add(new Radarola());
         pokemon.add(new Astore());
         pokemon.add(new Astrolith());
-        pokemon.add(new Absol(359));
-        pokemon.add(new Tyrogue(236));
-        pokemon.add(new Hitmonlee(106));
-        pokemon.add(new Hitmonchan(107));
-        pokemon.add(new Hitmontop(237));
+//        pokemon.add(new Absol(359));
+//        pokemon.add(new Tyrogue(236));
+//        pokemon.add(new Hitmonlee(106));
+//        pokemon.add(new Hitmonchan(107));
+//        pokemon.add(new Hitmontop(237));
         pokemon.add(new Hitmonbash());
         pokemon.add(new Mugpie());
         pokemon.add(new Hederat());
@@ -139,7 +139,7 @@ public class Mystis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Psyclaw());
         pokemon.add(new Mirawing());
         pokemon.add(new Magitate());
-        pokemon.add(new Dunsparce(206));
+//        pokemon.add(new Dunsparce(206));
         pokemon.add(new Dubsparce());
         pokemon.add(new Sparcnidria());
         pokemon.add(new Dimshade()); //Renamed from Dimwraith
@@ -160,8 +160,8 @@ public class Mystis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Charpy());
         pokemon.add(new Casstrike());
         pokemon.add(new Frogoopy());
-        pokemon.add(new Croagunk(453));
-        pokemon.add(new Toxicroak(454));
+//        pokemon.add(new Croagunk(453));
+//        pokemon.add(new Toxicroak(454));
         pokemon.add(new Staticroak());
         pokemon.add(new Astrowatt());
 //        pokemon.add(new Battefry());   Missing Art

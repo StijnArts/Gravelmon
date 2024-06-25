@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaLuxray extends Pokemon {
-    public DeltaLuxray(int dexNo) {
-        super(dexNo,"DeltaLuxray",
+    public DeltaLuxray(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaLuxray",
                 Type.STEEL, Type.POISON,
                 new Stats(80, 120,79,95,79,70),
                 List.of(Ability.POISON_TOUCH, Ability.VAMPIRIC), Ability.VENOMOUS,

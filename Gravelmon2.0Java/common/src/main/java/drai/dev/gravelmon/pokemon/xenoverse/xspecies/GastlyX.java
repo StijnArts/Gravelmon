@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class GastlyX extends Pokemon {
-    public GastlyX(int dexNo) {
-        super(dexNo,"GastlyX",
+    public GastlyX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"GastlyX",
                 Type.DRAGON,
                 new Stats(30, 35, 30, 100, 65, 35),
                 List.of(Ability.OBLIVIOUS, Ability.MOLD_BREAKER), Ability.STURDY,

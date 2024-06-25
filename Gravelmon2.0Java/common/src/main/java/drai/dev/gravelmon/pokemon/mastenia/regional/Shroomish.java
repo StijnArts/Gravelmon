@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Shroomish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Shroomish(int dex) {
-        super(dex, "Shroomish",
+    public Shroomish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Shroomish",
                 Type.DRAGON, Type.GRASS,
                 new Stats(0,
                         0,

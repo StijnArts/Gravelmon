@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Polteageist extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Polteageist(int dex) {
-        super(dex, "Polteageist",
+    public Polteageist(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Polteageist",
                 Type.GHOST,
                 new Stats(60,
                         65,

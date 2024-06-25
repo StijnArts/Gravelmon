@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class BassRotom extends Pokemon {
-    public BassRotom(int dexNo) {
-        super(dexNo,"BassRotom",
+    public BassRotom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"BassRotom",
                 Type.ELECTRIC, Type.STEEL,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.PUNK_ROCK,

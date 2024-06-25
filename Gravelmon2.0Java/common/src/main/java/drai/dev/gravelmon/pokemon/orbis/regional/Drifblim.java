@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Drifblim extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Drifblim(int dex) {
-        super(dex, "Drifblim",
+    public Drifblim(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Drifblim",
                 Type.GHOST, Type.FLYING,
                 new Stats(150,
                         80,

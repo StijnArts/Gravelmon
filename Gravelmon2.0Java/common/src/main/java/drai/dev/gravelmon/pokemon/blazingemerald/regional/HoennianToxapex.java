@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianToxapex extends Pokemon {
-    public HoennianToxapex(int dexNo) {
-        super(dexNo,"HoennianToxapex",
+    public HoennianToxapex(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianToxapex",
                 Type.ROCK, Type.POISON,
                 new Stats(60, 63, 182, 43, 122, 25),
                 List.of(Ability.POISON_POINT), Ability.SOLID_ROCK,

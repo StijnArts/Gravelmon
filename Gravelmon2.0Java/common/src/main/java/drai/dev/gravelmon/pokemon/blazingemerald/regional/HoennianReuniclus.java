@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianReuniclus extends Pokemon {
-    public HoennianReuniclus(int dexNo) {
-        super(dexNo,"HoennianReuniclus",
+    public HoennianReuniclus(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianReuniclus",
                 Type.PSYCHIC, Type.GRASS,
                 new Stats(80, 45, 105, 125, 90, 45),
                 List.of(Ability.FRUITRITION), Ability.FRUITRITION,

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranBonsly extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranBonsly(int dex) {
-        super(dex, "Bonsly",
+    public NovranBonsly(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Bonsly",
                 Type.ROCK, Type.ICE,
                 new Stats(50,
                         95,

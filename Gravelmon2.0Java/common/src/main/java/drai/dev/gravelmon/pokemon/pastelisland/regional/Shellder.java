@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Shellder extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Shellder(int dex) {
-        super(dex, "Shellder",
+    public Shellder(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Shellder",
                 Type.STEEL,
                 new Stats(30,
                         60,

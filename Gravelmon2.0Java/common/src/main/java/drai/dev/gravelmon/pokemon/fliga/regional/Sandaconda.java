@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sandaconda extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sandaconda(int dex) {
-        super(dex, "Sandaconda",
+    public Sandaconda(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sandaconda",
                 Type.GROUND,
                 new Stats(72,
                         107,

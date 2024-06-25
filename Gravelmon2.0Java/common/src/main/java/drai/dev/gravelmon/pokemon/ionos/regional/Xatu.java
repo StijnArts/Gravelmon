@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Xatu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Xatu(int dex) {
-        super(dex, "Xatu",
+    public Xatu(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Xatu",
                 Type.FLYING, Type.GHOST,
                 new Stats(0,
                         0,

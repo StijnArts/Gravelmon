@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Aron extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Aron(int dex) {
-        super(dex, "Aron",
+    public Aron(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Aron",
                 Type.STEEL, Type.ROCK,
                 new Stats(50,
                         70,

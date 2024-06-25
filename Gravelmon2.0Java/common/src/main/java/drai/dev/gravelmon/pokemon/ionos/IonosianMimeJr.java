@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianMimeJr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianMimeJr(int dex) {
-        super(dex, "MimeJr",
+    public IonosianMimeJr(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "MimeJr",
                 Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,

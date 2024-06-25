@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Grotle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Grotle(int dex) {
-        super(dex, "Grotle",
+    public Grotle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Grotle",
                 Type.GRASS,
                 new Stats(75,
                         89,

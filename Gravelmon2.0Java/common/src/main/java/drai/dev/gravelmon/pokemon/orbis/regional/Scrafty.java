@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Scrafty extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Scrafty(int dex) {
-        super(dex, "Scrafty",
+    public Scrafty(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Scrafty",
                 Type.DARK, Type.FIGHTING,
                 new Stats(65,
                         90,

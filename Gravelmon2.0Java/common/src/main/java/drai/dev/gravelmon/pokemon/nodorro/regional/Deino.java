@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Deino extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Deino(int dex) {
-        super(dex, "Deino",
+    public Deino(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Deino",
                 Type.DARK, Type.DRAGON,
                 new Stats(52,
                         65,

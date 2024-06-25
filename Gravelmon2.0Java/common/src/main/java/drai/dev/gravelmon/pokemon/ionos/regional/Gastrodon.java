@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gastrodon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gastrodon(int dex) {
-        super(dex, "Gastrodon",
+    public Gastrodon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gastrodon",
                 Type.WATER, Type.POISON,
                 new Stats(0,
                         0,

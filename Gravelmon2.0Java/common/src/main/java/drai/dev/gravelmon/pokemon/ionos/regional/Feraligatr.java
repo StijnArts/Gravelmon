@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Feraligatr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Feraligatr(int dex) {
-        super(dex, "Feraligatr",
+    public Feraligatr(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Feraligatr",
                 Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,

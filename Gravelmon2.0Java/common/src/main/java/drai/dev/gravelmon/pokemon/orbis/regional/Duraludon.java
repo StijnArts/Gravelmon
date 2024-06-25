@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Duraludon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Duraludon(int dex) {
-        super(dex, "Duraludon",
+    public Duraludon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Duraludon",
                 Type.STEEL, Type.DRAGON,
                 new Stats(70,
                         95,

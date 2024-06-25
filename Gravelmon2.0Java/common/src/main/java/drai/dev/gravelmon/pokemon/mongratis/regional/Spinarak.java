@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Spinarak extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Spinarak(int dex) {
-        super(dex, "Spinarak",
+    public Spinarak(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Spinarak",
                 Type.BUG, Type.POISON,
                 new Stats(40,
                         60,

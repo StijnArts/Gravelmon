@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaWartortle extends Pokemon {
-    public DeltaWartortle(int dexNo) {
-        super(dexNo,"DeltaWartortle",
+    public DeltaWartortle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaWartortle",
                 Type.DARK, Type.FIGHTING,
                 new Stats(59, 63, 80, 65, 80, 58),
                 List.of(Ability.SHADOW_CALL), Ability.SHADOW_DANCE,

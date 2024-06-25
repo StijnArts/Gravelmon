@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Pikachu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Pikachu(int dex) {
-        super(dex, "Pikachu",
+    public Pikachu(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Pikachu",
                 Type.ELECTRIC,
                 new Stats(35,
                         55,

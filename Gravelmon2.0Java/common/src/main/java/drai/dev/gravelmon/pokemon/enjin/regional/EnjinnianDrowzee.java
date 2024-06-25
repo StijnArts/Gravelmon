@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianDrowzee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianDrowzee(int dex) {
-        super(dex, "Drowzee",
+    public EnjinnianDrowzee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Drowzee",
                 Type.PSYCHIC,
                 new Stats(60,
                         48,

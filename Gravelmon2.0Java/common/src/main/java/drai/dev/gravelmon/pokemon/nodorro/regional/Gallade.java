@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gallade extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gallade(int dex) {
-        super(dex, "Gallade",
+    public Gallade(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gallade",
                 Type.PSYCHIC, Type.FIGHTING,
                 new Stats(80,
                         125,

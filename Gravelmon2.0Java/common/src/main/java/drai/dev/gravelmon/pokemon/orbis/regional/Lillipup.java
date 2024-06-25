@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Lillipup extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Lillipup(int dex) {
-        super(dex, "Lillipup",
+    public Lillipup(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Lillipup",
                 Type.NORMAL,
                 new Stats(45,
                         60,

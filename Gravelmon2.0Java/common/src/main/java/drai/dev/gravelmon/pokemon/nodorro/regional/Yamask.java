@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Yamask extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Yamask(int dex) {
-        super(dex, "Yamask",
+    public Yamask(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Yamask",
                 Type.GHOST,
                 new Stats(38,
                         30,

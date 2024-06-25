@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class JoltikX extends Pokemon {
-    public JoltikX(int dexNo) {
-        super(dexNo,"JoltikX",
+    public JoltikX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"JoltikX",
                 Type.BUG, Type.ICE,
                 new Stats(50, 47, 40, 57, 40, 85),
                 List.of(Ability.COMPOUND_EYES, Ability.SHIELD_DUST), Ability.REFRIGERATE,

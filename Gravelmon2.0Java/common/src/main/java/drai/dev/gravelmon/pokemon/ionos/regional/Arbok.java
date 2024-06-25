@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Arbok extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Arbok(int dex) {
-        super(dex, "Arbok",
+    public Arbok(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Arbok",
                 Type.POISON, Type.DARK,
                 new Stats(0,
                         0,

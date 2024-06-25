@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianCubone extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianCubone(int dex) {
-        super(dex, "VaritasianCubone",
+    public VaritasianCubone(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "VaritasianCubone",
                 Type.DARK, Type.FLYING,
                 new Stats(50,
                         50,

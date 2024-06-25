@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class GalvantulaX extends Pokemon {
-    public GalvantulaX(int dexNo) {
-        super(dexNo,"GalvantulaX",
+    public GalvantulaX(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"GalvantulaX",
                 Type.BUG, Type.ICE,
                 new Stats(70, 74, 50, 100, 50, 129),
                 List.of(Ability.COMPOUND_EYES, Ability.SHIELD_DUST), Ability.REFRIGERATE,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Dhelmise extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dhelmise(int dex) {
-        super(dex, "Dhelmise",
+    public Dhelmise(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Dhelmise",
                 Type.GHOST, Type.GRASS,
                 new Stats(70,
                         131,

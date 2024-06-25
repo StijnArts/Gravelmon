@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sneasel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sneasel(int dex) {
-        super(dex, "Sneasel",
+    public Sneasel(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sneasel",
                 Type.DARK, Type.FIRE,
                 new Stats(55,
                         95,

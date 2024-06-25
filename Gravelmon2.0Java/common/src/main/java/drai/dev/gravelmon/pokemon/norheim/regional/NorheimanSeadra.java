@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanSeadra extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanSeadra(int dex) {
-        super(dex, "Seadra",
+    public NorheimanSeadra(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Seadra",
                 Type.DRAGON,
                 new Stats(55,
                         60,

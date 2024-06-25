@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianVanillish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianVanillish(int dex) {
-        super(dex, "Vanillish",
+    public FligianVanillish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Vanillish",
                 Type.ICE, Type.PSYCHIC,
                 new Stats(51,
                         45,

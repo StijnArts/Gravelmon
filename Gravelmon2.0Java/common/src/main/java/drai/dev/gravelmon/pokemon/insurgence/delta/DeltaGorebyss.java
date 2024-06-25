@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaGorebyss extends Pokemon {
-    public DeltaGorebyss(int dexNo) {
-        super(dexNo,"DeltaGorebyss",
+    public DeltaGorebyss(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaGorebyss",
                 Type.DRAGON, Type.FAIRY,
                 new Stats(55, 84, 105, 114, 75, 52),
                 List.of(Ability.PRESSURE), Ability.MARVEL_SCALE,

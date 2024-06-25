@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianHappiny extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianHappiny(int dex) {
-        super(dex, "Happiny",
+    public FligianHappiny(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Happiny",
                 Type.FIRE, Type.NORMAL,
                 new Stats(100,
                         5,

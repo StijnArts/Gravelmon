@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianSnover extends Pokemon {
-    public KaskadianSnover(int dexNo) {
-        super(dexNo,"KaskadianSnover",
+    public KaskadianSnover(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"KaskadianSnover",
                 Type.GRASS, Type.GROUND,
                 new Stats(45, 65,34,40,39,45),
                 List.of(Ability.EVERGREEN, Ability.SNOW_WARNING), Ability.SOUNDPROOF,

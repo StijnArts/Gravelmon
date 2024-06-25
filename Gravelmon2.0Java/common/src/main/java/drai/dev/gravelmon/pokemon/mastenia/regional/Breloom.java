@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Breloom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Breloom(int dex) {
-        super(dex, "Breloom",
+    public Breloom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Breloom",
                 Type.DRAGON, Type.GRASS,
                 new Stats(0,
                         0,

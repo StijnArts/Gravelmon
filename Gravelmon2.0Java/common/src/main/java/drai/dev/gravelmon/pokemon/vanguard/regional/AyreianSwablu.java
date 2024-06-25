@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianSwablu extends Pokemon {
-    public AyreianSwablu(int dexNo) {
-        super(dexNo,"AyreianSwablu",
+    public AyreianSwablu(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianSwablu",
                 Type.ELECTRIC, Type.DRAGON,
                 new Stats(55,70,55,55,70,75),
                 List.of(Ability.LEVITATE, Ability.FLUFFY), Ability.GUTS,

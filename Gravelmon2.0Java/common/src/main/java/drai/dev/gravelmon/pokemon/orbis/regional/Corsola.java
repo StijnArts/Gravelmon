@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Corsola extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Corsola(int dex) {
-        super(dex, "Corsola",
+    public Corsola(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Corsola",
                 Type.GHOST,
                 new Stats(60,
                         55,

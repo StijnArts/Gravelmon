@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianElectrode extends Pokemon {
-    public AyreianElectrode(int dexNo) {
-        super(dexNo,"AyreianElectrode",
+    public AyreianElectrode(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianElectrode",
                 Type.FIRE, Type.PSYCHIC,
                 new Stats(60,60,55,110,100,105),
                 List.of(Ability.ROCKY_PAYLOAD), Ability.DROUGHT,

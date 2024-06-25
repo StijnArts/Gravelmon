@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Bellossom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Bellossom(int dex) {
-        super(dex, "Bellossom",
+    public Bellossom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Bellossom",
                 Type.GRASS,
                 new Stats(75,
                         80,

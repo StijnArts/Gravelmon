@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Mamoswine extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Mamoswine(int dex) {
-        super(dex, "Mamoswine",
+    public Mamoswine(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Mamoswine",
                 Type.ICE, Type.GROUND,
                 new Stats(110,
                         130,

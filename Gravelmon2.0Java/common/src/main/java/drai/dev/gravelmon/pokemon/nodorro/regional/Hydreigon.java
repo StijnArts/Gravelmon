@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hydreigon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hydreigon(int dex) {
-        super(dex, "Hydreigon",
+    public Hydreigon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hydreigon",
                 Type.DARK, Type.DRAGON,
                 new Stats(92,
                         105,

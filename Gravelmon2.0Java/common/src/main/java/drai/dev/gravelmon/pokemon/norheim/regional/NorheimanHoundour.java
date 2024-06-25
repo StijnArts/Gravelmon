@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanHoundour extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanHoundour(int tdex) {
-        super(tdex, "NorheimanHoundour",
+    public NorheimanHoundour(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "NorheimanHoundour",
                 Type.DARK, Type.ICE,
                 new Stats(0,
                         0,

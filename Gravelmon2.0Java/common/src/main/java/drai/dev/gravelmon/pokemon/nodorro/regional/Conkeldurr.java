@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Conkeldurr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Conkeldurr(int dex) {
-        super(dex, "Conkeldurr",
+    public Conkeldurr(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Conkeldurr",
                 Type.FIGHTING,
                 new Stats(0,
                         0,

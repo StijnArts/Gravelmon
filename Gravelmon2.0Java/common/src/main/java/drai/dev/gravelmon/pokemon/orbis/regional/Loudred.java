@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Loudred extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Loudred(int dex) {
-        super(dex, "Loudred",
+    public Loudred(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Loudred",
                 Type.NORMAL,
                 new Stats(84,
                         71,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class PorygonZ extends drai.dev.gravelmon.pokemon.Pokemon {
-    public PorygonZ(int dex) {
-        super(dex, "PorygonZ",
+    public PorygonZ(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "PorygonZ",
                 Type.NORMAL,
                 new Stats(85,
                         80,

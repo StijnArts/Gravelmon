@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NostanShiinotic extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NostanShiinotic(int i, Stats stats) {
-        super(i, "Shiinotic",
+    public NostanShiinotic(String originalMon, Aspect aspect, Stats stats) {
+        super(originalMon, aspect,"Shiinotic",
                 Type.GRASS, Type.DARK,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

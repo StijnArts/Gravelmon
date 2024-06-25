@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class CefiranSmeargle extends Pokemon {
-    public CefiranSmeargle(int dexNo) {
-        super(dexNo,"CefiranSmeargle",
+    public CefiranSmeargle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"CefiranSmeargle",
                 Type.NORMAL, Type.FIGHTING,
                 new Stats(55,20,35,75,20,45),
                 List.of(Ability.PRANKSTER), Ability.MOODY,

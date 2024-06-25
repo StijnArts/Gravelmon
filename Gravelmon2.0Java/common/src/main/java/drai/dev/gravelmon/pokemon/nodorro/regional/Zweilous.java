@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Zweilous extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Zweilous(int dex) {
-        super(dex, "Zweilous",
+    public Zweilous(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Zweilous",
                 Type.DARK, Type.DRAGON,
                 new Stats(72,
                         85,

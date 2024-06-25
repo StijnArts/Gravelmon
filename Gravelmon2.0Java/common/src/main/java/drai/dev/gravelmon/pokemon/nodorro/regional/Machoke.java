@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Machoke extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Machoke(int dex) {
-        super(dex, "Machoke",
+    public Machoke(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Machoke",
                 Type.FIGHTING,
                 new Stats(80,
                         100,

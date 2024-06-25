@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Darkrai extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Darkrai(int dex) {
-        super(dex, "Darkrai",
+    public Darkrai(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Darkrai",
                 Type.DARK,
                 new Stats(0,
                         0,

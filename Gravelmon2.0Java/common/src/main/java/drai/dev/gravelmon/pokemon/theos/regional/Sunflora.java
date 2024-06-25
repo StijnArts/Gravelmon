@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sunflora extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sunflora(int dex) {
-        super(dex, "Sunflora",
+    public Sunflora(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sunflora",
                 Type.GRASS, Type.FIRE,
                 new Stats(75,
                         75,

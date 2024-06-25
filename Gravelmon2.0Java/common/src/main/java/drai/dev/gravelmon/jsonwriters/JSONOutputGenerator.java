@@ -9,6 +9,10 @@ public class JSONOutputGenerator {
         }
         //LangJSONWriter.writePlaceholder();
         //SpeciesDataJSONWriter.writePlaceholder(resourcesDir);
+        //Additional Forms
+        SpeciesAdditionsWriter.writeAdditions(resourcesDir);
+        AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
+        AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
         LangJSONWriter.finalizeLang(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
     }

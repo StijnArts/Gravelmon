@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Petilil extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Petilil(int dex) {
-        super(dex, "Petilil",
+    public Petilil(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Petilil",
                 Type.GRASS, Type.ICE,
                 new Stats(45,
                         35,

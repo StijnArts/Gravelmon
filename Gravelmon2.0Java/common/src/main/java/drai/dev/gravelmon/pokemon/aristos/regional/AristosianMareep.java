@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianMareep extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianMareep(int dexNo) {
-        super(dexNo,"AristosianMareep",
+    public AristosianMareep(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AristosianMareep",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(55,
                         40,

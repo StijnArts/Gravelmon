@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Aipom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Aipom(int dex) {
-        super(dex, "Aipom",
+    public Aipom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Aipom",
                 Type.NORMAL,
                 new Stats(55,
                         70,

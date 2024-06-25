@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Poliwrath extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Poliwrath(int dex) {
-        super(dex, "Poliwrath",
+    public Poliwrath(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Poliwrath",
                 Type.WATER, Type.FIGHTING,
                 new Stats(90,
                         95,

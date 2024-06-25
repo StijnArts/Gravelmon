@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoWartortle extends Pokemon {
-    public EghoWartortle(int dexNo) {
-        super(dexNo,"EghoWartortle",
+    public EghoWartortle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EghoWartortle",
                 Type.WATER, Type.FLYING,
                 new Stats(59, 63, 80, 65, 80, 58),
                 List.of(Ability.SERENE_GRACE, Ability.OVERCOAT), Ability.OVERCOAT,

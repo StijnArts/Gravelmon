@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Spritzee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Spritzee(int dex) {
-        super(dex, "Spritzee",
+    public Spritzee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Spritzee",
                 Type.FAIRY,
                 new Stats(78,
                         52,

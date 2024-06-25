@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianHaunter extends Pokemon {
-    public AyreianHaunter(int dexNo) {
-        super(dexNo,"AyreianHaunter",
+    public AyreianHaunter(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianHaunter",
                 Type.FIRE, Type.GHOST,
                 new Stats(50,90,45,95,90,55),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

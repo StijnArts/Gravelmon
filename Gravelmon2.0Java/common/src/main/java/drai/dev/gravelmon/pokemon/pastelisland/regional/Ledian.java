@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ledian extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ledian(int dex) {
-        super(dex, "Ledian",
+    public Ledian(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ledian",
                 Type.BUG, Type.ELECTRIC,
                 new Stats(55,
                         60,

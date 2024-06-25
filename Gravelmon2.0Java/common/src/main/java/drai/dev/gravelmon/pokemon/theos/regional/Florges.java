@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Florges extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Florges(int dex) {
-        super(dex, "Florges",
+    public Florges(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Florges",
                 Type.GHOST, Type.FAIRY,
                 new Stats(78,
                         65,

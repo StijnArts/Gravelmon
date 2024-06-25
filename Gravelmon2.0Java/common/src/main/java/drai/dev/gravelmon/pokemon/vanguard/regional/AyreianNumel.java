@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianNumel extends Pokemon {
-    public AyreianNumel(int dexNo) {
-        super(dexNo,"AyreianNumel",
+    public AyreianNumel(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianNumel",
                 Type.WATER, Type.GROUND,
                 new Stats(65,60,45,35,70,50),
                 List.of(Ability.UNAWARE, Ability.SAP_SIPPER), Ability.BERSERK,

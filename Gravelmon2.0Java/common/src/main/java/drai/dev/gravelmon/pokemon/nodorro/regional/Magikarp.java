@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Magikarp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Magikarp(int dex) {
-        super(dex, "Magikarp",
+    public Magikarp(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Magikarp",
                 Type.POISON, Type.WATER,
                 new Stats(30,
                         30,

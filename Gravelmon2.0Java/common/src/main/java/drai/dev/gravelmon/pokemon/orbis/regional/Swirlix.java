@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Swirlix extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Swirlix(int dex) {
-        super(dex, "Swirlix",
+    public Swirlix(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Swirlix",
                 Type.FAIRY,
                 new Stats(62,
                         48,

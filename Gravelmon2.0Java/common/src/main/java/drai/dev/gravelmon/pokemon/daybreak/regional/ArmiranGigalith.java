@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ArmiranGigalith extends Pokemon {
-    public ArmiranGigalith(int dexNo) {
-        super(dexNo,"ArmiranGigalith",
+    public ArmiranGigalith(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"ArmiranGigalith",
                 Type.GROUND, Type.GHOST,
                 new Stats(85, 60, 130, 85, 130, 25),
                 List.of(Ability.LEVITATE), Ability.SAND_STREAM,

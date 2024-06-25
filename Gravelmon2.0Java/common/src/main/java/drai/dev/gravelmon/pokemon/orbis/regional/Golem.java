@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Golem extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Golem(int dex) {
-        super(dex, "Golem",
+    public Golem(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Golem",
                 Type.ROCK, Type.GROUND,
                 new Stats(80,
                         120,

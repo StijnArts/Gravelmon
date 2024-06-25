@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianDrakloak extends Pokemon {
-    public HoennianDrakloak(int dexNo) {
-        super(dexNo,"HoennianDrakloak",
+    public HoennianDrakloak(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianDrakloak",
                 Type.FIRE, Type.DRAGON,
                 new Stats(83, 60, 50, 85, 50, 82),
                 List.of(Ability.LEVITATE), Ability.TECHNICIAN,

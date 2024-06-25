@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Bellsprout extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Bellsprout(int dex) {
-        super(dex, "Bellsprout",
+    public Bellsprout(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Bellsprout",
                 Type.GRASS, Type.POISON,
                 new Stats(50,
                         75,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Koffing extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Koffing(int dex) {
-        super(dex, "Koffing",
+    public Koffing(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Koffing",
                 Type.ROCK, Type.FIRE,
                 new Stats(40,
                         64,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Vespiquen extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Vespiquen(int dex) {
-        super(dex, "Vespiquen",
+    public Vespiquen(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Vespiquen",
                 Type.BUG, Type.FLYING,
                 new Stats(70,
                         80,

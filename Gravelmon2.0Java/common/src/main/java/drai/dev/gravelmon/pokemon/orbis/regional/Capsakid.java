@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Capsakid extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Capsakid(int dex) {
-        super(dex, "Capsakid",
+    public Capsakid(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Capsakid",
                 Type.GRASS,
                 new Stats(50,
                         62,

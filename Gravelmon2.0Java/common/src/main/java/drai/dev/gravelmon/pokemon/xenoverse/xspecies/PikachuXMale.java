@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class PikachuXMale extends Pokemon {
-    public PikachuXMale(int dexNo) {
-        super(dexNo,"PikachuXMale",
+    public PikachuXMale(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"PikachuXMale",
                 Type.SOUND,
                 new Stats(85, 40, 65, 85, 40, 90),
                 List.of(Ability.KEEN_EYE), Ability.FRIEND_GUARD,

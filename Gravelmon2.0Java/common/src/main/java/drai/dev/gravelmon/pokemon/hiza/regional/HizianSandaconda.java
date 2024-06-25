@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianSandaconda extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianSandaconda(int dex) {
-        super(dex, "Sandaconda",
+    public HizianSandaconda(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Sandaconda",
                 Type.FIRE, Type.GROUND,
                 new Stats(72,
                         65,

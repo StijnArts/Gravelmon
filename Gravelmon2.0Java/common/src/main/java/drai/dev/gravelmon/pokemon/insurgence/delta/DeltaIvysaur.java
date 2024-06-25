@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaIvysaur extends Pokemon {
-    public DeltaIvysaur(int dexNo) {
-        super(dexNo,"DeltaIvysaur",
+    public DeltaIvysaur(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaIvysaur",
                 Type.FAIRY, Type.PSYCHIC,
                 new Stats(60, 62, 63, 80, 80, 60),
                 List.of(Ability.PSYCHO_CALL), Ability.REGENERATOR,

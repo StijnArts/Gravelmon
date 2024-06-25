@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ampharos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ampharos(int dex) {
-        super(dex, "Ampharos",
+    public Ampharos(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ampharos",
                 Type.GRASS,
                 new Stats(90,
                         65,

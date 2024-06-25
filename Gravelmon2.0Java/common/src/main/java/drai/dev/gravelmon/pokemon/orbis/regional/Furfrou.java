@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Furfrou extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Furfrou(int dex) {
-        super(dex, "Furfrou",
+    public Furfrou(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Furfrou",
                 Type.NORMAL,
                 new Stats(75,
                         80,

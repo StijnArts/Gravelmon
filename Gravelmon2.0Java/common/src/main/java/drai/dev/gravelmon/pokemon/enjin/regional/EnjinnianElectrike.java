@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianElectrike extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianElectrike(int dex) {
-        super(dex, "Electrike",
+    public EnjinnianElectrike(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Electrike",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(40,
                         45,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Kingler extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Kingler(int dex) {
-        super(dex, "Kingler",
+    public Kingler(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Kingler",
                 Type.WATER,
                 new Stats(55,
                         130,

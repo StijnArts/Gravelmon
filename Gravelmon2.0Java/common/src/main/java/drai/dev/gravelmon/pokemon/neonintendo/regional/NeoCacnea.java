@@ -16,8 +16,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class NeoCacnea extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NeoCacnea(int dex) {
-        super(dex, "Cacnea",
+    public NeoCacnea(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cacnea",
                 Type.GRASS, Type.FIGHTING,
                 new Stats(65,
                         85,

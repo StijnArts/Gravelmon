@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Quilava extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Quilava(int dex) {
-        super(dex, "Quilava",
+    public Quilava(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Quilava",
                 Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,

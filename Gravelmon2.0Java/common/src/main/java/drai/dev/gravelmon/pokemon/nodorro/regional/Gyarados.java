@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gyarados extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gyarados(int dex) {
-        super(dex, "Gyarados",
+    public Gyarados(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gyarados",
                 Type.POISON, Type.DRAGON,
                 new Stats(90,
                         130,

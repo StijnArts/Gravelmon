@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianArmaldo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianArmaldo(int dex) {
-        super(dex, "Armaldo",
+    public HizianArmaldo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Armaldo",
                 Type.BUG, Type.DRAGON,
                 new Stats(75,
                         125,

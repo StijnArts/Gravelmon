@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Chingling extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Chingling(int dex) {
-        super(dex, "Chingling",
+    public Chingling(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Chingling",
                 Type.PSYCHIC,
                 new Stats(45,
                         30,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranHariyama extends Pokemon {
-    public CefiranHariyama(int dexNo) {
-        super(dexNo,"CefiranHariyama",
+    public CefiranHariyama(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"CefiranHariyama",
                 Type.FIGHTING, Type.PSYCHIC,
                 new Stats(144,40,60,50,120,60),
                 List.of(Ability.THICK_FAT, Ability.WHITE_SMOKE), Ability.MAGIC_BOUNCE,

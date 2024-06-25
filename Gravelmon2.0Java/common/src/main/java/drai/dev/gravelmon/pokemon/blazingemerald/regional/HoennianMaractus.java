@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianMaractus extends Pokemon {
-    public HoennianMaractus(int dexNo) {
-        super(dexNo,"HoennianMaractus",
+    public HoennianMaractus(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianMaractus",
                 Type.GRASS, Type.FIRE,
                 new Stats(62, 36, 106, 86, 106, 93),
                 List.of(Ability.CHLOROPHYLL), Ability.FLASH_FIRE,

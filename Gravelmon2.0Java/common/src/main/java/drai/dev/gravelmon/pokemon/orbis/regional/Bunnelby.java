@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Bunnelby extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Bunnelby(int dex) {
-        super(dex, "Bunnelby",
+    public Bunnelby(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Bunnelby",
                 Type.NORMAL,
                 new Stats(38,
                         36,

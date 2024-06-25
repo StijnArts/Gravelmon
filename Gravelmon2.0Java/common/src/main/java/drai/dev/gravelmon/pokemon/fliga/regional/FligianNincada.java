@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianNincada extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianNincada(int dex) {
-        super(dex, "Nincada",
+    public FligianNincada(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Nincada",
                 Type.BUG, Type.DARK,
                 new Stats(31,
                         85,

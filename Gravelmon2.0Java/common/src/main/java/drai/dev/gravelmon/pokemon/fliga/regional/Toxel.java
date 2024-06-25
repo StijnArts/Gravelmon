@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Toxel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Toxel(int dex) {
-        super(dex, "Toxel",
+    public Toxel(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Toxel",
                 Type.ELECTRIC, Type.POISON,
                 new Stats(40,
                         38,

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianHeatmor extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianHeatmor(int dex) {
-        super(dex, "Heatmor",
+    public HizianHeatmor(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Heatmor",
                 Type.POISON, Type.FIRE,
                 new Stats(85,
                         97,

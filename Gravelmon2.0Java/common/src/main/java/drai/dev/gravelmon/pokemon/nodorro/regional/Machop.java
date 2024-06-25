@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Machop extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Machop(int dex) {
-        super(dex, "Machop",
+    public Machop(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Machop",
                 Type.FIGHTING,
                 new Stats(70,
                         80,

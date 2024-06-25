@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoMeganium extends Pokemon {
-    public EghoMeganium(int dexNo) {
-        super(dexNo,"EghoMeganium",
+    public EghoMeganium(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EghoMeganium",
                 Type.GRASS, Type.DRAGON,
                 new Stats(143, 24, 83, 100, 100, 75),
                 List.of(Ability.CHLOROPHYLL), Ability.REGENERATOR,

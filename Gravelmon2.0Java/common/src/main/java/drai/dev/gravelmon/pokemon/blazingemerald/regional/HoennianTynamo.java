@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianTynamo extends Pokemon {
-    public HoennianTynamo(int dexNo) {
-        super(dexNo,"HoennianTynamo",
+    public HoennianTynamo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianTynamo",
                 Type.GROUND, Type.ELECTRIC,
                 new Stats(30, 60, 30, 20, 50, 70),
                 List.of(Ability.STENCH), Ability.SAND_VEIL,

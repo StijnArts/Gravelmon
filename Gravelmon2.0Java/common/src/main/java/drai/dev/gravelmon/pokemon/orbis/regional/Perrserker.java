@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Perrserker extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Perrserker(int dex) {
-        super(dex, "Perrserker",
+    public Perrserker(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Perrserker",
                 Type.STEEL,
                 new Stats(70,
                         110,

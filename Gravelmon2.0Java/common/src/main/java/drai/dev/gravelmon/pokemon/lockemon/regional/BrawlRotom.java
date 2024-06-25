@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class BrawlRotom extends Pokemon {
-    public BrawlRotom(int dexNo) {
-        super(dexNo,"BrawlRotom",
+    public BrawlRotom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"BrawlRotom",
                 Type.ELECTRIC, Type.FIGHTING,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.MOXIE,

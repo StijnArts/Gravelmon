@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Heliolisk extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Heliolisk(int dex) {
-        super(dex, "Heliolisk",
+    public Heliolisk(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Heliolisk",
                 Type.ELECTRIC, Type.NORMAL,
                 new Stats(62,
                         55,

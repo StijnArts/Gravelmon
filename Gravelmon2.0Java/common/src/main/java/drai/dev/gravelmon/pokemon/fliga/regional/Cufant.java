@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cufant extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cufant(int dex) {
-        super(dex, "Cufant",
+    public Cufant(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cufant",
                 Type.STEEL,
                 new Stats(72,
                         80,

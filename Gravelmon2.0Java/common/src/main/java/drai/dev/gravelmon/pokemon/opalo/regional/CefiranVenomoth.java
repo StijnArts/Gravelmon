@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranVenomoth extends Pokemon {
-    public CefiranVenomoth(int dexNo) {
-        super(dexNo,"CefiranVenomoth",
+    public CefiranVenomoth(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"CefiranVenomoth",
                 Type.BUG, Type.GHOST,
                 new Stats(70,65,60,90,100,90),
                 List.of(Ability.ASTONISHMENT), Ability.TINTED_LENS,

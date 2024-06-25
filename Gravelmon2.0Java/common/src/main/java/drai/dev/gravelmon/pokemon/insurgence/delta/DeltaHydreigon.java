@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaHydreigon extends Pokemon {
-    public DeltaHydreigon(int dexNo) {
-        super(dexNo,"DeltaHydreigon",
+    public DeltaHydreigon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaHydreigon",
                 Type.GROUND, Type.POISON,
                 new Stats(92, 105, 90, 125, 90, 98),
                 List.of(Ability.INTOXICATE), Ability.INTOXICATE,

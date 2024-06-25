@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianTorchic extends Pokemon {
-    public AyreianTorchic(int dexNo) {
-        super(dexNo,"AyreianTorchic",
+    public AyreianTorchic(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianTorchic",
                 Type.GHOST, Type.FIGHTING,
                 new Stats(35,65,30,70,50,60),
                 List.of(Ability.LONG_REACH, Ability.BIRDLIKE), Ability.CONTRARY,

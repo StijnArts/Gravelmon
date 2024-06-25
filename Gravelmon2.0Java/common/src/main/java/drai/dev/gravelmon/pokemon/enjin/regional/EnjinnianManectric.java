@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianManectric extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianManectric(int dex) {
-        super(dex, "Manectric",
+    public EnjinnianManectric(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Manectric",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(70,
                         75,

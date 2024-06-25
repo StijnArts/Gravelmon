@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Toucannon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Toucannon(int dex) {
-        super(dex, "Toucannon",
+    public Toucannon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Toucannon",
                 Type.NORMAL, Type.FLYING,
                 new Stats(80,
                         120,

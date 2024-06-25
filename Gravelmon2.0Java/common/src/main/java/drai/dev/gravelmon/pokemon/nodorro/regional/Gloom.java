@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gloom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gloom(int dex) {
-        super(dex, "Gloom",
+    public Gloom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gloom",
                 Type.GRASS, Type.POISON,
                 new Stats(60,
                         65,

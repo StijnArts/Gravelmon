@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Dunsparce extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dunsparce(int dex) {
-        super(dex, "Dunsparce",
+    public Dunsparce(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Dunsparce",
                 Type.NORMAL,
                 new Stats(100,
                         70,

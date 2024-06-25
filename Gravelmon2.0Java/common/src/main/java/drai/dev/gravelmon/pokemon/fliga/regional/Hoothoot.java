@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hoothoot extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hoothoot(int dex) {
-        super(dex, "Hoothoot",
+    public Hoothoot(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hoothoot",
                 Type.PSYCHIC,
                 new Stats(60,
                         30,

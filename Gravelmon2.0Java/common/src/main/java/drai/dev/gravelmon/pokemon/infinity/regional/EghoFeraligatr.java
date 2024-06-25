@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoFeraligatr extends Pokemon {
-    public EghoFeraligatr(int dexNo) {
-        super(dexNo,"EghoFeraligatr",
+    public EghoFeraligatr(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EghoFeraligatr",
                 Type.WATER, Type.POISON,
                 new Stats(75, 95, 70, 103, 66, 121),
                 List.of(Ability.MERCILESS), Ability.SPEED_BOOST,

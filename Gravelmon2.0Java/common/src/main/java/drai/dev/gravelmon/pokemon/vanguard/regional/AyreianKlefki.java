@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianKlefki extends Pokemon {
-    public AyreianKlefki(int dexNo) {
-        super(dexNo,"AyreianKlefki",
+    public AyreianKlefki(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianKlefki",
                 Type.ELECTRIC, Type.FAIRY,
                 new Stats(57,80,95,75,100,95),
                 List.of(Ability.LEVITATE), Ability.PRANKSTER,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaBuneary extends Pokemon {
-    public DeltaBuneary(int dexNo) {
-        super(dexNo,"DeltaBuneary",
+    public DeltaBuneary(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaBuneary",
                 Type.FIGHTING,
                 new Stats(55, 66,44,44,56,85),
                 List.of(Ability.PICKPOCKET, Ability.FRISK), Ability.LIMBER,

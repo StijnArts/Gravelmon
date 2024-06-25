@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Lopunny extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Lopunny(int dex) {
-        super(dex, "Lopunny",
+    public Lopunny(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Lopunny",
                 Type.NORMAL,
                 new Stats(65,
                         76,

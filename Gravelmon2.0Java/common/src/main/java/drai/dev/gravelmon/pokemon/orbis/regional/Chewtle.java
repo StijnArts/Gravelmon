@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Chewtle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Chewtle(int dex) {
-        super(dex, "Chewtle",
+    public Chewtle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Chewtle",
                 Type.WATER,
                 new Stats(50,
                         64,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Golisopod extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Golisopod(int dex) {
-        super(dex, "Golisopod",
+    public Golisopod(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Golisopod",
                 Type.BUG, Type.WATER,
                 new Stats(75,
                         125,

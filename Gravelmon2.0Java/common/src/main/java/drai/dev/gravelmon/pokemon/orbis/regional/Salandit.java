@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Salandit extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Salandit(int dex) {
-        super(dex, "Salandit",
+    public Salandit(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Salandit",
                 Type.POISON, Type.FIRE,
                 new Stats(48,
                         44,

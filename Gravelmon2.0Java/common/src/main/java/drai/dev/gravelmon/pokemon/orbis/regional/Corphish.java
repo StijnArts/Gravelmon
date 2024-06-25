@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Corphish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Corphish(int dex) {
-        super(dex, "Corphish",
+    public Corphish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Corphish",
                 Type.WATER,
                 new Stats(43,
                         80,

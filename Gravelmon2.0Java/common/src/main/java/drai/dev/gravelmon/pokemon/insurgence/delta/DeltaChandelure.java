@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaChandelure extends Pokemon {
-    public DeltaChandelure(int dexNo) {
-        super(dexNo,"DeltaChandelure",
+    public DeltaChandelure(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaChandelure",
                 Type.FAIRY, Type.FIRE,
                 new Stats(60, 55, 90, 145, 90, 80),
                 List.of(Ability.FLASH_FIRE, Ability.WEAK_ARMOR), Ability.FAIRY_AURA,

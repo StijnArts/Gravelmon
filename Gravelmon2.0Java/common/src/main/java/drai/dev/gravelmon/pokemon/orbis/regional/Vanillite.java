@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Vanillite extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Vanillite(int dex) {
-        super(dex, "Vanillite",
+    public Vanillite(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Vanillite",
                 Type.ICE,
                 new Stats(36,
                         50,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SignetanBlakjak extends Pokemon {
-    public SignetanBlakjak(int dexNo) {
-        super(dexNo, "SignetanBlakjak",
+    public SignetanBlakjak(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "SignetanBlakjak",
                 Type.GHOST, Type.FLYING,
                 new Stats(65, 75, 65, 100, 70, 100),
                 List.of(Ability.MAGIC_BOUNCE), Ability.INSOMNIA,

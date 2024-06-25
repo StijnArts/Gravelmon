@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaMuk extends Pokemon {
-    public DeltaMuk(int dexNo) {
-        super(dexNo,"DeltaMuk",
+    public DeltaMuk(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaMuk",
                 Type.GROUND,
                 new Stats(105, 105, 75, 65, 100, 50),
                 List.of(Ability.SAP_SIPPER, Ability.REGURGITATION), Ability.WATER_ABSORB,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Flareon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Flareon(int dex) {
-        super(dex, "Flareon",
+    public Flareon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Flareon",
                 Type.FIRE,
                 new Stats(65,
                         130,

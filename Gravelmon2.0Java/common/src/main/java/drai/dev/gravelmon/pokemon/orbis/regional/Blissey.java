@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Blissey extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Blissey(int dex) {
-        super(dex, "Blissey",
+    public Blissey(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Blissey",
                 Type.NORMAL,
                 new Stats(255,
                         10,

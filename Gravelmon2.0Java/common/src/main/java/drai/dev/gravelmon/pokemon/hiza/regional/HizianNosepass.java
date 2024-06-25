@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianNosepass extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianNosepass(int dex) {
-        super(dex, "Nosepass",
+    public HizianNosepass(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Nosepass",
                 Type.ELECTRIC, Type.ROCK,
                 new Stats(40,
                         65,

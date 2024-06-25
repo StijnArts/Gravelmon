@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MixRotom extends Pokemon {
-    public MixRotom(int dexNo) {
-        super(dexNo,"MixRotom",
+    public MixRotom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"MixRotom",
                 Type.ELECTRIC, Type.GROUND,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.MOLD_BREAKER,

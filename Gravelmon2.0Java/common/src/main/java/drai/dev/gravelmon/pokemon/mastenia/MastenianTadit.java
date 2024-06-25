@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class MastenianTadit extends drai.dev.gravelmon.pokemon.Pokemon {
-    public MastenianTadit(int dex) {
-        super(dex, "Tadit",
+    public MastenianTadit(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Tadit",
                 Type.POISON, Type.DRAGON,
                 new Stats(0,
                         0,

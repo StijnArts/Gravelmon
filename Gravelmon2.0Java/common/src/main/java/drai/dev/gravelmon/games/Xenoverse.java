@@ -2,6 +2,7 @@ package drai.dev.gravelmon.games;
 
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.xenoverse.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
@@ -15,22 +16,22 @@ public class Xenoverse extends Game {
         //TODO STARTER SET
         Pokemon shyleon = new Shyleon();
         pokemon.add(shyleon);
-        pokemon.add(new ShyleonTerrestrial(shyleon.getPokedexNumber()));
-        pokemon.add(new ShyleonXenoversal(shyleon.getPokedexNumber()));
-        pokemon.add(new ShyleonAstral(shyleon.getPokedexNumber()));
-        pokemon.add(new ShyleonX(shyleon.getPokedexNumber()));
+        pokemon.add(new ShyleonTerrestrial("", Aspect.TERRESTRIAL));
+        pokemon.add(new ShyleonXenoversal("", Aspect.XENOVERSAL));
+        pokemon.add(new ShyleonAstral("", Aspect.ASTRAL));
+        pokemon.add(new ShyleonX("", Aspect.X));
         Pokemon trishout = new Trishout();
         pokemon.add(trishout);
-        pokemon.add(new TrishoutTerrestrial(trishout.getPokedexNumber()));
-        pokemon.add(new TrishoutXenoversal(trishout.getPokedexNumber()));
-        pokemon.add(new TrishoutAstral(trishout.getPokedexNumber()));
-        pokemon.add(new TrishoutX(trishout.getPokedexNumber()));
+        pokemon.add(new TrishoutTerrestrial("", Aspect.TERRESTRIAL));
+        pokemon.add(new TrishoutXenoversal("", Aspect.XENOVERSAL));
+        pokemon.add(new TrishoutAstral("", Aspect.ASTRAL));
+        pokemon.add(new TrishoutX("", Aspect.X));
         Pokemon shulong = new Shulong();
         pokemon.add(shulong);
-        pokemon.add(new ShulongTerrestrial(shulong.getPokedexNumber()));
-        pokemon.add(new ShulongXenoversal(shulong.getPokedexNumber()));
-        pokemon.add(new ShulongAstral(shulong.getPokedexNumber()));
-        pokemon.add(new ShulongX(shulong.getPokedexNumber()));
+        pokemon.add(new ShulongTerrestrial("", Aspect.TERRESTRIAL));
+        pokemon.add(new ShulongXenoversal("", Aspect.XENOVERSAL));
+        pokemon.add(new ShulongAstral("", Aspect.ASTRAL));
+        pokemon.add(new ShulongX("", Aspect.X));
         pokemon.add(new Sparkowl());
         pokemon.add(new Shawkbird());
         pokemon.add(new Harrowk());
@@ -57,15 +58,15 @@ public class Xenoverse extends Game {
         pokemon.add(new Grudako());
         Pokemon sabolt = new Sabolt();
         pokemon.add(sabolt);
-        pokemon.add(new SaboltTerrestrial(sabolt.getPokedexNumber()));
-        pokemon.add(new SaboltXenoversal(sabolt.getPokedexNumber()));
+        pokemon.add(new SaboltTerrestrial("", Aspect.TERRESTRIAL));
+        pokemon.add(new SaboltXenoversal("", Aspect.XENOVERSAL));
         pokemon.add(new Gachigachoo());
         pokemon.add(new Hystearic());
         pokemon.add(new Wystearia());
         pokemon.add(new Pepequeno());
         Pokemon scovile = new Scovile();
         pokemon.add(scovile);
-        pokemon.add(new ScovileX(scovile.getPokedexNumber()));
+        pokemon.add(new ScovileX("", Aspect.X));
         pokemon.add(new Excalibould());
         pokemon.add(new Madieval());
         pokemon.add(new Rockapye());
@@ -116,7 +117,7 @@ public class Xenoverse extends Game {
         pokemon.add(new Luxflon());
         Pokemon dragalisk = new Dragalisk();
         pokemon.add(dragalisk);
-        pokemon.add(new DragaliskX(dragalisk.getPokedexNumber()));
+        pokemon.add(new DragaliskX("", Aspect.X));
         pokemon.add(new Dielebi());
         pokemon.add(new Reginalous());
     }

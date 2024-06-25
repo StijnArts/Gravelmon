@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Houndstone extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Houndstone(int dex) {
-        super(dex, "Houndstone",
+    public Houndstone(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Houndstone",
                 Type.GHOST,
                 new Stats(72,
                         101,

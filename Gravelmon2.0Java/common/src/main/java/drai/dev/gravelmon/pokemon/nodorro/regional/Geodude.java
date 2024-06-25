@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Geodude extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Geodude(int dex) {
-        super(dex, "Geodude",
+    public Geodude(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Geodude",
                 Type.ROCK, Type.GROUND,
                 new Stats(0,
                         0,

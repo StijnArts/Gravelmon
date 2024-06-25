@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Fomantis extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Fomantis(int dex) {
-        super(dex, "Fomantis",
+    public Fomantis(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Fomantis",
                 Type.GRASS,
                 new Stats(40,
                         55,

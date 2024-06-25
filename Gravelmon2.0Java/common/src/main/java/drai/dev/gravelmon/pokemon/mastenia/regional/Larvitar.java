@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Larvitar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Larvitar(int dex) {
-        super(dex, "Larvitar",
+    public Larvitar(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Larvitar",
                 Type.WATER, Type.GROUND,
                 new Stats(0,
                         0,

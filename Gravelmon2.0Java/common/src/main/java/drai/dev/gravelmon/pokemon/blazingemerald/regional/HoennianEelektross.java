@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianEelektross extends Pokemon {
-    public HoennianEelektross(int dexNo) {
-        super(dexNo,"HoennianEelektross",
+    public HoennianEelektross(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"HoennianEelektross",
                 Type.GROUND, Type.ELECTRIC,
                 new Stats(95, 135, 85, 50, 110, 65),
                 List.of(Ability.SAND_SPIT), Ability.SAND_VEIL,

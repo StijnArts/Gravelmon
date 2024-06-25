@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ledyba extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ledyba(int dex) {
-        super(dex, "Ledyba",
+    public Ledyba(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ledyba",
                 Type.BUG, Type.ELECTRIC,
                 new Stats(40,
                         40,

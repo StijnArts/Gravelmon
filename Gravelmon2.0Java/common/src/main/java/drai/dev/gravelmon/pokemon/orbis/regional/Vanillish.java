@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Vanillish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Vanillish(int dex) {
-        super(dex, "Vanillish",
+    public Vanillish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Vanillish",
                 Type.ICE,
                 new Stats(51,
                         65,

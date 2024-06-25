@@ -1,17 +1,18 @@
 package drai.dev.gravelmon.pokemon;
 
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import net.minecraft.core.*;
-import net.minecraft.core.registries.*;
+import org.jetbrains.annotations.*;
 
 import java.util.*;
-import java.util.stream.*;
 
 public class Pokemon {
-    public static String pokemonThatEvolveIntoThemselves = "Encountered pokemon that evolve into Themselves:";
-    public static Map<String, Pokemon> pokemonRegistry = new HashMap<>();
+    //TODO substitute form evolution results
+    private static String pokemonThatEvolveIntoThemselves = "Encountered pokemon that evolve into Themselves:";
+    public static Map<String, Pokemon> POKEMON_REGISTRY = new HashMap<>();
+    public static Map<String, List<Pokemon>> ADDITIONAL_FORMS = new HashMap<>();
     String name;
     Stats stats;
     Type primaryType;
@@ -77,43 +78,22 @@ public class Pokemon {
     private double profileTranslationY = 1;
     private double profileScale = 0.001;
     private double profileTranslationX = 0;
-
-    public Pokemon(String name, Type primaryType, Type secondaryType, List<EvolutionEntry> evolutions, List<Label> labels){
-        this(name, primaryType, secondaryType, new Stats(10,10,10,10,10,10),List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                10,10,new Stats(0,0,0,0,0,0),255, 0.5, 50, ExperienceGroup.MEDIUM_FAST, 70, 30, List.of(EggGroup.UNDISCOVERED),
-                List.of(""), evolutions, List.of(new MoveLearnSetEntry(Move.TACKLE,1), new MoveLearnSetEntry(Move.GROWL, 1)),labels, 0, List.of(),SpawnContext.GROUNDED,
-                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.ANCIENT_CITY),0.4,0.4,List.of());
-        this.setSecondaryType(secondaryType);
-    }
-
-    public Pokemon(int dexNo, String name, Type primaryType, Type secondaryType, List<EvolutionEntry> evolutions, List<Label> labels){
-        this(dexNo, name, primaryType, secondaryType, new Stats(10,10,10,10,10,10),List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                10,10,new Stats(0,0,0,0,0,0),255, 0.5, 50, ExperienceGroup.MEDIUM_FAST, 70, 30, List.of(EggGroup.UNDISCOVERED),
-                List.of(""), evolutions, List.of(new MoveLearnSetEntry(Move.TACKLE,1), new MoveLearnSetEntry(Move.GROWL, 1)),labels, 0, List.of(),SpawnContext.GROUNDED,
-                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.ANCIENT_CITY),0.4,0.4,List.of());
-        this.setSecondaryType(secondaryType);
-    }
+    @Nullable
+    private Aspect formAdditionAspect;
+    private Game game;
 
     public Pokemon(String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
                    Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
                    int eggCycles, List<EggGroup> eggGroups,
-
                    List<String> dexEntries,
-
                    List<EvolutionEntry> evolutions,
-
                    List<MoveLearnSetEntry> learnSet,
-
                    List<Label> labels,
-
                    int dropAmount, List<ItemDrop> drops,
-
                    SpawnContext spawnContext, SpawnPool spawnPool,
                    int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
                    List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
-
                    double baseScale, double portraitScale,
-
                    List<PokemonForm> forms) {
         this(name,primaryType,stats,abilities,hiddenAbility,height,weight,
                 evYield,catchRate,maleRatio,baseExperienceYield,
@@ -124,26 +104,75 @@ public class Pokemon {
         this.secondaryType = secondaryType;
     }
 
-    public Pokemon(int dexNo, String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
+    public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
                    Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
                    int eggCycles, List<EggGroup> eggGroups,
-
                    List<String> dexEntries,
-
                    List<EvolutionEntry> evolutions,
-
                    List<MoveLearnSetEntry> learnSet,
-
                    List<Label> labels,
-
                    int dropAmount, List<ItemDrop> drops,
-
                    SpawnContext spawnContext, SpawnPool spawnPool,
                    int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
                    List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
-
                    double baseScale, double portraitScale,
+                   List<PokemonForm> forms){
+        this(name,primaryType, secondaryType,stats,abilities,hiddenAbility,height,weight,
+                evYield,catchRate,maleRatio,baseExperienceYield,
+                experienceGroup,baseFriendship,eggCycles,eggGroups,
+                dexEntries,evolutions,learnSet,labels,dropAmount,drops,spawnContext,spawnPool,
+                minSpawnLevel,maxSpawnLevel,spawnWeight,spawnConditions,spawnAntiConditions,
+                spawnPresets,baseScale,portraitScale,forms);
+        addAdditionalForm(originalPokemon, this);
+        this.formAdditionAspect = aspect;
+    }
 
+    private void addAdditionalForm(String originalPokemon, Pokemon pokemon) {
+        var key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"");
+        var forms = ADDITIONAL_FORMS.get(key);
+        if(forms == null){
+            forms = new ArrayList<>();
+            ADDITIONAL_FORMS.put(key, forms);
+        }
+        forms.add(pokemon);
+//        POKEMON_REGISTRY.remove(this.name.toLowerCase().replaceAll("\\W",""));
+    }
+
+    public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
+                   Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
+                   int eggCycles, List<EggGroup> eggGroups,
+                   List<String> dexEntries,
+                   List<EvolutionEntry> evolutions,
+                   List<MoveLearnSetEntry> learnSet,
+                   List<Label> labels,
+                   int dropAmount, List<ItemDrop> drops,
+                   SpawnContext spawnContext, SpawnPool spawnPool,
+                   int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
+                   List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
+                   double baseScale, double portraitScale,
+                   List<PokemonForm> forms){
+        this(name,primaryType, stats,abilities,hiddenAbility,height,weight,
+                evYield,catchRate,maleRatio,baseExperienceYield,
+                experienceGroup,baseFriendship,eggCycles,eggGroups,
+                dexEntries,evolutions,learnSet,labels,dropAmount,drops,spawnContext,spawnPool,
+                minSpawnLevel,maxSpawnLevel,spawnWeight,spawnConditions,spawnAntiConditions,
+                spawnPresets,baseScale,portraitScale,forms);
+        addAdditionalForm(originalPokemon, this);
+        this.formAdditionAspect = aspect;
+    }
+
+    public Pokemon(int dexNo, String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
+                   Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
+                   int eggCycles, List<EggGroup> eggGroups,
+                   List<String> dexEntries,
+                   List<EvolutionEntry> evolutions,
+                   List<MoveLearnSetEntry> learnSet,
+                   List<Label> labels,
+                   int dropAmount, List<ItemDrop> drops,
+                   SpawnContext spawnContext, SpawnPool spawnPool,
+                   int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
+                   List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
+                   double baseScale, double portraitScale,
                    List<PokemonForm> forms) {
         this(dexNo, name,primaryType,stats,abilities,hiddenAbility,height,weight,
                 evYield,catchRate,maleRatio,baseExperienceYield,
@@ -153,26 +182,19 @@ public class Pokemon {
                 spawnPresets,baseScale,portraitScale,forms);
         this.secondaryType = secondaryType;
     }
+
     public Pokemon(String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
                    Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
                    int eggCycles, List<EggGroup> eggGroups,
-
                    List<String> dexEntries,
-
                    List<EvolutionEntry> evolutions,
-
                    List<MoveLearnSetEntry> learnSet,
-
                    List<Label> labels,
-
-                   int dropAmount, List<ItemDrop> drops,
-
+                   int dropAmount, List<ItemDrop>drops,
                    SpawnContext spawnContext, SpawnPool spawnPool,
                    int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
                    List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
-
                    double baseScale, double portraitScale,
-
                    List<PokemonForm> forms) {
         this(name,primaryType,stats,abilities,hiddenAbility,height,weight,
                 evYield,catchRate,maleRatio,baseExperienceYield,
@@ -186,23 +208,15 @@ public class Pokemon {
     public Pokemon(int dexNo, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
                    Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
                    int eggCycles, List<EggGroup> eggGroups,
-
                    List<String> dexEntries,
-
                    List<EvolutionEntry> evolutions,
-
                    List<MoveLearnSetEntry> learnSet,
-
                    List<Label> labels,
-
                    int dropAmount, List<ItemDrop> drops,
-
                    SpawnContext spawnContext, SpawnPool spawnPool,
                    int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
                    List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
-
                    double baseScale, double portraitScale,
-
                    List<PokemonForm> forms) {
         this(name,primaryType,stats,abilities,hiddenAbility,height,weight,
             evYield,catchRate,maleRatio,baseExperienceYield,
@@ -265,25 +279,19 @@ public class Pokemon {
         this.spawnAntiConditions = spawnAntiConditions;
         this.spawnPresets = spawnPresets;
         this.baseScale = Math.max((height*1.5) /10/6,0.1);
-//        if(height > 50){
             this.hitboxWidth = 6;
             this.hitboxHeight = 6;
-//        } else {
-//            this.hitboxWidth = Math.max((height*1.5),0.1);
-//            this.hitboxHeight = Math.max((height*1.5),0.1);
-//        }
         this.portraitScale = 0.3;
-        pokemonRegistry.put(this.name.toLowerCase().replaceAll("\\W",""), this);
+        POKEMON_REGISTRY.put(this.name.toLowerCase().replaceAll("\\W",""), this);
     }
 
     public static void postRegistration() {
-        //TODO assign pre-evolutions stats based on the final evolution if they have empty stats
         List<Pokemon> zeroStatPokemon = new ArrayList<>();
         var evaluatedMons = new ArrayList<>();
         StringBuilder pokemonWithZeroCatchrate = new StringBuilder("Pokemon with 0 catch-rate: \n");
         StringBuilder pokemonWithZeroBaseStats = new StringBuilder("Pokemon with 0 Base Stats: \n");
         StringBuilder pokemonWithMoreThanTwoSpawnPresets = new StringBuilder("Pokemon with more than 1 spawn preset: \n");
-        var sortedPokemonList = pokemonRegistry.values().stream().sorted(Comparator.comparing(pokemon -> pokemon.pokedexNumber)).toList();
+        var sortedPokemonList = POKEMON_REGISTRY.values().stream().sorted(Comparator.comparing(pokemon -> pokemon.pokedexNumber)).toList();
         for (var pokemon : sortedPokemonList) {
             if (pokemon.getCatchRate() == 0)
                 pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
@@ -305,8 +313,11 @@ public class Pokemon {
             }
 
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
-                Pokemon result = pokemonRegistry.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if (result != null) {
+                    if(isAnAdditionalForm(result)){
+                        evolutionEntry.setResult(result.name.toLowerCase().replaceAll(result.getAdditionalAspect().getName().toLowerCase(),"")+" "+result.getAdditionalAspect().getName().toLowerCase());
+                    }
                     if (evolutionEntry.getRequiredContext() != null) {
                         addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);
                     } else {
@@ -345,7 +356,8 @@ public class Pokemon {
                     pokemonWithZeroBaseStats.append(form.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", Aspect: ").append(form.getAspects()).append(",\n");
                 for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
                     String resultName = evolutionEntry.getResult();
-                    PokemonForm result = pokemonRegistry.values().stream()
+
+                    PokemonForm result = POKEMON_REGISTRY.values().stream()
                             .filter(p -> p.getName().equalsIgnoreCase(resultName))
                             .map(Pokemon::getForms).flatMap(List::stream).filter(pokemonForm -> new HashSet<>(pokemonForm.getAspects()).containsAll(evolutionEntry.getAspects())).findFirst().orElse(null);
                     if (result != null) {
@@ -388,8 +400,8 @@ public class Pokemon {
             if (!pokemon.evolutions.isEmpty()) {
                 var pokemonToCopy = pokemon.evolutions.stream()
                         .map(evolutionEntry -> evolutionEntry.getResult().toLowerCase())
-                        .filter(result -> pokemonRegistry.containsKey(result))
-                        .map(result -> pokemonRegistry.get(result))
+                        .filter(result -> POKEMON_REGISTRY.containsKey(result))
+                        .map(result -> POKEMON_REGISTRY.get(result))
                         .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
                 if (pokemonToCopy.isPresent()) {
                     var evolutionStats = pokemonToCopy.get().stats;
@@ -433,6 +445,10 @@ public class Pokemon {
             form.setDropAmount(1);
             form.getDrops().add(new ItemDrop(evolutionEntry,10, 1,1));
         }
+    }
+
+    public static boolean isAnAdditionalForm(Pokemon pokemon) {
+        return ADDITIONAL_FORMS.values().stream().anyMatch(addition->addition==pokemon);
     }
 
     private void setDropAmount(int i) {
@@ -518,6 +534,10 @@ public class Pokemon {
     }
 
     public String getCleanName() {
+        return getCleanName(name);
+    }
+
+    public static String getCleanName(String name){
         return name.toLowerCase().replace(' ','_').replaceAll("[^a-zA-Z0-9_]", "")
                 .replace("'","").replace("\\.","");
     }
@@ -868,5 +888,17 @@ public class Pokemon {
 
     public void setProfileTranslationX(double profileTranslationX) {
         this.profileTranslationX = profileTranslationX;
+    }
+
+    public Aspect getAdditionalAspect() {
+        return formAdditionAspect;
+    }
+
+    public void setGame(Game game) {
+        this.game = game;
+    }
+
+    public Game getGame() {
+        return game;
     }
 }

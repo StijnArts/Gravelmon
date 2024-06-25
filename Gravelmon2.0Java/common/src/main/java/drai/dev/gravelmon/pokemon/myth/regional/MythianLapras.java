@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianLapras extends Pokemon {
-    public MythianLapras(int dexNo) {
-        super(dexNo,"MythianLapras",
+    public MythianLapras(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"MythianLapras",
                 Type.ELECTRIC, Type.SOUND,
                 new Stats(130,85,80,60,85,95),
                 List.of(Ability.STATIC,Ability.SOUNDPROOF), Ability.MARVEL_SCALE,

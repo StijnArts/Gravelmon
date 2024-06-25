@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ariados extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ariados(int dex) {
-        super(dex, "Ariados",
+    public Ariados(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Ariados",
                 Type.BUG, Type.DARK,
                 new Stats(70,
                         90,

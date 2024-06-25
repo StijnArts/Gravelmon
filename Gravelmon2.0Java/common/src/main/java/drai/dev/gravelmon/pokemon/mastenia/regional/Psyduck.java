@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Psyduck extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Psyduck(int dex) {
-        super(dex, "Psyduck",
+    public Psyduck(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Psyduck",
                 Type.POISON, Type.PSYCHIC,
                 new Stats(50,
                         62,

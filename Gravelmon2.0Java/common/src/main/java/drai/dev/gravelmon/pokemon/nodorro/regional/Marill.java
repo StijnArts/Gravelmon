@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Marill extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Marill(int dex) {
-        super(dex, "Marill",
+    public Marill(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Marill",
                 Type.WATER, Type.FAIRY,
                 new Stats(70,
                         20,

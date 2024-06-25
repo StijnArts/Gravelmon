@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Karrablast extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Karrablast(int dex) {
-        super(dex, "Karrablast",
+    public Karrablast(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Karrablast",
                 Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,

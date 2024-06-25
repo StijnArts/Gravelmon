@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Weepinbell extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Weepinbell(int dex) {
-        super(dex, "Weepinbell",
+    public Weepinbell(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Weepinbell",
                 Type.GRASS, Type.POISON,
                 new Stats(65,
                         90,

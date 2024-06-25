@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianDrifblim extends Pokemon {
-    public AyreianDrifblim(int dexNo) {
-        super(dexNo,"AyreianDrifblim",
+    public AyreianDrifblim(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianDrifblim",
                 Type.FAIRY, Type.FLYING,
                 new Stats(150,80,54,80,90,54),
                 List.of(Ability.AFTERMATH, Ability.UNBURDEN), Ability.LEVITATE,

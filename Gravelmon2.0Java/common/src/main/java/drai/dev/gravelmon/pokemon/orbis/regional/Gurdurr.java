@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gurdurr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gurdurr(int dex) {
-        super(dex, "Gurdurr",
+    public Gurdurr(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gurdurr",
                 Type.FIGHTING,
                 new Stats(85,
                         105,

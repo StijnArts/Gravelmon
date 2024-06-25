@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Shellos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Shellos(int dex) {
-        super(dex, "Shellos",
+    public Shellos(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Shellos",
                 Type.WATER, Type.POISON,
                 new Stats(0,
                         0,

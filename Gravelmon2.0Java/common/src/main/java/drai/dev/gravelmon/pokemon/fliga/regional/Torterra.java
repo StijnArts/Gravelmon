@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Torterra extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Torterra(int dex) {
-        super(dex, "Torterra",
+    public Torterra(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Torterra",
                 Type.GRASS, Type.GROUND,
                 new Stats(95,
                         109,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaDrifblim extends Pokemon {
-    public DeltaDrifblim(int dexNo) {
-        super(dexNo,"DeltaDrifblim",
+    public DeltaDrifblim(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaDrifblim",
                 Type.FIRE, Type.FLYING,
                 new Stats(150, 80,44,90,54,80),
                 List.of(Ability.FLASH_FIRE, Ability.VITAL_SPIRIT), Ability.NO_GUARD,

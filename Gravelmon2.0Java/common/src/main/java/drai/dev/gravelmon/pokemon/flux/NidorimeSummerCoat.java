@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class NidorimeSummerCoat extends Pokemon {
-    public NidorimeSummerCoat(int dexNo) {
-        super(dexNo, "NidorimeSummerCoat",
+    public NidorimeSummerCoat(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "NidorimeSummerCoat",
                         Type.GROUND,
                         new Stats(56, 67,52,65,50,75),
                         List.of(Ability.SAND_VEIL, Ability.SAND_RUSH), Ability.ADAPTABILITY,

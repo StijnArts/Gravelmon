@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Jumpluff extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Jumpluff(int dex) {
-        super(dex, "Jumpluff",
+    public Jumpluff(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Jumpluff",
                 Type.GROUND, Type.GRASS,
                 new Stats(110,
                         55,

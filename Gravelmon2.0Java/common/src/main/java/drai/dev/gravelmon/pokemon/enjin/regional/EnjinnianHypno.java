@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianHypno extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianHypno(int dex) {
-        super(dex, "Hypno",
+    public EnjinnianHypno(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hypno",
                 Type.PSYCHIC,
                 new Stats(85,
                         73,

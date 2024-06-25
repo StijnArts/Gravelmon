@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Floette extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Floette(int dex) {
-        super(dex, "Floette",
+    public Floette(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Floette",
                 Type.GHOST, Type.FAIRY,
                 new Stats(54,
                         45,

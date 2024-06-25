@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaGolett extends Pokemon {
-    public DeltaGolett(int dexNo) {
-        super(dexNo,"DeltaGolett",
+    public DeltaGolett(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaGolett",
                 Type.FIGHTING, Type.STEEL,
                 new Stats(59, 74, 50, 35, 50, 35),
                 List.of(Ability.IRON_FIST, Ability.BATTLE_ARMOR), Ability.GUTS,

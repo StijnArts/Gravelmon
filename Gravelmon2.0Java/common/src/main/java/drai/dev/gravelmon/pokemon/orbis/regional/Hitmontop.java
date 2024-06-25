@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hitmontop extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hitmontop(int dex) {
-        super(dex, "Hitmontop",
+    public Hitmontop(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Hitmontop",
                 Type.FIGHTING,
                 new Stats(50,
                         95,

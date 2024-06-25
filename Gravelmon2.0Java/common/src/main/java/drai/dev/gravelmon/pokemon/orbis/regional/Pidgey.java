@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Pidgey extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Pidgey(int dex) {
-        super(dex, "Pidgey",
+    public Pidgey(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Pidgey",
                 Type.NORMAL, Type.FLYING,
                 new Stats(40,
                         45,

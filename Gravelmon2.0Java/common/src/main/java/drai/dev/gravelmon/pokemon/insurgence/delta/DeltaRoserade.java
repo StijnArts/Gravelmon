@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaRoserade extends Pokemon {
-    public DeltaRoserade(int dexNo) {
-        super(dexNo,"DeltaRoserade",
+    public DeltaRoserade(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaRoserade",
                 Type.DARK, Type.FAIRY,
                 new Stats(60, 70,65,125,105,90),
                 List.of(Ability.SHADOW_DANCE, Ability.HELIOPHOBIA), Ability.LIMBER,

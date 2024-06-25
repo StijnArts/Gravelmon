@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class AmazeAllDrifblim extends Pokemon {
-    public AmazeAllDrifblim(int dexNo) {
-        super(dexNo,"AmazeAllDrifblim",
+    public AmazeAllDrifblim(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AmazeAllDrifblim",
                 Type.GHOST, Type.STEEL,
                 new Stats(150, 70, 44, 80, 54, 100),
                 List.of(Ability.PICKUP, Ability.LEVITATE), Ability.SURVEILLANCE,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gothitelle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gothitelle(int dex) {
-        super(dex, "Gothitelle",
+    public Gothitelle(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Gothitelle",
                 Type.GHOST,
                 new Stats(70,
                         55,

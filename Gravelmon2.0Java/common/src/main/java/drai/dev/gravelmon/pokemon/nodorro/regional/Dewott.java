@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Dewott extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dewott(int dex) {
-        super(dex, "Dewott",
+    public Dewott(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Dewott",
                 Type.WATER, Type.GHOST,
                 new Stats(70,
                         68,

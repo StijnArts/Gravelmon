@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Chansey extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Chansey(int dex) {
-        super(dex, "Chansey",
+    public Chansey(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Chansey",
                 Type.NORMAL,
                 new Stats(250,
                         5,

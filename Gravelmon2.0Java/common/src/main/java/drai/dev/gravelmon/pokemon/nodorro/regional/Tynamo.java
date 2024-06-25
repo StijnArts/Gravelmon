@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Tynamo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Tynamo(int dex) {
-        super(dex, "Tynamo",
+    public Tynamo(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Tynamo",
                 Type.FIRE,
                 new Stats(40,
                         45,

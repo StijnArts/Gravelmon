@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Venonat extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Venonat(int dex) {
-        super(dex, "Venonat",
+    public Venonat(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Venonat",
                 Type.PSYCHIC, Type.POISON,
                 new Stats(60,
                         55,

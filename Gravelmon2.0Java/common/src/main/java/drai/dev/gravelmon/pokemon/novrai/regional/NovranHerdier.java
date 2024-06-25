@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHerdier extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHerdier(int dex) {
-        super(dex, "Herdier",
+    public NovranHerdier(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Herdier",
                 Type.NORMAL, Type.ICE,
                 new Stats(65,
                         80,

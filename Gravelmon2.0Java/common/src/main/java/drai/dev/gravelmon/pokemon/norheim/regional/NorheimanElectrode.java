@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanElectrode extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanElectrode(int dex, Stats stats) {
-        super(dex, "Electrode",
+    public NorheimanElectrode(String originalMon, Aspect aspect, Stats stats) {
+        super(originalMon, aspect, "Electrode",
                 Type.ELECTRIC, Type.ICE,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

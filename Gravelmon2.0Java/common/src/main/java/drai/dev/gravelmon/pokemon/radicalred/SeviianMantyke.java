@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianMantyke extends Pokemon {
-    public SeviianMantyke(int dexNo) {
-        super(dexNo, "SeviianMantyke",
+    public SeviianMantyke(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "SeviianMantyke",
                 Type.ELECTRIC, Type.POISON,
                 new Stats(45, 20, 55, 70, 85, 70),
                 List.of(Ability.STATIC, Ability.STORM_DRAIN), Ability.HYDRATION,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Staryu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Staryu(int dex) {
-        super(dex, "Staryu",
+    public Staryu(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Staryu",
                 Type.WATER,
                 new Stats(30,
                         45,

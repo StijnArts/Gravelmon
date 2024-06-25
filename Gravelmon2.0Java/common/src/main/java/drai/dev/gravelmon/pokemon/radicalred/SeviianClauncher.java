@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianClauncher extends Pokemon {
-    public SeviianClauncher(int dexNo) {
-        super(dexNo, "SeviianClauncher",
+    public SeviianClauncher(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "SeviianClauncher",
                 Type.BUG, Type.DARK,
                 new Stats(50, 38, 62, 58, 63, 59),
                 List.of(Ability.MEGA_LAUNCHER), Ability.MEGA_LAUNCHER,

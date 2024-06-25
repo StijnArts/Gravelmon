@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Bulbasaur extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Bulbasaur(int dex) {
-        super(dex, "Bulbasaur",
+    public Bulbasaur(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Bulbasaur",
                 Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,

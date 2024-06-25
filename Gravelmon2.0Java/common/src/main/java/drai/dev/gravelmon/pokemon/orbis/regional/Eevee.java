@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Eevee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Eevee(int dex) {
-        super(dex, "Eevee",
+    public Eevee(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Eevee",
                 Type.NORMAL,
                 new Stats(55,
                         55,

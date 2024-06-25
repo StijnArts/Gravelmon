@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaPhantump extends Pokemon {
-    public DeltaPhantump(int dexNo) {
-        super(dexNo,"DeltaPhantump",
+    public DeltaPhantump(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaPhantump",
                 Type.FAIRY,
                 new Stats(43, 70,48,50,60,38),
                 List.of(Ability.SNOW_WARNING, Ability.OVERCOAT), Ability.SNOW_CLOAK,

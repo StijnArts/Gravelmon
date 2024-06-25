@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Honedge extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Honedge(int dex) {
-        super(dex, "Honedge",
+    public Honedge(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Honedge",
                 Type.GRASS, Type.GHOST,
                 new Stats(0,
                         0,

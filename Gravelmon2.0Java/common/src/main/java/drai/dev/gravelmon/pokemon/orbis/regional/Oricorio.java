@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Oricorio extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Oricorio(int dex) {
-        super(dex, "Oricorio",
+    public Oricorio(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Oricorio",
                 Type.ELECTRIC, Type.FLYING,
                 new Stats(75,
                         70,

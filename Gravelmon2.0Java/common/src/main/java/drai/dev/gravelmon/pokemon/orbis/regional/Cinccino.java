@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cinccino extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cinccino(int dex) {
-        super(dex, "Cinccino",
+    public Cinccino(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cinccino",
                 Type.NORMAL,
                 new Stats(75,
                         95,

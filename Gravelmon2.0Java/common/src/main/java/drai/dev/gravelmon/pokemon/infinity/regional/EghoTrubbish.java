@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class EghoTrubbish extends Pokemon {
-    public EghoTrubbish(int dexNo) {
-        super(dexNo,"EghoTrubbish",
+    public EghoTrubbish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"EghoTrubbish",
                 Type.POISON, Type.STEEL,
                 new Stats(50, 40, 72, 60, 62, 45),
                 List.of(Ability.BATTLE_ARMOR), Ability.FILTER,

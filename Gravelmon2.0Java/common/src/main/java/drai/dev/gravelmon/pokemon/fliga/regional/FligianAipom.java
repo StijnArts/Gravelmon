@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianAipom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianAipom(int dex) {
-        super(dex, "Aipom",
+    public FligianAipom(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Aipom",
                 Type.GHOST,
                 new Stats(55,
                         70,

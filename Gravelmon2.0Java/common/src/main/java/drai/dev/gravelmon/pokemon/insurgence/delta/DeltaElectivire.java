@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaElectivire extends Pokemon {
-    public DeltaElectivire(int dexNo) {
-        super(dexNo,"DeltaElectivire",
+    public DeltaElectivire(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaElectivire",
                 Type.ROCK, Type.DRAGON,
                 new Stats(75, 123,67,95,85,95),
                 List.of(Ability.SHADOW_DANCE), Ability.STURDY,

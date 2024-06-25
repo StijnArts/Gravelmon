@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianNymble extends Pokemon {
-    public SeviianNymble(int dexNo) {
-        super(dexNo, "SeviianNymble",
+    public SeviianNymble(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "SeviianNymble",
                 Type.BUG, Type.DRAGON,
                 new Stats(33, 46, 40, 21, 25, 45),
                 List.of(Ability.SWARM), Ability.TINTED_LENS,

@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Slowking extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Slowking(int dex) {
-        super(dex, "Slowking",
+    public Slowking(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Slowking",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(95,
                         75,

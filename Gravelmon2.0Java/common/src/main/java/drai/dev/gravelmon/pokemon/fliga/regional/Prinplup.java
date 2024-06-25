@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Prinplup extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Prinplup(int dex) {
-        super(dex, "Prinplup",
+    public Prinplup(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Prinplup",
                 Type.WATER,
                 new Stats(64,
                         66,

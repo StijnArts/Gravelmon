@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaHoopaUnleashed extends Pokemon {
-    public DeltaHoopaUnleashed(int dexNo) {
-        super(dexNo,"DeltaHoopaUnleashed",
+    public DeltaHoopaUnleashed(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"DeltaHoopaUnleashed",
                 Type.FLYING,
                 new Stats(80, 160, 60, 170, 130, 80),
                 List.of(Ability.CLOUD_NINE), Ability.CLOUD_NINE,

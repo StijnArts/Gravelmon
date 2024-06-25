@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Roselia extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Roselia(int dex) {
-        super(dex, "Roselia",
+    public Roselia(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Roselia",
                 Type.GRASS, Type.POISON,
                 new Stats(60,
                         60,

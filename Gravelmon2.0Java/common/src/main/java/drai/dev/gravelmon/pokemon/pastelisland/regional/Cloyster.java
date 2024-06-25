@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cloyster extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cloyster(int dex) {
-        super(dex, "Cloyster",
+    public Cloyster(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Cloyster",
                 Type.STEEL,
                 new Stats(45,
                         85,

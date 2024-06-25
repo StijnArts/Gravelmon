@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class InterianArceus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public InterianArceus(int dex) {
-        super(dex ,"Arceus",
+    public InterianArceus(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"Arceus",
                 Type.NORMAL,
                 new Stats(120,
                         100,

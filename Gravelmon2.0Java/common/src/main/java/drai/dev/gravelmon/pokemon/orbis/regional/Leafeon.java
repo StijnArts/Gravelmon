@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Leafeon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Leafeon(int dex) {
-        super(dex, "Leafeon",
+    public Leafeon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Leafeon",
                 Type.GRASS,
                 new Stats(65,
                         110,

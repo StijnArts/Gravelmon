@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Zigzagoon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Zigzagoon(int dex) {
-        super(dex, "Zigzagoon",
+    public Zigzagoon(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Zigzagoon",
                 Type.DARK, Type.NORMAL,
                 new Stats(38,
                         30,

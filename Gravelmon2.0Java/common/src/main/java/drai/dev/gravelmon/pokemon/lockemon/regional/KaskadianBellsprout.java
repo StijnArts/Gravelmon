@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianBellsprout extends Pokemon {
-    public KaskadianBellsprout(int dexNo) {
-        super(dexNo,"KaskadianBellsprout",
+    public KaskadianBellsprout(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"KaskadianBellsprout",
                 Type.GRASS,
                 new Stats(50, 70, 40, 40, 30, 70),
                 List.of(Ability.SWEET_VEIL, Ability.TRIAGE), Ability.EFFECT_SPORE,

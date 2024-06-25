@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Victreebel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Victreebel(int dex) {
-        super(dex, "Victreebel",
+    public Victreebel(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Victreebel",
                 Type.GRASS, Type.POISON,
                 new Stats(80,
                         105,

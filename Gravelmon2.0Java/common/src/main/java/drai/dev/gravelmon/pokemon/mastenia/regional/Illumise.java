@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Illumise extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Illumise(int dex) {
-        super(dex, "Illumise",
+    public Illumise(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Illumise",
                 Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,

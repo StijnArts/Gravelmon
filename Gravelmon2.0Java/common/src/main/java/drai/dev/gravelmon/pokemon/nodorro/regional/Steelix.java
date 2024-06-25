@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Steelix extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Steelix(int dex) {
-        super(dex, "Steelix",
+    public Steelix(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Steelix",
                 Type.STEEL, Type.ELECTRIC,
                 new Stats(70,
                         70,

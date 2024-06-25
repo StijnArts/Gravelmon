@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianGourgeist extends Pokemon {
-    public AyreianGourgeist(int dexNo) {
-        super(dexNo,"AyreianGourgeist",
+    public AyreianGourgeist(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"AyreianGourgeist",
                 Type.GRASS, Type.FAIRY,
                 new Stats(80,75,105,35,75,105),
                 List.of(Ability.STAMINA, Ability.TRIAGE), Ability.INSOMNIA,

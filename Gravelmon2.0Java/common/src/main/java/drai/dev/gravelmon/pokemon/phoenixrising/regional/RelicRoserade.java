@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicRoserade extends Pokemon {
-    public RelicRoserade(int dexNo) {
-        super(dexNo,"RelicRoserade",
+    public RelicRoserade(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"RelicRoserade",
                 Type.FAIRY, Type.FIGHTING,
                 new Stats(55, 115, 110, 65, 65, 95),
                 List.of(Ability.STAMINA, Ability.JUSTIFIED), Ability.LEAF_GUARD,

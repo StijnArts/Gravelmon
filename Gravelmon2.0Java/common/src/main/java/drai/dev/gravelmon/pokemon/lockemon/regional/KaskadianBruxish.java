@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianBruxish extends Pokemon {
-    public KaskadianBruxish(int dexNo) {
-        super(dexNo,"KaskadianBruxish",
+    public KaskadianBruxish(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"KaskadianBruxish",
                 Type.WATER,
                 new Stats(78, 100, 70, 75, 70, 82),
                 List.of(Ability.CHEEK_POUCH, Ability.STRONG_JAW), Ability.MOXIE,

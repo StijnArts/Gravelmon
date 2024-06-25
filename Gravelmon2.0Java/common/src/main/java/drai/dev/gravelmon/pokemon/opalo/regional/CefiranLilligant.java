@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranLilligant extends Pokemon {
-    public CefiranLilligant(int dexNo) {
-        super(dexNo,"CefiranLilligant",
+    public CefiranLilligant(String originalMon, Aspect aspect) {
+        super(originalMon, aspect,"CefiranLilligant",
                 Type.GRASS, Type.POISON,
                 new Stats(70,60,75,90,110,75),
                 List.of(Ability.PRANKSTER, Ability.OWN_TEMPO), Ability.LEAF_GUARD,

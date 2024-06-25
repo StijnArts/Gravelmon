@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Garchomp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Garchomp(int dex) {
-        super(dex, "Garchomp",
+    public Garchomp(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Garchomp",
                 Type.DRAGON, Type.GROUND,
                 new Stats(108,
                         130,

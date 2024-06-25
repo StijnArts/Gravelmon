@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianPyroar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianPyroar(int dex) {
-        super(dex, "Pyroar",
+    public HizianPyroar(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Pyroar",
                 Type.GHOST, Type.FLYING,
                 new Stats(76,
                         119,

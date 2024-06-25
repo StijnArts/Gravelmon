@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Glalie extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Glalie(int dex) {
-        super(dex, "Glalie",
+    public Glalie(String originalMon, Aspect aspect) {
+        super(originalMon, aspect, "Glalie",
                 Type.ICE,
                 new Stats(80,
                         80,
