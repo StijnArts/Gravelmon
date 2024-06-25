@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ribikun",
-  "nationalPokedexNumber": 4168,
+  "nationalPokedexNumber": 2295,
   "primaryType": "ground",
   "abilities": [
     "dryskin",
@@ -78,7 +78,8 @@
           "variant": "has_move",
           "move": "acidarmor"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

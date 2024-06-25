@@ -144,7 +144,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:magmarizer"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

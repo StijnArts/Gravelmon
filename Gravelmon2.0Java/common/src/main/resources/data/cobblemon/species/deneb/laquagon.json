@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "laquagon",
-  "nationalPokedexNumber": 4747,
+  "nationalPokedexNumber": 2783,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
@@ -118,7 +118,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.7000000000000001,

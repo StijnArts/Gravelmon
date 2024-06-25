@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hikiloo",
-  "nationalPokedexNumber": 2093,
+  "nationalPokedexNumber": 1514,
   "primaryType": "normal",
   "secondaryType": "ice",
   "abilities": [
@@ -115,7 +115,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:ice_stone"   
+      "requiredContext": "cobblemon:ice_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "charmir",
-  "nationalPokedexNumber": 4455,
+  "nationalPokedexNumber": 2582,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -85,7 +85,8 @@
           "variant": "level",
           "minLevel": 21
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "medissin",
-  "nationalPokedexNumber": 2245,
+  "nationalPokedexNumber": 1666,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -83,7 +83,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

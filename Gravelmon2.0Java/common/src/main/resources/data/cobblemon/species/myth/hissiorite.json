@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hissiorite",
-  "nationalPokedexNumber": 4390,
+  "nationalPokedexNumber": 2517,
   "primaryType": "fire",
   "abilities": [
     "battlearmor",
@@ -90,7 +90,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

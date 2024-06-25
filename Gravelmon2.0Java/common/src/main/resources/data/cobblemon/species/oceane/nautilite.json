@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nautilite",
-  "nationalPokedexNumber": 2195,
+  "nationalPokedexNumber": 1616,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

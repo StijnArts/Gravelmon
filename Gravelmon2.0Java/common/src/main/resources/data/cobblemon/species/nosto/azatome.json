@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "azatome",
-  "nationalPokedexNumber": 3639,
+  "nationalPokedexNumber": 2097,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -79,7 +79,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

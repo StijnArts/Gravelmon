@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "petri",
-  "nationalPokedexNumber": 4541,
+  "nationalPokedexNumber": 2668,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

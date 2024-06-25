@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kindlemur",
-  "nationalPokedexNumber": 2804,
+  "nationalPokedexNumber": 1776,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

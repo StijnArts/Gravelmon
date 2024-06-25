@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sukabi",
-  "nationalPokedexNumber": 4939,
+  "nationalPokedexNumber": 2975,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -102,7 +102,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "sukabi_hikarabe",
@@ -115,7 +116,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

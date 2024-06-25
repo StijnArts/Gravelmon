@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lephan",
-  "nationalPokedexNumber": 4728,
+  "nationalPokedexNumber": 2764,
   "primaryType": "ground",
   "abilities": [
     "synchronize",
@@ -127,7 +127,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

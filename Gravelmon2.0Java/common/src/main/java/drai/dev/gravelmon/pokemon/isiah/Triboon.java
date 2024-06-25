@@ -37,7 +37,7 @@ public class Triboon extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 33, 6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_SAVANNA)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

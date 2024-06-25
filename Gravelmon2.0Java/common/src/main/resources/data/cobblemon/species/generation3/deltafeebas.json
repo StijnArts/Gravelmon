@@ -112,7 +112,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:spell_tag"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

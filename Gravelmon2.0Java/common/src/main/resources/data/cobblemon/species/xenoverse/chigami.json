@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chigami",
-  "nationalPokedexNumber": 2102,
+  "nationalPokedexNumber": 1523,
   "primaryType": "fairy",
   "abilities": [
     "roughskin",
@@ -110,7 +110,8 @@
           "variant": "has_move",
           "move": "xscissor"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

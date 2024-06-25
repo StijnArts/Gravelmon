@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twygnet",
-  "nationalPokedexNumber": 5579,
+  "nationalPokedexNumber": 3011,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

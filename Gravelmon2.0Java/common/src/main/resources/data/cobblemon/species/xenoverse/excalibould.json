@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "excalibould",
-  "nationalPokedexNumber": 2110,
+  "nationalPokedexNumber": 1531,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -118,7 +118,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:kings_rock"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

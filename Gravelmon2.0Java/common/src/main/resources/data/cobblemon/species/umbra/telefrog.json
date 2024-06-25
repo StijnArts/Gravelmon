@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "telefrog",
-  "nationalPokedexNumber": 3649,
+  "nationalPokedexNumber": 2107,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -156,7 +156,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

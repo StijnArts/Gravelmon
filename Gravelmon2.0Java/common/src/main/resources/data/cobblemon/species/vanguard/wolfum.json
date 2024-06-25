@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wolfum",
-  "nationalPokedexNumber": 4075,
+  "nationalPokedexNumber": 2202,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -141,7 +141,8 @@
           "variant": "level",
           "minLevel": 31
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

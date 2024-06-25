@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chiripe",
-  "nationalPokedexNumber": 2143,
+  "nationalPokedexNumber": 1564,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -108,7 +108,8 @@
           "variant": "level",
           "minLevel": 18
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

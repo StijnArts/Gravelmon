@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clavarma",
-  "nationalPokedexNumber": 4179,
+  "nationalPokedexNumber": 2306,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 45
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

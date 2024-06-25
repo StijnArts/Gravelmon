@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "woolvry",
-  "nationalPokedexNumber": 2807,
+  "nationalPokedexNumber": 1779,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -128,7 +128,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

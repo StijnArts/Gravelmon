@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dredrock",
-  "nationalPokedexNumber": 4407,
+  "nationalPokedexNumber": 2534,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -90,7 +90,8 @@
           "variant": "level",
           "minLevel": 43
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.425,

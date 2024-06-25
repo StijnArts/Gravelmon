@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bublit",
-  "nationalPokedexNumber": 2194,
+  "nationalPokedexNumber": 1615,
   "primaryType": "electric",
   "abilities": [
     "keeneye",
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

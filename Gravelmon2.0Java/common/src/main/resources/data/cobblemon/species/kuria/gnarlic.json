@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gnarlic",
-  "nationalPokedexNumber": 4175,
+  "nationalPokedexNumber": 2302,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 44
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

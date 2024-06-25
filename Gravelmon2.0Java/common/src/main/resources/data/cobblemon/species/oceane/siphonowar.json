@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "siphonowar",
-  "nationalPokedexNumber": 2228,
+  "nationalPokedexNumber": 1649,
   "primaryType": "psychic",
   "abilities": [
     "levitate",
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 38
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

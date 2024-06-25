@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chichaw",
-  "nationalPokedexNumber": 4191,
+  "nationalPokedexNumber": 2318,
   "primaryType": "ground",
   "abilities": [
     "sandforce",
@@ -87,7 +87,8 @@
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_swamp"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

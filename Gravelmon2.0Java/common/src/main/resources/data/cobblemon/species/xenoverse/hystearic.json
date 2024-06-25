@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hystearic",
-  "nationalPokedexNumber": 2106,
+  "nationalPokedexNumber": 1527,
   "primaryType": "grass",
   "secondaryType": "sound",
   "abilities": [
@@ -113,7 +113,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:leaf_stone"   
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.6,

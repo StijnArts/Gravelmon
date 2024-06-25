@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "planten",
-  "nationalPokedexNumber": 2203,
+  "nationalPokedexNumber": 1624,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -70,7 +70,8 @@
           "variant": "level",
           "minLevel": 11
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

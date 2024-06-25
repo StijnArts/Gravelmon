@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setoshiba",
-  "nationalPokedexNumber": 4917,
+  "nationalPokedexNumber": 2953,
   "primaryType": "normal",
   "abilities": [
     "rivalry",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

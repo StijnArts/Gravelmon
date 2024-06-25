@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shellop",
-  "nationalPokedexNumber": 5567,
+  "nationalPokedexNumber": 2999,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

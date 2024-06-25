@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dunmyth",
-  "nationalPokedexNumber": 4071,
+  "nationalPokedexNumber": 2198,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -169,7 +169,8 @@
           "variant": "level",
           "minLevel": 42
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

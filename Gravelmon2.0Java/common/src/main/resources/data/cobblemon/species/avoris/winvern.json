@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "winvern",
-  "nationalPokedexNumber": 2159,
+  "nationalPokedexNumber": 1580,
   "primaryType": "flying",
   "abilities": [
     "intimidate",
@@ -133,7 +133,8 @@
           "variant": "level",
           "minLevel": 18
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

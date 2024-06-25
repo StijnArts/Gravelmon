@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "larvatt",
-  "nationalPokedexNumber": 4356,
+  "nationalPokedexNumber": 2483,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 23
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

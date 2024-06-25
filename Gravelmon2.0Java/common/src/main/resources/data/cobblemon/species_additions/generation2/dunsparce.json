@@ -4,6 +4,7 @@
    "id": "dunsparce_quezsparce",
    "variant": "level_up",
    "result": "quezsparce",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [
@@ -43,6 +44,7 @@
     "id": "dunsparce_dunseraph",
     "variant": "level_up",
     "result": "dunseraph",
+    "permanent": true,
     "consumeHeldItem": false,
     "learnableMoves": [],
     "requirements": [
@@ -56,6 +58,7 @@
     "id": "dunsparce_dustout",
     "variant": "level_up",
     "result": "dustout",
+    "permanent": true,
     "consumeHeldItem": false,
     "learnableMoves": [],
     "requirements": [

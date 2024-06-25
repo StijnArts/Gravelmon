@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phloxling",
-  "nationalPokedexNumber": 3527,
+  "nationalPokedexNumber": 1985,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -122,7 +122,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maggotle",
-  "nationalPokedexNumber": 4239,
+  "nationalPokedexNumber": 2366,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -72,7 +72,8 @@
           "variant": "level",
           "minLevel": 14
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "disastar",
-  "nationalPokedexNumber": 2201,
+  "nationalPokedexNumber": 1622,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
@@ -85,7 +85,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

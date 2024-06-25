@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "froggidi",
-  "nationalPokedexNumber": 5720,
+  "nationalPokedexNumber": 3152,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -86,7 +86,8 @@
           "variant": "level",
           "minLevel": 41
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

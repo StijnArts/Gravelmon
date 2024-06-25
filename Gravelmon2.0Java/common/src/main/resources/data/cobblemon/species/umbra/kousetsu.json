@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kousetsu",
-  "nationalPokedexNumber": 3655,
+  "nationalPokedexNumber": 2113,
   "primaryType": "dark",
   "secondaryType": "ice",
   "abilities": [
@@ -133,7 +133,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

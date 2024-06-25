@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crimera",
-  "nationalPokedexNumber": 4343,
+  "nationalPokedexNumber": 2470,
   "primaryType": "poison",
   "abilities": [
     "keeneye",
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

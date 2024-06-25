@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leebrio",
-  "nationalPokedexNumber": 4566,
+  "nationalPokedexNumber": 2693,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

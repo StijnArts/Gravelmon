@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tsandchi",
-  "nationalPokedexNumber": 4147,
+  "nationalPokedexNumber": 2274,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 33
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

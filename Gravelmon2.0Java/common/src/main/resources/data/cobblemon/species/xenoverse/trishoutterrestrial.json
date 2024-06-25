@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trishoutterrestrial",
-  "nationalPokedexNumber": 2078,
+  "nationalPokedexNumber": 1499,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
@@ -156,7 +156,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutterrestrial_trishoutxenoversal",
@@ -169,7 +170,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:xenoversal_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutterrestrial_trishoutastral",
@@ -186,7 +188,8 @@
           "variant": "level",
           "minLevel": 50
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutterrestrial_trishoutastral",
@@ -203,7 +206,8 @@
           "variant": "level",
           "minLevel": 50
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 1.0,

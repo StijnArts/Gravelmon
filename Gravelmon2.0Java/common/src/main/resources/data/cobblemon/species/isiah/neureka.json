@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "neureka",
-  "nationalPokedexNumber": 4287,
+  "nationalPokedexNumber": 2414,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

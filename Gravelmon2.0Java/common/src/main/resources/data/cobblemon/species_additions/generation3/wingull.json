@@ -5,6 +5,7 @@
   "variant": "level_up",
   "result": "larintenant",
   "consumeHeldItem": false,
+   "permanent": true,
   "learnableMoves": [],
   "requirements": [
    {
@@ -17,6 +18,7 @@
    "id": "wingull_seascull",
    "variant": "level_up",
    "result": "seascull",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [
    ],

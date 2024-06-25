@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clokruel",
-  "nationalPokedexNumber": 2808,
+  "nationalPokedexNumber": 1780,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -134,7 +134,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

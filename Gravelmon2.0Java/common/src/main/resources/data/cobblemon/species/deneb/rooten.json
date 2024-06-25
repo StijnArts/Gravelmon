@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rooten",
-  "nationalPokedexNumber": 4827,
+  "nationalPokedexNumber": 2863,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -128,7 +128,8 @@
           "variant": "level",
           "minLevel": 29
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

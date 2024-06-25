@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crauwly",
-  "nationalPokedexNumber": 4524,
+  "nationalPokedexNumber": 2651,
   "primaryType": "bug",
   "abilities": [
     "rockhead",
@@ -84,7 +84,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:metal_coat"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

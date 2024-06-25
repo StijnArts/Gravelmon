@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mosdeng",
-  "nationalPokedexNumber": 3052,
+  "nationalPokedexNumber": 1870,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -133,7 +133,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

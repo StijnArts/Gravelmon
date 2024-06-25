@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "toxroach",
-  "nationalPokedexNumber": 4835,
+  "nationalPokedexNumber": 2871,
   "primaryType": "poison",
   "secondaryType": "bug",
   "abilities": [
@@ -126,7 +126,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

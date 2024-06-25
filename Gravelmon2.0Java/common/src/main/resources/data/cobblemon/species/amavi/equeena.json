@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "equeena",
-  "nationalPokedexNumber": 5713,
+  "nationalPokedexNumber": 3145,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -88,7 +88,8 @@
           "variant": "level",
           "minLevel": 60
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

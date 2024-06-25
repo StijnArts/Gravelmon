@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kitkin",
-  "nationalPokedexNumber": 4255,
+  "nationalPokedexNumber": 2382,
   "primaryType": "normal",
   "abilities": [
     "cutecharm",
@@ -142,7 +142,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

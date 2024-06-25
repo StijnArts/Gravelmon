@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "buffhilla",
-  "nationalPokedexNumber": 2858,
+  "nationalPokedexNumber": 1830,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -117,7 +117,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pepequeno",
-  "nationalPokedexNumber": 2108,
+  "nationalPokedexNumber": 1529,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -82,7 +82,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:fire_stone"   
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

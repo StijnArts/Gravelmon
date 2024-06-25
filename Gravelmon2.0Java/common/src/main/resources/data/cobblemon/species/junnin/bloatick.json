@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bloatick",
-  "nationalPokedexNumber": 2847,
+  "nationalPokedexNumber": 1819,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -132,7 +132,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

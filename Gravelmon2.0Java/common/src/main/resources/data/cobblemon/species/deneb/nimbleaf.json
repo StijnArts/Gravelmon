@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nimbleaf",
-  "nationalPokedexNumber": 4670,
+  "nationalPokedexNumber": 2706,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -121,7 +121,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

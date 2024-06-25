@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "permidon",
-  "nationalPokedexNumber": 2814,
+  "nationalPokedexNumber": 1786,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -94,7 +94,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

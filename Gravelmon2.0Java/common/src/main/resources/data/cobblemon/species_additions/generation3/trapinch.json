@@ -4,6 +4,7 @@
    "id": "trapinch_cefiranvibrava",
    "variant": "level_up",
    "result": "cefiranvibrava",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [
    ],

@@ -15,7 +15,7 @@
       "level": "5-35",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ]
+"biomes": [ "#gravelmon:is_snowy" ]
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_forest",

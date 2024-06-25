@@ -116,7 +116,7 @@ public class NovranCranidos extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 11, 36, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

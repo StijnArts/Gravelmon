@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ploworm",
-  "nationalPokedexNumber": 2836,
+  "nationalPokedexNumber": 1808,
   "primaryType": "steel",
   "secondaryType": "bug",
   "abilities": [
@@ -109,7 +109,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

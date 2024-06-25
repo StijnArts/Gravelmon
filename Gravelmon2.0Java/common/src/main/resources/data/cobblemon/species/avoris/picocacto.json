@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "picocacto",
-  "nationalPokedexNumber": 2181,
+  "nationalPokedexNumber": 1602,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -87,7 +87,8 @@
           "target": "gender=female",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "picocacto_desperogue",
@@ -105,7 +106,8 @@
           "target": "gender=male",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

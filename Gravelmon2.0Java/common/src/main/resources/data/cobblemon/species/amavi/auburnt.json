@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "auburnt",
-  "nationalPokedexNumber": 5646,
+  "nationalPokedexNumber": 3078,
   "primaryType": "fire",
   "abilities": [
     "keeneye",
@@ -77,7 +77,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:fire_stone"   
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

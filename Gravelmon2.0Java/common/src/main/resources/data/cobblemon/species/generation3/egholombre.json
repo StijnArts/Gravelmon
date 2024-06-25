@@ -142,7 +142,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:fire_stone"   
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

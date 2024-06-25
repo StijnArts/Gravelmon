@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lilynary",
-  "nationalPokedexNumber": 4783,
+  "nationalPokedexNumber": 2819,
   "primaryType": "fire",
   "secondaryType": "normal",
   "abilities": [
@@ -131,7 +131,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunetal",
-  "nationalPokedexNumber": 3585,
+  "nationalPokedexNumber": 2043,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 44
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "anglow",
-  "nationalPokedexNumber": 4128,
+  "nationalPokedexNumber": 2255,
   "primaryType": "light",
   "secondaryType": "ghost",
   "abilities": [
@@ -91,7 +91,8 @@
           "variant": "time_range",
           "range": night
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

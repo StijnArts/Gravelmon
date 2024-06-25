@@ -87,7 +87,7 @@
   "pokedex": [
     "cobblemon.species.mythianlapras.desc"
   ],
-  "preEvolution": "lilpras",
+  "preEvolution": "pressie",
   "baseScale": 0.625,
   "hitbox": {
     "width": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "noshyu",
-  "nationalPokedexNumber": 4911,
+  "nationalPokedexNumber": 2947,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
@@ -111,7 +111,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

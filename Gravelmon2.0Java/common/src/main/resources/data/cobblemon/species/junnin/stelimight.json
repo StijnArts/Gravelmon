@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stelimight",
-  "nationalPokedexNumber": 2850,
+  "nationalPokedexNumber": 1822,
   "primaryType": "rock",
   "abilities": [
     "sturdy",
@@ -105,7 +105,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.39999999999999997,

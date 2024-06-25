@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "catteraxe",
-  "nationalPokedexNumber": 3457,
+  "nationalPokedexNumber": 1915,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
@@ -105,7 +105,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:keybone"   
+      "requiredContext": "gravelmon:keybone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

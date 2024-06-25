@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liquiput",
-  "nationalPokedexNumber": 4676,
+  "nationalPokedexNumber": 2712,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -126,7 +126,8 @@
           "variant": "level",
           "minLevel": 14
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

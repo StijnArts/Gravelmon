@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arident",
-  "nationalPokedexNumber": 5650,
+  "nationalPokedexNumber": 3082,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 27
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

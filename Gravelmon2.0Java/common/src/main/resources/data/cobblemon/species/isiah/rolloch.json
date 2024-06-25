@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rolloch",
-  "nationalPokedexNumber": 4337,
+  "nationalPokedexNumber": 2464,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -88,7 +88,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

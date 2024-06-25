@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "merbebi",
-  "nationalPokedexNumber": 2222,
+  "nationalPokedexNumber": 1643,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 24
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "merbebi_phantamaron",
@@ -95,7 +96,8 @@
           "variant": "level",
           "minLevel": 24
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

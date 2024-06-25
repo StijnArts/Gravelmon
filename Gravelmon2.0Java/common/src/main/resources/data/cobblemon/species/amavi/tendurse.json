@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tendurse",
-  "nationalPokedexNumber": 5629,
+  "nationalPokedexNumber": 3061,
   "primaryType": "psychic",
   "secondaryType": "poison",
   "abilities": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

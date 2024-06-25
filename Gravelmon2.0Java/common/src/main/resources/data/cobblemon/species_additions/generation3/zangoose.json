@@ -14,6 +14,7 @@
    "variant": "level_up",
    "result": "viperzang",
    "consumeHeldItem": true,
+   "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {
@@ -25,9 +26,10 @@
   },
   {
    "id": "zangoose_viperzang",
-   "variant": "item_interact",
+   "variant": "level_up",
    "result": "viperzang",
    "consumeHeldItem": true,
+   "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {
@@ -38,9 +40,10 @@
   },
   {
    "id": "zangoose_zangoro",
-   "variant": "item_interact",
+   "variant": "level_up",
    "result": "zangoro",
    "consumeHeldItem": true,
+   "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {

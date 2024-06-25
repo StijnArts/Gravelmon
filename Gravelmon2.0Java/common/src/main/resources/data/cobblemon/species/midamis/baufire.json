@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baufire",
-  "nationalPokedexNumber": 4432,
+  "nationalPokedexNumber": 2559,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

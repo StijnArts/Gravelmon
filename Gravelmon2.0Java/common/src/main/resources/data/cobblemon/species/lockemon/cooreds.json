@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cooreds",
-  "nationalPokedexNumber": 3442,
+  "nationalPokedexNumber": 1900,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -72,7 +72,8 @@
           "variant": "level",
           "minLevel": 18
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

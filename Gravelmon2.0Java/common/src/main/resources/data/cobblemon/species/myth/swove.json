@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swove",
-  "nationalPokedexNumber": 4381,
+  "nationalPokedexNumber": 2508,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -91,7 +91,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

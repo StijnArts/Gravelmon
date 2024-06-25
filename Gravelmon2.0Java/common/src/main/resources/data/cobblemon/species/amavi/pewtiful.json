@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pewtiful",
-  "nationalPokedexNumber": 5612,
+  "nationalPokedexNumber": 3044,
   "primaryType": "poison",
   "abilities": [
     "keeneye",
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

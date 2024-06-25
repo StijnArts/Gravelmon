@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atlarv",
-  "nationalPokedexNumber": 3619,
+  "nationalPokedexNumber": 2077,
   "primaryType": "dragon",
   "secondaryType": "bug",
   "abilities": [
@@ -133,7 +133,8 @@
           "variant": "level",
           "minLevel": 53
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lumboar",
-  "nationalPokedexNumber": 3622,
+  "nationalPokedexNumber": 2080,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -126,7 +126,8 @@
           "variant": "level",
           "minLevel": 38
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

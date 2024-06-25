@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dislichen",
-  "nationalPokedexNumber": 4829,
+  "nationalPokedexNumber": 2865,
   "primaryType": "grass",
   "abilities": [
     "sandveil",
@@ -120,7 +120,8 @@
           "variant": "level",
           "minLevel": 33
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

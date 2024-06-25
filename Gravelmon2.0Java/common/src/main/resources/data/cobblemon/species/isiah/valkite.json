@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "valkite",
-  "nationalPokedexNumber": 4367,
+  "nationalPokedexNumber": 2494,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -73,9 +73,9 @@
   "preEvolution": "falchik",
   "evolutions": [
     {
-      "id": "valkite_calvakair",
+      "id": "valkite_Calvakair",
       "variant": "level_up",
-      "result": "calvakair",
+      "result": "Calvakair",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 53
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

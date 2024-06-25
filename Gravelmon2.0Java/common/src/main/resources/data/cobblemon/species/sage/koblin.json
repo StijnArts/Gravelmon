@@ -135,7 +135,8 @@
           "variant": "time_range",
           "range": "day"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "koblin_kobalt",
@@ -152,7 +153,8 @@
           "variant": "time_range",
           "range": "night"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

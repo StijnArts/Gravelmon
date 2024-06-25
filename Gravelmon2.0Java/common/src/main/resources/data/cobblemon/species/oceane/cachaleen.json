@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cachaleen",
-  "nationalPokedexNumber": 2230,
+  "nationalPokedexNumber": 1651,
   "primaryType": "water",
   "abilities": [
     "waterveil",
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 44
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.525,

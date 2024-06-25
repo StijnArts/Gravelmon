@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyramud",
-  "nationalPokedexNumber": 2192,
+  "nationalPokedexNumber": 1613,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 37
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

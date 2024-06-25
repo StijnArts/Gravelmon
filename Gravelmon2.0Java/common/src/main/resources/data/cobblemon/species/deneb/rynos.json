@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rynos",
-  "nationalPokedexNumber": 4730,
+  "nationalPokedexNumber": 2766,
   "primaryType": "ground",
   "abilities": [
     "intimidate",
@@ -123,7 +123,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

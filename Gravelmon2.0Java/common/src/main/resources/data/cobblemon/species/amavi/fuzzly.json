@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fuzzly",
-  "nationalPokedexNumber": 5656,
+  "nationalPokedexNumber": 3088,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
@@ -82,7 +82,8 @@
           "target": "gender=female",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "fuzzly_grizzlair",
@@ -100,7 +101,8 @@
           "target": "gender=male",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

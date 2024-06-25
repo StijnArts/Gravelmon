@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "capyba",
-  "nationalPokedexNumber": 4851,
+  "nationalPokedexNumber": 2887,
   "primaryType": "normal",
   "abilities": [
     "unaware",
@@ -101,7 +101,8 @@
           "variant": "level",
           "minLevel": 22
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

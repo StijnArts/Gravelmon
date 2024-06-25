@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "budcheep",
-  "nationalPokedexNumber": 3561,
+  "nationalPokedexNumber": 2019,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -103,7 +103,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

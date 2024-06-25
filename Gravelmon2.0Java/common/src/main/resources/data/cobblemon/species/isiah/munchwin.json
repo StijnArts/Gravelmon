@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "munchwin",
-  "nationalPokedexNumber": 4256,
+  "nationalPokedexNumber": 2383,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -150,7 +150,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

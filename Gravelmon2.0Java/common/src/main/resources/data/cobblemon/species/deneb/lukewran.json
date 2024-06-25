@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lukewran",
-  "nationalPokedexNumber": 4850,
+  "nationalPokedexNumber": 2886,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -99,7 +99,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:fire_stone"   
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

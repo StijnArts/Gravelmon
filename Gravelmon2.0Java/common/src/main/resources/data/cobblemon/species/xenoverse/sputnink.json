@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sputnink",
-  "nationalPokedexNumber": 2114,
+  "nationalPokedexNumber": 1535,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -125,7 +125,8 @@
           "variant": "level",
           "minLevel": 38
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

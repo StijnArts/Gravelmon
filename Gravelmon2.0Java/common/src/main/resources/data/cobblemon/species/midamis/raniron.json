@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raniron",
-  "nationalPokedexNumber": 4447,
+  "nationalPokedexNumber": 2574,
   "primaryType": "normal",
   "secondaryType": "steel",
   "abilities": [
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 22
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

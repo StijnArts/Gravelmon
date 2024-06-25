@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cubeat",
-  "nationalPokedexNumber": 4130,
+  "nationalPokedexNumber": 2257,
   "primaryType": "sound",
   "abilities": [
     "klutz",
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

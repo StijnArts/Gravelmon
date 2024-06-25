@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mohavi",
-  "nationalPokedexNumber": 4206,
+  "nationalPokedexNumber": 2333,
   "primaryType": "grass",
   "secondaryType": "light",
   "abilities": [
@@ -78,7 +78,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

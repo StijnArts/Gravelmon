@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "varymite",
-  "nationalPokedexNumber": 4140,
+  "nationalPokedexNumber": 2267,
   "primaryType": "poison",
   "secondaryType": "cosmic",
   "abilities": [
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

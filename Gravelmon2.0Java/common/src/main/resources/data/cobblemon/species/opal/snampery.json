@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snampery",
-  "nationalPokedexNumber": 1665,
+  "nationalPokedexNumber": 1476,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -94,7 +94,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

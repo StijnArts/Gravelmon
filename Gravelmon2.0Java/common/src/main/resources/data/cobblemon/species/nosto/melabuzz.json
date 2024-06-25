@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "melabuzz",
-  "nationalPokedexNumber": 3558,
+  "nationalPokedexNumber": 2016,
   "primaryType": "bug",
   "abilities": [
     "keeneye",
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 12
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

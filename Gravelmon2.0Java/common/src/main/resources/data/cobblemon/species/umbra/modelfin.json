@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "modelfin",
-  "nationalPokedexNumber": 3717,
+  "nationalPokedexNumber": 2175,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -124,7 +124,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

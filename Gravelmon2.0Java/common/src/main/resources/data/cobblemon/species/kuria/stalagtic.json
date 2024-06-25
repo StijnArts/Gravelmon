@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stalagtic",
-  "nationalPokedexNumber": 4106,
+  "nationalPokedexNumber": 2233,
   "primaryType": "rock",
   "abilities": [
     "solidrock",
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nyashi",
-  "nationalPokedexNumber": 4153,
+  "nationalPokedexNumber": 2280,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

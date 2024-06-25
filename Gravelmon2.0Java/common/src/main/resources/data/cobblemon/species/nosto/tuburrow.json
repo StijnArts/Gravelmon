@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tuburrow",
-  "nationalPokedexNumber": 3568,
+  "nationalPokedexNumber": 2026,
   "primaryType": "ground",
   "abilities": [
     "sturdy",
@@ -111,7 +111,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

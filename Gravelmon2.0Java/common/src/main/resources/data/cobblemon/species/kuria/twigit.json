@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twigit",
-  "nationalPokedexNumber": 4085,
+  "nationalPokedexNumber": 2212,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hallucid",
-  "nationalPokedexNumber": 2269,
+  "nationalPokedexNumber": 1690,
   "primaryType": "psychic",
   "abilities": [
     "keeneye",
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

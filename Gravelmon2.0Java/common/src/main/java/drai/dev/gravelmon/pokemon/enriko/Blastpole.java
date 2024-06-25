@@ -40,7 +40,7 @@ public class Blastpole extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ENRIKO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_VOLCANIC)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

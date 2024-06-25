@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dazee",
-  "nationalPokedexNumber": 5601,
+  "nationalPokedexNumber": 3033,
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 31
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tumball",
-  "nationalPokedexNumber": 3530,
+  "nationalPokedexNumber": 1988,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -85,7 +85,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

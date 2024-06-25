@@ -143,7 +143,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:miracle_seed"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gelatini",
-  "nationalPokedexNumber": 5616,
+  "nationalPokedexNumber": 3048,
   "primaryType": "psychic",
   "secondaryType": "fighting",
   "abilities": [
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

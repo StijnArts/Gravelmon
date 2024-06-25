@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragurn",
-  "nationalPokedexNumber": 4170,
+  "nationalPokedexNumber": 2297,
   "primaryType": "dragon",
   "abilities": [
     "sturdy",
@@ -84,7 +84,8 @@
           "variant": "has_move",
           "move": "dragonpulse"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

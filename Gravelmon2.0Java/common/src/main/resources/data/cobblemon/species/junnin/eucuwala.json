@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eucuwala",
-  "nationalPokedexNumber": 2795,
+  "nationalPokedexNumber": 1767,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -109,7 +109,8 @@
           "variant": "level",
           "minLevel": 15
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

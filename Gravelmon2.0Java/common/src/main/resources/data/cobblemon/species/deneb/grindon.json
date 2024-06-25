@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grindon",
-  "nationalPokedexNumber": 4743,
+  "nationalPokedexNumber": 2779,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -127,7 +127,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.39999999999999997,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vauxee",
-  "nationalPokedexNumber": 4449,
+  "nationalPokedexNumber": 2576,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -88,7 +88,8 @@
           "variant": "friendship",
           "amount": 200
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

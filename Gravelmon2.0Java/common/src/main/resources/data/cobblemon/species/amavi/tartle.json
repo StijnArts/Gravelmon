@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tartle",
-  "nationalPokedexNumber": 5685,
+  "nationalPokedexNumber": 3117,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

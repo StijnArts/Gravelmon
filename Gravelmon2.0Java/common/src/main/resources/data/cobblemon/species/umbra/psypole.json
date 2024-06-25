@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "psypole",
-  "nationalPokedexNumber": 3648,
+  "nationalPokedexNumber": 2106,
   "primaryType": "psychic",
   "abilities": [
     "prankster",
@@ -151,7 +151,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

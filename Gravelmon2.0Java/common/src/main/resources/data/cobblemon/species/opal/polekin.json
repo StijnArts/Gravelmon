@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "polekin",
-  "nationalPokedexNumber": 1675,
+  "nationalPokedexNumber": 1486,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

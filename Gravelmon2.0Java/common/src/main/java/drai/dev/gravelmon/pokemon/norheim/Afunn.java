@@ -45,7 +45,7 @@ public class Afunn extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.NORHEIM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_FREEZING, Biome.IS_VOLCANIC))
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_FREEZING, Biome.IS_NETHER_BASALT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

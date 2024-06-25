@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lasaur",
-  "nationalPokedexNumber": 2343,
+  "nationalPokedexNumber": 1762,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "darakuma",
-  "nationalPokedexNumber": 4873,
+  "nationalPokedexNumber": 2909,
   "primaryType": "normal",
   "abilities": [
     "truant",
@@ -130,7 +130,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:sun_stone"   
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

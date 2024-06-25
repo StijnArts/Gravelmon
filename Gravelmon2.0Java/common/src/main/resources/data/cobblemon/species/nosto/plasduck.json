@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plasduck",
-  "nationalPokedexNumber": 3612,
+  "nationalPokedexNumber": 2070,
   "primaryType": "normal",
   "secondaryType": "water",
   "abilities": [
@@ -140,7 +140,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

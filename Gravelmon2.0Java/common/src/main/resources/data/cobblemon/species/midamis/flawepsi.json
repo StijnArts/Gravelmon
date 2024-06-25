@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flawepsi",
-  "nationalPokedexNumber": 4530,
+  "nationalPokedexNumber": 2657,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -85,7 +85,8 @@
           "variant": "level",
           "minLevel": 45
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

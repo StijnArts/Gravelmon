@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arugari",
-  "nationalPokedexNumber": 4954,
+  "nationalPokedexNumber": 2990,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
@@ -99,7 +99,8 @@
           "variant": "level",
           "minLevel": 47
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

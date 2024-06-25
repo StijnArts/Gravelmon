@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trishoutastral",
-  "nationalPokedexNumber": 2078,
+  "nationalPokedexNumber": 1499,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
@@ -63,22 +63,22 @@
       {
         "item": "gravelmon:terrestrial_ring",
         "quantityRange": "1-1",
-        "percentage": 40
+        "percentage": 10
       },
       {
         "item": "gravelmon:xenoversal_ring",
         "quantityRange": "1-1",
-        "percentage": 40
+        "percentage": 10
       },
       {
         "item": "gravelmon:terrestrial_ring",
         "quantityRange": "1-1",
-        "percentage": 10
+        "percentage": 40
       },
       {
         "item": "gravelmon:xenoversal_ring",
         "quantityRange": "1-1",
-        "percentage": 10
+        "percentage": 40
       },
       {
         "item": "gravelmon:terrestrial_ring",
@@ -163,7 +163,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutastral_trishoutterrestrial",
@@ -176,7 +177,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:terrestrial_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutastral_trishoutxenoversal",
@@ -189,7 +191,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:xenoversal_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.775,

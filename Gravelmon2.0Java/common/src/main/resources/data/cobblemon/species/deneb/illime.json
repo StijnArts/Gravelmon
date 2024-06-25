@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "illime",
-  "nationalPokedexNumber": 4914,
+  "nationalPokedexNumber": 2950,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -118,7 +118,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

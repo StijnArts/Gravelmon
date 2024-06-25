@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vacute",
-  "nationalPokedexNumber": 4451,
+  "nationalPokedexNumber": 2578,
   "primaryType": "grass",
   "abilities": [
     "keeneye",
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

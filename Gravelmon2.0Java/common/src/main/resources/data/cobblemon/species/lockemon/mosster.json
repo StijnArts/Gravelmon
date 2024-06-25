@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mosster",
-  "nationalPokedexNumber": 3455,
+  "nationalPokedexNumber": 1913,
   "primaryType": "grass",
   "abilities": [
     "raindish",
@@ -81,7 +81,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:water_stone"   
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voodol",
-  "nationalPokedexNumber": 5648,
+  "nationalPokedexNumber": 3080,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

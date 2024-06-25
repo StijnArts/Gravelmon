@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kwiklik",
-  "nationalPokedexNumber": 2315,
+  "nationalPokedexNumber": 1734,
   "primaryType": "normal",
   "abilities": [
     "download",
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

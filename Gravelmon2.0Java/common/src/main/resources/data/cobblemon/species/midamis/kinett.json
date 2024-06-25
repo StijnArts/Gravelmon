@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kinett",
-  "nationalPokedexNumber": 4498,
+  "nationalPokedexNumber": 2625,
   "primaryType": "fighting",
   "abilities": [
     "keeneye",
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 42
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tascorch",
-  "nationalPokedexNumber": 3701,
+  "nationalPokedexNumber": 2159,
   "primaryType": "fire",
   "abilities": [
     "hustle",
@@ -119,7 +119,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

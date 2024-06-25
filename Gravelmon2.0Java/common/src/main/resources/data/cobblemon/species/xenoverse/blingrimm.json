@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blingrimm",
-  "nationalPokedexNumber": 2091,
+  "nationalPokedexNumber": 1512,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
@@ -131,7 +131,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

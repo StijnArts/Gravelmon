@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chaust",
-  "nationalPokedexNumber": 4454,
+  "nationalPokedexNumber": 2581,
   "primaryType": "rock",
   "abilities": [
     "rockhead",
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 10
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crestival",
-  "nationalPokedexNumber": 5695,
+  "nationalPokedexNumber": 3127,
   "primaryType": "dragon",
   "secondaryType": "fire",
   "abilities": [
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 46
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

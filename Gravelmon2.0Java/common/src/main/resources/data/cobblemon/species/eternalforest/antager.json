@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "antager",
-  "nationalPokedexNumber": 3054,
+  "nationalPokedexNumber": 1872,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -142,7 +142,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

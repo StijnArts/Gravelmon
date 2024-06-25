@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ghoskarf",
-  "nationalPokedexNumber": 4138,
+  "nationalPokedexNumber": 2265,
   "primaryType": "ghost",
   "secondaryType": "ice",
   "abilities": [
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 55
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

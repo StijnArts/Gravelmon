@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "anoga",
-  "nationalPokedexNumber": 4955,
+  "nationalPokedexNumber": 2991,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
@@ -100,7 +100,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:shiny_stone"   
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

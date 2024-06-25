@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baburun",
-  "nationalPokedexNumber": 4922,
+  "nationalPokedexNumber": 2958,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -108,7 +108,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
  },
     {
       "id": "baburun_supaina",
@@ -119,7 +120,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:shiny_stone"   
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
  },
     {
       "id": "baburun_baretta",
@@ -130,7 +132,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dawn_stone"   
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

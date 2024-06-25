@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "saboltterrestrial",
-  "nationalPokedexNumber": 2104,
+  "nationalPokedexNumber": 1525,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -51,19 +51,19 @@
     "amount": "1",
     "entries": [
       {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
         "item": "gravelmon:xenoversal_ring",
         "quantityRange": "1-1",
         "percentage": 10
-      },
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 40
-      },
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 40
       }
     ]
   },
@@ -139,7 +139,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "saboltterrestrial_saboltxenoversal",
@@ -152,7 +153,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:xenoversal_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

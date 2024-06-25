@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "junkid",
-  "nationalPokedexNumber": 4346,
+  "nationalPokedexNumber": 2473,
   "primaryType": "steel",
   "abilities": [
     "weakarmor",
@@ -123,7 +123,8 @@
           "variant": "level",
           "minLevel": 41
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "enigmera",
-  "nationalPokedexNumber": 5598,
+  "nationalPokedexNumber": 3030,
   "primaryType": "dragon",
   "secondaryType": "normal",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

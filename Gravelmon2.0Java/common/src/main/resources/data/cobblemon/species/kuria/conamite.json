@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "conamite",
-  "nationalPokedexNumber": 4107,
+  "nationalPokedexNumber": 2234,
   "primaryType": "rock",
   "abilities": [
     "solidrock",
@@ -81,7 +81,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

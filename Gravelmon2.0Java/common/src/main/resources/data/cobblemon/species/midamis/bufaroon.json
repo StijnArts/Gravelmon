@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bufaroon",
-  "nationalPokedexNumber": 4429,
+  "nationalPokedexNumber": 2556,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 33
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

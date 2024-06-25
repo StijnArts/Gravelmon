@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sipsap",
-  "nationalPokedexNumber": 2173,
+  "nationalPokedexNumber": 1594,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -85,7 +85,8 @@
           "variant": "time_range",
           "range": night
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

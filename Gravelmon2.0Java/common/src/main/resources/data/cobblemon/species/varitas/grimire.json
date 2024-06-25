@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grimire",
-  "nationalPokedexNumber": 2330,
+  "nationalPokedexNumber": 1749,
   "primaryType": "ground",
   "abilities": [
     "arenatrap",
@@ -121,7 +121,8 @@
           "variant": "level",
           "minLevel": 38
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

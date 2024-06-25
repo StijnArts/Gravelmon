@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eletta",
-  "nationalPokedexNumber": 2258,
+  "nationalPokedexNumber": 1679,
   "primaryType": "electric",
   "secondaryType": "ghost",
   "abilities": [
@@ -86,7 +86,8 @@
           "variant": "level",
           "minLevel": 24
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

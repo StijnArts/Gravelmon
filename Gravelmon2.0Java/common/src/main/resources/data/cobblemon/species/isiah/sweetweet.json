@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sweetweet",
-  "nationalPokedexNumber": 4297,
+  "nationalPokedexNumber": 2424,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 26
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

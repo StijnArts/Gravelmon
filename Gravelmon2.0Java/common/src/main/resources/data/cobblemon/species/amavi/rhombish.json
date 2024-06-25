@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rhombish",
-  "nationalPokedexNumber": 5690,
+  "nationalPokedexNumber": 3122,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -86,7 +86,8 @@
           "target": "gender=female",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

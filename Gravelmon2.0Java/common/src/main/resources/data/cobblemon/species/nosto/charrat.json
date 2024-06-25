@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "charrat",
-  "nationalPokedexNumber": 3535,
+  "nationalPokedexNumber": 1993,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -108,7 +108,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

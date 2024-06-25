@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rabball",
-  "nationalPokedexNumber": 3063,
+  "nationalPokedexNumber": 1881,
   "primaryType": "rock",
   "abilities": [
     "purepower",
@@ -215,7 +215,8 @@
           "variant": "level",
           "minLevel": 55
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

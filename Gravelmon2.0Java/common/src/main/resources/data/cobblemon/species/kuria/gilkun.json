@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gilkun",
-  "nationalPokedexNumber": 4196,
+  "nationalPokedexNumber": 2323,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -86,7 +86,8 @@
           "target": "gender=male",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "gilkun_senfetta",
@@ -104,7 +105,8 @@
           "target": "gender=female",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "gilkun_plakidd",
@@ -117,7 +119,8 @@
           "variant": "level",
           "minLevel": 46
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

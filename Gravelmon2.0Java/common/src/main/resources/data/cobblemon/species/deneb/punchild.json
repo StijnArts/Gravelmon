@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "punchild",
-  "nationalPokedexNumber": 4819,
+  "nationalPokedexNumber": 2855,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
@@ -129,7 +129,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

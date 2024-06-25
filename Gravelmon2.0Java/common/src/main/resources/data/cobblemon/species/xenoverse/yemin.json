@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yemin",
-  "nationalPokedexNumber": 2083,
+  "nationalPokedexNumber": 1504,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -141,7 +141,8 @@
           "variant": "level",
           "minLevel": 21
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

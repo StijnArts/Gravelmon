@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "delflauge",
-  "nationalPokedexNumber": 5671,
+  "nationalPokedexNumber": 3103,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

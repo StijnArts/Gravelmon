@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elepod",
-  "nationalPokedexNumber": 4155,
+  "nationalPokedexNumber": 2282,
   "primaryType": "electric",
   "secondaryType": "cosmic",
   "abilities": [
@@ -81,7 +81,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:thunder_stone"   
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

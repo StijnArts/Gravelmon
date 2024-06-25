@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baybolt",
-  "nationalPokedexNumber": 2838,
+  "nationalPokedexNumber": 1810,
   "primaryType": "electric",
   "abilities": [
     "static",
@@ -132,7 +132,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:thunder_stone"   
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -36,7 +36,7 @@ public class Volcunn extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.NORHEIM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 61, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC))
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "treetle",
-  "nationalPokedexNumber": 3529,
+  "nationalPokedexNumber": 1987,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

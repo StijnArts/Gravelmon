@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "minusplus",
-  "nationalPokedexNumber": 2227,
+  "nationalPokedexNumber": 1648,
   "primaryType": "psychic",
   "abilities": [
     "levitate",
@@ -70,7 +70,8 @@
           "variant": "level",
           "minLevel": 18
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tuttby",
-  "nationalPokedexNumber": 2880,
+  "nationalPokedexNumber": 1852,
   "primaryType": "psychic",
   "abilities": [
     "forewarn",
@@ -148,7 +148,8 @@
           "variant": "level",
           "minLevel": 29
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

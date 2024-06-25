@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "primmadame",
-  "nationalPokedexNumber": 3610,
+  "nationalPokedexNumber": 2068,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -113,7 +113,8 @@
           "variant": "level",
           "minLevel": 43
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.39999999999999997,

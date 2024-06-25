@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rocabayo",
-  "nationalPokedexNumber": 5701,
+  "nationalPokedexNumber": 3133,
   "primaryType": "grass",
   "abilities": [
     "keeneye",
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 22
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

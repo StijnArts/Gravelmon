@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "confectious",
-  "nationalPokedexNumber": 2345,
+  "nationalPokedexNumber": 1764,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -120,7 +120,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

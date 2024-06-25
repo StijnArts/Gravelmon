@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gardleon",
-  "nationalPokedexNumber": 4760,
+  "nationalPokedexNumber": 2796,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -110,7 +110,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

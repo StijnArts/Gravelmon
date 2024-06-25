@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shulongterrestrial",
-  "nationalPokedexNumber": 2079,
+  "nationalPokedexNumber": 1500,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -51,24 +51,24 @@
     "amount": "1",
     "entries": [
       {
-        "item": "gravelmon:xenoversal_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:xenoversal_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
         "item": "gravelmon:terrestrial_ring",
         "quantityRange": "1-1",
         "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
       },
       {
         "item": "gravelmon:terrestrial_ring",
@@ -160,7 +160,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "shulongterrestrial_shulongxenoversal",
@@ -173,7 +174,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:xenoversal_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "shulongterrestrial_shulongastral",
@@ -190,7 +192,8 @@
           "variant": "level",
           "minLevel": 50
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "shulongterrestrial_shulongastral",
@@ -207,7 +210,8 @@
           "variant": "level",
           "minLevel": 50
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 1.2,

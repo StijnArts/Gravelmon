@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dollipop",
-  "nationalPokedexNumber": 4312,
+  "nationalPokedexNumber": 2439,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -84,7 +84,8 @@
           "variant": "friendship",
           "amount": 210
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

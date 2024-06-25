@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chanalee",
-  "nationalPokedexNumber": 4495,
+  "nationalPokedexNumber": 2622,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

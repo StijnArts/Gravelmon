@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crapore",
-  "nationalPokedexNumber": 4279,
+  "nationalPokedexNumber": 2406,
   "primaryType": "water",
   "abilities": [
     "sniper",
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

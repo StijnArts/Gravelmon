@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kodachiuo",
-  "nationalPokedexNumber": 4893,
+  "nationalPokedexNumber": 2929,
   "primaryType": "water",
   "abilities": [
     "sharpness",
@@ -105,7 +105,8 @@
           "variant": "level",
           "minLevel": 27
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

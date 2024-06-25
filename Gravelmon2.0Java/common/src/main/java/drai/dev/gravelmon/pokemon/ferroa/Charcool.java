@@ -105,7 +105,7 @@ public class Charcool extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.FERROA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 55, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_FOREST))
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

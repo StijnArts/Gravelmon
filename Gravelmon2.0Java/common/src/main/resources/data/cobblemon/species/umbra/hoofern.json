@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoofern",
-  "nationalPokedexNumber": 3684,
+  "nationalPokedexNumber": 2142,
   "primaryType": "grass",
   "abilities": [
     "harvest",
@@ -122,7 +122,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

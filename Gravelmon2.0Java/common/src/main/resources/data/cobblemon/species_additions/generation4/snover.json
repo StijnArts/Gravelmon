@@ -4,6 +4,7 @@
    "id": "snover_permaent",
    "variant": "level_up",
    "result": "permaent",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [
    ],

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoppiler",
-  "nationalPokedexNumber": 2830,
+  "nationalPokedexNumber": 1802,
   "primaryType": "bug",
   "abilities": [
     "runaway",
@@ -95,7 +95,8 @@
           "variant": "level",
           "minLevel": 15
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

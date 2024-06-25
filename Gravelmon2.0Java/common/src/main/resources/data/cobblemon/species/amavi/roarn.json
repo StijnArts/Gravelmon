@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "roarn",
-  "nationalPokedexNumber": 5683,
+  "nationalPokedexNumber": 3115,
   "primaryType": "fire",
   "abilities": [
     "keeneye",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 43
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

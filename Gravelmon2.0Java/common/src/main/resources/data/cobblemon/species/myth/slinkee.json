@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slinkee",
-  "nationalPokedexNumber": 4396,
+  "nationalPokedexNumber": 2523,
   "primaryType": "water",
   "abilities": [
     "intimidate",
@@ -95,7 +95,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

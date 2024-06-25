@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spawnkey",
-  "nationalPokedexNumber": 5564,
+  "nationalPokedexNumber": 2996,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

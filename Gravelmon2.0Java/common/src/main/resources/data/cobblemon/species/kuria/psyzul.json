@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "psyzul",
-  "nationalPokedexNumber": 4098,
+  "nationalPokedexNumber": 2225,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
@@ -89,7 +89,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

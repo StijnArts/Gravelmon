@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spunch",
-  "nationalPokedexNumber": 2239,
+  "nationalPokedexNumber": 1660,
   "primaryType": "fighting",
   "abilities": [
     "waterabsorb",
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 29
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ptervus",
-  "nationalPokedexNumber": 4741,
+  "nationalPokedexNumber": 2777,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -122,7 +122,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.6749999999999999,

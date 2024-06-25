@@ -317,7 +317,11 @@ public class SpeciesDataJSONWriter {
                     fileContents += ",\n" +
                             "      \"requiredContext\": \""+evolution.getRequiredContext()+"\"";
                 }
+                fileContents += ",\n" +
+                            "      \"permanent\": true";
+
                 fileContents += "   \n }";
+
             }
             fileContents += "\n  ],\n";
         }
@@ -510,6 +514,9 @@ public class SpeciesDataJSONWriter {
                     formString += ",\n" +
                             "      \"requiredContext\": \""+evolution.getRequiredContext()+"\"";
                 }
+                    formString += ",\n" +
+                            "      \"permanent\": true";
+
                 formString += "\n    }";
             }
             formString += "\n  ],\n";

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pixipetal",
-  "nationalPokedexNumber": 3686,
+  "nationalPokedexNumber": 2144,
   "primaryType": "fairy",
   "abilities": [
     "dancer",
@@ -121,7 +121,8 @@
           "variant": "time_range",
           "range": day
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

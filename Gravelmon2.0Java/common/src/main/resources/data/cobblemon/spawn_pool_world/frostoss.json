@@ -15,7 +15,7 @@
       "level": "13-34",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
+"biomes": [ "#gravelmon:is_snowy" ],
         "canSeeSky": true
       },
       "anticondition": {

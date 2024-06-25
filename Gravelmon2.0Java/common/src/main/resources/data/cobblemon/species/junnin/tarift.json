@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tarift",
-  "nationalPokedexNumber": 2878,
+  "nationalPokedexNumber": 1850,
   "primaryType": "ground",
   "secondaryType": "dragon",
   "abilities": [
@@ -127,7 +127,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

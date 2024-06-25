@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "edglet",
-  "nationalPokedexNumber": 4102,
+  "nationalPokedexNumber": 2229,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 24
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bonchild",
-  "nationalPokedexNumber": 4866,
+  "nationalPokedexNumber": 2902,
   "primaryType": "fire",
   "secondaryType": "fighting",
   "abilities": [
@@ -139,7 +139,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

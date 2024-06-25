@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "velvelt",
-  "nationalPokedexNumber": 4723,
+  "nationalPokedexNumber": 2759,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -129,7 +129,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

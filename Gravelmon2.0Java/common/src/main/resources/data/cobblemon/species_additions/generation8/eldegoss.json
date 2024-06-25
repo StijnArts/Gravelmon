@@ -4,6 +4,7 @@
    "id": "eldegoss_witherscence",
    "variant": "level_up",
    "result": "witherscence",
+   "permanent": true,
    "consumeHeldItem": true,
    "learnableMoves": [],
    "requirements": [

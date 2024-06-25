@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "narnail",
-  "nationalPokedexNumber": 4348,
+  "nationalPokedexNumber": 2475,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -72,9 +72,9 @@
   ],
   "evolutions": [
     {
-      "id": "narnail_unirval",
+      "id": "narnail_Unirval",
       "variant": "level_up",
-      "result": "unirval",
+      "result": "Unirval",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

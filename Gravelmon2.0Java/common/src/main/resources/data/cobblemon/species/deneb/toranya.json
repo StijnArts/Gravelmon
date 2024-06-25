@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "toranya",
-  "nationalPokedexNumber": 4908,
+  "nationalPokedexNumber": 2944,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -108,7 +108,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

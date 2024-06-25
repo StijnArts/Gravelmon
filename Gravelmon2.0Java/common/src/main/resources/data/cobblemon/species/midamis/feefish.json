@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "feefish",
-  "nationalPokedexNumber": 4550,
+  "nationalPokedexNumber": 2677,
   "primaryType": "water",
   "abilities": [
     "runaway",
@@ -83,7 +83,8 @@
           "variant": "time_range",
           "range": day
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "feefish_feegremin",
@@ -100,7 +101,8 @@
           "variant": "time_range",
           "range": night
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

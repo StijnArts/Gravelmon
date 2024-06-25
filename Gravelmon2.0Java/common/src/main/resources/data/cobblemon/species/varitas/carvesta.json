@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carvesta",
-  "nationalPokedexNumber": 2328,
+  "nationalPokedexNumber": 1747,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -113,7 +113,8 @@
           "variant": "level",
           "minLevel": 59
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

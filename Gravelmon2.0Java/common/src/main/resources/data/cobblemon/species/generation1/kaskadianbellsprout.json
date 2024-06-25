@@ -122,7 +122,8 @@
           "variant": "has_move",
           "move": "psychicterrain"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

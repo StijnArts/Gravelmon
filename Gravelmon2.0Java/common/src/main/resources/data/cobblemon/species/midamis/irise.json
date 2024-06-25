@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "irise",
-  "nationalPokedexNumber": 4508,
+  "nationalPokedexNumber": 2635,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -86,7 +86,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

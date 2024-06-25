@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "peblock",
-  "nationalPokedexNumber": 4281,
+  "nationalPokedexNumber": 2408,
   "primaryType": "rock",
   "abilities": [
     "sturdy",
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 215
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

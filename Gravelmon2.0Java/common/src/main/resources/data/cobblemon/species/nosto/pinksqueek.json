@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pinksqueek",
-  "nationalPokedexNumber": 3563,
+  "nationalPokedexNumber": 2021,
   "primaryType": "fairy",
   "secondaryType": "normal",
   "abilities": [
@@ -86,7 +86,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:moon_stone"   
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

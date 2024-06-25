@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voltako",
-  "nationalPokedexNumber": 4246,
+  "nationalPokedexNumber": 2373,
   "primaryType": "electric",
   "abilities": [
     "suctioncups",
@@ -80,7 +80,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:thunder_stone"   
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

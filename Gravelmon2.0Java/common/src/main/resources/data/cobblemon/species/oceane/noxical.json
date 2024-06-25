@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "noxical",
-  "nationalPokedexNumber": 2278,
+  "nationalPokedexNumber": 1699,
   "primaryType": "dragon",
   "abilities": [
     "poisonpoint",
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 64
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

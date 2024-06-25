@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coltroy",
-  "nationalPokedexNumber": 5702,
+  "nationalPokedexNumber": 3134,
   "primaryType": "grass",
   "abilities": [
     "keeneye",
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 44
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

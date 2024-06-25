@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shivermin",
-  "nationalPokedexNumber": 4777,
+  "nationalPokedexNumber": 2813,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
@@ -124,7 +124,8 @@
           "variant": "level",
           "minLevel": 29
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

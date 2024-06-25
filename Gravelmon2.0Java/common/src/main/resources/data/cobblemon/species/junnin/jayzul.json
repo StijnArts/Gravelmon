@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jayzul",
-  "nationalPokedexNumber": 2828,
+  "nationalPokedexNumber": 1800,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -109,7 +109,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

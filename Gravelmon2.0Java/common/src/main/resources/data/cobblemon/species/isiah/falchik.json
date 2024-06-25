@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "falchik",
-  "nationalPokedexNumber": 4366,
+  "nationalPokedexNumber": 2493,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -70,9 +70,9 @@
   ],
   "evolutions": [
     {
-      "id": "falchik_valkite",
+      "id": "falchik_Valkite",
       "variant": "level_up",
-      "result": "valkite",
+      "result": "Valkite",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 31
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

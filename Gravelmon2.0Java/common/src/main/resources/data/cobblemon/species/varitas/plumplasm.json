@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plumplasm",
-  "nationalPokedexNumber": 2306,
+  "nationalPokedexNumber": 1725,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

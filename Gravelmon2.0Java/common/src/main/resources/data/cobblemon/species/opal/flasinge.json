@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flasinge",
-  "nationalPokedexNumber": 1668,
+  "nationalPokedexNumber": 1479,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -91,7 +91,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

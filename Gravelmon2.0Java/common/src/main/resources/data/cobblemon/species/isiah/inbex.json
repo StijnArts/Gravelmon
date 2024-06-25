@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inbex",
-  "nationalPokedexNumber": 4248,
+  "nationalPokedexNumber": 2375,
   "primaryType": "steel",
   "abilities": [
     "limber",
@@ -72,7 +72,8 @@
           "variant": "level",
           "minLevel": 28
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

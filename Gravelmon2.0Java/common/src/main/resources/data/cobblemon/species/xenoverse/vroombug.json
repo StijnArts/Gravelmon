@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vroombug",
-  "nationalPokedexNumber": 2124,
+  "nationalPokedexNumber": 1545,
   "primaryType": "bug",
   "secondaryType": "sound",
   "abilities": [
@@ -125,7 +125,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:spare_parts"   
+      "requiredContext": "gravelmon:spare_parts",
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

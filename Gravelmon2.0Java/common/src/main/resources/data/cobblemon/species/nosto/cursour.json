@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cursour",
-  "nationalPokedexNumber": 3591,
+  "nationalPokedexNumber": 2049,
   "primaryType": "electric",
   "secondaryType": "grass",
   "abilities": [
@@ -120,7 +120,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:thunder_stone"   
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

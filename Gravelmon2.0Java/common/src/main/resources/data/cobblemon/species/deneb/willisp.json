@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "willisp",
-  "nationalPokedexNumber": 4700,
+  "nationalPokedexNumber": 2736,
   "primaryType": "fire",
   "abilities": [
     "levitate",
@@ -123,7 +123,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:fire_stone"   
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

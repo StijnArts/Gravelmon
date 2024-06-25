@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chubiburny",
-  "nationalPokedexNumber": 2117,
+  "nationalPokedexNumber": 1538,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -119,7 +119,8 @@
           "target": "birigiri",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

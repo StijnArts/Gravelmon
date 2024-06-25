@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "takuni",
-  "nationalPokedexNumber": 4679,
+  "nationalPokedexNumber": 2715,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -122,7 +122,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

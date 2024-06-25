@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vasquito",
-  "nationalPokedexNumber": 5723,
+  "nationalPokedexNumber": 3155,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 34
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

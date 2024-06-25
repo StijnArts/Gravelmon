@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "veneedle",
-  "nationalPokedexNumber": 4462,
+  "nationalPokedexNumber": 2589,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 27
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

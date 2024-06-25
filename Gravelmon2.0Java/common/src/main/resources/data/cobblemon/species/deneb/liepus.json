@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liepus",
-  "nationalPokedexNumber": 4694,
+  "nationalPokedexNumber": 2730,
   "primaryType": "dark",
   "abilities": [
     "runaway",
@@ -127,7 +127,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:sun_stone"   
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

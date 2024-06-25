@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kureigu",
-  "nationalPokedexNumber": 4886,
+  "nationalPokedexNumber": 2922,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -71,7 +71,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

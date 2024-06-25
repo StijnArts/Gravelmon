@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "auditaur",
-  "nationalPokedexNumber": 3473,
+  "nationalPokedexNumber": 1931,
   "primaryType": "normal",
   "abilities": [
     "motordrive",
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

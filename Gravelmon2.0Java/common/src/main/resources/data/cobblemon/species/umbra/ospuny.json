@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ospuny",
-  "nationalPokedexNumber": 3665,
+  "nationalPokedexNumber": 2123,
   "primaryType": "flying",
   "abilities": [
     "bigpecks",
@@ -114,7 +114,8 @@
           "variant": "level",
           "minLevel": 18
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

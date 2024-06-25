@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frozaiden",
-  "nationalPokedexNumber": 4690,
+  "nationalPokedexNumber": 2726,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -123,7 +123,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

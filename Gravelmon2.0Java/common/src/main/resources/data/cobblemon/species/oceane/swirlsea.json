@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swirlsea",
-  "nationalPokedexNumber": 2210,
+  "nationalPokedexNumber": 1631,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -73,7 +73,8 @@
           "variant": "level",
           "minLevel": 10
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

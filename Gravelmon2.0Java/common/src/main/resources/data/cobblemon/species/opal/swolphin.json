@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swolphin",
-  "nationalPokedexNumber": 1671,
+  "nationalPokedexNumber": 1482,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -94,7 +94,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hamerry",
-  "nationalPokedexNumber": 3056,
+  "nationalPokedexNumber": 1874,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -134,7 +134,8 @@
           "variant": "level",
           "minLevel": 22
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

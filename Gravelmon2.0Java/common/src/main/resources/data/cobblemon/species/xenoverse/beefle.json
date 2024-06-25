@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beefle",
-  "nationalPokedexNumber": 2099,
+  "nationalPokedexNumber": 1520,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -112,7 +112,8 @@
           "variant": "level",
           "minLevel": 18
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gruffle",
-  "nationalPokedexNumber": 5619,
+  "nationalPokedexNumber": 3051,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

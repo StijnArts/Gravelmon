@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "echoral",
-  "nationalPokedexNumber": 5670,
+  "nationalPokedexNumber": 3102,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 19
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

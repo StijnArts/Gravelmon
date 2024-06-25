@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bwobble",
-  "nationalPokedexNumber": 2277,
+  "nationalPokedexNumber": 1698,
   "primaryType": "dragon",
   "abilities": [
     "poisonpoint",
@@ -77,7 +77,8 @@
           "variant": "level",
           "minLevel": 50
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

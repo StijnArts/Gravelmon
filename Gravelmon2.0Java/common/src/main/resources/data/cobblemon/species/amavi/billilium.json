@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "billilium",
-  "nationalPokedexNumber": 5589,
+  "nationalPokedexNumber": 3021,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
@@ -137,7 +137,8 @@
           "variant": "attack_defence_ratio",
           "ratio": ATTACK_HIGHER
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "billilium_rustangel",
@@ -154,7 +155,8 @@
           "variant": "attack_defence_ratio",
           "ratio": DEFENCE_HIGHER
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

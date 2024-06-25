@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "churlice",
-  "nationalPokedexNumber": 2265,
+  "nationalPokedexNumber": 1686,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 19
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

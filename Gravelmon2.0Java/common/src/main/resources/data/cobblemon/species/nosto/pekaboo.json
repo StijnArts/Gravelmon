@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pekaboo",
-  "nationalPokedexNumber": 3588,
+  "nationalPokedexNumber": 2046,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -136,7 +136,8 @@
           "variant": "level",
           "minLevel": 34
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

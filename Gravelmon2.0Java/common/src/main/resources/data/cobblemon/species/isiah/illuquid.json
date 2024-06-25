@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "illuquid",
-  "nationalPokedexNumber": 4325,
+  "nationalPokedexNumber": 2452,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -78,7 +78,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:water_stone"   
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

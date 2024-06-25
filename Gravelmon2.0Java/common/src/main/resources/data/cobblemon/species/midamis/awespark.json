@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "awespark",
-  "nationalPokedexNumber": 4536,
+  "nationalPokedexNumber": 2663,
   "primaryType": "electric",
   "abilities": [
     "voltabsorb",
@@ -71,7 +71,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:thunder_stone"   
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

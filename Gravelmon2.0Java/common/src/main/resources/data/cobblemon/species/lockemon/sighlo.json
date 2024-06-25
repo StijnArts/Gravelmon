@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sighlo",
-  "nationalPokedexNumber": 3441,
+  "nationalPokedexNumber": 1899,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -71,7 +71,8 @@
           "variant": "level",
           "minLevel": 8
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

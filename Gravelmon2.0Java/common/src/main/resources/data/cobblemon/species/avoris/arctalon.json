@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arctalon",
-  "nationalPokedexNumber": 2160,
+  "nationalPokedexNumber": 1581,
   "primaryType": "flying",
   "secondaryType": "ice",
   "abilities": [
@@ -137,7 +137,8 @@
           "variant": "level",
           "minLevel": 38
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

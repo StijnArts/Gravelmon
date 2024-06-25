@@ -103,7 +103,8 @@
           "target": "gender=male",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "hoennianvenonat_lucemoth",
@@ -117,7 +118,8 @@
           "target": "gender=female",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

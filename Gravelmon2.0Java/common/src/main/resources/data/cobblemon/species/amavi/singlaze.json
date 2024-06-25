@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "singlaze",
-  "nationalPokedexNumber": 5687,
+  "nationalPokedexNumber": 3119,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -75,7 +75,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

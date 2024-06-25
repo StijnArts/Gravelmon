@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabolt",
-  "nationalPokedexNumber": 2104,
+  "nationalPokedexNumber": 1525,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -134,7 +134,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:terrestrial_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "sabolt_saboltxenoversal",
@@ -147,7 +148,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:xenoversal_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

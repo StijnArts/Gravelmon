@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cupscape",
-  "nationalPokedexNumber": 2249,
+  "nationalPokedexNumber": 1670,
   "primaryType": "fairy",
   "secondaryType": "rock",
   "abilities": [
@@ -82,7 +82,8 @@
           "target": "Hypnode",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

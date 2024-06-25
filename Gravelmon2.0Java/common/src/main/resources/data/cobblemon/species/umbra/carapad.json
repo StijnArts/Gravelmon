@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carapad",
-  "nationalPokedexNumber": 3673,
+  "nationalPokedexNumber": 2131,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -117,7 +117,8 @@
           "variant": "has_move",
           "move": "raindance"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

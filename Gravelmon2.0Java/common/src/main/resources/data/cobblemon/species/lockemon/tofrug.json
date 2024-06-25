@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tofrug",
-  "nationalPokedexNumber": 3451,
+  "nationalPokedexNumber": 1909,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
@@ -91,7 +91,8 @@
           "variant": "level",
           "minLevel": 29
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

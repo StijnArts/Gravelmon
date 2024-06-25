@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elekto",
-  "nationalPokedexNumber": 4350,
+  "nationalPokedexNumber": 2477,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -78,7 +78,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

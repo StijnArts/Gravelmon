@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "florcoon",
-  "nationalPokedexNumber": 4428,
+  "nationalPokedexNumber": 2555,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
@@ -88,7 +88,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

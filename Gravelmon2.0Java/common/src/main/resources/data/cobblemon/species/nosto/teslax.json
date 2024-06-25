@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "teslax",
-  "nationalPokedexNumber": 3628,
+  "nationalPokedexNumber": 2086,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 38
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

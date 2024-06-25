@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "friney",
-  "nationalPokedexNumber": 2197,
+  "nationalPokedexNumber": 1618,
   "primaryType": "steel",
   "abilities": [
     "keeneye",
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

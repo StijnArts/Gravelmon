@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rollip",
-  "nationalPokedexNumber": 2833,
+  "nationalPokedexNumber": 1805,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -94,7 +94,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

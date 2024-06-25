@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wijin",
-  "nationalPokedexNumber": 4309,
+  "nationalPokedexNumber": 2436,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 29
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

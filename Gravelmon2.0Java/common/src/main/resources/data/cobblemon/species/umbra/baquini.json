@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baquini",
-  "nationalPokedexNumber": 3716,
+  "nationalPokedexNumber": 2174,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -121,7 +121,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

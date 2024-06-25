@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "biduane",
-  "nationalPokedexNumber": 4472,
+  "nationalPokedexNumber": 2599,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -90,7 +90,8 @@
           "variant": "time_range",
           "range": day
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "biduane_bidread",
@@ -107,7 +108,8 @@
           "variant": "time_range",
           "range": night
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ponsense",
-  "nationalPokedexNumber": 5689,
+  "nationalPokedexNumber": 3121,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -78,7 +78,8 @@
           "variant": "level",
           "minLevel": 27
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

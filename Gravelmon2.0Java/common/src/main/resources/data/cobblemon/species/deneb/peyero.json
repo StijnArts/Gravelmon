@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "peyero",
-  "nationalPokedexNumber": 4673,
+  "nationalPokedexNumber": 2709,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -121,7 +121,8 @@
           "variant": "level",
           "minLevel": 18
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

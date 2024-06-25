@@ -152,7 +152,8 @@
           "variant": "has_move",
           "move": "hornleech"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

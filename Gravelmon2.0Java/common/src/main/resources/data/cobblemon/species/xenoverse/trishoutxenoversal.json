@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trishoutxenoversal",
-  "nationalPokedexNumber": 2078,
+  "nationalPokedexNumber": 1499,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
@@ -61,24 +61,24 @@
         "percentage": 40
       },
       {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
         "item": "gravelmon:xenoversal_ring",
         "quantityRange": "1-1",
         "percentage": 40
-      },
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:xenoversal_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
       }
     ]
   },
@@ -159,7 +159,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutxenoversal_trishoutterrestrial",
@@ -172,7 +173,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:terrestrial_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutxenoversal_trishoutastral",
@@ -189,7 +191,8 @@
           "variant": "level",
           "minLevel": 50
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutxenoversal_trishoutastral",
@@ -206,7 +209,8 @@
           "variant": "level",
           "minLevel": 50
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.39999999999999997,

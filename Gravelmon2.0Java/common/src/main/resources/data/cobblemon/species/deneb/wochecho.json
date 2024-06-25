@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wochecho",
-  "nationalPokedexNumber": 4859,
+  "nationalPokedexNumber": 2895,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -109,7 +109,8 @@
           "variant": "level",
           "minLevel": 34
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "campyre",
-  "nationalPokedexNumber": 2845,
+  "nationalPokedexNumber": 1817,
   "primaryType": "fire",
   "abilities": [
     "flamebody",
@@ -122,7 +122,8 @@
           "variant": "time_range",
           "range": day
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

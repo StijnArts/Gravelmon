@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "remonisu",
-  "nationalPokedexNumber": 4875,
+  "nationalPokedexNumber": 2911,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -102,7 +102,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:thunder_stone"   
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

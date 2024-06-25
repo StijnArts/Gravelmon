@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aromutt",
-  "nationalPokedexNumber": 2822,
+  "nationalPokedexNumber": 1794,
   "primaryType": "normal",
   "abilities": [
     "forewarn",
@@ -114,7 +114,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

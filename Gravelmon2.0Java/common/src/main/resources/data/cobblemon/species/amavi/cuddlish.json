@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cuddlish",
-  "nationalPokedexNumber": 5673,
+  "nationalPokedexNumber": 3105,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stalad",
-  "nationalPokedexNumber": 2849,
+  "nationalPokedexNumber": 1821,
   "primaryType": "rock",
   "abilities": [
     "sturdy",
@@ -104,7 +104,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

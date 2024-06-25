@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "duranae",
-  "nationalPokedexNumber": 4110,
+  "nationalPokedexNumber": 2237,
   "primaryType": "ground",
   "secondaryType": "bug",
   "abilities": [
@@ -89,7 +89,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spidoux",
-  "nationalPokedexNumber": 3677,
+  "nationalPokedexNumber": 2135,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -121,7 +121,8 @@
           "variant": "level",
           "minLevel": 24
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

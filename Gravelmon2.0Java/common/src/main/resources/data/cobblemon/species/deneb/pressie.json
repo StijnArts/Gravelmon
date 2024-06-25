@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pressie",
-  "nationalPokedexNumber": 4746,
+  "nationalPokedexNumber": 2782,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -140,7 +140,8 @@
           "variant": "friendship",
           "amount": 160
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "pressie_kaskadianlapras",
@@ -153,7 +154,8 @@
           "variant": "friendship",
           "amount": 160
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "pressie_mythianlapras",
@@ -166,7 +168,8 @@
           "variant": "friendship",
           "amount": 160
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "pressie_novranlapras",
@@ -177,7 +180,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:thunder_stone"   
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

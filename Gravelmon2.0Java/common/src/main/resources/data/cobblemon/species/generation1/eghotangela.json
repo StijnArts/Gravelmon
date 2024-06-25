@@ -137,14 +137,11 @@
   "labels": [
     "infinity",
     "gen1",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.eghotangela.desc"
   ],
-  "preEvolution": "weeduza",
   "evolutions": [
     {
       "id": "eghotangela_eghotangrowth",
@@ -155,7 +152,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:thunder_stone"   
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

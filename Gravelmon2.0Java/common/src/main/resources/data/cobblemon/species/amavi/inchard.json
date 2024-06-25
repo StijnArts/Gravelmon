@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inchard",
-  "nationalPokedexNumber": 5731,
+  "nationalPokedexNumber": 3163,
   "primaryType": "ice",
   "secondaryType": "bug",
   "abilities": [
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 22
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

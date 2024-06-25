@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lapot",
-  "nationalPokedexNumber": 4364,
+  "nationalPokedexNumber": 2491,
   "primaryType": "ground",
   "abilities": [
     "keeneye",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 41
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "molit",
-  "nationalPokedexNumber": 5716,
+  "nationalPokedexNumber": 3148,
   "primaryType": "normal",
   "abilities": [
     "illuminate",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

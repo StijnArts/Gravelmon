@@ -130,7 +130,8 @@
           "variant": "level",
           "minLevel": 42
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "deltasnorunt_deltafroslass",
@@ -145,7 +146,8 @@
           "contains": true
         }
       ],
-      "requiredContext": "cobblemon:dawn_stone"   
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

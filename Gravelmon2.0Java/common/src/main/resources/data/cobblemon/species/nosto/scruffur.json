@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scruffur",
-  "nationalPokedexNumber": 3574,
+  "nationalPokedexNumber": 2032,
   "primaryType": "ground",
   "abilities": [
     "sandveil",
@@ -106,7 +106,8 @@
           "variant": "level",
           "minLevel": 37
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

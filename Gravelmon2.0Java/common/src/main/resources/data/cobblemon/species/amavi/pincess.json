@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pincess",
-  "nationalPokedexNumber": 5586,
+  "nationalPokedexNumber": 3018,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

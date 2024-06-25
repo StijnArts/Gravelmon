@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sparkroll",
-  "nationalPokedexNumber": 4357,
+  "nationalPokedexNumber": 2484,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 42
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

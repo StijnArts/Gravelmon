@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dugmite",
-  "nationalPokedexNumber": 4282,
+  "nationalPokedexNumber": 2409,
   "primaryType": "rock",
   "abilities": [
     "sturdy",
@@ -80,7 +80,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

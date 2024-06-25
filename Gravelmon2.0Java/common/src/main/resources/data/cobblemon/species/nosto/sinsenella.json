@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sinsenella",
-  "nationalPokedexNumber": 3604,
+  "nationalPokedexNumber": 2062,
   "primaryType": "fairy",
   "abilities": [
     "cutecharm",
@@ -83,7 +83,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:shiny_stone"   
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

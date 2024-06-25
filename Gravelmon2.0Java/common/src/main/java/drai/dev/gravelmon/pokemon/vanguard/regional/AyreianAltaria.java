@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class AyreianAltaria extends Pokemon {
     public AyreianAltaria(String originalMon, Aspect aspect) {
         super(originalMon, aspect,"AyreianAltaria",
@@ -105,7 +103,7 @@ public class AyreianAltaria extends Pokemon {
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 54, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE, Biome.IS_VOLCANIC)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE, Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),

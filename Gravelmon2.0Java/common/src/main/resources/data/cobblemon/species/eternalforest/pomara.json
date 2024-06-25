@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pomara",
-  "nationalPokedexNumber": 3060,
+  "nationalPokedexNumber": 1878,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
@@ -222,7 +222,8 @@
           "variant": "friendship",
           "amount": 220
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

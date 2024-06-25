@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "santler",
-  "nationalPokedexNumber": 5605,
+  "nationalPokedexNumber": 3037,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 38
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

@@ -12,10 +12,10 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "20-50",
-      "weight": 2.0,
+      "level": "36-57",
+      "weight": 1.9,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy_forest" ],
+"biomes": [ "#cobblemon:is_jungle" ],
         "canSeeSky": true
       }
     }

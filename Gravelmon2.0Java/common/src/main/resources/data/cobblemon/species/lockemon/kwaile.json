@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kwaile",
-  "nationalPokedexNumber": 3438,
+  "nationalPokedexNumber": 1896,
   "primaryType": "flying",
   "abilities": [
     "shellarmor",
@@ -85,7 +85,8 @@
           "variant": "level",
           "minLevel": 15
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

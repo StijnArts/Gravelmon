@@ -151,9 +151,10 @@
         },
         {
           "variant": "biome",
-          "biomeCondition": "#cobblemon:is_volvanic"
+          "biomeCondition": "#cobblemon:is_nether_basalt"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

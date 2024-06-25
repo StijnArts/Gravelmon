@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rocurl",
-  "nationalPokedexNumber": 4240,
+  "nationalPokedexNumber": 2367,
   "primaryType": "bug",
   "abilities": [
     "shedskin",
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 22
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

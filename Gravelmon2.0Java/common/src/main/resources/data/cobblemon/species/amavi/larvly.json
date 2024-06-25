@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "larvly",
-  "nationalPokedexNumber": 5626,
+  "nationalPokedexNumber": 3058,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

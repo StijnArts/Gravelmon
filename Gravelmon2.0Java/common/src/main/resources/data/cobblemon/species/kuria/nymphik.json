@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nymphik",
-  "nationalPokedexNumber": 4112,
+  "nationalPokedexNumber": 2239,
   "primaryType": "bug",
   "abilities": [
     "compoundeyes",
@@ -78,7 +78,8 @@
           "variant": "has_move",
           "move": "skyuppercut"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

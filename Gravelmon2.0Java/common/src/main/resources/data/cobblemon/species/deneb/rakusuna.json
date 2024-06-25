@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rakusuna",
-  "nationalPokedexNumber": 4897,
+  "nationalPokedexNumber": 2933,
   "primaryType": "ground",
   "abilities": [
     "sandstream",
@@ -103,7 +103,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.35000000000000003,

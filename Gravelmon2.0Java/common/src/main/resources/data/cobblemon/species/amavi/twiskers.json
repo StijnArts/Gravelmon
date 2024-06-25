@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twiskers",
-  "nationalPokedexNumber": 5640,
+  "nationalPokedexNumber": 3072,
   "primaryType": "steel",
   "secondaryType": "electric",
   "abilities": [
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 26
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

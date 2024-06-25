@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stumple",
-  "nationalPokedexNumber": 2170,
+  "nationalPokedexNumber": 1591,
   "primaryType": "grass",
   "abilities": [
     "naturalcure",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

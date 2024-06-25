@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fleetade",
-  "nationalPokedexNumber": 4515,
+  "nationalPokedexNumber": 2642,
   "primaryType": "water",
   "abilities": [
     "triage",
@@ -83,7 +83,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dawn_stone"   
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

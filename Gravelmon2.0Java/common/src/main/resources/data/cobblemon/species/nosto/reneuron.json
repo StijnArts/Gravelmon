@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reneuron",
-  "nationalPokedexNumber": 3607,
+  "nationalPokedexNumber": 2065,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
@@ -142,7 +142,8 @@
           "variant": "level",
           "minLevel": 41
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

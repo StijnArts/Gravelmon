@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carndy",
-  "nationalPokedexNumber": 5682,
+  "nationalPokedexNumber": 3114,
   "primaryType": "fire",
   "abilities": [
     "keeneye",
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 28
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

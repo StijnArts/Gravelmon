@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eice",
-  "nationalPokedexNumber": 4306,
+  "nationalPokedexNumber": 2433,
   "primaryType": "ice",
   "abilities": [
     "icebody",
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "germinell",
-  "nationalPokedexNumber": 4354,
+  "nationalPokedexNumber": 2481,
   "primaryType": "normal",
   "abilities": [
     "clearbody",
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

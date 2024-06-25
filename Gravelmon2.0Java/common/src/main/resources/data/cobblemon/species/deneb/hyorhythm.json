@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hyorhythm",
-  "nationalPokedexNumber": 4856,
+  "nationalPokedexNumber": 2892,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -105,7 +105,8 @@
           "variant": "level",
           "minLevel": 34
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

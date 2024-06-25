@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pojiya",
-  "nationalPokedexNumber": 4888,
+  "nationalPokedexNumber": 2924,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -74,7 +74,8 @@
           "variant": "level",
           "minLevel": 15
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

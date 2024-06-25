@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "switza",
-  "nationalPokedexNumber": 4775,
+  "nationalPokedexNumber": 2811,
   "primaryType": "ice",
   "abilities": [
     "naturalcure",
@@ -98,7 +98,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dawn_stone"   
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

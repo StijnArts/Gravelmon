@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "novil",
-  "nationalPokedexNumber": 3638,
+  "nationalPokedexNumber": 2096,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 29
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

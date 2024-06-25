@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gemeral",
-  "nationalPokedexNumber": 4149,
+  "nationalPokedexNumber": 2276,
   "primaryType": "rock",
   "secondaryType": "light",
   "abilities": [
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

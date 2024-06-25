@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yukidaru",
-  "nationalPokedexNumber": 4946,
+  "nationalPokedexNumber": 2982,
   "primaryType": "ice",
   "abilities": [
     "icebody",
@@ -105,7 +105,8 @@
           "variant": "level",
           "minLevel": 42
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ankleaf",
-  "nationalPokedexNumber": 5561,
+  "nationalPokedexNumber": 2993,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -78,7 +78,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

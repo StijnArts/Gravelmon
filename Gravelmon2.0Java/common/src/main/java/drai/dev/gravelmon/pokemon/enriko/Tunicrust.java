@@ -40,7 +40,7 @@ public class Tunicrust extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ENRIKO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 54, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_WASTELAND))
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pepinch",
-  "nationalPokedexNumber": 3532,
+  "nationalPokedexNumber": 1990,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -78,7 +78,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

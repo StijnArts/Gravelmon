@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dratt",
-  "nationalPokedexNumber": 4532,
+  "nationalPokedexNumber": 2659,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

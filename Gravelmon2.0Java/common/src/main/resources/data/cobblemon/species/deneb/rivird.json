@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rivird",
-  "nationalPokedexNumber": 4768,
+  "nationalPokedexNumber": 2804,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -119,7 +119,8 @@
           "variant": "level",
           "minLevel": 23
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

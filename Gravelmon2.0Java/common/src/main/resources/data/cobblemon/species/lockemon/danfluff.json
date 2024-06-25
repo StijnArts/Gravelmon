@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "danfluff",
-  "nationalPokedexNumber": 3426,
+  "nationalPokedexNumber": 1884,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -123,7 +123,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

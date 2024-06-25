@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chulee",
-  "nationalPokedexNumber": 4494,
+  "nationalPokedexNumber": 2621,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 15
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

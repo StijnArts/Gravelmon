@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aquaff",
-  "nationalPokedexNumber": 4434,
+  "nationalPokedexNumber": 2561,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

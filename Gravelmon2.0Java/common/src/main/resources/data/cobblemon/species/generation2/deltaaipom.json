@@ -190,7 +190,8 @@
           "variant": "has_move",
           "move": "doublehit"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 1.0,

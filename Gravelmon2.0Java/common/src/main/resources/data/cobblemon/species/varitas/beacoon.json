@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beacoon",
-  "nationalPokedexNumber": 2286,
+  "nationalPokedexNumber": 1707,
   "primaryType": "bug",
   "abilities": [
     "illuminate",
@@ -70,7 +70,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

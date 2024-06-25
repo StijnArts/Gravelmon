@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "marsupunch",
-  "nationalPokedexNumber": 3652,
+  "nationalPokedexNumber": 2110,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -147,7 +147,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

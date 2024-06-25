@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kirashibi",
-  "nationalPokedexNumber": 5638,
+  "nationalPokedexNumber": 3070,
   "primaryType": "electric",
   "abilities": [
     "keeneye",
@@ -78,7 +78,8 @@
           "variant": "level",
           "minLevel": 27
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

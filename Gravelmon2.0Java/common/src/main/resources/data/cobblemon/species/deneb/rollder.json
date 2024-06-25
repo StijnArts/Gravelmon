@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rollder",
-  "nationalPokedexNumber": 4696,
+  "nationalPokedexNumber": 2732,
   "primaryType": "rock",
   "secondaryType": "bug",
   "abilities": [
@@ -113,7 +113,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

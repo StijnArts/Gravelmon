@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shulongastral",
-  "nationalPokedexNumber": 2079,
+  "nationalPokedexNumber": 1500,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -168,7 +168,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "shulongastral_shulongterrestrial",
@@ -181,7 +182,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:terrestrial_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "shulongastral_shulongxenoversal",
@@ -194,7 +196,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:xenoversal_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.775,

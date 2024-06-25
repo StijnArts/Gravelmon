@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beargue",
-  "nationalPokedexNumber": 4315,
+  "nationalPokedexNumber": 2442,
   "primaryType": "dark",
   "abilities": [
     "keeneye",
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 41
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

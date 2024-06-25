@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sparkowl",
-  "nationalPokedexNumber": 2080,
+  "nationalPokedexNumber": 1501,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -121,7 +121,8 @@
           "variant": "level",
           "minLevel": 15
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

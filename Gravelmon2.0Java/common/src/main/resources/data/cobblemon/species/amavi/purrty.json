@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "purrty",
-  "nationalPokedexNumber": 5627,
+  "nationalPokedexNumber": 3059,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "buwuve",
-  "nationalPokedexNumber": 3490,
+  "nationalPokedexNumber": 1948,
   "primaryType": "water",
   "abilities": [
     "strongjaw",
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

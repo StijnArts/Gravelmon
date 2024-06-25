@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fupi",
-  "nationalPokedexNumber": 4929,
+  "nationalPokedexNumber": 2965,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -109,7 +109,8 @@
           "variant": "level",
           "minLevel": 34
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

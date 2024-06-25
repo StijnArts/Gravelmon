@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "torsnail",
-  "nationalPokedexNumber": 4379,
+  "nationalPokedexNumber": 2506,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -99,7 +99,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

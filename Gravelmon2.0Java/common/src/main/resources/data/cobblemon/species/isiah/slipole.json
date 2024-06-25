@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slipole",
-  "nationalPokedexNumber": 4335,
+  "nationalPokedexNumber": 2462,
   "primaryType": "ice",
   "abilities": [
     "keeneye",
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

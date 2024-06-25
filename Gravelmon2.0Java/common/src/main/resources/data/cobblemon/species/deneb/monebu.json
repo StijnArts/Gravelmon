@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "monebu",
-  "nationalPokedexNumber": 4889,
+  "nationalPokedexNumber": 2925,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "basille",
-  "nationalPokedexNumber": 4756,
+  "nationalPokedexNumber": 2792,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -116,7 +116,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

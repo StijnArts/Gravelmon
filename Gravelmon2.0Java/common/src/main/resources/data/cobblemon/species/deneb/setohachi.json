@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setohachi",
-  "nationalPokedexNumber": 4918,
+  "nationalPokedexNumber": 2954,
   "primaryType": "normal",
   "abilities": [
     "rivalry",
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 38
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

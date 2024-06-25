@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gruntik",
-  "nationalPokedexNumber": 5583,
+  "nationalPokedexNumber": 3015,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -78,7 +78,8 @@
           "variant": "level",
           "minLevel": 11
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

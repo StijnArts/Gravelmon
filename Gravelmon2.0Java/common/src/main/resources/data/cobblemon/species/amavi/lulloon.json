@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lulloon",
-  "nationalPokedexNumber": 5570,
+  "nationalPokedexNumber": 3002,
   "primaryType": "flying",
   "secondaryType": "normal",
   "abilities": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 15
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

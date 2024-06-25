@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drimp",
-  "nationalPokedexNumber": 3541,
+  "nationalPokedexNumber": 1999,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -114,7 +114,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

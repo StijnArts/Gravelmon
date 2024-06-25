@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zapouch",
-  "nationalPokedexNumber": 3688,
+  "nationalPokedexNumber": 2146,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -143,7 +143,8 @@
           "variant": "time_range",
           "range": night
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lizmoke",
-  "nationalPokedexNumber": 4352,
+  "nationalPokedexNumber": 2479,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -113,7 +113,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

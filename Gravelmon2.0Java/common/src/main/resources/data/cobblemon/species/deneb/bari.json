@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bari",
-  "nationalPokedexNumber": 4877,
+  "nationalPokedexNumber": 2913,
   "primaryType": "fighting",
   "abilities": [
     "ironfist",
@@ -121,7 +121,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

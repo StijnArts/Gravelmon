@@ -157,7 +157,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:never_melt_ice"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.8,

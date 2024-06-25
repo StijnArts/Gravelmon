@@ -73,7 +73,7 @@ public class Thermonster extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.FERROA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER,Biome.IS_VOLCANIC,Biome.IS_THERMAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER,Biome.IS_NETHER_BASALT,Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -16,7 +16,7 @@
       "weight": 6.0,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_volvanic" ],
+"#cobblemon:is_nether_basalt" ],
         "canSeeSky": true,
         "timeRange": "night"
       }

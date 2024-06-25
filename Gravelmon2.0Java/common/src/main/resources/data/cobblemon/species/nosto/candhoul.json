@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "candhoul",
-  "nationalPokedexNumber": 3636,
+  "nationalPokedexNumber": 2094,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
@@ -86,7 +86,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.39999999999999997,

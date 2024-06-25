@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rosinella",
-  "nationalPokedexNumber": 3603,
+  "nationalPokedexNumber": 2061,
   "primaryType": "fairy",
   "abilities": [
     "cutecharm",
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 24
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

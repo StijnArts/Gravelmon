@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glauvee",
-  "nationalPokedexNumber": 4520,
+  "nationalPokedexNumber": 2647,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 19
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

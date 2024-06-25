@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dorfin",
-  "nationalPokedexNumber": 4686,
+  "nationalPokedexNumber": 2722,
   "primaryType": "water",
   "abilities": [
     "waterveil",
@@ -125,7 +125,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "dorfin_narwhail",
@@ -138,7 +139,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

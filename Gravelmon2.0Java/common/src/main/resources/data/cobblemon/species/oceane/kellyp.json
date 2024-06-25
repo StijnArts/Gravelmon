@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kellyp",
-  "nationalPokedexNumber": 2275,
+  "nationalPokedexNumber": 1696,
   "primaryType": "steel",
   "secondaryType": "grass",
   "abilities": [
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 42
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

@@ -39,7 +39,7 @@ public class Avocadoze extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.LONAVA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

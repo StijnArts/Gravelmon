@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cherm",
-  "nationalPokedexNumber": 3555,
+  "nationalPokedexNumber": 2013,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -104,7 +104,8 @@
           "variant": "level",
           "minLevel": 14
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

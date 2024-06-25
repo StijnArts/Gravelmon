@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Blazesidhe extends Pokemon {
     public Blazesidhe() {
         super("Blazesidhe",
@@ -51,7 +49,7 @@ public class Blazesidhe extends Pokemon {
                 List.of(Label.MYTH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 61, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_CRIMSON)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_CRIMSON)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

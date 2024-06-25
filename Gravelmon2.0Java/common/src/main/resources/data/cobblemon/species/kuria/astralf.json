@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "astralf",
-  "nationalPokedexNumber": 4218,
+  "nationalPokedexNumber": 2345,
   "primaryType": "cosmic",
   "abilities": [
     "oblivious",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

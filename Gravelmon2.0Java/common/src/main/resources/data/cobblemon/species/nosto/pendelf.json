@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pendelf",
-  "nationalPokedexNumber": 3633,
+  "nationalPokedexNumber": 2091,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -84,7 +84,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

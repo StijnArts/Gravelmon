@@ -84,14 +84,11 @@
   "labels": [
     "blazing_emerald",
     "gen1",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hoenniantangela.desc"
   ],
-  "preEvolution": "weeduza",
   "evolutions": [
     {
       "id": "hoenniantangela_hoenniantangrowth",
@@ -104,7 +101,8 @@
           "variant": "has_move",
           "move": "needlearm"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

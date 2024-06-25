@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chiquail",
-  "nationalPokedexNumber": 2826,
+  "nationalPokedexNumber": 1798,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -114,7 +114,8 @@
           "variant": "level",
           "minLevel": 27
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

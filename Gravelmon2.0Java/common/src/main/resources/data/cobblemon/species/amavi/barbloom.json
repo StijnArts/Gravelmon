@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barbloom",
-  "nationalPokedexNumber": 5614,
+  "nationalPokedexNumber": 3046,
   "primaryType": "poison",
   "secondaryType": "grass",
   "abilities": [
@@ -153,7 +153,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

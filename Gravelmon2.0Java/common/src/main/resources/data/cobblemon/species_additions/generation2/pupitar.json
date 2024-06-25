@@ -4,6 +4,7 @@
    "id": "pupitar_armirantyranitar",
    "variant": "level_up",
    "result": "armirantyranitar",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bouldart",
-  "nationalPokedexNumber": 4338,
+  "nationalPokedexNumber": 2465,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -91,7 +91,8 @@
           "variant": "level",
           "minLevel": 48
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

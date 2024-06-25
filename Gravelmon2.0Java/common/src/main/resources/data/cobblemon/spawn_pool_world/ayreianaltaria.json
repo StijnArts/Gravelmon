@@ -17,7 +17,7 @@
       "condition": {
 "biomes": [ "#cobblemon:is_bamboo",
 "minecraft:cherry_grove",
-"#cobblemon:is_volvanic" ],
+"#cobblemon:is_nether_basalt" ],
         "canSeeSky": true,
         "isRaining": true
       }

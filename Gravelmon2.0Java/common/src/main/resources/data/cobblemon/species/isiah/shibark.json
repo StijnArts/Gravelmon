@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shibark",
-  "nationalPokedexNumber": 4229,
+  "nationalPokedexNumber": 2356,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -85,7 +85,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

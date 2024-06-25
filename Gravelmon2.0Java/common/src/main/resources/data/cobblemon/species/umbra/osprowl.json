@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "osprowl",
-  "nationalPokedexNumber": 3666,
+  "nationalPokedexNumber": 2124,
   "primaryType": "flying",
   "abilities": [
     "intimidate",
@@ -118,7 +118,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

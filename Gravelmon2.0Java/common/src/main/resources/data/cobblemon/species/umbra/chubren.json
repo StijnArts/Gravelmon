@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chubren",
-  "nationalPokedexNumber": 3708,
+  "nationalPokedexNumber": 2166,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -127,7 +127,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liqueel",
-  "nationalPokedexNumber": 2816,
+  "nationalPokedexNumber": 1788,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -108,7 +108,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

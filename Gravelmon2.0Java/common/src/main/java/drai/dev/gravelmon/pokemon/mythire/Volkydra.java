@@ -69,7 +69,7 @@ public class Volkydra extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.MYTHIRE),
                 0, List.of(
                 ), SpawnContext.GROUNDED,SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -110,7 +110,8 @@
           "variant": "has_move",
           "move": "wish"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

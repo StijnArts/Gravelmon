@@ -20,7 +20,7 @@
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#minecraft:is_ocean" ]    }
+"biomes": [ "#cobblemon:is_ocean" ]    }
     }
   ]
 }

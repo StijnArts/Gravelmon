@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dampurr",
-  "nationalPokedexNumber": 4384,
+  "nationalPokedexNumber": 2511,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 21
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

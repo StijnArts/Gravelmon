@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spoutlaw",
-  "nationalPokedexNumber": 3432,
+  "nationalPokedexNumber": 1890,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -89,7 +89,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

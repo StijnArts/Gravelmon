@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chikaboo",
-  "nationalPokedexNumber": 2126,
+  "nationalPokedexNumber": 1547,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -121,7 +121,8 @@
           "variant": "level",
           "minLevel": 29
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

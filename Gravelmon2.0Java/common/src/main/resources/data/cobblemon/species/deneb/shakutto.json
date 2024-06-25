@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shakutto",
-  "nationalPokedexNumber": 4885,
+  "nationalPokedexNumber": 2921,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -70,7 +70,8 @@
           "variant": "level",
           "minLevel": 13
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

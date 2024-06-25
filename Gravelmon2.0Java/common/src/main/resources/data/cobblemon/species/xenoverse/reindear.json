@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reindear",
-  "nationalPokedexNumber": 2121,
+  "nationalPokedexNumber": 1542,
   "primaryType": "fairy",
   "abilities": [
     "vitalspirit",
@@ -117,7 +117,8 @@
           "variant": "has_move",
           "move": "frustration"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shretainer",
-  "nationalPokedexNumber": 4838,
+  "nationalPokedexNumber": 2874,
   "primaryType": "grass",
   "abilities": [
     "effectspore",
@@ -122,7 +122,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:fire_stone"   
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

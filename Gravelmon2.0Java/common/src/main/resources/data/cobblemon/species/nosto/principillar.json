@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "principillar",
-  "nationalPokedexNumber": 3549,
+  "nationalPokedexNumber": 2007,
   "primaryType": "bug",
   "abilities": [
     "shielddust",
@@ -99,7 +99,8 @@
           "variant": "level",
           "minLevel": 7
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

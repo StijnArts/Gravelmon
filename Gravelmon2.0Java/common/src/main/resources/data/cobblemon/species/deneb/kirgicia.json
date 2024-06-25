@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kirgicia",
-  "nationalPokedexNumber": 4739,
+  "nationalPokedexNumber": 2775,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -142,7 +142,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:moon_stone"   
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

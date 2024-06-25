@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "royalarva",
-  "nationalPokedexNumber": 3670,
+  "nationalPokedexNumber": 2128,
   "primaryType": "bug",
   "abilities": [
     "shielddust",
@@ -72,7 +72,8 @@
           "variant": "level",
           "minLevel": 7
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

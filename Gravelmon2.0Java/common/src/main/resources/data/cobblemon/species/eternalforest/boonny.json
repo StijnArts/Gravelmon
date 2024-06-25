@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boonny",
-  "nationalPokedexNumber": 3062,
+  "nationalPokedexNumber": 1880,
   "primaryType": "rock",
   "abilities": [
     "purepower",
@@ -214,7 +214,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

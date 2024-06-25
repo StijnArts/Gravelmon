@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nunvil",
-  "nationalPokedexNumber": 2089,
+  "nationalPokedexNumber": 1510,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -137,7 +137,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:dread_pendant"   
+      "requiredContext": "gravelmon:dread_pendant",
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

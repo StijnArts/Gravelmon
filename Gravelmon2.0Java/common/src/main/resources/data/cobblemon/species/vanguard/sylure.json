@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sylure",
-  "nationalPokedexNumber": 4079,
+  "nationalPokedexNumber": 2206,
   "primaryType": "poison",
   "secondaryType": "sound",
   "abilities": [
@@ -145,7 +145,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snick",
-  "nationalPokedexNumber": 4378,
+  "nationalPokedexNumber": 2505,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -93,7 +93,8 @@
           "variant": "level",
           "minLevel": 21
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plubus",
-  "nationalPokedexNumber": 2863,
+  "nationalPokedexNumber": 1835,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 10
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

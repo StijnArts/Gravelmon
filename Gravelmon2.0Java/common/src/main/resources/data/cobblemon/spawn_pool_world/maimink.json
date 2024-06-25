@@ -15,7 +15,7 @@
       "level": "21-43",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_tropical_island" ],
+"biomes": [ "#cobblemon:is_jungle" ],
         "canSeeSky": true
       }
     }

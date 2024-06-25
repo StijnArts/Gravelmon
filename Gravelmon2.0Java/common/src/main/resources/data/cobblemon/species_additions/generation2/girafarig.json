@@ -35,6 +35,7 @@
    "id": "girafarig_kirinirik",
    "variant": "level_up",
    "result": "kirinirik",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [

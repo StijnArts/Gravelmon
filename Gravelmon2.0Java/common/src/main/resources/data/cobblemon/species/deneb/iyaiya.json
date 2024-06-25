@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "iyaiya",
-  "nationalPokedexNumber": 4931,
+  "nationalPokedexNumber": 2967,
   "primaryType": "grass",
   "secondaryType": "poison",
   "abilities": [
@@ -108,7 +108,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:leaf_stone"   
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

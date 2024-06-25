@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skowl",
-  "nationalPokedexNumber": 2166,
+  "nationalPokedexNumber": 1587,
   "primaryType": "flying",
   "secondaryType": "ghost",
   "abilities": [
@@ -92,7 +92,8 @@
           "variant": "time_range",
           "range": night
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

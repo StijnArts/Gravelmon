@@ -16,7 +16,7 @@
       "weight": 9.0,
       "condition": {
 "biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_volvanic",
+"#cobblemon:is_nether_basalt",
 "#cobblemon:is_nether_soul_fire" ],
         "timeRange": "night"
       }

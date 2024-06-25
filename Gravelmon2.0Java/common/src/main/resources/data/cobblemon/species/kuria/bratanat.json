@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bratanat",
-  "nationalPokedexNumber": 4114,
+  "nationalPokedexNumber": 2241,
   "primaryType": "bug",
   "abilities": [
     "immunity",
@@ -84,7 +84,8 @@
           "variant": "time_range",
           "range": night
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

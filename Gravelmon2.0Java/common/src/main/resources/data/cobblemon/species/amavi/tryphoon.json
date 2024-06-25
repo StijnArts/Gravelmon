@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tryphoon",
-  "nationalPokedexNumber": 5599,
+  "nationalPokedexNumber": 3031,
   "primaryType": "dragon",
   "secondaryType": "normal",
   "abilities": [
@@ -81,7 +81,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:fire_stone"   
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

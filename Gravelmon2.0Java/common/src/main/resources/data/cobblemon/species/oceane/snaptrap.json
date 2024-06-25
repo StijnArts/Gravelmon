@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snaptrap",
-  "nationalPokedexNumber": 2236,
+  "nationalPokedexNumber": 1657,
   "primaryType": "steel",
   "abilities": [
     "hypercutter",
@@ -76,7 +76,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

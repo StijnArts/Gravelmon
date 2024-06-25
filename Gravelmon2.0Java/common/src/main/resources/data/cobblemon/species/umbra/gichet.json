@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gichet",
-  "nationalPokedexNumber": 3699,
+  "nationalPokedexNumber": 2157,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -106,7 +106,8 @@
           "variant": "level",
           "minLevel": 15
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

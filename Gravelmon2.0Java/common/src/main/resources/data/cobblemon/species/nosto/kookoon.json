@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kookoon",
-  "nationalPokedexNumber": 3550,
+  "nationalPokedexNumber": 2008,
   "primaryType": "bug",
   "abilities": [
     "shedskin",
@@ -104,7 +104,8 @@
           "variant": "level",
           "minLevel": 10
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

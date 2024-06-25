@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nicklack",
-  "nationalPokedexNumber": 4370,
+  "nationalPokedexNumber": 2497,
   "primaryType": "dragon",
   "secondaryType": "flying",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

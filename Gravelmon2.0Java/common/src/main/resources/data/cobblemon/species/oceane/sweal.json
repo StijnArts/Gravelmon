@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sweal",
-  "nationalPokedexNumber": 2207,
+  "nationalPokedexNumber": 1628,
   "primaryType": "normal",
   "abilities": [
     "furcoat",
@@ -70,7 +70,8 @@
           "variant": "level",
           "minLevel": 34
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

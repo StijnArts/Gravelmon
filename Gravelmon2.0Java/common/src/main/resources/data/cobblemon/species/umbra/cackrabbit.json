@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cackrabbit",
-  "nationalPokedexNumber": 3706,
+  "nationalPokedexNumber": 2164,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -130,7 +130,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

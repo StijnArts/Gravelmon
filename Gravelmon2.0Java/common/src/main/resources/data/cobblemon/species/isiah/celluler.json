@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "celluler",
-  "nationalPokedexNumber": 4327,
+  "nationalPokedexNumber": 2454,
   "primaryType": "normal",
   "abilities": [
     "weakarmor",
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 28
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

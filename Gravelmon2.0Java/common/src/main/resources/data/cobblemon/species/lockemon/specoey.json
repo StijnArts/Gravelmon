@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "specoey",
-  "nationalPokedexNumber": 3436,
+  "nationalPokedexNumber": 1894,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -85,7 +85,8 @@
           "variant": "has_move",
           "move": "roleplay"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

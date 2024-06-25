@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twintacle",
-  "nationalPokedexNumber": 2241,
+  "nationalPokedexNumber": 1662,
   "primaryType": "fighting",
   "abilities": [
     "hydration",
@@ -85,7 +85,8 @@
           "variant": "level",
           "minLevel": 29
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

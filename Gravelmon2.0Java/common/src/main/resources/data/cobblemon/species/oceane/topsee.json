@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "topsee",
-  "nationalPokedexNumber": 2268,
+  "nationalPokedexNumber": 1689,
   "primaryType": "psychic",
   "abilities": [
     "keeneye",
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 21
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

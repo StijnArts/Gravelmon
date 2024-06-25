@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "menasuit",
-  "nationalPokedexNumber": 2304,
+  "nationalPokedexNumber": 1723,
   "primaryType": "ghost",
   "abilities": [
     "shadowtag",
@@ -83,7 +83,8 @@
           "variant": "level",
           "minLevel": 39
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

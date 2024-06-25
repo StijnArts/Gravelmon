@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "percussoon",
-  "nationalPokedexNumber": 4680,
+  "nationalPokedexNumber": 2716,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -133,7 +133,8 @@
           "variant": "level",
           "minLevel": 34
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

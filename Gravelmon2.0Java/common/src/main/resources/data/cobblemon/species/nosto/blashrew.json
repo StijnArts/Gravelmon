@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blashrew",
-  "nationalPokedexNumber": 3536,
+  "nationalPokedexNumber": 1994,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -114,7 +114,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

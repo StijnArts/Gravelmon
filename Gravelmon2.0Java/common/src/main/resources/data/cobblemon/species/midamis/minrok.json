@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "minrok",
-  "nationalPokedexNumber": 4466,
+  "nationalPokedexNumber": 2593,
   "primaryType": "rock",
   "secondaryType": "poison",
   "abilities": [
@@ -71,7 +71,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:leaf_stone"   
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

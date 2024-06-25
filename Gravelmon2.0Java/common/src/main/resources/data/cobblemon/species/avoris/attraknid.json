@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "attraknid",
-  "nationalPokedexNumber": 2179,
+  "nationalPokedexNumber": 1600,
   "primaryType": "dark",
   "secondaryType": "bug",
   "abilities": [
@@ -88,7 +88,8 @@
           "variant": "time_range",
           "range": night
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

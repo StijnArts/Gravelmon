@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Caitfyr extends Pokemon {
     public Caitfyr() {
         super("Caitfyr",
@@ -52,7 +50,7 @@ public class Caitfyr extends Pokemon {
                 List.of(Label.MYTH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 17, 39, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_CRIMSON)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_CRIMSON)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

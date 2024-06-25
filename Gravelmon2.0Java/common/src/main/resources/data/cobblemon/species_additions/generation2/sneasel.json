@@ -6,8 +6,9 @@
    "result": "reavler",
    "consumeHeldItem": true,
    "learnableMoves": [],
+     "permanent": true,
    "requirements": [
-    {
+      {
      "variant": "held_item",
      "itemCondition": "cobblemon:razor_claw"
     },

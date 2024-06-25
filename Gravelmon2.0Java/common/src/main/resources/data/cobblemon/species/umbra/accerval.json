@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "accerval",
-  "nationalPokedexNumber": 3695,
+  "nationalPokedexNumber": 2153,
   "primaryType": "ground",
   "abilities": [
     "limber",
@@ -118,7 +118,8 @@
           "variant": "level",
           "minLevel": 24
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

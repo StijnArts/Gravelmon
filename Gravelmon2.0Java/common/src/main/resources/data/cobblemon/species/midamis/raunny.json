@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raunny",
-  "nationalPokedexNumber": 4480,
+  "nationalPokedexNumber": 2607,
   "primaryType": "rock",
   "abilities": [
     "quickfeet",
@@ -86,7 +86,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cresprit",
-  "nationalPokedexNumber": 3644,
+  "nationalPokedexNumber": 2102,
   "primaryType": "ghost",
   "abilities": [
     "keeneye",
@@ -85,7 +85,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:reaper_cloth"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

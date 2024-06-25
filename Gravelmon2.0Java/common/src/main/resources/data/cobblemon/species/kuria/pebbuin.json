@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pebbuin",
-  "nationalPokedexNumber": 4160,
+  "nationalPokedexNumber": 2287,
   "primaryType": "rock",
   "abilities": [
     "solidrock",
@@ -77,7 +77,8 @@
           "variant": "level",
           "minLevel": 33
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

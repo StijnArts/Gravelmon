@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "saboltxenoversal",
-  "nationalPokedexNumber": 2104,
+  "nationalPokedexNumber": 1525,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -51,14 +51,14 @@
     "amount": "1",
     "entries": [
       {
-        "item": "gravelmon:xenoversal_ring",
-        "quantityRange": "1-1",
-        "percentage": 40
-      },
-      {
         "item": "gravelmon:terrestrial_ring",
         "quantityRange": "1-1",
         "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
       },
       {
         "item": "gravelmon:xenoversal_ring",
@@ -151,7 +151,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:terrestrial_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "saboltxenoversal_sabolt",
@@ -161,7 +162,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.425,

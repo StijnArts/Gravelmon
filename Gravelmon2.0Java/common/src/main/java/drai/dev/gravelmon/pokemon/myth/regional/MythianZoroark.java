@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class MythianZoroark extends Pokemon {
     public MythianZoroark(String originalMon, Aspect aspect) {
         super(originalMon, aspect,"MythianZoroark",
@@ -54,7 +52,7 @@ public class MythianZoroark extends Pokemon {
                 List.of(Label.GEN5,Label.MYTH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 45, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_FIRE)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

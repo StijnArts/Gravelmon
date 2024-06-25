@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "demiddul",
-  "nationalPokedexNumber": 4952,
+  "nationalPokedexNumber": 2988,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -101,7 +101,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

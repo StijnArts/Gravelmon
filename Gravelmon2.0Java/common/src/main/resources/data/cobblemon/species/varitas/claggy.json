@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "claggy",
-  "nationalPokedexNumber": 2297,
+  "nationalPokedexNumber": 1716,
   "primaryType": "flying",
   "secondaryType": "ground",
   "abilities": [
@@ -86,7 +86,8 @@
           "variant": "level",
           "minLevel": 39
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

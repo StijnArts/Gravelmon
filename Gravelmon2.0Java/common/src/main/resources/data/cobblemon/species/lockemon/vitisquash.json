@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vitisquash",
-  "nationalPokedexNumber": 3479,
+  "nationalPokedexNumber": 1937,
   "primaryType": "normal",
   "secondaryType": "grass",
   "abilities": [
@@ -93,7 +93,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:bacchus_laurel"   
+      "requiredContext": "gravelmon:bacchus_laurel",
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

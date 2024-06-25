@@ -22,7 +22,7 @@ public class Narnail extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of(""),
-                List.of(new EvolutionEntry("unirval", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Unirval", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ICE_BEAM,1),

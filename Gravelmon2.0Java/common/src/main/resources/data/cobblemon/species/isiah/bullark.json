@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bullark",
-  "nationalPokedexNumber": 4235,
+  "nationalPokedexNumber": 2362,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

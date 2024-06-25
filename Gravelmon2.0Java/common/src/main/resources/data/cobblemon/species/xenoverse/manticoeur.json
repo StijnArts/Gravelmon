@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "manticoeur",
-  "nationalPokedexNumber": 2119,
+  "nationalPokedexNumber": 1540,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -87,7 +87,8 @@
           "variant": "time_range",
           "range": "night"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

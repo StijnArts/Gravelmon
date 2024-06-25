@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "feebleg",
-  "nationalPokedexNumber": 2288,
+  "nationalPokedexNumber": 1709,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -68,7 +68,8 @@
           "variant": "level",
           "minLevel": 10
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

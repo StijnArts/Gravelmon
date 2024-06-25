@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clotaku",
-  "nationalPokedexNumber": 4709,
+  "nationalPokedexNumber": 2745,
   "primaryType": "poison",
   "abilities": [
     "stench",
@@ -134,7 +134,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

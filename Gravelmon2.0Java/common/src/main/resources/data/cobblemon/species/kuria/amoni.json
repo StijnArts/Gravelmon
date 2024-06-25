@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "amoni",
-  "nationalPokedexNumber": 4145,
+  "nationalPokedexNumber": 2272,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -78,7 +78,8 @@
           "variant": "time_range",
           "range": night
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

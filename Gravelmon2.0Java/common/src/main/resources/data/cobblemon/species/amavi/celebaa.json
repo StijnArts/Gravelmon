@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "celebaa",
-  "nationalPokedexNumber": 5694,
+  "nationalPokedexNumber": 3126,
   "primaryType": "dragon",
   "secondaryType": "fire",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

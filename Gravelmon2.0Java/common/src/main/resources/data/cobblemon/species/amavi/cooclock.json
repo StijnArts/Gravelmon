@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cooclock",
-  "nationalPokedexNumber": 5603,
+  "nationalPokedexNumber": 3035,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 26
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

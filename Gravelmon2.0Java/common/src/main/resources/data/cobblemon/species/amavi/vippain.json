@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vippain",
-  "nationalPokedexNumber": 5609,
+  "nationalPokedexNumber": 3041,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -82,7 +82,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

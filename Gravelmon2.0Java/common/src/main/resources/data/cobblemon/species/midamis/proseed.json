@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "proseed",
-  "nationalPokedexNumber": 4485,
+  "nationalPokedexNumber": 2612,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
@@ -83,7 +83,8 @@
           "variant": "friendship",
           "amount": 190
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

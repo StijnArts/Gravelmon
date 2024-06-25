@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skreychee",
-  "nationalPokedexNumber": 4394,
+  "nationalPokedexNumber": 2521,
   "primaryType": "sound",
   "secondaryType": "fairy",
   "abilities": [
@@ -96,7 +96,8 @@
           "variant": "level",
           "minLevel": 40
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

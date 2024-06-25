@@ -150,7 +150,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:kaleidoscope"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

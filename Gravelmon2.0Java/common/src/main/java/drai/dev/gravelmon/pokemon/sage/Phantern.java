@@ -101,7 +101,7 @@ public class Phantern extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:paper",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 45, 0.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TROPICAL_ISLAND, Biome.IS_TROPICAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_JUNGLE, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),

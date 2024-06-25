@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "feiring",
-  "nationalPokedexNumber": 3632,
+  "nationalPokedexNumber": 2090,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -81,7 +81,8 @@
           "variant": "level",
           "minLevel": 37
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

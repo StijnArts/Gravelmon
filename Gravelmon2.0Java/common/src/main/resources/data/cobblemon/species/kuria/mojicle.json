@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mojicle",
-  "nationalPokedexNumber": 4157,
+  "nationalPokedexNumber": 2284,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -84,7 +84,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:water_stone"   
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

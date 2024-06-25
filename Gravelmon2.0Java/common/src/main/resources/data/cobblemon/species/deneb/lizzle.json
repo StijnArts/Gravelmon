@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lizzle",
-  "nationalPokedexNumber": 4798,
+  "nationalPokedexNumber": 2834,
   "primaryType": "water",
   "abilities": [
     "drizzle",
@@ -127,7 +127,8 @@
           "variant": "level",
           "minLevel": 33
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyrameow",
-  "nationalPokedexNumber": 5659,
+  "nationalPokedexNumber": 3091,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 28
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

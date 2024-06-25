@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ampelly",
-  "nationalPokedexNumber": 4265,
+  "nationalPokedexNumber": 2392,
   "primaryType": "electric",
   "abilities": [
     "levitate",
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 32
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

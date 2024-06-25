@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pupanel",
-  "nationalPokedexNumber": 5732,
+  "nationalPokedexNumber": 3164,
   "primaryType": "ice",
   "secondaryType": "bug",
   "abilities": [
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 33
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

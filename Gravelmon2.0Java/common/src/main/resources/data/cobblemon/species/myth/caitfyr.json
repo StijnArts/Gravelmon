@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caitfyr",
-  "nationalPokedexNumber": 4388,
+  "nationalPokedexNumber": 2515,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -95,7 +95,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

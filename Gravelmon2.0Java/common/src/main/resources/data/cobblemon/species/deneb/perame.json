@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "perame",
-  "nationalPokedexNumber": 4891,
+  "nationalPokedexNumber": 2927,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -105,7 +105,8 @@
           "variant": "level",
           "minLevel": 27
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

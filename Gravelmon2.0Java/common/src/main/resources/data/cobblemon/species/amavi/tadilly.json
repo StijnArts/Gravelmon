@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tadilly",
-  "nationalPokedexNumber": 5581,
+  "nationalPokedexNumber": 3013,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -78,7 +78,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

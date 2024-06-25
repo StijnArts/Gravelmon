@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "picantoad",
-  "nationalPokedexNumber": 3714,
+  "nationalPokedexNumber": 2172,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -134,7 +134,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "paperlane",
-  "nationalPokedexNumber": 4328,
+  "nationalPokedexNumber": 2455,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -86,7 +86,8 @@
           "variant": "level",
           "minLevel": 44
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

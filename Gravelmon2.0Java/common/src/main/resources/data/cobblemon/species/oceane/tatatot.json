@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tatatot",
-  "nationalPokedexNumber": 2261,
+  "nationalPokedexNumber": 1682,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 17
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

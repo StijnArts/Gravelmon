@@ -138,7 +138,8 @@
           "variant": "has_move",
           "move": "attract"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

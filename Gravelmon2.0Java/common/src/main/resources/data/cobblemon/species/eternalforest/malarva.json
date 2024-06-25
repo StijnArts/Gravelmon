@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "malarva",
-  "nationalPokedexNumber": 3051,
+  "nationalPokedexNumber": 1869,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -71,7 +71,8 @@
           "variant": "level",
           "minLevel": 10
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

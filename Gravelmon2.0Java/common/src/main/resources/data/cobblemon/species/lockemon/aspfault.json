@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aspfault",
-  "nationalPokedexNumber": 3429,
+  "nationalPokedexNumber": 1887,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -94,7 +94,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

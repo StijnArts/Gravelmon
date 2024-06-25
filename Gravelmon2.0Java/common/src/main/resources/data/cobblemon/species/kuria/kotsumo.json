@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kotsumo",
-  "nationalPokedexNumber": 4181,
+  "nationalPokedexNumber": 2308,
   "primaryType": "fairy",
   "abilities": [
     "rattled",
@@ -87,7 +87,8 @@
           "variant": "attack_defence_ratio",
           "ratio": ATTACK_HIGHER
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "kotsumo_keshigami",
@@ -104,7 +105,8 @@
           "variant": "attack_defence_ratio",
           "ratio": DEFENCE_HIGHER
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "purrbal",
-  "nationalPokedexNumber": 5708,
+  "nationalPokedexNumber": 3140,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
@@ -87,7 +87,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

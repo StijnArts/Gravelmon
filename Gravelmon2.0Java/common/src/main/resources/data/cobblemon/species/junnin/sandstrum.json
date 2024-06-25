@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandstrum",
-  "nationalPokedexNumber": 2852,
+  "nationalPokedexNumber": 1824,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -102,7 +102,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

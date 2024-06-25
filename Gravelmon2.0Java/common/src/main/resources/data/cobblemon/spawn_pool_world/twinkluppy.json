@@ -15,7 +15,7 @@
       "level": "3-22",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#minecraft:is_ocean" ],
+"biomes": [ "#cobblemon:is_ocean" ],
         "timeRange": "night",
         "isRaining": false,
         "canSeeSky": true

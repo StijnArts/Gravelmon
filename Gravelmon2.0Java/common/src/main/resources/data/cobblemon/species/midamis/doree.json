@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "doree",
-  "nationalPokedexNumber": 4464,
+  "nationalPokedexNumber": 2591,
   "primaryType": "steel",
   "secondaryType": "ground",
   "abilities": [
@@ -78,7 +78,8 @@
           "variant": "level",
           "minLevel": 20
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

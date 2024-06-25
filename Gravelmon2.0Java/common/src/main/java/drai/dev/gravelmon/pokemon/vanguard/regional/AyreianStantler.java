@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class AyreianStantler extends Pokemon {
     public AyreianStantler(String originalMon, Aspect aspect) {
         super(originalMon, aspect,"AyreianStantler",
@@ -112,7 +110,7 @@ public class AyreianStantler extends Pokemon {
                 List.of(Label.VANGUARD, Label.GEN2),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 46, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_BADLANDS)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),

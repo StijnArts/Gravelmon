@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pitohood",
-  "nationalPokedexNumber": 3589,
+  "nationalPokedexNumber": 2047,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -137,7 +137,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.325,

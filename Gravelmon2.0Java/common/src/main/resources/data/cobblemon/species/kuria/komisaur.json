@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "komisaur",
-  "nationalPokedexNumber": 4212,
+  "nationalPokedexNumber": 2339,
   "primaryType": "rock",
   "secondaryType": "cosmic",
   "abilities": [
@@ -79,7 +79,8 @@
           "variant": "level",
           "minLevel": 25
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

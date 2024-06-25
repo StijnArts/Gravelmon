@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cubbly",
-  "nationalPokedexNumber": 5624,
+  "nationalPokedexNumber": 3056,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -80,7 +80,8 @@
           "variant": "level",
           "minLevel": 23
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

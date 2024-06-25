@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luravit",
-  "nationalPokedexNumber": 1679,
+  "nationalPokedexNumber": 1490,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -98,7 +98,8 @@
           "variant": "level",
           "minLevel": 36
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

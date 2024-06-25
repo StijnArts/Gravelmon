@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "katuna",
-  "nationalPokedexNumber": 4762,
+  "nationalPokedexNumber": 2798,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -114,7 +114,8 @@
           "variant": "level",
           "minLevel": 16
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.9,

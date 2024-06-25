@@ -127,7 +127,8 @@
           "variant": "has_move",
           "move": "dive"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

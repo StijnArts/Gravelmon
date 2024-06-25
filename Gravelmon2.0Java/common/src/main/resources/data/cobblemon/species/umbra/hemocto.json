@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hemocto",
-  "nationalPokedexNumber": 3690,
+  "nationalPokedexNumber": 2148,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -131,9 +131,10 @@
         },
         {
           "variant": "biome",
-          "biomeCondition": "#minecraft:is_ocean"
+          "biomeCondition": "#cobblemon:is_ocean"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,
