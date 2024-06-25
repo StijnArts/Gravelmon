@@ -5,14 +5,30 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation2_eghonoctowl",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl.png",
-      "layers": []
+      "model": "cobblemon:generation2_eghonoctowl.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl.png",
+      "layers": [
+	  {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+	  ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl_shiny.png",
+	  "layers": [
+	  {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+	  ]
+    }  
+	]
 }
