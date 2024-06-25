@@ -1,0 +1,9 @@
+// 1.20.1	2024-06-01T18:36:52.7306371	Gravelmon/Block Loot Tables
+a38ef4c31333907e28c7cfcdb7fbcfa690131531 data\gravelmon\loot_tables\blocks\air_stone_ore.json
+c348516c60b466f242b27fbaf0452fe17c004d7c data\gravelmon\loot_tables\blocks\deepslate_mystic_stone_ore.json
+8b4f45da85e14f478b41944c058b8cea64474c3a data\gravelmon\loot_tables\blocks\deepslate_astral_stone_ore.json
+278fbb9ad790ca2519ae963163fe6149990fd1c2 data\gravelmon\loot_tables\blocks\mystic_stone_ore.json
+0cf2b90bb8bf8fd21542891163d4d816605b4eb7 data\gravelmon\loot_tables\blocks\astral_stone_ore.json
+9fc375527a2f7c7d4cea3f90fe5e5d8b0ee9ca93 data\gravelmon\loot_tables\blocks\deepslate_air_stone_ore.json
+2ab42253a0eee025be903fda436f6785b66f6e98 data\gravelmon\loot_tables\blocks\deepslate_solid_stone_ore.json
+46be4c2140ae56a1f8301b87174c90edb473c531 data\gravelmon\loot_tables\blocks\solid_stone_ore.json
