@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:emolga",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaemolga",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaemolga.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaemolga",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaemolga_shiny.png",
+      "layers": []
+    }
+  ]
+}

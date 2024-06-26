@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianSilicobra extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianSilicobra(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Silicobra",
+    public HizianSilicobra(String name, Aspect aspect) {
+        super(name, aspect, "Silicobra",
                 Type.FIRE, Type.GROUND,
                 new Stats(52,
                         35,
@@ -42,7 +42,7 @@ public class HizianSilicobra extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.HIZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 14, 35, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_THERMAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

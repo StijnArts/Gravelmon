@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaSpiderBeldum extends Pokemon {
-    public DeltaSpiderBeldum(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaSpiderBeldum",
+    public DeltaSpiderBeldum(String name, Aspect aspect) {
+        super(name, aspect,"DeltaSpiderBeldum",
                 Type.GROUND, Type.BUG,
                 new Stats(40, 55, 80, 35, 60, 30),
                 List.of(Ability.POISON_TOUCH, Ability.IMMUNITY), Ability.POISON_HEAL,

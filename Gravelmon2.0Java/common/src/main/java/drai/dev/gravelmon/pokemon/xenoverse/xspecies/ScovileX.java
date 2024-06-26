@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ScovileX extends Pokemon {
-    public ScovileX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"ScovileX",
+    public ScovileX(String name, Aspect aspect) {
+        super(name, aspect,"ScovileX",
                 Type.GRASS, Type.ELECTRIC,
                 new Stats(80, 67, 78, 124, 84, 112),
                 List.of(Ability.EFFECT_SPORE, Ability.LIGHTNING_ROD), Ability.INTIMIDATE,

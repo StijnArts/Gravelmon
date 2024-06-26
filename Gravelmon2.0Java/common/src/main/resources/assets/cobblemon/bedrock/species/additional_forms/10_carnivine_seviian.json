@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:carnivine",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "seviian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_seviiancarnivine",
+      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "seviian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_seviiancarnivine",
+      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine_shiny.png",
+      "layers": []
+    }
+  ]
+}

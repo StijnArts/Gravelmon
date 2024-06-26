@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:cupscape",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_cupscape",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/oceane/cupscape.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/cupscape_shiny.png"
-    }  ]
+    }
+  ]
 }

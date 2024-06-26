@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:hamysos",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:eternalforest_hamysos",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/eternalforest/hamysos.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/eternalforest/hamysos_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanDitto extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanDitto(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Ditto",
+    public NorheimanDitto(String name, Aspect aspect) {
+        super(name, aspect, "Ditto",
                 Type.ICE,
                 new Stats(68,
                         48,

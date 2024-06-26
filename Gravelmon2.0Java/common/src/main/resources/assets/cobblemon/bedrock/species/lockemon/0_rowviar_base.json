@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:rowviar",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_rowviar",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/lockemon/rowviar.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/rowviar_shiny.png"
-    }  ]
+    }
+  ]
 }

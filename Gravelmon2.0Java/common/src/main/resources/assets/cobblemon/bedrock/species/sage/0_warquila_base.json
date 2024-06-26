@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:warquila",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_warquila",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/warquila.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/warquila_shiny.png"
-    }  ]
+    }
+  ]
 }

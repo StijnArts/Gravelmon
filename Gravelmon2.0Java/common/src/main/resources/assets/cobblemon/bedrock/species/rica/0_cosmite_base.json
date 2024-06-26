@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:cosmite",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_cosmite",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/rica/cosmite.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/cosmite_shiny.png"
-    }  ]
+    }
+  ]
 }

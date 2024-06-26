@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:roselia",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaroselia",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaroselia.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaroselia",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaroselia_shiny.png",
+      "layers": []
+    }
+  ]
+}

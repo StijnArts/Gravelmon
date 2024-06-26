@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianEntei extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianEntei(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Entei",
+    public VaritasianEntei(String name, Aspect aspect) {
+        super(name, aspect,"Entei",
                 Type.FAIRY, Type.FIRE,
                 new Stats(115,
                         115,

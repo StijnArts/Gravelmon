@@ -1,0 +1,157 @@
+{
+   "target": "cobblemon:cherubi",
+   "forms": [{
+  "name": "Novran",
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "abilities": [
+    "windrider",
+    "h:solarpower"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 35,
+    "defence": 35,
+    "special_attack": 62,
+    "special_defence": 43,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 55,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "1:morningsun",
+    "4:leafage",
+    "6:growth",
+    "9:leechseed",
+    "12:gust",
+    "14:helpinghand",
+    "18:magicalleaf",
+    "21:aircutter",
+    "23:sunnyday",
+    "27:tailwind",
+    "30:takedown",
+    "32:grassyglide",
+    "37:solarbeam",
+    "40:batonpass",
+    "44:acrobatics",
+    "tm:defog",
+    "tm:seedbomb",
+    "tm:recycle",
+    "tm:floralhealing",
+    "tm:synthesis",
+    "tm:tailwind",
+    "tm:endeavor",
+    "tm:snoresound",
+    "tm:ominouswind",
+    "tm:pollenpuff",
+    "tm:solarblade",
+    "tm:weatherball",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:gigadrain",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:airslash",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:energyball",
+    "tm:curse",
+    "tm:acrobatics",
+    "tm:flash",
+    "tm:swordsdance",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:trailblaze",
+    "tm:powerwhip",
+    "tm:attract",
+    "tm:cut",
+    "tm:hurricane",
+    "tm:leaftornado",
+    "tm:healingwish",
+    "tm:leafstorm",
+    "tm:naturepower",
+    "tm:whirlwind"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.novrancherubi.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "novrancherubi_cherrim",
+      "variant": "item_interact",
+      "result": "cherrim novran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": ["novran"],
+  "cannotDynamax": false
+}
+], "features": [
+"novran"
+  ]
+}

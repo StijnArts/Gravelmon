@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:sabolt",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "xenoversal"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_saboltxenoversal",
+      "texture": "cobblemon:textures/pokemon/xenoverse/saboltxenoversal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "xenoversal",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_saboltxenoversal",
+      "texture": "cobblemon:textures/pokemon/xenoverse/saboltxenoversal_shiny.png",
+      "layers": []
+    }
+  ]
+}

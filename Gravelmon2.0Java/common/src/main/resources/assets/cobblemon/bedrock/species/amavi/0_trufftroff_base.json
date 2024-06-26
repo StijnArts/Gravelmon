@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:trufftroff",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_trufftroff",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/trufftroff.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/trufftroff_shiny.png"
-    }  ]
+    }
+  ]
 }

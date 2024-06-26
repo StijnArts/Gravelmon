@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ivysaur",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghoivysaur",
+      "texture": "cobblemon:textures/pokemon/generation1/eghoivysaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghoivysaur",
+      "texture": "cobblemon:textures/pokemon/generation1/eghoivysaur_shiny.png",
+      "layers": []
+    }
+  ]
+}

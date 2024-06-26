@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:vareon",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_vareon",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/infinity/vareon.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/vareon_shiny.png"
-    }  ]
+    }
+  ]
 }

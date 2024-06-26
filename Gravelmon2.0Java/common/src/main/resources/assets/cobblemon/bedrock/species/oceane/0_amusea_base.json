@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:amusea",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_amusea",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/oceane/amusea.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/amusea_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:koalove",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_koalove",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/koalove.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/koalove_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:zorua",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "alteran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_alteranzorua",
+      "texture": "cobblemon:textures/pokemon/generation5/alteranzorua.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alteran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_alteranzorua",
+      "texture": "cobblemon:textures/pokemon/generation5/alteranzorua_shiny.png",
+      "layers": []
+    }
+  ]
+}

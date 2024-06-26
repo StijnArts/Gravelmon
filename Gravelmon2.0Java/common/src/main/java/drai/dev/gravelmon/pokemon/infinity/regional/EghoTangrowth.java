@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class EghoTangrowth extends Pokemon {
-    public EghoTangrowth(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoTangrowth",
+    public EghoTangrowth(String name, Aspect aspect) {
+        super(name, aspect,"EghoTangrowth",
                 Type.ELECTRIC, Type.STEEL,
                 new Stats(114, 55, 107, 90, 77, 92),
                 List.of(Ability.VOLT_ABSORB, Ability.MOTOR_DRIVE), Ability.STATIC,

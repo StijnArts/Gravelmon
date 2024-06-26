@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class UnownXenoverse extends Pokemon {
-    public UnownXenoverse(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"UnownXenoverse",
+    public UnownXenoverse(String name, Aspect aspect) {
+        super(name, aspect,"UnownXenoverse",
                 Type.PSYCHIC,
                 new Stats(48, 72, 48, 72, 48, 48),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianBayleef extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianBayleef(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Bayleef",
+    public IonosianBayleef(String name, Aspect aspect) {
+        super(name, aspect, "Bayleef",
                 Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,

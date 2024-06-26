@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class InterianPrinplup extends drai.dev.gravelmon.pokemon.Pokemon {
-    public InterianPrinplup(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Prinplup",
+    public InterianPrinplup(String name, Aspect aspect) {
+        super(name, aspect,"Prinplup",
                 Type.BUG,
                 new Stats(0,
                         0,

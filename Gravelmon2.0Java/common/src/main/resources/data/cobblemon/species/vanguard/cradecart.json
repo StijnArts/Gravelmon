@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cradecart",
-  "nationalPokedexNumber": 2205,
+  "nationalPokedexNumber": 2223,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -124,7 +124,7 @@
   "pokedex": [
     "cobblemon.species.cradecart.desc"
   ],
-  "preEvolution": "ayreiandwebble",
+  "preEvolution": "dwebble form=ayreian",
   "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,

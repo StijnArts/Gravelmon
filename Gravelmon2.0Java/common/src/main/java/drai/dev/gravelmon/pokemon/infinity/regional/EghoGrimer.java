@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoGrimer extends Pokemon {
-    public EghoGrimer(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoGrimer",
+    public EghoGrimer(String name, Aspect aspect) {
+        super(name, aspect,"EghoGrimer",
                 Type.POISON, Type.ROCK,
                 new Stats(80, 70, 50, 60, 40, 25),
                 List.of(Ability.STENCH, Ability.FLARE_BOOST), Ability.POISON_TOUCH,

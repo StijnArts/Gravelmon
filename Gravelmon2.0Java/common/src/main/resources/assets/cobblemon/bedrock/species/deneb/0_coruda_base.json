@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:coruda",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_coruda",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/coruda.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/coruda_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianPancham extends Pokemon {
-    public AyreianPancham(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianPancham",
+    public AyreianPancham(String name, Aspect aspect) {
+        super(name, aspect,"AyreianPancham",
                 Type.FIRE, Type.FIGHTING,
                 new Stats(67,82,62,43,46,48),
                 List.of(Ability.IRON_FIST, Ability.MOLD_BREAKER), Ability.SCRAPPY,

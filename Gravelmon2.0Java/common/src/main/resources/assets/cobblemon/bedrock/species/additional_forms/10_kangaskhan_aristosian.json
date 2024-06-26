@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:kangaskhan",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "aristosian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_aristosiankangaskhan",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosiankangaskhan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "aristosian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_aristosiankangaskhan",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosiankangaskhan_shiny.png",
+      "layers": []
+    }
+  ]
+}

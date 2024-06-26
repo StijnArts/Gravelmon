@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticRiolu extends Pokemon {
-    public MysticRiolu(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MysticRiolu",
+    public MysticRiolu(String name, Aspect aspect) {
+        super(name, aspect,"MysticRiolu",
                 Type.FAIRY,
                 new Stats(70, 40, 40, 60, 40, 35),
                 List.of(Ability.OBLIVIOUS), Ability.STEELWORKER,

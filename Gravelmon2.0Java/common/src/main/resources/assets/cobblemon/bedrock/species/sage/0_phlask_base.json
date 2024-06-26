@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:phlask",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_phlask",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/phlask.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/phlask_shiny.png"
-    }  ]
+    }
+  ]
 }

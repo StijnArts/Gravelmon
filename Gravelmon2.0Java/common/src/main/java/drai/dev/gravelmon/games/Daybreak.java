@@ -14,6 +14,6 @@ public class Daybreak extends Game {
     public void registerPokemon() {
         var sandridger = new Sandridger();
         pokemon.add(sandridger);
-        pokemon.add(new AlolanSandridger("", Aspect.ALOLA));
+        pokemon.add(new AlolanSandridger("", Aspect.ALOLAN));
     }
 }

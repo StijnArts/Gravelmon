@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaElekid extends Pokemon {
-    public DeltaElekid(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaElekid",
+    public DeltaElekid(String name, Aspect aspect) {
+        super(name, aspect,"DeltaElekid",
                 Type.ROCK,
                 new Stats(45, 63,37,65,55,95),
                 List.of(Ability.INNER_FOCUS), Ability.BATTLE_ARMOR,

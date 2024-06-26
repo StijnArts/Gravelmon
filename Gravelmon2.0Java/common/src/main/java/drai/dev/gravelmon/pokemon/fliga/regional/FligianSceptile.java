@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianSceptile extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianSceptile(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Sceptile",
+    public FligianSceptile(String name, Aspect aspect) {
+        super(name, aspect, "Sceptile",
                 Type.ROCK,
                 new Stats(70,
                         105,

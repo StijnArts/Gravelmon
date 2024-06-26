@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:pinsir",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hoennianpinsir",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianpinsir.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hoennianpinsir",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianpinsir_shiny.png",
+      "layers": []
+    }
+  ]
+}

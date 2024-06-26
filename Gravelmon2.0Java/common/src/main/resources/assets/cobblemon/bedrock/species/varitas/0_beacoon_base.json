@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:beacoon",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_beacoon",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/varitas/beacoon.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/beacoon_shiny.png"
-    }  ]
+    }
+  ]
 }

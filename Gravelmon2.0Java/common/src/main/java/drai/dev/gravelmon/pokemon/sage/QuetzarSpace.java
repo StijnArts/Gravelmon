@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class QuetzarSpace extends Pokemon {
-    public QuetzarSpace(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"QuetzarSpace",
+    public QuetzarSpace(String name, Aspect aspect) {
+        super(name, aspect,"QuetzarSpace",
                 Type.DRAGON, Type.PSYCHIC,
                 new Stats(105, 85, 105, 160, 125, 90),
                 List.of(Ability.PRESSURE), Ability.CLOUD_NINE,

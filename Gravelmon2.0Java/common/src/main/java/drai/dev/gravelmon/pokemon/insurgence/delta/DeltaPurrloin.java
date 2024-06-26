@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaPurrloin extends Pokemon {
-    public DeltaPurrloin(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaPurrloin",
+    public DeltaPurrloin(String name, Aspect aspect) {
+        super(name, aspect,"DeltaPurrloin",
                 Type.GHOST, Type.FAIRY,
                 new Stats(41, 50, 37, 50, 37, 66),
                 List.of(Ability.ILLUSION, Ability.UNNERVE), Ability.LIGHTNING_ROD,

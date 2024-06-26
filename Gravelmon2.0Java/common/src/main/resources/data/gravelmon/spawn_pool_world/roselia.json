@@ -1,0 +1,74 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "avorianroselia-1",
+      "pokemon": "roselia avorian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "29-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_forest" ]
+      }
+    }
+,
+    {
+      "id": "deltaroselia-1",
+      "pokemon": "roselia delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-30",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
+      "id": "ayreianroselia-1",
+      "pokemon": "roselia ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "29-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "relicroselia-1",
+      "pokemon": "roselia relic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "29-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_floral" ]    }
+    }
+
+]
+}

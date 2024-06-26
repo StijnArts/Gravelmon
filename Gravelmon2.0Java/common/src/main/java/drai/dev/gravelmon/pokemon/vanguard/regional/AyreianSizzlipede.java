@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianSizzlipede extends Pokemon {
-    public AyreianSizzlipede(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "AyreianSizzlipede",
+    public AyreianSizzlipede(String name, Aspect aspect) {
+        super(name, aspect,"AyreianSizzlipede",
                 Type.GHOST, Type.BUG,
                 new Stats(50,55,45,60,65,50),
                 List.of(Ability.FLASH_FIRE, Ability.WHITE_SMOKE), Ability.MAGIC_BOUNCE,

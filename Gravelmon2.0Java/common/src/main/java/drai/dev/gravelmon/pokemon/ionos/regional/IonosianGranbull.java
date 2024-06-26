@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianGranbull extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianGranbull(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Granbull",
+    public IonosianGranbull(String name, Aspect aspect) {
+        super(name, aspect, "Granbull",
                 Type.FAIRY, Type.DARK,
                 new Stats(0,
                         0,

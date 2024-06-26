@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:charizard",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltacharizard",
+      "texture": "cobblemon:textures/pokemon/generation1/deltacharizard.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltacharizard",
+      "texture": "cobblemon:textures/pokemon/generation1/deltacharizard_shiny.png",
+      "layers": []
+    }
+  ]
+}

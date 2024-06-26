@@ -1,0 +1,140 @@
+{
+   "target": "cobblemon:palossand",
+   "forms": [{
+  "name": "Kaskadian",
+  "primaryType": "ghost",
+  "secondaryType": "rock",
+  "abilities": [
+    "solidrock",
+    "h:sandrush"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 63,
+    "defence": 182,
+    "special_attack": 43,
+    "special_defence": 122,
+    "speed": 25
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:astonish",
+    "1:harden",
+    "1:rockthrow",
+    "15:megadrain",
+    "20:sandattack",
+    "25:rocktomb",
+    "30:hypnosis",
+    "35:gigadrain",
+    "40:irondefense",
+    "47:shadowball",
+    "54:meteorbeam",
+    "61:recover",
+    "68:sandstorm",
+    "egg:ancientpower",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "tm:mudslap",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:confuseray",
+    "tm:chillingwater",
+    "tm:facade",
+    "tm:hex",
+    "tm:rockthrow",
+    "tm:rocktomb",
+    "tm:nightshade",
+    "tm:fling",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:sandstorm",
+    "tm:bodyslam",
+    "tm:sleeptalksound",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:imprison",
+    "tm:flashcannon",
+    "tm:skillswap",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:trick",
+    "tm:gigadrain",
+    "tm:shadowball",
+    "tm:stealthrock",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:amnesia",
+    "tm:earthpower",
+    "tm:sludgebomb",
+    "tm:earthquake",
+    "tm:stoneedge",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:terablast"  ],
+  "labels": [
+    "lockemon",
+    "gen7",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kaskadianpalossand.desc"
+  ],
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 2500,
+  "aspects": ["kaskadian"],
+  "cannotDynamax": false
+}
+], "features": [
+"kaskadian"
+  ]
+}

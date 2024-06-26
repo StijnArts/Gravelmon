@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yanmage",
-  "nationalPokedexNumber": 1957,
+  "nationalPokedexNumber": 1974,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -103,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.yanmage.desc"
   ],
-  "preEvolution": "kaskadianyanma",
+  "preEvolution": "Yanma form=kaskadian",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,

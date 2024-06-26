@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:shinx",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_kaskadianshinx",
+      "texture": "cobblemon:textures/pokemon/generation4/kaskadianshinx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_kaskadianshinx",
+      "texture": "cobblemon:textures/pokemon/generation4/kaskadianshinx_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class TyranitarX extends Pokemon {
-    public TyranitarX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"TyranitarX",
+    public TyranitarX(String name, Aspect aspect) {
+        super(name, aspect,"TyranitarX",
                 Type.ROCK, Type.BUG,
                 new Stats(100, 144, 120, 105, 110, 71),
                 List.of(Ability.SOLID_ROCK), Ability.SAND_STREAM,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gumshoos",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_ayreiangumshoos",
+      "texture": "cobblemon:textures/pokemon/generation7/ayreiangumshoos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_ayreiangumshoos",
+      "texture": "cobblemon:textures/pokemon/generation7/ayreiangumshoos_shiny.png",
+      "layers": []
+    }
+  ]
+}

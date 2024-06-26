@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaScyther extends Pokemon {
-    public DeltaScyther(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaScyther",
+    public DeltaScyther(String name, Aspect aspect) {
+        super(name, aspect,"DeltaScyther",
                 Type.ICE, Type.FIGHTING,
                 new Stats(70, 110, 80, 55, 80, 105),
                 List.of(Ability.HUSTLE, Ability.ICE_CLEATS), Ability.SUPER_LUCK,

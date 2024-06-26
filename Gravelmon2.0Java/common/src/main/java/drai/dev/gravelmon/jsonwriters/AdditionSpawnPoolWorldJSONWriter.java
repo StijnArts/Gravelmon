@@ -25,14 +25,13 @@ public class AdditionSpawnPoolWorldJSONWriter {
         });
     }
 
-    private static void writeSpawn(Map.Entry<String, List<Pokemon>> set, String dir) throws IOException {
+    private synchronized static void writeSpawn(Map.Entry<String, List<Pokemon>> set, String dir) throws IOException {
         String fileContents = "{\n" +
                 "  \"enabled\": true,\n" +
                 "  \"neededInstalledMods\": [],\n" +
                 "  \"neededUninstalledMods\": [],\n" +
                 "  \"spawns\": [\n";
         if(!set.getValue().isEmpty()){
-            fileContents += "   \"forms\": [";
             var isFirstForm = true;
             for(Pokemon pokemon : set.getValue()){
                 if(isFirstForm){
@@ -42,7 +41,8 @@ public class AdditionSpawnPoolWorldJSONWriter {
                 }
                 fileContents +=         "    {\n" +
                         "      \"id\": \""+pokemon.getCleanName()+"-1\",\n" +
-                        "      \"pokemon\": \""+pokemon.getCleanName()+"\",\n" +
+                        "      \"pokemon\": \""+pokemon.getCleanName().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"")+
+                        " "+pokemon.getAdditionalAspect().getName().toLowerCase()+"\",\n" +
                         "      \"presets\": [\n          ";
 
             boolean isFirstSpawnPreset = true;
@@ -81,14 +81,10 @@ public class AdditionSpawnPoolWorldJSONWriter {
                 }
                 fileContents+= "    }\n";
             }
-            fileContents+="    }\n" +
-                    "  ]\n" +
-                    "}";
+            fileContents+="    }\n";
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter(dir+pokemon.getCleanName()+".json"));
-            writer.write(fileContents);
-            writer.close();
-                fileContents += "\n]\n}";
+
+
             /*if(pokemon.isModeled()){
                 String modelledDir = "C:\\Users\\Stijn\\Desktop\\Gravelmon\\packaging\\model release\\data\\cobblemon\\spawn_pool_world\\";
                 BufferedWriter writerModeled = new BufferedWriter(new FileWriter(modelledDir+pokemon.getCleanName()+".json"));
@@ -100,7 +96,8 @@ public class AdditionSpawnPoolWorldJSONWriter {
                 fileContents +=
                         "    {\n" +
                                 "      \"id\": \"" + form.getCleanName() + "_" + pokemon.getCleanName() + "-1\",\n" +
-                                "      \"pokemon\": \"" + pokemon.getCleanName() + " " + form.getCleanName() + "\",\n" +
+                                "      \"pokemon\": \""+pokemon.getCleanName().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"")+
+                                " "+pokemon.getAdditionalAspect().getName().toLowerCase()+"\",\n" +
                                 "      \"presets\": [ ";
                 boolean isFirstFormSpawnPreset = true;
                 for (SpawnPreset spawnPreset : form.getSpawnPresets()) {
@@ -139,25 +136,15 @@ public class AdditionSpawnPoolWorldJSONWriter {
                     }
                     fileContents += "    }\n";
                 }
-                fileContents += "    }\n" +
-                        "  ]\n" +
-                        "}";
-
-                BufferedWriter formWriter = new BufferedWriter(new FileWriter(dir + form.getCleanName() +
-                        "_"+pokemon.getAdditionalAspect().getName() + "_" + pokemon.getCleanName() + ".json"));
-                formWriter.write(fileContents);
-                formWriter.close();
-                /*if(pokemon.isModeled()){
-                    String modelledDir = "C:\\Users\\Stijn\\Desktop\\Gravelmon\\packaging\\model release\\data\\cobblemon\\spawn_pool_world\\";
-                    BufferedWriter writerModeled = new BufferedWriter(new FileWriter(modelledDir+pokemon.getCleanName()+".json"));
-                    writerModeled.write(fileContents);
-                    writerModeled.close();
-                }*/
+                fileContents += "    }\n";
             }
         }
         }
             }
-
+        fileContents += "\n]\n}";
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir+Pokemon.getCleanName(set.getKey())+".json"));
+        writer.write(fileContents);
+        writer.close();
     }
 
     private static String conditionsToString(String fileContents, SpawnCondition spawnCondition) {

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaGeodude extends Pokemon {
-    public DeltaGeodude(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaGeodude",
+    public DeltaGeodude(String name, Aspect aspect) {
+        super(name, aspect,"DeltaGeodude",
                 Type.PSYCHIC, Type.ROCK,
                 new Stats(40, 80, 100, 30, 30, 20),
                 List.of(Ability.REGENERATOR,Ability.SAP_SIPPER), Ability.MAGIC_BOUNCE,

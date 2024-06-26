@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class GastlyX extends Pokemon {
-    public GastlyX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"GastlyX",
+    public GastlyX(String name, Aspect aspect) {
+        super(name, aspect,"GastlyX",
                 Type.DRAGON,
                 new Stats(30, 35, 30, 100, 65, 35),
                 List.of(Ability.OBLIVIOUS, Ability.MOLD_BREAKER), Ability.STURDY,
@@ -70,9 +70,5 @@ public class GastlyX extends Pokemon {
                 List.of());
         this.setLangFileName("Gastly");
         this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
-        setBaseScale(1.2);
-        setHitbox(0.7,1.3);
-
     }
 }

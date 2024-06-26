@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:chansey",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fligian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_fligianchansey",
+      "texture": "cobblemon:textures/pokemon/generation1/fligianchansey.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fligian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_fligianchansey",
+      "texture": "cobblemon:textures/pokemon/generation1/fligianchansey_shiny.png",
+      "layers": []
+    }
+  ]
+}

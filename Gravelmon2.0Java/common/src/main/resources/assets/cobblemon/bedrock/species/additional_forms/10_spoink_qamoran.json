@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:spoink",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "qamoran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_qamoranspoink",
+      "texture": "cobblemon:textures/pokemon/generation3/qamoranspoink.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "qamoran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_qamoranspoink",
+      "texture": "cobblemon:textures/pokemon/generation3/qamoranspoink_shiny.png",
+      "layers": []
+    }
+  ]
+}

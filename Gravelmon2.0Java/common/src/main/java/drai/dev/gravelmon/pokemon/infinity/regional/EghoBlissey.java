@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoBlissey extends Pokemon {
-    public EghoBlissey(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoBlissey",
+    public EghoBlissey(String name, Aspect aspect) {
+        super(name, aspect,"EghoBlissey",
                 Type.FIGHTING, Type.FAIRY,
                 new Stats(135, 255, 55, 10, 10, 75),
                 List.of(Ability.ANGER_POINT, Ability.RECKLESS), Ability.OWN_TEMPO,

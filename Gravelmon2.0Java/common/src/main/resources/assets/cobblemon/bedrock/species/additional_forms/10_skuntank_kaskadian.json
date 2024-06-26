@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:skuntank",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_kaskadianskuntank",
+      "texture": "cobblemon:textures/pokemon/generation4/kaskadianskuntank.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_kaskadianskuntank",
+      "texture": "cobblemon:textures/pokemon/generation4/kaskadianskuntank_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dragonair",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltadragonair",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadragonair.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltadragonair",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadragonair_shiny.png",
+      "layers": []
+    }
+  ]
+}

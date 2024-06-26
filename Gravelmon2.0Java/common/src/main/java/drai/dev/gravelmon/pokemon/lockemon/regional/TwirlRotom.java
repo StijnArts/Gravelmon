@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class TwirlRotom extends Pokemon {
-    public TwirlRotom(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"TwirlRotom",
+    public TwirlRotom(String name, Aspect aspect) {
+        super(name, aspect,"TwirlRotom",
                 Type.ELECTRIC, Type.FAIRY,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.CUTE_CHARM,

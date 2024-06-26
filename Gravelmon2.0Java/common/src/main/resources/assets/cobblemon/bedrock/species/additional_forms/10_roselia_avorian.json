@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:roselia",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "avorian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_avorianroselia",
+      "texture": "cobblemon:textures/pokemon/generation3/avorianroselia.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "avorian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_avorianroselia",
+      "texture": "cobblemon:textures/pokemon/generation3/avorianroselia_shiny.png",
+      "layers": []
+    }
+  ]
+}

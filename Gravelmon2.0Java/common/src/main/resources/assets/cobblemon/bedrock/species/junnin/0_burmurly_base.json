@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:burmurly",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_burmurly",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/junnin/burmurly.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/burmurly_shiny.png"
-    }  ]
+    }
+  ]
 }

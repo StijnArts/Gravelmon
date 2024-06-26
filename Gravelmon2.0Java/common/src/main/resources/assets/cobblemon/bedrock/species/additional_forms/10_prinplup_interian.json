@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:prinplup",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "interian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_interianprinplup",
+      "texture": "cobblemon:textures/pokemon/generation4/interianprinplup.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "interian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_interianprinplup",
+      "texture": "cobblemon:textures/pokemon/generation4/interianprinplup_shiny.png",
+      "layers": []
+    }
+  ]
+}

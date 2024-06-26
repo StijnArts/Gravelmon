@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianPidgeotto extends Pokemon {
-    public AyreianPidgeotto(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianPidgeotto",
+    public AyreianPidgeotto(String name, Aspect aspect) {
+        super(name, aspect,"AyreianPidgeotto",
                 Type.GRASS, Type.FLYING,
                 new Stats(63,71,55,71,50,50),
                 List.of(Ability.FLOWER_GIFT, Ability.OVERGROW), Ability.GRASSY_SURGE,

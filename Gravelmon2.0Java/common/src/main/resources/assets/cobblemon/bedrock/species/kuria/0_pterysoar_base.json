@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:pterysoar",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_pterysoar",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/kuria/pterysoar.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/pterysoar_shiny.png"
-    }  ]
+    }
+  ]
 }

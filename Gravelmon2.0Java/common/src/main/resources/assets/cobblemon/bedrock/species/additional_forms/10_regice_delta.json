@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:regice",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaregice",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaregice.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaregice",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaregice_shiny.png",
+      "layers": []
+    }
+  ]
+}

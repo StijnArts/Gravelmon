@@ -32,7 +32,7 @@ public class GenerationSeven extends Game {
 
         //X-Species (Xenoverse)
         pokemon.add(new MareanieX("", Aspect.X));
-        pokemon.add(new ToxapexX("", Aspect.X));
+        pokemon.add(new ToxapexX("Toxapex", Aspect.X));
         pokemon.add(new PyukumukuX("", Aspect.X));
         pokemon.add(new TapuKokoX("", Aspect.X));
         pokemon.add(new TapuLeleX("", Aspect.X));
@@ -40,8 +40,8 @@ public class GenerationSeven extends Game {
         pokemon.add(new TapuFiniX("", Aspect.X));
 
         //Pokemon Blazing Emerald
-        pokemon.add(new HoennianMareanie("", Aspect.HOENN));
-        pokemon.add(new HoennianToxapex("", Aspect.HOENN));
+        pokemon.add(new HoennianMareanie("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianToxapex("", Aspect.HOENNIAN));
 
         //Radical Red
         pokemon.add(new SeviianWishiwashi("", Aspect.SEVIIAN));

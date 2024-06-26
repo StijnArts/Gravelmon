@@ -8,8 +8,8 @@ import java.util.*;
 
 public class QamoranSeel extends Pokemon {
 
-    public QamoranSeel(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Psyduck",
+    public QamoranSeel(String name, Aspect aspect) {
+        super(name, aspect, "Psyduck",
                     Type.WATER, Type.GRASS,
                     new Stats(65,
                             45,

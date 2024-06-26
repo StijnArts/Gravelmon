@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:cyndaquil",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreiancyndaquil",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreiancyndaquil.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreiancyndaquil",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreiancyndaquil_shiny.png",
+      "layers": []
+    }
+  ]
+}

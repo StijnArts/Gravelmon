@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:grovyle",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fligian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligiangrovyle",
+      "texture": "cobblemon:textures/pokemon/generation3/fligiangrovyle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fligian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligiangrovyle",
+      "texture": "cobblemon:textures/pokemon/generation3/fligiangrovyle_shiny.png",
+      "layers": []
+    }
+  ]
+}

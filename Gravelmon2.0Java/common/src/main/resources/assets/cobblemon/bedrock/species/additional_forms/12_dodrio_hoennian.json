@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dodrio",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hoenniandodrio",
+      "texture": "cobblemon:textures/pokemon/generation1/hoenniandodrio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hoenniandodrio",
+      "texture": "cobblemon:textures/pokemon/generation1/hoenniandodrio_shiny.png",
+      "layers": []
+    }
+  ]
+}

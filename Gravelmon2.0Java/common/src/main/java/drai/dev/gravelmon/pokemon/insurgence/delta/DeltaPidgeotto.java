@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaPidgeotto extends Pokemon {
-    public DeltaPidgeotto(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaPidgeotto",
+    public DeltaPidgeotto(String name, Aspect aspect) {
+        super(name, aspect,"DeltaPidgeotto",
                 Type.DARK, Type.DRAGON,
                 new Stats(63, 60, 55, 50, 50, 71),
                 List.of(Ability.INTIMIDATE,Ability.EARLY_BIRD), Ability.MARVEL_SCALE,

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:teslax",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_teslax",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/nosto/teslax.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/teslax_shiny.png"
-    }  ]
+    }
+  ]
 }

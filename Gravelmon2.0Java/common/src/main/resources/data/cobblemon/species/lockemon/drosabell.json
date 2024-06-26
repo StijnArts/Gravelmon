@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drosabell",
-  "nationalPokedexNumber": 1956,
+  "nationalPokedexNumber": 1973,
   "primaryType": "grass",
   "abilities": [
     "triage",
@@ -109,7 +109,7 @@
   "pokedex": [
     "cobblemon.species.drosabell.desc"
   ],
-  "preEvolution": "kaskadianbellsprout",
+  "preEvolution": "bellsprout form=kaskadian",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,

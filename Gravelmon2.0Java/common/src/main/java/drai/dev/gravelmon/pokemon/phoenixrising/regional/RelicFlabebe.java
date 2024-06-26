@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicFlabebe extends Pokemon {
-    public RelicFlabebe(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"RelicFlabebe",
+    public RelicFlabebe(String name, Aspect aspect) {
+        super(name, aspect,"RelicFlabebe",
                 Type.GHOST, Type.FAIRY,
                 new Stats(55, 115, 110, 65, 65, 95),
                 List.of(Ability.STAMINA, Ability.JUSTIFIED), Ability.LEAF_GUARD,

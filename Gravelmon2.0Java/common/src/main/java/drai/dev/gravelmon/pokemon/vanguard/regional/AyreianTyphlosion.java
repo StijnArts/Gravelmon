@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianTyphlosion extends Pokemon {
-    public AyreianTyphlosion(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianTyphlosion",
+    public AyreianTyphlosion(String name, Aspect aspect) {
+        super(name, aspect,"AyreianTyphlosion",
                 Type.FIRE, Type.GHOST,
                 new Stats(90,75,70,125,105,95),
                 List.of(Ability.DROUGHT, Ability.INFILTRATOR), Ability.SOLAR_POWER,

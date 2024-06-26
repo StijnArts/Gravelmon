@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:damsleros",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_damsleros",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/damsleros.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/damsleros_shiny.png"
-    }  ]
+    }
+  ]
 }

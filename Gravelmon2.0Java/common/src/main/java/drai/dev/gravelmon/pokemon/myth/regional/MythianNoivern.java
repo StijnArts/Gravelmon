@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianNoivern extends Pokemon {
-    public MythianNoivern(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "MythianNoivern",
+    public MythianNoivern(String name, Aspect aspect) {
+        super(name, aspect,"MythianNoivern",
                 Type.SOUND, Type.ICE,
                 new Stats(95,50,40,150,115,110),
                 List.of(Ability.SNOW_WARNING, Ability.SNOW_CLOAK), Ability.ANTICIPATION,

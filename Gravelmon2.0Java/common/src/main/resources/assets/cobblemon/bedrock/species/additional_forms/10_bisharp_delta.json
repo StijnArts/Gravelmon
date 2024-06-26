@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:bisharp",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltabisharp",
+      "texture": "cobblemon:textures/pokemon/generation5/deltabisharp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltabisharp",
+      "texture": "cobblemon:textures/pokemon/generation5/deltabisharp_shiny.png",
+      "layers": []
+    }
+  ]
+}

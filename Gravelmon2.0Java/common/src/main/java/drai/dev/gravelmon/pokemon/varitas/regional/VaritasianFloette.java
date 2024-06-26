@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianFloette extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianFloette(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Floette",
+    public VaritasianFloette(String name, Aspect aspect) {
+        super(name, aspect, "Floette",
                 Type.FAIRY, Type.POISON,
                 new Stats(54,
                         45,

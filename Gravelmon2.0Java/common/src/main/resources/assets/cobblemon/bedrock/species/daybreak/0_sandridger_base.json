@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:sandridger",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:daybreak_sandridger",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/daybreak/sandridger.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/daybreak/sandridger_shiny.png"
-    }  ]
+    }
+  ]
 }

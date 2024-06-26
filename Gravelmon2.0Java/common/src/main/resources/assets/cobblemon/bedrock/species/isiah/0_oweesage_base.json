@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:oweesage",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_oweesage",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/isiah/oweesage.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/oweesage_shiny.png"
-    }  ]
+    }
+  ]
 }

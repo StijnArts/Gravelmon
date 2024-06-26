@@ -1,0 +1,348 @@
+{
+   "target": "cobblemon:electabuzz",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "rock",
+  "abilities": [
+    "innerfocus",
+    "h:battlearmor"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 83,
+    "defence": 57,
+    "special_attack": 95,
+    "special_defence": 85,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:rockthrow",
+    "5:rockthrow",
+    "8:twister",
+    "12:cometpunch",
+    "15:bite",
+    "19:stealthrock",
+    "22:smackdown",
+    "26:curse",
+    "29:ancientpower",
+    "36:crunch",
+    "42:meanlook",
+    "49:rockslide",
+    "55:outrage",
+    "tm:honeclaws",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roost",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:swordsdance",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:steelwing",
+    "tm:acrobatics",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:darkmatter",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:rocksmash",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bodyslam",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:dig",
+    "tutor:dynamicpunch",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:headbutt",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:seismictoss",
+    "tutor:selfdestruct",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:tailwind",
+    "tutor:thunderpunch",
+    "tutor:twister",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen1",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaelectabuzz.desc"
+  ],
+  "preEvolution": "Elekid form=delta",
+  "evolutions": [
+    {
+      "id": "deltaelectabuzz_electivire",
+      "variant": "level_up",
+      "result": "electivire delta",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:electirizer"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 11,
+  "weight": 450,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "X",
+  "primaryType": "fire",
+  "abilities": [
+    "aftermath",
+    "h:vitalspirit"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 83,
+    "defence": 57,
+    "special_attack": 95,
+    "special_defence": 85,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 26,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:quickattack",
+    "1:leer",
+    "1:ember",
+    "5:ember",
+    "8:lowkick",
+    "12:swiftcosmic",
+    "15:incinerate",
+    "19:firespin",
+    "22:flameburst",
+    "26:workup",
+    "29:firepunch",
+    "36:lavaplume",
+    "42:screechsound",
+    "49:flamethrower",
+    "55:fireblast",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:roundsound",
+    "tm:overheat",
+    "tm:fling",
+    "tm:willowisp",
+    "tm:explosion",
+    "tm:swagger",
+    "tm:substitute",
+    "tutor:covet",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:flash",
+    "tutor:heatwave",
+    "tutor:lowkick",
+    "tutor:outrage",
+    "tutor:scorchedashes",
+    "tutor:secretpower",
+    "tutor:snoresound"  ],
+  "labels": [
+    "xenoverse",
+    "gen1",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.electabuzzx.desc"
+  ],
+  "preEvolution": "Elekid form=x",
+  "evolutions": [
+    {
+      "id": "electabuzzx_electaburst",
+      "variant": "item_interact",
+      "result": "electaburst",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:xenolith",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 300,
+  "aspects": ["x"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta",
+"x"
+  ]
+}

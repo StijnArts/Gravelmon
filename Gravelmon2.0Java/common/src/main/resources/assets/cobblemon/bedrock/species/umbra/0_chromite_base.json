@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:chromite",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_chromite",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/umbra/chromite.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/chromite_shiny.png"
-    }  ]
+    }
+  ]
 }

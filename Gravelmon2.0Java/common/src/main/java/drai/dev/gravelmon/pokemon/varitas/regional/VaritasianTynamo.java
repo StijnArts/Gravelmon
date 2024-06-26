@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianTynamo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTynamo(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Tynamo",
+    public VaritasianTynamo(String name, Aspect aspect) {
+        super(name, aspect,"Tynamo",
                 Type.GROUND, Type.WATER,
                 new Stats(35,
                         55,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:tangela",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltatangela",
+      "texture": "cobblemon:textures/pokemon/generation1/deltatangela.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltatangela",
+      "texture": "cobblemon:textures/pokemon/generation1/deltatangela_shiny.png",
+      "layers": []
+    }
+  ]
+}

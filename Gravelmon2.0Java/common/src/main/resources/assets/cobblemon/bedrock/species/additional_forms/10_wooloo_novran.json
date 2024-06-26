@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:wooloo",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "novran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation8_novranwooloo",
+      "texture": "cobblemon:textures/pokemon/generation8/novranwooloo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "novran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation8_novranwooloo",
+      "texture": "cobblemon:textures/pokemon/generation8/novranwooloo_shiny.png",
+      "layers": []
+    }
+  ]
+}

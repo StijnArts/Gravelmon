@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianShinx extends Pokemon {
-    public AyreianShinx(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianShinx",
+    public AyreianShinx(String name, Aspect aspect) {
+        super(name, aspect,"AyreianShinx",
                 Type.ELECTRIC, Type.FIGHTING,
                 new Stats(45,65,34,50,65,34),
                 List.of(Ability.GALVANIZE, Ability.INTIMIDATE), Ability.GUTS,

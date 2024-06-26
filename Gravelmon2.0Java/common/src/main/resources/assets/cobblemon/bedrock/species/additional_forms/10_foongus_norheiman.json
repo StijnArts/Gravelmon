@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:foongus",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "norheiman"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_norheimanfoongus",
+      "texture": "cobblemon:textures/pokemon/generation5/norheimanfoongus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "norheiman",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_norheimanfoongus",
+      "texture": "cobblemon:textures/pokemon/generation5/norheimanfoongus_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:duskull",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fligian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligianduskull",
+      "texture": "cobblemon:textures/pokemon/generation3/fligianduskull.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fligian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligianduskull",
+      "texture": "cobblemon:textures/pokemon/generation3/fligianduskull_shiny.png",
+      "layers": []
+    }
+  ]
+}

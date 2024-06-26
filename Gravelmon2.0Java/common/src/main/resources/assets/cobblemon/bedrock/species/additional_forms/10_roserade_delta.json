@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:roserade",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltaroserade",
+      "texture": "cobblemon:textures/pokemon/generation4/deltaroserade.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltaroserade",
+      "texture": "cobblemon:textures/pokemon/generation4/deltaroserade_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianLitleo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianLitleo(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Litleo",
+    public HizianLitleo(String name, Aspect aspect) {
+        super(name, aspect, "Litleo",
                 Type.GHOST,
                 new Stats(62,
                         73,

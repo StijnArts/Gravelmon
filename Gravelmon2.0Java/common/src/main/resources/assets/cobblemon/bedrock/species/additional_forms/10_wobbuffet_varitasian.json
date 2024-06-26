@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:wobbuffet",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "varitasian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_varitasianwobbuffet",
+      "texture": "cobblemon:textures/pokemon/generation2/varitasianwobbuffet.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "varitasian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_varitasianwobbuffet",
+      "texture": "cobblemon:textures/pokemon/generation2/varitasianwobbuffet_shiny.png",
+      "layers": []
+    }
+  ]
+}

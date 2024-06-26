@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoMagnemite extends Pokemon {
-    public EghoMagnemite(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoMagnemite",
+    public EghoMagnemite(String name, Aspect aspect) {
+        super(name, aspect,"EghoMagnemite",
                 Type.GRASS, Type.STEEL,
                 new Stats(40, 80, 55, 35, 70, 45),
                 List.of(Ability.OVERGROW, Ability.REGENERATOR), Ability.ANALYTIC,

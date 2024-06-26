@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:garrachnid",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_garrachnid",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/rica/garrachnid.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/garrachnid_shiny.png"
-    }  ]
+    }
+  ]
 }

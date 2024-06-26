@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class GutsyCastform extends Pokemon {
-    public GutsyCastform(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"GutsyCastform",
+    public GutsyCastform(String name, Aspect aspect) {
+        super(name, aspect,"GutsyCastform",
                 Type.FIGHTING,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:rapidash",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_rapidashx",
+      "texture": "cobblemon:textures/pokemon/generation1/rapidashx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_rapidashx",
+      "texture": "cobblemon:textures/pokemon/generation1/rapidashx_shiny.png",
+      "layers": []
+    }
+  ]
+}

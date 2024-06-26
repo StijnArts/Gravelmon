@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:liedoro",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_liedoro",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/liedoro.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/liedoro_shiny.png"
-    }  ]
+    }
+  ]
 }

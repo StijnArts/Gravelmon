@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SmeargleX extends Pokemon {
-    public SmeargleX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"SmeargleX",
+    public SmeargleX(String name, Aspect aspect) {
+        super(name, aspect,"SmeargleX",
                 Type.FAIRY,
                 new Stats(55, 20, 35, 20, 45, 75),
                 List.of(Ability.IMMUNITY, Ability.SWEET_VEIL), Ability.STICKY_HOLD,

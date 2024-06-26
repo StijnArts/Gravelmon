@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianOnix extends Pokemon {
-    public HoennianOnix(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianOnix",
+    public HoennianOnix(String name, Aspect aspect) {
+        super(name, aspect,"HoennianOnix",
                 Type.ROCK, Type.ICE,
                 new Stats(55, 35, 60, 65, 150, 60),
                 List.of(Ability.CRYSTAL_CASE), Ability.CRYSTAL_CASE,

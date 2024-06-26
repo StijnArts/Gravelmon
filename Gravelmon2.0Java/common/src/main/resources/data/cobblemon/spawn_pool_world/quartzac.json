@@ -16,7 +16,7 @@
       "weight": 5.0,
       "condition": {
 "biomes": [ "#cobblemon:is_cave",
-"#cobblemon:is_nether_basalt",
+"#cobblemon:is_volvanic",
 "#cobblemon:is_nether_wasteland" ]
       }
     }

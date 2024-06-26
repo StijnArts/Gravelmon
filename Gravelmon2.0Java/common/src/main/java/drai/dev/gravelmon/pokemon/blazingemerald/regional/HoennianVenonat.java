@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class HoennianVenonat extends Pokemon {
-    public HoennianVenonat(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianVenonat",
+    public HoennianVenonat(String name, Aspect aspect) {
+        super(name, aspect,"HoennianVenonat",
                 Type.BUG, Type.DARK,
                 new Stats(55, 40, 45, 55, 45, 65),
                 List.of(Ability.RUN_AWAY), Ability.ILLUMINATE,

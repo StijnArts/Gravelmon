@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:snorunt",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_cefiransnorunt",
+      "texture": "cobblemon:textures/pokemon/generation3/cefiransnorunt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_cefiransnorunt",
+      "texture": "cobblemon:textures/pokemon/generation3/cefiransnorunt_shiny.png",
+      "layers": []
+    }
+  ]
+}

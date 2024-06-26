@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanSeel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanSeel(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Seel",
+    public NorheimanSeel(String name, Aspect aspect) {
+        super(name, aspect, "Seel",
                 Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,

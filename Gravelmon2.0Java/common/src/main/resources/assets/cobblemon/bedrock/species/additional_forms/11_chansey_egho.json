@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:chansey",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghochansey",
+      "texture": "cobblemon:textures/pokemon/generation1/eghochansey.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghochansey",
+      "texture": "cobblemon:textures/pokemon/generation1/eghochansey_shiny.png",
+      "layers": []
+    }
+  ]
+}

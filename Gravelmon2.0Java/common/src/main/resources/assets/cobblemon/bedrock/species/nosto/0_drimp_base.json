@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:drimp",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_drimp",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/nosto/drimp.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/drimp_shiny.png"
-    }  ]
+    }
+  ]
 }

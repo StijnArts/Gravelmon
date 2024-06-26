@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:rhydon",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hizianrhydon",
+      "texture": "cobblemon:textures/pokemon/generation1/hizianrhydon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hizianrhydon",
+      "texture": "cobblemon:textures/pokemon/generation1/hizianrhydon_shiny.png",
+      "layers": []
+    }
+  ]
+}

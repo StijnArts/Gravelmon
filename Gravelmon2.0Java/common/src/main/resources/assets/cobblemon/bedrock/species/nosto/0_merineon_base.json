@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:merineon",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_merineon",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/nosto/merineon.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/merineon_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranDubwool extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranDubwool(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Dubwool",
+    public NovranDubwool(String name, Aspect aspect) {
+        super(name, aspect, "Dubwool",
                 Type.STEEL, Type.NORMAL,
                 new Stats(72,
                         80,

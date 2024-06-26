@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:castform",
+  "order": 22,
+  "variations": [
+    {
+      "aspects": [
+        "shady"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_shadycastform",
+      "texture": "cobblemon:textures/pokemon/generation3/shadycastform.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shady",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_shadycastform",
+      "texture": "cobblemon:textures/pokemon/generation3/shadycastform_shiny.png",
+      "layers": []
+    }
+  ]
+}

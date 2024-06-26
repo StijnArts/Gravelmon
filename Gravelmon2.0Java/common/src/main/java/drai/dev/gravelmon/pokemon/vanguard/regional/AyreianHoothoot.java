@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianHoothoot extends Pokemon {
-    public AyreianHoothoot(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianHoothoot",
+    public AyreianHoothoot(String name, Aspect aspect) {
+        super(name, aspect,"AyreianHoothoot",
                 Type.PSYCHIC, Type.FLYING,
                 new Stats(60,30,30,50,65,55),
                 List.of(Ability.INSOMNIA, Ability.MIRROR_ARMOR), Ability.TINTED_LENS,

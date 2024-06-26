@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:nidoranm",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "alteran_summer_coat"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_alterannidoransummercoat",
+      "texture": "cobblemon:textures/pokemon/generation1/alterannidoransummercoat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alteran_summer_coat",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_alterannidoransummercoat",
+      "texture": "cobblemon:textures/pokemon/generation1/alterannidoransummercoat_shiny.png",
+      "layers": []
+    }
+  ]
+}

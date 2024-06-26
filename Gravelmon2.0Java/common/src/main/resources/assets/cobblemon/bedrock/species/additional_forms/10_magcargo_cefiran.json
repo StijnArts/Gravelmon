@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:magcargo",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiranmagcargo",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiranmagcargo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiranmagcargo",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiranmagcargo_shiny.png",
+      "layers": []
+    }
+  ]
+}

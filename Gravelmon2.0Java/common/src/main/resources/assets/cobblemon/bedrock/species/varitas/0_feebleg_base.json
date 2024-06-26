@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:feebleg",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_feebleg",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/varitas/feebleg.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/feebleg_shiny.png"
-    }  ]
+    }
+  ]
 }

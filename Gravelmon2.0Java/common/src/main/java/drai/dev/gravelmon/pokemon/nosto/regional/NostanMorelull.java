@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NostanMorelull extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NostanMorelull(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Morelull",
+    public NostanMorelull(String name, Aspect aspect) {
+        super(name, aspect, "Morelull",
                 Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class UnownEarth extends Pokemon {
-    public UnownEarth(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"UnownEarth",
+    public UnownEarth(String name, Aspect aspect) {
+        super(name, aspect,"UnownEarth",
                 Type.PSYCHIC,
                 new Stats(48, 72, 48, 72, 48, 48),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

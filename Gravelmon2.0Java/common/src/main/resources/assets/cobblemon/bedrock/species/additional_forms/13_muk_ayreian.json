@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:muk",
+  "order": 13,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianmuk",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianmuk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianmuk",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianmuk_shiny.png",
+      "layers": []
+    }
+  ]
+}

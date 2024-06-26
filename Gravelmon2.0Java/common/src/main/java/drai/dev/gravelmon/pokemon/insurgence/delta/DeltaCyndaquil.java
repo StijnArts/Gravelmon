@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaCyndaquil extends Pokemon {
-    public DeltaCyndaquil(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaCyndaquil",
+    public DeltaCyndaquil(String name, Aspect aspect) {
+        super(name, aspect,"DeltaCyndaquil",
                 Type.ELECTRIC,
                 new Stats(39, 52, 43, 60, 50, 65),
                 List.of(Ability.STATIC), Ability.LIGHTNING_ROD,

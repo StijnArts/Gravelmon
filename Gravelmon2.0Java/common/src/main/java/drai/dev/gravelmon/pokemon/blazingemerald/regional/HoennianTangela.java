@@ -7,8 +7,8 @@ import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 public class HoennianTangela extends Pokemon {
-    public HoennianTangela(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianTangela",
+    public HoennianTangela(String name, Aspect aspect) {
+        super(name, aspect,"HoennianTangela",
                 Type.FIGHTING,
                 new Stats(65, 115, 85, 50, 45, 45),
                 List.of(Ability.BARBED_NEST), Ability.BARBED_NEST,

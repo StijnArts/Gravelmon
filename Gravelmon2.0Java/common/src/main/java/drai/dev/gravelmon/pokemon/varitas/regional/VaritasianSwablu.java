@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianSwablu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianSwablu(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Swablu",
+    public VaritasianSwablu(String name, Aspect aspect) {
+        super(name, aspect,"Swablu",
                 Type.GRASS, Type.FLYING,
                 new Stats(45,
                         40,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoMarill extends Pokemon {
-    public EghoMarill(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoMarill",
+    public EghoMarill(String name, Aspect aspect) {
+        super(name, aspect,"EghoMarill",
                 Type.ROCK, Type.FIGHTING,
                 new Stats(70, 50, 40, 20, 30, 40),
                 List.of(Ability.HUGE_POWER), Ability.DRY_SKIN,

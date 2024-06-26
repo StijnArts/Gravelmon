@@ -7,6 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import org.jetbrains.annotations.*;
 
 import java.util.*;
+import java.util.stream.*;
 
 public class Pokemon {
     //TODO substitute form evolution results
@@ -123,12 +124,15 @@ public class Pokemon {
                 dexEntries,evolutions,learnSet,labels,dropAmount,drops,spawnContext,spawnPool,
                 minSpawnLevel,maxSpawnLevel,spawnWeight,spawnConditions,spawnAntiConditions,
                 spawnPresets,baseScale,portraitScale,forms);
-        addAdditionalForm(originalPokemon, this);
         this.formAdditionAspect = aspect;
+        addAdditionalForm(originalPokemon, this);
     }
 
     private void addAdditionalForm(String originalPokemon, Pokemon pokemon) {
-        var key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"");
+        var key = originalPokemon;
+        if(key.isBlank()){
+            key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"");
+        }
         var forms = ADDITIONAL_FORMS.get(key);
         if(forms == null){
             forms = new ArrayList<>();
@@ -157,8 +161,8 @@ public class Pokemon {
                 dexEntries,evolutions,learnSet,labels,dropAmount,drops,spawnContext,spawnPool,
                 minSpawnLevel,maxSpawnLevel,spawnWeight,spawnConditions,spawnAntiConditions,
                 spawnPresets,baseScale,portraitScale,forms);
-        addAdditionalForm(originalPokemon, this);
         this.formAdditionAspect = aspect;
+        addAdditionalForm(originalPokemon, this);
     }
 
     public Pokemon(int dexNo, String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
@@ -284,6 +288,13 @@ public class Pokemon {
         this.portraitScale = 0.3;
         POKEMON_REGISTRY.put(this.name.toLowerCase().replaceAll("\\W",""), this);
     }
+    public static Set<String> getKeysByValue(Map<String, List<Pokemon>> map, Pokemon value) {
+        return map.entrySet()
+                .stream()
+                .filter(entry -> entry.getValue().contains(value))
+                .map(Map.Entry::getKey)
+                .collect(Collectors.toSet());
+    }
 
     public static void postRegistration() {
         List<Pokemon> zeroStatPokemon = new ArrayList<>();
@@ -316,7 +327,10 @@ public class Pokemon {
                 Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if (result != null) {
                     if(isAnAdditionalForm(result)){
-                        evolutionEntry.setResult(result.name.toLowerCase().replaceAll(result.getAdditionalAspect().getName().toLowerCase(),"")+" "+result.getAdditionalAspect().getName().toLowerCase());
+                        var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
+                        if(resultName.isPresent()){
+                            evolutionEntry.setResult(resultName.get()+ " "+result.getAdditionalAspect().getName().toLowerCase());
+                        }
                     }
                     if (evolutionEntry.getRequiredContext() != null) {
                         addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);
@@ -336,16 +350,25 @@ public class Pokemon {
 
                     if (evaluatedMons.contains(result)) continue;
                     evaluatedMons.add(result);
-                    if (result.preEvolution != null) {
-                        continue;
-                    }
                     if (result.getCleanName().equals(pokemon.getCleanName())) {
                         pokemonThatEvolveIntoThemselves += pokemon.getCleanName() + ",\n";
+                    }
+
+                    if (result.preEvolution != null) {
+                        continue;
                     }
                     if (!isBasedOnOriginalPokemon(pokemon)) {
                         result.getLabels().add(Label.FAKEMON);
                     }
-                    result.setPreEvolution(pokemon.getCleanName());
+                    if(Pokemon.isAnAdditionalForm(pokemon)){
+                        var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
+                        if(resultName.isPresent()){
+                            result.setPreEvolution(resultName.get()+ " form="+pokemon.getAdditionalAspect().getName().toLowerCase());
+                        }
+//                        result.setPreEvolution(pokemon.name.toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"")+" form="+pokemon.getAdditionalAspect().getName().toLowerCase());
+                    } else {
+                        result.setPreEvolution(pokemon.getCleanName());
+                    }
                 }
             }
             var evaluatedForms = new ArrayList<>();
@@ -448,7 +471,8 @@ public class Pokemon {
     }
 
     public static boolean isAnAdditionalForm(Pokemon pokemon) {
-        return ADDITIONAL_FORMS.values().stream().anyMatch(addition->addition==pokemon);
+        var result = pokemon.getAdditionalAspect()!=null;
+        return result;
     }
 
     private void setDropAmount(int i) {

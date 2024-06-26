@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianHitmontop extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianHitmontop(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Hitmontop",
+    public VaritasianHitmontop(String name, Aspect aspect) {
+        super(name, aspect,"Hitmontop",
                 Type.PSYCHIC,
                 new Stats(50,
                         35,

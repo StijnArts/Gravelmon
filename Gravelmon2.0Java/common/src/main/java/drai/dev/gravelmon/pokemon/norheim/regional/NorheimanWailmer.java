@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanWailmer extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanWailmer(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Wailmer",
+    public NorheimanWailmer(String name, Aspect aspect) {
+        super(name, aspect, "Wailmer",
                 Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,

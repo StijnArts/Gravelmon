@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:kiwee",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_kiwee",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/kiwee.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/kiwee_shiny.png"
-    }  ]
+    }
+  ]
 }

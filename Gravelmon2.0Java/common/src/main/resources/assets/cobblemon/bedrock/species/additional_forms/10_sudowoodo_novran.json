@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:sudowoodo",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "novran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_novransudowoodo",
+      "texture": "cobblemon:textures/pokemon/generation2/novransudowoodo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "novran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_novransudowoodo",
+      "texture": "cobblemon:textures/pokemon/generation2/novransudowoodo_shiny.png",
+      "layers": []
+    }
+  ]
+}

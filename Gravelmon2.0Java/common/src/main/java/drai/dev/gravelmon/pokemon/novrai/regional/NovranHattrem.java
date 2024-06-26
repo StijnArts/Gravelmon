@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHattrem extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHattrem(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Hattrem",
+    public NovranHattrem(String name, Aspect aspect) {
+        super(name, aspect, "Hattrem",
                 Type.GRASS, Type.FAIRY,
                 new Stats(57,
                         40,

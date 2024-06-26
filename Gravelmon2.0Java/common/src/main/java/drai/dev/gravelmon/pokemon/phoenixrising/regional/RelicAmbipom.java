@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicAmbipom extends Pokemon {
-    public RelicAmbipom(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"RelicAmbipom",
+    public RelicAmbipom(String name, Aspect aspect) {
+        super(name, aspect,"RelicAmbipom",
                 Type.FIGHTING,
                 new Stats(80, 130, 50, 60, 70, 92),
                 List.of(Ability.SCRAPPY, Ability.PICKUP), Ability.MOMENTUM,

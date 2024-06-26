@@ -1,33 +1,20 @@
 {
-  "portraitScale": 1.8,
-  "portraitTranslation": [0.0, -0.8, 0.0],
-  "profileScale": 0.8,
-  "profileTranslation": [0.0, 0.60, -20.0],
-  "animations": {
-    "faint": "q.bedrock_primary('eghooddish', 'faint')"
-  },
+  "portraitScale": 0.165,
+  "portraitTranslation": [0.0, 1.4, 0.0],
+  "profileScale": 0.22,
+  "profileTranslation": [0.0, 1.55, -20.0],
   "poses": {
-    "standing": {
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-      "animations": [
-        "q.bedrock('eghooddish', 'ground_idle')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('eghooddish', 'blink')"
-      ]
+    "profile": {
+      "poseName": "profile",
+      "poseTypes": ["PROFILE"],
+      "transformTicks": 10,
+      "animations": ["bedrock(cutout, pc_fix)"]
     },
-    "walking": {
-      "poseTypes": ["WALK", "SWIM"],
-      "animations": [
-        "q.bedrock('eghooddish', 'ground_walk')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('eghooddish', 'blink')"
-      ]
-    },
-    "sleep": {
-      "poseTypes": ["SLEEP"],
-      "animations": ["q.bedrock('eghooddish', 'sleep')"]
+    "portrait": {
+      "poseName": "portrait",
+      "poseTypes": ["NONE","PORTRAIT"],
+      "transformTicks": 10,
+      "animations": ["bedrock(cutout, summary_fix)"]
     }
   }
 }

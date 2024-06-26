@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:tentacruel",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltatentacruel",
+      "texture": "cobblemon:textures/pokemon/generation1/deltatentacruel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltatentacruel",
+      "texture": "cobblemon:textures/pokemon/generation1/deltatentacruel_shiny.png",
+      "layers": []
+    }
+  ]
+}

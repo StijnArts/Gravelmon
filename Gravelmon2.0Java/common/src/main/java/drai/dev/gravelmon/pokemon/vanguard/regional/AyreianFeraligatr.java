@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianFeraligatr extends Pokemon {
-    public AyreianFeraligatr(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianFeraligatr",
+    public AyreianFeraligatr(String name, Aspect aspect) {
+        super(name, aspect,"AyreianFeraligatr",
                 Type.WATER, Type.DRAGON,
                 new Stats(105,110,85,90,60,85),
                 List.of(Ability.TOUGH_CLAWS, Ability.MULTISCALE), Ability.TORRENT,

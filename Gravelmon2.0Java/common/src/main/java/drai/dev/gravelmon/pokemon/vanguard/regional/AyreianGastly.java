@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianGastly extends Pokemon {
-    public AyreianGastly(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianGastly",
+    public AyreianGastly(String name, Aspect aspect) {
+        super(name, aspect,"AyreianGastly",
                 Type.FIRE, Type.GHOST,
                 new Stats(30,65,30,80,65,35),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

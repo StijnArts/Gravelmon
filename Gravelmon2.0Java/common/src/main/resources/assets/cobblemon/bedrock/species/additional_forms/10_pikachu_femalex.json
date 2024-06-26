@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:pikachu",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "female_x"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_pikachufemalex",
+      "texture": "cobblemon:textures/pokemon/generation1/pikachufemalex.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female_x",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_pikachufemalex",
+      "texture": "cobblemon:textures/pokemon/generation1/pikachufemalex_shiny.png",
+      "layers": []
+    }
+  ]
+}

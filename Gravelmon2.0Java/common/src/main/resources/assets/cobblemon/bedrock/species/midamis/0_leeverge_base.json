@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:leeverge",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_leeverge",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/midamis/leeverge.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/leeverge_shiny.png"
-    }  ]
+    }
+  ]
 }

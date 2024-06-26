@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:drifloon",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltadrifloon",
+      "texture": "cobblemon:textures/pokemon/generation4/deltadrifloon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltadrifloon",
+      "texture": "cobblemon:textures/pokemon/generation4/deltadrifloon_shiny.png",
+      "layers": []
+    }
+  ]
+}

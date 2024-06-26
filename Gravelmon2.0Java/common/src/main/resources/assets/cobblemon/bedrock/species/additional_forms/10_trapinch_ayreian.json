@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:trapinch",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreiantrapinch",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreiantrapinch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreiantrapinch",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreiantrapinch_shiny.png",
+      "layers": []
+    }
+  ]
+}

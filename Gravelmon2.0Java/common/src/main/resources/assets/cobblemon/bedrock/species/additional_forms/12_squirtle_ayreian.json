@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:squirtle",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreiansquirtle",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiansquirtle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreiansquirtle",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiansquirtle_shiny.png",
+      "layers": []
+    }
+  ]
+}

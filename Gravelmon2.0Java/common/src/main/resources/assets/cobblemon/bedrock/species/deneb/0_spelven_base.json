@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:spelven",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_spelven",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/spelven.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/spelven_shiny.png"
-    }  ]
+    }
+  ]
 }

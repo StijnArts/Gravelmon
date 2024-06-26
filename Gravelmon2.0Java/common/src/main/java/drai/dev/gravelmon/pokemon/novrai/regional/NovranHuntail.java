@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHuntail extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHuntail(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Huntail",
+    public NovranHuntail(String name, Aspect aspect) {
+        super(name, aspect, "Huntail",
                 Type.WATER, Type.DRAGON,
                 new Stats(55,
                         104,

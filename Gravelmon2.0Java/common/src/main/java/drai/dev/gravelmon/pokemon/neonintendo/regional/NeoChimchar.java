@@ -16,8 +16,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class NeoChimchar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NeoChimchar(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Chimchar",
+    public NeoChimchar(String name, Aspect aspect) {
+        super(name, aspect, "Chimchar",
                 Type.ICE,
                 new Stats(44,
                         58,

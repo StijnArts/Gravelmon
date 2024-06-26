@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:qayagus",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_qayagus",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/lockemon/qayagus.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/qayagus_shiny.png"
-    }  ]
+    }
+  ]
 }

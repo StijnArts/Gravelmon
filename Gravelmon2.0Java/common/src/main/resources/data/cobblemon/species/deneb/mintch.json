@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mintch",
-  "nationalPokedexNumber": 2741,
+  "nationalPokedexNumber": 2759,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -130,9 +130,9 @@
       "permanent": true   
  },
     {
-      "id": "mintch_signetanblakjak",
+      "id": "mintch_blakjak",
       "variant": "level_up",
-      "result": "signetanblakjak",
+      "result": "blakjak signetan",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

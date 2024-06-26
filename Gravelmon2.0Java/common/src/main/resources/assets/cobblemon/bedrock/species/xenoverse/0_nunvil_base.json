@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:nunvil",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_nunvil",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/xenoverse/nunvil.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/nunvil_shiny.png"
-    }  ]
+    }
+  ]
 }

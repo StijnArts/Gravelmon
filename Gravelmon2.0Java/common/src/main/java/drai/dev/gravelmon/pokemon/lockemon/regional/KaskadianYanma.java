@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianYanma extends Pokemon {
-    public KaskadianYanma(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianYanma",
+    public KaskadianYanma(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianYanma",
                 Type.BUG, Type.DRAGON,
                 new Stats(65, 65, 45, 75, 45, 95),
                 List.of(Ability.SWARM, Ability.MAGIC_GUARD), Ability.ARCANUM,

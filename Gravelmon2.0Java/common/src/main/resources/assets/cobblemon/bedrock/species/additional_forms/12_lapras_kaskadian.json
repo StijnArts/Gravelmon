@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:lapras",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_kaskadianlapras",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadianlapras.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_kaskadianlapras",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadianlapras_shiny.png",
+      "layers": []
+    }
+  ]
+}

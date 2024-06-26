@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianCyndaquil extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianCyndaquil(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Cyndaquil",
+    public IonosianCyndaquil(String name, Aspect aspect) {
+        super(name, aspect, "Cyndaquil",
                 Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,

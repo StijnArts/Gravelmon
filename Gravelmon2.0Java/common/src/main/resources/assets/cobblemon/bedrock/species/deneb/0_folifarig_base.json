@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:folifarig",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_folifarig",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/folifarig.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/folifarig_shiny.png"
-    }  ]
+    }
+  ]
 }

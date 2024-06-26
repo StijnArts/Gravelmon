@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gothitelle",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_cefirangothitelle",
+      "texture": "cobblemon:textures/pokemon/generation5/cefirangothitelle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_cefirangothitelle",
+      "texture": "cobblemon:textures/pokemon/generation5/cefirangothitelle_shiny.png",
+      "layers": []
+    }
+  ]
+}

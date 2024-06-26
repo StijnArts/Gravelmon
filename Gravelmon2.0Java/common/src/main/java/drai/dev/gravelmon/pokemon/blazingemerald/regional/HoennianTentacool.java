@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianTentacool extends Pokemon {
-    public HoennianTentacool(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianTentacool",
+    public HoennianTentacool(String name, Aspect aspect) {
+        super(name, aspect,"HoennianTentacool",
                 Type.WATER, Type.ELECTRIC,
                 new Stats(40, 80, 50, 50, 45, 70),
                 List.of(Ability.LEVISH_SKIN), Ability.RAIN_DISH,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianDoduo extends Pokemon {
-    public SeviianDoduo(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "SeviianDoduo",
+    public SeviianDoduo(String name, Aspect aspect) {
+        super(name, aspect,"SeviianDoduo",
                 Type.FIRE, Type.GROUND,
                 new Stats(40, 80, 45, 35, 35, 75),
                 List.of(Ability.ROCK_HEAD, Ability.EARLY_BIRD), Ability.ANGER_POINT,

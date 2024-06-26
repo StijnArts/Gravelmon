@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AlteranOwten extends Pokemon {
-    public AlteranOwten(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "AlteranOwten",
+    public AlteranOwten(String name, Aspect aspect) {
+        super(name, aspect,"AlteranOwten",
                 Type.FAIRY, Type.FLYING,
                 new Stats(50,40,30,60,35,75),
                 List.of(Ability.SERENE_VEIL, Ability.CUTE_CHARM), Ability.AERILATE,

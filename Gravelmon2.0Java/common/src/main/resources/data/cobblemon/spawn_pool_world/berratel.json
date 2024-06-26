@@ -19,7 +19,7 @@
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#gravelmon:is_snowy" ]    }
+"biomes": [ "#cobblemon:is_snowy" ]    }
     }
   ]
 }

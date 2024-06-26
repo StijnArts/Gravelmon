@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:glalie",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaglalie",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaglalie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaglalie",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaglalie_shiny.png",
+      "layers": []
+    }
+  ]
+}

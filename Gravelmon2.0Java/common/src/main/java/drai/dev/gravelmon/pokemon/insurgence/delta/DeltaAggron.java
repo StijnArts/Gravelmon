@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaAggron extends Pokemon {
-    public DeltaAggron(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaAggron",
+    public DeltaAggron(String name, Aspect aspect) {
+        super(name, aspect,"DeltaAggron",
                 Type.FIRE, Type.STEEL,
                 new Stats(70, 110, 180, 60, 60, 50),
                 List.of(Ability.FLAME_BODY, Ability.DROUGHT), Ability.HEAVY_METAL,

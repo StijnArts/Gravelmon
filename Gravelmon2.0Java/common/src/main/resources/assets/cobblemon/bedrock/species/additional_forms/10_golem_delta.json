@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:golem",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltagolem",
+      "texture": "cobblemon:textures/pokemon/generation1/deltagolem.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltagolem",
+      "texture": "cobblemon:textures/pokemon/generation1/deltagolem_shiny.png",
+      "layers": []
+    }
+  ]
+}

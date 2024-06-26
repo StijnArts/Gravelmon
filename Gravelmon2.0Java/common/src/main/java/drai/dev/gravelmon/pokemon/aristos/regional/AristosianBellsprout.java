@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianBellsprout extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianBellsprout(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AristosianBellsprout",
+    public AristosianBellsprout(String name, Aspect aspect) {
+        super(name, aspect,"AristosianBellsprout",
                 Type.GRASS, Type.FIRE,
                 new Stats(50,
                         70,

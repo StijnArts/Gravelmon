@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:spiritomb",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_spiritombx",
+      "texture": "cobblemon:textures/pokemon/generation4/spiritombx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_spiritombx",
+      "texture": "cobblemon:textures/pokemon/generation4/spiritombx_shiny.png",
+      "layers": []
+    }
+  ]
+}

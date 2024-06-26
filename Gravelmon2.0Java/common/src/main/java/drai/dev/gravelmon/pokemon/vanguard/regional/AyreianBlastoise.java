@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianBlastoise extends Pokemon {
-    public AyreianBlastoise(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianBlastoise",
+    public AyreianBlastoise(String name, Aspect aspect) {
+        super(name, aspect,"AyreianBlastoise",
                 Type.FIGHTING, Type.STEEL,
                 new Stats(79, 113, 120, 78, 65, 95),
                 List.of(Ability.BULLETPROOF, Ability.SHELL_ARMOR), Ability.SUPREME_OVERLORD,

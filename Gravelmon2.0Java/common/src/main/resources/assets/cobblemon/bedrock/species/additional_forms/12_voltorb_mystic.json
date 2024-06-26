@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:voltorb",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "mystic"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_mysticvoltorb",
+      "texture": "cobblemon:textures/pokemon/generation1/mysticvoltorb.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mystic",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_mysticvoltorb",
+      "texture": "cobblemon:textures/pokemon/generation1/mysticvoltorb_shiny.png",
+      "layers": []
+    }
+  ]
+}

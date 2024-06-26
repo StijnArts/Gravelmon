@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:poxic",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_poxic",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/poxic.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/poxic_shiny.png"
-    }  ]
+    }
+  ]
 }

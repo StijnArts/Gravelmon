@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianMeowscarada extends Pokemon {
-    public AyreianMeowscarada(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianMeowscarada",
+    public AyreianMeowscarada(String name, Aspect aspect) {
+        super(name, aspect,"AyreianMeowscarada",
                 Type.GHOST, Type.POISON,
                 new Stats(66,76,70,118,120,80),
                 List.of(Ability.INSOMNIA, Ability.MERCILESS ), Ability.PROTEAN,

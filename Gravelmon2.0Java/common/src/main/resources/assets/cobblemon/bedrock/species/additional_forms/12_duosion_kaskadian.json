@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:duosion",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_kaskadianduosion",
+      "texture": "cobblemon:textures/pokemon/generation5/kaskadianduosion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_kaskadianduosion",
+      "texture": "cobblemon:textures/pokemon/generation5/kaskadianduosion_shiny.png",
+      "layers": []
+    }
+  ]
+}

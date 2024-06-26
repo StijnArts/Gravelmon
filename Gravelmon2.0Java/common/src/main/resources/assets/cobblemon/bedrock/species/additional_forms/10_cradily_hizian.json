@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:cradily",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hiziancradily",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziancradily.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hiziancradily",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziancradily_shiny.png",
+      "layers": []
+    }
+  ]
+}

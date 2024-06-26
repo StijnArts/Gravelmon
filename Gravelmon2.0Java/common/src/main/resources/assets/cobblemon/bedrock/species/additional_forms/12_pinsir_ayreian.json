@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:pinsir",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianpinsir",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianpinsir.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianpinsir",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianpinsir_shiny.png",
+      "layers": []
+    }
+  ]
+}

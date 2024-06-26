@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:birarchy",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_birarchy",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/birarchy.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/birarchy_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:chewmunk",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_chewmunk",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/lockemon/chewmunk.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/chewmunk_shiny.png"
-    }  ]
+    }
+  ]
 }

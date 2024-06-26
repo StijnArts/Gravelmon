@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicSkiddo extends Pokemon {
-    public RelicSkiddo(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"RelicSkiddo",
+    public RelicSkiddo(String name, Aspect aspect) {
+        super(name, aspect,"RelicSkiddo",
                 Type.GRASS, Type.ROCK,
                 new Stats(61, 75, 53, 42, 54, 65),
                 List.of(Ability.SAP_SIPPER, Ability.NO_GUARD), Ability.ROCK_HEAD,

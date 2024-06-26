@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranNumel extends Pokemon {
-    public CefiranNumel(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"CefiranNumel",
+    public CefiranNumel(String name, Aspect aspect) {
+        super(name, aspect,"CefiranNumel",
                 Type.FIRE, Type.WATER,
                 new Stats(60,60,40,35,65,45),
                 List.of(Ability.SHEER_FORCE), Ability.OWN_TEMPO,

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:tartot",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:vanguard_tartot",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/vanguard/tartot.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/vanguard/tartot_shiny.png"
-    }  ]
+    }
+  ]
 }

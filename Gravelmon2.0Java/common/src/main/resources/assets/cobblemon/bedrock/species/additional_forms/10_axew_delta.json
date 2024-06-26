@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:axew",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaaxew",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaaxew.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaaxew",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaaxew_shiny.png",
+      "layers": []
+    }
+  ]
+}

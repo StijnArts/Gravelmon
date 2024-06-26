@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "varitasiantrevenant-1",
+      "pokemon": "trevenant varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltatrevenant-1",
+      "pokemon": "trevenant delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "30-52",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_floral" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_plains",
+"#cobblemon:is_autumn" ]    }
+    }
+,
+    {
+      "id": "kaskadiantrevenant-1",
+      "pokemon": "trevenant kaskadian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "30-52",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_fungus" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

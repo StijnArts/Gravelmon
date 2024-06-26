@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:mimectar",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_mimectar",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/umbra/mimectar.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/mimectar_shiny.png"
-    }  ]
+    }
+  ]
 }

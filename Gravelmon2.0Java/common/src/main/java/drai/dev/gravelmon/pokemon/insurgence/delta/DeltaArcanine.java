@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaArcanine extends Pokemon {
-    public DeltaArcanine(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaArcanine",
+    public DeltaArcanine(String name, Aspect aspect) {
+        super(name, aspect,"DeltaArcanine",
                 Type.NORMAL, Type.DRAGON,
                 new Stats(90, 110, 80, 100, 80, 95),
                 List.of(Ability.INNER_FOCUS,Ability.INTIMIDATE), Ability.MULTISCALE,

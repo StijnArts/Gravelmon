@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NostanCloyster extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NostanCloyster(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Cloyster",
+    public NostanCloyster(String name, Aspect aspect) {
+        super(name, aspect, "Cloyster",
                 Type.STEEL,
                 new Stats(45,
                         85,

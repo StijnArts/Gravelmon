@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AegislashX extends Pokemon {
-    public AegislashX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AegislashX",
+    public AegislashX(String name, Aspect aspect) {
+        super(name, aspect,"AegislashX",
                 Type.FAIRY, Type.GHOST,
                 new Stats(90, 140, 75, 60, 79, 103),
                 List.of(Ability.DEFIANT, Ability.NO_GUARD), Ability.MOXIE,

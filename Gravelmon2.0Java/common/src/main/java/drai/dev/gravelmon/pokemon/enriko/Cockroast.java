@@ -39,7 +39,7 @@ public class Cockroast extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ENRIKO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT))
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanDiglett extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanDiglett(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Diglett",
+    public NorheimanDiglett(String name, Aspect aspect) {
+        super(name, aspect, "Diglett",
                 Type.GHOST, Type.GROUND,
                 new Stats(0,
                         0,

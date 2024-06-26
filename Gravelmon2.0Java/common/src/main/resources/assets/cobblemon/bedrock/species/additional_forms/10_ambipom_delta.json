@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ambipom",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltaambipom",
+      "texture": "cobblemon:textures/pokemon/generation4/deltaambipom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltaambipom",
+      "texture": "cobblemon:textures/pokemon/generation4/deltaambipom_shiny.png",
+      "layers": []
+    }
+  ]
+}

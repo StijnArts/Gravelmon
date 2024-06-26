@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class BudewX extends Pokemon {
-    public BudewX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"BudewX",
+    public BudewX(String name, Aspect aspect) {
+        super(name, aspect,"BudewX",
                 Type.SOUND, Type.POISON,
                 new Stats(40, 30, 35, 70, 55, 50),
                 List.of(Ability.SERENE_GRACE), Ability.SOUNDPROOF,

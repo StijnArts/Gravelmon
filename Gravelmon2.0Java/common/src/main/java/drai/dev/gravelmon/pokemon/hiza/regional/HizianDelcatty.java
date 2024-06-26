@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianDelcatty extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianDelcatty(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Delcatty",
+    public HizianDelcatty(String name, Aspect aspect) {
+        super(name, aspect, "Delcatty",
                 Type.FAIRY,
                 new Stats(70,
                         65,

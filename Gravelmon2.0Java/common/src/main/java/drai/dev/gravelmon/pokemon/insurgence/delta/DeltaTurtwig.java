@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaTurtwig extends Pokemon {
-    public DeltaTurtwig(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaTurtwig",
+    public DeltaTurtwig(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTurtwig",
                 Type.WATER, Type.GROUND,
                 new Stats(55, 68, 64, 45, 55, 31),
                 List.of(Ability.WATER_ABSORB), Ability.SWIFT_SWIM,

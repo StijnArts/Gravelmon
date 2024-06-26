@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSkrelp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSkrelp(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Skrelp",
+    public NovranSkrelp(String name, Aspect aspect) {
+        super(name, aspect, "Skrelp",
                 Type.GRASS, Type.WATER,
                 new Stats(50,
                         60,

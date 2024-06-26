@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianCentiskorch extends Pokemon {
-    public AyreianCentiskorch(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "AyreianCentiskorch",
+    public AyreianCentiskorch(String name, Aspect aspect) {
+        super(name, aspect,"AyreianCentiskorch",
                 Type.GHOST, Type.BUG,
                 new Stats(100,90,65,95,105,90),
                 List.of(Ability.FLASH_FIRE, Ability.WHITE_SMOKE), Ability.MAGIC_BOUNCE,

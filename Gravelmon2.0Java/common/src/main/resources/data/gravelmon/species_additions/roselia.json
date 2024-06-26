@@ -1,0 +1,672 @@
+{
+   "target": "cobblemon:roselia",
+   "forms": [{
+  "name": "Avorian",
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "abilities": [
+    "naturalcure",
+    "flashfire",
+    "h:leafguard"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 45,
+    "special_attack": 100,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "1:worryseed",
+    "5:megadrain",
+    "10:leechseed",
+    "15:magicalleaf",
+    "20:sunnyday",
+    "25:flameburst",
+    "30:gigadrain",
+    "35:synthesis",
+    "40:willowisp",
+    "45:flamethrower",
+    "50:aromatherapy",
+    "55:ingrain",
+    "60:solarbeam",
+    "tm:snoresound",
+    "tm:gigadrain",
+    "tm:synthesis",
+    "tm:covet",
+    "tm:worryseed",
+    "tm:seedbomb",
+    "tm:swordsdance",
+    "tm:solarbeam",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:substitute",
+    "tm:protect",
+    "tm:sludgebomb",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:psychup",
+    "tm:shadowball",
+    "tm:facade",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:venoshock",
+    "tm:roundsound",
+    "tm:confide",
+    "tm:dazzlinggleam",
+    "tm:flash",
+    "tm:bulletseed",
+    "tm:petalblizzard",
+    "tm:bide",
+    "tm:doubleedge",
+    "tm:megadrain",
+    "tm:mimic",
+    "tm:rage",
+    "tm:takedown",
+    "tm:pinmissile",
+    "tm:razorleaf",
+    "tm:sleeppowder",
+    "tm:mindreader",
+    "tm:cottonspore",
+    "tm:spikes",
+    "tm:grasswhistle",
+    "tm:extrasensory",
+    "tm:naturalgift",
+    "tm:leafstorm"  ],
+  "labels": [
+    "avoris",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.avorianroselia.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": ["avorian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "dark",
+  "secondaryType": "fairy",
+  "abilities": [
+    "shadowdance",
+    "heliophobia",
+    "h:limber"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 45,
+    "special_attack": 100,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:disarmingvoicesound",
+    "4:charm",
+    "7:pursuit",
+    "10:attract",
+    "13:drainingkiss",
+    "16:confide",
+    "19:feintattack",
+    "25:dazzlinggleam",
+    "28:mistyterrain",
+    "31:newmoon",
+    "34:flatter",
+    "37:darkpulse",
+    "40:lovelykiss",
+    "43:moonblast",
+    "46:moonlight",
+    "50:lunarcannon",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:sludgebomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:skillswap",
+    "tm:newmoon",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:psychup",
+    "tm:thunderwave",
+    "tm:swordsdance",
+    "tm:xscissor",
+    "tm:poisonjab",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:lunarcannon",
+    "tm:allyswitch",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:quash",
+    "tm:darkmatter",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:cut",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:aircutter",
+    "tutor:bodyslam",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:healbellsound",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:ominouswind",
+    "tutor:roleplay",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:tailwind",
+    "tutor:trick",
+    "tutor:twister",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaroselia.desc"
+  ],
+  "preEvolution": "budew form=delta",
+  "evolutions": [
+    {
+      "id": "deltaroselia_roserade",
+      "variant": "item_interact",
+      "result": "roserade delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 20,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "steel",
+  "secondaryType": "poison",
+  "abilities": [
+    "steelyspirit",
+    "poisontouch",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 45,
+    "special_attack": 90,
+    "special_defence": 50,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "1:toxicspikes",
+    "1:poisonsting",
+    "1:bulletpunch",
+    "4:growth",
+    "8:bide",
+    "12:irondefense",
+    "20:poisonjab",
+    "24:needlearm",
+    "28:magnetbomb",
+    "34:toxic",
+    "38:healorder",
+    "42:barbbarrage",
+    "46:ironhead",
+    "50:curse",
+    "56:gunkshot",
+    "62:doubleironbash",
+    "tutor:attract",
+    "tutor:bodyslam",
+    "tutor:bulletseed",
+    "tutor:confide",
+    "tutor:covet",
+    "tutor:cut",
+    "tutor:dazzlinggleam",
+    "tutor:doubleteam",
+    "tutor:endure",
+    "tutor:energyball",
+    "tutor:facade",
+    "tutor:frustration",
+    "tutor:gigadrain",
+    "tutor:grassknot",
+    "tutor:grassyglide",
+    "tutor:hiddenpower",
+    "tutor:leafstorm",
+    "tutor:magicalleaf",
+    "tutor:naturepower",
+    "tutor:pinmissile",
+    "tutor:poisonjab",
+    "tutor:powerwhip",
+    "tutor:protect",
+    "tutor:psychup",
+    "tutor:raindance",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:roundsound",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:sleeptalksound",
+    "tutor:sludgebomb",
+    "tutor:snoresound",
+    "tutor:solarbeam",
+    "tutor:spikes",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:swiftcosmic",
+    "tutor:swordsdance",
+    "tutor:synthesis",
+    "tutor:toxic",
+    "tutor:toxicspikes",
+    "tutor:uproar",
+    "tutor:venoshock",
+    "tutor:weatherball",
+    "tutor:worryseed",
+    "egg:cottonspore",
+    "egg:sleeppowder",
+    "egg:razorleaf",
+    "egg:extrasensory",
+    "egg:lifedew"  ],
+  "labels": [
+    "gen3",
+    "vanguard",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianroselia.desc"
+  ],
+  "preEvolution": "budew form=ayreian",
+  "evolutions": [
+    {
+      "id": "ayreianroselia_roserade",
+      "variant": "level_up",
+      "result": "roserade ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 20,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Relic",
+  "primaryType": "fairy",
+  "secondaryType": "fighting",
+  "abilities": [
+    "stamina",
+    "justified",
+    "h:leafguard"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 80,
+    "defence": 100,
+    "special_attack": 45,
+    "special_defence": 60,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:growl",
+    "4:tearfullook",
+    "7:lowsweep",
+    "11:detect",
+    "13:matblock",
+    "17:disarmingvoicesound",
+    "22:swordsdance",
+    "25:charm",
+    "28:brickbreak",
+    "30:drainingkiss",
+    "35:disable",
+    "38:smartstrike",
+    "42:moonblast",
+    "47:sacredsword",
+    "50:poisonjab",
+    "55:playrough",
+    "63:leafstorm",
+    "tm:workup",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:roundsound",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:brutalswing",
+    "tm:acrobatics",
+    "tm:shadowclaw",
+    "tm:psychup",
+    "tm:xscissor",
+    "tm:poisonjab",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:dazzlinggleam",
+    "tm:confide",
+    "tm:lowkick",
+    "tm:knockoff",
+    "tm:endeavor",
+    "tm:seedbomb",
+    "tm:superpower",
+    "tm:afteryou",
+    "tm:helpinghand",
+    "egg:captivate",
+    "egg:counter",
+    "egg:covet",
+    "egg:crosschop",
+    "egg:detect",
+    "egg:feint",
+    "egg:foresight",
+    "egg:present",
+    "egg:revenge",
+    "egg:wideguard",
+    "egg:wish"  ],
+  "labels": [
+    "phoenix_rising",
+    "gen3",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.relicroselia.desc"
+  ],
+  "preEvolution": "budew form=relic",
+  "evolutions": [
+    {
+      "id": "relicroselia_roserade",
+      "variant": "item_interact",
+      "result": "roserade relic",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 130,
+  "aspects": ["relic"],
+  "cannotDynamax": false
+}
+], "features": [
+"avorian",
+"delta",
+"ayreian",
+"relic"
+  ]
+}

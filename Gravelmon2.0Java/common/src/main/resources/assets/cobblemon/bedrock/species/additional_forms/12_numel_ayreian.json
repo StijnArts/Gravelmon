@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:numel",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreiannumel",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreiannumel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreiannumel",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreiannumel_shiny.png",
+      "layers": []
+    }
+  ]
+}

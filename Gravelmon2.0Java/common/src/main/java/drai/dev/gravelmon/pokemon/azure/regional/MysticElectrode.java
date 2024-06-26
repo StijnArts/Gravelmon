@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticElectrode extends Pokemon {
-    public MysticElectrode(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MysticElectrode",
+    public MysticElectrode(String name, Aspect aspect) {
+        super(name, aspect,"MysticElectrode",
                 Type.PSYCHIC,
                 new Stats(60,50,70, 150,80,80),
                 List.of(Ability.TELEPATHY, Ability.ANTICIPATION), Ability.SYNCHRONIZE,

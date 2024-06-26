@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:growlithe",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "armiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_armirangrowlithe",
+      "texture": "cobblemon:textures/pokemon/generation1/armirangrowlithe.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "armiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_armirangrowlithe",
+      "texture": "cobblemon:textures/pokemon/generation1/armirangrowlithe_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoNoctowl extends Pokemon {
-    public EghoNoctowl(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoNoctowl",
+    public EghoNoctowl(String name, Aspect aspect) {
+        super(name, aspect,"EghoNoctowl",
                 Type.DARK, Type.FLYING,
                 new Stats(86, 50, 77, 99, 70, 70),
                 List.of(Ability.UNNERVE), Ability.NO_GUARD,
@@ -101,8 +101,8 @@ public class EghoNoctowl extends Pokemon {
         this.setLangFileName("Noctowl");
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setCanFly(true);
-        setModeled(true);
-        setBaseScale(0.95);
-        setHitbox(1.25,1.9);
+        //this.setBaseScale(1);
+        //this.setHitbox(1,1.7);
+        //this.setModeled(true);
     }
 }

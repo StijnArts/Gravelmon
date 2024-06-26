@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:scyther",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltascyther",
+      "texture": "cobblemon:textures/pokemon/generation1/deltascyther.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltascyther",
+      "texture": "cobblemon:textures/pokemon/generation1/deltascyther_shiny.png",
+      "layers": []
+    }
+  ]
+}

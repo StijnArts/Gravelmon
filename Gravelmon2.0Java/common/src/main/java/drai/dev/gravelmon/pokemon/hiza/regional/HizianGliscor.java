@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianGliscor extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianGliscor(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Gliscor",
+    public HizianGliscor(String name, Aspect aspect) {
+        super(name, aspect, "Gliscor",
                 Type.ICE, Type.FLYING,
                 new Stats(75,
                         95,

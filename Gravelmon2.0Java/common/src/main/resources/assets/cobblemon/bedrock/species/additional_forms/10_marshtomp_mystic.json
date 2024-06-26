@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:marshtomp",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mystic"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_mysticmarshtomp",
+      "texture": "cobblemon:textures/pokemon/generation3/mysticmarshtomp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mystic",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_mysticmarshtomp",
+      "texture": "cobblemon:textures/pokemon/generation3/mysticmarshtomp_shiny.png",
+      "layers": []
+    }
+  ]
+}

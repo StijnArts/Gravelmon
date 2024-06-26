@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:bulbasaur",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltabulbasaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltabulbasaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltabulbasaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltabulbasaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_female_shiny.png",
+      "layers": []
+    }
+  ]
+}

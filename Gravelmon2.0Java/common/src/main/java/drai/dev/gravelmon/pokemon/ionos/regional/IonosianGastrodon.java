@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianGastrodon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianGastrodon(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Gastrodon",
+    public IonosianGastrodon(String name, Aspect aspect) {
+        super(name, aspect, "Gastrodon",
                 Type.WATER, Type.POISON,
                 new Stats(0,
                         0,

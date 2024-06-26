@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianVolcarona extends Pokemon {
-    public MythianVolcarona(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MythianVolcarona",
+    public MythianVolcarona(String name, Aspect aspect) {
+        super(name, aspect,"MythianVolcarona",
                 Type.PSYCHIC, Type.FAIRY,
                 new Stats(85,60,65,100,135,105),
                 List.of(Ability.ADAPTABILITY, Ability.DAZZLING), Ability.MISTY_SURGE,

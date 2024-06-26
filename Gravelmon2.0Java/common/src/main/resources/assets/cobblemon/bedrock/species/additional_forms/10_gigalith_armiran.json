@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gigalith",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "armiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_armirangigalith",
+      "texture": "cobblemon:textures/pokemon/generation5/armirangigalith.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "armiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_armirangigalith",
+      "texture": "cobblemon:textures/pokemon/generation5/armirangigalith_shiny.png",
+      "layers": []
+    }
+  ]
+}

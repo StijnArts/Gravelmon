@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:fantasmaug",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_fantasmaug",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/fantasmaug.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/fantasmaug_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianNoivern extends Pokemon {
-    public SeviianNoivern(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "SeviianNoivern",
+    public SeviianNoivern(String name, Aspect aspect) {
+        super(name, aspect,"SeviianNoivern",
                 Type.ROCK, Type.GHOST,
                 new Stats(85, 102, 80, 70, 80, 123),
                 List.of(Ability.CURSED_BODY, Ability.STURDY), Ability.LEVITATE,

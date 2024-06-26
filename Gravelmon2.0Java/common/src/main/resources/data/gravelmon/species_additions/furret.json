@@ -1,0 +1,161 @@
+{
+   "target": "cobblemon:furret",
+   "forms": [{
+  "name": "Aristosian",
+  "primaryType": "normal",
+  "secondaryType": "grass",
+  "abilities": [
+    "runaway",
+    "grasspelt",
+    "h:overcoat"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 86,
+    "defence": 50,
+    "special_attack": 45,
+    "special_defence": 64,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 156,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:coil",
+    "4:defensecurl",
+    "7:quickattack",
+    "17:followme",
+    "21:slam",
+    "28:bulletseed",
+    "32:suckerpunch",
+    "36:seedbomb",
+    "42:batonpass",
+    "46:grassyterrain",
+    "50:mefirst",
+    "56:leafstorm",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:superfang",
+    "tm:snoresound",
+    "tm:irontail",
+    "tm:uproar",
+    "tm:focuspunch",
+    "tm:helpinghand",
+    "tm:trick",
+    "tm:knockoff",
+    "tm:hypervoicesound",
+    "tm:covet",
+    "tm:shockwave",
+    "tm:waterpulse",
+    "tm:lastresort",
+    "tm:aquatail",
+    "tm:flamethrower",
+    "tm:surf",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:shadowball",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:uturn",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:shadowclaw",
+    "tm:grassknot",
+    "tm:chargebeam",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:workup",
+    "tm:confide",
+    "tm:brutalswing",
+    "tm:doubleedge",
+    "tm:focusenergy",
+    "tm:slash",
+    "tm:reversal",
+    "tm:charm",
+    "tm:pursuit",
+    "tm:assist",
+    "tm:naturalgift",
+    "tm:captivate",
+    "tm:babydolleyes"  ],
+  "labels": [
+    "aristos",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.aristosianfurret.desc"
+  ],
+  "preEvolution": "Sentret form=aristosian",
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": ["aristosian"],
+  "cannotDynamax": false
+}
+], "features": [
+"aristosian"
+  ]
+}

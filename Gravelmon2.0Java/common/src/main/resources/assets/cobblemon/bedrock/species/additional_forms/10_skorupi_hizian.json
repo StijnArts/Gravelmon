@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:skorupi",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_hizianskorupi",
+      "texture": "cobblemon:textures/pokemon/generation4/hizianskorupi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_hizianskorupi",
+      "texture": "cobblemon:textures/pokemon/generation4/hizianskorupi_shiny.png",
+      "layers": []
+    }
+  ]
+}

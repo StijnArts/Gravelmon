@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:frilzard",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_frilzard",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/isiah/frilzard.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/frilzard_shiny.png"
-    }  ]
+    }
+  ]
 }

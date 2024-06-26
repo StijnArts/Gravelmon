@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:tadilly",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_tadilly",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/tadilly.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/tadilly_shiny.png"
-    }  ]
+    }
+  ]
 }

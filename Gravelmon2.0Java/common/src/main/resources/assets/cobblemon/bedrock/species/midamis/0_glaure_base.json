@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:glaure",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_glaure",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/midamis/glaure.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/glaure_shiny.png"
-    }  ]
+    }
+  ]
 }

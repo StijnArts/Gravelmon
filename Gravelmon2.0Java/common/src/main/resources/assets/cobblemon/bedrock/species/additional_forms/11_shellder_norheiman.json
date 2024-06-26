@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:shellder",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "norheiman"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_norheimanshellder",
+      "texture": "cobblemon:textures/pokemon/generation1/norheimanshellder.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "norheiman",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_norheimanshellder",
+      "texture": "cobblemon:textures/pokemon/generation1/norheimanshellder_shiny.png",
+      "layers": []
+    }
+  ]
+}

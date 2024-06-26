@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianZebstrika extends Pokemon {
-    public SeviianZebstrika(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "SeviianZebstrika",
+    public SeviianZebstrika(String name, Aspect aspect) {
+        super(name, aspect,"SeviianZebstrika",
                 Type.ICE, Type.ELECTRIC,
                 new Stats(75, 70, 63, 110, 63, 116),
                 List.of(Ability.LIGHTNING_ROD, Ability.ILLUMINATE), Ability.ICE_BODY,

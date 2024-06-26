@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:totodile",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghototodile",
+      "texture": "cobblemon:textures/pokemon/generation2/eghototodile.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghototodile",
+      "texture": "cobblemon:textures/pokemon/generation2/eghototodile_shiny.png",
+      "layers": []
+    }
+  ]
+}

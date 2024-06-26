@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:webbat",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_webbat",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/umbra/webbat.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/webbat_shiny.png"
-    }  ]
+    }
+  ]
 }

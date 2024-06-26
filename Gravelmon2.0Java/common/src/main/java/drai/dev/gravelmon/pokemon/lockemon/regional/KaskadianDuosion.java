@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianDuosion extends Pokemon {
-    public KaskadianDuosion(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianDuosion",
+    public KaskadianDuosion(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianDuosion",
                 Type.PSYCHIC, Type.WATER,
                 new Stats(65, 40, 50, 125, 60, 30),
                 List.of(Ability.OVERCOAT, Ability.CARBON_CAPTURE), Ability.MAGIC_GUARD,

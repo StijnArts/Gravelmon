@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianChikorita extends Pokemon {
-    public AyreianChikorita(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianChikorita",
+    public AyreianChikorita(String name, Aspect aspect) {
+        super(name, aspect,"AyreianChikorita",
                 Type.GRASS, Type.FAIRY,
                 new Stats(45,45,65,45,65,55),
                 List.of(Ability.PIXILATE, Ability.TRIAGE), Ability.MISTY_SURGE,

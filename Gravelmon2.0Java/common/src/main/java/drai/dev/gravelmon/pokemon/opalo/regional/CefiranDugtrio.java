@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranDugtrio extends Pokemon {
-    public CefiranDugtrio(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"CefiranDugtrio",
+    public CefiranDugtrio(String name, Aspect aspect) {
+        super(name, aspect,"CefiranDugtrio",
                 Type.GROUND , Type.FLYING,
                 new Stats(55,50,70,120,100,70),
                 List.of(Ability.ANTICIPATION), Ability.SAND_FORCE,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:chikorita",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghochikorita",
+      "texture": "cobblemon:textures/pokemon/generation2/eghochikorita.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghochikorita",
+      "texture": "cobblemon:textures/pokemon/generation2/eghochikorita_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:castform",
+  "order": 18,
+  "variations": [
+    {
+      "aspects": [
+        "allergy"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_allergycastform",
+      "texture": "cobblemon:textures/pokemon/generation3/allergycastform.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "allergy",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_allergycastform",
+      "texture": "cobblemon:textures/pokemon/generation3/allergycastform_shiny.png",
+      "layers": []
+    }
+  ]
+}

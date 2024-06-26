@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "electaburst",
-  "nationalPokedexNumber": 1559,
+  "nationalPokedexNumber": 1575,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -121,7 +121,7 @@
   "pokedex": [
     "cobblemon.species.electaburst.desc"
   ],
-  "preEvolution": "electabuzzx",
+  "preEvolution": "electabuzz form=x",
   "baseScale": 1.3,
   "hitbox": {
     "width": 1.1,

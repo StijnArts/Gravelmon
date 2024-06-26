@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:equazar",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_equazar",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/junnin/equazar.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/equazar_shiny.png"
-    }  ]
+    }
+  ]
 }

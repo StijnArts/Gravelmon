@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ArmiranGarchomp extends Pokemon {
-    public ArmiranGarchomp(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"ArmiranGarchomp",
+    public ArmiranGarchomp(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranGarchomp",
                 Type.DRAGON, Type.FAIRY,
                 new Stats(108, 110, 85, 110, 95, 102),
                 List.of(Ability.ROUGH_SKIN), Ability.PRESSURE,

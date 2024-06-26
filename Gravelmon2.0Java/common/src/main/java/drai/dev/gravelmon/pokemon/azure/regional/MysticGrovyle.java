@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticGrovyle extends Pokemon {
-    public MysticGrovyle(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MysticGrovyle",
+    public MysticGrovyle(String name, Aspect aspect) {
+        super(name, aspect,"MysticGrovyle",
                 Type.FLYING, Type.FAIRY,
                 new Stats(50, 45, 65, 65, 85, 95),
                 List.of(Ability.LIMBER), Ability.REGENERATOR,

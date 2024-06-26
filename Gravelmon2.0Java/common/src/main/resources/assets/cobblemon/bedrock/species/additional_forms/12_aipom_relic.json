@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:aipom",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "relic"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_relicaipom",
+      "texture": "cobblemon:textures/pokemon/generation2/relicaipom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "relic",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_relicaipom",
+      "texture": "cobblemon:textures/pokemon/generation2/relicaipom_shiny.png",
+      "layers": []
+    }
+  ]
+}

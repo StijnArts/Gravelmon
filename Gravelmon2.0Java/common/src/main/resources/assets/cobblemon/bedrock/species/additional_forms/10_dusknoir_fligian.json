@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dusknoir",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fligian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_fligiandusknoir",
+      "texture": "cobblemon:textures/pokemon/generation4/fligiandusknoir.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fligian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_fligiandusknoir",
+      "texture": "cobblemon:textures/pokemon/generation4/fligiandusknoir_shiny.png",
+      "layers": []
+    }
+  ]
+}

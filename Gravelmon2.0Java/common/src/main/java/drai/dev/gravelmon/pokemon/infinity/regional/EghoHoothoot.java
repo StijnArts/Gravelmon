@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoHoothoot extends Pokemon {
-    public EghoHoothoot(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoHoothoot",
+    public EghoHoothoot(String name, Aspect aspect) {
+        super(name, aspect,"EghoHoothoot",
                 Type.DARK, Type.FLYING,
                 new Stats(60, 30, 40, 56, 36, 40),
                 List.of(Ability.UNNERVE), Ability.NO_GUARD,
@@ -97,9 +97,8 @@ public class EghoHoothoot extends Pokemon {
                 List.of());
         this.setLangFileName("Hoothoot");
         this.setPortraitXYZ(0.1,2.0,0.0);
-        setCanFly(true);
-        setModeled(true);
-        setBaseScale(0.8);
-        setHitbox(0.8,1.0);
+        //this.setModeled(true);
+        //this.setBaseScale(1);
+       //this.setHitbox(1,1);
     }
 }

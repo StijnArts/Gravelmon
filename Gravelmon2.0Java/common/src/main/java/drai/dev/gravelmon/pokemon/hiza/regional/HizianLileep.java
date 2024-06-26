@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianLileep extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianLileep(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Lileep",
+    public HizianLileep(String name, Aspect aspect) {
+        super(name, aspect, "Lileep",
                 Type.GRASS, Type.GHOST,
                 new Stats(66,
                         41,

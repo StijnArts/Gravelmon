@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AlteranShroomish extends Pokemon {
-    public AlteranShroomish(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AlteranShroomish",
+    public AlteranShroomish(String name, Aspect aspect) {
+        super(name, aspect,"AlteranShroomish",
                 Type.GRASS, Type.POISON,
                 new Stats(60, 40, 60, 40, 60, 35),
                 List.of(Ability.EFFECT_SPORE, Ability.POISON_TOUCH), Ability.MOLD_BREAKER,

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianQwilfish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianQwilfish(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Qwilfish",
+    public FligianQwilfish(String name, Aspect aspect) {
+        super(name, aspect, "Qwilfish",
                 Type.WATER, Type.POISON,
                 new Stats(65,
                         105,

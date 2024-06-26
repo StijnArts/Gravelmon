@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianLokix extends Pokemon {
-    public SeviianLokix(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "SeviianLokix",
+    public SeviianLokix(String name, Aspect aspect) {
+        super(name, aspect,"SeviianLokix",
                 Type.BUG, Type.DRAGON,
                 new Stats(71, 102, 78, 52, 55, 92),
                 List.of(Ability.SWARM), Ability.TINTED_LENS,

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanUnown extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanUnown(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Unown",
+    public NorheimanUnown(String name, Aspect aspect) {
+        super(name, aspect, "Unown",
                 Type.PSYCHIC, Type.ROCK,
                 new Stats(48,
                         48,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianGolett extends Pokemon {
-    public KaskadianGolett(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianGolett",
+    public KaskadianGolett(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianGolett",
                 Type.GHOST, Type.ROCK,
                 new Stats(59, 74, 50, 35, 50, 35),
                 List.of(Ability.FRISK, Ability.SOLID_ROCK), Ability.SHADOW_TAG,

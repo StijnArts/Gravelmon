@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianEelektrik extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianEelektrik(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Eelektrik",
+    public VaritasianEelektrik(String name, Aspect aspect) {
+        super(name, aspect,"Eelektrik",
                 Type.GROUND, Type.WATER,
                 new Stats(65,
                         85,

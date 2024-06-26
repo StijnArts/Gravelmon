@@ -1,0 +1,432 @@
+{
+   "target": "cobblemon:gallade",
+   "forms": [{
+  "name": "Fligian",
+  "primaryType": "fairy",
+  "secondaryType": "dragon",
+  "abilities": [
+    "moldbreaker",
+    "stalwart",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 135,
+    "defence": 95,
+    "special_attack": 75,
+    "special_defence": 80,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 233,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like",
+    "amorphous"
+  ],
+  "moves": [
+    "1:leer",
+    "1:nightslash",
+    "1:slash",
+    "1:leafblade",
+    "4:confusion",
+    "6:doubleteam",
+    "9:teleport",
+    "11:quickguard",
+    "14:furycutter",
+    "17:aerialace",
+    "19:healpulse",
+    "23:wideguard",
+    "26:swordsdance",
+    "31:psychocut",
+    "35:helpinghand",
+    "40:feint",
+    "44:falseswipe",
+    "49:protect",
+    "53:closecombat",
+    "58:storedpower",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:lowkick",
+    "tm:snoresound",
+    "tm:painsplit",
+    "tm:focuspunch",
+    "tm:helpinghand",
+    "tm:trick",
+    "tm:magiccoat",
+    "tm:recycle",
+    "tm:knockoff",
+    "tm:skillswap",
+    "tm:snatch",
+    "tm:hypervoicesound",
+    "tm:signalbeam",
+    "tm:shockwave",
+    "tm:drainpunch",
+    "tm:zenheadbutt",
+    "tm:wonderroom",
+    "tm:telekinesis",
+    "tm:magicroom",
+    "tm:allyswitch",
+    "tm:dualchop",
+    "tm:laserfocus",
+    "tm:throatchop",
+    "tm:coaching",
+    "tm:expandingforce",
+    "tm:tripleaxel",
+    "tm:swordsdance",
+    "tm:hyperbeam",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:earthquake",
+    "tm:toxic",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:dreameater",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:falseswipe",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:safeguard",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:psychup",
+    "tm:shadowball",
+    "tm:torment",
+    "tm:willowisp",
+    "tm:facade",
+    "tm:taunt",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:fling",
+    "tm:poisonjab",
+    "tm:xscissor",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:trickroom",
+    "tm:stoneedge",
+    "tm:grassknot",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:lowsweep",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:bulldoze",
+    "tm:workup",
+    "tm:confide",
+    "tm:dazzlinggleam",
+    "tm:airslash",
+    "tm:mistyterrain",
+    "tm:disable",
+    "tm:confuseray",
+    "tm:destinybond",
+    "tm:meanlook",
+    "tm:encore",
+    "tm:memento",
+    "tm:grudge",
+    "tm:shadowsneak",
+    "tm:synchronoise",
+    "tm:mistyterrain"  ],
+  "labels": [
+    "fliga",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.fligiangallade.desc"
+  ],
+  "preEvolution": "Kirlia form=fligian",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 520,
+  "aspects": ["fligian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "electric",
+  "secondaryType": "ice",
+  "abilities": [
+    "lightningrod",
+    "h:lightningrod"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 125,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 115,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Mega",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "abilities": [
+    "lightningrod",
+    "h:lightningrod"
+      ],
+      "baseScale": 1.0,
+        "hitbox": {
+          "width": 0.6,
+          "height": 2.25,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 68,
+        "attack": 125,
+        "defence": 65,
+        "special_attack": 65,
+        "special_defence": 115,
+        "speed": 80
+      },
+      "catchRate": 45,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 259,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 1,
+      "weight": 5200,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 259,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:leafblade",
+    "1:nightslash",
+    "1:leer",
+    "1:confusion",
+    "1:doubleteam",
+    "1:teleport",
+    "6:powdersnow",
+    "10:doubleteam",
+    "12:teleport",
+    "17:nuzzle",
+    "22:shockwave",
+    "25:iceshard",
+    "31:swordsdance",
+    "36:psychocut",
+    "39:icepunch",
+    "45:thunderpunch",
+    "50:falseswipe",
+    "53:protect",
+    "59:wildcharge",
+    "64:iciclecrash",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hail",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:recycle",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:chargebeam",
+    "tm:skillswap",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:thunderwave",
+    "tm:swordsdance",
+    "tm:wildcharge",
+    "tm:drainpunch",
+    "tm:voltswitch",
+    "tm:rockslide",
+    "tm:xscissor",
+    "tm:shockwave",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:frostbreath",
+    "tm:achillesheel",
+    "tm:avalanche",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:cut",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:bodyslam",
+    "tutor:covet",
+    "tutor:dualchop",
+    "tutor:endure",
+    "tutor:furycutter",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:snoresound",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen1",
+    "insurgence",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltagallade.desc"
+  ],
+  "preEvolution": "Kirlia form=delta",
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.6,
+    "height": 2.25,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 520,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"fligian",
+"delta"
+  ]
+}

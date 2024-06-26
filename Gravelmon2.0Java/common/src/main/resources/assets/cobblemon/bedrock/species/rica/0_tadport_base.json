@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:tadport",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_tadport",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/rica/tadport.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/tadport_shiny.png"
-    }  ]
+    }
+  ]
 }

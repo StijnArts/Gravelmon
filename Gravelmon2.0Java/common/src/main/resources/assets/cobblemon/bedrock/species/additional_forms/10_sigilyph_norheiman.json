@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:sigilyph",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "norheiman"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_norheimansigilyph",
+      "texture": "cobblemon:textures/pokemon/generation5/norheimansigilyph.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "norheiman",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_norheimansigilyph",
+      "texture": "cobblemon:textures/pokemon/generation5/norheimansigilyph_shiny.png",
+      "layers": []
+    }
+  ]
+}

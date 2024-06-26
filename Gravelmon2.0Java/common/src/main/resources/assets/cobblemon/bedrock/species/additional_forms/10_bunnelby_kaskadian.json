@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:bunnelby",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_kaskadianbunnelby",
+      "texture": "cobblemon:textures/pokemon/generation6/kaskadianbunnelby.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_kaskadianbunnelby",
+      "texture": "cobblemon:textures/pokemon/generation6/kaskadianbunnelby_shiny.png",
+      "layers": []
+    }
+  ]
+}

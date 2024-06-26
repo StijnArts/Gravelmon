@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanSigilyph extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanSigilyph(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Sigilyph",
+    public NorheimanSigilyph(String name, Aspect aspect) {
+        super(name, aspect, "Sigilyph",
                 Type.DARK, Type.FLYING,
                 new Stats(72,
                         103,

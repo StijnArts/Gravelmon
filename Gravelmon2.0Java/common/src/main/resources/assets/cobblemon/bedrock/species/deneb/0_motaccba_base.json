@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:motaccba",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_motaccba",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/motaccba.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/motaccba_shiny.png"
-    }  ]
+    }
+  ]
 }

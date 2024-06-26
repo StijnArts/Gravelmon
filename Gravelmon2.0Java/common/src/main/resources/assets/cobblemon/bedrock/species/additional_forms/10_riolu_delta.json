@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:riolu",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltariolu",
+      "texture": "cobblemon:textures/pokemon/generation4/deltariolu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltariolu",
+      "texture": "cobblemon:textures/pokemon/generation4/deltariolu_shiny.png",
+      "layers": []
+    }
+  ]
+}

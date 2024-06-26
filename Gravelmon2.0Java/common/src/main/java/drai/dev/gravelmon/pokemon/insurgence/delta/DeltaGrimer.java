@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaGrimer extends Pokemon {
-    public DeltaGrimer(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaGrimer",
+    public DeltaGrimer(String name, Aspect aspect) {
+        super(name, aspect,"DeltaGrimer",
                 Type.GROUND,
                 new Stats(80, 80, 50, 40, 50, 25),
                 List.of(Ability.SAP_SIPPER,Ability.SAP_SIPPER), Ability.WATER_ABSORB,

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:pinkaboo",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_pinkaboo",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/nosto/pinkaboo.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/pinkaboo_shiny.png"
-    }  ]
+    }
+  ]
 }

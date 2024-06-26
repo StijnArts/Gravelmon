@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:stuk",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_stuk",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/varitas/stuk.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/stuk_shiny.png"
-    }  ]
+    }
+  ]
 }

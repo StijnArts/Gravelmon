@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:lairon",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hizianlairon",
+      "texture": "cobblemon:textures/pokemon/generation3/hizianlairon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hizianlairon",
+      "texture": "cobblemon:textures/pokemon/generation3/hizianlairon_shiny.png",
+      "layers": []
+    }
+  ]
+}

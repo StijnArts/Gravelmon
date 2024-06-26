@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AlteranArbok extends Pokemon {
-    public AlteranArbok(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AlteranArbok",
+    public AlteranArbok(String name, Aspect aspect) {
+        super(name, aspect,"AlteranArbok",
                 Type.FIGHTING,
                 new Stats(60, 100, 74, 60, 79, 75),
                 List.of(Ability.GUTS, Ability.SHED_SKIN), Ability.TECHNICIAN,

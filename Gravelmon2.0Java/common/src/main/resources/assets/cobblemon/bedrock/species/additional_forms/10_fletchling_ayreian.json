@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:fletchling",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_ayreianfletchling",
+      "texture": "cobblemon:textures/pokemon/generation6/ayreianfletchling.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_ayreianfletchling",
+      "texture": "cobblemon:textures/pokemon/generation6/ayreianfletchling_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -12,7 +12,6 @@ import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
-import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
@@ -143,8 +142,8 @@ public class GenerationOne extends Game {
         //Pokemon Flux
         pokemon.add(new AlteranEkans("", Aspect.ALTERAN));
         pokemon.add(new AlteranArbok("", Aspect.ALTERAN));
-        pokemon.add(new AlteranNidoranWinterCoat("", Aspect.ALTERAN));
-        pokemon.add(new AlteranNidoranSummerCoat("", Aspect.ALTERAN));
+        pokemon.add(new AlteranNidoranWinterCoat("Nidoranf", Aspect.ALTERAN_WINTER_COAT));
+        pokemon.add(new AlteranNidoranSummerCoat("Nidoranm", Aspect.ALTERAN_SUMMER_COAT));
 
         //Armiran (Daybreak
         pokemon.add(new ArmiranGrowlithe("", Aspect.ARMIRAN));
@@ -176,12 +175,12 @@ public class GenerationOne extends Game {
         pokemon.add(new CefiranVenomoth("", Aspect.CEFIRAN));
         pokemon.add(new CefiranDiglett("", Aspect.CEFIRAN));
         pokemon.add(new CefiranDugtrio("", Aspect.CEFIRAN));
-        pokemon.add(new CefiranMeowthFire("", Aspect.CEFIRAN));
-        pokemon.add(new CefiranPersianFire("", Aspect.CEFIRAN));
-        pokemon.add(new CefiranMeowthIce("", Aspect.CEFIRAN));
-        pokemon.add(new CefiranPersianIce("", Aspect.CEFIRAN));
-        pokemon.add(new CefiranMeowthElectric("", Aspect.CEFIRAN));
-        pokemon.add(new CefiranPersianElectric("", Aspect.CEFIRAN));
+        pokemon.add(new CefiranMeowthFire("Meowth", Aspect.CEFIRAN_FIRE));
+        pokemon.add(new CefiranPersianFire("Persian", Aspect.CEFIRAN_FIRE));
+        pokemon.add(new CefiranMeowthIce("Meowth", Aspect.CEFIRAN_ICE));
+        pokemon.add(new CefiranPersianIce("Persian", Aspect.CEFIRAN_ICE));
+        pokemon.add(new CefiranMeowthElectric("Meowth", Aspect.CEFIRAN_ELECTRIC));
+        pokemon.add(new CefiranPersianElectric("Persian", Aspect.CEFIRAN_ELECTRIC));
     }
 
     private void addAyreianPokemon() {
@@ -228,28 +227,29 @@ public class GenerationOne extends Game {
     }
 
     private void addHoennianPokemon() {
-        pokemon.add(new HoennianVenonat("", Aspect.HOENN));
-        pokemon.add(new HoennianTentacool("", Aspect.HOENN));
-        pokemon.add(new HoennianTentacruel("", Aspect.HOENN));
-        pokemon.add(new HoennianDodrio("", Aspect.HOENN));
-        pokemon.add(new HoennianSeel("", Aspect.HOENN));
-        pokemon.add(new HoennianDewgong("", Aspect.HOENN));
-        pokemon.add(new HoennianOnix("", Aspect.HOENN));
-        pokemon.add(new HoennianTangela("", Aspect.HOENN));
-        pokemon.add(new HoennianPinsir("", Aspect.HOENN));
+        pokemon.add(new HoennianVenonat("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianTentacool("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianTentacruel("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianDodrio("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianSeel("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianDewgong("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianOnix("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianTangela("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianPinsir("", Aspect.HOENNIAN));
     }
 
     private void addXPokemon() {
-        pokemon.add(new PikachuXFemale("", Aspect.X));
-        pokemon.add(new PikachuXMale("", Aspect.X));
+        pokemon.add(new PikachuFemaleX("Pikachu", Aspect.FEMALE_X));
+        pokemon.add(new PikachuMaleX("Pikachu", Aspect.MALE_X));
         pokemon.add(new RaichuX("", Aspect.X));
-        pokemon.add(new EldiwanMeowth("", Aspect.X));
+        pokemon.add(new EldiwanMeowth("", Aspect.ELDIWAN));
         pokemon.add(new PonytaX("", Aspect.X));
         pokemon.add(new RapidashX("", Aspect.X));
         pokemon.add(new GastlyX("", Aspect.X));
         pokemon.add(new HaunterX("", Aspect.X));
         pokemon.add(new GengarX("", Aspect.X));
         pokemon.add(new ElectabuzzX("", Aspect.X));
+        pokemon.add(new DittoX("", Aspect.X));
         pokemon.add(new DittoX("", Aspect.X));
         pokemon.add(new MewtwoX("", Aspect.X));
     }

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class HoennianDodrio extends Pokemon {
-    public HoennianDodrio(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianDodrio",
+    public HoennianDodrio(String name, Aspect aspect) {
+        super(name, aspect,"HoennianDodrio",
                 Type.FLYING, Type.GROUND,
                 new Stats(80, 110, 85, 135, 50, 60),
                 List.of(Ability.INTIMIDATE), Ability.PRESSURE,

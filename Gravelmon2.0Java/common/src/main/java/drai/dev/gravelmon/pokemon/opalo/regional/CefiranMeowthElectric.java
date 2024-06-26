@@ -5,11 +5,9 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class CefiranMeowthElectric extends Pokemon {
-    public CefiranMeowthElectric(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"CefiranMeowthElectric",
+    public CefiranMeowthElectric(String name, Aspect aspect) {
+        super(name, aspect,"CefiranMeowthElectric",
                 Type.NORMAL, Type.ELECTRIC,
                 new Stats(50,65,35,90,40,40),
                 List.of(Ability.PICKUP), Ability.TECHNICIAN,

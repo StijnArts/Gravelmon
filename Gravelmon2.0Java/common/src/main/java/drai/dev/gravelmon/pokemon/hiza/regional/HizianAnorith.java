@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianAnorith extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianAnorith(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Anorith",
+    public HizianAnorith(String name, Aspect aspect) {
+        super(name, aspect, "Anorith",
                 Type.BUG, Type.DRAGON,
                 new Stats(45,
                         95,

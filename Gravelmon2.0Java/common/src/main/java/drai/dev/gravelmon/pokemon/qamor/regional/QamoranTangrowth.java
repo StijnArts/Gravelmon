@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranTangrowth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranTangrowth(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Tangrowth",
+    public QamoranTangrowth(String name, Aspect aspect) {
+        super(name, aspect, "Tangrowth",
                 Type.WATER, Type.DRAGON,
                 new Stats(100,
                         110,

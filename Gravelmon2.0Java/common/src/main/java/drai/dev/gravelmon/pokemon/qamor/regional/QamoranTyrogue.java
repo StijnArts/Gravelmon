@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranTyrogue extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranTyrogue(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Tyrogue",
+    public QamoranTyrogue(String name, Aspect aspect) {
+        super(name, aspect, "Tyrogue",
                 Type.FIGHTING, Type.FAIRY,
                 new Stats(35,
                         35,

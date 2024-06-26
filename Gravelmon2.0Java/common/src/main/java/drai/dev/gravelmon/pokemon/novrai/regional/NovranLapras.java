@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranLapras extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranLapras(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Lapras",
+    public NovranLapras(String name, Aspect aspect) {
+        super(name, aspect, "Lapras",
                 Type.DRAGON, Type.ELECTRIC,
                 new Stats(130,
                         85,

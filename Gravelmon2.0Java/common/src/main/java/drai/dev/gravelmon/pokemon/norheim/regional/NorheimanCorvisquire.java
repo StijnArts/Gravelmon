@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanCorvisquire extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanCorvisquire(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Corvisquire",
+    public NorheimanCorvisquire(String name, Aspect aspect) {
+        super(name, aspect, "Corvisquire",
                 Type.FLYING,
                 new Stats(65,
                         76,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:meditite",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltameditite",
+      "texture": "cobblemon:textures/pokemon/generation3/deltameditite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltameditite",
+      "texture": "cobblemon:textures/pokemon/generation3/deltameditite_shiny.png",
+      "layers": []
+    }
+  ]
+}

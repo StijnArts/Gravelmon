@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticLucario extends Pokemon {
-    public MysticLucario(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MysticLucario",
+    public MysticLucario(String name, Aspect aspect) {
+        super(name, aspect,"MysticLucario",
                 Type.FAIRY, Type.GROUND,
                 new Stats(115, 90, 70, 110, 70, 70),
                 List.of(Ability.OBLIVIOUS), Ability.STEELWORKER,

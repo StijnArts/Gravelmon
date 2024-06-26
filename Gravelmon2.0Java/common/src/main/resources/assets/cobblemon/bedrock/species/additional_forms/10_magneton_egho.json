@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:magneton",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghomagneton",
+      "texture": "cobblemon:textures/pokemon/generation1/eghomagneton.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghomagneton",
+      "texture": "cobblemon:textures/pokemon/generation1/eghomagneton_shiny.png",
+      "layers": []
+    }
+  ]
+}

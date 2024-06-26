@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:platoxic",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_platoxic",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/rica/platoxic.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/platoxic_shiny.png"
-    }  ]
+    }
+  ]
 }

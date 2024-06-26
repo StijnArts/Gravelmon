@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianStarmie extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianStarmie(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Starmie",
+    public IonosianStarmie(String name, Aspect aspect) {
+        super(name, aspect, "Starmie",
                 Type.STEEL, Type.FIRE,
                 new Stats(0,
                         0,

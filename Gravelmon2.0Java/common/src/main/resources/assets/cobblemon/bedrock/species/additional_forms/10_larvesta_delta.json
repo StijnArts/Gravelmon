@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:larvesta",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltalarvesta",
+      "texture": "cobblemon:textures/pokemon/generation5/deltalarvesta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltalarvesta",
+      "texture": "cobblemon:textures/pokemon/generation5/deltalarvesta_shiny.png",
+      "layers": []
+    }
+  ]
+}

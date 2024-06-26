@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:skrelp",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "novran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_novranskrelp",
+      "texture": "cobblemon:textures/pokemon/generation6/novranskrelp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "novran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_novranskrelp",
+      "texture": "cobblemon:textures/pokemon/generation6/novranskrelp_shiny.png",
+      "layers": []
+    }
+  ]
+}

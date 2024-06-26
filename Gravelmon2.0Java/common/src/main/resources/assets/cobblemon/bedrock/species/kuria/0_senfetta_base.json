@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:senfetta",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_senfetta",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/kuria/senfetta.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/senfetta_shiny.png"
-    }  ]
+    }
+  ]
 }

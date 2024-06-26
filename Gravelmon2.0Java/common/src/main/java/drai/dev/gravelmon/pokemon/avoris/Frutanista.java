@@ -5,6 +5,11 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
+
 public class Frutanista extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frutanista() {
         super("Frutanista",
@@ -42,7 +47,7 @@ public class Frutanista extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.AVORIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 44, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

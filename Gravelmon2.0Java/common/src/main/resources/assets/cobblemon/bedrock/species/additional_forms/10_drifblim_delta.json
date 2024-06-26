@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:drifblim",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltadrifblim",
+      "texture": "cobblemon:textures/pokemon/generation4/deltadrifblim.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltadrifblim",
+      "texture": "cobblemon:textures/pokemon/generation4/deltadrifblim_shiny.png",
+      "layers": []
+    }
+  ]
+}

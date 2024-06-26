@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticTorchic extends Pokemon {
-    public MysticTorchic(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MysticTorchic",
+    public MysticTorchic(String name, Aspect aspect) {
+        super(name, aspect,"MysticTorchic",
                 Type.ROCK,
                 new Stats(45, 40, 70, 50, 60, 45),
                 List.of(Ability.INSOMNIA), Ability.BATTLE_ARMOR,

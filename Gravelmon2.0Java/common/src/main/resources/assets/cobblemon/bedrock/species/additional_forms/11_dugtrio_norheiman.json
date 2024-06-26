@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dugtrio",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "norheiman"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_norheimandugtrio",
+      "texture": "cobblemon:textures/pokemon/generation1/norheimandugtrio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "norheiman",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_norheimandugtrio",
+      "texture": "cobblemon:textures/pokemon/generation1/norheimandugtrio_shiny.png",
+      "layers": []
+    }
+  ]
+}

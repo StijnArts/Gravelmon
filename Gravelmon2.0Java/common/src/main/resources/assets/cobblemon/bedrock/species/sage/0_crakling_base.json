@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:crakling",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_crakling",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/crakling.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/crakling_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:volcamone",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_volcamone",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/varitas/volcamone.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/volcamone_shiny.png"
-    }  ]
+    }
+  ]
 }

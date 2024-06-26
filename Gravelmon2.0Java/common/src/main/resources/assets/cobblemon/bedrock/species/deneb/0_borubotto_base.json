@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:borubotto",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_borubotto",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/borubotto.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/borubotto_shiny.png"
-    }  ]
+    }
+  ]
 }

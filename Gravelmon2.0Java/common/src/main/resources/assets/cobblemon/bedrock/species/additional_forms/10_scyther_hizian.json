@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:scyther",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hizianscyther",
+      "texture": "cobblemon:textures/pokemon/generation1/hizianscyther.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hizianscyther",
+      "texture": "cobblemon:textures/pokemon/generation1/hizianscyther_shiny.png",
+      "layers": []
+    }
+  ]
+}

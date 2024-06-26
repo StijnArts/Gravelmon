@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SwirlixX extends Pokemon {
-    public SwirlixX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"SwirlixX",
+    public SwirlixX(String name, Aspect aspect) {
+        super(name, aspect,"SwirlixX",
                 Type.POISON,
                 new Stats(62, 48, 66, 59, 57, 49),
                 List.of(Ability.POISON_TOUCH), Ability.GLUTTONY,

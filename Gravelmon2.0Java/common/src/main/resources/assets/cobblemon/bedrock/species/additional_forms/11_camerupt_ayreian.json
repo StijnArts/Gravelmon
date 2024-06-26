@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:camerupt",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreiancamerupt",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreiancamerupt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreiancamerupt",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreiancamerupt_shiny.png",
+      "layers": []
+    }
+  ]
+}

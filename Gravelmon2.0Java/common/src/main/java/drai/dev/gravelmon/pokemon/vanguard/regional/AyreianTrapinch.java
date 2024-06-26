@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianTrapinch extends Pokemon {
-    public AyreianTrapinch(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianTrapinch",
+    public AyreianTrapinch(String name, Aspect aspect) {
+        super(name, aspect,"AyreianTrapinch",
                 Type.BUG, Type.POISON,
                 new Stats(45,35,45,10,65,45),
                 List.of(Ability.CORROSION), Ability.CORROSION,

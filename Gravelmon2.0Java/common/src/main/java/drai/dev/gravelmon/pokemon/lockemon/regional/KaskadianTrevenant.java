@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianTrevenant extends Pokemon {
-    public KaskadianTrevenant(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianTrevenant",
+    public KaskadianTrevenant(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianTrevenant",
                 Type.GHOST, Type.POISON,
                 new Stats(85, 110,76,65,82,56),
                 List.of(Ability.SOUL_DRAIN, Ability.POISON_TOUCH), Ability.EFFECT_SPORE,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:lombre",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_egholombre",
+      "texture": "cobblemon:textures/pokemon/generation3/egholombre.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_egholombre",
+      "texture": "cobblemon:textures/pokemon/generation3/egholombre_shiny.png",
+      "layers": []
+    }
+  ]
+}

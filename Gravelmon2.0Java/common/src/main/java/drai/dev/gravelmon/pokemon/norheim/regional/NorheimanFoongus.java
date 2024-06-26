@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanFoongus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanFoongus(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Foongus",
+    public NorheimanFoongus(String name, Aspect aspect) {
+        super(name, aspect, "Foongus",
                 Type.STEEL, Type.POISON,
                 new Stats(0,
                         0,

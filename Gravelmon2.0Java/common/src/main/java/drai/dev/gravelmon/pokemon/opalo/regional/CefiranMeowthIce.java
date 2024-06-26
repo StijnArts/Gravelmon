@@ -5,11 +5,9 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class CefiranMeowthIce extends Pokemon {
-    public CefiranMeowthIce(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"CefiranMeowthIce",
+    public CefiranMeowthIce(String name, Aspect aspect) {
+        super(name, aspect,"CefiranMeowthIce",
                 Type.NORMAL, Type.ICE,
                 new Stats(50,65,35,90,40,40),
                 List.of(Ability.PICKUP), Ability.TECHNICIAN,

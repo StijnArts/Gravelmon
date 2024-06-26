@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:merluscious",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_merluscious",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/oceane/merluscious.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/merluscious_shiny.png"
-    }  ]
+    }
+  ]
 }

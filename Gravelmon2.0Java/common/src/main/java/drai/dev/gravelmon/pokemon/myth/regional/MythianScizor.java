@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianScizor extends Pokemon {
-    public MythianScizor(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MythianScizor",
+    public MythianScizor(String name, Aspect aspect) {
+        super(name, aspect,"MythianScizor",
                 Type.FIRE, Type.GHOST,
                 new Stats(70,130,100,55,80,65),
                 List.of(Ability.SHEER_FORCE,Ability.CURSED_BODY), Ability.SHADOW_TAG,

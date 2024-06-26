@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:mismagius",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "norheiman"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_norheimanmismagius",
+      "texture": "cobblemon:textures/pokemon/generation4/norheimanmismagius.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "norheiman",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_norheimanmismagius",
+      "texture": "cobblemon:textures/pokemon/generation4/norheimanmismagius_shiny.png",
+      "layers": []
+    }
+  ]
+}

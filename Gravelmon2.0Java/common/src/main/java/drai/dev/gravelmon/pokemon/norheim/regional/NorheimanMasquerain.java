@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanMasquerain extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanMasquerain(String originalMon, Aspect aspect, Stats stats) {
-        super(originalMon, aspect, "Masquerain",
+    public NorheimanMasquerain(String name, Aspect aspect, Stats stats) {
+        super(name, aspect, "Masquerain",
                 Type.BUG, Type.WATER,
                 stats,
                 List.of(Ability.SWARM), Ability.DRIZZLE,

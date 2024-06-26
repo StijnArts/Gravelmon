@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class DeltaSeedot extends Pokemon {
-    public DeltaSeedot(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaSeedot",
+    public DeltaSeedot(String name, Aspect aspect) {
+        super(name, aspect,"DeltaSeedot",
                 Type.ELECTRIC,
                 new Stats(40, 40, 50, 30, 30, 30),
                 List.of(Ability.VOLT_ABSORB, Ability.MINUS), Ability.STATIC,

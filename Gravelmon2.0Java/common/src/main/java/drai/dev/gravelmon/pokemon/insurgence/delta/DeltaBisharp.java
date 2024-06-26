@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaBisharp extends Pokemon {
-    public DeltaBisharp(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaBisharp",
+    public DeltaBisharp(String name, Aspect aspect) {
+        super(name, aspect,"DeltaBisharp",
                 Type.FLYING, Type.FIGHTING,
                 new Stats(65, 125, 100, 60, 70, 70),
                 List.of(Ability.DEFIANT, Ability.FRISK), Ability.WIND_FORCE,

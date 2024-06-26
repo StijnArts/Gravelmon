@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:slakoth",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fligian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligianslakoth",
+      "texture": "cobblemon:textures/pokemon/generation3/fligianslakoth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fligian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligianslakoth",
+      "texture": "cobblemon:textures/pokemon/generation3/fligianslakoth_shiny.png",
+      "layers": []
+    }
+  ]
+}

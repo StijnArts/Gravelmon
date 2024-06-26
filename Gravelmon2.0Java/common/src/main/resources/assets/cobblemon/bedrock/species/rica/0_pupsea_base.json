@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:pupsea",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_pupsea",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/rica/pupsea.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/pupsea_shiny.png"
-    }  ]
+    }
+  ]
 }

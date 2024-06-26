@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianTropius extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianTropius(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Tropius",
+    public HizianTropius(String name, Aspect aspect) {
+        super(name, aspect, "Tropius",
                 Type.WATER, Type.GRASS,
                 new Stats(109,
                         58,

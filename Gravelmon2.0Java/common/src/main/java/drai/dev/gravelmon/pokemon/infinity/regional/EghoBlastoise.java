@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoBlastoise extends Pokemon {
-    public EghoBlastoise(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoBlastoise",
+    public EghoBlastoise(String name, Aspect aspect) {
+        super(name, aspect,"EghoBlastoise",
                 Type.WATER, Type.FLYING,
                 new Stats(79, 80, 95, 95, 100, 81),
                 List.of(Ability.SERENE_GRACE, Ability.DRIZZLE), Ability.SNOW_WARNING,

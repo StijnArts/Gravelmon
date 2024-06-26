@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:glalie",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_cefiranglalie",
+      "texture": "cobblemon:textures/pokemon/generation3/cefiranglalie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_cefiranglalie",
+      "texture": "cobblemon:textures/pokemon/generation3/cefiranglalie_shiny.png",
+      "layers": []
+    }
+  ]
+}

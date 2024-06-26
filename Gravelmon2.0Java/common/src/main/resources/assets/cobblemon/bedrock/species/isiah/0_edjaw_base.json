@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:edjaw",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_edjaw",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/isiah/edjaw.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/edjaw_shiny.png"
-    }  ]
+    }
+  ]
 }

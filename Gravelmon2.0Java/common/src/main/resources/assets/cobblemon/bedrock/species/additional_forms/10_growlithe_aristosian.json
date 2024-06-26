@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:growlithe",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "aristosian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_aristosiangrowlithe",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosiangrowlithe.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "aristosian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_aristosiangrowlithe",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosiangrowlithe_shiny.png",
+      "layers": []
+    }
+  ]
+}

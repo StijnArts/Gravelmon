@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ponyta",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ponytax",
+      "texture": "cobblemon:textures/pokemon/generation1/ponytax.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ponytax",
+      "texture": "cobblemon:textures/pokemon/generation1/ponytax_shiny.png",
+      "layers": []
+    }
+  ]
+}

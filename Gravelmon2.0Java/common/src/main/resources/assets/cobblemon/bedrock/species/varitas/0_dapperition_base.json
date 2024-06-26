@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:dapperition",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_dapperition",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/varitas/dapperition.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/dapperition_shiny.png"
-    }  ]
+    }
+  ]
 }

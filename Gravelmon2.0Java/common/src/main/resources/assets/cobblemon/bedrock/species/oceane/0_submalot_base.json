@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:submalot",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_submalot",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/oceane/submalot.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/submalot_shiny.png"
-    }  ]
+    }
+  ]
 }

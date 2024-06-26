@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianLapras extends Pokemon {
-    public KaskadianLapras(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianLapras",
+    public KaskadianLapras(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianLapras",
                 Type.ICE, Type.DRAGON,
                 new Stats(110, 70, 55, 105, 75, 120),
                 List.of(Ability.MULTISCALE, Ability.WEAK_ARMOR), Ability.ARCANUM,

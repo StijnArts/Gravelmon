@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianVenusaur extends Pokemon {
-    public AyreianVenusaur(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianVenusaur",
+    public AyreianVenusaur(String name, Aspect aspect) {
+        super(name, aspect,"AyreianVenusaur",
                 Type.DARK, Type.GROUND,
                 new Stats(115, 97, 103, 75, 70, 90),
                 List.of(Ability.STAMINA, Ability.WEAK_ARMOR), Ability.SAND_STREAM,

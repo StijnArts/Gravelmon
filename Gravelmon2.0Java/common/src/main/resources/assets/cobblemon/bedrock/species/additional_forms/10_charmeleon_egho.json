@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:charmeleon",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghocharmeleon",
+      "texture": "cobblemon:textures/pokemon/generation1/eghocharmeleon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghocharmeleon",
+      "texture": "cobblemon:textures/pokemon/generation1/eghocharmeleon_shiny.png",
+      "layers": []
+    }
+  ]
+}

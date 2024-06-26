@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoTyphlosion extends Pokemon {
-    public EghoTyphlosion(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoTyphlosion",
+    public EghoTyphlosion(String name, Aspect aspect) {
+        super(name, aspect,"EghoTyphlosion",
                 Type.FIRE, Type.ELECTRIC,
                 new Stats(84, 68, 94, 120, 74, 97),
                 List.of(Ability.STATIC), Ability.CLOUD_NINE,

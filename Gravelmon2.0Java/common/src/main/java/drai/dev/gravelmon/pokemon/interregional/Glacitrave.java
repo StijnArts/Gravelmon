@@ -40,7 +40,7 @@ public class Glacitrave extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 52, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_GLACIAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRIGID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

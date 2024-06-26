@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranRampardos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranRampardos(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Rampardos",
+    public NovranRampardos(String name, Aspect aspect) {
+        super(name, aspect, "Rampardos",
                 Type.ROCK, Type.FIRE,
                 new Stats(87,
                         155,
@@ -123,7 +123,7 @@ public class NovranRampardos extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED,  SpawnPool.ULTRA_RARE, 40, 50, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

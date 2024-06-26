@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dratini",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltadratini",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadratini.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltadratini",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadratini_shiny.png",
+      "layers": []
+    }
+  ]
+}

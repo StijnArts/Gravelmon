@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:smeargle",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiransmeargle",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiransmeargle",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiransmeargle",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiransmeargle",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle_female_shiny.png",
+      "layers": []
+    }
+  ]
+}

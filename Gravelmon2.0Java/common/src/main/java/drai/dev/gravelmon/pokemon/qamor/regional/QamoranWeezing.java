@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranWeezing extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranWeezing(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Weezing",
+    public QamoranWeezing(String name, Aspect aspect) {
+        super(name, aspect, "Weezing",
                 Type.POISON, Type.FIRE,
                 new Stats(65,
                         65,

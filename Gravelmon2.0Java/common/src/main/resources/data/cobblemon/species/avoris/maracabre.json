@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maracabre",
-  "nationalPokedexNumber": 1610,
+  "nationalPokedexNumber": 1627,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
@@ -66,11 +66,14 @@
     "76:destinybond"  ],
   "labels": [
     "avoris",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.maracabre.desc"
   ],
+  "preEvolution": "maractus form=avorian",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

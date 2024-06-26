@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianVictreebel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianVictreebel(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AristosianVictreebel",
+    public AristosianVictreebel(String name, Aspect aspect) {
+        super(name, aspect,"AristosianVictreebel",
                 Type.GRASS, Type.FIRE,
                 new Stats(80,
                         90,

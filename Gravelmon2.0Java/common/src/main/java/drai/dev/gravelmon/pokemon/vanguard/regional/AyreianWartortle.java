@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianWartortle extends Pokemon {
-    public AyreianWartortle(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianWartortle",
+    public AyreianWartortle(String name, Aspect aspect) {
+        super(name, aspect,"AyreianWartortle",
                 Type.FIGHTING, Type.STEEL,
                 new Stats(59, 88, 90, 58, 45, 65),
                 List.of(Ability.BULLETPROOF, Ability.SHELL_ARMOR), Ability.GUTS,

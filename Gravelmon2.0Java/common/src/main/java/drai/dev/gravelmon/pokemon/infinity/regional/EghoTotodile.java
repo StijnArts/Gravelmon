@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoTotodile extends Pokemon {
-    public EghoTotodile(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoTotodile",
+    public EghoTotodile(String name, Aspect aspect) {
+        super(name, aspect,"EghoTotodile",
                 Type.WATER, Type.POISON,
                 new Stats(45, 56, 45, 57, 42, 69),
                 List.of(Ability.MERCILESS), Ability.SPEED_BOOST,

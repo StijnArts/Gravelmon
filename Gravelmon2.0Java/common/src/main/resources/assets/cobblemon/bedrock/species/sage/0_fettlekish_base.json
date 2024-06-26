@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:fettlekish",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_fettlekish",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/fettlekish.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/fettlekish_shiny.png"
-    }  ]
+    }
+  ]
 }

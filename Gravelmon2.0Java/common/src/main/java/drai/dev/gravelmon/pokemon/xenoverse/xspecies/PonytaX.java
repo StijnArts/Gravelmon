@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class PonytaX extends Pokemon {
-    public PonytaX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"PonytaX",
+    public PonytaX(String name, Aspect aspect) {
+        super(name, aspect,"PonytaX",
                 Type.FLYING,
                 new Stats(50, 75, 55, 65, 65, 100),
                 List.of(Ability.CLOUD_NINE), Ability.CLOUD_NINE,

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranVanillite extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranVanillite(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Vanillite",
+    public NovranVanillite(String name, Aspect aspect) {
+        super(name, aspect, "Vanillite",
                 Type.ICE, Type.GRASS,
                 new Stats(36,
                         50,

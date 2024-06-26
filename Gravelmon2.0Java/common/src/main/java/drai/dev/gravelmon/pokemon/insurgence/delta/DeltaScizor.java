@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaScizor extends Pokemon {
-    public DeltaScizor(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaScizor",
+    public DeltaScizor(String name, Aspect aspect) {
+        super(name, aspect,"DeltaScizor",
                 Type.ICE, Type.FIGHTING,
                 new Stats(70, 130, 100, 55, 80, 65),
                 List.of(Ability.TOUGH_CLAWS, Ability.ICE_CLEATS), Ability.SUPER_LUCK,

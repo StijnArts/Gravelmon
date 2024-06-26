@@ -5,11 +5,9 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class AlteranNidoranSummerCoat extends Pokemon {
-    public AlteranNidoranSummerCoat(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AlteranNidoranSummerCoat",
+    public AlteranNidoranSummerCoat(String name, Aspect aspect) {
+        super(name, aspect,"AlteranNidoranSummerCoat",
                 Type.GROUND,
                 new Stats(46, 52,42,40,40,55),
                 List.of(Ability.SAND_VEIL, Ability.SAND_RUSH), Ability.ADAPTABILITY,

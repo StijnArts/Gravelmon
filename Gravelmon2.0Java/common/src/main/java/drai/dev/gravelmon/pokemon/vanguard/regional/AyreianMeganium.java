@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianMeganium extends Pokemon {
-    public AyreianMeganium(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianMeganium",
+    public AyreianMeganium(String name, Aspect aspect) {
+        super(name, aspect,"AyreianMeganium",
                 Type.GRASS, Type.FAIRY,
                 new Stats(90,70,115,60,120,105),
                 List.of(Ability.PIXILATE, Ability.TRIAGE), Ability.MISTY_SURGE,

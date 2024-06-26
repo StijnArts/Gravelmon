@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class TapuLeleX extends Pokemon {
-    public TapuLeleX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"TapuLeleX",
+    public TapuLeleX(String name, Aspect aspect) {
+        super(name, aspect,"TapuLeleX",
                 Type.ICE, Type.DARK,
                 new Stats(70, 75, 145, 95, 130, 85),
                 List.of(Ability.FULL_METAL_BODY), Ability.SHEER_FORCE,

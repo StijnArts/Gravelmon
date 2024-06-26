@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianLarvesta extends Pokemon {
-    public MythianLarvesta(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MythianLarvesta",
+    public MythianLarvesta(String name, Aspect aspect) {
+        super(name, aspect,"MythianLarvesta",
                 Type.PSYCHIC, Type.FAIRY,
                 new Stats(55, 85, 55, 60, 50, 55),
                 List.of(Ability.ADAPTABILITY, Ability.DAZZLING), Ability.MISTY_SURGE,

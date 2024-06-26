@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:tentacool",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltatentacool",
+      "texture": "cobblemon:textures/pokemon/generation1/deltatentacool.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltatentacool",
+      "texture": "cobblemon:textures/pokemon/generation1/deltatentacool_shiny.png",
+      "layers": []
+    }
+  ]
+}

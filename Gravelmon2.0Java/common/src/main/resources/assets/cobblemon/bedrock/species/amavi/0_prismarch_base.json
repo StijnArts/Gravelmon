@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:prismarch",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_prismarch",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/prismarch.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/prismarch_shiny.png"
-    }  ]
+    }
+  ]
 }

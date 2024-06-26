@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:auldsparce",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_auldsparce",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/auldsparce.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/auldsparce_shiny.png"
-    }  ]
+    }
+  ]
 }

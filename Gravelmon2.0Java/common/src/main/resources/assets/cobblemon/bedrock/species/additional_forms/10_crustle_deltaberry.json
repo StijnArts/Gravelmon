@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:crustle",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta_berry"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaberrycrustle",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaberrycrustle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta_berry",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaberrycrustle",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaberrycrustle_shiny.png",
+      "layers": []
+    }
+  ]
+}

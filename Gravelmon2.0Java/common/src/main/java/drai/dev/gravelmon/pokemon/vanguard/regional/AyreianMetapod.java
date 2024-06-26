@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianMetapod extends Pokemon {
-    public AyreianMetapod(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianMetapod",
+    public AyreianMetapod(String name, Aspect aspect) {
+        super(name, aspect,"AyreianMetapod",
                 Type.BUG, Type.ELECTRIC,
                 new Stats(78,40,55,30,55,25),
                 List.of(Ability.SHED_SKIN), Ability.COMPOUND_EYES,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianSkuntank extends Pokemon {
-    public KaskadianSkuntank(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianSkuntank",
+    public KaskadianSkuntank(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianSkuntank",
                 Type.POISON, Type.NORMAL,
                 new Stats(103, 71,67,93,61,84),
                 List.of(Ability.STENCH, Ability.POLLUTION), Ability.FLARE_BOOST,

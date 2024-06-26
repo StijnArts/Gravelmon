@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:roselia",
+  "order": 13,
+  "variations": [
+    {
+      "aspects": [
+        "relic"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_relicroselia",
+      "texture": "cobblemon:textures/pokemon/generation3/relicroselia.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "relic",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_relicroselia",
+      "texture": "cobblemon:textures/pokemon/generation3/relicroselia_shiny.png",
+      "layers": []
+    }
+  ]
+}

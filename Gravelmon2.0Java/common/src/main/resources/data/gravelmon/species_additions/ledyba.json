@@ -1,0 +1,144 @@
+{
+   "target": "cobblemon:ledyba",
+   "forms": [{
+  "name": "Relic",
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "abilities": [
+    "ironfist",
+    "compoundeyes",
+    "h:ironfist"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 20,
+    "special_defence": 40,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 83,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 53,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "bug",
+    "fairy"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "5:cometpunch",
+    "8:lightscreen",
+    "8:reflect",
+    "12:bulletpunch",
+    "18:bulkup",
+    "23:craftyshield",
+    "29:uturn",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:quash",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:naturepower",
+    "tm:poweruppunch",
+    "tm:dazzlinggleam",
+    "tm:confide"  ],
+  "labels": [
+    "phoenix_rising",
+    "gen2",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.relicledyba.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "relicledyba_Ledian",
+      "variant": "level_up",
+      "result": "Ledian relic",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 300,
+  "aspects": ["relic"],
+  "cannotDynamax": false
+}
+], "features": [
+"relic"
+  ]
+}

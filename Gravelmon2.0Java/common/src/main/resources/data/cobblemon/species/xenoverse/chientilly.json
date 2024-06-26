@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chientilly",
-  "nationalPokedexNumber": 1560,
+  "nationalPokedexNumber": 1576,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -109,7 +109,7 @@
   "pokedex": [
     "cobblemon.species.chientilly.desc"
   ],
-  "preEvolution": "smearglex",
+  "preEvolution": "Smeargle form=x",
   "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,

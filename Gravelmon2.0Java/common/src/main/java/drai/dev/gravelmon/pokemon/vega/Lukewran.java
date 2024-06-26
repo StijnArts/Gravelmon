@@ -5,6 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
+import java.util.*;
+
 public class Lukewran extends Pokemon {
     public Lukewran() {
         super("Lukewran",
@@ -69,7 +71,7 @@ public class Lukewran extends Pokemon {
                 List.of(Label.VEGA, Label.LEGENDARY),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, 0.00005, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

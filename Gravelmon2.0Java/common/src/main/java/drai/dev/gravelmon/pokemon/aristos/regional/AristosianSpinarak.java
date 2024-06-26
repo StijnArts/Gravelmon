@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianSpinarak extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianSpinarak(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AristosianSpinarak",
+    public AristosianSpinarak(String name, Aspect aspect) {
+        super(name, aspect,"AristosianSpinarak",
                 Type.BUG, Type.FAIRY,
                 new Stats(40,
                         30,

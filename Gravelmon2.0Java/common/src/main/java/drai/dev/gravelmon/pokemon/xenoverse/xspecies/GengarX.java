@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class GengarX extends Pokemon {
-    public GengarX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"GengarX",
+    public GengarX(String name, Aspect aspect) {
+        super(name, aspect,"GengarX",
                 Type.DRAGON, Type.PSYCHIC,
                 new Stats(80, 70, 80, 130, 85, 55),
                 List.of(Ability.OBLIVIOUS, Ability.MOLD_BREAKER), Ability.ANGER_POINT,
@@ -102,8 +102,5 @@ public class GengarX extends Pokemon {
                 List.of());
         this.setLangFileName("Gengar");
         this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
-        setBaseScale(0.9);
-        setHitbox(1.0, 3.5);
     }
 }

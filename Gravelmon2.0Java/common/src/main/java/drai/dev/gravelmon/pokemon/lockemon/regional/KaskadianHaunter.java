@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianHaunter extends Pokemon {
-    public KaskadianHaunter(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianHaunter",
+    public KaskadianHaunter(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianHaunter",
                 Type.GHOST, Type.WATER,
                 new Stats(45, 50, 60, 95, 40, 115),
                 List.of(Ability.LEVITATE, Ability.WARP_MIST), Ability.CARBON_CAPTURE,

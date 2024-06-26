@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianTreecko extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianTreecko(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Treecko",
+    public FligianTreecko(String name, Aspect aspect) {
+        super(name, aspect, "Treecko",
                 Type.ROCK,
                 new Stats(35,
                         65,

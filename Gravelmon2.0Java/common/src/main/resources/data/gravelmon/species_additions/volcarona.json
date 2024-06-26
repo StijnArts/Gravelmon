@@ -1,0 +1,390 @@
+{
+   "target": "cobblemon:volcarona",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "dark",
+  "secondaryType": "poison",
+  "abilities": [
+    "levitate",
+    "h:absolution"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 60,
+    "defence": 65,
+    "special_attack": 135,
+    "special_defence": 105,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 15,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Armored",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "abilities": [
+    "levitate",
+    "h:absolution"
+      ],
+      "baseScale": 0.3,
+        "hitbox": {
+          "width": 6.0,
+          "height": 6.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 60,
+        "defence": 85,
+        "special_attack": 135,
+        "special_defence": 137,
+        "speed": 100
+      },
+      "catchRate": 15,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 72,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence",
+    "not_modeled"
+      ],
+      "aspects": [
+        "armored"
+      ],
+      "height": 1,
+      "weight": 4600,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 275,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:hyperspacehole",
+    "1:spacialrend",
+    "1:aurasphere",
+    "1:hurricane",
+    "1:toxicspikes",
+    "1:sludgewave",
+    "1:gunkshot",
+    "1:outrage",
+    "1:tailwind",
+    "1:darkpulse",
+    "1:venoshock",
+    "1:pursuit",
+    "1:scaryface",
+    "1:gust",
+    "1:acidspray",
+    "10:acidspray",
+    "20:gust",
+    "30:infestation",
+    "40:whirlwind",
+    "50:ominouswind",
+    "59:aurasphere",
+    "59:spacialrend",
+    "59:hyperspacehole",
+    "60:sludgewave",
+    "70:darkpulse",
+    "80:toxicspikes",
+    "90:hurricane",
+    "100:explosion",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:roost",
+    "tm:energyball",
+    "tm:newmoon",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:psychup",
+    "tm:thunderwave",
+    "tm:venoshock",
+    "tm:wildcharge",
+    "tm:shockwave",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:dracojet",
+    "tm:sleeptalksound",
+    "tm:steelwing",
+    "tm:acrobatics",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:silverwind",
+    "tm:lunarcannon",
+    "tm:incinerate",
+    "tm:skydrop",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:corrode",
+    "tm:confide",
+    "tm:quash",
+    "tm:darkmatter",
+    "tm:infestation",
+    "tm:secretpower",
+    "tm:flash",
+    "tm:workup",
+    "tm:naturepower",
+    "tm:fly",
+    "tm:surf",
+    "tutor:acid",
+    "tutor:aircutter",
+    "tutor:ancientpower",
+    "tutor:aurasphere",
+    "tutor:defog",
+    "tutor:doubleedge",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:gravitycosmic",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:hurricane",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:meteormash",
+    "tutor:mimic",
+    "tutor:morningsun",
+    "tutor:ominouswind",
+    "tutor:outrage",
+    "tutor:selfdestruct",
+    "tutor:signalbeam",
+    "tutor:skyattack",
+    "tutor:snoresound",
+    "tutor:spacialrend",
+    "tutor:spite",
+    "tutor:superpower",
+    "tutor:swiftcosmic",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "tutor:whirlpool",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltavolcarona.desc"
+  ],
+  "preEvolution": "larvesta form=delta",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 460,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Mythian",
+  "primaryType": "psychic",
+  "secondaryType": "fairy",
+  "abilities": [
+    "adaptability",
+    "dazzling",
+    "h:mistysurge"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 60,
+    "defence": 65,
+    "special_attack": 100,
+    "special_defence": 135,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 15,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 248,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:pixie_dust",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
+  "moves": [
+    "1:quiverdance",
+    "1:fierydance",
+    "1:whirlwind",
+    "1:drainingkiss",
+    "1:psychic",
+    "1:takedown",
+    "1:doubleedge",
+    "1:dazzlinggleam",
+    "1:disarmingvoicesound",
+    "1:stringshot",
+    "1:gust",
+    "1:confusion",
+    "30:screechsound",
+    "54:amnesia",
+    "62:quiverdance",
+    "70:fireblast",
+    "78:dracometeor",
+    "egg:stringshot",
+    "egg:harden",
+    "egg:foresight",
+    "egg:endure",
+    "egg:zenheadbutt",
+    "egg:morningsun",
+    "egg:magnetrise"  ],
+  "labels": [
+    "gen5",
+    "myth",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mythianvolcarona.desc"
+  ],
+  "preEvolution": "larvesta form=mythian",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 460,
+  "aspects": ["mythian"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta",
+"mythian"
+  ]
+}

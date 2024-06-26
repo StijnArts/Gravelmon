@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:flygon",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreianflygon",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianflygon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreianflygon",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianflygon_shiny.png",
+      "layers": []
+    }
+  ]
+}

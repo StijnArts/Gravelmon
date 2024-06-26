@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:victreebel",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "aristosian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_aristosianvictreebel",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosianvictreebel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "aristosian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_aristosianvictreebel",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosianvictreebel_shiny.png",
+      "layers": []
+    }
+  ]
+}

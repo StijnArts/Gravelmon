@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoLombre extends Pokemon {
-    public EghoLombre(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoLombre",
+    public EghoLombre(String name, Aspect aspect) {
+        super(name, aspect,"EghoLombre",
                 Type.FIRE, Type.STEEL,
                 new Stats(60, 50, 60, 70, 50, 50),
                 List.of(Ability.HARVEST), Ability.DRY_SKIN,

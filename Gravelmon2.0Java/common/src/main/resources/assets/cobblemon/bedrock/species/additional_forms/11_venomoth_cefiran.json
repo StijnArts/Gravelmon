@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:venomoth",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_cefiranvenomoth",
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranvenomoth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_cefiranvenomoth",
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranvenomoth_shiny.png",
+      "layers": []
+    }
+  ]
+}

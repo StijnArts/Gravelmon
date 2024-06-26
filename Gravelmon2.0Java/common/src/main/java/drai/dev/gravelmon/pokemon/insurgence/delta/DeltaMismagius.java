@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaMismagius extends Pokemon {
-    public DeltaMismagius(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaMismagius",
+    public DeltaMismagius(String name, Aspect aspect) {
+        super(name, aspect,"DeltaMismagius",
                 Type.ICE, Type.FAIRY,
                 new Stats(60, 60,60,105,105,105),
                 List.of(Ability.MAGIC_GUARD), Ability.WINTER_JOY,

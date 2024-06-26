@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanCrawdaunt extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanCrawdaunt(String originalMon, Aspect aspect, Stats stats) {
-        super(originalMon, aspect, "Crawdaunt",
+    public NorheimanCrawdaunt(String name, Aspect aspect, Stats stats) {
+        super(name, aspect, "Crawdaunt",
                 Type.WATER, Type.STEEL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

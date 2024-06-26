@@ -1,0 +1,172 @@
+{
+   "target": "cobblemon:paras",
+   "forms": [{
+  "name": "Fligian",
+  "primaryType": "ghost",
+  "secondaryType": "bug",
+  "abilities": [
+    "aftermath",
+    "effectspore",
+    "h:toxicboost"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 50,
+    "special_defence": 85,
+    "speed": 10
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 155,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:crosspoison",
+    "1:absorb",
+    "1:scratch",
+    "6:poisonpowder",
+    "6:stunspore",
+    "11:bugbite",
+    "17:payback",
+    "22:spore",
+    "29:shadowclaw",
+    "34:ingrain",
+    "37:growth",
+    "51:strengthsap",
+    "tm:snoresound",
+    "tm:gigadrain",
+    "tm:synthesis",
+    "tm:knockoff",
+    "tm:worryseed",
+    "tm:seedbomb",
+    "tm:bugbite",
+    "tm:afteryou",
+    "tm:throatchop",
+    "tm:venomdrench",
+    "tm:poltergeist",
+    "tm:swordsdance",
+    "tm:hyperbeam",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:leechlife",
+    "tm:rest",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:sludgebomb",
+    "tm:falseswipe",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:naturepower",
+    "tm:brickbreak",
+    "tm:aerialace",
+    "tm:xscissor",
+    "tm:energyball",
+    "tm:gigaimpact",
+    "tm:venoshock",
+    "tm:roundsound",
+    "tm:confide",
+    "tm:swordsdance",
+    "tm:toxic",
+    "tm:bodyslam",
+    "tm:takedown",
+    "tm:doubleedge",
+    "tm:hyperbeam",
+    "tm:rage",
+    "tm:megadrain",
+    "tm:solarbeam",
+    "tm:dig",
+    "tm:mimic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:bide",
+    "tm:skullbash",
+    "tm:rest",
+    "tm:substitute",
+    "tm:cut",
+    "tm:flash",
+    "tm:counter",
+    "tm:shadowball",
+    "tm:darkpulse"  ],
+  "labels": [
+    "fliga",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fligianparas.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "fligianparas_parasect",
+      "variant": "level_up",
+      "result": "parasect fligian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "shadowclaw"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 0,
+  "aspects": ["fligian"],
+  "cannotDynamax": false
+}
+], "features": [
+"fligian"
+  ]
+}

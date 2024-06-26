@@ -9,8 +9,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianScyther extends Pokemon {
-    public MythianScyther(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MythianScyther",
+    public MythianScyther(String name, Aspect aspect) {
+        super(name, aspect,"MythianScyther",
                 Type.FIRE, Type.GHOST,
                 new Stats(70,110,80,55,80,105),
                 List.of(Ability.SHEER_FORCE,Ability.CURSED_BODY), Ability.SHADOW_TAG,

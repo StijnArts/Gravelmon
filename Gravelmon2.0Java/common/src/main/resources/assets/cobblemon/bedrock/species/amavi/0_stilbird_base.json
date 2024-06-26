@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:stilbird",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_stilbird",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/stilbird.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/stilbird_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:kadabra",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreiankadabra",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiankadabra.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreiankadabra",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiankadabra_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+   "target": "cobblemon:graveler",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "psychic",
+  "secondaryType": "rock",
+  "abilities": [
+    "regenerator",
+    "sapsipper",
+    "h:magicbounce"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 95,
+    "defence": 115,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 137,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:lockon",
+    "1:miracleeye",
+    "1:barrier",
+    "4:miracleeye",
+    "6:barrier",
+    "10:protect",
+    "12:psywave",
+    "16:rockthrow",
+    "18:seismictoss",
+    "22:synchronoise",
+    "24:submission",
+    "30:stealthrock",
+    "34:rockslide",
+    "40:zenheadbutt",
+    "44:hammerarm",
+    "50:doubleedge",
+    "54:rockwrecker",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:newmoon",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:retaliate",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:psychup",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:avalanche",
+    "tm:allyswitch",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:quash",
+    "tm:darkmatter",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:telekinesis",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:dig",
+    "tutor:doubleedge",
+    "tutor:dynamicpunch",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:gravitycosmic",
+    "tutor:headbutt",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:megapunch",
+    "tutor:metronome",
+    "tutor:mimic",
+    "tutor:rollout",
+    "tutor:seismictoss",
+    "tutor:selfdestruct",
+    "tutor:signalbeam",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen1",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltagraveler.desc"
+  ],
+  "preEvolution": "geodude form=delta",
+  "evolutions": [
+    {
+      "id": "deltagraveler_golem",
+      "variant": "trade",
+      "result": "golem delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 1050,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

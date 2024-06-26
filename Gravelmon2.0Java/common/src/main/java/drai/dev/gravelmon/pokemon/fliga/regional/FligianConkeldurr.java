@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianConkeldurr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianConkeldurr(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Conkeldurr",
+    public FligianConkeldurr(String name, Aspect aspect) {
+        super(name, aspect, "Conkeldurr",
                 Type.FIGHTING,
                 new Stats(105,
                         140,

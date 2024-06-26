@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaLudicolo extends Pokemon {
-    public DeltaLudicolo(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaLudicolo",
+    public DeltaLudicolo(String name, Aspect aspect) {
+        super(name, aspect,"DeltaLudicolo",
                 Type.PSYCHIC, Type.WATER,
                 new Stats(80, 70, 70, 90, 100, 70),
                 List.of(Ability.MAGIC_BOUNCE, Ability.SYNCHRONIZE), Ability.UNAWARE,

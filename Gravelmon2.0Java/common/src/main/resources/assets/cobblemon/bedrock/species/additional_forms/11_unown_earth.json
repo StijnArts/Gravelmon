@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:unown",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "earth"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_unownearth",
+      "texture": "cobblemon:textures/pokemon/generation2/unownearth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "earth",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_unownearth",
+      "texture": "cobblemon:textures/pokemon/generation2/unownearth_shiny.png",
+      "layers": []
+    }
+  ]
+}

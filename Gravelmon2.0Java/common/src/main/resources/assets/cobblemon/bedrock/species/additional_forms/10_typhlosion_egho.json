@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:typhlosion",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghotyphlosion",
+      "texture": "cobblemon:textures/pokemon/generation2/eghotyphlosion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghotyphlosion",
+      "texture": "cobblemon:textures/pokemon/generation2/eghotyphlosion_shiny.png",
+      "layers": []
+    }
+  ]
+}

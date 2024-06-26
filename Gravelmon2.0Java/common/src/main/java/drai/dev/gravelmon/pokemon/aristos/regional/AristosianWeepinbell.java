@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianWeepinbell extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianWeepinbell(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AristosianWeepinbell",
+    public AristosianWeepinbell(String name, Aspect aspect) {
+        super(name, aspect,"AristosianWeepinbell",
                 Type.GRASS, Type.FIRE,
                 new Stats(65,
                         85,

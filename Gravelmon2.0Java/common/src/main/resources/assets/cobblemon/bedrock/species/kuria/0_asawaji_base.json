@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:asawaji",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_asawaji",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/kuria/asawaji.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/asawaji_shiny.png"
-    }  ]
+    }
+  ]
 }

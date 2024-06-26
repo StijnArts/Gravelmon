@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianBisharp extends Pokemon {
-    public HoennianBisharp(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianBisharp",
+    public HoennianBisharp(String name, Aspect aspect) {
+        super(name, aspect,"HoennianBisharp",
                 Type.FAIRY, Type.STEEL,
                 new Stats(85, 90, 115, 40, 85, 75),
                 List.of(Ability.BATTLE_ARMOR), Ability.RESOLUTE,

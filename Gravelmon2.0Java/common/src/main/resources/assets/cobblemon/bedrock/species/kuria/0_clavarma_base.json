@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:clavarma",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_clavarma",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/kuria/clavarma.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/clavarma_shiny.png"
-    }  ]
+    }
+  ]
 }

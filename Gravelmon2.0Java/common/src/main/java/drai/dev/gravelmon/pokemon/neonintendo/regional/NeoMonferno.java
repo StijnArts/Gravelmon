@@ -16,8 +16,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class NeoMonferno extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NeoMonferno(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Monferno",
+    public NeoMonferno(String name, Aspect aspect) {
+        super(name, aspect, "Monferno",
                 Type.ICE,
                 new Stats(64,
                         78,

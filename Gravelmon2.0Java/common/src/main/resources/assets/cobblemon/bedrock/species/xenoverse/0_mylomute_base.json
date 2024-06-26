@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:mylomute",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_mylomute",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/xenoverse/mylomute.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/mylomute_shiny.png"
-    }  ]
+    }
+  ]
 }

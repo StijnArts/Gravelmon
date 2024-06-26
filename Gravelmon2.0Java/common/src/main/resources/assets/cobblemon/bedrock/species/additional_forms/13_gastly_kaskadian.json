@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gastly",
+  "order": 13,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_kaskadiangastly",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadiangastly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_kaskadiangastly",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadiangastly_shiny.png",
+      "layers": []
+    }
+  ]
+}

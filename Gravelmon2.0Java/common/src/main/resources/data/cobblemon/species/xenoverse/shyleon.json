@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shyleon",
-  "nationalPokedexNumber": 1498,
+  "nationalPokedexNumber": 1499,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -135,9 +135,9 @@
   ],
   "evolutions": [
     {
-      "id": "shyleon_shyleonterrestrial",
+      "id": "shyleon_shyleon",
       "variant": "level_up",
-      "result": "shyleonterrestrial",
+      "result": "shyleon terrestrial",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -149,9 +149,9 @@
       "permanent": true   
  },
     {
-      "id": "shyleon_shyleonxenoversal",
+      "id": "shyleon_shyleon",
       "variant": "level_up",
-      "result": "shyleonxenoversal",
+      "result": "shyleon xenoversal",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -163,9 +163,9 @@
       "permanent": true   
  },
     {
-      "id": "shyleon_shyleonastral",
+      "id": "shyleon_shyleon",
       "variant": "level_up",
-      "result": "shyleonastral",
+      "result": "shyleon astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -181,9 +181,9 @@
       "permanent": true   
  },
     {
-      "id": "shyleon_shyleonastral",
+      "id": "shyleon_shyleon",
       "variant": "level_up",
-      "result": "shyleonastral",
+      "result": "shyleon astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

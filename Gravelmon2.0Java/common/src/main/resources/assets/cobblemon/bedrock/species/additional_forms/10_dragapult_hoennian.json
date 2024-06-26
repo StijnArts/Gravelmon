@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dragapult",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation8_hoenniandragapult",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation8_hoenniandragapult",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult_shiny.png",
+      "layers": []
+    }
+  ]
+}

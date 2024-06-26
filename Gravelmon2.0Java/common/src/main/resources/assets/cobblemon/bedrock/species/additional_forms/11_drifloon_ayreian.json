@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:drifloon",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_ayreiandrifloon",
+      "texture": "cobblemon:textures/pokemon/generation4/ayreiandrifloon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_ayreiandrifloon",
+      "texture": "cobblemon:textures/pokemon/generation4/ayreiandrifloon_shiny.png",
+      "layers": []
+    }
+  ]
+}

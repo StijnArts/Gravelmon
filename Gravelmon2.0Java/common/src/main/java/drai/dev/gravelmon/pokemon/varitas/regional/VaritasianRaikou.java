@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianRaikou extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianRaikou(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Raikou",
+    public VaritasianRaikou(String name, Aspect aspect) {
+        super(name, aspect,"Raikou",
                 Type.GHOST, Type.ELECTRIC,
                 new Stats(90,
                         85,

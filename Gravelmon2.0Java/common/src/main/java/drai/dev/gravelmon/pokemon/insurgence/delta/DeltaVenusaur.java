@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaVenusaur extends Pokemon {
-    public DeltaVenusaur(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaVenusaur",
+    public DeltaVenusaur(String name, Aspect aspect) {
+        super(name, aspect,"DeltaVenusaur",
                 Type.FAIRY, Type.PSYCHIC,
                 new Stats(80, 82, 83, 100, 100, 80),
                 List.of(Ability.PSYCHO_CALL), Ability.REGENERATOR,

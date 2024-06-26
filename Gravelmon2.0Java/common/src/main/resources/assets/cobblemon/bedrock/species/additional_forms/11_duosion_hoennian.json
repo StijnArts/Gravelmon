@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:duosion",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_hoennianduosion",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianduosion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_hoennianduosion",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianduosion_shiny.png",
+      "layers": []
+    }
+  ]
+}

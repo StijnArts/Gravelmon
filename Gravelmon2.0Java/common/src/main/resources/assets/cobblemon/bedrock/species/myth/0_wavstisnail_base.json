@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:wavstisnail",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_wavstisnail",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/myth/wavstisnail.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/wavstisnail_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaFairyLilligant extends Pokemon {
-    public DeltaFairyLilligant(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaFairyLilligant",
+    public DeltaFairyLilligant(String name, Aspect aspect) {
+        super(name, aspect,"DeltaFairyLilligant",
                 Type.WATER,
                 new Stats(70, 60, 75, 110, 75, 90),
                 List.of(Ability.SERENE_GRACE, Ability.SYNCHRONIZE), Ability.HEALER,

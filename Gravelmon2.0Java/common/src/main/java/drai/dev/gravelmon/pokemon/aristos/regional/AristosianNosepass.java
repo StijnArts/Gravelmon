@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianNosepass extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianNosepass(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AristosianNosepass",
+    public AristosianNosepass(String name, Aspect aspect) {
+        super(name, aspect,"AristosianNosepass",
                 Type.ROCK, Type.GRASS,
                 new Stats(30,
                         45,

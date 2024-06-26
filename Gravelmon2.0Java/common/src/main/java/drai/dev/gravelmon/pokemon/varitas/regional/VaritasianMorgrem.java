@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianMorgrem(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Morgrem",
+    public VaritasianMorgrem(String name, Aspect aspect) {
+        super(name, aspect,"Morgrem",
                 Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,

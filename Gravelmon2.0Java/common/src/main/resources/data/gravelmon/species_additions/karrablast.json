@@ -1,0 +1,172 @@
+{
+   "target": "cobblemon:karrablast",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "fairy",
+  "abilities": [
+    "heatproof",
+    "sweetveil",
+    "h:simple"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 45,
+    "special_attack": 40,
+    "special_defence": 45,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "4:playnice",
+    "8:babydolleyes",
+    "13:fairywind",
+    "16:covet",
+    "20:headbutt",
+    "25:sweetscent",
+    "28:rocksmash",
+    "32:dazzlinggleam",
+    "37:heartstamp",
+    "40:charm",
+    "44:playrough",
+    "49:bodyslam",
+    "52:slackoff",
+    "56:superpower",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:skillswap",
+    "tm:retaliate",
+    "tm:psychup",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:wildcharge",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:sleeptalksound",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:silverwind",
+    "tm:lunarcannon",
+    "tm:allyswitch",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:bodyslam",
+    "tutor:covet",
+    "tutor:dig",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:healbellsound",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:snoresound",
+    "tutor:superpower",
+    "tutor:wish",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltakarrablast.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltakarrablast_escavalier",
+      "variant": "trade",
+      "result": "escavalier delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 59,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

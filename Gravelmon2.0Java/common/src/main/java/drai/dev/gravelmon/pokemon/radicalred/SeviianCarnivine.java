@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianCarnivine extends Pokemon {
-    public SeviianCarnivine(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "SeviianCarnivine",
+    public SeviianCarnivine(String name, Aspect aspect) {
+        super(name, aspect,"SeviianCarnivine",
                 Type.POISON, Type.STEEL,
                 new Stats(94, 100, 92, 55, 77, 36),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianShuckle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianShuckle(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Shuckle",
+    public IonosianShuckle(String name, Aspect aspect) {
+        super(name, aspect, "Shuckle",
                 Type.WATER, Type.BUG,
                 new Stats(0,
                         0,

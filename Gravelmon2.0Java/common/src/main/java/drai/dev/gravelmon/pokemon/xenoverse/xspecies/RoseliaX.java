@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RoseliaX extends Pokemon {
-    public RoseliaX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"RoseliaX",
+    public RoseliaX(String name, Aspect aspect) {
+        super(name, aspect,"RoseliaX",
                 Type.SOUND, Type.POISON,
                 new Stats(50, 56, 45, 104, 80, 85),
                 List.of(Ability.SERENE_GRACE), Ability.SOUNDPROOF,

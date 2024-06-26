@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianSteenee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianSteenee(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Steenee",
+    public VaritasianSteenee(String name, Aspect aspect) {
+        super(name, aspect, "Steenee",
                 Type.GHOST, Type.BUG,
                 new Stats(52,
                         40,

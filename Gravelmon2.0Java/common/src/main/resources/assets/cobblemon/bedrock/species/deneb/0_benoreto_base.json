@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:benoreto",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_benoreto",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/benoreto.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/benoreto_shiny.png"
-    }  ]
+    }
+  ]
 }

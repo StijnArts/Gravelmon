@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class BetaUrayne extends Pokemon {
-    public BetaUrayne(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"BetaUrayne",
+    public BetaUrayne(String name, Aspect aspect) {
+        super(name, aspect,"BetaUrayne",
                 Type.NUCLEAR,
                 new Stats(102,
                         130,

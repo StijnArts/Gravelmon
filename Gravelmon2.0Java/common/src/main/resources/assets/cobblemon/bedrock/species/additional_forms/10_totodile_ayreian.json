@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:totodile",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreiantotodile",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreiantotodile.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreiantotodile",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreiantotodile_shiny.png",
+      "layers": []
+    }
+  ]
+}

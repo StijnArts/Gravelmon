@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:feraligatr",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghoferaligatr",
+      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghoferaligatr",
+      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr_shiny.png",
+      "layers": []
+    }
+  ]
+}

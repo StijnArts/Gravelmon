@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:carabomb",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_carabomb",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/avoris/carabomb.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/carabomb_shiny.png"
-    }  ]
+    }
+  ]
 }

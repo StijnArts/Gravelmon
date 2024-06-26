@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:budew",
+  "order": 13,
+  "variations": [
+    {
+      "aspects": [
+        "relic"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_relicbudew",
+      "texture": "cobblemon:textures/pokemon/generation4/relicbudew.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "relic",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_relicbudew",
+      "texture": "cobblemon:textures/pokemon/generation4/relicbudew_shiny.png",
+      "layers": []
+    }
+  ]
+}

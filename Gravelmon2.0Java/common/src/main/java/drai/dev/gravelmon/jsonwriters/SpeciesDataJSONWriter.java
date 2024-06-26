@@ -264,7 +264,7 @@ public class SpeciesDataJSONWriter {
                     fileContents += ",\n";
                 }
                 fileContents += "    {\n" +
-                        "      \"id\": \""+ pokemon.getCleanName()+"_"+evolution.getResult()+"\",\n" +
+                        "      \"id\": \""+ pokemon.getCleanName()+"_"+evolution.getResult().split(" ")[0]+"\",\n" +
                         "      \"variant\": \""+evolution.getKind().getName()+"\",\n" +
                         "      \"result\": \""+evolution.getResult();
                 if(!evolution.getAspects().isEmpty()){
@@ -470,7 +470,7 @@ public class SpeciesDataJSONWriter {
                     formString += ",\n";
                 }
                 formString += "    {\n" +
-                        "      \"id\": \""+form.getCleanName()+"_"+pokemon.getCleanName()+"_"+evolution.getResult()+"\",\n" +
+                        "      \"id\": \""+form.getCleanName()+"_"+pokemon.getCleanName()+"_"+evolution.getResult().split(" ")[0]+"\",\n" +
                         "      \"variant\": \""+evolution.getKind().getName()+"\",\n" +
                         "      \"result\": \""+evolution.getResult();
                 for(Aspect aspect : evolution.getAspects()){

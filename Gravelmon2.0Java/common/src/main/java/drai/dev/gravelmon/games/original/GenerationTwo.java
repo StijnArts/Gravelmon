@@ -88,10 +88,10 @@ public class GenerationTwo extends Game {
 
         //Aristosian
         pokemon.add(new AristosianSentret("Sentret", Aspect.ARISTOSIAN));
-        pokemon.add(new AristosianFurret("Furret", Aspect.NORHEIMAN));
-        pokemon.add(new AristosianSpinarak("Spinarak", Aspect.NORHEIMAN));
-        pokemon.add(new AristosianMareep("Mareep", Aspect.NORHEIMAN));
-        pokemon.add(new AristosianFlaaffy("Flaaffy", Aspect.NORHEIMAN));
+        pokemon.add(new AristosianFurret("Furret", Aspect.ARISTOSIAN));
+        pokemon.add(new AristosianSpinarak("Spinarak", Aspect.ARISTOSIAN));
+        pokemon.add(new AristosianMareep("Mareep", Aspect.ARISTOSIAN));
+        pokemon.add(new AristosianFlaaffy("Flaaffy", Aspect.ARISTOSIAN));
 
         //Avorian
 //        pokemon.add(new AvorianMareep(179)); Member of Line not finished
@@ -140,7 +140,7 @@ public class GenerationTwo extends Game {
         //Kaskadian
         pokemon.add(new KaskadianMarill("Marill", Aspect.KASKADIAN));
         pokemon.add(new KaskadianAzumarill("Azumarill", Aspect.KASKADIAN));
-        pokemon.add(new AmazeAllSudowoodo("Sudowoodo", Aspect.KASKADIAN));
+        pokemon.add(new AmazeAllSudowoodo("Sudowoodo", Aspect.AMAZE_ALL));
         pokemon.add(new KaskadianYanma("Yanma", Aspect.KASKADIAN));
 
         //Pokemon Opalo
@@ -162,20 +162,20 @@ public class GenerationTwo extends Game {
 
     private void addHoennianPokemon() {
         //Pokemon Blazing Emerald
-        pokemon.add(new HoennianChinchou("Chinchou", Aspect.HOENN));
-        pokemon.add(new HoennianLanturn("Lanturn", Aspect.HOENN));
-        pokemon.add(new HoennianDunsparce("Dunsparce", Aspect.HOENN));
-        pokemon.add(new HoennianQwilfish("Qwilfish", Aspect.HOENN));
-        pokemon.add(new HoennianShuckle("Shuckle", Aspect.HOENN));
-        pokemon.add(new HoennianTeddiursa("Teddiursa", Aspect.HOENN));
-        pokemon.add(new HoennianUrsaring("Ursaring", Aspect.HOENN));
-        pokemon.add(new HoennianSkarmory("Skarmory", Aspect.HOENN));
+        pokemon.add(new HoennianChinchou("Chinchou", Aspect.HOENNIAN));
+        pokemon.add(new HoennianLanturn("Lanturn", Aspect.HOENNIAN));
+        pokemon.add(new HoennianDunsparce("Dunsparce", Aspect.HOENNIAN));
+        pokemon.add(new HoennianQwilfish("Qwilfish", Aspect.HOENNIAN));
+        pokemon.add(new HoennianShuckle("Shuckle", Aspect.HOENNIAN));
+        pokemon.add(new HoennianTeddiursa("Teddiursa", Aspect.HOENNIAN));
+        pokemon.add(new HoennianUrsaring("Ursaring", Aspect.HOENNIAN));
+        pokemon.add(new HoennianSkarmory("Skarmory", Aspect.HOENNIAN));
     }
 
     private void registerXenoverseForms() {
         //X-Species
         pokemon.add(new UnownEarth("Unown", Aspect.EARTH));
-        pokemon.add(new UnownXenoverse("Unown", Aspect.X));
+        pokemon.add(new UnownXenoverse("Unown", Aspect.XENOVERSE));
         pokemon.add(new SmeargleX("Smeargle", Aspect.X));
         pokemon.add(new ElekidX("Elekid", Aspect.X));
         pokemon.add(new TyranitarX("Tyranitar", Aspect.X));

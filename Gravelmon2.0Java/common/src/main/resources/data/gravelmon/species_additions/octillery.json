@@ -1,0 +1,177 @@
+{
+   "target": "cobblemon:octillery",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "fire",
+  "abilities": [
+    "heatproof",
+    "whitesmoke",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 105,
+    "defence": 75,
+    "special_attack": 105,
+    "special_defence": 75,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:gunkshot",
+    "1:earthpower",
+    "1:ember",
+    "1:mudshot",
+    "1:clearsmog",
+    "1:constrict",
+    "6:constrict",
+    "10:mudshot",
+    "14:clearsmog",
+    "18:incinerate",
+    "22:focusenergy",
+    "25:flameburst",
+    "28:wringout",
+    "34:rockblast",
+    "40:mudbomb",
+    "46:focusblast",
+    "52:lavaplume",
+    "58:hyperbeam",
+    "64:eruption",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:scald",
+    "tm:overheat",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:willowisp",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:psychup",
+    "tm:rockslide",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:darkmatter",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:rocksmash",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:bind",
+    "tutor:bulletseed",
+    "tutor:covet",
+    "tutor:dig",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:octazooka",
+    "tutor:painsplit",
+    "tutor:seismictoss",
+    "tutor:signalbeam",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:trick",
+    "tutor:zapcannon"  ],
+  "labels": [
+    "gen2",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaoctillery.desc"
+  ],
+  "preEvolution": "Remoraid form=delta",
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 285,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

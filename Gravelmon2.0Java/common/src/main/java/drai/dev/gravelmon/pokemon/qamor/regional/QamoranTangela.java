@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranTangela extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranTangela(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Tangela",
+    public QamoranTangela(String name, Aspect aspect) {
+        super(name, aspect, "Tangela",
                 Type.WATER,
                 new Stats(0,
                         0,

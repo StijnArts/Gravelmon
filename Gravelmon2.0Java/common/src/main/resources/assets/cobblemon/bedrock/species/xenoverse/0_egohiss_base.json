@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:egohiss",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_egohiss",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/xenoverse/egohiss.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/egohiss_shiny.png"
-    }  ]
+    }
+  ]
 }

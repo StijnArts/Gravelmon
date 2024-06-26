@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:caranox",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_caranox",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/caranox.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/caranox_shiny.png"
-    }  ]
+    }
+  ]
 }

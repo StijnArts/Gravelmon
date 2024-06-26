@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:numel",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltanumel",
+      "texture": "cobblemon:textures/pokemon/generation3/deltanumel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltanumel",
+      "texture": "cobblemon:textures/pokemon/generation3/deltanumel_shiny.png",
+      "layers": []
+    }
+  ]
+}

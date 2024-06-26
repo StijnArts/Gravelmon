@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:serpensync",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_serpensync",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/myth/serpensync.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/serpensync_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:hissiorite",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_hissiorite",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/myth/hissiorite.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/hissiorite_shiny.png"
-    }  ]
+    }
+  ]
 }

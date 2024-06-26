@@ -2,7 +2,6 @@ package drai.dev.gravelmon.mixin;
 
 import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.api.*;
-import com.cobblemon.mod.common.api.battles.model.actor.*;
 import com.cobblemon.mod.common.api.events.*;
 import com.cobblemon.mod.common.api.pokeball.*;
 import com.cobblemon.mod.common.api.pokeball.catching.*;
@@ -226,6 +225,9 @@ public abstract class PokeBallsMixin {
         });
         BattleModifier snoreModifier = new BattleModifier((x, playerPokemon, pokemon) -> {
             boolean isAsleep = false;
+            if(pokemon.getStatus()==null){
+                return 1f;
+            }
             if(pokemon.getStatus().getStatus() instanceof SleepStatus){
                     isAsleep = true;
             }

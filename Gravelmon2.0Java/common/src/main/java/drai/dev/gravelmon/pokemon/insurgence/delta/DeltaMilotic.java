@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaMilotic extends Pokemon {
-    public DeltaMilotic(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaMilotic",
+    public DeltaMilotic(String name, Aspect aspect) {
+        super(name, aspect,"DeltaMilotic",
                 Type.GHOST,
                 new Stats(95, 60, 79, 100, 125, 81),
                 List.of(Ability.REGENERATOR, Ability.DEFIANT), Ability.CURSED_BODY,

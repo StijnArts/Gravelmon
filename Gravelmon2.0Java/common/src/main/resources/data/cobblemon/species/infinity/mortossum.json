@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mortossum",
-  "nationalPokedexNumber": 1449,
+  "nationalPokedexNumber": 1450,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -131,16 +131,17 @@
     "egg:solarbeam"  ],
   "labels": [
     "infinity",
+    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mortossum.desc"
   ],
-  "preEvolution": "eghogloom",
-  "baseScale": 0.4,
+  "preEvolution": "gloom form=egho",
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 0.4,
-    "height": 0.4,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:furret",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "aristosian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_aristosianfurret",
+      "texture": "cobblemon:textures/pokemon/generation2/aristosianfurret.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "aristosian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_aristosianfurret",
+      "texture": "cobblemon:textures/pokemon/generation2/aristosianfurret_shiny.png",
+      "layers": []
+    }
+  ]
+}

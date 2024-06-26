@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:squidrift",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_squidrift",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/squidrift.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/squidrift_shiny.png"
-    }  ]
+    }
+  ]
 }

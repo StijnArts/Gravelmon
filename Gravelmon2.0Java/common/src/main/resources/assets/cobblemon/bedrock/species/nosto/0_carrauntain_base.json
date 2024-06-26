@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:carrauntain",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_carrauntain",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/nosto/carrauntain.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/carrauntain_shiny.png"
-    }  ]
+    }
+  ]
 }

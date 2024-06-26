@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranHitmonlee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranHitmonlee(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Hitmonlee",
+    public QamoranHitmonlee(String name, Aspect aspect) {
+        super(name, aspect, "Hitmonlee",
                 Type.FIGHTING, Type.FAIRY,
                 new Stats(50,
                         120,

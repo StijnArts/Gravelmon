@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianFlaaffy extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianFlaaffy(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AristosianFlaaffy",
+    public AristosianFlaaffy(String name, Aspect aspect) {
+        super(name, aspect,"AristosianFlaaffy",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(70,
                         55,

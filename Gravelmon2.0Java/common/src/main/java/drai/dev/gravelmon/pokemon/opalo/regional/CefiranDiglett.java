@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranDiglett extends Pokemon {
-    public CefiranDiglett(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"CefiranDiglett",
+    public CefiranDiglett(String name, Aspect aspect) {
+        super(name, aspect,"CefiranDiglett",
                 Type.GROUND, Type.FLYING,
                 new Stats(30,60,35,95,35,45),
                 List.of(Ability.ANTICIPATION), Ability.SAND_FORCE,

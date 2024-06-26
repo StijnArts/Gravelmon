@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MewtwoX extends Pokemon {
-    public MewtwoX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MewtwoX",
+    public MewtwoX(String name, Aspect aspect) {
+        super(name, aspect,"MewtwoX",
                 Type.PSYCHIC,
                 new Stats(72, 164, 80, 164, 80, 140),
                 List.of(Ability.PROTEAN), Ability.PRESSURE,

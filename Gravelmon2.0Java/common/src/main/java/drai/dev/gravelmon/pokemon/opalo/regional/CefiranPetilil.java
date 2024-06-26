@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CefiranPetilil extends Pokemon {
-    public CefiranPetilil(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"CefiranPetilil",
+    public CefiranPetilil(String name, Aspect aspect) {
+        super(name, aspect,"CefiranPetilil",
                 Type.GRASS, Type.POISON,
                 new Stats(45,35,50,30,70,50),
                 List.of(Ability.PRANKSTER, Ability.OWN_TEMPO), Ability.LEAF_GUARD,

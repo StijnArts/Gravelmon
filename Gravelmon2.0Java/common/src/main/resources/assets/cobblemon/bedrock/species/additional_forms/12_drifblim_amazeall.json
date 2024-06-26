@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:drifblim",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "amaze_all"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_amazealldrifblim",
+      "texture": "cobblemon:textures/pokemon/generation4/amazealldrifblim.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "amaze_all",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_amazealldrifblim",
+      "texture": "cobblemon:textures/pokemon/generation4/amazealldrifblim_shiny.png",
+      "layers": []
+    }
+  ]
+}

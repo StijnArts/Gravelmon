@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianArcheops extends Pokemon {
-    public AyreianArcheops(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianArcheops",
+    public AyreianArcheops(String name, Aspect aspect) {
+        super(name, aspect,"AyreianArcheops",
                 Type.DARK, Type.DRAGON,
                 new Stats(75,115,60,80,112,60),
                 List.of(Ability.LIMBER, Ability.EARLY_BIRD), Ability.PROTOSYNTHESIS,

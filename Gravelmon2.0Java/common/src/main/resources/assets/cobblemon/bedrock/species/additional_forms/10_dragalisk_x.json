@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dragalisk",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_dragaliskx",
+      "texture": "cobblemon:textures/pokemon/xenoverse/dragaliskx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_dragaliskx",
+      "texture": "cobblemon:textures/pokemon/xenoverse/dragaliskx_shiny.png",
+      "layers": []
+    }
+  ]
+}

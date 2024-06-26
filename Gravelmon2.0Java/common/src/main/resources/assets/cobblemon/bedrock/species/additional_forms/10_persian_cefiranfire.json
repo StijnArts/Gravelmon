@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:persian",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran_fire"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_cefiranpersianfire",
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranpersianfire.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran_fire",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_cefiranpersianfire",
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranpersianfire_shiny.png",
+      "layers": []
+    }
+  ]
+}

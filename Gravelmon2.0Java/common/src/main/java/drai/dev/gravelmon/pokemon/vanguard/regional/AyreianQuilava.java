@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianQuilava extends Pokemon {
-    public AyreianQuilava(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianQuilava",
+    public AyreianQuilava(String name, Aspect aspect) {
+        super(name, aspect,"AyreianQuilava",
                 Type.FIRE, Type.GHOST,
                 new Stats(60,65,50,90,80,65),
                 List.of(Ability.DROUGHT, Ability.INFILTRATOR), Ability.SOLAR_POWER,

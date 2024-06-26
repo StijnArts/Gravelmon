@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanMismagius extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanMismagius(String originalMon, Aspect aspect, Stats stats) {
-        super(originalMon, aspect,"Mismagius",
+    public NorheimanMismagius(String name, Aspect aspect, Stats stats) {
+        super(name, aspect, "Mismagius",
                 Type.GHOST, Type.GRASS,
                 stats,
                 List.of(Ability.LEVITATE), Ability.GRASSY_SURGE,

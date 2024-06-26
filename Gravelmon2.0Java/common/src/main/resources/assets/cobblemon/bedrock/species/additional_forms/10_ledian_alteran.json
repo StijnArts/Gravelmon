@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ledian",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "alteran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_alteranledian",
+      "texture": "cobblemon:textures/pokemon/generation2/alteranledian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alteran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_alteranledian",
+      "texture": "cobblemon:textures/pokemon/generation2/alteranledian_shiny.png",
+      "layers": []
+    }
+  ]
+}

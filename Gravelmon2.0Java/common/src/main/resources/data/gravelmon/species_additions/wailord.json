@@ -1,0 +1,174 @@
+{
+   "target": "cobblemon:wailord",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "abilities": [
+    "wonderskin",
+    "refrigerate",
+    "h:snowwarning"
+  ],
+  "baseStats": {
+    "hp": 170,
+    "attack": 90,
+    "defence": 45,
+    "special_attack": 90,
+    "special_defence": 45,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 80,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:sheercold",
+    "1:defog",
+    "1:growl",
+    "1:gust",
+    "1:iceball",
+    "4:growl",
+    "7:gust",
+    "10:iceball",
+    "13:aircutter",
+    "16:counter",
+    "19:aurorabeam",
+    "22:mist",
+    "25:whirlwind",
+    "29:bodyslam",
+    "33:avalanche",
+    "37:tailwind",
+    "44:freezedry",
+    "51:fly",
+    "58:hurricane",
+    "65:sheercold",
+    "tm:bulldoze",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:thunder",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roost",
+    "tm:brine",
+    "tm:skillswap",
+    "tm:embargo",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:wildcharge",
+    "tm:shockwave",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:frostbreath",
+    "tm:acrobatics",
+    "tm:achillesheel",
+    "tm:avalanche",
+    "tm:skydrop",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:quash",
+    "tm:secretpower",
+    "tm:fly",
+    "tm:surf",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:aircutter",
+    "tutor:aquatail",
+    "tutor:block",
+    "tutor:bodyslam",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:endure",
+    "tutor:hurricane",
+    "tutor:hypervoicesound",
+    "tutor:icywind",
+    "tutor:mimic",
+    "tutor:outrage",
+    "tutor:selfdestruct",
+    "tutor:skyattack",
+    "tutor:snoresound",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:uproar",
+    "tutor:waterpulse"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltawailord.desc"
+  ],
+  "preEvolution": "Wailmer form=delta",
+  "baseScale": 2.0,
+  "hitbox": {
+    "width": 3.2,
+    "height": 2.1,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 145,
+  "weight": 3980,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dwebble",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta_berry"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaberrydwebble",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaberrydwebble.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta_berry",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaberrydwebble",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaberrydwebble_shiny.png",
+      "layers": []
+    }
+  ]
+}

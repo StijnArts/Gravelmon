@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:meganium",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreianmeganium",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianmeganium.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreianmeganium",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianmeganium_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:charmander",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreiancharmander",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiancharmander.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreiancharmander",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiancharmander_shiny.png",
+      "layers": []
+    }
+  ]
+}

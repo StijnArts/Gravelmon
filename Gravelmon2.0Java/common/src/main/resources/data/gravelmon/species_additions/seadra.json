@@ -1,0 +1,117 @@
+{
+   "target": "cobblemon:seadra",
+   "forms": [{
+  "name": "Norheiman",
+  "primaryType": "dragon",
+  "abilities": [
+    "swiftswim",
+    "sniper",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 60,
+    "defence": 65,
+    "special_attack": 110,
+    "special_defence": 65,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 65,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 154,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "water_1"
+  ],
+  "moves": [
+    "1:leer",
+    "1:thunderwave",
+    "1:twister",
+    "1:wrap",
+    "15:dragontail",
+    "20:agility",
+    "25:slam",
+    "33:aquatail",
+    "39:dragonrush",
+    "46:safeguard",
+    "53:raindance",
+    "60:dragondance",
+    "67:outrage",
+    "74:hyperbeam"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.norheimanseadra.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "norheimanseadra_queendra",
+      "variant": "level_up",
+      "result": "queendra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        },
+        {
+          "variant": "properties",
+          "target": "gender=female",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": ["norheiman"],
+  "cannotDynamax": false
+}
+], "features": [
+"norheiman"
+  ]
+}

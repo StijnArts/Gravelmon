@@ -1,0 +1,112 @@
+{
+   "target": "cobblemon:ampharos",
+   "forms": [{
+  "name": "Mythian",
+  "primaryType": "fire",
+  "secondaryType": "dark",
+  "abilities": [
+    "flamebody",
+    "h:speedboost"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 75,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 115,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 230,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "4:willowisp",
+    "8:ember",
+    "11:bulkup",
+    "15:quickattack",
+    "22:flamecharge",
+    "25:confuseray",
+    "29:powergemcrystal",
+    "32:flamethrower",
+    "36:cottonguard",
+    "39:triattack",
+    "43:darkpulse",
+    "46:fireblast",
+    "55:dragonpulse",
+    "egg:takedown",
+    "egg:bodyslam",
+    "egg:screechsound",
+    "egg:odorsleuth",
+    "egg:charge",
+    "egg:flatter",
+    "egg:sandattack",
+    "egg:irontail",
+    "egg:afteryou",
+    "egg:agility",
+    "egg:eerieimpulse",
+    "egg:electricterrain"  ],
+  "labels": [
+    "gen2",
+    "myth",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mythianampharos.desc"
+  ],
+  "preEvolution": "Flaaffy form=mythian",
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 18,
+  "aspects": ["mythian"],
+  "cannotDynamax": false
+}
+], "features": [
+"mythian"
+  ]
+}

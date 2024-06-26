@@ -1,18 +1,18 @@
 {
   "species": "cobblemon:nidorook",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_nidorook",
-      "model": "cobblemon:infinity_nidorook.geo",
-      "texture": "cobblemon:textures/pokemon/infinity/nidorook/nidorook.png",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/nidorook.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/nidorook/nidorook_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/infinity/nidorook_shiny.png"
+    }
+  ]
 }

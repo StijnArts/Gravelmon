@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:sandygast",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "qamoran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_qamoransandygast",
+      "texture": "cobblemon:textures/pokemon/generation7/qamoransandygast.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "qamoran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_qamoransandygast",
+      "texture": "cobblemon:textures/pokemon/generation7/qamoransandygast_shiny.png",
+      "layers": []
+    }
+  ]
+}

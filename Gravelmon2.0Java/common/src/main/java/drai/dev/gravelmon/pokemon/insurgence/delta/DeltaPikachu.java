@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaPikachu extends Pokemon {
-    public DeltaPikachu(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaPikachu",
+    public DeltaPikachu(String name, Aspect aspect) {
+        super(name, aspect,"DeltaPikachu",
                 Type.FLYING, Type.FAIRY,
                 new Stats(35, 55, 40, 50, 50, 90),
                 List.of(Ability.CUTE_CHARM, Ability.CLOUD_NINE), Ability.GALE_WINGS,

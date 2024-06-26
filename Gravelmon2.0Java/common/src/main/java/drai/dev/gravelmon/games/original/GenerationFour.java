@@ -11,8 +11,6 @@ import drai.dev.gravelmon.pokemon.hub.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.interregional.regional.*;
-import drai.dev.gravelmon.pokemon.ionos.*;
-import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
@@ -101,8 +99,8 @@ public class GenerationFour extends Game {
         pokemon.add(new SpiritombX("", Aspect.X));
 
         //Pokemon Blazing Emerald
-        pokemon.add(new HoennianTangrowth("", Aspect.HOENN));
-        pokemon.add(new HoennianRegigigas("", Aspect.HOENN));
+        pokemon.add(new HoennianTangrowth("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianRegigigas("", Aspect.HOENNIAN));
 
         //Radical Red
         pokemon.add(new SeviianCarnivine("", Aspect.SEVIIAN));
@@ -136,19 +134,19 @@ public class GenerationFour extends Game {
         pokemon.add(new KaskadianLuxio("", Aspect.KASKADIAN));
         pokemon.add(new KaskadianLuxray("", Aspect.KASKADIAN));
         pokemon.add(new KaskadianAmbipom("", Aspect.KASKADIAN));
-        pokemon.add(new AmazeAllDrifblim("", Aspect.KASKADIAN));
+        pokemon.add(new AmazeAllDrifblim("", Aspect.AMAZE_ALL));
         pokemon.add(new KaskadianSkuntank("", Aspect.KASKADIAN));
         pokemon.add(new KaskadianSnover("", Aspect.KASKADIAN));
         pokemon.add(new KaskadianAbomasnow("", Aspect.KASKADIAN));
-        pokemon.add(new SolRotom("", Aspect.KASKADIAN));
-        pokemon.add(new SwayRotom("", Aspect.KASKADIAN));
-        pokemon.add(new BrawlRotom("", Aspect.KASKADIAN));
-        pokemon.add(new WebRotom("", Aspect.KASKADIAN));
-        pokemon.add(new JunkRotom("", Aspect.KASKADIAN));
-        pokemon.add(new HomeRotom("", Aspect.KASKADIAN));
-        pokemon.add(new BassRotom("", Aspect.KASKADIAN));
-        pokemon.add(new TwirlRotom("", Aspect.KASKADIAN));
-        pokemon.add(new MixRotom("", Aspect.KASKADIAN));
+        pokemon.add(new SolRotom("", Aspect.SOL));
+        pokemon.add(new SwayRotom("", Aspect.SWAY));
+        pokemon.add(new BrawlRotom("", Aspect.BRAWL));
+        pokemon.add(new WebRotom("", Aspect.WEB));
+        pokemon.add(new JunkRotom("", Aspect.JUNK));
+        pokemon.add(new HomeRotom("", Aspect.HOME));
+        pokemon.add(new BassRotom("", Aspect.BASS));
+        pokemon.add(new TwirlRotom("", Aspect.TWIRL));
+        pokemon.add(new MixRotom("", Aspect.MIX));
 
         //Azure (Mystic)
         pokemon.add(new MysticRiolu("", Aspect.MYSTIC));

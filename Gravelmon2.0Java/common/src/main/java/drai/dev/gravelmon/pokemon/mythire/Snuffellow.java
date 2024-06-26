@@ -46,7 +46,7 @@ public class Snuffellow extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.MYTHIRE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_WASTELAND))
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,

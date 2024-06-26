@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:tangrowth",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltatangrowth",
+      "texture": "cobblemon:textures/pokemon/generation4/deltatangrowth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltatangrowth",
+      "texture": "cobblemon:textures/pokemon/generation4/deltatangrowth_shiny.png",
+      "layers": []
+    }
+  ]
+}

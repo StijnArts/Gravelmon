@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianLickitung extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianLickitung(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Lickitung",
+    public HizianLickitung(String name, Aspect aspect) {
+        super(name, aspect, "Lickitung",
                 Type.FAIRY,
                 new Stats(80,
                         55,

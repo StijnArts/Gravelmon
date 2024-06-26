@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianVibrava extends Pokemon {
-    public AyreianVibrava(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianVibrava",
+    public AyreianVibrava(String name, Aspect aspect) {
+        super(name, aspect,"AyreianVibrava",
                 Type.BUG, Type.POISON,
                 new Stats(50,40,30,70,80,70),
                 List.of(Ability.DARKENED_SCALES), Ability.DARKENED_SCALES,

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class MastenianCrudecay extends drai.dev.gravelmon.pokemon.Pokemon {
-    public MastenianCrudecay(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Crudecay",
+    public MastenianCrudecay(String name, Aspect aspect) {
+        super(name, aspect, "Crudecay",
                 Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,

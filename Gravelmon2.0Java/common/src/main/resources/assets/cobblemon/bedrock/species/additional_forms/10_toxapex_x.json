@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:toxapex",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_toxapexx",
+      "texture": "cobblemon:textures/pokemon/generation7/toxapexx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_toxapexx",
+      "texture": "cobblemon:textures/pokemon/generation7/toxapexx_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "calfpint",
-  "nationalPokedexNumber": 1453,
+  "nationalPokedexNumber": 1454,
   "primaryType": "normal",
   "abilities": [
     "forewarn",
@@ -152,7 +152,7 @@
       "permanent": true   
  },
     {
-      "id": "calfpint_tauros form=paldean-breed-combat",
+      "id": "calfpint_tauros",
       "variant": "level_up",
       "result": "tauros form=paldean-breed-combat",
       "consumeHeldItem": false,
@@ -171,7 +171,7 @@
       "permanent": true   
  },
     {
-      "id": "calfpint_tauros form=paldean-breed-blaze",
+      "id": "calfpint_tauros",
       "variant": "level_up",
       "result": "tauros form=paldean-breed-blaze",
       "consumeHeldItem": false,
@@ -190,7 +190,7 @@
       "permanent": true   
  },
     {
-      "id": "calfpint_tauros form=paldean-breed-aqua",
+      "id": "calfpint_tauros",
       "variant": "level_up",
       "result": "tauros form=paldean-breed-aqua",
       "consumeHeldItem": false,

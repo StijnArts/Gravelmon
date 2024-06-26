@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:shinx",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltashinx",
+      "texture": "cobblemon:textures/pokemon/generation4/deltashinx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltashinx",
+      "texture": "cobblemon:textures/pokemon/generation4/deltashinx_shiny.png",
+      "layers": []
+    }
+  ]
+}

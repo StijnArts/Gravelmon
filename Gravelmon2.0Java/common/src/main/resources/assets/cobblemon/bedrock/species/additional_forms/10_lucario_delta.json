@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:lucario",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltalucario",
+      "texture": "cobblemon:textures/pokemon/generation4/deltalucario.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltalucario",
+      "texture": "cobblemon:textures/pokemon/generation4/deltalucario_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:churlice",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_churlice",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/oceane/churlice.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/churlice_shiny.png"
-    }  ]
+    }
+  ]
 }

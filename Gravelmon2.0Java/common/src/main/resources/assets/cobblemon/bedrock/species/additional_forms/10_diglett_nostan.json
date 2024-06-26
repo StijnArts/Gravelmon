@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:diglett",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "nostan"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_nostandiglett",
+      "texture": "cobblemon:textures/pokemon/generation1/nostandiglett.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "nostan",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_nostandiglett",
+      "texture": "cobblemon:textures/pokemon/generation1/nostandiglett_shiny.png",
+      "layers": []
+    }
+  ]
+}

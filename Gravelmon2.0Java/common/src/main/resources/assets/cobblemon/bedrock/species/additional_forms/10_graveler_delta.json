@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:graveler",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltagraveler",
+      "texture": "cobblemon:textures/pokemon/generation1/deltagraveler.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltagraveler",
+      "texture": "cobblemon:textures/pokemon/generation1/deltagraveler_shiny.png",
+      "layers": []
+    }
+  ]
+}

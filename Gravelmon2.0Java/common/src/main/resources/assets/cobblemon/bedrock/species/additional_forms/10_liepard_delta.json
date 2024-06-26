@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:liepard",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaliepard",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaliepard.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltaliepard",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaliepard_shiny.png",
+      "layers": []
+    }
+  ]
+}

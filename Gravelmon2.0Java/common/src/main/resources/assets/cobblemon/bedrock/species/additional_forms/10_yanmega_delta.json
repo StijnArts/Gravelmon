@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:yanmega",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltayanmega",
+      "texture": "cobblemon:textures/pokemon/generation4/deltayanmega.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltayanmega",
+      "texture": "cobblemon:textures/pokemon/generation4/deltayanmega_shiny.png",
+      "layers": []
+    }
+  ]
+}

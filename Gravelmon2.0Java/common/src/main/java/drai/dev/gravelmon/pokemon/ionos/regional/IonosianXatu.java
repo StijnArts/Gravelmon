@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianXatu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianXatu(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Xatu",
+    public IonosianXatu(String name, Aspect aspect) {
+        super(name, aspect, "Xatu",
                 Type.FLYING, Type.GHOST,
                 new Stats(0,
                         0,

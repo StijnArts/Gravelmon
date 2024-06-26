@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianCentiskorch extends Pokemon {
-    public SeviianCentiskorch(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "SeviianCentiskorch",
+    public SeviianCentiskorch(String name, Aspect aspect) {
+        super(name, aspect,"SeviianCentiskorch",
                 Type.GROUND, Type.BUG,
                 new Stats(100, 115, 65, 65, 90, 90),
                 List.of(Ability.SHED_SKIN, Ability.WHITE_SMOKE), Ability.MOLD_BREAKER,

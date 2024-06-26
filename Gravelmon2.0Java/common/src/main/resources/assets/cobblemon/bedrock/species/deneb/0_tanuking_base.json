@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:tanuking",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_tanuking",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/tanuking.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/tanuking_shiny.png"
-    }  ]
+    }
+  ]
 }

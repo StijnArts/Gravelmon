@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ledian",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "relic"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_relicledian",
+      "texture": "cobblemon:textures/pokemon/generation2/relicledian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "relic",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_relicledian",
+      "texture": "cobblemon:textures/pokemon/generation2/relicledian_shiny.png",
+      "layers": []
+    }
+  ]
+}

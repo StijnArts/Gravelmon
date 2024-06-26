@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:croconaw",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreiancroconaw",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreiancroconaw.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreiancroconaw",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreiancroconaw_shiny.png",
+      "layers": []
+    }
+  ]
+}

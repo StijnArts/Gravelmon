@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:jaguile",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_jaguile",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/jaguile.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/jaguile_shiny.png"
-    }  ]
+    }
+  ]
 }

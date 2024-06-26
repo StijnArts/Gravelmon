@@ -88,7 +88,7 @@ public class Charnosaur extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 55, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_NETHER_BASALT)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

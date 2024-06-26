@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianDusclops extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianDusclops(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Dusclops",
+    public FligianDusclops(String name, Aspect aspect) {
+        super(name, aspect, "Dusclops",
                 Type.STEEL, Type.GHOST,
                 new Stats(40,
                         50,

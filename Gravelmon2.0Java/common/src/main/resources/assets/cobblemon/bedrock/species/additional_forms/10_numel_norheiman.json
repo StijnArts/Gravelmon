@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:numel",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "norheiman"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_norheimannumel",
+      "texture": "cobblemon:textures/pokemon/generation3/norheimannumel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "norheiman",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_norheimannumel",
+      "texture": "cobblemon:textures/pokemon/generation3/norheimannumel_shiny.png",
+      "layers": []
+    }
+  ]
+}

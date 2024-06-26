@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:bayleef",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreianbayleef",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianbayleef.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_ayreianbayleef",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianbayleef_shiny.png",
+      "layers": []
+    }
+  ]
+}

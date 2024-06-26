@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:altaria",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "varitasian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_varitasianaltaria",
+      "texture": "cobblemon:textures/pokemon/generation3/varitasianaltaria.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "varitasian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_varitasianaltaria",
+      "texture": "cobblemon:textures/pokemon/generation3/varitasianaltaria_shiny.png",
+      "layers": []
+    }
+  ]
+}

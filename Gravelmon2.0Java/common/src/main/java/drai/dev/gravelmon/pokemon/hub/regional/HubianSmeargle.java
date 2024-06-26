@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HubianSmeargle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HubianSmeargle(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Smeargle",
+    public HubianSmeargle(String name, Aspect aspect) {
+        super(name, aspect, "Smeargle",
                 Type.GROUND, Type.FAIRY,
                 new Stats(55,
                         20,

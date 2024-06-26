@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianVoltorb extends Pokemon {
-    public AyreianVoltorb(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianVoltorb",
+    public AyreianVoltorb(String name, Aspect aspect) {
+        super(name, aspect,"AyreianVoltorb",
                 Type.FIRE, Type.ROCK,
                 new Stats(50,60,45,90,70,65),
                 List.of(Ability.STEAM_ENGINE), Ability.STEAM_ENGINE,

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranGrumpig extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranGrumpig(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Grumpig",
+    public QamoranGrumpig(String name, Aspect aspect) {
+        super(name, aspect, "Grumpig",
                 Type.FIGHTING,
                 new Stats(80,
                         100,

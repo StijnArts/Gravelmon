@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianLuvdisc extends Pokemon {
-    public AyreianLuvdisc(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianLuvdisc",
+    public AyreianLuvdisc(String name, Aspect aspect) {
+        super(name, aspect,"AyreianLuvdisc",
                 Type.GHOST, Type.WATER,
                 new Stats(43,30,55,65,55,97),
                 List.of(Ability.SWIFT_SWIM, Ability.CURSED_BODY), Ability.HYDRATION,

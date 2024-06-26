@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:agitwin",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_agitwin",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/varitas/agitwin.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/agitwin_shiny.png"
-    }  ]
+    }
+  ]
 }

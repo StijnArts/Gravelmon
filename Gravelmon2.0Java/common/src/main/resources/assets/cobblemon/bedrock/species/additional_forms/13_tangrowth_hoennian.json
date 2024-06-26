@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:tangrowth",
+  "order": 13,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_hoenniantangrowth",
+      "texture": "cobblemon:textures/pokemon/generation4/hoenniantangrowth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_hoenniantangrowth",
+      "texture": "cobblemon:textures/pokemon/generation4/hoenniantangrowth_shiny.png",
+      "layers": []
+    }
+  ]
+}

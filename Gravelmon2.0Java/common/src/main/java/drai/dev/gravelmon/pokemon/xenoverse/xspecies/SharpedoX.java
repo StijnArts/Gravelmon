@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SharpedoX extends Pokemon {
-    public SharpedoX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"SharpedoX",
+    public SharpedoX(String name, Aspect aspect) {
+        super(name, aspect,"SharpedoX",
                 Type.WATER, Type.GHOST,
                 new Stats(70, 120, 40, 95, 40, 95),
                 List.of(Ability.CURSED_BODY, Ability.INFILTRATOR), Ability.DRY_SKIN,

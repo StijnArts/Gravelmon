@@ -136,9 +136,9 @@
   ],
   "evolutions": [
     {
-      "id": "quetzar_quetzarspace",
+      "id": "quetzar_quetzar",
       "variant": "level_up",
-      "result": "quetzarspace",
+      "result": "quetzar space",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

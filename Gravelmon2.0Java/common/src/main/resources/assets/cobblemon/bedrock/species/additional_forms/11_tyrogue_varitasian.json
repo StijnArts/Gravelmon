@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:tyrogue",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "varitasian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_varitasiantyrogue",
+      "texture": "cobblemon:textures/pokemon/generation2/varitasiantyrogue.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "varitasian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_varitasiantyrogue",
+      "texture": "cobblemon:textures/pokemon/generation2/varitasiantyrogue_shiny.png",
+      "layers": []
+    }
+  ]
+}

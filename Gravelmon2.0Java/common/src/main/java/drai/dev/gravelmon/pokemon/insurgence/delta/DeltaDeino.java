@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaDeino extends Pokemon {
-    public DeltaDeino(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaDeino",
+    public DeltaDeino(String name, Aspect aspect) {
+        super(name, aspect,"DeltaDeino",
                 Type.GROUND, Type.POISON,
                 new Stats(52, 65, 50, 45, 50, 38),
                 List.of(Ability.VENOMOUS), Ability.VENOMOUS,

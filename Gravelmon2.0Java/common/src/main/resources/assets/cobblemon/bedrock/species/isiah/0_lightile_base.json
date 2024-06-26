@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:lightile",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_lightile",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/isiah/lightile.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/lightile_shiny.png"
-    }  ]
+    }
+  ]
 }

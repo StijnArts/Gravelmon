@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "embear",
-  "nationalPokedexNumber": 1345,
+  "nationalPokedexNumber": 1346,
   "primaryType": "fire",
   "abilities": [
     "flamebody",
@@ -151,7 +151,7 @@
         },
         {
           "variant": "biome",
-          "biomeCondition": "#cobblemon:is_nether_basalt"
+          "biomeCondition": "#cobblemon:is_volvanic"
         }
       ],
       "permanent": true   

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianRelicanth extends Pokemon {
-    public AyreianRelicanth(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianRelicanth",
+    public AyreianRelicanth(String name, Aspect aspect) {
+        super(name, aspect,"AyreianRelicanth",
                 Type.GROUND, Type.GHOST,
                 new Stats(65,40,110,55,90,125),
                 List.of(Ability.SWIFT_SWIM, Ability.STORM_DRAIN), Ability.SAND_STREAM,

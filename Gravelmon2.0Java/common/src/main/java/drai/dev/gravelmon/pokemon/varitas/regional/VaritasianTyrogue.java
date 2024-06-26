@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianTyrogue extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTyrogue(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Tyrogue",
+    public VaritasianTyrogue(String name, Aspect aspect) {
+        super(name, aspect,"Tyrogue",
                 Type.PSYCHIC,
                 new Stats(35,
                         35,

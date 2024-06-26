@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oozma",
-  "nationalPokedexNumber": 1412,
+  "nationalPokedexNumber": 1413,
   "primaryType": "poison",
   "secondaryType": "rock",
   "abilities": [
@@ -154,7 +154,7 @@
   "pokedex": [
     "cobblemon.species.oozma.desc"
   ],
-  "preEvolution": "eghomuk",
+  "preEvolution": "muk form=egho",
   "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,

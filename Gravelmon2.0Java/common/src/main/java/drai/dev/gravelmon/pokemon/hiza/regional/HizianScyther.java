@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianScyther extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianScyther(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Scyther",
+    public HizianScyther(String name, Aspect aspect) {
+        super(name, aspect, "Scyther",
                 Type.BUG, Type.FAIRY,
                 new Stats(70,
                         110,

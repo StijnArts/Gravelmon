@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:droudrop",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_droudrop",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/droudrop.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/droudrop_shiny.png"
-    }  ]
+    }
+  ]
 }

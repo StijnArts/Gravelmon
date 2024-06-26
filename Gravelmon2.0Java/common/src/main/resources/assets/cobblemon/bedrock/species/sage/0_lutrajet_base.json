@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:lutrajet",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_lutrajet",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/lutrajet.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/lutrajet_shiny.png"
-    }  ]
+    }
+  ]
 }

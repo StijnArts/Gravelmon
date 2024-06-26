@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:blastoise",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghoblastoise",
+      "texture": "cobblemon:textures/pokemon/generation1/eghoblastoise.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghoblastoise",
+      "texture": "cobblemon:textures/pokemon/generation1/eghoblastoise_shiny.png",
+      "layers": []
+    }
+  ]
+}

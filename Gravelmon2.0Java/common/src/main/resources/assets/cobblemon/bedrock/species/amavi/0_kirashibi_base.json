@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:kirashibi",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_kirashibi",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/kirashibi.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/kirashibi_shiny.png"
-    }  ]
+    }
+  ]
 }

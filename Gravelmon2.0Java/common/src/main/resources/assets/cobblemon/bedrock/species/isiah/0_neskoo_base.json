@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:neskoo",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_neskoo",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/isiah/neskoo.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/neskoo_shiny.png"
-    }  ]
+    }
+  ]
 }

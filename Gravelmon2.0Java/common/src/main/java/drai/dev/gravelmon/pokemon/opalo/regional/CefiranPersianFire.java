@@ -5,11 +5,9 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class CefiranPersianFire extends Pokemon {
-    public CefiranPersianFire(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"CefiranPersianFire",
+    public CefiranPersianFire(String name, Aspect aspect) {
+        super(name, aspect,"CefiranPersianFire",
                 Type.NORMAL, Type.FIRE,
                 new Stats(80,105,65,115,60,65),
                 List.of(Ability.TOUGH_CLAWS), Ability.TECHNICIAN,

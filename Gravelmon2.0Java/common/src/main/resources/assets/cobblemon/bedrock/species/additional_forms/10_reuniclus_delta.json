@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:reuniclus",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltareuniclus",
+      "texture": "cobblemon:textures/pokemon/generation5/deltareuniclus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltareuniclus",
+      "texture": "cobblemon:textures/pokemon/generation5/deltareuniclus_shiny.png",
+      "layers": []
+    }
+  ]
+}

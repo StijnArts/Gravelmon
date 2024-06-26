@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:rattata",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "norheiman"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_norheimanrattata",
+      "texture": "cobblemon:textures/pokemon/generation1/norheimanrattata.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "norheiman",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_norheimanrattata",
+      "texture": "cobblemon:textures/pokemon/generation1/norheimanrattata_shiny.png",
+      "layers": []
+    }
+  ]
+}

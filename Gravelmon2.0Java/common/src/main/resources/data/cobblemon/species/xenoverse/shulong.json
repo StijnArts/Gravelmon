@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shulong",
-  "nationalPokedexNumber": 1500,
+  "nationalPokedexNumber": 1509,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -140,9 +140,9 @@
   ],
   "evolutions": [
     {
-      "id": "shulong_shulongterrestrial",
+      "id": "shulong_shulong",
       "variant": "level_up",
-      "result": "shulongterrestrial",
+      "result": "shulong terrestrial",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -154,9 +154,9 @@
       "permanent": true   
  },
     {
-      "id": "shulong_shulongxenoversal",
+      "id": "shulong_shulong",
       "variant": "level_up",
-      "result": "shulongxenoversal",
+      "result": "shulong xenoversal",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -168,9 +168,9 @@
       "permanent": true   
  },
     {
-      "id": "shulong_shulongastral",
+      "id": "shulong_shulong",
       "variant": "level_up",
-      "result": "shulongastral",
+      "result": "shulong astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -186,9 +186,9 @@
       "permanent": true   
  },
     {
-      "id": "shulong_shulongastral",
+      "id": "shulong_shulong",
       "variant": "level_up",
-      "result": "shulongastral",
+      "result": "shulong astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

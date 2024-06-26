@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:grimer",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghogrimer",
+      "texture": "cobblemon:textures/pokemon/generation1/eghogrimer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghogrimer",
+      "texture": "cobblemon:textures/pokemon/generation1/eghogrimer_shiny.png",
+      "layers": []
+    }
+  ]
+}

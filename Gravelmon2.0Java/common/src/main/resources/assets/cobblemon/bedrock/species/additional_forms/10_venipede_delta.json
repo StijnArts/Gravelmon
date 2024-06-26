@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:venipede",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltavenipede",
+      "texture": "cobblemon:textures/pokemon/generation5/deltavenipede.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltavenipede",
+      "texture": "cobblemon:textures/pokemon/generation5/deltavenipede_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianGastrodon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianGastrodon(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Gastrodon",
+    public FligianGastrodon(String name, Aspect aspect) {
+        super(name, aspect, "Gastrodon",
                 Type.WATER, Type.GHOST,
                 new Stats(111,
                         105,

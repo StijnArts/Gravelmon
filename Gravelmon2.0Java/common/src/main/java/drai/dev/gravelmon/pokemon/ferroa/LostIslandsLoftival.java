@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class LostIslandsLoftival extends drai.dev.gravelmon.pokemon.Pokemon {
-    public LostIslandsLoftival(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "LostIslandsLoftival",
+    public LostIslandsLoftival(String name, Aspect aspect) {
+        super(name, aspect, "LostIslandsLoftival",
                 Type.FIRE, Type.FAIRY,
                 new Stats(72,
                         82,

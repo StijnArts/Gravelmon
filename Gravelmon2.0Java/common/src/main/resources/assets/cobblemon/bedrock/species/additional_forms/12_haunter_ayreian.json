@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:haunter",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianhaunter",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianhaunter.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianhaunter",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianhaunter_shiny.png",
+      "layers": []
+    }
+  ]
+}

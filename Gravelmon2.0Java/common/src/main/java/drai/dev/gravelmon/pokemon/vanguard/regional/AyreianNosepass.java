@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianNosepass extends Pokemon {
-    public AyreianNosepass(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianNosepass",
+    public AyreianNosepass(String name, Aspect aspect) {
+        super(name, aspect,"AyreianNosepass",
                 Type.ROCK, Type.PSYCHIC,
                 new Stats(45,55,90,10,55,110),
                 List.of(Ability.STURDY, Ability.MAGNET_PULL), Ability.TRACE,

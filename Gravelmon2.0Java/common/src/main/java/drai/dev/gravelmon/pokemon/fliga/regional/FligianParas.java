@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianParas extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianParas(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Paras",
+    public FligianParas(String name, Aspect aspect) {
+        super(name, aspect, "Paras",
                 Type.GHOST, Type.BUG,
                 new Stats(60,
                         50,

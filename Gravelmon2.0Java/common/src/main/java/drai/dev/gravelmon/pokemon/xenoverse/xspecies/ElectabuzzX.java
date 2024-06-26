@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ElectabuzzX extends Pokemon {
-    public ElectabuzzX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"ElectabuzzX",
+    public ElectabuzzX(String name, Aspect aspect) {
+        super(name, aspect,"ElectabuzzX",
                 Type.FIRE,
                 new Stats(65, 83, 57, 95, 85, 105),
                 List.of(Ability.AFTERMATH), Ability.VITAL_SPIRIT,

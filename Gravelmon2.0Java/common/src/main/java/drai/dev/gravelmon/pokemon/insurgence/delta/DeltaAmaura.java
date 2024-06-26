@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaAmaura extends Pokemon {
-    public DeltaAmaura(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaAmaura",
+    public DeltaAmaura(String name, Aspect aspect) {
+        super(name, aspect,"DeltaAmaura",
                 Type.GRASS, Type.WATER,
                 new Stats(77, 59,50,67,63,46),
                 List.of(Ability.FRIEND_GUARD), Ability.PHOTOTROPH,

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:crasquidor",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_crasquidor",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/isiah/crasquidor.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/crasquidor_shiny.png"
-    }  ]
+    }
+  ]
 }

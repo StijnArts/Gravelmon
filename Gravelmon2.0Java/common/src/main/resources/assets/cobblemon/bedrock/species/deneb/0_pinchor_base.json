@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:pinchor",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_pinchor",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/pinchor.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/pinchor_shiny.png"
-    }  ]
+    }
+  ]
 }

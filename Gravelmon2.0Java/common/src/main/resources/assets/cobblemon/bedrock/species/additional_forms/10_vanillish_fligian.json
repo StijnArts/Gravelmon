@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:vanillish",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fligian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_fligianvanillish",
+      "texture": "cobblemon:textures/pokemon/generation5/fligianvanillish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fligian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_fligianvanillish",
+      "texture": "cobblemon:textures/pokemon/generation5/fligianvanillish_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianRalts extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianRalts(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Ralts",
+    public FligianRalts(String name, Aspect aspect) {
+        super(name, aspect, "Ralts",
                 Type.FAIRY,
                 new Stats(33,
                         35,

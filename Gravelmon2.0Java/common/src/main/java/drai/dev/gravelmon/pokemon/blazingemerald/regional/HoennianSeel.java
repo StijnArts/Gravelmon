@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianSeel extends Pokemon {
-    public HoennianSeel(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianSeel",
+    public HoennianSeel(String name, Aspect aspect) {
+        super(name, aspect,"HoennianSeel",
                 Type.WATER, Type.DARK,
                 new Stats(90, 65, 80, 35, 80, 45),
                 List.of(Ability.THICK_FAT), Ability.SWIFT_SWIM,

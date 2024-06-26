@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DragaliskX extends Pokemon {
-    public DragaliskX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DragaliskX",
+    public DragaliskX(String name, Aspect aspect) {
+        super(name, aspect,"DragaliskX",
                 Type.GROUND, Type.ICE,
                 new Stats(70, 170, 70, 170, 70, 130),
                 List.of(Ability.DREAD_SPACE), Ability.DREAD_SPACE,

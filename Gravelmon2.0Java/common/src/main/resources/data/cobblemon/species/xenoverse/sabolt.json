@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabolt",
-  "nationalPokedexNumber": 1525,
+  "nationalPokedexNumber": 1538,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -124,9 +124,9 @@
   ],
   "evolutions": [
     {
-      "id": "sabolt_saboltterrestrial",
+      "id": "sabolt_sabolt",
       "variant": "level_up",
-      "result": "saboltterrestrial",
+      "result": "sabolt terrestrial",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -138,9 +138,9 @@
       "permanent": true   
  },
     {
-      "id": "sabolt_saboltxenoversal",
+      "id": "sabolt_sabolt",
       "variant": "level_up",
-      "result": "saboltxenoversal",
+      "result": "sabolt xenoversal",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

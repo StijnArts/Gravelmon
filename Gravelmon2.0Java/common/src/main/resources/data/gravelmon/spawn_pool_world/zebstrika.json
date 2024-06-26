@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "seviianzebstrika-1",
+      "pokemon": "zebstrika seviian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-58",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_temperate",
+"#cobblemon:is_arid" ]    }
+    }
+
+]
+}

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ludicolo",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_egholudicolo",
+      "texture": "cobblemon:textures/pokemon/generation3/egholudicolo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_egholudicolo",
+      "texture": "cobblemon:textures/pokemon/generation3/egholudicolo_shiny.png",
+      "layers": []
+    }
+  ]
+}

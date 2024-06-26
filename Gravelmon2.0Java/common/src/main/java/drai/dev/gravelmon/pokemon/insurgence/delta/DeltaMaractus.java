@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaMaractus extends Pokemon {
-    public DeltaMaractus(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaMaractus",
+    public DeltaMaractus(String name, Aspect aspect) {
+        super(name, aspect,"DeltaMaractus",
                 Type.STEEL,
                 new Stats(75, 86, 67, 106, 67, 60),
                 List.of(Ability.SERENE_GRACE, Ability.SYNCHRONIZE), Ability.HEALER,

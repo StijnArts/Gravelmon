@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:togepi",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "varitasian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_varitasiantogepi",
+      "texture": "cobblemon:textures/pokemon/generation2/varitasiantogepi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "varitasian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_varitasiantogepi",
+      "texture": "cobblemon:textures/pokemon/generation2/varitasiantogepi_shiny.png",
+      "layers": []
+    }
+  ]
+}

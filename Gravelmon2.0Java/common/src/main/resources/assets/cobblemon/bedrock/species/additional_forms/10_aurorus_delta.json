@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:aurorus",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_deltaaurorus",
+      "texture": "cobblemon:textures/pokemon/generation6/deltaaurorus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_deltaaurorus",
+      "texture": "cobblemon:textures/pokemon/generation6/deltaaurorus_shiny.png",
+      "layers": []
+    }
+  ]
+}

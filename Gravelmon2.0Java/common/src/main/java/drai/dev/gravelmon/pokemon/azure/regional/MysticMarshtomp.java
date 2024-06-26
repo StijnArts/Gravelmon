@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticMarshtomp extends Pokemon {
-    public MysticMarshtomp(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MysticMarshtomp",
+    public MysticMarshtomp(String name, Aspect aspect) {
+        super(name, aspect,"MysticMarshtomp",
                 Type.FIGHTING, Type.DRAGON,
                 new Stats(70, 85, 70, 50, 70, 60),
                 List.of(Ability.IMMUNITY), Ability.THICK_FAT,

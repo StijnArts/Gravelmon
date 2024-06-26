@@ -1,0 +1,174 @@
+{
+   "target": "cobblemon:gardevoir",
+   "forms": [{
+  "name": "Fligian",
+  "primaryType": "fairy",
+  "secondaryType": "fighting",
+  "abilities": [
+    "innerfocus",
+    "h:justified"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 115,
+    "defence": 65,
+    "special_attack": 95,
+    "special_defence": 95,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 233,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like",
+    "amorphous"
+  ],
+  "moves": [
+    "1:growl",
+    "1:sacredsword",
+    "1:healingwish",
+    "1:mistyterrain",
+    "4:fairywind",
+    "6:doubleteam",
+    "9:teleport",
+    "11:disarmingvoicesound",
+    "14:wish",
+    "17:poweruppunch",
+    "19:healpulse",
+    "26:swordsdance",
+    "31:psychocut",
+    "35:coaching",
+    "40:playrough",
+    "44:laserfocus",
+    "49:hypnosis",
+    "53:aurasphere",
+    "58:victorydance",
+    "62:moonblast",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:snoresound",
+    "tm:icywind",
+    "tm:healbellsound",
+    "tm:painsplit",
+    "tm:helpinghand",
+    "tm:trick",
+    "tm:magiccoat",
+    "tm:recycle",
+    "tm:skillswap",
+    "tm:snatch",
+    "tm:hypervoicesound",
+    "tm:shockwave",
+    "tm:zenheadbutt",
+    "tm:telekinesis",
+    "tm:allyswitch",
+    "tm:laserfocus",
+    "tm:tripleaxel",
+    "tm:hyperbeam",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:rest",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:safeguard",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:psychup",
+    "tm:torment",
+    "tm:willowisp",
+    "tm:facade",
+    "tm:taunt",
+    "tm:calmmind",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:gigaimpact",
+    "tm:trickroom",
+    "tm:grassknot",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:confide",
+    "tm:dazzlinggleam",
+    "tm:mistyterrain",
+    "tm:psychicterrain",
+    "tm:flashcannon",
+    "tm:ironhead",
+    "tm:brutalswing",
+    "tm:disable",
+    "tm:confuseray",
+    "tm:destinybond",
+    "tm:meanlook",
+    "tm:encore",
+    "tm:memento",
+    "tm:grudge",
+    "tm:shadowsneak",
+    "tm:synchronoise",
+    "tm:mistyterrain"  ],
+  "labels": [
+    "fliga",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.fligiangardevoir.desc"
+  ],
+  "preEvolution": "Kirlia form=fligian",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 484,
+  "aspects": ["fligian"],
+  "cannotDynamax": false
+}
+], "features": [
+"fligian"
+  ]
+}

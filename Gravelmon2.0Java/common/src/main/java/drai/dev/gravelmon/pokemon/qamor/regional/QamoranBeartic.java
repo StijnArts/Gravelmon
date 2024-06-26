@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranBeartic extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranBeartic(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Beartic",
+    public QamoranBeartic(String name, Aspect aspect) {
+        super(name, aspect, "Beartic",
                 Type.GHOST, Type.POISON,
                 new Stats(95,
                         70,

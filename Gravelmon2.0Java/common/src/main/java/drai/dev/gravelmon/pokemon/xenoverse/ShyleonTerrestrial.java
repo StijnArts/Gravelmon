@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ShyleonTerrestrial extends Pokemon {
-    public ShyleonTerrestrial(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"ShyleonTerrestrial",
+    public ShyleonTerrestrial(String name, Aspect aspect) {
+        super(name, aspect,"ShyleonTerrestrial",
                 Type.GRASS, Type.FAIRY,
                 new Stats(88, 49, 63, 78, 68, 104),
                 List.of(Ability.QUICK_FEET), Ability.JUNGLE_SPIRIT,

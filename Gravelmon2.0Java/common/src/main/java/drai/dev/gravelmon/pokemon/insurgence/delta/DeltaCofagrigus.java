@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaCofagrigus extends Pokemon {
-    public DeltaCofagrigus(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaCofagrigus",
+    public DeltaCofagrigus(String name, Aspect aspect) {
+        super(name, aspect,"DeltaCofagrigus",
                 Type.STEEL, Type.POISON,
                 new Stats(78, 50, 145, 95, 105, 30),
                 List.of(Ability.AFTERMATH, Ability.INFILTRATOR), Ability.WONDER_SKIN,

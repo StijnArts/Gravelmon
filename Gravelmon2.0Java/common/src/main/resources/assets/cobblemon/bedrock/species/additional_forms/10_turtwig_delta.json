@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:turtwig",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltaturtwig",
+      "texture": "cobblemon:textures/pokemon/generation4/deltaturtwig.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltaturtwig",
+      "texture": "cobblemon:textures/pokemon/generation4/deltaturtwig_shiny.png",
+      "layers": []
+    }
+  ]
+}

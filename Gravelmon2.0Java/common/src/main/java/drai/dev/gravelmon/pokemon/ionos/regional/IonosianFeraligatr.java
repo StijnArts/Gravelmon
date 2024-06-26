@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianFeraligatr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianFeraligatr(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Feraligatr",
+    public IonosianFeraligatr(String name, Aspect aspect) {
+        super(name, aspect, "Feraligatr",
                 Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,

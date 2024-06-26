@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fleumingo",
-  "nationalPokedexNumber": 2193,
+  "nationalPokedexNumber": 2211,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -116,7 +116,7 @@
   "pokedex": [
     "cobblemon.species.fleumingo.desc"
   ],
-  "preEvolution": "ayreianfletchinder",
+  "preEvolution": "Fletchinder form=ayreian",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SorceryCastform extends Pokemon {
-    public SorceryCastform(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"SorceryCastform",
+    public SorceryCastform(String name, Aspect aspect) {
+        super(name, aspect,"SorceryCastform",
                 Type.DRAGON,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

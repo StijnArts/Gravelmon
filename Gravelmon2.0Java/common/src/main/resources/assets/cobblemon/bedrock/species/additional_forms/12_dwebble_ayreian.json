@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dwebble",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_ayreiandwebble",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreiandwebble.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_ayreiandwebble",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreiandwebble_shiny.png",
+      "layers": []
+    }
+  ]
+}

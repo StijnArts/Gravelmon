@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:heatmor",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_hizianheatmor",
+      "texture": "cobblemon:textures/pokemon/generation5/hizianheatmor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_hizianheatmor",
+      "texture": "cobblemon:textures/pokemon/generation5/hizianheatmor_shiny.png",
+      "layers": []
+    }
+  ]
+}

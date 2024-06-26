@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:slurpuff",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_slurpuffx",
+      "texture": "cobblemon:textures/pokemon/generation6/slurpuffx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_slurpuffx",
+      "texture": "cobblemon:textures/pokemon/generation6/slurpuffx_shiny.png",
+      "layers": []
+    }
+  ]
+}

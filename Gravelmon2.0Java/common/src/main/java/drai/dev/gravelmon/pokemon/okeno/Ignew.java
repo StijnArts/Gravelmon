@@ -46,7 +46,7 @@ public class Ignew extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_CAVE, Biome.IS_BADLANDS))
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_CAVE, Biome.IS_BADLANDS))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

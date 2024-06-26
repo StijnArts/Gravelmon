@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianKlang extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianKlang(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Klang",
+    public VaritasianKlang(String name, Aspect aspect) {
+        super(name, aspect, "Klang",
                 Type.STEEL, Type.GROUND,
                 new Stats(60,
                         80,

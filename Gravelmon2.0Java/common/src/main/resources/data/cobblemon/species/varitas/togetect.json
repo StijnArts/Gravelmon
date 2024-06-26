@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "togetect",
-  "nationalPokedexNumber": 1766,
+  "nationalPokedexNumber": 1783,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -154,7 +154,7 @@
   "pokedex": [
     "cobblemon.species.togetect.desc"
   ],
-  "preEvolution": "varitasiantogetic",
+  "preEvolution": "Togetic form=varitasian",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianDusknoir extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianDusknoir(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Dusknoir",
+    public FligianDusknoir(String name, Aspect aspect) {
+        super(name, aspect, "Dusknoir",
                 Type.STEEL, Type.GHOST,
                 new Stats(55,
                         60,

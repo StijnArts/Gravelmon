@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranOmanyte extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranOmanyte(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Omanyte",
+    public NovranOmanyte(String name, Aspect aspect) {
+        super(name, aspect, "Omanyte",
                 Type.ROCK, Type.DRAGON,
                 new Stats(35,
                         40,

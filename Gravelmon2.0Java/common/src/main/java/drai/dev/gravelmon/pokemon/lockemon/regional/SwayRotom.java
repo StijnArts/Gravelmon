@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SwayRotom extends Pokemon {
-    public SwayRotom(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"SwayRotom",
+    public SwayRotom(String name, Aspect aspect) {
+        super(name, aspect,"SwayRotom",
                 Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.NO_GUARD,

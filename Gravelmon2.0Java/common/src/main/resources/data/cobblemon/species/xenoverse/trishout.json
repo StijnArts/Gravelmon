@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trishout",
-  "nationalPokedexNumber": 1499,
+  "nationalPokedexNumber": 1504,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
@@ -135,9 +135,9 @@
   ],
   "evolutions": [
     {
-      "id": "trishout_trishoutterrestrial",
+      "id": "trishout_trishout",
       "variant": "level_up",
-      "result": "trishoutterrestrial",
+      "result": "trishout terrestrial",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -149,9 +149,9 @@
       "permanent": true   
  },
     {
-      "id": "trishout_trishoutxenoversal",
+      "id": "trishout_trishout",
       "variant": "level_up",
-      "result": "trishoutxenoversal",
+      "result": "trishout xenoversal",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -163,9 +163,9 @@
       "permanent": true   
  },
     {
-      "id": "trishout_trishoutastral",
+      "id": "trishout_trishout",
       "variant": "level_up",
-      "result": "trishoutastral",
+      "result": "trishout astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -181,9 +181,9 @@
       "permanent": true   
  },
     {
-      "id": "trishout_trishoutastral",
+      "id": "trishout_trishout",
       "variant": "level_up",
-      "result": "trishoutastral",
+      "result": "trishout astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

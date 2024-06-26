@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:wishiwashi",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "deep"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_deepwishiwashi",
+      "texture": "cobblemon:textures/pokemon/generation7/deepwishiwashi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "deep",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_deepwishiwashi",
+      "texture": "cobblemon:textures/pokemon/generation7/deepwishiwashi_shiny.png",
+      "layers": []
+    }
+  ]
+}

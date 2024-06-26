@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:electabuzz",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltaelectabuzz",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaelectabuzz.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltaelectabuzz",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaelectabuzz_shiny.png",
+      "layers": []
+    }
+  ]
+}

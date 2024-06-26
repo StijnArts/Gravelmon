@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:meowth",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran_electric"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_cefiranmeowthelectric",
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranmeowthelectric.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran_electric",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_cefiranmeowthelectric",
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranmeowthelectric_shiny.png",
+      "layers": []
+    }
+  ]
+}

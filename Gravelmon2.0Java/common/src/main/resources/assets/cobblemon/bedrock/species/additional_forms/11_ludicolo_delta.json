@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ludicolo",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaludicolo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaludicolo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaludicolo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaludicolo_shiny.png",
+      "layers": []
+    }
+  ]
+}

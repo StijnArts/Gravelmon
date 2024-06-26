@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:mosshroom",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_mosshroom",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/mosshroom.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/mosshroom_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dusclops",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fligian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligiandusclops",
+      "texture": "cobblemon:textures/pokemon/generation3/fligiandusclops.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fligian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligiandusclops",
+      "texture": "cobblemon:textures/pokemon/generation3/fligiandusclops_shiny.png",
+      "layers": []
+    }
+  ]
+}

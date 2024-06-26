@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:roggenrola",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "armiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_armiranroggenrola",
+      "texture": "cobblemon:textures/pokemon/generation5/armiranroggenrola.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "armiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_armiranroggenrola",
+      "texture": "cobblemon:textures/pokemon/generation5/armiranroggenrola_shiny.png",
+      "layers": []
+    }
+  ]
+}

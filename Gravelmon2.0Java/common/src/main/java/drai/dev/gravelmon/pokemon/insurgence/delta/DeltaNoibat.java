@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaNoibat extends Pokemon {
-    public DeltaNoibat(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaNoibat",
+    public DeltaNoibat(String name, Aspect aspect) {
+        super(name, aspect,"DeltaNoibat",
                 Type.GRASS, Type.STEEL,
                 new Stats(40, 30,35,45,40,55),
                 List.of(Ability.CHLOROPHYLL, Ability.NATURAL_CURE), Ability.SOLAR_POWER,

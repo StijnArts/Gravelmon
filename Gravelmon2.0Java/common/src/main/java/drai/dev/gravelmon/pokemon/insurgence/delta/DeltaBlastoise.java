@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaBlastoise extends Pokemon {
-    public DeltaBlastoise(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaBlastoise",
+    public DeltaBlastoise(String name, Aspect aspect) {
+        super(name, aspect,"DeltaBlastoise",
                 Type.DARK, Type.FIGHTING,
                 new Stats(79, 83, 100, 85, 105, 78),
                 List.of(Ability.SHADOW_CALL), Ability.SHADOW_DANCE,

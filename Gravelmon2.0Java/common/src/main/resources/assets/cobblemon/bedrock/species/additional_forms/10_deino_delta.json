@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:deino",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltadeino",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadeino.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltadeino",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadeino_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltadeino",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadeino_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltadeino",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadeino_female_shiny.png",
+      "layers": []
+    }
+  ]
+}

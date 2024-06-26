@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:carnibal",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_carnibal",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/carnibal.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/carnibal_shiny.png"
-    }  ]
+    }
+  ]
 }

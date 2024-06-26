@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianCaterpie extends Pokemon {
-    public AyreianCaterpie(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianCaterpie",
+    public AyreianCaterpie(String name, Aspect aspect) {
+        super(name, aspect,"AyreianCaterpie",
                 Type.BUG, Type.ELECTRIC,
                 new Stats(50,30,35,45,35,20),
                 List.of(Ability.SHIELD_DUST), Ability.RUN_AWAY,

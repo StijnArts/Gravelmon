@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ralts",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaralts",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaralts.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaralts",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaralts_shiny.png",
+      "layers": []
+    }
+  ]
+}

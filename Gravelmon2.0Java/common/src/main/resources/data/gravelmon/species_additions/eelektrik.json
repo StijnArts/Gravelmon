@@ -1,0 +1,278 @@
+{
+   "target": "cobblemon:eelektrik",
+   "forms": [{
+  "name": "Varitasian",
+  "primaryType": "ground",
+  "secondaryType": "water",
+  "abilities": [
+    "sapsipper",
+    "h:sapsipper"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 85,
+    "defence": 70,
+    "special_attack": 75,
+    "special_defence": 70,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:leechlife",
+    "9:bind",
+    "19:acid",
+    "29:dig",
+    "44:waterpulse",
+    "54:coil",
+    "59:aquatail",
+    "64:gastroacid",
+    "69:earthquake",
+    "74:thrash",
+    "tm:bind",
+    "tm:superfang",
+    "tm:snoresound",
+    "tm:gigadrain",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:signalbeam",
+    "tm:bounce",
+    "tm:shockwave",
+    "tm:gastroacid",
+    "tm:magnetrise",
+    "tm:aquatail",
+    "tm:throatchop",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:thunder",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:rest",
+    "tm:substitute",
+    "tm:protect",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:facade",
+    "tm:uturn",
+    "tm:flashcannon",
+    "tm:chargebeam",
+    "tm:roundsound",
+    "tm:acrobatics",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:confide"  ],
+  "labels": [
+    "varitas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.varitasianeelektrik.desc"
+  ],
+  "preEvolution": "tynamo form=varitasian",
+  "evolutions": [
+    {
+      "id": "varitasianeelektrik_eelektross",
+      "variant": "item_interact",
+      "result": "eelektross varitasian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": ["varitasian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Hoennian",
+  "primaryType": "ground",
+  "secondaryType": "electric",
+  "abilities": [
+    "shedskin",
+    "h:sandveil"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 100,
+    "defence": 40,
+    "special_attack": 30,
+    "special_defence": 80,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:tailwhip",
+    "1:acid",
+    "4:bite",
+    "8:spark",
+    "13:wrap",
+    "19:magnitude",
+    "26:dig",
+    "34:crunch",
+    "43:boltblitz",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:irontail",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:shimmershot",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "egg:earthpower",
+    "egg:electroburst",
+    "egg:dragonrage"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen5",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianeelektrik.desc"
+  ],
+  "preEvolution": "tynamo form=hoennian",
+  "evolutions": [
+    {
+      "id": "hoennianeelektrik_eelektross",
+      "variant": "item_interact",
+      "result": "eelektross hoennian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.7000000000000001,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 28,
+  "weight": 699,
+  "aspects": ["hoennian"],
+  "cannotDynamax": false
+}
+], "features": [
+"varitasian",
+"hoennian"
+  ]
+}

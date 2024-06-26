@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianAbra extends Pokemon {
-    public AyreianAbra(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianAbra",
+    public AyreianAbra(String name, Aspect aspect) {
+        super(name, aspect,"AyreianAbra",
                 Type.DARK, Type.FIGHTING,
                 new Stats(25,80,35,60,75,35),
                 List.of(Ability.SNIPER, Ability.INNER_FOCUS), Ability.SHEER_FORCE,

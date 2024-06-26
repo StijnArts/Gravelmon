@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goolossal",
-  "nationalPokedexNumber": 2185,
+  "nationalPokedexNumber": 2202,
   "primaryType": "fairy",
   "abilities": [
     "liquidooze",
@@ -100,7 +100,7 @@
   "pokedex": [
     "cobblemon.species.goolossal.desc"
   ],
-  "preEvolution": "hoenniangoomy",
+  "preEvolution": "Goomy form=hoennian",
   "baseScale": 1.7,
   "hitbox": {
     "width": 6.0,

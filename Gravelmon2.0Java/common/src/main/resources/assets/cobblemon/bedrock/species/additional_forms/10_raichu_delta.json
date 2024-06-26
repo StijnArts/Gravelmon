@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:raichu",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltaraichu",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaraichu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltaraichu",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaraichu_shiny.png",
+      "layers": []
+    }
+  ]
+}

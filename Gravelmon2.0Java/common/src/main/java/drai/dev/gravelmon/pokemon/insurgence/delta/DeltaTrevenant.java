@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaTrevenant extends Pokemon {
-    public DeltaTrevenant(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaTrevenant",
+    public DeltaTrevenant(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTrevenant",
                 Type.FAIRY, Type.FIGHTING,
                 new Stats(85, 110,76,65,82,56),
                 List.of(Ability.SNOW_WARNING, Ability.OVERCOAT), Ability.SNOW_CLOAK,

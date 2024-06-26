@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianHonchkrow extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianHonchkrow(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Honchkrow",
+    public HizianHonchkrow(String name, Aspect aspect) {
+        super(name, aspect, "Honchkrow",
                 Type.FLYING, Type.GRASS,
                 new Stats(90,
                         125,

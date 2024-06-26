@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:emporeel",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_emporeel",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/junnin/emporeel.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/emporeel_shiny.png"
-    }  ]
+    }
+  ]
 }

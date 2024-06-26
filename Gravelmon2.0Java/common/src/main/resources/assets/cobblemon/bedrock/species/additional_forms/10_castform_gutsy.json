@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:castform",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "gutsy"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_gutsycastform",
+      "texture": "cobblemon:textures/pokemon/generation3/gutsycastform.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "gutsy",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_gutsycastform",
+      "texture": "cobblemon:textures/pokemon/generation3/gutsycastform_shiny.png",
+      "layers": []
+    }
+  ]
+}

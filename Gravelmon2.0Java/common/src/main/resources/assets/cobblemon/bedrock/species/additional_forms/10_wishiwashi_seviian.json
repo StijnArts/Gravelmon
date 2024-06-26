@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:wishiwashi",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "seviian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_seviianwishiwashi",
+      "texture": "cobblemon:textures/pokemon/generation7/seviianwishiwashi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "seviian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation7_seviianwishiwashi",
+      "texture": "cobblemon:textures/pokemon/generation7/seviianwishiwashi_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanDragonair extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanDragonair(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Dragonair",
+    public NorheimanDragonair(String name, Aspect aspect) {
+        super(name, aspect, "Dragonair",
                 Type.DRAGON,
                 new Stats(0,
                         0,

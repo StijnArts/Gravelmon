@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:golett",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_cefirangolett",
+      "texture": "cobblemon:textures/pokemon/generation5/cefirangolett.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_cefirangolett",
+      "texture": "cobblemon:textures/pokemon/generation5/cefirangolett_shiny.png",
+      "layers": []
+    }
+  ]
+}

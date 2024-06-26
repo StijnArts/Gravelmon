@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:boodoir",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_boodoir",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/nosto/boodoir.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/boodoir_shiny.png"
-    }  ]
+    }
+  ]
 }

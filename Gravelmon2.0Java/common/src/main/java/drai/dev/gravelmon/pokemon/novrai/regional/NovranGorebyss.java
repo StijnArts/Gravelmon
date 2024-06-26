@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranGorebyss extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranGorebyss(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Gorebyss",
+    public NovranGorebyss(String name, Aspect aspect) {
+        super(name, aspect, "Gorebyss",
                 Type.WATER, Type.FAIRY,
                 new Stats(55,
                         84,

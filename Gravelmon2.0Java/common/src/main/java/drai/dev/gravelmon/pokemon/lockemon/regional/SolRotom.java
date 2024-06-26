@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SolRotom extends Pokemon {
-    public SolRotom(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"SolRotom",
+    public SolRotom(String name, Aspect aspect) {
+        super(name, aspect,"SolRotom",
                 Type.ELECTRIC, Type.DRAGON,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.SOLAR_POWER,

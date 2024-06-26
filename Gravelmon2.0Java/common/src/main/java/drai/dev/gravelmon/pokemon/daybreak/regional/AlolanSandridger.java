@@ -9,7 +9,7 @@ import java.util.*;
 
 public class AlolanSandridger extends Pokemon {
     public AlolanSandridger(String name, Aspect aspect) {
-        super(name, aspect, "AlolanSandridger",
+        super(name, aspect,"AlolanSandridger",
                 Type.ICE, Type.STEEL,
                 new Stats(75, 130, 140, 25, 85, 95),
                 List.of(Ability.EARTH_EATER), Ability.SLUSH_RUSH,

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:picocacto",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_picocacto",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/avoris/picocacto.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/picocacto_shiny.png"
-    }  ]
+    }
+  ]
 }

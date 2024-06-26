@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DittoX extends Pokemon {
-    public DittoX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DittoX",
+    public DittoX(String name, Aspect aspect) {
+        super(name, aspect,"DittoX",
                 Type.DARK,
                 new Stats(48, 48,48,48,48,48),
                 List.of(Ability.LIMBER), Ability.IMPOSTER,

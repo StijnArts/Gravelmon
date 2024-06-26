@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianMunchlax extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianMunchlax(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Munchlax",
+    public VaritasianMunchlax(String name, Aspect aspect) {
+        super(name, aspect, "Munchlax",
                 Type.DARK,
                 new Stats(85,
                         135,

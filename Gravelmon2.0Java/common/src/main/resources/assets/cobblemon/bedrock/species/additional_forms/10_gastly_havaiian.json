@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gastly",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "havaiian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_havaiiangastly",
+      "texture": "cobblemon:textures/pokemon/generation1/havaiiangastly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "havaiian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_havaiiangastly",
+      "texture": "cobblemon:textures/pokemon/generation1/havaiiangastly_shiny.png",
+      "layers": []
+    }
+  ]
+}

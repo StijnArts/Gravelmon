@@ -1,0 +1,303 @@
+{
+   "target": "cobblemon:snorunt",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "fire",
+  "abilities": [
+    "whitesmoke",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:ember",
+    "1:leer",
+    "5:doubleteam",
+    "10:haze",
+    "14:incinerate",
+    "19:bite",
+    "23:firefang",
+    "28:headbutt",
+    "32:willowisp",
+    "37:lavaplume",
+    "41:crunch",
+    "46:fireblast",
+    "50:eruption",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:overheat",
+    "tm:energyball",
+    "tm:willowisp",
+    "tm:payback",
+    "tm:gyroball",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:darkmatter",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:block",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hypervoicesound",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:painsplit",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltasnorunt.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltasnorunt_Glalie",
+      "variant": "level_up",
+      "result": "Glalie delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "deltasnorunt_froslass",
+      "variant": "item_interact",
+      "result": "froslass delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gender=female",
+          "contains": true
+        }
+      ],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 168,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Cefiran",
+  "primaryType": "ground",
+  "abilities": [
+    "innerfocus",
+    "poisonheal",
+    "h:moody"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "moves": [
+    "1:mudslap",
+    "1:leer",
+    "4:doubleteam",
+    "10:bite",
+    "13:mudshot",
+    "19:headbutt",
+    "22:protect",
+    "28:mudbomb",
+    "31:crunch",
+    "37:earthpower",
+    "40:sandstorm",
+    "46:earthquake",
+    "egg:avalanche",
+    "egg:tackle",
+    "egg:block",
+    "egg:disable",
+    "egg:faketears",
+    "egg:hex",
+    "egg:rollout",
+    "egg:spikes",
+    "egg:weatherball"  ],
+  "labels": [
+    "gen3",
+    "opal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiransnorunt.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cefiransnorunt_Glalie",
+      "variant": "level_up",
+      "result": "Glalie cefiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "cefiransnorunt_froslass",
+      "variant": "item_interact",
+      "result": "froslass cefiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 168,
+  "aspects": ["cefiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta",
+"cefiran"
+  ]
+}

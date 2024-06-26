@@ -3,6 +3,7 @@ package drai.dev.gravelmon.jsonwriters;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 
 import java.io.*;
@@ -24,7 +25,7 @@ public class SpeciesAdditionsWriter {
         });
     }
 
-    private static void writePokemon(Map.Entry<String, List<Pokemon>> set, String dir, boolean isSubstitutedMoveImplementation) throws IOException {
+    private synchronized static void writePokemon(Map.Entry<String, List<Pokemon>> set, String dir, boolean isSubstitutedMoveImplementation) throws IOException {
 
         String fileContents =
                 "{\n" +
@@ -43,7 +44,8 @@ public class SpeciesAdditionsWriter {
                 } else {
                     fileContents += ",\n";
                 }
-                fileContents += "{\n" +"  \"primaryType\": \""+pokemon.getPrimaryType().getName()+"\",\n";
+                fileContents += "{\n" +"  \"name\": \""+ StringUtils.capitalize(pokemon.getAdditionalAspect().getName())+"\",\n";
+                fileContents += "  \"primaryType\": \""+pokemon.getPrimaryType().getName()+"\",\n";
                 if(pokemon.getSecondaryType() != null){
                     fileContents +="  \"secondaryType\": \""+pokemon.getSecondaryType().getName()+"\",\n";
                 }
@@ -208,22 +210,26 @@ public class SpeciesAdditionsWriter {
                                 "  },\n" +
                                 "  \"height\": "+pokemon.getHeight()+",\n" +
                                 "  \"weight\": "+pokemon.getWeight()+",\n" +
-                                "  \"aspects\": [],\n" +
-                                "\"features\": [\n";
-                boolean isFirstFeatureEntry = true;
-                for (PokemonForm form : pokemon.getForms()){
-                    if(isFirstFeatureEntry){
-                        isFirstFeatureEntry = false;
-                    } else {
-                        fileContents += ",\n";
-                    }
-                    fileContents += "\""+form.getCleanName()+"\"";
-                }
-                fileContents += "\n  ],"+
-                        "  \"cannotDynamax\": "+pokemon.cannotDynamax()+"\n" +
+                                "  \"aspects\": [" +
+                                "\""+pokemon.getAdditionalAspect().getName()+"\"" +
+                                "],\n";
+                        fileContents += "  \"cannotDynamax\": "+pokemon.cannotDynamax()+"\n" +
                         "}";
             }
-            fileContents += "\n]\n}";
+            fileContents += "\n], " +
+                    "\"features\": [\n";
+
+            var isFirstFeature = true;
+                for (var feature : set.getValue().stream().map(Pokemon::getAdditionalAspect).toList()){
+                    if(isFirstFeature){
+                        isFirstFeature= false;
+                    } else{
+                        fileContents += ",\n";
+                    }
+                    fileContents += "\""+feature.getName()+"\"";
+                }
+            fileContents += "\n  ]"+
+                    "\n}";
         }
 
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir+Pokemon.getCleanName(set.getKey())+".json"));
@@ -268,7 +274,7 @@ public class SpeciesAdditionsWriter {
                     fileContents += ",\n";
                 }
                 fileContents += "    {\n" +
-                        "      \"id\": \""+ pokemon.getCleanName()+"_"+evolution.getResult()+"\",\n" +
+                        "      \"id\": \""+ pokemon.getCleanName()+"_"+evolution.getResult().split(" ")[0]+"\",\n" +
                         "      \"variant\": \""+evolution.getKind().getName()+"\",\n" +
                         "      \"result\": \""+evolution.getResult();
                 if(!evolution.getAspects().isEmpty()){
@@ -474,7 +480,7 @@ public class SpeciesAdditionsWriter {
                     formString += ",\n";
                 }
                 formString += "    {\n" +
-                        "      \"id\": \""+form.getCleanName()+"_"+pokemon.getCleanName()+"_"+evolution.getResult()+"\",\n" +
+                        "      \"id\": \""+form.getCleanName()+"_"+pokemon.getCleanName()+"_"+evolution.getResult().split(" ")[0]+"\",\n" +
                         "      \"variant\": \""+evolution.getKind().getName()+"\",\n" +
                         "      \"result\": \""+evolution.getResult();
                 for(Aspect aspect : evolution.getAspects()){

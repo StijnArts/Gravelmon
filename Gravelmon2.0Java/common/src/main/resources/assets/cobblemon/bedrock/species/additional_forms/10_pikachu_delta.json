@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:pikachu",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltapikachu",
+      "texture": "cobblemon:textures/pokemon/generation1/deltapikachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltapikachu",
+      "texture": "cobblemon:textures/pokemon/generation1/deltapikachu_shiny.png",
+      "layers": []
+    }
+  ]
+}

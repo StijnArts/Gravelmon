@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gengar",
+  "order": 13,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_kaskadiangengar",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadiangengar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_kaskadiangengar",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadiangengar_shiny.png",
+      "layers": []
+    }
+  ]
+}

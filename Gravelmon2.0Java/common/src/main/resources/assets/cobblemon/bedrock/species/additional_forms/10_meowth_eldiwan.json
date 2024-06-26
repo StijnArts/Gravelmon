@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:meowth",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "eldiwan"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eldiwanmeowth",
+      "texture": "cobblemon:textures/pokemon/generation1/eldiwanmeowth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "eldiwan",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eldiwanmeowth",
+      "texture": "cobblemon:textures/pokemon/generation1/eldiwanmeowth_shiny.png",
+      "layers": []
+    }
+  ]
+}

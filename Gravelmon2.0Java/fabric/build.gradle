@@ -28,16 +28,19 @@ configurations {
     compileClasspath.extendsFrom common
     runtimeClasspath.extendsFrom common
     developmentFabric.extendsFrom common
+
+}
+configurations.all {
+    resolutionStrategy {
+        force("net.fabricmc:fabric-loader:$fabric_loader_version")
+    }
 }
 
 repositories {
-
             maven {
                 name = "Modrinth"
                 url = "https://api.modrinth.com/maven"
             }
-
-
 }
 
 dependencies {

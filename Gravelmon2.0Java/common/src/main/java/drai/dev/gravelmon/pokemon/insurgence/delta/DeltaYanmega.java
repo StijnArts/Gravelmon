@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaYanmega extends Pokemon {
-    public DeltaYanmega(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaYanmega",
+    public DeltaYanmega(String name, Aspect aspect) {
+        super(name, aspect,"DeltaYanmega",
                 Type.GRASS, Type.FLYING,
                 new Stats(86, 76, 86, 116, 56, 95),
                 List.of(Ability.ADAPTABILITY, Ability.LEAF_GUARD), Ability.NATURAL_CURE,

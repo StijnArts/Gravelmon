@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magnemelt",
-  "nationalPokedexNumber": 2192,
+  "nationalPokedexNumber": 2210,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -120,7 +120,7 @@
   "pokedex": [
     "cobblemon.species.magnemelt.desc"
   ],
-  "preEvolution": "ayreianmagneton",
+  "preEvolution": "magneton form=ayreian",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

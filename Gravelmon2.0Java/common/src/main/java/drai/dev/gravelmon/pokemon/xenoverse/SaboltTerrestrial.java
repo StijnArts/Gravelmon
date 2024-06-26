@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SaboltTerrestrial extends Pokemon {
-    public SaboltTerrestrial(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "SaboltTerrestrial",
+    public SaboltTerrestrial(String name, Aspect aspect) {
+        super(name, aspect,"SaboltTerrestrial",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(88, 66, 70, 78, 68, 80),
                 List.of(Ability.INTIMIDATE), Ability.INTIMIDATE,

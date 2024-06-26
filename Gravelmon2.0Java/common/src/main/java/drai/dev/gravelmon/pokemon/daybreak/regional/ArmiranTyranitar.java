@@ -5,9 +5,11 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
+import java.util.*;
+
 public class ArmiranTyranitar extends Pokemon {
-    public ArmiranTyranitar(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"ArmiranTyranitar",
+    public ArmiranTyranitar(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranTyranitar",
                 Type.FIRE, Type.ROCK,
                 new Stats(100, 95, 110, 125, 100, 70),
                 List.of(Ability.DROUGHT), Ability.DROUGHT,
@@ -117,7 +119,7 @@ public class ArmiranTyranitar extends Pokemon {
                 List.of(Label.GEN2,Label.DAYBREAK),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 51, 67, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:musbushel",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_musbushel",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/musbushel.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/musbushel_shiny.png"
-    }  ]
+    }
+  ]
 }

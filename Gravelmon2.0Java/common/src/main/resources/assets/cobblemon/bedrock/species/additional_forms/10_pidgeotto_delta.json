@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:pidgeotto",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltapidgeotto",
+      "texture": "cobblemon:textures/pokemon/generation1/deltapidgeotto.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltapidgeotto",
+      "texture": "cobblemon:textures/pokemon/generation1/deltapidgeotto_shiny.png",
+      "layers": []
+    }
+  ]
+}

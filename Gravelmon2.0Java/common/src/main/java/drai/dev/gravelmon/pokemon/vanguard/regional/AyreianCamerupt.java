@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianCamerupt extends Pokemon {
-    public AyreianCamerupt(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianCamerupt",
+    public AyreianCamerupt(String name, Aspect aspect) {
+        super(name, aspect,"AyreianCamerupt",
                 Type.WATER, Type.GROUND,
                 new Stats(100,80,75,40,115,80),
                 List.of(Ability.UNAWARE, Ability.SAP_SIPPER), Ability.BERSERK,

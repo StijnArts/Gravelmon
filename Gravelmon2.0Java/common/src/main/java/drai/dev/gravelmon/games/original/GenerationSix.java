@@ -1,13 +1,11 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
-import drai.dev.gravelmon.pokemon.aristos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
-import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.novrai.regional.*;
@@ -66,7 +64,7 @@ public class GenerationSix extends Game {
         pokemon.add(new SlurpuffX("Slurpuff", Aspect.X));
 
         //Pokemon Blazing Emerald
-        pokemon.add(new HoennianGoomy("Goomy", Aspect.HOENN));
+        pokemon.add(new HoennianGoomy("Goomy", Aspect.HOENNIAN));
 
         //Radical Red
         pokemon.add(new SeviianClauncher("Clauncher", Aspect.SEVIIAN));

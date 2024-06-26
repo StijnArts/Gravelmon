@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanFalinks extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanFalinks(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Falinks",
+    public NorheimanFalinks(String name, Aspect aspect) {
+        super(name, aspect, "Falinks",
                 Type.STEEL, Type.FIGHTING,
                 new Stats(65,
                         110,

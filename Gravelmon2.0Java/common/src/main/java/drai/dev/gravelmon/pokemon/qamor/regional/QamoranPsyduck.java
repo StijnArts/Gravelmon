@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranPsyduck extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranPsyduck(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Psyduck",
+    public QamoranPsyduck(String name, Aspect aspect) {
+        super(name, aspect, "Psyduck",
                 Type.FAIRY,
                 new Stats(60,
                         65,

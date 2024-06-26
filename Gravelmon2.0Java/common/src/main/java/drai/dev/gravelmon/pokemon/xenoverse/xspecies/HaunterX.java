@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class HaunterX extends Pokemon {
-    public HaunterX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HaunterX",
+    public HaunterX(String name, Aspect aspect) {
+        super(name, aspect,"HaunterX",
                 Type.DRAGON,
                 new Stats(45, 55, 70, 115, 75, 45),
                 List.of(Ability.OBLIVIOUS, Ability.MOLD_BREAKER), Ability.STURDY,
@@ -73,8 +73,5 @@ public class HaunterX extends Pokemon {
                 List.of());
         this.setLangFileName("Haunter");
         this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
-        setBaseScale(1.0);
-        setHitbox(1.0, 3.0);
     }
 }

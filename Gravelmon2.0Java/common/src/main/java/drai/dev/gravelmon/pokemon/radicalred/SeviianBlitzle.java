@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianBlitzle extends Pokemon {
-    public SeviianBlitzle(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "SeviianBlitzle",
+    public SeviianBlitzle(String name, Aspect aspect) {
+        super(name, aspect,"SeviianBlitzle",
                 Type.ICE, Type.ELECTRIC,
                 new Stats(45, 45, 32, 65, 32, 76),
                 List.of(Ability.LIGHTNING_ROD, Ability.ILLUMINATE), Ability.ICE_BODY,

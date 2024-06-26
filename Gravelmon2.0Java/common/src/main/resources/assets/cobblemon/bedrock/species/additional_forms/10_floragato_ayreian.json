@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:floragato",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation9_ayreianfloragato",
+      "texture": "cobblemon:textures/pokemon/generation9/ayreianfloragato.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation9_ayreianfloragato",
+      "texture": "cobblemon:textures/pokemon/generation9/ayreianfloragato_shiny.png",
+      "layers": []
+    }
+  ]
+}

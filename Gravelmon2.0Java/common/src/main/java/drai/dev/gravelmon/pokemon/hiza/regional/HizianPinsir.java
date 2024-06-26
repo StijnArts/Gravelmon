@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianPinsir extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianPinsir(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "HizianPinsir",
+    public HizianPinsir(String name, Aspect aspect) {
+        super(name, aspect, "HizianPinsir",
                 Type.STEEL, Type.BUG,
                 new Stats(65,
                         125,

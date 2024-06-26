@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:aron",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreianaron",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianaron.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreianaron",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianaron_shiny.png",
+      "layers": []
+    }
+  ]
+}

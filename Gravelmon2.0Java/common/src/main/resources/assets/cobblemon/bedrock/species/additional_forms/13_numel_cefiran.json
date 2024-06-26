@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:numel",
+  "order": 13,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_cefirannumel",
+      "texture": "cobblemon:textures/pokemon/generation3/cefirannumel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_cefirannumel",
+      "texture": "cobblemon:textures/pokemon/generation3/cefirannumel_shiny.png",
+      "layers": []
+    }
+  ]
+}

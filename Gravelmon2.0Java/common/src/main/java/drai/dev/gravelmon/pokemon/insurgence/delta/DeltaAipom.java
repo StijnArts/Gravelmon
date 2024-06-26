@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaAipom extends Pokemon {
-    public DeltaAipom(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaAipom",
+    public DeltaAipom(String name, Aspect aspect) {
+        super(name, aspect,"DeltaAipom",
                 Type.GHOST, Type.NORMAL,
                 new Stats(55, 70, 55, 40, 55, 85),
                 List.of(Ability.CURSED_BODY, Ability.RATTLED), Ability.TECHNICIAN,

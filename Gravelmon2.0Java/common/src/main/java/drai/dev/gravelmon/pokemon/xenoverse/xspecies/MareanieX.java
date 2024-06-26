@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MareanieX extends Pokemon {
-    public MareanieX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MareanieX",
+    public MareanieX(String name, Aspect aspect) {
+        super(name, aspect,"MareanieX",
                 Type.POISON, Type.FIRE,
                 new Stats(50, 62, 53, 52, 43, 43),
                 List.of(Ability.ILLUMINATE), Ability.MERCILESS,

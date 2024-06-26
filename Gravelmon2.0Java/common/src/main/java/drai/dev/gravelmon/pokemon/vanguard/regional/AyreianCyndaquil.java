@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianCyndaquil extends Pokemon {
-    public AyreianCyndaquil(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianCyndaquil",
+    public AyreianCyndaquil(String name, Aspect aspect) {
+        super(name, aspect,"AyreianCyndaquil",
                 Type.FIRE, Type.GHOST,
                 new Stats(40,55,40,65,60,50),
                 List.of(Ability.DROUGHT, Ability.INFILTRATOR), Ability.SOLAR_POWER,

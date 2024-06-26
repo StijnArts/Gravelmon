@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:bisommit",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_bisommit",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/junnin/bisommit.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/bisommit_shiny.png"
-    }  ]
+    }
+  ]
 }

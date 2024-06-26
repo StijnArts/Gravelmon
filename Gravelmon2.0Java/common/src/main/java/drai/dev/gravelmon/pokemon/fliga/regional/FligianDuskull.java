@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianDuskull extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianDuskull(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Duskull",
+    public FligianDuskull(String name, Aspect aspect) {
+        super(name, aspect, "Duskull",
                 Type.STEEL, Type.GHOST,
                 new Stats(20,
                         40,

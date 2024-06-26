@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class AyreianMuk extends Pokemon {
-    public AyreianMuk(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianMuk",
+    public AyreianMuk(String name, Aspect aspect) {
+        super(name, aspect,"AyreianMuk",
                 Type.WATER, Type.POISON,
                 new Stats(100,60,100,45,100,100),
                 List.of(Ability.STENCH, Ability.WATER_ABSORB), Ability.TOXIC_DEBRIS,

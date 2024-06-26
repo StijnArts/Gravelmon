@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianHitmonchan extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianHitmonchan(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"VaritasianHitmonchan",
+    public VaritasianHitmonchan(String name, Aspect aspect) {
+        super(name, aspect,"VaritasianHitmonchan",
                 Type.PSYCHIC,
                 new Stats(50,
                         35,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:golett",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltagolett",
+      "texture": "cobblemon:textures/pokemon/generation5/deltagolett.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltagolett",
+      "texture": "cobblemon:textures/pokemon/generation5/deltagolett_shiny.png",
+      "layers": []
+    }
+  ]
+}

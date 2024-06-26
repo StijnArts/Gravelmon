@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianGrovyle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianGrovyle(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Grovyle",
+    public FligianGrovyle(String name, Aspect aspect) {
+        super(name, aspect, "Grovyle",
                 Type.ROCK,
                 new Stats(50,
                         85,

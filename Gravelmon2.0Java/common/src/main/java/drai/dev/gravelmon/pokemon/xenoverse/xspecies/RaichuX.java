@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RaichuX extends Pokemon {
-    public RaichuX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"RaichuX",
+    public RaichuX(String name, Aspect aspect) {
+        super(name, aspect,"RaichuX",
                 Type.STEEL,
                 new Stats(40, 150, 39, 55, 33, 153),
                 List.of(Ability.MAGNET_PULL), Ability.LEVITATE,

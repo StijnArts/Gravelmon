@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:bellsprout",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "aristosian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_aristosianbellsprout",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosianbellsprout.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "aristosian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_aristosianbellsprout",
+      "texture": "cobblemon:textures/pokemon/generation1/aristosianbellsprout_shiny.png",
+      "layers": []
+    }
+  ]
+}

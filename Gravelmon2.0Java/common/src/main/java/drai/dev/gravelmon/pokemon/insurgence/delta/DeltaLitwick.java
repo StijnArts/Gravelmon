@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaLitwick extends Pokemon {
-    public DeltaLitwick(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaLitwick",
+    public DeltaLitwick(String name, Aspect aspect) {
+        super(name, aspect,"DeltaLitwick",
                 Type.FAIRY, Type.FIRE,
                 new Stats(50, 30, 55, 65, 55, 20),
                 List.of(Ability.FLASH_FIRE, Ability.WEAK_ARMOR), Ability.FAIRY_AURA,

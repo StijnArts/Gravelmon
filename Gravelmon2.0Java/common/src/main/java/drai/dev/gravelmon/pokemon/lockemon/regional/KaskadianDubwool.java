@@ -5,9 +5,11 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
+import java.util.*;
+
 public class KaskadianDubwool extends Pokemon {
-    public KaskadianDubwool(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianDubwool",
+    public KaskadianDubwool(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianDubwool",
                 Type.NORMAL, Type.FIRE,
                 new Stats(72,80,80,100,70,88),
                 List.of(Ability.FLASH_FIRE,Ability.INTIMIDATE), Ability.SCRAPPY,
@@ -67,7 +69,7 @@ public class KaskadianDubwool extends Pokemon {
                 List.of(Label.GEN8,Label.LOCKEMON),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 49, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_FIRE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

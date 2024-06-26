@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:teddiursa",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiranteddiursa",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiranteddiursa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiranteddiursa",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiranteddiursa_shiny.png",
+      "layers": []
+    }
+  ]
+}

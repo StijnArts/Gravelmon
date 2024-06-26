@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianTrapinch extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianTrapinch(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Trapinch",
+    public IonosianTrapinch(String name, Aspect aspect) {
+        super(name, aspect, "Trapinch",
                 Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,

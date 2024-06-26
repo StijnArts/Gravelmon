@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:spinda",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "relic"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_relicspinda",
+      "texture": "cobblemon:textures/pokemon/generation3/relicspinda.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "relic",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_relicspinda",
+      "texture": "cobblemon:textures/pokemon/generation3/relicspinda_shiny.png",
+      "layers": []
+    }
+  ]
+}

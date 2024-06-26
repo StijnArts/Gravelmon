@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:venonat",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hizianvenonat",
+      "texture": "cobblemon:textures/pokemon/generation1/hizianvenonat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_hizianvenonat",
+      "texture": "cobblemon:textures/pokemon/generation1/hizianvenonat_shiny.png",
+      "layers": []
+    }
+  ]
+}

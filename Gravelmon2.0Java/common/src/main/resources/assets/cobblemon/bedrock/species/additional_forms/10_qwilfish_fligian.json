@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:qwilfish",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fligian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_fligianqwilfish",
+      "texture": "cobblemon:textures/pokemon/generation2/fligianqwilfish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fligian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_fligianqwilfish",
+      "texture": "cobblemon:textures/pokemon/generation2/fligianqwilfish_shiny.png",
+      "layers": []
+    }
+  ]
+}

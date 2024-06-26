@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:vaicear",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_vaicear",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/lockemon/vaicear.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/vaicear_shiny.png"
-    }  ]
+    }
+  ]
 }

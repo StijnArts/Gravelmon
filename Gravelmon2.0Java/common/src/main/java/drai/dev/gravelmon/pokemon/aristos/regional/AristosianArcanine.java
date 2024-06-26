@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianArcanine extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianArcanine(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AristosianArcanine",
+    public AristosianArcanine(String name, Aspect aspect) {
+        super(name, aspect,"AristosianArcanine",
                 Type.ICE, Type.PSYCHIC,
                 new Stats(115,
                         70,

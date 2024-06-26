@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticPoochyena extends Pokemon {
-    public MysticPoochyena(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MysticPoochyena",
+    public MysticPoochyena(String name, Aspect aspect) {
+        super(name, aspect,"MysticPoochyena",
                 Type.FIRE, Type.GHOST,
                 new Stats(35, 30, 35, 30, 35, 55),
                 List.of(Ability.INTIMIDATE, Ability.SHADOW_TAG), Ability.ADAPTABILITY,

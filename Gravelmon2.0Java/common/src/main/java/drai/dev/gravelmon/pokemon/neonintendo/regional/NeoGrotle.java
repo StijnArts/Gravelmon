@@ -16,8 +16,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class NeoGrotle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NeoGrotle(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Grotle",
+    public NeoGrotle(String name, Aspect aspect) {
+        super(name, aspect, "Grotle",
                 Type.FAIRY, Type.GROUND,
                 new Stats(75,
                         64,

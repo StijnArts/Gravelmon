@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class FligianChansey extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianChansey(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Chansey",
+    public FligianChansey(String name, Aspect aspect) {
+        super(name, aspect, "Chansey",
                 Type.FIRE, Type.NORMAL,
                 new Stats(200,
                         5,

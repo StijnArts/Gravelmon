@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaTreecko extends Pokemon {
-    public DeltaTreecko(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaTreecko",
+    public DeltaTreecko(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTreecko",
                 Type.NORMAL, Type.FIGHTING,
                 new Stats(40, 45, 35, 65, 55, 70),
                 List.of(Ability.INNER_FOCUS), Ability.GUTS,

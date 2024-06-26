@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianDreepy extends Pokemon {
-    public HoennianDreepy(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianDreepy",
+    public HoennianDreepy(String name, Aspect aspect) {
+        super(name, aspect,"HoennianDreepy",
                 Type.FIRE, Type.DRAGON,
                 new Stats(52, 40, 30, 60, 30, 58),
                 List.of(Ability.LEVITATE), Ability.TECHNICIAN,

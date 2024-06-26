@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "sway"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_swayrotom",
+      "texture": "cobblemon:textures/pokemon/generation4/swayrotom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "sway",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_swayrotom",
+      "texture": "cobblemon:textures/pokemon/generation4/swayrotom_shiny.png",
+      "layers": []
+    }
+  ]
+}

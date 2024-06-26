@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaTyphlosion extends Pokemon {
-    public DeltaTyphlosion(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaTyphlosion",
+    public DeltaTyphlosion(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTyphlosion",
                 Type.ELECTRIC, Type.STEEL,
                 new Stats(78, 84, 78, 109, 85, 100),
                 List.of(Ability.STATIC), Ability.LIGHTNING_ROD,

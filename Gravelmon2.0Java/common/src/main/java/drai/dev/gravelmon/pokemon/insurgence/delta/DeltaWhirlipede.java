@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaWhirlipede extends Pokemon {
-    public DeltaWhirlipede(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaWhirlipede",
+    public DeltaWhirlipede(String name, Aspect aspect) {
+        super(name, aspect,"DeltaWhirlipede",
                 Type.ROCK, Type.FIRE,
                 new Stats(40, 55, 99, 40, 79, 47),
                 List.of(Ability.WEAK_ARMOR, Ability.MAGMA_ARMOR), Ability.MOLD_BREAKER,

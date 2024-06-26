@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:vespiquen",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltavespiquen",
+      "texture": "cobblemon:textures/pokemon/generation4/deltavespiquen.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltavespiquen",
+      "texture": "cobblemon:textures/pokemon/generation4/deltavespiquen_shiny.png",
+      "layers": []
+    }
+  ]
+}

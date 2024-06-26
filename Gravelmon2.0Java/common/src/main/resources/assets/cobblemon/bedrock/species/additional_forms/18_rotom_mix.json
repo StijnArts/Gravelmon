@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 18,
+  "variations": [
+    {
+      "aspects": [
+        "mix"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_mixrotom",
+      "texture": "cobblemon:textures/pokemon/generation4/mixrotom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mix",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_mixrotom",
+      "texture": "cobblemon:textures/pokemon/generation4/mixrotom_shiny.png",
+      "layers": []
+    }
+  ]
+}

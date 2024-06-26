@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:scraggy",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltascraggy",
+      "texture": "cobblemon:textures/pokemon/generation5/deltascraggy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltascraggy",
+      "texture": "cobblemon:textures/pokemon/generation5/deltascraggy_shiny.png",
+      "layers": []
+    }
+  ]
+}

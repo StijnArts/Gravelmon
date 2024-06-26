@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:skitty",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hizianskitty",
+      "texture": "cobblemon:textures/pokemon/generation3/hizianskitty.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hizianskitty",
+      "texture": "cobblemon:textures/pokemon/generation3/hizianskitty_shiny.png",
+      "layers": []
+    }
+  ]
+}

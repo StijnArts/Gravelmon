@@ -1,0 +1,589 @@
+{
+   "target": "cobblemon:reuniclus",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "ghost",
+  "secondaryType": "rock",
+  "abilities": [
+    "levitate",
+    "cursedbody",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 65,
+    "defence": 75,
+    "special_attack": 125,
+    "special_defence": 85,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 221,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:harden",
+    "1:rollout",
+    "1:snatch",
+    "3:harden",
+    "7:rollout",
+    "10:snatch",
+    "14:ominouswind",
+    "16:meanlook",
+    "19:grudge",
+    "24:gigadrain",
+    "25:ancientpower",
+    "28:endeavor",
+    "31:phantomforce",
+    "34:painsplit",
+    "39:hex",
+    "41:shadowpunch",
+    "43:powergemcrystal",
+    "54:healblock",
+    "59:curse",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:willowisp",
+    "tm:newmoon",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:poisonjab",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:lunarcannon",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:quash",
+    "tm:darkmatter",
+    "tm:secretpower",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:seismictoss",
+    "tutor:selfdestruct",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltareuniclus.desc"
+  ],
+  "preEvolution": "duosion form=delta",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 402,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Hoennian",
+  "primaryType": "psychic",
+  "secondaryType": "grass",
+  "abilities": [
+    "fruitrition",
+    "h:fruitrition"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 45,
+    "defence": 105,
+    "special_attack": 125,
+    "special_defence": 90,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 221,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:sleeppowder",
+    "1:stunspore",
+    "1:poisonpowder",
+    "7:confusion",
+    "13:magicalleaf",
+    "20:ripen",
+    "28:synthesis",
+    "41:psybeam",
+    "48:recover",
+    "55:magiccoat",
+    "65:frenzyplant",
+    "tm:trickroom",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:veiledsky",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:shimmershot",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "egg:growth",
+    "egg:seedbomb"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen5",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianreuniclus.desc"
+  ],
+  "preEvolution": "duosion form=hoennian",
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 304,
+  "aspects": ["hoennian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Kaskadian",
+  "primaryType": "psychic",
+  "secondaryType": "water",
+  "abilities": [
+    "overcoat",
+    "h:magicguard"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 50,
+    "defence": 100,
+    "special_attack": 110,
+    "special_defence": 100,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 221,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:confusion",
+    "1:protect",
+    "4:recover",
+    "8:waterpulse",
+    "12:psybeam",
+    "16:charm",
+    "20:psyshock",
+    "24:lightscreen",
+    "24:reflect",
+    "28:allyswitch",
+    "33:painsplit",
+    "36:psychic",
+    "40:skillswap",
+    "44:hydropump",
+    "48:wonderroom",
+    "egg:acidarmor",
+    "egg:astonish",
+    "egg:confuseray",
+    "tm:charm",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:confuseray",
+    "tm:facade",
+    "tm:swiftcosmic",
+    "tm:rocktomb",
+    "tm:storedpower",
+    "tm:nightshade",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:psyshock",
+    "tm:zenheadbutt",
+    "tm:sleeptalksound",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:imprison",
+    "tm:flashcannon",
+    "tm:skillswap",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:trick",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:encore",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:psychicterrain",
+    "tm:trickroom",
+    "tm:thunder",
+    "tm:terablast",
+    "tm:gravitycosmic",
+    "tm:gyroball",
+    "tm:painsplit",
+    "tm:psychup",
+    "tm:endeavor",
+    "tm:futuresight",
+    "tm:expandingforce"  ],
+  "labels": [
+    "lockemon",
+    "gen5",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.kaskadianreuniclus.desc"
+  ],
+  "preEvolution": "duosion form=kaskadian",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 201,
+  "aspects": ["kaskadian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Mystic",
+  "primaryType": "water",
+  "secondaryType": "ghost",
+  "abilities": [
+    "filter",
+    "static",
+    "h:waterabsorb"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 30,
+    "defence": 85,
+    "special_attack": 125,
+    "special_defence": 75,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 258,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:confusion",
+    "1:protect",
+    "4:recover",
+    "8:waterpulse",
+    "12:ominouswind",
+    "16:charm",
+    "20:shadowball",
+    "24:lightscreen",
+    "24:reflect",
+    "28:allyswitch",
+    "33:painsplit",
+    "36:psychic",
+    "40:skillswap",
+    "44:hydropump",
+    "48:wonderroom",
+    "egg:acidarmor",
+    "egg:astonish",
+    "egg:confuseray",
+    "tm:charm",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:confuseray",
+    "tm:facade",
+    "tm:swiftcosmic",
+    "tm:rocktomb",
+    "tm:storedpower",
+    "tm:nightshade",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:psyshock",
+    "tm:zenheadbutt",
+    "tm:sleeptalksound",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:imprison",
+    "tm:flashcannon",
+    "tm:skillswap",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:trick",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:encore",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:psychicterrain",
+    "tm:trickroom",
+    "tm:thunder",
+    "tm:terablast",
+    "tm:gravitycosmic",
+    "tm:gyroball",
+    "tm:painsplit",
+    "tm:psychup",
+    "tm:endeavor",
+    "tm:futuresight",
+    "tm:expandingforce"  ],
+  "labels": [
+    "azure",
+    "gen5",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mysticreuniclus.desc"
+  ],
+  "preEvolution": "duosion form=mystic",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 201,
+  "aspects": ["mystic"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta",
+"hoennian",
+"kaskadian",
+"mystic"
+  ]
+}

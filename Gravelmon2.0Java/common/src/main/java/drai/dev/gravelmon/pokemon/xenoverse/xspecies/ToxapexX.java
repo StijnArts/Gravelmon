@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ToxapexX  extends Pokemon {
-    public ToxapexX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"ToxapexX",
+    public ToxapexX(String name, Aspect aspect) {
+        super(name, aspect,"ToxapexX",
                 Type.POISON, Type.FIRE,
                 new Stats(142, 63, 53, 147, 50, 40),
                 List.of(Ability.ARENA_TRAP), Ability.MERCILESS,

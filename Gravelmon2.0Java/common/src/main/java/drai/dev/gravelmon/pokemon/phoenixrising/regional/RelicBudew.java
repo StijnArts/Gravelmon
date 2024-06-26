@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class RelicBudew extends Pokemon {
-    public RelicBudew(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"RelicBudew",
+    public RelicBudew(String name, Aspect aspect) {
+        super(name, aspect,"RelicBudew",
                 Type.FAIRY,
                 new Stats(35, 55, 50, 40, 30, 70),
                 List.of(Ability.TRACE, Ability.JUSTIFIED), Ability.HUSTLE,

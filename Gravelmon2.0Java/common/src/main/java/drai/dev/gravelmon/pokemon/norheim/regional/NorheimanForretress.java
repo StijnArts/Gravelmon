@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class NorheimanForretress extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanForretress(String originalMon, Aspect aspect, Stats stats) {
-        super(originalMon, aspect, "Forretress",
+    public NorheimanForretress(String name, Aspect aspect, Stats stats) {
+        super(name, aspect, "Forretress",
                 Type.BUG, Type.FIRE,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

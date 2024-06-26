@@ -4,8 +4,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class OkenianDustar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public OkenianDustar(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Dustar",
+    public OkenianDustar(String name, Aspect aspect) {
+        super(name, aspect, "Dustar",
                 Type.DARK, Type.ROCK,
                 new Stats(40,
                         30,

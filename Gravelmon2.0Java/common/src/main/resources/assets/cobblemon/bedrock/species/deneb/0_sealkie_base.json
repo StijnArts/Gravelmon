@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:sealkie",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_sealkie",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/sealkie.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/sealkie_shiny.png"
-    }  ]
+    }
+  ]
 }

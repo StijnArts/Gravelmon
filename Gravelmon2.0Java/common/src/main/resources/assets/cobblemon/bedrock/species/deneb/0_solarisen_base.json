@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:solarisen",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_solarisen",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/solarisen.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/solarisen_shiny.png"
-    }  ]
+    }
+  ]
 }

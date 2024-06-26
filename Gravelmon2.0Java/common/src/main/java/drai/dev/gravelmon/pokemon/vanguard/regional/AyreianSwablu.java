@@ -5,9 +5,11 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
+import java.util.*;
+
 public class AyreianSwablu extends Pokemon {
-    public AyreianSwablu(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianSwablu",
+    public AyreianSwablu(String name, Aspect aspect) {
+        super(name, aspect,"AyreianSwablu",
                 Type.ELECTRIC, Type.DRAGON,
                 new Stats(55,70,55,55,70,75),
                 List.of(Ability.LEVITATE, Ability.FLUFFY), Ability.GUTS,
@@ -99,7 +101,7 @@ public class AyreianSwablu extends Pokemon {
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 34, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE, Biome.IS_NETHER_BASALT)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),

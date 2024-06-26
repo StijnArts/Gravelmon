@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:snosquatch",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_snosquatch",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/infinity/snosquatch.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/snosquatch_shiny.png"
-    }  ]
+    }
+  ]
 }

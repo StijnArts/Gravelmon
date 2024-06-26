@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:rampardos",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "novran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_novranrampardos",
+      "texture": "cobblemon:textures/pokemon/generation4/novranrampardos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "novran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_novranrampardos",
+      "texture": "cobblemon:textures/pokemon/generation4/novranrampardos_shiny.png",
+      "layers": []
+    }
+  ]
+}

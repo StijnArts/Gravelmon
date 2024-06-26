@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:nosepass",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hiziannosepass",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziannosepass.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hiziannosepass",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziannosepass_shiny.png",
+      "layers": []
+    }
+  ]
+}

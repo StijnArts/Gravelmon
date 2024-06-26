@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:gargon",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_gargon",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/infinity/gargon.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/gargon_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianBunnelby extends Pokemon {
-    public KaskadianBunnelby(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianBunnelby",
+    public KaskadianBunnelby(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianBunnelby",
                 Type.ICE, Type.NORMAL,
                 new Stats(38, 36, 38, 32, 36, 57),
                 List.of(Ability.SLUSH_RUSH, Ability.ICE_BODY), Ability.HUGE_POWER,

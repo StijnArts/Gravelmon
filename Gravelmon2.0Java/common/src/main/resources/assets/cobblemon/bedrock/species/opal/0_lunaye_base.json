@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:lunaye",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_lunaye",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/opal/lunaye.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/lunaye_shiny.png"
-    }  ]
+    }
+  ]
 }

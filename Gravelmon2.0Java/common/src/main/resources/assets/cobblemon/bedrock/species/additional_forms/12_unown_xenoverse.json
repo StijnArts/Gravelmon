@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:unown",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "xenoverse"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_unownxenoverse",
+      "texture": "cobblemon:textures/pokemon/generation2/unownxenoverse.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "xenoverse",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_unownxenoverse",
+      "texture": "cobblemon:textures/pokemon/generation2/unownxenoverse_shiny.png",
+      "layers": []
+    }
+  ]
+}

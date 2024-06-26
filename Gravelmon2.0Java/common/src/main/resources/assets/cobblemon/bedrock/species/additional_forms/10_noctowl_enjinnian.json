@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:noctowl",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "enjinnian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_enjinniannoctowl",
+      "texture": "cobblemon:textures/pokemon/generation2/enjinniannoctowl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "enjinnian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_enjinniannoctowl",
+      "texture": "cobblemon:textures/pokemon/generation2/enjinniannoctowl_shiny.png",
+      "layers": []
+    }
+  ]
+}

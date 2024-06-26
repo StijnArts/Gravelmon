@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class KaskadianPhantump extends Pokemon {
-    public KaskadianPhantump(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"KaskadianPhantump",
+    public KaskadianPhantump(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianPhantump",
                 Type.GHOST, Type.POISON,
                 new Stats(43, 70,48,50,60,38),
                 List.of(Ability.SOUL_DRAIN, Ability.POISON_TOUCH), Ability.EFFECT_SPORE,

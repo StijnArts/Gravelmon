@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianTogetic extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTogetic(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Togetic",
+    public VaritasianTogetic(String name, Aspect aspect) {
+        super(name, aspect, "Togetic",
                 Type.FAIRY, Type.STEEL,
                 new Stats(55,
                         70,

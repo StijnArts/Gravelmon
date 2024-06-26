@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:amphreina",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_amphreina",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/amphreina.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/amphreina_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:grizzlair",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_grizzlair",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/amavi/grizzlair.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/grizzlair_shiny.png"
-    }  ]
+    }
+  ]
 }

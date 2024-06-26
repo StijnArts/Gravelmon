@@ -1,0 +1,150 @@
+{
+   "target": "cobblemon:exploud",
+   "forms": [{
+  "name": "Kaskadian",
+  "primaryType": "normal",
+  "secondaryType": "steel",
+  "abilities": [
+    "punkrock",
+    "h:scrappy"
+  ],
+  "baseStats": {
+    "hp": 104,
+    "attack": 81,
+    "defence": 73,
+    "special_attack": 101,
+    "special_defence": 73,
+    "speed": 58
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 126,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:bite",
+    "1:crunch",
+    "1:echoedvoicesound",
+    "1:firefang",
+    "1:howlsound",
+    "1:icefang",
+    "1:pound",
+    "1:flashcannon",
+    "15:rest",
+    "15:sleeptalksound",
+    "23:stomp",
+    "29:roarsound",
+    "36:autotomize",
+    "45:meteorbeam",
+    "54:screechsound",
+    "63:hypervoicesound",
+    "72:boomburstsound",
+    "81:hyperbeam",
+    "egg:circlethrow",
+    "egg:disarmingvoicesound",
+    "egg:endeavor",
+    "egg:extrasensory",
+    "egg:faketears",
+    "egg:hammerarm",
+    "egg:smokescreen",
+    "egg:snoresound",
+    "egg:takedown",
+    "egg:whirlwind",
+    "tm:waterpulse",
+    "tm:roarsound",
+    "tm:workup",
+    "tm:flashcannon",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:shockwave",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:overheat",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:endure",
+    "tm:gigaimpact",
+    "tm:avalanche",
+    "tm:rockslide",
+    "tm:sleeptalksound",
+    "tm:bulldoze",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:surf",
+    "tm:strength",
+    "tm:rocksmash",
+    "tm:rockclimb"  ],
+  "labels": [
+    "lockemon",
+    "gen3",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kaskadianexploud.desc"
+  ],
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 840,
+  "aspects": ["kaskadian"],
+  "cannotDynamax": false
+}
+], "features": [
+"kaskadian"
+  ]
+}

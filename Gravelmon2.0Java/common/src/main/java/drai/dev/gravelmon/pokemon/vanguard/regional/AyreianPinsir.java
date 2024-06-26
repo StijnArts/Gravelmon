@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class AyreianPinsir extends Pokemon {
-    public AyreianPinsir(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AyreianPinsir",
+    public AyreianPinsir(String name, Aspect aspect) {
+        super(name, aspect,"AyreianPinsir",
                 Type.STEEL, Type.DARK,
                 new Stats(75,135,120,55,55,85),
                 List.of(Ability.HEAVY_METAL, Ability.MOLD_BREAKER), Ability.SHEER_FORCE,

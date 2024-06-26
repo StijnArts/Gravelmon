@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:trishout",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "terrestrial"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_trishoutterrestrial",
+      "texture": "cobblemon:textures/pokemon/xenoverse/trishoutterrestrial.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "terrestrial",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_trishoutterrestrial",
+      "texture": "cobblemon:textures/pokemon/xenoverse/trishoutterrestrial_shiny.png",
+      "layers": []
+    }
+  ]
+}

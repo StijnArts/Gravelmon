@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CofagrigusX extends Pokemon {
-    public CofagrigusX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"CofagrigusX",
+    public CofagrigusX(String name, Aspect aspect) {
+        super(name, aspect,"CofagrigusX",
                 Type.WATER, Type.ROCK,
                 new Stats(58, 50, 145, 105, 95, 30),
                 List.of(Ability.STORM_DRAIN), Ability.WEAK_ARMOR,

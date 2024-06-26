@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class AvorianRoselia extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AvorianRoselia(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"AvorianRoselia",
+    public AvorianRoselia(String name, Aspect aspect) {
+        super(name, aspect,"AvorianRoselia",
                 Type.GRASS, Type.FIRE,
                 new Stats(50,
                         60,

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaYamask extends Pokemon {
-    public DeltaYamask(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaYamask",
+    public DeltaYamask(String name, Aspect aspect) {
+        super(name, aspect,"DeltaYamask",
                 Type.STEEL, Type.POISON,
                 new Stats(38, 30, 85, 55, 65, 30),
                 List.of(Ability.AFTERMATH, Ability.INFILTRATOR), Ability.WONDER_SKIN,

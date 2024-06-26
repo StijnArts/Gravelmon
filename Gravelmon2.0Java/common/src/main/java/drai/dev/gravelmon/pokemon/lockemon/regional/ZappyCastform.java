@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ZappyCastform extends Pokemon {
-    public ZappyCastform(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"ZappyCastform",
+    public ZappyCastform(String name, Aspect aspect) {
+        super(name, aspect,"ZappyCastform",
                 Type.ELECTRIC,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

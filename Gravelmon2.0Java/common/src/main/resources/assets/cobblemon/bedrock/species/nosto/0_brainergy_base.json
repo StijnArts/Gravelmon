@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:brainergy",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_brainergy",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/nosto/brainergy.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/brainergy_shiny.png"
-    }  ]
+    }
+  ]
 }

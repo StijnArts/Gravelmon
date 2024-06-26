@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianYamask extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianYamask(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Yamask",
+    public VaritasianYamask(String name, Aspect aspect) {
+        super(name, aspect, "Yamask",
                 Type.GHOST, Type.STEEL,
                 new Stats(38,
                         30,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:blaziken",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltablaziken",
+      "texture": "cobblemon:textures/pokemon/generation3/deltablaziken.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltablaziken",
+      "texture": "cobblemon:textures/pokemon/generation3/deltablaziken_shiny.png",
+      "layers": []
+    }
+  ]
+}

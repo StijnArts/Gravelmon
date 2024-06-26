@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianWobbuffet extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianWobbuffet(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Wobbuffet",
+    public VaritasianWobbuffet(String name, Aspect aspect) {
+        super(name, aspect, "Wobbuffet",
                 Type.DARK,
                 new Stats(190,
                         33,

@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianSkarmory extends Pokemon {
-    public HoennianSkarmory(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianSkarmory",
+    public HoennianSkarmory(String name, Aspect aspect) {
+        super(name, aspect,"HoennianSkarmory",
                 Type.STEEL, Type.FIRE,
                 new Stats(85, 100,110,35,80,90),
                 List.of(Ability.RESOLUTE), Ability.FLASH_FIRE,

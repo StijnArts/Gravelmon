@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianJynx extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianJynx(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Jynx",
+    public IonosianJynx(String name, Aspect aspect) {
+        super(name, aspect, "Jynx",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,

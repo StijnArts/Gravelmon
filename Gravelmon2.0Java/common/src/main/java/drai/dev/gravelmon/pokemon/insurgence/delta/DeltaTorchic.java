@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaTorchic extends Pokemon {
-    public DeltaTorchic(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaTorchic",
+    public DeltaTorchic(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTorchic",
                 Type.PSYCHIC,
                 new Stats(45, 60, 40, 70, 50, 45),
                 List.of(Ability.KEEN_EYE), Ability.RIVALRY,

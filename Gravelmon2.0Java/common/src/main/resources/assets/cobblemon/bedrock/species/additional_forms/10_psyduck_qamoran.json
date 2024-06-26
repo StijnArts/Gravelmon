@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:psyduck",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "qamoran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_qamoranpsyduck",
+      "texture": "cobblemon:textures/pokemon/generation1/qamoranpsyduck.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "qamoran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_qamoranpsyduck",
+      "texture": "cobblemon:textures/pokemon/generation1/qamoranpsyduck_shiny.png",
+      "layers": []
+    }
+  ]
+}

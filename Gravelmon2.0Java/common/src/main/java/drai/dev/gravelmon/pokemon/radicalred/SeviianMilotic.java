@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class SeviianMilotic extends Pokemon {
-    public SeviianMilotic(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "SeviianMilotic",
+    public SeviianMilotic(String name, Aspect aspect) {
+        super(name, aspect,"SeviianMilotic",
                 Type.WATER, Type.GROUND,
                 new Stats(95, 60, 84, 105, 125, 81),
                 List.of(Ability.MARVEL_SCALE, Ability.COMPETITIVE), Ability.SERENE_GRACE,

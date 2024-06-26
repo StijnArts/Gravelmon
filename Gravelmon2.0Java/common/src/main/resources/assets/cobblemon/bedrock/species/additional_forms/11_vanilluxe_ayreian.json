@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:vanilluxe",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_ayreianvanilluxe",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianvanilluxe.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_ayreianvanilluxe",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianvanilluxe_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:chillnobyl",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_chillnobyl",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/chillnobyl.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/chillnobyl_shiny.png"
-    }  ]
+    }
+  ]
 }

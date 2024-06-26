@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:azumarill",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_kaskadianazumarill",
+      "texture": "cobblemon:textures/pokemon/generation2/kaskadianazumarill.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_kaskadianazumarill",
+      "texture": "cobblemon:textures/pokemon/generation2/kaskadianazumarill_shiny.png",
+      "layers": []
+    }
+  ]
+}

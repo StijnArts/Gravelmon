@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianTogepi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTogepi(String originalMon, Aspect aspect) {
-        super(originalMon, aspect, "Togepi",
+    public VaritasianTogepi(String name, Aspect aspect) {
+        super(name, aspect, "Togepi",
                 Type.FAIRY, Type.STEEL,
                 new Stats(35,
                         20,

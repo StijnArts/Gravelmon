@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:charizard",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghocharizard",
+      "texture": "cobblemon:textures/pokemon/generation1/eghocharizard.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghocharizard",
+      "texture": "cobblemon:textures/pokemon/generation1/eghocharizard_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:rotillo",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_rotillo",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/rotillo.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/rotillo_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:ripplier",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_ripplier",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/oceane/ripplier.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/ripplier_shiny.png"
-    }  ]
+    }
+  ]
 }

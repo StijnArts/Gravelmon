@@ -12,13 +12,11 @@ import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.interregional.regional.*;
-import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
-import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
@@ -132,16 +130,16 @@ public class GenerationFive extends Game {
         pokemon.add(new BisharpX("", Aspect.X));
 
         //Pokemon Blazing Emerald
-        pokemon.add(new HoennianMaractus("", Aspect.HOENN));
-        pokemon.add(new HoennianSolosis("", Aspect.HOENN));
-        pokemon.add(new HoennianDuosion("", Aspect.HOENN));
-        pokemon.add(new HoennianReuniclus("", Aspect.HOENN));
-        pokemon.add(new HoennianEmolga("", Aspect.HOENN));
-        pokemon.add(new HoennianTynamo("", Aspect.HOENN));
-        pokemon.add(new HoennianEelektrik("", Aspect.HOENN));
-        pokemon.add(new HoennianEelektross("", Aspect.HOENN));
-        pokemon.add(new HoennianPawniard("", Aspect.HOENN));
-        pokemon.add(new HoennianBisharp("", Aspect.HOENN));
+        pokemon.add(new HoennianMaractus("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianSolosis("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianDuosion("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianReuniclus("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianEmolga("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianTynamo("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianEelektrik("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianEelektross("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianPawniard("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianBisharp("", Aspect.HOENNIAN));
 
         //Radical Red
         pokemon.add(new SeviianBlitzle("", Aspect.SEVIIAN));
@@ -167,7 +165,7 @@ public class GenerationFive extends Game {
         pokemon.add(new AyreianSwanna("", Aspect.AYREIAN));
         pokemon.add(new AyreianVanillite("", Aspect.AYREIAN));
         pokemon.add(new AyreianVanillish("", Aspect.AYREIAN));
-        pokemon.add(new AyreianVanniluxe("", Aspect.AYREIAN));
+        pokemon.add(new AyreianVanilluxe("", Aspect.AYREIAN));
 
         //Kaskadian
         pokemon.add(new KaskadianExcadrill("", Aspect.KASKADIAN));

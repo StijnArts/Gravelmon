@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:gneckle",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_gneckle",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/lockemon/gneckle.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/gneckle_shiny.png"
-    }  ]
+    }
+  ]
 }

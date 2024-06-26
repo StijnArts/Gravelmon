@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaBerryCrustle extends Pokemon {
-    public DeltaBerryCrustle(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaBerryCrustle",
+    public DeltaBerryCrustle(String name, Aspect aspect) {
+        super(name, aspect,"DeltaBerryCrustle",
                 Type.GRASS, Type.POISON,
                 new Stats(70, 95, 125, 65, 75, 45),
                 List.of(Ability.HARVEST, Ability.LEAF_GUARD), Ability.CHLOROPHYLL,

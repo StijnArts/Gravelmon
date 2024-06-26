@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:masquerain",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "norheiman"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_norheimanmasquerain",
+      "texture": "cobblemon:textures/pokemon/generation3/norheimanmasquerain.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "norheiman",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_norheimanmasquerain",
+      "texture": "cobblemon:textures/pokemon/generation3/norheimanmasquerain_shiny.png",
+      "layers": []
+    }
+  ]
+}

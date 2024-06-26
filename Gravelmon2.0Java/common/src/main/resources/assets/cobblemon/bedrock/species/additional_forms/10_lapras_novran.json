@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:lapras",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "novran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_novranlapras",
+      "texture": "cobblemon:textures/pokemon/generation1/novranlapras.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "novran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_novranlapras",
+      "texture": "cobblemon:textures/pokemon/generation1/novranlapras_shiny.png",
+      "layers": []
+    }
+  ]
+}

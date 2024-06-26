@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:maractus",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_hoennianmaractus",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_hoennianmaractus",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus_shiny.png",
+      "layers": []
+    }
+  ]
+}

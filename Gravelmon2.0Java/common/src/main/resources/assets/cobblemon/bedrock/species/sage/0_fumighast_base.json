@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:fumighast",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_fumighast",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/fumighast.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/fumighast_shiny.png"
-    }  ]
+    }
+  ]
 }

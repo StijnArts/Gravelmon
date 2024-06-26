@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MysticTreecko extends Pokemon {
-    public MysticTreecko(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MysticTreecko",
+    public MysticTreecko(String name, Aspect aspect) {
+        super(name, aspect,"MysticTreecko",
                 Type.FLYING,
                 new Stats(40, 35, 45, 55, 65, 70),
                 List.of(Ability.LIMBER), Ability.KEEN_EYE,

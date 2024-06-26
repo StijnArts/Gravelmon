@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:aron",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaaron",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaaron.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaaron",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaaron_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:wisplode",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_wisplode",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/wisplode.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/wisplode_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:treecko",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fligian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligiantreecko",
+      "texture": "cobblemon:textures/pokemon/generation3/fligiantreecko.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fligian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_fligiantreecko",
+      "texture": "cobblemon:textures/pokemon/generation3/fligiantreecko_shiny.png",
+      "layers": []
+    }
+  ]
+}

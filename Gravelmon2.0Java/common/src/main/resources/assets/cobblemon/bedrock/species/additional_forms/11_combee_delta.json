@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:combee",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltacombee",
+      "texture": "cobblemon:textures/pokemon/generation4/deltacombee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltacombee",
+      "texture": "cobblemon:textures/pokemon/generation4/deltacombee_shiny.png",
+      "layers": []
+    }
+  ]
+}

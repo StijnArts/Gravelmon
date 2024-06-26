@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianImpidimp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianImpidimp(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Impidimp",
+    public VaritasianImpidimp(String name, Aspect aspect) {
+        super(name, aspect,"Impidimp",
                 Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,

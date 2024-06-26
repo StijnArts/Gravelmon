@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:frozaiden",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_frozaiden",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/frozaiden.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/frozaiden_shiny.png"
-    }  ]
+    }
+  ]
 }

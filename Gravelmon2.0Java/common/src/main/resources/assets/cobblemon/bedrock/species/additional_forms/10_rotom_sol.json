@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "sol"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_solrotom",
+      "texture": "cobblemon:textures/pokemon/generation4/solrotom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "sol",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_solrotom",
+      "texture": "cobblemon:textures/pokemon/generation4/solrotom_shiny.png",
+      "layers": []
+    }
+  ]
+}

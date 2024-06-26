@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:azurill",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_eghoazurill",
+      "texture": "cobblemon:textures/pokemon/generation3/eghoazurill.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_eghoazurill",
+      "texture": "cobblemon:textures/pokemon/generation3/eghoazurill_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class CacturneX extends Pokemon {
-    public CacturneX(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"CacturneX",
+    public CacturneX(String name, Aspect aspect) {
+        super(name, aspect,"CacturneX",
                 Type.GRASS, Type.GHOST,
                 new Stats(125, 115, 70, 60, 65, 40),
                 List.of(Ability.IRON_BARBS), Ability.CURSED_BODY,

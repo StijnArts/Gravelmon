@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class EghoFearow extends Pokemon {
-    public EghoFearow(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"EghoFearow",
+    public EghoFearow(String name, Aspect aspect) {
+        super(name, aspect,"EghoFearow",
                 Type.DARK, Type.FIGHTING,
                 new Stats(65, 112, 55, 50, 50, 110),
                 List.of(Ability.DEFIANT), Ability.ADAPTABILITY,

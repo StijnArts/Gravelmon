@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class DeltaShinx extends Pokemon {
-    public DeltaShinx(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"DeltaShinx",
+    public DeltaShinx(String name, Aspect aspect) {
+        super(name, aspect,"DeltaShinx",
                 Type.STEEL, Type.POISON,
                 new Stats(45, 65,34,40,34,45),
                 List.of(Ability.POISON_TOUCH, Ability.VAMPIRIC), Ability.VENOMOUS,

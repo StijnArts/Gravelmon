@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:orbizarre",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_orbizarre",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/rica/orbizarre.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/orbizarre_shiny.png"
-    }  ]
+    }
+  ]
 }

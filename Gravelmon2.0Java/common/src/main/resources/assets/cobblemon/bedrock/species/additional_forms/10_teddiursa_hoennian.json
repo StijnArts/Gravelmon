@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:teddiursa",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_hoennianteddiursa",
+      "texture": "cobblemon:textures/pokemon/generation2/hoennianteddiursa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_hoennianteddiursa",
+      "texture": "cobblemon:textures/pokemon/generation2/hoennianteddiursa_shiny.png",
+      "layers": []
+    }
+  ]
+}

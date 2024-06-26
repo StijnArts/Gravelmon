@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:metagross",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta_ruin"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaruinmetagross",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta_ruin",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaruinmetagross",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:oculeus",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_oculeus",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/infinity/oculeus.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/oculeus_shiny.png"
-    }  ]
+    }
+  ]
 }

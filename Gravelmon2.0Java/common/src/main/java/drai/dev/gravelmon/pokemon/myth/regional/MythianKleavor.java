@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class MythianKleavor extends Pokemon {
-    public MythianKleavor(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"MythianKleavor",
+    public MythianKleavor(String name, Aspect aspect) {
+        super(name, aspect,"MythianKleavor",
                 Type.FIRE, Type.ROCK,
                 new Stats(70,135,95,45,70,85),
                 List.of(Ability.SHEER_FORCE,Ability.CURSED_BODY), Ability.SHADOW_TAG,

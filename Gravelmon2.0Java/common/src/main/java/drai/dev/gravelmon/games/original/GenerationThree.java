@@ -93,7 +93,7 @@ public class GenerationThree extends Game {
 //        pokemon.add(new AristosianNumel(322)); Missing Art
 //        pokemon.add(new AristosianTaillow(276)); Member of line not finished
 //        pokemon.add(new AristosianNosepass(299)); Missing Art
-        pokemon.add(new AristosianTropius("Tropius", Aspect.HIZIAN));
+        pokemon.add(new AristosianTropius("Tropius", Aspect.ARISTOSIAN));
 
         addEghoPokemon();
 
@@ -138,7 +138,7 @@ public class GenerationThree extends Game {
         pokemon.add(new RelicSpinda("Spinda", Aspect.RELIC));
 
         //Kaskadian
-        pokemon.add(new KaskadianExploud("Exploud", Aspect.RELIC));
+        pokemon.add(new KaskadianExploud("Exploud", Aspect.KASKADIAN));
         pokemon.add(new GutsyCastform("Castform", Aspect.GUTSY));
         pokemon.add(new WindyCastform("Castform", Aspect.WINDY));
         pokemon.add(new SmoggyCastform("Castform", Aspect.SMOGGY));

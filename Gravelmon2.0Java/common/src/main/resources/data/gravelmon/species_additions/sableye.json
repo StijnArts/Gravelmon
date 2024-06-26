@@ -1,0 +1,512 @@
+{
+   "target": "cobblemon:sableye",
+   "forms": [{
+  "name": "Enjinnian",
+  "primaryType": "ice",
+  "secondaryType": "ghost",
+  "abilities": [
+    "keeneye",
+    "icebody",
+    "h:snowcloak"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 80,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 133,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:leer",
+    "1:scratch",
+    "3:foresight",
+    "6:nightslash",
+    "8:iceshard",
+    "10:astonish",
+    "12:furyswipes",
+    "14:detect",
+    "16:shadowsneak",
+    "19:iciclespear",
+    "21:fakeout",
+    "26:mist",
+    "29:shadowclaw",
+    "31:confuseray",
+    "34:zenheadbutt",
+    "36:powergemcrystal",
+    "39:shadowball",
+    "41:avalanche",
+    "46:grudge",
+    "50:iciclecrash",
+    "58:blizzard",
+    "tm:signalbeam",
+    "tm:knockoff",
+    "tm:thunderpunch",
+    "tm:focuspunch",
+    "tm:firepunch",
+    "tm:poltergeist",
+    "tm:spite",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:tripleaxel",
+    "tm:painsplit",
+    "tm:snoresound",
+    "tm:allyswitch",
+    "tm:magiccoat",
+    "tm:trick",
+    "tm:waterpulse",
+    "tm:payback",
+    "tm:thief",
+    "tm:torment",
+    "tm:dazzlinggleam",
+    "tm:brickbreak",
+    "tm:lowsweep",
+    "tm:rocksmash",
+    "tm:aerialace",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:blizzard",
+    "tm:frostbreath",
+    "tm:snowscape",
+    "tm:icebeam",
+    "tm:attract",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:psychup",
+    "tm:return",
+    "tm:roundsound",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:poisonjab",
+    "tm:toxic",
+    "tm:calmmind",
+    "tm:dreameater",
+    "tm:rest"  ],
+  "labels": [
+    "enjin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.enjinniansableye.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "enjinniansableye_eyeziant",
+      "variant": "level_up",
+      "result": "eyeziant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 310,
+  "aspects": ["enjinnian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "fire",
+  "secondaryType": "rock",
+  "abilities": [
+    "solidrock",
+    "weakarmor",
+    "h:unburden"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 75,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Mega",
+      "primaryType": "fire",
+      "secondaryType": "rock",
+      "abilities": [
+    "dryskin",
+    "dryskin",
+    "h:unburden"
+      ],
+      "baseScale": 0.65,
+        "hitbox": {
+          "width": 0.7,
+          "height": 1.2,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 85,
+        "defence": 125,
+        "special_attack": 85,
+        "special_defence": 115,
+        "speed": 20
+      },
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 199,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 0,
+      "weight": 1100,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 199,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:leer",
+    "1:pound",
+    "4:glare",
+    "6:rockthrow",
+    "9:ember",
+    "11:barrage",
+    "14:detect",
+    "16:rocktomb",
+    "19:incinerate",
+    "21:fakeout",
+    "24:rockblast",
+    "26:knockoff",
+    "29:firepunch",
+    "31:willowisp",
+    "34:fling",
+    "36:rocksmash",
+    "39:inferno",
+    "41:rockslide",
+    "44:fierydance",
+    "46:meanlook",
+    "tm:honeclaws",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:overheat",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:willowisp",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:quash",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:cut",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bodyslam",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:dig",
+    "tutor:dynamicpunch",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:fakeout",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:heatwave",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:metronome",
+    "tutor:mimic",
+    "tutor:seismictoss",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:trick",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen1",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltasableye.desc"
+  ],
+  "baseScale": 0.65,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.2,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 110,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Cefiran",
+  "primaryType": "dark",
+  "secondaryType": "rock",
+  "abilities": [
+    "hustle",
+    "h:prankster"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 95,
+    "defence": 75,
+    "special_attack": 80,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 133,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:leer",
+    "1:scratch",
+    "4:foresight",
+    "8:mudshot",
+    "11:astonish",
+    "15:furyswipes",
+    "18:fakeout",
+    "22:detect",
+    "25:rocktomb",
+    "29:knockoff",
+    "32:feintattack",
+    "39:rockslide",
+    "43:powergemcrystal",
+    "46:confuseray",
+    "53:nightslash",
+    "57:earthquake",
+    "60:meanlook",
+    "egg:captivate",
+    "egg:feint",
+    "egg:flatter",
+    "egg:meanlook",
+    "egg:metalburst",
+    "egg:moonlight",
+    "egg:nastyplot",
+    "egg:recover",
+    "egg:suckerpunch",
+    "egg:trick"  ],
+  "labels": [
+    "gen3",
+    "opal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiransableye.desc"
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 110,
+  "aspects": ["cefiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"enjinnian",
+"delta",
+"cefiran"
+  ]
+}

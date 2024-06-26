@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:boxeroo",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_boxeroo",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/umbra/boxeroo.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/boxeroo_shiny.png"
-    }  ]
+    }
+  ]
 }

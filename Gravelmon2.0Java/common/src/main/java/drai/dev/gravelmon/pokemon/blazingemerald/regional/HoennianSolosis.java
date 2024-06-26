@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianSolosis extends Pokemon {
-    public HoennianSolosis(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianSolosis",
+    public HoennianSolosis(String name, Aspect aspect) {
+        super(name, aspect,"HoennianSolosis",
                 Type.PSYCHIC, Type.GRASS,
                 new Stats(45, 25, 50, 105, 50, 20),
                 List.of(Ability.FRUITRITION), Ability.FRUITRITION,

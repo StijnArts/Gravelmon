@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:karakoron",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_karakoron",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/karakoron.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/karakoron_shiny.png"
-    }  ]
+    }
+  ]
 }

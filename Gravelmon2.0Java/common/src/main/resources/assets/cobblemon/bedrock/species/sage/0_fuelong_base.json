@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:fuelong",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_fuelong",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/fuelong.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/fuelong_shiny.png"
-    }  ]
+    }
+  ]
 }

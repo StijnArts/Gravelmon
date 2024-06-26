@@ -84,7 +84,7 @@ public class Cindera extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ATLAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_NETHER_BASALT))
+                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_VOLCANIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

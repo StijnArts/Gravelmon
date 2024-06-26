@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:aggron",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreianaggron",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianaggron.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_ayreianaggron",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianaggron_shiny.png",
+      "layers": []
+    }
+  ]
+}

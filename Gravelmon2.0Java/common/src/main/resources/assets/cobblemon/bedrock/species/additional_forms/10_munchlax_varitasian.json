@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:munchlax",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "varitasian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_varitasianmunchlax",
+      "texture": "cobblemon:textures/pokemon/generation4/varitasianmunchlax.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "varitasian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_varitasianmunchlax",
+      "texture": "cobblemon:textures/pokemon/generation4/varitasianmunchlax_shiny.png",
+      "layers": []
+    }
+  ]
+}

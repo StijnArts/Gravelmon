@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gastrodon",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "rican"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_ricangastrodon",
+      "texture": "cobblemon:textures/pokemon/generation4/ricangastrodon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "rican",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_ricangastrodon",
+      "texture": "cobblemon:textures/pokemon/generation4/ricangastrodon_shiny.png",
+      "layers": []
+    }
+  ]
+}

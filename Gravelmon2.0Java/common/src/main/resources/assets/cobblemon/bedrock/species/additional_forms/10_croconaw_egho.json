@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:croconaw",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghocroconaw",
+      "texture": "cobblemon:textures/pokemon/generation2/eghocroconaw.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghocroconaw",
+      "texture": "cobblemon:textures/pokemon/generation2/eghocroconaw_shiny.png",
+      "layers": []
+    }
+  ]
+}

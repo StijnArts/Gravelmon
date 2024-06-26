@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:sandaconda",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation8_hiziansandaconda",
+      "texture": "cobblemon:textures/pokemon/generation8/hiziansandaconda.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation8_hiziansandaconda",
+      "texture": "cobblemon:textures/pokemon/generation8/hiziansandaconda_shiny.png",
+      "layers": []
+    }
+  ]
+}

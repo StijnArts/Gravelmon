@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:delcatty",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hiziandelcatty",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziandelcatty.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hiziandelcatty",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziandelcatty_shiny.png",
+      "layers": []
+    }
+  ]
+}

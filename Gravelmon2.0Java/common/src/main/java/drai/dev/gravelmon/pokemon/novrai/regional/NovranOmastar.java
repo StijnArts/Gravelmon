@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranOmastar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranOmastar(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"Omastar",
+    public NovranOmastar(String name, Aspect aspect) {
+        super(name, aspect, "Omastar",
                 Type.ROCK, Type.DRAGON,
                 new Stats(70,
                         60,

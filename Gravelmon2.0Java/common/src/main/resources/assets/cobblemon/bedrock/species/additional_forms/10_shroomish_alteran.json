@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:shroomish",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "alteran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_alteranshroomish",
+      "texture": "cobblemon:textures/pokemon/generation3/alteranshroomish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alteran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_alteranshroomish",
+      "texture": "cobblemon:textures/pokemon/generation3/alteranshroomish_shiny.png",
+      "layers": []
+    }
+  ]
+}

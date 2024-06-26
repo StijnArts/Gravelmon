@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:telefrog",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_telefrog",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/umbra/telefrog.png",
       "layers": []
@@ -18,15 +17,13 @@
     {
       "aspects": [
         "female"
-      ],
-      "texture": "cobblemon:textures/pokemon/umbra/telefrog_female.png"
+      ]
     },
     {
       "aspects": [
         "female",
         "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/umbra/telefrog_female_shiny.png"
+      ]
     }
   ]
 }

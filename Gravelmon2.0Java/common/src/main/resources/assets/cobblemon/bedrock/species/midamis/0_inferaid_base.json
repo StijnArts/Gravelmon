@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:inferaid",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_inferaid",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/midamis/inferaid.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/inferaid_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianDewgong extends Pokemon {
-    public HoennianDewgong(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianDewgong",
+    public HoennianDewgong(String name, Aspect aspect) {
+        super(name, aspect,"HoennianDewgong",
                 Type.WATER, Type.DARK,
                 new Stats(135, 115, 85, 45, 70, 65),
                 List.of(Ability.THICK_FAT), Ability.SWIFT_SWIM,

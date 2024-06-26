@@ -40,7 +40,7 @@ public class Avocallite extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.LONAVA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 43, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

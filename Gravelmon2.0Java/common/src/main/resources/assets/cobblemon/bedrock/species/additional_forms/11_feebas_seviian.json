@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:feebas",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "seviian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_seviianfeebas",
+      "texture": "cobblemon:textures/pokemon/generation3/seviianfeebas.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "seviian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_seviianfeebas",
+      "texture": "cobblemon:textures/pokemon/generation3/seviianfeebas_shiny.png",
+      "layers": []
+    }
+  ]
+}

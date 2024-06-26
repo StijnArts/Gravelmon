@@ -9,8 +9,8 @@ import drai.dev.gravelmon.util.*;
 import java.util.*;
 
 public class HoennianChinchou extends Pokemon {
-    public HoennianChinchou(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"HoennianChinchou",
+    public HoennianChinchou(String name, Aspect aspect) {
+        super(name, aspect,"HoennianChinchou",
                 Type.WATER, Type.GHOST,
                 new Stats(55, 38, 38, 100, 66, 57),
                 List.of(Ability.CLEAR_BODY), Ability.LIQUID_OOZE,

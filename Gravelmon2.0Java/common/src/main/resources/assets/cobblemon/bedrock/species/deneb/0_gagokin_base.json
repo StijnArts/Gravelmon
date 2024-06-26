@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:gagokin",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_gagokin",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/deneb/gagokin.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/gagokin_shiny.png"
-    }  ]
+    }
+  ]
 }

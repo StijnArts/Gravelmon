@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:anorith",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "hizian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hiziananorith",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziananorith.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hizian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_hiziananorith",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziananorith_shiny.png",
+      "layers": []
+    }
+  ]
+}

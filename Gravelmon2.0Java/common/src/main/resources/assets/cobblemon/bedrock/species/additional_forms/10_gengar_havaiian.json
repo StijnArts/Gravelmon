@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gengar",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "havaiian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_havaiiangengar",
+      "texture": "cobblemon:textures/pokemon/generation1/havaiiangengar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "havaiian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_havaiiangengar",
+      "texture": "cobblemon:textures/pokemon/generation1/havaiiangengar_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gallade",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltagallade",
+      "texture": "cobblemon:textures/pokemon/generation4/deltagallade.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation4_deltagallade",
+      "texture": "cobblemon:textures/pokemon/generation4/deltagallade_shiny.png",
+      "layers": []
+    }
+  ]
+}

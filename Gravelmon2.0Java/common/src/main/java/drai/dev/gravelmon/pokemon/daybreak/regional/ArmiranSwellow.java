@@ -8,8 +8,8 @@ import java.util.*;
 import java.util.*;
 
 public class ArmiranSwellow extends Pokemon {
-    public ArmiranSwellow(String originalMon, Aspect aspect) {
-        super(originalMon, aspect,"ArmiranSwellow",
+    public ArmiranSwellow(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranSwellow",
                 Type.ELECTRIC, Type.FLYING,
                 new Stats(60, 65, 60, 85, 50, 135),
                 List.of(Ability.MOTOR_DRIVE), Ability.GALVANIZE,

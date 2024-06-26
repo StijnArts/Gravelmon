@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "loathedisc",
-  "nationalPokedexNumber": 2194,
+  "nationalPokedexNumber": 2212,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
@@ -118,7 +118,7 @@
   "pokedex": [
     "cobblemon.species.loathedisc.desc"
   ],
-  "preEvolution": "ayreianluvdisc",
+  "preEvolution": "Luvdisc form=ayreian",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,

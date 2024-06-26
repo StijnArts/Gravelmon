@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:muk",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghomuk",
+      "texture": "cobblemon:textures/pokemon/generation1/eghomuk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_eghomuk",
+      "texture": "cobblemon:textures/pokemon/generation1/eghomuk_shiny.png",
+      "layers": []
+    }
+  ]
+}

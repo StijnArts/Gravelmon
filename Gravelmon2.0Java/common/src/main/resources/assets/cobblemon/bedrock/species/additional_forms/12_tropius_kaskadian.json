@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:tropius",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_kaskadiantropius",
+      "texture": "cobblemon:textures/pokemon/generation3/kaskadiantropius.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_kaskadiantropius",
+      "texture": "cobblemon:textures/pokemon/generation3/kaskadiantropius_shiny.png",
+      "layers": []
+    }
+  ]
+}

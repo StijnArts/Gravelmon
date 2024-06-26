@@ -8,7 +8,6 @@ import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.novrai.regional.*;
-import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
@@ -53,9 +52,9 @@ public class GenerationEight extends Game {
         pokemon.add(new HizianSandaconda("", Aspect.HIZIAN));
 
           //Pokemon Blazing Emerald
-        pokemon.add(new HoennianDreepy("", Aspect.HOENN));
-        pokemon.add(new HoennianDrakloak("", Aspect.HOENN));
-        pokemon.add(new HoennianDragapult("", Aspect.HOENN));
+        pokemon.add(new HoennianDreepy("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianDrakloak("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianDragapult("", Aspect.HOENNIAN));
 
         //Radical Red
         pokemon.add(new SeviianSizzlipede("", Aspect.SEVIIAN));

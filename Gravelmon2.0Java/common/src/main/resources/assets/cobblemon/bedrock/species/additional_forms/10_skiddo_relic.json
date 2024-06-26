@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:skiddo",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "relic"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_relicskiddo",
+      "texture": "cobblemon:textures/pokemon/generation6/relicskiddo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "relic",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_relicskiddo",
+      "texture": "cobblemon:textures/pokemon/generation6/relicskiddo_shiny.png",
+      "layers": []
+    }
+  ]
+}

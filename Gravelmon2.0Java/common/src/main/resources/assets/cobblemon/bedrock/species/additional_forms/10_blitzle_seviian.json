@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:blitzle",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "seviian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_seviianblitzle",
+      "texture": "cobblemon:textures/pokemon/generation5/seviianblitzle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "seviian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_seviianblitzle",
+      "texture": "cobblemon:textures/pokemon/generation5/seviianblitzle_shiny.png",
+      "layers": []
+    }
+  ]
+}
