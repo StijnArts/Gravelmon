@@ -192,7 +192,7 @@
   "pokedex": [
     "cobblemon.species.deltafroslass.desc"
   ],
-  "preEvolution": "Snorunt form=delta",
+  "preEvolution": "snorunt form=delta",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
@@ -296,7 +296,7 @@
   "pokedex": [
     "cobblemon.species.cefiranfroslass.desc"
   ],
-  "preEvolution": "Snorunt form=cefiran",
+  "preEvolution": "snorunt form=cefiran",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

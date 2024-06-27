@@ -136,9 +136,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreianpumpkaboo_Gourgeist",
+      "id": "ayreianpumpkaboo_gourgeist",
       "variant": "level_up",
-      "result": "Gourgeist ayreian",
+      "result": "gourgeist ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

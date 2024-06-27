@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltasolosis-1",
-      "pokemon": "solosis delta",
+      "pokemon": "Optional[solosis] delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "hoenniansolosis-1",
-      "pokemon": "solosis hoennian",
+      "pokemon": "Optional[solosis] hoennian",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "kaskadiansolosis-1",
-      "pokemon": "solosis kaskadian",
+      "pokemon": "Optional[solosis] kaskadian",
       "presets": [
           "reef"
       ],
@@ -63,7 +63,7 @@
 ,
     {
       "id": "mysticsolosis-1",
-      "pokemon": "solosis mystic",
+      "pokemon": "Optional[solosis] mystic",
       "presets": [
           "natural"
       ],

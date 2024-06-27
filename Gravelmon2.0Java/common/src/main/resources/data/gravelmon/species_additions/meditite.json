@@ -142,9 +142,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltameditite_Medicham",
+      "id": "deltameditite_medicham",
       "variant": "level_up",
-      "result": "Medicham delta",
+      "result": "medicham delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

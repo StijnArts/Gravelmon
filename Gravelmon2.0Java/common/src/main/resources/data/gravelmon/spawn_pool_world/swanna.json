@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianswanna-1",
-      "pokemon": "swanna ayreian",
+      "pokemon": "Optional[swanna] ayreian",
       "presets": [
           "near_water"
       ],

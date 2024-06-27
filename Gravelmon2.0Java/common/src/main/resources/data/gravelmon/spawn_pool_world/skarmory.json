@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hoennianskarmory-1",
-      "pokemon": "skarmory hoennian",
+      "pokemon": "Optional[skarmory] hoennian",
       "presets": [
           "natural"
       ],

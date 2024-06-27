@@ -155,9 +155,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltanoibat_Noivern",
+      "id": "deltanoibat_noivern",
       "variant": "level_up",
-      "result": "Noivern delta",
+      "result": "noivern delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -325,9 +325,9 @@
   ],
   "evolutions": [
     {
-      "id": "seviiannoibat_Noivern",
+      "id": "seviiannoibat_noivern",
       "variant": "level_up",
-      "result": "Noivern seviian",
+      "result": "noivern seviian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -493,9 +493,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreiannoibat_Noivern",
+      "id": "ayreiannoibat_noivern",
       "variant": "level_up",
-      "result": "Noivern ayreian",
+      "result": "noivern ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

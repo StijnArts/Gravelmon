@@ -174,7 +174,7 @@
   "pokedex": [
     "cobblemon.species.ayreianpangoro.desc"
   ],
-  "preEvolution": "Pancham form=ayreian",
+  "preEvolution": "pancham form=ayreian",
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,

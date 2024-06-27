@@ -108,9 +108,9 @@
   ],
   "evolutions": [
     {
-      "id": "seviianmantyke_Mantine",
+      "id": "seviianmantyke_mantine",
       "variant": "level_up",
-      "result": "Mantine seviian",
+      "result": "mantine seviian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

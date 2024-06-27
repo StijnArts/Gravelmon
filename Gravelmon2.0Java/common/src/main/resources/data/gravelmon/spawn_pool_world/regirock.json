@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaregirock-1",
-      "pokemon": "regirock delta",
+      "pokemon": "Optional[regirock] delta",
       "presets": [
           "natural"
       ],

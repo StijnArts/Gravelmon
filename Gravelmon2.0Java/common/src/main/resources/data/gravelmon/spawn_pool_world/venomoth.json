@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianvenomoth-1",
-      "pokemon": "venomoth hizian",
+      "pokemon": "Optional[venomoth] hizian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "cefiranvenomoth-1",
-      "pokemon": "venomoth cefiran",
+      "pokemon": "Optional[venomoth] cefiran",
       "presets": [
           "natural"
       ],

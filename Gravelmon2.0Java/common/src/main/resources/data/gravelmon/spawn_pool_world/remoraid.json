@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaremoraid-1",
-      "pokemon": "remoraid delta",
+      "pokemon": "Optional[remoraid] delta",
       "presets": [
           "lava_surface"
       ],

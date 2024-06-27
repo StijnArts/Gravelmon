@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosianmareep-1",
-      "pokemon": "mareep aristosian",
+      "pokemon": "Optional[mareep] aristosian",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "mythianmareep-1",
-      "pokemon": "mareep mythian",
+      "pokemon": "Optional[mareep] mythian",
       "presets": [
           "natural"
       ],

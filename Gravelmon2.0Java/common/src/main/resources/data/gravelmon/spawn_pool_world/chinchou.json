@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltachinchou-1",
-      "pokemon": "chinchou delta",
+      "pokemon": "Optional[chinchou] delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hoennianchinchou-1",
-      "pokemon": "chinchou hoennian",
+      "pokemon": "Optional[chinchou] hoennian",
       "presets": [
           "underwater"
       ],

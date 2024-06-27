@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosianspinarak-1",
-      "pokemon": "spinarak aristosian",
+      "pokemon": "Optional[spinarak] aristosian",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "ayreianspinarak-1",
-      "pokemon": "spinarak ayreian",
+      "pokemon": "Optional[spinarak] ayreian",
       "presets": [
           "natural"
       ],

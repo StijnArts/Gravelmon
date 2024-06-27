@@ -140,9 +140,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltasunkern_Sunflora",
+      "id": "deltasunkern_sunflora",
       "variant": "item_interact",
-      "result": "Sunflora delta",
+      "result": "sunflora delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

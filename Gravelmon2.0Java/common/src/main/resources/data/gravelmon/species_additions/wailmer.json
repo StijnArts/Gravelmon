@@ -247,9 +247,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltawailmer_Wailord",
+      "id": "deltawailmer_wailord",
       "variant": "level_up",
-      "result": "Wailord delta",
+      "result": "wailord delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

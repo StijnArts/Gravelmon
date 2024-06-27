@@ -130,9 +130,9 @@
   ],
   "evolutions": [
     {
-      "id": "hizianaron_Lairon",
+      "id": "hizianaron_lairon",
       "variant": "level_up",
-      "result": "Lairon hizian",
+      "result": "lairon hizian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -302,9 +302,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltaaron_Lairon",
+      "id": "deltaaron_lairon",
       "variant": "level_up",
-      "result": "Lairon delta",
+      "result": "lairon delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -506,9 +506,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreianaron_Lairon",
+      "id": "ayreianaron_lairon",
       "variant": "level_up",
-      "result": "Lairon ayreian",
+      "result": "lairon ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

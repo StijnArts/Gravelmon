@@ -130,7 +130,7 @@
   "pokedex": [
     "cobblemon.species.hizianaggron.desc"
   ],
-  "preEvolution": "Lairon form=hizian",
+  "preEvolution": "lairon form=hizian",
   "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
@@ -315,7 +315,7 @@
   "pokedex": [
     "cobblemon.species.deltaaggron.desc"
   ],
-  "preEvolution": "Lairon form=delta",
+  "preEvolution": "lairon form=delta",
   "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
@@ -506,7 +506,7 @@
   "pokedex": [
     "cobblemon.species.ayreianaggron.desc"
   ],
-  "preEvolution": "Lairon form=ayreian",
+  "preEvolution": "lairon form=ayreian",
   "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,

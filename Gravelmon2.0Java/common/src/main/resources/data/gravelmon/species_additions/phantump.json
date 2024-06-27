@@ -122,9 +122,9 @@
   ],
   "evolutions": [
     {
-      "id": "varitasianphantump_Trevenant",
+      "id": "varitasianphantump_trevenant",
       "variant": "trade",
-      "result": "Trevenant varitasian",
+      "result": "trevenant varitasian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -292,9 +292,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltaphantump_Trevenant",
+      "id": "deltaphantump_trevenant",
       "variant": "trade",
-      "result": "Trevenant delta",
+      "result": "trevenant delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -441,9 +441,9 @@
   ],
   "evolutions": [
     {
-      "id": "kaskadianphantump_Trevenant",
+      "id": "kaskadianphantump_trevenant",
       "variant": "level_up",
-      "result": "Trevenant kaskadian",
+      "result": "trevenant kaskadian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

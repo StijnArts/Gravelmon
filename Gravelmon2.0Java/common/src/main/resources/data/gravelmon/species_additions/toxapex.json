@@ -1,6 +1,145 @@
 {
    "target": "cobblemon:toxapex",
    "forms": [{
+  "name": "X",
+  "primaryType": "poison",
+  "secondaryType": "fire",
+  "abilities": [
+    "arenatrap",
+    "h:merciless"
+  ],
+  "baseStats": {
+    "hp": 142,
+    "attack": 63,
+    "defence": 53,
+    "special_attack": 147,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
+  "moves": [
+    "1:bind",
+    "1:poisonsting",
+    "1:confuseray",
+    "1:bite",
+    "15:venoshock",
+    "20:recover",
+    "25:firespin",
+    "30:toxicspikes",
+    "38:fireblast",
+    "42:venomdrench",
+    "49:poisonjab",
+    "56:toxic",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:overheat",
+    "tm:willowisp",
+    "tm:payback",
+    "tm:infestation",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "tutor:block",
+    "tutor:covet",
+    "tutor:flash",
+    "tutor:gastroacid",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:knockoff",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:secretpower",
+    "tutor:snatch",
+    "tutor:snoresound",
+    "tutor:spite"  ],
+  "labels": [
+    "xenoverse",
+    "gen7",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.toxapexx.desc"
+  ],
+  "preEvolution": "mareanie form=x",
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 145,
+  "aspects": ["x"],
+  "cannotDynamax": false
+},
+{
   "name": "Hoennian",
   "primaryType": "rock",
   "secondaryType": "poison",
@@ -113,6 +252,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"x",
 "hoennian"
   ]
 }

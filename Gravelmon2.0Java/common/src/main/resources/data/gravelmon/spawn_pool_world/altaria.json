@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianaltaria-1",
-      "pokemon": "altaria varitasian",
+      "pokemon": "Optional[altaria] varitasian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "eghoaltaria-1",
-      "pokemon": "altaria egho",
+      "pokemon": "Optional[altaria] egho",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "ayreianaltaria-1",
-      "pokemon": "altaria ayreian",
+      "pokemon": "Optional[altaria] ayreian",
       "presets": [
           "natural"
       ],

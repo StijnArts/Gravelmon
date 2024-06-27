@@ -129,7 +129,7 @@ public class Pokemon {
     }
 
     private void addAdditionalForm(String originalPokemon, Pokemon pokemon) {
-        var key = originalPokemon;
+        var key = originalPokemon.toLowerCase();
         if(key.isBlank()){
             key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"");
         }

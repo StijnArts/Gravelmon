@@ -150,9 +150,9 @@
   ],
   "evolutions": [
     {
-      "id": "varitasiantogepi_Togetic",
+      "id": "varitasiantogepi_togetic",
       "variant": "level_up",
-      "result": "Togetic varitasian",
+      "result": "togetic varitasian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -342,9 +342,9 @@
   ],
   "evolutions": [
     {
-      "id": "hubiantogepi_Togetic",
+      "id": "hubiantogepi_togetic",
       "variant": "level_up",
-      "result": "Togetic hubian",
+      "result": "togetic hubian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

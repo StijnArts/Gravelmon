@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aegislashx-1",
-      "pokemon": "aegislash x",
+      "pokemon": "Optional[aegislash] x",
       "presets": [
           "natural"
       ],

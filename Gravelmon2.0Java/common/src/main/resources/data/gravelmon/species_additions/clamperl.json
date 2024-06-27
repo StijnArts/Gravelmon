@@ -98,9 +98,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltaclamperl_Huntail",
+      "id": "deltaclamperl_huntail",
       "variant": "level_up",
-      "result": "Huntail delta",
+      "result": "huntail delta",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [
@@ -112,9 +112,9 @@
       "permanent": true   
  },
     {
-      "id": "deltaclamperl_Gorebyss",
+      "id": "deltaclamperl_gorebyss",
       "variant": "level_up",
-      "result": "Gorebyss delta",
+      "result": "gorebyss delta",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [

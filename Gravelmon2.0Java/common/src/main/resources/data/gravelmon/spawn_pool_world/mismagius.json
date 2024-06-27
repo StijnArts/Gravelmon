@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanmismagius-1",
-      "pokemon": "mismagius norheiman",
+      "pokemon": "Optional[mismagius] norheiman",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "hizianmismagius-1",
-      "pokemon": "mismagius hizian",
+      "pokemon": "Optional[mismagius] hizian",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "deltamismagius-1",
-      "pokemon": "mismagius delta",
+      "pokemon": "Optional[mismagius] delta",
       "presets": [
           "natural"
       ],

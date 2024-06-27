@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviiandhelmise-1",
-      "pokemon": "dhelmise seviian",
+      "pokemon": "Optional[dhelmise] seviian",
       "presets": [
           "natural"
       ],

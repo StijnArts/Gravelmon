@@ -228,7 +228,7 @@
   "pokedex": [
     "cobblemon.species.deltamedicham.desc"
   ],
-  "preEvolution": "Meditite form=delta",
+  "preEvolution": "meditite form=delta",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

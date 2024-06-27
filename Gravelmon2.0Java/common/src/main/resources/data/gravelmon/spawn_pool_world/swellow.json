@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "armiranswellow-1",
-      "pokemon": "swellow armiran",
+      "pokemon": "Optional[swellow] armiran",
       "presets": [
           "natural"
       ],

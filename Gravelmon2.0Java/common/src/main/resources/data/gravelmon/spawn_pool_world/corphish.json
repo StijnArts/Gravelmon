@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimancorphish-1",
-      "pokemon": "corphish norheiman",
+      "pokemon": "Optional[corphish] norheiman",
       "presets": [
           "underwater"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltawaterlilligant-1",
-      "pokemon": "lilligant deltawater",
+      "pokemon": "Optional[lilligant] deltawater",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltafairylilligant-1",
-      "pokemon": "lilligant deltafairy",
+      "pokemon": "Optional[lilligant] deltafairy",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "cefiranlilligant-1",
-      "pokemon": "lilligant cefiran",
+      "pokemon": "Optional[lilligant] cefiran",
       "presets": [
           "natural"
       ],

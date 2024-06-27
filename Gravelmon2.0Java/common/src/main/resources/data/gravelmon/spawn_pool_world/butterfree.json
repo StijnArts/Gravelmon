@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianbutterfree-1",
-      "pokemon": "butterfree ayreian",
+      "pokemon": "Optional[butterfree] ayreian",
       "presets": [
           "natural"
       ],

@@ -138,12 +138,12 @@
   "pokedex": [
     "cobblemon.species.ayreianvibrava.desc"
   ],
-  "preEvolution": "Trapinch form=ayreian",
+  "preEvolution": "trapinch form=ayreian",
   "evolutions": [
     {
-      "id": "ayreianvibrava_Flygon",
+      "id": "ayreianvibrava_flygon",
       "variant": "level_up",
-      "result": "Flygon ayreian",
+      "result": "flygon ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -250,9 +250,9 @@
   ],
   "evolutions": [
     {
-      "id": "cefiranvibrava_Flygon",
+      "id": "cefiranvibrava_flygon",
       "variant": "level_up",
-      "result": "Flygon cefiran",
+      "result": "flygon cefiran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

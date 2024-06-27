@@ -111,7 +111,7 @@
   "pokedex": [
     "cobblemon.species.varitasianfloette.desc"
   ],
-  "preEvolution": "Flabebe form=varitasian",
+  "preEvolution": "flabebe form=varitasian",
   "evolutions": [
     {
       "id": "varitasianfloette_sporges",

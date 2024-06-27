@@ -145,7 +145,7 @@
   "pokedex": [
     "cobblemon.species.ayreiangourgeist.desc"
   ],
-  "preEvolution": "Pumpkaboo form=ayreian",
+  "preEvolution": "pumpkaboo form=ayreian",
   "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,

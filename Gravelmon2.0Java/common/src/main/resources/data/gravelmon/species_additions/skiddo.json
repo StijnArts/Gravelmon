@@ -130,9 +130,9 @@
   ],
   "evolutions": [
     {
-      "id": "relicskiddo_Gogoat",
+      "id": "relicskiddo_gogoat",
       "variant": "level_up",
-      "result": "Gogoat relic",
+      "result": "gogoat relic",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

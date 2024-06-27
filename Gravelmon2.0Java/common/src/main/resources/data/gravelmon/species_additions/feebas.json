@@ -102,9 +102,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltafeebas_Milotic",
+      "id": "deltafeebas_milotic",
       "variant": "level_up",
-      "result": "Milotic delta",
+      "result": "milotic delta",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [
@@ -229,9 +229,9 @@
   ],
   "evolutions": [
     {
-      "id": "seviianfeebas_Milotic",
+      "id": "seviianfeebas_milotic",
       "variant": "level_up",
-      "result": "Milotic seviian",
+      "result": "milotic seviian",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [

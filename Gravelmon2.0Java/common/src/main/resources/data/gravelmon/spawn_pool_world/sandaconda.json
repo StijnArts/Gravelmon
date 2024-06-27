@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hiziansandaconda-1",
-      "pokemon": "sandaconda hizian",
+      "pokemon": "Optional[sandaconda] hizian",
       "presets": [
           "natural"
       ],

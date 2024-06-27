@@ -138,7 +138,7 @@
   "pokedex": [
     "cobblemon.species.deltashiftry.desc"
   ],
-  "preEvolution": "Nuzleaf form=delta",
+  "preEvolution": "nuzleaf form=delta",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

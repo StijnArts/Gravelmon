@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianklink-1",
-      "pokemon": "klink varitasian",
+      "pokemon": "Optional[klink] varitasian",
       "presets": [
           "natural"
       ],

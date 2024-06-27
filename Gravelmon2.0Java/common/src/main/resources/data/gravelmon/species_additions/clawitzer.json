@@ -114,7 +114,7 @@
   "pokedex": [
     "cobblemon.species.seviianclawitzer.desc"
   ],
-  "preEvolution": "Clauncher form=seviian",
+  "preEvolution": "clauncher form=seviian",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

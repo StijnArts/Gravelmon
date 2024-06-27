@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanelectrode-1",
-      "pokemon": "electrode norheiman",
+      "pokemon": "Optional[electrode] norheiman",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianelectrode-1",
-      "pokemon": "electrode ayreian",
+      "pokemon": "Optional[electrode] ayreian",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "mysticelectrode-1",
-      "pokemon": "electrode mystic",
+      "pokemon": "Optional[electrode] mystic",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianlickitung-1",
-      "pokemon": "lickitung hizian",
+      "pokemon": "Optional[lickitung] hizian",
       "presets": [
           "natural"
       ],

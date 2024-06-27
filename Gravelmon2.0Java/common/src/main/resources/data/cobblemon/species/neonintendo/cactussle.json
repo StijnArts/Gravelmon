@@ -161,7 +161,7 @@
   "pokedex": [
     "cobblemon.species.cactussle.desc"
   ],
-  "preEvolution": "Cacnea form=neo",
+  "preEvolution": "cacnea form=neo",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

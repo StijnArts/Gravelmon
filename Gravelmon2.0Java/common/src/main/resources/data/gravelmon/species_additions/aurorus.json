@@ -147,7 +147,7 @@
   "pokedex": [
     "cobblemon.species.deltaaurorus.desc"
   ],
-  "preEvolution": "Amaura form=delta",
+  "preEvolution": "amaura form=delta",
   "baseScale": 0.6749999999999999,
   "hitbox": {
     "width": 6.0,

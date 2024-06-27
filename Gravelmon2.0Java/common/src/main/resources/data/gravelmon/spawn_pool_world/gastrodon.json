@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligiangastrodon-1",
-      "pokemon": "gastrodon fligian",
+      "pokemon": "Optional[gastrodon] fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ricangastrodon-1",
-      "pokemon": "gastrodon rican",
+      "pokemon": "Optional[gastrodon] rican",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianflabebe-1",
-      "pokemon": "flabebe varitasian",
+      "pokemon": "Optional[flabebe] varitasian",
       "presets": [
           "natural"
       ],

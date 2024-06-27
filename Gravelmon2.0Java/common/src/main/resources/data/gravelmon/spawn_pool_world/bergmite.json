@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltabergmite-1",
-      "pokemon": "bergmite delta",
+      "pokemon": "Optional[bergmite] delta",
       "presets": [
           "natural"
       ],

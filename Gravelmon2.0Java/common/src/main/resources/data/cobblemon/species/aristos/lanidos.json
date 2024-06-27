@@ -109,7 +109,7 @@
   "pokedex": [
     "cobblemon.species.lanidos.desc"
   ],
-  "preEvolution": "Spinarak form=aristosian",
+  "preEvolution": "spinarak form=aristosian",
   "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,

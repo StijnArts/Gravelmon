@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadianabomasnow-1",
-      "pokemon": "abomasnow kaskadian",
+      "pokemon": "Optional[abomasnow] kaskadian",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "cefiranabomasnow-1",
-      "pokemon": "abomasnow cefiran",
+      "pokemon": "Optional[abomasnow] cefiran",
       "presets": [
           "natural"
       ],

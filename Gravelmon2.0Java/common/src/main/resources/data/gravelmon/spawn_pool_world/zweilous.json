@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltazweilous-1",
-      "pokemon": "zweilous delta",
+      "pokemon": "Optional[zweilous] delta",
       "presets": [
           "natural"
       ],

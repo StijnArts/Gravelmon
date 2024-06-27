@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltanoivern-1",
-      "pokemon": "noivern delta",
+      "pokemon": "Optional[noivern] delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "seviiannoivern-1",
-      "pokemon": "noivern seviian",
+      "pokemon": "Optional[noivern] seviian",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "mythiannoivern-1",
-      "pokemon": "noivern mythian",
+      "pokemon": "Optional[noivern] mythian",
       "presets": [
           "natural"
       ],
@@ -55,7 +55,7 @@
 ,
     {
       "id": "ayreiannoivern-1",
-      "pokemon": "noivern ayreian",
+      "pokemon": "Optional[noivern] ayreian",
       "presets": [
           "natural"
       ],

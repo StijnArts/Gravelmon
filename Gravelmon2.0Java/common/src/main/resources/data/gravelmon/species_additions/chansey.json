@@ -194,9 +194,9 @@
   "preEvolution": "happiny form=fligian",
   "evolutions": [
     {
-      "id": "fligianchansey_Blissey",
+      "id": "fligianchansey_blissey",
       "variant": "level_up",
-      "result": "Blissey fligian",
+      "result": "blissey fligian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrandubwool-1",
-      "pokemon": "dubwool novran",
+      "pokemon": "Optional[dubwool] novran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "kaskadiandubwool-1",
-      "pokemon": "dubwool kaskadian",
+      "pokemon": "Optional[dubwool] kaskadian",
       "presets": [
           "natural"
       ],

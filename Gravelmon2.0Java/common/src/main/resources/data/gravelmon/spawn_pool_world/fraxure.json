@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltafraxure-1",
-      "pokemon": "fraxure delta",
+      "pokemon": "Optional[fraxure] delta",
       "presets": [
           "natural"
       ],

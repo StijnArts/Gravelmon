@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviianlokix-1",
-      "pokemon": "lokix seviian",
+      "pokemon": "Optional[lokix] seviian",
       "presets": [
           "natural"
       ],

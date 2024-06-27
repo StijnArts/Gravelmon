@@ -118,9 +118,9 @@
   ],
   "evolutions": [
     {
-      "id": "fligianslakoth_Vigoroth",
+      "id": "fligianslakoth_vigoroth",
       "variant": "level_up",
-      "result": "Vigoroth fligian",
+      "result": "vigoroth fligian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadeino-1",
-      "pokemon": "deino delta",
+      "pokemon": "Optional[deino] delta",
       "presets": [
           "natural"
       ],

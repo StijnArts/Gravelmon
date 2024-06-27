@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianflygon-1",
-      "pokemon": "flygon ayreian",
+      "pokemon": "Optional[flygon] ayreian",
       "presets": [
           "foliage"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "cefiranflygon-1",
-      "pokemon": "flygon cefiran",
+      "pokemon": "Optional[flygon] cefiran",
       "presets": [
           "natural"
       ],

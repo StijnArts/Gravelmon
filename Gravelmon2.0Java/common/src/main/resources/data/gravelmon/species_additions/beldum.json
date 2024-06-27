@@ -68,9 +68,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltaspiderbeldum_Metang",
+      "id": "deltaspiderbeldum_metang",
       "variant": "level_up",
-      "result": "Metang deltaspider",
+      "result": "metang deltaspider",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -163,9 +163,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltaruinbeldum_Metang",
+      "id": "deltaruinbeldum_metang",
       "variant": "level_up",
-      "result": "Metang deltaruin",
+      "result": "metang deltaruin",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

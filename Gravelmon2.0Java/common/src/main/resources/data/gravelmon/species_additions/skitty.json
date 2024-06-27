@@ -103,9 +103,9 @@
   ],
   "evolutions": [
     {
-      "id": "hizianskitty_Delcatty",
+      "id": "hizianskitty_delcatty",
       "variant": "level_up",
-      "result": "Delcatty hizian",
+      "result": "delcatty hizian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

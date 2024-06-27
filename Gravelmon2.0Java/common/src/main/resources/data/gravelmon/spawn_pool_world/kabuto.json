@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltakabuto-1",
-      "pokemon": "kabuto delta",
+      "pokemon": "Optional[kabuto] delta",
       "presets": [
           "natural"
       ],

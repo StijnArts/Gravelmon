@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaturtwig-1",
-      "pokemon": "turtwig delta",
+      "pokemon": "Optional[turtwig] delta",
       "presets": [
           "natural"
       ],

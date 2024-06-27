@@ -90,7 +90,7 @@
   "pokedex": [
     "cobblemon.species.cefiranhariyama.desc"
   ],
-  "preEvolution": "Makuhita form=cefiran",
+  "preEvolution": "makuhita form=cefiran",
   "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianluvdisc-1",
-      "pokemon": "luvdisc hizian",
+      "pokemon": "Optional[luvdisc] hizian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianluvdisc-1",
-      "pokemon": "luvdisc ayreian",
+      "pokemon": "Optional[luvdisc] ayreian",
       "presets": [
           "underwater"
       ],

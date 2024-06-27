@@ -103,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.yanmage.desc"
   ],
-  "preEvolution": "Yanma form=kaskadian",
+  "preEvolution": "yanma form=kaskadian",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,

@@ -115,7 +115,7 @@
   "pokedex": [
     "cobblemon.species.mountox.desc"
   ],
-  "preEvolution": "Numel form=norheiman",
+  "preEvolution": "numel form=norheiman",
   "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,

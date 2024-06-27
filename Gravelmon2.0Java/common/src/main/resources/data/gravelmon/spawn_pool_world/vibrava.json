@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianvibrava-1",
-      "pokemon": "vibrava ayreian",
+      "pokemon": "Optional[vibrava] ayreian",
       "presets": [
           "foliage"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "cefiranvibrava-1",
-      "pokemon": "vibrava cefiran",
+      "pokemon": "Optional[vibrava] cefiran",
       "presets": [
           "natural"
       ],

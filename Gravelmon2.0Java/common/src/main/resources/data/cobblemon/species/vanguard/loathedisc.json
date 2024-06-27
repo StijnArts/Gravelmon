@@ -118,7 +118,7 @@
   "pokedex": [
     "cobblemon.species.loathedisc.desc"
   ],
-  "preEvolution": "Luvdisc form=ayreian",
+  "preEvolution": "luvdisc form=ayreian",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,

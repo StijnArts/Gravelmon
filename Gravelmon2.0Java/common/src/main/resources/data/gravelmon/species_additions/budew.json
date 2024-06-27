@@ -134,9 +134,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltabudew_Roselia",
+      "id": "deltabudew_roselia",
       "variant": "level_up",
-      "result": "Roselia delta",
+      "result": "roselia delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -401,9 +401,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreianbudew_Roselia",
+      "id": "ayreianbudew_roselia",
       "variant": "level_up",
-      "result": "Roselia ayreian",
+      "result": "roselia ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -539,9 +539,9 @@
   ],
   "evolutions": [
     {
-      "id": "relicbudew_Roselia",
+      "id": "relicbudew_roselia",
       "variant": "level_up",
-      "result": "Roselia relic",
+      "result": "roselia relic",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

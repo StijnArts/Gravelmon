@@ -70,9 +70,9 @@
   ],
   "evolutions": [
     {
-      "id": "hizianlitleo_Pyroar",
+      "id": "hizianlitleo_pyroar",
       "variant": "level_up",
-      "result": "Pyroar hizian",
+      "result": "pyroar hizian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianchansey-1",
-      "pokemon": "chansey fligian",
+      "pokemon": "Optional[chansey] fligian",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "eghochansey-1",
-      "pokemon": "chansey egho",
+      "pokemon": "Optional[chansey] egho",
       "presets": [
           "natural"
       ],

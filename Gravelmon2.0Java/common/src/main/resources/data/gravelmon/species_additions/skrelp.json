@@ -129,9 +129,9 @@
   ],
   "evolutions": [
     {
-      "id": "novranskrelp_Dragalge",
+      "id": "novranskrelp_dragalge",
       "variant": "level_up",
-      "result": "Dragalge novran",
+      "result": "dragalge novran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

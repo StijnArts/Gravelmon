@@ -4,8 +4,29 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "eghomeganium-1",
+      "pokemon": "Optional[meganium] egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-49",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_island",
+"#cobblemon:is_tropical_island" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_arid",
+"#cobblemon:is_cold" ]    }
+    }
+,
+    {
       "id": "ayreianmeganium-1",
-      "pokemon": "meganium ayreian",
+      "pokemon": "Optional[meganium] ayreian",
       "presets": [
           "natural"
       ],

@@ -36,7 +36,7 @@ public class AdditionalFormAssetsJSONWriter {
             int formCounter = 10;
 
             for (Pokemon pokemon : set.getValue()) {
-                if (pokemon.isNew() /*&& !pokemon.isModeled()*/) {
+                if (pokemon.isNew() && !pokemon.isModeled()) {
                     JsonObject fileContents = new JsonObject();
                     fileContents.add("species", new JsonPrimitive("cobblemon:" + Pokemon.getCleanName(set.getKey())));
                     fileContents.add("order", new JsonPrimitive(formCounter));
@@ -156,11 +156,12 @@ public class AdditionalFormAssetsJSONWriter {
 //                        }
 //                    }
                     BufferedWriter writer = new BufferedWriter(new FileWriter(dir + formCounter + "_" + Pokemon.getCleanName(set.getKey()) + "_" + pokemon.getAdditionalAspect().getName() + ".json"));
+                    formCounter++;
                     writer.write(gson.toJson(fileContents));
                     writer.close();
                     createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + ".png", resourcesDir);
                     createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_shiny.png", resourcesDir);
-                    formCounter++;
+
                 }
             }
         }

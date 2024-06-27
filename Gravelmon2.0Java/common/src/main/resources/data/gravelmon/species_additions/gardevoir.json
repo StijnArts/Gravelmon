@@ -147,7 +147,7 @@
   "pokedex": [
     "cobblemon.species.fligiangardevoir.desc"
   ],
-  "preEvolution": "Kirlia form=fligian",
+  "preEvolution": "kirlia form=fligian",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

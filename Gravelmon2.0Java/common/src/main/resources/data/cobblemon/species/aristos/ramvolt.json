@@ -113,7 +113,7 @@
   "pokedex": [
     "cobblemon.species.ramvolt.desc"
   ],
-  "preEvolution": "Flaaffy form=aristosian",
+  "preEvolution": "flaaffy form=aristosian",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

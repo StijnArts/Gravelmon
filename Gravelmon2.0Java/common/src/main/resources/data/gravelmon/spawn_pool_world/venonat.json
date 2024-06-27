@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianvenonat-1",
-      "pokemon": "venonat hizian",
+      "pokemon": "Optional[venonat] hizian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hoennianvenonat-1",
-      "pokemon": "venonat hoennian",
+      "pokemon": "Optional[venonat] hoennian",
       "presets": [
           "natural"
       ],

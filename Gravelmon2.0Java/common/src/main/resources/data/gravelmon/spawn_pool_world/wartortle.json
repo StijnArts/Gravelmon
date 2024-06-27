@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghowartortle-1",
-      "pokemon": "wartortle egho",
+      "pokemon": "Optional[wartortle] egho",
       "presets": [
           "natural"
       ],
@@ -25,7 +25,7 @@
 ,
     {
       "id": "deltawartortle-1",
-      "pokemon": "wartortle delta",
+      "pokemon": "Optional[wartortle] delta",
       "presets": [
           "natural"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "ayreianwartortle-1",
-      "pokemon": "wartortle ayreian",
+      "pokemon": "Optional[wartortle] ayreian",
       "presets": [
           "natural"
       ],

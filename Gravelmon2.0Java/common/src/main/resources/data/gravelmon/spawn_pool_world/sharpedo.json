@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "sharpedox-1",
-      "pokemon": "sharpedo x",
+      "pokemon": "Optional[sharpedo] x",
       "presets": [
           "underwater"
       ],

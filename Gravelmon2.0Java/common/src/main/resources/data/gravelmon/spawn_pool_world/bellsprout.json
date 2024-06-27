@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosianbellsprout-1",
-      "pokemon": "bellsprout aristosian",
+      "pokemon": "Optional[bellsprout] aristosian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "kaskadianbellsprout-1",
-      "pokemon": "bellsprout kaskadian",
+      "pokemon": "Optional[bellsprout] kaskadian",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanfalinks-1",
-      "pokemon": "falinks norheiman",
+      "pokemon": "Optional[falinks] norheiman",
       "presets": [
           "shipwreck"
       ],

@@ -80,7 +80,7 @@
   "pokedex": [
     "cobblemon.species.qamoranhitmontop.desc"
   ],
-  "preEvolution": "Tyrogue form=qamoran",
+  "preEvolution": "tyrogue form=qamoran",
   "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
@@ -234,7 +234,7 @@
   "pokedex": [
     "cobblemon.species.varitasianhitmontop.desc"
   ],
-  "preEvolution": "Tyrogue form=varitasian",
+  "preEvolution": "tyrogue form=varitasian",
   "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,

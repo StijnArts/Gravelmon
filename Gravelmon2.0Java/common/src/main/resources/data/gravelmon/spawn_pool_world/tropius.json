@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hiziantropius-1",
-      "pokemon": "tropius hizian",
+      "pokemon": "Optional[tropius] hizian",
       "presets": [
           "natural"
       ],
@@ -25,7 +25,7 @@
 ,
     {
       "id": "aristosiantropius-1",
-      "pokemon": "tropius aristosian",
+      "pokemon": "Optional[tropius] aristosian",
       "presets": [
           "natural"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "kaskadiantropius-1",
-      "pokemon": "tropius kaskadian",
+      "pokemon": "Optional[tropius] kaskadian",
       "presets": [
           "natural"
       ],

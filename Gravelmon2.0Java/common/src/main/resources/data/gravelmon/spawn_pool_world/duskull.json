@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianduskull-1",
-      "pokemon": "duskull fligian",
+      "pokemon": "Optional[duskull] fligian",
       "presets": [
           "underwater"
       ],

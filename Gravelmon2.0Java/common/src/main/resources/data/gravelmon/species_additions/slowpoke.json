@@ -126,9 +126,9 @@
       "permanent": true   
  },
     {
-      "id": "novranslowpoke_Slowking",
+      "id": "novranslowpoke_slowking",
       "variant": "item_interact",
-      "result": "Slowking novran",
+      "result": "slowking novran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

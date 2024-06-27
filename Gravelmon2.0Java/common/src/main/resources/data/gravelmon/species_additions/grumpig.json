@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.qamorangrumpig.desc"
   ],
-  "preEvolution": "Spoink form=qamoran",
+  "preEvolution": "spoink form=qamoran",
   "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,

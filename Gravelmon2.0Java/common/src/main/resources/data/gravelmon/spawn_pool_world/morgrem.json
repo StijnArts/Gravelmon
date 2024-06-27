@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranmorgrem-1",
-      "pokemon": "morgrem novran",
+      "pokemon": "Optional[morgrem] novran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "varitasianmorgrem-1",
-      "pokemon": "morgrem varitasian",
+      "pokemon": "Optional[morgrem] varitasian",
       "presets": [
           "mansion"
       ],

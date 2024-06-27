@@ -85,7 +85,7 @@
   "pokedex": [
     "cobblemon.species.mythianampharos.desc"
   ],
-  "preEvolution": "Flaaffy form=mythian",
+  "preEvolution": "flaaffy form=mythian",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,

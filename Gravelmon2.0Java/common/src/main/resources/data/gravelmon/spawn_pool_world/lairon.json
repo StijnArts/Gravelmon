@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianlairon-1",
-      "pokemon": "lairon hizian",
+      "pokemon": "Optional[lairon] hizian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltalairon-1",
-      "pokemon": "lairon delta",
+      "pokemon": "Optional[lairon] delta",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "ayreianlairon-1",
-      "pokemon": "lairon ayreian",
+      "pokemon": "Optional[lairon] ayreian",
       "presets": [
           "near_lava"
       ],

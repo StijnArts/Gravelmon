@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "nostandiglett-1",
-      "pokemon": "diglett nostan",
+      "pokemon": "Optional[diglett] nostan",
       "presets": [
           "near_crops"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "norheimandiglett-1",
-      "pokemon": "diglett norheiman",
+      "pokemon": "Optional[diglett] norheiman",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "deltadiglett-1",
-      "pokemon": "diglett delta",
+      "pokemon": "Optional[diglett] delta",
       "presets": [
           "natural"
       ],
@@ -58,7 +58,7 @@
 ,
     {
       "id": "ayreiandiglett-1",
-      "pokemon": "diglett ayreian",
+      "pokemon": "Optional[diglett] ayreian",
       "presets": [
           "village"
       ],
@@ -77,7 +77,7 @@
 ,
     {
       "id": "cefirandiglett-1",
-      "pokemon": "diglett cefiran",
+      "pokemon": "Optional[diglett] cefiran",
       "presets": [
           "natural"
       ],

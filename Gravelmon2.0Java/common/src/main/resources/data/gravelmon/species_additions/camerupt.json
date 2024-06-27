@@ -192,7 +192,7 @@
   "pokedex": [
     "cobblemon.species.deltacamerupt.desc"
   ],
-  "preEvolution": "Numel form=delta",
+  "preEvolution": "numel form=delta",
   "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
@@ -351,7 +351,7 @@
   "pokedex": [
     "cobblemon.species.ayreiancamerupt.desc"
   ],
-  "preEvolution": "Numel form=ayreian",
+  "preEvolution": "numel form=ayreian",
   "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
@@ -463,7 +463,7 @@
   "pokedex": [
     "cobblemon.species.cefirancamerupt.desc"
   ],
-  "preEvolution": "Numel form=cefiran",
+  "preEvolution": "numel form=cefiran",
   "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,

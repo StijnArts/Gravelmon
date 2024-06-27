@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaluxray-1",
-      "pokemon": "luxray delta",
+      "pokemon": "Optional[luxray] delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianluxray-1",
-      "pokemon": "luxray ayreian",
+      "pokemon": "Optional[luxray] ayreian",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "kaskadianluxray-1",
-      "pokemon": "luxray kaskadian",
+      "pokemon": "Optional[luxray] kaskadian",
       "presets": [
           "natural"
       ],

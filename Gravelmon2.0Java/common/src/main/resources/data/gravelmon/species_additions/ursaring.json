@@ -95,7 +95,7 @@
   "pokedex": [
     "cobblemon.species.hoennianursaring.desc"
   ],
-  "preEvolution": "Teddiursa form=hoennian",
+  "preEvolution": "teddiursa form=hoennian",
   "baseScale": 1.1,
   "hitbox": {
     "width": 1.8,
@@ -253,7 +253,7 @@
   "pokedex": [
     "cobblemon.species.seviianursaring.desc"
   ],
-  "preEvolution": "Teddiursa form=seviian",
+  "preEvolution": "teddiursa form=seviian",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
@@ -360,7 +360,7 @@
   "pokedex": [
     "cobblemon.species.cefiranursaring.desc"
   ],
-  "preEvolution": "Teddiursa form=cefiran",
+  "preEvolution": "teddiursa form=cefiran",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

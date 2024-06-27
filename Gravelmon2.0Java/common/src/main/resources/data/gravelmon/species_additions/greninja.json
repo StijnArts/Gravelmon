@@ -141,7 +141,7 @@
   "pokedex": [
     "cobblemon.species.deltagreninja.desc"
   ],
-  "preEvolution": "Frogadier form=delta",
+  "preEvolution": "frogadier form=delta",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
@@ -405,7 +405,7 @@
   "pokedex": [
     "cobblemon.species.armirangreninja.desc"
   ],
-  "preEvolution": "Frogadier form=armiran",
+  "preEvolution": "frogadier form=armiran",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

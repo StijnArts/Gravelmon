@@ -149,7 +149,7 @@
   "pokedex": [
     "cobblemon.species.porygon0.desc"
   ],
-  "preEvolution": "Porygon2 form=varitasian",
+  "preEvolution": "porygon2 form=varitasian",
   "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,

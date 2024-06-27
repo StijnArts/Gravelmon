@@ -6,20 +6,34 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_gengarx.geo",
       "poser": "cobblemon:generation1_gengarx",
       "texture": "cobblemon:textures/pokemon/generation1/gengarx.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation1/gengarx/gengarx_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
         "x",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_gengarx.geo",
       "poser": "cobblemon:generation1_gengarx",
-      "texture": "cobblemon:textures/pokemon/generation1/gengarx_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/gengarx/gengarx_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation1/gengarx/gengarx_emissive_shiny.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
     }
   ]
 }

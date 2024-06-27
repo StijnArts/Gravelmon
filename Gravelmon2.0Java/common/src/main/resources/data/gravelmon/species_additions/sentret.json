@@ -129,9 +129,9 @@
   ],
   "evolutions": [
     {
-      "id": "aristosiansentret_Furret",
+      "id": "aristosiansentret_furret",
       "variant": "level_up",
-      "result": "Furret aristosian",
+      "result": "furret aristosian",
       "consumeHeldItem": false,
       "learnableMoves": [    "agility"],
       "requirements": [

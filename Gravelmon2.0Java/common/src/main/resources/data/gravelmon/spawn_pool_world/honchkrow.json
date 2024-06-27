@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianhonchkrow-1",
-      "pokemon": "honchkrow hizian",
+      "pokemon": "Optional[honchkrow] hizian",
       "presets": [
           "natural"
       ],

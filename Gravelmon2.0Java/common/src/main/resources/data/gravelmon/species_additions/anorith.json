@@ -86,9 +86,9 @@
   ],
   "evolutions": [
     {
-      "id": "hiziananorith_Armaldo",
+      "id": "hiziananorith_armaldo",
       "variant": "level_up",
-      "result": "Armaldo hizian",
+      "result": "armaldo hizian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

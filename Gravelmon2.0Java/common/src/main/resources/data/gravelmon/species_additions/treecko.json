@@ -70,9 +70,9 @@
   ],
   "evolutions": [
     {
-      "id": "fligiantreecko_Grovyle",
+      "id": "fligiantreecko_grovyle",
       "variant": "level_up",
-      "result": "Grovyle fligian",
+      "result": "grovyle fligian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -242,9 +242,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltatreecko_Grovyle",
+      "id": "deltatreecko_grovyle",
       "variant": "level_up",
-      "result": "Grovyle delta",
+      "result": "grovyle delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -350,9 +350,9 @@
   ],
   "evolutions": [
     {
-      "id": "mystictreecko_Grovyle",
+      "id": "mystictreecko_grovyle",
       "variant": "level_up",
-      "result": "Grovyle mystic",
+      "result": "grovyle mystic",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

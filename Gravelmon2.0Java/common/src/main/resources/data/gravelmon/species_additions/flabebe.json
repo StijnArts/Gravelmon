@@ -111,9 +111,9 @@
   ],
   "evolutions": [
     {
-      "id": "varitasianflabebe_Floette",
+      "id": "varitasianflabebe_floette",
       "variant": "level_up",
-      "result": "Floette varitasian",
+      "result": "floette varitasian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

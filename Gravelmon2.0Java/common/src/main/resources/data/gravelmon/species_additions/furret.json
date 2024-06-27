@@ -134,7 +134,7 @@
   "pokedex": [
     "cobblemon.species.aristosianfurret.desc"
   ],
-  "preEvolution": "Sentret form=aristosian",
+  "preEvolution": "sentret form=aristosian",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

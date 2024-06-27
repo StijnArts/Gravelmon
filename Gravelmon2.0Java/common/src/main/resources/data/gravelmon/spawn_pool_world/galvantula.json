@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "galvantulax-1",
-      "pokemon": "galvantula x",
+      "pokemon": "Optional[galvantula] x",
       "presets": [
           "natural"
       ],

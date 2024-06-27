@@ -248,9 +248,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltascyther_Scizor",
+      "id": "deltascyther_scizor",
       "variant": "level_up",
-      "result": "Scizor delta",
+      "result": "scizor delta",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [
@@ -381,9 +381,9 @@
   ],
   "evolutions": [
     {
-      "id": "mythianscyther_Scizor",
+      "id": "mythianscyther_scizor",
       "variant": "item_interact",
-      "result": "Scizor mythian",
+      "result": "scizor mythian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

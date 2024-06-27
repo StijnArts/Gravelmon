@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamoranbeartic-1",
-      "pokemon": "beartic qamoran",
+      "pokemon": "Optional[beartic] qamoran",
       "presets": [
           "natural"
       ],

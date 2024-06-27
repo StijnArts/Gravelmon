@@ -130,12 +130,12 @@
   "pokedex": [
     "cobblemon.species.hizianlairon.desc"
   ],
-  "preEvolution": "Aron form=hizian",
+  "preEvolution": "aron form=hizian",
   "evolutions": [
     {
-      "id": "hizianlairon_Aggron",
+      "id": "hizianlairon_aggron",
       "variant": "level_up",
-      "result": "Aggron hizian",
+      "result": "aggron hizian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -316,12 +316,12 @@
   "pokedex": [
     "cobblemon.species.deltalairon.desc"
   ],
-  "preEvolution": "Aron form=delta",
+  "preEvolution": "aron form=delta",
   "evolutions": [
     {
-      "id": "deltalairon_Aggron",
+      "id": "deltalairon_aggron",
       "variant": "level_up",
-      "result": "Aggron delta",
+      "result": "aggron delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -523,12 +523,12 @@
   "pokedex": [
     "cobblemon.species.ayreianlairon.desc"
   ],
-  "preEvolution": "Aron form=ayreian",
+  "preEvolution": "aron form=ayreian",
   "evolutions": [
     {
-      "id": "ayreianlairon_Aggron",
+      "id": "ayreianlairon_aggron",
       "variant": "level_up",
-      "result": "Aggron ayreian",
+      "result": "aggron ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

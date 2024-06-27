@@ -201,7 +201,7 @@
   "pokedex": [
     "cobblemon.species.relicledian.desc"
   ],
-  "preEvolution": "Ledyba form=relic",
+  "preEvolution": "ledyba form=relic",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

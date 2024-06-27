@@ -113,9 +113,9 @@
   ],
   "evolutions": [
     {
-      "id": "aristosianmareep_Flaaffy",
+      "id": "aristosianmareep_flaaffy",
       "variant": "level_up",
-      "result": "Flaaffy aristosian",
+      "result": "flaaffy aristosian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -232,9 +232,9 @@
   ],
   "evolutions": [
     {
-      "id": "mythianmareep_Flaaffy",
+      "id": "mythianmareep_flaaffy",
       "variant": "level_up",
-      "result": "Flaaffy mythian",
+      "result": "flaaffy mythian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

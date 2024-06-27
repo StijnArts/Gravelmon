@@ -136,9 +136,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltaamaura_Aurorus",
+      "id": "deltaamaura_aurorus",
       "variant": "level_up",
-      "result": "Aurorus delta",
+      "result": "aurorus delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

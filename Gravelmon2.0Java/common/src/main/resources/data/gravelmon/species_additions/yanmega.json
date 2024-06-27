@@ -149,7 +149,7 @@
   "pokedex": [
     "cobblemon.species.deltayanmega.desc"
   ],
-  "preEvolution": "Yanma form=delta",
+  "preEvolution": "yanma form=delta",
   "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,

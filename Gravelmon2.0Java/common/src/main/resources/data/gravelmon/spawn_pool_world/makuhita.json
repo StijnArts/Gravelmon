@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "cefiranmakuhita-1",
-      "pokemon": "makuhita cefiran",
+      "pokemon": "Optional[makuhita] cefiran",
       "presets": [
           "natural"
       ],

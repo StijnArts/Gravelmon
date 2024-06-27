@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghoazumarill-1",
-      "pokemon": "azumarill egho",
+      "pokemon": "Optional[azumarill] egho",
       "presets": [
           "natural"
       ],
@@ -16,6 +16,24 @@
       "weight": 0.2,
       "condition": {
 "biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "kaskadianazumarill-1",
+      "pokemon": "Optional[azumarill] kaskadian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "20-39",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp",
+"#cobblemon:is_jungle" ],
         "canSeeSky": true
       }
     }

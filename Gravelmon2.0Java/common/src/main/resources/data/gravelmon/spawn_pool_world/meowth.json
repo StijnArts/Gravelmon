@@ -4,8 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "eldiwanmeowth-1",
+      "pokemon": "Optional[meowth] eldiwan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+,
+    {
       "id": "cefiranmeowthfire-1",
-      "pokemon": "cefiranmeowthfire cefiranfire",
+      "pokemon": "Optional[meowth] cefiranfire",
       "presets": [
           "natural"
       ],
@@ -22,7 +40,7 @@
 ,
     {
       "id": "cefiranmeowthice-1",
-      "pokemon": "cefiranmeowthice cefiranice",
+      "pokemon": "Optional[meowth] cefiranice",
       "presets": [
           "natural"
       ],
@@ -41,7 +59,7 @@
 ,
     {
       "id": "cefiranmeowthelectric-1",
-      "pokemon": "cefiranmeowthelectric cefiranelectric",
+      "pokemon": "Optional[meowth] cefiranelectric",
       "presets": [
           "natural"
       ],

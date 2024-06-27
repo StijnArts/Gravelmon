@@ -128,12 +128,12 @@
   "pokedex": [
     "cobblemon.species.deltanuzleaf.desc"
   ],
-  "preEvolution": "Seedot form=delta",
+  "preEvolution": "seedot form=delta",
   "evolutions": [
     {
-      "id": "deltanuzleaf_Shiftry",
+      "id": "deltanuzleaf_shiftry",
       "variant": "item_interact",
-      "result": "Shiftry delta",
+      "result": "shiftry delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanrattata-1",
-      "pokemon": "rattata norheiman",
+      "pokemon": "Optional[rattata] norheiman",
       "presets": [
           "shipwreck"
       ],

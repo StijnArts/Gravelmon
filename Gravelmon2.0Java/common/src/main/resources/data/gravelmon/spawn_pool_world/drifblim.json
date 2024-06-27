@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadrifblim-1",
-      "pokemon": "drifblim delta",
+      "pokemon": "Optional[drifblim] delta",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "ayreiandrifblim-1",
-      "pokemon": "drifblim ayreian",
+      "pokemon": "Optional[drifblim] ayreian",
       "presets": [
           "natural"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "amazealldrifblim-1",
-      "pokemon": "drifblim amazeall",
+      "pokemon": "Optional[drifblim] amazeall",
       "presets": [
           "village"
       ],

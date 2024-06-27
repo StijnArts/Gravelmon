@@ -218,7 +218,7 @@
   "pokedex": [
     "cobblemon.species.deltaspidermetagross.desc"
   ],
-  "preEvolution": "Metang form=deltaspider",
+  "preEvolution": "metang form=deltaspider",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
@@ -514,7 +514,7 @@
   "pokedex": [
     "cobblemon.species.deltaruinmetagross.desc"
   ],
-  "preEvolution": "Metang form=deltaruin",
+  "preEvolution": "metang form=deltaruin",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

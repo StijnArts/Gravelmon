@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "alolansandridger-1",
-      "pokemon": "sandridger alolan",
+      "pokemon": "Optional[sandridger] alolan",
       "presets": [
           "natural"
       ],

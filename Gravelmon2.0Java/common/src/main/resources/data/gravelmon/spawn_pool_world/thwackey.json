@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianthwackey-1",
-      "pokemon": "thwackey ayreian",
+      "pokemon": "Optional[thwackey] ayreian",
       "presets": [
           "natural"
       ],

@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.fligiansceptile.desc"
   ],
-  "preEvolution": "Grovyle form=fligian",
+  "preEvolution": "grovyle form=fligian",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
@@ -260,7 +260,7 @@
   "pokedex": [
     "cobblemon.species.deltasceptile.desc"
   ],
-  "preEvolution": "Grovyle form=delta",
+  "preEvolution": "grovyle form=delta",
   "baseScale": 1.1,
   "hitbox": {
     "width": 1.0,
@@ -516,7 +516,7 @@
   "pokedex": [
     "cobblemon.species.mysticsceptile.desc"
   ],
-  "preEvolution": "Grovyle form=mystic",
+  "preEvolution": "grovyle form=mystic",
   "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "egholudicolo-1",
-      "pokemon": "ludicolo egho",
+      "pokemon": "Optional[ludicolo] egho",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "deltaludicolo-1",
-      "pokemon": "ludicolo delta",
+      "pokemon": "Optional[ludicolo] delta",
       "presets": [
           "natural"
       ],

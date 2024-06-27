@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianklefki-1",
-      "pokemon": "klefki ayreian",
+      "pokemon": "Optional[klefki] ayreian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "cefiranklefki-1",
-      "pokemon": "klefki cefiran",
+      "pokemon": "Optional[klefki] cefiran",
       "presets": [
           "natural"
       ],

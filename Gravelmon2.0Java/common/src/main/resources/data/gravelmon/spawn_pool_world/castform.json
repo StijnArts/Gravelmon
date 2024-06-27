@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "gutsycastform-1",
-      "pokemon": "castform gutsy",
+      "pokemon": "Optional[castform] gutsy",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "windycastform-1",
-      "pokemon": "castform windy",
+      "pokemon": "Optional[castform] windy",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "smoggycastform-1",
-      "pokemon": "castform smoggy",
+      "pokemon": "Optional[castform] smoggy",
       "presets": [
           "natural"
       ],
@@ -56,7 +56,7 @@
 ,
     {
       "id": "dustycastform-1",
-      "pokemon": "castform dusty",
+      "pokemon": "Optional[castform] dusty",
       "presets": [
           "natural"
       ],
@@ -73,7 +73,7 @@
 ,
     {
       "id": "sandycastform-1",
-      "pokemon": "castform sandy",
+      "pokemon": "Optional[castform] sandy",
       "presets": [
           "natural"
       ],
@@ -90,7 +90,7 @@
 ,
     {
       "id": "swarmycastform-1",
-      "pokemon": "castform swarmy",
+      "pokemon": "Optional[castform] swarmy",
       "presets": [
           "natural"
       ],
@@ -107,7 +107,7 @@
 ,
     {
       "id": "spookycastform-1",
-      "pokemon": "castform spooky",
+      "pokemon": "Optional[castform] spooky",
       "presets": [
           "natural"
       ],
@@ -124,7 +124,7 @@
 ,
     {
       "id": "whirlycastform-1",
-      "pokemon": "castform whirly",
+      "pokemon": "Optional[castform] whirly",
       "presets": [
           "natural"
       ],
@@ -141,7 +141,7 @@
 ,
     {
       "id": "allergycastform-1",
-      "pokemon": "castform allergy",
+      "pokemon": "Optional[castform] allergy",
       "presets": [
           "natural"
       ],
@@ -158,7 +158,7 @@
 ,
     {
       "id": "zappycastform-1",
-      "pokemon": "castform zappy",
+      "pokemon": "Optional[castform] zappy",
       "presets": [
           "natural"
       ],
@@ -175,7 +175,7 @@
 ,
     {
       "id": "zennycastform-1",
-      "pokemon": "castform zenny",
+      "pokemon": "Optional[castform] zenny",
       "presets": [
           "natural"
       ],
@@ -192,7 +192,7 @@
 ,
     {
       "id": "sorcerycastform-1",
-      "pokemon": "castform sorcery",
+      "pokemon": "Optional[castform] sorcery",
       "presets": [
           "natural"
       ],
@@ -209,7 +209,7 @@
 ,
     {
       "id": "shadycastform-1",
-      "pokemon": "castform shady",
+      "pokemon": "Optional[castform] shady",
       "presets": [
           "natural"
       ],
@@ -226,7 +226,7 @@
 ,
     {
       "id": "lovelycastform-1",
-      "pokemon": "castform lovely",
+      "pokemon": "Optional[castform] lovely",
       "presets": [
           "natural"
       ],

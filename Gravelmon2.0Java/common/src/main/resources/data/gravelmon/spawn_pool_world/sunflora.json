@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltasunflora-1",
-      "pokemon": "sunflora delta",
+      "pokemon": "Optional[sunflora] delta",
       "presets": [
           "natural"
       ],

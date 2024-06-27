@@ -119,7 +119,7 @@
   "pokedex": [
     "cobblemon.species.therierrrm.desc"
   ],
-  "preEvolution": "Vigoroth form=fligian",
+  "preEvolution": "vigoroth form=fligian",
   "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,

@@ -170,7 +170,7 @@
   "pokedex": [
     "cobblemon.species.hubiantogekiss.desc"
   ],
-  "preEvolution": "Togetic form=hubian",
+  "preEvolution": "togetic form=hubian",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

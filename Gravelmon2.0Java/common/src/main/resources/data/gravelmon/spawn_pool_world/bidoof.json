@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadianbidoof-1",
-      "pokemon": "bidoof kaskadian",
+      "pokemon": "Optional[bidoof] kaskadian",
       "presets": [
           "freshwater"
       ],

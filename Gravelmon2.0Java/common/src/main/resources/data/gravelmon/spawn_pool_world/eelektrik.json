@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianeelektrik-1",
-      "pokemon": "eelektrik varitasian",
+      "pokemon": "Optional[eelektrik] varitasian",
       "presets": [
           "natural",
           "near_water"
@@ -23,7 +23,7 @@
 ,
     {
       "id": "hoennianeelektrik-1",
-      "pokemon": "eelektrik hoennian",
+      "pokemon": "Optional[eelektrik] hoennian",
       "presets": [
           "natural"
       ],

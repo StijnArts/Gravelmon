@@ -90,7 +90,7 @@
   "pokedex": [
     "cobblemon.species.cefiranpersianfire.desc"
   ],
-  "preEvolution": "Meowth form=cefiranfire",
+  "preEvolution": "meowth form=cefiranfire",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
@@ -201,7 +201,7 @@
   "pokedex": [
     "cobblemon.species.cefiranpersianice.desc"
   ],
-  "preEvolution": "Meowth form=cefiranice",
+  "preEvolution": "meowth form=cefiranice",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
@@ -312,7 +312,7 @@
   "pokedex": [
     "cobblemon.species.cefiranpersianelectric.desc"
   ],
-  "preEvolution": "Meowth form=cefiranelectric",
+  "preEvolution": "meowth form=cefiranelectric",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,

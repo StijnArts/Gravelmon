@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaaxew-1",
-      "pokemon": "axew delta",
+      "pokemon": "Optional[axew] delta",
       "presets": [
           "natural"
       ],

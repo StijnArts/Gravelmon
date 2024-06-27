@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hubiansmeargle-1",
-      "pokemon": "smeargle hubian",
+      "pokemon": "Optional[smeargle] hubian",
       "presets": [
           "village"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "smearglex-1",
-      "pokemon": "smeargle x",
+      "pokemon": "Optional[smeargle] x",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "cefiransmeargle-1",
-      "pokemon": "smeargle cefiran",
+      "pokemon": "Optional[smeargle] cefiran",
       "presets": [
           "village"
       ],

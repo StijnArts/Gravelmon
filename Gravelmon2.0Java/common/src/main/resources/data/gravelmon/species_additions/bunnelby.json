@@ -110,9 +110,9 @@
   ],
   "evolutions": [
     {
-      "id": "kaskadianbunnelby_Diggersby",
+      "id": "kaskadianbunnelby_diggersby",
       "variant": "level_up",
-      "result": "Diggersby kaskadian",
+      "result": "diggersby kaskadian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

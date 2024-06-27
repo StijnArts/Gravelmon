@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianminccino-1",
-      "pokemon": "minccino ayreian",
+      "pokemon": "Optional[minccino] ayreian",
       "presets": [
           "natural"
       ],

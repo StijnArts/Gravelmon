@@ -141,7 +141,7 @@
   "pokedex": [
     "cobblemon.species.infernadeer.desc"
   ],
-  "preEvolution": "Stantler form=ayreian",
+  "preEvolution": "stantler form=ayreian",
   "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,

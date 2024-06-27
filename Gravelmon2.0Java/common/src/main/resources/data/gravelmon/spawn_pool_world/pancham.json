@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianpancham-1",
-      "pokemon": "pancham ayreian",
+      "pokemon": "Optional[pancham] ayreian",
       "presets": [
           "natural"
       ],

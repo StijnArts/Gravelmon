@@ -103,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.sporges.desc"
   ],
-  "preEvolution": "Floette form=varitasian",
+  "preEvolution": "floette form=varitasian",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,

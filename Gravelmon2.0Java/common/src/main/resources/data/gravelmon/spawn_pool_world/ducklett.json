@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianducklett-1",
-      "pokemon": "ducklett ayreian",
+      "pokemon": "Optional[ducklett] ayreian",
       "presets": [
           "near_water"
       ],

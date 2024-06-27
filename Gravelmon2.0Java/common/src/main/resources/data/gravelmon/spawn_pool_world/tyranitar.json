@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "tyranitarx-1",
-      "pokemon": "tyranitar x",
+      "pokemon": "Optional[tyranitar] x",
       "presets": [
           "end_city"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "armirantyranitar-1",
-      "pokemon": "tyranitar armiran",
+      "pokemon": "Optional[tyranitar] armiran",
       "presets": [
           "natural"
       ],

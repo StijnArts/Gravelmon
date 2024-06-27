@@ -4,8 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "eghotyphlosion-1",
+      "pokemon": "Optional[typhlosion] egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "14-27",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain",
+"#cobblemon:is_hills",
+"#cobblemon:is_highlands" ],
+        "isThundering": true,
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltatyphlosion-1",
-      "pokemon": "typhlosion delta",
+      "pokemon": "Optional[typhlosion] delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +42,7 @@
 ,
     {
       "id": "ayreiantyphlosion-1",
-      "pokemon": "typhlosion ayreian",
+      "pokemon": "Optional[typhlosion] ayreian",
       "presets": [
           "natural"
       ],

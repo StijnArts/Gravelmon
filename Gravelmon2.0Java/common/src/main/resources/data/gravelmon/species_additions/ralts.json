@@ -143,9 +143,9 @@
   ],
   "evolutions": [
     {
-      "id": "fligianralts_Kirlia",
+      "id": "fligianralts_kirlia",
       "variant": "level_up",
-      "result": "Kirlia fligian",
+      "result": "kirlia fligian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -303,9 +303,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltaralts_Kirlia",
+      "id": "deltaralts_kirlia",
       "variant": "level_up",
-      "result": "Kirlia delta",
+      "result": "kirlia delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

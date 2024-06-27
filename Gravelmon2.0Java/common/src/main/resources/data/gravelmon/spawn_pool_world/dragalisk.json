@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "dragaliskx-1",
-      "pokemon": "dragalisk x",
+      "pokemon": "Optional[dragalisk] x",
       "presets": [
           "natural"
       ],

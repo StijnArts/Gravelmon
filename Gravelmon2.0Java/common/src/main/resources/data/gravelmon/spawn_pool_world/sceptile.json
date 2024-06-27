@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligiansceptile-1",
-      "pokemon": "sceptile fligian",
+      "pokemon": "Optional[sceptile] fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltasceptile-1",
-      "pokemon": "sceptile delta",
+      "pokemon": "Optional[sceptile] delta",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "armiransceptile-1",
-      "pokemon": "sceptile armiran",
+      "pokemon": "Optional[sceptile] armiran",
       "presets": [
           "natural"
       ],
@@ -59,7 +59,7 @@
 ,
     {
       "id": "mysticsceptile-1",
-      "pokemon": "sceptile mystic",
+      "pokemon": "Optional[sceptile] mystic",
       "presets": [
           "natural"
       ],

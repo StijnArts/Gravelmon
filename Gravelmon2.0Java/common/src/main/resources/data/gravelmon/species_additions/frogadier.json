@@ -140,12 +140,12 @@
   "pokedex": [
     "cobblemon.species.deltafrogadier.desc"
   ],
-  "preEvolution": "Froakie form=delta",
+  "preEvolution": "froakie form=delta",
   "evolutions": [
     {
-      "id": "deltafrogadier_Greninja",
+      "id": "deltafrogadier_greninja",
       "variant": "level_up",
-      "result": "Greninja delta",
+      "result": "greninja delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -277,12 +277,12 @@
   "pokedex": [
     "cobblemon.species.armiranfrogadier.desc"
   ],
-  "preEvolution": "Froakie form=armiran",
+  "preEvolution": "froakie form=armiran",
   "evolutions": [
     {
-      "id": "armiranfrogadier_Greninja",
+      "id": "armiranfrogadier_greninja",
       "variant": "level_up",
-      "result": "Greninja armiran",
+      "result": "greninja armiran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.wailwhale.desc"
   ],
-  "preEvolution": "Wailmer form=norheiman",
+  "preEvolution": "wailmer form=norheiman",
   "baseScale": 0.9500000000000001,
   "hitbox": {
     "width": 6.0,

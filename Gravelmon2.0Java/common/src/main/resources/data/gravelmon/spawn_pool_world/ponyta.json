@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ponytax-1",
-      "pokemon": "ponyta x",
+      "pokemon": "Optional[ponyta] x",
       "presets": [
           "natural"
       ],

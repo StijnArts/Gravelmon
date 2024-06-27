@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamorandewgong-1",
-      "pokemon": "dewgong qamoran",
+      "pokemon": "Optional[dewgong] qamoran",
       "presets": [
           "underwater"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hoenniandewgong-1",
-      "pokemon": "dewgong hoennian",
+      "pokemon": "Optional[dewgong] hoennian",
       "presets": [
           "underwater"
       ],

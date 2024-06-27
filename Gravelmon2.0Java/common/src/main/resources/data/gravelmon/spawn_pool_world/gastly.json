@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "havaiiangastly-1",
-      "pokemon": "gastly havaiian",
+      "pokemon": "Optional[gastly] havaiian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "gastlyx-1",
-      "pokemon": "gastly x",
+      "pokemon": "Optional[gastly] x",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "ayreiangastly-1",
-      "pokemon": "gastly ayreian",
+      "pokemon": "Optional[gastly] ayreian",
       "presets": [
           "natural"
       ],
@@ -55,7 +55,7 @@
 ,
     {
       "id": "kaskadiangastly-1",
-      "pokemon": "gastly kaskadian",
+      "pokemon": "Optional[gastly] kaskadian",
       "presets": [
           "natural"
       ],

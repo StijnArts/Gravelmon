@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaservine-1",
-      "pokemon": "servine delta",
+      "pokemon": "Optional[servine] delta",
       "presets": [
           "natural"
       ],

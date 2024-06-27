@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "nostandugtrio-1",
-      "pokemon": "dugtrio nostan",
+      "pokemon": "Optional[dugtrio] nostan",
       "presets": [
           "near_crops"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "norheimandugtrio-1",
-      "pokemon": "dugtrio norheiman",
+      "pokemon": "Optional[dugtrio] norheiman",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "deltadugtrio-1",
-      "pokemon": "dugtrio delta",
+      "pokemon": "Optional[dugtrio] delta",
       "presets": [
           "natural"
       ],
@@ -58,7 +58,7 @@
 ,
     {
       "id": "ayreiandugtrio-1",
-      "pokemon": "dugtrio ayreian",
+      "pokemon": "Optional[dugtrio] ayreian",
       "presets": [
           "village"
       ],
@@ -77,7 +77,7 @@
 ,
     {
       "id": "cefirandugtrio-1",
-      "pokemon": "dugtrio cefiran",
+      "pokemon": "Optional[dugtrio] cefiran",
       "presets": [
           "natural"
       ],

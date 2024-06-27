@@ -310,7 +310,7 @@
   "pokedex": [
     "cobblemon.species.deltagorebyss.desc"
   ],
-  "preEvolution": "Clamperl form=delta",
+  "preEvolution": "clamperl form=delta",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

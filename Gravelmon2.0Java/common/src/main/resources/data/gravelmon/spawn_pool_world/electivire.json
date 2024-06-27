@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaelectivire-1",
-      "pokemon": "electivire delta",
+      "pokemon": "Optional[electivire] delta",
       "presets": [
           "jungle_pyramid"
       ],

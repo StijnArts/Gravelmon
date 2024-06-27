@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagoomy-1",
-      "pokemon": "goomy delta",
+      "pokemon": "Optional[goomy] delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "hoenniangoomy-1",
-      "pokemon": "goomy hoennian",
+      "pokemon": "Optional[goomy] hoennian",
       "presets": [
           "natural"
       ],

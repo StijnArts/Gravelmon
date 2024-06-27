@@ -211,7 +211,7 @@
   "pokedex": [
     "cobblemon.species.deltamilotic.desc"
   ],
-  "preEvolution": "Feebas form=delta",
+  "preEvolution": "feebas form=delta",
   "baseScale": 0.775,
   "hitbox": {
     "width": 6.0,
@@ -355,7 +355,7 @@
   "pokedex": [
     "cobblemon.species.seviianmilotic.desc"
   ],
-  "preEvolution": "Feebas form=seviian",
+  "preEvolution": "feebas form=seviian",
   "baseScale": 0.775,
   "hitbox": {
     "width": 6.0,

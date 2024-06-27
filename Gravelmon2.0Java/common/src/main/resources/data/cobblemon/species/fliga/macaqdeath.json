@@ -106,7 +106,7 @@
   "pokedex": [
     "cobblemon.species.macaqdeath.desc"
   ],
-  "preEvolution": "Aipom form=fligian",
+  "preEvolution": "aipom form=fligian",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,

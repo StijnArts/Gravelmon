@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltapawniard-1",
-      "pokemon": "pawniard delta",
+      "pokemon": "Optional[pawniard] delta",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "hoennianpawniard-1",
-      "pokemon": "pawniard hoennian",
+      "pokemon": "Optional[pawniard] hoennian",
       "presets": [
           "natural"
       ],

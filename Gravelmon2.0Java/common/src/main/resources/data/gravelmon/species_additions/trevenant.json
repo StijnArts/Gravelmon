@@ -126,7 +126,7 @@
   "pokedex": [
     "cobblemon.species.varitasiantrevenant.desc"
   ],
-  "preEvolution": "Phantump form=varitasian",
+  "preEvolution": "phantump form=varitasian",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
@@ -300,7 +300,7 @@
   "pokedex": [
     "cobblemon.species.deltatrevenant.desc"
   ],
-  "preEvolution": "Phantump form=delta",
+  "preEvolution": "phantump form=delta",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -438,7 +438,7 @@
   "pokedex": [
     "cobblemon.species.kaskadiantrevenant.desc"
   ],
-  "preEvolution": "Phantump form=kaskadian",
+  "preEvolution": "phantump form=kaskadian",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

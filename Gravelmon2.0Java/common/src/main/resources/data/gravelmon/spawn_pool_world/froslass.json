@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltafroslass-1",
-      "pokemon": "froslass delta",
+      "pokemon": "Optional[froslass] delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "cefiranfroslass-1",
-      "pokemon": "froslass cefiran",
+      "pokemon": "Optional[froslass] cefiran",
       "presets": [
           "natural"
       ],

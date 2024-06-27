@@ -185,7 +185,7 @@
   "pokedex": [
     "cobblemon.species.deltaambipom.desc"
   ],
-  "preEvolution": "Aipom form=delta",
+  "preEvolution": "aipom form=delta",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
@@ -329,7 +329,7 @@
   "pokedex": [
     "cobblemon.species.relicambipom.desc"
   ],
-  "preEvolution": "Aipom form=relic",
+  "preEvolution": "aipom form=relic",
   "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,

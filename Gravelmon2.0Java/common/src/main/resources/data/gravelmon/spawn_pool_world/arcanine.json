@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosianarcanine-1",
-      "pokemon": "arcanine aristosian",
+      "pokemon": "Optional[arcanine] aristosian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltaarcanine-1",
-      "pokemon": "arcanine delta",
+      "pokemon": "Optional[arcanine] delta",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "armiranarcanine-1",
-      "pokemon": "arcanine armiran",
+      "pokemon": "Optional[arcanine] armiran",
       "presets": [
           "natural"
       ],

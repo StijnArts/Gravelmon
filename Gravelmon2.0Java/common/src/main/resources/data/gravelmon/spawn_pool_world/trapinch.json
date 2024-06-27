@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreiantrapinch-1",
-      "pokemon": "trapinch ayreian",
+      "pokemon": "Optional[trapinch] ayreian",
       "presets": [
           "foliage"
       ],

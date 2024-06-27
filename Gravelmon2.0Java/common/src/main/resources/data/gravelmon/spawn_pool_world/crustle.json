@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaberrycrustle-1",
-      "pokemon": "crustle deltaberry",
+      "pokemon": "Optional[crustle] deltaberry",
       "presets": [
           "near_berry_bush"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltacakecrustle-1",
-      "pokemon": "crustle deltacake",
+      "pokemon": "Optional[crustle] deltacake",
       "presets": [
           "natural"
       ],

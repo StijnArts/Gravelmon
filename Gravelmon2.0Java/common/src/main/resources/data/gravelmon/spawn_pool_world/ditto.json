@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanditto-1",
-      "pokemon": "ditto norheiman",
+      "pokemon": "Optional[ditto] norheiman",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltaditto-1",
-      "pokemon": "ditto delta",
+      "pokemon": "Optional[ditto] delta",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "dittox-1",
-      "pokemon": "ditto x",
+      "pokemon": "Optional[ditto] x",
       "presets": [
           "natural"
       ],
@@ -54,7 +54,7 @@
 ,
     {
       "id": "dittox-1",
-      "pokemon": "ditto x",
+      "pokemon": "Optional[ditto] x",
       "presets": [
           "natural"
       ],

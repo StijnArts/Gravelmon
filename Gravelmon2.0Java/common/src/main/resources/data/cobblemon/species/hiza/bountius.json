@@ -107,7 +107,7 @@
   "pokedex": [
     "cobblemon.species.bountius.desc"
   ],
-  "preEvolution": "Tropius form=hizian",
+  "preEvolution": "tropius form=hizian",
   "baseScale": 0.75,
   "hitbox": {
     "width": 6.0,

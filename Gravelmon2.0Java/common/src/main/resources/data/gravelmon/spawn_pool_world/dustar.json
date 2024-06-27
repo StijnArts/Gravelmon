@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "okeniandustar-1",
-      "pokemon": "dustar okenian",
+      "pokemon": "Optional[dustar] okenian",
       "presets": [
           "natural"
       ],

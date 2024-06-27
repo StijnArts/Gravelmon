@@ -73,9 +73,9 @@
   ],
   "evolutions": [
     {
-      "id": "mysticmudkip_Marshtomp",
+      "id": "mysticmudkip_marshtomp",
       "variant": "level_up",
-      "result": "Marshtomp mystic",
+      "result": "marshtomp mystic",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

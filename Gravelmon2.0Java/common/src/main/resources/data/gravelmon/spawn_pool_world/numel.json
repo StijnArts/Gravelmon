@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimannumel-1",
-      "pokemon": "numel norheiman",
+      "pokemon": "Optional[numel] norheiman",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "deltanumel-1",
-      "pokemon": "numel delta",
+      "pokemon": "Optional[numel] delta",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "ayreiannumel-1",
-      "pokemon": "numel ayreian",
+      "pokemon": "Optional[numel] ayreian",
       "presets": [
           "near_water"
       ],
@@ -59,7 +59,7 @@
 ,
     {
       "id": "cefirannumel-1",
-      "pokemon": "numel cefiran",
+      "pokemon": "Optional[numel] cefiran",
       "presets": [
           "natural"
       ],

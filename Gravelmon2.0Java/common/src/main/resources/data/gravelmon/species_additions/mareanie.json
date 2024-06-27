@@ -105,9 +105,9 @@
   ],
   "evolutions": [
     {
-      "id": "mareaniex_Toxapex",
+      "id": "mareaniex_toxapex",
       "variant": "item_interact",
-      "result": "Toxapex x",
+      "result": "toxapex x",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

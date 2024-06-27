@@ -1,5 +1,5 @@
 {
-  "species": "cobblemon:roselia",
+  "species": "cobblemon:quilava",
   "order": 12,
   "variations": [
     {
@@ -7,8 +7,8 @@
         "ayreian"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation3_ayreianroselia",
-      "texture": "cobblemon:textures/pokemon/generation3/ayreianroselia.png",
+      "poser": "cobblemon:generation2_ayreianquilava",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianquilava.png",
       "layers": []
     },
     {
@@ -17,8 +17,8 @@
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation3_ayreianroselia",
-      "texture": "cobblemon:textures/pokemon/generation3/ayreianroselia_shiny.png",
+      "poser": "cobblemon:generation2_ayreianquilava",
+      "texture": "cobblemon:textures/pokemon/generation2/ayreianquilava_shiny.png",
       "layers": []
     }
   ]

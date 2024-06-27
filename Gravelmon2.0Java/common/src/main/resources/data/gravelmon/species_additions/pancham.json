@@ -150,9 +150,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreianpancham_Pangoro",
+      "id": "ayreianpancham_pangoro",
       "variant": "level_up",
-      "result": "Pangoro ayreian",
+      "result": "pangoro ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

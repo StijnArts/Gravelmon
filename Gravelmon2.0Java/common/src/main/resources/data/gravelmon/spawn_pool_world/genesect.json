@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "interiangenesect-1",
-      "pokemon": "genesect interian",
+      "pokemon": "Optional[genesect] interian",
       "presets": [
           "natural"
       ],

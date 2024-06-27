@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreiancarbink-1",
-      "pokemon": "carbink ayreian",
+      "pokemon": "Optional[carbink] ayreian",
       "presets": [
           "amethyst_geode"
       ],

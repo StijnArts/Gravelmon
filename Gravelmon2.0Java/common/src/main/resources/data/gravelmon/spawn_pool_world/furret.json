@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosianfurret-1",
-      "pokemon": "furret aristosian",
+      "pokemon": "Optional[furret] aristosian",
       "presets": [
           "natural"
       ],

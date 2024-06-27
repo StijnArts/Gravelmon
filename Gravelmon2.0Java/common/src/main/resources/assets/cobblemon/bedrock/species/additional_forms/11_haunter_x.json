@@ -6,20 +6,34 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_haunterx.geo",
       "poser": "cobblemon:generation1_haunterx",
-      "texture": "cobblemon:textures/pokemon/generation1/haunterx.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/haunterx/haunterx.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation1/haunterx/haunterx_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
         "x",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_haunterx.geo",
       "poser": "cobblemon:generation1_haunterx",
-      "texture": "cobblemon:textures/pokemon/generation1/haunterx_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/haunterx/haunterx_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation1/haunterx/haunterx_emissive_shiny.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
     }
   ]
 }

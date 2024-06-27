@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hoenniandrakloak-1",
-      "pokemon": "drakloak hoennian",
+      "pokemon": "Optional[drakloak] hoennian",
       "presets": [
           "natural"
       ],

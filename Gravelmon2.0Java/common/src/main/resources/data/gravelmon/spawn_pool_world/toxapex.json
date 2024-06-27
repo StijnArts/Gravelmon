@@ -4,8 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "toxapexx-1",
+      "pokemon": "Optional[toxapex] x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-57",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
       "id": "hoenniantoxapex-1",
-      "pokemon": "toxapex hoennian",
+      "pokemon": "Optional[toxapex] hoennian",
       "presets": [
           "amethyst_geode"
       ],

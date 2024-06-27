@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.hiziangliscor.desc"
   ],
-  "preEvolution": "Gligar form=hizian",
+  "preEvolution": "gligar form=hizian",
   "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,

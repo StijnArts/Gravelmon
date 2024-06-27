@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagrotle-1",
-      "pokemon": "grotle delta",
+      "pokemon": "Optional[grotle] delta",
       "presets": [
           "natural"
       ],

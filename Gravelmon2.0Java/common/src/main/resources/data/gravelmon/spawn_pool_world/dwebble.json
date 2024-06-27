@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaberrydwebble-1",
-      "pokemon": "dwebble deltaberry",
+      "pokemon": "Optional[dwebble] deltaberry",
       "presets": [
           "near_berry_bush"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltacakedwebble-1",
-      "pokemon": "dwebble deltacake",
+      "pokemon": "Optional[dwebble] deltacake",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "ayreiandwebble-1",
-      "pokemon": "dwebble ayreian",
+      "pokemon": "Optional[dwebble] ayreian",
       "presets": [
           "reef"
       ],

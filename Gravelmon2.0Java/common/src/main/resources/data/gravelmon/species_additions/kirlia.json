@@ -145,7 +145,7 @@
   "pokedex": [
     "cobblemon.species.fligiankirlia.desc"
   ],
-  "preEvolution": "Ralts form=fligian",
+  "preEvolution": "ralts form=fligian",
   "evolutions": [
     {
       "id": "fligiankirlia_gallade",
@@ -164,9 +164,9 @@
       "permanent": true   
  },
     {
-      "id": "fligiankirlia_Gardevoir",
+      "id": "fligiankirlia_gardevoir",
       "variant": "level_up",
-      "result": "Gardevoir fligian",
+      "result": "gardevoir fligian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -327,12 +327,12 @@
   "pokedex": [
     "cobblemon.species.deltakirlia.desc"
   ],
-  "preEvolution": "Ralts form=delta",
+  "preEvolution": "ralts form=delta",
   "evolutions": [
     {
-      "id": "deltakirlia_Gardevoid",
+      "id": "deltakirlia_gardevoid",
       "variant": "level_up",
-      "result": "Gardevoid delta",
+      "result": "gardevoid delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

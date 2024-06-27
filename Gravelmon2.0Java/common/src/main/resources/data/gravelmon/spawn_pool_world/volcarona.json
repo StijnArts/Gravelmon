@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltavolcarona-1",
-      "pokemon": "volcarona delta",
+      "pokemon": "Optional[volcarona] delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "mythianvolcarona-1",
-      "pokemon": "volcarona mythian",
+      "pokemon": "Optional[volcarona] mythian",
       "presets": [
           "natural"
       ],

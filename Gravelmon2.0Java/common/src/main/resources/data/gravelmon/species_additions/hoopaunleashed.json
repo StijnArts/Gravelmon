@@ -158,9 +158,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltahoopaunleashed_Hoopa",
+      "id": "deltahoopaunleashed_hoopa",
       "variant": "item_interact",
-      "result": "Hoopa delta",
+      "result": "hoopa delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

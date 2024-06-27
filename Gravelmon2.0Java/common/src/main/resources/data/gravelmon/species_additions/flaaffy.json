@@ -113,7 +113,7 @@
   "pokedex": [
     "cobblemon.species.aristosianflaaffy.desc"
   ],
-  "preEvolution": "Mareep form=aristosian",
+  "preEvolution": "mareep form=aristosian",
   "evolutions": [
     {
       "id": "aristosianflaaffy_ramvolt",
@@ -234,12 +234,12 @@
   "pokedex": [
     "cobblemon.species.mythianflaaffy.desc"
   ],
-  "preEvolution": "Mareep form=mythian",
+  "preEvolution": "mareep form=mythian",
   "evolutions": [
     {
-      "id": "mythianflaaffy_Ampharos",
+      "id": "mythianflaaffy_ampharos",
       "variant": "level_up",
-      "result": "Ampharos mythian",
+      "result": "ampharos mythian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

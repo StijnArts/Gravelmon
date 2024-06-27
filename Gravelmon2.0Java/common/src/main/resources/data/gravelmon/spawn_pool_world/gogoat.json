@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "relicgogoat-1",
-      "pokemon": "gogoat relic",
+      "pokemon": "Optional[gogoat] relic",
       "presets": [
           "natural"
       ],

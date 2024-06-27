@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanwailmer-1",
-      "pokemon": "wailmer norheiman",
+      "pokemon": "Optional[wailmer] norheiman",
       "presets": [
           "underwater"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltawailmer-1",
-      "pokemon": "wailmer delta",
+      "pokemon": "Optional[wailmer] delta",
       "presets": [
           "natural"
       ],

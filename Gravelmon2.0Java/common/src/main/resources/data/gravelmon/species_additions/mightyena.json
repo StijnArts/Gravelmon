@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.mysticmightyena.desc"
   ],
-  "preEvolution": "Poochyena form=mystic",
+  "preEvolution": "poochyena form=mystic",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,

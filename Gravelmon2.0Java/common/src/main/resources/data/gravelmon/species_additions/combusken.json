@@ -157,12 +157,12 @@
   "pokedex": [
     "cobblemon.species.deltacombusken.desc"
   ],
-  "preEvolution": "Torchic form=delta",
+  "preEvolution": "torchic form=delta",
   "evolutions": [
     {
-      "id": "deltacombusken_Blaziken",
+      "id": "deltacombusken_blaziken",
       "variant": "level_up",
-      "result": "Blaziken delta",
+      "result": "blaziken delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -341,12 +341,12 @@
   "pokedex": [
     "cobblemon.species.ayreiancombusken.desc"
   ],
-  "preEvolution": "Torchic form=ayreian",
+  "preEvolution": "torchic form=ayreian",
   "evolutions": [
     {
-      "id": "ayreiancombusken_Blaziken",
+      "id": "ayreiancombusken_blaziken",
       "variant": "level_up",
-      "result": "Blaziken ayreian",
+      "result": "blaziken ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -451,12 +451,12 @@
   "pokedex": [
     "cobblemon.species.mysticcombusken.desc"
   ],
-  "preEvolution": "Torchic form=mystic",
+  "preEvolution": "torchic form=mystic",
   "evolutions": [
     {
-      "id": "mysticcombusken_Blaziken",
+      "id": "mysticcombusken_blaziken",
       "variant": "level_up",
-      "result": "Blaziken mystic",
+      "result": "blaziken mystic",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

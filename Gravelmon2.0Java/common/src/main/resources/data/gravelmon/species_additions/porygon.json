@@ -143,9 +143,9 @@
   ],
   "evolutions": [
     {
-      "id": "varitasianporygon_Porygon2",
+      "id": "varitasianporygon_porygon2",
       "variant": "item_interact",
-      "result": "Porygon2 varitasian",
+      "result": "porygon2 varitasian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

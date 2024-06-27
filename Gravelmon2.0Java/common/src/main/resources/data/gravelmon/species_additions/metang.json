@@ -156,12 +156,12 @@
   "pokedex": [
     "cobblemon.species.deltaspidermetang.desc"
   ],
-  "preEvolution": "Beldum form=deltaspider",
+  "preEvolution": "beldum form=deltaspider",
   "evolutions": [
     {
-      "id": "deltaspidermetang_Metagross",
+      "id": "deltaspidermetang_metagross",
       "variant": "level_up",
-      "result": "Metagross deltaspider",
+      "result": "metagross deltaspider",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -339,12 +339,12 @@
   "pokedex": [
     "cobblemon.species.deltaruinmetang.desc"
   ],
-  "preEvolution": "Beldum form=deltaruin",
+  "preEvolution": "beldum form=deltaruin",
   "evolutions": [
     {
-      "id": "deltaruinmetang_Metagross",
+      "id": "deltaruinmetang_metagross",
       "variant": "level_up",
-      "result": "Metagross deltaruin",
+      "result": "metagross deltaruin",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

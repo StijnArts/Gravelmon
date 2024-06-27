@@ -109,7 +109,7 @@
   "pokedex": [
     "cobblemon.species.chientilly.desc"
   ],
-  "preEvolution": "Smeargle form=x",
+  "preEvolution": "smeargle form=x",
   "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,

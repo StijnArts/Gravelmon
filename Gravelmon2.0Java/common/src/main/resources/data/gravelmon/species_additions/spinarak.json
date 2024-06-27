@@ -268,9 +268,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreianspinarak_Ariados",
+      "id": "ayreianspinarak_ariados",
       "variant": "level_up",
-      "result": "Ariados ayreian",
+      "result": "ariados ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

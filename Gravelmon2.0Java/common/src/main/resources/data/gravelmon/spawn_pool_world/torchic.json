@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltatorchic-1",
-      "pokemon": "torchic delta",
+      "pokemon": "Optional[torchic] delta",
       "presets": [
           "desert_pyramid"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "ayreiantorchic-1",
-      "pokemon": "torchic ayreian",
+      "pokemon": "Optional[torchic] ayreian",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "mystictorchic-1",
-      "pokemon": "torchic mystic",
+      "pokemon": "Optional[torchic] mystic",
       "presets": [
           "natural"
       ],

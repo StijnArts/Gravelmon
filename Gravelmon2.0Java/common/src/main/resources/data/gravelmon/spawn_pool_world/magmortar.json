@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltamagmortar-1",
-      "pokemon": "magmortar delta",
+      "pokemon": "Optional[magmortar] delta",
       "presets": [
           "ocean_monument"
       ],

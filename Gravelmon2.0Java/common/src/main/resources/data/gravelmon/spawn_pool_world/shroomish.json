@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "alteranshroomish-1",
-      "pokemon": "shroomish alteran",
+      "pokemon": "Optional[shroomish] alteran",
       "presets": [
           "natural"
       ],

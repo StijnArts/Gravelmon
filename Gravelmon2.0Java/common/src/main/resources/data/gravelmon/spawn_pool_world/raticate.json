@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadianraticate-1",
-      "pokemon": "raticate kaskadian",
+      "pokemon": "Optional[raticate] kaskadian",
       "presets": [
           "near_lava"
       ],

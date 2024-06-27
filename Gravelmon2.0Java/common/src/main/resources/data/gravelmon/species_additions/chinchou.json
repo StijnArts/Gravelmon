@@ -132,9 +132,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltachinchou_Lanturn",
+      "id": "deltachinchou_lanturn",
       "variant": "level_up",
-      "result": "Lanturn delta",
+      "result": "lanturn delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -260,9 +260,9 @@
   ],
   "evolutions": [
     {
-      "id": "hoennianchinchou_Lanturn",
+      "id": "hoennianchinchou_lanturn",
       "variant": "item_interact",
-      "result": "Lanturn hoennian",
+      "result": "lanturn hoennian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

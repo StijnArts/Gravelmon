@@ -147,9 +147,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltatorchic_Combusken",
+      "id": "deltatorchic_combusken",
       "variant": "level_up",
-      "result": "Combusken delta",
+      "result": "combusken delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -328,9 +328,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreiantorchic_Combusken",
+      "id": "ayreiantorchic_combusken",
       "variant": "level_up",
-      "result": "Combusken ayreian",
+      "result": "combusken ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -435,9 +435,9 @@
   ],
   "evolutions": [
     {
-      "id": "mystictorchic_Combusken",
+      "id": "mystictorchic_combusken",
       "variant": "level_up",
-      "result": "Combusken mystic",
+      "result": "combusken mystic",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

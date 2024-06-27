@@ -79,7 +79,7 @@
   "pokedex": [
     "cobblemon.species.shinodea.desc"
   ],
-  "preEvolution": "Nincada form=fligian",
+  "preEvolution": "nincada form=fligian",
   "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,

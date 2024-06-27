@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaambipom-1",
-      "pokemon": "ambipom delta",
+      "pokemon": "Optional[ambipom] delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "relicambipom-1",
-      "pokemon": "ambipom relic",
+      "pokemon": "Optional[ambipom] relic",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "kaskadianambipom-1",
-      "pokemon": "ambipom kaskadian",
+      "pokemon": "Optional[ambipom] kaskadian",
       "presets": [
           "natural"
       ],

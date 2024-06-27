@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianmisdreavus-1",
-      "pokemon": "misdreavus hizian",
+      "pokemon": "Optional[misdreavus] hizian",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "deltamisdreavus-1",
-      "pokemon": "misdreavus delta",
+      "pokemon": "Optional[misdreavus] delta",
       "presets": [
           "natural"
       ],

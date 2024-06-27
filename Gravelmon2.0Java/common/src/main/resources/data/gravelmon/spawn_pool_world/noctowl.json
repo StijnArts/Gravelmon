@@ -4,8 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "enjinniannoctowl-1",
+      "pokemon": "Optional[noctowl] enjinnian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-43",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "eghonoctowl-1",
-      "pokemon": "noctowl egho",
+      "pokemon": "Optional[noctowl] egho",
       "presets": [
           "natural"
       ],
@@ -17,6 +35,23 @@
       "condition": {
 "biomes": [ "#cobblemon:is_taiga" ],
         "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltanoctowl-1",
+      "pokemon": "Optional[noctowl] delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "28-45",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ],
         "canSeeSky": true
       }
     }

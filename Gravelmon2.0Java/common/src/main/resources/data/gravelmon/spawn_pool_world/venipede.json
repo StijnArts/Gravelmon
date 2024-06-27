@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltavenipede-1",
-      "pokemon": "venipede delta",
+      "pokemon": "Optional[venipede] delta",
       "presets": [
           "natural"
       ],

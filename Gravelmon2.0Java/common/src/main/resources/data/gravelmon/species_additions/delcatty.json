@@ -103,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.hiziandelcatty.desc"
   ],
-  "preEvolution": "Skitty form=hizian",
+  "preEvolution": "skitty form=hizian",
   "evolutions": [
     {
       "id": "hiziandelcatty_purrwess",

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranvanilluxe-1",
-      "pokemon": "vanilluxe novran",
+      "pokemon": "Optional[vanilluxe] novran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianvanilluxe-1",
-      "pokemon": "vanilluxe ayreian",
+      "pokemon": "Optional[vanilluxe] ayreian",
       "presets": [
           "natural"
       ],

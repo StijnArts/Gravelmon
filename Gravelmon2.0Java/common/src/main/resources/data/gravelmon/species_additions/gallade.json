@@ -174,7 +174,7 @@
   "pokedex": [
     "cobblemon.species.fligiangallade.desc"
   ],
-  "preEvolution": "Kirlia form=fligian",
+  "preEvolution": "kirlia form=fligian",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
@@ -404,7 +404,7 @@
   "pokedex": [
     "cobblemon.species.deltagallade.desc"
   ],
-  "preEvolution": "Kirlia form=delta",
+  "preEvolution": "kirlia form=delta",
   "baseScale": 1.0,
   "hitbox": {
     "width": 0.6,

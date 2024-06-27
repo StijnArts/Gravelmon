@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.fligiandusknoir.desc"
   ],
-  "preEvolution": "Dusclops form=fligian",
+  "preEvolution": "dusclops form=fligian",
   "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,

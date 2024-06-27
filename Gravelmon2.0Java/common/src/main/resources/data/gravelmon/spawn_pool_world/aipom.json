@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianaipom-1",
-      "pokemon": "aipom fligian",
+      "pokemon": "Optional[aipom] fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltaaipom-1",
-      "pokemon": "aipom delta",
+      "pokemon": "Optional[aipom] delta",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "relicaipom-1",
-      "pokemon": "aipom relic",
+      "pokemon": "Optional[aipom] relic",
       "presets": [
           "natural"
       ],

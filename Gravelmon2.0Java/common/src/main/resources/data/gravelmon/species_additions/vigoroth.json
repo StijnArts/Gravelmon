@@ -118,7 +118,7 @@
   "pokedex": [
     "cobblemon.species.fligianvigoroth.desc"
   ],
-  "preEvolution": "Slakoth form=fligian",
+  "preEvolution": "slakoth form=fligian",
   "evolutions": [
     {
       "id": "fligianvigoroth_therierrrm",

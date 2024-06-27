@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaoctillery-1",
-      "pokemon": "octillery delta",
+      "pokemon": "Optional[octillery] delta",
       "presets": [
           "natural"
       ],

@@ -101,7 +101,7 @@
   "pokedex": [
     "cobblemon.species.drasparath.desc"
   ],
-  "preEvolution": "Dunsparce form=hoennian",
+  "preEvolution": "dunsparce form=hoennian",
   "baseScale": 1.2249999999999999,
   "hitbox": {
     "width": 6.0,

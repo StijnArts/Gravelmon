@@ -108,9 +108,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltaseedot_Nuzleaf",
+      "id": "deltaseedot_nuzleaf",
       "variant": "level_up",
-      "result": "Nuzleaf delta",
+      "result": "nuzleaf delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

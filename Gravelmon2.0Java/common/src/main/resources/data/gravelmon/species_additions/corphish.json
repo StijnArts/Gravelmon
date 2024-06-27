@@ -70,9 +70,9 @@
   ],
   "evolutions": [
     {
-      "id": "norheimancorphish_Crawdaunt",
+      "id": "norheimancorphish_crawdaunt",
       "variant": "level_up",
-      "result": "Crawdaunt norheiman",
+      "result": "crawdaunt norheiman",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

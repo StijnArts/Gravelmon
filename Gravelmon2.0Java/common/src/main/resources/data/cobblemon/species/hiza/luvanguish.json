@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.luvanguish.desc"
   ],
-  "preEvolution": "Luvdisc form=hizian",
+  "preEvolution": "luvdisc form=hizian",
   "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltamagby-1",
-      "pokemon": "magby delta",
+      "pokemon": "Optional[magby] delta",
       "presets": [
           "ocean_monument"
       ],

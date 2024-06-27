@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hoennianursaring-1",
-      "pokemon": "ursaring hoennian",
+      "pokemon": "Optional[ursaring] hoennian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "seviianursaring-1",
-      "pokemon": "ursaring seviian",
+      "pokemon": "Optional[ursaring] seviian",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "cefiranursaring-1",
-      "pokemon": "ursaring cefiran",
+      "pokemon": "Optional[ursaring] cefiran",
       "presets": [
           "natural"
       ],

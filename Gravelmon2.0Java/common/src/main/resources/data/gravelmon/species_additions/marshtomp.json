@@ -74,9 +74,9 @@
   ],
   "evolutions": [
     {
-      "id": "mysticmarshtomp_Swampert",
+      "id": "mysticmarshtomp_swampert",
       "variant": "level_up",
-      "result": "Swampert mystic",
+      "result": "swampert mystic",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

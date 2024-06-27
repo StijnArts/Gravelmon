@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaduosion-1",
-      "pokemon": "duosion delta",
+      "pokemon": "Optional[duosion] delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "hoennianduosion-1",
-      "pokemon": "duosion hoennian",
+      "pokemon": "Optional[duosion] hoennian",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "kaskadianduosion-1",
-      "pokemon": "duosion kaskadian",
+      "pokemon": "Optional[duosion] kaskadian",
       "presets": [
           "reef"
       ],
@@ -63,7 +63,7 @@
 ,
     {
       "id": "mysticduosion-1",
-      "pokemon": "duosion mystic",
+      "pokemon": "Optional[duosion] mystic",
       "presets": [
           "natural"
       ],

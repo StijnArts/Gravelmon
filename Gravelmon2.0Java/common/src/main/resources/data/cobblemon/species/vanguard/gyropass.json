@@ -139,7 +139,7 @@
   "pokedex": [
     "cobblemon.species.gyropass.desc"
   ],
-  "preEvolution": "Nosepass form=ayreian",
+  "preEvolution": "nosepass form=ayreian",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,

@@ -134,7 +134,7 @@
   "pokedex": [
     "cobblemon.species.eyeziant.desc"
   ],
-  "preEvolution": "Sableye form=enjinnian",
+  "preEvolution": "sableye form=enjinnian",
   "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,

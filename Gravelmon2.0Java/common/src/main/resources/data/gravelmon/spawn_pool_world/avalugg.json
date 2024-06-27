@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaavalugg-1",
-      "pokemon": "avalugg delta",
+      "pokemon": "Optional[avalugg] delta",
       "presets": [
           "natural"
       ],

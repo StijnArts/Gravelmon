@@ -102,9 +102,9 @@
   ],
   "evolutions": [
     {
-      "id": "hizianlileep_Cradily",
+      "id": "hizianlileep_cradily",
       "variant": "level_up",
-      "result": "Cradily hizian",
+      "result": "cradily hizian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianscyther-1",
-      "pokemon": "scyther hizian",
+      "pokemon": "Optional[scyther] hizian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltascyther-1",
-      "pokemon": "scyther delta",
+      "pokemon": "Optional[scyther] delta",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "mythianscyther-1",
-      "pokemon": "scyther mythian",
+      "pokemon": "Optional[scyther] mythian",
       "presets": [
           "natural"
       ],

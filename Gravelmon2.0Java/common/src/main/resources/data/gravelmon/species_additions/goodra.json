@@ -148,7 +148,7 @@
   "pokedex": [
     "cobblemon.species.deltagoodra.desc"
   ],
-  "preEvolution": "Sliggoo form=delta",
+  "preEvolution": "sliggoo form=delta",
   "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,

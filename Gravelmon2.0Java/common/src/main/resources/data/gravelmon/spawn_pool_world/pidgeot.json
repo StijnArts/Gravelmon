@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltapidgeot-1",
-      "pokemon": "pidgeot delta",
+      "pokemon": "Optional[pidgeot] delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "mythianpidgeot-1",
-      "pokemon": "pidgeot mythian",
+      "pokemon": "Optional[pidgeot] mythian",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "ayreianpidgeot-1",
-      "pokemon": "pidgeot ayreian",
+      "pokemon": "Optional[pidgeot] ayreian",
       "presets": [
           "natural"
       ],

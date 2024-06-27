@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaquagsire-1",
-      "pokemon": "quagsire delta",
+      "pokemon": "Optional[quagsire] delta",
       "presets": [
           "natural"
       ],

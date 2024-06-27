@@ -151,7 +151,7 @@
   "pokedex": [
     "cobblemon.species.ayreianflygon.desc"
   ],
-  "preEvolution": "Vibrava form=ayreian",
+  "preEvolution": "vibrava form=ayreian",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
@@ -247,7 +247,7 @@
   "pokedex": [
     "cobblemon.species.cefiranflygon.desc"
   ],
-  "preEvolution": "Vibrava form=cefiran",
+  "preEvolution": "vibrava form=cefiran",
   "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,

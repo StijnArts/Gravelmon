@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianporygon2-1",
-      "pokemon": "porygon2 varitasian",
+      "pokemon": "Optional[porygon2] varitasian",
       "presets": [
           "village"
       ],

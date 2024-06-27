@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "joltikx-1",
-      "pokemon": "joltik x",
+      "pokemon": "Optional[joltik] x",
       "presets": [
           "natural"
       ],

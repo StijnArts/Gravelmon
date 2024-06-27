@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "armirangarchomp-1",
-      "pokemon": "garchomp armiran",
+      "pokemon": "Optional[garchomp] armiran",
       "presets": [
           "natural"
       ],

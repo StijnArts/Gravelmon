@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasiantogetic-1",
-      "pokemon": "togetic varitasian",
+      "pokemon": "Optional[togetic] varitasian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hubiantogetic-1",
-      "pokemon": "togetic hubian",
+      "pokemon": "Optional[togetic] hubian",
       "presets": [
           "natural"
       ],

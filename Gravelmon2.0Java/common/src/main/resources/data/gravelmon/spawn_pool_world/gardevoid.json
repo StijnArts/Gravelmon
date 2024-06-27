@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagardevoir-1",
-      "pokemon": "gardevoir delta",
+      "pokemon": "Optional[gardevoid] delta",
       "presets": [
           "natural"
       ],

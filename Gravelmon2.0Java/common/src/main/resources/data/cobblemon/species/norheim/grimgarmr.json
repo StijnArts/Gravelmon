@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.grimgarmr.desc"
   ],
-  "preEvolution": "Houndour form=norheiman",
+  "preEvolution": "houndour form=norheiman",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

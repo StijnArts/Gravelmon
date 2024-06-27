@@ -132,7 +132,7 @@
   "pokedex": [
     "cobblemon.species.varitasianaltaria.desc"
   ],
-  "preEvolution": "Swablu form=varitasian",
+  "preEvolution": "swablu form=varitasian",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
@@ -286,7 +286,7 @@
   "pokedex": [
     "cobblemon.species.eghoaltaria.desc"
   ],
-  "preEvolution": "Swablu form=egho",
+  "preEvolution": "swablu form=egho",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
@@ -443,7 +443,7 @@
   "pokedex": [
     "cobblemon.species.ayreianaltaria.desc"
   ],
-  "preEvolution": "Swablu form=ayreian",
+  "preEvolution": "swablu form=ayreian",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,

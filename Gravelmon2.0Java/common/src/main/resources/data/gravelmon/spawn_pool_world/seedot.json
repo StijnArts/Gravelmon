@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaseedot-1",
-      "pokemon": "seedot delta",
+      "pokemon": "Optional[seedot] delta",
       "presets": [
           "village"
       ],

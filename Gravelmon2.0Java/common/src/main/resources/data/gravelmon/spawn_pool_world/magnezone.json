@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghomagnezone-1",
-      "pokemon": "magnezone egho",
+      "pokemon": "Optional[magnezone] egho",
       "presets": [
           "natural"
       ],

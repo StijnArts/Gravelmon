@@ -109,7 +109,7 @@
   "pokedex": [
     "cobblemon.species.kaskadiandiggersby.desc"
   ],
-  "preEvolution": "Bunnelby form=kaskadian",
+  "preEvolution": "bunnelby form=kaskadian",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,

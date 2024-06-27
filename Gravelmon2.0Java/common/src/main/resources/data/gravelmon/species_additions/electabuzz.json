@@ -156,7 +156,7 @@
   "pokedex": [
     "cobblemon.species.deltaelectabuzz.desc"
   ],
-  "preEvolution": "Elekid form=delta",
+  "preEvolution": "elekid form=delta",
   "evolutions": [
     {
       "id": "deltaelectabuzz_electivire",
@@ -306,7 +306,7 @@
   "pokedex": [
     "cobblemon.species.electabuzzx.desc"
   ],
-  "preEvolution": "Elekid form=x",
+  "preEvolution": "elekid form=x",
   "evolutions": [
     {
       "id": "electabuzzx_electaburst",

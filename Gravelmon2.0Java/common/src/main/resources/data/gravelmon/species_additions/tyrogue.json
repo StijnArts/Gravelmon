@@ -135,9 +135,9 @@
       "permanent": true   
  },
     {
-      "id": "qamorantyrogue_Hitmontop",
+      "id": "qamorantyrogue_hitmontop",
       "variant": "level_up",
-      "result": "Hitmontop qamoran",
+      "result": "hitmontop qamoran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -321,9 +321,9 @@
       "permanent": true   
  },
     {
-      "id": "varitasiantyrogue_Hitmontop",
+      "id": "varitasiantyrogue_hitmontop",
       "variant": "level_up",
-      "result": "Hitmontop varitasian",
+      "result": "hitmontop varitasian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

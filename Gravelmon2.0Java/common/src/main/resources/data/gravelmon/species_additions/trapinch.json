@@ -139,9 +139,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreiantrapinch_Vibrava",
+      "id": "ayreiantrapinch_vibrava",
       "variant": "level_up",
-      "result": "Vibrava ayreian",
+      "result": "vibrava ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltapikachu-1",
-      "pokemon": "pikachu delta",
+      "pokemon": "Optional[pikachu] delta",
       "presets": [
           "natural"
       ],
@@ -18,6 +18,38 @@
 "biomes": [ "#cobblemon:is_highlands" ],
         "timeRange": "day",
         "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "pikachufemalex-1",
+      "pokemon": "Optional[pikachu] femalex",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-33",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "pikachumalex-1",
+      "pokemon": "Optional[pikachu] malex",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-33",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
       }
     }
 

@@ -141,7 +141,7 @@
   "pokedex": [
     "cobblemon.species.deltalanturn.desc"
   ],
-  "preEvolution": "Chinchou form=delta",
+  "preEvolution": "chinchou form=delta",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.2,
@@ -258,7 +258,7 @@
   "pokedex": [
     "cobblemon.species.hoennianlanturn.desc"
   ],
-  "preEvolution": "Chinchou form=hoennian",
+  "preEvolution": "chinchou form=hoennian",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

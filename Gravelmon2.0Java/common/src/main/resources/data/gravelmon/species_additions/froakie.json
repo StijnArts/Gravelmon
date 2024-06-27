@@ -135,9 +135,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltafroakie_Frogadier",
+      "id": "deltafroakie_frogadier",
       "variant": "level_up",
-      "result": "Frogadier delta",
+      "result": "frogadier delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -268,9 +268,9 @@
   ],
   "evolutions": [
     {
-      "id": "armiranfroakie_Frogadier",
+      "id": "armiranfroakie_frogadier",
       "variant": "level_up",
-      "result": "Frogadier armiran",
+      "result": "frogadier armiran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

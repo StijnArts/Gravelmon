@@ -76,7 +76,7 @@
   "pokedex": [
     "cobblemon.species.nidorimewintercoat.desc"
   ],
-  "preEvolution": "Nidoranf form=alteranwintercoat",
+  "preEvolution": "nidoranf form=alteranwintercoat",
   "evolutions": [
     {
       "id": "nidorimewintercoat_nidoregina",

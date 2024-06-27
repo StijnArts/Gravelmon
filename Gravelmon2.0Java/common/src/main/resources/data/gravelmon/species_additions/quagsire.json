@@ -157,7 +157,7 @@
   "pokedex": [
     "cobblemon.species.deltaquagsire.desc"
   ],
-  "preEvolution": "Wooper form=delta",
+  "preEvolution": "wooper form=delta",
   "baseScale": 1.1,
   "hitbox": {
     "width": 0.8,

@@ -72,9 +72,9 @@
   ],
   "evolutions": [
     {
-      "id": "qamoranspoink_Grumpig",
+      "id": "qamoranspoink_grumpig",
       "variant": "level_up",
-      "result": "Grumpig qamoran",
+      "result": "grumpig qamoran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

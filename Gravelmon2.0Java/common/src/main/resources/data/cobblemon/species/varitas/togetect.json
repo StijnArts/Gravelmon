@@ -154,7 +154,7 @@
   "pokedex": [
     "cobblemon.species.togetect.desc"
   ],
-  "preEvolution": "Togetic form=varitasian",
+  "preEvolution": "togetic form=varitasian",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

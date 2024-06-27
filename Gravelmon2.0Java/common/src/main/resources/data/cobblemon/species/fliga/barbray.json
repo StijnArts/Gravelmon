@@ -127,7 +127,7 @@
   "pokedex": [
     "cobblemon.species.barbray.desc"
   ],
-  "preEvolution": "Qwilfish form=fligian",
+  "preEvolution": "qwilfish form=fligian",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,

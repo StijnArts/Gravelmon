@@ -130,7 +130,7 @@
   "pokedex": [
     "cobblemon.species.relicgogoat.desc"
   ],
-  "preEvolution": "Skiddo form=relic",
+  "preEvolution": "skiddo form=relic",
   "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,

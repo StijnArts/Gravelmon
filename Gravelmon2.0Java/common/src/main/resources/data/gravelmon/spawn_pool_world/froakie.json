@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltafroakie-1",
-      "pokemon": "froakie delta",
+      "pokemon": "Optional[froakie] delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "armiranfroakie-1",
-      "pokemon": "froakie armiran",
+      "pokemon": "Optional[froakie] armiran",
       "presets": [
           "natural"
       ],

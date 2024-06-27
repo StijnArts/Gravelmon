@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.hizianhonchkrow.desc"
   ],
-  "preEvolution": "Murkrow form=hizian",
+  "preEvolution": "murkrow form=hizian",
   "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,

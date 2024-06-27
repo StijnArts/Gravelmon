@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltacombusken-1",
-      "pokemon": "combusken delta",
+      "pokemon": "Optional[combusken] delta",
       "presets": [
           "desert_pyramid"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "ayreiancombusken-1",
-      "pokemon": "combusken ayreian",
+      "pokemon": "Optional[combusken] ayreian",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "mysticcombusken-1",
-      "pokemon": "combusken mystic",
+      "pokemon": "Optional[combusken] mystic",
       "presets": [
           "natural"
       ],

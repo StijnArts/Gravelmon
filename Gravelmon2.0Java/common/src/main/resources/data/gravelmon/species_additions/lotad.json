@@ -124,9 +124,9 @@
   ],
   "evolutions": [
     {
-      "id": "egholotad_Lombre",
+      "id": "egholotad_lombre",
       "variant": "level_up",
-      "result": "Lombre egho",
+      "result": "lombre egho",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -295,9 +295,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltalotad_Lombre",
+      "id": "deltalotad_lombre",
       "variant": "level_up",
-      "result": "Lombre delta",
+      "result": "lombre delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

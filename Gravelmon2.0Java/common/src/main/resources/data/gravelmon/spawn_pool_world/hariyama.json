@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "cefiranhariyama-1",
-      "pokemon": "hariyama cefiran",
+      "pokemon": "Optional[hariyama] cefiran",
       "presets": [
           "natural"
       ],

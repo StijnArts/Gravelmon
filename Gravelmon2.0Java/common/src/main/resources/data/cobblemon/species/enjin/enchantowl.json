@@ -148,7 +148,7 @@
   "pokedex": [
     "cobblemon.species.enchantowl.desc"
   ],
-  "preEvolution": "Noctowl form=enjinnian",
+  "preEvolution": "noctowl form=enjinnian",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

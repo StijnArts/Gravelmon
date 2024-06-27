@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianmunchlax-1",
-      "pokemon": "munchlax varitasian",
+      "pokemon": "Optional[munchlax] varitasian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltamunchlax-1",
-      "pokemon": "munchlax delta",
+      "pokemon": "Optional[munchlax] delta",
       "presets": [
           "natural"
       ],

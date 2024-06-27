@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltageodude-1",
-      "pokemon": "geodude delta",
+      "pokemon": "Optional[geodude] delta",
       "presets": [
           "jungle_pyramid"
       ],

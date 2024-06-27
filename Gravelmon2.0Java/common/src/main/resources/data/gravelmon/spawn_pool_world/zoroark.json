@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mythianzoroark-1",
-      "pokemon": "zoroark mythian",
+      "pokemon": "Optional[zoroark] mythian",
       "presets": [
           "natural"
       ],

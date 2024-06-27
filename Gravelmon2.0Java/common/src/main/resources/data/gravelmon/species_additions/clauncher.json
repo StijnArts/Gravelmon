@@ -106,9 +106,9 @@
   ],
   "evolutions": [
     {
-      "id": "seviianclauncher_Clawitzer",
+      "id": "seviianclauncher_clawitzer",
       "variant": "level_up",
-      "result": "Clawitzer seviian",
+      "result": "clawitzer seviian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

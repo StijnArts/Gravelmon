@@ -100,7 +100,7 @@
   "pokedex": [
     "cobblemon.species.goolossal.desc"
   ],
-  "preEvolution": "Goomy form=hoennian",
+  "preEvolution": "goomy form=hoennian",
   "baseScale": 1.7,
   "hitbox": {
     "width": 6.0,

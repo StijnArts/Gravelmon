@@ -77,9 +77,9 @@
   ],
   "evolutions": [
     {
-      "id": "alteranshroomish_Breloom",
+      "id": "alteranshroomish_breloom",
       "variant": "level_up",
-      "result": "Breloom alteran",
+      "result": "breloom alteran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

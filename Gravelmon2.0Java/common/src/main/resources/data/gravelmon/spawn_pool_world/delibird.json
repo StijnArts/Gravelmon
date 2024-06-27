@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "cefirandelibird-1",
-      "pokemon": "delibird cefiran",
+      "pokemon": "Optional[delibird] cefiran",
       "presets": [
           "village"
       ],

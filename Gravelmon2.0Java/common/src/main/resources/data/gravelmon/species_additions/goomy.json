@@ -125,9 +125,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltagoomy_Sliggoo",
+      "id": "deltagoomy_sliggoo",
       "variant": "level_up",
-      "result": "Sliggoo delta",
+      "result": "sliggoo delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

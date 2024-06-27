@@ -146,9 +146,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltawooper_Quagsire",
+      "id": "deltawooper_quagsire",
       "variant": "level_up",
-      "result": "Quagsire delta",
+      "result": "quagsire delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -104,9 +104,9 @@
   ],
   "evolutions": [
     {
-      "id": "swirlixx_Slurpuff",
+      "id": "swirlixx_slurpuff",
       "variant": "item_interact",
-      "result": "Slurpuff x",
+      "result": "slurpuff x",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

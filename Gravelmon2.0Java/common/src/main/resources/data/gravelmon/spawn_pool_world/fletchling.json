@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianfletchling-1",
-      "pokemon": "fletchling ayreian",
+      "pokemon": "Optional[fletchling] ayreian",
       "presets": [
           "near_water"
       ],

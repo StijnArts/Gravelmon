@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianvanillish-1",
-      "pokemon": "vanillish fligian",
+      "pokemon": "Optional[vanillish] fligian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "novranvanillish-1",
-      "pokemon": "vanillish novran",
+      "pokemon": "Optional[vanillish] novran",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "ayreianvanillish-1",
-      "pokemon": "vanillish ayreian",
+      "pokemon": "Optional[vanillish] ayreian",
       "presets": [
           "natural"
       ],

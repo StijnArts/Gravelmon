@@ -134,7 +134,7 @@
   "pokedex": [
     "cobblemon.species.egholudicolo.desc"
   ],
-  "preEvolution": "Lombre form=egho",
+  "preEvolution": "lombre form=egho",
   "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
@@ -308,7 +308,7 @@
   "pokedex": [
     "cobblemon.species.deltaludicolo.desc"
   ],
-  "preEvolution": "Lombre form=delta",
+  "preEvolution": "lombre form=delta",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

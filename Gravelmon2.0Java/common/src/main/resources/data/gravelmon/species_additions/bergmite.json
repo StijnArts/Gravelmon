@@ -138,9 +138,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltabergmite_Avalugg",
+      "id": "deltabergmite_avalugg",
       "variant": "level_up",
-      "result": "Avalugg delta",
+      "result": "avalugg delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

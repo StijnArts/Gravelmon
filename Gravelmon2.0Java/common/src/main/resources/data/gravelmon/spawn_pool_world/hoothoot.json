@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "enjinnianhoothoot-1",
-      "pokemon": "hoothoot enjinnian",
+      "pokemon": "Optional[hoothoot] enjinnian",
       "presets": [
           "natural"
       ],
@@ -22,8 +22,26 @@
     }
 ,
     {
+      "id": "eghohoothoot-1",
+      "pokemon": "Optional[hoothoot] egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltahoothoot-1",
-      "pokemon": "hoothoot delta",
+      "pokemon": "Optional[hoothoot] delta",
       "presets": [
           "natural"
       ],

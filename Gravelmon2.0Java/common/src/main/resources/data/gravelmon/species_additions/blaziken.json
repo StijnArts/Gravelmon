@@ -200,7 +200,7 @@
   "pokedex": [
     "cobblemon.species.deltablaziken.desc"
   ],
-  "preEvolution": "Combusken form=delta",
+  "preEvolution": "combusken form=delta",
   "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
@@ -368,7 +368,7 @@
   "pokedex": [
     "cobblemon.species.ayreianblaziken.desc"
   ],
-  "preEvolution": "Combusken form=ayreian",
+  "preEvolution": "combusken form=ayreian",
   "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
@@ -462,7 +462,7 @@
   "pokedex": [
     "cobblemon.species.mysticblaziken.desc"
   ],
-  "preEvolution": "Combusken form=mystic",
+  "preEvolution": "combusken form=mystic",
   "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,

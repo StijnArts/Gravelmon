@@ -115,7 +115,7 @@
   "pokedex": [
     "cobblemon.species.ayreianfletchinder.desc"
   ],
-  "preEvolution": "Fletchling form=ayreian",
+  "preEvolution": "fletchling form=ayreian",
   "evolutions": [
     {
       "id": "ayreianfletchinder_fleumingo",

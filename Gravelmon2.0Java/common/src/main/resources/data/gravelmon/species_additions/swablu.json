@@ -120,9 +120,9 @@
   ],
   "evolutions": [
     {
-      "id": "varitasianswablu_Altaria",
+      "id": "varitasianswablu_altaria",
       "variant": "level_up",
-      "result": "Altaria varitasian",
+      "result": "altaria varitasian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -281,9 +281,9 @@
   ],
   "evolutions": [
     {
-      "id": "eghoswablu_Altaria",
+      "id": "eghoswablu_altaria",
       "variant": "level_up",
-      "result": "Altaria egho",
+      "result": "altaria egho",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -447,9 +447,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreianswablu_Altaria",
+      "id": "ayreianswablu_altaria",
       "variant": "level_up",
-      "result": "Altaria ayreian",
+      "result": "altaria ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

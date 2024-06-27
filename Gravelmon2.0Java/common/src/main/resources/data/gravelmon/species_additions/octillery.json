@@ -150,7 +150,7 @@
   "pokedex": [
     "cobblemon.species.deltaoctillery.desc"
   ],
-  "preEvolution": "Remoraid form=delta",
+  "preEvolution": "remoraid form=delta",
   "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,

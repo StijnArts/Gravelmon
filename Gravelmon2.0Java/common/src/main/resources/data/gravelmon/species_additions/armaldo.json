@@ -124,7 +124,7 @@
   "pokedex": [
     "cobblemon.species.hizianarmaldo.desc"
   ],
-  "preEvolution": "Anorith form=hizian",
+  "preEvolution": "anorith form=hizian",
   "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,

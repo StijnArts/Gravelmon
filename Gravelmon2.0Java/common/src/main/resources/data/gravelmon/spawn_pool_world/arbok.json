@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "alteranarbok-1",
-      "pokemon": "arbok alteran",
+      "pokemon": "Optional[arbok] alteran",
       "presets": [
           "natural"
       ],

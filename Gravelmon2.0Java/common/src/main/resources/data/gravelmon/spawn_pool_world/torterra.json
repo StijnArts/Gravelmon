@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltatorterra-1",
-      "pokemon": "torterra delta",
+      "pokemon": "Optional[torterra] delta",
       "presets": [
           "natural"
       ],

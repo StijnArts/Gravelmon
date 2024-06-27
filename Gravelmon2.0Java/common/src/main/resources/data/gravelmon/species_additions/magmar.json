@@ -131,7 +131,7 @@
   "pokedex": [
     "cobblemon.species.deltamagmar.desc"
   ],
-  "preEvolution": "Magby form=delta",
+  "preEvolution": "magby form=delta",
   "evolutions": [
     {
       "id": "deltamagmar_magmortar",

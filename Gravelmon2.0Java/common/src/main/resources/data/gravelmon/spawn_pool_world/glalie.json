@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaglalie-1",
-      "pokemon": "glalie delta",
+      "pokemon": "Optional[glalie] delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "cefiranglalie-1",
-      "pokemon": "glalie cefiran",
+      "pokemon": "Optional[glalie] cefiran",
       "presets": [
           "natural"
       ],

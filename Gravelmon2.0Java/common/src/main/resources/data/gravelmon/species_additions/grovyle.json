@@ -70,12 +70,12 @@
   "pokedex": [
     "cobblemon.species.fligiangrovyle.desc"
   ],
-  "preEvolution": "Treecko form=fligian",
+  "preEvolution": "treecko form=fligian",
   "evolutions": [
     {
-      "id": "fligiangrovyle_Sceptile",
+      "id": "fligiangrovyle_sceptile",
       "variant": "level_up",
-      "result": "Sceptile fligian",
+      "result": "sceptile fligian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -257,12 +257,12 @@
   "pokedex": [
     "cobblemon.species.deltagrovyle.desc"
   ],
-  "preEvolution": "Treecko form=delta",
+  "preEvolution": "treecko form=delta",
   "evolutions": [
     {
-      "id": "deltagrovyle_Sceptile",
+      "id": "deltagrovyle_sceptile",
       "variant": "level_up",
-      "result": "Sceptile delta",
+      "result": "sceptile delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -368,12 +368,12 @@
   "pokedex": [
     "cobblemon.species.mysticgrovyle.desc"
   ],
-  "preEvolution": "Treecko form=mystic",
+  "preEvolution": "treecko form=mystic",
   "evolutions": [
     {
-      "id": "mysticgrovyle_Sceptile",
+      "id": "mysticgrovyle_sceptile",
       "variant": "level_up",
-      "result": "Sceptile mystic",
+      "result": "sceptile mystic",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

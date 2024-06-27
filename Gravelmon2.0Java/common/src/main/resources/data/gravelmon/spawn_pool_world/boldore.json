@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "armiranboldore-1",
-      "pokemon": "boldore armiran",
+      "pokemon": "Optional[boldore] armiran",
       "presets": [
           "natural"
       ],

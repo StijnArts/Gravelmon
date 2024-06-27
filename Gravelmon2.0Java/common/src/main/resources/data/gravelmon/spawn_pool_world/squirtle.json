@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghosquirtle-1",
-      "pokemon": "squirtle egho",
+      "pokemon": "Optional[squirtle] egho",
       "presets": [
           "natural"
       ],
@@ -25,7 +25,7 @@
 ,
     {
       "id": "deltasquirtle-1",
-      "pokemon": "squirtle delta",
+      "pokemon": "Optional[squirtle] delta",
       "presets": [
           "natural"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "ayreiansquirtle-1",
-      "pokemon": "squirtle ayreian",
+      "pokemon": "Optional[squirtle] ayreian",
       "presets": [
           "natural"
       ],

@@ -104,9 +104,9 @@
   ],
   "evolutions": [
     {
-      "id": "relicledyba_Ledian",
+      "id": "relicledyba_ledian",
       "variant": "level_up",
-      "result": "Ledian relic",
+      "result": "ledian relic",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

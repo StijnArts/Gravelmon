@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimansigilyph-1",
-      "pokemon": "sigilyph norheiman",
+      "pokemon": "Optional[sigilyph] norheiman",
       "presets": [
           "natural"
       ],

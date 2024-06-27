@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltatoxicroak-1",
-      "pokemon": "toxicroak delta",
+      "pokemon": "Optional[toxicroak] delta",
       "presets": [
           "natural"
       ],

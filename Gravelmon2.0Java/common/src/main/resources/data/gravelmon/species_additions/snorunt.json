@@ -120,9 +120,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltasnorunt_Glalie",
+      "id": "deltasnorunt_glalie",
       "variant": "level_up",
-      "result": "Glalie delta",
+      "result": "glalie delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -250,9 +250,9 @@
   ],
   "evolutions": [
     {
-      "id": "cefiransnorunt_Glalie",
+      "id": "cefiransnorunt_glalie",
       "variant": "level_up",
-      "result": "Glalie cefiran",
+      "result": "glalie cefiran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

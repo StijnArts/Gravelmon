@@ -131,12 +131,12 @@
   "pokedex": [
     "cobblemon.species.egholombre.desc"
   ],
-  "preEvolution": "Lotad form=egho",
+  "preEvolution": "lotad form=egho",
   "evolutions": [
     {
-      "id": "egholombre_Ludicolo",
+      "id": "egholombre_ludicolo",
       "variant": "item_interact",
-      "result": "Ludicolo egho",
+      "result": "ludicolo egho",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -310,12 +310,12 @@
   "pokedex": [
     "cobblemon.species.deltalombre.desc"
   ],
-  "preEvolution": "Lotad form=delta",
+  "preEvolution": "lotad form=delta",
   "evolutions": [
     {
-      "id": "deltalombre_Ludicolo",
+      "id": "deltalombre_ludicolo",
       "variant": "item_interact",
-      "result": "Ludicolo delta",
+      "result": "ludicolo delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

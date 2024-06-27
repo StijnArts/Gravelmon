@@ -112,9 +112,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreianfletchling_Fletchinder",
+      "id": "ayreianfletchling_fletchinder",
       "variant": "level_up",
-      "result": "Fletchinder ayreian",
+      "result": "fletchinder ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

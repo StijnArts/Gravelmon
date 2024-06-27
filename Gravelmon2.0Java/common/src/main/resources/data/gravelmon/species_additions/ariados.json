@@ -134,7 +134,7 @@
   "pokedex": [
     "cobblemon.species.ayreianariados.desc"
   ],
-  "preEvolution": "Spinarak form=ayreian",
+  "preEvolution": "spinarak form=ayreian",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,

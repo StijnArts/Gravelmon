@@ -94,9 +94,9 @@
   ],
   "evolutions": [
     {
-      "id": "hoennianteddiursa_Ursaring",
+      "id": "hoennianteddiursa_ursaring",
       "variant": "level_up",
-      "result": "Ursaring hoennian",
+      "result": "ursaring hoennian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -261,9 +261,9 @@
   ],
   "evolutions": [
     {
-      "id": "seviianteddiursa_Ursaring",
+      "id": "seviianteddiursa_ursaring",
       "variant": "level_up",
-      "result": "Ursaring seviian",
+      "result": "ursaring seviian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -381,9 +381,9 @@
   ],
   "evolutions": [
     {
-      "id": "cefiranteddiursa_Ursaring",
+      "id": "cefiranteddiursa_ursaring",
       "variant": "level_up",
-      "result": "Ursaring cefiran",
+      "result": "ursaring cefiran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -150,7 +150,7 @@
   "pokedex": [
     "cobblemon.species.deltaavalugg.desc"
   ],
-  "preEvolution": "Bergmite form=delta",
+  "preEvolution": "bergmite form=delta",
   "baseScale": 0.9,
   "hitbox": {
     "width": 4.0,

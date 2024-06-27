@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "relicskiddo-1",
-      "pokemon": "skiddo relic",
+      "pokemon": "Optional[skiddo] relic",
       "presets": [
           "natural"
       ],

@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.hizianpyroar.desc"
   ],
-  "preEvolution": "Litleo form=hizian",
+  "preEvolution": "litleo form=hizian",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "cefiranpersianfire-1",
-      "pokemon": "cefiranpersianfire cefiranfire",
+      "pokemon": "Optional[persian] cefiranfire",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "cefiranpersianice-1",
-      "pokemon": "cefiranpersianice cefiranice",
+      "pokemon": "Optional[persian] cefiranice",
       "presets": [
           "natural"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "cefiranpersianelectric-1",
-      "pokemon": "cefiranpersianelectric cefiranelectric",
+      "pokemon": "Optional[persian] cefiranelectric",
       "presets": [
           "natural"
       ],

@@ -127,9 +127,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltaremoraid_Octillery",
+      "id": "deltaremoraid_octillery",
       "variant": "level_up",
-      "result": "Octillery delta",
+      "result": "octillery delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

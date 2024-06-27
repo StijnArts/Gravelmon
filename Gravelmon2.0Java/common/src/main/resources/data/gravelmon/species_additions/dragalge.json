@@ -137,7 +137,7 @@
   "pokedex": [
     "cobblemon.species.novrandragalge.desc"
   ],
-  "preEvolution": "Skrelp form=novran",
+  "preEvolution": "skrelp form=novran",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

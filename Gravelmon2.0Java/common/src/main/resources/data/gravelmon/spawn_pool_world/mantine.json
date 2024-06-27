@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviianmantine-1",
-      "pokemon": "mantine seviian",
+      "pokemon": "Optional[mantine] seviian",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "avorianmrmime-1",
-      "pokemon": "mrmime avorian",
+      "pokemon": "Optional[mrmime] avorian",
       "presets": [
           "village"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltalampent-1",
-      "pokemon": "lampent delta",
+      "pokemon": "Optional[lampent] delta",
       "presets": [
           "natural"
       ],

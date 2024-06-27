@@ -203,7 +203,7 @@
   "pokedex": [
     "cobblemon.species.deltagardevoir.desc"
   ],
-  "preEvolution": "Kirlia form=delta",
+  "preEvolution": "kirlia form=delta",
   "baseScale": 0.9,
   "hitbox": {
     "width": 0.6,

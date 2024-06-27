@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghoivysaur-1",
-      "pokemon": "ivysaur egho",
+      "pokemon": "Optional[ivysaur] egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltaivysaur-1",
-      "pokemon": "ivysaur delta",
+      "pokemon": "Optional[ivysaur] delta",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "ayreianivysaur-1",
-      "pokemon": "ivysaur ayreian",
+      "pokemon": "Optional[ivysaur] ayreian",
       "presets": [
           "natural"
       ],

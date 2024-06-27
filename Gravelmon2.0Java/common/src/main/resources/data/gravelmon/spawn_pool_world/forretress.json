@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanforretress-1",
-      "pokemon": "forretress norheiman",
+      "pokemon": "Optional[forretress] norheiman",
       "presets": [
           "natural"
       ],

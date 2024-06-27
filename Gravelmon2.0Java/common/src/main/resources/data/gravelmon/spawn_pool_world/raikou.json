@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianraikou-1",
-      "pokemon": "raikou varitasian",
+      "pokemon": "Optional[raikou] varitasian",
       "presets": [
           "natural"
       ],

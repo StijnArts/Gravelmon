@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "nostancloyster-1",
-      "pokemon": "cloyster nostan",
+      "pokemon": "Optional[cloyster] nostan",
       "presets": [
           "underwater"
       ],

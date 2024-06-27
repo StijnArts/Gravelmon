@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamorantangrowth-1",
-      "pokemon": "tangrowth qamoran",
+      "pokemon": "Optional[tangrowth] qamoran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "eghotangrowth-1",
-      "pokemon": "tangrowth egho",
+      "pokemon": "Optional[tangrowth] egho",
       "presets": [
           "village"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "deltatangrowth-1",
-      "pokemon": "tangrowth delta",
+      "pokemon": "Optional[tangrowth] delta",
       "presets": [
           "natural"
       ],
@@ -56,7 +56,7 @@
 ,
     {
       "id": "hoenniantangrowth-1",
-      "pokemon": "tangrowth hoennian",
+      "pokemon": "Optional[tangrowth] hoennian",
       "presets": [
           "village"
       ],

@@ -266,9 +266,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltanumel_Camerupt",
+      "id": "deltanumel_camerupt",
       "variant": "level_up",
-      "result": "Camerupt delta",
+      "result": "camerupt delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -428,9 +428,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreiannumel_Camerupt",
+      "id": "ayreiannumel_camerupt",
       "variant": "level_up",
-      "result": "Camerupt ayreian",
+      "result": "camerupt ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -550,9 +550,9 @@
   ],
   "evolutions": [
     {
-      "id": "cefirannumel_Camerupt",
+      "id": "cefirannumel_camerupt",
       "variant": "level_up",
-      "result": "Camerupt cefiran",
+      "result": "camerupt cefiran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -129,12 +129,12 @@
   "pokedex": [
     "cobblemon.species.deltasliggoo.desc"
   ],
-  "preEvolution": "Goomy form=delta",
+  "preEvolution": "goomy form=delta",
   "evolutions": [
     {
-      "id": "deltasliggoo_Goodra",
+      "id": "deltasliggoo_goodra",
       "variant": "level_up",
-      "result": "Goodra delta",
+      "result": "goodra delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

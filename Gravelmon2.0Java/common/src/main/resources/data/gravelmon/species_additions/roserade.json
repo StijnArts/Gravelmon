@@ -165,7 +165,7 @@
   "pokedex": [
     "cobblemon.species.deltaroserade.desc"
   ],
-  "preEvolution": "Roselia form=delta",
+  "preEvolution": "roselia form=delta",
   "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
@@ -450,7 +450,7 @@
   "pokedex": [
     "cobblemon.species.ayreianroserade.desc"
   ],
-  "preEvolution": "Roselia form=ayreian",
+  "preEvolution": "roselia form=ayreian",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -601,7 +601,7 @@
   "pokedex": [
     "cobblemon.species.relicroserade.desc"
   ],
-  "preEvolution": "Roselia form=relic",
+  "preEvolution": "roselia form=relic",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

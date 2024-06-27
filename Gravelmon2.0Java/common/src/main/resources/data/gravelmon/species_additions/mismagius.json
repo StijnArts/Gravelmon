@@ -166,7 +166,7 @@
   "pokedex": [
     "cobblemon.species.hizianmismagius.desc"
   ],
-  "preEvolution": "Misdreavus form=hizian",
+  "preEvolution": "misdreavus form=hizian",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
@@ -327,7 +327,7 @@
   "pokedex": [
     "cobblemon.species.deltamismagius.desc"
   ],
-  "preEvolution": "Misdreavus form=delta",
+  "preEvolution": "misdreavus form=delta",
   "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,

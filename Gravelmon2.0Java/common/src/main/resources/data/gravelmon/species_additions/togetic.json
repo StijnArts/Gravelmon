@@ -166,7 +166,7 @@
   "pokedex": [
     "cobblemon.species.varitasiantogetic.desc"
   ],
-  "preEvolution": "Togepi form=varitasian",
+  "preEvolution": "togepi form=varitasian",
   "evolutions": [
     {
       "id": "varitasiantogetic_togetect",
@@ -385,7 +385,7 @@
   "pokedex": [
     "cobblemon.species.hubiantogetic.desc"
   ],
-  "preEvolution": "Togepi form=hubian",
+  "preEvolution": "togepi form=hubian",
   "evolutions": [
     {
       "id": "hubiantogetic_togekiss",

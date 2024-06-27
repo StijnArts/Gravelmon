@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "armirangigalith-1",
-      "pokemon": "gigalith armiran",
+      "pokemon": "Optional[gigalith] armiran",
       "presets": [
           "natural"
       ],

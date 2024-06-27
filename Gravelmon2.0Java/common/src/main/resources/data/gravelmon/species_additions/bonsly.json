@@ -121,9 +121,9 @@
   ],
   "evolutions": [
     {
-      "id": "novranbonsly_Sudowoodo",
+      "id": "novranbonsly_sudowoodo",
       "variant": "level_up",
-      "result": "Sudowoodo novran",
+      "result": "sudowoodo novran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

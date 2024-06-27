@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "tapufinix-1",
-      "pokemon": "tapufini x",
+      "pokemon": "Optional[tapufini] x",
       "presets": [
           "natural"
       ],

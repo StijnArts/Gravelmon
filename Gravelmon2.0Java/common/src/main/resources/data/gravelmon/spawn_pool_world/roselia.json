@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "avorianroselia-1",
-      "pokemon": "roselia avorian",
+      "pokemon": "Optional[roselia] avorian",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "deltaroselia-1",
-      "pokemon": "roselia delta",
+      "pokemon": "Optional[roselia] delta",
       "presets": [
           "natural"
       ],
@@ -36,8 +36,24 @@
     }
 ,
     {
+      "id": "roseliax-1",
+      "pokemon": "Optional[roselia] x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-36",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
       "id": "ayreianroselia-1",
-      "pokemon": "roselia ayreian",
+      "pokemon": "Optional[roselia] ayreian",
       "presets": [
           "natural"
       ],
@@ -54,7 +70,7 @@
 ,
     {
       "id": "relicroselia-1",
-      "pokemon": "roselia relic",
+      "pokemon": "Optional[roselia] relic",
       "presets": [
           "natural"
       ],
