@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_toxitube",
       "texture": "cobblemon:textures/pokemon/atlas/toxitube.png",
       "layers": []
     },

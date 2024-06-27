@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_raveclem",
       "texture": "cobblemon:textures/pokemon/enjin/raveclem.png",
       "layers": []
     },

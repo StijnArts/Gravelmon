@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_artifire",
       "texture": "cobblemon:textures/pokemon/okeno/artifire.png",
       "layers": []
     },

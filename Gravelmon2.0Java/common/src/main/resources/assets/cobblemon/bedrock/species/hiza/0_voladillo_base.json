@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_voladillo",
       "texture": "cobblemon:textures/pokemon/hiza/voladillo.png",
       "layers": []
     },

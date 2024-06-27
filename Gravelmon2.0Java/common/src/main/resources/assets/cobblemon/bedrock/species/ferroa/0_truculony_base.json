@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_truculony",
       "texture": "cobblemon:textures/pokemon/ferroa/truculony.png",
       "layers": []
     },

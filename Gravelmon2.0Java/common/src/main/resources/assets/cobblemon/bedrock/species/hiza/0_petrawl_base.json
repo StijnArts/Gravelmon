@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_petrawl",
       "texture": "cobblemon:textures/pokemon/hiza/petrawl.png",
       "layers": []
     },

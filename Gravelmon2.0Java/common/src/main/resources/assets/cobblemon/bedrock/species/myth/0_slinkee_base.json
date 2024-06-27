@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_slinkee",
       "texture": "cobblemon:textures/pokemon/myth/slinkee.png",
       "layers": []
     },

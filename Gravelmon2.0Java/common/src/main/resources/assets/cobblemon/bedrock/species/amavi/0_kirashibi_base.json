@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_kirashibi",
       "texture": "cobblemon:textures/pokemon/amavi/kirashibi.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_mobipup",
       "texture": "cobblemon:textures/pokemon/hub/mobipup.png",
       "layers": []
     },

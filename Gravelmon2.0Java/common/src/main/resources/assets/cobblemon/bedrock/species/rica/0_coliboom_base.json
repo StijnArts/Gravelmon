@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_coliboom",
       "texture": "cobblemon:textures/pokemon/rica/coliboom.png",
       "layers": []
     },

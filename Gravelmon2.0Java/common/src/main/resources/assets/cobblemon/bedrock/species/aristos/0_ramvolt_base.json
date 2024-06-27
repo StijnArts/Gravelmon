@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_ramvolt",
       "texture": "cobblemon:textures/pokemon/aristos/ramvolt.png",
       "layers": []
     },

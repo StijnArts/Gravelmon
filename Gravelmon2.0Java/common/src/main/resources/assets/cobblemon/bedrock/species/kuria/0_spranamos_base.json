@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_spranamos",
       "texture": "cobblemon:textures/pokemon/kuria/spranamos.png",
       "layers": []
     },

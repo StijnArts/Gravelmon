@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_umiveil",
       "texture": "cobblemon:textures/pokemon/interregional/umiveil.png",
       "layers": []
     },

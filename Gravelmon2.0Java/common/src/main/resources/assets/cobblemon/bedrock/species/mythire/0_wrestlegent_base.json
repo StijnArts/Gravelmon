@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_wrestlegent",
       "texture": "cobblemon:textures/pokemon/mythire/wrestlegent.png",
       "layers": []
     },

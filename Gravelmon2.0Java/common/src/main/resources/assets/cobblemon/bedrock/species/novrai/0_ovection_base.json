@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_ovection",
       "texture": "cobblemon:textures/pokemon/novrai/ovection.png",
       "layers": []
     },

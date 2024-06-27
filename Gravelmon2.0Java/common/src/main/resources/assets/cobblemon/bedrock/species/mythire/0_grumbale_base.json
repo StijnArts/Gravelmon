@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_grumbale",
       "texture": "cobblemon:textures/pokemon/mythire/grumbale.png",
       "layers": []
     },

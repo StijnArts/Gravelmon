@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_metarock",
       "texture": "cobblemon:textures/pokemon/okeno/metarock.png",
       "layers": []
     },

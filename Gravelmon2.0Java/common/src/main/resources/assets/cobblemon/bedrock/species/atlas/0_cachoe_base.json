@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_cachoe",
       "texture": "cobblemon:textures/pokemon/atlas/cachoe.png",
       "layers": []
     },

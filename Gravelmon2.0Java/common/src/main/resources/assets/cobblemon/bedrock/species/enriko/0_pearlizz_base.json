@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_pearlizz",
       "texture": "cobblemon:textures/pokemon/enriko/pearlizz.png",
       "layers": []
     },

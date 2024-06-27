@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_exfinguish",
       "texture": "cobblemon:textures/pokemon/novrai/exfinguish.png",
       "layers": []
     },

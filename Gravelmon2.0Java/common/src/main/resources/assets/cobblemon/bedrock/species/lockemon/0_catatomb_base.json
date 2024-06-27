@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_catatomb",
       "texture": "cobblemon:textures/pokemon/lockemon/catatomb.png",
       "layers": []
     },

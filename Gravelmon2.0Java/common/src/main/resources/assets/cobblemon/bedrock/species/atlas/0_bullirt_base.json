@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_bullirt",
       "texture": "cobblemon:textures/pokemon/atlas/bullirt.png",
       "layers": []
     },

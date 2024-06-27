@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_torpeban",
       "texture": "cobblemon:textures/pokemon/kuria/torpeban.png",
       "layers": []
     },

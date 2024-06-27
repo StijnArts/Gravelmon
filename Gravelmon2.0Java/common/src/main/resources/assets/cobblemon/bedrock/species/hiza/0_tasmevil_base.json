@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_tasmevil",
       "texture": "cobblemon:textures/pokemon/hiza/tasmevil.png",
       "layers": []
     },

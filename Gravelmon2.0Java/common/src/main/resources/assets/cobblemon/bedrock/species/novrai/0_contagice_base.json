@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_contagice",
       "texture": "cobblemon:textures/pokemon/novrai/contagice.png",
       "layers": []
     },

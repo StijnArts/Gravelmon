@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_barracute",
       "texture": "cobblemon:textures/pokemon/sage/barracute.png",
       "layers": []
     },

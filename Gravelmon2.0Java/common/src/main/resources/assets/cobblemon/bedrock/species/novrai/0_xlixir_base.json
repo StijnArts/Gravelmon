@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_xlixir",
       "texture": "cobblemon:textures/pokemon/novrai/xlixir.png",
       "layers": []
     },

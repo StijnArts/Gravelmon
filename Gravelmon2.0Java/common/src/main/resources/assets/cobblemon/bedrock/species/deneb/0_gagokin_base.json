@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_gagokin",
       "texture": "cobblemon:textures/pokemon/deneb/gagokin.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_cyclodon",
       "texture": "cobblemon:textures/pokemon/interregional/cyclodon.png",
       "layers": []
     },

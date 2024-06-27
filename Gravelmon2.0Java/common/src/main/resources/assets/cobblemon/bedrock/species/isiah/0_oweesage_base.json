@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_oweesage",
       "texture": "cobblemon:textures/pokemon/isiah/oweesage.png",
       "layers": []
     },

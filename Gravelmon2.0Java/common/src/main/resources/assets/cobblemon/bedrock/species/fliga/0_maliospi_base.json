@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_maliospi",
       "texture": "cobblemon:textures/pokemon/fliga/maliospi.png",
       "layers": []
     },

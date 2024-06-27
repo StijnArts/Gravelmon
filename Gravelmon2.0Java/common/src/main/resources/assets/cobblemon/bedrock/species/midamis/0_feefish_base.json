@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_feefish",
       "texture": "cobblemon:textures/pokemon/midamis/feefish.png",
       "layers": []
     },

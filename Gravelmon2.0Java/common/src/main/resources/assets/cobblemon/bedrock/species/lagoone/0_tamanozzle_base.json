@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_tamanozzle",
       "texture": "cobblemon:textures/pokemon/lagoone/tamanozzle.png",
       "layers": []
     },

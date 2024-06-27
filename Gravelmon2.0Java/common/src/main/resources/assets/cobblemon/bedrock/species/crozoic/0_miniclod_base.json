@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_miniclod",
       "texture": "cobblemon:textures/pokemon/crozoic/miniclod.png",
       "layers": []
     },

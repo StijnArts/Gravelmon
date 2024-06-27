@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_mandrazooka",
       "texture": "cobblemon:textures/pokemon/ferroa/mandrazooka.png",
       "layers": []
     },

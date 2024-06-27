@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_urinee",
       "texture": "cobblemon:textures/pokemon/enriko/urinee.png",
       "layers": []
     },

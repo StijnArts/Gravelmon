@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_lamplume",
       "texture": "cobblemon:textures/pokemon/junnin/lamplume.png",
       "layers": []
     },

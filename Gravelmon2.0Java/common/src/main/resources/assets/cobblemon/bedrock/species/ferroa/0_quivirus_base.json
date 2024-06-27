@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_quivirus",
       "texture": "cobblemon:textures/pokemon/ferroa/quivirus.png",
       "layers": []
     },

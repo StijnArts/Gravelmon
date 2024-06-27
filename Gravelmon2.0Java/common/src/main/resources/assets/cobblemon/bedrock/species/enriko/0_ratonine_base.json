@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_ratonine",
       "texture": "cobblemon:textures/pokemon/enriko/ratonine.png",
       "layers": []
     },

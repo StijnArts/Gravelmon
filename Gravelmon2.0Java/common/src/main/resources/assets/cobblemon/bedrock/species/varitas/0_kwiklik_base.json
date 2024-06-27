@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_kwiklik",
       "texture": "cobblemon:textures/pokemon/varitas/kwiklik.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_lillake",
       "texture": "cobblemon:textures/pokemon/amavi/lillake.png",
       "layers": []
     },

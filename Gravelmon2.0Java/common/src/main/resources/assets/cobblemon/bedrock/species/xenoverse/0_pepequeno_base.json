@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_pepequeno",
       "texture": "cobblemon:textures/pokemon/xenoverse/pepequeno.png",
       "layers": []
     },

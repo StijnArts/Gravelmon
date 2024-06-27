@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_rufooster",
       "texture": "cobblemon:textures/pokemon/rica/rufooster.png",
       "layers": []
     },

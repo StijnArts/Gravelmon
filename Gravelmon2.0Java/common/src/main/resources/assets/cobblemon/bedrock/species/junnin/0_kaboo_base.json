@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_kaboo",
       "texture": "cobblemon:textures/pokemon/junnin/kaboo.png",
       "layers": []
     },

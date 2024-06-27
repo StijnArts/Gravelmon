@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_jayzul",
       "texture": "cobblemon:textures/pokemon/junnin/jayzul.png",
       "layers": []
     },

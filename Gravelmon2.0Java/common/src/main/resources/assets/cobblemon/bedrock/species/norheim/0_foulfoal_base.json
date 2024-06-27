@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_foulfoal",
       "texture": "cobblemon:textures/pokemon/norheim/foulfoal.png",
       "layers": []
     },

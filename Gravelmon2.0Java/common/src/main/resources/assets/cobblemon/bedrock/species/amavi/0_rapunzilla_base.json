@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_rapunzilla",
       "texture": "cobblemon:textures/pokemon/amavi/rapunzilla.png",
       "layers": []
     },

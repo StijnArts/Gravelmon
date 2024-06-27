@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_himilago",
       "texture": "cobblemon:textures/pokemon/enriko/himilago.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_stalittle",
       "texture": "cobblemon:textures/pokemon/nosto/stalittle.png",
       "layers": []
     },

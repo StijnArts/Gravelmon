@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_chooft",
       "texture": "cobblemon:textures/pokemon/lonava/chooft.png",
       "layers": []
     },

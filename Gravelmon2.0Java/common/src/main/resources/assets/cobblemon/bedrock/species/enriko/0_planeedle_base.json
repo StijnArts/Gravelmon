@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_planeedle",
       "texture": "cobblemon:textures/pokemon/enriko/planeedle.png",
       "layers": []
     },

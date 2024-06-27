@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_serpentidal",
       "texture": "cobblemon:textures/pokemon/hiza/serpentidal.png",
       "layers": []
     },

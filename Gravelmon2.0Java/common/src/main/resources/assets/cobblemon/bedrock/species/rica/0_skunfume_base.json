@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_skunfume",
       "texture": "cobblemon:textures/pokemon/rica/skunfume.png",
       "layers": []
     },

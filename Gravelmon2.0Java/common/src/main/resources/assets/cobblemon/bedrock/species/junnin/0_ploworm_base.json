@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_ploworm",
       "texture": "cobblemon:textures/pokemon/junnin/ploworm.png",
       "layers": []
     },

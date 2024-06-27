@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_cottontile",
       "texture": "cobblemon:textures/pokemon/mythire/cottontile.png",
       "layers": []
     },

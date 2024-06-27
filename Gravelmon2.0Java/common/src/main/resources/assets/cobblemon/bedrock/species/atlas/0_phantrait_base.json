@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_phantrait",
       "texture": "cobblemon:textures/pokemon/atlas/phantrait.png",
       "layers": []
     },

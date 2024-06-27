@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_possasse",
       "texture": "cobblemon:textures/pokemon/isiah/possasse.png",
       "layers": []
     },

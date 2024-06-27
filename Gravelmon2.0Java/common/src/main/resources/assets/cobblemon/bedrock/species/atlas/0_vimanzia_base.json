@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_vimanzia",
       "texture": "cobblemon:textures/pokemon/atlas/vimanzia.png",
       "layers": []
     },

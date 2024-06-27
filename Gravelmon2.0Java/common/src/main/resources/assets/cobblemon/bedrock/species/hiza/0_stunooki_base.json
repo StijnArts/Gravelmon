@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_stunooki",
       "texture": "cobblemon:textures/pokemon/hiza/stunooki.png",
       "layers": []
     },

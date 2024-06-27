@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_mouszerker",
       "texture": "cobblemon:textures/pokemon/fliga/mouszerker.png",
       "layers": []
     },

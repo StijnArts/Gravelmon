@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_molcarona",
       "texture": "cobblemon:textures/pokemon/varitas/molcarona.png",
       "layers": []
     },

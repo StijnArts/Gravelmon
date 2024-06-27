@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_vampeye",
       "texture": "cobblemon:textures/pokemon/amavi/vampeye.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_psycholyte",
       "texture": "cobblemon:textures/pokemon/infinity/psycholyte.png",
       "layers": []
     },

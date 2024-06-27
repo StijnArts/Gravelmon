@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_dusby",
       "texture": "cobblemon:textures/pokemon/novrai/dusby.png",
       "layers": []
     },

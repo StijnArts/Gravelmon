@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_knotyors",
       "texture": "cobblemon:textures/pokemon/mythire/knotyors.png",
       "layers": []
     },

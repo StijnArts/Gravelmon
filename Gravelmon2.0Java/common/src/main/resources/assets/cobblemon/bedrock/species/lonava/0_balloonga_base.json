@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_balloonga",
       "texture": "cobblemon:textures/pokemon/lonava/balloonga.png",
       "layers": []
     },

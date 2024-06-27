@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_cragoat",
       "texture": "cobblemon:textures/pokemon/hiza/cragoat.png",
       "layers": []
     },

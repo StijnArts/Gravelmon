@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_kokesheity",
       "texture": "cobblemon:textures/pokemon/kuria/kokesheity.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_clambat",
       "texture": "cobblemon:textures/pokemon/enriko/clambat.png",
       "layers": []
     },

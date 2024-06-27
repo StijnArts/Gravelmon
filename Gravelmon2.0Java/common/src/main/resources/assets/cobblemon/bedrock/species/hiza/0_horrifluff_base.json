@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_horrifluff",
       "texture": "cobblemon:textures/pokemon/hiza/horrifluff.png",
       "layers": []
     },

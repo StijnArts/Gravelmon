@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_bidread",
       "texture": "cobblemon:textures/pokemon/midamis/bidread.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_mosglet",
       "texture": "cobblemon:textures/pokemon/kuria/mosglet.png",
       "layers": []
     },

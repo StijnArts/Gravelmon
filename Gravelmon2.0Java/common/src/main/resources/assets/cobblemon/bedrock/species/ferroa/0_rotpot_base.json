@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_rotpot",
       "texture": "cobblemon:textures/pokemon/ferroa/rotpot.png",
       "layers": []
     },

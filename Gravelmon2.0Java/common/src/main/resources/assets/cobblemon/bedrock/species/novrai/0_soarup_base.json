@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_soarup",
       "texture": "cobblemon:textures/pokemon/novrai/soarup.png",
       "layers": []
     },

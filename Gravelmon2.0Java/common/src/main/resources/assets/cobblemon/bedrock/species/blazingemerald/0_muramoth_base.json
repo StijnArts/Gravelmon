@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_muramoth",
       "texture": "cobblemon:textures/pokemon/blazingemerald/muramoth.png",
       "layers": []
     },

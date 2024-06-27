@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_cariboo",
       "texture": "cobblemon:textures/pokemon/norheim/cariboo.png",
       "layers": []
     },

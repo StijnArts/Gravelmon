@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_eameiru",
       "texture": "cobblemon:textures/pokemon/deneb/eameiru.png",
       "layers": []
     },

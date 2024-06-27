@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_vilucard",
       "texture": "cobblemon:textures/pokemon/flux/vilucard.png",
       "layers": []
     },

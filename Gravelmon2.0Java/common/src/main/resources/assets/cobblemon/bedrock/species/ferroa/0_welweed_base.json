@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_welweed",
       "texture": "cobblemon:textures/pokemon/ferroa/welweed.png",
       "layers": []
     },

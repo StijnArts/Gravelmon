@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_snuffellow",
       "texture": "cobblemon:textures/pokemon/mythire/snuffellow.png",
       "layers": []
     },

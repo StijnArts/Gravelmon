@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_comite",
       "texture": "cobblemon:textures/pokemon/flux/comite.png",
       "layers": []
     },

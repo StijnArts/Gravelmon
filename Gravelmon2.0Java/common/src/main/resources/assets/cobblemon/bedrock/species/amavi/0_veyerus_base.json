@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_veyerus",
       "texture": "cobblemon:textures/pokemon/amavi/veyerus.png",
       "layers": []
     },

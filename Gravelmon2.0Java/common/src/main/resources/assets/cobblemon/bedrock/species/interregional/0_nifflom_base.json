@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_nifflom",
       "texture": "cobblemon:textures/pokemon/interregional/nifflom.png",
       "layers": []
     },

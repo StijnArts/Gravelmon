@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ursaring",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiranursaring",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiranursaring.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_cefiranursaring",
+      "texture": "cobblemon:textures/pokemon/generation2/cefiranursaring_shiny.png",
+      "layers": []
+    }
+  ]
+}

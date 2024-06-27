@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_morostache",
       "texture": "cobblemon:textures/pokemon/novrai/morostache.png",
       "layers": []
     },

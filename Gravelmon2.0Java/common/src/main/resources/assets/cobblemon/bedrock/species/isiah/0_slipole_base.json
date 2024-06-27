@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_slipole",
       "texture": "cobblemon:textures/pokemon/isiah/slipole.png",
       "layers": []
     },

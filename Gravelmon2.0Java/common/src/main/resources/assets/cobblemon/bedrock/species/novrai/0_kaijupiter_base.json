@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_kaijupiter",
       "texture": "cobblemon:textures/pokemon/novrai/kaijupiter.png",
       "layers": []
     },

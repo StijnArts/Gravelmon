@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_cykit",
       "texture": "cobblemon:textures/pokemon/ferroa/cykit.png",
       "layers": []
     },

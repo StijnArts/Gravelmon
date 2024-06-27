@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_siphonowar",
       "texture": "cobblemon:textures/pokemon/oceane/siphonowar.png",
       "layers": []
     },

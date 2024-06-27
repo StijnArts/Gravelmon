@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_basilux",
       "texture": "cobblemon:textures/pokemon/deneb/basilux.png",
       "layers": []
     },

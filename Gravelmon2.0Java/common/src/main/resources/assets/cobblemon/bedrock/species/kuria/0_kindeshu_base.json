@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_kindeshu",
       "texture": "cobblemon:textures/pokemon/kuria/kindeshu.png",
       "layers": []
     },

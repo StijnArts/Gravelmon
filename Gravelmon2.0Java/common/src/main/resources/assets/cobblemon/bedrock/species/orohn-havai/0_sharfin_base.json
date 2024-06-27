@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_sharfin",
       "texture": "cobblemon:textures/pokemon/orohn-havai/sharfin.png",
       "layers": []
     },

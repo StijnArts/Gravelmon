@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_bluble",
       "texture": "cobblemon:textures/pokemon/kuria/bluble.png",
       "layers": []
     },

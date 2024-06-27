@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_kuloff",
       "texture": "cobblemon:textures/pokemon/novrai/kuloff.png",
       "layers": []
     },

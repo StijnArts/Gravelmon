@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_coloceros",
       "texture": "cobblemon:textures/pokemon/hiza/coloceros.png",
       "layers": []
     },

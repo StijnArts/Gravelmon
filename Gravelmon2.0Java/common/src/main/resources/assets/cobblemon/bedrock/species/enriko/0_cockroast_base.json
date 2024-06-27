@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_cockroast",
       "texture": "cobblemon:textures/pokemon/enriko/cockroast.png",
       "layers": []
     },

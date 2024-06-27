@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_miragtra",
       "texture": "cobblemon:textures/pokemon/amavi/miragtra.png",
       "layers": []
     },

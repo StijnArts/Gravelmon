@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_bandicrook",
       "texture": "cobblemon:textures/pokemon/atlas/bandicrook.png",
       "layers": []
     },

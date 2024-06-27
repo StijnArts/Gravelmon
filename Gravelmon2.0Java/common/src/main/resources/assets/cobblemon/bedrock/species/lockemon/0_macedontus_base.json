@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_macedontus",
       "texture": "cobblemon:textures/pokemon/lockemon/macedontus.png",
       "layers": []
     },

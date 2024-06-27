@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_puffjinn",
       "texture": "cobblemon:textures/pokemon/ionos/puffjinn.png",
       "layers": []
     },

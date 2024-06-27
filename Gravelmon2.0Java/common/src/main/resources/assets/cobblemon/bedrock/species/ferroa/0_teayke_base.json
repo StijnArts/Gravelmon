@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_teayke",
       "texture": "cobblemon:textures/pokemon/ferroa/teayke.png",
       "layers": []
     },

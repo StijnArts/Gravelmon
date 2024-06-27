@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_miserachnid",
       "texture": "cobblemon:textures/pokemon/ferroa/miserachnid.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_glaburrow",
       "texture": "cobblemon:textures/pokemon/novrai/glaburrow.png",
       "layers": []
     },

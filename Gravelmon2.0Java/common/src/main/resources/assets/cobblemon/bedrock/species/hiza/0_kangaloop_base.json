@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_kangaloop",
       "texture": "cobblemon:textures/pokemon/hiza/kangaloop.png",
       "layers": []
     },

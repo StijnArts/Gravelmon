@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_hoppoint",
       "texture": "cobblemon:textures/pokemon/ferroa/hoppoint.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_saberian",
       "texture": "cobblemon:textures/pokemon/norheim/saberian.png",
       "layers": []
     },

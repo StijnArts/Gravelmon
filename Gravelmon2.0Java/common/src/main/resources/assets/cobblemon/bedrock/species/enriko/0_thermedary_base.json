@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_thermedary",
       "texture": "cobblemon:textures/pokemon/enriko/thermedary.png",
       "layers": []
     },

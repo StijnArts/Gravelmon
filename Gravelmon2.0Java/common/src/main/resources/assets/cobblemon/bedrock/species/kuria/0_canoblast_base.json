@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_canoblast",
       "texture": "cobblemon:textures/pokemon/kuria/canoblast.png",
       "layers": []
     },

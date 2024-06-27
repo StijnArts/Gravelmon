@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_urchanted",
       "texture": "cobblemon:textures/pokemon/amavi/urchanted.png",
       "layers": []
     },

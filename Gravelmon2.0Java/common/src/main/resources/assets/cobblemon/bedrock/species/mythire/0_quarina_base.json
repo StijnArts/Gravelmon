@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_quarina",
       "texture": "cobblemon:textures/pokemon/mythire/quarina.png",
       "layers": []
     },

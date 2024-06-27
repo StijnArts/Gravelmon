@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_scuffbill",
       "texture": "cobblemon:textures/pokemon/fliga/scuffbill.png",
       "layers": []
     },

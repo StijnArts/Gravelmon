@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_stelimight",
       "texture": "cobblemon:textures/pokemon/junnin/stelimight.png",
       "layers": []
     },

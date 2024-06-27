@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_spectrelk",
       "texture": "cobblemon:textures/pokemon/norheim/spectrelk.png",
       "layers": []
     },

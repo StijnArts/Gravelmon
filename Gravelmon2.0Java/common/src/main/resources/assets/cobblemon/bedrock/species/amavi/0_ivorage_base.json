@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_ivorage",
       "texture": "cobblemon:textures/pokemon/amavi/ivorage.png",
       "layers": []
     },

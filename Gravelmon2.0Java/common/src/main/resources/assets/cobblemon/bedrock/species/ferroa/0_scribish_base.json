@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_scribish",
       "texture": "cobblemon:textures/pokemon/ferroa/scribish.png",
       "layers": []
     },

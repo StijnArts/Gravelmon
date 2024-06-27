@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_picant",
       "texture": "cobblemon:textures/pokemon/crozoic/picant.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_eternelk",
       "texture": "cobblemon:textures/pokemon/amavi/eternelk.png",
       "layers": []
     },

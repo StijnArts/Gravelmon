@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_crustgeist",
       "texture": "cobblemon:textures/pokemon/interregional/crustgeist.png",
       "layers": []
     },

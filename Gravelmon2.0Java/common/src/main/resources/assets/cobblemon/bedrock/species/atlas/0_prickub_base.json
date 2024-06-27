@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_prickub",
       "texture": "cobblemon:textures/pokemon/atlas/prickub.png",
       "layers": []
     },

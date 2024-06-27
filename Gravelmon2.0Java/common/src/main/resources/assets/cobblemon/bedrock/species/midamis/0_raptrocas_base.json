@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_raptrocas",
       "texture": "cobblemon:textures/pokemon/midamis/raptrocas.png",
       "layers": []
     },

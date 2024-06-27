@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_vinagruff",
       "texture": "cobblemon:textures/pokemon/okeno/vinagruff.png",
       "layers": []
     },

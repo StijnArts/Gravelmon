@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_pharumm",
       "texture": "cobblemon:textures/pokemon/ionos/pharumm.png",
       "layers": []
     },

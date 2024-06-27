@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_cubeat",
       "texture": "cobblemon:textures/pokemon/kuria/cubeat.png",
       "layers": []
     },

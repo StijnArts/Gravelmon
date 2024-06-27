@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_dizzpin",
       "texture": "cobblemon:textures/pokemon/ionos/dizzpin.png",
       "layers": []
     },

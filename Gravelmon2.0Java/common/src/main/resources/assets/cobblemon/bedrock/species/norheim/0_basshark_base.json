@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_basshark",
       "texture": "cobblemon:textures/pokemon/norheim/basshark.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_barbray",
       "texture": "cobblemon:textures/pokemon/fliga/barbray.png",
       "layers": []
     },

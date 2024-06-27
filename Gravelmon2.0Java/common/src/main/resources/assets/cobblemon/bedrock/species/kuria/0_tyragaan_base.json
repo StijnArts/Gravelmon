@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_tyragaan",
       "texture": "cobblemon:textures/pokemon/kuria/tyragaan.png",
       "layers": []
     },

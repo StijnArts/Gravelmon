@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_tarzorus",
       "texture": "cobblemon:textures/pokemon/junnin/tarzorus.png",
       "layers": []
     },

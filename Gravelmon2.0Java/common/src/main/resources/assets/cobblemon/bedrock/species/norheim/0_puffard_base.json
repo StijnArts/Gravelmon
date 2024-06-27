@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_puffard",
       "texture": "cobblemon:textures/pokemon/norheim/puffard.png",
       "layers": []
     },

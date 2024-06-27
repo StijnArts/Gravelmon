@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_astronite",
       "texture": "cobblemon:textures/pokemon/flux/astronite.png",
       "layers": []
     },

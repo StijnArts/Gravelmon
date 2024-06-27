@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_jerbolta",
       "texture": "cobblemon:textures/pokemon/flux/jerbolta.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_biffka",
       "texture": "cobblemon:textures/pokemon/enriko/biffka.png",
       "layers": []
     },

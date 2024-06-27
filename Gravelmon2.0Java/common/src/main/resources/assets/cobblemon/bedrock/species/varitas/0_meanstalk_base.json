@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_meanstalk",
       "texture": "cobblemon:textures/pokemon/varitas/meanstalk.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_thorlock",
       "texture": "cobblemon:textures/pokemon/atlas/thorlock.png",
       "layers": []
     },

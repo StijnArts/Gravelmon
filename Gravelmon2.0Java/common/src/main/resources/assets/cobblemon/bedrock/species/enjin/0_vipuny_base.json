@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_vipuny",
       "texture": "cobblemon:textures/pokemon/enjin/vipuny.png",
       "layers": []
     },

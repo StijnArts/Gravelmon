@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_apheed",
       "texture": "cobblemon:textures/pokemon/lockemon/apheed.png",
       "layers": []
     },

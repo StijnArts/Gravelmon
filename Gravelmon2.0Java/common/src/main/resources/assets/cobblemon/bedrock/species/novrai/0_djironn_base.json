@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_djironn",
       "texture": "cobblemon:textures/pokemon/novrai/djironn.png",
       "layers": []
     },

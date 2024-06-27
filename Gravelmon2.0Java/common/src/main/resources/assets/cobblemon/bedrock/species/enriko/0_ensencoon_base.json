@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_ensencoon",
       "texture": "cobblemon:textures/pokemon/enriko/ensencoon.png",
       "layers": []
     },

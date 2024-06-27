@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_andromini",
       "texture": "cobblemon:textures/pokemon/junnin/andromini.png",
       "layers": []
     },

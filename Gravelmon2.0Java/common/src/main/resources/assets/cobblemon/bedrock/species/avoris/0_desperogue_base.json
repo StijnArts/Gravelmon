@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_desperogue",
       "texture": "cobblemon:textures/pokemon/avoris/desperogue.png",
       "layers": []
     },

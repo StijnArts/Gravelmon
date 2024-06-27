@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_reneuron",
       "texture": "cobblemon:textures/pokemon/nosto/reneuron.png",
       "layers": []
     },

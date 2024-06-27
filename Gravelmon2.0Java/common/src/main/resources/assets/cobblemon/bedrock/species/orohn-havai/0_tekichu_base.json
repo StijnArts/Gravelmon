@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_tekichu",
       "texture": "cobblemon:textures/pokemon/orohn-havai/tekichu.png",
       "layers": []
     },

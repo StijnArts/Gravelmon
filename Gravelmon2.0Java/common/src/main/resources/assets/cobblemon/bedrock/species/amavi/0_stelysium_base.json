@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_stelysium",
       "texture": "cobblemon:textures/pokemon/amavi/stelysium.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_warrush",
       "texture": "cobblemon:textures/pokemon/umbra/warrush.png",
       "layers": []
     },

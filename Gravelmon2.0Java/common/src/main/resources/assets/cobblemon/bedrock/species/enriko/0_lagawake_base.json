@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_lagawake",
       "texture": "cobblemon:textures/pokemon/enriko/lagawake.png",
       "layers": []
     },

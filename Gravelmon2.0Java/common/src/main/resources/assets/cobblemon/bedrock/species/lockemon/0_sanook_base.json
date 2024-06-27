@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_sanook",
       "texture": "cobblemon:textures/pokemon/lockemon/sanook.png",
       "layers": []
     },

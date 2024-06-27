@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_intellifoe",
       "texture": "cobblemon:textures/pokemon/interregional/intellifoe.png",
       "layers": []
     },

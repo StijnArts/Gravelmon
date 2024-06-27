@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_caustibian",
       "texture": "cobblemon:textures/pokemon/hiza/caustibian.png",
       "layers": []
     },

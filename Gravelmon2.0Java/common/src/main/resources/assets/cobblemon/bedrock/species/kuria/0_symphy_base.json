@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_symphy",
       "texture": "cobblemon:textures/pokemon/kuria/symphy.png",
       "layers": []
     },

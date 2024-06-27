@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_craud",
       "texture": "cobblemon:textures/pokemon/midamis/craud.png",
       "layers": []
     },

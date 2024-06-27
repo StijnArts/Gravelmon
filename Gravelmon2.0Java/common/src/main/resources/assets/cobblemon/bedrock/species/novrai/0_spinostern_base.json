@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_spinostern",
       "texture": "cobblemon:textures/pokemon/novrai/spinostern.png",
       "layers": []
     },

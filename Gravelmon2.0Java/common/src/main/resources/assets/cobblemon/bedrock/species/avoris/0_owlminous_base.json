@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_owlminous",
       "texture": "cobblemon:textures/pokemon/avoris/owlminous.png",
       "layers": []
     },

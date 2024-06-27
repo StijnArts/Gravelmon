@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_stalagrus",
       "texture": "cobblemon:textures/pokemon/ferroa/stalagrus.png",
       "layers": []
     },

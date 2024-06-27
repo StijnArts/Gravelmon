@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_inood",
       "texture": "cobblemon:textures/pokemon/isiah/inood.png",
       "layers": []
     },

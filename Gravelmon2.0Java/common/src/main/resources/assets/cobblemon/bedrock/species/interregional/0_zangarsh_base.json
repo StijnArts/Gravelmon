@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_zangarsh",
       "texture": "cobblemon:textures/pokemon/interregional/zangarsh.png",
       "layers": []
     },

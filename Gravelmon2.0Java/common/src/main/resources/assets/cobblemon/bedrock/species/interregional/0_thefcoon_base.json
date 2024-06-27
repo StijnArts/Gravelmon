@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_thefcoon",
       "texture": "cobblemon:textures/pokemon/interregional/thefcoon.png",
       "layers": []
     },

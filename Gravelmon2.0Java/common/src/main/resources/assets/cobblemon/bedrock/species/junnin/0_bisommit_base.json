@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_bisommit",
       "texture": "cobblemon:textures/pokemon/junnin/bisommit.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_beani",
       "texture": "cobblemon:textures/pokemon/fliga/beani.png",
       "layers": []
     },

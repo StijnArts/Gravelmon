@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_elescent",
       "texture": "cobblemon:textures/pokemon/avoris/elescent.png",
       "layers": []
     },

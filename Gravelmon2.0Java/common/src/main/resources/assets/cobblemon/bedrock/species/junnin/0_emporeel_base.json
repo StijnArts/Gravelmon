@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_emporeel",
       "texture": "cobblemon:textures/pokemon/junnin/emporeel.png",
       "layers": []
     },

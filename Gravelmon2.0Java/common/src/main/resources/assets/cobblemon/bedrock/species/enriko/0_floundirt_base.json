@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_floundirt",
       "texture": "cobblemon:textures/pokemon/enriko/floundirt.png",
       "layers": []
     },

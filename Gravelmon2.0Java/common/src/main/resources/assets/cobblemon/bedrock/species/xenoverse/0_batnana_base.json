@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_batnana",
       "texture": "cobblemon:textures/pokemon/xenoverse/batnana.png",
       "layers": []
     },

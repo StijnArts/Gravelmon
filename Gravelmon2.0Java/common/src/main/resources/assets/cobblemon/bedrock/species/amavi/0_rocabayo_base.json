@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_rocabayo",
       "texture": "cobblemon:textures/pokemon/amavi/rocabayo.png",
       "layers": []
     },

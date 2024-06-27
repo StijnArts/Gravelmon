@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_icicrawl",
       "texture": "cobblemon:textures/pokemon/ferroa/icicrawl.png",
       "layers": []
     },

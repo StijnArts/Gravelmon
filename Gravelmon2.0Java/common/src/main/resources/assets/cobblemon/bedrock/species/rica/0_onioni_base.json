@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_onioni",
       "texture": "cobblemon:textures/pokemon/rica/onioni.png",
       "layers": []
     },

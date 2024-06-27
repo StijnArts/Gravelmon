@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_slatic",
       "texture": "cobblemon:textures/pokemon/sage/slatic.png",
       "layers": []
     },

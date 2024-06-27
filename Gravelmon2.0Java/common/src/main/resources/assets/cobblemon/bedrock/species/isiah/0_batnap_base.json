@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_batnap",
       "texture": "cobblemon:textures/pokemon/isiah/batnap.png",
       "layers": []
     },

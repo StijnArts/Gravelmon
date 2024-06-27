@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_opalian",
       "texture": "cobblemon:textures/pokemon/fliga/opalian.png",
       "layers": []
     },

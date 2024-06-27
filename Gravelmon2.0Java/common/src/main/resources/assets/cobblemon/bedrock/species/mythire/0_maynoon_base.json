@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_maynoon",
       "texture": "cobblemon:textures/pokemon/mythire/maynoon.png",
       "layers": []
     },

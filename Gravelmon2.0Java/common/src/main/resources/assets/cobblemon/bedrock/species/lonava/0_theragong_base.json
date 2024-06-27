@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_theragong",
       "texture": "cobblemon:textures/pokemon/lonava/theragong.png",
       "layers": []
     },

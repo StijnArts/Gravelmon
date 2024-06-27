@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_mammolaya",
       "texture": "cobblemon:textures/pokemon/atlas/mammolaya.png",
       "layers": []
     },

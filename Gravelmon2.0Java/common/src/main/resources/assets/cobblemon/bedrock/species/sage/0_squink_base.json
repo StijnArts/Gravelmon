@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_squink",
       "texture": "cobblemon:textures/pokemon/sage/squink.png",
       "layers": []
     },

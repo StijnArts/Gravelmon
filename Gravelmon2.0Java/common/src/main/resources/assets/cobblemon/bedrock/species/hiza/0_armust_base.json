@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_armust",
       "texture": "cobblemon:textures/pokemon/hiza/armust.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_scalivid",
       "texture": "cobblemon:textures/pokemon/hiza/scalivid.png",
       "layers": []
     },

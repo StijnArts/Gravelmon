@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_gammar",
       "texture": "cobblemon:textures/pokemon/atlas/gammar.png",
       "layers": []
     },

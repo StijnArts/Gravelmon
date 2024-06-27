@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_macuarrior",
       "texture": "cobblemon:textures/pokemon/sage/macuarrior.png",
       "layers": []
     },

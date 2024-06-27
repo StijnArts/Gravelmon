@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_delfraxion",
       "texture": "cobblemon:textures/pokemon/amavi/delfraxion.png",
       "layers": []
     },

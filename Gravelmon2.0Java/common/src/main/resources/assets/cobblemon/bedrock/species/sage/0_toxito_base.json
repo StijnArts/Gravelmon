@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_toxito",
       "texture": "cobblemon:textures/pokemon/sage/toxito.png",
       "layers": []
     },

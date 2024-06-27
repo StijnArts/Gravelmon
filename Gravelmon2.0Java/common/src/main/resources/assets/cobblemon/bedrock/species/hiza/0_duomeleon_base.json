@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_duomeleon",
       "texture": "cobblemon:textures/pokemon/hiza/duomeleon.png",
       "layers": []
     },

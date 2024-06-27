@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_wavstisnail",
       "texture": "cobblemon:textures/pokemon/myth/wavstisnail.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_attraknid",
       "texture": "cobblemon:textures/pokemon/avoris/attraknid.png",
       "layers": []
     },

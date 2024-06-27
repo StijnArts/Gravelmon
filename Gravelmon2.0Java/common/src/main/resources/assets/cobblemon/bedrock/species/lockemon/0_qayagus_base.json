@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_qayagus",
       "texture": "cobblemon:textures/pokemon/lockemon/qayagus.png",
       "layers": []
     },

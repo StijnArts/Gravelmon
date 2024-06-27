@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_tangorgon",
       "texture": "cobblemon:textures/pokemon/aristos/tangorgon.png",
       "layers": []
     },

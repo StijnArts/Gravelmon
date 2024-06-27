@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_draccane",
       "texture": "cobblemon:textures/pokemon/myth/draccane.png",
       "layers": []
     },

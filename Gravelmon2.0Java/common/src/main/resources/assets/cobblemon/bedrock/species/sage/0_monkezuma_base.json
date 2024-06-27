@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_monkezuma",
       "texture": "cobblemon:textures/pokemon/sage/monkezuma.png",
       "layers": []
     },

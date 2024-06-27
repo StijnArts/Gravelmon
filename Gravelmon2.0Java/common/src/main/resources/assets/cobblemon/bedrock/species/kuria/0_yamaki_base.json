@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_yamaki",
       "texture": "cobblemon:textures/pokemon/kuria/yamaki.png",
       "layers": []
     },

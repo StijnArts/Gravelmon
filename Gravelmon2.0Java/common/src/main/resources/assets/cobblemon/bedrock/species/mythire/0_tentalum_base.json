@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_tentalum",
       "texture": "cobblemon:textures/pokemon/mythire/tentalum.png",
       "layers": []
     },

@@ -6,7 +6,7 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_eghobulbasaur.geo",
       "poser": "cobblemon:generation1_eghobulbasaur",
       "texture": "cobblemon:textures/pokemon/generation1/eghobulbasaur.png",
       "layers": []
@@ -16,7 +16,7 @@
         "egho",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_eghobulbasaur.geo",
       "poser": "cobblemon:generation1_eghobulbasaur",
       "texture": "cobblemon:textures/pokemon/generation1/eghobulbasaur_shiny.png",
       "layers": []

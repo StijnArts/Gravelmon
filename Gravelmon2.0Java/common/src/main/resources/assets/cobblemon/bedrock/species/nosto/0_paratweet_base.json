@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_paratweet",
       "texture": "cobblemon:textures/pokemon/nosto/paratweet.png",
       "layers": []
     },

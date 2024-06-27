@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_poogurt",
       "texture": "cobblemon:textures/pokemon/enriko/poogurt.png",
       "layers": []
     },

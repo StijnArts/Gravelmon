@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_mannovolt",
       "texture": "cobblemon:textures/pokemon/umbra/mannovolt.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_solarisen",
       "texture": "cobblemon:textures/pokemon/deneb/solarisen.png",
       "layers": []
     },

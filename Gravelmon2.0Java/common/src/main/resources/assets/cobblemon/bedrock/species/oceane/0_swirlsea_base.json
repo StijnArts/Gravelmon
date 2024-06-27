@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_swirlsea",
       "texture": "cobblemon:textures/pokemon/oceane/swirlsea.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_azatome",
       "texture": "cobblemon:textures/pokemon/nosto/azatome.png",
       "layers": []
     },

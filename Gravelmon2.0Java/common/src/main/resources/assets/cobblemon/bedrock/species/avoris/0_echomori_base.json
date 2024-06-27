@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_echomori",
       "texture": "cobblemon:textures/pokemon/avoris/echomori.png",
       "layers": []
     },

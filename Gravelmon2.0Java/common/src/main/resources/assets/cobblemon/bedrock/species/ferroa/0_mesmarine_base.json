@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_mesmarine",
       "texture": "cobblemon:textures/pokemon/ferroa/mesmarine.png",
       "layers": []
     },

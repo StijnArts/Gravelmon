@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_nibblish",
       "texture": "cobblemon:textures/pokemon/fliga/nibblish.png",
       "layers": []
     },

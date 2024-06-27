@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_puppest",
       "texture": "cobblemon:textures/pokemon/ferroa/puppest.png",
       "layers": []
     },

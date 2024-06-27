@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_chenchor",
       "texture": "cobblemon:textures/pokemon/enriko/chenchor.png",
       "layers": []
     },

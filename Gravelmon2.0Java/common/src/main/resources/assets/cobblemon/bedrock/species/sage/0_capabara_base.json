@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_capabara",
       "texture": "cobblemon:textures/pokemon/sage/capabara.png",
       "layers": []
     },

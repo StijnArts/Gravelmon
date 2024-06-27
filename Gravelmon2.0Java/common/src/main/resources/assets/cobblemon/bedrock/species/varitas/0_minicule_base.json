@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_minicule",
       "texture": "cobblemon:textures/pokemon/varitas/minicule.png",
       "layers": []
     },

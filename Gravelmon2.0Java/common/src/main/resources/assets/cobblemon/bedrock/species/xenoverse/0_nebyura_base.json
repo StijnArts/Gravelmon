@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_nebyura",
       "texture": "cobblemon:textures/pokemon/xenoverse/nebyura.png",
       "layers": []
     },

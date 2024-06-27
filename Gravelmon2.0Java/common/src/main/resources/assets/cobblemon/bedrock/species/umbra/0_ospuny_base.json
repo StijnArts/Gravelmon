@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_ospuny",
       "texture": "cobblemon:textures/pokemon/umbra/ospuny.png",
       "layers": []
     },

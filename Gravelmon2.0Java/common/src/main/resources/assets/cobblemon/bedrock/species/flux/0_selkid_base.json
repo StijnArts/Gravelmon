@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_selkid",
       "texture": "cobblemon:textures/pokemon/flux/selkid.png",
       "layers": []
     },

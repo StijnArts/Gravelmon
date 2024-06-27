@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_dimetrus",
       "texture": "cobblemon:textures/pokemon/junnin/dimetrus.png",
       "layers": []
     },

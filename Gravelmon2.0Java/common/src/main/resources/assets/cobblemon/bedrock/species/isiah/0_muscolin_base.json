@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_muscolin",
       "texture": "cobblemon:textures/pokemon/isiah/muscolin.png",
       "layers": []
     },

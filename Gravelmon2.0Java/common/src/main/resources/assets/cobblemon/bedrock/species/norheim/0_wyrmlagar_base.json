@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_wyrmlagar",
       "texture": "cobblemon:textures/pokemon/norheim/wyrmlagar.png",
       "layers": []
     },

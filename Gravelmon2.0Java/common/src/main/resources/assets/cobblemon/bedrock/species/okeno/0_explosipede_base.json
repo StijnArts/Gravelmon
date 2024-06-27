@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_explosipede",
       "texture": "cobblemon:textures/pokemon/okeno/explosipede.png",
       "layers": []
     },

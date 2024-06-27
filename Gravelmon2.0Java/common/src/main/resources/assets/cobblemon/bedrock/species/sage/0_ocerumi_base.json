@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_ocerumi",
       "texture": "cobblemon:textures/pokemon/sage/ocerumi.png",
       "layers": []
     },

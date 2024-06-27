@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_lepikite",
       "texture": "cobblemon:textures/pokemon/okeno/lepikite.png",
       "layers": []
     },

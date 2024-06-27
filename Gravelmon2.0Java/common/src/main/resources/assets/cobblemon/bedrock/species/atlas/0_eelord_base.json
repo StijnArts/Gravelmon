@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_eelord",
       "texture": "cobblemon:textures/pokemon/atlas/eelord.png",
       "layers": []
     },

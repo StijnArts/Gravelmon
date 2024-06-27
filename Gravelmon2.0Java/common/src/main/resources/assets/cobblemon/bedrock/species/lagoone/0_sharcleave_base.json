@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_sharcleave",
       "texture": "cobblemon:textures/pokemon/lagoone/sharcleave.png",
       "layers": []
     },

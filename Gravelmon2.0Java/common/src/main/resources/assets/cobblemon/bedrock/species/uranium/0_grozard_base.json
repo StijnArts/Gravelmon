@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_grozard",
       "texture": "cobblemon:textures/pokemon/uranium/grozard.png",
       "layers": []
     },

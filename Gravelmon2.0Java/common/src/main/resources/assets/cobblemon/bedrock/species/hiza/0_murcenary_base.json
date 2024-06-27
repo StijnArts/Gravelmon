@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_murcenary",
       "texture": "cobblemon:textures/pokemon/hiza/murcenary.png",
       "layers": []
     },

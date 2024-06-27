@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_sandan",
       "texture": "cobblemon:textures/pokemon/atlas/sandan.png",
       "layers": []
     },

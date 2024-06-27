@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_tsuruborosu",
       "texture": "cobblemon:textures/pokemon/deneb/tsuruborosu.png",
       "layers": []
     },

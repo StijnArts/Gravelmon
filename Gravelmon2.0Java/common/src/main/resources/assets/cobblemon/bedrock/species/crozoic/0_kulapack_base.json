@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_kulapack",
       "texture": "cobblemon:textures/pokemon/crozoic/kulapack.png",
       "layers": []
     },

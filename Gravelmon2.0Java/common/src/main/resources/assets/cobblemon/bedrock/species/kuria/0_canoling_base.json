@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_canoling",
       "texture": "cobblemon:textures/pokemon/kuria/canoling.png",
       "layers": []
     },

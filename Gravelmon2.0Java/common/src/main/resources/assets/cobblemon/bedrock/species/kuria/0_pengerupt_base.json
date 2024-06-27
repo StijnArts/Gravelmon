@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_pengerupt",
       "texture": "cobblemon:textures/pokemon/kuria/pengerupt.png",
       "layers": []
     },

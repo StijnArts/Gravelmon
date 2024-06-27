@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_colibeak",
       "texture": "cobblemon:textures/pokemon/hiza/colibeak.png",
       "layers": []
     },

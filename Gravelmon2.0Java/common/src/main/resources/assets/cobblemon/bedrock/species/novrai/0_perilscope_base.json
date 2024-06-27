@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_perilscope",
       "texture": "cobblemon:textures/pokemon/novrai/perilscope.png",
       "layers": []
     },

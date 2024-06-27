@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_droudrop",
       "texture": "cobblemon:textures/pokemon/deneb/droudrop.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_desoray",
       "texture": "cobblemon:textures/pokemon/lockemon/desoray.png",
       "layers": []
     },

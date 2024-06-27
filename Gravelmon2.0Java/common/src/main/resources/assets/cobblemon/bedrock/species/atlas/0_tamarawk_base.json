@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_tamarawk",
       "texture": "cobblemon:textures/pokemon/atlas/tamarawk.png",
       "layers": []
     },

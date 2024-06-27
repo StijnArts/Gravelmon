@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_valvacid",
       "texture": "cobblemon:textures/pokemon/okeno/valvacid.png",
       "layers": []
     },

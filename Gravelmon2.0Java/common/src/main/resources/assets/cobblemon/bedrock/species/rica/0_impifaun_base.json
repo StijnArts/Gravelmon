@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_impifaun",
       "texture": "cobblemon:textures/pokemon/rica/impifaun.png",
       "layers": []
     },

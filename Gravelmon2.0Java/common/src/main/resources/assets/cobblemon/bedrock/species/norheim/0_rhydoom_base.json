@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_rhydoom",
       "texture": "cobblemon:textures/pokemon/norheim/rhydoom.png",
       "layers": []
     },

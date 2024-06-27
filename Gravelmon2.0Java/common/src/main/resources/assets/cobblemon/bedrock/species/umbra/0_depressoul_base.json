@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_depressoul",
       "texture": "cobblemon:textures/pokemon/umbra/depressoul.png",
       "layers": []
     },

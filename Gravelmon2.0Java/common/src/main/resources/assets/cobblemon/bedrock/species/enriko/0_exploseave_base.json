@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_exploseave",
       "texture": "cobblemon:textures/pokemon/enriko/exploseave.png",
       "layers": []
     },

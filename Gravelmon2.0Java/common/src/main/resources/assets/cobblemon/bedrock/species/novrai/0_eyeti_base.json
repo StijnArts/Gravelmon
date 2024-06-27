@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_eyeti",
       "texture": "cobblemon:textures/pokemon/novrai/eyeti.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_velifite",
       "texture": "cobblemon:textures/pokemon/midamis/velifite.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_froska",
       "texture": "cobblemon:textures/pokemon/isiah/froska.png",
       "layers": []
     },

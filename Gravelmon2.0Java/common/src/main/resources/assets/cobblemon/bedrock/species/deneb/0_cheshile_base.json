@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_cheshile",
       "texture": "cobblemon:textures/pokemon/deneb/cheshile.png",
       "layers": []
     },

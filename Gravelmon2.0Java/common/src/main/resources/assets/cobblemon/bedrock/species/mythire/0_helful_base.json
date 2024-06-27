@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_helful",
       "texture": "cobblemon:textures/pokemon/mythire/helful.png",
       "layers": []
     },

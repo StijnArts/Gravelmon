@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_caimar",
       "texture": "cobblemon:textures/pokemon/atlas/caimar.png",
       "layers": []
     },

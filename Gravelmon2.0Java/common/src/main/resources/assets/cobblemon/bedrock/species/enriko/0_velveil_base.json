@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_velveil",
       "texture": "cobblemon:textures/pokemon/enriko/velveil.png",
       "layers": []
     },

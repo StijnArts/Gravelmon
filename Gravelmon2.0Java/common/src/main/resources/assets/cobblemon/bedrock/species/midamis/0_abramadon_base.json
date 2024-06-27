@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_abramadon",
       "texture": "cobblemon:textures/pokemon/midamis/abramadon.png",
       "layers": []
     },

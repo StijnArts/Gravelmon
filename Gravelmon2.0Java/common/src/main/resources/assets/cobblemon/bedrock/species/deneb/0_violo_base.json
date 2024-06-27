@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_violo",
       "texture": "cobblemon:textures/pokemon/deneb/violo.png",
       "layers": []
     },

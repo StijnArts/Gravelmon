@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_conkamite",
       "texture": "cobblemon:textures/pokemon/interregional/conkamite.png",
       "layers": []
     },

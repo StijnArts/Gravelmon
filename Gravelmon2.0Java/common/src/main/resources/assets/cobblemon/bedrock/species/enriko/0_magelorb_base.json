@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_magelorb",
       "texture": "cobblemon:textures/pokemon/enriko/magelorb.png",
       "layers": []
     },

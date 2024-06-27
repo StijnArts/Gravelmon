@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_reptling",
       "texture": "cobblemon:textures/pokemon/junnin/reptling.png",
       "layers": []
     },

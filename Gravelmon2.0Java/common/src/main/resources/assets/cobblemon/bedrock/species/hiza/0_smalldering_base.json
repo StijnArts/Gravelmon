@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_smalldering",
       "texture": "cobblemon:textures/pokemon/hiza/smalldering.png",
       "layers": []
     },

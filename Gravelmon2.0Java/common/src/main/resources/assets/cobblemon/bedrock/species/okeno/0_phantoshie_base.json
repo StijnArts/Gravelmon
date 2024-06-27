@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_phantoshie",
       "texture": "cobblemon:textures/pokemon/okeno/phantoshie.png",
       "layers": []
     },

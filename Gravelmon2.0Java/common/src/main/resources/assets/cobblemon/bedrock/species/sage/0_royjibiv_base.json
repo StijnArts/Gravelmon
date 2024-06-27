@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_royjibiv",
       "texture": "cobblemon:textures/pokemon/sage/royjibiv.png",
       "layers": []
     },

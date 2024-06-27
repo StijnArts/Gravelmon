@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_leoseace",
       "texture": "cobblemon:textures/pokemon/lockemon/leoseace.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_maskilisk",
       "texture": "cobblemon:textures/pokemon/mythire/maskilisk.png",
       "layers": []
     },

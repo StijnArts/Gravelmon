@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_parakka",
       "texture": "cobblemon:textures/pokemon/deneb/parakka.png",
       "layers": []
     },

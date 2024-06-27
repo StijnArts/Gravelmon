@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_icheon",
       "texture": "cobblemon:textures/pokemon/kuria/icheon.png",
       "layers": []
     },

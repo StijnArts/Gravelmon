@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_paradeano",
       "texture": "cobblemon:textures/pokemon/midamis/paradeano.png",
       "layers": []
     },

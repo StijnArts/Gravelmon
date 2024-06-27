@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_albalue",
       "texture": "cobblemon:textures/pokemon/ferroa/albalue.png",
       "layers": []
     },

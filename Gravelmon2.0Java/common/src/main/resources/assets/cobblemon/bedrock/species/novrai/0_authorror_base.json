@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_authorror",
       "texture": "cobblemon:textures/pokemon/novrai/authorror.png",
       "layers": []
     },

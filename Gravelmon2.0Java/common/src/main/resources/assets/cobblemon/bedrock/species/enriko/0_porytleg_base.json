@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_porytleg",
       "texture": "cobblemon:textures/pokemon/enriko/porytleg.png",
       "layers": []
     },

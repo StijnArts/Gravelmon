@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_buckston",
       "texture": "cobblemon:textures/pokemon/sage/buckston.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_chupacho",
       "texture": "cobblemon:textures/pokemon/uranium/chupacho.png",
       "layers": []
     },

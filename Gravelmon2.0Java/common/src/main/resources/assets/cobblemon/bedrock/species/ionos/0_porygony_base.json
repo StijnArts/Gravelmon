@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_porygony",
       "texture": "cobblemon:textures/pokemon/ionos/porygony.png",
       "layers": []
     },

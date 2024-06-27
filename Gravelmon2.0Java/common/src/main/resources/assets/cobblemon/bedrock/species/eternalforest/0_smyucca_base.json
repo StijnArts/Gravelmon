@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_smyucca",
       "texture": "cobblemon:textures/pokemon/eternalforest/smyucca.png",
       "layers": []
     },

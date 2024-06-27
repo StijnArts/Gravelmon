@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_brambeat",
       "texture": "cobblemon:textures/pokemon/hiza/brambeat.png",
       "layers": []
     },

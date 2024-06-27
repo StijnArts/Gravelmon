@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_shaltuff",
       "texture": "cobblemon:textures/pokemon/interregional/shaltuff.png",
       "layers": []
     },

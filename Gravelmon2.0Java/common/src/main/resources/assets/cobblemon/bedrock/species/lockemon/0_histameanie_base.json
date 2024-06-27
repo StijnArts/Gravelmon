@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_histameanie",
       "texture": "cobblemon:textures/pokemon/lockemon/histameanie.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_volcantoad",
       "texture": "cobblemon:textures/pokemon/umbra/volcantoad.png",
       "layers": []
     },

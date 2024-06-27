@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_rollder",
       "texture": "cobblemon:textures/pokemon/deneb/rollder.png",
       "layers": []
     },

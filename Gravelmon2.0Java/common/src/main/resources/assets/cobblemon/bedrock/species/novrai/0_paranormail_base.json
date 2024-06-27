@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_paranormail",
       "texture": "cobblemon:textures/pokemon/novrai/paranormail.png",
       "layers": []
     },

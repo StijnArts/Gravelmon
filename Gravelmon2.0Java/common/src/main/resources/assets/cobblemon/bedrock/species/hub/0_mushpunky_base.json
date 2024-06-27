@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_mushpunky",
       "texture": "cobblemon:textures/pokemon/hub/mushpunky.png",
       "layers": []
     },

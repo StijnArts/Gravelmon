@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_duneon",
       "texture": "cobblemon:textures/pokemon/myth/duneon.png",
       "layers": []
     },

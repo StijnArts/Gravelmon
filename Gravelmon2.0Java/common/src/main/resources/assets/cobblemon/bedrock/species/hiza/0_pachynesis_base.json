@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_pachynesis",
       "texture": "cobblemon:textures/pokemon/hiza/pachynesis.png",
       "layers": []
     },

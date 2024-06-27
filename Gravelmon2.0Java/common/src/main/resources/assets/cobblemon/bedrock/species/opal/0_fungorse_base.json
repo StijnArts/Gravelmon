@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_fungorse",
       "texture": "cobblemon:textures/pokemon/opal/fungorse.png",
       "layers": []
     },

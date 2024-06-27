@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_nomster",
       "texture": "cobblemon:textures/pokemon/enriko/nomster.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_grimfernal",
       "texture": "cobblemon:textures/pokemon/ferroa/grimfernal.png",
       "layers": []
     },

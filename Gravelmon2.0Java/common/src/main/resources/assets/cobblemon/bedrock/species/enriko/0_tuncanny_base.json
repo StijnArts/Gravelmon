@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_tuncanny",
       "texture": "cobblemon:textures/pokemon/enriko/tuncanny.png",
       "layers": []
     },

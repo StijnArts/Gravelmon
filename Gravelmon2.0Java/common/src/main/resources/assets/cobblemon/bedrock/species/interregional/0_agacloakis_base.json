@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_agacloakis",
       "texture": "cobblemon:textures/pokemon/interregional/agacloakis.png",
       "layers": []
     },

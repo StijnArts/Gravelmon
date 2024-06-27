@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_gigantoid",
       "texture": "cobblemon:textures/pokemon/interregional/gigantoid.png",
       "layers": []
     },

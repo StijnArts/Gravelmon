@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_koinkoin",
       "texture": "cobblemon:textures/pokemon/xenoverse/koinkoin.png",
       "layers": []
     },

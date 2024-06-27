@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_costraw",
       "texture": "cobblemon:textures/pokemon/uranium/costraw.png",
       "layers": []
     },

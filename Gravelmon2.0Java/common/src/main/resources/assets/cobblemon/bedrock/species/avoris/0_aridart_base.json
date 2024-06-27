@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_aridart",
       "texture": "cobblemon:textures/pokemon/avoris/aridart.png",
       "layers": []
     },

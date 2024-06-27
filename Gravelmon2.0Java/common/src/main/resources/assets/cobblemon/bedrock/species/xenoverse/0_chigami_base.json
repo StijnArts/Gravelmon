@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_chigami",
       "texture": "cobblemon:textures/pokemon/xenoverse/chigami.png",
       "layers": []
     },

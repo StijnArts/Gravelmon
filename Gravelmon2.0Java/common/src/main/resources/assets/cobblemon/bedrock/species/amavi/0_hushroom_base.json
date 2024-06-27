@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_hushroom",
       "texture": "cobblemon:textures/pokemon/amavi/hushroom.png",
       "layers": []
     },

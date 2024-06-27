@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_tanscure",
       "texture": "cobblemon:textures/pokemon/flux/tanscure.png",
       "layers": []
     },

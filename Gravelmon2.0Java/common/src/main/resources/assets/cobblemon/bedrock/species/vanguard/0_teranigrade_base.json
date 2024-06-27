@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_teranigrade",
       "texture": "cobblemon:textures/pokemon/vanguard/teranigrade.png",
       "layers": []
     },

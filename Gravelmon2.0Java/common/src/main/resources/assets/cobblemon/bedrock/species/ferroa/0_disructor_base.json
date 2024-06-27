@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_disructor",
       "texture": "cobblemon:textures/pokemon/ferroa/disructor.png",
       "layers": []
     },

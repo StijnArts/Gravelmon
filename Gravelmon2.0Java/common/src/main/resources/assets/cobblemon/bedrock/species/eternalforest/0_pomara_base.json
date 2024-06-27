@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_pomara",
       "texture": "cobblemon:textures/pokemon/eternalforest/pomara.png",
       "layers": []
     },

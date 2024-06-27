@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_tadport",
       "texture": "cobblemon:textures/pokemon/rica/tadport.png",
       "layers": []
     },

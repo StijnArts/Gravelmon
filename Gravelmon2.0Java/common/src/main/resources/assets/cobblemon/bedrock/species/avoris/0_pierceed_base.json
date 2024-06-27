@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_pierceed",
       "texture": "cobblemon:textures/pokemon/avoris/pierceed.png",
       "layers": []
     },

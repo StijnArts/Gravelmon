@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_fashewn",
       "texture": "cobblemon:textures/pokemon/atlas/fashewn.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_wombaton",
       "texture": "cobblemon:textures/pokemon/deneb/wombaton.png",
       "layers": []
     },

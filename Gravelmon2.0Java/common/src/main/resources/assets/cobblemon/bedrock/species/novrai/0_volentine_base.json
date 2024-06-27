@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_volentine",
       "texture": "cobblemon:textures/pokemon/novrai/volentine.png",
       "layers": []
     },

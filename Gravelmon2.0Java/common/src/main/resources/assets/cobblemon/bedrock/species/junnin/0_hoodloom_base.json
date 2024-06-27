@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_hoodloom",
       "texture": "cobblemon:textures/pokemon/junnin/hoodloom.png",
       "layers": []
     },

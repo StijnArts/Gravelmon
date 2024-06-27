@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_lilyquack",
       "texture": "cobblemon:textures/pokemon/norheim/lilyquack.png",
       "layers": []
     },

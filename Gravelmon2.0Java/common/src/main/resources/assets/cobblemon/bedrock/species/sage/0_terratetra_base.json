@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_terratetra",
       "texture": "cobblemon:textures/pokemon/sage/terratetra.png",
       "layers": []
     },

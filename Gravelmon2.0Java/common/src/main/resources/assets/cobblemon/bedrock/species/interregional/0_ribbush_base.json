@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_ribbush",
       "texture": "cobblemon:textures/pokemon/interregional/ribbush.png",
       "layers": []
     },

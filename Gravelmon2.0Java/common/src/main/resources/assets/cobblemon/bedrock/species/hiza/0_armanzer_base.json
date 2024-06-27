@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_armanzer",
       "texture": "cobblemon:textures/pokemon/hiza/armanzer.png",
       "layers": []
     },

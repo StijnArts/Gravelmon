@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_riskard",
       "texture": "cobblemon:textures/pokemon/novrai/riskard.png",
       "layers": []
     },

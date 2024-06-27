@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_fulgeon",
       "texture": "cobblemon:textures/pokemon/kuria/fulgeon.png",
       "layers": []
     },

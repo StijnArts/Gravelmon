@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_wahundo",
       "texture": "cobblemon:textures/pokemon/enriko/wahundo.png",
       "layers": []
     },

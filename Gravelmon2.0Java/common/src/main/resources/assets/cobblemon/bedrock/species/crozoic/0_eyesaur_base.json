@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_eyesaur",
       "texture": "cobblemon:textures/pokemon/crozoic/eyesaur.png",
       "layers": []
     },

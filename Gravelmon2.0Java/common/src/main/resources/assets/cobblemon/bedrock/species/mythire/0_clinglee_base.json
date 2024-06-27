@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_clinglee",
       "texture": "cobblemon:textures/pokemon/mythire/clinglee.png",
       "layers": []
     },

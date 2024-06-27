@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_quibble",
       "texture": "cobblemon:textures/pokemon/sage/quibble.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_drifsea",
       "texture": "cobblemon:textures/pokemon/rica/drifsea.png",
       "layers": []
     },

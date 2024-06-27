@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_fleesquach",
       "texture": "cobblemon:textures/pokemon/enriko/fleesquach.png",
       "layers": []
     },

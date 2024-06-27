@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_cognisalis",
       "texture": "cobblemon:textures/pokemon/novrai/cognisalis.png",
       "layers": []
     },

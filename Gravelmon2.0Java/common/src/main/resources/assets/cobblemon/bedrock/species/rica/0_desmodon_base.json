@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_desmodon",
       "texture": "cobblemon:textures/pokemon/rica/desmodon.png",
       "layers": []
     },

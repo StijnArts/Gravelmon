@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_fenrour",
       "texture": "cobblemon:textures/pokemon/myth/fenrour.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_etheeria",
       "texture": "cobblemon:textures/pokemon/interregional/etheeria.png",
       "layers": []
     },

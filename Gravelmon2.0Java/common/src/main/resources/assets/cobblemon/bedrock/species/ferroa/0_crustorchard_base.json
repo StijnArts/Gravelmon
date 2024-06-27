@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_crustorchard",
       "texture": "cobblemon:textures/pokemon/ferroa/crustorchard.png",
       "layers": []
     },

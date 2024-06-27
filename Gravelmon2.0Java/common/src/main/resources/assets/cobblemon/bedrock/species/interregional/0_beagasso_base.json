@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_beagasso",
       "texture": "cobblemon:textures/pokemon/interregional/beagasso.png",
       "layers": []
     },

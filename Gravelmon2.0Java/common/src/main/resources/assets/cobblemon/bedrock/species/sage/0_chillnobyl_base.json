@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_chillnobyl",
       "texture": "cobblemon:textures/pokemon/sage/chillnobyl.png",
       "layers": []
     },

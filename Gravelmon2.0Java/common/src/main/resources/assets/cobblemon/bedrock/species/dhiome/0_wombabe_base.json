@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_wombabe",
       "texture": "cobblemon:textures/pokemon/dhiome/wombabe.png",
       "layers": []
     },

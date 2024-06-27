@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_snomatcha",
       "texture": "cobblemon:textures/pokemon/mythire/snomatcha.png",
       "layers": []
     },

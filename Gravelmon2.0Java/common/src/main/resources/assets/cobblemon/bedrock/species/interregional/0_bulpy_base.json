@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_bulpy",
       "texture": "cobblemon:textures/pokemon/interregional/bulpy.png",
       "layers": []
     },

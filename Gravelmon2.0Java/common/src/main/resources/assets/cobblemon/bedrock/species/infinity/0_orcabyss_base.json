@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_orcabyss",
       "texture": "cobblemon:textures/pokemon/infinity/orcabyss.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_mermantic",
       "texture": "cobblemon:textures/pokemon/amavi/mermantic.png",
       "layers": []
     },

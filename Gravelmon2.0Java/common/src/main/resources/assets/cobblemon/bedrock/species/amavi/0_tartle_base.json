@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_tartle",
       "texture": "cobblemon:textures/pokemon/amavi/tartle.png",
       "layers": []
     },

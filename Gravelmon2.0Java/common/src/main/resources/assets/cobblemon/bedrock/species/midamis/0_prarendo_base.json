@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_prarendo",
       "texture": "cobblemon:textures/pokemon/midamis/prarendo.png",
       "layers": []
     },

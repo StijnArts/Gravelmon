@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_zallut",
       "texture": "cobblemon:textures/pokemon/interregional/zallut.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_atillohunn",
       "texture": "cobblemon:textures/pokemon/fliga/atillohunn.png",
       "layers": []
     },

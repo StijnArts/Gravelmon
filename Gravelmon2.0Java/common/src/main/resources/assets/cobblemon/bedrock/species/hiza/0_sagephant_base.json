@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_sagephant",
       "texture": "cobblemon:textures/pokemon/hiza/sagephant.png",
       "layers": []
     },

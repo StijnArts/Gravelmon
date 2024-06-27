@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_dulswoop",
       "texture": "cobblemon:textures/pokemon/interregional/dulswoop.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_vanillurgy",
       "texture": "cobblemon:textures/pokemon/fliga/vanillurgy.png",
       "layers": []
     },

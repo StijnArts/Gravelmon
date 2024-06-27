@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_coocluck",
       "texture": "cobblemon:textures/pokemon/amavi/coocluck.png",
       "layers": []
     },

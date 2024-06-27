@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_piplex",
       "texture": "cobblemon:textures/pokemon/varitas/piplex.png",
       "layers": []
     },

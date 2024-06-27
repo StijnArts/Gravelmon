@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_ailember",
       "texture": "cobblemon:textures/pokemon/rica/ailember.png",
       "layers": []
     },

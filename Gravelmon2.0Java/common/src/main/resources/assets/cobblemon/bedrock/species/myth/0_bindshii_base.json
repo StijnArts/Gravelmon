@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_bindshii",
       "texture": "cobblemon:textures/pokemon/myth/bindshii.png",
       "layers": []
     },

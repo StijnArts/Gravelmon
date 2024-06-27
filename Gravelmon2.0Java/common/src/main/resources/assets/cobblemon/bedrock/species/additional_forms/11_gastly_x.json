@@ -6,9 +6,9 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:generation1_gastlyx.geo",
+      "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_gastlyx",
-      "texture": "cobblemon:textures/pokemon/generation1/gastlyx/gastlyx.png",
+      "texture": "cobblemon:textures/pokemon/generation1/gastlyx.png",
       "layers": []
     },
     {
@@ -18,7 +18,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_gastlyx",
-      "texture": "cobblemon:textures/pokemon/generation1/gastlyx/gastlyx_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/gastlyx_shiny.png",
       "layers": []
     }
   ]

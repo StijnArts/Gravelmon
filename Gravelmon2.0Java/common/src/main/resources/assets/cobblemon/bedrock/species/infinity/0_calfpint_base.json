@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_calfpint",
       "texture": "cobblemon:textures/pokemon/infinity/calfpint.png",
       "layers": []
     },

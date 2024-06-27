@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_oragnutan",
       "texture": "cobblemon:textures/pokemon/isiah/oragnutan.png",
       "layers": []
     },

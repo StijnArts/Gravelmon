@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_galextrial",
       "texture": "cobblemon:textures/pokemon/nosto/galextrial.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_hyfae",
       "texture": "cobblemon:textures/pokemon/norheim/hyfae.png",
       "layers": []
     },

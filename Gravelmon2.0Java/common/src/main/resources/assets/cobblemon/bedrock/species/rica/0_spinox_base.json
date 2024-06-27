@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_spinox",
       "texture": "cobblemon:textures/pokemon/rica/spinox.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_plantis",
       "texture": "cobblemon:textures/pokemon/enriko/plantis.png",
       "layers": []
     },

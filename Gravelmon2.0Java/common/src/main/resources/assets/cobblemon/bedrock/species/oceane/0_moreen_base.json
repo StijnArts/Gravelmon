@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_moreen",
       "texture": "cobblemon:textures/pokemon/oceane/moreen.png",
       "layers": []
     },

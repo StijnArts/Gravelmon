@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_pinchor",
       "texture": "cobblemon:textures/pokemon/deneb/pinchor.png",
       "layers": []
     },

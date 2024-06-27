@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_kungfur",
       "texture": "cobblemon:textures/pokemon/xenoverse/kungfur.png",
       "layers": []
     },

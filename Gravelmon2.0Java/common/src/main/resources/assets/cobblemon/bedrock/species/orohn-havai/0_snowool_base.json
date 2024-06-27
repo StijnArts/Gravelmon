@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_snowool",
       "texture": "cobblemon:textures/pokemon/orohn-havai/snowool.png",
       "layers": []
     },

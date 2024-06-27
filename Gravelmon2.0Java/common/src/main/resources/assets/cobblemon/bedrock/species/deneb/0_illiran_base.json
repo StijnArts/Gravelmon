@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_illiran",
       "texture": "cobblemon:textures/pokemon/deneb/illiran.png",
       "layers": []
     },

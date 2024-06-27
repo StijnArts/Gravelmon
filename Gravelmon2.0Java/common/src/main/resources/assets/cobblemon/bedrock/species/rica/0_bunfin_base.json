@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_bunfin",
       "texture": "cobblemon:textures/pokemon/rica/bunfin.png",
       "layers": []
     },

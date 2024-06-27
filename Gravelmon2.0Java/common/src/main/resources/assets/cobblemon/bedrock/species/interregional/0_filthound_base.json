@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_filthound",
       "texture": "cobblemon:textures/pokemon/interregional/filthound.png",
       "layers": []
     },

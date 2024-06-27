@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_whisteract",
       "texture": "cobblemon:textures/pokemon/xenoverse/whisteract.png",
       "layers": []
     },

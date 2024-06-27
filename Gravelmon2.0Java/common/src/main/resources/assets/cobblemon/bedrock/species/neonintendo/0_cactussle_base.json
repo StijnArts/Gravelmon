@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:neonintendo_cactussle",
       "texture": "cobblemon:textures/pokemon/neonintendo/cactussle.png",
       "layers": []
     },

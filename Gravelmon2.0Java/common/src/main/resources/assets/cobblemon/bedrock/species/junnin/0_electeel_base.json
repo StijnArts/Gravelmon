@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_electeel",
       "texture": "cobblemon:textures/pokemon/junnin/electeel.png",
       "layers": []
     },

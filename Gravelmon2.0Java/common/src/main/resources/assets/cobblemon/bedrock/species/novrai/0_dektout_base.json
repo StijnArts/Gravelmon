@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_dektout",
       "texture": "cobblemon:textures/pokemon/novrai/dektout.png",
       "layers": []
     },

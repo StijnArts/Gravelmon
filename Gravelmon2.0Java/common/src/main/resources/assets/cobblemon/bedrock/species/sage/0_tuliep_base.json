@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_tuliep",
       "texture": "cobblemon:textures/pokemon/sage/tuliep.png",
       "layers": []
     },

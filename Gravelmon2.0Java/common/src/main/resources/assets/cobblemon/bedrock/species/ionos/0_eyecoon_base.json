@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_eyecoon",
       "texture": "cobblemon:textures/pokemon/ionos/eyecoon.png",
       "layers": []
     },

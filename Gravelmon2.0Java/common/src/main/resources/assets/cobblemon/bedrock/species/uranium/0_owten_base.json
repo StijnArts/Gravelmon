@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_owten",
       "texture": "cobblemon:textures/pokemon/uranium/owten.png",
       "layers": []
     },

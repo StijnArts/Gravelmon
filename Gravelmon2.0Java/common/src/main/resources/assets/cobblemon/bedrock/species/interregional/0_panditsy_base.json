@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_panditsy",
       "texture": "cobblemon:textures/pokemon/interregional/panditsy.png",
       "layers": []
     },

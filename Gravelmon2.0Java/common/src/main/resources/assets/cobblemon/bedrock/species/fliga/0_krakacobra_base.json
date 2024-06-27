@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_krakacobra",
       "texture": "cobblemon:textures/pokemon/fliga/krakacobra.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_morgous",
       "texture": "cobblemon:textures/pokemon/fliga/morgous.png",
       "layers": []
     },

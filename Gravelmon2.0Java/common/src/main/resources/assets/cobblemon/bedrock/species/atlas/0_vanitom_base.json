@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_vanitom",
       "texture": "cobblemon:textures/pokemon/atlas/vanitom.png",
       "layers": []
     },

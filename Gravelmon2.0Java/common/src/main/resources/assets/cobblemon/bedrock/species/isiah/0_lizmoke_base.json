@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_lizmoke",
       "texture": "cobblemon:textures/pokemon/isiah/lizmoke.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_jellodiac",
       "texture": "cobblemon:textures/pokemon/amavi/jellodiac.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_grippit",
       "texture": "cobblemon:textures/pokemon/enriko/grippit.png",
       "layers": []
     },

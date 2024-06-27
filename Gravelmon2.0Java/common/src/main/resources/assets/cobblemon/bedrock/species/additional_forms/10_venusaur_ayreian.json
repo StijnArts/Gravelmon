@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:venusaur",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianvenusaur",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianvenusaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianvenusaur",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianvenusaur_shiny.png",
+      "layers": []
+    }
+  ]
+}

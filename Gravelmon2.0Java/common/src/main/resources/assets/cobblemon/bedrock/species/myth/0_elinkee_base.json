@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_elinkee",
       "texture": "cobblemon:textures/pokemon/myth/elinkee.png",
       "layers": []
     },

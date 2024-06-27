@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_pyramud",
       "texture": "cobblemon:textures/pokemon/avoris/pyramud.png",
       "layers": []
     },

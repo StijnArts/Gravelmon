@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_nerimbe",
       "texture": "cobblemon:textures/pokemon/fliga/nerimbe.png",
       "layers": []
     },

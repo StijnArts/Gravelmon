@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_dielebi",
       "texture": "cobblemon:textures/pokemon/xenoverse/dielebi.png",
       "layers": []
     },

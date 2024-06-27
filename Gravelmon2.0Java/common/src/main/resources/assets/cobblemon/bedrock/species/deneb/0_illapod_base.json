@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_illapod",
       "texture": "cobblemon:textures/pokemon/deneb/illapod.png",
       "layers": []
     },

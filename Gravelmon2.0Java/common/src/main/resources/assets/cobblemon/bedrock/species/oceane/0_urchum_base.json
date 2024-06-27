@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_urchum",
       "texture": "cobblemon:textures/pokemon/oceane/urchum.png",
       "layers": []
     },

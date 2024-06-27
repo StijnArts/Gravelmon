@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_godfrogger",
       "texture": "cobblemon:textures/pokemon/infinity/godfrogger.png",
       "layers": []
     },

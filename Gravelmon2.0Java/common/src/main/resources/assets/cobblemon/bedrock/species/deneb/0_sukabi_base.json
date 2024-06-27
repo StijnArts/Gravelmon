@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_sukabi",
       "texture": "cobblemon:textures/pokemon/deneb/sukabi.png",
       "layers": []
     },

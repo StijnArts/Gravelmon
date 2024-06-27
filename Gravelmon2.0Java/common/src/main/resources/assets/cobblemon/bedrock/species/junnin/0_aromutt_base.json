@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_aromutt",
       "texture": "cobblemon:textures/pokemon/junnin/aromutt.png",
       "layers": []
     },

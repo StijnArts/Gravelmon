@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_celestorch",
       "texture": "cobblemon:textures/pokemon/novrai/celestorch.png",
       "layers": []
     },

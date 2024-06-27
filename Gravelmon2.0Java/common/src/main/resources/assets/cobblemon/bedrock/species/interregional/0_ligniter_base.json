@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_ligniter",
       "texture": "cobblemon:textures/pokemon/interregional/ligniter.png",
       "layers": []
     },

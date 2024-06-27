@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_shifuu",
       "texture": "cobblemon:textures/pokemon/rica/shifuu.png",
       "layers": []
     },

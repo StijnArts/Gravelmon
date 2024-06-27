@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_dilophlora",
       "texture": "cobblemon:textures/pokemon/sage/dilophlora.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_flintten",
       "texture": "cobblemon:textures/pokemon/nosto/flintten.png",
       "layers": []
     },

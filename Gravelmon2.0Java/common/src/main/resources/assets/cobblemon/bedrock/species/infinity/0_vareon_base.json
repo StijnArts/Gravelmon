@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_vareon",
       "texture": "cobblemon:textures/pokemon/infinity/vareon.png",
       "layers": []
     },

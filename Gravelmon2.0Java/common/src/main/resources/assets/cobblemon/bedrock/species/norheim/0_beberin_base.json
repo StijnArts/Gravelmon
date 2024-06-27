@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_beberin",
       "texture": "cobblemon:textures/pokemon/norheim/beberin.png",
       "layers": []
     },

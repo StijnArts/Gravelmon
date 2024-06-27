@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_romirror",
       "texture": "cobblemon:textures/pokemon/novrai/romirror.png",
       "layers": []
     },

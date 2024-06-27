@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_venowhal",
       "texture": "cobblemon:textures/pokemon/mythire/venowhal.png",
       "layers": []
     },

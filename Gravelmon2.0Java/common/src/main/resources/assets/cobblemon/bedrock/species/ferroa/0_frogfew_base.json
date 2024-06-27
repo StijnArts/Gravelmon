@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_frogfew",
       "texture": "cobblemon:textures/pokemon/ferroa/frogfew.png",
       "layers": []
     },

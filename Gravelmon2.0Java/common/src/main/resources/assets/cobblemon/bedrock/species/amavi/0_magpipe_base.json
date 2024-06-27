@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_magpipe",
       "texture": "cobblemon:textures/pokemon/amavi/magpipe.png",
       "layers": []
     },

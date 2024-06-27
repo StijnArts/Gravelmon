@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_vespark",
       "texture": "cobblemon:textures/pokemon/ferroa/vespark.png",
       "layers": []
     },

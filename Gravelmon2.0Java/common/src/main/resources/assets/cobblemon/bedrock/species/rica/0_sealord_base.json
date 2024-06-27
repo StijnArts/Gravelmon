@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_sealord",
       "texture": "cobblemon:textures/pokemon/rica/sealord.png",
       "layers": []
     },

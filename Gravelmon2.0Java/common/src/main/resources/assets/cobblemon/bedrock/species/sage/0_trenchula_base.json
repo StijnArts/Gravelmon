@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_trenchula",
       "texture": "cobblemon:textures/pokemon/sage/trenchula.png",
       "layers": []
     },

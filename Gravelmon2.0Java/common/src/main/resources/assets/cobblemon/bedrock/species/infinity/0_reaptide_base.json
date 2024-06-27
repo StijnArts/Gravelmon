@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_reaptide",
       "texture": "cobblemon:textures/pokemon/infinity/reaptide.png",
       "layers": []
     },

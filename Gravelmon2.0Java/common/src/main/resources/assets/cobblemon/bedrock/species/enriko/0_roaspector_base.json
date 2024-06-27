@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_roaspector",
       "texture": "cobblemon:textures/pokemon/enriko/roaspector.png",
       "layers": []
     },

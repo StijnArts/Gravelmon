@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_forbitten",
       "texture": "cobblemon:textures/pokemon/amavi/forbitten.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_cottoon",
       "texture": "cobblemon:textures/pokemon/orohn-havai/cottoon.png",
       "layers": []
     },

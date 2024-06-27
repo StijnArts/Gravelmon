@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_boilunk",
       "texture": "cobblemon:textures/pokemon/ferroa/boilunk.png",
       "layers": []
     },

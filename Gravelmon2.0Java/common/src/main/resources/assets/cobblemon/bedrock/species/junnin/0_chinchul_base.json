@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_chinchul",
       "texture": "cobblemon:textures/pokemon/junnin/chinchul.png",
       "layers": []
     },

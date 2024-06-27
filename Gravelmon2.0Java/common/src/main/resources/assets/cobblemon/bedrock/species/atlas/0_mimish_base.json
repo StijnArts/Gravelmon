@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_mimish",
       "texture": "cobblemon:textures/pokemon/atlas/mimish.png",
       "layers": []
     },

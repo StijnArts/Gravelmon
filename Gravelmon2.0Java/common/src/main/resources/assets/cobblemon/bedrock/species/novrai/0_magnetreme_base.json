@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_magnetreme",
       "texture": "cobblemon:textures/pokemon/novrai/magnetreme.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_pawter",
       "texture": "cobblemon:textures/pokemon/sage/pawter.png",
       "layers": []
     },

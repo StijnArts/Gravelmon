@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_cactank",
       "texture": "cobblemon:textures/pokemon/ferroa/cactank.png",
       "layers": []
     },

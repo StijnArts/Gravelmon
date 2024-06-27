@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_orcleton",
       "texture": "cobblemon:textures/pokemon/hiza/orcleton.png",
       "layers": []
     },

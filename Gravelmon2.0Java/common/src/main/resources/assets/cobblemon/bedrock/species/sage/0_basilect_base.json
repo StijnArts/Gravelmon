@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_basilect",
       "texture": "cobblemon:textures/pokemon/sage/basilect.png",
       "layers": []
     },

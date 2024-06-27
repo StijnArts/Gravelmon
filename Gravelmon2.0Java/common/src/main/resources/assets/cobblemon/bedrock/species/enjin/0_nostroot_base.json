@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_nostroot",
       "texture": "cobblemon:textures/pokemon/enjin/nostroot.png",
       "layers": []
     },

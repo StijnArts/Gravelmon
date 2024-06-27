@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_hydroram",
       "texture": "cobblemon:textures/pokemon/norheim/hydroram.png",
       "layers": []
     },

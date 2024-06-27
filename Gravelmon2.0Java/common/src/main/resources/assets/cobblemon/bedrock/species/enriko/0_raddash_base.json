@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_raddash",
       "texture": "cobblemon:textures/pokemon/enriko/raddash.png",
       "layers": []
     },

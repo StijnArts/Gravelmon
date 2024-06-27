@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_gargon",
       "texture": "cobblemon:textures/pokemon/infinity/gargon.png",
       "layers": []
     },

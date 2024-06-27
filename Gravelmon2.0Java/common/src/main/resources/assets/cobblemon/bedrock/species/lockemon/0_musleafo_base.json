@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_musleafo",
       "texture": "cobblemon:textures/pokemon/lockemon/musleafo.png",
       "layers": []
     },

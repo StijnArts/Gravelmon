@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_saidine",
       "texture": "cobblemon:textures/pokemon/uranium/saidine.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_elekrab",
       "texture": "cobblemon:textures/pokemon/enriko/elekrab.png",
       "layers": []
     },

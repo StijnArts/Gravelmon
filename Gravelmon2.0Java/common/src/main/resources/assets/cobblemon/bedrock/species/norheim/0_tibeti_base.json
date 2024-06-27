@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_tibeti",
       "texture": "cobblemon:textures/pokemon/norheim/tibeti.png",
       "layers": []
     },

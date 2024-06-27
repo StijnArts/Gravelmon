@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_flamingant",
       "texture": "cobblemon:textures/pokemon/atlas/flamingant.png",
       "layers": []
     },

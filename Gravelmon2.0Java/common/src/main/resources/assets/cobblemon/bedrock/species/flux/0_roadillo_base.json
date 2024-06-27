@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_roadillo",
       "texture": "cobblemon:textures/pokemon/flux/roadillo.png",
       "layers": []
     },

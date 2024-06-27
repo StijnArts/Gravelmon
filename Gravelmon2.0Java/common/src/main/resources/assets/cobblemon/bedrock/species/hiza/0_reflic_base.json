@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_reflic",
       "texture": "cobblemon:textures/pokemon/hiza/reflic.png",
       "layers": []
     },

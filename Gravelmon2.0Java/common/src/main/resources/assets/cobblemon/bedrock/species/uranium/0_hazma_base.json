@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_hazma",
       "texture": "cobblemon:textures/pokemon/uranium/hazma.png",
       "layers": []
     },

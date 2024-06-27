@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_narwhail",
       "texture": "cobblemon:textures/pokemon/deneb/narwhail.png",
       "layers": []
     },

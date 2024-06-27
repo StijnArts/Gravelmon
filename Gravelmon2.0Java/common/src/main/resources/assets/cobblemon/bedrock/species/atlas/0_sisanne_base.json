@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_sisanne",
       "texture": "cobblemon:textures/pokemon/atlas/sisanne.png",
       "layers": []
     },

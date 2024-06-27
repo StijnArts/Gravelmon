@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_cuptus",
       "texture": "cobblemon:textures/pokemon/ferroa/cuptus.png",
       "layers": []
     },

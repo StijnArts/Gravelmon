@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_ajarimus",
       "texture": "cobblemon:textures/pokemon/deneb/ajarimus.png",
       "layers": []
     },

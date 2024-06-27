@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_frosstitan",
       "texture": "cobblemon:textures/pokemon/enjin/frosstitan.png",
       "layers": []
     },

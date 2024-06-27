@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_bouldart",
       "texture": "cobblemon:textures/pokemon/isiah/bouldart.png",
       "layers": []
     },

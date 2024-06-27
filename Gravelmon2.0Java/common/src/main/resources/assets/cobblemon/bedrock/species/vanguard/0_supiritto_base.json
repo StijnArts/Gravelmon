@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_supiritto",
       "texture": "cobblemon:textures/pokemon/vanguard/supiritto.png",
       "layers": []
     },

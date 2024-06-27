@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_mossowl",
       "texture": "cobblemon:textures/pokemon/lonava/mossowl.png",
       "layers": []
     },

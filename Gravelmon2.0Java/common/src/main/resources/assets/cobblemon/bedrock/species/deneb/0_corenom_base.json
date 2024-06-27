@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_corenom",
       "texture": "cobblemon:textures/pokemon/deneb/corenom.png",
       "layers": []
     },

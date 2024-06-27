@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_fatfish",
       "texture": "cobblemon:textures/pokemon/enriko/fatfish.png",
       "layers": []
     },

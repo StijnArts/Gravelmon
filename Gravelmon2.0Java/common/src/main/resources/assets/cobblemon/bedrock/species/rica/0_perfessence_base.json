@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_perfessence",
       "texture": "cobblemon:textures/pokemon/rica/perfessence.png",
       "layers": []
     },

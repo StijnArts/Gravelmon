@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_capillar",
       "texture": "cobblemon:textures/pokemon/varitas/capillar.png",
       "layers": []
     },

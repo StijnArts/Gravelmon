@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_shreadly",
       "texture": "cobblemon:textures/pokemon/amavi/shreadly.png",
       "layers": []
     },

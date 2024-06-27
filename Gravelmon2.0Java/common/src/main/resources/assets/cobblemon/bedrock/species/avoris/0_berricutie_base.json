@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_berricutie",
       "texture": "cobblemon:textures/pokemon/avoris/berricutie.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_tarandible",
       "texture": "cobblemon:textures/pokemon/flux/tarandible.png",
       "layers": []
     },

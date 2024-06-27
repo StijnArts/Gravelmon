@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_melant",
       "texture": "cobblemon:textures/pokemon/hiza/melant.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_babrat",
       "texture": "cobblemon:textures/pokemon/hiza/babrat.png",
       "layers": []
     },

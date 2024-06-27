@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_koslich",
       "texture": "cobblemon:textures/pokemon/isiah/koslich.png",
       "layers": []
     },

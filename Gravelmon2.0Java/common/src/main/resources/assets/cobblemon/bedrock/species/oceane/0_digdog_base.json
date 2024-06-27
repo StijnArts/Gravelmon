@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_digdog",
       "texture": "cobblemon:textures/pokemon/oceane/digdog.png",
       "layers": []
     },

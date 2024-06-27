@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_ignew",
       "texture": "cobblemon:textures/pokemon/okeno/ignew.png",
       "layers": []
     },

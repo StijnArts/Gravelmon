@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_atolus",
       "texture": "cobblemon:textures/pokemon/atlas/atolus.png",
       "layers": []
     },

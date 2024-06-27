@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_sponaree",
       "texture": "cobblemon:textures/pokemon/uranium/sponaree.png",
       "layers": []
     },

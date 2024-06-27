@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_squignite",
       "texture": "cobblemon:textures/pokemon/nosto/squignite.png",
       "layers": []
     },

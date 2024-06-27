@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_heimdrake",
       "texture": "cobblemon:textures/pokemon/norheim/heimdrake.png",
       "layers": []
     },

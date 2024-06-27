@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_undallure",
       "texture": "cobblemon:textures/pokemon/oceane/undallure.png",
       "layers": []
     },

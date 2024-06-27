@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_stalacbite",
       "texture": "cobblemon:textures/pokemon/varitas/stalacbite.png",
       "layers": []
     },

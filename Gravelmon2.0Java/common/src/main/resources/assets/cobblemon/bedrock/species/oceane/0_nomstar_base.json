@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_nomstar",
       "texture": "cobblemon:textures/pokemon/oceane/nomstar.png",
       "layers": []
     },

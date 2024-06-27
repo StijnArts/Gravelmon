@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_webbat",
       "texture": "cobblemon:textures/pokemon/umbra/webbat.png",
       "layers": []
     },

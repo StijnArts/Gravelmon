@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_mousprite",
       "texture": "cobblemon:textures/pokemon/fliga/mousprite.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_vectol",
       "texture": "cobblemon:textures/pokemon/sage/vectol.png",
       "layers": []
     },

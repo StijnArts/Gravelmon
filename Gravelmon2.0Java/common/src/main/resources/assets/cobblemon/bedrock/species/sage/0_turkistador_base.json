@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_turkistador",
       "texture": "cobblemon:textures/pokemon/sage/turkistador.png",
       "layers": []
     },

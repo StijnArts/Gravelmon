@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_pitchzall",
       "texture": "cobblemon:textures/pokemon/atlas/pitchzall.png",
       "layers": []
     },

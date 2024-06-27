@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_mermew",
       "texture": "cobblemon:textures/pokemon/rica/mermew.png",
       "layers": []
     },

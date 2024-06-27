@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_ceresplit",
       "texture": "cobblemon:textures/pokemon/enriko/ceresplit.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_tragobite",
       "texture": "cobblemon:textures/pokemon/fliga/tragobite.png",
       "layers": []
     },

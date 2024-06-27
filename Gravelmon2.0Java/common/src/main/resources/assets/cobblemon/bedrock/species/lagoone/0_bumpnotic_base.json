@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_bumpnotic",
       "texture": "cobblemon:textures/pokemon/lagoone/bumpnotic.png",
       "layers": []
     },

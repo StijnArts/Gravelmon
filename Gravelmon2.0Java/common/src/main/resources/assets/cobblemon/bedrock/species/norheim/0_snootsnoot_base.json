@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_snootsnoot",
       "texture": "cobblemon:textures/pokemon/norheim/snootsnoot.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_shelswap",
       "texture": "cobblemon:textures/pokemon/mythire/shelswap.png",
       "layers": []
     },

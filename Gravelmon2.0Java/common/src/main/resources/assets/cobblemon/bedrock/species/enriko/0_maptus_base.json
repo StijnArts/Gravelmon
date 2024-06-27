@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_maptus",
       "texture": "cobblemon:textures/pokemon/enriko/maptus.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_osstrike",
       "texture": "cobblemon:textures/pokemon/atlas/osstrike.png",
       "layers": []
     },

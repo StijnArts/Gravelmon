@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_rustangel",
       "texture": "cobblemon:textures/pokemon/amavi/rustangel.png",
       "layers": []
     },

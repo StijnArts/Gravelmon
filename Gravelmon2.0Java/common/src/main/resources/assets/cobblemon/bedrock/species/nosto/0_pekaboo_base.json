@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_pekaboo",
       "texture": "cobblemon:textures/pokemon/nosto/pekaboo.png",
       "layers": []
     },

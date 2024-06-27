@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_roarn",
       "texture": "cobblemon:textures/pokemon/amavi/roarn.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_glacitrave",
       "texture": "cobblemon:textures/pokemon/interregional/glacitrave.png",
       "layers": []
     },

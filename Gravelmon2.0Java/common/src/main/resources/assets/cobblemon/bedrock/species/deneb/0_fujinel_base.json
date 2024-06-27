@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_fujinel",
       "texture": "cobblemon:textures/pokemon/deneb/fujinel.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_varghast",
       "texture": "cobblemon:textures/pokemon/norheim/varghast.png",
       "layers": []
     },

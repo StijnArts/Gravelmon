@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_tyranos",
       "texture": "cobblemon:textures/pokemon/deneb/tyranos.png",
       "layers": []
     },

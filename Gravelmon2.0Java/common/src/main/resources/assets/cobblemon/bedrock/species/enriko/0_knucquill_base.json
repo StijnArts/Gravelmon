@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_knucquill",
       "texture": "cobblemon:textures/pokemon/enriko/knucquill.png",
       "layers": []
     },

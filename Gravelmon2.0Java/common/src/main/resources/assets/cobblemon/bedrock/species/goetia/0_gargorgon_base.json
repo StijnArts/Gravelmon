@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_gargorgon",
       "texture": "cobblemon:textures/pokemon/goetia/gargorgon.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_shroudice",
       "texture": "cobblemon:textures/pokemon/kuria/shroudice.png",
       "layers": []
     },

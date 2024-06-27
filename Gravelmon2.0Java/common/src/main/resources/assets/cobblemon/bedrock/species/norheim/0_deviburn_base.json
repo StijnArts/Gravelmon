@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_deviburn",
       "texture": "cobblemon:textures/pokemon/norheim/deviburn.png",
       "layers": []
     },

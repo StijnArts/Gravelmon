@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_merbebi",
       "texture": "cobblemon:textures/pokemon/oceane/merbebi.png",
       "layers": []
     },

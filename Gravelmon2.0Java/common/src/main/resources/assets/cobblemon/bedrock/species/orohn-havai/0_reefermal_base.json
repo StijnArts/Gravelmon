@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_reefermal",
       "texture": "cobblemon:textures/pokemon/orohn-havai/reefermal.png",
       "layers": []
     },

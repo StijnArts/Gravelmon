@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_chloradise",
       "texture": "cobblemon:textures/pokemon/atlas/chloradise.png",
       "layers": []
     },

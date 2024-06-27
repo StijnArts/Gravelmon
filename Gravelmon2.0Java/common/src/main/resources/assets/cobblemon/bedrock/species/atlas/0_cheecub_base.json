@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_cheecub",
       "texture": "cobblemon:textures/pokemon/atlas/cheecub.png",
       "layers": []
     },

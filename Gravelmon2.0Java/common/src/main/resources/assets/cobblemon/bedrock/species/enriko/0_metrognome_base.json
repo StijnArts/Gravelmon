@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_metrognome",
       "texture": "cobblemon:textures/pokemon/enriko/metrognome.png",
       "layers": []
     },

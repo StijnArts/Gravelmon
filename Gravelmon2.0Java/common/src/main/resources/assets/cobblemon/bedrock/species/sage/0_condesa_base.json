@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_condesa",
       "texture": "cobblemon:textures/pokemon/sage/condesa.png",
       "layers": []
     },

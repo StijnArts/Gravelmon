@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_plasduck",
       "texture": "cobblemon:textures/pokemon/nosto/plasduck.png",
       "layers": []
     },

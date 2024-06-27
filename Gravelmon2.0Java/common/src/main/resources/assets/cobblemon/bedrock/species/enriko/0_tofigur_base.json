@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_tofigur",
       "texture": "cobblemon:textures/pokemon/enriko/tofigur.png",
       "layers": []
     },

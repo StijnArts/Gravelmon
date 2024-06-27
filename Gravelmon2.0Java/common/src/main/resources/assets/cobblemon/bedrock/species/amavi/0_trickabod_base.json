@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_trickabod",
       "texture": "cobblemon:textures/pokemon/amavi/trickabod.png",
       "layers": []
     },

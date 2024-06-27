@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_kiwee",
       "texture": "cobblemon:textures/pokemon/amavi/kiwee.png",
       "layers": []
     },

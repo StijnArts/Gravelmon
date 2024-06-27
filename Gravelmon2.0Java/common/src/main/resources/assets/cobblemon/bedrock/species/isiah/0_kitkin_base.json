@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_kitkin",
       "texture": "cobblemon:textures/pokemon/isiah/kitkin.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_speather",
       "texture": "cobblemon:textures/pokemon/hiza/speather.png",
       "layers": []
     },

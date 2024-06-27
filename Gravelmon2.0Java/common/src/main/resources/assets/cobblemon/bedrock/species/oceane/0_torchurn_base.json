@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_torchurn",
       "texture": "cobblemon:textures/pokemon/oceane/torchurn.png",
       "layers": []
     },

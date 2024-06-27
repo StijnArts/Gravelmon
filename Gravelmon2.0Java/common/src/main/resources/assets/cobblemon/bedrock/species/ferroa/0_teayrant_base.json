@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_teayrant",
       "texture": "cobblemon:textures/pokemon/ferroa/teayrant.png",
       "layers": []
     },

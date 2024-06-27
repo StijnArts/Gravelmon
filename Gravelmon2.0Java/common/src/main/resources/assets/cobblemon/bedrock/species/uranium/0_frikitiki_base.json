@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_frikitiki",
       "texture": "cobblemon:textures/pokemon/uranium/frikitiki.png",
       "layers": []
     },

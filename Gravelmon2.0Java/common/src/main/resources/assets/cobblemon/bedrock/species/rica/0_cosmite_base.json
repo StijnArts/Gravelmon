@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_cosmite",
       "texture": "cobblemon:textures/pokemon/rica/cosmite.png",
       "layers": []
     },

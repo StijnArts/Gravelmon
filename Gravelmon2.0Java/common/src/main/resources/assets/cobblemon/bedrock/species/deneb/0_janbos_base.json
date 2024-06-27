@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_janbos",
       "texture": "cobblemon:textures/pokemon/deneb/janbos.png",
       "layers": []
     },

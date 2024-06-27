@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_socktopus",
       "texture": "cobblemon:textures/pokemon/ferroa/socktopus.png",
       "layers": []
     },

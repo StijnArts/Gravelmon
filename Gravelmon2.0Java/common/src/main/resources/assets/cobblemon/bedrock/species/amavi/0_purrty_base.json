@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_purrty",
       "texture": "cobblemon:textures/pokemon/amavi/purrty.png",
       "layers": []
     },

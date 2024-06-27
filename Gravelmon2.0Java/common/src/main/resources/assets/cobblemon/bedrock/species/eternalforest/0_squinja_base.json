@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_squinja",
       "texture": "cobblemon:textures/pokemon/eternalforest/squinja.png",
       "layers": []
     },

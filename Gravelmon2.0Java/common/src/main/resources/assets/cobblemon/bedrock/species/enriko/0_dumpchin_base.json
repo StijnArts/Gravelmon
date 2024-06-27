@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_dumpchin",
       "texture": "cobblemon:textures/pokemon/enriko/dumpchin.png",
       "layers": []
     },

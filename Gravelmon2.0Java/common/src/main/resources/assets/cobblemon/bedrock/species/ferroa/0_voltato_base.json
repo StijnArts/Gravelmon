@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_voltato",
       "texture": "cobblemon:textures/pokemon/ferroa/voltato.png",
       "layers": []
     },

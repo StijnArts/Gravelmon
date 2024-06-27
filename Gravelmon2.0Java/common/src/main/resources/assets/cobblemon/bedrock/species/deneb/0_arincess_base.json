@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_arincess",
       "texture": "cobblemon:textures/pokemon/deneb/arincess.png",
       "layers": []
     },

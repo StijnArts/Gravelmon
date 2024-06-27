@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_nectair",
       "texture": "cobblemon:textures/pokemon/novrai/nectair.png",
       "layers": []
     },

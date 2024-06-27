@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_oracub",
       "texture": "cobblemon:textures/pokemon/lockemon/oracub.png",
       "layers": []
     },

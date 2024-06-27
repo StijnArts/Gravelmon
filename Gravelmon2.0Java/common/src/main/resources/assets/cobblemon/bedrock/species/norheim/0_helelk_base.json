@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_helelk",
       "texture": "cobblemon:textures/pokemon/norheim/helelk.png",
       "layers": []
     },

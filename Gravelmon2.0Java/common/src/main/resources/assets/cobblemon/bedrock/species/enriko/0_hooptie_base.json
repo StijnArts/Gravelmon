@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_hooptie",
       "texture": "cobblemon:textures/pokemon/enriko/hooptie.png",
       "layers": []
     },

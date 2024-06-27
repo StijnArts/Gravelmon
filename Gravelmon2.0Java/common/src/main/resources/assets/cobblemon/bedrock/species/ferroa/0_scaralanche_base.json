@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_scaralanche",
       "texture": "cobblemon:textures/pokemon/ferroa/scaralanche.png",
       "layers": []
     },

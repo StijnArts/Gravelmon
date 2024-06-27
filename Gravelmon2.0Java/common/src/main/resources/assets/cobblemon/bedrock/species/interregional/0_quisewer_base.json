@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_quisewer",
       "texture": "cobblemon:textures/pokemon/interregional/quisewer.png",
       "layers": []
     },

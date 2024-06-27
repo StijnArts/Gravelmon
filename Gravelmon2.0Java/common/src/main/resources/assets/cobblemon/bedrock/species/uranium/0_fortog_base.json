@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_fortog",
       "texture": "cobblemon:textures/pokemon/uranium/fortog.png",
       "layers": []
     },

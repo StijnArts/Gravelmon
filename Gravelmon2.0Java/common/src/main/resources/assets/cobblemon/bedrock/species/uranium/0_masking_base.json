@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_masking",
       "texture": "cobblemon:textures/pokemon/uranium/masking.png",
       "layers": []
     },

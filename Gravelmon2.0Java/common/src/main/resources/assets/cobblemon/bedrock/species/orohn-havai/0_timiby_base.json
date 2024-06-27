@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_timiby",
       "texture": "cobblemon:textures/pokemon/orohn-havai/timiby.png",
       "layers": []
     },

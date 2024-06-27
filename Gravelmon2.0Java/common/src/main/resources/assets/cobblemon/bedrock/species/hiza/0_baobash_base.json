@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_baobash",
       "texture": "cobblemon:textures/pokemon/hiza/baobash.png",
       "layers": []
     },

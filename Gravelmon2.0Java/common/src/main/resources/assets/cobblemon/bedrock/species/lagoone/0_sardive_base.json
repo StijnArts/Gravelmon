@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_sardive",
       "texture": "cobblemon:textures/pokemon/lagoone/sardive.png",
       "layers": []
     },

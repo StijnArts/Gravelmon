@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_marifin",
       "texture": "cobblemon:textures/pokemon/interregional/marifin.png",
       "layers": []
     },

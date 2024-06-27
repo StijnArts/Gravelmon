@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_yemin",
       "texture": "cobblemon:textures/pokemon/xenoverse/yemin.png",
       "layers": []
     },

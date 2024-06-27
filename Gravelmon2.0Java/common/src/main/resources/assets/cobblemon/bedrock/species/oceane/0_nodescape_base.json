@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_nodescape",
       "texture": "cobblemon:textures/pokemon/oceane/nodescape.png",
       "layers": []
     },

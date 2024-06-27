@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_cubreeze",
       "texture": "cobblemon:textures/pokemon/enjin/cubreeze.png",
       "layers": []
     },

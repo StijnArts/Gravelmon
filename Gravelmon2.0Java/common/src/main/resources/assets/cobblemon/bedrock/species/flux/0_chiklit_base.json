@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_chiklit",
       "texture": "cobblemon:textures/pokemon/flux/chiklit.png",
       "layers": []
     },

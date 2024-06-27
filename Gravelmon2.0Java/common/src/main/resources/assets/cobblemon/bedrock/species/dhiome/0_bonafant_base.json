@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_bonafant",
       "texture": "cobblemon:textures/pokemon/dhiome/bonafant.png",
       "layers": []
     },

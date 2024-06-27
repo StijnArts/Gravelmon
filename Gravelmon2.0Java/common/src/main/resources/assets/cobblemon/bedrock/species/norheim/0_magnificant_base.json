@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_magnificant",
       "texture": "cobblemon:textures/pokemon/norheim/magnificant.png",
       "layers": []
     },

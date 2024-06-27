@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_yeraze",
       "texture": "cobblemon:textures/pokemon/midamis/yeraze.png",
       "layers": []
     },

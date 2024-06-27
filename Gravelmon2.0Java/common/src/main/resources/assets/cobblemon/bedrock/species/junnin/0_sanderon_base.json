@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_sanderon",
       "texture": "cobblemon:textures/pokemon/junnin/sanderon.png",
       "layers": []
     },

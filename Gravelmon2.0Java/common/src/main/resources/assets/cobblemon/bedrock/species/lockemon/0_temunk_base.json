@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_temunk",
       "texture": "cobblemon:textures/pokemon/lockemon/temunk.png",
       "layers": []
     },

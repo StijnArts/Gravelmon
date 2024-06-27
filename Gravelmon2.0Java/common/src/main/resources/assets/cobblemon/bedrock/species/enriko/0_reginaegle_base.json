@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_reginaegle",
       "texture": "cobblemon:textures/pokemon/enriko/reginaegle.png",
       "layers": []
     },

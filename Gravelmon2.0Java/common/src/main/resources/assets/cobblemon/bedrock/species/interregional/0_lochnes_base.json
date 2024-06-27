@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_lochnes",
       "texture": "cobblemon:textures/pokemon/interregional/lochnes.png",
       "layers": []
     },

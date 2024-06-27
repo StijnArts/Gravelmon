@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_tunnelurm",
       "texture": "cobblemon:textures/pokemon/nosto/tunnelurm.png",
       "layers": []
     },

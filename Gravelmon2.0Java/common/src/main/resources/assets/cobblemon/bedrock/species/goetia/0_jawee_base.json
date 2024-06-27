@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_jawee",
       "texture": "cobblemon:textures/pokemon/goetia/jawee.png",
       "layers": []
     },

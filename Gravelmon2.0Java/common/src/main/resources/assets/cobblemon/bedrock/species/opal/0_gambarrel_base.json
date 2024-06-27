@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_gambarrel",
       "texture": "cobblemon:textures/pokemon/opal/gambarrel.png",
       "layers": []
     },

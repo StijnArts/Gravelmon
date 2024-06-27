@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_piglitt",
       "texture": "cobblemon:textures/pokemon/okeno/piglitt.png",
       "layers": []
     },

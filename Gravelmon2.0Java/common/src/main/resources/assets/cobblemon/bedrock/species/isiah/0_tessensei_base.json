@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_tessensei",
       "texture": "cobblemon:textures/pokemon/isiah/tessensei.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_kerbunsta",
       "texture": "cobblemon:textures/pokemon/fliga/kerbunsta.png",
       "layers": []
     },

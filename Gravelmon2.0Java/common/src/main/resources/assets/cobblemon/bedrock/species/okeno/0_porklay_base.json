@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_porklay",
       "texture": "cobblemon:textures/pokemon/okeno/porklay.png",
       "layers": []
     },

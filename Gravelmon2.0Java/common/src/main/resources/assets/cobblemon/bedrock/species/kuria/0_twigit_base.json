@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_twigit",
       "texture": "cobblemon:textures/pokemon/kuria/twigit.png",
       "layers": []
     },

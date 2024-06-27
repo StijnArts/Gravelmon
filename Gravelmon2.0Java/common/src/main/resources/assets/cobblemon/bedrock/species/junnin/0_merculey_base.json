@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_merculey",
       "texture": "cobblemon:textures/pokemon/junnin/merculey.png",
       "layers": []
     },

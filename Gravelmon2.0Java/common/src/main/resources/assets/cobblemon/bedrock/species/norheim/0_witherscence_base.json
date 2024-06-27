@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_witherscence",
       "texture": "cobblemon:textures/pokemon/norheim/witherscence.png",
       "layers": []
     },

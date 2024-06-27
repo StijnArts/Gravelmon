@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_nezutama",
       "texture": "cobblemon:textures/pokemon/hub/nezutama.png",
       "layers": []
     },

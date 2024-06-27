@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_pressie",
       "texture": "cobblemon:textures/pokemon/deneb/pressie.png",
       "layers": []
     },

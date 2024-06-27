@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_cobarett",
       "texture": "cobblemon:textures/pokemon/myth/cobarett.png",
       "layers": []
     },

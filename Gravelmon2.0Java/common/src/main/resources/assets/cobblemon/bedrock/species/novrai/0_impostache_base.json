@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_impostache",
       "texture": "cobblemon:textures/pokemon/novrai/impostache.png",
       "layers": []
     },

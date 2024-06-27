@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_taquana",
       "texture": "cobblemon:textures/pokemon/hiza/taquana.png",
       "layers": []
     },

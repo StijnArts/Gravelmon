@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_necrow",
       "texture": "cobblemon:textures/pokemon/sage/necrow.png",
       "layers": []
     },

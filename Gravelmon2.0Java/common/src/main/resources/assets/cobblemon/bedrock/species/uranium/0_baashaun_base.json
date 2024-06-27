@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_baashaun",
       "texture": "cobblemon:textures/pokemon/uranium/baashaun.png",
       "layers": []
     },

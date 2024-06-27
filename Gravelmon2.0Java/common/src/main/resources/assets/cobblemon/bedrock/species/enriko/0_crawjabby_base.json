@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_crawjabby",
       "texture": "cobblemon:textures/pokemon/enriko/crawjabby.png",
       "layers": []
     },

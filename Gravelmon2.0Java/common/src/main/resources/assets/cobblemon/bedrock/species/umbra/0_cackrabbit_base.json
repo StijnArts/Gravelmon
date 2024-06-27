@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_cackrabbit",
       "texture": "cobblemon:textures/pokemon/umbra/cackrabbit.png",
       "layers": []
     },

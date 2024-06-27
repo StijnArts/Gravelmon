@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_chegrin",
       "texture": "cobblemon:textures/pokemon/sage/chegrin.png",
       "layers": []
     },

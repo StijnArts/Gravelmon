@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_beetome",
       "texture": "cobblemon:textures/pokemon/okeno/beetome.png",
       "layers": []
     },

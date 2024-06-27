@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_ankleaf",
       "texture": "cobblemon:textures/pokemon/amavi/ankleaf.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_regalient",
       "texture": "cobblemon:textures/pokemon/atlas/regalient.png",
       "layers": []
     },

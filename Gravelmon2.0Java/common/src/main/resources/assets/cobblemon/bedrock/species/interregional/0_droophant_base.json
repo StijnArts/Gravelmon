@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_droophant",
       "texture": "cobblemon:textures/pokemon/interregional/droophant.png",
       "layers": []
     },

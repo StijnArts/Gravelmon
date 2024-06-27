@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_praseopunk",
       "texture": "cobblemon:textures/pokemon/uranium/praseopunk.png",
       "layers": []
     },

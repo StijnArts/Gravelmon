@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_caecarette",
       "texture": "cobblemon:textures/pokemon/enriko/caecarette.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_kunama",
       "texture": "cobblemon:textures/pokemon/kuria/kunama.png",
       "layers": []
     },

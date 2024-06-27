@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_kiricorn",
       "texture": "cobblemon:textures/pokemon/uranium/kiricorn.png",
       "layers": []
     },

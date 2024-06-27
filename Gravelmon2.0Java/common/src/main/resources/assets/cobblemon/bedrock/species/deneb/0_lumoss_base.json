@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_lumoss",
       "texture": "cobblemon:textures/pokemon/deneb/lumoss.png",
       "layers": []
     },

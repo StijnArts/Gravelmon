@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_maligon",
       "texture": "cobblemon:textures/pokemon/okeno/maligon.png",
       "layers": []
     },

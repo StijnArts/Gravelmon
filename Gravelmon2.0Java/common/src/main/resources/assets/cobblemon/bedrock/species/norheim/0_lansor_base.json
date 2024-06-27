@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_lansor",
       "texture": "cobblemon:textures/pokemon/norheim/lansor.png",
       "layers": []
     },

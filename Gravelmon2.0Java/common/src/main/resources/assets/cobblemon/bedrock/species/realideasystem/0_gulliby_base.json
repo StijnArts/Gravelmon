@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:realideasystem_gulliby",
       "texture": "cobblemon:textures/pokemon/realideasystem/gulliby.png",
       "layers": []
     },

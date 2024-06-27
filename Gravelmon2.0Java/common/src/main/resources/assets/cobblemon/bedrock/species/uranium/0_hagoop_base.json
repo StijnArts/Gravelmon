@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_hagoop",
       "texture": "cobblemon:textures/pokemon/uranium/hagoop.png",
       "layers": []
     },

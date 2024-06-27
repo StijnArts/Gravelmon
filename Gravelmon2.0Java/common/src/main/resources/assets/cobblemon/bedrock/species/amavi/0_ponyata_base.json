@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_ponyata",
       "texture": "cobblemon:textures/pokemon/amavi/ponyata.png",
       "layers": []
     },

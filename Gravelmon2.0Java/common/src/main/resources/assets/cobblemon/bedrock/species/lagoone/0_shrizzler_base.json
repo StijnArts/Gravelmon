@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_shrizzler",
       "texture": "cobblemon:textures/pokemon/lagoone/shrizzler.png",
       "layers": []
     },

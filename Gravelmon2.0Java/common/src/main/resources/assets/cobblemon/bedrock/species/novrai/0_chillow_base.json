@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_chillow",
       "texture": "cobblemon:textures/pokemon/novrai/chillow.png",
       "layers": []
     },

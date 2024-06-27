@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_juroxic",
       "texture": "cobblemon:textures/pokemon/novrai/juroxic.png",
       "layers": []
     },

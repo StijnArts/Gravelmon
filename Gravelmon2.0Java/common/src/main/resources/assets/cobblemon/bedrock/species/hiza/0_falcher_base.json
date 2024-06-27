@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_falcher",
       "texture": "cobblemon:textures/pokemon/hiza/falcher.png",
       "layers": []
     },

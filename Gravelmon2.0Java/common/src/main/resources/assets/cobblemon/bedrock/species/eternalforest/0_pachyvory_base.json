@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_pachyvory",
       "texture": "cobblemon:textures/pokemon/eternalforest/pachyvory.png",
       "layers": []
     },

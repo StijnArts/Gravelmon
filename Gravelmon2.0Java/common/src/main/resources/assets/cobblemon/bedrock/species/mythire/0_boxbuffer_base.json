@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_boxbuffer",
       "texture": "cobblemon:textures/pokemon/mythire/boxbuffer.png",
       "layers": []
     },

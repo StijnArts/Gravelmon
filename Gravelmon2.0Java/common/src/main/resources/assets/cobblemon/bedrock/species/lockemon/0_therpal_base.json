@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_therpal",
       "texture": "cobblemon:textures/pokemon/lockemon/therpal.png",
       "layers": []
     },

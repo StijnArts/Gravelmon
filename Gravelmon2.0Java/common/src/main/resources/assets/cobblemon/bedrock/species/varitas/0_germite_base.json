@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_germite",
       "texture": "cobblemon:textures/pokemon/varitas/germite.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_gauza",
       "texture": "cobblemon:textures/pokemon/mythire/gauza.png",
       "layers": []
     },

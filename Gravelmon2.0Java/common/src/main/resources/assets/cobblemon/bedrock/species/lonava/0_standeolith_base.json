@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_standeolith",
       "texture": "cobblemon:textures/pokemon/lonava/standeolith.png",
       "layers": []
     },

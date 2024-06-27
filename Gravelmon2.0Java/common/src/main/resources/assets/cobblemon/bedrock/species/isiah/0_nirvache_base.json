@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_nirvache",
       "texture": "cobblemon:textures/pokemon/isiah/nirvache.png",
       "layers": []
     },

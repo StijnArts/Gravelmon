@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_piessano",
       "texture": "cobblemon:textures/pokemon/enriko/piessano.png",
       "layers": []
     },

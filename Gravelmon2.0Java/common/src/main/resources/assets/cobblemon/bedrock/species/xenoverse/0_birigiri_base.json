@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_birigiri",
       "texture": "cobblemon:textures/pokemon/xenoverse/birigiri.png",
       "layers": []
     },

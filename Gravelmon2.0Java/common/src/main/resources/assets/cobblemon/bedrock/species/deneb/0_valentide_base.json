@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_valentide",
       "texture": "cobblemon:textures/pokemon/deneb/valentide.png",
       "layers": []
     },

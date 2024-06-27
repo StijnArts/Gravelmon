@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_yanmage",
       "texture": "cobblemon:textures/pokemon/lockemon/yanmage.png",
       "layers": []
     },

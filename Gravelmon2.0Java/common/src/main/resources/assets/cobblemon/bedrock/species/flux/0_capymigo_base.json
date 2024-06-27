@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_capymigo",
       "texture": "cobblemon:textures/pokemon/flux/capymigo.png",
       "layers": []
     },

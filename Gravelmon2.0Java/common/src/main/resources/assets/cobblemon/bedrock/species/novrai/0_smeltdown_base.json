@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_smeltdown",
       "texture": "cobblemon:textures/pokemon/novrai/smeltdown.png",
       "layers": []
     },

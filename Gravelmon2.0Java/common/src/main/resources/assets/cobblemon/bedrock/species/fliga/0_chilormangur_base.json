@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_chilormangur",
       "texture": "cobblemon:textures/pokemon/fliga/chilormangur.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_gigadozer",
       "texture": "cobblemon:textures/pokemon/atlas/gigadozer.png",
       "layers": []
     },

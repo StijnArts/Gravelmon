@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_aromaphant",
       "texture": "cobblemon:textures/pokemon/avoris/aromaphant.png",
       "layers": []
     },

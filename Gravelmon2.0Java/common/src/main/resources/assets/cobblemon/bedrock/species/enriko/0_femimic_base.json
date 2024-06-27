@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_femimic",
       "texture": "cobblemon:textures/pokemon/enriko/femimic.png",
       "layers": []
     },

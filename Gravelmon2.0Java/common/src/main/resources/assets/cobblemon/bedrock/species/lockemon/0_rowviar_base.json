@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_rowviar",
       "texture": "cobblemon:textures/pokemon/lockemon/rowviar.png",
       "layers": []
     },

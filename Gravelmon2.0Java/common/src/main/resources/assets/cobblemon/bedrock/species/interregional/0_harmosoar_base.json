@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_harmosoar",
       "texture": "cobblemon:textures/pokemon/interregional/harmosoar.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_channichill",
       "texture": "cobblemon:textures/pokemon/ferroa/channichill.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_helmhide",
       "texture": "cobblemon:textures/pokemon/ferroa/helmhide.png",
       "layers": []
     },

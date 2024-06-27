@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_colosseel",
       "texture": "cobblemon:textures/pokemon/atlas/colosseel.png",
       "layers": []
     },

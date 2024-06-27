@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_gararewl",
       "texture": "cobblemon:textures/pokemon/uranium/gararewl.png",
       "layers": []
     },

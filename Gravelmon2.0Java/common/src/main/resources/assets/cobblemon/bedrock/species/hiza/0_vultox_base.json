@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_vultox",
       "texture": "cobblemon:textures/pokemon/hiza/vultox.png",
       "layers": []
     },

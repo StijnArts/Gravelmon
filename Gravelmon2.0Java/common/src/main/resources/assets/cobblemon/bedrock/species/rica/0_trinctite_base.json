@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_trinctite",
       "texture": "cobblemon:textures/pokemon/rica/trinctite.png",
       "layers": []
     },

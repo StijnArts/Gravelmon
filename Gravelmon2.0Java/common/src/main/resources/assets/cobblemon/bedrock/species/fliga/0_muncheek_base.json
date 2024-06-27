@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_muncheek",
       "texture": "cobblemon:textures/pokemon/fliga/muncheek.png",
       "layers": []
     },

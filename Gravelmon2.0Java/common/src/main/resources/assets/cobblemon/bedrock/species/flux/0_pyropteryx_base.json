@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_pyropteryx",
       "texture": "cobblemon:textures/pokemon/flux/pyropteryx.png",
       "layers": []
     },

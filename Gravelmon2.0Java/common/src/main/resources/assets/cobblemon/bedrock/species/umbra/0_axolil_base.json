@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_axolil",
       "texture": "cobblemon:textures/pokemon/umbra/axolil.png",
       "layers": []
     },

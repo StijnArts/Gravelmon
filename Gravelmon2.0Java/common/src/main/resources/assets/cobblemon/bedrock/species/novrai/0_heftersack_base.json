@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_heftersack",
       "texture": "cobblemon:textures/pokemon/novrai/heftersack.png",
       "layers": []
     },

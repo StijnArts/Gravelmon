@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_plasmox",
       "texture": "cobblemon:textures/pokemon/deneb/plasmox.png",
       "layers": []
     },

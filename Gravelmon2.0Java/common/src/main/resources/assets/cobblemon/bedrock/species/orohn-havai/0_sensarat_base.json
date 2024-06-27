@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_sensarat",
       "texture": "cobblemon:textures/pokemon/orohn-havai/sensarat.png",
       "layers": []
     },

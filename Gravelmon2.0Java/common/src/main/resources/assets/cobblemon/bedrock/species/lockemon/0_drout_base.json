@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_drout",
       "texture": "cobblemon:textures/pokemon/lockemon/drout.png",
       "layers": []
     },

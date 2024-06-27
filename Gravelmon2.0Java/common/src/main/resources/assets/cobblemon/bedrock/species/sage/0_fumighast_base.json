@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_fumighast",
       "texture": "cobblemon:textures/pokemon/sage/fumighast.png",
       "layers": []
     },

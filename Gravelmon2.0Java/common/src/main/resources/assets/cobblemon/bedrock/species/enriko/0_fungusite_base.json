@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_fungusite",
       "texture": "cobblemon:textures/pokemon/enriko/fungusite.png",
       "layers": []
     },

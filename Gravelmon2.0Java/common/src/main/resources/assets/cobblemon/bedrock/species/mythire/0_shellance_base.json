@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_shellance",
       "texture": "cobblemon:textures/pokemon/mythire/shellance.png",
       "layers": []
     },

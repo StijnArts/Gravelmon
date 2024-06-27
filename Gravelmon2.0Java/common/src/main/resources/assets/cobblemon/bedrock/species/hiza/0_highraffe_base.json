@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_highraffe",
       "texture": "cobblemon:textures/pokemon/hiza/highraffe.png",
       "layers": []
     },

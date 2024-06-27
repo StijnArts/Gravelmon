@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_kindlemur",
       "texture": "cobblemon:textures/pokemon/junnin/kindlemur.png",
       "layers": []
     },

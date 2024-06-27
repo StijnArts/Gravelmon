@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_snick",
       "texture": "cobblemon:textures/pokemon/myth/snick.png",
       "layers": []
     },

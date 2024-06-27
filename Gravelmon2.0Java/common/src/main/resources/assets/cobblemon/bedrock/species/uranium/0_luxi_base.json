@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_luxi",
       "texture": "cobblemon:textures/pokemon/uranium/luxi.png",
       "layers": []
     },

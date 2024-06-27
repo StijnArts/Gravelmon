@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_kaminary",
       "texture": "cobblemon:textures/pokemon/deneb/kaminary.png",
       "layers": []
     },

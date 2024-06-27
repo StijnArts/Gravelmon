@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_cemu",
       "texture": "cobblemon:textures/pokemon/enriko/cemu.png",
       "layers": []
     },

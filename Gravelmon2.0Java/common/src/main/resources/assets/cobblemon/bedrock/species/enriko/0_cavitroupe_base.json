@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_cavitroupe",
       "texture": "cobblemon:textures/pokemon/enriko/cavitroupe.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_peculine",
       "texture": "cobblemon:textures/pokemon/novrai/peculine.png",
       "layers": []
     },

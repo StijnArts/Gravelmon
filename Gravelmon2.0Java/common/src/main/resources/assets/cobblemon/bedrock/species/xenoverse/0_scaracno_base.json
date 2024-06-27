@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_scaracno",
       "texture": "cobblemon:textures/pokemon/xenoverse/scaracno.png",
       "layers": []
     },

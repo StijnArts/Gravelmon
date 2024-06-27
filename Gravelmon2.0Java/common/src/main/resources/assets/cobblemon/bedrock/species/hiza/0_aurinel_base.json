@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_aurinel",
       "texture": "cobblemon:textures/pokemon/hiza/aurinel.png",
       "layers": []
     },

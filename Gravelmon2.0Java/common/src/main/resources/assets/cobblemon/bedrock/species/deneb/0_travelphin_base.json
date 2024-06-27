@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_travelphin",
       "texture": "cobblemon:textures/pokemon/deneb/travelphin.png",
       "layers": []
     },

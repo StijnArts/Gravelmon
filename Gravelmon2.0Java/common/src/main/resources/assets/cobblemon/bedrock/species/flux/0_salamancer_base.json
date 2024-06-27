@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_salamancer",
       "texture": "cobblemon:textures/pokemon/flux/salamancer.png",
       "layers": []
     },

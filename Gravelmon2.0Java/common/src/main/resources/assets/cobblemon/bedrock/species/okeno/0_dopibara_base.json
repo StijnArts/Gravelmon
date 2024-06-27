@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_dopibara",
       "texture": "cobblemon:textures/pokemon/okeno/dopibara.png",
       "layers": []
     },

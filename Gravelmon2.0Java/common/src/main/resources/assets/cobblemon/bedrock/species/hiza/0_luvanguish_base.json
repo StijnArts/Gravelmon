@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_luvanguish",
       "texture": "cobblemon:textures/pokemon/hiza/luvanguish.png",
       "layers": []
     },

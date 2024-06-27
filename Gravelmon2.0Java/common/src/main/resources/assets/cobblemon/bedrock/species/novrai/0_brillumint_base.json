@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_brillumint",
       "texture": "cobblemon:textures/pokemon/novrai/brillumint.png",
       "layers": []
     },

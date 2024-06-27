@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_beetil",
       "texture": "cobblemon:textures/pokemon/isiah/beetil.png",
       "layers": []
     },

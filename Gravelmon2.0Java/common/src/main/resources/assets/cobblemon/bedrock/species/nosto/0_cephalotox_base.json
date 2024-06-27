@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_cephalotox",
       "texture": "cobblemon:textures/pokemon/nosto/cephalotox.png",
       "layers": []
     },

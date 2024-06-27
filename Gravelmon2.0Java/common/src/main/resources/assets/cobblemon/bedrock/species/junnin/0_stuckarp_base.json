@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_stuckarp",
       "texture": "cobblemon:textures/pokemon/junnin/stuckarp.png",
       "layers": []
     },

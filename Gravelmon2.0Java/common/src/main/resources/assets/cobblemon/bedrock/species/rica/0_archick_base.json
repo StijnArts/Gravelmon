@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_archick",
       "texture": "cobblemon:textures/pokemon/rica/archick.png",
       "layers": []
     },

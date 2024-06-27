@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_shibark",
       "texture": "cobblemon:textures/pokemon/isiah/shibark.png",
       "layers": []
     },

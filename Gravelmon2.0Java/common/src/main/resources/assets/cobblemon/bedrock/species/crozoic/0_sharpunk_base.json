@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_sharpunk",
       "texture": "cobblemon:textures/pokemon/crozoic/sharpunk.png",
       "layers": []
     },

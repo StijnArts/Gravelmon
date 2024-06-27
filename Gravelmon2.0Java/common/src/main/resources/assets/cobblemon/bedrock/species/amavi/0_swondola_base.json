@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_swondola",
       "texture": "cobblemon:textures/pokemon/amavi/swondola.png",
       "layers": []
     },

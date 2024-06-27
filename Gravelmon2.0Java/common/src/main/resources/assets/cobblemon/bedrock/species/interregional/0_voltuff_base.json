@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_voltuff",
       "texture": "cobblemon:textures/pokemon/interregional/voltuff.png",
       "layers": []
     },

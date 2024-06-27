@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_firipeck",
       "texture": "cobblemon:textures/pokemon/norheim/firipeck.png",
       "layers": []
     },

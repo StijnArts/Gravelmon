@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_parapy",
       "texture": "cobblemon:textures/pokemon/sage/parapy.png",
       "layers": []
     },

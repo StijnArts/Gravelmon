@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_eice",
       "texture": "cobblemon:textures/pokemon/isiah/eice.png",
       "layers": []
     },

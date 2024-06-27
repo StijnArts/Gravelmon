@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_chimical",
       "texture": "cobblemon:textures/pokemon/uranium/chimical.png",
       "layers": []
     },

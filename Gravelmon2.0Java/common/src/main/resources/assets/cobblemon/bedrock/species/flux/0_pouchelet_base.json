@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_pouchelet",
       "texture": "cobblemon:textures/pokemon/flux/pouchelet.png",
       "layers": []
     },

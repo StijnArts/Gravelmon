@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_atroceros",
       "texture": "cobblemon:textures/pokemon/kuria/atroceros.png",
       "layers": []
     },

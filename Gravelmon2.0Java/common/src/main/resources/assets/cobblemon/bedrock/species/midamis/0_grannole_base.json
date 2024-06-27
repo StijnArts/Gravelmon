@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_grannole",
       "texture": "cobblemon:textures/pokemon/midamis/grannole.png",
       "layers": []
     },

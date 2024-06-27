@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_bramboom",
       "texture": "cobblemon:textures/pokemon/cyare/bramboom.png",
       "layers": []
     },

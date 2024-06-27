@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_ovipter",
       "texture": "cobblemon:textures/pokemon/hub/ovipter.png",
       "layers": []
     },

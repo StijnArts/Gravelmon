@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_crimera",
       "texture": "cobblemon:textures/pokemon/isiah/crimera.png",
       "layers": []
     },

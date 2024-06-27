@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_chimpoca",
       "texture": "cobblemon:textures/pokemon/sage/chimpoca.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_shurisan",
       "texture": "cobblemon:textures/pokemon/interregional/shurisan.png",
       "layers": []
     },

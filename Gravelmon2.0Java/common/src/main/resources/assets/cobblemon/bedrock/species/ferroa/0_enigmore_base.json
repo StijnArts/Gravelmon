@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_enigmore",
       "texture": "cobblemon:textures/pokemon/ferroa/enigmore.png",
       "layers": []
     },

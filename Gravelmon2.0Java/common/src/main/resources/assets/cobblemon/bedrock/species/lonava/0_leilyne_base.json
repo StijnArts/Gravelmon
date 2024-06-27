@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_leilyne",
       "texture": "cobblemon:textures/pokemon/lonava/leilyne.png",
       "layers": []
     },

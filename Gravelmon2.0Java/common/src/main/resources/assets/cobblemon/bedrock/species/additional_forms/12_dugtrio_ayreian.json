@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dugtrio",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreiandugtrio",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiandugtrio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreiandugtrio",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiandugtrio_shiny.png",
+      "layers": []
+    }
+  ]
+}

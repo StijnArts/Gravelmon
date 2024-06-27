@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_impawzible",
       "texture": "cobblemon:textures/pokemon/novrai/impawzible.png",
       "layers": []
     },

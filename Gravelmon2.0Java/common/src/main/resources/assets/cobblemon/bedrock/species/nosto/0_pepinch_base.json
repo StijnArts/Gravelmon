@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_pepinch",
       "texture": "cobblemon:textures/pokemon/nosto/pepinch.png",
       "layers": []
     },

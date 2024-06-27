@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_chrone",
       "texture": "cobblemon:textures/pokemon/enriko/chrone.png",
       "layers": []
     },

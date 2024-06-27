@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_singlaze",
       "texture": "cobblemon:textures/pokemon/amavi/singlaze.png",
       "layers": []
     },

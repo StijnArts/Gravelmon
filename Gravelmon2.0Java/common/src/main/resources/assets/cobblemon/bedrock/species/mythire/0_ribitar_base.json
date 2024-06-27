@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_ribitar",
       "texture": "cobblemon:textures/pokemon/mythire/ribitar.png",
       "layers": []
     },

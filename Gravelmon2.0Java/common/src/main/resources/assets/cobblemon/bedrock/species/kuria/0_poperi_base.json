@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_poperi",
       "texture": "cobblemon:textures/pokemon/kuria/poperi.png",
       "layers": []
     },

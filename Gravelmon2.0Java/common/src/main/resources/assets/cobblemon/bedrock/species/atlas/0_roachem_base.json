@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_roachem",
       "texture": "cobblemon:textures/pokemon/atlas/roachem.png",
       "layers": []
     },

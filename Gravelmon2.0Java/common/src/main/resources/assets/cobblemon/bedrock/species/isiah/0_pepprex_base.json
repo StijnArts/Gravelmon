@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_pepprex",
       "texture": "cobblemon:textures/pokemon/isiah/pepprex.png",
       "layers": []
     },

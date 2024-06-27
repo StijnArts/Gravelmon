@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_bearver",
       "texture": "cobblemon:textures/pokemon/hiza/bearver.png",
       "layers": []
     },

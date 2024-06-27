@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_pythonova",
       "texture": "cobblemon:textures/pokemon/myth/pythonova.png",
       "layers": []
     },

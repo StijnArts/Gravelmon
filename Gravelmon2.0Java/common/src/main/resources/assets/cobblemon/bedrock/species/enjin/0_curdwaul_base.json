@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_curdwaul",
       "texture": "cobblemon:textures/pokemon/enjin/curdwaul.png",
       "layers": []
     },

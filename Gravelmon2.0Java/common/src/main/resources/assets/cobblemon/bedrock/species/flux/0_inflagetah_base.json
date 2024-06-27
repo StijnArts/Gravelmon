@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_inflagetah",
       "texture": "cobblemon:textures/pokemon/flux/inflagetah.png",
       "layers": []
     },

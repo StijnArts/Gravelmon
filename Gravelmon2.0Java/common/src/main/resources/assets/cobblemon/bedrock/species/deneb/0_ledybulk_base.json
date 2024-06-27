@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_ledybulk",
       "texture": "cobblemon:textures/pokemon/deneb/ledybulk.png",
       "layers": []
     },

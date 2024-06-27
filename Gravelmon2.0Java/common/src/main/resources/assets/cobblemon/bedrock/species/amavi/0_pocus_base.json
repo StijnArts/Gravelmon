@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_pocus",
       "texture": "cobblemon:textures/pokemon/amavi/pocus.png",
       "layers": []
     },

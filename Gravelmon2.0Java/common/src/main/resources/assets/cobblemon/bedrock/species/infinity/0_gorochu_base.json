@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_gorochu",
       "texture": "cobblemon:textures/pokemon/infinity/gorochu.png",
       "layers": []
     },

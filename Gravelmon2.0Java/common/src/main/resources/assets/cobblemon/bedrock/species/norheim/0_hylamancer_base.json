@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_hylamancer",
       "texture": "cobblemon:textures/pokemon/norheim/hylamancer.png",
       "layers": []
     },

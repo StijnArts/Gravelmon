@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_skideer",
       "texture": "cobblemon:textures/pokemon/lockemon/skideer.png",
       "layers": []
     },

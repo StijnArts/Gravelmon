@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_jollychaete",
       "texture": "cobblemon:textures/pokemon/novrai/jollychaete.png",
       "layers": []
     },

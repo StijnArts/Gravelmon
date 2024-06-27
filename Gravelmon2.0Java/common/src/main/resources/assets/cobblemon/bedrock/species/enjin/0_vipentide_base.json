@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_vipentide",
       "texture": "cobblemon:textures/pokemon/enjin/vipentide.png",
       "layers": []
     },

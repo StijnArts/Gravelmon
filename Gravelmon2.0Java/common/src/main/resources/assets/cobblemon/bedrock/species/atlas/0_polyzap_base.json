@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_polyzap",
       "texture": "cobblemon:textures/pokemon/atlas/polyzap.png",
       "layers": []
     },

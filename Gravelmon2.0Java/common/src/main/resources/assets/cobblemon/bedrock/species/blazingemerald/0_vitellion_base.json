@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_vitellion",
       "texture": "cobblemon:textures/pokemon/blazingemerald/vitellion.png",
       "layers": []
     },

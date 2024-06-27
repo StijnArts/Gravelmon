@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_charryon",
       "texture": "cobblemon:textures/pokemon/norheim/charryon.png",
       "layers": []
     },

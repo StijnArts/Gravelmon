@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_kangazad",
       "texture": "cobblemon:textures/pokemon/aristos/kangazad.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_crawglock",
       "texture": "cobblemon:textures/pokemon/sage/crawglock.png",
       "layers": []
     },

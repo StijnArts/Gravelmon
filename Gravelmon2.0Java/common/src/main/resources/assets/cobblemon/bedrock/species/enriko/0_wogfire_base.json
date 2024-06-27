@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_wogfire",
       "texture": "cobblemon:textures/pokemon/enriko/wogfire.png",
       "layers": []
     },

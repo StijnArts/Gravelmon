@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_radroot",
       "texture": "cobblemon:textures/pokemon/mythire/radroot.png",
       "layers": []
     },

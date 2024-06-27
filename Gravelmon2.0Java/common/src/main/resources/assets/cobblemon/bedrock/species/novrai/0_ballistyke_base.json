@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_ballistyke",
       "texture": "cobblemon:textures/pokemon/novrai/ballistyke.png",
       "layers": []
     },

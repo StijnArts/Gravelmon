@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_foaloch",
       "texture": "cobblemon:textures/pokemon/mythire/foaloch.png",
       "layers": []
     },

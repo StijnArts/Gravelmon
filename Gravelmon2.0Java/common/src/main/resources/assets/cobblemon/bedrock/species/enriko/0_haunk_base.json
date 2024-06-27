@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_haunk",
       "texture": "cobblemon:textures/pokemon/enriko/haunk.png",
       "layers": []
     },

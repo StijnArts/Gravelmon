@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_tanuking",
       "texture": "cobblemon:textures/pokemon/deneb/tanuking.png",
       "layers": []
     },

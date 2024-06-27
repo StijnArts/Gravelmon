@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_golgre",
       "texture": "cobblemon:textures/pokemon/lockemon/golgre.png",
       "layers": []
     },

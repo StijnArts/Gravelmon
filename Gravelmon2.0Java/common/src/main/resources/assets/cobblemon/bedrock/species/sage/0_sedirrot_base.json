@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_sedirrot",
       "texture": "cobblemon:textures/pokemon/sage/sedirrot.png",
       "layers": []
     },

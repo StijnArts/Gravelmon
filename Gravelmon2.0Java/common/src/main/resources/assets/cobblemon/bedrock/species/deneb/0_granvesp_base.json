@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_granvesp",
       "texture": "cobblemon:textures/pokemon/deneb/granvesp.png",
       "layers": []
     },

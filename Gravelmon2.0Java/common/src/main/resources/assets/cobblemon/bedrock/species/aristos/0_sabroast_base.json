@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_sabroast",
       "texture": "cobblemon:textures/pokemon/aristos/sabroast.png",
       "layers": []
     },

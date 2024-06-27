@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_pyrameow",
       "texture": "cobblemon:textures/pokemon/amavi/pyrameow.png",
       "layers": []
     },

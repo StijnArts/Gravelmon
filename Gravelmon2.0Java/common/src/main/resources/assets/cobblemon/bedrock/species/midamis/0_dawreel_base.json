@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_dawreel",
       "texture": "cobblemon:textures/pokemon/midamis/dawreel.png",
       "layers": []
     },

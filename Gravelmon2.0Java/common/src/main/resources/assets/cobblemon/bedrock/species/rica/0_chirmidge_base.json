@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_chirmidge",
       "texture": "cobblemon:textures/pokemon/rica/chirmidge.png",
       "layers": []
     },

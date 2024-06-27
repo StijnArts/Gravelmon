@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_laxish",
       "texture": "cobblemon:textures/pokemon/norheim/laxish.png",
       "layers": []
     },

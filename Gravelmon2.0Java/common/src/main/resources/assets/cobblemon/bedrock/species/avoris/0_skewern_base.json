@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_skewern",
       "texture": "cobblemon:textures/pokemon/avoris/skewern.png",
       "layers": []
     },

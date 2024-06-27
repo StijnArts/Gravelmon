@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_picocacto",
       "texture": "cobblemon:textures/pokemon/avoris/picocacto.png",
       "layers": []
     },

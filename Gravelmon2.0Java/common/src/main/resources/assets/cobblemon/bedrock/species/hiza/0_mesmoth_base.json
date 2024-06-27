@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_mesmoth",
       "texture": "cobblemon:textures/pokemon/hiza/mesmoth.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_nudibolt",
       "texture": "cobblemon:textures/pokemon/enjin/nudibolt.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_gizzardon",
       "texture": "cobblemon:textures/pokemon/enriko/gizzardon.png",
       "layers": []
     },

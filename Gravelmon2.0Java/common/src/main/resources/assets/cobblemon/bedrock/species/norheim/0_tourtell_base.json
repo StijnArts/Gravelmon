@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_tourtell",
       "texture": "cobblemon:textures/pokemon/norheim/tourtell.png",
       "layers": []
     },

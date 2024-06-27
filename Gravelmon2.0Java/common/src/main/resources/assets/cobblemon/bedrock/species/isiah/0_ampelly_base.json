@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_ampelly",
       "texture": "cobblemon:textures/pokemon/isiah/ampelly.png",
       "layers": []
     },

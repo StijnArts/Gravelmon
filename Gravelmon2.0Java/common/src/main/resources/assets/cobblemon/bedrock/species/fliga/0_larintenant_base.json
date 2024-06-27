@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_larintenant",
       "texture": "cobblemon:textures/pokemon/fliga/larintenant.png",
       "layers": []
     },

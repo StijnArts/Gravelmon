@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_minusplus",
       "texture": "cobblemon:textures/pokemon/oceane/minusplus.png",
       "layers": []
     },

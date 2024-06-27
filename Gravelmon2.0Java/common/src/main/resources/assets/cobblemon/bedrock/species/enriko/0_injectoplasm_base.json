@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_injectoplasm",
       "texture": "cobblemon:textures/pokemon/enriko/injectoplasm.png",
       "layers": []
     },

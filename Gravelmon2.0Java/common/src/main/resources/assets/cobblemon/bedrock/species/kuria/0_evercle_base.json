@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_evercle",
       "texture": "cobblemon:textures/pokemon/kuria/evercle.png",
       "layers": []
     },

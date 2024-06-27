@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_sconsimese",
       "texture": "cobblemon:textures/pokemon/fliga/sconsimese.png",
       "layers": []
     },

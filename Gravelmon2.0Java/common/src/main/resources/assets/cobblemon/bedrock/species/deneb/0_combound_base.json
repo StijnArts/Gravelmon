@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_combound",
       "texture": "cobblemon:textures/pokemon/deneb/combound.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_hallowither",
       "texture": "cobblemon:textures/pokemon/goetia/hallowither.png",
       "layers": []
     },

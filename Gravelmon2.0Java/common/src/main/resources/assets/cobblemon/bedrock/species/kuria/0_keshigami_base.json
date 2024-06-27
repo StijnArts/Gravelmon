@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_keshigami",
       "texture": "cobblemon:textures/pokemon/kuria/keshigami.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_anaconduct",
       "texture": "cobblemon:textures/pokemon/rica/anaconduct.png",
       "layers": []
     },

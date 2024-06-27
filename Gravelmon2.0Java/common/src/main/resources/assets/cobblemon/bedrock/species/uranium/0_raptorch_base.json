@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_raptorch",
       "texture": "cobblemon:textures/pokemon/uranium/raptorch.png",
       "layers": []
     },

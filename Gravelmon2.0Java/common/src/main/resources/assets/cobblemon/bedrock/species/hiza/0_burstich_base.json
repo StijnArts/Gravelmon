@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_burstich",
       "texture": "cobblemon:textures/pokemon/hiza/burstich.png",
       "layers": []
     },

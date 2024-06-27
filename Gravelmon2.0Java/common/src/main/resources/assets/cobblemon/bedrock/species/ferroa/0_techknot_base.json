@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_techknot",
       "texture": "cobblemon:textures/pokemon/ferroa/techknot.png",
       "layers": []
     },

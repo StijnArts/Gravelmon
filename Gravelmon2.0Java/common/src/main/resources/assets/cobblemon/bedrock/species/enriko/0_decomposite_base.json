@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_decomposite",
       "texture": "cobblemon:textures/pokemon/enriko/decomposite.png",
       "layers": []
     },

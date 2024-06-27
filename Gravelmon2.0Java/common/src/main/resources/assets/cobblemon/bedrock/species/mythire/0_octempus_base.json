@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_octempus",
       "texture": "cobblemon:textures/pokemon/mythire/octempus.png",
       "layers": []
     },

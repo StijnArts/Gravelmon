@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_pelasquall",
       "texture": "cobblemon:textures/pokemon/norheim/pelasquall.png",
       "layers": []
     },

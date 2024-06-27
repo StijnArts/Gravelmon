@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_eruwana",
       "texture": "cobblemon:textures/pokemon/hiza/eruwana.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_enamirth",
       "texture": "cobblemon:textures/pokemon/amavi/enamirth.png",
       "layers": []
     },

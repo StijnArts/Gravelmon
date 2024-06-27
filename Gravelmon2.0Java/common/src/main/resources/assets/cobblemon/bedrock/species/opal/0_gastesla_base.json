@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_gastesla",
       "texture": "cobblemon:textures/pokemon/opal/gastesla.png",
       "layers": []
     },

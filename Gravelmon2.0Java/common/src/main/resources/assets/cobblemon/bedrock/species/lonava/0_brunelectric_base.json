@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_brunelectric",
       "texture": "cobblemon:textures/pokemon/lonava/brunelectric.png",
       "layers": []
     },

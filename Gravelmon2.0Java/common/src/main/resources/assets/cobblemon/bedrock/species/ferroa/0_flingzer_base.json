@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_flingzer",
       "texture": "cobblemon:textures/pokemon/ferroa/flingzer.png",
       "layers": []
     },

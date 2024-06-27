@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_felinshii",
       "texture": "cobblemon:textures/pokemon/kuria/felinshii.png",
       "layers": []
     },

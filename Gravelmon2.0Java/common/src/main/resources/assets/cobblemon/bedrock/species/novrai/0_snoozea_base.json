@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_snoozea",
       "texture": "cobblemon:textures/pokemon/novrai/snoozea.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_snole",
       "texture": "cobblemon:textures/pokemon/ferroa/snole.png",
       "layers": []
     },

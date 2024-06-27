@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_strelair",
       "texture": "cobblemon:textures/pokemon/enriko/strelair.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_capyba",
       "texture": "cobblemon:textures/pokemon/deneb/capyba.png",
       "layers": []
     },

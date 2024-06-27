@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_plakidd",
       "texture": "cobblemon:textures/pokemon/kuria/plakidd.png",
       "layers": []
     },

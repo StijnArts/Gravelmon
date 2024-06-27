@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_nedareap",
       "texture": "cobblemon:textures/pokemon/novrai/nedareap.png",
       "layers": []
     },

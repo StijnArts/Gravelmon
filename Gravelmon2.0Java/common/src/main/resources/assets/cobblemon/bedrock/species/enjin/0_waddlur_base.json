@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_waddlur",
       "texture": "cobblemon:textures/pokemon/enjin/waddlur.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_vempress",
       "texture": "cobblemon:textures/pokemon/hiza/vempress.png",
       "layers": []
     },

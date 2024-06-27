@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_julimese",
       "texture": "cobblemon:textures/pokemon/fliga/julimese.png",
       "layers": []
     },

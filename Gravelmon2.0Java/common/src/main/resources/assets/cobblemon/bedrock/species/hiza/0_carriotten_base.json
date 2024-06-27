@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_carriotten",
       "texture": "cobblemon:textures/pokemon/hiza/carriotten.png",
       "layers": []
     },

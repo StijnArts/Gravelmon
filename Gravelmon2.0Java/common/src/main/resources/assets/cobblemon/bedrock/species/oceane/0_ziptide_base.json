@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_ziptide",
       "texture": "cobblemon:textures/pokemon/oceane/ziptide.png",
       "layers": []
     },

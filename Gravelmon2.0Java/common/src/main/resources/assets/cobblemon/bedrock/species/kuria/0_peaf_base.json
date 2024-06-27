@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_peaf",
       "texture": "cobblemon:textures/pokemon/kuria/peaf.png",
       "layers": []
     },

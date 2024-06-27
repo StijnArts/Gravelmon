@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_cascarapace",
       "texture": "cobblemon:textures/pokemon/novrai/cascarapace.png",
       "layers": []
     },

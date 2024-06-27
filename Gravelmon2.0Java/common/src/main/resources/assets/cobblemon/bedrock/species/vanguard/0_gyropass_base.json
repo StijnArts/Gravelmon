@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_gyropass",
       "texture": "cobblemon:textures/pokemon/vanguard/gyropass.png",
       "layers": []
     },

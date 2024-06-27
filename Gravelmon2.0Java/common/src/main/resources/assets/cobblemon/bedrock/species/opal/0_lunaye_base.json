@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_lunaye",
       "texture": "cobblemon:textures/pokemon/opal/lunaye.png",
       "layers": []
     },

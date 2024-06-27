@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_ignishell",
       "texture": "cobblemon:textures/pokemon/sage/ignishell.png",
       "layers": []
     },

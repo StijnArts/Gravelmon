@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_manchinade",
       "texture": "cobblemon:textures/pokemon/ferroa/manchinade.png",
       "layers": []
     },

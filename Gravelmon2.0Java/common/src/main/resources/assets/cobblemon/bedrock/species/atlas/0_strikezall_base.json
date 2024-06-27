@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_strikezall",
       "texture": "cobblemon:textures/pokemon/atlas/strikezall.png",
       "layers": []
     },

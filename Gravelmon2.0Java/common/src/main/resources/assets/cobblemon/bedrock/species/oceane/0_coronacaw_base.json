@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_coronacaw",
       "texture": "cobblemon:textures/pokemon/oceane/coronacaw.png",
       "layers": []
     },

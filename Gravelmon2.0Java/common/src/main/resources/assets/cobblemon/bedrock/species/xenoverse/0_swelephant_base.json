@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_swelephant",
       "texture": "cobblemon:textures/pokemon/xenoverse/swelephant.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_flager",
       "texture": "cobblemon:textures/pokemon/flux/flager.png",
       "layers": []
     },

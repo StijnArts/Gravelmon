@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_berratel",
       "texture": "cobblemon:textures/pokemon/sage/berratel.png",
       "layers": []
     },

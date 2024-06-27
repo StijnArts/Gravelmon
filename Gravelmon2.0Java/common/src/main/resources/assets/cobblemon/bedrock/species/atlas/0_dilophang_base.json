@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_dilophang",
       "texture": "cobblemon:textures/pokemon/atlas/dilophang.png",
       "layers": []
     },

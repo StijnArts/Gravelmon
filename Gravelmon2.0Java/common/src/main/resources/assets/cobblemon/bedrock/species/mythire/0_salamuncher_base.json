@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_salamuncher",
       "texture": "cobblemon:textures/pokemon/mythire/salamuncher.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_rocano",
       "texture": "cobblemon:textures/pokemon/sage/rocano.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_leafrog",
       "texture": "cobblemon:textures/pokemon/interregional/leafrog.png",
       "layers": []
     },

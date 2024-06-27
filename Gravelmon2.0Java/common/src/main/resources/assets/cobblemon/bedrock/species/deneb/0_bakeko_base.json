@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_bakeko",
       "texture": "cobblemon:textures/pokemon/deneb/bakeko.png",
       "layers": []
     },

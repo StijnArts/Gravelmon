@@ -47,6 +47,7 @@ public class SpeciesAssetsJSONWriter {
             regularVariation.add("aspects", regularAspects);
             shinyVariation.add("aspects", shinyAspects);
             regularVariation.add("model", new JsonPrimitive("cobblemon:cutout_gravelmon.geo"));
+            regularVariation.add("poser", new JsonPrimitive("cobblemon:"+game.getName().toLowerCase()+"_"+pokemon.getCleanName().toLowerCase()));
             regularVariation.add("texture", new JsonPrimitive("cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + pokemon.getCleanName() + ".png"));
             shinyVariation.add("texture", new JsonPrimitive("cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + pokemon.getCleanName() + "_shiny.png"));
             regularVariation.add("layers", new JsonArray(0));

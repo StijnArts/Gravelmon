@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_timidon",
       "texture": "cobblemon:textures/pokemon/mythire/timidon.png",
       "layers": []
     },

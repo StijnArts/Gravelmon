@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_yuffin",
       "texture": "cobblemon:textures/pokemon/hiza/yuffin.png",
       "layers": []
     },

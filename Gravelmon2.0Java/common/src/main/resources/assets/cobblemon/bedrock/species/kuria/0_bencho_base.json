@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_bencho",
       "texture": "cobblemon:textures/pokemon/kuria/bencho.png",
       "layers": []
     },

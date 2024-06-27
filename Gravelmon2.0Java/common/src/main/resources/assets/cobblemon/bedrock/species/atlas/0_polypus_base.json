@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_polypus",
       "texture": "cobblemon:textures/pokemon/atlas/polypus.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_fortuller",
       "texture": "cobblemon:textures/pokemon/hiza/fortuller.png",
       "layers": []
     },

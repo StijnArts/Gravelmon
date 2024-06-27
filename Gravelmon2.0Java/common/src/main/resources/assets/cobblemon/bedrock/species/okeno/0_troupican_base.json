@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_troupican",
       "texture": "cobblemon:textures/pokemon/okeno/troupican.png",
       "layers": []
     },

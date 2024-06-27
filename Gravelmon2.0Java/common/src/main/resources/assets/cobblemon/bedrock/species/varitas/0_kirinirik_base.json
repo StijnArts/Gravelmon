@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_kirinirik",
       "texture": "cobblemon:textures/pokemon/varitas/kirinirik.png",
       "layers": []
     },

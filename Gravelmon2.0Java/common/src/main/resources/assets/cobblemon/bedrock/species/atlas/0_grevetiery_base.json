@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_grevetiery",
       "texture": "cobblemon:textures/pokemon/atlas/grevetiery.png",
       "layers": []
     },

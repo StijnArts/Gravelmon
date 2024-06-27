@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_rabullet",
       "texture": "cobblemon:textures/pokemon/midamis/rabullet.png",
       "layers": []
     },

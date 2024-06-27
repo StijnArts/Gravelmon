@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_slanbolos",
       "texture": "cobblemon:textures/pokemon/interregional/slanbolos.png",
       "layers": []
     },

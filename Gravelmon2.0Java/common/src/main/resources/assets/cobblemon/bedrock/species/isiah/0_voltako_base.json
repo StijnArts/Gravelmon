@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_voltako",
       "texture": "cobblemon:textures/pokemon/isiah/voltako.png",
       "layers": []
     },

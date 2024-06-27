@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_orbtholod",
       "texture": "cobblemon:textures/pokemon/lockemon/orbtholod.png",
       "layers": []
     },

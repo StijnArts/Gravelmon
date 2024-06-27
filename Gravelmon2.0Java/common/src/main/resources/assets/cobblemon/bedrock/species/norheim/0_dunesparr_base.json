@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_dunesparr",
       "texture": "cobblemon:textures/pokemon/norheim/dunesparr.png",
       "layers": []
     },

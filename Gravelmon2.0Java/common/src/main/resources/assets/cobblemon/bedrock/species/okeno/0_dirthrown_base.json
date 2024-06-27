@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_dirthrown",
       "texture": "cobblemon:textures/pokemon/okeno/dirthrown.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_loameo",
       "texture": "cobblemon:textures/pokemon/enriko/loameo.png",
       "layers": []
     },

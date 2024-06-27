@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_merlicun",
       "texture": "cobblemon:textures/pokemon/vanguard/merlicun.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_germinell",
       "texture": "cobblemon:textures/pokemon/isiah/germinell.png",
       "layers": []
     },

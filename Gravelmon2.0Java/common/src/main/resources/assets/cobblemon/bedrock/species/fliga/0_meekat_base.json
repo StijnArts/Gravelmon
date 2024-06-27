@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_meekat",
       "texture": "cobblemon:textures/pokemon/fliga/meekat.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_solardon",
       "texture": "cobblemon:textures/pokemon/ferroa/solardon.png",
       "layers": []
     },

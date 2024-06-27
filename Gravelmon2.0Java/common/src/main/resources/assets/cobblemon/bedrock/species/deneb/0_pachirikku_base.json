@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_pachirikku",
       "texture": "cobblemon:textures/pokemon/deneb/pachirikku.png",
       "layers": []
     },

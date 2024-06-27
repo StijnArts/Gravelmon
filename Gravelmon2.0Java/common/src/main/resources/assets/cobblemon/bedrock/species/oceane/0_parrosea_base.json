@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_parrosea",
       "texture": "cobblemon:textures/pokemon/oceane/parrosea.png",
       "layers": []
     },

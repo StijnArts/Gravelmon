@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_sleepnir",
       "texture": "cobblemon:textures/pokemon/norheim/sleepnir.png",
       "layers": []
     },

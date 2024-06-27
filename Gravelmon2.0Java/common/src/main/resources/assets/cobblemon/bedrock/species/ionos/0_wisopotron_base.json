@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_wisopotron",
       "texture": "cobblemon:textures/pokemon/ionos/wisopotron.png",
       "layers": []
     },

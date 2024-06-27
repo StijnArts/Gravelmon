@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_thundret",
       "texture": "cobblemon:textures/pokemon/atlas/thundret.png",
       "layers": []
     },

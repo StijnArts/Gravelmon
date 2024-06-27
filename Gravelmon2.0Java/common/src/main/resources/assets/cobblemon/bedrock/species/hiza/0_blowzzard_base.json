@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_blowzzard",
       "texture": "cobblemon:textures/pokemon/hiza/blowzzard.png",
       "layers": []
     },

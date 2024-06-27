@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_sparroing",
       "texture": "cobblemon:textures/pokemon/mythire/sparroing.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_andracarina",
       "texture": "cobblemon:textures/pokemon/fliga/andracarina.png",
       "layers": []
     },

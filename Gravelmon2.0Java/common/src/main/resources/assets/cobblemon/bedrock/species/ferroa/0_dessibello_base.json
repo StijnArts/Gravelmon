@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_dessibello",
       "texture": "cobblemon:textures/pokemon/ferroa/dessibello.png",
       "layers": []
     },

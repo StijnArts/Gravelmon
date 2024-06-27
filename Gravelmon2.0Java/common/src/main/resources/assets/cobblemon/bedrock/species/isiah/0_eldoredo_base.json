@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_eldoredo",
       "texture": "cobblemon:textures/pokemon/isiah/eldoredo.png",
       "layers": []
     },

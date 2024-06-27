@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_fountusk",
       "texture": "cobblemon:textures/pokemon/ferroa/fountusk.png",
       "layers": []
     },

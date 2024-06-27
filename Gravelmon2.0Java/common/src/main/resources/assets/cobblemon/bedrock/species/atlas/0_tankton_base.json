@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_tankton",
       "texture": "cobblemon:textures/pokemon/atlas/tankton.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_valentox",
       "texture": "cobblemon:textures/pokemon/mythire/valentox.png",
       "layers": []
     },

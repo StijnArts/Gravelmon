@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_dialith",
       "texture": "cobblemon:textures/pokemon/atlas/dialith.png",
       "layers": []
     },

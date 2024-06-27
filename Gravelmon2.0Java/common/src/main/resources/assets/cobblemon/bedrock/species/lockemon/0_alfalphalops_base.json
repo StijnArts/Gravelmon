@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_alfalphalops",
       "texture": "cobblemon:textures/pokemon/lockemon/alfalphalops.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_conductile",
       "texture": "cobblemon:textures/pokemon/enriko/conductile.png",
       "layers": []
     },

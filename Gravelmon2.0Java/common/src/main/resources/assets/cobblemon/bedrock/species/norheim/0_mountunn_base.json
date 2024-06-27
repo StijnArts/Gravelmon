@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_mountunn",
       "texture": "cobblemon:textures/pokemon/norheim/mountunn.png",
       "layers": []
     },

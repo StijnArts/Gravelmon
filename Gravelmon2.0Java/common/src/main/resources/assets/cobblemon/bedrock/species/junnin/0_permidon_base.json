@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_permidon",
       "texture": "cobblemon:textures/pokemon/junnin/permidon.png",
       "layers": []
     },

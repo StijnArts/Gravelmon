@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_rumpet",
       "texture": "cobblemon:textures/pokemon/deneb/rumpet.png",
       "layers": []
     },

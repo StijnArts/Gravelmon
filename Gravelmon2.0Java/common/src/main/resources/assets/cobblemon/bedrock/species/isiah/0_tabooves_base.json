@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_tabooves",
       "texture": "cobblemon:textures/pokemon/isiah/tabooves.png",
       "layers": []
     },

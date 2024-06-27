@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_pembrook",
       "texture": "cobblemon:textures/pokemon/novrai/pembrook.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_shellop",
       "texture": "cobblemon:textures/pokemon/amavi/shellop.png",
       "layers": []
     },

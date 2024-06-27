@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_antini",
       "texture": "cobblemon:textures/pokemon/junnin/antini.png",
       "layers": []
     },

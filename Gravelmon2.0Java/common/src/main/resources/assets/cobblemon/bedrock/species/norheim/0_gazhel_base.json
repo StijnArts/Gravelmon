@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_gazhel",
       "texture": "cobblemon:textures/pokemon/norheim/gazhel.png",
       "layers": []
     },

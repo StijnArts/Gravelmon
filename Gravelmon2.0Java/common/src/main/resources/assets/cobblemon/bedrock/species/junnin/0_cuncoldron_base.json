@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_cuncoldron",
       "texture": "cobblemon:textures/pokemon/junnin/cuncoldron.png",
       "layers": []
     },

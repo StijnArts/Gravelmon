@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_percusshell",
       "texture": "cobblemon:textures/pokemon/novrai/percusshell.png",
       "layers": []
     },

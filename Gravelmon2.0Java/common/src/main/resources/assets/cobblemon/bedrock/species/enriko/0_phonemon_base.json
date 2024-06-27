@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_phonemon",
       "texture": "cobblemon:textures/pokemon/enriko/phonemon.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_orbitalon",
       "texture": "cobblemon:textures/pokemon/hiza/orbitalon.png",
       "layers": []
     },

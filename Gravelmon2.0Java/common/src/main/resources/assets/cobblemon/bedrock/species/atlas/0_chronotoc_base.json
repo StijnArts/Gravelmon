@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_chronotoc",
       "texture": "cobblemon:textures/pokemon/atlas/chronotoc.png",
       "layers": []
     },

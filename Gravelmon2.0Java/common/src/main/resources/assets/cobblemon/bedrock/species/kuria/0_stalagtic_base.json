@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_stalagtic",
       "texture": "cobblemon:textures/pokemon/kuria/stalagtic.png",
       "layers": []
     },

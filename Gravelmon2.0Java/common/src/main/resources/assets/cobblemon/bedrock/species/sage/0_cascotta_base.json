@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_cascotta",
       "texture": "cobblemon:textures/pokemon/sage/cascotta.png",
       "layers": []
     },

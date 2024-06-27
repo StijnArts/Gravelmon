@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_marbelous",
       "texture": "cobblemon:textures/pokemon/ionos/marbelous.png",
       "layers": []
     },

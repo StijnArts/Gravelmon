@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_strappen",
       "texture": "cobblemon:textures/pokemon/mythire/strappen.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_excanth",
       "texture": "cobblemon:textures/pokemon/isiah/excanth.png",
       "layers": []
     },

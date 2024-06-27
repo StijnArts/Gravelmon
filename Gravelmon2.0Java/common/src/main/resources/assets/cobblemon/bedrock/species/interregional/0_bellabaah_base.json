@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_bellabaah",
       "texture": "cobblemon:textures/pokemon/interregional/bellabaah.png",
       "layers": []
     },

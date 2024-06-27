@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_kotsumo",
       "texture": "cobblemon:textures/pokemon/kuria/kotsumo.png",
       "layers": []
     },

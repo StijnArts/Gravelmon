@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_remainstone",
       "texture": "cobblemon:textures/pokemon/ferroa/remainstone.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_puriphin",
       "texture": "cobblemon:textures/pokemon/novrai/puriphin.png",
       "layers": []
     },

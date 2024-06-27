@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_kamurados",
       "texture": "cobblemon:textures/pokemon/aristos/kamurados.png",
       "layers": []
     },

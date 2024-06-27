@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_energeel",
       "texture": "cobblemon:textures/pokemon/rica/energeel.png",
       "layers": []
     },

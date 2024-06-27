@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_scuddle",
       "texture": "cobblemon:textures/pokemon/novrai/scuddle.png",
       "layers": []
     },

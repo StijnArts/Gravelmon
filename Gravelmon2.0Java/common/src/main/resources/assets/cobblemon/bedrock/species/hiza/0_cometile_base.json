@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_cometile",
       "texture": "cobblemon:textures/pokemon/hiza/cometile.png",
       "layers": []
     },

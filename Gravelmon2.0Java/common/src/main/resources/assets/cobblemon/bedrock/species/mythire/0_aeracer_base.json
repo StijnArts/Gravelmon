@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_aeracer",
       "texture": "cobblemon:textures/pokemon/mythire/aeracer.png",
       "layers": []
     },

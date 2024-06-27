@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_puppug",
       "texture": "cobblemon:textures/pokemon/okeno/puppug.png",
       "layers": []
     },

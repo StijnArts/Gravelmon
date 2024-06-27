@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_miniradae",
       "texture": "cobblemon:textures/pokemon/interregional/miniradae.png",
       "layers": []
     },

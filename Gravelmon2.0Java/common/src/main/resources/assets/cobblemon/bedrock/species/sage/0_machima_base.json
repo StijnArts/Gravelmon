@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_machima",
       "texture": "cobblemon:textures/pokemon/sage/machima.png",
       "layers": []
     },

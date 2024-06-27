@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_riverous",
       "texture": "cobblemon:textures/pokemon/varitas/riverous.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_surchin",
       "texture": "cobblemon:textures/pokemon/dhiome/surchin.png",
       "layers": []
     },

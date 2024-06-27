@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_stilbird",
       "texture": "cobblemon:textures/pokemon/amavi/stilbird.png",
       "layers": []
     },

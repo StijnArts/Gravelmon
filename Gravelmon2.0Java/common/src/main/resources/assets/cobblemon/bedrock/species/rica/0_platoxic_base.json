@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_platoxic",
       "texture": "cobblemon:textures/pokemon/rica/platoxic.png",
       "layers": []
     },

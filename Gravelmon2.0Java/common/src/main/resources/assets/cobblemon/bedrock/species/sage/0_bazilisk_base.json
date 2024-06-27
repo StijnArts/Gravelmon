@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_bazilisk",
       "texture": "cobblemon:textures/pokemon/sage/bazilisk.png",
       "layers": []
     },

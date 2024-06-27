@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_teslax",
       "texture": "cobblemon:textures/pokemon/nosto/teslax.png",
       "layers": []
     },

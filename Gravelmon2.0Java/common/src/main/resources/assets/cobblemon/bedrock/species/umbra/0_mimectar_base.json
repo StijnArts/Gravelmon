@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_mimectar",
       "texture": "cobblemon:textures/pokemon/umbra/mimectar.png",
       "layers": []
     },

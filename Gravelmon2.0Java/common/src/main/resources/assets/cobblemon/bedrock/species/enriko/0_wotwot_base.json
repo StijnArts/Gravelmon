@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_wotwot",
       "texture": "cobblemon:textures/pokemon/enriko/wotwot.png",
       "layers": []
     },

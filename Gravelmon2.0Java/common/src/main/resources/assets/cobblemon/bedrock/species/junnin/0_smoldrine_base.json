@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_smoldrine",
       "texture": "cobblemon:textures/pokemon/junnin/smoldrine.png",
       "layers": []
     },

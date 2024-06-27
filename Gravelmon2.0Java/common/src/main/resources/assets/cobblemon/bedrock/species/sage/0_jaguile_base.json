@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_jaguile",
       "texture": "cobblemon:textures/pokemon/sage/jaguile.png",
       "layers": []
     },

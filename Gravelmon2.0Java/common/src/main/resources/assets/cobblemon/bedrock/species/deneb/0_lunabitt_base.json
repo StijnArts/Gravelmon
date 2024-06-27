@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_lunabitt",
       "texture": "cobblemon:textures/pokemon/deneb/lunabitt.png",
       "layers": []
     },

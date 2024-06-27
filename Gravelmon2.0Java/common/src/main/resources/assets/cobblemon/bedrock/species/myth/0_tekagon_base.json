@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_tekagon",
       "texture": "cobblemon:textures/pokemon/myth/tekagon.png",
       "layers": []
     },

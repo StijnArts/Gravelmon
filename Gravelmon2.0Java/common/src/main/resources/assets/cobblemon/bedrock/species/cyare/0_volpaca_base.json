@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_volpaca",
       "texture": "cobblemon:textures/pokemon/cyare/volpaca.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_forflush",
       "texture": "cobblemon:textures/pokemon/qamor/forflush.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_noxical",
       "texture": "cobblemon:textures/pokemon/oceane/noxical.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_kidfoot",
       "texture": "cobblemon:textures/pokemon/infinity/kidfoot.png",
       "layers": []
     },

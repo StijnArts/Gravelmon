@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_gobblin",
       "texture": "cobblemon:textures/pokemon/hub/gobblin.png",
       "layers": []
     },

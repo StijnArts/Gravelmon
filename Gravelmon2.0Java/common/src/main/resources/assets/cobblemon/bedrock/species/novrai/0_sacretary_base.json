@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_sacretary",
       "texture": "cobblemon:textures/pokemon/novrai/sacretary.png",
       "layers": []
     },

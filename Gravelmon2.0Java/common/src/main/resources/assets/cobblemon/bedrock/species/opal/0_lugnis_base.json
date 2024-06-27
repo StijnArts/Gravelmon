@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_lugnis",
       "texture": "cobblemon:textures/pokemon/opal/lugnis.png",
       "layers": []
     },

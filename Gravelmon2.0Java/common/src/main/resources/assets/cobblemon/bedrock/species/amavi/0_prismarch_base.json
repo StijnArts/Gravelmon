@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_prismarch",
       "texture": "cobblemon:textures/pokemon/amavi/prismarch.png",
       "layers": []
     },

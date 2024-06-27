@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_baybolt",
       "texture": "cobblemon:textures/pokemon/junnin/baybolt.png",
       "layers": []
     },

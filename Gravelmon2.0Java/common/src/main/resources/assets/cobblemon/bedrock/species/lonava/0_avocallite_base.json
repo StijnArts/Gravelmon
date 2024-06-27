@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_avocallite",
       "texture": "cobblemon:textures/pokemon/lonava/avocallite.png",
       "layers": []
     },

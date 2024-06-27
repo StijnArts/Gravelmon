@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_rotarat",
       "texture": "cobblemon:textures/pokemon/amavi/rotarat.png",
       "layers": []
     },

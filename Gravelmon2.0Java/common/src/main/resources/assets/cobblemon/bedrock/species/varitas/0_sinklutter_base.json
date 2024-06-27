@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_sinklutter",
       "texture": "cobblemon:textures/pokemon/varitas/sinklutter.png",
       "layers": []
     },

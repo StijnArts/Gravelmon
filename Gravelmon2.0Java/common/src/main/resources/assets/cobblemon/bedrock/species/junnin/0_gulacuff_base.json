@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_gulacuff",
       "texture": "cobblemon:textures/pokemon/junnin/gulacuff.png",
       "layers": []
     },

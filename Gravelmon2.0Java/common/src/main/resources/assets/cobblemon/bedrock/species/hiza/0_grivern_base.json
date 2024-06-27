@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_grivern",
       "texture": "cobblemon:textures/pokemon/hiza/grivern.png",
       "layers": []
     },

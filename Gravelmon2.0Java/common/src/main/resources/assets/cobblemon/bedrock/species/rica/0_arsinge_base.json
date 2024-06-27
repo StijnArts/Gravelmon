@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_arsinge",
       "texture": "cobblemon:textures/pokemon/rica/arsinge.png",
       "layers": []
     },

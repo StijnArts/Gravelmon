@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_petrifern",
       "texture": "cobblemon:textures/pokemon/dhiome/petrifern.png",
       "layers": []
     },

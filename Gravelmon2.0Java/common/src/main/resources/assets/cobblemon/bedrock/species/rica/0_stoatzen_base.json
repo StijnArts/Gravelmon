@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_stoatzen",
       "texture": "cobblemon:textures/pokemon/rica/stoatzen.png",
       "layers": []
     },

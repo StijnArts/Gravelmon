@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_snovice",
       "texture": "cobblemon:textures/pokemon/norheim/snovice.png",
       "layers": []
     },

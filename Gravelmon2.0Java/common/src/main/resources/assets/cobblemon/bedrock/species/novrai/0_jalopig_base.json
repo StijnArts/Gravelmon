@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_jalopig",
       "texture": "cobblemon:textures/pokemon/novrai/jalopig.png",
       "layers": []
     },

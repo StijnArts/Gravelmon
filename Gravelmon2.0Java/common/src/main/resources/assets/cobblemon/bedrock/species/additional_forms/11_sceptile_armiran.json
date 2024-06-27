@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:sceptile",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "armiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_armiransceptile",
+      "texture": "cobblemon:textures/pokemon/generation3/armiransceptile.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "armiran",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_armiransceptile",
+      "texture": "cobblemon:textures/pokemon/generation3/armiransceptile_shiny.png",
+      "layers": []
+    }
+  ]
+}

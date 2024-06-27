@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_carvesta",
       "texture": "cobblemon:textures/pokemon/varitas/carvesta.png",
       "layers": []
     },

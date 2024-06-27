@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_junkid",
       "texture": "cobblemon:textures/pokemon/isiah/junkid.png",
       "layers": []
     },

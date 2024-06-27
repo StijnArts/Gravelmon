@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_snowitall",
       "texture": "cobblemon:textures/pokemon/novrai/snowitall.png",
       "layers": []
     },

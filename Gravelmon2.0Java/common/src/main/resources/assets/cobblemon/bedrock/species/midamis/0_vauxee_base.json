@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_vauxee",
       "texture": "cobblemon:textures/pokemon/midamis/vauxee.png",
       "layers": []
     },

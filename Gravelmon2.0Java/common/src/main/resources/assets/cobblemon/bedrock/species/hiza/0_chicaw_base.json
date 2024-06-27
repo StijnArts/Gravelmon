@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_chicaw",
       "texture": "cobblemon:textures/pokemon/hiza/chicaw.png",
       "layers": []
     },

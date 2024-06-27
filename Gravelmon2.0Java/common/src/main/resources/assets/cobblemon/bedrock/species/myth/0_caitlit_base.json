@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_caitlit",
       "texture": "cobblemon:textures/pokemon/myth/caitlit.png",
       "layers": []
     },

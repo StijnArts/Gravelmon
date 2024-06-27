@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_rafflare",
       "texture": "cobblemon:textures/pokemon/kuria/rafflare.png",
       "layers": []
     },

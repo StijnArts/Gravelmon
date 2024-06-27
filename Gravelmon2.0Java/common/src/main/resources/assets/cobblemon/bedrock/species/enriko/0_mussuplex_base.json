@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_mussuplex",
       "texture": "cobblemon:textures/pokemon/enriko/mussuplex.png",
       "layers": []
     },

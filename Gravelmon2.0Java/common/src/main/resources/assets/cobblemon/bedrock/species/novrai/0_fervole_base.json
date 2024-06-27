@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_fervole",
       "texture": "cobblemon:textures/pokemon/novrai/fervole.png",
       "layers": []
     },

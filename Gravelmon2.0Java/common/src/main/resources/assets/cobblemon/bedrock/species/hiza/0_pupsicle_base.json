@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_pupsicle",
       "texture": "cobblemon:textures/pokemon/hiza/pupsicle.png",
       "layers": []
     },

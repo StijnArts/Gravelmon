@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_gnuru",
       "texture": "cobblemon:textures/pokemon/sage/gnuru.png",
       "layers": []
     },

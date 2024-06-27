@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_bluffin",
       "texture": "cobblemon:textures/pokemon/sage/bluffin.png",
       "layers": []
     },

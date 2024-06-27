@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_mushmol",
       "texture": "cobblemon:textures/pokemon/hub/mushmol.png",
       "layers": []
     },

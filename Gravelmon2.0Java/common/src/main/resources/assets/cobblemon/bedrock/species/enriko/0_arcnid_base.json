@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_arcnid",
       "texture": "cobblemon:textures/pokemon/enriko/arcnid.png",
       "layers": []
     },

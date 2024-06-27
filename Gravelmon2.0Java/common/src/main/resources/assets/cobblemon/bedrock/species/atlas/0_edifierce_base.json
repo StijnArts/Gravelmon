@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_edifierce",
       "texture": "cobblemon:textures/pokemon/atlas/edifierce.png",
       "layers": []
     },

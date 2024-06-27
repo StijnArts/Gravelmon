@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_triboon",
       "texture": "cobblemon:textures/pokemon/isiah/triboon.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_magnidove",
       "texture": "cobblemon:textures/pokemon/myth/magnidove.png",
       "layers": []
     },

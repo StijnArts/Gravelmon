@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_taranterror",
       "texture": "cobblemon:textures/pokemon/varitas/taranterror.png",
       "layers": []
     },

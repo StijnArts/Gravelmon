@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_ceregal",
       "texture": "cobblemon:textures/pokemon/infinity/ceregal.png",
       "layers": []
     },

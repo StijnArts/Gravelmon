@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_pomparunt",
       "texture": "cobblemon:textures/pokemon/sage/pomparunt.png",
       "layers": []
     },

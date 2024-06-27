@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_territhorn",
       "texture": "cobblemon:textures/pokemon/avoris/territhorn.png",
       "layers": []
     },

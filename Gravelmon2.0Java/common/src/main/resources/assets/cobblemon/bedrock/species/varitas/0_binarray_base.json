@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_binarray",
       "texture": "cobblemon:textures/pokemon/varitas/binarray.png",
       "layers": []
     },

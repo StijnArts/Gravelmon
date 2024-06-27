@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_yunesis",
       "texture": "cobblemon:textures/pokemon/deneb/yunesis.png",
       "layers": []
     },

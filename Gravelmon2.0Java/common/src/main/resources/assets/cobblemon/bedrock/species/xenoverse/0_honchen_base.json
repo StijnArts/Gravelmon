@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_honchen",
       "texture": "cobblemon:textures/pokemon/xenoverse/honchen.png",
       "layers": []
     },

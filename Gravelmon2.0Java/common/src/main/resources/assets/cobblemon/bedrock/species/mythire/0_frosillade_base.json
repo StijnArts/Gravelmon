@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_frosillade",
       "texture": "cobblemon:textures/pokemon/mythire/frosillade.png",
       "layers": []
     },

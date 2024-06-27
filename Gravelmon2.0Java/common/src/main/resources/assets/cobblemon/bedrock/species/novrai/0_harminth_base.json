@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_harminth",
       "texture": "cobblemon:textures/pokemon/novrai/harminth.png",
       "layers": []
     },

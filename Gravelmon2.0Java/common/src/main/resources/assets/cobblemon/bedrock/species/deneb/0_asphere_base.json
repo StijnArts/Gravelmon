@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_asphere",
       "texture": "cobblemon:textures/pokemon/deneb/asphere.png",
       "layers": []
     },

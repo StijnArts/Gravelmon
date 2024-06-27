@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_kitweed",
       "texture": "cobblemon:textures/pokemon/okeno/kitweed.png",
       "layers": []
     },

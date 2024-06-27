@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_chlorinse",
       "texture": "cobblemon:textures/pokemon/amavi/chlorinse.png",
       "layers": []
     },

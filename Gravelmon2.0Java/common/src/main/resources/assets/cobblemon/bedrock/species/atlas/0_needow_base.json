@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_needow",
       "texture": "cobblemon:textures/pokemon/atlas/needow.png",
       "layers": []
     },

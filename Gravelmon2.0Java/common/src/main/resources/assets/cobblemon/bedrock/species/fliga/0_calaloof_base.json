@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_calaloof",
       "texture": "cobblemon:textures/pokemon/fliga/calaloof.png",
       "layers": []
     },

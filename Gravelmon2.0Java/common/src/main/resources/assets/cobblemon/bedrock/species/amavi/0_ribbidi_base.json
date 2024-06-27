@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_ribbidi",
       "texture": "cobblemon:textures/pokemon/amavi/ribbidi.png",
       "layers": []
     },

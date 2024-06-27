@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_dratt",
       "texture": "cobblemon:textures/pokemon/midamis/dratt.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_cooreds",
       "texture": "cobblemon:textures/pokemon/lockemon/cooreds.png",
       "layers": []
     },

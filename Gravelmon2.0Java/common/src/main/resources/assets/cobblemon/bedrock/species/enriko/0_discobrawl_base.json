@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_discobrawl",
       "texture": "cobblemon:textures/pokemon/enriko/discobrawl.png",
       "layers": []
     },

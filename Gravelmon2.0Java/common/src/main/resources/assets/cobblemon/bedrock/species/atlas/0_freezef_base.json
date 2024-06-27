@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_freezef",
       "texture": "cobblemon:textures/pokemon/atlas/freezef.png",
       "layers": []
     },

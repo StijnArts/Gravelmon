@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_zerbrahg",
       "texture": "cobblemon:textures/pokemon/interregional/zerbrahg.png",
       "layers": []
     },

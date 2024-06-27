@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_torricane",
       "texture": "cobblemon:textures/pokemon/rica/torricane.png",
       "layers": []
     },

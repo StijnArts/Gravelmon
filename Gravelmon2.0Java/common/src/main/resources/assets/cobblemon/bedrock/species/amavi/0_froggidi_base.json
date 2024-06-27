@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_froggidi",
       "texture": "cobblemon:textures/pokemon/amavi/froggidi.png",
       "layers": []
     },

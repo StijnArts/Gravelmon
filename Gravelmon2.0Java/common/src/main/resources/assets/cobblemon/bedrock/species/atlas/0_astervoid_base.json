@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_astervoid",
       "texture": "cobblemon:textures/pokemon/atlas/astervoid.png",
       "layers": []
     },

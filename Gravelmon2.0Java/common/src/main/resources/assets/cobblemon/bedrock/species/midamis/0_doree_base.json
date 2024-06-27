@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_doree",
       "texture": "cobblemon:textures/pokemon/midamis/doree.png",
       "layers": []
     },

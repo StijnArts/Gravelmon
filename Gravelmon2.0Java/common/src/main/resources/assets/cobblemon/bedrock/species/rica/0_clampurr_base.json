@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_clampurr",
       "texture": "cobblemon:textures/pokemon/rica/clampurr.png",
       "layers": []
     },

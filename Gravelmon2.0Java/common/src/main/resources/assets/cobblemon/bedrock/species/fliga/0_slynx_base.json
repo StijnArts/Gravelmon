@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_slynx",
       "texture": "cobblemon:textures/pokemon/fliga/slynx.png",
       "layers": []
     },

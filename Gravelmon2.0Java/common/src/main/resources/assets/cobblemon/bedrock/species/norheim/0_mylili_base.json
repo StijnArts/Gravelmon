@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_mylili",
       "texture": "cobblemon:textures/pokemon/norheim/mylili.png",
       "layers": []
     },

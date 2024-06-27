@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_trouterror",
       "texture": "cobblemon:textures/pokemon/hiza/trouterror.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_yuvirro",
       "texture": "cobblemon:textures/pokemon/rica/yuvirro.png",
       "layers": []
     },

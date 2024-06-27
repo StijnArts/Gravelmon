@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_larvly",
       "texture": "cobblemon:textures/pokemon/amavi/larvly.png",
       "layers": []
     },

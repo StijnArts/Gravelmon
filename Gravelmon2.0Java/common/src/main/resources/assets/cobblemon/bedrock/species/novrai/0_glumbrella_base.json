@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_glumbrella",
       "texture": "cobblemon:textures/pokemon/novrai/glumbrella.png",
       "layers": []
     },

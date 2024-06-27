@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_lukagon",
       "texture": "cobblemon:textures/pokemon/infinity/lukagon.png",
       "layers": []
     },

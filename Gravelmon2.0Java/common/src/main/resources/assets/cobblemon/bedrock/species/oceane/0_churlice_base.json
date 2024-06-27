@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_churlice",
       "texture": "cobblemon:textures/pokemon/oceane/churlice.png",
       "layers": []
     },

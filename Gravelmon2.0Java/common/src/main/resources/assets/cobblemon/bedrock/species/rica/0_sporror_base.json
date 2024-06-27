@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_sporror",
       "texture": "cobblemon:textures/pokemon/rica/sporror.png",
       "layers": []
     },

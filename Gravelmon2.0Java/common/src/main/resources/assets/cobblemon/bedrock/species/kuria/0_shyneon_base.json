@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_shyneon",
       "texture": "cobblemon:textures/pokemon/kuria/shyneon.png",
       "layers": []
     },

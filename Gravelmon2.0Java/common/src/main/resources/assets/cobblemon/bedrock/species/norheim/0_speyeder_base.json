@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_speyeder",
       "texture": "cobblemon:textures/pokemon/norheim/speyeder.png",
       "layers": []
     },

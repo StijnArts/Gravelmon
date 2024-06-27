@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_microcosmic",
       "texture": "cobblemon:textures/pokemon/enriko/microcosmic.png",
       "layers": []
     },

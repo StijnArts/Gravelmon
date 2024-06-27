@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_aqualisk",
       "texture": "cobblemon:textures/pokemon/enriko/aqualisk.png",
       "layers": []
     },

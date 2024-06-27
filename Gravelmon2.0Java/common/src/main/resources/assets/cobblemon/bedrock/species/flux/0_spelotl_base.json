@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_spelotl",
       "texture": "cobblemon:textures/pokemon/flux/spelotl.png",
       "layers": []
     },

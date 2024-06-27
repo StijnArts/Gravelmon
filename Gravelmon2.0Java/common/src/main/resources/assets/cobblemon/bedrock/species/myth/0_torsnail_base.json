@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_torsnail",
       "texture": "cobblemon:textures/pokemon/myth/torsnail.png",
       "layers": []
     },

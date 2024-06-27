@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_booey",
       "texture": "cobblemon:textures/pokemon/amavi/booey.png",
       "layers": []
     },

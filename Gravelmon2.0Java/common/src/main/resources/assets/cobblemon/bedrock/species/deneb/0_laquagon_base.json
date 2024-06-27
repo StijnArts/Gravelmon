@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_laquagon",
       "texture": "cobblemon:textures/pokemon/deneb/laquagon.png",
       "layers": []
     },

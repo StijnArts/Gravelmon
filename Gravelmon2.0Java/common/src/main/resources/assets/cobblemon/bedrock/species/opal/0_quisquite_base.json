@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_quisquite",
       "texture": "cobblemon:textures/pokemon/opal/quisquite.png",
       "layers": []
     },

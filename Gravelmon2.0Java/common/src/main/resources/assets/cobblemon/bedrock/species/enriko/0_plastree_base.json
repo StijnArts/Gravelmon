@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_plastree",
       "texture": "cobblemon:textures/pokemon/enriko/plastree.png",
       "layers": []
     },

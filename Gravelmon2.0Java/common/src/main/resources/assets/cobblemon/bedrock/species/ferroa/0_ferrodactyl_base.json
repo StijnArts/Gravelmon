@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_ferrodactyl",
       "texture": "cobblemon:textures/pokemon/ferroa/ferrodactyl.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_whirlamari",
       "texture": "cobblemon:textures/pokemon/lagoone/whirlamari.png",
       "layers": []
     },

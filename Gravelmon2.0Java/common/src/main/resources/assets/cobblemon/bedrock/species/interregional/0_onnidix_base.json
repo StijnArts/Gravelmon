@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_onnidix",
       "texture": "cobblemon:textures/pokemon/interregional/onnidix.png",
       "layers": []
     },

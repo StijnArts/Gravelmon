@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_toxiver",
       "texture": "cobblemon:textures/pokemon/norheim/toxiver.png",
       "layers": []
     },

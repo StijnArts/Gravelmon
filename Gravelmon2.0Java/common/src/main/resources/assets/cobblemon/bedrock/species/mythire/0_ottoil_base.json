@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_ottoil",
       "texture": "cobblemon:textures/pokemon/mythire/ottoil.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_aloverity",
       "texture": "cobblemon:textures/pokemon/novrai/aloverity.png",
       "layers": []
     },

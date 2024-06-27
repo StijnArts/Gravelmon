@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_psyphemus",
       "texture": "cobblemon:textures/pokemon/novrai/psyphemus.png",
       "layers": []
     },

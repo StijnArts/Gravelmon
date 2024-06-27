@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_sylure",
       "texture": "cobblemon:textures/pokemon/vanguard/sylure.png",
       "layers": []
     },

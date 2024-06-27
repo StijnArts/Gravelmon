@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_kankombat",
       "texture": "cobblemon:textures/pokemon/umbra/kankombat.png",
       "layers": []
     },

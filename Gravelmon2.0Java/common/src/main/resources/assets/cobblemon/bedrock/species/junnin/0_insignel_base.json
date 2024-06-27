@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_insignel",
       "texture": "cobblemon:textures/pokemon/junnin/insignel.png",
       "layers": []
     },

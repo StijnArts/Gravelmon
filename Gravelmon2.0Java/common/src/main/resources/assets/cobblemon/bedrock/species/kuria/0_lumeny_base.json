@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_lumeny",
       "texture": "cobblemon:textures/pokemon/kuria/lumeny.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_dyramic",
       "texture": "cobblemon:textures/pokemon/fliga/dyramic.png",
       "layers": []
     },

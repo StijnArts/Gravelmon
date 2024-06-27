@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_ribhit",
       "texture": "cobblemon:textures/pokemon/norheim/ribhit.png",
       "layers": []
     },

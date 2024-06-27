@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_cocombat",
       "texture": "cobblemon:textures/pokemon/enjin/cocombat.png",
       "layers": []
     },

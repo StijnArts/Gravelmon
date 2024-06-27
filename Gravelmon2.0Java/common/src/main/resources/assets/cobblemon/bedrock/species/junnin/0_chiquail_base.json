@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_chiquail",
       "texture": "cobblemon:textures/pokemon/junnin/chiquail.png",
       "layers": []
     },

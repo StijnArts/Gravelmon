@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_kecleodon",
       "texture": "cobblemon:textures/pokemon/infinity/kecleodon.png",
       "layers": []
     },

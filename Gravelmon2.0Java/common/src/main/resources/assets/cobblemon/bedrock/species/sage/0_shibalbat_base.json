@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_shibalbat",
       "texture": "cobblemon:textures/pokemon/sage/shibalbat.png",
       "layers": []
     },

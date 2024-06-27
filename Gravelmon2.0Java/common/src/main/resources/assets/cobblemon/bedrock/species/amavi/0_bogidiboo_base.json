@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_bogidiboo",
       "texture": "cobblemon:textures/pokemon/amavi/bogidiboo.png",
       "layers": []
     },

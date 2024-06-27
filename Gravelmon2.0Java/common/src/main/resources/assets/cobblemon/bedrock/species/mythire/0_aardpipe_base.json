@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_aardpipe",
       "texture": "cobblemon:textures/pokemon/mythire/aardpipe.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_wispear",
       "texture": "cobblemon:textures/pokemon/norheim/wispear.png",
       "layers": []
     },

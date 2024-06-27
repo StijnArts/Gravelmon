@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_schwincer",
       "texture": "cobblemon:textures/pokemon/enriko/schwincer.png",
       "layers": []
     },

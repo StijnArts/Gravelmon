@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_resufflect",
       "texture": "cobblemon:textures/pokemon/novrai/resufflect.png",
       "layers": []
     },

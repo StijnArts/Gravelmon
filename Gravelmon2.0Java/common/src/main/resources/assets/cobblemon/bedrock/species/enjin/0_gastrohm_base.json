@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_gastrohm",
       "texture": "cobblemon:textures/pokemon/enjin/gastrohm.png",
       "layers": []
     },

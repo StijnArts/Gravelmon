@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_lucidris",
       "texture": "cobblemon:textures/pokemon/enjin/lucidris.png",
       "layers": []
     },

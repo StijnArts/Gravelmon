@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_juavarrior",
       "texture": "cobblemon:textures/pokemon/interregional/juavarrior.png",
       "layers": []
     },

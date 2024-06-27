@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_glauqua",
       "texture": "cobblemon:textures/pokemon/sage/glauqua.png",
       "layers": []
     },

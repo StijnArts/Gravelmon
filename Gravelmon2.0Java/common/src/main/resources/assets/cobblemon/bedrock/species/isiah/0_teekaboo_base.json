@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_teekaboo",
       "texture": "cobblemon:textures/pokemon/isiah/teekaboo.png",
       "layers": []
     },

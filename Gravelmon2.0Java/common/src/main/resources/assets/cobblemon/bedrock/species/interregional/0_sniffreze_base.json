@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_sniffreze",
       "texture": "cobblemon:textures/pokemon/interregional/sniffreze.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_sunglew",
       "texture": "cobblemon:textures/pokemon/novrai/sunglew.png",
       "layers": []
     },

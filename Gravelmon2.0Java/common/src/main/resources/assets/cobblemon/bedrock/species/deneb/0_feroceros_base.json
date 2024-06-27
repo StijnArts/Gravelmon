@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_feroceros",
       "texture": "cobblemon:textures/pokemon/deneb/feroceros.png",
       "layers": []
     },

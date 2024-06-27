@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_rhinolition",
       "texture": "cobblemon:textures/pokemon/ferroa/rhinolition.png",
       "layers": []
     },

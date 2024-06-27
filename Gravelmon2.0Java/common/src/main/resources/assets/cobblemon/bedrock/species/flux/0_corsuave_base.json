@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_corsuave",
       "texture": "cobblemon:textures/pokemon/flux/corsuave.png",
       "layers": []
     },

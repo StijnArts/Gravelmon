@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_kivirial",
       "texture": "cobblemon:textures/pokemon/midamis/kivirial.png",
       "layers": []
     },

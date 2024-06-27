@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_oreon",
       "texture": "cobblemon:textures/pokemon/blazingemerald/oreon.png",
       "layers": []
     },

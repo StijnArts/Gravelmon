@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_hogspur",
       "texture": "cobblemon:textures/pokemon/enriko/hogspur.png",
       "layers": []
     },

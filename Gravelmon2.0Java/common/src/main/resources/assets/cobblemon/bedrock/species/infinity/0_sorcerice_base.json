@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_sorcerice",
       "texture": "cobblemon:textures/pokemon/infinity/sorcerice.png",
       "layers": []
     },

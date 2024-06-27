@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_coraga",
       "texture": "cobblemon:textures/pokemon/deneb/coraga.png",
       "layers": []
     },

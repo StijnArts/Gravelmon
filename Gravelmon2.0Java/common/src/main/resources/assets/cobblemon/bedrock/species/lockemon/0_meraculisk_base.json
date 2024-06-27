@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_meraculisk",
       "texture": "cobblemon:textures/pokemon/lockemon/meraculisk.png",
       "layers": []
     },

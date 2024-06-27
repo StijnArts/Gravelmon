@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_needella",
       "texture": "cobblemon:textures/pokemon/atlas/needella.png",
       "layers": []
     },

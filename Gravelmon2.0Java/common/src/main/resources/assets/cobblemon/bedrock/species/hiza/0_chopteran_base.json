@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_chopteran",
       "texture": "cobblemon:textures/pokemon/hiza/chopteran.png",
       "layers": []
     },

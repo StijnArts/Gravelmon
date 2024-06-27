@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_newcleaur",
       "texture": "cobblemon:textures/pokemon/fliga/newcleaur.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_fafurr",
       "texture": "cobblemon:textures/pokemon/uranium/fafurr.png",
       "layers": []
     },

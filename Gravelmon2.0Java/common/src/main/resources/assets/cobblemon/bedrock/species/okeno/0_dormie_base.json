@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_dormie",
       "texture": "cobblemon:textures/pokemon/okeno/dormie.png",
       "layers": []
     },

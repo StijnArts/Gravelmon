@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_slithair",
       "texture": "cobblemon:textures/pokemon/atlas/slithair.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_kaliyote",
       "texture": "cobblemon:textures/pokemon/deneb/kaliyote.png",
       "layers": []
     },

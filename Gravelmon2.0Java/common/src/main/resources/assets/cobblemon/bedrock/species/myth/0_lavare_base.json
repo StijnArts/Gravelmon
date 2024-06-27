@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_lavare",
       "texture": "cobblemon:textures/pokemon/myth/lavare.png",
       "layers": []
     },

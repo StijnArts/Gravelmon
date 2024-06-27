@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_lamnaw",
       "texture": "cobblemon:textures/pokemon/ferroa/lamnaw.png",
       "layers": []
     },

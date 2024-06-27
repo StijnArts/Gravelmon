@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_iyaiya",
       "texture": "cobblemon:textures/pokemon/deneb/iyaiya.png",
       "layers": []
     },

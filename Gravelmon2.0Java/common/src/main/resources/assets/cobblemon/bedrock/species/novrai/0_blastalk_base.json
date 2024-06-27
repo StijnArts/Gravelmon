@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_blastalk",
       "texture": "cobblemon:textures/pokemon/novrai/blastalk.png",
       "layers": []
     },

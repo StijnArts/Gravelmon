@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_victorelic",
       "texture": "cobblemon:textures/pokemon/ferroa/victorelic.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_sellfish",
       "texture": "cobblemon:textures/pokemon/isiah/sellfish.png",
       "layers": []
     },

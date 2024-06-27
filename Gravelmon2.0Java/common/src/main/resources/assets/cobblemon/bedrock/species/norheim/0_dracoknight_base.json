@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_dracoknight",
       "texture": "cobblemon:textures/pokemon/norheim/dracoknight.png",
       "layers": []
     },

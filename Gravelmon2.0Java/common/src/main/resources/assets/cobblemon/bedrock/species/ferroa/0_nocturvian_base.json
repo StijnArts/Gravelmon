@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_nocturvian",
       "texture": "cobblemon:textures/pokemon/ferroa/nocturvian.png",
       "layers": []
     },

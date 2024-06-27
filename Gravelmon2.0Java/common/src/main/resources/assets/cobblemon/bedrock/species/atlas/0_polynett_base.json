@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_polynett",
       "texture": "cobblemon:textures/pokemon/atlas/polynett.png",
       "layers": []
     },

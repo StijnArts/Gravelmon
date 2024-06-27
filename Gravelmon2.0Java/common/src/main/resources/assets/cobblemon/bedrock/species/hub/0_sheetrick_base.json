@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_sheetrick",
       "texture": "cobblemon:textures/pokemon/hub/sheetrick.png",
       "layers": []
     },

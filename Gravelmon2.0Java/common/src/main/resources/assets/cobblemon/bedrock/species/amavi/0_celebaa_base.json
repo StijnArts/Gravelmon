@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_celebaa",
       "texture": "cobblemon:textures/pokemon/amavi/celebaa.png",
       "layers": []
     },

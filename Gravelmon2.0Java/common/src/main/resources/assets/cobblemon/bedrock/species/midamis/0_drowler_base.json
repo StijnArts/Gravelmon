@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_drowler",
       "texture": "cobblemon:textures/pokemon/midamis/drowler.png",
       "layers": []
     },

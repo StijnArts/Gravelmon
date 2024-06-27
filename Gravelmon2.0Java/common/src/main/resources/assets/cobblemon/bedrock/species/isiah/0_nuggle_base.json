@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_nuggle",
       "texture": "cobblemon:textures/pokemon/isiah/nuggle.png",
       "layers": []
     },

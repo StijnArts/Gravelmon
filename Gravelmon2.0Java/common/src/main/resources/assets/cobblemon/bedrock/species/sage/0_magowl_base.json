@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_magowl",
       "texture": "cobblemon:textures/pokemon/sage/magowl.png",
       "layers": []
     },

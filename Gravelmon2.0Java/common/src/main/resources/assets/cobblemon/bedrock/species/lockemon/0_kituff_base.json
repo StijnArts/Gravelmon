@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_kituff",
       "texture": "cobblemon:textures/pokemon/lockemon/kituff.png",
       "layers": []
     },

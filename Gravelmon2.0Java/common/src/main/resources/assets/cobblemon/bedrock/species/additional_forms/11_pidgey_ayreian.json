@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:pidgey",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianpidgey",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianpidgey.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_ayreianpidgey",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianpidgey_shiny.png",
+      "layers": []
+    }
+  ]
+}

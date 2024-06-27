@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_cowatti",
       "texture": "cobblemon:textures/pokemon/sage/cowatti.png",
       "layers": []
     },

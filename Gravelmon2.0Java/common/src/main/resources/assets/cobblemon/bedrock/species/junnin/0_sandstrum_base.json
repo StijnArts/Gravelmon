@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_sandstrum",
       "texture": "cobblemon:textures/pokemon/junnin/sandstrum.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_jungore",
       "texture": "cobblemon:textures/pokemon/uranium/jungore.png",
       "layers": []
     },

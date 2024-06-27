@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_cupricorn",
       "texture": "cobblemon:textures/pokemon/deneb/cupricorn.png",
       "layers": []
     },

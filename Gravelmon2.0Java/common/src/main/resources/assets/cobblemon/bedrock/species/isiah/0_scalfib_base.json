@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_scalfib",
       "texture": "cobblemon:textures/pokemon/isiah/scalfib.png",
       "layers": []
     },

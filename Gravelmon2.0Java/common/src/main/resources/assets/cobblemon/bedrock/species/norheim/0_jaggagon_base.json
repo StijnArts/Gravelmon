@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_jaggagon",
       "texture": "cobblemon:textures/pokemon/norheim/jaggagon.png",
       "layers": []
     },

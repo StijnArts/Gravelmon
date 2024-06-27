@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_scubug",
       "texture": "cobblemon:textures/pokemon/sage/scubug.png",
       "layers": []
     },

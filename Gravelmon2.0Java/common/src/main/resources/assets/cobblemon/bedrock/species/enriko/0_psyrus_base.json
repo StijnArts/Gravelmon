@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_psyrus",
       "texture": "cobblemon:textures/pokemon/enriko/psyrus.png",
       "layers": []
     },

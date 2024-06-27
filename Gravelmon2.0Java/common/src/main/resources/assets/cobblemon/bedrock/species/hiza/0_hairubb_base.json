@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_hairubb",
       "texture": "cobblemon:textures/pokemon/hiza/hairubb.png",
       "layers": []
     },

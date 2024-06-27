@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_grindon",
       "texture": "cobblemon:textures/pokemon/deneb/grindon.png",
       "layers": []
     },

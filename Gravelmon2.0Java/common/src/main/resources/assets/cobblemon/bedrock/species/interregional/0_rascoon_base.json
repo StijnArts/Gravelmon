@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_rascoon",
       "texture": "cobblemon:textures/pokemon/interregional/rascoon.png",
       "layers": []
     },

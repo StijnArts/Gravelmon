@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_bawlfrog",
       "texture": "cobblemon:textures/pokemon/blazingemerald/bawlfrog.png",
       "layers": []
     },

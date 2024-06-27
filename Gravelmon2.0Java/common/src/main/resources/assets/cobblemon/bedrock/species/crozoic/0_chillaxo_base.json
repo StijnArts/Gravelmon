@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_chillaxo",
       "texture": "cobblemon:textures/pokemon/crozoic/chillaxo.png",
       "layers": []
     },

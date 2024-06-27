@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_bonkrete",
       "texture": "cobblemon:textures/pokemon/enriko/bonkrete.png",
       "layers": []
     },

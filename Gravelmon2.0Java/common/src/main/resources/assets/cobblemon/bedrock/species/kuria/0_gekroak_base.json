@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_gekroak",
       "texture": "cobblemon:textures/pokemon/kuria/gekroak.png",
       "layers": []
     },

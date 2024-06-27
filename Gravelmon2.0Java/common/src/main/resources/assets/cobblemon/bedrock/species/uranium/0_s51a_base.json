@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_s51a",
       "texture": "cobblemon:textures/pokemon/uranium/s51a.png",
       "layers": []
     },

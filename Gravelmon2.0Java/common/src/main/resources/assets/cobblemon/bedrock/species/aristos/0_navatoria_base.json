@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_navatoria",
       "texture": "cobblemon:textures/pokemon/aristos/navatoria.png",
       "layers": []
     },

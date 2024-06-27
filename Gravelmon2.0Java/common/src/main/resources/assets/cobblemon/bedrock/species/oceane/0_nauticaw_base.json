@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_nauticaw",
       "texture": "cobblemon:textures/pokemon/oceane/nauticaw.png",
       "layers": []
     },

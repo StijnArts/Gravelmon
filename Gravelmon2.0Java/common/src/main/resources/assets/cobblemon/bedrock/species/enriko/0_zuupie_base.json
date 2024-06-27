@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_zuupie",
       "texture": "cobblemon:textures/pokemon/enriko/zuupie.png",
       "layers": []
     },

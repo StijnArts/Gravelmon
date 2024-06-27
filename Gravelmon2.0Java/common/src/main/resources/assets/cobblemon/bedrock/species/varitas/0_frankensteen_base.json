@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_frankensteen",
       "texture": "cobblemon:textures/pokemon/varitas/frankensteen.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_hunder",
       "texture": "cobblemon:textures/pokemon/hiza/hunder.png",
       "layers": []
     },

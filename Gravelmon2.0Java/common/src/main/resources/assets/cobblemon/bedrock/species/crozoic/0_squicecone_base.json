@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_squicecone",
       "texture": "cobblemon:textures/pokemon/crozoic/squicecone.png",
       "layers": []
     },

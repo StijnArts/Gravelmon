@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_senfetta",
       "texture": "cobblemon:textures/pokemon/kuria/senfetta.png",
       "layers": []
     },

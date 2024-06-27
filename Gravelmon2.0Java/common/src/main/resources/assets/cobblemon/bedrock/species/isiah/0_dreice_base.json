@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_dreice",
       "texture": "cobblemon:textures/pokemon/isiah/dreice.png",
       "layers": []
     },

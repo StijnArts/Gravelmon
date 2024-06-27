@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_chainite",
       "texture": "cobblemon:textures/pokemon/uranium/chainite.png",
       "layers": []
     },

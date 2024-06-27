@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_shrimpond",
       "texture": "cobblemon:textures/pokemon/nosto/shrimpond.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_mamagma",
       "texture": "cobblemon:textures/pokemon/oceane/mamagma.png",
       "layers": []
     },

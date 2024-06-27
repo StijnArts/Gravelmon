@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_eoterra",
       "texture": "cobblemon:textures/pokemon/norheim/eoterra.png",
       "layers": []
     },

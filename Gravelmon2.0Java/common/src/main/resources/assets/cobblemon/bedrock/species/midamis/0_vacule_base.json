@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_vacule",
       "texture": "cobblemon:textures/pokemon/midamis/vacule.png",
       "layers": []
     },

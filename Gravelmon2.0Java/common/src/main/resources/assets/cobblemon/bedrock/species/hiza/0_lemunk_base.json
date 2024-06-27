@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_lemunk",
       "texture": "cobblemon:textures/pokemon/hiza/lemunk.png",
       "layers": []
     },

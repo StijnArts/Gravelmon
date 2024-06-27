@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_gangraeae",
       "texture": "cobblemon:textures/pokemon/novrai/gangraeae.png",
       "layers": []
     },

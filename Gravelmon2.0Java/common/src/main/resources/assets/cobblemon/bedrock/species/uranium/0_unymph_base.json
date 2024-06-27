@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_unymph",
       "texture": "cobblemon:textures/pokemon/uranium/unymph.png",
       "layers": []
     },

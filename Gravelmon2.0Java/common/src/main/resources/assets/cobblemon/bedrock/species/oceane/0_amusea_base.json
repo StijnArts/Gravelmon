@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_amusea",
       "texture": "cobblemon:textures/pokemon/oceane/amusea.png",
       "layers": []
     },

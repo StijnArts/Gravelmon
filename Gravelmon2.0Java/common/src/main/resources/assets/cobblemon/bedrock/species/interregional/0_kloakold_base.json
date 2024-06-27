@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_kloakold",
       "texture": "cobblemon:textures/pokemon/interregional/kloakold.png",
       "layers": []
     },

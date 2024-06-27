@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_iceros",
       "texture": "cobblemon:textures/pokemon/infinity/iceros.png",
       "layers": []
     },

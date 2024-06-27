@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_skowl",
       "texture": "cobblemon:textures/pokemon/avoris/skowl.png",
       "layers": []
     },

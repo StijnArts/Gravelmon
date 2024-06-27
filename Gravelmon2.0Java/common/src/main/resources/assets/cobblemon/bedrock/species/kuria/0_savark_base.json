@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_savark",
       "texture": "cobblemon:textures/pokemon/kuria/savark.png",
       "layers": []
     },

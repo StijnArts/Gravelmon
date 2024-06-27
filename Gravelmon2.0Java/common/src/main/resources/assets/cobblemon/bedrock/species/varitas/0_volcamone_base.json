@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_volcamone",
       "texture": "cobblemon:textures/pokemon/varitas/volcamone.png",
       "layers": []
     },

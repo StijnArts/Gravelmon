@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_devilicious",
       "texture": "cobblemon:textures/pokemon/atlas/devilicious.png",
       "layers": []
     },

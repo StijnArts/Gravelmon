@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_slithotter",
       "texture": "cobblemon:textures/pokemon/mythire/slithotter.png",
       "layers": []
     },

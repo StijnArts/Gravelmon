@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_raptorado",
       "texture": "cobblemon:textures/pokemon/novrai/raptorado.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_tunicrust",
       "texture": "cobblemon:textures/pokemon/enriko/tunicrust.png",
       "layers": []
     },

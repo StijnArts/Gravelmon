@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_necromanos",
       "texture": "cobblemon:textures/pokemon/nosto/necromanos.png",
       "layers": []
     },

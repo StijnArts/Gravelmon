@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_scubaa",
       "texture": "cobblemon:textures/pokemon/norheim/scubaa.png",
       "layers": []
     },

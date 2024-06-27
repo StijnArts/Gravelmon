@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_shampooch",
       "texture": "cobblemon:textures/pokemon/atlas/shampooch.png",
       "layers": []
     },

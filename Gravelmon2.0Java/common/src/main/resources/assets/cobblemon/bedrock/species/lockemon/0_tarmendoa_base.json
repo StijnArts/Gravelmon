@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_tarmendoa",
       "texture": "cobblemon:textures/pokemon/lockemon/tarmendoa.png",
       "layers": []
     },

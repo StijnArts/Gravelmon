@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_birryde",
       "texture": "cobblemon:textures/pokemon/midamis/birryde.png",
       "layers": []
     },

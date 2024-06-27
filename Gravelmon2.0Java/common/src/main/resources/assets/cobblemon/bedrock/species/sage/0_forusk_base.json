@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_forusk",
       "texture": "cobblemon:textures/pokemon/sage/forusk.png",
       "layers": []
     },

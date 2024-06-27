@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_cairup",
       "texture": "cobblemon:textures/pokemon/sage/cairup.png",
       "layers": []
     },

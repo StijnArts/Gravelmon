@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_foxsye",
       "texture": "cobblemon:textures/pokemon/orohn-havai/foxsye.png",
       "layers": []
     },

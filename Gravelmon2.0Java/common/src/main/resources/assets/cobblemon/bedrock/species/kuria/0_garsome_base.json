@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_garsome",
       "texture": "cobblemon:textures/pokemon/kuria/garsome.png",
       "layers": []
     },

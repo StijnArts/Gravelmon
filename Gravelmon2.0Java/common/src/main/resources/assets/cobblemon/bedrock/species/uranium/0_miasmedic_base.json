@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_miasmedic",
       "texture": "cobblemon:textures/pokemon/uranium/miasmedic.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_phonowar",
       "texture": "cobblemon:textures/pokemon/enriko/phonowar.png",
       "layers": []
     },

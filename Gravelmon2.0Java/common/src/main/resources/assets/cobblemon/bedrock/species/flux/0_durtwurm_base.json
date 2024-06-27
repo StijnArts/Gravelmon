@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_durtwurm",
       "texture": "cobblemon:textures/pokemon/flux/durtwurm.png",
       "layers": []
     },

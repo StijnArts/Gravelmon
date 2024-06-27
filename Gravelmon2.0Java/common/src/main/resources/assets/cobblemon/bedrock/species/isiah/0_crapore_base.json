@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_crapore",
       "texture": "cobblemon:textures/pokemon/isiah/crapore.png",
       "layers": []
     },

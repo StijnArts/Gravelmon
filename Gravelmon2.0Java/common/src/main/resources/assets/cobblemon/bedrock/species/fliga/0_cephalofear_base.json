@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_cephalofear",
       "texture": "cobblemon:textures/pokemon/fliga/cephalofear.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_pincess",
       "texture": "cobblemon:textures/pokemon/amavi/pincess.png",
       "layers": []
     },

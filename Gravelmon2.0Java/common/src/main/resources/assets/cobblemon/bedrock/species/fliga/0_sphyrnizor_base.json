@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_sphyrnizor",
       "texture": "cobblemon:textures/pokemon/fliga/sphyrnizor.png",
       "layers": []
     },

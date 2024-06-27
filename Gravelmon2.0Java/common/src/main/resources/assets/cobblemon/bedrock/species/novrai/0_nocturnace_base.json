@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_nocturnace",
       "texture": "cobblemon:textures/pokemon/novrai/nocturnace.png",
       "layers": []
     },

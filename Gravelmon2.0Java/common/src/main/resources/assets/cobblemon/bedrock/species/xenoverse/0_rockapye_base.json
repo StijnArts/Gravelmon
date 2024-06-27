@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_rockapye",
       "texture": "cobblemon:textures/pokemon/xenoverse/rockapye.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_volcaroc",
       "texture": "cobblemon:textures/pokemon/sage/volcaroc.png",
       "layers": []
     },

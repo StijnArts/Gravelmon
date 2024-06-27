@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_mosveratu",
       "texture": "cobblemon:textures/pokemon/amavi/mosveratu.png",
       "layers": []
     },

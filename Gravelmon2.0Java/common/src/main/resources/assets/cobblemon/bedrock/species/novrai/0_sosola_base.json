@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_sosola",
       "texture": "cobblemon:textures/pokemon/novrai/sosola.png",
       "layers": []
     },

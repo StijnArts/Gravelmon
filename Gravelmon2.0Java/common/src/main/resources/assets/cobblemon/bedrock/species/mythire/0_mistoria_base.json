@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_mistoria",
       "texture": "cobblemon:textures/pokemon/mythire/mistoria.png",
       "layers": []
     },

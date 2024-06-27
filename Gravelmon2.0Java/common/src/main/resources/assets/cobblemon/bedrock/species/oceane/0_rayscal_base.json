@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_rayscal",
       "texture": "cobblemon:textures/pokemon/oceane/rayscal.png",
       "layers": []
     },

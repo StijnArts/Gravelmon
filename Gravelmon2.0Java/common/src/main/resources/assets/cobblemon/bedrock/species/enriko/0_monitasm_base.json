@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_monitasm",
       "texture": "cobblemon:textures/pokemon/enriko/monitasm.png",
       "layers": []
     },

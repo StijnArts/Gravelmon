@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_mawribou",
       "texture": "cobblemon:textures/pokemon/hiza/mawribou.png",
       "layers": []
     },

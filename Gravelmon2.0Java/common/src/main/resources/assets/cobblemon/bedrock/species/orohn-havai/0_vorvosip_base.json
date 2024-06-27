@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_vorvosip",
       "texture": "cobblemon:textures/pokemon/orohn-havai/vorvosip.png",
       "layers": []
     },

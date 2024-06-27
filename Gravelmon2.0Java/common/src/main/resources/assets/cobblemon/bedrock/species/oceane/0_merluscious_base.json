@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_merluscious",
       "texture": "cobblemon:textures/pokemon/oceane/merluscious.png",
       "layers": []
     },

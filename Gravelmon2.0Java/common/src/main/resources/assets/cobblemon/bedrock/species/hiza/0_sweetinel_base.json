@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_sweetinel",
       "texture": "cobblemon:textures/pokemon/hiza/sweetinel.png",
       "layers": []
     },

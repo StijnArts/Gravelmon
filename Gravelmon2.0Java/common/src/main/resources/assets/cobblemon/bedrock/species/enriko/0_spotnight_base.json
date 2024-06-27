@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_spotnight",
       "texture": "cobblemon:textures/pokemon/enriko/spotnight.png",
       "layers": []
     },

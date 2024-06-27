@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_athcleat",
       "texture": "cobblemon:textures/pokemon/novrai/athcleat.png",
       "layers": []
     },

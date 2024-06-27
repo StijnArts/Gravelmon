@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_gnawgorus",
       "texture": "cobblemon:textures/pokemon/interregional/gnawgorus.png",
       "layers": []
     },

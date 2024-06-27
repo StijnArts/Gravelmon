@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_ogospiral",
       "texture": "cobblemon:textures/pokemon/interregional/ogospiral.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_foreminn",
       "texture": "cobblemon:textures/pokemon/lonava/foreminn.png",
       "layers": []
     },

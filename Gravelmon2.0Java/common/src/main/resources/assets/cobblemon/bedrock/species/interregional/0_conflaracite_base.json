@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_conflaracite",
       "texture": "cobblemon:textures/pokemon/interregional/conflaracite.png",
       "layers": []
     },

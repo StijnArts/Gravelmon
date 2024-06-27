@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_maidnite",
       "texture": "cobblemon:textures/pokemon/atlas/maidnite.png",
       "layers": []
     },

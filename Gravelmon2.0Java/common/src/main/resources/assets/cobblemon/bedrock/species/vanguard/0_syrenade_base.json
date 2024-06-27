@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_syrenade",
       "texture": "cobblemon:textures/pokemon/vanguard/syrenade.png",
       "layers": []
     },

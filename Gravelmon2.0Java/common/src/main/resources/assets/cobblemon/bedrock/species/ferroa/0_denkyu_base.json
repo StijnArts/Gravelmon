@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_denkyu",
       "texture": "cobblemon:textures/pokemon/ferroa/denkyu.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_ostrodd",
       "texture": "cobblemon:textures/pokemon/rica/ostrodd.png",
       "layers": []
     },

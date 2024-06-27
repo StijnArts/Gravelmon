@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_dashean",
       "texture": "cobblemon:textures/pokemon/eternalforest/dashean.png",
       "layers": []
     },

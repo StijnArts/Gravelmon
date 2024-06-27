@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_pussour",
       "texture": "cobblemon:textures/pokemon/lonava/pussour.png",
       "layers": []
     },

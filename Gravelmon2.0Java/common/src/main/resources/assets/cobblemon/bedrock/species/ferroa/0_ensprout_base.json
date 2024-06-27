@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_ensprout",
       "texture": "cobblemon:textures/pokemon/ferroa/ensprout.png",
       "layers": []
     },

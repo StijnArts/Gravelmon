@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_jarmit",
       "texture": "cobblemon:textures/pokemon/deneb/jarmit.png",
       "layers": []
     },

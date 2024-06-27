@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_dandylie",
       "texture": "cobblemon:textures/pokemon/junnin/dandylie.png",
       "layers": []
     },

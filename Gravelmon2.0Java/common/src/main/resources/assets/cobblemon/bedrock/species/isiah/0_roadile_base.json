@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_roadile",
       "texture": "cobblemon:textures/pokemon/isiah/roadile.png",
       "layers": []
     },

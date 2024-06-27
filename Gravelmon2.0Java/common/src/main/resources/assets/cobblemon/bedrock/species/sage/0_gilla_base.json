@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_gilla",
       "texture": "cobblemon:textures/pokemon/sage/gilla.png",
       "layers": []
     },

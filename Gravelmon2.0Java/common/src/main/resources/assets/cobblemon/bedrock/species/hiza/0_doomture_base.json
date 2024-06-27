@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_doomture",
       "texture": "cobblemon:textures/pokemon/hiza/doomture.png",
       "layers": []
     },

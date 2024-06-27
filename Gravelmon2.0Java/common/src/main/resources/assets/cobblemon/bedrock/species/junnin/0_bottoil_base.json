@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_bottoil",
       "texture": "cobblemon:textures/pokemon/junnin/bottoil.png",
       "layers": []
     },

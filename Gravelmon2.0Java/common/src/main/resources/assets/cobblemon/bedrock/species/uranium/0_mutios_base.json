@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_mutios",
       "texture": "cobblemon:textures/pokemon/uranium/mutios.png",
       "layers": []
     },

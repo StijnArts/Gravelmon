@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_hagma",
       "texture": "cobblemon:textures/pokemon/ferroa/hagma.png",
       "layers": []
     },

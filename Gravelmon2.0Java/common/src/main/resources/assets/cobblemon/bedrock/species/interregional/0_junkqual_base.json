@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_junkqual",
       "texture": "cobblemon:textures/pokemon/interregional/junkqual.png",
       "layers": []
     },

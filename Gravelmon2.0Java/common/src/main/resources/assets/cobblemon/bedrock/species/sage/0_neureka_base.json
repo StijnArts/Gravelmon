@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_neureka",
       "texture": "cobblemon:textures/pokemon/sage/neureka.png",
       "layers": []
     },

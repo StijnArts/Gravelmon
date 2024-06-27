@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_dramsama",
       "texture": "cobblemon:textures/pokemon/uranium/dramsama.png",
       "layers": []
     },

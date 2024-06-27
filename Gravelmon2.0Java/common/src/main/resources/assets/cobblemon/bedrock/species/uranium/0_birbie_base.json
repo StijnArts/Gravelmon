@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_birbie",
       "texture": "cobblemon:textures/pokemon/uranium/birbie.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_harlefin",
       "texture": "cobblemon:textures/pokemon/oceane/harlefin.png",
       "layers": []
     },

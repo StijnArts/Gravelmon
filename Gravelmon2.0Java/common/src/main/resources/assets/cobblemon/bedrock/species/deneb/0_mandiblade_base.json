@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_mandiblade",
       "texture": "cobblemon:textures/pokemon/deneb/mandiblade.png",
       "layers": []
     },

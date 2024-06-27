@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_gueel",
       "texture": "cobblemon:textures/pokemon/kuria/gueel.png",
       "layers": []
     },

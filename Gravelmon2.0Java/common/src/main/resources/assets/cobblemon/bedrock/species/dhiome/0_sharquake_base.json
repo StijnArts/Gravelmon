@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_sharquake",
       "texture": "cobblemon:textures/pokemon/dhiome/sharquake.png",
       "layers": []
     },

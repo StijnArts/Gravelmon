@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_grample",
       "texture": "cobblemon:textures/pokemon/avoris/grample.png",
       "layers": []
     },

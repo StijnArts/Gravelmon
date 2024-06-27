@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_minyan",
       "texture": "cobblemon:textures/pokemon/flux/minyan.png",
       "layers": []
     },

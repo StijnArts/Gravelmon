@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_anemace",
       "texture": "cobblemon:textures/pokemon/lagoone/anemace.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_babroote",
       "texture": "cobblemon:textures/pokemon/hiza/babroote.png",
       "layers": []
     },

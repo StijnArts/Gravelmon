@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_yucarlia",
       "texture": "cobblemon:textures/pokemon/deneb/yucarlia.png",
       "layers": []
     },

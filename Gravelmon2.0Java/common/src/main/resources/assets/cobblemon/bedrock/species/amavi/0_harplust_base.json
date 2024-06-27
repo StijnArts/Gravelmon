@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_harplust",
       "texture": "cobblemon:textures/pokemon/amavi/harplust.png",
       "layers": []
     },

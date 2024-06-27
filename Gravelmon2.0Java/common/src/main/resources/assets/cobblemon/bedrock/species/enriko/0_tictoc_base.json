@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_tictoc",
       "texture": "cobblemon:textures/pokemon/enriko/tictoc.png",
       "layers": []
     },

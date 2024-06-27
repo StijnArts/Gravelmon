@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_sporges",
       "texture": "cobblemon:textures/pokemon/varitas/sporges.png",
       "layers": []
     },

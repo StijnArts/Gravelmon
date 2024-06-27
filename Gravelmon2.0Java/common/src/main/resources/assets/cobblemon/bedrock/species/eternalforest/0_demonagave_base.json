@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_demonagave",
       "texture": "cobblemon:textures/pokemon/eternalforest/demonagave.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_utsoul",
       "texture": "cobblemon:textures/pokemon/novrai/utsoul.png",
       "layers": []
     },

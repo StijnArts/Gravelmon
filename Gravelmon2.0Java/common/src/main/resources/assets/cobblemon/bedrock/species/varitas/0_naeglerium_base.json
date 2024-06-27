@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_naeglerium",
       "texture": "cobblemon:textures/pokemon/varitas/naeglerium.png",
       "layers": []
     },

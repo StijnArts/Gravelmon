@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_nesshoal",
       "texture": "cobblemon:textures/pokemon/junnin/nesshoal.png",
       "layers": []
     },

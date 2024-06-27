@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_pukuhamu",
       "texture": "cobblemon:textures/pokemon/deneb/pukuhamu.png",
       "layers": []
     },

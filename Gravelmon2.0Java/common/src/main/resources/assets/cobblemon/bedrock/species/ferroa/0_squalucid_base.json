@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_squalucid",
       "texture": "cobblemon:textures/pokemon/ferroa/squalucid.png",
       "layers": []
     },

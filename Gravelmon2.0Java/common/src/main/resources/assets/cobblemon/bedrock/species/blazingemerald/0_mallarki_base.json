@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_mallarki",
       "texture": "cobblemon:textures/pokemon/blazingemerald/mallarki.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_nerincess",
       "texture": "cobblemon:textures/pokemon/amavi/nerincess.png",
       "layers": []
     },

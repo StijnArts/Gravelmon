@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_psyclone",
       "texture": "cobblemon:textures/pokemon/kuria/psyclone.png",
       "layers": []
     },

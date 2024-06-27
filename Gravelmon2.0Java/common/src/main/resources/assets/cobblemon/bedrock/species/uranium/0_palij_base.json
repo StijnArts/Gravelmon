@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_palij",
       "texture": "cobblemon:textures/pokemon/uranium/palij.png",
       "layers": []
     },

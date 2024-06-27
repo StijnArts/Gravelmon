@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_rollip",
       "texture": "cobblemon:textures/pokemon/junnin/rollip.png",
       "layers": []
     },

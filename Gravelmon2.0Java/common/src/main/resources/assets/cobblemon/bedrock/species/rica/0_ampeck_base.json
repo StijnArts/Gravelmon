@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_ampeck",
       "texture": "cobblemon:textures/pokemon/rica/ampeck.png",
       "layers": []
     },

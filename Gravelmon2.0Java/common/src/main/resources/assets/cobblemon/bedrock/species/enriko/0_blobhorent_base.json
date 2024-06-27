@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_blobhorent",
       "texture": "cobblemon:textures/pokemon/enriko/blobhorent.png",
       "layers": []
     },

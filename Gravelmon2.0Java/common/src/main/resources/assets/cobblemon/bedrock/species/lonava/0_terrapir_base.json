@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_terrapir",
       "texture": "cobblemon:textures/pokemon/lonava/terrapir.png",
       "layers": []
     },

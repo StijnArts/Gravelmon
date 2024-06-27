@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_bansheet",
       "texture": "cobblemon:textures/pokemon/junnin/bansheet.png",
       "layers": []
     },

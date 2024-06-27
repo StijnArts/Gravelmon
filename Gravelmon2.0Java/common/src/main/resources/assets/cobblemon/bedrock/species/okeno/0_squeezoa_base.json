@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_squeezoa",
       "texture": "cobblemon:textures/pokemon/okeno/squeezoa.png",
       "layers": []
     },

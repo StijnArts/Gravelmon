@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_urayne",
       "texture": "cobblemon:textures/pokemon/uranium/urayne.png",
       "layers": []
     },

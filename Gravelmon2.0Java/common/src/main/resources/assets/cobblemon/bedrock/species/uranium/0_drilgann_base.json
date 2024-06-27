@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_drilgann",
       "texture": "cobblemon:textures/pokemon/uranium/drilgann.png",
       "layers": []
     },

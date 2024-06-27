@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_frirate",
       "texture": "cobblemon:textures/pokemon/okeno/frirate.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_piczarre",
       "texture": "cobblemon:textures/pokemon/isiah/piczarre.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_probee",
       "texture": "cobblemon:textures/pokemon/enriko/probee.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_odorable",
       "texture": "cobblemon:textures/pokemon/rica/odorable.png",
       "layers": []
     },

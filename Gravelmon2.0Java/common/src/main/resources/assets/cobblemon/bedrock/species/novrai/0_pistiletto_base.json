@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_pistiletto",
       "texture": "cobblemon:textures/pokemon/novrai/pistiletto.png",
       "layers": []
     },

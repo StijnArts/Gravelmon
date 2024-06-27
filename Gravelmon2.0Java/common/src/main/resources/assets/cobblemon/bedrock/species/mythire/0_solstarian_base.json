@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_solstarian",
       "texture": "cobblemon:textures/pokemon/mythire/solstarian.png",
       "layers": []
     },

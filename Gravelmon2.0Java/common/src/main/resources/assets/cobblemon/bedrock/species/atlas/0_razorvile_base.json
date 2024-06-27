@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_razorvile",
       "texture": "cobblemon:textures/pokemon/atlas/razorvile.png",
       "layers": []
     },

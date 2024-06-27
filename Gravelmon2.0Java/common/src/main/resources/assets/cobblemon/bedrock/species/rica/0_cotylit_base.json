@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_cotylit",
       "texture": "cobblemon:textures/pokemon/rica/cotylit.png",
       "layers": []
     },

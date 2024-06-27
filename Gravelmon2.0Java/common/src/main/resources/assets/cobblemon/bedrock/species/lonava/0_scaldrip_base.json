@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_scaldrip",
       "texture": "cobblemon:textures/pokemon/lonava/scaldrip.png",
       "layers": []
     },

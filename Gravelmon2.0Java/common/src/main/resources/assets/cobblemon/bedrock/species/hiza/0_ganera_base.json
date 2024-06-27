@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_ganera",
       "texture": "cobblemon:textures/pokemon/hiza/ganera.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_bactiny",
       "texture": "cobblemon:textures/pokemon/interregional/bactiny.png",
       "layers": []
     },

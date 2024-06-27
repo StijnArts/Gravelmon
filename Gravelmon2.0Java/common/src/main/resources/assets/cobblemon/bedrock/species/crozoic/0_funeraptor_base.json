@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_funeraptor",
       "texture": "cobblemon:textures/pokemon/crozoic/funeraptor.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_silvictor",
       "texture": "cobblemon:textures/pokemon/novrai/silvictor.png",
       "layers": []
     },

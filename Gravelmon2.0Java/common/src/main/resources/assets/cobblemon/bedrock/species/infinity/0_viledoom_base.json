@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_viledoom",
       "texture": "cobblemon:textures/pokemon/infinity/viledoom.png",
       "layers": []
     },

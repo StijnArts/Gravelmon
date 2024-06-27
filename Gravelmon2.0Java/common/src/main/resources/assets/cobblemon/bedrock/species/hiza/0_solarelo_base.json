@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_solarelo",
       "texture": "cobblemon:textures/pokemon/hiza/solarelo.png",
       "layers": []
     },

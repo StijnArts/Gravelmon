@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_sphagern",
       "texture": "cobblemon:textures/pokemon/lonava/sphagern.png",
       "layers": []
     },

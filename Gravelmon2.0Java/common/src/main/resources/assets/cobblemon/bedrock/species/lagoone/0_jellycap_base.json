@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_jellycap",
       "texture": "cobblemon:textures/pokemon/lagoone/jellycap.png",
       "layers": []
     },

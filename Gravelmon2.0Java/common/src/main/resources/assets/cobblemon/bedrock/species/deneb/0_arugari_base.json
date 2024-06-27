@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_arugari",
       "texture": "cobblemon:textures/pokemon/deneb/arugari.png",
       "layers": []
     },

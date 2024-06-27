@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_tanklang",
       "texture": "cobblemon:textures/pokemon/varitas/tanklang.png",
       "layers": []
     },

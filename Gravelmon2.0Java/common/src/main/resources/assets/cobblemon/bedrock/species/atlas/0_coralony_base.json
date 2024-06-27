@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_coralony",
       "texture": "cobblemon:textures/pokemon/atlas/coralony.png",
       "layers": []
     },

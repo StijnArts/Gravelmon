@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_covkoon",
       "texture": "cobblemon:textures/pokemon/hiza/covkoon.png",
       "layers": []
     },

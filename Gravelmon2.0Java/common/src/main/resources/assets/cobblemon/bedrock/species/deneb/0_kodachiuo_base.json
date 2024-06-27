@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_kodachiuo",
       "texture": "cobblemon:textures/pokemon/deneb/kodachiuo.png",
       "layers": []
     },

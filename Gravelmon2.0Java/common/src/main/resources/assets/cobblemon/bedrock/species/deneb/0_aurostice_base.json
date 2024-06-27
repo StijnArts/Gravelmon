@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_aurostice",
       "texture": "cobblemon:textures/pokemon/deneb/aurostice.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_anvelid",
       "texture": "cobblemon:textures/pokemon/sage/anvelid.png",
       "layers": []
     },

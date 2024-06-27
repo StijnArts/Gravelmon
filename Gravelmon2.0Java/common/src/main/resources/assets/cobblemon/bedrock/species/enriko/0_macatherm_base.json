@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_macatherm",
       "texture": "cobblemon:textures/pokemon/enriko/macatherm.png",
       "layers": []
     },

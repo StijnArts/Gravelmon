@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_phantamaron",
       "texture": "cobblemon:textures/pokemon/oceane/phantamaron.png",
       "layers": []
     },

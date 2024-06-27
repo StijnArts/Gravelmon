@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_sorbeak",
       "texture": "cobblemon:textures/pokemon/interregional/sorbeak.png",
       "layers": []
     },

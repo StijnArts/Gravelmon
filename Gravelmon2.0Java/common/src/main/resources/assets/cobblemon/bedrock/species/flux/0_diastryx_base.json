@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_diastryx",
       "texture": "cobblemon:textures/pokemon/flux/diastryx.png",
       "layers": []
     },

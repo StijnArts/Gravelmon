@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_slackonch",
       "texture": "cobblemon:textures/pokemon/lonava/slackonch.png",
       "layers": []
     },

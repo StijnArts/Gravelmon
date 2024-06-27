@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_delibo",
       "texture": "cobblemon:textures/pokemon/rica/delibo.png",
       "layers": []
     },

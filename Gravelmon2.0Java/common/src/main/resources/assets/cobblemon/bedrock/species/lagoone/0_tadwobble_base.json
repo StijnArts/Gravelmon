@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_tadwobble",
       "texture": "cobblemon:textures/pokemon/lagoone/tadwobble.png",
       "layers": []
     },

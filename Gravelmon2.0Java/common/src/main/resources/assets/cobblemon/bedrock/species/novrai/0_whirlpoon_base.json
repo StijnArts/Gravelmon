@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_whirlpoon",
       "texture": "cobblemon:textures/pokemon/novrai/whirlpoon.png",
       "layers": []
     },

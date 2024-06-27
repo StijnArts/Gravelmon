@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_rabbeti",
       "texture": "cobblemon:textures/pokemon/hiza/rabbeti.png",
       "layers": []
     },

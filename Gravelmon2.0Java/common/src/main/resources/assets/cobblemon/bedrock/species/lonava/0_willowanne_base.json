@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_willowanne",
       "texture": "cobblemon:textures/pokemon/lonava/willowanne.png",
       "layers": []
     },

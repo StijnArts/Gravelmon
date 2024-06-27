@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_vamprachne",
       "texture": "cobblemon:textures/pokemon/umbra/vamprachne.png",
       "layers": []
     },

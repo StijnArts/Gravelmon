@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_silter",
       "texture": "cobblemon:textures/pokemon/amavi/silter.png",
       "layers": []
     },

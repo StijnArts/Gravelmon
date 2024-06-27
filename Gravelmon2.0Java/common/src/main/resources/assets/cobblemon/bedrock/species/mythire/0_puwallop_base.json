@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_puwallop",
       "texture": "cobblemon:textures/pokemon/mythire/puwallop.png",
       "layers": []
     },

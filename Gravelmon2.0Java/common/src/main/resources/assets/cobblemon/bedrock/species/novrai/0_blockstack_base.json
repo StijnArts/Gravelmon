@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_blockstack",
       "texture": "cobblemon:textures/pokemon/novrai/blockstack.png",
       "layers": []
     },

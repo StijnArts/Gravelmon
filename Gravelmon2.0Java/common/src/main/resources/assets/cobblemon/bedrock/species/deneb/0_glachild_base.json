@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_glachild",
       "texture": "cobblemon:textures/pokemon/deneb/glachild.png",
       "layers": []
     },

@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_sliezen",
       "texture": "cobblemon:textures/pokemon/interregional/sliezen.png",
       "layers": []
     },

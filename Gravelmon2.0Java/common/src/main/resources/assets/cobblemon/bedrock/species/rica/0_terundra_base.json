@@ -5,6 +5,7 @@
     {
       "aspects": [],
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_terundra",
       "texture": "cobblemon:textures/pokemon/rica/terundra.png",
       "layers": []
     },
