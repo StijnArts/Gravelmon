@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:partae",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "lost_islands"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_lostislandspartae",
+      "texture": "cobblemon:textures/pokemon/ferroa/lostislandspartae.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "lost_islands",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_lostislandspartae",
+      "texture": "cobblemon:textures/pokemon/ferroa/lostislandspartae_shiny.png",
+      "layers": []
+    }
+  ]
+}

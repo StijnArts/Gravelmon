@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:shampooch",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/shampooch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/shampooch_shiny.png"
+    }
+  ]
+}

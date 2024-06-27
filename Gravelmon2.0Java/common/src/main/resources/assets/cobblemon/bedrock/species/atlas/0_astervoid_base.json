@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:astervoid",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/astervoid.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/astervoid_shiny.png"
+    }
+  ]
+}

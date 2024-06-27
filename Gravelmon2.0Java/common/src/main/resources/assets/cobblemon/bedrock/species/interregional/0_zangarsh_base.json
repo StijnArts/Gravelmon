@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:zangarsh",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/interregional/zangarsh.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/interregional/zangarsh_shiny.png"
+    }
+  ]
+}

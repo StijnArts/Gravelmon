@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:squalucid",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/squalucid.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/squalucid_shiny.png"
+    }
+  ]
+}

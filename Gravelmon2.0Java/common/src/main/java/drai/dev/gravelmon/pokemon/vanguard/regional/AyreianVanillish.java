@@ -20,7 +20,7 @@ public class AyreianVanillish extends Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Unable to survive in cold areas, it makes itself comfortable by breathing out air to cause sandstorms. It burrows into the sand to sleep."),
-                List.of(new EvolutionEntry("ayreianvanniluxe", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("ayreianvanilluxe", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLAME_BURST, 1),

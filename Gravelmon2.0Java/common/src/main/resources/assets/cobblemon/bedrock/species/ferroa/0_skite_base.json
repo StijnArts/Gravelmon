@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:skite",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/skite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/skite_shiny.png"
+    }
+  ]
+}

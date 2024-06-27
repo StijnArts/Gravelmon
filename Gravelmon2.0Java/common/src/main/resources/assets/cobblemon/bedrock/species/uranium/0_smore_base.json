@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:smore",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/smore.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/smore_shiny.png"
+    }
+  ]
+}

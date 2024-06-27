@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pyroad",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enriko/pyroad.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enriko/pyroad_shiny.png"
+    }
+  ]
+}

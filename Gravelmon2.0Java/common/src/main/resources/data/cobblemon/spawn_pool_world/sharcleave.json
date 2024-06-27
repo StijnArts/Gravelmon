@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sharcleave-1",
+      "pokemon": "sharcleave",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-58",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_summer",
+"#cobblemon:is_winter" ]    }
+    }
+  ]
+}

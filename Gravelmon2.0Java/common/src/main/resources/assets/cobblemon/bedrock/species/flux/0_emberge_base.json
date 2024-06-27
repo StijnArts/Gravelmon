@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:emberge",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/flux/emberge.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/flux/emberge_shiny.png"
+    }
+  ]
+}

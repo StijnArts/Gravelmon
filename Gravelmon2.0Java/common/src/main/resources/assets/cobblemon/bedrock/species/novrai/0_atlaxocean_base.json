@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:atlaxocean",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/atlaxocean.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/atlaxocean_shiny.png"
+    }
+  ]
+}

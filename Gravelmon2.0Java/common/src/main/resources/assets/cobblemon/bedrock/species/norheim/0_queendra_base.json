@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:queendra",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/queendra.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/queendra_shiny.png"
+    }
+  ]
+}

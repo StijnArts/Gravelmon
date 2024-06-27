@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:scuddle",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/scuddle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/scuddle_shiny.png"
+    }
+  ]
+}

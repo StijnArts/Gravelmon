@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:shalazhimm",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/shalazhimm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/shalazhimm_shiny.png"
+    }
+  ]
+}

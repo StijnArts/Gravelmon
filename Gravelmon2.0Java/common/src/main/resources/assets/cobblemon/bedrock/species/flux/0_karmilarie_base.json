@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:karmilarie",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/flux/karmilarie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/flux/karmilarie_shiny.png"
+    }
+  ]
+}

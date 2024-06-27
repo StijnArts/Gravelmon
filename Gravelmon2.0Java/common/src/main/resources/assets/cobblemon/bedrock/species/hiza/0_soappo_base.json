@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:soappo",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/soappo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/soappo_shiny.png"
+    }
+  ]
+}

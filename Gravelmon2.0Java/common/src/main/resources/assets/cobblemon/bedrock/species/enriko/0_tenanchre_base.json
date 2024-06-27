@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:tenanchre",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enriko/tenanchre.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enriko/tenanchre_shiny.png"
+    }
+  ]
+}

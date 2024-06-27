@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "meowster-1",
+      "pokemon": "meowster",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "32-56",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": true
+      }
+    }
+  ]
+}

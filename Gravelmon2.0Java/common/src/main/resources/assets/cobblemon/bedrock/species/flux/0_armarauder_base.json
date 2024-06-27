@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:armarauder",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/flux/armarauder.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/flux/armarauder_shiny.png"
+    }
+  ]
+}

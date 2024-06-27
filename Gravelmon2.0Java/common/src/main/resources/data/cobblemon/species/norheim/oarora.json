@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "oarora",
+  "nationalPokedexNumber": 3203,
+  "primaryType": "dragon",
+  "secondaryType": "ice",
+  "abilities": [
+    "levitate",
+    "magicbounce",
+    "h:psychicsurge"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 60,
+    "special_attack": 110,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:dragonbreath",
+    "16:auroraveil",
+    "24:signalbeam",
+    "34:barrier",
+    "38:dragontail",
+    "42:gravitycosmic",
+    "48:dragonpulse",
+    "55:cosmicpowercosmic",
+    "62:psyshock",
+    "68:icebeam",
+    "tm:powergemcrystal",
+    "tm:miracleeye",
+    "tm:iceshard",
+    "tm:coil"  ],
+  "labels": [
+    "norheim",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.oarora.desc"
+  ],
+  "preEvolution": "flaki",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

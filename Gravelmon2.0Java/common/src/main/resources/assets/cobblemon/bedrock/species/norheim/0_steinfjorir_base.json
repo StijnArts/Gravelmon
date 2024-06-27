@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:steinfjorir",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/steinfjorir.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/steinfjorir_shiny.png"
+    }
+  ]
+}

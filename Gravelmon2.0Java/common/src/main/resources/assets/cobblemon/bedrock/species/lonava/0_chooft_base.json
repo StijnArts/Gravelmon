@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:chooft",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lonava/chooft.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/chooft_shiny.png"
+    }
+  ]
+}

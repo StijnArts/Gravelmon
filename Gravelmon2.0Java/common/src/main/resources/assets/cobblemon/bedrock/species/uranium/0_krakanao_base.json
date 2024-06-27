@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:krakanao",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/krakanao.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/krakanao_shiny.png"
+    }
+  ]
+}

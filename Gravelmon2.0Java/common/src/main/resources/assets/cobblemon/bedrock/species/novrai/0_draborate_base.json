@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:draborate",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/draborate.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/draborate_shiny.png"
+    }
+  ]
+}

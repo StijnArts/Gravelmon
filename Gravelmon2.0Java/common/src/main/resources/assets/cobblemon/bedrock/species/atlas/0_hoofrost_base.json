@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hoofrost",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/hoofrost.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/hoofrost_shiny.png"
+    }
+  ]
+}

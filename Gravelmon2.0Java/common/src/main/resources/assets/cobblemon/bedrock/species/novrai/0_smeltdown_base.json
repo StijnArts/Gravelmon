@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:smeltdown",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/smeltdown.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/smeltdown_shiny.png"
+    }
+  ]
+}

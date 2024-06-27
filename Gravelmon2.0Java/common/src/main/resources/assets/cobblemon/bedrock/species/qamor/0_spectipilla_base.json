@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:spectipilla",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/qamor/spectipilla.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/qamor/spectipilla_shiny.png"
+    }
+  ]
+}

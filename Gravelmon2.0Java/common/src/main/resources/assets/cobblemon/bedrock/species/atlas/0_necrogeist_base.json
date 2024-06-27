@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:necrogeist",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/necrogeist.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/necrogeist_shiny.png"
+    }
+  ]
+}

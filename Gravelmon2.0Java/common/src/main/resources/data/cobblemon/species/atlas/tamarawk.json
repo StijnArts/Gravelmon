@@ -1,0 +1,135 @@
+{
+  "implemented": true,
+  "name": "tamarawk",
+  "nationalPokedexNumber": 5464,
+  "primaryType": "normal",
+  "secondaryType": "rock",
+  "abilities": [
+    "oblivious",
+    "reckless",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 49,
+    "attack": 73,
+    "defence": 51,
+    "special_attack": 35,
+    "special_defence": 42,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:growl",
+    "5:rockthrow",
+    "9:screechsound",
+    "14:bulldoze",
+    "18:doublekick",
+    "22:takedown",
+    "26:rockslide",
+    "31:doubleedge",
+    "37:stoneedge",
+    "43:headsmash",
+    "tm:attract",
+    "tm:bulldoze",
+    "tm:doubleteam",
+    "tm:earthquake",
+    "tm:echoedvoicesound",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:roundsound",
+    "tm:sandstorm",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:followme",
+    "tm:rockwrecker"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.tamarawk.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "tamarawk_bouldalo",
+      "variant": "level_up",
+      "result": "bouldalo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 43
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

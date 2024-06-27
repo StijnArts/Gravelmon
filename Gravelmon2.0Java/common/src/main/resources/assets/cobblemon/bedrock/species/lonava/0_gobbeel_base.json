@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:gobbeel",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lonava/gobbeel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/gobbeel_shiny.png"
+    }
+  ]
+}

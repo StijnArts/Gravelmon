@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:dyramic",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/fliga/dyramic.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fliga/dyramic_shiny.png"
+    }
+  ]
+}

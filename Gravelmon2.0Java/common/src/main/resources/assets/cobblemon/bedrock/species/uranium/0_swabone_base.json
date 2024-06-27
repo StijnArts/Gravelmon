@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:swabone",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/swabone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/swabone_shiny.png"
+    }
+  ]
+}

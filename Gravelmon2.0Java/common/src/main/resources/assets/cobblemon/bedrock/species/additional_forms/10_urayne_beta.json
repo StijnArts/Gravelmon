@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:urayne",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "beta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_betaurayne",
+      "texture": "cobblemon:textures/pokemon/uranium/betaurayne.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "beta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_betaurayne",
+      "texture": "cobblemon:textures/pokemon/uranium/betaurayne_shiny.png",
+      "layers": []
+    }
+  ]
+}

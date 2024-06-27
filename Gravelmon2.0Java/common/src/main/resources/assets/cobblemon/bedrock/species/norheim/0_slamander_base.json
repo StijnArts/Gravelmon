@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:slamander",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/slamander.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/slamander_shiny.png"
+    }
+  ]
+}

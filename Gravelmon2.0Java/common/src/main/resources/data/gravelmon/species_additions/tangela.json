@@ -62,11 +62,14 @@
     "55:hydropump"  ],
   "labels": [
     "qamor",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.qamorantangela.desc"
   ],
+  "preEvolution": "weeduza",
   "evolutions": [
     {
       "id": "qamorantangela_tangrowth",
@@ -240,11 +243,14 @@
   "labels": [
     "infinity",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghotangela.desc"
   ],
+  "preEvolution": "weeduza",
   "evolutions": [
     {
       "id": "eghotangela_tangrowth",
@@ -530,11 +536,14 @@
   "labels": [
     "blazing_emerald",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoenniantangela.desc"
   ],
+  "preEvolution": "weeduza",
   "evolutions": [
     {
       "id": "hoenniantangela_tangrowth",

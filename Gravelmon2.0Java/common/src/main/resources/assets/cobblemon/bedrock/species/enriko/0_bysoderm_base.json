@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:bysoderm",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enriko/bysoderm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enriko/bysoderm_shiny.png"
+    }
+  ]
+}

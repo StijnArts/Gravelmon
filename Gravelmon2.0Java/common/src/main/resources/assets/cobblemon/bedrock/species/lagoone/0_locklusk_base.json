@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:locklusk",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lagoone/locklusk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/locklusk_shiny.png"
+    }
+  ]
+}

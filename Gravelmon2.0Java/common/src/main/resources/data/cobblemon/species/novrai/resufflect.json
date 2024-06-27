@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+  "name": "resufflect",
+  "nationalPokedexNumber": 5255,
+  "primaryType": "steel",
+  "secondaryType": "ghost",
+  "abilities": [
+    "mirrorarmor",
+    "h:magicbounce"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 115,
+    "defence": 70,
+    "special_attack": 105,
+    "special_defence": 55,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:mimic",
+    "12:bite",
+    "16:astonish",
+    "19:mirrorshot",
+    "24:reflect",
+    "27:mirrorcoat",
+    "31:metalburst",
+    "35:flashcannon",
+    "42:curse",
+    "47:screechsound",
+    "50:gyroball",
+    "54:reflecttype",
+    "56:painsplit",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:zenheadbutt",
+    "tm:recycle",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:trick",
+    "tm:refresh",
+    "tm:superfang",
+    "tm:shockwave",
+    "tm:phantomforce",
+    "tm:suckerpunch",
+    "tm:magiccoat",
+    "tm:snoresound",
+    "tm:ominouswind",
+    "tm:rapidspin",
+    "tm:poweruppunch",
+    "tm:powergemcrystal",
+    "tm:firefang",
+    "tm:icefang",
+    "tm:thunderfang",
+    "tm:poltergeist",
+    "tm:steelbeam",
+    "tm:calmmind",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:painsplit",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:thief",
+    "tm:honeclaws",
+    "tm:psychocut",
+    "tm:curse",
+    "tm:willowisp",
+    "tm:flash",
+    "tm:explosion",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:trickroom",
+    "tm:naturalgift",
+    "tm:darkpulse",
+    "tm:magnetrise",
+    "tm:dazzlinggleam",
+    "tm:confide",
+    "tm:smackdown",
+    "tm:skillswap",
+    "tm:hex",
+    "tm:cut"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.resufflect.desc"
+  ],
+  "preEvolution": "romirror",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

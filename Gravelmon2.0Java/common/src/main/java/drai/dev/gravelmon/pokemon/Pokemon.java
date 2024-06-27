@@ -354,7 +354,7 @@ public class Pokemon {
                         pokemonThatEvolveIntoThemselves += pokemon.getCleanName() + ",\n";
                     }
 
-                    if (result.preEvolution != null) {
+                    if (result.preEvolution != null && Pokemon.isAnAdditionalForm(pokemon)) {
                         continue;
                     }
                     if (!isBasedOnOriginalPokemon(pokemon)) {
@@ -365,7 +365,6 @@ public class Pokemon {
                         if(resultName.isPresent()){
                             result.setPreEvolution(resultName.get()+ " form="+pokemon.getAdditionalAspect().getName().toLowerCase());
                         }
-//                        result.setPreEvolution(pokemon.name.toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"")+" form="+pokemon.getAdditionalAspect().getName().toLowerCase());
                     } else {
                         result.setPreEvolution(pokemon.getCleanName());
                     }

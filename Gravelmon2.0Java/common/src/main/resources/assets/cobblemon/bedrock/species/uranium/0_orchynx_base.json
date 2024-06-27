@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:orchynx",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/orchynx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/orchynx_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:budy",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/fliga/budy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fliga/budy_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:brawnze",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/brawnze.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/brawnze_shiny.png"
+    }
+  ]
+}

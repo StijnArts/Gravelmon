@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:firoke",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/firoke.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/firoke_shiny.png"
+    }
+  ]
+}

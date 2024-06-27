@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:lopiliar",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/lopiliar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/lopiliar_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:prospecktor",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/prospecktor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/prospecktor_shiny.png"
+    }
+  ]
+}

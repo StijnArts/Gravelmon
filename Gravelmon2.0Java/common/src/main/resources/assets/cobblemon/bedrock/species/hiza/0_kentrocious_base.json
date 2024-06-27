@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kentrocious",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/kentrocious.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/kentrocious_shiny.png"
+    }
+  ]
+}

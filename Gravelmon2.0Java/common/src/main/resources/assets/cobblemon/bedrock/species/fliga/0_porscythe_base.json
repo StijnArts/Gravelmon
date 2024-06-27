@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:porscythe",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/fliga/porscythe.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fliga/porscythe_shiny.png"
+    }
+  ]
+}

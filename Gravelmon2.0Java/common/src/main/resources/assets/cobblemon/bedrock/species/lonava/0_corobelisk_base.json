@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:corobelisk",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lonava/corobelisk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/corobelisk_shiny.png"
+    }
+  ]
+}

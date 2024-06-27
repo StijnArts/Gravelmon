@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:skelevera",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/skelevera.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/skelevera_shiny.png"
+    }
+  ]
+}

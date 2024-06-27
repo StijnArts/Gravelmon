@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kroach",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/orohn-havai/kroach.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/orohn-havai/kroach_shiny.png"
+    }
+  ]
+}

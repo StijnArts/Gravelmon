@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:velveil",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enriko/velveil.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enriko/velveil_shiny.png"
+    }
+  ]
+}

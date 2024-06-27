@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wilspri",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/orohn-havai/wilspri.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/orohn-havai/wilspri_shiny.png"
+    }
+  ]
+}

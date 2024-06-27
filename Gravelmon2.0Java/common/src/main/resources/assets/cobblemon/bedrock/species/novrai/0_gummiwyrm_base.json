@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:gummiwyrm",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/gummiwyrm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/gummiwyrm_shiny.png"
+    }
+  ]
+}

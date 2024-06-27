@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snowl-1",
+      "pokemon": "snowl",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-43",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest",
+"#cobblemon:is_tundra" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:tarturough",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/fliga/tarturough.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fliga/tarturough_shiny.png"
+    }
+  ]
+}

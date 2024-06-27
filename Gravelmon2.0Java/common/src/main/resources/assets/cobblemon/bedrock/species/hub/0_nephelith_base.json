@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:nephelith",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hub/nephelith.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hub/nephelith_shiny.png"
+    }
+  ]
+}

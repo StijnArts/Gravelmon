@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "prickub-1",
+      "pokemon": "prickub",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-28",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_sandy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

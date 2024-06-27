@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:whirlpoon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/whirlpoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/whirlpoon_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:squiwer",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/interregional/squiwer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/interregional/squiwer_shiny.png"
+    }
+  ]
+}

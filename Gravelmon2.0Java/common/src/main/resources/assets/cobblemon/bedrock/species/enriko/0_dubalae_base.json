@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:dubalae",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enriko/dubalae.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enriko/dubalae_shiny.png"
+    }
+  ]
+}

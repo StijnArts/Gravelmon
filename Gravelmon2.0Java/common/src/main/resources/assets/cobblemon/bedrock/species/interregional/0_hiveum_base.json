@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hiveum",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/interregional/hiveum.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/interregional/hiveum_shiny.png"
+    }
+  ]
+}

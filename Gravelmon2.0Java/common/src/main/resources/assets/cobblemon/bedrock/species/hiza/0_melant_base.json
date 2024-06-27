@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:melant",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/melant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/melant_shiny.png"
+    }
+  ]
+}

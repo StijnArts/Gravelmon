@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:minjin",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ionos/minjin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/minjin_shiny.png"
+    }
+  ]
+}

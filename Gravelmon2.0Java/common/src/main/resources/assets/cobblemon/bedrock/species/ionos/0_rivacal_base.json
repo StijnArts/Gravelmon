@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:rivacal",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ionos/rivacal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/rivacal_shiny.png"
+    }
+  ]
+}

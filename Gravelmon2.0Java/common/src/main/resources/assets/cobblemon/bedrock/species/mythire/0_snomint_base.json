@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:snomint",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/mythire/snomint.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/snomint_shiny.png"
+    }
+  ]
+}

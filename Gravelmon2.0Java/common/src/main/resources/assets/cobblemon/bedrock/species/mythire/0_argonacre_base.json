@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:argonacre",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/mythire/argonacre.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/argonacre_shiny.png"
+    }
+  ]
+}

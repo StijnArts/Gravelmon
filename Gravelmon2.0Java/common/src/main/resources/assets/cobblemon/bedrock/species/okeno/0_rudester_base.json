@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:rudester",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/okeno/rudester.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/rudester_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cactana",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/flux/cactana.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/flux/cactana_shiny.png"
+    }
+  ]
+}

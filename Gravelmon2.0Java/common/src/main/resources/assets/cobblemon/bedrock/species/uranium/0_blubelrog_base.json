@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:blubelrog",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/blubelrog.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/blubelrog_shiny.png"
+    }
+  ]
+}

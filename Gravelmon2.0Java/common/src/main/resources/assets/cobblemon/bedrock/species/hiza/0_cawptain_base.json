@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cawptain",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/cawptain.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/cawptain_shiny.png"
+    }
+  ]
+}

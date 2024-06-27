@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:shockitt",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lagoone/shockitt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/shockitt_shiny.png"
+    }
+  ]
+}

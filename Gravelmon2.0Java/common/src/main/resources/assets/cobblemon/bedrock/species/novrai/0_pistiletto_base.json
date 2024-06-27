@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pistiletto",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/pistiletto.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/pistiletto_shiny.png"
+    }
+  ]
+}

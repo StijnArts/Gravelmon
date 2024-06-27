@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:parumpum",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/qamor/parumpum.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/qamor/parumpum_shiny.png"
+    }
+  ]
+}

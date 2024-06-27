@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "adnaviria",
+  "nationalPokedexNumber": 1963,
+  "primaryType": "psychic",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 78,
+    "defence": 55,
+    "special_attack": 78,
+    "special_defence": 66,
+    "speed": 78
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:confusion",
+    "1:growl",
+    "1:healingwish",
+    "1:wrap",
+    "13:yawn",
+    "16:storedpower",
+    "19:takedown",
+    "22:extrasensory",
+    "27:healbellsound",
+    "32:uproar",
+    "37:safeguard",
+    "42:doubleedge",
+    "47:healpulse"  ],
+  "labels": [
+    "enriko",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.adnaviria.desc"
+  ],
+  "preEvolution": "psyrus",
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

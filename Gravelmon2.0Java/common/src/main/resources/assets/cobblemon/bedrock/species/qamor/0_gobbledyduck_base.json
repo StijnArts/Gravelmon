@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:gobbledyduck",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/qamor/gobbledyduck.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/qamor/gobbledyduck_shiny.png"
+    }
+  ]
+}

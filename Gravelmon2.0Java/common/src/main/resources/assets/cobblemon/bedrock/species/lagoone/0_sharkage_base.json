@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:sharkage",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lagoone/sharkage.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/sharkage_shiny.png"
+    }
+  ]
+}

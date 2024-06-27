@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cephamore",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/mythire/cephamore.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/cephamore_shiny.png"
+    }
+  ]
+}

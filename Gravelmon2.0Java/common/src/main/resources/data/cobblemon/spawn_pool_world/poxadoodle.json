@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "poxadoodle-1",
+      "pokemon": "poxadoodle",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "29-47",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

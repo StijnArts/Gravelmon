@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:rokkap",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/mythire/rokkap.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/rokkap_shiny.png"
+    }
+  ]
+}

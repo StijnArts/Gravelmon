@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "gigantoid",
+  "nationalPokedexNumber": 1656,
+  "primaryType": "ground",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 140,
+    "attack": 55,
+    "defence": 88,
+    "special_attack": 55,
+    "special_defence": 88,
+    "speed": 33
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:leer",
+    "1:tackle",
+    "4:sandattack",
+    "7:gust",
+    "10:mudslap",
+    "13:echoedvoicesound",
+    "16:whirlwind",
+    "19:aircutter",
+    "22:tailwind",
+    "25:mudshot",
+    "29:tempest",
+    "33:roost",
+    "37:mudslide",
+    "43:sandstorm",
+    "49:airslash",
+    "55:earthquake",
+    "61:nastyplot",
+    "67:hurricane"  ],
+  "labels": [
+    "interregional",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.gigantoid.desc"
+  ],
+  "baseScale": 1.4000000000000001,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 56,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

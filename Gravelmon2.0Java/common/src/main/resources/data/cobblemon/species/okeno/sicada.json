@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "sicada",
+  "nationalPokedexNumber": 4649,
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "abilities": [
+    "swarm",
+    "telepathy",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 34,
+    "attack": 40,
+    "defence": 30,
+    "special_attack": 73,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 45,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "4:supersonic",
+    "7:disarmingvoicesound",
+    "10:singsound",
+    "14:roundsound",
+    "18:strugglebug",
+    "21:encore",
+    "24:echoedvoicesound",
+    "30:metronome",
+    "34:synchronoise",
+    "37:signalbeam",
+    "43:hypervoicesound",
+    "47:bugbuzzsound",
+    "54:perishsongsound",
+    "tm:healbellsound",
+    "tm:uproar",
+    "tm:boomburstsound",
+    "tm:silverwind",
+    "tm:extrasensory",
+    "tm:imprison"  ],
+  "labels": [
+    "okeno",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sicada.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sicada_maestring",
+      "variant": "level_up",
+      "result": "maestring",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

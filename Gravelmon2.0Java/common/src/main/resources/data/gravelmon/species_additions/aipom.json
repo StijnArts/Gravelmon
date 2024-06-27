@@ -47,6 +47,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:empty_skull",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:leer",
     "1:scratch",

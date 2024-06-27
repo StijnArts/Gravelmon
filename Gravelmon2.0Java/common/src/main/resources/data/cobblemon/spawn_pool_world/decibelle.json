@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "decibelle-1",
+      "pokemon": "decibelle",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "2-28",
+      "weight": 3.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_temperate" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:rexinder",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/crozoic/rexinder.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/rexinder_shiny.png"
+    }
+  ]
+}

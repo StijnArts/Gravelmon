@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mementori",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/mythire/mementori.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/mementori_shiny.png"
+    }
+  ]
+}

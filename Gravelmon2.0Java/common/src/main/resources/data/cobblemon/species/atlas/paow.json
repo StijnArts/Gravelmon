@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "paow",
+  "nationalPokedexNumber": 5571,
+  "primaryType": "dragon",
+  "abilities": [
+    "aftermath",
+    "flareboost",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 70,
+    "defence": 27,
+    "special_attack": 100,
+    "special_defence": 27,
+    "speed": 86
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 215,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "amorphous"
+  ],
+  "moves": [
+    "1:smokescreen",
+    "4:smog",
+    "8:quickattack",
+    "12:dragonrage",
+    "15:flamecharge",
+    "19:scaryface",
+    "22:takedown",
+    "26:flameburst",
+    "30:dragonbreath",
+    "34:crunch",
+    "38:dragonrush",
+    "42:lockon",
+    "45:dragonpulse",
+    "49:fireblast",
+    "tm:explosion",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:focusblast",
+    "tm:uturn",
+    "tm:signalbeam",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:overheat",
+    "tm:flamecharge",
+    "tm:incinerate",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:aerialace",
+    "tm:acrobatics",
+    "tm:fly",
+    "tm:flashcannon",
+    "tm:shadowball",
+    "tm:brutalswing",
+    "tm:sludgebomb",
+    "tm:rockslide",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:roarsound",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:dragondance",
+    "tm:flareblitz"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.paow.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "paow_ganpaow",
+      "variant": "level_up",
+      "result": "ganpaow",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

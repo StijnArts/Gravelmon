@@ -251,11 +251,13 @@
   "labels": [
     "gen5",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianvanilluxe.desc"
   ],
+  "preEvolution": "vanillish form=ayreian",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,

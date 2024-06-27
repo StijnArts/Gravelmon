@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:imprism",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/cyare/imprism.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/imprism_shiny.png"
+    }
+  ]
+}

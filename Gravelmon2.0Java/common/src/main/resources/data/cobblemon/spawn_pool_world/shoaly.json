@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shoaly-1",
+      "pokemon": "shoaly",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 6.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

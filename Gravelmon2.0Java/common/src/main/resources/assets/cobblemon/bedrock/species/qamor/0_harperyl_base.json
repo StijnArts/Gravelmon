@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:harperyl",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/qamor/harperyl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/qamor/harperyl_shiny.png"
+    }
+  ]
+}

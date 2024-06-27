@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:inspark",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/okeno/inspark.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/inspark_shiny.png"
+    }
+  ]
+}

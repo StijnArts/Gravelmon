@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hibernabbit",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enriko/hibernabbit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enriko/hibernabbit_shiny.png"
+    }
+  ]
+}

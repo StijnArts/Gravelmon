@@ -114,9 +114,9 @@
   ],
   "evolutions": [
     {
-      "id": "ayreiangrookey_thwacky",
+      "id": "ayreiangrookey_thwackey",
       "variant": "level_up",
-      "result": "thwacky ayreian",
+      "result": "thwackey ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

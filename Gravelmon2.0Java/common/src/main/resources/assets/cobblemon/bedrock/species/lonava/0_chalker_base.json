@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:chalker",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lonava/chalker.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/chalker_shiny.png"
+    }
+  ]
+}

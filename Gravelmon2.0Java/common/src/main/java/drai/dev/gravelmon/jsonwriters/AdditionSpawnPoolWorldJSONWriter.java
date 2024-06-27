@@ -10,12 +10,14 @@ import java.nio.file.*;
 import java.util.*;
 
 import static drai.dev.gravelmon.jsonwriters.SpawnPoolWorldJSONWriter.conditionsToString;
+import static drai.dev.gravelmon.pokemon.Pokemon.ADDITIONAL_FORMS;
+import static drai.dev.gravelmon.pokemon.Pokemon.getKeysByValue;
 
 public class AdditionSpawnPoolWorldJSONWriter {
 
     public static void writeSpawns(String resourcesDir){
         String dir = resourcesDir+"\\data\\gravelmon\\spawn_pool_world\\";
-        Pokemon.ADDITIONAL_FORMS.entrySet().forEach(set -> {
+        ADDITIONAL_FORMS.entrySet().forEach(set -> {
             try {
                 Files.createDirectories(new File(dir).toPath());
                 writeSpawn(set, dir);
@@ -41,7 +43,7 @@ public class AdditionSpawnPoolWorldJSONWriter {
                 }
                 fileContents +=         "    {\n" +
                         "      \"id\": \""+pokemon.getCleanName()+"-1\",\n" +
-                        "      \"pokemon\": \""+pokemon.getCleanName().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"")+
+                        "      \"pokemon\": \""+getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst() +
                         " "+pokemon.getAdditionalAspect().getName().toLowerCase()+"\",\n" +
                         "      \"presets\": [\n          ";
 
@@ -96,7 +98,7 @@ public class AdditionSpawnPoolWorldJSONWriter {
                 fileContents +=
                         "    {\n" +
                                 "      \"id\": \"" + form.getCleanName() + "_" + pokemon.getCleanName() + "-1\",\n" +
-                                "      \"pokemon\": \""+pokemon.getCleanName().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(),"")+
+                                "      \"pokemon\": \""+getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst()+
                                 " "+pokemon.getAdditionalAspect().getName().toLowerCase()+"\",\n" +
                                 "      \"presets\": [ ";
                 boolean isFirstFormSpawnPreset = true;

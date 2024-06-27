@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hadrosmoke",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/mythire/hadrosmoke.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/hadrosmoke_shiny.png"
+    }
+  ]
+}

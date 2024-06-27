@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:shrizzler",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lagoone/shrizzler.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/shrizzler_shiny.png"
+    }
+  ]
+}

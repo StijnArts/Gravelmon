@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:grimfernal",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/grimfernal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/grimfernal_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "implemented": true,
+  "name": "whoopwing",
+  "nationalPokedexNumber": 3973,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "bigpecks",
+    "h:tangledfeet"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 52,
+    "defence": 39,
+    "special_attack": 41,
+    "special_defence": 38,
+    "speed": 57
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 195,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 52,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:charm",
+    "7:quickattack",
+    "9:wingattack",
+    "13:attract",
+    "19:helpinghand",
+    "22:copycat",
+    "25:disarmingvoicesound",
+    "29:singsound",
+    "34:aerialace",
+    "37:roost",
+    "40:teeterdance",
+    "43:hypervoicesound",
+    "46:featherdance",
+    "50:boomburstsound",
+    "tm:bravebird",
+    "tm:airslash",
+    "tm:uproar",
+    "tm:roost",
+    "tm:snatch",
+    "tm:flatter",
+    "tm:captivate",
+    "tm:mirrormove",
+    "tm:luckychant",
+    "tm:dragonclaw"  ],
+  "labels": [
+    "qamor",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.whoopwing.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "whoopwing_miamacaw",
+      "variant": "level_up",
+      "result": "miamacaw",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mimentron-1",
+      "pokemon": "mimentron",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "29-46",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland",
+"#cobblemon:is_lush" ]
+      }
+    }
+  ]
+}

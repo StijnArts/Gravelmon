@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mobipup",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hub/mobipup.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hub/mobipup_shiny.png"
+    }
+  ]
+}

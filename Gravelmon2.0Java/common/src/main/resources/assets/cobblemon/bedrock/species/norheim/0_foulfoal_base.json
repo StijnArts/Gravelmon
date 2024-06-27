@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:foulfoal",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/foulfoal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/foulfoal_shiny.png"
+    }
+  ]
+}

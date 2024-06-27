@@ -1,10 +1,9 @@
 {
   "species": "cobblemon:bugbardier",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_bugbardier",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/ferroa/bugbardier.png",
       "layers": []
@@ -14,5 +13,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/bugbardier_shiny.png"
-    }  ]
+    }
+  ]
 }

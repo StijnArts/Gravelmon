@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:rivulcred",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/orohn-havai/rivulcred.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/orohn-havai/rivulcred_shiny.png"
+    }
+  ]
+}

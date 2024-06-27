@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "petumi",
+  "nationalPokedexNumber": 2933,
+  "primaryType": "grass",
+  "abilities": [
+    "leafguard",
+    "chlorophyll",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 35,
+    "defence": 50,
+    "special_attack": 35,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 41,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "1:growl",
+    "3:tailwhip",
+    "7:absorb",
+    "10:furyswipes",
+    "14:sweetscent",
+    "18:leechseed",
+    "21:megadrain",
+    "25:aromatherapy",
+    "30:razorleaf",
+    "33:grassyterrain",
+    "36:grasswhistle",
+    "41:grassknot",
+    "tm:tickle",
+    "tm:covet",
+    "tm:magicalleaf",
+    "tm:disarmingvoicesound",
+    "tm:flowershield"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.petumi.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "petumi_fleuroma",
+      "variant": "item_interact",
+      "result": "fleuroma",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

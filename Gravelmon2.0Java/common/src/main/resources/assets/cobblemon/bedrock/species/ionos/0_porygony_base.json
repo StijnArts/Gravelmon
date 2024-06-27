@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:porygony",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ionos/porygony.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/porygony_shiny.png"
+    }
+  ]
+}

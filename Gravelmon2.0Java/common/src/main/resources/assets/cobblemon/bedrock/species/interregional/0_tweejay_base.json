@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:tweejay",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/interregional/tweejay.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/interregional/tweejay_shiny.png"
+    }
+  ]
+}

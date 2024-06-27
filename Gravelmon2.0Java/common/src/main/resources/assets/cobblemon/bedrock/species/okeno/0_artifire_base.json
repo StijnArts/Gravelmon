@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:artifire",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/okeno/artifire.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/artifire_shiny.png"
+    }
+  ]
+}

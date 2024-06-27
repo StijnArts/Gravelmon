@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "reptide",
+  "nationalPokedexNumber": 1871,
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "abilities": [
+    "torrent",
+    "h:magicbounce"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 80,
+    "defence": 90,
+    "special_attack": 100,
+    "special_defence": 100,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 224,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "1:growl",
+    "6:bubble",
+    "8:camouflage",
+    "12:confusion",
+    "16:dragonrage",
+    "19:psybeam",
+    "21:aquaring",
+    "25:crunch",
+    "28:calmmind",
+    "36:aquatail",
+    "40:psychic",
+    "46:dragontail",
+    "50:cosmicpowercosmic",
+    "64:storedpower",
+    "90:dracometeor"  ],
+  "labels": [
+    "enriko",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.reptide.desc"
+  ],
+  "preEvolution": "pearlizz",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

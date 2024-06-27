@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:leilyne",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lonava/leilyne.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/leilyne_shiny.png"
+    }
+  ]
+}

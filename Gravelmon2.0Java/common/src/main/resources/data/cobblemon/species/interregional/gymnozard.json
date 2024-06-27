@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "gymnozard",
+  "nationalPokedexNumber": 1634,
+  "primaryType": "grass",
+  "abilities": [
+    "chlorophyll",
+    "dryskin",
+    "h:roughskin"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 88,
+    "special_attack": 55,
+    "special_defence": 102,
+    "speed": 115
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 179,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:defensecurl",
+    "5:pinmissile",
+    "8:sandattack",
+    "12:bite",
+    "16:needlearm",
+    "18:workup",
+    "21:snaptrap",
+    "25:spikes",
+    "30:dragontail",
+    "35:seedbomb",
+    "48:spikyshield",
+    "53:thrash",
+    "60:entrainment",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bide",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:bubblebeam",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragonrage",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fissure",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:megadrain",
+    "tm:megakick",
+    "tm:mimic",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:roarsound",
+    "tm:roundsound",
+    "tm:sandstorm",
+    "tm:skullbash",
+    "tm:sleeptalksound",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:watergun",
+    "tm:toxicspikes",
+    "tm:slam",
+    "tm:pinmissile",
+    "tm:dragondance",
+    "tm:crunch",
+    "tm:ingrain",
+    "tm:painsplit"  ],
+  "labels": [
+    "interregional",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.gymnozard.desc"
+  ],
+  "preEvolution": "cactabit",
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

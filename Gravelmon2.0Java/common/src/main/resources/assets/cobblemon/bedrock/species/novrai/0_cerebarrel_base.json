@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cerebarrel",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/cerebarrel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/cerebarrel_shiny.png"
+    }
+  ]
+}

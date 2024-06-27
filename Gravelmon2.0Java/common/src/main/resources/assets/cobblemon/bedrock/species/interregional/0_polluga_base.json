@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:polluga",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/interregional/polluga.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/interregional/polluga_shiny.png"
+    }
+  ]
+}

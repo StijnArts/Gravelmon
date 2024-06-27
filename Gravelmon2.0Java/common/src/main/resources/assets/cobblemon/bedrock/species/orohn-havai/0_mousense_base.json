@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mousense",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/orohn-havai/mousense.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/orohn-havai/mousense_shiny.png"
+    }
+  ]
+}

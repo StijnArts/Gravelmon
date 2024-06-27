@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:lamnaw",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/lamnaw.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/lamnaw_shiny.png"
+    }
+  ]
+}

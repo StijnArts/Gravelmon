@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:peerhini",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ionos/peerhini.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/peerhini_shiny.png"
+    }
+  ]
+}

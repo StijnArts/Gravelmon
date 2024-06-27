@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:raveclem",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enjin/raveclem.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/raveclem_shiny.png"
+    }
+  ]
+}

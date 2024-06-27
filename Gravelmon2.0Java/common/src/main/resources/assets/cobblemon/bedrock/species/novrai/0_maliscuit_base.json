@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:maliscuit",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/maliscuit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/maliscuit_shiny.png"
+    }
+  ]
+}

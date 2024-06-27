@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:juavarrior",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/interregional/juavarrior.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/interregional/juavarrior_shiny.png"
+    }
+  ]
+}

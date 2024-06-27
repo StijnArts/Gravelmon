@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "dumpchin",
+  "nationalPokedexNumber": 1901,
+  "primaryType": "poison",
+  "abilities": [
+    "hydration",
+    "waterveil",
+    "h:shellarmor"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 50,
+    "defence": 75,
+    "special_attack": 20,
+    "special_defence": 60,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "1:watersport",
+    "4:harden",
+    "9:acid",
+    "13:flail",
+    "17:rollout",
+    "21:yawn",
+    "26:slam",
+    "34:snoresound",
+    "38:rest",
+    "43:endeavor"  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.dumpchin.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "dumpchin_urchimpale",
+      "variant": "level_up",
+      "result": "urchimpale",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

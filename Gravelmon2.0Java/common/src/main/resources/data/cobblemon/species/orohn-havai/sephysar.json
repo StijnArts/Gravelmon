@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "sephysar",
+  "nationalPokedexNumber": 3054,
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "abilities": [
+    "swiftswim",
+    "waterveil",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 80,
+    "defence": 90,
+    "special_attack": 125,
+    "special_defence": 105,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 15,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "water_2"
+  ],
+  "moves": [
+    "1:hypervoicesound",
+    "6:watersport",
+    "10:bite",
+    "15:raindance",
+    "19:aquajet",
+    "24:bubblebeam",
+    "28:taunt",
+    "33:crunch",
+    "34:knockoff",
+    "38:agility",
+    "44:darkpulse",
+    "49:muddywater",
+    "55:suckerpunch",
+    "60:calmmind",
+    "67:hydropump",
+    "73:hyperbeam",
+    "tm:swiftcosmic",
+    "tm:safeguard",
+    "tm:dragonbreath",
+    "tm:whirlpool",
+    "tm:waterpulse",
+    "tm:dragonpulse",
+    "tm:icefang"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sephysar.desc"
+  ],
+  "preEvolution": "ogoprowl",
+  "baseScale": 0.775,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 31,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

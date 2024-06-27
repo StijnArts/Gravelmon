@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:warblu",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/orohn-havai/warblu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/orohn-havai/warblu_shiny.png"
+    }
+  ]
+}

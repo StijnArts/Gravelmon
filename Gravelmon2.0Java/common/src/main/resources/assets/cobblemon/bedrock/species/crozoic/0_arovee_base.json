@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:arovee",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/crozoic/arovee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/arovee_shiny.png"
+    }
+  ]
+}

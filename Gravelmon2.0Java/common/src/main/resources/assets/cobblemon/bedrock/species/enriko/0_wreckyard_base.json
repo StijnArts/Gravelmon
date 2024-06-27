@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wreckyard",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enriko/wreckyard.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enriko/wreckyard_shiny.png"
+    }
+  ]
+}

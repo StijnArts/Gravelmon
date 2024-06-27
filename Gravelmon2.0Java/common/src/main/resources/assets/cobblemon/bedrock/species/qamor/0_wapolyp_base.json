@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wapolyp",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/qamor/wapolyp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/qamor/wapolyp_shiny.png"
+    }
+  ]
+}

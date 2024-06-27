@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:garbagull",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/flux/garbagull.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/flux/garbagull_shiny.png"
+    }
+  ]
+}

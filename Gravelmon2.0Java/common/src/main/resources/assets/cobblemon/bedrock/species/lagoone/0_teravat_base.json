@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:teravat",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lagoone/teravat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/teravat_shiny.png"
+    }
+  ]
+}

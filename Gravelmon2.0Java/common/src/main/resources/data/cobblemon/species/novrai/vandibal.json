@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "vandibal",
+  "nationalPokedexNumber": 5138,
+  "primaryType": "poison",
+  "secondaryType": "bug",
+  "abilities": [
+    "toxicdebris",
+    "stench",
+    "h:aftermath"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 55,
+    "defence": 100,
+    "special_attack": 85,
+    "special_defence": 65,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 162,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:smokescreen",
+    "8:poisongas",
+    "11:acid",
+    "16:strugglebug",
+    "19:embargo",
+    "23:clearsmog",
+    "28:doodle",
+    "36:taunt",
+    "45:haze",
+    "49:toxicspikes",
+    "54:bugbuzzsound",
+    "tm:recycle",
+    "tm:knockoff",
+    "tm:gunkshot",
+    "tm:foulplay",
+    "tm:lunge",
+    "tm:endeavor",
+    "tm:suckerpunch",
+    "tm:toxicthread",
+    "tm:magiccoat",
+    "tm:snoresound",
+    "tm:bugbite",
+    "tm:ominouswind",
+    "tm:focusenergy",
+    "tm:nastyplot",
+    "tm:terrainpulse",
+    "tm:skittersmack",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:gigadrain",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:shadowball",
+    "tm:painsplit",
+    "tm:sludgewave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:rocksmash",
+    "tm:signalbeam",
+    "tm:curse",
+    "tm:explosion",
+    "tm:gigaimpact",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tm:infestation",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:snarl",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:trailblaze",
+    "tm:venomdrench",
+    "tm:attract",
+    "tm:hex",
+    "tm:leechlife",
+    "tm:cut",
+    "tm:camouflage",
+    "tm:selfdestruct",
+    "tm:firstimpression",
+    "tm:infestation",
+    "tm:endure",
+    "tm:wideguard"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.vandibal.desc"
+  ],
+  "preEvolution": "splattod",
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

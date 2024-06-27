@@ -31,7 +31,7 @@ public class Flux extends Game {
 //        pokemon.add(new Turbolibri()); Not Made yet
         pokemon.add(new Squrmy());
         pokemon.add(new Durtwurm());
-//        pokemon.add(new Wurmiterra());  Not Made yet
+//        pokemon.add(new Wurmiterra());  Not Made yetnido
         pokemon.add(new Tanupy());
         pokemon.add(new Tanscure());
         pokemon.add(new Sluchuu());
@@ -39,7 +39,7 @@ public class Flux extends Game {
         pokemon.add(new Garbagull());
         var nidorimewinter = new NidorimeWinterCoat();
         pokemon.add(nidorimewinter);
-        pokemon.add(new NidorimeSummerCoat("", Aspect.SUMMER));
+        pokemon.add(new NidorimeSummerCoat("NidorimeWinterCoat", Aspect.SUMMER));
         pokemon.add(new Nidoregina());
         pokemon.add(new Nidoregus());
         pokemon.add(new Roadillo());

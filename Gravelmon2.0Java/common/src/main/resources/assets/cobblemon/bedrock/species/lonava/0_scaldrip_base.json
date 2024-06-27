@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:scaldrip",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lonava/scaldrip.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/scaldrip_shiny.png"
+    }
+  ]
+}

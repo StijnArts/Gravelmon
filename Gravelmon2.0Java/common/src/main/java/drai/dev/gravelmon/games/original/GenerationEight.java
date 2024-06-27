@@ -65,7 +65,7 @@ public class GenerationEight extends Game {
 
         //Vanguard
         pokemon.add(new AyreianGrookey("", Aspect.AYREIAN));
-        pokemon.add(new AyreianThwacky("", Aspect.AYREIAN));
+        pokemon.add(new AyreianThwackey("", Aspect.AYREIAN));
         pokemon.add(new AyreianRillaboom("", Aspect.AYREIAN));
         pokemon.add(new AyreianSizzlipede("", Aspect.AYREIAN));
         pokemon.add(new AyreianCentiskorch("", Aspect.AYREIAN));

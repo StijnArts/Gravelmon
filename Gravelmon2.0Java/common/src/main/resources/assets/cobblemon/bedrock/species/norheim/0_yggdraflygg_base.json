@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:yggdraflygg",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/yggdraflygg.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/yggdraflygg_shiny.png"
+    }
+  ]
+}

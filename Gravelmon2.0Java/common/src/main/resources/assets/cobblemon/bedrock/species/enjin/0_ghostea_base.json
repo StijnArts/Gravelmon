@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ghostea",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enjin/ghostea.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/ghostea_shiny.png"
+    }
+  ]
+}

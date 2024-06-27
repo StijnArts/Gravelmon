@@ -1,0 +1,159 @@
+{
+  "implemented": true,
+  "name": "jawligator",
+  "nationalPokedexNumber": 5428,
+  "primaryType": "grass",
+  "secondaryType": "water",
+  "abilities": [
+    "swiftswim",
+    "analytic",
+    "h:strongjaw"
+  ],
+  "baseStats": {
+    "hp": 81,
+    "attack": 103,
+    "defence": 80,
+    "special_attack": 86,
+    "special_defence": 72,
+    "speed": 73
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "monster"
+  ],
+  "moves": [
+    "1:woodhammer",
+    "6:bide",
+    "9:bite",
+    "12:aquajet",
+    "16:razorleaf",
+    "20:bubblebeam",
+    "23:faketears",
+    "27:naturepower",
+    "32:crunch",
+    "37:aquatail",
+    "42:suckerpunch",
+    "50:wringout",
+    "56:woodhammer",
+    "62:hydropump",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roarsound",
+    "tm:rockslide",
+    "tm:roundsound",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalksound",
+    "tm:sludgebomb",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:workup",
+    "tm:quickattack",
+    "tm:pursuit",
+    "tm:camouflage",
+    "tm:poisonfang",
+    "tm:magicalleaf",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.jawligator.desc"
+  ],
+  "preEvolution": "logrodile",
+  "baseScale": 0.47500000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

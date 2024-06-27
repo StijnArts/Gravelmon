@@ -187,7 +187,7 @@ public class GenerationThree extends Game {
         pokemon.add(new EghoLombre("Lombre", Aspect.EGHO));
         pokemon.add(new EghoLudicolo("Ludicolo", Aspect.EGHO));
         pokemon.add(new EghoAzurill("Azurill", Aspect.EGHO));
-        pokemon.add(new EghoSwablu("Swablue", Aspect.EGHO));
+        pokemon.add(new EghoSwablu("Swablu", Aspect.EGHO));
         pokemon.add(new EghoAltaria("Altaria", Aspect.EGHO));
     }
 

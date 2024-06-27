@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gargryph-1",
+      "pokemon": "gargryph",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 5.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+  ]
+}

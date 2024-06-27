@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "calientrop-1",
+      "pokemon": "calientrop",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-58",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -424,9 +424,9 @@
   "preEvolution": "vanillite form=ayreian",
   "evolutions": [
     {
-      "id": "ayreianvanillish_ayreianvanniluxe",
+      "id": "ayreianvanillish_vanilluxe",
       "variant": "level_up",
-      "result": "ayreianvanniluxe",
+      "result": "vanilluxe ayreian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

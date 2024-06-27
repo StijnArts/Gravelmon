@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cavacreep",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/qamor/cavacreep.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/qamor/cavacreep_shiny.png"
+    }
+  ]
+}

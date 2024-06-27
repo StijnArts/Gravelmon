@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:lilyquack",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/lilyquack.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/lilyquack_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ensencoon-1",
+      "pokemon": "ensencoon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-46",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical",
+"#cobblemon:is_tropical_island" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

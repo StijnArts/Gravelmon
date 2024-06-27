@@ -1,0 +1,160 @@
+{
+  "implemented": true,
+  "name": "arctire",
+  "nationalPokedexNumber": 5312,
+  "primaryType": "ice",
+  "secondaryType": "rock",
+  "abilities": [
+    "slushrush",
+    "h:speedboost"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 76,
+    "defence": 60,
+    "special_attack": 33,
+    "special_defence": 33,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:rapidspin",
+    "5:harden",
+    "9:snowscape",
+    "12:rockthrow",
+    "16:rollout",
+    "20:agility",
+    "23:accelerock",
+    "31:takedown",
+    "35:detect",
+    "37:avalanche",
+    "40:rockblast",
+    "48:icespinner",
+    "53:gyroball",
+    "56:stoneedge",
+    "60:extremespeed",
+    "65:sheercold",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:earthpower",
+    "tm:icywind",
+    "tm:endeavor",
+    "tm:snoresound",
+    "tm:rapidspin",
+    "tm:focusenergy",
+    "tm:weatherball",
+    "tm:tripleaxel",
+    "tm:meteorbeam",
+    "tm:snowscape",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:return",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:ancientpower",
+    "tm:waterpulse",
+    "tm:curse",
+    "tm:explosion",
+    "tm:rockpolish",
+    "tm:avalanche",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:stealthrock",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:trailblaze",
+    "tm:smackdown",
+    "tm:icespinner",
+    "tm:attract",
+    "tm:auroraveil",
+    "tm:spinout",
+    "tm:doubleedge",
+    "tm:highhorsepower",
+    "tm:mefirst",
+    "tm:endure"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.arctire.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "arctire_iccelerate",
+      "variant": "item_interact",
+      "result": "iccelerate",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:ice_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

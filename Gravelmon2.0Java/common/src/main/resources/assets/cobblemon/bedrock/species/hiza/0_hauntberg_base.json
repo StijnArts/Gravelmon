@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hauntberg",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/hauntberg.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/hauntberg_shiny.png"
+    }
+  ]
+}

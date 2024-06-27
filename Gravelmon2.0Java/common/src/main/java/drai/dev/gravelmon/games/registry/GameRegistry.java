@@ -36,7 +36,7 @@ public class GameRegistry {
         games.add(new Insurgence());
         games.add(new Enriko());
         games.add(new Xenoverse());
-        games.add(new Avoris());
+        games.add(new Avoris());//TODO restore the old species files
         games.add(new Oceane());
         games.add(new Varitas());
         games.add(new Aristos());

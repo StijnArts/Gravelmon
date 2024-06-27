@@ -7,7 +7,7 @@ import java.util.*;
 
 public class AyreianVanilluxe extends Pokemon {
     public AyreianVanilluxe(String name, Aspect aspect) {
-        super(name, aspect,"AyreianVanniluxe",
+        super(name, aspect,"AyreianVanilluxe",
                 Type.FIRE, Type.GROUND,
                 new Stats(81,75,95,79,110,95),
                 List.of(Ability.LEVITATE, Ability.FLAME_BODY), Ability.DRY_SKIN,
@@ -84,7 +84,7 @@ public class AyreianVanilluxe extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-        this.setLangFileName("Vanniluxe");
+        this.setLangFileName("Vanilluxe");
         this.setPortraitXYZ(0,1.8,0);
     }
 }

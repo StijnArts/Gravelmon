@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:phanfrica",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/phanfrica.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/phanfrica_shiny.png"
+    }
+  ]
+}

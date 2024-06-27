@@ -128,7 +128,7 @@
   "pokedex": [
     "cobblemon.species.ayreianrillaboom.desc"
   ],
-  "preEvolution": "thwacky form=ayreian",
+  "preEvolution": "thwackey form=ayreian",
   "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,

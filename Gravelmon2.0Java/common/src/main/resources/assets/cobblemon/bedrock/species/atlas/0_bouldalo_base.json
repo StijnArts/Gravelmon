@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:bouldalo",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/bouldalo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/bouldalo_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:aragaunt",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/mythire/aragaunt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/aragaunt_shiny.png"
+    }
+  ]
+}

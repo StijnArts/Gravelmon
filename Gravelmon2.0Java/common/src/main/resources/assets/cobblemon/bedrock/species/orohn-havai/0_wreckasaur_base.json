@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wreckasaur",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/orohn-havai/wreckasaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/orohn-havai/wreckasaur_shiny.png"
+    }
+  ]
+}

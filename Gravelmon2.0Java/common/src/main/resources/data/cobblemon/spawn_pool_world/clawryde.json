@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clawryde-1",
+      "pokemon": "clawryde",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "23-38",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

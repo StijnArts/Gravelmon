@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "katakun",
+  "nationalPokedexNumber": 1625,
+  "primaryType": "fighting",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 63,
+    "defence": 44,
+    "special_attack": 63,
+    "special_defence": 46,
+    "speed": 86
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:doubleslap",
+    "1:constrict",
+    "1:powerwhip",
+    "1:brine",
+    "1:switcheroo",
+    "1:sleeppowder",
+    "1:topsyturvy",
+    "1:wringout",
+    "1:branchpoke",
+    "1:forcepalm",
+    "1:stunspore",
+    "1:woodhammer",
+    "1:tickle"  ],
+  "labels": [
+    "interregional",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.katakun.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "katakun_shurisan",
+      "variant": "level_up",
+      "result": "shurisan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

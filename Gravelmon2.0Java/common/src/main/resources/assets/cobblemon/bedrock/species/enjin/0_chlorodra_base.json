@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:chlorodra",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enjin/chlorodra.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/chlorodra_shiny.png"
+    }
+  ]
+}

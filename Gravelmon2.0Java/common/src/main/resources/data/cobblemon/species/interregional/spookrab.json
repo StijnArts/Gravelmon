@@ -1,0 +1,119 @@
+{
+  "implemented": true,
+  "name": "spookrab",
+  "nationalPokedexNumber": 1581,
+  "primaryType": "ghost",
+  "secondaryType": "ground",
+  "abilities": [
+    "hypercutter",
+    "runaway",
+    "h:sandrush"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 20,
+    "special_attack": 30,
+    "special_defence": 30,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:bubble",
+    "11:sandtomb",
+    "14:protect",
+    "18:shadowsneak",
+    "21:screechsound",
+    "25:grudge",
+    "28:dig",
+    "32:crabhammer",
+    "35:shadowclaw",
+    "38:destinybond",
+    "47:phantomforce",
+    "54:guillotine",
+    "tm:willowisp",
+    "tm:toxic",
+    "tm:shadowball",
+    "tm:darkpulse",
+    "tm:sludgebomb",
+    "tm:rockslide",
+    "tm:mudbomb",
+    "tm:bugbite",
+    "tm:belch",
+    "tm:teatime",
+    "tm:clamp"  ],
+  "labels": [
+    "interregional",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.spookrab.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "spookrab_crustgeist",
+      "variant": "level_up",
+      "result": "crustgeist",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

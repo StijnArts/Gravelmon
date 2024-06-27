@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:intelattod",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/fliga/intelattod.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fliga/intelattod_shiny.png"
+    }
+  ]
+}

@@ -20,7 +20,7 @@ public class AyreianGrookey extends Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD, EggGroup.GRASS),
                 List.of("It attacks with rapid jolts of its stick. As it strikes with amazing speed, it gets more and more charged."),
-                List.of(new EvolutionEntry("ayreianthwacky", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("ayreianthwackey", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH, 1),

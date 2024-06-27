@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:defecash",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/okeno/defecash.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/defecash_shiny.png"
+    }
+  ]
+}

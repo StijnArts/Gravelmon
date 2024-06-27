@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "drogaster",
+  "nationalPokedexNumber": 4682,
+  "primaryType": "poison",
+  "secondaryType": "bug",
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 126,
+    "attack": 88,
+    "defence": 55,
+    "special_attack": 101,
+    "special_defence": 55,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:confuseray",
+    "5:acid",
+    "10:strugglebug",
+    "15:gastroacid",
+    "20:acidspray",
+    "30:swagger",
+    "35:signalbeam",
+    "38:amnesia",
+    "43:venoshock",
+    "48:psychoshift",
+    "50:psychic",
+    "55:bugbuzzsound",
+    "60:trickroom",
+    "tm:flash",
+    "tm:toxic",
+    "tm:shadowball",
+    "tm:psychic",
+    "tm:sludgebomb",
+    "tm:gigadrain",
+    "tm:disable",
+    "tm:nastyplot",
+    "tm:psychicfangs",
+    "tm:belch"  ],
+  "labels": [
+    "okeno",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.drogaster.desc"
+  ],
+  "preEvolution": "larvomit",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

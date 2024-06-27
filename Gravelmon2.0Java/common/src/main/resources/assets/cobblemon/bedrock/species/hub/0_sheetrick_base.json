@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:sheetrick",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hub/sheetrick.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hub/sheetrick_shiny.png"
+    }
+  ]
+}

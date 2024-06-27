@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:crocoxic",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/crocoxic.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/crocoxic_shiny.png"
+    }
+  ]
+}

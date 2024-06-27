@@ -286,7 +286,7 @@
   "pokedex": [
     "cobblemon.species.eghoaltaria.desc"
   ],
-  "preEvolution": "Swablue form=egho",
+  "preEvolution": "Swablu form=egho",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,

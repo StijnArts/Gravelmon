@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:jollychaete",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/jollychaete.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/jollychaete_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fishereel",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/crozoic/fishereel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/fishereel_shiny.png"
+    }
+  ]
+}

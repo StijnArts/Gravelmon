@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:sconsimese",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/fliga/sconsimese.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fliga/sconsimese_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "name": "fumystic",
+  "nationalPokedexNumber": 5549,
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "abilities": [
+    "flamebody",
+    "vitalspirit",
+    "h:whitesmoke"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 30,
+    "defence": 30,
+    "special_attack": 76,
+    "special_defence": 55,
+    "speed": 68
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:astonish",
+    "9:confusion",
+    "11:teleport",
+    "14:firespin",
+    "19:flamewheel",
+    "23:poisongas",
+    "27:wish",
+    "31:willowisp",
+    "35:curse",
+    "40:sunnyday",
+    "45:mysticalfire",
+    "tm:attract",
+    "tm:bide",
+    "tm:doubleteam",
+    "tm:dragonpulse",
+    "tm:dragonrage",
+    "tm:dreameater",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:infestation",
+    "tm:lightscreen",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:overheat",
+    "tm:payday",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:psywave",
+    "tm:rage",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roundsound",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:takedown",
+    "tm:teleport",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:venoshock",
+    "tm:voltswitch",
+    "tm:willowisp",
+    "tm:psychic",
+    "tm:fireblast",
+    "tm:sleeptalksound"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fumystic.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "fumystic_fumeseous",
+      "variant": "level_up",
+      "result": "fumeseous",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

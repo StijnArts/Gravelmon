@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:flaskantine",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/flaskantine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/flaskantine_shiny.png"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glamarde",
-  "nationalPokedexNumber": 2795,
+  "nationalPokedexNumber": 4763,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -133,12 +133,14 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
+    "fakemon",
     "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.glamarde.desc"
   ],
-  "preEvolution": "ralts",
+  "preEvolution": "kirgicia",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

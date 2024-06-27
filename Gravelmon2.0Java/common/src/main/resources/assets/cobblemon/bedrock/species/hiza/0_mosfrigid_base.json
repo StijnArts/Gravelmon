@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mosfrigid",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/mosfrigid.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/mosfrigid_shiny.png"
+    }
+  ]
+}

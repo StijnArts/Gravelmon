@@ -1,0 +1,119 @@
+{
+  "implemented": true,
+  "name": "luchaburro",
+  "nationalPokedexNumber": 5505,
+  "primaryType": "fairy",
+  "secondaryType": "fighting",
+  "abilities": [
+    "aftermath",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 128,
+    "defence": 77,
+    "special_attack": 74,
+    "special_defence": 61,
+    "speed": 124
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 175,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "tm:falseswipe",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:drainpunch",
+    "tm:grassknot",
+    "tm:firepunch",
+    "tm:wildcharge",
+    "tm:thunderpunch",
+    "tm:acrobatics",
+    "tm:thief",
+    "tm:brutalswing",
+    "tm:icepunch",
+    "tm:smackdown",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:bulkup",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.luchaburro.desc"
+  ],
+  "preEvolution": "festiata",
+  "baseScale": 0.45,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

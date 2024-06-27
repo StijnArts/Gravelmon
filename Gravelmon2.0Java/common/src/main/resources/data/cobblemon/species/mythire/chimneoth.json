@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+  "name": "chimneoth",
+  "nationalPokedexNumber": 3767,
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "abilities": [
+    "shielddust",
+    "unburden",
+    "h:tintedlens"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 50,
+    "defence": 80,
+    "special_attack": 75,
+    "special_defence": 110,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 214,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:stringshot",
+    "6:poisonpowder",
+    "9:defensecurl",
+    "12:smog",
+    "15:smokescreen",
+    "17:sludge",
+    "20:signalbeam",
+    "24:ragepowder",
+    "28:silverwind",
+    "33:clearsmog",
+    "37:tailwind",
+    "40:bugbuzzsound",
+    "43:powder",
+    "48:quiverdance",
+    "tm:bugbite",
+    "tm:defog",
+    "tm:electroweb",
+    "tm:healbellsound",
+    "tm:recycle",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:signalbeam",
+    "tm:spite",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:tailwind",
+    "tm:wonderroom",
+    "tm:dualwingbeat",
+    "tm:corrosivegas",
+    "tm:fly",
+    "tm:hyperbeam",
+    "tm:screechsound",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:safeguard",
+    "tm:rest",
+    "tm:snoresound",
+    "tm:protect",
+    "tm:steelwing",
+    "tm:attract",
+    "tm:sandstorm",
+    "tm:raindance",
+    "tm:facade",
+    "tm:swiftcosmic",
+    "tm:imprison",
+    "tm:weatherball",
+    "tm:uturn",
+    "tm:venoshock",
+    "tm:roundsound",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:agility",
+    "tm:psychic",
+    "tm:focusenergy",
+    "tm:amnesia",
+    "tm:substitute",
+    "tm:sludgebomb",
+    "tm:endure",
+    "tm:sleeptalksound",
+    "tm:encore",
+    "tm:shadowball",
+    "tm:taunt",
+    "tm:calmmind",
+    "tm:toxicspikes",
+    "tm:bugbuzzsound",
+    "tm:gunkshot",
+    "tm:grassknot",
+    "tm:sludgewave",
+    "tm:venomdrench",
+    "tm:pollenpuff",
+    "tm:toxicthread",
+    "tm:stunspore",
+    "tm:sleeppowder",
+    "tm:magicpowder",
+    "tm:moonlight",
+    "tm:bide",
+    "tm:razorwind",
+    "tm:charm"  ],
+  "labels": [
+    "mythire",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.chimneoth.desc"
+  ],
+  "preEvolution": "cloakhrys",
+  "baseScale": 0.625,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 25,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

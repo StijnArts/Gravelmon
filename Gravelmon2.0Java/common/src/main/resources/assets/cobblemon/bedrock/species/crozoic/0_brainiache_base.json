@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:brainiache",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/crozoic/brainiache.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/brainiache_shiny.png"
+    }
+  ]
+}

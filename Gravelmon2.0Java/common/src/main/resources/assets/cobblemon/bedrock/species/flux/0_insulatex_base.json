@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:insulatex",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/flux/insulatex.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/flux/insulatex_shiny.png"
+    }
+  ]
+}

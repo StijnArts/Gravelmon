@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:jaggagon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/jaggagon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/jaggagon_shiny.png"
+    }
+  ]
+}

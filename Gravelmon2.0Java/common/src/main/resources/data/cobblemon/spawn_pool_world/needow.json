@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "needow-1",
+      "pokemon": "needow",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-11",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+  ]
+}

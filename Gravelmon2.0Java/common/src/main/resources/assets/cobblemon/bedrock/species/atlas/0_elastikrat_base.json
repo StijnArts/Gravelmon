@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:elastikrat",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/elastikrat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/elastikrat_shiny.png"
+    }
+  ]
+}

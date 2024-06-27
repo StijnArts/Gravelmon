@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "boileror",
+  "nationalPokedexNumber": 4614,
+  "primaryType": "fire",
+  "secondaryType": "ice",
+  "abilities": [
+    "reckless",
+    "h:thickfat"
+  ],
+  "baseStats": {
+    "hp": 92,
+    "attack": 120,
+    "defence": 90,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 93
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "water_1"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:ember",
+    "4:leer",
+    "12:peck",
+    "15:avalanche",
+    "18:flamecharge",
+    "20:scaryface",
+    "23:takedown",
+    "26:endeavor",
+    "30:flameburst",
+    "40:focusenergy",
+    "44:rockclimb",
+    "50:flareblitz",
+    "56:doubleedge",
+    "70:endure",
+    "tm:aquajet",
+    "tm:iceshard",
+    "tm:glare",
+    "tm:flail",
+    "tm:bounce"  ],
+  "labels": [
+    "okeno",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.boileror.desc"
+  ],
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

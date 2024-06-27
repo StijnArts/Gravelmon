@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:shroolumn",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/crozoic/shroolumn.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/shroolumn_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ballistikon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/mythire/ballistikon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/ballistikon_shiny.png"
+    }
+  ]
+}

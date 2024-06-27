@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hogawatt",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/hogawatt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/hogawatt_shiny.png"
+    }
+  ]
+}

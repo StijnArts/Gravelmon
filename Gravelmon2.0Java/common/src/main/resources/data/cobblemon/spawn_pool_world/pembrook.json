@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pembrook-1",
+      "pokemon": "pembrook",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-45",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

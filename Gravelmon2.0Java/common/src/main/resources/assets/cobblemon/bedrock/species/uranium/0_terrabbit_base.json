@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:terrabbit",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/terrabbit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/terrabbit_shiny.png"
+    }
+  ]
+}

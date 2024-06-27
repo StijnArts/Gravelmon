@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kentrocious-1",
+      "pokemon": "kentrocious",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "41-56",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:is_nether_wasteland" ]
+      }
+    }
+  ]
+}

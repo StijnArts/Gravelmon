@@ -163,11 +163,14 @@
     "tm:circlethrow"  ],
   "labels": [
     "aristos",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.aristosiankangaskhan.desc"
   ],
+  "preEvolution": "kangazad",
   "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
