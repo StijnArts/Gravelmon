@@ -91,5 +91,8 @@ public class Sputnink extends Pokemon {
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
+        setModeled(true);
+        setBaseScale(1.15);
+        setHitbox(0.55, 0.65);
     }
 }
