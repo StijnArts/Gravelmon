@@ -49,7 +49,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
     modImplementation "maven.modrinth:midnightlib:YXz8kIQl"
-    modImplementation "maven.modrinth:gravels-extended-battles:fchZnNB8"
+    modApi "maven.modrinth:gravels-extended-battles:fchZnNB8"
     mappings loom.layered() {
         officialMojangMappings()
         parchment("org.parchmentmc.data:${mappings_channel}-${mappings_version}@zip")

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanunown-1",
-      "pokemon": "Optional[unown] norheiman",
+      "pokemon": "unown norheiman",
       "presets": [
           "ruined_portal"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "unownearth-1",
-      "pokemon": "Optional[unown] earth",
+      "pokemon": "unown earth",
       "presets": [
           "end_city"
       ],
@@ -37,7 +37,7 @@
 ,
     {
       "id": "unownxenoverse-1",
-      "pokemon": "Optional[unown] xenoverse",
+      "pokemon": "unown xenoverse",
       "presets": [
           "end_city"
       ],

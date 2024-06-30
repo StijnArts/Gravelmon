@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "nostanshiinotic-1",
-      "pokemon": "Optional[shiinotic] nostan",
+      "pokemon": "shiinotic nostan",
       "presets": [
           "natural"
       ],

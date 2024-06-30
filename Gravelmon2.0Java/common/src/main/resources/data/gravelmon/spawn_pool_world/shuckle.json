@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltashuckle-1",
-      "pokemon": "Optional[shuckle] delta",
+      "pokemon": "shuckle delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "hoennianshuckle-1",
-      "pokemon": "Optional[shuckle] hoennian",
+      "pokemon": "shuckle hoennian",
       "presets": [
           "natural"
       ],

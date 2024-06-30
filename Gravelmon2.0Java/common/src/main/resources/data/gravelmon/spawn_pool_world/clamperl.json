@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaclamperl-1",
-      "pokemon": "Optional[clamperl] delta",
+      "pokemon": "clamperl delta",
       "presets": [
           "natural"
       ],

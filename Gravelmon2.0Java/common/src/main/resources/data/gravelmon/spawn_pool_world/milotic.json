@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltamilotic-1",
-      "pokemon": "Optional[milotic] delta",
+      "pokemon": "milotic delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "seviianmilotic-1",
-      "pokemon": "Optional[milotic] seviian",
+      "pokemon": "milotic seviian",
       "presets": [
           "natural"
       ],

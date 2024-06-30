@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "rapidashx-1",
-      "pokemon": "Optional[rapidash] x",
+      "pokemon": "rapidash x",
       "presets": [
           "natural"
       ],

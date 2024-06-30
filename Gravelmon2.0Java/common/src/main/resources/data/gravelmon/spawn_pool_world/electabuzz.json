@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaelectabuzz-1",
-      "pokemon": "Optional[electabuzz] delta",
+      "pokemon": "electabuzz delta",
       "presets": [
           "jungle_pyramid"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "electabuzzx-1",
-      "pokemon": "Optional[electabuzz] x",
+      "pokemon": "electabuzz x",
       "presets": [
           "natural"
       ],

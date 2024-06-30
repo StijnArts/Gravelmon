@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianrelicanth-1",
-      "pokemon": "Optional[relicanth] ayreian",
+      "pokemon": "relicanth ayreian",
       "presets": [
           "underwater"
       ],

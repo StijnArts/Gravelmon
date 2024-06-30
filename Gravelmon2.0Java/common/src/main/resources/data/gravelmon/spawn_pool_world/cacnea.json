@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "neocacnea-1",
-      "pokemon": "Optional[cacnea] neo",
+      "pokemon": "cacnea neo",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "cacneax-1",
-      "pokemon": "Optional[cacnea] x",
+      "pokemon": "cacnea x",
       "presets": [
           "natural"
       ],

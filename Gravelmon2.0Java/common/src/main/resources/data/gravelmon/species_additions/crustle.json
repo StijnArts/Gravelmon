@@ -162,7 +162,7 @@
   },
   "height": 14,
   "weight": 1500,
-  "aspects": ["deltaberry"],
+  "aspects": ["delta_berry"],
   "cannotDynamax": false
 },
 {
@@ -338,11 +338,11 @@
   },
   "height": 14,
   "weight": 1000,
-  "aspects": ["deltacake"],
+  "aspects": ["delta_cake"],
   "cannotDynamax": false
 }
 ], "features": [
-"deltaberry",
-"deltacake"
+"delta_berry",
+"delta_cake"
   ]
 }

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianfloette-1",
-      "pokemon": "Optional[floette] varitasian",
+      "pokemon": "floette varitasian",
       "presets": [
           "natural"
       ],

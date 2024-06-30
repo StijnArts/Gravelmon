@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "cefirangothitelle-1",
-      "pokemon": "Optional[gothitelle] cefiran",
+      "pokemon": "gothitelle cefiran",
       "presets": [
           "natural"
       ],

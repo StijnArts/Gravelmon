@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mysticpoochyena-1",
-      "pokemon": "Optional[poochyena] mystic",
+      "pokemon": "poochyena mystic",
       "presets": [
           "natural"
       ],

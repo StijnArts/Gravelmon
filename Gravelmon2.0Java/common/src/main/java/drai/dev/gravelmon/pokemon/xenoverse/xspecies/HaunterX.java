@@ -73,5 +73,8 @@ public class HaunterX extends Pokemon {
                 List.of());
         this.setLangFileName("Haunter");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        setModeled(true);
+        setBaseScale(1.0);
+        setHitbox(1.0, 3.0);
     }
 }

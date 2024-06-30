@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "alteranledian-1",
-      "pokemon": "Optional[ledian] alteran",
+      "pokemon": "ledian alteran",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "relicledian-1",
-      "pokemon": "Optional[ledian] relic",
+      "pokemon": "ledian relic",
       "presets": [
           "natural"
       ],

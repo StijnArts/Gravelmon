@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamorankoffing-1",
-      "pokemon": "Optional[koffing] qamoran",
+      "pokemon": "koffing qamoran",
       "presets": [
           "near_magma",
           "underwater"
@@ -24,7 +24,7 @@
 ,
     {
       "id": "deltakoffing-1",
-      "pokemon": "Optional[koffing] delta",
+      "pokemon": "koffing delta",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "relickoffing-1",
-      "pokemon": "Optional[koffing] relic",
+      "pokemon": "koffing relic",
       "presets": [
           "near_lava"
       ],

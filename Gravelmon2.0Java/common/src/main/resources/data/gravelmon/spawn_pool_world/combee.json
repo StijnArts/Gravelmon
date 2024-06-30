@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamorancombee-1",
-      "pokemon": "Optional[combee] qamoran",
+      "pokemon": "combee qamoran",
       "presets": [
           "village"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltacombee-1",
-      "pokemon": "Optional[combee] delta",
+      "pokemon": "combee delta",
       "presets": [
           "natural"
       ],

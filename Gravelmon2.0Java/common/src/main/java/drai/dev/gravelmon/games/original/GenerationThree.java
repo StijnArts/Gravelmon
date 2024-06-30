@@ -207,7 +207,7 @@ public class GenerationThree extends Game {
         pokemon.add(new DeltaShiftry("Shiftry", Aspect.DELTA));
         pokemon.add(new DeltaRalts("Ralts", Aspect.DELTA));
         pokemon.add(new DeltaKirlia("Kirlia", Aspect.DELTA));
-        pokemon.add(new DeltaGardevoir("Gardevoid", Aspect.DELTA));
+        pokemon.add(new DeltaGardevoir("Gardevoir", Aspect.DELTA));
         pokemon.add(new DeltaSableye("Sableye", Aspect.DELTA));
         pokemon.add(new DeltaMawile("Mawile", Aspect.DELTA));
         pokemon.add(new DeltaAron("Aron", Aspect.DELTA));

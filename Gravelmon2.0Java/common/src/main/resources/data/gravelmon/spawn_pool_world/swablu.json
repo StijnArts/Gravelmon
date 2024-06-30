@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianswablu-1",
-      "pokemon": "Optional[swablu] varitasian",
+      "pokemon": "swablu varitasian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "eghoswablu-1",
-      "pokemon": "Optional[swablu] egho",
+      "pokemon": "swablu egho",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "ayreianswablu-1",
-      "pokemon": "Optional[swablu] ayreian",
+      "pokemon": "swablu ayreian",
       "presets": [
           "natural"
       ],

@@ -135,7 +135,7 @@
   ],
   "evolutions": [
     {
-      "id": "shyleon_shyleon",
+      "id": "shyleon_shyleon_terrestrial",
       "variant": "level_up",
       "result": "shyleon terrestrial",
       "consumeHeldItem": false,
@@ -149,7 +149,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleon_shyleon",
+      "id": "shyleon_shyleon_xenoversal",
       "variant": "level_up",
       "result": "shyleon xenoversal",
       "consumeHeldItem": false,
@@ -163,7 +163,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleon_shyleon",
+      "id": "shyleon_shyleon_astral",
       "variant": "level_up",
       "result": "shyleon astral",
       "consumeHeldItem": false,
@@ -181,7 +181,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleon_shyleon",
+      "id": "shyleon_shyleon_astral",
       "variant": "level_up",
       "result": "shyleon astral",
       "consumeHeldItem": false,

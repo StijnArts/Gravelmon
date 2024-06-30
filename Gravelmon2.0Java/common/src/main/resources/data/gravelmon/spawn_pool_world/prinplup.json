@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "interianprinplup-1",
-      "pokemon": "Optional[prinplup] interian",
+      "pokemon": "prinplup interian",
       "presets": [
           "natural"
       ],

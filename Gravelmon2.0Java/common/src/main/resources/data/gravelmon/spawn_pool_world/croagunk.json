@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltacroagunk-1",
-      "pokemon": "Optional[croagunk] delta",
+      "pokemon": "croagunk delta",
       "presets": [
           "natural"
       ],

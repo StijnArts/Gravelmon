@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagirafarig-1",
-      "pokemon": "Optional[girafarig] delta",
+      "pokemon": "girafarig delta",
       "presets": [
           "natural"
       ],

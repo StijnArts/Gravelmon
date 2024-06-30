@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianqwilfish-1",
-      "pokemon": "Optional[qwilfish] fligian",
+      "pokemon": "qwilfish fligian",
       "presets": [
           "underwater"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hoennianqwilfish-1",
-      "pokemon": "Optional[qwilfish] hoennian",
+      "pokemon": "qwilfish hoennian",
       "presets": [
           "underwater"
       ],

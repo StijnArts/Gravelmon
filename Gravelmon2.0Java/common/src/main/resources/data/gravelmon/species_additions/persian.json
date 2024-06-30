@@ -108,7 +108,7 @@
   },
   "height": 10,
   "weight": 320,
-  "aspects": ["cefiranfire"],
+  "aspects": ["cefiran_fire"],
   "cannotDynamax": false
 },
 {
@@ -219,7 +219,7 @@
   },
   "height": 10,
   "weight": 320,
-  "aspects": ["cefiranice"],
+  "aspects": ["cefiran_ice"],
   "cannotDynamax": false
 },
 {
@@ -330,12 +330,12 @@
   },
   "height": 10,
   "weight": 320,
-  "aspects": ["cefiranelectric"],
+  "aspects": ["cefiran_electric"],
   "cannotDynamax": false
 }
 ], "features": [
-"cefiranfire",
-"cefiranice",
-"cefiranelectric"
+"cefiran_fire",
+"cefiran_ice",
+"cefiran_electric"
   ]
 }

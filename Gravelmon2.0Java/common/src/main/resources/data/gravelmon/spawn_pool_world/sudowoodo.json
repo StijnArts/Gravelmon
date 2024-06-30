@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novransudowoodo-1",
-      "pokemon": "Optional[sudowoodo] novran",
+      "pokemon": "sudowoodo novran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "amazeallsudowoodo-1",
-      "pokemon": "Optional[sudowoodo] amazeall",
+      "pokemon": "sudowoodo amaze_all",
       "presets": [
           "natural"
       ],

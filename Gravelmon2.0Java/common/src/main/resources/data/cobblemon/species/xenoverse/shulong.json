@@ -140,7 +140,7 @@
   ],
   "evolutions": [
     {
-      "id": "shulong_shulong",
+      "id": "shulong_shulong_terrestrial",
       "variant": "level_up",
       "result": "shulong terrestrial",
       "consumeHeldItem": false,
@@ -154,7 +154,7 @@
       "permanent": true   
  },
     {
-      "id": "shulong_shulong",
+      "id": "shulong_shulong_xenoversal",
       "variant": "level_up",
       "result": "shulong xenoversal",
       "consumeHeldItem": false,
@@ -168,7 +168,7 @@
       "permanent": true   
  },
     {
-      "id": "shulong_shulong",
+      "id": "shulong_shulong_astral",
       "variant": "level_up",
       "result": "shulong astral",
       "consumeHeldItem": false,
@@ -186,7 +186,7 @@
       "permanent": true   
  },
     {
-      "id": "shulong_shulong",
+      "id": "shulong_shulong_astral",
       "variant": "level_up",
       "result": "shulong astral",
       "consumeHeldItem": false,

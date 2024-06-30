@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianslakoth-1",
-      "pokemon": "Optional[slakoth] fligian",
+      "pokemon": "slakoth fligian",
       "presets": [
           "natural"
       ],

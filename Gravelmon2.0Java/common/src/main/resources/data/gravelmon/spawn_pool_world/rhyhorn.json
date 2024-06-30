@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianrhyhorn-1",
-      "pokemon": "Optional[rhyhorn] hizian",
+      "pokemon": "rhyhorn hizian",
       "presets": [
           "natural"
       ],

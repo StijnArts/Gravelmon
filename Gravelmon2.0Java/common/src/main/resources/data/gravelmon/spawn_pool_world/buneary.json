@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltabuneary-1",
-      "pokemon": "Optional[buneary] delta",
+      "pokemon": "buneary delta",
       "presets": [
           "natural"
       ],

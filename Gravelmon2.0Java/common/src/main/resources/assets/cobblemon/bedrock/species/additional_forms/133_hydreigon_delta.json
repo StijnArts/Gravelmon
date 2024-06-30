@@ -1,0 +1,84 @@
+{
+  "species": "cobblemon:hydreigon",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltahydreigon",
+      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltahydreigon",
+      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltahydreigon",
+      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_deltahydreigon",
+      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon_female_shiny.png",
+      "layers": []
+    }
+  ]
+}

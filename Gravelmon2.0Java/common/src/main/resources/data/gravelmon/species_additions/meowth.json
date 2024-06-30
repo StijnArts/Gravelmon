@@ -278,7 +278,7 @@
   },
   "height": 4,
   "weight": 42,
-  "aspects": ["cefiranfire"],
+  "aspects": ["cefiran_fire"],
   "cannotDynamax": false
 },
 {
@@ -400,7 +400,7 @@
   },
   "height": 4,
   "weight": 42,
-  "aspects": ["cefiranice"],
+  "aspects": ["cefiran_ice"],
   "cannotDynamax": false
 },
 {
@@ -522,13 +522,13 @@
   },
   "height": 4,
   "weight": 42,
-  "aspects": ["cefiranelectric"],
+  "aspects": ["cefiran_electric"],
   "cannotDynamax": false
 }
 ], "features": [
 "eldiwan",
-"cefiranfire",
-"cefiranice",
-"cefiranelectric"
+"cefiran_fire",
+"cefiran_ice",
+"cefiran_electric"
   ]
 }

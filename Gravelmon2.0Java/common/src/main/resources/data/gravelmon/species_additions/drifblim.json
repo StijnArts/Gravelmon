@@ -465,12 +465,12 @@
   },
   "height": 12,
   "weight": 150,
-  "aspects": ["amazeall"],
+  "aspects": ["amaze_all"],
   "cannotDynamax": false
 }
 ], "features": [
 "delta",
 "ayreian",
-"amazeall"
+"amaze_all"
   ]
 }

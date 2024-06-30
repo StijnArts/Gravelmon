@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosiankangaskhan-1",
-      "pokemon": "Optional[kangaskhan] aristosian",
+      "pokemon": "kangaskhan aristosian",
       "presets": [
           "natural"
       ],

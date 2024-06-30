@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrangrapploct-1",
-      "pokemon": "Optional[grapploct] novran",
+      "pokemon": "grapploct novran",
       "presets": [
           "natural"
       ],

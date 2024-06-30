@@ -323,7 +323,7 @@
   },
   "height": 4,
   "weight": 60,
-  "aspects": ["femalex"],
+  "aspects": ["female_x"],
   "cannotDynamax": false
 },
 {
@@ -448,12 +448,12 @@
   },
   "height": 4,
   "weight": 60,
-  "aspects": ["malex"],
+  "aspects": ["male_x"],
   "cannotDynamax": false
 }
 ], "features": [
 "delta",
-"femalex",
-"malex"
+"female_x",
+"male_x"
   ]
 }

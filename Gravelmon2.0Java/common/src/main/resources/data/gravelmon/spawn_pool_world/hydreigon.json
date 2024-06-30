@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltahydreigon-1",
-      "pokemon": "Optional[hydreigon] delta",
+      "pokemon": "hydreigon delta",
       "presets": [
           "natural"
       ],

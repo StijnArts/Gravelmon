@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviiansizzlipede-1",
-      "pokemon": "Optional[sizzlipede] seviian",
+      "pokemon": "sizzlipede seviian",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "ayreiansizzlipede-1",
-      "pokemon": "Optional[sizzlipede] ayreian",
+      "pokemon": "sizzlipede ayreian",
       "presets": [
           "natural"
       ],

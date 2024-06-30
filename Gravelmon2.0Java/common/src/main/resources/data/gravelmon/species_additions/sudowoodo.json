@@ -305,11 +305,11 @@
   },
   "height": 8,
   "weight": 285,
-  "aspects": ["amazeall"],
+  "aspects": ["amaze_all"],
   "cannotDynamax": false
 }
 ], "features": [
 "novran",
-"amazeall"
+"amaze_all"
   ]
 }

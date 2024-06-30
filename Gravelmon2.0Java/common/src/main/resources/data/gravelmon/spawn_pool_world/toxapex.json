@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "toxapexx-1",
-      "pokemon": "Optional[toxapex] x",
+      "pokemon": "toxapex x",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "hoenniantoxapex-1",
-      "pokemon": "Optional[toxapex] hoennian",
+      "pokemon": "toxapex hoennian",
       "presets": [
           "amethyst_geode"
       ],

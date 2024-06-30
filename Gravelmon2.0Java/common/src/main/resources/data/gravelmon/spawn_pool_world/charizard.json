@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghocharizard-1",
-      "pokemon": "Optional[charizard] egho",
+      "pokemon": "charizard egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltacharizard-1",
-      "pokemon": "Optional[charizard] delta",
+      "pokemon": "charizard delta",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "ayreiancharizard-1",
-      "pokemon": "Optional[charizard] ayreian",
+      "pokemon": "charizard ayreian",
       "presets": [
           "natural"
       ],

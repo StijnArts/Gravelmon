@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaplusle-1",
-      "pokemon": "Optional[plusle] delta",
+      "pokemon": "plusle delta",
       "presets": [
           "natural"
       ],

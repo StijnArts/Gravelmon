@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "egholombre-1",
-      "pokemon": "Optional[lombre] egho",
+      "pokemon": "lombre egho",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "deltalombre-1",
-      "pokemon": "Optional[lombre] delta",
+      "pokemon": "lombre delta",
       "presets": [
           "natural"
       ],

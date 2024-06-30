@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanglimmora-1",
-      "pokemon": "Optional[glimmora] norheiman",
+      "pokemon": "glimmora norheiman",
       "presets": [
           "natural"
       ],

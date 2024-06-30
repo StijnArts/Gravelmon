@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaserperior-1",
-      "pokemon": "Optional[serperior] delta",
+      "pokemon": "serperior delta",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltabudew-1",
-      "pokemon": "Optional[budew] delta",
+      "pokemon": "budew delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "budewx-1",
-      "pokemon": "Optional[budew] x",
+      "pokemon": "budew x",
       "presets": [
           "natural"
       ],
@@ -37,7 +37,7 @@
 ,
     {
       "id": "ayreianbudew-1",
-      "pokemon": "Optional[budew] ayreian",
+      "pokemon": "budew ayreian",
       "presets": [
           "natural"
       ],
@@ -54,7 +54,7 @@
 ,
     {
       "id": "relicbudew-1",
-      "pokemon": "Optional[budew] relic",
+      "pokemon": "budew relic",
       "presets": [
           "natural"
       ],

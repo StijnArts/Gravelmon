@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrangorebyss-1",
-      "pokemon": "Optional[gorebyss] novran",
+      "pokemon": "gorebyss novran",
       "presets": [
           "reef"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltagorebyss-1",
-      "pokemon": "Optional[gorebyss] delta",
+      "pokemon": "gorebyss delta",
       "presets": [
           "natural"
       ],

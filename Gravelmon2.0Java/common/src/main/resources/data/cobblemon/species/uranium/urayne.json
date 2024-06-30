@@ -142,7 +142,7 @@
   ],
   "evolutions": [
     {
-      "id": "urayne_urayne",
+      "id": "urayne_urayne_beta",
       "variant": "item_interact",
       "result": "urayne beta",
       "consumeHeldItem": false,

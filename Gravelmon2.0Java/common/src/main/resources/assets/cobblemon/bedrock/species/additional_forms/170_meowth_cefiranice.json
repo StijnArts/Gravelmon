@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:meowth",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "cefiran_ice"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_cefiranmeowthice",
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranmeowthice.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cefiran_ice",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_cefiranmeowthice",
+      "texture": "cobblemon:textures/pokemon/generation1/cefiranmeowthice_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

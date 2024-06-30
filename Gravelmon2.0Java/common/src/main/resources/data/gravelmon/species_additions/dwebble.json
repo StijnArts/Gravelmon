@@ -170,7 +170,7 @@
   },
   "height": 3,
   "weight": 106,
-  "aspects": ["deltaberry"],
+  "aspects": ["delta_berry"],
   "cannotDynamax": false
 },
 {
@@ -344,7 +344,7 @@
   },
   "height": 3,
   "weight": 78,
-  "aspects": ["deltacake"],
+  "aspects": ["delta_cake"],
   "cannotDynamax": false
 },
 {
@@ -507,8 +507,8 @@
   "cannotDynamax": false
 }
 ], "features": [
-"deltaberry",
-"deltacake",
+"delta_berry",
+"delta_cake",
 "ayreian"
   ]
 }

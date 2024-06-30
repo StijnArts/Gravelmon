@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:masgot",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "sound"
+     ],
+      "poser": "cobblemon:xenoverse_masgot",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/sound_masgot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "sound",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/sound_masgot_shiny.png"
+    }  ]
+}

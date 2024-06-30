@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltameloetta-1",
-      "pokemon": "Optional[meloetta] delta",
+      "pokemon": "meloetta delta",
       "presets": [
           "mansion"
       ],

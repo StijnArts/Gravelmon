@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghocroconaw-1",
-      "pokemon": "Optional[croconaw] egho",
+      "pokemon": "croconaw egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreiancroconaw-1",
-      "pokemon": "Optional[croconaw] ayreian",
+      "pokemon": "croconaw ayreian",
       "presets": [
           "near_water"
       ],

@@ -130,7 +130,7 @@
       "permanent": true   
  },
     {
-      "id": "mintch_blakjak",
+      "id": "mintch_blakjak_signetan",
       "variant": "level_up",
       "result": "blakjak signetan",
       "consumeHeldItem": false,

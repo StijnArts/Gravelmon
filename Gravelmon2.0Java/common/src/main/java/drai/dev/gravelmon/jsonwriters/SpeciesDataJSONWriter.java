@@ -264,7 +264,7 @@ public class SpeciesDataJSONWriter {
                     fileContents += ",\n";
                 }
                 fileContents += "    {\n" +
-                        "      \"id\": \""+ pokemon.getCleanName()+"_"+evolution.getResult().split(" ")[0]+"\",\n" +
+                        "      \"id\": \""+ pokemon.getCleanName()+"_"+evolution.getResult().replaceAll(" ", "_")+"\",\n" +
                         "      \"variant\": \""+evolution.getKind().getName()+"\",\n" +
                         "      \"result\": \""+evolution.getResult();
                 if(!evolution.getAspects().isEmpty()){

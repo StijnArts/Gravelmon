@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghocharmander-1",
-      "pokemon": "Optional[charmander] egho",
+      "pokemon": "charmander egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltacharmander-1",
-      "pokemon": "Optional[charmander] delta",
+      "pokemon": "charmander delta",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "ayreiancharmander-1",
-      "pokemon": "Optional[charmander] ayreian",
+      "pokemon": "charmander ayreian",
       "presets": [
           "natural"
       ],

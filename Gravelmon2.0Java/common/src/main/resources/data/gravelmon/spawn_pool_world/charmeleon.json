@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghocharmeleon-1",
-      "pokemon": "Optional[charmeleon] egho",
+      "pokemon": "charmeleon egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltacharmeleon-1",
-      "pokemon": "Optional[charmeleon] delta",
+      "pokemon": "charmeleon delta",
       "presets": [
           "natural"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "ayreiancharmeleon-1",
-      "pokemon": "Optional[charmeleon] ayreian",
+      "pokemon": "charmeleon ayreian",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltasnivy-1",
-      "pokemon": "Optional[snivy] delta",
+      "pokemon": "snivy delta",
       "presets": [
           "natural"
       ],

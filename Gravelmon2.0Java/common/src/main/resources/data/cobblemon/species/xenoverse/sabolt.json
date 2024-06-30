@@ -124,7 +124,7 @@
   ],
   "evolutions": [
     {
-      "id": "sabolt_sabolt",
+      "id": "sabolt_sabolt_terrestrial",
       "variant": "level_up",
       "result": "sabolt terrestrial",
       "consumeHeldItem": false,
@@ -138,7 +138,7 @@
       "permanent": true   
  },
     {
-      "id": "sabolt_sabolt",
+      "id": "sabolt_sabolt_xenoversal",
       "variant": "level_up",
       "result": "sabolt xenoversal",
       "consumeHeldItem": false,

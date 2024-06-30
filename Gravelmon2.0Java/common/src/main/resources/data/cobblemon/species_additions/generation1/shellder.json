@@ -3,7 +3,7 @@
   {
    "id": "shellder_ehgoshellder",
    "variant": "item_interact",
-   "result": "eghoshellder",
+   "result": "shellder egho",
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [

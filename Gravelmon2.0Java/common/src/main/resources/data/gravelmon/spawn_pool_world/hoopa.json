@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltahoopa-1",
-      "pokemon": "Optional[hoopa] delta",
+      "pokemon": "hoopa delta",
       "presets": [
           "natural"
       ],
@@ -17,6 +17,23 @@
       "condition": {
 "biomes": [ "#cobblemon:is_mountain",
 "#cobblemon:is_sky" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltahoopaunleashed-1",
+      "pokemon": "hoopa delta_unleashed",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-43",
+      "weight": 0.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
         "canSeeSky": true
       }
     }

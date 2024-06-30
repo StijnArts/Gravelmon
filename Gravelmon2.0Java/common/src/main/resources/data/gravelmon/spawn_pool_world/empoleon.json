@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "interianempoleon-1",
-      "pokemon": "Optional[empoleon] interian",
+      "pokemon": "empoleon interian",
       "presets": [
           "natural"
       ],

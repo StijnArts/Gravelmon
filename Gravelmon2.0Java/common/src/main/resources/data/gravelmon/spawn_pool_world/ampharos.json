@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mythianampharos-1",
-      "pokemon": "Optional[ampharos] mythian",
+      "pokemon": "ampharos mythian",
       "presets": [
           "natural"
       ],

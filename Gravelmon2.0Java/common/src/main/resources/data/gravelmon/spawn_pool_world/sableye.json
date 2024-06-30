@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "enjinniansableye-1",
-      "pokemon": "Optional[sableye] enjinnian",
+      "pokemon": "sableye enjinnian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltasableye-1",
-      "pokemon": "Optional[sableye] delta",
+      "pokemon": "sableye delta",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "cefiransableye-1",
-      "pokemon": "Optional[sableye] cefiran",
+      "pokemon": "sableye cefiran",
       "presets": [
           "natural"
       ],

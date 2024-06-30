@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "pyukumukux-1",
-      "pokemon": "Optional[pyukumuku] x",
+      "pokemon": "pyukumuku x",
       "presets": [
           "natural"
       ],

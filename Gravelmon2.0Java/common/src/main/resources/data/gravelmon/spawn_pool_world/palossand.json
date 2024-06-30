@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadianpalossand-1",
-      "pokemon": "Optional[palossand] kaskadian",
+      "pokemon": "palossand kaskadian",
       "presets": [
           "natural"
       ],

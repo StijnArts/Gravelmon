@@ -107,10 +107,10 @@
   },
   "height": 4,
   "weight": 70,
-  "aspects": ["alteranwintercoat"],
+  "aspects": ["alteran_winter_coat"],
   "cannotDynamax": false
 }
 ], "features": [
-"alteranwintercoat"
+"alteran_winter_coat"
   ]
 }

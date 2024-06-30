@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianheatmor-1",
-      "pokemon": "Optional[heatmor] hizian",
+      "pokemon": "heatmor hizian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltaheatmor-1",
-      "pokemon": "Optional[heatmor] delta",
+      "pokemon": "heatmor delta",
       "presets": [
           "natural"
       ],

@@ -136,7 +136,7 @@
   ],
   "evolutions": [
     {
-      "id": "quetzar_quetzar",
+      "id": "quetzar_quetzar_space",
       "variant": "level_up",
       "result": "quetzar space",
       "consumeHeldItem": false,

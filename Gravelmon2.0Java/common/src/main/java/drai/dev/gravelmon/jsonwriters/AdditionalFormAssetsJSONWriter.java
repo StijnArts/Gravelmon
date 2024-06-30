@@ -37,9 +37,10 @@ public class AdditionalFormAssetsJSONWriter {
 
             for (Pokemon pokemon : set.getValue()) {
                 if (pokemon.isNew() && !pokemon.isModeled()) {
+                    int order = formCounter + java.util.Arrays.asList(Aspect.values()).indexOf(pokemon.getAdditionalAspect());
                     JsonObject fileContents = new JsonObject();
                     fileContents.add("species", new JsonPrimitive("cobblemon:" + Pokemon.getCleanName(set.getKey())));
-                    fileContents.add("order", new JsonPrimitive(formCounter));
+                    fileContents.add("order", new JsonPrimitive(3));
                     var variations = new JsonArray();
                     fileContents.add("variations", variations);
                     JsonObject regularVariation = new JsonObject();
@@ -62,8 +63,29 @@ public class AdditionalFormAssetsJSONWriter {
                     shinyVariation.add("poser", new JsonPrimitive("cobblemon:"+game.getName().toLowerCase()+"_"+pokemon.getCleanName()));
                     regularVariation.add("texture", new JsonPrimitive("cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + pokemon.getCleanName() + ".png"));
                     shinyVariation.add("texture", new JsonPrimitive("cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + pokemon.getCleanName() + "_shiny.png"));
-                    regularVariation.add("layers", new JsonArray(0));
-                    shinyVariation.add("layers", new JsonArray(0));
+
+                    var layers = new JsonArray();
+                    var glow = new JsonObject();
+                    var flame = new JsonObject();
+                    var tail = new JsonObject();
+                    var emissive = new JsonObject();
+                    var emissive2 = new JsonObject();
+                    var transparentEmissive = new JsonObject();
+                    glow.add("name", new JsonPrimitive("glow"));
+                    flame.add("name", new JsonPrimitive("flame"));
+                    tail.add("name", new JsonPrimitive("tail"));
+                    emissive.add("name", new JsonPrimitive("emissive"));
+                    emissive2.add("name", new JsonPrimitive("emissive2"));
+                    transparentEmissive.add("name", new JsonPrimitive("emissive2"));
+                    layers.add(glow);
+                    layers.add(emissive2);
+                    layers.add(emissive);
+                    layers.add(transparentEmissive);
+                    layers.add(flame);
+                    layers.add(tail);
+
+                    regularVariation.add("layers", layers);
+                    shinyVariation.add("layers", layers);
                     if (pokemon.hasGenderDifferences()) {
                         JsonObject regularFemaleVariation = new JsonObject();
                         JsonObject shinyFemaleVariation = new JsonObject();
@@ -155,8 +177,7 @@ public class AdditionalFormAssetsJSONWriter {
 //                            createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + "_shiny.png", resourcesDir);
 //                        }
 //                    }
-                    BufferedWriter writer = new BufferedWriter(new FileWriter(dir + formCounter + "_" + Pokemon.getCleanName(set.getKey()) + "_" + pokemon.getAdditionalAspect().getName() + ".json"));
-                    formCounter++;
+                    BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + Pokemon.getCleanName(set.getKey()) + "_" + pokemon.getAdditionalAspect().getName() + ".json"));
                     writer.write(gson.toJson(fileContents));
                     writer.close();
                     createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + ".png", resourcesDir);

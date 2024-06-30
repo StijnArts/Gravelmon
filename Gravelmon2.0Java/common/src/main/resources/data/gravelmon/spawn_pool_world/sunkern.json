@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltasunkern-1",
-      "pokemon": "Optional[sunkern] delta",
+      "pokemon": "sunkern delta",
       "presets": [
           "natural"
       ],

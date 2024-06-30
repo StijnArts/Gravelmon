@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghomagnemite-1",
-      "pokemon": "Optional[magnemite] egho",
+      "pokemon": "magnemite egho",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "ayreianmagnemite-1",
-      "pokemon": "Optional[magnemite] ayreian",
+      "pokemon": "magnemite ayreian",
       "presets": [
           "natural"
       ],

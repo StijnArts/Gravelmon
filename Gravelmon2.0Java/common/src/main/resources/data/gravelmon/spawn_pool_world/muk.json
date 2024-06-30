@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranmuk-1",
-      "pokemon": "Optional[muk] novran",
+      "pokemon": "muk novran",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "eghomuk-1",
-      "pokemon": "Optional[muk] egho",
+      "pokemon": "muk egho",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "deltamuk-1",
-      "pokemon": "Optional[muk] delta",
+      "pokemon": "muk delta",
       "presets": [
           "natural"
       ],
@@ -59,7 +59,7 @@
 ,
     {
       "id": "ayreianmuk-1",
-      "pokemon": "Optional[muk] ayreian",
+      "pokemon": "muk ayreian",
       "presets": [
           "village"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranimpidimp-1",
-      "pokemon": "Optional[impidimp] novran",
+      "pokemon": "impidimp novran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "varitasianimpidimp-1",
-      "pokemon": "Optional[impidimp] varitasian",
+      "pokemon": "impidimp varitasian",
       "presets": [
           "mansion"
       ],

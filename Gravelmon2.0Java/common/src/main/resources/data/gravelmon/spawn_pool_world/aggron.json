@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianaggron-1",
-      "pokemon": "Optional[aggron] hizian",
+      "pokemon": "aggron hizian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltaaggron-1",
-      "pokemon": "Optional[aggron] delta",
+      "pokemon": "aggron delta",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "ayreianaggron-1",
-      "pokemon": "Optional[aggron] ayreian",
+      "pokemon": "aggron ayreian",
       "presets": [
           "near_lava"
       ],

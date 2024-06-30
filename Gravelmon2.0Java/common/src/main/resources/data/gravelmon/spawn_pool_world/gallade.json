@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligiangallade-1",
-      "pokemon": "Optional[gallade] fligian",
+      "pokemon": "gallade fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltagallade-1",
-      "pokemon": "Optional[gallade] delta",
+      "pokemon": "gallade delta",
       "presets": [
           "natural"
       ],

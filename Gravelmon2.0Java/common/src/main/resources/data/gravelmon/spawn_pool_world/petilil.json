@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltawaterpetilil-1",
-      "pokemon": "Optional[petilil] deltawater",
+      "pokemon": "petilil delta_water",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltafairypetilil-1",
-      "pokemon": "Optional[petilil] deltafairy",
+      "pokemon": "petilil delta_fairy",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "cefiranpetilil-1",
-      "pokemon": "Optional[petilil] cefiran",
+      "pokemon": "petilil cefiran",
       "presets": [
           "natural"
       ],

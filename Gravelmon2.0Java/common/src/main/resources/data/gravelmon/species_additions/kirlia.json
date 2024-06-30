@@ -330,9 +330,9 @@
   "preEvolution": "ralts form=delta",
   "evolutions": [
     {
-      "id": "deltakirlia_gardevoid",
+      "id": "deltakirlia_gardevoir",
       "variant": "level_up",
-      "result": "gardevoid delta",
+      "result": "gardevoir delta",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

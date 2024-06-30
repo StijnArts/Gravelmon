@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:lanturn",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:generation2_deltalanturn.geo",
+      "poser": "cobblemon:generation2_deltalanturn",
+      "texture": "cobblemon:textures/pokemon/generation2/deltalanturn/deltalanturn.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:generation2_deltalanturn.geo",
+      "poser": "cobblemon:generation2_deltalanturn",
+      "texture": "cobblemon:textures/pokemon/generation2/deltalanturn/deltalanturn_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        }
+      ]
+    }
+  ]
+}

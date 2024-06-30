@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamorantyrogue-1",
-      "pokemon": "Optional[tyrogue] qamoran",
+      "pokemon": "tyrogue qamoran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "varitasiantyrogue-1",
-      "pokemon": "Optional[tyrogue] varitasian",
+      "pokemon": "tyrogue varitasian",
       "presets": [
           "natural"
       ],

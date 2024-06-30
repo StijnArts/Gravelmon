@@ -114,8 +114,7 @@
     "egg:solarbeam"  ],
   "labels": [
     "infinity",
-    "gen1",
-    "not_modeled"
+    "gen1"
   ],
   "pokedex": [
     "cobblemon.species.eghooddish.desc"
@@ -136,10 +135,10 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.6,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 0.6,
+    "height": 0.6,
     "fixed": false
   },
   "baseFriendship": 70,

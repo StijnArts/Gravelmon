@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mewtwox-1",
-      "pokemon": "Optional[mewtwo] x",
+      "pokemon": "mewtwo x",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltablaziken-1",
-      "pokemon": "Optional[blaziken] delta",
+      "pokemon": "blaziken delta",
       "presets": [
           "desert_pyramid"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "ayreianblaziken-1",
-      "pokemon": "Optional[blaziken] ayreian",
+      "pokemon": "blaziken ayreian",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "mysticblaziken-1",
-      "pokemon": "Optional[blaziken] mystic",
+      "pokemon": "blaziken mystic",
       "presets": [
           "natural"
       ],

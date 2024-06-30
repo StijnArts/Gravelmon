@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltacamerupt-1",
-      "pokemon": "Optional[camerupt] delta",
+      "pokemon": "camerupt delta",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "ayreiancamerupt-1",
-      "pokemon": "Optional[camerupt] ayreian",
+      "pokemon": "camerupt ayreian",
       "presets": [
           "near_water"
       ],
@@ -40,7 +40,7 @@
 ,
     {
       "id": "cefirancamerupt-1",
-      "pokemon": "Optional[camerupt] cefiran",
+      "pokemon": "camerupt cefiran",
       "presets": [
           "natural"
       ],

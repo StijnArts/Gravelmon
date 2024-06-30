@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltasnorlax-1",
-      "pokemon": "Optional[snorlax] delta",
+      "pokemon": "snorlax delta",
       "presets": [
           "natural"
       ],

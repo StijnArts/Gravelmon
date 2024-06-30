@@ -194,7 +194,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -279,8 +279,7 @@
     "egg:whirlwind"  ],
   "labels": [
     "infinity",
-    "gen2",
-    "not_modeled"
+    "gen2"
   ],
   "pokedex": [
     "cobblemon.species.eghohoothoot.desc"
@@ -301,10 +300,10 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.8,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 0.8,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

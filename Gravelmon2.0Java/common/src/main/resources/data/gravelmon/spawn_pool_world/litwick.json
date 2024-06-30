@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltalitwick-1",
-      "pokemon": "Optional[litwick] delta",
+      "pokemon": "litwick delta",
       "presets": [
           "natural"
       ],

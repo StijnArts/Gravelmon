@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamoranhitmontop-1",
-      "pokemon": "Optional[hitmontop] qamoran",
+      "pokemon": "hitmontop qamoran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "varitasianhitmontop-1",
-      "pokemon": "Optional[hitmontop] varitasian",
+      "pokemon": "hitmontop varitasian",
       "presets": [
           "natural"
       ],

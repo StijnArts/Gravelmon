@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligiangardevoir-1",
-      "pokemon": "Optional[gardevoir] fligian",
+      "pokemon": "gardevoir fligian",
       "presets": [
           "natural"
       ],
@@ -16,6 +16,24 @@
       "weight": 0.05,
       "condition": {
 "biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltagardevoir-1",
+      "pokemon": "gardevoir delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-58",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "isThundering": true,
         "canSeeSky": true
       }
     }

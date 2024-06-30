@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianmetapod-1",
-      "pokemon": "Optional[metapod] ayreian",
+      "pokemon": "metapod ayreian",
       "presets": [
           "natural"
       ],

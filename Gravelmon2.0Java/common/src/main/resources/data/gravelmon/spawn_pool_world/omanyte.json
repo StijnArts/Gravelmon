@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novranomanyte-1",
-      "pokemon": "Optional[omanyte] novran",
+      "pokemon": "omanyte novran",
       "presets": [
           "natural"
       ],

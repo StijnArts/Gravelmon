@@ -211,7 +211,7 @@ public class SpeciesAdditionsWriter {
                                 "  \"height\": "+pokemon.getHeight()+",\n" +
                                 "  \"weight\": "+pokemon.getWeight()+",\n" +
                                 "  \"aspects\": [" +
-                                "\""+pokemon.getAdditionalAspect().getName()+"\"" +
+                                "\""+pokemon.getAdditionalAspect().name().toLowerCase()+"\"" +
                                 "],\n";
                         fileContents += "  \"cannotDynamax\": "+pokemon.cannotDynamax()+"\n" +
                         "}";
@@ -226,7 +226,7 @@ public class SpeciesAdditionsWriter {
                     } else{
                         fileContents += ",\n";
                     }
-                    fileContents += "\""+feature.getName()+"\"";
+                    fileContents += "\""+feature.name().toLowerCase()+"\"";
                 }
             fileContents += "\n  ]"+
                     "\n}";

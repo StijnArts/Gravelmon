@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaroserade-1",
-      "pokemon": "Optional[roserade] delta",
+      "pokemon": "roserade delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "roseradex-1",
-      "pokemon": "Optional[roserade] x",
+      "pokemon": "roserade x",
       "presets": [
           "natural"
       ],
@@ -37,7 +37,7 @@
 ,
     {
       "id": "ayreianroserade-1",
-      "pokemon": "Optional[roserade] ayreian",
+      "pokemon": "roserade ayreian",
       "presets": [
           "natural"
       ],
@@ -54,7 +54,7 @@
 ,
     {
       "id": "relicroserade-1",
-      "pokemon": "Optional[roserade] relic",
+      "pokemon": "roserade relic",
       "presets": [
           "natural"
       ],

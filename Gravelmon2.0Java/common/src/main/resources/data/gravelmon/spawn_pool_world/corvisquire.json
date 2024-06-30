@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimancorvisquire-1",
-      "pokemon": "Optional[corvisquire] norheiman",
+      "pokemon": "corvisquire norheiman",
       "presets": [
           "natural"
       ],

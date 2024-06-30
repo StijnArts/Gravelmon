@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltapichu-1",
-      "pokemon": "Optional[pichu] delta",
+      "pokemon": "pichu delta",
       "presets": [
           "natural"
       ],

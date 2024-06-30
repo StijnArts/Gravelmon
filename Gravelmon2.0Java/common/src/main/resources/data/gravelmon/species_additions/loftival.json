@@ -136,10 +136,10 @@
   },
   "height": 16,
   "weight": 165,
-  "aspects": ["lostislands"],
+  "aspects": ["lost_islands"],
   "cannotDynamax": false
 }
 ], "features": [
-"lostislands"
+"lost_islands"
   ]
 }

@@ -3,7 +3,7 @@
   {
    "id": "rattata_kaskadianraticate",
    "variant": "item_interact",
-   "result": "kaskadianraticate",
+   "result": "raticate kaskadian",
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [],

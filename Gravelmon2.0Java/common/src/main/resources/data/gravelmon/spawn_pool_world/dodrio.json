@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadodrio-1",
-      "pokemon": "Optional[dodrio] delta",
+      "pokemon": "dodrio delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "seviiandodrio-1",
-      "pokemon": "Optional[dodrio] seviian",
+      "pokemon": "dodrio seviian",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "hoenniandodrio-1",
-      "pokemon": "Optional[dodrio] hoennian",
+      "pokemon": "dodrio hoennian",
       "presets": [
           "natural"
       ],

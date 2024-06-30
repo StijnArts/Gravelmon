@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaraichu-1",
-      "pokemon": "Optional[raichu] delta",
+      "pokemon": "raichu delta",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "raichux-1",
-      "pokemon": "Optional[raichu] x",
+      "pokemon": "raichu x",
       "presets": [
           "natural"
       ],

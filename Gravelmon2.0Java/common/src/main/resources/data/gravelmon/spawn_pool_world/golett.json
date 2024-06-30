@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagolett-1",
-      "pokemon": "Optional[golett] delta",
+      "pokemon": "golett delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "kaskadiangolett-1",
-      "pokemon": "Optional[golett] kaskadian",
+      "pokemon": "golett kaskadian",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "cefirangolett-1",
-      "pokemon": "Optional[golett] cefiran",
+      "pokemon": "golett cefiran",
       "presets": [
           "natural"
       ],

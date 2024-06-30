@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "lagoonanlumineon-1",
-      "pokemon": "Optional[lumineon] lagoonan",
+      "pokemon": "lumineon lagoonan",
       "presets": [
           "underwater"
       ],

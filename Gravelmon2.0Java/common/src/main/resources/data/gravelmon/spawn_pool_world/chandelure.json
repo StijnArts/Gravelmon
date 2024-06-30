@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltachandelure-1",
-      "pokemon": "Optional[chandelure] delta",
+      "pokemon": "chandelure delta",
       "presets": [
           "natural"
       ],

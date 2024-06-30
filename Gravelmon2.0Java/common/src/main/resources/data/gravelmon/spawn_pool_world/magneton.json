@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghomagneton-1",
-      "pokemon": "Optional[magneton] egho",
+      "pokemon": "magneton egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianmagneton-1",
-      "pokemon": "Optional[magneton] ayreian",
+      "pokemon": "magneton ayreian",
       "presets": [
           "natural"
       ],

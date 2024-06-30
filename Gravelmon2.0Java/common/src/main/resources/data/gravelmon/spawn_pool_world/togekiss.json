@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hubiantogekiss-1",
-      "pokemon": "Optional[togekiss] hubian",
+      "pokemon": "togekiss hubian",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosianweepinbell-1",
-      "pokemon": "Optional[weepinbell] aristosian",
+      "pokemon": "weepinbell aristosian",
       "presets": [
           "natural"
       ],

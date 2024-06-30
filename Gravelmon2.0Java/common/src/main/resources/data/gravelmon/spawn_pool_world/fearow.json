@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghofearow-1",
-      "pokemon": "Optional[fearow] egho",
+      "pokemon": "fearow egho",
       "presets": [
           "natural"
       ],

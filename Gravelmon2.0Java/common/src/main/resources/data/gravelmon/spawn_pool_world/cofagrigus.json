@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltacofagrigus-1",
-      "pokemon": "Optional[cofagrigus] delta",
+      "pokemon": "cofagrigus delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "cofagrigusx-1",
-      "pokemon": "Optional[cofagrigus] x",
+      "pokemon": "cofagrigus x",
       "presets": [
           "natural"
       ],

@@ -250,7 +250,6 @@ public class GenerationOne extends Game {
         pokemon.add(new GengarX("", Aspect.X));
         pokemon.add(new ElectabuzzX("", Aspect.X));
         pokemon.add(new DittoX("", Aspect.X));
-        pokemon.add(new DittoX("", Aspect.X));
         pokemon.add(new MewtwoX("", Aspect.X));
     }
 

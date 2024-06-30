@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "quetzarspace-1",
-      "pokemon": "Optional[quetzar] space",
+      "pokemon": "quetzar space",
       "presets": [
           "jungle_pyramid"
       ],

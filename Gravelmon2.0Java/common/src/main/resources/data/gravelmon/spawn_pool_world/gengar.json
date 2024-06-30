@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "havaiiangengar-1",
-      "pokemon": "Optional[gengar] havaiian",
+      "pokemon": "gengar havaiian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "gengarx-1",
-      "pokemon": "Optional[gengar] x",
+      "pokemon": "gengar x",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "ayreiangengar-1",
-      "pokemon": "Optional[gengar] ayreian",
+      "pokemon": "gengar ayreian",
       "presets": [
           "natural"
       ],
@@ -55,7 +55,7 @@
 ,
     {
       "id": "kaskadiangengar-1",
-      "pokemon": "Optional[gengar] kaskadian",
+      "pokemon": "gengar kaskadian",
       "presets": [
           "natural"
       ],

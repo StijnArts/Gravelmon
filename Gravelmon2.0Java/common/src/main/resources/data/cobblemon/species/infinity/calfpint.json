@@ -152,7 +152,7 @@
       "permanent": true   
  },
     {
-      "id": "calfpint_tauros",
+      "id": "calfpint_tauros_form=paldean-breed-combat",
       "variant": "level_up",
       "result": "tauros form=paldean-breed-combat",
       "consumeHeldItem": false,
@@ -171,7 +171,7 @@
       "permanent": true   
  },
     {
-      "id": "calfpint_tauros",
+      "id": "calfpint_tauros_form=paldean-breed-blaze",
       "variant": "level_up",
       "result": "tauros form=paldean-breed-blaze",
       "consumeHeldItem": false,
@@ -190,7 +190,7 @@
       "permanent": true   
  },
     {
-      "id": "calfpint_tauros",
+      "id": "calfpint_tauros_form=paldean-breed-aqua",
       "variant": "level_up",
       "result": "tauros form=paldean-breed-aqua",
       "consumeHeldItem": false,

@@ -1,11 +1,11 @@
 package drai.dev.gravelmon.pokemon.attributes;
 
 public enum Aspect {
-    ALOLAN("alolan",false,false),
-    GALARIAN("galarian",false,false),
-    HISUIAN("hisuian",false,false),
-    PALDEAN("paldean",false,false),
-    VALENCIAN("valencian",false,false),
+    ALOLAN("alolan", false, false),
+    GALARIAN("galarian", false, false),
+    HISUIAN("hisuian", false, false),
+    PALDEAN("paldean", false, false),
+    VALENCIAN("valencian", false, false),
     BLUE("blue", true, false),
     EXOTHERMIC("exothermic", true, false),
     COSPLAY("cosplay", false, false),
@@ -16,7 +16,7 @@ public enum Aspect {
     KALOS("kalos", false, false),
     UNOVA("unova", false, false),
     SINNOH("sinnoh", false, false),
-    HOENNIAN("hoennian", false, false),
+    HOENNIAN("hoennian", true, false),
     ORIGINAL("original", false, false),
     LIBRE("libre", false, false),
     PHD("phd", false, false),
@@ -28,8 +28,8 @@ public enum Aspect {
     BLAZE_BOOST("blaze-boost", true, false),
     ARMORED("armored", true, false),
     MAGICIAN("magician", true, false),
-    STORM("storm", true, false), 
-    FAIRY("fairy", true,false),
+    STORM("storm", true, false),
+    FAIRY("fairy", true, false),
     DRAGON("dragon", true, false),
     PSYCHIC("psychic", true, false),
     SOUND("sound", true, false),
@@ -54,7 +54,7 @@ public enum Aspect {
     SCHOOL("school", true, false),
     SWARM("swarm", true, false),
     DRY("dry", true, false),
-    SIRIUS("sirius", true,false),
+    SIRIUS("sirius", true, false),
     ALTAIR("altair", true, false),
     ONE("one", true, false),
     TWO("two", true, false),
@@ -88,14 +88,91 @@ public enum Aspect {
     SNOWY("snowy", true, false),
     NOSE_PATTERN("nosepattern", true, false),
     BROW_PATTERN("browpattern", true, false),
-    QAMORAN("qamoran"), NOSTAN, VARITASIAN, X, SEVIIAN, DEEP, AYREIAN, KASKADIAN, MYSTIC, FLIGIAN, ENJINNIAN, NOVRAN, NEO, NORHEIMAN, AVORIAN, HIZIAN, ALTERAN, ARISTOSIAN, ARMIRAN, RELIC, GUTSY, WINDY, SMOGGY, DUSTY, SANDY, SWARMY, SPOOKY, WHIRLY, ALLERGY, ZAPPY, ZENNY, SORCERY, SHADY, LOVELY, CEFIRAN, EGHO, DELTA, DELTA_SPIDER, DELTA_RUIN, MYTHIAN, HUBIAN, EARTH, HAVAIIAN, LAGOONAN, RICAN, INTERIAN, DELTA_WATER, DELTA_FAIRY, DELTA_BERRY, DELTA_CAKE, SIGNETAN, OKENIAN, LOST_ISLANDS, SPACE, BETA, TERRESTRIAL, XENOVERSAL, ASTRAL, MIX, TWIRL, BASS, HOME, JUNK, WEB, BRAWL, SWAY, SOL, AMAZE_ALL, ELDIWAN, ALTERAN_WINTER_COAT, ALTERAN_SUMMER_COAT, XENOVERSE, CEFIRAN_FIRE, CEFIRAN_ICE, CEFIRAN_ELECTRIC, MALE_X, FEMALE_X;
+    QAMORAN("qamoran"),
+    NOSTAN,
+    VARITASIAN,
+    X, SEVIIAN,
+    DEEP,
+    AYREIAN,
+    KASKADIAN,
+    MYSTIC,
+    FLIGIAN,
+    ENJINNIAN,
+    NOVRAN,
+    NEO,
+    NORHEIMAN,
+    AVORIAN,
+    HIZIAN,
+    ALTERAN,
+    ARISTOSIAN,
+    ARMIRAN,
+    RELIC,
+    GUTSY,
+    WINDY,
+    SMOGGY,
+    DUSTY,
+    SANDY,
+    SWARMY,
+    SPOOKY,
+    WHIRLY,
+    ALLERGY,
+    ZAPPY,
+    ZENNY,
+    SORCERY,
+    SHADY,
+    LOVELY,
+    CEFIRAN,
+    EGHO,
+    DELTA,
+    DELTA_SPIDER,
+    DELTA_RUIN,
+    MYTHIAN,
+    HUBIAN,
+    EARTH,
+    HAVAIIAN,
+    LAGOONAN,
+    RICAN,
+    INTERIAN,
+    DELTA_WATER,
+    DELTA_FAIRY,
+    DELTA_BERRY,
+    DELTA_CAKE,
+    SIGNETAN,
+    OKENIAN,
+    LOST_ISLANDS,
+    SPACE,
+    BETA,
+    TERRESTRIAL,
+    XENOVERSAL,
+    ASTRAL,
+    MIX,
+    TWIRL,
+    BASS,
+    HOME,
+    JUNK,
+    WEB,
+    BRAWL,
+    SWAY,
+    SOL,
+    AMAZE_ALL,
+    ELDIWAN,
+    ALTERAN_WINTER_COAT,
+    ALTERAN_SUMMER_COAT,
+    XENOVERSE,
+    CEFIRAN_FIRE,
+    CEFIRAN_ICE,
+    CEFIRAN_ELECTRIC,
+    MALE_X,
+    FEMALE_X, DELTA_UNLEASHED;
     private String name;
     private boolean isNew;
     private boolean isDefault;
+
     public boolean isNew() {
         return isNew;
     }
-    public boolean isDefault(){
+
+    public boolean isDefault() {
         return isDefault;
     }
 
@@ -103,7 +180,7 @@ public enum Aspect {
         return name != null ? name : this.name();
     }
 
-    Aspect(){
+    Aspect() {
         this.name = this.getName().toLowerCase().replaceAll("_", "");
         this.isNew = true;
         this.isDefault = false;
@@ -114,6 +191,7 @@ public enum Aspect {
         this.isNew = true;
         this.isDefault = false;
     }
+
     Aspect(String name, boolean isNew, boolean isDefault) {
         this.name = name;
         this.isNew = isNew;

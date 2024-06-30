@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianrillaboom-1",
-      "pokemon": "Optional[rillaboom] ayreian",
+      "pokemon": "rillaboom ayreian",
       "presets": [
           "natural"
       ],

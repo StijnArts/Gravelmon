@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligiankirlia-1",
-      "pokemon": "Optional[kirlia] fligian",
+      "pokemon": "kirlia fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltakirlia-1",
-      "pokemon": "Optional[kirlia] delta",
+      "pokemon": "kirlia delta",
       "presets": [
           "natural"
       ],

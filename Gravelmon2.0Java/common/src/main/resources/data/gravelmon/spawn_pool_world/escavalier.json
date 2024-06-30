@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaescavalier-1",
-      "pokemon": "Optional[escavalier] delta",
+      "pokemon": "escavalier delta",
       "presets": [
           "natural"
       ],

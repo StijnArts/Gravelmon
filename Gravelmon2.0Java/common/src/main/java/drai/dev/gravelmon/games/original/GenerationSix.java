@@ -55,7 +55,7 @@ public class GenerationSix extends Game {
         pokemon.add(new DeltaNoibat("Noibat", Aspect.DELTA));
         pokemon.add(new DeltaNoivern("Noivern", Aspect.DELTA));
         pokemon.add(new DeltaHoopa("Hoopa", Aspect.DELTA));
-        pokemon.add(new DeltaHoopaUnleashed("HoopaUnleashed", Aspect.DELTA));
+        pokemon.add(new DeltaHoopaUnleashed("Hoopa", Aspect.DELTA_UNLEASHED));
 
         //X-Species (Xenoverse)
         pokemon.add(new GreninjaX("Greninja", Aspect.X));

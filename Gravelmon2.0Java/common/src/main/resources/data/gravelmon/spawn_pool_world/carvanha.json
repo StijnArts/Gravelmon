@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "carvanhax-1",
-      "pokemon": "Optional[carvanha] x",
+      "pokemon": "carvanha x",
       "presets": [
           "natural"
       ],

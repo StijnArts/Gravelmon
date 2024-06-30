@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltadarumaka-1",
-      "pokemon": "Optional[darumaka] delta",
+      "pokemon": "darumaka delta",
       "presets": [
           "natural"
       ],

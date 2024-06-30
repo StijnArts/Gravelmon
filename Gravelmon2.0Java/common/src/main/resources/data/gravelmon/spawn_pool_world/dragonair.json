@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimandragonair-1",
-      "pokemon": "Optional[dragonair] norheiman",
+      "pokemon": "dragonair norheiman",
       "presets": [
           "freshwater"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltadragonair-1",
-      "pokemon": "Optional[dragonair] delta",
+      "pokemon": "dragonair delta",
       "presets": [
           "natural"
       ],

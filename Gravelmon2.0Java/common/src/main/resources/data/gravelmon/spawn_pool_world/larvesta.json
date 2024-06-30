@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltalarvesta-1",
-      "pokemon": "Optional[larvesta] delta",
+      "pokemon": "larvesta delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "mythianlarvesta-1",
-      "pokemon": "Optional[larvesta] mythian",
+      "pokemon": "larvesta mythian",
       "presets": [
           "natural"
       ],

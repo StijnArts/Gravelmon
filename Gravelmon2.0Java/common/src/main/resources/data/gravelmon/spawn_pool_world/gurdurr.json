@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "kaskadiangurdurr-1",
-      "pokemon": "Optional[gurdurr] kaskadian",
+      "pokemon": "gurdurr kaskadian",
       "presets": [
           "natural"
       ],

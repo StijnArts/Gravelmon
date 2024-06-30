@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagoodra-1",
-      "pokemon": "Optional[goodra] delta",
+      "pokemon": "goodra delta",
       "presets": [
           "natural"
       ],

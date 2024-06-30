@@ -3,7 +3,7 @@
   {
    "id": "bonsly_amazealldrifblim",
    "variant": "item_interact",
-   "result": "amazealldrifblim",
+   "result": "drifblim amazeall",
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [],

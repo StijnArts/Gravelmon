@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltapikachu-1",
-      "pokemon": "Optional[pikachu] delta",
+      "pokemon": "pikachu delta",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "pikachufemalex-1",
-      "pokemon": "Optional[pikachu] femalex",
+      "pokemon": "pikachu female_x",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "pikachumalex-1",
-      "pokemon": "Optional[pikachu] malex",
+      "pokemon": "pikachu male_x",
       "presets": [
           "natural"
       ],

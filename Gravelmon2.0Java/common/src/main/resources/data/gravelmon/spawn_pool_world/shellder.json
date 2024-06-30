@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "nostanshellder-1",
-      "pokemon": "Optional[shellder] nostan",
+      "pokemon": "shellder nostan",
       "presets": [
           "underwater"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "norheimanshellder-1",
-      "pokemon": "Optional[shellder] norheiman",
+      "pokemon": "shellder norheiman",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "eghoshellder-1",
-      "pokemon": "Optional[shellder] egho",
+      "pokemon": "shellder egho",
       "presets": [
           "underwater"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltakarrablast-1",
-      "pokemon": "Optional[karrablast] delta",
+      "pokemon": "karrablast delta",
       "presets": [
           "natural"
       ],

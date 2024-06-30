@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltalucario-1",
-      "pokemon": "Optional[lucario] delta",
+      "pokemon": "lucario delta",
       "presets": [
           "desert_pyramid"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "mythianlucario-1",
-      "pokemon": "Optional[lucario] mythian",
+      "pokemon": "lucario mythian",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "mysticlucario-1",
-      "pokemon": "Optional[lucario] mystic",
+      "pokemon": "lucario mystic",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltalanturn-1",
-      "pokemon": "Optional[lanturn] delta",
+      "pokemon": "lanturn delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hoennianlanturn-1",
-      "pokemon": "Optional[lanturn] hoennian",
+      "pokemon": "lanturn hoennian",
       "presets": [
           "underwater"
       ],

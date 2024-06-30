@@ -3,7 +3,7 @@
   {
    "id": "misdreavus_norheimanmismagius",
    "variant": "item_interact",
-   "result": "norheimanmismagius",
+   "result": "mismagius norheiman",
    "consumeHeldItem": false,
    "learnableMoves": [
    ],

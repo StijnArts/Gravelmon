@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "cefiranmagcargo-1",
-      "pokemon": "Optional[magcargo] cefiran",
+      "pokemon": "magcargo cefiran",
       "presets": [
           "natural"
       ],

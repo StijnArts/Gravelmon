@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:joltik",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:generation5_joltikx.geo",
+      "poser": "cobblemon:generation5_joltikx",
+      "texture": "cobblemon:textures/pokemon/generation5/joltikx/joltikx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:generation5_joltikx.geo",
+      "poser": "cobblemon:generation5_joltikx",
+      "texture": "cobblemon:textures/pokemon/generation5/joltikx/joltikx_shiny.png",
+      "layers": []
+    }
+  ]
+}

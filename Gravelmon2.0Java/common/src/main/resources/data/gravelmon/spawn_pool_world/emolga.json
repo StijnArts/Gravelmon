@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaemolga-1",
-      "pokemon": "Optional[emolga] delta",
+      "pokemon": "emolga delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "hoennianemolga-1",
-      "pokemon": "Optional[emolga] hoennian",
+      "pokemon": "emolga hoennian",
       "presets": [
           "natural"
       ],

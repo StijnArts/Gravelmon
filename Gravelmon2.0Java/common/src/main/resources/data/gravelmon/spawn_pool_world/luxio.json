@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaluxio-1",
-      "pokemon": "Optional[luxio] delta",
+      "pokemon": "luxio delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianluxio-1",
-      "pokemon": "Optional[luxio] ayreian",
+      "pokemon": "luxio ayreian",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "kaskadianluxio-1",
-      "pokemon": "Optional[luxio] kaskadian",
+      "pokemon": "luxio kaskadian",
       "presets": [
           "natural"
       ],

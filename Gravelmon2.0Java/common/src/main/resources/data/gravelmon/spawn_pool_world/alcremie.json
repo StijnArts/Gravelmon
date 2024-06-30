@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianalcremie-1",
-      "pokemon": "Optional[alcremie] varitasian",
+      "pokemon": "alcremie varitasian",
       "presets": [
           "natural"
       ],

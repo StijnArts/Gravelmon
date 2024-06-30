@@ -32,7 +32,7 @@ public class SpeciesAssetsJSONWriter {
         if (pokemon.isNew() && !pokemon.isModeled()) {
             JsonObject fileContents = new JsonObject();
             fileContents.add("species", new JsonPrimitive("cobblemon:" + pokemon.getCleanName()));
-            fileContents.add("order", new JsonPrimitive(1));
+            fileContents.add("order", new JsonPrimitive(0));
             var variations = new JsonArray();
             fileContents.add("variations", variations);
             JsonObject regularVariation = new JsonObject();

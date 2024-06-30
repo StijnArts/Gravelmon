@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianralts-1",
-      "pokemon": "Optional[ralts] fligian",
+      "pokemon": "ralts fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltaralts-1",
-      "pokemon": "Optional[ralts] delta",
+      "pokemon": "ralts delta",
       "presets": [
           "natural"
       ],

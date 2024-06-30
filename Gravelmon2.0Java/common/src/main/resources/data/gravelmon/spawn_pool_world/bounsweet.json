@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianbounsweet-1",
-      "pokemon": "Optional[bounsweet] varitasian",
+      "pokemon": "bounsweet varitasian",
       "presets": [
           "natural"
       ],

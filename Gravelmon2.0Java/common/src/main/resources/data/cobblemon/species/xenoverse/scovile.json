@@ -87,7 +87,7 @@
   "preEvolution": "pepequeno",
   "evolutions": [
     {
-      "id": "scovile_scovile",
+      "id": "scovile_scovile_x",
       "variant": "item_interact",
       "result": "scovile x",
       "consumeHeldItem": false,

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "aristosiangrowlithe-1",
-      "pokemon": "Optional[growlithe] aristosian",
+      "pokemon": "growlithe aristosian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltagrowlithe-1",
-      "pokemon": "Optional[growlithe] delta",
+      "pokemon": "growlithe delta",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "armirangrowlithe-1",
-      "pokemon": "Optional[growlithe] armiran",
+      "pokemon": "growlithe armiran",
       "presets": [
           "natural"
       ],

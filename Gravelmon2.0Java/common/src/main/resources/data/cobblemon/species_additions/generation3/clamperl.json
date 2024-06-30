@@ -3,7 +3,7 @@
   {
    "id": "clamperl_novranhuntail",
    "variant": "trade",
-   "result": "novranhuntail",
+   "result": "huntail novran",
    "consumeHeldItem": true,
     "permanent": true,
    "learnableMoves": [],
@@ -17,7 +17,7 @@
   {
    "id": "clamperl_novrangorebyss",
    "variant": "trade",
-   "result": "novrangorebyss",
+   "result": "gorebyss novran",
    "consumeHeldItem": true,
     "permanent": true,
    "learnableMoves": [],

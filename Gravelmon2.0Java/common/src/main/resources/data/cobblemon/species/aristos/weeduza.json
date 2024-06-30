@@ -72,7 +72,7 @@
   ],
   "evolutions": [
     {
-      "id": "weeduza_tangela",
+      "id": "weeduza_tangela_qamoran",
       "variant": "level_up",
       "result": "tangela qamoran",
       "consumeHeldItem": false,
@@ -90,7 +90,7 @@
       "permanent": true   
  },
     {
-      "id": "weeduza_tangela",
+      "id": "weeduza_tangela_hoennian",
       "variant": "level_up",
       "result": "tangela hoennian",
       "consumeHeldItem": false,
@@ -108,7 +108,7 @@
       "permanent": true   
  },
     {
-      "id": "weeduza_tangela",
+      "id": "weeduza_tangela_egho",
       "variant": "level_up",
       "result": "tangela egho",
       "consumeHeldItem": false,

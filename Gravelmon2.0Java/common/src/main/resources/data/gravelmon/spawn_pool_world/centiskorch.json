@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviiancentiskorch-1",
-      "pokemon": "Optional[centiskorch] seviian",
+      "pokemon": "centiskorch seviian",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "ayreiancentiskorch-1",
-      "pokemon": "Optional[centiskorch] ayreian",
+      "pokemon": "centiskorch ayreian",
       "presets": [
           "natural"
       ],

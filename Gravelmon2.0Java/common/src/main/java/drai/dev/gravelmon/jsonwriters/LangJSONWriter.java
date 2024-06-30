@@ -8,6 +8,9 @@ import org.apache.commons.lang3.*;
 import java.io.*;
 import java.nio.file.*;
 
+import static drai.dev.gravelmon.pokemon.Pokemon.ADDITIONAL_FORMS;
+import static drai.dev.gravelmon.pokemon.Pokemon.getKeysByValue;
+
 public class LangJSONWriter {
     private static String contents ="{\n";
     private static boolean isFirst=true;
@@ -38,7 +41,8 @@ public class LangJSONWriter {
             if(pokemon.getDexEntries().size() > 0){
                 for (String entry : pokemon.getDexEntries()) {
                     contents += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc\": \"" +
-                            (pokemon.getAdditionalAspect() != null ? "["+ StringUtils.capitalize(pokemon.getAdditionalAspect().getName()) + " " + pokemon.getName() +" ]" : "") + entry + "\"";
+                            (pokemon.getAdditionalAspect() != null ? "["+ StringUtils.capitalize(pokemon.getAdditionalAspect().name().toLowerCase().replaceAll("_"," ")) + " " +
+                                    StringUtils.capitalize(getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst().get()) +"] " : "") + entry + "\"";
                     dexEntryCounter++;
                 }
             }

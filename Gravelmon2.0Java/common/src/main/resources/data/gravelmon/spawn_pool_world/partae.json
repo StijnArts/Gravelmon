@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "lostislandspartae-1",
-      "pokemon": "Optional[partae] lostislands",
+      "pokemon": "partae lost_islands",
       "presets": [
           "village"
       ],

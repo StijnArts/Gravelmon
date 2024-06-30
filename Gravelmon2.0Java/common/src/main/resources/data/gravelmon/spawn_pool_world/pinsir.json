@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianpinsir-1",
-      "pokemon": "Optional[pinsir] hizian",
+      "pokemon": "pinsir hizian",
       "presets": [
           "natural"
       ],
@@ -24,7 +24,7 @@
 ,
     {
       "id": "hoennianpinsir-1",
-      "pokemon": "Optional[pinsir] hoennian",
+      "pokemon": "pinsir hoennian",
       "presets": [
           "village"
       ],
@@ -44,7 +44,7 @@
 ,
     {
       "id": "ayreianpinsir-1",
-      "pokemon": "Optional[pinsir] ayreian",
+      "pokemon": "pinsir ayreian",
       "presets": [
           "natural"
       ],

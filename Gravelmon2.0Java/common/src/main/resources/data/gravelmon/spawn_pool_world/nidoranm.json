@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "alterannidoransummercoat-1",
-      "pokemon": "Optional[nidoranm] alteransummercoat",
+      "pokemon": "nidoranm alteran_summer_coat",
       "presets": [
           "natural"
       ],

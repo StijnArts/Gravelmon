@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreiangourgeist-1",
-      "pokemon": "Optional[gourgeist] ayreian",
+      "pokemon": "gourgeist ayreian",
       "presets": [
           "natural"
       ],

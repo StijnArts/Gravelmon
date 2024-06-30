@@ -43,8 +43,8 @@ public class AdditionSpawnPoolWorldJSONWriter {
                 }
                 fileContents +=         "    {\n" +
                         "      \"id\": \""+pokemon.getCleanName()+"-1\",\n" +
-                        "      \"pokemon\": \""+getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst() +
-                        " "+pokemon.getAdditionalAspect().getName().toLowerCase()+"\",\n" +
+                        "      \"pokemon\": \""+getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst().get() +
+                        " "+pokemon.getAdditionalAspect().name().toLowerCase()+"\",\n" +
                         "      \"presets\": [\n          ";
 
             boolean isFirstSpawnPreset = true;
@@ -99,7 +99,7 @@ public class AdditionSpawnPoolWorldJSONWriter {
                         "    {\n" +
                                 "      \"id\": \"" + form.getCleanName() + "_" + pokemon.getCleanName() + "-1\",\n" +
                                 "      \"pokemon\": \""+getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst()+
-                                " "+pokemon.getAdditionalAspect().getName().toLowerCase()+"\",\n" +
+                                " "+pokemon.getAdditionalAspect().name().toLowerCase()+"\",\n" +
                                 "      \"presets\": [ ";
                 boolean isFirstFormSpawnPreset = true;
                 for (SpawnPreset spawnPreset : form.getSpawnPresets()) {

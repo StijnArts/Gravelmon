@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanvoltorb-1",
-      "pokemon": "Optional[voltorb] norheiman",
+      "pokemon": "voltorb norheiman",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianvoltorb-1",
-      "pokemon": "Optional[voltorb] ayreian",
+      "pokemon": "voltorb ayreian",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "mysticvoltorb-1",
-      "pokemon": "Optional[voltorb] mystic",
+      "pokemon": "voltorb mystic",
       "presets": [
           "natural"
       ],

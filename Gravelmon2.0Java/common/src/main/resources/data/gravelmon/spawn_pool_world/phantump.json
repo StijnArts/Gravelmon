@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianphantump-1",
-      "pokemon": "Optional[phantump] varitasian",
+      "pokemon": "phantump varitasian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltaphantump-1",
-      "pokemon": "Optional[phantump] delta",
+      "pokemon": "phantump delta",
       "presets": [
           "natural"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "kaskadianphantump-1",
-      "pokemon": "Optional[phantump] kaskadian",
+      "pokemon": "phantump kaskadian",
       "presets": [
           "natural"
       ],

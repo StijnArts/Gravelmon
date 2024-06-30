@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasiantrevenant-1",
-      "pokemon": "Optional[trevenant] varitasian",
+      "pokemon": "trevenant varitasian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltatrevenant-1",
-      "pokemon": "Optional[trevenant] delta",
+      "pokemon": "trevenant delta",
       "presets": [
           "natural"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "kaskadiantrevenant-1",
-      "pokemon": "Optional[trevenant] kaskadian",
+      "pokemon": "trevenant kaskadian",
       "presets": [
           "natural"
       ],

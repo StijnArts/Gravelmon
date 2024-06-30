@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamorangrumpig-1",
-      "pokemon": "Optional[grumpig] qamoran",
+      "pokemon": "grumpig qamoran",
       "presets": [
           "natural"
       ],

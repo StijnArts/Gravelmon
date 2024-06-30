@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltayanmega-1",
-      "pokemon": "Optional[yanmega] delta",
+      "pokemon": "yanmega delta",
       "presets": [
           "natural"
       ],

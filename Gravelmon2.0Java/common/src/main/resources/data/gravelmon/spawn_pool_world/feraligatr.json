@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghoferaligatr-1",
-      "pokemon": "Optional[feraligatr] egho",
+      "pokemon": "feraligatr egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreianferaligatr-1",
-      "pokemon": "Optional[feraligatr] ayreian",
+      "pokemon": "feraligatr ayreian",
       "presets": [
           "near_water"
       ],

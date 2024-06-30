@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:gallade",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltagallade.geo",
+      "poser": "cobblemon:generation4_deltagallade",
+      "texture": "cobblemon:textures/pokemon/generation4/deltagallade.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation4/deltagallade_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltagallade.geo",
+      "poser": "cobblemon:generation4_deltagallade",
+      "texture": "cobblemon:textures/pokemon/generation4/deltagallade_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation4/deltagallade_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

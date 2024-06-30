@@ -3,7 +3,7 @@
   {
    "id": "bisharp_bisharpx",
    "variant": "item_interact",
-   "result": "bisharpx",
+   "result": "bisharp x",
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [],

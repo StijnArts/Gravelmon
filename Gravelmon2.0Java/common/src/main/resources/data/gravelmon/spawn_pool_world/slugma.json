@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "cefiranslugma-1",
-      "pokemon": "Optional[slugma] cefiran",
+      "pokemon": "slugma cefiran",
       "presets": [
           "natural"
       ],

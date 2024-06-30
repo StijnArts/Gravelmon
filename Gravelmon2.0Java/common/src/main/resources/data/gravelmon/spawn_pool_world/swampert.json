@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "mysticswampert-1",
-      "pokemon": "Optional[swampert] mystic",
+      "pokemon": "swampert mystic",
       "presets": [
           "natural"
       ],

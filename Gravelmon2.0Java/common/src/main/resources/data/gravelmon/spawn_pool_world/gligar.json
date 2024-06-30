@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hiziangligar-1",
-      "pokemon": "Optional[gligar] hizian",
+      "pokemon": "gligar hizian",
       "presets": [
           "natural"
       ],

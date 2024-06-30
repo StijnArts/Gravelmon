@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamorantangela-1",
-      "pokemon": "Optional[tangela] qamoran",
+      "pokemon": "tangela qamoran",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "eghotangela-1",
-      "pokemon": "Optional[tangela] egho",
+      "pokemon": "tangela egho",
       "presets": [
           "village"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "deltatangela-1",
-      "pokemon": "Optional[tangela] delta",
+      "pokemon": "tangela delta",
       "presets": [
           "natural"
       ],
@@ -56,7 +56,7 @@
 ,
     {
       "id": "hoenniantangela-1",
-      "pokemon": "Optional[tangela] hoennian",
+      "pokemon": "tangela hoennian",
       "presets": [
           "village"
       ],

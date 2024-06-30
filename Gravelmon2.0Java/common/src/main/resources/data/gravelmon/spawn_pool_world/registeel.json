@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaregisteel-1",
-      "pokemon": "Optional[registeel] delta",
+      "pokemon": "registeel delta",
       "presets": [
           "lava_surface"
       ],

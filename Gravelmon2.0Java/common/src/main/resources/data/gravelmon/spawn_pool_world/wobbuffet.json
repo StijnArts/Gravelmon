@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "varitasianwobbuffet-1",
-      "pokemon": "Optional[wobbuffet] varitasian",
+      "pokemon": "wobbuffet varitasian",
       "presets": [
           "natural"
       ],

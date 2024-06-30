@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianlunatone-1",
-      "pokemon": "Optional[lunatone] ayreian",
+      "pokemon": "lunatone ayreian",
       "presets": [
           "natural"
       ],

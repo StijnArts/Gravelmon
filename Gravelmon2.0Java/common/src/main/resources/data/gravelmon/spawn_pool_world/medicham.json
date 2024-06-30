@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltamedicham-1",
-      "pokemon": "Optional[medicham] delta",
+      "pokemon": "medicham delta",
       "presets": [
           "natural"
       ],

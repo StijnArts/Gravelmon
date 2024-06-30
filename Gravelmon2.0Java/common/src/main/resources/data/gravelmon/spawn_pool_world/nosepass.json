@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hiziannosepass-1",
-      "pokemon": "Optional[nosepass] hizian",
+      "pokemon": "nosepass hizian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreiannosepass-1",
-      "pokemon": "Optional[nosepass] ayreian",
+      "pokemon": "nosepass ayreian",
       "presets": [
           "natural"
       ],

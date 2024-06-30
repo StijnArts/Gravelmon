@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghogarbodor-1",
-      "pokemon": "Optional[garbodor] egho",
+      "pokemon": "garbodor egho",
       "presets": [
           "village"
       ],

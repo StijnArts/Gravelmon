@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligiangrovyle-1",
-      "pokemon": "Optional[grovyle] fligian",
+      "pokemon": "grovyle fligian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltagrovyle-1",
-      "pokemon": "Optional[grovyle] delta",
+      "pokemon": "grovyle delta",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "mysticgrovyle-1",
-      "pokemon": "Optional[grovyle] mystic",
+      "pokemon": "grovyle mystic",
       "presets": [
           "natural"
       ],

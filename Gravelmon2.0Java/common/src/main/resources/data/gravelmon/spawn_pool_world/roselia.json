@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "avorianroselia-1",
-      "pokemon": "Optional[roselia] avorian",
+      "pokemon": "roselia avorian",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "deltaroselia-1",
-      "pokemon": "Optional[roselia] delta",
+      "pokemon": "roselia delta",
       "presets": [
           "natural"
       ],
@@ -37,7 +37,7 @@
 ,
     {
       "id": "roseliax-1",
-      "pokemon": "Optional[roselia] x",
+      "pokemon": "roselia x",
       "presets": [
           "natural"
       ],
@@ -53,7 +53,7 @@
 ,
     {
       "id": "ayreianroselia-1",
-      "pokemon": "Optional[roselia] ayreian",
+      "pokemon": "roselia ayreian",
       "presets": [
           "natural"
       ],
@@ -70,7 +70,7 @@
 ,
     {
       "id": "relicroselia-1",
-      "pokemon": "Optional[roselia] relic",
+      "pokemon": "roselia relic",
       "presets": [
           "natural"
       ],

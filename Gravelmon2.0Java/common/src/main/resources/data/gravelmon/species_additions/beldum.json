@@ -99,7 +99,7 @@
   },
   "height": 6,
   "weight": 476,
-  "aspects": ["deltaspider"],
+  "aspects": ["delta_spider"],
   "cannotDynamax": false
 },
 {
@@ -194,11 +194,11 @@
   },
   "height": 6,
   "weight": 952,
-  "aspects": ["deltaruin"],
+  "aspects": ["delta_ruin"],
   "cannotDynamax": false
 }
 ], "features": [
-"deltaspider",
-"deltaruin"
+"delta_spider",
+"delta_ruin"
   ]
 }

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaspiderbeldum-1",
-      "pokemon": "Optional[beldum] deltaspider",
+      "pokemon": "beldum delta_spider",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltaruinbeldum-1",
-      "pokemon": "Optional[beldum] deltaruin",
+      "pokemon": "beldum delta_ruin",
       "presets": [
           "jungle_pyramid"
       ],

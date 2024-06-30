@@ -3,7 +3,7 @@
   {
    "id": "bonsly_amazeallsudowoodo",
    "variant": "item_interact",
-   "result": "amazeallsudowoodo",
+   "result": "sudowoodo amazeall",
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [],

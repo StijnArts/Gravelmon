@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "novrangrimer-1",
-      "pokemon": "Optional[grimer] novran",
+      "pokemon": "grimer novran",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "eghogrimer-1",
-      "pokemon": "Optional[grimer] egho",
+      "pokemon": "grimer egho",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "deltagrimer-1",
-      "pokemon": "Optional[grimer] delta",
+      "pokemon": "grimer delta",
       "presets": [
           "natural"
       ],
@@ -59,7 +59,7 @@
 ,
     {
       "id": "ayreiangrimer-1",
-      "pokemon": "Optional[grimer] ayreian",
+      "pokemon": "grimer ayreian",
       "presets": [
           "village"
       ],

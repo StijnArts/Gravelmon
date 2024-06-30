@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagreninja-1",
-      "pokemon": "Optional[greninja] delta",
+      "pokemon": "greninja delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "greninjax-1",
-      "pokemon": "Optional[greninja] x",
+      "pokemon": "greninja x",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "armirangreninja-1",
-      "pokemon": "Optional[greninja] armiran",
+      "pokemon": "greninja armiran",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "avorianmaractus-1",
-      "pokemon": "Optional[maractus] avorian",
+      "pokemon": "maractus avorian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltamaractus-1",
-      "pokemon": "Optional[maractus] delta",
+      "pokemon": "maractus delta",
       "presets": [
           "natural"
       ],
@@ -39,7 +39,7 @@
 ,
     {
       "id": "hoennianmaractus-1",
-      "pokemon": "Optional[maractus] hoennian",
+      "pokemon": "maractus hoennian",
       "presets": [
           "natural"
       ],

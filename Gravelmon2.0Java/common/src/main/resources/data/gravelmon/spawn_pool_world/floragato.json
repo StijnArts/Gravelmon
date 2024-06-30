@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreianfloragato-1",
-      "pokemon": "Optional[floragato] ayreian",
+      "pokemon": "floragato ayreian",
       "presets": [
           "natural"
       ],

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:oddish",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:generation1_eghooddish.geo",
+      "poser": "cobblemon:generation1_eghooddish",
+      "texture": "cobblemon:textures/pokemon/generation1/eghooddish/eghooddish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_eghooddish.geo",
+      "poser": "cobblemon:generation1_eghooddish",
+      "texture": "cobblemon:textures/pokemon/generation1/eghooddish/eghooddish_shiny.png",
+      "layers": []
+    }
+  ]
+}

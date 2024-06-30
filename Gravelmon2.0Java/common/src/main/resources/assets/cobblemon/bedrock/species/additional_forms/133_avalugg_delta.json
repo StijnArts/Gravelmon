@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:avalugg",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "poser": "cobblemon:generation6_deltaavalugg",
+      "model": "cobblemon:deltaavalugg.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/deltaavalugg.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltaavalugg.geo",
+      "poser": "cobblemon:generation6_deltaavalugg",
+      "texture": "cobblemon:textures/pokemon/generation6/deltaavalugg_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltasnorunt-1",
-      "pokemon": "Optional[snorunt] delta",
+      "pokemon": "snorunt delta",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "cefiransnorunt-1",
-      "pokemon": "Optional[snorunt] cefiran",
+      "pokemon": "snorunt cefiran",
       "presets": [
           "natural"
       ],

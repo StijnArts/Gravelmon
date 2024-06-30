@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "havaiianhaunter-1",
-      "pokemon": "Optional[haunter] havaiian",
+      "pokemon": "haunter havaiian",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "haunterx-1",
-      "pokemon": "Optional[haunter] x",
+      "pokemon": "haunter x",
       "presets": [
           "natural"
       ],
@@ -38,7 +38,7 @@
 ,
     {
       "id": "ayreianhaunter-1",
-      "pokemon": "Optional[haunter] ayreian",
+      "pokemon": "haunter ayreian",
       "presets": [
           "natural"
       ],
@@ -55,7 +55,7 @@
 ,
     {
       "id": "kaskadianhaunter-1",
-      "pokemon": "Optional[haunter] kaskadian",
+      "pokemon": "haunter kaskadian",
       "presets": [
           "natural"
       ],

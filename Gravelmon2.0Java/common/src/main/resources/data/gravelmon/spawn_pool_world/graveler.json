@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltagraveler-1",
-      "pokemon": "Optional[graveler] delta",
+      "pokemon": "graveler delta",
       "presets": [
           "jungle_pyramid"
       ],

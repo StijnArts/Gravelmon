@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviianclawitzer-1",
-      "pokemon": "Optional[clawitzer] seviian",
+      "pokemon": "clawitzer seviian",
       "presets": [
           "natural"
       ],

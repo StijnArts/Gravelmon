@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:chinchou",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:generation2_deltachinchou.geo",
+      "poser": "cobblemon:generation2_deltachinchou",
+      "texture": "cobblemon:textures/pokemon/generation2/deltachinchou/deltachinchou.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:generation2_deltachinchou.geo",
+      "poser": "cobblemon:generation2_deltachinchou",
+      "texture": "cobblemon:textures/pokemon/generation2/deltachinchou/deltachinchou_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        }
+      ]
+    }
+  ]
+}

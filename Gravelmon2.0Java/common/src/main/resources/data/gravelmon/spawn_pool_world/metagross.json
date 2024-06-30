@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaspidermetagross-1",
-      "pokemon": "Optional[metagross] deltaspider",
+      "pokemon": "metagross delta_spider",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltaruinmetagross-1",
-      "pokemon": "Optional[metagross] deltaruin",
+      "pokemon": "metagross delta_ruin",
       "presets": [
           "jungle_pyramid"
       ],

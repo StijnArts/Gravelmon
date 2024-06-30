@@ -145,7 +145,7 @@
       "permanent": true   
  },
     {
-      "id": "lilpras_lapras",
+      "id": "lilpras_lapras_kaskadian",
       "variant": "level_up",
       "result": "lapras kaskadian",
       "consumeHeldItem": false,
@@ -159,7 +159,7 @@
       "permanent": true   
  },
     {
-      "id": "lilpras_lapras",
+      "id": "lilpras_lapras_mythian",
       "variant": "level_up",
       "result": "lapras mythian",
       "consumeHeldItem": false,
@@ -173,7 +173,7 @@
       "permanent": true   
  },
     {
-      "id": "lilpras_lapras",
+      "id": "lilpras_lapras_novran",
       "variant": "item_interact",
       "result": "lapras novran",
       "consumeHeldItem": false,

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wystearia",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:xenoverse_wystearia",
+      "model": "cobblemon:xenoverse_wystearia.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/wystearia/wystearia.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/wystearia/wystearia_shiny.png"
+    }  ]
+}

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltatentacruel-1",
-      "pokemon": "Optional[tentacruel] delta",
+      "pokemon": "tentacruel delta",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "hoenniantentacruel-1",
-      "pokemon": "Optional[tentacruel] hoennian",
+      "pokemon": "tentacruel hoennian",
       "presets": [
           "underwater"
       ],
@@ -43,7 +43,7 @@
 ,
     {
       "id": "relictentacruel-1",
-      "pokemon": "Optional[tentacruel] relic",
+      "pokemon": "tentacruel relic",
       "presets": [
           "underwater"
       ],

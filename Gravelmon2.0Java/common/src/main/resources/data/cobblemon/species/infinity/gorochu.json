@@ -140,17 +140,16 @@
     "egg:wish"  ],
   "labels": [
     "infinity",
-    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gorochu.desc"
   ],
   "preEvolution": "pikachu",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

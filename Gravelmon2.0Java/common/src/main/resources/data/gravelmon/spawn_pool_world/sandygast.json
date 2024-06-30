@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "qamoransandygast-1",
-      "pokemon": "Optional[sandygast] qamoran",
+      "pokemon": "sandygast qamoran",
       "presets": [
           "natural"
       ],

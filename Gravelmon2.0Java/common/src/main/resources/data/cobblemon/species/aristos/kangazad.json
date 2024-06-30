@@ -127,7 +127,7 @@
   ],
   "evolutions": [
     {
-      "id": "kangazad_kangaskhan",
+      "id": "kangazad_kangaskhan_aristosian",
       "variant": "level_up",
       "result": "kangaskhan aristosian",
       "consumeHeldItem": false,

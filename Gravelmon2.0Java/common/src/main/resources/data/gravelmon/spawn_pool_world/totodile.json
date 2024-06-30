@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "eghototodile-1",
-      "pokemon": "Optional[totodile] egho",
+      "pokemon": "totodile egho",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "ayreiantotodile-1",
-      "pokemon": "Optional[totodile] ayreian",
+      "pokemon": "totodile ayreian",
       "presets": [
           "near_water"
       ],

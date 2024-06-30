@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanfoongus-1",
-      "pokemon": "Optional[foongus] norheiman",
+      "pokemon": "foongus norheiman",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "deltafoongus-1",
-      "pokemon": "Optional[foongus] delta",
+      "pokemon": "foongus delta",
       "presets": [
           "natural"
       ],

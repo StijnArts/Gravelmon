@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "enjinniannoctowl-1",
-      "pokemon": "Optional[noctowl] enjinnian",
+      "pokemon": "noctowl enjinnian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "eghonoctowl-1",
-      "pokemon": "Optional[noctowl] egho",
+      "pokemon": "noctowl egho",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "deltanoctowl-1",
-      "pokemon": "Optional[noctowl] delta",
+      "pokemon": "noctowl delta",
       "presets": [
           "natural"
       ],

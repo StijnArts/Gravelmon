@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "enjinnianhoothoot-1",
-      "pokemon": "Optional[hoothoot] enjinnian",
+      "pokemon": "hoothoot enjinnian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "eghohoothoot-1",
-      "pokemon": "Optional[hoothoot] egho",
+      "pokemon": "hoothoot egho",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "deltahoothoot-1",
-      "pokemon": "Optional[hoothoot] delta",
+      "pokemon": "hoothoot delta",
       "presets": [
           "natural"
       ],

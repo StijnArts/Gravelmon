@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ayreiankadabra-1",
-      "pokemon": "Optional[kadabra] ayreian",
+      "pokemon": "kadabra ayreian",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligiannincada-1",
-      "pokemon": "Optional[nincada] fligian",
+      "pokemon": "nincada fligian",
       "presets": [
           "natural"
       ],

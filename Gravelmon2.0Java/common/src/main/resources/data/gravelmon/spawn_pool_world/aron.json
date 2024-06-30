@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "hizianaron-1",
-      "pokemon": "Optional[aron] hizian",
+      "pokemon": "aron hizian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deltaaron-1",
-      "pokemon": "Optional[aron] delta",
+      "pokemon": "aron delta",
       "presets": [
           "natural"
       ],
@@ -41,7 +41,7 @@
 ,
     {
       "id": "ayreianaron-1",
-      "pokemon": "Optional[aron] ayreian",
+      "pokemon": "aron ayreian",
       "presets": [
           "near_lava"
       ],

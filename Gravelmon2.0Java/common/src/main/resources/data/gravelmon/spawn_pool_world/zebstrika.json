@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviianzebstrika-1",
-      "pokemon": "Optional[zebstrika] seviian",
+      "pokemon": "zebstrika seviian",
       "presets": [
           "natural"
       ],

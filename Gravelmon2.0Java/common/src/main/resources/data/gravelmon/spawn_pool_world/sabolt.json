@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "saboltterrestrial-1",
-      "pokemon": "Optional[sabolt] terrestrial",
+      "pokemon": "sabolt terrestrial",
       "presets": [
           "natural"
       ],
@@ -22,7 +22,7 @@
 ,
     {
       "id": "saboltxenoversal-1",
-      "pokemon": "Optional[sabolt] xenoversal",
+      "pokemon": "sabolt xenoversal",
       "presets": [
           "natural"
       ],

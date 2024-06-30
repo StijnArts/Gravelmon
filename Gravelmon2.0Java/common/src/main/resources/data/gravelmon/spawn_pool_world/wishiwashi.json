@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "seviianwishiwashi-1",
-      "pokemon": "Optional[wishiwashi] seviian",
+      "pokemon": "wishiwashi seviian",
       "presets": [
           "natural"
       ],
@@ -23,7 +23,7 @@
 ,
     {
       "id": "deepwishiwashi-1",
-      "pokemon": "Optional[wishiwashi] deep",
+      "pokemon": "wishiwashi deep",
       "presets": [
           "natural"
       ],

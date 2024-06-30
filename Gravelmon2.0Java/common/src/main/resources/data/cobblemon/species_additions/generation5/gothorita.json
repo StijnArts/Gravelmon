@@ -1,9 +1,9 @@
 {"target": "cobblemon:Gothorita",
  "evolutions": [
   {
-   "id": "trapinch_CefiranGothitelle",
+   "id": "Gothorita_CefiranGothitelle",
    "variant": "level_up",
-   "result": "CefiranGothitelle",
+   "result": "Gothitelle Cefiran",
    "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [

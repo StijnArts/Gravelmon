@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltaliepard-1",
-      "pokemon": "Optional[liepard] delta",
+      "pokemon": "liepard delta",
       "presets": [
           "natural"
       ],

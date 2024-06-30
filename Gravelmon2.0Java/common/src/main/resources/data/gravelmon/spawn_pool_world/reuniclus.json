@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltareuniclus-1",
-      "pokemon": "Optional[reuniclus] delta",
+      "pokemon": "reuniclus delta",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "hoennianreuniclus-1",
-      "pokemon": "Optional[reuniclus] hoennian",
+      "pokemon": "reuniclus hoennian",
       "presets": [
           "natural"
       ],
@@ -42,7 +42,7 @@
 ,
     {
       "id": "kaskadianreuniclus-1",
-      "pokemon": "Optional[reuniclus] kaskadian",
+      "pokemon": "reuniclus kaskadian",
       "presets": [
           "reef"
       ],
@@ -63,7 +63,7 @@
 ,
     {
       "id": "mysticreuniclus-1",
-      "pokemon": "Optional[reuniclus] mystic",
+      "pokemon": "reuniclus mystic",
       "presets": [
           "natural"
       ],

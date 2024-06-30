@@ -22,11 +22,11 @@ public class Snooz extends drai.dev.gravelmon.pokemon.Pokemon {
                 43, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Added Oct 28 2021. Etymology: corruption of snooze"),
+                List.of(""),
                 List.of(new EvolutionEntry("drowzee", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
-                        new EvolutionEntry("enjinniandrowzee", EvolutionType.LEVEL_UP, List.of(),
+                        new EvolutionEntry("drowzee enjinnian", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(

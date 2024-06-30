@@ -135,7 +135,7 @@
   ],
   "evolutions": [
     {
-      "id": "trishout_trishout",
+      "id": "trishout_trishout_terrestrial",
       "variant": "level_up",
       "result": "trishout terrestrial",
       "consumeHeldItem": false,
@@ -149,7 +149,7 @@
       "permanent": true   
  },
     {
-      "id": "trishout_trishout",
+      "id": "trishout_trishout_xenoversal",
       "variant": "level_up",
       "result": "trishout xenoversal",
       "consumeHeldItem": false,
@@ -163,7 +163,7 @@
       "permanent": true   
  },
     {
-      "id": "trishout_trishout",
+      "id": "trishout_trishout_astral",
       "variant": "level_up",
       "result": "trishout astral",
       "consumeHeldItem": false,
@@ -181,7 +181,7 @@
       "permanent": true   
  },
     {
-      "id": "trishout_trishout",
+      "id": "trishout_trishout_astral",
       "variant": "level_up",
       "result": "trishout astral",
       "consumeHeldItem": false,

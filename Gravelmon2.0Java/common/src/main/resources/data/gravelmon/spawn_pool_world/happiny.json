@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "fligianhappiny-1",
-      "pokemon": "Optional[happiny] fligian",
+      "pokemon": "happiny fligian",
       "presets": [
           "natural"
       ],
@@ -21,7 +21,7 @@
 ,
     {
       "id": "eghohappiny-1",
-      "pokemon": "Optional[happiny] egho",
+      "pokemon": "happiny egho",
       "presets": [
           "natural"
       ],

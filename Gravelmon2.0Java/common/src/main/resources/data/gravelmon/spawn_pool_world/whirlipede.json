@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "deltawhirlipede-1",
-      "pokemon": "Optional[whirlipede] delta",
+      "pokemon": "whirlipede delta",
       "presets": [
           "natural"
       ],

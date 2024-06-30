@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "alteranekans-1",
-      "pokemon": "Optional[ekans] alteran",
+      "pokemon": "ekans alteran",
       "presets": [
           "natural"
       ],

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "norheimanrookidee-1",
-      "pokemon": "Optional[rookidee] norheiman",
+      "pokemon": "rookidee norheiman",
       "presets": [
           "natural"
       ],
