@@ -63,6 +63,11 @@ public class CobblemonItemsMixin {
         GravelmonPokeballs.ARK_BALL.setPokeBallItem(GravelmonItems.ARK_BALL);
         LIME_BALL = pokeballItem("lime_ball",GravelmonPokeballs.LIME_BALL);
         GravelmonPokeballs.LIME_BALL.setPokeBallItem(GravelmonItems.LIME_BALL);
+        //Ancient Pokeballs
+        ANCIENT_MAUVE_BALL = pokeballItem("ancient_mauve_ball", GravelmonPokeballs.ANCIENT_MAUVE_BALL);
+        GravelmonPokeballs.ANCIENT_MAUVE_BALL.setPokeBallItem(ANCIENT_MAUVE_BALL);
+        ANCIENT_CORAL_BALL = pokeballItem("ancient_coral_ball",GravelmonPokeballs.ANCIENT_CORAL_BALL);
+        GravelmonPokeballs.ANCIENT_CORAL_BALL.setPokeBallItem(ANCIENT_CORAL_BALL);
         //Team Rocket Poke balls
         GravelmonItems.ROCKET_BALL = pokeballItem("rocket_ball",GravelmonPokeballs.ROCKET_BALL);
         GravelmonPokeballs.ROCKET_BALL.setPokeBallItem(GravelmonItems.ROCKET_BALL);

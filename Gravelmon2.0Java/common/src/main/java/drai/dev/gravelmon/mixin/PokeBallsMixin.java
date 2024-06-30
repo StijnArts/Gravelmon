@@ -272,6 +272,10 @@ public abstract class PokeBallsMixin {
         LIME_BALL = createFromDefaults("lime_ball", 1.5F);
         XENO_BALL = createFromDefaults("xeno_ball", xenoverseModifier);
 
+        //Ancient Pokeballs
+        ANCIENT_CORAL_BALL = createFromDefaults("ancient_coral_ball");
+        ANCIENT_MAUVE_BALL = createFromDefaults("ancient_mauve_ball");
+
         //Official Game Poke balls
         TYPING_BALL = createFromDefaults("typing_ball", typingModifier);
         GS_BALL = createFromDefaults("gs_ball");
