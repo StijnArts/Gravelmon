@@ -66,11 +66,14 @@
     "tm:thunderfang"  ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.inferlauf.desc"
   ],
+  "preEvolution": "baufire",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

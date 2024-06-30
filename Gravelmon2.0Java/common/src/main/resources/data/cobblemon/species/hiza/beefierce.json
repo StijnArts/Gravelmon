@@ -67,11 +67,14 @@
     "91:headlongrush"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.beefierce.desc"
   ],
+  "preEvolution": "bufierce",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

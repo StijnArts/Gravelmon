@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:arbyssno",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_arbyssno",
+      "texture": "cobblemon:textures/pokemon/mythire/arbyssno.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mythire/arbyssno_shiny.png"
+    }
+  ]
+}

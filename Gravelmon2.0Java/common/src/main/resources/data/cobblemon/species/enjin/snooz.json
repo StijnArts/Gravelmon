@@ -113,9 +113,9 @@
       "permanent": true   
  },
     {
-      "id": "snooz_enjinniandrowzee",
+      "id": "snooz_drowzee_enjinnian",
       "variant": "level_up",
-      "result": "enjinniandrowzee",
+      "result": "drowzee enjinnian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

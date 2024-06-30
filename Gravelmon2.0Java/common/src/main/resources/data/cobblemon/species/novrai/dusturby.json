@@ -150,11 +150,14 @@
     "tm:nightshade"  ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dusturby.desc"
   ],
+  "preEvolution": "dusby",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

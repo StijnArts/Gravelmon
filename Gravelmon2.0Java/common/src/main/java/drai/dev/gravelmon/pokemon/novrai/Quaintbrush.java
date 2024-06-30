@@ -22,7 +22,7 @@ public class Quaintbrush extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The fluid it leaks changes color depending on its current emotional state. Its entire body has an oddly malleable, almost liquid consistency."),
-                List.of(new EvolutionEntry("chloradise", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Blendulum", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(

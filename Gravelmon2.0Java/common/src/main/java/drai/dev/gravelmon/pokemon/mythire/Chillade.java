@@ -22,7 +22,7 @@ public class Chillade extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of(""),
-                List.of(new EvolutionEntry("chloradise", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Frosillade", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLING,1),

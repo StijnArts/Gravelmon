@@ -77,9 +77,9 @@
   "preEvolution": "pyrall",
   "evolutions": [
     {
-      "id": "baufire_chloradise",
+      "id": "baufire_Inferlauf",
       "variant": "level_up",
-      "result": "chloradise",
+      "result": "Inferlauf",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -152,9 +152,9 @@
   ],
   "evolutions": [
     {
-      "id": "quaintbrush_chloradise",
+      "id": "quaintbrush_Blendulum",
       "variant": "level_up",
-      "result": "chloradise",
+      "result": "Blendulum",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

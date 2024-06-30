@@ -108,7 +108,7 @@ public class SpeciesAdditionsWriter {
                             "  ],";
                 }
 
-                if(pokemon.getForms().size()>0){
+                if(!pokemon.getForms().isEmpty()) {
                     boolean isFirstFormForm = true;
                     fileContents += "\"forms\": [";
                     for(PokemonForm form : pokemon.getForms()){
@@ -130,14 +130,13 @@ public class SpeciesAdditionsWriter {
                     if(isFirstEggGroupEntry){
                         isFirstEggGroupEntry = false;
                     } else {
-                        fileContents+=",\n";
+                        fileContents += ",\n";
                     }
                     if(eggGroup.isImplemented()){
                         fileContents += "    \""+eggGroup.name().toLowerCase()+"\"";
                     } else {
                         fileContents += "    \""+EggGroup.UNDISCOVERED.name().toLowerCase()+"\"";
                     }
-
                 }
                 fileContents += "\n  ],";
                 if(!pokemon.getDrops().isEmpty()){

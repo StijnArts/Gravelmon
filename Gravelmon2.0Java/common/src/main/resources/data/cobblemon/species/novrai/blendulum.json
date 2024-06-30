@@ -150,11 +150,14 @@
     "tm:minimize"  ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.blendulum.desc"
   ],
+  "preEvolution": "quaintbrush",
   "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,

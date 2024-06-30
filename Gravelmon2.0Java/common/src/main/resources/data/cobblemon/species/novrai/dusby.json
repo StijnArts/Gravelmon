@@ -149,9 +149,9 @@
   ],
   "evolutions": [
     {
-      "id": "dusby_chloradise",
+      "id": "dusby_Dusturby",
       "variant": "level_up",
-      "result": "chloradise",
+      "result": "Dusturby",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

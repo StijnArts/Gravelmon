@@ -4,9 +4,9 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-public class Trenchula extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Trenchula() {
-        super("Trenchula",
+public class Arbyssno extends drai.dev.gravelmon.pokemon.Pokemon {
+    public Arbyssno() {
+        super("Arbyssno",
                 Type.DARK,
                 new Stats(60,
                         95,
