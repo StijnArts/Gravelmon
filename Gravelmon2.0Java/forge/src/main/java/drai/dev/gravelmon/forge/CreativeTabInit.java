@@ -300,6 +300,12 @@ public class CreativeTabInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().put(GravelmonItems.ARO_BALL.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.ANCIENT_CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ANCIENT_CORAL_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.ANCIENT_CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ANCIENT_MAUVE_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
     }
 
