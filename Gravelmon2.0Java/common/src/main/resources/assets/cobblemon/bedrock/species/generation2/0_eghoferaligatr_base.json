@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation2_eghoferaligatr",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr.png",
+      "model": "cobblemon:generation2_eghoferaligatr.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr/eghoferaligatr.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr/eghoferaligatr_shiny.png"
     }  ]
 }

@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:infinity_mewthree",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/infinity/mewthree.png",
+      "model": "cobblemon:infinity_mewthree.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/mewthree/mewthree.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/mewthree_shiny.png"
+      "texture": "cobblemon:textures/pokemon/infinity/mewthree/mewthree_shiny.png"
     }  ]
 }

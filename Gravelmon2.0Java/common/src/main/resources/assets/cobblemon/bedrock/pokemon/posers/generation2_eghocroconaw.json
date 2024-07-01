@@ -1,20 +1,41 @@
 {
-  "portraitScale": 0.165,
-  "portraitTranslation": [0.0, 1.4, 0.0],
-  "profileScale": 0.22,
-  "profileTranslation": [0.0, 1.55, -20.0],
+  "head": "head",
+  "portraitScale": 0.8,
+  "portraitTranslation": [0, 0.6, 0.0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.6, 0.0],
   "poses": {
-    "profile": {
-      "poseName": "profile",
-      "poseTypes": ["PROFILE"],
+    "standing": {
+      "poseName": "standing",
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, pc_fix)"]
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "bedrock(croconaw_egho, ground_idle)"
+      ]
     },
-    "portrait": {
-      "poseName": "portrait",
-      "poseTypes": ["NONE","PORTRAIT"],
+    "walking": {
+      "poseName": "walking",
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, summary_fix)"]
+      "poseTypes": ["WALK"],
+      "animations": [
+        "bedrock(croconaw_egho, ground_idle)"
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "bedrock(croconaw_egho, ground_idle)"
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "bedrock(croconaw_egho, ground_idle)"
+      ]
     }
   }
 }
