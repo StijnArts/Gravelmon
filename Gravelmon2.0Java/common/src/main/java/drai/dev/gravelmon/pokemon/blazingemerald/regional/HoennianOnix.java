@@ -76,5 +76,8 @@ public class HoennianOnix extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
+        setModeled(true);
+        setBaseScale(3);
+        setHitbox(1,1);
     }
 }

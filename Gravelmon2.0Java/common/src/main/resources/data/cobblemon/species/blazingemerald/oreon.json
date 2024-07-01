@@ -77,7 +77,6 @@
   "labels": [
     "blazing_emerald",
     "joke",
-    "not_modeled",
     "eeveelution",
     "fakemonevolution"
   ],
@@ -85,10 +84,10 @@
     "cobblemon.species.oreon.desc"
   ],
   "preEvolution": "eevee",
-  "baseScale": 0.25,
+  "baseScale": 0.7,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
