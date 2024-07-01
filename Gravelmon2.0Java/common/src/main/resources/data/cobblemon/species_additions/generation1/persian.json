@@ -1,30 +1,4 @@
 {"target": "cobblemon:Persian",
- "evolutions": [
-  {
-   "id": "persian_faeralynx",
-   "variant": "level_up",
-   "result": "faeralynx",
-   "permanent": true,
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "has_move",
-     "move": "faengrush"
-    }
-   ]
-  },
-  {
-   "id": "persian_slynx",
-   "variant": "item_interact",
-   "result": "slynx",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [],
-   "requiredContext": "cobblemon:razor_claw"
-  }
- ],
    "moves": [
     "1:fakeout",
     "1:feint",

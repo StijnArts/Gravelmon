@@ -70,7 +70,7 @@
     "tm:foulplay",
     "tm:icywind",
     "tm:suckerpunch",
-    "tm:snoresound",
+    "tm:snore",
     "tm:tripleaxel",
     "tm:calmmind",
     "tm:snowscape",
@@ -96,7 +96,7 @@
     "tm:rockslide",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:naturalgift",
     "tm:confide",
@@ -121,7 +121,7 @@
   ],
   "evolutions": [
     {
-      "id": "novranbonsly_sudowoodo",
+      "id": "bonsly_sudowoodo_novran",
       "variant": "level_up",
       "result": "sudowoodo novran",
       "consumeHeldItem": false,

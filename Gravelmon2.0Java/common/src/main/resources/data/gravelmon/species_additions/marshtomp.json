@@ -74,7 +74,7 @@
   ],
   "evolutions": [
     {
-      "id": "mysticmarshtomp_swampert",
+      "id": "marshtomp_swampert_mystic",
       "variant": "level_up",
       "result": "swampert mystic",
       "consumeHeldItem": false,

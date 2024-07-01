@@ -48,7 +48,7 @@
   ],
   "moves": [
     "1:knockoff",
-    "1:screechsound",
+    "1:screech",
     "1:nightshade",
     "1:curse",
     "5:nightshade",
@@ -85,7 +85,7 @@
     "tm:flash",
     "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",

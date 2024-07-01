@@ -25,10 +25,10 @@ public class Anepunch extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Its poison and strong tentacles are enough to ward off most predators, but when it needs it can dettach from the ocean floor and swim away from danger."),
                 List.of(new EvolutionEntry("anemace", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\""))),
                         new EvolutionEntry("anedusa", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BULK_UP,1),
                         new MoveLearnSetEntry(Move.ASTONISH,5),

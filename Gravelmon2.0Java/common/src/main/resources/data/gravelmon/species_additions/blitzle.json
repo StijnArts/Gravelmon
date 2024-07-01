@@ -76,7 +76,7 @@
     "tm:rest",
     "tm:return",
     "tm:risingvoltage",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:snowscape",
     "tm:substitute",
     "tm:thunder",
@@ -93,7 +93,7 @@
     "egg:mefirst",
     "egg:rage",
     "egg:sandattack",
-    "egg:screechsound",
+    "egg:screech",
     "egg:snatch",
     "egg:takedown"  ],
   "labels": [
@@ -106,7 +106,7 @@
   ],
   "evolutions": [
     {
-      "id": "seviianblitzle_zebstrika",
+      "id": "blitzle_zebstrika_seviian",
       "variant": "level_up",
       "result": "zebstrika seviian",
       "consumeHeldItem": false,

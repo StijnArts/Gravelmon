@@ -61,7 +61,7 @@
   ],
   "evolutions": [
     {
-      "id": "varitasiantynamo_eelektrik",
+      "id": "tynamo_eelektrik_varitasian",
       "variant": "level_up",
       "result": "eelektrik varitasian",
       "consumeHeldItem": false,
@@ -187,7 +187,7 @@
   ],
   "evolutions": [
     {
-      "id": "hoenniantynamo_eelektrik",
+      "id": "tynamo_eelektrik_hoennian",
       "variant": "level_up",
       "result": "eelektrik hoennian",
       "consumeHeldItem": false,

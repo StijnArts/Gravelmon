@@ -50,7 +50,7 @@
   "moves": [
     "1:faketears",
     "9:imprison",
-    "14:screechsound",
+    "14:screech",
     "24:magicalleaf",
     "29:curse",
     "34:energyball",
@@ -59,7 +59,7 @@
     "45:magicpowder",
     "48:hex",
     "52:worryseed",
-    "64:perishsongsound"  ],
+    "64:perishsong"  ],
   "labels": [
     "aristos",
     "not_modeled"

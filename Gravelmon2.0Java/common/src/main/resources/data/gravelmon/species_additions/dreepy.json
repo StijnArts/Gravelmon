@@ -61,7 +61,7 @@
     "39:dragonpulse",
     "44:overheat",
     "tm:dragonclaw",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:pursuit",
     "tm:hiddenpower",
@@ -98,7 +98,7 @@
   ],
   "evolutions": [
     {
-      "id": "hoenniandreepy_drakloak",
+      "id": "dreepy_drakloak_hoennian",
       "variant": "level_up",
       "result": "drakloak hoennian",
       "consumeHeldItem": false,

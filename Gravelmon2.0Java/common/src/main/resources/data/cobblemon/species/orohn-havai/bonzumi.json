@@ -56,7 +56,7 @@
     "14:incinerate",
     "18:quickattack",
     "21:firespin",
-    "25:swiftcosmic",
+    "25:swift",
     "30:flameburst",
     "33:recycle",
     "36:naturalgift",
@@ -65,7 +65,7 @@
     "tm:helpinghand",
     "tm:tickle",
     "tm:covet",
-    "tm:disarmingvoicesound"  ],
+    "tm:disarmingvoice"  ],
   "labels": [
     "orohnhavai",
     "not_modeled"

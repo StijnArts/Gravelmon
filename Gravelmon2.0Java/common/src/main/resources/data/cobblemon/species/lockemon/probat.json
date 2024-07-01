@@ -52,7 +52,7 @@
     "1:astonish",
     "1:psychic",
     "1:meanlook",
-    "1:screechsound",
+    "1:screech",
     "1:supersonic",
     "1:tailwind",
     "1:toxic",
@@ -76,11 +76,13 @@
     "egg:zenheadbutt"  ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.probat.desc"
   ],
+  "preEvolution": "golbat",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

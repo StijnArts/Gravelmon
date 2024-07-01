@@ -72,7 +72,7 @@
   ],
   "evolutions": [
     {
-      "id": "interianpiplup_prinplup",
+      "id": "piplup_prinplup_interian",
       "variant": "level_up",
       "result": "prinplup interian",
       "consumeHeldItem": false,

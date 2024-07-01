@@ -79,7 +79,7 @@
     "egg:moonlight",
     "egg:circlethrow",
     "egg:leer",
-    "egg:perishsongsound",
+    "egg:perishsong",
     "egg:lockon"  ],
   "labels": [
     "deneb",
@@ -93,7 +93,7 @@
   "preEvolution": "demini",
   "evolutions": [
     {
-      "id": "demiddul_Demorigan",
+      "id": "demiddul_demorigan",
       "variant": "item_interact",
       "result": "Demorigan",
       "consumeHeldItem": false,

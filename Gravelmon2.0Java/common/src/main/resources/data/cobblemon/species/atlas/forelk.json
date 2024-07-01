@@ -49,7 +49,7 @@
     "grass"
   ],
   "moves": [
-    "1:powergemcrystal",
+    "1:powergem",
     "4:growl",
     "7:absorb",
     "10:growth",
@@ -92,10 +92,10 @@
     "tm:rest",
     "tm:return",
     "tm:rockslide",
-    "tm:roundsound",
+    "tm:round",
     "tm:sandstorm",
     "tm:shadowball",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:smackdown",
     "tm:solarbeam",
     "tm:stealthrock",

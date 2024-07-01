@@ -79,7 +79,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:allyswitch",
     "tm:energyball",
     "tm:skydrop",
@@ -121,7 +121,7 @@
   ],
   "evolutions": [
     {
-      "id": "eghooddish_gloom",
+      "id": "oddish_gloom_egho",
       "variant": "level_up",
       "result": "gloom egho",
       "consumeHeldItem": false,

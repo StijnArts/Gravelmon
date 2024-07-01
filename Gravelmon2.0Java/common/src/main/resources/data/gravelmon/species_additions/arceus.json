@@ -47,17 +47,17 @@
     "field"
   ],
   "moves": [
-    "1:cosmicpowercosmic",
+    "1:cosmicpower",
     "1:seismictoss",
-    "10:gravitycosmic",
+    "10:gravity",
     "20:earthpower",
-    "30:hypervoicesound",
+    "30:hypervoice",
     "40:extremespeed",
     "50:healingwish",
     "60:futuresight",
     "70:recover",
     "80:hyperbeam",
-    "90:perishsongsound",
+    "90:perishsong",
     "100:judgment"  ],
   "labels": [
     "interregional",

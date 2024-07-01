@@ -54,7 +54,7 @@
     "9:aromatherapy",
     "12:drainingkiss",
     "15:faketears",
-    "18:roundsound",
+    "18:round",
     "21:stringshot",
     "24:cottonspore",
     "27:energyball",
@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "hizianlickitung_sweetinel",
+      "id": "lickitung_sweetinel",
       "variant": "level_up",
       "result": "sweetinel",
       "consumeHeldItem": false,

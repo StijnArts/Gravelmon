@@ -49,8 +49,8 @@
     "field"
   ],
   "moves": [
-    "1:hypervoicesound",
-    "56:boomburstsound",
+    "1:hypervoice",
+    "56:boomburst",
     "1:supersonic",
     "4:quickattack",
     "6:psywave",

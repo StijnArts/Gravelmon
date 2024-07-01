@@ -48,9 +48,9 @@
     "field"
   ],
   "moves": [
-    "1:singsound",
+    "1:sing",
     "6:confuseray",
-    "9:disarmingvoicesound",
+    "9:disarmingvoice",
     "12:nightshade",
     "16:tearfullook",
     "19:wrap",
@@ -58,7 +58,7 @@
     "25:megadrain",
     "28:spore",
     "32:destinybond",
-    "41:perishsongsound",
+    "41:perishsong",
     "47:moonblast",
     "54:strengthsap"  ],
   "labels": [

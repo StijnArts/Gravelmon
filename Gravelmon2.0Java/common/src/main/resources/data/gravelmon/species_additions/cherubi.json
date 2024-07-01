@@ -71,7 +71,7 @@
     "tm:synthesis",
     "tm:tailwind",
     "tm:endeavor",
-    "tm:snoresound",
+    "tm:snore",
     "tm:ominouswind",
     "tm:pollenpuff",
     "tm:solarblade",
@@ -96,7 +96,7 @@
     "tm:swordsdance",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:naturalgift",
     "tm:confide",
@@ -119,7 +119,7 @@
   ],
   "evolutions": [
     {
-      "id": "novrancherubi_cherrim",
+      "id": "cherubi_cherrim_novran",
       "variant": "item_interact",
       "result": "cherrim novran",
       "consumeHeldItem": false,

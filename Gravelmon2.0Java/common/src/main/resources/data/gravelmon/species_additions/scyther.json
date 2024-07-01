@@ -58,7 +58,7 @@
     "30:covet",
     "36:switcheroo",
     "42:dazzlinggleam",
-    "48:bugbuzzsound",
+    "48:bugbuzz",
     "54:quiverdance"  ],
   "labels": [
     "hiza",
@@ -69,7 +69,7 @@
   ],
   "evolutions": [
     {
-      "id": "hizianscyther_falcher",
+      "id": "scyther_falcher",
       "variant": "item_interact",
       "result": "falcher",
       "consumeHeldItem": false,
@@ -169,7 +169,7 @@
     "57:honeclaws",
     "61:closecombat",
     "tm:honeclaws",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:bulkup",
@@ -208,12 +208,12 @@
     "tm:poweruppunch",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:frostbreath",
     "tm:acrobatics",
     "tm:achillesheel",
     "tm:avalanche",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -234,7 +234,7 @@
     "tutor:ironhead",
     "tutor:knockoff",
     "tutor:mimic",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:superpower",
     "tutor:tailwind",
     "tutor:vacuumwave",
@@ -248,7 +248,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltascyther_scizor",
+      "id": "scyther_scizor_delta",
       "variant": "level_up",
       "result": "scizor delta",
       "consumeHeldItem": true,
@@ -366,7 +366,7 @@
     "egg:reversal",
     "egg:endure",
     "egg:silverwind",
-    "egg:bugbuzzsound",
+    "egg:bugbuzz",
     "egg:nightslash",
     "egg:defog",
     "egg:steelwing",
@@ -381,7 +381,7 @@
   ],
   "evolutions": [
     {
-      "id": "mythianscyther_scizor",
+      "id": "scyther_scizor_mythian",
       "variant": "item_interact",
       "result": "scizor mythian",
       "consumeHeldItem": false,
@@ -393,7 +393,7 @@
       "permanent": true   
  },
     {
-      "id": "mythianscyther_kleavor",
+      "id": "scyther_kleavor_mythian",
       "variant": "item_interact",
       "result": "kleavor mythian",
       "consumeHeldItem": false,

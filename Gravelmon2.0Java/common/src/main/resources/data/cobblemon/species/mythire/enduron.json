@@ -51,7 +51,7 @@
   "moves": [
     "1:flash",
     "1:dragonclaw",
-    "1:powergemcrystal",
+    "1:powergem",
     "1:breakingswipe",
     "1:tearfullook",
     "1:barrier",
@@ -74,7 +74,7 @@
   "preEvolution": "timidon",
   "evolutions": [
     {
-      "id": "enduron_Chrystasis",
+      "id": "enduron_chrystasis",
       "variant": "item_interact",
       "result": "Chrystasis",
       "consumeHeldItem": false,

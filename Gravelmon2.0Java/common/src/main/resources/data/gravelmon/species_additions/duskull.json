@@ -74,7 +74,7 @@
   ],
   "evolutions": [
     {
-      "id": "fligianduskull_dusclops",
+      "id": "duskull_dusclops_fligian",
       "variant": "level_up",
       "result": "dusclops fligian",
       "consumeHeldItem": false,

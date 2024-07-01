@@ -83,7 +83,7 @@
     "tm:bulletseed",
     "tm:bodyslam",
     "tm:icepunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:seedbomb",
     "tm:grassknot",
     "tm:rest",
@@ -108,7 +108,7 @@
   ],
   "evolutions": [
     {
-      "id": "kaskadiansnover_abomasnow",
+      "id": "snover_abomasnow_kaskadian",
       "variant": "level_up",
       "result": "abomasnow kaskadian",
       "consumeHeldItem": false,
@@ -224,7 +224,7 @@
   ],
   "evolutions": [
     {
-      "id": "cefiransnover_abomasnow",
+      "id": "snover_abomasnow_cefiran",
       "variant": "level_up",
       "result": "abomasnow cefiran",
       "consumeHeldItem": false,

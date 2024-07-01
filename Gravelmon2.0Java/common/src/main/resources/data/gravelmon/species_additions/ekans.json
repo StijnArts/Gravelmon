@@ -54,7 +54,7 @@
     "4:rollout",
     "9:bite",
     "12:glare",
-    "17:screechsound",
+    "17:screech",
     "20:revenge",
     "25:stockpile",
     "25:swallow",
@@ -81,7 +81,7 @@
   ],
   "evolutions": [
     {
-      "id": "alteranekans_arbok",
+      "id": "ekans_arbok_alteran",
       "variant": "level_up",
       "result": "arbok alteran",
       "consumeHeldItem": false,

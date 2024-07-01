@@ -50,15 +50,15 @@
   "moves": [
     "5:focusenergy",
     "8:gust",
-    "11:chattersound",
-    "14:singsound",
+    "11:chatter",
+    "14:sing",
     "17:aircutter",
     "22:takedown",
     "26:featherdance",
     "31:mefirst",
     "36:airslash",
     "39:taunt",
-    "43:hypervoicesound",
+    "43:hypervoice",
     "48:defog",
     "54:hurricane"  ],
   "labels": [

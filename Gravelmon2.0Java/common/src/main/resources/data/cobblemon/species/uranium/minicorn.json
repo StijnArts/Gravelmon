@@ -80,7 +80,7 @@
     "tm:feint",
     "tm:fireblast",
     "tm:frustration",
-    "tm:healbellsound",
+    "tm:healbell",
     "tm:helpinghand",
     "tm:hiddenpower",
     "tm:icebeam",
@@ -95,7 +95,7 @@
     "tm:roleplay",
     "tm:safeguard",
     "tm:secretpower",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:strength",
     "tm:substitute",
     "tm:sunnyday",
@@ -117,7 +117,7 @@
     "egg:safeguard",
     "egg:ironhead",
     "egg:assist",
-    "egg:singsound"  ],
+    "egg:sing"  ],
   "labels": [
     "uranium",
     "not_modeled"

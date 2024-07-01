@@ -70,7 +70,7 @@
   ],
   "evolutions": [
     {
-      "id": "norheimandragonair_dracoknight",
+      "id": "dragonair_dracoknight",
       "variant": "level_up",
       "result": "dracoknight",
       "consumeHeldItem": false,
@@ -168,7 +168,7 @@
     "67:hydropump",
     "75:hyperbeam",
     "tm:calmmind",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:dragonpulse",
@@ -204,9 +204,9 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:dracojet",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:dragonify",
@@ -226,7 +226,7 @@
     "tutor:magnetrise",
     "tutor:mimic",
     "tutor:roleplay",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:twister",
     "tutor:uproar",
     "tutor:waterpulse",
@@ -244,7 +244,7 @@
   "preEvolution": "dratini form=delta",
   "evolutions": [
     {
-      "id": "deltadragonair_dragonite",
+      "id": "dragonair_dragonite_delta",
       "variant": "level_up",
       "result": "dragonite delta",
       "consumeHeldItem": false,

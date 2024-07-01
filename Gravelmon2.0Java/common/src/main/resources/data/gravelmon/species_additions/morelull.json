@@ -74,7 +74,7 @@
   ],
   "evolutions": [
     {
-      "id": "nostanmorelull_shiinotic",
+      "id": "morelull_shiinotic_nostan",
       "variant": "level_up",
       "result": "shiinotic nostan",
       "consumeHeldItem": false,

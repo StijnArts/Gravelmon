@@ -50,7 +50,7 @@
   ],
   "moves": [
     "tm:dragonclaw",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:pursuit",
     "tm:hiddenpower",

@@ -82,7 +82,7 @@
     "tm:firepunch",
     "tm:thunderpunch",
     "tm:icepunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:seedbomb",
     "tm:metronome",
     "tm:poisonjab",
@@ -111,7 +111,7 @@
     "egg:hammerarm",
     "egg:nightslash",
     "egg:slash",
-    "egg:snoresound",
+    "egg:snore",
     "egg:tickle"  ],
   "labels": [
     "deneb",

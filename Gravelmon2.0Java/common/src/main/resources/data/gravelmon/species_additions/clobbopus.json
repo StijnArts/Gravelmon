@@ -82,7 +82,7 @@
     "tm:endeavor",
     "tm:suckerpunch",
     "tm:toxicthread",
-    "tm:snoresound",
+    "tm:snore",
     "tm:focuspunch",
     "tm:poweruppunch",
     "tm:closecombat",
@@ -113,7 +113,7 @@
     "tm:rockslide",
     "tm:poisonjab",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:confide",
     "tm:smackdown",
@@ -138,7 +138,7 @@
   ],
   "evolutions": [
     {
-      "id": "novranclobbopus_grapploct",
+      "id": "clobbopus_grapploct_novran",
       "variant": "level_up",
       "result": "grapploct novran",
       "consumeHeldItem": false,

@@ -59,6 +59,11 @@
         "item": "gravelmon:royal_jelly",
         "quantityRange": "1-1",
         "percentage": 40
+      },
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 40
       }
     ]
   },
@@ -98,7 +103,7 @@
     "tm:heatwave",
     "tm:hiddenpower",
     "tm:hyperbeam",
-    "tm:hypervoicesound",
+    "tm:hypervoice",
     "tm:icebeam",
     "tm:infestation",
     "tm:irontail",
@@ -109,12 +114,12 @@
     "tm:raindance",
     "tm:rest",
     "tm:return",
-    "tm:roarsound",
+    "tm:roar",
     "tm:rocksmash",
     "tm:secretpower",
     "tm:shockwave",
     "tm:silverwind",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:sludgebomb",
     "tm:steelwing",
     "tm:strength",

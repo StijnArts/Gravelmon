@@ -170,6 +170,8 @@ public class Shyneon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Shyneon");
+           addAdditionalEvolution("eevee", new EvolutionEntry("shyneon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:shiny_stone"));
 
     }
 

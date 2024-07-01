@@ -100,7 +100,7 @@
     "egg:seismictoss",
     "egg:sunnyday",
     "egg:sweetscent",
-    "egg:swiftcosmic"  ],
+    "egg:swift"  ],
   "labels": [
     "deneb",
     "not_modeled"

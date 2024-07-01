@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "norheimanrookidee_corvisquire",
+      "id": "rookidee_corvisquire_norheiman",
       "variant": "level_up",
       "result": "corvisquire norheiman",
       "consumeHeldItem": false,

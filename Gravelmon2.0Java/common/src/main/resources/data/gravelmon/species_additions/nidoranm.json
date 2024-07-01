@@ -75,7 +75,7 @@
   ],
   "evolutions": [
     {
-      "id": "alterannidoransummercoat_nidorimewintercoat",
+      "id": "nidoranm_nidorimewintercoat_summer",
       "variant": "level_up",
       "result": "nidorimewintercoat summer SUMMER",
       "consumeHeldItem": false,

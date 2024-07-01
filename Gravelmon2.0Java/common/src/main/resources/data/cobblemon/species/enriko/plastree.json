@@ -69,7 +69,7 @@
   ],
   "evolutions": [
     {
-      "id": "plastree_Forestic",
+      "id": "plastree_forestic",
       "variant": "level_up",
       "result": "Forestic",
       "consumeHeldItem": false,

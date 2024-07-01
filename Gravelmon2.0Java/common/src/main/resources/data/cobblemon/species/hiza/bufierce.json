@@ -74,7 +74,7 @@
   ],
   "evolutions": [
     {
-      "id": "bufierce_Beefierce",
+      "id": "bufierce_beefierce",
       "variant": "level_up",
       "result": "Beefierce",
       "consumeHeldItem": false,

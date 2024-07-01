@@ -168,14 +168,14 @@
     "tm:doubleteam",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:fling",
     "tm:psychup",
     "tm:substitute",
     "tm:dazzlinggleam",
     "tutor:secretpower",
-    "tutor:snoresound"  ],
+    "tutor:snore"  ],
   "labels": [
     "xenoverse",
     "gen1",
@@ -186,7 +186,7 @@
   ],
   "evolutions": [
     {
-      "id": "smearglex_chientilly",
+      "id": "smeargle_chientilly",
       "variant": "item_interact",
       "result": "chientilly",
       "consumeHeldItem": false,

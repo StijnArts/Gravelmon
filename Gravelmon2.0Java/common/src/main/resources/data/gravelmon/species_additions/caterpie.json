@@ -64,7 +64,7 @@
   ],
   "evolutions": [
     {
-      "id": "ayreiancaterpie_metapod",
+      "id": "caterpie_metapod_ayreian",
       "variant": "level_up",
       "result": "metapod ayreian",
       "consumeHeldItem": false,

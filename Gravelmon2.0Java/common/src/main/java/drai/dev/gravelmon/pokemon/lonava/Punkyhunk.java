@@ -24,7 +24,7 @@ public class Punkyhunk extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Punkyhunk are rather sweet and shy, despite their appearance. However, most of this perculiar mon's attempts at making friends end in tears."),
                 List.of(new EvolutionEntry("carvesque", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER, 1),
                         new MoveLearnSetEntry(Move.SCRATCH, 1),

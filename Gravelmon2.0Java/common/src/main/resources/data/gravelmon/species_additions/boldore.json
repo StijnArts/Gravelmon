@@ -48,7 +48,7 @@
     "mineral"
   ],
   "moves": [
-    "1:powergemcrystal",
+    "1:powergem",
     "1:tackle",
     "1:harden",
     "1:astonish",
@@ -80,7 +80,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:willowisp",
     "tm:explosion",
     "tm:shadowclaw",
@@ -96,7 +96,7 @@
     "tm:strength",
     "tutor:headbutt",
     "tutor:bodypress",
-    "tutor:powergemcrystal",
+    "tutor:powergem",
     "tutor:rocktomb",
     "tutor:stealthrock",
     "tutor:wideguard",
@@ -106,9 +106,9 @@
     "tutor:irondefense",
     "tutor:block",
     "tutor:earthpower",
-    "tutor:gravitycosmic",
+    "tutor:gravity",
     "tutor:irondefense",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock",
     "tutor:stompingtantrum",
     "tutor:swagger"  ],
@@ -124,7 +124,7 @@
   "preEvolution": "roggenrola form=armiran",
   "evolutions": [
     {
-      "id": "armiranboldore_gigalith",
+      "id": "boldore_gigalith_armiran",
       "variant": "trade",
       "result": "gigalith armiran",
       "consumeHeldItem": false,

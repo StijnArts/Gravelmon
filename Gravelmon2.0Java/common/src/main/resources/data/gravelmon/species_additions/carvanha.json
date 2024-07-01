@@ -66,7 +66,7 @@
     "12:scaryface",
     "16:hex",
     "20:icefang",
-    "24:screechsound",
+    "24:screech",
     "28:swagger",
     "32:phantomforce",
     "36:agility",
@@ -88,7 +88,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
     "tm:willowisp",
     "tm:payback",
@@ -99,7 +99,7 @@
     "tm:substitute",
     "tm:darkpulse",
     "tutor:secretpower",
-    "tutor:snoresound"  ],
+    "tutor:snore"  ],
   "labels": [
     "xenoverse",
     "gen3"
@@ -109,7 +109,7 @@
   ],
   "evolutions": [
     {
-      "id": "carvanhax_sharpedo",
+      "id": "carvanha_sharpedo_x",
       "variant": "item_interact",
       "result": "sharpedo x",
       "consumeHeldItem": false,

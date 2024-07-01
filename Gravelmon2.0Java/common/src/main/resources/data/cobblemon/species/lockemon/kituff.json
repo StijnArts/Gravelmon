@@ -55,7 +55,7 @@
     "16:workup",
     "20:rocksmash",
     "24:vacuumwave",
-    "28:screechsound",
+    "28:screech",
     "32:quickguard",
     "36:forcepalm",
     "40:swordsdance",
@@ -69,7 +69,7 @@
     "egg:crosschop",
     "egg:detect",
     "egg:highjumpkick",
-    "egg:howlsound"  ],
+    "egg:howl"  ],
   "labels": [
     "lockemon",
     "not_modeled"

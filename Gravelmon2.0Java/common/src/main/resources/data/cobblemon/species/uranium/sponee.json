@@ -47,20 +47,28 @@
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
-    "1:incinerate",
     "1:poisonsting",
     "1:stringshot",
-    "1:scaryface",
-    "6:leechlife",
-    "11:incinerate",
-    "17:nightshade",
-    "25:bugbite",
-    "34:firespin",
-    "39:spiderweb",
-    "44:heatwave",
-    "49:xscissor",
-    "54:inferno",
+    "6:strugglebug",
+    "11:watergun",
+    "17:raindance",
+    "20:bubblebeam",
+    "23:scaryface",
+    "30:bugbite",
+    "37:spiderweb",
+    "45:brine",
+    "53:bugbuzz",
     "tm:aquatail",
     "tm:attract",
     "tm:bounce",
@@ -83,7 +91,7 @@
     "tm:return",
     "tm:shadowball",
     "tm:signalbeam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:snatch",
     "tm:stickyweb",
     "tm:substitute",
@@ -99,7 +107,7 @@
     "egg:psychic",
     "egg:psybeam",
     "egg:disable",
-    "egg:sonicboomsound",
+    "egg:sonicboom",
     "egg:batonpass",
     "egg:pursuit",
     "egg:signalbeam"  ],
@@ -109,6 +117,36 @@
   ],
   "pokedex": [
     "cobblemon.species.sponee.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sponee_sponaree",
+      "variant": "level_up",
+      "result": "Sponaree",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "raindance"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "sponee_seikamater",
+      "variant": "level_up",
+      "result": "seikamater",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:royal_jelly"
+        }
+      ],
+      "permanent": true   
+ }
   ],
   "baseScale": 0.27499999999999997,
   "hitbox": {

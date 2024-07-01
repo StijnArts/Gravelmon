@@ -26,7 +26,7 @@ public class Flaki extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("oarora", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGON_BREATH,1),
                         new MoveLearnSetEntry(Move.AURORA_VEIL,16),

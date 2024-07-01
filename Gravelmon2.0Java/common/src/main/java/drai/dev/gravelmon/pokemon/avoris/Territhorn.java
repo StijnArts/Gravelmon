@@ -30,7 +30,7 @@ public class Territhorn extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It burrows itself in sand to keep cool, while also waiting for prey. When prey approaches, it shakes the ground vigorously to trap it in the sand."),
                 List.of(new EvolutionEntry("wrecktonic", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"53"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
                 List.of(             new MoveLearnSetEntry(Move.HARDEN, 1),
                         new MoveLearnSetEntry(Move.ROCK_THROW, 1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP, 3),

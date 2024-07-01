@@ -75,7 +75,7 @@
     "tm:rest",
     "tm:return",
     "tm:risingvoltage",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:sludgebomb",
     "tm:sludgewave",
     "tm:substitute",
@@ -108,7 +108,7 @@
   ],
   "evolutions": [
     {
-      "id": "seviianmantyke_mantine",
+      "id": "mantyke_mantine_seviian",
       "variant": "level_up",
       "result": "mantine seviian",
       "consumeHeldItem": false,

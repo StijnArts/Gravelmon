@@ -97,13 +97,13 @@
     "tm:uturn",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:steelwing",
     "tm:acrobatics",
     "tm:achillesheel",
     "tm:skydrop",
-    "tm:echoedvoicesound",
-    "tm:roundsound",
+    "tm:echoedvoice",
+    "tm:round",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -134,7 +134,7 @@
     "tutor:seismictoss",
     "tutor:signalbeam",
     "tutor:skyattack",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:superpower",
     "tutor:tailwind",
     "tutor:thunderpunch",
@@ -151,7 +151,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltapawniard_bisharp",
+      "id": "pawniard_bisharp_delta",
       "variant": "level_up",
       "result": "bisharp delta",
       "consumeHeldItem": false,
@@ -272,7 +272,7 @@
   ],
   "evolutions": [
     {
-      "id": "hoennianpawniard_bisharp",
+      "id": "pawniard_bisharp_hoennian",
       "variant": "level_up",
       "result": "bisharp hoennian",
       "consumeHeldItem": false,

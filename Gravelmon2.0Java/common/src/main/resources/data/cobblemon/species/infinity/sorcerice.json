@@ -48,6 +48,16 @@
   "eggGroups": [
     "human_like"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmonm:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:brainfreeze",
     "1:avalanche",
@@ -61,17 +71,17 @@
     "1:powdersnow",
     "5:charm",
     "8:lovelykiss",
-    "11:echoedvoicesound",
+    "11:echoedvoice",
     "15:aurorabeam",
     "18:icepunch",
     "21:heartstamp",
     "25:meanlook",
-    "30:hypervoicesound",
+    "30:hypervoice",
     "45:extrasensory",
     "51:freezedry",
     "56:icebeam",
     "61:wringout",
-    "67:perishsongsound",
+    "67:perishsong",
     "72:blizzard",
     "80:calmmind",
     "tm:psyshock",
@@ -101,8 +111,8 @@
     "tm:attract",
     "tm:thief",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:allyswitch",
     "tm:focusblast",
     "tm:energyball",
@@ -126,9 +136,9 @@
     "tutor:dazzlinggleam",
     "tutor:drainpunch",
     "tutor:headbutt",
-    "tutor:healbellsound",
+    "tutor:healbell",
     "tutor:helpinghand",
-    "tutor:hypervoicesound",
+    "tutor:hypervoice",
     "tutor:icepunch",
     "tutor:icywind",
     "tutor:magiccoat",
@@ -138,8 +148,8 @@
     "tutor:roleplay",
     "tutor:signalbeam",
     "tutor:skillswap",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:trick",
     "tutor:vacuumwave",
     "tutor:zenheadbutt",

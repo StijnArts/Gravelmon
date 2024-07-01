@@ -83,12 +83,12 @@
     "tm:gyroball",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:incinerate",
-    "tm:echoedvoicesound",
-    "tm:roundsound",
+    "tm:echoedvoice",
+    "tm:round",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -103,11 +103,11 @@
     "tutor:foulplay",
     "tutor:heatwave",
     "tutor:helpinghand",
-    "tutor:hypervoicesound",
+    "tutor:hypervoice",
     "tutor:knockoff",
     "tutor:mimic",
     "tutor:painsplit",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock",
     "tutor:uproar"  ],
   "labels": [
@@ -120,7 +120,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltasnorunt_glalie",
+      "id": "snorunt_glalie_delta",
       "variant": "level_up",
       "result": "glalie delta",
       "consumeHeldItem": false,
@@ -134,7 +134,7 @@
       "permanent": true   
  },
     {
-      "id": "deltasnorunt_froslass",
+      "id": "snorunt_froslass_delta",
       "variant": "item_interact",
       "result": "froslass delta",
       "consumeHeldItem": false,
@@ -250,7 +250,7 @@
   ],
   "evolutions": [
     {
-      "id": "cefiransnorunt_glalie",
+      "id": "snorunt_glalie_cefiran",
       "variant": "level_up",
       "result": "glalie cefiran",
       "consumeHeldItem": false,
@@ -264,7 +264,7 @@
       "permanent": true   
  },
     {
-      "id": "cefiransnorunt_froslass",
+      "id": "snorunt_froslass_cefiran",
       "variant": "item_interact",
       "result": "froslass cefiran",
       "consumeHeldItem": false,

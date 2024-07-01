@@ -76,7 +76,7 @@
   ],
   "evolutions": [
     {
-      "id": "alterannidoranwintercoat_nidorimewintercoat",
+      "id": "nidoranf_nidorimewintercoat",
       "variant": "level_up",
       "result": "nidorimewintercoat",
       "consumeHeldItem": false,

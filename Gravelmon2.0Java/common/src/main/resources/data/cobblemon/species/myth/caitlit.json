@@ -70,7 +70,7 @@
     "egg:calmmind",
     "egg:aurasphere",
     "egg:thunderbolt",
-    "egg:singsound",
+    "egg:sing",
     "egg:teeterdance",
     "egg:darkpulse"  ],
   "labels": [

@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "hizianrhyhorn_rhydon",
+      "id": "rhyhorn_rhydon_hizian",
       "variant": "level_up",
       "result": "rhydon hizian",
       "consumeHeldItem": false,

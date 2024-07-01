@@ -49,7 +49,7 @@
     "field"
   ],
   "moves": [
-    "1:screechsound",
+    "1:screech",
     "6:cut",
     "8:gust",
     "10:scaryface",
@@ -73,9 +73,9 @@
     "tm:grasswhistle",
     "tm:supersonic",
     "tm:steelwing",
-    "tm:boomburstsound",
-    "tm:echoedvoicesound",
-    "tm:roundsound"  ],
+    "tm:boomburst",
+    "tm:echoedvoice",
+    "tm:round"  ],
   "labels": [
     "qamor",
     "not_modeled",

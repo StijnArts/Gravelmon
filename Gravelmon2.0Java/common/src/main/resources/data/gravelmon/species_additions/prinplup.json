@@ -75,7 +75,7 @@
   "preEvolution": "piplup form=interian",
   "evolutions": [
     {
-      "id": "interianprinplup_empoleon",
+      "id": "prinplup_empoleon_interian",
       "variant": "level_up",
       "result": "empoleon interian",
       "consumeHeldItem": false,

@@ -47,6 +47,7 @@ public class Cefireon extends Pokemon {
                 List.of(SpawnPreset.VILLAGE),
                 0.24, 0.3,
                 List.of());
-        this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("cefireon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:air_stone"));
     }
 }

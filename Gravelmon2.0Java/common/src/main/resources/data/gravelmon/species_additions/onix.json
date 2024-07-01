@@ -56,7 +56,7 @@
     "tm:waterfall",
     "tm:dive",
     "tm:scald",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -76,7 +76,7 @@
     "tm:rest",
     "tm:attract",
     "1:tackle",
-    "1:screechsound",
+    "1:screech",
     "9:rockthrow",
     "13:accelerock",
     "21:harden",
@@ -95,7 +95,7 @@
   ],
   "evolutions": [
     {
-      "id": "hoennianonix_chrysalix",
+      "id": "onix_chrysalix",
       "variant": "level_up",
       "result": "chrysalix",
       "consumeHeldItem": false,

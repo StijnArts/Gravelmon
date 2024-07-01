@@ -1,32 +1,4 @@
 {"target": "cobblemon:Arbok",
- "evolutions": [
-  {
-   "id": "arbok_adnokana",
-   "variant": "level_up",
-   "result": "adnokana",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "level",
-     "minLevel": 44
-    }
-   ]
-  },
-  {
-   "id": "arbok_setsarec",
-   "variant": "level_up",
-   "result": "setsarec",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "level",
-     "minLevel": 42
-    }
-   ]
-  }
- ],
    "moves": [
     "1:bite",
     "1:crunch",

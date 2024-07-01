@@ -75,10 +75,10 @@
     "egg:mudslap",
     "egg:mudsport",
     "egg:thief",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:stomp",
     "egg:discharge",
-    "egg:roarsound",
+    "egg:roar",
     "egg:voltswitch"  ],
   "labels": [
     "deneb",
@@ -92,7 +92,7 @@
   "preEvolution": "arugari",
   "evolutions": [
     {
-      "id": "anoga_Kasodan",
+      "id": "anoga_kasodan",
       "variant": "item_interact",
       "result": "Kasodan",
       "consumeHeldItem": false,

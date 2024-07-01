@@ -18,13 +18,15 @@
     {
       "aspects": [
         "female"
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/umbra/psypole_female.png"
     },
     {
       "aspects": [
         "female",
         "shiny"
-      ]
+      ],
+      "texture": "cobblemon:textures/pokemon/umbra/psypole_female_shiny.png"
     }
   ]
 }

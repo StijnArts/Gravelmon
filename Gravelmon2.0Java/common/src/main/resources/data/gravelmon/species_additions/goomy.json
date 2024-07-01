@@ -51,7 +51,7 @@
   "moves": [
     "1:mudslap",
     "1:watergun",
-    "5:snoresound",
+    "5:snore",
     "9:mudsport",
     "13:waterpulse",
     "18:mudshot",
@@ -88,9 +88,9 @@
     "tm:swagger",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:infestation",
@@ -110,7 +110,7 @@
     "tutor:mudslap",
     "tutor:painsplit",
     "tutor:roleplay",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock",
     "tutor:waterpulse",
     "tutor:whirlpool",
@@ -125,7 +125,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltagoomy_sliggoo",
+      "id": "goomy_sliggoo_delta",
       "variant": "level_up",
       "result": "sliggoo delta",
       "consumeHeldItem": false,
@@ -261,7 +261,7 @@
   ],
   "evolutions": [
     {
-      "id": "hoenniangoomy_goolossal",
+      "id": "goomy_goolossal",
       "variant": "level_up",
       "result": "goolossal",
       "consumeHeldItem": false,

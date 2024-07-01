@@ -51,7 +51,7 @@
     "1:tackle",
     "1:tailwhip",
     "4:ember",
-    "7:roarsound",
+    "7:roar",
     "12:doublekick",
     "15:encore",
     "18:firespin",
@@ -64,7 +64,7 @@
     "40:flamethrower",
     "45:agility",
     "48:doubleedge",
-    "51:healbellsound",
+    "51:healbell",
     "56:fireblast"  ],
   "labels": [
     "orohnhavai",

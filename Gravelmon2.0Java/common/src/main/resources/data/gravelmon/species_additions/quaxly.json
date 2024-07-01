@@ -66,11 +66,11 @@
     "tutor:protect",
     "tutor:lowkick",
     "tutor:acrobatics",
-    "tutor:disarmingvoicesound",
+    "tutor:disarmingvoice",
     "tutor:chillingwater",
     "tutor:facade",
     "tutor:aerialace",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:aircutter",
     "tutor:endure",
     "tutor:raindance",
@@ -100,7 +100,7 @@
   ],
   "evolutions": [
     {
-      "id": "ayreianquaxly_quaxwell",
+      "id": "quaxly_quaxwell_ayreian",
       "variant": "level_up",
       "result": "quaxwell ayreian",
       "consumeHeldItem": false,

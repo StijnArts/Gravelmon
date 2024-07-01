@@ -25,10 +25,10 @@ public class Snooz extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("drowzee", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\""))),
                         new EvolutionEntry("drowzee enjinnian", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.REST,1),
                         new MoveLearnSetEntry(Move.SNORE,1),

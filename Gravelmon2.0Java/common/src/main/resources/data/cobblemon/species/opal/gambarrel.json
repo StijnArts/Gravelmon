@@ -73,7 +73,7 @@
     "egg:icebeam",
     "egg:mudslap",
     "egg:mudsport",
-    "egg:snoresound",
+    "egg:snore",
     "egg:supersonic",
     "egg:aquatail"  ],
   "labels": [

@@ -1,21 +1,4 @@
 {"target": "cobblemon:Doduo",
- "evolutions": [
-  {
-   "id": "doduo_hoenniandodrio",
-   "variant": "level_up",
-   "result": "dodrio hoennian",
-   "permanent": true,
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "party_member",
-     "target": "marowak",
-     "contains": true
-    }
-   ]
-  }
- ],
    "moves": [
     "1:growl",
     "1:peck",

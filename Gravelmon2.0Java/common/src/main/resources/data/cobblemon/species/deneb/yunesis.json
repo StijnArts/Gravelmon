@@ -51,11 +51,11 @@
   "moves": [
     "1:tackle",
     "1:growl",
-    "1:healbellsound",
+    "1:healbell",
     "1:megahorn",
     "1:waterpulse",
     "23:mirrorshot",
-    "33:stardustcosmic",
+    "33:stardust",
     "45:ironhead",
     "55:geoimpact",
     "tm:magnetbomb",

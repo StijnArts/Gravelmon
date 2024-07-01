@@ -106,6 +106,8 @@ public class Setsarec extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-        setPreEvolution("Arbok");
+        setPreEvolution("arbok");
+        addAdditionalEvolution("arbok", new EvolutionEntry("setsarec", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"))));
     }
 }

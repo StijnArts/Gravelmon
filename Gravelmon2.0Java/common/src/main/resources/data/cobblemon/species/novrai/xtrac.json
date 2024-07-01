@@ -73,7 +73,7 @@
     "tm:icywind",
     "tm:toxicthread",
     "tm:magiccoat",
-    "tm:snoresound",
+    "tm:snore",
     "tm:nastyplot",
     "tm:storedpower",
     "tm:terrainpulse",
@@ -112,7 +112,7 @@
     "tm:venoshock",
     "tm:infestation",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:flashcannon",
     "tm:trickroom",
@@ -125,7 +125,7 @@
     "tm:skillswap",
     "tm:venomdrench",
     "tm:hex",
-    "tm:gravitycosmic"  ],
+    "tm:gravity"  ],
   "labels": [
     "novrai",
     "not_modeled"

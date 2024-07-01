@@ -86,7 +86,7 @@
     "tm:gyroball",
     "tm:swordsdance",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:uturn",
     "tm:substitute",
     "tm:trickroom",
@@ -104,7 +104,7 @@
   ],
   "evolutions": [
     {
-      "id": "relicledyba_ledian",
+      "id": "ledyba_ledian_relic",
       "variant": "level_up",
       "result": "ledian relic",
       "consumeHeldItem": false,

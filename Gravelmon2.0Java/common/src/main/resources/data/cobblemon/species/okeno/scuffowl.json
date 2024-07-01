@@ -52,8 +52,8 @@
   "moves": [
     "1:growl",
     "4:peck",
-    "9:roundsound",
-    "13:singsound",
+    "9:round",
+    "13:sing",
     "16:quickattack",
     "20:wingattack",
     "25:featherdance",

@@ -1,20 +1,4 @@
 {"target": "cobblemon:Hypno",
- "evolutions": [
-  {
-   "id": "hypno_suripitto",
-   "variant": "level_up",
-   "result": "suripitto",
-   "permanent": true,
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "has_move",
-     "move": "psystrike"
-    }
-   ]
-  }
- ],
    "moves": [
     "1:confusion",
     "1:disable",
@@ -32,7 +16,6 @@
     "37:swagger",
     "37:synchronoise",
     "42:psychic",
-    "45:psystrike",
     "47:nastyplot",
     "51:psyshock",
     "56:futuresight",

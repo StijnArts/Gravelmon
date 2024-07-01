@@ -76,7 +76,7 @@
     "egg:morningsun",
     "egg:pursuit",
     "egg:mirrormove",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:peck",
     "egg:wingattack",
     "egg:growl",
@@ -92,7 +92,7 @@
   ],
   "evolutions": [
     {
-      "id": "ploviey_Hyorhythm",
+      "id": "ploviey_hyorhythm",
       "variant": "level_up",
       "result": "Hyorhythm",
       "consumeHeldItem": false,

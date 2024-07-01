@@ -73,7 +73,7 @@
   ],
   "evolutions": [
     {
-      "id": "mysticmudkip_marshtomp",
+      "id": "mudkip_marshtomp_mystic",
       "variant": "level_up",
       "result": "marshtomp mystic",
       "consumeHeldItem": false,

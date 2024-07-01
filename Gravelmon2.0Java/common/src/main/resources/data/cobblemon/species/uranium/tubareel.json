@@ -97,7 +97,7 @@
     "tm:rest",
     "tm:return",
     "tm:shadowball",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:snatch",
     "tm:substitute",
     "tm:superpower",
@@ -114,7 +114,7 @@
     "egg:skullbash",
     "egg:watersport",
     "egg:amnesia",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:shadowball"  ],
   "labels": [
     "uranium",

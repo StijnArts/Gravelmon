@@ -12,16 +12,14 @@ public abstract class Game {
         registerPokemon();
     }
     public abstract void registerPokemon();
-
     public String getName(){
         return name;
     }
-
-    private boolean isInit = false;
     public List<Pokemon> getPokemon(){
-        if(!isInit){
-            pokemon.forEach(pokemon1 -> pokemon1.setGame(this));
-        }
         return pokemon;
+    }
+
+    public void init() {
+        pokemon.forEach(pokemon1 -> pokemon1.setGame(this));
     }
 }

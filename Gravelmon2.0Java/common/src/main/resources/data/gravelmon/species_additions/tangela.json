@@ -56,7 +56,7 @@
     "24:magnetrise",
     "28:brine",
     "33:memento",
-    "38:screechsound",
+    "38:screech",
     "43:raindance",
     "49:recover",
     "55:hydropump"  ],
@@ -72,7 +72,7 @@
   "preEvolution": "weeduza",
   "evolutions": [
     {
-      "id": "qamorantangela_tangrowth",
+      "id": "tangela_tangrowth_qamoran",
       "variant": "level_up",
       "result": "tangrowth qamoran",
       "consumeHeldItem": false,
@@ -222,7 +222,7 @@
     "tutor:ancientpower",
     "tutor:drainpunch",
     "tutor:gigadrain",
-    "tutor:healbellsound",
+    "tutor:healbell",
     "tutor:helpinghand",
     "tutor:irontail",
     "tutor:magnetrise",
@@ -236,7 +236,7 @@
     "egg:flail",
     "egg:ingrain",
     "egg:knockoff",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:powerswap",
     "egg:spikes",
     "egg:takedown"  ],
@@ -253,7 +253,7 @@
   "preEvolution": "weeduza",
   "evolutions": [
     {
-      "id": "eghotangela_tangrowth",
+      "id": "tangela_tangrowth_egho",
       "variant": "item_interact",
       "result": "tangrowth egho",
       "consumeHeldItem": false,
@@ -382,9 +382,9 @@
     "tm:swagger",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:spikes",
@@ -404,7 +404,7 @@
     "tutor:mimic",
     "tutor:mudslap",
     "tutor:seedbomb",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock",
     "tutor:synthesis",
     "tutor:worryseed"  ],
@@ -418,7 +418,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltatangela_tangrowth",
+      "id": "tangela_tangrowth_delta",
       "variant": "level_up",
       "result": "tangrowth delta",
       "consumeHeldItem": false,
@@ -546,7 +546,7 @@
   "preEvolution": "weeduza",
   "evolutions": [
     {
-      "id": "hoenniantangela_tangrowth",
+      "id": "tangela_tangrowth_hoennian",
       "variant": "level_up",
       "result": "tangrowth hoennian",
       "consumeHeldItem": false,

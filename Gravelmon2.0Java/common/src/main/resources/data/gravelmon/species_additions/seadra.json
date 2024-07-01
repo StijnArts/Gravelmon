@@ -72,7 +72,7 @@
   ],
   "evolutions": [
     {
-      "id": "norheimanseadra_queendra",
+      "id": "seadra_queendra",
       "variant": "level_up",
       "result": "queendra",
       "consumeHeldItem": false,

@@ -69,11 +69,11 @@
     "tutor:waterpulse",
     "tutor:lowkick",
     "tutor:acrobatics",
-    "tutor:disarmingvoicesound",
+    "tutor:disarmingvoice",
     "tutor:chillingwater",
     "tutor:facade",
     "tutor:aerialace",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:lowsweep",
     "tutor:aircutter",
     "tutor:endure",
@@ -106,7 +106,7 @@
   "preEvolution": "quaxly form=ayreian",
   "evolutions": [
     {
-      "id": "ayreianquaxwell_quaquaval",
+      "id": "quaxwell_quaquaval_ayreian",
       "variant": "level_up",
       "result": "quaquaval ayreian",
       "consumeHeldItem": false,

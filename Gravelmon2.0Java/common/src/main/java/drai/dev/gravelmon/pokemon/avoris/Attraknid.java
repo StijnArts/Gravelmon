@@ -30,7 +30,7 @@ public class Attraknid extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Attraknid's webs are coated with an irresistible sweet scent which lures and traps prey. The aroma hypnotizes their prey into becoming their helper."),
                 List.of(new EvolutionEntry("malevoness", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),

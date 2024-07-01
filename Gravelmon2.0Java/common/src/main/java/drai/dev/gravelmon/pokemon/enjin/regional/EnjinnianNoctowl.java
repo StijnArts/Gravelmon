@@ -25,7 +25,7 @@ public class EnjinnianNoctowl extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Foregoing its predator nature, Noctowl prefer to conserve its energy, only hunting when its body demands nutrients to continue functioning."),
                 List.of(new EvolutionEntry("enchantowl", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"210"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SKY_ATTACK,1),

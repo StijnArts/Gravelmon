@@ -103,6 +103,7 @@ public class Tentyrant extends Pokemon {
         this.setSwimSpeed(0.2);
         this.setCanBreathUnderwater(true);
         this.setHitbox(1.3,1.3);
-        //        this.setPreEvolution("tentacruel");
+        addAdditionalEvolution("tentacruel", new EvolutionEntry("tentyrant", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:water_stone"));
     }
 }

@@ -77,7 +77,7 @@
   "preEvolution": "nidoranm form=alteransummercoat",
   "evolutions": [
     {
-      "id": "nidorimesummercoat_nidoregus",
+      "id": "nidorimewintercoat_nidoregus",
       "variant": "item_interact",
       "result": "nidoregus",
       "consumeHeldItem": false,

@@ -1,15 +1,5 @@
 {"target": "cobblemon:Tentacruel",
- "evolutions": [
-  {
-   "id": "tentacruel_tentyrant",
-   "variant": "item_interact",
-   "result": "tentyrant",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [],
-   "requiredContext": "cobblemon:water_stone"
-  }
- ],
+
    "moves": [
     "1:acid",
     "1:constrict",

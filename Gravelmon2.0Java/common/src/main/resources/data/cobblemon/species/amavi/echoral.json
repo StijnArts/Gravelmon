@@ -69,7 +69,7 @@
   ],
   "evolutions": [
     {
-      "id": "echoral_Delflauge",
+      "id": "echoral_delflauge",
       "variant": "level_up",
       "result": "Delflauge",
       "consumeHeldItem": false,

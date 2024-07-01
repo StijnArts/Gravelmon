@@ -86,7 +86,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:overheat",
     "tm:willowisp",
     "tm:payback",
@@ -105,7 +105,7 @@
   ],
   "evolutions": [
     {
-      "id": "mareaniex_toxapex",
+      "id": "mareanie_toxapex_x",
       "variant": "item_interact",
       "result": "toxapex x",
       "consumeHeldItem": false,
@@ -214,7 +214,7 @@
     "tm:flash",
     "tm:rocksmash",
     "egg:fissure",
-    "egg:crystalizecrystal"  ],
+    "egg:crystalize"  ],
   "labels": [
     "blazing_emerald",
     "gen7",
@@ -225,7 +225,7 @@
   ],
   "evolutions": [
     {
-      "id": "hoennianmareanie_toxapex",
+      "id": "mareanie_toxapex_hoennian",
       "variant": "level_up",
       "result": "toxapex hoennian",
       "consumeHeldItem": false,

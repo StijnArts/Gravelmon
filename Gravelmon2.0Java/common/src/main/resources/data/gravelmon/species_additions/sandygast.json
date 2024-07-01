@@ -72,7 +72,7 @@
   ],
   "evolutions": [
     {
-      "id": "qamoransandygast_palosstone",
+      "id": "sandygast_palosstone",
       "variant": "level_up",
       "result": "palosstone",
       "consumeHeldItem": false,

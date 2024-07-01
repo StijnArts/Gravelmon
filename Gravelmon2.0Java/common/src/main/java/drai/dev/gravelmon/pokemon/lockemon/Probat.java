@@ -66,5 +66,6 @@ public class Probat extends Pokemon {
                 0.28, 0.3,
                 List.of());
         setCanFly(true);
+        setPreEvolution("golbat");
     }
 }

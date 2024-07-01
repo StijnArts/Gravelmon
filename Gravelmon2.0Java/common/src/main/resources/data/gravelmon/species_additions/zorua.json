@@ -82,7 +82,7 @@
   ],
   "evolutions": [
     {
-      "id": "mythianzorua_zoroark",
+      "id": "zorua_zoroark_mythian",
       "variant": "level_up",
       "result": "zoroark mythian",
       "consumeHeldItem": false,
@@ -190,7 +190,7 @@
   ],
   "evolutions": [
     {
-      "id": "alteranzorua_Zorotsune",
+      "id": "zorua_Zorotsune",
       "variant": "level_up",
       "result": "Zorotsune",
       "consumeHeldItem": false,

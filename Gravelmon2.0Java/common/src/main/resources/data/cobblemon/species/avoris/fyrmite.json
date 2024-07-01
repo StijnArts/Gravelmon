@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "fyrmite_Carabomb",
+      "id": "fyrmite_carabomb",
       "variant": "level_up",
       "result": "Carabomb",
       "consumeHeldItem": false,

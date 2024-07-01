@@ -24,7 +24,7 @@ public class Shardodon extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("As the crystal on its back grows taller, shards of it break off and are left behind. These pieces are often collected and sold as souvenirs, but they are razor-sharp."),
                 List.of(new EvolutionEntry("solardon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

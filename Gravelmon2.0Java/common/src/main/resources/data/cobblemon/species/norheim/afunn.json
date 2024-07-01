@@ -82,7 +82,7 @@
       "permanent": true   
  },
     {
-      "id": "afunn_Mountunn",
+      "id": "afunn_mountunn",
       "variant": "level_up",
       "result": "Mountunn",
       "consumeHeldItem": false,
@@ -96,7 +96,7 @@
       "permanent": true   
  },
     {
-      "id": "afunn_Glacunn",
+      "id": "afunn_glacunn",
       "variant": "level_up",
       "result": "Glacunn",
       "consumeHeldItem": false,

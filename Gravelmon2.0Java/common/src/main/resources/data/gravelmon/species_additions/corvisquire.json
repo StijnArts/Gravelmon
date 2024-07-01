@@ -74,7 +74,7 @@
   "preEvolution": "rookidee form=norheiman",
   "evolutions": [
     {
-      "id": "norheimancorvisquire_corvhugen",
+      "id": "corvisquire_corvhugen",
       "variant": "level_up",
       "result": "corvhugen",
       "consumeHeldItem": false,

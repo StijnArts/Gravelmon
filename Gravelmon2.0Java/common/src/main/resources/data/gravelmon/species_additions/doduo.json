@@ -1,5 +1,22 @@
 {
    "target": "cobblemon:doduo",
+  "evolutions": [
+    {
+      "id": "doduo_dodrio_hoennian",
+      "variant": "level_up",
+      "result": "dodrio hoennian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "marowak",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Delta",
   "primaryType": "psychic",
@@ -95,12 +112,12 @@
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:lunarcannon",
     "tm:allyswitch",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:pluck",
@@ -111,9 +128,9 @@
     "tutor:drillrun",
     "tutor:endeavor",
     "tutor:endure",
-    "tutor:gravitycosmic",
+    "tutor:gravity",
     "tutor:helpinghand",
-    "tutor:hypervoicesound",
+    "tutor:hypervoice",
     "tutor:hypnosis",
     "tutor:knockoff",
     "tutor:lowkick",
@@ -121,7 +138,7 @@
     "tutor:magicroom",
     "tutor:mimic",
     "tutor:roleplay",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:superpower",
     "tutor:trick",
     "tutor:uproar",
@@ -136,7 +153,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltadoduo_dodrio",
+      "id": "doduo_dodrio_delta",
       "variant": "level_up",
       "result": "dodrio delta",
       "consumeHeldItem": false,
@@ -252,7 +269,7 @@
     "tm:rocktomb",
     "tm:roost",
     "tm:scorchingsands",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "tm:solarbeam",
     "tm:stealthrock",
     "tm:steelwing",
@@ -291,7 +308,7 @@
   ],
   "evolutions": [
     {
-      "id": "seviiandoduo_dodrio",
+      "id": "doduo_dodrio_seviian",
       "variant": "level_up",
       "result": "dodrio seviian",
       "consumeHeldItem": false,

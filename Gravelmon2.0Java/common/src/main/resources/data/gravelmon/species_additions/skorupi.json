@@ -67,7 +67,7 @@
   ],
   "evolutions": [
     {
-      "id": "hizianskorupi_drapion",
+      "id": "skorupi_drapion_hizian",
       "variant": "level_up",
       "result": "drapion hizian",
       "consumeHeldItem": false,

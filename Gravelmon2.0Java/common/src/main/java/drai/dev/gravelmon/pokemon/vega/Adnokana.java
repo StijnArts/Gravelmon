@@ -126,5 +126,7 @@ public class Adnokana extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("arbok");
+        addAdditionalEvolution("arbok", new EvolutionEntry("adnokana", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44"))));
     }
 }

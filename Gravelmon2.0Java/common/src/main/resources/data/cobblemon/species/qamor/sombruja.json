@@ -49,7 +49,7 @@
   ],
   "moves": [
     "1:falsesurrender",
-    "15:singsound",
+    "15:sing",
     "20:brutalswing",
     "27:drainingkiss",
     "31:knockoff",
@@ -57,7 +57,7 @@
     "41:playrough",
     "48:nightdaze",
     "55:partingshot",
-    "62:hypervoicesound",
+    "62:hypervoice",
     "tm:dazzlinggleam",
     "tm:darkpulse",
     "tm:cottonguard",

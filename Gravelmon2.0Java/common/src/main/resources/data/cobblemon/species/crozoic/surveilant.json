@@ -62,7 +62,7 @@
   "preEvolution": "picant",
   "evolutions": [
     {
-      "id": "surveilant_Hellantern",
+      "id": "surveilant_hellantern",
       "variant": "level_up",
       "result": "Hellantern",
       "consumeHeldItem": false,

@@ -83,7 +83,7 @@
     "tm:raindance",
     "tm:uturn",
     "tm:bodyslam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:dragonclaw",
     "tm:rest",
     "tm:taunt",
@@ -91,7 +91,7 @@
     "tm:substitute",
     "tm:crunch",
     "tm:dragonpulse",
-    "tm:hypervoicesound",
+    "tm:hypervoice",
     "tm:icespinner",
     "tm:thunderbolt",
     "tm:wildcharge",
@@ -110,7 +110,7 @@
   ],
   "evolutions": [
     {
-      "id": "norheimanrattata_rowdent",
+      "id": "rattata_rowdent",
       "variant": "level_up",
       "result": "rowdent",
       "consumeHeldItem": false,

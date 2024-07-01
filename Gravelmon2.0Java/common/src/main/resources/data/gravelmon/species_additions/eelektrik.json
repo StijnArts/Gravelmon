@@ -60,7 +60,7 @@
     "74:thrash",
     "tm:bind",
     "tm:superfang",
-    "tm:snoresound",
+    "tm:snore",
     "tm:gigadrain",
     "tm:irontail",
     "tm:knockoff",
@@ -82,7 +82,7 @@
     "tm:protect",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",
@@ -91,7 +91,7 @@
     "tm:uturn",
     "tm:flashcannon",
     "tm:chargebeam",
-    "tm:roundsound",
+    "tm:round",
     "tm:acrobatics",
     "tm:voltswitch",
     "tm:wildcharge",
@@ -108,7 +108,7 @@
   "preEvolution": "tynamo form=varitasian",
   "evolutions": [
     {
-      "id": "varitasianeelektrik_eelektross",
+      "id": "eelektrik_eelektross_varitasian",
       "variant": "item_interact",
       "result": "eelektross varitasian",
       "consumeHeldItem": false,
@@ -239,7 +239,7 @@
   "preEvolution": "tynamo form=hoennian",
   "evolutions": [
     {
-      "id": "hoennianeelektrik_eelektross",
+      "id": "eelektrik_eelektross_hoennian",
       "variant": "item_interact",
       "result": "eelektross hoennian",
       "consumeHeldItem": false,

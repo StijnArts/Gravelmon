@@ -51,7 +51,7 @@
   "moves": [
     "1:shadowsneak",
     "1:memento",
-    "1:hypervoicesound",
+    "1:hypervoice",
     "1:astonish",
     "1:growl",
     "1:quickattack",
@@ -72,7 +72,7 @@
     "egg:recycle",
     "egg:faketears",
     "egg:feint",
-    "egg:screechsound",
+    "egg:screech",
     "egg:yawn",
     "egg:toxic"  ],
   "labels": [

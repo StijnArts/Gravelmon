@@ -60,7 +60,7 @@
     "41:workup",
     "44:megapunch",
     "49:focuspunch",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:tailwhip",
     "tutor:secretpower",
     "tutor:cometpunch",
@@ -96,7 +96,7 @@
   ],
   "evolutions": [
     {
-      "id": "wallachy_Tawachy",
+      "id": "wallachy_tawachy",
       "variant": "level_up",
       "result": "Tawachy",
       "consumeHeldItem": false,

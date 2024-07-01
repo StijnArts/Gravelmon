@@ -49,7 +49,7 @@
     "grass"
   ],
   "moves": [
-    "1:perishsongsound",
+    "1:perishsong",
     "55:moonblast",
     "60:wringout",
     "65:strengthsap",
@@ -62,7 +62,7 @@
     "tm:gunkshot",
     "tm:zenheadbutt",
     "tm:allyswitch",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:naturepower",
     "tm:hyperbeam",
     "tm:gigaimpact",
@@ -84,7 +84,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

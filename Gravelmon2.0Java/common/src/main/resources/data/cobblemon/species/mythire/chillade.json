@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "chillade_Frosillade",
+      "id": "chillade_frosillade",
       "variant": "level_up",
       "result": "Frosillade",
       "consumeHeldItem": false,

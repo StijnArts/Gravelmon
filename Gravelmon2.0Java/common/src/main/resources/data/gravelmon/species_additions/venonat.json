@@ -68,7 +68,7 @@
   ],
   "evolutions": [
     {
-      "id": "hizianvenonat_venomoth",
+      "id": "venonat_venomoth_hizian",
       "variant": "level_up",
       "result": "venomoth hizian",
       "consumeHeldItem": false,
@@ -183,7 +183,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "egg:cosmicpowercosmic"  ],
+    "egg:cosmicpower"  ],
   "labels": [
     "blazing_emerald",
     "gen1",
@@ -194,7 +194,7 @@
   ],
   "evolutions": [
     {
-      "id": "hoennianvenonat_muramoth",
+      "id": "venonat_muramoth",
       "variant": "level_up",
       "result": "muramoth",
       "consumeHeldItem": false,
@@ -209,7 +209,7 @@
       "permanent": true   
  },
     {
-      "id": "hoennianvenonat_lucemoth",
+      "id": "venonat_lucemoth",
       "variant": "level_up",
       "result": "lucemoth",
       "consumeHeldItem": false,

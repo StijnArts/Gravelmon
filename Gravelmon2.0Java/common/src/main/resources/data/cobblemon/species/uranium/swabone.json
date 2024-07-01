@@ -107,7 +107,7 @@
     "tm:shadowball",
     "tm:shadowclaw",
     "tm:skillswap",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:snatch",
     "tm:strength",
     "tm:substitute",
@@ -129,7 +129,7 @@
     "egg:leafblade",
     "egg:swordsdance",
     "egg:glare",
-    "egg:singsound"  ],
+    "egg:sing"  ],
   "labels": [
     "uranium",
     "not_modeled"

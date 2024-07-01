@@ -84,7 +84,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:overheat",
     "tm:allyswitch",
     "tm:energyball",

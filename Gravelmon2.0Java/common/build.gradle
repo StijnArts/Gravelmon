@@ -6,6 +6,7 @@ dependencies {
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modImplementation "com.cobblemon:mod:${cobblemon_file}"
+    modImplementation "maven.modrinth:gravels-extended-battles:K5fBWJ33"
     modImplementation "curse.maven:kotlin-common-351264:${kotlin_forge_file}"
 }
 loom {

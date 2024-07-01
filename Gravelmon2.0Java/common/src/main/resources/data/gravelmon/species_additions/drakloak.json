@@ -54,7 +54,7 @@
     "tm:cut",
     "tm:flash",
     "tm:dragonclaw",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:pursuit",
     "tm:hiddenpower",
@@ -101,7 +101,7 @@
   "preEvolution": "dreepy form=hoennian",
   "evolutions": [
     {
-      "id": "hoenniandrakloak_dragapult",
+      "id": "drakloak_dragapult_hoennian",
       "variant": "level_up",
       "result": "dragapult hoennian",
       "consumeHeldItem": false,

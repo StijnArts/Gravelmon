@@ -88,7 +88,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:overheat",
     "tm:willowisp",
     "tm:payback",
@@ -107,7 +107,7 @@
     "tutor:painsplit",
     "tutor:secretpower",
     "tutor:snatch",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite"  ],
   "labels": [
     "xenoverse",
@@ -188,7 +188,7 @@
   ],
   "moves": [
     "egg:fissure",
-    "egg:crystalizecrystal",
+    "egg:crystalize",
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",

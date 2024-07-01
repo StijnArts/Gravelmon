@@ -24,7 +24,7 @@ public class Dusby extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Colonies of them can be found living underneath beds in unswept rooms. It is skittish and flees as soon as it is seen, leaving only a trail of dust behind it."),
                 List.of(new EvolutionEntry("Dusturby", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.ASTONISH,4),

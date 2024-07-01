@@ -81,7 +81,7 @@
   ],
   "evolutions": [
     {
-      "id": "kaskadianbidoof_bibarel",
+      "id": "bidoof_bibarel_kaskadian",
       "variant": "level_up",
       "result": "bibarel kaskadian",
       "consumeHeldItem": false,

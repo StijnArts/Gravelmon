@@ -73,7 +73,7 @@
   ],
   "evolutions": [
     {
-      "id": "mysticstufful_bewear",
+      "id": "stufful_bewear_mystic",
       "variant": "level_up",
       "result": "bewear mystic",
       "consumeHeldItem": false,

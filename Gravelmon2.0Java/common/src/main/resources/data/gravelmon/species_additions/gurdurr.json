@@ -81,7 +81,7 @@
     "tm:firepunch",
     "tm:thunderpunch",
     "tm:icepunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:drainpunch",
     "tm:grassknot",
     "tm:poisonjab",
@@ -109,7 +109,7 @@
   ],
   "evolutions": [
     {
-      "id": "kaskadiangurdurr_conkeldurr",
+      "id": "gurdurr_conkeldurr_kaskadian",
       "variant": "item_interact",
       "result": "conkeldurr kaskadian",
       "consumeHeldItem": false,

@@ -132,6 +132,8 @@ public class Typheon extends drai.dev.gravelmon.pokemon.Pokemon {
         setCanFly(true);
            setLangFileName("Typheon");
 
+        addAdditionalEvolution("eevee", new EvolutionEntry("typheon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:air_stone"));
     }
 
 

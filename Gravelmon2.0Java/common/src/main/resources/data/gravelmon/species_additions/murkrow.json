@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "hizianmurkrow_honchkrow",
+      "id": "murkrow_honchkrow_hizian",
       "variant": "item_interact",
       "result": "honchkrow hizian",
       "consumeHeldItem": false,
