@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation4_seviiancarnivine",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine.png",
+      "model": "cobblemon:generation4_seviiancarnivine.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine/seviiancarnivine.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine/seviiancarnivine_shiny.png"
     }  ]
 }

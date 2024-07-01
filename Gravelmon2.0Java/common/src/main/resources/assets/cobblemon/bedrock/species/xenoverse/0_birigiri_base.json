@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:xenoverse_birigiri",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/xenoverse/birigiri.png",
+      "model": "cobblemon:xenoverse_birigiri.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/birigiri/birigiri.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/birigiri_shiny.png"
+      "texture": "cobblemon:textures/pokemon/xenoverse/birigiri/birigiri_shiny.png"
     }  ]
 }
