@@ -125,7 +125,6 @@
     "egg:whirlpool"  ],
   "labels": [
     "sage",
-    "not_modeled",
     "fakemon",
     "fakemonevolution"
   ],
@@ -133,10 +132,10 @@
     "cobblemon.species.oarwish.desc"
   ],
   "preEvolution": "fortifry",
-  "baseScale": 0.65,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
