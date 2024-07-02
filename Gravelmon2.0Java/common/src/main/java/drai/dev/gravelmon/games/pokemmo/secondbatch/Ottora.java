@@ -51,8 +51,9 @@ import drai.dev.gravelmon.pokemon.varitas.*;
 import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class Ottora extends drai.dev.gravelmon.games.registry.Game {

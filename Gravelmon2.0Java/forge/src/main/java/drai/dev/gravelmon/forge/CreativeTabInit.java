@@ -31,8 +31,6 @@ public class CreativeTabInit {
             var stackDescription = stack.getItem().getDescriptionId();
             var descriptionsForGravelmonBalls = GravelmonItems.POKE_BALLS.stream().flatMap(item-> Stream.of(item.get().getDescriptionId())).toList();
             if (descriptionsForGravelmonBalls.contains(stackDescription)) {
-
-
                 if(stack.getTag() != null){
                     if (!stack.getTag().getBoolean(DataKeys.HIDE_TOOLTIP)) {
                         return Unit.INSTANCE;
@@ -78,7 +76,6 @@ public class CreativeTabInit {
             event.getEntries().putAfter(CobblemonItems.ICE_STONE.getDefaultInstance(),
                     GravelmonItems.ASTRAL_STONE.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-
             //evolution held items
             event.getEntries().putAfter(CobblemonItems.DUBIOUS_DISC.getDefaultInstance(),
                     GravelmonItems.WES_UPDATE.get().getDefaultInstance(),

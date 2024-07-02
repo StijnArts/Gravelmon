@@ -2,8 +2,10 @@ package drai.dev.gravelmon.pokemon;
 
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.data.attributes.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import drai.dev.gravelsextendedbattles.*;
 import org.jetbrains.annotations.*;
 

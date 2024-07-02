@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo.firstbatch;
 
 import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.mushi.*;

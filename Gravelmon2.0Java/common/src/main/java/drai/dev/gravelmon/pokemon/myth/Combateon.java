@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.myth;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import drai.dev.gravelsextendedbattles.resorting.*;
 
 import java.util.*;

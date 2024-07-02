@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.hiza;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Solarelo extends drai.dev.gravelmon.pokemon.Pokemon {

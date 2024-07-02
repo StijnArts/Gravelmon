@@ -13,6 +13,7 @@ import drai.dev.gravelmon.pokemon.atlas.Muscolin;
 import drai.dev.gravelmon.pokemon.atlas.Nuggle;
 import drai.dev.gravelmon.pokemon.atlas.Piragmid;
 import drai.dev.gravelmon.pokemon.atlas.Tankyard;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.isiah.*;
 import drai.dev.gravelmon.pokemon.atlas.Eldoredo;

@@ -8,6 +8,7 @@ public class JSONOutputGenerator {
         SpeciesAdditionsWriter.writeAdditions(resourcesDir);
         AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
         AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
+        PokeBallEffectWriter.writeEffects(resourcesDir);
         for(Game game : GameRegistry.games){
             generateJsonFiles(game,resourcesDir);
         }

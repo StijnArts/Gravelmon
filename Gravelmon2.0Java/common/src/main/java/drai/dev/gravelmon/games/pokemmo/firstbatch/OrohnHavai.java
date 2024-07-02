@@ -21,6 +21,7 @@ import drai.dev.gravelmon.pokemon.atlas.Trillowee;
 import drai.dev.gravelmon.pokemon.atlas.Turtelisk;
 import drai.dev.gravelmon.pokemon.atlas.Wilspri;
 import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.mushi.*;

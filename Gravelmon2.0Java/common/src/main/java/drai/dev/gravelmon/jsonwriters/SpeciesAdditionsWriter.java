@@ -1,8 +1,10 @@
 package drai.dev.gravelmon.jsonwriters;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 

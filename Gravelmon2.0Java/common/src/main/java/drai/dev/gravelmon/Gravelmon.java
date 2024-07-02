@@ -2,6 +2,7 @@ package drai.dev.gravelmon;
 
 import com.google.common.base.*;
 import dev.architectury.registry.registries.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.registries.*;
 import drai.dev.gravelsextendedbattles.*;

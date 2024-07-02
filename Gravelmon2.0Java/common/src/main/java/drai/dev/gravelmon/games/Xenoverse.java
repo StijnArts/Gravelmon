@@ -2,6 +2,7 @@ package drai.dev.gravelmon.games;
 
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.xenoverse.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;

@@ -59,7 +59,7 @@ dependencies {
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
     modImplementation "curse.maven:kotlin-forge-351264:${kotlin_forge_file}"
-    modImplementation "com.cobblemon:forge:${cobblemon_file}"
+    modApi "com.cobblemon:forge:${cobblemon_file}"
 }
 
 def replaceProperties = [mod_id                 : mod_id,
