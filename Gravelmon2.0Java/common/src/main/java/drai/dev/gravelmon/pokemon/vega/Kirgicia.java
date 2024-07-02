@@ -118,5 +118,7 @@ public class Kirgicia extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("ralts");
+        addAdditionalEvolution("ralts", new EvolutionEntry("kirgicia", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))));
     }
 }

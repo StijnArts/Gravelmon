@@ -110,5 +110,7 @@ public class Galavagos extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("torkoal");
+        addAdditionalEvolution("torkoal", new EvolutionEntry("galavagos", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45"))));
     }
 }

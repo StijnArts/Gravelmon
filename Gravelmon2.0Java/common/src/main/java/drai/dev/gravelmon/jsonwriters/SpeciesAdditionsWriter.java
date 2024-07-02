@@ -10,6 +10,8 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
+import static drai.dev.gravelmon.pokemon.Pokemon.ADDITIONAL_PRE_EVOLUTIONS;
+
 public class SpeciesAdditionsWriter {
     public static void writeAdditions(String resourcesDir) {
         //TODO add substitution files
@@ -42,12 +44,37 @@ public class SpeciesAdditionsWriter {
                         throw new RuntimeException(e);
                     }
                 });
+        ADDITIONAL_PRE_EVOLUTIONS.entrySet().stream()
+                .filter(stringListEntry -> !Pokemon.ADDITIONAL_FORMS.containsKey(stringListEntry.getKey()) && !Pokemon.ADDITIONAL_EVOLUTIONS.containsKey(stringListEntry.getKey())
+                        && !Pokemon.ADDITIONAL_DROPS.containsKey(stringListEntry.getKey()))
+                .forEach(stringListEntry -> {
+                    try {
+                        var dir = resourcesDir + "\\data\\gravelmon\\species_additions\\";
+                        Files.createDirectories(new File(dir).toPath());
+                        writeAdditionalPreEvolutions(stringListEntry, dir);
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                });
+    }
+
+    private static void writeAdditionalPreEvolutions(Map.Entry<String, String> set, String dir) throws IOException {
+        String fileContents =
+                "{\n" +
+                        "   \"target\": \"cobblemon:" + Pokemon.getCleanName(set.getKey()) + "\",\n";
+        fileContents += "  \"preEvolution\": \"" + set.getValue() + "\"\n}";
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + Pokemon.getCleanName(set.getKey()) + ".json"));
+        writer.write(fileContents);
+        writer.close();
     }
 
     private synchronized static void writeAlternateDrops(Map.Entry<String, List<ItemDrop>> set, String dir) throws IOException {
         String fileContents =
                 "{\n" +
                         "   \"target\": \"cobblemon:" + Pokemon.getCleanName(set.getKey()) + "\",\n";
+        if (ADDITIONAL_PRE_EVOLUTIONS.containsKey(set.getKey())) {
+            fileContents += "  \"preEvolution\": \"" + ADDITIONAL_PRE_EVOLUTIONS.get(set.getKey()) + "\",\n";
+        }
         fileContents = getDrops(1, set.getValue(), fileContents) + "\n}";
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + Pokemon.getCleanName(set.getKey()) + ".json"));
         writer.write(fileContents);
@@ -59,7 +86,10 @@ public class SpeciesAdditionsWriter {
                 "{\n" +
                         "   \"target\": \"cobblemon:" + Pokemon.getCleanName(set.getKey()) + "\",\n";
         if (Pokemon.ADDITIONAL_DROPS.containsKey(set.getKey())) {
-            fileContents = getDrops(1, Pokemon.ADDITIONAL_DROPS.get(set.getKey()), fileContents) + ",";
+            fileContents = getDrops(1, Pokemon.ADDITIONAL_DROPS.get(set.getKey()), fileContents);
+        }
+        if (ADDITIONAL_PRE_EVOLUTIONS.containsKey(set.getKey())) {
+            fileContents += "  \"preEvolution\": \"" + ADDITIONAL_PRE_EVOLUTIONS.get(set.getKey()) + "\",\n";
         }
         fileContents = getEvolutions(Pokemon.getCleanName(set.getKey()), set.getValue(), fileContents).replaceAll("\n  ],\n", "\n  ]\n") + "\n}";
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + Pokemon.getCleanName(set.getKey()) + ".json"));
@@ -76,6 +106,9 @@ public class SpeciesAdditionsWriter {
         }
         if (Pokemon.ADDITIONAL_DROPS.containsKey(set.getKey())) {
             fileContents = getDrops(1, Pokemon.ADDITIONAL_DROPS.get(set.getKey()), fileContents);
+        }
+        if (ADDITIONAL_PRE_EVOLUTIONS.containsKey(set.getKey())) {
+            fileContents += "  \"preEvolution\": \"" + ADDITIONAL_PRE_EVOLUTIONS.get(set.getKey()) + "\",\n";
         }
         if (!set.getValue().isEmpty()) {
             fileContents += "   \"forms\": [";

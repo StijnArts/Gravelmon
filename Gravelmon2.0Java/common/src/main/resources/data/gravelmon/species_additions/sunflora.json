@@ -1,5 +1,29 @@
 {
    "target": "cobblemon:sunflora",
+  "evolutions": [
+    {
+      "id": "sunflora_sunflorid",
+      "variant": "item_interact",
+      "result": "sunflorid",
+      "consumeHeldItem": false,
+      "learnableMoves": [    "incinerate"],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:fire_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
    "forms": [{
   "name": "Delta",
   "primaryType": "fire",

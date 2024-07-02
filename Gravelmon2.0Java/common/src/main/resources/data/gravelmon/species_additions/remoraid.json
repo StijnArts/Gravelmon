@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:remoraid",
+  "evolutions": [
+    {
+      "id": "remoraid_slingray",
+      "variant": "level_up",
+      "result": "slingray",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "rockblast"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Delta",
   "primaryType": "fire",

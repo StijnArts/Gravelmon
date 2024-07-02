@@ -52,5 +52,8 @@ public class CefiranGothitelle extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Gothitelle");
+        addAdditionalEvolution("gothorita", new EvolutionEntry("gothitelle cefiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName() +"\""))));
     }
 }

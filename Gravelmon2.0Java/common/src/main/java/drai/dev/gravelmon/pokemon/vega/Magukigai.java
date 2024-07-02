@@ -101,5 +101,7 @@ public class Magukigai extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setPreEvolution("magcargo");
+        addAdditionalEvolution("magcargo", new EvolutionEntry("magukigai", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"54"))));
     }
 }

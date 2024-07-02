@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:black_belt",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:reversal",
     "1:helpinghand",
@@ -126,14 +136,11 @@
     "egg:wish",
     "egg:yawn"  ],
   "labels": [
-    "infinity",
-    "eeveelution",
-    "fakemonevolution"
+    "infinity"
   ],
   "pokedex": [
     "cobblemon.species.champeon.desc"
   ],
-  "preEvolution": "eevee",
   "baseScale": 0.8,
   "hitbox": {
     "width": 1.0,

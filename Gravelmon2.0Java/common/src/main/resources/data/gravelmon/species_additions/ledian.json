@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:ledian",
+  "evolutions": [
+    {
+      "id": "ledian_ledybulk",
+      "variant": "level_up",
+      "result": "ledybulk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Alteran",
   "primaryType": "bug",

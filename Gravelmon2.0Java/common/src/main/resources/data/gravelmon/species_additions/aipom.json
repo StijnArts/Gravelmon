@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:aipom",
+  "evolutions": [
+    {
+      "id": "aipom_ambipom_kaskadian",
+      "variant": "level_up",
+      "result": "ambipom kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "rockthrow"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Fligian",
   "primaryType": "ghost",

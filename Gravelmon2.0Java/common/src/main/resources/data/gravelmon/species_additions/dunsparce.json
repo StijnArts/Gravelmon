@@ -1,5 +1,77 @@
 {
    "target": "cobblemon:dunsparce",
+  "evolutions": [
+    {
+      "id": "dunsparce_quezsparce",
+      "variant": "level_up",
+      "result": "quezsparce",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "drillrun"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "dunsparce_Dustout",
+      "variant": "level_up",
+      "result": "Dustout",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dig"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "dunsparce_dunseraph",
+      "variant": "level_up",
+      "result": "dunseraph",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "skydrop"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "dunsparce_dunmyth",
+      "variant": "level_up",
+      "result": "dunmyth",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "dunsparce_auldsparce",
+      "variant": "level_up",
+      "result": "auldsparce",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Delta",
   "primaryType": "bug",

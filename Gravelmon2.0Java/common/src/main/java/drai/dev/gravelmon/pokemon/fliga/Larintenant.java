@@ -53,6 +53,7 @@ import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
 
 import java.util.*;
 public class Larintenant extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -157,6 +158,9 @@ public class Larintenant extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Larintenant");
+        addAdditionalEvolution("wingull", new EvolutionEntry("larintenant", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ACROBATICS.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("wingull", new MoveLearnSetEntry(Move.ACROBATICS, 33));
 
     }
 

@@ -127,7 +127,7 @@
   "pokedex": [
     "cobblemon.species.armiranswellow.desc"
   ],
-  "preEvolution": "Taillow",
+  "preEvolution": "taillow",
   "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,

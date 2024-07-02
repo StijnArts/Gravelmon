@@ -81,5 +81,7 @@ public class Aereon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         setCanFly(true);
+        addAdditionalEvolution("eevee", new EvolutionEntry("aereon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:air_stone"));
     }
 }

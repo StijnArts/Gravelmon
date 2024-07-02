@@ -135,13 +135,11 @@
     "egg:tailwhip"  ],
   "labels": [
     "infinity",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.faeralynx.desc"
   ],
-  "preEvolution": "persian",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

@@ -114,5 +114,7 @@ public class Cheauking extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("weezing");
+        addAdditionalEvolution("weezing", new EvolutionEntry("cheauking", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45"))));
     }
 }

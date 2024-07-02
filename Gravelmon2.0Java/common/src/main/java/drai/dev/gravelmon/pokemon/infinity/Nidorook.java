@@ -124,5 +124,9 @@ public class Nidorook extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         this.setPreEvolution("nidorino");
+        addAdditionalEvolution("nidorina", new EvolutionEntry("nidorook", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:astral_stone"));
+        addAdditionalEvolution("nidorino", new EvolutionEntry("nidorook", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:astral_stone"));
     }
 }

@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:luvdisc",
+  "evolutions": [
+    {
+      "id": "luvdisc_valentide",
+      "variant": "level_up",
+      "result": "valentide",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Hizian",
   "primaryType": "ghost",

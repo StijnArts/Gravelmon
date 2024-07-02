@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:ledyba",
+  "evolutions": [
+    {
+      "id": "ledyba_ledian_alteran",
+      "variant": "level_up",
+      "result": "ledian alteran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Relic",
   "primaryType": "fire",

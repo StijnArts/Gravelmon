@@ -127,6 +127,8 @@ public class EXEon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("EXEon");
+        addAdditionalEvolution("eevee", new EvolutionEntry("exeon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:upgrade\""))));
 
     }
 

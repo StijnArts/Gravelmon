@@ -106,5 +106,7 @@ public class AmazeAllSudowoodo extends Pokemon {
                 List.of());
         this.setLangFileName("Sudowoodo");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("bonsly", new EvolutionEntry("sudowoodo amazeall", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:amaze_drive"));
     }
 }

@@ -3,6 +3,8 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
 import java.util.*;
 
 import java.util.*;
@@ -124,5 +126,8 @@ public class Kecleodon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("kecleon");
+        addAdditionalEvolution("kecleon", new EvolutionEntry("kecleodon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.THIEF.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("kecleon", new MoveLearnSetEntry(Move.THIEF, 36));
     }
 }

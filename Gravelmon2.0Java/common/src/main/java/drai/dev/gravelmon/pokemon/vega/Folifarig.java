@@ -96,5 +96,7 @@ public class Folifarig extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("girafarig");
+        addAdditionalEvolution("girafarig", new EvolutionEntry("folifarig", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))));
     }
 }

@@ -52,7 +52,7 @@
     "amount": "1",
     "entries": [
       {
-        "item": "gravelmonm:astral_stone",
+        "item": "gravelmon:astral_stone",
         "quantityRange": "1-1",
         "percentage": 40
       }

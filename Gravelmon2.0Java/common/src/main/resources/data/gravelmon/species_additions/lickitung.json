@@ -1,5 +1,6 @@
 {
    "target": "cobblemon:lickitung",
+  "preEvolution": "tasticky",
    "forms": [{
   "name": "Hizian",
   "primaryType": "fairy",

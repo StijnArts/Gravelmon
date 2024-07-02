@@ -1,5 +1,6 @@
 {
    "target": "cobblemon:muk",
+  "preEvolution": "novrangrimer",
    "forms": [{
   "name": "Novran",
   "primaryType": "poison",

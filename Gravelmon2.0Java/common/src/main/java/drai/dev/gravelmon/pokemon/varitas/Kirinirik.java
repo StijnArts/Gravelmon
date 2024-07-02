@@ -2,6 +2,7 @@ package drai.dev.gravelmon.pokemon.varitas;
 
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
 
 import java.util.*;
 
@@ -47,6 +48,9 @@ public class Kirinirik extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kirinirik");
+        addAdditionalEvolution("girafarig", new EvolutionEntry("kirinirik", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.OUTRAGE.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("girafarig", new MoveLearnSetEntry(Move.OUTRAGE, 55));
 
     }
 

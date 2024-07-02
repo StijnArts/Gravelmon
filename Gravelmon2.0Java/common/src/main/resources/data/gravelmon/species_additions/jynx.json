@@ -10,7 +10,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmonm:astral_stone",
+      "requiredContext": "gravelmon:astral_stone",
       "permanent": true   
  },
     {
@@ -32,7 +32,7 @@
     "amount": "1",
     "entries": [
       {
-        "item": "gravelmonm:astral_stone",
+        "item": "gravelmon:astral_stone",
         "quantityRange": "1-1",
         "percentage": 10
       }

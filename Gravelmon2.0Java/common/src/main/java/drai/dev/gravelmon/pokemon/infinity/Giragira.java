@@ -89,5 +89,7 @@ public class Giragira extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("girafarig");
+        addAdditionalEvolution("girafarig", new EvolutionEntry("giragira", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:dusk_stone"));
     }
 }

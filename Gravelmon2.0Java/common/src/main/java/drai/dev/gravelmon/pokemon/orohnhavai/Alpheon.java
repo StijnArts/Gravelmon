@@ -61,6 +61,9 @@ public class Alpheon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Alpheon");
+        addAdditionalEvolution("eevee", new EvolutionEntry("alpheon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"))));
 
     }
 

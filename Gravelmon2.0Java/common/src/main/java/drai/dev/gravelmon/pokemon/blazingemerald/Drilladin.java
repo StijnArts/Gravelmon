@@ -64,6 +64,7 @@ public class Drilladin extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setCanFly(true);
-        this.setPreEvolution("kakuna");
+        addAdditionalEvolution("kakuna", new EvolutionEntry("drilladin", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))));
     }
 }

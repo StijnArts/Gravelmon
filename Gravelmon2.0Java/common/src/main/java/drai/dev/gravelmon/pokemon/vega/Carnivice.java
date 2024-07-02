@@ -113,5 +113,7 @@ public class Carnivice extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("carnivine");
+        addAdditionalEvolution("carnivine", new EvolutionEntry("carnivice", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"))));
     }
 }

@@ -107,5 +107,7 @@ public class Conductot extends Pokemon {
                 List.of());
         setCanFly(true);
         this.setPreEvolution("chatot");
+        addAdditionalEvolution("chatot", new EvolutionEntry("conductot", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"))));
     }
 }

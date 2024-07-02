@@ -1,5 +1,19 @@
 {
    "target": "cobblemon:misdreavus",
+  "evolutions": [
+    {
+      "id": "misdreavus_mismagius_norheiman",
+      "variant": "item_interact",
+      "result": "mismagius norheiman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Hizian",
   "primaryType": "fire",

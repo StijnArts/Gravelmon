@@ -51,6 +51,8 @@ public class Tangorgon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Tangorgon");
+        addAdditionalEvolution("tangela", new EvolutionEntry("tangorgon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:dusk_stone"));
 
     }
 

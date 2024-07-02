@@ -47,6 +47,16 @@
   "eggGroups": [
     "fairy"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:aromatic_herb",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:aromaticmist",
     "1:healpulse",

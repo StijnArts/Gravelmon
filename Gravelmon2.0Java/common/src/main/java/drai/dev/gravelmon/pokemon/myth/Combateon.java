@@ -3,6 +3,8 @@ package drai.dev.gravelmon.pokemon.myth;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
 import java.util.*;
 
 import java.util.*;
@@ -79,5 +81,8 @@ public class Combateon extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
+        addAdditionalEvolution("eevee", new EvolutionEntry("combateon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.MACH_PUNCH.getName()+"\"")))	);
+        GravelmonMoveSubstitution.registerMoveInsertion("eevee", new MoveLearnSetEntry(Move.MACH_PUNCH, "tm"));
     }
 }

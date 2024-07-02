@@ -1,5 +1,19 @@
 {
    "target": "cobblemon:rattata",
+  "evolutions": [
+    {
+      "id": "rattata_raticate_kaskadian",
+      "variant": "item_interact",
+      "result": "raticate kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:ice_stone",
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Norheiman",
   "primaryType": "normal",

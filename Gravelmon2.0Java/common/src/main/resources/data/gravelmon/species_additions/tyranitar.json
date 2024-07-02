@@ -1,5 +1,19 @@
 {
    "target": "cobblemon:tyranitar",
+  "evolutions": [
+    {
+      "id": "tyranitar_tyranitar_x",
+      "variant": "item_interact",
+      "result": "tyranitar x",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:inductive_ring",
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "X",
   "primaryType": "rock",

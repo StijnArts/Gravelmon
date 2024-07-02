@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:smeargle",
+  "evolutions": [
+    {
+      "id": "smeargle_beagasso",
+      "variant": "level_up",
+      "result": "beagasso",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 39
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Hubian",
   "primaryType": "ground",

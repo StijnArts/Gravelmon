@@ -124,6 +124,8 @@ public class NovranHuntail extends drai.dev.gravelmon.pokemon.Pokemon {
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);
+        addAdditionalEvolution("clamperl", new EvolutionEntry("huntail novran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:deep_sea_tooth\""))));
 
     }
 

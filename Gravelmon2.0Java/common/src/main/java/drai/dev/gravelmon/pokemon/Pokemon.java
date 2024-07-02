@@ -4,6 +4,7 @@ import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.*;
 import org.jetbrains.annotations.*;
 
 import java.util.*;
@@ -15,6 +16,7 @@ public class Pokemon {
     public static Map<String, List<Pokemon>> ADDITIONAL_FORMS = new HashMap<>();
     public static Map<String, List<EvolutionEntry>> ADDITIONAL_EVOLUTIONS = new HashMap<>();
     public static Map<String, List<ItemDrop>> ADDITIONAL_DROPS = new HashMap<>();
+    public static Map<String, String> ADDITIONAL_PRE_EVOLUTIONS = new HashMap<>();
     String name;
     Stats stats;
     Type primaryType;
@@ -97,6 +99,9 @@ public class Pokemon {
 
 
     protected static void addAdditionalEvolution(String from, EvolutionEntry evolutionEntry) {
+        if(from.contains(" ")){
+            return;
+        }
         var forms = ADDITIONAL_EVOLUTIONS.computeIfAbsent(from, k -> new ArrayList<>());
         forms.add(evolutionEntry);
     }
@@ -245,12 +250,12 @@ public class Pokemon {
                     }
                     if (Pokemon.isAnAdditionalForm(pokemon)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
-                        if (resultName.isPresent()) {
-                            result.setPreEvolution(resultName.get() + " form=" + pokemon.getAdditionalAspect().getName().toLowerCase());
-                        }
+                        resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().getName().toLowerCase()));
                     } else {
                         result.setPreEvolution(pokemon.getCleanName());
                     }
+                } else {
+                    ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
                 }
             }
             var evaluatedForms = new ArrayList<>();
@@ -347,7 +352,7 @@ public class Pokemon {
         }
     }
 
-    private static void addAdditionalItemDrop(String from, String evolutionItem, Pokemon result) {
+    protected static void addAdditionalItemDrop(String from, String evolutionItem, Pokemon result) {
         if (evolutionItem.contains("gravelmon")) {
             if (!EVOLUTION_ITEMS.contains(evolutionItem)) {
                 EVOLUTION_ITEMS.add(evolutionItem);
@@ -358,8 +363,14 @@ public class Pokemon {
         }
 
         ADDITIONAL_DROPS.get(from).add(new ItemDrop(evolutionItem, 10, 1, 1));
-        result.setDropAmount(1);
-        result.getDrops().add(new ItemDrop(evolutionItem, 40, 1, 1));
+        if(result != null){
+            result.setDropAmount(1);
+            result.getDrops().add(new ItemDrop(evolutionItem, 40, 1, 1));
+        }
+    }
+
+    protected static void addAdditionalPreEvolution(String from, String result) {
+        ADDITIONAL_PRE_EVOLUTIONS.put(result, from);
     }
 
     public static List<String> EVOLUTION_ITEMS = new ArrayList<>();
@@ -376,7 +387,7 @@ public class Pokemon {
         }
     }
 
-    private static void addItemAsDrop(Pokemon from, String evolutionEntry, Pokemon result) {
+    protected static void addItemAsDrop(Pokemon from, String evolutionEntry, Pokemon result) {
         if (evolutionEntry.contains("gravelmon")) {
             if (!EVOLUTION_ITEMS.contains(evolutionEntry)) {
                 EVOLUTION_ITEMS.add(evolutionEntry);

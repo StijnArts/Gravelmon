@@ -121,5 +121,7 @@ public class Jawile extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("mawile");
+        addAdditionalEvolution("mawile", new EvolutionEntry("jawile", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"))));
     }
 }

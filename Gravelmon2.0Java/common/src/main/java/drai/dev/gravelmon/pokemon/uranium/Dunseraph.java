@@ -3,6 +3,8 @@ package drai.dev.gravelmon.pokemon.uranium;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
 import java.util.*;
 
 import java.util.*;
@@ -133,5 +135,8 @@ public class Dunseraph extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0, 1.8, 0);
+        addAdditionalEvolution("dunsparce", new EvolutionEntry("dunseraph", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SKY_DROP.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("dunsparce", new MoveLearnSetEntry(Move.SKY_DROP, 65));
     }
 }

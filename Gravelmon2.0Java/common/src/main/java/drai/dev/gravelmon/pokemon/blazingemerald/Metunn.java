@@ -37,5 +37,7 @@ public class Metunn extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("unown");
         this.setCanFly(true);
+        addAdditionalEvolution("unown", new EvolutionEntry("metunn", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:ancient_glyph"));
     }
 }

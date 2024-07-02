@@ -71,5 +71,7 @@ public class Sphericoil extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("electrode");
+        addAdditionalEvolution("electrode", new EvolutionEntry("sphericoil", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:thunder_stone"));
     }
 }

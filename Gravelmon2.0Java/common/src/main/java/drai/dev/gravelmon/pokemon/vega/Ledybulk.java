@@ -116,5 +116,7 @@ public class Ledybulk extends Pokemon {
                 List.of());
         setCanFly(true);
         setPreEvolution("ledian");
+        addAdditionalEvolution("ledian", new EvolutionEntry("ledybulk", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"))));
     }
 }

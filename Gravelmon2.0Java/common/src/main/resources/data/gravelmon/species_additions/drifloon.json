@@ -1,5 +1,19 @@
 {
    "target": "cobblemon:drifloon",
+  "evolutions": [
+    {
+      "id": "drifloon_drifblim_amazeall",
+      "variant": "item_interact",
+      "result": "drifblim amazeall",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:amaze_drive",
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Delta",
   "primaryType": "fire",

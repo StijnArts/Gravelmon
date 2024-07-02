@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:pinsir",
+  "evolutions": [
+    {
+      "id": "pinsir_pinchor",
+      "variant": "level_up",
+      "result": "pinchor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Hizian",
   "primaryType": "steel",

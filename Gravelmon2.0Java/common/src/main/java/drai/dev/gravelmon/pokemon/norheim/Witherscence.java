@@ -84,6 +84,8 @@ public class Witherscence extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Witherscence");
+        addAdditionalEvolution("eldegoss", new EvolutionEntry("witherscence", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_AUTUMN.getId() + ":" + Biome.IS_AUTUMN.getName() +"\""))));
 
     }
 

@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:ralts",
+  "evolutions": [
+    {
+      "id": "ralts_kirgicia",
+      "variant": "level_up",
+      "result": "kirgicia",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Fligian",
   "primaryType": "fairy",

@@ -59,5 +59,7 @@ public class Mienflux extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        addAdditionalEvolution("mienfoo", new EvolutionEntry("mienflux", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.THUNDER_PUNCH, "")),
+                List.of(),List.of(),"cobblemon:thunder_stone"));
     }
 }

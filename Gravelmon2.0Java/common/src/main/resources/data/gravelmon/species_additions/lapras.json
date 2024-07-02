@@ -1,5 +1,6 @@
 {
    "target": "cobblemon:lapras",
+  "preEvolution": "pressie",
    "forms": [{
   "name": "Novran",
   "primaryType": "dragon",
