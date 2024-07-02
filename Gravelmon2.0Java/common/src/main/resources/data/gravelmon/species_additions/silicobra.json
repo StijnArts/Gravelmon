@@ -72,7 +72,7 @@
   ],
   "evolutions": [
     {
-      "id": "hiziansilicobra_sandaconda",
+      "id": "silicobra_sandaconda_hizian",
       "variant": "level_up",
       "result": "sandaconda hizian",
       "consumeHeldItem": false,

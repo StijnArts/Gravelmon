@@ -75,7 +75,7 @@
   ],
   "evolutions": [
     {
-      "id": "mysticpoochyena_mightyena",
+      "id": "poochyena_mightyena_mystic",
       "variant": "level_up",
       "result": "mightyena mystic",
       "consumeHeldItem": false,

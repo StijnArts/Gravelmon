@@ -78,7 +78,7 @@
     "tm:nightshade",
     "tm:endure",
     "tm:sunnyday",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:rest",
     "tm:taunt",
     "tm:imprison",
@@ -111,7 +111,7 @@
   ],
   "evolutions": [
     {
-      "id": "havaiiangastly_haunter",
+      "id": "gastly_haunter_havaiian",
       "variant": "level_up",
       "result": "haunter havaiian",
       "consumeHeldItem": false,
@@ -123,7 +123,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   
@@ -222,7 +222,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:fling",
     "tm:embargo",
     "tm:payback",
@@ -232,7 +232,7 @@
     "tutor:dragonpulse",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:snoresound"  ],
+    "tutor:snore"  ],
   "labels": [
     "xenoverse",
     "gen1"
@@ -242,7 +242,7 @@
   ],
   "evolutions": [
     {
-      "id": "gastlyx_haunter",
+      "id": "gastly_haunter_x",
       "variant": "level_up",
       "result": "haunter x",
       "consumeHeldItem": false,
@@ -372,17 +372,17 @@
     "tutor:raindance",
     "tutor:rest",
     "tutor:return",
-    "tutor:roundsound",
+    "tutor:round",
     "tutor:scaryface",
     "tutor:selfdestruct",
     "tutor:shadowball",
     "tutor:skillswap",
     "tutor:skittersmack",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:sludgebomb",
     "tutor:sludgewave",
     "tutor:snatch",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite",
     "tutor:substitute",
     "tutor:sunnyday",
@@ -401,7 +401,7 @@
     "tutor:venoshock",
     "tutor:willowisp",
     "tutor:wonderroom",
-    "egg:perishsongsound",
+    "egg:perishsong",
     "egg:haze",
     "egg:astonish",
     "egg:grudge",
@@ -420,7 +420,7 @@
   ],
   "evolutions": [
     {
-      "id": "ayreiangastly_haunter",
+      "id": "gastly_haunter_ayreian",
       "variant": "level_up",
       "result": "haunter ayreian",
       "consumeHeldItem": false,
@@ -520,7 +520,7 @@
     "egg:clearsmog",
     "egg:disable",
     "egg:haze",
-    "egg:perishsongsound",
+    "egg:perishsong",
     "egg:reflecttype",
     "egg:smog",
     "egg:toxic",
@@ -541,7 +541,7 @@
     "tm:firepunch",
     "tm:thunderpunch",
     "tm:icepunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:dazzlinggleam",
     "tm:liquidation",
     "tm:rest",
@@ -573,7 +573,7 @@
   ],
   "evolutions": [
     {
-      "id": "kaskadiangastly_haunter",
+      "id": "gastly_haunter_kaskadian",
       "variant": "level_up",
       "result": "haunter kaskadian",
       "consumeHeldItem": false,

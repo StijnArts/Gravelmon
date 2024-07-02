@@ -65,7 +65,7 @@
     "tm:grassyglide",
     "tm:earthpower",
     "tm:scorchingsands",
-    "tm:snoresound",
+    "tm:snore",
     "tm:embargo",
     "tm:taunt",
     "tm:thief",
@@ -88,7 +88,7 @@
     "tm:cut",
     "tm:doubleteam",
     "tm:doubleedge",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:facade",
     "tm:falseswipe",
     "tm:frustration",
@@ -97,8 +97,8 @@
     "tm:protect",
     "tm:psychup",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:sludgebomb",
@@ -121,7 +121,7 @@
   ],
   "evolutions": [
     {
-      "id": "nostandiglett_dugtrio",
+      "id": "diglett_dugtrio_nostan",
       "variant": "level_up",
       "result": "dugtrio nostan",
       "consumeHeldItem": false,
@@ -225,7 +225,7 @@
   ],
   "evolutions": [
     {
-      "id": "norheimandiglett_dugtrio",
+      "id": "diglett_dugtrio_norheiman",
       "variant": "level_up",
       "result": "dugtrio norheiman",
       "consumeHeldItem": false,
@@ -237,7 +237,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   
@@ -347,13 +347,13 @@
     "tm:shadowclaw",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:frostbreath",
     "tm:achillesheel",
     "tm:avalanche",
     "tm:allyswitch",
-    "tm:echoedvoicesound",
-    "tm:roundsound",
+    "tm:echoedvoice",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -372,13 +372,13 @@
     "tutor:furycutter",
     "tutor:headbutt",
     "tutor:helpinghand",
-    "tutor:hypervoicesound",
+    "tutor:hypervoice",
     "tutor:icywind",
     "tutor:knockoff",
     "tutor:lastresort",
     "tutor:mimic",
     "tutor:mudslap",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:suckerpunch",
     "tutor:superfang",
     "tutor:uproar"  ],
@@ -391,7 +391,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltadiglett_dugtrio",
+      "id": "diglett_dugtrio_delta",
       "variant": "level_up",
       "result": "dugtrio delta",
       "consumeHeldItem": false,
@@ -499,7 +499,7 @@
     "tutor:doubleteam",
     "tutor:earthpower",
     "tutor:earthquake",
-    "tutor:echoedvoicesound",
+    "tutor:echoedvoice",
     "tutor:endure",
     "tutor:facade",
     "tutor:frustration",
@@ -511,14 +511,14 @@
     "tutor:rockslide",
     "tutor:rocksmash",
     "tutor:rocktomb",
-    "tutor:roundsound",
+    "tutor:round",
     "tutor:sandstorm",
     "tutor:scorchingsands",
-    "tutor:screechsound",
+    "tutor:screech",
     "tutor:shadowclaw",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:sludgebomb",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock",
     "tutor:stompingtantrum",
     "tutor:substitute",
@@ -543,7 +543,7 @@
   ],
   "evolutions": [
     {
-      "id": "ayreiandiglett_dugtrio",
+      "id": "diglett_dugtrio_ayreian",
       "variant": "level_up",
       "result": "dugtrio ayreian",
       "consumeHeldItem": false,
@@ -649,7 +649,7 @@
     "egg:mudbomb",
     "egg:pursuit",
     "egg:reversal",
-    "egg:screechsound",
+    "egg:screech",
     "egg:uproar"  ],
   "labels": [
     "gen1",
@@ -661,7 +661,7 @@
   ],
   "evolutions": [
     {
-      "id": "cefirandiglett_dugtrio",
+      "id": "diglett_dugtrio_cefiran",
       "variant": "level_up",
       "result": "dugtrio cefiran",
       "consumeHeldItem": false,

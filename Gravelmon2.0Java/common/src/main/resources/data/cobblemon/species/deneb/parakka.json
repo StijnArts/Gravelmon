@@ -61,7 +61,7 @@
     "39:airslash",
     "43:nightmare",
     "45:nastyplot",
-    "50:wormholecosmic",
+    "50:wormhole",
     "tutor:snarl",
     "tutor:teeterdance",
     "tutor:poisonfang",
@@ -94,7 +94,7 @@
   ],
   "evolutions": [
     {
-      "id": "parakka_Dannpyre",
+      "id": "parakka_dannpyre",
       "variant": "level_up",
       "result": "Dannpyre",
       "consumeHeldItem": false,

@@ -49,7 +49,7 @@
   ],
   "moves": [
     "1:rest",
-    "1:snoresound",
+    "1:snore",
     "1:pound",
     "1:disable",
     "tm:thunderwave",
@@ -69,12 +69,12 @@
     "tm:protect",
     "tm:psychup",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:safeguard",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:toxic",
     "tm:calmmind",
     "tm:dreameater",
@@ -107,7 +107,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   
@@ -125,7 +125,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

@@ -64,7 +64,7 @@
   ],
   "evolutions": [
     {
-      "id": "thoriller_Thormite",
+      "id": "thoriller_thormite",
       "variant": "level_up",
       "result": "Thormite",
       "consumeHeldItem": false,

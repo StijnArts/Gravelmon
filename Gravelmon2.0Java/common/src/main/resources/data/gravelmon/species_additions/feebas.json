@@ -72,11 +72,11 @@
     "tm:swagger",
     "tm:substitute",
     "tm:dracojet",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:frostbreath",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:quash",
@@ -90,7 +90,7 @@
     "tutor:mimic",
     "tutor:ominouswind",
     "tutor:painsplit",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite"  ],
   "labels": [
     "gen3",
@@ -102,7 +102,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltafeebas_milotic",
+      "id": "feebas_milotic_delta",
       "variant": "level_up",
       "result": "milotic delta",
       "consumeHeldItem": true,
@@ -202,7 +202,7 @@
     "tm:return",
     "tm:sandstorm",
     "tm:scald",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:snowscape",
     "tm:substitute",
     "tm:surf",
@@ -229,7 +229,7 @@
   ],
   "evolutions": [
     {
-      "id": "seviianfeebas_milotic",
+      "id": "feebas_milotic_seviian",
       "variant": "level_up",
       "result": "milotic seviian",
       "consumeHeldItem": true,

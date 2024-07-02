@@ -84,9 +84,9 @@
     "tm:retaliate",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -110,7 +110,7 @@
     "tutor:mimic",
     "tutor:roleplay",
     "tutor:seismictoss",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:waterpulse",
     "tutor:whirlpool"  ],
   "labels": [
@@ -123,7 +123,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltamagby_magmar",
+      "id": "magby_magmar_delta",
       "variant": "level_up",
       "result": "magmar delta",
       "consumeHeldItem": false,

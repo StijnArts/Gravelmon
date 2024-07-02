@@ -70,7 +70,7 @@
   ],
   "evolutions": [
     {
-      "id": "bulpy_Filthound",
+      "id": "bulpy_filthound",
       "variant": "level_up",
       "result": "Filthound",
       "consumeHeldItem": false,

@@ -98,7 +98,7 @@
     "egg:sludge",
     "egg:spark",
     "egg:sunnyday",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:takedown",
     "egg:toxic"  ],
   "labels": [

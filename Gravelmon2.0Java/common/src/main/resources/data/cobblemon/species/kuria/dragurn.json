@@ -74,7 +74,7 @@
   ],
   "evolutions": [
     {
-      "id": "dragurn_Drajinn",
+      "id": "dragurn_drajinn",
       "variant": "level_up",
       "result": "Drajinn",
       "consumeHeldItem": false,

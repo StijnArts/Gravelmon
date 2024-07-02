@@ -43,6 +43,8 @@ public class Beagasso extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Beagasso");
+        addAdditionalEvolution("smeargle", new EvolutionEntry("beagasso", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39"))));
 
     }
 

@@ -52,14 +52,14 @@
     "9:focusenergy",
     "13:smackdown",
     "16:uproar",
-    "19:screechsound",
+    "19:screech",
     "21:pursuit",
     "25:takedown",
     "29:stealthrock",
     "34:rockslide",
     "39:quickguard",
     "43:retaliate",
-    "48:hypervoicesound",
+    "48:hypervoice",
     "54:stoneedge"  ],
   "labels": [
     "norheim",
@@ -70,7 +70,7 @@
   ],
   "evolutions": [
     {
-      "id": "eolid_Eosoli",
+      "id": "eolid_eosoli",
       "variant": "level_up",
       "result": "Eosoli",
       "consumeHeldItem": false,

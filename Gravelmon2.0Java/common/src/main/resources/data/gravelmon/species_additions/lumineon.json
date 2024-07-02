@@ -1,5 +1,29 @@
 {
    "target": "cobblemon:lumineon",
+  "evolutions": [
+    {
+      "id": "lumineon_tetoraito",
+      "variant": "item_interact",
+      "result": "tetoraito",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:water_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
    "forms": [{
   "name": "Lagoonan",
   "primaryType": "ghost",
@@ -49,11 +73,11 @@
   "moves": [
     "1:tackle",
     "1:growl",
-    "1:singsound",
+    "1:sing",
     "5:gust",
     "9:shadowsneak",
     "14:whirlwind",
-    "19:gravitywavecosmic",
+    "19:gravitywave",
     "23:razorwind",
     "27:safeguard",
     "32:ominouswind",
@@ -75,7 +99,7 @@
   "preEvolution": "finneon form=lagoonan",
   "evolutions": [
     {
-      "id": "lagoonanlumineon_gloomineon",
+      "id": "lumineon_gloomineon",
       "variant": "level_up",
       "result": "gloomineon",
       "consumeHeldItem": false,

@@ -61,7 +61,7 @@
   ],
   "evolutions": [
     {
-      "id": "lemini_Gnimmel",
+      "id": "lemini_gnimmel",
       "variant": "level_up",
       "result": "Gnimmel",
       "consumeHeldItem": false,

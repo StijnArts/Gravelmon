@@ -85,8 +85,8 @@
     "tm:facade",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:shadowclaw",
     "tm:payback",
@@ -110,9 +110,9 @@
     "tutor:knockoff",
     "tutor:roleplay",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:snatch",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:trick",
     "tutor:uproar"  ],
   "labels": [
@@ -125,7 +125,7 @@
   ],
   "evolutions": [
     {
-      "id": "eldiwanmeowth_persage",
+      "id": "meowth_persage",
       "variant": "level_up",
       "result": "persage",
       "consumeHeldItem": false,
@@ -247,7 +247,7 @@
   ],
   "evolutions": [
     {
-      "id": "cefiranmeowthfire_persian",
+      "id": "meowth_persian_cefiranfire",
       "variant": "level_up",
       "result": "persian cefiranfire",
       "consumeHeldItem": false,
@@ -369,7 +369,7 @@
   ],
   "evolutions": [
     {
-      "id": "cefiranmeowthice_persian",
+      "id": "meowth_persian_cefiranice",
       "variant": "level_up",
       "result": "persian cefiranice",
       "consumeHeldItem": false,
@@ -491,7 +491,7 @@
   ],
   "evolutions": [
     {
-      "id": "cefiranmeowthelectric_persian",
+      "id": "meowth_persian_cefiranelectric",
       "variant": "level_up",
       "result": "persian cefiranelectric",
       "consumeHeldItem": false,

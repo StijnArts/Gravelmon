@@ -1,5 +1,19 @@
 {
    "target": "cobblemon:rattata",
+  "evolutions": [
+    {
+      "id": "rattata_raticate_kaskadian",
+      "variant": "item_interact",
+      "result": "raticate kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:ice_stone",
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Norheiman",
   "primaryType": "normal",
@@ -83,7 +97,7 @@
     "tm:raindance",
     "tm:uturn",
     "tm:bodyslam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:dragonclaw",
     "tm:rest",
     "tm:taunt",
@@ -91,7 +105,7 @@
     "tm:substitute",
     "tm:crunch",
     "tm:dragonpulse",
-    "tm:hypervoicesound",
+    "tm:hypervoice",
     "tm:icespinner",
     "tm:thunderbolt",
     "tm:wildcharge",
@@ -110,7 +124,7 @@
   ],
   "evolutions": [
     {
-      "id": "norheimanrattata_rowdent",
+      "id": "rattata_rowdent",
       "variant": "level_up",
       "result": "rowdent",
       "consumeHeldItem": false,

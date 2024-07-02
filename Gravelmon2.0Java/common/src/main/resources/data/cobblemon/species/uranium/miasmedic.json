@@ -47,6 +47,16 @@
   "eggGroups": [
     "fairy"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:aromatic_herb",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:aromaticmist",
     "1:healpulse",
@@ -54,7 +64,7 @@
     "1:fairywind",
     "6:sweetkiss",
     "8:odorsleuth",
-    "13:echoedvoicesound",
+    "13:echoedvoice",
     "17:calmmind",
     "21:drainingkiss",
     "25:aromatherapy",
@@ -83,7 +93,7 @@
     "tm:frustration",
     "tm:gunkshot",
     "tm:gyroball",
-    "tm:healbellsound",
+    "tm:healbell",
     "tm:helpinghand",
     "tm:hiddenpower",
     "tm:infestation",
@@ -100,8 +110,8 @@
     "tm:return",
     "tm:secretpower",
     "tm:skillswap",
-    "tm:sleeptalksound",
-    "tm:snoresound",
+    "tm:sleeptalk",
+    "tm:snore",
     "tm:substitute",
     "tm:sunnyday",
     "tm:swagger",

@@ -113,5 +113,7 @@ public class Pachirikku extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("pachirisu");
+        addAdditionalEvolution("pachirisu", new EvolutionEntry("pachirikku", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"))));
     }
 }

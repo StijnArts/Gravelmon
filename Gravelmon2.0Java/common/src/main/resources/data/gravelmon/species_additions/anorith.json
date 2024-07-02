@@ -76,7 +76,7 @@
     "tm:dragontail",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound"  ],
+    "tm:sleeptalk"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -86,7 +86,7 @@
   ],
   "evolutions": [
     {
-      "id": "hiziananorith_armaldo",
+      "id": "anorith_armaldo_hizian",
       "variant": "level_up",
       "result": "armaldo hizian",
       "consumeHeldItem": false,

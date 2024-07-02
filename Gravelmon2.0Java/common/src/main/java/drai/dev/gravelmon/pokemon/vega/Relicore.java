@@ -114,5 +114,7 @@ public class Relicore extends Pokemon {
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
+        addAdditionalEvolution("relicanth", new EvolutionEntry("relicore", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48"))));
     }
 }

@@ -1,5 +1,29 @@
 {
    "target": "cobblemon:sunflora",
+  "evolutions": [
+    {
+      "id": "sunflora_sunflorid",
+      "variant": "item_interact",
+      "result": "sunflorid",
+      "consumeHeldItem": false,
+      "learnableMoves": [    "incinerate"],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:fire_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
    "forms": [{
   "name": "Delta",
   "primaryType": "fire",
@@ -163,12 +187,12 @@
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:incinerate",
-    "tm:echoedvoicesound",
-    "tm:roundsound",
+    "tm:echoedvoice",
+    "tm:round",
     "tm:captivate",
     "tm:snarl",
     "tm:corrode",
@@ -186,7 +210,7 @@
     "tutor:gigadrain",
     "tutor:gunkshot",
     "tutor:heatwave",
-    "tutor:hypervoicesound",
+    "tutor:hypervoice",
     "tutor:knockoff",
     "tutor:mimic",
     "tutor:morningsun",
@@ -195,7 +219,7 @@
     "tutor:painsplit",
     "tutor:seedbomb",
     "tutor:signalbeam",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite"  ],
   "labels": [
     "gen2",

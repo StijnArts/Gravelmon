@@ -47,23 +47,33 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:megadrain",
     "1:strugglebug",
     "5:supersonic",
-    "8:echoedvoicesound",
+    "8:echoedvoice",
     "12:paraboliccharge",
     "16:torment",
     "19:electroweb",
-    "23:roundsound",
+    "23:round",
     "27:gigadrain",
     "30:quash",
     "34:lunge",
     "38:overdrive",
     "41:leechlife",
     "45:superfang",
-    "49:screechsound",
-    "52:bugbuzzsound",
+    "49:screech",
+    "52:bugbuzz",
     "56:strengthsap"  ],
   "labels": [
     "norheim",

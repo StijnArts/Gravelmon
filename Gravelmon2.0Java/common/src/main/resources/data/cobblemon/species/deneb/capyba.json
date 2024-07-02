@@ -91,7 +91,7 @@
   ],
   "evolutions": [
     {
-      "id": "capyba_Capiland",
+      "id": "capyba_capiland",
       "variant": "level_up",
       "result": "Capiland",
       "consumeHeldItem": false,

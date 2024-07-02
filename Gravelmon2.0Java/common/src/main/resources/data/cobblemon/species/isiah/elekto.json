@@ -55,9 +55,9 @@
     "25:endure",
     "31:ancientpower",
     "37:takedown",
-    "43:roarsound",
-    "49:powergemcrystal",
-    "55:screechsound",
+    "43:roar",
+    "49:powergem",
+    "55:screech",
     "61:doubleedge"  ],
   "labels": [
     "isiah",

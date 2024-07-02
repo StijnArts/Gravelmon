@@ -55,7 +55,7 @@
     "19:incinerate",
     "23:takedown",
     "28:firefang",
-    "35:roarsound",
+    "35:roar",
     "39:refresh",
     "44:heatcrash",
     "50:playrough",
@@ -65,7 +65,7 @@
     "tm:burnup",
     "tm:workup",
     "tm:helpinghand",
-    "tm:snoresound",
+    "tm:snore",
     "tm:belch",
     "tm:amnesia"  ],
   "labels": [

@@ -55,8 +55,8 @@
     "18:revenge",
     "21:magiccoat",
     "26:headbutt",
-    "29:powergemcrystal",
-    "33:snoresound",
+    "29:powergem",
+    "33:snore",
     "38:bodypress",
     "40:payback",
     "44:closecombat",
@@ -72,7 +72,7 @@
   ],
   "evolutions": [
     {
-      "id": "qamoranspoink_grumpig",
+      "id": "spoink_grumpig_qamoran",
       "variant": "level_up",
       "result": "grumpig qamoran",
       "consumeHeldItem": false,

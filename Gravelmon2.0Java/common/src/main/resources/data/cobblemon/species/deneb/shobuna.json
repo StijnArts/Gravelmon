@@ -105,7 +105,7 @@
   ],
   "evolutions": [
     {
-      "id": "shobuna_Zebatoru",
+      "id": "shobuna_zebatoru",
       "variant": "level_up",
       "result": "Zebatoru",
       "consumeHeldItem": false,

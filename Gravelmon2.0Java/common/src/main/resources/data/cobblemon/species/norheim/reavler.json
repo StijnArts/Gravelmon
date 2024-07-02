@@ -47,6 +47,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:razorwind",
     "1:leer",
@@ -59,7 +69,7 @@
     "36:honeclaws",
     "42:beatup",
     "48:agility",
-    "54:screechsound",
+    "54:screech",
     "60:slash",
     "egg:bite",
     "egg:counter",
@@ -82,7 +92,7 @@
     "tm:aerialace",
     "tm:snarl",
     "tm:metalclaw",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:icywind",
     "tm:lowsweep",
     "tm:fling",
@@ -97,7 +107,7 @@
     "tm:shadowclaw",
     "tm:foulplay",
     "tm:icepunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:poisonjab",
     "tm:rest",
     "tm:taunt",

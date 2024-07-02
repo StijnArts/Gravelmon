@@ -110,5 +110,7 @@ public class Pinchor extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("pinsir");
+        addAdditionalEvolution("pinsir", new EvolutionEntry("pinchor", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"))));
     }
 }

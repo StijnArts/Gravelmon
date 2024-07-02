@@ -99,5 +99,7 @@ public class TyranitarX extends Pokemon {
                 List.of());
         this.setLangFileName("Tyranitar");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("tyranitar", new EvolutionEntry("tyranitar x", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:inductive_ring"));
     }
 }

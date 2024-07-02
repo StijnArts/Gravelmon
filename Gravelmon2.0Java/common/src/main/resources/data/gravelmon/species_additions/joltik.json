@@ -60,8 +60,8 @@
     "28:suckerpunch",
     "32:slash",
     "37:freezedry",
-    "40:screechsound",
-    "44:bugbuzzsound",
+    "40:screech",
+    "44:bugbuzz",
     "48:blizzard",
     "tm:toxic",
     "tm:hail",
@@ -78,7 +78,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:frostbreath",
     "tm:xscissor",
     "tm:infestation",
@@ -89,7 +89,7 @@
     "tutor:icywind",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:strugglebug"  ],
   "labels": [
     "xenoverse",
@@ -100,7 +100,7 @@
   ],
   "evolutions": [
     {
-      "id": "joltikx_galvantula",
+      "id": "joltik_galvantula_x",
       "variant": "level_up",
       "result": "galvantula x",
       "consumeHeldItem": false,

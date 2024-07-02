@@ -70,7 +70,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
     "tm:swagger",
     "tm:flashcannon",
@@ -82,7 +82,7 @@
     "egg:curse",
     "egg:revenge",
     "egg:slackoff",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:spitup",
     "egg:stockpile",
     "egg:strangesteam",
@@ -110,7 +110,7 @@
   ],
   "evolutions": [
     {
-      "id": "armiranhippopotas_hippowdon",
+      "id": "hippopotas_hippowdon_armiran",
       "variant": "level_up",
       "result": "hippowdon armiran",
       "consumeHeldItem": false,

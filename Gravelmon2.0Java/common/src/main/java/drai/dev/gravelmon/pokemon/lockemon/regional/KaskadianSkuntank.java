@@ -93,5 +93,8 @@ public class KaskadianSkuntank extends Pokemon {
                 List.of());
         this.setLangFileName("Skuntank");
         this.setPortraitXYZ(0,1.8,0);
+        addAdditionalEvolution("Skuntank", new EvolutionEntry("skuntank kaskadian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\""))));
     }
 }

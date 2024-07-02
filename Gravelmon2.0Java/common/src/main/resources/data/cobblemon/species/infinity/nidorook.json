@@ -49,6 +49,21 @@
     "field",
     "monster"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:barbedtackle",
     "1:leer",
@@ -69,7 +84,7 @@
     "58:earthquake",
     "62:megahorn",
     "tm:dragonclaw",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -100,8 +115,8 @@
     "tm:rest",
     "tm:thief",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:fling",
     "tm:quash",

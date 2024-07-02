@@ -52,6 +52,8 @@ public class Panditsy extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Panditsy");
+        addAdditionalEvolution("spinda", new EvolutionEntry("panditsy", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:moon_stone"));
 
     }
 

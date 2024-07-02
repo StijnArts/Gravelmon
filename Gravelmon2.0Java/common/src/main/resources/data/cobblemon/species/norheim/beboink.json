@@ -59,9 +59,9 @@
     "34:encore",
     "38:gigadrain",
     "44:sunnyday",
-    "46:hypervoicesound",
+    "46:hypervoice",
     "50:synthesis",
-    "58:boomburstsound"  ],
+    "58:boomburst"  ],
   "labels": [
     "norheim",
     "not_modeled"
@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "beboink_Yoikid",
+      "id": "beboink_yoikid",
       "variant": "level_up",
       "result": "Yoikid",
       "consumeHeldItem": false,
@@ -83,7 +83,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

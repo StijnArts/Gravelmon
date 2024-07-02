@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:ralts",
+  "evolutions": [
+    {
+      "id": "ralts_kirgicia",
+      "variant": "level_up",
+      "result": "kirgicia",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Fligian",
   "primaryType": "fairy",
@@ -53,7 +69,7 @@
     "4:confusion",
     "6:doubleteam",
     "9:teleport",
-    "11:disarmingvoicesound",
+    "11:disarmingvoice",
     "14:luckychant",
     "17:magicalleaf",
     "19:healpulse",
@@ -69,7 +85,7 @@
     "tm:firepunch",
     "tm:icepunch",
     "tm:thunderpunch",
-    "tm:snoresound",
+    "tm:snore",
     "tm:icywind",
     "tm:painsplit",
     "tm:helpinghand",
@@ -78,7 +94,7 @@
     "tm:recycle",
     "tm:skillswap",
     "tm:snatch",
-    "tm:hypervoicesound",
+    "tm:hypervoice",
     "tm:signalbeam",
     "tm:shockwave",
     "tm:zenheadbutt",
@@ -100,7 +116,7 @@
     "tm:protect",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:safeguard",
@@ -119,8 +135,8 @@
     "tm:grassknot",
     "tm:chargebeam",
     "tm:psyshock",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:confide",
     "tm:dazzlinggleam",
     "tm:mistyterrain",
@@ -143,7 +159,7 @@
   ],
   "evolutions": [
     {
-      "id": "fligianralts_kirlia",
+      "id": "ralts_kirlia_fligian",
       "variant": "level_up",
       "result": "kirlia fligian",
       "consumeHeldItem": false,
@@ -269,12 +285,12 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:frostbreath",
     "tm:achillesheel",
     "tm:avalanche",
-    "tm:echoedvoicesound",
-    "tm:roundsound",
+    "tm:echoedvoice",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -289,7 +305,7 @@
     "tutor:magnetrise",
     "tutor:mimic",
     "tutor:roleplay",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:thunderpunch",
     "tutor:trick",
     "tutor:uproar",
@@ -303,7 +319,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltaralts_kirlia",
+      "id": "ralts_kirlia_delta",
       "variant": "level_up",
       "result": "kirlia delta",
       "consumeHeldItem": false,

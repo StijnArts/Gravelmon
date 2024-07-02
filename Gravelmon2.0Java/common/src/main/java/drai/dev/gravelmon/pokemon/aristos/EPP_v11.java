@@ -48,6 +48,9 @@ public class EPP_v11 extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("EPP_v1.1");
+        addAdditionalEvolution("porygon", new EvolutionEntry("EPP_v11", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.WEATHER,"true"))));
 
     }
 

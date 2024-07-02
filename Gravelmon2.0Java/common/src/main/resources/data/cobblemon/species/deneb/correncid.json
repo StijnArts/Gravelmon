@@ -114,10 +114,10 @@
     "egg:shadowpunch",
     "egg:shadowsneak",
     "egg:skullbash",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:smokescreen",
     "egg:snatch",
-    "egg:snoresound",
+    "egg:snore",
     "egg:waterpulse"  ],
   "labels": [
     "deneb",

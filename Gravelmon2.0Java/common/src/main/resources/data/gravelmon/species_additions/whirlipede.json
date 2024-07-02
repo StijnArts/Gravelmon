@@ -95,10 +95,10 @@
     "tm:swagger",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
     "tm:incinerate",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:spikes",
@@ -120,7 +120,7 @@
     "tutor:rollout",
     "tutor:seismictoss",
     "tutor:selfdestruct",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock"  ],
   "labels": [
     "gen5",
@@ -134,7 +134,7 @@
   "preEvolution": "venipede form=delta",
   "evolutions": [
     {
-      "id": "deltawhirlipede_scolipede",
+      "id": "whirlipede_scolipede_delta",
       "variant": "level_up",
       "result": "scolipede delta",
       "consumeHeldItem": false,

@@ -50,7 +50,7 @@
   "moves": [
     "1:babydolleyes",
     "6:charm",
-    "9:disarmingvoicesound",
+    "9:disarmingvoice",
     "12:furyswipes",
     "15:assist",
     "19:fakeout",
@@ -68,8 +68,8 @@
     "tm:frustration",
     "tm:hiddenpower",
     "tm:return",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:uturn",
     "tm:energyball",
@@ -94,7 +94,7 @@
     "tm:protect",
     "tm:reflect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:taunt",
@@ -134,7 +134,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

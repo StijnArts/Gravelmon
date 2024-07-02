@@ -60,7 +60,7 @@
     "29:knockoff",
     "32:feintattack",
     "39:rockslide",
-    "43:powergemcrystal",
+    "43:powergem",
     "46:confuseray",
     "53:nightslash",
     "57:earthquake",
@@ -86,7 +86,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

@@ -55,6 +55,8 @@ public class NorheimanMismagius extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mismagius");
+        addAdditionalEvolution("misdreavus", new EvolutionEntry("mismagius norheiman", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:dawn_stone"));
 
     }
 

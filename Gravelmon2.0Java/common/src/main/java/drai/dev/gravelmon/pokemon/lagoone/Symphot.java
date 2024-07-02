@@ -100,6 +100,8 @@ public class Symphot extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of());
         setCanFly(true);
            setLangFileName("Symphot");
+        addAdditionalEvolution("chatot", new EvolutionEntry("symphot", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"))));
 
     }
 

@@ -24,7 +24,7 @@ public class Morbod extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Its glowing eyes and aloof personality startle many that stumble upon it, allowing it to avoid capture. Cryptozoologists suspect that Morbod play a significant part in local folktales, with their eerie cries resembling crying babies."),
                 List.of(new EvolutionEntry("bodmeast", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))
                 ),
                 List.of(      new MoveLearnSetEntry(Move.FAKE_OUT,1),
                         new MoveLearnSetEntry(Move.GROWL,1),

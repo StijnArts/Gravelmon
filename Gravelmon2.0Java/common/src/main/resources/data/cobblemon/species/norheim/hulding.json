@@ -61,7 +61,7 @@
     "20:drainingkiss",
     "23:sweetscent",
     "28:calmmind",
-    "32:disarmingvoicesound",
+    "32:disarmingvoice",
     "39:psychic",
     "45:moonlight",
     "50:moonblast",
@@ -78,7 +78,7 @@
   "preEvolution": "uldidi",
   "evolutions": [
     {
-      "id": "hulding_Huldamer",
+      "id": "hulding_huldamer",
       "variant": "level_up",
       "result": "Huldamer",
       "consumeHeldItem": false,

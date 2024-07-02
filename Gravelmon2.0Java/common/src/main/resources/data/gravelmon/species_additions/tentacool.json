@@ -94,9 +94,9 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:corrode",
     "tm:quash",
@@ -118,7 +118,7 @@
     "tutor:mimic",
     "tutor:painsplit",
     "tutor:seedbomb",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite",
     "tutor:synthesis",
     "tutor:whirlpool",
@@ -133,7 +133,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltatentacool_tentacruel",
+      "id": "tentacool_tentacruel_delta",
       "variant": "level_up",
       "result": "tentacruel delta",
       "consumeHeldItem": false,
@@ -263,7 +263,7 @@
   ],
   "evolutions": [
     {
-      "id": "hoenniantentacool_tentacruel",
+      "id": "tentacool_tentacruel_hoennian",
       "variant": "level_up",
       "result": "tentacruel hoennian",
       "consumeHeldItem": false,
@@ -377,12 +377,12 @@
     "tm:reflect",
     "tm:sludgebomb",
     "tm:rest",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:scald",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:trickroom",
     "tm:snarl",
@@ -398,7 +398,7 @@
   ],
   "evolutions": [
     {
-      "id": "relictentacool_tentacruel",
+      "id": "tentacool_tentacruel_relic",
       "variant": "level_up",
       "result": "tentacruel relic",
       "consumeHeldItem": false,

@@ -118,5 +118,8 @@ public class ArmiranSceptile extends Pokemon {
         this.setLangFileName("Sceptile");
         this.setPortraitXYZ(0,1.8,0);
         setPreEvolution("Grovyle");
+        addAdditionalEvolution("grovyle", new EvolutionEntry("sceptile armiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SWAMP.getId() + ":" + Biome.IS_SWAMP.getName() +"\""))));
     }
 }

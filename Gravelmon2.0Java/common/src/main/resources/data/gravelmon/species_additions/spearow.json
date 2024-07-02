@@ -81,8 +81,8 @@
     "tm:rest",
     "tm:thief",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:falseswipe",
     "tm:quash",
     "tm:embargo",
@@ -123,7 +123,7 @@
   ],
   "evolutions": [
     {
-      "id": "eghospearow_fearow",
+      "id": "spearow_fearow_egho",
       "variant": "level_up",
       "result": "fearow egho",
       "consumeHeldItem": false,

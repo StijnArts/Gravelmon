@@ -53,12 +53,12 @@
     "24:signalbeam",
     "34:barrier",
     "38:dragontail",
-    "42:gravitycosmic",
+    "42:gravity",
     "48:dragonpulse",
-    "55:cosmicpowercosmic",
+    "55:cosmicpower",
     "62:psyshock",
     "68:icebeam",
-    "tm:powergemcrystal",
+    "tm:powergem",
     "tm:miracleeye",
     "tm:iceshard",
     "tm:coil"  ],
@@ -83,7 +83,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

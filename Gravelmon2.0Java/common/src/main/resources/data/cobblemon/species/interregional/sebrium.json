@@ -50,8 +50,8 @@
   "moves": [
     "1:charm",
     "5:doubleteam",
-    "10:disarmingvoicesound",
-    "15:singsound",
+    "10:disarmingvoice",
+    "15:sing",
     "20:brutalswing",
     "25:drainingkiss",
     "30:knockoff",
@@ -59,7 +59,7 @@
     "40:playrough",
     "45:nightdaze",
     "50:partingshot",
-    "60:hypervoicesound"  ],
+    "60:hypervoice"  ],
   "labels": [
     "interregional",
     "not_modeled"

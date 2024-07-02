@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:smeargle",
+  "evolutions": [
+    {
+      "id": "smeargle_beagasso",
+      "variant": "level_up",
+      "result": "beagasso",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 39
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Hubian",
   "primaryType": "ground",
@@ -168,14 +184,14 @@
     "tm:doubleteam",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:fling",
     "tm:psychup",
     "tm:substitute",
     "tm:dazzlinggleam",
     "tutor:secretpower",
-    "tutor:snoresound"  ],
+    "tutor:snore"  ],
   "labels": [
     "xenoverse",
     "gen1",
@@ -186,7 +202,7 @@
   ],
   "evolutions": [
     {
-      "id": "smearglex_chientilly",
+      "id": "smeargle_chientilly",
       "variant": "item_interact",
       "result": "chientilly",
       "consumeHeldItem": false,

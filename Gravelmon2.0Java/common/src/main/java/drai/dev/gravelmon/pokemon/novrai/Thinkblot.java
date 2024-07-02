@@ -24,7 +24,7 @@ public class Thinkblot extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Its dripping body shifts rapidly in response to the brain waves of those around it. Its strange liquid leaves permanent stains on clothes."),
                 List.of(new EvolutionEntry("rorschade", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.PSYWAVE,4),

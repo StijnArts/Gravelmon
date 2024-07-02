@@ -117,5 +117,7 @@ public class RDuckulus extends Pokemon {
                 List.of());
         this.setPreEvolution("farfetchd");
         setLangFileName("R'duckulus");
+        addAdditionalEvolution("farfetchd", new EvolutionEntry("rduckulus", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"))));
     }
 }

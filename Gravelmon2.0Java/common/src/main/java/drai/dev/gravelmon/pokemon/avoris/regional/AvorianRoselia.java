@@ -100,6 +100,9 @@ public class AvorianRoselia extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Roselia");
+        addAdditionalEvolution("budew", new EvolutionEntry("roselia avorian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"day\""))));
 
     }
 

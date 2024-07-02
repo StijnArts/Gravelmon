@@ -123,6 +123,7 @@ public class Corsoreef extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setCanBreathUnderwater(true);
-        this.setCanSwim(true);
+        addAdditionalEvolution("corsola", new EvolutionEntry("corsoreef", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"200"))));
     }
 }

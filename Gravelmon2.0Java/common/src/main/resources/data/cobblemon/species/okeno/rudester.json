@@ -51,14 +51,14 @@
   "moves": [
     "1:growl",
     "4:peck",
-    "9:roundsound",
-    "13:singsound",
+    "9:round",
+    "13:sing",
     "16:quickattack",
     "20:wingattack",
     "25:featherdance",
     "29:agility",
     "31:roost",
-    "35:hypervoicesound",
+    "35:hypervoice",
     "38:drillpeck",
     "45:bravebird"  ],
   "labels": [

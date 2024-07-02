@@ -68,7 +68,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltaspiderbeldum_metang",
+      "id": "beldum_metang_deltaspider",
       "variant": "level_up",
       "result": "metang deltaspider",
       "consumeHeldItem": false,
@@ -163,7 +163,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltaruinbeldum_metang",
+      "id": "beldum_metang_deltaruin",
       "variant": "level_up",
       "result": "metang deltaruin",
       "consumeHeldItem": false,

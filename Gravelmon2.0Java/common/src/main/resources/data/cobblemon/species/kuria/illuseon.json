@@ -47,6 +47,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:lick",
     "1:growl",
@@ -57,7 +67,7 @@
     "12:wish",
     "15:nightshade",
     "18:darkpulse",
-    "20:screechsound",
+    "20:screech",
     "21:shadowball",
     "24:calmmind",
     "29:toxic",

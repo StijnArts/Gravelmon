@@ -1,5 +1,35 @@
 {
    "target": "cobblemon:clamperl",
+  "evolutions": [
+    {
+      "id": "clamperl_huntail_novran",
+      "variant": "level_up",
+      "result": "huntail novran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:deep_sea_tooth"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "clamperl_gorebyss_novran",
+      "variant": "level_up",
+      "result": "gorebyss novran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:deep_sea_scale"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Delta",
   "primaryType": "dragon",
@@ -70,9 +100,9 @@
     "tm:swagger",
     "tm:substitute",
     "tm:dracojet",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:dragonify",
@@ -85,7 +115,7 @@
     "tutor:irondefense",
     "tutor:mimic",
     "tutor:outrage",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:superfang",
     "tutor:twister"  ],
   "labels": [
@@ -98,7 +128,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltaclamperl_huntail",
+      "id": "clamperl_huntail_delta",
       "variant": "level_up",
       "result": "huntail delta",
       "consumeHeldItem": true,
@@ -112,7 +142,7 @@
       "permanent": true   
  },
     {
-      "id": "deltaclamperl_gorebyss",
+      "id": "clamperl_gorebyss_delta",
       "variant": "level_up",
       "result": "gorebyss delta",
       "consumeHeldItem": true,

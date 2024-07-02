@@ -75,7 +75,7 @@
   "preEvolution": "rhyhorn form=hizian",
   "evolutions": [
     {
-      "id": "hizianrhydon_rhyferal",
+      "id": "rhydon_rhyferal",
       "variant": "level_up",
       "result": "rhyferal",
       "consumeHeldItem": false,

@@ -99,7 +99,7 @@
     "tm:return",
     "tm:shadowball",
     "tm:shadowclaw",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:spite",
     "tm:strength",
     "tm:substitute",
@@ -126,7 +126,7 @@
     "egg:taunt",
     "egg:snatch",
     "egg:embargo",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:grudge"  ],
   "labels": [
     "uranium",

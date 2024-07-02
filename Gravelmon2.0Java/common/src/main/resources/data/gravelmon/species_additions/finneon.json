@@ -49,11 +49,11 @@
   "moves": [
     "1:tackle",
     "1:growl",
-    "1:singsound",
+    "1:sing",
     "5:gust",
     "9:shadowsneak",
     "14:whirlwind",
-    "19:gravitywavecosmic",
+    "19:gravitywave",
     "23:razorwind",
     "27:safeguard",
     "32:ominouswind",
@@ -72,7 +72,7 @@
   ],
   "evolutions": [
     {
-      "id": "lagoonanfinneon_lumineon",
+      "id": "finneon_lumineon_lagoonan",
       "variant": "level_up",
       "result": "lumineon lagoonan",
       "consumeHeldItem": false,

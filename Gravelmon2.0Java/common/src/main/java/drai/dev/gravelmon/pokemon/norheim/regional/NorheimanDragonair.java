@@ -54,6 +54,9 @@ public class NorheimanDragonair extends drai.dev.gravelmon.pokemon.Pokemon {
         setCanBreathUnderwater(true);
         setCanFly(true);
            setLangFileName("Dragonair");
+        addAdditionalEvolution("dratini", new EvolutionEntry("dragonair norheiman", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\"")))	);
 
     }
 

@@ -57,8 +57,8 @@
     "26:featherdance",
     "29:nightmare",
     "34:tailwind",
-    "37:hypervoicesound",
-    "40:perishsongsound",
+    "37:hypervoice",
+    "40:perishsong",
     "tm:gust",
     "tm:psychic",
     "tm:mimic",
@@ -88,7 +88,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   
@@ -106,7 +106,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

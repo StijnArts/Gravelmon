@@ -64,13 +64,13 @@
     "44:solarbeam",
     "tm:doubleteam",
     "tm:rest",
-    "tm:snoresound",
+    "tm:snore",
     "tm:thief",
     "tm:substitute",
     "tm:protect",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:hiddenpower",
     "tm:return",
     "tm:frustration",
@@ -95,7 +95,7 @@
     "tm:uturn",
     "tm:grassknot",
     "tm:energyball",
-    "tm:roundsound",
+    "tm:round",
     "tm:confide",
     "tm:acrobatics",
     "tm:dazzlinggleam",
@@ -125,7 +125,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

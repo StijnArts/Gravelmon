@@ -92,5 +92,7 @@ public class Fruitius extends Pokemon {
                 0.4, 0.3,
                 List.of());
         setCanFly(true);
+        addAdditionalEvolution("tropius", new EvolutionEntry("fruitius", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))));
     }
 }

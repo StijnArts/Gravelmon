@@ -58,7 +58,7 @@
     "tm:sandstorm",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:safeguard",
@@ -75,7 +75,7 @@
     "tm:focusblast",
     "tm:gigaimpact",
     "tm:shadowclaw",
-    "tm:roundsound",
+    "tm:round",
     "tm:bulldoze",
     "tm:workup",
     "tm:confide",
@@ -139,7 +139,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

@@ -48,7 +48,7 @@
     "mineral"
   ],
   "moves": [
-    "1:powergemcrystal",
+    "1:powergem",
     "1:tackle",
     "1:harden",
     "1:astonish",
@@ -80,7 +80,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:willowisp",
     "tm:explosion",
     "tm:shadowclaw",
@@ -104,9 +104,9 @@
     "tutor:irondefense",
     "tutor:block",
     "tutor:earthpower",
-    "tutor:gravitycosmic",
+    "tutor:gravity",
     "tutor:irondefense",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock",
     "tutor:swagger"  ],
   "labels": [
@@ -119,7 +119,7 @@
   ],
   "evolutions": [
     {
-      "id": "armiranroggenrola_boldore",
+      "id": "roggenrola_boldore_armiran",
       "variant": "level_up",
       "result": "boldore armiran",
       "consumeHeldItem": false,

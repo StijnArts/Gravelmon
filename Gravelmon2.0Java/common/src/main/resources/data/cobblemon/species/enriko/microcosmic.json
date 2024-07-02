@@ -54,7 +54,7 @@
     "7:cometpunch",
     "11:protect",
     "16:metalclaw",
-    "20:screechsound",
+    "20:screech",
     "24:acidspray",
     "28:megadrain",
     "32:weatherball",
@@ -62,7 +62,7 @@
     "40:solarbeam",
     "44:flashcannon",
     "50:rest",
-    "56:cosmicpowercosmic",
+    "56:cosmicpower",
     "60:meteormash"  ],
   "labels": [
     "enriko",

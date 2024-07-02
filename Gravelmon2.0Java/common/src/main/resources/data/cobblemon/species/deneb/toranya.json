@@ -49,7 +49,7 @@
   ],
   "moves": [
     "1:tackle",
-    "1:howlsound",
+    "1:howl",
     "1:powdersnow",
     "7:powdersnow",
     "14:thunderwave",
@@ -87,7 +87,7 @@
     "egg:lockon",
     "egg:mist",
     "egg:mirrorshot",
-    "egg:screechsound",
+    "egg:screech",
     "egg:zapcannon"  ],
   "labels": [
     "deneb",

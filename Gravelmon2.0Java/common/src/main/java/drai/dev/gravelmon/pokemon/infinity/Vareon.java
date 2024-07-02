@@ -127,5 +127,7 @@ public class Vareon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("vareon", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.CURSE, "")),
+                List.of(),List.of(),"gravelmon:varia_stone"));
     }
 }

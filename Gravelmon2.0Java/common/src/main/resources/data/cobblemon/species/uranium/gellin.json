@@ -101,7 +101,7 @@
     "tm:shockwave",
     "tm:signalbeam",
     "tm:skillswap",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:solarbeam",
     "tm:substitute",
     "tm:sunnyday",
@@ -119,7 +119,7 @@
     "egg:watergun",
     "egg:seedbomb",
     "egg:grassknot",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:zapcannon"  ],
   "labels": [
     "uranium",

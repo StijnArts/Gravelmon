@@ -111,6 +111,9 @@ public class PorygonY extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Porygon-Y");
+        addAdditionalEvolution("porygon2", new EvolutionEntry("porygony", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_END.getId() + ":" + Biome.IS_END.getName() +"\""))));
 
     }
 

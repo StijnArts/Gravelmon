@@ -63,7 +63,7 @@
     "tm:rest",
     "tm:protect",
     "tm:workup",
-    "tm:roundsound",
+    "tm:round",
     "tm:raindance",
     "tm:snowscape",
     "tm:rocktomb",
@@ -78,7 +78,7 @@
     "tm:earthquake",
     "tm:chillingwater",
     "tm:facade",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:waterfall",
     "tm:blizzard"  ],
   "labels": [

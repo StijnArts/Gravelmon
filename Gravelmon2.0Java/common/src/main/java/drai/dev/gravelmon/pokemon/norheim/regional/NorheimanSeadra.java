@@ -56,6 +56,8 @@ public class NorheimanSeadra extends drai.dev.gravelmon.pokemon.Pokemon {
         setAvoidsLand(true);
         setCanBreathUnderwater(true);
            setLangFileName("Seadra");
+        addAdditionalEvolution("horsea", new EvolutionEntry("seadra norheiman", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"))));
     }
 
 

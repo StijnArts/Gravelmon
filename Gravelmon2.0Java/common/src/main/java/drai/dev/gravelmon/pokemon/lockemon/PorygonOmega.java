@@ -54,5 +54,7 @@ public class PorygonOmega extends Pokemon {
                 List.of());
         setLangFileName("Porygon-Omega");
         setCanFly(true);
+        addAdditionalEvolution("porygon2", new EvolutionEntry("porygonomega", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:amaze_drive\""))));
     }
 }

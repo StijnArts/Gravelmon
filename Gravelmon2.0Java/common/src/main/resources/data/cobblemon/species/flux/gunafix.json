@@ -65,7 +65,7 @@
     "egg:curse",
     "egg:skullbash",
     "egg:counter",
-    "egg:screechsound",
+    "egg:screech",
     "egg:disable"  ],
   "labels": [
     "flux",
@@ -76,7 +76,7 @@
   ],
   "evolutions": [
     {
-      "id": "gunafix_Fixinit",
+      "id": "gunafix_fixinit",
       "variant": "level_up",
       "result": "Fixinit",
       "consumeHeldItem": false,

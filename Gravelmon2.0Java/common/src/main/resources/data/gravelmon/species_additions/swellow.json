@@ -72,7 +72,7 @@
     "51:bravebird",
     "54:thunder",
     "57:reversal",
-    "60:boomburstsound",
+    "60:boomburst",
     "64:zapcannon",
     "70:hurricane",
     "tm:toxic",
@@ -91,8 +91,8 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:chargebeam",
     "tm:gigaimpact",
     "tm:voltswitch",
@@ -115,7 +115,7 @@
     "tutor:laserfocus",
     "tutor:shockwave",
     "tutor:skyattack",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:swagger",
     "tutor:tailwind"  ],
   "labels": [
@@ -127,7 +127,7 @@
   "pokedex": [
     "cobblemon.species.armiranswellow.desc"
   ],
-  "preEvolution": "Taillow",
+  "preEvolution": "taillow",
   "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,

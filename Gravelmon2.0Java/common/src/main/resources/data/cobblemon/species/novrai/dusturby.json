@@ -71,7 +71,7 @@
     "tm:zenheadbutt",
     "tm:recycle",
     "tm:trick",
-    "tm:hypervoicesound",
+    "tm:hypervoice",
     "tm:knockoff",
     "tm:yawn",
     "tm:gunkshot",
@@ -83,7 +83,7 @@
     "tm:phantomforce",
     "tm:endeavor",
     "tm:suckerpunch",
-    "tm:snoresound",
+    "tm:snore",
     "tm:pollenpuff",
     "tm:focusenergy",
     "tm:encore",
@@ -92,7 +92,7 @@
     "tm:icefang",
     "tm:thunderfang",
     "tm:workup",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -129,7 +129,7 @@
     "tm:infestation",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:uturn",
     "tm:substitute",
     "tm:wildcharge",
@@ -150,11 +150,14 @@
     "tm:nightshade"  ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dusturby.desc"
   ],
+  "preEvolution": "dusby",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

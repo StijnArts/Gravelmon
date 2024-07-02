@@ -118,6 +118,8 @@ public class Zangarsh extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Zangarsh");
+        addAdditionalEvolution("zangoose", new EvolutionEntry("Zangarsh", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39"))));
 
     }
 

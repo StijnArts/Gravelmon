@@ -117,7 +117,7 @@
     "tm:reflect",
     "tm:facade",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
     "tm:fling",
     "tm:shadowclaw",
@@ -141,8 +141,8 @@
     "tutor:irontail",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:velvetscales",
     "tutor:waterpulse"  ],
   "labels": [
@@ -153,7 +153,7 @@
   ],
   "evolutions": [
     {
-      "id": "shulongterrestrial_shulong",
+      "id": "shulong_shulong",
       "variant": "level_up",
       "result": "shulong",
       "consumeHeldItem": false,
@@ -164,7 +164,7 @@
       "permanent": true   
  },
     {
-      "id": "shulongterrestrial_shulong",
+      "id": "shulong_shulong_xenoversal",
       "variant": "level_up",
       "result": "shulong xenoversal",
       "consumeHeldItem": false,
@@ -178,7 +178,7 @@
       "permanent": true   
  },
     {
-      "id": "shulongterrestrial_shulong",
+      "id": "shulong_shulong_astral",
       "variant": "level_up",
       "result": "shulong astral",
       "consumeHeldItem": false,
@@ -196,7 +196,7 @@
       "permanent": true   
  },
     {
-      "id": "shulongterrestrial_shulong",
+      "id": "shulong_shulong_astral",
       "variant": "level_up",
       "result": "shulong astral",
       "consumeHeldItem": false,
@@ -352,7 +352,7 @@
     "tm:reflect",
     "tm:facade",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
     "tm:fling",
     "tm:shadowclaw",
@@ -376,8 +376,8 @@
     "tutor:irontail",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:velvetscales",
     "tutor:waterpulse"  ],
   "labels": [
@@ -389,7 +389,7 @@
   ],
   "evolutions": [
     {
-      "id": "shulongxenoversal_shulong",
+      "id": "shulong_shulong",
       "variant": "level_up",
       "result": "shulong",
       "consumeHeldItem": false,
@@ -400,7 +400,7 @@
       "permanent": true   
  },
     {
-      "id": "shulongxenoversal_shulong",
+      "id": "shulong_shulong_terrestrial",
       "variant": "level_up",
       "result": "shulong terrestrial",
       "consumeHeldItem": false,
@@ -414,7 +414,7 @@
       "permanent": true   
  },
     {
-      "id": "shulongxenoversal_shulong",
+      "id": "shulong_shulong_astral",
       "variant": "level_up",
       "result": "shulong astral",
       "consumeHeldItem": false,
@@ -432,7 +432,7 @@
       "permanent": true   
  },
     {
-      "id": "shulongxenoversal_shulong",
+      "id": "shulong_shulong_astral",
       "variant": "level_up",
       "result": "shulong astral",
       "consumeHeldItem": false,
@@ -594,7 +594,7 @@
     "tm:reflect",
     "tm:facade",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
     "tm:fling",
     "tm:shadowclaw",
@@ -618,8 +618,8 @@
     "tutor:irontail",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:velvetscales",
     "tutor:waterpulse"  ],
   "labels": [
@@ -631,7 +631,7 @@
   ],
   "evolutions": [
     {
-      "id": "shulongastral_shulong",
+      "id": "shulong_shulong",
       "variant": "level_up",
       "result": "shulong",
       "consumeHeldItem": false,
@@ -642,7 +642,7 @@
       "permanent": true   
  },
     {
-      "id": "shulongastral_shulong",
+      "id": "shulong_shulong_terrestrial",
       "variant": "level_up",
       "result": "shulong terrestrial",
       "consumeHeldItem": false,
@@ -656,7 +656,7 @@
       "permanent": true   
  },
     {
-      "id": "shulongastral_shulong",
+      "id": "shulong_shulong_xenoversal",
       "variant": "level_up",
       "result": "shulong xenoversal",
       "consumeHeldItem": false,

@@ -61,7 +61,7 @@
     "32:entrainment",
     "36:lunge",
     "40:hydropump",
-    "44:bugbuzzsound",
+    "44:bugbuzz",
     "48:mirrorcoat",
     "egg:powersplit",
     "egg:spitup",
@@ -79,7 +79,7 @@
   "preEvolution": "burbwhirl",
   "evolutions": [
     {
-      "id": "spoutlaw_Vaquamael",
+      "id": "spoutlaw_vaquamael",
       "variant": "level_up",
       "result": "Vaquamael",
       "consumeHeldItem": false,

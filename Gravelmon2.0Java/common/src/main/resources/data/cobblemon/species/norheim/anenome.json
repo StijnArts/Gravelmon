@@ -52,7 +52,7 @@
     "1:sleeppowder",
     "1:absorb",
     "1:rest",
-    "1:disarmingvoicesound",
+    "1:disarmingvoice",
     "1:megadrain",
     "1:amnesia",
     "1:magicalleaf",
@@ -61,7 +61,7 @@
     "1:moonlight",
     "1:moonblast",
     "1:fairywind",
-    "1:sleeptalksound",
+    "1:sleeptalk",
     "1:yawn",
     "1:playnice",
     "1:playrough"  ],
@@ -74,7 +74,7 @@
   ],
   "evolutions": [
     {
-      "id": "anenome_Trollskgur",
+      "id": "anenome_trollskgur",
       "variant": "level_up",
       "result": "Trollskgur",
       "consumeHeldItem": false,
@@ -86,7 +86,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

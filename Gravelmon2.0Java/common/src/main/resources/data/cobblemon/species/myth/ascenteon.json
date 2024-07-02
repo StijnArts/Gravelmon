@@ -46,6 +46,16 @@
   "eggGroups": [
     "monster"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:dragon_fang",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:lick",
     "1:growl",
@@ -56,7 +66,7 @@
     "12:wish",
     "15:dragonclaw",
     "18:thunderfang",
-    "20:screechsound",
+    "20:screech",
     "21:dragontail",
     "24:swordsdance",
     "27:icefang",

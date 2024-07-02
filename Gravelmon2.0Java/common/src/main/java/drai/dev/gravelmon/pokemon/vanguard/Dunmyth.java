@@ -136,5 +136,7 @@ public class Dunmyth extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        addAdditionalEvolution("dunsparce", new EvolutionEntry("dunmyth", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"))));
     }
 }

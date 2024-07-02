@@ -71,7 +71,7 @@
   "preEvolution": "caterpie form=ayreian",
   "evolutions": [
     {
-      "id": "ayreianmetapod_butterfree",
+      "id": "metapod_butterfree_ayreian",
       "variant": "level_up",
       "result": "butterfree ayreian",
       "consumeHeldItem": false,

@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:remoraid",
+  "evolutions": [
+    {
+      "id": "remoraid_slingray",
+      "variant": "level_up",
+      "result": "slingray",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "rockblast"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Delta",
   "primaryType": "fire",
@@ -93,11 +109,11 @@
     "tm:swagger",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:incinerate",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:darkmatter",
@@ -114,7 +130,7 @@
     "tutor:mimic",
     "tutor:painsplit",
     "tutor:signalbeam",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite",
     "tutor:stealthrock"  ],
   "labels": [
@@ -127,7 +143,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltaremoraid_octillery",
+      "id": "remoraid_octillery_delta",
       "variant": "level_up",
       "result": "octillery delta",
       "consumeHeldItem": false,

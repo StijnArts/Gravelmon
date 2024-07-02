@@ -26,7 +26,7 @@ public class HavaiianGastly extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It attracts victims with its warm enthralling fire, then puts them under a trance. It will then suck their energy while the victim feels nothing at all. Victims wake up afterward, feeling very chilled. The fire surrounding it burns brighter the more energy it has consumed."),
                 List.of(new EvolutionEntry("HavaiianHaunter", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(                  new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SMOG,1),
                         new MoveLearnSetEntry(Move.EMBER,4),

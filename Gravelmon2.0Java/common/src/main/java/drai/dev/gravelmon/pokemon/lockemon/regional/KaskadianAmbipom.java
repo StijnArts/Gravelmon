@@ -3,6 +3,8 @@ package drai.dev.gravelmon.pokemon.lockemon.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
 import java.util.*;
 
 import java.util.*;
@@ -109,5 +111,8 @@ public class KaskadianAmbipom extends Pokemon {
                 List.of());
         this.setLangFileName("Ambipom");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("aipom", new EvolutionEntry("ambipom kaskadian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ROCK_THROW.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("aipom", new MoveLearnSetEntry(Move.ROCK_THROW, "34"));
     }
 }

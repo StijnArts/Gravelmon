@@ -22,9 +22,9 @@ public class Bufierce extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Small and clumsy, Bufierce it has difficulty running, so it tends to stick next to bigger Pokemon to feel safe."),
-                List.of(new EvolutionEntry("chloradise", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Beefierce", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))
                 ),
                 List.of(     new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.HORN_ATTACK,1),

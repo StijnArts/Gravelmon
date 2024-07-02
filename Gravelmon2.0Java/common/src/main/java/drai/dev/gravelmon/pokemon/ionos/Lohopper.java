@@ -75,7 +75,7 @@ public class Lohopper extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Lophopper work in great numbers. They practice stealth tactics and locate themselves using sound and by guidance of the stars. Their primary target is usually on people´s crops. Despite being skillful thieves, they will not escape being caught stealing. Instead, they offer a fair fight and will accept defeat if proven hors de combat."),
                 List.of(new EvolutionEntry("wisopotron", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
                         new MoveLearnSetEntry(Move.LEER,5),

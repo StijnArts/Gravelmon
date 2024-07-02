@@ -115,7 +115,7 @@
     "tm:shadowclaw",
     "tm:shockwave",
     "tm:signalbeam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:strength",
     "tm:substitute",
     "tm:sunnyday",
@@ -142,7 +142,7 @@
   ],
   "evolutions": [
     {
-      "id": "betaurayne_urayne",
+      "id": "urayne_urayne",
       "variant": "level_up",
       "result": "urayne",
       "consumeHeldItem": false,

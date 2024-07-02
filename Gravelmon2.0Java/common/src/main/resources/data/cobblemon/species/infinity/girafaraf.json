@@ -48,6 +48,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "0:trick",
     "1:psyshock",
@@ -67,11 +77,11 @@
     "47:crunch",
     "56:zenheadbutt",
     "66:psychic",
-    "72:hypervoicesound",
+    "72:hypervoice",
     "78:hyperbeam",
     "tm:psyshock",
     "tm:calmmind",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -96,8 +106,8 @@
     "tm:attract",
     "tm:thief",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:allyswitch",
     "tm:energyball",
     "tm:chargebeam",
@@ -123,11 +133,11 @@
     "tm:faengrush",
     "tutor:dazzlinggleam",
     "tutor:foulplay",
-    "tutor:gravitycosmic",
+    "tutor:gravity",
     "tutor:headbutt",
-    "tutor:healbellsound",
+    "tutor:healbell",
     "tutor:helpinghand",
-    "tutor:hypervoicesound",
+    "tutor:hypervoice",
     "tutor:irontail",
     "tutor:megakick",
     "tutor:mudslap",
@@ -135,10 +145,10 @@
     "tutor:roleplay",
     "tutor:signalbeam",
     "tutor:skillswap",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:suckerpunch",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:trick",
     "tutor:uproar",
     "tutor:zenheadbutt",

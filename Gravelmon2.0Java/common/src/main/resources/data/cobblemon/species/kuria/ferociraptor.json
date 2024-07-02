@@ -78,7 +78,7 @@
   ],
   "evolutions": [
     {
-      "id": "ferociraptor_Pterysoar",
+      "id": "ferociraptor_pterysoar",
       "variant": "level_up",
       "result": "Pterysoar",
       "consumeHeldItem": false,

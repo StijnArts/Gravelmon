@@ -48,7 +48,7 @@
     "monster"
   ],
   "moves": [
-    "1:snoresound",
+    "1:snore",
     "24:snarl",
     "26:rollout",
     "30:shadowsneak",

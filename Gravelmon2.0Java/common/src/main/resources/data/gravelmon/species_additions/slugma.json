@@ -82,7 +82,7 @@
   ],
   "evolutions": [
     {
-      "id": "cefiranslugma_magcargo",
+      "id": "slugma_magcargo_cefiran",
       "variant": "level_up",
       "result": "magcargo cefiran",
       "consumeHeldItem": false,

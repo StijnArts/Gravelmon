@@ -63,7 +63,7 @@
     "50:fireblast",
     "55:weatherball",
     "tm:bind",
-    "tm:snoresound",
+    "tm:snore",
     "tm:gigadrain",
     "tm:synthesis",
     "tm:knockoff",
@@ -82,7 +82,7 @@
     "tm:sludgebomb",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",
@@ -93,7 +93,7 @@
     "tm:energyball",
     "tm:grassknot",
     "tm:venoshock",
-    "tm:roundsound",
+    "tm:round",
     "tm:confide",
     "tm:infestation",
     "tm:leechlife",
@@ -117,7 +117,7 @@
   ],
   "evolutions": [
     {
-      "id": "aristosianbellsprout_weepinbell",
+      "id": "bellsprout_weepinbell_aristosian",
       "variant": "level_up",
       "result": "weepinbell aristosian",
       "consumeHeldItem": false,
@@ -231,7 +231,7 @@
     "tm:endure",
     "tm:sunnyday",
     "tm:bulletseed",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:seedbomb",
     "tm:reflect",
     "tm:grassknot",
@@ -263,7 +263,7 @@
   ],
   "evolutions": [
     {
-      "id": "kaskadianbellsprout_Drosabell",
+      "id": "bellsprout_Drosabell",
       "variant": "level_up",
       "result": "Drosabell",
       "consumeHeldItem": false,

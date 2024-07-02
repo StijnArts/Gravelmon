@@ -93,7 +93,7 @@
     "egg:worryseed",
     "egg:curse",
     "egg:petalblizzard",
-    "egg:roarsound",
+    "egg:roar",
     "egg:leafblade",
     "egg:dragonpulse"  ],
   "labels": [

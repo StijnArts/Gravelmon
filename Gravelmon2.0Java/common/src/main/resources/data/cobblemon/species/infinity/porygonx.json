@@ -48,6 +48,16 @@
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:quantum_upgrade",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:trickroom",
     "1:nastyplot",
@@ -93,7 +103,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:allyswitch",
     "tm:focusblast",
     "tm:chargebeam",
@@ -111,7 +121,7 @@
     "tm:wildcharge",
     "tutor:electroweb",
     "tutor:foulplay",
-    "tutor:gravitycosmic",
+    "tutor:gravity",
     "tutor:icywind",
     "tutor:irontail",
     "tutor:lastresort",
@@ -120,10 +130,10 @@
     "tutor:recycle",
     "tutor:roleplay",
     "tutor:signalbeam",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:suckerpunch",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:trick",
     "tutor:wonderroom",
     "tutor:zenheadbutt"  ],

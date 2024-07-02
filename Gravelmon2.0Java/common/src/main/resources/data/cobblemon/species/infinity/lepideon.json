@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:silver_powder",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:signalbeam",
     "1:helpinghand",
@@ -64,7 +74,7 @@
     "33:airslash",
     "39:hiddenpower",
     "44:dazzlinggleam",
-    "49:bugbuzzsound",
+    "49:bugbuzz",
     "52:whirlwind",
     "58:quiverdance",
     "62:moonblast",
@@ -86,8 +96,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:energyball",
     "tm:falseswipe",
     "tm:chargebeam",

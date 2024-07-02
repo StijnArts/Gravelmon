@@ -74,9 +74,9 @@
   ],
   "evolutions": [
     {
-      "id": "bufierce_chloradise",
+      "id": "bufierce_beefierce",
       "variant": "level_up",
-      "result": "chloradise",
+      "result": "Beefierce",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -86,7 +86,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

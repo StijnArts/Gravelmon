@@ -83,7 +83,7 @@
     "tm:sludgebomb",
     "tm:facade",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:focusblast",
     "tm:scald",
     "tm:fling",
@@ -93,7 +93,7 @@
     "tm:thunderwave",
     "tm:poisonjab",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:flashcannon",
     "tm:wildcharge",
@@ -102,7 +102,7 @@
     "tm:surf",
     "tm:waterfall",
     "tm:dive",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:electroweb",
     "tutor:bind",
     "tutor:shockwave",
@@ -141,7 +141,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

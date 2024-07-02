@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.0,
+      "bucket": "uncommon",
+      "level": "33-46",
+      "weight": 1.0,
       "condition": {
 "biomes": [ "#cobblemon:is_grassland" ],
         "canSeeSky": true

@@ -26,10 +26,10 @@ public class Biduane extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Bidaune are referenced in a legend which states they were once small flying Pokemon like Pidgey and Spearow who wanted to be free and fly wherever they went, supposedly leaving their bodies to do so."),
                 List.of(new EvolutionEntry("bidengel", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\""))),
                         new EvolutionEntry("bidread", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFIDE,1),
                         new MoveLearnSetEntry(Move.SAFEGUARD,7),

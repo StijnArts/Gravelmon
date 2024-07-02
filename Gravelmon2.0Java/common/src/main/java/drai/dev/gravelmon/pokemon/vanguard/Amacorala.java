@@ -117,6 +117,7 @@ public class Amacorala extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setCanBreathUnderwater(true);
-        this.setCanSwim(true);
+        addAdditionalEvolution("corsola", new EvolutionEntry("amacorala", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"))));
     }
 }

@@ -48,7 +48,7 @@
     "mineral"
   ],
   "moves": [
-    "1:screechsound",
+    "1:screech",
     "1:iceshard",
     "9:wrap",
     "13:harden",
@@ -59,7 +59,7 @@
     "49:earthpower",
     "57:hydropump",
     "tm:scald",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",

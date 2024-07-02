@@ -68,7 +68,7 @@
   ],
   "evolutions": [
     {
-      "id": "potiti_Potota",
+      "id": "potiti_potota",
       "variant": "level_up",
       "result": "Potota",
       "consumeHeldItem": false,

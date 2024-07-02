@@ -111,5 +111,8 @@ public class Scorpeon extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("scorpeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.POISON_TAIL, "")),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:poison_barb\""),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"night\""))));
     }
 }

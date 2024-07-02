@@ -1,5 +1,19 @@
 {
    "target": "cobblemon:bonsly",
+  "evolutions": [
+    {
+      "id": "bonsly_sudowoodo_amazeall",
+      "variant": "item_interact",
+      "result": "sudowoodo amazeall",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:amaze_drive",
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Novran",
   "primaryType": "rock",
@@ -70,7 +84,7 @@
     "tm:foulplay",
     "tm:icywind",
     "tm:suckerpunch",
-    "tm:snoresound",
+    "tm:snore",
     "tm:tripleaxel",
     "tm:calmmind",
     "tm:snowscape",
@@ -96,7 +110,7 @@
     "tm:rockslide",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:naturalgift",
     "tm:confide",
@@ -121,7 +135,7 @@
   ],
   "evolutions": [
     {
-      "id": "novranbonsly_sudowoodo",
+      "id": "bonsly_sudowoodo_novran",
       "variant": "level_up",
       "result": "sudowoodo novran",
       "consumeHeldItem": false,

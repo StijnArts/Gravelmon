@@ -48,18 +48,18 @@
     "undiscovered"
   ],
   "moves": [
-    "1:roundsound",
+    "1:round",
     "8:watersport",
     "15:waterpulse",
     "22:amnesia",
     "29:frostbreath",
     "36:muddywater",
-    "43:hypervoicesound",
+    "43:hypervoice",
     "50:icebeam",
     "57:iciclecrash",
     "64:hydropump",
     "71:calmmind",
-    "78:boomburstsound",
+    "78:boomburst",
     "85:blizzard",
     "92:waterspout"  ],
   "labels": [

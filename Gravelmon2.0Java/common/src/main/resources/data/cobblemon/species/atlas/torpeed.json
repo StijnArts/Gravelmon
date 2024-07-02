@@ -87,9 +87,9 @@
     "tm:rest",
     "tm:return",
     "tm:rockslide",
-    "tm:roundsound",
+    "tm:round",
     "tm:shadowclaw",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:smackdown",
     "tm:snarl",
     "tm:substitute",
@@ -114,7 +114,7 @@
   "preEvolution": "caimar",
   "evolutions": [
     {
-      "id": "torpeed_Damasoar",
+      "id": "torpeed_damasoar",
       "variant": "level_up",
       "result": "Damasoar",
       "consumeHeldItem": false,

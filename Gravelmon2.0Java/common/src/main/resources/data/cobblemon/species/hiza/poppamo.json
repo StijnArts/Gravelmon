@@ -59,15 +59,15 @@
     "tm:rest",
     "tm:protect",
     "tm:workup",
-    "tm:roundsound",
+    "tm:round",
     "tm:raindance",
     "tm:snowscape",
     "tm:icebeam",
     "tm:liquidation",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:icefang",
     "tm:chillingwater",
-    "tm:swiftcosmic"  ],
+    "tm:swift"  ],
   "labels": [
     "hiza",
     "not_modeled"

@@ -85,6 +85,10 @@ public class Planite extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("stellith");
+        addAdditionalEvolution("lunatone", new EvolutionEntry("planite", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:moon_stone"));
+        addAdditionalEvolution("solrock", new EvolutionEntry("planite", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:sun_stone"));
     }
 
 }

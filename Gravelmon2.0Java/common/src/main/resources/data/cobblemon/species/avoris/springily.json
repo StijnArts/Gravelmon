@@ -72,7 +72,7 @@
   ],
   "evolutions": [
     {
-      "id": "springily_Faelily",
+      "id": "springily_faelily",
       "variant": "level_up",
       "result": "Faelily",
       "consumeHeldItem": false,

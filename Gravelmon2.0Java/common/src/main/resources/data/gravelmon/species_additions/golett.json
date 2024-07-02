@@ -97,9 +97,9 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:smackdown",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:confide",
     "tm:secretpower",
     "tm:rockclimb",
@@ -124,7 +124,7 @@
     "tutor:megapunch",
     "tutor:mimic",
     "tutor:seismictoss",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:superpower",
     "tutor:thunderpunch",
     "tutor:vacuumwave",
@@ -139,7 +139,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltagolett_golurk",
+      "id": "golett_golurk_delta",
       "variant": "level_up",
       "result": "golurk delta",
       "consumeHeldItem": false,
@@ -263,7 +263,7 @@
     "tm:firepunch",
     "tm:thunderpunch",
     "tm:icepunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:drainpunch",
     "tm:reflect",
     "tm:grassknot",
@@ -284,7 +284,7 @@
     "tm:phantomforce",
     "tm:focusblast",
     "tm:terablast",
-    "tm:gravitycosmic",
+    "tm:gravity",
     "tm:smackdown",
     "tm:gyroball",
     "tm:knockoff",
@@ -304,7 +304,7 @@
   ],
   "evolutions": [
     {
-      "id": "kaskadiangolett_golgre",
+      "id": "golett_golgre",
       "variant": "level_up",
       "result": "golgre",
       "consumeHeldItem": false,
@@ -411,7 +411,7 @@
   ],
   "evolutions": [
     {
-      "id": "cefirangolett_golurk",
+      "id": "golett_golurk_cefiran",
       "variant": "level_up",
       "result": "golurk cefiran",
       "consumeHeldItem": false,

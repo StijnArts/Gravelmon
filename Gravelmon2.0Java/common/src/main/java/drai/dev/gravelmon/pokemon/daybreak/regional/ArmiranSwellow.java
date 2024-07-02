@@ -104,7 +104,9 @@ public class ArmiranSwellow extends Pokemon {
                 List.of());
         this.setLangFileName("Swellow");
         this.setPortraitXYZ(0,1.8,0);
-        setPreEvolution("Taillow");
+        setPreEvolution("taillow");
         setCanFly(true);
+        addAdditionalEvolution("taillow", new EvolutionEntry("swellow armiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_HIGHLANDS.getId() + ":" + Biome.IS_HIGHLANDS.getName() +"\""))));
     }
 }

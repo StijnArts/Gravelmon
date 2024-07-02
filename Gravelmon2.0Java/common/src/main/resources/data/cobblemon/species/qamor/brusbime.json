@@ -50,7 +50,7 @@
   ],
   "moves": [
     "1:courtchange",
-    "4:howlsound",
+    "4:howl",
     "8:bite",
     "12:focusenergy",
     "16:uproar",
@@ -67,7 +67,7 @@
     "tm:headsmash",
     "tm:thrash",
     "tm:zenheadbutt",
-    "tm:snoresound",
+    "tm:snore",
     "tm:thunderfang",
     "tm:counter",
     "tm:skullbash",

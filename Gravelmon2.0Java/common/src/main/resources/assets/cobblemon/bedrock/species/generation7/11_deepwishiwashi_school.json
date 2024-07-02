@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deepwishiwashi",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "school"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/evolve_me.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "school",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/evolve_me.png"
+    }
+  ]
+}

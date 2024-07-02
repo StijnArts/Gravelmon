@@ -62,7 +62,7 @@
   ],
   "evolutions": [
     {
-      "id": "picant_Surveilant",
+      "id": "picant_surveilant",
       "variant": "level_up",
       "result": "Surveilant",
       "consumeHeldItem": false,

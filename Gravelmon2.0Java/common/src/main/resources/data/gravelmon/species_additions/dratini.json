@@ -1,5 +1,25 @@
 {
    "target": "cobblemon:dratini",
+  "evolutions": [
+    {
+      "id": "dratini_dragonair_norheiman",
+      "variant": "level_up",
+      "result": "dragonair norheiman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_cold"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Delta",
   "primaryType": "water",
@@ -63,7 +83,7 @@
     "55:hydropump",
     "61:hyperbeam",
     "tm:calmmind",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -96,9 +116,9 @@
     "tm:uturn",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -117,7 +137,7 @@
     "tutor:magnetrise",
     "tutor:mimic",
     "tutor:roleplay",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:twister",
     "tutor:uproar",
     "tutor:waterpulse",
@@ -133,7 +153,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltadratini_dragonair",
+      "id": "dratini_dragonair_delta",
       "variant": "level_up",
       "result": "dragonair delta",
       "consumeHeldItem": false,

@@ -48,11 +48,11 @@
   ],
   "moves": [
     "1:tackle",
-    "4:howlsound",
+    "4:howl",
     "8:quickattack",
     "16:takedown",
     "22:thunderfang",
-    "27:roarsound",
+    "27:roar",
     "30:crunch",
     "36:agility",
     "44:playrough",

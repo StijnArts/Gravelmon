@@ -46,19 +46,29 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:throat_spray",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
-    "1:sonicboomsound",
+    "1:sonicboom",
     "1:growl",
     "3:feint",
     "3:quickattack",
     "6:glare",
     "9:metalsound",
     "12:yawn",
-    "15:disarmingvoicesound",
+    "15:disarmingvoice",
     "18:darkpulse",
-    "20:screechsound",
+    "20:screech",
     "24:calmmind",
-    "27:hypervoicesound",
+    "27:hypervoice",
     "29:toxic",
     "32:doubleteam",
     "47:extremespeed",

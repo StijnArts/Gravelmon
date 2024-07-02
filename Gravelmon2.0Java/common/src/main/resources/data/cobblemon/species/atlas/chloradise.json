@@ -89,10 +89,10 @@
     "tm:reflect",
     "tm:rest",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:shadowclaw",
     "tm:signalbeam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:solarbeam",
     "tm:strugglebug",
     "tm:substitute",
@@ -114,7 +114,7 @@
   "pokedex": [
     "cobblemon.species.chloradise.desc"
   ],
-  "preEvolution": "bufierce",
+  "preEvolution": "inscepter",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

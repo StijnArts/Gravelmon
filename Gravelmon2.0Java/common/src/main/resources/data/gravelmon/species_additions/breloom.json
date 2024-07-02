@@ -84,7 +84,7 @@
   ],
   "evolutions": [
     {
-      "id": "alteranbreloom_brontoloom",
+      "id": "breloom_brontoloom",
       "variant": "level_up",
       "result": "brontoloom",
       "consumeHeldItem": false,

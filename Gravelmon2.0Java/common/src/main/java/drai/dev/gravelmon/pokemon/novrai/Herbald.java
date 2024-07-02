@@ -24,7 +24,7 @@ public class Herbald extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It lives in the same areas as Tangela, and seems jealous of its long, flowing vines. Its soil quality is so poor that only a truly miraculous seed can grow within it."),
                 List.of(new EvolutionEntry("toupary", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),

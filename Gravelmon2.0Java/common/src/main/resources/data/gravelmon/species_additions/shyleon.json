@@ -88,7 +88,7 @@
     "1:lunardance",
     "1:absorb",
     "1:pound",
-    "8:disarmingvoicesound",
+    "8:disarmingvoice",
     "13:growth",
     "17:camouflage",
     "21:leaftornado",
@@ -104,7 +104,7 @@
     "56:grasswhistle",
     "61:leafstorm",
     "tm:calmmind",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -118,7 +118,7 @@
     "tm:reflect",
     "tm:facade",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:energyball",
     "tm:fling",
     "tm:gigaimpact",
@@ -139,8 +139,8 @@
     "tutor:magicwall",
     "tutor:secretpower",
     "tutor:seedbomb",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:synthesis",
     "tutor:worryseed"  ],
   "labels": [
@@ -151,7 +151,7 @@
   ],
   "evolutions": [
     {
-      "id": "shyleonterrestrial_shyleon",
+      "id": "shyleon_shyleon",
       "variant": "level_up",
       "result": "shyleon",
       "consumeHeldItem": false,
@@ -162,7 +162,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleonterrestrial_shyleon",
+      "id": "shyleon_shyleon_xenoversal",
       "variant": "level_up",
       "result": "shyleon xenoversal",
       "consumeHeldItem": false,
@@ -176,7 +176,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleonterrestrial_shyleon",
+      "id": "shyleon_shyleon_astral",
       "variant": "level_up",
       "result": "shyleon astral",
       "consumeHeldItem": false,
@@ -194,7 +194,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleonterrestrial_shyleon",
+      "id": "shyleon_shyleon_astral",
       "variant": "level_up",
       "result": "shyleon astral",
       "consumeHeldItem": false,
@@ -322,7 +322,7 @@
     "1:extrasensory",
     "1:absorb",
     "1:pound",
-    "8:disarmingvoicesound",
+    "8:disarmingvoice",
     "13:growth",
     "17:camouflage",
     "21:leaftornado",
@@ -338,7 +338,7 @@
     "56:grasswhistle",
     "61:leafstorm",
     "tm:calmmind",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -352,7 +352,7 @@
     "tm:reflect",
     "tm:facade",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:energyball",
     "tm:fling",
     "tm:gigaimpact",
@@ -373,8 +373,8 @@
     "tutor:magicwall",
     "tutor:secretpower",
     "tutor:seedbomb",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:synthesis",
     "tutor:worryseed"  ],
   "labels": [
@@ -386,7 +386,7 @@
   ],
   "evolutions": [
     {
-      "id": "shyleonxenoversal_shyleon",
+      "id": "shyleon_shyleon",
       "variant": "level_up",
       "result": "shyleon",
       "consumeHeldItem": false,
@@ -397,7 +397,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleonxenoversal_shyleon",
+      "id": "shyleon_shyleon_terrestrial",
       "variant": "level_up",
       "result": "shyleon terrestrial",
       "consumeHeldItem": false,
@@ -411,7 +411,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleonxenoversal_shyleon",
+      "id": "shyleon_shyleon_astral",
       "variant": "level_up",
       "result": "shyleon astral",
       "consumeHeldItem": false,
@@ -429,7 +429,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleonxenoversal_shyleon",
+      "id": "shyleon_shyleon_astral",
       "variant": "level_up",
       "result": "shyleon astral",
       "consumeHeldItem": false,
@@ -562,7 +562,7 @@
   "moves": [
     "1:absorb",
     "1:pound",
-    "6:disarmingvoicesound",
+    "6:disarmingvoice",
     "13:camouflage",
     "18:leaftornado",
     "23:magicalleaf",
@@ -576,7 +576,7 @@
     "61:leafstorm",
     "1:earthpower",
     "tm:calmmind",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -590,7 +590,7 @@
     "tm:reflect",
     "tm:facade",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:energyball",
     "tm:fling",
     "tm:gigaimpact",
@@ -611,8 +611,8 @@
     "tutor:magicwall",
     "tutor:secretpower",
     "tutor:seedbomb",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:synthesis",
     "tutor:worryseed"  ],
   "labels": [
@@ -624,7 +624,7 @@
   ],
   "evolutions": [
     {
-      "id": "shyleonastral_shyleon",
+      "id": "shyleon_shyleon",
       "variant": "level_up",
       "result": "shyleon",
       "consumeHeldItem": false,
@@ -635,7 +635,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleonastral_shyleon",
+      "id": "shyleon_shyleon_terrestrial",
       "variant": "level_up",
       "result": "shyleon terrestrial",
       "consumeHeldItem": false,
@@ -649,7 +649,7 @@
       "permanent": true   
  },
     {
-      "id": "shyleonastral_shyleon",
+      "id": "shyleon_shyleon_xenoversal",
       "variant": "level_up",
       "result": "shyleon xenoversal",
       "consumeHeldItem": false,
@@ -733,7 +733,7 @@
   "moves": [
     "1:absorb",
     "1:pound",
-    "6:disarmingvoicesound",
+    "6:disarmingvoice",
     "13:camouflage",
     "18:leaftornado",
     "23:magicalleaf",

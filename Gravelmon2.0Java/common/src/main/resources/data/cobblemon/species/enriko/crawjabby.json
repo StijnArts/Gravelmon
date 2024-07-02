@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "crawjabby_Lobbercut",
+      "id": "crawjabby_lobbercut",
       "variant": "level_up",
       "result": "Lobbercut",
       "consumeHeldItem": false,

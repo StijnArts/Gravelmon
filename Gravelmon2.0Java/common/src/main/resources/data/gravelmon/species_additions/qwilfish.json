@@ -1,5 +1,31 @@
 {
    "target": "cobblemon:qwilfish",
+  "evolutions": [
+    {
+      "id": "qwilfish_kablowfish",
+      "variant": "level_up",
+      "result": "kablowfish",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
    "forms": [{
   "name": "Fligian",
   "primaryType": "water",
@@ -69,7 +95,7 @@
     "53:destinybond",
     "57:hydropump",
     "60:fellstinger",
-    "tm:snoresound",
+    "tm:snore",
     "tm:icywind",
     "tm:painsplit",
     "tm:signalbeam",
@@ -93,7 +119,7 @@
     "tm:sludgebomb",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",
@@ -107,7 +133,7 @@
     "tm:poisonjab",
     "tm:venoshock",
     "tm:sludgewave",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
     "tm:confide",
     "tm:supersonic",
@@ -127,7 +153,7 @@
   ],
   "evolutions": [
     {
-      "id": "fligianqwilfish_barbray",
+      "id": "qwilfish_barbray",
       "variant": "level_up",
       "result": "barbray",
       "consumeHeldItem": false,
@@ -211,7 +237,7 @@
   "moves": [
     "egg:taunt",
     "egg:ragingwaves",
-    "egg:hypervoicesound",
+    "egg:hypervoice",
     "tm:surf",
     "tm:waterfall",
     "tm:dive",

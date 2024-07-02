@@ -73,7 +73,7 @@
   ],
   "evolutions": [
     {
-      "id": "hiziangligar_gliscor",
+      "id": "gligar_gliscor_hizian",
       "variant": "level_up",
       "result": "gliscor hizian",
       "consumeHeldItem": false,

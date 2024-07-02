@@ -80,7 +80,7 @@
   "preEvolution": "baulder",
   "evolutions": [
     {
-      "id": "dredrock_Tekagon",
+      "id": "dredrock_tekagon",
       "variant": "level_up",
       "result": "Tekagon",
       "consumeHeldItem": false,

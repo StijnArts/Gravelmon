@@ -103,7 +103,7 @@
     "tm:xscissor",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:cut",
     "tm:strength",
     "tutor:ancientpower",
@@ -118,18 +118,21 @@
     "egg:disable",
     "egg:drillpeck",
     "egg:poisonsting",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:rockblast",
     "egg:signalbeam",
     "egg:steamroller",
     "egg:twineedle"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.trenchula.desc"
   ],
+  "preEvolution": "minarac",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,

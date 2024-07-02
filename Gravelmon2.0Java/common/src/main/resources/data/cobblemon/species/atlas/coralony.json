@@ -59,7 +59,7 @@
   ],
   "evolutions": [
     {
-      "id": "coralony_Barreef",
+      "id": "coralony_barreef",
       "variant": "level_up",
       "result": "Barreef",
       "consumeHeldItem": false,

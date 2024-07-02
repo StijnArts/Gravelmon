@@ -53,7 +53,7 @@
     "1:pursuit",
     "1:beatup",
     "35:foulplay",
-    "65:wormholecosmic",
+    "65:wormhole",
     "72:devastate",
     "tm:waterpulse",
     "tm:thunderwave",
@@ -80,7 +80,7 @@
     "egg:moonlight",
     "egg:circlethrow",
     "egg:leer",
-    "egg:perishsongsound",
+    "egg:perishsong",
     "egg:lockon"  ],
   "labels": [
     "deneb",

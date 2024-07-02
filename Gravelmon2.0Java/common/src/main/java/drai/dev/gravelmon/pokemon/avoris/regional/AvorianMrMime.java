@@ -2,6 +2,7 @@ package drai.dev.gravelmon.pokemon.avoris.regional;
 
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
 
 import java.util.*;
 
@@ -66,6 +67,9 @@ public class AvorianMrMime extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mr. Mime");
+        addAdditionalEvolution("mimejr", new EvolutionEntry("mrmime avorian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SUCKER_PUNCH.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("gabite", new MoveLearnSetEntry(Move.SUCKER_PUNCH, 18));
 
     }
 

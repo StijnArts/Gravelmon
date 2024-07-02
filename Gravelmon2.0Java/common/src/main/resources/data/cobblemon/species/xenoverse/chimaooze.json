@@ -125,7 +125,7 @@
     "50:earthquake",
     "53:energyball",
     "55:gunkshot",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -139,7 +139,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:gigaimpact",
     "tm:bulldoze",
     "tm:infestation",
@@ -156,8 +156,8 @@
     "tutor:gastroacid",
     "tutor:gunkshot",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound"  ],
+    "tutor:sleeptalk",
+    "tutor:snore"  ],
   "labels": [
     "xenoverse",
     "not_modeled"

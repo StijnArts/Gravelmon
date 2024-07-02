@@ -74,7 +74,7 @@
     "tm:shockwave",
     "tm:icywind",
     "tm:suckerpunch",
-    "tm:snoresound",
+    "tm:snore",
     "tm:grassyterrain",
     "tm:hydropump",
     "tm:solarblade",
@@ -103,7 +103,7 @@
     "tm:irontail",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:naturalgift",
     "tm:confide",
@@ -129,7 +129,7 @@
   ],
   "evolutions": [
     {
-      "id": "novranskrelp_dragalge",
+      "id": "skrelp_dragalge_novran",
       "variant": "level_up",
       "result": "dragalge novran",
       "consumeHeldItem": false,

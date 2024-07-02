@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:pinsir",
+  "evolutions": [
+    {
+      "id": "pinsir_pinchor",
+      "variant": "level_up",
+      "result": "pinchor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Hizian",
   "primaryType": "steel",
@@ -74,7 +90,7 @@
   ],
   "evolutions": [
     {
-      "id": "hizianpinsir_greapper",
+      "id": "pinsir_greapper",
       "variant": "item_interact",
       "result": "greapper",
       "consumeHeldItem": false,
@@ -322,10 +338,10 @@
     "tutor:rockslide",
     "tutor:rocksmash",
     "tutor:rocktomb",
-    "tutor:roundsound",
-    "tutor:sleeptalksound",
+    "tutor:round",
+    "tutor:sleeptalk",
     "tutor:smackdown",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock",
     "tutor:stoneedge",
     "tutor:strength",

@@ -50,7 +50,7 @@
   "moves": [
     "1:helpinghand",
     "tm:lowkick",
-    "tm:snoresound",
+    "tm:snore",
     "tm:uproar",
     "tm:helpinghand",
     "tm:roleplay",
@@ -66,7 +66,7 @@
     "tm:protect",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",
@@ -76,7 +76,7 @@
     "tm:brickbreak",
     "tm:bulkup",
     "tm:lowsweep",
-    "tm:roundsound",
+    "tm:round",
     "tm:bulldoze",
     "tm:workup",
     "tm:confide",
@@ -99,7 +99,7 @@
   ],
   "evolutions": [
     {
-      "id": "qamorantyrogue_hitmonchan",
+      "id": "tyrogue_hitmonchan_qamoran",
       "variant": "level_up",
       "result": "hitmonchan qamoran",
       "consumeHeldItem": false,
@@ -117,7 +117,7 @@
       "permanent": true   
  },
     {
-      "id": "qamorantyrogue_hitmonlee",
+      "id": "tyrogue_hitmonlee_qamoran",
       "variant": "level_up",
       "result": "hitmonlee qamoran",
       "consumeHeldItem": false,
@@ -135,7 +135,7 @@
       "permanent": true   
  },
     {
-      "id": "qamorantyrogue_hitmontop",
+      "id": "tyrogue_hitmontop_qamoran",
       "variant": "level_up",
       "result": "hitmontop qamoran",
       "consumeHeldItem": false,
@@ -223,7 +223,7 @@
   "moves": [
     "1:miracleeye",
     "tm:lowkick",
-    "tm:snoresound",
+    "tm:snore",
     "tm:uproar",
     "tm:helpinghand",
     "tm:roleplay",
@@ -239,7 +239,7 @@
     "tm:protect",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",
@@ -249,7 +249,7 @@
     "tm:brickbreak",
     "tm:bulkup",
     "tm:lowsweep",
-    "tm:roundsound",
+    "tm:round",
     "tm:bulldoze",
     "tm:workup",
     "tm:confide",
@@ -262,7 +262,7 @@
     "tm:rage",
     "tm:mimic",
     "tm:bide",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:takedown",
     "tm:submission",
     "tm:skullbash",
@@ -285,7 +285,7 @@
   ],
   "evolutions": [
     {
-      "id": "varitasiantyrogue_hitmonchan",
+      "id": "tyrogue_hitmonchan_varitasian",
       "variant": "level_up",
       "result": "hitmonchan varitasian",
       "consumeHeldItem": false,
@@ -303,7 +303,7 @@
       "permanent": true   
  },
     {
-      "id": "varitasiantyrogue_hitmonlee",
+      "id": "tyrogue_hitmonlee_varitasian",
       "variant": "level_up",
       "result": "hitmonlee varitasian",
       "consumeHeldItem": false,
@@ -321,7 +321,7 @@
       "permanent": true   
  },
     {
-      "id": "varitasiantyrogue_hitmontop",
+      "id": "tyrogue_hitmontop_varitasian",
       "variant": "level_up",
       "result": "hitmontop varitasian",
       "consumeHeldItem": false,

@@ -50,12 +50,12 @@
   "moves": [
     "1:tackle",
     "1:sandattack",
-    "4:howlsound",
+    "4:howl",
     "7:suddenstrike",
     "10:odorsleuth",
     "13:snarl",
     "15:bite",
-    "19:roarsound",
+    "19:roar",
     "22:facade",
     "25:scaryface",
     "28:crunch",
@@ -83,7 +83,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

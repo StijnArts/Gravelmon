@@ -107,5 +107,7 @@ public class Rougella extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setPreEvolution("jynx");
+        addAdditionalEvolution("jynx", new EvolutionEntry("rougella", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45"))));
     }
 }

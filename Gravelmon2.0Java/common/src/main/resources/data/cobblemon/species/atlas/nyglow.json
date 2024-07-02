@@ -53,7 +53,7 @@
     "6:detect",
     "9:thundershock",
     "12:doubleteam",
-    "16:sonicboomsound",
+    "16:sonicboom",
     "20:shockwave",
     "23:aircutter",
     "27:uturn",
@@ -61,7 +61,7 @@
     "35:signalbeam",
     "40:electroball",
     "45:lightscreen",
-    "51:bugbuzzsound",
+    "51:bugbuzz",
     "56:thunderbolt",
     "tm:acrobatics",
     "tm:aerialace",
@@ -83,10 +83,10 @@
     "tm:rest",
     "tm:return",
     "tm:roost",
-    "tm:roundsound",
+    "tm:round",
     "tm:shadowball",
     "tm:signalbeam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:sludgebomb",
     "tm:solarbeam",
     "tm:strugglebug",
@@ -122,7 +122,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

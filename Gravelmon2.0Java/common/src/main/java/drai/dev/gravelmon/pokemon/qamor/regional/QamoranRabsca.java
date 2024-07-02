@@ -56,6 +56,9 @@ public class QamoranRabsca extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Rabsca");
+        addAdditionalEvolution("rellor", new EvolutionEntry("rabsca qamoran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName() +"\""),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BLOCKS_TRAVELED,"1000"))));
 
     }
 

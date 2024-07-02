@@ -71,7 +71,7 @@
     "tm:zenheadbutt",
     "tm:recycle",
     "tm:trick",
-    "tm:hypervoicesound",
+    "tm:hypervoice",
     "tm:knockoff",
     "tm:yawn",
     "tm:gunkshot",
@@ -83,7 +83,7 @@
     "tm:phantomforce",
     "tm:endeavor",
     "tm:suckerpunch",
-    "tm:snoresound",
+    "tm:snore",
     "tm:pollenpuff",
     "tm:focusenergy",
     "tm:encore",
@@ -122,7 +122,7 @@
     "tm:infestation",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:uturn",
     "tm:substitute",
     "tm:wildcharge",
@@ -149,9 +149,9 @@
   ],
   "evolutions": [
     {
-      "id": "dusby_chloradise",
+      "id": "dusby_dusturby",
       "variant": "level_up",
-      "result": "chloradise",
+      "result": "Dusturby",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -161,7 +161,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

@@ -108,5 +108,7 @@ public class Eeveeon extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("eeveeon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:astral_stone"));
     }
 }

@@ -78,7 +78,7 @@
     "tm:phantomforce",
     "tm:suckerpunch",
     "tm:magiccoat",
-    "tm:snoresound",
+    "tm:snore",
     "tm:psychicterrain",
     "tm:ominouswind",
     "tm:focusenergy",
@@ -123,7 +123,7 @@
     "tm:thunderwave",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:trickroom",
     "tm:naturalgift",
@@ -131,7 +131,7 @@
     "tm:confide",
     "tm:skillswap",
     "tm:hex",
-    "tm:gravitycosmic"  ],
+    "tm:gravity"  ],
   "labels": [
     "novrai",
     "not_modeled"

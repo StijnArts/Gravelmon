@@ -71,9 +71,9 @@
   ],
   "evolutions": [
     {
-      "id": "chillade_chloradise",
+      "id": "chillade_frosillade",
       "variant": "level_up",
-      "result": "chloradise",
+      "result": "Frosillade",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

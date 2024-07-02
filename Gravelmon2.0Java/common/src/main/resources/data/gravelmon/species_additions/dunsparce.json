@@ -1,5 +1,77 @@
 {
    "target": "cobblemon:dunsparce",
+  "evolutions": [
+    {
+      "id": "dunsparce_quezsparce",
+      "variant": "level_up",
+      "result": "quezsparce",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "drillrun"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "dunsparce_Dustout",
+      "variant": "level_up",
+      "result": "Dustout",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dig"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "dunsparce_dunseraph",
+      "variant": "level_up",
+      "result": "dunseraph",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "skydrop"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "dunsparce_dunmyth",
+      "variant": "level_up",
+      "result": "dunmyth",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "dunsparce_auldsparce",
+      "variant": "level_up",
+      "result": "auldsparce",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Delta",
   "primaryType": "bug",
@@ -106,10 +178,10 @@
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
     "tm:silverwind",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:pluck",
@@ -139,7 +211,7 @@
     "tutor:mimic",
     "tutor:mudslap",
     "tutor:signalbeam",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite",
     "tutor:stringshot",
     "tutor:superfang",
@@ -221,12 +293,12 @@
     "field"
   ],
   "moves": [
-    "egg:sleeptalksound",
-    "egg:cosmicpowercosmic",
+    "egg:sleeptalk",
+    "egg:cosmicpower",
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -254,7 +326,7 @@
     "23:bodyslam",
     "28:dig",
     "33:thunderbolt",
-    "37:screechsound",
+    "37:screech",
     "42:thunder",
     "46:zapcannon"  ],
   "labels": [
@@ -267,7 +339,7 @@
   ],
   "evolutions": [
     {
-      "id": "hoenniandunsparce_drasparath",
+      "id": "dunsparce_drasparath",
       "variant": "level_up",
       "result": "drasparath",
       "consumeHeldItem": false,

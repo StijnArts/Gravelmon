@@ -1,5 +1,29 @@
 {
    "target": "cobblemon:tentacruel",
+  "evolutions": [
+    {
+      "id": "tentacruel_tentyrant",
+      "variant": "item_interact",
+      "result": "tentyrant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:water_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
    "forms": [{
   "name": "Delta",
   "primaryType": "grass",
@@ -101,9 +125,9 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:corrode",
     "tm:quash",
@@ -125,7 +149,7 @@
     "tutor:mimic",
     "tutor:painsplit",
     "tutor:seedbomb",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite",
     "tutor:synthesis",
     "tutor:whirlpool",
@@ -358,12 +382,12 @@
     "tm:reflect",
     "tm:sludgebomb",
     "tm:rest",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:scald",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:trickroom",
     "tm:snarl",

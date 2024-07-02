@@ -47,11 +47,26 @@
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:sun_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "cobblemon:moon_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:firespin",
     "1:hypnosis",
     "1:shellsmash",
-    "1:swiftcosmic",
+    "1:swift",
     "1:triattack",
     "34:stoneedge",
     "37:geoimpact",
@@ -82,7 +97,7 @@
     "tm:explosion",
     "tm:flash",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",

@@ -79,7 +79,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:allyswitch",
     "tm:energyball",
     "tm:fling",
@@ -124,7 +124,7 @@
   "preEvolution": "oddish form=egho",
   "evolutions": [
     {
-      "id": "eghogloom_viledoom",
+      "id": "gloom_viledoom",
       "variant": "level_up",
       "result": "viledoom",
       "consumeHeldItem": false,
@@ -138,7 +138,7 @@
       "permanent": true   
  },
     {
-      "id": "eghogloom_mortossum",
+      "id": "gloom_mortossum",
       "variant": "level_up",
       "result": "mortossum",
       "consumeHeldItem": false,

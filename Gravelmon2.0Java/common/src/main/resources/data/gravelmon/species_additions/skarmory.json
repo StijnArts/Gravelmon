@@ -1,5 +1,32 @@
 {
    "target": "cobblemon:skarmory",
+  "evolutions": [
+    {
+      "id": "skarmory_eameiru",
+      "variant": "level_up",
+      "result": "eameiru",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:silver_scale",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
+  "preEvolution": "arbird",
    "forms": [{
   "name": "Hoennian",
   "primaryType": "steel",
@@ -58,7 +85,7 @@
     "32:roost",
     "38:ironhead",
     "45:flareblitz",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",

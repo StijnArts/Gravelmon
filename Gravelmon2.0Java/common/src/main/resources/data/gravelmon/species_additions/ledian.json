@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:ledian",
+  "evolutions": [
+    {
+      "id": "ledian_ledybulk",
+      "variant": "level_up",
+      "result": "ledybulk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Alteran",
   "primaryType": "bug",
@@ -53,12 +69,12 @@
     "1:silverwind",
     "1:airslash",
     "1:agility",
-    "1:bugbuzzsound",
+    "1:bugbuzz",
     "1:doubleedge",
     "1:tackle",
     "1:supersonic",
     "1:machpunch",
-    "1:swiftcosmic",
+    "1:swift",
     "15:lightscreen",
     "15:reflect",
     "15:safeguard",
@@ -66,11 +82,11 @@
     "26:cometpunch",
     "32:batonpass",
     "37:lunge",
-    "43:cosmicpowercosmic",
+    "43:cosmicpower",
     "48:meteormash",
     "54:wish",
     "egg:wish",
-    "egg:screechsound"  ],
+    "egg:screech"  ],
   "labels": [
     "flux",
     "gen2",
@@ -184,7 +200,7 @@
     "tm:gyroball",
     "tm:swordsdance",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:uturn",
     "tm:substitute",
     "tm:trickroom",

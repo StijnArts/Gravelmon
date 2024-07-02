@@ -3,6 +3,8 @@ package drai.dev.gravelmon.pokemon.daybreak.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
 import java.util.*;
 
 import java.util.*;
@@ -128,5 +130,9 @@ public class ArmiranTyranitar extends Pokemon {
         this.setLangFileName("Tyranitar");
         this.setPortraitXYZ(0,1.8,0);
         setPreEvolution("Pupitar");
+        addAdditionalEvolution("pupitar", new EvolutionEntry("tyranitar armiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ERUPTION.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("pupitar", new MoveLearnSetEntry(Move.ERUPTION,"48"));
     }
 }

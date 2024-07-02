@@ -3,6 +3,9 @@ package drai.dev.gravelmon.pokemon.daybreak.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
 import java.util.*;
 
 import java.util.*;
@@ -111,5 +114,9 @@ public class ArmiranGarchomp extends Pokemon {
         this.setLangFileName("Garchomp");
         this.setPortraitXYZ(0,1.8,0);
         setPreEvolution("Gabite");
+        addAdditionalEvolution("gabite", new EvolutionEntry("garchomp armiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.FAIRY_RUSH.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("gabite", new MoveLearnSetEntry(Move.FAIRY_RUSH, 48));
     }
 }

@@ -1,5 +1,48 @@
 {
    "target": "cobblemon:combee",
+  "evolutions": [
+    {
+      "id": "combee_draftbee",
+      "variant": "level_up",
+      "result": "draftbee",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 21
+        },
+        {
+          "variant": "properties",
+          "target": "gender=male",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "combee_granvesp",
+      "variant": "item_interact",
+      "result": "granvesp",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
    "forms": [{
   "name": "Qamoran",
   "primaryType": "steel",
@@ -72,7 +115,7 @@
   ],
   "evolutions": [
     {
-      "id": "qamorancombee_vespidron",
+      "id": "combee_vespidron",
       "variant": "level_up",
       "result": "vespidron",
       "consumeHeldItem": false,
@@ -162,7 +205,7 @@
     "tutor:heatwave",
     "tutor:magnetrise",
     "tutor:signalbeam",
-    "tutor:snoresound"  ],
+    "tutor:snore"  ],
   "labels": [
     "gen4",
     "insurgence",
@@ -173,7 +216,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltacombee_vespiquen",
+      "id": "combee_vespiquen_delta",
       "variant": "item_interact",
       "result": "vespiquen delta",
       "consumeHeldItem": false,

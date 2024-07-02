@@ -59,7 +59,7 @@
     "60:flareblitz",
     "tm:hornattack",
     "tm:lick",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:rollout",
     "tm:magnitude",
     "tm:willowisp",
@@ -77,9 +77,9 @@
   "preEvolution": "pyrall",
   "evolutions": [
     {
-      "id": "baufire_chloradise",
+      "id": "baufire_inferlauf",
       "variant": "level_up",
-      "result": "chloradise",
+      "result": "Inferlauf",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

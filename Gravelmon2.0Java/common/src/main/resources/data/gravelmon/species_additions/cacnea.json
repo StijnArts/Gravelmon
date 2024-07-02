@@ -69,7 +69,7 @@
     "54:reversal",
     "tm:thunderpunch",
     "tm:lowkick",
-    "tm:snoresound",
+    "tm:snore",
     "tm:spite",
     "tm:gigadrain",
     "tm:synthesis",
@@ -116,10 +116,10 @@
     "tm:return",
     "tm:rockslide",
     "tm:rocksmash",
-    "tm:roundsound",
+    "tm:round",
     "tm:sandstorm",
     "tm:seismictoss",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:solarbeam",
     "tm:stealthrock",
     "tm:strength",
@@ -157,7 +157,7 @@
   ],
   "evolutions": [
     {
-      "id": "neocacnea_cactussle",
+      "id": "cacnea_cactussle",
       "variant": "level_up",
       "result": "cactussle",
       "consumeHeldItem": false,
@@ -277,7 +277,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:energyball",
     "tm:fling",
     "tm:brutalswing",
@@ -301,7 +301,7 @@
   ],
   "evolutions": [
     {
-      "id": "cacneax_cacturne",
+      "id": "cacnea_cacturne_x",
       "variant": "item_interact",
       "result": "cacturne x",
       "consumeHeldItem": false,

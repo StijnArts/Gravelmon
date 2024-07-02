@@ -90,7 +90,7 @@
   ],
   "evolutions": [
     {
-      "id": "cefiranmakuhita_hariyama",
+      "id": "makuhita_hariyama_cefiran",
       "variant": "level_up",
       "result": "hariyama cefiran",
       "consumeHeldItem": false,

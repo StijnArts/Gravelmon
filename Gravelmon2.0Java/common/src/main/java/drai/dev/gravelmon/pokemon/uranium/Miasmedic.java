@@ -105,5 +105,7 @@ public class Miasmedic extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         this.setPreEvolution("spritzee");
+        addAdditionalEvolution("spritzee", new EvolutionEntry("miasmedic", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:aromatic_herb"));
     }
 }

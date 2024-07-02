@@ -128,7 +128,8 @@ public class Icheon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Icheon");
-
+        addAdditionalEvolution("eevee", new EvolutionEntry("icheon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:throat_spray\""))));
     }
 
 

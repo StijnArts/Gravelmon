@@ -54,10 +54,10 @@
     "1:metalclaw",
     "1:wingattack",
     "1:scaryface",
-    "1:singsound",
-    "1:perishsongsound",
+    "1:sing",
+    "1:perishsong",
     "1:destinybond",
-    "1:screechsound"  ],
+    "1:screech"  ],
   "labels": [
     "mythire",
     "not_modeled"

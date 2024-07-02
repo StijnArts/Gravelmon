@@ -26,7 +26,7 @@ public class HavaiianHaunter extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It lurks in the darkness, luring its victims with the fire from within its body. It then licks them, completely absorbing all their energy. This is known as the 'death lick'. Chills run down your spine afterward."),
                 List.of(new EvolutionEntry("havaiiangengar", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(                     new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SMOG,1),
                         new MoveLearnSetEntry(Move.EMBER,4),

@@ -118,5 +118,7 @@ public class Sunflorid extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
                 this.setPreEvolution("sunflora");
+        addAdditionalEvolution("sunflora", new EvolutionEntry("sunflorid", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.INCINERATE, "")),
+                List.of(),List.of(),"cobblemon:fire_stone"));
     }
 }

@@ -1,5 +1,21 @@
 {
    "target": "cobblemon:luvdisc",
+  "evolutions": [
+    {
+      "id": "luvdisc_valentide",
+      "variant": "level_up",
+      "result": "valentide",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Hizian",
   "primaryType": "ghost",
@@ -54,7 +70,7 @@
     "9:nightshade",
     "13:spite",
     "17:waterpulse",
-    "20:singsound",
+    "20:sing",
     "21:nightmare",
     "22:heartstamp",
     "26:flail",
@@ -74,7 +90,7 @@
   ],
   "evolutions": [
     {
-      "id": "hizianluvdisc_luvanguish",
+      "id": "luvdisc_luvanguish",
       "variant": "level_up",
       "result": "luvanguish",
       "consumeHeldItem": false,
@@ -165,7 +181,7 @@
     "13:torment",
     "17:waterpulse",
     "20:flatter",
-    "22:swiftcosmic",
+    "22:swift",
     "26:flail",
     "31:sweetkiss",
     "34:muddywater",
@@ -194,15 +210,15 @@
     "tutor:raindance",
     "tutor:rest",
     "tutor:return",
-    "tutor:roundsound",
+    "tutor:round",
     "tutor:safeguard",
     "tutor:scald",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:substitute",
     "tutor:surf",
     "tutor:swagger",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:toxic",
     "tutor:waterfall",
     "tutor:waterpulse",
@@ -227,7 +243,7 @@
   ],
   "evolutions": [
     {
-      "id": "ayreianluvdisc_loathedisc",
+      "id": "luvdisc_loathedisc",
       "variant": "level_up",
       "result": "loathedisc",
       "consumeHeldItem": false,

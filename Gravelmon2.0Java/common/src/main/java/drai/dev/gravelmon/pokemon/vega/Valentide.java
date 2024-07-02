@@ -102,5 +102,7 @@ public class Valentide extends Pokemon {
         setAvoidsLand(true);
         setCanBreathUnderwater(true);
         setCanSwim(true);
+        addAdditionalEvolution("luvdisc", new EvolutionEntry("valentide", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))));
     }
 }

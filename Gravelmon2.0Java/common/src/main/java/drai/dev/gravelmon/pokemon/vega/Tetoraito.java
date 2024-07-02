@@ -91,5 +91,7 @@ public class Tetoraito extends Pokemon {
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
+        addAdditionalEvolution("lumineon", new EvolutionEntry("tetoraito", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:water_stone"));
     }
 }

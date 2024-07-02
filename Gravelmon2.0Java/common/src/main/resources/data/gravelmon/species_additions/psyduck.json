@@ -56,7 +56,7 @@
     "13:furyswipes",
     "16:waterpulse",
     "19:disable",
-    "22:screechsound",
+    "22:screech",
     "25:zenheadbutt",
     "28:acrobatics",
     "31:roost",
@@ -73,7 +73,7 @@
   ],
   "evolutions": [
     {
-      "id": "qamoranpsyduck_gobbledyduck",
+      "id": "psyduck_gobbledyduck",
       "variant": "item_interact",
       "result": "gobbledyduck",
       "consumeHeldItem": false,

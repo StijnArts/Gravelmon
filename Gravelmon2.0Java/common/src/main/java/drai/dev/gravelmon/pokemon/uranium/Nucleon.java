@@ -93,5 +93,8 @@ public class Nucleon extends Pokemon {
                 0.24, 0.3,
                 List.of());
         this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("nucleon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"type=nuclear\""),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20"))));
     }
 }

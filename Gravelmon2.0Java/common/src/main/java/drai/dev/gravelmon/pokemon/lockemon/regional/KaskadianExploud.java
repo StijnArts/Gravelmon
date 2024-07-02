@@ -101,5 +101,8 @@ public class KaskadianExploud extends Pokemon {
                 List.of());
         this.setLangFileName("Exploud");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("loudred", new EvolutionEntry("exploud kaskadian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\""))));
     }
 }

@@ -26,7 +26,7 @@ public class Kangazad extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("aristosiankangaskhan", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"210"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
                 List.of(                                     new MoveLearnSetEntry(Move.DOUBLE_TEAM,"tm"),
                         new MoveLearnSetEntry(Move.FIRE_BLAST,"tm"),
                         new MoveLearnSetEntry(Move.REST,"tm"),

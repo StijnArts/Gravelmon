@@ -46,6 +46,21 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:amaze_drive",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:helpinghand",
     "1:tackle",
@@ -95,8 +110,8 @@
     "tm:attract",
     "tm:thief",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:allyswitch",
     "tm:energyball",
     "tm:falseswipe",
@@ -137,14 +152,11 @@
     "egg:wish",
     "egg:yawn"  ],
   "labels": [
-    "infinity",
-    "eeveelution",
-    "fakemonevolution"
+    "infinity"
   ],
   "pokedex": [
     "cobblemon.species.omeon.desc"
   ],
-  "preEvolution": "eevee",
   "baseScale": 0.8,
   "hitbox": {
     "width": 1.1,

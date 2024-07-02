@@ -47,7 +47,7 @@
     "field"
   ],
   "moves": [
-    "6:echoedvoicesound",
+    "6:echoedvoice",
     "11:peck",
     "16:roost",
     "21:wingattack",
@@ -55,7 +55,7 @@
     "31:refresh",
     "36:amnesia",
     "41:eggbomb",
-    "46:healbellsound",
+    "46:healbell",
     "51:reflect",
     "56:drillpeck",
     "61:batonpass",

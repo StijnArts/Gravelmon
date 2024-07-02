@@ -1,5 +1,35 @@
 {
    "target": "cobblemon:arbok",
+  "evolutions": [
+    {
+      "id": "arbok_setsarec",
+      "variant": "level_up",
+      "result": "setsarec",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "arbok_adnokana",
+      "variant": "level_up",
+      "result": "adnokana",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 44
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Alteran",
   "primaryType": "fighting",
@@ -55,7 +85,7 @@
     "1:rollout",
     "1:bite",
     "12:glare",
-    "17:screechsound",
+    "17:screech",
     "20:revenge",
     "27:stockpile",
     "27:swallow",

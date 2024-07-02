@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "qamorancubchoo_beartic",
+      "id": "cubchoo_beartic_qamoran",
       "variant": "level_up",
       "result": "beartic qamoran",
       "consumeHeldItem": false,

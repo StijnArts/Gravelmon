@@ -78,5 +78,7 @@ public class Mallarki extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setLangFileName("Mallar'Ki");
         this.setPreEvolution("farfetchd");
+        addAdditionalEvolution("farfetchd", new EvolutionEntry("mallarki", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"))));
     }
 }

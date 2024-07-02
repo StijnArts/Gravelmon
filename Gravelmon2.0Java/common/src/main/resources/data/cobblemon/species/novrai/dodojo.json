@@ -74,7 +74,7 @@
     "tm:phantomforce",
     "tm:endeavor",
     "tm:suckerpunch",
-    "tm:snoresound",
+    "tm:snore",
     "tm:ominouswind",
     "tm:closecombat",
     "tm:focusenergy",
@@ -107,7 +107,7 @@
     "tm:rockslide",
     "tm:irontail",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:wildcharge",
     "tm:naturalgift",
@@ -145,7 +145,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

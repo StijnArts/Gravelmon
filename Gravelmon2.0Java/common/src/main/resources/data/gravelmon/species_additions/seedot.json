@@ -80,10 +80,10 @@
     "tm:shockwave",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:dazzlinggleam",
     "tm:achillesheel",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -96,7 +96,7 @@
     "tutor:magnetrise",
     "tutor:mimic",
     "tutor:signalbeam",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:twister"  ],
   "labels": [
     "gen3",
@@ -108,7 +108,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltaseedot_nuzleaf",
+      "id": "seedot_nuzleaf_delta",
       "variant": "level_up",
       "result": "nuzleaf delta",
       "consumeHeldItem": false,

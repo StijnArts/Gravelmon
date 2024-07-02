@@ -48,7 +48,7 @@
     "bug"
   ],
   "moves": [
-    "1:swiftcosmic",
+    "1:swift",
     "6:detect",
     "11:quickattack",
     "14:visegrip",
@@ -78,7 +78,7 @@
     "tm:zenheadbutt",
     "tm:dig",
     "tm:falseswipe",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:hyperbeam",
     "tm:gigaimpact",
     "tm:return",
@@ -105,7 +105,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:raindance",
     "tm:sunnyday",

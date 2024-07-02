@@ -79,7 +79,7 @@
     "tm:nightshade",
     "tm:endure",
     "tm:bulletseed",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:seedbomb",
     "tm:grassknot",
     "tm:rest",
@@ -102,7 +102,7 @@
   ],
   "evolutions": [
     {
-      "id": "hizianlileep_cradily",
+      "id": "lileep_cradily_hizian",
       "variant": "level_up",
       "result": "cradily hizian",
       "consumeHeldItem": false,

@@ -51,7 +51,7 @@
   "moves": [
     "1:firespin",
     "4:peck",
-    "10:singsound",
+    "10:sing",
     "13:captivate",
     "17:flameburst",
     "20:attract",
@@ -64,12 +64,12 @@
     "50:morningsun",
     "52:fierydance",
     "tm:defog",
-    "tm:hypervoicesound",
+    "tm:hypervoice",
     "tm:refresh",
     "tm:tailwind",
     "tm:mysticalfire",
     "tm:magiccoat",
-    "tm:snoresound",
+    "tm:snore",
     "tm:weatherball",
     "tm:calmmind",
     "tm:hiddenpower",
@@ -94,7 +94,7 @@
     "tm:willowisp",
     "tm:flash",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:uturn",
     "tm:substitute",
     "tm:naturalgift",
@@ -132,7 +132,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

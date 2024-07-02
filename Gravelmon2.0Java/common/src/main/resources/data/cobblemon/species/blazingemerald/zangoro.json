@@ -47,13 +47,23 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:murky_claw",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "egg:jumpkick",
     "egg:poisonjab",
     "tm:cut",
     "tm:strength",
     "tm:rocksmash",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:pursuit",
     "tm:hiddenpower",

@@ -1,5 +1,29 @@
 {
    "target": "cobblemon:electrode",
+  "evolutions": [
+    {
+      "id": "electrode_sphericoil",
+      "variant": "item_interact",
+      "result": "sphericoil",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
    "forms": [{
   "name": "Norheiman",
   "primaryType": "electric",
@@ -137,7 +161,7 @@
     "mineral"
   ],
   "moves": [
-    "1:powergemcrystal",
+    "1:powergem",
     "1:stealthrock",
     "1:flamecharge",
     "1:tackle",
@@ -147,7 +171,7 @@
     "11:ancientpower",
     "13:irondefense",
     "16:chargebeam",
-    "20:swiftcosmic",
+    "20:swift",
     "22:flameburst",
     "26:psybeam",
     "29:lightscreen",
@@ -177,15 +201,15 @@
     "tutor:reflect",
     "tutor:rest",
     "tutor:return",
-    "tutor:roundsound",
+    "tutor:round",
     "tutor:selfdestruct",
     "tutor:shockwave",
     "tutor:signalbeam",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:substitute",
     "tutor:swagger",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:taunt",
     "tutor:telekinesis",
     "tutor:thief",
@@ -274,7 +298,7 @@
     "mineral"
   ],
   "moves": [
-    "1:powergemcrystal",
+    "1:powergem",
     "1:stealthrock",
     "1:flamecharge",
     "1:tackle",
@@ -284,7 +308,7 @@
     "11:ancientpower",
     "13:irondefense",
     "16:chargebeam",
-    "20:swiftcosmic",
+    "20:swift",
     "22:flameburst",
     "26:psybeam",
     "29:lightscreen",
@@ -314,15 +338,15 @@
     "tutor:reflect",
     "tutor:rest",
     "tutor:return",
-    "tutor:roundsound",
+    "tutor:round",
     "tutor:selfdestruct",
     "tutor:shockwave",
     "tutor:signalbeam",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:substitute",
     "tutor:swagger",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:taunt",
     "tutor:telekinesis",
     "tutor:thief",

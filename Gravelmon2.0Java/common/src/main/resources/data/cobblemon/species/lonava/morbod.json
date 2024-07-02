@@ -57,7 +57,7 @@
     "20:taunt",
     "24:assurance",
     "29:furyswipes",
-    "32:screechsound",
+    "32:screech",
     "36:nightslash",
     "40:nastyplot",
     "44:playrough"  ],
@@ -82,7 +82,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

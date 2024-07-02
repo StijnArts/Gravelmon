@@ -1,5 +1,45 @@
 {
    "target": "cobblemon:persian",
+  "evolutions": [
+    {
+      "id": "persian_faeralynx",
+      "variant": "level_up",
+      "result": "faeralynx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "faengrush"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "persian_slynx",
+      "variant": "level_up",
+      "result": "slynx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:razor_claw"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
    "forms": [{
   "name": "Cefiranfire",
   "primaryType": "normal",
@@ -56,7 +96,7 @@
     "6:ember",
     "9:fakeout",
     "14:furyswipes",
-    "17:screechsound",
+    "17:screech",
     "22:feintattack",
     "25:taunt",
     "28:firefang",
@@ -167,7 +207,7 @@
     "6:ember",
     "9:fakeout",
     "14:furyswipes",
-    "17:screechsound",
+    "17:screech",
     "22:feintattack",
     "25:taunt",
     "28:firefang",
@@ -278,7 +318,7 @@
     "6:ember",
     "9:fakeout",
     "14:furyswipes",
-    "17:screechsound",
+    "17:screech",
     "22:feintattack",
     "25:taunt",
     "28:firefang",

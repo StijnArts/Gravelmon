@@ -1,5 +1,25 @@
 {
    "target": "cobblemon:grovyle",
+  "evolutions": [
+    {
+      "id": "grovyle_sceptile_armiran",
+      "variant": "level_up",
+      "result": "sceptile armiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_swamp"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Fligian",
   "primaryType": "rock",
@@ -56,7 +76,7 @@
     "22:slash",
     "26:airslash",
     "30:rockpolish",
-    "36:powergemcrystal",
+    "36:powergem",
     "42:nightslash",
     "46:focusenergy",
     "50:stoneedge",
@@ -73,7 +93,7 @@
   "preEvolution": "treecko form=fligian",
   "evolutions": [
     {
-      "id": "fligiangrovyle_sceptile",
+      "id": "grovyle_sceptile_fligian",
       "variant": "level_up",
       "result": "sceptile fligian",
       "consumeHeldItem": false,
@@ -172,7 +192,7 @@
     "48:bounce",
     "53:quickguard",
     "58:highjumpkick",
-    "63:screechsound",
+    "63:screech",
     "tm:honeclaws",
     "tm:dragonclaw",
     "tm:toxic",
@@ -209,11 +229,11 @@
     "tm:uturn",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:acrobatics",
     "tm:achillesheel",
-    "tm:echoedvoicesound",
-    "tm:roundsound",
+    "tm:echoedvoice",
+    "tm:round",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -235,7 +255,7 @@
     "tutor:focuspunch",
     "tutor:helpinghand",
     "tutor:highjumpkick",
-    "tutor:hypervoicesound",
+    "tutor:hypervoice",
     "tutor:icepunch",
     "tutor:knockoff",
     "tutor:lastresort",
@@ -244,7 +264,7 @@
     "tutor:megapunch",
     "tutor:mimic",
     "tutor:seismictoss",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:superpower",
     "tutor:thunderpunch",
     "tutor:uproar",
@@ -260,7 +280,7 @@
   "preEvolution": "treecko form=delta",
   "evolutions": [
     {
-      "id": "deltagrovyle_sceptile",
+      "id": "grovyle_sceptile_delta",
       "variant": "level_up",
       "result": "sceptile delta",
       "consumeHeldItem": false,
@@ -371,7 +391,7 @@
   "preEvolution": "treecko form=mystic",
   "evolutions": [
     {
-      "id": "mysticgrovyle_sceptile",
+      "id": "grovyle_sceptile_mystic",
       "variant": "level_up",
       "result": "sceptile mystic",
       "consumeHeldItem": false,

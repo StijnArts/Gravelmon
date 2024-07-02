@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:jungle_crown",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:bulkup",
     "1:drainpunch",
@@ -55,7 +65,7 @@
     "1:rage",
     "9:furyswipes",
     "13:karatechop",
-    "21:screechsound",
+    "21:screech",
     "25:assurance",
     "28:rage",
     "35:swagger",
@@ -98,7 +108,7 @@
     "tm:rocksmash",
     "tm:rocktomb",
     "tm:roleplay",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:spite",
     "tm:stoneedge",
     "tm:strength",
@@ -124,11 +134,11 @@
     "egg:nightslash",
     "egg:revenge",
     "egg:reversal",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:honeclaws",
     "egg:smackdown",
     "egg:lowsweep",
-    "egg:roundsound",
+    "egg:round",
     "egg:acrobatics",
     "egg:retaliate",
     "egg:bulldoze"  ],

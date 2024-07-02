@@ -72,8 +72,8 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:skydrop",
     "tm:acrobatics",
     "tm:swagger",
@@ -85,7 +85,7 @@
     "tutor:icywind",
     "tutor:lowkick",
     "tutor:secretpower",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:tailwind"  ],
   "labels": [
     "xenoverse",
@@ -96,7 +96,7 @@
   ],
   "evolutions": [
     {
-      "id": "ponytax_rapidash",
+      "id": "ponyta_rapidash_x",
       "variant": "level_up",
       "result": "rapidash x",
       "consumeHeldItem": false,

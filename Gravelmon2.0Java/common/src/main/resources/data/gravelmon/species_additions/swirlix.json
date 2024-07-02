@@ -64,7 +64,7 @@
     "9:disable",
     "12:leechseed",
     "15:faketears",
-    "18:roundsound",
+    "18:round",
     "20:slackoff",
     "21:toxic",
     "24:gastroacid",
@@ -88,7 +88,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:psychup",
     "tm:poisonjab",
     "tm:swagger",
@@ -104,7 +104,7 @@
   ],
   "evolutions": [
     {
-      "id": "swirlixx_slurpuff",
+      "id": "swirlix_slurpuff_x",
       "variant": "item_interact",
       "result": "slurpuff x",
       "consumeHeldItem": false,

@@ -1,5 +1,87 @@
 {
    "target": "cobblemon:porygon2",
+  "evolutions": [
+    {
+      "id": "porygon2_porygonx",
+      "variant": "level_up",
+      "result": "porygonx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:quantum_upgrade"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "porygon2_porygonwes",
+      "variant": "level_up",
+      "result": "porygonwes",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:wes_update"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "porygon2_porygonomega",
+      "variant": "level_up",
+      "result": "porygonomega",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:amaze_drive"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "porygon2_porygony",
+      "variant": "level_up",
+      "result": "porygony",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#minecraft:is_end"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:quantum_upgrade",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:wes_update",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:amaze_drive",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
    "forms": [{
   "name": "Varitasian",
   "primaryType": "normal",
@@ -59,13 +141,13 @@
     "40:discharge",
     "45:lockon",
     "50:triattack",
-    "53:bugbuzzsound",
+    "53:bugbuzz",
     "56:magiccoat",
     "60:xscissor",
     "62:zapcannon",
     "65:fellstinger",
     "67:hyperbeam",
-    "tm:snoresound",
+    "tm:snore",
     "tm:icywind",
     "tm:painsplit",
     "tm:irontail",
@@ -74,7 +156,7 @@
     "tm:recycle",
     "tm:signalbeam",
     "tm:shockwave",
-    "tm:gravitycosmic",
+    "tm:gravity",
     "tm:lastresort",
     "tm:magnetrise",
     "tm:zenheadbutt",
@@ -99,7 +181,7 @@
     "tm:thief",
     "tm:protect",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",
@@ -113,7 +195,7 @@
     "tm:trickroom",
     "tm:chargebeam",
     "tm:psyshock",
-    "tm:roundsound",
+    "tm:round",
     "tm:confide",
     "tm:toxic",
     "tm:takedown",
@@ -130,7 +212,7 @@
     "tm:doubleteam",
     "tm:reflect",
     "tm:bide",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:skullbash",
     "tm:rest",
     "tm:thunderwave",
@@ -150,7 +232,7 @@
   "preEvolution": "porygon form=varitasian",
   "evolutions": [
     {
-      "id": "varitasianporygon2_porygon0",
+      "id": "porygon2_porygon0",
       "variant": "item_interact",
       "result": "porygon0",
       "consumeHeldItem": false,

@@ -108,5 +108,8 @@ public class EghoShellder extends Pokemon {
         this.setLangFileName("Shellder");
         this.setPortraitXYZ(0,1.8,0);
                 this.setPreEvolution("shellder");
+        addAdditionalEvolution("shellder", new EvolutionEntry("shellder egho", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:slowpoke_tail"));
+        addAdditionalItemDrop("slowpoke", "gravelmon:slowpoke_tail", null);
     }
 }

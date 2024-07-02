@@ -81,5 +81,7 @@ public class Silviper extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("seviper");
+        addAdditionalEvolution("seviper", new EvolutionEntry("silviper", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:silver_scale\""))));
     }
 }

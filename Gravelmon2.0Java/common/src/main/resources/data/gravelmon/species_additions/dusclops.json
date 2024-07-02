@@ -77,7 +77,7 @@
   "preEvolution": "duskull form=fligian",
   "evolutions": [
     {
-      "id": "fligiandusclops_dusknoir",
+      "id": "dusclops_dusknoir_fligian",
       "variant": "level_up",
       "result": "dusknoir fligian",
       "consumeHeldItem": false,

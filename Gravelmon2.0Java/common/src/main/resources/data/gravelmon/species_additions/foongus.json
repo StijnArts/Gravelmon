@@ -75,7 +75,7 @@
   ],
   "evolutions": [
     {
-      "id": "norheimanfoongus_Chantarule",
+      "id": "foongus_Chantarule",
       "variant": "item_interact",
       "result": "Chantarule",
       "consumeHeldItem": false,
@@ -87,7 +87,7 @@
       "permanent": true   
  },
     {
-      "id": "norheimanfoongus_Chantabrute",
+      "id": "foongus_Chantabrute",
       "variant": "item_interact",
       "result": "Chantabrute",
       "consumeHeldItem": false,
@@ -216,12 +216,12 @@
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:lunarcannon",
     "tm:allyswitch",
-    "tm:roundsound",
+    "tm:round",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -244,7 +244,7 @@
     "tutor:nightshade",
     "tutor:painsplit",
     "tutor:roleplay",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite",
     "tutor:trick",
     "tutor:zenheadbutt"  ],
@@ -258,7 +258,7 @@
   ],
   "evolutions": [
     {
-      "id": "deltafoongus_amoonguss",
+      "id": "foongus_amoonguss_delta",
       "variant": "level_up",
       "result": "amoonguss delta",
       "consumeHeldItem": false,

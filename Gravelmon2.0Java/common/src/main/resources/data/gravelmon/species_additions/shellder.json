@@ -1,5 +1,19 @@
 {
    "target": "cobblemon:shellder",
+  "evolutions": [
+    {
+      "id": "shellder_shellder_egho",
+      "variant": "item_interact",
+      "result": "shellder egho",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:slowpoke_tail",
+      "permanent": true   
+ }
+  ],
    "forms": [{
   "name": "Nostan",
   "primaryType": "steel",
@@ -66,7 +80,7 @@
     "61:hydropump",
     "tm:icywind",
     "tm:irondefense",
-    "tm:snoresound",
+    "tm:snore",
     "tm:liquidation",
     "tm:waterpulse",
     "tm:payback",
@@ -85,12 +99,12 @@
     "tm:mimic",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:selfdestruct",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:takedown",
     "tm:triattack",
     "tm:rage",
@@ -105,7 +119,7 @@
     "tm:takedown",
     "tm:twineedle",
     "tm:bubblebeam",
-    "tm:screechsound",
+    "tm:screech",
     "tm:barrier",
     "tm:rapidspin",
     "tm:iciclespear",
@@ -122,7 +136,7 @@
   ],
   "evolutions": [
     {
-      "id": "nostanshellder_cloyster",
+      "id": "shellder_cloyster_nostan",
       "variant": "item_interact",
       "result": "cloyster nostan",
       "consumeHeldItem": false,
@@ -238,7 +252,7 @@
     "tm:torment",
     "tm:facade",
     "tm:rest",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:falseswipe",
     "tm:scald",
     "tm:embargo",
@@ -284,7 +298,7 @@
   ],
   "evolutions": [
     {
-      "id": "norheimanshellder_hingjaw",
+      "id": "shellder_hingjaw",
       "variant": "level_up",
       "result": "hingjaw",
       "consumeHeldItem": false,
@@ -401,7 +415,7 @@
     "tm:torment",
     "tm:facade",
     "tm:rest",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:falseswipe",
     "tm:scald",
     "tm:embargo",
@@ -450,7 +464,7 @@
   "preEvolution": "shellder",
   "evolutions": [
     {
-      "id": "eghoshellder_skulkraken",
+      "id": "shellder_skulkraken",
       "variant": "level_up",
       "result": "skulkraken",
       "consumeHeldItem": false,

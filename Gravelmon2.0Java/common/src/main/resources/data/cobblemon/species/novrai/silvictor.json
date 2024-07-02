@@ -73,7 +73,7 @@
     "tm:shockwave",
     "tm:seismictoss",
     "tm:endeavor",
-    "tm:snoresound",
+    "tm:snore",
     "tm:focuspunch",
     "tm:rapidspin",
     "tm:poweruppunch",
@@ -108,7 +108,7 @@
     "tm:bulldoze",
     "tm:rockslide",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:flashcannon",
     "tm:naturalgift",
@@ -135,7 +135,7 @@
   "preEvolution": "brawnze",
   "evolutions": [
     {
-      "id": "silvictor_Goalden",
+      "id": "silvictor_goalden",
       "variant": "level_up",
       "result": "Goalden",
       "consumeHeldItem": false,

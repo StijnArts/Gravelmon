@@ -129,7 +129,8 @@ public class Astreon extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of());
         setCanFly(true);
            setLangFileName("Astreon");
-
+        addAdditionalEvolution("eevee", new EvolutionEntry("astreon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:astral_stone"));
     }
 
 

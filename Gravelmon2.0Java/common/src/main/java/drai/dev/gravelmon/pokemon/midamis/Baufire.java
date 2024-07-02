@@ -24,7 +24,7 @@ public class Baufire extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon is said to be the origin of the beliefs of demons, because of their blood red fur and its two horns. However in battle this Pokemon is as strong as a bulldozer and can take down the toughest of foes."),
-                List.of(new EvolutionEntry("chloradise", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Inferlauf", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
                 ),
                 List.of(

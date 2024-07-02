@@ -26,7 +26,7 @@ public class Oreglyph extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("They were discovered on an ancient burial site. It is believed to serve as tombstones, with each of them guarding a single grave for the rest of their life. There is a mysterious power hidden in the core of their bodies."),
                 List.of(new EvolutionEntry("geoglyphic", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,1),
                         new MoveLearnSetEntry(Move.HORN_ATTACK,1),

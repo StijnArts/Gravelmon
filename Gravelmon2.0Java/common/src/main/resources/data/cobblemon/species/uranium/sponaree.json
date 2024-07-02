@@ -58,7 +58,7 @@
     "30:bugbite",
     "37:spiderweb",
     "45:brine",
-    "53:bugbuzzsound",
+    "53:bugbuzz",
     "tm:aquatail",
     "tm:attract",
     "tm:bounce",
@@ -85,7 +85,7 @@
     "tm:return",
     "tm:shadowball",
     "tm:signalbeam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:snatch",
     "tm:stickyweb",
     "tm:strength",
@@ -109,11 +109,14 @@
     "egg:icebeam"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sponaree.desc"
   ],
+  "preEvolution": "sponee",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
