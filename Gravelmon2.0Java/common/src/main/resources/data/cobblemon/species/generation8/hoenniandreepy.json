@@ -90,8 +90,7 @@
     "egg:revenge"  ],
   "labels": [
     "blazing_emerald",
-    "gen8",
-    "not_modeled"
+    "gen8"
   ],
   "pokedex": [
     "cobblemon.species.hoenniandreepy.desc"
@@ -112,10 +111,10 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation3_deltaruinmetagross",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross.png",
+      "model": "cobblemon:generation3_deltaruinmetagross.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross/deltaruinmetagross.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross/deltaruinmetagross_shiny.png"
     }  ]
 }

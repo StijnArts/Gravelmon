@@ -1,20 +1,76 @@
 {
-  "portraitScale": 0.165,
-  "portraitTranslation": [0.0, 1.4, 0.0],
-  "profileScale": 0.22,
-  "profileTranslation": [0.0, 1.55, -20.0],
+  "head": "head",
+  "portraitScale": 1,
+  "portraitTranslation": [0.0, 0.8, 0.0],
+  "profileScale": 1,
+  "profileTranslation": [0.0, 0.8, -20.0],
+  "cry": "bedrock(warquila, cry)",
   "poses": {
-    "profile": {
-      "poseName": "profile",
-      "poseTypes": ["PROFILE"],
+    "standing": {
+      "poseName": "standing",
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, pc_fix)"]
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "look",
+        "bedrock(warquila, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(warquila, blink)"]
+        }
+      ]
     },
-    "portrait": {
-      "poseName": "portrait",
-      "poseTypes": ["NONE","PORTRAIT"],
+    "walking": {
+      "poseName": "walking",
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, summary_fix)"]
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "look",
+        "bedrock(warquila, air_fly)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(warquila, blink)"]
+        }
+      ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [ "FLY" ],
+      "animations": [
+        "look",
+        "bedrock(warquila, air_fly)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(warquila, blink)"]
+        }
+      ]
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": [ "HOVER" ],
+      "animations": [
+        "look",
+        "bedrock(warquila, air_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(warquila, blink)"]
+        }
+      ]
     }
   }
 }

@@ -5,14 +5,27 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation8_hoenniandragapult",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult.png",
-      "layers": []
+      "model": "cobblemon:generation8_hoenniandragapult.geo",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult.png",
+      "layers": [
+        {
+          "name": "emmisive",
+          "texture":"cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire.png",
+          "emissive": true
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_shiny.png",
+      "layers": [
+        {
+          "name": "emmisive",
+          "texture":"cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire_shiny.png",
+          "emissive": true
+        }
+      ]
     }  ]
 }

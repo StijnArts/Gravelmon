@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation3_deltaruinbeldum",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaruinbeldum.png",
+      "model": "cobblemon:generation3_deltaruinbeldum.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinbeldum/deltaruinbeldum.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation3/deltaruinbeldum_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinbeldum/deltaruinbeldum_shiny.png"
     }  ]
 }

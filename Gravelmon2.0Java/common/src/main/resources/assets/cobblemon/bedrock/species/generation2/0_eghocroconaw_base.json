@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation2_eghocroconaw",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation2/eghocroconaw.png",
+      "model": "cobblemon:generation2_eghocroconaw.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/eghocroconaw/eghocroconaw.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation2/eghocroconaw_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation2/eghocroconaw/eghocroconaw_shiny.png"
     }  ]
 }

@@ -1,20 +1,96 @@
 {
-  "portraitScale": 0.165,
-  "portraitTranslation": [0.0, 1.4, 0.0],
-  "profileScale": 0.22,
-  "profileTranslation": [0.0, 1.55, -20.0],
+  "head": "head",
+  "portraitScale": 0.7,
+  "portraitTranslation": [ 0, 1, 0 ],
+  "profileScale": 0.7,
+  "profileTranslation": [ 0, 1, 0 ],
+  "animations": {
+    "cry": "q.bedrock_stateful('onix', 'cry')",
+    "faint": "q.bedrock_primary('onix', 'faint', q.curve('one'))"
+  },
   "poses": {
-    "profile": {
-      "poseName": "profile",
-      "poseTypes": ["PROFILE"],
+    "battle-idle": {
+      "poseName": "battle-idle",
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, pc_fix)"]
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["bedrock(onix, battle_idle)",
+        "bedrock(onix, boulder_rotation)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(onix, blink)"]
+        }
+      ]
     },
-    "portrait": {
-      "poseName": "portrait",
-      "poseTypes": ["NONE","PORTRAIT"],
+    "sleeping": {
+      "poseName": "sleeping",
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, summary_fix)"]
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "bedrock(onix, sleep)"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "bedrock(onix, ground_idle)",
+        "bedrock(onix, slow_boulder_rotation)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(onix, blink)"
+          ]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "bedrock(onix, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(onix, blink)"
+          ]
+        }
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SWIM"
+      ],
+      "animations": [
+        "bedrock(onix, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(onix, blink)"
+          ]
+        }
+      ]
     }
   }
 }

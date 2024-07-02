@@ -59,5 +59,8 @@ public class Oreon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("eevee");
+        setModeled(true);
+        setBaseScale(0.7);
+        setHitbox(1,1);
     }
 }
