@@ -321,17 +321,16 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltamismagius.desc"
   ],
   "preEvolution": "misdreavus form=delta",
-  "baseScale": 0.225,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

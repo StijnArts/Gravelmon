@@ -6,7 +6,7 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltamisdreavus.geo",
       "poser": "cobblemon:generation2_deltamisdreavus",
       "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus.png",
       "layers": [
@@ -35,7 +35,7 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltamisdreavus.geo",
       "poser": "cobblemon:generation2_deltamisdreavus",
       "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus_shiny.png",
       "layers": [
