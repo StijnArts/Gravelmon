@@ -30,7 +30,7 @@ side="BOTH"
 [[dependencies.gravelmon]]
 modId="gravels_extended_battles"
 mandatory=true
-versionRange="[1.0,)"
+versionRange="[1.4,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.gravelmon]]
