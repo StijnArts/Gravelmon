@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MewtwoX extends Pokemon {
-    public MewtwoX(int dexNo) {
-        super(dexNo,"MewtwoX",
+    public MewtwoX(String name, Aspect aspect) {
+        super(name, aspect,"MewtwoX",
                 Type.PSYCHIC,
                 new Stats(72, 164, 80, 164, 80, 140),
                 List.of(Ability.PROTEAN), Ability.PRESSURE,

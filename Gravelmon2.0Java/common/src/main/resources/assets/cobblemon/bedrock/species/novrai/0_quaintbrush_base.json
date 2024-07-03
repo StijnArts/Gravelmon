@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_quaintbrush",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_quaintbrush",
       "texture": "cobblemon:textures/pokemon/novrai/quaintbrush.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/quaintbrush_shiny.png"
-    }  ]
+    }
+  ]
 }

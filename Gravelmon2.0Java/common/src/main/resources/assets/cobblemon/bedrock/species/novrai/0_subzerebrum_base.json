@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_subzerebrum",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_subzerebrum",
       "texture": "cobblemon:textures/pokemon/novrai/subzerebrum.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/subzerebrum_shiny.png"
-    }  ]
+    }
+  ]
 }

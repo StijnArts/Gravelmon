@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_kuuby",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_kuuby",
       "texture": "cobblemon:textures/pokemon/kuria/kuuby.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/kuuby_shiny.png"
-    }  ]
+    }
+  ]
 }

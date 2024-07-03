@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:goetia_nitecrawler",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_nitecrawler",
       "texture": "cobblemon:textures/pokemon/goetia/nitecrawler.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/goetia/nitecrawler_shiny.png"
-    }  ]
+    }
+  ]
 }

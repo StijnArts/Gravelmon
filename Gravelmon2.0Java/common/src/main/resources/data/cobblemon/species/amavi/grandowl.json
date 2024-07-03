@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grandowl",
-  "nationalPokedexNumber": 3036,
+  "nationalPokedexNumber": 5628,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
@@ -51,10 +51,10 @@
     "1:confusion",
     "1:aircutter",
     "1:sandstorm",
-    "1:gravitycosmic",
+    "1:gravity",
     "8:quickattack",
     "17:aerialace",
-    "22:healbellsound",
+    "22:healbell",
     "28:psychocut",
     "34:tailwind",
     "38:frostbreath",

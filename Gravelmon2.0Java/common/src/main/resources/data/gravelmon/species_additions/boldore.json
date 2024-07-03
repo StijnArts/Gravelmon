@@ -1,0 +1,161 @@
+{
+   "target": "cobblemon:boldore",
+   "forms": [{
+  "name": "Armiran",
+  "primaryType": "ground",
+  "secondaryType": "ghost",
+  "abilities": [
+    "levitate",
+    "h:sandstream"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 40,
+    "defence": 105,
+    "special_attack": 50,
+    "special_defence": 105,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 137,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:powergem",
+    "1:tackle",
+    "1:harden",
+    "1:astonish",
+    "1:headbutt",
+    "4:harden",
+    "7:sandattack",
+    "10:headbutt",
+    "14:mudshot",
+    "17:willowisp",
+    "20:irondefense",
+    "23:shadowsneak",
+    "30:ancientpower",
+    "36:stealthrock",
+    "42:sandstorm",
+    "48:earthpower",
+    "55:destinybond",
+    "65:shadowball",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:frustration",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:return",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:willowisp",
+    "tm:explosion",
+    "tm:shadowclaw",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:rocksmash",
+    "tm:stealthrock",
+    "tm:strength",
+    "tutor:headbutt",
+    "tutor:bodypress",
+    "tutor:powergem",
+    "tutor:rocktomb",
+    "tutor:stealthrock",
+    "tutor:wideguard",
+    "tutor:earthpower",
+    "tutor:sandstorm",
+    "tutor:stompingtantrum",
+    "tutor:irondefense",
+    "tutor:block",
+    "tutor:earthpower",
+    "tutor:gravity",
+    "tutor:irondefense",
+    "tutor:snore",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:swagger"  ],
+  "labels": [
+    "gen5",
+    "daybreak",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.armiranboldore.desc"
+  ],
+  "preEvolution": "roggenrola form=armiran",
+  "evolutions": [
+    {
+      "id": "boldore_gigalith_armiran",
+      "variant": "trade",
+      "result": "gigalith armiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 1020,
+  "aspects": ["armiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"armiran"
+  ]
+}

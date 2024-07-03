@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class TapuBuluX extends Pokemon {
-    public TapuBuluX(int dexNo) {
-        super(dexNo,"TapuBuluX",
+    public TapuBuluX(String name, Aspect aspect) {
+        super(name, aspect,"TapuBuluX",
                 Type.DRAGON, Type.DARK,
                 new Stats(70, 160, 115, 85, 95, 75),
                 List.of(Ability.FULL_METAL_BODY), Ability.SHEER_FORCE,

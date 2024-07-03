@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_kelbanast",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_kelbanast",
       "texture": "cobblemon:textures/pokemon/isiah/kelbanast.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/kelbanast_shiny.png"
-    }  ]
+    }
+  ]
 }

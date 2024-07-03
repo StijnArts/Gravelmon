@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.infinity;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -106,5 +107,8 @@ public class Draconeon extends Pokemon {
             this.setModeled(true);
             this.setBaseScale(0.8);
             this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("draconeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.DRAGON_CLAW, "")),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:dragon_scale\""),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"night\""))));
         }
 }

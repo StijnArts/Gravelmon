@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaBlastoise extends Pokemon {
-    public DeltaBlastoise(int dexNo) {
-        super(dexNo,"DeltaBlastoise",
+    public DeltaBlastoise(String name, Aspect aspect) {
+        super(name, aspect,"DeltaBlastoise",
                 Type.DARK, Type.FIGHTING,
                 new Stats(79, 83, 100, 85, 105, 78),
                 List.of(Ability.SHADOW_CALL), Ability.SHADOW_DANCE,

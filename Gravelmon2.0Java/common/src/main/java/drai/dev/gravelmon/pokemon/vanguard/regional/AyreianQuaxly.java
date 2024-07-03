@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianQuaxly extends Pokemon {
-    public AyreianQuaxly(int dexNo) {
-        super(dexNo,"AyreianQuaxly",
+    public AyreianQuaxly(String name, Aspect aspect) {
+        super(name, aspect,"AyreianQuaxly",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(30,40,54,60,71,55),
                 List.of(Ability.TORRENT, Ability.MINDTUNING ), Ability.TECHNICIAN,

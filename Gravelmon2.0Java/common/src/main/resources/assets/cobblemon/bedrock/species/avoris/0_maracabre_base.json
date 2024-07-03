@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_maracabre",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_maracabre",
       "texture": "cobblemon:textures/pokemon/avoris/maracabre.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/maracabre_shiny.png"
-    }  ]
+    }
+  ]
 }

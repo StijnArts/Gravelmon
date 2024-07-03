@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_cocaran",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_cocaran",
       "texture": "cobblemon:textures/pokemon/uranium/cocaran.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/cocaran_shiny.png"
-    }  ]
+    }
+  ]
 }

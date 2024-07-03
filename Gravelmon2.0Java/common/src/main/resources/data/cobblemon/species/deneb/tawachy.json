@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tawachy",
-  "nationalPokedexNumber": 2890,
+  "nationalPokedexNumber": 4877,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -64,7 +64,7 @@
     "41:workup",
     "52:dynamicpunch",
     "56:focuspunch",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:tailwhip",
     "tutor:secretpower",
     "tutor:cometpunch",

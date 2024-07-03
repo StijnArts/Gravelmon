@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crynorawst",
-  "nationalPokedexNumber": 1971,
+  "nationalPokedexNumber": 3534,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -56,7 +56,7 @@
     "13:iceball",
     "17:rockslide",
     "21:headbutt",
-    "25:screechsound",
+    "25:screech",
     "28:earthquake",
     "32:megahorn",
     "36:blizzard",

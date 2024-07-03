@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_lizzle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_lizzle",
       "texture": "cobblemon:textures/pokemon/deneb/lizzle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/lizzle_shiny.png"
-    }  ]
+    }
+  ]
 }

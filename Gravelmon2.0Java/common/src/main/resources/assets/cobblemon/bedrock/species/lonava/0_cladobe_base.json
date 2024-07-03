@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_cladobe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_cladobe",
       "texture": "cobblemon:textures/pokemon/lonava/cladobe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/cladobe_shiny.png"
-    }  ]
+    }
+  ]
 }

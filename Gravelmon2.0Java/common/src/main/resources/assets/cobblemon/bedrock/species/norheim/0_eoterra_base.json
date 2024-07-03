@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_eoterra",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_eoterra",
       "texture": "cobblemon:textures/pokemon/norheim/eoterra.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/eoterra_shiny.png"
-    }  ]
+    }
+  ]
 }

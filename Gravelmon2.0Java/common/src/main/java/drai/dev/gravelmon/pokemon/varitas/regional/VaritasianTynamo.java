@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianTynamo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTynamo(int dex) {
-        super(dex,"Tynamo",
+    public VaritasianTynamo(String name, Aspect aspect) {
+        super(name, aspect,"Tynamo",
                 Type.GROUND, Type.WATER,
                 new Stats(35,
                         55,

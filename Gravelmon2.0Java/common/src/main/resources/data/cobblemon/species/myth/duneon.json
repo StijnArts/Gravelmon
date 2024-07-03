@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "duneon",
-  "nationalPokedexNumber": 2544,
+  "nationalPokedexNumber": 4439,
   "primaryType": "ground",
   "abilities": [
     "airlock",
@@ -56,7 +56,7 @@
     "12:wish",
     "15:magnitude",
     "18:quickattack",
-    "20:screechsound",
+    "20:screech",
     "21:muddywater",
     "24:swordsdance",
     "27:earthquake",

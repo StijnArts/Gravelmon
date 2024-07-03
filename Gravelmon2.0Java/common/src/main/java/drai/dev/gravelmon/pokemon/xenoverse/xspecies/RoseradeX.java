@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class RoseradeX extends Pokemon {
-    public RoseradeX(int dexNo) {
-        super(dexNo,"RoseradeX",
+    public RoseradeX(String name, Aspect aspect) {
+        super(name, aspect,"RoseradeX",
                 Type.SOUND, Type.POISON,
                 new Stats(60, 61, 65, 134, 90, 105),
                 List.of(Ability.SERENE_GRACE), Ability.SOUNDPROOF,

@@ -1,0 +1,178 @@
+{
+   "target": "cobblemon:snorlax",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "grass",
+  "abilities": [
+    "overcoat",
+    "thickfat",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 160,
+    "attack": 110,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 110,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 189,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:woodhammer",
+    "1:amnesia",
+    "1:bulldoze",
+    "1:metronome",
+    "1:grasswhistle",
+    "1:absorb",
+    "4:rototiller",
+    "9:growth",
+    "12:bulldoze",
+    "17:razorleaf",
+    "20:ingrain",
+    "25:bodyslam",
+    "28:synthesis",
+    "33:grassyterrain",
+    "36:rollout",
+    "41:block",
+    "44:bellydrum",
+    "49:grassknot",
+    "50:earthquake",
+    "57:woodhammer",
+    "tm:bulldoze",
+    "tm:roar",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:fling",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:retaliate",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:achillesheel",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:quash",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:bodyslam",
+    "tutor:bulletseed",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:dynamicpunch",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:focuspunch",
+    "tutor:gigadrain",
+    "tutor:helpinghand",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:metronome",
+    "tutor:mimic",
+    "tutor:outrage",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:seismictoss",
+    "tutor:snore",
+    "tutor:superpower",
+    "tutor:synthesis",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:whirlpool",
+    "tutor:worryseed",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen1",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltasnorlax.desc"
+  ],
+  "preEvolution": "munchlax form=delta",
+  "baseScale": 0.525,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 4600,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

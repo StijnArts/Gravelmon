@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaKabuto extends Pokemon {
-    public DeltaKabuto(int dexNo) {
-        super(dexNo,"DeltaKabuto",
+    public DeltaKabuto(String name, Aspect aspect) {
+        super(name, aspect,"DeltaKabuto",
                 Type.BUG, Type.DARK,
                 new Stats(30, 80, 95, 55, 45, 55),
                 List.of(Ability.SWARM, Ability.UNNERVE), Ability.TOUGH_CLAWS,

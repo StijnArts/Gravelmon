@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_darpole",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_darpole",
       "texture": "cobblemon:textures/pokemon/infinity/darpole.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/darpole_shiny.png"
-    }  ]
+    }
+  ]
 }

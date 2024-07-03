@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voltako",
-  "nationalPokedexNumber": 2373,
+  "nationalPokedexNumber": 4268,
   "primaryType": "electric",
   "abilities": [
     "suctioncups",
@@ -56,7 +56,7 @@
     "24:bodyslam",
     "28:spark",
     "32:camouflage",
-    "38:screechsound",
+    "38:screech",
     "44:amnesia",
     "50:discharge",
     "56:thunder"  ],

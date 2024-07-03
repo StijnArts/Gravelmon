@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_baulder",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_baulder",
       "texture": "cobblemon:textures/pokemon/myth/baulder.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/baulder_shiny.png"
-    }  ]
+    }
+  ]
 }

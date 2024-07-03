@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snalo",
-  "nationalPokedexNumber": 2757,
+  "nationalPokedexNumber": 4744,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -80,7 +80,7 @@
     "tm:cut",
     "tm:surf",
     "tm:flash",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:hydropump",
     "tutor:hiddenpower",
     "tutor:iciclecrash",

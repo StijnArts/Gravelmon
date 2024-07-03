@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_wackyderm",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_wackyderm",
       "texture": "cobblemon:textures/pokemon/novrai/wackyderm.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/wackyderm_shiny.png"
-    }  ]
+    }
+  ]
 }

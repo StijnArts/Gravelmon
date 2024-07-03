@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_wasgrowl",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_wasgrowl",
       "texture": "cobblemon:textures/pokemon/lockemon/wasgrowl.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/wasgrowl_shiny.png"
-    }  ]
+    }
+  ]
 }

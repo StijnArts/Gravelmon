@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_chimneoth",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_chimneoth",
       "texture": "cobblemon:textures/pokemon/mythire/chimneoth.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/chimneoth_shiny.png"
-    }  ]
+    }
+  ]
 }

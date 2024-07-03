@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_wendingo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_wendingo",
       "texture": "cobblemon:textures/pokemon/sage/wendingo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/wendingo_shiny.png"
-    }  ]
+    }
+  ]
 }

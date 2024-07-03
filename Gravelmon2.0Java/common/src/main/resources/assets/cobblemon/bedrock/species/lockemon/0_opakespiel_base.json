@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_opakespiel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_opakespiel",
       "texture": "cobblemon:textures/pokemon/lockemon/opakespiel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/opakespiel_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yemin",
-  "nationalPokedexNumber": 1504,
+  "nationalPokedexNumber": 2098,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -87,7 +87,7 @@
     "tm:attract",
     "tm:thief",
     "tm:lowsweep",
-    "tm:roundsound",
+    "tm:round",
     "tm:focusblast",
     "tm:fling",
     "tm:brutalswing",
@@ -116,8 +116,8 @@
     "tutor:knockoff",
     "tutor:lowkick",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:stealthrock",
     "tutor:superfang",
     "tutor:superpower",

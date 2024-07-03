@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticVoltorb extends Pokemon {
-    public MysticVoltorb(int dexNo) {
-        super(dexNo,"MysticVoltorb",
+    public MysticVoltorb(String name, Aspect aspect) {
+        super(name, aspect,"MysticVoltorb",
                 Type.PSYCHIC,
                 new Stats(40,30,50, 100,55,55),
                 List.of(Ability.TELEPATHY, Ability.ANTICIPATION), Ability.SYNCHRONIZE,

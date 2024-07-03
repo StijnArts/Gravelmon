@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianFloragato extends Pokemon {
-    public AyreianFloragato(int dexNo) {
-        super(dexNo,"AyreianFloragato",
+    public AyreianFloragato(String name, Aspect aspect) {
+        super(name, aspect,"AyreianFloragato",
                 Type.GHOST, Type.POISON,
                 new Stats(51,55,63,78,90,73),
                 List.of(Ability.INSOMNIA, Ability.MERCILESS ), Ability.PROTEAN,

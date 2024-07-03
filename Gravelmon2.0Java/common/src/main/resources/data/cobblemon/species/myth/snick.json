@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snick",
-  "nationalPokedexNumber": 2505,
+  "nationalPokedexNumber": 4400,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -54,9 +54,9 @@
     "3:quickattack",
     "9:babydolleyes",
     "12:wish",
-    "15:disarmingvoicesound",
+    "15:disarmingvoice",
     "18:aquajet",
-    "20:screechsound",
+    "20:screech",
     "egg:charm",
     "egg:flail",
     "egg:endure",
@@ -83,7 +83,7 @@
   ],
   "evolutions": [
     {
-      "id": "snick_Torsnail",
+      "id": "snick_torsnail",
       "variant": "level_up",
       "result": "Torsnail",
       "consumeHeldItem": false,

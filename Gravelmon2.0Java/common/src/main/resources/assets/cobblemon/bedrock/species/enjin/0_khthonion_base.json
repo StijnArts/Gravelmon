@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_khthonion",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_khthonion",
       "texture": "cobblemon:textures/pokemon/enjin/khthonion.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/khthonion_shiny.png"
-    }  ]
+    }
+  ]
 }

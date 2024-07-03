@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_drajinn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_drajinn",
       "texture": "cobblemon:textures/pokemon/kuria/drajinn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/drajinn_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_steank",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_steank",
       "texture": "cobblemon:textures/pokemon/enriko/steank.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/steank_shiny.png"
-    }  ]
+    }
+  ]
 }

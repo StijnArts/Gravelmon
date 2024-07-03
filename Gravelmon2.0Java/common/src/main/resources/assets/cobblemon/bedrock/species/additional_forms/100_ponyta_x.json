@@ -1,0 +1,47 @@
+{
+  "species": "cobblemon:ponyta",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:generation1_ponytax.geo",
+      "poser": "cobblemon:generation1_ponytax",
+      "texture": "cobblemon:textures/pokemon/generation1/ponytax/ponytax.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {},
+        {
+          "name": "flame"
+        },
+        {
+          "name": "emissive"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_ponytax.geo",
+      "poser": "cobblemon:generation1_ponytax",
+      "texture": "cobblemon:textures/pokemon/generation1/ponytax/ponytax_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {},
+        {
+          "name": "flame"
+        },
+        {
+          "name": "emissive"
+        }
+      ]
+    }
+  ]
+}

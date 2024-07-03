@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_amoebolt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_amoebolt",
       "texture": "cobblemon:textures/pokemon/enriko/amoebolt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/amoebolt_shiny.png"
-    }  ]
+    }
+  ]
 }

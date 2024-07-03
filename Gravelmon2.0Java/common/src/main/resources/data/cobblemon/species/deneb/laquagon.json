@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "laquagon",
-  "nationalPokedexNumber": 2783,
+  "nationalPokedexNumber": 4770,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
@@ -73,7 +73,7 @@
     "tm:waterfall",
     "tutor:bugnoise",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:hydropump",
     "tutor:nastyplot",
     "tutor:rest",

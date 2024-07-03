@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_lumishroom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_lumishroom",
       "texture": "cobblemon:textures/pokemon/sage/lumishroom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/lumishroom_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_pelasquall",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_pelasquall",
       "texture": "cobblemon:textures/pokemon/norheim/pelasquall.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/pelasquall_shiny.png"
-    }  ]
+    }
+  ]
 }

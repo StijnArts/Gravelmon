@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaWaterPetilil extends Pokemon {
-    public DeltaWaterPetilil(int dexNo) {
-        super(dexNo,"DeltaWaterPetilil",
+    public DeltaWaterPetilil(String name, Aspect aspect) {
+        super(name, aspect,"DeltaWaterPetilil",
                 Type.WATER,
                 new Stats(45, 35, 50, 70, 50, 30),
                 List.of(Ability.STORM_DRAIN, Ability.FLASH_FIRE), Ability.REGENERATOR,

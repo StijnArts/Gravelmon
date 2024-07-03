@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ionos.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianArbok extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianArbok(int dex) {
-        super(dex, "Arbok",
+    public IonosianArbok(String name, Aspect aspect) {
+        super(name, aspect, "Arbok",
                 Type.POISON, Type.DARK,
                 new Stats(0,
                         0,

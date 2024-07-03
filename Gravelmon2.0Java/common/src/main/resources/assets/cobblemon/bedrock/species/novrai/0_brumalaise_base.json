@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_brumalaise",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_brumalaise",
       "texture": "cobblemon:textures/pokemon/novrai/brumalaise.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/brumalaise_shiny.png"
-    }  ]
+    }
+  ]
 }

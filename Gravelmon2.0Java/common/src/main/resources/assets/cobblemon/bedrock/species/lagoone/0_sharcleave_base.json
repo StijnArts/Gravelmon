@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_sharcleave",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_sharcleave",
       "texture": "cobblemon:textures/pokemon/lagoone/sharcleave.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/sharcleave_shiny.png"
-    }  ]
+    }
+  ]
 }

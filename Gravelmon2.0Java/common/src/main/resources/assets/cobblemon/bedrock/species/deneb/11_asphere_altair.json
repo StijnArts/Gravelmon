@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:asphere",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "altair"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/asphere.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "altair",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/asphere_shiny.png"
+    }
+  ]
+}

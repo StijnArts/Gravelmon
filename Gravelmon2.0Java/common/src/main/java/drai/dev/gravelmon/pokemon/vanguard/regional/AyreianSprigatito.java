@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianSprigatito extends Pokemon {
-    public AyreianSprigatito(int dexNo) {
-        super(dexNo,"AyreianSprigatito",
+    public AyreianSprigatito(String name, Aspect aspect) {
+        super(name, aspect,"AyreianSprigatito",
                 Type.GHOST, Type.POISON,
                 new Stats(30,40,54,60,71,55),
                 List.of(Ability.INSOMNIA, Ability.MERCILESS ), Ability.PROTEAN,

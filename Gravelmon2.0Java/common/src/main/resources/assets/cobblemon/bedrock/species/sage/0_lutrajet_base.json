@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_lutrajet",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_lutrajet",
       "texture": "cobblemon:textures/pokemon/sage/lutrajet.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/lutrajet_shiny.png"
-    }  ]
+    }
+  ]
 }

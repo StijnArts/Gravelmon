@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_paramoth",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_paramoth",
       "texture": "cobblemon:textures/pokemon/sage/paramoth.png",
       "layers": []
     },

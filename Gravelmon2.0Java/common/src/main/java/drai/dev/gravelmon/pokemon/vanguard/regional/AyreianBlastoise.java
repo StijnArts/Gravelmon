@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianBlastoise extends Pokemon {
-    public AyreianBlastoise(int dexNo) {
-        super(dexNo,"AyreianBlastoise",
+    public AyreianBlastoise(String name, Aspect aspect) {
+        super(name, aspect,"AyreianBlastoise",
                 Type.FIGHTING, Type.STEEL,
                 new Stats(79, 113, 120, 78, 65, 95),
                 List.of(Ability.BULLETPROOF, Ability.SHELL_ARMOR), Ability.SUPREME_OVERLORD,

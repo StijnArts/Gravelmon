@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_wyrmonger",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_wyrmonger",
       "texture": "cobblemon:textures/pokemon/novrai/wyrmonger.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/wyrmonger_shiny.png"
-    }  ]
+    }
+  ]
 }

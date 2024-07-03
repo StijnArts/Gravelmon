@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_tarift",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_tarift",
       "texture": "cobblemon:textures/pokemon/junnin/tarift.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/tarift_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "aliblador",
+  "nationalPokedexNumber": 5353,
+  "primaryType": "grass",
+  "abilities": [
+    "overgrow",
+    "h:roughskin"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 87,
+    "defence": 72,
+    "special_attack": 67,
+    "special_defence": 52,
+    "speed": 67
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "moves": [
+    "1:scratch",
+    "4:leer",
+    "10:rage",
+    "13:focusenergy",
+    "16:bite",
+    "20:slam",
+    "24:scaryface",
+    "31:crunch",
+    "35:xscissor",
+    "40:thrash",
+    "48:swordsdance",
+    "52:leafstorm",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:doubleteam",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:round",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thief",
+    "tm:toxic",
+    "tm:workup",
+    "tm:xscissor",
+    "tm:leafblade",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:thunderfang",
+    "tm:poisonfang"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.aliblador.desc"
+  ],
+  "preEvolution": "nawdile",
+  "evolutions": [
+    {
+      "id": "aliblador_razorvile",
+      "variant": "level_up",
+      "result": "razorvile",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

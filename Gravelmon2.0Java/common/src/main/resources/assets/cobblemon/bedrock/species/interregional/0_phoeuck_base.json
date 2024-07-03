@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_phoeuck",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_phoeuck",
       "texture": "cobblemon:textures/pokemon/interregional/phoeuck.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/phoeuck_shiny.png"
-    }  ]
+    }
+  ]
 }

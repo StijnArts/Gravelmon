@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_neurymph",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_neurymph",
       "texture": "cobblemon:textures/pokemon/novrai/neurymph.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/neurymph_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.norheim;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -26,7 +27,7 @@ public class Wulca extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("wulcrush", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(     new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SCARY_FACE,1),
                         new MoveLearnSetEntry(Move.DIVE,1),

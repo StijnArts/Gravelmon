@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_bravelry",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_bravelry",
       "texture": "cobblemon:textures/pokemon/hiza/bravelry.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/bravelry_shiny.png"
-    }  ]
+    }
+  ]
 }

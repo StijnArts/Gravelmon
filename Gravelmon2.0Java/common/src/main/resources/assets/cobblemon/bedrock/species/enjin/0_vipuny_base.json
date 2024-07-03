@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_vipuny",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_vipuny",
       "texture": "cobblemon:textures/pokemon/enjin/vipuny.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/vipuny_shiny.png"
-    }  ]
+    }
+  ]
 }

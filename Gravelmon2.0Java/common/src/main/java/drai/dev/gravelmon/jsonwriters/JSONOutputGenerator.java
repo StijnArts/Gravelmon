@@ -4,11 +4,17 @@ import drai.dev.gravelmon.games.registry.*;
 
 public class JSONOutputGenerator {
     public static void generate(String resourcesDir) {
+        GameRegistry.games.forEach(game -> game.init());
+        SpeciesAdditionsWriter.writeAdditions(resourcesDir);
+        AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
+        AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
+        PokeBallEffectWriter.writeEffects(resourcesDir);
         for(Game game : GameRegistry.games){
             generateJsonFiles(game,resourcesDir);
         }
         //LangJSONWriter.writePlaceholder();
         //SpeciesDataJSONWriter.writePlaceholder(resourcesDir);
+        //Additional Forms
         LangJSONWriter.finalizeLang(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
     }

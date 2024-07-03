@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.lonava;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Herburrow extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -24,7 +25,7 @@ public class Herburrow extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Often found buried in soil, sleeping Herburrow's leaves have become a source of macronutrients for local Stug populations. Fortunately these curious creatures grow extremely quickly, making them very popular with students of herbalism."),
                 List.of(new EvolutionEntry("professherb", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),

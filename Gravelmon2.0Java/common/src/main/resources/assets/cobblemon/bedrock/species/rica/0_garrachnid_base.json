@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_garrachnid",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_garrachnid",
       "texture": "cobblemon:textures/pokemon/rica/garrachnid.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/garrachnid_shiny.png"
-    }  ]
+    }
+  ]
 }

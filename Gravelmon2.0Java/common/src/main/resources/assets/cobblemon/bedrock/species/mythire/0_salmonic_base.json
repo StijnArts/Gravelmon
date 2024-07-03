@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_salmonic",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_salmonic",
       "texture": "cobblemon:textures/pokemon/mythire/salmonic.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/salmonic_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.interregional.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class InterianEmpoleon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public InterianEmpoleon(int dex, Stats stats) {
-        super(dex ,"Empoleon",
+    public InterianEmpoleon(String name, Aspect aspect, Stats stats) {
+        super(name, aspect,"Empoleon",
                 Type.BUG, Type.ICE,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

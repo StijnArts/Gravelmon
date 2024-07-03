@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianBounsweet extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianBounsweet(int dex) {
-        super(dex, "Bounsweet",
+    public VaritasianBounsweet(String name, Aspect aspect) {
+        super(name, aspect, "Bounsweet",
                 Type.GHOST, Type.BUG,
                 new Stats(42,
                         30,

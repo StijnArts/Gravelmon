@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_salamancer",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_salamancer",
       "texture": "cobblemon:textures/pokemon/flux/salamancer.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/salamancer_shiny.png"
-    }  ]
+    }
+  ]
 }

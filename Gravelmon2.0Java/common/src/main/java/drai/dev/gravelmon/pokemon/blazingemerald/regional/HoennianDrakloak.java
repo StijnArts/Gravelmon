@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianDrakloak extends Pokemon {
-    public HoennianDrakloak(int dexNo) {
-        super(dexNo,"HoennianDrakloak",
+    public HoennianDrakloak(String name, Aspect aspect) {
+        super(name, aspect,"HoennianDrakloak",
                 Type.FIRE, Type.DRAGON,
                 new Stats(83, 60, 50, 85, 50, 82),
                 List.of(Ability.LEVITATE), Ability.TECHNICIAN,

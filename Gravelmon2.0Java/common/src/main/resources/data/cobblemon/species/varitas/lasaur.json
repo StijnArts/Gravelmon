@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lasaur",
-  "nationalPokedexNumber": 1762,
+  "nationalPokedexNumber": 2360,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -49,7 +49,7 @@
   ],
   "moves": [
     "1:charge",
-    "5:screechsound",
+    "5:screech",
     "10:chargebeam",
     "15:accelerock",
     "20:hornattack",
@@ -69,7 +69,7 @@
   ],
   "evolutions": [
     {
-      "id": "lasaur_Lectrosaur",
+      "id": "lasaur_lectrosaur",
       "variant": "level_up",
       "result": "Lectrosaur",
       "consumeHeldItem": false,

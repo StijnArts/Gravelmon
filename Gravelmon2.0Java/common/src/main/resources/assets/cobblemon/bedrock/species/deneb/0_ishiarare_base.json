@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_ishiarare",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_ishiarare",
       "texture": "cobblemon:textures/pokemon/deneb/ishiarare.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/ishiarare_shiny.png"
-    }  ]
+    }
+  ]
 }

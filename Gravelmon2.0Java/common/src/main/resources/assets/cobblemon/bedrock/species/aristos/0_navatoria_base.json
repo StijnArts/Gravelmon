@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:aristos_navatoria",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_navatoria",
       "texture": "cobblemon:textures/pokemon/aristos/navatoria.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/aristos/navatoria_shiny.png"
-    }  ]
+    }
+  ]
 }

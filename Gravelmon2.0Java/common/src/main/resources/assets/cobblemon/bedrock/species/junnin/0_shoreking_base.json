@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_shoreking",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_shoreking",
       "texture": "cobblemon:textures/pokemon/junnin/shoreking.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/shoreking_shiny.png"
-    }  ]
+    }
+  ]
 }

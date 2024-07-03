@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kablowfish",
-  "nationalPokedexNumber": 1440,
+  "nationalPokedexNumber": 1441,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "water_2"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:explosion",
     "1:irontail",
@@ -94,8 +104,8 @@
     "tm:facade",
     "tm:flamecharge",
     "tm:rest",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:overheat",
     "tm:scald",
     "tm:incinerate",

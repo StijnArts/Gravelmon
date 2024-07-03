@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaMeditite extends Pokemon {
-    public DeltaMeditite(int dexNo) {
-        super(dexNo,"DeltaMeditite",
+    public DeltaMeditite(String name, Aspect aspect) {
+        super(name, aspect,"DeltaMeditite",
                 Type.FAIRY,
                 new Stats(30, 40, 55, 40, 55, 60),
                 List.of(Ability.SAP_SIPPER), Ability.ATHENIAN,

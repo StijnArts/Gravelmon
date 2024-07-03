@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_maidnite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_maidnite",
       "texture": "cobblemon:textures/pokemon/atlas/maidnite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/maidnite_shiny.png"
-    }  ]
+    }
+  ]
 }

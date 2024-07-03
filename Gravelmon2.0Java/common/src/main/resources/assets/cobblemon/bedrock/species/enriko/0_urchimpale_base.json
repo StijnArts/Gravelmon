@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_urchimpale",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_urchimpale",
       "texture": "cobblemon:textures/pokemon/enriko/urchimpale.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/urchimpale_shiny.png"
-    }  ]
+    }
+  ]
 }

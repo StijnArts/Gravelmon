@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "prismarch",
-  "nationalPokedexNumber": 3165,
+  "nationalPokedexNumber": 5757,
   "primaryType": "ice",
   "secondaryType": "bug",
   "abilities": [
@@ -59,7 +59,7 @@
     "21:featherdance",
     "24:aurorabeam",
     "28:snowscape",
-    "32:bugbuzzsound",
+    "32:bugbuzz",
     "36:auroraveil",
     "40:blizzard",
     "44:tailwind",

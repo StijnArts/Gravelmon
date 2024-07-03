@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunaye",
-  "nationalPokedexNumber": 1481,
+  "nationalPokedexNumber": 1671,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -73,7 +73,7 @@
     "egg:endeavor",
     "egg:mirrorcoat",
     "egg:hypnosis",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:lavaplume",
     "egg:sweetkiss",
     "egg:yawn"  ],

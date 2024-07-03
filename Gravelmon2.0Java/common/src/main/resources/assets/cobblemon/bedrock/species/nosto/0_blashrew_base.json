@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_blashrew",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_blashrew",
       "texture": "cobblemon:textures/pokemon/nosto/blashrew.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/blashrew_shiny.png"
-    }  ]
+    }
+  ]
 }

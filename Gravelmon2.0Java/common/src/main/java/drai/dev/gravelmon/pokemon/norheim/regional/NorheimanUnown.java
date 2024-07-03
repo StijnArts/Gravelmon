@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanUnown extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanUnown(int dex) {
-        super(dex , "Unown",
+    public NorheimanUnown(String name, Aspect aspect) {
+        super(name, aspect, "Unown",
                 Type.PSYCHIC, Type.ROCK,
                 new Stats(48,
                         48,

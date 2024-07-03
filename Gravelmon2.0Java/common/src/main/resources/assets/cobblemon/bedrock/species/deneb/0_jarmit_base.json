@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_jarmit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_jarmit",
       "texture": "cobblemon:textures/pokemon/deneb/jarmit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/jarmit_shiny.png"
-    }  ]
+    }
+  ]
 }

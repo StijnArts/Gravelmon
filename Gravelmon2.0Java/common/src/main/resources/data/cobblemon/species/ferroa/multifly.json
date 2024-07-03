@@ -1,0 +1,116 @@
+{
+  "implemented": true,
+  "name": "multifly",
+  "nationalPokedexNumber": 1808,
+  "primaryType": "bug",
+  "secondaryType": "dark",
+  "abilities": [
+    "levitate",
+    "h:compoundeyes"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 62,
+    "defence": 50,
+    "special_attack": 75,
+    "special_defence": 53,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 144,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:supersonic",
+    "tm:bugbite",
+    "tm:covet",
+    "tm:electroweb",
+    "tm:helpinghand",
+    "tm:lastresort",
+    "tm:snatch",
+    "tm:snore",
+    "tm:uproar",
+    "tm:signalbeam",
+    "tm:spite",
+    "tm:laserfocus",
+    "tm:tailwind",
+    "tm:trick",
+    "tm:gunkshot",
+    "tm:knockoff",
+    "tm:skyattack",
+    "tm:dualwingbeat"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.multifly.desc"
+  ],
+  "preEvolution": "unifly",
+  "evolutions": [
+    {
+      "id": "multifly_amplifly",
+      "variant": "level_up",
+      "result": "amplifly",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

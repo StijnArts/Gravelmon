@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_valvette",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_valvette",
       "texture": "cobblemon:textures/pokemon/midamis/valvette.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/valvette_shiny.png"
-    }  ]
+    }
+  ]
 }

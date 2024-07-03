@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_aquaro",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_aquaro",
       "texture": "cobblemon:textures/pokemon/atlas/aquaro.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/aquaro_shiny.png"
-    }  ]
+    }
+  ]
 }

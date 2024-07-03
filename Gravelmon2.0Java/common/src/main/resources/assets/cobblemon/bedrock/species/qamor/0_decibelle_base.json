@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_decibelle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_decibelle",
       "texture": "cobblemon:textures/pokemon/qamor/decibelle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/decibelle_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_chardinal",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_chardinal",
       "texture": "cobblemon:textures/pokemon/sage/chardinal.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/chardinal_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_bouwee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_bouwee",
       "texture": "cobblemon:textures/pokemon/sage/bouwee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/bouwee_shiny.png"
-    }  ]
+    }
+  ]
 }

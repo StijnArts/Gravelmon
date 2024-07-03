@@ -1,0 +1,142 @@
+{
+  "implemented": true,
+  "name": "bramboom",
+  "nationalPokedexNumber": 5764,
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "abilities": [
+    "overgrow",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 115,
+    "defence": 90,
+    "special_attack": 74,
+    "special_defence": 78,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "field"
+  ],
+  "moves": [
+    "3:growl",
+    "9:sandattack",
+    "13:razorleaf",
+    "18:detect",
+    "20:bulldoze",
+    "23:honeclaws",
+    "26:slash",
+    "30:dig",
+    "37:leafblade",
+    "43:crunch",
+    "58:earthquake",
+    "65:leafstorm",
+    "tm:honeclaws",
+    "tm:frenzyplant",
+    "tm:grasspledge",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thief",
+    "tm:toxic",
+    "tm:workup",
+    "tm:xscissor",
+    "tm:mudslap"  ],
+  "labels": [
+    "cyare",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bramboom.desc"
+  ],
+  "preEvolution": "burramble",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

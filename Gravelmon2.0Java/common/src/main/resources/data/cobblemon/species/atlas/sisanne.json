@@ -1,0 +1,153 @@
+{
+  "implemented": true,
+  "name": "sisanne",
+  "nationalPokedexNumber": 5408,
+  "primaryType": "psychic",
+  "secondaryType": "fairy",
+  "abilities": [
+    "oblivious",
+    "forewarn",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 48,
+    "defence": 48,
+    "special_attack": 80,
+    "special_defence": 78,
+    "speed": 53
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 132,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:pound",
+    "4:foresight",
+    "8:fairywind",
+    "12:confusion",
+    "16:helpinghand",
+    "21:miracleeye",
+    "26:psybeam",
+    "30:wish",
+    "34:allyswitch",
+    "38:extrasensory",
+    "42:healpulse",
+    "46:moonblast",
+    "50:calmmind",
+    "55:futuresight",
+    "61:perishsong",
+    "66:healingwish",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:focusblast",
+    "tm:signalbeam",
+    "tm:energyball",
+    "tm:chargebeam",
+    "tm:fly",
+    "tm:shadowball",
+    "tm:hex",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:calmmind",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:hypnosis",
+    "tm:trickroom",
+    "tm:mistyterrain",
+    "tm:psychicterrain",
+    "tm:fly",
+    "tm:destinybond",
+    "tm:healpulse"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sisanne.desc"
+  ],
+  "preEvolution": "nunette",
+  "evolutions": [
+    {
+      "id": "sisanne_manna",
+      "variant": "level_up",
+      "result": "manna",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

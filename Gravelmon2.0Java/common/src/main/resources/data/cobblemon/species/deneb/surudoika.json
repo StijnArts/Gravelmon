@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "surudoika",
-  "nationalPokedexNumber": 2930,
+  "nationalPokedexNumber": 4917,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -72,7 +72,7 @@
     "tm:scald",
     "tm:endure",
     "tm:swordsdance",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "renemodo",
-  "nationalPokedexNumber": 2912,
+  "nationalPokedexNumber": 4899,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -51,7 +51,7 @@
     "1:powdersnow",
     "1:thundershock",
     "7:charge",
-    "14:echoedvoicesound",
+    "14:echoedvoice",
     "21:ancientpower",
     "28:pluck",
     "35:avalanche",
@@ -69,7 +69,7 @@
     "tm:thunderwave",
     "tm:rest",
     "tm:rockslide",
-    "tm:snoresound",
+    "tm:snore",
     "tm:protect",
     "tm:icywind",
     "tm:raindance",
@@ -82,7 +82,7 @@
     "tm:avalanche",
     "tm:thunderfang",
     "tm:icefang",
-    "tm:roundsound",
+    "tm:round",
     "tm:bulldoze",
     "tm:stompingtantrum"  ],
   "labels": [

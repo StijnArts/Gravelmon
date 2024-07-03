@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianTreecko extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianTreecko(int dex) {
-        super(dex, "Treecko",
+    public FligianTreecko(String name, Aspect aspect) {
+        super(name, aspect, "Treecko",
                 Type.ROCK,
                 new Stats(35,
                         65,

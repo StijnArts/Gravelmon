@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_aldina",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_aldina",
       "texture": "cobblemon:textures/pokemon/deneb/aldina.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/aldina_shiny.png"
-    }  ]
+    }
+  ]
 }

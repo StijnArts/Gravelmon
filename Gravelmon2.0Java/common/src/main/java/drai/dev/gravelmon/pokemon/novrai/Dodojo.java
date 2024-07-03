@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.novrai;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Dodojo extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -24,7 +25,7 @@ public class Dodojo extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("A recently extinct Pokemon whose fighting spirit was so tenacious that it refused to pass on. Its bones now serve as weapons for it."),
                 List.of(new EvolutionEntry("taekwondodo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.POUND,6),
@@ -108,7 +109,7 @@ public class Dodojo extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 27, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

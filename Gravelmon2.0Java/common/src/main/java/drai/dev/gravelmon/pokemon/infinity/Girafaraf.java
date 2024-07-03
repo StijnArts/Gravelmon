@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.infinity;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -142,5 +143,7 @@ public class Girafaraf extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("girafarig");
+        addAdditionalEvolution("girafarig", new EvolutionEntry("girafaraf", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:dawn_stone"));
     }
 }

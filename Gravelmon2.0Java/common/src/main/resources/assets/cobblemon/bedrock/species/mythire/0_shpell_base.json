@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_shpell",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_shpell",
       "texture": "cobblemon:textures/pokemon/mythire/shpell.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/shpell_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_raffiti",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_raffiti",
       "texture": "cobblemon:textures/pokemon/uranium/raffiti.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/raffiti_shiny.png"
-    }  ]
+    }
+  ]
 }

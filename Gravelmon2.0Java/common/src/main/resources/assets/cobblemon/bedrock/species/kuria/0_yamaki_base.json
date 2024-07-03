@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_yamaki",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_yamaki",
       "texture": "cobblemon:textures/pokemon/kuria/yamaki.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/yamaki_shiny.png"
-    }  ]
+    }
+  ]
 }

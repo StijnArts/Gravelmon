@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianRaticate extends Pokemon {
-    public KaskadianRaticate(int dexNo) {
-        super(dexNo,"KaskadianRaticate",
+    public KaskadianRaticate(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianRaticate",
                 Type.NORMAL, Type.ICE,
                 new Stats(55, 50, 70, 81, 70, 87),
                 List.of(Ability.ICE_BODY, Ability.SLUSH_RUSH), Ability.SHEER_FORCE,
@@ -94,5 +95,7 @@ public class KaskadianRaticate extends Pokemon {
                 List.of());
         this.setLangFileName("Raticate");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("rattata", new EvolutionEntry("raticate kaskadian", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:ice_stone"));
     }
 }

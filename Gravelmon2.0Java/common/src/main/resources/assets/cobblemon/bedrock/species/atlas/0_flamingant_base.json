@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_flamingant",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_flamingant",
       "texture": "cobblemon:textures/pokemon/atlas/flamingant.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/flamingant_shiny.png"
-    }  ]
+    }
+  ]
 }

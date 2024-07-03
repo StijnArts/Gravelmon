@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.daybreak.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ArmiranArcanine extends Pokemon {
-    public ArmiranArcanine(int dexNo) {
-        super(dexNo,"ArmiranArcanine",
+    public ArmiranArcanine(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranArcanine",
                 Type.WATER,
                 new Stats(90, 110, 90, 100, 90, 95),
                 List.of(Ability.INTIMIDATE,Ability.WATER_ABSORB), Ability.JUSTIFIED,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_pyrovern",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_pyrovern",
       "texture": "cobblemon:textures/pokemon/orohn-havai/pyrovern.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/pyrovern_shiny.png"
-    }  ]
+    }
+  ]
 }

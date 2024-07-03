@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_murcenary",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_murcenary",
       "texture": "cobblemon:textures/pokemon/hiza/murcenary.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/murcenary_shiny.png"
-    }  ]
+    }
+  ]
 }

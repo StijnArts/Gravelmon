@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_bovinda",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_bovinda",
       "texture": "cobblemon:textures/pokemon/isiah/bovinda.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/bovinda_shiny.png"
-    }  ]
+    }
+  ]
 }

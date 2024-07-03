@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.norheim;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -26,10 +27,10 @@ public class Strikoon extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("battlefly", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\""))),
                         new EvolutionEntry("mothight", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COUNTER,1)                        ),
                 List.of(Label.NORHEIM),

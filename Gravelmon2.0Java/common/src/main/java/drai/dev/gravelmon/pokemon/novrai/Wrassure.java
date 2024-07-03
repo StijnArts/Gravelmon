@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.novrai;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Wrassure extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -26,7 +27,7 @@ public class Wrassure extends drai.dev.gravelmon.pokemon.Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"))),
                         new EvolutionEntry("wrassassin", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUASLAP,1),
                         new MoveLearnSetEntry(Move.CUDDLE,4),

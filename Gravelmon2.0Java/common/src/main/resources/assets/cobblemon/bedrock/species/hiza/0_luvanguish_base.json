@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_luvanguish",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_luvanguish",
       "texture": "cobblemon:textures/pokemon/hiza/luvanguish.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/luvanguish_shiny.png"
-    }  ]
+    }
+  ]
 }

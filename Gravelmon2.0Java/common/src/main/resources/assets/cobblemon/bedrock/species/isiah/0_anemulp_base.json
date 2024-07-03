@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_anemulp",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_anemulp",
       "texture": "cobblemon:textures/pokemon/isiah/anemulp.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/anemulp_shiny.png"
-    }  ]
+    }
+  ]
 }

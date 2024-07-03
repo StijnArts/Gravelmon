@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_pinguin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_pinguin",
       "texture": "cobblemon:textures/pokemon/novrai/pinguin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/pinguin_shiny.png"
-    }  ]
+    }
+  ]
 }

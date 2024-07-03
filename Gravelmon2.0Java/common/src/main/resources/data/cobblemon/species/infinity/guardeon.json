@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "guardeon",
-  "nationalPokedexNumber": 1416,
+  "nationalPokedexNumber": 1417,
   "primaryType": "steel",
   "abilities": [
     "bulletproof",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:irondefense",
     "1:helpinghand",
@@ -68,7 +78,7 @@
     "45:uproar",
     "52:quickguard",
     "55:foulplay",
-    "63:hypervoicesound",
+    "63:hypervoice",
     "70:destinybond",
     "tm:calmmind",
     "tm:bulkup",
@@ -88,8 +98,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:shadowclaw",
     "tm:payback",
     "tm:gigaimpact",
@@ -104,7 +114,7 @@
     "tutor:ancientpower",
     "tutor:dragonpulse",
     "tutor:earthpower",
-    "tutor:healbellsound",
+    "tutor:healbell",
     "tutor:irontail",
     "egg:curse",
     "egg:detect",

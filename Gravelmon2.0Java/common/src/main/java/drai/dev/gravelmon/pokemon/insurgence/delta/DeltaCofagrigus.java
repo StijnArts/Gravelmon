@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaCofagrigus extends Pokemon {
-    public DeltaCofagrigus(int dexNo) {
-        super(dexNo,"DeltaCofagrigus",
+    public DeltaCofagrigus(String name, Aspect aspect) {
+        super(name, aspect,"DeltaCofagrigus",
                 Type.STEEL, Type.POISON,
                 new Stats(78, 50, 145, 95, 105, 30),
                 List.of(Ability.AFTERMATH, Ability.INFILTRATOR), Ability.WONDER_SKIN,

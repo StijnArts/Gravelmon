@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CarvanhaX extends Pokemon {
-    public CarvanhaX(int dexNo) {
-        super(dexNo,"CarvanhaX",
+    public CarvanhaX(String name, Aspect aspect) {
+        super(name, aspect,"CarvanhaX",
                 Type.WATER, Type.GHOST,
                 new Stats(45, 90, 20, 65, 20, 65),
                 List.of(Ability.CURSED_BODY, Ability.INFILTRATOR), Ability.DRY_SKIN,

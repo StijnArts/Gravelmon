@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "typheon",
-  "nationalPokedexNumber": 2311,
+  "nationalPokedexNumber": 4206,
   "primaryType": "flying",
   "abilities": [
     "aerilate",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:gust",
     "1:growl",

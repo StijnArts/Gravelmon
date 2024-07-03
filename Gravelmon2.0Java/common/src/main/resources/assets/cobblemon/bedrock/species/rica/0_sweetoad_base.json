@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_sweetoad",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_sweetoad",
       "texture": "cobblemon:textures/pokemon/rica/sweetoad.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/sweetoad_shiny.png"
-    }  ]
+    }
+  ]
 }

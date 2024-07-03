@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "platypoint",
-  "nationalPokedexNumber": 1349,
+  "nationalPokedexNumber": 1350,
   "primaryType": "poison",
   "abilities": [
     "poisonpoint",
@@ -102,7 +102,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

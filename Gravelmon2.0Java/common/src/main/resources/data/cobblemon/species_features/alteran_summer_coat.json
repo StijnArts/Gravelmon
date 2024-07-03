@@ -1,0 +1,6 @@
+{
+    "keys": [ "alteran_summer_coat" ],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

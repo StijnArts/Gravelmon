@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class TrishoutTerrestrial extends Pokemon {
-    public TrishoutTerrestrial(int dexNo) {
-        super(dexNo,"TrishoutTerrestrial",
+    public TrishoutTerrestrial(String name, Aspect aspect) {
+        super(name, aspect,"TrishoutTerrestrial",
                 Type.FIRE, Type.SOUND,
                 new Stats(88, 105, 55, 80, 44, 78),
                 List.of(Ability.GUTS), Ability.VOICE_TUNING,

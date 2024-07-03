@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_hauntlass",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_hauntlass",
       "texture": "cobblemon:textures/pokemon/hiza/hauntlass.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/hauntlass_shiny.png"
-    }  ]
+    }
+  ]
 }

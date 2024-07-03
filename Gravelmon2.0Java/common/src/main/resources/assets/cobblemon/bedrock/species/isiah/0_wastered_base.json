@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_wastered",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_wastered",
       "texture": "cobblemon:textures/pokemon/isiah/wastered.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/wastered_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "botnyak",
-  "nationalPokedexNumber": 1946,
+  "nationalPokedexNumber": 3509,
   "primaryType": "steel",
   "abilities": [
     "trace",
@@ -58,8 +58,8 @@
     "20:taunt",
     "24:swagger",
     "31:flashcannon",
-    "36:screechsound",
-    "42:hypervoicesound",
+    "36:screech",
+    "42:hypervoice",
     "48:thunderbolt",
     "54:hyperbeam",
     "egg:thunderwave",

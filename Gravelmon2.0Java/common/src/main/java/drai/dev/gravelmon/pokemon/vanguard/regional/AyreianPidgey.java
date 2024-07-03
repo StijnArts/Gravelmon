@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianPidgey extends Pokemon {
-    public AyreianPidgey(int dexNo) {
-        super(dexNo,"AyreianPidgey",
+    public AyreianPidgey(String name, Aspect aspect) {
+        super(name, aspect,"AyreianPidgey",
                 Type.GRASS, Type.FLYING,
                 new Stats(40,56,40,56,35,35),
                 List.of(Ability.FLOWER_GIFT, Ability.OVERGROW), Ability.GRASSY_SURGE,

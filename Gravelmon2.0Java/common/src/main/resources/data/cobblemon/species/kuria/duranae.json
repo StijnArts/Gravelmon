@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "duranae",
-  "nationalPokedexNumber": 2237,
+  "nationalPokedexNumber": 4132,
   "primaryType": "ground",
   "secondaryType": "bug",
   "abilities": [
@@ -66,7 +66,7 @@
     "38:whirlwind",
     "42:stealthrock",
     "46:earthquake",
-    "48:bugbuzzsound",
+    "48:bugbuzz",
     "53:shellsmash",
     "57:gunkshot",
     "60:fissure"  ],

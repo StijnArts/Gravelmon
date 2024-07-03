@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shroolumn-1",
+      "pokemon": "shroolumn",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-54",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_mushroom",
+"#cobblemon:is_lush" ]
+      }
+    }
+  ]
+}

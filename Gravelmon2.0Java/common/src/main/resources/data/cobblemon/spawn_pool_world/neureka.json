@@ -16,7 +16,7 @@
       "weight": 6.0,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky",
-"#gravelmon:is_old_growth_taiga" ]
+"#cobblemon:is_old_growth_taiga" ]
       }
     }
   ]

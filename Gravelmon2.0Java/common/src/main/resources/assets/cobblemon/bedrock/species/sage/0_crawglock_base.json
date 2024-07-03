@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_crawglock",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_crawglock",
       "texture": "cobblemon:textures/pokemon/sage/crawglock.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/crawglock_shiny.png"
-    }  ]
+    }
+  ]
 }

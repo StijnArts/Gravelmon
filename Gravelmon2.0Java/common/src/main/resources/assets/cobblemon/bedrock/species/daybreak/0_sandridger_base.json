@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:daybreak_sandridger",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:daybreak_sandridger",
       "texture": "cobblemon:textures/pokemon/daybreak/sandridger.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/daybreak/sandridger_shiny.png"
-    }  ]
+    }
+  ]
 }

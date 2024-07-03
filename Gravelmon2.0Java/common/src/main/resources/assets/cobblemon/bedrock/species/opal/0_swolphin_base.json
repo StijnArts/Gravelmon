@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_swolphin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_swolphin",
       "texture": "cobblemon:textures/pokemon/opal/swolphin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/swolphin_shiny.png"
-    }  ]
+    }
+  ]
 }

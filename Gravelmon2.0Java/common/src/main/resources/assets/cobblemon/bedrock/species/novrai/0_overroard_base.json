@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_overroard",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_overroard",
       "texture": "cobblemon:textures/pokemon/novrai/overroard.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/overroard_shiny.png"
-    }  ]
+    }
+  ]
 }

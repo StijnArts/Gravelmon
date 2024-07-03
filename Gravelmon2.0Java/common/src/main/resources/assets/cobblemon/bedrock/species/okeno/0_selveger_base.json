@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_selveger",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_selveger",
       "texture": "cobblemon:textures/pokemon/okeno/selveger.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/selveger_shiny.png"
-    }  ]
+    }
+  ]
 }

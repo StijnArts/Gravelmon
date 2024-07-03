@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_dusturby",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_dusturby",
       "texture": "cobblemon:textures/pokemon/novrai/dusturby.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/dusturby_shiny.png"
-    }  ]
+    }
+  ]
 }

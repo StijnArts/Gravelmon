@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sluggummy-1",
+      "pokemon": "sluggummy",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical",
+"minecraft:cherry_grove" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

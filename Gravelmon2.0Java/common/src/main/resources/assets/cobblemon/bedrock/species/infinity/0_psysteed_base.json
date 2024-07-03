@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_psysteed",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_psysteed",
       "texture": "cobblemon:textures/pokemon/infinity/psysteed.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/psysteed_shiny.png"
-    }  ]
+    }
+  ]
 }

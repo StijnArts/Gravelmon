@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_inflagetah",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_inflagetah",
       "texture": "cobblemon:textures/pokemon/flux/inflagetah.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/inflagetah_shiny.png"
-    }  ]
+    }
+  ]
 }

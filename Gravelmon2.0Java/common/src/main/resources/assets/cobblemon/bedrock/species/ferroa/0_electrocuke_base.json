@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_electrocuke",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_electrocuke",
       "texture": "cobblemon:textures/pokemon/ferroa/electrocuke.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/electrocuke_shiny.png"
-    }  ]
+    }
+  ]
 }

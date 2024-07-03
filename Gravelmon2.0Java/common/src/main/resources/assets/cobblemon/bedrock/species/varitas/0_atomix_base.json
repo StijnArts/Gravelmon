@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_atomix",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_atomix",
       "texture": "cobblemon:textures/pokemon/varitas/atomix.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/atomix_shiny.png"
-    }  ]
+    }
+  ]
 }

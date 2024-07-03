@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_flatriarch",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_flatriarch",
       "texture": "cobblemon:textures/pokemon/ferroa/flatriarch.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/flatriarch_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_devimp",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_devimp",
       "texture": "cobblemon:textures/pokemon/uranium/devimp.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/devimp_shiny.png"
-    }  ]
+    }
+  ]
 }

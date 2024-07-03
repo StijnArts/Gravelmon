@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lumbrill",
-  "nationalPokedexNumber": 1809,
+  "nationalPokedexNumber": 2858,
   "primaryType": "steel",
   "secondaryType": "bug",
   "abilities": [
@@ -59,7 +59,7 @@
     "68:thrash",
     "73:extremespeed",
     "tm:skittersmack",
-    "tm:snoresound",
+    "tm:snore",
     "tm:irontail",
     "tm:drillrun",
     "tm:infestation",
@@ -79,8 +79,8 @@
     "tm:hyperbeam",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

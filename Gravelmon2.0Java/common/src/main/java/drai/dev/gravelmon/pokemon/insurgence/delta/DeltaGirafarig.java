@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaGirafarig extends Pokemon {
-    public DeltaGirafarig(int dexNo) {
-        super(dexNo,"DeltaGirafarig",
+    public DeltaGirafarig(String name, Aspect aspect) {
+        super(name, aspect,"DeltaGirafarig",
                 Type.STEEL, Type.POISON,
                 new Stats(70, 80, 65, 90, 65, 85),
                 List.of(Ability.INTIMIDATE), Ability.INTIMIDATE,

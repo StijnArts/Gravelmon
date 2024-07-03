@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wochecho",
-  "nationalPokedexNumber": 2895,
+  "nationalPokedexNumber": 4882,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -52,7 +52,7 @@
     "1:peck",
     "1:quickattack",
     "6:quickattack",
-    "13:singsound",
+    "13:sing",
     "18:wingattack",
     "22:whirlwind",
     "27:aerialace",
@@ -99,7 +99,7 @@
   "preEvolution": "birarchy",
   "evolutions": [
     {
-      "id": "wochecho_Dokangu",
+      "id": "wochecho_dokangu",
       "variant": "level_up",
       "result": "Dokangu",
       "consumeHeldItem": false,

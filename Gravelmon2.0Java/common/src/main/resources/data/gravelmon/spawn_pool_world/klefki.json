@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreianklefki-1",
+      "pokemon": "klefki ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-30",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "cefiranklefki-1",
+      "pokemon": "klefki cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-40",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "timeRange": "night"
+      }
+    }
+
+]
+}

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:realideasystem_seaghoul",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:realideasystem_seaghoul",
       "texture": "cobblemon:textures/pokemon/realideasystem/seaghoul.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/realideasystem/seaghoul_shiny.png"
-    }  ]
+    }
+  ]
 }

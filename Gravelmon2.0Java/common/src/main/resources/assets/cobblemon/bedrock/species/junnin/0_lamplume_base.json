@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_lamplume",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_lamplume",
       "texture": "cobblemon:textures/pokemon/junnin/lamplume.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/lamplume_shiny.png"
-    }  ]
+    }
+  ]
 }

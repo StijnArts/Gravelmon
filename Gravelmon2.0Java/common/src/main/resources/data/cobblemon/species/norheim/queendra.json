@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "queendra",
+  "nationalPokedexNumber": 3218,
+  "primaryType": "dragon",
+  "abilities": [
+    "swiftswim",
+    "sniper",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 41,
+    "defence": 81,
+    "special_attack": 139,
+    "special_defence": 81,
+    "speed": 117
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:leer",
+    "1:thunderwave",
+    "1:twister",
+    "1:wrap",
+    "15:dragontail",
+    "20:agility",
+    "25:slam",
+    "33:aquatail",
+    "39:dragonrush",
+    "46:safeguard",
+    "53:raindance",
+    "60:dragondance",
+    "67:outrage",
+    "74:hyperbeam"  ],
+  "labels": [
+    "norheim",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.queendra.desc"
+  ],
+  "preEvolution": "seadra form=norheiman",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_mellowick",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_mellowick",
       "texture": "cobblemon:textures/pokemon/lonava/mellowick.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/mellowick_shiny.png"
-    }  ]
+    }
+  ]
 }

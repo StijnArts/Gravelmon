@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_dionysseur",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_dionysseur",
       "texture": "cobblemon:textures/pokemon/lockemon/dionysseur.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/dionysseur_shiny.png"
-    }  ]
+    }
+  ]
 }

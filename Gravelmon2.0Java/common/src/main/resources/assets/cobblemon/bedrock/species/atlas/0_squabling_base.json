@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_squabling",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_squabling",
       "texture": "cobblemon:textures/pokemon/atlas/squabling.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/squabling_shiny.png"
-    }  ]
+    }
+  ]
 }

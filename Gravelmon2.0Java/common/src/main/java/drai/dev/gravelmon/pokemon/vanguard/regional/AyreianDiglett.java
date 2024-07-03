@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class AyreianDiglett extends Pokemon {
-    public AyreianDiglett(int dexNo) {
-        super(dexNo,"AyreianDiglett",
+    public AyreianDiglett(String name, Aspect aspect) {
+        super(name, aspect,"AyreianDiglett",
                 Type.ICE,
                 new Stats(95,55,35,60,10,45),
                 List.of(Ability.SNOW_CLOAK, Ability.ARENA_TRAP), Ability.TECHNICIAN,

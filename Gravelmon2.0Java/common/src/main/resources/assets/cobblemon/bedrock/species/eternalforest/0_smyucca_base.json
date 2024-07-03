@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:eternalforest_smyucca",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_smyucca",
       "texture": "cobblemon:textures/pokemon/eternalforest/smyucca.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/eternalforest/smyucca_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drasparath",
-  "nationalPokedexNumber": 2181,
+  "nationalPokedexNumber": 3744,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
@@ -52,7 +52,7 @@
     "1:gust",
     "1:yawn",
     "1:spark",
-    "6:screechsound",
+    "6:screech",
     "9:whirlwind",
     "14:twister",
     "17:bodyslam",
@@ -64,7 +64,7 @@
     "40:thunder",
     "44:triattack",
     "49:cloudburst",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -90,8 +90,8 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
-    "egg:sleeptalksound",
-    "egg:cosmicpowercosmic"  ],
+    "egg:sleeptalk",
+    "egg:cosmicpower"  ],
   "labels": [
     "blazing_emerald",
     "gen2",
@@ -101,7 +101,7 @@
   "pokedex": [
     "cobblemon.species.drasparath.desc"
   ],
-  "preEvolution": "hoenniandunsparce",
+  "preEvolution": "dunsparce form=hoennian",
   "baseScale": 1.2249999999999999,
   "hitbox": {
     "width": 6.0,

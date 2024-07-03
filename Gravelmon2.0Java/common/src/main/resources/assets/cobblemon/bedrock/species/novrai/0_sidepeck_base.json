@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_sidepeck",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_sidepeck",
       "texture": "cobblemon:textures/pokemon/novrai/sidepeck.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/sidepeck_shiny.png"
-    }  ]
+    }
+  ]
 }

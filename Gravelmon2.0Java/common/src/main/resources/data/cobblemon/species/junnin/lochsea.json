@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lochsea",
-  "nationalPokedexNumber": 1791,
+  "nationalPokedexNumber": 2840,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -56,7 +56,7 @@
     "25:psyshock",
     "28:crunch",
     "33:aquatail",
-    "36:screechsound",
+    "36:screech",
     "41:psychicfangs",
     "44:wavecrash",
     "tm:charm"  ],

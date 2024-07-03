@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_nidoregina",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_nidoregina",
       "texture": "cobblemon:textures/pokemon/flux/nidoregina.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/nidoregina_shiny.png"
-    }  ]
+    }
+  ]
 }

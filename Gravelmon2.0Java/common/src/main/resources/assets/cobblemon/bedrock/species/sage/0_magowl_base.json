@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_magowl",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_magowl",
       "texture": "cobblemon:textures/pokemon/sage/magowl.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/magowl_shiny.png"
-    }  ]
+    }
+  ]
 }

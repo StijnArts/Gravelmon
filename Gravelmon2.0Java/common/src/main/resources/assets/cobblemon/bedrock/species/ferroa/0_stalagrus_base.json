@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_stalagrus",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_stalagrus",
       "texture": "cobblemon:textures/pokemon/ferroa/stalagrus.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/stalagrus_shiny.png"
-    }  ]
+    }
+  ]
 }

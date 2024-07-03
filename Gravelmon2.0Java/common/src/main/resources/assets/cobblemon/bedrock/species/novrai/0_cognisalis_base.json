@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_cognisalis",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_cognisalis",
       "texture": "cobblemon:textures/pokemon/novrai/cognisalis.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/cognisalis_shiny.png"
-    }  ]
+    }
+  ]
 }

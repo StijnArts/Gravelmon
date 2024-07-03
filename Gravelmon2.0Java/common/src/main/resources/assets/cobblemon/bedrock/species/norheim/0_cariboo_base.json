@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_cariboo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_cariboo",
       "texture": "cobblemon:textures/pokemon/norheim/cariboo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/cariboo_shiny.png"
-    }  ]
+    }
+  ]
 }

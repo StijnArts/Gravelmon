@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hub_monstricity",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_monstricity",
       "texture": "cobblemon:textures/pokemon/hub/monstricity.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hub/monstricity_shiny.png"
-    }  ]
+    }
+  ]
 }

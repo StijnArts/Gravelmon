@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_pterai",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_pterai",
       "texture": "cobblemon:textures/pokemon/hiza/pterai.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/pterai_shiny.png"
-    }  ]
+    }
+  ]
 }

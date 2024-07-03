@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_dicell",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_dicell",
       "texture": "cobblemon:textures/pokemon/varitas/dicell.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/dicell_shiny.png"
-    }  ]
+    }
+  ]
 }

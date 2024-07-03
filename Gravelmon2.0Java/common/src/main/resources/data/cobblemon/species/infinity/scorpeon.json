@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scorpeon",
-  "nationalPokedexNumber": 1418,
+  "nationalPokedexNumber": 1419,
   "primaryType": "poison",
   "abilities": [
     "poisontouch",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:poison_barb",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:venomswipe",
     "1:helpinghand",
@@ -53,7 +63,7 @@
     "1:tailwhip",
     "1:bite",
     "4:poisonsting",
-    "9:roarsound",
+    "9:roar",
     "15:toxicspikes",
     "19:spikyshield",
     "21:poisontail",
@@ -68,7 +78,7 @@
     "62:electroball",
     "70:nastyplot",
     "tm:honeclaws",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -86,8 +96,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:falseswipe",
     "tm:chargebeam",
     "tm:shadowclaw",

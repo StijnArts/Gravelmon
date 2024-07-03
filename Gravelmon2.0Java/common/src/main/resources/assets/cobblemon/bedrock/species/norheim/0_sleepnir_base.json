@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_sleepnir",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_sleepnir",
       "texture": "cobblemon:textures/pokemon/norheim/sleepnir.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/sleepnir_shiny.png"
-    }  ]
+    }
+  ]
 }

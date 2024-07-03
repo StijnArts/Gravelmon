@@ -69,7 +69,7 @@
     "57:leafstorm",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -97,7 +97,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:darkpulse",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:bulletseed",
     "tm:cut"  ],
   "labels": [

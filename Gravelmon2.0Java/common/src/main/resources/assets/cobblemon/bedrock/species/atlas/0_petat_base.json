@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_petat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_petat",
       "texture": "cobblemon:textures/pokemon/atlas/petat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/petat_shiny.png"
-    }  ]
+    }
+  ]
 }

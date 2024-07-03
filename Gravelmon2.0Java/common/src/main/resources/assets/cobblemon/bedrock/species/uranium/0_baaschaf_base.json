@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_baaschaf",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_baaschaf",
       "texture": "cobblemon:textures/pokemon/uranium/baaschaf.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/baaschaf_shiny.png"
-    }  ]
+    }
+  ]
 }

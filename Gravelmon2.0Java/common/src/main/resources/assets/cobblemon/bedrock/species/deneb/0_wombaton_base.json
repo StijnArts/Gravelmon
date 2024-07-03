@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_wombaton",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_wombaton",
       "texture": "cobblemon:textures/pokemon/deneb/wombaton.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/wombaton_shiny.png"
-    }  ]
+    }
+  ]
 }

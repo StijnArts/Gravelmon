@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class PyukumukuX extends Pokemon {
-    public PyukumukuX(int dexNo) {
-        super(dexNo,"PyukumukuX",
+    public PyukumukuX(String name, Aspect aspect) {
+        super(name, aspect,"PyukumukuX",
                 Type.FIGHTING,
                 new Stats(55, 130, 60, 5, 30, 130),
                 List.of(Ability.IRON_FIST), Ability.SHEER_FORCE,

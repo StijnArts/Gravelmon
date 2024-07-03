@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "neureka",
-  "nationalPokedexNumber": 2414,
+  "nationalPokedexNumber": 4309,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
@@ -54,7 +54,7 @@
     "8:confusion",
     "12:hypnosis",
     "16:thunderwave",
-    "18:screechsound",
+    "18:screech",
     "20:psybeam",
     "24:autotomize",
     "28:metalburst",

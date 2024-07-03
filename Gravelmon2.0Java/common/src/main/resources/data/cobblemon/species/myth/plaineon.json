@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plaineon",
-  "nationalPokedexNumber": 2549,
+  "nationalPokedexNumber": 4444,
   "primaryType": "normal",
   "abilities": [
     "clearbody",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "monster"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:growl",
@@ -56,12 +66,12 @@
     "12:wish",
     "15:doubleslap",
     "18:encore",
-    "20:screechsound",
-    "21:disarmingvoicesound",
+    "20:screech",
+    "21:disarmingvoice",
     "24:swordsdance",
     "29:toxic",
     "32:doublehit",
-    "40:hypervoicesound",
+    "40:hypervoice",
     "47:extremespeed",
     "51:fireblast",
     "61:recover",

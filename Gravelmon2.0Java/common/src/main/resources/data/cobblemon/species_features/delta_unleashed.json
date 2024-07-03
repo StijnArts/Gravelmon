@@ -1,0 +1,6 @@
+{
+    "keys": [ "delta_unleashed" ],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

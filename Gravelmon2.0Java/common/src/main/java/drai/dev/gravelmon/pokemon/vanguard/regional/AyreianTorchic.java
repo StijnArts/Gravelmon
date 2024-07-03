@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianTorchic extends Pokemon {
-    public AyreianTorchic(int dexNo) {
-        super(dexNo,"AyreianTorchic",
+    public AyreianTorchic(String name, Aspect aspect) {
+        super(name, aspect,"AyreianTorchic",
                 Type.GHOST, Type.FIGHTING,
                 new Stats(35,65,30,70,50,60),
                 List.of(Ability.LONG_REACH, Ability.BIRDLIKE), Ability.CONTRARY,

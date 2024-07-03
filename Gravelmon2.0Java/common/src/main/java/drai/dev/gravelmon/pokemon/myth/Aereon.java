@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.myth;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -81,5 +82,7 @@ public class Aereon extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         setCanFly(true);
+        addAdditionalEvolution("eevee", new EvolutionEntry("aereon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:air_stone"));
     }
 }

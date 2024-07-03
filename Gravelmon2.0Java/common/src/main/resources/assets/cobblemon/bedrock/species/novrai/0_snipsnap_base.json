@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_snipsnap",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_snipsnap",
       "texture": "cobblemon:textures/pokemon/novrai/snipsnap.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/snipsnap_shiny.png"
-    }  ]
+    }
+  ]
 }

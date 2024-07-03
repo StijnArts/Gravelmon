@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_pompurr",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_pompurr",
       "texture": "cobblemon:textures/pokemon/qamor/pompurr.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/pompurr_shiny.png"
-    }  ]
+    }
+  ]
 }

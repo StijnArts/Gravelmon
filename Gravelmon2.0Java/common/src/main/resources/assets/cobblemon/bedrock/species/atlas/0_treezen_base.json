@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_treezen",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_treezen",
       "texture": "cobblemon:textures/pokemon/atlas/treezen.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/treezen_shiny.png"
-    }  ]
+    }
+  ]
 }

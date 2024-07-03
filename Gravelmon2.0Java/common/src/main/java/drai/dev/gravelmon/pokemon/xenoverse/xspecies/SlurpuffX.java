@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SlurpuffX extends Pokemon {
-    public SlurpuffX(int dexNo) {
-        super(dexNo,"SlurpuffX",
+    public SlurpuffX(String name, Aspect aspect) {
+        super(name, aspect,"SlurpuffX",
                 Type.POISON,
                 new Stats(102, 80, 86, 85, 72, 52),
                 List.of(Ability.POISON_TOUCH), Ability.GLUTTONY,

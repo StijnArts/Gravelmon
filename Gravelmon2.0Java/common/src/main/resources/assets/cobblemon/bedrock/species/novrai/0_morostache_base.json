@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_morostache",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_morostache",
       "texture": "cobblemon:textures/pokemon/novrai/morostache.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/morostache_shiny.png"
-    }  ]
+    }
+  ]
 }

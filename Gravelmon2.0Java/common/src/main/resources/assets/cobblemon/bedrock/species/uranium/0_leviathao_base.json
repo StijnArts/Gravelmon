@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_leviathao",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_leviathao",
       "texture": "cobblemon:textures/pokemon/uranium/leviathao.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/leviathao_shiny.png"
-    }  ]
+    }
+  ]
 }

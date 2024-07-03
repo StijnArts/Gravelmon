@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "guppyre",
-  "nationalPokedexNumber": 2848,
+  "nationalPokedexNumber": 4835,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -107,9 +107,9 @@
     "egg:protect",
     "egg:raindance",
     "egg:reflect",
-    "egg:roarsound",
+    "egg:roar",
     "egg:safeguard",
-    "egg:screechsound",
+    "egg:screech",
     "egg:smokescreen",
     "egg:snatch",
     "egg:stoneedge",

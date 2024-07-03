@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaZweilous extends Pokemon {
-    public DeltaZweilous(int dexNo) {
-        super(dexNo,"DeltaZweilous",
+    public DeltaZweilous(String name, Aspect aspect) {
+        super(name, aspect,"DeltaZweilous",
                 Type.GROUND, Type.POISON,
                 new Stats(72, 85, 70, 65, 70, 58),
                 List.of(Ability.VENOMOUS), Ability.VENOMOUS,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_viipii",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_viipii",
       "texture": "cobblemon:textures/pokemon/sage/viipii.png",
       "layers": []
     },

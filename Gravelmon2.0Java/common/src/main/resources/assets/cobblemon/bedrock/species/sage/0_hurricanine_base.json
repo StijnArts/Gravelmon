@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_hurricanine",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_hurricanine",
       "texture": "cobblemon:textures/pokemon/sage/hurricanine.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/hurricanine_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_witherwind",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_witherwind",
       "texture": "cobblemon:textures/pokemon/kuria/witherwind.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/witherwind_shiny.png"
-    }  ]
+    }
+  ]
 }

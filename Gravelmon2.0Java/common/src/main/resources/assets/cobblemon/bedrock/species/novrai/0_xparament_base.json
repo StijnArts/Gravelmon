@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_xparament",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_xparament",
       "texture": "cobblemon:textures/pokemon/novrai/xparament.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/xparament_shiny.png"
-    }  ]
+    }
+  ]
 }

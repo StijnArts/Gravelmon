@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_motholus",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_motholus",
       "texture": "cobblemon:textures/pokemon/ionos/motholus.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/motholus_shiny.png"
-    }  ]
+    }
+  ]
 }

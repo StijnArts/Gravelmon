@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_sconsimese",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_sconsimese",
       "texture": "cobblemon:textures/pokemon/fliga/sconsimese.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/sconsimese_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,614 @@
+{
+   "target": "cobblemon:tangela",
+  "evolutions": [
+    {
+      "id": "tangela_tangorgon",
+      "variant": "item_interact",
+      "result": "tangorgon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
+  "preEvolution": "weeduza",
+   "forms": [{
+  "name": "Qamoran",
+  "primaryType": "water",
+  "abilities": [
+    "keeneye",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:watergun",
+    "3:supersonic",
+    "7:flash",
+    "13:thunderwave",
+    "16:waterpulse",
+    "20:safeguard",
+    "24:magnetrise",
+    "28:brine",
+    "33:memento",
+    "38:screech",
+    "43:raindance",
+    "49:recover",
+    "55:hydropump"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.qamorantangela.desc"
+  ],
+  "preEvolution": "weeduza",
+  "evolutions": [
+    {
+      "id": "tangela_tangrowth_qamoran",
+      "variant": "level_up",
+      "result": "tangrowth qamoran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": ["qamoran"],
+  "cannotDynamax": false
+},
+{
+  "name": "Egho",
+  "primaryType": "electric",
+  "secondaryType": "steel",
+  "abilities": [
+    "voltabsorb",
+    "motordrive",
+    "h:static"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 90,
+    "special_attack": 80,
+    "special_defence": 90,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 87,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "mineral"
+  ],
+  "moves": [
+    "1:discharge",
+    "1:thundershock",
+    "1:bind",
+    "1:magnetrise",
+    "1:vinewhip",
+    "7:protect",
+    "10:absorb",
+    "14:hiddenpower",
+    "17:coil",
+    "20:chargebeam",
+    "23:megadrain",
+    "25:ironhead",
+    "27:recover",
+    "30:irondefense",
+    "33:gigadrain",
+    "36:thunderbolt",
+    "40:flashcannon",
+    "46:powerwhip",
+    "49:simplebeam",
+    "55:autotomize",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:overheat",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:chargebeam",
+    "tm:incinerate",
+    "tm:embargo",
+    "tm:flash",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:psychup",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:wildcharge",
+    "tm:cut",
+    "tm:strength",
+    "tutor:ancientpower",
+    "tutor:drainpunch",
+    "tutor:gigadrain",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:signalbeam",
+    "tutor:stealthrock",
+    "tutor:thunderpunch",
+    "tutor:zenheadbutt",
+    "egg:batonpass",
+    "egg:electroball",
+    "egg:endeavor",
+    "egg:flail",
+    "egg:ingrain",
+    "egg:knockoff",
+    "egg:powergem",
+    "egg:powerswap",
+    "egg:spikes",
+    "egg:takedown"  ],
+  "labels": [
+    "infinity",
+    "gen1",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghotangela.desc"
+  ],
+  "preEvolution": "weeduza",
+  "evolutions": [
+    {
+      "id": "tangela_tangrowth_egho",
+      "variant": "item_interact",
+      "result": "tangrowth egho",
+      "consumeHeldItem": false,
+      "learnableMoves": [    "thunder"],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 350,
+  "aspects": ["egho"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "ground",
+  "abilities": [
+    "dryskin",
+    "sandforce",
+    "h:roughskin"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 55,
+    "defence": 115,
+    "special_attack": 100,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 87,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:endure",
+    "1:constrict",
+    "4:sandattack",
+    "7:vinewhip",
+    "10:sandtomb",
+    "14:rollout",
+    "17:bind",
+    "20:bide",
+    "23:magnitude",
+    "27:reversal",
+    "30:focusenergy",
+    "33:sandstorm",
+    "36:earthquake",
+    "38:ancientpower",
+    "41:slam",
+    "44:wideguard",
+    "46:rototiller",
+    "48:wringout",
+    "50:powerwhip",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:overheat",
+    "tm:fling",
+    "tm:embargo",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:rockslide",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:achillesheel",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:ancientpower",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:dig",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:seedbomb",
+    "tutor:snore",
+    "tutor:stealthrock",
+    "tutor:synthesis",
+    "tutor:worryseed"  ],
+  "labels": [
+    "gen1",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltatangela.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "tangela_tangrowth_delta",
+      "variant": "level_up",
+      "result": "tangrowth delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "ancientpower"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 350,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Hoennian",
+  "primaryType": "fighting",
+  "abilities": [
+    "barbednest",
+    "h:barbednest"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 115,
+    "defence": 85,
+    "special_attack": 50,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 87,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "egg:uturn",
+    "egg:snatch",
+    "tm:strength",
+    "tm:rocksmash",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:raindance",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:shimmershot",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "1:leer",
+    "4:heavypunch",
+    "10:razorleaf",
+    "13:revenge",
+    "19:knockoff",
+    "22:bulkup",
+    "28:needlearm",
+    "34:bramblebash",
+    "37:poisonjab",
+    "40:fakeout",
+    "47:submission"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen1",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoenniantangela.desc"
+  ],
+  "preEvolution": "weeduza",
+  "evolutions": [
+    {
+      "id": "tangela_tangrowth_hoennian",
+      "variant": "level_up",
+      "result": "tangrowth hoennian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "needlearm"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 308,
+  "aspects": ["hoennian"],
+  "cannotDynamax": false
+}
+], "features": [
+"qamoran",
+"egho",
+"delta",
+"hoennian"
+  ]
+}

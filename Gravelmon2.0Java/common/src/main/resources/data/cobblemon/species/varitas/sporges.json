@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sporges",
-  "nationalPokedexNumber": 1758,
+  "nationalPokedexNumber": 2356,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -49,9 +49,9 @@
   ],
   "moves": [
     "1:petalblizzard",
-    "tm:snoresound",
+    "tm:snore",
     "tm:gigadrain",
-    "tm:healbellsound",
+    "tm:healbell",
     "tm:synthesis",
     "tm:helpinghand",
     "tm:magiccoat",
@@ -73,7 +73,7 @@
     "tm:protect",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:safeguard",
@@ -86,8 +86,8 @@
     "tm:energyball",
     "tm:gigaimpact",
     "tm:grassknot",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:confide",
     "tm:dazzlinggleam",
     "tm:camouflage",
@@ -103,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.sporges.desc"
   ],
-  "preEvolution": "varitasianfloette",
+  "preEvolution": "floette form=varitasian",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,

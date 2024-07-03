@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_swirrell",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_swirrell",
       "texture": "cobblemon:textures/pokemon/norheim/swirrell.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/swirrell_shiny.png"
-    }  ]
+    }
+  ]
 }

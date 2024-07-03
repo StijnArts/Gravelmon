@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_skuzzly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_skuzzly",
       "texture": "cobblemon:textures/pokemon/ferroa/skuzzly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/skuzzly_shiny.png"
-    }  ]
+    }
+  ]
 }

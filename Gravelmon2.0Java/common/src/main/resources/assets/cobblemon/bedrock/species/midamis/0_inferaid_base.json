@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_inferaid",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_inferaid",
       "texture": "cobblemon:textures/pokemon/midamis/inferaid.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/inferaid_shiny.png"
-    }  ]
+    }
+  ]
 }

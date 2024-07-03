@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianUrsaring extends Pokemon {
-    public SeviianUrsaring(int dexNo) {
-        super(dexNo, "SeviianUrsaring",
+    public SeviianUrsaring(String name, Aspect aspect) {
+        super(name, aspect,"SeviianUrsaring",
                 Type.GHOST, Type.FIGHTING,
                 new Stats(100, 110, 90, 55, 90, 55),
                 List.of(Ability.GUTS, Ability.QUICK_FEET), Ability.CURSED_BODY,

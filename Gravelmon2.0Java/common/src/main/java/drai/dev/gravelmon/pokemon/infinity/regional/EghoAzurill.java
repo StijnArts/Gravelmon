@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoAzurill extends Pokemon {
-    public EghoAzurill(int dexNo) {
-        super(dexNo,"EghoAzurill",
+    public EghoAzurill(String name, Aspect aspect) {
+        super(name, aspect,"EghoAzurill",
                 Type.NORMAL, Type.ROCK,
                 new Stats(50, 40, 30, 20, 25, 25),
                 List.of(Ability.HUGE_POWER), Ability.DRY_SKIN,

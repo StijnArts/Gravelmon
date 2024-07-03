@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianDusknoir extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianDusknoir(int dex) {
-        super(dex, "Dusknoir",
+    public FligianDusknoir(String name, Aspect aspect) {
+        super(name, aspect, "Dusknoir",
                 Type.STEEL, Type.GHOST,
                 new Stats(55,
                         60,

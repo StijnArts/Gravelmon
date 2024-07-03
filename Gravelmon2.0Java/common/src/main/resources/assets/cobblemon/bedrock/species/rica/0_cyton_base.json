@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_cyton",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_cyton",
       "texture": "cobblemon:textures/pokemon/rica/cyton.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/cyton_shiny.png"
-    }  ]
+    }
+  ]
 }

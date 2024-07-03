@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:cyare_impulso",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_impulso",
       "texture": "cobblemon:textures/pokemon/cyare/impulso.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/cyare/impulso_shiny.png"
-    }  ]
+    }
+  ]
 }

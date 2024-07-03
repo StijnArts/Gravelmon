@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_sombruja",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_sombruja",
       "texture": "cobblemon:textures/pokemon/qamor/sombruja.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/sombruja_shiny.png"
-    }  ]
+    }
+  ]
 }

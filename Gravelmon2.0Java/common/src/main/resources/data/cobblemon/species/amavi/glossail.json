@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glossail",
-  "nationalPokedexNumber": 3000,
+  "nationalPokedexNumber": 5592,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -56,8 +56,8 @@
     "23:whirlpool",
     "28:teatime",
     "34:freezedry",
-    "39:powergemcrystal",
-    "45:sparklingariasound",
+    "39:powergem",
+    "45:sparklingaria",
     "50:irondefense",
     "56:icespinner",
     "61:hydropump",
@@ -76,7 +76,7 @@
   "preEvolution": "shellop",
   "evolutions": [
     {
-      "id": "glossail_Atlantice",
+      "id": "glossail_atlantice",
       "variant": "level_up",
       "result": "Atlantice",
       "consumeHeldItem": false,

@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.mythire;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Rokkap extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -24,7 +25,7 @@ public class Rokkap extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Born from old rocks, they are irritable Pokemon that live in the mountains. They often hike down into the surrounding forests and cause trouble, marking trees by gouging the bark with their claws."),
                 List.of(new EvolutionEntry("dreadcap", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BODY_PRESS,1),
                         new MoveLearnSetEntry(Move.RETURN,"tm"),

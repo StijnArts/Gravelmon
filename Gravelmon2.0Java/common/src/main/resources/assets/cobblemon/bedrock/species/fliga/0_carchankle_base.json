@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_carchankle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_carchankle",
       "texture": "cobblemon:textures/pokemon/fliga/carchankle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/carchankle_shiny.png"
-    }  ]
+    }
+  ]
 }

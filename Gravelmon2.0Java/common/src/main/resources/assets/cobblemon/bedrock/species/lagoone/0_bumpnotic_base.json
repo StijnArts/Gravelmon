@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_bumpnotic",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_bumpnotic",
       "texture": "cobblemon:textures/pokemon/lagoone/bumpnotic.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/bumpnotic_shiny.png"
-    }  ]
+    }
+  ]
 }

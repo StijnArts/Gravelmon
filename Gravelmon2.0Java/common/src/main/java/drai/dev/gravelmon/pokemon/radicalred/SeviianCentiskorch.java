@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianCentiskorch extends Pokemon {
-    public SeviianCentiskorch(int dexNo) {
-        super(dexNo, "SeviianCentiskorch",
+    public SeviianCentiskorch(String name, Aspect aspect) {
+        super(name, aspect,"SeviianCentiskorch",
                 Type.GROUND, Type.BUG,
                 new Stats(100, 115, 65, 65, 90, 90),
                 List.of(Ability.SHED_SKIN, Ability.WHITE_SMOKE), Ability.MOLD_BREAKER,

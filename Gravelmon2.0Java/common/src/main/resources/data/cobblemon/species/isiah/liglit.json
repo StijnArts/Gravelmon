@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liglit",
-  "nationalPokedexNumber": 2377,
+  "nationalPokedexNumber": 4272,
   "primaryType": "electric",
   "abilities": [
     "vitalspirit",
@@ -54,7 +54,7 @@
     "13:uproar",
     "16:spark",
     "19:taunt",
-    "22:swiftcosmic",
+    "22:swift",
     "26:agility",
     "30:slam",
     "34:tickle",

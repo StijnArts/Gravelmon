@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vauxee",
-  "nationalPokedexNumber": 2576,
+  "nationalPokedexNumber": 4471,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -54,7 +54,7 @@
     "9:sandattack",
     "14:dig",
     "18:thunderwave",
-    "23:swiftcosmic",
+    "23:swift",
     "27:sandtomb",
     "32:attract",
     "35:thunderbolt",

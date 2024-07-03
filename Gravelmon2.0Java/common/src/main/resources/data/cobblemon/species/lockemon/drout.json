@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drout",
-  "nationalPokedexNumber": 1923,
+  "nationalPokedexNumber": 3486,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -108,7 +108,7 @@
     "1:belch",
     "1:mudslap",
     "1:rest",
-    "1:snoresound",
+    "1:snore",
     "1:tickle",
     "1:watergun",
     "1:zenheadbutt",

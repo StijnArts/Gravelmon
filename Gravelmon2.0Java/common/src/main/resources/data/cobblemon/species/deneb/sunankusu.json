@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sunankusu",
-  "nationalPokedexNumber": 2934,
+  "nationalPokedexNumber": 4921,
   "primaryType": "ground",
   "abilities": [
     "sandstream",
@@ -57,8 +57,8 @@
     "22:headbutt",
     "25:yawn",
     "31:stomp",
-    "36:gravitywavecosmic",
-    "38:powergemcrystal",
+    "36:gravitywave",
+    "38:powergem",
     "45:zenheadbutt",
     "53:calmmind",
     "60:earthquake",
@@ -80,7 +80,7 @@
     "egg:trickroom",
     "egg:mudsport",
     "egg:powertrick",
-    "egg:perishsongsound",
+    "egg:perishsong",
     "egg:magnitude",
     "egg:mudshot"  ],
   "labels": [

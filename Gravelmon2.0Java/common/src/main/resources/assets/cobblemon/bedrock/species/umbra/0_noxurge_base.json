@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_noxurge",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_noxurge",
       "texture": "cobblemon:textures/pokemon/umbra/noxurge.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/noxurge_shiny.png"
-    }  ]
+    }
+  ]
 }

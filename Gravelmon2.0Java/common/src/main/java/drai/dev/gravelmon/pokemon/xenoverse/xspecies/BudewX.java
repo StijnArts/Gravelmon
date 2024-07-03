@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class BudewX extends Pokemon {
-    public BudewX(int dexNo) {
-        super(dexNo,"BudewX",
+    public BudewX(String name, Aspect aspect) {
+        super(name, aspect,"BudewX",
                 Type.SOUND, Type.POISON,
                 new Stats(40, 30, 35, 70, 55, 50),
                 List.of(Ability.SERENE_GRACE), Ability.SOUNDPROOF,

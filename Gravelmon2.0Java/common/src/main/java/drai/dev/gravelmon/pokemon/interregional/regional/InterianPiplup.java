@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.interregional.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class InterianPiplup extends drai.dev.gravelmon.pokemon.Pokemon {
-    public InterianPiplup(int dex) {
-        super(dex ,"Piplup",
+    public InterianPiplup(String name, Aspect aspect) {
+        super(name, aspect,"Piplup",
                 Type.BUG,
                 new Stats(0,
                         0,

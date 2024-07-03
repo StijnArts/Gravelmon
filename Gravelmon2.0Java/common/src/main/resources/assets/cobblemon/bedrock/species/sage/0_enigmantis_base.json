@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_enigmantis",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_enigmantis",
       "texture": "cobblemon:textures/pokemon/sage/enigmantis.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/enigmantis_shiny.png"
-    }  ]
+    }
+  ]
 }

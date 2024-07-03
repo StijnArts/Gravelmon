@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_ponsense",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_ponsense",
       "texture": "cobblemon:textures/pokemon/amavi/ponsense.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/ponsense_shiny.png"
-    }  ]
+    }
+  ]
 }

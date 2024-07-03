@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blakjak",
-  "nationalPokedexNumber": 2742,
+  "nationalPokedexNumber": 4728,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -85,7 +85,7 @@
     "tm:fly",
     "tm:flash",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:bugnoise",
     "tutor:rest",
     "tutor:toxic",

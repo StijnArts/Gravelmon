@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_cardinite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_cardinite",
       "texture": "cobblemon:textures/pokemon/sage/cardinite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/cardinite_shiny.png"
-    }  ]
+    }
+  ]
 }

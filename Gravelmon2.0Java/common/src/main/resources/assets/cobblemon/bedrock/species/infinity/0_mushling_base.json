@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_mushling",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_mushling",
       "texture": "cobblemon:textures/pokemon/infinity/mushling.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/mushling_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ionos.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianGranbull extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianGranbull(int dex) {
-        super(dex, "Granbull",
+    public IonosianGranbull(String name, Aspect aspect) {
+        super(name, aspect, "Granbull",
                 Type.FAIRY, Type.DARK,
                 new Stats(0,
                         0,

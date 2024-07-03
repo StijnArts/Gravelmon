@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaCakeDwebble extends Pokemon {
-    public DeltaCakeDwebble(int dexNo) {
-        super(dexNo,"DeltaCakeDwebble",
+    public DeltaCakeDwebble(String name, Aspect aspect) {
+        super(name, aspect,"DeltaCakeDwebble",
                 Type.FAIRY, Type.NORMAL,
                 new Stats(50, 65, 85, 35, 35, 55),
                 List.of(Ability.OWN_TEMPO, Ability.SCRAPPY), Ability.SIMPLE,

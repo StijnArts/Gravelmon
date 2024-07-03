@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aquariell",
-  "nationalPokedexNumber": 3097,
+  "nationalPokedexNumber": 5689,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -54,7 +54,7 @@
     "11:bite",
     "14:bubblebeam",
     "17:covet",
-    "20:snoresound",
+    "20:snore",
     "24:takedown",
     "28:encore",
     "31:brine",

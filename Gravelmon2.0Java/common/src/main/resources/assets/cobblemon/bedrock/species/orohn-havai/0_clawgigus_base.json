@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_clawgigus",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_clawgigus",
       "texture": "cobblemon:textures/pokemon/orohn-havai/clawgigus.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/clawgigus_shiny.png"
-    }  ]
+    }
+  ]
 }

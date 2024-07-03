@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragurn",
-  "nationalPokedexNumber": 2297,
+  "nationalPokedexNumber": 4192,
   "primaryType": "dragon",
   "abilities": [
     "sturdy",
@@ -74,7 +74,7 @@
   ],
   "evolutions": [
     {
-      "id": "dragurn_Drajinn",
+      "id": "dragurn_drajinn",
       "variant": "level_up",
       "result": "Drajinn",
       "consumeHeldItem": false,

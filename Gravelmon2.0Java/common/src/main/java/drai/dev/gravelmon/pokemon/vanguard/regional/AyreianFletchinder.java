@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianFletchinder extends Pokemon {
-    public AyreianFletchinder(int dexNo) {
-        super(dexNo,"AyreianFletchinder",
+    public AyreianFletchinder(String name, Aspect aspect) {
+        super(name, aspect,"AyreianFletchinder",
                 Type.WATER, Type.FLYING,
                 new Stats(62,73,55,84,66,52),
                 List.of(Ability.SWIFT_SWIM), Ability.GALE_WINGS,

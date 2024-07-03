@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_socklett",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_socklett",
       "texture": "cobblemon:textures/pokemon/hiza/socklett.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/socklett_shiny.png"
-    }  ]
+    }
+  ]
 }

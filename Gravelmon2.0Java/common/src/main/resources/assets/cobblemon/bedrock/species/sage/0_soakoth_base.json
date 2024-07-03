@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_soakoth",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_soakoth",
       "texture": "cobblemon:textures/pokemon/sage/soakoth.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/soakoth_shiny.png"
-    }  ]
+    }
+  ]
 }

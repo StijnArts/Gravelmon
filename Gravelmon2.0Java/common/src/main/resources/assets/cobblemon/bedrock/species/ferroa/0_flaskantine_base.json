@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_flaskantine",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_flaskantine",
       "texture": "cobblemon:textures/pokemon/ferroa/flaskantine.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/flaskantine_shiny.png"
-    }  ]
+    }
+  ]
 }

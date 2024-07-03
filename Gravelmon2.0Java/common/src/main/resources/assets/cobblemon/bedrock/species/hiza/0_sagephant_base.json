@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_sagephant",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_sagephant",
       "texture": "cobblemon:textures/pokemon/hiza/sagephant.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/sagephant_shiny.png"
-    }  ]
+    }
+  ]
 }

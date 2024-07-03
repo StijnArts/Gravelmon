@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_turbilly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_turbilly",
       "texture": "cobblemon:textures/pokemon/interregional/turbilly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/turbilly_shiny.png"
-    }  ]
+    }
+  ]
 }

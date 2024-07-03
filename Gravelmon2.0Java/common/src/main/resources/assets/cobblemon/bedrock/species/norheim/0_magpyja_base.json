@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_magpyja",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_magpyja",
       "texture": "cobblemon:textures/pokemon/norheim/magpyja.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/magpyja_shiny.png"
-    }  ]
+    }
+  ]
 }

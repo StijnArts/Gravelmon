@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "minicule",
-  "nationalPokedexNumber": 1732,
+  "nationalPokedexNumber": 2330,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
@@ -55,8 +55,8 @@
     "13:iondeluge",
     "15:gyroball",
     "18:paraboliccharge",
-    "21:cosmicpowercosmic",
-    "25:gravitycosmic",
+    "21:cosmicpower",
+    "25:gravity",
     "27:allyswitch",
     "29:electroball",
     "32:agility",

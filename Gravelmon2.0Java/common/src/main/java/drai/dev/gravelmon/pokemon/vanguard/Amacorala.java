@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.vanguard;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -117,6 +118,7 @@ public class Amacorala extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setCanBreathUnderwater(true);
-        this.setCanSwim(true);
+        addAdditionalEvolution("corsola", new EvolutionEntry("amacorala", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"))));
     }
 }

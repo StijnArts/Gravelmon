@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_dampurr",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_dampurr",
       "texture": "cobblemon:textures/pokemon/myth/dampurr.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/dampurr_shiny.png"
-    }  ]
+    }
+  ]
 }

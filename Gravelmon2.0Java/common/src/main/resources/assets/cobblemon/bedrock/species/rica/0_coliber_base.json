@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_coliber",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_coliber",
       "texture": "cobblemon:textures/pokemon/rica/coliber.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/coliber_shiny.png"
-    }  ]
+    }
+  ]
 }

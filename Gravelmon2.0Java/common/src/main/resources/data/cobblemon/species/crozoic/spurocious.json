@@ -1,0 +1,91 @@
+{
+  "implemented": true,
+  "name": "spurocious",
+  "nationalPokedexNumber": 3325,
+  "primaryType": "dark",
+  "abilities": [
+    "sandforce",
+    "intimidate",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 132,
+    "defence": 77,
+    "special_attack": 39,
+    "special_defence": 77,
+    "speed": 112
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "water_1"
+  ],
+  "moves": [
+    "1:sandattack",
+    "1:brutalswing",
+    "1:nightslash",
+    "1:bite",
+    "1:needlearm",
+    "1:pursuit",
+    "1:obstruct",
+    "1:crunch"  ],
+  "labels": [
+    "crozoic",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.spurocious.desc"
+  ],
+  "preEvolution": "sharpunk",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 1324,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

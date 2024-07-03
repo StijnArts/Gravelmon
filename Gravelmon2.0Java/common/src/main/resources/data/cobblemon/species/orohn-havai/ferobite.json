@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "ferobite",
+  "nationalPokedexNumber": 3018,
+  "primaryType": "dark",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 56,
+    "attack": 73,
+    "defence": 35,
+    "special_attack": 42,
+    "special_defence": 42,
+    "speed": 66
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "4:howl",
+    "7:sandattack",
+    "10:bite",
+    "13:leer",
+    "16:roar",
+    "19:swagger",
+    "22:assurance",
+    "25:scaryface",
+    "28:taunt",
+    "31:crunch",
+    "34:yawn",
+    "36:takedown",
+    "40:suckerpunch",
+    "44:playrough"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ferobite.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ferobite_purswayer",
+      "variant": "item_interact",
+      "result": "purswayer",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

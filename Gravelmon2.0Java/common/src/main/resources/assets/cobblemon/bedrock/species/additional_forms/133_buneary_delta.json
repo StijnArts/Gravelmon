@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:buneary",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltabuneary.geo",
+      "poser": "cobblemon:generation4_deltabuneary",
+      "texture": "cobblemon:textures/pokemon/generation4/deltabuneary.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltabuneary.geo",
+      "poser": "cobblemon:generation4_deltabuneary",
+      "texture": "cobblemon:textures/pokemon/generation4/deltabuneary_shiny.png",
+      "layers": []
+    }
+  ]
+}

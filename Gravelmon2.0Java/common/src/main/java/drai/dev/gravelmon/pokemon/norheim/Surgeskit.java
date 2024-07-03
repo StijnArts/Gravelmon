@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.norheim;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -54,6 +55,8 @@ public class Surgeskit extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Surgeskit");
+        addAdditionalEvolution("surskit", new EvolutionEntry("surgeskit", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:thunder_stone"));
 
     }
 

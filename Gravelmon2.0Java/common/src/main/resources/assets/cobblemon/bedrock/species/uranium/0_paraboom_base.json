@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_paraboom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_paraboom",
       "texture": "cobblemon:textures/pokemon/uranium/paraboom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/paraboom_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_sarcospike",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_sarcospike",
       "texture": "cobblemon:textures/pokemon/kuria/sarcospike.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/sarcospike_shiny.png"
-    }  ]
+    }
+  ]
 }

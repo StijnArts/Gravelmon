@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_glacyo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_glacyo",
       "texture": "cobblemon:textures/pokemon/kuria/glacyo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/glacyo_shiny.png"
-    }  ]
+    }
+  ]
 }

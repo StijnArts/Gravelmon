@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_sparruff",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_sparruff",
       "texture": "cobblemon:textures/pokemon/rica/sparruff.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/sparruff_shiny.png"
-    }  ]
+    }
+  ]
 }

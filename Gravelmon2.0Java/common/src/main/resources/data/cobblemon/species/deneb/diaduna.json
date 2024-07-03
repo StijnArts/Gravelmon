@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "diaduna",
-  "nationalPokedexNumber": 2849,
+  "nationalPokedexNumber": 4836,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -109,9 +109,9 @@
     "egg:protect",
     "egg:raindance",
     "egg:reflect",
-    "egg:roarsound",
+    "egg:roar",
     "egg:safeguard",
-    "egg:screechsound",
+    "egg:screech",
     "egg:smokescreen",
     "egg:snatch",
     "egg:stoneedge",

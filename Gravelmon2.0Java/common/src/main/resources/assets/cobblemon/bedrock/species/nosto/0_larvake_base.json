@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_larvake",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_larvake",
       "texture": "cobblemon:textures/pokemon/nosto/larvake.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/larvake_shiny.png"
-    }  ]
+    }
+  ]
 }

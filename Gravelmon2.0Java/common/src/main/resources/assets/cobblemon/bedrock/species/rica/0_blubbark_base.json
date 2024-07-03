@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_blubbark",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_blubbark",
       "texture": "cobblemon:textures/pokemon/rica/blubbark.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/blubbark_shiny.png"
-    }  ]
+    }
+  ]
 }

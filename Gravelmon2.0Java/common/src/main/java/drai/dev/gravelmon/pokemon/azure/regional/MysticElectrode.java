@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticElectrode extends Pokemon {
-    public MysticElectrode(int dexNo) {
-        super(dexNo,"MysticElectrode",
+    public MysticElectrode(String name, Aspect aspect) {
+        super(name, aspect,"MysticElectrode",
                 Type.PSYCHIC,
                 new Stats(60,50,70, 150,80,80),
                 List.of(Ability.TELEPATHY, Ability.ANTICIPATION), Ability.SYNCHRONIZE,

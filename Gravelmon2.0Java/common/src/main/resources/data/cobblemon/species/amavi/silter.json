@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "silter",
-  "nationalPokedexNumber": 3096,
+  "nationalPokedexNumber": 5688,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -79,7 +79,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   
@@ -97,7 +97,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_chiverna",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_chiverna",
       "texture": "cobblemon:textures/pokemon/isiah/chiverna.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/chiverna_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,6 @@
+{
+    "keys": [ "delta_fairy" ],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

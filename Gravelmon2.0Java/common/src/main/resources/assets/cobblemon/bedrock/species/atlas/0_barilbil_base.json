@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_barilbil",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_barilbil",
       "texture": "cobblemon:textures/pokemon/atlas/barilbil.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/barilbil_shiny.png"
-    }  ]
+    }
+  ]
 }

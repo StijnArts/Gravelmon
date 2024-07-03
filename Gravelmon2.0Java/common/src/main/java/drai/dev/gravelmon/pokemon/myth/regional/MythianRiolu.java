@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.myth.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MythianRiolu extends Pokemon {
-    public MythianRiolu(int dexNo) {
-        super(dexNo,"MythianRiolu",
+    public MythianRiolu(String name, Aspect aspect) {
+        super(name, aspect,"MythianRiolu",
                 Type.GROUND, Type.GHOST,
                 new Stats(40,70,40,35,40,60),
                 List.of(Ability.LEVITATE, Ability.ARENA_TRAP), Ability.DRY_SKIN,

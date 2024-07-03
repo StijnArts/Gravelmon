@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanSigilyph extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanSigilyph(int dex) {
-        super(dex, "Sigilyph",
+    public NorheimanSigilyph(String name, Aspect aspect) {
+        super(name, aspect, "Sigilyph",
                 Type.DARK, Type.FLYING,
                 new Stats(72,
                         103,

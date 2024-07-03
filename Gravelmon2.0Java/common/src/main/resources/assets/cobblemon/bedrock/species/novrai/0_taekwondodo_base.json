@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_taekwondodo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_taekwondodo",
       "texture": "cobblemon:textures/pokemon/novrai/taekwondodo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/taekwondodo_shiny.png"
-    }  ]
+    }
+  ]
 }

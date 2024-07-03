@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "whave",
-  "nationalPokedexNumber": 1457,
+  "nationalPokedexNumber": 1458,
   "primaryType": "water",
   "abilities": [
     "hydration",
@@ -73,7 +73,7 @@
     "69:recover",
     "75:waterspout",
     "80:memento",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:venoshock",

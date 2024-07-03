@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianIvysaur extends Pokemon {
-    public AyreianIvysaur(int dexNo) {
-        super(dexNo,"AyreianIvysaur",
+    public AyreianIvysaur(String name, Aspect aspect) {
+        super(name, aspect,"AyreianIvysaur",
                 Type.DARK, Type.GROUND,
                 new Stats(95, 67, 83, 35, 65, 80),
                 List.of(Ability.STAMINA, Ability.WEAK_ARMOR), Ability.SAND_STREAM,

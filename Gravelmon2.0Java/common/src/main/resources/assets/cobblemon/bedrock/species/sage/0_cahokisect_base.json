@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_cahokisect",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_cahokisect",
       "texture": "cobblemon:textures/pokemon/sage/cahokisect.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/cahokisect_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_molit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_molit",
       "texture": "cobblemon:textures/pokemon/amavi/molit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/molit_shiny.png"
-    }  ]
+    }
+  ]
 }

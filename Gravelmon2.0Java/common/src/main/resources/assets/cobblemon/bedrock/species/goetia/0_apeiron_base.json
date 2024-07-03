@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:goetia_apeiron",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_apeiron",
       "texture": "cobblemon:textures/pokemon/goetia/apeiron.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/goetia/apeiron_shiny.png"
-    }  ]
+    }
+  ]
 }

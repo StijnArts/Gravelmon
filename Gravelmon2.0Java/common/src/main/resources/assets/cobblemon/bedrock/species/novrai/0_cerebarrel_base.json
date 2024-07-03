@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_cerebarrel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_cerebarrel",
       "texture": "cobblemon:textures/pokemon/novrai/cerebarrel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/cerebarrel_shiny.png"
-    }  ]
+    }
+  ]
 }

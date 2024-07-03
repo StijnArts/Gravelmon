@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaOctillery extends Pokemon {
-    public DeltaOctillery(int dexNo) {
-        super(dexNo,"DeltaOctillery",
+    public DeltaOctillery(String name, Aspect aspect) {
+        super(name, aspect,"DeltaOctillery",
                 Type.FIRE,
                 new Stats(75, 105,75,105,75,45),
                 List.of(Ability.HEATPROOF, Ability.WHITE_SMOKE), Ability.CONTRARY,

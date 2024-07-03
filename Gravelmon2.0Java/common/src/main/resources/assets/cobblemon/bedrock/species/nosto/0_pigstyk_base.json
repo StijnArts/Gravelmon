@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_pigstyk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_pigstyk",
       "texture": "cobblemon:textures/pokemon/nosto/pigstyk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/pigstyk_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaDarmanitan extends Pokemon {
-    public DeltaDarmanitan(int dexNo) {
-        super(dexNo,"DeltaDarmanitan",
+    public DeltaDarmanitan(String name, Aspect aspect) {
+        super(name, aspect,"DeltaDarmanitan",
                 Type.DARK, Type.GHOST,
                 new Stats(105, 140, 55, 30, 55, 95),
                 List.of(Ability.UNNERVE), Ability.WONDER_SKIN,

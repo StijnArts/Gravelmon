@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_twirlisk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_twirlisk",
       "texture": "cobblemon:textures/pokemon/amavi/twirlisk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/twirlisk_shiny.png"
-    }  ]
+    }
+  ]
 }

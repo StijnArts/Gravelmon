@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:neonintendo_cactussle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:neonintendo_cactussle",
       "texture": "cobblemon:textures/pokemon/neonintendo/cactussle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/neonintendo/cactussle_shiny.png"
-    }  ]
+    }
+  ]
 }

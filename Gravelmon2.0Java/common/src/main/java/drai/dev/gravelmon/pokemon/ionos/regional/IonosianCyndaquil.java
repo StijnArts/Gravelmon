@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ionos.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianCyndaquil extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianCyndaquil(int dex) {
-        super(dex, "Cyndaquil",
+    public IonosianCyndaquil(String name, Aspect aspect) {
+        super(name, aspect, "Cyndaquil",
                 Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,

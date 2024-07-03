@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianGumshoos extends Pokemon {
-    public AyreianGumshoos(int dexNo) {
-        super(dexNo,"AyreianGumshoos",
+    public AyreianGumshoos(String name, Aspect aspect) {
+        super(name, aspect,"AyreianGumshoos",
                 Type.DARK,
                 new Stats(88,140,70,45,55,70),
                 List.of(Ability.MALEVOLENCE), Ability.ADAPTABILITY,

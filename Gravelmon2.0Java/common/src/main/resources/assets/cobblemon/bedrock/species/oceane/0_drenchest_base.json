@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_drenchest",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_drenchest",
       "texture": "cobblemon:textures/pokemon/oceane/drenchest.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/drenchest_shiny.png"
-    }  ]
+    }
+  ]
 }

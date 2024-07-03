@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "daiomu",
-  "nationalPokedexNumber": 2981,
+  "nationalPokedexNumber": 4968,
   "primaryType": "electric",
   "secondaryType": "dragon",
   "abilities": [
@@ -56,7 +56,7 @@
     "1:thunderwave",
     "6:twister",
     "10:thunderwave",
-    "15:sonicboomsound",
+    "15:sonicboom",
     "19:spark",
     "24:supersonic",
     "28:dragonbreath",
@@ -84,7 +84,7 @@
     "tutor:doubleedge",
     "tutor:dracometeor",
     "egg:psychup",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:chargebeam",
     "egg:zapcannon",
     "egg:triattack",

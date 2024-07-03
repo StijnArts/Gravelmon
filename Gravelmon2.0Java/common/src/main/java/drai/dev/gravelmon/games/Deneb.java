@@ -1,6 +1,8 @@
 package drai.dev.gravelmon.games;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.data.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.vega.*;
 
 public class Deneb extends Game {
@@ -46,7 +48,7 @@ public class Deneb extends Game {
         pokemon.add(new Mintch());
         var blakjak  = new Blakjak();
         pokemon.add(blakjak);
-        pokemon.add(new SignetanBlakjak(blakjak.getPokedexNumber()));
+        pokemon.add(new SignetanBlakjak("", Aspect.SIGNETAN));
         pokemon.add(new Maneko());
         pokemon.add(new Bakeko());
         pokemon.add(new Clotaku());

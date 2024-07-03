@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_fleetade",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_fleetade",
       "texture": "cobblemon:textures/pokemon/midamis/fleetade.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/fleetade_shiny.png"
-    }  ]
+    }
+  ]
 }

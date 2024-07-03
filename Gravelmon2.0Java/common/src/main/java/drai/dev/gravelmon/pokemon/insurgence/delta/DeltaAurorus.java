@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaAurorus extends Pokemon {
-    public DeltaAurorus(int dexNo) {
-        super(dexNo,"DeltaAurorus",
+    public DeltaAurorus(String name, Aspect aspect) {
+        super(name, aspect,"DeltaAurorus",
                 Type.GRASS, Type.WATER,
                 new Stats(123, 77,72,99,92,58),
                 List.of(Ability.FRIEND_GUARD), Ability.PHOTOTROPH,

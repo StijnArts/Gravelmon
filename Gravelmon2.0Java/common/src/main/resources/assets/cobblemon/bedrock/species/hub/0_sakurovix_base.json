@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hub_sakurovix",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_sakurovix",
       "texture": "cobblemon:textures/pokemon/hub/sakurovix.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hub/sakurovix_shiny.png"
-    }  ]
+    }
+  ]
 }

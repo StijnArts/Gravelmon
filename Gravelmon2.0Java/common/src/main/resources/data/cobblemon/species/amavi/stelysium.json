@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stelysium",
-  "nationalPokedexNumber": 3132,
+  "nationalPokedexNumber": 5724,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
@@ -52,11 +52,11 @@
     "1:confusion",
     "1:thundershock",
     "1:charm",
-    "1:gravitycosmic",
+    "1:gravity",
     "8:vacuumwave",
     "16:psywave",
     "24:waterpulse",
-    "30:cosmicpowercosmic",
+    "30:cosmicpower",
     "35:psyshock",
     "40:shockwave",
     "46:healpulse",

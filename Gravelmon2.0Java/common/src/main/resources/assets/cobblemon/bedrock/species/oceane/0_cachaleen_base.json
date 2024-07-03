@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_cachaleen",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_cachaleen",
       "texture": "cobblemon:textures/pokemon/oceane/cachaleen.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/cachaleen_shiny.png"
-    }  ]
+    }
+  ]
 }

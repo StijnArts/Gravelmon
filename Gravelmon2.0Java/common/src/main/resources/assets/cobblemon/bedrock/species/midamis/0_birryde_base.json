@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_birryde",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_birryde",
       "texture": "cobblemon:textures/pokemon/midamis/birryde.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/birryde_shiny.png"
-    }  ]
+    }
+  ]
 }

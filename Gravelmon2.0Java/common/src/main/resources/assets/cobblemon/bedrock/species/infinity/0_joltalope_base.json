@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_joltalope",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_joltalope",
       "texture": "cobblemon:textures/pokemon/infinity/joltalope.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/joltalope_shiny.png"
-    }  ]
+    }
+  ]
 }

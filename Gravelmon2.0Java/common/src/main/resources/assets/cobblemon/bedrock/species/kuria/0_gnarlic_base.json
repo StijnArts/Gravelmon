@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_gnarlic",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_gnarlic",
       "texture": "cobblemon:textures/pokemon/kuria/gnarlic.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/gnarlic_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,13 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import java.util.*;
+
 import java.util.*;
 
 public class AyreianAltaria extends Pokemon {
-    public AyreianAltaria(int dexNo) {
-        super(dexNo,"AyreianAltaria",
+    public AyreianAltaria(String name, Aspect aspect) {
+        super(name, aspect,"AyreianAltaria",
                 Type.ELECTRIC, Type.DRAGON,
                 new Stats(75,100,60,75,100,105),
                 List.of(Ability.LEVITATE, Ability.FLUFFY), Ability.GUTS,
@@ -103,7 +106,7 @@ public class AyreianAltaria extends Pokemon {
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 54, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE, Biome.IS_NETHER_BASALT)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),

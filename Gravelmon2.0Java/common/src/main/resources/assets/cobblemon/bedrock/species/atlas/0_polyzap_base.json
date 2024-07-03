@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_polyzap",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_polyzap",
       "texture": "cobblemon:textures/pokemon/atlas/polyzap.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/polyzap_shiny.png"
-    }  ]
+    }
+  ]
 }

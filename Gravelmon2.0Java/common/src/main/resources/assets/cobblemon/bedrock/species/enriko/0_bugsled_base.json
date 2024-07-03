@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_bugsled",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_bugsled",
       "texture": "cobblemon:textures/pokemon/enriko/bugsled.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/bugsled_shiny.png"
-    }  ]
+    }
+  ]
 }

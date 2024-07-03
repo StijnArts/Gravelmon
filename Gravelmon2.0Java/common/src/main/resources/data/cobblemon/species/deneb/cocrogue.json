@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cocrogue",
-  "nationalPokedexNumber": 2872,
+  "nationalPokedexNumber": 4859,
   "primaryType": "dark",
   "secondaryType": "bug",
   "abilities": [
@@ -50,7 +50,7 @@
   "moves": [
     "1:astonish",
     "1:scratch",
-    "1:screechsound",
+    "1:screech",
     "1:quickattack",
     "1:batonpass",
     "6:quickattack",
@@ -58,7 +58,7 @@
     "19:pursuit",
     "24:confuseray",
     "28:feintattack",
-    "33:bugbuzzsound",
+    "33:bugbuzz",
     "37:agility",
     "42:slash",
     "46:xscissor",

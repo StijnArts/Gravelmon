@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianParas extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianParas(int dex) {
-        super(dex, "Paras",
+    public FligianParas(String name, Aspect aspect) {
+        super(name, aspect, "Paras",
                 Type.GHOST, Type.BUG,
                 new Stats(60,
                         50,

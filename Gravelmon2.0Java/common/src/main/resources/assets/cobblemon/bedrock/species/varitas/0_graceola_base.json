@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_graceola",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_graceola",
       "texture": "cobblemon:textures/pokemon/varitas/graceola.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/graceola_shiny.png"
-    }  ]
+    }
+  ]
 }

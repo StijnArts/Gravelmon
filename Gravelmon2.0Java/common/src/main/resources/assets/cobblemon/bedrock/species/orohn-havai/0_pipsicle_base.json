@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_pipsicle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_pipsicle",
       "texture": "cobblemon:textures/pokemon/orohn-havai/pipsicle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/pipsicle_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianShellos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianShellos(int dex) {
-        super(dex, "Shellos",
+    public FligianShellos(String name, Aspect aspect) {
+        super(name, aspect, "Shellos",
                 Type.WATER, Type.GHOST,
                 new Stats(58,
                         67,

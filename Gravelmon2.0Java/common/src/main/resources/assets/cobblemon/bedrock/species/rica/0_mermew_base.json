@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_mermew",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_mermew",
       "texture": "cobblemon:textures/pokemon/rica/mermew.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/mermew_shiny.png"
-    }  ]
+    }
+  ]
 }

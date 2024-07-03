@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_playmight",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_playmight",
       "texture": "cobblemon:textures/pokemon/novrai/playmight.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/playmight_shiny.png"
-    }  ]
+    }
+  ]
 }

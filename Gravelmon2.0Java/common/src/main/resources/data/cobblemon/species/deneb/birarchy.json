@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "birarchy",
-  "nationalPokedexNumber": 2894,
+  "nationalPokedexNumber": 4881,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -51,7 +51,7 @@
     "1:tackle",
     "1:peck",
     "6:quickattack",
-    "13:singsound",
+    "13:sing",
     "18:wingattack",
     "21:whirlwind",
     "25:aerialace",
@@ -95,7 +95,7 @@
   ],
   "evolutions": [
     {
-      "id": "birarchy_Wochecho",
+      "id": "birarchy_wochecho",
       "variant": "level_up",
       "result": "Wochecho",
       "consumeHeldItem": false,

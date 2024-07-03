@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_toxito",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_toxito",
       "texture": "cobblemon:textures/pokemon/rica/toxito.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/toxito_shiny.png"
-    }  ]
+    }
+  ]
 }

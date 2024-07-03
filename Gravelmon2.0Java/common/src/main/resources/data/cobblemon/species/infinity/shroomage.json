@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shroomage",
-  "nationalPokedexNumber": 1452,
+  "nationalPokedexNumber": 1453,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -67,7 +67,7 @@
     "34:leechseed",
     "35:venoshock",
     "38:synthesis",
-    "40:hypervoicesound",
+    "40:hypervoice",
     "45:magiccoat",
     "50:psyshock",
     "55:gigadrain",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_navolatle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_navolatle",
       "texture": "cobblemon:textures/pokemon/interregional/navolatle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/navolatle_shiny.png"
-    }  ]
+    }
+  ]
 }

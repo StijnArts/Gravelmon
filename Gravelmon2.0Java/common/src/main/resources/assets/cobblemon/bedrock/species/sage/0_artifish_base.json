@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_artifish",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_artifish",
       "texture": "cobblemon:textures/pokemon/sage/artifish.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/artifish_shiny.png"
-    }  ]
+    }
+  ]
 }

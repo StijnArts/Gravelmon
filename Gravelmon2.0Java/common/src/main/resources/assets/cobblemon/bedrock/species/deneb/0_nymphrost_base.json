@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_nymphrost",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_nymphrost",
       "texture": "cobblemon:textures/pokemon/deneb/nymphrost.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/nymphrost_shiny.png"
-    }  ]
+    }
+  ]
 }

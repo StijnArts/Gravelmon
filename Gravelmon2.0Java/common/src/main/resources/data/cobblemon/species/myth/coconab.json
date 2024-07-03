@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coconab",
-  "nationalPokedexNumber": 2527,
+  "nationalPokedexNumber": 4422,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -59,7 +59,7 @@
     "25:calmmind",
     "27:leechseed",
     "29:aquaring",
-    "33:bugbuzzsound",
+    "33:bugbuzz",
     "36:recover",
     "40:protect"  ],
   "labels": [

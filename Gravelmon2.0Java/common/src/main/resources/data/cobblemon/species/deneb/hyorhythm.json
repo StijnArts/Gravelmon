@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hyorhythm",
-  "nationalPokedexNumber": 2892,
+  "nationalPokedexNumber": 4879,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -76,7 +76,7 @@
     "egg:morningsun",
     "egg:pursuit",
     "egg:mirrormove",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:peck",
     "egg:wingattack",
     "egg:growl",
@@ -95,7 +95,7 @@
   "preEvolution": "ploviey",
   "evolutions": [
     {
-      "id": "hyorhythm_Tombeat",
+      "id": "hyorhythm_tombeat",
       "variant": "level_up",
       "result": "Tombeat",
       "consumeHeldItem": false,

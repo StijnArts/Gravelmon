@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_dragimo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_dragimo",
       "texture": "cobblemon:textures/pokemon/lonava/dragimo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/dragimo_shiny.png"
-    }  ]
+    }
+  ]
 }

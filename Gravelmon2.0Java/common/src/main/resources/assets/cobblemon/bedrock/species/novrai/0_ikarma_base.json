@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_ikarma",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_ikarma",
       "texture": "cobblemon:textures/pokemon/novrai/ikarma.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/ikarma_shiny.png"
-    }  ]
+    }
+  ]
 }

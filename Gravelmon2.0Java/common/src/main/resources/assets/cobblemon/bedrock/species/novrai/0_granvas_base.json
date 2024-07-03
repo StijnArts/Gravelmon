@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_granvas",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_granvas",
       "texture": "cobblemon:textures/pokemon/novrai/granvas.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/granvas_shiny.png"
-    }  ]
+    }
+  ]
 }

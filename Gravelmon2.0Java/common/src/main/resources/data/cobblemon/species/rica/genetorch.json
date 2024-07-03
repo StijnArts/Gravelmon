@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "genetorch",
-  "nationalPokedexNumber": 1372,
+  "nationalPokedexNumber": 1373,
   "primaryType": "fire",
   "abilities": [
     "flashfire",
@@ -58,8 +58,8 @@
     "tm:psychicfangs",
     "tm:dig",
     "tm:playrough",
-    "tm:healbellsound",
-    "tm:echoedvoicesound",
+    "tm:healbell",
+    "tm:echoedvoice",
     "tm:hyperbeam",
     "tm:gigaimpact",
     "tm:return",
@@ -83,7 +83,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

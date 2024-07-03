@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_kusomarume",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_kusomarume",
       "texture": "cobblemon:textures/pokemon/deneb/kusomarume.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/kusomarume_shiny.png"
-    }  ]
+    }
+  ]
 }

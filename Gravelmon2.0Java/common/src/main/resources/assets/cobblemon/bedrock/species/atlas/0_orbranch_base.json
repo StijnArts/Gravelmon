@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_orbranch",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_orbranch",
       "texture": "cobblemon:textures/pokemon/atlas/orbranch.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/orbranch_shiny.png"
-    }  ]
+    }
+  ]
 }

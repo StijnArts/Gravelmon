@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "batorch",
-  "nationalPokedexNumber": 1782,
+  "nationalPokedexNumber": 2831,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -52,7 +52,7 @@
     "3:leer",
     "6:smokescreen",
     "11:peck",
-    "15:screechsound",
+    "15:screech",
     "16:metalclaw",
     "21:flameburst",
     "26:metalsound",

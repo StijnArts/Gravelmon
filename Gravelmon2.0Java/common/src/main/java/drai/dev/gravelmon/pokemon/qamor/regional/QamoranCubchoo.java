@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.qamor.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class QamoranCubchoo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranCubchoo(int dex) {
-        super(dex, "Cubchoo",
+    public QamoranCubchoo(String name, Aspect aspect) {
+        super(name, aspect, "Cubchoo",
                 Type.GHOST, Type.POISON,
                 new Stats(55,
                         60,

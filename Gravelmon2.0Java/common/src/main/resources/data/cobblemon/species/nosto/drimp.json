@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drimp",
-  "nationalPokedexNumber": 1999,
+  "nationalPokedexNumber": 3562,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -60,7 +60,7 @@
     "35:lifedew",
     "41:dazzlinggleam",
     "47:hydropump",
-    "tm:snoresound",
+    "tm:snore",
     "tm:acrobatics",
     "tm:attract",
     "tm:confide",
@@ -73,8 +73,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

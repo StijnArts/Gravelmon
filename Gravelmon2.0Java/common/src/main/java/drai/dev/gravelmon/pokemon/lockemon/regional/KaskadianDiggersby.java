@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianDiggersby extends Pokemon {
-    public KaskadianDiggersby(int dexNo) {
-        super(dexNo,"KaskadianDiggersby",
+    public KaskadianDiggersby(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianDiggersby",
                 Type.ICE, Type.NORMAL,
                 new Stats(85, 55, 87, 54, 77, 65),
                 List.of(Ability.SLUSH_RUSH, Ability.ICE_BODY), Ability.HUGE_POWER,

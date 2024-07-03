@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_florown",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_florown",
       "texture": "cobblemon:textures/pokemon/midamis/florown.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/florown_shiny.png"
-    }  ]
+    }
+  ]
 }

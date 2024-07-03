@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "folleming",
-  "nationalPokedexNumber": 1955,
+  "nationalPokedexNumber": 3518,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
@@ -70,7 +70,7 @@
     "40:lightscreen",
     "44:thunder",
     "egg:charge",
-    "egg:disarmingvoicesound",
+    "egg:disarmingvoice",
     "egg:fakeout",
     "egg:flail",
     "egg:present",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "electeel",
-  "nationalPokedexNumber": 1789,
+  "nationalPokedexNumber": 2838,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -82,10 +82,10 @@
     "tm:reflect",
     "tm:rest",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
     "tm:signalbeam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:surf",
     "tm:swagger",

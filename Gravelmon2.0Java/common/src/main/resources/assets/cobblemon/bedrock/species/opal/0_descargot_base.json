@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_descargot",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_descargot",
       "texture": "cobblemon:textures/pokemon/opal/descargot.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/descargot_shiny.png"
-    }  ]
+    }
+  ]
 }

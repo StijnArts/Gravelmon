@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.novrai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NovranCranidos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranCranidos(int dex) {
-        super(dex, "Cranidos",
+    public NovranCranidos(String name, Aspect aspect) {
+        super(name, aspect, "Cranidos",
                 Type.ROCK, Type.FIRE,
                 new Stats(67,
                         115,
@@ -116,7 +117,7 @@ public class NovranCranidos extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 11, 36, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

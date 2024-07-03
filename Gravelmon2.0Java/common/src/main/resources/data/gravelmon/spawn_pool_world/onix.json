@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoennianonix-1",
+      "pokemon": "onix hoennian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "14-39",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_freezing" ],
+        "canSeeSky": false
+      },
+      "anticondition": {
+"biomes": [  ]    }
+    }
+
+]
+}

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class HoennianUrsaring extends Pokemon {
-    public HoennianUrsaring(int dexNo) {
-        super(dexNo,"HoennianUrsaring",
+    public HoennianUrsaring(String name, Aspect aspect) {
+        super(name, aspect,"HoennianUrsaring",
                 Type.NORMAL, Type.FIRE,
                 new Stats(70, 120,90,55,85,80),
                 List.of(Ability.TOUGH_CLAWS), Ability.GUTS,

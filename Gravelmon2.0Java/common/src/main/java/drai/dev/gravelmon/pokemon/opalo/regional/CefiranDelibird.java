@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class CefiranDelibird extends Pokemon {
-    public CefiranDelibird(int dexNo) {
-        super(dexNo,"CefiranDelibird",
+    public CefiranDelibird(String name, Aspect aspect) {
+        super(name, aspect,"CefiranDelibird",
                 Type.DARK, Type.FLYING,
                 new Stats(70,85,70,90,75,65),
                 List.of(Ability.SKILL_LINK), Ability.PICKPOCKET,

@@ -1,13 +1,16 @@
 package drai.dev.gravelmon.pokemon.myth.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import java.util.*;
+
 import java.util.*;
 
 public class MythianZorua extends Pokemon {
-    public MythianZorua(int dexNo) {
-        super(dexNo,"MythianZorua",
+    public MythianZorua(String name, Aspect aspect) {
+        super(name, aspect,"MythianZorua",
                 Type.FIRE,
                 new Stats(35, 60, 40, 85, 40, 70),
                 List.of(Ability.ILLUSION), Ability.FLAME_BODY,
@@ -50,7 +53,7 @@ public class MythianZorua extends Pokemon {
                 List.of(Label.GEN5,Label.MYTH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 25, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_FIRE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

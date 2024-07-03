@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_kyuukit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_kyuukit",
       "texture": "cobblemon:textures/pokemon/lonava/kyuukit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/kyuukit_shiny.png"
-    }  ]
+    }
+  ]
 }

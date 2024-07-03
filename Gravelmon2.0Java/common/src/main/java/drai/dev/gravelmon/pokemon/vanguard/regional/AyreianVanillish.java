@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianVanillish extends Pokemon {
-    public AyreianVanillish(int dexNo) {
-        super(dexNo,"AyreianVanillish",
+    public AyreianVanillish(String name, Aspect aspect) {
+        super(name, aspect,"AyreianVanillish",
                 Type.FIRE, Type.GROUND,
                 new Stats(61,45,75,59,80,75),
                 List.of(Ability.LEVITATE, Ability.FLAME_BODY), Ability.DRY_SKIN,
@@ -20,7 +21,7 @@ public class AyreianVanillish extends Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Unable to survive in cold areas, it makes itself comfortable by breathing out air to cause sandstorms. It burrows into the sand to sleep."),
-                List.of(new EvolutionEntry("ayreianvanniluxe", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("ayreianvanilluxe", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLAME_BURST, 1),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rexquiem",
-  "nationalPokedexNumber": 1549,
+  "nationalPokedexNumber": 2146,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -87,7 +87,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:steelwing",
     "tm:falseswipe",
     "tm:fling",
@@ -118,9 +118,9 @@
     "tutor:hurricane",
     "tutor:knockoff",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:snatch",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite",
     "tutor:stealthrock"  ],
   "labels": [

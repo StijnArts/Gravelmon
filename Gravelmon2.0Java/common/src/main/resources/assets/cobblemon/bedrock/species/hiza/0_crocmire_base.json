@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_crocmire",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_crocmire",
       "texture": "cobblemon:textures/pokemon/hiza/crocmire.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/crocmire_shiny.png"
-    }  ]
+    }
+  ]
 }

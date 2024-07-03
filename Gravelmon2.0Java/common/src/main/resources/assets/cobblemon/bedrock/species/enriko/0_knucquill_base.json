@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_knucquill",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_knucquill",
       "texture": "cobblemon:textures/pokemon/enriko/knucquill.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/knucquill_shiny.png"
-    }  ]
+    }
+  ]
 }

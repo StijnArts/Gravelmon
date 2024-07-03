@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_droophant",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_droophant",
       "texture": "cobblemon:textures/pokemon/interregional/droophant.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/droophant_shiny.png"
-    }  ]
+    }
+  ]
 }

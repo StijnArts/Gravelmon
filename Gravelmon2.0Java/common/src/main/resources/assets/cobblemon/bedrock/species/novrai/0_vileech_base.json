@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_vileech",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_vileech",
       "texture": "cobblemon:textures/pokemon/novrai/vileech.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/vileech_shiny.png"
-    }  ]
+    }
+  ]
 }

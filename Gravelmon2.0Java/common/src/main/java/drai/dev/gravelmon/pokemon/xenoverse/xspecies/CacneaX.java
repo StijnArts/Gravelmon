@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CacneaX extends Pokemon {
-    public CacneaX(int dexNo) {
-        super(dexNo,"CacneaX",
+    public CacneaX(String name, Aspect aspect) {
+        super(name, aspect,"CacneaX",
                 Type.GRASS, Type.GHOST,
                 new Stats(50, 85, 50, 85, 40, 35),
                 List.of(Ability.IRON_BARBS), Ability.CURSED_BODY,

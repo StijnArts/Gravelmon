@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vareon",
-  "nationalPokedexNumber": 1423,
+  "nationalPokedexNumber": 1424,
   "primaryType": "questionmark",
   "abilities": [
     "protean",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:varia_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:sandattack",
     "1:growl",
@@ -73,7 +83,7 @@
     "60:irondefense",
     "65:highjumpkick",
     "70:venomswipe",
-    "75:powergemcrystal",
+    "75:powergem",
     "80:skyattack",
     "85:bonemerang",
     "90:tailglow",
@@ -99,8 +109,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:acrobatics",
     "tm:retaliate",
@@ -118,15 +128,15 @@
     "tutor:earthpower",
     "tutor:foulplay",
     "tutor:headbutt",
-    "tutor:healbellsound",
-    "tutor:hypervoicesound",
+    "tutor:healbell",
+    "tutor:hypervoice",
     "tutor:irontail",
     "tutor:lastresort",
     "tutor:megakick",
     "tutor:mudslap",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
-    "tutor:swiftcosmic",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:swift",
     "egg:charm",
     "egg:covet",
     "egg:curse",

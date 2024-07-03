@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drilladin",
-  "nationalPokedexNumber": 2180,
+  "nationalPokedexNumber": 3743,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -80,13 +80,11 @@
     "tm:rocksmash"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.drilladin.desc"
   ],
-  "preEvolution": "kakuna",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,

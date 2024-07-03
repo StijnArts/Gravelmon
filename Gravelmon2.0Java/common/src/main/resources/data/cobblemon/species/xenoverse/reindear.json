@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reindear",
-  "nationalPokedexNumber": 1542,
+  "nationalPokedexNumber": 2139,
   "primaryType": "fairy",
   "abilities": [
     "vitalspirit",
@@ -77,8 +77,8 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:fling",
     "tm:brutalswing",
     "tm:poweruppunch",
@@ -86,7 +86,7 @@
     "tm:dazzlinggleam",
     "egg:charm",
     "egg:covet",
-    "egg:singsound",
+    "egg:sing",
     "egg:healingwish",
     "egg:icywind",
     "egg:feintattack",
@@ -96,8 +96,8 @@
     "tutor:helpinghand",
     "tutor:magicwall",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound"  ],
+    "tutor:sleeptalk",
+    "tutor:snore"  ],
   "labels": [
     "xenoverse",
     "not_modeled"

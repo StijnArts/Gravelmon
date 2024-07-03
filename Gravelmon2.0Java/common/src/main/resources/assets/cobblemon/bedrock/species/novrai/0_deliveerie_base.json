@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_deliveerie",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_deliveerie",
       "texture": "cobblemon:textures/pokemon/novrai/deliveerie.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/deliveerie_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:dhiome_korboral",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_korboral",
       "texture": "cobblemon:textures/pokemon/dhiome/korboral.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/dhiome/korboral_shiny.png"
-    }  ]
+    }
+  ]
 }

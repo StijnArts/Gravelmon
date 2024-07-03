@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "royalert",
-  "nationalPokedexNumber": 2797,
+  "nationalPokedexNumber": 4784,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -60,7 +60,7 @@
     "13:flamecharge",
     "16:bulldoze",
     "18:magnitude",
-    "23:roarsound",
+    "23:roar",
     "26:flamewheel",
     "31:willowisp",
     "36:firefang",
@@ -84,7 +84,7 @@
     "tutor:endeavor",
     "tutor:fireblast",
     "egg:curse",
-    "egg:howlsound",
+    "egg:howl",
     "egg:magmaring",
     "egg:mirrorcoat",
     "egg:mudslap",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_scrachty",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_scrachty",
       "texture": "cobblemon:textures/pokemon/varitas/scrachty.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/scrachty_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianMeowscarada extends Pokemon {
-    public AyreianMeowscarada(int dexNo) {
-        super(dexNo,"AyreianMeowscarada",
+    public AyreianMeowscarada(String name, Aspect aspect) {
+        super(name, aspect,"AyreianMeowscarada",
                 Type.GHOST, Type.POISON,
                 new Stats(66,76,70,118,120,80),
                 List.of(Ability.INSOMNIA, Ability.MERCILESS ), Ability.PROTEAN,

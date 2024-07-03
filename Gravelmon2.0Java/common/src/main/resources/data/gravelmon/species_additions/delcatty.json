@@ -1,0 +1,144 @@
+{
+   "target": "cobblemon:delcatty",
+   "forms": [{
+  "name": "Hizian",
+  "primaryType": "fairy",
+  "abilities": [
+    "fluffy",
+    "h:fluffy"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "field"
+  ],
+  "moves": [
+    "1:sweetscent",
+    "1:tackle",
+    "3:playnice",
+    "6:fairywind",
+    "9:aromatherapy",
+    "12:drainingkiss",
+    "15:faketears",
+    "18:round",
+    "21:stringshot",
+    "24:cottonspore",
+    "27:energyball",
+    "30:wish",
+    "33:playrough",
+    "36:cottonguard",
+    "39:endeavor",
+    "egg:afteryou",
+    "egg:copycat",
+    "egg:stickyweb",
+    "egg:yawn",
+    "tm:lightscreen",
+    "tm:safeguard",
+    "tm:rest",
+    "tm:thief",
+    "tm:snore",
+    "tm:protect",
+    "tm:charm",
+    "tm:attract",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:helpinghand",
+    "tm:faketears",
+    "tm:round",
+    "tm:drainingkiss",
+    "tm:flamethrower",
+    "tm:surf",
+    "tm:thunderbolt",
+    "tm:psychic",
+    "tm:amnesia",
+    "tm:substitute",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:calmmind",
+    "tm:energyball",
+    "tm:playrough",
+    "tm:dazzlinggleam"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hiziandelcatty.desc"
+  ],
+  "preEvolution": "skitty form=hizian",
+  "evolutions": [
+    {
+      "id": "delcatty_purrwess",
+      "variant": "item_interact",
+      "result": "purrwess",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": ["hizian"],
+  "cannotDynamax": false
+}
+], "features": [
+"hizian"
+  ]
+}

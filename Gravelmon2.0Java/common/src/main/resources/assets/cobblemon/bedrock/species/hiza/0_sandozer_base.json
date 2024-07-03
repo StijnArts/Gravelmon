@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_sandozer",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_sandozer",
       "texture": "cobblemon:textures/pokemon/hiza/sandozer.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/sandozer_shiny.png"
-    }  ]
+    }
+  ]
 }

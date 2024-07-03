@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_garbagull",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_garbagull",
       "texture": "cobblemon:textures/pokemon/flux/garbagull.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/garbagull_shiny.png"
-    }  ]
+    }
+  ]
 }

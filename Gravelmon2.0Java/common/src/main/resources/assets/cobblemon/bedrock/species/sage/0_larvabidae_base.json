@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_larvabidae",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_larvabidae",
       "texture": "cobblemon:textures/pokemon/sage/larvabidae.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/larvabidae_shiny.png"
-    }  ]
+    }
+  ]
 }

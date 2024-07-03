@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_clagcoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_clagcoon",
       "texture": "cobblemon:textures/pokemon/norheim/clagcoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/clagcoon_shiny.png"
-    }  ]
+    }
+  ]
 }

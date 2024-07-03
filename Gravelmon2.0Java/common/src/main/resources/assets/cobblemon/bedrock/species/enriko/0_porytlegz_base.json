@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_porytlegz",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_porytlegz",
       "texture": "cobblemon:textures/pokemon/enriko/porytlegz.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/porytlegz_shiny.png"
-    }  ]
+    }
+  ]
 }

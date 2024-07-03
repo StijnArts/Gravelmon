@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_tragobite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_tragobite",
       "texture": "cobblemon:textures/pokemon/fliga/tragobite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/tragobite_shiny.png"
-    }  ]
+    }
+  ]
 }

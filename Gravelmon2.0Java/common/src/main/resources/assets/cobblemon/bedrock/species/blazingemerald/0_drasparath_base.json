@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:blazingemerald_drasparath",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_drasparath",
       "texture": "cobblemon:textures/pokemon/blazingemerald/drasparath.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/blazingemerald/drasparath_shiny.png"
-    }  ]
+    }
+  ]
 }

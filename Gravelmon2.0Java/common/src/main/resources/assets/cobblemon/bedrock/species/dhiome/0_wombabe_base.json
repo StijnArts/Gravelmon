@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:dhiome_wombabe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_wombabe",
       "texture": "cobblemon:textures/pokemon/dhiome/wombabe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/dhiome/wombabe_shiny.png"
-    }  ]
+    }
+  ]
 }

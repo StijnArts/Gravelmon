@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanCorphish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanCorphish(int dex) {
-        super(dex, "Corphish",
+    public NorheimanCorphish(String name, Aspect aspect) {
+        super(name, aspect, "Corphish",
                 Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_cryvus",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_cryvus",
       "texture": "cobblemon:textures/pokemon/interregional/cryvus.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/cryvus_shiny.png"
-    }  ]
+    }
+  ]
 }

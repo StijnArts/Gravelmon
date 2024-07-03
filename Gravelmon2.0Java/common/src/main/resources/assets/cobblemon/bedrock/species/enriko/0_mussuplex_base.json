@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_mussuplex",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_mussuplex",
       "texture": "cobblemon:textures/pokemon/enriko/mussuplex.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/mussuplex_shiny.png"
-    }  ]
+    }
+  ]
 }

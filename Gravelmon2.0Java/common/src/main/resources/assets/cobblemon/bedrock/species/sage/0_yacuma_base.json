@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_yacuma",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_yacuma",
       "texture": "cobblemon:textures/pokemon/sage/yacuma.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/yacuma_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaTorchic extends Pokemon {
-    public DeltaTorchic(int dexNo) {
-        super(dexNo,"DeltaTorchic",
+    public DeltaTorchic(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTorchic",
                 Type.PSYCHIC,
                 new Stats(45, 60, 40, 70, 50, 45),
                 List.of(Ability.KEEN_EYE), Ability.RIVALRY,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_rivulcred",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_rivulcred",
       "texture": "cobblemon:textures/pokemon/orohn-havai/rivulcred.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/rivulcred_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_nautilite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_nautilite",
       "texture": "cobblemon:textures/pokemon/oceane/nautilite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/nautilite_shiny.png"
-    }  ]
+    }
+  ]
 }

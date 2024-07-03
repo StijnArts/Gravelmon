@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:generation3_alteranshroomish",
       "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation3/alteranshroomish.png",
+      "poser": "cobblemon:replacement_poser",
+      "texture": "cobblemon:textures/pokemon/evolve_me.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation3/alteranshroomish_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/evolve_me.png"
+    }
+  ]
 }

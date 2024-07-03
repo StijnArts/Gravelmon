@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_parumpum",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_parumpum",
       "texture": "cobblemon:textures/pokemon/qamor/parumpum.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/parumpum_shiny.png"
-    }  ]
+    }
+  ]
 }

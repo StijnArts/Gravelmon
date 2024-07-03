@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_spectrance",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_spectrance",
       "texture": "cobblemon:textures/pokemon/oceane/spectrance.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/spectrance_shiny.png"
-    }  ]
+    }
+  ]
 }

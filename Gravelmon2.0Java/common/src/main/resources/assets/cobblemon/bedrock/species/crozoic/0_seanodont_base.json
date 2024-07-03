@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:crozoic_seanodont",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_seanodont",
       "texture": "cobblemon:textures/pokemon/crozoic/seanodont.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/crozoic/seanodont_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_soappo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_soappo",
       "texture": "cobblemon:textures/pokemon/hiza/soappo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/soappo_shiny.png"
-    }  ]
+    }
+  ]
 }

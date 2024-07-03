@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.qamor.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class QamoranCombee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranCombee(int dex) {
-        super(dex, "Combee",
+    public QamoranCombee(String name, Aspect aspect) {
+        super(name, aspect, "Combee",
                 Type.STEEL, Type.FLYING,
                 new Stats(30,
                         30,

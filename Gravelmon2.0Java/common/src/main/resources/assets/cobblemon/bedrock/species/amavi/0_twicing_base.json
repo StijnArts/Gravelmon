@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_twicing",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_twicing",
       "texture": "cobblemon:textures/pokemon/amavi/twicing.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/twicing_shiny.png"
-    }  ]
+    }
+  ]
 }

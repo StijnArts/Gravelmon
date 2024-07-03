@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "siamouth",
-  "nationalPokedexNumber": 1351,
+  "nationalPokedexNumber": 1352,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -110,7 +110,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:raindance",
     "tm:taunt",

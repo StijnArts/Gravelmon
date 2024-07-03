@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dorisuton",
-  "nationalPokedexNumber": 2917,
+  "nationalPokedexNumber": 4904,
   "primaryType": "rock",
   "abilities": [
     "roughskin",
@@ -54,7 +54,7 @@
     "9:rockthrow",
     "18:rockblast",
     "22:mudsport",
-    "27:powergemcrystal",
+    "27:powergem",
     "30:spikecannon",
     "33:sandstorm",
     "46:selfdestruct",
@@ -78,7 +78,7 @@
     "tutor:rockwrecker",
     "egg:ancientpower",
     "egg:curse",
-    "egg:screechsound",
+    "egg:screech",
     "egg:skullbash",
     "egg:steamroller",
     "egg:superpower",

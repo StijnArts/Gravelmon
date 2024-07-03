@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_cocoward",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_cocoward",
       "texture": "cobblemon:textures/pokemon/enjin/cocoward.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/cocoward_shiny.png"
-    }  ]
+    }
+  ]
 }

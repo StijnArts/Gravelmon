@@ -1,0 +1,272 @@
+{
+   "target": "cobblemon:dubwool",
+   "forms": [{
+  "name": "Novran",
+  "primaryType": "steel",
+  "secondaryType": "normal",
+  "abilities": [
+    "ironbarbs",
+    "steadfast",
+    "h:bulletproof"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 80,
+    "defence": 120,
+    "special_attack": 40,
+    "special_defence": 90,
+    "speed": 88
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "11:copycat",
+    "13:doublekick",
+    "17:rollout",
+    "21:spikecannon",
+    "26:irondefense",
+    "30:steamroller",
+    "33:smartstrike",
+    "37:spikyshield",
+    "40:bodyslam",
+    "43:spikes",
+    "47:steelroller",
+    "54:cottonguard",
+    "58:doubleedge",
+    "63:lastresort",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:zenheadbutt",
+    "tm:yawn",
+    "tm:shockwave",
+    "tm:endeavor",
+    "tm:snore",
+    "tm:rapidspin",
+    "tm:heavyslam",
+    "tm:steelbeam",
+    "tm:workup",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:shadowball",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:curse",
+    "tm:payback",
+    "tm:smartstrike",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:stealthrock",
+    "tm:rockslide",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:wildcharge",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:trailblaze",
+    "tm:bodypress",
+    "tm:icespinner",
+    "tm:attract",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:rockclimb",
+    "tm:counter",
+    "tm:stomp",
+    "tm:autotomize",
+    "tm:flail"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.novrandubwool.desc"
+  ],
+  "preEvolution": "wooloo form=novran",
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": ["novran"],
+  "cannotDynamax": false
+},
+{
+  "name": "Kaskadian",
+  "primaryType": "normal",
+  "secondaryType": "fire",
+  "abilities": [
+    "flashfire",
+    "intimidate",
+    "h:scrappy"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 100,
+    "special_defence": 70,
+    "speed": 88
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 127,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:copycat",
+    "1:defensecurl",
+    "1:growl",
+    "1:tackle",
+    "12:guardsplit",
+    "16:doublekick",
+    "21:headbutt",
+    "27:takedown",
+    "32:guardswap",
+    "38:reversal",
+    "44:cottonguard",
+    "50:doubleedge",
+    "56:lastresort",
+    "egg:counter",
+    "egg:stomp",
+    "egg:swagger",
+    "tutor:grassyglide",
+    "tm:megakick",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:snore",
+    "tm:protect",
+    "tm:attract",
+    "tm:facade",
+    "tm:bounce",
+    "tm:payback",
+    "tm:guardswap",
+    "tm:round",
+    "tm:retaliate",
+    "tm:swordsdance",
+    "tm:bodyslam",
+    "tm:agility",
+    "tm:substitute",
+    "tm:reversal",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:batonpass",
+    "tm:zenheadbutt",
+    "tm:electroball",
+    "tm:wildcharge",
+    "tm:bodypress"  ],
+  "labels": [
+    "gen8",
+    "lockemon",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kaskadiandubwool.desc"
+  ],
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 430,
+  "aspects": ["kaskadian"],
+  "cannotDynamax": false
+}
+], "features": [
+"novran",
+"kaskadian"
+  ]
+}

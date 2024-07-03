@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "burnaram",
-  "nationalPokedexNumber": 1402,
+  "nationalPokedexNumber": 1403,
   "primaryType": "fire",
   "abilities": [
     "reckless",
@@ -101,8 +101,8 @@
     "tutor:headbutt",
     "tutor:helpinghand",
     "tutor:ironhead",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:zenheadbutt",
     "egg:ancientpower",
     "egg:beatup",

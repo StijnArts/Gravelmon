@@ -65,7 +65,7 @@
     "55:dragonpulse",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -95,7 +95,7 @@
     "tm:rockslide",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:shieldbash",
     "tm:strength"  ],
   "labels": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kasodan",
-  "nationalPokedexNumber": 2992,
+  "nationalPokedexNumber": 4979,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
@@ -75,10 +75,10 @@
     "egg:mudslap",
     "egg:mudsport",
     "egg:thief",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:stomp",
     "egg:discharge",
-    "egg:roarsound",
+    "egg:roar",
     "egg:voltswitch"  ],
   "labels": [
     "deneb",

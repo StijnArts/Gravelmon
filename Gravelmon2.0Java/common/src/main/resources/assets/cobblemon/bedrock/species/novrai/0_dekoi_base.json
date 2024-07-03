@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_dekoi",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_dekoi",
       "texture": "cobblemon:textures/pokemon/novrai/dekoi.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/dekoi_shiny.png"
-    }  ]
+    }
+  ]
 }

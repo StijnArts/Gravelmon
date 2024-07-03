@@ -1,0 +1,146 @@
+{
+  "implemented": true,
+  "name": "vegelamb",
+  "nationalPokedexNumber": 5411,
+  "primaryType": "grass",
+  "abilities": [
+    "chlorophyll",
+    "grasspelt",
+    "h:friendguard"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 84,
+    "defence": 67,
+    "special_attack": 73,
+    "special_defence": 74,
+    "speed": 62
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "4:playnice",
+    "11:growth",
+    "14:razorleaf",
+    "19:cottonspore",
+    "22:charm",
+    "26:headbutt",
+    "32:stunspore",
+    "37:hornleech",
+    "43:naturalgift",
+    "48:cottonguard",
+    "52:grassyterrain",
+    "57:playrough",
+    "63:leafstorm",
+    "tm:facade",
+    "tm:naturepower",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:uturn",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:solarbeam",
+    "tm:bulletseed",
+    "tm:gigadrain",
+    "tm:wildcharge",
+    "tm:aerialace",
+    "tm:shadowball",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:rockslide",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:taunt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:grassyterrain",
+    "tm:mistyterrain",
+    "tm:gigadrain",
+    "tm:healbell",
+    "tm:grasswhistle"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.vegelamb.desc"
+  ],
+  "preEvolution": "lemb",
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_woolvry",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_woolvry",
       "texture": "cobblemon:textures/pokemon/junnin/woolvry.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/woolvry_shiny.png"
-    }  ]
+    }
+  ]
 }

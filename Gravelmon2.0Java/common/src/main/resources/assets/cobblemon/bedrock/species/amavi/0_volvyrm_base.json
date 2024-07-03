@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_volvyrm",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_volvyrm",
       "texture": "cobblemon:textures/pokemon/amavi/volvyrm.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/volvyrm_shiny.png"
-    }  ]
+    }
+  ]
 }

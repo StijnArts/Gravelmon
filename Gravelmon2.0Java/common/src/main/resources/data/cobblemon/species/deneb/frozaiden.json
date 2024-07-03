@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frozaiden",
-  "nationalPokedexNumber": 2726,
+  "nationalPokedexNumber": 4712,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -75,7 +75,7 @@
     "tm:confuseray",
     "tm:willowisp",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
@@ -94,12 +94,12 @@
     "egg:iciclespear",
     "egg:mirrorcoat",
     "egg:nastyplot",
-    "egg:perishsongsound",
+    "egg:perishsong",
     "egg:psychup",
     "egg:raindance",
     "egg:return",
     "egg:secretpower",
-    "egg:singsound",
+    "egg:sing",
     "egg:waterpulse"  ],
   "labels": [
     "deneb",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_amalgarment",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_amalgarment",
       "texture": "cobblemon:textures/pokemon/novrai/amalgarment.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/amalgarment_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aquaff",
-  "nationalPokedexNumber": 2561,
+  "nationalPokedexNumber": 4456,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -56,7 +56,7 @@
     "18:aquajet",
     "21:waterpulse",
     "24:hornattack",
-    "27:powergemcrystal",
+    "27:powergem",
     "30:bellydrum",
     "33:skullbash",
     "36:aquatail",

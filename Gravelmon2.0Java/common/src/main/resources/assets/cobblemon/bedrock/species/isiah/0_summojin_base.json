@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_summojin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_summojin",
       "texture": "cobblemon:textures/pokemon/isiah/summojin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/summojin_shiny.png"
-    }  ]
+    }
+  ]
 }

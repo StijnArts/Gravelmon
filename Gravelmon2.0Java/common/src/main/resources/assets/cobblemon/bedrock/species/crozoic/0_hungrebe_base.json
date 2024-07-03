@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:crozoic_hungrebe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_hungrebe",
       "texture": "cobblemon:textures/pokemon/crozoic/hungrebe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/crozoic/hungrebe_shiny.png"
-    }  ]
+    }
+  ]
 }

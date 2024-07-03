@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_phantrait",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_phantrait",
       "texture": "cobblemon:textures/pokemon/atlas/phantrait.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/phantrait_shiny.png"
-    }  ]
+    }
+  ]
 }

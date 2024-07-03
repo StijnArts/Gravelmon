@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.blazingemerald;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
@@ -37,5 +38,7 @@ public class Metunn extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("unown");
         this.setCanFly(true);
+        addAdditionalEvolution("unown", new EvolutionEntry("metunn", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:ancient_glyph"));
     }
 }

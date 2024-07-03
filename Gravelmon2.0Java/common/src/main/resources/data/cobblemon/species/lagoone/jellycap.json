@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "jellycap",
+  "nationalPokedexNumber": 1490,
+  "primaryType": "poison",
+  "abilities": [
+    "effectspore",
+    "liquidooze",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 32,
+    "defence": 60,
+    "special_attack": 48,
+    "special_defence": 60,
+    "speed": 25
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:leer",
+    "3:wrap",
+    "6:lick",
+    "9:acid",
+    "12:glare",
+    "17:poisontail",
+    "21:acidspray",
+    "26:focusenergy",
+    "29:spore",
+    "31:gastroacid",
+    "36:nightslash",
+    "41:wringout",
+    "46:coil",
+    "52:gunkshot"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.jellycap.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "jellycap_jellohat",
+      "variant": "level_up",
+      "result": "jellohat",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 82,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

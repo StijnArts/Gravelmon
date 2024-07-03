@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chigami",
-  "nationalPokedexNumber": 1523,
+  "nationalPokedexNumber": 2117,
   "primaryType": "fairy",
   "abilities": [
     "roughskin",
@@ -71,7 +71,7 @@
     "tm:aerialace",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:falseswipe",
     "tm:smartstrike",
     "tm:swordsdance",
@@ -88,8 +88,8 @@
     "tutor:hurricane",
     "tutor:irondefense",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:steelwing"  ],
   "labels": [
     "xenoverse",

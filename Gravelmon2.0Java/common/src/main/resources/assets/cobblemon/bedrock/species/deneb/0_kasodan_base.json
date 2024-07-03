@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_kasodan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_kasodan",
       "texture": "cobblemon:textures/pokemon/deneb/kasodan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/kasodan_shiny.png"
-    }  ]
+    }
+  ]
 }

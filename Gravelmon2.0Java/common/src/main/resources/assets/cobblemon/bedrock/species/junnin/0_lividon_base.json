@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_lividon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_lividon",
       "texture": "cobblemon:textures/pokemon/junnin/lividon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/lividon_shiny.png"
-    }  ]
+    }
+  ]
 }

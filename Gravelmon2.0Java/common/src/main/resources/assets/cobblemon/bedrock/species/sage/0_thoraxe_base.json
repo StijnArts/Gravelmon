@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_thoraxe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_thoraxe",
       "texture": "cobblemon:textures/pokemon/sage/thoraxe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/thoraxe_shiny.png"
-    }  ]
+    }
+  ]
 }

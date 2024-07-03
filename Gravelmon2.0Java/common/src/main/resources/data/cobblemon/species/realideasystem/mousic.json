@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mousic",
-  "nationalPokedexNumber": 1257,
+  "nationalPokedexNumber": 1258,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -54,7 +54,7 @@
     "7:confusion",
     "10:hypnosis",
     "13:firefang",
-    "16:roundsound",
+    "16:round",
     "19:yawn",
     "22:flameburst",
     "25:psybeam",

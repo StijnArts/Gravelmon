@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_hilliage",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_hilliage",
       "texture": "cobblemon:textures/pokemon/amavi/hilliage.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/hilliage_shiny.png"
-    }  ]
+    }
+  ]
 }

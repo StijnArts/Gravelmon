@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_musipede",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_musipede",
       "texture": "cobblemon:textures/pokemon/hiza/musipede.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/musipede_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:darumaka",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:generation5_deltadarumaka.geo",
+      "poser": "cobblemon:generation5_deltadarumaka",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadarumaka/deltadarumaka.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:generation5_deltadarumaka.geo",
+      "poser": "cobblemon:generation5_deltadarumaka",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadarumaka/deltadarumaka_shiny.png",
+      "layers": []
+    }
+  ]
+}

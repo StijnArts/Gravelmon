@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaCamerupt extends Pokemon {
-    public DeltaCamerupt(int dexNo) {
-        super(dexNo,"DeltaCamerupt",
+    public DeltaCamerupt(String name, Aspect aspect) {
+        super(name, aspect,"DeltaCamerupt",
                 Type.POISON,
                 new Stats(70, 100, 70, 105, 75, 40),
                 List.of(Ability.VENOMOUS, Ability.POISON_POINT), Ability.LIQUID_OOZE,

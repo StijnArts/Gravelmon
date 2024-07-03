@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_kelpumpf",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_kelpumpf",
       "texture": "cobblemon:textures/pokemon/amavi/kelpumpf.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/kelpumpf_shiny.png"
-    }  ]
+    }
+  ]
 }

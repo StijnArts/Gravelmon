@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_guardiant",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_guardiant",
       "texture": "cobblemon:textures/pokemon/amavi/guardiant.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/guardiant_shiny.png"
-    }  ]
+    }
+  ]
 }

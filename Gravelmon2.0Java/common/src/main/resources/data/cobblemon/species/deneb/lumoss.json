@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lumoss",
-  "nationalPokedexNumber": 2866,
+  "nationalPokedexNumber": 4853,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -91,7 +91,7 @@
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "egg:acidspray",
     "egg:bodyslam",
     "egg:doubleedge",
@@ -109,7 +109,7 @@
     "egg:sludge",
     "egg:spark",
     "egg:sunnyday",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:takedown",
     "egg:toxic"  ],
   "labels": [

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_furibal",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_furibal",
       "texture": "cobblemon:textures/pokemon/mythire/furibal.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/furibal_shiny.png"
-    }  ]
+    }
+  ]
 }

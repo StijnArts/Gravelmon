@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianSlakoth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianSlakoth(int dex) {
-        super(dex, "Slakoth",
+    public FligianSlakoth(String name, Aspect aspect) {
+        super(name, aspect, "Slakoth",
                 Type.NORMAL,
                 new Stats(60,
                         65,

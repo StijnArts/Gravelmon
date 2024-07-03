@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_roargyle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_roargyle",
       "texture": "cobblemon:textures/pokemon/amavi/roargyle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/roargyle_shiny.png"
-    }  ]
+    }
+  ]
 }

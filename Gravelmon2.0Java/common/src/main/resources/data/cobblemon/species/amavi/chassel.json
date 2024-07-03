@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chassel",
-  "nationalPokedexNumber": 3087,
+  "nationalPokedexNumber": 5679,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -51,7 +51,7 @@
     "1:sandattack",
     "4:mudsport",
     "7:magnitude",
-    "10:roarsound",
+    "10:roar",
     "14:dig",
     "21:heavyslam",
     "27:sandtomb",

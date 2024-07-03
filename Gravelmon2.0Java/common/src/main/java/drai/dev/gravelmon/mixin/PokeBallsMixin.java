@@ -9,13 +9,15 @@ import com.cobblemon.mod.common.api.pokeball.catching.modifiers.*;
 import com.cobblemon.mod.common.api.pokemon.egg.*;
 import com.cobblemon.mod.common.pokeball.*;
 import com.cobblemon.mod.common.pokemon.*;
-import com.cobblemon.mod.common.pokemon.status.statuses.*;
+import com.cobblemon.mod.common.pokemon.status.statuses.persistent.*;
 import drai.dev.gravelmon.pokeballs.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import kotlin.*;
 import net.minecraft.locale.*;
 import net.minecraft.network.chat.*;
 import net.minecraft.resources.*;
+import net.minecraft.world.entity.*;
+import org.jetbrains.annotations.*;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.*;
@@ -25,20 +27,19 @@ import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.*;
 
 @Mixin(PokeBalls.class)
 public abstract class PokeBallsMixin {
-    @Final
     @Shadow
-    private static HashMap<ResourceLocation, PokeBall> defaults;
+    static
+    HashMap<ResourceLocation, PokeBall> defaults;
     private static boolean init = false;
-    @Inject(method = "byName", at =@At("HEAD"), remap = false)
+    @Inject(method = "byName", at =@At("HEAD"), remap = false, cancellable = true)
     private void injectPokeballs(String name, CallbackInfoReturnable<PokeBall> cir){
         if(!init){
-            gravelmon2_0Java$createPokeballsByDefault();
+            createPokeballsByDefault();
             init=true;
         }
     }
 
-    @Unique
-    private void gravelmon2_0Java$createPokeballsByDefault() {
+    private void createPokeballsByDefault() {
         BattleModifier gLModifier = new BattleModifier((x, playerPokemon, pokemon) -> {
             boolean pokemonIsSameSpeciesAndSameGender = false;
             for (var battlePokemon: playerPokemon) {
@@ -55,21 +56,16 @@ public abstract class PokeBallsMixin {
         });
         BattleModifier bModifier = new BattleModifier((x, playerPokemon, pokemon) -> {
             for (var battlePokemon: playerPokemon) {
-                if(battlePokemon.getBattlePokemon() != null){
-                    if(battlePokemon.getBattlePokemon().getOriginalPokemon().getSpecies().equals(pokemon.getSpecies())){
-                        return 2.5F;
-                    }
+                if(battlePokemon.getBattlePokemon().getOriginalPokemon().getSpecies().equals(pokemon.getSpecies())){
+                    return 2.5F;
                 }
-
             }
             return 1F;
         });
         BattleModifier pModifier = new BattleModifier((x, playerPokemon, pokemon) -> {
             for (var battlePokemon: playerPokemon) {
-                if(battlePokemon.getBattlePokemon() != null) {
-                    if (!battlePokemon.getBattlePokemon().getOriginalPokemon().getSpecies().equals(pokemon.getSpecies())) {
-                        return 2F;
-                    }
+                if(!battlePokemon.getBattlePokemon().getOriginalPokemon().getSpecies().equals(pokemon.getSpecies())){
+                    return 2F;
                 }
             }
             return 1F;
@@ -229,13 +225,12 @@ public abstract class PokeBallsMixin {
         });
         BattleModifier snoreModifier = new BattleModifier((x, playerPokemon, pokemon) -> {
             boolean isAsleep = false;
-            var status = pokemon.getStatus();
-            if(status!=null){
-                if(status.getStatus() instanceof SleepStatus){
-                    isAsleep = true;
-                }
+            if(pokemon.getStatus()==null){
+                return 1f;
             }
-
+            if(pokemon.getStatus().getStatus() instanceof SleepStatus){
+                    isAsleep = true;
+            }
             if(isAsleep){
                 return 5F;
             }
@@ -257,7 +252,12 @@ public abstract class PokeBallsMixin {
         });
         CORAL_BALL = createFromDefaults("coral_ball");
         MAUVE_BALL = createFromDefaults("mauve_ball");
-        LUSTER_BALL = createFromDefaults("luster_ball", List.of((livingEntity, pokemon) -> pokemon.setShiny(true)));
+        LUSTER_BALL = createFromDefaults("luster_ball", List.of(new CaptureEffect() {
+            @Override
+            public void apply(@NotNull LivingEntity livingEntity, @NotNull Pokemon pokemon) {
+                pokemon.setShiny(true);
+            }
+        }));
         DAWN_BALL = createFromDefaults("dawn_ball", dawnModifier);
         SUN_BALL = createFromDefaults("sun_ball", sunModifier);
         FEATHER_BALL = createFromDefaults("feather_ball", featherModifier);
@@ -329,36 +329,36 @@ public abstract class PokeBallsMixin {
     private GravelmonPokeBall createFromDefaults(String name){
         return createDefault(name,
                 new MultiplierModifier(1F , (condition1, condition2) -> true),
-                List.of(), new ResourceLocation("gravelmon",name),
+                List.of(),0.8F,new ResourceLocation("gravelmon",name),
                 new ResourceLocation("gravelmon",name+"_model"));
     }
 
     private GravelmonPokeBall createFromDefaults(String name, List<CaptureEffect> effects){
         return createDefault(name,
                 new MultiplierModifier(1F , (condition1, condition2) -> true),
-                effects, new ResourceLocation("gravelmon",name),
+                effects,0.8F,new ResourceLocation("gravelmon",name),
                 new ResourceLocation("gravelmon",name+"_model"));
     }
 
     private GravelmonPokeBall createFromDefaults(String name, float multiplier){
         return createDefault(name,
                 new MultiplierModifier(multiplier , (condition1, condition2) -> true),
-                List.of(), new ResourceLocation("gravelmon",name),
+                List.of(),0.8F,new ResourceLocation("gravelmon",name),
                 new ResourceLocation("gravelmon",name+"_model"));
     }
 
     private GravelmonPokeBall createFromDefaults(String name, CatchRateModifier multiplierModifier){
         return createDefault(name,
                 multiplierModifier,
-                List.of(), new ResourceLocation("gravelmon",name),
+                List.of(),0.8F,new ResourceLocation("gravelmon",name),
                 new ResourceLocation("gravelmon",name+"_model"));
     }
 
     private GravelmonPokeBall createDefault(String name, CatchRateModifier multiplierModifier,
-                                            List<CaptureEffect> effects, ResourceLocation model2d, ResourceLocation model3d){
+                                   List<CaptureEffect> effects, float waterDragValue, ResourceLocation model2d, ResourceLocation model3d){
         var identifier = new ResourceLocation("cobblemon", name);
         var pokeball = new GravelmonPokeBall(identifier, multiplierModifier,
-                effects, (float) 0.8, model2d, model3d);
+                effects, waterDragValue, model2d, model3d, 1, false);
         defaults.put(identifier, pokeball);
         return pokeball;
     }

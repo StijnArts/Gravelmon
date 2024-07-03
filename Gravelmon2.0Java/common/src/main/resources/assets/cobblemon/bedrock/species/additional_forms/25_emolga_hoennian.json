@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:emolga",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:generation5_hoennianemolga.geo",
+      "poser": "cobblemon:generation5_hoennianemolga",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianemolga/hoennianemolga.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:generation5_hoennianemolga.geo",
+      "poser": "cobblemon:generation5_hoennianemolga",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianemolga/hoennianemolga_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inflant",
-  "nationalPokedexNumber": 1570,
+  "nationalPokedexNumber": 2167,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -74,7 +74,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
     "tm:brutalswing",
     "tm:surf",

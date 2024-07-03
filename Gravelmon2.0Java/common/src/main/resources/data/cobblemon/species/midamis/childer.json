@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "childer",
-  "nationalPokedexNumber": 2602,
+  "nationalPokedexNumber": 4497,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
@@ -52,13 +52,13 @@
     "5:powdersnow",
     "10:gust",
     "13:icywind",
-    "17:singsound",
+    "17:sing",
     "22:aircutter",
     "26:frostbreath",
     "30:wingattack",
     "35:roost",
     "40:avalanche",
-    "43:screechsound",
+    "43:screech",
     "49:aurorabeam",
     "53:mirrormove"  ],
   "labels": [

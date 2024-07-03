@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_sliezen",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_sliezen",
       "texture": "cobblemon:textures/pokemon/interregional/sliezen.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/sliezen_shiny.png"
-    }  ]
+    }
+  ]
 }

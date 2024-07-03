@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_ferasquab",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_ferasquab",
       "texture": "cobblemon:textures/pokemon/nosto/ferasquab.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/ferasquab_shiny.png"
-    }  ]
+    }
+  ]
 }

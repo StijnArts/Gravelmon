@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_wanupp",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_wanupp",
       "texture": "cobblemon:textures/pokemon/enriko/wanupp.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/wanupp_shiny.png"
-    }  ]
+    }
+  ]
 }

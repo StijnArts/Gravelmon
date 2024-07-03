@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_elescent",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_elescent",
       "texture": "cobblemon:textures/pokemon/avoris/elescent.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/elescent_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_cygnicuffs",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_cygnicuffs",
       "texture": "cobblemon:textures/pokemon/lonava/cygnicuffs.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/cygnicuffs_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanGlimmora extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanGlimmora(int i, Stats stats) {
-        super(i, "Glimmora",
+    public NorheimanGlimmora(String name, Aspect aspect, Stats stats) {
+        super(name, aspect, "Glimmora",
                 Type.ICE, Type.POISON,
                 stats,
                 List.of(Ability.TOXIC_DEBRIS), Ability.TOXIC_DEBRIS,
@@ -49,6 +50,9 @@ public class NorheimanGlimmora extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Glimmora");
+        addAdditionalEvolution("glimmet", new EvolutionEntry("glimmora norheiman", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_FREEZING.getId() + ":" + Biome.IS_FREEZING.getName() +"\""))));
 
     }
 

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaPidgeotto extends Pokemon {
-    public DeltaPidgeotto(int dexNo) {
-        super(dexNo,"DeltaPidgeotto",
+    public DeltaPidgeotto(String name, Aspect aspect) {
+        super(name, aspect,"DeltaPidgeotto",
                 Type.DARK, Type.DRAGON,
                 new Stats(63, 60, 55, 50, 50, 71),
                 List.of(Ability.INTIMIDATE,Ability.EARLY_BIRD), Ability.MARVEL_SCALE,

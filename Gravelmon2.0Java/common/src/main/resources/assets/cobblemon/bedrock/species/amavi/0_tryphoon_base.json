@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_tryphoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_tryphoon",
       "texture": "cobblemon:textures/pokemon/amavi/tryphoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/tryphoon_shiny.png"
-    }  ]
+    }
+  ]
 }

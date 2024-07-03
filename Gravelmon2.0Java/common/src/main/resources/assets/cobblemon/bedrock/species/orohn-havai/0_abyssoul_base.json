@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_abyssoul",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_abyssoul",
       "texture": "cobblemon:textures/pokemon/orohn-havai/abyssoul.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/abyssoul_shiny.png"
-    }  ]
+    }
+  ]
 }

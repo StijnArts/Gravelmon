@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class AyreianGrimer extends Pokemon {
-    public AyreianGrimer(int dexNo) {
-        super(dexNo,"AyreianGrimer",
+    public AyreianGrimer(String name, Aspect aspect) {
+        super(name, aspect,"AyreianGrimer",
                 Type.WATER, Type.POISON,
                 new Stats(80,40,80,25,80,80),
                 List.of(Ability.STENCH, Ability.WATER_ABSORB), Ability.POISON_POINT,

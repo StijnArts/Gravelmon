@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_viperzang",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_viperzang",
       "texture": "cobblemon:textures/pokemon/deneb/viperzang.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/viperzang_shiny.png"
-    }  ]
+    }
+  ]
 }

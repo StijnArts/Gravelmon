@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_cuspide",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_cuspide",
       "texture": "cobblemon:textures/pokemon/flux/cuspide.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/cuspide_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_owten",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_owten",
       "texture": "cobblemon:textures/pokemon/uranium/owten.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/owten_shiny.png"
-    }  ]
+    }
+  ]
 }

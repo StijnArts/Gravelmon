@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_voyote",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_voyote",
       "texture": "cobblemon:textures/pokemon/hiza/voyote.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/voyote_shiny.png"
-    }  ]
+    }
+  ]
 }

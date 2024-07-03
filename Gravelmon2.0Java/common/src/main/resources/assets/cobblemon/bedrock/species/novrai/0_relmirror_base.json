@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_relmirror",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_relmirror",
       "texture": "cobblemon:textures/pokemon/novrai/relmirror.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/relmirror_shiny.png"
-    }  ]
+    }
+  ]
 }

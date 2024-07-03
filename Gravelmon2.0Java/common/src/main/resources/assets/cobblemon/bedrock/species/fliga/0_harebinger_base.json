@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_harebinger",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_harebinger",
       "texture": "cobblemon:textures/pokemon/fliga/harebinger.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/harebinger_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianGastly extends Pokemon {
-    public AyreianGastly(int dexNo) {
-        super(dexNo,"AyreianGastly",
+    public AyreianGastly(String name, Aspect aspect) {
+        super(name, aspect,"AyreianGastly",
                 Type.FIRE, Type.GHOST,
                 new Stats(30,65,30,80,65,35),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

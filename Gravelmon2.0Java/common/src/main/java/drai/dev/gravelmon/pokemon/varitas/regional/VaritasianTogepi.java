@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianTogepi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTogepi(int dex) {
-        super(dex, "Togepi",
+    public VaritasianTogepi(String name, Aspect aspect) {
+        super(name, aspect, "Togepi",
                 Type.FAIRY, Type.STEEL,
                 new Stats(35,
                         20,

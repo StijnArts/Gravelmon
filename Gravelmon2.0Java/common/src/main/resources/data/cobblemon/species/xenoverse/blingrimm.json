@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blingrimm",
-  "nationalPokedexNumber": 1512,
+  "nationalPokedexNumber": 2106,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
@@ -81,7 +81,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:brutalswing",
     "tm:shadowclaw",
     "tm:payback",
@@ -99,7 +99,7 @@
     "egg:spikes",
     "egg:stealthrock",
     "egg:autotomize",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:metalburst",
     "tutor:block",
     "tutor:drillrun",
@@ -109,8 +109,8 @@
     "tutor:ironhead",
     "tutor:knockoff",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:stealthrock"  ],
   "labels": [
     "xenoverse",

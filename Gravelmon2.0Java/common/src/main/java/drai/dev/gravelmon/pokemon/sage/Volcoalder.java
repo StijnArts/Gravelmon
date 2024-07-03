@@ -1,8 +1,11 @@
 package drai.dev.gravelmon.pokemon.sage;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import java.util.*;
+
 import java.util.*;
 
 public class Volcoalder  extends Pokemon {
@@ -99,7 +102,7 @@ public class Volcoalder  extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:magma",100, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 39, 0.7, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_BASALT)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_NETHER_BASALT, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

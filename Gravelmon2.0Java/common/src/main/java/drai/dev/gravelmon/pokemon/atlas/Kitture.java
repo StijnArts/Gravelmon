@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.atlas;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Kitture extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -24,7 +25,7 @@ public class Kitture extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Though not known for making trouble, Kitture can make accidents when attempting to get the attention from their owners. This makes them expensive to own, typically."),
                 List.of(new EvolutionEntry("fashewn", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),

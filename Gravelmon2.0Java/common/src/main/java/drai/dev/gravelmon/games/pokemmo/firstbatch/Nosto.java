@@ -1,5 +1,6 @@
 package drai.dev.gravelmon.games.pokemmo.firstbatch;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.nosto.Brailien;
 import drai.dev.gravelmon.pokemon.nosto.Carrauntain;

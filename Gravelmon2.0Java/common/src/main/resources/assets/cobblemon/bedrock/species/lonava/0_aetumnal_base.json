@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_aetumnal",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_aetumnal",
       "texture": "cobblemon:textures/pokemon/lonava/aetumnal.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/aetumnal_shiny.png"
-    }  ]
+    }
+  ]
 }

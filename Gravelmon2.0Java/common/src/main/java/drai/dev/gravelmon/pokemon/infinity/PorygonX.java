@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.infinity;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class PorygonX extends Pokemon {
@@ -113,5 +114,7 @@ public class PorygonX extends Pokemon {
         this.setBaseScale(1);
         this.setCanFly(true);
         this.setPreEvolution("porygon2");
+        addAdditionalEvolution("porygon2", new EvolutionEntry("porygonx", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:quantum_upgrade\""))));
     }
 }

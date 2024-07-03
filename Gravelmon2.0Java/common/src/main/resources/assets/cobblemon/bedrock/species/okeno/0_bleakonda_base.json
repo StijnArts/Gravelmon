@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_bleakonda",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_bleakonda",
       "texture": "cobblemon:textures/pokemon/okeno/bleakonda.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/bleakonda_shiny.png"
-    }  ]
+    }
+  ]
 }

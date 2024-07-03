@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanCorvisquire extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanCorvisquire(int dex) {
-        super(dex, "Corvisquire",
+    public NorheimanCorvisquire(String name, Aspect aspect) {
+        super(name, aspect, "Corvisquire",
                 Type.FLYING,
                 new Stats(65,
                         76,

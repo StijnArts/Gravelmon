@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:charmander",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:generation1_eghocharmander.geo",
+      "poser": "cobblemon:generation1_eghocharmander",
+      "texture": "cobblemon:textures/pokemon/generation1/eghocharmander/eghocharmander.png",
+      "layers": [
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_eghocharmander.geo",
+      "poser": "cobblemon:generation1_eghocharmander",
+      "texture": "cobblemon:textures/pokemon/generation1/eghocharmander/eghocharmander_shiny.png",
+      "layers": []
+    }
+  ]
+}

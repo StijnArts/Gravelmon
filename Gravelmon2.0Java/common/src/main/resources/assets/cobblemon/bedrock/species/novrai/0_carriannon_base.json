@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_carriannon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_carriannon",
       "texture": "cobblemon:textures/pokemon/novrai/carriannon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/carriannon_shiny.png"
-    }  ]
+    }
+  ]
 }

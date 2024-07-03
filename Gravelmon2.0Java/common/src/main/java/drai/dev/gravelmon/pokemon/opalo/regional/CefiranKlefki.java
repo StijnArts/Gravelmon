@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranKlefki extends Pokemon {
-    public CefiranKlefki(int dexNo) {
-        super(dexNo, "CefiranKlefki",
+    public CefiranKlefki(String name, Aspect aspect) {
+        super(name, aspect,"CefiranKlefki",
                 Type.GHOST, Type.FAIRY,
                 new Stats(57,80,91,75,90,107),
                 List.of(Ability.PRANKSTER), Ability.PRANKSTER,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_karmilarie",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_karmilarie",
       "texture": "cobblemon:textures/pokemon/flux/karmilarie.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/karmilarie_shiny.png"
-    }  ]
+    }
+  ]
 }

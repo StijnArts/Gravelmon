@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phantonate",
-  "nationalPokedexNumber": 2824,
+  "nationalPokedexNumber": 4811,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -55,7 +55,7 @@
     "2:destinybond",
     "2:explosion",
     "2:memento",
-    "2:perishsongsound",
+    "2:perishsong",
     "tm:spikes",
     "tm:thunderwave",
     "tm:headbutt",

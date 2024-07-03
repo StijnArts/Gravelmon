@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:aristos_weeduza",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_weeduza",
       "texture": "cobblemon:textures/pokemon/aristos/weeduza.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/aristos/weeduza_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_gargross",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_gargross",
       "texture": "cobblemon:textures/pokemon/hiza/gargross.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/gargross_shiny.png"
-    }  ]
+    }
+  ]
 }

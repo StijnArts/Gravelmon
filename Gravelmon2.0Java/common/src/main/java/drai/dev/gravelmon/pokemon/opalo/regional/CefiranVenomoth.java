@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranVenomoth extends Pokemon {
-    public CefiranVenomoth(int dexNo) {
-        super(dexNo,"CefiranVenomoth",
+    public CefiranVenomoth(String name, Aspect aspect) {
+        super(name, aspect,"CefiranVenomoth",
                 Type.BUG, Type.GHOST,
                 new Stats(70,65,60,90,100,90),
                 List.of(Ability.ASTONISHMENT), Ability.TINTED_LENS,
@@ -52,5 +53,8 @@ public class CefiranVenomoth extends Pokemon {
                 List.of());
         this.setLangFileName("Venomoth");
         setCanFly(true);
+        addAdditionalEvolution("venonat", new EvolutionEntry("venomoth cefiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName() +"\""))));
     }
 }

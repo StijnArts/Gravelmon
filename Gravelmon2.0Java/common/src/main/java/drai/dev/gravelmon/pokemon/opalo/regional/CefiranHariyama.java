@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranHariyama extends Pokemon {
-    public CefiranHariyama(int dexNo) {
-        super(dexNo,"CefiranHariyama",
+    public CefiranHariyama(String name, Aspect aspect) {
+        super(name, aspect,"CefiranHariyama",
                 Type.FIGHTING, Type.PSYCHIC,
                 new Stats(144,40,60,50,120,60),
                 List.of(Ability.THICK_FAT, Ability.WHITE_SMOKE), Ability.MAGIC_BOUNCE,

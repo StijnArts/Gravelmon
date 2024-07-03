@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_basilux",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_basilux",
       "texture": "cobblemon:textures/pokemon/deneb/basilux.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/basilux_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.lockemon;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -59,5 +60,7 @@ public class Mienflux extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        addAdditionalEvolution("mienfoo", new EvolutionEntry("mienflux", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.THUNDER_PUNCH, "")),
+                List.of(),List.of(),"cobblemon:thunder_stone"));
     }
 }

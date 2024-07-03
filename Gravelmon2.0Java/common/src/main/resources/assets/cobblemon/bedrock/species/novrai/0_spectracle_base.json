@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_spectracle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_spectracle",
       "texture": "cobblemon:textures/pokemon/novrai/spectracle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/spectracle_shiny.png"
-    }  ]
+    }
+  ]
 }

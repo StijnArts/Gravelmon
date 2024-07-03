@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "davolee",
-  "nationalPokedexNumber": 2683,
+  "nationalPokedexNumber": 4578,
   "primaryType": "normal",
   "abilities": [
     "runaway",
@@ -57,7 +57,7 @@
     "30:flail",
     "35:faketears",
     "40:razorwind",
-    "45:hypervoicesound",
+    "45:hypervoice",
     "50:thrash",
     "tm:headbutt",
     "tm:watergun",

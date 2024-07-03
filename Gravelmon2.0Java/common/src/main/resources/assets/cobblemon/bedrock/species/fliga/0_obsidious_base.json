@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_obsidious",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_obsidious",
       "texture": "cobblemon:textures/pokemon/fliga/obsidious.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/obsidious_shiny.png"
-    }  ]
+    }
+  ]
 }

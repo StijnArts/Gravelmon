@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ScovileX extends Pokemon {
-    public ScovileX(int dexNo) {
-        super(dexNo,"ScovileX",
+    public ScovileX(String name, Aspect aspect) {
+        super(name, aspect,"ScovileX",
                 Type.GRASS, Type.ELECTRIC,
                 new Stats(80, 67, 78, 124, 84, 112),
                 List.of(Ability.EFFECT_SPORE, Ability.LIGHTNING_ROD), Ability.INTIMIDATE,

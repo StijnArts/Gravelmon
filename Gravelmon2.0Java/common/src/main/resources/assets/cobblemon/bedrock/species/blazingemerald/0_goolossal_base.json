@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:blazingemerald_goolossal",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_goolossal",
       "texture": "cobblemon:textures/pokemon/blazingemerald/goolossal.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/blazingemerald/goolossal_shiny.png"
-    }  ]
+    }
+  ]
 }

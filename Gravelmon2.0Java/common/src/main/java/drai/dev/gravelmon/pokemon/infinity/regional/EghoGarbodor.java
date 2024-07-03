@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class EghoGarbodor extends Pokemon {
-    public EghoGarbodor(int dexNo) {
-        super(dexNo,"EghoGarbodor",
+    public EghoGarbodor(String name, Aspect aspect) {
+        super(name, aspect,"EghoGarbodor",
                 Type.POISON, Type.STEEL,
                 new Stats(80, 50, 97, 90, 82, 75),
                 List.of(Ability.BATTLE_ARMOR), Ability.FILTER,

@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.orohnhavai;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -42,7 +43,7 @@ public class Pitopyre extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 42, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_CAVE))
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_CAVE))
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_LAVA, SpawnPreset.NATURAL),
                 0.28, 0.3,

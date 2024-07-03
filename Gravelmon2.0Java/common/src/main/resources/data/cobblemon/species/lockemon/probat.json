@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "probat",
-  "nationalPokedexNumber": 1951,
+  "nationalPokedexNumber": 3514,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -52,7 +52,7 @@
     "1:astonish",
     "1:psychic",
     "1:meanlook",
-    "1:screechsound",
+    "1:screech",
     "1:supersonic",
     "1:tailwind",
     "1:toxic",

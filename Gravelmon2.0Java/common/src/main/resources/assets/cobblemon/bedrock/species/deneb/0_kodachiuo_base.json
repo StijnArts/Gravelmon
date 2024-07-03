@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_kodachiuo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_kodachiuo",
       "texture": "cobblemon:textures/pokemon/deneb/kodachiuo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/kodachiuo_shiny.png"
-    }  ]
+    }
+  ]
 }

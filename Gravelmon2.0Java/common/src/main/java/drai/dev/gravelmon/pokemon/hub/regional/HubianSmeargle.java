@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.hub.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class HubianSmeargle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HubianSmeargle(int dex) {
-        super(dex, "Smeargle",
+    public HubianSmeargle(String name, Aspect aspect) {
+        super(name, aspect, "Smeargle",
                 Type.GROUND, Type.FAIRY,
                 new Stats(55,
                         20,

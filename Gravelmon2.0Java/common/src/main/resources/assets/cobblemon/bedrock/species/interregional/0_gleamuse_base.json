@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_gleamuse",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_gleamuse",
       "texture": "cobblemon:textures/pokemon/interregional/gleamuse.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/gleamuse_shiny.png"
-    }  ]
+    }
+  ]
 }

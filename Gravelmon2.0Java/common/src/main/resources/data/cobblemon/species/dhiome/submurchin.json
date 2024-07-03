@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "submurchin",
-  "nationalPokedexNumber": 1470,
+  "nationalPokedexNumber": 1471,
   "primaryType": "dark",
   "secondaryType": "steel",
   "abilities": [
@@ -71,7 +71,7 @@
     "tm:hiddenpower",
     "tm:hyperbeam",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:brickbreak",
     "tm:focusblast",
     "tm:infestation",
@@ -98,7 +98,7 @@
     "tm:doubleteam",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:workup",

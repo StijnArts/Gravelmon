@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_cephlame",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_cephlame",
       "texture": "cobblemon:textures/pokemon/nosto/cephlame.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/cephlame_shiny.png"
-    }  ]
+    }
+  ]
 }

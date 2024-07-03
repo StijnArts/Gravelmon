@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cutesnoot",
-  "nationalPokedexNumber": 2121,
+  "nationalPokedexNumber": 3684,
   "primaryType": "normal",
   "secondaryType": "dark",
   "abilities": [
@@ -81,7 +81,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:fling",
     "tm:embargo",
     "tm:shadowclaw",
@@ -89,14 +89,14 @@
     "tm:dig",
     "tm:poisonjab",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:snarl",
     "tm:darkpulse",
     "tm:confide",
     "tm:cut",
     "tm:surf",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:uproar",
     "tutor:helpinghand",
     "tutor:lastresort",
@@ -109,7 +109,7 @@
     "tutor:aquatail",
     "tutor:endeavor",
     "tutor:foulplay",
-    "tutor:hypervoicesound"  ],
+    "tutor:hypervoice"  ],
   "labels": [
     "umbra",
     "not_modeled"
@@ -119,7 +119,7 @@
   ],
   "evolutions": [
     {
-      "id": "cutesnoot_Coatisnotti",
+      "id": "cutesnoot_coatisnotti",
       "variant": "level_up",
       "result": "Coatisnotti",
       "consumeHeldItem": false,

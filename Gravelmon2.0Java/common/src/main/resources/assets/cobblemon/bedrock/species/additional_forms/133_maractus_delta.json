@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:maractus",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltamaractus.geo",
+      "poser": "cobblemon:generation5_deltamaractus",
+      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltamaractus.geo",
+      "poser": "cobblemon:generation5_deltamaractus",
+      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

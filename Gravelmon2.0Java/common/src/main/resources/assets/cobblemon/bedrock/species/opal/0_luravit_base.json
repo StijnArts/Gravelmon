@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_luravit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_luravit",
       "texture": "cobblemon:textures/pokemon/opal/luravit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/luravit_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianSizzlipede extends Pokemon {
-    public AyreianSizzlipede(int dexNo) {
-        super(dexNo, "AyreianSizzlipede",
+    public AyreianSizzlipede(String name, Aspect aspect) {
+        super(name, aspect,"AyreianSizzlipede",
                 Type.GHOST, Type.BUG,
                 new Stats(50,55,45,60,65,50),
                 List.of(Ability.FLASH_FIRE, Ability.WHITE_SMOKE), Ability.MAGIC_BOUNCE,

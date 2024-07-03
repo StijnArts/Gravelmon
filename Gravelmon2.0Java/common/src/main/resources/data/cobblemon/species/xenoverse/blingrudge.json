@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blingrudge",
-  "nationalPokedexNumber": 1513,
+  "nationalPokedexNumber": 2107,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
@@ -84,7 +84,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:brutalswing",
     "tm:shadowclaw",
     "tm:payback",
@@ -103,7 +103,7 @@
     "egg:spikes",
     "egg:stealthrock",
     "egg:autotomize",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:metalburst",
     "tutor:block",
     "tutor:drillrun",
@@ -114,8 +114,8 @@
     "tutor:irontail",
     "tutor:knockoff",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:stealthrock"  ],
   "labels": [
     "xenoverse",

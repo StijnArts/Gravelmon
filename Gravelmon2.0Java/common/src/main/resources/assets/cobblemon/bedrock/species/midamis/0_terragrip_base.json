@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_terragrip",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_terragrip",
       "texture": "cobblemon:textures/pokemon/midamis/terragrip.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/terragrip_shiny.png"
-    }  ]
+    }
+  ]
 }

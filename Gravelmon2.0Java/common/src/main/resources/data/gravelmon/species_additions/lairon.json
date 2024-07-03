@@ -1,0 +1,568 @@
+{
+   "target": "cobblemon:lairon",
+   "forms": [{
+  "name": "Hizian",
+  "primaryType": "ground",
+  "secondaryType": "rock",
+  "abilities": [
+    "sheerforce",
+    "h:battlearmor"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 130,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 151,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "5:smackdown",
+    "10:bulldoze",
+    "15:hornattack",
+    "20:scaryface",
+    "25:stomp",
+    "30:rockblast",
+    "35:drillrun",
+    "40:takedown",
+    "45:earthquake",
+    "50:stoneedge",
+    "55:megahorn",
+    "60:horndrill",
+    "egg:counter",
+    "egg:curse",
+    "egg:dragonrush",
+    "egg:guardsplit",
+    "egg:metalburst",
+    "egg:rockpolish",
+    "tm:takedown",
+    "tm:mudslap",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:firefang",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:thief",
+    "tm:facade",
+    "tm:bulldoze",
+    "tm:icywind",
+    "tm:mudshot",
+    "tm:rocktomb",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:sandstorm",
+    "tm:smartstrike",
+    "tm:dig",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:rockblast",
+    "tm:poisonjab",
+    "tm:stompingtantrum",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:swordsdance",
+    "tm:bodypress",
+    "tm:substitute",
+    "tm:drillrun",
+    "tm:crunch",
+    "tm:dragonpulse",
+    "tm:stealthrock",
+    "tm:heavyslam",
+    "tm:flamethrower",
+    "tm:thunderbolt",
+    "tm:earthpower",
+    "tm:reversal",
+    "tm:icebeam",
+    "tm:fireblast",
+    "tm:blizzard",
+    "tm:earthquake",
+    "tm:stoneedge",
+    "tm:thunder",
+    "tm:terablast",
+    "tm:roar",
+    "tm:smackdown",
+    "tm:highhorsepower",
+    "tm:uproar",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:scorchingsands",
+    "tm:curse"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hizianlairon.desc"
+  ],
+  "preEvolution": "aron form=hizian",
+  "evolutions": [
+    {
+      "id": "lairon_aggron_hizian",
+      "variant": "level_up",
+      "result": "aggron hizian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": ["hizian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "abilities": [
+    "flamebody",
+    "drought",
+    "h:heavymetal"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defence": 140,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 151,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:acidarmor",
+    "1:dragonrage",
+    "1:flamewheel",
+    "4:dragonrage",
+    "7:flameburst",
+    "10:metalclaw",
+    "13:flamewheel",
+    "16:wideguard",
+    "19:roar",
+    "22:ironhead",
+    "25:flamethrower",
+    "28:dragonbreath",
+    "31:metalsound",
+    "35:irontail",
+    "39:irondefense",
+    "43:selfdestruct",
+    "47:autotomize",
+    "51:flareblitz",
+    "55:metalburst",
+    "tm:honeclaws",
+    "tm:dragonclaw",
+    "tm:bulldoze",
+    "tm:roar",
+    "tm:toxic",
+    "tm:dragonpulse",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:overheat",
+    "tm:falseswipe",
+    "tm:dragontail",
+    "tm:willowisp",
+    "tm:explosion",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:dracojet",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:round",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:quash",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:bodyslam",
+    "tutor:dig",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:flareblitz",
+    "tutor:heatwave",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:outrage",
+    "tutor:selfdestruct",
+    "tutor:snore",
+    "tutor:stealthrock",
+    "tutor:superpower",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltalairon.desc"
+  ],
+  "preEvolution": "aron form=delta",
+  "evolutions": [
+    {
+      "id": "lairon_aggron_delta",
+      "variant": "level_up",
+      "result": "aggron delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 1200,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "fire",
+  "secondaryType": "rock",
+  "abilities": [
+    "sturdy",
+    "rockhead",
+    "h:heavymetal"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 80,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 90,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 75,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:heatcrash",
+    "1:tackle",
+    "1:harden",
+    "1:metalclaw",
+    "1:flamecharge",
+    "12:roar",
+    "16:ancientpower",
+    "20:protect",
+    "24:lavaplume",
+    "28:rockslide",
+    "35:stealthrock",
+    "40:bodypress",
+    "48:rockpolish",
+    "56:heavyslam",
+    "64:stoneedge",
+    "72:flareblitz",
+    "80:meteorbeam",
+    "88:eruption",
+    "tutor:aerialace",
+    "tutor:attract",
+    "tutor:avalanche",
+    "tutor:block",
+    "tutor:bodypress",
+    "tutor:bodyslam",
+    "tutor:brickbreak",
+    "tutor:brutalswing",
+    "tutor:bulldoze",
+    "tutor:confide",
+    "tutor:crunch",
+    "tutor:cut",
+    "tutor:darkpulse",
+    "tutor:dig",
+    "tutor:doubleteam",
+    "tutor:dragonclaw",
+    "tutor:dragonpulse",
+    "tutor:dragontail",
+    "tutor:earthpower",
+    "tutor:earthquake",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:fireblast",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:fling",
+    "tutor:focusblast",
+    "tutor:focuspunch",
+    "tutor:frustration",
+    "tutor:gigaimpact",
+    "tutor:heavyslam",
+    "tutor:hiddenpower",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:meteorbeam",
+    "tutor:outrage",
+    "tutor:payback",
+    "tutor:poweruppunch",
+    "tutor:protect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:reversal",
+    "tutor:roar",
+    "tutor:rockblast",
+    "tutor:rockpolish",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rocktomb",
+    "tutor:round",
+    "tutor:sandstorm",
+    "tutor:sandtomb",
+    "tutor:scaryface",
+    "tutor:screech",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:smackdown",
+    "tutor:smartstrike",
+    "tutor:snore",
+    "tutor:solarbeam",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:strength",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:superpower",
+    "tutor:swagger",
+    "tutor:taunt",
+    "tutor:thunder",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:thunderwave",
+    "tutor:toxic",
+    "tutor:uproar",
+    "egg:magnitude",
+    "egg:rollout",
+    "egg:doubleedge",
+    "egg:block",
+    "egg:stealthrock",
+    "egg:endure",
+    "egg:wideguard"  ],
+  "labels": [
+    "gen3",
+    "vanguard",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianlairon.desc"
+  ],
+  "preEvolution": "aron form=ayreian",
+  "evolutions": [
+    {
+      "id": "lairon_aggron_ayreian",
+      "variant": "level_up",
+      "result": "aggron ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 1200,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+}
+], "features": [
+"hizian",
+"delta",
+"ayreian"
+  ]
+}

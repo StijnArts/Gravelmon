@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_turkistador",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_turkistador",
       "texture": "cobblemon:textures/pokemon/sage/turkistador.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/turkistador_shiny.png"
-    }  ]
+    }
+  ]
 }

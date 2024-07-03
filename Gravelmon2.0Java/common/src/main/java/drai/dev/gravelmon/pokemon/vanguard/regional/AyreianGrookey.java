@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianGrookey extends Pokemon {
-    public AyreianGrookey(int dexNo) {
-        super(dexNo,"AyreianGrookey",
+    public AyreianGrookey(String name, Aspect aspect) {
+        super(name, aspect,"AyreianGrookey",
                 Type.ELECTRIC, Type.SOUND,
                 new Stats(50,30,40,65,75,50),
                 List.of(Ability.PUNK_ROCK, Ability.WIND_POWER), Ability.ELECTRIC_SURGE,
@@ -20,7 +21,7 @@ public class AyreianGrookey extends Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD, EggGroup.GRASS),
                 List.of("It attacks with rapid jolts of its stick. As it strikes with amazing speed, it gets more and more charged."),
-                List.of(new EvolutionEntry("ayreianthwacky", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("ayreianthwackey", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH, 1),

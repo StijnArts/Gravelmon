@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_ghostage",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_ghostage",
       "texture": "cobblemon:textures/pokemon/novrai/ghostage.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/ghostage_shiny.png"
-    }  ]
+    }
+  ]
 }

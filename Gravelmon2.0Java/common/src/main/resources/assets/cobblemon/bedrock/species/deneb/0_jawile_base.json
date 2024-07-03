@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_jawile",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_jawile",
       "texture": "cobblemon:textures/pokemon/deneb/jawile.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/jawile_shiny.png"
-    }  ]
+    }
+  ]
 }

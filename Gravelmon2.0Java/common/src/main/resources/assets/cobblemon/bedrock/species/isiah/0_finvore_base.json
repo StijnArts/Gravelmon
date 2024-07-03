@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_finvore",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_finvore",
       "texture": "cobblemon:textures/pokemon/isiah/finvore.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/finvore_shiny.png"
-    }  ]
+    }
+  ]
 }

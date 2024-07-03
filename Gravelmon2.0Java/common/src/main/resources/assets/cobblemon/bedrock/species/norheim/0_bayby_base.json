@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_bayby",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_bayby",
       "texture": "cobblemon:textures/pokemon/norheim/bayby.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/bayby_shiny.png"
-    }  ]
+    }
+  ]
 }

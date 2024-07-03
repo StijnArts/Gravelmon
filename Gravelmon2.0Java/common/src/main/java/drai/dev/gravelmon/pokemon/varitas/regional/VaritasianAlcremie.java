@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianAlcremie extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianAlcremie(int dex) {
-        super(dex, "Alcremie",
+    public VaritasianAlcremie(String name, Aspect aspect) {
+        super(name, aspect, "Alcremie",
                 Type.FAIRY, Type.POISON,
                 new Stats(65,
                         60,

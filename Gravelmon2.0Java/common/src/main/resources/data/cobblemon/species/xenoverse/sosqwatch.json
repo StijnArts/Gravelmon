@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sosqwatch",
-  "nationalPokedexNumber": 1544,
+  "nationalPokedexNumber": 2141,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -83,7 +83,7 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
+    "tm:round",
     "tm:overheat",
     "tm:focusblast",
     "tm:scald",
@@ -114,8 +114,8 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalksound",
-    "tutor:snoresound"  ],
+    "tutor:sleeptalk",
+    "tutor:snore"  ],
   "labels": [
     "xenoverse",
     "not_modeled"

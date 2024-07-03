@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_magemeltre",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_magemeltre",
       "texture": "cobblemon:textures/pokemon/novrai/magemeltre.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/magemeltre_shiny.png"
-    }  ]
+    }
+  ]
 }

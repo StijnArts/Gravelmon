@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:goetia_caulderon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_caulderon",
       "texture": "cobblemon:textures/pokemon/goetia/caulderon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/goetia/caulderon_shiny.png"
-    }  ]
+    }
+  ]
 }

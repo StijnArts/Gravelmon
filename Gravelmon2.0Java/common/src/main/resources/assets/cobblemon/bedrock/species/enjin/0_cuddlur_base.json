@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_cuddlur",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_cuddlur",
       "texture": "cobblemon:textures/pokemon/enjin/cuddlur.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/cuddlur_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_clawhyde",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_clawhyde",
       "texture": "cobblemon:textures/pokemon/ferroa/clawhyde.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/clawhyde_shiny.png"
-    }  ]
+    }
+  ]
 }

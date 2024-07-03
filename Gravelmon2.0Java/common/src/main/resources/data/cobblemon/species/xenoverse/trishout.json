@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trishout",
-  "nationalPokedexNumber": 1499,
+  "nationalPokedexNumber": 2085,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
@@ -76,19 +76,19 @@
     "1:ember",
     "1:tackle",
     "6:babble",
-    "9:howlsound",
+    "9:howl",
     "13:takedown",
     "18:firefang",
     "23:uproar",
-    "28:screechsound",
+    "28:screech",
     "32:flamethrower",
-    "36:hypervoicesound",
+    "36:hypervoice",
     "40:swagger",
-    "45:boomburstsound",
+    "45:boomburst",
     "51:inferno",
     "56:crunch",
     "61:flareblitz",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -106,8 +106,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:thief",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:overheat",
     "tm:fling",
     "tm:willowisp",
@@ -118,12 +118,12 @@
     "tutor:blastburn",
     "tutor:covet",
     "tutor:heatwave",
-    "tutor:hypervoicesound",
+    "tutor:hypervoice",
     "tutor:irontail",
     "tutor:scorchedashes",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:soundbarrier",
     "tutor:soundpledge",
     "tutor:uproar"  ],
@@ -135,9 +135,9 @@
   ],
   "evolutions": [
     {
-      "id": "trishout_trishoutterrestrial",
+      "id": "trishout_trishout_terrestrial",
       "variant": "level_up",
-      "result": "trishoutterrestrial",
+      "result": "trishout terrestrial",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -149,9 +149,9 @@
       "permanent": true   
  },
     {
-      "id": "trishout_trishoutxenoversal",
+      "id": "trishout_trishout_xenoversal",
       "variant": "level_up",
-      "result": "trishoutxenoversal",
+      "result": "trishout xenoversal",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -163,9 +163,9 @@
       "permanent": true   
  },
     {
-      "id": "trishout_trishoutastral",
+      "id": "trishout_trishout_astral",
       "variant": "level_up",
-      "result": "trishoutastral",
+      "result": "trishout astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -181,9 +181,9 @@
       "permanent": true   
  },
     {
-      "id": "trishout_trishoutastral",
+      "id": "trishout_trishout_astral",
       "variant": "level_up",
-      "result": "trishoutastral",
+      "result": "trishout astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

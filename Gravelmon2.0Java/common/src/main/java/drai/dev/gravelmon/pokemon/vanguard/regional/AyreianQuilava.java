@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianQuilava extends Pokemon {
-    public AyreianQuilava(int dexNo) {
-        super(dexNo,"AyreianQuilava",
+    public AyreianQuilava(String name, Aspect aspect) {
+        super(name, aspect,"AyreianQuilava",
                 Type.FIRE, Type.GHOST,
                 new Stats(60,65,50,90,80,65),
                 List.of(Ability.DROUGHT, Ability.INFILTRATOR), Ability.SOLAR_POWER,

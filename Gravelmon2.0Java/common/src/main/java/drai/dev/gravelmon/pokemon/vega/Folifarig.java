@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.vega;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -96,5 +97,7 @@ public class Folifarig extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("girafarig");
+        addAdditionalEvolution("girafarig", new EvolutionEntry("folifarig", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))));
     }
 }

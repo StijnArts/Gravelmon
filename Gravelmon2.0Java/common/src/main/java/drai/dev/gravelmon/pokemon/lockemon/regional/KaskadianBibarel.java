@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianBibarel extends Pokemon {
-    public KaskadianBibarel(int dexNo) {
-        super(dexNo,"KaskadianBibarel",
+    public KaskadianBibarel(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianBibarel",
                 Type.STEEL, Type.PSYCHIC,
                 new Stats(79, 50,55,85,70,71),
                 List.of(Ability.SIMPLE, Ability.TRACE   ), Ability.GRAVITY_SLING,

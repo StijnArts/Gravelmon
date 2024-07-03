@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pumpkid",
-  "nationalPokedexNumber": 2807,
+  "nationalPokedexNumber": 4794,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -82,7 +82,7 @@
     "tm:rocksmash",
     "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:bugnoise",
     "tutor:rest",
     "tutor:toxic",
@@ -95,7 +95,7 @@
     "egg:faketears",
     "egg:frustration",
     "egg:grassknot",
-    "egg:gravitywavecosmic",
+    "egg:gravitywave",
     "egg:hyperbeam",
     "egg:hypnopulse",
     "egg:imprison",
@@ -115,7 +115,7 @@
     "egg:safeguard",
     "egg:skillswap",
     "egg:sleeppowder",
-    "egg:swiftcosmic"  ],
+    "egg:swift"  ],
   "labels": [
     "deneb"
   ],

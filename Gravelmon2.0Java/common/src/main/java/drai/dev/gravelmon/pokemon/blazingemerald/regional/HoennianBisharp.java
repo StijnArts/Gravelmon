@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianBisharp extends Pokemon {
-    public HoennianBisharp(int dexNo) {
-        super(dexNo,"HoennianBisharp",
+    public HoennianBisharp(String name, Aspect aspect) {
+        super(name, aspect,"HoennianBisharp",
                 Type.FAIRY, Type.STEEL,
                 new Stats(85, 90, 115, 40, 85, 75),
                 List.of(Ability.BATTLE_ARMOR), Ability.RESOLUTE,

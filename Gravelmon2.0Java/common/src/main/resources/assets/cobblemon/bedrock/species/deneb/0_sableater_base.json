@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_sableater",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_sableater",
       "texture": "cobblemon:textures/pokemon/deneb/sableater.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/sableater_shiny.png"
-    }  ]
+    }
+  ]
 }

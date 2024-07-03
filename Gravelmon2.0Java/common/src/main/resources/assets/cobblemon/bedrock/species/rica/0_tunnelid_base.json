@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_tunnelid",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_tunnelid",
       "texture": "cobblemon:textures/pokemon/rica/tunnelid.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/tunnelid_shiny.png"
-    }  ]
+    }
+  ]
 }

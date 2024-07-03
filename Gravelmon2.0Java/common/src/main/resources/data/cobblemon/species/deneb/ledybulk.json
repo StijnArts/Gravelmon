@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ledybulk",
-  "nationalPokedexNumber": 2816,
+  "nationalPokedexNumber": 4803,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -94,7 +94,7 @@
     "egg:aerialace",
     "egg:aircutter",
     "egg:bide",
-    "egg:bugbuzzsound",
+    "egg:bugbuzz",
     "egg:dig",
     "egg:dizzypunch",
     "egg:drainpunch",
@@ -109,11 +109,11 @@
     "egg:psybeam",
     "egg:refresh",
     "egg:rollout",
-    "egg:screechsound",
+    "egg:screech",
     "egg:silverwind",
     "egg:stringshot",
     "egg:sunnyday",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:thunderpunch"  ],
   "labels": [
     "deneb",

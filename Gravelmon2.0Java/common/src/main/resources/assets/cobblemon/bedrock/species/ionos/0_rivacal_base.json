@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_rivacal",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_rivacal",
       "texture": "cobblemon:textures/pokemon/ionos/rivacal.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/rivacal_shiny.png"
-    }  ]
+    }
+  ]
 }

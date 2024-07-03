@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_kerohelion",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_kerohelion",
       "texture": "cobblemon:textures/pokemon/novrai/kerohelion.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/kerohelion_shiny.png"
-    }  ]
+    }
+  ]
 }

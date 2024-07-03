@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_eyecoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_eyecoon",
       "texture": "cobblemon:textures/pokemon/ionos/eyecoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/eyecoon_shiny.png"
-    }  ]
+    }
+  ]
 }

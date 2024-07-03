@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "ancaleana",
+  "nationalPokedexNumber": 4023,
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "abilities": [
+    "naturalcure",
+    "h:bigpecks"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 95,
+    "defence": 83,
+    "special_attack": 48,
+    "special_defence": 90,
+    "speed": 79
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 110,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "water_1"
+  ],
+  "moves": [
+    "1:growl",
+    "3:peck",
+    "6:sandattack",
+    "9:vinewhip",
+    "12:gust",
+    "16:growth",
+    "22:razorleaf",
+    "26:acrobatics",
+    "30:aromaticmist",
+    "34:wingattack",
+    "38:petaldance",
+    "44:doubleedge",
+    "48:bravebird"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ancaleana.desc"
+  ],
+  "preEvolution": "paposy",
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

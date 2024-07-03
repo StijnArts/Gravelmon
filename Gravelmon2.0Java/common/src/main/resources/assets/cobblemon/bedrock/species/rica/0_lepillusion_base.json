@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_lepillusion",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_lepillusion",
       "texture": "cobblemon:textures/pokemon/rica/lepillusion.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/lepillusion_shiny.png"
-    }  ]
+    }
+  ]
 }

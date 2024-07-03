@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_osstrike",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_osstrike",
       "texture": "cobblemon:textures/pokemon/atlas/osstrike.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/osstrike_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_lymfite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_lymfite",
       "texture": "cobblemon:textures/pokemon/enriko/lymfite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/lymfite_shiny.png"
-    }  ]
+    }
+  ]
 }

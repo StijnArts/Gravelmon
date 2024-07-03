@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chlorinse",
-  "nationalPokedexNumber": 3129,
+  "nationalPokedexNumber": 5721,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -53,7 +53,7 @@
     "9:supersonic",
     "11:aquajet",
     "15:psywave",
-    "19:swiftcosmic",
+    "19:swift",
     "24:waterpulse",
     "28:psybeam",
     "31:aquaring",

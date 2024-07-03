@@ -2,16 +2,17 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.aristos.regional.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.fliga.regional.*;
+import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
-import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
@@ -21,6 +22,7 @@ import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
+import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.regional.*;
@@ -43,22 +45,81 @@ public class GenerationOne extends Game {
 //        pokemon.add(new IonosianJynx(124));   Missing Stats
 //        pokemon.add(new IonosianSnorlax(143));   Missing Stats
 
-        pokemon.add(new NostanDiglett(50));
-        pokemon.add(new NostanDugtrio(51));
-        pokemon.add(new NostanShellder(90));
-        pokemon.add(new NostanCloyster(91));
+        pokemon.add(new FligianParas("", Aspect.FLIGIAN));
+        pokemon.add(new FligianParasect("", Aspect.FLIGIAN));
+        pokemon.add(new FligianChansey("", Aspect.FLIGIAN));
+
+        pokemon.add(new NovranSlowpoke("", Aspect.NOVRAN));
+        pokemon.add(new NovranSlowbro("", Aspect.NOVRAN));
+        pokemon.add(new NovranGrimer("", Aspect.NOVRAN));
+        pokemon.add(new NovranMuk("", Aspect.NOVRAN));
+        pokemon.add(new NovranLapras("", Aspect.NOVRAN));
+        pokemon.add(new NovranOmanyte("", Aspect.NOVRAN));
+        pokemon.add(new NovranOmastar("", Aspect.NOVRAN));
+
+        pokemon.add(new QamoranPsyduck("", Aspect.QAMORAN));
+        pokemon.add(new QamoranSeel("", Aspect.QAMORAN));
+        pokemon.add(new QamoranDewgong("", Aspect.QAMORAN));
+        pokemon.add(new QamoranHitmonlee("", Aspect.QAMORAN));
+        pokemon.add(new QamoranHitmonchan("", Aspect.QAMORAN));
+        pokemon.add(new QamoranKoffing("", Aspect.QAMORAN));
+        pokemon.add(new QamoranWeezing("", Aspect.QAMORAN));
+        pokemon.add(new QamoranTangela("", Aspect.QAMORAN));
+
+        pokemon.add(new NostanDiglett("", Aspect.NOSTAN));
+        pokemon.add(new NostanDugtrio("", Aspect.NOSTAN));
+        pokemon.add(new NostanShellder("", Aspect.NOSTAN));
+        pokemon.add(new NostanCloyster("", Aspect.NOSTAN));
+
+        pokemon.add(new NorheimanRattata("", Aspect.NORHEIMAN));
+        pokemon.add(new NorheimanDiglett("", Aspect.NORHEIMAN));
+        pokemon.add(new NorheimanDugtrio("", Aspect.NORHEIMAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));
+        pokemon.add(new NorheimanSeel("", Aspect.NORHEIMAN));
+        pokemon.add(new NorheimanShellder("", Aspect.NORHEIMAN));
+        pokemon.add(new NorheimanVoltorb("", Aspect.NORHEIMAN));
+        pokemon.add(new NorheimanElectrode("", Aspect.NORHEIMAN, new Stats(490, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.HP))));
+        pokemon.add(new NorheimanSeadra("", Aspect.NORHEIMAN));
+        pokemon.add(new NorheimanDitto("", Aspect.NORHEIMAN));
+        pokemon.add(new NorheimanDragonair("", Aspect.NORHEIMAN));
 
 //        pokemon.add(new VaritasianOnix(95)); Member of line Not Finished
 //        pokemon.add(new VaritasianCubone(104)); Member of line Not Finished
 //        pokemon.add(new VaritasianMarowak(105)); Missing Art
-        pokemon.add(new VaritasianHitmonlee(106));
-        pokemon.add(new VaritasianHitmonchan(107));
+        pokemon.add(new VaritasianHitmonlee("", Aspect.VARITASIAN));
+        pokemon.add(new VaritasianHitmonchan("", Aspect.VARITASIAN));
 //        pokemon.add(new VaritasianHorsea(116)); Member of line Not Finished
 //        pokemon.add(new VaritasianSeadra(117)); Missing Art
 //        pokemon.add(new VaritasianMrMime(122)); Missing Art
-        pokemon.add(new VaritasianPorygon(137));
+        pokemon.add(new VaritasianPorygon("", Aspect.VARITASIAN));
 
-        pokemon.add(new AvorianMrMime(122));
+//        pokemon.add(new HavaiianPoliwag(60)); //Member of line Not Finished
+//        pokemon.add(new HavaiianPoliwhirl(61)); Missing Art
+        pokemon.add(new HavaiianGastly("", Aspect.HAVAIIAN));
+        pokemon.add(new HavaiianHaunter("", Aspect.HAVAIIAN));
+        pokemon.add(new HavaiianGengar("", Aspect.HAVAIIAN));
+//        pokemon.add(new HavaiianKrabby(98)); Missing Stats
+//        pokemon.add(new HavaiianExeggcute(102)); Missing Art
+//        pokemon.add(new HavaiianExeggutor(103)); Missing Art
+//        pokemon.add(new HavaiianHorsea(116)); //Member of line Not Finished
+
+        pokemon.add(new HizianVenonat("", Aspect.HIZIAN));
+        pokemon.add(new HizianVenomoth("", Aspect.HIZIAN));
+        pokemon.add(new HizianLickitung("", Aspect.HIZIAN));
+        pokemon.add(new HizianRhyhorn("", Aspect.HIZIAN));
+        pokemon.add(new HizianRhydon("", Aspect.HIZIAN));
+        pokemon.add(new HizianScyther("", Aspect.HIZIAN));
+        pokemon.add(new HizianPinsir("", Aspect.HIZIAN));
+
+        pokemon.add(new AristosianBellsprout("", Aspect.ARISTOSIAN));
+        pokemon.add(new AristosianWeepinbell("", Aspect.ARISTOSIAN));
+        pokemon.add(new AristosianVictreebel("", Aspect.ARISTOSIAN));
+        pokemon.add(new AristosianGrowlithe("", Aspect.ARISTOSIAN));
+        pokemon.add(new AristosianArcanine("", Aspect.ARISTOSIAN));
+        pokemon.add(new AristosianKangaskhan("", Aspect.ARISTOSIAN));
+
+        pokemon.add(new AvorianMrMime("", Aspect.AVORIAN));
 
         //Pokemon Infinity
         addEghoPokemon();
@@ -70,8 +131,8 @@ public class GenerationOne extends Game {
         addXPokemon();
 
         //Pokemon Radical Red
-        pokemon.add(new SeviianDoduo(84));
-        pokemon.add(new SeviianDodrio(85));
+        pokemon.add(new SeviianDoduo("", Aspect.SEVIIAN));
+        pokemon.add(new SeviianDodrio("", Aspect.SEVIIAN));
 
         //Pokemon Blazing Emerald
         addHoennianPokemon();
@@ -79,171 +140,183 @@ public class GenerationOne extends Game {
         //Pokemon Myth
         addMythianPokemon();
 
+        //Pokemon Flux
+        pokemon.add(new AlteranEkans("", Aspect.ALTERAN));
+        pokemon.add(new AlteranArbok("", Aspect.ALTERAN));
+        pokemon.add(new AlteranNidoranWinterCoat("Nidoranf", Aspect.ALTERAN_WINTER_COAT));
+        pokemon.add(new AlteranNidoranSummerCoat("Nidoranm", Aspect.ALTERAN_SUMMER_COAT));
+
         //Armiran (Daybreak
-        pokemon.add(new ArmiranGrowlithe(58));
-        pokemon.add(new ArmiranArcanine(59));
+        pokemon.add(new ArmiranGrowlithe("", Aspect.ARMIRAN));
+        pokemon.add(new ArmiranArcanine("", Aspect.ARMIRAN));
 
         //Vanguard
         addAyreianPokemon();
 
+        //Phoenix Rising
+        pokemon.add(new RelicTentacool("", Aspect.RELIC));
+        pokemon.add(new RelicTentacruel("", Aspect.RELIC));
+        pokemon.add(new RelicKoffing("", Aspect.RELIC));
+        pokemon.add(new RelicWeezing("", Aspect.RELIC));
+
         //Kaskadian
-        pokemon.add(new KaskadianRaticate(20));
-        pokemon.add(new KaskadianBellsprout(69));
-        pokemon.add(new KaskadianGastly(92));
-        pokemon.add(new KaskadianHaunter(93));
-        pokemon.add(new KaskadianGengar(94));
-        pokemon.add(new KaskadianJynx(124));
-        pokemon.add(new KaskadianLapras(131));
+        pokemon.add(new KaskadianRaticate("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianBellsprout("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianGastly("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianHaunter("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianGengar("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianJynx("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianLapras("", Aspect.KASKADIAN));
 
         //Azure (Mystic)
-        pokemon.add(new MysticVoltorb(100));
-        pokemon.add(new MysticElectrode(101));
+        pokemon.add(new MysticVoltorb("", Aspect.MYSTIC));
+        pokemon.add(new MysticElectrode("", Aspect.MYSTIC));
 
         //Pokemon Opalo
-        pokemon.add(new CefiranVenomoth(49));
-        pokemon.add(new CefiranDiglett(50));
-        pokemon.add(new CefiranDugtrio(51));
-        pokemon.add(new CefiranMeowthFire(52));
-        pokemon.add(new CefiranPersianFire(53));
-        pokemon.add(new CefiranMeowthIce(52));
-        pokemon.add(new CefiranPersianIce(53));
-        pokemon.add(new CefiranMeowthElectric(52));
-        pokemon.add(new CefiranPersianElectric(53));
+        pokemon.add(new CefiranVenomoth("", Aspect.CEFIRAN));
+        pokemon.add(new CefiranDiglett("", Aspect.CEFIRAN));
+        pokemon.add(new CefiranDugtrio("", Aspect.CEFIRAN));
+        pokemon.add(new CefiranMeowthFire("Meowth", Aspect.CEFIRAN_FIRE));
+        pokemon.add(new CefiranPersianFire("Persian", Aspect.CEFIRAN_FIRE));
+        pokemon.add(new CefiranMeowthIce("Meowth", Aspect.CEFIRAN_ICE));
+        pokemon.add(new CefiranPersianIce("Persian", Aspect.CEFIRAN_ICE));
+        pokemon.add(new CefiranMeowthElectric("Meowth", Aspect.CEFIRAN_ELECTRIC));
+        pokemon.add(new CefiranPersianElectric("Persian", Aspect.CEFIRAN_ELECTRIC));
     }
 
     private void addAyreianPokemon() {
-        pokemon.add(new AyreianBulbasaur(1));
-        pokemon.add(new AyreianIvysaur(2));
-        pokemon.add(new AyreianVenusaur(3));
-        pokemon.add(new AyreianCharmander(4));
-        pokemon.add(new AyreianCharmeleon(5));
-        pokemon.add(new AyreianCharizard(6));
-        pokemon.add(new AyreianSquirtle(7));
-        pokemon.add(new AyreianWartortle(8));
-        pokemon.add(new AyreianBlastoise(9));
-        pokemon.add(new AyreianCaterpie(10));
-        pokemon.add(new AyreianMetapod(11));
-        pokemon.add(new AyreianButterfree(12));
-        pokemon.add(new AyreianPidgey(16));
-        pokemon.add(new AyreianPidgeotto(17));
-        pokemon.add(new AyreianPidgeot(18));
-        pokemon.add(new AyreianDiglett(50));
-        pokemon.add(new AyreianDugtrio(51));
-        pokemon.add(new AyreianAbra(63));
-        pokemon.add(new AyreianKadabra(64));
-        pokemon.add(new AyreianAlakazam(65));
-        pokemon.add(new AyreianMagnemite(81));
-        pokemon.add(new AyreianMagneton(82));
-        pokemon.add(new AyreianGrimer(88));
-        pokemon.add(new AyreianMuk(89));
-        pokemon.add(new AyreianGastly(92));
-        pokemon.add(new AyreianHaunter(93));
-        pokemon.add(new AyreianGengar(94));
-        pokemon.add(new AyreianVoltorb(100));
-        pokemon.add(new AyreianElectrode(101));
-        pokemon.add(new AyreianPinsir(127));
+        pokemon.add(new AyreianBulbasaur("", Aspect.AYREIAN));
+        pokemon.add(new AyreianIvysaur("", Aspect.AYREIAN));
+        pokemon.add(new AyreianVenusaur("", Aspect.AYREIAN));
+        pokemon.add(new AyreianCharmander("", Aspect.AYREIAN));
+        pokemon.add(new AyreianCharmeleon("", Aspect.AYREIAN));
+        pokemon.add(new AyreianCharizard("", Aspect.AYREIAN));
+        pokemon.add(new AyreianSquirtle("", Aspect.AYREIAN));
+        pokemon.add(new AyreianWartortle("", Aspect.AYREIAN));
+        pokemon.add(new AyreianBlastoise("", Aspect.AYREIAN));
+        pokemon.add(new AyreianCaterpie("", Aspect.AYREIAN));
+        pokemon.add(new AyreianMetapod("", Aspect.AYREIAN));
+        pokemon.add(new AyreianButterfree("", Aspect.AYREIAN));
+        pokemon.add(new AyreianPidgey("", Aspect.AYREIAN));
+        pokemon.add(new AyreianPidgeotto("", Aspect.AYREIAN));
+        pokemon.add(new AyreianPidgeot("", Aspect.AYREIAN));
+        pokemon.add(new AyreianDiglett("", Aspect.AYREIAN));
+        pokemon.add(new AyreianDugtrio("", Aspect.AYREIAN));
+        pokemon.add(new AyreianAbra("", Aspect.AYREIAN));
+        pokemon.add(new AyreianKadabra("", Aspect.AYREIAN));
+        pokemon.add(new AyreianAlakazam("", Aspect.AYREIAN));
+        pokemon.add(new AyreianMagnemite("", Aspect.AYREIAN));
+        pokemon.add(new AyreianMagneton("", Aspect.AYREIAN));
+        pokemon.add(new AyreianGrimer("", Aspect.AYREIAN));
+        pokemon.add(new AyreianMuk("", Aspect.AYREIAN));
+        pokemon.add(new AyreianGastly("", Aspect.AYREIAN));
+        pokemon.add(new AyreianHaunter("", Aspect.AYREIAN));
+        pokemon.add(new AyreianGengar("", Aspect.AYREIAN));
+        pokemon.add(new AyreianVoltorb("", Aspect.AYREIAN));
+        pokemon.add(new AyreianElectrode("", Aspect.AYREIAN));
+        pokemon.add(new AyreianPinsir("", Aspect.AYREIAN));
     }
 
     private void addMythianPokemon() {
-        pokemon.add(new MythianPidgey(16));
-        pokemon.add(new MythianPidgeotto(17));
-        pokemon.add(new MythianPidgeot(18));
+        pokemon.add(new MythianPidgey("", Aspect.MYTHIAN));
+        pokemon.add(new MythianPidgeotto("", Aspect.MYTHIAN));
+        pokemon.add(new MythianPidgeot("", Aspect.MYTHIAN));
         /*pokemon.add(new MythianDrowzee(96));
         pokemon.add(new MythianHypno(97));*/
-        pokemon.add(new MythianScyther(123));
-        pokemon.add(new MythianLapras(131));
+        pokemon.add(new MythianScyther("", Aspect.MYTHIAN));
+        pokemon.add(new MythianLapras("", Aspect.MYTHIAN));
     }
 
     private void addHoennianPokemon() {
-        pokemon.add(new HoennianVenonat(48));
-        pokemon.add(new HoennianTentacool(72));
-        pokemon.add(new HoennianTentacruel(73));
-        pokemon.add(new HoennianDodrio(85));
-        pokemon.add(new HoennianSeel(86));
-        pokemon.add(new HoennianDewgong(87));
-        pokemon.add(new HoennianOnix(95));
-        pokemon.add(new HoennianTangela(114));
-        pokemon.add(new HoennianPinsir(127));
+        pokemon.add(new HoennianVenonat("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianTentacool("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianTentacruel("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianDodrio("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianSeel("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianDewgong("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianOnix("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianTangela("", Aspect.HOENNIAN));
+        pokemon.add(new HoennianPinsir("", Aspect.HOENNIAN));
     }
 
     private void addXPokemon() {
-        pokemon.add(new PikachuXFemale(25));
-        pokemon.add(new PikachuXMale(25));
-        pokemon.add(new RaichuX(26));
-        pokemon.add(new EldiwanMeowth(52));
-        pokemon.add(new PonytaX(77));
-        pokemon.add(new RapidashX(78));
-        pokemon.add(new GastlyX(92));
-        pokemon.add(new HaunterX(93));
-        pokemon.add(new GengarX(94));
-        pokemon.add(new ElectabuzzX(125));
-        pokemon.add(new DittoX(132));
-        pokemon.add(new MewtwoX(150));
+        pokemon.add(new PikachuFemaleX("Pikachu", Aspect.FEMALE_X));
+        pokemon.add(new PikachuMaleX("Pikachu", Aspect.MALE_X));
+        pokemon.add(new RaichuX("", Aspect.X));
+        pokemon.add(new EldiwanMeowth("", Aspect.ELDIWAN));
+        pokemon.add(new PonytaX("", Aspect.X));
+        pokemon.add(new RapidashX("", Aspect.X));
+        pokemon.add(new GastlyX("", Aspect.X));
+        pokemon.add(new HaunterX("", Aspect.X));
+        pokemon.add(new GengarX("", Aspect.X));
+        pokemon.add(new ElectabuzzX("", Aspect.X));
+        pokemon.add(new DittoX("", Aspect.X));
+        pokemon.add(new MewtwoX("", Aspect.X));
     }
 
     private void addDeltaPokemon() {
-        pokemon.add(new DeltaBulbasaur(1));
-        pokemon.add(new DeltaIvysaur(2));
-        pokemon.add(new DeltaVenusaur(3));
-        pokemon.add(new DeltaCharmander(4));
-        pokemon.add(new DeltaCharmeleon(5));
-        pokemon.add(new DeltaCharizard(6));
-        pokemon.add(new DeltaSquirtle(7));
-        pokemon.add(new DeltaWartortle(8));
-        pokemon.add(new DeltaBlastoise(9));
-        pokemon.add(new DeltaPidgey(16));
-        pokemon.add(new DeltaPidgeotto(17));
-        pokemon.add(new DeltaPidgeot(18));
-        pokemon.add(new DeltaPikachu(25));
-        pokemon.add(new DeltaRaichu(26));
-        pokemon.add(new DeltaDiglett(50));
-        pokemon.add(new DeltaDugtrio(51));
-        pokemon.add(new DeltaGrowlithe(58));
-        pokemon.add(new DeltaArcanine(59));
-        pokemon.add(new DeltaTentacool(72));
-        pokemon.add(new DeltaTentacruel(73));
-        pokemon.add(new DeltaGeodude(74));
-        pokemon.add(new DeltaGraveler(75));
-        pokemon.add(new DeltaGolem(76));
-        pokemon.add(new DeltaDoduo(84));
-        pokemon.add(new DeltaDodrio(85));
-        pokemon.add(new DeltaGrimer(88));
-        pokemon.add(new DeltaMuk(89));
-        pokemon.add(new DeltaKoffing(109));
-        pokemon.add(new DeltaWeezing(110));
-        pokemon.add(new DeltaTangela(114));
-        pokemon.add(new DeltaScyther(123));
-        pokemon.add(new DeltaElectabuzz(125));
-        pokemon.add(new DeltaMagmar(126));
-        pokemon.add(new DeltaDitto(132));
-        pokemon.add(new DeltaKabuto(140));
-        pokemon.add(new DeltaKabutops(141));
-        pokemon.add(new DeltaSnorlax(143));
-        pokemon.add(new DeltaDratini(147));
-        pokemon.add(new DeltaDragonair(148));
-        pokemon.add(new DeltaDragonite(149));
+        pokemon.add(new DeltaBulbasaur("", Aspect.DELTA));
+        pokemon.add(new DeltaIvysaur("", Aspect.DELTA));
+        pokemon.add(new DeltaVenusaur("", Aspect.DELTA));
+        pokemon.add(new DeltaCharmander("", Aspect.DELTA));
+        pokemon.add(new DeltaCharmeleon("", Aspect.DELTA));
+        pokemon.add(new DeltaCharizard("", Aspect.DELTA));
+        pokemon.add(new DeltaSquirtle("", Aspect.DELTA));
+        pokemon.add(new DeltaWartortle("", Aspect.DELTA));
+        pokemon.add(new DeltaBlastoise("", Aspect.DELTA));
+        pokemon.add(new DeltaPidgey("", Aspect.DELTA));
+        pokemon.add(new DeltaPidgeotto("", Aspect.DELTA));
+        pokemon.add(new DeltaPidgeot("", Aspect.DELTA));
+        pokemon.add(new DeltaPikachu("", Aspect.DELTA));
+        pokemon.add(new DeltaRaichu("", Aspect.DELTA));
+        pokemon.add(new DeltaDiglett("", Aspect.DELTA));
+        pokemon.add(new DeltaDugtrio("", Aspect.DELTA));
+        pokemon.add(new DeltaGrowlithe("", Aspect.DELTA));
+        pokemon.add(new DeltaArcanine("", Aspect.DELTA));
+        pokemon.add(new DeltaTentacool("", Aspect.DELTA));
+        pokemon.add(new DeltaTentacruel("", Aspect.DELTA));
+        pokemon.add(new DeltaGeodude("", Aspect.DELTA));
+        pokemon.add(new DeltaGraveler("", Aspect.DELTA));
+        pokemon.add(new DeltaGolem("", Aspect.DELTA));
+        pokemon.add(new DeltaDoduo("", Aspect.DELTA));
+        pokemon.add(new DeltaDodrio("", Aspect.DELTA));
+        pokemon.add(new DeltaGrimer("", Aspect.DELTA));
+        pokemon.add(new DeltaMuk("", Aspect.DELTA));
+        pokemon.add(new DeltaKoffing("", Aspect.DELTA));
+        pokemon.add(new DeltaWeezing("", Aspect.DELTA));
+        pokemon.add(new DeltaTangela("", Aspect.DELTA));
+        pokemon.add(new DeltaScyther("", Aspect.DELTA));
+        pokemon.add(new DeltaElectabuzz("", Aspect.DELTA));
+        pokemon.add(new DeltaMagmar("", Aspect.DELTA));
+        pokemon.add(new DeltaDitto("", Aspect.DELTA));
+        pokemon.add(new DeltaKabuto("", Aspect.DELTA));
+        pokemon.add(new DeltaKabutops("", Aspect.DELTA));
+        pokemon.add(new DeltaSnorlax("", Aspect.DELTA));
+        pokemon.add(new DeltaDratini("", Aspect.DELTA));
+        pokemon.add(new DeltaDragonair("", Aspect.DELTA));
+        pokemon.add(new DeltaDragonite("", Aspect.DELTA));
     }
 
     private void addEghoPokemon() {
-        pokemon.add(new EghoBulbasaur(1));
-        pokemon.add(new EghoIvysaur(2));
-        pokemon.add(new EghoVenusaur(3));
-        pokemon.add(new EghoCharmander(4));
-        pokemon.add(new EghoCharmeleon(5));
-        pokemon.add(new EghoCharizard(6));
-        pokemon.add(new EghoSquirtle(7));
-        pokemon.add(new EghoWartortle(8));
-        pokemon.add(new EghoBlastoise(9));
-        pokemon.add(new EghoSpearow(21));
-        pokemon.add(new EghoFearow(22));
-        pokemon.add(new EghoOddish(43));
-        pokemon.add(new EghoGloom(44));
-        pokemon.add(new EghoMagnemite(81));
-        pokemon.add(new EghoMagneton(82));
-        pokemon.add(new EghoGrimer(88));
-        pokemon.add(new EghoMuk(89));
-        pokemon.add(new EghoShellder(90));
-        pokemon.add(new EghoChansey(113));
-        pokemon.add(new EghoTangela(114));
+        pokemon.add(new EghoBulbasaur("", Aspect.EGHO));
+        pokemon.add(new EghoIvysaur("", Aspect.EGHO));
+        pokemon.add(new EghoVenusaur("", Aspect.EGHO));
+        pokemon.add(new EghoCharmander("", Aspect.EGHO));
+        pokemon.add(new EghoCharmeleon("", Aspect.EGHO));
+        pokemon.add(new EghoCharizard("", Aspect.EGHO));
+        pokemon.add(new EghoSquirtle("", Aspect.EGHO));
+        pokemon.add(new EghoWartortle("", Aspect.EGHO));
+        pokemon.add(new EghoBlastoise("", Aspect.EGHO));
+        pokemon.add(new EghoSpearow("", Aspect.EGHO));
+        pokemon.add(new EghoFearow("", Aspect.EGHO));
+        pokemon.add(new EghoOddish("", Aspect.EGHO));
+        pokemon.add(new EghoGloom("", Aspect.EGHO));
+        pokemon.add(new EghoMagnemite("", Aspect.EGHO));
+        pokemon.add(new EghoMagneton("", Aspect.EGHO));
+        pokemon.add(new EghoGrimer("", Aspect.EGHO));
+        pokemon.add(new EghoMuk("", Aspect.EGHO));
+        pokemon.add(new EghoShellder("", Aspect.EGHO));
+        pokemon.add(new EghoChansey("", Aspect.EGHO));
+        pokemon.add(new EghoTangela("", Aspect.EGHO));
     }
 }

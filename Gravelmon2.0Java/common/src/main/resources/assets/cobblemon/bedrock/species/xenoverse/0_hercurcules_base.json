@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_hercurcules",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_hercurcules",
       "texture": "cobblemon:textures/pokemon/xenoverse/hercurcules.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/hercurcules_shiny.png"
-    }  ]
+    }
+  ]
 }

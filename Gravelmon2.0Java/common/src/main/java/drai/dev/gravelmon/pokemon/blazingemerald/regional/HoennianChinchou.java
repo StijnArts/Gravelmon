@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianChinchou extends Pokemon {
-    public HoennianChinchou(int dexNo) {
-        super(dexNo,"HoennianChinchou",
+    public HoennianChinchou(String name, Aspect aspect) {
+        super(name, aspect,"HoennianChinchou",
                 Type.WATER, Type.GHOST,
                 new Stats(55, 38, 38, 100, 66, 57),
                 List.of(Ability.CLEAR_BODY), Ability.LIQUID_OOZE,

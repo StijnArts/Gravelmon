@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_junkqual",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_junkqual",
       "texture": "cobblemon:textures/pokemon/interregional/junkqual.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/junkqual_shiny.png"
-    }  ]
+    }
+  ]
 }

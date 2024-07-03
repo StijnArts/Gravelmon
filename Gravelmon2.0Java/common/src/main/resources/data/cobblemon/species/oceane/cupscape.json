@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cupscape",
-  "nationalPokedexNumber": 1670,
+  "nationalPokedexNumber": 2268,
   "primaryType": "fairy",
   "secondaryType": "rock",
   "abilities": [
@@ -61,7 +61,7 @@
     "40:irondefense",
     "44:rockslide",
     "48:earthpower",
-    "51:powergemcrystal"  ],
+    "51:powergem"  ],
   "labels": [
     "oceane",
     "not_modeled"

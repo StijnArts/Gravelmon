@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_witherscence",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_witherscence",
       "texture": "cobblemon:textures/pokemon/norheim/witherscence.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/witherscence_shiny.png"
-    }  ]
+    }
+  ]
 }

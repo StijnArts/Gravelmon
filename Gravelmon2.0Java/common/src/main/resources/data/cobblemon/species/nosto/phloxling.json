@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phloxling",
-  "nationalPokedexNumber": 1985,
+  "nationalPokedexNumber": 3548,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -63,7 +63,7 @@
     "43:leafblade",
     "49:jumpkick",
     "tm:grasspledge",
-    "tm:snoresound",
+    "tm:snore",
     "tm:embargo",
     "tm:payback",
     "tm:taunt",
@@ -91,8 +91,8 @@
     "tm:protect",
     "tm:psychup",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:swordsdance",

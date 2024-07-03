@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "velvelt",
-  "nationalPokedexNumber": 2759,
+  "nationalPokedexNumber": 4746,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -98,7 +98,7 @@
     "egg:furyswipes",
     "egg:gigaimpact",
     "egg:honeclaws",
-    "egg:howlsound",
+    "egg:howl",
     "egg:hyperbeam",
     "egg:meditate",
     "egg:mudslap",
@@ -106,7 +106,7 @@
     "egg:quickattack",
     "egg:raindance",
     "egg:return",
-    "egg:roarsound",
+    "egg:roar",
     "egg:sandstorm",
     "egg:submission",
     "egg:sunnyday"  ],

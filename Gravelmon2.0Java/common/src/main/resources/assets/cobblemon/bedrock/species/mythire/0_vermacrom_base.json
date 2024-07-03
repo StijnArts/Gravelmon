@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_vermacrom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_vermacrom",
       "texture": "cobblemon:textures/pokemon/mythire/vermacrom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/vermacrom_shiny.png"
-    }  ]
+    }
+  ]
 }

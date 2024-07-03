@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_dragoyle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_dragoyle",
       "texture": "cobblemon:textures/pokemon/infinity/dragoyle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/dragoyle_shiny.png"
-    }  ]
+    }
+  ]
 }

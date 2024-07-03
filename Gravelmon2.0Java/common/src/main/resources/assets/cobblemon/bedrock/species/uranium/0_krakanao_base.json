@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_krakanao",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_krakanao",
       "texture": "cobblemon:textures/pokemon/uranium/krakanao.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/krakanao_shiny.png"
-    }  ]
+    }
+  ]
 }

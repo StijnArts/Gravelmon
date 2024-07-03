@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.interregional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Sliezen extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -41,7 +42,7 @@ public class Sliezen extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_GLACIAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRIGID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

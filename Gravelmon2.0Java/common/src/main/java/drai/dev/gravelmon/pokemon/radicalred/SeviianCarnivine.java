@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianCarnivine extends Pokemon {
-    public SeviianCarnivine(int dexNo) {
-        super(dexNo, "SeviianCarnivine",
+    public SeviianCarnivine(String name, Aspect aspect) {
+        super(name, aspect,"SeviianCarnivine",
                 Type.POISON, Type.STEEL,
                 new Stats(94, 100, 92, 55, 77, 36),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

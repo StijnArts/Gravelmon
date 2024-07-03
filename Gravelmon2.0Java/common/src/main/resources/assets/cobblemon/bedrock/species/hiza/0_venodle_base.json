@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_venodle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_venodle",
       "texture": "cobblemon:textures/pokemon/hiza/venodle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/venodle_shiny.png"
-    }  ]
+    }
+  ]
 }

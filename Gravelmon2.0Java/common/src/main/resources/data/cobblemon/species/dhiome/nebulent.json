@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nebulent",
-  "nationalPokedexNumber": 1471,
+  "nationalPokedexNumber": 1472,
   "primaryType": "poison",
   "abilities": [
     "shedskin",
@@ -67,7 +67,7 @@
     "tm:frustration",
     "tm:hiddenpower",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:focusblast",
     "tm:infestation",
     "tm:energyball",
@@ -89,7 +89,7 @@
     "tm:doubleteam",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:workup",
@@ -99,7 +99,7 @@
     "tm:taunt",
     "tm:toxic",
     "tm:mistyterrain",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:wish",
     "tm:nastyplot"  ],
   "labels": [

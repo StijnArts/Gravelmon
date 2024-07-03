@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_luminose",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_luminose",
       "texture": "cobblemon:textures/pokemon/amavi/luminose.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/luminose_shiny.png"
-    }  ]
+    }
+  ]
 }

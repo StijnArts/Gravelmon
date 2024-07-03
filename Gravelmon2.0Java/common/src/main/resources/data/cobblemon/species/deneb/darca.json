@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "darca",
-  "nationalPokedexNumber": 2723,
+  "nationalPokedexNumber": 4709,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -51,9 +51,9 @@
   "moves": [
     "1:growl",
     "1:headbutt",
-    "1:singsound",
+    "1:sing",
     "1:watergun",
-    "4:singsound",
+    "4:sing",
     "7:watergun",
     "13:mudsport",
     "19:supersonic",

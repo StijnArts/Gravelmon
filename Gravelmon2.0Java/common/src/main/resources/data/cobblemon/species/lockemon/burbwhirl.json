@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "burbwhirl",
-  "nationalPokedexNumber": 1889,
+  "nationalPokedexNumber": 3452,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -61,7 +61,7 @@
     "32:entrainment",
     "36:lunge",
     "40:hydropump",
-    "44:bugbuzzsound",
+    "44:bugbuzz",
     "48:mirrorcoat",
     "egg:powersplit",
     "egg:spitup",

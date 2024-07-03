@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_icigloo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_icigloo",
       "texture": "cobblemon:textures/pokemon/isiah/icigloo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/icigloo_shiny.png"
-    }  ]
+    }
+  ]
 }

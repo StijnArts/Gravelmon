@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_munchwin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_munchwin",
       "texture": "cobblemon:textures/pokemon/isiah/munchwin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/munchwin_shiny.png"
-    }  ]
+    }
+  ]
 }

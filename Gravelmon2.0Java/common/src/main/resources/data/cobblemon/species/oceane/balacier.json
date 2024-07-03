@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "balacier",
-  "nationalPokedexNumber": 1654,
+  "nationalPokedexNumber": 2252,
   "primaryType": "ice",
   "abilities": [
     "keeneye",
@@ -56,8 +56,8 @@
     "1:aquatail",
     "1:bodyslam",
     "1:bodypress",
-    "1:singsound",
-    "1:screechsound",
+    "1:sing",
+    "1:screech",
     "1:supersonic",
     "1:depthcharge"  ],
   "labels": [

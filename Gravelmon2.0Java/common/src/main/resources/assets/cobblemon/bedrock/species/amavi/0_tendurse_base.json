@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_tendurse",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_tendurse",
       "texture": "cobblemon:textures/pokemon/amavi/tendurse.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/tendurse_shiny.png"
-    }  ]
+    }
+  ]
 }

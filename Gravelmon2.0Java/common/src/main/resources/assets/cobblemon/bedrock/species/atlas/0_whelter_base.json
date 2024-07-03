@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_whelter",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_whelter",
       "texture": "cobblemon:textures/pokemon/atlas/whelter.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/whelter_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_mortasque",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_mortasque",
       "texture": "cobblemon:textures/pokemon/sage/mortasque.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/mortasque_shiny.png"
-    }  ]
+    }
+  ]
 }

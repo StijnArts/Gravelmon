@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_confectious",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_confectious",
       "texture": "cobblemon:textures/pokemon/varitas/confectious.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/confectious_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_unktena",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_unktena",
       "texture": "cobblemon:textures/pokemon/opal/unktena.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/unktena_shiny.png"
-    }  ]
+    }
+  ]
 }

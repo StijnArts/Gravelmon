@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_bowvine",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_bowvine",
       "texture": "cobblemon:textures/pokemon/fliga/bowvine.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/bowvine_shiny.png"
-    }  ]
+    }
+  ]
 }

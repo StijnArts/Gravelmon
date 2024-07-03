@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_snuffellow",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_snuffellow",
       "texture": "cobblemon:textures/pokemon/mythire/snuffellow.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/snuffellow_shiny.png"
-    }  ]
+    }
+  ]
 }

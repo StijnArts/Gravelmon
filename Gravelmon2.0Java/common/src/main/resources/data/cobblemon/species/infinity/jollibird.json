@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jollibird",
-  "nationalPokedexNumber": 1439,
+  "nationalPokedexNumber": 1440,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -48,18 +48,28 @@
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:dazzlinggleam",
     "1:present",
     "12:mist",
     "25:drillpeck",
-    "37:healbellsound",
-    "50:hypervoicesound",
+    "37:healbell",
+    "50:hypervoice",
     "62:freezedry",
     "75:milkdrink",
     "87:iciclecrash",
     "100:playrough",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:bulkup",
@@ -86,8 +96,8 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:allyswitch",
     "tm:focusblast",
     "tm:fling",
@@ -117,7 +127,7 @@
     "tutor:defog",
     "tutor:drainpunch",
     "tutor:firepunch",
-    "tutor:healbellsound",
+    "tutor:healbell",
     "tutor:helpinghand",
     "tutor:icepunch",
     "tutor:icywind",

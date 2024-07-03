@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_percussoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_percussoon",
       "texture": "cobblemon:textures/pokemon/deneb/percussoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/percussoon_shiny.png"
-    }  ]
+    }
+  ]
 }

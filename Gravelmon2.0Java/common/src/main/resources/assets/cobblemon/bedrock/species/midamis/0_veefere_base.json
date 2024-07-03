@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_veefere",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_veefere",
       "texture": "cobblemon:textures/pokemon/midamis/veefere.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/veefere_shiny.png"
-    }  ]
+    }
+  ]
 }

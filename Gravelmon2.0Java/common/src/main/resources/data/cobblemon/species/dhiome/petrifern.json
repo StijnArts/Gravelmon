@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "petrifern",
-  "nationalPokedexNumber": 1472,
+  "nationalPokedexNumber": 1473,
   "primaryType": "rock",
   "secondaryType": "grass",
   "abilities": [
@@ -65,7 +65,7 @@
     "tm:frustration",
     "tm:hiddenpower",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:energyball",
     "tm:grassknot",
     "tm:solarbeam",
@@ -77,7 +77,7 @@
     "tm:attract",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:reflect",

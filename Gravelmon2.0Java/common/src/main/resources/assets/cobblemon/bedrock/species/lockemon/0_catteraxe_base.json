@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_catteraxe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_catteraxe",
       "texture": "cobblemon:textures/pokemon/lockemon/catteraxe.png",
       "layers": []
     },

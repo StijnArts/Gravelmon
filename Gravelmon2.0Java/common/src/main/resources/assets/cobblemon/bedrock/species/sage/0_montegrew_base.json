@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_montegrew",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_montegrew",
       "texture": "cobblemon:textures/pokemon/sage/montegrew.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/montegrew_shiny.png"
-    }  ]
+    }
+  ]
 }

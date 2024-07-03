@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_orcabyss",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_orcabyss",
       "texture": "cobblemon:textures/pokemon/infinity/orcabyss.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/orcabyss_shiny.png"
-    }  ]
+    }
+  ]
 }

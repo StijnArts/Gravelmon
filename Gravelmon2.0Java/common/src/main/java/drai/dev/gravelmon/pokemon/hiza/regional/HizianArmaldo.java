@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.hiza.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class HizianArmaldo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianArmaldo(int dex) {
-        super(dex, "Armaldo",
+    public HizianArmaldo(String name, Aspect aspect) {
+        super(name, aspect, "Armaldo",
                 Type.BUG, Type.DRAGON,
                 new Stats(75,
                         125,

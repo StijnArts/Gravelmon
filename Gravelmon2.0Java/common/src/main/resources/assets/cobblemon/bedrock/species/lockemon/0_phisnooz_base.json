@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_phisnooz",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_phisnooz",
       "texture": "cobblemon:textures/pokemon/lockemon/phisnooz.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/phisnooz_shiny.png"
-    }  ]
+    }
+  ]
 }

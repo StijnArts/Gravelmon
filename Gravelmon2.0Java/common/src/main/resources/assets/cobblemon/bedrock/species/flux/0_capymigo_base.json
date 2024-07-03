@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_capymigo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_capymigo",
       "texture": "cobblemon:textures/pokemon/flux/capymigo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/capymigo_shiny.png"
-    }  ]
+    }
+  ]
 }

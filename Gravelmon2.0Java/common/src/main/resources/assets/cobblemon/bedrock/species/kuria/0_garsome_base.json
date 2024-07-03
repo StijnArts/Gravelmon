@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_garsome",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_garsome",
       "texture": "cobblemon:textures/pokemon/kuria/garsome.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/garsome_shiny.png"
-    }  ]
+    }
+  ]
 }

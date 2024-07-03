@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.hiza.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class HizianSandaconda extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianSandaconda(int dex) {
-        super(dex, "Sandaconda",
+    public HizianSandaconda(String name, Aspect aspect) {
+        super(name, aspect, "Sandaconda",
                 Type.FIRE, Type.GROUND,
                 new Stats(72,
                         65,
@@ -41,7 +42,7 @@ public class HizianSandaconda extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.HIZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 50, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_THERMAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

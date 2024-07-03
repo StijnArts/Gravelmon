@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "perame",
-  "nationalPokedexNumber": 2927,
+  "nationalPokedexNumber": 4914,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -71,7 +71,7 @@
     "tm:scald",
     "tm:endure",
     "tm:swordsdance",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",

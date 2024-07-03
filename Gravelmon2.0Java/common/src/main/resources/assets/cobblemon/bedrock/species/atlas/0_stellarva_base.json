@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_stellarva",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_stellarva",
       "texture": "cobblemon:textures/pokemon/atlas/stellarva.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/stellarva_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "obsidious",
-  "nationalPokedexNumber": 1959,
+  "nationalPokedexNumber": 3522,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -57,7 +57,7 @@
     "12:scaryface",
     "15:rockslide",
     "18:stompingtantrum",
-    "21:screechsound",
+    "21:screech",
     "24:smackdown",
     "27:crunch",
     "33:earthquake",

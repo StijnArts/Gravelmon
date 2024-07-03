@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "witherwind",
-  "nationalPokedexNumber": 2242,
+  "nationalPokedexNumber": 4137,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -60,7 +60,7 @@
     "37:lightscreen",
     "41:psychic",
     "46:ragepowder",
-    "50:bugbuzzsound",
+    "50:bugbuzz",
     "55:wonderroom"  ],
   "labels": [
     "kuria",

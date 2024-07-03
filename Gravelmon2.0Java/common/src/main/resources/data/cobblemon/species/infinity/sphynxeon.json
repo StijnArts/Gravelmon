@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sphynxeon",
-  "nationalPokedexNumber": 1419,
+  "nationalPokedexNumber": 1420,
   "primaryType": "ground",
   "abilities": [
     "synchronize",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:soft_sand",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:bonemerang",
     "1:helpinghand",
@@ -73,7 +83,7 @@
     "68:painsplit",
     "tm:psyshock",
     "tm:calmmind",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:hyperbeam",
@@ -92,8 +102,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:gigaimpact",
     "tm:flash",
     "tm:thunderwave",

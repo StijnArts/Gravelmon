@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.myth.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MythianPidgey extends Pokemon {
-    public MythianPidgey(int dexNo) {
-        super(dexNo,"MythianPidgey",
+    public MythianPidgey(String name, Aspect aspect) {
+        super(name, aspect,"MythianPidgey",
                 Type.ELECTRIC, Type.FLYING,
                 new Stats(40,45,40,56,35,35),
                 List.of(Ability.KEEN_EYE,Ability.TANGLED_FEET), Ability.BIG_PECKS,

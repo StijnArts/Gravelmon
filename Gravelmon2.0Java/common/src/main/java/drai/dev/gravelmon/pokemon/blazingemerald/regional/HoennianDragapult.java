@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianDragapult extends Pokemon {
-    public HoennianDragapult(int dexNo) {
-        super(dexNo,"HoennianDragapult",
+    public HoennianDragapult(String name, Aspect aspect) {
+        super(name, aspect,"HoennianDragapult",
                 Type.FIRE, Type.DRAGON,
                 new Stats(118, 100, 75, 120, 75, 112),
                 List.of(Ability.LEVITATE), Ability.TECHNICIAN,

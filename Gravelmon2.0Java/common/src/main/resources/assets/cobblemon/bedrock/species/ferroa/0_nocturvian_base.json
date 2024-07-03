@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_nocturvian",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_nocturvian",
       "texture": "cobblemon:textures/pokemon/ferroa/nocturvian.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/nocturvian_shiny.png"
-    }  ]
+    }
+  ]
 }

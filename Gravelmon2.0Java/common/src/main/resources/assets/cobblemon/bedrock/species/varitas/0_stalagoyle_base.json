@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_stalagoyle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_stalagoyle",
       "texture": "cobblemon:textures/pokemon/varitas/stalagoyle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/stalagoyle_shiny.png"
-    }  ]
+    }
+  ]
 }

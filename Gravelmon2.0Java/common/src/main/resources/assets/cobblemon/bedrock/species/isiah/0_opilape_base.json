@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_opilape",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_opilape",
       "texture": "cobblemon:textures/pokemon/isiah/opilape.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/opilape_shiny.png"
-    }  ]
+    }
+  ]
 }

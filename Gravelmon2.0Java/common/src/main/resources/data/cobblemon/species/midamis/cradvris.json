@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cradvris",
-  "nationalPokedexNumber": 2640,
+  "nationalPokedexNumber": 4535,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -54,7 +54,7 @@
     "16:lifedew",
     "20:bubblebeam",
     "28:wideguard",
-    "36:bugbuzzsound",
+    "36:bugbuzz",
     "40:muddywater",
     "48:naturepower",
     "52:hydropump"  ],

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_burnbjorn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_burnbjorn",
       "texture": "cobblemon:textures/pokemon/norheim/burnbjorn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/burnbjorn_shiny.png"
-    }  ]
+    }
+  ]
 }

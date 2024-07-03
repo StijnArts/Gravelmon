@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_felifluff",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_felifluff",
       "texture": "cobblemon:textures/pokemon/okeno/felifluff.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/felifluff_shiny.png"
-    }  ]
+    }
+  ]
 }

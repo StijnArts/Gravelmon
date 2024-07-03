@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_terrorcotta",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_terrorcotta",
       "texture": "cobblemon:textures/pokemon/sage/terrorcotta.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/terrorcotta_shiny.png"
-    }  ]
+    }
+  ]
 }

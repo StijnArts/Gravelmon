@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_deviburn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_deviburn",
       "texture": "cobblemon:textures/pokemon/norheim/deviburn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/deviburn_shiny.png"
-    }  ]
+    }
+  ]
 }

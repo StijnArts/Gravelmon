@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianSizzlipede extends Pokemon {
-    public SeviianSizzlipede(int dexNo) {
-        super(dexNo, "SeviianSizzlipede",
+    public SeviianSizzlipede(String name, Aspect aspect) {
+        super(name, aspect,"SeviianSizzlipede",
                 Type.GROUND, Type.BUG,
                 new Stats(50, 65, 45, 50, 50, 45),
                 List.of(Ability.SHED_SKIN, Ability.WHITE_SMOKE), Ability.MOLD_BREAKER,

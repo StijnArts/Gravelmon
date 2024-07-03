@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_vicoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_vicoon",
       "texture": "cobblemon:textures/pokemon/interregional/vicoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/vicoon_shiny.png"
-    }  ]
+    }
+  ]
 }

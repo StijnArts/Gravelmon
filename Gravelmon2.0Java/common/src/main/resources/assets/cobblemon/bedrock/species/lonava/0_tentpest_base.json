@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_tentpest",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_tentpest",
       "texture": "cobblemon:textures/pokemon/lonava/tentpest.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/tentpest_shiny.png"
-    }  ]
+    }
+  ]
 }

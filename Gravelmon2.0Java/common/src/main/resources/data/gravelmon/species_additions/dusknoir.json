@@ -1,0 +1,101 @@
+{
+   "target": "cobblemon:dusknoir",
+   "forms": [{
+  "name": "Fligian",
+  "primaryType": "steel",
+  "secondaryType": "ghost",
+  "abilities": [
+    "pressure",
+    "waterabsorb",
+    "h:drizzle"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 60,
+    "defence": 125,
+    "special_attack": 125,
+    "special_defence": 125,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 236,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:furycutter",
+    "1:sandattack",
+    "4:visegrip",
+    "8:metalclaw",
+    "12:beatup",
+    "16:bugbite",
+    "20:bite",
+    "24:agility",
+    "28:dig",
+    "32:xscissor",
+    "36:crunch",
+    "40:metalsound",
+    "44:ironhead",
+    "48:entrainment",
+    "52:irondefense",
+    "56:guillotine"  ],
+  "labels": [
+    "fliga",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.fligiandusknoir.desc"
+  ],
+  "preEvolution": "dusclops form=fligian",
+  "baseScale": 0.5499999999999999,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 22,
+  "weight": 1066,
+  "aspects": ["fligian"],
+  "cannotDynamax": false
+}
+], "features": [
+"fligian"
+  ]
+}

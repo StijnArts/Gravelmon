@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianLuvdisc extends Pokemon {
-    public AyreianLuvdisc(int dexNo) {
-        super(dexNo,"AyreianLuvdisc",
+    public AyreianLuvdisc(String name, Aspect aspect) {
+        super(name, aspect,"AyreianLuvdisc",
                 Type.GHOST, Type.WATER,
                 new Stats(43,30,55,65,55,97),
                 List.of(Ability.SWIFT_SWIM, Ability.CURSED_BODY), Ability.HYDRATION,

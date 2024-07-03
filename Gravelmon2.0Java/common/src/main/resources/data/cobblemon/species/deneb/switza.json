@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "switza",
-  "nationalPokedexNumber": 2811,
+  "nationalPokedexNumber": 4798,
   "primaryType": "ice",
   "abilities": [
     "naturalcure",
@@ -74,7 +74,7 @@
     "tm:explosion",
     "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",

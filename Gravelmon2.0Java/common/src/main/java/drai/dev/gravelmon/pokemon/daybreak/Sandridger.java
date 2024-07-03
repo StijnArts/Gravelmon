@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.daybreak;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -121,5 +122,7 @@ public class Sandridger extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         setPreEvolution("Sandslash");
+        addAdditionalEvolution("sandslash", new EvolutionEntry("sandridger", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"))));
     }
 }

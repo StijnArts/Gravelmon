@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianBayleef extends Pokemon {
-    public AyreianBayleef(int dexNo) {
-        super(dexNo,"AyreianBayleef",
+    public AyreianBayleef(String name, Aspect aspect) {
+        super(name, aspect,"AyreianBayleef",
                 Type.GRASS, Type.FAIRY,
                 new Stats(60,63,90,50,90,75),
                 List.of(Ability.PIXILATE, Ability.TRIAGE), Ability.MISTY_SURGE,

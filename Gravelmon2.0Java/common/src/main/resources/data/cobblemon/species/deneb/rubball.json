@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rubball",
-  "nationalPokedexNumber": 2823,
+  "nationalPokedexNumber": 4810,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
@@ -60,7 +60,7 @@
     "34:dig",
     "37:sandstorm",
     "42:rockslide",
-    "49:screechsound",
+    "49:screech",
     "58:earthquake",
     "61:rockpolish",
     "tm:spikes",

@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.qamor;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -48,7 +49,7 @@ public class Cavacreep extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.QAMOR),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 43, 1.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "torchurn",
-  "nationalPokedexNumber": 1687,
+  "nationalPokedexNumber": 2285,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -60,7 +60,7 @@
     "22:ancientpower",
     "25:recycle",
     "27:flameburst",
-    "29:powergemcrystal",
+    "29:powergem",
     "34:lavaplume",
     "36:stuffcheeks",
     "41:burnup",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "halux",
-  "nationalPokedexNumber": 2051,
+  "nationalPokedexNumber": 3614,
   "primaryType": "psychic",
   "abilities": [
     "pressure",
@@ -50,14 +50,14 @@
   "moves": [
     "1:miracleeye",
     "4:fairywind",
-    "7:echoedvoicesound",
+    "7:echoedvoice",
     "9:hypnosis",
     "13:psybeam",
     "15:purify",
     "18:futuresight",
     "22:drainingkiss",
     "26:roleplay",
-    "30:roundsound",
+    "30:round",
     "34:psyshock",
     "39:dazzlinggleam",
     "41:calmmind",

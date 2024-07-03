@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_burnmigi",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_burnmigi",
       "texture": "cobblemon:textures/pokemon/norheim/burnmigi.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/burnmigi_shiny.png"
-    }  ]
+    }
+  ]
 }

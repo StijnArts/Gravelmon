@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianWishiwashi extends Pokemon {
-    public SeviianWishiwashi(int dexNo) {
-        super(dexNo, "SeviianWishiwashi",
+    public SeviianWishiwashi(String name, Aspect aspect) {
+        super(name, aspect,"SeviianWishiwashi",
                 Type.GHOST,
                 new Stats(60, 20, 20, 25, 15, 35),
                 List.of(Ability.SCHOOLING), Ability.SCHOOLING,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_raggal",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_raggal",
       "texture": "cobblemon:textures/pokemon/isiah/raggal.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/raggal_shiny.png"
-    }  ]
+    }
+  ]
 }

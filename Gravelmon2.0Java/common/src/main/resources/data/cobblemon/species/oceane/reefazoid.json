@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reefazoid",
-  "nationalPokedexNumber": 1672,
+  "nationalPokedexNumber": 2270,
   "primaryType": "fairy",
   "secondaryType": "rock",
   "abilities": [
@@ -59,9 +59,9 @@
     "1:machpunch",
     "1:irondefense",
     "1:dazzlinggleam",
-    "1:gravitycosmic",
+    "1:gravity",
     "1:zenheadbutt",
-    "1:cosmicpowercosmic",
+    "1:cosmicpower",
     "1:crushgrip"  ],
   "labels": [
     "oceane",

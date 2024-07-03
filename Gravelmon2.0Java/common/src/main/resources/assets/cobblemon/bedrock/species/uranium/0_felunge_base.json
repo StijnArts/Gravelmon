@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_felunge",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_felunge",
       "texture": "cobblemon:textures/pokemon/uranium/felunge.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/felunge_shiny.png"
-    }  ]
+    }
+  ]
 }

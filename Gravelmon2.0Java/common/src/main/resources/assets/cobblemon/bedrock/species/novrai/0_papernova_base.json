@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_papernova",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_papernova",
       "texture": "cobblemon:textures/pokemon/novrai/papernova.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/papernova_shiny.png"
-    }  ]
+    }
+  ]
 }

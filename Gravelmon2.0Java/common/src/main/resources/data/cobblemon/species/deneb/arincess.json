@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arincess",
-  "nationalPokedexNumber": 2868,
+  "nationalPokedexNumber": 4855,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -98,7 +98,7 @@
     "tutor:nastyplot",
     "egg:acidspray",
     "egg:attract",
-    "egg:bugbuzzsound",
+    "egg:bugbuzz",
     "egg:covet",
     "egg:dig",
     "egg:disable",
@@ -111,7 +111,7 @@
     "egg:latentpower",
     "egg:lightscreen",
     "egg:mudshot",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:protect",
     "egg:raindance",
     "egg:refresh",

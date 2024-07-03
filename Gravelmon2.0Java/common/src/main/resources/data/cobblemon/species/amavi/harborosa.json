@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harborosa",
-  "nationalPokedexNumber": 3094,
+  "nationalPokedexNumber": 5686,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -53,7 +53,7 @@
     "5:spikecannon",
     "8:grassknot",
     "10:assurance",
-    "14:screechsound",
+    "14:screech",
     "20:spikyshield",
     "28:pluck",
     "34:roost",

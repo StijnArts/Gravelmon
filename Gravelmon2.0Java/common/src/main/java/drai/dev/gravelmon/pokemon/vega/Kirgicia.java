@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.vega;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -118,5 +119,7 @@ public class Kirgicia extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("ralts");
+        addAdditionalEvolution("ralts", new EvolutionEntry("kirgicia", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))));
     }
 }

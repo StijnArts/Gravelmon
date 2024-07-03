@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianGurdurr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianGurdurr(int dex) {
-        super(dex, "Gurdurr",
+    public FligianGurdurr(String name, Aspect aspect) {
+        super(name, aspect, "Gurdurr",
                 Type.FIGHTING,
                 new Stats(85,
                         105,

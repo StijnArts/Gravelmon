@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_tankodile",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_tankodile",
       "texture": "cobblemon:textures/pokemon/avoris/tankodile.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/tankodile_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_buckston",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_buckston",
       "texture": "cobblemon:textures/pokemon/sage/buckston.png",
       "layers": []
     },

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_knotyors",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_knotyors",
       "texture": "cobblemon:textures/pokemon/mythire/knotyors.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/knotyors_shiny.png"
-    }  ]
+    }
+  ]
 }

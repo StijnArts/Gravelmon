@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianHappiny extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianHappiny(int dex) {
-        super(dex, "Happiny",
+    public FligianHappiny(String name, Aspect aspect) {
+        super(name, aspect, "Happiny",
                 Type.FIRE, Type.NORMAL,
                 new Stats(100,
                         5,

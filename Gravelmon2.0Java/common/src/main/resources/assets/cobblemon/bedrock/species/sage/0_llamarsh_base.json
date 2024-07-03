@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_llamarsh",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_llamarsh",
       "texture": "cobblemon:textures/pokemon/sage/llamarsh.png",
       "layers": []
     },

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liquiput",
-  "nationalPokedexNumber": 2712,
+  "nationalPokedexNumber": 4698,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -102,10 +102,10 @@
     "egg:shadowpunch",
     "egg:shadowsneak",
     "egg:skullbash",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:smokescreen",
     "egg:snatch",
-    "egg:snoresound",
+    "egg:snore",
     "egg:waterpulse"  ],
   "labels": [
     "deneb",

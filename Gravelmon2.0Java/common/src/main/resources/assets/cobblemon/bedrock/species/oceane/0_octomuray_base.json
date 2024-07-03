@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_octomuray",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_octomuray",
       "texture": "cobblemon:textures/pokemon/oceane/octomuray.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/octomuray_shiny.png"
-    }  ]
+    }
+  ]
 }

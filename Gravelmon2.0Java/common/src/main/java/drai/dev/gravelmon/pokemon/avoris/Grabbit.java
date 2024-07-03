@@ -1,13 +1,15 @@
 package drai.dev.gravelmon.pokemon.avoris;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Grabbit extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -30,7 +32,7 @@ public class Grabbit extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Their sticky webbing can latch onto anything. They hide in dark areas, waiting to snatch food and other items from passersby."),
                 List.of(new EvolutionEntry("frobber", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(               new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.ACID,5),

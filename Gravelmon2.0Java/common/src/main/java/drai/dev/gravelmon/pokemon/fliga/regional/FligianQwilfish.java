@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianQwilfish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianQwilfish(int dex) {
-        super(dex, "Qwilfish",
+    public FligianQwilfish(String name, Aspect aspect) {
+        super(name, aspect, "Qwilfish",
                 Type.WATER, Type.POISON,
                 new Stats(65,
                         105,

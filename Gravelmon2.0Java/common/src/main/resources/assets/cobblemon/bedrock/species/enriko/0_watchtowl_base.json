@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_watchtowl",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_watchtowl",
       "texture": "cobblemon:textures/pokemon/enriko/watchtowl.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/watchtowl_shiny.png"
-    }  ]
+    }
+  ]
 }

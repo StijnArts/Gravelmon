@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_narpoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_narpoon",
       "texture": "cobblemon:textures/pokemon/hiza/narpoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/narpoon_shiny.png"
-    }  ]
+    }
+  ]
 }

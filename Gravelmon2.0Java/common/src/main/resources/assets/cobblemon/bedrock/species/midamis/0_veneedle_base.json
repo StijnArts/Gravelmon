@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_veneedle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_veneedle",
       "texture": "cobblemon:textures/pokemon/midamis/veneedle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/veneedle_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_nuggle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_nuggle",
       "texture": "cobblemon:textures/pokemon/isiah/nuggle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/nuggle_shiny.png"
-    }  ]
+    }
+  ]
 }

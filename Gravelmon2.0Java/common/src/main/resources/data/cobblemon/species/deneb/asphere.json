@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "asphere",
-  "nationalPokedexNumber": 2791,
+  "nationalPokedexNumber": 4778,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -220,7 +220,7 @@
     "tm:rocksmash",
     "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:rest",
     "tutor:toxic",
     "tutor:dig",

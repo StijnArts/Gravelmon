@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_expolar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_expolar",
       "texture": "cobblemon:textures/pokemon/novrai/expolar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/expolar_shiny.png"
-    }  ]
+    }
+  ]
 }

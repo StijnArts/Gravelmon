@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_shankrosite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_shankrosite",
       "texture": "cobblemon:textures/pokemon/ferroa/shankrosite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/shankrosite_shiny.png"
-    }  ]
+    }
+  ]
 }

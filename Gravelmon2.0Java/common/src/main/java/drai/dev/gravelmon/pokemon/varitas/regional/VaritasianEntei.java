@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianEntei extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianEntei(int dex) {
-        super(dex,"Entei",
+    public VaritasianEntei(String name, Aspect aspect) {
+        super(name, aspect,"Entei",
                 Type.FAIRY, Type.FIRE,
                 new Stats(115,
                         115,

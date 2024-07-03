@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ElekidX extends Pokemon {
-    public ElekidX(int dexNo) {
-        super(dexNo,"ElekidX",
+    public ElekidX(String name, Aspect aspect) {
+        super(name, aspect,"ElekidX",
                 Type.FIRE,
                 new Stats(45, 63, 37, 65, 55, 95),
                 List.of(Ability.AFTERMATH), Ability.VITAL_SPIRIT,

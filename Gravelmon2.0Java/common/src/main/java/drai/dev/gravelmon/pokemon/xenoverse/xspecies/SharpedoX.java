@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SharpedoX extends Pokemon {
-    public SharpedoX(int dexNo) {
-        super(dexNo,"SharpedoX",
+    public SharpedoX(String name, Aspect aspect) {
+        super(name, aspect,"SharpedoX",
                 Type.WATER, Type.GHOST,
                 new Stats(70, 120, 40, 95, 40, 95),
                 List.of(Ability.CURSED_BODY, Ability.INFILTRATOR), Ability.DRY_SKIN,

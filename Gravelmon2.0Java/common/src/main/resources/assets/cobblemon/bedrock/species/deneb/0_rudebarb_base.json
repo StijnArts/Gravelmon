@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_rudebarb",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_rudebarb",
       "texture": "cobblemon:textures/pokemon/deneb/rudebarb.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/rudebarb_shiny.png"
-    }  ]
+    }
+  ]
 }

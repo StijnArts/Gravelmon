@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:venusaur",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:generation1_eghovenusaur.geo",
+      "poser": "cobblemon:generation1_eghovenusaur",
+      "texture": "cobblemon:textures/pokemon/generation1/eghovenusaur/eghovenusaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_eghovenusaur.geo",
+      "poser": "cobblemon:generation1_eghovenusaur",
+      "texture": "cobblemon:textures/pokemon/generation1/eghovenusaur/eghovenusaur_shiny.png",
+      "layers": []
+    }
+  ]
+}

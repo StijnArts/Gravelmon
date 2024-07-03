@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "caimar-1",
+      "pokemon": "caimar",
+      "presets": [
+          "natural",
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_frozen",
+"#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

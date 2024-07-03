@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_cordachin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_cordachin",
       "texture": "cobblemon:textures/pokemon/ionos/cordachin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/cordachin_shiny.png"
-    }  ]
+    }
+  ]
 }

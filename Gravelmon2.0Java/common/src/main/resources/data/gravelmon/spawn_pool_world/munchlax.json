@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "varitasianmunchlax-1",
+      "pokemon": "munchlax varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "24-39",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky",
+"#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltamunchlax-1",
+      "pokemon": "munchlax delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-23",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_floral" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+
+]
+}

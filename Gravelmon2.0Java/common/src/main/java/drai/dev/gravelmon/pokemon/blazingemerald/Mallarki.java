@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.blazingemerald;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
@@ -78,5 +79,7 @@ public class Mallarki extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setLangFileName("Mallar'Ki");
         this.setPreEvolution("farfetchd");
+        addAdditionalEvolution("farfetchd", new EvolutionEntry("mallarki", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"))));
     }
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_astrowl",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_astrowl",
       "texture": "cobblemon:textures/pokemon/fliga/astrowl.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/astrowl_shiny.png"
-    }  ]
+    }
+  ]
 }

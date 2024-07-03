@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranSableye extends Pokemon {
-    public CefiranSableye(int dexNo) {
-        super(dexNo,"CefiranSableye",
+    public CefiranSableye(String name, Aspect aspect) {
+        super(name, aspect,"CefiranSableye",
                 Type.DARK, Type.ROCK,
                 new Stats(50,95,75,80,65,65),
                 List.of(Ability.HUSTLE), Ability.PRANKSTER,

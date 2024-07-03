@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoGloom extends Pokemon {
-    public EghoGloom(int dexNo) {
-        super(dexNo,"EghoGloom",
+    public EghoGloom(String name, Aspect aspect) {
+        super(name, aspect,"EghoGloom",
                 Type.GHOST, Type.POISON,
                 new Stats(65, 50, 75, 85, 65, 60),
                 List.of(Ability.LEVITATE), Ability.EFFECT_SPORE,

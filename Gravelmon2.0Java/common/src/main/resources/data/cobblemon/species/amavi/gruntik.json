@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gruntik",
-  "nationalPokedexNumber": 3015,
+  "nationalPokedexNumber": 5607,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -55,7 +55,7 @@
     "21:irondefense",
     "24:steamroller",
     "29:rapidspin",
-    "37:bugbuzzsound",
+    "37:bugbuzz",
     "44:gyroball",
     "53:detect",
     "57:superpower"  ],

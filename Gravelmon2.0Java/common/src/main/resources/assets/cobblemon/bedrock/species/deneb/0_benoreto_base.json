@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_benoreto",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_benoreto",
       "texture": "cobblemon:textures/pokemon/deneb/benoreto.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/benoreto_shiny.png"
-    }  ]
+    }
+  ]
 }

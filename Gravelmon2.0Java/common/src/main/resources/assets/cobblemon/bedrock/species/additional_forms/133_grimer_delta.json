@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:grimer",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltagrimer.geo",
+      "poser": "cobblemon:generation1_deltagrimer",
+      "texture": "cobblemon:textures/pokemon/generation1/deltagrimer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltagrimer.geo",
+      "poser": "cobblemon:generation1_deltagrimer",
+      "texture": "cobblemon:textures/pokemon/generation1/deltagrimer_shiny.png",
+      "layers": []
+    }
+  ]
+}

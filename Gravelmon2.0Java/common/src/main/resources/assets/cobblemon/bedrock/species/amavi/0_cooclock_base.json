@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_cooclock",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_cooclock",
       "texture": "cobblemon:textures/pokemon/amavi/cooclock.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/cooclock_shiny.png"
-    }  ]
+    }
+  ]
 }

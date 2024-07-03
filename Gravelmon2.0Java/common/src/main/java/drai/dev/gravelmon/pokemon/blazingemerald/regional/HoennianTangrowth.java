@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 public class HoennianTangrowth extends Pokemon {
-    public HoennianTangrowth(int dexNo) {
-        super(dexNo,"HoennianTangrowth",
+    public HoennianTangrowth(String name, Aspect aspect) {
+        super(name, aspect,"HoennianTangrowth",
                 Type.FIGHTING, Type.DARK,
                 new Stats(100, 115, 105, 85, 50, 80),
                 List.of(Ability.BARBED_NEST), Ability.BARBED_NEST,

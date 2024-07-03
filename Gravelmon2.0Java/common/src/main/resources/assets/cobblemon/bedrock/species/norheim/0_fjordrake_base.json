@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_fjordrake",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_fjordrake",
       "texture": "cobblemon:textures/pokemon/norheim/fjordrake.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/fjordrake_shiny.png"
-    }  ]
+    }
+  ]
 }

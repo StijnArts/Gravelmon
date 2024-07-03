@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanDragonair extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanDragonair(int dex) {
-        super(dex, "Dragonair",
+    public NorheimanDragonair(String name, Aspect aspect) {
+        super(name, aspect, "Dragonair",
                 Type.DRAGON,
                 new Stats(0,
                         0,
@@ -54,6 +55,9 @@ public class NorheimanDragonair extends drai.dev.gravelmon.pokemon.Pokemon {
         setCanBreathUnderwater(true);
         setCanFly(true);
            setLangFileName("Dragonair");
+        addAdditionalEvolution("dratini", new EvolutionEntry("dragonair norheiman", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\"")))	);
 
     }
 

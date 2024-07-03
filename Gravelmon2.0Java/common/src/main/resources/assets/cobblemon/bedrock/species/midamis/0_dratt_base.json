@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_dratt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_dratt",
       "texture": "cobblemon:textures/pokemon/midamis/dratt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/dratt_shiny.png"
-    }  ]
+    }
+  ]
 }

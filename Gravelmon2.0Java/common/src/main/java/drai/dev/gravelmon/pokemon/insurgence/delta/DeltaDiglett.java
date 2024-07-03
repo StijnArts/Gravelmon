@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaDiglett extends Pokemon {
-    public DeltaDiglett(int dexNo) {
-        super(dexNo,"DeltaDiglett",
+    public DeltaDiglett(String name, Aspect aspect) {
+        super(name, aspect,"DeltaDiglett",
                 Type.ICE, Type.NORMAL,
                 new Stats(10, 55, 25, 35, 45, 95),
                 List.of(Ability.SNOW_CLOAK,Ability.FUR_COAT), Ability.OBLIVIOUS,

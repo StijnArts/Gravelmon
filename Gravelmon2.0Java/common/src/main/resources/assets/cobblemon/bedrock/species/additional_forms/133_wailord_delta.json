@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:wailord",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltawailord.geo",
+      "poser": "cobblemon:generation3_deltawailord",
+      "texture": "cobblemon:textures/pokemon/generation3/deltawailord.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltawailord.geo",
+      "poser": "cobblemon:generation3_deltawailord",
+      "texture": "cobblemon:textures/pokemon/generation3/deltawailord_shiny.png",
+      "layers": []
+    }
+  ]
+}

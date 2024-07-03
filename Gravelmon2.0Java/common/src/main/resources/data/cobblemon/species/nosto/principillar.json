@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "principillar",
-  "nationalPokedexNumber": 2007,
+  "nationalPokedexNumber": 3570,
   "primaryType": "bug",
   "abilities": [
     "shielddust",
@@ -54,7 +54,7 @@
     "tm:bugbite",
     "tm:skittersmack",
     "tm:electroweb",
-    "tm:snoresound",
+    "tm:snore",
     "tm:strugglebug",
     "tm:embargo",
     "tm:attract",
@@ -65,8 +65,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

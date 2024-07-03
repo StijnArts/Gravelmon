@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inferlauf",
-  "nationalPokedexNumber": 2560,
+  "nationalPokedexNumber": 4455,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -58,7 +58,7 @@
     "72:inferno",
     "tm:hornattack",
     "tm:lick",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:rollout",
     "tm:magnitude",
     "tm:willowisp",
@@ -66,11 +66,14 @@
     "tm:thunderfang"  ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.inferlauf.desc"
   ],
+  "preEvolution": "baufire",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_capulilly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_capulilly",
       "texture": "cobblemon:textures/pokemon/sage/capulilly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/capulilly_shiny.png"
-    }  ]
+    }
+  ]
 }

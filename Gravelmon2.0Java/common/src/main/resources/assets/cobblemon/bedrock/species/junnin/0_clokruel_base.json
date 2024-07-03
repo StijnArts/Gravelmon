@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_clokruel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_clokruel",
       "texture": "cobblemon:textures/pokemon/junnin/clokruel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/clokruel_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_fenrour",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_fenrour",
       "texture": "cobblemon:textures/pokemon/myth/fenrour.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/fenrour_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_kremcee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_kremcee",
       "texture": "cobblemon:textures/pokemon/midamis/kremcee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/kremcee_shiny.png"
-    }  ]
+    }
+  ]
 }

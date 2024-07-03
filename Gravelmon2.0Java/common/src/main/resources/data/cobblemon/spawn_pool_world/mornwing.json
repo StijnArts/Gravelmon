@@ -15,7 +15,7 @@
       "level": "18-34",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_basalt",
+"biomes": [ "#cobblemon:is_volvanic",
 "#cobblemon:is_desert" ],
         "canSeeSky": true
       }

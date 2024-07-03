@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "visacoon",
-  "nationalPokedexNumber": 2352,
+  "nationalPokedexNumber": 4247,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -56,7 +56,7 @@
     "24:stomp",
     "30:dragonrush",
     "38:rockpolish",
-    "42:bugbuzzsound",
+    "42:bugbuzz",
     "50:megahorn",
     "58:ironhead",
     "66:earthpower",

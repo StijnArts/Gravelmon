@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.vega;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -103,6 +104,7 @@ public class Tentyrant extends Pokemon {
         this.setSwimSpeed(0.2);
         this.setCanBreathUnderwater(true);
         this.setHitbox(1.3,1.3);
-        //        this.setPreEvolution("tentacruel");
+        addAdditionalEvolution("tentacruel", new EvolutionEntry("tentyrant", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:water_stone"));
     }
 }

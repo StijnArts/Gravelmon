@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_glamarde",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_glamarde",
       "texture": "cobblemon:textures/pokemon/deneb/glamarde.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/glamarde_shiny.png"
-    }  ]
+    }
+  ]
 }

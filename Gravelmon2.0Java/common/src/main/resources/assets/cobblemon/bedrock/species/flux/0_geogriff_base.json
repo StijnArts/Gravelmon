@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_geogriff",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_geogriff",
       "texture": "cobblemon:textures/pokemon/flux/geogriff.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/geogriff_shiny.png"
-    }  ]
+    }
+  ]
 }

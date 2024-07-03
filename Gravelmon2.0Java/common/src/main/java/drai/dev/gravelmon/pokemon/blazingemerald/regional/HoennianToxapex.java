@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianToxapex extends Pokemon {
-    public HoennianToxapex(int dexNo) {
-        super(dexNo,"HoennianToxapex",
+    public HoennianToxapex(String name, Aspect aspect) {
+        super(name, aspect,"HoennianToxapex",
                 Type.ROCK, Type.POISON,
                 new Stats(60, 63, 182, 43, 122, 25),
                 List.of(Ability.POISON_POINT), Ability.SOLID_ROCK,

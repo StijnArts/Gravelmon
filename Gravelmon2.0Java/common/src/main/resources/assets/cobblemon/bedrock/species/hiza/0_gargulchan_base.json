@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_gargulchan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_gargulchan",
       "texture": "cobblemon:textures/pokemon/hiza/gargulchan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/gargulchan_shiny.png"
-    }  ]
+    }
+  ]
 }

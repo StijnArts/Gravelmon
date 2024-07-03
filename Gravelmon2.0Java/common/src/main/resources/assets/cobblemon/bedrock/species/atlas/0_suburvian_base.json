@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_suburvian",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_suburvian",
       "texture": "cobblemon:textures/pokemon/atlas/suburvian.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/suburvian_shiny.png"
-    }  ]
+    }
+  ]
 }

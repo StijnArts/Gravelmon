@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.infinity;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -110,5 +111,8 @@ public class Nimbeon extends Pokemon {
         this.setBaseScale(0.8);
         this.setCanFly(true);
         this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("nimbeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.ROOST, "")),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"minecraft:feather\""),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"day\""))));
     }
 }

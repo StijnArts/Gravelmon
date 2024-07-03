@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_drizzella",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_drizzella",
       "texture": "cobblemon:textures/pokemon/hiza/drizzella.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/drizzella_shiny.png"
-    }  ]
+    }
+  ]
 }

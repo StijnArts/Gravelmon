@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plasmox",
-  "nationalPokedexNumber": 2738,
+  "nationalPokedexNumber": 4724,
   "primaryType": "electric",
   "secondaryType": "fairy",
   "abilities": [
@@ -104,10 +104,10 @@
     "egg:rapidspin",
     "egg:reflect",
     "egg:return",
-    "egg:roarsound",
+    "egg:roar",
     "egg:rocktomb",
     "egg:safeguard",
-    "egg:screechsound",
+    "egg:screech",
     "egg:skullbash",
     "egg:stoneedge",
     "egg:thunderfang",

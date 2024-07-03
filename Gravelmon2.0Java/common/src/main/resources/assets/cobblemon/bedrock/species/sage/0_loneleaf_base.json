@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_loneleaf",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_loneleaf",
       "texture": "cobblemon:textures/pokemon/sage/loneleaf.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/loneleaf_shiny.png"
-    }  ]
+    }
+  ]
 }

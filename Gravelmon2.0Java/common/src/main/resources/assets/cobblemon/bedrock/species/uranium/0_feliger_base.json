@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_feliger",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_feliger",
       "texture": "cobblemon:textures/pokemon/uranium/feliger.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/feliger_shiny.png"
-    }  ]
+    }
+  ]
 }

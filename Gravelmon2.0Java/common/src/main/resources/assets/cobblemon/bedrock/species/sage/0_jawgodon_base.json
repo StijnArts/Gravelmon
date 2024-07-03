@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_jawgodon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_jawgodon",
       "texture": "cobblemon:textures/pokemon/sage/jawgodon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/jawgodon_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticSceptile extends Pokemon {
-    public MysticSceptile(int dexNo) {
-        super(dexNo,"MysticSceptile",
+    public MysticSceptile(String name, Aspect aspect) {
+        super(name, aspect,"MysticSceptile",
                 Type.FLYING, Type.FAIRY,
                 new Stats(70, 65, 85, 85, 105, 120),
                 List.of(Ability.INNER_FOCUS), Ability.REGENERATOR,

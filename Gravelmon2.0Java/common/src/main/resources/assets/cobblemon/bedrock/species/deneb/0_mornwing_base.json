@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_mornwing",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_mornwing",
       "texture": "cobblemon:textures/pokemon/deneb/mornwing.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/mornwing_shiny.png"
-    }  ]
+    }
+  ]
 }

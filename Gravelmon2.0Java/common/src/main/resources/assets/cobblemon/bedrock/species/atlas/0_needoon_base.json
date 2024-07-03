@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_needoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_needoon",
       "texture": "cobblemon:textures/pokemon/atlas/needoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/needoon_shiny.png"
-    }  ]
+    }
+  ]
 }

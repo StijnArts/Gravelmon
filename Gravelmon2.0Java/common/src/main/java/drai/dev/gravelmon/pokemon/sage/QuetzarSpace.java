@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.sage;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class QuetzarSpace extends Pokemon {
-    public QuetzarSpace(int dexNo) {
-        super(dexNo,"QuetzarSpace",
+    public QuetzarSpace(String name, Aspect aspect) {
+        super(name, aspect,"QuetzarSpace",
                 Type.DRAGON, Type.PSYCHIC,
                 new Stats(105, 85, 105, 160, 125, 90),
                 List.of(Ability.PRESSURE), Ability.CLOUD_NINE,

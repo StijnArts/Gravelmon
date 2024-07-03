@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_lulloon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_lulloon",
       "texture": "cobblemon:textures/pokemon/amavi/lulloon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/lulloon_shiny.png"
-    }  ]
+    }
+  ]
 }

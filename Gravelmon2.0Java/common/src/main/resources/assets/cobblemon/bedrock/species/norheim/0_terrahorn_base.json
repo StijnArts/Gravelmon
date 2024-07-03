@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_terrahorn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_terrahorn",
       "texture": "cobblemon:textures/pokemon/norheim/terrahorn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/terrahorn_shiny.png"
-    }  ]
+    }
+  ]
 }

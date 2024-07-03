@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:meloetta",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltameloetta.geo",
+      "poser": "cobblemon:generation5_deltameloetta",
+      "texture": "cobblemon:textures/pokemon/generation5/deltameloetta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltameloetta.geo",
+      "poser": "cobblemon:generation5_deltameloetta",
+      "texture": "cobblemon:textures/pokemon/generation5/deltameloetta_shiny.png",
+      "layers": []
+    }
+  ]
+}

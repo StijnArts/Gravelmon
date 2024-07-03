@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_bidengel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_bidengel",
       "texture": "cobblemon:textures/pokemon/midamis/bidengel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/bidengel_shiny.png"
-    }  ]
+    }
+  ]
 }

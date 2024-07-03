@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class WhirlyCastform extends Pokemon {
-    public WhirlyCastform(int dexNo) {
-        super(dexNo,"WhirlyCastform",
+    public WhirlyCastform(String name, Aspect aspect) {
+        super(name, aspect,"WhirlyCastform",
                 Type.STEEL,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

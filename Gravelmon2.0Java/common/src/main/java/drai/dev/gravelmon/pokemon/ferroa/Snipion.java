@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.ferroa;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Snipion extends drai.dev.gravelmon.pokemon.Pokemon {

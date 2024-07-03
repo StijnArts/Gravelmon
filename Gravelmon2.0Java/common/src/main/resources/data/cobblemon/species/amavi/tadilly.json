@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tadilly",
-  "nationalPokedexNumber": 3013,
+  "nationalPokedexNumber": 5605,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -51,7 +51,7 @@
     "1:absorb",
     "3:bubble",
     "7:growth",
-    "10:singsound",
+    "10:sing",
     "12:watergun",
     "15:megadrain",
     "20:bubblebeam",

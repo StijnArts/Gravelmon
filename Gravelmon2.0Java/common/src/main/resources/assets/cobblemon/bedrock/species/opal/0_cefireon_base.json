@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_cefireon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_cefireon",
       "texture": "cobblemon:textures/pokemon/opal/cefireon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/cefireon_shiny.png"
-    }  ]
+    }
+  ]
 }

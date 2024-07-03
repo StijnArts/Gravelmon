@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class GengarX extends Pokemon {
-    public GengarX(int dexNo) {
-        super(dexNo,"GengarX",
+    public GengarX(String name, Aspect aspect) {
+        super(name, aspect,"GengarX",
                 Type.DRAGON, Type.PSYCHIC,
                 new Stats(80, 70, 80, 130, 85, 55),
                 List.of(Ability.OBLIVIOUS, Ability.MOLD_BREAKER), Ability.ANGER_POINT,

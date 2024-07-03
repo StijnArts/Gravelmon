@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianHaunter extends Pokemon {
-    public KaskadianHaunter(int dexNo) {
-        super(dexNo,"KaskadianHaunter",
+    public KaskadianHaunter(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianHaunter",
                 Type.GHOST, Type.WATER,
                 new Stats(45, 50, 60, 95, 40, 115),
                 List.of(Ability.LEVITATE, Ability.WARP_MIST), Ability.CARBON_CAPTURE,

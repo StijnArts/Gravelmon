@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_puriphin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_puriphin",
       "texture": "cobblemon:textures/pokemon/novrai/puriphin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/puriphin_shiny.png"
-    }  ]
+    }
+  ]
 }

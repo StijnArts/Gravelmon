@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_neskoo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_neskoo",
       "texture": "cobblemon:textures/pokemon/isiah/neskoo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/neskoo_shiny.png"
-    }  ]
+    }
+  ]
 }

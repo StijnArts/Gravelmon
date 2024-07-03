@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_rosinella",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_rosinella",
       "texture": "cobblemon:textures/pokemon/nosto/rosinella.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/rosinella_shiny.png"
-    }  ]
+    }
+  ]
 }

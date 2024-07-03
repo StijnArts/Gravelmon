@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_caltarcite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_caltarcite",
       "texture": "cobblemon:textures/pokemon/lonava/caltarcite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/caltarcite_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "thorlock",
+  "nationalPokedexNumber": 5509,
+  "primaryType": "ground",
+  "abilities": [
+    "roughskin",
+    "defiant",
+    "h:sandrush"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 35,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "moves": [
+    "1:scratch",
+    "3:sandattack",
+    "8:furyswipes",
+    "13:sandtomb",
+    "17:screech",
+    "21:dig",
+    "24:camouflage",
+    "28:sandstorm",
+    "32:crunch",
+    "41:honeclaws",
+    "47:earthquake",
+    "52:spikes",
+    "58:fissure",
+    "tm:suckerpunch",
+    "tm:pursuit",
+    "tm:nightslash",
+    "tm:agility",
+    "tm:outrage",
+    "tm:magnitude"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.thorlock.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "thorlock_sandevil",
+      "variant": "level_up",
+      "result": "sandevil",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

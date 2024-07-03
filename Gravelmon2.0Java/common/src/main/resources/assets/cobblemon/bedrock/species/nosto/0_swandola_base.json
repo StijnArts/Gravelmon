@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_swandola",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_swandola",
       "texture": "cobblemon:textures/pokemon/nosto/swandola.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/swandola_shiny.png"
-    }  ]
+    }
+  ]
 }

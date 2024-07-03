@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_nemosis",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_nemosis",
       "texture": "cobblemon:textures/pokemon/novrai/nemosis.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/nemosis_shiny.png"
-    }  ]
+    }
+  ]
 }

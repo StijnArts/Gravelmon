@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "vespark",
+  "nationalPokedexNumber": 1754,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "abilities": [
+    "infiltrator",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 45,
+    "special_defence": 40,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 57,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "tm:bugbite",
+    "tm:electroweb",
+    "tm:shockwave",
+    "tm:snatch",
+    "tm:snore",
+    "tm:irontail",
+    "tm:magnetrise",
+    "tm:signalbeam",
+    "tm:drillrun",
+    "tm:laserfocus",
+    "tm:painsplit",
+    "tm:tailwind",
+    "tm:risingvoltage",
+    "tm:dualwingbeat",
+    "tm:lunge",
+    "tm:psychicnoise"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vespark.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "vespark_volthroe",
+      "variant": "level_up",
+      "result": "volthroe",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

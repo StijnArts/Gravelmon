@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "teekaboo",
-  "nationalPokedexNumber": 2487,
+  "nationalPokedexNumber": 4382,
   "primaryType": "ghost",
   "abilities": [
     "keeneye",
@@ -48,7 +48,7 @@
   ],
   "moves": [
     "1:knockoff",
-    "1:screechsound",
+    "1:screech",
     "1:nightshade",
     "1:curse",
     "5:nightshade",

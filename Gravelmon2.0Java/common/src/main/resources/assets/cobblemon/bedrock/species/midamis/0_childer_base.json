@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_childer",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_childer",
       "texture": "cobblemon:textures/pokemon/midamis/childer.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/childer_shiny.png"
-    }  ]
+    }
+  ]
 }

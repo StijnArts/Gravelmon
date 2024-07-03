@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaElekid extends Pokemon {
-    public DeltaElekid(int dexNo) {
-        super(dexNo,"DeltaElekid",
+    public DeltaElekid(String name, Aspect aspect) {
+        super(name, aspect,"DeltaElekid",
                 Type.ROCK,
                 new Stats(45, 63,37,65,55,95),
                 List.of(Ability.INNER_FOCUS), Ability.BATTLE_ARMOR,

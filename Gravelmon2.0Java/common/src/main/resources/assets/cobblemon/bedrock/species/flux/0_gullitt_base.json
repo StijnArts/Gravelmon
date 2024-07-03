@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_gullitt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_gullitt",
       "texture": "cobblemon:textures/pokemon/flux/gullitt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/gullitt_shiny.png"
-    }  ]
+    }
+  ]
 }

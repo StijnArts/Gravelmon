@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "excalibould",
-  "nationalPokedexNumber": 1531,
+  "nationalPokedexNumber": 2128,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -79,7 +79,7 @@
     "tm:sandstorm",
     "tm:rocktomb",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:falseswipe",
     "tm:payback",
     "tm:rockpolish",
@@ -92,7 +92,7 @@
     "egg:rockblast",
     "egg:curse",
     "egg:ancientpower",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:doubleedge",
     "tutor:secretpower"  ],
   "labels": [

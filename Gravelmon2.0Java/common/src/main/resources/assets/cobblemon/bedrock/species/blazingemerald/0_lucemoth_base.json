@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:blazingemerald_lucemoth",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_lucemoth",
       "texture": "cobblemon:textures/pokemon/blazingemerald/lucemoth.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/blazingemerald/lucemoth_shiny.png"
-    }  ]
+    }
+  ]
 }

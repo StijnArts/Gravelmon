@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_stalagang",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_stalagang",
       "texture": "cobblemon:textures/pokemon/atlas/stalagang.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/stalagang_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_ballistyke",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_ballistyke",
       "texture": "cobblemon:textures/pokemon/novrai/ballistyke.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/ballistyke_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_glumbrella",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_glumbrella",
       "texture": "cobblemon:textures/pokemon/novrai/glumbrella.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/glumbrella_shiny.png"
-    }  ]
+    }
+  ]
 }

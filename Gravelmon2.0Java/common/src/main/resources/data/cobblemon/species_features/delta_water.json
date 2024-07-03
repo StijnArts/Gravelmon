@@ -1,0 +1,6 @@
+{
+    "keys": [ "delta_water" ],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

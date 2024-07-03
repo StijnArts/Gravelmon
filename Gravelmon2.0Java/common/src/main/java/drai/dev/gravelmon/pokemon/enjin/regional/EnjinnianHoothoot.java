@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.enjin.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianHoothoot extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianHoothoot(int dex) {
-        super(dex, "Hoothoot",
+    public EnjinnianHoothoot(String name, Aspect aspect) {
+        super(name, aspect, "Hoothoot",
                 Type.PSYCHIC,
                 new Stats(60,
                         30,

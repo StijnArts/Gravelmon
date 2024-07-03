@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_arbird",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_arbird",
       "texture": "cobblemon:textures/pokemon/infinity/arbird.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/arbird_shiny.png"
-    }  ]
+    }
+  ]
 }

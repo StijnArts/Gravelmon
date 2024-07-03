@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_tessensei",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_tessensei",
       "texture": "cobblemon:textures/pokemon/isiah/tessensei.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/tessensei_shiny.png"
-    }  ]
+    }
+  ]
 }

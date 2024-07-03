@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_whirm",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_whirm",
       "texture": "cobblemon:textures/pokemon/interregional/whirm.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/whirm_shiny.png"
-    }  ]
+    }
+  ]
 }

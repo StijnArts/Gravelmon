@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scovile",
-  "nationalPokedexNumber": 1530,
+  "nationalPokedexNumber": 2126,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -87,9 +87,9 @@
   "preEvolution": "pepequeno",
   "evolutions": [
     {
-      "id": "scovile_scovilex",
+      "id": "scovile_scovile_x",
       "variant": "item_interact",
-      "result": "scovilex",
+      "result": "scovile x",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

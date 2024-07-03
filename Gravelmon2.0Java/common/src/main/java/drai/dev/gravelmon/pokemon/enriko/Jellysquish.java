@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.enriko;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Jellysquish extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -24,7 +25,7 @@ public class Jellysquish extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("The bell and its tentacles are two separate organisms. Its bell keeps it floating on the surface of the water as the tentacles consume food particles below."),
                 List.of(new EvolutionEntry("phonowar", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,7),

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_tubareel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_tubareel",
       "texture": "cobblemon:textures/pokemon/uranium/tubareel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/tubareel_shiny.png"
-    }  ]
+    }
+  ]
 }

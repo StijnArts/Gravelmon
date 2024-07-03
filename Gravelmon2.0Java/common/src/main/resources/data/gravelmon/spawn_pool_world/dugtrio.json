@@ -1,0 +1,95 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nostandugtrio-1",
+      "pokemon": "dugtrio nostan",
+      "presets": [
+          "near_crops"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "26-43",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "norheimandugtrio-1",
+      "pokemon": "dugtrio norheiman",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "26-46",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltadugtrio-1",
+      "pokemon": "dugtrio delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-45",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_forest" ]    }
+    }
+,
+    {
+      "id": "ayreiandugtrio-1",
+      "pokemon": "dugtrio ayreian",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "26-39",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_forest" ]    }
+    }
+,
+    {
+      "id": "cefirandugtrio-1",
+      "pokemon": "dugtrio cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-45",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ]
+      }
+    }
+
+]
+}

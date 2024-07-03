@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_maskape",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_maskape",
       "texture": "cobblemon:textures/pokemon/isiah/maskape.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/maskape_shiny.png"
-    }  ]
+    }
+  ]
 }

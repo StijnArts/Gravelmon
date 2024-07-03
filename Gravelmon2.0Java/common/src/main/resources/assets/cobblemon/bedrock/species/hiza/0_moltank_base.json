@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_moltank",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_moltank",
       "texture": "cobblemon:textures/pokemon/hiza/moltank.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/moltank_shiny.png"
-    }  ]
+    }
+  ]
 }

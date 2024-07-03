@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.ferroa;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Gavile extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -24,7 +25,7 @@ public class Gavile extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Gavile's skin is as dark as a shadow, so during the night it becomes virtually invisible. Shine a light on it, however, and it will scramble away in a panic."),
                 List.of(new EvolutionEntry("chirocodile", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CAMOUFLAGE,1),
                         new MoveLearnSetEntry(Move.ASTONISH,5),

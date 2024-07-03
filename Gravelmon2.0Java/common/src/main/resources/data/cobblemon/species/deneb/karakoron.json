@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "karakoron",
-  "nationalPokedexNumber": 2986,
+  "nationalPokedexNumber": 4973,
   "primaryType": "psychic",
   "abilities": [
     "levitate",
@@ -59,10 +59,10 @@
     "16:hypnopulse",
     "19:takedown",
     "22:extrasensory",
-    "27:healbellsound",
+    "27:healbell",
     "32:uproar",
     "37:safeguard",
-    "42:hypervoicesound",
+    "42:hypervoice",
     "47:healpulse",
     "52:synchronoise",
     "57:wish",
@@ -73,7 +73,7 @@
     "tm:recycle",
     "tm:flash",
     "tutor:bind",
-    "tutor:singsound",
+    "tutor:sing",
     "tutor:confide",
     "tutor:storedpower",
     "tutor:endure",
@@ -81,7 +81,7 @@
     "tutor:skillswap",
     "tutor:zenheadbutt",
     "tutor:futuresight",
-    "tutor:boomburstsound"  ],
+    "tutor:boomburst"  ],
   "labels": [
     "deneb",
     "not_modeled"

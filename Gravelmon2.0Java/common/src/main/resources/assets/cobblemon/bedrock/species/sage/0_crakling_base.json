@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_crakling",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_crakling",
       "texture": "cobblemon:textures/pokemon/sage/crakling.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/crakling_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_slinkee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_slinkee",
       "texture": "cobblemon:textures/pokemon/myth/slinkee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/slinkee_shiny.png"
-    }  ]
+    }
+  ]
 }

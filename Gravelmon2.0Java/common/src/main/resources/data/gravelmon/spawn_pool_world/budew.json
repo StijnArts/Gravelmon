@@ -1,0 +1,74 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltabudew-1",
+      "pokemon": "budew delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "2-18",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
+      "id": "budewx-1",
+      "pokemon": "budew x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "4-17",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "ayreianbudew-1",
+      "pokemon": "budew ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-28",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "relicbudew-1",
+      "pokemon": "budew relic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-28",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_floral" ]    }
+    }
+
+]
+}

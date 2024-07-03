@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_pinchor",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_pinchor",
       "texture": "cobblemon:textures/pokemon/deneb/pinchor.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/pinchor_shiny.png"
-    }  ]
+    }
+  ]
 }

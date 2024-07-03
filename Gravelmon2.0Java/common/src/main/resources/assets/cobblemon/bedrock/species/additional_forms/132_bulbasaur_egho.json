@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:bulbasaur",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:generation1_eghobulbasaur.geo",
+      "poser": "cobblemon:generation1_eghobulbasaur",
+      "texture": "cobblemon:textures/pokemon/generation1/eghobulbasaur/eghobulbasaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_eghobulbasaur.geo",
+      "poser": "cobblemon:generation1_eghobulbasaur",
+      "texture": "cobblemon:textures/pokemon/generation1/eghobulbasaur/eghobulbasaur_shiny.png",
+      "layers": []
+    }
+  ]
+}

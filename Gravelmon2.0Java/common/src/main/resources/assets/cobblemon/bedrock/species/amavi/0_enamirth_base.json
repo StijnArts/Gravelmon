@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_enamirth",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_enamirth",
       "texture": "cobblemon:textures/pokemon/amavi/enamirth.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/enamirth_shiny.png"
-    }  ]
+    }
+  ]
 }

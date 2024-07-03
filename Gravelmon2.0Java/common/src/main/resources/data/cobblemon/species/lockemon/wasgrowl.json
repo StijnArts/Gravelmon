@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wasgrowl",
-  "nationalPokedexNumber": 1949,
+  "nationalPokedexNumber": 3512,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -61,7 +61,7 @@
     "39:aquatail",
     "44:mist",
     "50:hydropump",
-    "egg:boomburstsound",
+    "egg:boomburst",
     "egg:bounce",
     "egg:counter",
     "egg:haze",

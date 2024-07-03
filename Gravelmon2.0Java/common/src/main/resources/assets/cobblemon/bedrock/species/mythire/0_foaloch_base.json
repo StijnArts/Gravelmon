@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_foaloch",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_foaloch",
       "texture": "cobblemon:textures/pokemon/mythire/foaloch.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/foaloch_shiny.png"
-    }  ]
+    }
+  ]
 }

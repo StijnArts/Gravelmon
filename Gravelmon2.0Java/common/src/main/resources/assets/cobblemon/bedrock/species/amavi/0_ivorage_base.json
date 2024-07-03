@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_ivorage",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_ivorage",
       "texture": "cobblemon:textures/pokemon/amavi/ivorage.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/ivorage_shiny.png"
-    }  ]
+    }
+  ]
 }

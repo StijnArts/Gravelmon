@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class HaunterX extends Pokemon {
-    public HaunterX(int dexNo) {
-        super(dexNo,"HaunterX",
+    public HaunterX(String name, Aspect aspect) {
+        super(name, aspect,"HaunterX",
                 Type.DRAGON,
                 new Stats(45, 55, 70, 115, 75, 45),
                 List.of(Ability.OBLIVIOUS, Ability.MOLD_BREAKER), Ability.STURDY,

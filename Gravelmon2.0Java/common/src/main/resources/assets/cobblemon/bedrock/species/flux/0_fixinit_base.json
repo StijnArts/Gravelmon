@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_fixinit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_fixinit",
       "texture": "cobblemon:textures/pokemon/flux/fixinit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/fixinit_shiny.png"
-    }  ]
+    }
+  ]
 }

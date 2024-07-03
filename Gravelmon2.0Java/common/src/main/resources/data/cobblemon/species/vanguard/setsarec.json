@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setsarec",
-  "nationalPokedexNumber": 2211,
+  "nationalPokedexNumber": 4106,
   "primaryType": "poison",
   "secondaryType": "rock",
   "abilities": [
@@ -50,14 +50,14 @@
   ],
   "moves": [
     "1:earthpower",
-    "1:powergemcrystal",
+    "1:powergem",
     "1:stealthrock",
     "1:wrap",
     "1:leer",
     "4:poisontail",
     "9:bite",
     "12:glare",
-    "17:screechsound",
+    "17:screech",
     "20:poisonfang",
     "24:stockpile",
     "27:crosspoison",
@@ -102,13 +102,13 @@
     "tutor:return",
     "tutor:rockslide",
     "tutor:rocktomb",
-    "tutor:roundsound",
+    "tutor:round",
     "tutor:seedbomb",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:sludgebomb",
     "tutor:sludgewave",
     "tutor:snatch",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:spite",
     "tutor:stompingtantrum",
     "tutor:strength",
@@ -129,7 +129,7 @@
   "pokedex": [
     "cobblemon.species.setsarec.desc"
   ],
-  "preEvolution": "Arbok",
+  "preEvolution": "arbok",
   "baseScale": 0.625,
   "hitbox": {
     "width": 6.0,

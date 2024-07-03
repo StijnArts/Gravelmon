@@ -1,13 +1,18 @@
 package drai.dev.gravelmon.pokemon.daybreak.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
+import java.util.*;
+
 import java.util.*;
 
 public class ArmiranTyranitar extends Pokemon {
-    public ArmiranTyranitar(int dexNo) {
-        super(dexNo,"ArmiranTyranitar",
+    public ArmiranTyranitar(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranTyranitar",
                 Type.FIRE, Type.ROCK,
                 new Stats(100, 95, 110, 125, 100, 70),
                 List.of(Ability.DROUGHT), Ability.DROUGHT,
@@ -117,7 +122,7 @@ public class ArmiranTyranitar extends Pokemon {
                 List.of(Label.GEN2,Label.DAYBREAK),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 51, 67, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
@@ -126,5 +131,9 @@ public class ArmiranTyranitar extends Pokemon {
         this.setLangFileName("Tyranitar");
         this.setPortraitXYZ(0,1.8,0);
         setPreEvolution("Pupitar");
+        addAdditionalEvolution("pupitar", new EvolutionEntry("tyranitar armiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ERUPTION.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("pupitar", new MoveLearnSetEntry(Move.ERUPTION,"48"));
     }
 }

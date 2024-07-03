@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_petafleur",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_petafleur",
       "texture": "cobblemon:textures/pokemon/midamis/petafleur.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/petafleur_shiny.png"
-    }  ]
+    }
+  ]
 }

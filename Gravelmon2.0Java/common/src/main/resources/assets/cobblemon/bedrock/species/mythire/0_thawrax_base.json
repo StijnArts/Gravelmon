@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_thawrax",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_thawrax",
       "texture": "cobblemon:textures/pokemon/mythire/thawrax.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/thawrax_shiny.png"
-    }  ]
+    }
+  ]
 }

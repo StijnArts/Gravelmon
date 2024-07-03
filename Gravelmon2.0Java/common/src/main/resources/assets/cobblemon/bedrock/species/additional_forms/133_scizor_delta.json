@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:scizor",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltascizor.geo",
+      "poser": "cobblemon:generation2_deltascizor",
+      "texture": "cobblemon:textures/pokemon/generation2/deltascizor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltascizor.geo",
+      "poser": "cobblemon:generation2_deltascizor",
+      "texture": "cobblemon:textures/pokemon/generation2/deltascizor_shiny.png",
+      "layers": []
+    }
+  ]
+}

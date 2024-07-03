@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EldiwanMeowth extends Pokemon {
-    public EldiwanMeowth(int dexNo) {
-        super(dexNo,"EldiwanMeowth",
+    public EldiwanMeowth(String name, Aspect aspect) {
+        super(name, aspect,"EldiwanMeowth",
                 Type.PSYCHIC,
                 new Stats(50, 40, 40, 65, 55, 40),
                 List.of(Ability.PICKUP, Ability.ANTICIPATION), Ability.WONDER_SKIN,

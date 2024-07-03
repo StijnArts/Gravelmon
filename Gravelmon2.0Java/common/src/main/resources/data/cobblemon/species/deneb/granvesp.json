@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "granvesp",
-  "nationalPokedexNumber": 2974,
+  "nationalPokedexNumber": 4961,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -48,6 +48,16 @@
     "field",
     "fairy"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:bugbite",
     "1:confuseray",
@@ -62,7 +72,7 @@
     "20:swagger",
     "24:roost",
     "28:airslash",
-    "32:powergemcrystal",
+    "32:powergem",
     "36:toxic",
     "40:attackorder",
     "40:defendorder",
@@ -79,7 +89,7 @@
     "tm:facade",
     "tm:aerialace",
     "tm:hex",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:fling",
     "tm:venoshock",
     "tm:endure",
@@ -87,12 +97,12 @@
     "tm:raindance",
     "tm:uturn",
     "tm:airslash",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:rest",
     "tm:taunt",
     "tm:spikes",
     "tm:toxicspikes",
-    "tm:powergemcrystal",
+    "tm:powergem",
     "tm:substitute",
     "tm:xscissor",
     "tm:helpinghand",
@@ -101,7 +111,7 @@
     "tm:sludgebomb",
     "tm:gigaimpact",
     "tm:hurricane",
-    "tm:bugbuzzsound",
+    "tm:bugbuzz",
     "tm:hyperbeam",
     "tm:terablast"  ],
   "labels": [

@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.norheim;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -48,6 +49,9 @@ public class Seascull extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of());
         setCanFly(true);
            setLangFileName("Seascull");
+        addAdditionalEvolution("wingull", new EvolutionEntry("seascull", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
+                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\""))));
 
     }
 

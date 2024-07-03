@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaShiftry extends Pokemon {
-    public DeltaShiftry(int dexNo) {
-        super(dexNo,"DeltaShiftry",
+    public DeltaShiftry(String name, Aspect aspect) {
+        super(name, aspect,"DeltaShiftry",
                 Type.ELECTRIC,
                 new Stats(90, 100, 60, 90, 60, 80),
                 List.of(Ability.VOLT_ABSORB, Ability.MINUS), Ability.HUBRIS,

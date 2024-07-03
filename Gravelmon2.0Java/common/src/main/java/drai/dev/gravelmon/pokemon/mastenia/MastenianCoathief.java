@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.mastenia;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class MastenianCoathief extends drai.dev.gravelmon.pokemon.Pokemon {
-    public MastenianCoathief(int dex) {
-        super(dex, "Coathief",
+    public MastenianCoathief(String name, Aspect aspect) {
+        super(name, aspect, "Coathief",
                 Type.NORMAL,
                 new Stats(0,
                         0,

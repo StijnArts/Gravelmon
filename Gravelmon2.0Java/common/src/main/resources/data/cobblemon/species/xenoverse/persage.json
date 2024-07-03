@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "persage",
-  "nationalPokedexNumber": 1518,
+  "nationalPokedexNumber": 2112,
   "primaryType": "psychic",
   "abilities": [
     "pickup",
@@ -90,8 +90,8 @@
     "tm:facade",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:shadowclaw",
     "tm:payback",
@@ -116,9 +116,9 @@
     "tutor:knockoff",
     "tutor:roleplay",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:snatch",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:trick",
     "tutor:uproar"  ],
   "labels": [
@@ -129,7 +129,7 @@
   "pokedex": [
     "cobblemon.species.persage.desc"
   ],
-  "preEvolution": "eldiwanmeowth",
+  "preEvolution": "meowth form=eldiwan",
   "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,

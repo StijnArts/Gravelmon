@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_cetoacean",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_cetoacean",
       "texture": "cobblemon:textures/pokemon/isiah/cetoacean.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/cetoacean_shiny.png"
-    }  ]
+    }
+  ]
 }

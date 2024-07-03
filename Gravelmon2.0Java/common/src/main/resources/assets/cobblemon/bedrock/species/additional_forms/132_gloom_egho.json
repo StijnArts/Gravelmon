@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gloom",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:generation1_eghogloom.geo",
+      "poser": "cobblemon:generation1_eghogloom",
+      "texture": "cobblemon:textures/pokemon/generation1/eghogloom/eghogloom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_eghogloom.geo",
+      "poser": "cobblemon:generation1_eghogloom",
+      "texture": "cobblemon:textures/pokemon/generation1/eghogloom/eghogloom_shiny.png",
+      "layers": []
+    }
+  ]
+}

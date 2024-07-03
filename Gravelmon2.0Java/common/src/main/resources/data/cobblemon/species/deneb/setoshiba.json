@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setoshiba",
-  "nationalPokedexNumber": 2953,
+  "nationalPokedexNumber": 4940,
   "primaryType": "normal",
   "abilities": [
     "rivalry",
@@ -51,11 +51,11 @@
     "1:leer",
     "4:bite",
     "8:quickattack",
-    "13:howlsound",
+    "13:howl",
     "16:doublekick",
     "20:odorsleuth",
     "25:takedown",
-    "28:roarsound",
+    "28:roar",
     "32:crunch",
     "37:workup",
     "40:superfang",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_corsoreef",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_corsoreef",
       "texture": "cobblemon:textures/pokemon/uranium/corsoreef.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/corsoreef_shiny.png"
-    }  ]
+    }
+  ]
 }

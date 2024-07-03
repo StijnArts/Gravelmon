@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_flantern",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_flantern",
       "texture": "cobblemon:textures/pokemon/okeno/flantern.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/flantern_shiny.png"
-    }  ]
+    }
+  ]
 }

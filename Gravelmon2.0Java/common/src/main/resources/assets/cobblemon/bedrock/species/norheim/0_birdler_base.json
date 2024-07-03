@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_birdler",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_birdler",
       "texture": "cobblemon:textures/pokemon/norheim/birdler.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/birdler_shiny.png"
-    }  ]
+    }
+  ]
 }

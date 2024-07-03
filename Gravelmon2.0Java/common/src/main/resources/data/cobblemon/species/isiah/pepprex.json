@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pepprex",
-  "nationalPokedexNumber": 2450,
+  "nationalPokedexNumber": 4345,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -65,7 +65,7 @@
     "55:heatwave",
     "tm:heatwave",
     "tm:endeavor",
-    "tm:snoresound",
+    "tm:snore",
     "tm:uturn",
     "tm:electroball",
     "tm:fireblast",
@@ -93,8 +93,8 @@
     "tm:naturepower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:poisonjab",

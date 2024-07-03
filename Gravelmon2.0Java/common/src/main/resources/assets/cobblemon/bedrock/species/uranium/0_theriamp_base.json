@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_theriamp",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_theriamp",
       "texture": "cobblemon:textures/pokemon/uranium/theriamp.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/theriamp_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_fortuller",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_fortuller",
       "texture": "cobblemon:textures/pokemon/hiza/fortuller.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/fortuller_shiny.png"
-    }  ]
+    }
+  ]
 }

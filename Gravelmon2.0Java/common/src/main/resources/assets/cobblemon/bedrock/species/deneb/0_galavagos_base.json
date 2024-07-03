@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_galavagos",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_galavagos",
       "texture": "cobblemon:textures/pokemon/deneb/galavagos.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/galavagos_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_athcleat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_athcleat",
       "texture": "cobblemon:textures/pokemon/novrai/athcleat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/athcleat_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_drahoggon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_drahoggon",
       "texture": "cobblemon:textures/pokemon/ionos/drahoggon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/drahoggon_shiny.png"
-    }  ]
+    }
+  ]
 }

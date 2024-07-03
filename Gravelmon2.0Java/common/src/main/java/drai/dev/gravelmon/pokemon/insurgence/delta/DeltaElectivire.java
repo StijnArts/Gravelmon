@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaElectivire extends Pokemon {
-    public DeltaElectivire(int dexNo) {
-        super(dexNo,"DeltaElectivire",
+    public DeltaElectivire(String name, Aspect aspect) {
+        super(name, aspect,"DeltaElectivire",
                 Type.ROCK, Type.DRAGON,
                 new Stats(75, 123,67,95,85,95),
                 List.of(Ability.SHADOW_DANCE), Ability.STURDY,

@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:diglett",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltadiglett.geo",
+      "poser": "cobblemon:generation1_deltadiglett",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadiglett.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltadiglett.geo",
+      "poser": "cobblemon:generation1_deltadiglett",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadiglett_shiny.png",
+      "layers": []
+    }
+  ]
+}

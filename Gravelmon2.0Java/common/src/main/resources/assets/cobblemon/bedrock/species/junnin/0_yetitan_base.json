@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_yetitan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_yetitan",
       "texture": "cobblemon:textures/pokemon/junnin/yetitan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/yetitan_shiny.png"
-    }  ]
+    }
+  ]
 }

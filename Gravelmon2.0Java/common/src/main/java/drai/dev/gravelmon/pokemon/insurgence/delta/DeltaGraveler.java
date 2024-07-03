@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaGraveler extends Pokemon {
-    public DeltaGraveler(int dexNo) {
-        super(dexNo,"DeltaGraveler",
+    public DeltaGraveler(String name, Aspect aspect) {
+        super(name, aspect,"DeltaGraveler",
                 Type.PSYCHIC, Type.ROCK,
                 new Stats(55, 95, 115, 45, 45, 35),
                 List.of(Ability.REGENERATOR,Ability.SAP_SIPPER), Ability.MAGIC_BOUNCE,

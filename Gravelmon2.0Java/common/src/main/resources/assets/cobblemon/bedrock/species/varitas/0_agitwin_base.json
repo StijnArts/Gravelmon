@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_agitwin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_agitwin",
       "texture": "cobblemon:textures/pokemon/varitas/agitwin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/agitwin_shiny.png"
-    }  ]
+    }
+  ]
 }

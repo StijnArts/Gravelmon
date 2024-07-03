@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_torpepo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_torpepo",
       "texture": "cobblemon:textures/pokemon/nosto/torpepo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/torpepo_shiny.png"
-    }  ]
+    }
+  ]
 }

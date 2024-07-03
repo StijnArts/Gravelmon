@@ -25,39 +25,6 @@ public class CreativeTabInit {
 
     @SubscribeEvent
     public static void buildContents(BuildCreativeModeTabContentsEvent event) {
-        PlatformEvents.CLIENT_ITEM_TOOLTIP.subscribe(Priority.LOWEST, itemTooltipEvent -> {
-            var stack = itemTooltipEvent.getStack();
-            var lines = itemTooltipEvent.getLines();
-            var stackDescription = stack.getItem().getDescriptionId();
-            var descriptionsForGravelmonBalls = GravelmonItems.POKE_BALLS.stream().flatMap(item-> Stream.of(item.get().getDescriptionId())).toList();
-            if (descriptionsForGravelmonBalls.contains(stackDescription)) {
-
-
-                if(stack.getTag() != null){
-                    if (!stack.getTag().getBoolean(DataKeys.HIDE_TOOLTIP)) {
-                        return Unit.INSTANCE;
-                    }
-                }
-                var language = Language.getInstance();
-                if(stackDescription.contains("nuzlocke")){
-                    var key1 = baseLangKeyForItem(stack)+1;
-                    var key2 = baseLangKeyForItem(stack)+2;
-                    if (language.has(key1)) {
-                        lines.add(Component.translatable(key1).setStyle(Style.EMPTY.withColor(ChatFormatting.GRAY)));
-                    }
-                    if (language.has(key2)) {
-                        lines.add(Component.translatable(key2).setStyle(Style.EMPTY.withColor(ChatFormatting.DARK_RED)));
-                    }
-                } else {
-                    var key = baseLangKeyForItem(stack);
-                    if (language.has(key)) {
-                        lines.add(Component.translatable(key).setStyle(Style.EMPTY.withColor(ChatFormatting.GRAY)));
-                    }
-                }
-            }
-            return Unit.INSTANCE;
-        });
-
         if(event.getTab() == CobblemonItemGroups.getEVOLUTION_ITEMS()) {
             //evolution stones
             event.getEntries().putAfter(CobblemonItems.ICE_STONE.getDefaultInstance(),
@@ -78,7 +45,6 @@ public class CreativeTabInit {
             event.getEntries().putAfter(CobblemonItems.ICE_STONE.getDefaultInstance(),
                     GravelmonItems.ASTRAL_STONE.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-
             //evolution held items
             event.getEntries().putAfter(CobblemonItems.DUBIOUS_DISC.getDefaultInstance(),
                     GravelmonItems.WES_UPDATE.get().getDefaultInstance(),
@@ -307,13 +273,5 @@ public class CreativeTabInit {
                     GravelmonItems.ANCIENT_MAUVE_BALL.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
-    }
-
-    private static String baseLangKeyForItem(ItemStack stack) {
-        if (stack.getItem() instanceof PokeBallItem) {
-            var asPokeball = (PokeBallItem)stack.getItem();
-            return "item.gravelmon."+asPokeball.getPokeBall().getName().getPath()+".tooltip";
-        }
-        return ".tooltip";
     }
 }

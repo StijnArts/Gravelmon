@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "strawna",
-  "nationalPokedexNumber": 2751,
+  "nationalPokedexNumber": 4738,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -112,7 +112,7 @@
     "egg:seismictoss",
     "egg:sunnyday",
     "egg:sweetscent",
-    "egg:swiftcosmic"  ],
+    "egg:swift"  ],
   "labels": [
     "deneb",
     "not_modeled",

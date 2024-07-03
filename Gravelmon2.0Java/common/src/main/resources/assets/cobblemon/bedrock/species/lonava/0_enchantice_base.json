@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_enchantice",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_enchantice",
       "texture": "cobblemon:textures/pokemon/lonava/enchantice.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/enchantice_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -15,7 +15,7 @@
       "level": "7-28",
       "weight": 5.5,
       "condition": {
-"biomes": [ "#cobblemon:is_ocean" ]
+"biomes": [ "#minecraft:is_ocean" ]
       }
     }
   ]

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianExcadrill extends Pokemon {
-    public KaskadianExcadrill(int dexNo) {
-        super(dexNo,"KaskadianExcadrill",
+    public KaskadianExcadrill(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianExcadrill",
                 Type.GROUND, Type.FAIRY,
                 new Stats(110,50,65,135,60,88),
                 List.of(Ability.CHAKRA, Ability.INCANTATION), Ability.SAND_RUSH,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_ribbidi",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_ribbidi",
       "texture": "cobblemon:textures/pokemon/amavi/ribbidi.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/ribbidi_shiny.png"
-    }  ]
+    }
+  ]
 }

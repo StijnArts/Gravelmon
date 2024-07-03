@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drocopter",
-  "nationalPokedexNumber": 1377,
+  "nationalPokedexNumber": 1378,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
@@ -65,7 +65,7 @@
     "tm:throatchop",
     "tm:gunkshot",
     "tm:explosion",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:hyperbeam",
     "tm:gigaimpact",
     "tm:return",
@@ -91,7 +91,7 @@
     "tm:swagger",
     "tm:doubleteam",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_albagross",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_albagross",
       "texture": "cobblemon:textures/pokemon/okeno/albagross.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/albagross_shiny.png"
-    }  ]
+    }
+  ]
 }

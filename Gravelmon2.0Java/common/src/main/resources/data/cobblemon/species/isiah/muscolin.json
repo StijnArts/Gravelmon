@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "muscolin",
-  "nationalPokedexNumber": 2416,
+  "nationalPokedexNumber": 4311,
   "primaryType": "fighting",
   "abilities": [
     "vitalspirit",
@@ -78,8 +78,8 @@
     "tm:rest",
     "tm:return",
     "tm:rockslide",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:smackdown",
     "tm:substitute",
     "tm:swagger",

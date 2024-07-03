@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_carnibble",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_carnibble",
       "texture": "cobblemon:textures/pokemon/atlas/carnibble.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/carnibble_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_madara",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_madara",
       "texture": "cobblemon:textures/pokemon/deneb/madara.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/madara_shiny.png"
-    }  ]
+    }
+  ]
 }

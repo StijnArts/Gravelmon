@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dauvall",
-  "nationalPokedexNumber": 2676,
+  "nationalPokedexNumber": 4571,
   "primaryType": "dark",
   "abilities": [
     "prankster",
@@ -64,7 +64,7 @@
     "42:grasswhistle",
     "45:sandstorm",
     "50:aquaring",
-    "53:gravitycosmic"  ],
+    "53:gravity"  ],
   "labels": [
     "midamis",
     "not_modeled"
