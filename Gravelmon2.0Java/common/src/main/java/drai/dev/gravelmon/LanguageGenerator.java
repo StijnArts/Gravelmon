@@ -48,9 +48,9 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.ayreijohto","Ayrei - Johto");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.eghojohto","Egho - Johto");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.torren","Torren");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.post_catastrophe","Hoenn - Post Catastrophe");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.postcatastrophe","Hoenn - Post Catastrophe");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.zakos","Zakos");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.the_eternal_forest","Eternal Forest");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.theeternalforest","Eternal Forest");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.altera","Altera");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.egho","Egho");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.kaskade","Kaskade");
