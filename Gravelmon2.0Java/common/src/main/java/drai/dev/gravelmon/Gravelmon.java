@@ -1,5 +1,6 @@
 package drai.dev.gravelmon;
 
+import com.cobblemon.mod.common.config.starter.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.registries.*;
 import drai.dev.gravelsextendedbattles.*;
@@ -17,7 +18,7 @@ public class Gravelmon
 	}
 
 	private static void gravelmonStarterInjections() {
-
+		GravelmonStarters.injectStarters();
 	}
 
 	private static void gravelmonFormEvolutions() {
