@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianPalossand extends Pokemon {
-    public KaskadianPalossand(int dexNo) {
-        super(dexNo,"KaskadianPalossand",
+    public KaskadianPalossand(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianPalossand",
                 Type.GHOST, Type.ROCK,
                 new Stats(60, 63, 182, 43, 122, 25),
                 List.of(Ability.SOLID_ROCK, Ability.SOUL_DRAIN), Ability.SAND_RUSH,
@@ -91,5 +92,8 @@ public class KaskadianPalossand extends Pokemon {
                 List.of());
         this.setLangFileName("Palossand");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("sandygast", new EvolutionEntry("palossand kaskadian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_HIGHLANDS.getId() + ":" + Biome.IS_HIGHLANDS.getName() +"\""))));
     }
 }

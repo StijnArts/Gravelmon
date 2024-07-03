@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_fettlekish",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_fettlekish",
       "texture": "cobblemon:textures/pokemon/sage/fettlekish.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/fettlekish_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.opalo;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Cefireon extends Pokemon {
@@ -47,6 +48,7 @@ public class Cefireon extends Pokemon {
                 List.of(SpawnPreset.VILLAGE),
                 0.24, 0.3,
                 List.of());
-        this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("cefireon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:air_stone"));
     }
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_glaborehol",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_glaborehol",
       "texture": "cobblemon:textures/pokemon/novrai/glaborehol.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/glaborehol_shiny.png"
-    }  ]
+    }
+  ]
 }

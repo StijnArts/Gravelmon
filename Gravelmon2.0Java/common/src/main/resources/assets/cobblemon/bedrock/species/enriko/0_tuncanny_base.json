@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_tuncanny",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_tuncanny",
       "texture": "cobblemon:textures/pokemon/enriko/tuncanny.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/tuncanny_shiny.png"
-    }  ]
+    }
+  ]
 }

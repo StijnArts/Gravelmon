@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_balloonga",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_balloonga",
       "texture": "cobblemon:textures/pokemon/lonava/balloonga.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/balloonga_shiny.png"
-    }  ]
+    }
+  ]
 }

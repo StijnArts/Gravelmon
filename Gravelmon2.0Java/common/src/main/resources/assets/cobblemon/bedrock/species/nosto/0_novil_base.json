@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_novil",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_novil",
       "texture": "cobblemon:textures/pokemon/nosto/novil.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/novil_shiny.png"
-    }  ]
+    }
+  ]
 }

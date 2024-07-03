@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_slymander",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_slymander",
       "texture": "cobblemon:textures/pokemon/atlas/slymander.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/slymander_shiny.png"
-    }  ]
+    }
+  ]
 }

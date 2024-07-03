@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_siamouth",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_siamouth",
       "texture": "cobblemon:textures/pokemon/rica/siamouth.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/siamouth_shiny.png"
-    }  ]
+    }
+  ]
 }

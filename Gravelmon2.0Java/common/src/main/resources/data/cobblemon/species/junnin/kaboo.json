@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kaboo",
-  "nationalPokedexNumber": 1838,
+  "nationalPokedexNumber": 2887,
   "primaryType": "steel",
   "abilities": [
     "aftermath",
@@ -48,7 +48,7 @@
   ],
   "moves": [
     "1:workup",
-    "tm:snoresound",
+    "tm:snore",
     "tm:steelroller",
     "tm:chargebeam",
     "tm:doubleteam",
@@ -61,10 +61,10 @@
     "tm:hyperbeam",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:safeguard",
     "tm:secretpower",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

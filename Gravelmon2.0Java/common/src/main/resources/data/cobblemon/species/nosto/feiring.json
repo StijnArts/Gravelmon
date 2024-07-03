@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "feiring",
-  "nationalPokedexNumber": 2090,
+  "nationalPokedexNumber": 3653,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -54,12 +54,12 @@
     "5:luckychant",
     "9:psywave",
     "11:helpinghand",
-    "15:disarmingvoicesound",
+    "15:disarmingvoice",
     "19:flash",
     "24:mirrorshot",
     "27:irondefense",
     "31:bodypress",
-    "35:healbellsound",
+    "35:healbell",
     "38:dazzlinggleam",
     "42:flashcannon"  ],
   "labels": [

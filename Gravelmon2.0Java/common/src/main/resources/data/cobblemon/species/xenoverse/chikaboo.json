@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chikaboo",
-  "nationalPokedexNumber": 1547,
+  "nationalPokedexNumber": 2144,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -76,7 +76,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:falseswipe",
     "tm:fling",
     "tm:acrobatics",
@@ -98,9 +98,9 @@
     "tutor:hurricane",
     "tutor:knockoff",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:snatch",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock"  ],
   "labels": [
     "xenoverse",
@@ -111,7 +111,7 @@
   ],
   "evolutions": [
     {
-      "id": "chikaboo_Peckabone",
+      "id": "chikaboo_peckabone",
       "variant": "level_up",
       "result": "Peckabone",
       "consumeHeldItem": false,

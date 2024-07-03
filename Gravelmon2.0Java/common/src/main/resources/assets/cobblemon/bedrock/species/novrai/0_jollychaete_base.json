@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_jollychaete",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_jollychaete",
       "texture": "cobblemon:textures/pokemon/novrai/jollychaete.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/jollychaete_shiny.png"
-    }  ]
+    }
+  ]
 }

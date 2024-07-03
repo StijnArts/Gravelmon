@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bubbweed",
-  "nationalPokedexNumber": 1329,
+  "nationalPokedexNumber": 1330,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -76,7 +76,7 @@
     "tm:foulplay",
     "tm:knockoff",
     "tm:allyswitch",
-    "tm:healbellsound",
+    "tm:healbell",
     "tm:toxic",
     "tm:doubleteam",
     "tm:rest",
@@ -84,7 +84,7 @@
     "tm:protect",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",

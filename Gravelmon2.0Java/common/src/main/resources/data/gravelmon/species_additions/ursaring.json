@@ -1,0 +1,389 @@
+{
+   "target": "cobblemon:ursaring",
+   "forms": [{
+  "name": "Hoennian",
+  "primaryType": "normal",
+  "secondaryType": "fire",
+  "abilities": [
+    "toughclaws",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 120,
+    "defence": 90,
+    "special_attack": 55,
+    "special_defence": 85,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "1:ember",
+    "1:lick",
+    "7:furyswipes",
+    "13:meanlook",
+    "19:thrash",
+    "25:quickattack",
+    "30:flamewheel",
+    "37:slash",
+    "43:flareblitz",
+    "49:wildroar",
+    "tm:roar",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:willowisp",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:shimmershot",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:overheat",
+    "tm:cut",
+    "tm:strength",
+    "tm:rocksmash",
+    "egg:crunch",
+    "egg:takedown",
+    "egg:seismictoss"  ],
+  "labels": [
+    "gen2",
+    "blazing_emerald",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianursaring.desc"
+  ],
+  "preEvolution": "teddiursa form=hoennian",
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.8,
+    "height": 1.8,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 1258,
+  "aspects": ["hoennian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Seviian",
+  "primaryType": "ghost",
+  "secondaryType": "fighting",
+  "abilities": [
+    "guts",
+    "quickfeet",
+    "h:cursedbody"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 110,
+    "defence": 90,
+    "special_attack": 55,
+    "special_defence": 90,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:brickbreak",
+    "1:curse",
+    "1:detect",
+    "1:faketears",
+    "1:hammerarm",
+    "1:lick",
+    "1:scratch",
+    "8:shadowsneak",
+    "15:hex",
+    "22:phantomforce",
+    "25:slash",
+    "31:shadowpunch",
+    "36:scaryface",
+    "41:willowisp",
+    "48:drainpunch",
+    "53:counter",
+    "58:destinybond",
+    "62:closecombat",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thief",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:aurasphere",
+    "tutor:closecombat",
+    "tutor:firepunch",
+    "tutor:foulplay",
+    "tutor:hex",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:painsplit",
+    "tutor:phantomforce",
+    "tutor:playrough",
+    "tutor:thunderpunch",
+    "egg:bellydrum",
+    "egg:chipaway",
+    "egg:closecombat",
+    "egg:counter",
+    "egg:crosschop",
+    "egg:doubleedge",
+    "egg:faketears",
+    "egg:metalclaw",
+    "egg:nightslash",
+    "egg:playrough",
+    "egg:seismictoss",
+    "egg:shadowclaw",
+    "egg:sleeptalk",
+    "egg:takedown",
+    "egg:yawn"  ],
+  "labels": [
+    "radicalred",
+    "gen2",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.seviianursaring.desc"
+  ],
+  "preEvolution": "teddiursa form=seviian",
+  "baseScale": 0.45,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 1258,
+  "aspects": ["seviian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Cefiran",
+  "primaryType": "dark",
+  "abilities": [
+    "guts",
+    "intimidate",
+    "h:unnerve"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 125,
+    "defence": 55,
+    "special_attack": 95,
+    "special_defence": 70,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:covet",
+    "1:scratch",
+    "1:leer",
+    "1:lick",
+    "1:faketears",
+    "8:furyswipes",
+    "15:feintattack",
+    "22:sweetscent",
+    "29:slash",
+    "33:crunch",
+    "38:scaryface",
+    "47:rest",
+    "49:snore",
+    "58:thrash",
+    "67:hammerarm",
+    "egg:bellydrum",
+    "egg:chipaway",
+    "egg:closecombat",
+    "egg:counter",
+    "egg:crosschop",
+    "egg:crunch",
+    "egg:doubleedge",
+    "egg:faketears",
+    "egg:metalclaw",
+    "egg:nightslash",
+    "egg:seismictoss",
+    "egg:sleeptalk",
+    "egg:takedown",
+    "egg:yawn"  ],
+  "labels": [
+    "gen2",
+    "opal",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranursaring.desc"
+  ],
+  "preEvolution": "teddiursa form=cefiran",
+  "baseScale": 0.45,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 1258,
+  "aspects": ["cefiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"hoennian",
+"seviian",
+"cefiran"
+  ]
+}

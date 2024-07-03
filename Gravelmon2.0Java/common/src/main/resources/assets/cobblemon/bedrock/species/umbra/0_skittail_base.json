@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_skittail",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_skittail",
       "texture": "cobblemon:textures/pokemon/umbra/skittail.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/skittail_shiny.png"
-    }  ]
+    }
+  ]
 }

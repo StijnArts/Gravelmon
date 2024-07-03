@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.hiza.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class HizianDruddigon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianDruddigon(int dex) {
-        super(dex, "Druddigon",
+    public HizianDruddigon(String name, Aspect aspect) {
+        super(name, aspect, "Druddigon",
                 Type.DRAGON, Type.ROCK,
                 new Stats(77,
                         120,

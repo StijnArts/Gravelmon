@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_patama",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_patama",
       "texture": "cobblemon:textures/pokemon/sage/patama.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/patama_shiny.png"
-    }  ]
+    }
+  ]
 }

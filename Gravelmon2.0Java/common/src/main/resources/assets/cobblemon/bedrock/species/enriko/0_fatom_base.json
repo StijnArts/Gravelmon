@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_fatom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_fatom",
       "texture": "cobblemon:textures/pokemon/enriko/fatom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/fatom_shiny.png"
-    }  ]
+    }
+  ]
 }

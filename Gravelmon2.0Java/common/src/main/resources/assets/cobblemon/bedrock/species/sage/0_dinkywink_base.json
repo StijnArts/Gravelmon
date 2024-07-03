@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_dinkywink",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_dinkywink",
       "texture": "cobblemon:textures/pokemon/sage/dinkywink.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/dinkywink_shiny.png"
-    }  ]
+    }
+  ]
 }

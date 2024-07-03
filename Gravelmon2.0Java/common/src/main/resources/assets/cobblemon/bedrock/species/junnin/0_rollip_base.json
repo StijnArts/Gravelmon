@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_rollip",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_rollip",
       "texture": "cobblemon:textures/pokemon/junnin/rollip.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/rollip_shiny.png"
-    }  ]
+    }
+  ]
 }

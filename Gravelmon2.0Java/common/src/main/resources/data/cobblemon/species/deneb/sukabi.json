@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sukabi",
-  "nationalPokedexNumber": 2975,
+  "nationalPokedexNumber": 4962,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -71,10 +71,10 @@
     "tm:rest",
     "tm:falseswipe",
     "tm:endure",
-    "tm:bugbuzzsound",
+    "tm:bugbuzz",
     "tm:flash",
     "tm:xscissor",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:swagger",
     "tm:substitute",
     "tm:cut",

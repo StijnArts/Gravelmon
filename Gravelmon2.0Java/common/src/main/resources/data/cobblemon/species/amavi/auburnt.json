@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "auburnt",
-  "nationalPokedexNumber": 3078,
+  "nationalPokedexNumber": 5670,
   "primaryType": "fire",
   "abilities": [
     "keeneye",
@@ -58,7 +58,7 @@
     "37:flamethrower",
     "41:painsplit",
     "46:extrasensory",
-    "50:powergemcrystal",
+    "50:powergem",
     "55:overheat"  ],
   "labels": [
     "amavi",

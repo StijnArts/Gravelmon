@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_probee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_probee",
       "texture": "cobblemon:textures/pokemon/enriko/probee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/probee_shiny.png"
-    }  ]
+    }
+  ]
 }

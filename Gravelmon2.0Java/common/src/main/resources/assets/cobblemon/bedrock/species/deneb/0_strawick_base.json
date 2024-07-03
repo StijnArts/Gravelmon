@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_strawick",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_strawick",
       "texture": "cobblemon:textures/pokemon/deneb/strawick.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/strawick_shiny.png"
-    }  ]
+    }
+  ]
 }

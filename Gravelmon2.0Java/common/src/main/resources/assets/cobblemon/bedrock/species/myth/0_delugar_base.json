@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_delugar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_delugar",
       "texture": "cobblemon:textures/pokemon/myth/delugar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/delugar_shiny.png"
-    }  ]
+    }
+  ]
 }

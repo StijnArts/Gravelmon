@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_musbushel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_musbushel",
       "texture": "cobblemon:textures/pokemon/sage/musbushel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/musbushel_shiny.png"
-    }  ]
+    }
+  ]
 }

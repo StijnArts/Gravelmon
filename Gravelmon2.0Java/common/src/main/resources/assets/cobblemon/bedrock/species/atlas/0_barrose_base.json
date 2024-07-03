@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_barrose",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_barrose",
       "texture": "cobblemon:textures/pokemon/atlas/barrose.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/barrose_shiny.png"
-    }  ]
+    }
+  ]
 }

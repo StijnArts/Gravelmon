@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.qamor.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class QamoranBeartic extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranBeartic(int dex) {
-        super(dex, "Beartic",
+    public QamoranBeartic(String name, Aspect aspect) {
+        super(name, aspect, "Beartic",
                 Type.GHOST, Type.POISON,
                 new Stats(95,
                         70,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_cereblast",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_cereblast",
       "texture": "cobblemon:textures/pokemon/hiza/cereblast.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/cereblast_shiny.png"
-    }  ]
+    }
+  ]
 }

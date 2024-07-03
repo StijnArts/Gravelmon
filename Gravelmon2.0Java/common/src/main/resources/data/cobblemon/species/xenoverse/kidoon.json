@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kidoon",
-  "nationalPokedexNumber": 1516,
+  "nationalPokedexNumber": 2110,
   "primaryType": "flying",
   "abilities": [
     "dryskin",
@@ -60,8 +60,8 @@
     "tutor:aircutter",
     "tutor:bind",
     "tutor:hurricane",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:tailwind",
     "tutor:waterpulse"  ],
   "labels": [

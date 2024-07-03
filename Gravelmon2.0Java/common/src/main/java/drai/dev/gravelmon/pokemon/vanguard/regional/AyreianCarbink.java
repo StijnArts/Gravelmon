@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianCarbink extends Pokemon {
-    public AyreianCarbink(int dexNo) {
-        super(dexNo,"AyreianCarbink",
+    public AyreianCarbink(String name, Aspect aspect) {
+        super(name, aspect,"AyreianCarbink",
                 Type.ROCK, Type.STEEL,
                 new Stats(50,50,160,50,50,160),
                 List.of(Ability.IRON_FIST, Ability.MOLD_BREAKER), Ability.SCRAPPY,

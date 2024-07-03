@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_tanchor",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_tanchor",
       "texture": "cobblemon:textures/pokemon/atlas/tanchor.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/tanchor_shiny.png"
-    }  ]
+    }
+  ]
 }

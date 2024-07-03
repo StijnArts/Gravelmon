@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_ascenteon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_ascenteon",
       "texture": "cobblemon:textures/pokemon/myth/ascenteon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/ascenteon_shiny.png"
-    }  ]
+    }
+  ]
 }

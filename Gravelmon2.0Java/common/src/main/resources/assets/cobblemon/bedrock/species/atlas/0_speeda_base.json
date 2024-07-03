@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_speeda",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_speeda",
       "texture": "cobblemon:textures/pokemon/atlas/speeda.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/speeda_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.hiza.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 public class HizianPinsir extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianPinsir(int dex) {
-        super(dex, "HizianPinsir",
+    public HizianPinsir(String name, Aspect aspect) {
+        super(name, aspect, "HizianPinsir",
                 Type.STEEL, Type.BUG,
                 new Stats(65,
                         125,

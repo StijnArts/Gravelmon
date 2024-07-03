@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_skurrel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_skurrel",
       "texture": "cobblemon:textures/pokemon/rica/skurrel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/skurrel_shiny.png"
-    }  ]
+    }
+  ]
 }

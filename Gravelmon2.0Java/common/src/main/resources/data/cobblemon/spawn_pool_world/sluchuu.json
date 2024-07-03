@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sluchuu-1",
+      "pokemon": "sluchuu",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "18-42",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_river",
+"#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

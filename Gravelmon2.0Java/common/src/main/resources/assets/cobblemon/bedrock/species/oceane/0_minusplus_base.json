@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_minusplus",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_minusplus",
       "texture": "cobblemon:textures/pokemon/oceane/minusplus.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/minusplus_shiny.png"
-    }  ]
+    }
+  ]
 }

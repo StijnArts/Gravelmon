@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "titanbex",
-  "nationalPokedexNumber": 2376,
+  "nationalPokedexNumber": 4271,
   "primaryType": "steel",
   "abilities": [
     "limber",
@@ -53,7 +53,7 @@
     "38:takedown",
     "43:ironhead",
     "56:doubleedge",
-    "tm:snoresound",
+    "tm:snore",
     "tm:ironhead",
     "tm:chargebeam",
     "tm:electroball",
@@ -73,7 +73,7 @@
     "tm:hyperbeam",
     "tm:protect",
     "tm:return",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:workup",
     "tm:toxic",

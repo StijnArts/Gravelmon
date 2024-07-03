@@ -12,12 +12,14 @@ public abstract class Game {
         registerPokemon();
     }
     public abstract void registerPokemon();
-
     public String getName(){
         return name;
     }
-
     public List<Pokemon> getPokemon(){
         return pokemon;
+    }
+
+    public void init() {
+        pokemon.forEach(pokemon1 -> pokemon1.setGame(this));
     }
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_reconuisance",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_reconuisance",
       "texture": "cobblemon:textures/pokemon/enriko/reconuisance.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/reconuisance_shiny.png"
-    }  ]
+    }
+  ]
 }

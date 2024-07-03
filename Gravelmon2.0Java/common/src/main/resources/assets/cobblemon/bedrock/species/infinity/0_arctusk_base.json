@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_arctusk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_arctusk",
       "texture": "cobblemon:textures/pokemon/infinity/arctusk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/arctusk_shiny.png"
-    }  ]
+    }
+  ]
 }

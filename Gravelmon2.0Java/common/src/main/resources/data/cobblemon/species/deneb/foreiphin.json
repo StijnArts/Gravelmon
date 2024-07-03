@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "foreiphin",
-  "nationalPokedexNumber": 2942,
+  "nationalPokedexNumber": 4929,
   "primaryType": "rock",
   "secondaryType": "water",
   "abilities": [
@@ -79,7 +79,7 @@
     "tm:dig",
     "tm:falseswipe",
     "tm:bodyslam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:rockblast",
     "tm:waterfall",
     "tm:poisonjab",
@@ -116,7 +116,7 @@
   ],
   "evolutions": [
     {
-      "id": "foreiphin_Travelphin",
+      "id": "foreiphin_travelphin",
       "variant": "level_up",
       "result": "Travelphin",
       "consumeHeldItem": false,

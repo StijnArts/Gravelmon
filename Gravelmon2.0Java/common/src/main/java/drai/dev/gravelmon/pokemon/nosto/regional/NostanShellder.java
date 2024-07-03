@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.nosto.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NostanShellder extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NostanShellder(int dex) {
-        super(dex, "Shellder",
+    public NostanShellder(String name, Aspect aspect) {
+        super(name, aspect, "Shellder",
                 Type.STEEL,
                 new Stats(30,
                         60,

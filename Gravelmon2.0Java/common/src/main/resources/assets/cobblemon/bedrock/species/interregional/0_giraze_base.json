@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_giraze",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_giraze",
       "texture": "cobblemon:textures/pokemon/interregional/giraze.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/giraze_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_slugic",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_slugic",
       "texture": "cobblemon:textures/pokemon/novrai/slugic.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/slugic_shiny.png"
-    }  ]
+    }
+  ]
 }

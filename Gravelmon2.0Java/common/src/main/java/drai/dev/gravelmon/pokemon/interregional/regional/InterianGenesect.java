@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.interregional.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class InterianGenesect extends drai.dev.gravelmon.pokemon.Pokemon {
-    public InterianGenesect(int dex) {
-        super(dex ,"Genesect",
+    public InterianGenesect(String name, Aspect aspect) {
+        super(name, aspect,"Genesect",
                 Type.ELECTRIC, Type.STEEL,
                 new Stats(100,
                         150,

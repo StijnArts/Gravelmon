@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_emporeel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_emporeel",
       "texture": "cobblemon:textures/pokemon/junnin/emporeel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/emporeel_shiny.png"
-    }  ]
+    }
+  ]
 }

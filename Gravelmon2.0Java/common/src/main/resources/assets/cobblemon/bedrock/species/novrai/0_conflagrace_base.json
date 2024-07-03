@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_conflagrace",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_conflagrace",
       "texture": "cobblemon:textures/pokemon/novrai/conflagrace.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/conflagrace_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_scorchion",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_scorchion",
       "texture": "cobblemon:textures/pokemon/hiza/scorchion.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/scorchion_shiny.png"
-    }  ]
+    }
+  ]
 }

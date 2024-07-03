@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glacyo",
-  "nationalPokedexNumber": 2350,
+  "nationalPokedexNumber": 4245,
   "primaryType": "questionmark",
   "abilities": [
     "levitate",
@@ -57,7 +57,7 @@
     "20:mudslap",
     "24:calmmind",
     "29:toxic",
-    "32:powergemcrystal",
+    "32:powergem",
     "40:irondefense",
     "42:metalsound",
     "47:extremespeed",

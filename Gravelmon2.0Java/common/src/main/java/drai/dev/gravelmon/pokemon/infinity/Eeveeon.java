@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.infinity;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -108,5 +109,7 @@ public class Eeveeon extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("eeveeon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:astral_stone"));
     }
 }

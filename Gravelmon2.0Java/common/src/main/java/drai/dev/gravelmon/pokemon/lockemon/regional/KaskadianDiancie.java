@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianDiancie extends Pokemon {
-    public KaskadianDiancie(int dexNo) {
-        super(dexNo,"KaskadianDiancie",
+    public KaskadianDiancie(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianDiancie",
                 Type.ROCK, Type.PSYCHIC,
                 new Stats(50, 120, 100, 110, 120, 100),
                 List.of(Ability.MAGIC_BOUNCE), Ability.CLEAR_BODY,

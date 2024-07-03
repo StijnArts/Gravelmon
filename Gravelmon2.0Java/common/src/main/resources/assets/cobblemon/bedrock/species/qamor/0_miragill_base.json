@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_miragill",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_miragill",
       "texture": "cobblemon:textures/pokemon/qamor/miragill.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/miragill_shiny.png"
-    }  ]
+    }
+  ]
 }

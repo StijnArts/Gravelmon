@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_tulipro",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_tulipro",
       "texture": "cobblemon:textures/pokemon/midamis/tulipro.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/tulipro_shiny.png"
-    }  ]
+    }
+  ]
 }

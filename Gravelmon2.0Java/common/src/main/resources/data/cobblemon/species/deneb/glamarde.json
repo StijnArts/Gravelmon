@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glamarde",
-  "nationalPokedexNumber": 2776,
+  "nationalPokedexNumber": 4763,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -61,7 +61,7 @@
     "17:recover",
     "22:magicalleaf",
     "25:hypnopulse",
-    "31:cosmicpowercosmic",
+    "31:cosmicpower",
     "36:psychic",
     "39:lightscreen",
     "39:reflect",
@@ -69,7 +69,7 @@
     "50:block",
     "53:charm",
     "59:hypnosis",
-    "64:healbellsound",
+    "64:healbell",
     "67:psyburn",
     "tm:thunderwave",
     "tm:headbutt",
@@ -93,7 +93,7 @@
     "tm:flash",
     "tm:rocksmash",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
@@ -121,7 +121,7 @@
     "egg:safeguard",
     "egg:shadowsneak",
     "egg:shockwave",
-    "egg:singsound",
+    "egg:sing",
     "egg:skillswap",
     "egg:snatch",
     "egg:sunnyday",
@@ -133,12 +133,14 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
+    "fakemon",
     "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.glamarde.desc"
   ],
-  "preEvolution": "ralts",
+  "preEvolution": "kirgicia",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

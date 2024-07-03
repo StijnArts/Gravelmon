@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_sailodon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_sailodon",
       "texture": "cobblemon:textures/pokemon/deneb/sailodon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/sailodon_shiny.png"
-    }  ]
+    }
+  ]
 }

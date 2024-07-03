@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "madieval",
-  "nationalPokedexNumber": 1532,
+  "nationalPokedexNumber": 2129,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -82,7 +82,7 @@
     "tm:sandstorm",
     "tm:rocktomb",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:falseswipe",
     "tm:payback",
     "tm:gigaimpact",
@@ -98,7 +98,7 @@
     "egg:rockblast",
     "egg:curse",
     "egg:ancientpower",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:doubleedge",
     "tutor:secretpower"  ],
   "labels": [

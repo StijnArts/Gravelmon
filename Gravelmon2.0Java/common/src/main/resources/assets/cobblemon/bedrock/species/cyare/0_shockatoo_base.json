@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:cyare_shockatoo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_shockatoo",
       "texture": "cobblemon:textures/pokemon/cyare/shockatoo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/cyare/shockatoo_shiny.png"
-    }  ]
+    }
+  ]
 }

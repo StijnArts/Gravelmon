@@ -1,0 +1,131 @@
+{
+   "target": "cobblemon:dragapult",
+   "forms": [{
+  "name": "Hoennian",
+  "primaryType": "fire",
+  "secondaryType": "dragon",
+  "abilities": [
+    "levitate",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 118,
+    "attack": 100,
+    "defence": 75,
+    "special_attack": 120,
+    "special_defence": 75,
+    "speed": 112
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous",
+    "dragon"
+  ],
+  "moves": [
+    "tm:dragonclaw",
+    "tm:roar",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:willowisp",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:shadowball",
+    "tm:shimmershot",
+    "tm:shockwave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:fireblast",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:xscissor",
+    "tm:overheat",
+    "tm:cut",
+    "tm:fly",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "egg:outrage",
+    "egg:revenge",
+    "1:ember",
+    "4:smokescreen",
+    "7:twister",
+    "14:bite",
+    "17:dragondance",
+    "26:sunnyday",
+    "34:dragonbreath",
+    "39:firespin",
+    "42:dragonpulse",
+    "46:flamewheel",
+    "50:devildarts",
+    "62:blastburn"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen8",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoenniandragapult.desc"
+  ],
+  "preEvolution": "drakloak form=hoennian",
+  "baseScale": 0.7999999999999999,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 32,
+  "weight": 889,
+  "aspects": ["hoennian"],
+  "cannotDynamax": false
+}
+], "features": [
+"hoennian"
+  ]
+}

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_impawzible",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_impawzible",
       "texture": "cobblemon:textures/pokemon/novrai/impawzible.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/impawzible_shiny.png"
-    }  ]
+    }
+  ]
 }

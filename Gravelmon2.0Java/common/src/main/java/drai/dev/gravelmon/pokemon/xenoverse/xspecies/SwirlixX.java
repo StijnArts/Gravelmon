@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SwirlixX extends Pokemon {
-    public SwirlixX(int dexNo) {
-        super(dexNo,"SwirlixX",
+    public SwirlixX(String name, Aspect aspect) {
+        super(name, aspect,"SwirlixX",
                 Type.POISON,
                 new Stats(62, 48, 66, 59, 57, 49),
                 List.of(Ability.POISON_TOUCH), Ability.GLUTTONY,

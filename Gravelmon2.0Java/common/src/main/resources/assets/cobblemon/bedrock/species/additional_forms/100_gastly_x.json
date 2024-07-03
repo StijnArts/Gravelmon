@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gastly",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:generation1_gastlyx.geo",
+      "poser": "cobblemon:generation1_gastlyx",
+      "texture": "cobblemon:textures/pokemon/generation1/gastlyx/gastlyx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_gastlyx.geo",
+      "poser": "cobblemon:generation1_gastlyx",
+      "texture": "cobblemon:textures/pokemon/generation1/gastlyx/gastlyx_shiny.png",
+      "layers": []
+    }
+  ]
+}

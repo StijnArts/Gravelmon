@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:vanguard_gyropass",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_gyropass",
       "texture": "cobblemon:textures/pokemon/vanguard/gyropass.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/vanguard/gyropass_shiny.png"
-    }  ]
+    }
+  ]
 }

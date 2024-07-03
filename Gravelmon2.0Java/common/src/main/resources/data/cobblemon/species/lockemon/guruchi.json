@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "guruchi",
-  "nationalPokedexNumber": 1924,
+  "nationalPokedexNumber": 3487,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -63,7 +63,7 @@
     "48:takedown",
     "54:hydropump",
     "egg:charge",
-    "egg:disarmingvoicesound",
+    "egg:disarmingvoice",
     "egg:fakeout",
     "egg:flail",
     "egg:present",

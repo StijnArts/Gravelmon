@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.vega;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -106,5 +107,7 @@ public class Dizasol extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPreEvolution("absol");
+        addAdditionalEvolution("absol", new EvolutionEntry("dizasol", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))));
     }
 }

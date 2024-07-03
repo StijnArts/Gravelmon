@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_pheromage",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_pheromage",
       "texture": "cobblemon:textures/pokemon/novrai/pheromage.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/pheromage_shiny.png"
-    }  ]
+    }
+  ]
 }

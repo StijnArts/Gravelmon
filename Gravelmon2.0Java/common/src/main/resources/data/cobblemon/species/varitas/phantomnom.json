@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phantomnom",
-  "nationalPokedexNumber": 1726,
+  "nationalPokedexNumber": 2324,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -53,7 +53,7 @@
     "7:smog",
     "12:refresh",
     "15:sludge",
-    "19:cosmicpowercosmic",
+    "19:cosmicpower",
     "22:clearsmog",
     "25:purify",
     "28:ominouswind",

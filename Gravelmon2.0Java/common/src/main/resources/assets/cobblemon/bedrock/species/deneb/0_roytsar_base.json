@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_roytsar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_roytsar",
       "texture": "cobblemon:textures/pokemon/deneb/roytsar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/roytsar_shiny.png"
-    }  ]
+    }
+  ]
 }

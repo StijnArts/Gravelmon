@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "xochi",
-  "nationalPokedexNumber": 1252,
+  "nationalPokedexNumber": 1253,
   "primaryType": "psychic",
   "secondaryType": "fire",
   "abilities": [
@@ -49,7 +49,7 @@
   ],
   "moves": [
     "1:ember",
-    "1:healbellsound",
+    "1:healbell",
     "1:pound",
     "10:absorb",
     "15:magicalleaf",
@@ -64,7 +64,7 @@
     "75:flareblitz",
     "79:petaldance",
     "83:amnesia",
-    "88:perishsongsound",
+    "88:perishsong",
     "91:leafstorm",
     "tm:psyshock",
     "tm:calmmind",
@@ -108,7 +108,7 @@
     "tm:uturn",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:miraclewill"  ],
   "labels": [
     "sage",

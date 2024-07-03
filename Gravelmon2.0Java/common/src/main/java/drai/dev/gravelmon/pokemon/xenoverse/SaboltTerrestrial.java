@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SaboltTerrestrial extends Pokemon {
-    public SaboltTerrestrial(int dexNo) {
-        super(dexNo, "SaboltTerrestrial",
+    public SaboltTerrestrial(String name, Aspect aspect) {
+        super(name, aspect,"SaboltTerrestrial",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(88, 66, 70, 78, 68, 80),
                 List.of(Ability.INTIMIDATE), Ability.INTIMIDATE,

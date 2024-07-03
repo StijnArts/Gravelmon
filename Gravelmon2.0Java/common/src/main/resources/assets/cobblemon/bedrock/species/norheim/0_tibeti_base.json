@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_tibeti",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_tibeti",
       "texture": "cobblemon:textures/pokemon/norheim/tibeti.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/tibeti_shiny.png"
-    }  ]
+    }
+  ]
 }

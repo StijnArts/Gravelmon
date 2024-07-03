@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "campyre",
-  "nationalPokedexNumber": 1817,
+  "nationalPokedexNumber": 2866,
   "primaryType": "fire",
   "abilities": [
     "flamebody",
@@ -68,7 +68,7 @@
     "tm:hiddenpower",
     "tm:hyperbeam",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:focusblast",
     "tm:infestation",
     "tm:signalbeam",
@@ -88,7 +88,7 @@
     "tm:doubleteam",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:reflect",
@@ -120,7 +120,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

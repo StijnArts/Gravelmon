@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caitlit",
-  "nationalPokedexNumber": 2514,
+  "nationalPokedexNumber": 4409,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -70,7 +70,7 @@
     "egg:calmmind",
     "egg:aurasphere",
     "egg:thunderbolt",
-    "egg:singsound",
+    "egg:sing",
     "egg:teeterdance",
     "egg:darkpulse"  ],
   "labels": [

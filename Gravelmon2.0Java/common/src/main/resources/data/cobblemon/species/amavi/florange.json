@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "florange",
-  "nationalPokedexNumber": 3008,
+  "nationalPokedexNumber": 5600,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -55,7 +55,7 @@
     "25:psybeam",
     "29:infestation",
     "31:stickyweb",
-    "36:bugbuzzsound",
+    "36:bugbuzz",
     "43:psychic",
     "47:psychoshift"  ],
   "labels": [

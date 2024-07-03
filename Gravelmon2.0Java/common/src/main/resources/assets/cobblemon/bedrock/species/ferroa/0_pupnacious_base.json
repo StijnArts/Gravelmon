@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_pupnacious",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_pupnacious",
       "texture": "cobblemon:textures/pokemon/ferroa/pupnacious.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/pupnacious_shiny.png"
-    }  ]
+    }
+  ]
 }

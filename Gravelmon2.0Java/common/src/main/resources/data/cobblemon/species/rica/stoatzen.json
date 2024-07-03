@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stoatzen",
-  "nationalPokedexNumber": 1317,
+  "nationalPokedexNumber": 1318,
   "primaryType": "ice",
   "secondaryType": "ghost",
   "abilities": [
@@ -93,7 +93,7 @@
     "tm:sludgebomb",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",
@@ -113,7 +113,7 @@
     "tm:shadowclaw",
     "tm:trickroom",
     "tm:venoshock",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:acrobatics",
     "tm:workup",
     "tm:destinybond",

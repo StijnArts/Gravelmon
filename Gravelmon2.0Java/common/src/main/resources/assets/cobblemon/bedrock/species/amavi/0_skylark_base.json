@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_skylark",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_skylark",
       "texture": "cobblemon:textures/pokemon/amavi/skylark.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/skylark_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_amoni",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_amoni",
       "texture": "cobblemon:textures/pokemon/kuria/amoni.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/amoni_shiny.png"
-    }  ]
+    }
+  ]
 }

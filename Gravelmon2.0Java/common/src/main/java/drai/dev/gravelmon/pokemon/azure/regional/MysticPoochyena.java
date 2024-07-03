@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticPoochyena extends Pokemon {
-    public MysticPoochyena(int dexNo) {
-        super(dexNo,"MysticPoochyena",
+    public MysticPoochyena(String name, Aspect aspect) {
+        super(name, aspect,"MysticPoochyena",
                 Type.FIRE, Type.GHOST,
                 new Stats(35, 30, 35, 30, 35, 55),
                 List.of(Ability.INTIMIDATE, Ability.SHADOW_TAG), Ability.ADAPTABILITY,

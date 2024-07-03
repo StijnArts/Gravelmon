@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_giragira",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_giragira",
       "texture": "cobblemon:textures/pokemon/infinity/giragira.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/giragira_shiny.png"
-    }  ]
+    }
+  ]
 }

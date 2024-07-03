@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_slackonch",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_slackonch",
       "texture": "cobblemon:textures/pokemon/lonava/slackonch.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/slackonch_shiny.png"
-    }  ]
+    }
+  ]
 }

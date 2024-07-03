@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.enjin.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianElectrike extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianElectrike(int dex) {
-        super(dex, "Electrike",
+    public EnjinnianElectrike(String name, Aspect aspect) {
+        super(name, aspect, "Electrike",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(40,
                         45,

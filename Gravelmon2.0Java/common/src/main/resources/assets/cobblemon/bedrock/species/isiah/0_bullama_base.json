@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_bullama",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_bullama",
       "texture": "cobblemon:textures/pokemon/isiah/bullama.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/bullama_shiny.png"
-    }  ]
+    }
+  ]
 }

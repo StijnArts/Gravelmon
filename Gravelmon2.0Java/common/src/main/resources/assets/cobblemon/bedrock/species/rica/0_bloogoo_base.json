@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_bloogoo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_bloogoo",
       "texture": "cobblemon:textures/pokemon/rica/bloogoo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/bloogoo_shiny.png"
-    }  ]
+    }
+  ]
 }

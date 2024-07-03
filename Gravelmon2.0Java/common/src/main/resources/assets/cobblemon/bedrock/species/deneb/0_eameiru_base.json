@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_eameiru",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_eameiru",
       "texture": "cobblemon:textures/pokemon/deneb/eameiru.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/eameiru_shiny.png"
-    }  ]
+    }
+  ]
 }

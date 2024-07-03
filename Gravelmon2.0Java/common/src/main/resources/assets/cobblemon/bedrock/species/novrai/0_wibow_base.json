@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_wibow",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_wibow",
       "texture": "cobblemon:textures/pokemon/novrai/wibow.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/wibow_shiny.png"
-    }  ]
+    }
+  ]
 }

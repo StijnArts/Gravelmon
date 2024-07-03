@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_kindeshu",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_kindeshu",
       "texture": "cobblemon:textures/pokemon/kuria/kindeshu.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/kindeshu_shiny.png"
-    }  ]
+    }
+  ]
 }

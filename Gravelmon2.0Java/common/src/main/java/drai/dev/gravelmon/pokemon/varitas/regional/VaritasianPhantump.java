@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianPhantump extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianPhantump(int dex) {
-        super(dex, "Phantump",
+    public VaritasianPhantump(String name, Aspect aspect) {
+        super(name, aspect, "Phantump",
                 Type.GHOST, Type.POISON,
                 new Stats(43,
                         60,

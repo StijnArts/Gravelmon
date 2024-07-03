@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_kankombat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_kankombat",
       "texture": "cobblemon:textures/pokemon/umbra/kankombat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/kankombat_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_bijarre",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_bijarre",
       "texture": "cobblemon:textures/pokemon/novrai/bijarre.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/bijarre_shiny.png"
-    }  ]
+    }
+  ]
 }

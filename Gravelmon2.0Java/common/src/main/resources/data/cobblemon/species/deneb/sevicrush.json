@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sevicrush",
-  "nationalPokedexNumber": 2920,
+  "nationalPokedexNumber": 4907,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:swagger",
     "1:wrap",
@@ -54,7 +64,7 @@
     "6:lick",
     "9:poisontail",
     "11:feint",
-    "14:screechsound",
+    "14:screech",
     "19:glare",
     "21:poisonfang",
     "24:venoshock",
@@ -88,7 +98,7 @@
     "tm:zenheadbutt",
     "tm:psychicfangs",
     "tm:bodyslam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:seedbomb",
     "tm:poisonjab",
     "tm:rest",

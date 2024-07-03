@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticReuniclus extends Pokemon {
-    public MysticReuniclus(int dexNo) {
-        super(dexNo,"MysticReuniclus",
+    public MysticReuniclus(String name, Aspect aspect) {
+        super(name, aspect,"MysticReuniclus",
                 Type.WATER, Type.GHOST,
                 new Stats(110, 30, 85, 125, 75, 65),
                 List.of(Ability.FILTER, Ability.STATIC), Ability.WATER_ABSORB,

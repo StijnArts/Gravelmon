@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porygonomega",
-  "nationalPokedexNumber": 1925,
+  "nationalPokedexNumber": 3488,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:amaze_drive",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:conversion",
     "1:defensecurl",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_jamberree",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_jamberree",
       "texture": "cobblemon:textures/pokemon/deneb/jamberree.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/jamberree_shiny.png"
-    }  ]
+    }
+  ]
 }

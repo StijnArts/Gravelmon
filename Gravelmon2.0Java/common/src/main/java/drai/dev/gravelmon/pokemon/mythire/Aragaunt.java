@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.mythire;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Aragaunt extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -22,7 +23,7 @@ public class Aragaunt extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("The spines on its neck are receptive to even the slightest movement. Hooked to the ceiling, Aragaunt suddenly stretches its head down and grabs prey with its fangs."),
-                List.of(new EvolutionEntry("trenchula", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Arbyssno", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

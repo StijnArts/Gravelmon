@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_grasquatch",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_grasquatch",
       "texture": "cobblemon:textures/pokemon/infinity/grasquatch.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/grasquatch_shiny.png"
-    }  ]
+    }
+  ]
 }

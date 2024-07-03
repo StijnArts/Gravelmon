@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_shoaly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_shoaly",
       "texture": "cobblemon:textures/pokemon/atlas/shoaly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/shoaly_shiny.png"
-    }  ]
+    }
+  ]
 }

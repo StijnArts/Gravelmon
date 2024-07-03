@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_canoling",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_canoling",
       "texture": "cobblemon:textures/pokemon/kuria/canoling.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/canoling_shiny.png"
-    }  ]
+    }
+  ]
 }

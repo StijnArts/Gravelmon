@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_criminook",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_criminook",
       "texture": "cobblemon:textures/pokemon/atlas/criminook.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/criminook_shiny.png"
-    }  ]
+    }
+  ]
 }

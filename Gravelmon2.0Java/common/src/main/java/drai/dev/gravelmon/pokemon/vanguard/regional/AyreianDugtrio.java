@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class AyreianDugtrio extends Pokemon {
-    public AyreianDugtrio(int dexNo) {
-        super(dexNo,"AyreianDugtrio",
+    public AyreianDugtrio(String name, Aspect aspect) {
+        super(name, aspect,"AyreianDugtrio",
                 Type.ICE,
                 new Stats(120,95,50,105,35,70),
                 List.of(Ability.SNOW_CLOAK, Ability.ARENA_TRAP), Ability.TECHNICIAN,

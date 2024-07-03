@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_stagnel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_stagnel",
       "texture": "cobblemon:textures/pokemon/junnin/stagnel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/stagnel_shiny.png"
-    }  ]
+    }
+  ]
 }

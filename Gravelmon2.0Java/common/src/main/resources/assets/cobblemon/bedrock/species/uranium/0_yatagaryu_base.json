@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_yatagaryu",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_yatagaryu",
       "texture": "cobblemon:textures/pokemon/uranium/yatagaryu.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/yatagaryu_shiny.png"
-    }  ]
+    }
+  ]
 }

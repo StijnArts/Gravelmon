@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_elegander",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_elegander",
       "texture": "cobblemon:textures/pokemon/norheim/elegander.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/elegander_shiny.png"
-    }  ]
+    }
+  ]
 }

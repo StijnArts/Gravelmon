@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_tankton",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_tankton",
       "texture": "cobblemon:textures/pokemon/atlas/tankton.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/tankton_shiny.png"
-    }  ]
+    }
+  ]
 }

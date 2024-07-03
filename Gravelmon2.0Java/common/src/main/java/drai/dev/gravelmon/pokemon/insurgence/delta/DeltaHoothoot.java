@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaHoothoot extends Pokemon {
-    public DeltaHoothoot(int dexNo) {
-        super(dexNo,"DeltaHoothoot",
+    public DeltaHoothoot(String name, Aspect aspect) {
+        super(name, aspect,"DeltaHoothoot",
                 Type.ICE, Type.FLYING,
                 new Stats(60, 30,30,36,56,50),
                 List.of(Ability.NO_GUARD, Ability.KEEN_EYE), Ability.SNOW_CLOAK,

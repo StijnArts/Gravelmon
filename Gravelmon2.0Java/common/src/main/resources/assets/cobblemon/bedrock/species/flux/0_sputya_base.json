@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_sputya",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_sputya",
       "texture": "cobblemon:textures/pokemon/flux/sputya.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/sputya_shiny.png"
-    }  ]
+    }
+  ]
 }

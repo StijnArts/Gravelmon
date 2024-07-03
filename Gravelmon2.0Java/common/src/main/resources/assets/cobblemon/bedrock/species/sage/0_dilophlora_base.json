@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_dilophlora",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_dilophlora",
       "texture": "cobblemon:textures/pokemon/sage/dilophlora.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/dilophlora_shiny.png"
-    }  ]
+    }
+  ]
 }

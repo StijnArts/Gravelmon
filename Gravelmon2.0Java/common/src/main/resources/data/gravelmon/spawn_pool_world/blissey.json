@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fligianblissey-1",
+      "pokemon": "blissey fligian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "43-56",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_forest" ]
+      }
+    }
+,
+    {
+      "id": "eghoblissey-1",
+      "pokemon": "blissey egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "45-70",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+
+]
+}

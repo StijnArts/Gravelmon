@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_skweakrat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_skweakrat",
       "texture": "cobblemon:textures/pokemon/atlas/skweakrat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/skweakrat_shiny.png"
-    }  ]
+    }
+  ]
 }

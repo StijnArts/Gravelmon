@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bloogoo",
-  "nationalPokedexNumber": 1367,
+  "nationalPokedexNumber": 1368,
   "primaryType": "poison",
   "abilities": [
     "rattled",
@@ -77,7 +77,7 @@
     "tm:scorchingsands",
     "tm:scaleshot",
     "tm:corrosivegas",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:return",
     "tm:frustration",
     "tm:facade",
@@ -98,7 +98,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

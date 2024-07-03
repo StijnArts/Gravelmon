@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "impuck",
-  "nationalPokedexNumber": 1357,
+  "nationalPokedexNumber": 1358,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -87,8 +87,8 @@
     "tm:gunkshot",
     "tm:zenheadbutt",
     "tm:playrough",
-    "tm:healbellsound",
-    "tm:echoedvoicesound",
+    "tm:healbell",
+    "tm:echoedvoice",
     "tm:naturepower",
     "tm:return",
     "tm:frustration",
@@ -112,7 +112,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

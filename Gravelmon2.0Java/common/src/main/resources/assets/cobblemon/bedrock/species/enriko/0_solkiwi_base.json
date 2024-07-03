@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_solkiwi",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_solkiwi",
       "texture": "cobblemon:textures/pokemon/enriko/solkiwi.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/solkiwi_shiny.png"
-    }  ]
+    }
+  ]
 }

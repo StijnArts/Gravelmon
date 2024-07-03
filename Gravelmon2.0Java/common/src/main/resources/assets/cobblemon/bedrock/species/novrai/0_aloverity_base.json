@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_aloverity",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_aloverity",
       "texture": "cobblemon:textures/pokemon/novrai/aloverity.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/aloverity_shiny.png"
-    }  ]
+    }
+  ]
 }

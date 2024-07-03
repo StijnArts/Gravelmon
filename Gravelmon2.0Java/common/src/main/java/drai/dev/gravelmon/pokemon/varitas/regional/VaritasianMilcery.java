@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianMilcery extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianMilcery(int dex) {
-        super(dex, "Milcery",
+    public VaritasianMilcery(String name, Aspect aspect) {
+        super(name, aspect, "Milcery",
                 Type.FAIRY, Type.POISON,
                 new Stats(45,
                         40,

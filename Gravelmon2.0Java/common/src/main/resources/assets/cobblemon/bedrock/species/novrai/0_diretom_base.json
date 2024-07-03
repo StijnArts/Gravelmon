@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_diretom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_diretom",
       "texture": "cobblemon:textures/pokemon/novrai/diretom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/diretom_shiny.png"
-    }  ]
+    }
+  ]
 }

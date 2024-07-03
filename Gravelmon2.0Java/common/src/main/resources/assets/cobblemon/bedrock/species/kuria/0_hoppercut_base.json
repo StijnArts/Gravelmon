@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_hoppercut",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_hoppercut",
       "texture": "cobblemon:textures/pokemon/kuria/hoppercut.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/hoppercut_shiny.png"
-    }  ]
+    }
+  ]
 }

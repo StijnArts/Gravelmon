@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:vanguard_solacor",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_solacor",
       "texture": "cobblemon:textures/pokemon/vanguard/solacor.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/vanguard/solacor_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_volentine",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_volentine",
       "texture": "cobblemon:textures/pokemon/novrai/volentine.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/volentine_shiny.png"
-    }  ]
+    }
+  ]
 }

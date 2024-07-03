@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_carajoule",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_carajoule",
       "texture": "cobblemon:textures/pokemon/sage/carajoule.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/carajoule_shiny.png"
-    }  ]
+    }
+  ]
 }

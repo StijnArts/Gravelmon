@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atlantice",
-  "nationalPokedexNumber": 3001,
+  "nationalPokedexNumber": 5593,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -55,8 +55,8 @@
     "23:whirlpool",
     "28:teatime",
     "34:freezedry",
-    "39:powergemcrystal",
-    "45:sparklingariasound",
+    "39:powergem",
+    "45:sparklingaria",
     "50:irondefense",
     "56:icespinner",
     "61:hydropump",

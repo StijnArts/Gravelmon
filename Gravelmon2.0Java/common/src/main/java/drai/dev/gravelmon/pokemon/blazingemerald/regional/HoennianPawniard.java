@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianPawniard extends Pokemon {
-    public HoennianPawniard(int dexNo) {
-        super(dexNo,"HoennianPawniard",
+    public HoennianPawniard(String name, Aspect aspect) {
+        super(name, aspect,"HoennianPawniard",
                 Type.FAIRY, Type.STEEL,
                 new Stats(55, 65, 75, 30, 65, 50),
                 List.of(Ability.PICKUP), Ability.OBLIVIOUS,

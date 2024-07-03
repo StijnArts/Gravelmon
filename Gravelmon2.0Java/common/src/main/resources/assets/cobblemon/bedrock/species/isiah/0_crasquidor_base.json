@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_crasquidor",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_crasquidor",
       "texture": "cobblemon:textures/pokemon/isiah/crasquidor.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/crasquidor_shiny.png"
-    }  ]
+    }
+  ]
 }

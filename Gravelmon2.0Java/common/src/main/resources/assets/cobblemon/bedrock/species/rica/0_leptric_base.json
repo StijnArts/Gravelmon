@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_leptric",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_leptric",
       "texture": "cobblemon:textures/pokemon/rica/leptric.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/leptric_shiny.png"
-    }  ]
+    }
+  ]
 }

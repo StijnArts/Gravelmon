@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_surusen",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_surusen",
       "texture": "cobblemon:textures/pokemon/novrai/surusen.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/surusen_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.aristos.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class AristosianKangaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianKangaskhan(int dexNo) {
-        super(dexNo,"AristosianKangaskhan",
+    public AristosianKangaskhan(String name, Aspect aspect) {
+        super(name, aspect,"AristosianKangaskhan",
                 Type.NORMAL,
                 new Stats(105,
                         95,

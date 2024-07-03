@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_himilago",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_himilago",
       "texture": "cobblemon:textures/pokemon/enriko/himilago.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/himilago_shiny.png"
-    }  ]
+    }
+  ]
 }

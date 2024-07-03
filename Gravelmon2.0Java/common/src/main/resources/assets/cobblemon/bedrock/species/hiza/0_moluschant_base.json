@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_moluschant",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_moluschant",
       "texture": "cobblemon:textures/pokemon/hiza/moluschant.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/moluschant_shiny.png"
-    }  ]
+    }
+  ]
 }

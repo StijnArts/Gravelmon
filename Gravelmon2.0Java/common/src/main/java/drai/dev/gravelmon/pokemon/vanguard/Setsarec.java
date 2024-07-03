@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.vanguard;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -106,6 +107,8 @@ public class Setsarec extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-        setPreEvolution("Arbok");
+        setPreEvolution("arbok");
+        addAdditionalEvolution("arbok", new EvolutionEntry("setsarec", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"))));
     }
 }

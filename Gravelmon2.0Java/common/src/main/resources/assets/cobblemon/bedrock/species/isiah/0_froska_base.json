@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_froska",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_froska",
       "texture": "cobblemon:textures/pokemon/isiah/froska.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/froska_shiny.png"
-    }  ]
+    }
+  ]
 }

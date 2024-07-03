@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaAvalugg extends Pokemon {
-    public DeltaAvalugg(int dexNo) {
-        super(dexNo,"DeltaAvalugg",
+    public DeltaAvalugg(String name, Aspect aspect) {
+        super(name, aspect,"DeltaAvalugg",
                 Type.ROCK, Type.DRAGON,
                 new Stats(95, 117,184,44,46,28),
                 List.of(Ability.SOLID_ROCK, Ability.BATTLE_ARMOR), Ability.SAND_STREAM,

@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.orohnhavai;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -61,6 +62,9 @@ public class Alpheon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Alpheon");
+        addAdditionalEvolution("eevee", new EvolutionEntry("alpheon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"))));
 
     }
 

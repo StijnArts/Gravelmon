@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mintch",
-  "nationalPokedexNumber": 2741,
+  "nationalPokedexNumber": 4727,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -77,7 +77,7 @@
     "tm:fly",
     "tm:flash",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:bugnoise",
     "tutor:rest",
     "tutor:toxic",
@@ -130,9 +130,9 @@
       "permanent": true   
  },
     {
-      "id": "mintch_signetanblakjak",
+      "id": "mintch_blakjak_signetan",
       "variant": "level_up",
-      "result": "signetanblakjak",
+      "result": "blakjak signetan",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

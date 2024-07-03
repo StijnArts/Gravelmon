@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoLotad extends Pokemon {
-    public EghoLotad(int dexNo) {
-        super(dexNo,"EghoLotad",
+    public EghoLotad(String name, Aspect aspect) {
+        super(name, aspect,"EghoLotad",
                 Type.FIRE, Type.STEEL,
                 new Stats(40, 30, 40, 50, 30, 30),
                 List.of(Ability.HARVEST), Ability.DRY_SKIN,

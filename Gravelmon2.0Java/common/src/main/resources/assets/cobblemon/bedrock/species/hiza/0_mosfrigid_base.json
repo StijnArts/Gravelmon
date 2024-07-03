@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_mosfrigid",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_mosfrigid",
       "texture": "cobblemon:textures/pokemon/hiza/mosfrigid.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/mosfrigid_shiny.png"
-    }  ]
+    }
+  ]
 }

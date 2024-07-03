@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_vivantis",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_vivantis",
       "texture": "cobblemon:textures/pokemon/enriko/vivantis.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/vivantis_shiny.png"
-    }  ]
+    }
+  ]
 }

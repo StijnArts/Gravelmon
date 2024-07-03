@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kokismash",
-  "nationalPokedexNumber": 1400,
+  "nationalPokedexNumber": 1401,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -125,8 +125,8 @@
     "tutor:megapunch",
     "tutor:mudslap",
     "tutor:outrage",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:suckerpunch",
     "tutor:superpower",
     "tutor:synthesis",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_banshed",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_banshed",
       "texture": "cobblemon:textures/pokemon/isiah/banshed.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/banshed_shiny.png"
-    }  ]
+    }
+  ]
 }

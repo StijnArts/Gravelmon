@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cursour",
-  "nationalPokedexNumber": 2049,
+  "nationalPokedexNumber": 3612,
   "primaryType": "electric",
   "secondaryType": "grass",
   "abilities": [
@@ -55,7 +55,7 @@
     "tm:shockwave",
     "tm:grassyglide",
     "tm:helpinghand",
-    "tm:snoresound",
+    "tm:snore",
     "tm:terrainpulse",
     "tm:fling",
     "tm:nastyplot",
@@ -90,8 +90,8 @@
     "tm:protect",
     "tm:psychup",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:strength",
     "tm:substitute",
     "tm:swagger",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_aklyteor",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_aklyteor",
       "texture": "cobblemon:textures/pokemon/kuria/aklyteor.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/aklyteor_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_basculips",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_basculips",
       "texture": "cobblemon:textures/pokemon/amavi/basculips.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/basculips_shiny.png"
-    }  ]
+    }
+  ]
 }

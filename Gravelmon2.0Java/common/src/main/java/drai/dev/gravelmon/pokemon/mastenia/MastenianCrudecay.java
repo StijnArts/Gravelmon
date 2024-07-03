@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.mastenia;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class MastenianCrudecay extends drai.dev.gravelmon.pokemon.Pokemon {
-    public MastenianCrudecay(int dex) {
-        super(dex, "Crudecay",
+    public MastenianCrudecay(String name, Aspect aspect) {
+        super(name, aspect, "Crudecay",
                 Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,

@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.infinity;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -118,5 +119,7 @@ public class Sunflorid extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
                 this.setPreEvolution("sunflora");
+        addAdditionalEvolution("sunflora", new EvolutionEntry("sunflorid", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.INCINERATE, "")),
+                List.of(),List.of(),"cobblemon:fire_stone"));
     }
 }

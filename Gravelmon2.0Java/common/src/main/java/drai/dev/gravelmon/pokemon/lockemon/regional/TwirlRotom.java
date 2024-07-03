@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class TwirlRotom extends Pokemon {
-    public TwirlRotom(int dexNo) {
-        super(dexNo,"TwirlRotom",
+    public TwirlRotom(String name, Aspect aspect) {
+        super(name, aspect,"TwirlRotom",
                 Type.ELECTRIC, Type.FAIRY,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.CUTE_CHARM,

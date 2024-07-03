@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianConkeldurr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianConkeldurr(int dex) {
-        super(dex, "Conkeldurr",
+    public FligianConkeldurr(String name, Aspect aspect) {
+        super(name, aspect, "Conkeldurr",
                 Type.FIGHTING,
                 new Stats(105,
                         140,

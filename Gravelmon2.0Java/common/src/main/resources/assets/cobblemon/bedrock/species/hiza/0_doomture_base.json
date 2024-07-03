@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_doomture",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_doomture",
       "texture": "cobblemon:textures/pokemon/hiza/doomture.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/doomture_shiny.png"
-    }  ]
+    }
+  ]
 }

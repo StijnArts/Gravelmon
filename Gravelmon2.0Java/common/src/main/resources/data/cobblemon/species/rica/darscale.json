@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "darscale",
-  "nationalPokedexNumber": 1383,
+  "nationalPokedexNumber": 1384,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -103,10 +103,10 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:raindance",
-    "tm:roarsound",
+    "tm:roar",
     "tm:torment",
     "tm:taunt",
     "tm:workup",

@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 public class HoennianPinsir extends Pokemon {
-    public HoennianPinsir(int dexNo) {
-        super(dexNo,"HoennianPinsir",
+    public HoennianPinsir(String name, Aspect aspect) {
+        super(name, aspect,"HoennianPinsir",
                 Type.BUG, Type.GROUND,
                 new Stats(65, 105, 80, 50, 55, 50),
                 List.of(Ability.PURE_POWER), Ability.PURE_POWER,

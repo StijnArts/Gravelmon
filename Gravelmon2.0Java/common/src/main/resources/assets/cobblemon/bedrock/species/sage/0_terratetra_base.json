@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_terratetra",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_terratetra",
       "texture": "cobblemon:textures/pokemon/sage/terratetra.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/terratetra_shiny.png"
-    }  ]
+    }
+  ]
 }

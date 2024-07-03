@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yolkid",
-  "nationalPokedexNumber": 2829,
+  "nationalPokedexNumber": 4816,
   "primaryType": "normal",
   "abilities": [
     "cutecharm",
@@ -60,8 +60,8 @@
     "31:flail",
     "33:eggbomb",
     "33:rest",
-    "33:sleeptalksound",
-    "33:snoresound",
+    "33:sleeptalk",
+    "33:snore",
     "35:triattack",
     "41:shellsmash",
     "tm:headbutt",

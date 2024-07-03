@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_sandan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_sandan",
       "texture": "cobblemon:textures/pokemon/atlas/sandan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/sandan_shiny.png"
-    }  ]
+    }
+  ]
 }

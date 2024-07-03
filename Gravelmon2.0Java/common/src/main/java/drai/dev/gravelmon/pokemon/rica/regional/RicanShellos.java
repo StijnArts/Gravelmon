@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.rica.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 public class RicanShellos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public RicanShellos(int dex) {
-        super(dex, "RicanShellos",
+    public RicanShellos(String name, Aspect aspect) {
+        super(name, aspect, "RicanShellos",
                 Type.ROCK, Type.FIRE,
                 new Stats(76,
                         48,

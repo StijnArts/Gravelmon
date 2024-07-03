@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_strappen",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_strappen",
       "texture": "cobblemon:textures/pokemon/mythire/strappen.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/strappen_shiny.png"
-    }  ]
+    }
+  ]
 }

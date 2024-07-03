@@ -1,10 +1,12 @@
 package drai.dev.gravelmon.pokemon.blazingemerald;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
 
 import java.util.*;
 
@@ -85,5 +87,8 @@ public class Slingray extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("remoraid");
+        addAdditionalEvolution("remoraid", new EvolutionEntry("slingray", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ROCK_BLAST.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("remoraid", new MoveLearnSetEntry(Move.ROCK_BLAST,"34"));
     }
 }

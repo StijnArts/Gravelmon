@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:realideasystem_flamelin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:realideasystem_flamelin",
       "texture": "cobblemon:textures/pokemon/realideasystem/flamelin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/realideasystem/flamelin_shiny.png"
-    }  ]
+    }
+  ]
 }

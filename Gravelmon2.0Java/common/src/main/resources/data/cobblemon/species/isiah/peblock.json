@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "peblock",
-  "nationalPokedexNumber": 2408,
+  "nationalPokedexNumber": 4303,
   "primaryType": "rock",
   "abilities": [
     "sturdy",
@@ -54,7 +54,7 @@
     "9:rockthrow",
     "18:rockblast",
     "22:mudsport",
-    "27:powergemcrystal",
+    "27:powergem",
     "30:spikecannon",
     "33:sandstorm",
     "46:selfdestruct",

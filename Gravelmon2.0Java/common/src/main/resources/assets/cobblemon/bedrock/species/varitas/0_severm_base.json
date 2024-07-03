@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_severm",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_severm",
       "texture": "cobblemon:textures/pokemon/varitas/severm.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/severm_shiny.png"
-    }  ]
+    }
+  ]
 }

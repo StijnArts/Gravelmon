@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_illuseon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_illuseon",
       "texture": "cobblemon:textures/pokemon/kuria/illuseon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/illuseon_shiny.png"
-    }  ]
+    }
+  ]
 }

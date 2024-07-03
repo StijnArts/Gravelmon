@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blizentork",
-  "nationalPokedexNumber": 2880,
+  "nationalPokedexNumber": 4867,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
@@ -83,7 +83,7 @@
     "tm:fly",
     "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
@@ -109,7 +109,7 @@
     "egg:smellingsalts",
     "egg:splash",
     "egg:swagger",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:waterpulse",
     "egg:wish"  ],
   "labels": [

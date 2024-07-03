@@ -91,14 +91,14 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:miraclewill",
     "tm:strength",
     "tutor:counter",
     "tutor:fling",
     "tutor:helpinghand",
     "tutor:ironhead",
-    "tutor:snoresound"  ],
+    "tutor:snore"  ],
   "labels": [
     "sage",
     "not_modeled"

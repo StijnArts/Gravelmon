@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_sloggin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_sloggin",
       "texture": "cobblemon:textures/pokemon/enjin/sloggin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/sloggin_shiny.png"
-    }  ]
+    }
+  ]
 }

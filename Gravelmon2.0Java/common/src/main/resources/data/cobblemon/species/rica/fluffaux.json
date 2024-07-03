@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fluffaux",
-  "nationalPokedexNumber": 1300,
+  "nationalPokedexNumber": 1301,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -60,7 +60,7 @@
     "37:lightscreen",
     "41:psychic",
     "46:ragepowder",
-    "50:bugbuzzsound",
+    "50:bugbuzz",
     "55:wonderroom",
     "tm:gigadrain",
     "tm:mysticalfire",
@@ -81,7 +81,7 @@
     "tm:sludgebomb",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",

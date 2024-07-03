@@ -1,0 +1,59 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hizianaron-1",
+      "pokemon": "aron hizian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-27",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert",
+"#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltaaron-1",
+      "pokemon": "aron delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-25",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_soul_sand",
+"#cobblemon:is_nether_soul_fire",
+"#cobblemon:is_nether_basalt" ]
+      }
+    }
+,
+    {
+      "id": "ayreianaron-1",
+      "pokemon": "aron ayreian",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-25",
+      "weight": 7.0,
+      "condition": {
+
+      }
+    }
+
+]
+}

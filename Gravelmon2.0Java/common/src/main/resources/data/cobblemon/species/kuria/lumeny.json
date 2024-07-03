@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lumeny",
-  "nationalPokedexNumber": 2354,
+  "nationalPokedexNumber": 4249,
   "primaryType": "light",
   "secondaryType": "fairy",
   "abilities": [
@@ -53,7 +53,7 @@
     "10:whirlpool",
     "13:helpinghand",
     "17:charm",
-    "21:singsound",
+    "21:sing",
     "26:drainingkiss",
     "30:sweetkiss",
     "38:aquaring",

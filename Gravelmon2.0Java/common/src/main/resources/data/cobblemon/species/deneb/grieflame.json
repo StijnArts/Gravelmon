@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grieflame",
-  "nationalPokedexNumber": 2821,
+  "nationalPokedexNumber": 4808,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
@@ -79,7 +79,7 @@
     "tm:flash",
     "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:nastyplot",
     "tutor:rest",
     "tutor:toxic",

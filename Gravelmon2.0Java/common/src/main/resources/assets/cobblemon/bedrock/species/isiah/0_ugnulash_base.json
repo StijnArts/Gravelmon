@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_ugnulash",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_ugnulash",
       "texture": "cobblemon:textures/pokemon/isiah/ugnulash.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/ugnulash_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ionos.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianKarrablast extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianKarrablast(int dex) {
-        super(dex, "Karrablast",
+    public IonosianKarrablast(String name, Aspect aspect) {
+        super(name, aspect, "Karrablast",
                 Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,

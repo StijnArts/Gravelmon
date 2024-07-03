@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_vauxee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_vauxee",
       "texture": "cobblemon:textures/pokemon/midamis/vauxee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/vauxee_shiny.png"
-    }  ]
+    }
+  ]
 }

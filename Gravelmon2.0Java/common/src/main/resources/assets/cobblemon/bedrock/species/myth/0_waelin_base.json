@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_waelin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_waelin",
       "texture": "cobblemon:textures/pokemon/myth/waelin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/waelin_shiny.png"
-    }  ]
+    }
+  ]
 }

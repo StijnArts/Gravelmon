@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_nudibolt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_nudibolt",
       "texture": "cobblemon:textures/pokemon/enjin/nudibolt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/nudibolt_shiny.png"
-    }  ]
+    }
+  ]
 }

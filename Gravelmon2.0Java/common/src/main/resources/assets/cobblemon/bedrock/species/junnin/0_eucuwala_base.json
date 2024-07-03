@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_eucuwala",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_eucuwala",
       "texture": "cobblemon:textures/pokemon/junnin/eucuwala.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/eucuwala_shiny.png"
-    }  ]
+    }
+  ]
 }

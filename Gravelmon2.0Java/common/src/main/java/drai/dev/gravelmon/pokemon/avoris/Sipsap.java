@@ -1,13 +1,15 @@
 package drai.dev.gravelmon.pokemon.avoris;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Sipsap extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -30,7 +32,7 @@ public class Sipsap extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("They can trace the scent of a Grample's sweet sap from miles away. A group of Sipsap will travel nonstop until they find the sap."),
                 List.of(new EvolutionEntry("ransap", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"210"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(            new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.HOWL,4),

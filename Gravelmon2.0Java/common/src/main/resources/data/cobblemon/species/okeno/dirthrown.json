@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "dirthrown",
+  "nationalPokedexNumber": 4678,
+  "primaryType": "normal",
+  "secondaryType": "poison",
+  "abilities": [
+    "stench",
+    "damp",
+    "h:watercompaction"
+  ],
+  "baseStats": {
+    "hp": 102,
+    "attack": 80,
+    "defence": 90,
+    "special_attack": 83,
+    "special_defence": 92,
+    "speed": 47
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 160,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:defensecurl",
+    "7:bubble",
+    "11:mudsport",
+    "16:clearsmog",
+    "20:slam",
+    "24:mudbomb",
+    "29:slackoff",
+    "31:flail",
+    "36:amnesia",
+    "41:sludgewave",
+    "46:muddywater",
+    "52:wringout",
+    "59:venomdrench",
+    "63:gunkshot",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:darkpulse",
+    "tm:sludgebomb",
+    "tm:curse",
+    "tm:sweetscent",
+    "tm:camouflage",
+    "tm:smellingsalts",
+    "tm:selfdestruct",
+    "tm:explosion",
+    "tm:sandattack",
+    "tm:poisongas",
+    "tm:belch",
+    "tm:bubblebeam",
+    "tm:aquaring"  ],
+  "labels": [
+    "okeno",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.dirthrown.desc"
+  ],
+  "preEvolution": "lundrey",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

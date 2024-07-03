@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_kraboom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_kraboom",
       "texture": "cobblemon:textures/pokemon/interregional/kraboom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/kraboom_shiny.png"
-    }  ]
+    }
+  ]
 }

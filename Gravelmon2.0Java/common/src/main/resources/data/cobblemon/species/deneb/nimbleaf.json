@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nimbleaf",
-  "nationalPokedexNumber": 2706,
+  "nationalPokedexNumber": 4692,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -100,7 +100,7 @@
     "egg:sleeppowder",
     "egg:stunspore",
     "egg:sunnyday",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:vinewhip"  ],
   "labels": [
     "deneb",

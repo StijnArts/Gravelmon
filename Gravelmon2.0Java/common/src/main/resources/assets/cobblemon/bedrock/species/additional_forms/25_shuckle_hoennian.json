@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:shuckle",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:generation2_hoennianshuckle.geo",
+      "poser": "cobblemon:generation2_hoennianshuckle",
+      "texture": "cobblemon:textures/pokemon/generation2/hoennianshuckle/hoennianshuckle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:generation2_hoennianshuckle.geo",
+      "poser": "cobblemon:generation2_hoennianshuckle",
+      "texture": "cobblemon:textures/pokemon/generation2/hoennianshuckle/hoennianshuckle_shiny.png",
+      "layers": []
+    }
+  ]
+}

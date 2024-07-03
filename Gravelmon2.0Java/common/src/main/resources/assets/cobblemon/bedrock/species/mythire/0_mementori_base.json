@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_mementori",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_mementori",
       "texture": "cobblemon:textures/pokemon/mythire/mementori.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/mementori_shiny.png"
-    }  ]
+    }
+  ]
 }

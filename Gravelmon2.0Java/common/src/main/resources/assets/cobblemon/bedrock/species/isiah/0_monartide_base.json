@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_monartide",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_monartide",
       "texture": "cobblemon:textures/pokemon/isiah/monartide.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/monartide_shiny.png"
-    }  ]
+    }
+  ]
 }

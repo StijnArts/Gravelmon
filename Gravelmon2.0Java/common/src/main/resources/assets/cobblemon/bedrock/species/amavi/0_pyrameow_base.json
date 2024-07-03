@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_pyrameow",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_pyrameow",
       "texture": "cobblemon:textures/pokemon/amavi/pyrameow.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/pyrameow_shiny.png"
-    }  ]
+    }
+  ]
 }

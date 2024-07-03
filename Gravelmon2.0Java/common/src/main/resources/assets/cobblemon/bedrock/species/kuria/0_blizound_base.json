@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_blizound",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_blizound",
       "texture": "cobblemon:textures/pokemon/kuria/blizound.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/blizound_shiny.png"
-    }  ]
+    }
+  ]
 }

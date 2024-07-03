@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "siphonowar",
-  "nationalPokedexNumber": 1649,
+  "nationalPokedexNumber": 2247,
   "primaryType": "psychic",
   "abilities": [
     "levitate",
@@ -53,7 +53,7 @@
     "1:moonblast",
     "1:psybeam",
     "1:confuseray",
-    "1:cosmicpowercosmic",
+    "1:cosmicpower",
     "1:calmmind",
     "1:signalbeam",
     "1:moonlight",

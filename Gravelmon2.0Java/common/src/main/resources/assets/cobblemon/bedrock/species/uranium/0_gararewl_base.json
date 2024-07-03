@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_gararewl",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_gararewl",
       "texture": "cobblemon:textures/pokemon/uranium/gararewl.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/gararewl_shiny.png"
-    }  ]
+    }
+  ]
 }

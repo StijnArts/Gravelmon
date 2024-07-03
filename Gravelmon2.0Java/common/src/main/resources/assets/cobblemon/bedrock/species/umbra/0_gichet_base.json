@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_gichet",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_gichet",
       "texture": "cobblemon:textures/pokemon/umbra/gichet.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/gichet_shiny.png"
-    }  ]
+    }
+  ]
 }

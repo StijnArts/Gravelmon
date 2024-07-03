@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_grimandrill",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_grimandrill",
       "texture": "cobblemon:textures/pokemon/qamor/grimandrill.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/grimandrill_shiny.png"
-    }  ]
+    }
+  ]
 }

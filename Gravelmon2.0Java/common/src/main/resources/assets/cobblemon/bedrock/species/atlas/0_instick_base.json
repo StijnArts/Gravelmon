@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_instick",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_instick",
       "texture": "cobblemon:textures/pokemon/atlas/instick.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/instick_shiny.png"
-    }  ]
+    }
+  ]
 }

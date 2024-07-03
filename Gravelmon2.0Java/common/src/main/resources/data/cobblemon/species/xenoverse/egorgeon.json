@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "egorgeon",
-  "nationalPokedexNumber": 1563,
+  "nationalPokedexNumber": 2160,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
@@ -81,7 +81,7 @@
     "tm:flamethrower",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:chargebeam",
     "tm:gigaimpact",
     "tm:voltswitch",
@@ -94,7 +94,7 @@
     "egg:glare",
     "egg:twister",
     "egg:dragondance",
-    "egg:disarmingvoicesound",
+    "egg:disarmingvoice",
     "egg:charm",
     "tutor:aquatail",
     "tutor:bind",
@@ -106,7 +106,7 @@
     "tutor:secretpower",
     "tutor:shockwave",
     "tutor:signalbeam",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:velvetscales"  ],
   "labels": [
     "xenoverse",

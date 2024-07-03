@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_arctalon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_arctalon",
       "texture": "cobblemon:textures/pokemon/avoris/arctalon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/arctalon_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianSkuntank extends Pokemon {
-    public KaskadianSkuntank(int dexNo) {
-        super(dexNo,"KaskadianSkuntank",
+    public KaskadianSkuntank(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianSkuntank",
                 Type.POISON, Type.NORMAL,
                 new Stats(103, 71,67,93,61,84),
                 List.of(Ability.STENCH, Ability.POLLUTION), Ability.FLARE_BOOST,
@@ -93,5 +94,8 @@ public class KaskadianSkuntank extends Pokemon {
                 List.of());
         this.setLangFileName("Skuntank");
         this.setPortraitXYZ(0,1.8,0);
+        addAdditionalEvolution("Skuntank", new EvolutionEntry("skuntank kaskadian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\""))));
     }
 }

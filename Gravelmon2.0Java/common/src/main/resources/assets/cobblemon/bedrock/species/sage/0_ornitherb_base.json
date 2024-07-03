@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_ornitherb",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_ornitherb",
       "texture": "cobblemon:textures/pokemon/sage/ornitherb.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/ornitherb_shiny.png"
-    }  ]
+    }
+  ]
 }

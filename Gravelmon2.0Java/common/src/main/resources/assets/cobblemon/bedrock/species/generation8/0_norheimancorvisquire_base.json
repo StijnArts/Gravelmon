@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:generation8_norheimancorvisquire",
       "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation8/norheimancorvisquire.png",
+      "poser": "cobblemon:replacement_poser",
+      "texture": "cobblemon:textures/pokemon/evolve_me.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation8/norheimancorvisquire_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/evolve_me.png"
+    }
+  ]
 }

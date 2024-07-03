@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:eternalforest_smettle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_smettle",
       "texture": "cobblemon:textures/pokemon/eternalforest/smettle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/eternalforest/smettle_shiny.png"
-    }  ]
+    }
+  ]
 }

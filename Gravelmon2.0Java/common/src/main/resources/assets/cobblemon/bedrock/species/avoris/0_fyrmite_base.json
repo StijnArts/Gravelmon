@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_fyrmite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_fyrmite",
       "texture": "cobblemon:textures/pokemon/avoris/fyrmite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/fyrmite_shiny.png"
-    }  ]
+    }
+  ]
 }

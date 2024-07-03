@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaVenusaur extends Pokemon {
-    public DeltaVenusaur(int dexNo) {
-        super(dexNo,"DeltaVenusaur",
+    public DeltaVenusaur(String name, Aspect aspect) {
+        super(name, aspect,"DeltaVenusaur",
                 Type.FAIRY, Type.PSYCHIC,
                 new Stats(80, 82, 83, 100, 100, 80),
                 List.of(Ability.PSYCHO_CALL), Ability.REGENERATOR,

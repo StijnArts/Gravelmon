@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaMeloetta extends Pokemon {
-    public DeltaMeloetta(int dexNo) {
-        super(dexNo,"DeltaMeloetta",
+    public DeltaMeloetta(String name, Aspect aspect) {
+        super(name, aspect,"DeltaMeloetta",
                 Type.DARK, Type.FAIRY,
                 new Stats(100, 128, 90, 77, 77, 128),
                 List.of(Ability.FILTER), Ability.FILTER,

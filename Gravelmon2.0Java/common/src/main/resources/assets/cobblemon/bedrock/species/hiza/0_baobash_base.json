@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_baobash",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_baobash",
       "texture": "cobblemon:textures/pokemon/hiza/baobash.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/baobash_shiny.png"
-    }  ]
+    }
+  ]
 }

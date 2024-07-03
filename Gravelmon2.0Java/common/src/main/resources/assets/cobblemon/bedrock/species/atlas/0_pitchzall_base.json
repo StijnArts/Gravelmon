@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_pitchzall",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_pitchzall",
       "texture": "cobblemon:textures/pokemon/atlas/pitchzall.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/pitchzall_shiny.png"
-    }  ]
+    }
+  ]
 }

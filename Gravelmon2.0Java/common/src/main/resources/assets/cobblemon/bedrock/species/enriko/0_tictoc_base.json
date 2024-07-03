@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_tictoc",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_tictoc",
       "texture": "cobblemon:textures/pokemon/enriko/tictoc.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/tictoc_shiny.png"
-    }  ]
+    }
+  ]
 }

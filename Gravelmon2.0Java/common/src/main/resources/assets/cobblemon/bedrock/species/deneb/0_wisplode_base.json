@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_wisplode",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_wisplode",
       "texture": "cobblemon:textures/pokemon/deneb/wisplode.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/wisplode_shiny.png"
-    }  ]
+    }
+  ]
 }

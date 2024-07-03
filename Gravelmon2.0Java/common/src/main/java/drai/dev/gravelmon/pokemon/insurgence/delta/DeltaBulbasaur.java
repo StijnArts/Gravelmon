@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaBulbasaur extends Pokemon {
-    public DeltaBulbasaur(int dexNo) {
-        super(dexNo,"DeltaBulbasaur",
+    public DeltaBulbasaur(String name, Aspect aspect) {
+        super(name, aspect,"DeltaBulbasaur",
                 Type.FAIRY, Type.PSYCHIC,
                 new Stats(45, 49, 49, 65, 65, 45),
                 List.of(Ability.PSYCHO_CALL), Ability.REGENERATOR,

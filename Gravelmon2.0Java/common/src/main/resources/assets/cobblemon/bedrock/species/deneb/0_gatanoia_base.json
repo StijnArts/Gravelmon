@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_gatanoia",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_gatanoia",
       "texture": "cobblemon:textures/pokemon/deneb/gatanoia.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/gatanoia_shiny.png"
-    }  ]
+    }
+  ]
 }

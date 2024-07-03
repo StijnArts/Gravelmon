@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.aristos.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class AristosianGrowlithe extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianGrowlithe(int dexNo) {
-        super(dexNo,"AristosianGrowlithe",
+    public AristosianGrowlithe(String name, Aspect aspect) {
+        super(name, aspect,"AristosianGrowlithe",
                 Type.ICE,
                 new Stats(0,
                         0,

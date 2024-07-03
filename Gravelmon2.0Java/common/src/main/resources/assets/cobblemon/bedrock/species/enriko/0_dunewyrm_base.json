@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_dunewyrm",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_dunewyrm",
       "texture": "cobblemon:textures/pokemon/enriko/dunewyrm.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/dunewyrm_shiny.png"
-    }  ]
+    }
+  ]
 }

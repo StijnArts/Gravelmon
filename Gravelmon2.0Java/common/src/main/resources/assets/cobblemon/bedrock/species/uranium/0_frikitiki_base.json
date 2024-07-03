@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_frikitiki",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_frikitiki",
       "texture": "cobblemon:textures/pokemon/uranium/frikitiki.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/frikitiki_shiny.png"
-    }  ]
+    }
+  ]
 }

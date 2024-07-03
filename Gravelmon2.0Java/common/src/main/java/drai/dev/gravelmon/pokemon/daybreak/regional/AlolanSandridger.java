@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.daybreak.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AlolanSandridger extends Pokemon {
-    public AlolanSandridger(int dexNo) {
-        super(dexNo, "AlolanSandridger",
+    public AlolanSandridger(String name, Aspect aspect) {
+        super(name, aspect,"AlolanSandridger",
                 Type.ICE, Type.STEEL,
                 new Stats(75, 130, 140, 25, 85, 95),
                 List.of(Ability.EARTH_EATER), Ability.SLUSH_RUSH,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porygonwes",
-  "nationalPokedexNumber": 1558,
+  "nationalPokedexNumber": 2155,
   "primaryType": "normal",
   "secondaryType": "sound",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:wes_update",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:trickroom",
     "1:nastyplot",
@@ -59,11 +69,11 @@
     "25:conversion2",
     "30:agility",
     "35:recover",
-    "40:hypervoicesound",
+    "40:hypervoice",
     "45:triattack",
     "50:magiccoat",
     "55:lockon",
-    "60:boomburstsound",
+    "60:boomburst",
     "65:noiseburst",
     "tm:psyshock",
     "tm:toxic",
@@ -88,8 +98,8 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:energyball",
     "tm:chargebeam",

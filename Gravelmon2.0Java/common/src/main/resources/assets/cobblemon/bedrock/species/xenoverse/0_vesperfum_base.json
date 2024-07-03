@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_vesperfum",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_vesperfum",
       "texture": "cobblemon:textures/pokemon/xenoverse/vesperfum.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/vesperfum_shiny.png"
-    }  ]
+    }
+  ]
 }

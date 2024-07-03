@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianBlitzle extends Pokemon {
-    public SeviianBlitzle(int dexNo) {
-        super(dexNo, "SeviianBlitzle",
+    public SeviianBlitzle(String name, Aspect aspect) {
+        super(name, aspect,"SeviianBlitzle",
                 Type.ICE, Type.ELECTRIC,
                 new Stats(45, 45, 32, 65, 32, 76),
                 List.of(Ability.LIGHTNING_ROD, Ability.ILLUMINATE), Ability.ICE_BODY,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_terrachnid",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_terrachnid",
       "texture": "cobblemon:textures/pokemon/ferroa/terrachnid.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/terrachnid_shiny.png"
-    }  ]
+    }
+  ]
 }

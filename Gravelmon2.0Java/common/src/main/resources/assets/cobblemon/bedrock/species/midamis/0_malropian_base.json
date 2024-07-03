@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_malropian",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_malropian",
       "texture": "cobblemon:textures/pokemon/midamis/malropian.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/malropian_shiny.png"
-    }  ]
+    }
+  ]
 }

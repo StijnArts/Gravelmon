@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_tekagon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_tekagon",
       "texture": "cobblemon:textures/pokemon/myth/tekagon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/tekagon_shiny.png"
-    }  ]
+    }
+  ]
 }

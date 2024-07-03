@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_pachynesis",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_pachynesis",
       "texture": "cobblemon:textures/pokemon/hiza/pachynesis.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/pachynesis_shiny.png"
-    }  ]
+    }
+  ]
 }

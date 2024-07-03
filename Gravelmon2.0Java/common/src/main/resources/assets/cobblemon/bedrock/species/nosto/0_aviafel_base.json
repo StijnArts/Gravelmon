@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_aviafel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_aviafel",
       "texture": "cobblemon:textures/pokemon/nosto/aviafel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/aviafel_shiny.png"
-    }  ]
+    }
+  ]
 }

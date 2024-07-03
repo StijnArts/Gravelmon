@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_lumbrill",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_lumbrill",
       "texture": "cobblemon:textures/pokemon/junnin/lumbrill.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/lumbrill_shiny.png"
-    }  ]
+    }
+  ]
 }

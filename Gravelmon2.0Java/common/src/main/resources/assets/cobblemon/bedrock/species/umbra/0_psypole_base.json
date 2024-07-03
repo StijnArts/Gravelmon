@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_psypole",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_psypole",
       "texture": "cobblemon:textures/pokemon/umbra/psypole.png",
       "layers": []
     },

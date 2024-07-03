@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atrocean",
-  "nationalPokedexNumber": 1271,
+  "nationalPokedexNumber": 1272,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -96,7 +96,7 @@
     "tm:falseswipe",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_squidrift",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_squidrift",
       "texture": "cobblemon:textures/pokemon/sage/squidrift.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/squidrift_shiny.png"
-    }  ]
+    }
+  ]
 }

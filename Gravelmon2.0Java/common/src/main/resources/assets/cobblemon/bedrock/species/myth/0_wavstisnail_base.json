@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_wavstisnail",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_wavstisnail",
       "texture": "cobblemon:textures/pokemon/myth/wavstisnail.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/wavstisnail_shiny.png"
-    }  ]
+    }
+  ]
 }

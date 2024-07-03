@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaHeatmor extends Pokemon {
-    public DeltaHeatmor(int dexNo) {
-        super(dexNo,"DeltaHeatmor",
+    public DeltaHeatmor(String name, Aspect aspect) {
+        super(name, aspect,"DeltaHeatmor",
                 Type.POISON, Type.STEEL,
                 new Stats(85, 97, 66, 105, 66, 65),
                 List.of(Ability.LIQUID_OOZE, Ability.SHEER_FORCE), Ability.MEGA_LAUNCHER,

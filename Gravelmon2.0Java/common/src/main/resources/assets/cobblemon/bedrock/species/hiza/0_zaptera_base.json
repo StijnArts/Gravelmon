@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_zaptera",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_zaptera",
       "texture": "cobblemon:textures/pokemon/hiza/zaptera.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/zaptera_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_velosoil",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_velosoil",
       "texture": "cobblemon:textures/pokemon/atlas/velosoil.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/velosoil_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_ombrella",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_ombrella",
       "texture": "cobblemon:textures/pokemon/okeno/ombrella.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/ombrella_shiny.png"
-    }  ]
+    }
+  ]
 }

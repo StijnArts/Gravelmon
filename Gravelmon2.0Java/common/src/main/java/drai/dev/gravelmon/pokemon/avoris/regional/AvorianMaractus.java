@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.avoris.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 public class AvorianMaractus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AvorianMaractus(int dex) {
-        super(dex, "AvorianMaractus",
+    public AvorianMaractus(String name, Aspect aspect) {
+        super(name, aspect, "AvorianMaractus",
                 Type.GHOST, Type.GRASS,
                 new Stats(75,
                         86,

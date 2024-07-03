@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class CefiranSmeargle extends Pokemon {
-    public CefiranSmeargle(int dexNo) {
-        super(dexNo,"CefiranSmeargle",
+    public CefiranSmeargle(String name, Aspect aspect) {
+        super(name, aspect,"CefiranSmeargle",
                 Type.NORMAL, Type.FIGHTING,
                 new Stats(55,20,35,75,20,45),
                 List.of(Ability.PRANKSTER), Ability.MOODY,

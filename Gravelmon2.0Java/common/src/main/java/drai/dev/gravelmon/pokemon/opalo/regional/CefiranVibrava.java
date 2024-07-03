@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranVibrava extends Pokemon {
-    public CefiranVibrava(int dexNo) {
-        super(dexNo,"CefiranVibrava",
+    public CefiranVibrava(String name, Aspect aspect) {
+        super(name, aspect,"CefiranVibrava",
                 Type.BUG, Type.DRAGON,
                 new Stats(50,70,50,70,50,50),
                 List.of(Ability.STEALTH_WINGED), Ability.STEALTH_WINGED,
@@ -52,5 +53,8 @@ public class CefiranVibrava extends Pokemon {
                 List.of());
         this.setLangFileName("Vibrava");
         setCanFly(true);
+        addAdditionalEvolution("trapinch", new EvolutionEntry("vibrava cefiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_JUNGLE.getId() + ":" + Biome.IS_JUNGLE.getName() +"\""))));
     }
 }

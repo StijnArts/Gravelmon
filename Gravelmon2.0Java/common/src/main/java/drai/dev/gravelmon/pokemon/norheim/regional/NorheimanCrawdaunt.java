@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanCrawdaunt extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanCrawdaunt(int dex, Stats stats) {
-        super(dex, "Crawdaunt",
+    public NorheimanCrawdaunt(String name, Aspect aspect, Stats stats) {
+        super(name, aspect, "Crawdaunt",
                 Type.WATER, Type.STEEL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_serplant",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_serplant",
       "texture": "cobblemon:textures/pokemon/deneb/serplant.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/serplant_shiny.png"
-    }  ]
+    }
+  ]
 }

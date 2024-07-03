@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:crozoic_fauxnidon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_fauxnidon",
       "texture": "cobblemon:textures/pokemon/crozoic/fauxnidon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/crozoic/fauxnidon_shiny.png"
-    }  ]
+    }
+  ]
 }

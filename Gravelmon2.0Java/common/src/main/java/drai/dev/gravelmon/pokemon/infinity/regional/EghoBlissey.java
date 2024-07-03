@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoBlissey extends Pokemon {
-    public EghoBlissey(int dexNo) {
-        super(dexNo,"EghoBlissey",
+    public EghoBlissey(String name, Aspect aspect) {
+        super(name, aspect,"EghoBlissey",
                 Type.FIGHTING, Type.FAIRY,
                 new Stats(135, 255, 55, 10, 10, 75),
                 List.of(Ability.ANGER_POINT, Ability.RECKLESS), Ability.OWN_TEMPO,

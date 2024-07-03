@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_dormidge",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_dormidge",
       "texture": "cobblemon:textures/pokemon/rica/dormidge.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/dormidge_shiny.png"
-    }  ]
+    }
+  ]
 }

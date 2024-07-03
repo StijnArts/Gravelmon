@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_echoral",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_echoral",
       "texture": "cobblemon:textures/pokemon/amavi/echoral.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/echoral_shiny.png"
-    }  ]
+    }
+  ]
 }

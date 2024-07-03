@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_argonacre",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_argonacre",
       "texture": "cobblemon:textures/pokemon/mythire/argonacre.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/argonacre_shiny.png"
-    }  ]
+    }
+  ]
 }

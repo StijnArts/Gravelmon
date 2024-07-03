@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_scuddle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_scuddle",
       "texture": "cobblemon:textures/pokemon/novrai/scuddle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/scuddle_shiny.png"
-    }  ]
+    }
+  ]
 }

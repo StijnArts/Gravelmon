@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ferroa;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 public class LostIslandsLoftival extends drai.dev.gravelmon.pokemon.Pokemon {
-    public LostIslandsLoftival(int dex) {
-        super(dex, "LostIslandsLoftival",
+    public LostIslandsLoftival(String name, Aspect aspect) {
+        super(name, aspect, "LostIslandsLoftival",
                 Type.FIRE, Type.FAIRY,
                 new Stats(72,
                         82,

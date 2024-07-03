@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_veroxifye",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_veroxifye",
       "texture": "cobblemon:textures/pokemon/orohn-havai/veroxifye.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/veroxifye_shiny.png"
-    }  ]
+    }
+  ]
 }

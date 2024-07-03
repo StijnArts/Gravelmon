@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_diloweed",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_diloweed",
       "texture": "cobblemon:textures/pokemon/sage/diloweed.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/diloweed_shiny.png"
-    }  ]
+    }
+  ]
 }

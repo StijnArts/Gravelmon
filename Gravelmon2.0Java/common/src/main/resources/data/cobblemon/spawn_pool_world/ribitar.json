@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ribitar-1",
+      "pokemon": "ribitar",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-31",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sandy" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

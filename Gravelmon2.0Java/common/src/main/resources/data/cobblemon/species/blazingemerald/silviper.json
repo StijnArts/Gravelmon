@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "silviper",
-  "nationalPokedexNumber": 2183,
+  "nationalPokedexNumber": 3746,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -48,6 +48,16 @@
     "dragon",
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:silver_scale",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:swordsdance",
     "10:leechlife",

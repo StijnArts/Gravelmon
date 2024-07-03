@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "florown",
-  "nationalPokedexNumber": 2586,
+  "nationalPokedexNumber": 4481,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -56,7 +56,7 @@
     "tm:confusion",
     "tm:followme",
     "tm:helpinghand",
-    "tm:hypervoicesound",
+    "tm:hypervoice",
     "tm:grasswhistle",
     "tm:magicalleaf",
     "tm:naturalgift"  ],

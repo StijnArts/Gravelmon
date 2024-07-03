@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ionos.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianDruddigon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianDruddigon(int dex) {
-        super(dex, "Druddigon",
+    public IonosianDruddigon(String name, Aspect aspect) {
+        super(name, aspect, "Druddigon",
                 Type.DRAGON, Type.GROUND,
                 new Stats(0,
                         0,

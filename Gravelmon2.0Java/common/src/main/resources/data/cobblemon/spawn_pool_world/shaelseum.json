@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shaelseum-1",
+      "pokemon": "shaelseum",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-51",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave",
+"#cobblemon:is_mountain" ]
+      }
+    }
+  ]
+}

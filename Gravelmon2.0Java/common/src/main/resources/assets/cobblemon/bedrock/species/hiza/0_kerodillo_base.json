@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_kerodillo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_kerodillo",
       "texture": "cobblemon:textures/pokemon/hiza/kerodillo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/kerodillo_shiny.png"
-    }  ]
+    }
+  ]
 }

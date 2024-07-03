@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_goosmire",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_goosmire",
       "texture": "cobblemon:textures/pokemon/hiza/goosmire.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/goosmire_shiny.png"
-    }  ]
+    }
+  ]
 }

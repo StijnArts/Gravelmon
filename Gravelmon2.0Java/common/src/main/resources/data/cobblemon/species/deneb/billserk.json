@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "billserk",
-  "nationalPokedexNumber": 2842,
+  "nationalPokedexNumber": 4829,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -76,7 +76,7 @@
     "tutor:rage",
     "tutor:focusenergy",
     "tutor:heartstamp",
-    "tutor:roarsound",
+    "tutor:roar",
     "tutor:facade",
     "tutor:foresight",
     "tutor:brickbreak",

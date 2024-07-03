@@ -16,7 +16,7 @@
       "weight": 6.0,
       "condition": {
 "biomes": [ "#cobblemon:is_beach",
-"#cobblemon:is_ocean" ],
+"#minecraft:is_ocean" ],
         "canSeeSky": true
       },
       "anticondition": {

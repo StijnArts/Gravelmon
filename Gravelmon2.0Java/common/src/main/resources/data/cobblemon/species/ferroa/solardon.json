@@ -1,0 +1,164 @@
+{
+  "implemented": true,
+  "name": "solardon",
+  "nationalPokedexNumber": 1719,
+  "primaryType": "rock",
+  "abilities": [
+    "mirrorarmor",
+    "solarpower",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 85,
+    "defence": 95,
+    "special_attack": 85,
+    "special_defence": 110,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "mineral"
+  ],
+  "moves": [
+    "1:sunnyday",
+    "4:focusenergy",
+    "6:endure",
+    "9:rockthrow",
+    "13:bide",
+    "18:headbutt",
+    "26:ancientpower",
+    "31:crunch",
+    "36:mirrorcoat",
+    "49:superfang",
+    "55:headsmash",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:dig",
+    "tm:firefang",
+    "tm:heavyslam",
+    "tm:ironhead",
+    "tm:scaleshot",
+    "tm:scorchingsands",
+    "tm:spikes",
+    "tm:superpower",
+    "tm:thunderfang",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bide",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:dragonrage",
+    "tm:dragontail",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fissure",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:mimic",
+    "tm:overheat",
+    "tm:powergem",
+    "tm:protect",
+    "tm:rage",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:mirrorshot",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:workup"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.solardon.desc"
+  ],
+  "preEvolution": "shardodon",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

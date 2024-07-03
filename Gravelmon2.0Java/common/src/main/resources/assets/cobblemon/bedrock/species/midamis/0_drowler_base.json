@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_drowler",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_drowler",
       "texture": "cobblemon:textures/pokemon/midamis/drowler.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/drowler_shiny.png"
-    }  ]
+    }
+  ]
 }

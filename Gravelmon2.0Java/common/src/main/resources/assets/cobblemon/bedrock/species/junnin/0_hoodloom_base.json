@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_hoodloom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_hoodloom",
       "texture": "cobblemon:textures/pokemon/junnin/hoodloom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/hoodloom_shiny.png"
-    }  ]
+    }
+  ]
 }

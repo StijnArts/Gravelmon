@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaRemoraid extends Pokemon {
-    public DeltaRemoraid(int dexNo) {
-        super(dexNo,"DeltaRemoraid",
+    public DeltaRemoraid(String name, Aspect aspect) {
+        super(name, aspect,"DeltaRemoraid",
                 Type.FIRE,
                 new Stats(35, 65,35,65,35,65),
                 List.of(Ability.HEATPROOF, Ability.WHITE_SMOKE), Ability.CONTRARY,

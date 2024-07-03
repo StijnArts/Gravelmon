@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:generation4_deltacroagunk",
       "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation4/deltacroagunk.png",
+      "poser": "cobblemon:replacement_poser",
+      "texture": "cobblemon:textures/pokemon/evolve_me.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation4/deltacroagunk_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/evolve_me.png"
+    }
+  ]
 }

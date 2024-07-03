@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.norheim;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -26,7 +27,7 @@ public class Beboink extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("Yoikid", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.GROWL,4),

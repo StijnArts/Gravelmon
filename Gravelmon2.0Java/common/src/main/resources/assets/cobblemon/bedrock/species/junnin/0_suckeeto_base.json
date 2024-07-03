@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_suckeeto",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_suckeeto",
       "texture": "cobblemon:textures/pokemon/junnin/suckeeto.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/suckeeto_shiny.png"
-    }  ]
+    }
+  ]
 }

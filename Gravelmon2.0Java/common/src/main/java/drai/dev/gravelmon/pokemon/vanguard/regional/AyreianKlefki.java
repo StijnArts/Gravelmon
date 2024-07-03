@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianKlefki extends Pokemon {
-    public AyreianKlefki(int dexNo) {
-        super(dexNo,"AyreianKlefki",
+    public AyreianKlefki(String name, Aspect aspect) {
+        super(name, aspect,"AyreianKlefki",
                 Type.ELECTRIC, Type.FAIRY,
                 new Stats(57,80,95,75,100,95),
                 List.of(Ability.LEVITATE), Ability.PRANKSTER,

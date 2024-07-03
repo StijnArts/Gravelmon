@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.aristos.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class AristosianArcanine extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianArcanine(int dexNo) {
-        super(dexNo,"AristosianArcanine",
+    public AristosianArcanine(String name, Aspect aspect) {
+        super(name, aspect,"AristosianArcanine",
                 Type.ICE, Type.PSYCHIC,
                 new Stats(115,
                         70,

@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.vega;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -103,5 +104,9 @@ public class Sevicrush extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());
+        addAdditionalEvolution("seviper", new EvolutionEntry("sevicrush", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"zangoose\""))));
+        addAdditionalEvolution("seviper", new EvolutionEntry("sevicrush", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:dusk_stone"));
     }
 }

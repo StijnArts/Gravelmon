@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_kilokatta",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_kilokatta",
       "texture": "cobblemon:textures/pokemon/fliga/kilokatta.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/kilokatta_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_freicat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_freicat",
       "texture": "cobblemon:textures/pokemon/norheim/freicat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/freicat_shiny.png"
-    }  ]
+    }
+  ]
 }

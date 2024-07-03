@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terathwack",
-  "nationalPokedexNumber": 1424,
+  "nationalPokedexNumber": 1425,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "monster"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:long_club",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:bonesweep",
     "1:boneclub",
@@ -73,7 +83,7 @@
     "66:headcharge",
     "71:wideguard",
     "78:lastresort",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:bulkup",
@@ -104,8 +114,8 @@
     "tm:attract",
     "tm:thief",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:falseswipe",
     "tm:fling",
@@ -144,8 +154,8 @@
     "tutor:megapunch",
     "tutor:mudslap",
     "tutor:outrage",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:stealthrock",
     "tutor:thunderpunch",
     "tutor:uproar",
@@ -155,9 +165,9 @@
     "egg:detect",
     "egg:doublekick",
     "egg:endure",
-    "egg:perishsongsound",
+    "egg:perishsong",
     "egg:quickguard",
-    "egg:screechsound",
+    "egg:screech",
     "egg:skullbash"  ],
   "labels": [
     "infinity",

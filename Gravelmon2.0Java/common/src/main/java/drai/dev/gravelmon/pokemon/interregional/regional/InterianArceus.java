@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.interregional.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class InterianArceus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public InterianArceus(int dex) {
-        super(dex ,"Arceus",
+    public InterianArceus(String name, Aspect aspect) {
+        super(name, aspect,"Arceus",
                 Type.NORMAL,
                 new Stats(120,
                         100,

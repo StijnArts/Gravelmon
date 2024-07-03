@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianTropius extends Pokemon {
-    public KaskadianTropius(int dexNo) {
-        super(dexNo,"KaskadianTropius",
+    public KaskadianTropius(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianTropius",
                 Type.GRASS, Type.GROUND,
                 new Stats(110, 75, 110, 55, 90, 20),
                 List.of(Ability.ROOT_CONTROL, Ability.ARENA_TRAP), Ability.HARVEST,

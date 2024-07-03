@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clotaku",
-  "nationalPokedexNumber": 2745,
+  "nationalPokedexNumber": 4732,
   "primaryType": "poison",
   "abilities": [
     "stench",
@@ -80,7 +80,7 @@
     "tm:explosion",
     "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
@@ -110,7 +110,7 @@
     "egg:raindance",
     "egg:seismictoss",
     "egg:snatch",
-    "egg:snoresound",
+    "egg:snore",
     "egg:sunnyday",
     "egg:switcheroo",
     "egg:thrash",

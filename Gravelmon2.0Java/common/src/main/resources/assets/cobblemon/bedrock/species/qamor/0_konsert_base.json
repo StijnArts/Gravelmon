@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_konsert",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_konsert",
       "texture": "cobblemon:textures/pokemon/qamor/konsert.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/konsert_shiny.png"
-    }  ]
+    }
+  ]
 }

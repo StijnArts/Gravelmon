@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:nidorimewintercoat",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "summer"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_nidorimesummercoat",
+      "texture": "cobblemon:textures/pokemon/flux/nidorimesummercoat.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "summer",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_nidorimesummercoat",
+      "texture": "cobblemon:textures/pokemon/flux/nidorimesummercoat_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

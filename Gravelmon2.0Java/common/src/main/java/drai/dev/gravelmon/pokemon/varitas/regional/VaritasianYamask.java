@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianYamask extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianYamask(int dex) {
-        super(dex, "Yamask",
+    public VaritasianYamask(String name, Aspect aspect) {
+        super(name, aspect, "Yamask",
                 Type.GHOST, Type.STEEL,
                 new Stats(38,
                         30,

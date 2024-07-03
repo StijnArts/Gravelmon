@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class JoltikX extends Pokemon {
-    public JoltikX(int dexNo) {
-        super(dexNo,"JoltikX",
+    public JoltikX(String name, Aspect aspect) {
+        super(name, aspect,"JoltikX",
                 Type.BUG, Type.ICE,
                 new Stats(50, 47, 40, 57, 40, 85),
                 List.of(Ability.COMPOUND_EYES, Ability.SHIELD_DUST), Ability.REFRIGERATE,

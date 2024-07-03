@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoofern",
-  "nationalPokedexNumber": 2142,
+  "nationalPokedexNumber": 3705,
   "primaryType": "grass",
   "abilities": [
     "harvest",
@@ -79,7 +79,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:energyball",
     "tm:payback",
     "tm:swordsdance",
@@ -87,13 +87,13 @@
     "tm:rockslide",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:rocksmash",
     "tm:naturepower",
     "tm:confide",
     "tm:strength",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:lowkick",
     "tutor:worryseed",
     "tutor:gigadrain",
@@ -112,7 +112,7 @@
   "preEvolution": "oviseed",
   "evolutions": [
     {
-      "id": "hoofern_Asparies",
+      "id": "hoofern_asparies",
       "variant": "level_up",
       "result": "Asparies",
       "consumeHeldItem": false,

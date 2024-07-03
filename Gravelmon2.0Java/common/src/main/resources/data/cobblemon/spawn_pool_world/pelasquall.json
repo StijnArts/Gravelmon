@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pelasquall-1",
+      "pokemon": "pelasquall",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "34-56",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_coast" ],
+        "canSeeSky": true,
+        "isRaining": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_beach" ]    }
+    }
+  ]
+}

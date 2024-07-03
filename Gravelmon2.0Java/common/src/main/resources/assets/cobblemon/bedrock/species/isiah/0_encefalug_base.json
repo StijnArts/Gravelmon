@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_encefalug",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_encefalug",
       "texture": "cobblemon:textures/pokemon/isiah/encefalug.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/encefalug_shiny.png"
-    }  ]
+    }
+  ]
 }

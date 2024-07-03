@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_nuptielle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_nuptielle",
       "texture": "cobblemon:textures/pokemon/enjin/nuptielle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/nuptielle_shiny.png"
-    }  ]
+    }
+  ]
 }

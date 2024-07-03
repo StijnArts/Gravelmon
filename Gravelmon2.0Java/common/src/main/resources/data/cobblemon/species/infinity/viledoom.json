@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "viledoom",
-  "nationalPokedexNumber": 1448,
+  "nationalPokedexNumber": 1449,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -84,7 +84,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:overheat",
     "tm:allyswitch",
     "tm:energyball",
@@ -132,7 +132,7 @@
   "pokedex": [
     "cobblemon.species.viledoom.desc"
   ],
-  "preEvolution": "eghogloom",
+  "preEvolution": "gloom form=egho",
   "baseScale": 0.7,
   "hitbox": {
     "width": 0.7,

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.myth.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MythianVolcarona extends Pokemon {
-    public MythianVolcarona(int dexNo) {
-        super(dexNo,"MythianVolcarona",
+    public MythianVolcarona(String name, Aspect aspect) {
+        super(name, aspect,"MythianVolcarona",
                 Type.PSYCHIC, Type.FAIRY,
                 new Stats(85,60,65,100,135,105),
                 List.of(Ability.ADAPTABILITY, Ability.DAZZLING), Ability.MISTY_SURGE,

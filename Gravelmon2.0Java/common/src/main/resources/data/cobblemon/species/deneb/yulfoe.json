@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yulfoe",
-  "nationalPokedexNumber": 2859,
+  "nationalPokedexNumber": 4846,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
@@ -53,7 +53,7 @@
     "1:confuseray",
     "1:icepunch",
     "1:thunderpunch",
-    "1:sonicboomsound",
+    "1:sonicboom",
     "6:disable",
     "9:psywave",
     "20:electroweb",
@@ -101,7 +101,7 @@
     "tutor:nastyplot",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:cosmicpowercosmic"  ],
+    "tutor:cosmicpower"  ],
   "labels": [
     "deneb",
     "not_modeled"

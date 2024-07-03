@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.daybreak.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ArmiranSceptile extends Pokemon {
-    public ArmiranSceptile(int dexNo) {
-        super(dexNo,"ArmiranSceptile",
+    public ArmiranSceptile(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranSceptile",
                 Type.POISON,
                 new Stats(70, 105, 65, 85, 85, 120),
                 List.of(Ability.INFILTRATOR, Ability.POISON_TOUCH), Ability.SHED_SKIN,
@@ -118,5 +119,8 @@ public class ArmiranSceptile extends Pokemon {
         this.setLangFileName("Sceptile");
         this.setPortraitXYZ(0,1.8,0);
         setPreEvolution("Grovyle");
+        addAdditionalEvolution("grovyle", new EvolutionEntry("sceptile armiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SWAMP.getId() + ":" + Biome.IS_SWAMP.getName() +"\""))));
     }
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_rapteror",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_rapteror",
       "texture": "cobblemon:textures/pokemon/junnin/rapteror.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/rapteror_shiny.png"
-    }  ]
+    }
+  ]
 }

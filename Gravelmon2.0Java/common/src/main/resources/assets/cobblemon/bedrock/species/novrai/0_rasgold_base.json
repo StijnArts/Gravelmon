@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_rasgold",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_rasgold",
       "texture": "cobblemon:textures/pokemon/novrai/rasgold.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/rasgold_shiny.png"
-    }  ]
+    }
+  ]
 }

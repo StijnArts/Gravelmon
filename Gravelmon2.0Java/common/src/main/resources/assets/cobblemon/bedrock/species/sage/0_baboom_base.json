@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_baboom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_baboom",
       "texture": "cobblemon:textures/pokemon/sage/baboom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/baboom_shiny.png"
-    }  ]
+    }
+  ]
 }

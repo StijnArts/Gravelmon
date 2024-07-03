@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_urchanted",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_urchanted",
       "texture": "cobblemon:textures/pokemon/amavi/urchanted.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/urchanted_shiny.png"
-    }  ]
+    }
+  ]
 }

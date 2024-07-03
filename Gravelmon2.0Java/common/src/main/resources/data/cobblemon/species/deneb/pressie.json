@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pressie",
-  "nationalPokedexNumber": 2782,
+  "nationalPokedexNumber": 4769,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -50,7 +50,7 @@
   "moves": [
     "1:growl",
     "1:powdersnow",
-    "1:singsound",
+    "1:sing",
     "1:watergun",
     "4:mist",
     "7:confuseray",
@@ -113,9 +113,9 @@
     "egg:psybeam",
     "egg:raindance",
     "egg:refresh",
-    "egg:roarsound",
-    "egg:sleeptalksound",
-    "egg:snoresound",
+    "egg:roar",
+    "egg:sleeptalk",
+    "egg:snore",
     "egg:thunder",
     "egg:thunderbolt",
     "egg:tickle",
@@ -144,9 +144,9 @@
       "permanent": true   
  },
     {
-      "id": "pressie_kaskadianlapras",
+      "id": "pressie_lapras_kaskadian",
       "variant": "level_up",
-      "result": "kaskadianlapras",
+      "result": "lapras kaskadian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -158,9 +158,9 @@
       "permanent": true   
  },
     {
-      "id": "pressie_mythianlapras",
+      "id": "pressie_lapras_mythian",
       "variant": "level_up",
-      "result": "mythianlapras",
+      "result": "lapras mythian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -172,9 +172,9 @@
       "permanent": true   
  },
     {
-      "id": "pressie_novranlapras",
+      "id": "pressie_lapras_novran",
       "variant": "item_interact",
-      "result": "novranlapras",
+      "result": "lapras novran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

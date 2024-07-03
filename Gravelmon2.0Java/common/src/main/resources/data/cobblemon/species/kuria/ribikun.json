@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ribikun",
-  "nationalPokedexNumber": 2295,
+  "nationalPokedexNumber": 4190,
   "primaryType": "ground",
   "abilities": [
     "dryskin",
@@ -50,7 +50,7 @@
   "moves": [
     "1:mudslap",
     "1:watergun",
-    "5:snoresound",
+    "5:snore",
     "9:mudsport",
     "13:waterpulse",
     "18:mudshot",

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianCamerupt extends Pokemon {
-    public AyreianCamerupt(int dexNo) {
-        super(dexNo,"AyreianCamerupt",
+    public AyreianCamerupt(String name, Aspect aspect) {
+        super(name, aspect,"AyreianCamerupt",
                 Type.WATER, Type.GROUND,
                 new Stats(100,80,75,40,115,80),
                 List.of(Ability.UNAWARE, Ability.SAP_SIPPER), Ability.BERSERK,

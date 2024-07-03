@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nidorook",
-  "nationalPokedexNumber": 1408,
+  "nationalPokedexNumber": 1409,
   "primaryType": "poison",
   "secondaryType": "ground",
   "abilities": [
@@ -40,7 +40,7 @@
     }
   },
   "catchRate": 45,
-  "maleRatio": 0.5,
+  "maleRatio": 1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 214,
   "experienceGroup": "medium_slow",
@@ -49,6 +49,21 @@
     "field",
     "monster"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:barbedtackle",
     "1:leer",
@@ -69,7 +84,7 @@
     "58:earthquake",
     "62:megahorn",
     "tm:dragonclaw",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -100,8 +115,8 @@
     "tm:rest",
     "tm:thief",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:focusblast",
     "tm:fling",
     "tm:quash",
@@ -141,16 +156,17 @@
     "egg:venomswipe"  ],
   "labels": [
     "infinity",
+    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.nidorook.desc"
   ],
   "preEvolution": "nidorino",
-  "baseScale": 1.0,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 1.0,
-    "height": 1.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,180 @@
+{
+   "target": "cobblemon:amaura",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "grass",
+  "secondaryType": "water",
+  "abilities": [
+    "friendguard",
+    "h:phototroph"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 59,
+    "defence": 50,
+    "special_attack": 67,
+    "special_defence": 63,
+    "speed": 46
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:growl",
+    "1:absorb",
+    "5:mudsport",
+    "10:watergun",
+    "13:mudslap",
+    "15:bodyslam",
+    "18:aquaring",
+    "20:megadrain",
+    "26:muddywater",
+    "30:mudbomb",
+    "34:gigadrain",
+    "38:sunnyday",
+    "41:naturepower",
+    "44:reflecttype",
+    "47:recover",
+    "50:solarbeam",
+    "57:hyperbeam",
+    "65:hydropump",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:recycle",
+    "tm:energyball",
+    "tm:brine",
+    "tm:psychup",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:achillesheel",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:acid",
+    "tutor:ancientpower",
+    "tutor:bodyslam",
+    "tutor:bulletseed",
+    "tutor:endure",
+    "tutor:gigadrain",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:snore",
+    "tutor:synthesis",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:whirlpool",
+    "tutor:wonderroom",
+    "tutor:worryseed",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen6",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaamaura.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "amaura_aurorus_delta",
+      "variant": "level_up",
+      "result": "aurorus delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 39
+        },
+        {
+          "variant": "time_range",
+          "range": day
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 252,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

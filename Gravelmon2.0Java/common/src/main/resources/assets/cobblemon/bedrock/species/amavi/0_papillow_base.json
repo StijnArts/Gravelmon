@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_papillow",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_papillow",
       "texture": "cobblemon:textures/pokemon/amavi/papillow.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/papillow_shiny.png"
-    }  ]
+    }
+  ]
 }

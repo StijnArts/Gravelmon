@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_hivernate",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_hivernate",
       "texture": "cobblemon:textures/pokemon/amavi/hivernate.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/hivernate_shiny.png"
-    }  ]
+    }
+  ]
 }

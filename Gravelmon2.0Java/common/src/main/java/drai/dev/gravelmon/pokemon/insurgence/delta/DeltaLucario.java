@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaLucario extends Pokemon {
-    public DeltaLucario(int dexNo) {
-        super(dexNo,"DeltaLucario",
+    public DeltaLucario(String name, Aspect aspect) {
+        super(name, aspect,"DeltaLucario",
                 Type.DARK, Type.GROUND,
                 new Stats(70, 110,70,115,70,90),
                 List.of(Ability.JUSTIFIED, Ability.PRESSURE), Ability.MUMMY,

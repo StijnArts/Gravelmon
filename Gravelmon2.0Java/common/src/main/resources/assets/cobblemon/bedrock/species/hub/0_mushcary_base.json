@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hub_mushcary",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_mushcary",
       "texture": "cobblemon:textures/pokemon/hub/mushcary.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hub/mushcary_shiny.png"
-    }  ]
+    }
+  ]
 }

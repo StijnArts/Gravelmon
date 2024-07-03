@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_goaterr",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_goaterr",
       "texture": "cobblemon:textures/pokemon/norheim/goaterr.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/goaterr_shiny.png"
-    }  ]
+    }
+  ]
 }

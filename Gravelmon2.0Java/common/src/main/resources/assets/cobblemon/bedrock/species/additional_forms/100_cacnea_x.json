@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:cacnea",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:generation3_cacneax.geo",
+      "poser": "cobblemon:generation3_cacneax",
+      "texture": "cobblemon:textures/pokemon/generation3/cacneax/cacneax.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:generation3_cacneax.geo",
+      "poser": "cobblemon:generation3_cacneax",
+      "texture": "cobblemon:textures/pokemon/generation3/cacneax/cacneax_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_fowlkly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_fowlkly",
       "texture": "cobblemon:textures/pokemon/hiza/fowlkly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/fowlkly_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "panome",
-  "nationalPokedexNumber": 3054,
+  "nationalPokedexNumber": 5646,
   "primaryType": "fairy",
   "secondaryType": "grass",
   "abilities": [
@@ -52,7 +52,7 @@
     "1:sleeppowder",
     "1:absorb",
     "1:rest",
-    "1:disarmingvoicesound",
+    "1:disarmingvoice",
     "1:megadrain",
     "1:amnesia",
     "1:magicalleaf",
@@ -61,7 +61,7 @@
     "1:moonlight",
     "1:moonblast",
     "1:fairywind",
-    "1:sleeptalksound",
+    "1:sleeptalk",
     "1:yawn",
     "1:playnice",
     "1:playrough"  ],

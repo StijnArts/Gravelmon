@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabolt",
-  "nationalPokedexNumber": 1525,
+  "nationalPokedexNumber": 2119,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -78,7 +78,7 @@
     "51:eerieimpulse",
     "56:iondeluge",
     "61:volttackle",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:hyperbeam",
@@ -92,7 +92,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:chargebeam",
     "tm:brutalswing",
     "tm:embargo",
@@ -112,9 +112,9 @@
     "tutor:secretpower",
     "tutor:shockwave",
     "tutor:signalbeam",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:snatch",
-    "tutor:snoresound"  ],
+    "tutor:snore"  ],
   "labels": [
     "xenoverse",
     "not_modeled"
@@ -124,9 +124,9 @@
   ],
   "evolutions": [
     {
-      "id": "sabolt_saboltterrestrial",
+      "id": "sabolt_sabolt_terrestrial",
       "variant": "level_up",
-      "result": "saboltterrestrial",
+      "result": "sabolt terrestrial",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -138,9 +138,9 @@
       "permanent": true   
  },
     {
-      "id": "sabolt_saboltxenoversal",
+      "id": "sabolt_sabolt_xenoversal",
       "variant": "level_up",
-      "result": "saboltxenoversal",
+      "result": "sabolt xenoversal",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

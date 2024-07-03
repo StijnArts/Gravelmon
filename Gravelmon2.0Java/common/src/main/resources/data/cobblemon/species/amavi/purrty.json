@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "purrty",
-  "nationalPokedexNumber": 3059,
+  "nationalPokedexNumber": 5651,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -54,7 +54,7 @@
     "17:rollout",
     "19:bugbite",
     "23:gastroacid",
-    "26:snoresound",
+    "26:snore",
     "30:leechlife",
     "37:bodyslam",
     "42:naturalgift",

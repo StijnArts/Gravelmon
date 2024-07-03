@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaBisharp extends Pokemon {
-    public DeltaBisharp(int dexNo) {
-        super(dexNo,"DeltaBisharp",
+    public DeltaBisharp(String name, Aspect aspect) {
+        super(name, aspect,"DeltaBisharp",
                 Type.FLYING, Type.FIGHTING,
                 new Stats(65, 125, 100, 60, 70, 70),
                 List.of(Ability.DEFIANT, Ability.FRISK), Ability.WIND_FORCE,

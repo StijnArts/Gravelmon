@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:cyare_conchorn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_conchorn",
       "texture": "cobblemon:textures/pokemon/cyare/conchorn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/cyare/conchorn_shiny.png"
-    }  ]
+    }
+  ]
 }

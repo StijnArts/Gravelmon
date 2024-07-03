@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianSquirtle extends Pokemon {
-    public AyreianSquirtle(int dexNo) {
-        super(dexNo,"AyreianSquirtle",
+    public AyreianSquirtle(String name, Aspect aspect) {
+        super(name, aspect,"AyreianSquirtle",
                 Type.FIGHTING,
                 new Stats(44, 63, 70, 43, 35, 59),
                 List.of(Ability.BULLETPROOF, Ability.SHELL_ARMOR), Ability.GUTS,

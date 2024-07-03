@@ -103,7 +103,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:miraclewill",
     "tm:strength",
     "tutor:counter",
@@ -115,7 +115,7 @@
     "tutor:irondefense",
     "tutor:ironhead",
     "tutor:megapunch",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:superpower",
     "tutor:thunderpunch"  ],
   "labels": [

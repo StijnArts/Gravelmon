@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianVibrava extends Pokemon {
-    public AyreianVibrava(int dexNo) {
-        super(dexNo,"AyreianVibrava",
+    public AyreianVibrava(String name, Aspect aspect) {
+        super(name, aspect,"AyreianVibrava",
                 Type.BUG, Type.POISON,
                 new Stats(50,40,30,70,80,70),
                 List.of(Ability.DARKENED_SCALES), Ability.DARKENED_SCALES,

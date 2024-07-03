@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_lectrosaur",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_lectrosaur",
       "texture": "cobblemon:textures/pokemon/varitas/lectrosaur.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/lectrosaur_shiny.png"
-    }  ]
+    }
+  ]
 }

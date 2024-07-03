@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_toranya",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_toranya",
       "texture": "cobblemon:textures/pokemon/deneb/toranya.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/toranya_shiny.png"
-    }  ]
+    }
+  ]
 }

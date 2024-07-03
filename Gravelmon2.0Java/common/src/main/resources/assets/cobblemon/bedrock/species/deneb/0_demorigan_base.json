@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_demorigan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_demorigan",
       "texture": "cobblemon:textures/pokemon/deneb/demorigan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/demorigan_shiny.png"
-    }  ]
+    }
+  ]
 }

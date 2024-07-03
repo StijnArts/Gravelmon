@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoVenusaur extends Pokemon {
-    public EghoVenusaur(int dexNo) {
-        super(dexNo,"EghoVenusaur",
+    public EghoVenusaur(String name, Aspect aspect) {
+        super(name, aspect,"EghoVenusaur",
                 Type.GRASS, Type.ROCK,
                 new Stats(80, 109, 88, 90, 100, 67),
                 List.of(Ability.ROUGH_SKIN, Ability.SOLID_ROCK), Ability.SAND_STREAM,

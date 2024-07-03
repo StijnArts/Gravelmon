@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_grizzik",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_grizzik",
       "texture": "cobblemon:textures/pokemon/midamis/grizzik.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/grizzik_shiny.png"
-    }  ]
+    }
+  ]
 }

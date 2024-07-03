@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shaboon",
-  "nationalPokedexNumber": 1480,
+  "nationalPokedexNumber": 1670,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -71,7 +71,7 @@
     "egg:endeavor",
     "egg:mirrorcoat",
     "egg:hypnosis",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:lavaplume",
     "egg:sweetkiss",
     "egg:yawn"  ],

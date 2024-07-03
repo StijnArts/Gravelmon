@@ -1,0 +1,144 @@
+{
+  "implemented": true,
+  "name": "blubelrog",
+  "nationalPokedexNumber": 2400,
+  "primaryType": "water",
+  "secondaryType": "poison",
+  "abilities": [
+    "clearbody",
+    "damp",
+    "h:waterabsorb"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 70,
+    "defence": 75,
+    "special_attack": 105,
+    "special_defence": 115,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 241,
+  "experienceGroup": "fast",
+  "eggCycles": 100,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "1:icywind",
+    "1:bubblebeam",
+    "1:supersonic",
+    "1:poisonsting",
+    "7:pound",
+    "10:acid",
+    "15:bubblebeam",
+    "30:sludge",
+    "34:acidarmor",
+    "39:icebeam",
+    "43:muddywater",
+    "47:sludgewave",
+    "54:focuspunch",
+    "58:hydropump",
+    "tm:aquatail",
+    "tm:attract",
+    "tm:block",
+    "tm:bulkup",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gunkshot",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snore",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:coralbreak",
+    "egg:aurorabeam",
+    "egg:mirrorcoat",
+    "egg:rollout",
+    "egg:haze",
+    "egg:safeguard",
+    "egg:confuseray",
+    "egg:frostbreath"  ],
+  "labels": [
+    "uranium",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.blubelrog.desc"
+  ],
+  "preEvolution": "folerog",
+  "baseScale": 0.47500000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 978,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

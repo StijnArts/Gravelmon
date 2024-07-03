@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticMarshtomp extends Pokemon {
-    public MysticMarshtomp(int dexNo) {
-        super(dexNo,"MysticMarshtomp",
+    public MysticMarshtomp(String name, Aspect aspect) {
+        super(name, aspect,"MysticMarshtomp",
                 Type.FIGHTING, Type.DRAGON,
                 new Stats(70, 85, 70, 50, 70, 60),
                 List.of(Ability.IMMUNITY), Ability.THICK_FAT,

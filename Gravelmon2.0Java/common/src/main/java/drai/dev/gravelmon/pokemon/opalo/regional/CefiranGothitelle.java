@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranGothitelle extends Pokemon {
-    public CefiranGothitelle(int dexNo) {
-        super(dexNo,"CefiranGothitelle",
+    public CefiranGothitelle(String name, Aspect aspect) {
+        super(name, aspect,"CefiranGothitelle",
                 Type.GHOST, Type.FIRE,
                 new Stats(70,55,95,65,95,110),
                 List.of(Ability.FLAME_BODY), Ability.CURSED_BODY,
@@ -52,5 +53,8 @@ public class CefiranGothitelle extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Gothitelle");
+        addAdditionalEvolution("gothorita", new EvolutionEntry("gothitelle cefiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName() +"\""))));
     }
 }

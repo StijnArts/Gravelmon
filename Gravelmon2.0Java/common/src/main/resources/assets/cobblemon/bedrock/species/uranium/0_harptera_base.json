@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_harptera",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_harptera",
       "texture": "cobblemon:textures/pokemon/uranium/harptera.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/harptera_shiny.png"
-    }  ]
+    }
+  ]
 }

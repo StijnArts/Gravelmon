@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dislichen",
-  "nationalPokedexNumber": 2865,
+  "nationalPokedexNumber": 4852,
   "primaryType": "grass",
   "abilities": [
     "sandveil",
@@ -98,7 +98,7 @@
     "egg:sludge",
     "egg:spark",
     "egg:sunnyday",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:takedown",
     "egg:toxic"  ],
   "labels": [

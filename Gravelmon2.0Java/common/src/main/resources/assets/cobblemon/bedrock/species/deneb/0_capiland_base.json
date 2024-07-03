@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_capiland",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_capiland",
       "texture": "cobblemon:textures/pokemon/deneb/capiland.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/capiland_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_gildog",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_gildog",
       "texture": "cobblemon:textures/pokemon/mythire/gildog.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/gildog_shiny.png"
-    }  ]
+    }
+  ]
 }

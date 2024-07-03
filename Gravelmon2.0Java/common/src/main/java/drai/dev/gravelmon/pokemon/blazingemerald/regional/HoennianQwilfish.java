@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianQwilfish extends Pokemon {
-    public HoennianQwilfish(int dexNo) {
-        super(dexNo,"HoennianQwilfish",
+    public HoennianQwilfish(String name, Aspect aspect) {
+        super(name, aspect,"HoennianQwilfish",
                 Type.POISON, Type.STEEL,
                 new Stats(55, 52, 160, 93, 110, 5),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

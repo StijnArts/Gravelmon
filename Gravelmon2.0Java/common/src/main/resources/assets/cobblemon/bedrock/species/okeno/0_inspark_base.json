@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_inspark",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_inspark",
       "texture": "cobblemon:textures/pokemon/okeno/inspark.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/inspark_shiny.png"
-    }  ]
+    }
+  ]
 }

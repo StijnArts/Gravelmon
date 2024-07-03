@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_rattletack",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_rattletack",
       "texture": "cobblemon:textures/pokemon/hiza/rattletack.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/rattletack_shiny.png"
-    }  ]
+    }
+  ]
 }

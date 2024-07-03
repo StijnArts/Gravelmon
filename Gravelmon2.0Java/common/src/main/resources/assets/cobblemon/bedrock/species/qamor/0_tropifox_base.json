@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_tropifox",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_tropifox",
       "texture": "cobblemon:textures/pokemon/qamor/tropifox.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/tropifox_shiny.png"
-    }  ]
+    }
+  ]
 }

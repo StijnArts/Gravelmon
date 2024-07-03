@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_barand",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_barand",
       "texture": "cobblemon:textures/pokemon/uranium/barand.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/barand_shiny.png"
-    }  ]
+    }
+  ]
 }

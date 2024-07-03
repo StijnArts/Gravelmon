@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_baskilisk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_baskilisk",
       "texture": "cobblemon:textures/pokemon/rica/baskilisk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/baskilisk_shiny.png"
-    }  ]
+    }
+  ]
 }

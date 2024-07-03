@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_urchar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_urchar",
       "texture": "cobblemon:textures/pokemon/hiza/urchar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/urchar_shiny.png"
-    }  ]
+    }
+  ]
 }

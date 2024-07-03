@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fulgoryu",
-  "nationalPokedexNumber": 1708,
+  "nationalPokedexNumber": 2306,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -59,7 +59,7 @@
     "40:fly",
     "44:dragonpulse",
     "48:dragondance",
-    "51:bugbuzzsound",
+    "51:bugbuzz",
     "57:quiverdance"  ],
   "labels": [
     "varitas",

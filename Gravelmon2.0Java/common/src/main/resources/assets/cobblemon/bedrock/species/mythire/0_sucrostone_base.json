@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_sucrostone",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_sucrostone",
       "texture": "cobblemon:textures/pokemon/mythire/sucrostone.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/sucrostone_shiny.png"
-    }  ]
+    }
+  ]
 }

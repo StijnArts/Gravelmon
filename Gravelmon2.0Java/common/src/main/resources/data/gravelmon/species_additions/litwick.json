@@ -1,0 +1,175 @@
+{
+   "target": "cobblemon:litwick",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "fairy",
+  "secondaryType": "fire",
+  "abilities": [
+    "flashfire",
+    "weakarmor",
+    "h:fairyaura"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 30,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 55,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 55,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:ember",
+    "1:fairywind",
+    "3:flash",
+    "5:mist",
+    "7:firespin",
+    "10:charm",
+    "13:disarmingvoice",
+    "16:healblock",
+    "20:flameburst",
+    "24:imprison",
+    "28:dazzlinggleam",
+    "33:wish",
+    "38:lavaplume",
+    "43:fairylock",
+    "49:moonblast",
+    "55:moonlight",
+    "61:overheat",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:overheat",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:skillswap",
+    "tm:willowisp",
+    "tm:embargo",
+    "tm:psychup",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:sleeptalk",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:lunarcannon",
+    "tm:incinerate",
+    "tm:allyswitch",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:flash",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:signalbeam",
+    "tutor:snore",
+    "tutor:swift",
+    "tutor:trick",
+    "tutor:wish",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltalitwick.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "litwick_lampent_delta",
+      "variant": "level_up",
+      "result": "lampent delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 41
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 31,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_garlikid",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_garlikid",
       "texture": "cobblemon:textures/pokemon/uranium/garlikid.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/garlikid_shiny.png"
-    }  ]
+    }
+  ]
 }

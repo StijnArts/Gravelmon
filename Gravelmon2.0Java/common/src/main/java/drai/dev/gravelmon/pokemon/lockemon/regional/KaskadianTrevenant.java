@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianTrevenant extends Pokemon {
-    public KaskadianTrevenant(int dexNo) {
-        super(dexNo,"KaskadianTrevenant",
+    public KaskadianTrevenant(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianTrevenant",
                 Type.GHOST, Type.POISON,
                 new Stats(85, 110,76,65,82,56),
                 List.of(Ability.SOUL_DRAIN, Ability.POISON_TOUCH), Ability.EFFECT_SPORE,

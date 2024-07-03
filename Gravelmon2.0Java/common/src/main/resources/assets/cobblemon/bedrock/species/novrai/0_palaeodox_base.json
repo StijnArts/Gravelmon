@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_palaeodox",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_palaeodox",
       "texture": "cobblemon:textures/pokemon/novrai/palaeodox.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/palaeodox_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_springily",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_springily",
       "texture": "cobblemon:textures/pokemon/avoris/springily.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/springily_shiny.png"
-    }  ]
+    }
+  ]
 }

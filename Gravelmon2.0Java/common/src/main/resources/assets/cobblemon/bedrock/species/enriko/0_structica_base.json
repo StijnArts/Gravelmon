@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_structica",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_structica",
       "texture": "cobblemon:textures/pokemon/enriko/structica.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/structica_shiny.png"
-    }  ]
+    }
+  ]
 }

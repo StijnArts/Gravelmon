@@ -1,0 +1,322 @@
+{
+   "target": "cobblemon:heatmor",
+   "forms": [{
+  "name": "Hizian",
+  "primaryType": "poison",
+  "secondaryType": "fire",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 97,
+    "defence": 66,
+    "special_attack": 105,
+    "special_defence": 66,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:disable",
+    "1:ember",
+    "1:encore",
+    "1:endeavor",
+    "1:knockoff",
+    "1:poisongas",
+    "1:pound",
+    "1:scratch",
+    "1:smog",
+    "1:swagger",
+    "1:torment",
+    "10:firelash",
+    "15:poisonfang",
+    "20:sweetscent",
+    "25:nastyplot",
+    "30:incinerate",
+    "37:venoshock",
+    "44:dragonpulse",
+    "51:flamethrower",
+    "58:toxic",
+    "egg:belch",
+    "egg:fakeout",
+    "egg:mudslap",
+    "egg:sandattack",
+    "tm:takedown",
+    "tm:faketears",
+    "tm:agility",
+    "tm:mudslap",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:firefang",
+    "tm:acidspray",
+    "tm:acrobatics",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:facade",
+    "tm:poisontail",
+    "tm:swift",
+    "tm:fling",
+    "tm:venoshock",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:shadowclaw",
+    "tm:foulplay",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:dragonclaw",
+    "tm:thunderwave",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:taunt",
+    "tm:toxicspikes",
+    "tm:leechlife",
+    "tm:dragondance",
+    "tm:gunkshot",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:dragonpulse",
+    "tm:hypervoice",
+    "tm:heatwave",
+    "tm:encore",
+    "tm:flamethrower",
+    "tm:helpinghand",
+    "tm:nastyplot",
+    "tm:fireblast",
+    "tm:sludgebomb",
+    "tm:gigaimpact",
+    "tm:overheat",
+    "tm:hyperbeam",
+    "tm:flareblitz",
+    "tm:terablast"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hizianheatmor.desc"
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": ["hizian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "poison",
+  "secondaryType": "steel",
+  "abilities": [
+    "liquidooze",
+    "sheerforce",
+    "h:megalauncher"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 97,
+    "defence": 66,
+    "special_attack": 105,
+    "special_defence": 66,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:gunkshot",
+    "1:shiftgear",
+    "1:tackle",
+    "1:mirrorshot",
+    "1:acidspray",
+    "6:magnetbomb",
+    "11:infestation",
+    "16:whirlpool",
+    "21:bulletseed",
+    "26:snatch",
+    "31:flashcannon",
+    "36:darkpulse",
+    "41:aurasphere",
+    "44:nastyplot",
+    "47:sludgebomb",
+    "50:lockon",
+    "50:zapcannon",
+    "50:inferno",
+    "61:gunkshot",
+    "tm:toxic",
+    "tm:dragonpulse",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:irontail",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:recycle",
+    "tm:overheat",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:chargebeam",
+    "tm:dragontail",
+    "tm:gigaimpact",
+    "tm:venoshock",
+    "tm:shockwave",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:sleeptalk",
+    "tm:frostbreath",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:round",
+    "tm:captivate",
+    "tm:corrode",
+    "tm:confide",
+    "tm:darkmatter",
+    "tm:infestation",
+    "tm:secretpower",
+    "tm:rocksmash",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:aquatail",
+    "tutor:aurasphere",
+    "tutor:bodyslam",
+    "tutor:bulletseed",
+    "tutor:dig",
+    "tutor:endure",
+    "tutor:gigadrain",
+    "tutor:gunkshot",
+    "tutor:headbutt",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:magnetrise",
+    "tutor:mimic",
+    "tutor:nastyplot",
+    "tutor:shiftgear",
+    "tutor:signalbeam",
+    "tutor:snore",
+    "tutor:waterpulse",
+    "tutor:zapcannon"  ],
+  "labels": [
+    "gen5",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaheatmor.desc"
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 1160,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"hizian",
+"delta"
+  ]
+}

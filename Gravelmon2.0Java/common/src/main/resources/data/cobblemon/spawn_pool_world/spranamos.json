@@ -16,8 +16,8 @@
       "weight": 0.2,
       "condition": {
 "biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_jungle",
-"#cobblemon:is_jungle" ],
+"#cobblemon:is_tropical_island",
+"#cobblemon:is_tropical" ],
         "canSeeSky": true
       }
     }

@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.lagoone.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class LagoonanLumineon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public LagoonanLumineon(int dex) {
-        super(dex, "Lumineon",
+    public LagoonanLumineon(String name, Aspect aspect) {
+        super(name, aspect, "Lumineon",
                 Type.GHOST,
                 new Stats(69,
                         69,

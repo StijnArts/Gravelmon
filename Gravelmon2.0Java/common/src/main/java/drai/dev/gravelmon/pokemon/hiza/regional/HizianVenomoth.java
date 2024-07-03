@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.hiza.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class HizianVenomoth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianVenomoth(int dex) {
-        super(dex, "Venomoth",
+    public HizianVenomoth(String name, Aspect aspect) {
+        super(name, aspect, "Venomoth",
                 Type.BUG, Type.ELECTRIC,
                 new Stats(80,
                         65,

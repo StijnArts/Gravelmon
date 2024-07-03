@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beadamup",
-  "nationalPokedexNumber": 1943,
+  "nationalPokedexNumber": 3506,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
@@ -59,7 +59,7 @@
     "1:quickattack",
     "1:reversal",
     "1:rocksmash",
-    "1:screechsound",
+    "1:screech",
     "1:vacuumwave",
     "12:counter",
     "16:workup",
@@ -80,7 +80,7 @@
     "egg:crosschop",
     "egg:detect",
     "egg:highjumpkick",
-    "egg:howlsound"  ],
+    "egg:howl"  ],
   "labels": [
     "lockemon",
     "not_modeled",

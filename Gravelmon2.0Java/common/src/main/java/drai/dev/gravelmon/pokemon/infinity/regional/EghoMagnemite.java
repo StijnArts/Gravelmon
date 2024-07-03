@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoMagnemite extends Pokemon {
-    public EghoMagnemite(int dexNo) {
-        super(dexNo,"EghoMagnemite",
+    public EghoMagnemite(String name, Aspect aspect) {
+        super(name, aspect,"EghoMagnemite",
                 Type.GRASS, Type.STEEL,
                 new Stats(40, 80, 55, 35, 70, 45),
                 List.of(Ability.OVERGROW, Ability.REGENERATOR), Ability.ANALYTIC,

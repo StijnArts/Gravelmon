@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:aegislash",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:generation6_aegislashx.geo",
+      "poser": "cobblemon:generation6_aegislashx",
+      "texture": "cobblemon:textures/pokemon/generation6/aegislashx/aegislashx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:generation6_aegislashx.geo",
+      "poser": "cobblemon:generation6_aegislashx",
+      "texture": "cobblemon:textures/pokemon/generation6/aegislashx/aegislashx_shiny.png",
+      "layers": []
+    }
+  ]
+}

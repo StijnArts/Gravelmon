@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_beberin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_beberin",
       "texture": "cobblemon:textures/pokemon/norheim/beberin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/beberin_shiny.png"
-    }  ]
+    }
+  ]
 }

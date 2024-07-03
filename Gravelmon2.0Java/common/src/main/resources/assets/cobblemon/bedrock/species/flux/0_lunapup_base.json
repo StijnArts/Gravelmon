@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_lunapup",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_lunapup",
       "texture": "cobblemon:textures/pokemon/flux/lunapup.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/lunapup_shiny.png"
-    }  ]
+    }
+  ]
 }

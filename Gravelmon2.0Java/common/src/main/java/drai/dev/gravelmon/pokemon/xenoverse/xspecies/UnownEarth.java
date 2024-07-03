@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class UnownEarth extends Pokemon {
-    public UnownEarth(int dexNo) {
-        super(dexNo,"UnownEarth",
+    public UnownEarth(String name, Aspect aspect) {
+        super(name, aspect,"UnownEarth",
                 Type.PSYCHIC,
                 new Stats(48, 72, 48, 72, 48, 48),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

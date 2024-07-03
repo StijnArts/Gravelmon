@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianMorgrem(int dex) {
-        super(dex,"Morgrem",
+    public VaritasianMorgrem(String name, Aspect aspect) {
+        super(name, aspect,"Morgrem",
                 Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,

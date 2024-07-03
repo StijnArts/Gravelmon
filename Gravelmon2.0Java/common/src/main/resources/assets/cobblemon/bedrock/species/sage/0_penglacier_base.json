@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_penglacier",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_penglacier",
       "texture": "cobblemon:textures/pokemon/sage/penglacier.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/penglacier_shiny.png"
-    }  ]
+    }
+  ]
 }

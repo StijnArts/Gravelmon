@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_maskost",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_maskost",
       "texture": "cobblemon:textures/pokemon/interregional/maskost.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/maskost_shiny.png"
-    }  ]
+    }
+  ]
 }

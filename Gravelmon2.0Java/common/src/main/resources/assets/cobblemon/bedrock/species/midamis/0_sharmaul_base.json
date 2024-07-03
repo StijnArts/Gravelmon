@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_sharmaul",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_sharmaul",
       "texture": "cobblemon:textures/pokemon/midamis/sharmaul.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/sharmaul_shiny.png"
-    }  ]
+    }
+  ]
 }

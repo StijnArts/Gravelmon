@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rougella",
-  "nationalPokedexNumber": 2809,
+  "nationalPokedexNumber": 4796,
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
@@ -63,7 +63,7 @@
     "39:avalanche",
     "44:bodyslam",
     "51:frostbite",
-    "59:perishsongsound",
+    "59:perishsong",
     "66:blizzard",
     "tm:headbutt",
     "tm:amnesia",
@@ -80,7 +80,7 @@
     "tm:flash",
     "tutor:hydropump",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",

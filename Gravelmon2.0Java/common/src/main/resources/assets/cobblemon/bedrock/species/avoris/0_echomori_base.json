@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_echomori",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_echomori",
       "texture": "cobblemon:textures/pokemon/avoris/echomori.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/echomori_shiny.png"
-    }  ]
+    }
+  ]
 }

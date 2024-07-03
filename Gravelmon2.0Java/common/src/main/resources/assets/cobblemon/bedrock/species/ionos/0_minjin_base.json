@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_minjin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_minjin",
       "texture": "cobblemon:textures/pokemon/ionos/minjin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/minjin_shiny.png"
-    }  ]
+    }
+  ]
 }

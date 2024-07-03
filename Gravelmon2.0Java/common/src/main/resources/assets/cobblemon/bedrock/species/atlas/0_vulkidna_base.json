@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_vulkidna",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_vulkidna",
       "texture": "cobblemon:textures/pokemon/atlas/vulkidna.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/vulkidna_shiny.png"
-    }  ]
+    }
+  ]
 }

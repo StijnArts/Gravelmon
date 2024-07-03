@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "adnokana",
-  "nationalPokedexNumber": 2846,
+  "nationalPokedexNumber": 4833,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -59,7 +59,7 @@
     "4:poisonsting",
     "9:bite",
     "12:glare",
-    "17:screechsound",
+    "17:screech",
     "20:acid",
     "22:crunch",
     "26:swallow",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_submalot",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_submalot",
       "texture": "cobblemon:textures/pokemon/oceane/submalot.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/submalot_shiny.png"
-    }  ]
+    }
+  ]
 }

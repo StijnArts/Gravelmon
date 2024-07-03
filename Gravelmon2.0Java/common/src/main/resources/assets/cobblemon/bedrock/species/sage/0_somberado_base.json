@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_somberado",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_somberado",
       "texture": "cobblemon:textures/pokemon/sage/somberado.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/somberado_shiny.png"
-    }  ]
+    }
+  ]
 }

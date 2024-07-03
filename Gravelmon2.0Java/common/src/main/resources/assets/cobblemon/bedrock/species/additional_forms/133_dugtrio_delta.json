@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:dugtrio",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltadugtrio.geo",
+      "poser": "cobblemon:generation1_deltadugtrio",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadugtrio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltadugtrio.geo",
+      "poser": "cobblemon:generation1_deltadugtrio",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadugtrio_shiny.png",
+      "layers": []
+    }
+  ]
+}

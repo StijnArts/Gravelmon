@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "demini",
-  "nationalPokedexNumber": 2987,
+  "nationalPokedexNumber": 4974,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -76,7 +76,7 @@
     "egg:moonlight",
     "egg:circlethrow",
     "egg:leer",
-    "egg:perishsongsound",
+    "egg:perishsong",
     "egg:lockon"  ],
   "labels": [
     "deneb",
@@ -87,7 +87,7 @@
   ],
   "evolutions": [
     {
-      "id": "demini_Demiddul",
+      "id": "demini_demiddul",
       "variant": "level_up",
       "result": "Demiddul",
       "consumeHeldItem": false,

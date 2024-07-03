@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_pomparunt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_pomparunt",
       "texture": "cobblemon:textures/pokemon/sage/pomparunt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/pomparunt_shiny.png"
-    }  ]
+    }
+  ]
 }

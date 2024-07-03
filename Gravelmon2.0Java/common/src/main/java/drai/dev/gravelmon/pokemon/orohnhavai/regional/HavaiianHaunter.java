@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.orohnhavai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class HavaiianHaunter extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HavaiianHaunter(int dex) {
-        super(dex, "HavaiianHaunter",
+    public HavaiianHaunter(String name, Aspect aspect) {
+        super(name, aspect, "HavaiianHaunter",
                 Type.GHOST, Type.FIRE,
                 new Stats(45,
                         45,
@@ -26,7 +27,7 @@ public class HavaiianHaunter extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It lurks in the darkness, luring its victims with the fire from within its body. It then licks them, completely absorbing all their energy. This is known as the 'death lick'. Chills run down your spine afterward."),
                 List.of(new EvolutionEntry("havaiiangengar", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(                     new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SMOG,1),
                         new MoveLearnSetEntry(Move.EMBER,4),
@@ -84,7 +85,7 @@ public class HavaiianHaunter extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 41, .54, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_FIRE))
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

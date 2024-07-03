@@ -1,11 +1,12 @@
 package drai.dev.gravelmon.pokemon.okeno;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class OkenianDustar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public OkenianDustar(int dex) {
-        super(dex, "Dustar",
+    public OkenianDustar(String name, Aspect aspect) {
+        super(name, aspect, "Dustar",
                 Type.DARK, Type.ROCK,
                 new Stats(40,
                         30,

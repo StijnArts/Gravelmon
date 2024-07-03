@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:gengar",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:generation1_gengarx.geo",
+      "poser": "cobblemon:generation1_gengarx",
+      "texture": "cobblemon:textures/pokemon/generation1/gengarx/gengarx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_gengarx.geo",
+      "poser": "cobblemon:generation1_gengarx",
+      "texture": "cobblemon:textures/pokemon/generation1/gengarx/gengarx_shiny.png",
+      "layers": []
+    }
+  ]
+}

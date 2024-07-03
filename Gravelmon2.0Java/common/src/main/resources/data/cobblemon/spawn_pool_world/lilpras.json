@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lilpras-1",
+      "pokemon": "lilpras",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-19",
+      "weight": 10.0,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean",
+"#cobblemon:is_coast" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

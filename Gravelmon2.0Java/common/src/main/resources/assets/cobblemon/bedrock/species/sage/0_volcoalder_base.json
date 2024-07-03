@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_volcoalder",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_volcoalder",
       "texture": "cobblemon:textures/pokemon/sage/volcoalder.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/volcoalder_shiny.png"
-    }  ]
+    }
+  ]
 }

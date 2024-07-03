@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_fretal",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_fretal",
       "texture": "cobblemon:textures/pokemon/varitas/fretal.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/fretal_shiny.png"
-    }  ]
+    }
+  ]
 }

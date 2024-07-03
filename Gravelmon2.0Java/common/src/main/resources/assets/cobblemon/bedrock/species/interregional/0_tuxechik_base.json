@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_tuxechik",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_tuxechik",
       "texture": "cobblemon:textures/pokemon/interregional/tuxechik.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/tuxechik_shiny.png"
-    }  ]
+    }
+  ]
 }

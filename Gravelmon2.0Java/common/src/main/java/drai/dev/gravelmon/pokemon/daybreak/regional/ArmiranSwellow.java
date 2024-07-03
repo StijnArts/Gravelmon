@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.daybreak.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ArmiranSwellow extends Pokemon {
-    public ArmiranSwellow(int dexNo) {
-        super(dexNo,"ArmiranSwellow",
+    public ArmiranSwellow(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranSwellow",
                 Type.ELECTRIC, Type.FLYING,
                 new Stats(60, 65, 60, 85, 50, 135),
                 List.of(Ability.MOTOR_DRIVE), Ability.GALVANIZE,
@@ -104,7 +105,9 @@ public class ArmiranSwellow extends Pokemon {
                 List.of());
         this.setLangFileName("Swellow");
         this.setPortraitXYZ(0,1.8,0);
-        setPreEvolution("Taillow");
+        setPreEvolution("taillow");
         setCanFly(true);
+        addAdditionalEvolution("taillow", new EvolutionEntry("swellow armiran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_HIGHLANDS.getId() + ":" + Biome.IS_HIGHLANDS.getName() +"\""))));
     }
 }

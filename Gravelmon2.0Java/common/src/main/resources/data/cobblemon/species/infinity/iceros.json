@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "iceros",
-  "nationalPokedexNumber": 1436,
+  "nationalPokedexNumber": 1437,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -65,7 +65,7 @@
     "46:iciclecrash",
     "55:headsmash",
     "61:earthquake",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:bulkup",
@@ -83,8 +83,8 @@
     "tm:facade",
     "tm:rest",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:falseswipe",
     "tm:quash",
     "tm:retaliate",

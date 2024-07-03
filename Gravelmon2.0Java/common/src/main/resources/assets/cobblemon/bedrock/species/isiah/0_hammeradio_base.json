@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_hammeradio",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_hammeradio",
       "texture": "cobblemon:textures/pokemon/isiah/hammeradio.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/hammeradio_shiny.png"
-    }  ]
+    }
+  ]
 }

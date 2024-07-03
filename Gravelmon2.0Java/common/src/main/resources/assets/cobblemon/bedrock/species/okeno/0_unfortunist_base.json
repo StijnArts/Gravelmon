@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_unfortunist",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_unfortunist",
       "texture": "cobblemon:textures/pokemon/okeno/unfortunist.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/unfortunist_shiny.png"
-    }  ]
+    }
+  ]
 }

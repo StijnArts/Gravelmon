@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_anaconduct",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_anaconduct",
       "texture": "cobblemon:textures/pokemon/rica/anaconduct.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/anaconduct_shiny.png"
-    }  ]
+    }
+  ]
 }

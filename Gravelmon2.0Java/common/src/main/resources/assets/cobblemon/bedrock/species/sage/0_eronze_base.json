@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_eronze",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_eronze",
       "texture": "cobblemon:textures/pokemon/sage/eronze.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/eronze_shiny.png"
-    }  ]
+    }
+  ]
 }

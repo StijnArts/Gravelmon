@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_pixiflake",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_pixiflake",
       "texture": "cobblemon:textures/pokemon/rica/pixiflake.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/pixiflake_shiny.png"
-    }  ]
+    }
+  ]
 }

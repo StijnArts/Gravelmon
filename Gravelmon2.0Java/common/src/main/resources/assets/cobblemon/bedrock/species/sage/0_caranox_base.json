@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_caranox",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_caranox",
       "texture": "cobblemon:textures/pokemon/sage/caranox.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/caranox_shiny.png"
-    }  ]
+    }
+  ]
 }

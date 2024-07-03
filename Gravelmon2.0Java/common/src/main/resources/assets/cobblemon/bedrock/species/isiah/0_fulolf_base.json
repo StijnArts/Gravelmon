@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_fulolf",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_fulolf",
       "texture": "cobblemon:textures/pokemon/isiah/fulolf.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/fulolf_shiny.png"
-    }  ]
+    }
+  ]
 }

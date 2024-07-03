@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_contagice",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_contagice",
       "texture": "cobblemon:textures/pokemon/novrai/contagice.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/contagice_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_glacitrave",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_glacitrave",
       "texture": "cobblemon:textures/pokemon/interregional/glacitrave.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/glacitrave_shiny.png"
-    }  ]
+    }
+  ]
 }

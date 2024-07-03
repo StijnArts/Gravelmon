@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:vanguard_firomenis",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_firomenis",
       "texture": "cobblemon:textures/pokemon/vanguard/firomenis.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/vanguard/firomenis_shiny.png"
-    }  ]
+    }
+  ]
 }

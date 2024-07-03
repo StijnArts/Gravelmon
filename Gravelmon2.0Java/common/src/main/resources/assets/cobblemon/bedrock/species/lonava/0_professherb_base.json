@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_professherb",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_professherb",
       "texture": "cobblemon:textures/pokemon/lonava/professherb.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/professherb_shiny.png"
-    }  ]
+    }
+  ]
 }

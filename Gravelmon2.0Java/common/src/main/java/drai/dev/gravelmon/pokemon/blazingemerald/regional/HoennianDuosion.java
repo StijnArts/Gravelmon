@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianDuosion extends Pokemon {
-    public HoennianDuosion(int dexNo) {
-        super(dexNo,"HoennianDuosion",
+    public HoennianDuosion(String name, Aspect aspect) {
+        super(name, aspect,"HoennianDuosion",
                 Type.PSYCHIC, Type.GRASS,
                 new Stats(65, 30, 70, 125, 60, 30),
                 List.of(Ability.FRUITRITION), Ability.FRUITRITION,

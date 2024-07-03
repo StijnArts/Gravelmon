@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_wolverize",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_wolverize",
       "texture": "cobblemon:textures/pokemon/atlas/wolverize.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/wolverize_shiny.png"
-    }  ]
+    }
+  ]
 }

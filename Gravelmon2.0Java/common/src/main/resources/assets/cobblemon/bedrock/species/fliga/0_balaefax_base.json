@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_balaefax",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_balaefax",
       "texture": "cobblemon:textures/pokemon/fliga/balaefax.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/balaefax_shiny.png"
-    }  ]
+    }
+  ]
 }

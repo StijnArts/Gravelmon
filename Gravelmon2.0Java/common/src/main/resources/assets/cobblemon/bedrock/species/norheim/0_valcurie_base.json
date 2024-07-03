@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_valcurie",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_valcurie",
       "texture": "cobblemon:textures/pokemon/norheim/valcurie.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/valcurie_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoLudicolo extends Pokemon {
-    public EghoLudicolo(int dexNo) {
-        super(dexNo,"EghoLudicolo",
+    public EghoLudicolo(String name, Aspect aspect) {
+        super(name, aspect,"EghoLudicolo",
                 Type.FIRE, Type.STEEL,
                 new Stats(80, 60, 95, 95, 75, 75),
                 List.of(Ability.HARVEST), Ability.DRY_SKIN,

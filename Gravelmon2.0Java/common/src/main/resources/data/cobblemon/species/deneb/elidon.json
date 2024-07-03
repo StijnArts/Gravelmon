@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elidon",
-  "nationalPokedexNumber": 2984,
+  "nationalPokedexNumber": 4971,
   "primaryType": "dragon",
   "abilities": [
     "moldbreaker",
@@ -53,7 +53,7 @@
     "9:dragonrage",
     "13:sandattack",
     "17:dragonbreath",
-    "25:roarsound",
+    "25:roar",
     "29:dragontail",
     "33:honeclaws",
     "37:crunch",

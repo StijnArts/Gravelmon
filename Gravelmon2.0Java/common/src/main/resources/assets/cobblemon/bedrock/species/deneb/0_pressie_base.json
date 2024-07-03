@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_pressie",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_pressie",
       "texture": "cobblemon:textures/pokemon/deneb/pressie.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/pressie_shiny.png"
-    }  ]
+    }
+  ]
 }

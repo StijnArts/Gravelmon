@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scaveach",
-  "nationalPokedexNumber": 3086,
+  "nationalPokedexNumber": 5678,
   "primaryType": "ground",
   "abilities": [
     "keeneye",
@@ -50,7 +50,7 @@
     "1:sandattack",
     "4:mudsport",
     "7:magnitude",
-    "10:roarsound",
+    "10:roar",
     "14:dig",
     "21:heavyslam",
     "27:sandtomb",

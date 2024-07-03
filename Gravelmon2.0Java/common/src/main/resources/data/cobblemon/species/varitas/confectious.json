@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "confectious",
-  "nationalPokedexNumber": 1764,
+  "nationalPokedexNumber": 2362,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -88,8 +88,8 @@
     "tm:rest",
     "tm:return",
     "tm:rocktomb",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:sludgebomb",
     "tm:sludgewave",
     "tm:substitute",

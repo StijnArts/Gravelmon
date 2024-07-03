@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_birchee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_birchee",
       "texture": "cobblemon:textures/pokemon/atlas/birchee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/birchee_shiny.png"
-    }  ]
+    }
+  ]
 }

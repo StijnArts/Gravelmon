@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_gnomad",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_gnomad",
       "texture": "cobblemon:textures/pokemon/novrai/gnomad.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/gnomad_shiny.png"
-    }  ]
+    }
+  ]
 }

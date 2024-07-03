@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_willisp",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_willisp",
       "texture": "cobblemon:textures/pokemon/deneb/willisp.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/willisp_shiny.png"
-    }  ]
+    }
+  ]
 }

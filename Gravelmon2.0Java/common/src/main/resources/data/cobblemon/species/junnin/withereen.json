@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "withereen",
-  "nationalPokedexNumber": 1814,
+  "nationalPokedexNumber": 2863,
   "primaryType": "grass",
   "abilities": [
     "effectspore",
@@ -55,7 +55,7 @@
     "tm:hiddenpower",
     "tm:hyperbeam",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:brickbreak",
     "tm:focusblast",
     "tm:drainpunch",
@@ -81,7 +81,7 @@
     "tm:doubleteam",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:workup",

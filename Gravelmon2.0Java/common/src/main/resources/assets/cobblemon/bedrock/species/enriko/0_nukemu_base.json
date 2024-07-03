@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_nukemu",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_nukemu",
       "texture": "cobblemon:textures/pokemon/enriko/nukemu.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/nukemu_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_dualance",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_dualance",
       "texture": "cobblemon:textures/pokemon/enriko/dualance.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/dualance_shiny.png"
-    }  ]
+    }
+  ]
 }

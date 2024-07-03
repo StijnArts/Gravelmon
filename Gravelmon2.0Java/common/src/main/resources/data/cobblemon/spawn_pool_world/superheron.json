@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "superheron-1",
+      "pokemon": "superheron",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-57",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo",
+"minecraft:cherry_grove" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

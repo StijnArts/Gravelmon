@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phisnooz",
-  "nationalPokedexNumber": 1968,
+  "nationalPokedexNumber": 3531,
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
@@ -56,7 +56,7 @@
     "13:iceball",
     "17:psychicfangs",
     "21:headbutt",
-    "25:screechsound",
+    "25:screech",
     "28:psychic",
     "32:swagger",
     "36:blizzard",

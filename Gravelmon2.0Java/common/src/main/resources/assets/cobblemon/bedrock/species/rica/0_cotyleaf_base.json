@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_cotyleaf",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_cotyleaf",
       "texture": "cobblemon:textures/pokemon/rica/cotyleaf.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/cotyleaf_shiny.png"
-    }  ]
+    }
+  ]
 }

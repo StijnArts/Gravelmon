@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "batrix",
-  "nationalPokedexNumber": 1783,
+  "nationalPokedexNumber": 2832,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -53,7 +53,7 @@
     "3:leer",
     "6:smokescreen",
     "11:peck",
-    "15:screechsound",
+    "15:screech",
     "16:metalclaw",
     "21:flameburst",
     "26:metalsound",

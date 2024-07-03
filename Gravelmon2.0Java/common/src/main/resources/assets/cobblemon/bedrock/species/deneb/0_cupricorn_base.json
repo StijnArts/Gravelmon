@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_cupricorn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_cupricorn",
       "texture": "cobblemon:textures/pokemon/deneb/cupricorn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/cupricorn_shiny.png"
-    }  ]
+    }
+  ]
 }

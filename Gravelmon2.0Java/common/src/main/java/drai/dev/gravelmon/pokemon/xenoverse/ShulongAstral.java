@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ShulongAstral extends Pokemon {
-    public ShulongAstral(int dexNo) {
-        super(dexNo,"ShulongAstral",
+    public ShulongAstral(String name, Aspect aspect) {
+        super(name, aspect,"ShulongAstral",
                 Type.WATER, Type.DRAGON,
                 new Stats(143, 80, 156, 80, 155, 86),
                 List.of(Ability.DRAGON_ARMOR), Ability.DRAGON_ARMOR,

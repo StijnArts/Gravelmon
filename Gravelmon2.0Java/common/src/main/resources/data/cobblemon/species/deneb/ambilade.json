@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ambilade",
-  "nationalPokedexNumber": 2876,
+  "nationalPokedexNumber": 4863,
   "primaryType": "steel",
   "abilities": [
     "owntempo",
@@ -59,7 +59,7 @@
     "30:ironhead",
     "35:block",
     "40:rockslide",
-    "43:stardustcosmic",
+    "43:stardust",
     "48:earthquake",
     "53:yawn",
     "56:doubleedge",
@@ -103,7 +103,7 @@
     "egg:psychocut",
     "egg:rage",
     "egg:raindance",
-    "egg:roarsound",
+    "egg:roar",
     "egg:rocktomb",
     "egg:sandstorm",
     "egg:slam",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_bogaleon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_bogaleon",
       "texture": "cobblemon:textures/pokemon/opal/bogaleon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/bogaleon_shiny.png"
-    }  ]
+    }
+  ]
 }

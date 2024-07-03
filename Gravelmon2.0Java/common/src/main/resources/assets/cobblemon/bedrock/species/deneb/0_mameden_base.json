@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_mameden",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_mameden",
       "texture": "cobblemon:textures/pokemon/deneb/mameden.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/mameden_shiny.png"
-    }  ]
+    }
+  ]
 }

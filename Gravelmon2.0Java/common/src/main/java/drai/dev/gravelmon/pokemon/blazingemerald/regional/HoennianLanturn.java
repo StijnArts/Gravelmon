@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianLanturn extends Pokemon {
-    public HoennianLanturn(int dexNo) {
-        super(dexNo,"HoennianLanturn",
+    public HoennianLanturn(String name, Aspect aspect) {
+        super(name, aspect,"HoennianLanturn",
                 Type.WATER, Type.GHOST,
                 new Stats(90, 55, 50, 140, 78, 67),
                 List.of(Ability.CLEAR_BODY), Ability.SWIFT_SWIM,

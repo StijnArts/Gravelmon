@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_glacieros",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_glacieros",
       "texture": "cobblemon:textures/pokemon/infinity/glacieros.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/glacieros_shiny.png"
-    }  ]
+    }
+  ]
 }

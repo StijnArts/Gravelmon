@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:squirtle",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltasquirtle.geo",
+      "poser": "cobblemon:generation1_deltasquirtle",
+      "texture": "cobblemon:textures/pokemon/generation1/deltasquirtle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltasquirtle.geo",
+      "poser": "cobblemon:generation1_deltasquirtle",
+      "texture": "cobblemon:textures/pokemon/generation1/deltasquirtle_shiny.png",
+      "layers": []
+    }
+  ]
+}

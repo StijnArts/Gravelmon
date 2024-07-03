@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_andromini",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_andromini",
       "texture": "cobblemon:textures/pokemon/junnin/andromini.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/andromini_shiny.png"
-    }  ]
+    }
+  ]
 }

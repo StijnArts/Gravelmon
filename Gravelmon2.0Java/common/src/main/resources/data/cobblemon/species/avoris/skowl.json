@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skowl",
-  "nationalPokedexNumber": 1587,
+  "nationalPokedexNumber": 2185,
   "primaryType": "flying",
   "secondaryType": "ghost",
   "abilities": [
@@ -53,13 +53,13 @@
     "7:pursuit",
     "11:wingattack",
     "14:meanlook",
-    "19:screechsound",
+    "19:screech",
     "22:ominouswind",
     "26:airslash",
     "29:crushclaw",
     "31:curse",
     "36:shadowclaw",
-    "42:perishsongsound",
+    "42:perishsong",
     "47:phantomforce",
     "50:nastyplot",
     "55:bravebird",
@@ -90,7 +90,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_bronkilles",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_bronkilles",
       "texture": "cobblemon:textures/pokemon/amavi/bronkilles.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/bronkilles_shiny.png"
-    }  ]
+    }
+  ]
 }

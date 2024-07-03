@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_scaralanche",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_scaralanche",
       "texture": "cobblemon:textures/pokemon/ferroa/scaralanche.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/scaralanche_shiny.png"
-    }  ]
+    }
+  ]
 }

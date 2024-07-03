@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianAriados extends Pokemon {
-    public AyreianAriados(int dexNo) {
-        super(dexNo,"AyreianAriados",
+    public AyreianAriados(String name, Aspect aspect) {
+        super(name, aspect,"AyreianAriados",
                 Type.BUG, Type.DARK,
                 new Stats(70,90,65,115,95,65),
                 List.of(Ability.MOLD_BREAKER, Ability.LONG_REACH), Ability.SNIPER,

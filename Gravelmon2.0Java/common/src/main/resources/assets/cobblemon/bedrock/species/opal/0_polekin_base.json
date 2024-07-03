@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_polekin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_polekin",
       "texture": "cobblemon:textures/pokemon/opal/polekin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/polekin_shiny.png"
-    }  ]
+    }
+  ]
 }

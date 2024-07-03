@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_ruthedral",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_ruthedral",
       "texture": "cobblemon:textures/pokemon/hiza/ruthedral.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/ruthedral_shiny.png"
-    }  ]
+    }
+  ]
 }

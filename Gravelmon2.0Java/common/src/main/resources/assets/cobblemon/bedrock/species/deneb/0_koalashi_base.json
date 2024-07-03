@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_koalashi",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_koalashi",
       "texture": "cobblemon:textures/pokemon/deneb/koalashi.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/koalashi_shiny.png"
-    }  ]
+    }
+  ]
 }

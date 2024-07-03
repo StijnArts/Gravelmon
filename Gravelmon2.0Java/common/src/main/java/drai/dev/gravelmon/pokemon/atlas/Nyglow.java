@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.atlas;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Nyglow extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -24,7 +25,7 @@ public class Nyglow extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("During moonless nights, groups of Nyglow gather around lakes, gracefully flying in pairs to create majestic light displays."),
                 List.of(new EvolutionEntry("nyglare", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.FLASH,1),

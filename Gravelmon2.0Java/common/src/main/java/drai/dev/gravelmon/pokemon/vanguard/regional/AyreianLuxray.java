@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianLuxray extends Pokemon {
-    public AyreianLuxray(int dexNo) {
-        super(dexNo,"AyreianLuxray",
+    public AyreianLuxray(String name, Aspect aspect) {
+        super(name, aspect,"AyreianLuxray",
                 Type.ELECTRIC, Type.FIGHTING,
                 new Stats(80,110,64,90,115,64),
                 List.of(Ability.GALVANIZE, Ability.INTIMIDATE), Ability.GUTS,

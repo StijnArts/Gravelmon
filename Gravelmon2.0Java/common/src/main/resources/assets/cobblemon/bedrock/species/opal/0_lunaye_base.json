@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_lunaye",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_lunaye",
       "texture": "cobblemon:textures/pokemon/opal/lunaye.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/lunaye_shiny.png"
-    }  ]
+    }
+  ]
 }

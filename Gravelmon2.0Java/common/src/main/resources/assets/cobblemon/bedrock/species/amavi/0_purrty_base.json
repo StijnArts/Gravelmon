@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_purrty",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_purrty",
       "texture": "cobblemon:textures/pokemon/amavi/purrty.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/purrty_shiny.png"
-    }  ]
+    }
+  ]
 }

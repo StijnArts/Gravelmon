@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_bublit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_bublit",
       "texture": "cobblemon:textures/pokemon/oceane/bublit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/bublit_shiny.png"
-    }  ]
+    }
+  ]
 }

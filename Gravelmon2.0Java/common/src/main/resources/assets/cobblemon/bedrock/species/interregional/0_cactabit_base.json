@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_cactabit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_cactabit",
       "texture": "cobblemon:textures/pokemon/interregional/cactabit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/cactabit_shiny.png"
-    }  ]
+    }
+  ]
 }

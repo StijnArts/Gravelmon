@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_nimbairy",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_nimbairy",
       "texture": "cobblemon:textures/pokemon/norheim/nimbairy.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/nimbairy_shiny.png"
-    }  ]
+    }
+  ]
 }

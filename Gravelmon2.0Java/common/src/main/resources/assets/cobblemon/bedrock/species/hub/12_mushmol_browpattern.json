@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:mushmol",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "brow_pattern"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hub/mushmol.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "brow_pattern",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hub/mushmol_shiny.png"
+    }
+  ]
+}

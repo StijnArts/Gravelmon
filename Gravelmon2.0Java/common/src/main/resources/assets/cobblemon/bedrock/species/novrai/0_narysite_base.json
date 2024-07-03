@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_narysite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_narysite",
       "texture": "cobblemon:textures/pokemon/novrai/narysite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/narysite_shiny.png"
-    }  ]
+    }
+  ]
 }

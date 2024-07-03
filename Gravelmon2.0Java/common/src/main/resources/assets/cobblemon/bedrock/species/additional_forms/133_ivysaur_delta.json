@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:ivysaur",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltaivysaur.geo",
+      "poser": "cobblemon:generation1_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltaivysaur.geo",
+      "poser": "cobblemon:generation1_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female_shiny.png",
+      "layers": []
+    }
+  ]
+}

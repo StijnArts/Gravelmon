@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_picocacto",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_picocacto",
       "texture": "cobblemon:textures/pokemon/avoris/picocacto.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/picocacto_shiny.png"
-    }  ]
+    }
+  ]
 }

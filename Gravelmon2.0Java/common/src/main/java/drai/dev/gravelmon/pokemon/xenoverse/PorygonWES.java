@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.xenoverse;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -91,5 +92,7 @@ public class PorygonWES extends Pokemon {
         this.setBaseScale(0.9);
         this.setCanFly(true);
         this.setHitbox(0.8,1.2);
+        addAdditionalEvolution("porygon2", new EvolutionEntry("porygonwes", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:wes_update\""))));
     }
 }

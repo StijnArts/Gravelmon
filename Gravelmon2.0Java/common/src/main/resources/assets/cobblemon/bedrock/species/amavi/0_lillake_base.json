@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_lillake",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_lillake",
       "texture": "cobblemon:textures/pokemon/amavi/lillake.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/lillake_shiny.png"
-    }  ]
+    }
+  ]
 }

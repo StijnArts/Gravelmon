@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_conhagrant",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_conhagrant",
       "texture": "cobblemon:textures/pokemon/ferroa/conhagrant.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/conhagrant_shiny.png"
-    }  ]
+    }
+  ]
 }

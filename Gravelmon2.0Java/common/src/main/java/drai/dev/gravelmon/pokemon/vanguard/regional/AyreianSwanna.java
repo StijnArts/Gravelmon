@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianSwanna extends Pokemon {
-    public AyreianSwanna(int dexNo) {
-        super(dexNo,"AyreianSwanna",
+    public AyreianSwanna(String name, Aspect aspect) {
+        super(name, aspect,"AyreianSwanna",
                 Type.FLYING, Type.FAIRY,
                 new Stats(75,117,73,98,57,73),
                 List.of(Ability.DANCER, Ability.BIG_PECKS), Ability.FAIRY_AURA,

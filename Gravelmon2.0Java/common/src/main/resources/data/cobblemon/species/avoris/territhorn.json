@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "territhorn",
-  "nationalPokedexNumber": 1606,
+  "nationalPokedexNumber": 2204,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -93,7 +93,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

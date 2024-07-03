@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_malleamole",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_malleamole",
       "texture": "cobblemon:textures/pokemon/umbra/malleamole.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/malleamole_shiny.png"
-    }  ]
+    }
+  ]
 }

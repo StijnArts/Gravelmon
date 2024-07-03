@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_gnawgorus",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_gnawgorus",
       "texture": "cobblemon:textures/pokemon/interregional/gnawgorus.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/gnawgorus_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianKadabra extends Pokemon {
-    public AyreianKadabra(int dexNo) {
-        super(dexNo,"AyreianKadabra",
+    public AyreianKadabra(String name, Aspect aspect) {
+        super(name, aspect,"AyreianKadabra",
                 Type.DARK, Type.FIGHTING,
                 new Stats(40,100,50,80,80,50),
                 List.of(Ability.SNIPER, Ability.INNER_FOCUS), Ability.SHEER_FORCE,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_seevile",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_seevile",
       "texture": "cobblemon:textures/pokemon/hiza/seevile.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/seevile_shiny.png"
-    }  ]
+    }
+  ]
 }

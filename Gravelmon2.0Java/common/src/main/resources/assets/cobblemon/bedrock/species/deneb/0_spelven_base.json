@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_spelven",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_spelven",
       "texture": "cobblemon:textures/pokemon/deneb/spelven.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/spelven_shiny.png"
-    }  ]
+    }
+  ]
 }

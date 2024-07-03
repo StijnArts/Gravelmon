@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianQuaxwell extends Pokemon {
-    public AyreianQuaxwell(int dexNo) {
-        super(dexNo,"AyreianQuaxwell",
+    public AyreianQuaxwell(String name, Aspect aspect) {
+        super(name, aspect,"AyreianQuaxwell",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(80,80,55,65,70,60),
                 List.of(Ability.TORRENT, Ability.MINDTUNING ), Ability.TECHNICIAN,

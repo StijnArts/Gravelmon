@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianElectrode extends Pokemon {
-    public AyreianElectrode(int dexNo) {
-        super(dexNo,"AyreianElectrode",
+    public AyreianElectrode(String name, Aspect aspect) {
+        super(name, aspect,"AyreianElectrode",
                 Type.FIRE, Type.PSYCHIC,
                 new Stats(60,60,55,110,100,105),
                 List.of(Ability.ROCKY_PAYLOAD), Ability.DROUGHT,

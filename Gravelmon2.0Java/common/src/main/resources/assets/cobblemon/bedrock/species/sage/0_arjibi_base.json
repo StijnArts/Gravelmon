@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_arjibi",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_arjibi",
       "texture": "cobblemon:textures/pokemon/sage/arjibi.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/arjibi_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "singlaze",
-  "nationalPokedexNumber": 3119,
+  "nationalPokedexNumber": 5711,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -52,7 +52,7 @@
     "11:haze",
     "16:flash",
     "20:firespin",
-    "33:cosmicpowercosmic",
+    "33:cosmicpower",
     "42:heatwave",
     "48:wish",
     "60:healingwish"  ],

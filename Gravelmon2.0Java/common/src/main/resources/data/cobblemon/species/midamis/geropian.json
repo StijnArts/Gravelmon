@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "geropian",
-  "nationalPokedexNumber": 2568,
+  "nationalPokedexNumber": 4463,
   "primaryType": "poison",
   "secondaryType": "bug",
   "abilities": [
@@ -53,7 +53,7 @@
     "4:rollout",
     "8:protect",
     "12:poisontail",
-    "16:screechsound",
+    "16:screech",
     "20:bugbite",
     "24:venoshock",
     "28:takedown",

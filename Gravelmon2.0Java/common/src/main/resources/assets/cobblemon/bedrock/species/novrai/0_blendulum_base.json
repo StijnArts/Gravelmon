@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_blendulum",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_blendulum",
       "texture": "cobblemon:textures/pokemon/novrai/blendulum.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/blendulum_shiny.png"
-    }  ]
+    }
+  ]
 }

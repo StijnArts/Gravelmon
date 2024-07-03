@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ToxapexX  extends Pokemon {
-    public ToxapexX(int dexNo) {
-        super(dexNo,"ToxapexX",
+    public ToxapexX(String name, Aspect aspect) {
+        super(name, aspect,"ToxapexX",
                 Type.POISON, Type.FIRE,
                 new Stats(142, 63, 53, 147, 50, 40),
                 List.of(Ability.ARENA_TRAP), Ability.MERCILESS,

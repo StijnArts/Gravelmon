@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_boilink",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_boilink",
       "texture": "cobblemon:textures/pokemon/lonava/boilink.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/boilink_shiny.png"
-    }  ]
+    }
+  ]
 }

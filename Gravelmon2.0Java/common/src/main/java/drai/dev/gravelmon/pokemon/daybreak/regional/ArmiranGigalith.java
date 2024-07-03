@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.daybreak.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ArmiranGigalith extends Pokemon {
-    public ArmiranGigalith(int dexNo) {
-        super(dexNo,"ArmiranGigalith",
+    public ArmiranGigalith(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranGigalith",
                 Type.GROUND, Type.GHOST,
                 new Stats(85, 60, 130, 85, 130, 25),
                 List.of(Ability.LEVITATE), Ability.SAND_STREAM,

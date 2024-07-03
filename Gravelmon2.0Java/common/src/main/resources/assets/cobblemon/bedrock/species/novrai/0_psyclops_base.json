@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_psyclops",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_psyclops",
       "texture": "cobblemon:textures/pokemon/novrai/psyclops.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/psyclops_shiny.png"
-    }  ]
+    }
+  ]
 }

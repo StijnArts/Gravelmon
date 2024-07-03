@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "neschick",
-  "nationalPokedexNumber": 1984,
+  "nationalPokedexNumber": 3547,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -63,7 +63,7 @@
     "43:leafblade",
     "49:jumpkick",
     "tm:grasspledge",
-    "tm:snoresound",
+    "tm:snore",
     "tm:taunt",
     "tm:sunnyday",
     "tm:acrobatics",
@@ -84,8 +84,8 @@
     "tm:protect",
     "tm:psychup",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:swordsdance",

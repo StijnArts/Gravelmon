@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_chirmidge",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_chirmidge",
       "texture": "cobblemon:textures/pokemon/rica/chirmidge.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/chirmidge_shiny.png"
-    }  ]
+    }
+  ]
 }

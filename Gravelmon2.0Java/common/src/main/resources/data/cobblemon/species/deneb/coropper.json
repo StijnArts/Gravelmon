@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coropper",
-  "nationalPokedexNumber": 2831,
+  "nationalPokedexNumber": 4818,
   "primaryType": "bug",
   "abilities": [
     "limber",
@@ -60,7 +60,7 @@
     "41:camouflage",
     "43:bounce",
     "45:protect",
-    "51:bugbuzzsound",
+    "51:bugbuzz",
     "53:workup",
     "55:bugnoise",
     "tm:swordsdance",

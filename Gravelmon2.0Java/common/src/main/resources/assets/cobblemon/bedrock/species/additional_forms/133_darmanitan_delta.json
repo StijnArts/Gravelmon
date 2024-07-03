@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:darmanitan",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:generation5_deltadarmanitan.geo",
+      "poser": "cobblemon:generation5_deltadarmanitan",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadarmanitan/deltadarmanitan.png",
+      "layers": [
+        {
+          "name": "emissive"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:generation5_deltadarmanitan.geo",
+      "poser": "cobblemon:generation5_deltadarmanitan",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadarmanitan/deltadarmanitan_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        }
+      ]
+    }
+  ]
+}

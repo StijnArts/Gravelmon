@@ -1,0 +1,349 @@
+{
+   "target": "cobblemon:doduo",
+  "evolutions": [
+    {
+      "id": "doduo_dodrio_hoennian",
+      "variant": "level_up",
+      "result": "dodrio hoennian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "marowak",
+          "contains": true
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "psychic",
+  "abilities": [
+    "compoundeyes",
+    "trace",
+    "h:psychocall"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 85,
+    "defence": 45,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:peck",
+    "1:growl",
+    "5:psywave",
+    "9:miracleeye",
+    "13:psybeam",
+    "17:mindreader",
+    "21:lowkick",
+    "25:psychocut",
+    "29:hypnosis",
+    "33:workup",
+    "37:drillpeck",
+    "41:synchronoise",
+    "45:zenheadbutt",
+    "49:futuresight",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:shadowclaw",
+    "tm:psychup",
+    "tm:poisonjab",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:sleeptalk",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:lunarcannon",
+    "tm:allyswitch",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:pluck",
+    "tm:secretpower",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:bounce",
+    "tutor:drillrun",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:hypnosis",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:snore",
+    "tutor:superpower",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen1",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltadoduo.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "doduo_dodrio_delta",
+      "variant": "level_up",
+      "result": "dodrio delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 1.3,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 392,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Seviian",
+  "primaryType": "fire",
+  "secondaryType": "ground",
+  "abilities": [
+    "rockhead",
+    "earlybird",
+    "h:angerpoint"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 80,
+    "defence": 45,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:growl",
+    "1:peck",
+    "5:flamewheel",
+    "9:rage",
+    "12:bulldoze",
+    "15:pursuit",
+    "19:pluck",
+    "22:stompingtantrum",
+    "26:agility",
+    "29:drillrun",
+    "36:swordsdance",
+    "40:jumpkick",
+    "43:flareblitz",
+    "47:endeavor",
+    "50:firelash",
+    "tm:bravebird",
+    "tm:bulldoze",
+    "tm:dig",
+    "tm:dualwingbeat",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:hiddenpower",
+    "tm:overheat",
+    "tm:pluck",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:scorchingsands",
+    "egg:sleeptalk",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:thief",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:blazekick",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:flareblitz",
+    "tutor:ironhead",
+    "tutor:stompingtantrum",
+    "egg:assurance",
+    "egg:bravebird",
+    "egg:endeavor",
+    "egg:feintattack",
+    "egg:flail",
+    "egg:flamecharge",
+    "egg:haze",
+    "egg:mirrormove",
+    "egg:naturalgift",
+    "egg:supersonic"  ],
+  "labels": [
+    "radicalred",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.seviiandoduo.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "doduo_dodrio_seviian",
+      "variant": "level_up",
+      "result": "dodrio seviian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 392,
+  "aspects": ["seviian"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta",
+"seviian"
+  ]
+}

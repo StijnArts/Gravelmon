@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_stilbird",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_stilbird",
       "texture": "cobblemon:textures/pokemon/amavi/stilbird.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/stilbird_shiny.png"
-    }  ]
+    }
+  ]
 }

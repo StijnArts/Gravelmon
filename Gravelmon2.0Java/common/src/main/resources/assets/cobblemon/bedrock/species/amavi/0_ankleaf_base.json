@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_ankleaf",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_ankleaf",
       "texture": "cobblemon:textures/pokemon/amavi/ankleaf.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/ankleaf_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tuburrow",
-  "nationalPokedexNumber": 2026,
+  "nationalPokedexNumber": 3589,
   "primaryType": "ground",
   "abilities": [
     "sturdy",
@@ -57,7 +57,7 @@
     "tm:earthpower",
     "tm:scorchingsands",
     "tm:stompingtantrum",
-    "tm:snoresound",
+    "tm:snore",
     "tm:uproar",
     "tm:irondefense",
     "tm:infestation",
@@ -80,8 +80,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:workup",

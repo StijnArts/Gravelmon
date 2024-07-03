@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "modra",
-  "nationalPokedexNumber": 2817,
+  "nationalPokedexNumber": 4804,
   "primaryType": "poison",
   "abilities": [
     "liquidooze",
@@ -57,7 +57,7 @@
     "22:dragonrage",
     "25:toxic",
     "30:poisonfang",
-    "34:roarsound",
+    "34:roar",
     "42:workup",
     "46:crosspoison",
     "49:swagger",

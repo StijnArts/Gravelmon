@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_celebaa",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_celebaa",
       "texture": "cobblemon:textures/pokemon/amavi/celebaa.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/celebaa_shiny.png"
-    }  ]
+    }
+  ]
 }

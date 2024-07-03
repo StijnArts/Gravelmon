@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class AmazeAllDrifblim extends Pokemon {
-    public AmazeAllDrifblim(int dexNo) {
-        super(dexNo,"AmazeAllDrifblim",
+    public AmazeAllDrifblim(String name, Aspect aspect) {
+        super(name, aspect,"AmazeAllDrifblim",
                 Type.GHOST, Type.STEEL,
                 new Stats(150, 70, 44, 80, 54, 100),
                 List.of(Ability.PICKUP, Ability.LEVITATE), Ability.SURVEILLANCE,
@@ -93,5 +94,7 @@ public class AmazeAllDrifblim extends Pokemon {
         this.setLangFileName("Drifblim");
         this.setPortraitXYZ(0.1,2.0,0.0);
         setCanFly(true);
+        addAdditionalEvolution("drifloon", new EvolutionEntry("drifblim amazeall", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:amaze_drive"));
     }
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_budy",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_budy",
       "texture": "cobblemon:textures/pokemon/fliga/budy.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/budy_shiny.png"
-    }  ]
+    }
+  ]
 }

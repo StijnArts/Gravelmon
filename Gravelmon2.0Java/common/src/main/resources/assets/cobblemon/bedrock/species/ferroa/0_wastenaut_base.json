@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_wastenaut",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_wastenaut",
       "texture": "cobblemon:textures/pokemon/ferroa/wastenaut.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/wastenaut_shiny.png"
-    }  ]
+    }
+  ]
 }

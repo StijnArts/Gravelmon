@@ -2,6 +2,7 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.aristos.regional.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
@@ -20,17 +21,22 @@ public class GenerationNine extends Game {
     @Override
     public void registerPokemon() {
 
+        pokemon.add(new QamoranRabsca("", Aspect.QAMORAN));
+
+        pokemon.add(new NorheimanGlimmora("", Aspect.NORHEIMAN, new Stats(525, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(StatType.SPECIAL_DEFENCE))));
+
         //Radical Red
-        pokemon.add(new SeviianNymble(919));
-        pokemon.add(new SeviianLokix(920));
+        pokemon.add(new SeviianNymble("", Aspect.SEVIIAN));
+        pokemon.add(new SeviianLokix("", Aspect.SEVIIAN));
 
         //Vanguard
-        pokemon.add(new AyreianSprigatito(906));
-        pokemon.add(new AyreianFloragato(907));
-        pokemon.add(new AyreianMeowscarada(908));
-        pokemon.add(new AyreianQuaxly(912));
-        pokemon.add(new AyreianQuaxwell(913));
-        pokemon.add(new AyreianQuaquaval(914));
+        pokemon.add(new AyreianSprigatito("", Aspect.AYREIAN));
+        pokemon.add(new AyreianFloragato("", Aspect.AYREIAN));
+        pokemon.add(new AyreianMeowscarada("", Aspect.AYREIAN));
+        pokemon.add(new AyreianQuaxly("", Aspect.AYREIAN));
+        pokemon.add(new AyreianQuaxwell("", Aspect.AYREIAN));
+        pokemon.add(new AyreianQuaquaval("", Aspect.AYREIAN));
 
 //        pokemon.add(new AristosianFlittle(955)); Missing Art
 

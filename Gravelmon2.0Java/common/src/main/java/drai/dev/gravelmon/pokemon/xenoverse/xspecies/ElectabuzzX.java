@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ElectabuzzX extends Pokemon {
-    public ElectabuzzX(int dexNo) {
-        super(dexNo,"ElectabuzzX",
+    public ElectabuzzX(String name, Aspect aspect) {
+        super(name, aspect,"ElectabuzzX",
                 Type.FIRE,
                 new Stats(65, 83, 57, 95, 85, 105),
                 List.of(Ability.AFTERMATH), Ability.VITAL_SPIRIT,

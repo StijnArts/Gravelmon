@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:muk",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:deltamuk.geo",
+      "poser": "cobblemon:generation1_deltamuk",
+      "texture": "cobblemon:textures/pokemon/generation1/deltamuk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:deltamuk.geo",
+      "poser": "cobblemon:generation1_deltamuk",
+      "texture": "cobblemon:textures/pokemon/generation1/deltamuk_shiny.png",
+      "layers": []
+    }
+  ]
+}

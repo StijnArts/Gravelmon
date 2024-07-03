@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_pogoroo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_pogoroo",
       "texture": "cobblemon:textures/pokemon/hiza/pogoroo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/pogoroo_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_shrizzler",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_shrizzler",
       "texture": "cobblemon:textures/pokemon/lagoone/shrizzler.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/shrizzler_shiny.png"
-    }  ]
+    }
+  ]
 }

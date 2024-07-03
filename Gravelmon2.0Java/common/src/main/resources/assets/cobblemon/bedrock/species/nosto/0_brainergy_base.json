@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_brainergy",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_brainergy",
       "texture": "cobblemon:textures/pokemon/nosto/brainergy.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/brainergy_shiny.png"
-    }  ]
+    }
+  ]
 }

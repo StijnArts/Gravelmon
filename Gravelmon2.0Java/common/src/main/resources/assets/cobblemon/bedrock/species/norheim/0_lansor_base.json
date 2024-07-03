@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_lansor",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_lansor",
       "texture": "cobblemon:textures/pokemon/norheim/lansor.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/lansor_shiny.png"
-    }  ]
+    }
+  ]
 }

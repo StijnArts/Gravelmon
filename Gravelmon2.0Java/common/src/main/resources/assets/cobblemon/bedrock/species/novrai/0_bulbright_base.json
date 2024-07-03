@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_bulbright",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_bulbright",
       "texture": "cobblemon:textures/pokemon/novrai/bulbright.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/bulbright_shiny.png"
-    }  ]
+    }
+  ]
 }

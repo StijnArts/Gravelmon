@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_shakutto",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_shakutto",
       "texture": "cobblemon:textures/pokemon/deneb/shakutto.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/shakutto_shiny.png"
-    }  ]
+    }
+  ]
 }

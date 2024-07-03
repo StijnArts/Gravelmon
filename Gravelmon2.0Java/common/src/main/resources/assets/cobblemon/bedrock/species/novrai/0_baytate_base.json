@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_baytate",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_baytate",
       "texture": "cobblemon:textures/pokemon/novrai/baytate.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/baytate_shiny.png"
-    }  ]
+    }
+  ]
 }

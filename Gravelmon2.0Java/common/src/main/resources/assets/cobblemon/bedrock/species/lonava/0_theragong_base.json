@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_theragong",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_theragong",
       "texture": "cobblemon:textures/pokemon/lonava/theragong.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/theragong_shiny.png"
-    }  ]
+    }
+  ]
 }

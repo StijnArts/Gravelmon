@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_nostroot",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_nostroot",
       "texture": "cobblemon:textures/pokemon/enjin/nostroot.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/nostroot_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_quetzar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_quetzar",
       "texture": "cobblemon:textures/pokemon/sage/quetzar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/quetzar_shiny.png"
-    }  ]
+    }
+  ]
 }

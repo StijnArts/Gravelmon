@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_ceregal",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_ceregal",
       "texture": "cobblemon:textures/pokemon/infinity/ceregal.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/ceregal_shiny.png"
-    }  ]
+    }
+  ]
 }

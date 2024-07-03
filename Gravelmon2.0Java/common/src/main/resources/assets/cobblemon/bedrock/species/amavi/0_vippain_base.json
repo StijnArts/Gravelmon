@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_vippain",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_vippain",
       "texture": "cobblemon:textures/pokemon/amavi/vippain.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/vippain_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:vanguard_cradecart",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_cradecart",
       "texture": "cobblemon:textures/pokemon/vanguard/cradecart.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/vanguard/cradecart_shiny.png"
-    }  ]
+    }
+  ]
 }

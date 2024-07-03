@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_maliscuit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_maliscuit",
       "texture": "cobblemon:textures/pokemon/novrai/maliscuit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/maliscuit_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hub_mobipup",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_mobipup",
       "texture": "cobblemon:textures/pokemon/hub/mobipup.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hub/mobipup_shiny.png"
-    }  ]
+    }
+  ]
 }

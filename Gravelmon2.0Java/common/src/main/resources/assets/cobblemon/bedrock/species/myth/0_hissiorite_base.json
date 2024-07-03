@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_hissiorite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_hissiorite",
       "texture": "cobblemon:textures/pokemon/myth/hissiorite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/hissiorite_shiny.png"
-    }  ]
+    }
+  ]
 }

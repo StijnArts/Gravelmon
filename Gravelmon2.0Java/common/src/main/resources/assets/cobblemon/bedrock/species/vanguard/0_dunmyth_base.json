@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:vanguard_dunmyth",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_dunmyth",
       "texture": "cobblemon:textures/pokemon/vanguard/dunmyth.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/vanguard/dunmyth_shiny.png"
-    }  ]
+    }
+  ]
 }

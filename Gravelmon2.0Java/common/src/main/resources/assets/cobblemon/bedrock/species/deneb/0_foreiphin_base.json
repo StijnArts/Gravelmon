@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_foreiphin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_foreiphin",
       "texture": "cobblemon:textures/pokemon/deneb/foreiphin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/foreiphin_shiny.png"
-    }  ]
+    }
+  ]
 }

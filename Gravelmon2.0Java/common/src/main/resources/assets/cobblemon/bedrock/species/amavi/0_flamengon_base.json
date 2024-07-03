@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_flamengon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_flamengon",
       "texture": "cobblemon:textures/pokemon/amavi/flamengon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/flamengon_shiny.png"
-    }  ]
+    }
+  ]
 }

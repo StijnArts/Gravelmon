@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_paswan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_paswan",
       "texture": "cobblemon:textures/pokemon/isiah/paswan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/paswan_shiny.png"
-    }  ]
+    }
+  ]
 }

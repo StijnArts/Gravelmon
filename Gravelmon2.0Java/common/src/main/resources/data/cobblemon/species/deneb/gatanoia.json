@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gatanoia",
-  "nationalPokedexNumber": 2885,
+  "nationalPokedexNumber": 4872,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
@@ -60,7 +60,7 @@
     "48:crunch",
     "54:outrage",
     "60:dragondance",
-    "66:stardustcosmic",
+    "66:stardust",
     "78:painsplit",
     "84:devastate",
     "90:dracometeor",
@@ -93,7 +93,7 @@
     "tm:flash",
     "tm:rocksmash",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",

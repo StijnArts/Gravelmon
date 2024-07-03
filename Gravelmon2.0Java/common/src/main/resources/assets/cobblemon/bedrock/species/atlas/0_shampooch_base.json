@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_shampooch",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_shampooch",
       "texture": "cobblemon:textures/pokemon/atlas/shampooch.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/shampooch_shiny.png"
-    }  ]
+    }
+  ]
 }

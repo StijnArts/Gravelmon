@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kaliyote",
-  "nationalPokedexNumber": 2901,
+  "nationalPokedexNumber": 4888,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -124,8 +124,8 @@
     "tutor:megapunch",
     "tutor:mudslap",
     "tutor:outrage",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:suckerpunch",
     "tutor:superpower",
     "tutor:synthesis",

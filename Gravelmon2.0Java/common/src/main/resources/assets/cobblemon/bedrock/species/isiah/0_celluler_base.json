@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_celluler",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_celluler",
       "texture": "cobblemon:textures/pokemon/isiah/celluler.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/celluler_shiny.png"
-    }  ]
+    }
+  ]
 }

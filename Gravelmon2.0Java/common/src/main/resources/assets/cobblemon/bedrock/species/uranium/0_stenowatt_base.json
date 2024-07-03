@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_stenowatt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_stenowatt",
       "texture": "cobblemon:textures/pokemon/uranium/stenowatt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/stenowatt_shiny.png"
-    }  ]
+    }
+  ]
 }

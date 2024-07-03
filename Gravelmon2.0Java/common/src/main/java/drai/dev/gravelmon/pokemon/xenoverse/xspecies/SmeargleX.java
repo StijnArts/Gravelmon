@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SmeargleX extends Pokemon {
-    public SmeargleX(int dexNo) {
-        super(dexNo,"SmeargleX",
+    public SmeargleX(String name, Aspect aspect) {
+        super(name, aspect,"SmeargleX",
                 Type.FAIRY,
                 new Stats(55, 20, 35, 20, 45, 75),
                 List.of(Ability.IMMUNITY, Ability.SWEET_VEIL), Ability.STICKY_HOLD,

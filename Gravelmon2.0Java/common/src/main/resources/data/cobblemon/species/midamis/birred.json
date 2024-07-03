@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "birred",
-  "nationalPokedexNumber": 2595,
+  "nationalPokedexNumber": 4490,
   "primaryType": "flying",
   "abilities": [
     "keeneye",
@@ -50,7 +50,7 @@
     "1:gust",
     "6:haze",
     "9:thief",
-    "13:swiftcosmic",
+    "13:swift",
     "18:airslash",
     "21:glare",
     "25:aerialace",

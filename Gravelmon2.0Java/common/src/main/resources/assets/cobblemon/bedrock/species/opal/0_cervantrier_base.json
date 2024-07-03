@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_cervantrier",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_cervantrier",
       "texture": "cobblemon:textures/pokemon/opal/cervantrier.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/cervantrier_shiny.png"
-    }  ]
+    }
+  ]
 }

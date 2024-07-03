@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_charitot",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_charitot",
       "texture": "cobblemon:textures/pokemon/lonava/charitot.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/charitot_shiny.png"
-    }  ]
+    }
+  ]
 }

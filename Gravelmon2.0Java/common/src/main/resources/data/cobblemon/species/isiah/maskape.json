@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maskape",
-  "nationalPokedexNumber": 2412,
+  "nationalPokedexNumber": 4307,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -51,7 +51,7 @@
     "7:tickle",
     "13:lowkick",
     "19:doubleteam",
-    "22:swiftcosmic",
+    "22:swift",
     "26:slam",
     "tm:hiddenpower",
     "tm:protect",

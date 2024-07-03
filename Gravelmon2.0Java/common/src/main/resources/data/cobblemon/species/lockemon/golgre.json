@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "golgre",
-  "nationalPokedexNumber": 1962,
+  "nationalPokedexNumber": 3525,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
@@ -89,7 +89,7 @@
     "tm:firepunch",
     "tm:thunderpunch",
     "tm:icepunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:drainpunch",
     "tm:reflect",
     "tm:grassknot",
@@ -110,7 +110,7 @@
     "tm:phantomforce",
     "tm:focusblast",
     "tm:terablast",
-    "tm:gravitycosmic",
+    "tm:gravity",
     "tm:smackdown",
     "tm:gyroball",
     "tm:knockoff",
@@ -129,7 +129,7 @@
   "pokedex": [
     "cobblemon.species.golgre.desc"
   ],
-  "preEvolution": "kaskadiangolett",
+  "preEvolution": "golett form=kaskadian",
   "baseScale": 0.7000000000000001,
   "hitbox": {
     "width": 6.0,

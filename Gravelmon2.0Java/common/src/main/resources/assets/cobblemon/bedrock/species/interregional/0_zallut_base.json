@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_zallut",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_zallut",
       "texture": "cobblemon:textures/pokemon/interregional/zallut.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/zallut_shiny.png"
-    }  ]
+    }
+  ]
 }

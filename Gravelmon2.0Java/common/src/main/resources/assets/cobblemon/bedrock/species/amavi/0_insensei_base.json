@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_insensei",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_insensei",
       "texture": "cobblemon:textures/pokemon/amavi/insensei.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/insensei_shiny.png"
-    }  ]
+    }
+  ]
 }

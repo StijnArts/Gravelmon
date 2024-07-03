@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_illime",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_illime",
       "texture": "cobblemon:textures/pokemon/deneb/illime.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/illime_shiny.png"
-    }  ]
+    }
+  ]
 }

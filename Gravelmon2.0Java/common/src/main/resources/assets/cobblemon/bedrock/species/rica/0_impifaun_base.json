@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_impifaun",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_impifaun",
       "texture": "cobblemon:textures/pokemon/rica/impifaun.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/impifaun_shiny.png"
-    }  ]
+    }
+  ]
 }

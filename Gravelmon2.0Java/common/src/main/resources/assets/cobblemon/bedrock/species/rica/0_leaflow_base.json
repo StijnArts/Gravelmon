@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_leaflow",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_leaflow",
       "texture": "cobblemon:textures/pokemon/rica/leaflow.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/leaflow_shiny.png"
-    }  ]
+    }
+  ]
 }

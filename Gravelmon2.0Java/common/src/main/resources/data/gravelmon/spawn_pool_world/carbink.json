@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreiancarbink-1",
+      "pokemon": "carbink ayreian",
+      "presets": [
+          "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "21-55",
+      "weight": 7.0,
+      "condition": {
+
+      }
+    }
+
+]
+}

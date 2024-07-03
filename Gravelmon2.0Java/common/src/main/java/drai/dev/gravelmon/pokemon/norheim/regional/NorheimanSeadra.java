@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanSeadra extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanSeadra(int dex) {
-        super(dex, "Seadra",
+    public NorheimanSeadra(String name, Aspect aspect) {
+        super(name, aspect, "Seadra",
                 Type.DRAGON,
                 new Stats(55,
                         60,
@@ -56,6 +57,8 @@ public class NorheimanSeadra extends drai.dev.gravelmon.pokemon.Pokemon {
         setAvoidsLand(true);
         setCanBreathUnderwater(true);
            setLangFileName("Seadra");
+        addAdditionalEvolution("horsea", new EvolutionEntry("seadra norheiman", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"))));
     }
 
 

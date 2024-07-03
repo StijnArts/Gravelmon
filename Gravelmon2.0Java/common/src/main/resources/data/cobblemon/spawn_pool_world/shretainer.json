@@ -15,7 +15,7 @@
       "level": "2-22",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#gravelmon:is_old_growth_taiga" ],
+"biomes": [ "#cobblemon:is_old_growth_taiga" ],
         "canSeeSky": true
       }
     }

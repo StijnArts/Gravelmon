@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianYanma extends Pokemon {
-    public KaskadianYanma(int dexNo) {
-        super(dexNo,"KaskadianYanma",
+    public KaskadianYanma(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianYanma",
                 Type.BUG, Type.DRAGON,
                 new Stats(65, 65, 45, 75, 45, 95),
                 List.of(Ability.SWARM, Ability.MAGIC_GUARD), Ability.ARCANUM,

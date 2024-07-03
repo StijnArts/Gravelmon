@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sphericoil",
-  "nationalPokedexNumber": 2735,
+  "nationalPokedexNumber": 4721,
   "primaryType": "electric",
   "abilities": [
     "soundproof",
@@ -46,10 +46,20 @@
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:charge",
     "1:tackle",
-    "1:sonicboomsound",
+    "1:sonicboom",
     "1:spark",
     "5:lockon",
     "22:shockwave",
@@ -69,7 +79,7 @@
     "tm:flash",
     "tutor:bugnoise",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:hydropump",
     "tutor:nastyplot",
     "tutor:rest",

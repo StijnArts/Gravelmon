@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_crystallier",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_crystallier",
       "texture": "cobblemon:textures/pokemon/rica/crystallier.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/crystallier_shiny.png"
-    }  ]
+    }
+  ]
 }

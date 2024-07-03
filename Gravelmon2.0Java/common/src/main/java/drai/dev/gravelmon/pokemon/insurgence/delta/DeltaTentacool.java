@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaTentacool extends Pokemon {
-    public DeltaTentacool(int dexNo) {
-        super(dexNo,"DeltaTentacool",
+    public DeltaTentacool(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTentacool",
                 Type.GRASS, Type.POISON,
                 new Stats(40, 40, 35, 50, 100, 70),
                 List.of(Ability.STORM_DRAIN,Ability.POISON_TOUCH), Ability.OVERGROW,

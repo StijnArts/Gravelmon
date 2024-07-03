@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "toxroach",
-  "nationalPokedexNumber": 2871,
+  "nationalPokedexNumber": 4858,
   "primaryType": "poison",
   "secondaryType": "bug",
   "abilities": [
@@ -50,14 +50,14 @@
   "moves": [
     "1:astonish",
     "1:scratch",
-    "1:screechsound",
+    "1:screech",
     "6:quickattack",
     "10:acidspray",
     "15:detect",
     "19:pursuit",
     "24:confuseray",
     "28:feintattack",
-    "33:bugbuzzsound",
+    "33:bugbuzz",
     "37:agility",
     "42:poisonjab",
     "46:xscissor",

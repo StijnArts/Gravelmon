@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_rhyferal",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_rhyferal",
       "texture": "cobblemon:textures/pokemon/hiza/rhyferal.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/rhyferal_shiny.png"
-    }  ]
+    }
+  ]
 }

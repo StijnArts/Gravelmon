@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class GalvantulaX extends Pokemon {
-    public GalvantulaX(int dexNo) {
-        super(dexNo,"GalvantulaX",
+    public GalvantulaX(String name, Aspect aspect) {
+        super(name, aspect,"GalvantulaX",
                 Type.BUG, Type.ICE,
                 new Stats(70, 74, 50, 100, 50, 129),
                 List.of(Ability.COMPOUND_EYES, Ability.SHIELD_DUST), Ability.REFRIGERATE,

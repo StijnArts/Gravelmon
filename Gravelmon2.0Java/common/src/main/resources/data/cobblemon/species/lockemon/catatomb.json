@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "catatomb",
-  "nationalPokedexNumber": 1916,
+  "nationalPokedexNumber": 3479,
   "primaryType": "ghost",
   "secondaryType": "normal",
   "abilities": [
@@ -72,12 +72,12 @@
     "25:shadowclaw",
     "31:irontail",
     "34:covet",
-    "37:healbellsound",
+    "37:healbell",
     "40:doubleedge",
     "43:babydolleyes",
     "46:phantomforce",
     "egg:batonpass",
-    "egg:cosmicpowercosmic",
+    "egg:cosmicpower",
     "egg:fakeout",
     "egg:faketears",
     "egg:helpinghand",

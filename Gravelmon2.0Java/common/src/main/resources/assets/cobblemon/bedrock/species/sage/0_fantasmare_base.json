@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_fantasmare",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_fantasmare",
       "texture": "cobblemon:textures/pokemon/sage/fantasmare.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/fantasmare_shiny.png"
-    }  ]
+    }
+  ]
 }

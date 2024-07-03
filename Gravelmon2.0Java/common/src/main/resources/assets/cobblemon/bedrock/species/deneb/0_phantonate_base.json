@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_phantonate",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_phantonate",
       "texture": "cobblemon:textures/pokemon/deneb/phantonate.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/phantonate_shiny.png"
-    }  ]
+    }
+  ]
 }

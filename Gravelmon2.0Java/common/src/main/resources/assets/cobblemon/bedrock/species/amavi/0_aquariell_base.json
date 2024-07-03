@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_aquariell",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_aquariell",
       "texture": "cobblemon:textures/pokemon/amavi/aquariell.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/aquariell_shiny.png"
-    }  ]
+    }
+  ]
 }

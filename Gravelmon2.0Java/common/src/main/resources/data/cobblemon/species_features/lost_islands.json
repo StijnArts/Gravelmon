@@ -1,0 +1,6 @@
+{
+    "keys": [ "lost_islands" ],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

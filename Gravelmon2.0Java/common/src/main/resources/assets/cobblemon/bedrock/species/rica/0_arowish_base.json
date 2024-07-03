@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_arowish",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_arowish",
       "texture": "cobblemon:textures/pokemon/rica/arowish.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/arowish_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_oogashroomga",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_oogashroomga",
       "texture": "cobblemon:textures/pokemon/lonava/oogashroomga.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/oogashroomga_shiny.png"
-    }  ]
+    }
+  ]
 }

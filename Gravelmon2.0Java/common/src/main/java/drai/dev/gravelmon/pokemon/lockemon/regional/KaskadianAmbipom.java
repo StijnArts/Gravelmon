@@ -1,13 +1,18 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
+import java.util.*;
+
 import java.util.*;
 
 public class KaskadianAmbipom extends Pokemon {
-    public KaskadianAmbipom(int dexNo) {
-        super(dexNo,"KaskadianAmbipom",
+    public KaskadianAmbipom(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianAmbipom",
                 Type.NORMAL, Type.ROCK,
                 new Stats(75, 100, 66, 60, 66, 115),
                 List.of(Ability.SAND_FORCE, Ability.PICKUP), Ability.SKILL_LINK,
@@ -100,12 +105,15 @@ public class KaskadianAmbipom extends Pokemon {
                 List.of(Label.LOCKEMON, Label.GEN4),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.RARE, 32, 48, 0.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_NETHER_BASALT))
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_VOLCANIC))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Ambipom");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("aipom", new EvolutionEntry("ambipom kaskadian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ROCK_THROW.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("aipom", new MoveLearnSetEntry(Move.ROCK_THROW, "34"));
     }
 }

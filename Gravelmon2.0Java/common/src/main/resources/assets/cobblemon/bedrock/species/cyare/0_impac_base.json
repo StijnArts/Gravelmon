@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:cyare_impac",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_impac",
       "texture": "cobblemon:textures/pokemon/cyare/impac.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/cyare/impac_shiny.png"
-    }  ]
+    }
+  ]
 }

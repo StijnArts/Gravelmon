@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_sunduke",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_sunduke",
       "texture": "cobblemon:textures/pokemon/sage/sunduke.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/sunduke_shiny.png"
-    }  ]
+    }
+  ]
 }

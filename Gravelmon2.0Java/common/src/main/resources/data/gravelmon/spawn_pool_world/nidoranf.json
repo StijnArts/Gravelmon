@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "alterannidoranwintercoat-1",
+      "pokemon": "nidoranf alteran_winter_coat",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-27",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy",
+"#cobblemon:is_snowy_forest" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

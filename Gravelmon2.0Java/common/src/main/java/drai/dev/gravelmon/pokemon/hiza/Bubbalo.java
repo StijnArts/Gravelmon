@@ -1,10 +1,11 @@
 package drai.dev.gravelmon.pokemon.hiza;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
-import static drai.dev.gravelmon.pokemon.attributes.conditions.SpawnPreset.NATURAL;
+import static drai.dev.gravelmon.data.attributes.conditions.SpawnPreset.NATURAL;
 
 public class Bubbalo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubbalo() {

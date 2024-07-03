@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_swondola",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_swondola",
       "texture": "cobblemon:textures/pokemon/amavi/swondola.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/swondola_shiny.png"
-    }  ]
+    }
+  ]
 }

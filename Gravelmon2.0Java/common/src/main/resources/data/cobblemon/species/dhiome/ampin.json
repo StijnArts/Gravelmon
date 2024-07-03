@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ampin",
-  "nationalPokedexNumber": 1474,
+  "nationalPokedexNumber": 1475,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -67,10 +67,10 @@
     "tm:rest",
     "tm:return",
     "tm:rockslide",
-    "tm:roundsound",
+    "tm:round",
     "tm:sandstorm",
     "tm:signalbeam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:stealthrock",
     "tm:substitute",
     "tm:swagger",

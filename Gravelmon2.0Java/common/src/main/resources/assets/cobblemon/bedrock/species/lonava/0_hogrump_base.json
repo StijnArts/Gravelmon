@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_hogrump",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_hogrump",
       "texture": "cobblemon:textures/pokemon/lonava/hogrump.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/hogrump_shiny.png"
-    }  ]
+    }
+  ]
 }

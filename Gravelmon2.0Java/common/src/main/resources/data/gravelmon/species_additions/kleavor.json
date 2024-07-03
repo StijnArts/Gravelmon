@@ -1,0 +1,124 @@
+{
+   "target": "cobblemon:kleavor",
+   "forms": [{
+  "name": "Mythian",
+  "primaryType": "fire",
+  "secondaryType": "rock",
+  "abilities": [
+    "sheerforce",
+    "cursedbody",
+    "h:shadowtag"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 135,
+    "defence": 95,
+    "special_attack": 45,
+    "special_defence": 70,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 120,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:preadite",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
+  "moves": [
+    "1:quickattack",
+    "6:silverwind",
+    "11:aerialace",
+    "14:doublehit",
+    "14:stealthrock",
+    "18:airslash",
+    "25:swordsdance",
+    "29:shadowball",
+    "31:curse",
+    "33:flareblitz",
+    "34:flamethrower",
+    "39:closecombat",
+    "41:shadowsneak",
+    "51:bodyslam",
+    "60:hyperbeam",
+    "66:fireblast",
+    "71:eruption",
+    "77:spiritshackle",
+    "egg:counter",
+    "egg:batonpass",
+    "egg:razorwind",
+    "egg:reversal",
+    "egg:endure",
+    "egg:silverwind",
+    "egg:bugbuzz",
+    "egg:nightslash",
+    "egg:defog",
+    "egg:steelwing",
+    "egg:quickguard"  ],
+  "labels": [
+    "gen8",
+    "myth",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mythiankleavor.desc"
+  ],
+  "preEvolution": "scyther form=mythian",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 560,
+  "aspects": ["mythian"],
+  "cannotDynamax": false
+}
+], "features": [
+"mythian"
+  ]
+}

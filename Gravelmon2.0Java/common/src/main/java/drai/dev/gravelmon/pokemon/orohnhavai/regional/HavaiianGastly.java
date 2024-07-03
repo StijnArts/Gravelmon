@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.orohnhavai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class HavaiianGastly extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HavaiianGastly(int dex) {
-        super(dex, "HavaiianGastly",
+    public HavaiianGastly(String name, Aspect aspect) {
+        super(name, aspect, "HavaiianGastly",
                 Type.GHOST, Type.FIRE,
                 new Stats(30,
                         30,
@@ -26,7 +27,7 @@ public class HavaiianGastly extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It attracts victims with its warm enthralling fire, then puts them under a trance. It will then suck their energy while the victim feels nothing at all. Victims wake up afterward, feeling very chilled. The fire surrounding it burns brighter the more energy it has consumed."),
                 List.of(new EvolutionEntry("HavaiianHaunter", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(                  new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SMOG,1),
                         new MoveLearnSetEntry(Move.EMBER,4),
@@ -84,7 +85,7 @@ public class HavaiianGastly extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 31, 5.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_FIRE))
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

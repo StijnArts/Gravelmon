@@ -1,7 +1,13 @@
 package drai.dev.gravelmon.pokemon.junnin;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import java.util.*;
+
+import drai.dev.gravelmon.data.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Equazar extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -68,7 +74,7 @@ public class Equazar extends drai.dev.gravelmon.pokemon.Pokemon {
         List.of(Label.JUNNIN),
                 0, List.of(
         ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, 1, List.of(
-                new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_WASTELAND))
+                new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_VOLCANIC, Biome.IS_NETHER_WASTELAND))
         ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

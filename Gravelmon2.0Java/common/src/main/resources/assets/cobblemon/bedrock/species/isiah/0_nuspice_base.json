@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_nuspice",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_nuspice",
       "texture": "cobblemon:textures/pokemon/isiah/nuspice.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/nuspice_shiny.png"
-    }  ]
+    }
+  ]
 }

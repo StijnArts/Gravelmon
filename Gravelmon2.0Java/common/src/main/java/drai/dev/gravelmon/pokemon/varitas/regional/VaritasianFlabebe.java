@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianFlabebe extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianFlabebe(int dex) {
-        super(dex, "VaritasianFlabebe",
+    public VaritasianFlabebe(String name, Aspect aspect) {
+        super(name, aspect, "VaritasianFlabebe",
                 Type.FAIRY, Type.POISON,
                 new Stats(44,
                         38,

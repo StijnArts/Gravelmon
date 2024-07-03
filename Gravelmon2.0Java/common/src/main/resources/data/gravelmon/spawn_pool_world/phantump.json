@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "varitasianphantump-1",
+      "pokemon": "phantump varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltaphantump-1",
+      "pokemon": "phantump delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_floral" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_plains",
+"#cobblemon:is_autumn" ]    }
+    }
+,
+    {
+      "id": "kaskadianphantump-1",
+      "pokemon": "phantump kaskadian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_fungus" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

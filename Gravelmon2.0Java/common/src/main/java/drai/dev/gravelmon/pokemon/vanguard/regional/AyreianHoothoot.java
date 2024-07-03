@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianHoothoot extends Pokemon {
-    public AyreianHoothoot(int dexNo) {
-        super(dexNo,"AyreianHoothoot",
+    public AyreianHoothoot(String name, Aspect aspect) {
+        super(name, aspect,"AyreianHoothoot",
                 Type.PSYCHIC, Type.FLYING,
                 new Stats(60,30,30,50,65,55),
                 List.of(Ability.INSOMNIA, Ability.MIRROR_ARMOR), Ability.TINTED_LENS,

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianDoduo extends Pokemon {
-    public SeviianDoduo(int dexNo) {
-        super(dexNo, "SeviianDoduo",
+    public SeviianDoduo(String name, Aspect aspect) {
+        super(name, aspect,"SeviianDoduo",
                 Type.FIRE, Type.GROUND,
                 new Stats(40, 80, 45, 35, 35, 75),
                 List.of(Ability.ROCK_HEAD, Ability.EARLY_BIRD), Ability.ANGER_POINT,

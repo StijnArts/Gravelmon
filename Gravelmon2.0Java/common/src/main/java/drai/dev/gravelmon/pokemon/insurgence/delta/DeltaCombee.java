@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaCombee extends Pokemon {
-    public DeltaCombee(int dexNo) {
-        super(dexNo,"DeltaCombee",
+    public DeltaCombee(String name, Aspect aspect) {
+        super(name, aspect,"DeltaCombee",
                 Type.STEEL, Type.FIRE,
                 new Stats(30, 30, 42, 30, 42, 70),
                 List.of(Ability.LEVITATE), Ability.SPEED_BOOST,

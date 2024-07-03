@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_sagilin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_sagilin",
       "texture": "cobblemon:textures/pokemon/isiah/sagilin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/sagilin_shiny.png"
-    }  ]
+    }
+  ]
 }

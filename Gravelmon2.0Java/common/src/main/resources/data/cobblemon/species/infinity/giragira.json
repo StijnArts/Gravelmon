@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "giragira",
-  "nationalPokedexNumber": 1456,
+  "nationalPokedexNumber": 1457,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "0:bite",
     "1:superfang",
@@ -71,9 +81,9 @@
     "tutor:darkpulse",
     "tutor:dazzlinggleam",
     "tutor:foulplay",
-    "tutor:gravitycosmic",
+    "tutor:gravity",
     "tutor:headbutt",
-    "tutor:hypervoicesound",
+    "tutor:hypervoice",
     "tutor:irontail",
     "tutor:knockoff",
     "tutor:megakick",
@@ -82,10 +92,10 @@
     "tutor:roleplay",
     "tutor:signalbeam",
     "tutor:skillswap",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:suckerpunch",
-    "tutor:swiftcosmic",
+    "tutor:swift",
     "tutor:trick",
     "tutor:uproar",
     "tutor:zenheadbutt",

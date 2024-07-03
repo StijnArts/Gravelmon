@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_squink",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_squink",
       "texture": "cobblemon:textures/pokemon/sage/squink.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/squink_shiny.png"
-    }  ]
+    }
+  ]
 }

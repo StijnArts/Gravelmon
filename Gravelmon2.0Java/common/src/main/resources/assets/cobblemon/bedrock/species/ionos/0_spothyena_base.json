@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_spothyena",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_spothyena",
       "texture": "cobblemon:textures/pokemon/ionos/spothyena.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/spothyena_shiny.png"
-    }  ]
+    }
+  ]
 }

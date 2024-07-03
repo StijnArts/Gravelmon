@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_twoolepin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_twoolepin",
       "texture": "cobblemon:textures/pokemon/isiah/twoolepin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/twoolepin_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianLapras extends Pokemon {
-    public KaskadianLapras(int dexNo) {
-        super(dexNo,"KaskadianLapras",
+    public KaskadianLapras(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianLapras",
                 Type.ICE, Type.DRAGON,
                 new Stats(110, 70, 55, 105, 75, 120),
                 List.of(Ability.MULTISCALE, Ability.WEAK_ARMOR), Ability.ARCANUM,

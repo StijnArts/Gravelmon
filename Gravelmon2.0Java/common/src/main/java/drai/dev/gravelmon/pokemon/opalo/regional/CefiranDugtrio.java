@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranDugtrio extends Pokemon {
-    public CefiranDugtrio(int dexNo) {
-        super(dexNo,"CefiranDugtrio",
+    public CefiranDugtrio(String name, Aspect aspect) {
+        super(name, aspect,"CefiranDugtrio",
                 Type.GROUND , Type.FLYING,
                 new Stats(55,50,70,120,100,70),
                 List.of(Ability.ANTICIPATION), Ability.SAND_FORCE,

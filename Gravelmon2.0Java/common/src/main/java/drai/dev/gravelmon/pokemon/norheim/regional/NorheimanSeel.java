@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanSeel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanSeel(int dex) {
-        super(dex, "Seel",
+    public NorheimanSeel(String name, Aspect aspect) {
+        super(name, aspect, "Seel",
                 Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,

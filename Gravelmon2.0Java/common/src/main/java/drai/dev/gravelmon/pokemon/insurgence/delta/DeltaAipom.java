@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaAipom extends Pokemon {
-    public DeltaAipom(int dexNo) {
-        super(dexNo,"DeltaAipom",
+    public DeltaAipom(String name, Aspect aspect) {
+        super(name, aspect,"DeltaAipom",
                 Type.GHOST, Type.NORMAL,
                 new Stats(55, 70, 55, 40, 55, 85),
                 List.of(Ability.CURSED_BODY, Ability.RATTLED), Ability.TECHNICIAN,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_narwhail",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_narwhail",
       "texture": "cobblemon:textures/pokemon/deneb/narwhail.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/narwhail_shiny.png"
-    }  ]
+    }
+  ]
 }

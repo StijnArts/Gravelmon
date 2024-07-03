@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_operlogica",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_operlogica",
       "texture": "cobblemon:textures/pokemon/fliga/operlogica.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/operlogica_shiny.png"
-    }  ]
+    }
+  ]
 }

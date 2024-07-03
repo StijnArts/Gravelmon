@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_cyclodon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_cyclodon",
       "texture": "cobblemon:textures/pokemon/interregional/cyclodon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/cyclodon_shiny.png"
-    }  ]
+    }
+  ]
 }

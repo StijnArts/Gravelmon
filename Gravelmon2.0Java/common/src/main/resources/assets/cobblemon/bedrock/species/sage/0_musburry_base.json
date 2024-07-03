@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_musburry",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_musburry",
       "texture": "cobblemon:textures/pokemon/sage/musburry.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/musburry_shiny.png"
-    }  ]
+    }
+  ]
 }

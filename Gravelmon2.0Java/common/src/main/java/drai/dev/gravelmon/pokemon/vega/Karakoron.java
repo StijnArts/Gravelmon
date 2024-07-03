@@ -1,8 +1,11 @@
 package drai.dev.gravelmon.pokemon.vega;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
 import java.util.*;
 
 import java.util.*;
@@ -71,5 +74,8 @@ public class Karakoron extends Pokemon {
                 0.4, 0.3,
                 List.of());
         setCanFly(true);
+        addAdditionalEvolution("chimecho", new EvolutionEntry("karakoron", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.HYPER_VOICE.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("chimecho", new MoveLearnSetEntry(Move.HYPER_VOICE, 44));
     }
 }

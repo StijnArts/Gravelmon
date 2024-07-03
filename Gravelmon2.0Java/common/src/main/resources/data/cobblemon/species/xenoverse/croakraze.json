@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "croakraze",
-  "nationalPokedexNumber": 1569,
+  "nationalPokedexNumber": 2166,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -86,7 +86,7 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
+    "tm:round",
     "tm:overheat",
     "tm:scald",
     "tm:fling",

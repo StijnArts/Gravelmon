@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_eelord",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_eelord",
       "texture": "cobblemon:textures/pokemon/atlas/eelord.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/eelord_shiny.png"
-    }  ]
+    }
+  ]
 }

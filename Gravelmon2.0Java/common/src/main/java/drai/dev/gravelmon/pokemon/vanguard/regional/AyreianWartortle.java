@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianWartortle extends Pokemon {
-    public AyreianWartortle(int dexNo) {
-        super(dexNo,"AyreianWartortle",
+    public AyreianWartortle(String name, Aspect aspect) {
+        super(name, aspect,"AyreianWartortle",
                 Type.FIGHTING, Type.STEEL,
                 new Stats(59, 88, 90, 58, 45, 65),
                 List.of(Ability.BULLETPROOF, Ability.SHELL_ARMOR), Ability.GUTS,

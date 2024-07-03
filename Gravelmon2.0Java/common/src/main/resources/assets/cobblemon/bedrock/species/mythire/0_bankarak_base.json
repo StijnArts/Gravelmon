@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_bankarak",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_bankarak",
       "texture": "cobblemon:textures/pokemon/mythire/bankarak.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/bankarak_shiny.png"
-    }  ]
+    }
+  ]
 }

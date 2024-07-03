@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_krailstorm",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_krailstorm",
       "texture": "cobblemon:textures/pokemon/novrai/krailstorm.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/krailstorm_shiny.png"
-    }  ]
+    }
+  ]
 }

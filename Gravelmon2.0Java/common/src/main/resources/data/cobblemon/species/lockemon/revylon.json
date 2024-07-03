@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "revylon",
-  "nationalPokedexNumber": 1980,
+  "nationalPokedexNumber": 3543,
   "primaryType": "ground",
   "secondaryType": "fire",
   "abilities": [
@@ -83,7 +83,7 @@
     "tm:dig",
     "tm:zenheadbutt",
     "tm:bodyslam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:stompingtantrum",
     "tm:rest",
     "tm:rockslide",

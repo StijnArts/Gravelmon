@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pelurche",
-  "nationalPokedexNumber": 2441,
+  "nationalPokedexNumber": 4336,
   "primaryType": "dark",
   "abilities": [
     "keeneye",
@@ -48,11 +48,11 @@
   ],
   "moves": [
     "1:tackle",
-    "4:howlsound",
+    "4:howl",
     "7:sandattack",
     "10:bite",
     "13:leer",
-    "16:roarsound",
+    "16:roar",
     "19:swagger",
     "22:assurance",
     "25:scaryface",

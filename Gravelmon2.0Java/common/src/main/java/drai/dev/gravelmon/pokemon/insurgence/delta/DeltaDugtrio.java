@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaDugtrio extends Pokemon {
-    public DeltaDugtrio(int dexNo) {
-        super(dexNo,"DeltaDugtrio",
+    public DeltaDugtrio(String name, Aspect aspect) {
+        super(name, aspect,"DeltaDugtrio",
                 Type.ICE, Type.NORMAL,
                 new Stats(35, 80, 50, 50, 70, 120),
                 List.of(Ability.SNOW_CLOAK,Ability.FUR_COAT), Ability.OBLIVIOUS,

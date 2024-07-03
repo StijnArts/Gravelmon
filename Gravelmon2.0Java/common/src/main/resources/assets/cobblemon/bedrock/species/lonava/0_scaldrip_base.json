@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_scaldrip",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_scaldrip",
       "texture": "cobblemon:textures/pokemon/lonava/scaldrip.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/scaldrip_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianBidoof extends Pokemon {
-    public KaskadianBidoof(int dexNo) {
-        super(dexNo,"KaskadianBidoof",
+    public KaskadianBidoof(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianBidoof",
                 Type.NORMAL, Type.STEEL,
                 new Stats(59, 40,40,35,45,31),
                 List.of(Ability.SIMPLE, Ability.TRACE   ), Ability.GRAVITY_SLING,

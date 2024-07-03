@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_whud",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_whud",
       "texture": "cobblemon:textures/pokemon/lonava/whud.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/whud_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "equazar",
-  "nationalPokedexNumber": 1816,
+  "nationalPokedexNumber": 2865,
   "primaryType": "rock",
   "abilities": [
     "keeneye",
@@ -47,8 +47,8 @@
     "mineral"
   ],
   "moves": [
-    "1:powergemcrystal",
-    "tm:snoresound",
+    "1:powergem",
+    "tm:snore",
     "tm:thunderwave",
     "tm:rocksmash",
     "tm:attract",
@@ -62,8 +62,8 @@
     "tm:hyperbeam",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",
@@ -82,7 +82,7 @@
     "22:slash",
     "26:airslash",
     "30:rockpolish",
-    "36:powergemcrystal",
+    "36:powergem",
     "42:nightslash",
     "46:focusenergy",
     "50:stoneedge",

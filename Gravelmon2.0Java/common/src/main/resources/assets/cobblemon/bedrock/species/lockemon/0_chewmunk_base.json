@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_chewmunk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_chewmunk",
       "texture": "cobblemon:textures/pokemon/lockemon/chewmunk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/chewmunk_shiny.png"
-    }  ]
+    }
+  ]
 }

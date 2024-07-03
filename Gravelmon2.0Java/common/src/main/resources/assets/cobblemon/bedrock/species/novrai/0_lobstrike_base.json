@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_lobstrike",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_lobstrike",
       "texture": "cobblemon:textures/pokemon/novrai/lobstrike.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/lobstrike_shiny.png"
-    }  ]
+    }
+  ]
 }

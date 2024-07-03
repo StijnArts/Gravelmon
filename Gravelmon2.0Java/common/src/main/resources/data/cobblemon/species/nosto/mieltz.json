@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mieltz",
-  "nationalPokedexNumber": 2017,
+  "nationalPokedexNumber": 3580,
   "primaryType": "bug",
   "abilities": [
     "honeygather",
@@ -57,7 +57,7 @@
     "19:webball",
     "22:workup",
     "25:quiverdance",
-    "29:bugbuzzsound",
+    "29:bugbuzz",
     "36:decorate"  ],
   "labels": [
     "nosto",

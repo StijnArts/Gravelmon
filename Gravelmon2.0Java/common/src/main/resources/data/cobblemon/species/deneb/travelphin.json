@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "travelphin",
-  "nationalPokedexNumber": 2943,
+  "nationalPokedexNumber": 4930,
   "primaryType": "rock",
   "secondaryType": "water",
   "abilities": [
@@ -79,7 +79,7 @@
     "tm:dig",
     "tm:falseswipe",
     "tm:bodyslam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:rockblast",
     "tm:waterfall",
     "tm:poisonjab",

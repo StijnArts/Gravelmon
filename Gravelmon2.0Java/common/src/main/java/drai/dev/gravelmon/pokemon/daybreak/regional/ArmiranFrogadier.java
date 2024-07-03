@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.daybreak.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ArmiranFrogadier extends Pokemon {
-    public ArmiranFrogadier(int dexNo) {
-        super(dexNo,"ArmiranFrogadier",
+    public ArmiranFrogadier(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranFrogadier",
                 Type.DARK, Type.FIRE,
                 new Stats(54, 83, 52, 63, 56, 97),
                 List.of(Ability.BLAZE, Ability.SKILL_LINK), Ability.PROTEAN,

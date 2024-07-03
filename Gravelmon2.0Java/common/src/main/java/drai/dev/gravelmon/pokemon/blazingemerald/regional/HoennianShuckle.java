@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class HoennianShuckle extends Pokemon {
-    public HoennianShuckle(int dexNo) {
-        super(dexNo,"HoennianShuckle",
+    public HoennianShuckle(String name, Aspect aspect) {
+        super(name, aspect,"HoennianShuckle",
                 Type.GRASS, Type.ROCK,
                 new Stats(40, 10,220,10,220,5),
                 List.of(Ability.EFFECT_SPORE), Ability.SOLID_ROCK,

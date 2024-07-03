@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chientilly",
-  "nationalPokedexNumber": 1560,
+  "nationalPokedexNumber": 2157,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -89,8 +89,8 @@
     "tm:doubleteam",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:fling",
     "tm:gigaimpact",
     "tm:psychup",
@@ -100,7 +100,7 @@
     "tm:dazzlinggleam",
     "tutor:magicwall",
     "tutor:secretpower",
-    "tutor:snoresound"  ],
+    "tutor:snore"  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -109,7 +109,7 @@
   "pokedex": [
     "cobblemon.species.chientilly.desc"
   ],
-  "preEvolution": "smearglex",
+  "preEvolution": "smeargle form=x",
   "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,

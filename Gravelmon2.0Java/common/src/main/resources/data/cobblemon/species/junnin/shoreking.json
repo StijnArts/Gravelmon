@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shoreking",
-  "nationalPokedexNumber": 1826,
+  "nationalPokedexNumber": 2875,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -62,7 +62,7 @@
     "45:irondefense",
     "55:fissure",
     "tm:earthpower",
-    "tm:snoresound",
+    "tm:snore",
     "tm:irondefense",
     "tm:waterpulse",
     "tm:dig",
@@ -76,8 +76,8 @@
     "tm:hyperbeam",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

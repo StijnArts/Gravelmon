@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianAbra extends Pokemon {
-    public AyreianAbra(int dexNo) {
-        super(dexNo,"AyreianAbra",
+    public AyreianAbra(String name, Aspect aspect) {
+        super(name, aspect,"AyreianAbra",
                 Type.DARK, Type.FIGHTING,
                 new Stats(25,80,35,60,75,35),
                 List.of(Ability.SNIPER, Ability.INNER_FOCUS), Ability.SHEER_FORCE,

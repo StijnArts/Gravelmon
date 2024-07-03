@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_oragnutan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_oragnutan",
       "texture": "cobblemon:textures/pokemon/isiah/oragnutan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/oragnutan_shiny.png"
-    }  ]
+    }
+  ]
 }

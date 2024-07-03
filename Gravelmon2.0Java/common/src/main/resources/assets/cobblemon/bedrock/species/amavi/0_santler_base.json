@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_santler",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_santler",
       "texture": "cobblemon:textures/pokemon/amavi/santler.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/santler_shiny.png"
-    }  ]
+    }
+  ]
 }

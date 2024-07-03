@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_ambrachios",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_ambrachios",
       "texture": "cobblemon:textures/pokemon/isiah/ambrachios.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/ambrachios_shiny.png"
-    }  ]
+    }
+  ]
 }

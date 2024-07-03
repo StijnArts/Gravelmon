@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:cyare_orukul",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_orukul",
       "texture": "cobblemon:textures/pokemon/cyare/orukul.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/cyare/orukul_shiny.png"
-    }  ]
+    }
+  ]
 }

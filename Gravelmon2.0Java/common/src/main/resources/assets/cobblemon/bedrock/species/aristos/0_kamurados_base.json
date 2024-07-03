@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:aristos_kamurados",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aristos_kamurados",
       "texture": "cobblemon:textures/pokemon/aristos/kamurados.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/aristos/kamurados_shiny.png"
-    }  ]
+    }
+  ]
 }

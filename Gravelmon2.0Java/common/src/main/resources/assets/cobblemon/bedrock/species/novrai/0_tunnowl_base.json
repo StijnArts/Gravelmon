@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_tunnowl",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_tunnowl",
       "texture": "cobblemon:textures/pokemon/novrai/tunnowl.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/tunnowl_shiny.png"
-    }  ]
+    }
+  ]
 }

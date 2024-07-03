@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grabbit",
-  "nationalPokedexNumber": 1598,
+  "nationalPokedexNumber": 2196,
   "primaryType": "dark",
   "secondaryType": "poison",
   "abilities": [
@@ -87,7 +87,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

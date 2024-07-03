@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:cyare_lumibuzz",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_lumibuzz",
       "texture": "cobblemon:textures/pokemon/cyare/lumibuzz.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/cyare/lumibuzz_shiny.png"
-    }  ]
+    }
+  ]
 }

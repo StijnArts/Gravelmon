@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_rewt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_rewt",
       "texture": "cobblemon:textures/pokemon/midamis/rewt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/rewt_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_tarmendoa",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_tarmendoa",
       "texture": "cobblemon:textures/pokemon/lockemon/tarmendoa.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/tarmendoa_shiny.png"
-    }  ]
+    }
+  ]
 }

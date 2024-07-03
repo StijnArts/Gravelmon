@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_hellsire",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_hellsire",
       "texture": "cobblemon:textures/pokemon/hiza/hellsire.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/hellsire_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_nomadent",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_nomadent",
       "texture": "cobblemon:textures/pokemon/lonava/nomadent.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/nomadent_shiny.png"
-    }  ]
+    }
+  ]
 }

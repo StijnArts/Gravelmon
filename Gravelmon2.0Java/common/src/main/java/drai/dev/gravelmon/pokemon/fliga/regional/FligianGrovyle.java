@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianGrovyle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianGrovyle(int dex) {
-        super(dex, "Grovyle",
+    public FligianGrovyle(String name, Aspect aspect) {
+        super(name, aspect, "Grovyle",
                 Type.ROCK,
                 new Stats(50,
                         85,

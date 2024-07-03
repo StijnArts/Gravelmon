@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_alpico",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_alpico",
       "texture": "cobblemon:textures/pokemon/uranium/alpico.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/alpico_shiny.png"
-    }  ]
+    }
+  ]
 }

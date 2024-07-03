@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_piratross",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_piratross",
       "texture": "cobblemon:textures/pokemon/okeno/piratross.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/piratross_shiny.png"
-    }  ]
+    }
+  ]
 }

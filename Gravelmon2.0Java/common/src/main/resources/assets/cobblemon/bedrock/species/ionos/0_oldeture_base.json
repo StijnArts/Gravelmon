@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_oldeture",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_oldeture",
       "texture": "cobblemon:textures/pokemon/ionos/oldeture.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/oldeture_shiny.png"
-    }  ]
+    }
+  ]
 }

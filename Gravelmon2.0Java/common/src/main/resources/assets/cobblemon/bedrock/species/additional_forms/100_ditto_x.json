@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:ditto",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:generation1_dittox.geo",
+      "poser": "cobblemon:generation1_dittox",
+      "texture": "cobblemon:textures/pokemon/generation1/dittox/dittox.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_dittox.geo",
+      "poser": "cobblemon:generation1_dittox",
+      "texture": "cobblemon:textures/pokemon/generation1/dittox/dittox_shiny.png",
+      "layers": []
+    }
+  ]
+}

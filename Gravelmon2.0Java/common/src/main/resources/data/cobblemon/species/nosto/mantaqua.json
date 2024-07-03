@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mantaqua",
-  "nationalPokedexNumber": 2084,
+  "nationalPokedexNumber": 3647,
   "primaryType": "water",
   "abilities": [
     "hydration",
@@ -65,7 +65,7 @@
     "51:recover",
     "54:moonlight",
     "59:healpulse",
-    "61:sparklingariasound",
+    "61:sparklingaria",
     "71:hydropump",
     "74:healingwish"  ],
   "labels": [

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_colossalgae",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_colossalgae",
       "texture": "cobblemon:textures/pokemon/lagoone/colossalgae.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/colossalgae_shiny.png"
-    }  ]
+    }
+  ]
 }

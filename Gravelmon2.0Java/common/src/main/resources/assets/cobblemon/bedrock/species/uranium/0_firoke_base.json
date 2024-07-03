@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_firoke",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_firoke",
       "texture": "cobblemon:textures/pokemon/uranium/firoke.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/firoke_shiny.png"
-    }  ]
+    }
+  ]
 }

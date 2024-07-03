@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_paow",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_paow",
       "texture": "cobblemon:textures/pokemon/atlas/paow.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/paow_shiny.png"
-    }  ]
+    }
+  ]
 }

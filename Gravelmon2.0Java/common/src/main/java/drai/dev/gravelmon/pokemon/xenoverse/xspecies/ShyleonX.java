@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ShyleonX extends Pokemon {
-    public ShyleonX(int dexNo) {
-        super(dexNo,"ShyleonX",
+    public ShyleonX(String name, Aspect aspect) {
+        super(name, aspect,"ShyleonX",
                 Type.GRASS, Type.FAIRY,
                 new Stats(68, 44, 87, 100, 87, 114),
                 List.of(Ability.RATTLED), Ability.RATTLED,

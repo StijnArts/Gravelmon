@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_cachoe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_cachoe",
       "texture": "cobblemon:textures/pokemon/atlas/cachoe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/cachoe_shiny.png"
-    }  ]
+    }
+  ]
 }

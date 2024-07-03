@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "cockroast",
+  "nationalPokedexNumber": 2016,
+  "primaryType": "bug",
+  "secondaryType": "fire",
+  "abilities": [
+    "shielddust",
+    "adaptability",
+    "h:flamebody"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 60,
+    "defence": 40,
+    "special_attack": 65,
+    "special_defence": 45,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 245,
+  "maleRatio": 0.8,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:ember",
+    "7:mudslap",
+    "12:twineedle",
+    "16:smokescreen",
+    "20:silverwind",
+    "24:firespin",
+    "28:silverwind",
+    "34:signalbeam",
+    "38:flamethrower",
+    "44:quiverdance",
+    "50:eruption"  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cockroast.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cockroast_roaspector",
+      "variant": "item_interact",
+      "result": "roaspector",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

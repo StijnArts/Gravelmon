@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tamroast",
-  "nationalPokedexNumber": 1936,
+  "nationalPokedexNumber": 3499,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -69,7 +69,7 @@
     "egg:astonish",
     "egg:belch",
     "egg:covet",
-    "egg:disarmingvoicesound",
+    "egg:disarmingvoice",
     "egg:firepunch",
     "egg:firespin",
     "egg:flareblitz",
@@ -77,7 +77,7 @@
     "egg:lowkick",
     "egg:nastyplot",
     "egg:roleplay",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:tickle"  ],
   "labels": [
     "lockemon",

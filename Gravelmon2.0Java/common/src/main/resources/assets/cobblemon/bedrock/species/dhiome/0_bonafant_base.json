@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:dhiome_bonafant",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_bonafant",
       "texture": "cobblemon:textures/pokemon/dhiome/bonafant.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/dhiome/bonafant_shiny.png"
-    }  ]
+    }
+  ]
 }

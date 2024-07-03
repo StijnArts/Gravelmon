@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_chiticonch",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_chiticonch",
       "texture": "cobblemon:textures/pokemon/qamor/chiticonch.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/chiticonch_shiny.png"
-    }  ]
+    }
+  ]
 }

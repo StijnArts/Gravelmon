@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_birred",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_birred",
       "texture": "cobblemon:textures/pokemon/midamis/birred.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/birred_shiny.png"
-    }  ]
+    }
+  ]
 }

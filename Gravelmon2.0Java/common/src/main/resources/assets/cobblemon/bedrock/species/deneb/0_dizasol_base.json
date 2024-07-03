@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_dizasol",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_dizasol",
       "texture": "cobblemon:textures/pokemon/deneb/dizasol.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/dizasol_shiny.png"
-    }  ]
+    }
+  ]
 }

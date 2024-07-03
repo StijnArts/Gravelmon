@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_jollibird",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_jollibird",
       "texture": "cobblemon:textures/pokemon/infinity/jollibird.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/jollibird_shiny.png"
-    }  ]
+    }
+  ]
 }

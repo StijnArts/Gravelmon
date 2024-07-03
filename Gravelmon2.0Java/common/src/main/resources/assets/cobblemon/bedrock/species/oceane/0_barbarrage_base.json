@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_barbarrage",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_barbarrage",
       "texture": "cobblemon:textures/pokemon/oceane/barbarrage.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/barbarrage_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "dualance",
+  "nationalPokedexNumber": 1967,
+  "primaryType": "steel",
+  "abilities": [
+    "moxie",
+    "noguard",
+    "h:defiant"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 115,
+    "defence": 100,
+    "special_attack": 40,
+    "special_defence": 65,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "amorphous"
+  ],
+  "moves": [
+    "1:tailwhip",
+    "5:defensecurl",
+    "7:mudslap",
+    "10:furycutter",
+    "13:metalclaw",
+    "16:helpinghand",
+    "20:crosspoison",
+    "23:ironhead",
+    "28:swordsdance",
+    "32:slash",
+    "35:irontail",
+    "37:aquaring",
+    "45:autotomize"  ],
+  "labels": [
+    "enriko",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.dualance.desc"
+  ],
+  "preEvolution": "planeedle",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

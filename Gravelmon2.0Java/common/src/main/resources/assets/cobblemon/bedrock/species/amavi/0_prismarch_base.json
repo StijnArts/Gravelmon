@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_prismarch",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_prismarch",
       "texture": "cobblemon:textures/pokemon/amavi/prismarch.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/prismarch_shiny.png"
-    }  ]
+    }
+  ]
 }

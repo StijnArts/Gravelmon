@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sunflorid",
-  "nationalPokedexNumber": 1426,
+  "nationalPokedexNumber": 1427,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "grass"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:fire_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:incinerate",
     "1:doubleedge",
@@ -97,8 +107,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:energyball",
     "tm:fling",
     "tm:chargebeam",
@@ -121,7 +131,7 @@
     "tutor:earthpower",
     "tutor:firepunch",
     "tutor:gigadrain",
-    "tutor:healbellsound",
+    "tutor:healbell",
     "tutor:heatwave",
     "tutor:helpinghand",
     "tutor:seedbomb",

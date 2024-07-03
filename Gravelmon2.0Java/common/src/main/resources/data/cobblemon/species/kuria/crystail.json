@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crystail",
-  "nationalPokedexNumber": 2349,
+  "nationalPokedexNumber": 4244,
   "primaryType": "crystal",
   "abilities": [
     "levitate",
@@ -57,7 +57,7 @@
     "20:mudslap",
     "24:calmmind",
     "29:toxic",
-    "32:powergemcrystal",
+    "32:powergem",
     "40:irondefense",
     "42:metalsound",
     "47:extremespeed",

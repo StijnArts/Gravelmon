@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_chilormangur",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_chilormangur",
       "texture": "cobblemon:textures/pokemon/fliga/chilormangur.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/chilormangur_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_mouldon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_mouldon",
       "texture": "cobblemon:textures/pokemon/enjin/mouldon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/mouldon_shiny.png"
-    }  ]
+    }
+  ]
 }

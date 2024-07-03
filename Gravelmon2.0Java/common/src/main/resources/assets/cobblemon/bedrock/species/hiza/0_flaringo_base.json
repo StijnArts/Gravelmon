@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_flaringo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_flaringo",
       "texture": "cobblemon:textures/pokemon/hiza/flaringo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/flaringo_shiny.png"
-    }  ]
+    }
+  ]
 }

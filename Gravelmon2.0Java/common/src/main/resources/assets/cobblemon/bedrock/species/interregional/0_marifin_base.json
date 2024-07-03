@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_marifin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_marifin",
       "texture": "cobblemon:textures/pokemon/interregional/marifin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/marifin_shiny.png"
-    }  ]
+    }
+  ]
 }

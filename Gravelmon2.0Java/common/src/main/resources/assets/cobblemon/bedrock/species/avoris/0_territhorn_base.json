@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_territhorn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_territhorn",
       "texture": "cobblemon:textures/pokemon/avoris/territhorn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/territhorn_shiny.png"
-    }  ]
+    }
+  ]
 }

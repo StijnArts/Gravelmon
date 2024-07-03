@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brailien",
-  "nationalPokedexNumber": 2054,
+  "nationalPokedexNumber": 3617,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -86,7 +86,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

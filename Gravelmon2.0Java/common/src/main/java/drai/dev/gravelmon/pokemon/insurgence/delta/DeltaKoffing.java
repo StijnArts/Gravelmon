@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaKoffing extends Pokemon {
-    public DeltaKoffing(int dexNo) {
-        super(dexNo,"DeltaKoffing",
+    public DeltaKoffing(String name, Aspect aspect) {
+        super(name, aspect,"DeltaKoffing",
                 Type.ELECTRIC, Type.FLYING,
                 new Stats(40, 65, 95, 60, 45, 35),
                 List.of(Ability.CLOUD_NINE, Ability.AMPLIFIER), Ability.VOLT_ABSORB,

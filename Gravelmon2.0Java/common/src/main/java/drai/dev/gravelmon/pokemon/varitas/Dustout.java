@@ -1,7 +1,9 @@
 package drai.dev.gravelmon.pokemon.varitas;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
 
 import java.util.*;
 
@@ -127,6 +129,9 @@ public class Dustout extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dustout");
+        addAdditionalEvolution("dunsparce", new EvolutionEntry("Dustout", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DIG.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("dunsparce", new MoveLearnSetEntry(Move.DIG, 31));
 
     }
 

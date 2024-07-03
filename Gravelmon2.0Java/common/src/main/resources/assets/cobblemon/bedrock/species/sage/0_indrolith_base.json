@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_indrolith",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_indrolith",
       "texture": "cobblemon:textures/pokemon/sage/indrolith.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/indrolith_shiny.png"
-    }  ]
+    }
+  ]
 }

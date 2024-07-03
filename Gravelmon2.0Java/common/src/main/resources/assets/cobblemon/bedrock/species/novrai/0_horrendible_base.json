@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_horrendible",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_horrendible",
       "texture": "cobblemon:textures/pokemon/novrai/horrendible.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/horrendible_shiny.png"
-    }  ]
+    }
+  ]
 }

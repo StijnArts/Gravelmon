@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.lockemon;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -66,5 +67,7 @@ public class Probat extends Pokemon {
                 0.28, 0.3,
                 List.of());
         setCanFly(true);
+        addAdditionalEvolution("golbat", new EvolutionEntry("omeon", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.PSYCHIC, "")),
+                List.of(),List.of(),"gravelmon:amaze_drive"));
     }
 }

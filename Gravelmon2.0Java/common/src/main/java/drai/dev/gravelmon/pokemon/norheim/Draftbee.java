@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.norheim;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -48,6 +49,9 @@ public class Draftbee extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of());
            setLangFileName("Draftbee");
 setCanFly(true);
+        addAdditionalEvolution("combee", new EvolutionEntry("draftbee", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))));
     }
 
 

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_confurnace",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_confurnace",
       "texture": "cobblemon:textures/pokemon/enriko/confurnace.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/confurnace_shiny.png"
-    }  ]
+    }
+  ]
 }

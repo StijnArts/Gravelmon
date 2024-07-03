@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_botaneer",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_botaneer",
       "texture": "cobblemon:textures/pokemon/atlas/botaneer.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/botaneer_shiny.png"
-    }  ]
+    }
+  ]
 }

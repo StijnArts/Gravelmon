@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.qamor.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class QamoranSpoink extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranSpoink(int dex) {
-        super(dex, "Spoink",
+    public QamoranSpoink(String name, Aspect aspect) {
+        super(name, aspect, "Spoink",
                 Type.FIGHTING,
                 new Stats(60,
                         70,

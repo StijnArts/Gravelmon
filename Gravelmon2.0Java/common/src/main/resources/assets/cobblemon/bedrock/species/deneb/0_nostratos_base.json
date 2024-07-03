@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_nostratos",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_nostratos",
       "texture": "cobblemon:textures/pokemon/deneb/nostratos.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/nostratos_shiny.png"
-    }  ]
+    }
+  ]
 }

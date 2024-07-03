@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_tapiruin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_tapiruin",
       "texture": "cobblemon:textures/pokemon/lagoone/tapiruin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/tapiruin_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_itachill",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_itachill",
       "texture": "cobblemon:textures/pokemon/novrai/itachill.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/itachill_shiny.png"
-    }  ]
+    }
+  ]
 }

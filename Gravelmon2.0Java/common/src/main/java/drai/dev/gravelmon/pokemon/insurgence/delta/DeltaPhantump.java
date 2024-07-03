@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaPhantump extends Pokemon {
-    public DeltaPhantump(int dexNo) {
-        super(dexNo,"DeltaPhantump",
+    public DeltaPhantump(String name, Aspect aspect) {
+        super(name, aspect,"DeltaPhantump",
                 Type.FAIRY,
                 new Stats(43, 70,48,50,60,38),
                 List.of(Ability.SNOW_WARNING, Ability.OVERCOAT), Ability.SNOW_CLOAK,

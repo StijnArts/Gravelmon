@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.daybreak.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ArmiranHippowdon extends Pokemon {
-    public ArmiranHippowdon(int dexNo) {
-        super(dexNo,"ArmiranHippowdon",
+    public ArmiranHippowdon(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranHippowdon",
                 Type.WATER, Type.STEEL,
                 new Stats(95, 68, 72, 120, 118, 77),
                 List.of(Ability.STRONG_JAW,Ability.DRIZZLE), Ability.SWIFT_SWIM,

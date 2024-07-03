@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_puffume",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_puffume",
       "texture": "cobblemon:textures/pokemon/deneb/puffume.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/puffume_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_pojiya",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_pojiya",
       "texture": "cobblemon:textures/pokemon/deneb/pojiya.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/pojiya_shiny.png"
-    }  ]
+    }
+  ]
 }

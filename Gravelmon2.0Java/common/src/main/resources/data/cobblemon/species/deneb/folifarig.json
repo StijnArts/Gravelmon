@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "folifarig",
-  "nationalPokedexNumber": 2756,
+  "nationalPokedexNumber": 4743,
   "primaryType": "normal",
   "secondaryType": "psychic",
   "abilities": [
@@ -90,13 +90,13 @@
     "egg:mimic",
     "egg:mirrorcoat",
     "egg:mudslap",
-    "egg:powergemcrystal",
+    "egg:powergem",
     "egg:psyburn",
     "egg:psychup",
     "egg:safeguard",
     "egg:secretpower",
     "egg:shockwave",
-    "egg:swiftcosmic",
+    "egg:swift",
     "egg:takedown",
     "egg:trick"  ],
   "labels": [

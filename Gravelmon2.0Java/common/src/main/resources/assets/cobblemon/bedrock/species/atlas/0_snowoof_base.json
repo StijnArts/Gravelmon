@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_snowoof",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_snowoof",
       "texture": "cobblemon:textures/pokemon/atlas/snowoof.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/snowoof_shiny.png"
-    }  ]
+    }
+  ]
 }

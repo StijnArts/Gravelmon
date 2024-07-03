@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_desperasca",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_desperasca",
       "texture": "cobblemon:textures/pokemon/avoris/desperasca.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/desperasca_shiny.png"
-    }  ]
+    }
+  ]
 }

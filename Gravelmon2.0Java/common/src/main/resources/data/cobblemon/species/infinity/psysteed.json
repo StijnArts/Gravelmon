@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "psysteed",
-  "nationalPokedexNumber": 1403,
+  "nationalPokedexNumber": 1404,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
@@ -64,7 +64,7 @@
     "38:calmmind",
     "40:futuresight",
     "43:flareblitz",
-    "45:cosmicpowercosmic",
+    "45:cosmicpower",
     "47:jumpkick",
     "49:extrasensory",
     "52:flamethrower",
@@ -122,8 +122,8 @@
     "tutor:ironhead",
     "tutor:magiccoat",
     "tutor:magicroom",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:trick",
     "tutor:wonderroom",
     "tutor:zenheadbutt",

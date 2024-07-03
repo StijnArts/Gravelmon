@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_damastrophe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_damastrophe",
       "texture": "cobblemon:textures/pokemon/novrai/damastrophe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/damastrophe_shiny.png"
-    }  ]
+    }
+  ]
 }

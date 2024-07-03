@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_onnidix",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_onnidix",
       "texture": "cobblemon:textures/pokemon/interregional/onnidix.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/onnidix_shiny.png"
-    }  ]
+    }
+  ]
 }

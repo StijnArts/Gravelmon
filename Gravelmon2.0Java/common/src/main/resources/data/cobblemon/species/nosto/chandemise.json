@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chandemise",
-  "nationalPokedexNumber": 2095,
+  "nationalPokedexNumber": 3658,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
@@ -65,7 +65,7 @@
     "54:poltergeist",
     "60:recover",
     "65:inferno",
-    "73:perishsongsound"  ],
+    "73:perishsong"  ],
   "labels": [
     "nosto",
     "not_modeled",

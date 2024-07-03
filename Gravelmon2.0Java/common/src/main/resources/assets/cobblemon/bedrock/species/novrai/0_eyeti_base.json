@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_eyeti",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_eyeti",
       "texture": "cobblemon:textures/pokemon/novrai/eyeti.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/eyeti_shiny.png"
-    }  ]
+    }
+  ]
 }

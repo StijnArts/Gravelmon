@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_coatisnotti",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_coatisnotti",
       "texture": "cobblemon:textures/pokemon/umbra/coatisnotti.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/coatisnotti_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "razaury",
+  "nationalPokedexNumber": 3306,
+  "primaryType": "normal",
+  "abilities": [
+    "toughclaws",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 66,
+    "defence": 78,
+    "special_attack": 27,
+    "special_defence": 74,
+    "speed": 32
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "moves": [
+    "1:nightslash",
+    "1:crosschop",
+    "1:aerialace",
+    "1:slash",
+    "1:furyswipes",
+    "1:xscissor",
+    "1:honeclaws",
+    "1:bellydrum",
+    "1:furycutter",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bide",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:chargebeam",
+    "tm:counter",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:dragonclaw",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:focusenergy",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:knockoff",
+    "tm:lowsweep",
+    "tm:mimic",
+    "tm:outrage",
+    "tm:protect",
+    "tm:rage",
+    "tm:razorwind",
+    "tm:recycle",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:round",
+    "tm:secretpower",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snatch",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:xscissor"  ],
+  "labels": [
+    "crozoic",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.razaury.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "razaury_therislash",
+      "variant": "level_up",
+      "result": "therislash",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:razor_claw"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 800,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

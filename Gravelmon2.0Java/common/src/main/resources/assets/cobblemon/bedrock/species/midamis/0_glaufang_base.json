@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_glaufang",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_glaufang",
       "texture": "cobblemon:textures/pokemon/midamis/glaufang.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/glaufang_shiny.png"
-    }  ]
+    }
+  ]
 }

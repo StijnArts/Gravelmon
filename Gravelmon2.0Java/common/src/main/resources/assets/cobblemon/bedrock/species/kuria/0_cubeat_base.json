@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_cubeat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_cubeat",
       "texture": "cobblemon:textures/pokemon/kuria/cubeat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/cubeat_shiny.png"
-    }  ]
+    }
+  ]
 }

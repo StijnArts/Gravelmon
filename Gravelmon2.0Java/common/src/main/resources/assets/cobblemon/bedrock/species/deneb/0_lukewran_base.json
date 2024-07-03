@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_lukewran",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_lukewran",
       "texture": "cobblemon:textures/pokemon/deneb/lukewran.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/lukewran_shiny.png"
-    }  ]
+    }
+  ]
 }

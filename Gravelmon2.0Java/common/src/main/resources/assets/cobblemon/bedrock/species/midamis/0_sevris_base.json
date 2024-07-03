@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_sevris",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_sevris",
       "texture": "cobblemon:textures/pokemon/midamis/sevris.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/sevris_shiny.png"
-    }  ]
+    }
+  ]
 }

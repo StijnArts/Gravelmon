@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_beatroot",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_beatroot",
       "texture": "cobblemon:textures/pokemon/norheim/beatroot.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/beatroot_shiny.png"
-    }  ]
+    }
+  ]
 }

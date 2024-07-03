@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_jarmalade",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_jarmalade",
       "texture": "cobblemon:textures/pokemon/lonava/jarmalade.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/jarmalade_shiny.png"
-    }  ]
+    }
+  ]
 }

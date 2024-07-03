@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SaboltXenoversal extends Pokemon {
-    public SaboltXenoversal(int dexNo) {
-        super(dexNo,"SaboltXenoversal",
+    public SaboltXenoversal(String name, Aspect aspect) {
+        super(name, aspect,"SaboltXenoversal",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(118, 67, 123, 142, 90, 60),
                 List.of(Ability.DOWNLOAD), Ability.DOWNLOAD,

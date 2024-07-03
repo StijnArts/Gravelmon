@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_kookout",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_kookout",
       "texture": "cobblemon:textures/pokemon/novrai/kookout.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/kookout_shiny.png"
-    }  ]
+    }
+  ]
 }

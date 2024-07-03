@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_behitle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_behitle",
       "texture": "cobblemon:textures/pokemon/hiza/behitle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/behitle_shiny.png"
-    }  ]
+    }
+  ]
 }

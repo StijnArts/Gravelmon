@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaWhirlipede extends Pokemon {
-    public DeltaWhirlipede(int dexNo) {
-        super(dexNo,"DeltaWhirlipede",
+    public DeltaWhirlipede(String name, Aspect aspect) {
+        super(name, aspect,"DeltaWhirlipede",
                 Type.ROCK, Type.FIRE,
                 new Stats(40, 55, 99, 40, 79, 47),
                 List.of(Ability.WEAK_ARMOR, Ability.MAGMA_ARMOR), Ability.MOLD_BREAKER,

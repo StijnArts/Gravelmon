@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianVanillite extends Pokemon {
-    public AyreianVanillite(int dexNo) {
-        super(dexNo,"AyreianVanillite",
+    public AyreianVanillite(String name, Aspect aspect) {
+        super(name, aspect,"AyreianVanillite",
                 Type.FIRE, Type.GROUND,
                 new Stats(46,30,60,44,65,60),
                 List.of(Ability.LEVITATE, Ability.FLAME_BODY), Ability.DRY_SKIN,

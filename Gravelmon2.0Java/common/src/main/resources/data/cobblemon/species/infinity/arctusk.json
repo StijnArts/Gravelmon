@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arctusk",
-  "nationalPokedexNumber": 1434,
+  "nationalPokedexNumber": 1435,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
@@ -62,7 +62,7 @@
     "25:frostbreath",
     "31:doubleedge",
     "36:iciclecrash",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:bulkup",
@@ -83,8 +83,8 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:falseswipe",
     "tm:fling",
     "tm:quash",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_taroot",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_taroot",
       "texture": "cobblemon:textures/pokemon/flux/taroot.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/taroot_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_roadile",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_roadile",
       "texture": "cobblemon:textures/pokemon/isiah/roadile.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/roadile_shiny.png"
-    }  ]
+    }
+  ]
 }

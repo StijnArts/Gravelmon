@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_stelysium",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_stelysium",
       "texture": "cobblemon:textures/pokemon/amavi/stelysium.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/stelysium_shiny.png"
-    }  ]
+    }
+  ]
 }

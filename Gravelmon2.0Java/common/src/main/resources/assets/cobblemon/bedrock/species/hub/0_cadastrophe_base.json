@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hub_cadastrophe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_cadastrophe",
       "texture": "cobblemon:textures/pokemon/hub/cadastrophe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hub/cadastrophe_shiny.png"
-    }  ]
+    }
+  ]
 }

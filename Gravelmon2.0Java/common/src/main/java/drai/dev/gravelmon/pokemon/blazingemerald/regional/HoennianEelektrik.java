@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianEelektrik extends Pokemon {
-    public HoennianEelektrik(int dexNo) {
-        super(dexNo,"HoennianEelektrik",
+    public HoennianEelektrik(String name, Aspect aspect) {
+        super(name, aspect,"HoennianEelektrik",
                 Type.GROUND, Type.ELECTRIC,
                 new Stats(50, 100, 40, 30, 80, 80),
                 List.of(Ability.SHED_SKIN), Ability.SAND_VEIL,

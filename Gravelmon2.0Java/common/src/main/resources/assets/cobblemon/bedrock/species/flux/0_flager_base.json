@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_flager",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_flager",
       "texture": "cobblemon:textures/pokemon/flux/flager.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/flager_shiny.png"
-    }  ]
+    }
+  ]
 }

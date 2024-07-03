@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_primmoiselle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_primmoiselle",
       "texture": "cobblemon:textures/pokemon/nosto/primmoiselle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/primmoiselle_shiny.png"
-    }  ]
+    }
+  ]
 }

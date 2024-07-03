@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_hazekonko",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_hazekonko",
       "texture": "cobblemon:textures/pokemon/deneb/hazekonko.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/hazekonko_shiny.png"
-    }  ]
+    }
+  ]
 }

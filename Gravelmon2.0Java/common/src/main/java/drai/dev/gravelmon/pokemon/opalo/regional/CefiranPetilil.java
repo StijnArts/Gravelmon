@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranPetilil extends Pokemon {
-    public CefiranPetilil(int dexNo) {
-        super(dexNo,"CefiranPetilil",
+    public CefiranPetilil(String name, Aspect aspect) {
+        super(name, aspect,"CefiranPetilil",
                 Type.GRASS, Type.POISON,
                 new Stats(45,35,50,30,70,50),
                 List.of(Ability.PRANKSTER, Ability.OWN_TEMPO), Ability.LEAF_GUARD,

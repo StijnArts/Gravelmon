@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_moreen",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_moreen",
       "texture": "cobblemon:textures/pokemon/oceane/moreen.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/moreen_shiny.png"
-    }  ]
+    }
+  ]
 }

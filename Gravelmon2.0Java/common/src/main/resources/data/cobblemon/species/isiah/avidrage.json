@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "avidrage",
-  "nationalPokedexNumber": 2499,
+  "nationalPokedexNumber": 4394,
   "primaryType": "dragon",
   "secondaryType": "flying",
   "abilities": [
@@ -53,7 +53,7 @@
     "14:furycutter",
     "19:pluck",
     "22:snatch",
-    "29:screechsound",
+    "29:screech",
     "33:drillpeck",
     "37:dragonclaw",
     "41:featherdance",

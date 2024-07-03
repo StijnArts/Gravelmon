@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_prarendo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_prarendo",
       "texture": "cobblemon:textures/pokemon/midamis/prarendo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/prarendo_shiny.png"
-    }  ]
+    }
+  ]
 }

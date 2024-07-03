@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_nightrogen",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_nightrogen",
       "texture": "cobblemon:textures/pokemon/ionos/nightrogen.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/nightrogen_shiny.png"
-    }  ]
+    }
+  ]
 }

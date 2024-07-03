@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_bodmess",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_bodmess",
       "texture": "cobblemon:textures/pokemon/lonava/bodmess.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/bodmess_shiny.png"
-    }  ]
+    }
+  ]
 }

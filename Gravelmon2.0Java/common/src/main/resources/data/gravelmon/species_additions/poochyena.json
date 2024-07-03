@@ -1,0 +1,115 @@
+{
+   "target": "cobblemon:poochyena",
+   "forms": [{
+  "name": "Mystic",
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "abilities": [
+    "intimidate",
+    "shadowtag",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 30,
+    "defence": 35,
+    "special_attack": 30,
+    "special_defence": 35,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 56,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:smog",
+    "4:ember",
+    "8:minimize",
+    "12:confuseray",
+    "16:hex",
+    "20:willowisp",
+    "24:firespin",
+    "28:nightshade",
+    "32:curse",
+    "36:shadowball",
+    "40:inferno",
+    "44:imprison",
+    "48:painsplit",
+    "52:overheat",
+    "56:memento"  ],
+  "labels": [
+    "gen3",
+    "azure",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mysticpoochyena.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "poochyena_mightyena_mystic",
+      "variant": "level_up",
+      "result": "mightyena mystic",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 136,
+  "aspects": ["mystic"],
+  "cannotDynamax": false
+}
+], "features": [
+"mystic"
+  ]
+}

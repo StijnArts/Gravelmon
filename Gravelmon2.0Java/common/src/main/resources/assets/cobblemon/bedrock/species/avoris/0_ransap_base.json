@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_ransap",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_ransap",
       "texture": "cobblemon:textures/pokemon/avoris/ransap.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/ransap_shiny.png"
-    }  ]
+    }
+  ]
 }

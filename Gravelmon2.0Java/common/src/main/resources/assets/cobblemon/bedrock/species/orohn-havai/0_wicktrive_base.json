@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_wicktrive",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_wicktrive",
       "texture": "cobblemon:textures/pokemon/orohn-havai/wicktrive.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/wicktrive_shiny.png"
-    }  ]
+    }
+  ]
 }

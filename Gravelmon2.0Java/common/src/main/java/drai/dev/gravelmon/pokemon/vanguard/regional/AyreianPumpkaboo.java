@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianPumpkaboo extends Pokemon {
-    public AyreianPumpkaboo(int dexNo) {
-        super(dexNo,"AyreianPumpkaboo",
+    public AyreianPumpkaboo(String name, Aspect aspect) {
+        super(name, aspect,"AyreianPumpkaboo",
                 Type.GRASS, Type.FAIRY,
                 new Stats(70,45,70,20,45,70),
                 List.of(Ability.STAMINA, Ability.TRIAGE), Ability.INSOMNIA,

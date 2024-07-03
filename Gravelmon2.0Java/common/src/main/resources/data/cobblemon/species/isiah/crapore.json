@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crapore",
-  "nationalPokedexNumber": 2406,
+  "nationalPokedexNumber": 4301,
   "primaryType": "water",
   "abilities": [
     "sniper",
@@ -58,7 +58,7 @@
     "24:magnetrise",
     "28:brine",
     "33:memento",
-    "38:screechsound",
+    "38:screech",
     "43:raindance",
     "49:recover",
     "55:hydropump"  ],

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianCroconaw extends Pokemon {
-    public AyreianCroconaw(int dexNo) {
-        super(dexNo,"AyreianCroconaw",
+    public AyreianCroconaw(String name, Aspect aspect) {
+        super(name, aspect,"AyreianCroconaw",
                 Type.WATER, Type.DRAGON,
                 new Stats(75,75,68,53,54,68),
                 List.of(Ability.TOUGH_CLAWS, Ability.MULTISCALE), Ability.TORRENT,

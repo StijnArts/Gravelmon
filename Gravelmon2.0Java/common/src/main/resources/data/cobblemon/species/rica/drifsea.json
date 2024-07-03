@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drifsea",
-  "nationalPokedexNumber": 1330,
+  "nationalPokedexNumber": 1331,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -76,7 +76,7 @@
     "tm:foulplay",
     "tm:knockoff",
     "tm:allyswitch",
-    "tm:healbellsound",
+    "tm:healbell",
     "tm:hyperbeam",
     "tm:toxic",
     "tm:doubleteam",
@@ -85,7 +85,7 @@
     "tm:protect",
     "tm:swagger",
     "tm:attract",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:return",
     "tm:frustration",
     "tm:hiddenpower",

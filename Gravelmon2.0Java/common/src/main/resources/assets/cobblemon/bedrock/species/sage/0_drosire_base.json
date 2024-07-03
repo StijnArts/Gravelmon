@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_drosire",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_drosire",
       "texture": "cobblemon:textures/pokemon/sage/drosire.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/drosire_shiny.png"
-    }  ]
+    }
+  ]
 }

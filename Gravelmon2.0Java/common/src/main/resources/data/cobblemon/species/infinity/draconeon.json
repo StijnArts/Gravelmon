@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "draconeon",
-  "nationalPokedexNumber": 1421,
+  "nationalPokedexNumber": 1422,
   "primaryType": "dragon",
   "abilities": [
     "toughclaws",
@@ -46,12 +46,22 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:dragon_scale",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:dragonclaw",
     "1:helpinghand",
     "1:tackle",
     "1:tailwhip",
-    "5:howlsound",
+    "5:howl",
     "6:wrap",
     "6:twister",
     "13:hornattack",
@@ -83,8 +93,8 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:payback",
     "tm:gigaimpact",
     "tm:voltswitch",

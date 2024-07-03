@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_grumbale",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_grumbale",
       "texture": "cobblemon:textures/pokemon/mythire/grumbale.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/grumbale_shiny.png"
-    }  ]
+    }
+  ]
 }

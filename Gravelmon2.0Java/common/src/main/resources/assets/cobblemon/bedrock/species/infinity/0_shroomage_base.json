@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_shroomage",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_shroomage",
       "texture": "cobblemon:textures/pokemon/infinity/shroomage.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/shroomage_shiny.png"
-    }  ]
+    }
+  ]
 }

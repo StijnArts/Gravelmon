@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_nedareap",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_nedareap",
       "texture": "cobblemon:textures/pokemon/novrai/nedareap.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/nedareap_shiny.png"
-    }  ]
+    }
+  ]
 }

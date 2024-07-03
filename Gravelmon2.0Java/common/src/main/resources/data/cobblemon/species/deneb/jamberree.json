@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jamberree",
-  "nationalPokedexNumber": 2750,
+  "nationalPokedexNumber": 4737,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -100,7 +100,7 @@
     "egg:seismictoss",
     "egg:sunnyday",
     "egg:sweetscent",
-    "egg:swiftcosmic"  ],
+    "egg:swift"  ],
   "labels": [
     "deneb",
     "not_modeled"

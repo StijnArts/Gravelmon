@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_platypull",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_platypull",
       "texture": "cobblemon:textures/pokemon/novrai/platypull.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/platypull_shiny.png"
-    }  ]
+    }
+  ]
 }

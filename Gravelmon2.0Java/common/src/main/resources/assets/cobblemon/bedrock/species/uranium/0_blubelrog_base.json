@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_blubelrog",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_blubelrog",
       "texture": "cobblemon:textures/pokemon/uranium/blubelrog.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/blubelrog_shiny.png"
-    }  ]
+    }
+  ]
 }

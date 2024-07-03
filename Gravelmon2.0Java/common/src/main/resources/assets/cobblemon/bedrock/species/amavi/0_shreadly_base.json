@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_shreadly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_shreadly",
       "texture": "cobblemon:textures/pokemon/amavi/shreadly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/shreadly_shiny.png"
-    }  ]
+    }
+  ]
 }

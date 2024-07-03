@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_visiangel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_visiangel",
       "texture": "cobblemon:textures/pokemon/nosto/visiangel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/visiangel_shiny.png"
-    }  ]
+    }
+  ]
 }

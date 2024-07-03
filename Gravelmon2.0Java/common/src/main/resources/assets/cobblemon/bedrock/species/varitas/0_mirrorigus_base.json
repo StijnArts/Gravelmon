@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_mirrorigus",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_mirrorigus",
       "texture": "cobblemon:textures/pokemon/varitas/mirrorigus.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/mirrorigus_shiny.png"
-    }  ]
+    }
+  ]
 }

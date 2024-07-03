@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_yaban",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_yaban",
       "texture": "cobblemon:textures/pokemon/deneb/yaban.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/yaban_shiny.png"
-    }  ]
+    }
+  ]
 }

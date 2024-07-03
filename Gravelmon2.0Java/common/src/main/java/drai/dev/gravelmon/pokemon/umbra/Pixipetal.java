@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.umbra;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -27,7 +28,7 @@ public class Pixipetal extends Pokemon {
                 List.of("Pixipetal try to dance, but often lose their balance. They use their vines to keep from falling over."),
                 List.of(new EvolutionEntry("florafay", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"220"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEAFAGE,1),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),

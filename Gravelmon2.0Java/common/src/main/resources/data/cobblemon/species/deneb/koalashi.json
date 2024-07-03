@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "koalashi",
-  "nationalPokedexNumber": 2970,
+  "nationalPokedexNumber": 4957,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -54,7 +54,7 @@
     "1:slackoff",
     "27:rockthrow",
     "47:rest",
-    "47:sleeptalksound",
+    "47:sleeptalk",
     "49:hammerarm",
     "59:woodhammer",
     "tm:ancientpower",

@@ -1,13 +1,15 @@
 package drai.dev.gravelmon.pokemon.avoris;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Elescent extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -30,7 +32,7 @@ public class Elescent extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("The berries they eat produce a sweet aroma. Unfortunately, this also attracts predators. But they've managed to produce a highly strong aroma that makes the air around them unbreathable."),
                 List.of(new EvolutionEntry("aromaphant", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"210"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

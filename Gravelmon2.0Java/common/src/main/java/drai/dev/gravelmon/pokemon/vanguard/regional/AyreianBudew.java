@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianBudew extends Pokemon {
-    public AyreianBudew(int dexNo) {
-        super(dexNo,"AyreianBudew",
+    public AyreianBudew(String name, Aspect aspect) {
+        super(name, aspect,"AyreianBudew",
                 Type.STEEL, Type.POISON,
                 new Stats(40,50,35,60,30,60),
                 List.of(Ability.STEELY_SPIRIT, Ability.POISON_TOUCH), Ability.TECHNICIAN,

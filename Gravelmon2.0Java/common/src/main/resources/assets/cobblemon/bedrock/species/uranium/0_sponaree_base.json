@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_sponaree",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_sponaree",
       "texture": "cobblemon:textures/pokemon/uranium/sponaree.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/sponaree_shiny.png"
-    }  ]
+    }
+  ]
 }

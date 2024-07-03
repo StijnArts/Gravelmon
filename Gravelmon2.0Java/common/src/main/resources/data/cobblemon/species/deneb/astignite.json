@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "astignite",
-  "nationalPokedexNumber": 2711,
+  "nationalPokedexNumber": 4697,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -92,7 +92,7 @@
     "tm:flash",
     "tm:rocksmash",
     "tutor:bugnoise",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
@@ -111,7 +111,7 @@
     "egg:rocktomb",
     "egg:rollout",
     "egg:sandtomb",
-    "egg:screechsound",
+    "egg:screech",
     "egg:skullbash",
     "egg:steamroller",
     "egg:stoneedge",

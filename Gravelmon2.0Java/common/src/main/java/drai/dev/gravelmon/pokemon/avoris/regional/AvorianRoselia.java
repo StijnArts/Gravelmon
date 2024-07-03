@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.avoris.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 public class AvorianRoselia extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AvorianRoselia(int dex) {
-        super(dex,"AvorianRoselia",
+    public AvorianRoselia(String name, Aspect aspect) {
+        super(name, aspect,"AvorianRoselia",
                 Type.GRASS, Type.FIRE,
                 new Stats(50,
                         60,
@@ -100,6 +101,9 @@ public class AvorianRoselia extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Roselia");
+        addAdditionalEvolution("budew", new EvolutionEntry("roselia avorian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"day\""))));
 
     }
 

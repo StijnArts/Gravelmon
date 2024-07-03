@@ -1,0 +1,122 @@
+{
+   "target": "cobblemon:slugma",
+   "forms": [{
+  "name": "Cefiran",
+  "primaryType": "poison",
+  "abilities": [
+    "keeneye",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 20,
+    "special_defence": 70,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:yawn",
+    "1:smog",
+    "5:ember",
+    "10:sludge",
+    "14:harden",
+    "19:recover",
+    "23:flameburst",
+    "28:sludgebomb",
+    "32:amnesia",
+    "37:lavaplume",
+    "41:sludgewave",
+    "46:bodyslam",
+    "50:flamethrower",
+    "55:earthpower",
+    "egg:acidarmor",
+    "egg:curse",
+    "egg:earthpower",
+    "egg:heatwave",
+    "egg:inferno",
+    "egg:memento",
+    "egg:rollout",
+    "egg:smokescreen",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow"  ],
+  "labels": [
+    "gen2",
+    "opal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranslugma.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "slugma_magcargo_cefiran",
+      "variant": "level_up",
+      "result": "magcargo cefiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 350,
+  "aspects": ["cefiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"cefiran"
+  ]
+}

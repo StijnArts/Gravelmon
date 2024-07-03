@@ -1,15 +1,14 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
-
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class CefiranPersianElectric extends Pokemon {
-    public CefiranPersianElectric(int dexNo) {
-        super(dexNo,"CefiranPersianElectric",
+    public CefiranPersianElectric(String name, Aspect aspect) {
+        super(name, aspect,"CefiranPersianElectric",
                 Type.NORMAL, Type.ELECTRIC,
                 new Stats(80,105,65,115,60,65),
                 List.of(Ability.TOUGH_CLAWS), Ability.TECHNICIAN,

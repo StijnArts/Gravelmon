@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "symphy",
-  "nationalPokedexNumber": 2236,
+  "nationalPokedexNumber": 4131,
   "primaryType": "electric",
   "secondaryType": "sound",
   "abilities": [
@@ -51,7 +51,7 @@
   "moves": [
     "1:growl",
     "1:thundershock",
-    "5:singsound",
+    "5:sing",
     "15:lifedew",
     "20:thunderfang",
     "25:confuseray",
@@ -59,8 +59,8 @@
     "35:charge",
     "45:icebeam",
     "55:thunder",
-    "60:perishsongsound",
-    "65:boomburstsound"  ],
+    "60:perishsong",
+    "65:boomburst"  ],
   "labels": [
     "kuria",
     "not_modeled"

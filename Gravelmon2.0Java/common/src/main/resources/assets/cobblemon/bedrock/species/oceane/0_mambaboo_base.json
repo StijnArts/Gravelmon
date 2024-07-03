@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_mambaboo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_mambaboo",
       "texture": "cobblemon:textures/pokemon/oceane/mambaboo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/mambaboo_shiny.png"
-    }  ]
+    }
+  ]
 }

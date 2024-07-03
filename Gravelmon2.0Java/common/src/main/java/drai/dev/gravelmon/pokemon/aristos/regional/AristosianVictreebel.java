@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.aristos.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class AristosianVictreebel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianVictreebel(int dexNo) {
-        super(dexNo,"AristosianVictreebel",
+    public AristosianVictreebel(String name, Aspect aspect) {
+        super(name, aspect,"AristosianVictreebel",
                 Type.GRASS, Type.FIRE,
                 new Stats(80,
                         90,

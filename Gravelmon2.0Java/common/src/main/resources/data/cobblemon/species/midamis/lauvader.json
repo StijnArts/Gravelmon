@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lauvader",
-  "nationalPokedexNumber": 2606,
+  "nationalPokedexNumber": 4501,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -50,10 +50,10 @@
   "moves": [
     "1:confide",
     "39:rapidspin",
-    "44:healbellsound",
+    "44:healbell",
     "49:solarbeam",
     "54:substitute",
-    "59:hypervoicesound"  ],
+    "59:hypervoice"  ],
   "labels": [
     "midamis",
     "not_modeled",

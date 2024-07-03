@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reginalous",
-  "nationalPokedexNumber": 1576,
+  "nationalPokedexNumber": 2174,
   "primaryType": "psychic",
   "abilities": [
     "keeneye",
@@ -59,7 +59,7 @@
     "42:storedpower",
     "48:calmmind",
     "54:geomancy",
-    "60:powergemcrystal",
+    "60:powergem",
     "66:psychic",
     "72:speedswap",
     "78:icebeam",
@@ -79,10 +79,10 @@
     "tm:dreameater",
     "tm:substitute",
     "tm:trickroom",
-    "tutor:gravitycosmic",
+    "tutor:gravity",
     "tutor:painsplit",
     "tutor:roleplay",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:trick"  ],
   "labels": [
     "xenoverse",

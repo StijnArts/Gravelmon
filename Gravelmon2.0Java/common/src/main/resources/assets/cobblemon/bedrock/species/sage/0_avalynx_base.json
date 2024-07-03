@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_avalynx",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_avalynx",
       "texture": "cobblemon:textures/pokemon/sage/avalynx.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/avalynx_shiny.png"
-    }  ]
+    }
+  ]
 }

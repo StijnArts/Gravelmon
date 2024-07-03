@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_hauntberg",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_hauntberg",
       "texture": "cobblemon:textures/pokemon/hiza/hauntberg.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/hauntberg_shiny.png"
-    }  ]
+    }
+  ]
 }

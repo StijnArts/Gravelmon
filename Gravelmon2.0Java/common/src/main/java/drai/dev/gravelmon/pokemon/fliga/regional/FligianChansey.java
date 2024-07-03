@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianChansey extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianChansey(int dex) {
-        super(dex, "Chansey",
+    public FligianChansey(String name, Aspect aspect) {
+        super(name, aspect, "Chansey",
                 Type.FIRE, Type.NORMAL,
                 new Stats(200,
                         5,
