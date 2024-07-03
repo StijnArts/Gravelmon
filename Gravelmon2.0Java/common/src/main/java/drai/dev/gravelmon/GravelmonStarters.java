@@ -11,7 +11,7 @@ import java.util.*;
 
 public class GravelmonStarters {
     public static void injectStarters() {
-
+//        GravelmonStarterManager.registerNewStarter("Kanto", );
     }
 
     private static StarterCategoryDataHolder createCategory(String name, List<String> starters){
