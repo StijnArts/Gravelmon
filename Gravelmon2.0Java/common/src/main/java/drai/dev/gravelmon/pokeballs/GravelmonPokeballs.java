@@ -24,6 +24,10 @@ public class GravelmonPokeballs {
     public static GravelmonPokeBall LIME_BALL;
     public static GravelmonPokeBall XENO_BALL;
 
+    //Ancient Pokeballs
+    public static GravelmonPokeBall ANCIENT_CORAL_BALL;
+    public static GravelmonPokeBall ANCIENT_MAUVE_BALL;
+
     //Official Game Poke balls
     public static GravelmonPokeBall TYPING_BALL;
     public static GravelmonPokeBall GS_BALL;

@@ -82,6 +82,10 @@ public class GravelmonItems {
     public static RegistrySupplier<PokeBallItem> ARK_BALL;
     public static RegistrySupplier<PokeBallItem> XENO_BALL;
 
+    //Ancient Pokeballs
+    public static RegistrySupplier<PokeBallItem> ANCIENT_MAUVE_BALL;
+    public static RegistrySupplier<PokeBallItem> ANCIENT_CORAL_BALL;
+
     //Official Game Poke balls
     public static RegistrySupplier<PokeBallItem> TYPING_BALL;
     public static RegistrySupplier<PokeBallItem> GS_BALL;

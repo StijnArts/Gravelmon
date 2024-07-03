@@ -111,6 +111,10 @@ public class CreativeTabsInit {
                     GravelmonItems.MAUVE_BALL.get().asItem().getDefaultInstance());
             entries.addAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
                     GravelmonItems.CORAL_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.ANCIENT_CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ANCIENT_CORAL_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.ANCIENT_CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ANCIENT_MAUVE_BALL.get().asItem().getDefaultInstance());
             entries.addAfter(CobblemonItems.DUSK_BALL.asItem().getDefaultInstance(),
                     GravelmonItems.DAWN_BALL.get().asItem().getDefaultInstance());
             entries.addBefore(CobblemonItems.MOON_BALL.asItem().getDefaultInstance(),
