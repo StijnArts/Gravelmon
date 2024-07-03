@@ -89,7 +89,7 @@ public class Asparies extends Pokemon {
                         ),
                 List.of(Label.UMBRA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 56, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 56, .1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
