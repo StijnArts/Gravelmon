@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "craborg",
-  "nationalPokedexNumber": 1340,
+  "nationalPokedexNumber": 1341,
   "primaryType": "steel",
   "abilities": [
     "shellarmor",
@@ -98,7 +98,7 @@
     "tm:rockslide",
     "tm:stoneedge",
     "tm:rocktomb",
-    "tm:powergemcrystal",
+    "tm:powergem",
     "tm:earthquake",
     "tm:bulldoze",
     "tm:earthpower",
@@ -116,7 +116,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

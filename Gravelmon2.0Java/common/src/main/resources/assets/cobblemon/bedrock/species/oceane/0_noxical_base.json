@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_noxical",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_noxical",
       "texture": "cobblemon:textures/pokemon/oceane/noxical.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/noxical_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_simulogre",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_simulogre",
       "texture": "cobblemon:textures/pokemon/isiah/simulogre.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/simulogre_shiny.png"
-    }  ]
+    }
+  ]
 }

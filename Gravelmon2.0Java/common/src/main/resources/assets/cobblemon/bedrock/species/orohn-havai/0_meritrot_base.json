@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_meritrot",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_meritrot",
       "texture": "cobblemon:textures/pokemon/orohn-havai/meritrot.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/meritrot_shiny.png"
-    }  ]
+    }
+  ]
 }

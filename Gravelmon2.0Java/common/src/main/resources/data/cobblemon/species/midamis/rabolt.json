@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rabolt",
-  "nationalPokedexNumber": 2570,
+  "nationalPokedexNumber": 4465,
   "primaryType": "normal",
   "abilities": [
     "guts",
@@ -52,7 +52,7 @@
     "12:bite",
     "15:feint",
     "18:doubleteam",
-    "21:swiftcosmic",
+    "21:swift",
     "24:feintattack",
     "27:nastyplot",
     "30:slam",

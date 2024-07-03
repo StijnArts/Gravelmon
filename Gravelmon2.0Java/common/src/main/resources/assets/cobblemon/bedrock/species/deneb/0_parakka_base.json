@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_parakka",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_parakka",
       "texture": "cobblemon:textures/pokemon/deneb/parakka.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/parakka_shiny.png"
-    }  ]
+    }
+  ]
 }

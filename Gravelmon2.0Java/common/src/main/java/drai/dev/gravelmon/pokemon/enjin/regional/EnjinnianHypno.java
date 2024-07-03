@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.enjin.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianHypno extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianHypno(int dex) {
-        super(dex, "Hypno",
+    public EnjinnianHypno(String name, Aspect aspect) {
+        super(name, aspect, "Hypno",
                 Type.PSYCHIC,
                 new Stats(85,
                         73,

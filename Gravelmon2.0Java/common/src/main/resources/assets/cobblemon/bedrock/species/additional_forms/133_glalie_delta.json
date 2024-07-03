@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:glalie",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaglalie",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaglalie.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_deltaglalie",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaglalie_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

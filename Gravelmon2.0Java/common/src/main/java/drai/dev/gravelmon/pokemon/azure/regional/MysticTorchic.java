@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticTorchic extends Pokemon {
-    public MysticTorchic(int dexNo) {
-        super(dexNo,"MysticTorchic",
+    public MysticTorchic(String name, Aspect aspect) {
+        super(name, aspect,"MysticTorchic",
                 Type.ROCK,
                 new Stats(45, 40, 70, 50, 60, 45),
                 List.of(Ability.INSOMNIA), Ability.BATTLE_ARMOR,

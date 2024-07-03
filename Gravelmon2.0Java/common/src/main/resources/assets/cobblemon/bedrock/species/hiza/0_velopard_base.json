@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_velopard",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_velopard",
       "texture": "cobblemon:textures/pokemon/hiza/velopard.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/velopard_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_librareek",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_librareek",
       "texture": "cobblemon:textures/pokemon/novrai/librareek.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/librareek_shiny.png"
-    }  ]
+    }
+  ]
 }

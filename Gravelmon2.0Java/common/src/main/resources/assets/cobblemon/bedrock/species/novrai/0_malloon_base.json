@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_malloon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_malloon",
       "texture": "cobblemon:textures/pokemon/novrai/malloon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/malloon_shiny.png"
-    }  ]
+    }
+  ]
 }

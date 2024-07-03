@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "meraculisk",
-  "nationalPokedexNumber": 1961,
+  "nationalPokedexNumber": 3524,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
@@ -58,7 +58,7 @@
     "13:sludge",
     "17:gyroball",
     "21:headbutt",
-    "25:screechsound",
+    "25:screech",
     "28:ironhead",
     "32:swagger",
     "36:poisonjab",

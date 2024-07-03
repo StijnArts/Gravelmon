@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_demagog",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_demagog",
       "texture": "cobblemon:textures/pokemon/lonava/demagog.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/demagog_shiny.png"
-    }  ]
+    }
+  ]
 }

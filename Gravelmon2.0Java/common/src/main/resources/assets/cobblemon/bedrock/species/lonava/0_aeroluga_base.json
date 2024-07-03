@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_aeroluga",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_aeroluga",
       "texture": "cobblemon:textures/pokemon/lonava/aeroluga.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/aeroluga_shiny.png"
-    }  ]
+    }
+  ]
 }

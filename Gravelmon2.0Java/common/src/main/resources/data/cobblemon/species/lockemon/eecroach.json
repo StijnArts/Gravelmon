@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eecroach",
-  "nationalPokedexNumber": 1905,
+  "nationalPokedexNumber": 3468,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -114,10 +114,10 @@
     "22:leechseed",
     "29:endure",
     "31:stickyweb",
-    "36:bugbuzzsound",
+    "36:bugbuzz",
     "43:leafblade",
-    "egg:screechsound",
-    "egg:snoresound",
+    "egg:screech",
+    "egg:snore",
     "egg:switcheroo",
     "egg:synthesis",
     "egg:worryseed"  ],

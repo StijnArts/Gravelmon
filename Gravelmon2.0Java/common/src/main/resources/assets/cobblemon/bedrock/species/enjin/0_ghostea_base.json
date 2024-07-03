@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_ghostea",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_ghostea",
       "texture": "cobblemon:textures/pokemon/enjin/ghostea.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/ghostea_shiny.png"
-    }  ]
+    }
+  ]
 }

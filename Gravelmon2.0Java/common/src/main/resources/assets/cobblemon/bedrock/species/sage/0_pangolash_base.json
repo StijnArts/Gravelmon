@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_pangolash",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_pangolash",
       "texture": "cobblemon:textures/pokemon/sage/pangolash.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/pangolash_shiny.png"
-    }  ]
+    }
+  ]
 }

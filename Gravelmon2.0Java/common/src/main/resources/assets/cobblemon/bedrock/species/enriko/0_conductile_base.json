@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_conductile",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_conductile",
       "texture": "cobblemon:textures/pokemon/enriko/conductile.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/conductile_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltasliggoo-1",
+      "pokemon": "sliggoo delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-58",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ]
+      }
+    }
+
+]
+}

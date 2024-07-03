@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_leaflit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_leaflit",
       "texture": "cobblemon:textures/pokemon/rica/leaflit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/leaflit_shiny.png"
-    }  ]
+    }
+  ]
 }

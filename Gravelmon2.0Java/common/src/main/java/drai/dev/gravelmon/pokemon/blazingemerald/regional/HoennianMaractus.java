@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianMaractus extends Pokemon {
-    public HoennianMaractus(int dexNo) {
-        super(dexNo,"HoennianMaractus",
+    public HoennianMaractus(String name, Aspect aspect) {
+        super(name, aspect,"HoennianMaractus",
                 Type.GRASS, Type.FIRE,
                 new Stats(62, 36, 106, 86, 106, 93),
                 List.of(Ability.CHLOROPHYLL), Ability.FLASH_FIRE,

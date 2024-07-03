@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_elekrab",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_elekrab",
       "texture": "cobblemon:textures/pokemon/enriko/elekrab.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/elekrab_shiny.png"
-    }  ]
+    }
+  ]
 }

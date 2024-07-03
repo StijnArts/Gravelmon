@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_stuckarp",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_stuckarp",
       "texture": "cobblemon:textures/pokemon/junnin/stuckarp.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/stuckarp_shiny.png"
-    }  ]
+    }
+  ]
 }

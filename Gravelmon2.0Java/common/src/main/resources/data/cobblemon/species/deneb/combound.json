@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "combound",
-  "nationalPokedexNumber": 2856,
+  "nationalPokedexNumber": 4843,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
@@ -108,7 +108,7 @@
     "egg:raindance",
     "egg:rockclimb",
     "egg:sandstorm",
-    "egg:stardustcosmic",
+    "egg:stardust",
     "egg:sunnyday",
     "egg:superpower",
     "egg:thrash",

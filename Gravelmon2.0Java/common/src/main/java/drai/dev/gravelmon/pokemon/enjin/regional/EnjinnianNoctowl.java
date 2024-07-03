@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.enjin.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianNoctowl extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianNoctowl(int dex) {
-        super(dex, "Noctowl",
+    public EnjinnianNoctowl(String name, Aspect aspect) {
+        super(name, aspect, "Noctowl",
                 Type.PSYCHIC,
                 new Stats(96,
                         50,
@@ -25,7 +26,7 @@ public class EnjinnianNoctowl extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Foregoing its predator nature, Noctowl prefer to conserve its energy, only hunting when its body demands nutrients to continue functioning."),
                 List.of(new EvolutionEntry("enchantowl", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"210"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SKY_ATTACK,1),

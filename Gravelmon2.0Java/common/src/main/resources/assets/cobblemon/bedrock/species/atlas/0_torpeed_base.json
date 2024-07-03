@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_torpeed",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_torpeed",
       "texture": "cobblemon:textures/pokemon/atlas/torpeed.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/torpeed_shiny.png"
-    }  ]
+    }
+  ]
 }

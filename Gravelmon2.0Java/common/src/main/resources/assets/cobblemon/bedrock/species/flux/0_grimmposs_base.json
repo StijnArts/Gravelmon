@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_grimmposs",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_grimmposs",
       "texture": "cobblemon:textures/pokemon/flux/grimmposs.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/grimmposs_shiny.png"
-    }  ]
+    }
+  ]
 }

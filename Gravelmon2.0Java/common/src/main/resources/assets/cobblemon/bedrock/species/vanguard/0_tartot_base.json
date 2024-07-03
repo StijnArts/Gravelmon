@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:vanguard_tartot",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_tartot",
       "texture": "cobblemon:textures/pokemon/vanguard/tartot.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/vanguard/tartot_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:roselia",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "relic"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_relicroselia",
+      "texture": "cobblemon:textures/pokemon/generation3/relicroselia.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "relic",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_relicroselia",
+      "texture": "cobblemon:textures/pokemon/generation3/relicroselia_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

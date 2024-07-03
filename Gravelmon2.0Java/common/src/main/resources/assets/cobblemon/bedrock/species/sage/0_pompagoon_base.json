@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_pompagoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_pompagoon",
       "texture": "cobblemon:textures/pokemon/sage/pompagoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/pompagoon_shiny.png"
-    }  ]
+    }
+  ]
 }

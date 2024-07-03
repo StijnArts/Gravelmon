@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flasinge",
-  "nationalPokedexNumber": 1479,
+  "nationalPokedexNumber": 1669,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -68,7 +68,7 @@
     "egg:endeavor",
     "egg:mirrorcoat",
     "egg:hypnosis",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:lavaplume",
     "egg:sweetkiss",
     "egg:yawn"  ],

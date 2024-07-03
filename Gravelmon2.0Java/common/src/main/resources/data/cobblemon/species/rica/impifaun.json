@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "impifaun",
-  "nationalPokedexNumber": 1358,
+  "nationalPokedexNumber": 1359,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -87,8 +87,8 @@
     "tm:gunkshot",
     "tm:zenheadbutt",
     "tm:playrough",
-    "tm:healbellsound",
-    "tm:echoedvoicesound",
+    "tm:healbell",
+    "tm:echoedvoice",
     "tm:naturepower",
     "tm:hyperbeam",
     "tm:gigaimpact",
@@ -116,7 +116,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaSpiderBeldum extends Pokemon {
-    public DeltaSpiderBeldum(int dexNo) {
-        super(dexNo,"DeltaSpiderBeldum",
+    public DeltaSpiderBeldum(String name, Aspect aspect) {
+        super(name, aspect,"DeltaSpiderBeldum",
                 Type.GROUND, Type.BUG,
                 new Stats(40, 55, 80, 35, 60, 30),
                 List.of(Ability.POISON_TOUCH, Ability.IMMUNITY), Ability.POISON_HEAL,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_phantique",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_phantique",
       "texture": "cobblemon:textures/pokemon/novrai/phantique.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/phantique_shiny.png"
-    }  ]
+    }
+  ]
 }

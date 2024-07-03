@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:nidoranf",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "alteran_winter_coat"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_alterannidoranwintercoat",
+      "texture": "cobblemon:textures/pokemon/generation1/alterannidoranwintercoat.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alteran_winter_coat",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_alterannidoranwintercoat",
+      "texture": "cobblemon:textures/pokemon/generation1/alterannidoranwintercoat_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

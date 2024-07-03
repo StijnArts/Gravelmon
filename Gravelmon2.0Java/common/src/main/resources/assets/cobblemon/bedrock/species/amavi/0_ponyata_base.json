@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_ponyata",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_ponyata",
       "texture": "cobblemon:textures/pokemon/amavi/ponyata.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/ponyata_shiny.png"
-    }  ]
+    }
+  ]
 }

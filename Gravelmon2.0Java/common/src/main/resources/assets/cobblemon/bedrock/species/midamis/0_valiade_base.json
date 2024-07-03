@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_valiade",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_valiade",
       "texture": "cobblemon:textures/pokemon/midamis/valiade.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/valiade_shiny.png"
-    }  ]
+    }
+  ]
 }

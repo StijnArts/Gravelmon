@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.myth.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MythianLarvesta extends Pokemon {
-    public MythianLarvesta(int dexNo) {
-        super(dexNo,"MythianLarvesta",
+    public MythianLarvesta(String name, Aspect aspect) {
+        super(name, aspect,"MythianLarvesta",
                 Type.PSYCHIC, Type.FAIRY,
                 new Stats(55, 85, 55, 60, 50, 55),
                 List.of(Ability.ADAPTABILITY, Ability.DAZZLING), Ability.MISTY_SURGE,

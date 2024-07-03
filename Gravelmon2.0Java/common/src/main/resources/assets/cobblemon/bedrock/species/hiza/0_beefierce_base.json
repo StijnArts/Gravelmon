@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_beefierce",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_beefierce",
       "texture": "cobblemon:textures/pokemon/hiza/beefierce.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/beefierce_shiny.png"
-    }  ]
+    }
+  ]
 }

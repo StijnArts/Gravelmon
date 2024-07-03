@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_skiito",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_skiito",
       "texture": "cobblemon:textures/pokemon/hiza/skiito.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/skiito_shiny.png"
-    }  ]
+    }
+  ]
 }

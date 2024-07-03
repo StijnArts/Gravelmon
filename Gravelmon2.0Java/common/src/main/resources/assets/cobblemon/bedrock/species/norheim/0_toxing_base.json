@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_toxing",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_toxing",
       "texture": "cobblemon:textures/pokemon/norheim/toxing.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/toxing_shiny.png"
-    }  ]
+    }
+  ]
 }

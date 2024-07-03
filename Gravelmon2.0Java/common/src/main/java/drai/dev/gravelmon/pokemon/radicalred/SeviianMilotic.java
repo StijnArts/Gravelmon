@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianMilotic extends Pokemon {
-    public SeviianMilotic(int dexNo) {
-        super(dexNo, "SeviianMilotic",
+    public SeviianMilotic(String name, Aspect aspect) {
+        super(name, aspect,"SeviianMilotic",
                 Type.WATER, Type.GROUND,
                 new Stats(95, 60, 84, 105, 125, 81),
                 List.of(Ability.MARVEL_SCALE, Ability.COMPETITIVE), Ability.SERENE_GRACE,

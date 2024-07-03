@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:realideasystem_rabatuta",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:realideasystem_rabatuta",
       "texture": "cobblemon:textures/pokemon/realideasystem/rabatuta.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/realideasystem/rabatuta_shiny.png"
-    }  ]
+    }
+  ]
 }

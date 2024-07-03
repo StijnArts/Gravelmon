@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_babroote",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_babroote",
       "texture": "cobblemon:textures/pokemon/hiza/babroote.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/babroote_shiny.png"
-    }  ]
+    }
+  ]
 }

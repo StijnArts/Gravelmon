@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bombeetle-1",
+      "pokemon": "bombeetle",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-45",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "day"
+      }
+    }
+  ]
+}

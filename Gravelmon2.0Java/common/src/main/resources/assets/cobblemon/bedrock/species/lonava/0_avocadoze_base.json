@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_avocadoze",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_avocadoze",
       "texture": "cobblemon:textures/pokemon/lonava/avocadoze.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/avocadoze_shiny.png"
-    }  ]
+    }
+  ]
 }

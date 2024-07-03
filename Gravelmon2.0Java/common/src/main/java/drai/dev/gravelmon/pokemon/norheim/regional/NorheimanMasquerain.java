@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanMasquerain extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanMasquerain(int dex, Stats stats) {
-        super(dex, "Masquerain",
+    public NorheimanMasquerain(String name, Aspect aspect, Stats stats) {
+        super(name, aspect, "Masquerain",
                 Type.BUG, Type.WATER,
                 stats,
                 List.of(Ability.SWARM), Ability.DRIZZLE,
@@ -44,6 +45,8 @@ public class NorheimanMasquerain extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of());
         setCanFly(true);
            setLangFileName("Masquerain");
+        addAdditionalEvolution("surskit", new EvolutionEntry("masquerain norheiman", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_TAIGA.getId() + ":" + Biome.IS_TAIGA.getName() +"\""))));
 
     }
 

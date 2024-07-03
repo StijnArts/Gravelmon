@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_cocofested",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_cocofested",
       "texture": "cobblemon:textures/pokemon/myth/cocofested.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/cocofested_shiny.png"
-    }  ]
+    }
+  ]
 }

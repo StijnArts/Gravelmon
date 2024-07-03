@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_nyaqua",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_nyaqua",
       "texture": "cobblemon:textures/pokemon/fliga/nyaqua.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/nyaqua_shiny.png"
-    }  ]
+    }
+  ]
 }

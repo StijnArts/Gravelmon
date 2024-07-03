@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_barbloom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_barbloom",
       "texture": "cobblemon:textures/pokemon/amavi/barbloom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/barbloom_shiny.png"
-    }  ]
+    }
+  ]
 }

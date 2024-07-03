@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_grandaroon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_grandaroon",
       "texture": "cobblemon:textures/pokemon/midamis/grandaroon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/grandaroon_shiny.png"
-    }  ]
+    }
+  ]
 }

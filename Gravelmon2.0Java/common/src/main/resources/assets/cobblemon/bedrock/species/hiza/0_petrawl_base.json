@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_petrawl",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_petrawl",
       "texture": "cobblemon:textures/pokemon/hiza/petrawl.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/petrawl_shiny.png"
-    }  ]
+    }
+  ]
 }

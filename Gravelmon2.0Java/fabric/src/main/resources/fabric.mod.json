@@ -29,7 +29,7 @@
     "minecraft": ">=${minecraft_version}",
     "java": ">=17",
     "fabric-api": "*",
-    "cobblemon": ">=1.5",
+    "cobblemon": ">=1.5.1",
     "architectury": ">=9.1",
     "gravels_extended_battles": ">=1.0"
   },

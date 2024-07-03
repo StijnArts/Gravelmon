@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_bidread",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_bidread",
       "texture": "cobblemon:textures/pokemon/midamis/bidread.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/bidread_shiny.png"
-    }  ]
+    }
+  ]
 }

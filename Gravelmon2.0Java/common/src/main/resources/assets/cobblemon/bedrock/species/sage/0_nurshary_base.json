@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_nurshary",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_nurshary",
       "texture": "cobblemon:textures/pokemon/sage/nurshary.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/nurshary_shiny.png"
-    }  ]
+    }
+  ]
 }

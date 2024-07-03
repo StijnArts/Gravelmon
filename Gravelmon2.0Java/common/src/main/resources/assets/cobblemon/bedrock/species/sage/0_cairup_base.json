@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_cairup",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_cairup",
       "texture": "cobblemon:textures/pokemon/sage/cairup.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/cairup_shiny.png"
-    }  ]
+    }
+  ]
 }

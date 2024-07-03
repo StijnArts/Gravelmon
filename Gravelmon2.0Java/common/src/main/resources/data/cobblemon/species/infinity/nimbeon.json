@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nimbeon",
-  "nationalPokedexNumber": 1420,
+  "nationalPokedexNumber": 1421,
   "primaryType": "flying",
   "abilities": [
     "aerilate",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:roost",
     "1:helpinghand",
@@ -53,7 +63,7 @@
     "1:tailwhip",
     "1:agility",
     "1:aircutter",
-    "6:swiftcosmic",
+    "6:swift",
     "11:charm",
     "14:skydrop",
     "17:mist",
@@ -69,7 +79,7 @@
     "67:dragondance",
     "tm:psyshock",
     "tm:calmmind",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -90,8 +100,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:skydrop",
     "tm:acrobatics",
     "tm:gigaimpact",
@@ -101,7 +111,7 @@
     "tm:uturn",
     "tm:substitute",
     "tm:fly",
-    "tutor:healbellsound",
+    "tutor:healbell",
     "tutor:heatwave",
     "tutor:icywind",
     "tutor:roost",

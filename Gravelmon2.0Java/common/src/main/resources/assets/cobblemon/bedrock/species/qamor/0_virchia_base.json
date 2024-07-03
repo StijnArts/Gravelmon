@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_virchia",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_virchia",
       "texture": "cobblemon:textures/pokemon/qamor/virchia.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/virchia_shiny.png"
-    }  ]
+    }
+  ]
 }

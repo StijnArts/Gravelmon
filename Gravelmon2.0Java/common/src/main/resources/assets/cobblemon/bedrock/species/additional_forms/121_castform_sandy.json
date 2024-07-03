@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:castform",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "sandy"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_sandycastform",
+      "texture": "cobblemon:textures/pokemon/generation3/sandycastform.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sandy",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation3_sandycastform",
+      "texture": "cobblemon:textures/pokemon/generation3/sandycastform_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

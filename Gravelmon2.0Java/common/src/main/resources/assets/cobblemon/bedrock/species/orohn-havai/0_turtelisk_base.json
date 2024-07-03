@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_turtelisk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_turtelisk",
       "texture": "cobblemon:textures/pokemon/orohn-havai/turtelisk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/turtelisk_shiny.png"
-    }  ]
+    }
+  ]
 }

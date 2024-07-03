@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_silkinder",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_silkinder",
       "texture": "cobblemon:textures/pokemon/sage/silkinder.png",
       "layers": []
     },

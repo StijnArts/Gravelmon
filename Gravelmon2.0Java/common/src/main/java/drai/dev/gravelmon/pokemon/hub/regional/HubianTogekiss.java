@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.hub.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class HubianTogekiss extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HubianTogekiss(int dex) {
-        super(dex, "Togekiss",
+    public HubianTogekiss(String name, Aspect aspect) {
+        super(name, aspect, "Togekiss",
                 Type.FAIRY, Type.PSYCHIC,
                 new Stats(85,
                         50,

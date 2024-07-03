@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "danfluff",
-  "nationalPokedexNumber": 1884,
+  "nationalPokedexNumber": 3447,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -76,7 +76,7 @@
     "tm:bulletseed",
     "tm:zenheadbutt",
     "tm:bodyslam",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:seedbomb",
     "tm:lightscreen",
     "tm:grassknot",
@@ -98,7 +98,7 @@
     "egg:batonpass",
     "egg:faketears",
     "egg:headbutt",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:synthesis",
     "egg:worryseed"  ],
   "labels": [

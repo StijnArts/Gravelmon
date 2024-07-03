@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_kiderr",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_kiderr",
       "texture": "cobblemon:textures/pokemon/norheim/kiderr.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/kiderr_shiny.png"
-    }  ]
+    }
+  ]
 }

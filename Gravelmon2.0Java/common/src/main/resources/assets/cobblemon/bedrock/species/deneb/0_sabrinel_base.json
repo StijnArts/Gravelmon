@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_sabrinel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_sabrinel",
       "texture": "cobblemon:textures/pokemon/deneb/sabrinel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/sabrinel_shiny.png"
-    }  ]
+    }
+  ]
 }

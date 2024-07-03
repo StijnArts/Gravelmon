@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_liquiput",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_liquiput",
       "texture": "cobblemon:textures/pokemon/deneb/liquiput.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/liquiput_shiny.png"
-    }  ]
+    }
+  ]
 }

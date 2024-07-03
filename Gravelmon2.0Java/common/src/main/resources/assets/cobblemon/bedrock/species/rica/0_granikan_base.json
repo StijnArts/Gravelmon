@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_granikan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_granikan",
       "texture": "cobblemon:textures/pokemon/rica/granikan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/granikan_shiny.png"
-    }  ]
+    }
+  ]
 }

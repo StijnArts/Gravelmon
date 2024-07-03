@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.myth.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MythianMareep extends Pokemon {
-    public MythianMareep(int dexNo) {
-        super(dexNo,"MythianMareep",
+    public MythianMareep(String name, Aspect aspect) {
+        super(name, aspect,"MythianMareep",
                 Type.FIRE, Type.DARK,
                 new Stats(60,40,40,45,65,55),
                 List.of(Ability.FLAME_BODY), Ability.SPEED_BOOST,

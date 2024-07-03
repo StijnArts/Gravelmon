@@ -1,0 +1,149 @@
+{
+  "implemented": true,
+  "name": "arovee",
+  "nationalPokedexNumber": 3298,
+  "primaryType": "steel",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:lockon",
+    "1:shiftgear",
+    "1:charge",
+    "1:magnetbomb",
+    "1:irondefense",
+    "1:flash",
+    "1:reflecttype",
+    "1:conversion",
+    "tm:allyswitch",
+    "tm:bide",
+    "tm:chargebeam",
+    "tm:cut",
+    "tm:defog",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:eerieimpulse",
+    "tm:electroweb",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:metronome",
+    "tm:mimic",
+    "tm:protect",
+    "tm:rage",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roost",
+    "tm:round",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:selfdestruct",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:steelbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:teleport",
+    "tm:thunder",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:triattack",
+    "tm:weatherball",
+    "tm:whirlwind",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "crozoic",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.arovee.desc"
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 260,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

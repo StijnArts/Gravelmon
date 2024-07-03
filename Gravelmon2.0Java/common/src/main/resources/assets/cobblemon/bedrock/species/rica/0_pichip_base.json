@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_pichip",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_pichip",
       "texture": "cobblemon:textures/pokemon/rica/pichip.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/pichip_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:marill",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghomarill",
+      "texture": "cobblemon:textures/pokemon/generation2/eghomarill.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_eghomarill",
+      "texture": "cobblemon:textures/pokemon/generation2/eghomarill_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

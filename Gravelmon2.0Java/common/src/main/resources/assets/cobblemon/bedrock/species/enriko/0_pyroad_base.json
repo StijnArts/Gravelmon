@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_pyroad",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_pyroad",
       "texture": "cobblemon:textures/pokemon/enriko/pyroad.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/pyroad_shiny.png"
-    }  ]
+    }
+  ]
 }

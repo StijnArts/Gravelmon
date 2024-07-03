@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SwayRotom extends Pokemon {
-    public SwayRotom(int dexNo) {
-        super(dexNo,"SwayRotom",
+    public SwayRotom(String name, Aspect aspect) {
+        super(name, aspect,"SwayRotom",
                 Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.NO_GUARD,

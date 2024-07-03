@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "apheed",
-  "nationalPokedexNumber": 1903,
+  "nationalPokedexNumber": 3466,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -56,10 +56,10 @@
     "22:strugglebug",
     "29:endure",
     "31:stickyweb",
-    "36:bugbuzzsound",
+    "36:bugbuzz",
     "43:flail",
-    "egg:screechsound",
-    "egg:snoresound",
+    "egg:screech",
+    "egg:snore",
     "egg:switcheroo",
     "egg:synthesis",
     "egg:worryseed"  ],

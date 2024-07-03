@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianSteenee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianSteenee(int dex) {
-        super(dex, "Steenee",
+    public VaritasianSteenee(String name, Aspect aspect) {
+        super(name, aspect, "Steenee",
                 Type.GHOST, Type.BUG,
                 new Stats(52,
                         40,

@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianGastrodon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianGastrodon(int dex) {
-        super(dex, "Gastrodon",
+    public FligianGastrodon(String name, Aspect aspect) {
+        super(name, aspect, "Gastrodon",
                 Type.WATER, Type.GHOST,
                 new Stats(111,
                         105,

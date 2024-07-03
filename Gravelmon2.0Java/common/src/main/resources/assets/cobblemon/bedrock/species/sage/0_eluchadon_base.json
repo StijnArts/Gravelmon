@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_eluchadon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_eluchadon",
       "texture": "cobblemon:textures/pokemon/sage/eluchadon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/eluchadon_shiny.png"
-    }  ]
+    }
+  ]
 }

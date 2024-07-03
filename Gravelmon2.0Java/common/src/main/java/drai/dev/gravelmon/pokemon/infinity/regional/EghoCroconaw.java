@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoCroconaw extends Pokemon {
-    public EghoCroconaw(int dexNo) {
-        super(dexNo,"EghoCroconaw",
+    public EghoCroconaw(String name, Aspect aspect) {
+        super(name, aspect,"EghoCroconaw",
                 Type.WATER, Type.POISON,
                 new Stats(65, 70, 59, 70, 54, 87),
                 List.of(Ability.MERCILESS), Ability.SPEED_BOOST,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_desoray",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_desoray",
       "texture": "cobblemon:textures/pokemon/lockemon/desoray.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/desoray_shiny.png"
-    }  ]
+    }
+  ]
 }

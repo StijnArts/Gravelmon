@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_lumbrig",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_lumbrig",
       "texture": "cobblemon:textures/pokemon/isiah/lumbrig.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/lumbrig_shiny.png"
-    }  ]
+    }
+  ]
 }

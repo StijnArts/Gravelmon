@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.lagoone.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class LagoonanSableye extends drai.dev.gravelmon.pokemon.Pokemon {
-    public LagoonanSableye(int dex) {
-        super(dex, "Sableye",
+    public LagoonanSableye(String name, Aspect aspect) {
+        super(name, aspect, "Sableye",
                 Type.DARK, Type.STEEL,
                 new Stats(50,
                         75,

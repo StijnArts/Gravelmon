@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_morbod",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_morbod",
       "texture": "cobblemon:textures/pokemon/lonava/morbod.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/morbod_shiny.png"
-    }  ]
+    }
+  ]
 }

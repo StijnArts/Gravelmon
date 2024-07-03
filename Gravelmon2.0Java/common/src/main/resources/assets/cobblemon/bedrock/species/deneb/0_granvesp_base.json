@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_granvesp",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_granvesp",
       "texture": "cobblemon:textures/pokemon/deneb/granvesp.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/granvesp_shiny.png"
-    }  ]
+    }
+  ]
 }

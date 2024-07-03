@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_slycicle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_slycicle",
       "texture": "cobblemon:textures/pokemon/amavi/slycicle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/slycicle_shiny.png"
-    }  ]
+    }
+  ]
 }

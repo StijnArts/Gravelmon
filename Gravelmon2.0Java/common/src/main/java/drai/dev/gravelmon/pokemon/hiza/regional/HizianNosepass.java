@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.hiza.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class HizianNosepass extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianNosepass(int dex) {
-        super(dex, "Nosepass",
+    public HizianNosepass(String name, Aspect aspect) {
+        super(name, aspect, "Nosepass",
                 Type.ELECTRIC, Type.ROCK,
                 new Stats(40,
                         65,

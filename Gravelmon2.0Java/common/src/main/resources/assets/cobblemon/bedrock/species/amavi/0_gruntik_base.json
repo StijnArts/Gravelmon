@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_gruntik",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_gruntik",
       "texture": "cobblemon:textures/pokemon/amavi/gruntik.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/gruntik_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ploworm",
-  "nationalPokedexNumber": 1808,
+  "nationalPokedexNumber": 2857,
   "primaryType": "steel",
   "secondaryType": "bug",
   "abilities": [
@@ -63,7 +63,7 @@
     "49:ironhead",
     "53:megahorn",
     "tm:skittersmack",
-    "tm:snoresound",
+    "tm:snore",
     "tm:irontail",
     "tm:infestation",
     "tm:uturn",
@@ -77,8 +77,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

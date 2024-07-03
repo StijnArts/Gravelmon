@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_torricane",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_torricane",
       "texture": "cobblemon:textures/pokemon/rica/torricane.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/torricane_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.myth.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MythianNoivern extends Pokemon {
-    public MythianNoivern(int dexNo) {
-        super(dexNo, "MythianNoivern",
+    public MythianNoivern(String name, Aspect aspect) {
+        super(name, aspect,"MythianNoivern",
                 Type.SOUND, Type.ICE,
                 new Stats(95,50,40,150,115,110),
                 List.of(Ability.SNOW_WARNING, Ability.SNOW_CLOAK), Ability.ANTICIPATION,
@@ -54,5 +55,8 @@ public class MythianNoivern extends Pokemon {
         this.setLangFileName("Noivern");
         this.setPortraitXYZ(0.1, 2.0, 0.0);
         this.setCanFly(true);
+        addAdditionalEvolution("noibat", new EvolutionEntry("noivern mythian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_GLACIAL.getId() + ":" + Biome.IS_GLACIAL.getName() +"\""))));
     }
 }

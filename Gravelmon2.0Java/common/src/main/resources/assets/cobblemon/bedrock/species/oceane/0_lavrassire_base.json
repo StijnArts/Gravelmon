@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_lavrassire",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_lavrassire",
       "texture": "cobblemon:textures/pokemon/oceane/lavrassire.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/lavrassire_shiny.png"
-    }  ]
+    }
+  ]
 }

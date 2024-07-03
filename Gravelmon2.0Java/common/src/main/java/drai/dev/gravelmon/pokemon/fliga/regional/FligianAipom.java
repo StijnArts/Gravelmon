@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianAipom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianAipom(int dex) {
-        super(dex, "Aipom",
+    public FligianAipom(String name, Aspect aspect) {
+        super(name, aspect, "Aipom",
                 Type.GHOST,
                 new Stats(55,
                         70,

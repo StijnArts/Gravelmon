@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snellow",
-  "nationalPokedexNumber": 3006,
+  "nationalPokedexNumber": 5598,
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
@@ -62,7 +62,7 @@
     "40:cottonspore",
     "45:energyball",
     "50:petaldance",
-    "54:bugbuzzsound",
+    "54:bugbuzz",
     "61:quiverdance"  ],
   "labels": [
     "amavi",

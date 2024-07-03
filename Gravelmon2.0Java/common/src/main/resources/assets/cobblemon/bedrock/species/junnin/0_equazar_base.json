@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_equazar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_equazar",
       "texture": "cobblemon:textures/pokemon/junnin/equazar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/equazar_shiny.png"
-    }  ]
+    }
+  ]
 }

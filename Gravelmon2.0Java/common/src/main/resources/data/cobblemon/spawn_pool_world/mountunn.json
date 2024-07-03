@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mountunn-1",
+      "pokemon": "mountunn",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "41-61",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ]
+      }
+    }
+  ]
+}

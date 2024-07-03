@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_onychew",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_onychew",
       "texture": "cobblemon:textures/pokemon/novrai/onychew.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/onychew_shiny.png"
-    }  ]
+    }
+  ]
 }

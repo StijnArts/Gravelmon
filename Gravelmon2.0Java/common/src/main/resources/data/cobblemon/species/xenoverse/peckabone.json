@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "peckabone",
-  "nationalPokedexNumber": 1548,
+  "nationalPokedexNumber": 2145,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -81,7 +81,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:falseswipe",
     "tm:fling",
     "tm:acrobatics",
@@ -107,9 +107,9 @@
     "tutor:hurricane",
     "tutor:knockoff",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:snatch",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:stealthrock"  ],
   "labels": [
     "xenoverse",
@@ -123,7 +123,7 @@
   "preEvolution": "chikaboo",
   "evolutions": [
     {
-      "id": "peckabone_Rexquiem",
+      "id": "peckabone_rexquiem",
       "variant": "item_interact",
       "result": "Rexquiem",
       "consumeHeldItem": false,

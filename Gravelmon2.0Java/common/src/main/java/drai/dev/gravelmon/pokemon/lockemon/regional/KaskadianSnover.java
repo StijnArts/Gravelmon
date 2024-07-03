@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianSnover extends Pokemon {
-    public KaskadianSnover(int dexNo) {
-        super(dexNo,"KaskadianSnover",
+    public KaskadianSnover(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianSnover",
                 Type.GRASS, Type.GROUND,
                 new Stats(45, 65,34,40,39,45),
                 List.of(Ability.EVERGREEN, Ability.SNOW_WARNING), Ability.SOUNDPROOF,

@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.vega;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -111,5 +112,7 @@ public class Blizentork extends Pokemon {
                 List.of());
         setCanFly(true);
         this.setPreEvolution("delibird");
+        addAdditionalEvolution("delibird", new EvolutionEntry("blizentork", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))));
     }
 }

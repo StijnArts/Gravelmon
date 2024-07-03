@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_tadport",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_tadport",
       "texture": "cobblemon:textures/pokemon/rica/tadport.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/tadport_shiny.png"
-    }  ]
+    }
+  ]
 }

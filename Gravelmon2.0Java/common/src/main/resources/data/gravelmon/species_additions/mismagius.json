@@ -1,0 +1,356 @@
+{
+   "target": "cobblemon:mismagius",
+   "forms": [{
+  "name": "Norheiman",
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "abilities": [
+    "levitate",
+    "h:grassysurge"
+  ],
+  "baseStats": {
+    "hp": 108,
+    "attack": 37,
+    "defence": 50,
+    "special_attack": 78,
+    "special_defence": 124,
+    "speed": 87
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:helpinghand",
+    "1:worryseed",
+    "1:astonish",
+    "1:scaryface",
+    "3:grasswhistle",
+    "6:nightshade",
+    "9:magicalleaf",
+    "13:confuseray",
+    "17:shadowsneak",
+    "20:feintattack",
+    "24:grassknot",
+    "27:willowisp",
+    "30:leafshield",
+    "34:shadowpunch",
+    "38:hornleech",
+    "42:curse",
+    "51:painsplit",
+    "55:terrorize",
+    "60:destinybond",
+    "64:leafstorm",
+    "1:grasswhistle"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.norheimanmismagius.desc"
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": ["norheiman"],
+  "cannotDynamax": false
+},
+{
+  "name": "Hizian",
+  "primaryType": "fire",
+  "secondaryType": "psychic",
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 105,
+    "special_defence": 105,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:burnup",
+    "5:spite",
+    "10:quickattack",
+    "14:confuseray",
+    "19:firespin",
+    "23:willowisp",
+    "28:flameburst",
+    "32:dazzlinggleam",
+    "37:flamethrower",
+    "41:painsplit",
+    "46:extrasensory",
+    "50:powergem",
+    "55:overheat"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hizianmismagius.desc"
+  ],
+  "preEvolution": "misdreavus form=hizian",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": ["hizian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "ice",
+  "secondaryType": "fairy",
+  "abilities": [
+    "magicguard",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 105,
+    "special_defence": 105,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:freezedry",
+    "1:futuresight",
+    "1:fly",
+    "1:mistyterrain",
+    "1:chatter",
+    "1:powdersnow",
+    "1:fairywind",
+    "1:mist",
+    "1:sing",
+    "50:present",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:roost",
+    "tm:energyball",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:gigaimpact",
+    "tm:psychup",
+    "tm:shockwave",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:trickroom",
+    "tm:sleeptalk",
+    "tm:frostbreath",
+    "tm:acrobatics",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:avalanche",
+    "tm:silverwind",
+    "tm:lunarcannon",
+    "tm:skydrop",
+    "tm:allyswitch",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:flash",
+    "tm:fly",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:aircutter",
+    "tutor:celebrate",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:signalbeam",
+    "tutor:skyattack",
+    "tutor:snore",
+    "tutor:tailwind",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen4",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltamismagius.desc"
+  ],
+  "preEvolution": "misdreavus form=delta",
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 44,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"norheiman",
+"hizian",
+"delta"
+  ]
+}

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_migreat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_migreat",
       "texture": "cobblemon:textures/pokemon/novrai/migreat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/migreat_shiny.png"
-    }  ]
+    }
+  ]
 }

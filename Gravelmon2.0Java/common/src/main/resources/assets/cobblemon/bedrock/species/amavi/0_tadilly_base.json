@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_tadilly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_tadilly",
       "texture": "cobblemon:textures/pokemon/amavi/tadilly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/tadilly_shiny.png"
-    }  ]
+    }
+  ]
 }

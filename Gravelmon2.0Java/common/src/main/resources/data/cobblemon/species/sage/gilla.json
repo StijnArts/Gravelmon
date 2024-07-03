@@ -68,7 +68,7 @@
     "57:gunkshot",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -94,7 +94,7 @@
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:strength"  ],
   "labels": [
     "sage",

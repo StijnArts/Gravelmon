@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cykit-1",
+      "pokemon": "cykit",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

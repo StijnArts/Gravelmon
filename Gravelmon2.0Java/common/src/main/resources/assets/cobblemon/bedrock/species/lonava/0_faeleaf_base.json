@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_faeleaf",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_faeleaf",
       "texture": "cobblemon:textures/pokemon/lonava/faeleaf.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/faeleaf_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoGrimer extends Pokemon {
-    public EghoGrimer(int dexNo) {
-        super(dexNo,"EghoGrimer",
+    public EghoGrimer(String name, Aspect aspect) {
+        super(name, aspect,"EghoGrimer",
                 Type.POISON, Type.ROCK,
                 new Stats(80, 70, 50, 60, 40, 25),
                 List.of(Ability.STENCH, Ability.FLARE_BOOST), Ability.POISON_TOUCH,

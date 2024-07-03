@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "freil",
-  "nationalPokedexNumber": 2629,
+  "nationalPokedexNumber": 4524,
   "primaryType": "fire",
   "secondaryType": "fighting",
   "abilities": [
@@ -61,7 +61,7 @@
     "31:assurance",
     "33:flamethrower",
     "37:headsmash",
-    "39:roarsound",
+    "39:roar",
     "43:flareblitz"  ],
   "labels": [
     "midamis",

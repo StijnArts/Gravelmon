@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.nosto.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NostanShiinotic extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NostanShiinotic(int i, Stats stats) {
-        super(i, "Shiinotic",
+    public NostanShiinotic(String name, Aspect aspect, Stats stats) {
+        super(name, aspect, "Shiinotic",
                 Type.GRASS, Type.DARK,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

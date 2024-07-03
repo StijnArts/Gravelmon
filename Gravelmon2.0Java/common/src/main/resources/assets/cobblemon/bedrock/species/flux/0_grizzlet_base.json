@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_grizzlet",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_grizzlet",
       "texture": "cobblemon:textures/pokemon/flux/grizzlet.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/grizzlet_shiny.png"
-    }  ]
+    }
+  ]
 }

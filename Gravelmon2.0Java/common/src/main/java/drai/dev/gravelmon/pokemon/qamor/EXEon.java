@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.qamor;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -127,6 +128,8 @@ public class EXEon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("EXEon");
+        addAdditionalEvolution("eevee", new EvolutionEntry("exeon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:upgrade\""))));
 
     }
 

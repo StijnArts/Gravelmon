@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_bactiny",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_bactiny",
       "texture": "cobblemon:textures/pokemon/interregional/bactiny.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/bactiny_shiny.png"
-    }  ]
+    }
+  ]
 }

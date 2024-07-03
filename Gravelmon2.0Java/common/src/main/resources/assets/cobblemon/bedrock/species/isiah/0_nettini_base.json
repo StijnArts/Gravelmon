@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_nettini",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_nettini",
       "texture": "cobblemon:textures/pokemon/isiah/nettini.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/nettini_shiny.png"
-    }  ]
+    }
+  ]
 }

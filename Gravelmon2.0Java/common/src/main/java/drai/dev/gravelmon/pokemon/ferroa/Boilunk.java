@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.ferroa;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Boilunk extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -87,7 +88,7 @@ public class Boilunk extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.FERROA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 36, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_NETHER_BASALT)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranCamerupt extends Pokemon {
-    public CefiranCamerupt(int dexNo) {
-        super(dexNo,"CefiranCamerupt",
+    public CefiranCamerupt(String name, Aspect aspect) {
+        super(name, aspect,"CefiranCamerupt",
                 Type.FIRE, Type.WATER,
                 new Stats(70,100,70,40,105,75),
                 List.of(Ability.SHEER_FORCE, Ability.SOLID_ROCK), Ability.OWN_TEMPO,

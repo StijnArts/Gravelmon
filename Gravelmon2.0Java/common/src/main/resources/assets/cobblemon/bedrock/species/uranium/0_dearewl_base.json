@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_dearewl",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_dearewl",
       "texture": "cobblemon:textures/pokemon/uranium/dearewl.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/dearewl_shiny.png"
-    }  ]
+    }
+  ]
 }

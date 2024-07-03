@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:haunter",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "x"
+      ],
+      "model": "cobblemon:generation1_haunterx.geo",
+      "poser": "cobblemon:generation1_haunterx",
+      "texture": "cobblemon:textures/pokemon/generation1/haunterx/haunterx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "x",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_haunterx.geo",
+      "poser": "cobblemon:generation1_haunterx",
+      "texture": "cobblemon:textures/pokemon/generation1/haunterx/haunterx_shiny.png",
+      "layers": []
+    }
+  ]
+}

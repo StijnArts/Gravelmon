@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_dazee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_dazee",
       "texture": "cobblemon:textures/pokemon/amavi/dazee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/dazee_shiny.png"
-    }  ]
+    }
+  ]
 }

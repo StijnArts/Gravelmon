@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_biduane",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_biduane",
       "texture": "cobblemon:textures/pokemon/midamis/biduane.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/biduane_shiny.png"
-    }  ]
+    }
+  ]
 }

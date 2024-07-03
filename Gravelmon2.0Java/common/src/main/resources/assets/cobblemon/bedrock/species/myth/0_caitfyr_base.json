@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_caitfyr",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_caitfyr",
       "texture": "cobblemon:textures/pokemon/myth/caitfyr.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/caitfyr_shiny.png"
-    }  ]
+    }
+  ]
 }

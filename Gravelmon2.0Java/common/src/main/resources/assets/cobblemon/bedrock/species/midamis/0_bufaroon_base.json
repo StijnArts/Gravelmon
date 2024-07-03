@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_bufaroon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_bufaroon",
       "texture": "cobblemon:textures/pokemon/midamis/bufaroon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/bufaroon_shiny.png"
-    }  ]
+    }
+  ]
 }

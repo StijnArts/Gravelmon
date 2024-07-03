@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_rorschade",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_rorschade",
       "texture": "cobblemon:textures/pokemon/novrai/rorschade.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/rorschade_shiny.png"
-    }  ]
+    }
+  ]
 }

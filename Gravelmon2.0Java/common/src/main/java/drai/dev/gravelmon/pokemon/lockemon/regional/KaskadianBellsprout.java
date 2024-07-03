@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianBellsprout extends Pokemon {
-    public KaskadianBellsprout(int dexNo) {
-        super(dexNo,"KaskadianBellsprout",
+    public KaskadianBellsprout(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianBellsprout",
                 Type.GRASS,
                 new Stats(50, 70, 40, 40, 30, 70),
                 List.of(Ability.SWEET_VEIL, Ability.TRIAGE), Ability.EFFECT_SPORE,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hatenazemi",
-  "nationalPokedexNumber": 2957,
+  "nationalPokedexNumber": 4944,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -1535,7 +1535,7 @@
   "moves": [
     "1:tackle",
     "5:supersonic",
-    "8:swiftcosmic",
+    "8:swift",
     "12:lightscreen",
     "12:reflect",
     "12:safeguard",
@@ -1544,7 +1544,7 @@
     "22:strugglebug",
     "26:batonpass",
     "29:agility",
-    "33:bugbuzzsound",
+    "33:bugbuzz",
     "36:airslash",
     "40:doubleedge",
     "tm:focuspunch",
@@ -1567,10 +1567,10 @@
     "tm:fling",
     "tm:endure",
     "tm:drainpunch",
-    "tm:bugbuzzsound",
+    "tm:bugbuzz",
     "tm:flash",
     "tm:swordsdance",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
@@ -1579,7 +1579,7 @@
     "egg:encore",
     "egg:knockoff",
     "egg:psybeam",
-    "egg:screechsound",
+    "egg:screech",
     "egg:tailwind"  ],
   "labels": [
     "deneb",

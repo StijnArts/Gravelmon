@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ganimede",
-  "nationalPokedexNumber": 2787,
+  "nationalPokedexNumber": 4774,
   "primaryType": "flying",
   "abilities": [
     "pressure",
@@ -78,7 +78,7 @@
     "tm:fly",
     "tm:flash",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:rest",
     "tutor:toxic",
     "tutor:iciclecrash",

@@ -1,0 +1,89 @@
+{
+  "implemented": true,
+  "name": "knotyors",
+  "nationalPokedexNumber": 3828,
+  "primaryType": "dragon",
+  "abilities": [
+    "tangledfeet",
+    "limber",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 87,
+    "attack": 44,
+    "defence": 76,
+    "special_attack": 76,
+    "special_defence": 76,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "1:payday",
+    "1:glare",
+    "1:bind",
+    "1:coil",
+    "1:wringout",
+    "1:powerwhip",
+    "1:twister",
+    "1:outrage",
+    "1:flail",
+    "1:switcheroo"  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.knotyors.desc"
+  ],
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianOnix extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianOnix(int dex) {
-        super(dex, "VaritasianOnix",
+    public VaritasianOnix(String name, Aspect aspect) {
+        super(name, aspect, "VaritasianOnix",
                 Type.ROCK, Type.PSYCHIC,
                 new Stats(35,
                         45,

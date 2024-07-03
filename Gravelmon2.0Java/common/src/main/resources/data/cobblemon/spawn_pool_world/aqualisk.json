@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aqualisk-1",
+      "pokemon": "aqualisk",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltacombusken-1",
+      "pokemon": "combusken delta",
+      "presets": [
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "16-32",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ]
+      }
+    }
+,
+    {
+      "id": "ayreiancombusken-1",
+      "pokemon": "combusken ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-29",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "mysticcombusken-1",
+      "pokemon": "combusken mystic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-46",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

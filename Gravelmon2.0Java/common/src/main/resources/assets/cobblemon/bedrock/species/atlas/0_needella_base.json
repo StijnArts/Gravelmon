@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_needella",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_needella",
       "texture": "cobblemon:textures/pokemon/atlas/needella.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/needella_shiny.png"
-    }  ]
+    }
+  ]
 }

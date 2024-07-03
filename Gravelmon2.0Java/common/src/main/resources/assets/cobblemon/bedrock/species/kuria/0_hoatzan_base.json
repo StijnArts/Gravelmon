@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_hoatzan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_hoatzan",
       "texture": "cobblemon:textures/pokemon/kuria/hoatzan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/hoatzan_shiny.png"
-    }  ]
+    }
+  ]
 }

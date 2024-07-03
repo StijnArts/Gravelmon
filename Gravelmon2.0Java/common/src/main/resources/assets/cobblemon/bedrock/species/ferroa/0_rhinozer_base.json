@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_rhinozer",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_rhinozer",
       "texture": "cobblemon:textures/pokemon/ferroa/rhinozer.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/rhinozer_shiny.png"
-    }  ]
+    }
+  ]
 }

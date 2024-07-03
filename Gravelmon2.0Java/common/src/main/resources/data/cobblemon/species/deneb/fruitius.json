@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fruitius",
-  "nationalPokedexNumber": 2932,
+  "nationalPokedexNumber": 4919,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -93,7 +93,7 @@
     "egg:worryseed",
     "egg:curse",
     "egg:petalblizzard",
-    "egg:roarsound",
+    "egg:roar",
     "egg:leafblade",
     "egg:dragonpulse"  ],
   "labels": [

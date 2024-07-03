@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianKlink extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianKlink(int dex) {
-        super(dex, "Klink",
+    public VaritasianKlink(String name, Aspect aspect) {
+        super(name, aspect, "Klink",
                 Type.STEEL, Type.GROUND,
                 new Stats(40,
                         55,

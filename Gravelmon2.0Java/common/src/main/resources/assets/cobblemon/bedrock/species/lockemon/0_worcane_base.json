@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_worcane",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_worcane",
       "texture": "cobblemon:textures/pokemon/lockemon/worcane.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/worcane_shiny.png"
-    }  ]
+    }
+  ]
 }

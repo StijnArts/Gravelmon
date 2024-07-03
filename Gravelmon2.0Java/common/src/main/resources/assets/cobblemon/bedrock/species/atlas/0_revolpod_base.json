@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_revolpod",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_revolpod",
       "texture": "cobblemon:textures/pokemon/atlas/revolpod.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/revolpod_shiny.png"
-    }  ]
+    }
+  ]
 }

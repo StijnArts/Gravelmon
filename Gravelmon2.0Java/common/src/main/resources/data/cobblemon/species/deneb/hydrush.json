@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hydrush",
-  "nationalPokedexNumber": 2713,
+  "nationalPokedexNumber": 4699,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -105,10 +105,10 @@
     "egg:shadowpunch",
     "egg:shadowsneak",
     "egg:skullbash",
-    "egg:sleeptalksound",
+    "egg:sleeptalk",
     "egg:smokescreen",
     "egg:snatch",
-    "egg:snoresound",
+    "egg:snore",
     "egg:waterpulse"  ],
   "labels": [
     "deneb",

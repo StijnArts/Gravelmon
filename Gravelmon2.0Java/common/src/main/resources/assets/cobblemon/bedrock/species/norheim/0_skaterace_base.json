@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_skaterace",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_skaterace",
       "texture": "cobblemon:textures/pokemon/norheim/skaterace.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/skaterace_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_taquana",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_taquana",
       "texture": "cobblemon:textures/pokemon/hiza/taquana.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/taquana_shiny.png"
-    }  ]
+    }
+  ]
 }

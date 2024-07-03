@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_hotdach",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_hotdach",
       "texture": "cobblemon:textures/pokemon/ferroa/hotdach.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/hotdach_shiny.png"
-    }  ]
+    }
+  ]
 }

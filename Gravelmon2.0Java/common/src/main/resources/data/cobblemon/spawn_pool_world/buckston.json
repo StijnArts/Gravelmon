@@ -16,7 +16,7 @@
       "weight": 3.0,
       "condition": {
 "biomes": [ "#cobblemon:is_taiga",
-"#gravelmon:is_snowy" ],
+"#cobblemon:is_snowy" ],
         "canSeeSky": true
       },
       "anticondition": {

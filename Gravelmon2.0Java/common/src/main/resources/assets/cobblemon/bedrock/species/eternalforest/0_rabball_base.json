@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:eternalforest_rabball",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_rabball",
       "texture": "cobblemon:textures/pokemon/eternalforest/rabball.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/eternalforest/rabball_shiny.png"
-    }  ]
+    }
+  ]
 }

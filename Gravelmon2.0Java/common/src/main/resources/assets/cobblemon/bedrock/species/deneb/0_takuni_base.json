@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_takuni",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_takuni",
       "texture": "cobblemon:textures/pokemon/deneb/takuni.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/takuni_shiny.png"
-    }  ]
+    }
+  ]
 }

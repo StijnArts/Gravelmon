@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "colobud",
-  "nationalPokedexNumber": 1343,
+  "nationalPokedexNumber": 1344,
   "primaryType": "grass",
   "abilities": [
     "pickup",
@@ -77,7 +77,7 @@
     "tm:dig",
     "tm:playrough",
     "tm:falseswipe",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:naturepower",
     "tm:return",
     "tm:frustration",
@@ -106,7 +106,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

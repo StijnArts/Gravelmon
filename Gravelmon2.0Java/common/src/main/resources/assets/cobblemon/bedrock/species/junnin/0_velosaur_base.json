@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:junnin_velosaur",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:junnin_velosaur",
       "texture": "cobblemon:textures/pokemon/junnin/velosaur.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/junnin/velosaur_shiny.png"
-    }  ]
+    }
+  ]
 }

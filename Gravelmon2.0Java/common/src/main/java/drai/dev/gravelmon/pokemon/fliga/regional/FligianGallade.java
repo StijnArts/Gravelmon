@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianGallade extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianGallade(int dex) {
-        super(dex, "Gallade",
+    public FligianGallade(String name, Aspect aspect) {
+        super(name, aspect, "Gallade",
                 Type.FAIRY, Type.DRAGON,
                 new Stats(78,
                         135,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_afunn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_afunn",
       "texture": "cobblemon:textures/pokemon/norheim/afunn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/afunn_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_mermantic",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_mermantic",
       "texture": "cobblemon:textures/pokemon/amavi/mermantic.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/mermantic_shiny.png"
-    }  ]
+    }
+  ]
 }

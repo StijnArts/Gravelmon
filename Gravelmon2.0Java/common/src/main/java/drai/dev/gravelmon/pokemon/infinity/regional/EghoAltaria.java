@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoAltaria extends Pokemon {
-    public EghoAltaria(int dexNo) {
-        super(dexNo,"EghoAltaria",
+    public EghoAltaria(String name, Aspect aspect) {
+        super(name, aspect,"EghoAltaria",
                 Type.DRAGON, Type.ICE,
                 new Stats(80, 60, 90, 95, 60, 105),
                 List.of(Ability.LEVITATE), Ability.CONTRARY,

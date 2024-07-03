@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_siberizen",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_siberizen",
       "texture": "cobblemon:textures/pokemon/orohn-havai/siberizen.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/siberizen_shiny.png"
-    }  ]
+    }
+  ]
 }

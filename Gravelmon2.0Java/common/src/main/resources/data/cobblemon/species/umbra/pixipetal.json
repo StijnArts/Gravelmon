@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pixipetal",
-  "nationalPokedexNumber": 2144,
+  "nationalPokedexNumber": 3707,
   "primaryType": "fairy",
   "abilities": [
     "dancer",
@@ -49,7 +49,7 @@
   "moves": [
     "1:leafage",
     "1:babydolleyes",
-    "6:disarmingvoicesound",
+    "6:disarmingvoice",
     "10:moonlight",
     "14:magicalleaf",
     "20:jumpkick",
@@ -73,18 +73,18 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:energyball",
     "tm:fling",
     "tm:swordsdance",
     "tm:psychup",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:uturn",
     "tm:substitute",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:lowkick",
     "tutor:helpinghand",
     "tutor:covet",
@@ -97,7 +97,7 @@
     "tutor:magiccoat",
     "tutor:icepunch",
     "tutor:skillswap",
-    "tutor:hypervoicesound"  ],
+    "tutor:hypervoice"  ],
   "labels": [
     "umbra",
     "not_modeled"
@@ -119,7 +119,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

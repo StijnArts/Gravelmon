@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_tutu",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_tutu",
       "texture": "cobblemon:textures/pokemon/okeno/tutu.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/tutu_shiny.png"
-    }  ]
+    }
+  ]
 }

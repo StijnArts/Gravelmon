@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_toxroach",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_toxroach",
       "texture": "cobblemon:textures/pokemon/deneb/toxroach.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/toxroach_shiny.png"
-    }  ]
+    }
+  ]
 }

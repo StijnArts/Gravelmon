@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianTentacruel extends Pokemon {
-    public HoennianTentacruel(int dexNo) {
-        super(dexNo,"HoennianTentacruel",
+    public HoennianTentacruel(String name, Aspect aspect) {
+        super(name, aspect,"HoennianTentacruel",
                 Type.WATER, Type.ELECTRIC,
                 new Stats(80, 110, 83, 65, 75, 102),
                 List.of(Ability.LEVISH_SKIN), Ability.RAIN_DISH,

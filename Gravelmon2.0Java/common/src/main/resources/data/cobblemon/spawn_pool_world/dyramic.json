@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dyramic-1",
+      "pokemon": "dyramic",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-54",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_temperate" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

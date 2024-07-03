@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:generation4_junkrotom",
       "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation4/junkrotom.png",
+      "poser": "cobblemon:replacement_poser",
+      "texture": "cobblemon:textures/pokemon/evolve_me.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation4/junkrotom_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/evolve_me.png"
+    }
+  ]
 }

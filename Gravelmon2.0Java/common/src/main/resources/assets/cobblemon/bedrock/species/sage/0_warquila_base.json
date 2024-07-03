@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_warquila",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_warquila",
       "texture": "cobblemon:textures/pokemon/sage/warquila.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/warquila_shiny.png"
-    }  ]
+    }
+  ]
 }

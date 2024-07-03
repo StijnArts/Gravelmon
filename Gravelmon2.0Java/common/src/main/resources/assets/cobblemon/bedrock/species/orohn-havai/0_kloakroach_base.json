@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_kloakroach",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_kloakroach",
       "texture": "cobblemon:textures/pokemon/orohn-havai/kloakroach.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/kloakroach_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_kablowfish",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_kablowfish",
       "texture": "cobblemon:textures/pokemon/infinity/kablowfish.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/kablowfish_shiny.png"
-    }  ]
+    }
+  ]
 }

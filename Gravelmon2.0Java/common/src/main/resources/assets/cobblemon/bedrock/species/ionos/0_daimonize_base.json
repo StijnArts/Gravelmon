@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_daimonize",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_daimonize",
       "texture": "cobblemon:textures/pokemon/ionos/daimonize.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/daimonize_shiny.png"
-    }  ]
+    }
+  ]
 }

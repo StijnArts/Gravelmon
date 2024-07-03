@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dektout-1",
+      "pokemon": "dektout",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-54",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gardleon",
-  "nationalPokedexNumber": 2796,
+  "nationalPokedexNumber": 4783,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -57,7 +57,7 @@
     "13:flamecharge",
     "16:bulldoze",
     "18:magnitude",
-    "23:roarsound",
+    "23:roar",
     "26:flamewheel",
     "31:willowisp",
     "36:firefang",
@@ -81,7 +81,7 @@
     "tm:willowisp",
     "tm:strength",
     "egg:curse",
-    "egg:howlsound",
+    "egg:howl",
     "egg:magmaring",
     "egg:mirrorcoat",
     "egg:mudslap",

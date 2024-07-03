@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_encreech",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_encreech",
       "texture": "cobblemon:textures/pokemon/novrai/encreech.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/encreech_shiny.png"
-    }  ]
+    }
+  ]
 }

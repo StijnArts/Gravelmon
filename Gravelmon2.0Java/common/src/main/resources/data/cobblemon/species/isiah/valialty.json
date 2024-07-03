@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "valialty",
-  "nationalPokedexNumber": 2500,
+  "nationalPokedexNumber": 4395,
   "primaryType": "fighting",
   "abilities": [
     "keeneye",
@@ -49,7 +49,7 @@
   "moves": [
     "1:machpunch",
     "1:growl",
-    "3:swiftcosmic",
+    "3:swift",
     "3:quickattack",
     "6:aurasphere",
     "9:babydolleyes",

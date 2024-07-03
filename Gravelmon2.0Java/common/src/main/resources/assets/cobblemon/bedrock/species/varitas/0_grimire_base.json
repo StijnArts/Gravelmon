@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_grimire",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_grimire",
       "texture": "cobblemon:textures/pokemon/varitas/grimire.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/grimire_shiny.png"
-    }  ]
+    }
+  ]
 }

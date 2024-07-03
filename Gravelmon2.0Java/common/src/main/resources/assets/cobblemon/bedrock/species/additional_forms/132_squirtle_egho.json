@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:squirtle",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:generation1_eghosquirtle.geo",
+      "poser": "cobblemon:generation1_eghosquirtle",
+      "texture": "cobblemon:textures/pokemon/generation1/eghosquirtle/eghosquirtle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "egho",
+        "shiny"
+      ],
+      "model": "cobblemon:generation1_eghosquirtle.geo",
+      "poser": "cobblemon:generation1_eghosquirtle",
+      "texture": "cobblemon:textures/pokemon/generation1/eghosquirtle/eghosquirtle_shiny.png",
+      "layers": []
+    }
+  ]
+}

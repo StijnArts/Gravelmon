@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.novrai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSlowking extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSlowking(int id) {
-        super(id, "Slowking",
+    public NovranSlowking(String name, Aspect aspect) {
+        super(name, aspect, "Slowking",
                 Type.BUG, Type.PSYCHIC,
                 new Stats(95,
                         100,

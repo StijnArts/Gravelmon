@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mieltzar",
-  "nationalPokedexNumber": 2018,
+  "nationalPokedexNumber": 3581,
   "primaryType": "bug",
   "abilities": [
     "keeneye",
@@ -57,7 +57,7 @@
     "19:webball",
     "22:workup",
     "25:quiverdance",
-    "29:bugbuzzsound",
+    "29:bugbuzz",
     "36:decorate",
     "36:defendorder",
     "36:attackorder",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_hatarakuma",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_hatarakuma",
       "texture": "cobblemon:textures/pokemon/deneb/hatarakuma.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/hatarakuma_shiny.png"
-    }  ]
+    }
+  ]
 }

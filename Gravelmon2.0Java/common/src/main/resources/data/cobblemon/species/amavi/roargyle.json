@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "roargyle",
-  "nationalPokedexNumber": 3111,
+  "nationalPokedexNumber": 5703,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
@@ -50,7 +50,7 @@
   "moves": [
     "1:harden",
     "9:protect",
-    "12:nobleroarsound",
+    "12:nobleroar",
     "16:dragonrage",
     "20:spikecannon",
     "24:magnitude",
@@ -58,7 +58,7 @@
     "31:irondefense",
     "36:stompingtantrum",
     "40:dragonclaw",
-    "45:roarsound",
+    "45:roar",
     "50:spikes",
     "56:megahorn"  ],
   "labels": [

@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "eghoferaligatr-1",
+      "pokemon": "feraligatr egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-42",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianferaligatr-1",
+      "pokemon": "feraligatr ayreian",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-47",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

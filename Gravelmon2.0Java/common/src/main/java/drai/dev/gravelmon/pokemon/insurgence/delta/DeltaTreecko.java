@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaTreecko extends Pokemon {
-    public DeltaTreecko(int dexNo) {
-        super(dexNo,"DeltaTreecko",
+    public DeltaTreecko(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTreecko",
                 Type.NORMAL, Type.FIGHTING,
                 new Stats(40, 45, 35, 65, 55, 70),
                 List.of(Ability.INNER_FOCUS), Ability.GUTS,

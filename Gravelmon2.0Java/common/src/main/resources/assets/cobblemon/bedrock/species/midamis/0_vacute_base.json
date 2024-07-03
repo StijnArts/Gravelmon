@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_vacute",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_vacute",
       "texture": "cobblemon:textures/pokemon/midamis/vacute.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/vacute_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_moppup",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_moppup",
       "texture": "cobblemon:textures/pokemon/atlas/moppup.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/moppup_shiny.png"
-    }  ]
+    }
+  ]
 }

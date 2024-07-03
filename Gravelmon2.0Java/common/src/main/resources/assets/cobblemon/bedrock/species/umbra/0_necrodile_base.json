@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:umbra_necrodile",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:umbra_necrodile",
       "texture": "cobblemon:textures/pokemon/umbra/necrodile.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/umbra/necrodile_shiny.png"
-    }  ]
+    }
+  ]
 }

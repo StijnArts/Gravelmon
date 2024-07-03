@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_folida",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_folida",
       "texture": "cobblemon:textures/pokemon/kuria/folida.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/folida_shiny.png"
-    }  ]
+    }
+  ]
 }

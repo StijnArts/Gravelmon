@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "thistling-1",
+      "pokemon": "thistling",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

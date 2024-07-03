@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_sacretary",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_sacretary",
       "texture": "cobblemon:textures/pokemon/novrai/sacretary.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/sacretary_shiny.png"
-    }  ]
+    }
+  ]
 }

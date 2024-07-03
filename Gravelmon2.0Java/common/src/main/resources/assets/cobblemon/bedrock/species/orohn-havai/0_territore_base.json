@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_territore",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_territore",
       "texture": "cobblemon:textures/pokemon/orohn-havai/territore.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/territore_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_sosola",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_sosola",
       "texture": "cobblemon:textures/pokemon/novrai/sosola.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/sosola_shiny.png"
-    }  ]
+    }
+  ]
 }

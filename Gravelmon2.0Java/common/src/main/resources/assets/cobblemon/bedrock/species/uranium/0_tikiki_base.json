@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_tikiki",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_tikiki",
       "texture": "cobblemon:textures/pokemon/uranium/tikiki.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/tikiki_shiny.png"
-    }  ]
+    }
+  ]
 }

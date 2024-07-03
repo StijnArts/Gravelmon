@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_humborb",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_humborb",
       "texture": "cobblemon:textures/pokemon/flux/humborb.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/humborb_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_khaheena",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_khaheena",
       "texture": "cobblemon:textures/pokemon/ionos/khaheena.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/khaheena_shiny.png"
-    }  ]
+    }
+  ]
 }

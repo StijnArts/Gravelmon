@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_craliber",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_craliber",
       "texture": "cobblemon:textures/pokemon/sage/craliber.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/craliber_shiny.png"
-    }  ]
+    }
+  ]
 }

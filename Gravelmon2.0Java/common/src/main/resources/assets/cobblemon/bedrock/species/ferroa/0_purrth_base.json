@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_purrth",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_purrth",
       "texture": "cobblemon:textures/pokemon/ferroa/purrth.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/purrth_shiny.png"
-    }  ]
+    }
+  ]
 }

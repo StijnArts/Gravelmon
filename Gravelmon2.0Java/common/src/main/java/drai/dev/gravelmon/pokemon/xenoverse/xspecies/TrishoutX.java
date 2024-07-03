@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class TrishoutX extends Pokemon {
-    public TrishoutX(int dexNo) {
-        super(dexNo,"TrishoutX",
+    public TrishoutX(String name, Aspect aspect) {
+        super(name, aspect,"TrishoutX",
                 Type.FIRE, Type.SOUND,
                 new Stats(68, 125, 60, 115, 60, 72),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

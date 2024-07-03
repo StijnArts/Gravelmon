@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianTynamo extends Pokemon {
-    public HoennianTynamo(int dexNo) {
-        super(dexNo,"HoennianTynamo",
+    public HoennianTynamo(String name, Aspect aspect) {
+        super(name, aspect,"HoennianTynamo",
                 Type.GROUND, Type.ELECTRIC,
                 new Stats(30, 60, 30, 20, 50, 70),
                 List.of(Ability.STENCH), Ability.SAND_VEIL,

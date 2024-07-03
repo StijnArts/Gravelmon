@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaRegisteel extends Pokemon {
-    public DeltaRegisteel(int dexNo) {
-        super(dexNo,"DeltaRegisteel",
+    public DeltaRegisteel(String name, Aspect aspect) {
+        super(name, aspect,"DeltaRegisteel",
                 Type.FIRE,
                 new Stats(80, 75, 150, 75, 150, 50),
                 List.of(Ability.FLAME_BODY), Ability.FOUNDRY,

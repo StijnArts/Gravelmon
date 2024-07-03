@@ -15,7 +15,7 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_basalt",
+"biomes": [ "#cobblemon:is_volvanic",
 "#cobblemon:is_nether_crimson" ]
       }
     }

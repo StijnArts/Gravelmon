@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_aerapin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_aerapin",
       "texture": "cobblemon:textures/pokemon/flux/aerapin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/aerapin_shiny.png"
-    }  ]
+    }
+  ]
 }

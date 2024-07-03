@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.myth;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -81,5 +82,7 @@ public class Duneon extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
+        addAdditionalEvolution("eevee", new EvolutionEntry("duneon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SANDY.getId() + ":" + Biome.IS_SANDY.getName() +"\""))));
     }
 }

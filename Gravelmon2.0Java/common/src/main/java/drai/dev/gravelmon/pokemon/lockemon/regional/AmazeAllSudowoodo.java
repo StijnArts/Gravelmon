@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AmazeAllSudowoodo extends Pokemon {
-    public AmazeAllSudowoodo(int dexNo) {
-        super(dexNo,"AmazeAllSudowoodo",
+    public AmazeAllSudowoodo(String name, Aspect aspect) {
+        super(name, aspect,"AmazeAllSudowoodo",
                 Type.STEEL, Type.PSYCHIC,
                 new Stats(70, 40, 75, 100, 105, 20),
                 List.of(Ability.LIGHTNING_ROD, Ability.SURVEILLANCE), Ability.HEAVY_METAL,
@@ -106,5 +107,7 @@ public class AmazeAllSudowoodo extends Pokemon {
                 List.of());
         this.setLangFileName("Sudowoodo");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("bonsly", new EvolutionEntry("sudowoodo amazeall", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:amaze_drive"));
     }
 }

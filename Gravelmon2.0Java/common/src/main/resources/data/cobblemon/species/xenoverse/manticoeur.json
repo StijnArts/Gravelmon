@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "manticoeur",
-  "nationalPokedexNumber": 1540,
+  "nationalPokedexNumber": 2137,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -54,7 +54,7 @@
     "1:tackle",
     "4:poisonsting",
     "8:assist",
-    "12:disarmingvoicesound",
+    "12:disarmingvoice",
     "15:attract",
     "19:poisontail",
     "23:charm",

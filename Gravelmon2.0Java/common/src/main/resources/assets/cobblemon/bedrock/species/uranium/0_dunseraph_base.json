@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_dunseraph",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_dunseraph",
       "texture": "cobblemon:textures/pokemon/uranium/dunseraph.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/dunseraph_shiny.png"
-    }  ]
+    }
+  ]
 }

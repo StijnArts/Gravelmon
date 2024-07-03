@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_messoul",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_messoul",
       "texture": "cobblemon:textures/pokemon/ferroa/messoul.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/messoul_shiny.png"
-    }  ]
+    }
+  ]
 }

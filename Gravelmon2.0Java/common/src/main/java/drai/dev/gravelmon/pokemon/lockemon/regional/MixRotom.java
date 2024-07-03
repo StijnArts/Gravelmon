@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MixRotom extends Pokemon {
-    public MixRotom(int dexNo) {
-        super(dexNo,"MixRotom",
+    public MixRotom(String name, Aspect aspect) {
+        super(name, aspect,"MixRotom",
                 Type.ELECTRIC, Type.GROUND,
                 new Stats(50, 65,107,105,107,86),
                 List.of(Ability.LEVITATE, Ability.ADAPTABILITY), Ability.MOLD_BREAKER,

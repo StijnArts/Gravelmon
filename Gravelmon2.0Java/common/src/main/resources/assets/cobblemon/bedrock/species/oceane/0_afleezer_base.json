@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_afleezer",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_afleezer",
       "texture": "cobblemon:textures/pokemon/oceane/afleezer.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/afleezer_shiny.png"
-    }  ]
+    }
+  ]
 }

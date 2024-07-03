@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.novrai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSudowoodo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSudowoodo(int id) {
-        super(id, "Sudowoodo",
+    public NovranSudowoodo(String name, Aspect aspect) {
+        super(name, aspect, "Sudowoodo",
                 Type.ROCK, Type.ICE,
                 new Stats(90,
                         125,

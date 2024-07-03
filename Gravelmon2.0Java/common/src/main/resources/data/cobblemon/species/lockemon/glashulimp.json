@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glashulimp",
-  "nationalPokedexNumber": 1922,
+  "nationalPokedexNumber": 3485,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -69,7 +69,7 @@
     "egg:growth",
     "egg:heatwave",
     "egg:heavyslam",
-    "egg:howlsound",
+    "egg:howl",
     "egg:ironhead",
     "egg:rollout",
     "egg:scaryface",

@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianPorygon2 extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianPorygon2(int dex) {
-        super(dex, "Porygon2",
+    public VaritasianPorygon2(String name, Aspect aspect) {
+        super(name, aspect, "Porygon2",
                 Type.NORMAL, Type.BUG,
                 new Stats(85,
                         105,

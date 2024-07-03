@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_haloe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_haloe",
       "texture": "cobblemon:textures/pokemon/novrai/haloe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/haloe_shiny.png"
-    }  ]
+    }
+  ]
 }

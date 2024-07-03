@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kobble",
-  "nationalPokedexNumber": 2299,
+  "nationalPokedexNumber": 4194,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -55,7 +55,7 @@
     "16:rockpolish",
     "21:storedpower",
     "25:barrier",
-    "29:powergemcrystal",
+    "29:powergem",
     "33:stealthrock",
     "39:mirrorcoat",
     "44:dazzlinggleam",

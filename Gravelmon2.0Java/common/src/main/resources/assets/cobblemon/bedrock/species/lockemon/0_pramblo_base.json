@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_pramblo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_pramblo",
       "texture": "cobblemon:textures/pokemon/lockemon/pramblo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/pramblo_shiny.png"
-    }  ]
+    }
+  ]
 }

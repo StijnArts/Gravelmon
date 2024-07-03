@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.midamis;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -26,10 +27,10 @@ public class Feefish extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(""),
                 List.of(new EvolutionEntry("fencette", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\""))),
                         new EvolutionEntry("feegremin", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(  new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
                         new MoveLearnSetEntry(Move.WATER_GUN,8),

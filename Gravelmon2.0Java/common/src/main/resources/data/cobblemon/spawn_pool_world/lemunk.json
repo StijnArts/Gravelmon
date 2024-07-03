@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lemunk-1",
+      "pokemon": "lemunk",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-19",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

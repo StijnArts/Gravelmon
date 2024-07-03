@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaNuzleaf extends Pokemon {
-    public DeltaNuzleaf(int dexNo) {
-        super(dexNo,"DeltaNuzleaf",
+    public DeltaNuzleaf(String name, Aspect aspect) {
+        super(name, aspect,"DeltaNuzleaf",
                 Type.ELECTRIC,
                 new Stats(70, 70, 40, 60, 40, 60),
                 List.of(Ability.VOLT_ABSORB, Ability.MINUS), Ability.HUBRIS,

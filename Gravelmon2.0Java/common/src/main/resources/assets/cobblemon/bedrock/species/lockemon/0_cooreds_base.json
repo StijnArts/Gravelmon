@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_cooreds",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_cooreds",
       "texture": "cobblemon:textures/pokemon/lockemon/cooreds.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/cooreds_shiny.png"
-    }  ]
+    }
+  ]
 }

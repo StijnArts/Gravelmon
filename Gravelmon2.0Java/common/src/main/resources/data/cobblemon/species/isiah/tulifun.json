@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tulifun",
-  "nationalPokedexNumber": 2399,
+  "nationalPokedexNumber": 4294,
   "primaryType": "grass",
   "abilities": [
     "tangledfeet",
@@ -65,7 +65,7 @@
     "tm:hiddenpower",
     "tm:return",
     "tm:naturepower",
-    "tm:roundsound",
+    "tm:round",
     "tm:energyball",
     "tm:grassknot",
     "tm:solarbeam",
@@ -80,7 +80,7 @@
     "tm:raindance",
     "tm:reflect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:sunnyday",
     "tm:swagger",

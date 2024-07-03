@@ -1,0 +1,267 @@
+{
+   "target": "cobblemon:golurk",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "fighting",
+  "secondaryType": "steel",
+  "abilities": [
+    "ironfist",
+    "battlearmor",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 89,
+    "attack": 124,
+    "defence": 80,
+    "special_attack": 55,
+    "special_defence": 80,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:vitalthrow",
+    "1:focuspunch",
+    "1:tackle",
+    "1:bulletpunch",
+    "1:irondefense",
+    "1:lowsweep",
+    "5:lowsweep",
+    "9:gyroball",
+    "13:machpunch",
+    "17:bulkup",
+    "21:megapunch",
+    "25:ironhead",
+    "30:dynamicpunch",
+    "35:seismictoss",
+    "40:autotomize",
+    "43:heavyslam",
+    "50:hammerarm",
+    "60:closecombat",
+    "70:focuspunch",
+    "75:vitalthrow",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:lowsweep",
+    "tm:recycle",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:poisonjab",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:achillesheel",
+    "tm:round",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:workup",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:block",
+    "tutor:counter",
+    "tutor:dualchop",
+    "tutor:dynamicpunch",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:headbutt",
+    "tutor:icepunch",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:megapunch",
+    "tutor:mimic",
+    "tutor:seismictoss",
+    "tutor:snore",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:vacuumwave",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltagolurk.desc"
+  ],
+  "preEvolution": "golett form=delta",
+  "baseScale": 0.7000000000000001,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 28,
+  "weight": 3300,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Cefiran",
+  "primaryType": "steel",
+  "secondaryType": "fire",
+  "abilities": [
+    "waterabsorb",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 89,
+    "attack": 124,
+    "defence": 80,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:pound",
+    "1:flamecharge",
+    "1:defensecurl",
+    "1:mudslap",
+    "5:mudslap",
+    "9:rollout",
+    "13:firepunch",
+    "17:irondefense",
+    "21:megapunch",
+    "25:bulletpunch",
+    "30:dynamicpunch",
+    "35:lavaplume",
+    "43:heavyslam",
+    "50:meteormash",
+    "60:hammerarm",
+    "70:focuspunch"  ],
+  "labels": [
+    "gen5",
+    "opal",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefirangolurk.desc"
+  ],
+  "preEvolution": "golett form=cefiran",
+  "baseScale": 0.7000000000000001,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 28,
+  "weight": 3300,
+  "aspects": ["cefiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta",
+"cefiran"
+  ]
+}

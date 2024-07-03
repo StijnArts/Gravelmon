@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_shelswap",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_shelswap",
       "texture": "cobblemon:textures/pokemon/mythire/shelswap.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/shelswap_shiny.png"
-    }  ]
+    }
+  ]
 }

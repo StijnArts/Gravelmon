@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_stuk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_stuk",
       "texture": "cobblemon:textures/pokemon/varitas/stuk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/stuk_shiny.png"
-    }  ]
+    }
+  ]
 }

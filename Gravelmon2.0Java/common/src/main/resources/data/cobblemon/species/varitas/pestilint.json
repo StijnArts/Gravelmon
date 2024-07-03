@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pestilint",
-  "nationalPokedexNumber": 1746,
+  "nationalPokedexNumber": 2344,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -52,7 +52,7 @@
     "5:bugbite",
     "9:powder",
     "14:sleeppowder",
-    "18:sleeptalksound",
+    "18:sleeptalk",
     "26:leechlife",
     "30:silverwind",
     "37:uproar",

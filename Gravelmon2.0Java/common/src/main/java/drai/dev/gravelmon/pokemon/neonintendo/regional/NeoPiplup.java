@@ -11,13 +11,14 @@ import drai.dev.gravelmon.pokemon.otopo.*;
 import drai.dev.gravelmon.pokemon.goetia.*;
 import drai.dev.gravelmon.pokemon.ionos.*;
 import drai.dev.gravelmon.pokemon.lagoone.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class NeoPiplup extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NeoPiplup(int dex) {
-        super(dex, "Piplup",
+    public NeoPiplup(String name, Aspect aspect) {
+        super(name, aspect, "Piplup",
                 Type.FIGHTING,
                 new Stats(53,
                         56,

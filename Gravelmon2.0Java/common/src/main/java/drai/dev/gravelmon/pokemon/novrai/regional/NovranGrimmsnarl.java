@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.novrai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NovranGrimmsnarl extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranGrimmsnarl(int dex) {
-        super(dex, "Grimmsnarl",
+    public NovranGrimmsnarl(String name, Aspect aspect) {
+        super(name, aspect, "Grimmsnarl",
                 Type.DARK, Type.STEEL,
                 new Stats(95,
                         120,

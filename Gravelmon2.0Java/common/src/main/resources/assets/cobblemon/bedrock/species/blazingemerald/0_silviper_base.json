@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:blazingemerald_silviper",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_silviper",
       "texture": "cobblemon:textures/pokemon/blazingemerald/silviper.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/blazingemerald/silviper_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lockemon_revylon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lockemon_revylon",
       "texture": "cobblemon:textures/pokemon/lockemon/revylon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lockemon/revylon_shiny.png"
-    }  ]
+    }
+  ]
 }

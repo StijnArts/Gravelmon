@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_armust",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_armust",
       "texture": "cobblemon:textures/pokemon/hiza/armust.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/armust_shiny.png"
-    }  ]
+    }
+  ]
 }

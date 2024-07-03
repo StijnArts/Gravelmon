@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanFalinks extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanFalinks(int dex) {
-        super(dex, "Falinks",
+    public NorheimanFalinks(String name, Aspect aspect) {
+        super(name, aspect, "Falinks",
                 Type.STEEL, Type.FIGHTING,
                 new Stats(65,
                         110,

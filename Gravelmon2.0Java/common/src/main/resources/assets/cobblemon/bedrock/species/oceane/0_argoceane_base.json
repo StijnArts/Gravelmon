@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_argoceane",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_argoceane",
       "texture": "cobblemon:textures/pokemon/oceane/argoceane.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/argoceane_shiny.png"
-    }  ]
+    }
+  ]
 }

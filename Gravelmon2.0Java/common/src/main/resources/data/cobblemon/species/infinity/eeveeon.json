@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eeveeon",
-  "nationalPokedexNumber": 1422,
+  "nationalPokedexNumber": 1423,
   "primaryType": "normal",
   "abilities": [
     "adaptability",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:eevoboost",
     "1:workup",
@@ -65,13 +75,13 @@
     "38:trumpcard",
     "40:agility",
     "44:assist",
-    "49:hypervoicesound",
+    "49:hypervoice",
     "53:slackoff",
     "57:holdback",
     "60:earthpower",
-    "64:cosmicpowercosmic",
+    "64:cosmicpower",
     "73:storedpower",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:icebeam",
@@ -87,8 +97,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:fling",
     "tm:shadowclaw",
     "tm:payback",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_hammerod",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_hammerod",
       "texture": "cobblemon:textures/pokemon/ferroa/hammerod.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/hammerod_shiny.png"
-    }  ]
+    }
+  ]
 }

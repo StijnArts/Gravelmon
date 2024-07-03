@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianMarill extends Pokemon {
-    public KaskadianMarill(int dexNo) {
-        super(dexNo,"KaskadianMarill",
+    public KaskadianMarill(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianMarill",
                 Type.WATER, Type.GRASS,
                 new Stats(70, 20, 50, 20, 50, 40),
                 List.of(Ability.HYDRATION, Ability.STICKY_HOLD), Ability.VEGETATE,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_egohiss",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_egohiss",
       "texture": "cobblemon:textures/pokemon/xenoverse/egohiss.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/egohiss_shiny.png"
-    }  ]
+    }
+  ]
 }

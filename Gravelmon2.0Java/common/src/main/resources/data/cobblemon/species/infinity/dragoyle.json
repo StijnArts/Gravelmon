@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragoyle",
-  "nationalPokedexNumber": 1446,
+  "nationalPokedexNumber": 1447,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -69,7 +69,7 @@
     "38:rockslide",
     "41:dualchop",
     "43:uproar",
-    "48:hypervoicesound",
+    "48:hypervoice",
     "52:protect",
     "56:dragonclaw",
     "59:acrobatics",
@@ -99,8 +99,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:falseswipe",
     "tm:incinerate",
     "tm:acrobatics",

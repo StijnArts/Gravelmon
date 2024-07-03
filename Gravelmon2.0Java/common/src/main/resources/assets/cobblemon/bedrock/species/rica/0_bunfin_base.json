@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_bunfin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_bunfin",
       "texture": "cobblemon:textures/pokemon/rica/bunfin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/bunfin_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_moundhog",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_moundhog",
       "texture": "cobblemon:textures/pokemon/amavi/moundhog.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/moundhog_shiny.png"
-    }  ]
+    }
+  ]
 }

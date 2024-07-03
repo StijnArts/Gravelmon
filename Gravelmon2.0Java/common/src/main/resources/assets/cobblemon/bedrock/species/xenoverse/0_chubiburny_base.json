@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_chubiburny",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_chubiburny",
       "texture": "cobblemon:textures/pokemon/xenoverse/chubiburny.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/chubiburny_shiny.png"
-    }  ]
+    }
+  ]
 }

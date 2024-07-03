@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zapalope",
-  "nationalPokedexNumber": 1459,
+  "nationalPokedexNumber": 1460,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -88,7 +88,7 @@
     "tm:attract",
     "tm:thief",
     "tm:lowsweep",
-    "tm:roundsound",
+    "tm:round",
     "tm:allyswitch",
     "tm:energyball",
     "tm:falseswipe",
@@ -115,7 +115,7 @@
     "tutor:ancientpower",
     "tutor:earthpower",
     "tutor:gigadrain",
-    "tutor:healbellsound",
+    "tutor:healbell",
     "tutor:helpinghand",
     "tutor:megakick",
     "tutor:rollout",

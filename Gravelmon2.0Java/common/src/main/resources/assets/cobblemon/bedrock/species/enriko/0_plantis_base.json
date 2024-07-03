@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_plantis",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_plantis",
       "texture": "cobblemon:textures/pokemon/enriko/plantis.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/plantis_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianWobbuffet extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianWobbuffet(int dex) {
-        super(dex, "Wobbuffet",
+    public VaritasianWobbuffet(String name, Aspect aspect) {
+        super(name, aspect, "Wobbuffet",
                 Type.DARK,
                 new Stats(190,
                         33,
@@ -50,6 +51,8 @@ public class VaritasianWobbuffet extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Wobbuffet");
+        addAdditionalEvolution("wynaut", new EvolutionEntry("wobbuffet varitasian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15"))));
 
     }
 

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_trojalmon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_trojalmon",
       "texture": "cobblemon:textures/pokemon/deneb/trojalmon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/trojalmon_shiny.png"
-    }  ]
+    }
+  ]
 }

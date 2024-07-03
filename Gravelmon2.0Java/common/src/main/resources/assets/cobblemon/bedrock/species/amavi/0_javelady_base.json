@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_javelady",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_javelady",
       "texture": "cobblemon:textures/pokemon/amavi/javelady.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/javelady_shiny.png"
-    }  ]
+    }
+  ]
 }

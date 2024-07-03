@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaYamask extends Pokemon {
-    public DeltaYamask(int dexNo) {
-        super(dexNo,"DeltaYamask",
+    public DeltaYamask(String name, Aspect aspect) {
+        super(name, aspect,"DeltaYamask",
                 Type.STEEL, Type.POISON,
                 new Stats(38, 30, 85, 55, 65, 30),
                 List.of(Ability.AFTERMATH, Ability.INFILTRATOR), Ability.WONDER_SKIN,

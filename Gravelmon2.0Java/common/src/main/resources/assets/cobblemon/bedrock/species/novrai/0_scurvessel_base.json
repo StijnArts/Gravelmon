@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_scurvessel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_scurvessel",
       "texture": "cobblemon:textures/pokemon/novrai/scurvessel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/scurvessel_shiny.png"
-    }  ]
+    }
+  ]
 }

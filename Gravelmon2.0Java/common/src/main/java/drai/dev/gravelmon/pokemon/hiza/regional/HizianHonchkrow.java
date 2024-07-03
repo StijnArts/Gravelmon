@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.hiza.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class HizianHonchkrow extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianHonchkrow(int dex) {
-        super(dex, "Honchkrow",
+    public HizianHonchkrow(String name, Aspect aspect) {
+        super(name, aspect, "Honchkrow",
                 Type.FLYING, Type.GRASS,
                 new Stats(90,
                         125,

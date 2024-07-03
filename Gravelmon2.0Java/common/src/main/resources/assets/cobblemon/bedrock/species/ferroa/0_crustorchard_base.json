@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_crustorchard",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_crustorchard",
       "texture": "cobblemon:textures/pokemon/ferroa/crustorchard.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/crustorchard_shiny.png"
-    }  ]
+    }
+  ]
 }

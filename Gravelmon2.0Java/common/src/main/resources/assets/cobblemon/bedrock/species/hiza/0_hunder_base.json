@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_hunder",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_hunder",
       "texture": "cobblemon:textures/pokemon/hiza/hunder.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/hunder_shiny.png"
-    }  ]
+    }
+  ]
 }

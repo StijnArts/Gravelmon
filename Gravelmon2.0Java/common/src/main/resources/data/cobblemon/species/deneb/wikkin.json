@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wikkin",
-  "nationalPokedexNumber": 2808,
+  "nationalPokedexNumber": 4795,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -93,7 +93,7 @@
     "egg:faketears",
     "egg:frustration",
     "egg:grassknot",
-    "egg:gravitywavecosmic",
+    "egg:gravitywave",
     "egg:hyperbeam",
     "egg:hypnopulse",
     "egg:imprison",
@@ -113,7 +113,7 @@
     "egg:safeguard",
     "egg:skillswap",
     "egg:sleeppowder",
-    "egg:swiftcosmic"  ],
+    "egg:swift"  ],
   "labels": [
     "deneb"
   ],

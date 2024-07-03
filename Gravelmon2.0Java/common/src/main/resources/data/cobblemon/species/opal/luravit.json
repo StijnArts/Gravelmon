@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luravit",
-  "nationalPokedexNumber": 1490,
+  "nationalPokedexNumber": 1680,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -52,7 +52,7 @@
     "7:ember",
     "10:smokescreen",
     "13:bite",
-    "16:howlsound",
+    "16:howl",
     "18:firefang",
     "22:scaryface",
     "25:crunch",

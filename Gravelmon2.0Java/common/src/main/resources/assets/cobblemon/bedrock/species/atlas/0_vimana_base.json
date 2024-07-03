@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_vimana",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_vimana",
       "texture": "cobblemon:textures/pokemon/atlas/vimana.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/vimana_shiny.png"
-    }  ]
+    }
+  ]
 }

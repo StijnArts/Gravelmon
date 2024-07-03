@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_chainmaw",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_chainmaw",
       "texture": "cobblemon:textures/pokemon/hiza/chainmaw.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/chainmaw_shiny.png"
-    }  ]
+    }
+  ]
 }

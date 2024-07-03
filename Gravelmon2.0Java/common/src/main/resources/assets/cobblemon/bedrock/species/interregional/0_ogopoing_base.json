@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_ogopoing",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_ogopoing",
       "texture": "cobblemon:textures/pokemon/interregional/ogopoing.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/ogopoing_shiny.png"
-    }  ]
+    }
+  ]
 }

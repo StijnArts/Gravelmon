@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_drumble",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_drumble",
       "texture": "cobblemon:textures/pokemon/novrai/drumble.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/drumble_shiny.png"
-    }  ]
+    }
+  ]
 }

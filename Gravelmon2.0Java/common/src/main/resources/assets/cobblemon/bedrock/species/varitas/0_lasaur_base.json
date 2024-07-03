@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_lasaur",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_lasaur",
       "texture": "cobblemon:textures/pokemon/varitas/lasaur.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/lasaur_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_zexalax",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_zexalax",
       "texture": "cobblemon:textures/pokemon/nosto/zexalax.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/zexalax_shiny.png"
-    }  ]
+    }
+  ]
 }

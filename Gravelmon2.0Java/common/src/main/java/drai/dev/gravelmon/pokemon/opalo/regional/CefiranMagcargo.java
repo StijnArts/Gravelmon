@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.opalo.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CefiranMagcargo extends Pokemon {
-    public CefiranMagcargo(int dexNo) {
-        super(dexNo,"CefiranMagcargo",
+    public CefiranMagcargo(String name, Aspect aspect) {
+        super(name, aspect,"CefiranMagcargo",
                 Type.POISON, Type.STEEL,
                 new Stats(70,50,140,30,100,80),
                 List.of(Ability.INFLAMABLE), Ability.WEAK_ARMOR,

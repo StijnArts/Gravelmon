@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaAggron extends Pokemon {
-    public DeltaAggron(int dexNo) {
-        super(dexNo,"DeltaAggron",
+    public DeltaAggron(String name, Aspect aspect) {
+        super(name, aspect,"DeltaAggron",
                 Type.FIRE, Type.STEEL,
                 new Stats(70, 110, 180, 60, 60, 50),
                 List.of(Ability.FLAME_BODY, Ability.DROUGHT), Ability.HEAVY_METAL,

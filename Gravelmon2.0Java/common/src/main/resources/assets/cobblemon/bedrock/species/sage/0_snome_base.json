@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_snome",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_snome",
       "texture": "cobblemon:textures/pokemon/sage/snome.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/snome_shiny.png"
-    }  ]
+    }
+  ]
 }

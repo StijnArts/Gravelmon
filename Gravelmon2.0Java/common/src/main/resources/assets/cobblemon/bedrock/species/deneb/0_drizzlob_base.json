@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_drizzlob",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_drizzlob",
       "texture": "cobblemon:textures/pokemon/deneb/drizzlob.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/drizzlob_shiny.png"
-    }  ]
+    }
+  ]
 }

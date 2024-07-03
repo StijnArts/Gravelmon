@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaLuxray extends Pokemon {
-    public DeltaLuxray(int dexNo) {
-        super(dexNo,"DeltaLuxray",
+    public DeltaLuxray(String name, Aspect aspect) {
+        super(name, aspect,"DeltaLuxray",
                 Type.STEEL, Type.POISON,
                 new Stats(80, 120,79,95,79,70),
                 List.of(Ability.POISON_TOUCH, Ability.VAMPIRIC), Ability.VENOMOUS,

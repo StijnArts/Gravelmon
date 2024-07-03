@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "qamoranhitmontop-1",
+      "pokemon": "hitmontop qamoran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-46",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "varitasianhitmontop-1",
+      "pokemon": "hitmontop varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-46",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+
+]
+}

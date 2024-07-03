@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianGolett extends Pokemon {
-    public KaskadianGolett(int dexNo) {
-        super(dexNo,"KaskadianGolett",
+    public KaskadianGolett(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianGolett",
                 Type.GHOST, Type.ROCK,
                 new Stats(59, 74, 50, 35, 50, 35),
                 List.of(Ability.FRISK, Ability.SOLID_ROCK), Ability.SHADOW_TAG,

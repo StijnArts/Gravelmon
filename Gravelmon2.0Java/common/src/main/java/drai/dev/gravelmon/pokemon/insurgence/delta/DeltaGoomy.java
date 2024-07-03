@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaGoomy extends Pokemon {
-    public DeltaGoomy(int dexNo) {
-        super(dexNo,"DeltaGoomy",
+    public DeltaGoomy(String name, Aspect aspect) {
+        super(name, aspect,"DeltaGoomy",
                 Type.GROUND, Type.WATER,
                 new Stats(45, 50,35,55,75,40),
                 List.of(Ability.OVERCOAT, Ability.WATER_ABSORB), Ability.GOOEY,

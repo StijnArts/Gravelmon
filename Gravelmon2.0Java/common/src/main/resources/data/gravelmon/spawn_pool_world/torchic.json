@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltatorchic-1",
+      "pokemon": "torchic delta",
+      "presets": [
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ]
+      }
+    }
+,
+    {
+      "id": "ayreiantorchic-1",
+      "pokemon": "torchic ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "mystictorchic-1",
+      "pokemon": "torchic mystic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

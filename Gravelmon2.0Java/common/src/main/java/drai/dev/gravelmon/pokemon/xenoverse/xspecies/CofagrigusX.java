@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class CofagrigusX extends Pokemon {
-    public CofagrigusX(int dexNo) {
-        super(dexNo,"CofagrigusX",
+    public CofagrigusX(String name, Aspect aspect) {
+        super(name, aspect,"CofagrigusX",
                 Type.WATER, Type.ROCK,
                 new Stats(58, 50, 145, 105, 95, 30),
                 List.of(Ability.STORM_DRAIN), Ability.WEAK_ARMOR,

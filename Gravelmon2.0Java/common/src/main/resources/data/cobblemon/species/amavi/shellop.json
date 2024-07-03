@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shellop",
-  "nationalPokedexNumber": 2999,
+  "nationalPokedexNumber": 5591,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -55,8 +55,8 @@
     "23:whirlpool",
     "28:teatime",
     "34:freezedry",
-    "39:powergemcrystal",
-    "45:sparklingariasound",
+    "39:powergem",
+    "45:sparklingaria",
     "50:irondefense",
     "56:icespinner",
     "61:hydropump",

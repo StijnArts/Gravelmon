@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chargo",
-  "nationalPokedexNumber": 1401,
+  "nationalPokedexNumber": 1402,
   "primaryType": "fire",
   "abilities": [
     "reckless",
@@ -94,8 +94,8 @@
     "tutor:headbutt",
     "tutor:helpinghand",
     "tutor:mudslap",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "egg:ancientpower",
     "egg:beatup",
     "egg:bellydrum",

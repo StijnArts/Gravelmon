@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_quarina",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_quarina",
       "texture": "cobblemon:textures/pokemon/mythire/quarina.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/quarina_shiny.png"
-    }  ]
+    }
+  ]
 }

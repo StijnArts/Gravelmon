@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_soarup",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_soarup",
       "texture": "cobblemon:textures/pokemon/novrai/soarup.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/soarup_shiny.png"
-    }  ]
+    }
+  ]
 }

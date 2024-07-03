@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_frosterror",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_frosterror",
       "texture": "cobblemon:textures/pokemon/lagoone/frosterror.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/frosterror_shiny.png"
-    }  ]
+    }
+  ]
 }

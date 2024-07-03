@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dorfin",
-  "nationalPokedexNumber": 2722,
+  "nationalPokedexNumber": 4708,
   "primaryType": "water",
   "abilities": [
     "waterveil",
@@ -50,7 +50,7 @@
   "moves": [
     "1:growl",
     "1:tackle",
-    "4:singsound",
+    "4:sing",
     "7:watergun",
     "13:watersport",
     "19:supersonic",
@@ -61,7 +61,7 @@
     "43:scald",
     "49:safeguard",
     "55:dive",
-    "58:perishsongsound",
+    "58:perishsong",
     "61:hydropump",
     "tm:headbutt",
     "tm:amnesia",

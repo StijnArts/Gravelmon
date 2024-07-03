@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_totter",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_totter",
       "texture": "cobblemon:textures/pokemon/sage/totter.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/totter_shiny.png"
-    }  ]
+    }
+  ]
 }

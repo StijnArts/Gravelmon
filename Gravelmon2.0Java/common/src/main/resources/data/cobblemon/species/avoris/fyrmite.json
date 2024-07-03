@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fyrmite",
-  "nationalPokedexNumber": 1577,
+  "nationalPokedexNumber": 2175,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -71,7 +71,7 @@
   ],
   "evolutions": [
     {
-      "id": "fyrmite_Carabomb",
+      "id": "fyrmite_carabomb",
       "variant": "level_up",
       "result": "Carabomb",
       "consumeHeldItem": false,

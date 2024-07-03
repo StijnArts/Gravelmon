@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_pyropteryx",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_pyropteryx",
       "texture": "cobblemon:textures/pokemon/flux/pyropteryx.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/pyropteryx_shiny.png"
-    }  ]
+    }
+  ]
 }

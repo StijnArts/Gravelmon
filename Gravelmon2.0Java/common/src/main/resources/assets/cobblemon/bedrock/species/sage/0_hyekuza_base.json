@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_hyekuza",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_hyekuza",
       "texture": "cobblemon:textures/pokemon/sage/hyekuza.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/hyekuza_shiny.png"
-    }  ]
+    }
+  ]
 }

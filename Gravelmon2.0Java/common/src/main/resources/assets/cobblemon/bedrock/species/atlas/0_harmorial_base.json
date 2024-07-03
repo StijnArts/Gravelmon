@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_harmorial",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_harmorial",
       "texture": "cobblemon:textures/pokemon/atlas/harmorial.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/harmorial_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "soakcuff",
-  "nationalPokedexNumber": 2512,
+  "nationalPokedexNumber": 4407,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -57,7 +57,7 @@
     "14:furyswipes",
     "16:smokescreen",
     "20:stealthrock",
-    "21:screechsound",
+    "21:screech",
     "25:poisongas",
     "27:waterpulse",
     "32:aquaring",

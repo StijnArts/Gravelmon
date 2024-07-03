@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_pounther",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_pounther",
       "texture": "cobblemon:textures/pokemon/sage/pounther.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/pounther_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyrall",
-  "nationalPokedexNumber": 2558,
+  "nationalPokedexNumber": 4453,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -60,7 +60,7 @@
     "50:flareblitz",
     "tm:hornattack",
     "tm:lick",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:rollout",
     "tm:magnitude",
     "tm:willowisp",

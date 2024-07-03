@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:eternalforest_antoldier",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_antoldier",
       "texture": "cobblemon:textures/pokemon/eternalforest/antoldier.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/eternalforest/antoldier_shiny.png"
-    }  ]
+    }
+  ]
 }

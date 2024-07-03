@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_acard",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_acard",
       "texture": "cobblemon:textures/pokemon/interregional/acard.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/acard_shiny.png"
-    }  ]
+    }
+  ]
 }

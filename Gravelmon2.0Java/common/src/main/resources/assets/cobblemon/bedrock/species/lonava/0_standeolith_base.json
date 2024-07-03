@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_standeolith",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_standeolith",
       "texture": "cobblemon:textures/pokemon/lonava/standeolith.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/standeolith_shiny.png"
-    }  ]
+    }
+  ]
 }

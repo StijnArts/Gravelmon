@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twinkluppy",
-  "nationalPokedexNumber": 2059,
+  "nationalPokedexNumber": 3622,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -48,18 +48,18 @@
     "water_1"
   ],
   "moves": [
-    "1:disarmingvoicesound",
+    "1:disarmingvoice",
     "1:growl",
     "1:pound",
     "1:watergun",
     "9:aquajet",
     "12:babydolleyes",
     "15:icywind",
-    "20:singsound",
+    "20:sing",
     "25:bubblebeam",
     "30:encore",
     "35:mistyterrain",
-    "40:hypervoicesound",
+    "40:hypervoice",
     "45:moonblast",
     "50:hydropump"  ],
   "labels": [

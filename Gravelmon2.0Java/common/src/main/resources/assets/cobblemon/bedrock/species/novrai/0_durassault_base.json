@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_durassault",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_durassault",
       "texture": "cobblemon:textures/pokemon/novrai/durassault.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/durassault_shiny.png"
-    }  ]
+    }
+  ]
 }

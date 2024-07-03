@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_dusmee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_dusmee",
       "texture": "cobblemon:textures/pokemon/xenoverse/dusmee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/dusmee_shiny.png"
-    }  ]
+    }
+  ]
 }

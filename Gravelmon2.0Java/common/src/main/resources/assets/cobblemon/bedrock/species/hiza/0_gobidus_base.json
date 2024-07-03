@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_gobidus",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_gobidus",
       "texture": "cobblemon:textures/pokemon/hiza/gobidus.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/gobidus_shiny.png"
-    }  ]
+    }
+  ]
 }

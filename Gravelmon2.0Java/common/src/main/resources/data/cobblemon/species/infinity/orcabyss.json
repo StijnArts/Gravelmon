@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "orcabyss",
-  "nationalPokedexNumber": 1458,
+  "nationalPokedexNumber": 1459,
   "primaryType": "water",
   "abilities": [
     "pressure",
@@ -76,7 +76,7 @@
     "76:recover",
     "82:waterspout",
     "88:memento",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:venoshock",

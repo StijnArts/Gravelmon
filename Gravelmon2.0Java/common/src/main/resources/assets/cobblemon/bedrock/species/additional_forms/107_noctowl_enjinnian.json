@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:noctowl",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "enjinnian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_enjinniannoctowl",
+      "texture": "cobblemon:textures/pokemon/generation2/enjinniannoctowl.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "enjinnian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation2_enjinniannoctowl",
+      "texture": "cobblemon:textures/pokemon/generation2/enjinniannoctowl_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.qamor.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class QamoranHitmontop extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranHitmontop(int dex) {
-        super(dex, "Hitmontop",
+    public QamoranHitmontop(String name, Aspect aspect) {
+        super(name, aspect, "Hitmontop",
                 Type.FIGHTING, Type.POISON,
                 new Stats(50,
                         72,

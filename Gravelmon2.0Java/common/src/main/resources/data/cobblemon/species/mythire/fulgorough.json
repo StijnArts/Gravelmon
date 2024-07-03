@@ -1,0 +1,167 @@
+{
+  "implemented": true,
+  "name": "fulgorough",
+  "nationalPokedexNumber": 3816,
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "abilities": [
+    "guts",
+    "noguard",
+    "h:defiant"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 87,
+    "defence": 60,
+    "special_attack": 85,
+    "special_defence": 60,
+    "speed": 118
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:slam",
+    "1:bugbuzz",
+    "1:partingshot",
+    "1:swagger",
+    "1:outrage",
+    "1:ragepowder",
+    "1:lunge",
+    "1:furycutter",
+    "1:dragonrush",
+    "1:dragonclaw",
+    "1:closecombat",
+    "1:detect",
+    "1:finalgambit",
+    "1:beatup",
+    "1:crunch",
+    "1:leer",
+    "1:mefirst",
+    "1:firstimpression",
+    "tm:megakick",
+    "tm:pinmissile",
+    "tm:hyperbeam",
+    "tm:screech",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:safeguard",
+    "tm:rest",
+    "tm:thief",
+    "tm:snore",
+    "tm:protect",
+    "tm:scaryface",
+    "tm:attract",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:beatup",
+    "tm:facade",
+    "tm:swift",
+    "tm:revenge",
+    "tm:brickbreak",
+    "tm:faketears",
+    "tm:uturn",
+    "tm:payback",
+    "tm:assurance",
+    "tm:fling",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:acrobatics",
+    "tm:retaliate",
+    "tm:snarl",
+    "tm:falseswipe",
+    "tm:brutalswing",
+    "tm:swordsdance",
+    "tm:flamethrower",
+    "tm:lowkick",
+    "tm:agility",
+    "tm:focusenergy",
+    "tm:leechlife",
+    "tm:substitute",
+    "tm:reversal",
+    "tm:outrage",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:batonpass",
+    "tm:crunch",
+    "tm:uproar",
+    "tm:taunt",
+    "tm:superpower",
+    "tm:dragonclaw",
+    "tm:bulkup",
+    "tm:dragondance",
+    "tm:closecombat",
+    "tm:xscissor",
+    "tm:bugbuzz",
+    "tm:dragonpulse",
+    "tm:nastyplot",
+    "tm:gunkshot",
+    "tm:ironhead",
+    "tm:grassknot",
+    "tm:foulplay",
+    "tm:workup",
+    "tm:throatchop",
+    "tm:dragonrage"  ],
+  "labels": [
+    "mythire",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.fulgorough.desc"
+  ],
+  "preEvolution": "hooligrub",
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_crocoxic",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_crocoxic",
       "texture": "cobblemon:textures/pokemon/hiza/crocoxic.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/crocoxic_shiny.png"
-    }  ]
+    }
+  ]
 }

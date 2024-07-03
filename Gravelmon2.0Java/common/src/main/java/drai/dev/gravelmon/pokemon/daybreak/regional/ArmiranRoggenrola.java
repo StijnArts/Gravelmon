@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.daybreak.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ArmiranRoggenrola extends Pokemon {
-    public ArmiranRoggenrola(int dexNo) {
-        super(dexNo,"ArmiranRoggenrola",
+    public ArmiranRoggenrola(String name, Aspect aspect) {
+        super(name, aspect,"ArmiranRoggenrola",
                 Type.GROUND, Type.GHOST,
                 new Stats(55, 25, 85, 25, 75, 15),
                 List.of(Ability.LEVITATE), Ability.SAND_STREAM,

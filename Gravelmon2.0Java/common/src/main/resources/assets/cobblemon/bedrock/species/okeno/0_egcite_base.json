@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_egcite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_egcite",
       "texture": "cobblemon:textures/pokemon/okeno/egcite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/egcite_shiny.png"
-    }  ]
+    }
+  ]
 }

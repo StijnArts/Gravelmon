@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_highraffe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_highraffe",
       "texture": "cobblemon:textures/pokemon/hiza/highraffe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/highraffe_shiny.png"
-    }  ]
+    }
+  ]
 }

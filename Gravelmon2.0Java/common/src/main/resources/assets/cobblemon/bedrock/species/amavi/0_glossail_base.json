@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_glossail",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_glossail",
       "texture": "cobblemon:textures/pokemon/amavi/glossail.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/glossail_shiny.png"
-    }  ]
+    }
+  ]
 }

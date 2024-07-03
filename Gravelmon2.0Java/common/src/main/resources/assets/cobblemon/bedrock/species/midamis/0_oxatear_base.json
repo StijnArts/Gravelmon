@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_oxatear",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_oxatear",
       "texture": "cobblemon:textures/pokemon/midamis/oxatear.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/oxatear_shiny.png"
-    }  ]
+    }
+  ]
 }

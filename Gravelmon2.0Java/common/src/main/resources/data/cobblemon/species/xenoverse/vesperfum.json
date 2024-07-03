@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vesperfum",
-  "nationalPokedexNumber": 1566,
+  "nationalPokedexNumber": 2163,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -87,7 +87,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:steelwing",
     "tm:energyball",
     "tm:skydrop",

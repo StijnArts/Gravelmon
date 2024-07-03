@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_puppanzee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_puppanzee",
       "texture": "cobblemon:textures/pokemon/novrai/puppanzee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/puppanzee_shiny.png"
-    }  ]
+    }
+  ]
 }

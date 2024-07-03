@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticMudkip extends Pokemon {
-    public MysticMudkip(int dexNo) {
-        super(dexNo,"MysticMudkip",
+    public MysticMudkip(String name, Aspect aspect) {
+        super(name, aspect,"MysticMudkip",
                 Type.FIGHTING,
                 new Stats(50, 70, 50, 40, 50, 50),
                 List.of(Ability.IMMUNITY), Ability.INNER_FOCUS,

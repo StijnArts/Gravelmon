@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_beacoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_beacoon",
       "texture": "cobblemon:textures/pokemon/varitas/beacoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/beacoon_shiny.png"
-    }  ]
+    }
+  ]
 }

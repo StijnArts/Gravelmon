@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_trouterror",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_trouterror",
       "texture": "cobblemon:textures/pokemon/hiza/trouterror.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/trouterror_shiny.png"
-    }  ]
+    }
+  ]
 }

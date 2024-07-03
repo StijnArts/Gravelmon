@@ -1,8 +1,11 @@
 package drai.dev.gravelmon.pokemon.vega;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import java.util.*;
+
 import java.util.*;
 
 public class Guldawn extends Pokemon {
@@ -86,7 +89,7 @@ public class Guldawn extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 45, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_DESERT)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_valvacid",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_valvacid",
       "texture": "cobblemon:textures/pokemon/okeno/valvacid.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/valvacid_shiny.png"
-    }  ]
+    }
+  ]
 }

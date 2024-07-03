@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:teranigrade",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "ice"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/vanguard/teranigrade.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ice",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/teranigrade_shiny.png"
+    }
+  ]
+}

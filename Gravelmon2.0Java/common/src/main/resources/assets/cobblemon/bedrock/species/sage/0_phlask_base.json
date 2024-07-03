@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_phlask",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_phlask",
       "texture": "cobblemon:textures/pokemon/sage/phlask.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/phlask_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_eruptide",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_eruptide",
       "texture": "cobblemon:textures/pokemon/novrai/eruptide.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/eruptide_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.qamor.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 public class QamoranDewgong extends Pokemon {
 
-    public QamoranDewgong(int dex) {
-        super(dex, "Psyduck",
+    public QamoranDewgong(String name, Aspect aspect) {
+        super(name, aspect, "Psyduck",
                 Type.WATER, Type.GRASS,
                 new Stats(90,
                         70,

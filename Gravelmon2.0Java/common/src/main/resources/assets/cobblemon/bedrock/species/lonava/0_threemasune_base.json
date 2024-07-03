@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_threemasune",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_threemasune",
       "texture": "cobblemon:textures/pokemon/lonava/threemasune.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/threemasune_shiny.png"
-    }  ]
+    }
+  ]
 }

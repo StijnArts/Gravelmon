@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltapidgeotto-1",
+      "pokemon": "pidgeotto delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "36-58",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "mythianpidgeotto-1",
+      "pokemon": "pidgeotto mythian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "36-58",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain",
+"#cobblemon:is_highlands" ],
+        "canSeeSky": true,
+        "isThundering": true
+      }
+    }
+,
+    {
+      "id": "ayreianpidgeotto-1",
+      "pokemon": "pidgeotto ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-35",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

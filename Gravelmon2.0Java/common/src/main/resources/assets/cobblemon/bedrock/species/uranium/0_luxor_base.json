@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_luxor",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_luxor",
       "texture": "cobblemon:textures/pokemon/uranium/luxor.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/luxor_shiny.png"
-    }  ]
+    }
+  ]
 }

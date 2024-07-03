@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticGrovyle extends Pokemon {
-    public MysticGrovyle(int dexNo) {
-        super(dexNo,"MysticGrovyle",
+    public MysticGrovyle(String name, Aspect aspect) {
+        super(name, aspect,"MysticGrovyle",
                 Type.FLYING, Type.FAIRY,
                 new Stats(50, 45, 65, 65, 85, 95),
                 List.of(Ability.LIMBER), Ability.REGENERATOR,

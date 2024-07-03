@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hikarabe",
-  "nationalPokedexNumber": 2977,
+  "nationalPokedexNumber": 4964,
   "primaryType": "bug",
   "abilities": [
     "sandrush",
@@ -70,10 +70,10 @@
     "tm:rest",
     "tm:falseswipe",
     "tm:endure",
-    "tm:bugbuzzsound",
+    "tm:bugbuzz",
     "tm:flash",
     "tm:xscissor",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:swagger",
     "tm:substitute",
     "tm:cut",

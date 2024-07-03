@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_candleru",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_candleru",
       "texture": "cobblemon:textures/pokemon/novrai/candleru.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/candleru_shiny.png"
-    }  ]
+    }
+  ]
 }

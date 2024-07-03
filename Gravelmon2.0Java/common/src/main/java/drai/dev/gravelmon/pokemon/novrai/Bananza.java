@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.novrai;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Bananza extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -119,7 +120,7 @@ public class Bananza extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 35, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_JUNGLE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

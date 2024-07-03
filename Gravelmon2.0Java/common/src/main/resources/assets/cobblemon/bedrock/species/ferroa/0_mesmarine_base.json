@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_mesmarine",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_mesmarine",
       "texture": "cobblemon:textures/pokemon/ferroa/mesmarine.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/mesmarine_shiny.png"
-    }  ]
+    }
+  ]
 }

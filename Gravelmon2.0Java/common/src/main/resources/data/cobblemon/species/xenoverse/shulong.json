@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shulong",
-  "nationalPokedexNumber": 1500,
+  "nationalPokedexNumber": 2090,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -104,7 +104,7 @@
     "tm:reflect",
     "tm:facade",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
     "tm:fling",
     "tm:shadowclaw",
@@ -128,8 +128,8 @@
     "tutor:irontail",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:velvetscales",
     "tutor:waterpulse"  ],
   "labels": [
@@ -140,9 +140,9 @@
   ],
   "evolutions": [
     {
-      "id": "shulong_shulongterrestrial",
+      "id": "shulong_shulong_terrestrial",
       "variant": "level_up",
-      "result": "shulongterrestrial",
+      "result": "shulong terrestrial",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -154,9 +154,9 @@
       "permanent": true   
  },
     {
-      "id": "shulong_shulongxenoversal",
+      "id": "shulong_shulong_xenoversal",
       "variant": "level_up",
-      "result": "shulongxenoversal",
+      "result": "shulong xenoversal",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -168,9 +168,9 @@
       "permanent": true   
  },
     {
-      "id": "shulong_shulongastral",
+      "id": "shulong_shulong_astral",
       "variant": "level_up",
-      "result": "shulongastral",
+      "result": "shulong astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -186,9 +186,9 @@
       "permanent": true   
  },
     {
-      "id": "shulong_shulongastral",
+      "id": "shulong_shulong_astral",
       "variant": "level_up",
-      "result": "shulongastral",
+      "result": "shulong astral",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

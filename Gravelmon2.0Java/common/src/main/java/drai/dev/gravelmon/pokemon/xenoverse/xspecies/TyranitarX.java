@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class TyranitarX extends Pokemon {
-    public TyranitarX(int dexNo) {
-        super(dexNo,"TyranitarX",
+    public TyranitarX(String name, Aspect aspect) {
+        super(name, aspect,"TyranitarX",
                 Type.ROCK, Type.BUG,
                 new Stats(100, 144, 120, 105, 110, 71),
                 List.of(Ability.SOLID_ROCK), Ability.SAND_STREAM,
@@ -99,5 +100,7 @@ public class TyranitarX extends Pokemon {
                 List.of());
         this.setLangFileName("Tyranitar");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("tyranitar", new EvolutionEntry("tyranitar x", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:inductive_ring"));
     }
 }

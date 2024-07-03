@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_dizzpin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_dizzpin",
       "texture": "cobblemon:textures/pokemon/ionos/dizzpin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/dizzpin_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "detritan",
-  "nationalPokedexNumber": 1381,
+  "nationalPokedexNumber": 1382,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
@@ -87,7 +87,7 @@
     "tm:rockslide",
     "tm:stoneedge",
     "tm:rocktomb",
-    "tm:powergemcrystal",
+    "tm:powergem",
     "tm:earthpower",
     "tm:poisonjab",
     "tm:venoshock",
@@ -101,7 +101,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:raindance",
     "tm:sandstorm",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_arugari",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_arugari",
       "texture": "cobblemon:textures/pokemon/deneb/arugari.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/arugari_shiny.png"
-    }  ]
+    }
+  ]
 }

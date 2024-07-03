@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "billilium",
-  "nationalPokedexNumber": 3021,
+  "nationalPokedexNumber": 5613,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
@@ -69,7 +69,7 @@
     "tm:yawn",
     "tm:shockwave",
     "tm:endeavor",
-    "tm:snoresound",
+    "tm:snore",
     "tm:rapidspin",
     "tm:heavyslam",
     "tm:steelbeam",
@@ -97,7 +97,7 @@
     "tm:rockslide",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:flashcannon",
     "tm:wildcharge",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_aquaff",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_aquaff",
       "texture": "cobblemon:textures/pokemon/midamis/aquaff.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/aquaff_shiny.png"
-    }  ]
+    }
+  ]
 }

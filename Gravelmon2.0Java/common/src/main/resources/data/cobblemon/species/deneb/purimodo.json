@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "purimodo",
-  "nationalPokedexNumber": 2812,
+  "nationalPokedexNumber": 4799,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -51,7 +51,7 @@
     "1:dazzlinggleam",
     "1:powdersnow",
     "1:harden",
-    "1:disarmingvoicesound",
+    "1:disarmingvoice",
     "1:hail",
     "6:hail",
     "11:drainingkiss",

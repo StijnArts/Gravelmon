@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "minusplus",
-  "nationalPokedexNumber": 1648,
+  "nationalPokedexNumber": 2246,
   "primaryType": "psychic",
   "abilities": [
     "levitate",
@@ -49,7 +49,7 @@
   "moves": [
     "1:psybeam",
     "1:confuseray",
-    "1:cosmicpowercosmic",
+    "1:cosmicpower",
     "1:calmmind"  ],
   "labels": [
     "oceane",

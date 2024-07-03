@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_cobrasket",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_cobrasket",
       "texture": "cobblemon:textures/pokemon/sage/cobrasket.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/cobrasket_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_gyroar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_gyroar",
       "texture": "cobblemon:textures/pokemon/isiah/gyroar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/gyroar_shiny.png"
-    }  ]
+    }
+  ]
 }

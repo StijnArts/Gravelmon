@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_altarath",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_altarath",
       "texture": "cobblemon:textures/pokemon/oceane/altarath.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/altarath_shiny.png"
-    }  ]
+    }
+  ]
 }

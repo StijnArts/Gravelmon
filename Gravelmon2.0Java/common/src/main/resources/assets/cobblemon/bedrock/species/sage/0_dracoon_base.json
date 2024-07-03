@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_dracoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_dracoon",
       "texture": "cobblemon:textures/pokemon/sage/dracoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/dracoon_shiny.png"
-    }  ]
+    }
+  ]
 }

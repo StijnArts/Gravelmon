@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_flowger",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_flowger",
       "texture": "cobblemon:textures/pokemon/sage/flowger.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/flowger_shiny.png"
-    }  ]
+    }
+  ]
 }

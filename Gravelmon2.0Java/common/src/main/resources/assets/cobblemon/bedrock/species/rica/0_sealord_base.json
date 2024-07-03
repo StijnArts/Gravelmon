@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_sealord",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_sealord",
       "texture": "cobblemon:textures/pokemon/rica/sealord.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/sealord_shiny.png"
-    }  ]
+    }
+  ]
 }

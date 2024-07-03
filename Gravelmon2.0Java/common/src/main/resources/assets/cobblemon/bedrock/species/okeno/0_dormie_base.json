@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_dormie",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_dormie",
       "texture": "cobblemon:textures/pokemon/okeno/dormie.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/dormie_shiny.png"
-    }  ]
+    }
+  ]
 }

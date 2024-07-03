@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mafreozee",
-  "nationalPokedexNumber": 2445,
+  "nationalPokedexNumber": 4340,
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
@@ -73,7 +73,7 @@
     "tm:hiddenpower",
     "tm:hyperbeam",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:brickbreak",
     "tm:chargebeam",
     "tm:thunderbolt",
@@ -90,7 +90,7 @@
     "tm:attract",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:reflect",
     "tm:lightscreen",

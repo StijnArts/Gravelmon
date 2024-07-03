@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianDhelmise extends Pokemon {
-    public SeviianDhelmise(int dexNo) {
-        super(dexNo, "SeviianDhelmise",
+    public SeviianDhelmise(String name, Aspect aspect) {
+        super(name, aspect,"SeviianDhelmise",
                 Type.WATER, Type.GRASS,
                 new Stats(90, 81, 105, 106, 95, 40),
                 List.of(Ability.SAP_SIPPER, Ability.GOOEY), Ability.TINTED_LENS,

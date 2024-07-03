@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_dauriasse",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_dauriasse",
       "texture": "cobblemon:textures/pokemon/midamis/dauriasse.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/dauriasse_shiny.png"
-    }  ]
+    }
+  ]
 }

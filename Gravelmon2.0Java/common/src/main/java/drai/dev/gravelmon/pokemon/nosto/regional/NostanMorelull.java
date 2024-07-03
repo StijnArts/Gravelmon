@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.nosto.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NostanMorelull extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NostanMorelull(int i) {
-        super(i, "Morelull",
+    public NostanMorelull(String name, Aspect aspect) {
+        super(name, aspect, "Morelull",
                 Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,

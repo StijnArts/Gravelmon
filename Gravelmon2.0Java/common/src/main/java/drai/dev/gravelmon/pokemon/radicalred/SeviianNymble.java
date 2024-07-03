@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianNymble extends Pokemon {
-    public SeviianNymble(int dexNo) {
-        super(dexNo, "SeviianNymble",
+    public SeviianNymble(String name, Aspect aspect) {
+        super(name, aspect,"SeviianNymble",
                 Type.BUG, Type.DRAGON,
                 new Stats(33, 46, 40, 21, 25, 45),
                 List.of(Ability.SWARM), Ability.TINTED_LENS,

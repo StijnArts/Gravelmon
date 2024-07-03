@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_mingola",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_mingola",
       "texture": "cobblemon:textures/pokemon/deneb/mingola.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/mingola_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:eternalforest_pomara",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:eternalforest_pomara",
       "texture": "cobblemon:textures/pokemon/eternalforest/pomara.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/eternalforest/pomara_shiny.png"
-    }  ]
+    }
+  ]
 }

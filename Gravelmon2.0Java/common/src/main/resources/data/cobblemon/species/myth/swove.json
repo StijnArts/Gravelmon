@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swove",
-  "nationalPokedexNumber": 2508,
+  "nationalPokedexNumber": 4403,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -49,12 +49,12 @@
   ],
   "moves": [
     "1:tackle",
-    "5:singsound",
+    "5:sing",
     "9:gust",
     "13:quickattack",
-    "17:sonicboomsound",
+    "17:sonicboom",
     "21:fairywind",
-    "25:disarmingvoicesound",
+    "25:disarmingvoice",
     "27:featherdance",
     "29:agility",
     "33:wingattack",

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoTotodile extends Pokemon {
-    public EghoTotodile(int dexNo) {
-        super(dexNo,"EghoTotodile",
+    public EghoTotodile(String name, Aspect aspect) {
+        super(name, aspect,"EghoTotodile",
                 Type.WATER, Type.POISON,
                 new Stats(45, 56, 45, 57, 42, 69),
                 List.of(Ability.MERCILESS), Ability.SPEED_BOOST,

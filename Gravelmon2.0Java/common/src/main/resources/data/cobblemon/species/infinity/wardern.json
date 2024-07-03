@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wardern",
-  "nationalPokedexNumber": 1445,
+  "nationalPokedexNumber": 1446,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -68,7 +68,7 @@
     "38:rockslide",
     "41:dualchop",
     "43:uproar",
-    "48:hypervoicesound",
+    "48:hypervoice",
     "51:dragonclaw",
     "57:stoneedge",
     "62:dragonrush",
@@ -96,8 +96,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:falseswipe",
     "tm:incinerate",
     "tm:acrobatics",

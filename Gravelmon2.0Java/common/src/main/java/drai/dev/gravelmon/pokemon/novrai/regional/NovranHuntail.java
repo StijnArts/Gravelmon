@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.novrai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHuntail extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHuntail(int dex) {
-        super(dex, "Huntail",
+    public NovranHuntail(String name, Aspect aspect) {
+        super(name, aspect, "Huntail",
                 Type.WATER, Type.DRAGON,
                 new Stats(55,
                         104,
@@ -124,6 +125,8 @@ public class NovranHuntail extends drai.dev.gravelmon.pokemon.Pokemon {
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);
+        addAdditionalEvolution("clamperl", new EvolutionEntry("huntail novran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:deep_sea_tooth\""))));
 
     }
 

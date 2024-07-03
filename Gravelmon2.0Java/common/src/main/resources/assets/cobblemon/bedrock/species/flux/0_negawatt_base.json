@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_negawatt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_negawatt",
       "texture": "cobblemon:textures/pokemon/flux/negawatt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/negawatt_shiny.png"
-    }  ]
+    }
+  ]
 }

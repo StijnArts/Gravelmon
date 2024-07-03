@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_selody",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_selody",
       "texture": "cobblemon:textures/pokemon/deneb/selody.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/selody_shiny.png"
-    }  ]
+    }
+  ]
 }

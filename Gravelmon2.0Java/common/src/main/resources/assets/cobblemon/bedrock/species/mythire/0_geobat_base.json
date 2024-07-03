@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_geobat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_geobat",
       "texture": "cobblemon:textures/pokemon/mythire/geobat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/geobat_shiny.png"
-    }  ]
+    }
+  ]
 }

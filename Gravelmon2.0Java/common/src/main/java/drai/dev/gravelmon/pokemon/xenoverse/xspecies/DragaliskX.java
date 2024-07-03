@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DragaliskX extends Pokemon {
-    public DragaliskX(int dexNo) {
-        super(dexNo,"DragaliskX",
+    public DragaliskX(String name, Aspect aspect) {
+        super(name, aspect,"DragaliskX",
                 Type.GROUND, Type.ICE,
                 new Stats(70, 170, 70, 170, 70, 130),
                 List.of(Ability.DREAD_SPACE), Ability.DREAD_SPACE,

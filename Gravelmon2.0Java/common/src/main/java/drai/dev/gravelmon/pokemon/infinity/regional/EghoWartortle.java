@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoWartortle extends Pokemon {
-    public EghoWartortle(int dexNo) {
-        super(dexNo,"EghoWartortle",
+    public EghoWartortle(String name, Aspect aspect) {
+        super(name, aspect,"EghoWartortle",
                 Type.WATER, Type.FLYING,
                 new Stats(59, 63, 80, 65, 80, 58),
                 List.of(Ability.SERENE_GRACE, Ability.OVERCOAT), Ability.OVERCOAT,

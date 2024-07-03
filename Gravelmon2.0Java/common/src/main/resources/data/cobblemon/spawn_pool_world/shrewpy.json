@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shrewpy-1",
+      "pokemon": "shrewpy",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "1-22",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

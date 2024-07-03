@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianCharmander extends Pokemon {
-    public AyreianCharmander(int dexNo) {
-        super(dexNo,"AyreianCharmander",
+    public AyreianCharmander(String name, Aspect aspect) {
+        super(name, aspect,"AyreianCharmander",
                 Type.FAIRY, Type.ROCK,
                 new Stats(59, 46, 43, 45, 56, 60),
                 List.of(Ability.FLUFFY, Ability.BERSERK), Ability.SHEER_FORCE,

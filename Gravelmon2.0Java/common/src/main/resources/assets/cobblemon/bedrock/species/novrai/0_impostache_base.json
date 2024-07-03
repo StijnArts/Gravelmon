@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_impostache",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_impostache",
       "texture": "cobblemon:textures/pokemon/novrai/impostache.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/impostache_shiny.png"
-    }  ]
+    }
+  ]
 }

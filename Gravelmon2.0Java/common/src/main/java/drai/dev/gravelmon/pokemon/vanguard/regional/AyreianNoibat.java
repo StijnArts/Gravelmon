@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianNoibat extends Pokemon {
-    public AyreianNoibat(int dexNo) {
-        super(dexNo,"AyreianNoibat",
+    public AyreianNoibat(String name, Aspect aspect) {
+        super(name, aspect,"AyreianNoibat",
                 Type.SOUND, Type.FAIRY,
                 new Stats(70,45,55,50,98,60),
                 List.of(Ability.MOLD_BREAKER, Ability.FRIEND_GUARD), Ability.TELEPATHY,

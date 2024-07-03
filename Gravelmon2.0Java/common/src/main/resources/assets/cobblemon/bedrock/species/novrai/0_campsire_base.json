@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_campsire",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_campsire",
       "texture": "cobblemon:textures/pokemon/novrai/campsire.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/campsire_shiny.png"
-    }  ]
+    }
+  ]
 }

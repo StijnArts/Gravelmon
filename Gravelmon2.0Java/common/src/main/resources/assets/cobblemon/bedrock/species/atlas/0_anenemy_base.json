@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_anenemy",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_anenemy",
       "texture": "cobblemon:textures/pokemon/atlas/anenemy.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/anenemy_shiny.png"
-    }  ]
+    }
+  ]
 }

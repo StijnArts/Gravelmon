@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_arrocknid",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_arrocknid",
       "texture": "cobblemon:textures/pokemon/orohn-havai/arrocknid.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/arrocknid_shiny.png"
-    }  ]
+    }
+  ]
 }

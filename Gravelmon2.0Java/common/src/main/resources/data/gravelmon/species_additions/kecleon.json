@@ -1,0 +1,21 @@
+{
+   "target": "cobblemon:kecleon",
+  "preEvolution": "keclekid",
+  "evolutions": [
+    {
+      "id": "kecleon_kecleodon",
+      "variant": "level_up",
+      "result": "kecleodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "thief"
+        }
+      ],
+      "permanent": true   
+ }
+  ]
+
+}

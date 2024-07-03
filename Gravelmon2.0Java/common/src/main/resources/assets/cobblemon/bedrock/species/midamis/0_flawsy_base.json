@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_flawsy",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_flawsy",
       "texture": "cobblemon:textures/pokemon/midamis/flawsy.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/flawsy_shiny.png"
-    }  ]
+    }
+  ]
 }

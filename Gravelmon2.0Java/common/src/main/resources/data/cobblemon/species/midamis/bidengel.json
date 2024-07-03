@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bidengel",
-  "nationalPokedexNumber": 2600,
+  "nationalPokedexNumber": 4495,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -60,7 +60,7 @@
     "32:recover",
     "36:dazzlinggleam",
     "41:tailwind",
-    "45:hypervoicesound",
+    "45:hypervoice",
     "49:futuresight",
     "tm:gust",
     "tm:psychic",

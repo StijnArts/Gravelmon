@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "flaero-1",
+      "pokemon": "flaero",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave",
+"#cobblemon:is_nether_forest" ]
+      }
+    }
+  ]
+}

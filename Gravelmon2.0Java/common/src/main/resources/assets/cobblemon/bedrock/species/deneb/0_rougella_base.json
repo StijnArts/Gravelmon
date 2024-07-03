@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_rougella",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_rougella",
       "texture": "cobblemon:textures/pokemon/deneb/rougella.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/rougella_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_pufluff",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_pufluff",
       "texture": "cobblemon:textures/pokemon/uranium/pufluff.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/pufluff_shiny.png"
-    }  ]
+    }
+  ]
 }

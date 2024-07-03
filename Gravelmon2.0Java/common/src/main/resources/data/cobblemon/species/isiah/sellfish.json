@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sellfish",
-  "nationalPokedexNumber": 2472,
+  "nationalPokedexNumber": 4367,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -56,7 +56,7 @@
     "12:scaryface",
     "16:bite",
     "20:icefang",
-    "24:screechsound",
+    "24:screech",
     "28:swagger",
     "32:crunch",
     "36:agility",

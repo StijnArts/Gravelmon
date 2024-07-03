@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_pipillar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_pipillar",
       "texture": "cobblemon:textures/pokemon/interregional/pipillar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/pipillar_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,318 @@
+{
+   "target": "cobblemon:yanma",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "abilities": [
+    "adaptability",
+    "leafguard",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 45,
+    "special_attack": 75,
+    "special_defence": 45,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 78,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:vinewhip",
+    "1:camouflage",
+    "6:gust",
+    "11:growth",
+    "14:razorleaf",
+    "17:detect",
+    "22:aircutter",
+    "27:leaftornado",
+    "30:pursuit",
+    "33:ancientpower",
+    "38:grasswhistle",
+    "43:airslash",
+    "46:worryseed",
+    "49:uturn",
+    "54:hurricane",
+    "57:leafstorm",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:roost",
+    "tm:energyball",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:acrobatics",
+    "tm:achillesheel",
+    "tm:silverwind",
+    "tm:skydrop",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:naturepower",
+    "tm:fly",
+    "tutor:acid",
+    "tutor:aircutter",
+    "tutor:ancientpower",
+    "tutor:bind",
+    "tutor:bounce",
+    "tutor:bugbite",
+    "tutor:bulletseed",
+    "tutor:covet",
+    "tutor:defog",
+    "tutor:dig",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:helpinghand",
+    "tutor:hurricane",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:snore",
+    "tutor:synthesis",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:worryseed"  ],
+  "labels": [
+    "gen2",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltayanma.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "yanma_yanmega_delta",
+      "variant": "level_up",
+      "result": "yanmega delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "ancientpower"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 12,
+  "weight": 380,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Kaskadian",
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "abilities": [
+    "swarm",
+    "magicguard",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 45,
+    "special_attack": 75,
+    "special_defence": 45,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 78,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:tackle",
+    "6:quickattack",
+    "11:doubleteam",
+    "14:dragonrage",
+    "17:detect",
+    "22:psybeam",
+    "27:uproar",
+    "30:bugbite",
+    "38:hypnosis",
+    "43:dragontail",
+    "46:screech",
+    "49:uturn",
+    "54:dragonpulse",
+    "57:bugbuzz",
+    "egg:doubleedge",
+    "egg:feint",
+    "egg:whirlwind",
+    "tm:takedown",
+    "tm:protect",
+    "tm:strugglebug",
+    "tm:thief",
+    "tm:pounce",
+    "tm:facade",
+    "tm:dragontail",
+    "tm:swift",
+    "tm:dragondance",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:uturn",
+    "tm:airslash",
+    "tm:sleeptalk",
+    "tm:rest",
+    "tm:swordsdance",
+    "tm:leechlife",
+    "tm:substitute",
+    "tm:gigadrain",
+    "tm:tailwind",
+    "tm:shadowball",
+    "tm:psychic",
+    "tm:reversal",
+    "tm:bugbuzz",
+    "tm:solarbeam",
+    "tm:terablast",
+    "tm:bugbite",
+    "tm:lunge",
+    "tm:uproar"  ],
+  "labels": [
+    "gen2",
+    "lockemon",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kaskadianyanma.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "yanma_yanmage",
+      "variant": "level_up",
+      "result": "yanmage",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dragonsdice"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 12,
+  "weight": 380,
+  "aspects": ["kaskadian"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta",
+"kaskadian"
+  ]
+}

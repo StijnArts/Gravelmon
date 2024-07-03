@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_chalker",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_chalker",
       "texture": "cobblemon:textures/pokemon/lonava/chalker.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/chalker_shiny.png"
-    }  ]
+    }
+  ]
 }

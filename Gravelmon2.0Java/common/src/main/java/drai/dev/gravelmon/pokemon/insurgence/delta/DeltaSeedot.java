@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class DeltaSeedot extends Pokemon {
-    public DeltaSeedot(int dexNo) {
-        super(dexNo,"DeltaSeedot",
+    public DeltaSeedot(String name, Aspect aspect) {
+        super(name, aspect,"DeltaSeedot",
                 Type.ELECTRIC,
                 new Stats(40, 40, 50, 30, 30, 30),
                 List.of(Ability.VOLT_ABSORB, Ability.MINUS), Ability.STATIC,

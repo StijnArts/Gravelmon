@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "muramoth",
-  "nationalPokedexNumber": 2178,
+  "nationalPokedexNumber": 3741,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -88,7 +88,7 @@
   "pokedex": [
     "cobblemon.species.muramoth.desc"
   ],
-  "preEvolution": "hoennianvenonat",
+  "preEvolution": "venonat form=hoennian",
   "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,

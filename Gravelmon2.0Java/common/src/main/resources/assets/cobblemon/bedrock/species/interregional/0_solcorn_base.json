@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_solcorn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_solcorn",
       "texture": "cobblemon:textures/pokemon/interregional/solcorn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/solcorn_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_fomen",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_fomen",
       "texture": "cobblemon:textures/pokemon/fliga/fomen.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/fomen_shiny.png"
-    }  ]
+    }
+  ]
 }

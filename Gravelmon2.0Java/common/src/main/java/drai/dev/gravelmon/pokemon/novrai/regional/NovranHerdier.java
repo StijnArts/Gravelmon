@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.novrai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHerdier extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHerdier(int dex) {
-        super(dex, "Herdier",
+    public NovranHerdier(String name, Aspect aspect) {
+        super(name, aspect, "Herdier",
                 Type.NORMAL, Type.ICE,
                 new Stats(65,
                         80,
@@ -105,6 +106,9 @@ public class NovranHerdier extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Herdier");
+        addAdditionalEvolution("lillipup", new EvolutionEntry("herdier novran", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SNOWY.getId() + ":" + Biome.IS_SNOWY.getName() +"\""))));
 
     }
 

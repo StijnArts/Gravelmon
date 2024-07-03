@@ -1,13 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import java.util.*;
+
 import java.util.*;
 
 public class EghoChikorita extends Pokemon {
-    public EghoChikorita(int dexNo) {
-        super(dexNo,"EghoChikorita",
+    public EghoChikorita(String name, Aspect aspect) {
+        super(name, aspect,"EghoChikorita",
                 Type.GRASS, Type.DRAGON,
                 new Stats(85, 10, 49, 65, 65, 44),
                 List.of(Ability.CHLOROPHYLL), Ability.REGENERATOR,
@@ -108,7 +111,7 @@ public class EghoChikorita extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:apple",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_JUNGLE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),

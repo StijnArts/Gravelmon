@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_djironn",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_djironn",
       "texture": "cobblemon:textures/pokemon/novrai/djironn.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/djironn_shiny.png"
-    }  ]
+    }
+  ]
 }

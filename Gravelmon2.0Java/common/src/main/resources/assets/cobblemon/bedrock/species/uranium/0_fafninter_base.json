@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_fafninter",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_fafninter",
       "texture": "cobblemon:textures/pokemon/uranium/fafninter.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/fafninter_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_minyan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_minyan",
       "texture": "cobblemon:textures/pokemon/flux/minyan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/minyan_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_jackdeary",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_jackdeary",
       "texture": "cobblemon:textures/pokemon/uranium/jackdeary.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/jackdeary_shiny.png"
-    }  ]
+    }
+  ]
 }

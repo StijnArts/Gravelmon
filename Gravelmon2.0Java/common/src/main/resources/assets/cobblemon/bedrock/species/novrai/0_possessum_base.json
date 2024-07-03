@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_possessum",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_possessum",
       "texture": "cobblemon:textures/pokemon/novrai/possessum.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/possessum_shiny.png"
-    }  ]
+    }
+  ]
 }

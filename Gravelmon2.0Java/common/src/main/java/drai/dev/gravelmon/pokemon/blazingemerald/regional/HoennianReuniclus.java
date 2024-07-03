@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianReuniclus extends Pokemon {
-    public HoennianReuniclus(int dexNo) {
-        super(dexNo,"HoennianReuniclus",
+    public HoennianReuniclus(String name, Aspect aspect) {
+        super(name, aspect,"HoennianReuniclus",
                 Type.PSYCHIC, Type.GRASS,
                 new Stats(80, 45, 105, 125, 90, 45),
                 List.of(Ability.FRUITRITION), Ability.FRUITRITION,

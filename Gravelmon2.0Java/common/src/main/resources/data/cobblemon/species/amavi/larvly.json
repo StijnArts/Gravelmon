@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "larvly",
-  "nationalPokedexNumber": 3058,
+  "nationalPokedexNumber": 5650,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -54,7 +54,7 @@
     "17:rollout",
     "19:bugbite",
     "23:gastroacid",
-    "26:snoresound",
+    "26:snore",
     "30:leechlife",
     "37:bodyslam",
     "42:naturalgift",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_duneon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_duneon",
       "texture": "cobblemon:textures/pokemon/myth/duneon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/duneon_shiny.png"
-    }  ]
+    }
+  ]
 }

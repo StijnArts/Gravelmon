@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SmoggyCastform extends Pokemon {
-    public SmoggyCastform(int dexNo) {
-        super(dexNo,"SmoggyCastform",
+    public SmoggyCastform(String name, Aspect aspect) {
+        super(name, aspect,"SmoggyCastform",
                 Type.POISON,
                 new Stats(70, 70, 70, 70, 70, 70),
                 List.of(Ability.FORECAST), Ability.FORECAST,

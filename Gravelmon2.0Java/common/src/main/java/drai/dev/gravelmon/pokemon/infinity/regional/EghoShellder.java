@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.infinity.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class EghoShellder extends Pokemon {
-    public EghoShellder(int dexNo) {
-        super(dexNo,"EghoShellder",
+    public EghoShellder(String name, Aspect aspect) {
+        super(name, aspect,"EghoShellder",
                 Type.WATER, Type.STEEL,
                 new Stats(52, 40, 70, 55, 57, 31),
                 List.of(Ability.IRON_BARBS), Ability.SUPER_LUCK,
@@ -108,5 +109,8 @@ public class EghoShellder extends Pokemon {
         this.setLangFileName("Shellder");
         this.setPortraitXYZ(0,1.8,0);
                 this.setPreEvolution("shellder");
+        addAdditionalEvolution("shellder", new EvolutionEntry("shellder egho", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:slowpoke_tail"));
+        addAdditionalItemDrop("slowpoke", "gravelmon:slowpoke_tail", null);
     }
 }

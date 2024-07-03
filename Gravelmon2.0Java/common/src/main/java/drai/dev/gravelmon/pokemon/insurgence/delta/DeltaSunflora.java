@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaSunflora extends Pokemon {
-    public DeltaSunflora(int dexNo) {
-        super(dexNo,"DeltaSunflora",
+    public DeltaSunflora(String name, Aspect aspect) {
+        super(name, aspect,"DeltaSunflora",
                 Type.FIRE, Type.POISON,
                 new Stats(75, 75,55,105,85,30),
                 List.of(Ability.FLAME_BODY, Ability.ANALYTIC), Ability.POISON_POINT,

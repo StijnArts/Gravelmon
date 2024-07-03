@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aviafel",
-  "nationalPokedexNumber": 2048,
+  "nationalPokedexNumber": 3611,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -71,7 +71,7 @@
     "tm:hiddenpower",
     "tm:hyperbeam",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:focusblast",
     "tm:uturn",
     "tm:infestation",
@@ -102,7 +102,7 @@
     "tm:doubleteam",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:workup",
@@ -114,7 +114,7 @@
     "tm:roost",
     "tm:defog",
     "tm:mistyterrain",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:wish",
     "tm:nastyplot"  ],
   "labels": [

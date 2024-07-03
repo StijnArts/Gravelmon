@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_fluffaux",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_fluffaux",
       "texture": "cobblemon:textures/pokemon/rica/fluffaux.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/fluffaux_shiny.png"
-    }  ]
+    }
+  ]
 }

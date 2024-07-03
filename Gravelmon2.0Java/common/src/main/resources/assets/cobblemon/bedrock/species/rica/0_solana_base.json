@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_solana",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_solana",
       "texture": "cobblemon:textures/pokemon/rica/solana.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/solana_shiny.png"
-    }  ]
+    }
+  ]
 }

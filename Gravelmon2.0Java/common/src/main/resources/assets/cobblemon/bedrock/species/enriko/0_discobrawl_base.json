@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_discobrawl",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_discobrawl",
       "texture": "cobblemon:textures/pokemon/enriko/discobrawl.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/discobrawl_shiny.png"
-    }  ]
+    }
+  ]
 }

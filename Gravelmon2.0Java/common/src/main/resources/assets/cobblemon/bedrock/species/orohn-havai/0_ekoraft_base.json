@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_ekoraft",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_ekoraft",
       "texture": "cobblemon:textures/pokemon/orohn-havai/ekoraft.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/ekoraft_shiny.png"
-    }  ]
+    }
+  ]
 }

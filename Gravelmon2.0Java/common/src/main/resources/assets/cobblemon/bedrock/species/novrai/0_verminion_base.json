@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_verminion",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_verminion",
       "texture": "cobblemon:textures/pokemon/novrai/verminion.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/verminion_shiny.png"
-    }  ]
+    }
+  ]
 }

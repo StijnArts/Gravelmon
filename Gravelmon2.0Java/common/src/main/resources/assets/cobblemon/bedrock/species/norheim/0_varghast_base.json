@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_varghast",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_varghast",
       "texture": "cobblemon:textures/pokemon/norheim/varghast.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/varghast_shiny.png"
-    }  ]
+    }
+  ]
 }

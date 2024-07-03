@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_caldona",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_caldona",
       "texture": "cobblemon:textures/pokemon/atlas/caldona.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/caldona_shiny.png"
-    }  ]
+    }
+  ]
 }

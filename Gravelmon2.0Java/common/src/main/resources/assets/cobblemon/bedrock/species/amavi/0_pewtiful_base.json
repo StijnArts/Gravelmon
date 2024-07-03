@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_pewtiful",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_pewtiful",
       "texture": "cobblemon:textures/pokemon/amavi/pewtiful.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/pewtiful_shiny.png"
-    }  ]
+    }
+  ]
 }

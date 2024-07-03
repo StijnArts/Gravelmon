@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.pokemon.okeno;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Mycerial extends drai.dev.gravelmon.pokemon.Pokemon {

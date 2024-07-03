@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaArcanine extends Pokemon {
-    public DeltaArcanine(int dexNo) {
-        super(dexNo,"DeltaArcanine",
+    public DeltaArcanine(String name, Aspect aspect) {
+        super(name, aspect,"DeltaArcanine",
                 Type.NORMAL, Type.DRAGON,
                 new Stats(90, 110, 80, 100, 80, 95),
                 List.of(Ability.INNER_FOCUS,Ability.INTIMIDATE), Ability.MULTISCALE,

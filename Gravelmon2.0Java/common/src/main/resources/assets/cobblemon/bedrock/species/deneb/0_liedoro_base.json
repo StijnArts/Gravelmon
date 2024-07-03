@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_liedoro",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_liedoro",
       "texture": "cobblemon:textures/pokemon/deneb/liedoro.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/liedoro_shiny.png"
-    }  ]
+    }
+  ]
 }

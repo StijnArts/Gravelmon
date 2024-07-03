@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.enriko;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Caecarette extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -45,7 +46,7 @@ public class Caecarette extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ENRIKO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_LAVA),

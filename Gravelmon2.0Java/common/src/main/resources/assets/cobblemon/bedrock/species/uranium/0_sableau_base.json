@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_sableau",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_sableau",
       "texture": "cobblemon:textures/pokemon/uranium/sableau.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/sableau_shiny.png"
-    }  ]
+    }
+  ]
 }

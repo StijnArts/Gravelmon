@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_munsun",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_munsun",
       "texture": "cobblemon:textures/pokemon/qamor/munsun.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/munsun_shiny.png"
-    }  ]
+    }
+  ]
 }

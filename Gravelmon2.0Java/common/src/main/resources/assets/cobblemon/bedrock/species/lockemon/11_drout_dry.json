@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:drout",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "dry"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lockemon/drout.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "dry",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lockemon/drout_shiny.png"
+    }
+  ]
+}

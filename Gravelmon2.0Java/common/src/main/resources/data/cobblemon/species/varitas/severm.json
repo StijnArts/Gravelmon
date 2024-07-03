@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "severm",
-  "nationalPokedexNumber": 1755,
+  "nationalPokedexNumber": 2353,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -81,8 +81,8 @@
     "tm:raindance",
     "tm:rest",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:sludgebomb",
     "tm:substitute",
     "tm:swagger",

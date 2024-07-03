@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_geropian",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_geropian",
       "texture": "cobblemon:textures/pokemon/midamis/geropian.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/geropian_shiny.png"
-    }  ]
+    }
+  ]
 }

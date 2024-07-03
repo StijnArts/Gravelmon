@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_novagon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_novagon",
       "texture": "cobblemon:textures/pokemon/hiza/novagon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/novagon_shiny.png"
-    }  ]
+    }
+  ]
 }

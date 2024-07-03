@@ -1,0 +1,116 @@
+{
+  "implemented": true,
+  "name": "bunbrisk",
+  "nationalPokedexNumber": 4075,
+  "primaryType": "ice",
+  "secondaryType": "normal",
+  "abilities": [
+    "scrappy",
+    "h:slushrush"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 77,
+    "defence": 60,
+    "special_attack": 70,
+    "special_defence": 63,
+    "speed": 72
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 147,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:foreign_hat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:slash",
+    "16:mist",
+    "20:icefang",
+    "25:iciclespear",
+    "30:aerialace",
+    "36:hyperfang",
+    "42:leafblade",
+    "46:swordsdance",
+    "50:sacredsword"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bunbrisk.desc"
+  ],
+  "preEvolution": "frodent",
+  "evolutions": [
+    {
+      "id": "bunbrisk_wintweasel",
+      "variant": "item_interact",
+      "result": "wintweasel",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:foreign_hat",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

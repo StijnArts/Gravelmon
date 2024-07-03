@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_strikoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_strikoon",
       "texture": "cobblemon:textures/pokemon/norheim/strikoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/strikoon_shiny.png"
-    }  ]
+    }
+  ]
 }

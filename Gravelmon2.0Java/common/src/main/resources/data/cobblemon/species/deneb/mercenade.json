@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mercenade",
-  "nationalPokedexNumber": 2878,
+  "nationalPokedexNumber": 4865,
   "primaryType": "steel",
   "secondaryType": "fighting",
   "abilities": [
@@ -114,7 +114,7 @@
     "egg:psychocut",
     "egg:rage",
     "egg:raindance",
-    "egg:roarsound",
+    "egg:roar",
     "egg:rocktomb",
     "egg:sandstorm",
     "egg:slam",

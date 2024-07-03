@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_frazzelle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_frazzelle",
       "texture": "cobblemon:textures/pokemon/hiza/frazzelle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/frazzelle_shiny.png"
-    }  ]
+    }
+  ]
 }

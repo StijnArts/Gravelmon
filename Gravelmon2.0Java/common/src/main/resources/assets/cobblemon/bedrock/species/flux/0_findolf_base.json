@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_findolf",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_findolf",
       "texture": "cobblemon:textures/pokemon/flux/findolf.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/findolf_shiny.png"
-    }  ]
+    }
+  ]
 }

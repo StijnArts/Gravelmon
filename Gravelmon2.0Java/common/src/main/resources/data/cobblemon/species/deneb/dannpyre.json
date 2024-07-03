@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dannpyre",
-  "nationalPokedexNumber": 2898,
+  "nationalPokedexNumber": 4885,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -63,7 +63,7 @@
     "42:airslash",
     "47:nightmare",
     "50:nastyplot",
-    "56:wormholecosmic",
+    "56:wormhole",
     "tutor:snarl",
     "tutor:teeterdance",
     "tutor:poisonfang",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_frutifeye",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_frutifeye",
       "texture": "cobblemon:textures/pokemon/okeno/frutifeye.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/frutifeye_shiny.png"
-    }  ]
+    }
+  ]
 }

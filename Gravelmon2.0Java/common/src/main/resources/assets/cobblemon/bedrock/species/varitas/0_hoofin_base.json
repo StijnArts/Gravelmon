@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_hoofin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_hoofin",
       "texture": "cobblemon:textures/pokemon/varitas/hoofin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/hoofin_shiny.png"
-    }  ]
+    }
+  ]
 }

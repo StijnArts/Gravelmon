@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_terramite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_terramite",
       "texture": "cobblemon:textures/pokemon/midamis/terramite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/terramite_shiny.png"
-    }  ]
+    }
+  ]
 }

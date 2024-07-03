@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianMagneton extends Pokemon {
-    public AyreianMagneton(int dexNo) {
-        super(dexNo,"AyreianMagneton",
+    public AyreianMagneton(String name, Aspect aspect) {
+        super(name, aspect,"AyreianMagneton",
                 Type.FIRE, Type.STEEL,
                 new Stats(50,60,65,90,120,80),
                 List.of(Ability.FLAME_BODY, Ability.MAGNET_PULL), Ability.TRANSISTOR,

@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ionos.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianSnorlax extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianSnorlax(int dex) {
-        super(dex, "Snorlax",
+    public IonosianSnorlax(String name, Aspect aspect) {
+        super(name, aspect, "Snorlax",
                 Type.GRASS, Type.NORMAL,
                 new Stats(0,
                         0,

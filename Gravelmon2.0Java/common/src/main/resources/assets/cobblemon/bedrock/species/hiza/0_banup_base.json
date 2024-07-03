@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_banup",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_banup",
       "texture": "cobblemon:textures/pokemon/hiza/banup.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/banup_shiny.png"
-    }  ]
+    }
+  ]
 }

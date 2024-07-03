@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianCubone extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianCubone(int dex) {
-        super(dex, "VaritasianCubone",
+    public VaritasianCubone(String name, Aspect aspect) {
+        super(name, aspect, "VaritasianCubone",
                 Type.DARK, Type.FLYING,
                 new Stats(50,
                         50,

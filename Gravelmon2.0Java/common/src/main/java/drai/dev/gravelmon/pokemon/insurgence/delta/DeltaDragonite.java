@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaDragonite extends Pokemon {
-    public DeltaDragonite(int dexNo) {
-        super(dexNo,"DeltaDragonite",
+    public DeltaDragonite(String name, Aspect aspect) {
+        super(name, aspect,"DeltaDragonite",
                 Type.WATER, Type.ELECTRIC,
                 new Stats(91, 134, 95, 100, 100, 80),
                 List.of(Ability.SWIFT_SWIM), Ability.VOLT_ABSORB,

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_chulee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_chulee",
       "texture": "cobblemon:textures/pokemon/midamis/chulee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/chulee_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_tentalcyon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_tentalcyon",
       "texture": "cobblemon:textures/pokemon/oceane/tentalcyon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/tentalcyon_shiny.png"
-    }  ]
+    }
+  ]
 }

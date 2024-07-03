@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_corsuave",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_corsuave",
       "texture": "cobblemon:textures/pokemon/flux/corsuave.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/corsuave_shiny.png"
-    }  ]
+    }
+  ]
 }

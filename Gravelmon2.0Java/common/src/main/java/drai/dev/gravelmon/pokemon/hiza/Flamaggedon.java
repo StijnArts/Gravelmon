@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.hiza;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Flamaggedon extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -87,7 +88,7 @@ public class Flamaggedon extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.HIZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_THERMAL)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

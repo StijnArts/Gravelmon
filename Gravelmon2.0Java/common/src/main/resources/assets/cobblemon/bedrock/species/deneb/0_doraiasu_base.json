@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_doraiasu",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_doraiasu",
       "texture": "cobblemon:textures/pokemon/deneb/doraiasu.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/doraiasu_shiny.png"
-    }  ]
+    }
+  ]
 }

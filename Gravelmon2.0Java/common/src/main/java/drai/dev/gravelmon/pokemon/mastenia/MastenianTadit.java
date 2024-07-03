@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.mastenia;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class MastenianTadit extends drai.dev.gravelmon.pokemon.Pokemon {
-    public MastenianTadit(int dex) {
-        super(dex, "Tadit",
+    public MastenianTadit(String name, Aspect aspect) {
+        super(name, aspect, "Tadit",
                 Type.POISON, Type.DRAGON,
                 new Stats(0,
                         0,

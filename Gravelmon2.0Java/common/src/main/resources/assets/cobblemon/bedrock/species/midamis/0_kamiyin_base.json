@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_kamiyin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_kamiyin",
       "texture": "cobblemon:textures/pokemon/midamis/kamiyin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/kamiyin_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_wispern",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_wispern",
       "texture": "cobblemon:textures/pokemon/sage/wispern.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/wispern_shiny.png"
-    }  ]
+    }
+  ]
 }

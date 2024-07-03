@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.novrai;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Fistiscuff extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -24,7 +25,7 @@ public class Fistiscuff extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It has tremendous strength, but it will never attack an opponent unless hit first. If it sees another Pokemon being bullied, it will take it upon itself to break up the conflict."),
                 List.of(new EvolutionEntry("elegent", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,5),

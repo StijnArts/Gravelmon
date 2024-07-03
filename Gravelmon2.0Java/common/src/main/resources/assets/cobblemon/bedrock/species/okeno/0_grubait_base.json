@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_grubait",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_grubait",
       "texture": "cobblemon:textures/pokemon/okeno/grubait.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/grubait_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_asphere",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_asphere",
       "texture": "cobblemon:textures/pokemon/deneb/asphere.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/asphere_shiny.png"
-    }  ]
+    }
+  ]
 }

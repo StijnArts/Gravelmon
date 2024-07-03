@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_surgeskit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_surgeskit",
       "texture": "cobblemon:textures/pokemon/norheim/surgeskit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/surgeskit_shiny.png"
-    }  ]
+    }
+  ]
 }

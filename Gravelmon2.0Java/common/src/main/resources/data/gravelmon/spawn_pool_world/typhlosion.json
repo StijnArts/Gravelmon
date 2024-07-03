@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "eghotyphlosion-1",
+      "pokemon": "typhlosion egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "14-27",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain",
+"#cobblemon:is_hills",
+"#cobblemon:is_highlands" ],
+        "isThundering": true,
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltatyphlosion-1",
+      "pokemon": "typhlosion delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "36-54",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "isThundering": true
+      }
+    }
+,
+    {
+      "id": "ayreiantyphlosion-1",
+      "pokemon": "typhlosion ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-47",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+
+]
+}

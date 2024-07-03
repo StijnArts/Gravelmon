@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_pearry",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_pearry",
       "texture": "cobblemon:textures/pokemon/kuria/pearry.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/pearry_shiny.png"
-    }  ]
+    }
+  ]
 }

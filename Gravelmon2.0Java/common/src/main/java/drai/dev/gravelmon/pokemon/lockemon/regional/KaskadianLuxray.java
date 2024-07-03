@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianLuxray extends Pokemon {
-    public KaskadianLuxray(int dexNo) {
-        super(dexNo,"KaskadianLuxray",
+    public KaskadianLuxray(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianLuxray",
                 Type.ICE, Type.ELECTRIC,
                 new Stats(80, 117,80,65,80,101),
                 List.of(Ability.FUR_COAT, Ability.MOXIE), Ability.SLUSH_RUSH,

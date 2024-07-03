@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "astrem",
-  "nationalPokedexNumber": 1495,
+  "nationalPokedexNumber": 1685,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -58,9 +58,9 @@
     "1:growl",
     "1:aurasphere",
     "1:earthpower",
-    "1:howlsound",
+    "1:howl",
     "5:psybeam",
-    "9:roarsound",
+    "9:roar",
     "13:hypnosis",
     "17:dreameater",
     "21:dazzlinggleam",
@@ -71,7 +71,7 @@
     "58:calmmind",
     "66:futuresight",
     "73:airslash",
-    "80:cosmicpowercosmic",
+    "80:cosmicpower",
     "90:recover"  ],
   "labels": [
     "opal",

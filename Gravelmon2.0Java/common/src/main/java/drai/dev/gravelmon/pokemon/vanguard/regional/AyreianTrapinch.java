@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianTrapinch extends Pokemon {
-    public AyreianTrapinch(int dexNo) {
-        super(dexNo,"AyreianTrapinch",
+    public AyreianTrapinch(String name, Aspect aspect) {
+        super(name, aspect,"AyreianTrapinch",
                 Type.BUG, Type.POISON,
                 new Stats(45,35,45,10,65,45),
                 List.of(Ability.CORROSION), Ability.CORROSION,

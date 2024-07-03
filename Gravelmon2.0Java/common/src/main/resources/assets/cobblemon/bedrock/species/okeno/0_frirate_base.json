@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_frirate",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_frirate",
       "texture": "cobblemon:textures/pokemon/okeno/frirate.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/frirate_shiny.png"
-    }  ]
+    }
+  ]
 }

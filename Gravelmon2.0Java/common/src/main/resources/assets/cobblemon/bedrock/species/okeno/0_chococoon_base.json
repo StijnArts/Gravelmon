@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_chococoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_chococoon",
       "texture": "cobblemon:textures/pokemon/okeno/chococoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/chococoon_shiny.png"
-    }  ]
+    }
+  ]
 }

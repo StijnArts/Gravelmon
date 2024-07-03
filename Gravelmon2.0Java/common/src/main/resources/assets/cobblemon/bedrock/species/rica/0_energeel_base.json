@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_energeel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_energeel",
       "texture": "cobblemon:textures/pokemon/rica/energeel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/energeel_shiny.png"
-    }  ]
+    }
+  ]
 }

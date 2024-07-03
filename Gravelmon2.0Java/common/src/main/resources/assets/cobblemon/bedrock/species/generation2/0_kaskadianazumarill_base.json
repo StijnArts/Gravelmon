@@ -4,15 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:generation2_kaskadianazumarill",
       "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation2/kaskadianazumarill.png",
+      "poser": "cobblemon:replacement_poser",
+      "texture": "cobblemon:textures/pokemon/evolve_me.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation2/kaskadianazumarill_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/evolve_me.png"
+    }
+  ]
 }

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreianarcheops-1",
+      "pokemon": "archeops ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "9-32",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush" ],
+        "canSeeSky": false
+      }
+    }
+
+]
+}

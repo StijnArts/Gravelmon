@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_sunankusu",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_sunankusu",
       "texture": "cobblemon:textures/pokemon/deneb/sunankusu.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/sunankusu_shiny.png"
-    }  ]
+    }
+  ]
 }

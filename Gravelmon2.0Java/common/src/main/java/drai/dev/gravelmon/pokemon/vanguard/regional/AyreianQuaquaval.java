@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianQuaquaval extends Pokemon {
-    public AyreianQuaquaval(int dexNo) {
-        super(dexNo,"AyreianQuaquaval",
+    public AyreianQuaquaval(String name, Aspect aspect) {
+        super(name, aspect,"AyreianQuaquaval",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(90,110,65,95,100,70),
                 List.of(Ability.TORRENT, Ability.MINDTUNING ), Ability.TECHNICIAN,

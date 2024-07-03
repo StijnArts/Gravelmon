@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_pyrebolt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_pyrebolt",
       "texture": "cobblemon:textures/pokemon/hiza/pyrebolt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/pyrebolt_shiny.png"
-    }  ]
+    }
+  ]
 }

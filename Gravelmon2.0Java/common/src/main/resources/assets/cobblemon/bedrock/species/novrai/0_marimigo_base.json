@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_marimigo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_marimigo",
       "texture": "cobblemon:textures/pokemon/novrai/marimigo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/marimigo_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cradecart",
-  "nationalPokedexNumber": 2205,
+  "nationalPokedexNumber": 4100,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -91,12 +91,12 @@
     "tutor:return",
     "tutor:rocksmash",
     "tutor:rocktomb",
-    "tutor:roundsound",
+    "tutor:round",
     "tutor:shadowclaw",
     "tutor:skittersmack",
-    "tutor:sleeptalksound",
+    "tutor:sleeptalk",
     "tutor:smackdown",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:solarbeam",
     "tutor:solarblade",
     "tutor:spikes",
@@ -124,7 +124,7 @@
   "pokedex": [
     "cobblemon.species.cradecart.desc"
   ],
-  "preEvolution": "ayreiandwebble",
+  "preEvolution": "dwebble form=ayreian",
   "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,

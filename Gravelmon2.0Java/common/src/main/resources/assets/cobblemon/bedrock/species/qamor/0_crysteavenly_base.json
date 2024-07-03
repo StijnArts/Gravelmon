@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_crysteavenly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_crysteavenly",
       "texture": "cobblemon:textures/pokemon/qamor/crysteavenly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/crysteavenly_shiny.png"
-    }  ]
+    }
+  ]
 }

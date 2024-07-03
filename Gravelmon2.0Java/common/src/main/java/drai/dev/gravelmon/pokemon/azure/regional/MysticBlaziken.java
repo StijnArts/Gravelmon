@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticBlaziken extends Pokemon {
-    public MysticBlaziken(int dexNo) {
-        super(dexNo,"MysticBlaziken",
+    public MysticBlaziken(String name, Aspect aspect) {
+        super(name, aspect,"MysticBlaziken",
                 Type.ROCK, Type.POISON,
                 new Stats(80, 110, 120, 70, 80, 70),
                 List.of(Ability.INSOMNIA), Ability.MERCILESS,

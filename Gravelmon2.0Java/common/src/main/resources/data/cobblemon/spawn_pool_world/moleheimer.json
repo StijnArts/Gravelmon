@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "moleheimer-1",
+      "pokemon": "moleheimer",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "32-54",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": false
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_summer",
+"#cobblemon:is_spring" ]    }
+    }
+  ]
+}

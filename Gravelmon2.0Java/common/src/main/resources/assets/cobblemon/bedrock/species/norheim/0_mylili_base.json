@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_mylili",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_mylili",
       "texture": "cobblemon:textures/pokemon/norheim/mylili.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/mylili_shiny.png"
-    }  ]
+    }
+  ]
 }

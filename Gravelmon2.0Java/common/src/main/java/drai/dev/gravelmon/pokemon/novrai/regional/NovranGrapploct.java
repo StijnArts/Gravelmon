@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.novrai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NovranGrapploct extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranGrapploct(int dex) {
-        super(dex, "Grapploct",
+    public NovranGrapploct(String name, Aspect aspect) {
+        super(name, aspect, "Grapploct",
                 Type.FIGHTING, Type.POISON,
                 new Stats(80,
                         118,

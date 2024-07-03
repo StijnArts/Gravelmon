@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_darscale",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_darscale",
       "texture": "cobblemon:textures/pokemon/rica/darscale.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/darscale_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianMantine extends Pokemon {
-    public SeviianMantine(int dexNo) {
-        super(dexNo, "SeviianMantine",
+    public SeviianMantine(String name, Aspect aspect) {
+        super(name, aspect,"SeviianMantine",
                 Type.ELECTRIC, Type.POISON,
                 new Stats(80, 30, 70, 100, 120, 100),
                 List.of(Ability.STATIC, Ability.STORM_DRAIN), Ability.HYDRATION,

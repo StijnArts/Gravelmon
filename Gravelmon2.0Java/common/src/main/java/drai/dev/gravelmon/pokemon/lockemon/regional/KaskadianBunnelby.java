@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianBunnelby extends Pokemon {
-    public KaskadianBunnelby(int dexNo) {
-        super(dexNo,"KaskadianBunnelby",
+    public KaskadianBunnelby(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianBunnelby",
                 Type.ICE, Type.NORMAL,
                 new Stats(38, 36, 38, 32, 36, 57),
                 List.of(Ability.SLUSH_RUSH, Ability.ICE_BODY), Ability.HUGE_POWER,

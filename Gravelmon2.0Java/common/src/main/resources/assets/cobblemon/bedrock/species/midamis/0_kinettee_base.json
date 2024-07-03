@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_kinettee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_kinettee",
       "texture": "cobblemon:textures/pokemon/midamis/kinettee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/kinettee_shiny.png"
-    }  ]
+    }
+  ]
 }

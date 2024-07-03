@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_fafurr",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_fafurr",
       "texture": "cobblemon:textures/pokemon/uranium/fafurr.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/fafurr_shiny.png"
-    }  ]
+    }
+  ]
 }

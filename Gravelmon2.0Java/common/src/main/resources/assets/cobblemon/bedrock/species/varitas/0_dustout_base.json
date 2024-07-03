@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_dustout",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_dustout",
       "texture": "cobblemon:textures/pokemon/varitas/dustout.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/dustout_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_hangrove",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_hangrove",
       "texture": "cobblemon:textures/pokemon/enriko/hangrove.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/hangrove_shiny.png"
-    }  ]
+    }
+  ]
 }

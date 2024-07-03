@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaDodrio extends Pokemon {
-    public DeltaDodrio(int dexNo) {
-        super(dexNo,"DeltaDodrio",
+    public DeltaDodrio(String name, Aspect aspect) {
+        super(name, aspect,"DeltaDodrio",
                 Type.PSYCHIC,
                 new Stats(60, 110, 70, 60, 60, 100),
                 List.of(Ability.COMPOUND_EYES, Ability.TRACE), Ability.PSYCHO_CALL,

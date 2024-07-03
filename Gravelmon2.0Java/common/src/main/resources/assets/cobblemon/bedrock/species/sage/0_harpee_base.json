@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_harpee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_harpee",
       "texture": "cobblemon:textures/pokemon/sage/harpee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/harpee_shiny.png"
-    }  ]
+    }
+  ]
 }

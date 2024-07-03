@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_howlequin",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_howlequin",
       "texture": "cobblemon:textures/pokemon/sage/howlequin.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/howlequin_shiny.png"
-    }  ]
+    }
+  ]
 }

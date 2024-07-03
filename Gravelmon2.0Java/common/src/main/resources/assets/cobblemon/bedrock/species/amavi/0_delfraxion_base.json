@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_delfraxion",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_delfraxion",
       "texture": "cobblemon:textures/pokemon/amavi/delfraxion.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/delfraxion_shiny.png"
-    }  ]
+    }
+  ]
 }

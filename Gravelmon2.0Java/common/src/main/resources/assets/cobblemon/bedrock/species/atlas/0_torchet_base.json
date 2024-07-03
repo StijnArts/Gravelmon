@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_torchet",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_torchet",
       "texture": "cobblemon:textures/pokemon/atlas/torchet.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/torchet_shiny.png"
-    }  ]
+    }
+  ]
 }

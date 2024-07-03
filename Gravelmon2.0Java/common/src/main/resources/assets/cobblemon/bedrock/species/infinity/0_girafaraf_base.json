@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_girafaraf",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_girafaraf",
       "texture": "cobblemon:textures/pokemon/infinity/girafaraf.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/girafaraf_shiny.png"
-    }  ]
+    }
+  ]
 }

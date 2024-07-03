@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_droudrop",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_droudrop",
       "texture": "cobblemon:textures/pokemon/deneb/droudrop.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/droudrop_shiny.png"
-    }  ]
+    }
+  ]
 }

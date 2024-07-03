@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aridart",
-  "nationalPokedexNumber": 1605,
+  "nationalPokedexNumber": 2203,
   "primaryType": "rock",
   "secondaryType": "normal",
   "abilities": [
@@ -90,7 +90,7 @@
         },
         {
           "variant": "time_range",
-          "range": day
+          "range": "day"
         }
       ],
       "permanent": true   

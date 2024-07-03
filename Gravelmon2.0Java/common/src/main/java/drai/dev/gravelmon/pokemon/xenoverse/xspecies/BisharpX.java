@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class BisharpX extends Pokemon {
-    public BisharpX(int dexNo) {
-        super(dexNo,"BisharpX",
+    public BisharpX(String name, Aspect aspect) {
+        super(name, aspect,"BisharpX",
                 Type.FIRE, Type.STEEL,
                 new Stats(130, 125, 100, 60, 70, 70),
                 List.of(Ability.STURDY), Ability.UNBURDEN,
@@ -81,5 +82,7 @@ public class BisharpX extends Pokemon {
                 List.of());
         this.setLangFileName("Bisharp");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("Bisharp", new EvolutionEntry("Bisharp x", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:inductive_ring"));
     }
 }

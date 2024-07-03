@@ -2,6 +2,7 @@ package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;

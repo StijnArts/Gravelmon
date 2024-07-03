@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_whipcrat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_whipcrat",
       "texture": "cobblemon:textures/pokemon/enriko/whipcrat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/whipcrat_shiny.png"
-    }  ]
+    }
+  ]
 }

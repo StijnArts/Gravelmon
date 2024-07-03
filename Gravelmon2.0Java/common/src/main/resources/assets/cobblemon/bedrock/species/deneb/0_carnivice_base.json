@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_carnivice",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_carnivice",
       "texture": "cobblemon:textures/pokemon/deneb/carnivice.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/carnivice_shiny.png"
-    }  ]
+    }
+  ]
 }

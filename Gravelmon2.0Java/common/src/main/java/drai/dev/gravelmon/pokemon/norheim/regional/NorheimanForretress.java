@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanForretress extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanForretress(int i, Stats stats) {
-        super(i, "Forretress",
+    public NorheimanForretress(String name, Aspect aspect, Stats stats) {
+        super(name, aspect, "Forretress",
                 Type.BUG, Type.FIRE,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,

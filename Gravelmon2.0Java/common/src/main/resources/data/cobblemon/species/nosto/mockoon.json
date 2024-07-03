@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mockoon",
-  "nationalPokedexNumber": 2011,
+  "nationalPokedexNumber": 3574,
   "primaryType": "bug",
   "abilities": [
     "shedskin",
@@ -52,7 +52,7 @@
     "15:meanlook",
     "21:glare",
     "tm:skittersmack",
-    "tm:snoresound",
+    "tm:snore",
     "tm:irondefense",
     "tm:infestation",
     "tm:attract",
@@ -63,8 +63,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

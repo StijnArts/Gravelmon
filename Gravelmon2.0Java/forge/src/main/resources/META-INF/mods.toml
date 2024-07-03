@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="MPL2.0"
-issueTrackerURL="https://Arcaryx/Cobblemon-Integrations/issues"
+issueTrackerURL=""
 [[mods]]
 modId="gravelmon"
 version="${mod_version}"
@@ -24,7 +24,7 @@ side="BOTH"
 [[dependencies.gravelmon]]
 modId="cobblemon"
 mandatory=true
-versionRange="[1.5,)"
+versionRange="[1.5.2,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.gravelmon]]

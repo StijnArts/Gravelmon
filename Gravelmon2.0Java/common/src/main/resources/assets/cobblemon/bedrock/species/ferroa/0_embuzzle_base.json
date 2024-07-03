@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_embuzzle",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_embuzzle",
       "texture": "cobblemon:textures/pokemon/ferroa/embuzzle.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/embuzzle_shiny.png"
-    }  ]
+    }
+  ]
 }

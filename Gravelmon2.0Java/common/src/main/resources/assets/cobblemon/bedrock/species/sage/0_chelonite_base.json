@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_chelonite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_chelonite",
       "texture": "cobblemon:textures/pokemon/sage/chelonite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/chelonite_shiny.png"
-    }  ]
+    }
+  ]
 }

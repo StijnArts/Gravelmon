@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_nunvil",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_nunvil",
       "texture": "cobblemon:textures/pokemon/xenoverse/nunvil.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/nunvil_shiny.png"
-    }  ]
+    }
+  ]
 }

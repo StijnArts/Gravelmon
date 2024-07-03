@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "minsect-1",
+      "pokemon": "minsect",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-27",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_brainoar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_brainoar",
       "texture": "cobblemon:textures/pokemon/uranium/brainoar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/brainoar_shiny.png"
-    }  ]
+    }
+  ]
 }

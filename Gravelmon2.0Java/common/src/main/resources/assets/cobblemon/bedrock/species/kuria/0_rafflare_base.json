@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_rafflare",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_rafflare",
       "texture": "cobblemon:textures/pokemon/kuria/rafflare.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/rafflare_shiny.png"
-    }  ]
+    }
+  ]
 }

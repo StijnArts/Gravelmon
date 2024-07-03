@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianDewgong extends Pokemon {
-    public HoennianDewgong(int dexNo) {
-        super(dexNo,"HoennianDewgong",
+    public HoennianDewgong(String name, Aspect aspect) {
+        super(name, aspect,"HoennianDewgong",
                 Type.WATER, Type.DARK,
                 new Stats(135, 115, 85, 45, 70, 65),
                 List.of(Ability.THICK_FAT), Ability.SWIFT_SWIM,

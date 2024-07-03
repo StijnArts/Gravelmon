@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_helsteteri",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_helsteteri",
       "texture": "cobblemon:textures/pokemon/fliga/helsteteri.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/helsteteri_shiny.png"
-    }  ]
+    }
+  ]
 }

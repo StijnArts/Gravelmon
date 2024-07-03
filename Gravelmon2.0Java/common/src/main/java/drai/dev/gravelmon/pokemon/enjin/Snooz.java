@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.enjin;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class Snooz extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -22,13 +23,13 @@ public class Snooz extends drai.dev.gravelmon.pokemon.Pokemon {
                 43, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Added Oct 28 2021. Etymology: corruption of snooze"),
+                List.of(""),
                 List.of(new EvolutionEntry("drowzee", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
-                        new EvolutionEntry("enjinniandrowzee", EvolutionType.LEVEL_UP, List.of(),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\""))),
+                        new EvolutionEntry("drowzee enjinnian", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.REST,1),
                         new MoveLearnSetEntry(Move.SNORE,1),

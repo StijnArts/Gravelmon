@@ -1,8 +1,11 @@
 package drai.dev.gravelmon.pokemon.myth;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import java.util.*;
+
 import java.util.*;
 
 public class Caitlit extends Pokemon {
@@ -51,7 +54,7 @@ public class Caitlit extends Pokemon {
                 List.of(Label.MYTH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_CRIMSON)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_CRIMSON)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

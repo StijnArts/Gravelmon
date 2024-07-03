@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.fliga.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class FligianVigoroth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public FligianVigoroth(int dex) {
-        super(dex, "Vigoroth",
+    public FligianVigoroth(String name, Aspect aspect) {
+        super(name, aspect, "Vigoroth",
                 Type.NORMAL,
                 new Stats(80,
                         90,

@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "name": "velvedrake",
+  "nationalPokedexNumber": 1846,
+  "primaryType": "ice",
+  "secondaryType": "dragon",
+  "abilities": [
+    "sniper",
+    "h:refrigerate"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 65,
+    "defence": 70,
+    "special_attack": 120,
+    "special_defence": 80,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 243,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "bug"
+  ],
+  "moves": [
+    "1:stringshot",
+    "7:iceshard",
+    "12:defensecurl",
+    "16:dragonrage",
+    "19:mist",
+    "22:aurorabeam",
+    "25:dragonbreath",
+    "29:recycle",
+    "33:freezedry",
+    "35:defog",
+    "40:dragonpulse",
+    "44:wringout",
+    "49:guardsplit",
+    "tm:dracometeor",
+    "tm:bind",
+    "tm:bugbite",
+    "tm:electroweb",
+    "tm:recycle",
+    "tm:shockwave",
+    "tm:snore",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:signalbeam",
+    "tm:magiccoat",
+    "tm:icywind",
+    "tm:laserfocus",
+    "tm:zenheadbutt",
+    "tm:dragonpulse",
+    "tm:outrage",
+    "tm:stompingtantrum",
+    "tm:breakingswipe",
+    "tm:terrainpulse",
+    "tm:scaleshot",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:rest",
+    "tm:facade",
+    "tm:round",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:confide",
+    "tm:calmmind",
+    "tm:dragonclaw",
+    "tm:roar",
+    "tm:snowscape",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:shadowball",
+    "tm:sludgewave",
+    "tm:sludgebomb",
+    "tm:attract",
+    "tm:focusblast",
+    "tm:chargebeam",
+    "tm:shadowclaw",
+    "tm:auroraveil",
+    "tm:swordsdance",
+    "tm:bulldoze",
+    "tm:frostbreath",
+    "tm:xscissor",
+    "tm:dragontail",
+    "tm:poisonjab",
+    "tm:uturn",
+    "tm:flashcannon",
+    "tm:haze",
+    "tm:amnesia",
+    "tm:toxicthread",
+    "tm:iceball"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.velvedrake.desc"
+  ],
+  "preEvolution": "glacicrawl",
+  "baseScale": 0.47500000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

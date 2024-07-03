@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaScrafty extends Pokemon {
-    public DeltaScrafty(int dexNo) {
-        super(dexNo,"DeltaScrafty",
+    public DeltaScrafty(String name, Aspect aspect) {
+        super(name, aspect,"DeltaScrafty",
                 Type.GRASS,
                 new Stats(65, 90, 115, 45, 115, 58),
                 List.of(Ability.ROUGH_SKIN, Ability.RIVALRY), Ability.ANGER_POINT,

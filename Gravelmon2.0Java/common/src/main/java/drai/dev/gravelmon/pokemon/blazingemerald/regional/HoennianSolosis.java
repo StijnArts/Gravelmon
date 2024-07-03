@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianSolosis extends Pokemon {
-    public HoennianSolosis(int dexNo) {
-        super(dexNo,"HoennianSolosis",
+    public HoennianSolosis(String name, Aspect aspect) {
+        super(name, aspect,"HoennianSolosis",
                 Type.PSYCHIC, Type.GRASS,
                 new Stats(45, 25, 50, 105, 50, 20),
                 List.of(Ability.FRUITRITION), Ability.FRUITRITION,

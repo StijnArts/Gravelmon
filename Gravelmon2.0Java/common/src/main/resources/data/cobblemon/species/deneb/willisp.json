@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "willisp",
-  "nationalPokedexNumber": 2736,
+  "nationalPokedexNumber": 4722,
   "primaryType": "fire",
   "abilities": [
     "levitate",
@@ -87,7 +87,7 @@
     "egg:dreameater",
     "egg:extrasensory",
     "egg:frustration",
-    "egg:gravitywavecosmic",
+    "egg:gravitywave",
     "egg:hypnosis",
     "egg:imprison",
     "egg:nightmare",
@@ -97,7 +97,7 @@
     "egg:selfdestruct",
     "egg:sludgewave",
     "egg:smokescreen",
-    "egg:snoresound",
+    "egg:snore",
     "egg:spitup",
     "egg:spite",
     "egg:stockpile",

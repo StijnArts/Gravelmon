@@ -2,15 +2,16 @@ package drai.dev.gravelmon.pokemon.myth.regional;
 
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MythianScyther extends Pokemon {
-    public MythianScyther(int dexNo) {
-        super(dexNo,"MythianScyther",
+    public MythianScyther(String name, Aspect aspect) {
+        super(name, aspect,"MythianScyther",
                 Type.FIRE, Type.GHOST,
                 new Stats(70,110,80,55,80,105),
                 List.of(Ability.SHEER_FORCE,Ability.CURSED_BODY), Ability.SHADOW_TAG,

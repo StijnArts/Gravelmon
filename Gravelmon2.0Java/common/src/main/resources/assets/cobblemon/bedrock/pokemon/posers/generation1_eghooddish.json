@@ -17,7 +17,7 @@
       ]
     },
     "walking": {
-      "poseTypes": ["WALK", "SWIM"],
+      "poseTypes": ["WALK"],
       "animations": [
         "q.bedrock('eghooddish', 'ground_walk')"
       ],

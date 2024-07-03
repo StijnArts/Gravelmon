@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_melabuzz",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_melabuzz",
       "texture": "cobblemon:textures/pokemon/nosto/melabuzz.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/melabuzz_shiny.png"
-    }  ]
+    }
+  ]
 }

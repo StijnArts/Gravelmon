@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_dragalis",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_dragalis",
       "texture": "cobblemon:textures/pokemon/infinity/dragalis.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/dragalis_shiny.png"
-    }  ]
+    }
+  ]
 }

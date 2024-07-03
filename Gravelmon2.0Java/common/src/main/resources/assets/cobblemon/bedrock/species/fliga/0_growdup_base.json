@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_growdup",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_growdup",
       "texture": "cobblemon:textures/pokemon/fliga/growdup.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/growdup_shiny.png"
-    }  ]
+    }
+  ]
 }

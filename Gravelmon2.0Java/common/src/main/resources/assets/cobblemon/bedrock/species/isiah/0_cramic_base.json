@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_cramic",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_cramic",
       "texture": "cobblemon:textures/pokemon/isiah/cramic.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/cramic_shiny.png"
-    }  ]
+    }
+  ]
 }

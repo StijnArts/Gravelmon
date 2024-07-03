@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_wyrmundel",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_wyrmundel",
       "texture": "cobblemon:textures/pokemon/norheim/wyrmundel.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/wyrmundel_shiny.png"
-    }  ]
+    }
+  ]
 }

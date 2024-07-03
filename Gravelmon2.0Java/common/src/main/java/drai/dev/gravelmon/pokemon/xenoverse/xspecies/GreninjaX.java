@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class GreninjaX extends Pokemon {
-    public GreninjaX(int dexNo) {
-        super(dexNo,"GreninjaX",
+    public GreninjaX(String name, Aspect aspect) {
+        super(name, aspect,"GreninjaX",
                 Type.FIRE, Type.DARK,
                 new Stats(72, 107, 71, 133, 75, 127),
                 List.of(Ability.SNIPER), Ability.MAGIC_GUARD,

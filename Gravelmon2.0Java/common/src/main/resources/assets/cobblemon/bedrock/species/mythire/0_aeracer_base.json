@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_aeracer",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_aeracer",
       "texture": "cobblemon:textures/pokemon/mythire/aeracer.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/aeracer_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_dialith",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_dialith",
       "texture": "cobblemon:textures/pokemon/atlas/dialith.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/dialith_shiny.png"
-    }  ]
+    }
+  ]
 }

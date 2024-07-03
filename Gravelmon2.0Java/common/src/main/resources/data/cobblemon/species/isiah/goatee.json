@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goatee",
-  "nationalPokedexNumber": 2404,
+  "nationalPokedexNumber": 4299,
   "primaryType": "normal",
   "abilities": [
     "rockhead",
@@ -66,7 +66,7 @@
     "tm:frustration",
     "tm:hiddenpower",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:brickbreak",
     "tm:uturn",
     "tm:flamecharge",
@@ -81,7 +81,7 @@
     "tm:doubleteam",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:workup",

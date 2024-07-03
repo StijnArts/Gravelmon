@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:orohn-havai_pitopyre",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_pitopyre",
       "texture": "cobblemon:textures/pokemon/orohn-havai/pitopyre.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/orohn-havai/pitopyre_shiny.png"
-    }  ]
+    }
+  ]
 }

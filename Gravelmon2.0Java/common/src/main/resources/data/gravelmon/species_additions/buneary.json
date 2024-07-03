@@ -1,0 +1,223 @@
+{
+   "target": "cobblemon:buneary",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "fighting",
+  "abilities": [
+    "pickpocket",
+    "frisk",
+    "h:limber"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 66,
+    "defence": 44,
+    "special_attack": 44,
+    "special_defence": 56,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:meditate",
+    "1:splash",
+    "1:lowkick",
+    "1:foresight",
+    "6:endure",
+    "10:leer",
+    "13:frustration",
+    "16:machpunch",
+    "23:heartstamp",
+    "26:batonpass",
+    "33:nastyplot",
+    "36:dynamicpunch",
+    "43:mefirst",
+    "46:charm",
+    "50:roleplay",
+    "56:jumpkick",
+    "63:wish",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:irontail",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:dig",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sludgebomb",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:embargo",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:psychup",
+    "tm:thunderwave",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:shockwave",
+    "tm:poisonjab",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:acrobatics",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:allyswitch",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:darkmatter",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:workup",
+    "tm:telekinesis",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:batonpass",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:dig",
+    "tutor:dualchop",
+    "tutor:dynamicpunch",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:headbutt",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:nastyplot",
+    "tutor:roleplay",
+    "tutor:seismictoss",
+    "tutor:snore",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:vacuumwave",
+    "tutor:wish",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen4",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltabuneary.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "buneary_lopunny_delta",
+      "variant": "level_up",
+      "result": "lopunny delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 0.4,
+    "height": 0.4,
+    "fixed": false
+  },
+  "baseFriendship": 0,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 55,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

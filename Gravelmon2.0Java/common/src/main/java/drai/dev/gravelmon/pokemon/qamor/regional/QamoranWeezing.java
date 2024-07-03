@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.qamor.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class QamoranWeezing extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranWeezing(int dex) {
-        super(dex, "Weezing",
+    public QamoranWeezing(String name, Aspect aspect) {
+        super(name, aspect, "Weezing",
                 Type.POISON, Type.FIRE,
                 new Stats(65,
                         65,

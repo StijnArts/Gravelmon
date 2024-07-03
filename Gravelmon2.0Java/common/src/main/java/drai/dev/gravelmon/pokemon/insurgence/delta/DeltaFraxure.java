@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaFraxure extends Pokemon {
-    public DeltaFraxure(int dexNo) {
-        super(dexNo,"DeltaFraxure",
+    public DeltaFraxure(String name, Aspect aspect) {
+        super(name, aspect,"DeltaFraxure",
                 Type.WATER,
                 new Stats(66, 117, 70, 40, 50, 67),
                 List.of(Ability.STRONG_JAW, Ability.WATER_VEIL), Ability.SWIFT_SWIM,

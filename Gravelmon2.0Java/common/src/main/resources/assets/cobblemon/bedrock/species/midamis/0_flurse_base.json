@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_flurse",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_flurse",
       "texture": "cobblemon:textures/pokemon/midamis/flurse.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/flurse_shiny.png"
-    }  ]
+    }
+  ]
 }

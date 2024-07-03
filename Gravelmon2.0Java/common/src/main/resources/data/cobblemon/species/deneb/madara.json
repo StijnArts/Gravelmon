@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "madara",
-  "nationalPokedexNumber": 2928,
+  "nationalPokedexNumber": 4915,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -73,7 +73,7 @@
     "tm:scald",
     "tm:endure",
     "tm:swordsdance",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",

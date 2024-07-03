@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "valentox-1",
+      "pokemon": "valentox",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-43",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+  ]
+}

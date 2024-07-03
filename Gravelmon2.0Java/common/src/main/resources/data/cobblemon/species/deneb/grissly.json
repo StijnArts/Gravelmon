@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grissly",
-  "nationalPokedexNumber": 2760,
+  "nationalPokedexNumber": 4747,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -106,7 +106,7 @@
     "egg:furyswipes",
     "egg:gigaimpact",
     "egg:honeclaws",
-    "egg:howlsound",
+    "egg:howl",
     "egg:hyperbeam",
     "egg:meditate",
     "egg:mudslap",
@@ -114,7 +114,7 @@
     "egg:quickattack",
     "egg:raindance",
     "egg:return",
-    "egg:roarsound",
+    "egg:roar",
     "egg:sandstorm",
     "egg:submission",
     "egg:sunnyday"  ],

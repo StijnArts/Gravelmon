@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ruthedral-1",
+      "pokemon": "ruthedral",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-54",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+  ]
+}

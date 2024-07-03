@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liqueel",
-  "nationalPokedexNumber": 1788,
+  "nationalPokedexNumber": 2837,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -78,9 +78,9 @@
     "tm:reflect",
     "tm:rest",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:scald",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:surf",
     "tm:swagger",

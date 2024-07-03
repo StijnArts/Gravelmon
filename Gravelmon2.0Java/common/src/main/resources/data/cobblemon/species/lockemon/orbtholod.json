@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "orbtholod",
-  "nationalPokedexNumber": 1978,
+  "nationalPokedexNumber": 3541,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
@@ -70,7 +70,7 @@
     "tm:psybeam",
     "tm:thief",
     "tm:facade",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:rocktomb",
     "tm:fling",
     "tm:endure",
@@ -84,7 +84,7 @@
     "tm:firepunch",
     "tm:thunderpunch",
     "tm:icepunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:drainpunch",
     "tm:reflect",
     "tm:lightscreen",

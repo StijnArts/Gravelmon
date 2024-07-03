@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "infesteed",
-  "nationalPokedexNumber": 1756,
+  "nationalPokedexNumber": 2354,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -87,9 +87,9 @@
     "tm:raindance",
     "tm:rest",
     "tm:return",
-    "tm:roarsound",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:roar",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:sludgebomb",
     "tm:substitute",
     "tm:swagger",

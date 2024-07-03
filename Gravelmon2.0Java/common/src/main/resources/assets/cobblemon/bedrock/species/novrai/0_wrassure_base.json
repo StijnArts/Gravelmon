@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_wrassure",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_wrassure",
       "texture": "cobblemon:textures/pokemon/novrai/wrassure.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/wrassure_shiny.png"
-    }  ]
+    }
+  ]
 }

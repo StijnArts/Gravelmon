@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_fungrove",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_fungrove",
       "texture": "cobblemon:textures/pokemon/enjin/fungrove.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/fungrove_shiny.png"
-    }  ]
+    }
+  ]
 }

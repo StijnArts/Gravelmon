@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_fumighast",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_fumighast",
       "texture": "cobblemon:textures/pokemon/sage/fumighast.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/fumighast_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_folifarig",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_folifarig",
       "texture": "cobblemon:textures/pokemon/deneb/folifarig.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/folifarig_shiny.png"
-    }  ]
+    }
+  ]
 }

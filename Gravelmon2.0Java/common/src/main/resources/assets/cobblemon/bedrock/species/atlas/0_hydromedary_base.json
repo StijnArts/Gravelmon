@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_hydromedary",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_hydromedary",
       "texture": "cobblemon:textures/pokemon/atlas/hydromedary.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/hydromedary_shiny.png"
-    }  ]
+    }
+  ]
 }

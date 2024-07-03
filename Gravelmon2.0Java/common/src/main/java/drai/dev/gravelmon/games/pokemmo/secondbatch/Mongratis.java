@@ -39,11 +39,11 @@ public class Mongratis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Maizotaur());
 //        pokemon.add(new Minamai());   Missing Stats
 //        pokemon.add(new Marelstorm());   Missing Stats
-        pokemon.add(new Spinarak(167));
-        pokemon.add(new Ariados(168));
+//        pokemon.add(new Spinarak(167));
+//        pokemon.add(new Ariados(168));
         pokemon.add(new Tormine());
         pokemon.add(new Sunnydra());
-        pokemon.add(new Luvdisc(370));
+//        pokemon.add(new Luvdisc(370));
         pokemon.add(new Shorelorn());
         pokemon.add(new Cryscross());
 //        pokemon.add(new Wolfman());   Missing Stats

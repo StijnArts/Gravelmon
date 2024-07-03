@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaKirlia extends Pokemon {
-    public DeltaKirlia(int dexNo) {
-        super(dexNo,"DeltaKirlia",
+    public DeltaKirlia(String name, Aspect aspect) {
+        super(name, aspect,"DeltaKirlia",
                 Type.ELECTRIC, Type.ICE,
                 new Stats(38, 38, 35, 65, 55, 50),
                 List.of(Ability.LIGHTNING_ROD, Ability.CLEAR_BODY), Ability.SNOW_CLOAK,

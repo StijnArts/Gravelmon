@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_platypow",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_platypow",
       "texture": "cobblemon:textures/pokemon/sage/platypow.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/platypow_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianClawitzer extends Pokemon {
-    public SeviianClawitzer(int dexNo) {
-        super(dexNo, "SeviianClawitzer",
+    public SeviianClawitzer(String name, Aspect aspect) {
+        super(name, aspect,"SeviianClawitzer",
                 Type.BUG, Type.DARK,
                 new Stats(81, 63, 83, 110, 79, 97),
                 List.of(Ability.MEGA_LAUNCHER), Ability.MEGA_LAUNCHER,

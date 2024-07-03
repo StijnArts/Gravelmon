@@ -1,12 +1,13 @@
 package drai.dev.gravelmon.pokemon.novrai.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class NovranClobbopus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranClobbopus(int dex) {
-        super(dex, "Clobbopus",
+    public NovranClobbopus(String name, Aspect aspect) {
+        super(name, aspect, "Clobbopus",
                 Type.FIGHTING, Type.POISON,
                 new Stats(70,
                         75,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flaraizer",
-  "nationalPokedexNumber": 2903,
+  "nationalPokedexNumber": 4890,
   "primaryType": "fire",
   "secondaryType": "fighting",
   "abilities": [
@@ -72,7 +72,7 @@
     "tm:thief",
     "tm:firespin",
     "tm:facade",
-    "tm:swiftcosmic",
+    "tm:swift",
     "tm:rocktomb",
     "tm:flamecharge",
     "tm:lowsweep",
@@ -87,7 +87,7 @@
     "tm:bulkup",
     "tm:firepunch",
     "tm:thunderpunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:drainpunch",
     "tm:metronome",
     "tm:grassknot",
@@ -132,7 +132,7 @@
   "preEvolution": "bonchild",
   "evolutions": [
     {
-      "id": "flaraizer_Blazferno",
+      "id": "flaraizer_blazferno",
       "variant": "level_up",
       "result": "Blazferno",
       "consumeHeldItem": false,

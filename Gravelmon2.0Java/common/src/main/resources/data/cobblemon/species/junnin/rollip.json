@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rollip",
-  "nationalPokedexNumber": 1805,
+  "nationalPokedexNumber": 2854,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -52,7 +52,7 @@
     "17:quickattack",
     "21:rollout",
     "tm:skittersmack",
-    "tm:snoresound",
+    "tm:snore",
     "tm:infestation",
     "tm:strugglebug",
     "tm:uturn",
@@ -66,8 +66,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

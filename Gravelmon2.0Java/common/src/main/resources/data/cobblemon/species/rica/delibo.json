@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "delibo",
-  "nationalPokedexNumber": 1375,
+  "nationalPokedexNumber": 1376,
   "primaryType": "steel",
   "abilities": [
     "levitate",
@@ -61,7 +61,7 @@
     "tm:ironhead",
     "tm:knockoff",
     "tm:explosion",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:hyperbeam",
     "tm:gigaimpact",
     "tm:return",
@@ -85,7 +85,7 @@
     "tm:swagger",
     "tm:doubleteam",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

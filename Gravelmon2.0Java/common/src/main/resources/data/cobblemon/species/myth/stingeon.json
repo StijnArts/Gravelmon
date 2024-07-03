@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stingeon",
-  "nationalPokedexNumber": 2548,
+  "nationalPokedexNumber": 4443,
   "primaryType": "bug",
   "abilities": [
     "intimidate",
@@ -56,7 +56,7 @@
     "12:wish",
     "15:furycutter",
     "18:crosspoison",
-    "20:screechsound",
+    "20:screech",
     "21:xscissor",
     "24:swordsdance",
     "29:toxic",

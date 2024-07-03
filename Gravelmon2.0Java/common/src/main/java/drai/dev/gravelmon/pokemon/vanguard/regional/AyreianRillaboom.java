@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianRillaboom extends Pokemon {
-    public AyreianRillaboom(int dexNo) {
-        super(dexNo,"AyreianRillaboom",
+    public AyreianRillaboom(String name, Aspect aspect) {
+        super(name, aspect,"AyreianRillaboom",
                 Type.ELECTRIC, Type.SOUND,
                 new Stats(90,70,70,80,130,90),
                 List.of(Ability.PUNK_ROCK, Ability.WIND_POWER), Ability.ELECTRIC_SURGE,

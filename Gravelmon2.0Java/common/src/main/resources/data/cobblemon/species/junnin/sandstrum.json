@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandstrum",
-  "nationalPokedexNumber": 1824,
+  "nationalPokedexNumber": 2873,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -62,7 +62,7 @@
     "40:irondefense",
     "48:fissure",
     "tm:earthpower",
-    "tm:snoresound",
+    "tm:snore",
     "tm:irondefense",
     "tm:waterpulse",
     "tm:dig",
@@ -74,8 +74,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

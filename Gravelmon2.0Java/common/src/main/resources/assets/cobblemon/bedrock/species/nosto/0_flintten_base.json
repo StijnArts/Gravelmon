@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_flintten",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_flintten",
       "texture": "cobblemon:textures/pokemon/nosto/flintten.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/flintten_shiny.png"
-    }  ]
+    }
+  ]
 }

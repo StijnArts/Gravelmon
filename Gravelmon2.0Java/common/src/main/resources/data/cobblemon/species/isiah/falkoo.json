@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "falkoo",
-  "nationalPokedexNumber": 2380,
+  "nationalPokedexNumber": 4275,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -55,7 +55,7 @@
     "13:uproar",
     "17:doubleteam",
     "21:aerialace",
-    "25:singsound",
+    "25:sing",
     "29:takedown",
     "33:taunt",
     "37:drillpeck",

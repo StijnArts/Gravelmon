@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tyranos",
-  "nationalPokedexNumber": 2781,
+  "nationalPokedexNumber": 4768,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -56,10 +56,10 @@
     "1:wildcharge",
     "1:zenheadbutt",
     "6:bite",
-    "11:roarsound",
+    "11:roar",
     "16:ancientpower",
     "21:takedown",
-    "25:screechsound",
+    "25:screech",
     "29:rockblast",
     "33:stomp",
     "38:honeclaws",

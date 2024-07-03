@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_dodonut",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_dodonut",
       "texture": "cobblemon:textures/pokemon/lagoone/dodonut.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/dodonut_shiny.png"
-    }  ]
+    }
+  ]
 }

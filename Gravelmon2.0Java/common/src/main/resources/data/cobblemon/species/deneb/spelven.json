@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spelven",
-  "nationalPokedexNumber": 2749,
+  "nationalPokedexNumber": 4736,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -85,7 +85,7 @@
     "tm:flash",
     "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpowercosmic",
+    "tutor:cosmicpower",
     "tutor:bugnoise",
     "tutor:hydropump",
     "tutor:rest",
@@ -116,7 +116,7 @@
     "egg:return",
     "egg:skillswap",
     "egg:spite",
-    "egg:stardustcosmic",
+    "egg:stardust",
     "egg:sunnyday",
     "egg:trick"  ],
   "labels": [

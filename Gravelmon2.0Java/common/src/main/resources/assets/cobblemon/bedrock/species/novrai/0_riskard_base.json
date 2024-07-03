@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_riskard",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_riskard",
       "texture": "cobblemon:textures/pokemon/novrai/riskard.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/riskard_shiny.png"
-    }  ]
+    }
+  ]
 }

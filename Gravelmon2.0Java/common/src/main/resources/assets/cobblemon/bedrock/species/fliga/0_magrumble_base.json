@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_magrumble",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_magrumble",
       "texture": "cobblemon:textures/pokemon/fliga/magrumble.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/magrumble_shiny.png"
-    }  ]
+    }
+  ]
 }

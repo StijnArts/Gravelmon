@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fliga_bowlaphod",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_bowlaphod",
       "texture": "cobblemon:textures/pokemon/fliga/bowlaphod.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/fliga/bowlaphod_shiny.png"
-    }  ]
+    }
+  ]
 }

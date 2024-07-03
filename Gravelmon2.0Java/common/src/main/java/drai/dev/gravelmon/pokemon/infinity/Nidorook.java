@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.infinity;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -15,7 +16,7 @@ public class Nidorook extends Pokemon {
                 List.of(Ability.POISON_POINT, Ability.MERCILESS), Ability.SHEER_FORCE,
                 14, 768,
                 new Stats(0,2,0,0,0,2), 45,
-                0.5,
+                1,
                 214, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.FIELD, EggGroup.MONSTER),
@@ -122,9 +123,11 @@ public class Nidorook extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.32, 0.3,
                 List.of());
+        this.setPortraitXYZ(0,1.8,0);
         this.setPreEvolution("nidorino");
-        setModeled(true);
-        setBaseScale(1);
-        setHitbox(1,1);
+        addAdditionalEvolution("nidorina", new EvolutionEntry("nidorook", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:astral_stone"));
+        addAdditionalEvolution("nidorino", new EvolutionEntry("nidorook", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:astral_stone"));
     }
 }

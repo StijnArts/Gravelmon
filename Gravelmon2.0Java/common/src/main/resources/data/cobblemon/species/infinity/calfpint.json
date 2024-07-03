@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "calfpint",
-  "nationalPokedexNumber": 1453,
+  "nationalPokedexNumber": 1454,
   "primaryType": "normal",
   "abilities": [
     "forewarn",
@@ -66,7 +66,7 @@
     "47:bodyslam",
     "51:gigaimpact",
     "55:horndrill",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -81,15 +81,15 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:retaliate",
     "tm:gyroball",
     "tm:bulldoze",
     "tm:workup",
     "tm:substitute",
     "tutor:dazzlinggleam",
-    "tutor:healbellsound",
+    "tutor:healbell",
     "tutor:helpinghand",
     "tutor:zenheadbutt",
     "egg:curse",
@@ -104,7 +104,7 @@
     "egg:punishment",
     "egg:reversal",
     "egg:seismictoss",
-    "egg:sleeptalksound"  ],
+    "egg:sleeptalk"  ],
   "labels": [
     "infinity",
     "not_modeled"
@@ -152,7 +152,7 @@
       "permanent": true   
  },
     {
-      "id": "calfpint_tauros form=paldean-breed-combat",
+      "id": "calfpint_tauros_formpaldeanbreedcombat",
       "variant": "level_up",
       "result": "tauros form=paldean-breed-combat",
       "consumeHeldItem": false,
@@ -171,7 +171,7 @@
       "permanent": true   
  },
     {
-      "id": "calfpint_tauros form=paldean-breed-blaze",
+      "id": "calfpint_tauros_formpaldeanbreedblaze",
       "variant": "level_up",
       "result": "tauros form=paldean-breed-blaze",
       "consumeHeldItem": false,
@@ -190,7 +190,7 @@
       "permanent": true   
  },
     {
-      "id": "calfpint_tauros form=paldean-breed-aqua",
+      "id": "calfpint_tauros_formpaldeanbreedaqua",
       "variant": "level_up",
       "result": "tauros form=paldean-breed-aqua",
       "consumeHeldItem": false,

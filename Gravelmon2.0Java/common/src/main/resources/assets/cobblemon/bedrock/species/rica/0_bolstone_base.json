@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_bolstone",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_bolstone",
       "texture": "cobblemon:textures/pokemon/rica/bolstone.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/bolstone_shiny.png"
-    }  ]
+    }
+  ]
 }

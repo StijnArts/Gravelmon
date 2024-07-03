@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaLopunny extends Pokemon {
-    public DeltaLopunny(int dexNo) {
-        super(dexNo,"DeltaLopunny",
+    public DeltaLopunny(String name, Aspect aspect) {
+        super(name, aspect,"DeltaLopunny",
                 Type.FIGHTING,
                 new Stats(65, 76,84,54,96,105),
                 List.of(Ability.UNBURDEN, Ability.INNER_FOCUS), Ability.LIMBER,

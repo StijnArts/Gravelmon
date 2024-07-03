@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lectrosaur",
-  "nationalPokedexNumber": 1763,
+  "nationalPokedexNumber": 2361,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -49,7 +49,7 @@
   ],
   "moves": [
     "1:megahorn",
-    "5:screechsound",
+    "5:screech",
     "10:chargebeam",
     "15:accelerock",
     "20:hornattack",

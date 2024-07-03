@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:blazingemerald_vitellion",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_vitellion",
       "texture": "cobblemon:textures/pokemon/blazingemerald/vitellion.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/blazingemerald/vitellion_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_explosipede",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_explosipede",
       "texture": "cobblemon:textures/pokemon/okeno/explosipede.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/explosipede_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_destructos",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_destructos",
       "texture": "cobblemon:textures/pokemon/ionos/destructos.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/destructos_shiny.png"
-    }  ]
+    }
+  ]
 }

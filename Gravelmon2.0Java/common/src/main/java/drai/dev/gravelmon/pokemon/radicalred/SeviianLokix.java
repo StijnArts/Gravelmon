@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.radicalred;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class SeviianLokix extends Pokemon {
-    public SeviianLokix(int dexNo) {
-        super(dexNo, "SeviianLokix",
+    public SeviianLokix(String name, Aspect aspect) {
+        super(name, aspect,"SeviianLokix",
                 Type.BUG, Type.DRAGON,
                 new Stats(71, 102, 78, 52, 55, 92),
                 List.of(Ability.SWARM), Ability.TINTED_LENS,

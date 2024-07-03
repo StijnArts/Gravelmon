@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_crabot",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_crabot",
       "texture": "cobblemon:textures/pokemon/rica/crabot.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/crabot_shiny.png"
-    }  ]
+    }
+  ]
 }

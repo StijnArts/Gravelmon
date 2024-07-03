@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.azure.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class MysticStufful extends Pokemon {
-    public MysticStufful(int dexNo) {
-        super(dexNo,"MysticStufful",
+    public MysticStufful(String name, Aspect aspect) {
+        super(name, aspect,"MysticStufful",
                 Type.NORMAL, Type.GHOST,
                 new Stats(75, 70, 50, 50, 50, 45),
                 List.of(Ability.CURSED_BODY, Ability.UNAWARE), Ability.CUTE_CHARM,

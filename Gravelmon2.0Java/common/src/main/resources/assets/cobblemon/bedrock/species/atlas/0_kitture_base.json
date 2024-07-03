@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_kitture",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_kitture",
       "texture": "cobblemon:textures/pokemon/atlas/kitture.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/kitture_shiny.png"
-    }  ]
+    }
+  ]
 }

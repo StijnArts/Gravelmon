@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_luceyan",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_luceyan",
       "texture": "cobblemon:textures/pokemon/midamis/luceyan.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/luceyan_shiny.png"
-    }  ]
+    }
+  ]
 }

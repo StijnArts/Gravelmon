@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "isopanzer",
-  "nationalPokedexNumber": 1807,
+  "nationalPokedexNumber": 2856,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
@@ -63,7 +63,7 @@
     "tm:lunge",
     "tm:skittersmack",
     "tm:gunkshot",
-    "tm:snoresound",
+    "tm:snore",
     "tm:steelroller",
     "tm:infestation",
     "tm:lunge",
@@ -84,8 +84,8 @@
     "tm:hyperbeam",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

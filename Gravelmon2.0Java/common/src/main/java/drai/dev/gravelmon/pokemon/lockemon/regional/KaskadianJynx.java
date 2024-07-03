@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianJynx extends Pokemon {
-    public KaskadianJynx(int dexNo) {
-        super(dexNo,"KaskadianJynx",
+    public KaskadianJynx(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianJynx",
                 Type.PSYCHIC, Type.FIGHTING,
                 new Stats(65, 115, 90, 35, 50, 100),
                 List.of(Ability.DANCER, Ability.PICKPOCKET), Ability.MASTER_INSTINCT,
@@ -93,5 +94,8 @@ public class KaskadianJynx extends Pokemon {
                 List.of());
         this.setLangFileName("Jynx");
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("smoochum", new EvolutionEntry("jynx kaskadian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_TEMPERATE.getId() + ":" + Biome.IS_TEMPERATE.getName() +"\""))));
     }
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lonava_carvesque",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lonava_carvesque",
       "texture": "cobblemon:textures/pokemon/lonava/carvesque.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lonava/carvesque_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianLunatone extends Pokemon {
-    public AyreianLunatone(int dexNo) {
-        super(dexNo,"AyreianLunatone",
+    public AyreianLunatone(String name, Aspect aspect) {
+        super(name, aspect,"AyreianLunatone",
                 Type.ROCK, Type.SOUND,
                 new Stats(120,55,85,70,95,85),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,

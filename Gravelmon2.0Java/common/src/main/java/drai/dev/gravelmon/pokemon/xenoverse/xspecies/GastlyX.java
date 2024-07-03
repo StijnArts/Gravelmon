@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class GastlyX extends Pokemon {
-    public GastlyX(int dexNo) {
-        super(dexNo,"GastlyX",
+    public GastlyX(String name, Aspect aspect) {
+        super(name, aspect,"GastlyX",
                 Type.DRAGON,
                 new Stats(30, 35, 30, 100, 65, 35),
                 List.of(Ability.OBLIVIOUS, Ability.MOLD_BREAKER), Ability.STURDY,
@@ -73,6 +74,5 @@ public class GastlyX extends Pokemon {
         setModeled(true);
         setBaseScale(1.2);
         setHitbox(0.7,1.3);
-
     }
 }

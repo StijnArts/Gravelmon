@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_bouldog",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_bouldog",
       "texture": "cobblemon:textures/pokemon/okeno/bouldog.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/bouldog_shiny.png"
-    }  ]
+    }
+  ]
 }

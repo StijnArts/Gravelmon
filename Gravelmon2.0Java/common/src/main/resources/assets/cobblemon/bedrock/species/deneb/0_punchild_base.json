@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_punchild",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_punchild",
       "texture": "cobblemon:textures/pokemon/deneb/punchild.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/punchild_shiny.png"
-    }  ]
+    }
+  ]
 }

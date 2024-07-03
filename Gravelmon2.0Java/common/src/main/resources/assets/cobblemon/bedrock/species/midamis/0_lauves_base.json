@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_lauves",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_lauves",
       "texture": "cobblemon:textures/pokemon/midamis/lauves.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/lauves_shiny.png"
-    }  ]
+    }
+  ]
 }

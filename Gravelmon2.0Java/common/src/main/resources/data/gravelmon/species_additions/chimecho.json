@@ -1,0 +1,34 @@
+{
+   "target": "cobblemon:chimecho",
+  "evolutions": [
+    {
+      "id": "chimecho_chimeaura",
+      "variant": "level_up",
+      "result": "chimeaura",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "chimecho_karakoron",
+      "variant": "level_up",
+      "result": "karakoron",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "hypervoice"
+        }
+      ],
+      "permanent": true   
+ }
+  ]
+
+}

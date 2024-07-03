@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_peppit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_peppit",
       "texture": "cobblemon:textures/pokemon/sage/peppit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/peppit_shiny.png"
-    }  ]
+    }
+  ]
 }

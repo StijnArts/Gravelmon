@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_vultergyst",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_vultergyst",
       "texture": "cobblemon:textures/pokemon/sage/vultergyst.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/vultergyst_shiny.png"
-    }  ]
+    }
+  ]
 }

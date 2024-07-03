@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_bulpy",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_bulpy",
       "texture": "cobblemon:textures/pokemon/interregional/bulpy.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/bulpy_shiny.png"
-    }  ]
+    }
+  ]
 }

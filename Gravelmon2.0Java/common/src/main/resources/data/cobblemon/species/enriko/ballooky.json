@@ -1,0 +1,113 @@
+{
+  "implemented": true,
+  "name": "ballooky",
+  "nationalPokedexNumber": 1968,
+  "primaryType": "fairy",
+  "secondaryType": "flying",
+  "abilities": [
+    "static",
+    "limber",
+    "h:magicbounce"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 40,
+    "defence": 5,
+    "special_attack": 80,
+    "special_defence": 100,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "fairy"
+  ],
+  "moves": [
+    "1:charm",
+    "5:safeguard",
+    "7:fairywind",
+    "10:nuzzle",
+    "12:gust",
+    "16:tailwind",
+    "18:heartstamp",
+    "20:recover",
+    "24:minimize",
+    "26:aromaticmist",
+    "30:twister",
+    "34:bodyslam",
+    "36:healpulse",
+    "40:moonblast",
+    "44:wideguard",
+    "50:hurricane"  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ballooky.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ballooky_unseelium",
+      "variant": "level_up",
+      "result": "unseelium",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

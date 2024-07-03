@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_clustar",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_clustar",
       "texture": "cobblemon:textures/pokemon/atlas/clustar.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/clustar_shiny.png"
-    }  ]
+    }
+  ]
 }

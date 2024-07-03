@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_togetect",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_togetect",
       "texture": "cobblemon:textures/pokemon/varitas/togetect.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/togetect_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "larvake",
-  "nationalPokedexNumber": 2010,
+  "nationalPokedexNumber": 3573,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -53,7 +53,7 @@
     "17:twineedle",
     "25:mimic",
     "tm:skittersmack",
-    "tm:snoresound",
+    "tm:snore",
     "tm:infestation",
     "tm:attract",
     "tm:bide",
@@ -63,8 +63,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

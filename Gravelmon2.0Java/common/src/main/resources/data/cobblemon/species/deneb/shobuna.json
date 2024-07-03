@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shobuna",
-  "nationalPokedexNumber": 2899,
+  "nationalPokedexNumber": 4886,
   "primaryType": "water",
   "abilities": [
     "defeatist",
@@ -105,7 +105,7 @@
   ],
   "evolutions": [
     {
-      "id": "shobuna_Zebatoru",
+      "id": "shobuna_zebatoru",
       "variant": "level_up",
       "result": "Zebatoru",
       "consumeHeldItem": false,

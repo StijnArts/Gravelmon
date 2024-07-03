@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hub_nuzzeltama",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hub_nuzzeltama",
       "texture": "cobblemon:textures/pokemon/hub/nuzzeltama.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hub/nuzzeltama_shiny.png"
-    }  ]
+    }
+  ]
 }

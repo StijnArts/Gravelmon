@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.qamor.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class QamoranPsyduck extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranPsyduck(int dex) {
-        super(dex, "Psyduck",
+    public QamoranPsyduck(String name, Aspect aspect) {
+        super(name, aspect, "Psyduck",
                 Type.FAIRY,
                 new Stats(60,
                         65,

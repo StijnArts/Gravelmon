@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rapteror",
-  "nationalPokedexNumber": 1771,
+  "nationalPokedexNumber": 2820,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -52,7 +52,7 @@
     "tm:dualwingbeat",
     "tm:grasspledge",
     "tm:grassyglide",
-    "tm:snoresound",
+    "tm:snore",
     "tm:sunnyday",
     "tm:acrobatics",
     "tm:aerialace",
@@ -64,8 +64,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",

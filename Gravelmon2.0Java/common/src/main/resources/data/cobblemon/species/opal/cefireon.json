@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cefireon",
-  "nationalPokedexNumber": 1485,
+  "nationalPokedexNumber": 1675,
   "primaryType": "flying",
   "abilities": [
     "lightningrod",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:ominouswind",
     "1:silverwind",
@@ -65,14 +75,11 @@
     "45:hurricane"  ],
   "labels": [
     "opal",
-    "not_modeled",
-    "eeveelution",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.cefireon.desc"
   ],
-  "preEvolution": "eevee",
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,

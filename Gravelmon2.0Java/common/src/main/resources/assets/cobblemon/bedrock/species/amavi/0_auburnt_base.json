@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_auburnt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_auburnt",
       "texture": "cobblemon:textures/pokemon/amavi/auburnt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/auburnt_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bratanat",
-  "nationalPokedexNumber": 2241,
+  "nationalPokedexNumber": 4136,
   "primaryType": "bug",
   "abilities": [
     "immunity",
@@ -59,7 +59,7 @@
     "37:lightscreen",
     "41:psychic",
     "46:ragepowder",
-    "50:bugbuzzsound",
+    "50:bugbuzz",
     "55:wonderroom"  ],
   "labels": [
     "kuria",
@@ -82,7 +82,7 @@
         },
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         }
       ],
       "permanent": true   

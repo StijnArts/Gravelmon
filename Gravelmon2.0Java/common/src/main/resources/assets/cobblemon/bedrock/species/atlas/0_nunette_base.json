@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_nunette",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_nunette",
       "texture": "cobblemon:textures/pokemon/atlas/nunette.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/nunette_shiny.png"
-    }  ]
+    }
+  ]
 }

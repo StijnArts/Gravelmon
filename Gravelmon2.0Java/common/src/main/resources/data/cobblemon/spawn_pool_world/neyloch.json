@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "neyloch-1",
+      "pokemon": "neyloch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "33-47",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest",
+"#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_winter",
+"#cobblemon:is_summer" ]    }
+    }
+  ]
+}

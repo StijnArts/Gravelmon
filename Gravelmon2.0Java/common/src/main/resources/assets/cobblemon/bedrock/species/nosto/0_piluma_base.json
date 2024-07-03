@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_piluma",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_piluma",
       "texture": "cobblemon:textures/pokemon/nosto/piluma.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/piluma_shiny.png"
-    }  ]
+    }
+  ]
 }

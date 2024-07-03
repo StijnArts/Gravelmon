@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "velveil-1",
+      "pokemon": "velveil",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

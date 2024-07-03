@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.infinity;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Champeon extends Pokemon {
@@ -112,6 +113,8 @@ public class Champeon extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setModeled(true);
         this.setBaseScale(0.8);
-        this.setPreEvolution("eevee");
+        addAdditionalEvolution("eevee", new EvolutionEntry("champeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.REVERSAL, "")),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:black_belt\""),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"day\""))));
     }
 }

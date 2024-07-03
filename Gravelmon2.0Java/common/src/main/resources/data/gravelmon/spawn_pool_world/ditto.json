@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "norheimanditto-1",
+      "pokemon": "ditto norheiman",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "4-29",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltaditto-1",
+      "pokemon": "ditto delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-35",
+      "weight": 10.0,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ]
+      }
+    }
+,
+    {
+      "id": "dittox-1",
+      "pokemon": "ditto x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-75",
+      "weight": 3.3,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+
+]
+}

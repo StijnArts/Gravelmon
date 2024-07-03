@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_gloatem",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_gloatem",
       "texture": "cobblemon:textures/pokemon/norheim/gloatem.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/gloatem_shiny.png"
-    }  ]
+    }
+  ]
 }

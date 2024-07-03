@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_koberus",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_koberus",
       "texture": "cobblemon:textures/pokemon/sage/koberus.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/koberus_shiny.png"
-    }  ]
+    }
+  ]
 }

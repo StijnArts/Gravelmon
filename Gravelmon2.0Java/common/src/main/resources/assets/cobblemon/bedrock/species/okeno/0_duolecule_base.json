@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_duolecule",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_duolecule",
       "texture": "cobblemon:textures/pokemon/okeno/duolecule.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/duolecule_shiny.png"
-    }  ]
+    }
+  ]
 }

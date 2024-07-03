@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "seviiannymble-1",
+      "pokemon": "nymble seviian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-36",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo" ]
+      }
+    }
+
+]
+}

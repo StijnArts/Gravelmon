@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_pyramud",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_pyramud",
       "texture": "cobblemon:textures/pokemon/avoris/pyramud.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/pyramud_shiny.png"
-    }  ]
+    }
+  ]
 }

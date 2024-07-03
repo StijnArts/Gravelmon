@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:xenoverse_chientilly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:xenoverse_chientilly",
       "texture": "cobblemon:textures/pokemon/xenoverse/chientilly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/xenoverse/chientilly_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "blendulum-1",
+      "pokemon": "blendulum",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-56",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

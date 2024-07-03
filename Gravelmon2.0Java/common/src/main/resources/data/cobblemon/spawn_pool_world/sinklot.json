@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sinklot-1",
+      "pokemon": "sinklot",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "7-31",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true,
+        "isRaining": true
+      }
+    }
+  ]
+}

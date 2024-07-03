@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sniponge",
-  "nationalPokedexNumber": 2407,
+  "nationalPokedexNumber": 4302,
   "primaryType": "water",
   "abilities": [
     "sniper",
@@ -58,7 +58,7 @@
     "24:magnetrise",
     "28:brine",
     "33:memento",
-    "38:screechsound",
+    "38:screech",
     "43:raindance",
     "49:recover",
     "55:hydropump"  ],

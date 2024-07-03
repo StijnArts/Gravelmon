@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beefle",
-  "nationalPokedexNumber": 1520,
+  "nationalPokedexNumber": 2114,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -72,7 +72,7 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
+    "tm:round",
     "tm:swordsdance",
     "tm:poweruppunch",
     "tm:swagger",
@@ -89,8 +89,8 @@
     "tutor:lowkick",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalksound",
-    "tutor:snoresound",
+    "tutor:sleeptalk",
+    "tutor:snore",
     "tutor:strugglebug",
     "tutor:superpower"  ],
   "labels": [

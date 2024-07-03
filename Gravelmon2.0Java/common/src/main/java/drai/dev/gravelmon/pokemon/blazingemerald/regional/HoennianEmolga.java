@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class HoennianEmolga extends Pokemon {
-    public HoennianEmolga(int dexNo) {
-        super(dexNo,"HoennianEmolga",
+    public HoennianEmolga(String name, Aspect aspect) {
+        super(name, aspect,"HoennianEmolga",
                 Type.GHOST, Type.FLYING,
                 new Stats(75, 95, 65, 45, 90, 123),
                 List.of(Ability.SKY_SCOURGE), Ability.NEFARIOUS,

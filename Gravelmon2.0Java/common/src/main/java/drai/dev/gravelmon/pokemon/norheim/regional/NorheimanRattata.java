@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanRattata extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanRattata(int dex) {
-        super(dex, "Rattata",
+    public NorheimanRattata(String name, Aspect aspect) {
+        super(name, aspect, "Rattata",
                 Type.NORMAL, Type.DRAGON,
                 new Stats(45,
                         65,

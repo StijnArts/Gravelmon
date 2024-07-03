@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:blazingemerald_muramoth",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:blazingemerald_muramoth",
       "texture": "cobblemon:textures/pokemon/blazingemerald/muramoth.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/blazingemerald/muramoth_shiny.png"
-    }  ]
+    }
+  ]
 }

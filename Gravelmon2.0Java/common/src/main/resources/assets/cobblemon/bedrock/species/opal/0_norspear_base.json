@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:opal_norspear",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:opal_norspear",
       "texture": "cobblemon:textures/pokemon/opal/norspear.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/opal/norspear_shiny.png"
-    }  ]
+    }
+  ]
 }

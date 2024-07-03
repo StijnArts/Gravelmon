@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_voltako",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_voltako",
       "texture": "cobblemon:textures/pokemon/isiah/voltako.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/voltako_shiny.png"
-    }  ]
+    }
+  ]
 }

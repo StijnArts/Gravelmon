@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_lagostr",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_lagostr",
       "texture": "cobblemon:textures/pokemon/isiah/lagostr.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/lagostr_shiny.png"
-    }  ]
+    }
+  ]
 }

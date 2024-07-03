@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barbloom",
-  "nationalPokedexNumber": 3046,
+  "nationalPokedexNumber": 5638,
   "primaryType": "poison",
   "secondaryType": "grass",
   "abilities": [
@@ -78,7 +78,7 @@
     "tm:lunge",
     "tm:suckerpunch",
     "tm:magiccoat",
-    "tm:snoresound",
+    "tm:snore",
     "tm:grassyterrain",
     "tm:encore",
     "tm:terrainpulse",
@@ -115,7 +115,7 @@
     "tm:poisonjab",
     "tm:grassknot",
     "tm:swagger",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:naturalgift",
     "tm:darkpulse",

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ogospiral-1",
+      "pokemon": "ogospiral",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-38",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

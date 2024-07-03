@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "carrioon-1",
+      "pokemon": "carrioon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "21-39",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert",
+"#cobblemon:is_badlands" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

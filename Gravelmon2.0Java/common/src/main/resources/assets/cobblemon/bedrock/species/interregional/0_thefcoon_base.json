@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:interregional_thefcoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:interregional_thefcoon",
       "texture": "cobblemon:textures/pokemon/interregional/thefcoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/interregional/thefcoon_shiny.png"
-    }  ]
+    }
+  ]
 }

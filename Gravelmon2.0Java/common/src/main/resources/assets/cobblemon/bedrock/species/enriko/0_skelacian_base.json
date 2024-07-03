@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_skelacian",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_skelacian",
       "texture": "cobblemon:textures/pokemon/enriko/skelacian.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/skelacian_shiny.png"
-    }  ]
+    }
+  ]
 }

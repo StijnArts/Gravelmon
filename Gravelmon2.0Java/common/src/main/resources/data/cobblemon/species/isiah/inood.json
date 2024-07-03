@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inood",
-  "nationalPokedexNumber": 2355,
+  "nationalPokedexNumber": 4250,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -60,7 +60,7 @@
     "24:slam",
     "27:doubleteam",
     "30:energyball",
-    "33:screechsound",
+    "33:screech",
     "36:endeavor",
     "39:leafstorm"  ],
   "labels": [

@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.atlas;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class Festiata extends drai.dev.gravelmon.pokemon.Pokemon {
@@ -24,7 +25,7 @@ public class Festiata extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Festiñata seek joy and happiness wherever they go, but have a deathly fear of sticks. Their insides are said to be delicious."),
                 List.of(new EvolutionEntry("luchaburro", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.FAIRY_WIND,1),

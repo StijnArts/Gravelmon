@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianTyphlosion extends Pokemon {
-    public AyreianTyphlosion(int dexNo) {
-        super(dexNo,"AyreianTyphlosion",
+    public AyreianTyphlosion(String name, Aspect aspect) {
+        super(name, aspect,"AyreianTyphlosion",
                 Type.FIRE, Type.GHOST,
                 new Stats(90,75,70,125,105,95),
                 List.of(Ability.DROUGHT, Ability.INFILTRATOR), Ability.SOLAR_POWER,

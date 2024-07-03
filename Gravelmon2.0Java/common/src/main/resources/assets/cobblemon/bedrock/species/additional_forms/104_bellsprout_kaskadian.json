@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:bellsprout",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "kaskadian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_kaskadianbellsprout",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadianbellsprout.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "kaskadian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation1_kaskadianbellsprout",
+      "texture": "cobblemon:textures/pokemon/generation1/kaskadianbellsprout_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

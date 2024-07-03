@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fleetade",
-  "nationalPokedexNumber": 2642,
+  "nationalPokedexNumber": 4537,
   "primaryType": "water",
   "abilities": [
     "triage",
@@ -48,7 +48,7 @@
   ],
   "moves": [
     "1:dragonpulse",
-    "3:howlsound",
+    "3:howl",
     "6:astonish",
     "12:watergun",
     "15:mist",

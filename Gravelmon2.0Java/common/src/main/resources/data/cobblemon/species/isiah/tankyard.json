@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tankyard",
-  "nationalPokedexNumber": 2474,
+  "nationalPokedexNumber": 4369,
   "primaryType": "steel",
   "abilities": [
     "weakarmor",
@@ -68,7 +68,7 @@
     "tm:hiddenpower",
     "tm:hyperbeam",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:brickbreak",
     "tm:focusblast",
     "tm:chargebeam",
@@ -90,7 +90,7 @@
     "tm:doubleteam",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:workup",

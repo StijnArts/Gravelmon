@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaTurtwig extends Pokemon {
-    public DeltaTurtwig(int dexNo) {
-        super(dexNo,"DeltaTurtwig",
+    public DeltaTurtwig(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTurtwig",
                 Type.WATER, Type.GROUND,
                 new Stats(55, 68, 64, 45, 55, 31),
                 List.of(Ability.WATER_ABSORB), Ability.SWIFT_SWIM,

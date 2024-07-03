@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_dorisuton",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_dorisuton",
       "texture": "cobblemon:textures/pokemon/deneb/dorisuton.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/dorisuton_shiny.png"
-    }  ]
+    }
+  ]
 }

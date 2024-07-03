@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_naeglerium",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_naeglerium",
       "texture": "cobblemon:textures/pokemon/varitas/naeglerium.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/naeglerium_shiny.png"
-    }  ]
+    }
+  ]
 }

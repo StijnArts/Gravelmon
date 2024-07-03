@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_drifsea",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_drifsea",
       "texture": "cobblemon:textures/pokemon/rica/drifsea.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/drifsea_shiny.png"
-    }  ]
+    }
+  ]
 }

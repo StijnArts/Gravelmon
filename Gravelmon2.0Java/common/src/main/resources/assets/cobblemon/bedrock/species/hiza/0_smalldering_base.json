@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_smalldering",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_smalldering",
       "texture": "cobblemon:textures/pokemon/hiza/smalldering.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/smalldering_shiny.png"
-    }  ]
+    }
+  ]
 }

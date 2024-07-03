@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "probaska",
-  "nationalPokedexNumber": 1901,
+  "nationalPokedexNumber": 3464,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -58,10 +58,10 @@
     "24:counter",
     "28:headbutt",
     "33:stickyweb",
-    "37:singsound",
+    "37:sing",
     "41:victorydance",
     "45:throatchop",
-    "49:bugbuzzsound"  ],
+    "49:bugbuzz"  ],
   "labels": [
     "lockemon",
     "not_modeled",

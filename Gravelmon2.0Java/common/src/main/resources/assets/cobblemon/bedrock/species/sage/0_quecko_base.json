@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_quecko",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_quecko",
       "texture": "cobblemon:textures/pokemon/sage/quecko.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/quecko_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enjin_cubreeze",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_cubreeze",
       "texture": "cobblemon:textures/pokemon/enjin/cubreeze.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enjin/cubreeze_shiny.png"
-    }  ]
+    }
+  ]
 }

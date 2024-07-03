@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_frozaiden",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_frozaiden",
       "texture": "cobblemon:textures/pokemon/deneb/frozaiden.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/frozaiden_shiny.png"
-    }  ]
+    }
+  ]
 }

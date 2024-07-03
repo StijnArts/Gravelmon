@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spectreon",
-  "nationalPokedexNumber": 2542,
+  "nationalPokedexNumber": 4437,
   "primaryType": "ghost",
   "abilities": [
     "cursedbody",
@@ -56,7 +56,7 @@
     "12:wish",
     "15:nightshade",
     "18:darkpulse",
-    "20:screechsound",
+    "20:screech",
     "21:shadowball",
     "24:calmmind",
     "29:toxic",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_magpipe",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_magpipe",
       "texture": "cobblemon:textures/pokemon/amavi/magpipe.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/magpipe_shiny.png"
-    }  ]
+    }
+  ]
 }

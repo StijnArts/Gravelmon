@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_inood",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_inood",
       "texture": "cobblemon:textures/pokemon/isiah/inood.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/inood_shiny.png"
-    }  ]
+    }
+  ]
 }

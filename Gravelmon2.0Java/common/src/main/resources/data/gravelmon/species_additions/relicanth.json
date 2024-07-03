@@ -1,0 +1,174 @@
+{
+   "target": "cobblemon:relicanth",
+  "evolutions": [
+    {
+      "id": "relicanth_relicore",
+      "variant": "level_up",
+      "result": "relicore",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 48
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+   "forms": [{
+  "name": "Ayreian",
+  "primaryType": "ground",
+  "secondaryType": "ghost",
+  "abilities": [
+    "swiftswim",
+    "stormdrain",
+    "h:sandstream"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 40,
+    "defence": 110,
+    "special_attack": 55,
+    "special_defence": 90,
+    "speed": 125
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:harden",
+    "5:mudslap",
+    "10:ancientpower",
+    "15:yawn",
+    "20:mudshot",
+    "25:muddywater",
+    "30:earthpower",
+    "35:rest",
+    "40:shadowball",
+    "45:scald",
+    "50:shoreup",
+    "55:hydropump",
+    "tutor:amnesia",
+    "tutor:aquatail",
+    "tutor:attract",
+    "tutor:blizzard",
+    "tutor:bodypress",
+    "tutor:bodyslam",
+    "tutor:bounce",
+    "tutor:brine",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:confide",
+    "tutor:dive",
+    "tutor:doubleteam",
+    "tutor:earthpower",
+    "tutor:earthquake",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:frustration",
+    "tutor:gigaimpact",
+    "tutor:hail",
+    "tutor:hiddenpower",
+    "tutor:hydropump",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:liquidation",
+    "tutor:meteorbeam",
+    "tutor:muddywater",
+    "tutor:mudshot",
+    "tutor:protect",
+    "tutor:psychup",
+    "tutor:raindance",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:rockblast",
+    "tutor:rockpolish",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rocktomb",
+    "tutor:round",
+    "tutor:safeguard",
+    "tutor:sandstorm",
+    "tutor:scald",
+    "tutor:scaleshot",
+    "tutor:sleeptalk",
+    "tutor:smackdown",
+    "tutor:snore",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:substitute",
+    "tutor:surf",
+    "tutor:swagger",
+    "tutor:toxic",
+    "tutor:waterfall",
+    "tutor:waterpulse",
+    "tutor:whirlpool",
+    "tutor:zenheadbutt",
+    "egg:mudslap",
+    "egg:skullbash"  ],
+  "labels": [
+    "gen3",
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianrelicanth.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 10,
+  "weight": 234,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+}
+], "features": [
+"ayreian"
+  ]
+}

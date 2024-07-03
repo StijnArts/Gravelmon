@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_torsnail",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_torsnail",
       "texture": "cobblemon:textures/pokemon/myth/torsnail.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/torsnail_shiny.png"
-    }  ]
+    }
+  ]
 }

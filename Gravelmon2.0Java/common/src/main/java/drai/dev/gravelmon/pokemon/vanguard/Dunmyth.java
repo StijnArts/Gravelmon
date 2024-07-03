@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.vanguard;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -136,5 +137,7 @@ public class Dunmyth extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        addAdditionalEvolution("dunsparce", new EvolutionEntry("dunmyth", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"))));
     }
 }

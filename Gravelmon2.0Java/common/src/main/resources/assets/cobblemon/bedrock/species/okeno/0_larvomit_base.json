@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_larvomit",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_larvomit",
       "texture": "cobblemon:textures/pokemon/okeno/larvomit.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/larvomit_shiny.png"
-    }  ]
+    }
+  ]
 }

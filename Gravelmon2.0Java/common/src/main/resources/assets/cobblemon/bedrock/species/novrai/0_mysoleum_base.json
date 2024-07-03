@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_mysoleum",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_mysoleum",
       "texture": "cobblemon:textures/pokemon/novrai/mysoleum.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/mysoleum_shiny.png"
-    }  ]
+    }
+  ]
 }

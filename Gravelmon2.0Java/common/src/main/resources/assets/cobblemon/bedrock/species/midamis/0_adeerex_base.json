@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_adeerex",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_adeerex",
       "texture": "cobblemon:textures/pokemon/midamis/adeerex.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/adeerex_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "kerbunsta",
+  "nationalPokedexNumber": 3883,
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "abilities": [
+    "overgrow",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 64,
+    "attack": 73,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 60,
+    "speed": 68
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "mineral"
+  ],
+  "moves": [
+    "1:growl",
+    "1:pound",
+    "8:screech",
+    "11:bite",
+    "15:leechseed",
+    "18:flamecharge",
+    "24:growth",
+    "27:crunch",
+    "32:seedbomb",
+    "35:flamethrower",
+    "39:gigadrain",
+    "45:pyroball",
+    "48:woodhammer",
+    "54:fireblast",
+    "58:synthesis"  ],
+  "labels": [
+    "fliga",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.kerbunsta.desc"
+  ],
+  "preEvolution": "aggronut",
+  "evolutions": [
+    {
+      "id": "kerbunsta_harebinger",
+      "variant": "level_up",
+      "result": "harebinger",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 463,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

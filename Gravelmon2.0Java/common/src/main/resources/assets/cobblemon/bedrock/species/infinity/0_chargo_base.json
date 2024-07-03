@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_chargo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_chargo",
       "texture": "cobblemon:textures/pokemon/infinity/chargo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/chargo_shiny.png"
-    }  ]
+    }
+  ]
 }

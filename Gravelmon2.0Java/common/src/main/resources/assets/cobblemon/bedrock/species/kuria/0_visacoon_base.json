@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_visacoon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_visacoon",
       "texture": "cobblemon:textures/pokemon/kuria/visacoon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/visacoon_shiny.png"
-    }  ]
+    }
+  ]
 }

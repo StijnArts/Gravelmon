@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "torsnail",
-  "nationalPokedexNumber": 2506,
+  "nationalPokedexNumber": 4401,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -54,9 +54,9 @@
     "3:quickattack",
     "9:babydolleyes",
     "12:wish",
-    "15:disarmingvoicesound",
+    "15:disarmingvoice",
     "18:aquajet",
-    "20:screechsound",
+    "20:screech",
     "21:waterpulse",
     "24:swordsdance",
     "29:toxic",

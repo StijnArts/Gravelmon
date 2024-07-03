@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_imitacean",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_imitacean",
       "texture": "cobblemon:textures/pokemon/novrai/imitacean.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/imitacean_shiny.png"
-    }  ]
+    }
+  ]
 }

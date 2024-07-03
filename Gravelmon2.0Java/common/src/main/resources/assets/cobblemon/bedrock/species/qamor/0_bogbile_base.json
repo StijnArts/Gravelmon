@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:qamor_bogbile",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:qamor_bogbile",
       "texture": "cobblemon:textures/pokemon/qamor/bogbile.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/qamor/bogbile_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_gliderweb",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_gliderweb",
       "texture": "cobblemon:textures/pokemon/novrai/gliderweb.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/gliderweb_shiny.png"
-    }  ]
+    }
+  ]
 }

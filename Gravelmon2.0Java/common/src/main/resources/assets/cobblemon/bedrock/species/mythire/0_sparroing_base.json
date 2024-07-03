@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_sparroing",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_sparroing",
       "texture": "cobblemon:textures/pokemon/mythire/sparroing.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/sparroing_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:myth_spectreon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:myth_spectreon",
       "texture": "cobblemon:textures/pokemon/myth/spectreon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/myth/spectreon_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_grissly",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_grissly",
       "texture": "cobblemon:textures/pokemon/deneb/grissly.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/grissly_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_reileo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_reileo",
       "texture": "cobblemon:textures/pokemon/atlas/reileo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/reileo_shiny.png"
-    }  ]
+    }
+  ]
 }

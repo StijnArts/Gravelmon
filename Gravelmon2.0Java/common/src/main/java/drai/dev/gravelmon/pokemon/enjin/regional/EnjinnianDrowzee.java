@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.enjin.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianDrowzee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianDrowzee(int dex) {
-        super(dex, "Drowzee",
+    public EnjinnianDrowzee(String name, Aspect aspect) {
+        super(name, aspect, "Drowzee",
                 Type.PSYCHIC,
                 new Stats(60,
                         48,

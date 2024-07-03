@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanFoongus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanFoongus(int dex) {
-        super(dex, "Foongus",
+    public NorheimanFoongus(String name, Aspect aspect) {
+        super(name, aspect, "Foongus",
                 Type.STEEL, Type.POISON,
                 new Stats(0,
                         0,

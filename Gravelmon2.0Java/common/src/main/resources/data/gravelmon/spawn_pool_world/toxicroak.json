@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltatoxicroak-1",
+      "pokemon": "toxicroak delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-58",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_wasteland",
+"#cobblemon:is_nether_crimson" ]
+      }
+    }
+
+]
+}

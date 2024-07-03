@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_merbebi",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_merbebi",
       "texture": "cobblemon:textures/pokemon/oceane/merbebi.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/merbebi_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_tusslett",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_tusslett",
       "texture": "cobblemon:textures/pokemon/rica/tusslett.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/tusslett_shiny.png"
-    }  ]
+    }
+  ]
 }

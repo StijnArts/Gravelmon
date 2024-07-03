@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "buttereef",
-  "nationalPokedexNumber": 2037,
+  "nationalPokedexNumber": 3600,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -58,7 +58,7 @@
     "40:wish",
     "45:slam",
     "55:hydropump",
-    "tm:snoresound",
+    "tm:snore",
     "tm:taunt",
     "tm:torment",
     "tm:attract",
@@ -71,8 +71,8 @@
     "tm:protect",
     "tm:psychup",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:swordsdance",

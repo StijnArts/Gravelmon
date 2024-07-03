@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_kitsurah",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_kitsurah",
       "texture": "cobblemon:textures/pokemon/kuria/kitsurah.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/kitsurah_shiny.png"
-    }  ]
+    }
+  ]
 }

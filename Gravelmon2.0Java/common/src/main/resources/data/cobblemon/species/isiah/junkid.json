@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "junkid",
-  "nationalPokedexNumber": 2473,
+  "nationalPokedexNumber": 4368,
   "primaryType": "steel",
   "abilities": [
     "weakarmor",
@@ -66,7 +66,7 @@
     "tm:frustration",
     "tm:hiddenpower",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:brickbreak",
     "tm:focusblast",
     "tm:chargebeam",
@@ -87,7 +87,7 @@
     "tm:doubleteam",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:workup",

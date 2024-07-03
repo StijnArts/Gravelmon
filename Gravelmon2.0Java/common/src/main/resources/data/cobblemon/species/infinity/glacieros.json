@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glacieros",
-  "nationalPokedexNumber": 1437,
+  "nationalPokedexNumber": 1438,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -66,7 +66,7 @@
     "51:iciclecrash",
     "60:headsmash",
     "67:earthquake",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hail",
     "tm:bulkup",
@@ -86,8 +86,8 @@
     "tm:facade",
     "tm:rest",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:falseswipe",
     "tm:scald",
     "tm:quash",

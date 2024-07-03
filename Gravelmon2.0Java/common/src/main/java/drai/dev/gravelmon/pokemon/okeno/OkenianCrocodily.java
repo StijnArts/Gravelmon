@@ -1,11 +1,12 @@
 package drai.dev.gravelmon.pokemon.okeno;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 public class OkenianCrocodily extends drai.dev.gravelmon.pokemon.Pokemon {
-    public OkenianCrocodily(int dex) {
-        super(dex, "Crocodily",
+    public OkenianCrocodily(String name, Aspect aspect) {
+        super(name, aspect, "Crocodily",
                 Type.DARK, Type.WATER,
                 new Stats(45,
                         81,

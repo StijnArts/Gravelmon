@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_delibo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_delibo",
       "texture": "cobblemon:textures/pokemon/rica/delibo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/delibo_shiny.png"
-    }  ]
+    }
+  ]
 }

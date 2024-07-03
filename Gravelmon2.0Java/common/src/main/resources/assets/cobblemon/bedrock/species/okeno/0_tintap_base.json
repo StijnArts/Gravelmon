@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_tintap",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_tintap",
       "texture": "cobblemon:textures/pokemon/okeno/tintap.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/tintap_shiny.png"
-    }  ]
+    }
+  ]
 }

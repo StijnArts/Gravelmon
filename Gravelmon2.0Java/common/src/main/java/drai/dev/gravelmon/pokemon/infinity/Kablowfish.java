@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.pokemon.infinity;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
@@ -108,5 +109,7 @@ public class Kablowfish extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("qwilfish");
+        addAdditionalEvolution("qwilfish", new EvolutionEntry("kablowfish", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\""))));
     }
 }

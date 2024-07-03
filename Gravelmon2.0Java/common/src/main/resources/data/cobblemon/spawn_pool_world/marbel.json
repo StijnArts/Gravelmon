@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "marbel-1",
+      "pokemon": "marbel",
+      "presets": [
+          "trail_ruins"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-27",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ]
+      }
+    }
+  ]
+}

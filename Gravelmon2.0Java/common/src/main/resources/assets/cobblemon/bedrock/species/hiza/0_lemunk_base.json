@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_lemunk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_lemunk",
       "texture": "cobblemon:textures/pokemon/hiza/lemunk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/lemunk_shiny.png"
-    }  ]
+    }
+  ]
 }

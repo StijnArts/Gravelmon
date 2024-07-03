@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_volcamone",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_volcamone",
       "texture": "cobblemon:textures/pokemon/varitas/volcamone.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/volcamone_shiny.png"
-    }  ]
+    }
+  ]
 }

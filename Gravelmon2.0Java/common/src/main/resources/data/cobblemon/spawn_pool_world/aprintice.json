@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aprintice-1",
+      "pokemon": "aprintice",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "27-43",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

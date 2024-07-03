@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ignew-1",
+      "pokemon": "ignew",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:is_cave",
+"#cobblemon:is_badlands" ]
+      }
+    }
+  ]
+}

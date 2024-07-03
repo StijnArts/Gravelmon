@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chimeaura",
-  "nationalPokedexNumber": 2529,
+  "nationalPokedexNumber": 4424,
   "primaryType": "sound",
   "secondaryType": "steel",
   "abilities": [
@@ -59,11 +59,11 @@
     "13:yawn",
     "19:takedown",
     "22:extrasensory",
-    "27:healbellsound",
+    "27:healbell",
     "32:uproar",
     "42:rest",
     "47:healpulse",
-    "52:snoresound",
+    "52:snore",
     "57:healingwish"  ],
   "labels": [
     "myth",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_pyrelk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_pyrelk",
       "texture": "cobblemon:textures/pokemon/norheim/pyrelk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/pyrelk_shiny.png"
-    }  ]
+    }
+  ]
 }

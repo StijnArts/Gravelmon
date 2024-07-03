@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kuria_marvelaze",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:kuria_marvelaze",
       "texture": "cobblemon:textures/pokemon/kuria/marvelaze.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/kuria/marvelaze_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_setoshiba",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_setoshiba",
       "texture": "cobblemon:textures/pokemon/deneb/setoshiba.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/setoshiba_shiny.png"
-    }  ]
+    }
+  ]
 }

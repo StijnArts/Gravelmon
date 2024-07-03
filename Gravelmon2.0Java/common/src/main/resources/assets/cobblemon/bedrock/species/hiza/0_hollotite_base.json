@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_hollotite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_hollotite",
       "texture": "cobblemon:textures/pokemon/hiza/hollotite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/hollotite_shiny.png"
-    }  ]
+    }
+  ]
 }

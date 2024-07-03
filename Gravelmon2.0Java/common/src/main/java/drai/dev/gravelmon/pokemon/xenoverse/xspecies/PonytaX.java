@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class PonytaX extends Pokemon {
-    public PonytaX(int dexNo) {
-        super(dexNo,"PonytaX",
+    public PonytaX(String name, Aspect aspect) {
+        super(name, aspect,"PonytaX",
                 Type.FLYING,
                 new Stats(50, 75, 55, 65, 65, 100),
                 List.of(Ability.CLOUD_NINE), Ability.CLOUD_NINE,

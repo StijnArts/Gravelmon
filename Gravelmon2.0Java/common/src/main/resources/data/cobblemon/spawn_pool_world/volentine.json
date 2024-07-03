@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "volentine-1",
+      "pokemon": "volentine",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "17-33",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

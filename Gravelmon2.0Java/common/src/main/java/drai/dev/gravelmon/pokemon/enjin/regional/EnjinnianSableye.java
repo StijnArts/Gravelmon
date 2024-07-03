@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.enjin.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class EnjinnianSableye extends drai.dev.gravelmon.pokemon.Pokemon {
-    public EnjinnianSableye(int dex) {
-        super(dex, "Sableye",
+    public EnjinnianSableye(String name, Aspect aspect) {
+        super(name, aspect, "Sableye",
                 Type.ICE, Type.GHOST,
                 new Stats(50,
                         75,

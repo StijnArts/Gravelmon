@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ferroa_velvedrake",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_velvedrake",
       "texture": "cobblemon:textures/pokemon/ferroa/velvedrake.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ferroa/velvedrake_shiny.png"
-    }  ]
+    }
+  ]
 }

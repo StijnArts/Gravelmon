@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.qamor;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -26,7 +27,7 @@ public class Umbrub extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Umbrub eggs are laid inside stuffed animals so they have a nutritious meal upon hatching"),
                 List.of(new EvolutionEntry("trepinject", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VISE_GRIP,1),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,5),

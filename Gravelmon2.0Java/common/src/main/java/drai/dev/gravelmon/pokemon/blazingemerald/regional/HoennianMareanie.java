@@ -1,16 +1,17 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
 public class HoennianMareanie extends Pokemon {
-    public HoennianMareanie(int dexNo) {
-        super(dexNo,"HoennianMareanie",
+    public HoennianMareanie(String name, Aspect aspect) {
+        super(name, aspect,"HoennianMareanie",
                 Type.ROCK, Type.POISON,
                 new Stats(50, 53, 92, 33, 52, 35),
                 List.of(Ability.POISON_POINT), Ability.SOLID_ROCK,

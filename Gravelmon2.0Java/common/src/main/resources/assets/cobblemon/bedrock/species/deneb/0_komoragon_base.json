@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_komoragon",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_komoragon",
       "texture": "cobblemon:textures/pokemon/deneb/komoragon.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/komoragon_shiny.png"
-    }  ]
+    }
+  ]
 }

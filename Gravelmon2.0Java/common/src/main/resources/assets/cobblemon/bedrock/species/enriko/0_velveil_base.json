@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enriko_velveil",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enriko_velveil",
       "texture": "cobblemon:textures/pokemon/enriko/velveil.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/enriko/velveil_shiny.png"
-    }  ]
+    }
+  ]
 }

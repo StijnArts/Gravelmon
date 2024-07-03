@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_vermpent",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_vermpent",
       "texture": "cobblemon:textures/pokemon/atlas/vermpent.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/vermpent_shiny.png"
-    }  ]
+    }
+  ]
 }

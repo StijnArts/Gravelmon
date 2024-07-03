@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_gemmo",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_gemmo",
       "texture": "cobblemon:textures/pokemon/atlas/gemmo.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/gemmo_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_maimink",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_maimink",
       "texture": "cobblemon:textures/pokemon/amavi/maimink.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/maimink_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianNoctowl extends Pokemon {
-    public AyreianNoctowl(int dexNo) {
-        super(dexNo,"AyreianNoctowl",
+    public AyreianNoctowl(String name, Aspect aspect) {
+        super(name, aspect,"AyreianNoctowl",
                 Type.PSYCHIC, Type.FLYING,
                 new Stats(100,50,50,100,90,75),
                 List.of(Ability.INSOMNIA, Ability.MIRROR_ARMOR), Ability.TINTED_LENS,

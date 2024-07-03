@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varitas_grassola",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:varitas_grassola",
       "texture": "cobblemon:textures/pokemon/varitas/grassola.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/varitas/grassola_shiny.png"
-    }  ]
+    }
+  ]
 }

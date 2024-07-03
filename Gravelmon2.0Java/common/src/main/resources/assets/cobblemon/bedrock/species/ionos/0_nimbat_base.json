@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ionos_nimbat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_nimbat",
       "texture": "cobblemon:textures/pokemon/ionos/nimbat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/ionos/nimbat_shiny.png"
-    }  ]
+    }
+  ]
 }

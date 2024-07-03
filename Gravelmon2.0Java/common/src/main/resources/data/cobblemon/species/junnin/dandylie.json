@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dandylie",
-  "nationalPokedexNumber": 1813,
+  "nationalPokedexNumber": 2862,
   "primaryType": "grass",
   "abilities": [
     "effectspore",
@@ -66,7 +66,7 @@
     "tm:frustration",
     "tm:hiddenpower",
     "tm:return",
-    "tm:roundsound",
+    "tm:round",
     "tm:brickbreak",
     "tm:focusblast",
     "tm:drainpunch",
@@ -91,7 +91,7 @@
     "tm:doubleteam",
     "tm:protect",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:workup",

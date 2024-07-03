@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_slushling",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_slushling",
       "texture": "cobblemon:textures/pokemon/hiza/slushling.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/slushling_shiny.png"
-    }  ]
+    }
+  ]
 }

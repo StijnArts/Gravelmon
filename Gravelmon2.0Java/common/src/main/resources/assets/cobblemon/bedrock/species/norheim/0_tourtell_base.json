@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_tourtell",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_tourtell",
       "texture": "cobblemon:textures/pokemon/norheim/tourtell.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/tourtell_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.insurgence.delta;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class DeltaTorterra extends Pokemon {
-    public DeltaTorterra(int dexNo) {
-        super(dexNo,"DeltaTorterra",
+    public DeltaTorterra(String name, Aspect aspect) {
+        super(name, aspect,"DeltaTorterra",
                 Type.WATER, Type.GROUND,
                 new Stats(95, 109, 105, 75, 85, 56),
                 List.of(Ability.WATER_ABSORB), Ability.SWIFT_SWIM,

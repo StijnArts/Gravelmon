@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "woond",
-  "nationalPokedexNumber": 1920,
+  "nationalPokedexNumber": 3483,
   "primaryType": "fighting",
   "secondaryType": "ghost",
   "abilities": [
@@ -59,7 +59,7 @@
     "16:firefang",
     "20:rocksmash",
     "24:shadowsneak",
-    "28:screechsound",
+    "28:screech",
     "32:shadowforce",
     "36:forcepalm",
     "40:swordsdance",
@@ -71,7 +71,7 @@
     "egg:crosschop",
     "egg:detect",
     "egg:highjumpkick",
-    "egg:howlsound"  ],
+    "egg:howl"  ],
   "labels": [
     "lockemon",
     "not_modeled",

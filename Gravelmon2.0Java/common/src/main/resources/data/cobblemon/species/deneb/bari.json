@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bari",
-  "nationalPokedexNumber": 2913,
+  "nationalPokedexNumber": 4900,
   "primaryType": "fighting",
   "abilities": [
     "ironfist",
@@ -80,7 +80,7 @@
     "tm:firepunch",
     "tm:thunderpunch",
     "tm:icepunch",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:drainpunch",
     "tm:grassknot",
     "tm:poisonjab",

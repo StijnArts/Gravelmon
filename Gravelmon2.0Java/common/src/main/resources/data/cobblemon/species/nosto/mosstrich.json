@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mosstrich",
-  "nationalPokedexNumber": 1986,
+  "nationalPokedexNumber": 3549,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -65,7 +65,7 @@
     "56:tropkick",
     "tm:frenzyplant",
     "tm:grasspledge",
-    "tm:snoresound",
+    "tm:snore",
     "tm:uturn",
     "tm:embargo",
     "tm:fling",
@@ -106,8 +106,8 @@
     "tm:protect",
     "tm:psychup",
     "tm:return",
-    "tm:roundsound",
-    "tm:sleeptalksound",
+    "tm:round",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:swagger",
     "tm:swordsdance",

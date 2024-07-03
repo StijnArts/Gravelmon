@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianConkeldurr extends Pokemon {
-    public KaskadianConkeldurr(int dexNo) {
-        super(dexNo,"KaskadianConkeldurr",
+    public KaskadianConkeldurr(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianConkeldurr",
                 Type.FIGHTING, Type.GRASS,
                 new Stats(105, 120, 125, 55, 65, 35),
                 List.of(Ability.GUTS, Ability.SHEER_FORCE), Ability.VEGETATE,

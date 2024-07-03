@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_cheshile",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_cheshile",
       "texture": "cobblemon:textures/pokemon/deneb/cheshile.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/cheshile_shiny.png"
-    }  ]
+    }
+  ]
 }

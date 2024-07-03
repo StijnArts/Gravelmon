@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_whave",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:infinity_whave",
       "texture": "cobblemon:textures/pokemon/infinity/whave.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/infinity/whave_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_anderind",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_anderind",
       "texture": "cobblemon:textures/pokemon/uranium/anderind.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/anderind_shiny.png"
-    }  ]
+    }
+  ]
 }

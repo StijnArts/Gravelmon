@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shyneon",
-  "nationalPokedexNumber": 2316,
+  "nationalPokedexNumber": 4211,
   "primaryType": "crystal",
   "abilities": [
     "keeneye",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:pressurize",
     "1:helpinghand",
@@ -71,7 +81,7 @@
     "52:suckerpunch",
     "60:stoneedge",
     "75:headsmash",
-    "tm:roarsound",
+    "tm:roar",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:hyperbeam",
@@ -93,8 +103,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:roundsound",
-    "tm:echoedvoicesound",
+    "tm:round",
+    "tm:echoedvoice",
     "tm:overheat",
     "tm:energyball",
     "tm:incinerate",

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_clinglee",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_clinglee",
       "texture": "cobblemon:textures/pokemon/mythire/clinglee.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/clinglee_shiny.png"
-    }  ]
+    }
+  ]
 }

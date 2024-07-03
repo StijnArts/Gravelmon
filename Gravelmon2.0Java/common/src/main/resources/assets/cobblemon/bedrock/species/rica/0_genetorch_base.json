@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_genetorch",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_genetorch",
       "texture": "cobblemon:textures/pokemon/rica/genetorch.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/genetorch_shiny.png"
-    }  ]
+    }
+  ]
 }

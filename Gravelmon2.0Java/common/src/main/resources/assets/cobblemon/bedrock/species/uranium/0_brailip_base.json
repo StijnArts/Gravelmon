@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_brailip",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_brailip",
       "texture": "cobblemon:textures/pokemon/uranium/brailip.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/brailip_shiny.png"
-    }  ]
+    }
+  ]
 }

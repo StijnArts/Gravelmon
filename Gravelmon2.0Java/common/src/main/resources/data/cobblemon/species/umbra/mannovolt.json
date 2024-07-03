@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mannovolt",
-  "nationalPokedexNumber": 2147,
+  "nationalPokedexNumber": 3710,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -84,7 +84,7 @@
     "tm:sludgebomb",
     "tm:facade",
     "tm:rest",
-    "tm:roundsound",
+    "tm:round",
     "tm:focusblast",
     "tm:scald",
     "tm:fling",
@@ -103,7 +103,7 @@
     "tm:surf",
     "tm:waterfall",
     "tm:dive",
-    "tutor:snoresound",
+    "tutor:snore",
     "tutor:electroweb",
     "tutor:bind",
     "tutor:shockwave",

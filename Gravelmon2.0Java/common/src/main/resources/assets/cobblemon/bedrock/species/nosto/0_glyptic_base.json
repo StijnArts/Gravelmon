@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:nosto_glyptic",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:nosto_glyptic",
       "texture": "cobblemon:textures/pokemon/nosto/glyptic.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/nosto/glyptic_shiny.png"
-    }  ]
+    }
+  ]
 }

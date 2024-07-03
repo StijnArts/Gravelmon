@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "celestar-1",
+      "pokemon": "celestar",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

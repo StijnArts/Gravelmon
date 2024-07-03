@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_clownder",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_clownder",
       "texture": "cobblemon:textures/pokemon/amavi/clownder.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/clownder_shiny.png"
-    }  ]
+    }
+  ]
 }

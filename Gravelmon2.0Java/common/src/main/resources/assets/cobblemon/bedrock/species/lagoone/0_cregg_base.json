@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_cregg",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_cregg",
       "texture": "cobblemon:textures/pokemon/lagoone/cregg.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/cregg_shiny.png"
-    }  ]
+    }
+  ]
 }

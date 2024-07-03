@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "platoxic",
-  "nationalPokedexNumber": 1350,
+  "nationalPokedexNumber": 1351,
   "primaryType": "poison",
   "abilities": [
     "poisonpoint",
@@ -106,7 +106,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

@@ -14,7 +14,7 @@
       ]
     },
     "walking": {
-      "poseTypes": ["WALK", "SWIM"],
+      "poseTypes": ["WALK"],
       "animations": [
         "q.bedrock('eghogloom', 'ground_walk')"
       ]

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_lumoss",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_lumoss",
       "texture": "cobblemon:textures/pokemon/deneb/lumoss.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/lumoss_shiny.png"
-    }  ]
+    }
+  ]
 }

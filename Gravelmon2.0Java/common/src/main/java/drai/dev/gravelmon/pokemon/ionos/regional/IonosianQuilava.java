@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ionos.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianQuilava extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianQuilava(int dex) {
-        super(dex, "Quilava",
+    public IonosianQuilava(String name, Aspect aspect) {
+        super(name, aspect, "Quilava",
                 Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,

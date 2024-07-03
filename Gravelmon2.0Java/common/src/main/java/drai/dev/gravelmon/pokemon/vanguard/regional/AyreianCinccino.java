@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianCinccino extends Pokemon {
-    public AyreianCinccino(int dexNo) {
-        super(dexNo,"AyreianCinccino",
+    public AyreianCinccino(String name, Aspect aspect) {
+        super(name, aspect,"AyreianCinccino",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(75,65,70,115,105,60),
                 List.of(Ability.INTIMIDATE, Ability.TECHNICIAN), Ability.NO_GUARD,

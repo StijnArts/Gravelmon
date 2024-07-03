@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rica_orbizarre",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:rica_orbizarre",
       "texture": "cobblemon:textures/pokemon/rica/orbizarre.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/rica/orbizarre_shiny.png"
-    }  ]
+    }
+  ]
 }

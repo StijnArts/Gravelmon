@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_puppug",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_puppug",
       "texture": "cobblemon:textures/pokemon/okeno/puppug.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/puppug_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.varitas.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class VaritasianEelektrik extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianEelektrik(int dex) {
-        super(dex,"Eelektrik",
+    public VaritasianEelektrik(String name, Aspect aspect) {
+        super(name, aspect,"Eelektrik",
                 Type.GROUND, Type.WATER,
                 new Stats(65,
                         85,

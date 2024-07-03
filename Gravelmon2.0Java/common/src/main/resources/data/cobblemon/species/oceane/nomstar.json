@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nomstar",
-  "nationalPokedexNumber": 1621,
+  "nationalPokedexNumber": 2219,
   "primaryType": "dragon",
   "abilities": [
     "keeneye",
@@ -51,7 +51,7 @@
     "1:tackle",
     "4:growl",
     "9:protect",
-    "12:nobleroarsound",
+    "12:nobleroar",
     "16:dragonrage",
     "20:spikecannon",
     "24:magnitude",
@@ -59,7 +59,7 @@
     "31:irondefense",
     "36:stompingtantrum",
     "40:dragonclaw",
-    "45:roarsound",
+    "45:roar",
     "50:spikes",
     "56:megahorn"  ],
   "labels": [

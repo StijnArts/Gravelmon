@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dredrock",
-  "nationalPokedexNumber": 2534,
+  "nationalPokedexNumber": 4429,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -80,7 +80,7 @@
   "preEvolution": "baulder",
   "evolutions": [
     {
-      "id": "dredrock_Tekagon",
+      "id": "dredrock_tekagon",
       "variant": "level_up",
       "result": "Tekagon",
       "consumeHeldItem": false,

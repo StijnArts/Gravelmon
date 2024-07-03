@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "theriamp-1",
+      "pokemon": "theriamp",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "8-25",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush" ]
+      }
+    }
+  ]
+}

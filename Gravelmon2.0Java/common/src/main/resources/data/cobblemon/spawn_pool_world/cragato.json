@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cragato-1",
+      "pokemon": "cragato",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "23-41",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

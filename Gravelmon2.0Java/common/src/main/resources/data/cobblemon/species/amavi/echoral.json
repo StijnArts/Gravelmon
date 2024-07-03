@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "echoral",
-  "nationalPokedexNumber": 3102,
+  "nationalPokedexNumber": 5694,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -69,7 +69,7 @@
   ],
   "evolutions": [
     {
-      "id": "echoral_Delflauge",
+      "id": "echoral_delflauge",
       "variant": "level_up",
       "result": "Delflauge",
       "consumeHeldItem": false,

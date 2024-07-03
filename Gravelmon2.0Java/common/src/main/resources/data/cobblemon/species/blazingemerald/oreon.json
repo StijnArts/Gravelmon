@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oreon",
-  "nationalPokedexNumber": 2177,
+  "nationalPokedexNumber": 3740,
   "primaryType": "poison",
   "abilities": [
     "stickyhold",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:cookie",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:cookie_cut",
     "5:milkdrink",

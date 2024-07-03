@@ -3,7 +3,7 @@
   "portraitTranslation": [-0.3, 2.0, 0.0],
   "profileScale": 0.6,
   "profileTranslation": [0.0, 1.55, -20.0],
-    "poses": {
+  "poses": {
     "standing": {
       "poseName": "standing",
       "transformTicks": 10,

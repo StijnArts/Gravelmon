@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_hydrush",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_hydrush",
       "texture": "cobblemon:textures/pokemon/deneb/hydrush.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/hydrush_shiny.png"
-    }  ]
+    }
+  ]
 }

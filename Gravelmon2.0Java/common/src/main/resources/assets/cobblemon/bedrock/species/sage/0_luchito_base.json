@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_luchito",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_luchito",
       "texture": "cobblemon:textures/pokemon/sage/luchito.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/luchito_shiny.png"
-    }  ]
+    }
+  ]
 }

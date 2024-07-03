@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caitfyr",
-  "nationalPokedexNumber": 2515,
+  "nationalPokedexNumber": 4410,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -70,7 +70,7 @@
     "egg:calmmind",
     "egg:aurasphere",
     "egg:thunderbolt",
-    "egg:singsound",
+    "egg:sing",
     "egg:teeterdance",
     "egg:darkpulse"  ],
   "labels": [

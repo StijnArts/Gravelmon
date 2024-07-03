@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_neopunk",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_neopunk",
       "texture": "cobblemon:textures/pokemon/uranium/neopunk.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/neopunk_shiny.png"
-    }  ]
+    }
+  ]
 }

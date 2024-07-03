@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quisquite",
-  "nationalPokedexNumber": 1492,
+  "nationalPokedexNumber": 1682,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -72,7 +72,7 @@
     "egg:icebeam",
     "egg:mudslap",
     "egg:mudsport",
-    "egg:snoresound",
+    "egg:snore",
     "egg:supersonic",
     "egg:aquatail"  ],
   "labels": [

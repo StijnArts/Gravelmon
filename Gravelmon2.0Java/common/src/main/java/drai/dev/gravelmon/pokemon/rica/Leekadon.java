@@ -1,7 +1,8 @@
 package drai.dev.gravelmon.pokemon.rica;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
@@ -83,7 +84,7 @@ public class Leekadon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROTOTILLER,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 51, .3, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 46, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))),

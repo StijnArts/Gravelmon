@@ -15,7 +15,7 @@
       "level": "33-57",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_basalt",
+"biomes": [ "#cobblemon:is_volvanic",
 "#cobblemon:is_badlands" ],
         "timeRange": "day",
         "canSeeSky": true

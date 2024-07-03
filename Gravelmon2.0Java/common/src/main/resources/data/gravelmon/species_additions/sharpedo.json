@@ -1,0 +1,148 @@
+{
+   "target": "cobblemon:sharpedo",
+   "forms": [{
+  "name": "X",
+  "primaryType": "water",
+  "secondaryType": "ghost",
+  "abilities": [
+    "cursedbody",
+    "infiltrator",
+    "h:dryskin"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 120,
+    "defence": 40,
+    "special_attack": 95,
+    "special_defence": 40,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 163,
+  "experienceGroup": "slow",
+  "eggCycles": 39,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
+  "moves": [
+    "1:confuseray",
+    "1:headsmash",
+    "1:clamp",
+    "1:aquajet",
+    "1:leer",
+    "1:astonish",
+    "1:topsyturvy",
+    "1:scaryface",
+    "1:hex",
+    "16:shadowclaw",
+    "20:icefang",
+    "25:screech",
+    "30:swagger",
+    "35:phantomforce",
+    "40:agility",
+    "46:liquidation",
+    "52:takedown",
+    "58:headsmash",
+    "62:poltergeist",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:earthquake",
+    "tm:return",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:round",
+    "tm:scald",
+    "tm:willowisp",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:surf",
+    "tm:bulldoze",
+    "tm:infestation",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:waterfall",
+    "tm:substitute",
+    "tm:darkpulse",
+    "tutor:secretpower",
+    "tutor:snore"  ],
+  "labels": [
+    "xenoverse",
+    "gen3",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sharpedox.desc"
+  ],
+  "preEvolution": "carvanha form=x",
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 678,
+  "aspects": ["x"],
+  "cannotDynamax": false
+}
+], "features": [
+"x"
+  ]
+}

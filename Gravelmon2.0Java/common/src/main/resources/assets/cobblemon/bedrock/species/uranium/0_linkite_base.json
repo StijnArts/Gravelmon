@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_linkite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_linkite",
       "texture": "cobblemon:textures/pokemon/uranium/linkite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/linkite_shiny.png"
-    }  ]
+    }
+  ]
 }

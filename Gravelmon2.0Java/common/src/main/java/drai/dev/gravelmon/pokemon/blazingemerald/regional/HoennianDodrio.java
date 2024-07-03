@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class HoennianDodrio extends Pokemon {
-    public HoennianDodrio(int dexNo) {
-        super(dexNo,"HoennianDodrio",
+    public HoennianDodrio(String name, Aspect aspect) {
+        super(name, aspect,"HoennianDodrio",
                 Type.FLYING, Type.GROUND,
                 new Stats(80, 110, 85, 135, 50, 60),
                 List.of(Ability.INTIMIDATE), Ability.PRESSURE,
@@ -74,5 +75,7 @@ public class HoennianDodrio extends Pokemon {
         this.setModeled(true);
         this.setBaseScale(1.6);
         this.setHitbox(0.6,1.6);
+        addAdditionalEvolution("doduo", new EvolutionEntry("dodrio hoennian", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"marowak\""))));
     }
 }

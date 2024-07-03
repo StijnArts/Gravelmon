@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_squrmy",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_squrmy",
       "texture": "cobblemon:textures/pokemon/flux/squrmy.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/squrmy_shiny.png"
-    }  ]
+    }
+  ]
 }

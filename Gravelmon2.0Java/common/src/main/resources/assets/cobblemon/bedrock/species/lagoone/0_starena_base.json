@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_starena",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_starena",
       "texture": "cobblemon:textures/pokemon/lagoone/starena.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/starena_shiny.png"
-    }  ]
+    }
+  ]
 }

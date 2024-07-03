@@ -1,8 +1,11 @@
 package drai.dev.gravelmon.pokemon.xenoverse;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
+import drai.dev.gravelsextendedbattles.resorting.*;
+
 import java.util.*;
 
 import java.util.*;
@@ -107,5 +110,8 @@ public class Bandeon extends Pokemon {
                 0.24, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
+        addAdditionalEvolution("eevee", new EvolutionEntry("bandeon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ROUND.getName()+"\""))));
+        GravelmonMoveSubstitution.registerMoveInsertion("eevee", new MoveLearnSetEntry(Move.ROUND, "22"));
     }
 }

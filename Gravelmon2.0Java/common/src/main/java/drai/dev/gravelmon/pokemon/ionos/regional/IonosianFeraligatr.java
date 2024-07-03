@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ionos.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianFeraligatr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianFeraligatr(int dex) {
-        super(dex, "Feraligatr",
+    public IonosianFeraligatr(String name, Aspect aspect) {
+        super(name, aspect, "Feraligatr",
                 Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,

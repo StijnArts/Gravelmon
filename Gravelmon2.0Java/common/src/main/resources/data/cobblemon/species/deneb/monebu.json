@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "monebu",
-  "nationalPokedexNumber": 2925,
+  "nationalPokedexNumber": 4912,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -50,7 +50,7 @@
   "moves": [
     "1:poisonsting",
     "6:rollout",
-    "10:screechsound",
+    "10:screech",
     "13:pinmissile",
     "17:poisontail",
     "31:sludge"  ],

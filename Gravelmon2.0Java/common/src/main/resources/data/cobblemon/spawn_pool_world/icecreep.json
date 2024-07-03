@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "icecreep-1",
+      "pokemon": "icecreep",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-56",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

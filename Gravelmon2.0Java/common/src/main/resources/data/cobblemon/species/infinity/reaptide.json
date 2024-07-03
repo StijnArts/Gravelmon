@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reaptide",
-  "nationalPokedexNumber": 1430,
+  "nationalPokedexNumber": 1431,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -82,7 +82,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:roundsound",
+    "tm:round",
     "tm:embargo",
     "tm:payback",
     "tm:voltswitch",

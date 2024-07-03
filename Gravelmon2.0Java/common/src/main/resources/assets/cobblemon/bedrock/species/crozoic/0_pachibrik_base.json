@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:crozoic_pachibrik",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_pachibrik",
       "texture": "cobblemon:textures/pokemon/crozoic/pachibrik.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/crozoic/pachibrik_shiny.png"
-    }  ]
+    }
+  ]
 }

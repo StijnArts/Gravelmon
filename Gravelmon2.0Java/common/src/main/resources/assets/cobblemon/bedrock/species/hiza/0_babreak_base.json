@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:hiza_babreak",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:hiza_babreak",
       "texture": "cobblemon:textures/pokemon/hiza/babreak.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/hiza/babreak_shiny.png"
-    }  ]
+    }
+  ]
 }

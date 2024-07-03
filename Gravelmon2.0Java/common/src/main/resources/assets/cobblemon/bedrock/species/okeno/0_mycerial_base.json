@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:okeno_mycerial",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_mycerial",
       "texture": "cobblemon:textures/pokemon/okeno/mycerial.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/okeno/mycerial_shiny.png"
-    }  ]
+    }
+  ]
 }

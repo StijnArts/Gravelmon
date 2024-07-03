@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_gigantuna",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_gigantuna",
       "texture": "cobblemon:textures/pokemon/lagoone/gigantuna.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/gigantuna_shiny.png"
-    }  ]
+    }
+  ]
 }

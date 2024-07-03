@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "energeel",
-  "nationalPokedexNumber": 1360,
+  "nationalPokedexNumber": 1361,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -93,7 +93,7 @@
     "tm:doubleteam",
     "tm:attract",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

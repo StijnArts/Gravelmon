@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "helibo",
-  "nationalPokedexNumber": 1376,
+  "nationalPokedexNumber": 1377,
   "primaryType": "steel",
   "abilities": [
     "levitate",
@@ -64,7 +64,7 @@
     "tm:knockoff",
     "tm:allyswitch",
     "tm:explosion",
-    "tm:echoedvoicesound",
+    "tm:echoedvoice",
     "tm:hyperbeam",
     "tm:gigaimpact",
     "tm:return",
@@ -88,7 +88,7 @@
     "tm:swagger",
     "tm:doubleteam",
     "tm:rest",
-    "tm:sleeptalksound",
+    "tm:sleeptalk",
     "tm:substitute",
     "tm:lightscreen",
     "tm:reflect",

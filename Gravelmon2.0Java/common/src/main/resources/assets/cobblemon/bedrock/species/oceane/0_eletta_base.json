@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:oceane_eletta",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:oceane_eletta",
       "texture": "cobblemon:textures/pokemon/oceane/eletta.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/oceane/eletta_shiny.png"
-    }  ]
+    }
+  ]
 }

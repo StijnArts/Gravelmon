@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_miragtra",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_miragtra",
       "texture": "cobblemon:textures/pokemon/amavi/miragtra.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/miragtra_shiny.png"
-    }  ]
+    }
+  ]
 }

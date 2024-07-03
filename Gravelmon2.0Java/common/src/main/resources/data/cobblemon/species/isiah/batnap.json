@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "batnap",
-  "nationalPokedexNumber": 2418,
+  "nationalPokedexNumber": 4313,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -51,7 +51,7 @@
     "1:foulplay",
     "1:growl",
     "1:gust",
-    "1:echoedvoicesound",
+    "1:echoedvoice",
     "5:hypnosis",
     "9:confusion",
     "13:nightshade",

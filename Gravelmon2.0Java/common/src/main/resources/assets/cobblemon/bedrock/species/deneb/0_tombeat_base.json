@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_tombeat",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_tombeat",
       "texture": "cobblemon:textures/pokemon/deneb/tombeat.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/tombeat_shiny.png"
-    }  ]
+    }
+  ]
 }

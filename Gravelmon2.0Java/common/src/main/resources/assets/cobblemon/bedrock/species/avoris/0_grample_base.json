@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:avoris_grample",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:avoris_grample",
       "texture": "cobblemon:textures/pokemon/avoris/grample.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/avoris/grample_shiny.png"
-    }  ]
+    }
+  ]
 }

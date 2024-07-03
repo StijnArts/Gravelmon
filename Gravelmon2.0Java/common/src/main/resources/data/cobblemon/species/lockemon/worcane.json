@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "worcane",
-  "nationalPokedexNumber": 1950,
+  "nationalPokedexNumber": 3513,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -61,7 +61,7 @@
     "39:aquatail",
     "44:jawlock",
     "50:hydropump",
-    "egg:boomburstsound",
+    "egg:boomburst",
     "egg:bounce",
     "egg:counter",
     "egg:haze",

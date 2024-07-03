@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mandiblade",
-  "nationalPokedexNumber": 2877,
+  "nationalPokedexNumber": 4864,
   "primaryType": "steel",
   "secondaryType": "rock",
   "abilities": [
@@ -109,7 +109,7 @@
     "egg:psychocut",
     "egg:rage",
     "egg:raindance",
-    "egg:roarsound",
+    "egg:roar",
     "egg:rocktomb",
     "egg:sandstorm",
     "egg:slam",

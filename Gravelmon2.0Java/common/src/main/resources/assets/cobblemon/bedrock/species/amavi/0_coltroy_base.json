@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:amavi_coltroy",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_coltroy",
       "texture": "cobblemon:textures/pokemon/amavi/coltroy.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/amavi/coltroy_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 package drai.dev.gravelmon.pokemon.norheim.regional;
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 
 
 public class NorheimanDiglett extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanDiglett(int dex) {
-        super(dex, "Diglett",
+    public NorheimanDiglett(String name, Aspect aspect) {
+        super(name, aspect, "Diglett",
                 Type.GHOST, Type.GROUND,
                 new Stats(0,
                         0,
@@ -26,7 +27,7 @@ public class NorheimanDiglett extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Norheiman Diglett glows in the dark and is rarely seen by itself. Forming groups can make a big crowd of Diglett’s, making it hard to spot who’s a Diglett and who are a Dugtrio. Their ghost like appearance may startle about anyone getting lost in the woods."),
                 List.of(new EvolutionEntry("norheimandugtrio", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.FURY_ATTACK,8),

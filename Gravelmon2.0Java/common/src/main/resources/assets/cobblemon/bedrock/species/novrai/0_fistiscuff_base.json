@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_fistiscuff",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_fistiscuff",
       "texture": "cobblemon:textures/pokemon/novrai/fistiscuff.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/fistiscuff_shiny.png"
-    }  ]
+    }
+  ]
 }

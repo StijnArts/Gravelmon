@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:uranium_baariette",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:uranium_baariette",
       "texture": "cobblemon:textures/pokemon/uranium/baariette.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/uranium/baariette_shiny.png"
-    }  ]
+    }
+  ]
 }

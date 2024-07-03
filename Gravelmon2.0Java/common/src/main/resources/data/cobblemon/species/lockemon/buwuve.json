@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "buwuve",
-  "nationalPokedexNumber": 1948,
+  "nationalPokedexNumber": 3511,
   "primaryType": "water",
   "abilities": [
     "strongjaw",
@@ -60,7 +60,7 @@
     "39:aquatail",
     "44:mist",
     "50:hydropump",
-    "egg:boomburstsound",
+    "egg:boomburst",
     "egg:bounce",
     "egg:counter",
     "egg:haze",

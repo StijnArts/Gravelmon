@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_wreclaw",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_wreclaw",
       "texture": "cobblemon:textures/pokemon/atlas/wreclaw.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/wreclaw_shiny.png"
-    }  ]
+    }
+  ]
 }

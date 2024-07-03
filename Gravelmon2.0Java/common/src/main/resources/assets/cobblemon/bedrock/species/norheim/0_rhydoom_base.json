@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:norheim_rhydoom",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norheim_rhydoom",
       "texture": "cobblemon:textures/pokemon/norheim/rhydoom.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/norheim/rhydoom_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_velifite",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_velifite",
       "texture": "cobblemon:textures/pokemon/midamis/velifite.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/velifite_shiny.png"
-    }  ]
+    }
+  ]
 }

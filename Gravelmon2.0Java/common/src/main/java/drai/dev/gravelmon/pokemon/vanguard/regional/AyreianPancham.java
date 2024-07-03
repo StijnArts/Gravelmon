@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianPancham extends Pokemon {
-    public AyreianPancham(int dexNo) {
-        super(dexNo,"AyreianPancham",
+    public AyreianPancham(String name, Aspect aspect) {
+        super(name, aspect,"AyreianPancham",
                 Type.FIRE, Type.FIGHTING,
                 new Stats(67,82,62,43,46,48),
                 List.of(Ability.IRON_FIST, Ability.MOLD_BREAKER), Ability.SCRAPPY,

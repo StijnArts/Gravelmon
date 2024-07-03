@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.lockemon.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class KaskadianReuniclus extends Pokemon {
-    public KaskadianReuniclus(int dexNo) {
-        super(dexNo,"KaskadianReuniclus",
+    public KaskadianReuniclus(String name, Aspect aspect) {
+        super(name, aspect,"KaskadianReuniclus",
                 Type.PSYCHIC, Type.WATER,
                 new Stats(110, 50, 100, 110, 100, 20),
                 List.of(Ability.OVERCOAT, Ability.CARBON_CAPTURE), Ability.MAGIC_GUARD,

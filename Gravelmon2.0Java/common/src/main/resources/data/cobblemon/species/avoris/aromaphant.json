@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aromaphant",
-  "nationalPokedexNumber": 1609,
+  "nationalPokedexNumber": 2207,
   "primaryType": "fairy",
   "abilities": [
     "healer",
@@ -55,7 +55,7 @@
     "9:aromatherapy",
     "12:drainingkiss",
     "15:faketears",
-    "18:roundsound",
+    "18:round",
     "21:stringshot",
     "24:cottonspore",
     "27:energyball",

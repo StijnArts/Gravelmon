@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_coltergeist",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sage_coltergeist",
       "texture": "cobblemon:textures/pokemon/sage/coltergeist.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/sage/coltergeist_shiny.png"
-    }  ]
+    }
+  ]
 }

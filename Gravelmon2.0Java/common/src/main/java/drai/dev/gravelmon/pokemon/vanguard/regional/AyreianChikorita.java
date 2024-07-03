@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.vanguard.regional;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class AyreianChikorita extends Pokemon {
-    public AyreianChikorita(int dexNo) {
-        super(dexNo,"AyreianChikorita",
+    public AyreianChikorita(String name, Aspect aspect) {
+        super(name, aspect,"AyreianChikorita",
                 Type.GRASS, Type.FAIRY,
                 new Stats(45,45,65,45,65,55),
                 List.of(Ability.PIXILATE, Ability.TRIAGE), Ability.MISTY_SURGE,

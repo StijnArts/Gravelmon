@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:novrai_itcheep",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_itcheep",
       "texture": "cobblemon:textures/pokemon/novrai/itcheep.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/novrai/itcheep_shiny.png"
-    }  ]
+    }
+  ]
 }

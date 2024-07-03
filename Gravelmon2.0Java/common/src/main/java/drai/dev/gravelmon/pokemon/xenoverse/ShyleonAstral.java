@@ -1,15 +1,16 @@
 package drai.dev.gravelmon.pokemon.xenoverse;
 
 import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 import java.util.*;
 
 import java.util.*;
 
 public class ShyleonAstral extends Pokemon {
-    public ShyleonAstral(int dexNo) {
-        super(dexNo,"ShyleonAstral",
+    public ShyleonAstral(String name, Aspect aspect) {
+        super(name, aspect,"ShyleonAstral",
                 Type.GRASS, Type.FAIRY,
                 new Stats(143, 74, 98, 133, 98, 154),
                 List.of(Ability.JUNGLE_SPIRIT), Ability.JUNGLE_SPIRIT,

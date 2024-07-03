@@ -1,13 +1,14 @@
 package drai.dev.gravelmon.pokemon.ionos.regional;
 
 
+import drai.dev.gravelmon.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.data.attributes.conditions.*;
 
 import java.util.*;
 public class IonosianStarmie extends drai.dev.gravelmon.pokemon.Pokemon {
-    public IonosianStarmie(int dex) {
-        super(dex, "Starmie",
+    public IonosianStarmie(String name, Aspect aspect) {
+        super(name, aspect, "Starmie",
                 Type.STEEL, Type.FIRE,
                 new Stats(0,
                         0,

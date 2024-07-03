@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:atlas_nyglare",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_nyglare",
       "texture": "cobblemon:textures/pokemon/atlas/nyglare.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/atlas/nyglare_shiny.png"
-    }  ]
+    }
+  ]
 }

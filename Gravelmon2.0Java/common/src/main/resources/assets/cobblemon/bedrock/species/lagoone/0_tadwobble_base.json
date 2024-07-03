@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:lagoone_tadwobble",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_tadwobble",
       "texture": "cobblemon:textures/pokemon/lagoone/tadwobble.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/lagoone/tadwobble_shiny.png"
-    }  ]
+    }
+  ]
 }

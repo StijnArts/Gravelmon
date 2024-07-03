@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_delfender",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_delfender",
       "texture": "cobblemon:textures/pokemon/flux/delfender.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/delfender_shiny.png"
-    }  ]
+    }
+  ]
 }

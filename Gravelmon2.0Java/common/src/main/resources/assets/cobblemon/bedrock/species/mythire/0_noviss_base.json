@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:mythire_noviss",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mythire_noviss",
       "texture": "cobblemon:textures/pokemon/mythire/noviss.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/mythire/noviss_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:isiah_larvatt",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:isiah_larvatt",
       "texture": "cobblemon:textures/pokemon/isiah/larvatt.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/isiah/larvatt_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:midamis_cradvris",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:midamis_cradvris",
       "texture": "cobblemon:textures/pokemon/midamis/cradvris.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/midamis/cradvris_shiny.png"
-    }  ]
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:flux_hydrocean",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:flux_hydrocean",
       "texture": "cobblemon:textures/pokemon/flux/hydrocean.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/flux/hydrocean_shiny.png"
-    }  ]
+    }
+  ]
 }

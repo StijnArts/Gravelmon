@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "argoceane",
-  "nationalPokedexNumber": 1703,
+  "nationalPokedexNumber": 2301,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
@@ -50,20 +50,20 @@
   "moves": [
     "1:disable",
     "1:pound",
-    "1:singsound",
-    "7:howlsound",
-    "14:nobleroarsound",
+    "1:sing",
+    "7:howl",
+    "14:nobleroar",
     "21:bite",
     "28:bodyslam",
     "35:rest",
     "42:playrough",
-    "49:hypervoicesound",
+    "49:hypervoice",
     "56:psychicfangs",
     "63:crunch",
     "70:wish",
     "77:gyroball",
-    "84:perishsongsound",
-    "91:boomburstsound"  ],
+    "84:perishsong",
+    "91:boomburst"  ],
   "labels": [
     "oceane",
     "not_modeled"

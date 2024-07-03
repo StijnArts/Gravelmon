@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_nyaga",
       "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:deneb_nyaga",
       "texture": "cobblemon:textures/pokemon/deneb/nyaga.png",
       "layers": []
     },
@@ -14,5 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/deneb/nyaga_shiny.png"
-    }  ]
+    }
+  ]
 }
