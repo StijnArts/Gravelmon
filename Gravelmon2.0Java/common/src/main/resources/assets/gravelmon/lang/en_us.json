@@ -14,7 +14,7 @@
   "item.gravelmon.dawn_ball": "Dawn Ball",
   "item.gravelmon.dawn_ball.tooltip": "3× during the morning and day",
   "item.gravelmon.sun_ball": "Sun Ball",
-  "item.gravelmon.sun_ball.tooltip": "1× catch rate",
+  "item.gravelmon.sun_ball.tooltip": "5× on Fire-types, Cosmic-types and Light-types",
   "item.gravelmon.feather_ball": "Feather Ball",
   "item.gravelmon.feather_ball.tooltip": "1× to 4×, decreased by the target's weight",
   "item.gravelmon.typing_ball": "Typing Ball",

@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation1_eghooddish",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation1/eghooddish.png",
+      "model": "cobblemon:generation1_eghooddish.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/eghooddish/eghooddish.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation1/eghooddish_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation1/eghooddish/eghooddish_shiny.png"
     }  ]
 }
