@@ -6,9 +6,9 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation8_hoenniandrakloak.geo",
       "poser": "cobblemon:generation8_hoenniandrakloak",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak.png",
       "layers": [
         {
           "name": "glow"
@@ -18,6 +18,11 @@
         },
         {
           "name": "emissive"
+        },
+        {
+          "name": "emmisive",
+          "texture":"cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak_fire.png",
+          "emissive": true
         },
         {
           "name": "emissive2"
@@ -35,9 +40,9 @@
         "hoennian",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation8_hoenniandrakloak.geo",
       "poser": "cobblemon:generation8_hoenniandrakloak",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak_shiny.png",
       "layers": [
         {
           "name": "glow"
@@ -47,6 +52,11 @@
         },
         {
           "name": "emissive"
+        },
+        {
+          "name": "emmisive",
+          "texture":"cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak_fire_shiny.png",
+          "emissive": true
         },
         {
           "name": "emissive2"

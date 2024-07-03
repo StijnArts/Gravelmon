@@ -6,9 +6,9 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation8_hoenniandreepy.geo",
       "poser": "cobblemon:generation8_hoenniandreepy",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandreepy.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandreepy/dreepy.png",
       "layers": [
         {
           "name": "glow"
@@ -23,7 +23,16 @@
           "name": "emissive2"
         },
         {
-          "name": "flame"
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/generation8/hoenniandreepy/dreepy_flame0_emissive.png",
+              "cobblemon:textures/pokemon/generation8/hoenniandreepy/dreepy_flame1_emissive.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true
         },
         {
           "name": "tail"
@@ -35,9 +44,9 @@
         "hoennian",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation8_hoenniandreepy.geo",
       "poser": "cobblemon:generation8_hoenniandreepy",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandreepy_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandreepy/dreepy_shiny.png",
       "layers": [
         {
           "name": "glow"
@@ -52,7 +61,16 @@
           "name": "emissive2"
         },
         {
-          "name": "flame"
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/generation8/hoenniandreepy/dreepy_flame0_emissive_shiny.png",
+              "cobblemon:textures/pokemon/generation8/hoenniandreepy/dreepy_flame1_emissive_shiny.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true
         },
         {
           "name": "tail"

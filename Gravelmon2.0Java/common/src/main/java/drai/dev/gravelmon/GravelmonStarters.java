@@ -321,7 +321,7 @@ public class GravelmonStarters {
                                 "Aquaff level=10"
                         )
                 ));
-        GravelmonStarterManager.registerNewStarter(null,
+        GravelmonStarterManager.registerNewStarter("Hoenn",
                 createCategory("Post Catastrophe",
                         List.of(
                                 "Nimbleaf level=10",

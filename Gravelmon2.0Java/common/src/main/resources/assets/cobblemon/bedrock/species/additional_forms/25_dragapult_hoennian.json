@@ -6,9 +6,9 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation8_hoenniandragapult.geo",
       "poser": "cobblemon:generation8_hoenniandragapult",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult.png",
       "layers": [
         {
           "name": "glow"
@@ -18,6 +18,11 @@
         },
         {
           "name": "emissive"
+        },
+        {
+          "name": "emmisive",
+          "texture":"cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire.png",
+          "emissive": true
         },
         {
           "name": "emissive2"
@@ -35,9 +40,9 @@
         "hoennian",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation8_hoenniandragapult.geo",
       "poser": "cobblemon:generation8_hoenniandragapult",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_shiny.png",
       "layers": [
         {
           "name": "glow"
@@ -56,6 +61,11 @@
         },
         {
           "name": "tail"
+        },
+        {
+          "name": "emmisive",
+          "texture":"cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire_shiny.png",
+          "emissive": true
         }
       ]
     }

@@ -1,20 +1,106 @@
 {
-  "portraitScale": 0.165,
-  "portraitTranslation": [0.0, 1.4, 0.0],
-  "profileScale": 0.22,
-  "profileTranslation": [0.0, 1.55, -20.0],
+  "head": "head",
+  "portraitScale": 1,
+  "portraitTranslation": [0.0, 0, 0.0],
+  "profileScale": 1,
+  "profileTranslation": [0.0,0 , -20.0],
+  "cry": "bedrock(aquilor, cry)",
   "poses": {
-    "profile": {
-      "poseName": "profile",
-      "poseTypes": ["PROFILE"],
+    "standing": {
+      "poseName": "standing",
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, pc_fix)"]
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "look",
+        "bedrock(aquilor, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(aquilor, blink)"]
+        }
+      ]
     },
-    "portrait": {
-      "poseName": "portrait",
-      "poseTypes": ["NONE","PORTRAIT"],
+    "battle-idle": {
+      "poseName": "battle-idle",
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, summary_fix)"]
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "look",
+        "bedrock(aquilor, battle_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(aquilor, blink)"]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "look",
+        "bedrock(aquilor, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(aquilor, blink)"]
+        }
+      ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [ "FLY" ],
+      "animations": [
+        "look",
+        "bedrock(aquilor, air_fly)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(aquilor, blink)"]
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [ "SLEEP" ],
+      "animations": [
+        "bedrock(aquilor, sleep)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(aquilor, blink)"]
+        }
+      ]
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": [ "HOVER" ],
+      "animations": [
+        "look",
+        "bedrock(aquilor, air_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(aquilor, blink)"]
+        }
+      ]
     }
   }
 }
