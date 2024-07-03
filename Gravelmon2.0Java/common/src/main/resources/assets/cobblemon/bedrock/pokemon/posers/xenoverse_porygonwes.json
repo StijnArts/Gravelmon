@@ -8,7 +8,7 @@
     "standing": {
       "poseName": "standing",
       "transformTicks": 10,
-      "poseTypes": ["STAND", "NONE", "PROFILE", "FLOAT", "HOVER"],
+      "poseTypes": ["STAND", "NONE", "PROFILE", "FLOAT", "HOVER", "SLEEP"],
       "animations": [
         "bedrock(porygon_wes, ground_idle)"
       ]
