@@ -101,8 +101,8 @@ public class EghoNoctowl extends Pokemon {
         this.setLangFileName("Noctowl");
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setCanFly(true);
-        //this.setBaseScale(1);
-        //this.setHitbox(1,1.7);
-        //this.setModeled(true);
+        setModeled(true);
+        setBaseScale(0.95);
+        setHitbox(1.25,1.9);
     }
 }
