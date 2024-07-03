@@ -7,7 +7,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modImplementation "com.cobblemon:mod:${cobblemon_file}"
 //    modImplementation "maven.modrinth:gravels-extended-battles:K5fBWJ33"
-    modImplementation files("libs/gravels_extended_battles-1.4.0b.jar")
+    modImplementation files("libs/gravels_extended_battles-1.4.0.jar")
     modImplementation "curse.maven:kotlin-common-351264:${kotlin_forge_file}"
 
 }
