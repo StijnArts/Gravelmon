@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goaturly",
-  "nationalPokedexNumber": 3080,
+  "nationalPokedexNumber": 3079,
   "primaryType": "normal",
   "abilities": [
     "sapsipper",
@@ -133,7 +133,7 @@
     "cobblemon.species.goaturly.desc"
   ],
   "preEvolution": "goatanaa",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

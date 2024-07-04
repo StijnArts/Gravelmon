@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "daimonize",
-  "nationalPokedexNumber": 5046,
+  "nationalPokedexNumber": 5045,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.daimonize.desc"
   ],
   "preEvolution": "bubill",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

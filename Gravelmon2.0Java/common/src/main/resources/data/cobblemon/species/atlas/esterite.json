@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "esterite",
-  "nationalPokedexNumber": 5448,
+  "nationalPokedexNumber": 5447,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -128,7 +128,7 @@
     "cobblemon.species.esterite.desc"
   ],
   "preEvolution": "compella",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

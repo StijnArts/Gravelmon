@@ -119,7 +119,7 @@
     "cobblemon.species.toxapexx.desc"
   ],
   "preEvolution": "mareanie form=x",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -231,7 +231,7 @@
   "pokedex": [
     "cobblemon.species.hoenniantoxapex.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

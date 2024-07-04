@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mandiblade",
-  "nationalPokedexNumber": 4864,
+  "nationalPokedexNumber": 4863,
   "primaryType": "steel",
   "secondaryType": "rock",
   "abilities": [
@@ -127,7 +127,7 @@
     "cobblemon.species.mandiblade.desc"
   ],
   "preEvolution": "ambilade",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

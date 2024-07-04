@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "beadamup",
-  "nationalPokedexNumber": 3506,
+  "nationalPokedexNumber": 3505,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
     "technician",
-    "h:keeneye"
+    "h:ferroflux"
   ],
   "baseStats": {
     "hp": 70,
@@ -91,7 +91,7 @@
     "cobblemon.species.beadamup.desc"
   ],
   "preEvolution": "kituff",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

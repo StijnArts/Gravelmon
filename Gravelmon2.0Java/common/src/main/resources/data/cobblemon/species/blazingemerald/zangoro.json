@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zangoro",
-  "nationalPokedexNumber": 3747,
+  "nationalPokedexNumber": 3746,
   "primaryType": "normal",
   "secondaryType": "dark",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.zangoro.desc"
   ],
   "preEvolution": "zangoose",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

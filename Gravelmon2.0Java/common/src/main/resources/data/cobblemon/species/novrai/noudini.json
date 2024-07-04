@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "noudini",
-  "nationalPokedexNumber": 5108,
+  "nationalPokedexNumber": 5107,
   "primaryType": "psychic",
   "secondaryType": "poison",
   "abilities": [
@@ -150,7 +150,7 @@
     "cobblemon.species.noudini.desc"
   ],
   "preEvolution": "slugic",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oceadon",
-  "nationalPokedexNumber": 4227,
+  "nationalPokedexNumber": 4226,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.oceadon.desc"
   ],
   "preEvolution": "heliark",
-  "baseScale": 0.625,
+  "baseScale": 0.4166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

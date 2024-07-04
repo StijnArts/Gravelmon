@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nibblish",
-  "nationalPokedexNumber": 3888,
+  "nationalPokedexNumber": 3887,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -86,7 +86,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

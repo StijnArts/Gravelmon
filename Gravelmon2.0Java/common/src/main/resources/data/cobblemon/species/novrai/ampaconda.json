@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ampaconda",
-  "nationalPokedexNumber": 5212,
+  "nationalPokedexNumber": 5211,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -142,7 +142,7 @@
   "pokedex": [
     "cobblemon.species.ampaconda.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

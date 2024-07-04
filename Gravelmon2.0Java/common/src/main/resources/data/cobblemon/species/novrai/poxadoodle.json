@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "poxadoodle",
-  "nationalPokedexNumber": 5224,
+  "nationalPokedexNumber": 5223,
   "primaryType": "normal",
   "secondaryType": "poison",
   "abilities": [
@@ -124,7 +124,7 @@
     "cobblemon.species.poxadoodle.desc"
   ],
   "preEvolution": "itcheep",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.symphot.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

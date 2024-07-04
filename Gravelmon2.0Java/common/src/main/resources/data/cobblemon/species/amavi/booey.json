@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "booey",
-  "nationalPokedexNumber": 5701,
+  "nationalPokedexNumber": 5700,
   "primaryType": "ghost",
   "secondaryType": "electric",
   "abilities": [
@@ -134,7 +134,7 @@
   "pokedex": [
     "cobblemon.species.booey.desc"
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

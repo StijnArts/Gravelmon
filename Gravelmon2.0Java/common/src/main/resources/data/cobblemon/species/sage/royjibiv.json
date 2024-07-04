@@ -155,7 +155,7 @@
     "cobblemon.species.royjibiv.desc"
   ],
   "preEvolution": "arjibi",
-  "baseScale": 1.125,
+  "baseScale": 0.75,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

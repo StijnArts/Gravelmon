@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cereboost",
-  "nationalPokedexNumber": 3618,
+  "nationalPokedexNumber": 3617,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -153,7 +153,7 @@
     "cobblemon.species.cereboost.desc"
   ],
   "preEvolution": "brailien",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

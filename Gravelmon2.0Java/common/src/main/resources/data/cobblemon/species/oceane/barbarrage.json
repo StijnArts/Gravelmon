@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barbarrage",
-  "nationalPokedexNumber": 2254,
+  "nationalPokedexNumber": 2253,
   "primaryType": "ground",
   "abilities": [
     "skilllink",
@@ -74,7 +74,7 @@
     "cobblemon.species.barbarrage.desc"
   ],
   "preEvolution": "armacle",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

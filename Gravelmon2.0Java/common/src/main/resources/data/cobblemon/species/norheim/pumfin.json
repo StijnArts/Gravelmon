@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pumfin",
-  "nationalPokedexNumber": 3170,
+  "nationalPokedexNumber": 3169,
   "primaryType": "dark",
   "secondaryType": "grass",
   "abilities": [
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.pumfin.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

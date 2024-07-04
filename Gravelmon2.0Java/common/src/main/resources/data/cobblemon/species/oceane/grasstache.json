@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grasstache",
-  "nationalPokedexNumber": 2290,
+  "nationalPokedexNumber": 2289,
   "primaryType": "grass",
   "abilities": [
     "anticipation",
@@ -82,7 +82,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blizound",
-  "nationalPokedexNumber": 4140,
+  "nationalPokedexNumber": 4139,
   "primaryType": "sound",
   "secondaryType": "ice",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.blizound.desc"
   ],
   "preEvolution": "frostyke",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cephalofear",
-  "nationalPokedexNumber": 3905,
+  "nationalPokedexNumber": 3904,
   "primaryType": "psychic",
   "secondaryType": "normal",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.cephalofear.desc"
   ],
   "preEvolution": "calaloof",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

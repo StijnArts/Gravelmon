@@ -153,7 +153,7 @@
   "pokedex": [
     "cobblemon.species.woebehind.desc"
   ],
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "burnshee",
-  "nationalPokedexNumber": 3400,
+  "nationalPokedexNumber": 3399,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.burnshee.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

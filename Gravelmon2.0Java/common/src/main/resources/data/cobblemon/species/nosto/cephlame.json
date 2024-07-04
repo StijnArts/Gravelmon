@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cephlame",
-  "nationalPokedexNumber": 3561,
+  "nationalPokedexNumber": 3560,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.cephlame.desc"
   ],
   "preEvolution": "squignite",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

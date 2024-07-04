@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "origalleon",
-  "nationalPokedexNumber": 2279,
+  "nationalPokedexNumber": 2278,
   "primaryType": "electric",
   "secondaryType": "ghost",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.origalleon.desc"
   ],
   "preEvolution": "sentresha",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

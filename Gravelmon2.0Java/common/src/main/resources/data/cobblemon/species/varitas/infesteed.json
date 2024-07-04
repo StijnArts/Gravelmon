@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "infesteed",
-  "nationalPokedexNumber": 2354,
+  "nationalPokedexNumber": 2353,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -108,7 +108,7 @@
     "cobblemon.species.infesteed.desc"
   ],
   "preEvolution": "severm",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

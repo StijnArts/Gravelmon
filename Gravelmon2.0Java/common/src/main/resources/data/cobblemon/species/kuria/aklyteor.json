@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aklyteor",
-  "nationalPokedexNumber": 4236,
+  "nationalPokedexNumber": 4235,
   "primaryType": "rock",
   "secondaryType": "cosmic",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.aklyteor.desc"
   ],
   "preEvolution": "clusteorus",
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

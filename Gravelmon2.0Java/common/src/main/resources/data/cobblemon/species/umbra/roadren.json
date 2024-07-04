@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "roadren",
-  "nationalPokedexNumber": 3730,
+  "nationalPokedexNumber": 3729,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.roadren.desc"
   ],
   "preEvolution": "chubren",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

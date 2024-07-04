@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spurocious",
-  "nationalPokedexNumber": 3325,
+  "nationalPokedexNumber": 3324,
   "primaryType": "dark",
   "abilities": [
     "sandforce",
@@ -67,7 +67,7 @@
     "cobblemon.species.spurocious.desc"
   ],
   "preEvolution": "sharpunk",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

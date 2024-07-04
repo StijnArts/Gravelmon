@@ -1,11 +1,12 @@
 {
   "implemented": true,
   "name": "tofrug",
-  "nationalPokedexNumber": 3472,
+  "nationalPokedexNumber": 3471,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
     "poisontouch",
+    "druidry",
     "h:prankster"
   ],
   "baseStats": {

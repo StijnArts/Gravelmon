@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cawptain",
-  "nationalPokedexNumber": 2609,
+  "nationalPokedexNumber": 2608,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -102,7 +102,7 @@
     "cobblemon.species.cawptain.desc"
   ],
   "preEvolution": "cawlor",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

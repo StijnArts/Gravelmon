@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kamurados",
-  "nationalPokedexNumber": 2368,
+  "nationalPokedexNumber": 2367,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.kamurados.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

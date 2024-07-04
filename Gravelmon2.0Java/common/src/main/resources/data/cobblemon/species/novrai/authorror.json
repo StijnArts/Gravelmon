@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "authorror",
-  "nationalPokedexNumber": 5250,
+  "nationalPokedexNumber": 5249,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -138,7 +138,7 @@
     "cobblemon.species.authorror.desc"
   ],
   "preEvolution": "calligrave",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

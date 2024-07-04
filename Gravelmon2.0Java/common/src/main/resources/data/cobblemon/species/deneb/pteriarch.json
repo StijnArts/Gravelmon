@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pteriarch",
-  "nationalPokedexNumber": 4765,
+  "nationalPokedexNumber": 4764,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -126,7 +126,7 @@
     "cobblemon.species.pteriarch.desc"
   ],
   "preEvolution": "ptervus",
-  "baseScale": 0.7999999999999999,
+  "baseScale": 0.5333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

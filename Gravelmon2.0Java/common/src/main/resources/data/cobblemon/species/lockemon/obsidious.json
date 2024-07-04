@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "obsidious",
-  "nationalPokedexNumber": 3522,
+  "nationalPokedexNumber": 3521,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -76,7 +76,7 @@
   "pokedex": [
     "cobblemon.species.obsidious.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hogstead",
-  "nationalPokedexNumber": 3644,
+  "nationalPokedexNumber": 3643,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -114,7 +114,7 @@
     "cobblemon.species.hogstead.desc"
   ],
   "preEvolution": "lumboar",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

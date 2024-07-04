@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twicing",
-  "nationalPokedexNumber": 5712,
+  "nationalPokedexNumber": 5711,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -66,7 +66,7 @@
     "cobblemon.species.twicing.desc"
   ],
   "preEvolution": "singlaze",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

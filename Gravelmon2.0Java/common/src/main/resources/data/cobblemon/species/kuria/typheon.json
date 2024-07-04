@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "typheon",
-  "nationalPokedexNumber": 4206,
+  "nationalPokedexNumber": 4205,
   "primaryType": "flying",
   "abilities": [
     "aerilate",
@@ -108,7 +108,7 @@
   "pokedex": [
     "cobblemon.species.typheon.desc"
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mountunn",
-  "nationalPokedexNumber": 3279,
+  "nationalPokedexNumber": 3278,
   "primaryType": "electric",
   "secondaryType": "rock",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.mountunn.desc"
   ],
   "preEvolution": "afunn",
-  "baseScale": 0.9500000000000001,
+  "baseScale": 0.6333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

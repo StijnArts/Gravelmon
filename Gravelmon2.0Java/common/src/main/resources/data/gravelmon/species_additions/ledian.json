@@ -95,7 +95,7 @@
   "pokedex": [
     "cobblemon.species.alteranledian.desc"
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -218,7 +218,7 @@
     "cobblemon.species.relicledian.desc"
   ],
   "preEvolution": "ledyba form=relic",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

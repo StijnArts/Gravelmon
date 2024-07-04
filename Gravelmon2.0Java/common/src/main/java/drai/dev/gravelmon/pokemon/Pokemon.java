@@ -218,12 +218,6 @@ public class Pokemon {
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
                 Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if (result != null) {
-                    if (isAnAdditionalForm(result)) {
-                        var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
-                        if (resultName.isPresent()) {
-                            evolutionEntry.setResult(resultName.get() + " " + result.getAdditionalAspect().getName().toLowerCase());
-                        }
-                    }
                     if (evolutionEntry.getRequiredContext() != null) {
                         addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);
                     } else {
@@ -256,8 +250,6 @@ public class Pokemon {
                     } else {
                         result.setPreEvolution(pokemon.getCleanName());
                     }
-                } else {
-                    ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
                 }
             }
             var evaluatedForms = new ArrayList<>();
@@ -323,6 +315,23 @@ public class Pokemon {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
                         resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().getName().toLowerCase()));
                     }
+                } else {
+                    ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
+                }
+            }
+
+            for (var form : pokemon.forms){
+                if(form.getAbilities().contains(form.getHiddenAbility())){
+                    form.setHiddenAbility(null);
+                }
+                for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
+                    Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                    if (result != null) {
+                        if (isAnAdditionalForm(result)) {
+                            var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
+                            resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().getName().toLowerCase()));
+                        }
+                    }
                 }
             }
         }
@@ -333,6 +342,9 @@ public class Pokemon {
             }
             if (pokemon.stats.isEmpty()) {
                 pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
+            }
+            if(pokemon.getAbilities().contains(pokemon.hiddenAbility)){
+                pokemon.hiddenAbility = null;
             }
         }
         System.out.println(pokemonWithZeroBaseStats);

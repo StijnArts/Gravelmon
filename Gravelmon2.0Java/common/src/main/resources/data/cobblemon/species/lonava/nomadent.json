@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nomadent",
-  "nationalPokedexNumber": 3363,
+  "nationalPokedexNumber": 3362,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -71,7 +71,7 @@
     "cobblemon.species.nomadent.desc"
   ],
   "preEvolution": "dorhouse",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

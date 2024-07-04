@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crustitan",
-  "nationalPokedexNumber": 2794,
+  "nationalPokedexNumber": 2793,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.crustitan.desc"
   ],
   "preEvolution": "armust",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

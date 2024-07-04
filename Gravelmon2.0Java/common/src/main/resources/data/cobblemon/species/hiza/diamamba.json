@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "diamamba",
-  "nationalPokedexNumber": 2731,
+  "nationalPokedexNumber": 2730,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.diamamba.desc"
   ],
   "preEvolution": "rattletack",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

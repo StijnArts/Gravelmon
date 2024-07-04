@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bronkilles",
-  "nationalPokedexNumber": 5727,
+  "nationalPokedexNumber": 5726,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.bronkilles.desc"
   ],
   "preEvolution": "coltroy",
-  "baseScale": 0.6749999999999999,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

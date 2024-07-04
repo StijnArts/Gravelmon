@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grissly",
-  "nationalPokedexNumber": 4747,
+  "nationalPokedexNumber": 4746,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -128,7 +128,7 @@
     "cobblemon.species.grissly.desc"
   ],
   "preEvolution": "velvelt",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

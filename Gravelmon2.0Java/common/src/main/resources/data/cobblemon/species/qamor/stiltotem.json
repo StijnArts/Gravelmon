@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stiltotem",
-  "nationalPokedexNumber": 3988,
+  "nationalPokedexNumber": 3987,
   "primaryType": "grass",
   "abilities": [
     "longreach",
@@ -76,7 +76,7 @@
     "cobblemon.species.stiltotem.desc"
   ],
   "preEvolution": "sweetilt",
-  "baseScale": 1.2249999999999999,
+  "baseScale": 0.8166666666666668,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

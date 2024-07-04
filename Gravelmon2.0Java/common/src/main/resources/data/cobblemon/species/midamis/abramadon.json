@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "abramadon",
-  "nationalPokedexNumber": 4586,
+  "nationalPokedexNumber": 4585,
   "primaryType": "psychic",
   "secondaryType": "rock",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.abramadon.desc"
   ],
   "preEvolution": "juldon",
-  "baseScale": 0.6749999999999999,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -142,7 +142,7 @@
     "cobblemon.species.deltacofagrigus.desc"
   ],
   "preEvolution": "yamask form=delta",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -264,7 +264,7 @@
     "cobblemon.species.cofagrigusx.desc"
   ],
   "preEvolution": "yamask form=x",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

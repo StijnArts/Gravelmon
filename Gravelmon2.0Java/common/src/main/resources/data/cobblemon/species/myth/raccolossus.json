@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raccolossus",
-  "nationalPokedexNumber": 4427,
+  "nationalPokedexNumber": 4426,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.raccolossus.desc"
   ],
   "preEvolution": "draccane",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

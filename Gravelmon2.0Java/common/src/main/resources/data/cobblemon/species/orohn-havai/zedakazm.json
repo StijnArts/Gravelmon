@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zedakazm",
-  "nationalPokedexNumber": 3060,
+  "nationalPokedexNumber": 3059,
   "primaryType": "dark",
   "secondaryType": "ghost",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.zedakazm.desc"
   ],
-  "baseScale": 1.05,
+  "baseScale": 0.7000000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

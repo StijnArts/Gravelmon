@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "folifarig",
-  "nationalPokedexNumber": 4743,
+  "nationalPokedexNumber": 4742,
   "primaryType": "normal",
   "secondaryType": "psychic",
   "abilities": [
@@ -108,7 +108,7 @@
     "cobblemon.species.folifarig.desc"
   ],
   "preEvolution": "girafarig",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

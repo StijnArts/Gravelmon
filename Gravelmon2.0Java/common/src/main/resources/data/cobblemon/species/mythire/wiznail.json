@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wiznail",
-  "nationalPokedexNumber": 3780,
+  "nationalPokedexNumber": 3779,
   "primaryType": "psychic",
   "abilities": [
     "magician",
@@ -90,7 +90,7 @@
     "cobblemon.species.wiznail.desc"
   ],
   "preEvolution": "shpell",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

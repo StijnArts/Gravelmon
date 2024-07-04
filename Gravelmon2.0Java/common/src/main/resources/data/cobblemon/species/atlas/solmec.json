@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solmec",
-  "nationalPokedexNumber": 5414,
+  "nationalPokedexNumber": 5413,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
@@ -114,7 +114,7 @@
     "cobblemon.species.solmec.desc"
   ],
   "preEvolution": "dialith",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

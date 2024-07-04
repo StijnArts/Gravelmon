@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "argoceane",
-  "nationalPokedexNumber": 2301,
+  "nationalPokedexNumber": 2300,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.argoceane.desc"
   ],
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -212,7 +212,7 @@
     "cobblemon.species.deltamilotic.desc"
   ],
   "preEvolution": "feebas form=delta",
-  "baseScale": 0.775,
+  "baseScale": 0.5166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -356,7 +356,7 @@
     "cobblemon.species.seviianmilotic.desc"
   ],
   "preEvolution": "feebas form=seviian",
-  "baseScale": 0.775,
+  "baseScale": 0.5166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

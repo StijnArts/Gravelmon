@@ -361,4 +361,8 @@ public class PokemonForm {
     public void setDropAmount(int i) {
         dropAmount=i;
     }
+
+    public void setHiddenAbility(Ability ability) {
+        this.hiddenAbility = ability;
+    }
 }

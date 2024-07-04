@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hullk",
-  "nationalPokedexNumber": 3957,
+  "nationalPokedexNumber": 3956,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.hullk.desc"
   ],
-  "baseScale": 1.45,
+  "baseScale": 0.9666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

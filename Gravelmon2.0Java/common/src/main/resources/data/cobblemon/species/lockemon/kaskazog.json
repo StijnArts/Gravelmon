@@ -1,11 +1,12 @@
 {
   "implemented": true,
   "name": "kaskazog",
-  "nationalPokedexNumber": 3473,
+  "nationalPokedexNumber": 3472,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
     "poisontouch",
+    "druidry",
     "h:prankster"
   ],
   "baseStats": {
@@ -82,7 +83,7 @@
     "cobblemon.species.kaskazog.desc"
   ],
   "preEvolution": "tofrug",
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dokuduru",
-  "nationalPokedexNumber": 4055,
+  "nationalPokedexNumber": 4054,
   "primaryType": "psychic",
   "abilities": [
     "owntempo",
@@ -70,7 +70,7 @@
     "cobblemon.species.dokuduru.desc"
   ],
   "preEvolution": "parumpum",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

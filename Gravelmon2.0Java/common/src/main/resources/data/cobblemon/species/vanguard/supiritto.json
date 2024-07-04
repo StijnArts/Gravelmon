@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "supiritto",
-  "nationalPokedexNumber": 4098,
+  "nationalPokedexNumber": 4097,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -151,7 +151,7 @@
     "cobblemon.species.supiritto.desc"
   ],
   "preEvolution": "wolfum",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

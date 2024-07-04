@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lobstrike",
-  "nationalPokedexNumber": 5051,
+  "nationalPokedexNumber": 5050,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -142,7 +142,7 @@
     "cobblemon.species.lobstrike.desc"
   ],
   "preEvolution": "crable",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

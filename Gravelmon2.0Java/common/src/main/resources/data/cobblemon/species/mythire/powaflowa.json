@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "powaflowa",
-  "nationalPokedexNumber": 3814,
+  "nationalPokedexNumber": 3813,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -97,7 +97,7 @@
     "cobblemon.species.powaflowa.desc"
   ],
   "preEvolution": "radroot",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

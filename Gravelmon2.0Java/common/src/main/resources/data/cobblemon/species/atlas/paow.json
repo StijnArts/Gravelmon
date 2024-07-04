@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "paow",
-  "nationalPokedexNumber": 5571,
+  "nationalPokedexNumber": 5570,
   "primaryType": "dragon",
   "abilities": [
     "aftermath",
@@ -134,7 +134,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

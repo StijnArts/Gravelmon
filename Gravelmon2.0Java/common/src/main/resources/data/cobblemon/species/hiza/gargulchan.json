@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gargulchan",
-  "nationalPokedexNumber": 2721,
+  "nationalPokedexNumber": 2720,
   "primaryType": "rock",
   "secondaryType": "fighting",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.gargulchan.desc"
   ],
   "preEvolution": "cycrush",
-  "baseScale": 0.75,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

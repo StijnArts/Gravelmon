@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kappatoa",
-  "nationalPokedexNumber": 5291,
+  "nationalPokedexNumber": 5290,
   "primaryType": "normal",
   "secondaryType": "fire",
   "abilities": [
@@ -155,7 +155,7 @@
     "cobblemon.species.kappatoa.desc"
   ],
   "preEvolution": "kappow",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

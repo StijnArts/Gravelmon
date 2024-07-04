@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gorsylum",
-  "nationalPokedexNumber": 4073,
+  "nationalPokedexNumber": 4072,
   "primaryType": "ghost",
   "secondaryType": "dragon",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.gorsylum.desc"
   ],
   "preEvolution": "encantomb",
-  "baseScale": 0.65,
+  "baseScale": 0.43333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

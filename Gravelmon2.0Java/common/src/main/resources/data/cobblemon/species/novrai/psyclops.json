@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "psyclops",
-  "nationalPokedexNumber": 5314,
+  "nationalPokedexNumber": 5313,
   "primaryType": "psychic",
   "secondaryType": "fighting",
   "abilities": [
@@ -177,7 +177,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

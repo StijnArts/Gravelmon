@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hylamancer",
-  "nationalPokedexNumber": 3100,
+  "nationalPokedexNumber": 3099,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.hylamancer.desc"
   ],
   "preEvolution": "hexelotl",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

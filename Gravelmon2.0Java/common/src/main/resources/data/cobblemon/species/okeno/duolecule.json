@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "duolecule",
-  "nationalPokedexNumber": 4679,
+  "nationalPokedexNumber": 4678,
   "primaryType": "water",
   "abilities": [
     "hydration",
@@ -66,7 +66,7 @@
   "pokedex": [
     "cobblemon.species.duolecule.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

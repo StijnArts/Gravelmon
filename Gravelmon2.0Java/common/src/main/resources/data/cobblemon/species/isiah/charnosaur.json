@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "charnosaur",
-  "nationalPokedexNumber": 4375,
+  "nationalPokedexNumber": 4374,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.charnosaur.desc"
   ],
   "preEvolution": "lizmoke",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ovimourn",
-  "nationalPokedexNumber": 3317,
+  "nationalPokedexNumber": 3316,
   "primaryType": "ghost",
   "secondaryType": "fire",
   "abilities": [
@@ -82,7 +82,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "expolar",
-  "nationalPokedexNumber": 5068,
+  "nationalPokedexNumber": 5067,
   "primaryType": "ice",
   "secondaryType": "fighting",
   "abilities": [
@@ -136,7 +136,7 @@
     "cobblemon.species.expolar.desc"
   ],
   "preEvolution": "winture",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

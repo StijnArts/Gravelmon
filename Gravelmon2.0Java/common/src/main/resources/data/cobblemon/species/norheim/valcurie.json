@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "valcurie",
-  "nationalPokedexNumber": 3287,
+  "nationalPokedexNumber": 3286,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.valcurie.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

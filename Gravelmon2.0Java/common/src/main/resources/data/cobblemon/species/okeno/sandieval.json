@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandieval",
-  "nationalPokedexNumber": 4668,
+  "nationalPokedexNumber": 4667,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.sandieval.desc"
   ],
   "preEvolution": "coastone",
-  "baseScale": 1.25,
+  "baseScale": 0.8333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

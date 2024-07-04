@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "devimp",
-  "nationalPokedexNumber": 2516,
+  "nationalPokedexNumber": 2515,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -152,7 +152,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

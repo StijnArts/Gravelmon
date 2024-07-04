@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "calypstar",
-  "nationalPokedexNumber": 3989,
+  "nationalPokedexNumber": 3988,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.calypstar.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

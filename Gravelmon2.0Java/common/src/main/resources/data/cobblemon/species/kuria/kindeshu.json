@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kindeshu",
-  "nationalPokedexNumber": 4215,
+  "nationalPokedexNumber": 4214,
   "primaryType": "ghost",
   "secondaryType": "light",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.kindeshu.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

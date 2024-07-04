@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "catteraxe",
-  "nationalPokedexNumber": 3478,
+  "nationalPokedexNumber": 3477,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:keybone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "moves": [
     "1:fakeout",
     "1:growl",
@@ -105,11 +95,11 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:keybone",
+      "requiredContext": "minecraft:bone",
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mampth",
-  "nationalPokedexNumber": 5567,
+  "nationalPokedexNumber": 5566,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -115,7 +115,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

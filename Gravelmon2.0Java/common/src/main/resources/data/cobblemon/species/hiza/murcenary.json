@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "murcenary",
-  "nationalPokedexNumber": 2618,
+  "nationalPokedexNumber": 2617,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.murcenary.desc"
   ],
   "preEvolution": "skirmaki",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

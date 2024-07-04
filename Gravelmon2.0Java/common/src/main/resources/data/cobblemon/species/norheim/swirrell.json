@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swirrell",
-  "nationalPokedexNumber": 3160,
+  "nationalPokedexNumber": 3159,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -76,7 +76,7 @@
   "pokedex": [
     "cobblemon.species.swirrell.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

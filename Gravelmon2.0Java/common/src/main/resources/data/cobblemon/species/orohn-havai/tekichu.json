@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tekichu",
-  "nationalPokedexNumber": 3051,
+  "nationalPokedexNumber": 3050,
   "primaryType": "electric",
   "secondaryType": "fighting",
   "abilities": [
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.tekichu.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

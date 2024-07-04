@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "missacko",
-  "nationalPokedexNumber": 3257,
+  "nationalPokedexNumber": 3256,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.missacko.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

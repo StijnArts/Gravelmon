@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wellmr",
-  "nationalPokedexNumber": 3282,
+  "nationalPokedexNumber": 3281,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -66,7 +66,7 @@
   "pokedex": [
     "cobblemon.species.wellmr.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

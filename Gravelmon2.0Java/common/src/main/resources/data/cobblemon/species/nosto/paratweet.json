@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "paratweet",
-  "nationalPokedexNumber": 3583,
+  "nationalPokedexNumber": 3582,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -96,7 +96,7 @@
     "cobblemon.species.paratweet.desc"
   ],
   "preEvolution": "budcheep",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

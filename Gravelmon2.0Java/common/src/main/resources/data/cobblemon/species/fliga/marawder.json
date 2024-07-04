@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "marawder",
-  "nationalPokedexNumber": 3890,
+  "nationalPokedexNumber": 3889,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.marawder.desc"
   ],
   "preEvolution": "vicera",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

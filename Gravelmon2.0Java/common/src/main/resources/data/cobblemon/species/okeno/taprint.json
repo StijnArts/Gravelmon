@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "taprint",
-  "nationalPokedexNumber": 4645,
+  "nationalPokedexNumber": 4644,
   "primaryType": "psychic",
   "abilities": [
     "illuminate",
@@ -88,7 +88,7 @@
     "cobblemon.species.taprint.desc"
   ],
   "preEvolution": "tintap",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

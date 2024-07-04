@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "urbigeon",
-  "nationalPokedexNumber": 3569,
+  "nationalPokedexNumber": 3568,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -127,7 +127,7 @@
     "cobblemon.species.urbigeon.desc"
   ],
   "preEvolution": "streedove",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

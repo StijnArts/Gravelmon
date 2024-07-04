@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "igniff",
-  "nationalPokedexNumber": 4224,
+  "nationalPokedexNumber": 4223,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
@@ -84,7 +84,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

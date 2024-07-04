@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drajinn",
-  "nationalPokedexNumber": 4193,
+  "nationalPokedexNumber": 4192,
   "primaryType": "dragon",
   "abilities": [
     "sturdy",
@@ -75,7 +75,7 @@
     "cobblemon.species.drajinn.desc"
   ],
   "preEvolution": "dragurn",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wisopotron",
-  "nationalPokedexNumber": 5019,
+  "nationalPokedexNumber": 5018,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.wisopotron.desc"
   ],
   "preEvolution": "lohopper",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

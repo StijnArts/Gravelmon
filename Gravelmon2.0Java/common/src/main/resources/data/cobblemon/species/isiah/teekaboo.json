@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "teekaboo",
-  "nationalPokedexNumber": 4382,
+  "nationalPokedexNumber": 4381,
   "primaryType": "ghost",
   "abilities": [
     "keeneye",
@@ -85,7 +85,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

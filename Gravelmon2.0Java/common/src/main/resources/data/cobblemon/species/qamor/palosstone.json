@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "palosstone",
-  "nationalPokedexNumber": 4070,
+  "nationalPokedexNumber": 4069,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.palosstone.desc"
   ],
   "preEvolution": "sandygast form=qamoran",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

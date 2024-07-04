@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caltarcite",
-  "nationalPokedexNumber": 3379,
+  "nationalPokedexNumber": 3378,
   "primaryType": "rock",
   "abilities": [
     "rockhead",
@@ -114,7 +114,7 @@
     "cobblemon.species.caltarcite.desc"
   ],
   "preEvolution": "altarock",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

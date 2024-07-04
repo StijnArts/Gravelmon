@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "icthymp",
-  "nationalPokedexNumber": 3860,
+  "nationalPokedexNumber": 3859,
   "primaryType": "steel",
   "abilities": [
     "bulletproof",
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.icthymp.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

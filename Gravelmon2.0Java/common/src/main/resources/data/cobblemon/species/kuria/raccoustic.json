@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raccoustic",
-  "nationalPokedexNumber": 4153,
+  "nationalPokedexNumber": 4152,
   "primaryType": "sound",
   "secondaryType": "dark",
   "abilities": [
@@ -105,7 +105,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

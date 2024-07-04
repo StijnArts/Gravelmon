@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sensarat",
-  "nationalPokedexNumber": 2943,
+  "nationalPokedexNumber": 2942,
   "primaryType": "normal",
   "abilities": [
     "frisk",
@@ -77,7 +77,7 @@
     "cobblemon.species.sensarat.desc"
   ],
   "preEvolution": "mousense",
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

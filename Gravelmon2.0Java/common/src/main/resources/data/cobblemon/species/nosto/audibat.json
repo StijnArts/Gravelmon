@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "audibat",
-  "nationalPokedexNumber": 3591,
+  "nationalPokedexNumber": 3590,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -174,7 +174,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

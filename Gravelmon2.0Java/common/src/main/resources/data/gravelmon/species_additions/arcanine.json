@@ -76,7 +76,7 @@
     "cobblemon.species.aristosianarcanine.desc"
   ],
   "preEvolution": "growlithe form=aristosian",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -250,7 +250,7 @@
     "cobblemon.species.deltaarcanine.desc"
   ],
   "preEvolution": "growlithe form=delta",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -416,7 +416,7 @@
     "cobblemon.species.armiranarcanine.desc"
   ],
   "preEvolution": "growlithe form=armiran",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

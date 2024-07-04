@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "prismarch",
-  "nationalPokedexNumber": 5757,
+  "nationalPokedexNumber": 5756,
   "primaryType": "ice",
   "secondaryType": "bug",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.prismarch.desc"
   ],
   "preEvolution": "pupanel",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

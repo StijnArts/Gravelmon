@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coruda",
-  "nationalPokedexNumber": 4819,
+  "nationalPokedexNumber": 4818,
   "primaryType": "flying",
   "abilities": [
     "rockhead",
@@ -95,7 +95,7 @@
     "cobblemon.species.coruda.desc"
   ],
   "preEvolution": "yolkid",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

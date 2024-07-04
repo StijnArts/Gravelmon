@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jellectric",
-  "nationalPokedexNumber": 4178,
+  "nationalPokedexNumber": 4177,
   "primaryType": "electric",
   "secondaryType": "cosmic",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.jellectric.desc"
   ],
   "preEvolution": "elepod",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kamafura",
-  "nationalPokedexNumber": 4922,
+  "nationalPokedexNumber": 4921,
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
@@ -80,6 +80,7 @@
     "tutor:leafblade",
     "tutor:woodhammer",
     "egg:aircutter",
+    "egg:engorge",
     "egg:grasswhistle",
     "egg:ingrain",
     "egg:magicalleaf",
@@ -94,7 +95,7 @@
   "pokedex": [
     "cobblemon.species.kamafura.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

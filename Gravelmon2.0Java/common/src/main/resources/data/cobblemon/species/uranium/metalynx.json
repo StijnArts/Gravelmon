@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "metalynx",
-  "nationalPokedexNumber": 2377,
+  "nationalPokedexNumber": 2376,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -125,7 +125,7 @@
     "cobblemon.species.metalynx.desc"
   ],
   "preEvolution": "orchynx",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

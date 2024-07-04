@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wrassure",
-  "nationalPokedexNumber": 5192,
+  "nationalPokedexNumber": 5191,
   "primaryType": "water",
   "abilities": [
     "healer",
@@ -151,7 +151,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

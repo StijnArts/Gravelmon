@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luchabra",
-  "nationalPokedexNumber": 2475,
+  "nationalPokedexNumber": 2474,
   "primaryType": "poison",
   "secondaryType": "fighting",
   "abilities": [
@@ -197,7 +197,7 @@
     "cobblemon.species.luchabra.desc"
   ],
   "preEvolution": "chupacho",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

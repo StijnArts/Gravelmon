@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "salamuncher",
-  "nationalPokedexNumber": 3792,
+  "nationalPokedexNumber": 3791,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -183,7 +183,7 @@
     "cobblemon.species.salamuncher.desc"
   ],
   "preEvolution": "nooch",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

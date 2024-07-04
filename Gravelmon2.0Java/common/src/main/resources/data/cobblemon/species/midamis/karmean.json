@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "karmean",
-  "nationalPokedexNumber": 4575,
+  "nationalPokedexNumber": 4574,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
@@ -102,7 +102,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

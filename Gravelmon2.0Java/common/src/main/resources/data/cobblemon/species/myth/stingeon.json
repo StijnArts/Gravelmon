@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stingeon",
-  "nationalPokedexNumber": 4443,
+  "nationalPokedexNumber": 4442,
   "primaryType": "bug",
   "abilities": [
     "intimidate",
@@ -94,7 +94,7 @@
   "pokedex": [
     "cobblemon.species.stingeon.desc"
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

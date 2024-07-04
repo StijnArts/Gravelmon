@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.nephelith.desc"
   ],
-  "baseScale": 1.0250000000000001,
+  "baseScale": 0.6833333333333332,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

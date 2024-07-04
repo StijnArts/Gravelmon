@@ -148,7 +148,7 @@
     "cobblemon.species.skulkraken.desc"
   ],
   "preEvolution": "shellder form=egho",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

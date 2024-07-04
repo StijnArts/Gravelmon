@@ -133,7 +133,7 @@
     "cobblemon.species.phantern.desc"
   ],
   "preEvolution": "wispern",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

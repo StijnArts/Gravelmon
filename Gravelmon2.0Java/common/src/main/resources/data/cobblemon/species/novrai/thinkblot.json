@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "thinkblot",
-  "nationalPokedexNumber": 5231,
+  "nationalPokedexNumber": 5230,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -157,7 +157,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

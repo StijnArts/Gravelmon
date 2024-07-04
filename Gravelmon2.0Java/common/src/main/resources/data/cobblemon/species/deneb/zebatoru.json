@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zebatoru",
-  "nationalPokedexNumber": 4887,
+  "nationalPokedexNumber": 4886,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -107,7 +107,7 @@
     "cobblemon.species.zebatoru.desc"
   ],
   "preEvolution": "shobuna",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

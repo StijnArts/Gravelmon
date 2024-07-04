@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dimwraith",
-  "nationalPokedexNumber": 3422,
+  "nationalPokedexNumber": 3421,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -137,7 +137,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

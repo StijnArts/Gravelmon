@@ -141,12 +141,9 @@ public class SpeciesAdditionsWriter {
                 if (abilities == 0) {
                     fileContents += "    \"" + Ability.KEEN_EYE.getName() + "\",\n";
                 }
-                if (pokemon.getHiddenAbility().isImplemented()) {
+                if (pokemon.getHiddenAbility() !=null && pokemon.getHiddenAbility().isImplemented()) {
                     fileContents += "    \"h:" + pokemon.getHiddenAbility().getName() + "\"\n";
-                } else {
-                    fileContents += "    \"h:" + Ability.KEEN_EYE.getName() + "\"\n";
                 }
-
 
                 fileContents += "  ],\n" +
                         "  \"baseStats\": {\n" +
@@ -444,12 +441,10 @@ public class SpeciesAdditionsWriter {
         if (abilities == 0) {
             formString += "    \"" + Ability.KEEN_EYE.getName() + "\",\n";
         }
-        if (pokemon.getHiddenAbility().isImplemented()) {
-            formString += "    \"h:" + pokemon.getHiddenAbility().getName() + "\"\n";
-        } else {
-            formString += "    \"h:" + Ability.KEEN_EYE.getName() + "\"\n";
-        }
 
+        if (pokemon.getHiddenAbility() !=null && pokemon.getHiddenAbility().isImplemented()) {
+            formString += "    \"h:" + pokemon.getHiddenAbility().getName() + "\"\n";
+        }
 
         formString +=
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setoguo",
-  "nationalPokedexNumber": 4942,
+  "nationalPokedexNumber": 4941,
   "primaryType": "normal",
   "abilities": [
     "rivalry",
@@ -70,7 +70,7 @@
     "cobblemon.species.setoguo.desc"
   ],
   "preEvolution": "setohachi",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

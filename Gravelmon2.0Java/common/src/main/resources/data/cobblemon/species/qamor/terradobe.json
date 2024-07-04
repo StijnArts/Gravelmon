@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terradobe",
-  "nationalPokedexNumber": 4038,
+  "nationalPokedexNumber": 4037,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.terradobe.desc"
   ],
   "preEvolution": "chamot",
-  "baseScale": 0.75,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

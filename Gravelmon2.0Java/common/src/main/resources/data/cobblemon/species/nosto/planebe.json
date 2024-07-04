@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "planebe",
-  "nationalPokedexNumber": 3645,
+  "nationalPokedexNumber": 3644,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -93,7 +93,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

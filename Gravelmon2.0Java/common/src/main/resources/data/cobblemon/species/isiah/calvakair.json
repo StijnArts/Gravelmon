@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "calvakair",
-  "nationalPokedexNumber": 4390,
+  "nationalPokedexNumber": 4389,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.calvakair.desc"
   ],
   "preEvolution": "valkite",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

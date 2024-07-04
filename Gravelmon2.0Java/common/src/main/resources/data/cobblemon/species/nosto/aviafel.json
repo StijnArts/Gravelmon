@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aviafel",
-  "nationalPokedexNumber": 3611,
+  "nationalPokedexNumber": 3610,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -127,7 +127,7 @@
     "cobblemon.species.aviafel.desc"
   ],
   "preEvolution": "pitohood",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

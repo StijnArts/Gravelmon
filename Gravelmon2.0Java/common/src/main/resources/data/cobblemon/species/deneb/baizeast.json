@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baizeast",
-  "nationalPokedexNumber": 4726,
+  "nationalPokedexNumber": 4725,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -128,7 +128,7 @@
   "pokedex": [
     "cobblemon.species.baizeast.desc"
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

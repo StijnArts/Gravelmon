@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leeverge",
-  "nationalPokedexNumber": 4529,
+  "nationalPokedexNumber": 4528,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.leeverge.desc"
   ],
   "preEvolution": "liotee",
-  "baseScale": 2.625,
+  "baseScale": 1.75,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rduckulus",
-  "nationalPokedexNumber": 4870,
+  "nationalPokedexNumber": 4869,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -128,7 +128,7 @@
     "cobblemon.species.rduckulus.desc"
   ],
   "preEvolution": "farfetchd",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

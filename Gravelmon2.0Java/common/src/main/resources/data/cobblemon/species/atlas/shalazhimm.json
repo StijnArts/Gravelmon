@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shalazhimm",
-  "nationalPokedexNumber": 5548,
+  "nationalPokedexNumber": 5547,
   "primaryType": "psychic",
   "abilities": [
     "magician",
@@ -117,7 +117,7 @@
     "cobblemon.species.shalazhimm.desc"
   ],
   "preEvolution": "zhimm",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

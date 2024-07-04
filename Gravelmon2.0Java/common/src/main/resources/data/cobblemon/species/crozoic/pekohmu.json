@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pekohmu",
-  "nationalPokedexNumber": 3305,
+  "nationalPokedexNumber": 3304,
   "primaryType": "electric",
   "abilities": [
     "static",
@@ -103,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.pekohmu.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

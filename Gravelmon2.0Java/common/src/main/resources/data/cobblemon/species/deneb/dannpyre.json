@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dannpyre",
-  "nationalPokedexNumber": 4885,
+  "nationalPokedexNumber": 4884,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -58,6 +58,7 @@
     "17:taunt",
     "21:wingattack",
     "23:meanlook",
+    "28:exsanguinate",
     "33:leechlife",
     "36:hypnosis",
     "42:airslash",
@@ -110,7 +111,7 @@
     "cobblemon.species.dannpyre.desc"
   ],
   "preEvolution": "parakka",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "xparament",
-  "nationalPokedexNumber": 5204,
+  "nationalPokedexNumber": 5203,
   "primaryType": "poison",
   "abilities": [
     "heatproof",
@@ -138,7 +138,7 @@
     "cobblemon.species.xparament.desc"
   ],
   "preEvolution": "xtrac",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

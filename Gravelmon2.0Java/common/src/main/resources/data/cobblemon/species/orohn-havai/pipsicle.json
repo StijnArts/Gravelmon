@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pipsicle",
-  "nationalPokedexNumber": 3032,
+  "nationalPokedexNumber": 3031,
   "primaryType": "ice",
   "abilities": [
     "refrigerate",
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.pipsicle.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

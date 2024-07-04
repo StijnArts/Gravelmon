@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mamoheim",
-  "nationalPokedexNumber": 3255,
+  "nationalPokedexNumber": 3254,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.mamoheim.desc"
   ],
   "preEvolution": "elefjant",
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.4666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

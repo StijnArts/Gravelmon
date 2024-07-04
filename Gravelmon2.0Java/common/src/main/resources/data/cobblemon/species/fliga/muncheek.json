@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "muncheek",
-  "nationalPokedexNumber": 3892,
+  "nationalPokedexNumber": 3891,
   "primaryType": "dark",
   "secondaryType": "normal",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.muncheek.desc"
   ],
   "preEvolution": "squirelutton",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

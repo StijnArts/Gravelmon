@@ -46,16 +46,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:charged_conduit",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "moves": [
     "1:growl",
     "3:astonish",
@@ -134,11 +124,11 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:charged_conduit",
+      "requiredContext": "minecraft:conduit",
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

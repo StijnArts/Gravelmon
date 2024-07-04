@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oogashroomga",
-  "nationalPokedexNumber": 3398,
+  "nationalPokedexNumber": 3397,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -147,7 +147,7 @@
     "cobblemon.species.oogashroomga.desc"
   ],
   "preEvolution": "boongus",
-  "baseScale": 0.625,
+  "baseScale": 0.4166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -80,7 +80,7 @@
     "cobblemon.species.qamoranhitmonlee.desc"
   ],
   "preEvolution": "tyrogue form=qamoran",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -244,7 +244,7 @@
     "cobblemon.species.varitasianhitmonlee.desc"
   ],
   "preEvolution": "tyrogue form=varitasian",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

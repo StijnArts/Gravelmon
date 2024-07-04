@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tekagon",
-  "nationalPokedexNumber": 4430,
+  "nationalPokedexNumber": 4429,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.tekagon.desc"
   ],
   "preEvolution": "dredrock",
-  "baseScale": 0.975,
+  "baseScale": 0.65,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

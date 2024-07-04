@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spectmare",
-  "nationalPokedexNumber": 3666,
+  "nationalPokedexNumber": 3665,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
@@ -156,7 +156,7 @@
     "cobblemon.species.spectmare.desc"
   ],
   "preEvolution": "cresprit",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tanana",
-  "nationalPokedexNumber": 5599,
+  "nationalPokedexNumber": 5598,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.tanana.desc"
   ],
   "preEvolution": "limana",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

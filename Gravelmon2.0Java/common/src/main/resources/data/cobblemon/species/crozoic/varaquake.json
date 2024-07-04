@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "varaquake",
-  "nationalPokedexNumber": 3319,
+  "nationalPokedexNumber": 3318,
   "primaryType": "ground",
   "secondaryType": "rock",
   "abilities": [
@@ -123,7 +123,7 @@
   "pokedex": [
     "cobblemon.species.varaquake.desc"
   ],
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "destructos",
-  "nationalPokedexNumber": 5044,
+  "nationalPokedexNumber": 5043,
   "primaryType": "rock",
   "secondaryType": "fighting",
   "abilities": [
@@ -89,7 +89,7 @@
     "cobblemon.species.destructos.desc"
   ],
   "preEvolution": "marbelous",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

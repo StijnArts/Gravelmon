@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fishereel",
-  "nationalPokedexNumber": 3314,
+  "nationalPokedexNumber": 3313,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.fishereel.desc"
   ],
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

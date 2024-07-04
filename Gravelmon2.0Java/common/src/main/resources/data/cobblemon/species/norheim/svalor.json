@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "svalor",
-  "nationalPokedexNumber": 3192,
+  "nationalPokedexNumber": 3191,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.svalor.desc"
   ],
   "preEvolution": "svalbat",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

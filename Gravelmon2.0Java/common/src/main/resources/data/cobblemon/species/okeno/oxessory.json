@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oxessory",
-  "nationalPokedexNumber": 4651,
+  "nationalPokedexNumber": 4650,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.oxessory.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

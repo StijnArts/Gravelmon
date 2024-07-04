@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aeroluga",
-  "nationalPokedexNumber": 3430,
+  "nationalPokedexNumber": 3429,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
@@ -132,7 +132,7 @@
     "cobblemon.species.aeroluga.desc"
   ],
   "preEvolution": "balloonga",
-  "baseScale": 0.9,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

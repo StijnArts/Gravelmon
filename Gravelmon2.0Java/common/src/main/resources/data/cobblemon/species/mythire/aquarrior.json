@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aquarrior",
-  "nationalPokedexNumber": 3811,
+  "nationalPokedexNumber": 3810,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -104,7 +104,7 @@
     "cobblemon.species.aquarrior.desc"
   ],
   "preEvolution": "shellance",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

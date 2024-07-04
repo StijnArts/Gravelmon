@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dracoknight",
-  "nationalPokedexNumber": 3273,
+  "nationalPokedexNumber": 3272,
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.dracoknight.desc"
   ],
   "preEvolution": "dragonair form=norheiman",
-  "baseScale": 0.65,
+  "baseScale": 0.43333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

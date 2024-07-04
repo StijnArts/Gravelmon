@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flaki",
-  "nationalPokedexNumber": 3202,
+  "nationalPokedexNumber": 3201,
   "primaryType": "ice",
   "abilities": [
     "levitate",
@@ -89,7 +89,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crustocean",
-  "nationalPokedexNumber": 5780,
+  "nationalPokedexNumber": 5779,
   "primaryType": "water",
   "abilities": [
     "shellarmor",
@@ -118,7 +118,7 @@
     "cobblemon.species.crustocean.desc"
   ],
   "preEvolution": "crebb",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

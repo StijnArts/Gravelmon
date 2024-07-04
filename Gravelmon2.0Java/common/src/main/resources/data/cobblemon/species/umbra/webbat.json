@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "webbat",
-  "nationalPokedexNumber": 3682,
+  "nationalPokedexNumber": 3681,
   "primaryType": "poison",
   "abilities": [
     "keeneye",
@@ -131,7 +131,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

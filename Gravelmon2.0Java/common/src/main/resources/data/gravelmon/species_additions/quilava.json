@@ -157,7 +157,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -340,7 +340,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -569,7 +569,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

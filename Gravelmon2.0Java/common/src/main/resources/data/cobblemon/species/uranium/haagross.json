@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "haagross",
-  "nationalPokedexNumber": 2496,
+  "nationalPokedexNumber": 2495,
   "primaryType": "poison",
   "secondaryType": "electric",
   "abilities": [
@@ -129,7 +129,7 @@
     "cobblemon.species.haagross.desc"
   ],
   "preEvolution": "hagoop",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

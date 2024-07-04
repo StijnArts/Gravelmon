@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "golgre",
-  "nationalPokedexNumber": 3525,
+  "nationalPokedexNumber": 3524,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
@@ -130,7 +130,7 @@
     "cobblemon.species.golgre.desc"
   ],
   "preEvolution": "golett form=kaskadian",
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.4666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

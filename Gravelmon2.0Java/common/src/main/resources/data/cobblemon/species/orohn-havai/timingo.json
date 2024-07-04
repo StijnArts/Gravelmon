@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "timingo",
-  "nationalPokedexNumber": 2990,
+  "nationalPokedexNumber": 2989,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -86,7 +86,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

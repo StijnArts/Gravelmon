@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elidon",
-  "nationalPokedexNumber": 4971,
+  "nationalPokedexNumber": 4970,
   "primaryType": "dragon",
   "abilities": [
     "moldbreaker",
@@ -58,6 +58,7 @@
     "33:honeclaws",
     "37:crunch",
     "41:flamethrower",
+    "45:saurtooth",
     "49:dragondance",
     "53:ragingflame",
     "57:outrage",
@@ -88,6 +89,7 @@
     "egg:uturn",
     "egg:poisonjab",
     "egg:firefang",
+    "egg:royalbreath",
     "egg:wildcharge"  ],
   "labels": [
     "deneb",
@@ -96,7 +98,7 @@
   "pokedex": [
     "cobblemon.species.elidon.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

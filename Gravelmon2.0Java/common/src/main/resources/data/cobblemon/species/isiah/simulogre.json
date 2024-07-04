@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "simulogre",
-  "nationalPokedexNumber": 4387,
+  "nationalPokedexNumber": 4386,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.simulogre.desc"
   ],
   "preEvolution": "lapot",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

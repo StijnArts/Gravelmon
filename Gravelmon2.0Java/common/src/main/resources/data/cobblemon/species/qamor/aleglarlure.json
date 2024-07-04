@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aleglarlure",
-  "nationalPokedexNumber": 4061,
+  "nationalPokedexNumber": 4060,
   "primaryType": "dark",
   "secondaryType": "water",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.aleglarlure.desc"
   ],
   "preEvolution": "brinbait",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

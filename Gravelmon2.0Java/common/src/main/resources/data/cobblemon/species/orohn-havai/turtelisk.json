@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "turtelisk",
-  "nationalPokedexNumber": 3009,
+  "nationalPokedexNumber": 3008,
   "primaryType": "dragon",
   "abilities": [
     "rivalry",
@@ -123,7 +123,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "burnbjorn",
-  "nationalPokedexNumber": 3097,
+  "nationalPokedexNumber": 3096,
   "primaryType": "fire",
   "secondaryType": "normal",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.burnbjorn.desc"
   ],
   "preEvolution": "combjorn",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

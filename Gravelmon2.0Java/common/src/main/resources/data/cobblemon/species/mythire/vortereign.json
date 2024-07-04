@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vortereign",
-  "nationalPokedexNumber": 3877,
+  "nationalPokedexNumber": 3876,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -139,7 +139,7 @@
   "pokedex": [
     "cobblemon.species.vortereign.desc"
   ],
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rabyoose",
-  "nationalPokedexNumber": 3498,
+  "nationalPokedexNumber": 3497,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -80,7 +80,7 @@
     "cobblemon.species.rabyoose.desc"
   ],
   "preEvolution": "gneckle",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

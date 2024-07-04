@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "altarath",
-  "nationalPokedexNumber": 2286,
+  "nationalPokedexNumber": 2285,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.altarath.desc"
   ],
   "preEvolution": "torchurn",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

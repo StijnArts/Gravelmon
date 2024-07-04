@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "byakuga",
-  "nationalPokedexNumber": 4933,
+  "nationalPokedexNumber": 4932,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -81,6 +81,7 @@
     "tutor:agility",
     "tutor:iciclecrash",
     "tutor:wormhole",
+    "tutor:blackhole",
     "egg:assist",
     "egg:fakeout",
     "egg:foulplay",
@@ -102,7 +103,7 @@
     "cobblemon.species.byakuga.desc"
   ],
   "preEvolution": "nyaga",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

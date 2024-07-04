@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ransaxe",
-  "nationalPokedexNumber": 5160,
+  "nationalPokedexNumber": 5159,
   "primaryType": "steel",
   "secondaryType": "fighting",
   "abilities": [
@@ -133,7 +133,7 @@
     "cobblemon.species.ransaxe.desc"
   ],
   "preEvolution": "seekore",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

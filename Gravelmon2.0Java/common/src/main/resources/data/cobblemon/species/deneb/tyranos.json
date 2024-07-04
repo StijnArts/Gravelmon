@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tyranos",
-  "nationalPokedexNumber": 4768,
+  "nationalPokedexNumber": 4767,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -137,7 +137,7 @@
   "pokedex": [
     "cobblemon.species.tyranos.desc"
   ],
-  "baseScale": 1.625,
+  "baseScale": 1.0833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

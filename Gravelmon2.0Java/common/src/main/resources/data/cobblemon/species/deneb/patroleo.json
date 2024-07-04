@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "patroleo",
-  "nationalPokedexNumber": 4782,
+  "nationalPokedexNumber": 4781,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -109,7 +109,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gaierth",
-  "nationalPokedexNumber": 2814,
+  "nationalPokedexNumber": 2813,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.gaierth.desc"
   ],
-  "baseScale": 2.1750000000000003,
+  "baseScale": 1.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

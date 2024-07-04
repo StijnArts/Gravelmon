@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "savark",
-  "nationalPokedexNumber": 4200,
+  "nationalPokedexNumber": 4199,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.savark.desc"
   ],
   "preEvolution": "folida",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

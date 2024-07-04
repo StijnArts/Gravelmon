@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dartibi",
-  "nationalPokedexNumber": 5453,
+  "nationalPokedexNumber": 5452,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -110,7 +110,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

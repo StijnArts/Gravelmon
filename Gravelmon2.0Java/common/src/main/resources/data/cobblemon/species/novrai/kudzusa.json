@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kudzusa",
-  "nationalPokedexNumber": 5089,
+  "nationalPokedexNumber": 5088,
   "primaryType": "grass",
   "abilities": [
     "grassysurge",
@@ -149,7 +149,7 @@
     "cobblemon.species.kudzusa.desc"
   ],
   "preEvolution": "gorgarden",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

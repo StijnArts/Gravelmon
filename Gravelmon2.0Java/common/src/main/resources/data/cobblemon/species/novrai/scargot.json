@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scargot",
-  "nationalPokedexNumber": 5202,
+  "nationalPokedexNumber": 5201,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -140,7 +140,7 @@
   "pokedex": [
     "cobblemon.species.scargot.desc"
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

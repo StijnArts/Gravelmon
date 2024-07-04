@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drahoggon",
-  "nationalPokedexNumber": 5034,
+  "nationalPokedexNumber": 5033,
   "primaryType": "dragon",
   "secondaryType": "normal",
   "abilities": [
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.drahoggon.desc"
   ],
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

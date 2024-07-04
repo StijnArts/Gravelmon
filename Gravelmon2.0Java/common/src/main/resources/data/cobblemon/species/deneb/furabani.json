@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "furabani",
-  "nationalPokedexNumber": 4893,
+  "nationalPokedexNumber": 4892,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -110,7 +110,7 @@
     "cobblemon.species.furabani.desc"
   ],
   "preEvolution": "karebani",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

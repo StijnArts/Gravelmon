@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cavernight",
-  "nationalPokedexNumber": 2872,
+  "nationalPokedexNumber": 2871,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -136,7 +136,7 @@
     "cobblemon.species.cavernight.desc"
   ],
   "preEvolution": "stelimight",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

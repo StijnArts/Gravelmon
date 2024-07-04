@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hauntlass",
-  "nationalPokedexNumber": 2727,
+  "nationalPokedexNumber": 2726,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -138,7 +138,7 @@
     "cobblemon.species.hauntlass.desc"
   ],
   "preEvolution": "reflic",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jamphibian",
-  "nationalPokedexNumber": 3394,
+  "nationalPokedexNumber": 3393,
   "primaryType": "fairy",
   "secondaryType": "ground",
   "abilities": [
@@ -99,7 +99,7 @@
     "cobblemon.species.jamphibian.desc"
   ],
   "preEvolution": "jarmalade",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

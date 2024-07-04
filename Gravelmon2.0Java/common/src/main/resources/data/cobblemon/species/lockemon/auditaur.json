@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "auditaur",
-  "nationalPokedexNumber": 3494,
+  "nationalPokedexNumber": 3493,
   "primaryType": "normal",
   "abilities": [
     "motordrive",
     "cutecharm",
-    "h:keeneye"
+    "h:energizer"
   ],
   "baseStats": {
     "hp": 48,
@@ -87,7 +87,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

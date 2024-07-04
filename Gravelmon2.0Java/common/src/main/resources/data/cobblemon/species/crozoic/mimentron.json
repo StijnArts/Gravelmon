@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mimentron",
-  "nationalPokedexNumber": 3316,
+  "nationalPokedexNumber": 3315,
   "primaryType": "electric",
   "secondaryType": "normal",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.mimentron.desc"
   ],
   "preEvolution": "stricycle",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

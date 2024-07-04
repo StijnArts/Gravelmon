@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "safian",
-  "nationalPokedexNumber": 3260,
+  "nationalPokedexNumber": 3259,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -66,7 +66,7 @@
   "pokedex": [
     "cobblemon.species.safian.desc"
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

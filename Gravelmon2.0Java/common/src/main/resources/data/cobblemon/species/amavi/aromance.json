@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aromance",
-  "nationalPokedexNumber": 5637,
+  "nationalPokedexNumber": 5636,
   "primaryType": "poison",
   "abilities": [
     "keeneye",
@@ -73,7 +73,7 @@
     "cobblemon.species.aromance.desc"
   ],
   "preEvolution": "pewtiful",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

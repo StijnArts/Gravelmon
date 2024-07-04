@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chrystasis",
-  "nationalPokedexNumber": 3873,
+  "nationalPokedexNumber": 3872,
   "primaryType": "dragon",
   "secondaryType": "psychic",
   "abilities": [
@@ -99,7 +99,7 @@
     "cobblemon.species.chrystasis.desc"
   ],
   "preEvolution": "enduron",
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.4666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

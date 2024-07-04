@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "operlogica",
-  "nationalPokedexNumber": 3961,
+  "nationalPokedexNumber": 3960,
   "primaryType": "steel",
   "secondaryType": "psychic",
   "abilities": [
@@ -59,7 +59,7 @@
   "pokedex": [
     "cobblemon.species.operlogica.desc"
   ],
-  "baseScale": 1.55,
+  "baseScale": 1.0333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

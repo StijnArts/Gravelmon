@@ -51,6 +51,7 @@
   "moves": [
     "1:workup",
     "1:round",
+    "1:firecracker",
     "1:flameburst",
     "1:helpinghand",
     "1:luckychant",
@@ -119,7 +120,7 @@
     "cobblemon.species.lostislandsloftival.desc"
   ],
   "preEvolution": "partae form=lostislands",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

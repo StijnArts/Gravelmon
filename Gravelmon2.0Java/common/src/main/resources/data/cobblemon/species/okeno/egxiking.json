@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "egxiking",
-  "nationalPokedexNumber": 4674,
+  "nationalPokedexNumber": 4673,
   "primaryType": "normal",
   "secondaryType": "fire",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.egxiking.desc"
   ],
   "preEvolution": "egxel",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

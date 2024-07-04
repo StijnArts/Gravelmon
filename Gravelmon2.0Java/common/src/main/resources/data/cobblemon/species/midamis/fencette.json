@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fencette",
-  "nationalPokedexNumber": 4573,
+  "nationalPokedexNumber": 4572,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.fencette.desc"
   ],
   "preEvolution": "feefish",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "darca",
-  "nationalPokedexNumber": 4709,
+  "nationalPokedexNumber": 4708,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -125,7 +125,7 @@
     "cobblemon.species.darca.desc"
   ],
   "preEvolution": "dorfin",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

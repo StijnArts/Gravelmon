@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "samushrai",
-  "nationalPokedexNumber": 4862,
+  "nationalPokedexNumber": 4861,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -158,7 +158,7 @@
     "cobblemon.species.samushrai.desc"
   ],
   "preEvolution": "shretainer",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

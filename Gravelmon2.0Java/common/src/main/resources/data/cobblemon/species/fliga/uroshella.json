@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "uroshella",
-  "nationalPokedexNumber": 3943,
+  "nationalPokedexNumber": 3942,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.uroshella.desc"
   ],
   "preEvolution": "repteptile",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

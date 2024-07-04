@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gnotorious",
-  "nationalPokedexNumber": 5297,
+  "nationalPokedexNumber": 5296,
   "primaryType": "ground",
   "secondaryType": "fairy",
   "abilities": [
@@ -154,7 +154,7 @@
     "cobblemon.species.gnotorious.desc"
   ],
   "preEvolution": "gnoblety",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

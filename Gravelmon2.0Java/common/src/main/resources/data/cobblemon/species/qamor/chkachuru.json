@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chkachuru",
-  "nationalPokedexNumber": 4053,
+  "nationalPokedexNumber": 4052,
   "primaryType": "psychic",
   "abilities": [
     "owntempo",
@@ -82,7 +82,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "corvhugen",
-  "nationalPokedexNumber": 3176,
+  "nationalPokedexNumber": 3175,
   "primaryType": "flying",
   "secondaryType": "fighting",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.corvhugen.desc"
   ],
   "preEvolution": "corvisquire form=norheiman",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

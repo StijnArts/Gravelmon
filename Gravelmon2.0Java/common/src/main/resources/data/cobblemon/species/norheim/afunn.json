@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "afunn",
-  "nationalPokedexNumber": 3277,
+  "nationalPokedexNumber": 3276,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -110,7 +110,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

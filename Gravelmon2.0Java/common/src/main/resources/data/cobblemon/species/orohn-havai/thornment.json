@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "thornment",
-  "nationalPokedexNumber": 3039,
+  "nationalPokedexNumber": 3038,
   "primaryType": "grass",
   "abilities": [
     "adaptability",
@@ -75,7 +75,7 @@
     "cobblemon.species.thornment.desc"
   ],
   "preEvolution": "tadapt",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

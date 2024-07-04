@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "astroyatlas",
-  "nationalPokedexNumber": 5341,
+  "nationalPokedexNumber": 5340,
   "primaryType": "cosmic",
   "secondaryType": "bug",
   "abilities": [
@@ -132,7 +132,7 @@
   "pokedex": [
     "cobblemon.species.astroyatlas.desc"
   ],
-  "baseScale": 0.7999999999999999,
+  "baseScale": 0.5333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

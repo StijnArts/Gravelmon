@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shellance",
-  "nationalPokedexNumber": 3810,
+  "nationalPokedexNumber": 3809,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -85,7 +85,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

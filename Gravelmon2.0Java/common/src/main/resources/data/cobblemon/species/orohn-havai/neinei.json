@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "neinei",
-  "nationalPokedexNumber": 2923,
+  "nationalPokedexNumber": 2922,
   "primaryType": "flying",
   "secondaryType": "water",
   "abilities": [
@@ -81,7 +81,7 @@
     "cobblemon.species.neinei.desc"
   ],
   "preEvolution": "goosea",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

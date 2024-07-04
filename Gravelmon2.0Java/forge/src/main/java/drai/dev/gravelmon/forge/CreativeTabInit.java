@@ -205,6 +205,8 @@ public class CreativeTabInit {
             event.getEntries().putAfter(CobblemonItems.PINK_APRICORN_SEED.asItem().getDefaultInstance(),
                     GravelmonItems.PURPLE_APRICORN_SEED.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.HAFLI_BERRY.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
         if(event.getTab() == CobblemonItemGroups.getPOKEBALLS()) {

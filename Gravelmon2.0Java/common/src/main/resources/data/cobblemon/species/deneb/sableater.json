@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sableater",
-  "nationalPokedexNumber": 4830,
+  "nationalPokedexNumber": 4829,
   "primaryType": "dark",
   "secondaryType": "ghost",
   "abilities": [
@@ -133,7 +133,7 @@
     "cobblemon.species.sableater.desc"
   ],
   "preEvolution": "sableye",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

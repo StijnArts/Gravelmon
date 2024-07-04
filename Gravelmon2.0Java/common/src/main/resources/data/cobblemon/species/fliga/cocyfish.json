@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cocyfish",
-  "nationalPokedexNumber": 3917,
+  "nationalPokedexNumber": 3916,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.cocyfish.desc"
   ],
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

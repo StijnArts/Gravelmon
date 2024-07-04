@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coralony",
-  "nationalPokedexNumber": 5456,
+  "nationalPokedexNumber": 5455,
   "primaryType": "rock",
   "abilities": [
     "regenerator",
@@ -77,7 +77,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

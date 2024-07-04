@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "auldsparce",
-  "nationalPokedexNumber": 4869,
+  "nationalPokedexNumber": 4868,
   "primaryType": "normal",
   "abilities": [
     "owntempo",
@@ -134,7 +134,7 @@
     "cobblemon.species.auldsparce.desc"
   ],
   "preEvolution": "dunsparce",
-  "baseScale": 0.975,
+  "baseScale": 0.65,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "telemac",
-  "nationalPokedexNumber": 3532,
+  "nationalPokedexNumber": 3531,
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.telemac.desc"
   ],
   "preEvolution": "phisnooz",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dreadtyde",
-  "nationalPokedexNumber": 2302,
+  "nationalPokedexNumber": 2301,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.dreadtyde.desc"
   ],
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

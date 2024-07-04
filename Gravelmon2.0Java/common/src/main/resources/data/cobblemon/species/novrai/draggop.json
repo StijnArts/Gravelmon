@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "draggop",
-  "nationalPokedexNumber": 5119,
+  "nationalPokedexNumber": 5118,
   "primaryType": "dragon",
   "abilities": [
     "multiscale",
@@ -162,7 +162,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -40,7 +40,31 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("item.gravelmon.slowpoke_tail","Slowpoke Tail");
         LangJSONWriter.writeTranslationKey("item.gravelmon.magic_cookie","Magic Cookie");
         LangJSONWriter.writeTranslationKey("item.gravelmon.dread_pendant","Dread Pendant");
-        LangJSONWriter.writeTranslationKey("item.gravelmon.spare_parts","Spare Parts");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.golden_feather","Golden Feather");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.pixie_dust","Pixie Dust");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.ocarina","Ocarina");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.royal_jelly","Royal Jelly");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.coconut_milk","Coconut Milk");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.carrot_wine","Carrot Wine");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.uranium_core","Uranium Core");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.preadite","Preadite");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.empty_skull","Empty Skull");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.foreign_hat","Foreign Hat");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.prim_shears","Prim Shears");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.hair_tonic","Hair Tonic");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.growth_mulch","Growth Mulch");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.x_ray_specs","X Ray Specs");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.foul_rock","Foul Rock");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.ragged_pebble","Ragged Pebble");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.polished_sphere","Polished Sphere");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.corrupted_seed","Corrupted Seed");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.iveolite","Iveolite");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.bolt_orb","Bolt Orb");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.ice_shard","Ice Shard");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.hafli_berry","Hafli Berry");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.moss_shard","Moss Shard");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.pretty_ribbon","Pretty Ribbon");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.dark_rock","Dark Rock");
 
         //Starters
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.ayreikanto","Ayrei - Kanto");

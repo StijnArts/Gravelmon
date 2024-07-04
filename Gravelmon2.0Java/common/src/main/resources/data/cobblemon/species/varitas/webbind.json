@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "webbind",
-  "nationalPokedexNumber": 2308,
+  "nationalPokedexNumber": 2307,
   "primaryType": "bug",
   "abilities": [
     "stickyhold",
@@ -58,7 +58,7 @@
     "cobblemon.species.webbind.desc"
   ],
   "preEvolution": "feebleg",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

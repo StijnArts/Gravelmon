@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rudebarb",
-  "nationalPokedexNumber": 4851,
+  "nationalPokedexNumber": 4850,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -130,7 +130,7 @@
     "cobblemon.species.rudebarb.desc"
   ],
   "preEvolution": "rooten",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

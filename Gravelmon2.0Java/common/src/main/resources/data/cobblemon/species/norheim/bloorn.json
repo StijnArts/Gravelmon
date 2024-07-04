@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bloorn",
-  "nationalPokedexNumber": 3247,
+  "nationalPokedexNumber": 3246,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.bloorn.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

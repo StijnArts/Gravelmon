@@ -193,7 +193,7 @@
     "cobblemon.species.deltafroslass.desc"
   ],
   "preEvolution": "snorunt form=delta",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -297,7 +297,7 @@
     "cobblemon.species.cefiranfroslass.desc"
   ],
   "preEvolution": "snorunt form=cefiran",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

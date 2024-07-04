@@ -75,7 +75,7 @@
     "cobblemon.species.galliente.desc"
   ],
   "preEvolution": "emberaid",
-  "baseScale": 0.625,
+  "baseScale": 0.4166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

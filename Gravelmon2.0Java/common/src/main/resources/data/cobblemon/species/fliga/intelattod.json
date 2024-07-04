@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "intelattod",
-  "nationalPokedexNumber": 3924,
+  "nationalPokedexNumber": 3923,
   "primaryType": "psychic",
   "secondaryType": "bug",
   "abilities": [
@@ -64,7 +64,7 @@
   "pokedex": [
     "cobblemon.species.intelattod.desc"
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

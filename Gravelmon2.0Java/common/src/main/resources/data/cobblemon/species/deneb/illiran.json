@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "illiran",
-  "nationalPokedexNumber": 4939,
+  "nationalPokedexNumber": 4938,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -119,7 +119,7 @@
     "cobblemon.species.illiran.desc"
   ],
   "preEvolution": "illapod",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

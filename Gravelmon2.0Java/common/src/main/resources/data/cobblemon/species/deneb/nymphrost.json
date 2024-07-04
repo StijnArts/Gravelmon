@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nymphrost",
-  "nationalPokedexNumber": 4801,
+  "nationalPokedexNumber": 4800,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
@@ -122,7 +122,7 @@
     "cobblemon.species.nymphrost.desc"
   ],
   "preEvolution": "shivermin",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "amygdalanche",
-  "nationalPokedexNumber": 5309,
+  "nationalPokedexNumber": 5308,
   "primaryType": "psychic",
   "secondaryType": "ice",
   "abilities": [
@@ -140,7 +140,7 @@
     "cobblemon.species.amygdalanche.desc"
   ],
   "preEvolution": "subzerebrum",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

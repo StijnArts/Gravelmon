@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hellantern",
-  "nationalPokedexNumber": 3301,
+  "nationalPokedexNumber": 3300,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -121,7 +121,7 @@
     "cobblemon.species.hellantern.desc"
   ],
   "preEvolution": "surveilant",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

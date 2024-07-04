@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "macedontus",
-  "nationalPokedexNumber": 3533,
+  "nationalPokedexNumber": 3532,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
+    "glacialarmor",
     "sandrush",
     "h:sandforce"
   ],
@@ -71,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.macedontus.desc"
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

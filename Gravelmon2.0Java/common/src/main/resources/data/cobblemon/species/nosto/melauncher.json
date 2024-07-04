@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "melauncher",
-  "nationalPokedexNumber": 3555,
+  "nationalPokedexNumber": 3554,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -69,7 +69,7 @@
     "cobblemon.species.melauncher.desc"
   ],
   "preEvolution": "torpepo",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -178,7 +178,7 @@
     "cobblemon.species.terathwack.desc"
   ],
   "preEvolution": "marowak",
-  "baseScale": 0.65,
+  "baseScale": 0.43333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

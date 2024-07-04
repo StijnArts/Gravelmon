@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "suavenny",
-  "nationalPokedexNumber": 2962,
+  "nationalPokedexNumber": 2961,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -113,7 +113,7 @@
     "cobblemon.species.suavenny.desc"
   ],
   "preEvolution": "luvenny",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

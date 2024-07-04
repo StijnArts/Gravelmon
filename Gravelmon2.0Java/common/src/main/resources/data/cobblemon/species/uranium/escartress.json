@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "escartress",
-  "nationalPokedexNumber": 2435,
+  "nationalPokedexNumber": 2434,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -137,7 +137,7 @@
     "cobblemon.species.escartress.desc"
   ],
   "preEvolution": "sableau",
-  "baseScale": 0.6749999999999999,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

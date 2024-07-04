@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liedoro",
-  "nationalPokedexNumber": 4717,
+  "nationalPokedexNumber": 4716,
   "primaryType": "dark",
   "abilities": [
     "runaway",
@@ -130,7 +130,7 @@
     "cobblemon.species.liedoro.desc"
   ],
   "preEvolution": "liepus",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

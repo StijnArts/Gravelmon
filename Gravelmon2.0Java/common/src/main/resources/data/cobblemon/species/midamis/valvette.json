@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "valvette",
-  "nationalPokedexNumber": 4510,
+  "nationalPokedexNumber": 4509,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.valvette.desc"
   ],
   "preEvolution": "felefox",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

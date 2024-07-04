@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "findolf",
-  "nationalPokedexNumber": 2537,
+  "nationalPokedexNumber": 2536,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -89,7 +89,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

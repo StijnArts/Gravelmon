@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "feliridge",
-  "nationalPokedexNumber": 3833,
+  "nationalPokedexNumber": 3832,
   "primaryType": "normal",
   "secondaryType": "rock",
   "abilities": [
@@ -112,7 +112,7 @@
     "cobblemon.species.feliridge.desc"
   ],
   "preEvolution": "alpurr",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

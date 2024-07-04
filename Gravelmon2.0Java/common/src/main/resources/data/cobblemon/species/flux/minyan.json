@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "minyan",
-  "nationalPokedexNumber": 2540,
+  "nationalPokedexNumber": 2539,
   "primaryType": "dark",
   "secondaryType": "poison",
   "abilities": [
+    "bloodlust",
     "infiltrator",
     "h:poisontouch"
   ],
@@ -93,7 +94,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

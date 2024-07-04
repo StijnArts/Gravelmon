@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tankton",
-  "nationalPokedexNumber": 5425,
+  "nationalPokedexNumber": 5424,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -110,7 +110,7 @@
     "cobblemon.species.tankton.desc"
   ],
   "preEvolution": "neonite",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

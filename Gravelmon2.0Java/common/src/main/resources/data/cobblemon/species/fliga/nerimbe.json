@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nerimbe",
-  "nationalPokedexNumber": 3950,
+  "nationalPokedexNumber": 3949,
   "primaryType": "grass",
   "secondaryType": "ice",
   "abilities": [
@@ -132,7 +132,7 @@
     "cobblemon.species.nerimbe.desc"
   ],
   "preEvolution": "snowtus",
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

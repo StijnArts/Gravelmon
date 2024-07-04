@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "papillo",
-  "nationalPokedexNumber": 5652,
+  "nationalPokedexNumber": 5651,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.papillo.desc"
   ],
   "preEvolution": "purrty",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

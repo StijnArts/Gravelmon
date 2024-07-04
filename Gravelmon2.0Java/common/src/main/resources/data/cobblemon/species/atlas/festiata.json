@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "festiata",
-  "nationalPokedexNumber": 5504,
+  "nationalPokedexNumber": 5503,
   "primaryType": "fairy",
   "abilities": [
     "aftermath",
@@ -101,7 +101,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

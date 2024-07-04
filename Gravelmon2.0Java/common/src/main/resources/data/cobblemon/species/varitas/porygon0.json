@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porygon0",
-  "nationalPokedexNumber": 2358,
+  "nationalPokedexNumber": 2357,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
@@ -150,7 +150,7 @@
     "cobblemon.species.porygon0.desc"
   ],
   "preEvolution": "porygon2 form=varitasian",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

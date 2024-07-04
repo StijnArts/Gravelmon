@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carcahawk",
-  "nationalPokedexNumber": 4646,
+  "nationalPokedexNumber": 4645,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -106,7 +106,7 @@
   "pokedex": [
     "cobblemon.species.carcahawk.desc"
   ],
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

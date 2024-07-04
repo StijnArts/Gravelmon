@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "basculips",
-  "nationalPokedexNumber": 5639,
+  "nationalPokedexNumber": 5638,
   "primaryType": "poison",
   "secondaryType": "grass",
   "abilities": [
@@ -144,7 +144,7 @@
     "cobblemon.species.basculips.desc"
   ],
   "preEvolution": "barbloom",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

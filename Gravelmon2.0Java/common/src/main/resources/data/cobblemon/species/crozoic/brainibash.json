@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brainibash",
-  "nationalPokedexNumber": 3308,
+  "nationalPokedexNumber": 3307,
   "primaryType": "psychic",
   "secondaryType": "fighting",
   "abilities": [
@@ -82,7 +82,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "withereen",
-  "nationalPokedexNumber": 2863,
+  "nationalPokedexNumber": 2862,
   "primaryType": "grass",
   "abilities": [
     "effectspore",
@@ -104,7 +104,7 @@
     "cobblemon.species.withereen.desc"
   ],
   "preEvolution": "dandylie",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

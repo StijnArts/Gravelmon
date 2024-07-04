@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "battlefly",
-  "nationalPokedexNumber": 3115,
+  "nationalPokedexNumber": 3114,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -97,7 +97,7 @@
     "cobblemon.species.battlefly.desc"
   ],
   "preEvolution": "strikoon",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

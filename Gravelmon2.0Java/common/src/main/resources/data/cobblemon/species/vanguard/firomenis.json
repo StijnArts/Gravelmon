@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "firomenis",
-  "nationalPokedexNumber": 4096,
+  "nationalPokedexNumber": 4095,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -125,7 +125,7 @@
     "cobblemon.species.firomenis.desc"
   ],
   "preEvolution": "merlicun",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

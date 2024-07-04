@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "felifluff",
-  "nationalPokedexNumber": 4622,
+  "nationalPokedexNumber": 4621,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -95,7 +95,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

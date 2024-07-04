@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "paposy",
-  "nationalPokedexNumber": 4022,
+  "nationalPokedexNumber": 4021,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -85,7 +85,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

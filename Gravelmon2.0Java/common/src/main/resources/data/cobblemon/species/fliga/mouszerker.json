@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mouszerker",
-  "nationalPokedexNumber": 3948,
+  "nationalPokedexNumber": 3947,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.mouszerker.desc"
   ],
   "preEvolution": "mousprite",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

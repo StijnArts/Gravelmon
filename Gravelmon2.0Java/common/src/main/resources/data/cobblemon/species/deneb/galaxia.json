@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "galaxia",
-  "nationalPokedexNumber": 4847,
+  "nationalPokedexNumber": 4846,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
@@ -84,7 +84,7 @@
   "pokedex": [
     "cobblemon.species.galaxia.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

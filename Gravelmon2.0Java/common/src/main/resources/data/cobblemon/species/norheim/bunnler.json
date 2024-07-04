@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bunnler",
-  "nationalPokedexNumber": 3144,
+  "nationalPokedexNumber": 3143,
   "primaryType": "dark",
   "secondaryType": "ice",
   "abilities": [
@@ -75,7 +75,7 @@
   "pokedex": [
     "cobblemon.species.bunnler.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

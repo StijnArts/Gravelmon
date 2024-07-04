@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "possessum",
-  "nationalPokedexNumber": 5136,
+  "nationalPokedexNumber": 5135,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -157,7 +157,7 @@
     "cobblemon.species.possessum.desc"
   ],
   "preEvolution": "ratten",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

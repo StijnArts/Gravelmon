@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wormeel",
-  "nationalPokedexNumber": 3071,
+  "nationalPokedexNumber": 3070,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -142,7 +142,7 @@
     "cobblemon.species.wormeel.desc"
   ],
   "preEvolution": "wormini",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

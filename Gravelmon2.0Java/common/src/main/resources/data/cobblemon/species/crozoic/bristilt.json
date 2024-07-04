@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bristilt",
-  "nationalPokedexNumber": 3334,
+  "nationalPokedexNumber": 3333,
   "primaryType": "poison",
   "abilities": [
     "poisonpoint",
@@ -70,7 +70,7 @@
     "cobblemon.species.bristilt.desc"
   ],
   "preEvolution": "stunge",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

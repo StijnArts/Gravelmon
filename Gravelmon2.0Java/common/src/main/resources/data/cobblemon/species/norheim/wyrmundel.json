@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wyrmundel",
-  "nationalPokedexNumber": 3295,
+  "nationalPokedexNumber": 3294,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.wyrmundel.desc"
   ],
-  "baseScale": 1.9000000000000001,
+  "baseScale": 1.2666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

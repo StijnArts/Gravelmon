@@ -5,7 +5,7 @@
   "primaryType": "ground",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
+    "incantation",
     "h:sandrush"
   ],
   "baseStats": {
@@ -110,7 +110,7 @@
   "pokedex": [
     "cobblemon.species.kaskadianexcadrill.desc"
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

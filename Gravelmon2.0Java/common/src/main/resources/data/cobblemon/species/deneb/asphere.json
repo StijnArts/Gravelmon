@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "asphere",
-  "nationalPokedexNumber": 4778,
+  "nationalPokedexNumber": 4777,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -233,7 +233,7 @@
   "pokedex": [
     "cobblemon.species.asphere.desc"
   ],
-  "baseScale": 1.25,
+  "baseScale": 0.8333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

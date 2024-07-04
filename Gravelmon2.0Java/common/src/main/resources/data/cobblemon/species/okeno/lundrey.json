@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lundrey",
-  "nationalPokedexNumber": 4677,
+  "nationalPokedexNumber": 4676,
   "primaryType": "normal",
   "secondaryType": "poison",
   "abilities": [
@@ -101,7 +101,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snomatcha",
-  "nationalPokedexNumber": 3854,
+  "nationalPokedexNumber": 3853,
   "primaryType": "ice",
   "secondaryType": "grass",
   "abilities": [
@@ -134,7 +134,7 @@
     "cobblemon.species.snomatcha.desc"
   ],
   "preEvolution": "snofresh",
-  "baseScale": 0.65,
+  "baseScale": 0.43333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

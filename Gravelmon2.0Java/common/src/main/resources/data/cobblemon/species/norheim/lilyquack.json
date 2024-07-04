@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lilyquack",
-  "nationalPokedexNumber": 3089,
+  "nationalPokedexNumber": 3088,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -83,7 +83,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

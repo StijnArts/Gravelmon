@@ -118,7 +118,7 @@
   "pokedex": [
     "cobblemon.species.luxflon.desc"
   ],
-  "baseScale": 2.25,
+  "baseScale": 1.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

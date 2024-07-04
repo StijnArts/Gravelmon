@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rampina",
-  "nationalPokedexNumber": 3237,
+  "nationalPokedexNumber": 3236,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.rampina.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

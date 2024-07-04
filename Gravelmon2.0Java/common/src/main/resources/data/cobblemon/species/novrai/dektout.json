@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dektout",
-  "nationalPokedexNumber": 5273,
+  "nationalPokedexNumber": 5272,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -138,7 +138,7 @@
     "cobblemon.species.dektout.desc"
   ],
   "preEvolution": "riskard",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

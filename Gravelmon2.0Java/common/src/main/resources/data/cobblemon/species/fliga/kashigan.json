@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kashigan",
-  "nationalPokedexNumber": 3902,
+  "nationalPokedexNumber": 3901,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.kashigan.desc"
   ],
   "preEvolution": "sconsimese",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

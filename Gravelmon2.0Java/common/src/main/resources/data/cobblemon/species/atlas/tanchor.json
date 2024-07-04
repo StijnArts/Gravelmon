@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tanchor",
-  "nationalPokedexNumber": 5461,
+  "nationalPokedexNumber": 5460,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -107,7 +107,7 @@
     "cobblemon.species.tanchor.desc"
   ],
   "preEvolution": "shoaly",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

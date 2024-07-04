@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "exoroknid",
-  "nationalPokedexNumber": 3000,
+  "nationalPokedexNumber": 2999,
   "primaryType": "rock",
   "secondaryType": "bug",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.exoroknid.desc"
   ],
   "preEvolution": "arrocknid",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

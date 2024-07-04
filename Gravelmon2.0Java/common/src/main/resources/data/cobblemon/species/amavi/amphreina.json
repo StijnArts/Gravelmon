@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "amphreina",
-  "nationalPokedexNumber": 5738,
+  "nationalPokedexNumber": 5737,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.amphreina.desc"
   ],
   "preEvolution": "equeena",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

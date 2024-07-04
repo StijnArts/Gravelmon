@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hairibble",
-  "nationalPokedexNumber": 3597,
+  "nationalPokedexNumber": 3596,
   "primaryType": "ground",
   "secondaryType": "poison",
   "abilities": [
@@ -182,7 +182,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

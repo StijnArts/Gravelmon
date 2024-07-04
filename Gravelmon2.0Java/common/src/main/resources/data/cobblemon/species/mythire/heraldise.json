@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "heraldise",
-  "nationalPokedexNumber": 3756,
+  "nationalPokedexNumber": 3755,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -115,7 +115,7 @@
     "cobblemon.species.heraldise.desc"
   ],
   "preEvolution": "gildog",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

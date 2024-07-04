@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wreckasaur",
-  "nationalPokedexNumber": 2998,
+  "nationalPokedexNumber": 2997,
   "primaryType": "rock",
   "secondaryType": "steel",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.wreckasaur.desc"
   ],
   "preEvolution": "petirex",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

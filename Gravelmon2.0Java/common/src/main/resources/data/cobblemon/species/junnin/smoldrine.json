@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "smoldrine",
-  "nationalPokedexNumber": 2830,
+  "nationalPokedexNumber": 2829,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -126,7 +126,7 @@
     "cobblemon.species.smoldrine.desc"
   ],
   "preEvolution": "clokruel",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

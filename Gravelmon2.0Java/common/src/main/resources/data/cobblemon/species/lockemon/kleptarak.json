@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kleptarak",
-  "nationalPokedexNumber": 3504,
+  "nationalPokedexNumber": 3503,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -75,7 +75,7 @@
   "pokedex": [
     "cobblemon.species.kleptarak.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

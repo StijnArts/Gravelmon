@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goathorr",
-  "nationalPokedexNumber": 3276,
+  "nationalPokedexNumber": 3275,
   "primaryType": "steel",
   "secondaryType": "ghost",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.goathorr.desc"
   ],
   "preEvolution": "goaterr",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

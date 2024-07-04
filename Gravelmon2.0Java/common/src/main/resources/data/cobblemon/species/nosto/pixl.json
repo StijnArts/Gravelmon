@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pixl",
-  "nationalPokedexNumber": 3621,
+  "nationalPokedexNumber": 3620,
   "primaryType": "electric",
   "secondaryType": "bug",
   "abilities": [
@@ -141,7 +141,7 @@
     "cobblemon.species.pixl.desc"
   ],
   "preEvolution": "pixe",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

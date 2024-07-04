@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blitzchief",
-  "nationalPokedexNumber": 2705,
+  "nationalPokedexNumber": 2704,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.blitzchief.desc"
   ],
   "preEvolution": "stunooki",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

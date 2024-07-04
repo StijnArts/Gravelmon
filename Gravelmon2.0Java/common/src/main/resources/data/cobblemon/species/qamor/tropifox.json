@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tropifox",
-  "nationalPokedexNumber": 3966,
+  "nationalPokedexNumber": 3965,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -86,7 +86,7 @@
     "cobblemon.species.tropifox.desc"
   ],
   "preEvolution": "gremleaf",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

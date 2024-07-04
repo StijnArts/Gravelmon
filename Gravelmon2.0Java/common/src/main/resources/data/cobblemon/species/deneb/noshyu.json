@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "noshyu",
-  "nationalPokedexNumber": 4934,
+  "nationalPokedexNumber": 4933,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
@@ -81,6 +81,7 @@
     "tutor:agility",
     "tutor:iciclecrash",
     "tutor:wormhole",
+    "tutor:blackhole",
     "egg:assist",
     "egg:fakeout",
     "egg:foulplay",
@@ -115,7 +116,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

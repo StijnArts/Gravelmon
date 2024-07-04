@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "unfortunist",
-  "nationalPokedexNumber": 4684,
+  "nationalPokedexNumber": 4683,
   "primaryType": "dark",
   "secondaryType": "poison",
   "abilities": [
@@ -87,7 +87,7 @@
     "cobblemon.species.unfortunist.desc"
   ],
   "preEvolution": "mycerial",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

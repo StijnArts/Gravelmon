@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "krakshen",
-  "nationalPokedexNumber": 2981,
+  "nationalPokedexNumber": 2980,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.krakshen.desc"
   ],
   "preEvolution": "kraklam",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dawreel",
-  "nationalPokedexNumber": 4487,
+  "nationalPokedexNumber": 4486,
   "primaryType": "steel",
   "secondaryType": "ground",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.dawreel.desc"
   ],
   "preEvolution": "doree",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

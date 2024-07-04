@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mysoleum",
-  "nationalPokedexNumber": 5087,
+  "nationalPokedexNumber": 5086,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -137,7 +137,7 @@
     "cobblemon.species.mysoleum.desc"
   ],
   "preEvolution": "whispore",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

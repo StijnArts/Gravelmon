@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyrant",
-  "nationalPokedexNumber": 3602,
+  "nationalPokedexNumber": 3601,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.pyrant.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

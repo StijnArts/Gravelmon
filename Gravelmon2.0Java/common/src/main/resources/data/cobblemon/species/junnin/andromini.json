@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "andromini",
-  "nationalPokedexNumber": 2906,
+  "nationalPokedexNumber": 2905,
   "primaryType": "steel",
   "secondaryType": "psychic",
   "abilities": [
@@ -118,7 +118,7 @@
   "pokedex": [
     "cobblemon.species.andromini.desc"
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

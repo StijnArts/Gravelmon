@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kerratic",
-  "nationalPokedexNumber": 5282,
+  "nationalPokedexNumber": 5281,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -166,7 +166,7 @@
     "cobblemon.species.kerratic.desc"
   ],
   "preEvolution": "karroot",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spectreon",
-  "nationalPokedexNumber": 4437,
+  "nationalPokedexNumber": 4436,
   "primaryType": "ghost",
   "abilities": [
     "cursedbody",
@@ -94,7 +94,7 @@
   "pokedex": [
     "cobblemon.species.spectreon.desc"
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

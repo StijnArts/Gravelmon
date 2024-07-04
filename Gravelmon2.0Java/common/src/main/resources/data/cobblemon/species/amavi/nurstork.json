@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nurstork",
-  "nationalPokedexNumber": 5760,
+  "nationalPokedexNumber": 5759,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.nurstork.desc"
   ],
   "preEvolution": "bornith",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

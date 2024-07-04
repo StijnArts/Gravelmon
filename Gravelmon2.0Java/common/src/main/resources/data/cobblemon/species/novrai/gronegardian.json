@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gronegardian",
-  "nationalPokedexNumber": 5331,
+  "nationalPokedexNumber": 5330,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -142,7 +142,7 @@
   "pokedex": [
     "cobblemon.species.gronegardian.desc"
   ],
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

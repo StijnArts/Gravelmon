@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "edifierce",
-  "nationalPokedexNumber": 5577,
+  "nationalPokedexNumber": 5576,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
@@ -110,7 +110,7 @@
     "cobblemon.species.edifierce.desc"
   ],
   "preEvolution": "visclaw",
-  "baseScale": 1.0250000000000001,
+  "baseScale": 0.6833333333333332,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

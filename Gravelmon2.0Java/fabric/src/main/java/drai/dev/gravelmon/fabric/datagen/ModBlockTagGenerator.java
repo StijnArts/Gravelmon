@@ -23,7 +23,7 @@ public class ModBlockTagGenerator extends FabricTagProvider.BlockTagProvider {
                         GravelmonBlocks.MYSTIC_STONE_ORE.get(),
                         GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE.get(),
                         GravelmonBlocks.SOLID_STONE_ORE.get(),
-                        GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE.get());
+                        GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE.get());
 
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)

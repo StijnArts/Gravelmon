@@ -22,7 +22,7 @@ public class DeltaKoffing extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by Zero_Breaker. It discharges electricity when hit physically. It uses this as a defensive mechanism against predators."),
                 List.of(new EvolutionEntry("deltaweezing", EvolutionType.LEVEL_UP, false, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "35")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

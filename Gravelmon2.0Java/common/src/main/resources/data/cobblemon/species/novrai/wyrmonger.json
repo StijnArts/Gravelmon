@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wyrmonger",
-  "nationalPokedexNumber": 5325,
+  "nationalPokedexNumber": 5324,
   "primaryType": "steel",
   "secondaryType": "dragon",
   "abilities": [
@@ -149,7 +149,7 @@
   "pokedex": [
     "cobblemon.species.wyrmonger.desc"
   ],
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

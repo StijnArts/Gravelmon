@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goabalt",
-  "nationalPokedexNumber": 4705,
+  "nationalPokedexNumber": 4704,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
@@ -120,7 +120,7 @@
     "cobblemon.species.goabalt.desc"
   ],
   "preEvolution": "hornikel",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

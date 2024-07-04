@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mouscalibur",
-  "nationalPokedexNumber": 3947,
+  "nationalPokedexNumber": 3946,
   "primaryType": "fairy",
   "secondaryType": "electric",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.mouscalibur.desc"
   ],
   "preEvolution": "mousprite",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

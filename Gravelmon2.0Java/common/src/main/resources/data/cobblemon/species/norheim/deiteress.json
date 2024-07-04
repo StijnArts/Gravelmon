@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deiteress",
-  "nationalPokedexNumber": 3293,
+  "nationalPokedexNumber": 3292,
   "primaryType": "fairy",
   "secondaryType": "grass",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.deiteress.desc"
   ],
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

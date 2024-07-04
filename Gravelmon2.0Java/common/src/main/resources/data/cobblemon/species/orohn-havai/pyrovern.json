@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyrovern",
-  "nationalPokedexNumber": 2912,
+  "nationalPokedexNumber": 2911,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -82,7 +82,7 @@
     "cobblemon.species.pyrovern.desc"
   ],
   "preEvolution": "impferno",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "norwale",
-  "nationalPokedexNumber": 3112,
+  "nationalPokedexNumber": 3111,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.norwale.desc"
   ],
   "preEvolution": "tuscal",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

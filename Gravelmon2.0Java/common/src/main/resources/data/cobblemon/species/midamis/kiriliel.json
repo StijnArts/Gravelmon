@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kiriliel",
-  "nationalPokedexNumber": 4592,
+  "nationalPokedexNumber": 4591,
   "primaryType": "steel",
   "secondaryType": "dragon",
   "abilities": [
@@ -86,7 +86,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

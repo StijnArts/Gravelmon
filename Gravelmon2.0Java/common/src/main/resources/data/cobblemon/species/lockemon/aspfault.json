@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aspfault",
-  "nationalPokedexNumber": 3450,
+  "nationalPokedexNumber": 3449,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -98,7 +98,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

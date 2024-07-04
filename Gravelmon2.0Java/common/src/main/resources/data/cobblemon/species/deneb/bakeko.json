@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bakeko",
-  "nationalPokedexNumber": 4731,
+  "nationalPokedexNumber": 4730,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -126,7 +126,7 @@
     "cobblemon.species.bakeko.desc"
   ],
   "preEvolution": "maneko",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

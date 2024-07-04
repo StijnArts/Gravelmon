@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mockoon",
-  "nationalPokedexNumber": 3574,
+  "nationalPokedexNumber": 3573,
   "primaryType": "bug",
   "abilities": [
     "shedskin",
@@ -96,7 +96,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

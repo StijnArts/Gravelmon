@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beanormous",
-  "nationalPokedexNumber": 5575,
+  "nationalPokedexNumber": 5574,
   "primaryType": "fairy",
   "secondaryType": "grass",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.beanormous.desc"
   ],
   "preEvolution": "beaniscule",
-  "baseScale": 0.9500000000000001,
+  "baseScale": 0.6333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

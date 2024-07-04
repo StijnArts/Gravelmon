@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "candicorn",
-  "nationalPokedexNumber": 4158,
+  "nationalPokedexNumber": 4157,
   "primaryType": "fairy",
   "secondaryType": "normal",
   "abilities": [
@@ -80,7 +80,7 @@
     "cobblemon.species.candicorn.desc"
   ],
   "preEvolution": "mallocolt",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

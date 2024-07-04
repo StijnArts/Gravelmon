@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kitsu",
-  "nationalPokedexNumber": 4111,
+  "nationalPokedexNumber": 4110,
   "primaryType": "fire",
   "secondaryType": "cosmic",
   "abilities": [
@@ -90,7 +90,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

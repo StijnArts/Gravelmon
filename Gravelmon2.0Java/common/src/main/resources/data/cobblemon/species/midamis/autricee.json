@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "autricee",
-  "nationalPokedexNumber": 4600,
+  "nationalPokedexNumber": 4599,
   "primaryType": "electric",
   "secondaryType": "fairy",
   "abilities": [
@@ -63,7 +63,7 @@
   "pokedex": [
     "cobblemon.species.autricee.desc"
   ],
-  "baseScale": 0.9,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -70,7 +70,7 @@
     "cobblemon.species.starena.desc"
   ],
   "preEvolution": "sandime",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

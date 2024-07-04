@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "emperiegle",
-  "nationalPokedexNumber": 2939,
+  "nationalPokedexNumber": 2938,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -109,7 +109,7 @@
     "cobblemon.species.emperiegle.desc"
   ],
   "preEvolution": "albivore",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

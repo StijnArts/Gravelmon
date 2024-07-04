@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grumbale",
-  "nationalPokedexNumber": 3837,
+  "nationalPokedexNumber": 3836,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.grumbale.desc"
   ],
   "preEvolution": "draybale",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

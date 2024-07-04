@@ -142,7 +142,7 @@
     "cobblemon.species.impifaun.desc"
   ],
   "preEvolution": "impuck",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

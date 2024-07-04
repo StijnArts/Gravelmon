@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shampooch",
-  "nationalPokedexNumber": 5434,
+  "nationalPokedexNumber": 5433,
   "primaryType": "normal",
   "secondaryType": "water",
   "abilities": [
@@ -122,7 +122,7 @@
     "cobblemon.species.shampooch.desc"
   ],
   "preEvolution": "moppup",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

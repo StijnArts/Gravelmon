@@ -129,7 +129,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -434,7 +434,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -460,7 +460,8 @@
   "secondaryType": "water",
   "abilities": [
     "levitate",
-    "h:keeneye"
+    "condensation",
+    "h:carboncapture"
   ],
   "baseStats": {
     "hp": 30,
@@ -587,7 +588,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

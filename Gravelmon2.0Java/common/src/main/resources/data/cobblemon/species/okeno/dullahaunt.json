@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dullahaunt",
-  "nationalPokedexNumber": 4685,
+  "nationalPokedexNumber": 4684,
   "primaryType": "ghost",
   "abilities": [
     "wanderingspirit",
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.dullahaunt.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

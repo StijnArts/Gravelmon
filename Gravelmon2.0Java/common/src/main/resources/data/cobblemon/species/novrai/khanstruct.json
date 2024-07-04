@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "khanstruct",
-  "nationalPokedexNumber": 5156,
+  "nationalPokedexNumber": 5155,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
@@ -142,7 +142,7 @@
     "cobblemon.species.khanstruct.desc"
   ],
   "preEvolution": "playmight",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

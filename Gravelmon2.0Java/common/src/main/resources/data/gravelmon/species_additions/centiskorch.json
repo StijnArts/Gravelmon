@@ -105,7 +105,7 @@
     "cobblemon.species.seviiancentiskorch.desc"
   ],
   "preEvolution": "sizzlipede form=seviian",
-  "baseScale": 0.75,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -238,7 +238,7 @@
     "cobblemon.species.ayreiancentiskorch.desc"
   ],
   "preEvolution": "sizzlipede form=ayreian",
-  "baseScale": 0.75,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

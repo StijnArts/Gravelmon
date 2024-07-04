@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carnosteus",
-  "nationalPokedexNumber": 5564,
+  "nationalPokedexNumber": 5563,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.carnosteus.desc"
   ],
   "preEvolution": "carnibble",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

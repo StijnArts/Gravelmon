@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moreen",
-  "nationalPokedexNumber": 2275,
+  "nationalPokedexNumber": 2274,
   "primaryType": "dark",
   "abilities": [
     "defiant",
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.moreen.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

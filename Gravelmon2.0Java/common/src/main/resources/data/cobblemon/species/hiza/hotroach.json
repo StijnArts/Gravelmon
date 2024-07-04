@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hotroach",
-  "nationalPokedexNumber": 2652,
+  "nationalPokedexNumber": 2651,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.hotroach.desc"
   ],
   "preEvolution": "behitle",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "roostegg",
-  "nationalPokedexNumber": 5419,
+  "nationalPokedexNumber": 5418,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.roostegg.desc"
   ],
   "preEvolution": "yolken",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

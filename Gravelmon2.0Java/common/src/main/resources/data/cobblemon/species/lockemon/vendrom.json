@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "vendrom",
-  "nationalPokedexNumber": 3510,
+  "nationalPokedexNumber": 3509,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "ancientbody",
+    "h:ancientbody"
   ],
   "baseStats": {
     "hp": 125,
@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.vendrom.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

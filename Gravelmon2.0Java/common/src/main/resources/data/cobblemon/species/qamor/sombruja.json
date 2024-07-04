@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sombruja",
-  "nationalPokedexNumber": 3997,
+  "nationalPokedexNumber": 3996,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.sombruja.desc"
   ],
   "preEvolution": "ciguapo",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

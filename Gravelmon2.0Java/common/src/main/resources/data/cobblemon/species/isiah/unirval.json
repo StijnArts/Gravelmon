@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "unirval",
-  "nationalPokedexNumber": 4371,
+  "nationalPokedexNumber": 4370,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.unirval.desc"
   ],
   "preEvolution": "narnail",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sealady",
-  "nationalPokedexNumber": 3208,
+  "nationalPokedexNumber": 3207,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.sealady.desc"
   ],
   "preEvolution": "seel form=norheiman",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

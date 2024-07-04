@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dyramic",
-  "nationalPokedexNumber": 3932,
+  "nationalPokedexNumber": 3931,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -102,7 +102,7 @@
     "cobblemon.species.dyramic.desc"
   ],
   "preEvolution": "sproutle",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

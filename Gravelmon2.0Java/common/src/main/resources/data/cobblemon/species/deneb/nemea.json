@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nemea",
-  "nationalPokedexNumber": 4775,
+  "nationalPokedexNumber": 4774,
   "primaryType": "steel",
   "abilities": [
     "pressure",
@@ -92,7 +92,7 @@
   "pokedex": [
     "cobblemon.species.nemea.desc"
   ],
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.4666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

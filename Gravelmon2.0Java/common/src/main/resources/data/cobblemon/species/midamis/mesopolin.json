@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mesopolin",
-  "nationalPokedexNumber": 4594,
+  "nationalPokedexNumber": 4593,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.mesopolin.desc"
   ],
-  "baseScale": 0.775,
+  "baseScale": 0.5166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

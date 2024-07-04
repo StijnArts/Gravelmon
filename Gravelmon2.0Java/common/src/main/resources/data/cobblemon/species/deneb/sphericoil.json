@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sphericoil",
-  "nationalPokedexNumber": 4721,
+  "nationalPokedexNumber": 4720,
   "primaryType": "electric",
   "abilities": [
     "soundproof",
@@ -93,7 +93,7 @@
     "cobblemon.species.sphericoil.desc"
   ],
   "preEvolution": "electrode",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

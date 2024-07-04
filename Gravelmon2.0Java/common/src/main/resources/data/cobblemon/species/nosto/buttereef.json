@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "buttereef",
-  "nationalPokedexNumber": 3600,
+  "nationalPokedexNumber": 3599,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -104,7 +104,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

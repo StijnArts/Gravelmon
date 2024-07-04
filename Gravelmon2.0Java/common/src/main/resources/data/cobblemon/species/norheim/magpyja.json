@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magpyja",
-  "nationalPokedexNumber": 3131,
+  "nationalPokedexNumber": 3130,
   "primaryType": "flying",
   "secondaryType": "dark",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.magpyja.desc"
   ],
   "preEvolution": "birdler",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nurturse",
-  "nationalPokedexNumber": 2958,
+  "nationalPokedexNumber": 2957,
   "primaryType": "fairy",
   "abilities": [
     "naturalcure",
@@ -120,7 +120,7 @@
     "cobblemon.species.nurturse.desc"
   ],
   "preEvolution": "nursee",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

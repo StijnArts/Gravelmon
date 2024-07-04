@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "morgous",
-  "nationalPokedexNumber": 3954,
+  "nationalPokedexNumber": 3953,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.morgous.desc"
   ],
-  "baseScale": 0.8250000000000001,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clownder",
-  "nationalPokedexNumber": 5700,
+  "nationalPokedexNumber": 5699,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -118,7 +118,7 @@
     "cobblemon.species.clownder.desc"
   ],
   "preEvolution": "seally",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

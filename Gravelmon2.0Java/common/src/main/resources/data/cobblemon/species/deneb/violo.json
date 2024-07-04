@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "violo",
-  "nationalPokedexNumber": 4755,
+  "nationalPokedexNumber": 4754,
   "primaryType": "normal",
   "abilities": [
     "owntempo",
@@ -131,7 +131,7 @@
   "pokedex": [
     "cobblemon.species.violo.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

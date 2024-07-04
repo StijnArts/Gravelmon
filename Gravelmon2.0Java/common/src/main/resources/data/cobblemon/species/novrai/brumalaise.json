@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brumalaise",
-  "nationalPokedexNumber": 5324,
+  "nationalPokedexNumber": 5323,
   "primaryType": "poison",
   "secondaryType": "ice",
   "abilities": [
@@ -143,7 +143,7 @@
     "cobblemon.species.brumalaise.desc"
   ],
   "preEvolution": "contagice",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

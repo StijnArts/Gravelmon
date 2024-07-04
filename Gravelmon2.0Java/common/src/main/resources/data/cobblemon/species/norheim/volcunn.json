@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "volcunn",
-  "nationalPokedexNumber": 3278,
+  "nationalPokedexNumber": 3277,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.volcunn.desc"
   ],
   "preEvolution": "afunn",
-  "baseScale": 0.9,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

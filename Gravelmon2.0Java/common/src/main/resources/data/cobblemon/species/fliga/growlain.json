@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "growlain",
-  "nationalPokedexNumber": 3953,
+  "nationalPokedexNumber": 3952,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -75,7 +75,7 @@
   "pokedex": [
     "cobblemon.species.growlain.desc"
   ],
-  "baseScale": 1.05,
+  "baseScale": 0.7000000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

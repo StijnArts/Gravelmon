@@ -126,7 +126,7 @@
     "cobblemon.species.novranvanilluxe.desc"
   ],
   "preEvolution": "vanillish form=novran",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -258,7 +258,7 @@
     "cobblemon.species.ayreianvanilluxe.desc"
   ],
   "preEvolution": "vanillish form=ayreian",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

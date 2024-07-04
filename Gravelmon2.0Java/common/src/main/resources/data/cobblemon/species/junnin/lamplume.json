@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lamplume",
-  "nationalPokedexNumber": 2896,
+  "nationalPokedexNumber": 2895,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.lamplume.desc"
   ],
   "preEvolution": "indascent",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

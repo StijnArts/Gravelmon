@@ -130,7 +130,7 @@
     "cobblemon.species.aerocea.desc"
   ],
   "preEvolution": "delphair",
-  "baseScale": 1.075,
+  "baseScale": 0.7166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

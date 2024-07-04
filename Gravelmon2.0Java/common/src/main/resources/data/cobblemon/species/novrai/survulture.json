@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "survulture",
-  "nationalPokedexNumber": 5265,
+  "nationalPokedexNumber": 5264,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -134,7 +134,7 @@
     "cobblemon.species.survulture.desc"
   ],
   "preEvolution": "recorvid",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

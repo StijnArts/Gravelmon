@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "radiaze",
-  "nationalPokedexNumber": 3014,
+  "nationalPokedexNumber": 3013,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -139,7 +139,7 @@
     "cobblemon.species.radiaze.desc"
   ],
   "preEvolution": "radizorb",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

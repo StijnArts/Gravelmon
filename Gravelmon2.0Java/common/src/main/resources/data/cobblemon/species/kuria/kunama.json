@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kunama",
-  "nationalPokedexNumber": 4191,
+  "nationalPokedexNumber": 4190,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.kunama.desc"
   ],
   "preEvolution": "ribikun",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

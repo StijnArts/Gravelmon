@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "itaffura",
-  "nationalPokedexNumber": 5167,
+  "nationalPokedexNumber": 5166,
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
@@ -149,7 +149,7 @@
     "cobblemon.species.itaffura.desc"
   ],
   "preEvolution": "itachill",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

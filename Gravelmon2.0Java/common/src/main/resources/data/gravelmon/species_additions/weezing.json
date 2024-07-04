@@ -88,7 +88,7 @@
     "cobblemon.species.qamoranweezing.desc"
   ],
   "preEvolution": "koffing form=qamoran",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -397,7 +397,7 @@
     "cobblemon.species.relicweezing.desc"
   ],
   "preEvolution": "koffing form=relic",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atlaxocean",
-  "nationalPokedexNumber": 5102,
+  "nationalPokedexNumber": 5101,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -122,7 +122,7 @@
     "cobblemon.species.atlaxocean.desc"
   ],
   "preEvolution": "sosola",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

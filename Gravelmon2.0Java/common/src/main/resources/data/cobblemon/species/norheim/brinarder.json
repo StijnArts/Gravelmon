@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brinarder",
-  "nationalPokedexNumber": 3109,
+  "nationalPokedexNumber": 3108,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.brinarder.desc"
   ],
   "preEvolution": "bubawl",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

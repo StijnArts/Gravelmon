@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "avocallite",
-  "nationalPokedexNumber": 3392,
+  "nationalPokedexNumber": 3391,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.avocallite.desc"
   ],
   "preEvolution": "avocadoze",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

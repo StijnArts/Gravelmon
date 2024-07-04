@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "surusen",
-  "nationalPokedexNumber": 5334,
+  "nationalPokedexNumber": 5333,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
@@ -138,7 +138,7 @@
   "pokedex": [
     "cobblemon.species.surusen.desc"
   ],
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

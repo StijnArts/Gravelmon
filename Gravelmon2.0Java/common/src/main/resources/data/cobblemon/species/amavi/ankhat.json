@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ankhat",
-  "nationalPokedexNumber": 5684,
+  "nationalPokedexNumber": 5683,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.ankhat.desc"
   ],
   "preEvolution": "pyrameow",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harborosa",
-  "nationalPokedexNumber": 5686,
+  "nationalPokedexNumber": 5685,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.harborosa.desc"
   ],
   "preEvolution": "gallowing",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nerachi",
-  "nationalPokedexNumber": 3993,
+  "nationalPokedexNumber": 3992,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.nerachi.desc"
   ],
   "preEvolution": "capsudier",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

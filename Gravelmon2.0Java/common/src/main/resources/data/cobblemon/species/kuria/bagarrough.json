@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bagarrough",
-  "nationalPokedexNumber": 4170,
+  "nationalPokedexNumber": 4169,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.bagarrough.desc"
   ],
   "preEvolution": "tsandchi",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

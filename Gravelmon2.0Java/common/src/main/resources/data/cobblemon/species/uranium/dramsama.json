@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dramsama",
-  "nationalPokedexNumber": 2472,
+  "nationalPokedexNumber": 2471,
   "primaryType": "psychic",
   "secondaryType": "ghost",
   "abilities": [
@@ -139,7 +139,7 @@
     "cobblemon.species.dramsama.desc"
   ],
   "preEvolution": "masking",
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

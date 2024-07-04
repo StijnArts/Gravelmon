@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "superheron",
-  "nationalPokedexNumber": 5062,
+  "nationalPokedexNumber": 5061,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -126,7 +126,7 @@
     "cobblemon.species.superheron.desc"
   ],
   "preEvolution": "justork",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

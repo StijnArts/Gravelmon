@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crestoral",
-  "nationalPokedexNumber": 3328,
+  "nationalPokedexNumber": 3327,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -112,7 +112,7 @@
     "cobblemon.species.crestoral.desc"
   ],
   "preEvolution": "pikoral",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "needella",
-  "nationalPokedexNumber": 5493,
+  "nationalPokedexNumber": 5492,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
@@ -130,7 +130,7 @@
     "cobblemon.species.needella.desc"
   ],
   "preEvolution": "needoon",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

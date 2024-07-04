@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phoenan",
-  "nationalPokedexNumber": 5348,
+  "nationalPokedexNumber": 5347,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -112,7 +112,7 @@
     "cobblemon.species.phoenan.desc"
   ],
   "preEvolution": "bannawk",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

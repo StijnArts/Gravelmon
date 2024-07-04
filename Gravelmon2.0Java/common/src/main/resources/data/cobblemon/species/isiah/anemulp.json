@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "anemulp",
-  "nationalPokedexNumber": 4346,
+  "nationalPokedexNumber": 4345,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -81,7 +81,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

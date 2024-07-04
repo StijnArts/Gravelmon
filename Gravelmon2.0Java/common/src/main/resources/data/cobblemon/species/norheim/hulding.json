@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hulding",
-  "nationalPokedexNumber": 3240,
+  "nationalPokedexNumber": 3239,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
@@ -92,7 +92,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

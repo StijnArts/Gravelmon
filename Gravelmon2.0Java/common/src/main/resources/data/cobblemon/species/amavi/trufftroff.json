@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trufftroff",
-  "nationalPokedexNumber": 5644,
+  "nationalPokedexNumber": 5643,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.trufftroff.desc"
   ],
   "preEvolution": "gruffle",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

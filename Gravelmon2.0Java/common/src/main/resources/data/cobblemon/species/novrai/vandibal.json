@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vandibal",
-  "nationalPokedexNumber": 5138,
+  "nationalPokedexNumber": 5137,
   "primaryType": "poison",
   "secondaryType": "bug",
   "abilities": [
@@ -134,7 +134,7 @@
     "cobblemon.species.vandibal.desc"
   ],
   "preEvolution": "splattod",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

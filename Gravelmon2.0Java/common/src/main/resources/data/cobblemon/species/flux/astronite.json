@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "astronite",
-  "nationalPokedexNumber": 2580,
+  "nationalPokedexNumber": 2579,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.astronite.desc"
   ],
   "preEvolution": "cometeor",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

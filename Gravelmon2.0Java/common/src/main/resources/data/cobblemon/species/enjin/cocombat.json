@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cocombat",
-  "nationalPokedexNumber": 4997,
+  "nationalPokedexNumber": 4996,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -129,7 +129,7 @@
     "cobblemon.species.cocombat.desc"
   ],
   "preEvolution": "cocoward",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

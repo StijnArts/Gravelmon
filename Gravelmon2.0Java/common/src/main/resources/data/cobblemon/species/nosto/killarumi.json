@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "killarumi",
-  "nationalPokedexNumber": 3604,
+  "nationalPokedexNumber": 3603,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -99,7 +99,7 @@
     "cobblemon.species.killarumi.desc"
   ],
   "preEvolution": "piluma",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

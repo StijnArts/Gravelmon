@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "memoram",
-  "nationalPokedexNumber": 3861,
+  "nationalPokedexNumber": 3860,
   "primaryType": "psychic",
   "abilities": [
     "telepathy",
@@ -115,7 +115,7 @@
   "pokedex": [
     "cobblemon.species.memoram.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

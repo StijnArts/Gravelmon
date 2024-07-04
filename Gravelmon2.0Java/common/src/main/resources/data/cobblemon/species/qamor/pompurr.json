@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pompurr",
-  "nationalPokedexNumber": 3984,
+  "nationalPokedexNumber": 3983,
   "primaryType": "normal",
   "secondaryType": "fairy",
   "abilities": [
@@ -81,7 +81,7 @@
     "cobblemon.species.pompurr.desc"
   ],
   "preEvolution": "munchkitty",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

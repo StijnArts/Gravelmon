@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reparine",
-  "nationalPokedexNumber": 5559,
+  "nationalPokedexNumber": 5558,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -100,7 +100,7 @@
     "cobblemon.species.reparine.desc"
   ],
   "preEvolution": "galaguana",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mavriquail",
-  "nationalPokedexNumber": 2848,
+  "nationalPokedexNumber": 2847,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -116,7 +116,7 @@
     "cobblemon.species.mavriquail.desc"
   ],
   "preEvolution": "chiquail",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

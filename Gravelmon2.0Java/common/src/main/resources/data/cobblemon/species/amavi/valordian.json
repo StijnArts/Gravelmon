@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "valordian",
-  "nationalPokedexNumber": 5621,
+  "nationalPokedexNumber": 5620,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.valordian.desc"
   ],
   "preEvolution": "twirlisk",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

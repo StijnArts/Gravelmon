@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "saguartic",
-  "nationalPokedexNumber": 4069,
+  "nationalPokedexNumber": 4068,
   "primaryType": "ice",
   "secondaryType": "grass",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.saguartic.desc"
   ],
   "preEvolution": "chillichoya",
-  "baseScale": 1.3499999999999999,
+  "baseScale": 0.9,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

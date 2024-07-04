@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "selkreeper",
-  "nationalPokedexNumber": 4081,
+  "nationalPokedexNumber": 4080,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.selkreeper.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

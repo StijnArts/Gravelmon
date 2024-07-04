@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jawile",
-  "nationalPokedexNumber": 4831,
+  "nationalPokedexNumber": 4830,
   "primaryType": "steel",
   "secondaryType": "fairy",
   "abilities": [
@@ -130,7 +130,7 @@
     "cobblemon.species.jawile.desc"
   ],
   "preEvolution": "mawile",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

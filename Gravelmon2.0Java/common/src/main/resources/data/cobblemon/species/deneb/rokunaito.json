@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rokunaito",
-  "nationalPokedexNumber": 4905,
+  "nationalPokedexNumber": 4904,
   "primaryType": "rock",
   "abilities": [
     "skilllink",
@@ -93,7 +93,7 @@
     "cobblemon.species.rokunaito.desc"
   ],
   "preEvolution": "dorisuton",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

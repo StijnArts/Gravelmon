@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fosteraptor",
-  "nationalPokedexNumber": 5222,
+  "nationalPokedexNumber": 5221,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -145,7 +145,7 @@
   "pokedex": [
     "cobblemon.species.fosteraptor.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

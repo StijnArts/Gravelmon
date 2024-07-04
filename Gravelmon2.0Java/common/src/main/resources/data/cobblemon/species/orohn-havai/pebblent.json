@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pebblent",
-  "nationalPokedexNumber": 2963,
+  "nationalPokedexNumber": 2962,
   "primaryType": "rock",
   "secondaryType": "grass",
   "abilities": [
@@ -87,7 +87,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dorimedon",
-  "nationalPokedexNumber": 4385,
+  "nationalPokedexNumber": 4384,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.dorimedon.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "birdler",
-  "nationalPokedexNumber": 3130,
+  "nationalPokedexNumber": 3129,
   "primaryType": "flying",
   "abilities": [
     "unburden",
@@ -82,7 +82,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

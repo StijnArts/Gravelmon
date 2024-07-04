@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flaringo",
-  "nationalPokedexNumber": 2698,
+  "nationalPokedexNumber": 2697,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -115,7 +115,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

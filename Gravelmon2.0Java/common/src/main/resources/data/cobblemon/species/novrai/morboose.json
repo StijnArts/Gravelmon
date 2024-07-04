@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "morboose",
-  "nationalPokedexNumber": 5175,
+  "nationalPokedexNumber": 5174,
   "primaryType": "ghost",
   "secondaryType": "electric",
   "abilities": [
@@ -147,7 +147,7 @@
     "cobblemon.species.morboose.desc"
   ],
   "preEvolution": "fawntom",
-  "baseScale": 0.8250000000000001,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

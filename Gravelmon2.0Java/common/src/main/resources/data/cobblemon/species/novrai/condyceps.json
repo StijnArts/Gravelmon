@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "condyceps",
-  "nationalPokedexNumber": 5097,
+  "nationalPokedexNumber": 5096,
   "primaryType": "ground",
   "secondaryType": "bug",
   "abilities": [
@@ -138,7 +138,7 @@
     "cobblemon.species.condyceps.desc"
   ],
   "preEvolution": "narysite",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

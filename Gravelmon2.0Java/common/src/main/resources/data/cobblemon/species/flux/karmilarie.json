@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "karmilarie",
-  "nationalPokedexNumber": 2590,
+  "nationalPokedexNumber": 2589,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -77,7 +77,7 @@
   "pokedex": [
     "cobblemon.species.karmilarie.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

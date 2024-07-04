@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "himegami",
-  "nationalPokedexNumber": 4351,
+  "nationalPokedexNumber": 4350,
   "primaryType": "normal",
   "secondaryType": "steel",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.himegami.desc"
   ],
   "preEvolution": "paperlane",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

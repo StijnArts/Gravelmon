@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "necrodile",
-  "nationalPokedexNumber": 3719,
+  "nationalPokedexNumber": 3718,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
@@ -136,7 +136,7 @@
     "cobblemon.species.necrodile.desc"
   ],
   "preEvolution": "hauntodile",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

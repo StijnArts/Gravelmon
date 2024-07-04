@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luminose",
-  "nationalPokedexNumber": 5741,
+  "nationalPokedexNumber": 5740,
   "primaryType": "normal",
   "secondaryType": "psychic",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.luminose.desc"
   ],
   "preEvolution": "molit",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

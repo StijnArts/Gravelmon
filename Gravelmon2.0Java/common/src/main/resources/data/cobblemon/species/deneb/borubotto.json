@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "borubotto",
-  "nationalPokedexNumber": 4925,
+  "nationalPokedexNumber": 4924,
   "primaryType": "steel",
   "abilities": [
     "download",
@@ -93,7 +93,7 @@
     "cobblemon.species.borubotto.desc"
   ],
   "preEvolution": "gagokin",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

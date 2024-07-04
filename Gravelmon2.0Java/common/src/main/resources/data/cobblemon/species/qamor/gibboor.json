@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gibboor",
-  "nationalPokedexNumber": 4031,
+  "nationalPokedexNumber": 4030,
   "primaryType": "dark",
   "abilities": [
     "unnerve",
@@ -88,7 +88,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tabooves",
-  "nationalPokedexNumber": 4291,
+  "nationalPokedexNumber": 4290,
   "primaryType": "psychic",
   "abilities": [
     "levitate",
@@ -69,7 +69,7 @@
     "cobblemon.species.tabooves.desc"
   ],
   "preEvolution": "nirvache",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

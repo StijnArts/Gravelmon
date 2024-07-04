@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "foulfoal",
-  "nationalPokedexNumber": 3196,
+  "nationalPokedexNumber": 3195,
   "primaryType": "fighting",
   "secondaryType": "normal",
   "abilities": [
@@ -91,7 +91,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

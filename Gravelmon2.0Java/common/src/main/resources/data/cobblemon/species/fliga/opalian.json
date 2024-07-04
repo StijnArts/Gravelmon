@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "opalian",
-  "nationalPokedexNumber": 3914,
+  "nationalPokedexNumber": 3913,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -129,7 +129,7 @@
     "cobblemon.species.opalian.desc"
   ],
   "preEvolution": "gallostone",
-  "baseScale": 0.75,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

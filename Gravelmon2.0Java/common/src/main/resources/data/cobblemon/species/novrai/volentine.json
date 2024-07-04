@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "volentine",
-  "nationalPokedexNumber": 5059,
+  "nationalPokedexNumber": 5058,
   "primaryType": "normal",
   "secondaryType": "fairy",
   "abilities": [
@@ -142,7 +142,7 @@
     "cobblemon.species.volentine.desc"
   ],
   "preEvolution": "fervole",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

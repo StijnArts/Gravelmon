@@ -137,7 +137,7 @@
     "cobblemon.species.ayreiancinccino.desc"
   ],
   "preEvolution": "minccino form=ayreian",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

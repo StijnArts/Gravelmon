@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ankleaf",
-  "nationalPokedexNumber": 5585,
+  "nationalPokedexNumber": 5584,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -82,7 +82,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

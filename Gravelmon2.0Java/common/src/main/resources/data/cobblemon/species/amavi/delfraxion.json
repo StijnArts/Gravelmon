@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "delfraxion",
-  "nationalPokedexNumber": 5696,
+  "nationalPokedexNumber": 5695,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.delfraxion.desc"
   ],
   "preEvolution": "delflauge",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "strikezall",
-  "nationalPokedexNumber": 5432,
+  "nationalPokedexNumber": 5431,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.strikezall.desc"
   ],
   "preEvolution": "pitchzall",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

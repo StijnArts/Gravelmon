@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "echolocave",
-  "nationalPokedexNumber": 3593,
+  "nationalPokedexNumber": 3592,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -174,7 +174,7 @@
     "cobblemon.species.echolocave.desc"
   ],
   "preEvolution": "chiraudio",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

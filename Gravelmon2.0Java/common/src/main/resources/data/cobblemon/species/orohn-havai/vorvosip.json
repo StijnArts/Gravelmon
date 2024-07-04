@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vorvosip",
-  "nationalPokedexNumber": 2993,
+  "nationalPokedexNumber": 2992,
   "primaryType": "dark",
   "secondaryType": "poison",
   "abilities": [
@@ -83,7 +83,7 @@
     "cobblemon.species.vorvosip.desc"
   ],
   "preEvolution": "hematick",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

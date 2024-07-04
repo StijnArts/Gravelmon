@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tarandible",
-  "nationalPokedexNumber": 2575,
+  "nationalPokedexNumber": 2574,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.tarandible.desc"
   ],
   "preEvolution": "cuspide",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tarnavis",
-  "nationalPokedexNumber": 4165,
+  "nationalPokedexNumber": 4164,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.tarnavis.desc"
   ],
   "preEvolution": "mosglet",
-  "baseScale": 1.3499999999999999,
+  "baseScale": 0.9,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -155,7 +155,7 @@
     "cobblemon.species.novranlapras.desc"
   ],
   "preEvolution": "lilpras",
-  "baseScale": 0.625,
+  "baseScale": 0.4166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -263,7 +263,7 @@
     "cobblemon.species.mythianlapras.desc"
   ],
   "preEvolution": "lilpras",
-  "baseScale": 0.625,
+  "baseScale": 0.4166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -290,7 +290,7 @@
   "abilities": [
     "multiscale",
     "weakarmor",
-    "h:keeneye"
+    "h:arcanum"
   ],
   "baseStats": {
     "hp": 110,
@@ -415,7 +415,7 @@
     "cobblemon.species.kaskadianlapras.desc"
   ],
   "preEvolution": "lilpras",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

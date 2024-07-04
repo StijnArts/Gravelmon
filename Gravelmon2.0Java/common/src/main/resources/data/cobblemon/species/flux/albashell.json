@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "albashell",
-  "nationalPokedexNumber": 2594,
+  "nationalPokedexNumber": 2593,
   "primaryType": "flying",
   "abilities": [
     "cloudnine",
@@ -77,7 +77,7 @@
     "cobblemon.species.albashell.desc"
   ],
   "preEvolution": "aerapin",
-  "baseScale": 0.6749999999999999,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

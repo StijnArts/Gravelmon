@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nidoregina",
-  "nationalPokedexNumber": 2559,
+  "nationalPokedexNumber": 2558,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -80,7 +80,7 @@
     "cobblemon.species.nidoregina.desc"
   ],
   "preEvolution": "nidorimewintercoat",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

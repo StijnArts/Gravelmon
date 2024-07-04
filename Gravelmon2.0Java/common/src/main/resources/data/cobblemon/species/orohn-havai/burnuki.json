@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "burnuki",
-  "nationalPokedexNumber": 3008,
+  "nationalPokedexNumber": 3007,
   "primaryType": "fire",
   "secondaryType": "normal",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.burnuki.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

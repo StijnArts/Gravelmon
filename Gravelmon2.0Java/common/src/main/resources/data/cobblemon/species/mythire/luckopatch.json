@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luckopatch",
-  "nationalPokedexNumber": 3772,
+  "nationalPokedexNumber": 3771,
   "primaryType": "grass",
   "abilities": [
     "superluck",
@@ -89,7 +89,7 @@
     "cobblemon.species.luckopatch.desc"
   ],
   "preEvolution": "shamseed",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

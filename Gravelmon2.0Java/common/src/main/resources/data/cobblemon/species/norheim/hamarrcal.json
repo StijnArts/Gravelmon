@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hamarrcal",
-  "nationalPokedexNumber": 3294,
+  "nationalPokedexNumber": 3293,
   "primaryType": "electric",
   "secondaryType": "rock",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.hamarrcal.desc"
   ],
-  "baseScale": 0.6749999999999999,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

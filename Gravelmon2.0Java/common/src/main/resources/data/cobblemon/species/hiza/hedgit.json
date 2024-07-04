@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hedgit",
-  "nationalPokedexNumber": 2662,
+  "nationalPokedexNumber": 2661,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -82,7 +82,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

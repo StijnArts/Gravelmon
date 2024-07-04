@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "conflagrace",
-  "nationalPokedexNumber": 5289,
+  "nationalPokedexNumber": 5288,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -132,7 +132,7 @@
     "cobblemon.species.conflagrace.desc"
   ],
   "preEvolution": "bonfird",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

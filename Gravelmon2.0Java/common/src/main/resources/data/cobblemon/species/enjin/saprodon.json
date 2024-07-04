@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "saprodon",
-  "nationalPokedexNumber": 4982,
+  "nationalPokedexNumber": 4981,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -80,7 +80,7 @@
     "cobblemon.species.saprodon.desc"
   ],
   "preEvolution": "fungrove",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "mosster",
-  "nationalPokedexNumber": 3476,
+  "nationalPokedexNumber": 3475,
   "primaryType": "grass",
   "abilities": [
     "raindish",
+    "bloomspring",
     "h:sapsipper"
   ],
   "baseStats": {

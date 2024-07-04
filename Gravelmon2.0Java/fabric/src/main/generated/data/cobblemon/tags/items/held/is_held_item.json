@@ -2,8 +2,17 @@
   "replace": false,
   "values": [
     "gravelmon:long_club",
-    "gravelmon:terrestrial_ring",
-    "gravelmon:xenoversal_ring",
-    "gravelmon:inductive_ring"
+    "gravelmon:x_ray_specs",
+    "gravelmon:foul_rock",
+    "gravelmon:ragged_pebble",
+    "gravelmon:polished_sphere",
+    "gravelmon:corrupted_seed",
+    "gravelmon:bolt_orb",
+    "gravelmon:iveolite",
+    "gravelmon:ice_shard",
+    "gravelmon:hafli_berry",
+    "gravelmon:moss_shard",
+    "gravelmon:pretty_ribbon",
+    "gravelmon:dark_rock"
   ]
 }

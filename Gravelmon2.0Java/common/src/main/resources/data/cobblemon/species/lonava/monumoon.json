@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "monumoon",
-  "nationalPokedexNumber": 3443,
+  "nationalPokedexNumber": 3442,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.monumoon.desc"
   ],
-  "baseScale": 1.1500000000000001,
+  "baseScale": 0.7666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

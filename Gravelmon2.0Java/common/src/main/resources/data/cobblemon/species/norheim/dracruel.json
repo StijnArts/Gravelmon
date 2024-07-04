@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dracruel",
-  "nationalPokedexNumber": 3284,
+  "nationalPokedexNumber": 3283,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.dracruel.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

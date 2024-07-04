@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "speyeder",
-  "nationalPokedexNumber": 3127,
+  "nationalPokedexNumber": 3126,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.speyeder.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

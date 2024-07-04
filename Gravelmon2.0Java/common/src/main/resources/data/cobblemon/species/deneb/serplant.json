@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "serplant",
-  "nationalPokedexNumber": 4745,
+  "nationalPokedexNumber": 4744,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.serplant.desc"
   ],
   "preEvolution": "snalo",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

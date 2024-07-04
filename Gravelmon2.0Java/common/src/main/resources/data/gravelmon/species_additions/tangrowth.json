@@ -71,7 +71,7 @@
     "cobblemon.species.qamorantangrowth.desc"
   ],
   "preEvolution": "tangela form=qamoran",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -239,7 +239,7 @@
     "cobblemon.species.eghotangrowth.desc"
   ],
   "preEvolution": "tangela form=egho",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -407,7 +407,7 @@
     "cobblemon.species.deltatangrowth.desc"
   ],
   "preEvolution": "tangela form=delta",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -523,7 +523,7 @@
     "cobblemon.species.hoenniantangrowth.desc"
   ],
   "preEvolution": "tangela form=hoennian",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

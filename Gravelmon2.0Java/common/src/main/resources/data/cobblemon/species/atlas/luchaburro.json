@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luchaburro",
-  "nationalPokedexNumber": 5505,
+  "nationalPokedexNumber": 5504,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -95,7 +95,7 @@
     "cobblemon.species.luchaburro.desc"
   ],
   "preEvolution": "festiata",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

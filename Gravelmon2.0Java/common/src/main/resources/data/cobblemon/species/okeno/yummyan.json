@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yummyan",
-  "nationalPokedexNumber": 4627,
+  "nationalPokedexNumber": 4626,
   "primaryType": "fairy",
   "secondaryType": "normal",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.yummyan.desc"
   ],
   "preEvolution": "nyanyum",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

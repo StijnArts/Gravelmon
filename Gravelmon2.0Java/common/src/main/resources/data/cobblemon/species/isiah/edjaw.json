@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "edjaw",
-  "nationalPokedexNumber": 4305,
+  "nationalPokedexNumber": 4304,
   "primaryType": "rock",
   "abilities": [
     "strongjaw",
@@ -71,7 +71,7 @@
     "cobblemon.species.edjaw.desc"
   ],
   "preEvolution": "dugmite",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

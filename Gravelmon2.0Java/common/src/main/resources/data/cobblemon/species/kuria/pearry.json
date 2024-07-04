@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pearry",
-  "nationalPokedexNumber": 4223,
+  "nationalPokedexNumber": 4222,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.pearry.desc"
   ],
   "preEvolution": "peaf",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

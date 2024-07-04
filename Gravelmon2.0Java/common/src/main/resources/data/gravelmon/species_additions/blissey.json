@@ -183,7 +183,7 @@
     "cobblemon.species.fligianblissey.desc"
   ],
   "preEvolution": "chansey form=fligian",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -347,7 +347,7 @@
     "cobblemon.species.eghoblissey.desc"
   ],
   "preEvolution": "chansey form=egho",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

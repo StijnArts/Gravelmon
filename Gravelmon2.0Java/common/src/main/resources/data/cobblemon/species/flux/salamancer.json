@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "salamancer",
-  "nationalPokedexNumber": 2582,
+  "nationalPokedexNumber": 2581,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -81,7 +81,7 @@
     "cobblemon.species.salamancer.desc"
   ],
   "preEvolution": "spelotl",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

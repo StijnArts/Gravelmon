@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seanodont",
-  "nationalPokedexNumber": 3310,
+  "nationalPokedexNumber": 3309,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
@@ -120,7 +120,7 @@
   "pokedex": [
     "cobblemon.species.seanodont.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

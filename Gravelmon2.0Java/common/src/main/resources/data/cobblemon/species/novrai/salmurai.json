@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "salmurai",
-  "nationalPokedexNumber": 5244,
+  "nationalPokedexNumber": 5243,
   "primaryType": "fighting",
   "secondaryType": "water",
   "abilities": [
@@ -137,7 +137,7 @@
     "cobblemon.species.salmurai.desc"
   ],
   "preEvolution": "roenin",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

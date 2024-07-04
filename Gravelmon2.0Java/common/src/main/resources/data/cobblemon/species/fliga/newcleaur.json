@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "newcleaur",
-  "nationalPokedexNumber": 3959,
+  "nationalPokedexNumber": 3958,
   "primaryType": "dragon",
   "abilities": [
     "beastboost",
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.newcleaur.desc"
   ],
-  "baseScale": 0.725,
+  "baseScale": 0.48333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

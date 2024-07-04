@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wolverize",
-  "nationalPokedexNumber": 5366,
+  "nationalPokedexNumber": 5365,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -126,7 +126,7 @@
     "cobblemon.species.wolverize.desc"
   ],
   "preEvolution": "wolflaze",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

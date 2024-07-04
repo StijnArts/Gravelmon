@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "peerhini",
-  "nationalPokedexNumber": 5037,
+  "nationalPokedexNumber": 5036,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.peerhini.desc"
   ],
   "preEvolution": "tarsiboo",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

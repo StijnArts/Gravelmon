@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "devilicious",
-  "nationalPokedexNumber": 5584,
+  "nationalPokedexNumber": 5583,
   "primaryType": "normal",
   "secondaryType": "fairy",
   "abilities": [
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.devilicious.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

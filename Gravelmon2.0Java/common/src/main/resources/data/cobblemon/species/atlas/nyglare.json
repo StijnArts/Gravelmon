@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nyglare",
-  "nationalPokedexNumber": 5423,
+  "nationalPokedexNumber": 5422,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -122,7 +122,7 @@
     "cobblemon.species.nyglare.desc"
   ],
   "preEvolution": "nyglow",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "queendra",
-  "nationalPokedexNumber": 3218,
+  "nationalPokedexNumber": 3217,
   "primaryType": "dragon",
   "abilities": [
     "swiftswim",
@@ -72,7 +72,7 @@
     "cobblemon.species.queendra.desc"
   ],
   "preEvolution": "seadra form=norheiman",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

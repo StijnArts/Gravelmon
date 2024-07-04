@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hivernate",
-  "nationalPokedexNumber": 5681,
+  "nationalPokedexNumber": 5680,
   "primaryType": "rock",
   "secondaryType": "bug",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.hivernate.desc"
   ],
   "preEvolution": "fuzzly",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

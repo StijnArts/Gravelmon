@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "detrarc",
-  "nationalPokedexNumber": 3492,
+  "nationalPokedexNumber": 3491,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
+    "energizer",
     "sapsipper",
     "h:keeneye"
   ],
@@ -77,7 +78,7 @@
     "cobblemon.species.detrarc.desc"
   ],
   "preEvolution": "tooburm",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

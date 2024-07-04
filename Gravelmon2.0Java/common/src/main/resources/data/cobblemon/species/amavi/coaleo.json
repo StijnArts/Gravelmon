@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coaleo",
-  "nationalPokedexNumber": 5708,
+  "nationalPokedexNumber": 5707,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.coaleo.desc"
   ],
   "preEvolution": "roarn",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

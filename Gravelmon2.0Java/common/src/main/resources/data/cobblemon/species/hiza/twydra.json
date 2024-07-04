@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twydra",
-  "nationalPokedexNumber": 2806,
+  "nationalPokedexNumber": 2805,
   "primaryType": "fire",
   "secondaryType": "ice",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.twydra.desc"
   ],
   "preEvolution": "duomeleon",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

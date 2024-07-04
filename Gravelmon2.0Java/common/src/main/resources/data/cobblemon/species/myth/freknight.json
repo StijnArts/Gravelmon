@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "freknight",
-  "nationalPokedexNumber": 4447,
+  "nationalPokedexNumber": 4446,
   "primaryType": "dark",
   "secondaryType": "steel",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.freknight.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stricycle",
-  "nationalPokedexNumber": 3315,
+  "nationalPokedexNumber": 3314,
   "primaryType": "electric",
   "secondaryType": "normal",
   "abilities": [
@@ -82,7 +82,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

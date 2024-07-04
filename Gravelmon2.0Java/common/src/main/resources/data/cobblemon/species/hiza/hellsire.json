@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hellsire",
-  "nationalPokedexNumber": 2815,
+  "nationalPokedexNumber": 2814,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.hellsire.desc"
   ],
-  "baseScale": 1.4000000000000001,
+  "baseScale": 0.9333333333333332,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flamengon",
-  "nationalPokedexNumber": 5704,
+  "nationalPokedexNumber": 5703,
   "primaryType": "dragon",
   "secondaryType": "fighting",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.flamengon.desc"
   ],
   "preEvolution": "eevern",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

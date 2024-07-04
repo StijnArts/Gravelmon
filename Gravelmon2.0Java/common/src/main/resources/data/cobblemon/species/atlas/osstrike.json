@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "osstrike",
-  "nationalPokedexNumber": 5506,
+  "nationalPokedexNumber": 5505,
   "primaryType": "fighting",
   "abilities": [
     "quickfeet",
@@ -105,7 +105,7 @@
   "pokedex": [
     "cobblemon.species.osstrike.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

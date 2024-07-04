@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sealestial",
-  "nationalPokedexNumber": 2231,
+  "nationalPokedexNumber": 2230,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -62,7 +62,7 @@
     "cobblemon.species.sealestial.desc"
   ],
   "preEvolution": "spirashell",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ferrush",
-  "nationalPokedexNumber": 2295,
+  "nationalPokedexNumber": 2294,
   "primaryType": "steel",
   "secondaryType": "grass",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.ferrush.desc"
   ],
   "preEvolution": "kellyp",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

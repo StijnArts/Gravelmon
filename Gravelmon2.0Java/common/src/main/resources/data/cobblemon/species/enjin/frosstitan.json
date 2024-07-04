@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frosstitan",
-  "nationalPokedexNumber": 5009,
+  "nationalPokedexNumber": 5008,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
@@ -147,7 +147,7 @@
     "cobblemon.species.frosstitan.desc"
   ],
   "preEvolution": "gossnow",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -6,6 +6,7 @@ import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.*;
 
@@ -135,7 +136,133 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .unlockedBy("hasEvolutionStone", has(CobblemonItemTags.EVOLUTION_STONES))
                 .save(exporter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GravelmonItems.XENOVERSAL_RING.get(),1)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, GravelmonItems.XENOLITH.get(),1)
+                        .requires(CobblemonItemTags.EVOLUTION_STONES)
+                                .requires(Items.CHORUS_FRUIT)
+                                .requires(Items.CHORUS_FRUIT)
+                                .requires(Items.CHORUS_FRUIT)
+                                .requires(Items.CHORUS_FRUIT)
+                                .requires(Items.CHORUS_FRUIT)
+                                .requires(Items.CHORUS_FRUIT)
+                                .requires(Items.CHORUS_FRUIT)
+                                .requires(Items.CHORUS_FRUIT)
+                .unlockedBy("hasChorusFruit", has(Items.CHORUS_FRUIT))
+                .save(exporter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, GravelmonItems.MURKY_CLAW.get(),1)
+                        .requires(CobblemonItems.RAZOR_CLAW)
+                                .requires(Items.BLACK_DYE)
+                                .requires(Items.BLACK_DYE)
+                                .requires(Items.BLACK_DYE)
+                                .requires(Items.BLACK_DYE)
+                                .requires(Items.BLACK_DYE)
+                                .requires(Items.BLACK_DYE)
+                                .requires(Items.BLACK_DYE)
+                                .requires(Items.BLACK_DYE)
+                .unlockedBy("hasRAZORCLAW", has(CobblemonItems.RAZOR_CLAW))
+                .save(exporter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
+                        GravelmonItems.SILVER_SCALE.get(),1)
+                        .requires(CobblemonItems.DRAGON_SCALE)
+                                .requires(Items.IRON_NUGGET)
+                                .requires(Items.IRON_NUGGET)
+                                .requires(Items.IRON_NUGGET)
+                                .requires(Items.IRON_NUGGET)
+                                .requires(Items.IRON_NUGGET)
+                                .requires(Items.IRON_NUGGET)
+                                .requires(Items.IRON_NUGGET)
+                                .requires(Items.IRON_NUGGET)
+                .unlockedBy("hasDRAGONSCALE", has(CobblemonItems.DRAGON_SCALE))
+                .save(exporter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
+                        GravelmonItems.ANCIENT_GLYPH.get(),1)
+                        .requires(CobblemonItems.SPELL_TAG)
+                                .requires(Items.NETHERITE_SCRAP)
+                                .requires(Items.NETHERITE_SCRAP)
+                                .requires(Items.NETHERITE_SCRAP)
+                                .requires(Items.NETHERITE_SCRAP)
+                                .requires(Items.SANDSTONE)
+                                .requires(Items.SANDSTONE)
+                                .requires(Items.SANDSTONE)
+                                .requires(Items.SANDSTONE)
+                .unlockedBy("hasSPELLTAG", has(CobblemonItems.SPELL_TAG))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.QUANTUM_UPGRADE.get(),1)
+                .pattern("TLT")
+                .pattern("SAS")
+                .define('T', Items.BLUE_STAINED_GLASS)
+                .define('A', Items.AMETHYST_SHARD)
+                .define('S', Items.CHORUS_FRUIT)
+                .define('L', Items.END_ROD)
+                .unlockedBy("hasAmethystShard", has(Items.AMETHYST_SHARD))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.KALEIDOSCOPE.get(),1)
+                .pattern("  T")
+                .pattern("IAI")
+                .pattern("T  ")
+                .define('T', Items.TINTED_GLASS)
+                .define('A', Items.AMETHYST_SHARD)
+                .define('I', Items.IRON_INGOT)
+                .unlockedBy("hasAmethystShard", has(Items.AMETHYST_SHARD))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.CORRUPTED_DISC.get(),1)
+                .pattern("AAA")
+                .pattern("ATA")
+                .pattern("AAA")
+                .define('T', ItemTags.MUSIC_DISCS)
+                .define('A', Items.SCULK)
+                .unlockedBy("hasSculk", has(Items.SCULK))
+                .save(exporter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
+                        GravelmonItems.WES_UPDATE.get(),1)
+                .requires(Items.AMETHYST_SHARD)
+                .requires(CobblemonItems.UPGRADE)
+                .unlockedBy("hasAmethystShard", has(Items.AMETHYST_SHARD))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.DREAD_PENDANT.get(),1)
+                .pattern("SSS")
+                .pattern("W S")
+                .pattern("EW ")
+                .define('W', ItemTags.PLANKS)
+                .define('E', Items.ENDER_PEARL)
+                .define('S', Items.STRING)
+                .unlockedBy("hasEnderPearl", has(Items.ENDER_PEARL))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.SPARE_PARTS.get(),1)
+                .pattern("IBI")
+                .pattern("NIN")
+                .pattern(" I ")
+                .define('B', Items.IRON_BLOCK)
+                .define('I', Items.IRON_INGOT)
+                .define('N', Items.IRON_NUGGET)
+                .unlockedBy("hasIronIngot", has(Items.IRON_INGOT))
+                .save(exporter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
+                        GravelmonItems.MAGIC_COOKIE.get(),1)
+                .requires(Items.NETHER_STAR)
+                .requires(Items.COOKIE)
+                .unlockedBy("hasNetherStar", has(Items.NETHER_STAR))
+                .save(exporter);
+
+        //Pokeball recipes are json only
+
+        //Held items
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.XENOVERSAL_RING.get(),1)
                 .pattern("WPW")
                 .pattern("P P")
                 .pattern("WPW")
@@ -143,7 +270,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .unlockedBy("hasChorusFruit", has(Items.CHORUS_FRUIT))
                 .save(exporter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GravelmonItems.TERRESTRIAL_RING.get(),1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.TERRESTRIAL_RING.get(),1)
                 .pattern("WPW")
                 .pattern("PDP")
                 .pattern("WPW")
@@ -151,12 +279,80 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .unlockedBy("hasDeepslate", has(Items.DEEPSLATE))
                 .save(exporter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GravelmonItems.INDUCTIVE_RING.get(),1)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.INDUCTIVE_RING.get(),1)
                 .pattern("SCS")
                 .pattern("W W")
                 .pattern("WWW")
                 .define('W', Items.IRON_INGOT).define('S', Items.SCULK).define('C', Items.AMETHYST_SHARD)
                 .unlockedBy("hasSculk", has(Items.SCULK))
                 .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.GOLDEN_FEATHER.get(),1)
+                .pattern("GGG")
+                .pattern("GFG")
+                .pattern("GGG")
+                .define('G', Items.GOLD_NUGGET)
+                .define('F', Items.FEATHER)
+                .unlockedBy("hasFeather", has(Items.FEATHER))
+                .save(exporter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
+                        GravelmonItems.PIXIE_DUST.get(),1)
+                .requires(GravelmonItems.MYSTIC_STONE.get())
+                .unlockedBy("hasMYSTICSTONE", has(GravelmonItems.MYSTIC_STONE.get()))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.OCARINA.get(),1)
+                .pattern("SNS")
+                .pattern("  S")
+                .define('N', Items.NOTE_BLOCK)
+                .define('W', Items.STICK)
+                .unlockedBy("hasNOTEBLOCK", has(Items.NOTE_BLOCK))
+                .save(exporter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
+                        GravelmonItems.ROYAL_JELLY.get(),1)
+                .requires(Items.HONEY_BOTTLE)
+                .requires(Items.GOLD_NUGGET)
+                .requires(Items.GOLD_NUGGET)
+                .requires(Items.GOLD_NUGGET)
+                .requires(Items.GOLD_NUGGET)
+                .unlockedBy("hasHoneyBottle", has(Items.HONEY_BOTTLE))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.COCONUT_MILK.get(),1)
+                .pattern("JMJ")
+                .pattern(" J")
+                .define('M', Items.MILK_BUCKET)
+                .define('J', Items.JUNGLE_WOOD)
+                .unlockedBy("hasMILKBUCKET", has(Items.MILK_BUCKET))
+                .save(exporter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
+                        GravelmonItems.CARROT_WINE.get(),1)
+                .requires(Items.CARROT)
+                .requires(Items.BARREL)
+                .requires(Items.GLASS_BOTTLE)
+                .unlockedBy("hasCARROT", has(Items.CARROT))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.URANIUM_CORE.get(),1)
+                .pattern("RIR")
+                .pattern("IBI")
+                .pattern("WIW")
+                .define('I', Items.IRON_BLOCK)
+                .define('B', Items.NETHER_STAR)
+                .define('R', Items.REDSTONE)
+                .define('C', Items.WATER_BUCKET)
+                .unlockedBy("hasNETHER_STAR", has(Items.NETHER_STAR))
+                .save(exporter);
+
+        
+
     }
 }

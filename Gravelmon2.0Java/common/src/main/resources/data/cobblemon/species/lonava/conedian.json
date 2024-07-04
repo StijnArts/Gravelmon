@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "conedian",
-  "nationalPokedexNumber": 3428,
+  "nationalPokedexNumber": 3427,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.conedian.desc"
   ],
   "preEvolution": "honkream",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

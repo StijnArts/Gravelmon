@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gargarool",
-  "nationalPokedexNumber": 3818,
+  "nationalPokedexNumber": 3817,
   "primaryType": "electric",
   "secondaryType": "poison",
   "abilities": [
@@ -94,7 +94,7 @@
   "pokedex": [
     "cobblemon.species.gargarool.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

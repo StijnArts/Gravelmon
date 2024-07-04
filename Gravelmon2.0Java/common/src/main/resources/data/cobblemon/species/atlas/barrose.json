@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barrose",
-  "nationalPokedexNumber": 5502,
+  "nationalPokedexNumber": 5501,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -120,7 +120,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

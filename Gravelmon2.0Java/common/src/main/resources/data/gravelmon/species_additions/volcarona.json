@@ -250,7 +250,7 @@
     "cobblemon.species.deltavolcarona.desc"
   ],
   "preEvolution": "larvesta form=delta",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -363,7 +363,7 @@
     "cobblemon.species.mythianvolcarona.desc"
   ],
   "preEvolution": "larvesta form=mythian",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dermafrost",
-  "nationalPokedexNumber": 2456,
+  "nationalPokedexNumber": 2455,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -130,7 +130,7 @@
     "cobblemon.species.dermafrost.desc"
   ],
   "preEvolution": "snopach",
-  "baseScale": 0.725,
+  "baseScale": 0.48333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

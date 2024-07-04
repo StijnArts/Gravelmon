@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "selpolar",
-  "nationalPokedexNumber": 3846,
+  "nationalPokedexNumber": 3845,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
@@ -104,7 +104,7 @@
   "pokedex": [
     "cobblemon.species.selpolar.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

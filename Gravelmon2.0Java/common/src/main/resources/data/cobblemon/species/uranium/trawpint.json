@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trawpint",
-  "nationalPokedexNumber": 2424,
+  "nationalPokedexNumber": 2423,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
@@ -138,7 +138,7 @@
     "cobblemon.species.trawpint.desc"
   ],
   "preEvolution": "costraw",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vinagruff",
-  "nationalPokedexNumber": 4603,
+  "nationalPokedexNumber": 4602,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -136,7 +136,7 @@
     "cobblemon.species.vinagruff.desc"
   ],
   "preEvolution": "bouldog",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

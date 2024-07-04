@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "parakka",
-  "nationalPokedexNumber": 4884,
+  "nationalPokedexNumber": 4883,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -56,6 +56,7 @@
     "17:taunt",
     "21:wingattack",
     "23:meanlook",
+    "28:exsanguinate",
     "32:leechlife",
     "34:hypnosis",
     "39:airslash",

@@ -285,7 +285,7 @@
     "cobblemon.species.bullotus.desc"
   ],
   "preEvolution": "flowger",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

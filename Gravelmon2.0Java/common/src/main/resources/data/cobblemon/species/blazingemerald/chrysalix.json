@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chrysalix",
-  "nationalPokedexNumber": 3749,
+  "nationalPokedexNumber": 3748,
   "primaryType": "rock",
   "secondaryType": "ice",
   "abilities": [
@@ -95,7 +95,7 @@
     "cobblemon.species.chrysalix.desc"
   ],
   "preEvolution": "onix form=hoennian",
-  "baseScale": 1.075,
+  "baseScale": 0.7166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -162,7 +162,7 @@
     "cobblemon.species.deltareuniclus.desc"
   ],
   "preEvolution": "duosion form=delta",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -281,7 +281,7 @@
     "cobblemon.species.hoennianreuniclus.desc"
   ],
   "preEvolution": "duosion form=hoennian",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -307,6 +307,7 @@
   "secondaryType": "water",
   "abilities": [
     "overcoat",
+    "carboncapture",
     "h:magicguard"
   ],
   "baseStats": {
@@ -420,7 +421,7 @@
     "cobblemon.species.kaskadianreuniclus.desc"
   ],
   "preEvolution": "duosion form=kaskadian",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -560,7 +561,7 @@
     "cobblemon.species.mysticreuniclus.desc"
   ],
   "preEvolution": "duosion form=mystic",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

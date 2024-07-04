@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hydrush",
-  "nationalPokedexNumber": 4699,
+  "nationalPokedexNumber": 4698,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -136,7 +136,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

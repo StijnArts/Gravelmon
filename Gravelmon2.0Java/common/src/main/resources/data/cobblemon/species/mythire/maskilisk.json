@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maskilisk",
-  "nationalPokedexNumber": 3844,
+  "nationalPokedexNumber": 3843,
   "primaryType": "dragon",
   "abilities": [
     "steadfast",
@@ -91,7 +91,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

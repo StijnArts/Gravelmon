@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "marvelaze",
-  "nationalPokedexNumber": 4189,
+  "nationalPokedexNumber": 4188,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.marvelaze.desc"
   ],
   "preEvolution": "embay",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

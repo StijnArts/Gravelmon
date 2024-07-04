@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bomblebee",
-  "nationalPokedexNumber": 3134,
+  "nationalPokedexNumber": 3133,
   "primaryType": "steel",
   "secondaryType": "bug",
   "abilities": [
@@ -75,7 +75,7 @@
   "pokedex": [
     "cobblemon.species.bomblebee.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

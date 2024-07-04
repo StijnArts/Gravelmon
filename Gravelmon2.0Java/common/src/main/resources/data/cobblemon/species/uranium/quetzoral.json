@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quetzoral",
-  "nationalPokedexNumber": 2452,
+  "nationalPokedexNumber": 2451,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -162,7 +162,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

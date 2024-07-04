@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mattreeze",
-  "nationalPokedexNumber": 5125,
+  "nationalPokedexNumber": 5124,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -132,7 +132,7 @@
     "cobblemon.species.mattreeze.desc"
   ],
   "preEvolution": "chillow",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

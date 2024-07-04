@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stricklisk",
-  "nationalPokedexNumber": 3184,
+  "nationalPokedexNumber": 3183,
   "primaryType": "fighting",
   "secondaryType": "dragon",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.stricklisk.desc"
   ],
   "preEvolution": "slickle",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

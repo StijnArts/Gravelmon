@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vasegeist",
-  "nationalPokedexNumber": 4356,
+  "nationalPokedexNumber": 4355,
   "primaryType": "ghost",
   "abilities": [
     "keeneye",
@@ -71,7 +71,7 @@
     "cobblemon.species.vasegeist.desc"
   ],
   "preEvolution": "possasse",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

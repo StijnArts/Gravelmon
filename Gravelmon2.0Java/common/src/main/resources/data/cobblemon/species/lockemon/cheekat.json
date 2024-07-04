@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cheekat",
-  "nationalPokedexNumber": 3456,
+  "nationalPokedexNumber": 3455,
   "primaryType": "normal",
   "abilities": [
     "cheekpouch",
@@ -77,7 +77,7 @@
     "cobblemon.species.cheekat.desc"
   ],
   "preEvolution": "chewmunk",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

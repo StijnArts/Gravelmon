@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cryoptera",
-  "nationalPokedexNumber": 3343,
+  "nationalPokedexNumber": 3342,
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
@@ -64,7 +64,7 @@
   "pokedex": [
     "cobblemon.species.cryoptera.desc"
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

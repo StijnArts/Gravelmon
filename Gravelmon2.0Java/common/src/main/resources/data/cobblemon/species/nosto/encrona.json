@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "encrona",
-  "nationalPokedexNumber": 3655,
+  "nationalPokedexNumber": 3654,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -129,7 +129,7 @@
     "cobblemon.species.encrona.desc"
   ],
   "preEvolution": "pendelf",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

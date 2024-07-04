@@ -1,11 +1,12 @@
 {
   "implemented": true,
   "name": "enigmeon",
-  "nationalPokedexNumber": 3480,
+  "nationalPokedexNumber": 3479,
   "primaryType": "normal",
   "abilities": [
+    "warpmist",
     "unaware",
-    "h:keeneye"
+    "h:condensation"
   ],
   "baseStats": {
     "hp": 130,
@@ -129,7 +130,7 @@
     "cobblemon.species.enigmeon.desc"
   ],
   "preEvolution": "eevee",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

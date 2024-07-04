@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sharcastric",
-  "nationalPokedexNumber": 5242,
+  "nationalPokedexNumber": 5241,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -146,7 +146,7 @@
     "cobblemon.species.sharcastric.desc"
   ],
   "preEvolution": "plectric",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

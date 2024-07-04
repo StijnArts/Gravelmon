@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nutsy",
-  "nationalPokedexNumber": 2239,
+  "nationalPokedexNumber": 2238,
   "primaryType": "grass",
   "abilities": [
     "rockhead",
@@ -63,7 +63,7 @@
   "pokedex": [
     "cobblemon.species.nutsy.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

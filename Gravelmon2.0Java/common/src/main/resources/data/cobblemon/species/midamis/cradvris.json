@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cradvris",
-  "nationalPokedexNumber": 4535,
+  "nationalPokedexNumber": 4534,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.cradvris.desc"
   ],
   "preEvolution": "sevris",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

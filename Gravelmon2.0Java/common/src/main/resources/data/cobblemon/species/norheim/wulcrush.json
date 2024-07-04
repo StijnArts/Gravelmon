@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wulcrush",
-  "nationalPokedexNumber": 3267,
+  "nationalPokedexNumber": 3266,
   "primaryType": "dark",
   "secondaryType": "water",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.wulcrush.desc"
   ],
   "preEvolution": "wulca",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

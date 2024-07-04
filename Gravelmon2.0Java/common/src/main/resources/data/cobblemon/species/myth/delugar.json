@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "delugar",
-  "nationalPokedexNumber": 4408,
+  "nationalPokedexNumber": 4407,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -85,7 +85,7 @@
     "cobblemon.species.delugar.desc"
   ],
   "preEvolution": "soakcuff",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

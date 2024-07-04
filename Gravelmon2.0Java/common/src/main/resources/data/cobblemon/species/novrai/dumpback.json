@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dumpback",
-  "nationalPokedexNumber": 5275,
+  "nationalPokedexNumber": 5274,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -140,7 +140,7 @@
     "cobblemon.species.dumpback.desc"
   ],
   "preEvolution": "puriphin",
-  "baseScale": 1.8,
+  "baseScale": 1.2,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

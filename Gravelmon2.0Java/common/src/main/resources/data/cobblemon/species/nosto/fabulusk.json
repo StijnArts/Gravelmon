@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fabulusk",
-  "nationalPokedexNumber": 3564,
+  "nationalPokedexNumber": 3563,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -134,7 +134,7 @@
     "cobblemon.species.fabulusk.desc"
   ],
   "preEvolution": "prawnee",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

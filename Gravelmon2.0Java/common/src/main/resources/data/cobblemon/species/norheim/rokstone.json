@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rokstone",
-  "nationalPokedexNumber": 3180,
+  "nationalPokedexNumber": 3179,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -78,7 +78,7 @@
   "pokedex": [
     "cobblemon.species.rokstone.desc"
   ],
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.4666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

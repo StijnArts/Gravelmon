@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cursour",
-  "nationalPokedexNumber": 3612,
+  "nationalPokedexNumber": 3611,
   "primaryType": "electric",
   "secondaryType": "grass",
   "abilities": [
@@ -124,7 +124,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

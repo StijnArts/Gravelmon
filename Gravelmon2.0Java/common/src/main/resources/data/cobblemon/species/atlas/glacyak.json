@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glacyak",
-  "nationalPokedexNumber": 5537,
+  "nationalPokedexNumber": 5536,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -104,7 +104,7 @@
     "cobblemon.species.glacyak.desc"
   ],
   "preEvolution": "hoofrost",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bogglwoggl",
-  "nationalPokedexNumber": 5200,
+  "nationalPokedexNumber": 5199,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -135,7 +135,7 @@
     "cobblemon.species.bogglwoggl.desc"
   ],
   "preEvolution": "jigglwiggl",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

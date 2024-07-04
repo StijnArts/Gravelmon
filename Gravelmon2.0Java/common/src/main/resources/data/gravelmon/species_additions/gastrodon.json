@@ -113,7 +113,7 @@
     "cobblemon.species.fligiangastrodon.desc"
   ],
   "preEvolution": "shellos form=fligian",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -260,7 +260,7 @@
     "cobblemon.species.ricangastrodon.desc"
   ],
   "preEvolution": "shellos form=rican",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

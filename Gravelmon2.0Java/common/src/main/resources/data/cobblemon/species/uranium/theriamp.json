@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "theriamp",
-  "nationalPokedexNumber": 2458,
+  "nationalPokedexNumber": 2457,
   "primaryType": "electric",
   "secondaryType": "rock",
   "abilities": [
@@ -143,7 +143,7 @@
     "cobblemon.species.theriamp.desc"
   ],
   "preEvolution": "slothohm",
-  "baseScale": 0.725,
+  "baseScale": 0.48333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

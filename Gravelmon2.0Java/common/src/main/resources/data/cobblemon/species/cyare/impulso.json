@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "impulso",
-  "nationalPokedexNumber": 5782,
+  "nationalPokedexNumber": 5781,
   "primaryType": "electric",
   "abilities": [
     "static",
@@ -158,7 +158,7 @@
     "cobblemon.species.impulso.desc"
   ],
   "preEvolution": "impie",
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vultox",
-  "nationalPokedexNumber": 2785,
+  "nationalPokedexNumber": 2784,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -130,7 +130,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

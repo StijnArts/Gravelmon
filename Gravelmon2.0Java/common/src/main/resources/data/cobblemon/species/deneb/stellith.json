@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stellith",
-  "nationalPokedexNumber": 4760,
+  "nationalPokedexNumber": 4759,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -118,7 +118,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

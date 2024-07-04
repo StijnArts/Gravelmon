@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cocancer",
-  "nationalPokedexNumber": 2429,
+  "nationalPokedexNumber": 2428,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -53,7 +53,7 @@
     "amount": "1",
     "entries": [
       {
-        "item": "gravelmon_coconut_milk",
+        "item": "gravelmon:coconut_milk",
         "quantityRange": "1-1",
         "percentage": 40
       }
@@ -149,7 +149,7 @@
     "cobblemon.species.cocancer.desc"
   ],
   "preEvolution": "cararalm",
-  "baseScale": 0.9249999999999999,
+  "baseScale": 0.6166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

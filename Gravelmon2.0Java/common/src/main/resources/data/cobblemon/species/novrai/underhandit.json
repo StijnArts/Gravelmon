@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "underhandit",
-  "nationalPokedexNumber": 5267,
+  "nationalPokedexNumber": 5266,
   "primaryType": "dark",
   "secondaryType": "fire",
   "abilities": [
@@ -138,7 +138,7 @@
     "cobblemon.species.underhandit.desc"
   ],
   "preEvolution": "culprint",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

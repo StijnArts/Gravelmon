@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "revylon",
-  "nationalPokedexNumber": 3543,
+  "nationalPokedexNumber": 3542,
   "primaryType": "ground",
   "secondaryType": "fire",
   "abilities": [
@@ -115,7 +115,7 @@
   "pokedex": [
     "cobblemon.species.revylon.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

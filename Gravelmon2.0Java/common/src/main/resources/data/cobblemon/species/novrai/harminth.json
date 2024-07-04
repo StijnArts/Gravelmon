@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harminth",
-  "nationalPokedexNumber": 5245,
+  "nationalPokedexNumber": 5244,
   "primaryType": "rock",
   "secondaryType": "poison",
   "abilities": [
@@ -135,7 +135,7 @@
   "pokedex": [
     "cobblemon.species.harminth.desc"
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

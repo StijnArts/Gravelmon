@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gallostone",
-  "nationalPokedexNumber": 3913,
+  "nationalPokedexNumber": 3912,
   "primaryType": "rock",
   "abilities": [
     "illuminate",
@@ -140,7 +140,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

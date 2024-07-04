@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skaterace",
-  "nationalPokedexNumber": 3262,
+  "nationalPokedexNumber": 3261,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.skaterace.desc"
   ],
   "preEvolution": "skatini",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

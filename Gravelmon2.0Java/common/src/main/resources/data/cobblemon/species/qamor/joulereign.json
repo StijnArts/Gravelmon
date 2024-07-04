@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "joulereign",
-  "nationalPokedexNumber": 4052,
+  "nationalPokedexNumber": 4051,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.joulereign.desc"
   ],
   "preEvolution": "servolt",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

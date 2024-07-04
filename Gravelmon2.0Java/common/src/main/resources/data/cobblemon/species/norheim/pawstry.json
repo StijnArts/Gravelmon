@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pawstry",
-  "nationalPokedexNumber": 3199,
+  "nationalPokedexNumber": 3198,
   "primaryType": "fairy",
   "secondaryType": "normal",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.pawstry.desc"
   ],
   "preEvolution": "kittry",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

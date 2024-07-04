@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ruflame",
-  "nationalPokedexNumber": 5361,
+  "nationalPokedexNumber": 5360,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -122,7 +122,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

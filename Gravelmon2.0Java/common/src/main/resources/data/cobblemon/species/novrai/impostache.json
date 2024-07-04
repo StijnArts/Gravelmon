@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "impostache",
-  "nationalPokedexNumber": 5182,
+  "nationalPokedexNumber": 5181,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
@@ -162,7 +162,7 @@
     "cobblemon.species.impostache.desc"
   ],
   "preEvolution": "morostache",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

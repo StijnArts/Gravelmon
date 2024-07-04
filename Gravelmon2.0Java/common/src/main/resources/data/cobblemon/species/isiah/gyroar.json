@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gyroar",
-  "nationalPokedexNumber": 4361,
+  "nationalPokedexNumber": 4360,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.gyroar.desc"
   ],
   "preEvolution": "bouldart",
-  "baseScale": 0.625,
+  "baseScale": 0.4166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

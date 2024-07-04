@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coyoco",
-  "nationalPokedexNumber": 2881,
+  "nationalPokedexNumber": 2880,
   "primaryType": "fire",
   "abilities": [
     "flamebody",
@@ -98,7 +98,7 @@
   "pokedex": [
     "cobblemon.species.coyoco.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

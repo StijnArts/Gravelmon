@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "puffjinn",
-  "nationalPokedexNumber": 5032,
+  "nationalPokedexNumber": 5031,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.puffjinn.desc"
   ],
-  "baseScale": 0.9,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

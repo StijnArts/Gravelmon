@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harplust",
-  "nationalPokedexNumber": 5723,
+  "nationalPokedexNumber": 5722,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.harplust.desc"
   ],
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

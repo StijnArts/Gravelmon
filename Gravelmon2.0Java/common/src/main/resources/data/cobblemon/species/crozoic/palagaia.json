@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "palagaia",
-  "nationalPokedexNumber": 3339,
+  "nationalPokedexNumber": 3338,
   "primaryType": "steel",
   "abilities": [
     "stalwart",
@@ -62,7 +62,7 @@
   "pokedex": [
     "cobblemon.species.palagaia.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

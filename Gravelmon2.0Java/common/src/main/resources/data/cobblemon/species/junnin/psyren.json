@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "psyren",
-  "nationalPokedexNumber": 2842,
+  "nationalPokedexNumber": 2841,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -148,7 +148,7 @@
     "cobblemon.species.psyren.desc"
   ],
   "preEvolution": "nesshoal",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

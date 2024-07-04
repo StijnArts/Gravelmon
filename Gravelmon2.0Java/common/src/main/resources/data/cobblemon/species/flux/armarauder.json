@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "armarauder",
-  "nationalPokedexNumber": 2562,
+  "nationalPokedexNumber": 2561,
   "primaryType": "normal",
   "secondaryType": "steel",
   "abilities": [
@@ -87,7 +87,7 @@
     "cobblemon.species.armarauder.desc"
   ],
   "preEvolution": "roadillo",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

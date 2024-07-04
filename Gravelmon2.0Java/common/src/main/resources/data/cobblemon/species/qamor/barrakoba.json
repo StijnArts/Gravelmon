@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barrakoba",
-  "nationalPokedexNumber": 3972,
+  "nationalPokedexNumber": 3971,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -84,7 +84,7 @@
     "cobblemon.species.barrakoba.desc"
   ],
   "preEvolution": "makrabla",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

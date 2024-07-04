@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snellow",
-  "nationalPokedexNumber": 5598,
+  "nationalPokedexNumber": 5597,
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.snellow.desc"
   ],
   "preEvolution": "limana",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

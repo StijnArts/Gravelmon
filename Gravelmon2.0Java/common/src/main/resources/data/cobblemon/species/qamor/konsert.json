@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "konsert",
-  "nationalPokedexNumber": 4000,
+  "nationalPokedexNumber": 3999,
   "primaryType": "dragon",
   "secondaryType": "normal",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.konsert.desc"
   ],
   "preEvolution": "ampt",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

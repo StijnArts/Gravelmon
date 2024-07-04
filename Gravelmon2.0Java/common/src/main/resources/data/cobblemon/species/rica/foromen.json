@@ -145,7 +145,7 @@
     "cobblemon.species.foromen.desc"
   ],
   "preEvolution": "femurk",
-  "baseScale": 0.6749999999999999,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slithair",
-  "nationalPokedexNumber": 5406,
+  "nationalPokedexNumber": 5405,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -127,7 +127,7 @@
     "cobblemon.species.slithair.desc"
   ],
   "preEvolution": "nebulent",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

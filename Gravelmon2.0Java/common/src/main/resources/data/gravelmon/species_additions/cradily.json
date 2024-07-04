@@ -103,7 +103,7 @@
     "cobblemon.species.hiziancradily.desc"
   ],
   "preEvolution": "lileep form=hizian",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

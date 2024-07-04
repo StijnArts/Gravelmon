@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "anenemy",
-  "nationalPokedexNumber": 5459,
+  "nationalPokedexNumber": 5458,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -121,7 +121,7 @@
     "cobblemon.species.anenemy.desc"
   ],
   "preEvolution": "musshield",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

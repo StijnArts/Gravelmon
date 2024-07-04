@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kokesheity",
-  "nationalPokedexNumber": 4205,
+  "nationalPokedexNumber": 4204,
   "primaryType": "fairy",
   "secondaryType": "light",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.kokesheity.desc"
   ],
   "preEvolution": "kotsumo",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

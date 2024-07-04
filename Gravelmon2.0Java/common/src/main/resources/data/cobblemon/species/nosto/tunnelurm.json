@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tunnelurm",
-  "nationalPokedexNumber": 3590,
+  "nationalPokedexNumber": 3589,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.tunnelurm.desc"
   ],
   "preEvolution": "tuburrow",
-  "baseScale": 0.625,
+  "baseScale": 0.4166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

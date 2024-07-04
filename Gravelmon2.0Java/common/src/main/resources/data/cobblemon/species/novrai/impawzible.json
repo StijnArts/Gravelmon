@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "impawzible",
-  "nationalPokedexNumber": 5127,
+  "nationalPokedexNumber": 5126,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -143,7 +143,7 @@
     "cobblemon.species.impawzible.desc"
   ],
   "preEvolution": "kitterwaul",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

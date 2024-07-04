@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nedareap",
-  "nationalPokedexNumber": 5336,
+  "nationalPokedexNumber": 5335,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -139,7 +139,7 @@
   "pokedex": [
     "cobblemon.species.nedareap.desc"
   ],
-  "baseScale": 0.9500000000000001,
+  "baseScale": 0.6333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

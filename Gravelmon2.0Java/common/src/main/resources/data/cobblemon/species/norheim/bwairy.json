@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bwairy",
-  "nationalPokedexNumber": 3158,
+  "nationalPokedexNumber": 3157,
   "primaryType": "fairy",
   "secondaryType": "bug",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.bwairy.desc"
   ],
   "preEvolution": "bwug",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

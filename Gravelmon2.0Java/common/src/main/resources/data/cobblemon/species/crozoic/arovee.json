@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arovee",
-  "nationalPokedexNumber": 3298,
+  "nationalPokedexNumber": 3297,
   "primaryType": "steel",
   "abilities": [
     "keeneye",
@@ -125,7 +125,7 @@
   "pokedex": [
     "cobblemon.species.arovee.desc"
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bouldart",
-  "nationalPokedexNumber": 4360,
+  "nationalPokedexNumber": 4359,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -95,7 +95,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dysmerella",
-  "nationalPokedexNumber": 3626,
+  "nationalPokedexNumber": 3625,
   "primaryType": "fairy",
   "abilities": [
     "cutecharm",
@@ -73,7 +73,7 @@
     "cobblemon.species.dysmerella.desc"
   ],
   "preEvolution": "sinsenella",
-  "baseScale": 0.875,
+  "baseScale": 0.5833333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

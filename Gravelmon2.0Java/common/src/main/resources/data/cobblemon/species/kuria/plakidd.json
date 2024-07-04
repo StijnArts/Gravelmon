@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plakidd",
-  "nationalPokedexNumber": 4221,
+  "nationalPokedexNumber": 4220,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.plakidd.desc"
   ],
   "preEvolution": "gilkun",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

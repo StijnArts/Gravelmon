@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dirthrown",
-  "nationalPokedexNumber": 4678,
+  "nationalPokedexNumber": 4677,
   "primaryType": "normal",
   "secondaryType": "poison",
   "abilities": [
@@ -88,7 +88,7 @@
     "cobblemon.species.dirthrown.desc"
   ],
   "preEvolution": "lundrey",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

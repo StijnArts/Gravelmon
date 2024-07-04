@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sheruption",
-  "nationalPokedexNumber": 5767,
+  "nationalPokedexNumber": 5766,
   "primaryType": "fire",
   "abilities": [
     "flamebody",
@@ -109,7 +109,7 @@
     "cobblemon.species.sheruption.desc"
   ],
   "preEvolution": "volpaca",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

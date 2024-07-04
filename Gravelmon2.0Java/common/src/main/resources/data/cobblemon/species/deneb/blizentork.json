@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blizentork",
-  "nationalPokedexNumber": 4867,
+  "nationalPokedexNumber": 4866,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
@@ -121,7 +121,7 @@
     "cobblemon.species.blizentork.desc"
   ],
   "preEvolution": "delibird",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

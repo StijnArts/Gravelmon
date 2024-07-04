@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cycaroon",
-  "nationalPokedexNumber": 2300,
+  "nationalPokedexNumber": 2299,
   "primaryType": "dark",
   "abilities": [
     "keeneye",
@@ -61,7 +61,7 @@
   "pokedex": [
     "cobblemon.species.cycaroon.desc"
   ],
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

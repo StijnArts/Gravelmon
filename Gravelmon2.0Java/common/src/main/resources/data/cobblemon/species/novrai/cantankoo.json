@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cantankoo",
-  "nationalPokedexNumber": 5085,
+  "nationalPokedexNumber": 5084,
   "primaryType": "dark",
   "secondaryType": "bug",
   "abilities": [
@@ -132,7 +132,7 @@
     "cobblemon.species.cantankoo.desc"
   ],
   "preEvolution": "yolkoo",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

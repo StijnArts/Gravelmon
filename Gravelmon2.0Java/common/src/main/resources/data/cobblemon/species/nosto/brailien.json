@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brailien",
-  "nationalPokedexNumber": 3617,
+  "nationalPokedexNumber": 3616,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -92,7 +92,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

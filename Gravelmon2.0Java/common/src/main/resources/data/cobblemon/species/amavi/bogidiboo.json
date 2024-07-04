@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bogidiboo",
-  "nationalPokedexNumber": 5745,
+  "nationalPokedexNumber": 5744,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.bogidiboo.desc"
   ],
   "preEvolution": "froggidi",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

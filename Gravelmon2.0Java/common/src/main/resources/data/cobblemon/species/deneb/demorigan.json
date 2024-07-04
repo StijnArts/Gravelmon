@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "demorigan",
-  "nationalPokedexNumber": 4976,
+  "nationalPokedexNumber": 4975,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -80,6 +80,7 @@
     "egg:moonlight",
     "egg:circlethrow",
     "egg:leer",
+    "egg:zenithbreak",
     "egg:perishsong",
     "egg:lockon"  ],
   "labels": [
@@ -92,7 +93,7 @@
     "cobblemon.species.demorigan.desc"
   ],
   "preEvolution": "demiddul",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

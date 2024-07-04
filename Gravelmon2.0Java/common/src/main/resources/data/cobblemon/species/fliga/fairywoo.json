@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fairywoo",
-  "nationalPokedexNumber": 3935,
+  "nationalPokedexNumber": 3934,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
@@ -139,7 +139,7 @@
   "pokedex": [
     "cobblemon.species.fairywoo.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

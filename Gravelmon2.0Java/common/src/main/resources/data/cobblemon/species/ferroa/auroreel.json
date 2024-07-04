@@ -121,7 +121,7 @@
   "pokedex": [
     "cobblemon.species.auroreel.desc"
   ],
-  "baseScale": 0.725,
+  "baseScale": 0.48333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

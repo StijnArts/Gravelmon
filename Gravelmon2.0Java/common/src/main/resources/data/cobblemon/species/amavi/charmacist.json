@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "charmacist",
-  "nationalPokedexNumber": 5654,
+  "nationalPokedexNumber": 5653,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.charmacist.desc"
   ],
   "preEvolution": "tendurse",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

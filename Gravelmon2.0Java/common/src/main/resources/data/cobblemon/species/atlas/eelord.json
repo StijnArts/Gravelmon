@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eelord",
-  "nationalPokedexNumber": 5528,
+  "nationalPokedexNumber": 5527,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.eelord.desc"
   ],
   "preEvolution": "mimish",
-  "baseScale": 0.775,
+  "baseScale": 0.5166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setsubean",
-  "nationalPokedexNumber": 3900,
+  "nationalPokedexNumber": 3899,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.setsubean.desc"
   ],
   "preEvolution": "beani",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

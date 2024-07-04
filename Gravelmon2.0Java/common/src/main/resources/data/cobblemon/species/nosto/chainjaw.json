@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chainjaw",
-  "nationalPokedexNumber": 3639,
+  "nationalPokedexNumber": 3638,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -139,7 +139,7 @@
     "cobblemon.species.chainjaw.desc"
   ],
   "preEvolution": "seasaw",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sphyrnizor",
-  "nationalPokedexNumber": 3927,
+  "nationalPokedexNumber": 3926,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.sphyrnizor.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

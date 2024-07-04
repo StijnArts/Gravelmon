@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "metarock",
-  "nationalPokedexNumber": 4642,
+  "nationalPokedexNumber": 4641,
   "primaryType": "rock",
   "abilities": [
     "sturdy",
@@ -92,7 +92,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

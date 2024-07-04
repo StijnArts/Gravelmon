@@ -532,7 +532,7 @@
     "cobblemon.species.ayreianvenusaur.desc"
   ],
   "preEvolution": "ivysaur form=ayreian",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

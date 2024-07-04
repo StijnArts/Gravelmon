@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grimandrill",
-  "nationalPokedexNumber": 4032,
+  "nationalPokedexNumber": 4031,
   "primaryType": "dark",
   "abilities": [
     "unnerve",
@@ -72,7 +72,7 @@
     "cobblemon.species.grimandrill.desc"
   ],
   "preEvolution": "gibboor",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

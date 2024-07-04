@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "willowanne",
-  "nationalPokedexNumber": 3377,
+  "nationalPokedexNumber": 3376,
   "primaryType": "grass",
   "abilities": [
     "tangledfeet",
@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.willowanne.desc"
   ],
-  "baseScale": 0.625,
+  "baseScale": 0.4166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dispariot",
-  "nationalPokedexNumber": 5750,
+  "nationalPokedexNumber": 5749,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.dispariot.desc"
   ],
   "preEvolution": "kelpumpf",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

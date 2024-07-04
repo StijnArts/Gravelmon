@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tyragaan",
-  "nationalPokedexNumber": 4229,
+  "nationalPokedexNumber": 4228,
   "primaryType": "grass",
   "secondaryType": "light",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.tyragaan.desc"
   ],
   "preEvolution": "mohavi",
-  "baseScale": 0.9,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

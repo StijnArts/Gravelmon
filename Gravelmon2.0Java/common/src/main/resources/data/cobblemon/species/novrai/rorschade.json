@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rorschade",
-  "nationalPokedexNumber": 5232,
+  "nationalPokedexNumber": 5231,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -142,7 +142,7 @@
     "cobblemon.species.rorschade.desc"
   ],
   "preEvolution": "thinkblot",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

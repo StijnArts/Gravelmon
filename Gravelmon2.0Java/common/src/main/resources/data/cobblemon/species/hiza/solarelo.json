@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solarelo",
-  "nationalPokedexNumber": 2713,
+  "nationalPokedexNumber": 2712,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.solarelo.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slothohm",
-  "nationalPokedexNumber": 2457,
+  "nationalPokedexNumber": 2456,
   "primaryType": "electric",
   "secondaryType": "rock",
   "abilities": [
@@ -156,7 +156,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

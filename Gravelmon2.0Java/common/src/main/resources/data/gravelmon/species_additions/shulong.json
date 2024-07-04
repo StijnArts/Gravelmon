@@ -450,7 +450,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -670,7 +670,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.775,
+  "baseScale": 0.5166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -760,7 +760,7 @@
   "pokedex": [
     "cobblemon.species.shulongx.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

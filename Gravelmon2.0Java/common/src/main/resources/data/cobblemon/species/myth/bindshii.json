@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bindshii",
-  "nationalPokedexNumber": 4417,
+  "nationalPokedexNumber": 4416,
   "primaryType": "sound",
   "secondaryType": "fairy",
   "abilities": [
@@ -84,7 +84,7 @@
     "cobblemon.species.bindshii.desc"
   ],
   "preEvolution": "skreychee",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brillumint",
-  "nationalPokedexNumber": 5146,
+  "nationalPokedexNumber": 5145,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
@@ -121,7 +121,7 @@
     "cobblemon.species.brillumint.desc"
   ],
   "preEvolution": "bulbright",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

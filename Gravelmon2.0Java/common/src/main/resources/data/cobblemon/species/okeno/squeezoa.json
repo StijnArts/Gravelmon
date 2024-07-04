@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "squeezoa",
-  "nationalPokedexNumber": 4619,
+  "nationalPokedexNumber": 4618,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.squeezoa.desc"
   ],
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "danfluff",
-  "nationalPokedexNumber": 3447,
+  "nationalPokedexNumber": 3446,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -127,7 +127,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

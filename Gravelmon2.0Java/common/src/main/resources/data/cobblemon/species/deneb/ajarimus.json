@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ajarimus",
-  "nationalPokedexNumber": 4733,
+  "nationalPokedexNumber": 4732,
   "primaryType": "dark",
   "abilities": [
     "stench",
@@ -140,7 +140,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fleuroma",
-  "nationalPokedexNumber": 2934,
+  "nationalPokedexNumber": 2933,
   "primaryType": "grass",
   "abilities": [
     "leafguard",
@@ -68,7 +68,7 @@
     "cobblemon.species.fleuroma.desc"
   ],
   "preEvolution": "petumi",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

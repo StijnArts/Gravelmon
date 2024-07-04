@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phantitute",
-  "nationalPokedexNumber": 4216,
+  "nationalPokedexNumber": 4215,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.phantitute.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

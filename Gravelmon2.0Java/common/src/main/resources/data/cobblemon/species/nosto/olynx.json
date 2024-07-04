@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "olynx",
-  "nationalPokedexNumber": 3596,
+  "nationalPokedexNumber": 3595,
   "primaryType": "ground",
   "abilities": [
     "sandveil",
@@ -143,7 +143,7 @@
     "cobblemon.species.olynx.desc"
   ],
   "preEvolution": "scruffur",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

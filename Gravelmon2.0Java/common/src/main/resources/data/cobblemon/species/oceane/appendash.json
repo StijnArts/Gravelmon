@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "appendash",
-  "nationalPokedexNumber": 2238,
+  "nationalPokedexNumber": 2237,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -65,7 +65,7 @@
     "cobblemon.species.appendash.desc"
   ],
   "preEvolution": "reefam",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

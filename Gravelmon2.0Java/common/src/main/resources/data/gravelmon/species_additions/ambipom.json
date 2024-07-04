@@ -186,7 +186,7 @@
     "cobblemon.species.deltaambipom.desc"
   ],
   "preEvolution": "aipom form=delta",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -330,7 +330,7 @@
     "cobblemon.species.relicambipom.desc"
   ],
   "preEvolution": "aipom form=relic",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -483,7 +483,7 @@
   "pokedex": [
     "cobblemon.species.kaskadianambipom.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

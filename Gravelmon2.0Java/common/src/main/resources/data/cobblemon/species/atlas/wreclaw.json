@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wreclaw",
-  "nationalPokedexNumber": 5450,
+  "nationalPokedexNumber": 5449,
   "primaryType": "normal",
   "secondaryType": "dark",
   "abilities": [
@@ -132,7 +132,7 @@
     "cobblemon.species.wreclaw.desc"
   ],
   "preEvolution": "badgrow",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

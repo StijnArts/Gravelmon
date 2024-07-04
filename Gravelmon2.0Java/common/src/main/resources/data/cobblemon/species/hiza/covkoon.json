@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "covkoon",
-  "nationalPokedexNumber": 2629,
+  "nationalPokedexNumber": 2628,
   "primaryType": "bug",
   "abilities": [
     "shedskin",
@@ -74,7 +74,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

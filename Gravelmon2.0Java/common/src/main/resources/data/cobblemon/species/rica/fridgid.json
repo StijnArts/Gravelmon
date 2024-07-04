@@ -131,7 +131,7 @@
   "pokedex": [
     "cobblemon.species.fridgid.desc"
   ],
-  "baseScale": 1.45,
+  "baseScale": 0.9666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

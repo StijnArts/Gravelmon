@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "narwhail",
-  "nationalPokedexNumber": 4710,
+  "nationalPokedexNumber": 4709,
   "primaryType": "ice",
   "abilities": [
     "waterabsorb",
@@ -126,7 +126,7 @@
     "cobblemon.species.narwhail.desc"
   ],
   "preEvolution": "dorfin",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

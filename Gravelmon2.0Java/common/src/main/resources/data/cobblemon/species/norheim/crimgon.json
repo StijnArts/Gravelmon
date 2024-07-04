@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crimgon",
-  "nationalPokedexNumber": 3250,
+  "nationalPokedexNumber": 3249,
   "primaryType": "steel",
   "secondaryType": "dragon",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.crimgon.desc"
   ],
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

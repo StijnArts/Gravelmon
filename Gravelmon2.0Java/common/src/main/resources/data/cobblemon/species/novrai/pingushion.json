@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pingushion",
-  "nationalPokedexNumber": 5311,
+  "nationalPokedexNumber": 5310,
   "primaryType": "ice",
   "secondaryType": "steel",
   "abilities": [
@@ -135,7 +135,7 @@
     "cobblemon.species.pingushion.desc"
   ],
   "preEvolution": "pinguin",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

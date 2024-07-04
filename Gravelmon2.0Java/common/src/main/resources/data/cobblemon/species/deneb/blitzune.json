@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blitzune",
-  "nationalPokedexNumber": 4725,
+  "nationalPokedexNumber": 4724,
   "primaryType": "electric",
   "secondaryType": "fairy",
   "abilities": [
@@ -122,7 +122,7 @@
     "cobblemon.species.blitzune.desc"
   ],
   "preEvolution": "plasmox",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

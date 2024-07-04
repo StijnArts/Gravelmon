@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ancaleana",
-  "nationalPokedexNumber": 4023,
+  "nationalPokedexNumber": 4022,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.ancaleana.desc"
   ],
   "preEvolution": "paposy",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

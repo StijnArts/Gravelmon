@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lylapse",
-  "nationalPokedexNumber": 4773,
+  "nationalPokedexNumber": 4772,
   "primaryType": "ground",
   "abilities": [
     "pressure",
@@ -90,7 +90,7 @@
   "pokedex": [
     "cobblemon.species.lylapse.desc"
   ],
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

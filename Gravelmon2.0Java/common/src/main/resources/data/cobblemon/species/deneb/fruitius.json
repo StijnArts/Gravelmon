@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fruitius",
-  "nationalPokedexNumber": 4919,
+  "nationalPokedexNumber": 4918,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -103,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.fruitius.desc"
   ],
-  "baseScale": 0.875,
+  "baseScale": 0.5833333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

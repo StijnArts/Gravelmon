@@ -33,14 +33,14 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> MURKY_CLAW = item("murky_claw");
     public static RegistrySupplier<Item> SILVER_SCALE = item("silver_scale");
     public static RegistrySupplier<Item> ANCIENT_GLYPH = item("ancient_glyph");
-    public static RegistrySupplier<Item> VOIDIX = item("voidix");
-    public static RegistrySupplier<Item> ELECTRIX = item("electrix");
-    public static RegistrySupplier<Item> BURIX = item("burix");
-    public static RegistrySupplier<Item> AQUIX = item("aquix");
-    public static RegistrySupplier<Item> VERDIX = item("verdix");
-    public static RegistrySupplier<Item> ZERIX = item("zerix");
-    public static RegistrySupplier<Item> PATHIX = item("pathix");
-    public static RegistrySupplier<Item> PIXIX = item("pixix");
+//    public static RegistrySupplier<Item> VOIDIX = item("voidix");
+//    public static RegistrySupplier<Item> ELECTRIX = item("electrix");
+//    public static RegistrySupplier<Item> BURIX = item("burix");
+//    public static RegistrySupplier<Item> AQUIX = item("aquix");
+//    public static RegistrySupplier<Item> VERDIX = item("verdix");
+//    public static RegistrySupplier<Item> ZERIX = item("zerix");
+//    public static RegistrySupplier<Item> PATHIX = item("pathix");
+//    public static RegistrySupplier<Item> PIXIX = item("pixix");
     public static RegistrySupplier<Item> SLOWPOKE_TAIL = item("slowpoke_tail");
     public static RegistrySupplier<Item> DREAD_PENDANT = item("dread_pendant");
     public static RegistrySupplier<Item> SPARE_PARTS = item("spare_parts");
@@ -64,7 +64,6 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> HAIR_TONIC = item("hair_tonic");
     public static RegistrySupplier<Item> GROWTH_MULCH = item("growth_mulch");
 //    public static RegistrySupplier<Item> ABYSSAL_STONE = item("abyssal_stone");
-
 
     //Held Items
     //Sage
@@ -151,14 +150,10 @@ public class GravelmonItems {
     public static RegistrySupplier<PokeBallItem> ACE_BALL;
     public static RegistrySupplier<PokeBallItem> ARO_BALL;
 
-
     public static RegistrySupplier<GravelmonApricornItem> PURPLE_APRICORN = apricronItem("purple_apricorn", GravelmonBlocks.PURPLE_APRICORN);
-
     public static RegistrySupplier<GravelmonApricornItem> ORANGE_APRICORN = apricronItem("orange_apricorn", GravelmonBlocks.ORANGE_APRICORN);
 
-
     public static RegistrySupplier<GravelmonApricornSeedItem> PURPLE_APRICORN_SEED = apricronSeedItem("purple_apricorn_seed", GravelmonBlocks.PURPLE_APRICORN_SAPLING);
-
     public static RegistrySupplier<GravelmonApricornSeedItem> ORANGE_APRICORN_SEED = apricronSeedItem("orange_apricorn_seed", GravelmonBlocks.ORANGE_APRICORN_SAPLING);
 
     public static RegistrySupplier<GravelmonApricornSeedItem> apricronSeedItem(String name, RegistrySupplier<GravelmonApricornSaplingBlock> block){

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cindera",
-  "nationalPokedexNumber": 5466,
+  "nationalPokedexNumber": 5465,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -122,7 +122,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

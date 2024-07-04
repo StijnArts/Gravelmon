@@ -116,7 +116,7 @@
     "cobblemon.species.indrolith.desc"
   ],
   "preEvolution": "calphite",
-  "baseScale": 0.7999999999999999,
+  "baseScale": 0.5333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

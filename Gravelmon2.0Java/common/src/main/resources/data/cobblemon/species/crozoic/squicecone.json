@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "squicecone",
-  "nationalPokedexNumber": 3342,
+  "nationalPokedexNumber": 3341,
   "primaryType": "ice",
   "secondaryType": "water",
   "abilities": [
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.squicecone.desc"
   ],
-  "baseScale": 0.725,
+  "baseScale": 0.48333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

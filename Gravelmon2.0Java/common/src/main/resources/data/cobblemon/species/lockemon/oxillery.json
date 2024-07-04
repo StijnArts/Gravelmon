@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "name": "oxillery",
-  "nationalPokedexNumber": 3495,
+  "nationalPokedexNumber": 3494,
   "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
     "motordrive",
     "stamina",
-    "h:keeneye"
+    "h:energizer"
   ],
   "baseStats": {
     "hp": 85,
@@ -75,7 +75,7 @@
     "cobblemon.species.oxillery.desc"
   ],
   "preEvolution": "auditaur",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

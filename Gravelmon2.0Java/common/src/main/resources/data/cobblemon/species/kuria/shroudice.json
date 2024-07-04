@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shroudice",
-  "nationalPokedexNumber": 4161,
+  "nationalPokedexNumber": 4160,
   "primaryType": "ghost",
   "secondaryType": "ice",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.shroudice.desc"
   ],
   "preEvolution": "ghoskarf",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

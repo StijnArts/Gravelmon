@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snowl",
-  "nationalPokedexNumber": 3137,
+  "nationalPokedexNumber": 3136,
   "primaryType": "ghost",
   "secondaryType": "ice",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.snowl.desc"
   ],
   "preEvolution": "snootsnoot",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

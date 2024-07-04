@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vermenace",
-  "nationalPokedexNumber": 5790,
+  "nationalPokedexNumber": 5789,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.vermenace.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

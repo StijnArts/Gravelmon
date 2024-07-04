@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "forlawn",
-  "nationalPokedexNumber": 3781,
+  "nationalPokedexNumber": 3780,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -128,7 +128,7 @@
   "pokedex": [
     "cobblemon.species.forlawn.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

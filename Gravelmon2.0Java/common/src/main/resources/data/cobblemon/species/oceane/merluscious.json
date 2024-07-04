@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "merluscious",
-  "nationalPokedexNumber": 2257,
+  "nationalPokedexNumber": 2256,
   "primaryType": "rock",
   "secondaryType": "poison",
   "abilities": [
@@ -60,7 +60,7 @@
   "pokedex": [
     "cobblemon.species.merluscious.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

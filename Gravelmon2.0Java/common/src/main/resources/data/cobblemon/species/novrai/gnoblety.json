@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gnoblety",
-  "nationalPokedexNumber": 5296,
+  "nationalPokedexNumber": 5295,
   "primaryType": "ground",
   "secondaryType": "fairy",
   "abilities": [
@@ -162,7 +162,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

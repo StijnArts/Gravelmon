@@ -150,7 +150,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 1.8,
+  "baseScale": 1.2,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

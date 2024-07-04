@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "abysprit",
-  "nationalPokedexNumber": 5012,
+  "nationalPokedexNumber": 5011,
   "primaryType": "dark",
   "abilities": [
     "unnerve",
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.abysprit.desc"
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

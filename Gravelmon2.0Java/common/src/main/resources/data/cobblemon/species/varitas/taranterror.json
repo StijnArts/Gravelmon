@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "taranterror",
-  "nationalPokedexNumber": 2309,
+  "nationalPokedexNumber": 2308,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.taranterror.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atlantice",
-  "nationalPokedexNumber": 5593,
+  "nationalPokedexNumber": 5592,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.atlantice.desc"
   ],
   "preEvolution": "glossail",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

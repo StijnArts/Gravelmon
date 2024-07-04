@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "birred",
-  "nationalPokedexNumber": 4490,
+  "nationalPokedexNumber": 4489,
   "primaryType": "flying",
   "abilities": [
     "keeneye",
@@ -92,7 +92,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

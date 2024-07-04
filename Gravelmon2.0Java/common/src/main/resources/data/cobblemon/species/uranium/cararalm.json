@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cararalm",
-  "nationalPokedexNumber": 2428,
+  "nationalPokedexNumber": 2427,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -53,7 +53,7 @@
     "amount": "1",
     "entries": [
       {
-        "item": "gravelmon_coconut_milk",
+        "item": "gravelmon:coconut_milk",
         "quantityRange": "1-1",
         "percentage": 10
       }
@@ -157,11 +157,11 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon_coconut_milk",
+      "requiredContext": "gravelmon:coconut_milk",
       "permanent": true   
  }
   ],
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

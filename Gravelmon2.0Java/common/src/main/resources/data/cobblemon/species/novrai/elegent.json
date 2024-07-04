@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elegent",
-  "nationalPokedexNumber": 5187,
+  "nationalPokedexNumber": 5186,
   "primaryType": "fighting",
   "secondaryType": "fairy",
   "abilities": [
@@ -136,7 +136,7 @@
     "cobblemon.species.elegent.desc"
   ],
   "preEvolution": "fistiscuff",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

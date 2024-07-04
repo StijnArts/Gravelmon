@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zephy",
-  "nationalPokedexNumber": 2530,
+  "nationalPokedexNumber": 2529,
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.zephy.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

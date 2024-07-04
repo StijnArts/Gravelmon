@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "torpeed",
-  "nationalPokedexNumber": 5374,
+  "nationalPokedexNumber": 5373,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -128,7 +128,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "s51a",
-  "nationalPokedexNumber": 2442,
+  "nationalPokedexNumber": 2441,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -152,7 +152,7 @@
     "cobblemon.species.s51a.desc"
   ],
   "preEvolution": "s51",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

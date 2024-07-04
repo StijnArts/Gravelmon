@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ikarma",
-  "nationalPokedexNumber": 5335,
+  "nationalPokedexNumber": 5334,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
@@ -153,7 +153,7 @@
   "pokedex": [
     "cobblemon.species.ikarma.desc"
   ],
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

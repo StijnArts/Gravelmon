@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "andracarina",
-  "nationalPokedexNumber": 3956,
+  "nationalPokedexNumber": 3955,
   "primaryType": "flying",
   "secondaryType": "poison",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.andracarina.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

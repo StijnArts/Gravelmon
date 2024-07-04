@@ -127,7 +127,7 @@
     "cobblemon.species.magroplex.desc"
   ],
   "preEvolution": "anvelid",
-  "baseScale": 1.25,
+  "baseScale": 0.8333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

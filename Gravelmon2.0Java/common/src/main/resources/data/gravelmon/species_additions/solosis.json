@@ -318,6 +318,7 @@
   "secondaryType": "water",
   "abilities": [
     "overcoat",
+    "carboncapture",
     "h:magicguard"
   ],
   "baseStats": {

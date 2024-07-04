@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cosmoose",
-  "nationalPokedexNumber": 4241,
+  "nationalPokedexNumber": 4240,
   "primaryType": "cosmic",
   "abilities": [
     "oblivious",
@@ -70,7 +70,7 @@
     "cobblemon.species.cosmoose.desc"
   ],
   "preEvolution": "astralf",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "neyloch",
-  "nationalPokedexNumber": 3783,
+  "nationalPokedexNumber": 3782,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -109,7 +109,7 @@
     "cobblemon.species.neyloch.desc"
   ],
   "preEvolution": "foaloch",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

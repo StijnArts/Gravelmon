@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "almaria",
-  "nationalPokedexNumber": 4777,
+  "nationalPokedexNumber": 4776,
   "primaryType": "ghost",
   "abilities": [
     "levitate",
@@ -111,7 +111,7 @@
     "cobblemon.species.almaria.desc"
   ],
   "preEvolution": "aldina",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

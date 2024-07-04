@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gardraog",
-  "nationalPokedexNumber": 4252,
+  "nationalPokedexNumber": 4251,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -96,7 +96,7 @@
     "cobblemon.species.gardraog.desc"
   ],
   "preEvolution": "shibark",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

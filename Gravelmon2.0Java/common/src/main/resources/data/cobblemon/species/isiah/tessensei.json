@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tessensei",
-  "nationalPokedexNumber": 4325,
+  "nationalPokedexNumber": 4324,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.tessensei.desc"
   ],
   "preEvolution": "tessent",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

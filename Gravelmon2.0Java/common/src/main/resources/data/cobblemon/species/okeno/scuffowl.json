@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scuffowl",
-  "nationalPokedexNumber": 4612,
+  "nationalPokedexNumber": 4611,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -88,7 +88,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

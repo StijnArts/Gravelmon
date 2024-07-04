@@ -130,7 +130,7 @@
     "cobblemon.species.deltawaterlilligant.desc"
   ],
   "preEvolution": "petilil form=deltawater",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -293,7 +293,7 @@
     "cobblemon.species.deltafairylilligant.desc"
   ],
   "preEvolution": "petilil form=deltafairy",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -392,7 +392,7 @@
     "cobblemon.species.cefiranlilligant.desc"
   ],
   "preEvolution": "petilil form=cefiran",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -138,7 +138,7 @@
     "cobblemon.species.novrandragalge.desc"
   ],
   "preEvolution": "skrelp form=novran",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "amusea",
-  "nationalPokedexNumber": 2271,
+  "nationalPokedexNumber": 2270,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -88,7 +88,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

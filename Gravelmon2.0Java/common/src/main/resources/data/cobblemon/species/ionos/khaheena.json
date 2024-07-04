@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "khaheena",
-  "nationalPokedexNumber": 5026,
+  "nationalPokedexNumber": 5025,
   "primaryType": "ground",
   "secondaryType": "fighting",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.khaheena.desc"
   ],
   "preEvolution": "spothyena",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

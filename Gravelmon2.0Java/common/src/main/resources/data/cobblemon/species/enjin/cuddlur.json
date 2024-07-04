@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cuddlur",
-  "nationalPokedexNumber": 5011,
+  "nationalPokedexNumber": 5010,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
@@ -185,7 +185,7 @@
     "cobblemon.species.cuddlur.desc"
   ],
   "preEvolution": "waddlur",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

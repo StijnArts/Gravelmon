@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "submalot",
-  "nationalPokedexNumber": 2250,
+  "nationalPokedexNumber": 2249,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.submalot.desc"
   ],
   "preEvolution": "cachaleen",
-  "baseScale": 1.45,
+  "baseScale": 0.9666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

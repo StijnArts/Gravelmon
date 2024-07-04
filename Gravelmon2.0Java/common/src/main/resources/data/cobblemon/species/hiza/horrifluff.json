@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "horrifluff",
-  "nationalPokedexNumber": 2725,
+  "nationalPokedexNumber": 2724,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.horrifluff.desc"
   ],
   "preEvolution": "hairubb",
-  "baseScale": 1.125,
+  "baseScale": 0.75,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

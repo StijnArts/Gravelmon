@@ -105,7 +105,7 @@
   "pokedex": [
     "cobblemon.species.whalpool.desc"
   ],
-  "baseScale": 1.75,
+  "baseScale": 1.1666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

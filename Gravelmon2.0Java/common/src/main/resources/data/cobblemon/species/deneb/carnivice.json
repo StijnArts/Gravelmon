@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carnivice",
-  "nationalPokedexNumber": 4857,
+  "nationalPokedexNumber": 4856,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.carnivice.desc"
   ],
   "preEvolution": "carnivine",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

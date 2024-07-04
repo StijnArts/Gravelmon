@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "toxitube",
-  "nationalPokedexNumber": 5475,
+  "nationalPokedexNumber": 5474,
   "primaryType": "poison",
   "abilities": [
     "whitesmoke",
@@ -126,7 +126,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

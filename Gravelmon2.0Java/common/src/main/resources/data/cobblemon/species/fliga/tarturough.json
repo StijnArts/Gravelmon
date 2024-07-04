@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tarturough",
-  "nationalPokedexNumber": 3940,
+  "nationalPokedexNumber": 3939,
   "primaryType": "dark",
   "secondaryType": "fire",
   "abilities": [
@@ -93,7 +93,7 @@
     "cobblemon.species.tarturough.desc"
   ],
   "preEvolution": "impuglist",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

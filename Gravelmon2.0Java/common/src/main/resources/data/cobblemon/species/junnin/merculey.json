@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "merculey",
-  "nationalPokedexNumber": 2827,
+  "nationalPokedexNumber": 2826,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
@@ -134,7 +134,7 @@
     "cobblemon.species.merculey.desc"
   ],
   "preEvolution": "burmurly",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

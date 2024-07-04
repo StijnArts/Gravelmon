@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "durassault",
-  "nationalPokedexNumber": 5149,
+  "nationalPokedexNumber": 5148,
   "primaryType": "electric",
   "secondaryType": "fighting",
   "abilities": [
@@ -132,7 +132,7 @@
     "cobblemon.species.durassault.desc"
   ],
   "preEvolution": "oblittery",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

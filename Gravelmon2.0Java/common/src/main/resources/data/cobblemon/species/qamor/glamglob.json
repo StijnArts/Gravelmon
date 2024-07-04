@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glamglob",
-  "nationalPokedexNumber": 4065,
+  "nationalPokedexNumber": 4064,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.glamglob.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

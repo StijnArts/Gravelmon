@@ -66,7 +66,7 @@
     "cobblemon.species.swallet.desc"
   ],
   "preEvolution": "wahundo",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eyesaur",
-  "nationalPokedexNumber": 3304,
+  "nationalPokedexNumber": 3303,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -172,7 +172,7 @@
     "cobblemon.species.eyesaur.desc"
   ],
   "preEvolution": "eyesi",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

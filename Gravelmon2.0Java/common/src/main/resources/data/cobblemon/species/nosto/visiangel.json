@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "visiangel",
-  "nationalPokedexNumber": 3615,
+  "nationalPokedexNumber": 3614,
   "primaryType": "psychic",
   "abilities": [
     "pressure",
@@ -78,7 +78,7 @@
     "cobblemon.species.visiangel.desc"
   ],
   "preEvolution": "halux",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -148,7 +148,7 @@
     "cobblemon.species.deltaluxray.desc"
   ],
   "preEvolution": "luxio form=delta",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -314,7 +314,7 @@
     "cobblemon.species.ayreianluxray.desc"
   ],
   "preEvolution": "luxio form=ayreian",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -457,7 +457,7 @@
     "cobblemon.species.kaskadianluxray.desc"
   ],
   "preEvolution": "luxio form=kaskadian",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "palaeodox",
-  "nationalPokedexNumber": 5219,
+  "nationalPokedexNumber": 5218,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -155,7 +155,7 @@
     "cobblemon.species.palaeodox.desc"
   ],
   "preEvolution": "cambryo",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

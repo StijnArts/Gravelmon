@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raptrocas",
-  "nationalPokedexNumber": 4584,
+  "nationalPokedexNumber": 4583,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.raptrocas.desc"
   ],
   "preEvolution": "velifite",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

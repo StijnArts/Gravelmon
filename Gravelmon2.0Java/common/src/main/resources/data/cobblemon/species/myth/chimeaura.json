@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chimeaura",
-  "nationalPokedexNumber": 4424,
+  "nationalPokedexNumber": 4423,
   "primaryType": "sound",
   "secondaryType": "steel",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.chimeaura.desc"
   ],
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

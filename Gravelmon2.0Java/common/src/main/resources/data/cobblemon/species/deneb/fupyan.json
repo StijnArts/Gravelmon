@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fupyan",
-  "nationalPokedexNumber": 4953,
+  "nationalPokedexNumber": 4952,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -100,7 +100,7 @@
     "cobblemon.species.fupyan.desc"
   ],
   "preEvolution": "fupi",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

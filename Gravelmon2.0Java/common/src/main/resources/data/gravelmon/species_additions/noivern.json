@@ -173,7 +173,7 @@
     "cobblemon.species.deltanoivern.desc"
   ],
   "preEvolution": "noibat form=delta",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -336,7 +336,7 @@
     "cobblemon.species.seviiannoivern.desc"
   ],
   "preEvolution": "noibat form=seviian",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -429,7 +429,7 @@
   "pokedex": [
     "cobblemon.species.mythiannoivern.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -593,7 +593,7 @@
     "cobblemon.species.ayreiannoivern.desc"
   ],
   "preEvolution": "noibat form=ayreian",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "thermoni",
-  "nationalPokedexNumber": 4019,
+  "nationalPokedexNumber": 4018,
   "primaryType": "flying",
   "secondaryType": "electric",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.thermoni.desc"
   ],
   "preEvolution": "munsun",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

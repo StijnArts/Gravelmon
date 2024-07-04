@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tropiary",
-  "nationalPokedexNumber": 2663,
+  "nationalPokedexNumber": 2662,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.tropiary.desc"
   ],
   "preEvolution": "hedgit",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "angloch",
-  "nationalPokedexNumber": 3437,
+  "nationalPokedexNumber": 3436,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -90,7 +90,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zaptera",
-  "nationalPokedexNumber": 2769,
+  "nationalPokedexNumber": 2768,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.zaptera.desc"
   ],
   "preEvolution": "pterai",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

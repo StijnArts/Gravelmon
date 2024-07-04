@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "alpheon",
-  "nationalPokedexNumber": 3049,
+  "nationalPokedexNumber": 3048,
   "primaryType": "normal",
   "abilities": [
     "adaptability",
@@ -79,7 +79,7 @@
   "pokedex": [
     "cobblemon.species.alpheon.desc"
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

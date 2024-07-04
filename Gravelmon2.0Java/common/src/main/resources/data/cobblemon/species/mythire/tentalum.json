@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tentalum",
-  "nationalPokedexNumber": 3848,
+  "nationalPokedexNumber": 3847,
   "primaryType": "psychic",
   "abilities": [
     "owntempo",
@@ -94,7 +94,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

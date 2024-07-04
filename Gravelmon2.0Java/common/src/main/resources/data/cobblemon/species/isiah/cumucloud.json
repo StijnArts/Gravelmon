@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cumucloud",
-  "nationalPokedexNumber": 4293,
+  "nationalPokedexNumber": 4292,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.cumucloud.desc"
   ],
   "preEvolution": "drizzlen",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

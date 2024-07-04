@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragurn",
-  "nationalPokedexNumber": 4192,
+  "nationalPokedexNumber": 4191,
   "primaryType": "dragon",
   "abilities": [
     "sturdy",
@@ -88,7 +88,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drasparath",
-  "nationalPokedexNumber": 3744,
+  "nationalPokedexNumber": 3743,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
@@ -102,7 +102,7 @@
     "cobblemon.species.drasparath.desc"
   ],
   "preEvolution": "dunsparce form=hoennian",
-  "baseScale": 1.2249999999999999,
+  "baseScale": 0.8166666666666668,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

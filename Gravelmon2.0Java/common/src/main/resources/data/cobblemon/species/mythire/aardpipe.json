@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aardpipe",
-  "nationalPokedexNumber": 3822,
+  "nationalPokedexNumber": 3821,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -129,7 +129,7 @@
   "pokedex": [
     "cobblemon.species.aardpipe.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cachaleen",
-  "nationalPokedexNumber": 2249,
+  "nationalPokedexNumber": 2248,
   "primaryType": "water",
   "abilities": [
     "waterveil",
@@ -84,7 +84,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

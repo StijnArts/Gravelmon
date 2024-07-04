@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pawstiche",
-  "nationalPokedexNumber": 4659,
+  "nationalPokedexNumber": 4658,
   "primaryType": "ghost",
   "abilities": [
     "rattled",
@@ -93,7 +93,7 @@
     "cobblemon.species.pawstiche.desc"
   ],
   "preEvolution": "phantoshie",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

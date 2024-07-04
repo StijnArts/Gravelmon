@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "regishard",
-  "nationalPokedexNumber": 5047,
+  "nationalPokedexNumber": 5046,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.regishard.desc"
   ],
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trillowee",
-  "nationalPokedexNumber": 3034,
+  "nationalPokedexNumber": 3033,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -119,7 +119,7 @@
     "cobblemon.species.trillowee.desc"
   ],
   "preEvolution": "wilspri",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

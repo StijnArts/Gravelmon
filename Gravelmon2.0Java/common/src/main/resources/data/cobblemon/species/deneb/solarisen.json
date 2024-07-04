@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solarisen",
-  "nationalPokedexNumber": 4741,
+  "nationalPokedexNumber": 4740,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -115,7 +115,7 @@
     "cobblemon.species.solarisen.desc"
   ],
   "preEvolution": "guldawn",
-  "baseScale": 0.9249999999999999,
+  "baseScale": 0.6166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

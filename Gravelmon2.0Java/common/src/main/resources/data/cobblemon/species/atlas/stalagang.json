@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stalagang",
-  "nationalPokedexNumber": 5478,
+  "nationalPokedexNumber": 5477,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -129,7 +129,7 @@
     "cobblemon.species.stalagang.desc"
   ],
   "preEvolution": "stalagrunt",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

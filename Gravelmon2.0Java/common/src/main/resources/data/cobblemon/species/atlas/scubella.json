@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scubella",
-  "nationalPokedexNumber": 5557,
+  "nationalPokedexNumber": 5556,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -108,7 +108,7 @@
     "cobblemon.species.scubella.desc"
   ],
   "preEvolution": "polypus",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

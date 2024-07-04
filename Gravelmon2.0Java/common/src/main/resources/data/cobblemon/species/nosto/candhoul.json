@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "candhoul",
-  "nationalPokedexNumber": 3657,
+  "nationalPokedexNumber": 3656,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
@@ -90,7 +90,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

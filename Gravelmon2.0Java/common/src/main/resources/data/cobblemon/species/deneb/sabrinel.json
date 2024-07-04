@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabrinel",
-  "nationalPokedexNumber": 4839,
+  "nationalPokedexNumber": 4838,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -121,7 +121,7 @@
     "cobblemon.species.sabrinel.desc"
   ],
   "preEvolution": "fujinel",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

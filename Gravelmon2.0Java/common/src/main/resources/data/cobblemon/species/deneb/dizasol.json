@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dizasol",
-  "nationalPokedexNumber": 4742,
+  "nationalPokedexNumber": 4741,
   "primaryType": "dark",
   "abilities": [
     "pressure",
@@ -88,6 +88,7 @@
     "tutor:hex",
     "tutor:foulplay",
     "tutor:megahorn",
+    "tutor:blackhole",
     "egg:batonpass",
     "egg:bounce",
     "egg:counter",
@@ -117,7 +118,7 @@
     "cobblemon.species.dizasol.desc"
   ],
   "preEvolution": "absol",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

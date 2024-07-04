@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pinchor",
-  "nationalPokedexNumber": 4832,
+  "nationalPokedexNumber": 4831,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -119,7 +119,7 @@
     "cobblemon.species.pinchor.desc"
   ],
   "preEvolution": "pinsir",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

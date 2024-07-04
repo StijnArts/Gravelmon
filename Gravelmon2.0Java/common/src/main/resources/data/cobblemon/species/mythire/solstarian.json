@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solstarian",
-  "nationalPokedexNumber": 3879,
+  "nationalPokedexNumber": 3878,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -150,7 +150,7 @@
   "pokedex": [
     "cobblemon.species.solstarian.desc"
   ],
-  "baseScale": 0.9500000000000001,
+  "baseScale": 0.6333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

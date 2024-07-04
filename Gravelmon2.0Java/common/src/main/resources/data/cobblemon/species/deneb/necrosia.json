@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "necrosia",
-  "nationalPokedexNumber": 4759,
+  "nationalPokedexNumber": 4758,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -119,7 +119,7 @@
     "cobblemon.species.necrosia.desc"
   ],
   "preEvolution": "yucarlia",
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

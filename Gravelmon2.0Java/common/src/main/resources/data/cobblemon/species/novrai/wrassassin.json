@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wrassassin",
-  "nationalPokedexNumber": 5194,
+  "nationalPokedexNumber": 5193,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -151,7 +151,7 @@
     "cobblemon.species.wrassassin.desc"
   ],
   "preEvolution": "wrassure",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

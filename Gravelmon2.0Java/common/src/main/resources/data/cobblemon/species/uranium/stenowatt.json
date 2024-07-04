@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stenowatt",
-  "nationalPokedexNumber": 2492,
+  "nationalPokedexNumber": 2491,
   "primaryType": "electric",
   "abilities": [
     "motordrive",
@@ -129,7 +129,7 @@
   "pokedex": [
     "cobblemon.species.stenowatt.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

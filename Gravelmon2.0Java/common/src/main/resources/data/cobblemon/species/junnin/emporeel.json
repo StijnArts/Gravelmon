@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "emporeel",
-  "nationalPokedexNumber": 2839,
+  "nationalPokedexNumber": 2838,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -114,7 +114,7 @@
     "cobblemon.species.emporeel.desc"
   ],
   "preEvolution": "electeel",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

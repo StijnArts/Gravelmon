@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "buarajee",
-  "nationalPokedexNumber": 4570,
+  "nationalPokedexNumber": 4569,
   "primaryType": "rock",
   "secondaryType": "fighting",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.buarajee.desc"
   ],
   "preEvolution": "kujee",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drozerain",
-  "nationalPokedexNumber": 5130,
+  "nationalPokedexNumber": 5129,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -150,7 +150,7 @@
     "cobblemon.species.drozerain.desc"
   ],
   "preEvolution": "sunglew",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

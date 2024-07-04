@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wreckore",
-  "nationalPokedexNumber": 2952,
+  "nationalPokedexNumber": 2951,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -83,7 +83,7 @@
     "cobblemon.species.wreckore.desc"
   ],
   "preEvolution": "nervreck",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cosminx",
-  "nationalPokedexNumber": 3024,
+  "nationalPokedexNumber": 3023,
   "primaryType": "fairy",
   "secondaryType": "ghost",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.cosminx.desc"
   ],
   "preEvolution": "pinxie",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

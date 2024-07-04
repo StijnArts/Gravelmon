@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ganera",
-  "nationalPokedexNumber": 2648,
+  "nationalPokedexNumber": 2647,
   "primaryType": "psychic",
   "abilities": [
     "telepathy",
@@ -70,7 +70,7 @@
     "cobblemon.species.ganera.desc"
   ],
   "preEvolution": "sagephant",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "motocyclops",
-  "nationalPokedexNumber": 3835,
+  "nationalPokedexNumber": 3834,
   "primaryType": "ghost",
   "abilities": [
     "speedboost",
@@ -103,7 +103,7 @@
     "cobblemon.species.motocyclops.desc"
   ],
   "preEvolution": "scooclops",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

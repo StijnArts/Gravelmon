@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "prospectre",
-  "nationalPokedexNumber": 3526,
+  "nationalPokedexNumber": 3525,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.prospectre.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

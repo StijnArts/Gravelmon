@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lodeoni",
-  "nationalPokedexNumber": 3867,
+  "nationalPokedexNumber": 3866,
   "primaryType": "electric",
   "abilities": [
     "levitate",
@@ -68,7 +68,7 @@
     "cobblemon.species.lodeoni.desc"
   ],
   "preEvolution": "lodie",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

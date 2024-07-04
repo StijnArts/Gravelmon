@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "manna",
-  "nationalPokedexNumber": 5409,
+  "nationalPokedexNumber": 5408,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -107,7 +107,7 @@
     "cobblemon.species.manna.desc"
   ],
   "preEvolution": "sisanne",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

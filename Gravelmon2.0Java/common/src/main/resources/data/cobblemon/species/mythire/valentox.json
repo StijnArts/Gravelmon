@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "valentox",
-  "nationalPokedexNumber": 3839,
+  "nationalPokedexNumber": 3838,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
@@ -146,7 +146,7 @@
     "cobblemon.species.valentox.desc"
   ],
   "preEvolution": "clinglee",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

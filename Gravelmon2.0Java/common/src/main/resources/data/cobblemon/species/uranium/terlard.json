@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terlard",
-  "nationalPokedexNumber": 2394,
+  "nationalPokedexNumber": 2393,
   "primaryType": "ground",
   "secondaryType": "dragon",
   "abilities": [
@@ -128,7 +128,7 @@
     "cobblemon.species.terlard.desc"
   ],
   "preEvolution": "grozard",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

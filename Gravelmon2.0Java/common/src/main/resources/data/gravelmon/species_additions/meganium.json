@@ -152,7 +152,7 @@
     "cobblemon.species.eghomeganium.desc"
   ],
   "preEvolution": "bayleef form=egho",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -315,7 +315,7 @@
     "cobblemon.species.ayreianmeganium.desc"
   ],
   "preEvolution": "bayleef form=ayreian",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

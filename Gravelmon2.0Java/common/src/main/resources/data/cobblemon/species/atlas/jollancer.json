@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jollancer",
-  "nationalPokedexNumber": 5496,
+  "nationalPokedexNumber": 5495,
   "primaryType": "dark",
   "abilities": [
     "superluck",
@@ -118,7 +118,7 @@
   "pokedex": [
     "cobblemon.species.jollancer.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

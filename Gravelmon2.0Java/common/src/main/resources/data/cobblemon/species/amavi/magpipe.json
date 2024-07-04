@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magpipe",
-  "nationalPokedexNumber": 5595,
+  "nationalPokedexNumber": 5594,
   "primaryType": "flying",
   "secondaryType": "steel",
   "abilities": [
@@ -89,7 +89,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

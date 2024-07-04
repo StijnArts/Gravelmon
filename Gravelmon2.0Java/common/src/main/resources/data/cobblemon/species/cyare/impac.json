@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "impac",
-  "nationalPokedexNumber": 5785,
+  "nationalPokedexNumber": 5784,
   "primaryType": "fighting",
   "abilities": [
     "keeneye",
@@ -158,7 +158,7 @@
     "cobblemon.species.impac.desc"
   ],
   "preEvolution": "impie",
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

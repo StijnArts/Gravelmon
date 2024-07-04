@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gremleaf",
-  "nationalPokedexNumber": 3965,
+  "nationalPokedexNumber": 3964,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -102,7 +102,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

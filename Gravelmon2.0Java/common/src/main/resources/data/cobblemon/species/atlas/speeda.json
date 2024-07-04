@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "speeda",
-  "nationalPokedexNumber": 5513,
+  "nationalPokedexNumber": 5512,
   "primaryType": "electric",
   "abilities": [
     "speedboost",
@@ -104,7 +104,7 @@
     "cobblemon.species.speeda.desc"
   ],
   "preEvolution": "cheecub",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

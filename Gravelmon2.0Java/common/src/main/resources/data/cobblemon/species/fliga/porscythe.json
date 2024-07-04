@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porscythe",
-  "nationalPokedexNumber": 3933,
+  "nationalPokedexNumber": 3932,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.porscythe.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

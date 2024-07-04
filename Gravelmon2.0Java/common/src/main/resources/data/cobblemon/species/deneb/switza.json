@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "switza",
-  "nationalPokedexNumber": 4798,
+  "nationalPokedexNumber": 4797,
   "primaryType": "ice",
   "abilities": [
     "naturalcure",
@@ -102,7 +102,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

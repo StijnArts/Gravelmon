@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reindolph",
-  "nationalPokedexNumber": 2890,
+  "nationalPokedexNumber": 2889,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
@@ -137,7 +137,7 @@
     "cobblemon.species.reindolph.desc"
   ],
   "preEvolution": "fawntia",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

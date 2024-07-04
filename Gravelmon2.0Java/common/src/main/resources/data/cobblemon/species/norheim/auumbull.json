@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "auumbull",
-  "nationalPokedexNumber": 3285,
+  "nationalPokedexNumber": 3284,
   "primaryType": "psychic",
   "secondaryType": "ground",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.auumbull.desc"
   ],
-  "baseScale": 0.725,
+  "baseScale": 0.48333333333333334,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

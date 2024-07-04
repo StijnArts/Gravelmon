@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "teranium",
-  "nationalPokedexNumber": 4233,
+  "nationalPokedexNumber": 4232,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.teranium.desc"
   ],
   "preEvolution": "flyfin",
-  "baseScale": 1.375,
+  "baseScale": 0.9166666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arincess",
-  "nationalPokedexNumber": 4855,
+  "nationalPokedexNumber": 4854,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -128,7 +128,7 @@
   "pokedex": [
     "cobblemon.species.arincess.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

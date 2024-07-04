@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "uphonowar",
-  "nationalPokedexNumber": 2248,
+  "nationalPokedexNumber": 2247,
   "primaryType": "psychic",
   "abilities": [
     "levitate",
@@ -68,7 +68,7 @@
     "cobblemon.species.uphonowar.desc"
   ],
   "preEvolution": "siphonowar",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

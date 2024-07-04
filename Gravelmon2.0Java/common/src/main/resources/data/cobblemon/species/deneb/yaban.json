@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yaban",
-  "nationalPokedexNumber": 4901,
+  "nationalPokedexNumber": 4900,
   "primaryType": "fighting",
   "abilities": [
     "ironfist",
@@ -128,7 +128,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

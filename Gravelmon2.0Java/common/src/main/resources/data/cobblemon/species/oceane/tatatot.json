@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tatatot",
-  "nationalPokedexNumber": 2280,
+  "nationalPokedexNumber": 2279,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
@@ -88,7 +88,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

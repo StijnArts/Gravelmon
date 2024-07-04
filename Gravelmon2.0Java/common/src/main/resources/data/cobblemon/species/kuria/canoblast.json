@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "canoblast",
-  "nationalPokedexNumber": 4174,
+  "nationalPokedexNumber": 4173,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.canoblast.desc"
   ],
   "preEvolution": "canoling",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

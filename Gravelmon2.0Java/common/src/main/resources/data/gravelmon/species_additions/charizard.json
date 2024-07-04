@@ -576,7 +576,7 @@
     "cobblemon.species.ayreiancharizard.desc"
   ],
   "preEvolution": "charmeleon form=ayreian",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

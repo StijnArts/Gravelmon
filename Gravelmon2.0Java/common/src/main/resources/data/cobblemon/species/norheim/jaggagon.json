@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jaggagon",
-  "nationalPokedexNumber": 3204,
+  "nationalPokedexNumber": 3203,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.jaggagon.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

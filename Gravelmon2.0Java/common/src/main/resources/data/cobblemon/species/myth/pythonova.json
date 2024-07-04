@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pythonova",
-  "nationalPokedexNumber": 4414,
+  "nationalPokedexNumber": 4413,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -85,7 +85,7 @@
     "cobblemon.species.pythonova.desc"
   ],
   "preEvolution": "cobarett",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

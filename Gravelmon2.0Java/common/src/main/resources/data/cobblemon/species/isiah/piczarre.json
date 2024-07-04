@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "piczarre",
-  "nationalPokedexNumber": 4384,
+  "nationalPokedexNumber": 4383,
   "primaryType": "psychic",
   "abilities": [
     "keeneye",
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.piczarre.desc"
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

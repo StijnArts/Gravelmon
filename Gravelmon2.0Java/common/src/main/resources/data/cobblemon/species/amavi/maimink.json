@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maimink",
-  "nationalPokedexNumber": 5602,
+  "nationalPokedexNumber": 5601,
   "primaryType": "normal",
   "secondaryType": "dark",
   "abilities": [
@@ -120,7 +120,7 @@
     "cobblemon.species.maimink.desc"
   ],
   "preEvolution": "bandicute",
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

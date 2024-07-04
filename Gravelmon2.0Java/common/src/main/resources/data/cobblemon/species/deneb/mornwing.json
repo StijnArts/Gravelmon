@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mornwing",
-  "nationalPokedexNumber": 4739,
+  "nationalPokedexNumber": 4738,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -121,7 +121,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

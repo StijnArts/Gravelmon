@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "obsidious",
-  "nationalPokedexNumber": 3887,
+  "nationalPokedexNumber": 3886,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.obsidious.desc"
   ],
   "preEvolution": "magrumble",
-  "baseScale": 0.6749999999999999,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "name": "mienflux",
-  "nationalPokedexNumber": 3496,
+  "nationalPokedexNumber": 3495,
   "primaryType": "fighting",
   "secondaryType": "electric",
   "abilities": [
     "hustle",
     "regenerator",
-    "h:keeneye"
+    "h:masterinstinct"
   ],
   "baseStats": {
     "hp": 65,
@@ -88,7 +88,7 @@
   "pokedex": [
     "cobblemon.species.mienflux.desc"
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

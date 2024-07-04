@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harpirit",
-  "nationalPokedexNumber": 4143,
+  "nationalPokedexNumber": 4142,
   "primaryType": "ghost",
   "secondaryType": "sound",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.harpirit.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

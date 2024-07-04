@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carcoral",
-  "nationalPokedexNumber": 3762,
+  "nationalPokedexNumber": 3761,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -159,7 +159,7 @@
     "cobblemon.species.carcoral.desc"
   ],
   "preEvolution": "polypod",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

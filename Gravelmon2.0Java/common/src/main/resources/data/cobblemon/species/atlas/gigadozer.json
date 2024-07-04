@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gigadozer",
-  "nationalPokedexNumber": 5455,
+  "nationalPokedexNumber": 5454,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -106,7 +106,7 @@
     "cobblemon.species.gigadozer.desc"
   ],
   "preEvolution": "revolpod",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

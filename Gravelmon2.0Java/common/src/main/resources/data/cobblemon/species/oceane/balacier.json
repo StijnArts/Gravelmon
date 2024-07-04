@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "balacier",
-  "nationalPokedexNumber": 2252,
+  "nationalPokedexNumber": 2251,
   "primaryType": "ice",
   "abilities": [
     "keeneye",
@@ -70,7 +70,7 @@
     "cobblemon.species.balacier.desc"
   ],
   "preEvolution": "porpice",
-  "baseScale": 1.45,
+  "baseScale": 0.9666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mylili",
-  "nationalPokedexNumber": 3225,
+  "nationalPokedexNumber": 3224,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.mylili.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

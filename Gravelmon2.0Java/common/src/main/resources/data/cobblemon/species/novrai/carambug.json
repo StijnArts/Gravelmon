@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carambug",
-  "nationalPokedexNumber": 5215,
+  "nationalPokedexNumber": 5214,
   "primaryType": "rock",
   "secondaryType": "bug",
   "abilities": [
@@ -143,7 +143,7 @@
     "cobblemon.species.carambug.desc"
   ],
   "preEvolution": "ambug",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hatarakuma",
-  "nationalPokedexNumber": 4897,
+  "nationalPokedexNumber": 4896,
   "primaryType": "normal",
   "abilities": [
     "hustle",
@@ -123,7 +123,7 @@
     "cobblemon.species.hatarakuma.desc"
   ],
   "preEvolution": "darakuma",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

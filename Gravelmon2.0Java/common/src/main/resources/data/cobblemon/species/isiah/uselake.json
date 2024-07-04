@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "uselake",
-  "nationalPokedexNumber": 4315,
+  "nationalPokedexNumber": 4314,
   "primaryType": "water",
   "abilities": [
     "oblivious",
@@ -74,7 +74,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

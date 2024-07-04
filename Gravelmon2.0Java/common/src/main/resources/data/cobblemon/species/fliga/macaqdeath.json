@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "macaqdeath",
-  "nationalPokedexNumber": 3916,
+  "nationalPokedexNumber": 3915,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -107,7 +107,7 @@
     "cobblemon.species.macaqdeath.desc"
   ],
   "preEvolution": "aipom form=fligian",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

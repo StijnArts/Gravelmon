@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aydoliman",
-  "nationalPokedexNumber": 3253,
+  "nationalPokedexNumber": 3252,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.aydoliman.desc"
   ],
   "preEvolution": "gloatem",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

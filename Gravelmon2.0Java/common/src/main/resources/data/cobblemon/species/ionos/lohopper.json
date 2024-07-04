@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lohopper",
-  "nationalPokedexNumber": 5018,
+  "nationalPokedexNumber": 5017,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -89,7 +89,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

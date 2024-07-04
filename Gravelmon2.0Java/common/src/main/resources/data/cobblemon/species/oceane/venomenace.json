@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "venomenace",
-  "nationalPokedexNumber": 2298,
+  "nationalPokedexNumber": 2297,
   "primaryType": "dragon",
   "secondaryType": "poison",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.venomenace.desc"
   ],
   "preEvolution": "noxical",
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oarora",
-  "nationalPokedexNumber": 3203,
+  "nationalPokedexNumber": 3202,
   "primaryType": "dragon",
   "secondaryType": "ice",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.oarora.desc"
   ],
   "preEvolution": "flaki",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

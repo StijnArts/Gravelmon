@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raffiti",
-  "nationalPokedexNumber": 2469,
+  "nationalPokedexNumber": 2468,
   "primaryType": "dark",
   "abilities": [
     "insomnia",
@@ -98,7 +98,7 @@
     "cobblemon.species.raffiti.desc"
   ],
   "preEvolution": "ratsy",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

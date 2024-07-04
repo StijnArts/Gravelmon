@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dreadcap",
-  "nationalPokedexNumber": 3778,
+  "nationalPokedexNumber": 3777,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -98,7 +98,7 @@
     "cobblemon.species.dreadcap.desc"
   ],
   "preEvolution": "rokkap",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -137,7 +137,7 @@
     "cobblemon.species.lavoon.desc"
   ],
   "preEvolution": "glocto",
-  "baseScale": 1.7,
+  "baseScale": 1.1333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

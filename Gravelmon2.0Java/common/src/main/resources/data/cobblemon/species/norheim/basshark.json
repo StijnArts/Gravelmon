@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "basshark",
-  "nationalPokedexNumber": 3210,
+  "nationalPokedexNumber": 3209,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.basshark.desc"
   ],
   "preEvolution": "streuming",
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.4666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

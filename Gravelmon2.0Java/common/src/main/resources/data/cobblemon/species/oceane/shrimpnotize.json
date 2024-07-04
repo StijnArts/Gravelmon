@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shrimpnotize",
-  "nationalPokedexNumber": 2242,
+  "nationalPokedexNumber": 2241,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.shrimpnotize.desc"
   ],
   "preEvolution": "merbebi",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

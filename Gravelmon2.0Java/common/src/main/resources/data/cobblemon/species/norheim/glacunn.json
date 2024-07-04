@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glacunn",
-  "nationalPokedexNumber": 3280,
+  "nationalPokedexNumber": 3279,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.glacunn.desc"
   ],
   "preEvolution": "afunn",
-  "baseScale": 0.7999999999999999,
+  "baseScale": 0.5333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

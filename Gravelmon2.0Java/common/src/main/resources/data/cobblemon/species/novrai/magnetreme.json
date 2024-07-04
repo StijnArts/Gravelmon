@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magnetreme",
-  "nationalPokedexNumber": 5095,
+  "nationalPokedexNumber": 5094,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
@@ -138,7 +138,7 @@
     "cobblemon.species.magnetreme.desc"
   ],
   "preEvolution": "platypull",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wyrmlagar",
-  "nationalPokedexNumber": 3169,
+  "nationalPokedexNumber": 3168,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.wyrmlagar.desc"
   ],
   "preEvolution": "grublin",
-  "baseScale": 0.6,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

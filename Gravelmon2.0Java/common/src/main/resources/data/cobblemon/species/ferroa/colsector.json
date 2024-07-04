@@ -165,7 +165,7 @@
   "pokedex": [
     "cobblemon.species.colsector.desc"
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

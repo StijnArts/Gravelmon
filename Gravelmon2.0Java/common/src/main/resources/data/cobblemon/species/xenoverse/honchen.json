@@ -122,7 +122,7 @@
     "cobblemon.species.honchen.desc"
   ],
   "preEvolution": "kidoon",
-  "baseScale": 1.2,
+  "baseScale": 0.7999999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

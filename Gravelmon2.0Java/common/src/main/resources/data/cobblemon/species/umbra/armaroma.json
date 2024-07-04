@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "armaroma",
-  "nationalPokedexNumber": 3725,
+  "nationalPokedexNumber": 3724,
   "primaryType": "fairy",
   "secondaryType": "ground",
   "abilities": [
@@ -132,7 +132,7 @@
     "cobblemon.species.armaroma.desc"
   ],
   "preEvolution": "shrimpink",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

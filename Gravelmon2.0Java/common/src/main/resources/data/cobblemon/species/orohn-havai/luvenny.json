@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luvenny",
-  "nationalPokedexNumber": 2961,
+  "nationalPokedexNumber": 2960,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -124,7 +124,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

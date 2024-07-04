@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "basilux",
-  "nationalPokedexNumber": 4781,
+  "nationalPokedexNumber": 4780,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -64,6 +64,7 @@
     "19:magicalleaf",
     "24:growth",
     "28:gigadrain",
+    "34:lusterbloom",
     "40:thunderbolt",
     "48:aromatherapy",
     "55:thunder",
@@ -112,7 +113,7 @@
     "cobblemon.species.basilux.desc"
   ],
   "preEvolution": "basield",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

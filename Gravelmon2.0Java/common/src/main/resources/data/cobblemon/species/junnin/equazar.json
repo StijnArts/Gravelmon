@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "equazar",
-  "nationalPokedexNumber": 2865,
+  "nationalPokedexNumber": 2864,
   "primaryType": "rock",
   "abilities": [
     "keeneye",
@@ -97,7 +97,7 @@
     "cobblemon.species.equazar.desc"
   ],
   "preEvolution": "quartzac",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

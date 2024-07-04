@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "morosquatch",
-  "nationalPokedexNumber": 5183,
+  "nationalPokedexNumber": 5182,
   "primaryType": "dark",
   "secondaryType": "ground",
   "abilities": [
@@ -172,7 +172,7 @@
     "cobblemon.species.morosquatch.desc"
   ],
   "preEvolution": "morostache",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

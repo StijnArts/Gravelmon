@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "froska",
-  "nationalPokedexNumber": 4339,
+  "nationalPokedexNumber": 4338,
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
@@ -120,7 +120,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

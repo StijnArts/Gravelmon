@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "veroxifye",
-  "nationalPokedexNumber": 3044,
+  "nationalPokedexNumber": 3043,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.veroxifye.desc"
   ],
   "preEvolution": "foxsye",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

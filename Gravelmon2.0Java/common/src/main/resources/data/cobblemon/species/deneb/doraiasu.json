@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "doraiasu",
-  "nationalPokedexNumber": 4970,
+  "nationalPokedexNumber": 4969,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
@@ -97,7 +97,7 @@
     "cobblemon.species.doraiasu.desc"
   ],
   "preEvolution": "yukidaru",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

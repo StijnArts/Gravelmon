@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "octempus",
-  "nationalPokedexNumber": 3849,
+  "nationalPokedexNumber": 3848,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -97,7 +97,7 @@
     "cobblemon.species.octempus.desc"
   ],
   "preEvolution": "tentalum",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

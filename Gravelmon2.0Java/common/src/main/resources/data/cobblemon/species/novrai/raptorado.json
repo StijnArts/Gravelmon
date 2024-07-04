@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raptorado",
-  "nationalPokedexNumber": 5154,
+  "nationalPokedexNumber": 5153,
   "primaryType": "ground",
   "secondaryType": "flying",
   "abilities": [
@@ -130,7 +130,7 @@
     "cobblemon.species.raptorado.desc"
   ],
   "preEvolution": "prospecktor",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

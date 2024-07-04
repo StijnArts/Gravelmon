@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kvadract",
-  "nationalPokedexNumber": 2373,
+  "nationalPokedexNumber": 2372,
   "primaryType": "fairy",
   "secondaryType": "dark",
   "abilities": [
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.kvadract.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

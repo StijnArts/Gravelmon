@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "explosipede",
-  "nationalPokedexNumber": 4655,
+  "nationalPokedexNumber": 4654,
   "primaryType": "fire",
   "secondaryType": "bug",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.explosipede.desc"
   ],
   "preEvolution": "inspark",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

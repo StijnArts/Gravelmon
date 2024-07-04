@@ -166,7 +166,7 @@
     "cobblemon.species.eghoferaligatr.desc"
   ],
   "preEvolution": "croconaw form=egho",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -327,7 +327,7 @@
     "cobblemon.species.ayreianferaligatr.desc"
   ],
   "preEvolution": "croconaw form=ayreian",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

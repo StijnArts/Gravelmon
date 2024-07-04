@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eiseith",
-  "nationalPokedexNumber": 4398,
+  "nationalPokedexNumber": 4397,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.eiseith.desc"
   ],
-  "baseScale": 0.9249999999999999,
+  "baseScale": 0.6166666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

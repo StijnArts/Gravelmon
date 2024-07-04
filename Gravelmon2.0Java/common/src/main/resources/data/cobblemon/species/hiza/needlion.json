@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "needlion",
-  "nationalPokedexNumber": 2626,
+  "nationalPokedexNumber": 2625,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -86,7 +86,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

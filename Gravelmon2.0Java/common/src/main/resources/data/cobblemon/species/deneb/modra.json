@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "modra",
-  "nationalPokedexNumber": 4804,
+  "nationalPokedexNumber": 4803,
   "primaryType": "poison",
   "abilities": [
     "liquidooze",
@@ -133,7 +133,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

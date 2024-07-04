@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "meaniechu",
-  "nationalPokedexNumber": 5016,
+  "nationalPokedexNumber": 5015,
   "primaryType": "electric",
   "secondaryType": "fighting",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.meaniechu.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

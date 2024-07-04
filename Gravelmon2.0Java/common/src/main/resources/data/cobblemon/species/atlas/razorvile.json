@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "razorvile",
-  "nationalPokedexNumber": 5354,
+  "nationalPokedexNumber": 5353,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -125,7 +125,7 @@
     "cobblemon.species.razorvile.desc"
   ],
   "preEvolution": "aliblador",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

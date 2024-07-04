@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kirinirik",
-  "nationalPokedexNumber": 2342,
+  "nationalPokedexNumber": 2341,
   "primaryType": "dragon",
   "secondaryType": "psychic",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.kirinirik.desc"
   ],
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

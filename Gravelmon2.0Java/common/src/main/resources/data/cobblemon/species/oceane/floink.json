@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "floink",
-  "nationalPokedexNumber": 2266,
+  "nationalPokedexNumber": 2265,
   "primaryType": "flying",
   "abilities": [
     "dryskin",
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.floink.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

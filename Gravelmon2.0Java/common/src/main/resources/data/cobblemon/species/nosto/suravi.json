@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "suravi",
-  "nationalPokedexNumber": 3667,
+  "nationalPokedexNumber": 3666,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -136,7 +136,7 @@
   "pokedex": [
     "cobblemon.species.suravi.desc"
   ],
-  "baseScale": 0.85,
+  "baseScale": 0.5666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

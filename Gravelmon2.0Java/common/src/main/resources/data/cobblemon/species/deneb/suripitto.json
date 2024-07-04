@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "suripitto",
-  "nationalPokedexNumber": 4972,
+  "nationalPokedexNumber": 4971,
   "primaryType": "psychic",
   "abilities": [
     "insomnia",
@@ -48,6 +48,7 @@
   ],
   "moves": [
     "1:yawn",
+    "1:somnismog",
     "1:hypnosis",
     "1:disable",
     "1:confusion",
@@ -84,6 +85,8 @@
     "tutor:focuspunch",
     "egg:barrier",
     "egg:bellydrum",
+    "egg:haunt",
+    "egg:probepunch",
     "egg:roleplay",
     "egg:trickroom",
     "egg:wish"  ],
@@ -94,7 +97,7 @@
   "pokedex": [
     "cobblemon.species.suripitto.desc"
   ],
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

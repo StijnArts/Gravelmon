@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tawachy",
-  "nationalPokedexNumber": 4877,
+  "nationalPokedexNumber": 4876,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -104,7 +104,7 @@
     "cobblemon.species.tawachy.desc"
   ],
   "preEvolution": "wallachy",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

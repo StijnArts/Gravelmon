@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "daiomu",
-  "nationalPokedexNumber": 4968,
+  "nationalPokedexNumber": 4967,
   "primaryType": "electric",
   "secondaryType": "dragon",
   "abilities": [
@@ -81,6 +81,7 @@
     "tutor:dragonclaw",
     "tutor:slash",
     "tutor:wildcharge",
+    "tutor:royalbreath",
     "tutor:doubleedge",
     "tutor:dracometeor",
     "egg:psychup",
@@ -103,7 +104,7 @@
     "cobblemon.species.daiomu.desc"
   ],
   "preEvolution": "mameden",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

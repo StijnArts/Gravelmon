@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zorotsune",
-  "nationalPokedexNumber": 2572,
+  "nationalPokedexNumber": 2571,
   "primaryType": "ghost",
   "abilities": [
     "illusion",
@@ -75,7 +75,7 @@
     "cobblemon.species.zorotsune.desc"
   ],
   "preEvolution": "zorua form=alteran",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

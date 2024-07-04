@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boileror",
-  "nationalPokedexNumber": 4614,
+  "nationalPokedexNumber": 4613,
   "primaryType": "fire",
   "secondaryType": "ice",
   "abilities": [
@@ -76,7 +76,7 @@
   "pokedex": [
     "cobblemon.species.boileror.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kotukoatl",
-  "nationalPokedexNumber": 5770,
+  "nationalPokedexNumber": 5769,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -111,7 +111,7 @@
     "cobblemon.species.kotukoatl.desc"
   ],
   "preEvolution": "shockatoo",
-  "baseScale": 0.5,
+  "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

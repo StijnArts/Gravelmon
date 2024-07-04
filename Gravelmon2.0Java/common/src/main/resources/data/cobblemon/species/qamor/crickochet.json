@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crickochet",
-  "nationalPokedexNumber": 4085,
+  "nationalPokedexNumber": 4084,
   "primaryType": "bug",
   "abilities": [
     "keeneye",
@@ -73,7 +73,7 @@
     "cobblemon.species.crickochet.desc"
   ],
   "preEvolution": "frijolop",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

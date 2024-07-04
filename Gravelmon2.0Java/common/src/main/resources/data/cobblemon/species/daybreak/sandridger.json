@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandridger",
-  "nationalPokedexNumber": 3962,
+  "nationalPokedexNumber": 3961,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -145,7 +145,7 @@
     "cobblemon.species.sandridger.desc"
   ],
   "preEvolution": "Sandslash",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

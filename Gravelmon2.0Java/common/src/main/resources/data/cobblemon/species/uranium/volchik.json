@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "volchik",
-  "nationalPokedexNumber": 2513,
+  "nationalPokedexNumber": 2512,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -156,7 +156,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

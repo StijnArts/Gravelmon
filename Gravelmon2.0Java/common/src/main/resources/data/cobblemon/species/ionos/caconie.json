@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caconie",
-  "nationalPokedexNumber": 5030,
+  "nationalPokedexNumber": 5029,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.caconie.desc"
   ],
   "preEvolution": "pharumm",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

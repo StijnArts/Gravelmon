@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pompadame",
-  "nationalPokedexNumber": 4335,
+  "nationalPokedexNumber": 4334,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -72,7 +72,7 @@
     "cobblemon.species.pompadame.desc"
   ],
   "preEvolution": "dollipop",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

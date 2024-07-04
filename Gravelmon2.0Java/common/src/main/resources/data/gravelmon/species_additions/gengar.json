@@ -112,7 +112,7 @@
     "cobblemon.species.havaiiangengar.desc"
   ],
   "preEvolution": "haunter form=havaiian",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -456,7 +456,7 @@
     "cobblemon.species.ayreiangengar.desc"
   ],
   "preEvolution": "haunter form=ayreian",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -482,7 +482,8 @@
   "secondaryType": "water",
   "abilities": [
     "levitate",
-    "h:keeneye"
+    "condensation",
+    "h:carboncapture"
   ],
   "baseStats": {
     "hp": 45,
@@ -595,7 +596,7 @@
     "cobblemon.species.kaskadiangengar.desc"
   ],
   "preEvolution": "haunter form=kaskadian",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

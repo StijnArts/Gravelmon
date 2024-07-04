@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "huskerous",
-  "nationalPokedexNumber": 3088,
+  "nationalPokedexNumber": 3087,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.huskerous.desc"
   ],
   "preEvolution": "growel",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

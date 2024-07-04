@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coocluck",
-  "nationalPokedexNumber": 5728,
+  "nationalPokedexNumber": 5727,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.coocluck.desc"
   ],
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yunesis",
-  "nationalPokedexNumber": 4750,
+  "nationalPokedexNumber": 4749,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.yunesis.desc"
   ],
   "preEvolution": "psycolt",
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

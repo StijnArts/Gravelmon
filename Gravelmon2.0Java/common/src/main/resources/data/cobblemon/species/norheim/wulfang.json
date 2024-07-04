@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wulfang",
-  "nationalPokedexNumber": 3296,
+  "nationalPokedexNumber": 3295,
   "primaryType": "ghost",
   "abilities": [
     "pressure",
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.wulfang.desc"
   ],
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

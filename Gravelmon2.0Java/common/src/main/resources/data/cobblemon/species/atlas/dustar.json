@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dustar",
-  "nationalPokedexNumber": 5443,
+  "nationalPokedexNumber": 5442,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -131,7 +131,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mosstrich",
-  "nationalPokedexNumber": 3549,
+  "nationalPokedexNumber": 3548,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -128,7 +128,7 @@
     "cobblemon.species.mosstrich.desc"
   ],
   "preEvolution": "phloxling",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "capiland",
-  "nationalPokedexNumber": 4875,
+  "nationalPokedexNumber": 4874,
   "primaryType": "normal",
   "abilities": [
     "unaware",
@@ -99,7 +99,7 @@
     "cobblemon.species.capiland.desc"
   ],
   "preEvolution": "capyba",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

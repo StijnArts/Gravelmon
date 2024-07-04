@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clawconut",
-  "nationalPokedexNumber": 2983,
+  "nationalPokedexNumber": 2982,
   "primaryType": "rock",
   "secondaryType": "grass",
   "abilities": [
@@ -83,7 +83,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "krailstorm",
-  "nationalPokedexNumber": 5333,
+  "nationalPokedexNumber": 5332,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -123,7 +123,7 @@
   "pokedex": [
     "cobblemon.species.krailstorm.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

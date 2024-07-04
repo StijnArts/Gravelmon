@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "banshed",
-  "nationalPokedexNumber": 4306,
+  "nationalPokedexNumber": 4305,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.banshed.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

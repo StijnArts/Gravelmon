@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoatrex",
-  "nationalPokedexNumber": 4690,
+  "nationalPokedexNumber": 4689,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -66,7 +66,7 @@
   "pokedex": [
     "cobblemon.species.hoatrex.desc"
   ],
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.4666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:sculk"
+    },
+    "T": {
+      "tag": "minecraft:music_discs"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ATA",
+    "AAA"
+  ],
+  "result": {
+    "item": "gravelmon:corrupted_disc"
+  },
+  "show_notification": true
+}

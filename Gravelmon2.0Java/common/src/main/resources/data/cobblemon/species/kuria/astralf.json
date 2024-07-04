@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "astralf",
-  "nationalPokedexNumber": 4240,
+  "nationalPokedexNumber": 4239,
   "primaryType": "cosmic",
   "abilities": [
     "oblivious",
@@ -83,7 +83,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "marsupunch",
-  "nationalPokedexNumber": 3673,
+  "nationalPokedexNumber": 3672,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -151,7 +151,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

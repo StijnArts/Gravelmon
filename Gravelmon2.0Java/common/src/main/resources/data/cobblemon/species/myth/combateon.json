@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "combateon",
-  "nationalPokedexNumber": 4434,
+  "nationalPokedexNumber": 4433,
   "primaryType": "fighting",
   "abilities": [
     "justified",
@@ -98,7 +98,7 @@
   "pokedex": [
     "cobblemon.species.combateon.desc"
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "daikongus",
-  "nationalPokedexNumber": 2569,
+  "nationalPokedexNumber": 2568,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -82,7 +82,7 @@
     "cobblemon.species.daikongus.desc"
   ],
   "preEvolution": "taroot",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

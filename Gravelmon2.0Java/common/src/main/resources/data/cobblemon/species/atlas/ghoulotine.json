@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ghoulotine",
-  "nationalPokedexNumber": 5489,
+  "nationalPokedexNumber": 5488,
   "primaryType": "ghost",
   "abilities": [
     "strongjaw",
@@ -131,7 +131,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

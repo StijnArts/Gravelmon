@@ -133,7 +133,7 @@
     "cobblemon.species.eghomagnezone.desc"
   ],
   "preEvolution": "magneton form=egho",
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

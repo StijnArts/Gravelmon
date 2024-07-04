@@ -140,7 +140,7 @@
     "cobblemon.species.novransudowoodo.desc"
   ],
   "preEvolution": "bonsly form=novran",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -288,7 +288,7 @@
   "pokedex": [
     "cobblemon.species.amazeallsudowoodo.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

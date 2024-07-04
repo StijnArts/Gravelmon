@@ -85,7 +85,7 @@
   "pokedex": [
     "cobblemon.species.dragalisk.desc"
   ],
-  "baseScale": 4.5,
+  "baseScale": 3.0,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

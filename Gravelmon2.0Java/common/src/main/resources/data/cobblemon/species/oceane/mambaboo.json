@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mambaboo",
-  "nationalPokedexNumber": 2265,
+  "nationalPokedexNumber": 2264,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.mambaboo.desc"
   ],
   "preEvolution": "medissin",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tourtell",
-  "nationalPokedexNumber": 3163,
+  "nationalPokedexNumber": 3162,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.tourtell.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

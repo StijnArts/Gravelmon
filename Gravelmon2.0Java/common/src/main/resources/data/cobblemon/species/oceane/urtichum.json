@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "urtichum",
-  "nationalPokedexNumber": 2233,
+  "nationalPokedexNumber": 2232,
   "primaryType": "poison",
   "abilities": [
     "poisonpoint",
@@ -61,7 +61,7 @@
     "cobblemon.species.urtichum.desc"
   ],
   "preEvolution": "urchum",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

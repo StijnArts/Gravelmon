@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cooreds",
-  "nationalPokedexNumber": 3463,
+  "nationalPokedexNumber": 3462,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -76,7 +76,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

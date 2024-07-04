@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "asawaji",
-  "nationalPokedexNumber": 4212,
+  "nationalPokedexNumber": 4211,
   "primaryType": "fairy",
   "abilities": [
     "levitate",
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.asawaji.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

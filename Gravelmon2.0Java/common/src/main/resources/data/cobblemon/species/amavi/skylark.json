@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skylark",
-  "nationalPokedexNumber": 5658,
+  "nationalPokedexNumber": 5657,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.skylark.desc"
   ],
   "preEvolution": "kiwee",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

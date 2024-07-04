@@ -148,7 +148,7 @@
     "cobblemon.species.eghotyphlosion.desc"
   ],
   "preEvolution": "quilava form=egho",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -446,7 +446,7 @@
     "cobblemon.species.deltatyphlosion.desc"
   ],
   "preEvolution": "quilava form=delta",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -658,7 +658,7 @@
     "cobblemon.species.ayreiantyphlosion.desc"
   ],
   "preEvolution": "quilava form=ayreian",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

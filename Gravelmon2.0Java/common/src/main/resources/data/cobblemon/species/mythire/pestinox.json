@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pestinox",
-  "nationalPokedexNumber": 3878,
+  "nationalPokedexNumber": 3877,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
@@ -142,7 +142,7 @@
   "pokedex": [
     "cobblemon.species.pestinox.desc"
   ],
-  "baseScale": 0.65,
+  "baseScale": 0.43333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

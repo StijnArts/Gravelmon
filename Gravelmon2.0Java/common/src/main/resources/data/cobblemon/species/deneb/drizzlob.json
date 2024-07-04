@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drizzlob",
-  "nationalPokedexNumber": 4822,
+  "nationalPokedexNumber": 4821,
   "primaryType": "water",
   "abilities": [
     "drizzle",
@@ -126,7 +126,7 @@
     "cobblemon.species.drizzlob.desc"
   ],
   "preEvolution": "lizzle",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

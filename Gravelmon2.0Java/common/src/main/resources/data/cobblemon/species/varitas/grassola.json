@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grassola",
-  "nationalPokedexNumber": 2351,
+  "nationalPokedexNumber": 2350,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -87,7 +87,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

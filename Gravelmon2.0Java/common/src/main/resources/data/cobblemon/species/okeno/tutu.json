@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tutu",
-  "nationalPokedexNumber": 4676,
+  "nationalPokedexNumber": 4675,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -76,7 +76,7 @@
   "pokedex": [
     "cobblemon.species.tutu.desc"
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bearver",
-  "nationalPokedexNumber": 2650,
+  "nationalPokedexNumber": 2649,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.bearver.desc"
   ],
   "preEvolution": "buover",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

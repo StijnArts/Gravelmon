@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "percusshell",
-  "nationalPokedexNumber": 5294,
+  "nationalPokedexNumber": 5293,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
@@ -144,7 +144,7 @@
     "cobblemon.species.percusshell.desc"
   ],
   "preEvolution": "spiroll",
-  "baseScale": 0.375,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

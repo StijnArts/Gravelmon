@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yetitan",
-  "nationalPokedexNumber": 2824,
+  "nationalPokedexNumber": 2823,
   "primaryType": "grass",
   "secondaryType": "ice",
   "abilities": [
@@ -100,7 +100,7 @@
     "cobblemon.species.yetitan.desc"
   ],
   "preEvolution": "yeteen",
-  "baseScale": 0.525,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

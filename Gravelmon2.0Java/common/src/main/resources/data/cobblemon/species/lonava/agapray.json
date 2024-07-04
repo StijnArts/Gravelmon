@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "agapray",
-  "nationalPokedexNumber": 3396,
+  "nationalPokedexNumber": 3395,
   "primaryType": "fairy",
   "abilities": [
     "healer",
@@ -94,7 +94,7 @@
     "cobblemon.species.agapray.desc"
   ],
   "preEvolution": "charitot",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

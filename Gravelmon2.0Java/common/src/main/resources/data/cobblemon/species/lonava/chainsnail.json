@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chainsnail",
-  "nationalPokedexNumber": 3361,
+  "nationalPokedexNumber": 3360,
   "primaryType": "steel",
   "abilities": [
     "keeneye",
@@ -69,7 +69,7 @@
     "cobblemon.species.chainsnail.desc"
   ],
   "preEvolution": "stug",
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

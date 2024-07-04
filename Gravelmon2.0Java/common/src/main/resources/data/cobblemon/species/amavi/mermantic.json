@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mermantic",
-  "nationalPokedexNumber": 5693,
+  "nationalPokedexNumber": 5692,
   "primaryType": "poison",
   "secondaryType": "rock",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.mermantic.desc"
   ],
   "preEvolution": "urchanted",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

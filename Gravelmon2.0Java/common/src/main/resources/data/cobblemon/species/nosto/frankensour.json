@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frankensour",
-  "nationalPokedexNumber": 3613,
+  "nationalPokedexNumber": 3612,
   "primaryType": "electric",
   "secondaryType": "grass",
   "abilities": [
@@ -116,7 +116,7 @@
     "cobblemon.species.frankensour.desc"
   ],
   "preEvolution": "cursour",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

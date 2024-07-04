@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "odorog",
-  "nationalPokedexNumber": 2844,
+  "nationalPokedexNumber": 2843,
   "primaryType": "normal",
   "abilities": [
     "forewarn",
@@ -111,7 +111,7 @@
     "cobblemon.species.odorog.desc"
   ],
   "preEvolution": "aromutt",
-  "baseScale": 0.3,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

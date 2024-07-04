@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grubait",
-  "nationalPokedexNumber": 4628,
+  "nationalPokedexNumber": 4627,
   "primaryType": "bug",
   "abilities": [
     "gluttony",
@@ -77,7 +77,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

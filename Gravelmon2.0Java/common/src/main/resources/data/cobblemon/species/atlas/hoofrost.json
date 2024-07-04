@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoofrost",
-  "nationalPokedexNumber": 5536,
+  "nationalPokedexNumber": 5535,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
@@ -94,7 +94,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

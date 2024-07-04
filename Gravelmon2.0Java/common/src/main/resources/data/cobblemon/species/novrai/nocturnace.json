@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nocturnace",
-  "nationalPokedexNumber": 5054,
+  "nationalPokedexNumber": 5053,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -149,7 +149,7 @@
     "cobblemon.species.nocturnace.desc"
   ],
   "preEvolution": "incubat",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

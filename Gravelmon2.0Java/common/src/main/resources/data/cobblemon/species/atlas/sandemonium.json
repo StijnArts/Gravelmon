@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandemonium",
-  "nationalPokedexNumber": 5511,
+  "nationalPokedexNumber": 5510,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.sandemonium.desc"
   ],
   "preEvolution": "sandevil",
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.4666666666666666,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

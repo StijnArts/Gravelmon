@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cherrish",
-  "nationalPokedexNumber": 3577,
+  "nationalPokedexNumber": 3576,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -106,7 +106,7 @@
     "cobblemon.species.cherrish.desc"
   ],
   "preEvolution": "cherm",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

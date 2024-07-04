@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oragnutan",
-  "nationalPokedexNumber": 4354,
+  "nationalPokedexNumber": 4353,
   "primaryType": "fighting",
   "secondaryType": "bug",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.oragnutan.desc"
   ],
   "preEvolution": "opilape",
-  "baseScale": 0.425,
+  "baseScale": 0.2833333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

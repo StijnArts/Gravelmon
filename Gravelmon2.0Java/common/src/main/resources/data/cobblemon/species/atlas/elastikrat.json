@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elastikrat",
-  "nationalPokedexNumber": 5386,
+  "nationalPokedexNumber": 5385,
   "primaryType": "normal",
   "abilities": [
     "hustle",
@@ -128,7 +128,7 @@
     "cobblemon.species.elastikrat.desc"
   ],
   "preEvolution": "skweakrat",
-  "baseScale": 0.325,
+  "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

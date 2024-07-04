@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandshar",
-  "nationalPokedexNumber": 5483,
+  "nationalPokedexNumber": 5482,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -85,7 +85,7 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

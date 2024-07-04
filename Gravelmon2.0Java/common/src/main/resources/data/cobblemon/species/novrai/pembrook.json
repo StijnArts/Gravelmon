@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pembrook",
-  "nationalPokedexNumber": 5134,
+  "nationalPokedexNumber": 5133,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -135,7 +135,7 @@
     "cobblemon.species.pembrook.desc"
   ],
   "preEvolution": "puppond",
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
