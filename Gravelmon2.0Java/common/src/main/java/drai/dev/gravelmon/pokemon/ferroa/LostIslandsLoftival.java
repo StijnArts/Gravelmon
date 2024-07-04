@@ -30,7 +30,7 @@ public class LostIslandsLoftival extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STOKE,1),
                         new MoveLearnSetEntry(Move.WORK_UP,1),
                         new MoveLearnSetEntry(Move.ROUND,1),
-                        new MoveLearnSetEntry(Move.FIRE_CRACKER,1),
+                        new MoveLearnSetEntry(Move.FIRECRACKER,1),
                         new MoveLearnSetEntry(Move.FLAME_BURST,1),
                         new MoveLearnSetEntry(Move.FESTIVE_SHOT,1),
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),

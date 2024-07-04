@@ -20,13 +20,11 @@ public class GravelmonBlocks {
     public static RegistrySupplier<Block> DEEPSLATE_MYSTIC_STONE_ORE = deepslateEvolutionStoneOre("deepslate_mystic_stone_ore");
     public static RegistrySupplier<Block> SOLID_STONE_ORE = evolutionStoneOre("solid_stone_ore");
     public static RegistrySupplier<Block> DEEPSLATE_SOLID_STONE_ORE = deepslateEvolutionStoneOre("deepslate_solid_stone_ore");
-    public static RegistrySupplier<GravelmonApricornBlock> PURPLE_APRICORN = apricornBlock("purple_apricorn", GravelmonApricorns.PURPLE);
 
+    public static RegistrySupplier<GravelmonApricornBlock> PURPLE_APRICORN = apricornBlock("purple_apricorn", GravelmonApricorns.PURPLE);
     public static RegistrySupplier<GravelmonApricornBlock> ORANGE_APRICORN = apricornBlock("orange_apricorn", GravelmonApricorns.ORANGE);
 
-
     public static RegistrySupplier<GravelmonApricornSaplingBlock> PURPLE_APRICORN_SAPLING = apricornSapling("purple_apricorn_sapling", GravelmonApricorns.PURPLE);
-
     public static RegistrySupplier<GravelmonApricornSaplingBlock> ORANGE_APRICORN_SAPLING = apricornSapling("orange_apricorn_sapling", GravelmonApricorns.ORANGE);
 
     public static  RegistrySupplier<GravelmonApricornBlock> apricornBlock(String name, GravelmonApricorns apricorn){

@@ -23,8 +23,7 @@ public class Fleezer extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Fleezer slam their heads against ice to break it up, their silky coat absorbing the impact. The value of Fleezer fur was once so highly prized that they adapted to life in the icy seas to escape predation."),
-                List.of(new EvolutionEntry("afleezer", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(),List.of(),"gravelmon:abyssal_stone")),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
                         new MoveLearnSetEntry(Move.SLACK_OFF,1),

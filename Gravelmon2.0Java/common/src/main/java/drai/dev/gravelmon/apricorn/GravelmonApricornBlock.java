@@ -78,7 +78,7 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         for (Direction direction: context.getNearestLookingDirections()) {
             if (direction.getAxis().isHorizontal()) {
                 blockState = blockState.setValue(FACING, direction);
-                if (this.canSurvive(blockState, worldView, blockPos)) {
+                if (blockState.canSurvive(worldView, blockPos)) {
                     return blockState;
                 }
             }

@@ -27,7 +27,7 @@ public class Cararalm extends Pokemon {
                 100, List.of(EggGroup.WATER_3, EggGroup.GRASS),
                 List.of("Unlike their preevolutions, Cararalm cannot swim, so they stay on land. The height of their palm tree indicates how close they are to evolving."),
                 List.of(new EvolutionEntry("cocancer", EvolutionType.ITEM_INTERACT, false,
-                        List.of(),List.of(),List.of(),"gravelmon_coconut_milk")),
+                        List.of(),List.of(),List.of(),"gravelmon:coconut_milk")),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.WITHDRAW,1),

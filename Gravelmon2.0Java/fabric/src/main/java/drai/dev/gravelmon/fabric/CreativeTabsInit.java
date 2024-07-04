@@ -89,6 +89,17 @@ public class CreativeTabsInit {
 
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getHELD_ITEMS_KEY()).register(entries -> {
             entries.accept(GravelmonItems.LONG_CLUB.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.X_RAY_SPECS.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.FOUL_ROCK.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.RAGGED_PEBBLE.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.POLISHED_SPHERE.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.CORRUPTED_SEED.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.FLAME_ORB.asItem().getDefaultInstance(),
+                    GravelmonItems.BOLT_ORB.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.EVIOLITE.asItem().getDefaultInstance(),
+                    GravelmonItems.IVEOLITE.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.HEAT_ROCK.asItem().getDefaultInstance(),
+                    GravelmonItems.DARK_ROCK.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.TERRESTRIAL_RING.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.XENOVERSAL_RING.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.INDUCTIVE_RING.get().asItem().getDefaultInstance());

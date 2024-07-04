@@ -28,7 +28,6 @@ public class Oceane extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Groundhound(new Stats(432, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
         pokemon.add(new Sweal());
         pokemon.add(new Fleezer());
-        pokemon.add(new AFleezer());
         pokemon.add(new Swirlsea());
         pokemon.add(new Spirashell());
         pokemon.add(new Sealestial());

@@ -179,7 +179,7 @@ public class Pokemon {
         this.spawnConditions = spawnConditions;
         this.spawnAntiConditions = spawnAntiConditions;
         this.spawnPresets = spawnPresets;
-        this.baseScale = Math.max((height * 1.5) / 10 / 6, 0.1);
+        this.baseScale = Math.max((double) height / 10 / 6, 0.1);
         this.hitboxWidth = 6;
         this.hitboxHeight = 6;
         this.portraitScale = 0.3;
@@ -305,10 +305,24 @@ public class Pokemon {
         for (int i = zeroStatPokemon.size() - 1; i > -1; i--) {
             var pokemon = zeroStatPokemon.get(i);
             if (!pokemon.evolutions.isEmpty()) {
-                var pokemonToCopy = pokemon.evolutions.stream().map(evolutionEntry -> evolutionEntry.getResult().toLowerCase()).filter(result -> POKEMON_REGISTRY.containsKey(result)).map(result -> POKEMON_REGISTRY.get(result)).min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
+                var pokemonToCopy = pokemon.evolutions.stream().map(evolutionEntry -> evolutionEntry.getResult().toLowerCase())
+                        .filter(result -> POKEMON_REGISTRY.containsKey(result))
+                        .map(result -> POKEMON_REGISTRY.get(result))
+                        .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
                 if (pokemonToCopy.isPresent()) {
                     var evolutionStats = pokemonToCopy.get().stats;
                     pokemon.stats = new Stats(evolutionStats, 0.7);
+                }
+            }
+        }
+        for (var pokemon : sortedPokemonList) {
+            for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
+                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                if (result != null) {
+                    if (isAnAdditionalForm(result)) {
+                        var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
+                        resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().getName().toLowerCase()));
+                    }
                 }
             }
         }

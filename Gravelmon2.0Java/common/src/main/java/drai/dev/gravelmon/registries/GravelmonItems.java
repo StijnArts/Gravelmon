@@ -2,6 +2,8 @@ package drai.dev.gravelmon.registries;
 
 import com.cobblemon.mod.common.item.*;
 import com.cobblemon.mod.common.pokeball.*;
+import com.cobblemon.mod.common.pokemon.helditem.*;
+import com.llamalad7.mixinextras.lib.apache.commons.*;
 import dev.architectury.registry.registries.*;
 import drai.dev.gravelmon.apricorn.*;
 import net.minecraft.core.registries.*;
@@ -15,6 +17,7 @@ import static drai.dev.gravelmon.Gravelmon.MOD_ID;
 public class GravelmonItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
     public static final ArrayList<RegistrySupplier<PokeBallItem>> POKE_BALLS = new ArrayList<>();
+    private static final List<Runnable> LATE_HELD_ITEM_REGISTRATIONS = new ArrayList<>();
 
     //Evolution Items
     public static RegistrySupplier<Item> VARIA_STONE = item("varia_stone");
@@ -42,16 +45,49 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> DREAD_PENDANT = item("dread_pendant");
     public static RegistrySupplier<Item> SPARE_PARTS = item("spare_parts");
     public static RegistrySupplier<Item> MAGIC_COOKIE = item("magic_cookie");
+    public static RegistrySupplier<Item> TERRESTRIAL_RING = item("terrestrial_ring");
+    public static RegistrySupplier<Item> XENOVERSAL_RING = item("xenoversal_ring");
+    public static RegistrySupplier<Item> INDUCTIVE_RING = item("inductive_ring");
+
+    //todo integrate new items
+    public static RegistrySupplier<Item> GOLDEN_FEATHER = item("golden_feather");
+    public static RegistrySupplier<Item> PIXIE_DUST = item("pixie_dust");
+    public static RegistrySupplier<Item> OCARINA = item("ocarina");
+    public static RegistrySupplier<Item> ROYAL_JELLY = item("royal_jelly");
+    public static RegistrySupplier<Item> COCONUT_MILK = item("coconut_milk");
+    public static RegistrySupplier<Item> CARROT_WINE = item("carrot_wine");
+    public static RegistrySupplier<Item> URANIUM_CORE = item("uranium_core");
+    public static RegistrySupplier<Item> PREADITE = item("preadite");
+    public static RegistrySupplier<Item> EMPTY_SKULL = item("empty_skull");
+    public static RegistrySupplier<Item> KEYBONE = item("keybone");
+    public static RegistrySupplier<Item> BACCHUS_LAUREL = item("bacchus_laurel");
+    public static RegistrySupplier<Item> FOREIGN_HAT = item("foreign_hat");
+    public static RegistrySupplier<Item> PRIM_SHEARS = item("prim_sheers");
+    public static RegistrySupplier<Item> HAIR_TONIC = item("hair_tonic");
+    public static RegistrySupplier<Item> GROWTH_MULCH = item("growth_mulch");
+//    public static RegistrySupplier<Item> ABYSSAL_STONE = item("abyssal_stone");
+
 
     //Held Items
+    //Sage
     public static RegistrySupplier<Item> LONG_CLUB = heldItem("long_club");
-    public static RegistrySupplier<Item> TERRESTRIAL_RING = heldItem("terrestrial_ring");
-    public static RegistrySupplier<Item> XENOVERSAL_RING = heldItem("xenoversal_ring");
+    public static RegistrySupplier<Item> X_RAY_SPECS = heldItem("x_ray_specs");
+    public static RegistrySupplier<Item> FOUL_ROCK = heldItem("foul_rock");
+    public static RegistrySupplier<Item> RAGGED_PEBBLE = heldItem("ragged_pebble");
+    public static RegistrySupplier<Item> POLISHED_SPHERE = heldItem("polished_sphere");
+    public static RegistrySupplier<Item> CORRUPTED_SEED = heldItem("corrupted_seed");
+    public static RegistrySupplier<Item> BOLT_ORB = heldItem("bolt_orb");
+    public static RegistrySupplier<Item> IVEOLITE = heldItem("iveolite");
+    public static RegistrySupplier<Item> ICE_SHARD = heldItem("ice_shard");
+    //Xenoverse
+    public static RegistrySupplier<Item> HAFLI_BERRY = heldItem("hafli_berry");
+    public static RegistrySupplier<Item> MOSS_SHARD = heldItem("moss_shard");
+    public static RegistrySupplier<Item> PRETTY_RIBBON = heldItem("pretty_ribbon");
+    //insurgence
+    public static RegistrySupplier<Item> DARK_ROCK = heldItem("dark_rock");
 
-    public static RegistrySupplier<Item> INDUCTIVE_RING = heldItem("inductive_ring");
-    //Other Items
+    //Fossil Items
     public static RegistrySupplier<Item> TUSK_FOSSIL = item("tusk_fossil");
-    
     public static RegistrySupplier<Item> HORN_FOSSIL = item("horn_fossil");
 
     //Block Items
@@ -149,11 +185,16 @@ public class GravelmonItems {
     }
 
     private static RegistrySupplier<Item> heldItem(String name) {
-        //CobblemonHeldItemManager.INSTANCE.registerRemap(heldItem.get(),name);
-        return ITEMS.register(name, ()-> new Item(new Item.Properties()));
+        var item = ITEMS.register(name, ()-> new Item(new Item.Properties()));
+        LATE_HELD_ITEM_REGISTRATIONS.add(()->CobblemonHeldItemManager.INSTANCE.registerRemap(item.get(), name.replaceAll("_","")));
+        return item;
     }
 
     public static void touch(){
 
+    }
+
+    public static void lateInit() {
+        LATE_HELD_ITEM_REGISTRATIONS.forEach(Runnable::run);
     }
 }

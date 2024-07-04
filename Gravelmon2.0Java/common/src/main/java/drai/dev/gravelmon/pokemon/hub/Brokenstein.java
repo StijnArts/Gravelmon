@@ -24,7 +24,7 @@ public class Brokenstein extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("A failed experiment that was discarded by its creator. Its body appears to have been stitched together from various parts."),
                 List.of(new EvolutionEntry("monstricity", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(),List.of(),"gravelmon:charged_conduit")),
+                        List.of(),List.of(),"minecraft:conduit")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.ASTONISH,3),
