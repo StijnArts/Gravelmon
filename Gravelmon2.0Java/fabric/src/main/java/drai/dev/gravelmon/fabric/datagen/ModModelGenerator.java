@@ -58,6 +58,35 @@ public class ModModelGenerator extends FabricModelProvider {
         simpleItem(GravelmonItems.INDUCTIVE_RING,itemModelGenerator);
         simpleItem(GravelmonItems.TUSK_FOSSIL,itemModelGenerator);
         simpleItem(GravelmonItems.HORN_FOSSIL,itemModelGenerator);
+        simpleItem(GravelmonItems.X_RAY_SPECS,itemModelGenerator);
+        simpleItem(GravelmonItems.FOUL_ROCK,itemModelGenerator);
+        simpleItem(GravelmonItems.RAGGED_PEBBLE,itemModelGenerator);
+        simpleItem(GravelmonItems.POLISHED_SPHERE,itemModelGenerator);
+        simpleItem(GravelmonItems.CORRUPTED_SEED,itemModelGenerator);
+        simpleItem(GravelmonItems.BOLT_ORB,itemModelGenerator);
+        simpleItem(GravelmonItems.IVEOLITE,itemModelGenerator);
+        simpleItem(GravelmonItems.ICE_SHARD,itemModelGenerator);
+                //Xenoverse
+        simpleItem(GravelmonItems.HAFLI_BERRY,itemModelGenerator);
+        simpleItem(GravelmonItems.MOSS_SHARD,itemModelGenerator);
+        simpleItem(GravelmonItems.PRETTY_RIBBON,itemModelGenerator);
+                //insurgence
+        simpleItem(GravelmonItems.DARK_ROCK,itemModelGenerator);
+        simpleItem(GravelmonItems.GOLDEN_FEATHER,itemModelGenerator);
+        simpleItem(GravelmonItems.PIXIE_DUST,itemModelGenerator);
+        simpleItem(GravelmonItems.OCARINA,itemModelGenerator);
+        simpleItem(GravelmonItems.ROYAL_JELLY,itemModelGenerator);
+        simpleItem(GravelmonItems.COCONUT_MILK,itemModelGenerator);
+        simpleItem(GravelmonItems.CARROT_WINE,itemModelGenerator);
+        simpleItem(GravelmonItems.URANIUM_CORE,itemModelGenerator);
+        simpleItem(GravelmonItems.PREADITE,itemModelGenerator);
+        simpleItem(GravelmonItems.EMPTY_SKULL,itemModelGenerator);
+        simpleItem(GravelmonItems.KEYBONE,itemModelGenerator);
+        simpleItem(GravelmonItems.BACCHUS_LAUREL,itemModelGenerator);
+        simpleItem(GravelmonItems.FOREIGN_HAT,itemModelGenerator);
+        simpleItem(GravelmonItems.PRIM_SHEARS,itemModelGenerator);
+        simpleItem(GravelmonItems.HAIR_TONIC,itemModelGenerator);
+        simpleItem(GravelmonItems.GROWTH_MULCH,itemModelGenerator);
     }
 
     public void simpleItem(RegistrySupplier<Item> item, ItemModelGenerators itemModelGenerator){

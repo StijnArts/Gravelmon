@@ -24,13 +24,6 @@ sourceSets {
 }
 
 loom {
-    runs {
-        data {
-            data()
-            programArgs "--all", "--mod", "gravelmon"
-            programArgs "--output", generatedResources.absolutePath
-        }
-    }
     forge {
         mixinConfig "gravelmon.mixins.json"
     }

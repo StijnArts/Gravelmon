@@ -63,6 +63,25 @@ public class CreativeTabsInit {
             entries.accept(GravelmonItems.DREAD_PENDANT.get().getDefaultInstance());
             entries.accept(GravelmonItems.SPARE_PARTS.get().getDefaultInstance());
             entries.accept(GravelmonItems.MAGIC_COOKIE.get().getDefaultInstance());
+            entries.accept(GravelmonItems.TERRESTRIAL_RING.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.XENOVERSAL_RING.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.INDUCTIVE_RING.get().asItem().getDefaultInstance());
+
+            entries.accept(GravelmonItems.GOLDEN_FEATHER.get().getDefaultInstance());
+            entries.accept(GravelmonItems.PIXIE_DUST.get().getDefaultInstance());
+            entries.accept(GravelmonItems.OCARINA.get().getDefaultInstance());
+            entries.accept(GravelmonItems.ROYAL_JELLY.get().getDefaultInstance());
+            entries.accept(GravelmonItems.COCONUT_MILK.get().getDefaultInstance());
+            entries.accept(GravelmonItems.CARROT_WINE.get().getDefaultInstance());
+            entries.accept(GravelmonItems.URANIUM_CORE.get().getDefaultInstance());
+            entries.accept(GravelmonItems.PREADITE.get().getDefaultInstance());
+            entries.accept(GravelmonItems.EMPTY_SKULL.get().getDefaultInstance());
+            entries.accept(GravelmonItems.KEYBONE.get().getDefaultInstance());
+            entries.accept(GravelmonItems.BACCHUS_LAUREL.get().getDefaultInstance());
+            entries.accept(GravelmonItems.FOREIGN_HAT.get().getDefaultInstance());
+            entries.accept(GravelmonItems.PRIM_SHEARS.get().getDefaultInstance());
+            entries.accept(GravelmonItems.HAIR_TONIC.get().getDefaultInstance());
+            entries.accept(GravelmonItems.GROWTH_MULCH.get().getDefaultInstance());
         });
 
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getBLOCKS_KEY()).register(entries -> {
@@ -100,9 +119,6 @@ public class CreativeTabsInit {
                     GravelmonItems.IVEOLITE.get().asItem().getDefaultInstance());
             entries.addBefore(CobblemonItems.HEAT_ROCK.asItem().getDefaultInstance(),
                     GravelmonItems.DARK_ROCK.get().asItem().getDefaultInstance());
-            entries.accept(GravelmonItems.TERRESTRIAL_RING.get().asItem().getDefaultInstance());
-            entries.accept(GravelmonItems.XENOVERSAL_RING.get().asItem().getDefaultInstance());
-            entries.accept(GravelmonItems.INDUCTIVE_RING.get().asItem().getDefaultInstance());
         });
 
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getAGRICULTURE_KEY()).register(entries -> {

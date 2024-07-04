@@ -92,6 +92,12 @@ public class CreativeTabInit {
             event.getEntries().putBefore(CobblemonItems.PRISM_SCALE.getDefaultInstance(),
                     GravelmonItems.MURKY_CLAW.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.TERRESTRIAL_RING.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.XENOVERSAL_RING.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.INDUCTIVE_RING.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
             event.getEntries().put(GravelmonItems.CORRUPTED_DISC.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -102,6 +108,36 @@ public class CreativeTabInit {
             event.getEntries().put(GravelmonItems.SPARE_PARTS.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().put(GravelmonItems.MAGIC_COOKIE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.GOLDEN_FEATHER.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.PIXIE_DUST.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.OCARINA.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.ROYAL_JELLY.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.COCONUT_MILK.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.CARROT_WINE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.URANIUM_CORE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.PREADITE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.EMPTY_SKULL.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.KEYBONE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.BACCHUS_LAUREL.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.FOREIGN_HAT.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.PRIM_SHEARS.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.HAIR_TONIC.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.GROWTH_MULCH.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
@@ -139,11 +175,24 @@ public class CreativeTabInit {
         if(event.getTab() == CobblemonItemGroups.getHELD_ITEMS()) {
             event.getEntries().put(GravelmonItems.LONG_CLUB.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.getEntries().put(GravelmonItems.TERRESTRIAL_RING.get().asItem().getDefaultInstance(),
+            event.getEntries().put(GravelmonItems.X_RAY_SPECS.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.getEntries().put(GravelmonItems.XENOVERSAL_RING.get().asItem().getDefaultInstance(),
+            event.getEntries().put(GravelmonItems.FOUL_ROCK.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.getEntries().put(GravelmonItems.INDUCTIVE_RING.get().asItem().getDefaultInstance(),
+            event.getEntries().put(GravelmonItems.RAGGED_PEBBLE.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.POLISHED_SPHERE.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.CORRUPTED_SEED.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.FLAME_ORB.asItem().getDefaultInstance(),
+                    GravelmonItems.BOLT_ORB.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.EVIOLITE.asItem().getDefaultInstance(),
+                    GravelmonItems.IVEOLITE.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putBefore(CobblemonItems.HEAT_ROCK.asItem().getDefaultInstance(),
+                    GravelmonItems.DARK_ROCK.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
