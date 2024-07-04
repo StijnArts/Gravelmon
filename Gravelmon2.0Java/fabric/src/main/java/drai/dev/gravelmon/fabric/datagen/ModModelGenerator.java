@@ -81,8 +81,6 @@ public class ModModelGenerator extends FabricModelProvider {
         simpleItem(GravelmonItems.URANIUM_CORE,itemModelGenerator);
         simpleItem(GravelmonItems.PREADITE,itemModelGenerator);
         simpleItem(GravelmonItems.EMPTY_SKULL,itemModelGenerator);
-        simpleItem(GravelmonItems.KEYBONE,itemModelGenerator);
-        simpleItem(GravelmonItems.BACCHUS_LAUREL,itemModelGenerator);
         simpleItem(GravelmonItems.FOREIGN_HAT,itemModelGenerator);
         simpleItem(GravelmonItems.PRIM_SHEARS,itemModelGenerator);
         simpleItem(GravelmonItems.HAIR_TONIC,itemModelGenerator);

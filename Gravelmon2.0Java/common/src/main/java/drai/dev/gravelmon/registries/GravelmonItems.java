@@ -59,10 +59,8 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> URANIUM_CORE = item("uranium_core");
     public static RegistrySupplier<Item> PREADITE = item("preadite");
     public static RegistrySupplier<Item> EMPTY_SKULL = item("empty_skull");
-    public static RegistrySupplier<Item> KEYBONE = item("keybone");
-    public static RegistrySupplier<Item> BACCHUS_LAUREL = item("bacchus_laurel");
     public static RegistrySupplier<Item> FOREIGN_HAT = item("foreign_hat");
-    public static RegistrySupplier<Item> PRIM_SHEARS = item("prim_sheers");
+    public static RegistrySupplier<Item> PRIM_SHEARS = item("prim_shears");
     public static RegistrySupplier<Item> HAIR_TONIC = item("hair_tonic");
     public static RegistrySupplier<Item> GROWTH_MULCH = item("growth_mulch");
 //    public static RegistrySupplier<Item> ABYSSAL_STONE = item("abyssal_stone");
@@ -78,8 +76,8 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> CORRUPTED_SEED = heldItem("corrupted_seed");
     public static RegistrySupplier<Item> BOLT_ORB = heldItem("bolt_orb");
     public static RegistrySupplier<Item> IVEOLITE = heldItem("iveolite");
-    public static RegistrySupplier<Item> ICE_SHARD = heldItem("ice_shard");
     //Xenoverse
+    public static RegistrySupplier<Item> ICE_SHARD = heldItem("ice_shard");
     public static RegistrySupplier<Item> HAFLI_BERRY = heldItem("hafli_berry");
     public static RegistrySupplier<Item> MOSS_SHARD = heldItem("moss_shard");
     public static RegistrySupplier<Item> PRETTY_RIBBON = heldItem("pretty_ribbon");

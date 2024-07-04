@@ -59,8 +59,6 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
                         GravelmonItems.URANIUM_CORE.get(),
                         GravelmonItems.PREADITE.get(),
                         GravelmonItems.EMPTY_SKULL.get(),
-                        GravelmonItems.KEYBONE.get(),
-                        GravelmonItems.BACCHUS_LAUREL.get(),
                         GravelmonItems.FOREIGN_HAT.get(),
                         GravelmonItems.PRIM_SHEARS.get(),
                         GravelmonItems.HAIR_TONIC.get(),

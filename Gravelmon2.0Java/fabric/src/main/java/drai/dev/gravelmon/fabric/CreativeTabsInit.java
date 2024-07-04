@@ -76,8 +76,6 @@ public class CreativeTabsInit {
             entries.accept(GravelmonItems.URANIUM_CORE.get().getDefaultInstance());
             entries.accept(GravelmonItems.PREADITE.get().getDefaultInstance());
             entries.accept(GravelmonItems.EMPTY_SKULL.get().getDefaultInstance());
-            entries.accept(GravelmonItems.KEYBONE.get().getDefaultInstance());
-            entries.accept(GravelmonItems.BACCHUS_LAUREL.get().getDefaultInstance());
             entries.accept(GravelmonItems.FOREIGN_HAT.get().getDefaultInstance());
             entries.accept(GravelmonItems.PRIM_SHEARS.get().getDefaultInstance());
             entries.accept(GravelmonItems.HAIR_TONIC.get().getDefaultInstance());

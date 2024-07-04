@@ -127,10 +127,6 @@ public class CreativeTabInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().put(GravelmonItems.EMPTY_SKULL.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.getEntries().put(GravelmonItems.KEYBONE.get().getDefaultInstance(),
-                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.getEntries().put(GravelmonItems.BACCHUS_LAUREL.get().getDefaultInstance(),
-                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().put(GravelmonItems.FOREIGN_HAT.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().put(GravelmonItems.PRIM_SHEARS.get().getDefaultInstance(),

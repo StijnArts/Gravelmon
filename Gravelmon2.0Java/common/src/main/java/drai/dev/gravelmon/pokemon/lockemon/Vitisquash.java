@@ -27,7 +27,7 @@ public class Vitisquash extends Pokemon {
                 50, List.of(EggGroup.HUMAN_LIKE, EggGroup.FIELD),
                 List.of("Vitisquash use their large feet to squish grapes it grows with fellow farmers. No one knows where they came from, just that they are gentle souls."),
                 List.of(new EvolutionEntry("dionysseur", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(),List.of(),"gravelmon:bacchus_laurel")),
+                        List.of(),List.of(),"cobblemon:galarica_wreath")),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

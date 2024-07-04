@@ -27,7 +27,7 @@ public class Catteraxe extends Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Catteraxe swing their axe like tail to clear anything in it's path. They are wild and uncontrollable pokemon, although many older women have a fondness for it."),
                 List.of(new EvolutionEntry("catatomb", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(),List.of(),"gravelmon:keybone")),
+                        List.of(),List.of(),"minecraft:bone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FAKE_OUT,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
