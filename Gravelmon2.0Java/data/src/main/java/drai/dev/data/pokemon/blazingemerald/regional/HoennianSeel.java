@@ -3,7 +3,7 @@ package drai.dev.data.pokemon.blazingemerald.regional;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
-import drai.dev.gravelmon.util.*;
+import drai.dev.data.util.*;
 
 import java.util.*;
 

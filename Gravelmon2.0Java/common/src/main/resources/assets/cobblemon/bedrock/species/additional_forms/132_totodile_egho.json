@@ -6,9 +6,9 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation2_eghototodile.geo",
       "poser": "cobblemon:generation2_eghototodile",
-      "texture": "cobblemon:textures/pokemon/generation2/eghototodile.png",
+      "texture": "cobblemon:textures/pokemon/generation2/eghototodile/eghototodile.png",
       "layers": [
         {
           "name": "glow"
@@ -35,9 +35,9 @@
         "egho",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation2_eghototodile.geo",
       "poser": "cobblemon:generation2_eghototodile",
-      "texture": "cobblemon:textures/pokemon/generation2/eghototodile_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/eghototodile/eghototodile_shiny.png",
       "layers": [
         {
           "name": "glow"

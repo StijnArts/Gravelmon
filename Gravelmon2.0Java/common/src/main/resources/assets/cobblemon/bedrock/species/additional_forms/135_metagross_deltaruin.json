@@ -6,9 +6,9 @@
       "aspects": [
         "delta_ruin"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation3_deltaruinmetagross.geo",
       "poser": "cobblemon:generation3_deltaruinmetagross",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross.png",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross/deltaruinmetagross.png",
       "layers": [
         {
           "name": "glow"
@@ -35,9 +35,9 @@
         "delta_ruin",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation3_deltaruinmetagross.geo",
       "poser": "cobblemon:generation3_deltaruinmetagross",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross/deltaruinmetagross_shiny.png",
       "layers": [
         {
           "name": "glow"

@@ -122,7 +122,7 @@ public class GravelmonFossilItems {
                     BaseCobblemonDigSites.UNDERWATER_FISSURE.uncommon(),
                     BaseCobblemonDigSites.SUBMERGED_SPIKE.uncommon()
             ),
-            "mountain_fossil",
+            "maw_fossil",
             "dinkywink");
 
     //Pokemon Uranium
@@ -207,7 +207,7 @@ public class GravelmonFossilItems {
                     BaseCobblemonDigSites.FROZEN_SPIKE.uncommon(),
                     BaseCobblemonDigSites.ROOTED_PIT.uncommon()
             ),
-            "mountian_fossil",
+            "mountain_fossil",
             "mampth");
     public static RegistrySupplier<Item> SLOW_FOSSIL = fossilItem(
             List.of(

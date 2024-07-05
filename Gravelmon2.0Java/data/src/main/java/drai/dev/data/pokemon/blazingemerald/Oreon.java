@@ -3,7 +3,7 @@ package drai.dev.data.pokemon.blazingemerald;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
-import drai.dev.gravelmon.util.*;
+import drai.dev.data.util.*;
 
 import java.util.*;
 
@@ -62,5 +62,8 @@ public class Oreon extends Pokemon {
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("oreon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"minecraft:cookie"));
+        setModeled(true);
+        setBaseScale(0.7);
+        setHitbox(1,1);
     }
 }

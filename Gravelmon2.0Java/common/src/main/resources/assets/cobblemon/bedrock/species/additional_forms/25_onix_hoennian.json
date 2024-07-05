@@ -6,9 +6,9 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_hoennianonix.geo",
       "poser": "cobblemon:generation1_hoennianonix",
-      "texture": "cobblemon:textures/pokemon/generation1/hoennianonix.png",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianonix/hoennianonix.png",
       "layers": [
         {
           "name": "glow"
@@ -35,9 +35,9 @@
         "hoennian",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_hoennianonix.geo",
       "poser": "cobblemon:generation1_hoennianonix",
-      "texture": "cobblemon:textures/pokemon/generation1/hoennianonix_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianonix/hoennianonix_shiny.png",
       "layers": [
         {
           "name": "glow"

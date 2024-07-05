@@ -289,10 +289,10 @@
     "rockhead",
     "h:rockhead"
       ],
-      "baseScale": 0.3,
+      "baseScale": 1.0,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 1.0,
+          "height": 1.0,
           "fixed": false
       },
       "baseStats": {
@@ -326,8 +326,7 @@
     ]
       },
       "labels": [
-    "insurgence",
-    "not_modeled"
+    "insurgence"
       ],
       "aspects": [
         "mega"
@@ -345,10 +344,10 @@
     "weakarmor",
     "h:rockhead"
       ],
-      "baseScale": 0.3,
+      "baseScale": 1.0,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 1.0,
+          "height": 1.0,
           "fixed": false
       },
       "baseStats": {
@@ -382,8 +381,7 @@
     ]
       },
       "labels": [
-    "insurgence",
-    "not_modeled"
+    "insurgence"
       ],
       "aspects": [
         "mega"
@@ -509,17 +507,16 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaruinmetagross.desc"
   ],
   "preEvolution": "metang form=deltaruin",
-  "baseScale": 0.26666666666666666,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -6,9 +6,9 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation2_eghoferaligatr.geo",
       "poser": "cobblemon:generation2_eghoferaligatr",
-      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr.png",
+      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr/eghoferaligatr.png",
       "layers": [
         {
           "name": "glow"
@@ -35,9 +35,9 @@
         "egho",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation2_eghoferaligatr.geo",
       "poser": "cobblemon:generation2_eghoferaligatr",
-      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr/eghoferaligatr_shiny.png",
       "layers": [
         {
           "name": "glow"

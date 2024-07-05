@@ -162,16 +162,15 @@
     "tutor:wonderroom",
     "tutor:zenheadbutt"  ],
   "labels": [
-    "infinity",
-    "not_modeled"
+    "infinity"
   ],
   "pokedex": [
     "cobblemon.species.mewthree.desc"
   ],
-  "baseScale": 0.3833333333333333,
+  "baseScale": 0.9,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

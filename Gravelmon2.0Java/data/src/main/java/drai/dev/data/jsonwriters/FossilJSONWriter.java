@@ -50,7 +50,7 @@ public class FossilJSONWriter {
 
     private static void writeRareFossilLootTable(String fossil, String species, String dir, Gson gson) throws IOException {
         JsonObject fileContents = new JsonObject();
-        fileContents.add("result", new JsonPrimitive(species));
+        fileContents.add("type", new JsonPrimitive("minecraft:archaeology"));
         var pools = new JsonArray();
         var pool = new JsonObject();
         pool.add("bonus_rolls", new JsonPrimitive(0.0));
@@ -66,7 +66,7 @@ public class FossilJSONWriter {
         fileContents.add("pools", pools);
         fileContents.add("random_sequence", new JsonPrimitive("cobblemon:fossils/rare/"+fossil));
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + species + ".json"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + fossil + ".json"));
         writer.write(gson.toJson(fileContents));
         writer.close();
     }
@@ -112,9 +112,9 @@ public class FossilJSONWriter {
 
     private static void writeFossilPoser(String species, String dir, Gson gson) throws IOException {
         JsonObject fileContents = new JsonObject();
-        fileContents.add("maxScale", new JsonPrimitive(0.2));
+        fileContents.add("maxScale", new JsonPrimitive(0.1));
         fileContents.add("yTranslation", new JsonPrimitive(0.1));
-        fileContents.add("yGrowthPoint", new JsonPrimitive(0.5625));
+        fileContents.add("yGrowthPoint", new JsonPrimitive(-0.5));
         fileContents.add("animations", new JsonArray());
         fileContents.add("quirks", new JsonArray());
 

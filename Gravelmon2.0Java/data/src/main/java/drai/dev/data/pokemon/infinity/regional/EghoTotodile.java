@@ -130,8 +130,10 @@ public class EghoTotodile extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setBaseScale(0.5);
-        this.setHitbox(0.85, 1.4);
         this.setLangFileName("Totodile");
         this.setPortraitXYZ(0,1.8,0);
+        setModeled(true);
+        setBaseScale(1);
+        setHitbox(1,1);
     }
 }

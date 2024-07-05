@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.util;
+package drai.dev.data.util;
 
 public class UnitConverter {
     public static int feetToMeters(int feet, int inches){

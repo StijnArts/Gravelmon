@@ -6,9 +6,9 @@
       "aspects": [
         "seviian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation4_seviiancarnivine.geo",
       "poser": "cobblemon:generation4_seviiancarnivine",
-      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine.png",
+      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine/seviiancarnivine.png",
       "layers": [
         {
           "name": "glow"
@@ -35,9 +35,9 @@
         "seviian",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation4_seviiancarnivine.geo",
       "poser": "cobblemon:generation4_seviiancarnivine",
-      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine/seviiancarnivine_shiny.png",
       "layers": [
         {
           "name": "glow"

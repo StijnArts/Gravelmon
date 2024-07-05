@@ -86,17 +86,16 @@
     "egg:hydrocannon"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled",
     "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chrysalix.desc"
   ],
   "preEvolution": "onix form=hoennian",
-  "baseScale": 0.7166666666666667,
+  "baseScale": 1.5,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

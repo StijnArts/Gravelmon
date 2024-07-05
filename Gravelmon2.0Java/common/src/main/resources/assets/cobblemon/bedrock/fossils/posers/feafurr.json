@@ -1,7 +1,7 @@
 {
-  "maxScale": 0.2,
-  "yTranslation": 0.1,
-  "yGrowthPoint": 0.5625,
+  "maxScale": 0.1,
+  "yTranslation": -0.5,
+  "yGrowthPoint": 0,
   "animations": [],
   "quirks": []
 }
