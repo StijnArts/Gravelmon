@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "scyllagon",
-  "nationalPokedexNumber": 5738,
+  "nationalPokedexNumber": 5740,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 50,

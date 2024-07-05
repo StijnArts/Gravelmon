@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "chanterra",
-  "nationalPokedexNumber": 3799,
+  "nationalPokedexNumber": 3801,
   "primaryType": "ground",
   "secondaryType": "ghost",
   "abilities": [
     "effectspore",
-    "dryskin",
-    "h:keeneye"
-  ],
+    "dryskin"  ],
   "baseStats": {
     "hp": 75,
     "attack": 34,

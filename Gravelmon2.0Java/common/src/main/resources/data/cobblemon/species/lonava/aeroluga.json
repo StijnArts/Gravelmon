@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "aeroluga",
-  "nationalPokedexNumber": 3429,
+  "nationalPokedexNumber": 3431,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
     "thickfat",
-    "refrigerate",
-    "h:keeneye"
-  ],
+    "refrigerate"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

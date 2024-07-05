@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tarnavis",
-  "nationalPokedexNumber": 4164,
+  "nationalPokedexNumber": 4166,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
-    "megalauncher",
-    "h:megalauncher"
-  ],
+    "megalauncher"  ],
   "baseStats": {
     "hp": 170,
     "attack": 80,

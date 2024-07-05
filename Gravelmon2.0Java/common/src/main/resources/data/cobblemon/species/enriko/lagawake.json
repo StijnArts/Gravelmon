@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lagawake",
-  "nationalPokedexNumber": 2044,
+  "nationalPokedexNumber": 2048,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 70,

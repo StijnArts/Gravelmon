@@ -309,7 +309,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("SNS")
                 .pattern("  S")
                 .define('N', Items.NOTE_BLOCK)
-                .define('W', Items.STICK)
+                .define('S', Items.STICK)
                 .unlockedBy("hasNOTEBLOCK", has(Items.NOTE_BLOCK))
                 .save(exporter);
 
@@ -326,7 +326,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
                         GravelmonItems.COCONUT_MILK.get(),1)
                 .pattern("JMJ")
-                .pattern(" J")
+                .pattern(" J ")
                 .define('M', Items.MILK_BUCKET)
                 .define('J', Items.JUNGLE_WOOD)
                 .unlockedBy("hasMILKBUCKET", has(Items.MILK_BUCKET))
@@ -356,7 +356,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .define('I', Items.IRON_BLOCK)
                 .define('B', Items.NETHER_STAR)
                 .define('R', Items.REDSTONE)
-                .define('C', Items.WATER_BUCKET)
+                .define('W', Items.WATER_BUCKET)
                 .unlockedBy("hasNETHER_STAR", has(Items.NETHER_STAR))
                 .save(exporter);
 
@@ -484,7 +484,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         GravelmonItems.PRETTY_RIBBON.get(),1)
                 .pattern("WIW")
                 .pattern("D I")
-                .pattern("WOW")
+                .pattern("WWW")
                 .define('I', Items.COPPER_INGOT)
                 .define('D', Items.BLAZE_POWDER)
                 .define('W', Items.PINK_WOOL)

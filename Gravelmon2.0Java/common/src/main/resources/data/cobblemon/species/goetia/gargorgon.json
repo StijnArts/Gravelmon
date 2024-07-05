@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gargorgon",
-  "nationalPokedexNumber": 5791,
+  "nationalPokedexNumber": 5793,
   "primaryType": "dragon",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 65,

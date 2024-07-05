@@ -1,12 +1,6 @@
 package drai.dev.gravelmon;
 
-import com.cobblemon.mod.common.api.pokemon.*;
-import com.cobblemon.mod.common.config.starter.*;
-import drai.dev.gravelmon.pokemon.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelsextendedbattles.*;
 import drai.dev.gravelsextendedbattles.starters.*;
-import kotlin.*;
 import org.apache.commons.lang3.*;
 
 import java.util.*;
@@ -373,7 +367,7 @@ public class GravelmonStarters {
     }
 
     private static StarterCategoryDataHolder createCategory(String name, List<String> starters) {
-        return new StarterCategoryDataHolder(StringUtils.capitalize(name), "cobblemon.starterselection.category." + Pokemon.getCleanName(name.toLowerCase().replaceAll(" ", "")),
+        return new StarterCategoryDataHolder(StringUtils.capitalize(name), "cobblemon.starterselection.category." + GravelmonUtils.getCleanName(name.toLowerCase().replaceAll(" ", "")),
                 starters);
     }
 }

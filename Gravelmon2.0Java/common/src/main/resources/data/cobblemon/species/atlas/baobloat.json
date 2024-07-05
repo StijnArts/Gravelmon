@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "baobloat",
-  "nationalPokedexNumber": 5502,
+  "nationalPokedexNumber": 5504,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
     "thickfat",
-    "stormdrain",
-    "h:keeneye"
-  ],
+    "stormdrain"  ],
   "baseStats": {
     "hp": 95,
     "attack": 71,

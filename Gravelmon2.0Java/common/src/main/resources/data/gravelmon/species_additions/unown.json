@@ -29,9 +29,7 @@
   "primaryType": "psychic",
   "secondaryType": "rock",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 48,
     "attack": 48,
@@ -107,9 +105,7 @@
   "name": "Earth",
   "primaryType": "psychic",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 48,
     "attack": 72,
@@ -183,9 +179,7 @@
   "name": "Xenoverse",
   "primaryType": "psychic",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 48,
     "attack": 72,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "autricee",
-  "nationalPokedexNumber": 4599,
+  "nationalPokedexNumber": 4601,
   "primaryType": "electric",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 115,
     "attack": 115,

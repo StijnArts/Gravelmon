@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gruntik",
-  "nationalPokedexNumber": 5606,
+  "nationalPokedexNumber": 5608,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 70,

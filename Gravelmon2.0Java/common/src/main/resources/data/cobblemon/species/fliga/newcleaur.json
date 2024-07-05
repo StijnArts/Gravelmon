@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "newcleaur",
-  "nationalPokedexNumber": 3958,
+  "nationalPokedexNumber": 3960,
   "primaryType": "dragon",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 71,
     "attack": 173,

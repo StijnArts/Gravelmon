@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "growlain",
-  "nationalPokedexNumber": 3952,
+  "nationalPokedexNumber": 3954,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 120,

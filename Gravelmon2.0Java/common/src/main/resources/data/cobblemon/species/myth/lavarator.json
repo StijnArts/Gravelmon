@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lavarator",
-  "nationalPokedexNumber": 4432,
+  "nationalPokedexNumber": 4434,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
-    "flamebody",
-    "h:flamebody"
-  ],
+    "flamebody"  ],
   "baseStats": {
     "hp": 110,
     "attack": 95,

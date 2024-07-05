@@ -4,8 +4,8 @@ import com.cobblemon.mod.common.api.*;
 import com.cobblemon.mod.common.item.*;
 import com.cobblemon.mod.common.platform.events.*;
 import com.cobblemon.mod.common.util.*;
-import dev.architectury.platform.forge.EventBuses;
-import drai.dev.gravelmon.Gravelmon;
+import dev.architectury.platform.forge.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
 import kotlin.*;
 import net.minecraft.*;
@@ -15,8 +15,8 @@ import net.minecraft.network.chat.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.client.event.*;
 import net.minecraftforge.eventbus.api.*;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.common.*;
+import net.minecraftforge.fml.javafmlmod.*;
 
 import java.util.stream.*;
 

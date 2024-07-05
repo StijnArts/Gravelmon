@@ -4,9 +4,7 @@
   "name": "Seviian",
   "primaryType": "ghost",
   "abilities": [
-    "schooling",
-    "h:schooling"
-  ],
+    "schooling"  ],
   "baseStats": {
     "hp": 60,
     "attack": 20,
@@ -46,7 +44,6 @@
       "secondaryType": "dragon",
       "abilities": [
     "schooling",
-    "h:schooling"
       ],
       "baseScale": 1.9125,
         "hitbox": {
@@ -178,9 +175,7 @@
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
-    "schooling",
-    "h:schooling"
-  ],
+    "schooling"  ],
   "baseStats": {
     "hp": 45,
     "attack": 20,
@@ -220,7 +215,6 @@
       "secondaryType": "dragon",
       "abilities": [
     "schooling",
-    "h:schooling"
       ],
       "baseScale": 1.9125,
         "hitbox": {

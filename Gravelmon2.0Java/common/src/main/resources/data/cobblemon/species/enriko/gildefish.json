@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "gildefish",
-  "nationalPokedexNumber": 1979,
+  "nationalPokedexNumber": 1983,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 115,
     "attack": 65,

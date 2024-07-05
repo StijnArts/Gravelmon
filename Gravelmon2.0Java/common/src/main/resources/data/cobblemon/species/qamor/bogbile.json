@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bogbile",
-  "nationalPokedexNumber": 4035,
+  "nationalPokedexNumber": 4037,
   "primaryType": "dragon",
   "abilities": [
-    "corrosion",
-    "h:corrosion"
-  ],
+    "corrosion"  ],
   "baseStats": {
     "hp": 57,
     "attack": 107,

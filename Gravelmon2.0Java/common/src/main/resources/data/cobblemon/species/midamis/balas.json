@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "balas",
-  "nationalPokedexNumber": 4598,
+  "nationalPokedexNumber": 4600,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 115,
     "attack": 115,

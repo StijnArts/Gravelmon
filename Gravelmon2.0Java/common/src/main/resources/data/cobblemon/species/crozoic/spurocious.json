@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "spurocious",
-  "nationalPokedexNumber": 3324,
+  "nationalPokedexNumber": 3328,
   "primaryType": "dark",
   "abilities": [
     "sandforce",
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 73,
     "attack": 132,

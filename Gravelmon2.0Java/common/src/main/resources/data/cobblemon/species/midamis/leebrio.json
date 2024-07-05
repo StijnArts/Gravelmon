@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "leebrio",
-  "nationalPokedexNumber": 4587,
+  "nationalPokedexNumber": 4589,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
-    "forewarn",
-    "h:forewarn"
-  ],
+    "forewarn"  ],
   "baseStats": {
     "hp": 50,
     "attack": 45,

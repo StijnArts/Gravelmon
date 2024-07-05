@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "amphreina",
-  "nationalPokedexNumber": 5737,
+  "nationalPokedexNumber": 5739,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 20,

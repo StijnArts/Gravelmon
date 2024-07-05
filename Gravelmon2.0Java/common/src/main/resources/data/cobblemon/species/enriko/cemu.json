@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "cemu",
-  "nationalPokedexNumber": 1924,
+  "nationalPokedexNumber": 1928,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
     "sandveil",
-    "bigpecks",
-    "h:keeneye"
-  ],
+    "bigpecks"  ],
   "baseStats": {
     "hp": 60,
     "attack": 65,

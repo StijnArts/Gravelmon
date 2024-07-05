@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "teslither",
-  "nationalPokedexNumber": 2632,
+  "nationalPokedexNumber": 2636,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
-    "motordrive",
-    "h:motordrive"
-  ],
+    "motordrive"  ],
   "baseStats": {
     "hp": 34,
     "attack": 32,

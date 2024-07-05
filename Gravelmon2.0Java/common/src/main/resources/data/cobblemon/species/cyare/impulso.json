@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "impulso",
-  "nationalPokedexNumber": 5781,
+  "nationalPokedexNumber": 5783,
   "primaryType": "electric",
   "abilities": [
-    "static",
-    "h:static"
-  ],
+    "static"  ],
   "baseStats": {
     "hp": 100,
     "attack": 40,

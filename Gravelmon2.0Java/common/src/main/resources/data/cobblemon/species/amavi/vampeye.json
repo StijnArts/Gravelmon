@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vampeye",
-  "nationalPokedexNumber": 5697,
+  "nationalPokedexNumber": 5699,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 145,
     "attack": 80,

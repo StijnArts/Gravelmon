@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "stilbird",
-  "nationalPokedexNumber": 5760,
+  "nationalPokedexNumber": 5762,
   "primaryType": "flying",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 88,
     "attack": 46,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hullk",
-  "nationalPokedexNumber": 3956,
+  "nationalPokedexNumber": 3958,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 127,
     "attack": 67,

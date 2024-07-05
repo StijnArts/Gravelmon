@@ -432,9 +432,7 @@
   "primaryType": "fighting",
   "secondaryType": "dark",
   "abilities": [
-    "barbednest",
-    "h:barbednest"
-  ],
+    "barbednest"  ],
   "baseStats": {
     "hp": 100,
     "attack": 115,

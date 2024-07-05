@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "purrwess",
-  "nationalPokedexNumber": 2685,
+  "nationalPokedexNumber": 2689,
   "primaryType": "fairy",
   "abilities": [
-    "furcoat",
-    "h:furcoat"
-  ],
+    "furcoat"  ],
   "baseStats": {
     "hp": 90,
     "attack": 75,

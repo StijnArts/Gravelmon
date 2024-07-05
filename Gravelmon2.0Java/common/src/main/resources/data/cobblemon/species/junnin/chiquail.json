@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chiquail",
-  "nationalPokedexNumber": 2846,
+  "nationalPokedexNumber": 2850,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "tangledfeet",
-    "h:keeneye"
-  ],
+    "tangledfeet"  ],
   "baseStats": {
     "hp": 66,
     "attack": 53,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "grivern",
-  "nationalPokedexNumber": 2794,
+  "nationalPokedexNumber": 2798,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 25,
     "attack": 43,

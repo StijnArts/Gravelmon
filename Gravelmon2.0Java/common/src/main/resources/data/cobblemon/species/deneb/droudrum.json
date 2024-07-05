@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "droudrum",
-  "nationalPokedexNumber": 4823,
+  "nationalPokedexNumber": 4825,
   "primaryType": "fire",
   "abilities": [
-    "drought",
-    "h:drought"
-  ],
+    "drought"  ],
   "baseStats": {
     "hp": 70,
     "attack": 105,

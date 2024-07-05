@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "glowghast",
-  "nationalPokedexNumber": 3242,
+  "nationalPokedexNumber": 3246,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 77,
     "attack": 77,

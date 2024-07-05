@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "murmurino",
-  "nationalPokedexNumber": 4229,
+  "nationalPokedexNumber": 4231,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 66,

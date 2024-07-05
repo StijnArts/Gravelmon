@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "voidevour",
-  "nationalPokedexNumber": 3027,
+  "nationalPokedexNumber": 3031,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
-    "swiftswim",
-    "h:keeneye"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 123,
     "attack": 121,

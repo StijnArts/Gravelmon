@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "alpurr",
-  "nationalPokedexNumber": 3831,
+  "nationalPokedexNumber": 3833,
   "primaryType": "normal",
   "abilities": [
     "analytic",
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 61,

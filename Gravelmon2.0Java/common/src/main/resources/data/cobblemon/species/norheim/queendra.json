@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "queendra",
-  "nationalPokedexNumber": 3217,
+  "nationalPokedexNumber": 3221,
   "primaryType": "dragon",
   "abilities": [
     "swiftswim",
-    "sniper",
-    "h:keeneye"
-  ],
+    "sniper"  ],
   "baseStats": {
     "hp": 77,
     "attack": 41,

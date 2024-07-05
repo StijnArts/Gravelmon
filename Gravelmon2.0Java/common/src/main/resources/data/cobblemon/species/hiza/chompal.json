@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "chompal",
-  "nationalPokedexNumber": 2752,
+  "nationalPokedexNumber": 2756,
   "primaryType": "water",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 60,
     "attack": 100,

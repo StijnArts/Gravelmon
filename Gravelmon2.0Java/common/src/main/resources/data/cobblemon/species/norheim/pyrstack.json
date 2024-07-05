@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pyrstack",
-  "nationalPokedexNumber": 3174,
+  "nationalPokedexNumber": 3178,
   "primaryType": "ground",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 99,
     "attack": 34,

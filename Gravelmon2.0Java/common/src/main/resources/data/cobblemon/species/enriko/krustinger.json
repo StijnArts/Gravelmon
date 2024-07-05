@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "krustinger",
-  "nationalPokedexNumber": 1898,
+  "nationalPokedexNumber": 1902,
   "primaryType": "electric",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 85,

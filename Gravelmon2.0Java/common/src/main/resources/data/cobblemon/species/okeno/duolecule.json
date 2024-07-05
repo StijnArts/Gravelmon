@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "duolecule",
-  "nationalPokedexNumber": 4678,
+  "nationalPokedexNumber": 4680,
   "primaryType": "water",
   "abilities": [
-    "hydration",
-    "h:hydration"
-  ],
+    "hydration"  ],
   "baseStats": {
     "hp": 90,
     "attack": 40,

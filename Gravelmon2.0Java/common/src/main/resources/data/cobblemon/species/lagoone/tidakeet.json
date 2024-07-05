@@ -5,9 +5,7 @@
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 35,

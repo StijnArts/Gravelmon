@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tarmendoa",
-  "nationalPokedexNumber": 3450,
+  "nationalPokedexNumber": 3452,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 80,
     "attack": 100,

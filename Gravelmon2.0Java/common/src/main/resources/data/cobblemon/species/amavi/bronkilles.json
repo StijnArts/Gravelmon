@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bronkilles",
-  "nationalPokedexNumber": 5726,
+  "nationalPokedexNumber": 5728,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 105,

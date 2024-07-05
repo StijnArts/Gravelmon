@@ -302,9 +302,7 @@
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
-    "forewarn",
-    "h:forewarn"
-  ],
+    "forewarn"  ],
   "baseStats": {
     "hp": 80,
     "attack": 40,

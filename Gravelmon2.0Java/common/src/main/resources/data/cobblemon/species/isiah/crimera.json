@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "crimera",
-  "nationalPokedexNumber": 4364,
+  "nationalPokedexNumber": 4366,
   "primaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 71,

@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1481,
   "primaryType": "fire",
   "abilities": [
-    "blaze",
-    "h:blaze"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 55,
     "attack": 67,

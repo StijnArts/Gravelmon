@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sweetweet",
-  "nationalPokedexNumber": 4318,
+  "nationalPokedexNumber": 4320,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 67,
     "attack": 45,

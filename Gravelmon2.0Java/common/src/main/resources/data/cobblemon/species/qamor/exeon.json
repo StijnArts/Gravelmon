@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "exeon",
-  "nationalPokedexNumber": 4085,
+  "nationalPokedexNumber": 4087,
   "primaryType": "questionmark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 85,

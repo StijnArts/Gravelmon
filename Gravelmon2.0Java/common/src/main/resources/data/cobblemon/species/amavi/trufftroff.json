@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "trufftroff",
-  "nationalPokedexNumber": 5643,
+  "nationalPokedexNumber": 5645,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 110,
     "attack": 93,

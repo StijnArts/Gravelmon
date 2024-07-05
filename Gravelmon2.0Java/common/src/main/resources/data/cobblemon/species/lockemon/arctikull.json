@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "arctikull",
-  "nationalPokedexNumber": 3538,
+  "nationalPokedexNumber": 3540,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 160,

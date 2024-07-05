@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:sharkaic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sharkaic",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/sharkaic.png",
+      "layers": []
+    }
+  ]
+}

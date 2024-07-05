@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "nomadent",
-  "nationalPokedexNumber": 3362,
+  "nationalPokedexNumber": 3364,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 55,
     "attack": 81,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "oweesage",
-  "nationalPokedexNumber": 4395,
+  "nationalPokedexNumber": 4397,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 94,
     "attack": 69,

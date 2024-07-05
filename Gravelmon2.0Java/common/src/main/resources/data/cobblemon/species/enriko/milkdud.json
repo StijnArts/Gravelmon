@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "milkdud",
-  "nationalPokedexNumber": 2060,
+  "nationalPokedexNumber": 2064,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 123,
     "attack": 78,

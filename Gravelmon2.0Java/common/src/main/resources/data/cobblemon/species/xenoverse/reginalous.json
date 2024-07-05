@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "reginalous",
-  "nationalPokedexNumber": 2174,
+  "nationalPokedexNumber": 2178,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 150,

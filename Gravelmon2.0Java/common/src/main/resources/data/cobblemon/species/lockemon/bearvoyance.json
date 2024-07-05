@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bearvoyance",
-  "nationalPokedexNumber": 3516,
+  "nationalPokedexNumber": 3518,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
-    "seance",
-    "h:keeneye"
-  ],
+    "seance"  ],
   "baseStats": {
     "hp": 100,
     "attack": 50,

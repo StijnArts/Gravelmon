@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "floink",
-  "nationalPokedexNumber": 2265,
+  "nationalPokedexNumber": 2269,
   "primaryType": "flying",
   "abilities": [
-    "dryskin",
-    "h:dryskin"
-  ],
+    "dryskin"  ],
   "baseStats": {
     "hp": 140,
     "attack": 45,

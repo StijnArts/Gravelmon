@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cloubus",
-  "nationalPokedexNumber": 4825,
+  "nationalPokedexNumber": 4827,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
-    "airlock",
-    "h:airlock"
-  ],
+    "airlock"  ],
   "baseStats": {
     "hp": 75,
     "attack": 95,

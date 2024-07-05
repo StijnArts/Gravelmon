@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "aetumnal",
-  "nationalPokedexNumber": 3444,
+  "nationalPokedexNumber": 3446,
   "primaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 80,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "antoldier",
-  "nationalPokedexNumber": 3075,
+  "nationalPokedexNumber": 3079,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
     "defeatist",
-    "defeatist",
-    "h:defeatist"
-  ],
+    "defeatist"  ],
   "baseStats": {
     "hp": 75,
     "attack": 150,

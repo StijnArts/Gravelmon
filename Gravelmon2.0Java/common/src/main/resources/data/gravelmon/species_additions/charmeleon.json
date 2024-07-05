@@ -6,9 +6,7 @@
   "secondaryType": "dragon",
   "abilities": [
     "oblivious",
-    "competitive",
-    "h:competitive"
-  ],
+    "competitive"  ],
   "baseStats": {
     "hp": 58,
     "attack": 64,

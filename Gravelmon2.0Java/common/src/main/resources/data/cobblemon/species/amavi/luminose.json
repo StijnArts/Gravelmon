@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "luminose",
-  "nationalPokedexNumber": 5740,
+  "nationalPokedexNumber": 5742,
   "primaryType": "normal",
   "secondaryType": "psychic",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 80,
     "attack": 55,

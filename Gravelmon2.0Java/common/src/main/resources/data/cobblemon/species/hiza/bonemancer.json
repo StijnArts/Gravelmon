@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bonemancer",
-  "nationalPokedexNumber": 2733,
+  "nationalPokedexNumber": 2737,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
-    "scrappy",
-    "h:scrappy"
-  ],
+    "scrappy"  ],
   "baseStats": {
     "hp": 70,
     "attack": 100,

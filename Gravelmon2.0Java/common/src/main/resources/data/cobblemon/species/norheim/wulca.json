@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "wulca",
-  "nationalPokedexNumber": 3265,
+  "nationalPokedexNumber": 3269,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 48,
     "attack": 86,

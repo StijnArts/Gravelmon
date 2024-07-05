@@ -29,9 +29,7 @@
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 89,
     "attack": 37,

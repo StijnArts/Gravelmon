@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "psyclone",
-  "nationalPokedexNumber": 4120,
+  "nationalPokedexNumber": 4122,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
     "keeneye",
-    "forewarn",
-    "h:keeneye"
-  ],
+    "forewarn"  ],
   "baseStats": {
     "hp": 75,
     "attack": 50,

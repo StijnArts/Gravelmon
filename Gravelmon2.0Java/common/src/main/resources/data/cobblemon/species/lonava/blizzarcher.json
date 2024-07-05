@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "blizzarcher",
-  "nationalPokedexNumber": 3433,
+  "nationalPokedexNumber": 3435,
   "primaryType": "ice",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 44,
     "attack": 45,

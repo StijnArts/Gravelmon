@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "bindshii",
-  "nationalPokedexNumber": 4416,
+  "nationalPokedexNumber": 4418,
   "primaryType": "sound",
   "secondaryType": "fairy",
   "abilities": [
     "levitate",
-    "tanglinghair",
-    "h:keeneye"
-  ],
+    "tanglinghair"  ],
   "baseStats": {
     "hp": 70,
     "attack": 50,

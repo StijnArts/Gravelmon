@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "ophifowl",
-  "nationalPokedexNumber": 2047,
+  "nationalPokedexNumber": 2051,
   "primaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 79,

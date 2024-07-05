@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "decapasite",
-  "nationalPokedexNumber": 1932,
+  "nationalPokedexNumber": 1936,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
     "unnerve",
-    "levitate",
-    "h:keeneye"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 90,
     "attack": 50,

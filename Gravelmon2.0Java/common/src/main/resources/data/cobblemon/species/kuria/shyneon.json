@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "shyneon",
-  "nationalPokedexNumber": 4210,
+  "nationalPokedexNumber": 4212,
   "primaryType": "crystal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 135,
     "attack": 70,

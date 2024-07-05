@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "punchild",
-  "nationalPokedexNumber": 4841,
+  "nationalPokedexNumber": 4843,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 40,
     "attack": 40,

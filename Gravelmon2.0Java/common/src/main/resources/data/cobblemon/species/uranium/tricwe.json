@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tricwe",
-  "nationalPokedexNumber": 2420,
+  "nationalPokedexNumber": 2424,
   "primaryType": "bug",
   "abilities": [
     "swarm",
-    "swarm",
-    "h:swarm"
-  ],
+    "swarm"  ],
   "baseStats": {
     "hp": 40,
     "attack": 65,

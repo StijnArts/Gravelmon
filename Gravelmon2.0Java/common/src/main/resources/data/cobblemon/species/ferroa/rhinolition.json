@@ -6,9 +6,7 @@
   "secondaryType": "steel",
   "abilities": [
     "sandrush",
-    "oblivious",
-    "h:keeneye"
-  ],
+    "oblivious"  ],
   "baseStats": {
     "hp": 95,
     "attack": 112,

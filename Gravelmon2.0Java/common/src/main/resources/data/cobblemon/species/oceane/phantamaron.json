@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "phantamaron",
-  "nationalPokedexNumber": 2242,
+  "nationalPokedexNumber": 2246,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 92,
     "attack": 32,

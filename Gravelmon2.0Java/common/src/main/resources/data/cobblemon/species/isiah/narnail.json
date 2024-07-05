@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "narnail",
-  "nationalPokedexNumber": 4369,
+  "nationalPokedexNumber": 4371,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 0,
     "attack": 0,

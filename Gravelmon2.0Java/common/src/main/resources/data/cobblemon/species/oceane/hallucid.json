@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "hallucid",
-  "nationalPokedexNumber": 2287,
+  "nationalPokedexNumber": 2291,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 36,
     "attack": 60,

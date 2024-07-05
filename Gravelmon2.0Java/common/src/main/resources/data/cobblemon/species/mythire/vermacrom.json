@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "vermacrom",
-  "nationalPokedexNumber": 3864,
+  "nationalPokedexNumber": 3866,
   "primaryType": "ground",
   "secondaryType": "fire",
   "abilities": [
     "eartheater",
-    "pressure",
-    "h:keeneye"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 100,
     "attack": 90,

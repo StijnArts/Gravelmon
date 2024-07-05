@@ -5,9 +5,7 @@
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
-    "leafguard",
-    "h:leafguard"
-  ],
+    "leafguard"  ],
   "baseStats": {
     "hp": 50,
     "attack": 108,

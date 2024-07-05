@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1429,
   "primaryType": "normal",
   "abilities": [
-    "protean",
-    "h:protean"
-  ],
+    "protean"  ],
   "baseStats": {
     "hp": 90,
     "attack": 110,

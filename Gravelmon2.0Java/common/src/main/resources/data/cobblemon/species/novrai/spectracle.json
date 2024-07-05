@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "spectracle",
-  "nationalPokedexNumber": 5200,
+  "nationalPokedexNumber": 5202,
   "primaryType": "normal",
   "abilities": [
-    "protean",
-    "h:protean"
-  ],
+    "protean"  ],
   "baseStats": {
     "hp": 60,
     "attack": 92,

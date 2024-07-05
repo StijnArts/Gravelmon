@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "burnuki",
-  "nationalPokedexNumber": 3007,
+  "nationalPokedexNumber": 3011,
   "primaryType": "fire",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 36,

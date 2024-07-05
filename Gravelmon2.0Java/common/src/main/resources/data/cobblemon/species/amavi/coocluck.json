@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "coocluck",
-  "nationalPokedexNumber": 5727,
+  "nationalPokedexNumber": 5729,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 30,

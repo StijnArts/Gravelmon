@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dragune",
-  "nationalPokedexNumber": 4770,
+  "nationalPokedexNumber": 4772,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
-    "rockhead",
-    "h:rockhead"
-  ],
+    "rockhead"  ],
   "baseStats": {
     "hp": 64,
     "attack": 80,

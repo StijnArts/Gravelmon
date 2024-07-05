@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "standeolith",
-  "nationalPokedexNumber": 3372,
+  "nationalPokedexNumber": 3374,
   "primaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 40,

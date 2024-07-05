@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "oceadon",
-  "nationalPokedexNumber": 4226,
+  "nationalPokedexNumber": 4228,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 109,
     "attack": 117,

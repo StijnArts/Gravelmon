@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pompadame",
-  "nationalPokedexNumber": 4334,
+  "nationalPokedexNumber": 4336,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 97,
     "attack": 56,

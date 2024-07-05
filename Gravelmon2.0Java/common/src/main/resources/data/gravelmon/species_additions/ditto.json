@@ -86,9 +86,7 @@
   "name": "Delta",
   "primaryType": "water",
   "abilities": [
-    "protean",
-    "h:protean"
-  ],
+    "protean"  ],
   "baseStats": {
     "hp": 48,
     "attack": 48,

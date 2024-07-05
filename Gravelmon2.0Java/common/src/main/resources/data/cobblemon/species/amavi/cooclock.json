@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cooclock",
-  "nationalPokedexNumber": 5626,
+  "nationalPokedexNumber": 5628,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 33,
     "attack": 10,

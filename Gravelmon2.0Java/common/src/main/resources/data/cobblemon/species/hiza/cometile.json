@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cometile",
-  "nationalPokedexNumber": 2806,
+  "nationalPokedexNumber": 2810,
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
-    "lightmetal",
-    "h:lightmetal"
-  ],
+    "lightmetal"  ],
   "baseStats": {
     "hp": 40,
     "attack": 50,

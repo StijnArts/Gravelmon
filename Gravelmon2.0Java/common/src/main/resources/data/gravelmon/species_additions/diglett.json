@@ -160,9 +160,7 @@
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 23,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "tessent",
-  "nationalPokedexNumber": 4323,
+  "nationalPokedexNumber": 4325,
   "primaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 68,

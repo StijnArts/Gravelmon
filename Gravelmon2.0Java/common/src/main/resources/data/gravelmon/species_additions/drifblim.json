@@ -336,9 +336,7 @@
   "secondaryType": "steel",
   "abilities": [
     "pickup",
-    "levitate",
-    "h:keeneye"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 150,
     "attack": 70,

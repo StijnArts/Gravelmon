@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "goalden",
-  "nationalPokedexNumber": 5259,
+  "nationalPokedexNumber": 5261,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
     "moxie",
-    "ironfist",
-    "h:keeneye"
-  ],
+    "ironfist"  ],
   "baseStats": {
     "hp": 90,
     "attack": 145,

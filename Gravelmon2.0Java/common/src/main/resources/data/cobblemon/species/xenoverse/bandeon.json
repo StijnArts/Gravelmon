@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bandeon",
-  "nationalPokedexNumber": 2153,
+  "nationalPokedexNumber": 2157,
   "primaryType": "sound",
   "abilities": [
-    "owntempo",
-    "h:keeneye"
-  ],
+    "owntempo"  ],
   "baseStats": {
     "hp": 110,
     "attack": 60,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rolloch",
-  "nationalPokedexNumber": 4358,
+  "nationalPokedexNumber": 4360,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 51,
     "attack": 42,

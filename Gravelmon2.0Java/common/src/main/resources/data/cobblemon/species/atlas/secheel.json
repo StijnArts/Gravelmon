@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "secheel",
-  "nationalPokedexNumber": 5419,
+  "nationalPokedexNumber": 5421,
   "primaryType": "poison",
   "abilities": [
     "stickyhold",
-    "suctioncups",
-    "h:keeneye"
-  ],
+    "suctioncups"  ],
   "baseStats": {
     "hp": 60,
     "attack": 55,

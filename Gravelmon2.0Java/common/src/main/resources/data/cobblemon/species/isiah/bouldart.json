@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bouldart",
-  "nationalPokedexNumber": 4359,
+  "nationalPokedexNumber": 4361,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 73,
     "attack": 60,

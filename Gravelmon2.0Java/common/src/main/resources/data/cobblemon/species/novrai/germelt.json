@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "germelt",
-  "nationalPokedexNumber": 5321,
+  "nationalPokedexNumber": 5323,
   "primaryType": "poison",
   "secondaryType": "ice",
   "abilities": [
     "adaptability",
-    "icebody",
-    "h:keeneye"
-  ],
+    "icebody"  ],
   "baseStats": {
     "hp": 50,
     "attack": 65,

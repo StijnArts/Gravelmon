@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "auburnt",
-  "nationalPokedexNumber": 5669,
+  "nationalPokedexNumber": 5671,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 49,
     "attack": 49,

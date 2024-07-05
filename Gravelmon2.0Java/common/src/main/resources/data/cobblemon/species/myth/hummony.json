@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hummony",
-  "nationalPokedexNumber": 4448,
+  "nationalPokedexNumber": 4450,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
-    "pixilate",
-    "h:pixilate"
-  ],
+    "pixilate"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

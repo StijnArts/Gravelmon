@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "conchorn",
-  "nationalPokedexNumber": 5776,
+  "nationalPokedexNumber": 5778,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 75,
     "attack": 70,

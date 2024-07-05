@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "weeduza",
-  "nationalPokedexNumber": 2368,
+  "nationalPokedexNumber": 2372,
   "primaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 0,
     "attack": 0,

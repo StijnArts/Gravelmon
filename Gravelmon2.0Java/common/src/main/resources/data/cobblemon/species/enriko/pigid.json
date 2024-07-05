@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pigid",
-  "nationalPokedexNumber": 2069,
+  "nationalPokedexNumber": 2073,
   "primaryType": "dark",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 45,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tuscal",
-  "nationalPokedexNumber": 3110,
+  "nationalPokedexNumber": 3114,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
-    "torrent",
-    "h:keeneye"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 78,
     "attack": 53,

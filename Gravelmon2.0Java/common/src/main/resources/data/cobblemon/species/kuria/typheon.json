@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "typheon",
-  "nationalPokedexNumber": 4205,
+  "nationalPokedexNumber": 4207,
   "primaryType": "flying",
   "abilities": [
     "aerilate",
-    "cloudnine",
-    "h:keeneye"
-  ],
+    "cloudnine"  ],
   "baseStats": {
     "hp": 65,
     "attack": 60,

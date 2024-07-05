@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "unseelium",
-  "nationalPokedexNumber": 1969,
+  "nationalPokedexNumber": 1973,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 97,
     "attack": 50,

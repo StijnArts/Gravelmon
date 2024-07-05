@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gazhel",
-  "nationalPokedexNumber": 3282,
+  "nationalPokedexNumber": 3286,
   "primaryType": "dragon",
   "secondaryType": "ghost",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 97,
     "attack": 117,

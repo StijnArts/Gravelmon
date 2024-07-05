@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "caprihorn",
-  "nationalPokedexNumber": 3434,
+  "nationalPokedexNumber": 3436,
   "primaryType": "psychic",
   "abilities": [
-    "runaway",
-    "h:runaway"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 65,
     "attack": 65,

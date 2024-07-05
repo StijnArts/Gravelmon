@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tentaclubble",
-  "nationalPokedexNumber": 3408,
+  "nationalPokedexNumber": 3410,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
-    "clearbody",
-    "h:keeneye"
-  ],
+    "clearbody"  ],
   "baseStats": {
     "hp": 70,
     "attack": 85,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "sunankusu",
-  "nationalPokedexNumber": 4920,
+  "nationalPokedexNumber": 4922,
   "primaryType": "ground",
   "abilities": [
-    "sandstream",
-    "h:sandstream"
-  ],
+    "sandstream"  ],
   "baseStats": {
     "hp": 90,
     "attack": 60,

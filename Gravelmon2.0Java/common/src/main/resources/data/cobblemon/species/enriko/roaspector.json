@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "roaspector",
-  "nationalPokedexNumber": 2017,
+  "nationalPokedexNumber": 2021,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 78,
     "attack": 73,

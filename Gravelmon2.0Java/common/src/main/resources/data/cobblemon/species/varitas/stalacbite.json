@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "stalacbite",
-  "nationalPokedexNumber": 2311,
+  "nationalPokedexNumber": 2315,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 62,

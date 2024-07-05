@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "planite",
-  "nationalPokedexNumber": 4760,
+  "nationalPokedexNumber": 4762,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 70,
     "attack": 110,

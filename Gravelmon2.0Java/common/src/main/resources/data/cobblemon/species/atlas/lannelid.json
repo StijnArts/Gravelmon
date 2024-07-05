@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lannelid",
-  "nationalPokedexNumber": 5420,
+  "nationalPokedexNumber": 5422,
   "primaryType": "poison",
   "abilities": [
     "stickyhold",
-    "suctioncups",
-    "h:keeneye"
-  ],
+    "suctioncups"  ],
   "baseStats": {
     "hp": 96,
     "attack": 83,

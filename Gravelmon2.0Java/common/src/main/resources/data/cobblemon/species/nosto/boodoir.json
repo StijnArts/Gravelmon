@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "boodoir",
-  "nationalPokedexNumber": 3662,
+  "nationalPokedexNumber": 3664,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
-    "magicbounce",
-    "h:magicbounce"
-  ],
+    "magicbounce"  ],
   "baseStats": {
     "hp": 80,
     "attack": 100,

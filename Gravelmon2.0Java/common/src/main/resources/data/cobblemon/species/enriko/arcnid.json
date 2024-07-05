@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "arcnid",
-  "nationalPokedexNumber": 1984,
+  "nationalPokedexNumber": 1988,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 110,

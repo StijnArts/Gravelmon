@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "icheon",
-  "nationalPokedexNumber": 4208,
+  "nationalPokedexNumber": 4210,
   "primaryType": "sound",
   "abilities": [
-    "cutecharm",
-    "h:keeneye"
-  ],
+    "cutecharm"  ],
   "baseStats": {
     "hp": 110,
     "attack": 65,

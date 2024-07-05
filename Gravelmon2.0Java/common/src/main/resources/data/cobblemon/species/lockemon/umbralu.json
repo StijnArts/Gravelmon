@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "umbralu",
-  "nationalPokedexNumber": 3501,
+  "nationalPokedexNumber": 3503,
   "primaryType": "dark",
   "secondaryType": "water",
   "abilities": [
-    "sapsipper",
-    "h:keeneye"
-  ],
+    "sapsipper"  ],
   "baseStats": {
     "hp": 55,
     "attack": 70,

@@ -187,9 +187,7 @@
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
-    "fruitrition",
-    "h:fruitrition"
-  ],
+    "fruitrition"  ],
   "baseStats": {
     "hp": 80,
     "attack": 45,

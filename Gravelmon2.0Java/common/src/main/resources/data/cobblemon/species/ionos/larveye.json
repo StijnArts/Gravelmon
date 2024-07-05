@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "larveye",
-  "nationalPokedexNumber": 5020,
+  "nationalPokedexNumber": 5022,
   "primaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 39,
     "attack": 34,

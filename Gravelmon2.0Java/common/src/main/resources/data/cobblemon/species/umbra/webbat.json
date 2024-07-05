@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "webbat",
-  "nationalPokedexNumber": 3681,
+  "nationalPokedexNumber": 3683,
   "primaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 25,
     "attack": 60,

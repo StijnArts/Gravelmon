@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lyricroon",
-  "nationalPokedexNumber": 5595,
+  "nationalPokedexNumber": 5597,
   "primaryType": "flying",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 50,

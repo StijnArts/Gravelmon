@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chantarule",
-  "nationalPokedexNumber": 3141,
+  "nationalPokedexNumber": 3145,
   "primaryType": "steel",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 86,

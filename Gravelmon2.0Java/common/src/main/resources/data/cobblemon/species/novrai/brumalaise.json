@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "brumalaise",
-  "nationalPokedexNumber": 5323,
+  "nationalPokedexNumber": 5325,
   "primaryType": "poison",
   "secondaryType": "ice",
   "abilities": [
     "adaptability",
-    "icebody",
-    "h:keeneye"
-  ],
+    "icebody"  ],
   "baseStats": {
     "hp": 85,
     "attack": 105,

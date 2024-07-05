@@ -5,9 +5,7 @@
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
-    "filter",
-    "h:filter"
-  ],
+    "filter"  ],
   "baseStats": {
     "hp": 100,
     "attack": 128,
@@ -47,7 +45,6 @@
       "secondaryType": "psychic",
       "abilities": [
     "filter",
-    "h:filter"
       ],
       "baseScale": 0.7,
         "hitbox": {

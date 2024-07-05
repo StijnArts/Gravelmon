@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "gastropox",
-  "nationalPokedexNumber": 2325,
+  "nationalPokedexNumber": 2329,
   "primaryType": "poison",
   "abilities": [
-    "poisontouch",
-    "h:poisontouch"
-  ],
+    "poisontouch"  ],
   "baseStats": {
     "hp": 80,
     "attack": 60,

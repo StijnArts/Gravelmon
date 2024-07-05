@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:slothohm",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:slothohm",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/slothohm.png",
+      "layers": []
+    }
+  ]
+}

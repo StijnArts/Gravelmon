@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dektout",
-  "nationalPokedexNumber": 5272,
+  "nationalPokedexNumber": 5274,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
-    "superluck",
-    "h:keeneye"
-  ],
+    "superluck"  ],
   "baseStats": {
     "hp": 65,
     "attack": 65,

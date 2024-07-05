@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pelurche",
-  "nationalPokedexNumber": 4335,
+  "nationalPokedexNumber": 4337,
   "primaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 50,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "nesshoal",
-  "nationalPokedexNumber": 2840,
+  "nationalPokedexNumber": 2844,
   "primaryType": "water",
   "abilities": [
-    "torrent",
-    "h:torrent"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 81,
     "attack": 42,

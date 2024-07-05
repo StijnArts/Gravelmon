@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cheauking",
-  "nationalPokedexNumber": 4833,
+  "nationalPokedexNumber": 4835,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 75,
     "attack": 105,

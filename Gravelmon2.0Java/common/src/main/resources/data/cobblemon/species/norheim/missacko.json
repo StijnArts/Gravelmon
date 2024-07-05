@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "missacko",
-  "nationalPokedexNumber": 3256,
+  "nationalPokedexNumber": 3260,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 64,
     "attack": 98,

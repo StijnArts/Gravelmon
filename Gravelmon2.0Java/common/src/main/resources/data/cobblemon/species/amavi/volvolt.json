@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "volvolt",
-  "nationalPokedexNumber": 5733,
+  "nationalPokedexNumber": 5735,
   "primaryType": "electric",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 30,
     "attack": 30,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "chientilly",
-  "nationalPokedexNumber": 2157,
+  "nationalPokedexNumber": 2161,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
     "immunity",
-    "sweetveil",
-    "h:keeneye"
-  ],
+    "sweetveil"  ],
   "baseStats": {
     "hp": 78,
     "attack": 115,

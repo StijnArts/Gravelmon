@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "pleech",
-  "nationalPokedexNumber": 1960,
+  "nationalPokedexNumber": 1964,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
     "poisontouch",
-    "infiltrator",
-    "h:keeneye"
-  ],
+    "infiltrator"  ],
   "baseStats": {
     "hp": 30,
     "attack": 20,

@@ -5,9 +5,7 @@
   "primaryType": "flying",
   "secondaryType": "grass",
   "abilities": [
-    "earlybird",
-    "h:earlybird"
-  ],
+    "earlybird"  ],
   "baseStats": {
     "hp": 60,
     "attack": 80,

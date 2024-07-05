@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "larvatt",
-  "nationalPokedexNumber": 4377,
+  "nationalPokedexNumber": 4379,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 27,

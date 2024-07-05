@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "arident",
-  "nationalPokedexNumber": 5673,
+  "nationalPokedexNumber": 5675,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 49,
     "attack": 68,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "fulgeon",
-  "nationalPokedexNumber": 4209,
+  "nationalPokedexNumber": 4211,
   "primaryType": "light",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 95,
     "attack": 110,

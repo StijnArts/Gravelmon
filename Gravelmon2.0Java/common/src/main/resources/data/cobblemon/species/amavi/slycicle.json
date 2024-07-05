@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "slycicle",
-  "nationalPokedexNumber": 5665,
+  "nationalPokedexNumber": 5667,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 80,

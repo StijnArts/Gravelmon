@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cupidtera",
-  "nationalPokedexNumber": 1988,
+  "nationalPokedexNumber": 1992,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 76,
     "attack": 45,

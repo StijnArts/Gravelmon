@@ -4,9 +4,7 @@
   "name": "Hizian",
   "primaryType": "fairy",
   "abilities": [
-    "fluffy",
-    "h:fluffy"
-  ],
+    "fluffy"  ],
   "baseStats": {
     "hp": 70,
     "attack": 65,

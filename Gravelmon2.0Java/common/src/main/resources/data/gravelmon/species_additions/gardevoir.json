@@ -173,9 +173,7 @@
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
-    "lightningrod",
-    "h:lightningrod"
-  ],
+    "lightningrod"  ],
   "baseStats": {
     "hp": 68,
     "attack": 65,
@@ -215,7 +213,6 @@
       "secondaryType": "ice",
       "abilities": [
     "lightningrod",
-    "h:lightningrod"
       ],
       "baseScale": 0.9,
         "hitbox": {

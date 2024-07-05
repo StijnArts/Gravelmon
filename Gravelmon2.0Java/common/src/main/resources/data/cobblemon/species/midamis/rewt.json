@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rewt",
-  "nationalPokedexNumber": 4510,
+  "nationalPokedexNumber": 4512,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
-    "liquidooze",
-    "h:liquidooze"
-  ],
+    "liquidooze"  ],
   "baseStats": {
     "hp": 35,
     "attack": 35,

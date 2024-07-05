@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "endramodai",
-  "nationalPokedexNumber": 3545,
+  "nationalPokedexNumber": 3547,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 157,
     "attack": 73,

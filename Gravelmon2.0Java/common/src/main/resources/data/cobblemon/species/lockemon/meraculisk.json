@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "meraculisk",
-  "nationalPokedexNumber": 3523,
+  "nationalPokedexNumber": 3525,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
     "corrosion",
-    "powerofalchemy",
-    "h:keeneye"
-  ],
+    "powerofalchemy"  ],
   "baseStats": {
     "hp": 125,
     "attack": 70,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "marvelisk",
-  "nationalPokedexNumber": 5012,
+  "nationalPokedexNumber": 5014,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 79,
     "attack": 47,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "crystail",
-  "nationalPokedexNumber": 4243,
+  "nationalPokedexNumber": 4245,
   "primaryType": "crystal",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 58,
     "attack": 58,

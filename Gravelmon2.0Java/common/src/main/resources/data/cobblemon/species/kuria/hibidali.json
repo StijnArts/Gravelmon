@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "hibidali",
-  "nationalPokedexNumber": 4126,
+  "nationalPokedexNumber": 4128,
   "primaryType": "grass",
   "secondaryType": "light",
   "abilities": [
     "harvest",
-    "leafguard",
-    "h:keeneye"
-  ],
+    "leafguard"  ],
   "baseStats": {
     "hp": 90,
     "attack": 95,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mettlemaw",
-  "nationalPokedexNumber": 2074,
+  "nationalPokedexNumber": 2078,
   "primaryType": "steel",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 68,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tadit",
-  "nationalPokedexNumber": 3150,
+  "nationalPokedexNumber": 3154,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
-    "swiftswim",
-    "h:swiftswim"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 40,
     "attack": 45,

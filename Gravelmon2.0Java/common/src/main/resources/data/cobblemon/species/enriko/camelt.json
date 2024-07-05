@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "camelt",
-  "nationalPokedexNumber": 1915,
+  "nationalPokedexNumber": 1919,
   "primaryType": "fire",
   "abilities": [
-    "rockhead",
-    "h:rockhead"
-  ],
+    "rockhead"  ],
   "baseStats": {
     "hp": 50,
     "attack": 40,

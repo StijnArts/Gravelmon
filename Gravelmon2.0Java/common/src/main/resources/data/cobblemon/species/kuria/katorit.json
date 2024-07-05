@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "katorit",
-  "nationalPokedexNumber": 4108,
+  "nationalPokedexNumber": 4110,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 92,
     "attack": 70,

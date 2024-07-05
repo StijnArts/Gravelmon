@@ -5,9 +5,7 @@
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 90,
     "attack": 50,

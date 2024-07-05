@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lilheim",
-  "nationalPokedexNumber": 3214,
+  "nationalPokedexNumber": 3218,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 62,
     "attack": 62,

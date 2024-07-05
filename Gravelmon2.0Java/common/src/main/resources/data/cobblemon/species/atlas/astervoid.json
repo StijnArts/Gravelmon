@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "astervoid",
-  "nationalPokedexNumber": 5445,
+  "nationalPokedexNumber": 5447,
   "primaryType": "dark",
   "secondaryType": "rock",
   "abilities": [
-    "levitate",
-    "h:keeneye"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 80,
     "attack": 40,

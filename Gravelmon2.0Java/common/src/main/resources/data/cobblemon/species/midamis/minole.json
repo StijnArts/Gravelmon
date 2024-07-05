@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "minole",
-  "nationalPokedexNumber": 4504,
+  "nationalPokedexNumber": 4506,
   "primaryType": "dark",
   "secondaryType": "ground",
   "abilities": [
-    "thickfat",
-    "h:thickfat"
-  ],
+    "thickfat"  ],
   "baseStats": {
     "hp": 50,
     "attack": 60,

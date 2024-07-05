@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "paswan",
-  "nationalPokedexNumber": 4319,
+  "nationalPokedexNumber": 4321,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 97,
     "attack": 65,

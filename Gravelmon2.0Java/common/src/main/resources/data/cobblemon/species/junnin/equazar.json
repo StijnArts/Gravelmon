@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "equazar",
-  "nationalPokedexNumber": 2864,
+  "nationalPokedexNumber": 2868,
   "primaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 84,

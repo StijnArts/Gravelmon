@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wendevour",
-  "nationalPokedexNumber": 5752,
+  "nationalPokedexNumber": 5754,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 145,

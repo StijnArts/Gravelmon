@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vanitom",
-  "nationalPokedexNumber": 5518,
+  "nationalPokedexNumber": 5520,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
-    "waterabsorb",
-    "h:waterabsorb"
-  ],
+    "waterabsorb"  ],
   "baseStats": {
     "hp": 106,
     "attack": 45,

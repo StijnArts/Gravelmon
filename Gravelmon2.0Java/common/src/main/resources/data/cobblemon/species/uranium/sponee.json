@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sponee",
-  "nationalPokedexNumber": 2412,
+  "nationalPokedexNumber": 2416,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
-    "waterabsorb",
-    "h:waterabsorb"
-  ],
+    "waterabsorb"  ],
   "baseStats": {
     "hp": 88,
     "attack": 35,

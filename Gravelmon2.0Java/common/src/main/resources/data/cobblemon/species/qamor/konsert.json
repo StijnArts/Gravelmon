@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "konsert",
-  "nationalPokedexNumber": 3999,
+  "nationalPokedexNumber": 4001,
   "primaryType": "dragon",
   "secondaryType": "normal",
   "abilities": [
-    "punkrock",
-    "h:punkrock"
-  ],
+    "punkrock"  ],
   "baseStats": {
     "hp": 92,
     "attack": 98,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "llampas",
-  "nationalPokedexNumber": 3445,
+  "nationalPokedexNumber": 3447,
   "primaryType": "grass",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 65,
     "attack": 50,

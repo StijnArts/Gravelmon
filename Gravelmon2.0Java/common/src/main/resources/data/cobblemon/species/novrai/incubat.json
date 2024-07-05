@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "incubat",
-  "nationalPokedexNumber": 5052,
+  "nationalPokedexNumber": 5054,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 66,
     "attack": 72,

@@ -6,9 +6,7 @@
   "secondaryType": "dark",
   "abilities": [
     "moxie",
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 90,
     "attack": 130,

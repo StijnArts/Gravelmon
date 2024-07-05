@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chimagma",
-  "nationalPokedexNumber": 5623,
+  "nationalPokedexNumber": 5625,
   "primaryType": "dragon",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 125,

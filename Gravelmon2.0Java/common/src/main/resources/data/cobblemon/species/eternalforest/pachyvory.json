@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "pachyvory",
-  "nationalPokedexNumber": 3065,
+  "nationalPokedexNumber": 3069,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
     "blaze",
-    "flamebody",
-    "h:keeneye"
-  ],
+    "flamebody"  ],
   "baseStats": {
     "hp": 108,
     "attack": 85,

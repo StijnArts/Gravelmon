@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lauvader",
-  "nationalPokedexNumber": 4500,
+  "nationalPokedexNumber": 4502,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 70,

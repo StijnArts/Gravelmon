@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "leoseace",
-  "nationalPokedexNumber": 3543,
+  "nationalPokedexNumber": 3545,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
-    "beastboost",
-    "h:keeneye"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 157,
     "attack": 113,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "velifite",
-  "nationalPokedexNumber": 4582,
+  "nationalPokedexNumber": 4584,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 42,
     "attack": 84,

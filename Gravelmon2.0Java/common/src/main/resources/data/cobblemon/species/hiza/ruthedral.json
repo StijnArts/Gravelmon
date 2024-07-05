@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ruthedral",
-  "nationalPokedexNumber": 2715,
+  "nationalPokedexNumber": 2719,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
-    "unburden",
-    "h:keeneye"
-  ],
+    "unburden"  ],
   "baseStats": {
     "hp": 90,
     "attack": 75,

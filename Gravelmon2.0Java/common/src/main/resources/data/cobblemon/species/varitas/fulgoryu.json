@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "fulgoryu",
-  "nationalPokedexNumber": 2305,
+  "nationalPokedexNumber": 2309,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
-    "wonderskin",
-    "h:wonderskin"
-  ],
+    "wonderskin"  ],
   "baseStats": {
     "hp": 85,
     "attack": 50,

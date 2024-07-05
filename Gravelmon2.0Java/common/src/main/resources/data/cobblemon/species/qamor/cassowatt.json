@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cassowatt",
-  "nationalPokedexNumber": 4044,
+  "nationalPokedexNumber": 4046,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
-    "speedboost",
-    "h:speedboost"
-  ],
+    "speedboost"  ],
   "baseStats": {
     "hp": 58,
     "attack": 103,

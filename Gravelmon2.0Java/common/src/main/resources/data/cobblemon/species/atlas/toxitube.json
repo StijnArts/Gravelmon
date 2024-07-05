@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "toxitube",
-  "nationalPokedexNumber": 5474,
+  "nationalPokedexNumber": 5476,
   "primaryType": "poison",
   "abilities": [
-    "whitesmoke",
-    "h:keeneye"
-  ],
+    "whitesmoke"  ],
   "baseStats": {
     "hp": 30,
     "attack": 40,

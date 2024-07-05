@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "moleheimer",
-  "nationalPokedexNumber": 3147,
+  "nationalPokedexNumber": 3151,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
     "arenatrap",
-    "sandrush",
-    "h:keeneye"
-  ],
+    "sandrush"  ],
   "baseStats": {
     "hp": 83,
     "attack": 92,

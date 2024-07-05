@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "chandemise",
-  "nationalPokedexNumber": 3657,
+  "nationalPokedexNumber": 3659,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
     "flamebody",
-    "illuminate",
-    "h:keeneye"
-  ],
+    "illuminate"  ],
   "baseStats": {
     "hp": 70,
     "attack": 70,

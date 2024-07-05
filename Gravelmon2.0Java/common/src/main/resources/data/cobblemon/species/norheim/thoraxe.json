@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "thoraxe",
-  "nationalPokedexNumber": 3230,
+  "nationalPokedexNumber": 3234,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 109,
     "attack": 109,

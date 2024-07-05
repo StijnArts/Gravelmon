@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "solstarian",
-  "nationalPokedexNumber": 3878,
+  "nationalPokedexNumber": 3880,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
-    "drought",
-    "h:drought"
-  ],
+    "drought"  ],
   "baseStats": {
     "hp": 80,
     "attack": 105,

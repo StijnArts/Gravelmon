@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "outatime",
-  "nationalPokedexNumber": 1957,
+  "nationalPokedexNumber": 1961,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 76,
     "attack": 40,

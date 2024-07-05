@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "voltasu",
-  "nationalPokedexNumber": 2513,
+  "nationalPokedexNumber": 2517,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
-    "voltabsorb",
-    "h:voltabsorb"
-  ],
+    "voltabsorb"  ],
   "baseStats": {
     "hp": 60,
     "attack": 60,

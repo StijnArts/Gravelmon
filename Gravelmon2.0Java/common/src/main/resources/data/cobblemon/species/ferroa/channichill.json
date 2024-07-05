@@ -6,9 +6,7 @@
   "secondaryType": "water",
   "abilities": [
     "icescales",
-    "slushrush",
-    "h:keeneye"
-  ],
+    "slushrush"  ],
   "baseStats": {
     "hp": 70,
     "attack": 120,

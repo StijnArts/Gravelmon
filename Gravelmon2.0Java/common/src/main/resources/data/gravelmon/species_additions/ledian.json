@@ -121,9 +121,7 @@
   "secondaryType": "steel",
   "abilities": [
     "ironfist",
-    "compoundeyes",
-    "h:ironfist"
-  ],
+    "compoundeyes"  ],
   "baseStats": {
     "hp": 80,
     "attack": 100,

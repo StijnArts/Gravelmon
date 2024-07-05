@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "grizzik",
-  "nationalPokedexNumber": 4566,
+  "nationalPokedexNumber": 4568,
   "primaryType": "fighting",
   "secondaryType": "ice",
   "abilities": [
-    "vitalspirit",
-    "h:vitalspirit"
-  ],
+    "vitalspirit"  ],
   "baseStats": {
     "hp": 95,
     "attack": 130,

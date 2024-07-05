@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kerbunsta",
-  "nationalPokedexNumber": 3882,
+  "nationalPokedexNumber": 3884,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 64,
     "attack": 73,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bullama",
-  "nationalPokedexNumber": 4321,
+  "nationalPokedexNumber": 4323,
   "primaryType": "grass",
   "abilities": [
-    "skilllink",
-    "h:skilllink"
-  ],
+    "skilllink"  ],
   "baseStats": {
     "hp": 68,
     "attack": 53,

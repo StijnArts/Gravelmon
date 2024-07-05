@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "volcamone",
-  "nationalPokedexNumber": 2335,
+  "nationalPokedexNumber": 2339,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 94,
     "attack": 41,

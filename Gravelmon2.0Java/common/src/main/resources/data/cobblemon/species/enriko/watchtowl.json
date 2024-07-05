@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "watchtowl",
-  "nationalPokedexNumber": 2056,
+  "nationalPokedexNumber": 2060,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 98,

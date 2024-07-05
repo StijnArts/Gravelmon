@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kankombat",
-  "nationalPokedexNumber": 3673,
+  "nationalPokedexNumber": 3675,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
-    "ironfist",
-    "h:keeneye"
-  ],
+    "ironfist"  ],
   "baseStats": {
     "hp": 90,
     "attack": 84,

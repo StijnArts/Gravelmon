@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "slendurn",
-  "nationalPokedexNumber": 5672,
+  "nationalPokedexNumber": 5674,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 300,
     "attack": 45,

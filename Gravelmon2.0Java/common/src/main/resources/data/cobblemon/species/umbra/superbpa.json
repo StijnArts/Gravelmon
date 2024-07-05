@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "superbpa",
-  "nationalPokedexNumber": 3691,
+  "nationalPokedexNumber": 3693,
   "primaryType": "bug",
   "abilities": [
-    "shedskin",
-    "h:shedskin"
-  ],
+    "shedskin"  ],
   "baseStats": {
     "hp": 30,
     "attack": 20,

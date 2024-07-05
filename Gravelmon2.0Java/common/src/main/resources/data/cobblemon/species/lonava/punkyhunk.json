@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "punkyhunk",
-  "nationalPokedexNumber": 3349,
+  "nationalPokedexNumber": 3351,
   "primaryType": "dark",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 60,

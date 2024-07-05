@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kamurados",
-  "nationalPokedexNumber": 2367,
+  "nationalPokedexNumber": 2371,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 125,
     "attack": 100,

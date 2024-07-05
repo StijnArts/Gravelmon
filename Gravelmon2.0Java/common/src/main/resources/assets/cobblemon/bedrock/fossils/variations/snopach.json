@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:snopach",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:snopach",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/snopach.png",
+      "layers": []
+    }
+  ]
+}

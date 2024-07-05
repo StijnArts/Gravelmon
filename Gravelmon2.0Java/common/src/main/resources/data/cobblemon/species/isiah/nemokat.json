@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "nemokat",
-  "nationalPokedexNumber": 4278,
+  "nationalPokedexNumber": 4280,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 95,
     "attack": 105,

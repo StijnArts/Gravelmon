@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "karmean",
-  "nationalPokedexNumber": 4574,
+  "nationalPokedexNumber": 4576,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 60,

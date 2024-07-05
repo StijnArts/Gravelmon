@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "skelevera",
-  "nationalPokedexNumber": 2731,
+  "nationalPokedexNumber": 2735,
   "primaryType": "ghost",
   "abilities": [
-    "cursedbody",
-    "h:cursedbody"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 40,
     "attack": 60,

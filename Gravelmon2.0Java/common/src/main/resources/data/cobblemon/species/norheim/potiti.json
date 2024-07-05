@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "potiti",
-  "nationalPokedexNumber": 3148,
+  "nationalPokedexNumber": 3152,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 25,

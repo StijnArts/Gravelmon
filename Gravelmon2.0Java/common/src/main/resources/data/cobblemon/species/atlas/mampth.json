@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mampth",
-  "nationalPokedexNumber": 5566,
+  "nationalPokedexNumber": 5568,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
-    "snowcloak",
-    "h:keeneye"
-  ],
+    "snowcloak"  ],
   "baseStats": {
     "hp": 65,
     "attack": 100,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "cladobe",
-  "nationalPokedexNumber": 3415,
+  "nationalPokedexNumber": 3417,
   "primaryType": "ground",
   "abilities": [
-    "flashfire",
-    "h:flashfire"
-  ],
+    "flashfire"  ],
   "baseStats": {
     "hp": 31,
     "attack": 23,

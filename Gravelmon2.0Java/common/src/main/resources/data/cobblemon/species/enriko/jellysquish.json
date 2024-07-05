@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "jellysquish",
-  "nationalPokedexNumber": 2029,
+  "nationalPokedexNumber": 2033,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 37,

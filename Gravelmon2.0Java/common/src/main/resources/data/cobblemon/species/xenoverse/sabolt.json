@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sabolt",
-  "nationalPokedexNumber": 2119,
+  "nationalPokedexNumber": 2123,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
-    "download",
-    "h:download"
-  ],
+    "download"  ],
   "baseStats": {
     "hp": 45,
     "attack": 70,

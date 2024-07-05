@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chulee",
-  "nationalPokedexNumber": 4515,
+  "nationalPokedexNumber": 4517,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
-    "earlybird",
-    "h:earlybird"
-  ],
+    "earlybird"  ],
   "baseStats": {
     "hp": 40,
     "attack": 50,

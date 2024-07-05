@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "winture",
-  "nationalPokedexNumber": 5066,
+  "nationalPokedexNumber": 5068,
   "primaryType": "ice",
   "abilities": [
-    "slushrush",
-    "h:keeneye"
-  ],
+    "slushrush"  ],
   "baseStats": {
     "hp": 44,
     "attack": 68,

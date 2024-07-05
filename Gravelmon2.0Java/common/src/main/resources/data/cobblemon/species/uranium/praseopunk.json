@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "praseopunk",
-  "nationalPokedexNumber": 2507,
+  "nationalPokedexNumber": 2511,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "plus",
-    "h:plus"
-  ],
+    "plus"  ],
   "baseStats": {
     "hp": 85,
     "attack": 80,

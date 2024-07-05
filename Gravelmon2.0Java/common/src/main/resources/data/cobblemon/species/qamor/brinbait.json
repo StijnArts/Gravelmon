@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "brinbait",
-  "nationalPokedexNumber": 4059,
+  "nationalPokedexNumber": 4061,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 100,

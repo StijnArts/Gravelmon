@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "shibark",
-  "nationalPokedexNumber": 4250,
+  "nationalPokedexNumber": 4252,
   "primaryType": "grass",
   "abilities": [
-    "overgrow",
-    "h:overgrow"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 89,
     "attack": 94,

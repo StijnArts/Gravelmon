@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "finfetti",
-  "nationalPokedexNumber": 2271,
+  "nationalPokedexNumber": 2275,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 63,
     "attack": 33,

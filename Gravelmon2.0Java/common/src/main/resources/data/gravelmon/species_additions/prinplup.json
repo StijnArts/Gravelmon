@@ -4,9 +4,7 @@
   "name": "Interian",
   "primaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 81,
     "attack": 28,

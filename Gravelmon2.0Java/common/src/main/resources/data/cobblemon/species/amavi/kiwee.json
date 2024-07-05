@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kiwee",
-  "nationalPokedexNumber": 5656,
+  "nationalPokedexNumber": 5658,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 85,

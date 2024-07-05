@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "tofigur",
-  "nationalPokedexNumber": 1928,
+  "nationalPokedexNumber": 1932,
   "primaryType": "psychic",
   "abilities": [
-    "magicbounce",
-    "h:magicbounce"
-  ],
+    "magicbounce"  ],
   "baseStats": {
     "hp": 70,
     "attack": 35,

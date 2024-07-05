@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "scaleon",
-  "nationalPokedexNumber": 2154,
+  "nationalPokedexNumber": 2158,
   "primaryType": "dragon",
   "abilities": [
-    "hypercutter",
-    "h:keeneye"
-  ],
+    "hypercutter"  ],
   "baseStats": {
     "hp": 95,
     "attack": 130,

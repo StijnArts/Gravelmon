@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "nudibolt",
-  "nationalPokedexNumber": 4984,
+  "nationalPokedexNumber": 4986,
   "primaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 81,

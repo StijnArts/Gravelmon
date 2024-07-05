@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hibernabbit",
-  "nationalPokedexNumber": 2045,
+  "nationalPokedexNumber": 2049,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 108,
     "attack": 100,

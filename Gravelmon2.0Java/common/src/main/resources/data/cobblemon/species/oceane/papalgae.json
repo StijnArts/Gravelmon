@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "papalgae",
-  "nationalPokedexNumber": 2290,
+  "nationalPokedexNumber": 2294,
   "primaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 183,
     "attack": 63,

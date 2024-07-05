@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kitsunny",
-  "nationalPokedexNumber": 3381,
+  "nationalPokedexNumber": 3383,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 50,

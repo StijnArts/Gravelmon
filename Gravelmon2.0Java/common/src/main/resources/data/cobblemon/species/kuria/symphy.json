@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "symphy",
-  "nationalPokedexNumber": 4130,
+  "nationalPokedexNumber": 4132,
   "primaryType": "electric",
   "secondaryType": "sound",
   "abilities": [
-    "static",
-    "h:keeneye"
-  ],
+    "static"  ],
   "baseStats": {
     "hp": 60,
     "attack": 55,

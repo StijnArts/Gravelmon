@@ -5,9 +5,7 @@
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 58,
     "attack": 85,

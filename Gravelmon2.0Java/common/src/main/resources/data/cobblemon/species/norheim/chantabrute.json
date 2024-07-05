@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chantabrute",
-  "nationalPokedexNumber": 3142,
+  "nationalPokedexNumber": 3146,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 92,

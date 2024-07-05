@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "maidnite",
-  "nationalPokedexNumber": 5402,
+  "nationalPokedexNumber": 5404,
   "primaryType": "fairy",
   "abilities": [
-    "oblivious",
-    "h:keeneye"
-  ],
+    "oblivious"  ],
   "baseStats": {
     "hp": 79,
     "attack": 59,

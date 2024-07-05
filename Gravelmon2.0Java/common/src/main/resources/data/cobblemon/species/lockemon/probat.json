@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "probat",
-  "nationalPokedexNumber": 3513,
+  "nationalPokedexNumber": 3515,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
-    "soundproof",
-    "h:keeneye"
-  ],
+    "soundproof"  ],
   "baseStats": {
     "hp": 85,
     "attack": 60,

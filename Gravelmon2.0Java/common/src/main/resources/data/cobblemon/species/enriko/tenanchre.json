@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "tenanchre",
-  "nationalPokedexNumber": 2076,
+  "nationalPokedexNumber": 2080,
   "primaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 130,
     "attack": 70,

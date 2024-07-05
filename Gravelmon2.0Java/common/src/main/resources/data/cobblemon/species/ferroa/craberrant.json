@@ -6,9 +6,7 @@
   "secondaryType": "bug",
   "abilities": [
     "hypercutter",
-    "bulletproof",
-    "h:keeneye"
-  ],
+    "bulletproof"  ],
   "baseStats": {
     "hp": 60,
     "attack": 115,

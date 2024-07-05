@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vikice",
-  "nationalPokedexNumber": 4078,
+  "nationalPokedexNumber": 4080,
   "primaryType": "ice",
   "secondaryType": "fighting",
   "abilities": [
-    "rockhead",
-    "h:rockhead"
-  ],
+    "rockhead"  ],
   "baseStats": {
     "hp": 78,
     "attack": 117,

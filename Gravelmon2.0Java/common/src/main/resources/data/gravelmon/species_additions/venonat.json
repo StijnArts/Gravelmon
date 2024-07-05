@@ -25,9 +25,7 @@
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
-    "static",
-    "h:static"
-  ],
+    "static"  ],
   "baseStats": {
     "hp": 60,
     "attack": 55,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "albacross",
-  "nationalPokedexNumber": 4062,
+  "nationalPokedexNumber": 4064,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
-    "lightningrod",
-    "h:lightningrod"
-  ],
+    "lightningrod"  ],
   "baseStats": {
     "hp": 100,
     "attack": 70,

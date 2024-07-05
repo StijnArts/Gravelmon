@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "germite",
-  "nationalPokedexNumber": 2324,
+  "nationalPokedexNumber": 2328,
   "primaryType": "poison",
   "abilities": [
-    "poisontouch",
-    "h:poisontouch"
-  ],
+    "poisontouch"  ],
   "baseStats": {
     "hp": 60,
     "attack": 20,

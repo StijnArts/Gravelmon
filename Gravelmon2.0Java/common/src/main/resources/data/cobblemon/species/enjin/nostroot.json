@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "nostroot",
-  "nationalPokedexNumber": 4993,
+  "nationalPokedexNumber": 4995,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
     "stench",
-    "dryskin",
-    "h:keeneye"
-  ],
+    "dryskin"  ],
   "baseStats": {
     "hp": 45,
     "attack": 30,

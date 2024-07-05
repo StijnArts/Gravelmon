@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "inscepter",
-  "nationalPokedexNumber": 5349,
+  "nationalPokedexNumber": 5351,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 71,
     "attack": 77,

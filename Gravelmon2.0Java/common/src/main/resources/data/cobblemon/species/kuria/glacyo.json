@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "glacyo",
-  "nationalPokedexNumber": 4244,
+  "nationalPokedexNumber": 4246,
   "primaryType": "questionmark",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 58,
     "attack": 85,

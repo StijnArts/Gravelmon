@@ -5,9 +5,7 @@
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 108,
     "attack": 31,

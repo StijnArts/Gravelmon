@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "leilyne",
-  "nationalPokedexNumber": 3435,
+  "nationalPokedexNumber": 3437,
   "primaryType": "electric",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 50,
     "attack": 71,

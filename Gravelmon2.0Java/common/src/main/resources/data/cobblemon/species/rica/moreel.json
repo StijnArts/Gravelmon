@@ -5,9 +5,7 @@
   "primaryType": "water",
   "abilities": [
     "moxie",
-    "rattled",
-    "h:keeneye"
-  ],
+    "rattled"  ],
   "baseStats": {
     "hp": 65,
     "attack": 80,

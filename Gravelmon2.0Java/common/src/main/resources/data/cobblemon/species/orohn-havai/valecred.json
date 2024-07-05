@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "valecred",
-  "nationalPokedexNumber": 3055,
+  "nationalPokedexNumber": 3059,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 100,

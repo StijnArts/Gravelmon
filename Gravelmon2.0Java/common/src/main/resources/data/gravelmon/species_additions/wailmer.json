@@ -5,9 +5,7 @@
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 26,

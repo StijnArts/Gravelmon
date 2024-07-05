@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "ponsense",
-  "nationalPokedexNumber": 5712,
+  "nationalPokedexNumber": 5714,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 50,

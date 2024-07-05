@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "serpensync",
-  "nationalPokedexNumber": 4419,
+  "nationalPokedexNumber": 4421,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 110,
     "attack": 110,

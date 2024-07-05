@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "geigeroach",
-  "nationalPokedexNumber": 2500,
+  "nationalPokedexNumber": 2504,
   "primaryType": "bug",
   "secondaryType": "nuclear",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 54,

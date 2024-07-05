@@ -5,9 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
-    "megalauncher",
-    "h:megalauncher"
-  ],
+    "megalauncher"  ],
   "baseStats": {
     "hp": 81,
     "attack": 63,

@@ -5,9 +5,7 @@
   "primaryType": "ghost",
   "secondaryType": "fire",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 45,
     "attack": 45,
@@ -297,9 +295,7 @@
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 50,
     "attack": 90,

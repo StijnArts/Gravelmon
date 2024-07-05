@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:therasloth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:therasloth",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/therasloth.png",
+      "layers": []
+    }
+  ]
+}

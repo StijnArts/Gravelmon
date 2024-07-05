@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "cresprit",
-  "nationalPokedexNumber": 3664,
+  "nationalPokedexNumber": 3666,
   "primaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 61,
     "attack": 73,

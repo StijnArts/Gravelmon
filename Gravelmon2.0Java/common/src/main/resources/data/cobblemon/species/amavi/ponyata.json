@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ponyata",
-  "nationalPokedexNumber": 5715,
+  "nationalPokedexNumber": 5717,
   "primaryType": "ghost",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 10,
     "attack": 5,

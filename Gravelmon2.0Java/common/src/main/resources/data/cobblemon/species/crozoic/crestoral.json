@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "crestoral",
-  "nationalPokedexNumber": 3327,
+  "nationalPokedexNumber": 3331,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 88,
     "attack": 129,

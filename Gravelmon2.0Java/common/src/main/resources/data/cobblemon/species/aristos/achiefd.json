@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "achiefd",
-  "nationalPokedexNumber": 2366,
+  "nationalPokedexNumber": 2370,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 97,
     "attack": 97,

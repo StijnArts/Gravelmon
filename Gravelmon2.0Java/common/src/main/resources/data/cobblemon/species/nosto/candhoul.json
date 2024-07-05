@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "candhoul",
-  "nationalPokedexNumber": 3656,
+  "nationalPokedexNumber": 3658,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
     "flamebody",
-    "illuminate",
-    "h:keeneye"
-  ],
+    "illuminate"  ],
   "baseStats": {
     "hp": 60,
     "attack": 50,

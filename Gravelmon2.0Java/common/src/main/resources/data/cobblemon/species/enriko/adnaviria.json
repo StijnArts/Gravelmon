@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "adnaviria",
-  "nationalPokedexNumber": 1963,
+  "nationalPokedexNumber": 1967,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 55,
     "attack": 78,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "fairywoo",
-  "nationalPokedexNumber": 3934,
+  "nationalPokedexNumber": 3936,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
     "cutecharm",
-    "superluck",
-    "h:keeneye"
-  ],
+    "superluck"  ],
   "baseStats": {
     "hp": 36,
     "attack": 62,

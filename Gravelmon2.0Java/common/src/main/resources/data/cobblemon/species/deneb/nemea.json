@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "nemea",
-  "nationalPokedexNumber": 4774,
+  "nationalPokedexNumber": 4776,
   "primaryType": "steel",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 80,
     "attack": 135,

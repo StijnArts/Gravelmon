@@ -5,9 +5,7 @@
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 54,
     "attack": 45,

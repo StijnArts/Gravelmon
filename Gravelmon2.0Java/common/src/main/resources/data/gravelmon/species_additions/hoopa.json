@@ -4,9 +4,7 @@
   "name": "Delta",
   "primaryType": "flying",
   "abilities": [
-    "cloudnine",
-    "h:cloudnine"
-  ],
+    "cloudnine"  ],
   "baseStats": {
     "hp": 80,
     "attack": 110,
@@ -198,9 +196,7 @@
   "name": "Deltaunleashed",
   "primaryType": "flying",
   "abilities": [
-    "cloudnine",
-    "h:cloudnine"
-  ],
+    "cloudnine"  ],
   "baseStats": {
     "hp": 80,
     "attack": 160,

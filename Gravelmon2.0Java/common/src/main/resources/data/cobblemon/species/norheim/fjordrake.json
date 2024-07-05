@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "fjordrake",
-  "nationalPokedexNumber": 3264,
+  "nationalPokedexNumber": 3268,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 111,
     "attack": 94,

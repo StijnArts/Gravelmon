@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "geyseror",
-  "nationalPokedexNumber": 3384,
+  "nationalPokedexNumber": 3386,
   "primaryType": "fire",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 89,

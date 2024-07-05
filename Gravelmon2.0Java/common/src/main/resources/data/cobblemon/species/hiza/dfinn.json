@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "dfinn",
-  "nationalPokedexNumber": 2713,
+  "nationalPokedexNumber": 2717,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 71,
     "attack": 41,

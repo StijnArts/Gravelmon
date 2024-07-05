@@ -6,9 +6,7 @@
   "secondaryType": "flying",
   "abilities": [
     "drought",
-    "solarpower",
-    "h:solarpower"
-  ],
+    "solarpower"  ],
   "baseStats": {
     "hp": 64,
     "attack": 85,

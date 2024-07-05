@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "conedian",
-  "nationalPokedexNumber": 3427,
+  "nationalPokedexNumber": 3429,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 76,
     "attack": 34,

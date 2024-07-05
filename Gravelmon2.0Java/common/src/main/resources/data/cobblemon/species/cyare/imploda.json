@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "imploda",
-  "nationalPokedexNumber": 5783,
+  "nationalPokedexNumber": 5785,
   "primaryType": "fire",
   "abilities": [
-    "aftermath",
-    "h:aftermath"
-  ],
+    "aftermath"  ],
   "baseStats": {
     "hp": 120,
     "attack": 100,

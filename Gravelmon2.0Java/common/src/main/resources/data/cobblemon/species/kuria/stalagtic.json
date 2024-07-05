@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "stalagtic",
-  "nationalPokedexNumber": 4127,
+  "nationalPokedexNumber": 4129,
   "primaryType": "rock",
   "abilities": [
     "solidrock",
-    "weakarmor",
-    "h:keeneye"
-  ],
+    "weakarmor"  ],
   "baseStats": {
     "hp": 70,
     "attack": 60,

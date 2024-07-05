@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "possasse",
-  "nationalPokedexNumber": 4354,
+  "nationalPokedexNumber": 4356,
   "primaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 66,

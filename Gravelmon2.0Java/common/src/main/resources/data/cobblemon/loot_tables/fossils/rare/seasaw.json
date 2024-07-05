@@ -1,0 +1,11 @@
+{
+  "result": "seasaw",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "cobblemon:fossils/rare/chain_fossil"
+}

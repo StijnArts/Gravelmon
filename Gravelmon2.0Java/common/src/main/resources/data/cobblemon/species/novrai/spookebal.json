@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "spookebal",
-  "nationalPokedexNumber": 5190,
+  "nationalPokedexNumber": 5192,
   "primaryType": "ghost",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 40,
     "attack": 40,

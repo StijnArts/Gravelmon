@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "poolem",
-  "nationalPokedexNumber": 1886,
+  "nationalPokedexNumber": 1890,
   "primaryType": "ground",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 70,

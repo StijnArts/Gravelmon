@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "brunelectric",
-  "nationalPokedexNumber": 3389,
+  "nationalPokedexNumber": 3391,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 33,
     "attack": 33,

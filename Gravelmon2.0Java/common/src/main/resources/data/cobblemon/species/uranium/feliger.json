@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "feliger",
-  "nationalPokedexNumber": 2402,
+  "nationalPokedexNumber": 2406,
   "primaryType": "normal",
   "abilities": [
-    "truant",
-    "h:truant"
-  ],
+    "truant"  ],
   "baseStats": {
     "hp": 120,
     "attack": 155,

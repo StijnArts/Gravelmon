@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "thermedary",
-  "nationalPokedexNumber": 1916,
+  "nationalPokedexNumber": 1920,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 130,
     "attack": 60,

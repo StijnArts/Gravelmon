@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:enigmore",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:enigmore",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/enigmore.png",
+      "layers": []
+    }
+  ]
+}

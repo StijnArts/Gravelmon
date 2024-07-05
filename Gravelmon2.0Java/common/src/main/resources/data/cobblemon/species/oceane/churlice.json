@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "churlice",
-  "nationalPokedexNumber": 2283,
+  "nationalPokedexNumber": 2287,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
     "stickyhold",
-    "pressure",
-    "h:keeneye"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 35,
     "attack": 44,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "melabuzz",
-  "nationalPokedexNumber": 3578,
+  "nationalPokedexNumber": 3580,
   "primaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 42,
     "attack": 14,

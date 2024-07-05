@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kvadract",
-  "nationalPokedexNumber": 2372,
+  "nationalPokedexNumber": 2376,
   "primaryType": "fairy",
   "secondaryType": "dark",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 67,
     "attack": 59,

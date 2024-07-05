@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "eyesaur",
-  "nationalPokedexNumber": 3303,
+  "nationalPokedexNumber": 3307,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 65,

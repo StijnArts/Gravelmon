@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lumeny",
-  "nationalPokedexNumber": 4248,
+  "nationalPokedexNumber": 4250,
   "primaryType": "light",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

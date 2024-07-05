@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "taranterror",
-  "nationalPokedexNumber": 2308,
+  "nationalPokedexNumber": 2312,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 85,
     "attack": 95,

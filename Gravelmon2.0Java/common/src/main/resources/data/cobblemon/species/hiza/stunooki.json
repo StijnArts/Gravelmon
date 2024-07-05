@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "stunooki",
-  "nationalPokedexNumber": 2703,
+  "nationalPokedexNumber": 2707,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
-    "static",
-    "h:static"
-  ],
+    "static"  ],
   "baseStats": {
     "hp": 30,
     "attack": 60,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "plurshie",
-  "nationalPokedexNumber": 4656,
+  "nationalPokedexNumber": 4658,
   "primaryType": "ghost",
   "abilities": [
-    "rattled",
-    "h:keeneye"
-  ],
+    "rattled"  ],
   "baseStats": {
     "hp": 71,
     "attack": 77,

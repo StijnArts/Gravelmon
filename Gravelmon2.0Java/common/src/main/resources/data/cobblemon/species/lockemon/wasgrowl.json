@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wasgrowl",
-  "nationalPokedexNumber": 3511,
+  "nationalPokedexNumber": 3513,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
-    "strongjaw",
-    "h:keeneye"
-  ],
+    "strongjaw"  ],
   "baseStats": {
     "hp": 60,
     "attack": 95,

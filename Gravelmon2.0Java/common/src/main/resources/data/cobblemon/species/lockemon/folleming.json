@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "folleming",
-  "nationalPokedexNumber": 3517,
+  "nationalPokedexNumber": 3519,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 60,

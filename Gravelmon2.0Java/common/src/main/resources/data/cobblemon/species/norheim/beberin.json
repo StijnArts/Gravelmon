@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "beberin",
-  "nationalPokedexNumber": 3131,
+  "nationalPokedexNumber": 3135,
   "primaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 51,
     "attack": 45,

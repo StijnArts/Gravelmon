@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "fatom",
-  "nationalPokedexNumber": 2062,
+  "nationalPokedexNumber": 2066,
   "primaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 54,
     "attack": 87,

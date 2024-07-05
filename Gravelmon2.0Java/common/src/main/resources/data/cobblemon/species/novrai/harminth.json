@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "harminth",
-  "nationalPokedexNumber": 5244,
+  "nationalPokedexNumber": 5246,
   "primaryType": "rock",
   "secondaryType": "poison",
   "abilities": [
     "oblivious",
-    "liquidooze",
-    "h:keeneye"
-  ],
+    "liquidooze"  ],
   "baseStats": {
     "hp": 85,
     "attack": 60,

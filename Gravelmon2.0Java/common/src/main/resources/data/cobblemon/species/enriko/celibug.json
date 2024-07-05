@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "celibug",
-  "nationalPokedexNumber": 1989,
+  "nationalPokedexNumber": 1993,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 101,
     "attack": 87,

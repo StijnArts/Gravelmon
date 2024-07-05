@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "piczarre",
-  "nationalPokedexNumber": 4383,
+  "nationalPokedexNumber": 4385,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 68,

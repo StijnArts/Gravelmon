@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "barilbil",
-  "nationalPokedexNumber": 5415,
+  "nationalPokedexNumber": 5417,
   "primaryType": "normal",
   "abilities": [
     "pickup",
-    "weakarmor",
-    "h:keeneye"
-  ],
+    "weakarmor"  ],
   "baseStats": {
     "hp": 63,
     "attack": 51,

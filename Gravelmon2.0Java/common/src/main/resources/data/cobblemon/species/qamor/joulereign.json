@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "joulereign",
-  "nationalPokedexNumber": 4051,
+  "nationalPokedexNumber": 4053,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
-    "dazzling",
-    "h:dazzling"
-  ],
+    "dazzling"  ],
   "baseStats": {
     "hp": 60,
     "attack": 105,

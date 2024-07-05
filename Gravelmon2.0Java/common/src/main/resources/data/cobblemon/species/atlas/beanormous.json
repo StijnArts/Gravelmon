@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "beanormous",
-  "nationalPokedexNumber": 5574,
+  "nationalPokedexNumber": 5576,
   "primaryType": "fairy",
   "secondaryType": "grass",
   "abilities": [
     "cloudnine",
-    "frisk",
-    "h:keeneye"
-  ],
+    "frisk"  ],
   "baseStats": {
     "hp": 90,
     "attack": 80,

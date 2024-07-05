@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "equeena",
-  "nationalPokedexNumber": 5736,
+  "nationalPokedexNumber": 5738,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 20,

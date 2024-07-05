@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "navatoria",
-  "nationalPokedexNumber": 2373,
+  "nationalPokedexNumber": 2377,
   "primaryType": "flying",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 73,
     "attack": 40,

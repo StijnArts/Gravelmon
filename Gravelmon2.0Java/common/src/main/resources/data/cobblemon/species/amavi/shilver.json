@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "shilver",
-  "nationalPokedexNumber": 5667,
+  "nationalPokedexNumber": 5669,
   "primaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 75,

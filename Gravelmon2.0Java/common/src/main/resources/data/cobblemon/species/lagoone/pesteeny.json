@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1513,
   "primaryType": "dark",
   "abilities": [
-    "schooling",
-    "h:schooling"
-  ],
+    "schooling"  ],
   "baseStats": {
     "hp": 45,
     "attack": 25,

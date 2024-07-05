@@ -5,9 +5,7 @@
   "primaryType": "water",
   "abilities": [
     "serenegrace",
-    "overcoat",
-    "h:overcoat"
-  ],
+    "overcoat"  ],
   "baseStats": {
     "hp": 44,
     "attack": 48,

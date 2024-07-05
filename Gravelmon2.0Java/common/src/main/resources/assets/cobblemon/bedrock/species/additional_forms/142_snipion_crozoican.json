@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:snipion",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "crozoican"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_crozoicansnipion",
+      "texture": "cobblemon:textures/pokemon/ferroa/crozoicansnipion.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crozoican",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_crozoicansnipion",
+      "texture": "cobblemon:textures/pokemon/ferroa/crozoicansnipion_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

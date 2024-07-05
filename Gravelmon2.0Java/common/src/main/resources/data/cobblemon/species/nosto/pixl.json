@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pixl",
-  "nationalPokedexNumber": 3620,
+  "nationalPokedexNumber": 3622,
   "primaryType": "electric",
   "secondaryType": "bug",
   "abilities": [
-    "download",
-    "h:keeneye"
-  ],
+    "download"  ],
   "baseStats": {
     "hp": 90,
     "attack": 54,

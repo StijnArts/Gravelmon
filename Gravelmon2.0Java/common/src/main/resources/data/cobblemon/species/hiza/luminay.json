@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "luminay",
-  "nationalPokedexNumber": 2753,
+  "nationalPokedexNumber": 2757,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
-    "illuminate",
-    "h:illuminate"
-  ],
+    "illuminate"  ],
   "baseStats": {
     "hp": 92,
     "attack": 80,

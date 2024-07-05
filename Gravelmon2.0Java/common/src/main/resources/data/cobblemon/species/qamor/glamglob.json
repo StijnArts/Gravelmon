@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "glamglob",
-  "nationalPokedexNumber": 4064,
+  "nationalPokedexNumber": 4066,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 98,

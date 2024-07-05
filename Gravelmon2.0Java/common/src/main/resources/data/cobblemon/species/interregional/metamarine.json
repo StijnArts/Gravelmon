@@ -5,9 +5,7 @@
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
-    "megalauncher",
-    "h:megalauncher"
-  ],
+    "megalauncher"  ],
   "baseStats": {
     "hp": 90,
     "attack": 70,

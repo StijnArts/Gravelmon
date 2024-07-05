@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "baburun",
-  "nationalPokedexNumber": 4944,
+  "nationalPokedexNumber": 4946,
   "primaryType": "water",
   "abilities": [
-    "swiftswim",
-    "h:swiftswim"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 40,
     "attack": 35,

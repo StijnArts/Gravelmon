@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "exploseave",
-  "nationalPokedexNumber": 2010,
+  "nationalPokedexNumber": 2014,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 80,

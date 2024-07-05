@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "crickochet",
-  "nationalPokedexNumber": 4084,
+  "nationalPokedexNumber": 4086,
   "primaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 113,

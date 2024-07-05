@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "solkiwi",
-  "nationalPokedexNumber": 1925,
+  "nationalPokedexNumber": 1929,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 88,

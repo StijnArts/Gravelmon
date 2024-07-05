@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "clotaku",
-  "nationalPokedexNumber": 4731,
+  "nationalPokedexNumber": 4733,
   "primaryType": "poison",
   "abilities": [
-    "stench",
-    "h:stench"
-  ],
+    "stench"  ],
   "baseStats": {
     "hp": 75,
     "attack": 60,

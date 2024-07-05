@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "skeejack",
-  "nationalPokedexNumber": 3773,
+  "nationalPokedexNumber": 3775,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
     "infiltrator",
-    "compoundeyes",
-    "h:keeneye"
-  ],
+    "compoundeyes"  ],
   "baseStats": {
     "hp": 60,
     "attack": 95,

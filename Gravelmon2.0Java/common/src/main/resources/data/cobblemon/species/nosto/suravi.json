@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "suravi",
-  "nationalPokedexNumber": 3666,
+  "nationalPokedexNumber": 3668,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 96,
     "attack": 118,

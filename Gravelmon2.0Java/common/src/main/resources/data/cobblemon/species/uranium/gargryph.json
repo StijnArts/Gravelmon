@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "gargryph",
-  "nationalPokedexNumber": 2469,
+  "nationalPokedexNumber": 2473,
   "primaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 80,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dazee",
-  "nationalPokedexNumber": 5624,
+  "nationalPokedexNumber": 5626,
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 69,
     "attack": 30,

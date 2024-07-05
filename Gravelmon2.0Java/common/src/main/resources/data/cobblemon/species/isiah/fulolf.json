@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "fulolf",
-  "nationalPokedexNumber": 4380,
+  "nationalPokedexNumber": 4382,
   "primaryType": "dark",
   "secondaryType": "steel",
   "abilities": [
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 79,
     "attack": 112,

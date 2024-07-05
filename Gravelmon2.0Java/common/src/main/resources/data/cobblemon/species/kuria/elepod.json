@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "elepod",
-  "nationalPokedexNumber": 4176,
+  "nationalPokedexNumber": 4178,
   "primaryType": "electric",
   "secondaryType": "cosmic",
   "abilities": [
     "static",
-    "stormdrain",
-    "h:keeneye"
-  ],
+    "stormdrain"  ],
   "baseStats": {
     "hp": 60,
     "attack": 40,

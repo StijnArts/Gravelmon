@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "tarsiboo",
-  "nationalPokedexNumber": 5035,
+  "nationalPokedexNumber": 5037,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 30,
     "attack": 50,

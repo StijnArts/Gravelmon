@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "elvile",
-  "nationalPokedexNumber": 4467,
+  "nationalPokedexNumber": 4469,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
-    "superluck",
-    "h:superluck"
-  ],
+    "superluck"  ],
   "baseStats": {
     "hp": 90,
     "attack": 65,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "psyrus",
-  "nationalPokedexNumber": 1962,
+  "nationalPokedexNumber": 1966,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 38,
     "attack": 54,

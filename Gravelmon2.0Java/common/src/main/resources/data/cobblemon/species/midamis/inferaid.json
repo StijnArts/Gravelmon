@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "inferaid",
-  "nationalPokedexNumber": 4576,
+  "nationalPokedexNumber": 4578,
   "primaryType": "fighting",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 100,

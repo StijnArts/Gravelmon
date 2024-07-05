@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:arctusk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:arctusk",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/arctusk.png",
+      "layers": []
+    }
+  ]
+}

@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1337,
   "primaryType": "dark",
   "abilities": [
-    "insomnia",
-    "h:keeneye"
-  ],
+    "insomnia"  ],
   "baseStats": {
     "hp": 60,
     "attack": 113,

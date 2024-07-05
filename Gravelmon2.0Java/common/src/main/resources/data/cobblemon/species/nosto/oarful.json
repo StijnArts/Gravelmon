@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "oarful",
-  "nationalPokedexNumber": 3600,
+  "nationalPokedexNumber": 3602,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "swiftswim",
-    "h:swiftswim"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 89,
     "attack": 107,

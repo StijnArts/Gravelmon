@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "taquana",
-  "nationalPokedexNumber": 2644,
+  "nationalPokedexNumber": 2648,
   "primaryType": "grass",
   "abilities": [
-    "multiscale",
-    "h:multiscale"
-  ],
+    "multiscale"  ],
   "baseStats": {
     "hp": 75,
     "attack": 70,

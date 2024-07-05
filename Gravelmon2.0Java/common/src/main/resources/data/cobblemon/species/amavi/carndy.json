@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "carndy",
-  "nationalPokedexNumber": 5705,
+  "nationalPokedexNumber": 5707,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 48,
     "attack": 55,

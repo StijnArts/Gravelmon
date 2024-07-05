@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "burstich",
-  "nationalPokedexNumber": 2798,
+  "nationalPokedexNumber": 2802,
   "primaryType": "fire",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 50,
     "attack": 55,

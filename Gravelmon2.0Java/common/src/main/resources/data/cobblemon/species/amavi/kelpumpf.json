@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kelpumpf",
-  "nationalPokedexNumber": 5748,
+  "nationalPokedexNumber": 5750,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 55,

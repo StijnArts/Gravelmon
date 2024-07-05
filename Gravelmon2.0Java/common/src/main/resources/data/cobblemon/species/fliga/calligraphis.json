@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "calligraphis",
-  "nationalPokedexNumber": 3954,
+  "nationalPokedexNumber": 3956,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 41,
     "attack": 73,

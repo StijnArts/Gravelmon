@@ -5,9 +5,7 @@
   "primaryType": "rock",
   "abilities": [
     "mirrorarmor",
-    "solarpower",
-    "h:keeneye"
-  ],
+    "solarpower"  ],
   "baseStats": {
     "hp": 75,
     "attack": 85,

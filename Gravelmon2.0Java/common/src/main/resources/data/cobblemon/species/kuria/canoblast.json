@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "canoblast",
-  "nationalPokedexNumber": 4173,
+  "nationalPokedexNumber": 4175,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 90,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kobble",
-  "nationalPokedexNumber": 4193,
+  "nationalPokedexNumber": 4195,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 120,

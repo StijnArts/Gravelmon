@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vamprachne",
-  "nationalPokedexNumber": 3682,
+  "nationalPokedexNumber": 3684,
   "primaryType": "poison",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 115,

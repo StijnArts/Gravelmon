@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "khancrete",
-  "nationalPokedexNumber": 1923,
+  "nationalPokedexNumber": 1927,
   "primaryType": "rock",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 160,

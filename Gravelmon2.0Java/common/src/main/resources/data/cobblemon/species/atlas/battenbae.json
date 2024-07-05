@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "battenbae",
-  "nationalPokedexNumber": 5471,
+  "nationalPokedexNumber": 5473,
   "primaryType": "fairy",
   "abilities": [
-    "sweetveil",
-    "h:sweetveil"
-  ],
+    "sweetveil"  ],
   "baseStats": {
     "hp": 110,
     "attack": 40,

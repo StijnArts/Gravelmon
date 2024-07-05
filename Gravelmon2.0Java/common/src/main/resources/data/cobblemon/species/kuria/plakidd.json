@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "plakidd",
-  "nationalPokedexNumber": 4220,
+  "nationalPokedexNumber": 4222,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
     "swiftswim",
-    "hydration",
-    "h:keeneye"
-  ],
+    "hydration"  ],
   "baseStats": {
     "hp": 82,
     "attack": 103,

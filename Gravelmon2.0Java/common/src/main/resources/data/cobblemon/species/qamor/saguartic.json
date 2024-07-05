@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "saguartic",
-  "nationalPokedexNumber": 4068,
+  "nationalPokedexNumber": 4070,
   "primaryType": "ice",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 86,

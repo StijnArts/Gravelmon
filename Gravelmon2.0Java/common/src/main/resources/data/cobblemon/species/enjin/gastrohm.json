@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "gastrohm",
-  "nationalPokedexNumber": 4982,
+  "nationalPokedexNumber": 4984,
   "primaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 48,
     "attack": 44,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "caviat",
-  "nationalPokedexNumber": 4258,
+  "nationalPokedexNumber": 4260,
   "primaryType": "normal",
   "abilities": [
-    "runaway",
-    "h:runaway"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 70,
     "attack": 51,

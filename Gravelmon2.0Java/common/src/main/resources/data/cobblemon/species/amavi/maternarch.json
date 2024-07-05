@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "maternarch",
-  "nationalPokedexNumber": 5611,
+  "nationalPokedexNumber": 5613,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 111,
     "attack": 40,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "numby",
-  "nationalPokedexNumber": 4016,
+  "nationalPokedexNumber": 4018,
   "primaryType": "flying",
   "abilities": [
-    "cloudnine",
-    "h:cloudnine"
-  ],
+    "cloudnine"  ],
   "baseStats": {
     "hp": 59,
     "attack": 49,

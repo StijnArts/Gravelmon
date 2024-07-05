@@ -5,9 +5,7 @@
   "primaryType": "ice",
   "secondaryType": "poison",
   "abilities": [
-    "toxicdebris",
-    "h:toxicdebris"
-  ],
+    "toxicdebris"  ],
   "baseStats": {
     "hp": 114,
     "attack": 40,

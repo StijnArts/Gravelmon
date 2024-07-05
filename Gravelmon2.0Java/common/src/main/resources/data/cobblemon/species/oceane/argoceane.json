@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "argoceane",
-  "nationalPokedexNumber": 2300,
+  "nationalPokedexNumber": 2304,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 90,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "opilape",
-  "nationalPokedexNumber": 4352,
+  "nationalPokedexNumber": 4354,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 69,

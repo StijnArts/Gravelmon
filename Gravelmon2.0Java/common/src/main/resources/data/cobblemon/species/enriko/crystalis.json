@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "crystalis",
-  "nationalPokedexNumber": 2032,
+  "nationalPokedexNumber": 2036,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
-    "snowwarning",
-    "h:snowwarning"
-  ],
+    "snowwarning"  ],
   "baseStats": {
     "hp": 65,
     "attack": 65,

@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1377,
   "primaryType": "steel",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 90,
     "attack": 60,

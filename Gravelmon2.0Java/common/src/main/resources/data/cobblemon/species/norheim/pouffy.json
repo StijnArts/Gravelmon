@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "pouffy",
-  "nationalPokedexNumber": 3103,
+  "nationalPokedexNumber": 3107,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
     "torrent",
-    "bigpecks",
-    "h:keeneye"
-  ],
+    "bigpecks"  ],
   "baseStats": {
     "hp": 45,
     "attack": 45,

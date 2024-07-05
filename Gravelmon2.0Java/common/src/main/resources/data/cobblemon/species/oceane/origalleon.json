@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "origalleon",
-  "nationalPokedexNumber": 2278,
+  "nationalPokedexNumber": 2282,
   "primaryType": "electric",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 93,
     "attack": 93,

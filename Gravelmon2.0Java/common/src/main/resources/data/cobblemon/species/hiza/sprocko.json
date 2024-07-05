@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "sprocko",
-  "nationalPokedexNumber": 2642,
+  "nationalPokedexNumber": 2646,
   "primaryType": "grass",
   "abilities": [
-    "multiscale",
-    "h:multiscale"
-  ],
+    "multiscale"  ],
   "baseStats": {
     "hp": 25,
     "attack": 20,

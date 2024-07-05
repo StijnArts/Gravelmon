@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "adeerex",
-  "nationalPokedexNumber": 4586,
+  "nationalPokedexNumber": 4588,
   "primaryType": "dark",
   "secondaryType": "rock",
   "abilities": [
-    "angerpoint",
-    "h:keeneye"
-  ],
+    "angerpoint"  ],
   "baseStats": {
     "hp": 105,
     "attack": 140,

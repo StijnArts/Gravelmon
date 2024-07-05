@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "ganimede",
-  "nationalPokedexNumber": 4773,
+  "nationalPokedexNumber": 4775,
   "primaryType": "flying",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 75,
     "attack": 110,

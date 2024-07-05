@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "crabsconda",
-  "nationalPokedexNumber": 5633,
+  "nationalPokedexNumber": 5635,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 65,

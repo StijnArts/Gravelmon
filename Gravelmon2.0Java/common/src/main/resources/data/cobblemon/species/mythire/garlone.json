@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "garlone",
-  "nationalPokedexNumber": 3879,
+  "nationalPokedexNumber": 3881,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 145,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bustag",
-  "nationalPokedexNumber": 5716,
+  "nationalPokedexNumber": 5718,
   "primaryType": "ghost",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 20,

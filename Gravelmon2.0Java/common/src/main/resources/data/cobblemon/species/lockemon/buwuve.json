@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "buwuve",
-  "nationalPokedexNumber": 3510,
+  "nationalPokedexNumber": 3512,
   "primaryType": "water",
   "abilities": [
-    "strongjaw",
-    "h:keeneye"
-  ],
+    "strongjaw"  ],
   "baseStats": {
     "hp": 40,
     "attack": 60,

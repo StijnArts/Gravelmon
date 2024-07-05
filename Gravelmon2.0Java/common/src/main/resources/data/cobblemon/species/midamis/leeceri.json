@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "leeceri",
-  "nationalPokedexNumber": 4589,
+  "nationalPokedexNumber": 4591,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
-    "unburden",
-    "h:unburden"
-  ],
+    "unburden"  ],
   "baseStats": {
     "hp": 95,
     "attack": 85,

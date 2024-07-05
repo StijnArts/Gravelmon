@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "angloch",
-  "nationalPokedexNumber": 3436,
+  "nationalPokedexNumber": 3438,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 50,

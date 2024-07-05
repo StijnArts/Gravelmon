@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "conductot",
-  "nationalPokedexNumber": 4801,
+  "nationalPokedexNumber": 4803,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 101,
     "attack": 80,

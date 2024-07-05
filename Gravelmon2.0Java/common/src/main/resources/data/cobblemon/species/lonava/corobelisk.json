@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "corobelisk",
-  "nationalPokedexNumber": 3441,
+  "nationalPokedexNumber": 3443,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 120,
     "attack": 110,

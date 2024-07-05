@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "krakanao",
-  "nationalPokedexNumber": 2522,
+  "nationalPokedexNumber": 2526,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 90,
     "attack": 145,

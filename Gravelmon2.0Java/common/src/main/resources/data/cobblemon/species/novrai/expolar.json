@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "expolar",
-  "nationalPokedexNumber": 5067,
+  "nationalPokedexNumber": 5069,
   "primaryType": "ice",
   "secondaryType": "fighting",
   "abilities": [
-    "slushrush",
-    "h:keeneye"
-  ],
+    "slushrush"  ],
   "baseStats": {
     "hp": 67,
     "attack": 120,

@@ -5,9 +5,7 @@
   "primaryType": "ground",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 140,
     "attack": 55,

@@ -5,9 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 38,

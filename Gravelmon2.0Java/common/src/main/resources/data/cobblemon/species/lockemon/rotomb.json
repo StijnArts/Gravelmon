@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rotomb",
-  "nationalPokedexNumber": 3534,
+  "nationalPokedexNumber": 3536,
   "primaryType": "electric",
   "secondaryType": "ghost",
   "abilities": [
-    "levitate",
-    "h:keeneye"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 50,
     "attack": 108,

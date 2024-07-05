@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kragodon",
-  "nationalPokedexNumber": 3000,
+  "nationalPokedexNumber": 3004,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 127,
     "attack": 49,

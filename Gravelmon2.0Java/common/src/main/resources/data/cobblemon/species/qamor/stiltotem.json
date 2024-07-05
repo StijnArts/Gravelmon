@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "stiltotem",
-  "nationalPokedexNumber": 3987,
+  "nationalPokedexNumber": 3989,
   "primaryType": "grass",
   "abilities": [
-    "longreach",
-    "h:longreach"
-  ],
+    "longreach"  ],
   "baseStats": {
     "hp": 66,
     "attack": 92,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dispariot",
-  "nationalPokedexNumber": 5749,
+  "nationalPokedexNumber": 5751,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 150,
     "attack": 100,

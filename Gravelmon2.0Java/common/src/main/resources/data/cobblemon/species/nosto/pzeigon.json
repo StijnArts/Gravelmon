@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pzeigon",
-  "nationalPokedexNumber": 3667,
+  "nationalPokedexNumber": 3669,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 115,
     "attack": 116,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "protebat",
-  "nationalPokedexNumber": 3794,
+  "nationalPokedexNumber": 3796,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 76,
     "attack": 87,

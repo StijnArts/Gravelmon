@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bwairy",
-  "nationalPokedexNumber": 3157,
+  "nationalPokedexNumber": 3161,
   "primaryType": "fairy",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 34,

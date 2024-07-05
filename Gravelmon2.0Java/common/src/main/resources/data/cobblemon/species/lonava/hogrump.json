@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "hogrump",
-  "nationalPokedexNumber": 3358,
+  "nationalPokedexNumber": 3360,
   "primaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 82,

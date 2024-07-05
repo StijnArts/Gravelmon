@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "primmella",
-  "nationalPokedexNumber": 3629,
+  "nationalPokedexNumber": 3631,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "queenlymajesty",
-    "h:queenlymajesty"
-  ],
+    "queenlymajesty"  ],
   "baseStats": {
     "hp": 60,
     "attack": 35,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "laundronaut",
-  "nationalPokedexNumber": 1940,
+  "nationalPokedexNumber": 1944,
   "primaryType": "poison",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 103,
     "attack": 66,

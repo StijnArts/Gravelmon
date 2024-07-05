@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gorsylum",
-  "nationalPokedexNumber": 4072,
+  "nationalPokedexNumber": 4074,
   "primaryType": "ghost",
   "secondaryType": "dragon",
   "abilities": [
-    "dryskin",
-    "h:dryskin"
-  ],
+    "dryskin"  ],
   "baseStats": {
     "hp": 90,
     "attack": 150,

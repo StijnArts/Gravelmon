@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ragtoc",
-  "nationalPokedexNumber": 5537,
+  "nationalPokedexNumber": 5539,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 30,
     "attack": 45,

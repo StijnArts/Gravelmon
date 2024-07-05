@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pestinox",
-  "nationalPokedexNumber": 3877,
+  "nationalPokedexNumber": 3879,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
-    "poisontouch",
-    "h:poisontouch"
-  ],
+    "poisontouch"  ],
   "baseStats": {
     "hp": 80,
     "attack": 100,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "vitellion",
-  "nationalPokedexNumber": 3751,
+  "nationalPokedexNumber": 3753,
   "primaryType": "questionmark",
   "abilities": [
-    "amalgam",
-    "h:amalgam"
-  ],
+    "amalgam"  ],
   "baseStats": {
     "hp": 250,
     "attack": 10,

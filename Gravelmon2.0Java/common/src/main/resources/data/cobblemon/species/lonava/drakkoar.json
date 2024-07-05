@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "drakkoar",
-  "nationalPokedexNumber": 3437,
+  "nationalPokedexNumber": 3439,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 85,

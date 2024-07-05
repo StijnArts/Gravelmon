@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bogidiboo",
-  "nationalPokedexNumber": 5744,
+  "nationalPokedexNumber": 5746,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 35,

@@ -5,9 +5,7 @@
   "primaryType": "psychic",
   "secondaryType": "cosmic",
   "abilities": [
-    "technician",
-    "h:technician"
-  ],
+    "technician"  ],
   "baseStats": {
     "hp": 120,
     "attack": 120,

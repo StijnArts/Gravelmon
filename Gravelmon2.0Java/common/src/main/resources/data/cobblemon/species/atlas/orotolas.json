@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "orotolas",
-  "nationalPokedexNumber": 5582,
+  "nationalPokedexNumber": 5584,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 121,
     "attack": 120,

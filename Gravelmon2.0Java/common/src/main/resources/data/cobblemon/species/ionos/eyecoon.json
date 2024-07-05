@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "eyecoon",
-  "nationalPokedexNumber": 5021,
+  "nationalPokedexNumber": 5023,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 56,
     "attack": 49,

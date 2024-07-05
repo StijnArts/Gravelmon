@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "ampt",
-  "nationalPokedexNumber": 3998,
+  "nationalPokedexNumber": 4000,
   "primaryType": "normal",
   "abilities": [
-    "punkrock",
-    "h:punkrock"
-  ],
+    "punkrock"  ],
   "baseStats": {
     "hp": 61,
     "attack": 63,

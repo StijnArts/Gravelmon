@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nurstork",
-  "nationalPokedexNumber": 5759,
+  "nationalPokedexNumber": 5761,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 120,
     "attack": 50,

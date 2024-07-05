@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "barrose",
-  "nationalPokedexNumber": 5501,
+  "nationalPokedexNumber": 5503,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
     "thickfat",
-    "stormdrain",
-    "h:keeneye"
-  ],
+    "stormdrain"  ],
   "baseStats": {
     "hp": 70,
     "attack": 35,

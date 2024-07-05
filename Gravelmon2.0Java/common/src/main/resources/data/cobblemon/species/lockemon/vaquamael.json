@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vaquamael",
-  "nationalPokedexNumber": 3453,
+  "nationalPokedexNumber": 3455,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
-    "torrent",
-    "h:keeneye"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 65,
     "attack": 90,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "prarendo",
-  "nationalPokedexNumber": 4548,
+  "nationalPokedexNumber": 4550,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
-    "roughskin",
-    "h:roughskin"
-  ],
+    "roughskin"  ],
   "baseStats": {
     "hp": 75,
     "attack": 65,

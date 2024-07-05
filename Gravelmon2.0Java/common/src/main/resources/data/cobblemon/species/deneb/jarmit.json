@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "jarmit",
-  "nationalPokedexNumber": 4733,
+  "nationalPokedexNumber": 4735,
   "primaryType": "ghost",
   "abilities": [
-    "stench",
-    "h:stench"
-  ],
+    "stench"  ],
   "baseStats": {
     "hp": 75,
     "attack": 55,

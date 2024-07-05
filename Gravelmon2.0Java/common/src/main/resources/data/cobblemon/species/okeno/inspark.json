@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "inspark",
-  "nationalPokedexNumber": 4651,
+  "nationalPokedexNumber": 4653,
   "primaryType": "fire",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 50,

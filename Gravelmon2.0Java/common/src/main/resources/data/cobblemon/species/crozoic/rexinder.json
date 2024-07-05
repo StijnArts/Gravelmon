@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rexinder",
-  "nationalPokedexNumber": 3319,
+  "nationalPokedexNumber": 3323,
   "primaryType": "fire",
   "abilities": [
     "flamebody",
-    "vitalspirit",
-    "h:keeneye"
-  ],
+    "vitalspirit"  ],
   "baseStats": {
     "hp": 95,
     "attack": 68,

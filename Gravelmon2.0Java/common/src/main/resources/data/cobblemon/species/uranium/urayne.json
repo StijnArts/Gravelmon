@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "urayne",
-  "nationalPokedexNumber": 2525,
+  "nationalPokedexNumber": 2529,
   "primaryType": "nuclear",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 82,
     "attack": 120,

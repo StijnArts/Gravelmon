@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "impawzible",
-  "nationalPokedexNumber": 5126,
+  "nationalPokedexNumber": 5128,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
     "soundproof",
-    "contrary",
-    "h:keeneye"
-  ],
+    "contrary"  ],
   "baseStats": {
     "hp": 61,
     "attack": 49,

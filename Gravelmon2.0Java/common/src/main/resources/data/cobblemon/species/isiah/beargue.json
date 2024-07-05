@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "beargue",
-  "nationalPokedexNumber": 4336,
+  "nationalPokedexNumber": 4338,
   "primaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 77,
     "attack": 72,

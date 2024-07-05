@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:tyranos",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tyranos",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/tyranos.png",
+      "layers": []
+    }
+  ]
+}

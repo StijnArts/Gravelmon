@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "yoppa",
-  "nationalPokedexNumber": 4242,
+  "nationalPokedexNumber": 4244,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 51,
     "attack": 39,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "rhombish",
-  "nationalPokedexNumber": 5713,
+  "nationalPokedexNumber": 5715,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 40,

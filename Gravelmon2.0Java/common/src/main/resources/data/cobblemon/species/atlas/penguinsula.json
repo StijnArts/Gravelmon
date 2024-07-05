@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "penguinsula",
-  "nationalPokedexNumber": 5579,
+  "nationalPokedexNumber": 5581,
   "primaryType": "ice",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 90,
     "attack": 90,

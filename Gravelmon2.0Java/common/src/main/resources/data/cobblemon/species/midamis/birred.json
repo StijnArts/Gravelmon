@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "birred",
-  "nationalPokedexNumber": 4489,
+  "nationalPokedexNumber": 4491,
   "primaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 55,

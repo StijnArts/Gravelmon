@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "scuffowl",
-  "nationalPokedexNumber": 4611,
+  "nationalPokedexNumber": 4613,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
     "earlybird",
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 65,
     "attack": 88,

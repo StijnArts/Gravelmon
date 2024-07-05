@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "grubzero",
-  "nationalPokedexNumber": 2031,
+  "nationalPokedexNumber": 2035,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
-    "snowcloak",
-    "h:snowcloak"
-  ],
+    "snowcloak"  ],
   "baseStats": {
     "hp": 45,
     "attack": 60,

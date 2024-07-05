@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "sisanne",
-  "nationalPokedexNumber": 5407,
+  "nationalPokedexNumber": 5409,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
     "oblivious",
-    "forewarn",
-    "h:keeneye"
-  ],
+    "forewarn"  ],
   "baseStats": {
     "hp": 73,
     "attack": 48,

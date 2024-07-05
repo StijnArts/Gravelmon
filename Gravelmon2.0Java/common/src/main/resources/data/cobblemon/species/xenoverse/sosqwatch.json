@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sosqwatch",
-  "nationalPokedexNumber": 2141,
+  "nationalPokedexNumber": 2145,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
-    "slushrush",
-    "h:slushrush"
-  ],
+    "slushrush"  ],
   "baseStats": {
     "hp": 72,
     "attack": 74,

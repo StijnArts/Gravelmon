@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "luceyan",
-  "nationalPokedexNumber": 4596,
+  "nationalPokedexNumber": 4598,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 125,

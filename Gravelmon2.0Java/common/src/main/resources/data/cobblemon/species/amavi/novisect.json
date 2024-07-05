@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "novisect",
-  "nationalPokedexNumber": 5630,
+  "nationalPokedexNumber": 5632,
   "primaryType": "fighting",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 59,
     "attack": 69,

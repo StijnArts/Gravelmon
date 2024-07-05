@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mosglet",
-  "nationalPokedexNumber": 4163,
+  "nationalPokedexNumber": 4165,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
-    "megalauncher",
-    "h:megalauncher"
-  ],
+    "megalauncher"  ],
   "baseStats": {
     "hp": 130,
     "attack": 56,

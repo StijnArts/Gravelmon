@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "raccoustic",
-  "nationalPokedexNumber": 4152,
+  "nationalPokedexNumber": 4154,
   "primaryType": "sound",
   "secondaryType": "dark",
   "abilities": [
     "hustle",
-    "guts",
-    "h:keeneye"
-  ],
+    "guts"  ],
   "baseStats": {
     "hp": 75,
     "attack": 80,

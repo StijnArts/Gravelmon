@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "trouterror",
-  "nationalPokedexNumber": 2737,
+  "nationalPokedexNumber": 2741,
   "primaryType": "ghost",
   "secondaryType": "steel",
   "abilities": [
-    "battlearmor",
-    "h:battlearmor"
-  ],
+    "battlearmor"  ],
   "baseStats": {
     "hp": 60,
     "attack": 85,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "lochsea",
-  "nationalPokedexNumber": 2839,
+  "nationalPokedexNumber": 2843,
   "primaryType": "water",
   "abilities": [
-    "torrent",
-    "h:torrent"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 54,
     "attack": 36,

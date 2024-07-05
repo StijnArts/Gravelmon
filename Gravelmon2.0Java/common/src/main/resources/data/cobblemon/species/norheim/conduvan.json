@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "conduvan",
-  "nationalPokedexNumber": 3280,
+  "nationalPokedexNumber": 3284,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 157,
     "attack": 81,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "forbitten",
-  "nationalPokedexNumber": 5634,
+  "nationalPokedexNumber": 5636,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 140,
     "attack": 70,

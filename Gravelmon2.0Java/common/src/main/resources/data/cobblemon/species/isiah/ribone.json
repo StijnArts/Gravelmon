@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ribone",
-  "nationalPokedexNumber": 4340,
+  "nationalPokedexNumber": 4342,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 67,
     "attack": 78,

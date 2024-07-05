@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "iceidic",
-  "nationalPokedexNumber": 2039,
+  "nationalPokedexNumber": 2043,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 74,
     "attack": 46,

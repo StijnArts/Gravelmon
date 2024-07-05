@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "malarva",
-  "nationalPokedexNumber": 3071,
+  "nationalPokedexNumber": 3075,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
     "runaway",
-    "runaway",
-    "h:runaway"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 15,
     "attack": 45,

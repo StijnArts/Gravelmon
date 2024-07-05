@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kivirial",
-  "nationalPokedexNumber": 4592,
+  "nationalPokedexNumber": 4594,
   "primaryType": "steel",
   "secondaryType": "dragon",
   "abilities": [
-    "ironfist",
-    "h:ironfist"
-  ],
+    "ironfist"  ],
   "baseStats": {
     "hp": 95,
     "attack": 130,

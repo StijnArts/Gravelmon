@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "tarboraze",
-  "nationalPokedexNumber": 3320,
+  "nationalPokedexNumber": 3324,
   "primaryType": "fire",
   "abilities": [
-    "flamebody",
-    "h:keeneye"
-  ],
+    "flamebody"  ],
   "baseStats": {
     "hp": 137,
     "attack": 98,

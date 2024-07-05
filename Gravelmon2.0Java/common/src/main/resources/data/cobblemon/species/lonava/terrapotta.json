@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "terrapotta",
-  "nationalPokedexNumber": 3416,
+  "nationalPokedexNumber": 3418,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 33,

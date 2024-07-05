@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "sicada",
-  "nationalPokedexNumber": 4648,
+  "nationalPokedexNumber": 4650,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
     "swarm",
-    "telepathy",
-    "h:keeneye"
-  ],
+    "telepathy"  ],
   "baseStats": {
     "hp": 34,
     "attack": 40,

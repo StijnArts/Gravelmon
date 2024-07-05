@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "banshed",
-  "nationalPokedexNumber": 4305,
+  "nationalPokedexNumber": 4307,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 78,
     "attack": 44,

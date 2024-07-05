@@ -1,24 +1,14 @@
 package drai.dev.gravelmon.forge;
 
 import com.cobblemon.mod.common.*;
-import com.cobblemon.mod.common.api.*;
-import com.cobblemon.mod.common.item.*;
 import com.cobblemon.mod.common.item.group.*;
-import com.cobblemon.mod.common.platform.events.*;
-import com.cobblemon.mod.common.util.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
-import kotlin.*;
-import net.minecraft.*;
-import net.minecraft.locale.*;
-import net.minecraft.network.chat.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.api.distmarker.*;
 import net.minecraftforge.event.*;
 import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.fml.common.*;
-
-import java.util.stream.*;
 
 @Mod.EventBusSubscriber(modid = Gravelmon.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CreativeTabInit {

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "streedove",
-  "nationalPokedexNumber": 3567,
+  "nationalPokedexNumber": 3569,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 49,
     "attack": 25,

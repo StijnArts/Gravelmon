@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "behitle",
-  "nationalPokedexNumber": 2650,
+  "nationalPokedexNumber": 2654,
   "primaryType": "bug",
   "abilities": [
-    "heatproof",
-    "h:heatproof"
-  ],
+    "heatproof"  ],
   "baseStats": {
     "hp": 20,
     "attack": 60,

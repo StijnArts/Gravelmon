@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:iceros",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:iceros",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/iceros.png",
+      "layers": []
+    }
+  ]
+}

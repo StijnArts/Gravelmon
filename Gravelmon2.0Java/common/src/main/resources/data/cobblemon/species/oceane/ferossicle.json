@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ferossicle",
-  "nationalPokedexNumber": 2221,
+  "nationalPokedexNumber": 2225,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 140,
     "attack": 100,

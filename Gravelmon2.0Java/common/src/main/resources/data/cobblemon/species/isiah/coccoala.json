@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "coccoala",
-  "nationalPokedexNumber": 4275,
+  "nationalPokedexNumber": 4277,
   "primaryType": "normal",
   "abilities": [
-    "cutecharm",
-    "h:cutecharm"
-  ],
+    "cutecharm"  ],
   "baseStats": {
     "hp": 70,
     "attack": 50,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "madrursa",
-  "nationalPokedexNumber": 4076,
+  "nationalPokedexNumber": 4078,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
-    "snowwarning",
-    "h:snowwarning"
-  ],
+    "snowwarning"  ],
   "baseStats": {
     "hp": 77,
     "attack": 40,

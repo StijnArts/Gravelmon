@@ -6,9 +6,7 @@
   "secondaryType": "psychic",
   "abilities": [
     "simple",
-    "trace",
-    "h:keeneye"
-  ],
+    "trace"  ],
   "baseStats": {
     "hp": 79,
     "attack": 50,

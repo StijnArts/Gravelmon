@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "clawryde",
-  "nationalPokedexNumber": 3334,
+  "nationalPokedexNumber": 3338,
   "primaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 97,

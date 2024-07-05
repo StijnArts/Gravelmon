@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ivorage",
-  "nationalPokedexNumber": 5675,
+  "nationalPokedexNumber": 5677,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 140,

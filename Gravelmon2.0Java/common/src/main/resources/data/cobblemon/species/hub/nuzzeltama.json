@@ -5,9 +5,7 @@
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
-    "thickfat",
-    "h:thickfat"
-  ],
+    "thickfat"  ],
   "baseStats": {
     "hp": 98,
     "attack": 78,

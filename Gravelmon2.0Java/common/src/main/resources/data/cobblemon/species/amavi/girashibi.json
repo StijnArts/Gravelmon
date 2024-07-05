@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "girashibi",
-  "nationalPokedexNumber": 5662,
+  "nationalPokedexNumber": 5664,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 66,

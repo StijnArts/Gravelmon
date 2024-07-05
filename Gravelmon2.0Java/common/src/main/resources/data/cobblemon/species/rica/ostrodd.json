@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1294,
   "primaryType": "water",
   "abilities": [
-    "shellarmor",
-    "h:shellarmor"
-  ],
+    "shellarmor"  ],
   "baseStats": {
     "hp": 40,
     "attack": 20,

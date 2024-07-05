@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dreadtyde",
-  "nationalPokedexNumber": 2301,
+  "nationalPokedexNumber": 2305,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 90,

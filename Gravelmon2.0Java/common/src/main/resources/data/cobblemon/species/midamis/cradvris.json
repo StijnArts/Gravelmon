@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cradvris",
-  "nationalPokedexNumber": 4534,
+  "nationalPokedexNumber": 4536,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
-    "swarm",
-    "h:keeneye"
-  ],
+    "swarm"  ],
   "baseStats": {
     "hp": 85,
     "attack": 105,

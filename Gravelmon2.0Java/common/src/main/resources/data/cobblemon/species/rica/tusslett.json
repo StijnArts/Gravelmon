@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1326,
   "primaryType": "dark",
   "abilities": [
-    "bigpecks",
-    "h:bigpecks"
-  ],
+    "bigpecks"  ],
   "baseStats": {
     "hp": 45,
     "attack": 67,

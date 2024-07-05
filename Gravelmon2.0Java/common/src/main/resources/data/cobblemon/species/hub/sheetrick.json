@@ -5,9 +5,7 @@
   "primaryType": "ghost",
   "secondaryType": "normal",
   "abilities": [
-    "tangledfeet",
-    "h:tangledfeet"
-  ],
+    "tangledfeet"  ],
   "baseStats": {
     "hp": 50,
     "attack": 70,

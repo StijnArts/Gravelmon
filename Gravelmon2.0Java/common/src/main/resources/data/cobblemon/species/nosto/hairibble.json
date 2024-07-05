@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hairibble",
-  "nationalPokedexNumber": 3596,
+  "nationalPokedexNumber": 3598,
   "primaryType": "ground",
   "secondaryType": "poison",
   "abilities": [
-    "tanglinghair",
-    "h:tanglinghair"
-  ],
+    "tanglinghair"  ],
   "baseStats": {
     "hp": 52,
     "attack": 79,

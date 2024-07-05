@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chassel",
-  "nationalPokedexNumber": 5678,
+  "nationalPokedexNumber": 5680,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 94,
     "attack": 70,

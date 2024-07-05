@@ -5,9 +5,7 @@
   "primaryType": "ghost",
   "secondaryType": "steel",
   "abilities": [
-    "mummy",
-    "h:mummy"
-  ],
+    "mummy"  ],
   "baseStats": {
     "hp": 38,
     "attack": 30,

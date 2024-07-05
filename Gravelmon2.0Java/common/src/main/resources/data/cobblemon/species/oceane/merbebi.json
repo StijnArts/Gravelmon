@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "merbebi",
-  "nationalPokedexNumber": 2240,
+  "nationalPokedexNumber": 2244,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 64,
     "attack": 22,

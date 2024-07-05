@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dredrock",
-  "nationalPokedexNumber": 4428,
+  "nationalPokedexNumber": 4430,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "battlearmor",
-    "h:battlearmor"
-  ],
+    "battlearmor"  ],
   "baseStats": {
     "hp": 90,
     "attack": 75,

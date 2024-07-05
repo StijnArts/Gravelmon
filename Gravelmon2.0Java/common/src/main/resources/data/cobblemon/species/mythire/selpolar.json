@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "selpolar",
-  "nationalPokedexNumber": 3845,
+  "nationalPokedexNumber": 3847,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 70,

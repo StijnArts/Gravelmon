@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "droudrop",
-  "nationalPokedexNumber": 4822,
+  "nationalPokedexNumber": 4824,
   "primaryType": "fire",
   "abilities": [
-    "drought",
-    "h:drought"
-  ],
+    "drought"  ],
   "baseStats": {
     "hp": 45,
     "attack": 75,

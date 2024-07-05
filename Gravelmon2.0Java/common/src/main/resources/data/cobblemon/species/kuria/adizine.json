@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "adizine",
-  "nationalPokedexNumber": 4167,
+  "nationalPokedexNumber": 4169,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 90,

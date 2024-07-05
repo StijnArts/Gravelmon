@@ -5,9 +5,7 @@
   "primaryType": "ground",
   "secondaryType": "poison",
   "abilities": [
-    "intoxicate",
-    "h:intoxicate"
-  ],
+    "intoxicate"  ],
   "baseStats": {
     "hp": 92,
     "attack": 105,

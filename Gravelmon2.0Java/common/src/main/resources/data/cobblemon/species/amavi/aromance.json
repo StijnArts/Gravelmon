@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "aromance",
-  "nationalPokedexNumber": 5636,
+  "nationalPokedexNumber": 5638,
   "primaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 75,

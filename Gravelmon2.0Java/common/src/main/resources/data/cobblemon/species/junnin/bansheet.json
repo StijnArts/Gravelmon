@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bansheet",
-  "nationalPokedexNumber": 2890,
+  "nationalPokedexNumber": 2894,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 32,
     "attack": 59,

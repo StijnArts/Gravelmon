@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "erupaima",
-  "nationalPokedexNumber": 2700,
+  "nationalPokedexNumber": 2704,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 90,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "impac",
-  "nationalPokedexNumber": 5784,
+  "nationalPokedexNumber": 5786,
   "primaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 89,
     "attack": 120,

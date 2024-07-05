@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "terbipan",
-  "nationalPokedexNumber": 4295,
+  "nationalPokedexNumber": 4297,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
-    "tangledfeet",
-    "h:keeneye"
-  ],
+    "tangledfeet"  ],
   "baseStats": {
     "hp": 75,
     "attack": 85,

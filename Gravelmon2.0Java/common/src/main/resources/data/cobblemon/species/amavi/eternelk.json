@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "eternelk",
-  "nationalPokedexNumber": 5629,
+  "nationalPokedexNumber": 5631,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 55,

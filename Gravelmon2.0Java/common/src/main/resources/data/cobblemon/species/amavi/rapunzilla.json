@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rapunzilla",
-  "nationalPokedexNumber": 5619,
+  "nationalPokedexNumber": 5621,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 95,
     "attack": 65,

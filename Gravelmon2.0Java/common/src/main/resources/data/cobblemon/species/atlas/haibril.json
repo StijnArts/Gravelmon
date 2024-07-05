@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "haibril",
-  "nationalPokedexNumber": 5416,
+  "nationalPokedexNumber": 5418,
   "primaryType": "normal",
   "abilities": [
     "pickup",
-    "weakarmor",
-    "h:keeneye"
-  ],
+    "weakarmor"  ],
   "baseStats": {
     "hp": 104,
     "attack": 94,

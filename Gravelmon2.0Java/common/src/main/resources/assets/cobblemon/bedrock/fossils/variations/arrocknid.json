@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:arrocknid",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:arrocknid",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/arrocknid.png",
+      "layers": []
+    }
+  ]
+}

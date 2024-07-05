@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:phisnooz",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:phisnooz",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/phisnooz.png",
+      "layers": []
+    }
+  ]
+}

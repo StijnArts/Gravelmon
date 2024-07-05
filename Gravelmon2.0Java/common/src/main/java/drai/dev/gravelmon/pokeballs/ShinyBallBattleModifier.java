@@ -1,7 +1,6 @@
 package drai.dev.gravelmon.pokeballs;
 
 import com.cobblemon.mod.common.api.pokeball.catching.*;
-import com.cobblemon.mod.common.api.pokeball.catching.modifiers.*;
 import com.cobblemon.mod.common.pokemon.*;
 import net.minecraft.world.entity.*;
 import org.jetbrains.annotations.*;

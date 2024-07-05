@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "salpackin",
-  "nationalPokedexNumber": 2275,
+  "nationalPokedexNumber": 2279,
   "primaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 50,

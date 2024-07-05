@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "cindera",
-  "nationalPokedexNumber": 5465,
+  "nationalPokedexNumber": 5467,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
     "magmaarmor",
-    "flamebody",
-    "h:keeneye"
-  ],
+    "flamebody"  ],
   "baseStats": {
     "hp": 56,
     "attack": 57,

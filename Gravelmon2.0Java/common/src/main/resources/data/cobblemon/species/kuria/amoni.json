@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "amoni",
-  "nationalPokedexNumber": 4166,
+  "nationalPokedexNumber": 4168,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 35,
     "attack": 60,

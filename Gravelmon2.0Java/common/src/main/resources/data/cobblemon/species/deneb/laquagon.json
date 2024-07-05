@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "laquagon",
-  "nationalPokedexNumber": 4769,
+  "nationalPokedexNumber": 4771,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
-    "rockhead",
-    "h:rockhead"
-  ],
+    "rockhead"  ],
   "baseStats": {
     "hp": 44,
     "attack": 60,

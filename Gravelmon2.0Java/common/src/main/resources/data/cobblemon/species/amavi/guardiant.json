@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "guardiant",
-  "nationalPokedexNumber": 5608,
+  "nationalPokedexNumber": 5610,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 134,

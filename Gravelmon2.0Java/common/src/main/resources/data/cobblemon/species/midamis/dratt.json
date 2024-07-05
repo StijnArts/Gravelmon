@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dratt",
-  "nationalPokedexNumber": 4553,
+  "nationalPokedexNumber": 4555,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
-    "chlorophyll",
-    "h:chlorophyll"
-  ],
+    "chlorophyll"  ],
   "baseStats": {
     "hp": 40,
     "attack": 50,

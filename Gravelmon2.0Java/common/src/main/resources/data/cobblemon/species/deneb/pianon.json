@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pianon",
-  "nationalPokedexNumber": 4756,
+  "nationalPokedexNumber": 4758,
   "primaryType": "normal",
   "abilities": [
-    "owntempo",
-    "h:owntempo"
-  ],
+    "owntempo"  ],
   "baseStats": {
     "hp": 105,
     "attack": 70,

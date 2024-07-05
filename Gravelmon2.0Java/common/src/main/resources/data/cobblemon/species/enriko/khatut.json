@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "khatut",
-  "nationalPokedexNumber": 1999,
+  "nationalPokedexNumber": 2003,
   "primaryType": "normal",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 30,

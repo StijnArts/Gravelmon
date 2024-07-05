@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "larvley",
-  "nationalPokedexNumber": 5730,
+  "nationalPokedexNumber": 5732,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 40,

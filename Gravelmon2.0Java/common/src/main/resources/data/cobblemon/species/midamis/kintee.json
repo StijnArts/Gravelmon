@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "kintee",
-  "nationalPokedexNumber": 4518,
+  "nationalPokedexNumber": 4520,
   "primaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 70,

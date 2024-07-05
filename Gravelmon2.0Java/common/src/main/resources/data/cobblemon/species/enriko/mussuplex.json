@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mussuplex",
-  "nationalPokedexNumber": 1907,
+  "nationalPokedexNumber": 1911,
   "primaryType": "fighting",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 80,

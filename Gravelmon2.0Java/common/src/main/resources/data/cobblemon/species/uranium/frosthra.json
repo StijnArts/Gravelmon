@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "frosthra",
-  "nationalPokedexNumber": 2482,
+  "nationalPokedexNumber": 2486,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 55,

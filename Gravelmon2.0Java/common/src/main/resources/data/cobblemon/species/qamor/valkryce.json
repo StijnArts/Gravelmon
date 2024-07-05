@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "valkryce",
-  "nationalPokedexNumber": 4079,
+  "nationalPokedexNumber": 4081,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 78,
     "attack": 50,

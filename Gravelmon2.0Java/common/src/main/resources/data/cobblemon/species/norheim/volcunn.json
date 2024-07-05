@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "volcunn",
-  "nationalPokedexNumber": 3277,
+  "nationalPokedexNumber": 3281,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 143,
     "attack": 63,

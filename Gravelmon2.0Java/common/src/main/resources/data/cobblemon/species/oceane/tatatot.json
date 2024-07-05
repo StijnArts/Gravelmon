@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tatatot",
-  "nationalPokedexNumber": 2279,
+  "nationalPokedexNumber": 2283,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 39,
     "attack": 34,

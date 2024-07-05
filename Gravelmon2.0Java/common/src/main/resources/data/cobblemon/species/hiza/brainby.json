@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "brainby",
-  "nationalPokedexNumber": 2779,
+  "nationalPokedexNumber": 2783,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "analytic",
-    "h:analytic"
-  ],
+    "analytic"  ],
   "baseStats": {
     "hp": 50,
     "attack": 35,

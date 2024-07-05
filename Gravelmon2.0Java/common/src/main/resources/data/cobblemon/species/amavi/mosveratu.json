@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mosveratu",
-  "nationalPokedexNumber": 5747,
+  "nationalPokedexNumber": 5749,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 155,
     "attack": 95,

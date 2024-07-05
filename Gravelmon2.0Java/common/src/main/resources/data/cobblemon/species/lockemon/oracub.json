@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "oracub",
-  "nationalPokedexNumber": 3515,
+  "nationalPokedexNumber": 3517,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
-    "innerfocus",
-    "h:innerfocus"
-  ],
+    "innerfocus"  ],
   "baseStats": {
     "hp": 80,
     "attack": 50,

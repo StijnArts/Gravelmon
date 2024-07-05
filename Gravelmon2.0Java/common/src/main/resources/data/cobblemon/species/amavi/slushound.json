@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "slushound",
-  "nationalPokedexNumber": 5668,
+  "nationalPokedexNumber": 5670,
   "primaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 115,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "heliark",
-  "nationalPokedexNumber": 4225,
+  "nationalPokedexNumber": 4227,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 39,
     "attack": 82,

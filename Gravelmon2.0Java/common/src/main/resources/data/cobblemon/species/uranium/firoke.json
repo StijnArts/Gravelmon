@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "firoke",
-  "nationalPokedexNumber": 2409,
+  "nationalPokedexNumber": 2413,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
-    "sniper",
-    "h:sniper"
-  ],
+    "sniper"  ],
   "baseStats": {
     "hp": 80,
     "attack": 60,

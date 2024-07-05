@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1646,
   "primaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 46,
     "attack": 55,

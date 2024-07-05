@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "durtwurm",
-  "nationalPokedexNumber": 2550,
+  "nationalPokedexNumber": 2554,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
     "weakarmor",
-    "dryskin",
-    "h:dryskin"
-  ],
+    "dryskin"  ],
   "baseStats": {
     "hp": 50,
     "attack": 60,

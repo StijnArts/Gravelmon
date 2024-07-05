@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "insensei",
-  "nationalPokedexNumber": 5631,
+  "nationalPokedexNumber": 5633,
   "primaryType": "fighting",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 79,
     "attack": 127,

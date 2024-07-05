@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "akrilles",
-  "nationalPokedexNumber": 5689,
+  "nationalPokedexNumber": 5691,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 5,
     "attack": 180,

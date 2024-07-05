@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "lulabaa",
-  "nationalPokedexNumber": 2953,
+  "nationalPokedexNumber": 2957,
   "primaryType": "normal",
   "secondaryType": "fairy",
   "abilities": [
     "cutecharm",
-    "magicguard",
-    "h:keeneye"
-  ],
+    "magicguard"  ],
   "baseStats": {
     "hp": 100,
     "attack": 35,

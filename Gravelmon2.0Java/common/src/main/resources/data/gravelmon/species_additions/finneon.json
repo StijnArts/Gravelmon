@@ -4,9 +4,7 @@
   "name": "Lagoonan",
   "primaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 49,
     "attack": 49,

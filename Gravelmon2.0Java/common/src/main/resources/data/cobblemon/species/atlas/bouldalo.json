@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "bouldalo",
-  "nationalPokedexNumber": 5464,
+  "nationalPokedexNumber": 5466,
   "primaryType": "normal",
   "secondaryType": "rock",
   "abilities": [
     "moldbreaker",
-    "reckless",
-    "h:keeneye"
-  ],
+    "reckless"  ],
   "baseStats": {
     "hp": 70,
     "attack": 135,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "booey",
-  "nationalPokedexNumber": 5700,
+  "nationalPokedexNumber": 5702,
   "primaryType": "ghost",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 250,
     "attack": 25,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rivulcred",
-  "nationalPokedexNumber": 3054,
+  "nationalPokedexNumber": 3058,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 110,
     "attack": 70,

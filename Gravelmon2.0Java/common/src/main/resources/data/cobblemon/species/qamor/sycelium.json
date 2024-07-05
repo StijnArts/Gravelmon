@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sycelium",
-  "nationalPokedexNumber": 4026,
+  "nationalPokedexNumber": 4028,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
-    "owntempo",
-    "h:owntempo"
-  ],
+    "owntempo"  ],
   "baseStats": {
     "hp": 88,
     "attack": 44,

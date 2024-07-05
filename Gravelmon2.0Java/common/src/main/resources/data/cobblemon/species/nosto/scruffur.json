@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "scruffur",
-  "nationalPokedexNumber": 3594,
+  "nationalPokedexNumber": 3596,
   "primaryType": "ground",
   "abilities": [
-    "sandveil",
-    "h:sandveil"
-  ],
+    "sandveil"  ],
   "baseStats": {
     "hp": 74,
     "attack": 86,

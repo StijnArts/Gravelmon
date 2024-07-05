@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "vintera",
-  "nationalPokedexNumber": 2812,
+  "nationalPokedexNumber": 2816,
   "primaryType": "ice",
   "abilities": [
-    "snowwarning",
-    "h:snowwarning"
-  ],
+    "snowwarning"  ],
   "baseStats": {
     "hp": 100,
     "attack": 120,

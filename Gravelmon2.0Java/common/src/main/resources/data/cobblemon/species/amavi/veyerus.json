@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "veyerus",
-  "nationalPokedexNumber": 5655,
+  "nationalPokedexNumber": 5657,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 20,

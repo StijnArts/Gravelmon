@@ -6,9 +6,7 @@
   "secondaryType": "fire",
   "abilities": [
     "flamebody",
-    "angerpoint",
-    "h:keeneye"
-  ],
+    "angerpoint"  ],
   "baseStats": {
     "hp": 70,
     "attack": 98,

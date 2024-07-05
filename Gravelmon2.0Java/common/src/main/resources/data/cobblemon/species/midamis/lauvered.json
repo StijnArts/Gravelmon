@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lauvered",
-  "nationalPokedexNumber": 4499,
+  "nationalPokedexNumber": 4501,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 60,

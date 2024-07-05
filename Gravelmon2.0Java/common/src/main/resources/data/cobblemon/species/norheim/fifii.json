@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "fifii",
-  "nationalPokedexNumber": 3288,
+  "nationalPokedexNumber": 3292,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
-    "longreach",
-    "h:longreach"
-  ],
+    "longreach"  ],
   "baseStats": {
     "hp": 88,
     "attack": 120,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dragalisk",
-  "nationalPokedexNumber": 2171,
+  "nationalPokedexNumber": 2175,
   "primaryType": "ground",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 150,

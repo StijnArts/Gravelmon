@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "flager",
-  "nationalPokedexNumber": 2586,
+  "nationalPokedexNumber": 2590,
   "primaryType": "fire",
   "abilities": [
-    "flashfire",
-    "h:flashfire"
-  ],
+    "flashfire"  ],
   "baseStats": {
     "hp": 40,
     "attack": 55,

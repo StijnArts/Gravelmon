@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1363,
   "primaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 80,

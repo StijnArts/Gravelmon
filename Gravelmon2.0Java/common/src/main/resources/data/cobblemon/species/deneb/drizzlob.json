@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "drizzlob",
-  "nationalPokedexNumber": 4821,
+  "nationalPokedexNumber": 4823,
   "primaryType": "water",
   "abilities": [
-    "drizzle",
-    "h:drizzle"
-  ],
+    "drizzle"  ],
   "baseStats": {
     "hp": 70,
     "attack": 85,

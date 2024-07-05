@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "larvly",
-  "nationalPokedexNumber": 5649,
+  "nationalPokedexNumber": 5651,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 10,

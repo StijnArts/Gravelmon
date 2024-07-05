@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "glacunn",
-  "nationalPokedexNumber": 3279,
+  "nationalPokedexNumber": 3283,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 116,
     "attack": 40,

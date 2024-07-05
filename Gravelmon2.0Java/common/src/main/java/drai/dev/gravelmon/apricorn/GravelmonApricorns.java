@@ -1,7 +1,5 @@
 package drai.dev.gravelmon.apricorn;
 
-import com.cobblemon.mod.common.api.apricorn.*;
-import com.cobblemon.mod.common.block.*;
 import drai.dev.gravelmon.registries.*;
 import net.minecraft.world.level.*;
 import net.minecraft.world.level.block.*;

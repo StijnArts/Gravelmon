@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1642,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 28,
     "attack": 56,

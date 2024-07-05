@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "spoutlaw",
-  "nationalPokedexNumber": 3452,
+  "nationalPokedexNumber": 3454,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
-    "torrent",
-    "h:keeneye"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 55,
     "attack": 85,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chillaxo",
-  "nationalPokedexNumber": 3310,
+  "nationalPokedexNumber": 3314,
   "primaryType": "normal",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 62,
     "attack": 58,

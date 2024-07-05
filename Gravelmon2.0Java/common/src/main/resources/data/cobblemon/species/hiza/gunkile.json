@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gunkile",
-  "nationalPokedexNumber": 2710,
+  "nationalPokedexNumber": 2714,
   "primaryType": "poison",
   "secondaryType": "water",
   "abilities": [
-    "strongjaw",
-    "h:strongjaw"
-  ],
+    "strongjaw"  ],
   "baseStats": {
     "hp": 45,
     "attack": 66,

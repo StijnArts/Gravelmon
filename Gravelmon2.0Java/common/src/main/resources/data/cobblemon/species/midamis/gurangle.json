@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gurangle",
-  "nationalPokedexNumber": 4526,
+  "nationalPokedexNumber": 4528,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 100,
     "attack": 80,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dysolony",
-  "nationalPokedexNumber": 1955,
+  "nationalPokedexNumber": 1959,
   "primaryType": "psychic",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 89,
     "attack": 44,

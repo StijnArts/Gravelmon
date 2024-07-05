@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "goolossal",
-  "nationalPokedexNumber": 3747,
+  "nationalPokedexNumber": 3749,
   "primaryType": "fairy",
   "abilities": [
-    "liquidooze",
-    "h:liquidooze"
-  ],
+    "liquidooze"  ],
   "baseStats": {
     "hp": 200,
     "attack": 65,

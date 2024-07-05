@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "magpipe",
-  "nationalPokedexNumber": 5594,
+  "nationalPokedexNumber": 5596,
   "primaryType": "flying",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 30,

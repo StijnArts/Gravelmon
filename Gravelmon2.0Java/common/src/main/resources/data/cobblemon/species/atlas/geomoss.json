@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "geomoss",
-  "nationalPokedexNumber": 5411,
+  "nationalPokedexNumber": 5413,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
-    "sturdy",
-    "h:keeneye"
-  ],
+    "sturdy"  ],
   "baseStats": {
     "hp": 70,
     "attack": 60,

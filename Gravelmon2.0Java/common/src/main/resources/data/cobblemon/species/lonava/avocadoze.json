@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "avocadoze",
-  "nationalPokedexNumber": 3390,
+  "nationalPokedexNumber": 3392,
   "primaryType": "grass",
   "abilities": [
-    "comatose",
-    "h:comatose"
-  ],
+    "comatose"  ],
   "baseStats": {
     "hp": 52,
     "attack": 30,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "flurse",
-  "nationalPokedexNumber": 4466,
+  "nationalPokedexNumber": 4468,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
-    "superluck",
-    "h:superluck"
-  ],
+    "superluck"  ],
   "baseStats": {
     "hp": 60,
     "attack": 50,

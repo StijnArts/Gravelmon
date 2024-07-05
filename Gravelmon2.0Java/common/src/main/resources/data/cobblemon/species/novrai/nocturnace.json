@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nocturnace",
-  "nationalPokedexNumber": 5053,
+  "nationalPokedexNumber": 5055,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 71,
     "attack": 98,

@@ -5,9 +5,7 @@
   "primaryType": "fairy",
   "secondaryType": "grass",
   "abilities": [
-    "grassysurge",
-    "h:grassysurge"
-  ],
+    "grassysurge"  ],
   "baseStats": {
     "hp": 154,
     "attack": 80,

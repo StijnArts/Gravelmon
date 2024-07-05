@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mountunn",
-  "nationalPokedexNumber": 3278,
+  "nationalPokedexNumber": 3282,
   "primaryType": "electric",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 143,
     "attack": 40,

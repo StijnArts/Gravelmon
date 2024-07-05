@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "verminion",
-  "nationalPokedexNumber": 5175,
+  "nationalPokedexNumber": 5177,
   "primaryType": "bug",
   "abilities": [
     "swarm",
-    "defiant",
-    "h:keeneye"
-  ],
+    "defiant"  ],
   "baseStats": {
     "hp": 44,
     "attack": 69,

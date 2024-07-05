@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1538,
   "primaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 150,
     "attack": 120,

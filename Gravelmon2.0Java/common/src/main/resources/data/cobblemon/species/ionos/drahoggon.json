@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "drahoggon",
-  "nationalPokedexNumber": 5033,
+  "nationalPokedexNumber": 5035,
   "primaryType": "dragon",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 110,
     "attack": 120,

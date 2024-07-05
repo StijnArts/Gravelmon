@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sentresha",
-  "nationalPokedexNumber": 2277,
+  "nationalPokedexNumber": 2281,
   "primaryType": "electric",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 74,
     "attack": 80,

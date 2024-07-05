@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "munsun",
-  "nationalPokedexNumber": 4017,
+  "nationalPokedexNumber": 4019,
   "primaryType": "flying",
   "secondaryType": "electric",
   "abilities": [
-    "cloudnine",
-    "h:cloudnine"
-  ],
+    "cloudnine"  ],
   "baseStats": {
     "hp": 70,
     "attack": 60,

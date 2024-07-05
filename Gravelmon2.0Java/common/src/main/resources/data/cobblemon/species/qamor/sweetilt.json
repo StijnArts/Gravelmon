@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "sweetilt",
-  "nationalPokedexNumber": 3986,
+  "nationalPokedexNumber": 3988,
   "primaryType": "grass",
   "abilities": [
-    "serenegrace",
-    "h:serenegrace"
-  ],
+    "serenegrace"  ],
   "baseStats": {
     "hp": 53,
     "attack": 42,

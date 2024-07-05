@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "phantrait",
-  "nationalPokedexNumber": 5517,
+  "nationalPokedexNumber": 5519,
   "primaryType": "ghost",
   "abilities": [
-    "waterabsorb",
-    "h:waterabsorb"
-  ],
+    "waterabsorb"  ],
   "baseStats": {
     "hp": 60,
     "attack": 25,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "spectmare",
-  "nationalPokedexNumber": 3665,
+  "nationalPokedexNumber": 3667,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 135,

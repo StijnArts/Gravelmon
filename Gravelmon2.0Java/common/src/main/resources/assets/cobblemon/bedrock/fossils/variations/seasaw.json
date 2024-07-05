@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:seasaw",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:seasaw",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/seasaw.png",
+      "layers": []
+    }
+  ]
+}

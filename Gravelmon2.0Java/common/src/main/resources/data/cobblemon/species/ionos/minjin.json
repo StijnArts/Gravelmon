@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "minjin",
-  "nationalPokedexNumber": 5032,
+  "nationalPokedexNumber": 5034,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
-    "aerilate",
-    "h:aerilate"
-  ],
+    "aerilate"  ],
   "baseStats": {
     "hp": 100,
     "attack": 80,

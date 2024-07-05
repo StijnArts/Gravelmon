@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "darca",
-  "nationalPokedexNumber": 4708,
+  "nationalPokedexNumber": 4710,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
-    "roughskin",
-    "h:roughskin"
-  ],
+    "roughskin"  ],
   "baseStats": {
     "hp": 85,
     "attack": 105,

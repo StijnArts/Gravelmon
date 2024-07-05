@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "molit",
-  "nationalPokedexNumber": 5739,
+  "nationalPokedexNumber": 5741,
   "primaryType": "normal",
   "abilities": [
-    "illuminate",
-    "h:illuminate"
-  ],
+    "illuminate"  ],
   "baseStats": {
     "hp": 45,
     "attack": 25,

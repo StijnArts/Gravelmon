@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nursa",
-  "nationalPokedexNumber": 2572,
+  "nationalPokedexNumber": 2576,
   "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 104,
     "attack": 55,

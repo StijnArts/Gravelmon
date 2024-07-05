@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "garsome",
-  "nationalPokedexNumber": 4197,
+  "nationalPokedexNumber": 4199,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
-    "cursedbody",
-    "h:keeneye"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 121,
     "attack": 81,

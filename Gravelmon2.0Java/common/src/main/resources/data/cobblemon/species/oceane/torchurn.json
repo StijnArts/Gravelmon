@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "torchurn",
-  "nationalPokedexNumber": 2284,
+  "nationalPokedexNumber": 2288,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
     "drought",
-    "pressure",
-    "h:keeneye"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 50,
     "attack": 64,

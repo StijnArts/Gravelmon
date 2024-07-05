@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:camozoic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:camozoic",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/camozoic.png",
+      "layers": []
+    }
+  ]
+}

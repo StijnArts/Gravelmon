@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "urinee",
-  "nationalPokedexNumber": 1985,
+  "nationalPokedexNumber": 1989,
   "primaryType": "water",
   "abilities": [
-    "hustle",
-    "h:hustle"
-  ],
+    "hustle"  ],
   "baseStats": {
     "hp": 50,
     "attack": 30,

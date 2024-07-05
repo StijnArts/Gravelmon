@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "liepus",
-  "nationalPokedexNumber": 4715,
+  "nationalPokedexNumber": 4717,
   "primaryType": "dark",
   "abilities": [
-    "runaway",
-    "h:runaway"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 68,
     "attack": 97,

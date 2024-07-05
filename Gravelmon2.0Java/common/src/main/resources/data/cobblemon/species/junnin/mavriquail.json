@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mavriquail",
-  "nationalPokedexNumber": 2847,
+  "nationalPokedexNumber": 2851,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "unburden",
-    "h:keeneye"
-  ],
+    "unburden"  ],
   "baseStats": {
     "hp": 77,
     "attack": 83,

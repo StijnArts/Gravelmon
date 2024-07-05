@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nerincess",
-  "nationalPokedexNumber": 5735,
+  "nationalPokedexNumber": 5737,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 15,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "strawna",
-  "nationalPokedexNumber": 4737,
+  "nationalPokedexNumber": 4739,
   "primaryType": "grass",
   "abilities": [
-    "chlorophyll",
-    "h:chlorophyll"
-  ],
+    "chlorophyll"  ],
   "baseStats": {
     "hp": 75,
     "attack": 30,

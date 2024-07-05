@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nooch",
-  "nationalPokedexNumber": 3790,
+  "nationalPokedexNumber": 3792,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
-    "gluttony",
-    "h:keeneye"
-  ],
+    "gluttony"  ],
   "baseStats": {
     "hp": 70,
     "attack": 30,

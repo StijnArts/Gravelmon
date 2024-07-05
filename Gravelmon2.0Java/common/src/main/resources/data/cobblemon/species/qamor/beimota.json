@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "beimota",
-  "nationalPokedexNumber": 4049,
+  "nationalPokedexNumber": 4051,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "prankster",
-    "h:prankster"
-  ],
+    "prankster"  ],
   "baseStats": {
     "hp": 75,
     "attack": 40,

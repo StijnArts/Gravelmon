@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "luxflon",
-  "nationalPokedexNumber": 2170,
+  "nationalPokedexNumber": 2174,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 160,
     "attack": 90,

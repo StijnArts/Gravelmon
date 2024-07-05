@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "razaury",
-  "nationalPokedexNumber": 3305,
+  "nationalPokedexNumber": 3309,
   "primaryType": "normal",
   "abilities": [
-    "toughclaws",
-    "h:toughclaws"
-  ],
+    "toughclaws"  ],
   "baseStats": {
     "hp": 78,
     "attack": 66,

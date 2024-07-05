@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "elinkee",
-  "nationalPokedexNumber": 4418,
+  "nationalPokedexNumber": 4420,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 80,
     "attack": 80,

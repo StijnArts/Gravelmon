@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "squisker",
-  "nationalPokedexNumber": 3296,
+  "nationalPokedexNumber": 3300,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
-    "skilllink",
-    "h:skilllink"
-  ],
+    "skilllink"  ],
   "baseStats": {
     "hp": 120,
     "attack": 120,

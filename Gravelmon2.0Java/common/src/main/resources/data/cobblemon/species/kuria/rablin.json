@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rablin",
-  "nationalPokedexNumber": 4216,
+  "nationalPokedexNumber": 4218,
   "primaryType": "normal",
   "secondaryType": "questionmark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 125,

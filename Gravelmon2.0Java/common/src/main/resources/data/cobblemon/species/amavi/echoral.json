@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "echoral",
-  "nationalPokedexNumber": 5693,
+  "nationalPokedexNumber": 5695,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 55,
     "attack": 55,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "cycaroon",
-  "nationalPokedexNumber": 2299,
+  "nationalPokedexNumber": 2303,
   "primaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 138,

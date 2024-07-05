@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "roadile",
-  "nationalPokedexNumber": 4282,
+  "nationalPokedexNumber": 4284,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 60,

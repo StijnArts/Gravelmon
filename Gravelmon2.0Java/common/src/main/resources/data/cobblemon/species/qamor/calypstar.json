@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "calypstar",
-  "nationalPokedexNumber": 3988,
+  "nationalPokedexNumber": 3990,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
-    "sapsipper",
-    "h:sapsipper"
-  ],
+    "sapsipper"  ],
   "baseStats": {
     "hp": 112,
     "attack": 72,

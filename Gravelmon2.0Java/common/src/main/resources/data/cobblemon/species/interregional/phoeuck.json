@@ -5,9 +5,7 @@
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
-    "flashfire",
-    "h:flashfire"
-  ],
+    "flashfire"  ],
   "baseStats": {
     "hp": 90,
     "attack": 170,

@@ -5,9 +5,7 @@
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 65,
     "attack": 40,

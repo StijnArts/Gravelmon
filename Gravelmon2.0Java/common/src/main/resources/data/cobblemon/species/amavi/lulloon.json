@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lulloon",
-  "nationalPokedexNumber": 5593,
+  "nationalPokedexNumber": 5595,
   "primaryType": "flying",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 30,

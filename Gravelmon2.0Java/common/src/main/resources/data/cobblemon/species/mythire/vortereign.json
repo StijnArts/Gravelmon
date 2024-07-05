@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vortereign",
-  "nationalPokedexNumber": 3876,
+  "nationalPokedexNumber": 3878,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
-    "snowwarning",
-    "h:keeneye"
-  ],
+    "snowwarning"  ],
   "baseStats": {
     "hp": 80,
     "attack": 134,

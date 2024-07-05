@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pyrameow",
-  "nationalPokedexNumber": 5682,
+  "nationalPokedexNumber": 5684,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 46,
     "attack": 46,

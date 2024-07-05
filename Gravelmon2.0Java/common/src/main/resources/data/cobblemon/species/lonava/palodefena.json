@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "palodefena",
-  "nationalPokedexNumber": 3351,
+  "nationalPokedexNumber": 3353,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 31,
     "attack": 25,

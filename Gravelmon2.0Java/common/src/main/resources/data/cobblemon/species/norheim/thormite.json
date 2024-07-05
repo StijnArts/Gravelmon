@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "thormite",
-  "nationalPokedexNumber": 3128,
+  "nationalPokedexNumber": 3132,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 85,

@@ -5,9 +5,7 @@
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 59,
     "attack": 59,

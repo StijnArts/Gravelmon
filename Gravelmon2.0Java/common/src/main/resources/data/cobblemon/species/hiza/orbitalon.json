@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "orbitalon",
-  "nationalPokedexNumber": 2807,
+  "nationalPokedexNumber": 2811,
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
-    "lightmetal",
-    "h:lightmetal"
-  ],
+    "lightmetal"  ],
   "baseStats": {
     "hp": 50,
     "attack": 70,

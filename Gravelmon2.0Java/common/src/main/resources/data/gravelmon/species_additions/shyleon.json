@@ -472,9 +472,7 @@
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
-    "junglespirit",
-    "h:junglespirit"
-  ],
+    "junglespirit"  ],
   "baseStats": {
     "hp": 143,
     "attack": 74,
@@ -688,9 +686,7 @@
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
-    "rattled",
-    "h:rattled"
-  ],
+    "rattled"  ],
   "baseStats": {
     "hp": 68,
     "attack": 44,

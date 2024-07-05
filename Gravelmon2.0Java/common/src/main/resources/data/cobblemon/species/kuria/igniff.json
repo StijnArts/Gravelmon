@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "igniff",
-  "nationalPokedexNumber": 4223,
+  "nationalPokedexNumber": 4225,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 69,
     "attack": 70,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "denruu",
-  "nationalPokedexNumber": 4581,
+  "nationalPokedexNumber": 4583,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
-    "trace",
-    "h:trace"
-  ],
+    "trace"  ],
   "baseStats": {
     "hp": 95,
     "attack": 110,

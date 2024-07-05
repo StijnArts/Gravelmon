@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "servolt",
-  "nationalPokedexNumber": 4050,
+  "nationalPokedexNumber": 4052,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
-    "quickfeet",
-    "h:quickfeet"
-  ],
+    "quickfeet"  ],
   "baseStats": {
     "hp": 30,
     "attack": 72,

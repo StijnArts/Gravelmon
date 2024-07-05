@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pearry",
-  "nationalPokedexNumber": 4222,
+  "nationalPokedexNumber": 4224,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 82,

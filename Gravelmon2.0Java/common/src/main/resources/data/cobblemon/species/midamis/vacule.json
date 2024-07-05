@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vacule",
-  "nationalPokedexNumber": 4473,
+  "nationalPokedexNumber": 4475,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 40,

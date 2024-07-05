@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "capillar",
-  "nationalPokedexNumber": 2303,
+  "nationalPokedexNumber": 2307,
   "primaryType": "bug",
   "abilities": [
-    "swarm",
-    "h:swarm"
-  ],
+    "swarm"  ],
   "baseStats": {
     "hp": 50,
     "attack": 20,

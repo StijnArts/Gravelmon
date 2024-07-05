@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "violo",
-  "nationalPokedexNumber": 4754,
+  "nationalPokedexNumber": 4756,
   "primaryType": "normal",
   "abilities": [
-    "owntempo",
-    "h:owntempo"
-  ],
+    "owntempo"  ],
   "baseStats": {
     "hp": 70,
     "attack": 105,

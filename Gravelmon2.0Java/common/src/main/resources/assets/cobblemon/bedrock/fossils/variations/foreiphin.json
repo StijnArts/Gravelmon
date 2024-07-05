@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:foreiphin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:foreiphin",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/foreiphin.png",
+      "layers": []
+    }
+  ]
+}

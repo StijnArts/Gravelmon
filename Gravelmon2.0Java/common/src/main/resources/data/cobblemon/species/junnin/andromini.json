@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "andromini",
-  "nationalPokedexNumber": 2905,
+  "nationalPokedexNumber": 2909,
   "primaryType": "steel",
   "secondaryType": "psychic",
   "abilities": [
-    "soundproof",
-    "h:keeneye"
-  ],
+    "soundproof"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

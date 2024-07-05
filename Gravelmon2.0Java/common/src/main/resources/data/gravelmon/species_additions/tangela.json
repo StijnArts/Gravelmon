@@ -481,9 +481,7 @@
   "name": "Hoennian",
   "primaryType": "fighting",
   "abilities": [
-    "barbednest",
-    "h:barbednest"
-  ],
+    "barbednest"  ],
   "baseStats": {
     "hp": 65,
     "attack": 115,

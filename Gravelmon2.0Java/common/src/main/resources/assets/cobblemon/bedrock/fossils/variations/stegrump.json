@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:stegrump",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:stegrump",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/stegrump.png",
+      "layers": []
+    }
+  ]
+}

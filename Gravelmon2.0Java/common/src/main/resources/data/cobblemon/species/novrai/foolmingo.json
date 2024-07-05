@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "foolmingo",
-  "nationalPokedexNumber": 5285,
+  "nationalPokedexNumber": 5287,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 120,
     "attack": 95,

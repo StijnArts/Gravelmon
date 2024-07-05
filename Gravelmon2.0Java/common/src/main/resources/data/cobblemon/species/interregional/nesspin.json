@@ -5,9 +5,7 @@
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
-    "voltabsorb",
-    "h:keeneye"
-  ],
+    "voltabsorb"  ],
   "baseStats": {
     "hp": 93,
     "attack": 83,

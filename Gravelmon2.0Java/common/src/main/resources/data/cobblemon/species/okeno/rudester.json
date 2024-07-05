@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "rudester",
-  "nationalPokedexNumber": 4612,
+  "nationalPokedexNumber": 4614,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
     "earlybird",
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 80,
     "attack": 100,

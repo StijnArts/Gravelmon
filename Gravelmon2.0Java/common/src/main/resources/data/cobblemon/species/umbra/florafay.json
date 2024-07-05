@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "florafay",
-  "nationalPokedexNumber": 3707,
+  "nationalPokedexNumber": 3709,
   "primaryType": "fairy",
   "abilities": [
-    "dancer",
-    "h:dancer"
-  ],
+    "dancer"  ],
   "baseStats": {
     "hp": 80,
     "attack": 70,

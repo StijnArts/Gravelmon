@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "beaniscule",
-  "nationalPokedexNumber": 5573,
+  "nationalPokedexNumber": 5575,
   "primaryType": "fairy",
   "secondaryType": "grass",
   "abilities": [
     "rattled",
-    "runaway",
-    "h:keeneye"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 61,
     "attack": 60,

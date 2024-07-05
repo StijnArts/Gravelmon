@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "spotnight",
-  "nationalPokedexNumber": 2052,
+  "nationalPokedexNumber": 2056,
   "primaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 30,

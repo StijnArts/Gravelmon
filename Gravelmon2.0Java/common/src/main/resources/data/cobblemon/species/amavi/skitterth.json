@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "skitterth",
-  "nationalPokedexNumber": 5676,
+  "nationalPokedexNumber": 5678,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 20,
     "attack": 45,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "lylapse",
-  "nationalPokedexNumber": 4772,
+  "nationalPokedexNumber": 4774,
   "primaryType": "ground",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 85,
     "attack": 95,

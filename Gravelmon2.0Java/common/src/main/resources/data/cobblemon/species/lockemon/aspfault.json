@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "aspfault",
-  "nationalPokedexNumber": 3449,
+  "nationalPokedexNumber": 3451,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 65,
     "attack": 50,

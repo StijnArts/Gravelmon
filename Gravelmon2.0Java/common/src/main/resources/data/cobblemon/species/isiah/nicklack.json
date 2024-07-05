@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nicklack",
-  "nationalPokedexNumber": 4391,
+  "nationalPokedexNumber": 4393,
   "primaryType": "dragon",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 46,
     "attack": 55,

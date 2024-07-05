@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "mollectric",
-  "nationalPokedexNumber": 4983,
+  "nationalPokedexNumber": 4985,
   "primaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 64,
     "attack": 60,

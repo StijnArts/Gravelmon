@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hivernate",
-  "nationalPokedexNumber": 5680,
+  "nationalPokedexNumber": 5682,
   "primaryType": "rock",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 125,
     "attack": 80,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "larver",
-  "nationalPokedexNumber": 3112,
+  "nationalPokedexNumber": 3116,
   "primaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 35,

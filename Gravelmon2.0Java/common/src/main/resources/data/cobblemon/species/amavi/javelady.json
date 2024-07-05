@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "javelady",
-  "nationalPokedexNumber": 5714,
+  "nationalPokedexNumber": 5716,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 120,

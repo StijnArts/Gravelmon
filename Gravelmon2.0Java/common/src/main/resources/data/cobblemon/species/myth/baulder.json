@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "baulder",
-  "nationalPokedexNumber": 4427,
+  "nationalPokedexNumber": 4429,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "battlearmor",
-    "h:battlearmor"
-  ],
+    "battlearmor"  ],
   "baseStats": {
     "hp": 70,
     "attack": 55,

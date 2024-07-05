@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "morgous",
-  "nationalPokedexNumber": 3953,
+  "nationalPokedexNumber": 3955,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 130,
     "attack": 105,

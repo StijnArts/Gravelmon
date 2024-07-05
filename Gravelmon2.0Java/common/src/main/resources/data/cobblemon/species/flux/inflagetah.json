@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "inflagetah",
-  "nationalPokedexNumber": 2587,
+  "nationalPokedexNumber": 2591,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 100,

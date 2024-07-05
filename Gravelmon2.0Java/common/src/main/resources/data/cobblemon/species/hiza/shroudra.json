@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "shroudra",
-  "nationalPokedexNumber": 2754,
+  "nationalPokedexNumber": 2758,
   "primaryType": "dragon",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 95,

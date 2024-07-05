@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "hocus",
-  "nationalPokedexNumber": 5658,
+  "nationalPokedexNumber": 5660,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 30,
     "attack": 20,

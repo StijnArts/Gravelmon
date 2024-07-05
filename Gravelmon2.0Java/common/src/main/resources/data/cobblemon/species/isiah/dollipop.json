@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "dollipop",
-  "nationalPokedexNumber": 4333,
+  "nationalPokedexNumber": 4335,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 67,
     "attack": 39,

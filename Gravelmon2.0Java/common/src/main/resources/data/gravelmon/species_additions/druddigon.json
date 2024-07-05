@@ -184,9 +184,7 @@
   "primaryType": "dragon",
   "secondaryType": "rock",
   "abilities": [
-    "stamina",
-    "h:stamina"
-  ],
+    "stamina"  ],
   "baseStats": {
     "hp": 77,
     "attack": 120,

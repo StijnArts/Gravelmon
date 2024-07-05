@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "escutchidae",
-  "nationalPokedexNumber": 3353,
+  "nationalPokedexNumber": 3355,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 54,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "mieltzar",
-  "nationalPokedexNumber": 3580,
+  "nationalPokedexNumber": 3582,
   "primaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 88,
     "attack": 31,

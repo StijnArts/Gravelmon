@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:lizmoke",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lizmoke",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/lizmoke.png",
+      "layers": []
+    }
+  ]
+}

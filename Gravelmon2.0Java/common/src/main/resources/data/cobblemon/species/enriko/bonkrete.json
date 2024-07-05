@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bonkrete",
-  "nationalPokedexNumber": 1922,
+  "nationalPokedexNumber": 1926,
   "primaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 59,
     "attack": 112,

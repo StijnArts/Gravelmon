@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "equia",
-  "nationalPokedexNumber": 2903,
+  "nationalPokedexNumber": 2907,
   "primaryType": "fairy",
   "secondaryType": "water",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 96,
     "attack": 84,

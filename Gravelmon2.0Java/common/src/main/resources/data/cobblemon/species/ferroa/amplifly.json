@@ -5,9 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
-    "levitate",
-    "h:keeneye"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 110,
     "attack": 66,

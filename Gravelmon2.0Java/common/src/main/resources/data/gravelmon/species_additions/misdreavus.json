@@ -18,9 +18,7 @@
   "name": "Hizian",
   "primaryType": "fire",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 60,
     "attack": 60,
@@ -120,9 +118,7 @@
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
-    "magicguard",
-    "h:keeneye"
-  ],
+    "magicguard"  ],
   "baseStats": {
     "hp": 60,
     "attack": 60,

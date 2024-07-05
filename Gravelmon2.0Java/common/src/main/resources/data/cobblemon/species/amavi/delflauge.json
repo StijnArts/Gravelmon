@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "delflauge",
-  "nationalPokedexNumber": 5694,
+  "nationalPokedexNumber": 5696,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 80,

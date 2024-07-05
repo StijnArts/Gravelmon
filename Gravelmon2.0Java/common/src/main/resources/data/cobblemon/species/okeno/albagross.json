@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "albagross",
-  "nationalPokedexNumber": 4634,
+  "nationalPokedexNumber": 4636,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
     "superluck",
-    "sniper",
-    "h:keeneye"
-  ],
+    "sniper"  ],
   "baseStats": {
     "hp": 88,
     "attack": 118,

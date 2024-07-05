@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dracruel",
-  "nationalPokedexNumber": 3283,
+  "nationalPokedexNumber": 3287,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 125,

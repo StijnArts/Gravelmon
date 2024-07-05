@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kulapack",
-  "nationalPokedexNumber": 3311,
+  "nationalPokedexNumber": 3315,
   "primaryType": "normal",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 83,

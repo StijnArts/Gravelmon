@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "harpirit",
-  "nationalPokedexNumber": 4142,
+  "nationalPokedexNumber": 4144,
   "primaryType": "ghost",
   "secondaryType": "sound",
   "abilities": [
     "serenegrace",
-    "forewarn",
-    "h:keeneye"
-  ],
+    "forewarn"  ],
   "baseStats": {
     "hp": 60,
     "attack": 40,

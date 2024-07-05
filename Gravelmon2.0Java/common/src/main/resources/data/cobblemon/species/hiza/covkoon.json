@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "covkoon",
-  "nationalPokedexNumber": 2628,
+  "nationalPokedexNumber": 2632,
   "primaryType": "bug",
   "abilities": [
-    "shedskin",
-    "h:shedskin"
-  ],
+    "shedskin"  ],
   "baseStats": {
     "hp": 52,
     "attack": 42,

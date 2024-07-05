@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pufluff",
-  "nationalPokedexNumber": 2477,
+  "nationalPokedexNumber": 2481,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
-    "snowcloak",
-    "h:snowcloak"
-  ],
+    "snowcloak"  ],
   "baseStats": {
     "hp": 60,
     "attack": 45,

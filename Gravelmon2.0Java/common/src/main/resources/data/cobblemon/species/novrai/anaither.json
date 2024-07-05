@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "anaither",
-  "nationalPokedexNumber": 5337,
+  "nationalPokedexNumber": 5339,
   "primaryType": "ghost",
   "abilities": [
-    "naturalcure",
-    "h:naturalcure"
-  ],
+    "naturalcure"  ],
   "baseStats": {
     "hp": 180,
     "attack": 100,

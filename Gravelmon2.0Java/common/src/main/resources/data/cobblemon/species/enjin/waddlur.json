@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "waddlur",
-  "nationalPokedexNumber": 5009,
+  "nationalPokedexNumber": 5011,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 25,

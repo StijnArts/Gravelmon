@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1664,
   "primaryType": "water",
   "abilities": [
-    "swiftswim",
-    "h:swiftswim"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 80,
     "attack": 80,

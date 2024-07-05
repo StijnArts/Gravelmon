@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "awespark",
-  "nationalPokedexNumber": 4557,
+  "nationalPokedexNumber": 4559,
   "primaryType": "electric",
   "abilities": [
-    "voltabsorb",
-    "h:voltabsorb"
-  ],
+    "voltabsorb"  ],
   "baseStats": {
     "hp": 45,
     "attack": 35,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "lumbrig",
-  "nationalPokedexNumber": 4285,
+  "nationalPokedexNumber": 4287,
   "primaryType": "ground",
   "abilities": [
-    "sandrush",
-    "h:sandrush"
-  ],
+    "sandrush"  ],
   "baseStats": {
     "hp": 75,
     "attack": 90,

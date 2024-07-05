@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "emii",
-  "nationalPokedexNumber": 3289,
+  "nationalPokedexNumber": 3293,
   "primaryType": "fairy",
   "secondaryType": "dark",
   "abilities": [
-    "prankster",
-    "h:prankster"
-  ],
+    "prankster"  ],
   "baseStats": {
     "hp": 88,
     "attack": 95,

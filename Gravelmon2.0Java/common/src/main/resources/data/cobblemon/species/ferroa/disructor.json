@@ -5,9 +5,7 @@
   "primaryType": "electric",
   "secondaryType": "poison",
   "abilities": [
-    "lightningrod",
-    "h:lightningrod"
-  ],
+    "lightningrod"  ],
   "baseStats": {
     "hp": 68,
     "attack": 55,

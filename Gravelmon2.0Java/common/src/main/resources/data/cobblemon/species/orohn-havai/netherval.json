@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "netherval",
-  "nationalPokedexNumber": 3056,
+  "nationalPokedexNumber": 3060,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 130,

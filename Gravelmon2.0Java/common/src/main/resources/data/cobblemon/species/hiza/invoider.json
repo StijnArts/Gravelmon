@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "invoider",
-  "nationalPokedexNumber": 2780,
+  "nationalPokedexNumber": 2784,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "analytic",
-    "h:analytic"
-  ],
+    "analytic"  ],
   "baseStats": {
     "hp": 70,
     "attack": 60,

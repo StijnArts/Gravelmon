@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "remainstone",
-  "nationalPokedexNumber": 1849,
+  "nationalPokedexNumber": 1853,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
-    "cursedbody",
-    "h:cursedbody"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 70,
     "attack": 105,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "thermoni",
-  "nationalPokedexNumber": 4018,
+  "nationalPokedexNumber": 4020,
   "primaryType": "flying",
   "secondaryType": "electric",
   "abilities": [
-    "cloudnine",
-    "h:cloudnine"
-  ],
+    "cloudnine"  ],
   "baseStats": {
     "hp": 105,
     "attack": 100,

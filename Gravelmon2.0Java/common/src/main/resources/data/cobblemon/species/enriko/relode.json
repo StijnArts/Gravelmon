@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "relode",
-  "nationalPokedexNumber": 2019,
+  "nationalPokedexNumber": 2023,
   "primaryType": "steel",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 87,
     "attack": 89,

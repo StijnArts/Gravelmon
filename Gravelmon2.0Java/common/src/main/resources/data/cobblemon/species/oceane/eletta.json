@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "eletta",
-  "nationalPokedexNumber": 2276,
+  "nationalPokedexNumber": 2280,
   "primaryType": "electric",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 50,

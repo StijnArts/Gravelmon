@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rubee",
-  "nationalPokedexNumber": 4048,
+  "nationalPokedexNumber": 4050,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "prankster",
-    "h:prankster"
-  ],
+    "prankster"  ],
   "baseStats": {
     "hp": 70,
     "attack": 30,

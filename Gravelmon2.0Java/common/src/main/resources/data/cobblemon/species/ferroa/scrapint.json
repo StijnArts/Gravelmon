@@ -5,9 +5,7 @@
   "primaryType": "fighting",
   "abilities": [
     "hustle",
-    "guts",
-    "h:keeneye"
-  ],
+    "guts"  ],
   "baseStats": {
     "hp": 45,
     "attack": 58,

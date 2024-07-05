@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "yoink",
-  "nationalPokedexNumber": 3357,
+  "nationalPokedexNumber": 3359,
   "primaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 72,

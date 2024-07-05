@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "miserachnid",
-  "nationalPokedexNumber": 1856,
+  "nationalPokedexNumber": 1860,
   "primaryType": "dragon",
   "secondaryType": "bug",
   "abilities": [
-    "strongjaw",
-    "h:keeneye"
-  ],
+    "strongjaw"  ],
   "baseStats": {
     "hp": 90,
     "attack": 130,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "nomstar",
-  "nationalPokedexNumber": 2219,
+  "nationalPokedexNumber": 2223,
   "primaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 49,

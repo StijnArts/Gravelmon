@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "aleglarlure",
-  "nationalPokedexNumber": 4060,
+  "nationalPokedexNumber": 4062,
   "primaryType": "dark",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 124,

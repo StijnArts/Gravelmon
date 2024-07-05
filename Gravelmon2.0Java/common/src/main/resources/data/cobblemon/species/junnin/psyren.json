@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "psyren",
-  "nationalPokedexNumber": 2841,
+  "nationalPokedexNumber": 2845,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
-    "torrent",
-    "h:torrent"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 93,
     "attack": 65,

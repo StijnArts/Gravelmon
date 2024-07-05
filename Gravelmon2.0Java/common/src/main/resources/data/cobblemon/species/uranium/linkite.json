@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "linkite",
-  "nationalPokedexNumber": 2475,
+  "nationalPokedexNumber": 2479,
   "primaryType": "ghost",
   "abilities": [
     "shadowtag",
-    "cursedbody",
-    "h:cursedbody"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 35,
     "attack": 55,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "balloonga",
-  "nationalPokedexNumber": 3428,
+  "nationalPokedexNumber": 3430,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
     "thickfat",
-    "refrigerate",
-    "h:keeneye"
-  ],
+    "refrigerate"  ],
   "baseStats": {
     "hp": 55,
     "attack": 55,

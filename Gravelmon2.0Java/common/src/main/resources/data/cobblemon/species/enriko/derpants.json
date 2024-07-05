@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "derpants",
-  "nationalPokedexNumber": 1939,
+  "nationalPokedexNumber": 1943,
   "primaryType": "poison",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 72,
     "attack": 34,

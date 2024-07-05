@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cubeat",
-  "nationalPokedexNumber": 4151,
+  "nationalPokedexNumber": 4153,
   "primaryType": "sound",
   "abilities": [
     "klutz",
-    "guts",
-    "h:keeneye"
-  ],
+    "guts"  ],
   "baseStats": {
     "hp": 55,
     "attack": 65,

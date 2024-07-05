@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "peaf",
-  "nationalPokedexNumber": 4221,
+  "nationalPokedexNumber": 4223,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 72,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "roargyle",
-  "nationalPokedexNumber": 5702,
+  "nationalPokedexNumber": 5704,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 80,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "cowctus",
-  "nationalPokedexNumber": 4155,
+  "nationalPokedexNumber": 4157,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
     "ironbarbs",
-    "sapsipper",
-    "h:keeneye"
-  ],
+    "sapsipper"  ],
   "baseStats": {
     "hp": 80,
     "attack": 105,

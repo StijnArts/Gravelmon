@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "frilzard",
-  "nationalPokedexNumber": 4252,
+  "nationalPokedexNumber": 4254,
   "primaryType": "fire",
   "abilities": [
-    "blaze",
-    "h:blaze"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 47,
     "attack": 47,

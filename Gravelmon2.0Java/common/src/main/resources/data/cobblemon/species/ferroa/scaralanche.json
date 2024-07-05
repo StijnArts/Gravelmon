@@ -6,9 +6,7 @@
   "secondaryType": "bug",
   "abilities": [
     "stalwart",
-    "damp",
-    "h:keeneye"
-  ],
+    "damp"  ],
   "baseStats": {
     "hp": 140,
     "attack": 96,

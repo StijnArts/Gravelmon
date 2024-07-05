@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "grizzlair",
-  "nationalPokedexNumber": 5681,
+  "nationalPokedexNumber": 5683,
   "primaryType": "fighting",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 88,
     "attack": 140,

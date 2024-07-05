@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "falkoo",
-  "nationalPokedexNumber": 4274,
+  "nationalPokedexNumber": 4276,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 95,
     "attack": 86,

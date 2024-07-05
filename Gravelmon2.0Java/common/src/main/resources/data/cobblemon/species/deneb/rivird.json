@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rivird",
-  "nationalPokedexNumber": 4790,
+  "nationalPokedexNumber": 4792,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 55,

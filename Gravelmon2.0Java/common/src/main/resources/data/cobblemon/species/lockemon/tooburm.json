@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "tooburm",
-  "nationalPokedexNumber": 3490,
+  "nationalPokedexNumber": 3492,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
     "energizer",
-    "sapsipper",
-    "h:keeneye"
-  ],
+    "sapsipper"  ],
   "baseStats": {
     "hp": 35,
     "attack": 40,

@@ -5,9 +5,7 @@
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
-    "windrider",
-    "h:windrider"
-  ],
+    "windrider"  ],
   "baseStats": {
     "hp": 76,
     "attack": 119,

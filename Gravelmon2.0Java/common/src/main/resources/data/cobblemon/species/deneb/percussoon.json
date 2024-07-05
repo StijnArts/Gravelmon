@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "percussoon",
-  "nationalPokedexNumber": 4701,
+  "nationalPokedexNumber": 4703,
   "primaryType": "normal",
   "abilities": [
-    "pickup",
-    "h:pickup"
-  ],
+    "pickup"  ],
   "baseStats": {
     "hp": 62,
     "attack": 95,

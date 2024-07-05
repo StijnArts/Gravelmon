@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mementori",
-  "nationalPokedexNumber": 3880,
+  "nationalPokedexNumber": 3882,
   "primaryType": "flying",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 120,

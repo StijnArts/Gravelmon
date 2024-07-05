@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "impetal",
-  "nationalPokedexNumber": 4015,
+  "nationalPokedexNumber": 4017,
   "primaryType": "fairy",
   "secondaryType": "ghost",
   "abilities": [
-    "cursedbody",
-    "h:cursedbody"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 95,
     "attack": 98,

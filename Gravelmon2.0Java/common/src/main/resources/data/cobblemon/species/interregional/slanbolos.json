@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1663,
   "primaryType": "dark",
   "abilities": [
-    "baddreams",
-    "h:baddreams"
-  ],
+    "baddreams"  ],
   "baseStats": {
     "hp": 90,
     "attack": 130,

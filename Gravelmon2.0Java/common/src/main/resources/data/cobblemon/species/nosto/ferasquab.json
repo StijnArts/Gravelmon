@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ferasquab",
-  "nationalPokedexNumber": 3566,
+  "nationalPokedexNumber": 3568,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 34,
     "attack": 17,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "slamander",
-  "nationalPokedexNumber": 3250,
+  "nationalPokedexNumber": 3254,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 79,
     "attack": 116,

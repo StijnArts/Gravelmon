@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "stug",
-  "nationalPokedexNumber": 3359,
+  "nationalPokedexNumber": 3361,
   "primaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 37,
     "attack": 30,

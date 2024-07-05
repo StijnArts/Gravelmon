@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "threemasune",
-  "nationalPokedexNumber": 3406,
+  "nationalPokedexNumber": 3408,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 98,
     "attack": 94,

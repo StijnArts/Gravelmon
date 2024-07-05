@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bodmess",
-  "nationalPokedexNumber": 3375,
+  "nationalPokedexNumber": 3377,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 56,
     "attack": 98,

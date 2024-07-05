@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pappybara",
-  "nationalPokedexNumber": 4032,
+  "nationalPokedexNumber": 4034,
   "primaryType": "normal",
   "abilities": [
-    "parentalbond",
-    "h:parentalbond"
-  ],
+    "parentalbond"  ],
   "baseStats": {
     "hp": 102,
     "attack": 92,

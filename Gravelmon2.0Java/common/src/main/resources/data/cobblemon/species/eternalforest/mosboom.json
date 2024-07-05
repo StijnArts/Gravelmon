@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "mosboom",
-  "nationalPokedexNumber": 3073,
+  "nationalPokedexNumber": 3077,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
     "aftermath",
-    "aftermath",
-    "h:aftermath"
-  ],
+    "aftermath"  ],
   "baseStats": {
     "hp": 90,
     "attack": 95,

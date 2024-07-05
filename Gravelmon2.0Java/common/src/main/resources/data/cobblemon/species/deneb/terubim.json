@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "terubim",
-  "nationalPokedexNumber": 4865,
+  "nationalPokedexNumber": 4867,
   "primaryType": "normal",
   "abilities": [
-    "forecast",
-    "h:forecast"
-  ],
+    "forecast"  ],
   "baseStats": {
     "hp": 100,
     "attack": 80,
@@ -44,9 +42,7 @@
       "name": "sunny",
       "primaryType": "fire",
       "abilities": [
-    "forecast",
-    "h:forecast"
-      ],
+    "forecast"      ],
       "baseScale": 1.4,
         "hitbox": {
           "width": 6.0,
@@ -100,9 +96,7 @@
       "name": "rainy",
       "primaryType": "water",
       "abilities": [
-    "forecast",
-    "h:forecast"
-      ],
+    "forecast"      ],
       "baseScale": 1.4,
         "hitbox": {
           "width": 6.0,
@@ -156,9 +150,7 @@
       "name": "snowy",
       "primaryType": "ice",
       "abilities": [
-    "forecast",
-    "h:forecast"
-      ],
+    "forecast"      ],
       "baseScale": 1.4,
         "hitbox": {
           "width": 6.0,

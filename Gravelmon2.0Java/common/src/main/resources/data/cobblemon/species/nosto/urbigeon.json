@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "urbigeon",
-  "nationalPokedexNumber": 3568,
+  "nationalPokedexNumber": 3570,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 37,

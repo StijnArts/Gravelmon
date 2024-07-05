@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "harestic",
-  "nationalPokedexNumber": 4107,
+  "nationalPokedexNumber": 4109,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 72,
     "attack": 55,

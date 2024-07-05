@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "lizzle",
-  "nationalPokedexNumber": 4820,
+  "nationalPokedexNumber": 4822,
   "primaryType": "water",
   "abilities": [
-    "drizzle",
-    "h:drizzle"
-  ],
+    "drizzle"  ],
   "baseStats": {
     "hp": 45,
     "attack": 55,

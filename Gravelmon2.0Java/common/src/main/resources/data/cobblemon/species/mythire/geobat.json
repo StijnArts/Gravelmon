@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "geobat",
-  "nationalPokedexNumber": 3793,
+  "nationalPokedexNumber": 3795,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 60,

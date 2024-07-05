@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1803,
   "primaryType": "fairy",
   "abilities": [
-    "rattled",
-    "h:keeneye"
-  ],
+    "rattled"  ],
   "baseStats": {
     "hp": 90,
     "attack": 63,

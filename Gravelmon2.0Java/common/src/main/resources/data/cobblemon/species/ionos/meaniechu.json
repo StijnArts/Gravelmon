@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "meaniechu",
-  "nationalPokedexNumber": 5015,
+  "nationalPokedexNumber": 5017,
   "primaryType": "electric",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 96,

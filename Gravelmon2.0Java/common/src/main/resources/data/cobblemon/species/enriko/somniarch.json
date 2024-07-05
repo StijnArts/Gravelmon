@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "somniarch",
-  "nationalPokedexNumber": 1998,
+  "nationalPokedexNumber": 2002,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 99,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gekroak",
-  "nationalPokedexNumber": 4113,
+  "nationalPokedexNumber": 4115,
   "primaryType": "water",
   "secondaryType": "sound",
   "abilities": [
-    "torrent",
-    "h:keeneye"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 64,
     "attack": 62,

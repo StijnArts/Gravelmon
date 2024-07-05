@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cleocatra",
-  "nationalPokedexNumber": 2000,
+  "nationalPokedexNumber": 2004,
   "primaryType": "normal",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 76,
     "attack": 44,

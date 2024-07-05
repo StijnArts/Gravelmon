@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "umbrub",
-  "nationalPokedexNumber": 3977,
+  "nationalPokedexNumber": 3979,
   "primaryType": "bug",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 34,
     "attack": 65,

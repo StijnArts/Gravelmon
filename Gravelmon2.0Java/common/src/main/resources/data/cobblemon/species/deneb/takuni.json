@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "takuni",
-  "nationalPokedexNumber": 4700,
+  "nationalPokedexNumber": 4702,
   "primaryType": "normal",
   "abilities": [
-    "pickup",
-    "h:pickup"
-  ],
+    "pickup"  ],
   "baseStats": {
     "hp": 35,
     "attack": 60,

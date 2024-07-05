@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kamiyin",
-  "nationalPokedexNumber": 4597,
+  "nationalPokedexNumber": 4599,
   "primaryType": "ghost",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 130,
     "attack": 100,

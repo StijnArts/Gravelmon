@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "valialty",
-  "nationalPokedexNumber": 4394,
+  "nationalPokedexNumber": 4396,
   "primaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 87,
     "attack": 131,

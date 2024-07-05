@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "asawaji",
-  "nationalPokedexNumber": 4211,
+  "nationalPokedexNumber": 4213,
   "primaryType": "fairy",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 63,
     "attack": 56,

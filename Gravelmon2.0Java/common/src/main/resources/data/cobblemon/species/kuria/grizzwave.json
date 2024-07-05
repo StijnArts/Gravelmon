@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "grizzwave",
-  "nationalPokedexNumber": 4153,
+  "nationalPokedexNumber": 4155,
   "primaryType": "sound",
   "secondaryType": "dark",
   "abilities": [
-    "competitive",
-    "h:keeneye"
-  ],
+    "competitive"  ],
   "baseStats": {
     "hp": 90,
     "attack": 100,

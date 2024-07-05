@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "oldeture",
-  "nationalPokedexNumber": 5034,
+  "nationalPokedexNumber": 5036,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 150,
     "attack": 90,

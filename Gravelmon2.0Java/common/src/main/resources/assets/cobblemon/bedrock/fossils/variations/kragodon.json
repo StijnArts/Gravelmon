@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:kragodon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kragodon",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/kragodon.png",
+      "layers": []
+    }
+  ]
+}

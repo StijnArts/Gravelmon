@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "reindear",
-  "nationalPokedexNumber": 2139,
+  "nationalPokedexNumber": 2143,
   "primaryType": "fairy",
   "abilities": [
-    "vitalspirit",
-    "h:vitalspirit"
-  ],
+    "vitalspirit"  ],
   "baseStats": {
     "hp": 76,
     "attack": 20,

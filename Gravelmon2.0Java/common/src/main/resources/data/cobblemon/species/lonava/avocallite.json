@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "avocallite",
-  "nationalPokedexNumber": 3391,
+  "nationalPokedexNumber": 3393,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
-    "comatose",
-    "h:comatose"
-  ],
+    "comatose"  ],
   "baseStats": {
     "hp": 75,
     "attack": 43,

@@ -3,16 +3,18 @@ package drai.dev.gravelmon.registries;
 import com.cobblemon.mod.common.item.*;
 import com.cobblemon.mod.common.pokeball.*;
 import com.cobblemon.mod.common.pokemon.helditem.*;
-import com.llamalad7.mixinextras.lib.apache.commons.*;
 import dev.architectury.registry.registries.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.apricorn.*;
+import drai.dev.gravelsextendedbattles.loot.*;
 import net.minecraft.core.registries.*;
+import net.minecraft.resources.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
 
 import java.util.*;
 
-import static drai.dev.gravelmon.Gravelmon.MOD_ID;
+import static drai.dev.gravelmon.Gravelmon.*;
 
 public class GravelmonItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
@@ -33,7 +35,7 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> MURKY_CLAW = item("murky_claw");
     public static RegistrySupplier<Item> SILVER_SCALE = item("silver_scale");
     public static RegistrySupplier<Item> ANCIENT_GLYPH = item("ancient_glyph");
-//    public static RegistrySupplier<Item> VOIDIX = item("voidix");
+    //    public static RegistrySupplier<Item> VOIDIX = item("voidix");
 //    public static RegistrySupplier<Item> ELECTRIX = item("electrix");
 //    public static RegistrySupplier<Item> BURIX = item("burix");
 //    public static RegistrySupplier<Item> AQUIX = item("aquix");
@@ -83,19 +85,15 @@ public class GravelmonItems {
     //insurgence
     public static RegistrySupplier<Item> DARK_ROCK = heldItem("dark_rock");
 
-    //Fossil Items
-    public static RegistrySupplier<Item> TUSK_FOSSIL = item("tusk_fossil");
-    public static RegistrySupplier<Item> HORN_FOSSIL = item("horn_fossil");
-
     //Block Items
     public static RegistrySupplier<Item> ASTRAL_STONE_ORE = blockItem("astral_stone_ore_block_item", GravelmonBlocks.ASTRAL_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_ASTRAL_STONE_ORE = blockItem("deepslate_astral_stone_ore_block_item", GravelmonBlocks.DEEPSLATE_ASTRAL_STONE_ORE);
-    public static RegistrySupplier<Item> AIR_STONE_ORE = blockItem("air_stone_ore",GravelmonBlocks.AIR_STONE_ORE);
-    public static RegistrySupplier<Item> DEEPSLATE_AIR_STONE_ORE = blockItem("deepslate_air_stone_ore",GravelmonBlocks.DEEPSLATE_AIR_STONE_ORE);
-    public static RegistrySupplier<Item> MYSTIC_STONE_ORE = blockItem("mystic_stone_ore",GravelmonBlocks.MYSTIC_STONE_ORE);
-    public static RegistrySupplier<Item> DEEPSLATE_MYSTIC_STONE_ORE = blockItem("deepslate_mystic_stone_ore",GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE);
-    public static RegistrySupplier<Item> SOLID_STONE_ORE = blockItem("solid_stone_ore",GravelmonBlocks.SOLID_STONE_ORE);
-    public static RegistrySupplier<Item> DEEPSLATE_SOLID_STONE_ORE = blockItem("deepslate_solid_stone_ore",GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE);
+    public static RegistrySupplier<Item> AIR_STONE_ORE = blockItem("air_stone_ore", GravelmonBlocks.AIR_STONE_ORE);
+    public static RegistrySupplier<Item> DEEPSLATE_AIR_STONE_ORE = blockItem("deepslate_air_stone_ore", GravelmonBlocks.DEEPSLATE_AIR_STONE_ORE);
+    public static RegistrySupplier<Item> MYSTIC_STONE_ORE = blockItem("mystic_stone_ore", GravelmonBlocks.MYSTIC_STONE_ORE);
+    public static RegistrySupplier<Item> DEEPSLATE_MYSTIC_STONE_ORE = blockItem("deepslate_mystic_stone_ore", GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE);
+    public static RegistrySupplier<Item> SOLID_STONE_ORE = blockItem("solid_stone_ore", GravelmonBlocks.SOLID_STONE_ORE);
+    public static RegistrySupplier<Item> DEEPSLATE_SOLID_STONE_ORE = blockItem("deepslate_solid_stone_ore", GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE);
 
     //Pokeballs
     public static RegistrySupplier<PokeBallItem> MAUVE_BALL;
@@ -156,35 +154,43 @@ public class GravelmonItems {
     public static RegistrySupplier<GravelmonApricornSeedItem> PURPLE_APRICORN_SEED = apricronSeedItem("purple_apricorn_seed", GravelmonBlocks.PURPLE_APRICORN_SAPLING);
     public static RegistrySupplier<GravelmonApricornSeedItem> ORANGE_APRICORN_SEED = apricronSeedItem("orange_apricorn_seed", GravelmonBlocks.ORANGE_APRICORN_SAPLING);
 
-    public static RegistrySupplier<GravelmonApricornSeedItem> apricronSeedItem(String name, RegistrySupplier<GravelmonApricornSaplingBlock> block){
-        return ITEMS.register(name,() -> new GravelmonApricornSeedItem(block.get()));
+    public static RegistrySupplier<Item> fossilItem(List<ResourceLocation> lootTables, String itemName, String speciesName) {
+        var item = item(itemName);
+        GravelmonFossilManager.addFossil(lootTables, item);
+        Gravelmon.FOSSIL_MAP.put(itemName, speciesName);
+        return item;
     }
 
-    public static RegistrySupplier<PokeBallItem> pokeballItem(String name, PokeBall pokeBall){
-        var item = ITEMS.register(name,() -> new PokeBallItem(pokeBall));
+    public static RegistrySupplier<GravelmonApricornSeedItem> apricronSeedItem(String name, RegistrySupplier<GravelmonApricornSaplingBlock> block) {
+        return ITEMS.register(name, () -> new GravelmonApricornSeedItem(block.get()));
+    }
+
+    public static RegistrySupplier<PokeBallItem> pokeballItem(String name, PokeBall pokeBall) {
+        var item = ITEMS.register(name, () -> new PokeBallItem(pokeBall));
         POKE_BALLS.add(item);
         return item;
     }
 
-    public static RegistrySupplier<Item> item(String name){
-        return ITEMS.register(name,() -> new Item(new Item.Properties()));
-    }
-    public static RegistrySupplier<GravelmonApricornItem> apricronItem(String name, RegistrySupplier<GravelmonApricornBlock> block){
-        return ITEMS.register(name,() -> new GravelmonApricornItem(block.get(),new Item.Properties()));
+    public static RegistrySupplier<Item> item(String name) {
+        return ITEMS.register(name, () -> new Item(new Item.Properties()));
     }
 
-    public static RegistrySupplier<Item> blockItem(String name, RegistrySupplier<Block> block){
-        return ITEMS.register(name,() -> new BlockItem(block.get(),new Item.Properties()));
+    public static RegistrySupplier<GravelmonApricornItem> apricronItem(String name, RegistrySupplier<GravelmonApricornBlock> block) {
+        return ITEMS.register(name, () -> new GravelmonApricornItem(block.get(), new Item.Properties()));
+    }
+
+    public static RegistrySupplier<Item> blockItem(String name, RegistrySupplier<Block> block) {
+        return ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     private static RegistrySupplier<Item> heldItem(String name) {
-        var item = ITEMS.register(name, ()-> new Item(new Item.Properties()));
-        LATE_HELD_ITEM_REGISTRATIONS.add(()->CobblemonHeldItemManager.INSTANCE.registerRemap(item.get(), name.replaceAll("_","")));
+        var item = ITEMS.register(name, () -> new Item(new Item.Properties()));
+        LATE_HELD_ITEM_REGISTRATIONS.add(() -> CobblemonHeldItemManager.INSTANCE.registerRemap(item.get(), name.replaceAll("_", "")));
         return item;
     }
 
-    public static void touch(){
-
+    public static void touch() {
+        GravelmonFossilItems.touch();
     }
 
     public static void lateInit() {

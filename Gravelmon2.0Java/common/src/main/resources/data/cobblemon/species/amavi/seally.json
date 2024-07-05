@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "seally",
-  "nationalPokedexNumber": 5698,
+  "nationalPokedexNumber": 5700,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 45,

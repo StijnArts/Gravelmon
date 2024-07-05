@@ -6,9 +6,7 @@
   "secondaryType": "grass",
   "abilities": [
     "guts",
-    "sheerforce",
-    "h:keeneye"
-  ],
+    "sheerforce"  ],
   "baseStats": {
     "hp": 85,
     "attack": 105,

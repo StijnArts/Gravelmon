@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gaierth",
-  "nationalPokedexNumber": 2813,
+  "nationalPokedexNumber": 2817,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
-    "grassysurge",
-    "h:grassysurge"
-  ],
+    "grassysurge"  ],
   "baseStats": {
     "hp": 75,
     "attack": 80,

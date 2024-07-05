@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "vasegeist",
-  "nationalPokedexNumber": 4355,
+  "nationalPokedexNumber": 4357,
   "primaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 95,

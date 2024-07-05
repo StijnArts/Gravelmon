@@ -6,9 +6,7 @@
   "secondaryType": "grass",
   "abilities": [
     "roughskin",
-    "sturdy",
-    "h:keeneye"
-  ],
+    "sturdy"  ],
   "baseStats": {
     "hp": 40,
     "attack": 55,

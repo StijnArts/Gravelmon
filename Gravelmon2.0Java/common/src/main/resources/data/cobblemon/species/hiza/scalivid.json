@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "scalivid",
-  "nationalPokedexNumber": 2643,
+  "nationalPokedexNumber": 2647,
   "primaryType": "grass",
   "abilities": [
-    "multiscale",
-    "h:multiscale"
-  ],
+    "multiscale"  ],
   "baseStats": {
     "hp": 55,
     "attack": 50,

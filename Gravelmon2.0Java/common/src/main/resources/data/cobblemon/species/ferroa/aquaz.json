@@ -5,9 +5,7 @@
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
-    "propellertail",
-    "h:keeneye"
-  ],
+    "propellertail"  ],
   "baseStats": {
     "hp": 75,
     "attack": 55,

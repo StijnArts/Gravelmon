@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "peerhini",
-  "nationalPokedexNumber": 5036,
+  "nationalPokedexNumber": 5038,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 85,

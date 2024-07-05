@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "silvictor",
-  "nationalPokedexNumber": 5258,
+  "nationalPokedexNumber": 5260,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
     "moxie",
-    "ironfist",
-    "h:keeneye"
-  ],
+    "ironfist"  ],
   "baseStats": {
     "hp": 60,
     "attack": 105,

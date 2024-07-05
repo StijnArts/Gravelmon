@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "aviterate",
-  "nationalPokedexNumber": 2800,
+  "nationalPokedexNumber": 2804,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 80,
     "attack": 90,

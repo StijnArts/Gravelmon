@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "lepiterros",
-  "nationalPokedexNumber": 5581,
+  "nationalPokedexNumber": 5583,
   "primaryType": "bug",
   "abilities": [
-    "runaway",
-    "h:runaway"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 60,
     "attack": 20,

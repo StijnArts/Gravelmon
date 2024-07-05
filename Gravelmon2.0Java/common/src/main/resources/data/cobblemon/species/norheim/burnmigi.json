@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "burnmigi",
-  "nationalPokedexNumber": 3263,
+  "nationalPokedexNumber": 3267,
   "primaryType": "poison",
   "secondaryType": "fire",
   "abilities": [
-    "illusion",
-    "h:keeneye"
-  ],
+    "illusion"  ],
   "baseStats": {
     "hp": 72,
     "attack": 93,

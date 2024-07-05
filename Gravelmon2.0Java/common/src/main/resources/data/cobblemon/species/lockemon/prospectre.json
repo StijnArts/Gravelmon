@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "prospectre",
-  "nationalPokedexNumber": 3525,
+  "nationalPokedexNumber": 3527,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 110,

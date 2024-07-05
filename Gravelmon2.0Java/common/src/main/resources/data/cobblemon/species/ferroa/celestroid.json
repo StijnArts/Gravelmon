@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "celestroid",
-  "nationalPokedexNumber": 1860,
+  "nationalPokedexNumber": 1864,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 60,
     "attack": 90,

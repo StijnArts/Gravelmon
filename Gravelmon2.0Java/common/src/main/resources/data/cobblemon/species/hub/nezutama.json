@@ -5,9 +5,7 @@
   "primaryType": "electric",
   "secondaryType": "normal",
   "abilities": [
-    "oblivious",
-    "h:oblivious"
-  ],
+    "oblivious"  ],
   "baseStats": {
     "hp": 98,
     "attack": 63,

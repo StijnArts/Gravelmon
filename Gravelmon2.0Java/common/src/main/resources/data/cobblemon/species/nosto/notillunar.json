@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "notillunar",
-  "nationalPokedexNumber": 3622,
+  "nationalPokedexNumber": 3624,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 56,
     "attack": 56,

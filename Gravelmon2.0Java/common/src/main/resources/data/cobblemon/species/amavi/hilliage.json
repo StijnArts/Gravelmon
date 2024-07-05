@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hilliage",
-  "nationalPokedexNumber": 5616,
+  "nationalPokedexNumber": 5618,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 72,
     "attack": 72,

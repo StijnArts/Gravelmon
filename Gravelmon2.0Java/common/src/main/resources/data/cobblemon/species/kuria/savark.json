@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "savark",
-  "nationalPokedexNumber": 4199,
+  "nationalPokedexNumber": 4201,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
     "unnerve",
-    "pickup",
-    "h:keeneye"
-  ],
+    "pickup"  ],
   "baseStats": {
     "hp": 88,
     "attack": 115,

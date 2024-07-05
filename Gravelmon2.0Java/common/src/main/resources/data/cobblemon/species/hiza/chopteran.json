@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chopteran",
-  "nationalPokedexNumber": 2709,
+  "nationalPokedexNumber": 2713,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
-    "aerilate",
-    "h:aerilate"
-  ],
+    "aerilate"  ],
   "baseStats": {
     "hp": 135,
     "attack": 80,

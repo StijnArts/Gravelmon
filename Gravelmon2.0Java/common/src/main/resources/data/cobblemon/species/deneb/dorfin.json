@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "dorfin",
-  "nationalPokedexNumber": 4707,
+  "nationalPokedexNumber": 4709,
   "primaryType": "water",
   "abilities": [
-    "waterveil",
-    "h:waterveil"
-  ],
+    "waterveil"  ],
   "baseStats": {
     "hp": 50,
     "attack": 65,

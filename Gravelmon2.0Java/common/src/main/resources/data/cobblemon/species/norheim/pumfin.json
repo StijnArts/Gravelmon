@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pumfin",
-  "nationalPokedexNumber": 3169,
+  "nationalPokedexNumber": 3173,
   "primaryType": "dark",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 77,

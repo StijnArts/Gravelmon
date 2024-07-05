@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "skreychee",
-  "nationalPokedexNumber": 4415,
+  "nationalPokedexNumber": 4417,
   "primaryType": "sound",
   "secondaryType": "fairy",
   "abilities": [
     "levitate",
-    "tanglinghair",
-    "h:keeneye"
-  ],
+    "tanglinghair"  ],
   "baseStats": {
     "hp": 50,
     "attack": 45,

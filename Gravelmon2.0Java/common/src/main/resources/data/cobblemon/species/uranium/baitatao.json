@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "baitatao",
-  "nationalPokedexNumber": 2520,
+  "nationalPokedexNumber": 2524,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 90,
     "attack": 70,

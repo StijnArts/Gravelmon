@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "seascull",
-  "nationalPokedexNumber": 3218,
+  "nationalPokedexNumber": 3222,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
-    "poisontouch",
-    "h:keeneye"
-  ],
+    "poisontouch"  ],
   "baseStats": {
     "hp": 63,
     "attack": 96,

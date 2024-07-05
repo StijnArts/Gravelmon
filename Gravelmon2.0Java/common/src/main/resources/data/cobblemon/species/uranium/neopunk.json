@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "neopunk",
-  "nationalPokedexNumber": 2508,
+  "nationalPokedexNumber": 2512,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "minus",
-    "h:minus"
-  ],
+    "minus"  ],
   "baseStats": {
     "hp": 65,
     "attack": 100,

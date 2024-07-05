@@ -5,9 +5,7 @@
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 87,
     "attack": 155,

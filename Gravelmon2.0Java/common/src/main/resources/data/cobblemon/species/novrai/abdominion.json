@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "abdominion",
-  "nationalPokedexNumber": 5176,
+  "nationalPokedexNumber": 5178,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
-    "defiant",
-    "h:keeneye"
-  ],
+    "defiant"  ],
   "baseStats": {
     "hp": 77,
     "attack": 129,

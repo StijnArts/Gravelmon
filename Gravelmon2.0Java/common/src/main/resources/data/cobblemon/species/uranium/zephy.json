@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "zephy",
-  "nationalPokedexNumber": 2529,
+  "nationalPokedexNumber": 2533,
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 110,
     "attack": 100,

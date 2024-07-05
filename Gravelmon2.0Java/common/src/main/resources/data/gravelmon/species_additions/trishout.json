@@ -468,9 +468,7 @@
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
-    "voicetuning",
-    "h:voicetuning"
-  ],
+    "voicetuning"  ],
   "baseStats": {
     "hp": 143,
     "attack": 140,
@@ -683,9 +681,7 @@
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 125,

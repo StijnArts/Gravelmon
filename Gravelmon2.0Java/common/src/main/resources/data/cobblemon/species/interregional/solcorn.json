@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1566,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 59,

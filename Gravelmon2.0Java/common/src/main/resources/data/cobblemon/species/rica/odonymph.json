@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1305,
   "primaryType": "bug",
   "abilities": [
-    "hustle",
-    "h:hustle"
-  ],
+    "hustle"  ],
   "baseStats": {
     "hp": 40,
     "attack": 60,

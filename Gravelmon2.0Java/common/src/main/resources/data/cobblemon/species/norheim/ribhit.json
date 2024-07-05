@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ribhit",
-  "nationalPokedexNumber": 3151,
+  "nationalPokedexNumber": 3155,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
-    "parentalbond",
-    "h:parentalbond"
-  ],
+    "parentalbond"  ],
   "baseStats": {
     "hp": 96,
     "attack": 65,

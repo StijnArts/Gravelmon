@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "shreadly",
-  "nationalPokedexNumber": 5666,
+  "nationalPokedexNumber": 5668,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 55,
     "attack": 125,

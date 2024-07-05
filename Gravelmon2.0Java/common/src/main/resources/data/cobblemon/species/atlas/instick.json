@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "instick",
-  "nationalPokedexNumber": 5348,
+  "nationalPokedexNumber": 5350,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 51,
     "attack": 64,

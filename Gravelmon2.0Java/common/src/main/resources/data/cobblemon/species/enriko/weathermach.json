@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "weathermach",
-  "nationalPokedexNumber": 2011,
+  "nationalPokedexNumber": 2015,
   "primaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 78,
     "attack": 65,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "primmoiselle",
-  "nationalPokedexNumber": 3631,
+  "nationalPokedexNumber": 3633,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "queenlymajesty",
-    "h:queenlymajesty"
-  ],
+    "queenlymajesty"  ],
   "baseStats": {
     "hp": 110,
     "attack": 55,

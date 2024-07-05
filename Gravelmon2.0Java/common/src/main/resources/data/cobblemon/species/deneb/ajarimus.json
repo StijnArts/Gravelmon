@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "ajarimus",
-  "nationalPokedexNumber": 4732,
+  "nationalPokedexNumber": 4734,
   "primaryType": "dark",
   "abilities": [
-    "stench",
-    "h:stench"
-  ],
+    "stench"  ],
   "baseStats": {
     "hp": 75,
     "attack": 85,

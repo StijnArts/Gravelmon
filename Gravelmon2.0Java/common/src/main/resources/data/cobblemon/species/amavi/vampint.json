@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vampint",
-  "nationalPokedexNumber": 5745,
+  "nationalPokedexNumber": 5747,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 15,

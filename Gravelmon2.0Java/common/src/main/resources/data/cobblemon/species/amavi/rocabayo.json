@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "rocabayo",
-  "nationalPokedexNumber": 5724,
+  "nationalPokedexNumber": 5726,
   "primaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 30,
     "attack": 70,

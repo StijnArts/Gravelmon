@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "andracarina",
-  "nationalPokedexNumber": 3955,
+  "nationalPokedexNumber": 3957,
   "primaryType": "flying",
   "secondaryType": "poison",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 211,
     "attack": 41,

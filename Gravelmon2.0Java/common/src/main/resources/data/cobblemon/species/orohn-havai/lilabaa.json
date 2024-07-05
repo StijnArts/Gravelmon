@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "lilabaa",
-  "nationalPokedexNumber": 2952,
+  "nationalPokedexNumber": 2956,
   "primaryType": "normal",
   "secondaryType": "fairy",
   "abilities": [
     "cutecharm",
-    "magicguard",
-    "h:keeneye"
-  ],
+    "magicguard"  ],
   "baseStats": {
     "hp": 70,
     "attack": 25,

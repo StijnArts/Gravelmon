@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "snowze",
-  "nationalPokedexNumber": 4180,
+  "nationalPokedexNumber": 4182,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
-    "furcoat",
-    "h:furcoat"
-  ],
+    "furcoat"  ],
   "baseStats": {
     "hp": 140,
     "attack": 120,

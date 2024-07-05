@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "norwale",
-  "nationalPokedexNumber": 3111,
+  "nationalPokedexNumber": 3115,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
-    "torrent",
-    "h:keeneye"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 112,
     "attack": 76,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bottoil",
-  "nationalPokedexNumber": 2896,
+  "nationalPokedexNumber": 2900,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
-    "aftermath",
-    "h:aftermath"
-  ],
+    "aftermath"  ],
   "baseStats": {
     "hp": 53,
     "attack": 32,

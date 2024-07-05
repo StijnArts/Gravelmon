@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "cavitroupe",
-  "nationalPokedexNumber": 2002,
+  "nationalPokedexNumber": 2006,
   "primaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 98,
     "attack": 78,

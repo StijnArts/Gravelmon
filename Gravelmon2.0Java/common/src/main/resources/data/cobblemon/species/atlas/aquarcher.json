@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "aquarcher",
-  "nationalPokedexNumber": 5529,
+  "nationalPokedexNumber": 5531,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
     "poisonpoint",
-    "sniper",
-    "h:keeneye"
-  ],
+    "sniper"  ],
   "baseStats": {
     "hp": 70,
     "attack": 98,

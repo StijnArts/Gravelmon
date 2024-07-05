@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wicoot",
-  "nationalPokedexNumber": 3539,
+  "nationalPokedexNumber": 3541,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 90,

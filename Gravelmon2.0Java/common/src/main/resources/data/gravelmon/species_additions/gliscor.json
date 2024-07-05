@@ -5,9 +5,7 @@
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
-    "icescales",
-    "h:icescales"
-  ],
+    "icescales"  ],
   "baseStats": {
     "hp": 75,
     "attack": 95,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "moundhog",
-  "nationalPokedexNumber": 5615,
+  "nationalPokedexNumber": 5617,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 40,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "fulion",
-  "nationalPokedexNumber": 3177,
+  "nationalPokedexNumber": 3181,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
-    "steelyspirit",
-    "h:steelyspirit"
-  ],
+    "steelyspirit"  ],
   "baseStats": {
     "hp": 75,
     "attack": 100,

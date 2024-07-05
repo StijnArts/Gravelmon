@@ -1,10 +1,5 @@
 package drai.dev.gravelmon.pokeballs;
 
-import com.cobblemon.mod.common.item.*;
-import com.cobblemon.mod.common.pokeball.*;
-import dev.architectury.registry.registries.*;
-import net.minecraft.world.item.*;
-
 public class GravelmonPokeballs {
 
     public static GravelmonPokeBall CORAL_BALL;

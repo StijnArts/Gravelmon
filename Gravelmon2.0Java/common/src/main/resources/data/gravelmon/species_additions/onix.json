@@ -5,9 +5,7 @@
   "primaryType": "rock",
   "secondaryType": "ice",
   "abilities": [
-    "crystalcase",
-    "h:crystalcase"
-  ],
+    "crystalcase"  ],
   "baseStats": {
     "hp": 55,
     "attack": 35,

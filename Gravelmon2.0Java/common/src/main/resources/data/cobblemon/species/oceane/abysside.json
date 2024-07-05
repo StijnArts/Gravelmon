@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "abysside",
-  "nationalPokedexNumber": 2302,
+  "nationalPokedexNumber": 2306,
   "primaryType": "dragon",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 171,
     "attack": 49,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "zipstream",
-  "nationalPokedexNumber": 4043,
+  "nationalPokedexNumber": 4045,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
-    "speedboost",
-    "h:speedboost"
-  ],
+    "speedboost"  ],
   "baseStats": {
     "hp": 48,
     "attack": 74,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "harylect",
-  "nationalPokedexNumber": 2421,
+  "nationalPokedexNumber": 2425,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
     "voltabsorb",
-    "voltabsorb",
-    "h:voltabsorb"
-  ],
+    "voltabsorb"  ],
   "baseStats": {
     "hp": 70,
     "attack": 100,

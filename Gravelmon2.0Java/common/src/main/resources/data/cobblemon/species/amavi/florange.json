@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "florange",
-  "nationalPokedexNumber": 5599,
+  "nationalPokedexNumber": 5601,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
-    "harvest",
-    "h:harvest"
-  ],
+    "harvest"  ],
   "baseStats": {
     "hp": 130,
     "attack": 20,

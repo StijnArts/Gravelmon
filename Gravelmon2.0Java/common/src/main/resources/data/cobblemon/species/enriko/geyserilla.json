@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "geyserilla",
-  "nationalPokedexNumber": 2004,
+  "nationalPokedexNumber": 2008,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 78,
     "attack": 100,

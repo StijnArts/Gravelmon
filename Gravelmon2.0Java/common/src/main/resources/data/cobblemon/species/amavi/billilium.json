@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "billilium",
-  "nationalPokedexNumber": 5612,
+  "nationalPokedexNumber": 5614,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 70,

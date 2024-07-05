@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "urslash",
-  "nationalPokedexNumber": 4337,
+  "nationalPokedexNumber": 4339,
   "primaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 110,
     "attack": 103,

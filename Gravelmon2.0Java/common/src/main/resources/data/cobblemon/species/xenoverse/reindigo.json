@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "reindigo",
-  "nationalPokedexNumber": 2140,
+  "nationalPokedexNumber": 2144,
   "primaryType": "dark",
   "abilities": [
-    "defeatist",
-    "h:defeatist"
-  ],
+    "defeatist"  ],
   "baseStats": {
     "hp": 110,
     "attack": 128,

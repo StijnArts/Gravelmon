@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hulding",
-  "nationalPokedexNumber": 3239,
+  "nationalPokedexNumber": 3243,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 86,
     "attack": 30,

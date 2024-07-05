@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "fungotta",
-  "nationalPokedexNumber": 3798,
+  "nationalPokedexNumber": 3800,
   "primaryType": "ground",
   "secondaryType": "ghost",
   "abilities": [
     "effectspore",
-    "dryskin",
-    "h:keeneye"
-  ],
+    "dryskin"  ],
   "baseStats": {
     "hp": 52,
     "attack": 23,

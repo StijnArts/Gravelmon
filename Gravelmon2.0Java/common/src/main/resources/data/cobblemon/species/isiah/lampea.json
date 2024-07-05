@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "lampea",
-  "nationalPokedexNumber": 4320,
+  "nationalPokedexNumber": 4322,
   "primaryType": "grass",
   "abilities": [
-    "skilllink",
-    "h:skilllink"
-  ],
+    "skilllink"  ],
   "baseStats": {
     "hp": 47,
     "attack": 37,

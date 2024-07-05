@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bawlfrog",
-  "nationalPokedexNumber": 3750,
+  "nationalPokedexNumber": 3752,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
-    "empathy",
-    "h:empathy"
-  ],
+    "empathy"  ],
   "baseStats": {
     "hp": 190,
     "attack": 38,

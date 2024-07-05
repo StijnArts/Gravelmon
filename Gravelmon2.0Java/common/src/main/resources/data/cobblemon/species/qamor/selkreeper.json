@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "selkreeper",
-  "nationalPokedexNumber": 4080,
+  "nationalPokedexNumber": 4082,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
-    "disguise",
-    "h:disguise"
-  ],
+    "disguise"  ],
   "baseStats": {
     "hp": 105,
     "attack": 80,

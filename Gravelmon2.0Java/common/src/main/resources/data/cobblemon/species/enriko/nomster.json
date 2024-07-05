@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "nomster",
-  "nationalPokedexNumber": 1974,
+  "nationalPokedexNumber": 1978,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 52,
     "attack": 65,

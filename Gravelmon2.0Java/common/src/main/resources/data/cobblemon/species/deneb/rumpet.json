@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "rumpet",
-  "nationalPokedexNumber": 4755,
+  "nationalPokedexNumber": 4757,
   "primaryType": "normal",
   "abilities": [
-    "owntempo",
-    "h:owntempo"
-  ],
+    "owntempo"  ],
   "baseStats": {
     "hp": 85,
     "attack": 60,

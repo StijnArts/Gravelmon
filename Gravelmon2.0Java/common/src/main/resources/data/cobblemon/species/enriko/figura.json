@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "figura",
-  "nationalPokedexNumber": 1927,
+  "nationalPokedexNumber": 1931,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 20,

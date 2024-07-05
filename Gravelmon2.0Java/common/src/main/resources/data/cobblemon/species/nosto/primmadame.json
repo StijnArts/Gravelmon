@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "primmadame",
-  "nationalPokedexNumber": 3630,
+  "nationalPokedexNumber": 3632,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "queenlymajesty",
-    "h:queenlymajesty"
-  ],
+    "queenlymajesty"  ],
   "baseStats": {
     "hp": 80,
     "attack": 45,

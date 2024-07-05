@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "batrix",
-  "nationalPokedexNumber": 2831,
+  "nationalPokedexNumber": 2835,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
-    "blaze",
-    "h:blaze"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 54,
     "attack": 82,

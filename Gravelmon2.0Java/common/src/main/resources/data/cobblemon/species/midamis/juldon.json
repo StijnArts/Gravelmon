@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "juldon",
-  "nationalPokedexNumber": 4584,
+  "nationalPokedexNumber": 4586,
   "primaryType": "psychic",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 49,
     "attack": 62,

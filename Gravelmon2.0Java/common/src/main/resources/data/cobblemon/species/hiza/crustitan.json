@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "crustitan",
-  "nationalPokedexNumber": 2793,
+  "nationalPokedexNumber": 2797,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
-    "moldbreaker",
-    "h:moldbreaker"
-  ],
+    "moldbreaker"  ],
   "baseStats": {
     "hp": 105,
     "attack": 110,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bayby",
-  "nationalPokedexNumber": 3109,
+  "nationalPokedexNumber": 3113,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 54,
     "attack": 37,

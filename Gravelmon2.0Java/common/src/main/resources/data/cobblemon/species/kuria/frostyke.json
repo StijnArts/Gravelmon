@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "frostyke",
-  "nationalPokedexNumber": 4138,
+  "nationalPokedexNumber": 4140,
   "primaryType": "sound",
   "secondaryType": "ice",
   "abilities": [
-    "refrigerate",
-    "h:refrigerate"
-  ],
+    "refrigerate"  ],
   "baseStats": {
     "hp": 48,
     "attack": 75,

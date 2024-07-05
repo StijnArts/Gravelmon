@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "abyssoul",
-  "nationalPokedexNumber": 3026,
+  "nationalPokedexNumber": 3030,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
-    "swiftswim",
-    "h:keeneye"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 81,
     "attack": 82,

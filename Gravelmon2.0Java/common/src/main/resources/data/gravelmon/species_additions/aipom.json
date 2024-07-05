@@ -382,9 +382,7 @@
   "primaryType": "fighting",
   "abilities": [
     "scrappy",
-    "pickup",
-    "h:keeneye"
-  ],
+    "pickup"  ],
   "baseStats": {
     "hp": 55,
     "attack": 90,

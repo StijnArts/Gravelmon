@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "operlogica",
-  "nationalPokedexNumber": 3960,
+  "nationalPokedexNumber": 3962,
   "primaryType": "steel",
   "secondaryType": "psychic",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 107,
     "attack": 101,

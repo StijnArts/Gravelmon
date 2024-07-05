@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "mosquilite",
-  "nationalPokedexNumber": 4117,
+  "nationalPokedexNumber": 4119,
   "primaryType": "bug",
   "secondaryType": "cosmic",
   "abilities": [
     "tintedlens",
-    "dazzling",
-    "h:keeneye"
-  ],
+    "dazzling"  ],
   "baseStats": {
     "hp": 65,
     "attack": 106,

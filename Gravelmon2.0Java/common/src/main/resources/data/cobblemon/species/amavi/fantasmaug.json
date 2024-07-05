@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "fantasmaug",
-  "nationalPokedexNumber": 5704,
+  "nationalPokedexNumber": 5706,
   "primaryType": "dragon",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 77,
     "attack": 66,

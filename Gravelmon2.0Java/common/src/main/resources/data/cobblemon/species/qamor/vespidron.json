@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vespidron",
-  "nationalPokedexNumber": 4081,
+  "nationalPokedexNumber": 4083,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 81,

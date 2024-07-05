@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nuishot",
-  "nationalPokedexNumber": 2055,
+  "nationalPokedexNumber": 2059,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 47,
     "attack": 68,

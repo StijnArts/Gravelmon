@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rhydoom",
-  "nationalPokedexNumber": 3248,
+  "nationalPokedexNumber": 3252,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 125,
     "attack": 105,

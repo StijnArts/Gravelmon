@@ -5,9 +5,7 @@
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
-    "gooey",
-    "h:gooey"
-  ],
+    "gooey"  ],
   "baseStats": {
     "hp": 55,
     "attack": 60,

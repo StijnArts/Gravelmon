@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "polypox",
-  "nationalPokedexNumber": 5690,
+  "nationalPokedexNumber": 5692,
   "primaryType": "poison",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 45,

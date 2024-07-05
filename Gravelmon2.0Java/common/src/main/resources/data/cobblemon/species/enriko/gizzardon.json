@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "gizzardon",
-  "nationalPokedexNumber": 2048,
+  "nationalPokedexNumber": 2052,
   "primaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 87,
     "attack": 114,

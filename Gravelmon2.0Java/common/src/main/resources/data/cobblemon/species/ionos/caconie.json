@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "caconie",
-  "nationalPokedexNumber": 5029,
+  "nationalPokedexNumber": 5031,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 99,
     "attack": 100,

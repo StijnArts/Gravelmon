@@ -5,9 +5,7 @@
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
-    "blaze",
-    "h:blaze"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 67,
     "attack": 70,

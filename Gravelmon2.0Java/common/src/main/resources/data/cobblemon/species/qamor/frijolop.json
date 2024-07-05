@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "frijolop",
-  "nationalPokedexNumber": 4083,
+  "nationalPokedexNumber": 4085,
   "primaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 30,
     "attack": 25,

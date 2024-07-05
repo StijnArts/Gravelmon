@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "concealeon",
-  "nationalPokedexNumber": 2342,
+  "nationalPokedexNumber": 2346,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 110,

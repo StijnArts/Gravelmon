@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ambrachios",
-  "nationalPokedexNumber": 4372,
+  "nationalPokedexNumber": 4374,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
-    "static",
-    "h:static"
-  ],
+    "static"  ],
   "baseStats": {
     "hp": 110,
     "attack": 65,

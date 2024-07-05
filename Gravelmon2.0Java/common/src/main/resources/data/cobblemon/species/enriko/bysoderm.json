@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bysoderm",
-  "nationalPokedexNumber": 2070,
+  "nationalPokedexNumber": 2074,
   "primaryType": "dark",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 98,
     "attack": 65,

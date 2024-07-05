@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "cavitrio",
-  "nationalPokedexNumber": 2001,
+  "nationalPokedexNumber": 2005,
   "primaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 54,

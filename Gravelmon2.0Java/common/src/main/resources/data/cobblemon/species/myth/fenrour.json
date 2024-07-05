@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "fenrour",
-  "nationalPokedexNumber": 4444,
+  "nationalPokedexNumber": 4446,
   "primaryType": "ground",
   "secondaryType": "ghost",
   "abilities": [
-    "angerpoint",
-    "h:angerpoint"
-  ],
+    "angerpoint"  ],
   "baseStats": {
     "hp": 115,
     "attack": 125,

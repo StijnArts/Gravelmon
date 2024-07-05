@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "enamirth",
-  "nationalPokedexNumber": 5729,
+  "nationalPokedexNumber": 5731,
   "primaryType": "fairy",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 45,

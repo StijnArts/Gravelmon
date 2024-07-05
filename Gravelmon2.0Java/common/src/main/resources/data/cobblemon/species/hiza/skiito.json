@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "skiito",
-  "nationalPokedexNumber": 2773,
+  "nationalPokedexNumber": 2777,
   "primaryType": "ice",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 51,
     "attack": 112,

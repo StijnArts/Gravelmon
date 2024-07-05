@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tamunk",
-  "nationalPokedexNumber": 3535,
+  "nationalPokedexNumber": 3537,
   "primaryType": "fairy",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 110,
     "attack": 85,

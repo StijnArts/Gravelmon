@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:feafurr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:feafurr",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/feafurr.png",
+      "layers": []
+    }
+  ]
+}

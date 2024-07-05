@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wicruet",
-  "nationalPokedexNumber": 3347,
+  "nationalPokedexNumber": 3349,
   "primaryType": "fighting",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 70,

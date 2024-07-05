@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1387,
   "primaryType": "flying",
   "abilities": [
-    "cloudnine",
-    "h:keeneye"
-  ],
+    "cloudnine"  ],
   "baseStats": {
     "hp": 70,
     "attack": 70,

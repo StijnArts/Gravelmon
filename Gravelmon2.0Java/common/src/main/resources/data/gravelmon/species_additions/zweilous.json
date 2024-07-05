@@ -5,9 +5,7 @@
   "primaryType": "ground",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 72,
     "attack": 85,

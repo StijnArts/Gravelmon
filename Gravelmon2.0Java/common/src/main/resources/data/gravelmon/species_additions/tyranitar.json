@@ -160,9 +160,7 @@
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
-    "drought",
-    "h:drought"
-  ],
+    "drought"  ],
   "baseStats": {
     "hp": 100,
     "attack": 95,

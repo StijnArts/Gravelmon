@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pitcharade",
-  "nationalPokedexNumber": 5286,
+  "nationalPokedexNumber": 5288,
   "primaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 120,

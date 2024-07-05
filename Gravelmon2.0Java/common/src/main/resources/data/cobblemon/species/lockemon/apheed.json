@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "apheed",
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 3467,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
-    "honeygather",
-    "h:honeygather"
-  ],
+    "honeygather"  ],
   "baseStats": {
     "hp": 20,
     "attack": 15,

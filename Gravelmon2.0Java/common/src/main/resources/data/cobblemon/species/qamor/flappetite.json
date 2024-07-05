@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "flappetite",
-  "nationalPokedexNumber": 4011,
+  "nationalPokedexNumber": 4013,
   "primaryType": "normal",
   "secondaryType": "dark",
   "abilities": [
-    "gluttony",
-    "h:gluttony"
-  ],
+    "gluttony"  ],
   "baseStats": {
     "hp": 140,
     "attack": 80,

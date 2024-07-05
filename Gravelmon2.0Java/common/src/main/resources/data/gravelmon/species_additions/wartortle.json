@@ -6,9 +6,7 @@
   "secondaryType": "flying",
   "abilities": [
     "serenegrace",
-    "overcoat",
-    "h:overcoat"
-  ],
+    "overcoat"  ],
   "baseStats": {
     "hp": 59,
     "attack": 63,

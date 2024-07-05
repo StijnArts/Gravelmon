@@ -1,0 +1,11 @@
+{
+  "result": "ribitar",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "cobblemon:fossils/rare/tar_fossil"
+}

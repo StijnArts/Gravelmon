@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "conductile",
-  "nationalPokedexNumber": 2012,
+  "nationalPokedexNumber": 2016,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 59,

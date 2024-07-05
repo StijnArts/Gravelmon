@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "knotyors",
-  "nationalPokedexNumber": 3827,
+  "nationalPokedexNumber": 3829,
   "primaryType": "dragon",
   "abilities": [
     "tangledfeet",
-    "limber",
-    "h:keeneye"
-  ],
+    "limber"  ],
   "baseStats": {
     "hp": 87,
     "attack": 44,

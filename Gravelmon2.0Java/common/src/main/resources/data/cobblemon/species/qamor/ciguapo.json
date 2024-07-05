@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ciguapo",
-  "nationalPokedexNumber": 3995,
+  "nationalPokedexNumber": 3997,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 55,

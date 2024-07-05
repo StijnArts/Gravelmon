@@ -5,9 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 116,
     "attack": 40,

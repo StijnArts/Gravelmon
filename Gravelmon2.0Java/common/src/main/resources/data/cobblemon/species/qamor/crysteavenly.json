@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "crysteavenly",
-  "nationalPokedexNumber": 3976,
+  "nationalPokedexNumber": 3978,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
-    "curiousmedicine",
-    "h:curiousmedicine"
-  ],
+    "curiousmedicine"  ],
   "baseStats": {
     "hp": 70,
     "attack": 58,

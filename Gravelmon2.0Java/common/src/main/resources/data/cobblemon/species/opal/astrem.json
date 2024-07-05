@@ -5,9 +5,7 @@
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
-    "magicguard",
-    "h:magicguard"
-  ],
+    "magicguard"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

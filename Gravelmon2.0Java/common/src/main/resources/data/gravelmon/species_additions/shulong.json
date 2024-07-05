@@ -475,9 +475,7 @@
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "dragonarmor",
-    "h:dragonarmor"
-  ],
+    "dragonarmor"  ],
   "baseStats": {
     "hp": 143,
     "attack": 80,
@@ -695,9 +693,7 @@
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
-    "hydration",
-    "h:hydration"
-  ],
+    "hydration"  ],
   "baseStats": {
     "hp": 68,
     "attack": 40,

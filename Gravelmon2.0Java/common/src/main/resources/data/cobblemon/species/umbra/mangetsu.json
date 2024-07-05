@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mangetsu",
-  "nationalPokedexNumber": 3676,
+  "nationalPokedexNumber": 3678,
   "primaryType": "dark",
   "secondaryType": "ice",
   "abilities": [
-    "guts",
-    "h:keeneye"
-  ],
+    "guts"  ],
   "baseStats": {
     "hp": 70,
     "attack": 120,

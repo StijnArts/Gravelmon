@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "tamarawk",
-  "nationalPokedexNumber": 5463,
+  "nationalPokedexNumber": 5465,
   "primaryType": "normal",
   "secondaryType": "rock",
   "abilities": [
     "oblivious",
-    "reckless",
-    "h:keeneye"
-  ],
+    "reckless"  ],
   "baseStats": {
     "hp": 49,
     "attack": 73,

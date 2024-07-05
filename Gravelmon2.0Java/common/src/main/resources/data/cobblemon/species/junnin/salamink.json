@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "salamink",
-  "nationalPokedexNumber": 2884,
+  "nationalPokedexNumber": 2888,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 56,
     "attack": 33,

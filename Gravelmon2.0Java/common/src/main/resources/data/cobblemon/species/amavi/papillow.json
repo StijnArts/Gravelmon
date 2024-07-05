@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "papillow",
-  "nationalPokedexNumber": 5732,
+  "nationalPokedexNumber": 5734,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "thickfat",
-    "h:thickfat"
-  ],
+    "thickfat"  ],
   "baseStats": {
     "hp": 105,
     "attack": 30,

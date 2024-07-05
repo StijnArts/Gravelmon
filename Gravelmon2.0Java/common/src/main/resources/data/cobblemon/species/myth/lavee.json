@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lavee",
-  "nationalPokedexNumber": 4430,
+  "nationalPokedexNumber": 4432,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
-    "flamebody",
-    "h:flamebody"
-  ],
+    "flamebody"  ],
   "baseStats": {
     "hp": 70,
     "attack": 55,

@@ -25,9 +25,7 @@
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
-    "corrosion",
-    "h:corrosion"
-  ],
+    "corrosion"  ],
   "baseStats": {
     "hp": 45,
     "attack": 35,

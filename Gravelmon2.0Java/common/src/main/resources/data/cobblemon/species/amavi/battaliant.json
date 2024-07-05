@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "battaliant",
-  "nationalPokedexNumber": 5607,
+  "nationalPokedexNumber": 5609,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 58,
     "attack": 110,

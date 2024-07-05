@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "vacute",
-  "nationalPokedexNumber": 4472,
+  "nationalPokedexNumber": 4474,
   "primaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 35,
     "attack": 20,

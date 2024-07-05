@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "elecko",
-  "nationalPokedexNumber": 3041,
+  "nationalPokedexNumber": 3045,
   "primaryType": "electric",
   "abilities": [
-    "adaptability",
-    "h:adaptability"
-  ],
+    "adaptability"  ],
   "baseStats": {
     "hp": 70,
     "attack": 60,

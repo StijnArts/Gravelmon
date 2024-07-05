@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "salamuncher",
-  "nationalPokedexNumber": 3791,
+  "nationalPokedexNumber": 3793,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
-    "gluttony",
-    "h:keeneye"
-  ],
+    "gluttony"  ],
   "baseStats": {
     "hp": 100,
     "attack": 60,

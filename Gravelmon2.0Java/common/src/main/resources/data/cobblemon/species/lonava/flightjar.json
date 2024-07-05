@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "flightjar",
-  "nationalPokedexNumber": 3365,
+  "nationalPokedexNumber": 3367,
   "primaryType": "flying",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 44,
     "attack": 54,

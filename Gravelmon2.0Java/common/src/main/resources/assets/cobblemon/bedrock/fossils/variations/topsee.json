@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:topsee",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:topsee",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/topsee.png",
+      "layers": []
+    }
+  ]
+}

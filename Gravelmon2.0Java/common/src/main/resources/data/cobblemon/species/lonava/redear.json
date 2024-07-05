@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "redear",
-  "nationalPokedexNumber": 3368,
+  "nationalPokedexNumber": 3370,
   "primaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 51,
     "attack": 45,

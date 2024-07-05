@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sponaree",
-  "nationalPokedexNumber": 2413,
+  "nationalPokedexNumber": 2417,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
-    "swarm",
-    "h:swarm"
-  ],
+    "swarm"  ],
   "baseStats": {
     "hp": 40,
     "attack": 20,

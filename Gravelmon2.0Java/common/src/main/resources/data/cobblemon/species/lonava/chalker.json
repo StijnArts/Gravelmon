@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chalker",
-  "nationalPokedexNumber": 3412,
+  "nationalPokedexNumber": 3414,
   "primaryType": "rock",
   "abilities": [
     "roughskin",
-    "rockhead",
-    "h:keeneye"
-  ],
+    "rockhead"  ],
   "baseStats": {
     "hp": 80,
     "attack": 135,

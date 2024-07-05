@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "musipede",
-  "nationalPokedexNumber": 2663,
+  "nationalPokedexNumber": 2667,
   "primaryType": "bug",
   "abilities": [
-    "swarm",
-    "h:swarm"
-  ],
+    "swarm"  ],
   "baseStats": {
     "hp": 65,
     "attack": 50,

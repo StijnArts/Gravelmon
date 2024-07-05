@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "deerie",
-  "nationalPokedexNumber": 3369,
+  "nationalPokedexNumber": 3371,
   "primaryType": "fairy",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 73,
     "attack": 65,

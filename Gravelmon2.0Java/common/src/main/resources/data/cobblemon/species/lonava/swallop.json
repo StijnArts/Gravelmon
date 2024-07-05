@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "swallop",
-  "nationalPokedexNumber": 3364,
+  "nationalPokedexNumber": 3366,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 77,
     "attack": 96,

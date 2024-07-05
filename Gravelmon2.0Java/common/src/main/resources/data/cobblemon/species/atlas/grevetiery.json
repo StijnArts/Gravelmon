@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "grevetiery",
-  "nationalPokedexNumber": 5543,
+  "nationalPokedexNumber": 5545,
   "primaryType": "dark",
   "secondaryType": "ghost",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 60,
     "attack": 80,

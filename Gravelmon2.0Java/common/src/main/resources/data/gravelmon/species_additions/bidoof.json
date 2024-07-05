@@ -6,9 +6,7 @@
   "secondaryType": "steel",
   "abilities": [
     "simple",
-    "trace",
-    "h:keeneye"
-  ],
+    "trace"  ],
   "baseStats": {
     "hp": 59,
     "attack": 40,

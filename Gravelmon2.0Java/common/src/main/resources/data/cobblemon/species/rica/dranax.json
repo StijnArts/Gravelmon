@@ -5,9 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
-    "tintedlens",
-    "h:tintedlens"
-  ],
+    "tintedlens"  ],
   "baseStats": {
     "hp": 70,
     "attack": 70,

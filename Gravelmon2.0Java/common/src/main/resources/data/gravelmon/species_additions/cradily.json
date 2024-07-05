@@ -5,9 +5,7 @@
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
-    "perishbody",
-    "h:perishbody"
-  ],
+    "perishbody"  ],
   "baseStats": {
     "hp": 86,
     "attack": 81,

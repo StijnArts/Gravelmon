@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "megawatt",
-  "nationalPokedexNumber": 4379,
+  "nationalPokedexNumber": 4381,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 93,
     "attack": 56,

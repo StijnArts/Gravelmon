@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "calvakair",
-  "nationalPokedexNumber": 4389,
+  "nationalPokedexNumber": 4391,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 95,
     "attack": 85,

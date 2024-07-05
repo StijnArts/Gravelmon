@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tyragaan",
-  "nationalPokedexNumber": 4228,
+  "nationalPokedexNumber": 4230,
   "primaryType": "grass",
   "secondaryType": "light",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 91,
     "attack": 124,

@@ -5,9 +5,7 @@
   "primaryType": "ground",
   "abilities": [
     "sandrush",
-    "oblivious",
-    "h:keeneye"
-  ],
+    "oblivious"  ],
   "baseStats": {
     "hp": 60,
     "attack": 65,

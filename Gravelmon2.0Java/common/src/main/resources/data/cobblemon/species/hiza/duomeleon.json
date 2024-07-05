@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "duomeleon",
-  "nationalPokedexNumber": 2804,
+  "nationalPokedexNumber": 2808,
   "primaryType": "fire",
   "secondaryType": "ice",
   "abilities": [
-    "adaptability",
-    "h:adaptability"
-  ],
+    "adaptability"  ],
   "baseStats": {
     "hp": 72,
     "attack": 42,

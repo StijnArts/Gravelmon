@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "underrap",
-  "nationalPokedexNumber": 3823,
+  "nationalPokedexNumber": 3825,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
     "mummy",
-    "sandforce",
-    "h:keeneye"
-  ],
+    "sandforce"  ],
   "baseStats": {
     "hp": 95,
     "attack": 90,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kindeshu",
-  "nationalPokedexNumber": 4214,
+  "nationalPokedexNumber": 4216,
   "primaryType": "ghost",
   "secondaryType": "light",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 61,
     "attack": 60,

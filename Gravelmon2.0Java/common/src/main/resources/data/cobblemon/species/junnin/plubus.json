@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "plubus",
-  "nationalPokedexNumber": 2883,
+  "nationalPokedexNumber": 2887,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 39,
     "attack": 23,

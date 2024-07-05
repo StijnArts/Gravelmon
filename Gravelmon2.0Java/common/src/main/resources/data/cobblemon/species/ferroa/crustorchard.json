@@ -5,9 +5,7 @@
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 70,
     "attack": 90,

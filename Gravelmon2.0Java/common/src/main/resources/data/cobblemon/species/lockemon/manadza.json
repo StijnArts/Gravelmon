@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "manadza",
-  "nationalPokedexNumber": 3537,
+  "nationalPokedexNumber": 3539,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 75,

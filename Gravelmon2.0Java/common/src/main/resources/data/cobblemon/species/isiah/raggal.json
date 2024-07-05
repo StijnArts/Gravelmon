@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "raggal",
-  "nationalPokedexNumber": 4332,
+  "nationalPokedexNumber": 4334,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 46,
     "attack": 27,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "inood",
-  "nationalPokedexNumber": 4249,
+  "nationalPokedexNumber": 4251,
   "primaryType": "grass",
   "abilities": [
-    "overgrow",
-    "h:overgrow"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 56,
     "attack": 60,

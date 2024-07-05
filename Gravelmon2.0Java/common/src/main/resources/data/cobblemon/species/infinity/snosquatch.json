@@ -5,9 +5,7 @@
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
-    "moxie",
-    "h:keeneye"
-  ],
+    "moxie"  ],
   "baseStats": {
     "hp": 74,
     "attack": 130,

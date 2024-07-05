@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tadilly",
-  "nationalPokedexNumber": 5604,
+  "nationalPokedexNumber": 5606,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 25,

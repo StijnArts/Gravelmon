@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "alluard",
-  "nationalPokedexNumber": 4150,
+  "nationalPokedexNumber": 4152,
   "primaryType": "light",
   "secondaryType": "ghost",
   "abilities": [
     "waterabsorb",
-    "cursedbody",
-    "h:keeneye"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 100,
     "attack": 70,

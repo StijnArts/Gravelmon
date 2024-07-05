@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "enlune",
-  "nationalPokedexNumber": 4561,
+  "nationalPokedexNumber": 4563,
   "primaryType": "electric",
   "abilities": [
-    "voltabsorb",
-    "h:voltabsorb"
-  ],
+    "voltabsorb"  ],
   "baseStats": {
     "hp": 65,
     "attack": 65,

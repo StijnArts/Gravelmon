@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mohavi",
-  "nationalPokedexNumber": 4227,
+  "nationalPokedexNumber": 4229,
   "primaryType": "grass",
   "secondaryType": "light",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 80,

@@ -74,9 +74,7 @@
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 70,
     "attack": 80,
@@ -116,7 +114,6 @@
       "secondaryType": "poison",
       "abilities": [
     "intimidate",
-    "h:intimidate"
       ],
       "baseScale": 0.28125,
         "hitbox": {

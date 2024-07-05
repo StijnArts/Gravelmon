@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "hurdwall",
-  "nationalPokedexNumber": 5473,
+  "nationalPokedexNumber": 5475,
   "primaryType": "rock",
   "abilities": [
-    "stall",
-    "h:keeneye"
-  ],
+    "stall"  ],
   "baseStats": {
     "hp": 50,
     "attack": 83,

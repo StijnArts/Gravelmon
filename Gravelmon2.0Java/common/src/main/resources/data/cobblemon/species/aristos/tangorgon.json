@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tangorgon",
-  "nationalPokedexNumber": 2369,
+  "nationalPokedexNumber": 2373,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 90,

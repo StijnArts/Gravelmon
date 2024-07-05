@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "garlikid",
-  "nationalPokedexNumber": 2519,
+  "nationalPokedexNumber": 2523,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
-    "justified",
-    "h:justified"
-  ],
+    "justified"  ],
   "baseStats": {
     "hp": 90,
     "attack": 115,

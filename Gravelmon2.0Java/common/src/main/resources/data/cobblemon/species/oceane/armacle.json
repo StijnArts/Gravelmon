@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "armacle",
-  "nationalPokedexNumber": 2252,
+  "nationalPokedexNumber": 2256,
   "primaryType": "ground",
   "abilities": [
     "skilllink",
-    "megalauncher",
-    "h:keeneye"
-  ],
+    "megalauncher"  ],
   "baseStats": {
     "hp": 40,
     "attack": 70,

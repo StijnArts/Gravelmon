@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "treiarch",
-  "nationalPokedexNumber": 2904,
+  "nationalPokedexNumber": 2908,
   "primaryType": "rock",
   "secondaryType": "fighting",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 77,
     "attack": 173,

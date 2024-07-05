@@ -4,9 +4,7 @@
   "name": "X",
   "primaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 90,
@@ -49,7 +47,6 @@
       "secondaryType": "electric",
       "abilities": [
     "keeneye",
-    "h:keeneye"
       ],
       "baseScale": 1.25,
         "hitbox": {

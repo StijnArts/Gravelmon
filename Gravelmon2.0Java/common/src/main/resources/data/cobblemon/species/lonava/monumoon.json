@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "monumoon",
-  "nationalPokedexNumber": 3442,
+  "nationalPokedexNumber": 3444,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 120,
     "attack": 110,

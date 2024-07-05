@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pix",
-  "nationalPokedexNumber": 3618,
+  "nationalPokedexNumber": 3620,
   "primaryType": "electric",
   "abilities": [
-    "download",
-    "h:keeneye"
-  ],
+    "download"  ],
   "baseStats": {
     "hp": 32,
     "attack": 32,

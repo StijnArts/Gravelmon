@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "shaelseum",
-  "nationalPokedexNumber": 3331,
+  "nationalPokedexNumber": 3335,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
     "solidrock",
-    "cursedbody",
-    "h:keeneye"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 50,
     "attack": 60,

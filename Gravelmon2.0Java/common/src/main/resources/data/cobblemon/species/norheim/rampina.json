@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rampina",
-  "nationalPokedexNumber": 3236,
+  "nationalPokedexNumber": 3240,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 99,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "enchantice",
-  "nationalPokedexNumber": 3439,
+  "nationalPokedexNumber": 3441,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 77,
     "attack": 85,

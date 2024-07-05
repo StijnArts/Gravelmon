@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "cavorm",
-  "nationalPokedexNumber": 4284,
+  "nationalPokedexNumber": 4286,
   "primaryType": "ground",
   "abilities": [
-    "sandrush",
-    "h:sandrush"
-  ],
+    "sandrush"  ],
   "baseStats": {
     "hp": 50,
     "attack": 50,

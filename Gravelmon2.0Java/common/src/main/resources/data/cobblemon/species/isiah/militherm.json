@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "militherm",
-  "nationalPokedexNumber": 4265,
+  "nationalPokedexNumber": 4267,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 54,
     "attack": 126,

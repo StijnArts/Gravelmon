@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bublit",
-  "nationalPokedexNumber": 2213,
+  "nationalPokedexNumber": 2217,
   "primaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 37,
     "attack": 19,

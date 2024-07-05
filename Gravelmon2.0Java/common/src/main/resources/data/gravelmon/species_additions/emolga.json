@@ -5,9 +5,7 @@
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
-    "flashfire",
-    "h:keeneye"
-  ],
+    "flashfire"  ],
   "baseStats": {
     "hp": 55,
     "attack": 75,
@@ -47,7 +45,6 @@
       "secondaryType": "dark",
       "abilities": [
     "flashfire",
-    "h:keeneye"
       ],
       "baseScale": 0.6,
         "hitbox": {

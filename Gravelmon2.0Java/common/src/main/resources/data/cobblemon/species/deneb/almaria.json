@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "almaria",
-  "nationalPokedexNumber": 4776,
+  "nationalPokedexNumber": 4778,
   "primaryType": "ghost",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 100,
     "attack": 120,

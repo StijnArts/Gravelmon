@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "voodol",
-  "nationalPokedexNumber": 5671,
+  "nationalPokedexNumber": 5673,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 150,
     "attack": 30,

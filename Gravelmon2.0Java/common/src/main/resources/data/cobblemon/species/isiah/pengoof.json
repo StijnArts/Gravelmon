@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pengoof",
-  "nationalPokedexNumber": 4357,
+  "nationalPokedexNumber": 4359,
   "primaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 77,
     "attack": 44,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "monsturge",
-  "nationalPokedexNumber": 3268,
+  "nationalPokedexNumber": 3272,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 69,
     "attack": 106,

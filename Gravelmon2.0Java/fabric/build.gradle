@@ -22,9 +22,11 @@ loom {
         }
     }
 }
+
 configurations {
     common
     shadowCommon // Don't use shadow from the shadow plugin because we don't want IDEA to index this.
+    data
     compileClasspath.extendsFrom common
     runtimeClasspath.extendsFrom common
     developmentFabric.extendsFrom common
@@ -44,7 +46,7 @@ repositories {
 }
 
 dependencies {
-    implementation project(path: ':forge')
+//    implementation project(path: ':forge')
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
@@ -55,6 +57,8 @@ dependencies {
         officialMojangMappings()
         parchment("org.parchmentmc.data:${mappings_channel}-${mappings_version}@zip")
     }
+
+    data(project(path: ":data", configuration: "namedElements")) {transitive false}
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }

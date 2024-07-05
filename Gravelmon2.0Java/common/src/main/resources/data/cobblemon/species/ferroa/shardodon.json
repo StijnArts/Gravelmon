@@ -5,9 +5,7 @@
   "primaryType": "rock",
   "abilities": [
     "sandveil",
-    "solarpower",
-    "h:keeneye"
-  ],
+    "solarpower"  ],
   "baseStats": {
     "hp": 45,
     "attack": 60,

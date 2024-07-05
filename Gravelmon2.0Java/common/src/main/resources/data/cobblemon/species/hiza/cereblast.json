@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cereblast",
-  "nationalPokedexNumber": 2781,
+  "nationalPokedexNumber": 2785,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "analytic",
-    "h:analytic"
-  ],
+    "analytic"  ],
   "baseStats": {
     "hp": 95,
     "attack": 85,

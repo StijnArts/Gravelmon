@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "natomy",
-  "nationalPokedexNumber": 2068,
+  "nationalPokedexNumber": 2072,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 78,
     "attack": 85,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "minkin",
-  "nationalPokedexNumber": 5037,
+  "nationalPokedexNumber": 5039,
   "primaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 60,

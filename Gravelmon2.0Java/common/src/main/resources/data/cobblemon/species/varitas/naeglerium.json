@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "naeglerium",
-  "nationalPokedexNumber": 2327,
+  "nationalPokedexNumber": 2331,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
-    "moody",
-    "h:moody"
-  ],
+    "moody"  ],
   "baseStats": {
     "hp": 105,
     "attack": 50,

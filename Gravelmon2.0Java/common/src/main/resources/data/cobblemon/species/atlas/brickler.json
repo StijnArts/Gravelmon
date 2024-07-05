@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "brickler",
-  "nationalPokedexNumber": 5472,
+  "nationalPokedexNumber": 5474,
   "primaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 23,
     "attack": 55,

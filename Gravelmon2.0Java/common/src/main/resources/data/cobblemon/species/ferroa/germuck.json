@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1763,
   "primaryType": "poison",
   "abilities": [
-    "oblivious",
-    "h:keeneye"
-  ],
+    "oblivious"  ],
   "baseStats": {
     "hp": 55,
     "attack": 30,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "feebleg",
-  "nationalPokedexNumber": 2306,
+  "nationalPokedexNumber": 2310,
   "primaryType": "bug",
   "abilities": [
-    "swarm",
-    "h:swarm"
-  ],
+    "swarm"  ],
   "baseStats": {
     "hp": 50,
     "attack": 40,

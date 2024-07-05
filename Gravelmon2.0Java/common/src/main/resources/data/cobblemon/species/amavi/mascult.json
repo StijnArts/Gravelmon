@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mascult",
-  "nationalPokedexNumber": 5721,
+  "nationalPokedexNumber": 5723,
   "primaryType": "dark",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 45,

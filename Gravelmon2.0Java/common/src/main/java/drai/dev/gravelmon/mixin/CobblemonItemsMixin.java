@@ -9,13 +9,6 @@ import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.*;
 
-import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.ATOM_BALL;
-import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.DELTA_BALL;
-import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.GREAT_ROCKET_BALL;
-import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.NUCLEAR_BALL;
-import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.ROCKET_BALL;
-import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.TYPING_BALL;
-import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.ULTRA_ROCKET_BALL;
 import static drai.dev.gravelmon.registries.GravelmonItems.*;
 
 @Mixin(CobblemonItems.class)

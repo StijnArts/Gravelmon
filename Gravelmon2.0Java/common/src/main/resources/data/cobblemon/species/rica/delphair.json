@@ -5,9 +5,7 @@
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
-    "runaway",
-    "h:keeneye"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 65,
     "attack": 55,

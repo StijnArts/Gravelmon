@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "fleezer",
-  "nationalPokedexNumber": 2227,
+  "nationalPokedexNumber": 2231,
   "primaryType": "normal",
   "abilities": [
-    "furcoat",
-    "h:furcoat"
-  ],
+    "furcoat"  ],
   "baseStats": {
     "hp": 85,
     "attack": 90,

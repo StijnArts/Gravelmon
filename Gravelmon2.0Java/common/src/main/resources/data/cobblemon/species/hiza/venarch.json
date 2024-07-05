@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "venarch",
-  "nationalPokedexNumber": 2734,
+  "nationalPokedexNumber": 2738,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 52,
     "attack": 38,

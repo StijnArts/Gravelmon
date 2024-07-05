@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "echomori",
-  "nationalPokedexNumber": 2191,
+  "nationalPokedexNumber": 2195,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 64,

@@ -5,9 +5,7 @@
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
-    "magicbounce",
-    "h:magicbounce"
-  ],
+    "magicbounce"  ],
   "baseStats": {
     "hp": 150,
     "attack": 160,

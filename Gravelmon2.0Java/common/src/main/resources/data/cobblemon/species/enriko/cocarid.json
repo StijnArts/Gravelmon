@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "cocarid",
-  "nationalPokedexNumber": 1995,
+  "nationalPokedexNumber": 1999,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 78,
     "attack": 67,

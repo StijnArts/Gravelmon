@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "leviathao",
-  "nationalPokedexNumber": 2521,
+  "nationalPokedexNumber": 2525,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 90,
     "attack": 70,

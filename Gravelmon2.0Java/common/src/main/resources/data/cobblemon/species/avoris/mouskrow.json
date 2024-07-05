@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "mouskrow",
-  "nationalPokedexNumber": 2187,
+  "nationalPokedexNumber": 2191,
   "primaryType": "normal",
   "abilities": [
-    "overcoat",
-    "h:keeneye"
-  ],
+    "overcoat"  ],
   "baseStats": {
     "hp": 62,
     "attack": 51,

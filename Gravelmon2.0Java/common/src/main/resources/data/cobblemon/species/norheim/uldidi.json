@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "uldidi",
-  "nationalPokedexNumber": 3238,
+  "nationalPokedexNumber": 3242,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 21,

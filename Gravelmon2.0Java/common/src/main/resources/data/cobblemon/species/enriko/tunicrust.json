@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tunicrust",
-  "nationalPokedexNumber": 1991,
+  "nationalPokedexNumber": 1995,
   "primaryType": "rock",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 98,
     "attack": 87,

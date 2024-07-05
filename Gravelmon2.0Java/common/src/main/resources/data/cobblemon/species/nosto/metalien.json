@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "metalien",
-  "nationalPokedexNumber": 3604,
+  "nationalPokedexNumber": 3606,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 32,
     "attack": 56,

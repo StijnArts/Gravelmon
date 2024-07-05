@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "encantomb",
-  "nationalPokedexNumber": 4071,
+  "nationalPokedexNumber": 4073,
   "primaryType": "ground",
   "secondaryType": "dragon",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 90,
     "attack": 90,

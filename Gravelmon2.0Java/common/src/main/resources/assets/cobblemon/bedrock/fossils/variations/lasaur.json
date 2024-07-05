@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:lasaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lasaur",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/lasaur.png",
+      "layers": []
+    }
+  ]
+}

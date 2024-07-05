@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "phonemon",
-  "nationalPokedexNumber": 1993,
+  "nationalPokedexNumber": 1997,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
     "soundproof",
-    "scrappy",
-    "h:keeneye"
-  ],
+    "scrappy"  ],
   "baseStats": {
     "hp": 60,
     "attack": 85,

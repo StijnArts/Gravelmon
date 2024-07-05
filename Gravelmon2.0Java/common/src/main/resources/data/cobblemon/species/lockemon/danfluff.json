@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "danfluff",
-  "nationalPokedexNumber": 3446,
+  "nationalPokedexNumber": 3448,
   "primaryType": "grass",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 90,
     "attack": 70,

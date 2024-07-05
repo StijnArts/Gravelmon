@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1654,
   "primaryType": "ghost",
   "abilities": [
-    "cursedbody",
-    "h:cursedbody"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 100,
     "attack": 85,

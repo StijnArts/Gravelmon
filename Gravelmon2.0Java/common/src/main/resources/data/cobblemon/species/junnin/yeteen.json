@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "yeteen",
-  "nationalPokedexNumber": 2822,
+  "nationalPokedexNumber": 2826,
   "primaryType": "grass",
   "secondaryType": "ice",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 77,
     "attack": 89,

@@ -4,7 +4,6 @@ import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.item.group.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.itemgroup.v1.*;
-import net.minecraft.world.item.*;
 
 public class CreativeTabsInit {
     public static void initCreativeTabs(){

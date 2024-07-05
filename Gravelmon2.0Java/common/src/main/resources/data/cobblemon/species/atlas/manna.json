@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "manna",
-  "nationalPokedexNumber": 5408,
+  "nationalPokedexNumber": 5410,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
     "oblivious",
-    "forewarn",
-    "h:keeneye"
-  ],
+    "forewarn"  ],
   "baseStats": {
     "hp": 100,
     "attack": 60,

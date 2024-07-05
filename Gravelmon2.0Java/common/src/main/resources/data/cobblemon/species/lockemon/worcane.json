@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "worcane",
-  "nationalPokedexNumber": 3512,
+  "nationalPokedexNumber": 3514,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
-    "strongjaw",
-    "h:keeneye"
-  ],
+    "strongjaw"  ],
   "baseStats": {
     "hp": 80,
     "attack": 140,

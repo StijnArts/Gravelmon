@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "terramite",
-  "nationalPokedexNumber": 4460,
+  "nationalPokedexNumber": 4462,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 35,
     "attack": 40,

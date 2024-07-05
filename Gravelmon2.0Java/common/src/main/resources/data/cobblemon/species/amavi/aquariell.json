@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "aquariell",
-  "nationalPokedexNumber": 5688,
+  "nationalPokedexNumber": 5690,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
-    "marvelscale",
-    "h:marvelscale"
-  ],
+    "marvelscale"  ],
   "baseStats": {
     "hp": 100,
     "attack": 65,

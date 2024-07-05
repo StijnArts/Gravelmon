@@ -5,9 +5,7 @@
   "primaryType": "ice",
   "secondaryType": "ghost",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 47,
     "attack": 25,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "artifire",
-  "nationalPokedexNumber": 4653,
+  "nationalPokedexNumber": 4655,
   "primaryType": "fire",
   "secondaryType": "bug",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 35,
     "attack": 96,

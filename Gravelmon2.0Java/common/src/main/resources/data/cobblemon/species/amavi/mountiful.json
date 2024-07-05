@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mountiful",
-  "nationalPokedexNumber": 5617,
+  "nationalPokedexNumber": 5619,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 82,
     "attack": 99,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "blitzchief",
-  "nationalPokedexNumber": 2704,
+  "nationalPokedexNumber": 2708,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
-    "static",
-    "h:static"
-  ],
+    "static"  ],
   "baseStats": {
     "hp": 50,
     "attack": 95,

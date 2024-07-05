@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "neskoo",
-  "nationalPokedexNumber": 4273,
+  "nationalPokedexNumber": 4275,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 60,

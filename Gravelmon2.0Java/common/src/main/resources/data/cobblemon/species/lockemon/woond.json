@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "woond",
-  "nationalPokedexNumber": 3482,
+  "nationalPokedexNumber": 3484,
   "primaryType": "fighting",
   "secondaryType": "ghost",
   "abilities": [
     "scrappy",
-    "justified",
-    "h:keeneye"
-  ],
+    "justified"  ],
   "baseStats": {
     "hp": 75,
     "attack": 115,

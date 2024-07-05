@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "silter",
-  "nationalPokedexNumber": 5687,
+  "nationalPokedexNumber": 5689,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 30,
     "attack": 22,

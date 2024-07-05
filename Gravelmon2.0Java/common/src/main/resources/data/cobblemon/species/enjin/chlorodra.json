@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "chlorodra",
-  "nationalPokedexNumber": 5000,
+  "nationalPokedexNumber": 5002,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
     "stickyhold",
-    "regenerator",
-    "h:keeneye"
-  ],
+    "regenerator"  ],
   "baseStats": {
     "hp": 100,
     "attack": 55,

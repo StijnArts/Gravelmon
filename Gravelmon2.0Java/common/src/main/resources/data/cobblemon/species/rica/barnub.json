@@ -5,9 +5,7 @@
   "primaryType": "rock",
   "abilities": [
     "filter",
-    "dryskin",
-    "h:keeneye"
-  ],
+    "dryskin"  ],
   "baseStats": {
     "hp": 20,
     "attack": 40,

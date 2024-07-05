@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "phonowar",
-  "nationalPokedexNumber": 2030,
+  "nationalPokedexNumber": 2034,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 95,
     "attack": 54,

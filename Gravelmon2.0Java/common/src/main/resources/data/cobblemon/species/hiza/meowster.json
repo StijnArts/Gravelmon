@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "meowster",
-  "nationalPokedexNumber": 2679,
+  "nationalPokedexNumber": 2683,
   "primaryType": "normal",
   "secondaryType": "dark",
   "abilities": [
-    "hugepower",
-    "h:hugepower"
-  ],
+    "hugepower"  ],
   "baseStats": {
     "hp": 100,
     "attack": 85,

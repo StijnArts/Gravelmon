@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wrigormort",
-  "nationalPokedexNumber": 1950,
+  "nationalPokedexNumber": 1954,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 95,

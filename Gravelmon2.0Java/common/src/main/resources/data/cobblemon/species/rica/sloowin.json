@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1271,
   "primaryType": "water",
   "abilities": [
-    "torrent",
-    "h:torrent"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 73,
     "attack": 78,

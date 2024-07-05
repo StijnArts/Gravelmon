@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pachyball",
-  "nationalPokedexNumber": 3063,
+  "nationalPokedexNumber": 3067,
   "primaryType": "fire",
   "abilities": [
     "blaze",
-    "flamebody",
-    "h:keeneye"
-  ],
+    "flamebody"  ],
   "baseStats": {
     "hp": 65,
     "attack": 43,

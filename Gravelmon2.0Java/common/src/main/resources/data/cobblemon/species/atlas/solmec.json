@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "solmec",
-  "nationalPokedexNumber": 5413,
+  "nationalPokedexNumber": 5415,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
-    "sturdy",
-    "h:keeneye"
-  ],
+    "sturdy"  ],
   "baseStats": {
     "hp": 110,
     "attack": 100,

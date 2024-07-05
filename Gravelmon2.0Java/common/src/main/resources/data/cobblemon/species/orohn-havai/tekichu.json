@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tekichu",
-  "nationalPokedexNumber": 3050,
+  "nationalPokedexNumber": 3054,
   "primaryType": "electric",
   "secondaryType": "fighting",
   "abilities": [
-    "lightningrod",
-    "h:keeneye"
-  ],
+    "lightningrod"  ],
   "baseStats": {
     "hp": 89,
     "attack": 89,

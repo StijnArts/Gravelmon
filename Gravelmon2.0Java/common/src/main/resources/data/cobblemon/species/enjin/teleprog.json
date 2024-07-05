@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "teleprog",
-  "nationalPokedexNumber": 4997,
+  "nationalPokedexNumber": 4999,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 40,

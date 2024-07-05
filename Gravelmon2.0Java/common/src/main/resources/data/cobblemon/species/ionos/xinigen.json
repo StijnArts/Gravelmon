@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "xinigen",
-  "nationalPokedexNumber": 5030,
+  "nationalPokedexNumber": 5032,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
-    "magicguard",
-    "h:magicguard"
-  ],
+    "magicguard"  ],
   "baseStats": {
     "hp": 80,
     "attack": 110,

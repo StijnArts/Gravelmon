@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cuddlur",
-  "nationalPokedexNumber": 5010,
+  "nationalPokedexNumber": 5012,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 110,
     "attack": 80,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "flintten",
-  "nationalPokedexNumber": 3593,
+  "nationalPokedexNumber": 3595,
   "primaryType": "ground",
   "abilities": [
-    "sandveil",
-    "h:sandveil"
-  ],
+    "sandveil"  ],
   "baseStats": {
     "hp": 56,
     "attack": 60,

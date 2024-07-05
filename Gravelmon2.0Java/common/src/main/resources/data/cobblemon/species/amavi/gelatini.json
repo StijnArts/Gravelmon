@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gelatini",
-  "nationalPokedexNumber": 5639,
+  "nationalPokedexNumber": 5641,
   "primaryType": "psychic",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 25,

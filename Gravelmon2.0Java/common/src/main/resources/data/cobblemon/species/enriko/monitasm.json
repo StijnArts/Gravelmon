@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "monitasm",
-  "nationalPokedexNumber": 2008,
+  "nationalPokedexNumber": 2012,
   "primaryType": "ghost",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 30,

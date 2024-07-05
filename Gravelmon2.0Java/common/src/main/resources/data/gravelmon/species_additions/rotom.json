@@ -621,9 +621,7 @@
   "secondaryType": "normal",
   "abilities": [
     "levitate",
-    "adaptability",
-    "h:keeneye"
-  ],
+    "adaptability"  ],
   "baseStats": {
     "hp": 50,
     "attack": 65,

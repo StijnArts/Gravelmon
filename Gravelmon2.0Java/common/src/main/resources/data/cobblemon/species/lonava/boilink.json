@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "boilink",
-  "nationalPokedexNumber": 3373,
+  "nationalPokedexNumber": 3375,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 54,
     "attack": 76,

@@ -5,9 +5,7 @@
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 88,
     "attack": 66,
@@ -182,9 +180,7 @@
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
-    "download",
-    "h:download"
-  ],
+    "download"  ],
   "baseStats": {
     "hp": 118,
     "attack": 67,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "granvesp",
-  "nationalPokedexNumber": 4960,
+  "nationalPokedexNumber": 4962,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 70,
     "attack": 102,

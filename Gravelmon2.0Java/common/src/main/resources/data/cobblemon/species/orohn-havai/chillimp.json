@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chillimp",
-  "nationalPokedexNumber": 3021,
+  "nationalPokedexNumber": 3025,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 49,
     "attack": 26,

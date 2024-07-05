@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cocoolite",
-  "nationalPokedexNumber": 4116,
+  "nationalPokedexNumber": 4118,
   "primaryType": "bug",
   "secondaryType": "cosmic",
   "abilities": [
-    "compoundeyes",
-    "h:keeneye"
-  ],
+    "compoundeyes"  ],
   "baseStats": {
     "hp": 55,
     "attack": 40,

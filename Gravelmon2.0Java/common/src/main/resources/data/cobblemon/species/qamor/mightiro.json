@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "mightiro",
-  "nationalPokedexNumber": 4070,
+  "nationalPokedexNumber": 4072,
   "primaryType": "dragon",
   "abilities": [
-    "solarpower",
-    "h:solarpower"
-  ],
+    "solarpower"  ],
   "baseStats": {
     "hp": 60,
     "attack": 55,

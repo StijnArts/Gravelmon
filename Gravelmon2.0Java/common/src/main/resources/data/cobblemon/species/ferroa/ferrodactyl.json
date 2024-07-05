@@ -5,9 +5,7 @@
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 70,
     "attack": 98,

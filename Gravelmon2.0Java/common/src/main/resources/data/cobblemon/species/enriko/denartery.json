@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "denartery",
-  "nationalPokedexNumber": 1961,
+  "nationalPokedexNumber": 1965,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 30,

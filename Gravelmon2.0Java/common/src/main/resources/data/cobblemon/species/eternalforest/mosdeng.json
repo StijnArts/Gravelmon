@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "mosdeng",
-  "nationalPokedexNumber": 3072,
+  "nationalPokedexNumber": 3076,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
     "runaway",
-    "runaway",
-    "h:runaway"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 80,
     "attack": 70,

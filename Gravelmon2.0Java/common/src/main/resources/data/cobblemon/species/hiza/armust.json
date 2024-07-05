@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "armust",
-  "nationalPokedexNumber": 2792,
+  "nationalPokedexNumber": 2796,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
-    "moldbreaker",
-    "h:moldbreaker"
-  ],
+    "moldbreaker"  ],
   "baseStats": {
     "hp": 65,
     "attack": 85,

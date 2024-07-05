@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "antle",
-  "nationalPokedexNumber": 3172,
+  "nationalPokedexNumber": 3176,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
-    "swarm",
-    "h:swarm"
-  ],
+    "swarm"  ],
   "baseStats": {
     "hp": 45,
     "attack": 50,

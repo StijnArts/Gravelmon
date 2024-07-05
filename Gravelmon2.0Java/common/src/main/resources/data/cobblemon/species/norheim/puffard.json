@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "puffard",
-  "nationalPokedexNumber": 3104,
+  "nationalPokedexNumber": 3108,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
     "torrent",
-    "bigpecks",
-    "h:keeneye"
-  ],
+    "bigpecks"  ],
   "baseStats": {
     "hp": 65,
     "attack": 65,

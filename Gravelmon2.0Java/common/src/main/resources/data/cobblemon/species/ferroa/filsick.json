@@ -5,9 +5,7 @@
   "primaryType": "poison",
   "abilities": [
     "poisontouch",
-    "synchronize",
-    "h:keeneye"
-  ],
+    "synchronize"  ],
   "baseStats": {
     "hp": 40,
     "attack": 48,

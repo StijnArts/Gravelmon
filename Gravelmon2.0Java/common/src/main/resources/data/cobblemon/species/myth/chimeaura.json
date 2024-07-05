@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chimeaura",
-  "nationalPokedexNumber": 4423,
+  "nationalPokedexNumber": 4425,
   "primaryType": "sound",
   "secondaryType": "steel",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 85,
     "attack": 55,

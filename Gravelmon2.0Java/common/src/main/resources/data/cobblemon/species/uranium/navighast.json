@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "navighast",
-  "nationalPokedexNumber": 2490,
+  "nationalPokedexNumber": 2494,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 80,
     "attack": 115,

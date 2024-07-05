@@ -21,9 +21,7 @@
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 94,
     "attack": 100,

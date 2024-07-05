@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "beacoon",
-  "nationalPokedexNumber": 2304,
+  "nationalPokedexNumber": 2308,
   "primaryType": "bug",
   "abilities": [
-    "illuminate",
-    "h:illuminate"
-  ],
+    "illuminate"  ],
   "baseStats": {
     "hp": 75,
     "attack": 20,

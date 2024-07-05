@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "strikoon",
-  "nationalPokedexNumber": 3113,
+  "nationalPokedexNumber": 3117,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 55,

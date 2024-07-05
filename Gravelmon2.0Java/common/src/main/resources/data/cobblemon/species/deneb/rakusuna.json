@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "rakusuna",
-  "nationalPokedexNumber": 4919,
+  "nationalPokedexNumber": 4921,
   "primaryType": "ground",
   "abilities": [
-    "sandstream",
-    "h:sandstream"
-  ],
+    "sandstream"  ],
   "baseStats": {
     "hp": 60,
     "attack": 40,

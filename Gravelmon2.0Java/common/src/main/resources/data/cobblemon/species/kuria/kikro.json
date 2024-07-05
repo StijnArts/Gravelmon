@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "kikro",
-  "nationalPokedexNumber": 4112,
+  "nationalPokedexNumber": 4114,
   "primaryType": "water",
   "abilities": [
-    "torrent",
-    "h:keeneye"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 54,
     "attack": 49,

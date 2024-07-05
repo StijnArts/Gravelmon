@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cerecybim",
-  "nationalPokedexNumber": 4027,
+  "nationalPokedexNumber": 4029,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
-    "owntempo",
-    "h:owntempo"
-  ],
+    "owntempo"  ],
   "baseStats": {
     "hp": 122,
     "attack": 60,

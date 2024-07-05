@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "macatherm",
-  "nationalPokedexNumber": 2003,
+  "nationalPokedexNumber": 2007,
   "primaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 54,
     "attack": 70,

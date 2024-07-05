@@ -5,9 +5,7 @@
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
-    "bigpecks",
-    "h:bigpecks"
-  ],
+    "bigpecks"  ],
   "baseStats": {
     "hp": 70,
     "attack": 110,

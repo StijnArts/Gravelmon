@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "elefjant",
-  "nationalPokedexNumber": 3253,
+  "nationalPokedexNumber": 3257,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 99,
     "attack": 43,

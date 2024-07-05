@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "alfalphalops",
-  "nationalPokedexNumber": 3447,
+  "nationalPokedexNumber": 3449,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 110,
     "attack": 80,

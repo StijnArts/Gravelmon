@@ -6,9 +6,7 @@
   "secondaryType": "poison",
   "abilities": [
     "poisontouch",
-    "vampiric",
-    "h:keeneye"
-  ],
+    "vampiric"  ],
   "baseStats": {
     "hp": 80,
     "attack": 120,

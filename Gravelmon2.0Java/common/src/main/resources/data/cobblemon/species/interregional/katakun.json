@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1625,
   "primaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 35,
     "attack": 63,

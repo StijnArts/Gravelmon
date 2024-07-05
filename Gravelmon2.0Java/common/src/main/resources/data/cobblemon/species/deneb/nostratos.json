@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nostratos",
-  "nationalPokedexNumber": 4771,
+  "nationalPokedexNumber": 4773,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 64,
     "attack": 80,

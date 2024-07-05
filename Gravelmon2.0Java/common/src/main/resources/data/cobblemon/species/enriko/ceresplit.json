@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ceresplit",
-  "nationalPokedexNumber": 1953,
+  "nationalPokedexNumber": 1957,
   "primaryType": "ground",
   "secondaryType": "fire",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 90,
     "attack": 50,

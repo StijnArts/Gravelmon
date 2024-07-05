@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mutios",
-  "nationalPokedexNumber": 2528,
+  "nationalPokedexNumber": 2532,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 110,
     "attack": 100,

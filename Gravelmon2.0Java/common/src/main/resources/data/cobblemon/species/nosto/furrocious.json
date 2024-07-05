@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "furrocious",
-  "nationalPokedexNumber": 3597,
+  "nationalPokedexNumber": 3599,
   "primaryType": "ground",
   "secondaryType": "poison",
   "abilities": [
     "tanglinghair",
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 69,
     "attack": 120,

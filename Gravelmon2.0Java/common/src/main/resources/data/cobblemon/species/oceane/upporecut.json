@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "upporecut",
-  "nationalPokedexNumber": 2258,
+  "nationalPokedexNumber": 2262,
   "primaryType": "fighting",
   "abilities": [
-    "waterabsorb",
-    "h:keeneye"
-  ],
+    "waterabsorb"  ],
   "baseStats": {
     "hp": 90,
     "attack": 92,

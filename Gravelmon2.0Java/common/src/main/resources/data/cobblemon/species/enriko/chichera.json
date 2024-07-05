@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "chichera",
-  "nationalPokedexNumber": 2046,
+  "nationalPokedexNumber": 2050,
   "primaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 42,
     "attack": 55,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "therpal",
-  "nationalPokedexNumber": 3448,
+  "nationalPokedexNumber": 3450,
   "primaryType": "fire",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 40,
     "attack": 60,

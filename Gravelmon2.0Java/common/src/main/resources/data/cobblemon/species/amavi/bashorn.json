@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bashorn",
-  "nationalPokedexNumber": 5585,
+  "nationalPokedexNumber": 5587,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 95,

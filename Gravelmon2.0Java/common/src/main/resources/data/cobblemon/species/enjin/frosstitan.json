@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "frosstitan",
-  "nationalPokedexNumber": 5008,
+  "nationalPokedexNumber": 5010,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
     "snowcloak",
-    "moldbreaker",
-    "h:keeneye"
-  ],
+    "moldbreaker"  ],
   "baseStats": {
     "hp": 122,
     "attack": 111,

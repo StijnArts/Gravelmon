@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:carnibble",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:carnibble",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/carnibble.png",
+      "layers": []
+    }
+  ]
+}

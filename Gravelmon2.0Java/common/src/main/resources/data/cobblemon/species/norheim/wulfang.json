@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "wulfang",
-  "nationalPokedexNumber": 3295,
+  "nationalPokedexNumber": 3299,
   "primaryType": "ghost",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 83,
     "attack": 126,

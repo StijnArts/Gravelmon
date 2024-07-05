@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pocus",
-  "nationalPokedexNumber": 5659,
+  "nationalPokedexNumber": 5661,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 35,

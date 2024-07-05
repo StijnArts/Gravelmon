@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kitsu",
-  "nationalPokedexNumber": 4110,
+  "nationalPokedexNumber": 4112,
   "primaryType": "fire",
   "secondaryType": "cosmic",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 79,
     "attack": 84,

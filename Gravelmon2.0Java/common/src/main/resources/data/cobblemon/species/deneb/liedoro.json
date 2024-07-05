@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "liedoro",
-  "nationalPokedexNumber": 4716,
+  "nationalPokedexNumber": 4718,
   "primaryType": "dark",
   "abilities": [
-    "runaway",
-    "h:runaway"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 79,
     "attack": 112,

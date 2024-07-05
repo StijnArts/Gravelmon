@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "trickgrin",
-  "nationalPokedexNumber": 4143,
+  "nationalPokedexNumber": 4145,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
     "pickpocket",
-    "prankster",
-    "h:keeneye"
-  ],
+    "prankster"  ],
   "baseStats": {
     "hp": 40,
     "attack": 50,

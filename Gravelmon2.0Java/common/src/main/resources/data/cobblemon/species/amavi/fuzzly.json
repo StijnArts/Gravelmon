@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "fuzzly",
-  "nationalPokedexNumber": 5679,
+  "nationalPokedexNumber": 5681,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 80,

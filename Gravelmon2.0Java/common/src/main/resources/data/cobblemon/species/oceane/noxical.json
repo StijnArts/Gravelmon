@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "noxical",
-  "nationalPokedexNumber": 2296,
+  "nationalPokedexNumber": 2300,
   "primaryType": "dragon",
   "abilities": [
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 65,
     "attack": 79,

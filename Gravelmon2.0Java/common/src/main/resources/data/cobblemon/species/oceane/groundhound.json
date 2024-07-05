@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "groundhound",
-  "nationalPokedexNumber": 2225,
+  "nationalPokedexNumber": 2229,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 94,
     "attack": 94,

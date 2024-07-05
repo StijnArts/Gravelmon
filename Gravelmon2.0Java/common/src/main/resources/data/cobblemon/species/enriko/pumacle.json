@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pumacle",
-  "nationalPokedexNumber": 1990,
+  "nationalPokedexNumber": 1994,
   "primaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 60,

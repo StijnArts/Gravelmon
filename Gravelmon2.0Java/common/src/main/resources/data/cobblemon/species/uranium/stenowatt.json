@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "stenowatt",
-  "nationalPokedexNumber": 2491,
+  "nationalPokedexNumber": 2495,
   "primaryType": "electric",
   "abilities": [
     "motordrive",
-    "speedboost",
-    "h:keeneye"
-  ],
+    "speedboost"  ],
   "baseStats": {
     "hp": 75,
     "attack": 85,

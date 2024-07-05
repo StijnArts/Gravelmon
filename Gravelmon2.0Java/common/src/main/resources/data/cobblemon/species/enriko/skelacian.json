@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "skelacian",
-  "nationalPokedexNumber": 1996,
+  "nationalPokedexNumber": 2000,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 39,
     "attack": 111,

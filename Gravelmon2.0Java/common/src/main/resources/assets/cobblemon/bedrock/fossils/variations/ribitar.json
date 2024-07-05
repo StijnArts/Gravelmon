@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:ribitar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ribitar",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/ribitar.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "erfwerm",
-  "nationalPokedexNumber": 1982,
+  "nationalPokedexNumber": 1986,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 61,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "harborosa",
-  "nationalPokedexNumber": 5685,
+  "nationalPokedexNumber": 5687,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 130,

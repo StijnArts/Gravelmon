@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "caecarette",
-  "nationalPokedexNumber": 1964,
+  "nationalPokedexNumber": 1968,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 38,
     "attack": 67,

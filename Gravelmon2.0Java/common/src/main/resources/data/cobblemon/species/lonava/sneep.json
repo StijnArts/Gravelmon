@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "sneep",
-  "nationalPokedexNumber": 3425,
+  "nationalPokedexNumber": 3427,
   "primaryType": "ice",
   "abilities": [
-    "snowcloak",
-    "h:snowcloak"
-  ],
+    "snowcloak"  ],
   "baseStats": {
     "hp": 87,
     "attack": 55,

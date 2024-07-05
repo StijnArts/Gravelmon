@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kitsurah",
-  "nationalPokedexNumber": 4111,
+  "nationalPokedexNumber": 4113,
   "primaryType": "fire",
   "secondaryType": "cosmic",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 80,
     "attack": 115,

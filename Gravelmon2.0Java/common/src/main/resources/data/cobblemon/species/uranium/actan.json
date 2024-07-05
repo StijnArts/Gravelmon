@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "actan",
-  "nationalPokedexNumber": 2524,
+  "nationalPokedexNumber": 2528,
   "primaryType": "dark",
   "secondaryType": "steel",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 96,
     "attack": 144,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "poyai",
-  "nationalPokedexNumber": 2014,
+  "nationalPokedexNumber": 2018,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 59,
     "attack": 49,

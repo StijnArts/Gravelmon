@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lumboar",
-  "nationalPokedexNumber": 3642,
+  "nationalPokedexNumber": 3644,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 63,

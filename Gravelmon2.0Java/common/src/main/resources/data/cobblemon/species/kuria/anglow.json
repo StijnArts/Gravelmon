@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "anglow",
-  "nationalPokedexNumber": 4149,
+  "nationalPokedexNumber": 4151,
   "primaryType": "light",
   "secondaryType": "ghost",
   "abilities": [
     "waterabsorb",
-    "cursedbody",
-    "h:keeneye"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 60,
     "attack": 50,

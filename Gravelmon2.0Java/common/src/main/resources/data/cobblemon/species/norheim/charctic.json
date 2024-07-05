@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "charctic",
-  "nationalPokedexNumber": 3212,
+  "nationalPokedexNumber": 3216,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
-    "swiftswim",
-    "h:keeneye"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 75,
     "attack": 110,

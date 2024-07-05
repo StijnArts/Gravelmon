@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wystearia",
-  "nationalPokedexNumber": 2124,
+  "nationalPokedexNumber": 2128,
   "primaryType": "grass",
   "secondaryType": "sound",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 54,

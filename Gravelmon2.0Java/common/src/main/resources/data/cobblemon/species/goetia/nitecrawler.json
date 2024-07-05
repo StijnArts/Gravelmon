@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nitecrawler",
-  "nationalPokedexNumber": 5792,
+  "nationalPokedexNumber": 5794,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 125,

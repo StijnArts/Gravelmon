@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "piluma",
-  "nationalPokedexNumber": 3602,
+  "nationalPokedexNumber": 3604,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 20,

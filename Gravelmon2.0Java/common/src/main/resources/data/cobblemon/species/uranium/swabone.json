@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "swabone",
-  "nationalPokedexNumber": 2488,
+  "nationalPokedexNumber": 2492,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
-    "scrappy",
-    "h:scrappy"
-  ],
+    "scrappy"  ],
   "baseStats": {
     "hp": 40,
     "attack": 85,

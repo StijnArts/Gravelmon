@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pteroculus",
-  "nationalPokedexNumber": 2023,
+  "nationalPokedexNumber": 2027,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 76,
     "attack": 54,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "hoowhip",
-  "nationalPokedexNumber": 5401,
+  "nationalPokedexNumber": 5403,
   "primaryType": "fairy",
   "abilities": [
-    "oblivious",
-    "h:keeneye"
-  ],
+    "oblivious"  ],
   "baseStats": {
     "hp": 58,
     "attack": 34,

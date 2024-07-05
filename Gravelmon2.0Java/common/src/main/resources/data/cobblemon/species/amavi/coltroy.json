@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "coltroy",
-  "nationalPokedexNumber": 5725,
+  "nationalPokedexNumber": 5727,
   "primaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 85,

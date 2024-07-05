@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "stalagoyle",
-  "nationalPokedexNumber": 2312,
+  "nationalPokedexNumber": 2316,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 58,
     "attack": 89,

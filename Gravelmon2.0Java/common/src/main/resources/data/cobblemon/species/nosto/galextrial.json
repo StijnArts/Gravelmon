@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "galextrial",
-  "nationalPokedexNumber": 3606,
+  "nationalPokedexNumber": 3608,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 113,

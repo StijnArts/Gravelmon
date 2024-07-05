@@ -5,9 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
-    "swarm",
-    "h:keeneye"
-  ],
+    "swarm"  ],
   "baseStats": {
     "hp": 63,
     "attack": 55,

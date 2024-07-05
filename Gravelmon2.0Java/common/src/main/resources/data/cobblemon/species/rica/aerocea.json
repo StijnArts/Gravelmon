@@ -5,9 +5,7 @@
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
-    "pressure",
-    "h:keeneye"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 100,
     "attack": 75,

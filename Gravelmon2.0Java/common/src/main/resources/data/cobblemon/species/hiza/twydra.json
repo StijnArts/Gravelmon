@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "twydra",
-  "nationalPokedexNumber": 2805,
+  "nationalPokedexNumber": 2809,
   "primaryType": "fire",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 102,
     "attack": 72,

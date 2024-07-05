@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "grubdew",
-  "nationalPokedexNumber": 5016,
+  "nationalPokedexNumber": 5018,
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
-    "leafguard",
-    "h:leafguard"
-  ],
+    "leafguard"  ],
   "baseStats": {
     "hp": 30,
     "attack": 49,

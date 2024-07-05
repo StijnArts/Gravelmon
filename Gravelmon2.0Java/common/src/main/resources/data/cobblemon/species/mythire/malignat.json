@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "malignat",
-  "nationalPokedexNumber": 3772,
+  "nationalPokedexNumber": 3774,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
     "infiltrator",
-    "compoundeyes",
-    "h:keeneye"
-  ],
+    "compoundeyes"  ],
   "baseStats": {
     "hp": 30,
     "attack": 45,

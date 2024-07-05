@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chislee",
-  "nationalPokedexNumber": 4517,
+  "nationalPokedexNumber": 4519,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
-    "scrappy",
-    "h:scrappy"
-  ],
+    "scrappy"  ],
   "baseStats": {
     "hp": 65,
     "attack": 105,

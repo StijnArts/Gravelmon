@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "agitwin",
-  "nationalPokedexNumber": 2326,
+  "nationalPokedexNumber": 2330,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
-    "moody",
-    "h:moody"
-  ],
+    "moody"  ],
   "baseStats": {
     "hp": 70,
     "attack": 20,

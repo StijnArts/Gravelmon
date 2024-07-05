@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "caldona",
-  "nationalPokedexNumber": 5466,
+  "nationalPokedexNumber": 5468,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
     "magmaarmor",
-    "flamebody",
-    "h:keeneye"
-  ],
+    "flamebody"  ],
   "baseStats": {
     "hp": 71,
     "attack": 66,

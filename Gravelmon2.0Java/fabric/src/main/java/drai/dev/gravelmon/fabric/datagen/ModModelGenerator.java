@@ -56,8 +56,8 @@ public class ModModelGenerator extends FabricModelProvider {
         simpleItem(GravelmonItems.SPARE_PARTS,itemModelGenerator);
         simpleItem(GravelmonItems.MAGIC_COOKIE,itemModelGenerator);
         simpleItem(GravelmonItems.INDUCTIVE_RING,itemModelGenerator);
-        simpleItem(GravelmonItems.TUSK_FOSSIL,itemModelGenerator);
-        simpleItem(GravelmonItems.HORN_FOSSIL,itemModelGenerator);
+        simpleItem(GravelmonFossilItems.TUSK_FOSSIL,itemModelGenerator);
+        simpleItem(GravelmonFossilItems.HORN_FOSSIL,itemModelGenerator);
         simpleItem(GravelmonItems.X_RAY_SPECS,itemModelGenerator);
         simpleItem(GravelmonItems.FOUL_ROCK,itemModelGenerator);
         simpleItem(GravelmonItems.RAGGED_PEBBLE,itemModelGenerator);

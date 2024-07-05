@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pendodoom",
-  "nationalPokedexNumber": 4382,
+  "nationalPokedexNumber": 4384,
   "primaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 78,
     "attack": 56,

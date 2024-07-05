@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "papillo",
-  "nationalPokedexNumber": 5651,
+  "nationalPokedexNumber": 5653,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 180,
     "attack": 70,

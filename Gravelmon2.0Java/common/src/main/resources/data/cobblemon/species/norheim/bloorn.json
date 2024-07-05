@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bloorn",
-  "nationalPokedexNumber": 3246,
+  "nationalPokedexNumber": 3250,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 58,
     "attack": 58,

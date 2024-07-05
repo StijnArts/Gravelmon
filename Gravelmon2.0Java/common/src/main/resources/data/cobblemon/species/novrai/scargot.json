@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "scargot",
-  "nationalPokedexNumber": 5201,
+  "nationalPokedexNumber": 5203,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
     "static",
-    "flamebody",
-    "h:keeneye"
-  ],
+    "flamebody"  ],
   "baseStats": {
     "hp": 90,
     "attack": 50,

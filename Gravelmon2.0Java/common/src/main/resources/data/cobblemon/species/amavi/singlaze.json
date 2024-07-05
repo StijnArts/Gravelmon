@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "singlaze",
-  "nationalPokedexNumber": 5710,
+  "nationalPokedexNumber": 5712,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 15,

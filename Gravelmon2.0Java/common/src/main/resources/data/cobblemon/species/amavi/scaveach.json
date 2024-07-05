@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "scaveach",
-  "nationalPokedexNumber": 5677,
+  "nationalPokedexNumber": 5679,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 65,

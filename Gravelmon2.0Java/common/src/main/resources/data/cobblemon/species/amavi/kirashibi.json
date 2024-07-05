@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "kirashibi",
-  "nationalPokedexNumber": 5661,
+  "nationalPokedexNumber": 5663,
   "primaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 50,

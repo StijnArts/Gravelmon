@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "colarva",
-  "nationalPokedexNumber": 2480,
+  "nationalPokedexNumber": 2484,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
-    "icebody",
-    "h:icebody"
-  ],
+    "icebody"  ],
   "baseStats": {
     "hp": 45,
     "attack": 43,

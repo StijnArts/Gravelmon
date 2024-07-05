@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "charitot",
-  "nationalPokedexNumber": 3394,
+  "nationalPokedexNumber": 3396,
   "primaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 73,
     "attack": 35,

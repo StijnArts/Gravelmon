@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "termunch",
-  "nationalPokedexNumber": 2609,
+  "nationalPokedexNumber": 2613,
   "primaryType": "bug",
   "abilities": [
-    "sapsipper",
-    "h:sapsipper"
-  ],
+    "sapsipper"  ],
   "baseStats": {
     "hp": 35,
     "attack": 63,

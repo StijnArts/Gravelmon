@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dielebi",
-  "nationalPokedexNumber": 2173,
+  "nationalPokedexNumber": 2177,
   "primaryType": "psychic",
   "secondaryType": "bug",
   "abilities": [
-    "serenegrace",
-    "h:serenegrace"
-  ],
+    "serenegrace"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

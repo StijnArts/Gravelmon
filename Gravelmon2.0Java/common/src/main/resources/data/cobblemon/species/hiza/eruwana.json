@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "eruwana",
-  "nationalPokedexNumber": 2699,
+  "nationalPokedexNumber": 2703,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 55,
     "attack": 55,

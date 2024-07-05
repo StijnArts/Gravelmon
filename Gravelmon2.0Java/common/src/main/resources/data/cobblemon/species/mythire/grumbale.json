@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "grumbale",
-  "nationalPokedexNumber": 3836,
+  "nationalPokedexNumber": 3838,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
     "lightningrod",
-    "angerpoint",
-    "h:keeneye"
-  ],
+    "angerpoint"  ],
   "baseStats": {
     "hp": 93,
     "attack": 87,

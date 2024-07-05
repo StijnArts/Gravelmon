@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "spunch",
-  "nationalPokedexNumber": 2257,
+  "nationalPokedexNumber": 2261,
   "primaryType": "fighting",
   "abilities": [
-    "waterabsorb",
-    "h:keeneye"
-  ],
+    "waterabsorb"  ],
   "baseStats": {
     "hp": 46,
     "attack": 45,

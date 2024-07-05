@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "drumbum",
-  "nationalPokedexNumber": 2280,
+  "nationalPokedexNumber": 2284,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 56,
     "attack": 49,

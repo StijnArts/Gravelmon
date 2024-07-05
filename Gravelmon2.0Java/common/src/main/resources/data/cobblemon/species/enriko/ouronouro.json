@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ouronouro",
-  "nationalPokedexNumber": 1970,
+  "nationalPokedexNumber": 1974,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
-    "liquidooze",
-    "h:keeneye"
-  ],
+    "liquidooze"  ],
   "baseStats": {
     "hp": 110,
     "attack": 34,

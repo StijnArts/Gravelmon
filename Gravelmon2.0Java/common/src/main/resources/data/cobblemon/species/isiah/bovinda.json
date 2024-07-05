@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bovinda",
-  "nationalPokedexNumber": 4288,
+  "nationalPokedexNumber": 4290,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 39,
     "attack": 30,

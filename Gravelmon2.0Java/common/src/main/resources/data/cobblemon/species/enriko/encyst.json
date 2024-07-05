@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "encyst",
-  "nationalPokedexNumber": 1931,
+  "nationalPokedexNumber": 1935,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
     "unnerve",
-    "levitate",
-    "h:keeneye"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 25,
     "attack": 30,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "barbarrage",
-  "nationalPokedexNumber": 2253,
+  "nationalPokedexNumber": 2257,
   "primaryType": "ground",
   "abilities": [
     "skilllink",
-    "megalauncher",
-    "h:keeneye"
-  ],
+    "megalauncher"  ],
   "baseStats": {
     "hp": 70,
     "attack": 120,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "aotius",
-  "nationalPokedexNumber": 2527,
+  "nationalPokedexNumber": 2531,
   "primaryType": "flying",
   "secondaryType": "fire",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 110,
     "attack": 100,

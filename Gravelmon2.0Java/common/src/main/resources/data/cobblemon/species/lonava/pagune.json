@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pagune",
-  "nationalPokedexNumber": 3405,
+  "nationalPokedexNumber": 3407,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 65,

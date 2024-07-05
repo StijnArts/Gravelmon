@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wijin",
-  "nationalPokedexNumber": 4330,
+  "nationalPokedexNumber": 4332,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 59,
     "attack": 23,

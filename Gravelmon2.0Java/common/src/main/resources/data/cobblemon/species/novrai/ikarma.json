@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ikarma",
-  "nationalPokedexNumber": 5334,
+  "nationalPokedexNumber": 5336,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
-    "angerpoint",
-    "h:keeneye"
-  ],
+    "angerpoint"  ],
   "baseStats": {
     "hp": 100,
     "attack": 150,

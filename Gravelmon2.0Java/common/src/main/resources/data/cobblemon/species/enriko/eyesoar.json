@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "eyesoar",
-  "nationalPokedexNumber": 2022,
+  "nationalPokedexNumber": 2026,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 37,

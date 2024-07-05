@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "deecoin",
-  "nationalPokedexNumber": 3795,
+  "nationalPokedexNumber": 3797,
   "primaryType": "steel",
   "secondaryType": "bug",
   "abilities": [
-    "sturdy",
-    "h:sturdy"
-  ],
+    "sturdy"  ],
   "baseStats": {
     "hp": 40,
     "attack": 55,

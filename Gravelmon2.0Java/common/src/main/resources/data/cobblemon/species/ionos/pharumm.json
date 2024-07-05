@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pharumm",
-  "nationalPokedexNumber": 5028,
+  "nationalPokedexNumber": 5030,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
-    "mummy",
-    "h:mummy"
-  ],
+    "mummy"  ],
   "baseStats": {
     "hp": 60,
     "attack": 90,

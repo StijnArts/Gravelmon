@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "koslich",
-  "nationalPokedexNumber": 4396,
+  "nationalPokedexNumber": 4398,
   "primaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 94,
     "attack": 69,

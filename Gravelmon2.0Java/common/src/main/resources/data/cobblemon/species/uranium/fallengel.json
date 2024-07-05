@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "fallengel",
-  "nationalPokedexNumber": 2516,
+  "nationalPokedexNumber": 2520,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
     "defiant",
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 85,
     "attack": 105,

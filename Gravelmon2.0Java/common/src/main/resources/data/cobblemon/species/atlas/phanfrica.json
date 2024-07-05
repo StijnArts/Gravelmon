@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "phanfrica",
-  "nationalPokedexNumber": 5578,
+  "nationalPokedexNumber": 5580,
   "primaryType": "ground",
   "abilities": [
-    "pressure",
-    "h:pressure"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 100,
     "attack": 90,

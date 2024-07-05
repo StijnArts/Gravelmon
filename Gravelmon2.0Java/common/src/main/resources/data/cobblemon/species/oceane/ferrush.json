@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ferrush",
-  "nationalPokedexNumber": 2294,
+  "nationalPokedexNumber": 2298,
   "primaryType": "steel",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 71,
     "attack": 108,

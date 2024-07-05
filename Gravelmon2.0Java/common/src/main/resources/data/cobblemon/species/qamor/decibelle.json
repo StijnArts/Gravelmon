@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "decibelle",
-  "nationalPokedexNumber": 3997,
+  "nationalPokedexNumber": 3999,
   "primaryType": "normal",
   "abilities": [
-    "punkrock",
-    "h:punkrock"
-  ],
+    "punkrock"  ],
   "baseStats": {
     "hp": 50,
     "attack": 48,

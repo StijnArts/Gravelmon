@@ -5,9 +5,7 @@
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 64,
     "attack": 54,

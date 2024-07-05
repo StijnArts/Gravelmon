@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chilormangur",
-  "nationalPokedexNumber": 3959,
+  "nationalPokedexNumber": 3961,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 71,
     "attack": 127,

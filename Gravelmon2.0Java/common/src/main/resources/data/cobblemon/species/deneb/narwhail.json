@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "narwhail",
-  "nationalPokedexNumber": 4709,
+  "nationalPokedexNumber": 4711,
   "primaryType": "ice",
   "abilities": [
-    "waterabsorb",
-    "h:waterabsorb"
-  ],
+    "waterabsorb"  ],
   "baseStats": {
     "hp": 80,
     "attack": 71,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "ghostea",
-  "nationalPokedexNumber": 4990,
+  "nationalPokedexNumber": 4992,
   "primaryType": "ghost",
   "abilities": [
-    "cursedbody",
-    "h:cursedbody"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 20,
     "attack": 25,

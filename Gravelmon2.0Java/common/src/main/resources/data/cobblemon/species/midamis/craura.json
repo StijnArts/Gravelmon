@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "craura",
-  "nationalPokedexNumber": 4564,
+  "nationalPokedexNumber": 4566,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
-    "magicguard",
-    "h:magicguard"
-  ],
+    "magicguard"  ],
   "baseStats": {
     "hp": 65,
     "attack": 70,

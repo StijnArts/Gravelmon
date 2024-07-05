@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1539,
   "primaryType": "steel",
   "abilities": [
-    "adaptability",
-    "h:adaptability"
-  ],
+    "adaptability"  ],
   "baseStats": {
     "hp": 63,
     "attack": 63,

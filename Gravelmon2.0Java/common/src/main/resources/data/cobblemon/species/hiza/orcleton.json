@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "orcleton",
-  "nationalPokedexNumber": 2732,
+  "nationalPokedexNumber": 2736,
   "primaryType": "ghost",
   "abilities": [
-    "cursedbody",
-    "h:cursedbody"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 50,
     "attack": 90,

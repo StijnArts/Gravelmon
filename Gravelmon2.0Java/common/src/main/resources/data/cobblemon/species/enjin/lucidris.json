@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "lucidris",
-  "nationalPokedexNumber": 4999,
+  "nationalPokedexNumber": 5001,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
     "stickyhold",
-    "regenerator",
-    "h:keeneye"
-  ],
+    "regenerator"  ],
   "baseStats": {
     "hp": 75,
     "attack": 45,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "merineon",
-  "nationalPokedexNumber": 3647,
+  "nationalPokedexNumber": 3649,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 30,
     "attack": 46,

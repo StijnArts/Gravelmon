@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lauves",
-  "nationalPokedexNumber": 4498,
+  "nationalPokedexNumber": 4500,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 55,
     "attack": 40,

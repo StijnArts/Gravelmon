@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "psyzul",
-  "nationalPokedexNumber": 4119,
+  "nationalPokedexNumber": 4121,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
     "keeneye",
-    "earlybird",
-    "h:keeneye"
-  ],
+    "earlybird"  ],
   "baseStats": {
     "hp": 65,
     "attack": 55,

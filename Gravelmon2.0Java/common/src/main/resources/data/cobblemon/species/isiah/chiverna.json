@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chiverna",
-  "nationalPokedexNumber": 4365,
+  "nationalPokedexNumber": 4367,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 76,
     "attack": 102,

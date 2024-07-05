@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sennitoad",
-  "nationalPokedexNumber": 4114,
+  "nationalPokedexNumber": 4116,
   "primaryType": "water",
   "secondaryType": "sound",
   "abilities": [
-    "torrent",
-    "h:keeneye"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 84,
     "attack": 73,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "felefox",
-  "nationalPokedexNumber": 4508,
+  "nationalPokedexNumber": 4510,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
-    "flashfire",
-    "h:flashfire"
-  ],
+    "flashfire"  ],
   "baseStats": {
     "hp": 65,
     "attack": 50,

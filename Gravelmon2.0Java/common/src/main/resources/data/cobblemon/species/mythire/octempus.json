@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "octempus",
-  "nationalPokedexNumber": 3848,
+  "nationalPokedexNumber": 3850,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
     "owntempo",
-    "wonderskin",
-    "h:keeneye"
-  ],
+    "wonderskin"  ],
   "baseStats": {
     "hp": 80,
     "attack": 65,

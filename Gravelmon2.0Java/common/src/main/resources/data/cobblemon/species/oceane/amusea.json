@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "amusea",
-  "nationalPokedexNumber": 2270,
+  "nationalPokedexNumber": 2274,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 44,
     "attack": 23,

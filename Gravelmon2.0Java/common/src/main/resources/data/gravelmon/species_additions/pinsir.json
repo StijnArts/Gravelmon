@@ -127,9 +127,7 @@
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
-    "purepower",
-    "h:purepower"
-  ],
+    "purepower"  ],
   "baseStats": {
     "hp": 65,
     "attack": 105,

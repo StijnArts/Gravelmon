@@ -5,9 +5,7 @@
   "primaryType": "electric",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 97,
     "attack": 114,

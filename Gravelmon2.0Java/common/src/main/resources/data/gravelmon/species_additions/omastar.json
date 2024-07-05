@@ -6,9 +6,7 @@
   "secondaryType": "dragon",
   "abilities": [
     "dazzling",
-    "marvelscale",
-    "h:keeneye"
-  ],
+    "marvelscale"  ],
   "baseStats": {
     "hp": 70,
     "attack": 60,

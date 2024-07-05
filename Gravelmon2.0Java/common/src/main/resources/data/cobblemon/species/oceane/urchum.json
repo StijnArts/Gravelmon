@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "urchum",
-  "nationalPokedexNumber": 2231,
+  "nationalPokedexNumber": 2235,
   "primaryType": "poison",
   "abilities": [
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 34,
     "attack": 44,

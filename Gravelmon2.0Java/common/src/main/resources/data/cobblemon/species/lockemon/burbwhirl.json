@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "burbwhirl",
-  "nationalPokedexNumber": 3451,
+  "nationalPokedexNumber": 3453,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
-    "torrent",
-    "h:keeneye"
-  ],
+    "torrent"  ],
   "baseStats": {
     "hp": 45,
     "attack": 70,

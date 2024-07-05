@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "destropod",
-  "nationalPokedexNumber": 4670,
+  "nationalPokedexNumber": 4672,
   "primaryType": "water",
   "abilities": [
-    "swiftswim",
-    "h:keeneye"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 80,
     "attack": 80,

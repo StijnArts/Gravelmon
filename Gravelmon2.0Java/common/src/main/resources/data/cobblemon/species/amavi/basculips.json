@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "basculips",
-  "nationalPokedexNumber": 5638,
+  "nationalPokedexNumber": 5640,
   "primaryType": "poison",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 85,

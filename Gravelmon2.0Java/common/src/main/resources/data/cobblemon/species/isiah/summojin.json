@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "summojin",
-  "nationalPokedexNumber": 4331,
+  "nationalPokedexNumber": 4333,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 33,

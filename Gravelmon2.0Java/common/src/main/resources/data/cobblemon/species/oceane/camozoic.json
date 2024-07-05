@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "camozoic",
-  "nationalPokedexNumber": 2282,
+  "nationalPokedexNumber": 2286,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
-    "sturdy",
-    "h:sturdy"
-  ],
+    "sturdy"  ],
   "baseStats": {
     "hp": 85,
     "attack": 75,

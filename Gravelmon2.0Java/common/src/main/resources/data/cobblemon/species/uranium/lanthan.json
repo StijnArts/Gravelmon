@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lanthan",
-  "nationalPokedexNumber": 2523,
+  "nationalPokedexNumber": 2527,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
-    "sheerforce",
-    "h:sheerforce"
-  ],
+    "sheerforce"  ],
   "baseStats": {
     "hp": 110,
     "attack": 106,

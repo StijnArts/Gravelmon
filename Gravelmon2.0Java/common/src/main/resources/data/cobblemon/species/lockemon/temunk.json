@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "temunk",
-  "nationalPokedexNumber": 3536,
+  "nationalPokedexNumber": 3538,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 110,
     "attack": 85,

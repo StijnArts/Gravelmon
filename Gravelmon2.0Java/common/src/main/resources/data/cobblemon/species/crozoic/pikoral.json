@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pikoral",
-  "nationalPokedexNumber": 3326,
+  "nationalPokedexNumber": 3330,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 61,
     "attack": 90,

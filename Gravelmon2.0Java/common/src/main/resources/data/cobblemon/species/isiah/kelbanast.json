@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "kelbanast",
-  "nationalPokedexNumber": 4322,
+  "nationalPokedexNumber": 4324,
   "primaryType": "grass",
   "abilities": [
-    "skilllink",
-    "h:skilllink"
-  ],
+    "skilllink"  ],
   "baseStats": {
     "hp": 98,
     "attack": 77,

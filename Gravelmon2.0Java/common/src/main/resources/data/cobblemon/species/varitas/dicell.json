@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "dicell",
-  "nationalPokedexNumber": 2328,
+  "nationalPokedexNumber": 2332,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 43,
     "attack": 43,

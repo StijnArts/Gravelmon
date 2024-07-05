@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "twigit",
-  "nationalPokedexNumber": 4106,
+  "nationalPokedexNumber": 4108,
   "primaryType": "grass",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 58,
     "attack": 35,

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "S": {
+      "item": "minecraft:bone"
+    }
+  },
+  "pattern": [
+    "BBB",
+    " S ",
+    " B "
+  ],
+  "result": {
+    "item": "gravelmon:empty_skull"
+  },
+  "show_notification": true
+}

@@ -5,9 +5,7 @@
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 84,
     "attack": 24,

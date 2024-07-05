@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "floundirt",
-  "nationalPokedexNumber": 1978,
+  "nationalPokedexNumber": 1982,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 45,

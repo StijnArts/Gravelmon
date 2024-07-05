@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "staracula",
-  "nationalPokedexNumber": 4313,
+  "nationalPokedexNumber": 4315,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 68,

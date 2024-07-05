@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "buldough",
-  "nationalPokedexNumber": 3635,
+  "nationalPokedexNumber": 3637,
   "primaryType": "fairy",
   "abilities": [
     "sweetveil",
-    "cutecharm",
-    "h:keeneye"
-  ],
+    "cutecharm"  ],
   "baseStats": {
     "hp": 66,
     "attack": 81,

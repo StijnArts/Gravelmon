@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "hazma",
-  "nationalPokedexNumber": 2499,
+  "nationalPokedexNumber": 2503,
   "primaryType": "nuclear",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 106,
     "attack": 54,

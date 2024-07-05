@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:devostoic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:devostoic",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/devostoic.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "tilow",
-  "nationalPokedexNumber": 3655,
+  "nationalPokedexNumber": 3657,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
     "flamebody",
-    "illuminate",
-    "h:keeneye"
-  ],
+    "illuminate"  ],
   "baseStats": {
     "hp": 30,
     "attack": 30,

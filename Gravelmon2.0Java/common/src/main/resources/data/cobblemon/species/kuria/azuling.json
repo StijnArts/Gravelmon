@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "azuling",
-  "nationalPokedexNumber": 4118,
+  "nationalPokedexNumber": 4120,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
     "keeneye",
-    "earlybird",
-    "h:keeneye"
-  ],
+    "earlybird"  ],
   "baseStats": {
     "hp": 45,
     "attack": 25,

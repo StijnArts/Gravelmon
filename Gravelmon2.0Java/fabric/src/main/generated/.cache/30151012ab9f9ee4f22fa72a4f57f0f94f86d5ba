@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-04T11:47:51.3831131	Gravelmon/Model Definitions
+// 1.20.1	2024-07-05T07:59:21.6373047	Gravelmon/Model Definitions
 763a2dde8f26a08ae959d5d30640082ffc4cf911 assets\gravelmon\models\item\ice_shard.json
 316daa13901a903b8be527fc53e8ebba5c0bbdcf assets\gravelmon\models\item\growth_mulch.json
 45abb802c5802cb4620f8d344b533ec23d52c038 assets\gravelmon\models\item\foul_rock.json
@@ -21,16 +21,16 @@ d776e3817b86574a3dd0c89fdbcbfc72bce17cdd assets\gravelmon\models\item\uranium_co
 4e8164888be33d210f5174c5b1b0e5d98b4963df assets\gravelmon\models\item\slowpoke_tail.json
 e54913a744983746ad629d5ffdc804391d24c197 assets\gravelmon\models\item\corrupted_seed.json
 2a98df43225333eca81c9e0cdd603c8ebd95cbf3 assets\gravelmon\models\item\solid_stone_ore.json
-90c00acf4eefd15e94330b30b621029001fa598f assets\gravelmon\models\item\dark_rock.json
 98ea6649a52037713af45f8fbfcdfe55f912dc09 assets\gravelmon\models\item\deepslate_air_stone_ore.json
+90c00acf4eefd15e94330b30b621029001fa598f assets\gravelmon\models\item\dark_rock.json
 d70f1e82b25e013ffdfc8e791c43a7c96bfbe864 assets\gravelmon\models\item\deepslate_mystic_stone_ore.json
 25c611138062e263556a73422a437793f365554a assets\gravelmon\models\item\air_stone.json
 d3db9321e4eee61a16ea95491ba92e2a64a03913 assets\gravelmon\models\item\horn_fossil.json
 0d8a17123c2549e6ea9d3719636056c749743776 assets\gravelmon\models\item\ancient_glyph.json
 b0548ffc98f70cf742c98dc01f08a3480716e2b3 assets\gravelmon\models\item\bolt_orb.json
 c08a9b5edec2d15c9990eb15680ac8923a15d531 assets\gravelmon\models\item\inductive_ring.json
-3d6dfcaa3788d8cd0a31d877875a735291f4d7d9 assets\gravelmon\models\item\mystic_stone_ore.json
 f9f0c9266a17816f33e470d291324762ce0e613f assets\gravelmon\models\item\silver_scale.json
+3d6dfcaa3788d8cd0a31d877875a735291f4d7d9 assets\gravelmon\models\item\mystic_stone_ore.json
 121126c19db188406c9e6cfff68e8a418c1a4104 assets\gravelmon\models\item\deepslate_solid_stone_ore.json
 5b4aa1340708236fae860aca855377a049c98bb8 assets\gravelmon\blockstates\deepslate_mystic_stone_ore.json
 251534e1e92b44c7d6bfb060272bd1c61bb06610 assets\gravelmon\models\item\murky_claw.json
@@ -47,8 +47,8 @@ c7e5a85acd320eeda6b5102a15c925cfadf2df5c assets\gravelmon\models\item\foreign_ha
 bb38bb51106636478656bafea1e7347698103d6c assets\gravelmon\models\block\astral_stone_ore.json
 ed6b5b6d56976d0b56ec5b7c9382ccf484fcd337 assets\gravelmon\models\item\wes_update.json
 d2e05984ee124bfe496f6868d2882a07459102ab assets\gravelmon\models\item\solid_stone.json
-02d7e004f28ecdbab3b4291ac4dad47bc78e6c43 assets\gravelmon\models\item\ocarina.json
 16e70d04bb5a954831901d99df51029aa0189732 assets\gravelmon\blockstates\air_stone_ore.json
+02d7e004f28ecdbab3b4291ac4dad47bc78e6c43 assets\gravelmon\models\item\ocarina.json
 a7fa17f11669fa4829b18dca4be1a8128ea91cee assets\gravelmon\models\item\preadite.json
 085be9e61a316163fe45c1ace4afcaff01f24867 assets\gravelmon\models\item\corrupted_disc.json
 5561b1feb031a8f5033e9faab720acbec2317793 assets\gravelmon\models\item\coconut_milk.json

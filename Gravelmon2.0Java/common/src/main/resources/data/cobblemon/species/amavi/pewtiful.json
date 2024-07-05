@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pewtiful",
-  "nationalPokedexNumber": 5635,
+  "nationalPokedexNumber": 5637,
   "primaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 45,

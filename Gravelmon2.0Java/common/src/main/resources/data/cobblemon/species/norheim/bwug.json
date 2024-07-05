@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bwug",
-  "nationalPokedexNumber": 3156,
+  "nationalPokedexNumber": 3160,
   "primaryType": "fairy",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 23,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "varaquake",
-  "nationalPokedexNumber": 3318,
+  "nationalPokedexNumber": 3322,
   "primaryType": "ground",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 101,
     "attack": 86,

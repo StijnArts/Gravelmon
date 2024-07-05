@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "froggidi",
-  "nationalPokedexNumber": 5743,
+  "nationalPokedexNumber": 5745,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 31,
     "attack": 24,

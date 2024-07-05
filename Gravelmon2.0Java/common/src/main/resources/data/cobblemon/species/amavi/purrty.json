@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "purrty",
-  "nationalPokedexNumber": 5650,
+  "nationalPokedexNumber": 5652,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 33,

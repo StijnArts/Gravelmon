@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "devimp",
-  "nationalPokedexNumber": 2515,
+  "nationalPokedexNumber": 2519,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
     "defiant",
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 65,
     "attack": 65,

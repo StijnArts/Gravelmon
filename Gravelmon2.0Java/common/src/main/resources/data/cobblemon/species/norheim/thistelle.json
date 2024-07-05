@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "thistelle",
-  "nationalPokedexNumber": 3163,
+  "nationalPokedexNumber": 3167,
   "primaryType": "poison",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 61,
     "attack": 61,

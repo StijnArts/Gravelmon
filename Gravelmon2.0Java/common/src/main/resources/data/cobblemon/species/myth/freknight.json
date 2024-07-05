@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "freknight",
-  "nationalPokedexNumber": 4446,
+  "nationalPokedexNumber": 4448,
   "primaryType": "dark",
   "secondaryType": "steel",
   "abilities": [
-    "angerpoint",
-    "h:angerpoint"
-  ],
+    "angerpoint"  ],
   "baseStats": {
     "hp": 110,
     "attack": 125,

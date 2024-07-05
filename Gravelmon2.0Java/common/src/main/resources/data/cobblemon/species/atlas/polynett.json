@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "polynett",
-  "nationalPokedexNumber": 5493,
+  "nationalPokedexNumber": 5495,
   "primaryType": "water",
   "abilities": [
-    "damp",
-    "h:keeneye"
-  ],
+    "damp"  ],
   "baseStats": {
     "hp": 40,
     "attack": 55,

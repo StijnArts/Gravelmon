@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "centillite",
-  "nationalPokedexNumber": 4115,
+  "nationalPokedexNumber": 4117,
   "primaryType": "bug",
   "abilities": [
-    "compoundeyes",
-    "h:keeneye"
-  ],
+    "compoundeyes"  ],
   "baseStats": {
     "hp": 45,
     "attack": 35,

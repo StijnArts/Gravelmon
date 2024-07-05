@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ogrelisk",
-  "nationalPokedexNumber": 2809,
+  "nationalPokedexNumber": 2813,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 100,

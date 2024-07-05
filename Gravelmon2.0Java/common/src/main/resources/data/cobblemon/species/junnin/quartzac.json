@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "quartzac",
-  "nationalPokedexNumber": 2863,
+  "nationalPokedexNumber": 2867,
   "primaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 52,
     "attack": 58,

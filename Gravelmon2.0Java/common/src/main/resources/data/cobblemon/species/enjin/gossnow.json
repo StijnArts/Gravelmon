@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "gossnow",
-  "nationalPokedexNumber": 5007,
+  "nationalPokedexNumber": 5009,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
     "snowcloak",
-    "rattled",
-    "h:keeneye"
-  ],
+    "rattled"  ],
   "baseStats": {
     "hp": 104,
     "attack": 76,

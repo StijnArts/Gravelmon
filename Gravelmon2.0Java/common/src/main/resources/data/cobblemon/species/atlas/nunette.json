@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "nunette",
-  "nationalPokedexNumber": 5406,
+  "nationalPokedexNumber": 5408,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
     "oblivious",
-    "forewarn",
-    "h:keeneye"
-  ],
+    "forewarn"  ],
   "baseStats": {
     "hp": 50,
     "attack": 35,

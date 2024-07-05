@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "aurorelk",
-  "nationalPokedexNumber": 5577,
+  "nationalPokedexNumber": 5579,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 95,
     "attack": 70,

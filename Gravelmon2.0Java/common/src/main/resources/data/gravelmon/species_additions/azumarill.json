@@ -157,9 +157,7 @@
   "secondaryType": "grass",
   "abilities": [
     "hydration",
-    "stickyhold",
-    "h:keeneye"
-  ],
+    "stickyhold"  ],
   "baseStats": {
     "hp": 100,
     "attack": 20,

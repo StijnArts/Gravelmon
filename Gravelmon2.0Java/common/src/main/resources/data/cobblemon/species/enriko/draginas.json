@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "draginas",
-  "nationalPokedexNumber": 2077,
+  "nationalPokedexNumber": 2081,
   "primaryType": "bug",
   "abilities": [
-    "parentalbond",
-    "h:parentalbond"
-  ],
+    "parentalbond"  ],
   "baseStats": {
     "hp": 65,
     "attack": 78,

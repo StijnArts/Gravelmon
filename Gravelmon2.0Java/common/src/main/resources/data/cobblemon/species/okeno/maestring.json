@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "maestring",
-  "nationalPokedexNumber": 4649,
+  "nationalPokedexNumber": 4651,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
     "swarm",
-    "telepathy",
-    "h:keeneye"
-  ],
+    "telepathy"  ],
   "baseStats": {
     "hp": 72,
     "attack": 40,

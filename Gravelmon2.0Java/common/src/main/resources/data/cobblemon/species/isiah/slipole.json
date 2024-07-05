@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "slipole",
-  "nationalPokedexNumber": 4356,
+  "nationalPokedexNumber": 4358,
   "primaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 30,

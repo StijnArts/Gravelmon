@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "infiluv",
-  "nationalPokedexNumber": 3058,
+  "nationalPokedexNumber": 3062,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

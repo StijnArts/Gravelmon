@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "gassaster",
-  "nationalPokedexNumber": 5475,
+  "nationalPokedexNumber": 5477,
   "primaryType": "poison",
   "abilities": [
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 49,
     "attack": 94,

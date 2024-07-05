@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sampig",
-  "nationalPokedexNumber": 3245,
+  "nationalPokedexNumber": 3249,
   "primaryType": "steel",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 110,
     "attack": 31,

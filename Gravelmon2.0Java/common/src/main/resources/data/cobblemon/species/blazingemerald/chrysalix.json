@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chrysalix",
-  "nationalPokedexNumber": 3748,
+  "nationalPokedexNumber": 3750,
   "primaryType": "rock",
   "secondaryType": "ice",
   "abilities": [
-    "crystalcase",
-    "h:crystalcase"
-  ],
+    "crystalcase"  ],
   "baseStats": {
     "hp": 80,
     "attack": 45,

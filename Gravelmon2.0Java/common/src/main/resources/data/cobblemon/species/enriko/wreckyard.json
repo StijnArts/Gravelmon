@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "wreckyard",
-  "nationalPokedexNumber": 2006,
+  "nationalPokedexNumber": 2010,
   "primaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 95,
     "attack": 89,

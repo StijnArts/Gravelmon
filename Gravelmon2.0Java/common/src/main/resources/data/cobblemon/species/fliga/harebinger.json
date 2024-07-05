@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "harebinger",
-  "nationalPokedexNumber": 3883,
+  "nationalPokedexNumber": 3885,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 81,
     "attack": 110,

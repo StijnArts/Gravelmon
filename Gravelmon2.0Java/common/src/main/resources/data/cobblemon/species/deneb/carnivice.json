@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "carnivice",
-  "nationalPokedexNumber": 4856,
+  "nationalPokedexNumber": 4858,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 89,
     "attack": 115,

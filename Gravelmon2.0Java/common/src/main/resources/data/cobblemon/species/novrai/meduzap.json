@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "meduzap",
-  "nationalPokedexNumber": 5255,
+  "nationalPokedexNumber": 5257,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 61,
     "attack": 31,

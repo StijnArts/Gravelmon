@@ -1,6 +1,5 @@
 package drai.dev.gravelmon.fabric.datagen;
 
-import drai.dev.gravelmon.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 
 public class ModDataGenerator implements DataGeneratorEntrypoint {

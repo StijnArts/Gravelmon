@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "lapot",
-  "nationalPokedexNumber": 4385,
+  "nationalPokedexNumber": 4387,
   "primaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 56,
     "attack": 56,

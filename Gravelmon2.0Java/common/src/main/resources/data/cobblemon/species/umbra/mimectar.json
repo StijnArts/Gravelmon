@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mimectar",
-  "nationalPokedexNumber": 3699,
+  "nationalPokedexNumber": 3701,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
-    "disguise",
-    "h:disguise"
-  ],
+    "disguise"  ],
   "baseStats": {
     "hp": 60,
     "attack": 100,

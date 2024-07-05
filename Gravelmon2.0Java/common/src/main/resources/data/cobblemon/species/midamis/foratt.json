@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "foratt",
-  "nationalPokedexNumber": 4555,
+  "nationalPokedexNumber": 4557,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
-    "chlorophyll",
-    "h:chlorophyll"
-  ],
+    "chlorophyll"  ],
   "baseStats": {
     "hp": 110,
     "attack": 100,

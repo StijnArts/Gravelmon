@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tessensei",
-  "nationalPokedexNumber": 4324,
+  "nationalPokedexNumber": 4326,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 76,
     "attack": 98,

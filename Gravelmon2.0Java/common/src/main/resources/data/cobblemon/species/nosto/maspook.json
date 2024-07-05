@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "maspook",
-  "nationalPokedexNumber": 3663,
+  "nationalPokedexNumber": 3665,
   "primaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 36,
     "attack": 44,

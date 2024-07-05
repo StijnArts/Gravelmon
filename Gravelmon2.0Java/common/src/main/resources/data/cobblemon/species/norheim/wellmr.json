@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wellmr",
-  "nationalPokedexNumber": 3281,
+  "nationalPokedexNumber": 3285,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 97,
     "attack": 93,

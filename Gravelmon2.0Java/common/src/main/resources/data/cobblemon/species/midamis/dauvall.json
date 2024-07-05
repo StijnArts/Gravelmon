@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "dauvall",
-  "nationalPokedexNumber": 4570,
+  "nationalPokedexNumber": 4572,
   "primaryType": "dark",
   "abilities": [
-    "prankster",
-    "h:prankster"
-  ],
+    "prankster"  ],
   "baseStats": {
     "hp": 70,
     "attack": 70,

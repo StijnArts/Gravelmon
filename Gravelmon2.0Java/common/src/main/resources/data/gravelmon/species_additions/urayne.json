@@ -4,9 +4,7 @@
   "name": "Beta",
   "primaryType": "nuclear",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 102,
     "attack": 130,

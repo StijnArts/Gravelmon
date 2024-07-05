@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mousummit",
-  "nationalPokedexNumber": 2188,
+  "nationalPokedexNumber": 2192,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
-    "stalwart",
-    "h:keeneye"
-  ],
+    "stalwart"  ],
   "baseStats": {
     "hp": 100,
     "attack": 90,

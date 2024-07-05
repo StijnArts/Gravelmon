@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "thawrax",
-  "nationalPokedexNumber": 3824,
+  "nationalPokedexNumber": 3826,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 25,

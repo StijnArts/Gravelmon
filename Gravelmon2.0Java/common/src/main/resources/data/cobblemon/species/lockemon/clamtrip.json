@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "clamtrip",
-  "nationalPokedexNumber": 3468,
+  "nationalPokedexNumber": 3470,
   "primaryType": "rock",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 50,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "shrimpond",
-  "nationalPokedexNumber": 3607,
+  "nationalPokedexNumber": 3609,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 44,
     "attack": 23,

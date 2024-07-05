@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hogstead",
-  "nationalPokedexNumber": 3643,
+  "nationalPokedexNumber": 3645,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 114,
     "attack": 95,

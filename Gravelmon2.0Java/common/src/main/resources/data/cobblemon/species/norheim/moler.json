@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "moler",
-  "nationalPokedexNumber": 3146,
+  "nationalPokedexNumber": 3150,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
     "arenatrap",
-    "sandforce",
-    "h:keeneye"
-  ],
+    "sandforce"  ],
   "baseStats": {
     "hp": 62,
     "attack": 56,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rafflare",
-  "nationalPokedexNumber": 4224,
+  "nationalPokedexNumber": 4226,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 89,
     "attack": 85,

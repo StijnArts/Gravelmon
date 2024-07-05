@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nautilite",
-  "nationalPokedexNumber": 2214,
+  "nationalPokedexNumber": 2218,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 28,

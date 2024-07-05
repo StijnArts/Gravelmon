@@ -250,9 +250,7 @@
   "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
-    "lightningrod",
-    "h:lightningrod"
-  ],
+    "lightningrod"  ],
   "baseStats": {
     "hp": 50,
     "attack": 70,

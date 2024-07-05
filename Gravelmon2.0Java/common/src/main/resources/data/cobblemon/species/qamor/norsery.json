@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "norsery",
-  "nationalPokedexNumber": 4024,
+  "nationalPokedexNumber": 4026,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 46,
     "attack": 46,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lihgeri",
-  "nationalPokedexNumber": 4445,
+  "nationalPokedexNumber": 4447,
   "primaryType": "fairy",
   "secondaryType": "electric",
   "abilities": [
-    "angerpoint",
-    "h:angerpoint"
-  ],
+    "angerpoint"  ],
   "baseStats": {
     "hp": 90,
     "attack": 90,

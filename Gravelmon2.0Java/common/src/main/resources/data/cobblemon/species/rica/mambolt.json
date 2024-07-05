@@ -5,9 +5,7 @@
   "primaryType": "electric",
   "abilities": [
     "shedskin",
-    "motordrive",
-    "h:keeneye"
-  ],
+    "motordrive"  ],
   "baseStats": {
     "hp": 40,
     "attack": 65,

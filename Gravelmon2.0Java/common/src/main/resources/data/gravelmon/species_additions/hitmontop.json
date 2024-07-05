@@ -5,9 +5,7 @@
   "primaryType": "fighting",
   "secondaryType": "poison",
   "abilities": [
-    "dancer",
-    "h:dancer"
-  ],
+    "dancer"  ],
   "baseStats": {
     "hp": 50,
     "attack": 72,

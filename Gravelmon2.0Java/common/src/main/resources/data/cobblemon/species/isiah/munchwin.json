@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "munchwin",
-  "nationalPokedexNumber": 4277,
+  "nationalPokedexNumber": 4279,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 85,

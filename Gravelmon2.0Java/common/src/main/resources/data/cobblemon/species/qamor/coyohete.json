@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "coyohete",
-  "nationalPokedexNumber": 4003,
+  "nationalPokedexNumber": 4005,
   "primaryType": "fairy",
   "secondaryType": "fire",
   "abilities": [
-    "defiant",
-    "h:defiant"
-  ],
+    "defiant"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

@@ -5,9 +5,7 @@
   "primaryType": "dark",
   "secondaryType": "rock",
   "abilities": [
-    "levitate",
-    "h:keeneye"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 40,
     "attack": 30,

@@ -6,9 +6,7 @@
   "secondaryType": "steel",
   "abilities": [
     "strongjaw",
-    "motordrive",
-    "h:keeneye"
-  ],
+    "motordrive"  ],
   "baseStats": {
     "hp": 70,
     "attack": 100,

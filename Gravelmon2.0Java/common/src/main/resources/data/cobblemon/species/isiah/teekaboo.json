@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "teekaboo",
-  "nationalPokedexNumber": 4381,
+  "nationalPokedexNumber": 4383,
   "primaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 54,
     "attack": 39,

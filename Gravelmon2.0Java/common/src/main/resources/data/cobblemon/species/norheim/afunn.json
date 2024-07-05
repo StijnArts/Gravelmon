@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "afunn",
-  "nationalPokedexNumber": 3276,
+  "nationalPokedexNumber": 3280,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
-    "solidrock",
-    "h:solidrock"
-  ],
+    "solidrock"  ],
   "baseStats": {
     "hp": 65,
     "attack": 85,

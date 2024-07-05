@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "virchia",
-  "nationalPokedexNumber": 4014,
+  "nationalPokedexNumber": 4016,
   "primaryType": "fairy",
   "abilities": [
-    "flowerveil",
-    "h:flowerveil"
-  ],
+    "flowerveil"  ],
   "baseStats": {
     "hp": 86,
     "attack": 52,

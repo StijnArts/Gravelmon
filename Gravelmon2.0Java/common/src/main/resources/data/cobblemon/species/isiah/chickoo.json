@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chickoo",
-  "nationalPokedexNumber": 4272,
+  "nationalPokedexNumber": 4274,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 46,
     "attack": 42,

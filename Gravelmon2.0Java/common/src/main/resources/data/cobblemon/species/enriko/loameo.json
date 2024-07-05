@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "loameo",
-  "nationalPokedexNumber": 1987,
+  "nationalPokedexNumber": 1991,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 31,

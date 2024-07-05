@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "leebrey",
-  "nationalPokedexNumber": 4588,
+  "nationalPokedexNumber": 4590,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
-    "unburden",
-    "h:unburden"
-  ],
+    "unburden"  ],
   "baseStats": {
     "hp": 70,
     "attack": 55,

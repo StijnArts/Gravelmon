@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1665,
   "primaryType": "questionmark",
   "abilities": [
-    "magicbounce",
-    "h:magicbounce"
-  ],
+    "magicbounce"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "tonemy",
-  "nationalPokedexNumber": 2394,
+  "nationalPokedexNumber": 2398,
   "primaryType": "poison",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 60,
     "attack": 45,

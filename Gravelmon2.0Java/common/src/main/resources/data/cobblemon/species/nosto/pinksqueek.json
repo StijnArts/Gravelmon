@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pinksqueek",
-  "nationalPokedexNumber": 3583,
+  "nationalPokedexNumber": 3585,
   "primaryType": "fairy",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 44,
     "attack": 44,

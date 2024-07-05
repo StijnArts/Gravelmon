@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "shrimputy",
-  "nationalPokedexNumber": 2485,
+  "nationalPokedexNumber": 2489,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
-    "sniper",
-    "h:sniper"
-  ],
+    "sniper"  ],
   "baseStats": {
     "hp": 43,
     "attack": 50,

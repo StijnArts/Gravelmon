@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "aampeel",
-  "nationalPokedexNumber": 2633,
+  "nationalPokedexNumber": 2637,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
-    "motordrive",
-    "h:motordrive"
-  ],
+    "motordrive"  ],
   "baseStats": {
     "hp": 50,
     "attack": 50,

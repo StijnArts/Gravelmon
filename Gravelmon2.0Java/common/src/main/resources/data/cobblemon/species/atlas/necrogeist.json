@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "necrogeist",
-  "nationalPokedexNumber": 5544,
+  "nationalPokedexNumber": 5546,
   "primaryType": "dark",
   "secondaryType": "ghost",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 70,
     "attack": 90,

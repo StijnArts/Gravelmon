@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "oreium",
-  "nationalPokedexNumber": 1972,
+  "nationalPokedexNumber": 1976,
   "primaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 62,
     "attack": 54,

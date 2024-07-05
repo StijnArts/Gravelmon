@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "eucharite",
-  "nationalPokedexNumber": 3348,
+  "nationalPokedexNumber": 3350,
   "primaryType": "fighting",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 110,

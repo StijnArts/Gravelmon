@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "maynoon",
-  "nationalPokedexNumber": 3788,
+  "nationalPokedexNumber": 3790,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
     "galewings",
-    "cloudnine",
-    "h:keeneye"
-  ],
+    "cloudnine"  ],
   "baseStats": {
     "hp": 70,
     "attack": 70,

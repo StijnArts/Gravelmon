@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1374,
   "primaryType": "rock",
   "abilities": [
-    "guts",
-    "h:guts"
-  ],
+    "guts"  ],
   "baseStats": {
     "hp": 60,
     "attack": 70,

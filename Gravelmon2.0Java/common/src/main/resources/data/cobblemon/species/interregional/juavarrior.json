@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1636,
   "primaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 49,

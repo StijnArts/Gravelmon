@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pixipetal",
-  "nationalPokedexNumber": 3706,
+  "nationalPokedexNumber": 3708,
   "primaryType": "fairy",
   "abilities": [
-    "dancer",
-    "h:dancer"
-  ],
+    "dancer"  ],
   "baseStats": {
     "hp": 20,
     "attack": 40,

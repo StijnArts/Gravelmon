@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wrassure",
-  "nationalPokedexNumber": 5191,
+  "nationalPokedexNumber": 5193,
   "primaryType": "water",
   "abilities": [
     "healer",
-    "hydration",
-    "h:keeneye"
-  ],
+    "hydration"  ],
   "baseStats": {
     "hp": 75,
     "attack": 27,

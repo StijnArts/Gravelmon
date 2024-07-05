@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:ice"
+    }
+  },
+  "pattern": [
+    " I ",
+    "III"
+  ],
+  "result": {
+    "item": "gravelmon:ice_shard"
+  },
+  "show_notification": true
+}

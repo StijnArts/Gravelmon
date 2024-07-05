@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cuddlish",
-  "nationalPokedexNumber": 5696,
+  "nationalPokedexNumber": 5698,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 90,
     "attack": 60,

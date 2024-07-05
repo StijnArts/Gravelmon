@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bornith",
-  "nationalPokedexNumber": 5758,
+  "nationalPokedexNumber": 5760,
   "primaryType": "flying",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 15,

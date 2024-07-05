@@ -1,17 +1,13 @@
 package drai.dev.gravelmon.fabric;
 
-import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.api.*;
 import com.cobblemon.mod.common.item.*;
 import com.cobblemon.mod.common.platform.events.*;
 import com.cobblemon.mod.common.util.*;
-import dev.architectury.registry.registries.*;
 import drai.dev.gravelmon.registries.*;
 import kotlin.*;
 import net.fabricmc.api.*;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.*;
-import net.fabricmc.fabric.api.client.item.v1.*;
-import net.fabricmc.loader.api.*;
 import net.minecraft.*;
 import net.minecraft.client.renderer.*;
 import net.minecraft.locale.*;

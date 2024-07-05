@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tekagon",
-  "nationalPokedexNumber": 4429,
+  "nationalPokedexNumber": 4431,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "battlearmor",
-    "h:battlearmor"
-  ],
+    "battlearmor"  ],
   "baseStats": {
     "hp": 110,
     "attack": 95,

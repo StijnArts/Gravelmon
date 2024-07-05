@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "dolpride",
-  "nationalPokedexNumber": 3411,
+  "nationalPokedexNumber": 3413,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 88,
     "attack": 105,

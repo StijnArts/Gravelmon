@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "eyesi",
-  "nationalPokedexNumber": 3302,
+  "nationalPokedexNumber": 3306,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 50,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "yatagaryu",
-  "nationalPokedexNumber": 2514,
+  "nationalPokedexNumber": 2518,
   "primaryType": "electric",
   "secondaryType": "dragon",
   "abilities": [
-    "electricsurge",
-    "h:electricsurge"
-  ],
+    "electricsurge"  ],
   "baseStats": {
     "hp": 90,
     "attack": 90,

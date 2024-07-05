@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "elekto",
-  "nationalPokedexNumber": 4371,
+  "nationalPokedexNumber": 4373,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
-    "static",
-    "h:static"
-  ],
+    "static"  ],
   "baseStats": {
     "hp": 77,
     "attack": 45,

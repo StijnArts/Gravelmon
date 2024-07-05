@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "cubbly",
-  "nationalPokedexNumber": 5647,
+  "nationalPokedexNumber": 5649,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 40,

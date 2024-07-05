@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "combound",
-  "nationalPokedexNumber": 4842,
+  "nationalPokedexNumber": 4844,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
-    "hugepower",
-    "h:hugepower"
-  ],
+    "hugepower"  ],
   "baseStats": {
     "hp": 80,
     "attack": 60,

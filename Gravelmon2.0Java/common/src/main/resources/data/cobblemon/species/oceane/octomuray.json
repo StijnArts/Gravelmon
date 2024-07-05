@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "octomuray",
-  "nationalPokedexNumber": 2298,
+  "nationalPokedexNumber": 2302,
   "primaryType": "steel",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 85,
     "attack": 105,

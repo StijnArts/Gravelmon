@@ -5,9 +5,7 @@
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
-    "waterbubble",
-    "h:waterbubble"
-  ],
+    "waterbubble"  ],
   "baseStats": {
     "hp": 65,
     "attack": 45,
@@ -112,9 +110,7 @@
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 58,
     "attack": 30,

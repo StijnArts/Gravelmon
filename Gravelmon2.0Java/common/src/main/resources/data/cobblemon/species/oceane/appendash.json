@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "appendash",
-  "nationalPokedexNumber": 2237,
+  "nationalPokedexNumber": 2241,
   "primaryType": "water",
   "abilities": [
-    "swiftswim",
-    "h:swiftswim"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 75,
     "attack": 105,

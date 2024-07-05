@@ -5,9 +5,7 @@
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
-    "sapsipper",
-    "h:sapsipper"
-  ],
+    "sapsipper"  ],
   "baseStats": {
     "hp": 85,
     "attack": 115,

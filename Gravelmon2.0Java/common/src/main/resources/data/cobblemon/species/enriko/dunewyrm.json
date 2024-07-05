@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "dunewyrm",
-  "nationalPokedexNumber": 1983,
+  "nationalPokedexNumber": 1987,
   "primaryType": "ground",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 87,
     "attack": 88,

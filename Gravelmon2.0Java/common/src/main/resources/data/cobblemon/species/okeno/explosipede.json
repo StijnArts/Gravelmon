@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "explosipede",
-  "nationalPokedexNumber": 4654,
+  "nationalPokedexNumber": 4656,
   "primaryType": "fire",
   "secondaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 110,

@@ -5,9 +5,7 @@
   "primaryType": "fighting",
   "secondaryType": "fairy",
   "abilities": [
-    "dancer",
-    "h:dancer"
-  ],
+    "dancer"  ],
   "baseStats": {
     "hp": 35,
     "attack": 35,

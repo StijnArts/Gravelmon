@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cetoacean",
-  "nationalPokedexNumber": 4390,
+  "nationalPokedexNumber": 4392,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 121,
     "attack": 55,

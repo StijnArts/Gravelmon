@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "dyramic",
-  "nationalPokedexNumber": 3931,
+  "nationalPokedexNumber": 3933,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
     "solidrock",
-    "ironfist",
-    "h:keeneye"
-  ],
+    "ironfist"  ],
   "baseStats": {
     "hp": 93,
     "attack": 105,

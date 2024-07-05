@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "arovee",
-  "nationalPokedexNumber": 3297,
+  "nationalPokedexNumber": 3301,
   "primaryType": "steel",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 70,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "rougella",
-  "nationalPokedexNumber": 4795,
+  "nationalPokedexNumber": 4797,
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
-    "oblivious",
-    "h:oblivious"
-  ],
+    "oblivious"  ],
   "baseStats": {
     "hp": 75,
     "attack": 90,

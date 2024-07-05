@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "valordian",
-  "nationalPokedexNumber": 5620,
+  "nationalPokedexNumber": 5622,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 140,

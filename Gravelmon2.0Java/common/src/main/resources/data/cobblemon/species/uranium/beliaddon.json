@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "beliaddon",
-  "nationalPokedexNumber": 2517,
+  "nationalPokedexNumber": 2521,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
     "defiant",
-    "intimidate",
-    "h:keeneye"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 115,
     "attack": 145,

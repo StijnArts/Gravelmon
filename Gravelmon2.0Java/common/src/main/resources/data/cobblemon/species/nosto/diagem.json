@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "diagem",
-  "nationalPokedexNumber": 3650,
+  "nationalPokedexNumber": 3652,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 77,
     "attack": 124,

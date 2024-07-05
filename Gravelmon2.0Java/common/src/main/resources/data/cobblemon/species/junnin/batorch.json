@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "batorch",
-  "nationalPokedexNumber": 2830,
+  "nationalPokedexNumber": 2834,
   "primaryType": "fire",
   "abilities": [
-    "blaze",
-    "h:blaze"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 36,
     "attack": 60,

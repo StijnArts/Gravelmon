@@ -6,9 +6,7 @@
   "secondaryType": "water",
   "abilities": [
     "static",
-    "unaware",
-    "h:keeneye"
-  ],
+    "unaware"  ],
   "baseStats": {
     "hp": 58,
     "attack": 35,

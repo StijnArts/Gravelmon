@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "curdwaul",
-  "nationalPokedexNumber": 5005,
+  "nationalPokedexNumber": 5007,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 40,
     "attack": 75,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "roarn",
-  "nationalPokedexNumber": 5706,
+  "nationalPokedexNumber": 5708,
   "primaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 115,

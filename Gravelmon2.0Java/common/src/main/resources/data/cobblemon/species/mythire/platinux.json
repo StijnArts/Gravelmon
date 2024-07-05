@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "platinux",
-  "nationalPokedexNumber": 3807,
+  "nationalPokedexNumber": 3809,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
     "megalauncher",
-    "swiftswim",
-    "h:keeneye"
-  ],
+    "swiftswim"  ],
   "baseStats": {
     "hp": 87,
     "attack": 45,

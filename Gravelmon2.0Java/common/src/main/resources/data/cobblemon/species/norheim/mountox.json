@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mountox",
-  "nationalPokedexNumber": 3235,
+  "nationalPokedexNumber": 3239,
   "primaryType": "ground",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

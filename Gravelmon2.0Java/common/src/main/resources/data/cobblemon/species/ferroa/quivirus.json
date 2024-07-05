@@ -6,9 +6,7 @@
   "secondaryType": "electric",
   "abilities": [
     "static",
-    "tangledfeet",
-    "h:keeneye"
-  ],
+    "tangledfeet"  ],
   "baseStats": {
     "hp": 90,
     "attack": 68,

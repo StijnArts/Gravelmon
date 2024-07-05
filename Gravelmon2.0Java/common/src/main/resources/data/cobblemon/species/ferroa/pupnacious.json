@@ -6,9 +6,7 @@
   "secondaryType": "dragon",
   "abilities": [
     "guarddog",
-    "guts",
-    "h:keeneye"
-  ],
+    "guts"  ],
   "baseStats": {
     "hp": 70,
     "attack": 102,

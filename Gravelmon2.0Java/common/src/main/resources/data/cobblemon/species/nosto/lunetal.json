@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "lunetal",
-  "nationalPokedexNumber": 3605,
+  "nationalPokedexNumber": 3607,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 58,
     "attack": 75,

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "impyre",
-  "nationalPokedexNumber": 5051,
+  "nationalPokedexNumber": 5053,
   "primaryType": "fire",
   "abilities": [
-    "blaze",
-    "h:keeneye"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 55,
     "attack": 56,

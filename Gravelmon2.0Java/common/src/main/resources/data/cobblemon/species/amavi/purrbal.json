@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "purrbal",
-  "nationalPokedexNumber": 5731,
+  "nationalPokedexNumber": 5733,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 20,

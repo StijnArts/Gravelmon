@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "potota",
-  "nationalPokedexNumber": 3149,
+  "nationalPokedexNumber": 3153,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 87,
     "attack": 36,

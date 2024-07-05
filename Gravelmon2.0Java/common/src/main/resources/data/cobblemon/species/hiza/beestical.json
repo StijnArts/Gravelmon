@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "beestical",
-  "nationalPokedexNumber": 2769,
+  "nationalPokedexNumber": 2773,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
-    "triage",
-    "h:triage"
-  ],
+    "triage"  ],
   "baseStats": {
     "hp": 101,
     "attack": 91,

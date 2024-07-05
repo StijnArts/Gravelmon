@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wrassuage",
-  "nationalPokedexNumber": 5192,
+  "nationalPokedexNumber": 5194,
   "primaryType": "water",
   "abilities": [
     "healer",
-    "hydration",
-    "h:keeneye"
-  ],
+    "hydration"  ],
   "baseStats": {
     "hp": 75,
     "attack": 52,

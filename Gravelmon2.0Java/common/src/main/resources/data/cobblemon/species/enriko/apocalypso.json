@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "apocalypso",
-  "nationalPokedexNumber": 1981,
+  "nationalPokedexNumber": 1985,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
-    "unnerve",
-    "h:keeneye"
-  ],
+    "unnerve"  ],
   "baseStats": {
     "hp": 105,
     "attack": 25,

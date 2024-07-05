@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "feefish",
-  "nationalPokedexNumber": 4571,
+  "nationalPokedexNumber": 4573,
   "primaryType": "water",
   "abilities": [
-    "runaway",
-    "h:runaway"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 40,
     "attack": 60,

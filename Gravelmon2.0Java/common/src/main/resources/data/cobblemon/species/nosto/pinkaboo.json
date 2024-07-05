@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pinkaboo",
-  "nationalPokedexNumber": 3584,
+  "nationalPokedexNumber": 3586,
   "primaryType": "fairy",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 64,
     "attack": 64,

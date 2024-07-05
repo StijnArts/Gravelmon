@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "khthonion",
-  "nationalPokedexNumber": 4994,
+  "nationalPokedexNumber": 4996,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
     "stench",
-    "dryskin",
-    "h:keeneye"
-  ],
+    "dryskin"  ],
   "baseStats": {
     "hp": 75,
     "attack": 55,

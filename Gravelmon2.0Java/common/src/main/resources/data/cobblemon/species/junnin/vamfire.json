@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vamfire",
-  "nationalPokedexNumber": 2832,
+  "nationalPokedexNumber": 2836,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
-    "blaze",
-    "h:blaze"
-  ],
+    "blaze"  ],
   "baseStats": {
     "hp": 72,
     "attack": 109,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "shrimpnotize",
-  "nationalPokedexNumber": 2241,
+  "nationalPokedexNumber": 2245,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 42,

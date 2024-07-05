@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "larvomit",
-  "nationalPokedexNumber": 4680,
+  "nationalPokedexNumber": 4682,
   "primaryType": "poison",
   "secondaryType": "bug",
   "abilities": [
-    "gluttony",
-    "h:gluttony"
-  ],
+    "gluttony"  ],
   "baseStats": {
     "hp": 80,
     "attack": 34,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bufierce",
-  "nationalPokedexNumber": 2686,
+  "nationalPokedexNumber": 2690,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
-    "rattled",
-    "h:rattled"
-  ],
+    "rattled"  ],
   "baseStats": {
     "hp": 50,
     "attack": 95,

@@ -5,9 +5,7 @@
   "primaryType": "fighting",
   "secondaryType": "poison",
   "abilities": [
-    "poisontouch",
-    "h:keeneye"
-  ],
+    "poisontouch"  ],
   "baseStats": {
     "hp": 50,
     "attack": 60,

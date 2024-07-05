@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mizevaris",
-  "nationalPokedexNumber": 5338,
+  "nationalPokedexNumber": 5340,
   "primaryType": "steel",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 100,
     "attack": 130,

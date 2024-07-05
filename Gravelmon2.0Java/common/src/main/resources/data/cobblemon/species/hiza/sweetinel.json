@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "sweetinel",
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 2706,
   "primaryType": "fairy",
   "abilities": [
-    "sweetveil",
-    "h:sweetveil"
-  ],
+    "sweetveil"  ],
   "baseStats": {
     "hp": 105,
     "attack": 90,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "broogah",
-  "nationalPokedexNumber": 1850,
+  "nationalPokedexNumber": 1854,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
     "guts",
-    "battlearmor",
-    "h:keeneye"
-  ],
+    "battlearmor"  ],
   "baseStats": {
     "hp": 70,
     "attack": 80,

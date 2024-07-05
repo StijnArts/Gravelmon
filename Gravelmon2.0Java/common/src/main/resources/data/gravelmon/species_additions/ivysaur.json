@@ -6,9 +6,7 @@
   "secondaryType": "rock",
   "abilities": [
     "roughskin",
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 60,
     "attack": 80,

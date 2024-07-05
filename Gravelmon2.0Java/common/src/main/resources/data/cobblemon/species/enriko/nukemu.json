@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nukemu",
-  "nationalPokedexNumber": 1973,
+  "nationalPokedexNumber": 1977,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 89,
     "attack": 78,

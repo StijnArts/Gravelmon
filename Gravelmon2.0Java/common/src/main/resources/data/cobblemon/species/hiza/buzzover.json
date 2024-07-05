@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "buzzover",
-  "nationalPokedexNumber": 2708,
+  "nationalPokedexNumber": 2712,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
-    "defeatist",
-    "h:defeatist"
-  ],
+    "defeatist"  ],
   "baseStats": {
     "hp": 60,
     "attack": 50,

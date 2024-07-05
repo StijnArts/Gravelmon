@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:petrifern",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:petrifern",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/petrifern.png",
+      "layers": []
+    }
+  ]
+}

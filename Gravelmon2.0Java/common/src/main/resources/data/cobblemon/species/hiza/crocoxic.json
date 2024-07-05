@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "crocoxic",
-  "nationalPokedexNumber": 2711,
+  "nationalPokedexNumber": 2715,
   "primaryType": "poison",
   "secondaryType": "water",
   "abilities": [
-    "strongjaw",
-    "h:strongjaw"
-  ],
+    "strongjaw"  ],
   "baseStats": {
     "hp": 75,
     "attack": 91,

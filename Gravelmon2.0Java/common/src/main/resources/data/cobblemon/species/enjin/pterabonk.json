@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pterabonk",
-  "nationalPokedexNumber": 5003,
+  "nationalPokedexNumber": 5005,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 95,

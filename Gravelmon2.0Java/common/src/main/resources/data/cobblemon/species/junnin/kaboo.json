@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "kaboo",
-  "nationalPokedexNumber": 2886,
+  "nationalPokedexNumber": 2890,
   "primaryType": "steel",
   "abilities": [
-    "aftermath",
-    "h:aftermath"
-  ],
+    "aftermath"  ],
   "baseStats": {
     "hp": 40,
     "attack": 120,

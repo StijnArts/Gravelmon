@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "renemodo",
-  "nationalPokedexNumber": 4898,
+  "nationalPokedexNumber": 4900,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
-    "snowwarning",
-    "h:snowwarning"
-  ],
+    "snowwarning"  ],
   "baseStats": {
     "hp": 61,
     "attack": 39,

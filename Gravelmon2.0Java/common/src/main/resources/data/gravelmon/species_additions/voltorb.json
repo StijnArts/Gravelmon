@@ -5,9 +5,7 @@
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 62,
     "attack": 25,
@@ -107,9 +105,7 @@
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
-    "steamengine",
-    "h:steamengine"
-  ],
+    "steamengine"  ],
   "baseStats": {
     "hp": 50,
     "attack": 60,

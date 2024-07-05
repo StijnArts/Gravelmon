@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "sonareon",
-  "nationalPokedexNumber": 4441,
+  "nationalPokedexNumber": 4443,
   "primaryType": "sound",
   "abilities": [
-    "unaware",
-    "h:keeneye"
-  ],
+    "unaware"  ],
   "baseStats": {
     "hp": 110,
     "attack": 50,

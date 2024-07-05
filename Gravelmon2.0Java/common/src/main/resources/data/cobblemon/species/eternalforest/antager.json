@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "antager",
-  "nationalPokedexNumber": 3074,
+  "nationalPokedexNumber": 3078,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
     "defeatist",
-    "defeatist",
-    "h:defeatist"
-  ],
+    "defeatist"  ],
   "baseStats": {
     "hp": 50,
     "attack": 90,

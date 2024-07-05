@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "delfraxion",
-  "nationalPokedexNumber": 5695,
+  "nationalPokedexNumber": 5697,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 60,

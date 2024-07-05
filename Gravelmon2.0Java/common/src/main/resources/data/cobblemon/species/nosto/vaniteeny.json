@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "vaniteeny",
-  "nationalPokedexNumber": 3661,
+  "nationalPokedexNumber": 3663,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
-    "magicbounce",
-    "h:magicbounce"
-  ],
+    "magicbounce"  ],
   "baseStats": {
     "hp": 67,
     "attack": 73,

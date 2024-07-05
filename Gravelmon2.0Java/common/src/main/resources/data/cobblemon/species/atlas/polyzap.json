@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "polyzap",
-  "nationalPokedexNumber": 5494,
+  "nationalPokedexNumber": 5496,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
-    "damp",
-    "h:keeneye"
-  ],
+    "damp"  ],
   "baseStats": {
     "hp": 65,
     "attack": 85,

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chainscraw",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_chainscraw",
+      "texture": "cobblemon:textures/pokemon/ferroa/chainscraw.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/chainscraw_shiny.png"
+    }
+  ]
+}

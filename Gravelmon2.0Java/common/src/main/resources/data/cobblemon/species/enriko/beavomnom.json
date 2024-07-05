@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "beavomnom",
-  "nationalPokedexNumber": 1975,
+  "nationalPokedexNumber": 1979,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 94,

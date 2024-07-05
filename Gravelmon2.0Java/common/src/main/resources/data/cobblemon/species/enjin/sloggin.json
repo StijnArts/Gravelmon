@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "sloggin",
-  "nationalPokedexNumber": 4998,
+  "nationalPokedexNumber": 5000,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
     "stickyhold",
-    "regenerator",
-    "h:keeneye"
-  ],
+    "regenerator"  ],
   "baseStats": {
     "hp": 55,
     "attack": 35,

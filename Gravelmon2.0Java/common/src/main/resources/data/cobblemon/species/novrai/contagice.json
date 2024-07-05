@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "contagice",
-  "nationalPokedexNumber": 5322,
+  "nationalPokedexNumber": 5324,
   "primaryType": "poison",
   "secondaryType": "ice",
   "abilities": [
     "adaptability",
-    "icebody",
-    "h:keeneye"
-  ],
+    "icebody"  ],
   "baseStats": {
     "hp": 70,
     "attack": 85,

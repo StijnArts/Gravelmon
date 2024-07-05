@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "beefierce",
-  "nationalPokedexNumber": 2687,
+  "nationalPokedexNumber": 2691,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
-    "rattled",
-    "h:rattled"
-  ],
+    "rattled"  ],
   "baseStats": {
     "hp": 104,
     "attack": 120,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sasaggot",
-  "nationalPokedexNumber": 4137,
+  "nationalPokedexNumber": 4139,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 118,

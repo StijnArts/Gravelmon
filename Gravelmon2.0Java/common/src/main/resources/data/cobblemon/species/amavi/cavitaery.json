@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cavitaery",
-  "nationalPokedexNumber": 5728,
+  "nationalPokedexNumber": 5730,
   "primaryType": "fairy",
   "secondaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 15,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "krilvolver",
-  "nationalPokedexNumber": 2486,
+  "nationalPokedexNumber": 2490,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
-    "sniper",
-    "h:sniper"
-  ],
+    "sniper"  ],
   "baseStats": {
     "hp": 73,
     "attack": 90,

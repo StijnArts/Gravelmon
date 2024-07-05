@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "altarath",
-  "nationalPokedexNumber": 2285,
+  "nationalPokedexNumber": 2289,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
     "drought",
-    "pressure",
-    "h:keeneye"
-  ],
+    "pressure"  ],
   "baseStats": {
     "hp": 72,
     "attack": 92,

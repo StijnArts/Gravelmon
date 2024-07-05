@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "venomenace",
-  "nationalPokedexNumber": 2297,
+  "nationalPokedexNumber": 2301,
   "primaryType": "dragon",
   "secondaryType": "poison",
   "abilities": [
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 94,
     "attack": 113,

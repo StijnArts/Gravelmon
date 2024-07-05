@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mallarki",
-  "nationalPokedexNumber": 3744,
+  "nationalPokedexNumber": 3746,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
-    "hypercutter",
-    "h:keeneye"
-  ],
+    "hypercutter"  ],
   "baseStats": {
     "hp": 60,
     "attack": 110,

@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:petirex",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:petirex",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/petirex.png",
+      "layers": []
+    }
+  ]
+}

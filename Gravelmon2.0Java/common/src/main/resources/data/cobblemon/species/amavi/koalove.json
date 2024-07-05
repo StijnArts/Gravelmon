@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "koalove",
-  "nationalPokedexNumber": 5648,
+  "nationalPokedexNumber": 5650,
   "primaryType": "normal",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 120,
     "attack": 129,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "conium",
-  "nationalPokedexNumber": 5775,
+  "nationalPokedexNumber": 5777,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 50,
     "attack": 45,

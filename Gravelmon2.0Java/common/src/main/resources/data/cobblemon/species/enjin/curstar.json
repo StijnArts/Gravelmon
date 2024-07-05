@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "curstar",
-  "nationalPokedexNumber": 4992,
+  "nationalPokedexNumber": 4994,
   "primaryType": "dark",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 30,
     "attack": 40,

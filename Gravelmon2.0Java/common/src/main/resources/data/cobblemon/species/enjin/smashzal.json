@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "smashzal",
-  "nationalPokedexNumber": 5004,
+  "nationalPokedexNumber": 5006,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 130,

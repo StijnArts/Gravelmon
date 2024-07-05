@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "flamengon",
-  "nationalPokedexNumber": 5703,
+  "nationalPokedexNumber": 5705,
   "primaryType": "dragon",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 72,
     "attack": 115,

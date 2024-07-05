@@ -5,9 +5,7 @@
   "primaryType": "dragon",
   "abilities": [
     "swiftswim",
-    "sniper",
-    "h:keeneye"
-  ],
+    "sniper"  ],
   "baseStats": {
     "hp": 55,
     "attack": 60,

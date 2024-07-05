@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "therislash",
-  "nationalPokedexNumber": 3306,
+  "nationalPokedexNumber": 3310,
   "primaryType": "normal",
   "abilities": [
-    "toughclaws",
-    "h:toughclaws"
-  ],
+    "toughclaws"  ],
   "baseStats": {
     "hp": 112,
     "attack": 95,

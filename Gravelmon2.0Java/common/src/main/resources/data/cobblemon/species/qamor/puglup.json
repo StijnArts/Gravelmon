@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "puglup",
-  "nationalPokedexNumber": 3980,
+  "nationalPokedexNumber": 3982,
   "primaryType": "normal",
   "abilities": [
-    "rockhead",
-    "h:keeneye"
-  ],
+    "rockhead"  ],
   "baseStats": {
     "hp": 65,
     "attack": 54,

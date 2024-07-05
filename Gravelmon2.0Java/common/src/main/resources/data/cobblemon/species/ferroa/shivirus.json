@@ -6,9 +6,7 @@
   "secondaryType": "ice",
   "abilities": [
     "icebody",
-    "moody",
-    "h:keeneye"
-  ],
+    "moody"  ],
   "baseStats": {
     "hp": 70,
     "attack": 68,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "mamoheim",
-  "nationalPokedexNumber": 3254,
+  "nationalPokedexNumber": 3258,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 142,
     "attack": 62,

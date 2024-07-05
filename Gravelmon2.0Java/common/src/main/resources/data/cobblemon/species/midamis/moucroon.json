@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "moucroon",
-  "nationalPokedexNumber": 4567,
+  "nationalPokedexNumber": 4569,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
-    "hustle",
-    "h:hustle"
-  ],
+    "hustle"  ],
   "baseStats": {
     "hp": 80,
     "attack": 130,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "crestival",
-  "nationalPokedexNumber": 5718,
+  "nationalPokedexNumber": 5720,
   "primaryType": "dragon",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 70,
     "attack": 70,

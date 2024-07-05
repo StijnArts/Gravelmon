@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "veefere",
-  "nationalPokedexNumber": 4474,
+  "nationalPokedexNumber": 4476,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
-    "anticipation",
-    "h:anticipation"
-  ],
+    "anticipation"  ],
   "baseStats": {
     "hp": 75,
     "attack": 80,

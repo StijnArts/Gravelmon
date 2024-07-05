@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "kinett",
-  "nationalPokedexNumber": 4519,
+  "nationalPokedexNumber": 4521,
   "primaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 80,
     "attack": 95,

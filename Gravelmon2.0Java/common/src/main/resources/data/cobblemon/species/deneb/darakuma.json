@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "darakuma",
-  "nationalPokedexNumber": 4895,
+  "nationalPokedexNumber": 4897,
   "primaryType": "normal",
   "abilities": [
-    "truant",
-    "h:truant"
-  ],
+    "truant"  ],
   "baseStats": {
     "hp": 55,
     "attack": 60,

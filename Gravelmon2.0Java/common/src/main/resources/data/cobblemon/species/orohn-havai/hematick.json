@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "hematick",
-  "nationalPokedexNumber": 2991,
+  "nationalPokedexNumber": 2995,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
     "keeneye",
-    "runaway",
-    "h:keeneye"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 50,
     "attack": 60,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "swondola",
-  "nationalPokedexNumber": 5603,
+  "nationalPokedexNumber": 5605,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 76,
     "attack": 50,

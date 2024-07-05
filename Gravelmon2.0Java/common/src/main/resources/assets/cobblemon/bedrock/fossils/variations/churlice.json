@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:churlice",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:churlice",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/churlice.png",
+      "layers": []
+    }
+  ]
+}

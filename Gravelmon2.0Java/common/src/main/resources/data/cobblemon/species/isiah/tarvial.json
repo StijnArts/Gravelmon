@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tarvial",
-  "nationalPokedexNumber": 4283,
+  "nationalPokedexNumber": 4285,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 100,

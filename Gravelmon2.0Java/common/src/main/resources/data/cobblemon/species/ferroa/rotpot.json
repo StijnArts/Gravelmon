@@ -6,9 +6,7 @@
   "secondaryType": "poison",
   "abilities": [
     "weakarmor",
-    "flowerveil",
-    "h:keeneye"
-  ],
+    "flowerveil"  ],
   "baseStats": {
     "hp": 75,
     "attack": 65,

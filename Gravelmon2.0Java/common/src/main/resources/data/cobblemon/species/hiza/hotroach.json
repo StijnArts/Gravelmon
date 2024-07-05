@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hotroach",
-  "nationalPokedexNumber": 2651,
+  "nationalPokedexNumber": 2655,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
-    "speedboost",
-    "h:speedboost"
-  ],
+    "speedboost"  ],
   "baseStats": {
     "hp": 40,
     "attack": 117,

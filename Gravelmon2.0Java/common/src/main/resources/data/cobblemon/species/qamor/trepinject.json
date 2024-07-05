@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "trepinject",
-  "nationalPokedexNumber": 3978,
+  "nationalPokedexNumber": 3980,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
-    "intimidate",
-    "h:intimidate"
-  ],
+    "intimidate"  ],
   "baseStats": {
     "hp": 63,
     "attack": 105,

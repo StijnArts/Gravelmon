@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tryphoon",
-  "nationalPokedexNumber": 5622,
+  "nationalPokedexNumber": 5624,
   "primaryType": "dragon",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 65,

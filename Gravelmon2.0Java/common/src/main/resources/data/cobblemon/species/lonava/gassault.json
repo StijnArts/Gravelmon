@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gassault",
-  "nationalPokedexNumber": 3398,
+  "nationalPokedexNumber": 3400,
   "primaryType": "fighting",
   "secondaryType": "ghost",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 54,
     "attack": 98,

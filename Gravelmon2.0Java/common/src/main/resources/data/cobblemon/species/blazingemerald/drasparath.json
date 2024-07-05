@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "drasparath",
-  "nationalPokedexNumber": 3743,
+  "nationalPokedexNumber": 3745,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
-    "aircontrol",
-    "h:aircontrol"
-  ],
+    "aircontrol"  ],
   "baseStats": {
     "hp": 80,
     "attack": 90,

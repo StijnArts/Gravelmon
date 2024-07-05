@@ -163,9 +163,7 @@
   "name": "Hoennian",
   "primaryType": "fairy",
   "abilities": [
-    "liquidooze",
-    "h:liquidooze"
-  ],
+    "liquidooze"  ],
   "baseStats": {
     "hp": 100,
     "attack": 55,

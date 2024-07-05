@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "nightrogen",
-  "nationalPokedexNumber": 5047,
+  "nationalPokedexNumber": 5049,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "beastboost",
-    "h:beastboost"
-  ],
+    "beastboost"  ],
   "baseStats": {
     "hp": 190,
     "attack": 90,

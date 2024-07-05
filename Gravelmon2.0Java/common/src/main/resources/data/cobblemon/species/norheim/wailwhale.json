@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "wailwhale",
-  "nationalPokedexNumber": 3220,
+  "nationalPokedexNumber": 3224,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 129,
     "attack": 38,

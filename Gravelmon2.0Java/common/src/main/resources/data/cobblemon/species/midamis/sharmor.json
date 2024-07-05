@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sharmor",
-  "nationalPokedexNumber": 4531,
+  "nationalPokedexNumber": 4533,
   "primaryType": "steel",
   "secondaryType": "water",
   "abilities": [
-    "sturdy",
-    "h:sturdy"
-  ],
+    "sturdy"  ],
   "baseStats": {
     "hp": 35,
     "attack": 55,

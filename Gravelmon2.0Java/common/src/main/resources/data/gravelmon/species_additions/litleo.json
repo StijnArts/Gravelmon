@@ -4,9 +4,7 @@
   "name": "Hizian",
   "primaryType": "ghost",
   "abilities": [
-    "steadfast",
-    "h:steadfast"
-  ],
+    "steadfast"  ],
   "baseStats": {
     "hp": 62,
     "attack": 73,

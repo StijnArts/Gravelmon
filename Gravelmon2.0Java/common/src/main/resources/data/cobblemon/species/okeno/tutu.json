@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tutu",
-  "nationalPokedexNumber": 4675,
+  "nationalPokedexNumber": 4677,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 44,
     "attack": 80,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "jemineye",
-  "nationalPokedexNumber": 3514,
+  "nationalPokedexNumber": 3516,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 30,

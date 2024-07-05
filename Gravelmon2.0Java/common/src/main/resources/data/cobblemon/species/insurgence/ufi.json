@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ufi",
-  "nationalPokedexNumber": 1861,
+  "nationalPokedexNumber": 1865,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "eventhorizon",
-    "h:eventhorizon"
-  ],
+    "eventhorizon"  ],
   "baseStats": {
     "hp": 100,
     "attack": 100,

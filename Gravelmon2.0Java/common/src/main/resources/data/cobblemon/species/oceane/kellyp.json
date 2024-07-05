@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "kellyp",
-  "nationalPokedexNumber": 2293,
+  "nationalPokedexNumber": 2297,
   "primaryType": "steel",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 49,
     "attack": 75,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "skelenid",
-  "nationalPokedexNumber": 4341,
+  "nationalPokedexNumber": 4343,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 96,
     "attack": 112,

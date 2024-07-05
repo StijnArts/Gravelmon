@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "carvesque",
-  "nationalPokedexNumber": 3350,
+  "nationalPokedexNumber": 3352,
   "primaryType": "dark",
   "secondaryType": "rock",
   "abilities": [
-    "truant",
-    "h:truant"
-  ],
+    "truant"  ],
   "baseStats": {
     "hp": 76,
     "attack": 87,

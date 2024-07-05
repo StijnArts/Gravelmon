@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "papernova",
-  "nationalPokedexNumber": 5299,
+  "nationalPokedexNumber": 5301,
   "primaryType": "fairy",
   "secondaryType": "fire",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 59,
     "attack": 37,

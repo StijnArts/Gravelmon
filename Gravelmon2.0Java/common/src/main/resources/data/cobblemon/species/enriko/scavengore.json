@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "scavengore",
-  "nationalPokedexNumber": 1949,
+  "nationalPokedexNumber": 1953,
   "primaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 70,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gallowing",
-  "nationalPokedexNumber": 5684,
+  "nationalPokedexNumber": 5686,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 75,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cubreeze",
-  "nationalPokedexNumber": 5006,
+  "nationalPokedexNumber": 5008,
   "primaryType": "ice",
   "abilities": [
     "snowcloak",
-    "rattled",
-    "h:keeneye"
-  ],
+    "rattled"  ],
   "baseStats": {
     "hp": 74,
     "attack": 50,

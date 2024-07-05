@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "sweal",
-  "nationalPokedexNumber": 2226,
+  "nationalPokedexNumber": 2230,
   "primaryType": "normal",
   "abilities": [
-    "furcoat",
-    "h:furcoat"
-  ],
+    "furcoat"  ],
   "baseStats": {
     "hp": 55,
     "attack": 30,

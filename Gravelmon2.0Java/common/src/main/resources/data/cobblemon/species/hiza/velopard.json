@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "velopard",
-  "nationalPokedexNumber": 2664,
+  "nationalPokedexNumber": 2668,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
-    "snowcloak",
-    "h:snowcloak"
-  ],
+    "snowcloak"  ],
   "baseStats": {
     "hp": 70,
     "attack": 72,

@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1530,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 70,

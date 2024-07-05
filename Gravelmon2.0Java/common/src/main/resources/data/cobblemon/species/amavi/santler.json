@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "santler",
-  "nationalPokedexNumber": 5628,
+  "nationalPokedexNumber": 5630,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 60,
     "attack": 40,

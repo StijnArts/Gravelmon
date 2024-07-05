@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "valkite",
-  "nationalPokedexNumber": 4388,
+  "nationalPokedexNumber": 4390,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 66,
     "attack": 59,

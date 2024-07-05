@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sweetort",
-  "nationalPokedexNumber": 5709,
+  "nationalPokedexNumber": 5711,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 150,
     "attack": 45,

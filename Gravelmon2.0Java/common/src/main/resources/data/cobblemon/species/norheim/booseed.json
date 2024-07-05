@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "booseed",
-  "nationalPokedexNumber": 3241,
+  "nationalPokedexNumber": 3245,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 53,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chlorinse",
-  "nationalPokedexNumber": 5720,
+  "nationalPokedexNumber": 5722,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 77,
     "attack": 44,

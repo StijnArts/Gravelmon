@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "beaki",
-  "nationalPokedexNumber": 2015,
+  "nationalPokedexNumber": 2019,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
     "soundproof",
-    "stall",
-    "h:keeneye"
-  ],
+    "stall"  ],
   "baseStats": {
     "hp": 85,
     "attack": 70,

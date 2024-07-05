@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "urtichum",
-  "nationalPokedexNumber": 2232,
+  "nationalPokedexNumber": 2236,
   "primaryType": "poison",
   "abilities": [
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 72,
     "attack": 88,

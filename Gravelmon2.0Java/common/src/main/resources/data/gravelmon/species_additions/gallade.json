@@ -6,9 +6,7 @@
   "secondaryType": "dragon",
   "abilities": [
     "moldbreaker",
-    "stalwart",
-    "h:keeneye"
-  ],
+    "stalwart"  ],
   "baseStats": {
     "hp": 78,
     "attack": 135,
@@ -200,9 +198,7 @@
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
-    "lightningrod",
-    "h:lightningrod"
-  ],
+    "lightningrod"  ],
   "baseStats": {
     "hp": 68,
     "attack": 125,
@@ -242,7 +238,6 @@
       "secondaryType": "ice",
       "abilities": [
     "lightningrod",
-    "h:lightningrod"
       ],
       "baseScale": 1.0,
         "hitbox": {

@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "gnurogo",
-  "nationalPokedexNumber": 5014,
+  "nationalPokedexNumber": 5016,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 88,
     "attack": 88,

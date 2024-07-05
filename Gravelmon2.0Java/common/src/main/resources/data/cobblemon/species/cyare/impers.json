@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "impers",
-  "nationalPokedexNumber": 5782,
+  "nationalPokedexNumber": 5784,
   "primaryType": "poison",
   "abilities": [
-    "gooey",
-    "h:gooey"
-  ],
+    "gooey"  ],
   "baseStats": {
     "hp": 100,
     "attack": 50,

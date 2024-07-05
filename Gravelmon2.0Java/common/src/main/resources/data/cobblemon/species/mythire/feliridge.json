@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "feliridge",
-  "nationalPokedexNumber": 3832,
+  "nationalPokedexNumber": 3834,
   "primaryType": "normal",
   "secondaryType": "rock",
   "abilities": [
     "thickfat",
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 87,
     "attack": 88,

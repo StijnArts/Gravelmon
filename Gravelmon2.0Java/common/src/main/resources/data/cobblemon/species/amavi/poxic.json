@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "poxic",
-  "nationalPokedexNumber": 5654,
+  "nationalPokedexNumber": 5656,
   "primaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 15,
     "attack": 15,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cerarmor",
-  "nationalPokedexNumber": 4230,
+  "nationalPokedexNumber": 4232,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 91,
     "attack": 99,

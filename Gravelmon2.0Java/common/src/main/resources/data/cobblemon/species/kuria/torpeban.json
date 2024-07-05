@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "torpeban",
-  "nationalPokedexNumber": 4165,
+  "nationalPokedexNumber": 4167,
   "primaryType": "fire",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 85,
     "attack": 85,

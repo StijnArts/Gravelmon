@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "cephalotox",
-  "nationalPokedexNumber": 3651,
+  "nationalPokedexNumber": 3653,
   "primaryType": "rock",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 77,
     "attack": 22,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "brawnze",
-  "nationalPokedexNumber": 5257,
+  "nationalPokedexNumber": 5259,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
     "moxie",
-    "scrappy",
-    "h:keeneye"
-  ],
+    "scrappy"  ],
   "baseStats": {
     "hp": 45,
     "attack": 90,

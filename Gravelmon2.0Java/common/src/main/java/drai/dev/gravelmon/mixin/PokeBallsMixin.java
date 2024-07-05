@@ -11,7 +11,7 @@ import com.cobblemon.mod.common.pokeball.*;
 import com.cobblemon.mod.common.pokemon.*;
 import com.cobblemon.mod.common.pokemon.status.statuses.persistent.*;
 import drai.dev.gravelmon.pokeballs.*;
-import drai.dev.gravelmon.data.attributes.conditions.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import kotlin.*;
 import net.minecraft.locale.*;
 import net.minecraft.network.chat.*;
@@ -23,6 +23,7 @@ import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.*;
 
 import java.util.*;
+
 import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.*;
 
 @Mixin(PokeBalls.class)

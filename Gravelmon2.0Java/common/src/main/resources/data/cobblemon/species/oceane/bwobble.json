@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bwobble",
-  "nationalPokedexNumber": 2295,
+  "nationalPokedexNumber": 2299,
   "primaryType": "dragon",
   "abilities": [
-    "poisonpoint",
-    "h:poisonpoint"
-  ],
+    "poisonpoint"  ],
   "baseStats": {
     "hp": 40,
     "attack": 60,

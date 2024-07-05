@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "grandowl",
-  "nationalPokedexNumber": 5627,
+  "nationalPokedexNumber": 5629,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 48,
     "attack": 15,

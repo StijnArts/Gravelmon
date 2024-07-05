@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "alpheon",
-  "nationalPokedexNumber": 3048,
+  "nationalPokedexNumber": 3052,
   "primaryType": "normal",
   "abilities": [
-    "adaptability",
-    "h:keeneye"
-  ],
+    "adaptability"  ],
   "baseStats": {
     "hp": 65,
     "attack": 130,

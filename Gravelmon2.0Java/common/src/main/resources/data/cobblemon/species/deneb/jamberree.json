@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "jamberree",
-  "nationalPokedexNumber": 4736,
+  "nationalPokedexNumber": 4738,
   "primaryType": "grass",
   "abilities": [
-    "chlorophyll",
-    "h:chlorophyll"
-  ],
+    "chlorophyll"  ],
   "baseStats": {
     "hp": 40,
     "attack": 25,

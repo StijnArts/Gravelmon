@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bankarak",
-  "nationalPokedexNumber": 3796,
+  "nationalPokedexNumber": 3798,
   "primaryType": "steel",
   "secondaryType": "bug",
   "abilities": [
-    "sturdy",
-    "h:sturdy"
-  ],
+    "sturdy"  ],
   "baseStats": {
     "hp": 60,
     "attack": 120,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sabroast",
-  "nationalPokedexNumber": 2374,
+  "nationalPokedexNumber": 2378,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 67,
     "attack": 123,

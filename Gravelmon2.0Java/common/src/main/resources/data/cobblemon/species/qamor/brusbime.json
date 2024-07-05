@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "brusbime",
-  "nationalPokedexNumber": 3981,
+  "nationalPokedexNumber": 3983,
   "primaryType": "normal",
   "secondaryType": "steel",
   "abilities": [
-    "rockhead",
-    "h:keeneye"
-  ],
+    "rockhead"  ],
   "baseStats": {
     "hp": 120,
     "attack": 99,

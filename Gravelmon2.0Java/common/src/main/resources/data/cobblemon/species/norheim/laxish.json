@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "laxish",
-  "nationalPokedexNumber": 3161,
+  "nationalPokedexNumber": 3165,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 68,
     "attack": 84,

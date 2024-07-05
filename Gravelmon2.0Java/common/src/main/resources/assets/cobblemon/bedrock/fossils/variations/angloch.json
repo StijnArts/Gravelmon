@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:angloch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:angloch",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/angloch.png",
+      "layers": []
+    }
+  ]
+}

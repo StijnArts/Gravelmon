@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "imprism",
-  "nationalPokedexNumber": 5785,
+  "nationalPokedexNumber": 5787,
   "primaryType": "ice",
   "abilities": [
-    "slushrush",
-    "h:slushrush"
-  ],
+    "slushrush"  ],
   "baseStats": {
     "hp": 40,
     "attack": 50,

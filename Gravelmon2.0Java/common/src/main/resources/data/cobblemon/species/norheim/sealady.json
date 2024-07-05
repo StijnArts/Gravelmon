@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "sealady",
-  "nationalPokedexNumber": 3207,
+  "nationalPokedexNumber": 3211,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 83,
     "attack": 44,

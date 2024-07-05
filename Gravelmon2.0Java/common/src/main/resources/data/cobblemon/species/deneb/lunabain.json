@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "lunabain",
-  "nationalPokedexNumber": 4714,
+  "nationalPokedexNumber": 4716,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 79,
     "attack": 94,

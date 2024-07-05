@@ -1,10 +1,7 @@
 package drai.dev.gravelmon.apricorn;
 
-import com.cobblemon.mod.common.api.events.*;
-import com.cobblemon.mod.common.api.events.farming.*;
 import com.cobblemon.mod.common.api.tags.*;
 import com.cobblemon.mod.common.block.*;
-import kotlin.*;
 import kotlin.Unit;
 import kotlin.jvm.functions.*;
 import net.minecraft.core.*;
@@ -12,7 +9,6 @@ import net.minecraft.server.level.*;
 import net.minecraft.sounds.*;
 import net.minecraft.util.*;
 import net.minecraft.world.*;
-import net.minecraft.world.entity.item.*;
 import net.minecraft.world.entity.player.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.context.*;
@@ -25,13 +21,6 @@ import net.minecraft.world.level.pathfinder.*;
 import net.minecraft.world.phys.*;
 import net.minecraft.world.phys.shapes.*;
 import org.jetbrains.annotations.*;
-
-import java.lang.*;
-import java.lang.Deprecated;
-import java.util.*;
-
-import static com.google.gson.internal.$Gson$Types.arrayOf;
-import static net.minecraft.world.level.block.LecternBlock.SHAPE_COMMON;
 
 public class GravelmonApricornBlock extends HorizontalDirectionalBlock implements BonemealableBlock, ShearableBlock {
     public static IntegerProperty AGE;

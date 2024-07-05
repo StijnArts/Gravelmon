@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "matrimite",
-  "nationalPokedexNumber": 4263,
+  "nationalPokedexNumber": 4265,
   "primaryType": "bug",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 25,
     "attack": 61,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "preano",
-  "nationalPokedexNumber": 4547,
+  "nationalPokedexNumber": 4549,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
-    "roughskin",
-    "h:roughskin"
-  ],
+    "roughskin"  ],
   "baseStats": {
     "hp": 50,
     "attack": 45,

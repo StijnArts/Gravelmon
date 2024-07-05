@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "webbind",
-  "nationalPokedexNumber": 2307,
+  "nationalPokedexNumber": 2311,
   "primaryType": "bug",
   "abilities": [
-    "stickyhold",
-    "h:stickyhold"
-  ],
+    "stickyhold"  ],
   "baseStats": {
     "hp": 75,
     "attack": 65,

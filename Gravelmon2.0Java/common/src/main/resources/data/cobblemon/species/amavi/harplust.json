@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "harplust",
-  "nationalPokedexNumber": 5722,
+  "nationalPokedexNumber": 5724,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 75,
     "attack": 125,

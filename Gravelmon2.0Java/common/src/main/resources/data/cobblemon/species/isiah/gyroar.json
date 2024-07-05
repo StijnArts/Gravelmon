@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "gyroar",
-  "nationalPokedexNumber": 4360,
+  "nationalPokedexNumber": 4362,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 105,
     "attack": 87,

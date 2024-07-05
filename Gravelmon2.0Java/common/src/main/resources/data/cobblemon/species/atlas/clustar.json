@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "clustar",
-  "nationalPokedexNumber": 5444,
+  "nationalPokedexNumber": 5446,
   "primaryType": "dark",
   "secondaryType": "rock",
   "abilities": [
-    "levitate",
-    "h:keeneye"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 55,
     "attack": 40,

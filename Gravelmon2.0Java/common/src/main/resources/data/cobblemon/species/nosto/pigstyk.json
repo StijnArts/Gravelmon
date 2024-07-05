@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "pigstyk",
-  "nationalPokedexNumber": 3641,
+  "nationalPokedexNumber": 3643,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 65,
     "attack": 45,

@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "frodent",
-  "nationalPokedexNumber": 4073,
+  "nationalPokedexNumber": 4075,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
-    "runaway",
-    "h:keeneye"
-  ],
+    "runaway"  ],
   "baseStats": {
     "hp": 70,
     "attack": 42,

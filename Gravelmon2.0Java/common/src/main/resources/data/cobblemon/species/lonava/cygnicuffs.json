@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "cygnicuffs",
-  "nationalPokedexNumber": 3363,
+  "nationalPokedexNumber": 3365,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 53,
     "attack": 67,

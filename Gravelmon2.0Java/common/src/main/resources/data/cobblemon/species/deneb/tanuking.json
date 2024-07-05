@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "tanuking",
-  "nationalPokedexNumber": 4796,
+  "nationalPokedexNumber": 4798,
   "primaryType": "normal",
   "abilities": [
-    "pickup",
-    "h:pickup"
-  ],
+    "pickup"  ],
   "baseStats": {
     "hp": 72,
     "attack": 110,

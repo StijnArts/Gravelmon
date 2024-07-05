@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chainmaw",
-  "nationalPokedexNumber": 2610,
+  "nationalPokedexNumber": 2614,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
-    "levitate",
-    "h:levitate"
-  ],
+    "levitate"  ],
   "baseStats": {
     "hp": 45,
     "attack": 115,

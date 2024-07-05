@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "yetini",
-  "nationalPokedexNumber": 2821,
+  "nationalPokedexNumber": 2825,
   "primaryType": "grass",
   "abilities": [
-    "overgrow",
-    "h:keeneye"
-  ],
+    "overgrow"  ],
   "baseStats": {
     "hp": 55,
     "attack": 65,

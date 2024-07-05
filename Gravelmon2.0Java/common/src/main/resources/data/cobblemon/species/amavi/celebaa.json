@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "celebaa",
-  "nationalPokedexNumber": 5717,
+  "nationalPokedexNumber": 5719,
   "primaryType": "dragon",
   "secondaryType": "fire",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 50,
     "attack": 50,

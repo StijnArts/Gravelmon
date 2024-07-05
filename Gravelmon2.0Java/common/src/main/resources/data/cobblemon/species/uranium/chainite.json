@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "chainite",
-  "nationalPokedexNumber": 2476,
+  "nationalPokedexNumber": 2480,
   "primaryType": "ghost",
   "abilities": [
     "shadowtag",
-    "cursedbody",
-    "h:cursedbody"
-  ],
+    "cursedbody"  ],
   "baseStats": {
     "hp": 95,
     "attack": 130,

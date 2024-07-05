@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "jawson",
-  "nationalPokedexNumber": 2239,
+  "nationalPokedexNumber": 2243,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
     "swiftswim",
-    "moxie",
-    "h:keeneye"
-  ],
+    "moxie"  ],
   "baseStats": {
     "hp": 67,
     "attack": 113,

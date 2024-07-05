@@ -5,9 +5,7 @@
   "primaryType": "fairy",
   "secondaryType": "normal",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 74,
     "attack": 49,

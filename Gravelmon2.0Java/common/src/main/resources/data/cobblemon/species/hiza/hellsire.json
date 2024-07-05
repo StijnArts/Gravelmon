@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "hellsire",
-  "nationalPokedexNumber": 2814,
+  "nationalPokedexNumber": 2818,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 125,
     "attack": 130,

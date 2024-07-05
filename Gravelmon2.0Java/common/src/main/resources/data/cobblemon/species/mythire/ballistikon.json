@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "ballistikon",
-  "nationalPokedexNumber": 3867,
+  "nationalPokedexNumber": 3869,
   "primaryType": "rock",
   "secondaryType": "steel",
   "abilities": [
-    "rockhead",
-    "h:rockhead"
-  ],
+    "rockhead"  ],
   "baseStats": {
     "hp": 70,
     "attack": 80,

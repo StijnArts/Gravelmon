@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "pekohmu",
-  "nationalPokedexNumber": 3304,
+  "nationalPokedexNumber": 3308,
   "primaryType": "electric",
   "abilities": [
-    "static",
-    "h:static"
-  ],
+    "static"  ],
   "baseStats": {
     "hp": 59,
     "attack": 31,

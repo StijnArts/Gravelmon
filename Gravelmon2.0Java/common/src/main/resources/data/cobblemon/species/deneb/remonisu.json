@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "remonisu",
-  "nationalPokedexNumber": 4897,
+  "nationalPokedexNumber": 4899,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
-    "snowwarning",
-    "h:snowwarning"
-  ],
+    "snowwarning"  ],
   "baseStats": {
     "hp": 90,
     "attack": 45,

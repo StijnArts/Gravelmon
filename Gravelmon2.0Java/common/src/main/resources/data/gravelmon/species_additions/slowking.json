@@ -6,9 +6,7 @@
   "secondaryType": "psychic",
   "abilities": [
     "honeygather",
-    "thickfat",
-    "h:keeneye"
-  ],
+    "thickfat"  ],
   "baseStats": {
     "hp": 95,
     "attack": 100,

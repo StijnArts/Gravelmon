@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tarotoad",
-  "nationalPokedexNumber": 3670,
+  "nationalPokedexNumber": 3672,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
-    "prankster",
-    "h:keeneye"
-  ],
+    "prankster"  ],
   "baseStats": {
     "hp": 94,
     "attack": 56,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "vorvosip",
-  "nationalPokedexNumber": 2992,
+  "nationalPokedexNumber": 2996,
   "primaryType": "dark",
   "secondaryType": "poison",
   "abilities": [
     "keeneye",
-    "sniper",
-    "h:keeneye"
-  ],
+    "sniper"  ],
   "baseStats": {
     "hp": 70,
     "attack": 90,

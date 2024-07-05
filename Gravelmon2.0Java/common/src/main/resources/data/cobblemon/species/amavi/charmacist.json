@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "charmacist",
-  "nationalPokedexNumber": 5653,
+  "nationalPokedexNumber": 5655,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 200,
     "attack": 40,

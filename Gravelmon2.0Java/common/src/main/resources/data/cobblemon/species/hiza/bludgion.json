@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "bludgion",
-  "nationalPokedexNumber": 2741,
+  "nationalPokedexNumber": 2745,
   "primaryType": "ice",
   "secondaryType": "steel",
   "abilities": [
-    "snowcloak",
-    "h:snowcloak"
-  ],
+    "snowcloak"  ],
   "baseStats": {
     "hp": 81,
     "attack": 122,

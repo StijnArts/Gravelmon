@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "slackonch",
-  "nationalPokedexNumber": 3409,
+  "nationalPokedexNumber": 3411,
   "primaryType": "water",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 78,
     "attack": 22,

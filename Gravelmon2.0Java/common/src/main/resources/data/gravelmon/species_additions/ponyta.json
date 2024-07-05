@@ -4,9 +4,7 @@
   "name": "X",
   "primaryType": "flying",
   "abilities": [
-    "cloudnine",
-    "h:cloudnine"
-  ],
+    "cloudnine"  ],
   "baseStats": {
     "hp": 50,
     "attack": 75,

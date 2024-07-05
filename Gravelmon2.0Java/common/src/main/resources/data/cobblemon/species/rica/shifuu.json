@@ -4,9 +4,7 @@
   "nationalPokedexNumber": 1375,
   "primaryType": "rock",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 92,
     "attack": 110,

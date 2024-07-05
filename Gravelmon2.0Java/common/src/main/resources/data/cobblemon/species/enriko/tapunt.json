@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "tapunt",
-  "nationalPokedexNumber": 1997,
+  "nationalPokedexNumber": 2001,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 45,
     "attack": 69,

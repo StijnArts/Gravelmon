@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "frazzelle",
-  "nationalPokedexNumber": 2693,
+  "nationalPokedexNumber": 2697,
   "primaryType": "electric",
   "secondaryType": "grass",
   "abilities": [
-    "lightningrod",
-    "h:lightningrod"
-  ],
+    "lightningrod"  ],
   "baseStats": {
     "hp": 60,
     "attack": 80,

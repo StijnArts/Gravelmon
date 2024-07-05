@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "detrarc",
-  "nationalPokedexNumber": 3491,
+  "nationalPokedexNumber": 3493,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
     "energizer",
-    "sapsipper",
-    "h:keeneye"
-  ],
+    "sapsipper"  ],
   "baseStats": {
     "hp": 70,
     "attack": 65,

@@ -1,14 +1,12 @@
 {
   "implemented": true,
   "name": "pachyndou",
-  "nationalPokedexNumber": 3064,
+  "nationalPokedexNumber": 3068,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
     "blaze",
-    "flamebody",
-    "h:keeneye"
-  ],
+    "flamebody"  ],
   "baseStats": {
     "hp": 79,
     "attack": 65,

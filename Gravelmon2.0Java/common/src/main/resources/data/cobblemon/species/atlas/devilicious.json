@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "devilicious",
-  "nationalPokedexNumber": 5583,
+  "nationalPokedexNumber": 5585,
   "primaryType": "normal",
   "secondaryType": "fairy",
   "abilities": [
-    "cutecharm",
-    "h:cutecharm"
-  ],
+    "cutecharm"  ],
   "baseStats": {
     "hp": 60,
     "attack": 50,

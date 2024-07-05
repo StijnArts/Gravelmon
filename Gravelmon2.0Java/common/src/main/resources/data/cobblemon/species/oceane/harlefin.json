@@ -1,13 +1,11 @@
 {
   "implemented": true,
   "name": "harlefin",
-  "nationalPokedexNumber": 2272,
+  "nationalPokedexNumber": 2276,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
-  ],
+    "keeneye"  ],
   "baseStats": {
     "hp": 91,
     "attack": 48,

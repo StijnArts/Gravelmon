@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "willowanne",
-  "nationalPokedexNumber": 3376,
+  "nationalPokedexNumber": 3378,
   "primaryType": "grass",
   "abilities": [
-    "tangledfeet",
-    "h:tangledfeet"
-  ],
+    "tangledfeet"  ],
   "baseStats": {
     "hp": 74,
     "attack": 100,

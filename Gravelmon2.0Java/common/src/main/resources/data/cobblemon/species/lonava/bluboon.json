@@ -1,12 +1,10 @@
 {
   "implemented": true,
   "name": "bluboon",
-  "nationalPokedexNumber": 3407,
+  "nationalPokedexNumber": 3409,
   "primaryType": "water",
   "abilities": [
-    "clearbody",
-    "h:keeneye"
-  ],
+    "clearbody"  ],
   "baseStats": {
     "hp": 30,
     "attack": 40,
