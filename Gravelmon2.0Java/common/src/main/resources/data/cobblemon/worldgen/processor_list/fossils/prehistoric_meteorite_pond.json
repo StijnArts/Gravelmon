@@ -22,19 +22,6 @@
                 },
                 {
                     "input_predicate": {
-                        "block": "minecraft:air",
-                        "predicate_type": "minecraft:random_block_match",
-                        "probability": 1
-                    },
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "output_state": {
-                        "Name": "minecraft:cave_air"
-                    }
-                },
-                {
-                    "input_predicate": {
                         "block": "minecraft:tuff",
                         "predicate_type": "minecraft:random_block_match",
                         "probability": 0.2
@@ -44,19 +31,6 @@
                     },
                     "output_state": {
                         "Name": "cobblemon:dripstone_moon_stone_ore"
-                    }
-                },
-                {
-                    "input_predicate": {
-                        "block": "minecraft:granite",
-                        "predicate_type": "minecraft:random_block_match",
-                        "probability": 1
-                    },
-                    "location_predicate": {
-                        "predicate_type": "minecraft:always_true"
-                    },
-                    "output_state": {
-                        "Name": "minecraft:mossy_cobblestone"
                     }
                 }
             ]

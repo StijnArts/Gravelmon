@@ -1,5 +1,5 @@
 {
-    "biomes": "#cobblemon:temperate",
+    "biomes": "#cobblemon:is_temperate",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",
