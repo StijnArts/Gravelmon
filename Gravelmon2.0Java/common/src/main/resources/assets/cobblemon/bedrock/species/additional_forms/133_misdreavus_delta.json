@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltamisdreavus.geo",
       "poser": "cobblemon:generation2_deltamisdreavus",
-      "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus.png",
+      "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus/deltamisdreavus.png",
       "layers": [
         {
           "name": "glow"
@@ -35,9 +35,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltamisdreavus.geo",
       "poser": "cobblemon:generation2_deltamisdreavus",
-      "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus/deltamisdreavus_shiny.png",
       "layers": [
         {
           "name": "glow"

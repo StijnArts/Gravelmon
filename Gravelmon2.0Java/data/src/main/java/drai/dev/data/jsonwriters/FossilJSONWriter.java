@@ -59,6 +59,7 @@ public class FossilJSONWriter {
         entry.add("type", new JsonPrimitive("minecraft:item"));
         entry.add("name", new JsonPrimitive("gravelmon:"+fossil));
         entry.add("weight", new JsonPrimitive(2));
+        entries.add(entry);
         pool.add("bonus_rolls", new JsonPrimitive(0.0));
         pool.add("entries", entries);
         pool.add("rolls", new JsonPrimitive(1.0));

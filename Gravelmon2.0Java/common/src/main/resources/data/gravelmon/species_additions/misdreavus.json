@@ -245,8 +245,7 @@
     "tutor:wonderroom"  ],
   "labels": [
     "gen2",
-    "insurgence",
-    "not_modeled"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltamisdreavus.desc"
@@ -265,10 +264,10 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.11666666666666665,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

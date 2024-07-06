@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltamismagius.geo",
       "poser": "cobblemon:generation4_deltamismagius",
-      "texture": "cobblemon:textures/pokemon/generation4/deltamismagius.png",
+      "texture": "cobblemon:textures/pokemon/generation4/deltamismagius/deltamismagius.png",
       "layers": [
         {
           "name": "glow"
@@ -35,9 +35,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltamismagius.geo",
       "poser": "cobblemon:generation4_deltamismagius",
-      "texture": "cobblemon:textures/pokemon/generation4/deltamismagius_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation4/deltamismagius/deltamismagius_shiny.png",
       "layers": [
         {
           "name": "glow"
