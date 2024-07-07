@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:snopach",
+      "poser": "cobblemon:embryo_snopach",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/snopach.png",
       "layers": []

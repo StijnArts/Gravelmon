@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:varaquake",
+      "poser": "cobblemon:embryo_varaquake",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/varaquake.png",
       "layers": []

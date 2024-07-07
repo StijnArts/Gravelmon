@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:rexinder",
+      "poser": "cobblemon:embryo_rexinder",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/rexinder.png",
       "layers": []

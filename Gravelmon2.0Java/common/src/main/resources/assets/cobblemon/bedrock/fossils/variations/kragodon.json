@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:kragodon",
+      "poser": "cobblemon:embryo_kragodon",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/kragodon.png",
       "layers": []

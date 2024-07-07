@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:iceros",
+      "poser": "cobblemon:embryo_iceros",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/iceros.png",
       "layers": []

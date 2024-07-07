@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:palagaia",
+      "poser": "cobblemon:embryo_palagaia",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/palagaia.png",
       "layers": []

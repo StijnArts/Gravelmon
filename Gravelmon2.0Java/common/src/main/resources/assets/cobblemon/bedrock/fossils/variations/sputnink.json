@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sputnink",
-      "model": "cobblemon:sputnink.geo",
+      "poser": "cobblemon:embryo_sputnink",
+      "model": "cobblemon:embryo_sputnink.geo",
       "texture": "cobblemon:textures/fossils/sputnink.png",
       "layers": []
     }

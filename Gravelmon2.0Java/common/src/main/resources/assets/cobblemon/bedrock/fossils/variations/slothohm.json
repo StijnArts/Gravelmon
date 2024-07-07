@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:slothohm",
+      "poser": "cobblemon:embryo_slothohm",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/slothohm.png",
       "layers": []

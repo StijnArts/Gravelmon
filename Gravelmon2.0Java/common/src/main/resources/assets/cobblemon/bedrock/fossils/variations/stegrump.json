@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:stegrump",
+      "poser": "cobblemon:embryo_stegrump",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/stegrump.png",
       "layers": []

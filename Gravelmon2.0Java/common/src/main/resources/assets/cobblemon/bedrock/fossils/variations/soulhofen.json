@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:soulhofen",
+      "poser": "cobblemon:embryo_soulhofen",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/soulhofen.png",
       "layers": []

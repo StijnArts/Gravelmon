@@ -1,9 +1,0 @@
-{
-  "maxScale": 0.55,
-  "yTranslation": 0,
-  "yGrowthPoint": 0.5625,
-  "animations": [
-    "bedrock(sputnink, ground_standard)"
-  ],
-  "quirks": []
-}

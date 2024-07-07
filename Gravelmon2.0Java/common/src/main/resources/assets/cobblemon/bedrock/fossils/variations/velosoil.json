@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:velosoil",
+      "poser": "cobblemon:embryo_velosoil",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/velosoil.png",
       "layers": []

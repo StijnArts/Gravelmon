@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:clawryde",
+      "poser": "cobblemon:embryo_clawryde",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/clawryde.png",
       "layers": []

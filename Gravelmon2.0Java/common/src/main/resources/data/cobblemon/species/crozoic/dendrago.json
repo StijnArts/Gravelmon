@@ -129,11 +129,14 @@
     "tm:zenheadbutt"  ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dendrago.desc"
   ],
+  "preEvolution": "tropichomp",
   "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,

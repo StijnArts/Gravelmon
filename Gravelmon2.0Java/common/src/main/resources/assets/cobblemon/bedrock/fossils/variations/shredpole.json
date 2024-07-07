@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:shredpole",
+      "poser": "cobblemon:embryo_shredpole",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/shredpole.png",
       "layers": []

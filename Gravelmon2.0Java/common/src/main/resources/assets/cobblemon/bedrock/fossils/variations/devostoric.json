@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:devostoric",
+      "poser": "cobblemon:embryo_devostoric",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/devostoric.png",
       "layers": []

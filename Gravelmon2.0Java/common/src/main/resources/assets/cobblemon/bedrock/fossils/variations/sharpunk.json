@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sharpunk",
+      "poser": "cobblemon:embryo_sharpunk",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/sharpunk.png",
       "layers": []

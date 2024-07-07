@@ -6,7 +6,7 @@
       "aspects": [
         "crozoican"
       ],
-      "poser": "cobblemon:snipion",
+      "poser": "cobblemon:embryo_snipion",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/snipion_crozoican.png",
       "layers": []

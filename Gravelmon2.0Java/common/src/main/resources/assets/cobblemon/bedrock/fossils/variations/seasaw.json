@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:seasaw",
+      "poser": "cobblemon:embryo_seasaw",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/seasaw.png",
       "layers": []

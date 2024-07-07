@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:camozoic",
+      "poser": "cobblemon:embryo_camozoic",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/camozoic.png",
       "layers": []

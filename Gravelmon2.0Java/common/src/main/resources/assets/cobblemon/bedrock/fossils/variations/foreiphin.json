@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:foreiphin",
+      "poser": "cobblemon:embryo_foreiphin",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/foreiphin.png",
       "layers": []

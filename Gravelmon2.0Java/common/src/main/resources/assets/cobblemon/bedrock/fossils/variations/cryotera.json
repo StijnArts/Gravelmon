@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:cryotera",
+      "poser": "cobblemon:embryo_cryotera",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/cryotera.png",
       "layers": []

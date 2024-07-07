@@ -502,7 +502,7 @@ public class GravelmonFossilItems {
                     BaseCobblemonDigSites.ROOTED_PIT.uncommon()
             ),
             "thorn_fossil",
-            "seigoxic");
+            "seigoni");
     public static RegistrySupplier<Item> GLOVE_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.UNDERWATER_FISSURE.uncommon(),

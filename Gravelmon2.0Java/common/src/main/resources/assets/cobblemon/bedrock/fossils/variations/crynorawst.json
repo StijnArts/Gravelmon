@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:crynorawst",
+      "poser": "cobblemon:embryo_crynorawst",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/crynorawst.png",
       "layers": []

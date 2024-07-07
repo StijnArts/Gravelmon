@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:chiticonch",
+      "poser": "cobblemon:embryo_chiticonch",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/chiticonch.png",
       "layers": []

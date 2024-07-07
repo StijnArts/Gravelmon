@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:enigmore",
+      "poser": "cobblemon:embryo_enigmore",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/enigmore.png",
       "layers": []

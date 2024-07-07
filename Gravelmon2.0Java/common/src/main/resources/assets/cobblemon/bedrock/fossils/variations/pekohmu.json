@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:pekohmu",
+      "poser": "cobblemon:embryo_pekohmu",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/pekohmu.png",
       "layers": []

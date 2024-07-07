@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:seanodont",
+      "poser": "cobblemon:embryo_seanodont",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/seanodont.png",
       "layers": []

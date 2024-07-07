@@ -18,7 +18,7 @@ public class Tropichomp extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FIELD),
                 List.of("Dendrago's silly appearance belies an incredibly calm and patient nature. In spite of its large size, it's extremely easy to miss standing amidst the thick rainforest foliage."),
-                List.of(new EvolutionEntry("dendrage", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("dendrago", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,1),

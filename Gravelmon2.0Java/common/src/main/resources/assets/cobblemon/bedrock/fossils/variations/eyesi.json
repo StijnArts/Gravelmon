@@ -6,7 +6,7 @@
       "aspects": [
         "crozoican"
       ],
-      "poser": "cobblemon:eyesi",
+      "poser": "cobblemon:embryo_eyesi",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/eyesi_crozoican.png",
       "layers": []

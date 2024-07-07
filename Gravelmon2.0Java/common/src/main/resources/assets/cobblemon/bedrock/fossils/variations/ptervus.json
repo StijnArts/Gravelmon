@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ptervus",
+      "poser": "cobblemon:embryo_ptervus",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/ptervus.png",
       "layers": []

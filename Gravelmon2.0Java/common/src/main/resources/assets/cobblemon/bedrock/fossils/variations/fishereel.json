@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:fishereel",
+      "poser": "cobblemon:embryo_fishereel",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/fishereel.png",
       "layers": []

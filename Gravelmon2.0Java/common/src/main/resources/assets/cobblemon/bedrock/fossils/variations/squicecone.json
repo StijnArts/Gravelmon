@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:squicecone",
+      "poser": "cobblemon:embryo_squicecone",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/squicecone.png",
       "layers": []

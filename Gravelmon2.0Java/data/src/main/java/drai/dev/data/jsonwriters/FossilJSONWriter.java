@@ -88,7 +88,7 @@ public class FossilJSONWriter {
             }
         }
         variation.add("aspects", aspects);
-        variation.add("poser", new JsonPrimitive("cobblemon:"+speciesName));
+        variation.add("poser", new JsonPrimitive("cobblemon:embryo_"+speciesName));
         variation.add("model", new JsonPrimitive("cobblemon:cutout_gravelmon.geo"));
         variation.add("texture", new JsonPrimitive("cobblemon:textures/fossils/"+species.replaceAll(" ", "_")+".png"));
         variation.add("layers", new JsonArray());
@@ -137,13 +137,15 @@ public class FossilJSONWriter {
 
     private static void writeFossilPoser(String species, String dir, Gson gson) throws IOException {
         JsonObject fileContents = new JsonObject();
+        var splitSpecies = species.split(" ");
+        var speciesName = splitSpecies[0];
         fileContents.add("maxScale", new JsonPrimitive(0.1));
         fileContents.add("yTranslation", new JsonPrimitive(0.1));
         fileContents.add("yGrowthPoint", new JsonPrimitive(-0.5));
         fileContents.add("animations", new JsonArray());
         fileContents.add("quirks", new JsonArray());
 
-        var assetFile = new File(dir + species + ".json");
+        var assetFile = new File(dir + "embryo_" + speciesName + ".json");
         if (!assetFile.exists()) {
             BufferedWriter writer = new BufferedWriter(new FileWriter(assetFile));
             writer.write(gson.toJson(fileContents));

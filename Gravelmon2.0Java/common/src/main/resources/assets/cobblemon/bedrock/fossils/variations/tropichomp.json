@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:tropichomp",
+      "poser": "cobblemon:embryo_tropichomp",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/tropichomp.png",
       "layers": []

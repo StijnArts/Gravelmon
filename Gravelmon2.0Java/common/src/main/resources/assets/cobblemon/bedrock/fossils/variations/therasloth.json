@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:therasloth",
+      "poser": "cobblemon:embryo_therasloth",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/therasloth.png",
       "layers": []

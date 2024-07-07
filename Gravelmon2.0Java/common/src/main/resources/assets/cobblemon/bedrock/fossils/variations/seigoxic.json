@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:seigoxic",
+      "poser": "cobblemon:embryo_seigoxic",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/seigoxic.png",
       "layers": []

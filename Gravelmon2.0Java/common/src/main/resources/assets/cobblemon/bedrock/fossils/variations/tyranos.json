@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:tyranos",
+      "poser": "cobblemon:embryo_tyranos",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/tyranos.png",
       "layers": []

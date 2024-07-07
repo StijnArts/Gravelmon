@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:petrifern",
+      "poser": "cobblemon:embryo_petrifern",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/petrifern.png",
       "layers": []

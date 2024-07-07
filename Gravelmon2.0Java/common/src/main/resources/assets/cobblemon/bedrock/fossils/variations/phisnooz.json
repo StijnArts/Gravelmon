@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:phisnooz",
+      "poser": "cobblemon:embryo_phisnooz",
       "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/phisnooz.png",
       "layers": []
