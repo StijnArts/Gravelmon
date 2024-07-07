@@ -79,9 +79,9 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> IVEOLITE = heldItem("iveolite");
     //Xenoverse
     public static RegistrySupplier<Item> ICE_SHARD = heldItem("ice_shard");
-    public static RegistrySupplier<Item> HAFLI_BERRY = heldItem("hafli_berry");
     public static RegistrySupplier<Item> MOSS_SHARD = heldItem("moss_shard");
     public static RegistrySupplier<Item> PRETTY_RIBBON = heldItem("pretty_ribbon");
+    public static RegistrySupplier<Item> HAFLI_BERRY = heldItem("hafli_berry");
     //insurgence
     public static RegistrySupplier<Item> DARK_ROCK = heldItem("dark_rock");
 
@@ -158,6 +158,7 @@ public class GravelmonItems {
         var item = item(itemName);
         GravelmonFossilManager.addFossil(lootTables, item);
         Gravelmon.FOSSIL_MAP.put(itemName, speciesName);
+        Gravelmon.FOSSIL_ITEM_MAP.put(itemName, item::get);
         return item;
     }
 

@@ -7,14 +7,18 @@ import drai.dev.gravelmon.registries.*;
 import drai.dev.gravelsextendedbattles.*;
 import drai.dev.gravelsextendedbattles.resorting.*;
 import kotlin.*;
+import net.minecraft.world.item.*;
+import net.minecraft.world.level.*;
 
 import java.util.*;
+import java.util.function.*;
 
 public class Gravelmon
 {
 	public static boolean lateInitDone = false;
 	public static final String MOD_ID = "gravelmon";
 	public static final Map<String, String> FOSSIL_MAP = new HashMap<>();
+	public static final Map<String, Supplier<Item>> FOSSIL_ITEM_MAP = new HashMap<>();
 
 	static {
 		GravelmonBlocks.touch();

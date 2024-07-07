@@ -1,12 +1,17 @@
 package drai.dev.gravelmon.fabric.datagen;
 
 import dev.architectury.registry.registries.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
+import net.minecraft.core.registries.*;
 import net.minecraft.data.models.*;
 import net.minecraft.data.models.model.*;
+import net.minecraft.resources.*;
 import net.minecraft.world.item.*;
+
+import java.util.function.*;
 
 public class ModModelGenerator extends FabricModelProvider {
     public ModModelGenerator(FabricDataOutput output) {
@@ -56,8 +61,6 @@ public class ModModelGenerator extends FabricModelProvider {
         simpleItem(GravelmonItems.SPARE_PARTS,itemModelGenerator);
         simpleItem(GravelmonItems.MAGIC_COOKIE,itemModelGenerator);
         simpleItem(GravelmonItems.INDUCTIVE_RING,itemModelGenerator);
-        simpleItem(GravelmonFossilItems.TUSK_FOSSIL,itemModelGenerator);
-        simpleItem(GravelmonFossilItems.HORN_FOSSIL,itemModelGenerator);
         simpleItem(GravelmonItems.X_RAY_SPECS,itemModelGenerator);
         simpleItem(GravelmonItems.FOUL_ROCK,itemModelGenerator);
         simpleItem(GravelmonItems.RAGGED_PEBBLE,itemModelGenerator);
@@ -85,6 +88,12 @@ public class ModModelGenerator extends FabricModelProvider {
         simpleItem(GravelmonItems.PRIM_SHEARS,itemModelGenerator);
         simpleItem(GravelmonItems.HAIR_TONIC,itemModelGenerator);
         simpleItem(GravelmonItems.GROWTH_MULCH,itemModelGenerator);
+
+        for (Supplier<Item> value : Gravelmon.FOSSIL_ITEM_MAP.values()) {
+            ModelTemplates.FLAT_ITEM.create(ModelLocationUtils.getModelLocation(value.get()),
+                    TextureMapping.layer0(BuiltInRegistries.ITEM.getKey(value.get()).withPrefix("item/fossils/")),
+                    itemModelGenerator.output);
+        }
     }
 
     public void simpleItem(RegistrySupplier<Item> item, ItemModelGenerators itemModelGenerator){

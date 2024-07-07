@@ -2,6 +2,8 @@ package drai.dev.data.jsonwriters;
 
 import drai.dev.data.games.registry.*;
 
+import static drai.dev.data.jsonwriters.LanguageGenerator.generateLangFile;
+
 public class JSONOutputGenerator {
     public static void generate(String resourcesDir) {
         GameRegistry.games.forEach(Game::init);
@@ -10,6 +12,7 @@ public class JSONOutputGenerator {
         AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
         FossilJSONWriter.writeFossils(resourcesDir);
         PokeBallEffectWriter.writeEffects(resourcesDir);
+        generateLangFile();
         for(Game game : GameRegistry.games){
             generateJsonFiles(game,resourcesDir);
         }

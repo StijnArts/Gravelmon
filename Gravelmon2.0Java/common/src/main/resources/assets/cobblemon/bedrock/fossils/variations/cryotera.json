@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:cryotera",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cryotera",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/cryotera.png",
+      "layers": []
+    }
+  ]
+}

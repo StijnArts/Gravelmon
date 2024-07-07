@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:palagaia",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:palagaia",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/palagaia.png",
+      "layers": []
+    }
+  ]
+}

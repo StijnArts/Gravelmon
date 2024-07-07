@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:tullabaloo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tullabaloo",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/tullabaloo.png",
+      "layers": []
+    }
+  ]
+}

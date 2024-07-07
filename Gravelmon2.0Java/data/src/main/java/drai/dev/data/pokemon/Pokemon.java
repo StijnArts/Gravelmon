@@ -19,6 +19,7 @@ public class Pokemon {
     public static Map<String, List<EvolutionEntry>> ADDITIONAL_EVOLUTIONS = new HashMap<>();
     public static Map<String, List<ItemDrop>> ADDITIONAL_DROPS = new HashMap<>();
     public static Map<String, String> ADDITIONAL_PRE_EVOLUTIONS = new HashMap<>();
+    public static List<Pokemon> FOSSIL_POKEMON = new ArrayList<>();
     String name;
     Stats stats;
     Type primaryType;
@@ -344,6 +345,10 @@ public class Pokemon {
             }
             if(pokemon.getAbilities().contains(pokemon.hiddenAbility)){
                 pokemon.hiddenAbility = null;
+            }
+
+            if(Gravelmon.FOSSIL_MAP.containsValue(pokemon.getCleanName()) || Gravelmon.FOSSIL_MAP.containsValue(pokemon.getPreEvolution())){
+                FOSSIL_POKEMON.add(pokemon);
             }
         }
         System.out.println(pokemonWithZeroBaseStats);

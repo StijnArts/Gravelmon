@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:velosoil",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:velosoil",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/velosoil.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:eyesi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_eyesi",
+      "texture": "cobblemon:textures/pokemon/ferroa/eyesi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/eyesi_shiny.png"
+    }
+  ]
+}

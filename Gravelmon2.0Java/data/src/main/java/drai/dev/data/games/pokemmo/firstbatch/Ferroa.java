@@ -2,6 +2,7 @@ package drai.dev.data.games.pokemmo.firstbatch;
 
 import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.pokemon.ferroa.*;
+import drai.dev.data.pokemon.ferroa.Eyesi;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Ferroa extends drai.dev.data.games.registry.Game {
@@ -68,6 +69,10 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
         pokemon.add(new Gavile());
         pokemon.add(new Chirocodile());
         pokemon.add(new Erradio());
+        pokemon.add(new Eyesi());
+        pokemon.add(new Eyesaur());
+        pokemon.add(new CrozoicanEyesi("eyesi", Aspect.CROZOICAN));
+        pokemon.add(new CrozoicanEyesaur("eyesaur", Aspect.CROZOICAN));
         pokemon.add(new Disructor());
         pokemon.add(new Rhinozer());
         pokemon.add(new Rhinolition());

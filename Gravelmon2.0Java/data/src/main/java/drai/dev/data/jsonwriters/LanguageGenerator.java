@@ -110,9 +110,6 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.lagoone","Lagoone");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.norheim","Norheim");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.oceane","Oceane");
-
-
-
         LangJSONWriter.writeTranslationKey("cobblemon.species.eppv11.name","EPP_v1.1");
     }
 }

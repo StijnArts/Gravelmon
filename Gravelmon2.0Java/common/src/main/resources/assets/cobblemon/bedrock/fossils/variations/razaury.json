@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:razaury",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:razaury",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/razaury.png",
+      "layers": []
+    }
+  ]
+}

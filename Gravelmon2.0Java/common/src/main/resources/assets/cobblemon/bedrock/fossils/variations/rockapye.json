@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:rockapye",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rockapye",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/rockapye.png",
+      "layers": []
+    }
+  ]
+}

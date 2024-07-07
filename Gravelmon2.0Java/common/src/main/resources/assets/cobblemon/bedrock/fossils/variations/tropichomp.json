@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:tropichomp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tropichomp",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/tropichomp.png",
+      "layers": []
+    }
+  ]
+}

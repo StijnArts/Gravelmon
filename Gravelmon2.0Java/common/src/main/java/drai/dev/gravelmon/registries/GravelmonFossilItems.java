@@ -2,6 +2,7 @@ package drai.dev.gravelmon.registries;
 
 import dev.architectury.registry.registries.*;
 import drai.dev.gravelsextendedbattles.loot.*;
+import net.minecraft.resources.*;
 import net.minecraft.world.item.*;
 
 import java.util.*;
@@ -159,7 +160,7 @@ public class GravelmonFossilItems {
                     BaseCobblemonDigSites.LUSH_DEN.uncommon()
             ),
             "print_fossil",
-            "slothohm");
+            "rockapye");
     public static RegistrySupplier<Item> SPACE_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.ERODED_PILLAR.uncommon(),
@@ -176,7 +177,7 @@ public class GravelmonFossilItems {
                     BaseCobblemonDigSites.ERODED_PILLAR.uncommon()
             ),
             "crust_fossil",
-            "velosiol");
+            "velosoil");
     public static RegistrySupplier<Item> SEED_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.BIRCH_TREE.uncommon(),
@@ -226,7 +227,7 @@ public class GravelmonFossilItems {
                     BaseCobblemonDigSites.VIBRANT_HYDROTHERMAL_VENTS.uncommon()
             ),
             "saw_fossil",
-            "snipion");
+            "snipion crozoican");
     public static RegistrySupplier<Item> SNOUT_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.SUBMERGED_IMPACT.uncommon(),
@@ -261,24 +262,32 @@ public class GravelmonFossilItems {
             ),
             "thagomizer_fossil",
             "stegosear");
-    public static RegistrySupplier<Item> MEMBRANE_FOSSIL = fossilItem(
+    public static RegistrySupplier<Item> WING_FINGER_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.SPRUCE_TREE.uncommon(),
                     BaseCobblemonDigSites.LUSH_DEN.uncommon(),
                     BaseCobblemonDigSites.ERODED_PILLAR.uncommon()
             ),
-            "membrane_fossil",
+            "wing_finger_fossil",
             "pterai");
 
     //Isiah
     public static RegistrySupplier<Item> SMOKE_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.SUNSCORCHED_DEN.uncommon(),
-                    BaseCobblemonDigSites.POWDERED_DEPOSIT.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
                     BaseCobblemonDigSites.ROOTED_PIT.uncommon()
             ),
             "smoke_fossil",
             "lizmoke");
+    public static RegistrySupplier<Item> CONDUCTOR_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.ERODED_PILLAR.uncommon(),
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon(),
+                    BaseCobblemonDigSites.ROOTED_PIT.uncommon()
+            ),
+            "conductor_fossil",
+            "elekto");
 
     //Lonava
     public static RegistrySupplier<Item> OAR_FOSSIL = fossilItem(
@@ -352,7 +361,7 @@ public class GravelmonFossilItems {
                     BaseCobblemonDigSites.SUBMERGED_IMPACT.uncommon()
             ),
             "cusp_fossil",
-            "devostoic");
+            "devostoric");
     public static RegistrySupplier<Item> BIG_TOOTH_FOSSIL = fossilItem(
             List.of(
                     BaseCobblemonDigSites.ERODED_PILLAR.uncommon(),
@@ -414,16 +423,6 @@ public class GravelmonFossilItems {
             "duck_fossil",
             "lasaur");
 
-    //Crozoic TODO
-//    public static RegistrySupplier<Item> DUCK_FOSSIL = fossilItem(
-//            List.of(
-//                    BaseCobblemonDigSites.MOSSY_POND.uncommon(),
-//                    BaseCobblemonDigSites.LUSH_DEN.uncommon(),
-//                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon()
-//            ),
-//            "duck_fossil",
-//            "lasaur");
-
     //Cyare
     public static RegistrySupplier<Item> THUMB_FOSSIL = fossilItem(
             List.of(
@@ -453,6 +452,239 @@ public class GravelmonFossilItems {
             ),
             "hammer_fossil",
             "pterabonk");
+
+    //Crozoic
+    public static RegistrySupplier<Item> LARVA_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.ROOTED_PIT.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_DEN.uncommon()
+            ),
+            "larva_fossil",
+            "picant");
+    public static RegistrySupplier<Item> MEMBRANE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.OAK_TREE.uncommon(),
+                    BaseCobblemonDigSites.BIRCH_TREE.uncommon()
+            ),
+            "membrane_fossil",
+            "glizyrup");
+    public static RegistrySupplier<Item> EYE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.MOSSY_POND.uncommon(),
+                    BaseCobblemonDigSites.MUD_PIT.uncommon()
+            ),
+            "eye_fossil",
+            "eyesi crozoican");
+    public static RegistrySupplier<Item> CHEEK_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.BIRCH_TREE.uncommon(),
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon()
+            ),
+            "cheek_fossil",
+            "pekohmu");
+    public static RegistrySupplier<Item> LONG_CLAW_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon(),
+                    BaseCobblemonDigSites.LUSH_DEN.uncommon()
+            ),
+            "long_claw_fossil",
+            "razaury");
+    public static RegistrySupplier<Item> BRAIN_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_DEN.uncommon(),
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon()
+            ),
+            "brain_fossil",
+            "brainibash");
+    public static RegistrySupplier<Item> THORN_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.LUSH_DEN.uncommon(),
+                    BaseCobblemonDigSites.ROOTED_PIT.uncommon()
+            ),
+            "thorn_fossil",
+            "seigoxic");
+    public static RegistrySupplier<Item> GLOVE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.UNDERWATER_FISSURE.uncommon(),
+                    BaseCobblemonDigSites.SUBMERGED_SPIKE.uncommon()
+            ),
+            "glove_fossil",
+            "seanodont");
+    public static RegistrySupplier<Item> BASKET_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.FROZEN_POND.uncommon(),
+                    new ResourceLocation("cobblemon", "fossils/prehistoric_tuff_pit")
+            ),
+            "basket_fossil",
+            "chillaxo");
+    public static RegistrySupplier<Item> SPORE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.MOSSY_POND.uncommon(),
+                    BaseCobblemonDigSites.MUD_PIT.uncommon()
+            ),
+            "spore_fossil",
+            "shroolumn");
+    public static RegistrySupplier<Item> HOOK_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUBMERGED_SPIKE.uncommon(),
+                    BaseCobblemonDigSites.HYDROTHERMAL_VENTS.uncommon()
+            ),
+            "hook_fossil",
+            "fishereel");
+    public static RegistrySupplier<Item> ANTENNA_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.ENHYDRO_AGATE.uncommon(),
+                    BaseCobblemonDigSites.VIBRANT_HYDROTHERMAL_VENTS.uncommon()
+            ),
+            "antenna_fossil",
+            "mander");
+    public static RegistrySupplier<Item> METAL_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon()
+            ),
+            "metal_fossil",
+            "shredpole");
+    public static RegistrySupplier<Item> CORD_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon(),
+                    BaseCobblemonDigSites.MUD_PIT.uncommon()
+            ),
+            "cord_fossil",
+            "cryotera");
+    public static RegistrySupplier<Item> STREAMLINED_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_DEN.uncommon()
+            ),
+            "streamlined_fossil",
+            "stricycle");
+    public static RegistrySupplier<Item> EGG_BEAK_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon(),
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon()
+            ),
+            "egg_beak_fossil",
+            "ovimourn");
+    public static RegistrySupplier<Item> DRILL_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon()
+            ),
+            "drill_fossil",
+            "varaquake");
+    public static RegistrySupplier<Item> SCORCHED_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_DEN.uncommon()
+            ),
+            "scorched_fossil",
+            "rexinder");
+    public static RegistrySupplier<Item> NECK_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_DEN.uncommon()
+            ),
+            "neck_fossil",
+            "miniclod");
+    public static RegistrySupplier<Item> SIX_WING_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon(),
+                    BaseCobblemonDigSites.LUSH_DEN.uncommon()
+            ),
+            "six_wing_fossil",
+            "oxygryph");
+    public static RegistrySupplier<Item> MOHAWK_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.ENHYDRO_AGATE.uncommon(),
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon()
+            ),
+            "mohawk_fossil",
+            "sharpunk");
+    public static RegistrySupplier<Item> BUCKTEETH_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon(),
+                    BaseCobblemonDigSites.LUSH_DEN.uncommon()
+            ),
+            "buckteeth_fossil",
+            "tropichomp");
+    public static RegistrySupplier<Item> BOXER_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.HYDROTHERMAL_VENTS.uncommon(),
+                    BaseCobblemonDigSites.SUBMERGED_IMPACT.uncommon()
+            ),
+            "boxer_fossil",
+            "punshell");
+    public static RegistrySupplier<Item> SPIKE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.HYDROTHERMAL_VENTS.uncommon(),
+                    BaseCobblemonDigSites.VIBRANT_HYDROTHERMAL_VENTS.uncommon()
+            ),
+            "spike_fossil",
+            "pikoral");
+    public static RegistrySupplier<Item> WEBBED_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon(),
+                    new ResourceLocation("cobblemon", "fossils/prehistoric_meteorite_pond")
+            ),
+            "webbed_fossil",
+            "hungrebe");
+    public static RegistrySupplier<Item> CORRUPT_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon(),
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon()
+            ),
+            "corrupt_fossil",
+            "soulhofen");
+    public static RegistrySupplier<Item> NEEDLE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.HYDROTHERMAL_VENTS.uncommon(),
+                    BaseCobblemonDigSites.VIBRANT_HYDROTHERMAL_VENTS.uncommon()
+            ),
+            "needle_fossil",
+            "stunge");
+    public static RegistrySupplier<Item> LILY_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.HYDROTHERMAL_VENTS.uncommon(),
+                    BaseCobblemonDigSites.VIBRANT_HYDROTHERMAL_VENTS.uncommon()
+            ),
+            "lily_fossil",
+            "clawryde");
+    public static RegistrySupplier<Item> STRANGE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.HYDROTHERMAL_VENTS.uncommon(),
+                    BaseCobblemonDigSites.VIBRANT_HYDROTHERMAL_VENTS.uncommon()
+            ),
+            "strange_fossil",
+            "tullabaloo");
+    public static RegistrySupplier<Item> CONE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.UNDERWATER_FISSURE.uncommon(),
+                    BaseCobblemonDigSites.SUBMERGED_SPIKE.uncommon()
+            ),
+            "cone_fossil",
+            "squicecone");
+    public static RegistrySupplier<Item> SHOULDER_SPIKE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.ENHYDRO_AGATE.uncommon(),
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon()
+            ),
+            "shoulder_spike_fossil",
+            "palagaia");
+    public static RegistrySupplier<Item> RAMPART_FOSSIL = fossilItem(
+            List.of(
+                    new ResourceLocation("cobblemon", "fossils/prehistoric_tuff_pit"),
+                    BaseCobblemonDigSites.FROZEN_SPIKE.uncommon()
+            ),
+            "rampart_fossil",
+            "pachibrik");
+    public static RegistrySupplier<Item> TOE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.PRESERVED_SKELETON.uncommon(),
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon()
+            ),
+            "toe_fossil",
+            "reptor");
 
 
     public static void touch() {

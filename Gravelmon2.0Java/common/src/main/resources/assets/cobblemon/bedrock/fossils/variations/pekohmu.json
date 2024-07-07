@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:pekohmu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pekohmu",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/pekohmu.png",
+      "layers": []
+    }
+  ]
+}

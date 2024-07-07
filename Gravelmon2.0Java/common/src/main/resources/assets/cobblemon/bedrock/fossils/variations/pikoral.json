@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:pikoral",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pikoral",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/pikoral.png",
+      "layers": []
+    }
+  ]
+}

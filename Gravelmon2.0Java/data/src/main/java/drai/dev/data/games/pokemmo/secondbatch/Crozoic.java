@@ -22,8 +22,6 @@ public class Crozoic extends drai.dev.data.games.registry.Game {
         pokemon.add(new Hellantern(new Stats(434, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.ATTACK, StatType.ATTACK, StatType.SPEED))));
         pokemon.add(new Glizyrup(new Stats(342, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
-        pokemon.add(new Eyesi());
-        pokemon.add(new Eyesaur());
         pokemon.add(new Pekohmu(new Stats(412, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         pokemon.add(new Razaury());
         pokemon.add(new Therislash(new Stats(514, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
@@ -45,12 +43,14 @@ public class Crozoic extends drai.dev.data.games.registry.Game {
         pokemon.add(new Stratopod(new Stats(532, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))));
         pokemon.add(new Sharpunk());
         pokemon.add(new Spurocious(new Stats(513, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
+        pokemon.add(new Tropichomp());
         pokemon.add(new Dendrago(new Stats(476, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))));
         pokemon.add(new Pikoral());
         pokemon.add(new Crestoral(new Stats(500, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         pokemon.add(new Hungrebe(new Stats(354, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
         pokemon.add(new Punshell());
         pokemon.add(new Whammonite(new Stats(512, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
+        pokemon.add(new Soulhofen());
         pokemon.add(new Shaelseum());
         pokemon.add(new Stunge());
         pokemon.add(new Bristilt(new Stats(489, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));

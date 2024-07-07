@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:reptor",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:reptor",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/reptor.png",
+      "layers": []
+    }
+  ]
+}

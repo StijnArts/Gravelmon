@@ -3,10 +3,12 @@
   "order": 0,
   "variations": [
     {
-      "aspects": [],
+      "aspects": [
+        "crozoican"
+      ],
       "poser": "cobblemon:snipion",
       "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/fossils/snipion.png",
+      "texture": "cobblemon:textures/fossils/snipion_crozoican.png",
       "layers": []
     }
   ]

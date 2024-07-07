@@ -30,6 +30,7 @@ public class FossilJSONWriter {
                 writeRareFossilLootTable(key, value, lootDir, gson);
                 writeFossilResolver(value, resolverDir, resourcesDir, gson);
                 writeFossilPoser(value, poserDir, gson);
+                createItemPlaceholderTextureIfNotExists( key+".png", resourcesDir);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -43,7 +44,7 @@ public class FossilJSONWriter {
         fossils.add("gravelmon:"+fossil);
         fileContents.add("fossils", fossils);
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + species + ".json"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + species.split(" ")[0] + ".json"));
         writer.write(gson.toJson(fileContents));
         writer.close();
     }
@@ -74,21 +75,29 @@ public class FossilJSONWriter {
 
     private static void writeFossilResolver(String species, String dir, String resourcesDir, Gson gson) throws IOException {
         JsonObject fileContents = new JsonObject();
-        fileContents.add("name", new JsonPrimitive("cobblemon:"+species));
+        var splitSpecies = species.split(" ");
+        var speciesName = splitSpecies[0];
+        fileContents.add("name", new JsonPrimitive("cobblemon:"+speciesName));
         fileContents.add("order", new JsonPrimitive(0));
         var variations = new JsonArray();
         var variation = new JsonObject();
-        variation.add("aspects", new JsonArray());
-        variation.add("poser", new JsonPrimitive("cobblemon:"+species));
+        var aspects = new JsonArray();
+        if(splitSpecies.length > 1) {
+            for (int i = 1; i < splitSpecies.length; i++) {
+                aspects.add(splitSpecies[i]);
+            }
+        }
+        variation.add("aspects", aspects);
+        variation.add("poser", new JsonPrimitive("cobblemon:"+speciesName));
         variation.add("model", new JsonPrimitive("cobblemon:cutout_gravelmon.geo"));
-        variation.add("texture", new JsonPrimitive("cobblemon:textures/fossils/"+species+".png"));
+        variation.add("texture", new JsonPrimitive("cobblemon:textures/fossils/"+species.replaceAll(" ", "_")+".png"));
         variation.add("layers", new JsonArray());
         variations.add(variation);
         fileContents.add("variations", variations);
 
-        createPlaceholderTextureIfNotExists( species + ".png", resourcesDir);
+        createPlaceholderTextureIfNotExists( species.replaceAll(" ","_") + ".png", resourcesDir);
 
-        var assetFile = new File(dir + species + ".json");
+        var assetFile = new File(dir + speciesName + ".json");
         if (!assetFile.exists()) {
             BufferedWriter writer = new BufferedWriter(new FileWriter(assetFile));
             writer.write(gson.toJson(fileContents));
@@ -102,6 +111,21 @@ public class FossilJSONWriter {
 
         if (!textureLocation.exists()) {
             BufferedImage placeholder = new BufferedImage(96, 96, 3);
+            try {
+                Files.createDirectories(new File(textureDir).toPath());
+                ImageIO.write(placeholder, "png", textureLocation);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
+    public static void createItemPlaceholderTextureIfNotExists(String filename, String resourcesDir) {
+        String textureDir = resourcesDir + "\\assets\\gravelmon\\textures\\item\\fossils\\";
+        File textureLocation = new File(textureDir + filename);
+
+        if (!textureLocation.exists()) {
+            BufferedImage placeholder = new BufferedImage(16, 16, 3);
             try {
                 Files.createDirectories(new File(textureDir).toPath());
                 ImageIO.write(placeholder, "png", textureLocation);

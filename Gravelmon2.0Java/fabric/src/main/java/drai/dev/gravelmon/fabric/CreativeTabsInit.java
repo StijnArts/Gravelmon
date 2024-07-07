@@ -2,8 +2,15 @@ package drai.dev.gravelmon.fabric;
 
 import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.item.group.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
+import drai.dev.gravelsextendedbattles.*;
 import net.fabricmc.fabric.api.itemgroup.v1.*;
+import net.minecraft.core.registries.*;
+import net.minecraft.resources.*;
+import net.minecraft.world.item.*;
+
+import java.util.function.*;
 
 public class CreativeTabsInit {
     public static void initCreativeTabs(){
@@ -105,6 +112,9 @@ public class CreativeTabsInit {
 
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getHELD_ITEMS_KEY()).register(entries -> {
             entries.accept(GravelmonItems.LONG_CLUB.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.ICE_SHARD.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.PRETTY_RIBBON.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.MOSS_SHARD.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.X_RAY_SPECS.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.FOUL_ROCK.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.RAGGED_PEBBLE.get().asItem().getDefaultInstance());
@@ -128,6 +138,7 @@ public class CreativeTabsInit {
                     GravelmonItems.ORANGE_APRICORN_SEED.get().asItem().getDefaultInstance());
             entries.addAfter(CobblemonItems.PINK_APRICORN_SEED.asItem().getDefaultInstance(),
                     GravelmonItems.PURPLE_APRICORN_SEED.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.HAFLI_BERRY.get().asItem().getDefaultInstance());
         });
 
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getPOKEBALLS_KEY()).register(entries -> {
@@ -201,6 +212,17 @@ public class CreativeTabsInit {
             entries.accept(GravelmonItems.NON_BINARY_BALL.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.ACE_BALL.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.ARO_BALL.get().asItem().getDefaultInstance());
+        });
+
+
+        ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getARCHAEOLOGY_KEY()).register(entries -> {
+            Consumer<ItemStack> fossilConsumer = (fossil)-> entries.addAfter(CobblemonItems.FOSSILIZED_DINO, fossil);
+            Gravelmon.FOSSIL_ITEM_MAP.forEach((key, value) -> {
+                var fossil = GravelsExtendedBattles.FOSSIL_MAP.get(BuiltInRegistries.ITEM.getKey(value.get()));
+                if(fossil == null) return;
+                if(SpeciesManager.containsBannedLabels(fossil.getResult().getSpecies(), fossil.getResult().getForm())) return;
+                fossilConsumer.accept(value.get().getDefaultInstance());
+            });
         });
     }
 }

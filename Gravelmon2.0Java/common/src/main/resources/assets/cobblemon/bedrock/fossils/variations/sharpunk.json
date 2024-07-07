@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:sharpunk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sharpunk",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/sharpunk.png",
+      "layers": []
+    }
+  ]
+}

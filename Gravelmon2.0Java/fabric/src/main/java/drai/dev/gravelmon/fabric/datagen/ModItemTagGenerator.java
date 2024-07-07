@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.fabric.datagen;
 
 import com.cobblemon.mod.common.api.tags.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
@@ -78,5 +79,7 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
                         //insurgence
                         GravelmonItems.DARK_ROCK.get()
                 );
+        var fossilTagBuilder = getOrCreateTagBuilder(CobblemonItemTags.FOSSILS);
+        Gravelmon.FOSSIL_ITEM_MAP.forEach((key, value) -> fossilTagBuilder.add(value.get()));
     }
 }

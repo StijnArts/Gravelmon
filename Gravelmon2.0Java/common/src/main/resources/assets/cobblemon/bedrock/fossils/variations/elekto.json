@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:elekto",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:elekto",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/elekto.png",
+      "layers": []
+    }
+  ]
+}

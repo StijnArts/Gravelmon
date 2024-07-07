@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:miniclod",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:miniclod",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/miniclod.png",
+      "layers": []
+    }
+  ]
+}

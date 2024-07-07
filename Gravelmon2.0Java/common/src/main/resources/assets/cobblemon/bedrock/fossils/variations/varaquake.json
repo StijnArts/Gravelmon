@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:varaquake",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:varaquake",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/varaquake.png",
+      "layers": []
+    }
+  ]
+}

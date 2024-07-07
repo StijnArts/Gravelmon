@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:squicecone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:squicecone",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/squicecone.png",
+      "layers": []
+    }
+  ]
+}

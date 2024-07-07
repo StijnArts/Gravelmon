@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:seanodont",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:seanodont",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/seanodont.png",
+      "layers": []
+    }
+  ]
+}

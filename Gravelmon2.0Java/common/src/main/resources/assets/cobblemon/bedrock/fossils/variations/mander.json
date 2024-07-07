@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:mander",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mander",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/mander.png",
+      "layers": []
+    }
+  ]
+}

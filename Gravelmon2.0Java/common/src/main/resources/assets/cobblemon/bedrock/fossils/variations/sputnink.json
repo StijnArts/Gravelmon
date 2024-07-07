@@ -5,7 +5,7 @@
     {
       "aspects": [],
       "poser": "cobblemon:sputnink",
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:sputnink.geo",
       "texture": "cobblemon:textures/fossils/sputnink.png",
       "layers": []
     }

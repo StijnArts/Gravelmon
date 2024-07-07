@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:ovimourn",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ovimourn",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/ovimourn.png",
+      "layers": []
+    }
+  ]
+}

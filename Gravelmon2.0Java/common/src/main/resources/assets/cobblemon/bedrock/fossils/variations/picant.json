@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:picant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:picant",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/picant.png",
+      "layers": []
+    }
+  ]
+}

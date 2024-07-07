@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:rexinder",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rexinder",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/rexinder.png",
+      "layers": []
+    }
+  ]
+}

@@ -411,6 +411,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .save(exporter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                        GravelmonItems.LONG_CLUB.get(),1)
+                .pattern("B")
+                .pattern("B")
+                .pattern("B")
+                .define('B', Items.BONE)
+                .unlockedBy("hasBones", has(Items.BONE))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
                         GravelmonItems.FOUL_ROCK.get(),1)
                 .pattern("DS")
                 .pattern("HD")

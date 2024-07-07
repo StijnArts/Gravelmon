@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:eyesaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferroa_eyesaur",
+      "texture": "cobblemon:textures/pokemon/ferroa/eyesaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/eyesaur_shiny.png"
+    }
+  ]
+}
