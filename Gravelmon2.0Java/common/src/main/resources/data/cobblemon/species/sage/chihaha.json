@@ -124,8 +124,7 @@
     "egg:psywave",
     "egg:pursuit"  ],
   "labels": [
-    "sage",
-    "not_modeled"
+    "sage"
   ],
   "pokedex": [
     "cobblemon.species.chihaha.desc"
@@ -146,10 +145,10 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 0.6,
+    "height": 0.6,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -161,7 +160,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 14,
+  "height": 4,
   "weight": 36,
   "aspects": [],
 "features": [

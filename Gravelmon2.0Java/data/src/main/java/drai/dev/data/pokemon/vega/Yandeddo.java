@@ -80,5 +80,8 @@ public class Yandeddo extends Pokemon {
                 List.of(SpawnPreset.FOLIAGE),
                 0.4, 0.3,
                 List.of());
+        this.setModeled(true);
+        this.setBaseScale(0.8);
+        this.setHitbox(1,1);
     }
 }

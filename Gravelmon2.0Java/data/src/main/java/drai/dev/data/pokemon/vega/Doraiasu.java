@@ -79,5 +79,8 @@ public class Doraiasu extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());
+        this.setModeled(true);
+        this.setBaseScale(1);
+        this.setHitbox(1,1);
     }
 }

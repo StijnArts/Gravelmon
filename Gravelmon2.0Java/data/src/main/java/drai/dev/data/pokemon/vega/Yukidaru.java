@@ -79,5 +79,8 @@ public class Yukidaru extends Pokemon {
                 List.of(SpawnPreset.VILLAGE),
                 0.4, 0.3,
                 List.of());
+        setBaseScale(.85);
+        setHitbox(1.0, 1.0);
+        setModeled(true);
     }
 }

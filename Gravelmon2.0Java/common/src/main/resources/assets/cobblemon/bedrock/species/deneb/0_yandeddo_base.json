@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deneb_yandeddo.geo",
       "poser": "cobblemon:deneb_yandeddo",
-      "texture": "cobblemon:textures/pokemon/deneb/yandeddo.png",
+      "texture": "cobblemon:textures/pokemon/deneb/yandeddo/yandeddo.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/yandeddo_shiny.png"
+      "texture": "cobblemon:textures/pokemon/deneb/yandeddo/yandeddo_shiny.png"
     }
   ]
 }

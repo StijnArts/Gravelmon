@@ -1,9 +1,9 @@
 {
   "head": "head",
-  "portraitScale": 0.165,
-  "portraitTranslation": [0.0, 1.4, 0.0],
-  "profileScale": 0.22,
-  "profileTranslation": [0.0, 1.55, -20.0],
+  "portraitScale": 1.8,
+  "portraitTranslation": [0.0, 0.4, 0.0],
+  "profileScale": 0.7,
+  "profileTranslation": [0.0, 0.75, 0.0],
   "cry": "bedrock(gorochu, cry)",
   "poses": {
     "battle-idle" : {

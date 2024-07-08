@@ -77,7 +77,6 @@
     "tm:dragonclaw"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
     "fakemon",
     "fakemonevolution"
   ],
@@ -99,10 +98,10 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.2333333333333333,
+  "baseScale": 0.8,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 0.7,
     "fixed": false
   },
   "baseFriendship": 70,

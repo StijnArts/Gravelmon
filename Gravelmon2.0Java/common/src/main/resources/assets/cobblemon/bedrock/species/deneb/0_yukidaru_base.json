@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deneb_yukidaru.geo",
       "poser": "cobblemon:deneb_yukidaru",
-      "texture": "cobblemon:textures/pokemon/deneb/yukidaru.png",
+      "texture": "cobblemon:textures/pokemon/deneb/yukidaru/yukidaru.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/yukidaru_shiny.png"
+      "texture": "cobblemon:textures/pokemon/deneb/yukidaru/yukidaru_shiny.png"
     }
   ]
 }

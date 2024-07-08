@@ -12,7 +12,7 @@ public class Chihaha extends Pokemon {
                 Type.DARK, Type.NORMAL,
                 new Stats(60, 49, 60, 55, 55, 71),
                 List.of(Ability.PRANKSTER, Ability.CUTE_CHARM), Ability.UNNERVE,
-                14, 36,
+                4, 36,
                 new Stats(0,0,0,0,0,1), 120,
                 0.5,
                 65, ExperienceGroup.SLOW,
@@ -108,5 +108,8 @@ public class Chihaha extends Pokemon {
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
+        this.setModeled(true);
+        this.setBaseScale(0.3);
+        this.setHitbox(.6,0.6);
     }
 }

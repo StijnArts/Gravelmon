@@ -95,5 +95,8 @@ public class Bluffin extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
+        this.setModeled(true);
+        this.setBaseScale(0.5);
+        this.setHitbox(1,0.7);
     }
 }

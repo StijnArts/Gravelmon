@@ -92,8 +92,7 @@
     "tm:grassyglide",
     "tm:petalblizzard"  ],
   "labels": [
-    "deneb",
-    "not_modeled"
+    "deneb"
   ],
   "pokedex": [
     "cobblemon.species.iyaiya.desc"
@@ -112,10 +111,10 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.7,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -113,16 +113,15 @@
     "egg:superfang",
     "egg:yawn"  ],
   "labels": [
-    "sage",
-    "not_modeled"
+    "sage"
   ],
   "pokedex": [
     "cobblemon.species.cowatti.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.7,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

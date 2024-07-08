@@ -66,8 +66,7 @@
     "tm:honeclaws",
     "tm:dragonclaw"  ],
   "labels": [
-    "xenoverse",
-    "not_modeled"
+    "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.pepequeno.desc"
@@ -86,10 +85,10 @@
       "permanent": true   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.5,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 0.7,
     "fixed": false
   },
   "baseFriendship": 70,
