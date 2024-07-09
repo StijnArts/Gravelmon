@@ -289,10 +289,10 @@
     "rockhead",
     "h:rockhead"
       ],
-      "baseScale": 1.0,
+      "baseScale": 1.3,
         "hitbox": {
-          "width": 1.0,
-          "height": 1.0,
+          "width": 1.8,
+          "height": 1.6,
           "fixed": false
       },
       "baseStats": {
@@ -344,10 +344,10 @@
     "weakarmor",
     "h:rockhead"
       ],
-      "baseScale": 1.0,
+      "baseScale": 1.3,
         "hitbox": {
-          "width": 1.0,
-          "height": 1.0,
+          "width": 1.8,
+          "height": 1.6,
           "fixed": false
       },
       "baseStats": {
@@ -513,10 +513,10 @@
     "cobblemon.species.deltaruinmetagross.desc"
   ],
   "preEvolution": "metang form=deltaruin",
-  "baseScale": 1.0,
+  "baseScale": 1.3,
   "hitbox": {
-    "width": 1.0,
-    "height": 1.0,
+    "width": 1.8,
+    "height": 1.6,
     "fixed": false
   },
   "baseFriendship": 70,

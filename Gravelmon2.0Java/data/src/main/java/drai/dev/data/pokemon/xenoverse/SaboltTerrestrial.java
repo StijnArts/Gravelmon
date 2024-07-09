@@ -19,7 +19,7 @@ public class SaboltTerrestrial extends Pokemon {
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("It looks like the Red Energy had somehow affected this Pokemon. Wrapped in the darkness of its cloak, it shoots thunderbolts all of sudden."),
-                List.of(new EvolutionEntry("sabolt", EvolutionType.LEVEL_UP, false, List.of(), List.of()),
+                List.of(new EvolutionEntry("sabolt terrestrial=false", EvolutionType.LEVEL_UP, false, List.of(), List.of()),
                         new EvolutionEntry("saboltxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\"")))),
                 List.of(

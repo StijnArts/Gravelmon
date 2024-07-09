@@ -19,7 +19,7 @@ public class ShulongAstral extends Pokemon {
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("Shulong's real form. In ancient times, it fought with its brothers alongside Luxflon to defeat the Chaos throughout the universe."),
-                List.of(new EvolutionEntry("shulong", EvolutionType.LEVEL_UP, false, List.of(),
+                List.of(new EvolutionEntry("shulong astral=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shulongterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),

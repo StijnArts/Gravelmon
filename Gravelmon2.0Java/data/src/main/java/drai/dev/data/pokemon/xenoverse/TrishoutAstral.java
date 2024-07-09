@@ -19,7 +19,7 @@ public class TrishoutAstral extends Pokemon {
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("Trishout's real form. In ancient times, it fought with its brothers alongside Luxflon to defeat the Chaos throughout the universe."),
-                List.of(new EvolutionEntry("trishout", EvolutionType.LEVEL_UP, false, List.of(),
+                List.of(new EvolutionEntry("trishout astral=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("trishoutterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),

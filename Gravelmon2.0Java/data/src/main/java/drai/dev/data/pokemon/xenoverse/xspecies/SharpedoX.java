@@ -80,7 +80,7 @@ public class SharpedoX extends Pokemon {
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",50, 1,1)),
                 SpawnContext.SUBMERGED, SpawnPool.COMMON, 30, 47, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                        new BiomeSpawnCondition(List.of(Biome.IS_END, Biome.IS_DEEP_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
                 0.27, 0.3,

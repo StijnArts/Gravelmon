@@ -19,7 +19,7 @@ public class ShyleonXenoversal extends Pokemon {
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("It Aquired magic powers after absorbing the Blue Energy. It was revered as a deity by an ancient civilization."),
-                List.of(new EvolutionEntry("shyleon", EvolutionType.LEVEL_UP, false, List.of(),
+                List.of(new EvolutionEntry("shyleon xenoversal=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shyleonterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),

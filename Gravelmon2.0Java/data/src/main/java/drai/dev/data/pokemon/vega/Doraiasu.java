@@ -81,6 +81,6 @@ public class Doraiasu extends Pokemon {
                 List.of());
         this.setModeled(true);
         this.setBaseScale(1);
-        this.setHitbox(1,1);
+        this.setHitbox(1,2);
     }
 }

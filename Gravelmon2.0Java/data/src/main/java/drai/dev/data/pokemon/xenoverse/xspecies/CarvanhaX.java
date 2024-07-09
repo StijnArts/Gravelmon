@@ -67,7 +67,7 @@ public class CarvanhaX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN3),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 15, 34, 3.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                        new BiomeSpawnCondition(List.of(Biome.IS_END, Biome.IS_DEEP_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.27, 0.3,

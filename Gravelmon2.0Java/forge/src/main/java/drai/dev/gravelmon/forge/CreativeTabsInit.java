@@ -323,7 +323,7 @@ public class CreativeTabsInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
-        if(event.getTab() == CobblemonItemGroups.getPOKEBALLS()) {
+        if(event.getTab() == CobblemonItemGroups.getARCHAEOLOGY()) {
             Consumer<ItemStack> fossilConsumer = (fossil)-> event.getEntries().putAfter(CobblemonItems.FOSSILIZED_DINO.asItem().getDefaultInstance(), fossil,
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             Gravelmon.FOSSIL_ITEM_MAP.forEach((key, value) -> {

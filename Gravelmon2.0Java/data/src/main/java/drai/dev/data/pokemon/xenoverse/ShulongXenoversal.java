@@ -19,7 +19,7 @@ public class ShulongXenoversal extends Pokemon {
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("Blue Energy has made it vicious and territorial. No one is able to take on it underwater."),
-                List.of(new EvolutionEntry("shulong", EvolutionType.LEVEL_UP, false, List.of(),
+                List.of(new EvolutionEntry("shulong xenoversal=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shulongterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),

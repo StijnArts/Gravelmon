@@ -39,7 +39,7 @@ public class DeltaRuinBeldum extends Pokemon {
         this.setCanFly(true);
         this.setPortraitXYZ(0,1.8,0);
         setModeled(true);
-        setBaseScale(1);
-        setHitbox(1,1);
+        setBaseScale(0.75);
+        setHitbox(0.4,0.8);
     }
 }

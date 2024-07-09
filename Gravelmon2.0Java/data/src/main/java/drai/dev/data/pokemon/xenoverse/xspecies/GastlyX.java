@@ -71,6 +71,6 @@ public class GastlyX extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         setModeled(true);
         setBaseScale(1.2);
-        setHitbox(0.7,1.3);
+        setHitbox(0.7,1.45);
     }
 }

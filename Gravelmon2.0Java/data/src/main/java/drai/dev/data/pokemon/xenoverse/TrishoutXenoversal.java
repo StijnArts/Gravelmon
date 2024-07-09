@@ -19,7 +19,7 @@ public class TrishoutXenoversal extends Pokemon {
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("The Blue Energy has given it an overwhelming explosive power. It ejects air from the ports on its body to boost its fiery roars."),
-                List.of(new EvolutionEntry("trishout", EvolutionType.LEVEL_UP, false, List.of(),
+                List.of(new EvolutionEntry("trishout xenoversal=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("trishoutterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),

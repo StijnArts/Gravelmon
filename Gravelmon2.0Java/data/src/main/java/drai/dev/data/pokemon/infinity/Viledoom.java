@@ -109,7 +109,7 @@ public class Viledoom extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         setModeled(true);
-        setBaseScale(0.7);
-        setHitbox(0.7,0.7);
+        setBaseScale(1);
+        setHitbox(1,1);
     }
 }

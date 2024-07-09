@@ -74,25 +74,9 @@ public class GravelmonStarters {
         GravelmonStarterManager.registerNewStarter(null,
                 createCategory("Egho",
                         List.of(
-                                "Foliat level=10",
-                                "Kidling level=10",
-                                "Aguade level=10"
-                        )
-                ));
-        GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Egho",
-                        List.of(
                                 "Kokiseed level=10",
                                 "Chargo level=10",
                                 "Darpole level=10"
-                        )
-                ));
-        GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Urobos",
-                        List.of(
-                                "Foliat level=10",
-                                "Kidling level=10",
-                                "Aguade level=10"
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,

@@ -153,9 +153,9 @@
   ],
   "evolutions": [
     {
-      "id": "shulong_shulong",
+      "id": "shulong_shulong_terrestrialfalse",
       "variant": "level_up",
-      "result": "shulong",
+      "result": "shulong terrestrial=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -389,9 +389,9 @@
   ],
   "evolutions": [
     {
-      "id": "shulong_shulong",
+      "id": "shulong_shulong_xenoversalfalse",
       "variant": "level_up",
-      "result": "shulong",
+      "result": "shulong xenoversal=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -629,9 +629,9 @@
   ],
   "evolutions": [
     {
-      "id": "shulong_shulong",
+      "id": "shulong_shulong_astralfalse",
       "variant": "level_up",
-      "result": "shulong",
+      "result": "shulong astral=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -21,7 +21,7 @@ public class SaboltXenoversal extends Pokemon {
                 List.of("It appears to be affected by the Blue Energy too, becoming fierce and savage. It fires immense dark lightning bolts from its mane charged with electricity."),
                 List.of(new EvolutionEntry("saboltterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
-                        new EvolutionEntry("sabolt", EvolutionType.LEVEL_UP, false, List.of(), List.of())),
+                        new EvolutionEntry("sabolt xenoversal=false", EvolutionType.LEVEL_UP, false, List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,1),
                         new MoveLearnSetEntry(Move.DARKENING_BOLT,1),

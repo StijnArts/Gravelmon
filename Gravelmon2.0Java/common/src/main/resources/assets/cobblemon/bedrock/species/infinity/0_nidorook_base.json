@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:infinity_nidorook.geo",
       "poser": "cobblemon:infinity_nidorook",
-      "texture": "cobblemon:textures/pokemon/infinity/nidorook.png",
+      "texture": "cobblemon:textures/pokemon/infinity/nidorook/nidorook.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/infinity/nidorook_shiny.png"
+      "texture": "cobblemon:textures/pokemon/infinity/nidorook/nidorook_shiny.png"
     }
   ]
 }

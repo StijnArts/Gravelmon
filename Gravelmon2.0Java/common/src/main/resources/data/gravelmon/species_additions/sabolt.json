@@ -130,9 +130,9 @@
   ],
   "evolutions": [
     {
-      "id": "sabolt_sabolt",
+      "id": "sabolt_sabolt_terrestrialfalse",
       "variant": "level_up",
-      "result": "sabolt",
+      "result": "sabolt terrestrial=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -328,9 +328,9 @@
       "permanent": true   
  },
     {
-      "id": "sabolt_sabolt",
+      "id": "sabolt_sabolt_xenoversalfalse",
       "variant": "level_up",
-      "result": "sabolt",
+      "result": "sabolt xenoversal=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

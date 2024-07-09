@@ -19,7 +19,7 @@ public class ShulongTerrestrial extends Pokemon {
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("The energy of Planet Earth has turned its skin into a coriaceous armor. After every wound, it comes back harder."),
-                List.of(new EvolutionEntry("shulong", EvolutionType.LEVEL_UP, false, List.of(),
+                List.of(new EvolutionEntry("shulong terrestrial=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shulongxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""))),

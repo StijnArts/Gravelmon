@@ -149,9 +149,9 @@
   ],
   "evolutions": [
     {
-      "id": "trishout_trishout",
+      "id": "trishout_trishout_terrestrialfalse",
       "variant": "level_up",
-      "result": "trishout",
+      "result": "trishout terrestrial=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -382,9 +382,9 @@
   ],
   "evolutions": [
     {
-      "id": "trishout_trishout",
+      "id": "trishout_trishout_xenoversalfalse",
       "variant": "level_up",
-      "result": "trishout",
+      "result": "trishout xenoversal=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -617,9 +617,9 @@
   ],
   "evolutions": [
     {
-      "id": "trishout_trishout",
+      "id": "trishout_trishout_astralfalse",
       "variant": "level_up",
-      "result": "trishout",
+      "result": "trishout astral=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

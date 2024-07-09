@@ -15,7 +15,8 @@
       "level": "30-47",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+"biomes": [ "#minecraft:is_end",
+"#minecraft:is_deep_ocean" ]
       }
     }
 

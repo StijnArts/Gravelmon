@@ -110,6 +110,6 @@ public class Chihaha extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setModeled(true);
         this.setBaseScale(0.3);
-        this.setHitbox(.6,0.6);
+        this.setHitbox(2,2);
     }
 }

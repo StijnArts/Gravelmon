@@ -19,7 +19,7 @@ public class ShyleonTerrestrial extends Pokemon {
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("The Red Energy enhanced its ability to camouflage. It is almost impossible to detect Shyleon in its habitat."),
-                List.of(new EvolutionEntry("shyleon", EvolutionType.LEVEL_UP, false, List.of(),
+                List.of(new EvolutionEntry("shyleon terrestrial=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shyleonxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""))),

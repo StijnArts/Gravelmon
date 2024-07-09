@@ -2,8 +2,8 @@
   "head": "head",
   "portraitScale": 1,
   "portraitTranslation": [ 0, 0.2, 0 ],
-  "profileScale": 1,
-  "profileTranslation": [ 0, 0.2, 0 ],
+  "profileScale": 0.8,
+  "profileTranslation": [ 0, 0.6, 0 ],
   "animations": {
     "cry": "q.bedrock_stateful('umbreon', 'cry')"
   },

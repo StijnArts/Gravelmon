@@ -92,16 +92,15 @@
     "egg:iciclecrash",
     "tutor:secretpower"  ],
   "labels": [
-    "xenoverse",
-    "not_modeled"
+    "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.gachigachoo.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

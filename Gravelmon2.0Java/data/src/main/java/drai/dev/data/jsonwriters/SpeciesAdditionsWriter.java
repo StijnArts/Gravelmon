@@ -65,7 +65,7 @@ public class SpeciesAdditionsWriter {
                 "{\n" +
                         "   \"target\": \"cobblemon:" + GravelmonUtils.getCleanName(set.getKey()) + "\",\n";
         fileContents += "  \"preEvolution\": \"" + set.getValue() + "\"\n}";
-        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()) + ".json"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
         writer.write(fileContents);
         writer.close();
     }
@@ -78,7 +78,7 @@ public class SpeciesAdditionsWriter {
             fileContents += "  \"preEvolution\": \"" + Pokemon.ADDITIONAL_PRE_EVOLUTIONS.get(set.getKey()) + "\",\n";
         }
         fileContents = getDrops(1, set.getValue(), fileContents) + "\n}";
-        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()) + ".json"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
         writer.write(fileContents);
         writer.close();
     }
@@ -94,7 +94,7 @@ public class SpeciesAdditionsWriter {
             fileContents += "  \"preEvolution\": \"" + Pokemon.ADDITIONAL_PRE_EVOLUTIONS.get(set.getKey()) + "\",\n";
         }
         fileContents = getEvolutions(GravelmonUtils.getCleanName(set.getKey()), set.getValue(), fileContents).replaceAll("\n  ],\n", "\n  ]\n") + "\n}";
-        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()) + ".json"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
         writer.write(fileContents);
         writer.close();
     }
@@ -316,7 +316,7 @@ public class SpeciesAdditionsWriter {
             fileContents += "\n}";
         }
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()) + ".json"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
         writer.write(fileContents);
         writer.close();
     }
@@ -353,7 +353,7 @@ public class SpeciesAdditionsWriter {
                     fileContents += ",\n";
                 }
                 fileContents += "    {\n" +
-                        "      \"id\": \"" + pokemon + "_" + evolution.getResult().replaceAll(" ", "_") + "\",\n" +
+                        "      \"id\": \"" + pokemon + "_" + evolution.getResult().replaceAll(" ", "_").replaceAll("\\W", "") + "\",\n" +
                         "      \"variant\": \"" + evolution.getKind().getName() + "\",\n" +
                         "      \"result\": \"" + evolution.getResult();
                 if (!evolution.getAspects().isEmpty()) {

@@ -151,9 +151,9 @@
   ],
   "evolutions": [
     {
-      "id": "shyleon_shyleon",
+      "id": "shyleon_shyleon_terrestrialfalse",
       "variant": "level_up",
-      "result": "shyleon",
+      "result": "shyleon terrestrial=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -386,9 +386,9 @@
   ],
   "evolutions": [
     {
-      "id": "shyleon_shyleon",
+      "id": "shyleon_shyleon_xenoversalfalse",
       "variant": "level_up",
-      "result": "shyleon",
+      "result": "shyleon xenoversal=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -622,9 +622,9 @@
   ],
   "evolutions": [
     {
-      "id": "shyleon_shyleon",
+      "id": "shyleon_shyleon_astralfalse",
       "variant": "level_up",
-      "result": "shyleon",
+      "result": "shyleon astral=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -32,13 +32,13 @@ public class SpeciesDataJSONWriter {
                 if (true) {
                     try {
                         pokemon.setEvolutions(new ArrayList<>());
-                        String aspect = " form=" + pokemon.getAdditionalAspect().getName();
+                        String aspect = " " + pokemon.getAdditionalAspect().getName();
                         pokemon.getEvolutions().add(new EvolutionEntry(Pokemon.getKeysByValue(Pokemon.ADDITIONAL_FORMS, pokemon).stream().toList().get(0) + aspect, EvolutionType.LEVEL_UP, List.of(), List.of()));
                         pokemon.setPokedexNumber(99999999);
                         pokemon.setLearnSet(new ArrayList<>());
                         pokemon.setDrops(new ArrayList<>());
                         pokemon.setStats(new Stats(1, 1, 1, 1, 1, 1));
-                        var dir = "C:\\Users\\Stijn\\Desktop\\transitionDataPack\\data\\gravelmon\\species\\";
+                        var dir = "C:\\Users\\Stijn\\Desktop\\transitionDataPack\\data\\cobblemon\\species\\";
                         writePokemon(pokemon, dir);
                     } catch (IOException e) {
                         throw new RuntimeException(e);

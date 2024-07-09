@@ -29,8 +29,9 @@
     "minecraft": ">=${minecraft_version}",
     "java": ">=17",
     "fabric-api": "*",
-    "cobblemon": ">=1.5.1",
+    "cobblemon": ">=1.5.2",
     "architectury": ">=9.1",
+    "packetfixer": ">=1.1",
     "gravels_extended_battles": ">=1.4"
   },
   "mixins": [

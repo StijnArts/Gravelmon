@@ -28,6 +28,12 @@ side="BOTH"
 #ordering="NONE"
 #side="BOTH"
 [[dependencies.gravelmon]]
+modId="packetfixer"
+mandatory=true
+versionRange="[1.1,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.gravelmon]]
 modId="gravels_extended_battles"
 mandatory=true
 versionRange="[1.4,)"

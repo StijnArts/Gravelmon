@@ -129,7 +129,6 @@
     "tutor:thunderpunch"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
     "fakemon",
     "fakemonevolution"
   ],
@@ -137,10 +136,10 @@
     "cobblemon.species.kungfur.desc"
   ],
   "preEvolution": "yemin",
-  "baseScale": 0.2333333333333333,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.3,
     "fixed": false
   },
   "baseFriendship": 70,

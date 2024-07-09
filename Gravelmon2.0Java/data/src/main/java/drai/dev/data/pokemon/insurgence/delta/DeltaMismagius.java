@@ -120,7 +120,7 @@ public class DeltaMismagius extends Pokemon {
         this.setCanFly(true);
         this.setPortraitXYZ(0,1.8,0);
         setBaseScale(1.0);
-        setHitbox(1.0, 1.0);
+        setHitbox(1.0, 2.0);
         setModeled(true);
     }
 }

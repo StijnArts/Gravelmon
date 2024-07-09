@@ -19,7 +19,7 @@ public class TrishoutTerrestrial extends Pokemon {
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("It has become more competitive thanks to the Red Energy. It goes wild during battle, releasing scorching flames from its horn."),
-                List.of(new EvolutionEntry("trishout", EvolutionType.LEVEL_UP, false, List.of(),
+                List.of(new EvolutionEntry("trishout terrestrial=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("trishoutxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""))),

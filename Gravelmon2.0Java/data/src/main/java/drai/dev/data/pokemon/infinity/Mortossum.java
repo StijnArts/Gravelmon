@@ -114,6 +114,6 @@ public class Mortossum extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         setModeled(true);
         setBaseScale(0.4);
-        setHitbox(0.4,0.4);
+        setHitbox(1,1);
     }
 }
