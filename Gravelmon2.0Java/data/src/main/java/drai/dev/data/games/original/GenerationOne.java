@@ -3,7 +3,6 @@ package drai.dev.data.games.original;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.aristos.regional.*;
 import drai.dev.data.pokemon.avoris.regional.*;
 import drai.dev.data.pokemon.azure.regional.*;
@@ -24,11 +23,11 @@ import drai.dev.data.pokemon.orohnhavai.regional.*;
 import drai.dev.data.pokemon.phoenixrising.regional.*;
 import drai.dev.data.pokemon.qamor.regional.*;
 import drai.dev.data.pokemon.radicalred.*;
-import drai.dev.data.pokemon.vanguard.regional.*;
+import drai.dev.data.pokemon.ayrei.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.data.pokemon.xenoverse.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class GenerationOne extends Game {

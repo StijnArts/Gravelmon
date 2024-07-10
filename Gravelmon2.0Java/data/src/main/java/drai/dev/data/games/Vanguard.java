@@ -1,8 +1,7 @@
 package drai.dev.data.games;
 
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.data.pokemon.vanguard.*;
+import drai.dev.data.pokemon.ayrei.*;
 
 public class Vanguard extends Game {
     public Vanguard() {

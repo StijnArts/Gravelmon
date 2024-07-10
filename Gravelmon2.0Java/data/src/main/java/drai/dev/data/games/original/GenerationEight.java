@@ -9,9 +9,8 @@ import drai.dev.data.pokemon.myth.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.radicalred.*;
-import drai.dev.data.pokemon.vanguard.regional.*;
+import drai.dev.data.pokemon.ayrei.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class GenerationEight extends Game {
     public GenerationEight() {

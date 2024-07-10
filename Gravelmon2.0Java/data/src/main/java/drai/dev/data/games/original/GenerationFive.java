@@ -19,10 +19,10 @@ import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
 import drai.dev.data.pokemon.qamor.regional.*;
 import drai.dev.data.pokemon.radicalred.*;
-import drai.dev.data.pokemon.vanguard.regional.*;
+import drai.dev.data.pokemon.ayrei.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+
 public class GenerationFive extends Game {
     public GenerationFive() {
         super("generation5");
