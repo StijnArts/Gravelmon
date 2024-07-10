@@ -15,7 +15,7 @@
       "level": "12-43",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_crimson" ]
+"biomes": [ "#cobblemon:is_crimson" ]
       }
     }
 ,

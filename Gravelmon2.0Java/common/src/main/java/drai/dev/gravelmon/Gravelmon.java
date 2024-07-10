@@ -20,12 +20,11 @@ public class Gravelmon
 	public static final Map<String, String> FOSSIL_MAP = new HashMap<>();
 	public static final Map<String, Supplier<Item>> FOSSIL_ITEM_MAP = new HashMap<>();
 
-	static {
-		GravelmonBlocks.touch();
-		GravelmonItems.touch();
-	}
+
 
 	public static void init() {
+		GravelmonBlocks.touch();
+		GravelmonItems.touch();
 		GravelmonBlocks.BLOCKS.register();
 		GravelmonItems.ITEMS.register();
 		CobblemonEvents.BATTLE_STARTED_PRE.subscribe(Priority.HIGH, battleStartedPreEvent -> {

@@ -17,7 +17,7 @@
       "condition": {
 "biomes": [ "#cobblemon:is_mountain",
 "#cobblemon:is_thermal",
-"#cobblemon:is_nether_basalt" ]
+"#cobblemon:is_basalt" ]
       }
     }
   ]

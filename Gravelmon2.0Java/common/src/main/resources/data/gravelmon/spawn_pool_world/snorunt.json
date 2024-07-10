@@ -15,9 +15,9 @@
       "level": "15-41",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_fungus",
-"#cobblemon:is_nether_mountain",
-"#cobblemon:is_nether_desert" ]
+"biomes": [ "#cobblemon:is_fungus",
+"#cobblemon:is_mountain",
+"#cobblemon:is_desert" ]
       }
     }
 ,

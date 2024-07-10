@@ -31,7 +31,7 @@
       "level": "29-56",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_soul_sand",
+"biomes": [ "#cobblemon:is_soul_sand",
 "#cobblemon:is_magical" ]
       }
     }

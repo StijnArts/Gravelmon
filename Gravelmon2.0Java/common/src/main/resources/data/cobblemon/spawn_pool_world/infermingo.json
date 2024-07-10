@@ -15,7 +15,7 @@
       "level": "35-54",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_forest",
+"biomes": [ "#cobblemon:is_forest",
 "#cobblemon:is_volvanic",
 "#cobblemon:is_thermal" ]
       }

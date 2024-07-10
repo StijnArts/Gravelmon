@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.forge;
 
 import com.cobblemon.mod.common.*;
+import com.cobblemon.mod.common.api.fossil.*;
 import com.cobblemon.mod.common.item.group.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
@@ -14,6 +15,8 @@ import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.fml.common.*;
 
 import java.util.function.*;
+
+import static drai.dev.gravelmon.Gravelmon.FOSSIL_ITEM_MAP;
 
 @Mod.EventBusSubscriber(modid = Gravelmon.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CreativeTabsInit {
@@ -326,11 +329,11 @@ public class CreativeTabsInit {
         if(event.getTab() == CobblemonItemGroups.getARCHAEOLOGY()) {
             Consumer<ItemStack> fossilConsumer = (fossil)-> event.getEntries().putAfter(CobblemonItems.FOSSILIZED_DINO.asItem().getDefaultInstance(), fossil,
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            Gravelmon.FOSSIL_ITEM_MAP.forEach((key, value) -> {
-                var fossil = GravelsExtendedBattles.FOSSIL_MAP.get(BuiltInRegistries.ITEM.getKey(value.get()));
+            Gravelmon.FOSSIL_MAP.forEach((key, value) -> {
+                var fossil = Fossils.INSTANCE.getByIdentifier(new ResourceLocation("cobblemon", value.split(" ")[0]));
                 if(fossil == null) return;
                 if(SpeciesManager.containsBannedLabels(fossil.getResult().getSpecies(), fossil.getResult().getForm())) return;
-                fossilConsumer.accept(value.get().getDefaultInstance());
+                fossilConsumer.accept(FOSSIL_ITEM_MAP.get(key).get().getDefaultInstance());
             });
         }
     }

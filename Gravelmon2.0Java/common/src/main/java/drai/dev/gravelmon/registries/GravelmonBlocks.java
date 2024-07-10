@@ -44,8 +44,9 @@ public class GravelmonBlocks {
     public static  RegistrySupplier<Block> evolutionStoneOre(String name){
         return BLOCKS.register(name, () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE), UniformInt.of(1, 2)));
     }
-    public static void touch(){
 
+    public static void touch(){
+        GravelmonFossilItems.touch();
     }
     public static  RegistrySupplier<Block> deepslateEvolutionStoneOre(String name){
         return BLOCKS.register(name, () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE), UniformInt.of(1, 2)));

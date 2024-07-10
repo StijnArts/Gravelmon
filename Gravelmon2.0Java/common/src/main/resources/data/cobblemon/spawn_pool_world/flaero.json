@@ -16,7 +16,7 @@
       "weight": 8.0,
       "condition": {
 "biomes": [ "#cobblemon:is_cave",
-"#cobblemon:is_nether_forest" ]
+"#cobblemon:is_forest" ]
       }
     }
   ]

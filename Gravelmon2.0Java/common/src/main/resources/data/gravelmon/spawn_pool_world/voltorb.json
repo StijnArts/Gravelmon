@@ -32,7 +32,7 @@
       "level": "12-22",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_basalt" ]
+"biomes": [ "#cobblemon:is_basalt" ]
       }
     }
 ,

@@ -16,7 +16,7 @@
       "weight": 0.3,
       "condition": {
 "biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_nether_wasteland" ]
+"#cobblemon:is_wasteland" ]
       }
     }
   ]

@@ -15,8 +15,8 @@
       "level": "55-65",
       "weight": 0.01,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_soul_sand",
-"#cobblemon:is_nether_soul_fire" ]
+"biomes": [ "#cobblemon:is_soul_sand",
+"#cobblemon:is_soul_fire" ]
       }
     }
   ]

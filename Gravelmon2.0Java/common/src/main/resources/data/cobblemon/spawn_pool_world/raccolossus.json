@@ -15,7 +15,7 @@
       "level": "43-67",
       "weight": 2.2,
       "condition": {
-"biomes": [ "#cobblemon:is_nether_wasteland" ],
+"biomes": [ "#cobblemon:is_wasteland" ],
         "canSeeSky": true
       },
       "anticondition": {

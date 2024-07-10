@@ -16,8 +16,8 @@
       "weight": 10.0,
       "condition": {
 "biomes": [ "#cobblemon:is_thermal",
-"#cobblemon:is_nether_basalt",
-"#cobblemon:is_nether_soul_sand" ],
+"#cobblemon:is_basalt",
+"#cobblemon:is_soul_sand" ],
         "canSeeSky": true
       }
     }

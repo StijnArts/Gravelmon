@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.fabric;
 
 import com.cobblemon.mod.common.*;
+import com.cobblemon.mod.common.api.fossil.*;
 import com.cobblemon.mod.common.item.group.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
@@ -11,6 +12,8 @@ import net.minecraft.resources.*;
 import net.minecraft.world.item.*;
 
 import java.util.function.*;
+
+import static drai.dev.gravelmon.Gravelmon.FOSSIL_ITEM_MAP;
 
 public class CreativeTabsInit {
     public static void initCreativeTabs(){
@@ -217,11 +220,11 @@ public class CreativeTabsInit {
 
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getARCHAEOLOGY_KEY()).register(entries -> {
             Consumer<ItemStack> fossilConsumer = (fossil)-> entries.addAfter(CobblemonItems.FOSSILIZED_DINO, fossil);
-            Gravelmon.FOSSIL_ITEM_MAP.forEach((key, value) -> {
-                var fossil = GravelsExtendedBattles.FOSSIL_MAP.get(BuiltInRegistries.ITEM.getKey(value.get()));
+            Gravelmon.FOSSIL_MAP.forEach((key, value) -> {
+                var fossil = Fossils.INSTANCE.getByIdentifier(new ResourceLocation("cobblemon", value.split(" ")[0]));
                 if(fossil == null) return;
                 if(SpeciesManager.containsBannedLabels(fossil.getResult().getSpecies(), fossil.getResult().getForm())) return;
-                fossilConsumer.accept(value.get().getDefaultInstance());
+                fossilConsumer.accept(FOSSIL_ITEM_MAP.get(key).get().getDefaultInstance());
             });
         });
     }

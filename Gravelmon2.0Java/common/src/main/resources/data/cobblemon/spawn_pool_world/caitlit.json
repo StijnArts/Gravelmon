@@ -16,7 +16,7 @@
       "weight": 3.0,
       "condition": {
 "biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_nether_crimson" ],
+"#cobblemon:is_crimson" ],
         "timeRange": "night"
       }
     }
