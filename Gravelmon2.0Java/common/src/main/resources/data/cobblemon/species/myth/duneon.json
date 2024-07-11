@@ -1,19 +1,17 @@
 {
   "implemented": true,
   "name": "duneon",
-  "nationalPokedexNumber": 4444,
+  "nationalPokedexNumber": 4447,
   "primaryType": "ground",
   "abilities": [
-    "airlock",
-    "h:drizzle"
-  ],
+    "keeneye"  ],
   "baseStats": {
-    "hp": 120,
-    "attack": 55,
-    "defence": 110,
-    "special_attack": 65,
-    "special_defence": 60,
-    "speed": 115
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "behaviour": {
     "resting": {
@@ -37,70 +35,25 @@
         }
     }
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
+  "catchRate": 0,
+  "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
   "eggGroups": [
-    "monster"
+    "field"
   ],
   "moves": [
-    "1:mudslap",
-    "1:growl",
-    "3:mudshot",
-    "3:quickattack",
-    "6:dig",
-    "9:helpinghand",
-    "12:wish",
-    "15:magnitude",
-    "18:quickattack",
-    "20:screech",
-    "21:muddywater",
-    "24:swordsdance",
-    "27:earthquake",
-    "29:toxic",
-    "32:sandattack",
-    "36:sandstorm",
-    "37:rocktomb",
-    "40:rockblast",
-    "42:protect",
-    "47:extremespeed",
-    "51:rockwrecker",
-    "57:seismictoss",
-    "61:recover",
-    "67:flashcannon",
-    "egg:charm",
-    "egg:flail",
-    "egg:endure",
-    "egg:curse",
-    "egg:tickle",
-    "egg:wish",
-    "egg:yawn",
-    "egg:faketears",
-    "egg:covet",
-    "egg:detect",
-    "egg:naturalgift",
-    "egg:storedpower",
-    "egg:synchronoise",
-    "egg:captivate",
-    "egg:doublekick",
-    "egg:mudslap",
-    "egg:dragonpulse",
-    "egg:waterpulse",
-    "egg:icywind",
-    "egg:magicalleaf",
-    "egg:dragonclaw",
-    "egg:skullbash"  ],
+  ],
   "labels": [
-    "myth",
+    "ottora",
     "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.duneon.desc"
   ],
-  "baseScale": 0.16666666666666666,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -108,15 +61,15 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 2,
+    "hp": 0,
     "attack": 0,
     "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
-  "height": 10,
-  "weight": 169,
+  "height": 0,
+  "weight": 0,
   "aspects": [],
 "features": [
 

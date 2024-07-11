@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.aristos.regional.*;
@@ -34,6 +35,9 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new LagoonanRemoraid("", Aspect.LAGOONAN)); TODO
+//        pokemon.add(new LagoonanOctillery("", Aspect.LAGOONAN));
+
 //        pokemon.add(new IonosianBayleef(153));   Missing Stats
 //        pokemon.add(new IonosianMeganium(154));   Missing Stats
 //        pokemon.add(new IonosianCyndaquil(155));   Missing Art

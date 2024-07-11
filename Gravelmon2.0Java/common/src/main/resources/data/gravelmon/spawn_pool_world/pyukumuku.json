@@ -4,13 +4,29 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "novranpyukumuku-1",
+      "pokemon": "pyukumuku novran",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "20-37",
+      "weight": 3.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_frozen" ]
+      }
+    }
+,
+    {
       "id": "pyukumukux-1",
       "pokemon": "pyukumuku x",
       "presets": [
           "natural"
       ],
       "type": "pokemon",
-      "context": "submerged",
+      "context": "seafloor",
       "bucket": "uncommon",
       "level": "20-37",
       "weight": 3.1,

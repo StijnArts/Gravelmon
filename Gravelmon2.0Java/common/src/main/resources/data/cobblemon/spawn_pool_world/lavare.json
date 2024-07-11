@@ -7,15 +7,17 @@
       "id": "lavare-1",
       "pokemon": "lavare",
       "presets": [
-          "near_lava"
+          "natural"
       ],
       "type": "pokemon",
-      "context": "surface",
-      "bucket": "uncommon",
-      "level": "25-43",
-      "weight": 1.0,
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ]
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
       }
     }
   ]

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slowris",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_slowris",
+      "texture": "cobblemon:textures/pokemon/okeno/slowris.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/slowris_shiny.png"
+    }
+  ]
+}

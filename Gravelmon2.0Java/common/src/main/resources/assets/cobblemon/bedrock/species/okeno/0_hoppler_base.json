@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hoppler",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_hoppler",
+      "texture": "cobblemon:textures/pokemon/okeno/hoppler.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/hoppler_shiny.png"
+    }
+  ]
+}

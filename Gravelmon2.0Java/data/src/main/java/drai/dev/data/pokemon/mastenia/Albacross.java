@@ -1,13 +1,11 @@
 package drai.dev.data.pokemon.mastenia;
 
-
 import drai.dev.data.pokemon.amavi.*;
 import drai.dev.data.pokemon.dhiome.*;
 import drai.dev.data.pokemon.mushi.*;
 import drai.dev.data.pokemon.theos.*;
 import drai.dev.data.pokemon.kuria.*;
 import drai.dev.data.pokemon.ottora.*;
-import drai.dev.data.pokemon.spion.*;
 import drai.dev.data.pokemon.mastenia.*;
 import drai.dev.data.pokemon.mongratis.*;
 import drai.dev.data.pokemon.ultraspace.*;

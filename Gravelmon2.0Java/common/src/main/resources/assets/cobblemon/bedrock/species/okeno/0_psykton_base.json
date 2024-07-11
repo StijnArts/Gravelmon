@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:psykton",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:okeno_psykton",
+      "texture": "cobblemon:textures/pokemon/okeno/psykton.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/psykton_shiny.png"
+    }
+  ]
+}

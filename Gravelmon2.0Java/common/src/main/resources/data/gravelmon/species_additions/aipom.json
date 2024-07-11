@@ -508,7 +508,7 @@
       "requirements": [
         {
           "variant": "has_move",
-          "move": "tripleaxel"
+          "move": "TRIPLE_AXEL"
         }
       ],
       "permanent": true   

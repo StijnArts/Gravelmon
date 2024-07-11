@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hornaval",
-  "nationalPokedexNumber": 2799,
+  "nationalPokedexNumber": 2797,
   "primaryType": "ice",
   "secondaryType": "water",
   "abilities": [
@@ -75,7 +75,7 @@
   "pokedex": [
     "cobblemon.species.hornaval.desc"
   ],
-  "preEvolution": "narpoon",
+  "preEvolution": "narspike",
   "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,

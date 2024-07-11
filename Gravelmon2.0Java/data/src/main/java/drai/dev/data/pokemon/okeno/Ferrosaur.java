@@ -1,22 +1,22 @@
 package drai.dev.data.pokemon.okeno;
 
+
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-
 public class Ferrosaur extends drai.dev.data.pokemon.Pokemon {
     public Ferrosaur() {
-        super("Ferrosaur",
-                Type.STEEL, Type.DRAGON,
-                new Stats(50,
-                        115,
+        super("TEYOU",
+                Type.DRAGON,Type.STEEL,
+                new Stats(55,
+                        116,
                         95,
                         66,
                         66,
-                        95),
-                List.of(Ability.IRON_BARBS,Ability.TOUGH_CLAWS,Ability.SAND_RUSH), Ability.SAND_RUSH,
-                8, 165,
+                        90),
+                List.of(Ability.IRON_BARBS,Ability.TOUGH_CLAWS), Ability.SAND_RUSH,
+                16, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -34,7 +34,7 @@ public class Ferrosaur extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ferrosaur");
+           setLangFileName("TEYOU");
 
     }
 

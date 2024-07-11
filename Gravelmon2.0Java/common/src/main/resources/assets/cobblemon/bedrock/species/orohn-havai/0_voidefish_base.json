@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:voidefish",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:orohn-havai_voidefish",
+      "texture": "cobblemon:textures/pokemon/orohn-havai/voidefish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/orohn-havai/voidefish_shiny.png"
+    }
+  ]
+}

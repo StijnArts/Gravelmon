@@ -271,7 +271,7 @@
       "requirements": [
         {
           "variant": "has_move",
-          "move": "psychicterrain"
+          "move": "PSYCHIC_TERRAIN"
         }
       ],
       "permanent": true   

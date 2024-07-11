@@ -99,17 +99,7 @@
         "percentage": 10
       },
       {
-        "item": "cobblemon:black_sludge",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
         "item": "gravelmon:air_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:solid_stone",
         "quantityRange": "1-1",
         "percentage": 10
       },
@@ -524,18 +514,6 @@
       "permanent": true   
  },
     {
-      "id": "eevee_toxeon",
-      "variant": "item_interact",
-      "result": "toxeon",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:black_sludge",
-      "permanent": true   
- },
-    {
       "id": "eevee_spectreon",
       "variant": "level_up",
       "result": "spectreon",
@@ -563,32 +541,6 @@
 
       ],
       "requiredContext": "gravelmon:air_stone",
-      "permanent": true   
- },
-    {
-      "id": "eevee_duneon",
-      "variant": "level_up",
-      "result": "duneon",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_sandy"
-        }
-      ],
-      "permanent": true   
- },
-    {
-      "id": "eevee_titaneon",
-      "variant": "item_interact",
-      "result": "titaneon",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "gravelmon:solid_stone",
       "permanent": true   
  },
     {

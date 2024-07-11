@@ -1,6 +1,7 @@
 package drai.dev.data.games;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.fliga.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.flux.regional.*;
@@ -80,6 +81,7 @@ public class Uranium extends Game {
         pokemon.add(new S51());
         pokemon.add(new S51A());
         pokemon.add(new Paraudio());
+        pokemon.add(new FligianParaudio("", Aspect.FLIGIAN));
         pokemon.add(new Paraboom());
         pokemon.add(new Chimical());
         pokemon.add(new Chimaconda());

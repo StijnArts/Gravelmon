@@ -2,6 +2,7 @@ package drai.dev.data.games.pokemmo.secondbatch;
 
 
 import drai.dev.data.pokemon.otopo.*;
+
 public class Otopo extends drai.dev.data.games.registry.Game {
     public Otopo() {
         super("Otopo");
@@ -51,6 +52,7 @@ public class Otopo extends drai.dev.data.games.registry.Game {
         pokemon.add(new Coasteron());
         pokemon.add(new Arveeny());
 //        pokemon.add(new Lemighty());   Missing Stats
+//        pokemon.add(new Quink()); TODO
         pokemon.add(new Tadacid());
         pokemon.add(new Rancroak());
         pokemon.add(new Gamutrid());
@@ -101,8 +103,8 @@ public class Otopo extends drai.dev.data.games.registry.Game {
         pokemon.add(new Feranther());
         pokemon.add(new Orialith());
         pokemon.add(new Tripulcre());
-//        pokemon.add(new Chirovolt());   Missing Stats
-//        pokemon.add(new Pteronize());   Missing Stats
+//        pokemon.add(new Flittervolt());   Missing Stats
+//        pokemon.add(new Bakkabolt());   Missing Stats
 //        pokemon.add(new Dragite());   Missing Stats
 //        pokemon.add(new Crushaur());   Missing Stats
 //        pokemon.add(new Tiamond());   Missing Stats
@@ -138,7 +140,7 @@ public class Otopo extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Ankyolith());   Missing Stats
 //        pokemon.add(new Therospine());   Missing Stats
 //        pokemon.add(new Theroroar());   Missing Stats
-//        pokemon.add(new Cassorapt());   Missing Stats
+//        pokemon.add(new Rapraider());   Missing Stats
 //        pokemon.add(new Flammtern());   Missing Stats
 //        pokemon.add(new Yokorch());   Missing Stats
 //        pokemon.add(new Rockid());   Missing Stats
@@ -185,6 +187,7 @@ public class Otopo extends drai.dev.data.games.registry.Game {
         pokemon.add(new Vegebun());
         pokemon.add(new Grinyan());
 //        pokemon.add(new Talpastar());   Missing Stats
+//        pokemon.add(new Cassoworry());   Missing Stats
 //        pokemon.add(new Flysh());   Missing Stats
 //        pokemon.add(new Skoi());   Missing Stats
 //        pokemon.add(new Magnymph());   Missing Stats

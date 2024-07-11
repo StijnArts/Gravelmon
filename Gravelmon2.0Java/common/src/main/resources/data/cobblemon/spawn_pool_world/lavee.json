@@ -7,15 +7,17 @@
       "id": "lavee-1",
       "pokemon": "lavee",
       "presets": [
-          "near_lava"
+          "natural"
       ],
       "type": "pokemon",
-      "context": "surface",
-      "bucket": "uncommon",
+      "context": "grounded",
+      "bucket": "common",
       "level": "3-22",
-      "weight": 4.0,
+      "weight": 3.8,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ]
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
       }
     }
   ]

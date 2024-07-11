@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lavarator",
-  "nationalPokedexNumber": 4438,
+  "nationalPokedexNumber": 4441,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -68,14 +68,11 @@
     "69:meteormash"  ],
   "labels": [
     "myth",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.lavarator.desc"
   ],
-  "preEvolution": "lavare",
   "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,

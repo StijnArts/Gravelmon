@@ -11,15 +11,14 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "35-61",
-      "weight": 2.3,
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ],
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
         "canSeeSky": true
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_beach" ]    }
+      }
     }
   ]
 }

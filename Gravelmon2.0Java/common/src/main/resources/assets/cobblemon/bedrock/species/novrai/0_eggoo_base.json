@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:eggoo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:novrai_eggoo",
+      "texture": "cobblemon:textures/pokemon/novrai/eggoo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/eggoo_shiny.png"
+    }
+  ]
+}

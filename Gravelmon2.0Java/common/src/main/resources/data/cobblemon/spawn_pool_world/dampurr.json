@@ -13,13 +13,12 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.0,
+      "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_coast" ],
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
         "canSeeSky": true
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_beach" ]    }
+      }
     }
   ]
 }

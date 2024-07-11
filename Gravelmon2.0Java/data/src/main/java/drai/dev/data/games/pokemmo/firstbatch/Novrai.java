@@ -1,6 +1,8 @@
 package drai.dev.data.games.pokemmo.firstbatch;
 
 import drai.dev.data.pokemon.novrai.*;
+import drai.dev.data.pokemon.novrai.Scuddle;
+import drai.dev.data.pokemon.novrai.Eggoo;
 
 public class Novrai extends drai.dev.data.games.registry.Game {
     public Novrai() {
@@ -44,7 +46,7 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         pokemon.add(new Soarup());
         pokemon.add(new Vileech());
         pokemon.add(new Encreech());
-        pokemon.add(new Yolkoo());
+        pokemon.add(new Eggoo());
         pokemon.add(new Cantankoo());
         pokemon.add(new Whispore());
         pokemon.add(new Mysoleum());

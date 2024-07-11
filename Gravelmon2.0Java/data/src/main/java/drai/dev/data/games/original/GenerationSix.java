@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
@@ -23,6 +24,12 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
+//       pokemon.add(new OttoranHonedge("", Aspect.OTTORAN)); TODO
+//       pokemon.add(new OttoranDoublade("", Aspect.OTTORAN));
+
+//        pokemon.add(new LagoonanBinacle("", Aspect.LAGOONAN)); TODO
+//        pokemon.add(new LagoonanBarbaracle("", Aspect.LAGOONAN));
+
 //        pokemon.add(new IonosianInkay(686));   Missing Art
 
         pokemon.add(new NovranSkrelp("Skrelp", Aspect.NOVRAN));

@@ -15,7 +15,7 @@
       "level": "5-21",
       "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
+"biomes": [ "#cobblemon:is_temperate" ],
         "canSeeSky": true
       }
     }

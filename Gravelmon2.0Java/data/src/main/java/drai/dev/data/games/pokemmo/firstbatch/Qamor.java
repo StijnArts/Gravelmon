@@ -1,7 +1,6 @@
 package drai.dev.data.games.pokemmo.firstbatch;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.qamor.*;
 
 import java.util.*;
@@ -13,6 +12,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new Albat());
         pokemon.add(new Albat());
         pokemon.add(new Gremleaf());
         pokemon.add(new Tropifox());
@@ -85,9 +85,12 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Grimandrill());
         pokemon.add(new Pappybara());
         pokemon.add(new Popondot());
+//        pokemon.add(new Refereef()); todo
+//        pokemon.add(new Semiphrawn());
+//        pokemon.add(new Crabanner());
         pokemon.add(new Snipspawn());
         pokemon.add(new Bogbile());
-        pokemon.add(new Chamot());
+        pokemon.add(new Tottapotta());
         pokemon.add(new Terradobe());
         pokemon.add(new Magmead());
         pokemon.add(new Nectarmite());
@@ -96,6 +99,9 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Dashkite());
         pokemon.add(new Zipstream());
         pokemon.add(new Cassowatt());
+//        pokemon.add(new Spooksew()); todo
+//        pokemon.add(new Effigeam());
+//        pokemon.add(new Hollowhusk());
         pokemon.add(new Planchelt());
         pokemon.add(new Effigeam());
         pokemon.add(new Hollowhusk());
@@ -106,7 +112,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Joulereign());
         pokemon.add(new Chkachuru());
         pokemon.add(new Parumpum());
-        pokemon.add(new Dokuduru());
+        pokemon.add(new Dokudurru());
         pokemon.add(new Cragato());
         pokemon.add(new Resistreak());
         pokemon.add(new Chiticonch());
@@ -116,6 +122,7 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         pokemon.add(new Blubuoy());
         pokemon.add(new Albacross());
         pokemon.add(new Curbludgeon());
+//        pokemon.add(new Grumpork()); todo
         pokemon.add(new Glamglob());
         pokemon.add(new Lilpaca());
         pokemon.add(new Pacalpine());

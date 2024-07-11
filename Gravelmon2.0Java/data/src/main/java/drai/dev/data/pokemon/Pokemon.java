@@ -7,6 +7,7 @@ import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 
 import java.util.*;
@@ -773,7 +774,7 @@ public class Pokemon {
     }
 
     public void setLangFileName(String langFileName) {
-        this.langFileName = langFileName;
+        this.langFileName = StringUtils.capitalize(langFileName);
     }
 
     public String getLangFileName() {

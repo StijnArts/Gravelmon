@@ -115,7 +115,7 @@ public class Paraudio extends Pokemon {
                 List.of(Label.URANIUM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 21, 4.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),

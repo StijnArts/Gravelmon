@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.avoris.regional.*;
 import drai.dev.data.pokemon.azure.regional.*;
@@ -30,6 +31,10 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new LagoonanLitwick("", Aspect.LAGOONAN)); TODO
+//        pokemon.add(new LagoonanLampent("", Aspect.LAGOONAN));
+//        pokemon.add(new LagoonanChandelure("", Aspect.LAGOONAN));
+
 //        pokemon.add(new IonosianKarrablast(588));   Missing Art
 //        pokemon.add(new IonosianDruddigon(621));   Missing Stats
 

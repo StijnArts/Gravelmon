@@ -1,21 +1,17 @@
 {
   "implemented": true,
   "name": "delugar",
-  "nationalPokedexNumber": 4413,
+  "nationalPokedexNumber": 4416,
   "primaryType": "water",
-  "secondaryType": "rock",
   "abilities": [
-    "furcoat",
-    "raindish",
-    "h:berserk"
-  ],
+    "keeneye"  ],
   "baseStats": {
-    "hp": 100,
-    "attack": 75,
-    "defence": 105,
-    "special_attack": 95,
-    "special_defence": 125,
-    "speed": 80
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "behaviour": {
     "resting": {
@@ -42,41 +38,16 @@
   "catchRate": 45,
   "maleRatio": 0.875,
   "shoulderMountable": false,
-  "baseExperienceYield": 264,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
   "eggGroups": [
-    "monster"
+    "field"
   ],
   "moves": [
-    "1:bubble",
-    "1:tackle",
-    "7:watergun",
-    "10:helpinghand",
-    "13:rockthrow",
-    "14:furyswipes",
-    "16:smokescreen",
-    "20:stealthrock",
-    "21:screech",
-    "25:poisongas",
-    "27:waterpulse",
-    "32:aquaring",
-    "34:rockslide",
-    "35:scald",
-    "40:extremespeed",
-    "44:powergem",
-    "50:hydropump",
-    "55:stoneedge",
-    "63:steameruption",
-    "egg:skullbash",
-    "egg:crunch",
-    "egg:stoneedge",
-    "egg:dragonclaw",
-    "egg:ancientpower",
-    "egg:brine",
-    "egg:liquidation"  ],
+  ],
   "labels": [
-    "myth",
+    "mongratis",
     "not_modeled",
     "fakemon",
     "fakemonevolution"
@@ -85,7 +56,7 @@
     "cobblemon.species.delugar.desc"
   ],
   "preEvolution": "soakcuff",
-  "baseScale": 0.2833333333333333,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -95,13 +66,13 @@
   "evYield": {
     "hp": 0,
     "attack": 0,
-    "defence": 3,
+    "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
-  "height": 17,
-  "weight": 69,
+  "height": 15,
+  "weight": 540,
   "aspects": [],
 "features": [
 

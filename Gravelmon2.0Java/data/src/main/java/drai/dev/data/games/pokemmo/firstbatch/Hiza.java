@@ -1,6 +1,8 @@
 package drai.dev.data.games.pokemmo.firstbatch;
 
 import drai.dev.data.pokemon.hiza.*;
+import drai.dev.data.pokemon.hiza.Narspike;
+import drai.dev.data.pokemon.hiza.Scorchion;
 
 public class Hiza extends drai.dev.data.games.registry.Game {
     public Hiza() {        super("Hiza");}
@@ -202,7 +204,7 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         pokemon.add(new Pupsicle());
         pokemon.add(new Frozeal());
         pokemon.add(new Hauntberg());
-        pokemon.add(new Narpoon());
+        pokemon.add(new Narspike()); //renamed from narpoon
         pokemon.add(new Hornaval());
         pokemon.add(new Armust());
         pokemon.add(new Crustitan());

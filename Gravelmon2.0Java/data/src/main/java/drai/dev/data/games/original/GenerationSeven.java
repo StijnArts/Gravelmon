@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.azure.regional.*;
@@ -23,6 +24,8 @@ public class GenerationSeven extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new NovranPyukumuku("", Aspect.NOVRAN));
+
         pokemon.add(new QamoranSandygast("", Aspect.QAMORAN));
 
         pokemon.add(new NostanMorelull("", Aspect.NOSTAN));

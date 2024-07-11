@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caballgon",
-  "nationalPokedexNumber": 4623,
+  "nationalPokedexNumber": 4626,
   "primaryType": "dragon",
   "abilities": [
     "keeneye",
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.caballgon.desc"
   ],
-  "preEvolution": "maligon",
+  "preEvolution": "deevigon",
   "baseScale": 0.3833333333333333,
   "hitbox": {
     "width": 6.0,

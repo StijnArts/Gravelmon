@@ -1,7 +1,7 @@
 package drai.dev.data.games.pokemmo.firstbatch;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.pokemon.orohnhavai.Voidefish;
 import drai.dev.data.pokemon.atlas.Akrovern;
 import drai.dev.data.pokemon.atlas.Albivore;
 import drai.dev.data.pokemon.atlas.Carosella;
@@ -166,7 +166,7 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Empressea()); Missing Art
         pokemon.add(new Sharfin());
         pokemon.add(new Thrashark());
-        pokemon.add(new Abyssoul());
+        pokemon.add(new Voidefish());
         pokemon.add(new Voidevour());
 //        pokemon.add(new Gargobble()); Missing Art
 //        pokemon.add(new Garglizer()); Member of line not finished

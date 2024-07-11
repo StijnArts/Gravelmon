@@ -2,6 +2,7 @@ package drai.dev.data.games.pokemmo.secondbatch;
 
 
 import drai.dev.data.pokemon.lagoone.*;
+import drai.dev.data.pokemon.lagoone.regional.*;
 
 public class Lagoone extends drai.dev.data.games.registry.Game {
     public Lagoone() {
@@ -30,7 +31,7 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         pokemon.add(new Palmfiend());
         pokemon.add(new Golmol());
         pokemon.add(new Phanchasm());
-        pokemon.add(new Anepunch()); //Renamed from anenemy
+        pokemon.add(new Venemony()); //Renamed from anenemy
         pokemon.add(new Anemace());
         pokemon.add(new Anedusa());
         pokemon.add(new Dynamight());
@@ -69,9 +70,34 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         pokemon.add(new Raizinger());
         pokemon.add(new Sandime());
         pokemon.add(new Starena());
-        pokemon.add(new Gloomineon());
-        pokemon.add(new Boulblin());
-        pokemon.add(new Colossalgae());
+        //TODO
+//        pokemon.add(new Gloomineon());
+//        pokemon.add(new Boulblin());
+//        pokemon.add(new Colossalgae());
+//        pokemon.add(new Plumeron());
+//        pokemon.add(new Kickalon());
+//        pokemon.add(new Wandream());
+//        pokemon.add(new Crocrux());
+//        pokemon.add(new Caimarune());
+//        pokemon.add(new Barbeetle());
+//        pokemon.add(new Grapearl());
+//        pokemon.add(new Jamowar());
+//        pokemon.add(new Perchback());
+//        pokemon.add(new Skyviator());
+//        pokemon.add(new Crawlycan());
+//        pokemon.add(new Webbewulf());
+//        pokemon.add(new Edeereal());
+//        pokemon.add(new Crystalker());
+//        pokemon.add(new Tyfang());
+//        pokemon.add(new Furycane());
+//        pokemon.add(new Mantilist());
+//        pokemon.add(new Pummelot());
+//        pokemon.add(new Festivowl());
+//        pokemon.add(new Gobblelisk());
+//        pokemon.add(new Drasalys());
+//        pokemon.add(new Dralytra());
+//        pokemon.add(new Corabdis());
+
     }
 
 }

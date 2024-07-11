@@ -131,7 +131,7 @@
   "pokedex": [
     "cobblemon.species.cantankoo.desc"
   ],
-  "preEvolution": "yolkoo",
+  "preEvolution": "eggoo",
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,

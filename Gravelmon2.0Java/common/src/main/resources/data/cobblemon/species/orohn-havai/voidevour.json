@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voidevour",
-  "nationalPokedexNumber": 3035,
+  "nationalPokedexNumber": 3033,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.voidevour.desc"
   ],
-  "preEvolution": "abyssoul",
+  "preEvolution": "voidefish",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,

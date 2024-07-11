@@ -9,12 +9,12 @@
     "h:swiftswim"
   ],
   "baseStats": {
-    "hp": 50,
-    "attack": 77,
-    "defence": 53,
-    "special_attack": 27,
-    "special_defence": 53,
-    "speed": 91
+    "hp": 45,
+    "attack": 69,
+    "defence": 47,
+    "special_attack": 23,
+    "special_defence": 47,
+    "speed": 81
   },
   "behaviour": {
     "resting": {
@@ -64,6 +64,20 @@
   ],
   "pokedex": [
     "cobblemon.species.hungrebe.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "hungrebe_lungrebe",
+      "variant": "item_interact",
+      "result": "lungrebe",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dragon_scale",
+      "permanent": true   
+ }
   ],
   "baseScale": 0.2333333333333333,
   "hitbox": {

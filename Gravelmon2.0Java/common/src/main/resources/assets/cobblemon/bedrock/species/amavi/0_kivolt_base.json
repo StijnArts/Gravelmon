@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kivolt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:amavi_kivolt",
+      "texture": "cobblemon:textures/pokemon/amavi/kivolt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/amavi/kivolt_shiny.png"
+    }
+  ]
+}

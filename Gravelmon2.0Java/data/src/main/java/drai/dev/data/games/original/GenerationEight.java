@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.hiza.regional.*;
@@ -19,6 +20,12 @@ public class GenerationEight extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new OttoranImpidimp("", Aspect.OTTORAN)); MEMBER OF LINE NOT FINISHED
+
+//        pokemon.add(new LagoonanHattena("", Aspect.LAGOONAN)); TODO
+//        pokemon.add(new LagoonanHattrem("", Aspect.LAGOONAN));
+//        pokemon.add(new LagoonanHatterene("", Aspect.LAGOONAN));
+
         pokemon.add(new NovranWooloo("", Aspect.NOVRAN));
         pokemon.add(new NovranDubwool("", Aspect.NOVRAN));
         pokemon.add(new NovranClobbopus("", Aspect.NOVRAN));

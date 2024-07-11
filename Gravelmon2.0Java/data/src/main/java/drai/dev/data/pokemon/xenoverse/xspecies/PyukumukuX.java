@@ -80,7 +80,7 @@ public class PyukumukuX extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE, Label.GEN7),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 20, 37, 3.1, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 20, 37, 3.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END, Biome.IS_DEEP_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
@@ -89,7 +89,6 @@ public class PyukumukuX extends Pokemon {
         this.setLangFileName("Pyukumuku");
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setCanBreathUnderwater(true);
-        this.setCanSwim(true);
         this.setModeled(true);
         this.setBaseScale(0.8);
     }

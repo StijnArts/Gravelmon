@@ -2,6 +2,8 @@ package drai.dev.data.games.pokemmo.secondbatch;
 
 
 import drai.dev.data.pokemon.mystis.*;
+import drai.dev.data.pokemon.mystis.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Mystis extends drai.dev.data.games.registry.Game {
     public Mystis() {
@@ -10,6 +12,11 @@ public class Mystis extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new MystisianImpidimp("", Aspect.MYSTISIAN));
+        pokemon.add(new MystisianMorgrem("", Aspect.MYSTISIAN));
+        pokemon.add(new MystisianGrimmsnarl("", Aspect.MYSTISIAN));
+        pokemon.add(new MystisianAbsol("", Aspect.MYSTISIAN));
+
         pokemon.add(new Munchmite());
         pokemon.add(new Larbor());
         pokemon.add(new Anbrosia());
@@ -54,21 +61,11 @@ public class Mystis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Contamaggot());
         pokemon.add(new Hazardip());
         pokemon.add(new Apolalgae());
-//        pokemon.add(new Impidimp(859));
-//        pokemon.add(new Morgrem(860));
-//        pokemon.add(new Grimmsnarl(861));
         pokemon.add(new Shroomlet());
         pokemon.add(new Moreaper());
-//        pokemon.add(new Grimer(88));
-//        pokemon.add(new Muk(89));
         pokemon.add(new Radarola());
         pokemon.add(new Astore());
         pokemon.add(new Astrolith());
-//        pokemon.add(new Absol(359));
-//        pokemon.add(new Tyrogue(236));
-//        pokemon.add(new Hitmonlee(106));
-//        pokemon.add(new Hitmonchan(107));
-//        pokemon.add(new Hitmontop(237));
         pokemon.add(new Hitmonbash());
         pokemon.add(new Mugpie());
         pokemon.add(new Hederat());
