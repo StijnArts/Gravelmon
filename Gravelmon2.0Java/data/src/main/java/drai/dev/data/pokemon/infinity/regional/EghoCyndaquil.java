@@ -106,7 +106,7 @@ public class EghoCyndaquil extends Pokemon {
                 List.of(Label.GEN2,Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:gunpowder",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_HILLS, Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

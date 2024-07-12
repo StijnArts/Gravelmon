@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.avoris.regional.*;
@@ -31,6 +32,10 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new AfricanusanGothita("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanGothorita("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanGothitelle("", Aspect.AFRICANUS));
+
 //        pokemon.add(new LagoonanLitwick("", Aspect.LAGOONAN)); TODO
 //        pokemon.add(new LagoonanLampent("", Aspect.LAGOONAN));
 //        pokemon.add(new LagoonanChandelure("", Aspect.LAGOONAN));

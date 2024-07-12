@@ -47,6 +47,14 @@ public class GravelmonStarters {
                                 "Mudkip mystic=true level=10"
                         )
                 ));
+        GravelmonStarterManager.registerNewStarter("Kalos",
+                createCategory("Vesitas",
+                        List.of(
+                                "Chespin vesitan=true level=10",
+                                "Fennekin vesitan=true level=10",
+                                "Froakie vesitan=true level=10"
+                        )
+                ));
         GravelmonStarterManager.registerNewStarter(null,
                 createCategory("Urobos",
                         List.of(

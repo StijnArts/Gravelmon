@@ -73,7 +73,8 @@ public class AfricanusanPhanpy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Las enormes orejas que tiene Phanpy le sirven para abanicarse. Cuando tiene calor, las usa para refrescarse. Ya desde pequeño es entrenado para que tenga mucha fuerza y la use en beneficio del ejército cartaginés."),
-                List.of(),
+                List.of(new EvolutionEntry("donphan africanusan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,1),
                         new MoveLearnSetEntry(Move.DRILL_RUN,28),
@@ -102,7 +103,7 @@ public class AfricanusanPhanpy extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.AFRICANUS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

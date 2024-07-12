@@ -73,7 +73,8 @@ public class AfricanusanDoublade extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Al adquirir almas de guerreros más poderosos, se divide en dos espadas. Se comunican entre sí mediante telepatía y coordinan los ataques para rebanar al enemigo."),
-                List.of(),
+                List.of(new EvolutionEntry("aegislash africanusan", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,1),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,26),
@@ -92,8 +93,8 @@ public class AfricanusanDoublade extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,20)                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 47, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA, Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -73,7 +73,8 @@ public class AfricanusanHonedge extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Las espadas forjadas en tierra Hispana eran usadas por soldados, y una vez estos morían, si habían luchado con valor, se reencarnaban en estos pokémon."),
-                List.of(),
+                List.of(new EvolutionEntry("doublade africanusan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,1),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,26),
@@ -93,8 +94,8 @@ public class AfricanusanHonedge extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"egg")                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 32, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA, Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

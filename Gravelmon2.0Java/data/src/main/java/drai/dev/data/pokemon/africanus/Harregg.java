@@ -73,7 +73,8 @@ public class Harregg extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Este pokémon es un pequeño ave imperial que no ha llegado aún de salir del cascarón,aunque parezca adorable hay que tener mucho cuidado con él,podría calcinarte en cuestión de segundos. Necesita el calor para vivir y su huevo está a más de 300 Cº,no sobreviviría fuera de él en esta fase. Siempre ha sido un símbolo de Roma y estos adoran la línea evolutiva de este pokémon."),
-                List.of(),
+                List.of(new EvolutionEntry("igneagle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -95,8 +96,8 @@ public class Harregg extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OUTRAGE,"egg")                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

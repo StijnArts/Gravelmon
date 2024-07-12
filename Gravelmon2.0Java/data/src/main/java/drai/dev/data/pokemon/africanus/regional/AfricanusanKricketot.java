@@ -73,7 +73,8 @@ public class AfricanusanKricketot extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Los pueblos galos usaron a los Kricketot cómo instrumento durante generaciones, adaptándose estos a sus bárbaras costumbres."),
-                List.of(),
+                List.of(new EvolutionEntry("kricketune africanusan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,16),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -81,8 +82,8 @@ public class AfricanusanKricketot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LOW_KICK,6)                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

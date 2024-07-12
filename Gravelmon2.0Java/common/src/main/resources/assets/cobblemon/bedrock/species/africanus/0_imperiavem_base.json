@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:imperiavem",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:africanus_imperiavem",
+      "texture": "cobblemon:textures/pokemon/africanus/imperiavem.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/africanus/imperiavem_shiny.png"
+    }
+  ]
+}

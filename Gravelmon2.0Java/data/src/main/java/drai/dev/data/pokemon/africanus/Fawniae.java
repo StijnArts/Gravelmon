@@ -53,6 +53,7 @@ import drai.dev.data.pokemon.norheim.*;
 import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelsextendedbattles.*;
 
 import java.util.*;
 public class Fawniae extends drai.dev.data.pokemon.Pokemon {
@@ -101,14 +102,17 @@ public class Fawniae extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DETECT,1)                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 46, 58, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fawniae");
+        this.setPreEvolution("gogoat");
+        addAdditionalEvolution("gogoat", new EvolutionEntry("fawniae", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:ocarina"));
 
     }
 

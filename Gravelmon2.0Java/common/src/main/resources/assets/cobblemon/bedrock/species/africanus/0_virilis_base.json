@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:virilis",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:africanus_virilis",
+      "texture": "cobblemon:textures/pokemon/africanus/virilis.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/africanus/virilis_shiny.png"
+    }
+  ]
+}

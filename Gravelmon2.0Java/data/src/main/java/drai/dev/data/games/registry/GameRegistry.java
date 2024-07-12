@@ -4,6 +4,7 @@ import drai.dev.data.*;
 import drai.dev.data.games.*;
 import drai.dev.data.games.original.*;
 import drai.dev.data.games.pokemmo.firstbatch.*;
+import drai.dev.data.games.pokemmo.pbs.*;
 import drai.dev.data.games.pokemmo.secondbatch.*;
 
 import java.util.*;
@@ -36,9 +37,10 @@ public class GameRegistry {
         games.add(new Insurgence());
         games.add(new Enriko());
         games.add(new Xenoverse());
-        games.add(new Avoris());//TODO restore the old species files
+        games.add(new Avoris());
         games.add(new Oceane());
         games.add(new Varitas());
+        games.add(new Africanus());
         games.add(new Aristos());
         games.add(new Uranium());
         games.add(new Flux());

@@ -73,7 +73,8 @@ public class AfricanusanCherubi extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("La pequeña esfera, dulce y sabrosa, contiene los nutrientes necesarios para evolucionar."),
-                List.of(),
+                List.of(new EvolutionEntry("cherrim africanusan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,13),
                         new MoveLearnSetEntry(Move.ACID,10),
@@ -100,8 +101,8 @@ public class AfricanusanCherubi extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WEATHER_BALL,"egg")                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 31, 4.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

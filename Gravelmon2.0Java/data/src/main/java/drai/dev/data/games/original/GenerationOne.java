@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.aristos.regional.*;
@@ -37,6 +38,14 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new AfricanusanSlowpoke("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanSlowbro("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanPonyta("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanRapidash("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanTauros("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanMachop("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanMachoke("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanMachamp("", Aspect.AFRICANUS));
 
 //        pokemon.add(new IonosianEkans(23));   Missing Stats
 //        pokemon.add(new IonosianArbok(24));   Missing Stats

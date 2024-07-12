@@ -73,7 +73,8 @@ public class Equxic extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("Equxic es la evolución de Hipporos, usa su veneno para cazar, en esta forma empieza a usar el poder de sus devastadores coletazos, aunque aún no sabe controlarlos."),
-                List.of(),
+                List.of(new EvolutionEntry("Marecampus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,28),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,32),
@@ -82,13 +83,15 @@ public class Equxic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CROSS_POISON,36)                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Equxic");
 
     }

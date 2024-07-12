@@ -43,7 +43,7 @@ public class Marawder extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AGILITY,55)             ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

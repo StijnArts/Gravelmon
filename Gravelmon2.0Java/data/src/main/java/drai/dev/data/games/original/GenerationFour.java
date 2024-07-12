@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.azure.regional.*;
@@ -35,6 +36,13 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new AfricanusanBronzor("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanBronzong("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanCherubi("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanCherrim("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanKricketot("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanKricketune("", Aspect.AFRICANUS));
+
         pokemon.add(new LagoonanFinneon("", Aspect.LAGOONAN));
         pokemon.add(new LagoonanLumineon("", Aspect.LAGOONAN));
 

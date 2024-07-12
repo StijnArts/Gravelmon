@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:harregg",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:africanus_harregg",
+      "texture": "cobblemon:textures/pokemon/africanus/harregg.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/africanus/harregg_shiny.png"
+    }
+  ]
+}

@@ -64,42 +64,17 @@ public class Africanus extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new AfricanusanPhanpy("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanDonphan("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanCherubi("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanCherrim("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanKricketot("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanKricketune("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanGothita("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanGothorita("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanGothitelle("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanHonedge("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanDoublade("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanAegislash("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanSlowpoke("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanSlowbro("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanSlowking("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanBronzor("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanBronzong("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanComfey("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanPonyta("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanRapidash("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanTauros("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanMachop("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanMachoke("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanMachamp("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanUnown("", Aspect.AFRICANUS));
-        pokemon.add(new Fawniae());
-        pokemon.add(new Houndplut());
+        pokemon.add(new Petiolis());
+        pokemon.add(new Virilis());
+        pokemon.add(new Lupercalis());
         pokemon.add(new Harregg());
         pokemon.add(new Igneagle());
         pokemon.add(new Imperiavem());
         pokemon.add(new Hipporos());
         pokemon.add(new Equxic());
         pokemon.add(new Marecampus());
-        pokemon.add(new Petiolis());
-        pokemon.add(new Virilis());
-        pokemon.add(new Lupercalis());
+        pokemon.add(new Houndplut());
+        pokemon.add(new Fawniae());
     }
 
 }

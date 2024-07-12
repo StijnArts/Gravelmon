@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.chaosinvestia.*;
 import drai.dev.data.pokemon.chaosinvestia.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
@@ -26,6 +27,10 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new AfricanusanHonedge("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanDoublade("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanAegislash("", Aspect.AFRICANUS));
+
 //       pokemon.add(new OttoranHonedge("", Aspect.OTTORAN)); TODO
 //       pokemon.add(new OttoranDoublade("", Aspect.OTTORAN));
 

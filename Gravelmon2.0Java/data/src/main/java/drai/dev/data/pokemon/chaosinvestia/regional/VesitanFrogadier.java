@@ -92,7 +92,7 @@ public class VesitanFrogadier extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLUDGE,29)                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

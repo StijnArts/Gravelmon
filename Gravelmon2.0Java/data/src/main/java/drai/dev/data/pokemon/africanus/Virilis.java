@@ -73,7 +73,8 @@ public class Virilis extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Se dice que aquellos entrenadores que cuentan con un Virilis son bendecidos por los dioses a hacer grandes hazañas en la vida."),
-                List.of(),
+                List.of(new EvolutionEntry("bulbasaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEAF_TORNADO,18),
                         new MoveLearnSetEntry(Move.GIGA_DRAIN,32),
@@ -83,8 +84,8 @@ public class Virilis extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYBEAM,24)                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
