@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "raveclem",
+  "nationalPokedexNumber": 5005,
+  "primaryType": "electric",
+  "secondaryType": "psychic",
+  "abilities": [
+    "static",
+    "shellarmor",
+    "h:dazzling"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 43,
+    "defence": 95,
+    "special_attack": 95,
+    "special_defence": 115,
+    "speed": 81
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:dazzlinggleam",
+    "1:mirrorshot",
+    "1:psyshock",
+    "1:shellsmash",
+    "1:mirrorcoat",
+    "1:astonish",
+    "1:hypnosis",
+    "1:flash",
+    "1:discharge",
+    "1:thunderwave",
+    "tm:magnetrise",
+    "tm:risingvoltage",
+    "tm:shockwave",
+    "tm:laserfocus",
+    "tm:snore",
+    "tm:expandingforce",
+    "tm:wonderroom",
+    "tm:irondefense",
+    "tm:liquidation",
+    "tm:waterpulse",
+    "tm:nastyplot",
+    "tm:chargebeam",
+    "tm:electricterrain",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:dazzlinggleam",
+    "tm:focusblast",
+    "tm:flamethrower",
+    "tm:sunnyday",
+    "tm:aerialace",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:earthquake",
+    "tm:icebeam",
+    "tm:attract",
+    "tm:confide",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:return",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:workup",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:toxic",
+    "tm:calmmind",
+    "tm:psychic",
+    "tm:rest",
+    "tm:gyroball",
+    "tm:raindance",
+    "tm:scald"  ],
+  "labels": [
+    "enjin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.raveclem.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

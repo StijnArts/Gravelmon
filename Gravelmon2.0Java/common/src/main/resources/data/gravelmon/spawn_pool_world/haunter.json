@@ -1,0 +1,74 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "havaiianhaunter-1",
+      "pokemon": "haunter havaiian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-41",
+      "weight": 0.54,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_soul_fire" ]
+      }
+    }
+,
+    {
+      "id": "haunterx-1",
+      "pokemon": "haunter x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-38",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "ayreianhaunter-1",
+      "pokemon": "haunter ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_wasteland" ],
+        "isRaining": true
+      }
+    }
+,
+    {
+      "id": "kaskadianhaunter-1",
+      "pokemon": "haunter kaskadian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-40",
+      "weight": 0.54,
+      "condition": {
+"biomes": [ "#cobblemon:is_temperate" ],
+        "isRaining": true
+      }
+    }
+
+]
+}

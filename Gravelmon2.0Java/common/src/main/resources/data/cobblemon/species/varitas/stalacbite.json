@@ -1,0 +1,104 @@
+{
+  "implemented": true,
+  "name": "stalacbite",
+  "nationalPokedexNumber": 2316,
+  "primaryType": "rock",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 62,
+    "defence": 43,
+    "special_attack": 21,
+    "special_defence": 43,
+    "speed": 73
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:harden",
+    "6:rockthrow",
+    "10:wingattack",
+    "17:mirrormove",
+    "20:block",
+    "25:rockblast",
+    "31:takedown",
+    "36:painsplit",
+    "40:stealthrock",
+    "48:skydrop",
+    "53:stoneedge"  ],
+  "labels": [
+    "varitas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.stalacbite.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "stalacbite_stalagoyle",
+      "variant": "level_up",
+      "result": "stalagoyle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

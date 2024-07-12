@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "thermonster-1",
+      "pokemon": "thermonster",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-54",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#minecraft:is_nether",
+"#cobblemon:is_volvanic",
+"#cobblemon:is_thermal" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

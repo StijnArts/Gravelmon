@@ -25,7 +25,7 @@ public class GenerationSeven extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new AfricanusanComfey("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanComfey("", Aspect.AFRICANUSAN));
 
         pokemon.add(new NovranPyukumuku("", Aspect.NOVRAN));
 
@@ -58,6 +58,10 @@ public class GenerationSeven extends Game {
         pokemon.add(new DeepWishiwashi("", Aspect.DEEP));
 
         //Vanguard
+//        pokemon.add(new AyreianCutiefly("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianRibombee("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianMimikyu("", Aspect.AYREIAN));
+
         pokemon.add(new AyreianYungoos("", Aspect.AYREIAN));
         pokemon.add(new AyreianGumshoos("", Aspect.AYREIAN));
 

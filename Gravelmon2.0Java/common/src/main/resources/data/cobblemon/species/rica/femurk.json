@@ -1,0 +1,183 @@
+{
+  "implemented": true,
+  "name": "femurk",
+  "nationalPokedexNumber": 1309,
+  "primaryType": "ghost",
+  "secondaryType": "ground",
+  "abilities": [
+    "battlearmor",
+    "pickup",
+    "h:cursedbody"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 95,
+    "defence": 95,
+    "special_attack": 50,
+    "special_defence": 65,
+    "speed": 63
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 191,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "mineral"
+  ],
+  "moves": [
+    "1:astonish",
+    "8:furyattack",
+    "13:boneclub",
+    "17:detect",
+    "20:shadowsneak",
+    "24:curse",
+    "27:bonerush",
+    "32:shadowpunch",
+    "37:rockblast",
+    "42:fling",
+    "46:bonemerang",
+    "51:shadowbone",
+    "56:destinybond",
+    "tm:bodyslam",
+    "tm:drainpunch",
+    "tm:superpower",
+    "tm:ironhead",
+    "tm:hex",
+    "tm:poltergeist",
+    "tm:foulplay",
+    "tm:knockoff",
+    "tm:throatchop",
+    "tm:darkestlariat",
+    "tm:crosspoison",
+    "tm:sludgewave",
+    "tm:gunkshot",
+    "tm:zenheadbutt",
+    "tm:dig",
+    "tm:scorchingsands",
+    "tm:spikes",
+    "tm:allyswitch",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:substitute",
+    "tm:protect",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalk",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:lowsweep",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:powergem",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:stoneedge",
+    "tm:sandstorm",
+    "tm:shadowball",
+    "tm:sludgebomb",
+    "tm:smartstrike",
+    "tm:stealthrock",
+    "tm:strength",
+    "tm:swordsdance",
+    "tm:thief",
+    "tm:torment",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:slam",
+    "tm:spikes",
+    "tm:ancientpower",
+    "tm:ominouswind",
+    "tm:smackdown",
+    "tm:phantomforce"  ],
+  "labels": [
+    "rica",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.femurk.desc"
+  ],
+  "preEvolution": "skulmet",
+  "evolutions": [
+    {
+      "id": "femurk_foromen",
+      "variant": "level_up",
+      "result": "foromen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_spooky"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

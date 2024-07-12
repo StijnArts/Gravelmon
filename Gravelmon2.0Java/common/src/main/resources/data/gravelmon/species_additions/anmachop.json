@@ -1,0 +1,122 @@
+{
+   "target": "cobblemon:anmachop",
+   "forms": [{
+  "name": "Africanus",
+  "primaryType": "rock",
+  "abilities": [
+    "disguise"  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 50,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "10:karatechop",
+    "31:vitalthrow",
+    "1:leer",
+    "19:foresight",
+    "34:submission",
+    "13:lowsweep",
+    "1:lowkick",
+    "7:focusenergy",
+    "43:crosschop",
+    "37:wakeupslap",
+    "25:revenge",
+    "49:dynamicpunch",
+    "22:seismictoss",
+    "46:scaryface",
+    "egg:bulletpunch",
+    "egg:closecombat",
+    "egg:counter",
+    "egg:encore",
+    "egg:firepunch",
+    "egg:heavyslam",
+    "egg:icepunch",
+    "egg:knockoff",
+    "egg:meditate",
+    "egg:powertrick",
+    "egg:rollingkick",
+    "egg:smellingsalts",
+    "egg:thunderpunch",
+    "egg:tickle"  ],
+  "labels": [
+    "africanus",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.africanusanmachop.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "anmachop_machoke_africanusan",
+      "variant": "level_up",
+      "result": "machoke africanusan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 195,
+  "aspects": ["africanus"],
+  "cannotDynamax": false
+}
+], "features": [
+"africanus"
+  ]
+}

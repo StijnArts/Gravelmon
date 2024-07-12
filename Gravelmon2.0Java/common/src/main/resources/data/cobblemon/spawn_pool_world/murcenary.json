@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "murcenary-1",
+      "pokemon": "murcenary",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "37-52",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

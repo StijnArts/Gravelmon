@@ -1,0 +1,170 @@
+{
+  "implemented": true,
+  "name": "linkite",
+  "nationalPokedexNumber": 2492,
+  "primaryType": "ghost",
+  "abilities": [
+    "shadowtag",
+    "cursedbody"  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 55,
+    "defence": 25,
+    "special_attack": 20,
+    "special_defence": 50,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 78,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:curse",
+    "1:meanlook",
+    "1:nightshade",
+    "6:pursuit",
+    "12:spite",
+    "19:imprison",
+    "24:shadowclaw",
+    "29:painsplit",
+    "33:shadowsneak",
+    "38:grudge",
+    "43:memento",
+    "49:phantomforce",
+    "56:destinybond",
+    "tm:attract",
+    "tm:bide",
+    "tm:block",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:counter",
+    "tm:crunch",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:protect",
+    "tm:psywave",
+    "tm:rage",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:teleport",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:willowisp",
+    "egg:willowisp",
+    "egg:nightmare",
+    "egg:hypnosis",
+    "egg:confuseray",
+    "egg:confusion",
+    "egg:telekinesis",
+    "egg:torment",
+    "egg:taunt",
+    "egg:snatch",
+    "egg:embargo",
+    "egg:sleeptalk",
+    "egg:grudge"  ],
+  "labels": [
+    "uranium",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.linkite.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "linkite_chainite",
+      "variant": "trade",
+      "result": "chainite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 281,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

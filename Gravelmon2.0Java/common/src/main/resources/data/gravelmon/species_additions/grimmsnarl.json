@@ -1,0 +1,178 @@
+{
+   "target": "cobblemon:grimmsnarl",
+   "forms": [{
+  "name": "Novran",
+  "primaryType": "dark",
+  "secondaryType": "steel",
+  "abilities": [
+    "prankster",
+    "quickdraw",
+    "h:sandrush"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 120,
+    "defence": 95,
+    "special_attack": 65,
+    "special_defence": 75,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 230,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "human_like"
+  ],
+  "moves": [
+    "1:beatup",
+    "11:spikecannon",
+    "13:metalclaw",
+    "16:assurance",
+    "20:swagger",
+    "22:bulletpunch",
+    "24:suckerpunch",
+    "27:torment",
+    "31:lashout",
+    "34:quickguard",
+    "39:autotomize",
+    "45:meteormash",
+    "53:foulplay",
+    "59:switcheroo",
+    "64:hammerarm",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:lowkick",
+    "tm:ironhead",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:superpower",
+    "tm:knockoff",
+    "tm:dualchop",
+    "tm:foulplay",
+    "tm:throatchop",
+    "tm:shockwave",
+    "tm:seismictoss",
+    "tm:suckerpunch",
+    "tm:drillrun",
+    "tm:snore",
+    "tm:focuspunch",
+    "tm:poweruppunch",
+    "tm:closecombat",
+    "tm:focusenergy",
+    "tm:heavyslam",
+    "tm:nastyplot",
+    "tm:steelbeam",
+    "tm:bulkup",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:rocksmash",
+    "tm:honeclaws",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:drainpunch",
+    "tm:curse",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:smartstrike",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:swordsdance",
+    "tm:stealthrock",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:snarl",
+    "tm:naturalgift",
+    "tm:darkpulse",
+    "tm:magnetrise",
+    "tm:confide",
+    "tm:powerwhip",
+    "tm:attract",
+    "tm:stompingtantrum",
+    "tm:cut",
+    "tm:strength",
+    "tm:rockclimb",
+    "tm:reversal",
+    "tm:quash",
+    "tm:pinmissile",
+    "tm:partingshot",
+    "tm:darkestlariat",
+    "tm:furyswipes"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.novrangrimmsnarl.desc"
+  ],
+  "preEvolution": "morgrem form=novran",
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": ["novran"],
+  "cannotDynamax": false
+}
+], "features": [
+"novran"
+  ]
+}

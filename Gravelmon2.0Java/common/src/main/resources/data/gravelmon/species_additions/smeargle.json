@@ -1,0 +1,328 @@
+{
+   "target": "cobblemon:smeargle",
+  "evolutions": [
+    {
+      "id": "smeargle_beagasso",
+      "variant": "level_up",
+      "result": "beagasso",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 39
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+   "forms": [{
+  "name": "Hubian",
+  "primaryType": "ground",
+  "secondaryType": "fairy",
+  "abilities": [
+    "owntempo",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 20,
+    "defence": 35,
+    "special_attack": 20,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 88,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:sketch",
+    "11:sketch",
+    "21:sketch",
+    "31:sketch",
+    "41:sketch",
+    "51:sketch",
+    "61:sketch",
+    "71:sketch",
+    "81:sketch",
+    "91:sketch"  ],
+  "labels": [
+    "hub",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hubiansmeargle.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": ["hubian"],
+  "cannotDynamax": false
+},
+{
+  "name": "X",
+  "primaryType": "fairy",
+  "abilities": [
+    "immunity",
+    "sweetveil",
+    "h:stickyhold"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 20,
+    "defence": 35,
+    "special_attack": 20,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 88,
+  "experienceGroup": "fast",
+  "eggCycles": 26,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:lick",
+    "1:sweetscent",
+    "3:vinewhip",
+    "6:fairywind",
+    "9:sweetkiss",
+    "12:drainingkiss",
+    "15:aromatherapy",
+    "18:flail",
+    "21:refresh",
+    "24:charm",
+    "28:wringout",
+    "32:milkdrink",
+    "36:creamwhip",
+    "39:present",
+    "43:sugarrush",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:fling",
+    "tm:psychup",
+    "tm:substitute",
+    "tm:dazzlinggleam",
+    "tutor:secretpower",
+    "tutor:snore"  ],
+  "labels": [
+    "xenoverse",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.smearglex.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "smeargle_chientilly",
+      "variant": "item_interact",
+      "result": "chientilly",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:xenolith",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 12,
+  "weight": 580,
+  "aspects": ["x"],
+  "cannotDynamax": false
+},
+{
+  "name": "Cefiran",
+  "primaryType": "normal",
+  "secondaryType": "fighting",
+  "abilities": [
+    "prankster",
+    "h:moody"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 20,
+    "defence": 35,
+    "special_attack": 75,
+    "special_defence": 20,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 88,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:sketch",
+    "11:sketch",
+    "21:sketch",
+    "31:sketch",
+    "41:sketch",
+    "51:sketch",
+    "61:sketch",
+    "71:sketch",
+    "81:sketch",
+    "91:sketch"  ],
+  "labels": [
+    "gen2",
+    "opal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiransmeargle.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 580,
+  "aspects": ["cefiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"hubian",
+"x",
+"cefiran"
+  ]
+}

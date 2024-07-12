@@ -1,0 +1,87 @@
+{
+  "implemented": true,
+  "name": "bludgion",
+  "nationalPokedexNumber": 2758,
+  "primaryType": "ice",
+  "secondaryType": "steel",
+  "abilities": [
+    "snowcloak"  ],
+  "baseStats": {
+    "hp": 81,
+    "attack": 122,
+    "defence": 60,
+    "special_attack": 72,
+    "special_defence": 80,
+    "speed": 77
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:visegrip",
+    "5:iceball",
+    "12:frostbreath",
+    "16:metalclaw",
+    "21:iceshard",
+    "25:metalsound",
+    "30:meteormash",
+    "39:slam",
+    "46:icehammer",
+    "55:guillotine"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bludgion.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

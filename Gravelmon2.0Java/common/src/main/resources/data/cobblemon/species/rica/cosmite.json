@@ -1,0 +1,151 @@
+{
+  "implemented": true,
+  "name": "cosmite",
+  "nationalPokedexNumber": 1316,
+  "primaryType": "rock",
+  "secondaryType": "fairy",
+  "abilities": [
+    "pressure"  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 40,
+    "defence": 90,
+    "special_attack": 80,
+    "special_defence": 150,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:rollout",
+    "8:smackdown",
+    "13:cosmicpower",
+    "16:fairywind",
+    "20:ancientpower",
+    "25:storedpower",
+    "30:moonlight",
+    "45:gravity",
+    "50:moonblast",
+    "55:powersplit",
+    "61:meteormash",
+    "66:trickroom",
+    "tm:bodyslam",
+    "tm:weatherball",
+    "tm:bodypress",
+    "tm:aurasphere",
+    "tm:mysticalfire",
+    "tm:icywind",
+    "tm:hex",
+    "tm:zenheadbutt",
+    "tm:scorchingsands",
+    "tm:allyswitch",
+    "tm:healbell",
+    "tm:teleport",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:thunder",
+    "tm:toxic",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:flash",
+    "tm:explosion",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:protect",
+    "tm:sandstorm",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalk",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:shadowball",
+    "tm:snowscape",
+    "tm:facade",
+    "tm:naturepower",
+    "tm:rocktomb",
+    "tm:signalbeam",
+    "tm:calmmind",
+    "tm:gyroball",
+    "tm:rockpolish",
+    "tm:darkpulse",
+    "tm:powergem",
+    "tm:focusblast",
+    "tm:earthpower",
+    "tm:gigaimpact",
+    "tm:flashcannon",
+    "tm:trickroom",
+    "tm:stoneedge",
+    "tm:stealthrock",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:voltswitch",
+    "tm:dazzlinggleam",
+    "tm:rapidspin",
+    "tm:psychup"  ],
+  "labels": [
+    "rica",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cosmite.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

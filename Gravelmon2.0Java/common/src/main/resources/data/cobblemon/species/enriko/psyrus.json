@@ -1,0 +1,106 @@
+{
+  "implemented": true,
+  "name": "psyrus",
+  "nationalPokedexNumber": 1967,
+  "primaryType": "psychic",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 54,
+    "defence": 38,
+    "special_attack": 54,
+    "special_defence": 46,
+    "speed": 54
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 170,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:confusion",
+    "1:growl",
+    "1:healingwish",
+    "1:wrap",
+    "13:yawn",
+    "16:storedpower",
+    "19:takedown",
+    "22:extrasensory",
+    "27:healbell",
+    "32:uproar",
+    "37:safeguard",
+    "42:doubleedge",
+    "47:healpulse"  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.psyrus.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "psyrus_adnaviria",
+      "variant": "level_up",
+      "result": "adnaviria",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 190
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+  "name": "glaslug",
+  "nationalPokedexNumber": 2454,
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "abilities": [
+    "swiftswim",
+    "naturalcure",
+    "h:snowwarning"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 25,
+    "defence": 35,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:protect",
+    "6:defensecurl",
+    "10:icywind",
+    "15:takedown",
+    "19:taunt",
+    "24:bubblebeam",
+    "28:glaciate",
+    "33:recover",
+    "37:icebeam",
+    "42:iciclecrash",
+    "46:hydropump",
+    "50:sheercold",
+    "tm:aquatail",
+    "tm:attract",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:endeavor",
+    "tm:facade",
+    "tm:flash",
+    "tm:frustration",
+    "tm:snowscape",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:coralbreak",
+    "egg:headbutt",
+    "egg:scaryface",
+    "egg:focusenergy",
+    "egg:doubleedge",
+    "egg:waterpulse",
+    "egg:bodyslam",
+    "egg:screech",
+    "egg:curse",
+    "egg:sludge"  ],
+  "labels": [
+    "uranium",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.glaslug.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "glaslug_glavinug",
+      "variant": "item_interact",
+      "result": "glavinug",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 180,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

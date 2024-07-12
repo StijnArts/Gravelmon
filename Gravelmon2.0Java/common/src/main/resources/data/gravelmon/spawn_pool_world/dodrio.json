@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltadodrio-1",
+      "pokemon": "dodrio delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "28-49",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "seviiandodrio-1",
+      "pokemon": "dodrio seviian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-56",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_island" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_arid" ]    }
+    }
+,
+    {
+      "id": "hoenniandodrio-1",
+      "pokemon": "dodrio hoennian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-47",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+
+]
+}

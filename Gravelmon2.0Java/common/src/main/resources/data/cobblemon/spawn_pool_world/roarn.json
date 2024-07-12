@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "roarn-1",
+      "pokemon": "roarn",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-44",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ]
+      }
+    }
+  ]
+}

@@ -36,4 +36,20 @@ public class SpeciesFeaturesJSONWriter {
 
         }
     }
+
+    public static void writeFeature(String aspect, String resourcesDir) throws IOException {
+        String dir = resourcesDir+"\\data\\cobblemon\\species_features\\";
+            String fileContents = "{\n" +
+                    "    \"keys\": [ \""+aspect.toLowerCase()+"\" ],\n" +
+                    "    \"type\": \"flag\",\n" +
+                    "    \"isAspect\": true,\n" +
+                    "    \"default\": false\n" +
+                    "  }";
+
+            BufferedWriter writer = new BufferedWriter(new FileWriter(dir+aspect.toLowerCase()+".json"));
+            writer.write(fileContents);
+            writer.close();
+
+
+    }
 }

@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "mycerial",
+  "nationalPokedexNumber": 4699,
+  "primaryType": "dark",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisontouch",
+    "liquidooze",
+    "h:waterabsorb"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 63,
+    "defence": 78,
+    "special_attack": 63,
+    "special_defence": 78,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:absorb",
+    "5:haze",
+    "8:sludge",
+    "11:worryseed",
+    "15:assurance",
+    "18:megadrain",
+    "20:toxic",
+    "24:payback",
+    "30:spore",
+    "35:gigadrain",
+    "38:sludgebomb",
+    "40:memento",
+    "45:crosspoison",
+    "47:knockoff",
+    "50:strengthsap",
+    "56:venoshock",
+    "60:powerwhip",
+    "tm:toxic",
+    "tm:shadowball",
+    "tm:darkpulse",
+    "tm:sludgebomb",
+    "tm:gigadrain",
+    "tm:leechseed",
+    "tm:ragepowder",
+    "tm:stunspore",
+    "tm:clearsmog",
+    "tm:nightmare",
+    "tm:nastyplot"  ],
+  "labels": [
+    "okeno",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mycerial.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "mycerial_unfortunist",
+      "variant": "level_up",
+      "result": "unfortunist",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

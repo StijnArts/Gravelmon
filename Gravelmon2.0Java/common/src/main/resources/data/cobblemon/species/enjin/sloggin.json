@@ -1,0 +1,122 @@
+{
+  "implemented": true,
+  "name": "sloggin",
+  "nationalPokedexNumber": 5015,
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "abilities": [
+    "stickyhold",
+    "regenerator"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 35,
+    "defence": 45,
+    "special_attack": 55,
+    "special_defence": 80,
+    "speed": 25
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "water_3"
+  ],
+  "moves": [
+    "1:withdraw",
+    "1:bubble",
+    "4:psywave",
+    "7:acid",
+    "11:supersonic",
+    "13:strugglebug",
+    "17:psybeam",
+    "20:bubblebeam",
+    "23:camouflage",
+    "32:recover",
+    "35:extrasensory",
+    "39:gastroacid",
+    "44:muddywater",
+    "tm:trumpcard",
+    "tm:shellsmash",
+    "tm:acidarmor",
+    "tm:pinmissile",
+    "tm:acidspray",
+    "tm:stockpile",
+    "tm:swallow",
+    "tm:spitup",
+    "tm:clearsmog",
+    "tm:watersport",
+    "tm:guardsplit",
+    "tm:disable",
+    "tm:flail",
+    "tm:steamroller"  ],
+  "labels": [
+    "enjin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sloggin.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sloggin_lucidris",
+      "variant": "level_up",
+      "result": "lucidris",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 90,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

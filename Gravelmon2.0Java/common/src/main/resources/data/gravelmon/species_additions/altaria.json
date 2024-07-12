@@ -1,0 +1,472 @@
+{
+   "target": "cobblemon:altaria",
+   "forms": [{
+  "name": "Varitasian",
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "abilities": [
+    "naturalcure",
+    "h:cloudnine"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 70,
+    "defence": 90,
+    "special_attack": 70,
+    "special_defence": 105,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "dragon"
+  ],
+  "moves": [
+    "1:pluck",
+    "3:astonish",
+    "5:sing",
+    "7:furyattack",
+    "9:safeguard",
+    "11:disarmingvoice",
+    "14:mist",
+    "17:round",
+    "20:naturalgift",
+    "23:takedown",
+    "26:refresh",
+    "30:dragondance",
+    "34:cottonguard",
+    "40:dragonpulse",
+    "46:perishsong",
+    "52:moonblast",
+    "59:skyattack",
+    "tm:skyattack",
+    "tm:snore",
+    "tm:outrage",
+    "tm:healbell",
+    "tm:irontail",
+    "tm:uproar",
+    "tm:heatwave",
+    "tm:hypervoice",
+    "tm:tailwind",
+    "tm:dragonpulse",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:wonderroom",
+    "tm:fly",
+    "tm:roar",
+    "tm:flamethrower",
+    "tm:icebeam",
+    "tm:hyperbeam",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:fireblast",
+    "tm:dreameater",
+    "tm:rest",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:swagger",
+    "tm:steelwing",
+    "tm:attract",
+    "tm:sleeptalk",
+    "tm:return",
+    "tm:frustration",
+    "tm:safeguard",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:psychup",
+    "tm:facade",
+    "tm:aerialace",
+    "tm:dragonclaw",
+    "tm:roost",
+    "tm:gigaimpact",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:bulldoze",
+    "tm:confide",
+    "tm:dazzlinggleam",
+    "tm:agility",
+    "tm:rage",
+    "tm:haze",
+    "tm:pursuit",
+    "tm:featherdance",
+    "tm:powerswap",
+    "tm:dragonrush",
+    "tm:playrough"  ],
+  "labels": [
+    "varitas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.varitasianaltaria.desc"
+  ],
+  "preEvolution": "swablu form=varitasian",
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": ["varitasian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Egho",
+  "primaryType": "dragon",
+  "secondaryType": "ice",
+  "abilities": [
+    "levitate",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 90,
+    "special_attack": 95,
+    "special_defence": 60,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "flying",
+    "dragon"
+  ],
+  "moves": [
+    "1:defog",
+    "1:pluck",
+    "1:peck",
+    "1:growl",
+    "1:dragondance",
+    "4:powdersnow",
+    "8:sing",
+    "10:haze",
+    "11:razorwind",
+    "13:gust",
+    "15:weatherball",
+    "17:frostbreath",
+    "18:entrainment",
+    "21:round",
+    "25:uproar",
+    "25:hail",
+    "29:refresh",
+    "34:perishsong",
+    "37:dragonbreath",
+    "42:cottonguard",
+    "47:dragonpulse",
+    "49:icebeam",
+    "56:freezedry",
+    "60:hypervoice",
+    "64:blizzard",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:telekinesis",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:allyswitch",
+    "tm:focusblast",
+    "tm:acrobatics",
+    "tm:flash",
+    "tm:frostbreath",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:pluck",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:fly",
+    "tm:surf",
+    "tutor:defog",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:icywind",
+    "tutor:roost",
+    "egg:agility",
+    "egg:dragonrush",
+    "egg:mist",
+    "egg:powerswap",
+    "egg:pursuit",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow"  ],
+  "labels": [
+    "infinity",
+    "gen3",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghoaltaria.desc"
+  ],
+  "preEvolution": "swablu form=egho",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 10,
+  "weight": 240,
+  "aspects": ["egho"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "electric",
+  "secondaryType": "dragon",
+  "abilities": [
+    "levitate",
+    "fluffy",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 75,
+    "special_defence": 100,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "dragon"
+  ],
+  "moves": [
+    "1:risingvoltage",
+    "1:gust",
+    "1:cottonguard",
+    "1:wildcharge",
+    "3:growl",
+    "6:thundershock",
+    "9:disarmingvoice",
+    "13:twister",
+    "16:round",
+    "19:spark",
+    "22:dragonbreath",
+    "25:pluck",
+    "28:dragonclaw",
+    "34:dragondance",
+    "35:thunderbolt",
+    "40:dragonpulse",
+    "46:perishsong",
+    "52:playrough",
+    "59:volttackle",
+    "tutor:uproar",
+    "tutor:aerialace",
+    "tutor:agility",
+    "tutor:attract",
+    "tutor:bodyslam",
+    "tutor:confide",
+    "tutor:playrough",
+    "tutor:defog",
+    "tutor:doubleteam",
+    "tutor:dragonpulse",
+    "tutor:dreameater",
+    "tutor:dualwingbeat",
+    "tutor:echoedvoice",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:falseswipe",
+    "tutor:fly",
+    "tutor:frustration",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:hiddenpower",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:outrage",
+    "tutor:playrough",
+    "tutor:powerswap",
+    "tutor:protect",
+    "tutor:psychup",
+    "tutor:raindance",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:roost",
+    "tutor:round",
+    "tutor:safeguard",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:solarbeam",
+    "tutor:steelwing",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:thief",
+    "tutor:toxic",
+    "tutor:uproar",
+    "tutor:workup",
+    "egg:agility",
+    "egg:dragonrush",
+    "egg:featherdance",
+    "egg:haze",
+    "egg:hypervoice",
+    "egg:powerswap",
+    "egg:pursuit",
+    "egg:rage",
+    "egg:roost",
+    "egg:steelwing"  ],
+  "labels": [
+    "gen3",
+    "vanguard",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianaltaria.desc"
+  ],
+  "preEvolution": "swablu form=ayreian",
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 11,
+  "weight": 206,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+}
+], "features": [
+"varitasian",
+"egho",
+"ayreian"
+  ]
+}

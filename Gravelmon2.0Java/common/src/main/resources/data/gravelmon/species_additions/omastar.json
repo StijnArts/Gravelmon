@@ -1,0 +1,166 @@
+{
+   "target": "cobblemon:omastar",
+   "forms": [{
+  "name": "Novran",
+  "primaryType": "rock",
+  "secondaryType": "dragon",
+  "abilities": [
+    "dazzling",
+    "marvelscale"  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 135,
+    "special_attack": 105,
+    "special_defence": 70,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "moves": [
+    "1:twister",
+    "16:rollout",
+    "19:imprison",
+    "23:irondefense",
+    "28:dragonbreath",
+    "31:ancientpower",
+    "34:protect",
+    "37:rockblast",
+    "42:dragonpulse",
+    "45:tickle",
+    "49:powergem",
+    "54:shellsmash",
+    "60:outrage",
+    "tm:dracometeor",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:recycle",
+    "tm:earthpower",
+    "tm:knockoff",
+    "tm:outrage",
+    "tm:lunge",
+    "tm:icywind",
+    "tm:magiccoat",
+    "tm:snore",
+    "tm:rapidspin",
+    "tm:powergem",
+    "tm:hydropump",
+    "tm:dragondance",
+    "tm:heavyslam",
+    "tm:meteorbeam",
+    "tm:scaleshot",
+    "tm:snowscape",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:earthquake",
+    "tm:return",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:thief",
+    "tm:rocksmash",
+    "tm:ancientpower",
+    "tm:scald",
+    "tm:waterpulse",
+    "tm:curse",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:dragonpulse",
+    "tm:stealthrock",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:smackdown",
+    "tm:icespinner",
+    "tm:powerwhip",
+    "tm:attract",
+    "tm:gravity",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:haze",
+    "tm:burningjealousy",
+    "tm:dragonrage",
+    "tm:wringout",
+    "tm:toxicspikes",
+    "tm:reflecttype",
+    "tm:iceball"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.novranomastar.desc"
+  ],
+  "preEvolution": "omanyte form=novran",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": ["novran"],
+  "cannotDynamax": false
+}
+], "features": [
+"novran"
+  ]
+}

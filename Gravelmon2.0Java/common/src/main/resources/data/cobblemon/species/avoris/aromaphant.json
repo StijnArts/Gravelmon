@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "aromaphant",
+  "nationalPokedexNumber": 2212,
+  "primaryType": "fairy",
+  "abilities": [
+    "healer",
+    "serenegrace",
+    "h:aromaveil"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 55,
+    "defence": 65,
+    "special_attack": 80,
+    "special_defence": 97,
+    "speed": 56
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:sweetscent",
+    "1:tackle",
+    "3:playnice",
+    "6:fairywind",
+    "9:aromatherapy",
+    "12:drainingkiss",
+    "15:faketears",
+    "18:round",
+    "21:stringshot",
+    "24:cottonspore",
+    "27:energyball",
+    "30:wish",
+    "33:playrough",
+    "36:cottonguard",
+    "39:endeavor"  ],
+  "labels": [
+    "avoris",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.aromaphant.desc"
+  ],
+  "preEvolution": "elescent",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

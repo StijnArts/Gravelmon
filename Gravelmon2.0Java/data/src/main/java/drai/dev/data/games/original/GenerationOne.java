@@ -38,14 +38,14 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new AfricanusanSlowpoke("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanSlowbro("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanPonyta("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanRapidash("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanTauros("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanMachop("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanMachoke("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanMachamp("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanSlowpoke("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanSlowbro("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanPonyta("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanRapidash("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanTauros("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanMachop("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanMachoke("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanMachamp("", Aspect.AFRICANUSAN));
 
 //        pokemon.add(new IonosianEkans(23));   Missing Stats
 //        pokemon.add(new IonosianArbok(24));   Missing Stats
@@ -196,6 +196,44 @@ public class GenerationOne extends Game {
     }
 
     private void addAyreianPokemon() {
+//        pokemon.add(new AyreianWeedle("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianKakuna("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianBeedrill("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianRattata("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianRaticate("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianSpearow("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianFearow("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianJigglypuff("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianWigglytuff("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianVenonat("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianPoliwag("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianPoliwhirl("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianDoduo("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianGrowlithe("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianArcanine("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianCubone("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianMarowak("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianHitmonlee("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianHitmonchan("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianKoffing("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianWeezing("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianSeadra("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianMrmime("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianJynx("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianAerodactyl("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianSnorlax("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianDratini("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianDragonair("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianDragonite("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianGeodude("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianGraveler("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianGolem("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianLapras("", Aspect.AYREIAN));
+        pokemon.add(new AyreianVulpix("", Aspect.AYREIAN));
+        pokemon.add(new AyreianNinetales("", Aspect.AYREIAN));
+        pokemon.add(new AyreianVulpixOne("", Aspect.AYREIAN));
+        pokemon.add(new AyreianNinetalesOne("", Aspect.AYREIAN));
+
         pokemon.add(new AyreianBulbasaur("", Aspect.AYREIAN));
         pokemon.add(new AyreianIvysaur("", Aspect.AYREIAN));
         pokemon.add(new AyreianVenusaur("", Aspect.AYREIAN));

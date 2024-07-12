@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "africanusangothita-1",
+      "pokemon": "gothita africanusan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "11-32",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island",
+"#cobblemon:is_arid" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+
+]
+}

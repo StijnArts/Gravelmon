@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "africanusanhonedge-1",
+      "pokemon": "honedge africanusan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "11-32",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna",
+"#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

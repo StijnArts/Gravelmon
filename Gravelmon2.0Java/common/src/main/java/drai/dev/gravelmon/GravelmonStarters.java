@@ -32,6 +32,14 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Johto",
+                createCategory("Ayrei Johto",
+                        List.of(
+                                "Chikorita ayreian=true level=10",
+                                "Cyndaquil ayreian=true level=10",
+                                "Totodile ayreian=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Johto",
                 createCategory("Egho Johto",
                         List.of(
                                 "Chikorita egho=true level=10",
@@ -45,6 +53,14 @@ public class GravelmonStarters {
                                 "Treecko mystic=true level=10",
                                 "Torchic mystic=true level=10",
                                 "Mudkip mystic=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Sinnoh",
+                createCategory("Ayrei Sinnoh",
+                        List.of(
+                                "Turtwig ayreian=true level=10",
+                                "Chimchar ayreian=true level=10",
+                                "Piplup ayreian=true level=10"
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Kalos",
@@ -157,6 +173,14 @@ public class GravelmonStarters {
                                 "Bublit level=10",
                                 "Friney level=10",
                                 "Nomstar level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Africanus",
+                        List.of(
+                                "Petiolis level=10",
+                                "Harregg level=10",
+                                "Hipporos level=10"
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,

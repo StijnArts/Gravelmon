@@ -1,0 +1,123 @@
+{
+  "implemented": true,
+  "name": "jamphibian",
+  "nationalPokedexNumber": 3410,
+  "primaryType": "fairy",
+  "secondaryType": "ground",
+  "abilities": [
+    "gooey",
+    "stickyhold",
+    "h:aromaveil"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 100,
+    "special_attack": 65,
+    "special_defence": 130,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:naturalgift",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bide",
+    "tm:blizzard",
+    "tm:bubblebeam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:megadrain",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:sludgewave",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:toxic",
+    "tm:watergun"  ],
+  "labels": [
+    "lonava",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.jamphibian.desc"
+  ],
+  "preEvolution": "jarmalade",
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

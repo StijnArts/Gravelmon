@@ -1,0 +1,493 @@
+{
+   "target": "cobblemon:noctowl",
+   "forms": [{
+  "name": "Enjinnian",
+  "primaryType": "psychic",
+  "abilities": [
+    "insomnia",
+    "unaware",
+    "h:telepathy"
+  ],
+  "baseStats": {
+    "hp": 96,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 70,
+    "special_defence": 100,
+    "speed": 86
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 155,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:leer",
+    "1:skyattack",
+    "1:dreameater",
+    "1:pound",
+    "1:foresight",
+    "4:disable",
+    "7:confusion",
+    "10:confuseray",
+    "13:echoedvoice",
+    "16:psybeam",
+    "19:lightscreen",
+    "19:reflect",
+    "23:chipaway",
+    "27:zenheadbutt",
+    "31:hypnosis",
+    "35:airslash",
+    "39:uproar",
+    "43:amnesia",
+    "47:psychic",
+    "51:synchronoise",
+    "55:moonblast",
+    "tm:dualwingbeat",
+    "tm:skyattack",
+    "tm:tailwind",
+    "tm:laserfocus",
+    "tm:snore",
+    "tm:uproar",
+    "tm:expandingforce",
+    "tm:gravity",
+    "tm:magiccoat",
+    "tm:zenheadbutt",
+    "tm:thief",
+    "tm:sunnyday",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:fly",
+    "tm:roost",
+    "tm:shadowball",
+    "tm:attract",
+    "tm:bide",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:mimic",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rage",
+    "tm:razorwind",
+    "tm:return",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:whirlwind",
+    "tm:workup",
+    "tm:toxic",
+    "tm:calmmind",
+    "tm:dreameater",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psywave",
+    "tm:reflect",
+    "tm:rest",
+    "tm:teleport",
+    "tm:steelwing",
+    "tm:raindance",
+    "tm:feintattack",
+    "tm:defog",
+    "tm:featherdance",
+    "tm:mirrormove",
+    "tm:skyattack",
+    "tm:nightshade",
+    "tm:meanlook",
+    "tm:supersonic",
+    "tm:whirlwind",
+    "tm:agility"  ],
+  "labels": [
+    "enjin",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.enjinniannoctowl.desc"
+  ],
+  "preEvolution": "hoothoot form=enjinnian",
+  "evolutions": [
+    {
+      "id": "noctowl_enchantowl",
+      "variant": "level_up",
+      "result": "enchantowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 210
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 408,
+  "aspects": ["enjinnian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Egho",
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "abilities": [
+    "unnerve",
+    "h:noguard"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 50,
+    "defence": 77,
+    "special_attack": 99,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 155,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:foulplay",
+    "1:growl",
+    "1:gust",
+    "1:echoedvoice",
+    "5:hypnosis",
+    "9:confusion",
+    "13:nightshade",
+    "17:hornattack",
+    "21:nightmare",
+    "25:ominouswind",
+    "29:snarl",
+    "33:airslash",
+    "37:razorwind",
+    "41:moonblast",
+    "45:snatch",
+    "49:nightdaze",
+    "53:roost",
+    "57:dreameater",
+    "62:hurricane",
+    "66:nastyplot",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:skydrop",
+    "tm:willowisp",
+    "tm:acrobatics",
+    "tm:flash",
+    "tm:psychup",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:pluck",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:snarl",
+    "tm:fly",
+    "tutor:darkpulse",
+    "tutor:defog",
+    "tutor:icywind",
+    "tutor:roost",
+    "egg:agility",
+    "egg:drillpeck",
+    "egg:megahorn",
+    "egg:mirrormove",
+    "egg:moonlight",
+    "egg:skyattack",
+    "egg:supersonic",
+    "egg:whirlwind"  ],
+  "labels": [
+    "infinity",
+    "gen2",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghonoctowl.desc"
+  ],
+  "preEvolution": "hoothoot form=egho",
+  "evolutions": [
+    {
+      "id": "noctowl_grimfowl",
+      "variant": "item_interact",
+      "result": "grimfowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.95,
+  "hitbox": {
+    "width": 1.25,
+    "height": 1.9,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 498,
+  "aspects": ["egho"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "abilities": [
+    "noguard",
+    "keeneye",
+    "h:snowcloak"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 76,
+    "special_defence": 96,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 158,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:sheercold",
+    "1:skyattack",
+    "1:powdersnow",
+    "1:growl",
+    "1:mist",
+    "1:hail",
+    "5:hail",
+    "9:peck",
+    "13:icywind",
+    "17:camouflage",
+    "22:aircutter",
+    "27:iceshard",
+    "32:feint",
+    "37:airslash",
+    "42:razorwind",
+    "47:blizzard",
+    "52:hurricane",
+    "57:defog",
+    "62:roost",
+    "67:sheercold",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roost",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:frostbreath",
+    "tm:acrobatics",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:avalanche",
+    "tm:silverwind",
+    "tm:skydrop",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:pluck",
+    "tm:secretpower",
+    "tm:fly",
+    "tutor:acid",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:helpinghand",
+    "tutor:hurricane",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:mimic",
+    "tutor:skyattack",
+    "tutor:snore",
+    "tutor:tailwind",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen2",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltanoctowl.desc"
+  ],
+  "preEvolution": "hoothoot form=delta",
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 408,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"enjinnian",
+"egho",
+"delta"
+  ]
+}

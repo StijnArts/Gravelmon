@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "flightjar-1",
+      "pokemon": "flightjar",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-32",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_jungle" ]    }
+    }
+  ]
+}

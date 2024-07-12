@@ -1,0 +1,130 @@
+{
+   "target": "cobblemon:sandygast",
+  "evolutions": [
+    {
+      "id": "sandygast_palossand_kaskadian",
+      "variant": "level_up",
+      "result": "palossand kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_highlands"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+   "forms": [{
+  "name": "Qamoran",
+  "primaryType": "rock",
+  "secondaryType": "ghost",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 85,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 10
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:harden",
+    "5:astonish",
+    "10:rocktomb",
+    "15:megadrain",
+    "20:sandattack",
+    "25:bulldoze",
+    "30:hypnosis",
+    "35:gigadrain",
+    "40:irondefense",
+    "45:shadowball",
+    "50:stoneedge",
+    "55:shoreup",
+    "60:sandstorm"  ],
+  "labels": [
+    "qamor",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.qamoransandygast.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sandygast_palosstone",
+      "variant": "level_up",
+      "result": "palosstone",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": ["qamoran"],
+  "cannotDynamax": false
+}
+], "features": [
+"qamoran"
+  ]
+}

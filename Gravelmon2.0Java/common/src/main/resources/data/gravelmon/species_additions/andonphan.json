@@ -1,0 +1,96 @@
+{
+   "target": "cobblemon:andonphan",
+   "forms": [{
+  "name": "Africanus",
+  "primaryType": "ground",
+  "secondaryType": "rock",
+  "abilities": [
+    "sturdy"  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 130,
+    "defence": 95,
+    "special_attack": 95,
+    "special_defence": 45,
+    "speed": 125
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "50:thousandarrows",
+    "24:slam",
+    "25:stealthrock",
+    "1:rockthrow",
+    "39:stoneedge",
+    "1:defensecurl",
+    "31:ancientpower",
+    "15:rollout",
+    "19:magnitude",
+    "1:hornattack",
+    "1:growl",
+    "1:mudbomb",
+    "54:headsmash",
+    "10:knockoff",
+    "1:rocktomb",
+    "42:earthquake",
+    "6:rapidspin"  ],
+  "labels": [
+    "africanus",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.africanusandonphan.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 1200,
+  "aspects": ["africanus"],
+  "cannotDynamax": false
+}
+], "features": [
+"africanus"
+  ]
+}

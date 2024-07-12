@@ -1,0 +1,364 @@
+{
+   "target": "cobblemon:tyrogue",
+   "forms": [{
+  "name": "Qamoran",
+  "primaryType": "fighting",
+  "secondaryType": "fairy",
+  "abilities": [
+    "dancer"  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 35,
+    "defence": 35,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 42,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:helpinghand",
+    "tm:lowkick",
+    "tm:snore",
+    "tm:uproar",
+    "tm:helpinghand",
+    "tm:roleplay",
+    "tm:covet",
+    "tm:laserfocus",
+    "tm:earthquake",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalk",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:bulldoze",
+    "tm:workup",
+    "tm:confide",
+    "tm:counter",
+    "tm:highjumpkick",
+    "tm:mindreader",
+    "tm:machpunch",
+    "tm:endure",
+    "tm:pursuit",
+    "tm:rapidspin",
+    "tm:feint",
+    "tm:vacuumwave",
+    "tm:bulletpunch"  ],
+  "labels": [
+    "qamor",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.qamorantyrogue.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "tyrogue_hitmonchan_qamoran",
+      "variant": "level_up",
+      "result": "hitmonchan qamoran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "attack_defence_ratio",
+          "ratio": ATTACK_HIGHER
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "tyrogue_hitmonlee_qamoran",
+      "variant": "level_up",
+      "result": "hitmonlee qamoran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "attack_defence_ratio",
+          "ratio": DEFENCE_HIGHER
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "tyrogue_hitmontop_qamoran",
+      "variant": "level_up",
+      "result": "hitmontop qamoran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "attack_defence_ratio",
+          "ratio": EQUAL
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": ["qamoran"],
+  "cannotDynamax": false
+},
+{
+  "name": "Varitasian",
+  "primaryType": "psychic",
+  "abilities": [
+    "guts",
+    "steadfast",
+    "h:vitalspirit"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 35,
+    "defence": 35,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 42,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:miracleeye",
+    "tm:lowkick",
+    "tm:snore",
+    "tm:uproar",
+    "tm:helpinghand",
+    "tm:roleplay",
+    "tm:covet",
+    "tm:laserfocus",
+    "tm:earthquake",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalk",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:bulldoze",
+    "tm:workup",
+    "tm:confide",
+    "tm:megapunch",
+    "tm:megakick",
+    "tm:bodyslam",
+    "tm:doubleedge",
+    "tm:counter",
+    "tm:seismictoss",
+    "tm:rage",
+    "tm:mimic",
+    "tm:bide",
+    "tm:swift",
+    "tm:takedown",
+    "tm:submission",
+    "tm:skullbash",
+    "tm:counter",
+    "tm:highjumpkick",
+    "tm:mindreader",
+    "tm:machpunch",
+    "tm:endure",
+    "tm:pursuit",
+    "tm:rapidspin",
+    "tm:feint",
+    "tm:vacuumwave",
+    "tm:bulletpunch"  ],
+  "labels": [
+    "varitas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.varitasiantyrogue.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "tyrogue_hitmonchan_varitasian",
+      "variant": "level_up",
+      "result": "hitmonchan varitasian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "attack_defence_ratio",
+          "ratio": ATTACK_HIGHER
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "tyrogue_hitmonlee_varitasian",
+      "variant": "level_up",
+      "result": "hitmonlee varitasian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "attack_defence_ratio",
+          "ratio": DEFENCE_HIGHER
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "tyrogue_hitmontop_varitasian",
+      "variant": "level_up",
+      "result": "hitmontop varitasian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "attack_defence_ratio",
+          "ratio": EQUAL
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": ["varitasian"],
+  "cannotDynamax": false
+}
+], "features": [
+"qamoran",
+"varitasian"
+  ]
+}

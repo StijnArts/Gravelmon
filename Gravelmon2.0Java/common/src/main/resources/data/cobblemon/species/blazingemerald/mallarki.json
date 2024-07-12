@@ -1,0 +1,121 @@
+{
+  "implemented": true,
+  "name": "mallarki",
+  "nationalPokedexNumber": 3762,
+  "primaryType": "fighting",
+  "secondaryType": "flying",
+  "abilities": [
+    "hypercutter"  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 110,
+    "defence": 65,
+    "special_attack": 58,
+    "special_defence": 70,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 220,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "egg:fakeout",
+    "egg:knockoff",
+    "tm:cut",
+    "tm:fly",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:irontail",
+    "tm:return",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:shimmershot",
+    "tm:sandstorm",
+    "tm:bravebird",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:steelwing",
+    "tm:xscissor",
+    "1:peck",
+    "1:sandattack",
+    "1:leer",
+    "1:furycutter",
+    "4:wingattack",
+    "9:slash",
+    "12:airslash",
+    "17:nightslash",
+    "28:leafblade",
+    "31:swordsdance",
+    "34:drillpeck",
+    "38:skyuppercut",
+    "49:bravebird"  ],
+  "labels": [
+    "blazing_emerald",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mallarki.desc"
+  ],
+  "preEvolution": "farfetchd",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 10,
+  "weight": 289,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

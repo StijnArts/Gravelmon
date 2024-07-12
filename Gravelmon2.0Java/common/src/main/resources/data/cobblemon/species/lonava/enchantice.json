@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "enchantice",
+  "nationalPokedexNumber": 3457,
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 85,
+    "defence": 67,
+    "special_attack": 116,
+    "special_defence": 75,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "fairy"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:helpinghand",
+    "3:fairywind",
+    "6:stunspore",
+    "12:megadrain",
+    "15:razorleaf",
+    "18:growth",
+    "21:poisonpowder",
+    "24:gigadrain",
+    "27:charm",
+    "30:leechseed",
+    "33:cottonspore",
+    "36:energyball",
+    "39:sunnyday",
+    "42:endeavor",
+    "45:cottonguard",
+    "48:solarbeam"  ],
+  "labels": [
+    "lonava",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.enchantice.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

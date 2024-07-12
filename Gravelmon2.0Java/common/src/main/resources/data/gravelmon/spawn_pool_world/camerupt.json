@@ -1,0 +1,59 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltacamerupt-1",
+      "pokemon": "camerupt delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-59",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "isRaining": true,
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiancamerupt-1",
+      "pokemon": "camerupt ayreian",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "30-51",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "cefirancamerupt-1",
+      "pokemon": "camerupt cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "33-56",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

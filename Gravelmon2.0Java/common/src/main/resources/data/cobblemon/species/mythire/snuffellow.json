@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "snuffellow",
+  "nationalPokedexNumber": 3836,
+  "primaryType": "fire",
+  "abilities": [
+    "sniper",
+    "magmaarmor",
+    "h:whitesmoke"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 45,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:smog",
+    "1:yawn",
+    "6:ember",
+    "8:rockthrow",
+    "13:harden",
+    "20:clearsmog",
+    "22:ancientpower",
+    "27:incinerate",
+    "29:rockslide",
+    "34:lavaplume",
+    "36:amnesia",
+    "41:bodyslam",
+    "43:recover",
+    "48:flamethrower",
+    "50:earthpower"  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.snuffellow.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "snuffellow_belostoke",
+      "variant": "level_up",
+      "result": "belostoke",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "snuffellow_hadrosmoke",
+      "variant": "level_up",
+      "result": "hadrosmoke",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:kings_rock"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

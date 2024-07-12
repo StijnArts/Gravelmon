@@ -1,0 +1,20 @@
+{
+   "target": "cobblemon:wynaut",
+  "evolutions": [
+    {
+      "id": "wynaut_wobbuffet_varitasian",
+      "variant": "level_up",
+      "result": "wobbuffet varitasian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ],
+      "permanent": true   
+ }
+  ]
+
+}

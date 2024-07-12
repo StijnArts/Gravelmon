@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class AyreianNinetales extends drai.dev.data.pokemon.Pokemon {
     public AyreianNinetales(String name, Aspect aspect) {
-        super(name, aspect, "Ninetales",
+        super(name, aspect,"AyreianNinetales",
                 Type.GROUND,Type.GHOST,
                 new Stats(73,
                         67,

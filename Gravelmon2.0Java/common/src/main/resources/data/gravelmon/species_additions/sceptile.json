@@ -1,0 +1,546 @@
+{
+   "target": "cobblemon:sceptile",
+   "forms": [{
+  "name": "Fligian",
+  "primaryType": "rock",
+  "abilities": [
+    "sandforce",
+    "h:unburden"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 105,
+    "defence": 85,
+    "special_attack": 85,
+    "special_defence": 65,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "1:stoneedge",
+    "1:peck",
+    "1:honeclaws",
+    "6:quickattack",
+    "10:metalclaw",
+    "16:irondefense",
+    "22:slash",
+    "26:airslash",
+    "30:rockpolish",
+    "36:powergem",
+    "42:nightslash",
+    "46:focusenergy",
+    "50:stoneedge",
+    "56:doubleedge"  ],
+  "labels": [
+    "fliga",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.fligiansceptile.desc"
+  ],
+  "preEvolution": "grovyle form=fligian",
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 18,
+  "weight": 0,
+  "aspects": ["fligian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "dragon",
+  "secondaryType": "fighting",
+  "abilities": [
+    "innerfocus",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 65,
+    "special_attack": 105,
+    "special_defence": 85,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:dracometeor",
+    "1:shadowclaw",
+    "1:tackle",
+    "1:leer",
+    "1:karatechop",
+    "1:quickattack",
+    "5:karatechop",
+    "9:quickattack",
+    "13:furyattack",
+    "16:dragonbreath",
+    "18:feint",
+    "23:brickbreak",
+    "28:dragondance",
+    "33:jumpkick",
+    "36:dualchop",
+    "39:detect",
+    "45:dragonrush",
+    "51:blazekick",
+    "57:quickguard",
+    "63:dracometeor",
+    "69:screech",
+    "tm:honeclaws",
+    "tm:dragonclaw",
+    "tm:calmmind",
+    "tm:roar",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:dragonpulse",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:shadowclaw",
+    "tm:retaliate",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:psychup",
+    "tm:wildcharge",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:xscissor",
+    "tm:poisonjab",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:dracojet",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:acrobatics",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:dragonify",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:cut",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:aurasphere",
+    "tutor:blazekick",
+    "tutor:bodyslam",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:crushclaw",
+    "tutor:dig",
+    "tutor:dracometeor",
+    "tutor:dualchop",
+    "tutor:dynamicpunch",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:helpinghand",
+    "tutor:highjumpkick",
+    "tutor:hypervoice",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:mimic",
+    "tutor:outrage",
+    "tutor:seismictoss",
+    "tutor:snore",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltasceptile.desc"
+  ],
+  "preEvolution": "grovyle form=delta",
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.0,
+    "height": 2.2,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 17,
+  "weight": 522,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Armiran",
+  "primaryType": "poison",
+  "abilities": [
+    "infiltrator",
+    "poisontouch",
+    "h:shedskin"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 105,
+    "defence": 65,
+    "special_attack": 85,
+    "special_defence": 85,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 270,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "1:nightslash",
+    "1:leer",
+    "1:absorb",
+    "1:quickattack",
+    "6:leechlife",
+    "11:slash",
+    "16:xscissor",
+    "17:pursuit",
+    "23:nightslash",
+    "29:poisonjab",
+    "35:voltswitch",
+    "43:toxicspikes",
+    "59:falseswipe",
+    "65:thunder",
+    "77:gunkshot",
+    "tm:dragonclaw",
+    "tm:roar",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:sludgebomb",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:swordsdance",
+    "tm:rockslide",
+    "tm:xscissor",
+    "tm:workup",
+    "tm:poisonjab",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:rocksmash",
+    "tm:cut",
+    "tm:strength",
+    "tm:darkpulse",
+    "tutor:leechlife",
+    "tutor:leafblade",
+    "tutor:brickbreak",
+    "tutor:focuspunch",
+    "tutor:rocktomb",
+    "tutor:pursuit",
+    "tutor:toxicspikes",
+    "tutor:poisonjab",
+    "tutor:frenzyplant",
+    "tutor:irontail",
+    "tutor:thunderpunch",
+    "tutor:dragonpulse",
+    "tutor:dualchop",
+    "tutor:endeavor",
+    "tutor:focuspunch",
+    "tutor:gigadrain",
+    "tutor:laserfocus",
+    "tutor:lowkick",
+    "tutor:outrage",
+    "tutor:pursuit",
+    "tutor:seedbomb",
+    "tutor:snore",
+    "tutor:swagger",
+    "tutor:synthesis",
+    "tutor:worryseed"  ],
+  "labels": [
+    "gen3",
+    "daybreak",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.armiransceptile.desc"
+  ],
+  "preEvolution": "Grovyle",
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 17,
+  "weight": 522,
+  "aspects": ["armiran"],
+  "cannotDynamax": false
+},
+{
+  "name": "Mystic",
+  "primaryType": "flying",
+  "secondaryType": "fairy",
+  "abilities": [
+    "innerfocus",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 65,
+    "defence": 85,
+    "special_attack": 85,
+    "special_defence": 105,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "monster"
+  ],
+  "moves": [
+    "5:fairywind",
+    "1:growl",
+    "2:lifedew",
+    "1:pound",
+    "8:gust",
+    "12:charm",
+    "16:ancientpower",
+    "20:aircutter",
+    "24:dazzlinggleam",
+    "28:hurricane",
+    "32:doubleedge",
+    "36:safeguard",
+    "40:followme",
+    "44:batonpass",
+    "48:lastresort",
+    "52:wish"  ],
+  "labels": [
+    "gen3",
+    "azure",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mysticsceptile.desc"
+  ],
+  "preEvolution": "grovyle form=mystic",
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 522,
+  "aspects": ["mystic"],
+  "cannotDynamax": false
+}
+], "features": [
+"fligian",
+"delta",
+"armiran",
+"mystic"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "implemented": true,
+  "name": "eveon",
+  "nationalPokedexNumber": 3066,
+  "primaryType": "normal",
+  "abilities": [
+    "serenegrace",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 60,
+    "defence": 110,
+    "special_attack": 95,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:helpinghand",
+    "5:sandattack",
+    "9:healpulse",
+    "13:quickattack",
+    "17:round",
+    "20:wish",
+    "25:attract",
+    "29:captivate",
+    "33:calmmind",
+    "37:hypervoice",
+    "41:lastresort",
+    "45:healingwish",
+    "tm:curse",
+    "tm:flail",
+    "tm:detect",
+    "tm:endure",
+    "tm:charm",
+    "tm:wish",
+    "tm:yawn",
+    "tm:faketears",
+    "tm:tickle",
+    "tm:naturalgift",
+    "tm:captivate",
+    "tm:synchronoise",
+    "tm:storedpower"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.eveon.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

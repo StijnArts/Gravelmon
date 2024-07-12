@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shelosene-1",
+      "pokemon": "shelosene",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "30-45",
+      "weight": 2.5,
+      "condition": {
+        "maxY": -40,
+        "canSeeSky": false
+      }
+    }
+  ]
+}

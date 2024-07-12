@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "leviathao-1",
+      "pokemon": "leviathao",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "65-70",
+      "weight": 5.0E-6,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "maxY": 40
+      }
+    }
+  ]
+}

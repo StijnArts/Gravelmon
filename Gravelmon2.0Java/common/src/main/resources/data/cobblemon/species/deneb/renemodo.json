@@ -1,0 +1,117 @@
+{
+  "implemented": true,
+  "name": "renemodo",
+  "nationalPokedexNumber": 4915,
+  "primaryType": "ice",
+  "secondaryType": "electric",
+  "abilities": [
+    "snowwarning"  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 39,
+    "defence": 45,
+    "special_attack": 71,
+    "special_defence": 50,
+    "speed": 44
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 194,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:powdersnow",
+    "1:thundershock",
+    "7:charge",
+    "14:echoedvoice",
+    "21:ancientpower",
+    "28:pluck",
+    "35:avalanche",
+    "42:freezedry",
+    "49:slam",
+    "56:discharge",
+    "63:lifedew",
+    "70:iciclecrash",
+    "77:blizzard",
+    "tm:megapunch",
+    "tm:megakick",
+    "tm:thunderpunch",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:snore",
+    "tm:protect",
+    "tm:icywind",
+    "tm:raindance",
+    "tm:hail",
+    "tm:facade",
+    "tm:rocktomb",
+    "tm:iciclespear",
+    "tm:rockblast",
+    "tm:payback",
+    "tm:avalanche",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:round",
+    "tm:bulldoze",
+    "tm:stompingtantrum"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.renemodo.desc"
+  ],
+  "preEvolution": "remonisu",
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 423,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

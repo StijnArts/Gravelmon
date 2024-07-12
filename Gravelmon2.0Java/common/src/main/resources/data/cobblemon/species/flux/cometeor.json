@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "cometeor",
+  "nationalPokedexNumber": 2595,
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "abilities": [
+    "technician",
+    "sturdy",
+    "h:trace"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 45,
+    "defence": 65,
+    "special_attack": 95,
+    "special_defence": 60,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 146,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:vacuumwave",
+    "1:rockthrow",
+    "1:harden",
+    "1:confusion",
+    "1:swift",
+    "14:confuseray",
+    "17:ancientpower",
+    "20:teleport",
+    "23:rockblast",
+    "28:gravity",
+    "28:magnetrise",
+    "33:psyshock",
+    "38:cosmicpower",
+    "43:stealthrock",
+    "48:powergem",
+    "53:recover",
+    "58:psychoshift",
+    "63:moonblast",
+    "68:meteorbeam"  ],
+  "labels": [
+    "flux",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cometeor.desc"
+  ],
+  "preEvolution": "comite",
+  "evolutions": [
+    {
+      "id": "cometeor_astronite",
+      "variant": "trade",
+      "result": "astronite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 2075,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

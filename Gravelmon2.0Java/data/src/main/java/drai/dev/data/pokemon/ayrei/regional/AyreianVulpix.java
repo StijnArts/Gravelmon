@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class AyreianVulpix extends drai.dev.data.pokemon.Pokemon {
     public AyreianVulpix(String name, Aspect aspect) {
-        super(name, aspect, "Vulpix",
+        super(name, aspect,"AyreianVulpix",
                 Type.GROUND,
                 new Stats(38,
                         41,

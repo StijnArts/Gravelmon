@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "forestic-1",
+      "pokemon": "forestic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-39",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:has_density/sparse",
+"#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

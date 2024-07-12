@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "alfalphalops-1",
+      "pokemon": "alfalphalops",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-45",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain",
+"#cobblemon:is_highlands" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+  ]
+}

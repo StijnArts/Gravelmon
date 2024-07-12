@@ -1,0 +1,253 @@
+{
+   "target": "cobblemon:ponyta",
+   "forms": [{
+  "name": "Africanusan",
+  "primaryType": "flying",
+  "abilities": [
+    "runaway",
+    "flashfire"  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 55,
+    "special_attack": 90,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "25:steelwing",
+    "37:agility",
+    "1:quickattack",
+    "17:stomp",
+    "45:bounce",
+    "1:tailwhip",
+    "21:pluck",
+    "41:flashcannon",
+    "15:metalclaw",
+    "47:irontail",
+    "9:gust",
+    "13:wingattack",
+    "33:aeroblast",
+    "40:furyattack",
+    "35:acrobatics",
+    "29:takedown",
+    "1:growl",
+    "1:peck",
+    "49:bravebird",
+    "egg:captivate",
+    "egg:charm",
+    "egg:doublekick",
+    "egg:doubleedge",
+    "egg:flamewheel",
+    "egg:horndrill",
+    "egg:hypnosis",
+    "egg:lowkick",
+    "egg:morningsun",
+    "egg:thrash"  ],
+  "labels": [
+    "africanus",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.africanusanponyta.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ponyta_rapidash_africanusan",
+      "variant": "level_up",
+      "result": "rapidash africanusan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 300,
+  "aspects": ["africanusan"],
+  "cannotDynamax": false
+},
+{
+  "name": "X",
+  "primaryType": "flying",
+  "abilities": [
+    "cloudnine"  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 82,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 26,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "5:tailwhip",
+    "10:gust",
+    "15:aircutter",
+    "20:agility",
+    "25:bounce",
+    "28:defog",
+    "30:stomp",
+    "35:cottonguard",
+    "41:takedown",
+    "45:airslash",
+    "50:hurricane",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:raindance",
+    "tm:roost",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:skydrop",
+    "tm:acrobatics",
+    "tm:swagger",
+    "tm:substitute",
+    "tutor:aircutter",
+    "tutor:bounce",
+    "tutor:heatwave",
+    "tutor:hurricane",
+    "tutor:icywind",
+    "tutor:lowkick",
+    "tutor:secretpower",
+    "tutor:snore",
+    "tutor:tailwind"  ],
+  "labels": [
+    "xenoverse",
+    "gen1"
+  ],
+  "pokedex": [
+    "cobblemon.species.ponytax.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ponyta_rapidash_x",
+      "variant": "level_up",
+      "result": "rapidash x",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 10,
+  "weight": 260,
+  "aspects": ["x"],
+  "cannotDynamax": false
+}
+], "features": [
+"africanusan",
+"x"
+  ]
+}

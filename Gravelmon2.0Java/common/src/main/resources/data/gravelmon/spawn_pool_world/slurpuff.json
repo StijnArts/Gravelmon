@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vesitanslurpuff-1",
+      "pokemon": "slurpuff vesitan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "27-43",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "slurpuffx-1",
+      "pokemon": "slurpuff x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-48",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+
+]
+}

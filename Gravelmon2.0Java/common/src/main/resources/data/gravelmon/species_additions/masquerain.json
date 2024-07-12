@@ -1,0 +1,92 @@
+{
+   "target": "cobblemon:masquerain",
+   "forms": [{
+  "name": "Norheiman",
+  "primaryType": "bug",
+  "secondaryType": "water",
+  "abilities": [
+    "swarm",
+    "h:drizzle"
+  ],
+  "baseStats": {
+    "hp": 83,
+    "attack": 34,
+    "defence": 68,
+    "special_attack": 99,
+    "special_defence": 68,
+    "speed": 99
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:bubble",
+    "6:quickattack",
+    "9:sweetscent",
+    "14:watersport",
+    "17:bubblebeam",
+    "22:agility",
+    "25:haze",
+    "25:mist",
+    "30:aquajet",
+    "35:batonpass",
+    "38:stickyweb"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.norheimanmasquerain.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": ["norheiman"],
+  "cannotDynamax": false
+}
+], "features": [
+"norheiman"
+  ]
+}

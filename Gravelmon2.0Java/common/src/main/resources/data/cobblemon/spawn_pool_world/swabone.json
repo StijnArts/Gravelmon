@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "swabone-1",
+      "pokemon": "swabone",
+      "presets": [
+          "shipwreck"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "3-27",
+      "weight": 10.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach",
+"#minecraft:is_ocean" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_hills" ]    }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "implemented": true,
+  "name": "lunartic",
+  "nationalPokedexNumber": 1935,
+  "primaryType": "fairy",
+  "abilities": [
+    "unnerve",
+    "toughclaws",
+    "h:pixilate"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 75,
+    "special_defence": 60,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:slash",
+    "12:metalclaw",
+    "19:skillswap",
+    "26:aerialace",
+    "32:nastyplot",
+    "36:moonlight",
+    "41:zenheadbutt",
+    "46:spiritbreak",
+    "55:freezingglare"  ],
+  "labels": [
+    "enriko",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.lunartic.desc"
+  ],
+  "preEvolution": "velveil",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

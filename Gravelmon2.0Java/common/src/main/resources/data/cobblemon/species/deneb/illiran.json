@@ -1,0 +1,143 @@
+{
+  "implemented": true,
+  "name": "illiran",
+  "nationalPokedexNumber": 4955,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "abilities": [
+    "swarm",
+    "h:voltabsorb"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 106,
+    "special_defence": 75,
+    "speed": 87
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:charge",
+    "1:crunch",
+    "1:discharge",
+    "1:stringshot",
+    "15:bite",
+    "23:spark",
+    "29:stickyweb",
+    "36:bugbuzz",
+    "43:guillotine",
+    "50:fly",
+    "57:agility",
+    "64:zapcannon",
+    "tm:takedown",
+    "tm:agility",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:acrobatics",
+    "tm:strugglebug",
+    "tm:pounce",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:bulldoze",
+    "tm:swift",
+    "tm:mudshot",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:raindance",
+    "tm:dig",
+    "tm:airslash",
+    "tm:sleeptalk",
+    "tm:electroball",
+    "tm:lightscreen",
+    "tm:thunderwave",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:flashcannon",
+    "tm:eerieimpulse",
+    "tm:fly",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:xscissor",
+    "tm:crunch",
+    "tm:energyball",
+    "tm:thunderbolt",
+    "tm:batonpass",
+    "tm:electricterrain",
+    "tm:wildcharge",
+    "tm:gigaimpact",
+    "tm:bugbuzz",
+    "tm:hyperbeam",
+    "tm:thunder",
+    "tm:solarbeam",
+    "tm:terablast",
+    "tm:charge",
+    "tm:bugbite",
+    "tm:lunge",
+    "egg:doubleteam",
+    "egg:infestation",
+    "egg:lunge",
+    "egg:poisonsting",
+    "egg:strugglebug"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.illiran.desc"
+  ],
+  "preEvolution": "illapod",
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 418,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -4,7 +4,6 @@ import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 
@@ -12,16 +11,13 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
-import static drai.dev.data.pokemon.Pokemon.ADDITIONAL_PRE_EVOLUTIONS;
-
 public class SpeciesAdditionsWriter {
     public static void writeAdditions(String resourcesDir) {
-        //TODO add substitution files
         Pokemon.ADDITIONAL_FORMS.entrySet().forEach(set -> {
             try {
                 var dir = resourcesDir + "\\data\\gravelmon\\species_additions\\";
                 Files.createDirectories(new File(dir).toPath());
-                writePokemon(set, dir);
+                writePokemon(set, dir, resourcesDir);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -99,7 +95,7 @@ public class SpeciesAdditionsWriter {
         writer.close();
     }
 
-    private synchronized static void writePokemon(Map.Entry<String, List<Pokemon>> set, String dir) throws IOException {
+    private synchronized static void writePokemon(Map.Entry<String, List<Pokemon>> set, String dir, String resourcesDir) throws IOException {
         String fileContents =
                 "{\n" +
                         "   \"target\": \"cobblemon:" + GravelmonUtils.getCleanName(set.getKey()) + "\",\n";
@@ -112,6 +108,7 @@ public class SpeciesAdditionsWriter {
         if (Pokemon.ADDITIONAL_PRE_EVOLUTIONS.containsKey(set.getKey())) {
             fileContents += "  \"preEvolution\": \"" + Pokemon.ADDITIONAL_PRE_EVOLUTIONS.get(set.getKey()) + "\",\n";
         }
+        var features = new ArrayList<String>();
         if (!set.getValue().isEmpty()) {
             fileContents += "   \"forms\": [";
             var isFirstForm = true;
@@ -125,7 +122,16 @@ public class SpeciesAdditionsWriter {
                 } else {
                     fileContents += ",\n";
                 }
-                fileContents += "{\n" + "  \"name\": \"" + StringUtils.capitalize(pokemon.getAdditionalAspect().getName()) + "\",\n";
+                var aspect = pokemon.getAdditionalAspect().getName();
+                if(pokemon.getName().endsWith("One")) {
+                    aspect += "two";
+                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                }
+                if(pokemon.getName().endsWith("Two")) {
+                    aspect += "three";
+                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                }
+                fileContents += "{\n" + "  \"name\": \"" + StringUtils.capitalize(aspect) + "\",\n";
                 fileContents += "  \"primaryType\": \"" + pokemon.getPrimaryType().getName() + "\",\n";
                 if (pokemon.getSecondaryType() != null) {
                     fileContents += "  \"secondaryType\": \"" + pokemon.getSecondaryType().getName() + "\",\n";
@@ -294,22 +300,23 @@ public class SpeciesAdditionsWriter {
                                 "  \"height\": " + pokemon.getHeight() + ",\n" +
                                 "  \"weight\": " + pokemon.getWeight() + ",\n" +
                                 "  \"aspects\": [" +
-                                "\"" + pokemon.getAdditionalAspect().name().toLowerCase() + "\"" +
+                                "\"" + aspect.toLowerCase() + "\"" +
                                 "],\n";
                 fileContents += "  \"cannotDynamax\": " + pokemon.cannotDynamax() + "\n" +
                         "}";
+                features.add(aspect);
             }
             fileContents += "\n], " +
                     "\"features\": [\n";
 
             var isFirstFeature = true;
-            for (var feature : set.getValue().stream().map(Pokemon::getAdditionalAspect).toList()) {
+            for (var feature : features) {
                 if (isFirstFeature) {
                     isFirstFeature = false;
                 } else {
                     fileContents += ",\n";
                 }
-                fileContents += "\"" + feature.name().toLowerCase() + "\"";
+                fileContents += "\"" + feature.toLowerCase() + "\"";
             }
             fileContents += "\n  ]";
 

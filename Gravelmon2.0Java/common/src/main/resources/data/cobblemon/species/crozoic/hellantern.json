@@ -1,0 +1,145 @@
+{
+  "implemented": true,
+  "name": "hellantern",
+  "nationalPokedexNumber": 3317,
+  "primaryType": "bug",
+  "secondaryType": "fire",
+  "abilities": [
+    "ironbarbs",
+    "illuminate",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 54,
+    "attack": 126,
+    "defence": 57,
+    "special_attack": 25,
+    "special_defence": 57,
+    "speed": 112
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:circlethrow",
+    "1:pinmissile",
+    "1:skittersmack",
+    "1:inferno",
+    "1:overheat",
+    "1:bugbite",
+    "1:workup",
+    "1:tailglow",
+    "1:torment",
+    "1:flash",
+    "1:comeuppance",
+    "1:quash",
+    "1:ragepowder",
+    "tm:attract",
+    "tm:bide",
+    "tm:causticbreath",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:electroweb",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:focusenergy",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:secretpower",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:submission",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:torment",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:workup"  ],
+  "labels": [
+    "crozoic",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hellantern.desc"
+  ],
+  "preEvolution": "surveilant",
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 140,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

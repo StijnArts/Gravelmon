@@ -1,0 +1,154 @@
+{
+  "implemented": true,
+  "name": "soarup",
+  "nationalPokedexNumber": 5097,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "abilities": [
+    "sapsipper",
+    "galewings",
+    "h:speedboost"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 75,
+    "defence": 57,
+    "special_attack": 103,
+    "special_defence": 57,
+    "speed": 116
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "grass"
+  ],
+  "moves": [
+    "1:growth",
+    "15:aircutter",
+    "17:megadrain",
+    "20:agility",
+    "29:gigadrain",
+    "38:airslash",
+    "43:drillpeck",
+    "49:aromatherapy",
+    "55:leafstorm",
+    "60:hurricane",
+    "tm:defog",
+    "tm:seedbomb",
+    "tm:recycle",
+    "tm:floralhealing",
+    "tm:hypervoice",
+    "tm:synthesis",
+    "tm:refresh",
+    "tm:tailwind",
+    "tm:skyattack",
+    "tm:drillrun",
+    "tm:snore",
+    "tm:ominouswind",
+    "tm:pollenpuff",
+    "tm:solarblade",
+    "tm:weatherball",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:gigadrain",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:airslash",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:thief",
+    "tm:energyball",
+    "tm:curse",
+    "tm:acrobatics",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:swordsdance",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:steelwing",
+    "tm:trailblaze",
+    "tm:attract",
+    "tm:cut",
+    "tm:fly",
+    "tm:heatwave",
+    "tm:bravebird",
+    "tm:sleeppowder",
+    "tm:petaldance",
+    "tm:healpulse",
+    "tm:silverwind",
+    "tm:grassyglide",
+    "tm:bestow"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.soarup.desc"
+  ],
+  "preEvolution": "nectair",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

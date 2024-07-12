@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "reindigo-1",
+      "pokemon": "reindigo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "45-61",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "timeRange": "night",
+        "canSeeSky": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+   "target": "cobblemon:persian",
+  "evolutions": [
+    {
+      "id": "persian_faeralynx",
+      "variant": "level_up",
+      "result": "faeralynx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "faengrush"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "persian_slynx",
+      "variant": "level_up",
+      "result": "slynx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:razor_claw"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
+   "forms": [{
+  "name": "Cefiranfire",
+  "primaryType": "normal",
+  "secondaryType": "fire",
+  "abilities": [
+    "toughclaws",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 65,
+    "special_attack": 115,
+    "special_defence": 60,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 154,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:switcheroo",
+    "1:scratch",
+    "1:growl",
+    "1:bite",
+    "1:fakeout",
+    "6:ember",
+    "9:fakeout",
+    "14:furyswipes",
+    "17:screech",
+    "22:feintattack",
+    "25:taunt",
+    "28:firefang",
+    "33:icefang",
+    "38:thunderfang",
+    "44:honeclaws",
+    "47:playrough",
+    "53:nightslash",
+    "56:flareblitz",
+    "61:volttackle",
+    "68:iciclecrash",
+    "egg:amnesia",
+    "egg:assist",
+    "egg:charm",
+    "egg:flail",
+    "egg:foulplay",
+    "egg:hypnosis",
+    "egg:irontail",
+    "egg:return",
+    "egg:odorsleuth",
+    "egg:punishment",
+    "egg:snatch",
+    "egg:spite",
+    "egg:tailwhip"  ],
+  "labels": [
+    "opal",
+    "gen1",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranpersianfire.desc"
+  ],
+  "preEvolution": "meowth form=cefiranfire",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 320,
+  "aspects": ["cefiran_fire"],
+  "cannotDynamax": false
+},
+{
+  "name": "Cefiranice",
+  "primaryType": "normal",
+  "secondaryType": "ice",
+  "abilities": [
+    "toughclaws",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 65,
+    "special_attack": 115,
+    "special_defence": 60,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 154,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:switcheroo",
+    "1:scratch",
+    "1:growl",
+    "1:bite",
+    "1:fakeout",
+    "6:ember",
+    "9:fakeout",
+    "14:furyswipes",
+    "17:screech",
+    "22:feintattack",
+    "25:taunt",
+    "28:firefang",
+    "33:icefang",
+    "38:thunderfang",
+    "44:honeclaws",
+    "47:playrough",
+    "53:nightslash",
+    "56:flareblitz",
+    "61:volttackle",
+    "68:iciclecrash",
+    "egg:amnesia",
+    "egg:assist",
+    "egg:charm",
+    "egg:flail",
+    "egg:foulplay",
+    "egg:hypnosis",
+    "egg:irontail",
+    "egg:return",
+    "egg:odorsleuth",
+    "egg:punishment",
+    "egg:snatch",
+    "egg:spite",
+    "egg:tailwhip"  ],
+  "labels": [
+    "opal",
+    "gen1",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranpersianice.desc"
+  ],
+  "preEvolution": "meowth form=cefiranice",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 320,
+  "aspects": ["cefiran_ice"],
+  "cannotDynamax": false
+},
+{
+  "name": "Cefiranelectric",
+  "primaryType": "normal",
+  "secondaryType": "electric",
+  "abilities": [
+    "toughclaws",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 65,
+    "special_attack": 115,
+    "special_defence": 60,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 154,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:switcheroo",
+    "1:scratch",
+    "1:growl",
+    "1:bite",
+    "1:fakeout",
+    "6:ember",
+    "9:fakeout",
+    "14:furyswipes",
+    "17:screech",
+    "22:feintattack",
+    "25:taunt",
+    "28:firefang",
+    "33:icefang",
+    "38:thunderfang",
+    "44:honeclaws",
+    "47:playrough",
+    "53:nightslash",
+    "56:flareblitz",
+    "61:volttackle",
+    "68:iciclecrash",
+    "egg:amnesia",
+    "egg:assist",
+    "egg:charm",
+    "egg:flail",
+    "egg:foulplay",
+    "egg:hypnosis",
+    "egg:irontail",
+    "egg:return",
+    "egg:odorsleuth",
+    "egg:punishment",
+    "egg:snatch",
+    "egg:spite",
+    "egg:tailwhip"  ],
+  "labels": [
+    "opal",
+    "gen1",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranpersianelectric.desc"
+  ],
+  "preEvolution": "meowth form=cefiranelectric",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 320,
+  "aspects": ["cefiran_electric"],
+  "cannotDynamax": false
+}
+], "features": [
+"cefiran_fire",
+"cefiran_ice",
+"cefiran_electric"
+  ]
+}

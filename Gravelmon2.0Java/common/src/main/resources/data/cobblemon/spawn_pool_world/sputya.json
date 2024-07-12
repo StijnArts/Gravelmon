@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sputya-1",
+      "pokemon": "sputya",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "44-67",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky" ],
+        "minY": 200
+      }
+    }
+  ]
+}

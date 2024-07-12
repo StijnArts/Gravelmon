@@ -1,0 +1,103 @@
+{
+  "implemented": true,
+  "name": "kashigan",
+  "nationalPokedexNumber": 3919,
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "abilities": [
+    "magicbounce",
+    "flashfire",
+    "h:superluck"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 95,
+    "special_defence": 80,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 240,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:lick",
+    "1:tailwhip",
+    "1:scratch",
+    "1:moonlight",
+    "5:ember",
+    "11:disarmingvoice",
+    "14:flamecharge",
+    "17:drainingkiss",
+    "20:firespin",
+    "25:luckychant",
+    "27:cosmicpower",
+    "35:flamethrower",
+    "38:willowisp",
+    "41:moonblast",
+    "43:sunnyday",
+    "46:calmmind",
+    "49:psyshock",
+    "tm:hypnosis",
+    "tm:wish",
+    "tm:psychicterrain"  ],
+  "labels": [
+    "fliga",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.kashigan.desc"
+  ],
+  "preEvolution": "sconsimese",
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 18,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

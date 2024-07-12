@@ -1,0 +1,166 @@
+{
+   "target": "cobblemon:kabuto",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "bug",
+  "secondaryType": "dark",
+  "abilities": [
+    "swarm",
+    "unnerve",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 80,
+    "defence": 95,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 71,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:focusenergy",
+    "6:leechlife",
+    "11:leer",
+    "16:furyswipes",
+    "21:taunt",
+    "26:screech",
+    "31:crunch",
+    "36:bugbuzz",
+    "41:swordsdance",
+    "46:pursuit",
+    "50:poisonfang",
+    "tm:honeclaws",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:raindance",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:newmoon",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:venoshock",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:silverwind",
+    "tm:lunarcannon",
+    "tm:round",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:darkmatter",
+    "tm:secretpower",
+    "tm:cut",
+    "tutor:acid",
+    "tutor:bodyslam",
+    "tutor:bugbite",
+    "tutor:dig",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gunkshot",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:signalbeam",
+    "tutor:snore",
+    "tutor:spite"  ],
+  "labels": [
+    "gen1",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltakabuto.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "kabuto_kabutops_delta",
+      "variant": "level_up",
+      "result": "kabutops delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 115,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

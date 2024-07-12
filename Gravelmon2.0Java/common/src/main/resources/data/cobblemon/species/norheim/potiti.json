@@ -1,0 +1,104 @@
+{
+  "implemented": true,
+  "name": "potiti",
+  "nationalPokedexNumber": 3165,
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 25,
+    "defence": 50,
+    "special_attack": 72,
+    "special_defence": 50,
+    "speed": 72
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:leer",
+    "1:mudslap",
+    "5:leafage",
+    "10:mist",
+    "15:mudshot",
+    "20:razorleaf",
+    "25:mudbomb",
+    "30:swagger",
+    "35:ingrain",
+    "41:woodhammer",
+    "45:earthquake"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.potiti.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "potiti_potota",
+      "variant": "level_up",
+      "result": "Potota",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

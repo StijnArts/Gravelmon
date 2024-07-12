@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "caprihorn",
+  "nationalPokedexNumber": 3452,
+  "primaryType": "psychic",
+  "abilities": [
+    "runaway"  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 130,
+    "special_defence": 95,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:quickattack",
+    "5:confusion",
+    "10:agility",
+    "15:psybeam",
+    "20:stomp",
+    "25:takedown",
+    "30:aurorabeam",
+    "35:healpulse",
+    "40:bounce",
+    "48:psychic",
+    "56:dazzlinggleam",
+    "64:megahorn",
+    "tm:aurorabeam",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bide",
+    "tm:bodyslam",
+    "tm:bubblebeam",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:cut",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:snowscape",
+    "tm:hiddenpower",
+    "tm:horndrill",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:lightscreen",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:psywave",
+    "tm:rage",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skullbash",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:teleport",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:watergun",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:healingwish",
+    "tm:fairywind",
+    "tm:highhorsepower"  ],
+  "labels": [
+    "lonava",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.caprihorn.desc"
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

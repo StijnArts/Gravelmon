@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "africanusangothitelle-1",
+      "pokemon": "angothitelle africanus",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "42-53",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island",
+"#cobblemon:is_arid" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+
+]
+}

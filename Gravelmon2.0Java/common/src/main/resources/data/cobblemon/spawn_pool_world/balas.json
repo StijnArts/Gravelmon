@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "balas-1",
+      "pokemon": "balas",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-75",
+      "weight": 4.0E-4,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo" ]
+      }
+    }
+  ]
+}

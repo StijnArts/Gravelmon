@@ -32,9 +32,9 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new AfricanusanGothita("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanGothorita("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanGothitelle("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanGothita("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanGothorita("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanGothitelle("", Aspect.AFRICANUSAN));
 
 //        pokemon.add(new LagoonanLitwick("", Aspect.LAGOONAN)); TODO
 //        pokemon.add(new LagoonanLampent("", Aspect.LAGOONAN));
@@ -166,6 +166,38 @@ public class GenerationFive extends Game {
         pokemon.add(new ArmiranGigalith("", Aspect.ARMIRAN));
 
         //Vanguard
+//        pokemon.add(new AyreianSnivy("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianServine("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianSerperior("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianTepig("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianPignite("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianEmboar("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianWatchog("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianPidove("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianTranquill("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianUnfezant("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianAudino("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianCottonee("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianWhimsicott("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianSandile("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianKrokorok("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianKrookodile("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianSolosis("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianDuosion("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianReuniclus("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianAxew("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianFraxure("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianHaxorus("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianDruddigon("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianPawniard("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianBisharp("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianHydreigon("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianFerroseed("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianFerrothorn("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianTimburr("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianGurdurr("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianConkeldurr("", Aspect.AYREIAN));
+
         pokemon.add(new AyreianDwebble("", Aspect.AYREIAN));
         pokemon.add(new AyreianArchen("", Aspect.AYREIAN));
         pokemon.add(new AyreianArcheops("", Aspect.AYREIAN));

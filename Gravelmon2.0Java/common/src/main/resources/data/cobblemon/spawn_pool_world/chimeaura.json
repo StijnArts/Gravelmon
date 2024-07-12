@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chimeaura-1",
+      "pokemon": "chimeaura",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "36-65",
+      "weight": 1.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky",
+"#cobblemon:is_magical",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold" ]    }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "moltank",
+  "nationalPokedexNumber": 2672,
+  "primaryType": "fire",
+  "secondaryType": "ground",
+  "abilities": [
+    "magmaarmor",
+    "h:bulletproof"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 70,
+    "defence": 105,
+    "special_attack": 70,
+    "special_defence": 105,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 150,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:harden",
+    "4:ember",
+    "9:yawn",
+    "14:incinerate",
+    "18:magnitude",
+    "23:lavaplume",
+    "25:earthpower",
+    "32:bodyslam",
+    "39:snore",
+    "45:flamethrower",
+    "51:earthquake",
+    "59:eruption"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.moltank.desc"
+  ],
+  "preEvolution": "melant",
+  "baseScale": 0.5499999999999999,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 33,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

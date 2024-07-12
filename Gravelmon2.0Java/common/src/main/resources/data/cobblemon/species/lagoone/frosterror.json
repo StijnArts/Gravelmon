@@ -1,0 +1,93 @@
+{
+  "implemented": true,
+  "name": "frosterror",
+  "nationalPokedexNumber": 1529,
+  "primaryType": "ice",
+  "secondaryType": "rock",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 115,
+    "defence": 120,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 225,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:tailwhip",
+    "4:powdersnow",
+    "12:stomp",
+    "16:bide",
+    "20:rockslide",
+    "24:ancientpower",
+    "28:mist",
+    "32:iciclespear",
+    "40:endure",
+    "44:rockpolish",
+    "48:iciclecrash",
+    "52:stoneedge",
+    "58:blizzard"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.frosterror.desc"
+  ],
+  "preEvolution": "coldozer",
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 1180,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hiziantropius-1",
+      "pokemon": "tropius hizian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-45",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:has_season/summer" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_desert" ]    }
+    }
+,
+    {
+      "id": "aristosiantropius-1",
+      "pokemon": "tropius aristosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-45",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island",
+"#cobblemon:is_island" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "kaskadiantropius-1",
+      "pokemon": "tropius kaskadian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-45",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_old_growth_taiga" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

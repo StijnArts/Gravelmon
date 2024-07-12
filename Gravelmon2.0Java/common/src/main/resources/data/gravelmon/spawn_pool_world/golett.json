@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltagolett-1",
+      "pokemon": "golett delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-43",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_desert" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "kaskadiangolett-1",
+      "pokemon": "golett kaskadian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "20-30",
+      "weight": 1.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": false
+      }
+    }
+,
+    {
+      "id": "cefirangolett-1",
+      "pokemon": "golett cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-43",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

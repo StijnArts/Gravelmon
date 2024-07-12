@@ -1,0 +1,100 @@
+{
+   "target": "cobblemon:aromatisse",
+   "forms": [{
+  "name": "Vesitan",
+  "primaryType": "fairy",
+  "secondaryType": "psychic",
+  "abilities": [
+    "healer",
+    "aromaveil"  ],
+  "baseStats": {
+    "hp": 101,
+    "attack": 32,
+    "defence": 72,
+    "special_attack": 90,
+    "special_defence": 99,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:aromaticmist",
+    "38:flail",
+    "17:calmmind",
+    "42:dreameater",
+    "57:reflect",
+    "31:moonblast",
+    "21:drainingkiss",
+    "6:sweetkiss",
+    "64:psychup",
+    "35:hypnosis",
+    "53:disarmingvoice",
+    "48:psychic",
+    "8:odorsleuth",
+    "44:skillswap",
+    "1:sweetscent",
+    "29:attract",
+    "1:healpulse",
+    "13:confusion",
+    "25:aromatherapy",
+    "1:fairywind"  ],
+  "labels": [
+    "chaosinvestia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vesitanaromatisse.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 155,
+  "aspects": ["vesitan"],
+  "cannotDynamax": false
+}
+], "features": [
+"vesitan"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "earwick",
+  "nationalPokedexNumber": 4501,
+  "primaryType": "ground",
+  "secondaryType": "bug",
+  "abilities": [
+    "sturdy",
+    "h:runaway"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 80,
+    "special_attack": 20,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:sandattack",
+    "1:scratch",
+    "5:harden",
+    "10:falseswipe",
+    "15:mudslap",
+    "21:absorb",
+    "25:metalclaw",
+    "30:furyswipes",
+    "35:mindreader",
+    "40:dig"  ],
+  "labels": [
+    "midamis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.earwick.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "earwick_earmor",
+      "variant": "level_up",
+      "result": "earmor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

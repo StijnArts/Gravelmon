@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "vorasect",
+  "nationalPokedexNumber": 1339,
+  "primaryType": "bug",
+  "abilities": [
+    "hustle",
+    "quickfeet",
+    "h:strongjaw"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 110,
+    "defence": 85,
+    "special_attack": 40,
+    "special_defence": 60,
+    "speed": 125
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:swift",
+    "6:detect",
+    "11:quickattack",
+    "14:visegrip",
+    "17:pursuit",
+    "20:bugbite",
+    "23:scaryface",
+    "29:agility",
+    "32:crunch",
+    "37:honeclaws",
+    "41:lunge",
+    "46:superpower",
+    "51:thrash",
+    "57:guillotine",
+    "tm:closecombat",
+    "tm:superpower",
+    "tm:firefang",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:bounce",
+    "tm:airslash",
+    "tm:dualwingbeat",
+    "tm:ironhead",
+    "tm:foulplay",
+    "tm:throatchop",
+    "tm:crosspoison",
+    "tm:psychicfangs",
+    "tm:zenheadbutt",
+    "tm:dig",
+    "tm:falseswipe",
+    "tm:echoedvoice",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:return",
+    "tm:frustration",
+    "tm:facade",
+    "tm:hiddenpower",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:brickbreak",
+    "tm:uturn",
+    "tm:xscissor",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:signalbeam",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:rocktomb",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:smartstrike",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:swagger",
+    "tm:doubleteam",
+    "tm:attract",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:torment",
+    "tm:taunt",
+    "tm:workup",
+    "tm:bulkup",
+    "tm:swordsdance",
+    "tm:toxic",
+    "tm:cut",
+    "tm:rocksmash",
+    "tm:strength",
+    "tm:bite",
+    "tm:furycutter",
+    "tm:feint",
+    "tm:xscissor",
+    "tm:finalgambit",
+    "tm:strugglebug"  ],
+  "labels": [
+    "rica",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.vorasect.desc"
+  ],
+  "preEvolution": "fleetle",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

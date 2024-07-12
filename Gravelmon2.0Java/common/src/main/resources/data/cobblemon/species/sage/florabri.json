@@ -1,0 +1,165 @@
+{
+  "implemented": true,
+  "name": "florabri",
+  "nationalPokedexNumber": 1026,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "abilities": [
+    "overgrow",
+    "h:galewings"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 50,
+    "defence": 56,
+    "special_attack": 86,
+    "special_defence": 58,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "grass",
+    "flying"
+  ],
+  "moves": [
+    "1:quiverdance",
+    "1:jetstrike",
+    "1:tackle",
+    "4:growl",
+    "7:absorb",
+    "10:gust",
+    "13:megadrain",
+    "16:aircutter",
+    "20:grasswhistle",
+    "24:leaftornado",
+    "28:agility",
+    "32:tempest",
+    "36:gigadrain",
+    "41:windshear",
+    "46:synthesis",
+    "51:airslash",
+    "56:petaldance",
+    "61:aromatherapy",
+    "66:hurricane",
+    "71:leafstorm",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:endure",
+    "tm:acrobatics",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:swordsdance",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:bulletseed",
+    "tm:cut",
+    "tm:fly",
+    "tm:strength",
+    "tutor:bounce",
+    "tutor:endeavor",
+    "tutor:grasspledge",
+    "tutor:secretpower",
+    "tutor:seedbomb",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "egg:growth",
+    "egg:leechseed",
+    "egg:quickattack",
+    "egg:roost",
+    "egg:seedbomb",
+    "egg:synthesis",
+    "egg:worryseed"  ],
+  "labels": [
+    "sage",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.florabri.desc"
+  ],
+  "preEvolution": "foliat",
+  "evolutions": [
+    {
+      "id": "florabri_floressum",
+      "variant": "level_up",
+      "result": "floressum",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 8,
+  "weight": 65,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

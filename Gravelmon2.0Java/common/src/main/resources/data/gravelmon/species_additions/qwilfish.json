@@ -1,0 +1,304 @@
+{
+   "target": "cobblemon:qwilfish",
+  "evolutions": [
+    {
+      "id": "qwilfish_kablowfish",
+      "variant": "level_up",
+      "result": "kablowfish",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
+   "forms": [{
+  "name": "Fligian",
+  "primaryType": "water",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisonpoint",
+    "swiftswim",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 105,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 86,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2"
+  ],
+  "moves": [
+    "1:watergun",
+    "1:spikes",
+    "1:tackle",
+    "1:poisonsting",
+    "9:minimize",
+    "9:harden",
+    "13:bubble",
+    "17:rollout",
+    "21:toxicspikes",
+    "25:spitup",
+    "25:stockpile",
+    "29:revenge",
+    "33:brine",
+    "37:pinmissile",
+    "41:takedown",
+    "45:aquatail",
+    "49:poisonjab",
+    "53:destinybond",
+    "57:hydropump",
+    "60:fellstinger",
+    "tm:snore",
+    "tm:icywind",
+    "tm:painsplit",
+    "tm:signalbeam",
+    "tm:bounce",
+    "tm:shockwave",
+    "tm:waterpulse",
+    "tm:aquatail",
+    "tm:liquidation",
+    "tm:throatchop",
+    "tm:surf",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:waterfall",
+    "tm:explosion",
+    "tm:rest",
+    "tm:substitute",
+    "tm:protect",
+    "tm:sludgebomb",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalk",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:shadowball",
+    "tm:snowscape",
+    "tm:facade",
+    "tm:taunt",
+    "tm:gyroball",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:venoshock",
+    "tm:sludgewave",
+    "tm:round",
+    "tm:scald",
+    "tm:confide",
+    "tm:supersonic",
+    "tm:bubblebeam",
+    "tm:haze",
+    "tm:flail",
+    "tm:astonish",
+    "tm:brine",
+    "tm:aquajet",
+    "tm:acidspray"  ],
+  "labels": [
+    "fliga",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fligianqwilfish.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "qwilfish_barbray",
+      "variant": "level_up",
+      "result": "barbray",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 39,
+  "aspects": ["fligian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Hoennian",
+  "primaryType": "poison",
+  "secondaryType": "steel",
+  "abilities": [
+    "levitate"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 52,
+    "defence": 160,
+    "special_attack": 93,
+    "special_defence": 110,
+    "speed": 5
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 88,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "water_2"
+  ],
+  "moves": [
+    "egg:taunt",
+    "egg:ragingwaves",
+    "egg:hypervoice",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tm:scald",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:irontail",
+    "tm:return",
+    "tm:shadowball",
+    "tm:shimmershot",
+    "tm:shockwave",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "1:poisonsting",
+    "1:minimize",
+    "1:spikes",
+    "10:ironhead",
+    "10:smog",
+    "19:pinmissile",
+    "28:whirlpool",
+    "37:toxifume",
+    "46:carbonize"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen2",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianqwilfish.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 430,
+  "aspects": ["hoennian"],
+  "cannotDynamax": false
+}
+], "features": [
+"fligian",
+"hoennian"
+  ]
+}

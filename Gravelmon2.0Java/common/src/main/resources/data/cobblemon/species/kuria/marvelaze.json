@@ -1,0 +1,99 @@
+{
+  "implemented": true,
+  "name": "marvelaze",
+  "nationalPokedexNumber": 4208,
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "abilities": [
+    "flashfire",
+    "pressure",
+    "h:serenegrace"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 55,
+    "defence": 55,
+    "special_attack": 115,
+    "special_defence": 95,
+    "speed": 128
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.125,
+  "shoulderMountable": false,
+  "baseExperienceYield": 182,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "human_like"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "1:ember",
+    "1:charm",
+    "8:drainingkiss",
+    "12:willowisp",
+    "22:fairylock",
+    "25:bite",
+    "28:firefang",
+    "30:mirrormove",
+    "37:dazzlinggleam",
+    "40:mysticalfire",
+    "51:fireblast",
+    "55:substitute",
+    "60:mistyterrain"  ],
+  "labels": [
+    "kuria",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.marvelaze.desc"
+  ],
+  "preEvolution": "embay",
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 10,
+  "weight": 195,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

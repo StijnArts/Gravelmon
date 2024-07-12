@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "blue_tokakle-1",
+      "pokemon": "tokakle blue",
+      "presets": [ "village"],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "4-25",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nurturse-1",
+      "pokemon": "nurturse",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "27-45",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest",
+"#cobblemon:is_magical" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:has_season/summer" ]    }
+    }
+  ]
+}

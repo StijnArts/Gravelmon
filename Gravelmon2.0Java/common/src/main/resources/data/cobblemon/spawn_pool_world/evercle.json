@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "evercle-1",
+      "pokemon": "evercle",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "33-48",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

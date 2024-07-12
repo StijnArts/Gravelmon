@@ -1,0 +1,173 @@
+{
+   "target": "cobblemon:plusle",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "abilities": [
+    "cutecharm",
+    "h:pixilate"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 85,
+    "special_defence": 75,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 151,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:nuzzle",
+    "1:playnice",
+    "1:growl",
+    "1:sunnyday",
+    "1:quickattack",
+    "4:helpinghand",
+    "7:ember",
+    "10:encore",
+    "13:babydolleyes",
+    "16:disarmingvoice",
+    "19:incinerate",
+    "22:copycat",
+    "25:teeterdance",
+    "28:charm",
+    "31:dazzlinggleam",
+    "34:batonpass",
+    "37:workup",
+    "40:silverwind",
+    "43:fireblast",
+    "46:quiverdance",
+    "49:entrainment",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:overheat",
+    "tm:energyball",
+    "tm:chargebeam",
+    "tm:skillswap",
+    "tm:willowisp",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:acrobatics",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:silverwind",
+    "tm:lunarcannon",
+    "tm:incinerate",
+    "tm:allyswitch",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:batonpass",
+    "tutor:bodyslam",
+    "tutor:counter",
+    "tutor:dynamicpunch",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:metronome",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:seismictoss",
+    "tutor:snore",
+    "tutor:synthesis",
+    "tutor:uproar",
+    "tutor:wish",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaplusle.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 42,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

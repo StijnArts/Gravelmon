@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "sorbeak",
+  "nationalPokedexNumber": 1616,
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "abilities": [
+    "icebody",
+    "h:sweetveil"
+  ],
+  "baseStats": {
+    "hp": 76,
+    "attack": 53,
+    "defence": 43,
+    "special_attack": 62,
+    "special_defence": 66,
+    "speed": 42
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:doubleteam",
+    "1:headbutt",
+    "1:leer",
+    "1:powdersnow",
+    "1:sheercold",
+    "15:iceshard",
+    "20:protect",
+    "25:icywind",
+    "30:frostbreath",
+    "35:bite",
+    "40:icefang",
+    "47:snowscape",
+    "54:weatherball",
+    "61:crunch",
+    "68:blizzard"  ],
+  "labels": [
+    "interregional",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sorbeak.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sorbeak_dulswoop",
+      "variant": "level_up",
+      "result": "dulswoop",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "boombird-1",
+      "pokemon": "boombird",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "40-54",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland",
+"#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_savanna" ]    }
+    }
+  ]
+}

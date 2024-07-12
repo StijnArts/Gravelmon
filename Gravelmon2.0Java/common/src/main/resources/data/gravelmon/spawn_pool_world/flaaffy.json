@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aristosianflaaffy-1",
+      "pokemon": "flaaffy aristosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "15-37",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_hills" ]    }
+    }
+,
+    {
+      "id": "mythianflaaffy-1",
+      "pokemon": "flaaffy mythian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "15-36",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_forest" ]
+      }
+    }
+
+]
+}

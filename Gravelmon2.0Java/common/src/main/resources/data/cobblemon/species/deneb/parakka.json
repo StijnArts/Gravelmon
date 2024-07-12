@@ -1,0 +1,133 @@
+{
+  "implemented": true,
+  "name": "parakka",
+  "nationalPokedexNumber": 4900,
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "abilities": [
+    "prankster",
+    "h:infiltrator"
+  ],
+  "baseStats": {
+    "hp": 49,
+    "attack": 35,
+    "defence": 30,
+    "special_attack": 54,
+    "special_defence": 48,
+    "speed": 58
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:supersonic",
+    "6:bite",
+    "10:confuseray",
+    "12:aircutter",
+    "17:taunt",
+    "21:wingattack",
+    "23:meanlook",
+    "28:exsanguinate",
+    "32:leechlife",
+    "34:hypnosis",
+    "39:airslash",
+    "43:nightmare",
+    "45:nastyplot",
+    "50:wormhole",
+    "tutor:snarl",
+    "tutor:teeterdance",
+    "tutor:poisonfang",
+    "tutor:snatch",
+    "tutor:uturn",
+    "tutor:encore",
+    "tutor:crunch",
+    "tutor:suckerpunch",
+    "tm:frustration",
+    "tm:aerialace",
+    "tm:fly",
+    "egg:acrobatics",
+    "egg:razorwind",
+    "egg:defog",
+    "egg:haze",
+    "egg:feintattack",
+    "egg:nightshade",
+    "egg:leer",
+    "egg:snarl",
+    "egg:steelwing",
+    "egg:featherdance",
+    "egg:whirlwind",
+    "egg:magiccoat"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.parakka.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "parakka_dannpyre",
+      "variant": "level_up",
+      "result": "Dannpyre",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 53,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

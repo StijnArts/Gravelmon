@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "kokiseed",
+  "nationalPokedexNumber": 1399,
+  "primaryType": "grass",
+  "abilities": [
+    "owntempo",
+    "scrappy",
+    "h:soundproof"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 55,
+    "defence": 55,
+    "special_attack": 55,
+    "special_defence": 60,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 52,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "moves": [
+    "1:growl",
+    "1:pound",
+    "3:absorb",
+    "6:leechseed",
+    "9:razorleaf",
+    "11:headbutt",
+    "14:focusenergy",
+    "16:megadrain",
+    "19:counter",
+    "24:petaldance",
+    "27:synthesis",
+    "29:leaftornado",
+    "33:petalblizzard",
+    "35:leafblade",
+    "38:gigadrain",
+    "42:woodhammer",
+    "44:solarbeam",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:fling",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:workup",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:rocksmash",
+    "tm:bulletseed",
+    "tm:cut",
+    "tutor:drainpunch",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:headbutt",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:synthesis",
+    "tutor:trick",
+    "egg:amnesia",
+    "egg:charm",
+    "egg:curse",
+    "egg:endure",
+    "egg:grasswhistle",
+    "egg:ingrain",
+    "egg:leafstorm",
+    "egg:magicalleaf",
+    "egg:naturepower",
+    "egg:skullbash",
+    "egg:sludge"  ],
+  "labels": [
+    "infinity"
+  ],
+  "pokedex": [
+    "cobblemon.species.kokiseed.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "kokiseed_kokipound",
+      "variant": "level_up",
+      "result": "kokipound",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.4,
+    "height": 0.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 60,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

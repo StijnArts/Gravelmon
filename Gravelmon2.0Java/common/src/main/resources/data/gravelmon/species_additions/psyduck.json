@@ -1,0 +1,111 @@
+{
+   "target": "cobblemon:psyduck",
+   "forms": [{
+  "name": "Qamoran",
+  "primaryType": "fairy",
+  "abilities": [
+    "oblivious",
+    "klutz",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 48,
+    "special_attack": 47,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "4:tailwhip",
+    "7:wingattack",
+    "10:confusion",
+    "13:furyswipes",
+    "16:waterpulse",
+    "19:disable",
+    "22:screech",
+    "25:zenheadbutt",
+    "28:acrobatics",
+    "31:roost",
+    "34:psychup",
+    "37:amnesia",
+    "40:playrough",
+    "43:mirrormove"  ],
+  "labels": [
+    "qamor",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.qamoranpsyduck.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "psyduck_gobbledyduck",
+      "variant": "item_interact",
+      "result": "gobbledyduck",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": ["qamoran"],
+  "cannotDynamax": false
+}
+], "features": [
+"qamoran"
+  ]
+}

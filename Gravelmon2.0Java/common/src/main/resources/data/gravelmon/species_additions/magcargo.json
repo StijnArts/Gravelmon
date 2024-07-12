@@ -1,0 +1,142 @@
+{
+   "target": "cobblemon:magcargo",
+  "evolutions": [
+    {
+      "id": "magcargo_escaruption",
+      "variant": "level_up",
+      "result": "escaruption",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 54
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "magcargo_magukigai",
+      "variant": "level_up",
+      "result": "magukigai",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 54
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+   "forms": [{
+  "name": "Cefiran",
+  "primaryType": "poison",
+  "secondaryType": "steel",
+  "abilities": [
+    "keeneye",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 50,
+    "defence": 140,
+    "special_attack": 30,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 144,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:yawn",
+    "1:smog",
+    "1:ember",
+    "1:sludge",
+    "5:ember",
+    "10:sludge",
+    "14:harden",
+    "19:recover",
+    "23:flameburst",
+    "28:sludgebomb",
+    "32:amnesia",
+    "37:lavaplume",
+    "38:shellsmash",
+    "44:flashcannon",
+    "52:bodyslam",
+    "59:flamethrower",
+    "67:earthpower",
+    "egg:acidarmor",
+    "egg:curse",
+    "egg:earthpower",
+    "egg:heatwave",
+    "egg:inferno",
+    "egg:memento",
+    "egg:rollout",
+    "egg:smokescreen",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow"  ],
+  "labels": [
+    "gen2",
+    "opal",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranmagcargo.desc"
+  ],
+  "preEvolution": "slugma form=cefiran",
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 550,
+  "aspects": ["cefiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"cefiran"
+  ]
+}

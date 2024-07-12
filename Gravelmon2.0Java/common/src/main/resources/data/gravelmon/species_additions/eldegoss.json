@@ -1,0 +1,20 @@
+{
+   "target": "cobblemon:eldegoss",
+  "evolutions": [
+    {
+      "id": "eldegoss_witherscence",
+      "variant": "level_up",
+      "result": "witherscence",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:has_season/autumn"
+        }
+      ],
+      "permanent": true   
+ }
+  ]
+
+}

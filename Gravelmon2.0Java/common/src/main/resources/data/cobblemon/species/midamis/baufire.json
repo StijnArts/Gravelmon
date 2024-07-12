@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "baufire",
+  "nationalPokedexNumber": 4473,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:flamebody"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 80,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:ember",
+    "17:mudsport",
+    "20:firespin",
+    "27:endure",
+    "31:incinerate",
+    "38:bulldoze",
+    "42:firefang",
+    "49:fireblast",
+    "53:earthpower",
+    "60:flareblitz",
+    "tm:hornattack",
+    "tm:lick",
+    "tm:swift",
+    "tm:rollout",
+    "tm:magnitude",
+    "tm:willowisp",
+    "tm:taunt",
+    "tm:thunderfang"  ],
+  "labels": [
+    "midamis",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.baufire.desc"
+  ],
+  "preEvolution": "pyrall",
+  "evolutions": [
+    {
+      "id": "baufire_inferlauf",
+      "variant": "level_up",
+      "result": "Inferlauf",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

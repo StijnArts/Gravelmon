@@ -1,0 +1,132 @@
+{
+  "implemented": true,
+  "name": "rubball",
+  "nationalPokedexNumber": 4826,
+  "primaryType": "rock",
+  "secondaryType": "ground",
+  "abilities": [
+    "sturdy",
+    "h:hugepower"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 65,
+    "defence": 130,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 128,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:sandattack",
+    "1:tackle",
+    "6:mudslap",
+    "10:rollout",
+    "13:defensecurl",
+    "18:rockthrow",
+    "22:bulldoze",
+    "25:mudsport",
+    "30:stomp",
+    "34:dig",
+    "37:sandstorm",
+    "42:rockslide",
+    "49:screech",
+    "58:earthquake",
+    "61:rockpolish",
+    "tm:spikes",
+    "tm:headbutt",
+    "tm:megahorn",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:poisonjab",
+    "tm:irondefense",
+    "tm:devastate",
+    "tm:mudbomb",
+    "tm:ragingflame",
+    "tm:explosion",
+    "tutor:shadowclamp",
+    "tutor:dig",
+    "tutor:hiddenpower",
+    "tutor:rest",
+    "tutor:toxic",
+    "egg:ancientpower",
+    "egg:block",
+    "egg:counter",
+    "egg:curse",
+    "egg:doubleedge",
+    "egg:endure",
+    "egg:flail",
+    "egg:flamewheel",
+    "egg:geoimpact",
+    "egg:ironhead",
+    "egg:lowkick",
+    "egg:magnitude",
+    "egg:protect",
+    "egg:rage",
+    "egg:rocktomb",
+    "egg:sandstorm",
+    "egg:selfdestruct",
+    "egg:steamroller",
+    "egg:stoneedge",
+    "egg:sunnyday",
+    "egg:workup",
+    "egg:zenheadbutt"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.rubball.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 835,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

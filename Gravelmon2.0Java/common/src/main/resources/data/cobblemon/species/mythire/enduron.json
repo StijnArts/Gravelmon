@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "enduron",
+  "nationalPokedexNumber": 3889,
+  "primaryType": "dragon",
+  "secondaryType": "psychic",
+  "abilities": [
+    "marvelscale",
+    "h:filter"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 55,
+    "defence": 100,
+    "special_attack": 60,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 144,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "monster"
+  ],
+  "moves": [
+    "1:flash",
+    "1:dragonclaw",
+    "1:powergem",
+    "1:breakingswipe",
+    "1:tearfullook",
+    "1:barrier",
+    "1:magiccoat",
+    "1:miracleeye",
+    "1:psyshock",
+    "1:confusion",
+    "1:flail",
+    "1:covet",
+    "tm:scaleshot"  ],
+  "labels": [
+    "mythire",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.enduron.desc"
+  ],
+  "preEvolution": "timidon",
+  "evolutions": [
+    {
+      "id": "enduron_chrystasis",
+      "variant": "item_interact",
+      "result": "Chrystasis",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

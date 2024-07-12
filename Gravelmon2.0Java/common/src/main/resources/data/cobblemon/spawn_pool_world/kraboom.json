@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kraboom-1",
+      "pokemon": "kraboom",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "39-54",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

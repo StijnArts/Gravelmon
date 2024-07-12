@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "inscribble-1",
+      "pokemon": "inscribble",
+      "presets": [
+          "near_bookshelves"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-12",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "africanusancomfey-1",
+      "pokemon": "comfey africanusan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-44",
+      "weight": 2.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical",
+"#cobblemon:is_jungle",
+"#cobblemon:has_density/dense" ]
+      }
+    }
+
+]
+}

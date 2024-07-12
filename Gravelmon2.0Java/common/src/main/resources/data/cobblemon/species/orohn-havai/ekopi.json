@@ -1,0 +1,113 @@
+{
+  "implemented": true,
+  "name": "ekopi",
+  "nationalPokedexNumber": 2923,
+  "primaryType": "grass",
+  "abilities": [
+    "overgrow",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 65,
+    "defence": 45,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:growl",
+    "5:vinewhip",
+    "9:lowkick",
+    "13:focusenergy",
+    "16:karatechop",
+    "19:razorleaf",
+    "23:forcepalm",
+    "27:bulkup",
+    "30:leechseed",
+    "34:chipaway",
+    "37:bulletseed",
+    "44:skyuppercut",
+    "47:woodhammer",
+    "tm:bellydrum",
+    "tm:synthesis",
+    "tm:drainpunch",
+    "tm:powerwhip",
+    "tm:quickguard",
+    "tm:poweruppunch"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ekopi.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ekopi_ekoraft",
+      "variant": "level_up",
+      "result": "ekoraft",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 17
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

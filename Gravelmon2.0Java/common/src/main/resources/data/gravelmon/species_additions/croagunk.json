@@ -1,0 +1,178 @@
+{
+   "target": "cobblemon:croagunk",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "fire",
+  "abilities": [
+    "magmaarmor",
+    "blaze",
+    "h:hustle"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 61,
+    "defence": 40,
+    "special_attack": 61,
+    "special_defence": 40,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 53,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "3:smog",
+    "8:flamecharge",
+    "10:harden",
+    "15:incinerate",
+    "17:ancientpower",
+    "22:flamewheel",
+    "24:swagger",
+    "29:clearsmog",
+    "31:earthpower",
+    "36:lavaplume",
+    "38:workup",
+    "43:blazekick",
+    "45:flareblitz",
+    "47:eruption",
+    "50:flatter",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:overheat",
+    "tm:fling",
+    "tm:willowisp",
+    "tm:explosion",
+    "tm:retaliate",
+    "tm:psychup",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:secretpower",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:blazekick",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:dig",
+    "tutor:dynamicpunch",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:flareblitz",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:mimic",
+    "tutor:painsplit",
+    "tutor:snore",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:suckerpunch",
+    "tutor:thunderpunch",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen4",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltacroagunk.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "croagunk_toxicroak_delta",
+      "variant": "level_up",
+      "result": "toxicroak delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 230,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta"
+  ]
+}

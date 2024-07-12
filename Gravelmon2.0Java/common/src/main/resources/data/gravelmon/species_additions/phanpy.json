@@ -1,0 +1,119 @@
+{
+   "target": "cobblemon:phanpy",
+   "forms": [{
+  "name": "Africanusan",
+  "primaryType": "ground",
+  "secondaryType": "rock",
+  "abilities": [
+    "sturdy"  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:sandstorm",
+    "28:drillrun",
+    "1:tackle",
+    "12:mudshot",
+    "10:accelerock",
+    "1:odorsleuth",
+    "15:rollout",
+    "42:doubleedge",
+    "6:mudslap",
+    "1:growl",
+    "20:bulldoze",
+    "33:rocktomb",
+    "37:lastresort",
+    "egg:ancientpower",
+    "egg:bodyslam",
+    "egg:counter",
+    "egg:endeavor",
+    "egg:fissure",
+    "egg:focusenergy",
+    "egg:headsmash",
+    "egg:heavyslam",
+    "egg:iceshard",
+    "egg:mudslap",
+    "egg:snore"  ],
+  "labels": [
+    "africanus",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.africanusanphanpy.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "phanpy_donphan_africanusan",
+      "variant": "level_up",
+      "result": "donphan africanusan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 335,
+  "aspects": ["africanusan"],
+  "cannotDynamax": false
+}
+], "features": [
+"africanusan"
+  ]
+}

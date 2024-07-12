@@ -1,0 +1,65 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltatentacool-1",
+      "pokemon": "tentacool delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-35",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "hoenniantentacool-1",
+      "pokemon": "tentacool hoennian",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "9-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ],
+        "canSeeSky": true,
+        "maxY": 48
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_freezing" ]    }
+    }
+,
+    {
+      "id": "relictentacool-1",
+      "pokemon": "tentacool relic",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "9-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ],
+        "canSeeSky": true,
+        "maxY": 48
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ]    }
+    }
+
+]
+}

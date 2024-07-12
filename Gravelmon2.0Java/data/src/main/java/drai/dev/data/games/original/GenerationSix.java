@@ -27,9 +27,9 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new AfricanusanHonedge("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanDoublade("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanAegislash("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanHonedge("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanDoublade("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanAegislash("", Aspect.AFRICANUSAN));
 
 //       pokemon.add(new OttoranHonedge("", Aspect.OTTORAN)); TODO
 //       pokemon.add(new OttoranDoublade("", Aspect.OTTORAN));
@@ -138,6 +138,13 @@ public class GenerationSix extends Game {
         pokemon.add(new ArmiranGreninja("Greninja", Aspect.ARMIRAN));
 
         //Vanguard
+//        pokemon.add(new AyreianSkiddo("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianGogoat("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianHelioptile("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianHeliolisk("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianPhantump("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianTrevenant("", Aspect.AYREIAN));
+
         pokemon.add(new AyreianFletchling("Fletchling", Aspect.AYREIAN));
         pokemon.add(new AyreianFletchinder("Fletchinder", Aspect.AYREIAN));
         pokemon.add(new AyreianPancham("Pancham", Aspect.AYREIAN));

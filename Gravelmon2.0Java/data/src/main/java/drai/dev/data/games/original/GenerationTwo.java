@@ -36,9 +36,9 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new AfricanusanSlowking("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanPhanpy("", Aspect.AFRICANUS));
-        pokemon.add(new AfricanusanDonphan("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanSlowking("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanPhanpy("", Aspect.AFRICANUSAN));
+        pokemon.add(new AfricanusanDonphan("", Aspect.AFRICANUSAN));
 
 //        pokemon.add(new LagoonanRemoraid("", Aspect.LAGOONAN)); TODO
 //        pokemon.add(new LagoonanOctillery("", Aspect.LAGOONAN));
@@ -129,6 +129,26 @@ public class GenerationTwo extends Game {
         pokemon.add(new ArmiranTyranitar("Tyranitar", Aspect.ARMIRAN));
 
         //Vanguard
+//        pokemon.add(new AyreianHoothoot("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianNoctowl("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianIgglybuff("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianMareep("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianFlaaffy("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianAmpharos("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianTogepi("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianTogetic("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianBellossom("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianPolitoed("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianHoppip("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianSkiploom("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianJumpluff("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianMantine("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianPhanpy("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianDonphan("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianHitmontop("", Aspect.AYREIAN));
+//        pokemon.add(new AyreianSmoochum("", Aspect.AYREIAN));
+
+
         pokemon.add(new AyreianChikorita("Chikorita", Aspect.AYREIAN));
         pokemon.add(new AyreianBayleef("Bayleef", Aspect.AYREIAN));
         pokemon.add(new AyreianMeganium("Meganium", Aspect.AYREIAN));

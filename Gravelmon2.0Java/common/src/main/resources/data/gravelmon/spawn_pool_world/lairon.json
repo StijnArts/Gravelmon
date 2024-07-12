@@ -1,0 +1,59 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hizianlairon-1",
+      "pokemon": "lairon hizian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-50",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert",
+"#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltalairon-1",
+      "pokemon": "lairon delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-49",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_soul_sand",
+"#cobblemon:nether/is_soul_fire",
+"#cobblemon:nether/is_basalt" ]
+      }
+    }
+,
+    {
+      "id": "ayreianlairon-1",
+      "pokemon": "lairon ayreian",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-50",
+      "weight": 2.0,
+      "condition": {
+
+      }
+    }
+
+]
+}

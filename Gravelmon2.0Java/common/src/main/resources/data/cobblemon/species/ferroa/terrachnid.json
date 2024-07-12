@@ -1,0 +1,129 @@
+{
+  "implemented": true,
+  "name": "terrachnid",
+  "nationalPokedexNumber": 1860,
+  "primaryType": "dragon",
+  "secondaryType": "bug",
+  "abilities": [
+    "strongjaw",
+    "h:unnerve"
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 84,
+    "defence": 70,
+    "special_attack": 69,
+    "special_defence": 65,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 147,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug",
+    "dragon"
+  ],
+  "moves": [
+    "tm:dracometeor",
+    "tm:bugbite",
+    "tm:electroweb",
+    "tm:lastresort",
+    "tm:shockwave",
+    "tm:snatch",
+    "tm:snore",
+    "tm:uproar",
+    "tm:bounce",
+    "tm:irontail",
+    "tm:signalbeam",
+    "tm:spite",
+    "tm:endeavor",
+    "tm:laserfocus",
+    "tm:ironhead",
+    "tm:dragonpulse",
+    "tm:dualchop",
+    "tm:earthpower",
+    "tm:foulplay",
+    "tm:heatwave",
+    "tm:knockoff",
+    "tm:outrage",
+    "tm:stompingtantrum",
+    "tm:superfang",
+    "tm:throatchop",
+    "tm:burningjealousy",
+    "tm:skittersmack",
+    "tm:lashout",
+    "tm:terrainpulse",
+    "tm:scaleshot"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.terrachnid.desc"
+  ],
+  "preEvolution": "purrth",
+  "evolutions": [
+    {
+      "id": "terrachnid_miserachnid",
+      "variant": "level_up",
+      "result": "miserachnid",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}
