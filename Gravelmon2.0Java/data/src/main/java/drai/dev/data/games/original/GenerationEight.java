@@ -76,10 +76,10 @@ public class GenerationEight extends Game {
         pokemon.add(new AyreianRillaboom("", Aspect.AYREIAN));
         pokemon.add(new AyreianSizzlipede("", Aspect.AYREIAN));
         pokemon.add(new AyreianCentiskorch("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianHatenna("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianHattrem("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianHatterene("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianObstagoon("", Aspect.AYREIAN));
+        pokemon.add(new AyreianHatenna("", Aspect.AYREIAN));
+        pokemon.add(new AyreianHattrem("", Aspect.AYREIAN));
+        pokemon.add(new AyreianHatterene("", Aspect.AYREIAN));
+        pokemon.add(new AyreianObstagoon("", Aspect.AYREIAN));
 
         //Kaskadian
         pokemon.add(new KaskadianDubwool("", Aspect.KASKADIAN));

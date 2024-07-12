@@ -112,9 +112,10 @@ public class Pokemon {
     private void addAdditionalForm(String originalPokemon, Pokemon pokemon) {
         var key = originalPokemon.toLowerCase();
         if (key.isBlank()) {
-            key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName().toLowerCase(), "");
+            key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName(), "");
         }
-        var forms = ADDITIONAL_FORMS.computeIfAbsent(key, k -> new ArrayList<>());
+        if(originalPokemon.endsWith("One")) key = key.substring(0, key.length()-3);
+        var forms = ADDITIONAL_FORMS.computeIfAbsent(key.toLowerCase(), k -> new ArrayList<>());
         forms.add(pokemon);
 //        POKEMON_REGISTRY.remove(this.name.toLowerCase().replaceAll("\\W",""));
     }

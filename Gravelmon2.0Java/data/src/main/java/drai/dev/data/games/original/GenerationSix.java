@@ -138,12 +138,12 @@ public class GenerationSix extends Game {
         pokemon.add(new ArmiranGreninja("Greninja", Aspect.ARMIRAN));
 
         //Vanguard
-//        pokemon.add(new AyreianSkiddo("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianGogoat("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianHelioptile("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianHeliolisk("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianPhantump("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianTrevenant("", Aspect.AYREIAN));
+        pokemon.add(new AyreianSkiddo("", Aspect.AYREIAN));
+        pokemon.add(new AyreianGogoat("", Aspect.AYREIAN));
+        pokemon.add(new AyreianHelioptile("", Aspect.AYREIAN));
+        pokemon.add(new AyreianHeliolisk("", Aspect.AYREIAN));
+        pokemon.add(new AyreianPhantump("", Aspect.AYREIAN));
+        pokemon.add(new AyreianTrevenant("", Aspect.AYREIAN));
 
         pokemon.add(new AyreianFletchling("Fletchling", Aspect.AYREIAN));
         pokemon.add(new AyreianFletchinder("Fletchinder", Aspect.AYREIAN));

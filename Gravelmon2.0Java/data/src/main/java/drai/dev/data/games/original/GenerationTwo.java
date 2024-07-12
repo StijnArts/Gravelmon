@@ -129,24 +129,24 @@ public class GenerationTwo extends Game {
         pokemon.add(new ArmiranTyranitar("Tyranitar", Aspect.ARMIRAN));
 
         //Vanguard
-//        pokemon.add(new AyreianHoothoot("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianNoctowl("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianIgglybuff("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianMareep("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianFlaaffy("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianAmpharos("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianTogepi("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianTogetic("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianBellossom("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianPolitoed("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianHoppip("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianSkiploom("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianJumpluff("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianMantine("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianPhanpy("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianDonphan("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianHitmontop("", Aspect.AYREIAN));
-//        pokemon.add(new AyreianSmoochum("", Aspect.AYREIAN));
+        pokemon.add(new AyreianHoothoot("", Aspect.AYREIAN));
+        pokemon.add(new AyreianNoctowl("", Aspect.AYREIAN));
+        pokemon.add(new AyreianIgglybuff("", Aspect.AYREIAN));
+        pokemon.add(new AyreianMareep("", Aspect.AYREIAN));
+        pokemon.add(new AyreianFlaaffy("", Aspect.AYREIAN));
+        pokemon.add(new AyreianAmpharos("", Aspect.AYREIAN));
+        pokemon.add(new AyreianTogepi("", Aspect.AYREIAN));
+        pokemon.add(new AyreianTogetic("", Aspect.AYREIAN));
+        pokemon.add(new AyreianBellossom("", Aspect.AYREIAN));
+        pokemon.add(new AyreianPolitoed("", Aspect.AYREIAN));
+        pokemon.add(new AyreianHoppip("", Aspect.AYREIAN));
+        pokemon.add(new AyreianSkiploom("", Aspect.AYREIAN));
+        pokemon.add(new AyreianJumpluff("", Aspect.AYREIAN));
+        pokemon.add(new AyreianMantine("", Aspect.AYREIAN));
+        pokemon.add(new AyreianPhanpy("", Aspect.AYREIAN));
+        pokemon.add(new AyreianDonphan("", Aspect.AYREIAN));
+        pokemon.add(new AyreianHitmontop("", Aspect.AYREIAN));
+        pokemon.add(new AyreianSmoochum("", Aspect.AYREIAN));
 
 
         pokemon.add(new AyreianChikorita("Chikorita", Aspect.AYREIAN));
