@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSalazzle extends drai.dev.data.pokemon.Pokemon {
     public EpochSalazzle(String name, Aspect aspect) {
-        super(name, aspect, "EpochSalazzle",
+        super(name, aspect,"EpochSalazzle",
                 Type.ELECTRIC,Type.WATER,
                 new Stats(68,
                         111,

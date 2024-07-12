@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBasculegion extends drai.dev.data.pokemon.Pokemon {
     public EpochBasculegion(String name, Aspect aspect) {
-        super(name, aspect, "EpochBasculegion",
+        super(name, aspect,"EpochBasculegion",
                 Type.DRAGON,Type.GHOST,
                 new Stats(90,
                         122,

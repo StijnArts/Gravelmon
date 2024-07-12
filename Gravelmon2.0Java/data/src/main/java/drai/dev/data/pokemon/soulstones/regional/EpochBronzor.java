@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBronzor extends drai.dev.data.pokemon.Pokemon {
     public EpochBronzor(String name, Aspect aspect) {
-        super(name, aspect, "EpochBronzor",
+        super(name, aspect,"EpochBronzor",
                 Type.GRASS,Type.ROCK,
                 new Stats(57,
                         66,

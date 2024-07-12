@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochClaydol extends drai.dev.data.pokemon.Pokemon {
     public EpochClaydol(String name, Aspect aspect) {
-        super(name, aspect, "EpochClaydol",
+        super(name, aspect,"EpochClaydol",
                 Type.ELECTRIC,Type.PSYCHIC,
                 new Stats(100,
                         50,

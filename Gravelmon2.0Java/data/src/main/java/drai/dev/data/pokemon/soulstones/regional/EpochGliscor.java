@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGliscor extends drai.dev.data.pokemon.Pokemon {
     public EpochGliscor(String name, Aspect aspect) {
-        super(name, aspect, "EpochGliscor",
+        super(name, aspect,"EpochGliscor",
                 Type.ROCK,Type.DRAGON,
                 new Stats(95,
                         95,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLairon extends drai.dev.data.pokemon.Pokemon {
     public EpochLairon(String name, Aspect aspect) {
-        super(name, aspect, "EpochLairon",
+        super(name, aspect,"EpochLairon",
                 Type.BUG,Type.ROCK,
                 new Stats(70,
                         90,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGastly extends drai.dev.data.pokemon.Pokemon {
     public EpochGastly(String name, Aspect aspect) {
-        super(name, aspect, "EpochGastly",
+        super(name, aspect,"EpochGastly",
                 Type.ICE,Type.FLYING,
                 new Stats(30,
                         30,

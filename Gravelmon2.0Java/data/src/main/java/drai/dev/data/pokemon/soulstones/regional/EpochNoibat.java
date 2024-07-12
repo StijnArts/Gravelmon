@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNoibat extends drai.dev.data.pokemon.Pokemon {
     public EpochNoibat(String name, Aspect aspect) {
-        super(name, aspect, "EpochNoibat",
+        super(name, aspect,"EpochNoibat",
                 Type.SOUND,Type.DRAGON,
                 new Stats(60,
                         65,

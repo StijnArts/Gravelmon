@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDurant extends drai.dev.data.pokemon.Pokemon {
     public EpochDurant(String name, Aspect aspect) {
-        super(name, aspect, "EpochDurant",
+        super(name, aspect,"EpochDurant",
                 Type.BUG,Type.FIRE,
                 new Stats(58,
                         112,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFennekin extends drai.dev.data.pokemon.Pokemon {
     public EpochFennekin(String name, Aspect aspect) {
-        super(name, aspect, "EpochFennekin",
+        super(name, aspect,"EpochFennekin",
                 Type.WATER,Type.COSMIC,
                 new Stats(50,
                         30,

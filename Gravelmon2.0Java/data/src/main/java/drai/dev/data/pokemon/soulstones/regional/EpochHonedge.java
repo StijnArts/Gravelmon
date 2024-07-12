@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHonedge extends drai.dev.data.pokemon.Pokemon {
     public EpochHonedge(String name, Aspect aspect) {
-        super(name, aspect, "EpochHonedge",
+        super(name, aspect,"EpochHonedge",
                 Type.FAIRY,
                 new Stats(45,
                         35,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTyrantrum extends drai.dev.data.pokemon.Pokemon {
     public EpochTyrantrum(String name, Aspect aspect) {
-        super(name, aspect, "EpochTyrantrum",
+        super(name, aspect,"EpochTyrantrum",
                 Type.FIRE,Type.ICE,
                 new Stats(82,
                         121,

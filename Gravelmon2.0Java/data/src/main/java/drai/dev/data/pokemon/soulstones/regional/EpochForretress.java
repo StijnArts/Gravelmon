@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochForretress extends drai.dev.data.pokemon.Pokemon {
     public EpochForretress(String name, Aspect aspect) {
-        super(name, aspect, "EpochForretress",
+        super(name, aspect,"EpochForretress",
                 Type.ROCK,Type.FAIRY,
                 new Stats(80,
                         50,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDarumaka extends drai.dev.data.pokemon.Pokemon {
     public EpochDarumaka(String name, Aspect aspect) {
-        super(name, aspect, "EpochDarumaka",
+        super(name, aspect,"EpochDarumaka",
                 Type.GRASS,Type.SOUND,
                 new Stats(80,
                         70,

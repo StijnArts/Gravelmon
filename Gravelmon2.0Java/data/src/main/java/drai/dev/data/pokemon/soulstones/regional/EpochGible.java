@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochgible extends drai.dev.data.pokemon.Pokemon {
-    public Epochgible(String name, Aspect aspect) {
-        super(name, aspect, "EpochGible",
+public class EpochGible extends drai.dev.data.pokemon.Pokemon {
+    public EpochGible(String name, Aspect aspect) {
+        super(name, aspect,"EpochGible",
                 Type.GHOST,Type.DRAGON,
                 new Stats(58,
                         70,

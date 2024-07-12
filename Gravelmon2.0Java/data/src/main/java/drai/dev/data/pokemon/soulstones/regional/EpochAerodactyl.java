@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAerodactyl extends drai.dev.data.pokemon.Pokemon {
     public EpochAerodactyl(String name, Aspect aspect) {
-        super(name, aspect, "EpochAerodactyl",
+        super(name, aspect,"EpochAerodactyl",
                 Type.DRAGON,Type.FLYING,
                 new Stats(80,
                         105,

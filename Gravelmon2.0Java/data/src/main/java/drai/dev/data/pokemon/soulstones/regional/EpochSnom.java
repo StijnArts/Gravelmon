@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSnom extends drai.dev.data.pokemon.Pokemon {
     public EpochSnom(String name, Aspect aspect) {
-        super(name, aspect, "EpochSnom",
+        super(name, aspect,"EpochSnom",
                 Type.ROCK,
                 new Stats(30,
                         25,

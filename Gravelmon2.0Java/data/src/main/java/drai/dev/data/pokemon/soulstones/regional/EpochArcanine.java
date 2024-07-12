@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochArcanine extends drai.dev.data.pokemon.Pokemon {
     public EpochArcanine(String name, Aspect aspect) {
-        super(name, aspect, "EpochArcanine",
+        super(name, aspect,"EpochArcanine",
                 Type.COSMIC,Type.DRAGON,
                 new Stats(95,
                         115,

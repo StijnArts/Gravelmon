@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDragonite extends drai.dev.data.pokemon.Pokemon {
     public EpochDragonite(String name, Aspect aspect) {
-        super(name, aspect, "EpochDragonite",
+        super(name, aspect,"EpochDragonite",
                 Type.LIGHT,Type.DRAGON,
                 new Stats(91,
                         94,

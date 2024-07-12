@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlowking extends drai.dev.data.pokemon.Pokemon {
     public EpochSlowking(String name, Aspect aspect) {
-        super(name, aspect, "EpochSlowking",
+        super(name, aspect,"EpochSlowking",
                 Type.NORMAL,Type.BUG,
                 new Stats(95,
                         65,

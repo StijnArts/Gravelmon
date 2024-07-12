@@ -4,6 +4,23 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "vesitansliggoo-1",
+      "pokemon": "sliggoo vesitan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "38-52",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
       "id": "deltasliggoo-1",
       "pokemon": "sliggoo delta",
       "presets": [

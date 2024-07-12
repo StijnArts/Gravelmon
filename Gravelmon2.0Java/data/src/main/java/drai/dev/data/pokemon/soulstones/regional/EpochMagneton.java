@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochmagneton extends drai.dev.data.pokemon.Pokemon {
-    public Epochmagneton(String name, Aspect aspect) {
-        super(name, aspect, "Epochmagneton",
+public class EpochMagneton extends drai.dev.data.pokemon.Pokemon {
+    public EpochMagneton(String name, Aspect aspect) {
+        super(name, aspect,"EpochMagneton",
                 Type.COSMIC,Type.STEEL,
                 new Stats(50,
                         60,

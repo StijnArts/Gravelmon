@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLedyba extends drai.dev.data.pokemon.Pokemon {
     public EpochLedyba(String name, Aspect aspect) {
-        super(name, aspect, "EpochLedyba",
+        super(name, aspect,"EpochLedyba",
                 Type.BUG,Type.STEEL,
                 new Stats(40,
                         40,

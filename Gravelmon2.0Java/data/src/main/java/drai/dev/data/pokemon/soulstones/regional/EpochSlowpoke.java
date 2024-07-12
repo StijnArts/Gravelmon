@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlowpoke extends drai.dev.data.pokemon.Pokemon {
     public EpochSlowpoke(String name, Aspect aspect) {
-        super(name, aspect, "EpochSlowpoke",
+        super(name, aspect,"EpochSlowpoke",
                 Type.NORMAL,
                 new Stats(80,
                         60,

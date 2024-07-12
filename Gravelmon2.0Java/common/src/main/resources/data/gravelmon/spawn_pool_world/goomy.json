@@ -4,6 +4,23 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "vesitangoomy-1",
+      "pokemon": "goomy vesitan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-34",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
       "id": "deltagoomy-1",
       "pokemon": "goomy delta",
       "presets": [

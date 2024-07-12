@@ -1,6 +1,96 @@
 {
    "target": "cobblemon:goodra",
    "forms": [{
+  "name": "Vesitan",
+  "primaryType": "dragon",
+  "secondaryType": "psychic",
+  "abilities": [
+    "sapsipper",
+    "hydration"  ],
+  "baseStats": {
+    "hp": 87,
+    "attack": 100,
+    "defence": 89,
+    "special_attack": 77,
+    "special_defence": 140,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 20,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "1:bubble",
+    "28:flail",
+    "1:tackle",
+    "63:outrage",
+    "47:dragonpulse",
+    "38:muddywater",
+    "1:feint",
+    "25:raindance",
+    "18:dragonbreath",
+    "9:protect",
+    "54:aurasphere",
+    "59:flamethrower",
+    "13:bide",
+    "32:bodyslam",
+    "5:absorb",
+    "50:psystrike"  ],
+  "labels": [
+    "chaosinvestia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vesitangoodra.desc"
+  ],
+  "baseScale": 0.3333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 20,
+  "weight": 1505,
+  "aspects": ["vesitan"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "ground",
   "secondaryType": "water",
@@ -170,6 +260,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"vesitan",
 "delta"
   ]
 }

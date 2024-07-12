@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHerdier extends drai.dev.data.pokemon.Pokemon {
     public EpochHerdier(String name, Aspect aspect) {
-        super(name, aspect, "EpochHerdier",
+        super(name, aspect,"EpochHerdier",
                 Type.DARK,Type.GHOST,
                 new Stats(75,
                         90,

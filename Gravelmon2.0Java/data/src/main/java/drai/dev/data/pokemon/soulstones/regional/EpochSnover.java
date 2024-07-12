@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSnover extends drai.dev.data.pokemon.Pokemon {
     public EpochSnover(String name, Aspect aspect) {
-        super(name, aspect, "EpochSnover",
+        super(name, aspect,"EpochSnover",
                 Type.GRASS,
                 new Stats(70,
                         52,

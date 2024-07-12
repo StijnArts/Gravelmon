@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochmasquerain extends drai.dev.data.pokemon.Pokemon {
-    public Epochmasquerain(String name, Aspect aspect) {
-        super(name, aspect, "EpochMasquerain",
+public class EpochMasquerain extends drai.dev.data.pokemon.Pokemon {
+    public EpochMasquerain(String name, Aspect aspect) {
+        super(name, aspect,"EpochMasquerain",
                 Type.GHOST,
                 new Stats(70,
                         40,

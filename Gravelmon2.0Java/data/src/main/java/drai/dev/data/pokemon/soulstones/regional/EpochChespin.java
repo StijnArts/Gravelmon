@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChespin extends drai.dev.data.pokemon.Pokemon {
     public EpochChespin(String name, Aspect aspect) {
-        super(name, aspect, "EpochChespin",
+        super(name, aspect,"EpochChespin",
                 Type.GROUND,Type.LIGHT,
                 new Stats(56,
                         56,

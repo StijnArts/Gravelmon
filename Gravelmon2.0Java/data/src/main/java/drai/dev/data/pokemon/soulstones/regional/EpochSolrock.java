@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSolrock extends drai.dev.data.pokemon.Pokemon {
     public EpochSolrock(String name, Aspect aspect) {
-        super(name, aspect, "EpochSolrock",
+        super(name, aspect,"EpochSolrock",
                 Type.FIRE,Type.COSMIC,
                 new Stats(70,
                         110,

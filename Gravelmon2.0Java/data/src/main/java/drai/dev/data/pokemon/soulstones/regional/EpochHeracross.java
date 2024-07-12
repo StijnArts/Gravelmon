@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHeracross extends drai.dev.data.pokemon.Pokemon {
     public EpochHeracross(String name, Aspect aspect) {
-        super(name, aspect, "EpochHeracross",
+        super(name, aspect,"EpochHeracross",
                 Type.BUG,Type.GROUND,
                 new Stats(80,
                         105,

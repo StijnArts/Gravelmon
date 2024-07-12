@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStonjourner extends drai.dev.data.pokemon.Pokemon {
     public EpochStonjourner(String name, Aspect aspect) {
-        super(name, aspect, "EpochStonjourner",
+        super(name, aspect,"EpochStonjourner",
                 Type.ELECTRIC,Type.SOUND,
                 new Stats(100,
                         115,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPoliwrath extends drai.dev.data.pokemon.Pokemon {
     public EpochPoliwrath(String name, Aspect aspect) {
-        super(name, aspect, "EpochPoliwrath",
+        super(name, aspect,"EpochPoliwrath",
                 Type.WATER,Type.GROUND,
                 new Stats(105,
                         95,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNoivern extends drai.dev.data.pokemon.Pokemon {
     public EpochNoivern(String name, Aspect aspect) {
-        super(name, aspect, "EpochNoivern",
+        super(name, aspect,"EpochNoivern",
                 Type.SOUND,Type.DRAGON,
                 new Stats(95,
                         90,

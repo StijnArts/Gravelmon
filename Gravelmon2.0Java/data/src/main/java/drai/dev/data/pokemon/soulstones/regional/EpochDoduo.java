@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochdoduo extends drai.dev.data.pokemon.Pokemon {
-    public Epochdoduo(String name, Aspect aspect) {
-        super(name, aspect, "EpochDoduo",
+public class EpochDoduo extends drai.dev.data.pokemon.Pokemon {
+    public EpochDoduo(String name, Aspect aspect) {
+        super(name, aspect,"EpochDoduo",
                 Type.COSMIC,Type.FLYING,
                 new Stats(60,
                         35,

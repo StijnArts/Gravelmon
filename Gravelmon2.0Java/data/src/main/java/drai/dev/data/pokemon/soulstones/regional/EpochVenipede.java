@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVenipede extends drai.dev.data.pokemon.Pokemon {
     public EpochVenipede(String name, Aspect aspect) {
-        super(name, aspect, "EpochVenipede",
+        super(name, aspect,"EpochVenipede",
                 Type.BUG,Type.COSMIC,
                 new Stats(45,
                         25,

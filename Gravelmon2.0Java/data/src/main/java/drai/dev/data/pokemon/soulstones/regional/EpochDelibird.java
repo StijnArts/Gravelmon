@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDelibird extends drai.dev.data.pokemon.Pokemon {
     public EpochDelibird(String name, Aspect aspect) {
-        super(name, aspect, "EpochDelibird",
+        super(name, aspect,"EpochDelibird",
                 Type.GRASS,Type.DARK,
                 new Stats(75,
                         95,

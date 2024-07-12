@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSpiritomb extends drai.dev.data.pokemon.Pokemon {
     public EpochSpiritomb(String name, Aspect aspect) {
-        super(name, aspect, "EpochSpiritomb",
+        super(name, aspect,"EpochSpiritomb",
                 Type.COSMIC,Type.LIGHT,
                 new Stats(50,
                         92,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagmar extends drai.dev.data.pokemon.Pokemon {
     public EpochMagmar(String name, Aspect aspect) {
-        super(name, aspect, "EpochMagmar",
+        super(name, aspect,"EpochMagmar",
                 Type.WATER,Type.ICE,
                 new Stats(93,
                         90,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCorphish extends drai.dev.data.pokemon.Pokemon {
     public EpochCorphish(String name, Aspect aspect) {
-        super(name, aspect, "EpochCorphish",
+        super(name, aspect,"EpochCorphish",
                 Type.ROCK,Type.DARK,
                 new Stats(43,
                         80,

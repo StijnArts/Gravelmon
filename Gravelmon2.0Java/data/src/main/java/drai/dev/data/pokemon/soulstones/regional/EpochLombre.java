@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLombre extends drai.dev.data.pokemon.Pokemon {
     public EpochLombre(String name, Aspect aspect) {
-        super(name, aspect, "EpochLombre",
+        super(name, aspect,"EpochLombre",
                 Type.GRASS,Type.GROUND,
                 new Stats(75,
                         35,

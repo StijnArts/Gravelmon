@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHippopotas extends drai.dev.data.pokemon.Pokemon {
     public EpochHippopotas(String name, Aspect aspect) {
-        super(name, aspect, "EpochHippopotas",
+        super(name, aspect,"EpochHippopotas",
                 Type.GRASS,Type.WATER,
                 new Stats(70,
                         70,

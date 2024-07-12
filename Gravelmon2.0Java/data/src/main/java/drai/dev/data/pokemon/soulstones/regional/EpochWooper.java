@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWooper extends drai.dev.data.pokemon.Pokemon {
     public EpochWooper(String name, Aspect aspect) {
-        super(name, aspect, "EpochWooper",
+        super(name, aspect,"EpochWooper",
                 Type.FAIRY,Type.FIRE,
                 new Stats(45,
                         15,

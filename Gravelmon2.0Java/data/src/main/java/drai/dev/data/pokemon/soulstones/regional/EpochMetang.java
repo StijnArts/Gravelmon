@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMetang extends drai.dev.data.pokemon.Pokemon {
     public EpochMetang(String name, Aspect aspect) {
-        super(name, aspect, "EpochMetang",
+        super(name, aspect,"EpochMetang",
                 Type.COSMIC,Type.PSYCHIC,
                 new Stats(60,
                         55,

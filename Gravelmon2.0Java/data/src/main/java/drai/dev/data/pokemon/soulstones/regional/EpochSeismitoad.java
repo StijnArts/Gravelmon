@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSeismitoad extends drai.dev.data.pokemon.Pokemon {
     public EpochSeismitoad(String name, Aspect aspect) {
-        super(name, aspect, "EpochSeismitoad",
+        super(name, aspect,"EpochSeismitoad",
                 Type.GRASS,Type.POISON,
                 new Stats(95,
                         70,

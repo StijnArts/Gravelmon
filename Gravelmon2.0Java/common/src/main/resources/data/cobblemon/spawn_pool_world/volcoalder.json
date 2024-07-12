@@ -16,7 +16,7 @@
       "weight": 0.7,
       "condition": {
 "biomes": [ "#cobblemon:is_tropical_island",
-"#cobblemon:is_basalt",
+"#cobblemon:nether/is_basalt",
 "#cobblemon:is_volvanic" ],
         "canSeeSky": false
       }

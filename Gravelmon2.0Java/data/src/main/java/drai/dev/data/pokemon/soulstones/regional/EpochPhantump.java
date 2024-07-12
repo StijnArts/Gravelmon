@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPhantump extends drai.dev.data.pokemon.Pokemon {
     public EpochPhantump(String name, Aspect aspect) {
-        super(name, aspect, "EpochPhantump",
+        super(name, aspect,"EpochPhantump",
                 Type.GRASS,Type.FIRE,
                 new Stats(43,
                         70,

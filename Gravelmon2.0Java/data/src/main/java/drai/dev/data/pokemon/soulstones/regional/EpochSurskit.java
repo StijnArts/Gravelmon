@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochsurskit extends drai.dev.data.pokemon.Pokemon {
-    public Epochsurskit(String name, Aspect aspect) {
-        super(name, aspect, "EpochSurskit",
+public class EpochSurskit extends drai.dev.data.pokemon.Pokemon {
+    public EpochSurskit(String name, Aspect aspect) {
+        super(name, aspect,"EpochSurskit",
                 Type.GHOST,
                 new Stats(40,
                         20,

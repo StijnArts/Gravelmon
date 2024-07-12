@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWhismur extends drai.dev.data.pokemon.Pokemon {
     public EpochWhismur(String name, Aspect aspect) {
-        super(name, aspect, "EpochWhismur",
+        super(name, aspect,"EpochWhismur",
                 Type.ELECTRIC,Type.SOUND,
                 new Stats(64,
                         21,

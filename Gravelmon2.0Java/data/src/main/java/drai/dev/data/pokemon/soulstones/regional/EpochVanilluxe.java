@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochvanilluxe extends drai.dev.data.pokemon.Pokemon {
-    public Epochvanilluxe(String name, Aspect aspect) {
-        super(name, aspect, "EpochVanilluxe",
+public class EpochVanilluxe extends drai.dev.data.pokemon.Pokemon {
+    public EpochVanilluxe(String name, Aspect aspect) {
+        super(name, aspect,"EpochVanilluxe",
                 Type.POISON,
                 new Stats(91,
                         60,

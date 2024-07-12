@@ -1,6 +1,101 @@
 {
    "target": "cobblemon:greninja",
    "forms": [{
+  "name": "Vesitan",
+  "primaryType": "fire",
+  "secondaryType": "poison",
+  "abilities": [
+    "blaze",
+    "protean"  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 95,
+    "defence": 90,
+    "special_attack": 122,
+    "special_defence": 103,
+    "speed": 84
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "1:pound",
+    "1:nightslash",
+    "1:matblock",
+    "20:smokescreen",
+    "8:quickattack",
+    "70:gunkshot",
+    "1:roleplay",
+    "36:poisonjab",
+    "57:haze",
+    "10:lick",
+    "28:spikes",
+    "50:doubleteam",
+    "65:fireblast",
+    "14:incinerate",
+    "43:toxic",
+    "46:flamethrower",
+    "54:sludgewave",
+    "1:growl",
+    "5:ember",
+    "33:flameburst",
+    "23:sludge"  ],
+  "labels": [
+    "chaosinvestia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vesitangreninja.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 400,
+  "aspects": ["vesitan"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "grass",
   "secondaryType": "fire",
@@ -427,6 +522,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"vesitan",
 "delta",
 "x",
 "armiran"

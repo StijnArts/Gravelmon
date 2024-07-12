@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochUnfezant extends drai.dev.data.pokemon.Pokemon {
     public EpochUnfezant(String name, Aspect aspect) {
-        super(name, aspect, "EpochUnfezant",
+        super(name, aspect,"EpochUnfezant",
                 Type.PSYCHIC,Type.FAIRY,
                 new Stats(75,
                         95,

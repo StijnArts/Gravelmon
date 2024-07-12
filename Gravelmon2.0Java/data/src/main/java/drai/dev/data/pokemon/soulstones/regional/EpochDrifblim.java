@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDrifblim extends drai.dev.data.pokemon.Pokemon {
     public EpochDrifblim(String name, Aspect aspect) {
-        super(name, aspect, "EpochDrifblim",
+        super(name, aspect,"EpochDrifblim",
                 Type.FIRE,Type.FLYING,
                 new Stats(130,
                         90,

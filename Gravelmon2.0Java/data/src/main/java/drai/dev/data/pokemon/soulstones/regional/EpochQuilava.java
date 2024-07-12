@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochquilava extends drai.dev.data.pokemon.Pokemon {
-    public Epochquilava(String name, Aspect aspect) {
-        super(name, aspect, "EpochQuilava",
+public class EpochQuilava extends drai.dev.data.pokemon.Pokemon {
+    public EpochQuilava(String name, Aspect aspect) {
+        super(name, aspect,"EpochQuilava",
                 Type.STEEL,Type.NORMAL,
                 new Stats(75,
                         85,

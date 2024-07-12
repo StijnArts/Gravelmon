@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCacturne extends drai.dev.data.pokemon.Pokemon {
     public EpochCacturne(String name, Aspect aspect) {
-        super(name, aspect, "EpochCacturne",
+        super(name, aspect,"EpochCacturne",
                 Type.ICE,Type.FIGHTING,
                 new Stats(70,
                         95,

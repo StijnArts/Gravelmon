@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHaunter extends drai.dev.data.pokemon.Pokemon {
     public EpochHaunter(String name, Aspect aspect) {
-        super(name, aspect, "EpochHaunter",
+        super(name, aspect,"EpochHaunter",
                 Type.ICE,Type.FLYING,
                 new Stats(50,
                         45,

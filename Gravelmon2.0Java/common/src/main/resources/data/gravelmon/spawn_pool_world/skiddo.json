@@ -4,6 +4,23 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "vesitanskiddo-1",
+      "pokemon": "skiddo vesitan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-27",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "relicskiddo-1",
       "pokemon": "skiddo relic",
       "presets": [

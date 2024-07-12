@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRufflet extends drai.dev.data.pokemon.Pokemon {
     public EpochRufflet(String name, Aspect aspect) {
-        super(name, aspect, "EpochRufflet",
+        super(name, aspect,"EpochRufflet",
                 Type.FIRE,Type.FLYING,
                 new Stats(70,
                         83,

@@ -7,7 +7,7 @@
     "standing": {
       "poseName": "standing",
       "transformTicks": 10,
-      "poseTypes": ["STAND", "NONE", "PROFILE", "FLOAT"],
+      "poseTypes": ["STAND", "NONE",  "WALK","SWIM", "PROFILE", "FLOAT"],
       "animations": [
         "bedrock(chinchou_delta, ground_idle)"
       ],

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPorygon2 extends drai.dev.data.pokemon.Pokemon {
     public EpochPorygon2(String name, Aspect aspect) {
-        super(name, aspect, "EpochPorygon2",
+        super(name, aspect,"EpochPorygon2",
                 Type.BUG,Type.DARK,
                 new Stats(85,
                         105,

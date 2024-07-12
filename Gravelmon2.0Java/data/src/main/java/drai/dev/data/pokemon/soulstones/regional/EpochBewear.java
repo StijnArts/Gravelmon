@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBewear extends drai.dev.data.pokemon.Pokemon {
     public EpochBewear(String name, Aspect aspect) {
-        super(name, aspect, "EpochBewear",
+        super(name, aspect,"EpochBewear",
                 Type.GHOST,Type.FIGHTING,
                 new Stats(120,
                         125,

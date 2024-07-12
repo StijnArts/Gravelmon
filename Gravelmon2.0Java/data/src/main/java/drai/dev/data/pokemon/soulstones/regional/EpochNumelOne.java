@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNumelOne extends drai.dev.data.pokemon.Pokemon {
     public EpochNumelOne(String name, Aspect aspect) {
-        super(name, aspect, "EpochNumelOne",
+        super(name, aspect,"EpochNumelOne",
                 Type.ICE,Type.ROCK,
                 new Stats(60,
                         70,

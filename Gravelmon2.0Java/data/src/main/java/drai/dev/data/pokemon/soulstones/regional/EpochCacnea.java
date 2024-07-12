@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCacnea extends drai.dev.data.pokemon.Pokemon {
     public EpochCacnea(String name, Aspect aspect) {
-        super(name, aspect, "EpochCacnea",
+        super(name, aspect,"EpochCacnea",
                 Type.ICE,Type.FIGHTING,
                 new Stats(50,
                         65,

@@ -53,7 +53,7 @@
       "condition": {
 "biomes": [ "#cobblemon:is_mountain",
 "#cobblemon:is_volvanic",
-"#cobblemon:is_wasteland" ]
+"#cobblemon:nether/is_wasteland" ]
       }
     }
 

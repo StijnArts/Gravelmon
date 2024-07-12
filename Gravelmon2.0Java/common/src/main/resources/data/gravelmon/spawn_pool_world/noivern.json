@@ -4,6 +4,23 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "vesitannoivern-1",
+      "pokemon": "noivern vesitan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "45-56",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
       "id": "deltanoivern-1",
       "pokemon": "noivern delta",
       "presets": [

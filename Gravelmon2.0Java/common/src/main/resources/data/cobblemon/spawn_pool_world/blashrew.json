@@ -16,7 +16,7 @@
       "weight": 2.0,
       "condition": {
 "biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_crimson" ]
+"#cobblemon:nether/is_crimson" ]
       }
     }
   ]

@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochgrimer extends drai.dev.data.pokemon.Pokemon {
-    public Epochgrimer(String name, Aspect aspect) {
-        super(name, aspect, "EpochGrimer",
+public class EpochGrimer extends drai.dev.data.pokemon.Pokemon {
+    public EpochGrimer(String name, Aspect aspect) {
+        super(name, aspect,"EpochGrimer",
                 Type.GRASS,Type.GROUND,
                 new Stats(55,
                         40,

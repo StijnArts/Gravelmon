@@ -1,7 +1,8 @@
 package drai.dev.data.games.pokemmo.pbs;
 
 
-
+import drai.dev.data.pokemon.africanus.*;
+import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.amavi.*;
 import drai.dev.data.pokemon.dhiome.*;
 import drai.dev.data.pokemon.mushi.*;
@@ -53,14 +54,7 @@ import drai.dev.data.pokemon.midamis.*;
 import drai.dev.data.pokemon.norheim.*;
 import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.africanus.*;
-import drai.dev.data.pokemon.africanus.regional.*;
-import drai.dev.data.pokemon.ayrei.*;
-import drai.dev.data.pokemon.ayrei.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.data.pokemon.chaosinvestia.regional.*;
-import drai.dev.data.pokemon.soulstones.*;
-import drai.dev.data.pokemon.soulstones.regional.*;
 
 import java.util.*;
 public class Africanus extends drai.dev.data.games.registry.Game {
@@ -70,6 +64,12 @@ public class Africanus extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new AfricanusanPhanpy("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanDonphan("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanCherubi("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanCherrim("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanKricketot("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanKricketune("", Aspect.AFRICANUS));
         pokemon.add(new AfricanusanGothita("", Aspect.AFRICANUS));
         pokemon.add(new AfricanusanGothorita("", Aspect.AFRICANUS));
         pokemon.add(new AfricanusanGothitelle("", Aspect.AFRICANUS));
@@ -84,10 +84,12 @@ public class Africanus extends drai.dev.data.games.registry.Game {
         pokemon.add(new AfricanusanComfey("", Aspect.AFRICANUS));
         pokemon.add(new AfricanusanPonyta("", Aspect.AFRICANUS));
         pokemon.add(new AfricanusanRapidash("", Aspect.AFRICANUS));
-        pokemon.add(new Fawniae());
+        pokemon.add(new AfricanusanTauros("", Aspect.AFRICANUS));
         pokemon.add(new AfricanusanMachop("", Aspect.AFRICANUS));
         pokemon.add(new AfricanusanMachoke("", Aspect.AFRICANUS));
         pokemon.add(new AfricanusanMachamp("", Aspect.AFRICANUS));
+        pokemon.add(new AfricanusanUnown("", Aspect.AFRICANUS));
+        pokemon.add(new Fawniae());
         pokemon.add(new Houndplut());
         pokemon.add(new Harregg());
         pokemon.add(new Igneagle());

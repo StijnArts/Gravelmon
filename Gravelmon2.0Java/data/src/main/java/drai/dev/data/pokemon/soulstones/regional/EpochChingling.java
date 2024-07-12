@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChingling extends drai.dev.data.pokemon.Pokemon {
     public EpochChingling(String name, Aspect aspect) {
-        super(name, aspect, "EpochChingling",
+        super(name, aspect,"EpochChingling",
                 Type.ELECTRIC,Type.STEEL,
                 new Stats(45,
                         30,

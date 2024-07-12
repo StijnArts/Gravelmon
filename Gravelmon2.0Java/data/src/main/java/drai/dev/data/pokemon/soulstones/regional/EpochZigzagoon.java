@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochZigzagoon extends drai.dev.data.pokemon.Pokemon {
     public EpochZigzagoon(String name, Aspect aspect) {
-        super(name, aspect, "EpochZigzagoon",
+        super(name, aspect,"EpochZigzagoon",
                 Type.GROUND,Type.DARK,
                 new Stats(38,
                         41,

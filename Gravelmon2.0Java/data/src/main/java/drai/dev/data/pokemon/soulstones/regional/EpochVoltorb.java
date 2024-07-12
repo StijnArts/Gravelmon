@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochvoltorb extends drai.dev.data.pokemon.Pokemon {
-    public Epochvoltorb(String name, Aspect aspect) {
-        super(name, aspect, "EpochVoltorb",
+public class EpochVoltorb extends drai.dev.data.pokemon.Pokemon {
+    public EpochVoltorb(String name, Aspect aspect) {
+        super(name, aspect,"EpochVoltorb",
                 Type.ICE,
                 new Stats(50,
                         65,

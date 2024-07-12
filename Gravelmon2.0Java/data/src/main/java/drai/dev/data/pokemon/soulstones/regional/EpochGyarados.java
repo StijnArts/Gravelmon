@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGyarados extends drai.dev.data.pokemon.Pokemon {
     public EpochGyarados(String name, Aspect aspect) {
-        super(name, aspect, "EpochGyarados",
+        super(name, aspect,"EpochGyarados",
                 Type.ELECTRIC,Type.DARK,
                 new Stats(95,
                         125,

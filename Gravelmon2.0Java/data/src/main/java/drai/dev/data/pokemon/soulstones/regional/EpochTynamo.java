@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTynamo extends drai.dev.data.pokemon.Pokemon {
     public EpochTynamo(String name, Aspect aspect) {
-        super(name, aspect, "EpochTynamo",
+        super(name, aspect,"EpochTynamo",
                 Type.BUG,Type.GROUND,
                 new Stats(35,
                         55,

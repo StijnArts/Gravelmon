@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPinsir extends drai.dev.data.pokemon.Pokemon {
     public EpochPinsir(String name, Aspect aspect) {
-        super(name, aspect, "EpochPinsir",
+        super(name, aspect,"EpochPinsir",
                 Type.ELECTRIC,Type.ROCK,
                 new Stats(65,
                         125,

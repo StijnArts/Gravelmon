@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCorvisquire extends drai.dev.data.pokemon.Pokemon {
     public EpochCorvisquire(String name, Aspect aspect) {
-        super(name, aspect, "EpochCorvisquire",
+        super(name, aspect,"EpochCorvisquire",
                 Type.DARK,Type.ELECTRIC,
                 new Stats(65,
                         75,

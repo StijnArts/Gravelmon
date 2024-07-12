@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGoodra extends drai.dev.data.pokemon.Pokemon {
     public EpochGoodra(String name, Aspect aspect) {
-        super(name, aspect, "EpochGoodra",
+        super(name, aspect,"EpochGoodra",
                 Type.FAIRY,Type.NORMAL,
                 new Stats(110,
                         100,

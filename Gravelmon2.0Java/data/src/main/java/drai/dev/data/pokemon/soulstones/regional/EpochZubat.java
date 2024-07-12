@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochZubat extends drai.dev.data.pokemon.Pokemon {
     public EpochZubat(String name, Aspect aspect) {
-        super(name, aspect, "EpochZubat",
+        super(name, aspect,"EpochZubat",
                 Type.DARK,Type.SOUND,
                 new Stats(35,
                         50,

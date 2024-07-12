@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:helioptile",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "vesitan"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_vesitanhelioptile",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanhelioptile.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vesitan",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_vesitanhelioptile",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanhelioptile_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

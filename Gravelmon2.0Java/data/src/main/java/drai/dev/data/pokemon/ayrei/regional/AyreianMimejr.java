@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class AyreianMimejr extends drai.dev.data.pokemon.Pokemon {
-    public AyreianMimejr() {
-        super("Mimejr",
+    public AyreianMimejr(String name, Aspect aspect) {
+        super(name, aspect, "Mimejr",
                 Type.FIRE,Type.FAIRY,
                 new Stats(20,
                         25,

@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochroserade extends drai.dev.data.pokemon.Pokemon {
-    public Epochroserade(String name, Aspect aspect) {
-        super(name, aspect, "EpochRoserade",
+public class EpochRoserade extends drai.dev.data.pokemon.Pokemon {
+    public EpochRoserade(String name, Aspect aspect) {
+        super(name, aspect,"EpochRoserade",
                 Type.GROUND,Type.FAIRY,
                 new Stats(60,
                         125,

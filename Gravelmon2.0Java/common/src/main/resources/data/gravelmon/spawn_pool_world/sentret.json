@@ -20,7 +20,7 @@
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_winter" ]    }
+"biomes": [ "#cobblemon:has_season/winter" ]    }
     }
 
 ]

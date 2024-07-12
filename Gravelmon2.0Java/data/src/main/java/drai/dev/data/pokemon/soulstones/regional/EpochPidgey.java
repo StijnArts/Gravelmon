@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPidgey extends drai.dev.data.pokemon.Pokemon {
     public EpochPidgey(String name, Aspect aspect) {
-        super(name, aspect, "EpochPidgey",
+        super(name, aspect,"EpochPidgey",
                 Type.ICE,Type.FLYING,
                 new Stats(40,
                         35,

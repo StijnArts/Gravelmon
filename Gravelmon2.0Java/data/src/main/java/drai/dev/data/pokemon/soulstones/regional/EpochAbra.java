@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAbra extends drai.dev.data.pokemon.Pokemon {
     public EpochAbra(String name, Aspect aspect) {
-        super(name, aspect, "EpochAbra",
+        super(name, aspect,"EpochAbra",
                 Type.FIGHTING,Type.NORMAL,
                 new Stats(45,
                         25,

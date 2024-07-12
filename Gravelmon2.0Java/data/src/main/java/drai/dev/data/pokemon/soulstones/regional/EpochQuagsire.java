@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochQuagsire extends drai.dev.data.pokemon.Pokemon {
     public EpochQuagsire(String name, Aspect aspect) {
-        super(name, aspect, "EpochQuagsire",
+        super(name, aspect,"EpochQuagsire",
                 Type.FAIRY,Type.FIRE,
                 new Stats(105,
                         35,

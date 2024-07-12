@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPersian extends drai.dev.data.pokemon.Pokemon {
     public EpochPersian(String name, Aspect aspect) {
-        super(name, aspect, "EpochPersian",
+        super(name, aspect,"EpochPersian",
                 Type.ELECTRIC,
                 new Stats(65,
                         50,

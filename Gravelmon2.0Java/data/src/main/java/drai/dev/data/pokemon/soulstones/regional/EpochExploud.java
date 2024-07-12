@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochExploud extends drai.dev.data.pokemon.Pokemon {
     public EpochExploud(String name, Aspect aspect) {
-        super(name, aspect, "EpochExploud",
+        super(name, aspect,"EpochExploud",
                 Type.ELECTRIC,Type.SOUND,
                 new Stats(104,
                         56,

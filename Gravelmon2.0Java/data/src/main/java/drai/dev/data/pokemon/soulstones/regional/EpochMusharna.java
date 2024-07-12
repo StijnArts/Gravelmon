@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMusharna extends drai.dev.data.pokemon.Pokemon {
     public EpochMusharna(String name, Aspect aspect) {
-        super(name, aspect, "EpochMusharna",
+        super(name, aspect,"EpochMusharna",
                 Type.ELECTRIC,Type.BUG,
                 new Stats(75,
                         59,

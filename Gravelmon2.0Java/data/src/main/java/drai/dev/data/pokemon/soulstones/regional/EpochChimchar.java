@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChimchar extends drai.dev.data.pokemon.Pokemon {
     public EpochChimchar(String name, Aspect aspect) {
-        super(name, aspect, "EpochChimchar",
+        super(name, aspect,"EpochChimchar",
                 Type.ELECTRIC,Type.FIGHTING,
                 new Stats(49,
                         53,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBibarel extends drai.dev.data.pokemon.Pokemon {
     public EpochBibarel(String name, Aspect aspect) {
-        super(name, aspect, "EpochBibarel",
+        super(name, aspect,"EpochBibarel",
                 Type.WATER,Type.GROUND,
                 new Stats(89,
                         95,

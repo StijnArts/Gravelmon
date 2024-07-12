@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTinkaton extends drai.dev.data.pokemon.Pokemon {
     public EpochTinkaton(String name, Aspect aspect) {
-        super(name, aspect, "EpochTinkaton",
+        super(name, aspect,"EpochTinkaton",
                 Type.GHOST,Type.DRAGON,
                 new Stats(95,
                         105,

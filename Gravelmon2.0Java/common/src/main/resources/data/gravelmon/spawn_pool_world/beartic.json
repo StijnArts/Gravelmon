@@ -16,7 +16,7 @@
       "weight": 1.0,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_wasteland" ]
+"#cobblemon:nether/is_wasteland" ]
       }
     }
 

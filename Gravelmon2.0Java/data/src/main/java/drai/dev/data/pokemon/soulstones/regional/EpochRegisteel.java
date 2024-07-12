@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRegisteel extends drai.dev.data.pokemon.Pokemon {
     public EpochRegisteel(String name, Aspect aspect) {
-        super(name, aspect, "EpochRegisteel",
+        super(name, aspect,"EpochRegisteel",
                 Type.PSYCHIC,
                 new Stats(80,
                         75,

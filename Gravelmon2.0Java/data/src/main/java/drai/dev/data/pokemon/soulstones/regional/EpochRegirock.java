@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRegirock extends drai.dev.data.pokemon.Pokemon {
     public EpochRegirock(String name, Aspect aspect) {
-        super(name, aspect, "EpochRegirock",
+        super(name, aspect,"EpochRegirock",
                 Type.FLYING,
                 new Stats(105,
                         25,

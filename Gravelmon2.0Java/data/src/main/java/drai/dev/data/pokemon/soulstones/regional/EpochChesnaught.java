@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChesnaught extends drai.dev.data.pokemon.Pokemon {
     public EpochChesnaught(String name, Aspect aspect) {
-        super(name, aspect, "EpochChesnaught",
+        super(name, aspect,"EpochChesnaught",
                 Type.GROUND,Type.LIGHT,
                 new Stats(103,
                         112,

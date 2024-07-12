@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTyranitar extends drai.dev.data.pokemon.Pokemon {
     public EpochTyranitar(String name, Aspect aspect) {
-        super(name, aspect, "EpochTyranitar",
+        super(name, aspect,"EpochTyranitar",
                 Type.STEEL,Type.DRAGON,
                 new Stats(120,
                         104,

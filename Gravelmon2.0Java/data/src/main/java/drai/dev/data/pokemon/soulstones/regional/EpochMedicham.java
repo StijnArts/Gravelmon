@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMedicham extends drai.dev.data.pokemon.Pokemon {
     public EpochMedicham(String name, Aspect aspect) {
-        super(name, aspect, "EpochMedicham",
+        super(name, aspect,"EpochMedicham",
                 Type.LIGHT,Type.FIGHTING,
                 new Stats(60,
                         50,

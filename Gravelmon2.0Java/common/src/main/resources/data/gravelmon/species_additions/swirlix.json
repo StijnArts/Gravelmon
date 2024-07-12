@@ -1,6 +1,115 @@
 {
    "target": "cobblemon:swirlix",
    "forms": [{
+  "name": "Vesitan",
+  "primaryType": "fairy",
+  "secondaryType": "normal",
+  "abilities": [
+    "sweetveil",
+    "unburden"  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 58,
+    "defence": 66,
+    "special_attack": 51,
+    "special_defence": 59,
+    "speed": 54
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "10:firespin",
+    "17:cottonspore",
+    "1:tackle",
+    "36:energyball",
+    "13:round",
+    "67:safeguard",
+    "41:cottonguard",
+    "21:endeavor",
+    "31:drainingkiss",
+    "58:lightscreen",
+    "24:flamecharge",
+    "45:wish",
+    "1:sweetscent",
+    "26:aromatherapy",
+    "5:fairywind",
+    "8:playnice",
+    "49:playrough",
+    "egg:afteryou",
+    "egg:bellydrum",
+    "egg:copycat",
+    "egg:yawn"  ],
+  "labels": [
+    "chaosinvestia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vesitanswirlix.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "swirlix_slurpuff_vesitan",
+      "variant": "item_interact",
+      "result": "slurpuff vesitan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 35,
+  "aspects": ["vesitan"],
+  "cannotDynamax": false
+},
+{
   "name": "X",
   "primaryType": "poison",
   "abilities": [
@@ -137,6 +246,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"vesitan",
 "x"
   ]
 }

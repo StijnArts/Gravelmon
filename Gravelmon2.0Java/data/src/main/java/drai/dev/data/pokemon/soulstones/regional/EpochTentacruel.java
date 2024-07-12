@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTentacruel extends drai.dev.data.pokemon.Pokemon {
     public EpochTentacruel(String name, Aspect aspect) {
-        super(name, aspect, "EpochTentacruel",
+        super(name, aspect,"EpochTentacruel",
                 Type.COSMIC,Type.WATER,
                 new Stats(100,
                         40,

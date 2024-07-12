@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPincurchin extends drai.dev.data.pokemon.Pokemon {
     public EpochPincurchin(String name, Aspect aspect) {
-        super(name, aspect, "EpochPincurchin",
+        super(name, aspect,"EpochPincurchin",
                 Type.SOUND,Type.NORMAL,
                 new Stats(101,
                         48,

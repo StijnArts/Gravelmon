@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCorsola extends drai.dev.data.pokemon.Pokemon {
     public EpochCorsola(String name, Aspect aspect) {
-        super(name, aspect, "EpochCorsola",
+        super(name, aspect,"EpochCorsola",
                 Type.WATER,Type.POISON,
                 new Stats(55,
                         45,

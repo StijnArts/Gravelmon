@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochOddish extends drai.dev.data.pokemon.Pokemon {
     public EpochOddish(String name, Aspect aspect) {
-        super(name, aspect, "EpochOddish",
+        super(name, aspect,"EpochOddish",
                 Type.GRASS,Type.COSMIC,
                 new Stats(60,
                         45,

@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochjolteon extends drai.dev.data.pokemon.Pokemon {
-    public Epochjolteon(String name, Aspect aspect) {
-        super(name, aspect, "EpochJolteon",
+public class EpochJolteon extends drai.dev.data.pokemon.Pokemon {
+    public EpochJolteon(String name, Aspect aspect) {
+        super(name, aspect,"EpochJolteon",
                 Type.FLYING,
                 new Stats(60,
                         50,

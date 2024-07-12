@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochEternatus extends drai.dev.data.pokemon.Pokemon {
     public EpochEternatus(String name, Aspect aspect) {
-        super(name, aspect, "EpochEternatus",
+        super(name, aspect,"EpochEternatus",
                 Type.GHOST,Type.DRAGON,
                 new Stats(140,
                         85,

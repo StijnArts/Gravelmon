@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChandelure extends drai.dev.data.pokemon.Pokemon {
     public EpochChandelure(String name, Aspect aspect) {
-        super(name, aspect, "EpochChandelure",
+        super(name, aspect,"EpochChandelure",
                 Type.LIGHT,Type.GHOST,
                 new Stats(70,
                         65,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTreecko extends drai.dev.data.pokemon.Pokemon {
     public EpochTreecko(String name, Aspect aspect) {
-        super(name, aspect, "EpochTreecko",
+        super(name, aspect,"EpochTreecko",
                 Type.BUG,Type.DRAGON,
                 new Stats(50,
                         60,

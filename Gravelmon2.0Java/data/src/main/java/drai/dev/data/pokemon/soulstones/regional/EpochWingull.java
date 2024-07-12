@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWingull extends drai.dev.data.pokemon.Pokemon {
     public EpochWingull(String name, Aspect aspect) {
-        super(name, aspect, "EpochWingull",
+        super(name, aspect,"EpochWingull",
                 Type.DARK,Type.FLYING,
                 new Stats(45,
                         50,

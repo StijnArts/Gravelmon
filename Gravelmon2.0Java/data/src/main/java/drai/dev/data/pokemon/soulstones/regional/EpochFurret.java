@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFurret extends drai.dev.data.pokemon.Pokemon {
     public EpochFurret(String name, Aspect aspect) {
-        super(name, aspect, "EpochFurret",
+        super(name, aspect,"EpochFurret",
                 Type.GHOST,Type.POISON,
                 new Stats(75,
                         41,

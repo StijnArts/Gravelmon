@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWalrein extends drai.dev.data.pokemon.Pokemon {
     public EpochWalrein(String name, Aspect aspect) {
-        super(name, aspect, "EpochWalrein",
+        super(name, aspect,"EpochWalrein",
                 Type.ICE,Type.GROUND,
                 new Stats(110,
                         100,

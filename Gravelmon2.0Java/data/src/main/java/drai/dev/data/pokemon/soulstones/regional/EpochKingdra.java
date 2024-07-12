@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochkingdra extends drai.dev.data.pokemon.Pokemon {
-    public Epochkingdra(String name, Aspect aspect) {
-        super(name, aspect, "EpochKingdra",
+public class EpochKingdra extends drai.dev.data.pokemon.Pokemon {
+    public EpochKingdra(String name, Aspect aspect) {
+        super(name, aspect,"EpochKingdra",
                 Type.WATER,Type.LIGHT,
                 new Stats(100,
                         55,

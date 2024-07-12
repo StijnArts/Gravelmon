@@ -20,7 +20,7 @@
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_winter" ]    }
+"#cobblemon:has_season/winter" ]    }
     }
   ]
 }

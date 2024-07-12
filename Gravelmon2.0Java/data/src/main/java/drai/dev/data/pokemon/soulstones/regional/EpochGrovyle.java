@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGrovyle extends drai.dev.data.pokemon.Pokemon {
     public EpochGrovyle(String name, Aspect aspect) {
-        super(name, aspect, "EpochGrovyle",
+        super(name, aspect,"EpochGrovyle",
                 Type.BUG,Type.DRAGON,
                 new Stats(60,
                         85,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFletchinder extends drai.dev.data.pokemon.Pokemon {
     public EpochFletchinder(String name, Aspect aspect) {
-        super(name, aspect, "EpochFletchinder",
+        super(name, aspect,"EpochFletchinder",
                 Type.ELECTRIC,Type.FLYING,
                 new Stats(72,
                         78,

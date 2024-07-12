@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochIncineroar extends drai.dev.data.pokemon.Pokemon {
     public EpochIncineroar(String name, Aspect aspect) {
-        super(name, aspect, "EpochIncineroar",
+        super(name, aspect,"EpochIncineroar",
                 Type.FIGHTING,Type.COSMIC,
                 new Stats(95,
                         115,

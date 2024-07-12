@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochnoctowl extends drai.dev.data.pokemon.Pokemon {
-    public Epochnoctowl(String name, Aspect aspect) {
-        super(name, aspect, "EpochNoctowl",
+public class EpochNoctowl extends drai.dev.data.pokemon.Pokemon {
+    public EpochNoctowl(String name, Aspect aspect) {
+        super(name, aspect,"EpochNoctowl",
                 Type.PSYCHIC,Type.LIGHT,
                 new Stats(73,
                         45,

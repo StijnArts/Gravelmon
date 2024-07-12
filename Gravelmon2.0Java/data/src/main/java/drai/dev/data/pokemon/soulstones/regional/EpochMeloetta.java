@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMeloetta extends drai.dev.data.pokemon.Pokemon {
     public EpochMeloetta(String name, Aspect aspect) {
-        super(name, aspect, "EpochMeloetta",
+        super(name, aspect,"EpochMeloetta",
                 Type.FIRE,Type.SOUND,
                 new Stats(100,
                         77,

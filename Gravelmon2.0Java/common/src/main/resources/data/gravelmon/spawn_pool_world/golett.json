@@ -15,7 +15,7 @@
       "level": "12-43",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
+"biomes": [ "#cobblemon:nether/is_desert" ],
         "canSeeSky": true
       }
     }

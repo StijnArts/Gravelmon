@@ -16,7 +16,7 @@
       "weight": 0.06,
       "condition": {
 "biomes": [ "#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ]
+"#cobblemon:nether/is_soul_fire" ]
       }
     }
 ,
@@ -48,7 +48,7 @@
       "level": "41-58",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland" ],
+"biomes": [ "#cobblemon:nether/is_wasteland" ],
         "isRaining": true
       }
     }

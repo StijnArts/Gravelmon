@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCentiskorch extends drai.dev.data.pokemon.Pokemon {
     public EpochCentiskorch(String name, Aspect aspect) {
-        super(name, aspect, "EpochCentiskorch",
+        super(name, aspect,"EpochCentiskorch",
                 Type.BUG,Type.POISON,
                 new Stats(100,
                         125,

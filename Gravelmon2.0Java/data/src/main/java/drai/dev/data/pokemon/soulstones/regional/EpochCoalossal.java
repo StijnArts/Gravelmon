@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCoalossal extends drai.dev.data.pokemon.Pokemon {
     public EpochCoalossal(String name, Aspect aspect) {
-        super(name, aspect, "EpochCoalossal",
+        super(name, aspect,"EpochCoalossal",
                 Type.ROCK,Type.GROUND,
                 new Stats(110,
                         90,

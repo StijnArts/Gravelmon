@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAlakazam extends drai.dev.data.pokemon.Pokemon {
     public EpochAlakazam(String name, Aspect aspect) {
-        super(name, aspect, "EpochAlakazam",
+        super(name, aspect,"EpochAlakazam",
                 Type.FIGHTING,Type.NORMAL,
                 new Stats(85,
                         50,

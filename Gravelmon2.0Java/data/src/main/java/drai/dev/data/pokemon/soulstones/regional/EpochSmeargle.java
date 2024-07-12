@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSmeargle extends drai.dev.data.pokemon.Pokemon {
     public EpochSmeargle(String name, Aspect aspect) {
-        super(name, aspect, "EpochSmeargle",
+        super(name, aspect,"EpochSmeargle",
                 Type.DARK,
                 new Stats(55,
                         20,

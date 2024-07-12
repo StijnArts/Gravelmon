@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSandaconda extends drai.dev.data.pokemon.Pokemon {
     public EpochSandaconda(String name, Aspect aspect) {
-        super(name, aspect, "EpochSandaconda",
+        super(name, aspect,"EpochSandaconda",
                 Type.WATER,
                 new Stats(70,
                         115,

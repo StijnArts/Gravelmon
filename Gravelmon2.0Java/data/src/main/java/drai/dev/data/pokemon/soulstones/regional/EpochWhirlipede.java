@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWhirlipede extends drai.dev.data.pokemon.Pokemon {
     public EpochWhirlipede(String name, Aspect aspect) {
-        super(name, aspect, "EpochWhirlipede",
+        super(name, aspect,"EpochWhirlipede",
                 Type.STEEL,Type.COSMIC,
                 new Stats(60,
                         30,

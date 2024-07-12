@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochfeebas extends drai.dev.data.pokemon.Pokemon {
-    public Epochfeebas(String name, Aspect aspect) {
-        super(name, aspect, "EpochFeebas",
+public class EpochFeebas extends drai.dev.data.pokemon.Pokemon {
+    public EpochFeebas(String name, Aspect aspect) {
+        super(name, aspect,"EpochFeebas",
                 Type.LIGHT,Type.FAIRY,
                 new Stats(20,
                         15,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSilicobra extends drai.dev.data.pokemon.Pokemon {
     public EpochSilicobra(String name, Aspect aspect) {
-        super(name, aspect, "EpochSilicobra",
+        super(name, aspect,"EpochSilicobra",
                 Type.WATER,
                 new Stats(50,
                         70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochJynx extends drai.dev.data.pokemon.Pokemon {
     public EpochJynx(String name, Aspect aspect) {
-        super(name, aspect, "EpochJynx",
+        super(name, aspect,"EpochJynx",
                 Type.SOUND,Type.ICE,
                 new Stats(85,
                         35,

@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochgeodude extends drai.dev.data.pokemon.Pokemon {
-    public Epochgeodude(String name, Aspect aspect) {
-        super(name, aspect, "EpochGeodude",
+public class EpochGeodude extends drai.dev.data.pokemon.Pokemon {
+    public EpochGeodude(String name, Aspect aspect) {
+        super(name, aspect,"EpochGeodude",
                 Type.ROCK,Type.FIRE,
                 new Stats(60,
                         70,

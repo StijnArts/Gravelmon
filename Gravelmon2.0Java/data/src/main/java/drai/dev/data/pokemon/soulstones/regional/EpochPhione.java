@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPhione extends drai.dev.data.pokemon.Pokemon {
     public EpochPhione(String name, Aspect aspect) {
-        super(name, aspect, "EpochPhione",
+        super(name, aspect,"EpochPhione",
                 Type.FAIRY,
                 new Stats(100,
                         100,

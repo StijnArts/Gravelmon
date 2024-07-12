@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChimecho extends drai.dev.data.pokemon.Pokemon {
     public EpochChimecho(String name, Aspect aspect) {
-        super(name, aspect, "EpochChimecho",
+        super(name, aspect,"EpochChimecho",
                 Type.ELECTRIC,Type.STEEL,
                 new Stats(75,
                         50,

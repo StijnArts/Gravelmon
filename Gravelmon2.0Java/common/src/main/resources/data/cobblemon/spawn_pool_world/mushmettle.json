@@ -15,7 +15,7 @@
       "level": "5-28",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ]
+"biomes": [ "#cobblemon:nether/is_forest" ]
       }
     }
   ]

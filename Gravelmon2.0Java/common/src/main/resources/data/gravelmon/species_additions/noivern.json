@@ -1,6 +1,102 @@
 {
    "target": "cobblemon:noivern",
    "forms": [{
+  "name": "Vesitan",
+  "primaryType": "fairy",
+  "secondaryType": "dragon",
+  "abilities": [
+    "frisk",
+    "infiltrator"  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 89,
+    "defence": 85,
+    "special_attack": 123,
+    "special_defence": 97,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "18:agility",
+    "1:hurricane",
+    "1:tackle",
+    "45:superfang",
+    "13:bite",
+    "54:dragonpulse",
+    "75:boomburst",
+    "1:supersonic",
+    "54:moonblast",
+    "31:drainingkiss",
+    "60:fireblast",
+    "11:gust",
+    "16:wingattack",
+    "5:leechlife",
+    "23:aircutter",
+    "42:whirlwind",
+    "35:tailwind",
+    "1:screech",
+    "27:roost",
+    "40:dazzlinggleam",
+    "1:moonlight",
+    "49:playrough"  ],
+  "labels": [
+    "chaosinvestia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vesitannoivern.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 850,
+  "aspects": ["vesitan"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "grass",
   "secondaryType": "steel",
@@ -614,6 +710,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"vesitan",
 "delta",
 "seviian",
 "mythian",

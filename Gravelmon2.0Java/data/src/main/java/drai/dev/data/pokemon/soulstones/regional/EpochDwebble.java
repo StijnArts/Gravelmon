@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDwebble extends drai.dev.data.pokemon.Pokemon {
     public EpochDwebble(String name, Aspect aspect) {
-        super(name, aspect, "EpochDwebble",
+        super(name, aspect,"EpochDwebble",
                 Type.BUG,Type.WATER,
                 new Stats(40,
                         55,

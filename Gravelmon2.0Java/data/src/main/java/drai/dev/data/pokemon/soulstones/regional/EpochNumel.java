@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochnumel extends drai.dev.data.pokemon.Pokemon {
-    public Epochnumel(String name, Aspect aspect) {
-        super(name, aspect, "EpochNumel",
+public class EpochNumel extends drai.dev.data.pokemon.Pokemon {
+    public EpochNumel(String name, Aspect aspect) {
+        super(name, aspect,"EpochNumel",
                 Type.FIRE,Type.WATER,
                 new Stats(85,
                         40,

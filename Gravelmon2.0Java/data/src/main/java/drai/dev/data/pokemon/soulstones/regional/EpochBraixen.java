@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBraixen extends drai.dev.data.pokemon.Pokemon {
     public EpochBraixen(String name, Aspect aspect) {
-        super(name, aspect, "EpochBraixen",
+        super(name, aspect,"EpochBraixen",
                 Type.WATER,Type.COSMIC,
                 new Stats(66,
                         45,

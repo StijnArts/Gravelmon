@@ -15,9 +15,9 @@
       "level": "44-56",
       "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_soul_sand",
-"#cobblemon:is_basalt",
-"#cobblemon:is_toxic" ]
+"biomes": [ "#cobblemon:nether/is_soul_sand",
+"#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_toxic" ]
       }
     }
   ]

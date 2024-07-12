@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTapubulu extends drai.dev.data.pokemon.Pokemon {
     public EpochTapubulu(String name, Aspect aspect) {
-        super(name, aspect, "EpochTapubulu",
+        super(name, aspect,"EpochTapubulu",
                 Type.FIRE,Type.GHOST,
                 new Stats(70,
                         130,

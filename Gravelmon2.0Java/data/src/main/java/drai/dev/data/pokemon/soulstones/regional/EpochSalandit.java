@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSalandit extends drai.dev.data.pokemon.Pokemon {
     public EpochSalandit(String name, Aspect aspect) {
-        super(name, aspect, "EpochSalandit",
+        super(name, aspect,"EpochSalandit",
                 Type.ELECTRIC,Type.WATER,
                 new Stats(48,
                         71,

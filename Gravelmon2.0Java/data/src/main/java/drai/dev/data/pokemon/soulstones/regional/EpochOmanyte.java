@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochOmanyte extends drai.dev.data.pokemon.Pokemon {
     public EpochOmanyte(String name, Aspect aspect) {
-        super(name, aspect, "EpochOmanyte",
+        super(name, aspect,"EpochOmanyte",
                 Type.PSYCHIC,
                 new Stats(55,
                         25,

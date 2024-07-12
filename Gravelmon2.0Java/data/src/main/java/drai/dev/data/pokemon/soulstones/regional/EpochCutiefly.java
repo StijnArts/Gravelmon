@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCutiefly extends drai.dev.data.pokemon.Pokemon {
     public EpochCutiefly(String name, Aspect aspect) {
-        super(name, aspect, "EpochCutiefly",
+        super(name, aspect,"EpochCutiefly",
                 Type.BUG,Type.FLYING,
                 new Stats(40,
                         45,

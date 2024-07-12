@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGengar extends drai.dev.data.pokemon.Pokemon {
     public EpochGengar(String name, Aspect aspect) {
-        super(name, aspect, "EpochGengar",
+        super(name, aspect,"EpochGengar",
                 Type.ICE,Type.FLYING,
                 new Stats(65,
                         60,

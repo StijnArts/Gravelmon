@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPolteageist extends drai.dev.data.pokemon.Pokemon {
     public EpochPolteageist(String name, Aspect aspect) {
-        super(name, aspect, "EpochPolteageist",
+        super(name, aspect,"EpochPolteageist",
                 Type.WATER,Type.POISON,
                 new Stats(80,
                         65,

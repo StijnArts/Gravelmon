@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCopperajah extends drai.dev.data.pokemon.Pokemon {
     public EpochCopperajah(String name, Aspect aspect) {
-        super(name, aspect, "EpochCopperajah",
+        super(name, aspect,"EpochCopperajah",
                 Type.GROUND,Type.PSYCHIC,
                 new Stats(97,
                         50,

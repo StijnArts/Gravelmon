@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBeartic extends drai.dev.data.pokemon.Pokemon {
     public EpochBeartic(String name, Aspect aspect) {
-        super(name, aspect, "EpochBeartic",
+        super(name, aspect,"EpochBeartic",
                 Type.NORMAL,
                 new Stats(90,
                         125,

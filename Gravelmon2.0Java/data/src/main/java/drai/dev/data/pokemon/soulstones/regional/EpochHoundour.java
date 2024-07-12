@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHoundour extends drai.dev.data.pokemon.Pokemon {
     public EpochHoundour(String name, Aspect aspect) {
-        super(name, aspect, "EpochHoundour",
+        super(name, aspect,"EpochHoundour",
                 Type.FIRE,Type.LIGHT,
                 new Stats(55,
                         30,

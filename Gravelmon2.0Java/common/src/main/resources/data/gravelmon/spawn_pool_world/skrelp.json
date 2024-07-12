@@ -4,6 +4,23 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "vesitanskrelp-1",
+      "pokemon": "skrelp vesitan",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "23-44",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "novranskrelp-1",
       "pokemon": "skrelp novran",
       "presets": [

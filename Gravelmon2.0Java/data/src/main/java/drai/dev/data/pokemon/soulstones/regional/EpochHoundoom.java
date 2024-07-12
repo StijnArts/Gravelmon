@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHoundoom extends drai.dev.data.pokemon.Pokemon {
     public EpochHoundoom(String name, Aspect aspect) {
-        super(name, aspect, "EpochHoundoom",
+        super(name, aspect,"EpochHoundoom",
                 Type.FIRE,Type.LIGHT,
                 new Stats(85,
                         55,

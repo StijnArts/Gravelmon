@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagnemiteOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMagnemiteOne(String name, Aspect aspect) {
-        super(name, aspect, "EpochMagnemiteOne",
+        super(name, aspect,"EpochMagnemiteOne",
                 Type.ROCK,Type.PSYCHIC,
                 new Stats(55,
                         15,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSerperior extends drai.dev.data.pokemon.Pokemon {
     public EpochSerperior(String name, Aspect aspect) {
-        super(name, aspect, "EpochSerperior",
+        super(name, aspect,"EpochSerperior",
                 Type.GHOST,
                 new Stats(75,
                         75,

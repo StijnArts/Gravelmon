@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochClamperl extends drai.dev.data.pokemon.Pokemon {
     public EpochClamperl(String name, Aspect aspect) {
-        super(name, aspect, "EpochClamperl",
+        super(name, aspect,"EpochClamperl",
                 Type.PSYCHIC,
                 new Stats(35,
                         34,

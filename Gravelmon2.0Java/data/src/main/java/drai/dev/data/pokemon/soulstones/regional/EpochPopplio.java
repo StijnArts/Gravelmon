@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPopplio extends drai.dev.data.pokemon.Pokemon {
     public EpochPopplio(String name, Aspect aspect) {
-        super(name, aspect, "EpochPopplio",
+        super(name, aspect,"EpochPopplio",
                 Type.GRASS,Type.FAIRY,
                 new Stats(55,
                         39,

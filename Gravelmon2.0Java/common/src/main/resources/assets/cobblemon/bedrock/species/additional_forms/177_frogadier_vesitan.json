@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:frogadier",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "vesitan"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_vesitanfrogadier",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanfrogadier.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vesitan",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation6_vesitanfrogadier",
+      "texture": "cobblemon:textures/pokemon/generation6/vesitanfrogadier_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,7 @@
       "level": "24-39",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sparse",
+"biomes": [ "#cobblemon:has_density/sparse",
 "#cobblemon:is_desert" ],
         "canSeeSky": true
       }

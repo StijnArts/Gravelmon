@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNatu extends drai.dev.data.pokemon.Pokemon {
     public EpochNatu(String name, Aspect aspect) {
-        super(name, aspect, "EpochNatu",
+        super(name, aspect,"EpochNatu",
                 Type.STEEL,Type.ELECTRIC,
                 new Stats(50,
                         70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBeldum extends drai.dev.data.pokemon.Pokemon {
     public EpochBeldum(String name, Aspect aspect) {
-        super(name, aspect, "EpochBeldum",
+        super(name, aspect,"EpochBeldum",
                 Type.COSMIC,Type.PSYCHIC,
                 new Stats(40,
                         35,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochToxtricity extends drai.dev.data.pokemon.Pokemon {
     public EpochToxtricity(String name, Aspect aspect) {
-        super(name, aspect, "EpochToxtricity",
+        super(name, aspect,"EpochToxtricity",
                 Type.GRASS,Type.FIGHTING,
                 new Stats(75,
                         105,

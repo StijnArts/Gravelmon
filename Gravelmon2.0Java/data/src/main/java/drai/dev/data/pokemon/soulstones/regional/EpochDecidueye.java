@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDecidueye extends drai.dev.data.pokemon.Pokemon {
     public EpochDecidueye(String name, Aspect aspect) {
-        super(name, aspect, "EpochDecidueye",
+        super(name, aspect,"EpochDecidueye",
                 Type.FIRE,Type.FLYING,
                 new Stats(82,
                         75,

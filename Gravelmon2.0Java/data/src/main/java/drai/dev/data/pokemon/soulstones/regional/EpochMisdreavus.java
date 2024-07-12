@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMisdreavus extends drai.dev.data.pokemon.Pokemon {
     public EpochMisdreavus(String name, Aspect aspect) {
-        super(name, aspect, "EpochMisdreavus",
+        super(name, aspect,"EpochMisdreavus",
                 Type.LIGHT,Type.SOUND,
                 new Stats(80,
                         30,

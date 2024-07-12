@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSinistea extends drai.dev.data.pokemon.Pokemon {
     public EpochSinistea(String name, Aspect aspect) {
-        super(name, aspect, "EpochSinistea",
+        super(name, aspect,"EpochSinistea",
                 Type.WATER,Type.POISON,
                 new Stats(50,
                         45,

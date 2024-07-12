@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPsyduck extends drai.dev.data.pokemon.Pokemon {
     public EpochPsyduck(String name, Aspect aspect) {
-        super(name, aspect, "EpochPsyduck",
+        super(name, aspect,"EpochPsyduck",
                 Type.GROUND,Type.PSYCHIC,
                 new Stats(65,
                         50,

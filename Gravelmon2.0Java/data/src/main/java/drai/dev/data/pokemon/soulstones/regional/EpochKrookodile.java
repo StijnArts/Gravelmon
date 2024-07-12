@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKrookodile extends drai.dev.data.pokemon.Pokemon {
     public EpochKrookodile(String name, Aspect aspect) {
-        super(name, aspect, "EpochKrookodile",
+        super(name, aspect,"EpochKrookodile",
                 Type.WATER,Type.DARK,
                 new Stats(97,
                         87,

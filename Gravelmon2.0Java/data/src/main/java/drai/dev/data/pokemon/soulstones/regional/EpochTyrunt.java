@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTyrunt extends drai.dev.data.pokemon.Pokemon {
     public EpochTyrunt(String name, Aspect aspect) {
-        super(name, aspect, "EpochTyrunt",
+        super(name, aspect,"EpochTyrunt",
                 Type.FIRE,Type.ICE,
                 new Stats(58,
                         89,

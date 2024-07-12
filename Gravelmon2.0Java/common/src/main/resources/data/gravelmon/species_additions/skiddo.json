@@ -1,6 +1,115 @@
 {
    "target": "cobblemon:skiddo",
    "forms": [{
+  "name": "Vesitan",
+  "primaryType": "grass",
+  "secondaryType": "rock",
+  "abilities": [
+    "sapsipper",
+    "grasspelt"  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 68,
+    "defence": 48,
+    "special_attack": 41,
+    "special_defence": 62,
+    "speed": 69
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "12:leechseed",
+    "16:stealthrock",
+    "1:tackle",
+    "9:tailwhip",
+    "42:hornleech",
+    "13:razorleaf",
+    "38:doubleedge",
+    "45:leafblade",
+    "1:growth",
+    "26:bulldoze",
+    "7:vinewhip",
+    "20:synthesis",
+    "30:seedbomb",
+    "50:milkdrink",
+    "22:rocktomb",
+    "34:bulkup",
+    "egg:defensecurl",
+    "egg:milkdrink",
+    "egg:rollout"  ],
+  "labels": [
+    "chaosinvestia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vesitanskiddo.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "skiddo_skiddo_vesitan",
+      "variant": "level_up",
+      "result": "skiddo vesitan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 310,
+  "aspects": ["vesitan"],
+  "cannotDynamax": false
+},
+{
   "name": "Relic",
   "primaryType": "grass",
   "secondaryType": "rock",
@@ -165,6 +274,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"vesitan",
 "relic"
   ]
 }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBoltund extends drai.dev.data.pokemon.Pokemon {
     public EpochBoltund(String name, Aspect aspect) {
-        super(name, aspect, "EpochBoltund",
+        super(name, aspect,"EpochBoltund",
                 Type.NORMAL,
                 new Stats(70,
                         90,

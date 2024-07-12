@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDeino extends drai.dev.data.pokemon.Pokemon {
     public EpochDeino(String name, Aspect aspect) {
-        super(name, aspect, "EpochDeino",
+        super(name, aspect,"EpochDeino",
                 Type.PSYCHIC,Type.DRAGON,
                 new Stats(72,
                         45,

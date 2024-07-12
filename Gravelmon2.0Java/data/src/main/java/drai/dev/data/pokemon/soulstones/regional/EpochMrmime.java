@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMrmime extends drai.dev.data.pokemon.Pokemon {
     public EpochMrmime(String name, Aspect aspect) {
-        super(name, aspect, "EpochMrmime",
+        super(name, aspect,"EpochMrmime",
                 Type.SOUND,Type.PSYCHIC,
                 new Stats(90,
                         40,

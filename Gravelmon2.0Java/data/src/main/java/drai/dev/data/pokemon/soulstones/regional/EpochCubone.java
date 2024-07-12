@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCubone extends drai.dev.data.pokemon.Pokemon {
     public EpochCubone(String name, Aspect aspect) {
-        super(name, aspect, "EpochCubone",
+        super(name, aspect,"EpochCubone",
                 Type.WATER,Type.ROCK,
                 new Stats(90,
                         55,

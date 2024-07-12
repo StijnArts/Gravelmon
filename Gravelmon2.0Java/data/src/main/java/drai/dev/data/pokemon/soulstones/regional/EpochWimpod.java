@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWimpod extends drai.dev.data.pokemon.Pokemon {
     public EpochWimpod(String name, Aspect aspect) {
-        super(name, aspect, "EpochWimpod",
+        super(name, aspect,"EpochWimpod",
                 Type.BUG,Type.POISON,
                 new Stats(25,
                         35,

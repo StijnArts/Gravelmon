@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLitleo extends drai.dev.data.pokemon.Pokemon {
     public EpochLitleo(String name, Aspect aspect) {
-        super(name, aspect, "EpochLitleo",
+        super(name, aspect,"EpochLitleo",
                 Type.ICE,Type.SOUND,
                 new Stats(58,
                         73,

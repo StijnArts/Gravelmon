@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHelioptile extends drai.dev.data.pokemon.Pokemon {
     public EpochHelioptile(String name, Aspect aspect) {
-        super(name, aspect, "EpochHelioptile",
+        super(name, aspect,"EpochHelioptile",
                 Type.DRAGON,Type.ROCK,
                 new Stats(44,
                         38,

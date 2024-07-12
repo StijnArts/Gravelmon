@@ -33,9 +33,9 @@
       "level": "40-59",
       "weight": 0.0,
       "condition": {
-"biomes": [ "#cobblemon:is_soul_sand",
-"#cobblemon:is_soul_fire",
-"#cobblemon:is_basalt" ]
+"biomes": [ "#cobblemon:nether/is_soul_sand",
+"#cobblemon:nether/is_soul_fire",
+"#cobblemon:nether/is_basalt" ]
       }
     }
 ,

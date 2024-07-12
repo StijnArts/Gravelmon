@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochIvysaur extends drai.dev.data.pokemon.Pokemon {
     public EpochIvysaur(String name, Aspect aspect) {
-        super(name, aspect, "EpochIvysaur",
+        super(name, aspect,"EpochIvysaur",
                 Type.ICE,Type.FAIRY,
                 new Stats(60,
                         62,

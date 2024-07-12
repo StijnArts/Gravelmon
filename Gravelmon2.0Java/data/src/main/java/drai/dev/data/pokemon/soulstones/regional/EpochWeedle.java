@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWeedle extends drai.dev.data.pokemon.Pokemon {
     public EpochWeedle(String name, Aspect aspect) {
-        super(name, aspect, "EpochWeedle",
+        super(name, aspect,"EpochWeedle",
                 Type.BUG,Type.STEEL,
                 new Stats(40,
                         20,

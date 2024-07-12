@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochServine extends drai.dev.data.pokemon.Pokemon {
     public EpochServine(String name, Aspect aspect) {
-        super(name, aspect, "EpochServine",
+        super(name, aspect,"EpochServine",
                 Type.GHOST,
                 new Stats(60,
                         60,

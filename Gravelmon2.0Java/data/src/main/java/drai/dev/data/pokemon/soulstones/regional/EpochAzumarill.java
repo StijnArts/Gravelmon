@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAzumarill extends drai.dev.data.pokemon.Pokemon {
     public EpochAzumarill(String name, Aspect aspect) {
-        super(name, aspect, "EpochAzumarill",
+        super(name, aspect,"EpochAzumarill",
                 Type.FIGHTING,
                 new Stats(90,
                         50,

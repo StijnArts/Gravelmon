@@ -15,8 +15,8 @@
       "level": "12-36",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_wasteland",
-"#cobblemon:is_crimson" ]
+"biomes": [ "#cobblemon:nether/is_wasteland",
+"#cobblemon:nether/is_crimson" ]
       }
     }
 

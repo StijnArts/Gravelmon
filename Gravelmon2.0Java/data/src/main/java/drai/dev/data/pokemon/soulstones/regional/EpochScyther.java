@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochScyther extends drai.dev.data.pokemon.Pokemon {
     public EpochScyther(String name, Aspect aspect) {
-        super(name, aspect, "EpochScyther",
+        super(name, aspect,"EpochScyther",
                 Type.LIGHT,Type.DARK,
                 new Stats(70,
                         110,

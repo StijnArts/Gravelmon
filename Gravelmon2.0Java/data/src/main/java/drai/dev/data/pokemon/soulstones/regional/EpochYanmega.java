@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochyanmega extends drai.dev.data.pokemon.Pokemon {
-    public Epochyanmega(String name, Aspect aspect) {
-        super(name, aspect, "EpochYanmega",
+public class EpochYanmega extends drai.dev.data.pokemon.Pokemon {
+    public EpochYanmega(String name, Aspect aspect) {
+        super(name, aspect,"EpochYanmega",
                 Type.BUG,Type.WATER,
                 new Stats(86,
                         106,

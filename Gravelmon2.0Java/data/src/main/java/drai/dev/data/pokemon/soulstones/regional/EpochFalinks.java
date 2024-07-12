@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFalinks extends drai.dev.data.pokemon.Pokemon {
     public EpochFalinks(String name, Aspect aspect) {
-        super(name, aspect, "EpochFalinks",
+        super(name, aspect,"EpochFalinks",
                 Type.COSMIC,
                 new Stats(85,
                         65,

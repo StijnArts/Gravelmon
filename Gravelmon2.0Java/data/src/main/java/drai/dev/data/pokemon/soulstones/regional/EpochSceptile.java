@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSceptile extends drai.dev.data.pokemon.Pokemon {
     public EpochSceptile(String name, Aspect aspect) {
-        super(name, aspect, "EpochSceptile",
+        super(name, aspect,"EpochSceptile",
                 Type.BUG,Type.DRAGON,
                 new Stats(105,
                         100,

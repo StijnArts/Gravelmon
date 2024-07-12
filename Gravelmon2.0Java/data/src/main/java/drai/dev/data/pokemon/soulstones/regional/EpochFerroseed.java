@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFerroseed extends drai.dev.data.pokemon.Pokemon {
     public EpochFerroseed(String name, Aspect aspect) {
-        super(name, aspect, "EpochFerroseed",
+        super(name, aspect,"EpochFerroseed",
                 Type.GRASS,
                 new Stats(44,
                         86,

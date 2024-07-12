@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPalkia extends drai.dev.data.pokemon.Pokemon {
     public EpochPalkia(String name, Aspect aspect) {
-        super(name, aspect, "EpochPalkia",
+        super(name, aspect,"EpochPalkia",
                 Type.COSMIC,Type.DRAGON,
                 new Stats(300,
                         125,

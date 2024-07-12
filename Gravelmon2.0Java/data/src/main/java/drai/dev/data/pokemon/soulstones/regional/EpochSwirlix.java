@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSwirlix extends drai.dev.data.pokemon.Pokemon {
     public EpochSwirlix(String name, Aspect aspect) {
-        super(name, aspect, "EpochSwirlix",
+        super(name, aspect,"EpochSwirlix",
                 Type.FLYING,Type.LIGHT,
                 new Stats(55,
                         35,

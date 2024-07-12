@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShuppet extends drai.dev.data.pokemon.Pokemon {
     public EpochShuppet(String name, Aspect aspect) {
-        super(name, aspect, "EpochShuppet",
+        super(name, aspect,"EpochShuppet",
                 Type.FAIRY,Type.DARK,
                 new Stats(44,
                         75,

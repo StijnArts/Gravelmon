@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGolett extends drai.dev.data.pokemon.Pokemon {
     public EpochGolett(String name, Aspect aspect) {
-        super(name, aspect, "EpochGolett",
+        super(name, aspect,"EpochGolett",
                 Type.STEEL,Type.PSYCHIC,
                 new Stats(64,
                         69,

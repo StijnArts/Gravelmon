@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVibrava extends drai.dev.data.pokemon.Pokemon {
     public EpochVibrava(String name, Aspect aspect) {
-        super(name, aspect, "EpochVibrava",
+        super(name, aspect,"EpochVibrava",
                 Type.ICE,Type.DRAGON,
                 new Stats(50,
                         70,

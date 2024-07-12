@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTurtwig extends drai.dev.data.pokemon.Pokemon {
     public EpochTurtwig(String name, Aspect aspect) {
-        super(name, aspect, "EpochTurtwig",
+        super(name, aspect,"EpochTurtwig",
                 Type.DRAGON,Type.FIRE,
                 new Stats(55,
                         68,

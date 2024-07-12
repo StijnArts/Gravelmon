@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShroomish extends drai.dev.data.pokemon.Pokemon {
     public EpochShroomish(String name, Aspect aspect) {
-        super(name, aspect, "EpochShroomish",
+        super(name, aspect,"EpochShroomish",
                 Type.STEEL,
                 new Stats(60,
                         40,

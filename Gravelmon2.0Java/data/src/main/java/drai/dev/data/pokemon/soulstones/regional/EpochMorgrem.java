@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochmorgrem extends drai.dev.data.pokemon.Pokemon {
-    public Epochmorgrem(String name, Aspect aspect) {
-        super(name, aspect, "EpochMorgrem",
+public class EpochMorgrem extends drai.dev.data.pokemon.Pokemon {
+    public EpochMorgrem(String name, Aspect aspect) {
+        super(name, aspect,"EpochMorgrem",
                 Type.GROUND,Type.FAIRY,
                 new Stats(60,
                         85,

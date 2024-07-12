@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDucklett extends drai.dev.data.pokemon.Pokemon {
     public EpochDucklett(String name, Aspect aspect) {
-        super(name, aspect, "EpochDucklett",
+        super(name, aspect,"EpochDucklett",
                 Type.LIGHT,Type.FLYING,
                 new Stats(62,
                         39,

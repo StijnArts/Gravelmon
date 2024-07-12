@@ -15,7 +15,7 @@
       "level": "34-58",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_mountain" ]
+"biomes": [ "#cobblemon:nether/is_mountain" ]
       }
     }
 ,

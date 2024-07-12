@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochYamper extends drai.dev.data.pokemon.Pokemon {
     public EpochYamper(String name, Aspect aspect) {
-        super(name, aspect, "EpochYamper",
+        super(name, aspect,"EpochYamper",
                 Type.NORMAL,
                 new Stats(45,
                         55,

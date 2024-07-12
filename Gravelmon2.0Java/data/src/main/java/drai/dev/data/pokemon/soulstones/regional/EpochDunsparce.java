@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDunsparce extends drai.dev.data.pokemon.Pokemon {
     public EpochDunsparce(String name, Aspect aspect) {
-        super(name, aspect, "EpochDunsparce",
+        super(name, aspect,"EpochDunsparce",
                 Type.BUG,Type.POISON,
                 new Stats(100,
                         95,

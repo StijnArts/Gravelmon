@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSmoochum extends drai.dev.data.pokemon.Pokemon {
     public EpochSmoochum(String name, Aspect aspect) {
-        super(name, aspect, "EpochSmoochum",
+        super(name, aspect,"EpochSmoochum",
                 Type.SOUND,Type.ICE,
                 new Stats(45,
                         15,

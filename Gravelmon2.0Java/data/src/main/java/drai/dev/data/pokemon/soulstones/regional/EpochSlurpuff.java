@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlurpuff extends drai.dev.data.pokemon.Pokemon {
     public EpochSlurpuff(String name, Aspect aspect) {
-        super(name, aspect, "EpochSlurpuff",
+        super(name, aspect,"EpochSlurpuff",
                 Type.FLYING,Type.LIGHT,
                 new Stats(75,
                         50,

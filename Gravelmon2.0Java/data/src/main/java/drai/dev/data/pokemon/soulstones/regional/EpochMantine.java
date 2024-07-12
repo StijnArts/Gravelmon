@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMantine extends drai.dev.data.pokemon.Pokemon {
     public EpochMantine(String name, Aspect aspect) {
-        super(name, aspect, "EpochMantine",
+        super(name, aspect,"EpochMantine",
                 Type.WATER,Type.ELECTRIC,
                 new Stats(85,
                         40,

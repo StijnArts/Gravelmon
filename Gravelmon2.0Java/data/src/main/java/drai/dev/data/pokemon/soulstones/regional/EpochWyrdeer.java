@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochwyrdeer extends drai.dev.data.pokemon.Pokemon {
-    public Epochwyrdeer(String name, Aspect aspect) {
-        super(name, aspect, "EpochWyrdeer",
+public class EpochWyrdeer extends drai.dev.data.pokemon.Pokemon {
+    public EpochWyrdeer(String name, Aspect aspect) {
+        super(name, aspect,"EpochWyrdeer",
                 Type.ICE,Type.GRASS,
                 new Stats(93,
                         110,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBraviary extends drai.dev.data.pokemon.Pokemon {
     public EpochBraviary(String name, Aspect aspect) {
-        super(name, aspect, "EpochBraviary",
+        super(name, aspect,"EpochBraviary",
                 Type.FIRE,Type.FLYING,
                 new Stats(100,
                         123,

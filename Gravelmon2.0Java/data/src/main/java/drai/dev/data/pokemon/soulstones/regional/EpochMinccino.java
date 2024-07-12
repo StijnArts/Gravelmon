@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMinccino extends drai.dev.data.pokemon.Pokemon {
     public EpochMinccino(String name, Aspect aspect) {
-        super(name, aspect, "EpochMinccino",
+        super(name, aspect,"EpochMinccino",
                 Type.GHOST,Type.FAIRY,
                 new Stats(50,
                         35,

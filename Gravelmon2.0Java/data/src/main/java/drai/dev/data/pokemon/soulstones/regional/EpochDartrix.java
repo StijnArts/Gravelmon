@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDartrix extends drai.dev.data.pokemon.Pokemon {
     public EpochDartrix(String name, Aspect aspect) {
-        super(name, aspect, "EpochDartrix",
+        super(name, aspect,"EpochDartrix",
                 Type.FIRE,Type.FLYING,
                 new Stats(72,
                         64,

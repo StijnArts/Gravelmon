@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPelipper extends drai.dev.data.pokemon.Pokemon {
     public EpochPelipper(String name, Aspect aspect) {
-        super(name, aspect, "EpochPelipper",
+        super(name, aspect,"EpochPelipper",
                 Type.DARK,Type.FLYING,
                 new Stats(70,
                         95,
@@ -72,7 +72,7 @@ public class EpochPelipper extends drai.dev.data.pokemon.Pokemon {
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FLYING),
-                List.of("It often travels with groups of Wingull as their quasi-'leader'. They are highly organized and can order the Wingulls to attack in unison."),
+                List.of("It often travels with groups of Wingull as their quasi-leader. They are highly organized and can order the Wingulls to attack in unison."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BEAK_BLAST,49),

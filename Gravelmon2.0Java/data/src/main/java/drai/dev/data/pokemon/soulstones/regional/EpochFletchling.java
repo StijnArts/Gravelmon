@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFletchling extends drai.dev.data.pokemon.Pokemon {
     public EpochFletchling(String name, Aspect aspect) {
-        super(name, aspect, "EpochFletchling",
+        super(name, aspect,"EpochFletchling",
                 Type.ELECTRIC,Type.FLYING,
                 new Stats(55,
                         50,

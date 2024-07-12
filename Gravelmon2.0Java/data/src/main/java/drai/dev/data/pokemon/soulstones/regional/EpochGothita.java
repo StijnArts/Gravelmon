@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochgothita extends drai.dev.data.pokemon.Pokemon {
-    public Epochgothita(String name, Aspect aspect) {
-        super(name, aspect, "EpochGothita",
+public class EpochGothita extends drai.dev.data.pokemon.Pokemon {
+    public EpochGothita(String name, Aspect aspect) {
+        super(name, aspect,"EpochGothita",
                 Type.FAIRY,Type.FIGHTING,
                 new Stats(45,
                         55,

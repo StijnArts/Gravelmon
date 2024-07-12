@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRowlet extends drai.dev.data.pokemon.Pokemon {
     public EpochRowlet(String name, Aspect aspect) {
-        super(name, aspect, "EpochRowlet",
+        super(name, aspect,"EpochRowlet",
                 Type.FIRE,Type.FLYING,
                 new Stats(54,
                         46,

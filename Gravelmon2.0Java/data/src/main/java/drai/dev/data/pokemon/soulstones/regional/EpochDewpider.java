@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochdewpider extends drai.dev.data.pokemon.Pokemon {
-    public Epochdewpider(String name, Aspect aspect) {
-        super(name, aspect, "EpochDewpider",
+public class EpochDewpider extends drai.dev.data.pokemon.Pokemon {
+    public EpochDewpider(String name, Aspect aspect) {
+        super(name, aspect,"EpochDewpider",
                 Type.LIGHT,Type.ELECTRIC,
                 new Stats(38,
                         40,

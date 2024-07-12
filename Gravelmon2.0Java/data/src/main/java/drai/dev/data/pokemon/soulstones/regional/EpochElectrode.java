@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochelectrode extends drai.dev.data.pokemon.Pokemon {
-    public Epochelectrode(String name, Aspect aspect) {
-        super(name, aspect, "EpochElectrode",
+public class EpochElectrode extends drai.dev.data.pokemon.Pokemon {
+    public EpochElectrode(String name, Aspect aspect) {
+        super(name, aspect,"EpochElectrode",
                 Type.ICE,
                 new Stats(60,
                         100,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGrowlithe extends drai.dev.data.pokemon.Pokemon {
     public EpochGrowlithe(String name, Aspect aspect) {
-        super(name, aspect, "EpochGrowlithe",
+        super(name, aspect,"EpochGrowlithe",
                 Type.COSMIC,Type.DRAGON,
                 new Stats(55,
                         70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTentacool extends drai.dev.data.pokemon.Pokemon {
     public EpochTentacool(String name, Aspect aspect) {
-        super(name, aspect, "EpochTentacool",
+        super(name, aspect,"EpochTentacool",
                 Type.COSMIC,Type.WATER,
                 new Stats(70,
                         20,

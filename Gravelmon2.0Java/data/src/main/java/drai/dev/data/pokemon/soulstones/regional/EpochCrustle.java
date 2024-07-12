@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCrustle extends drai.dev.data.pokemon.Pokemon {
     public EpochCrustle(String name, Aspect aspect) {
-        super(name, aspect, "EpochCrustle",
+        super(name, aspect,"EpochCrustle",
                 Type.BUG,Type.WATER,
                 new Stats(70,
                         95,

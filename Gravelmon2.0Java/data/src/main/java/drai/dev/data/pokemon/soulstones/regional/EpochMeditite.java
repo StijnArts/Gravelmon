@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMeditite extends drai.dev.data.pokemon.Pokemon {
     public EpochMeditite(String name, Aspect aspect) {
-        super(name, aspect, "EpochMeditite",
+        super(name, aspect,"EpochMeditite",
                 Type.LIGHT,Type.FIGHTING,
                 new Stats(30,
                         30,

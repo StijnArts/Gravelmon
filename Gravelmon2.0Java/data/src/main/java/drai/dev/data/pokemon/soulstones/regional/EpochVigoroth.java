@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVigoroth extends drai.dev.data.pokemon.Pokemon {
     public EpochVigoroth(String name, Aspect aspect) {
-        super(name, aspect, "EpochVigoroth",
+        super(name, aspect,"EpochVigoroth",
                 Type.ICE,Type.FIGHTING,
                 new Stats(80,
                         90,
@@ -72,7 +72,7 @@ public class EpochVigoroth extends drai.dev.data.pokemon.Pokemon {
                 154, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("When this Pokemon was first fed a Chople Berry, it said in response fam, this berry tastes low key sus af tho fr ong"),
+                List.of("When this Pokemon was first fed a Chople Berry, it said in response 'fam, this berry tastes low key sus af tho fr ong'"),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

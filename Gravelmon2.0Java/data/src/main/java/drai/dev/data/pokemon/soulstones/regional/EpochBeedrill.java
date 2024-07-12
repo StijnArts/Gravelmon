@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBeedrill extends drai.dev.data.pokemon.Pokemon {
     public EpochBeedrill(String name, Aspect aspect) {
-        super(name, aspect, "EpochBeedrill",
+        super(name, aspect,"EpochBeedrill",
                 Type.BUG,Type.STEEL,
                 new Stats(95,
                         35,

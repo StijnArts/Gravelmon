@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAnnihilape extends drai.dev.data.pokemon.Pokemon {
     public EpochAnnihilape(String name, Aspect aspect) {
-        super(name, aspect, "EpochAnnihilape",
+        super(name, aspect,"EpochAnnihilape",
                 Type.SOUND,Type.FIGHTING,
                 new Stats(95,
                         115,

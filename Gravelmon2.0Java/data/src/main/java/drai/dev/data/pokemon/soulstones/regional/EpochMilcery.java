@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMilcery extends drai.dev.data.pokemon.Pokemon {
     public EpochMilcery(String name, Aspect aspect) {
-        super(name, aspect, "EpochMilcery",
+        super(name, aspect,"EpochMilcery",
                 Type.POISON,Type.ROCK,
                 new Stats(45,
                         30,

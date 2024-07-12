@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNincada extends drai.dev.data.pokemon.Pokemon {
     public EpochNincada(String name, Aspect aspect) {
-        super(name, aspect, "EpochNincada",
+        super(name, aspect,"EpochNincada",
                 Type.NORMAL,Type.BUG,
                 new Stats(30,
                         55,

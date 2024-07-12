@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLitten extends drai.dev.data.pokemon.Pokemon {
     public EpochLitten(String name, Aspect aspect) {
-        super(name, aspect, "EpochLitten",
+        super(name, aspect,"EpochLitten",
                 Type.FIGHTING,Type.COSMIC,
                 new Stats(50,
                         70,

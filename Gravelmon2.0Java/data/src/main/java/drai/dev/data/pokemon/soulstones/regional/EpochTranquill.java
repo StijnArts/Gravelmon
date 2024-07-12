@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTranquill extends drai.dev.data.pokemon.Pokemon {
     public EpochTranquill(String name, Aspect aspect) {
-        super(name, aspect, "EpochTranquill",
+        super(name, aspect,"EpochTranquill",
                 Type.PSYCHIC,Type.FAIRY,
                 new Stats(60,
                         70,

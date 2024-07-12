@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochParas extends drai.dev.data.pokemon.Pokemon {
     public EpochParas(String name, Aspect aspect) {
-        super(name, aspect, "EpochParas",
+        super(name, aspect,"EpochParas",
                 Type.BUG,Type.GHOST,
                 new Stats(55,
                         30,

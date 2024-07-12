@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLitwick extends drai.dev.data.pokemon.Pokemon {
     public EpochLitwick(String name, Aspect aspect) {
-        super(name, aspect, "EpochLitwick",
+        super(name, aspect,"EpochLitwick",
                 Type.LIGHT,Type.GHOST,
                 new Stats(40,
                         35,

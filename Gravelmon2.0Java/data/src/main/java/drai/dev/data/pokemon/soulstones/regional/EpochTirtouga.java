@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTirtouga extends drai.dev.data.pokemon.Pokemon {
     public EpochTirtouga(String name, Aspect aspect) {
-        super(name, aspect, "EpochTirtouga",
+        super(name, aspect,"EpochTirtouga",
                 Type.STEEL,Type.GROUND,
                 new Stats(54,
                         78,

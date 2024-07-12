@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochstantler extends drai.dev.data.pokemon.Pokemon {
-    public Epochstantler(String name, Aspect aspect) {
-        super(name, aspect, "EpochStantler",
+public class EpochStantler extends drai.dev.data.pokemon.Pokemon {
+    public EpochStantler(String name, Aspect aspect) {
+        super(name, aspect,"EpochStantler",
                 Type.ICE,Type.GRASS,
                 new Stats(73,
                         90,

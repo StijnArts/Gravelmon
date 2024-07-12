@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMamoswineOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMamoswineOne(String name, Aspect aspect) {
-        super(name, aspect, "EpochMamoswineOne",
+        super(name, aspect,"EpochMamoswineOne",
                 Type.GRASS,Type.GROUND,
                 new Stats(110,
                         120,

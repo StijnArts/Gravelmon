@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFrogadier extends drai.dev.data.pokemon.Pokemon {
     public EpochFrogadier(String name, Aspect aspect) {
-        super(name, aspect, "EpochFrogadier",
+        super(name, aspect,"EpochFrogadier",
                 Type.ELECTRIC,Type.GHOST,
                 new Stats(54,
                         63,

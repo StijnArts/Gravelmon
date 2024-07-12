@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochswablu extends drai.dev.data.pokemon.Pokemon {
-    public Epochswablu(String name, Aspect aspect) {
-        super(name, aspect, "EpochSwablu",
+public class EpochSwablu extends drai.dev.data.pokemon.Pokemon {
+    public EpochSwablu(String name, Aspect aspect) {
+        super(name, aspect,"EpochSwablu",
                 Type.POISON,Type.DRAGON,
                 new Stats(55,
                         30,

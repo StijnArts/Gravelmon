@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVulpix extends drai.dev.data.pokemon.Pokemon {
     public EpochVulpix(String name, Aspect aspect) {
-        super(name, aspect, "EpochVulpix",
+        super(name, aspect,"EpochVulpix",
                 Type.COSMIC,
                 new Stats(38,
                         41,

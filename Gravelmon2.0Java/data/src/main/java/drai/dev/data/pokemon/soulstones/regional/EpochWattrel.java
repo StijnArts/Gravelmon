@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWattrel extends drai.dev.data.pokemon.Pokemon {
     public EpochWattrel(String name, Aspect aspect) {
-        super(name, aspect, "EpochWattrel",
+        super(name, aspect,"EpochWattrel",
                 Type.ICE,Type.ROCK,
                 new Stats(40,
                         55,

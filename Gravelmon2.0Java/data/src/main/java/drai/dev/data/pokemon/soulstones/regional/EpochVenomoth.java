@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVenomoth extends drai.dev.data.pokemon.Pokemon {
     public EpochVenomoth(String name, Aspect aspect) {
-        super(name, aspect, "EpochVenomoth",
+        super(name, aspect,"EpochVenomoth",
                 Type.BUG,Type.GRASS,
                 new Stats(100,
                         90,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTaillow extends drai.dev.data.pokemon.Pokemon {
     public EpochTaillow(String name, Aspect aspect) {
-        super(name, aspect, "EpochTaillow",
+        super(name, aspect,"EpochTaillow",
                 Type.DARK,Type.FLYING,
                 new Stats(40,
                         50,

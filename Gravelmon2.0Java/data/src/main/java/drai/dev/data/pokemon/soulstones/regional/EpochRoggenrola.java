@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochroggenrola extends drai.dev.data.pokemon.Pokemon {
-    public Epochroggenrola(String name, Aspect aspect) {
-        super(name, aspect, "EpochRoggenrola",
+public class EpochRoggenrola extends drai.dev.data.pokemon.Pokemon {
+    public EpochRoggenrola(String name, Aspect aspect) {
+        super(name, aspect,"EpochRoggenrola",
                 Type.ICE,Type.WATER,
                 new Stats(55,
                         35,

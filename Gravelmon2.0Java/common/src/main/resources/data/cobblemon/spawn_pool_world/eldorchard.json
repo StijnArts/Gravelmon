@@ -19,9 +19,9 @@
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_autumn",
-"#cobblemon:is_summer",
-"#cobblemon:is_winter" ]    }
+"biomes": [ "#cobblemon:has_season/autumn",
+"#cobblemon:has_season/summer",
+"#cobblemon:has_season/winter" ]    }
     }
   ]
 }

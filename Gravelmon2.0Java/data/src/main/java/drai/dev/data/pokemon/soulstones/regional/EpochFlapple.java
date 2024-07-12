@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFlapple extends drai.dev.data.pokemon.Pokemon {
     public EpochFlapple(String name, Aspect aspect) {
-        super(name, aspect, "EpochFlapple",
+        super(name, aspect,"EpochFlapple",
                 Type.STEEL,Type.FIGHTING,
                 new Stats(70,
                         110,

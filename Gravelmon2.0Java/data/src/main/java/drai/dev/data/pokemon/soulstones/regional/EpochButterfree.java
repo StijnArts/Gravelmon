@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochButterfree extends drai.dev.data.pokemon.Pokemon {
     public EpochButterfree(String name, Aspect aspect) {
-        super(name, aspect, "EpochButterfree",
+        super(name, aspect,"EpochButterfree",
                 Type.BUG,Type.FAIRY,
                 new Stats(85,
                         50,

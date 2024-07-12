@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShiftry extends drai.dev.data.pokemon.Pokemon {
     public EpochShiftry(String name, Aspect aspect) {
-        super(name, aspect, "EpochShiftry",
+        super(name, aspect,"EpochShiftry",
                 Type.GRASS,Type.FIRE,
                 new Stats(100,
                         70,

@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochgraveler extends drai.dev.data.pokemon.Pokemon {
-    public Epochgraveler(String name, Aspect aspect) {
-        super(name, aspect, "EpochGraveler",
+public class EpochGraveler extends drai.dev.data.pokemon.Pokemon {
+    public EpochGraveler(String name, Aspect aspect) {
+        super(name, aspect,"EpochGraveler",
                 Type.ROCK,Type.FIRE,
                 new Stats(70,
                         85,

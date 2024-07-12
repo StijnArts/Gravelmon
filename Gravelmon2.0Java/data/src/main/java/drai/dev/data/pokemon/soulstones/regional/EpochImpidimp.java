@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochimpidimp extends drai.dev.data.pokemon.Pokemon {
-    public Epochimpidimp(String name, Aspect aspect) {
-        super(name, aspect, "EpochImpidimp",
+public class EpochImpidimp extends drai.dev.data.pokemon.Pokemon {
+    public EpochImpidimp(String name, Aspect aspect) {
+        super(name, aspect,"EpochImpidimp",
                 Type.GROUND,Type.FAIRY,
                 new Stats(50,
                         65,

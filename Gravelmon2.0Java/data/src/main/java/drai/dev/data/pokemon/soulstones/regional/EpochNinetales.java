@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNinetales extends drai.dev.data.pokemon.Pokemon {
     public EpochNinetales(String name, Aspect aspect) {
-        super(name, aspect, "EpochNinetales",
+        super(name, aspect,"EpochNinetales",
                 Type.COSMIC,
                 new Stats(73,
                         66,

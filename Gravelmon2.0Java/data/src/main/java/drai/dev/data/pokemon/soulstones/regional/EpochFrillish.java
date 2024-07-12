@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFrillish extends drai.dev.data.pokemon.Pokemon {
     public EpochFrillish(String name, Aspect aspect) {
-        super(name, aspect, "EpochFrillish",
+        super(name, aspect,"EpochFrillish",
                 Type.GRASS,Type.POISON,
                 new Stats(55,
                         25,

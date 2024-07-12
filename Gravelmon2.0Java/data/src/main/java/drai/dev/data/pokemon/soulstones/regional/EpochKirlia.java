@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKirlia extends drai.dev.data.pokemon.Pokemon {
     public EpochKirlia(String name, Aspect aspect) {
-        super(name, aspect, "EpochKirlia",
+        super(name, aspect,"EpochKirlia",
                 Type.DARK,Type.POISON,
                 new Stats(40,
                         55,

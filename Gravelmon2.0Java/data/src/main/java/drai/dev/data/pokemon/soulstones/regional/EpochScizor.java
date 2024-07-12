@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochScizor extends drai.dev.data.pokemon.Pokemon {
     public EpochScizor(String name, Aspect aspect) {
-        super(name, aspect, "EpochScizor",
+        super(name, aspect,"EpochScizor",
                 Type.LIGHT,Type.STEEL,
                 new Stats(70,
                         75,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBinacle extends drai.dev.data.pokemon.Pokemon {
     public EpochBinacle(String name, Aspect aspect) {
-        super(name, aspect, "EpochBinacle",
+        super(name, aspect,"EpochBinacle",
                 Type.ROCK,Type.PSYCHIC,
                 new Stats(54,
                         35,

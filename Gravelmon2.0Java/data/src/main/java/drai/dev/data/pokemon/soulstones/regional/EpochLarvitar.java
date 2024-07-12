@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLarvitar extends drai.dev.data.pokemon.Pokemon {
     public EpochLarvitar(String name, Aspect aspect) {
-        super(name, aspect, "EpochLarvitar",
+        super(name, aspect,"EpochLarvitar",
                 Type.STEEL,Type.DRAGON,
                 new Stats(60,
                         64,

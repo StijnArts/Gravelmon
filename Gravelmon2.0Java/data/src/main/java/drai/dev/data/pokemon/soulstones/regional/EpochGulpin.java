@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGulpin extends drai.dev.data.pokemon.Pokemon {
     public EpochGulpin(String name, Aspect aspect) {
-        super(name, aspect, "EpochGulpin",
+        super(name, aspect,"EpochGulpin",
                 Type.GROUND,
                 new Stats(65,
                         33,

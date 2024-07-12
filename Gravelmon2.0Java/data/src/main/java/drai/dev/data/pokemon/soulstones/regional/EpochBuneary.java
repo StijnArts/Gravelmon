@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBuneary extends drai.dev.data.pokemon.Pokemon {
     public EpochBuneary(String name, Aspect aspect) {
-        super(name, aspect, "EpochBuneary",
+        super(name, aspect,"EpochBuneary",
                 Type.COSMIC,Type.ICE,
                 new Stats(55,
                         66,

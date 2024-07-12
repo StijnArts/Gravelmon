@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochnosepass extends drai.dev.data.pokemon.Pokemon {
-    public Epochnosepass(String name, Aspect aspect) {
-        super(name, aspect, "EpochNosepass",
+public class EpochNosepass extends drai.dev.data.pokemon.Pokemon {
+    public EpochNosepass(String name, Aspect aspect) {
+        super(name, aspect,"EpochNosepass",
                 Type.GRASS,Type.PSYCHIC,
                 new Stats(40,
                         95,

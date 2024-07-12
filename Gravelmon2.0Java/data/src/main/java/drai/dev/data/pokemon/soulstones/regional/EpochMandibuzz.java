@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMandibuzz extends drai.dev.data.pokemon.Pokemon {
     public EpochMandibuzz(String name, Aspect aspect) {
-        super(name, aspect, "EpochMandibuzz",
+        super(name, aspect,"EpochMandibuzz",
                 Type.GROUND,Type.FLYING,
                 new Stats(110,
                         105,

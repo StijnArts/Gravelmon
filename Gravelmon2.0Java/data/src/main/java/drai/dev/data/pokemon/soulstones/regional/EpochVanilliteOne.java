@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVanilliteOne extends drai.dev.data.pokemon.Pokemon {
     public EpochVanilliteOne(String name, Aspect aspect) {
-        super(name, aspect, "EpochVanilliteOne",
+        super(name, aspect,"EpochVanilliteOne",
                 Type.FIRE,Type.ROCK,
                 new Stats(36,
                         40,

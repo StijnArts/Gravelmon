@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVullaby extends drai.dev.data.pokemon.Pokemon {
     public EpochVullaby(String name, Aspect aspect) {
-        super(name, aspect, "EpochVullaby",
+        super(name, aspect,"EpochVullaby",
                 Type.GROUND,Type.FLYING,
                 new Stats(70,
                         75,

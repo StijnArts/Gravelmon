@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHypno extends drai.dev.data.pokemon.Pokemon {
     public EpochHypno(String name, Aspect aspect) {
-        super(name, aspect, "EpochHypno",
+        super(name, aspect,"EpochHypno",
                 Type.DARK,Type.FIGHTING,
                 new Stats(80,
                         105,

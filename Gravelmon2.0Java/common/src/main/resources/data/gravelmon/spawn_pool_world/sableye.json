@@ -32,8 +32,8 @@
       "level": "15-48",
       "weight": 3.2,
       "condition": {
-"biomes": [ "#cobblemon:is_basalt",
-"#cobblemon:is_desert" ]
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_desert" ]
       }
     }
 ,

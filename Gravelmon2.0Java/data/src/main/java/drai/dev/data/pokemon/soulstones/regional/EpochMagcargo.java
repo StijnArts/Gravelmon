@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochmagcargo extends drai.dev.data.pokemon.Pokemon {
-    public Epochmagcargo(String name, Aspect aspect) {
-        super(name, aspect, "EpochMagcargo",
+public class EpochMagcargo extends drai.dev.data.pokemon.Pokemon {
+    public EpochMagcargo(String name, Aspect aspect) {
+        super(name, aspect,"EpochMagcargo",
                 Type.POISON,Type.STEEL,
                 new Stats(90,
                         60,

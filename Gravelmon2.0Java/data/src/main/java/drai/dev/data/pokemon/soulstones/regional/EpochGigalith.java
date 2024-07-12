@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochgigalith extends drai.dev.data.pokemon.Pokemon {
-    public Epochgigalith(String name, Aspect aspect) {
-        super(name, aspect, "EpochGigalith",
+public class EpochGigalith extends drai.dev.data.pokemon.Pokemon {
+    public EpochGigalith(String name, Aspect aspect) {
+        super(name, aspect,"EpochGigalith",
                 Type.ICE,Type.WATER,
                 new Stats(95,
                         70,

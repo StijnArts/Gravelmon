@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBlitzle extends drai.dev.data.pokemon.Pokemon {
     public EpochBlitzle(String name, Aspect aspect) {
-        super(name, aspect, "EpochBlitzle",
+        super(name, aspect,"EpochBlitzle",
                 Type.FAIRY,Type.LIGHT,
                 new Stats(45,
                         60,

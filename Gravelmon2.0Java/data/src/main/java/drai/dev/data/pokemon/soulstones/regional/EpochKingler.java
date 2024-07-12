@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKingler extends drai.dev.data.pokemon.Pokemon {
     public EpochKingler(String name, Aspect aspect) {
-        super(name, aspect, "EpochKingler",
+        super(name, aspect,"EpochKingler",
                 Type.GROUND,Type.ROCK,
                 new Stats(55,
                         130,

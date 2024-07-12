@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAvalugg extends drai.dev.data.pokemon.Pokemon {
     public EpochAvalugg(String name, Aspect aspect) {
-        super(name, aspect, "EpochAvalugg",
+        super(name, aspect,"EpochAvalugg",
                 Type.ROCK,
                 new Stats(95,
                         105,

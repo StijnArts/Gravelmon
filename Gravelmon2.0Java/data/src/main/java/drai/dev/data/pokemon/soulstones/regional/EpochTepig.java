@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTepig extends drai.dev.data.pokemon.Pokemon {
     public EpochTepig(String name, Aspect aspect) {
-        super(name, aspect, "EpochTepig",
+        super(name, aspect,"EpochTepig",
                 Type.GROUND,Type.ROCK,
                 new Stats(65,
                         53,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSandile extends drai.dev.data.pokemon.Pokemon {
     public EpochSandile(String name, Aspect aspect) {
-        super(name, aspect, "EpochSandile",
+        super(name, aspect,"EpochSandile",
                 Type.WATER,Type.DARK,
                 new Stats(50,
                         52,

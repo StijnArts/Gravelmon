@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShiinotic extends drai.dev.data.pokemon.Pokemon {
     public EpochShiinotic(String name, Aspect aspect) {
-        super(name, aspect, "EpochShiinotic",
+        super(name, aspect,"EpochShiinotic",
                 Type.GHOST,Type.GRASS,
                 new Stats(90,
                         50,

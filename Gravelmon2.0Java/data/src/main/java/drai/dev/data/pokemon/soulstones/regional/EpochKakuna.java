@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKakuna extends drai.dev.data.pokemon.Pokemon {
     public EpochKakuna(String name, Aspect aspect) {
-        super(name, aspect, "EpochKakuna",
+        super(name, aspect,"EpochKakuna",
                 Type.BUG,Type.STEEL,
                 new Stats(45,
                         20,

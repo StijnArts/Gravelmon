@@ -17,7 +17,7 @@
       "condition": {
 "biomes": [ "#cobblemon:is_desert",
 "#cobblemon:is_volvanic",
-"#cobblemon:is_soul_fire" ],
+"#cobblemon:nether/is_soul_fire" ],
         "timeRange": "night"
       }
     }

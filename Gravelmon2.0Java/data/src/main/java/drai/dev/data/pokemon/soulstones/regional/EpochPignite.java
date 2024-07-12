@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPignite extends drai.dev.data.pokemon.Pokemon {
     public EpochPignite(String name, Aspect aspect) {
-        super(name, aspect, "EpochPignite",
+        super(name, aspect,"EpochPignite",
                 Type.GROUND,Type.ROCK,
                 new Stats(80,
                         83,

@@ -1,6 +1,8 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.chaosinvestia.*;
+import drai.dev.data.pokemon.chaosinvestia.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
@@ -31,6 +33,49 @@ public class GenerationSix extends Game {
 //        pokemon.add(new LagoonanBarbaracle("", Aspect.LAGOONAN));
 
 //        pokemon.add(new IonosianInkay(686));   Missing Art
+
+        pokemon.add(new VesitanChespin("", Aspect.VESITAN));
+        pokemon.add(new VesitanQuilladin("", Aspect.VESITAN));
+        pokemon.add(new VesitanChesnaught("", Aspect.VESITAN));
+        pokemon.add(new VesitanFennekin("", Aspect.VESITAN));
+        pokemon.add(new VesitanBraixen("", Aspect.VESITAN));
+        pokemon.add(new VesitanDelphox("", Aspect.VESITAN));
+        pokemon.add(new VesitanFroakie("", Aspect.VESITAN));
+        pokemon.add(new VesitanFrogadier("", Aspect.VESITAN));
+        pokemon.add(new VesitanGreninja("", Aspect.VESITAN));
+        pokemon.add(new VesitanScatterbug("", Aspect.VESITAN));
+        pokemon.add(new VesitanSpewpa("", Aspect.VESITAN));
+        pokemon.add(new VesitanVivillon("", Aspect.VESITAN));
+        pokemon.add(new VesitanFlabebe("", Aspect.VESITAN));
+        pokemon.add(new VesitanFloette("", Aspect.VESITAN));
+        pokemon.add(new VesitanFlorges("", Aspect.VESITAN));
+        pokemon.add(new VesitanSkiddo("", Aspect.VESITAN));
+        pokemon.add(new VesitanGogoat("", Aspect.VESITAN));
+        pokemon.add(new VesitanSpritzee("", Aspect.VESITAN));
+        pokemon.add(new VesitanAromatisse("", Aspect.VESITAN));
+        pokemon.add(new VesitanSwirlix("", Aspect.VESITAN));
+        pokemon.add(new VesitanSlurpuff("", Aspect.VESITAN));
+        pokemon.add(new VesitanInkay("", Aspect.VESITAN));
+        pokemon.add(new VesitanMalamar("", Aspect.VESITAN));
+        pokemon.add(new VesitanBinacle("", Aspect.VESITAN));
+        pokemon.add(new VesitanBarbaracle("", Aspect.VESITAN));
+        pokemon.add(new VesitanSkrelp("", Aspect.VESITAN));
+        pokemon.add(new VesitanDragalge("", Aspect.VESITAN));
+        pokemon.add(new VesitanClauncher("", Aspect.VESITAN));
+        pokemon.add(new VesitanClawitzer("", Aspect.VESITAN));
+        pokemon.add(new VesitanHelioptile("", Aspect.VESITAN));
+        pokemon.add(new VesitanHeliolisk("", Aspect.VESITAN));
+        pokemon.add(new VesitanHawlucha("", Aspect.VESITAN));
+        pokemon.add(new VesitanDedenne("", Aspect.VESITAN));
+        pokemon.add(new VesitanGoomy("", Aspect.VESITAN));
+        pokemon.add(new VesitanSliggoo("", Aspect.VESITAN));
+        pokemon.add(new VesitanGoodra("", Aspect.VESITAN));
+        pokemon.add(new VesitanBergmite("", Aspect.VESITAN));
+        pokemon.add(new VesitanAvalugg("", Aspect.VESITAN));
+        pokemon.add(new VesitanNoibat("", Aspect.VESITAN));
+        pokemon.add(new VesitanNoivern("", Aspect.VESITAN));
+//        pokemon.add(new VesitanXerneas("", Aspect.VESITAN));
+//        pokemon.add(new VesitanYveltal("", Aspect.VESITAN));
 
         pokemon.add(new NovranSkrelp("Skrelp", Aspect.NOVRAN));
         pokemon.add(new NovranDragalge("Dragalge", Aspect.NOVRAN));

@@ -38,7 +38,7 @@
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_plains",
-"#cobblemon:is_autumn" ]    }
+"#cobblemon:has_season/autumn" ]    }
     }
 ,
     {
@@ -53,7 +53,7 @@
       "level": "30-52",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_fungus" ],
+"biomes": [ "#cobblemon:nether/is_fungus" ],
         "canSeeSky": true
       }
     }

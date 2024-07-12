@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class AyreianMrmime extends drai.dev.data.pokemon.Pokemon {
-    public AyreianMrmime() {
-        super("Mrmime",
+    public AyreianMrmime(String name, Aspect aspect) {
+        super(name, aspect, "Mrmime",
                 Type.FIRE,Type.SOUND,
                 new Stats(40,
                         45,

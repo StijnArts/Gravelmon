@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLotad extends drai.dev.data.pokemon.Pokemon {
     public EpochLotad(String name, Aspect aspect) {
-        super(name, aspect, "EpochLotad",
+        super(name, aspect,"EpochLotad",
                 Type.GRASS,Type.GROUND,
                 new Stats(50,
                         20,

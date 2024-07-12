@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCubchoo extends drai.dev.data.pokemon.Pokemon {
     public EpochCubchoo(String name, Aspect aspect) {
-        super(name, aspect, "EpochCubchoo",
+        super(name, aspect,"EpochCubchoo",
                 Type.NORMAL,
                 new Stats(60,
                         60,

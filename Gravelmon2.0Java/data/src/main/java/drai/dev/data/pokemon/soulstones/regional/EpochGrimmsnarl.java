@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochgrimmsnarl extends drai.dev.data.pokemon.Pokemon {
-    public Epochgrimmsnarl(String name, Aspect aspect) {
-        super(name, aspect, "EpochGrimmsnarl",
+public class EpochGrimmsnarl extends drai.dev.data.pokemon.Pokemon {
+    public EpochGrimmsnarl(String name, Aspect aspect) {
+        super(name, aspect,"EpochGrimmsnarl",
                 Type.GROUND,Type.FAIRY,
                 new Stats(85,
                         105,

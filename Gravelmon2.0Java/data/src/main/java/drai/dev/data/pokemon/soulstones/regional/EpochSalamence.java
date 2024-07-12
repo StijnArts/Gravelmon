@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSalamence extends drai.dev.data.pokemon.Pokemon {
     public EpochSalamence(String name, Aspect aspect) {
-        super(name, aspect, "EpochSalamence",
+        super(name, aspect,"EpochSalamence",
                 Type.FIRE,Type.POISON,
                 new Stats(105,
                         120,

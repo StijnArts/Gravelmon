@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMonferno extends drai.dev.data.pokemon.Pokemon {
     public EpochMonferno(String name, Aspect aspect) {
-        super(name, aspect, "EpochMonferno",
+        super(name, aspect,"EpochMonferno",
                 Type.ELECTRIC,Type.FIGHTING,
                 new Stats(69,
                         68,

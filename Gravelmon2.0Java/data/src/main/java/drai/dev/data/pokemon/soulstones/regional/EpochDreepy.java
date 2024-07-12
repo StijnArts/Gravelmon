@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDreepy extends drai.dev.data.pokemon.Pokemon {
     public EpochDreepy(String name, Aspect aspect) {
-        super(name, aspect, "EpochDreepy",
+        super(name, aspect,"EpochDreepy",
                 Type.STEEL,Type.FLYING,
                 new Stats(28,
                         40,

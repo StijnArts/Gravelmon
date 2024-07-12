@@ -45,6 +45,8 @@ public class GenerationOne extends Game {
 //        pokemon.add(new IonosianJynx(124));   Missing Stats
 //        pokemon.add(new IonosianSnorlax(143));   Missing Stats
 
+
+
         pokemon.add(new FligianParas("", Aspect.FLIGIAN));
         pokemon.add(new FligianParasect("", Aspect.FLIGIAN));
         pokemon.add(new FligianChansey("", Aspect.FLIGIAN));

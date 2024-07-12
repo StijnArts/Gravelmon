@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShedinja extends drai.dev.data.pokemon.Pokemon {
     public EpochShedinja(String name, Aspect aspect) {
-        super(name, aspect, "EpochShedinja",
+        super(name, aspect,"EpochShedinja",
                 Type.LIGHT,Type.BUG,
                 new Stats(1,
                         30,

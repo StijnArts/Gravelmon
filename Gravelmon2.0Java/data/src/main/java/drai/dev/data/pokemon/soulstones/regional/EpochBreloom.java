@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBreloom extends drai.dev.data.pokemon.Pokemon {
     public EpochBreloom(String name, Aspect aspect) {
-        super(name, aspect, "EpochBreloom",
+        super(name, aspect,"EpochBreloom",
                 Type.STEEL,Type.FIGHTING,
                 new Stats(60,
                         95,

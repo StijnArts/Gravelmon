@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochElectivire extends drai.dev.data.pokemon.Pokemon {
     public EpochElectivire(String name, Aspect aspect) {
-        super(name, aspect, "EpochElectivire",
+        super(name, aspect,"EpochElectivire",
                 Type.BUG,Type.FIGHTING,
                 new Stats(100,
                         120,

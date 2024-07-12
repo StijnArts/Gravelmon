@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKadabra extends drai.dev.data.pokemon.Pokemon {
     public EpochKadabra(String name, Aspect aspect) {
-        super(name, aspect, "EpochKadabra",
+        super(name, aspect,"EpochKadabra",
                 Type.FIGHTING,Type.NORMAL,
                 new Stats(65,
                         35,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSizzlipede extends drai.dev.data.pokemon.Pokemon {
     public EpochSizzlipede(String name, Aspect aspect) {
-        super(name, aspect, "EpochSizzlipede",
+        super(name, aspect,"EpochSizzlipede",
                 Type.BUG,Type.POISON,
                 new Stats(50,
                         75,

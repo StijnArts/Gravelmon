@@ -55,9 +55,9 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Epochgabite extends drai.dev.data.pokemon.Pokemon {
-    public Epochgabite(String name, Aspect aspect) {
-        super(name, aspect, "EpochGabite",
+public class EpochGabite extends drai.dev.data.pokemon.Pokemon {
+    public EpochGabite(String name, Aspect aspect) {
+        super(name, aspect,"EpochGabite",
                 Type.GHOST,Type.DRAGON,
                 new Stats(68,
                         90,
