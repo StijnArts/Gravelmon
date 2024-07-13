@@ -4,6 +4,42 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochtyphlosion-1",
+      "pokemon": "typhlosion epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochtyphlosionone-1",
+      "pokemon": "typhlosion epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "eghotyphlosion-1",
       "pokemon": "typhlosion egho",
       "presets": [

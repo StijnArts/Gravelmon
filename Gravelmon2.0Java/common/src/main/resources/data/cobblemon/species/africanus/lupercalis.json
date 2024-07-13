@@ -53,11 +53,14 @@
     "44:psychic"  ],
   "labels": [
     "africanus",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lupercalis.desc"
   ],
+  "preEvolution": "virilis",
   "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,

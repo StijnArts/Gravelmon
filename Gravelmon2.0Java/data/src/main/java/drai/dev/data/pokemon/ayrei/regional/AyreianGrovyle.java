@@ -73,7 +73,8 @@ public class AyreianGrovyle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("The sheer power gained from evolution changed this Pokemon's metabolism, as it now behaves like an ambush predator."),
-                List.of(),
+                List.of(new EvolutionEntry("sceptile ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,15),
@@ -164,9 +165,8 @@ public class AyreianGrovyle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEECH_LIFE,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

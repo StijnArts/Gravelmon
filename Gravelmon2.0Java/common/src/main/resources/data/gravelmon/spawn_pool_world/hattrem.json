@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochhattrem-1",
+      "pokemon": "hattrem epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "novranhattrem-1",
       "pokemon": "hattrem novran",
       "presets": [
@@ -17,6 +35,23 @@
       "condition": {
 "biomes": [ "#cobblemon:is_grassland" ],
         "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianhattrem-1",
+      "pokemon": "hattrem ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-42",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "timeRange": "night"
       }
     }
 

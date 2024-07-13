@@ -73,7 +73,8 @@ public class AyreianZigzagoon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It marks its territory by rubbing its bristly fur on trees. This variety of Zigzagoon is friendlier and calmer than the kind native to Galar."),
-                List.of(),
+                List.of(new EvolutionEntry("linoone ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,10),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -149,9 +150,9 @@ public class AyreianZigzagoon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXTREME_SPEED,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

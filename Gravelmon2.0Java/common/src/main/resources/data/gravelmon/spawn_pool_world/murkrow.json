@@ -4,6 +4,42 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochmurkrow-1",
+      "pokemon": "murkrow epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochmurkrowone-1",
+      "pokemon": "murkrow epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "hizianmurkrow-1",
       "pokemon": "murkrow hizian",
       "presets": [

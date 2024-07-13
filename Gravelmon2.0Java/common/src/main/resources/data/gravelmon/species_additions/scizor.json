@@ -1,6 +1,146 @@
 {
    "target": "cobblemon:scizor",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "light",
+  "secondaryType": "steel",
+  "abilities": [
+    "megalauncher",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 75,
+    "defence": 90,
+    "special_attack": 85,
+    "special_defence": 90,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 85,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "8:aurorabeam",
+    "1:leer",
+    "44:prismaticlaser",
+    "24:laserfocus",
+    "48:nastyplot",
+    "40:flashcannon",
+    "12:doubleteam",
+    "16:flash",
+    "28:signalbeam",
+    "32:autotomize",
+    "52:photongeyser",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dualwingbeat",
+    "tm:electricterrain",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gammaray",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:steelroller",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochscizor.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 70,
+    "attack": 75,
+    "defence": 90,
+    "special_attack": 2,
+    "special_defence": 90,
+    "speed": 90
+  },
+  "height": 18,
+  "weight": 1180,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "ice",
   "secondaryType": "fighting",
@@ -337,6 +477,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "mythian"
   ]

@@ -21,6 +21,144 @@
  }
   ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "secondaryType": "ice",
+  "abilities": [
+    "waterabsorb",
+    "infiltrator",
+    "h:snowwarning"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 40,
+    "defence": 55,
+    "special_attack": 15,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "4:harden",
+    "18:confuseray",
+    "26:freezedry",
+    "54:blizzard",
+    "58:auroraveil",
+    "10:icywind",
+    "14:hypnosis",
+    "1:powdersnow",
+    "7:haunt",
+    "30:hex",
+    "1:astonish",
+    "46:icebeam",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:hail",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:memento",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:wish",
+    "egg:frostbreath",
+    "egg:amnesia",
+    "egg:destinybond",
+    "egg:perishsong",
+    "egg:stockpile",
+    "egg:spitup",
+    "egg:swallow",
+    "egg:curse",
+    "egg:dreameater"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsandygast.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 40,
+    "defence": 1,
+    "special_attack": 15,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "height": 5,
+  "weight": 700,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Qamoran",
   "primaryType": "rock",
   "secondaryType": "ghost",
@@ -125,6 +263,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "qamoran"
   ]
 }

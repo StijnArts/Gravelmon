@@ -1,6 +1,142 @@
 {
    "target": "cobblemon:scraggy",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "sound",
+  "secondaryType": "dark",
+  "abilities": [
+    "prankster",
+    "quickdraw"  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 48,
+    "special_defence": 65,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "12:fling",
+    "1:leer",
+    "47:throatchop",
+    "60:boomburst",
+    "56:foulplay",
+    "4:powertrip",
+    "18:chatter",
+    "35:partingshot",
+    "10:thief",
+    "4:punishment",
+    "21:workup",
+    "7:beatup",
+    "41:swagger",
+    "27:scaryface",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:meteormash",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:soundbarrier",
+    "tm:stealthrock",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:feintattack",
+    "egg:fakeout",
+    "egg:drumbeating",
+    "egg:poweruppunch"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochscraggy.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 50,
+    "attack": 1,
+    "defence": 60,
+    "special_attack": 48,
+    "special_defence": 65,
+    "speed": 60
+  },
+  "height": 6,
+  "weight": 118,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "grass",
   "abilities": [
@@ -182,6 +318,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

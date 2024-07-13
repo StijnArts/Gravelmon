@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "amaze_all"
+        "amazeall"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation4_amazealldrifblim",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "amaze_all",
+        "amazeall",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

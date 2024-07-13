@@ -4,6 +4,42 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochlapras-1",
+      "pokemon": "lapras epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochlaprasone-1",
+      "pokemon": "lapras epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "novranlapras-1",
       "pokemon": "lapras novran",
       "presets": [
@@ -35,6 +71,25 @@
       "condition": {
 "biomes": [ "#minecraft:is_ocean" ],
         "isThundering": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_frozen" ]    }
+    }
+,
+    {
+      "id": "ayreianlapras-1",
+      "pokemon": "lapras ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-53",
+      "weight": 10.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ]
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_cold",

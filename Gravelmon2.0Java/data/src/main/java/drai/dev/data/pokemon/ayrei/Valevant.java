@@ -137,13 +137,15 @@ public class Valevant extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCH_UP,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        addAdditionalEvolution("indeedee", new EvolutionEntry("valevant", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=male\"")),List.of(),"cobblemon:room_service"));
            setLangFileName("Valevant");
 
     }

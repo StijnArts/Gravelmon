@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochdrifblim-1",
+      "pokemon": "drifblim epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltadrifblim-1",
       "pokemon": "drifblim delta",
       "presets": [
@@ -43,7 +61,7 @@
 ,
     {
       "id": "amazealldrifblim-1",
-      "pokemon": "drifblim amaze_all",
+      "pokemon": "drifblim amazeall",
       "presets": [
           "village"
       ],

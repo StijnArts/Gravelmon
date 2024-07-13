@@ -73,7 +73,8 @@ public class AyreianKrokorok extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Although this Pokémon has specialized eyes that allow it to see well in water, Krokorok aren't adept swimmers."),
-                List.of(),
+                List.of(new EvolutionEntry("krookodile ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HONE_CLAWS,6),
                         new MoveLearnSetEntry(Move.DIG,21),
@@ -160,10 +161,10 @@ public class AyreianKrokorok extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.UPROAR,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 43, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

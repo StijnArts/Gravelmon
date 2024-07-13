@@ -4,6 +4,42 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochcyndaquil-1",
+      "pokemon": "cyndaquil epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochcyndaquilone-1",
+      "pokemon": "cyndaquil epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "eghocyndaquil-1",
       "pokemon": "cyndaquil egho",
       "presets": [

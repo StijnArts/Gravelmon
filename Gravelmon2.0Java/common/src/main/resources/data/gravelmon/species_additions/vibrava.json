@@ -1,6 +1,143 @@
 {
    "target": "cobblemon:vibrava",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "dragon",
+  "abilities": [
+    "cloudnine",
+    "icescales",
+    "h:snowcloak"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 70,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 119,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "62:blizzard",
+    "1:bite",
+    "1:supersonic",
+    "67:quiverdance",
+    "12:icefang",
+    "1:iceshard",
+    "24:screech",
+    "20:iciclespear",
+    "32:hail",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:calmmind",
+    "tm:coaching",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:frostbite",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:toxic",
+    "tm:tripleaxel",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochvibrava.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 50,
+    "attack": 1,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 50
+  },
+  "height": 11,
+  "weight": 153,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Ayreian",
   "primaryType": "bug",
   "secondaryType": "poison",
@@ -281,6 +418,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "ayreian",
 "cefiran"
   ]

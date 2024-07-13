@@ -1,6 +1,147 @@
 {
    "target": "cobblemon:kricketot",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "bug",
+  "secondaryType": "sound",
+  "abilities": [
+    "shedskin",
+    "swarm"  ],
+  "baseStats": {
+    "hp": 47,
+    "attack": 20,
+    "defence": 30,
+    "special_attack": 36,
+    "special_defence": 50,
+    "speed": 47
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 39,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "26:mindreader",
+    "34:bugbuzz",
+    "1:supersonic",
+    "56:boomburst",
+    "42:healorder",
+    "5:strugglebug",
+    "44:sparklingaria",
+    "42:defendorder",
+    "18:silverwind",
+    "50:perishsong",
+    "38:instruct",
+    "1:stringshot",
+    "tm:acrobatics",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bounce",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:terrainpulse",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:wish",
+    "tm:workup",
+    "egg:screech",
+    "egg:lunardance",
+    "egg:disarmingvoice",
+    "egg:echoedvoice"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochkricketot.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 47,
+    "attack": 20,
+    "defence": 30,
+    "special_attack": 1,
+    "special_defence": 50,
+    "speed": 47
+  },
+  "height": 3,
+  "weight": 22,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Africanusan",
   "primaryType": "bug",
   "secondaryType": "fighting",
@@ -94,6 +235,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "africanusan"
   ]
 }

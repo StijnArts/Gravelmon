@@ -15,6 +15,164 @@
       ],
       "permanent": true   
  }
+  ],
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "sound",
+  "secondaryType": "psychic",
+  "abilities": [
+    "oblivious",
+    "trace",
+    "h:screencleaner"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 25,
+    "defence": 25,
+    "special_attack": 60,
+    "special_defence": 65,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 145,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "36:soundbarrier",
+    "4:encore",
+    "44:storedpower",
+    "48:calmmind",
+    "1:helpinghand",
+    "40:wonderroom",
+    "28:extrasensory",
+    "52:hypervoice",
+    "40:magicroom",
+    "20:imprison",
+    "1:confusion",
+    "12:flatter",
+    "40:trickroom",
+    "32:instruct",
+    "60:batonpass",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteormash",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:fakeout",
+    "egg:captivate",
+    "egg:charm",
+    "egg:tickle",
+    "egg:psychic",
+    "egg:throatchop",
+    "egg:allyswitch"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochmimejr.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 25,
+    "defence": 25,
+    "special_attack": 60,
+    "special_defence": 1,
+    "speed": 75
+  },
+  "height": 6,
+  "weight": 130,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
   ]
-
 }

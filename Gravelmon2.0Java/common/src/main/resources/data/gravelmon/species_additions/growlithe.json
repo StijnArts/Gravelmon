@@ -1,6 +1,158 @@
 {
    "target": "cobblemon:growlithe",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "secondaryType": "dragon",
+  "abilities": [
+    "dazzling"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "44:cosmicpower",
+    "24:dragondance",
+    "36:dragonclaw",
+    "52:moonlight",
+    "4:howl",
+    "20:nobleroar",
+    "1:stardust",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:hypervoice",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:thrash",
+    "egg:doubleedge",
+    "egg:crunch",
+    "egg:odorsleuth",
+    "egg:detect",
+    "egg:nuzzle"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgrowlithe.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 1,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "height": 7,
+  "weight": 190,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Aristosian",
   "primaryType": "ice",
   "abilities": [
@@ -467,6 +619,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "aristosian",
 "delta",
 "armiran"

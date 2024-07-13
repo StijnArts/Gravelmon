@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.ayrei.regional;
 
 
+import drai.dev.data.pokemon.*;
 import drai.dev.data.pokemon.amavi.*;
 import drai.dev.data.pokemon.dhiome.*;
 import drai.dev.data.pokemon.mushi.*;
@@ -156,14 +157,17 @@ public class AyreianHitmonlee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 46, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hitmonlee");
+        setPreEvolution("tyrogue");
+        Pokemon.addAdditionalEvolution("tyrogue", new EvolutionEntry("hitmonlee ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:dawn_stone") );
 
     }
 

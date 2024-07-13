@@ -19,6 +19,23 @@
         "canSeeSky": false
       }
     }
+,
+    {
+      "id": "ayreianaxew-1",
+      "pokemon": "axew ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "6-27",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
 
 ]
 }

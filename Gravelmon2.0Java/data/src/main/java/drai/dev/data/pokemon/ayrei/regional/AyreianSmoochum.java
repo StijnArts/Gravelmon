@@ -73,7 +73,8 @@ public class AyreianSmoochum extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It waltzes around kissing anyone that it comes into contact with, while leaving nasty injuries that look like leech bites."),
-                List.of(),
+                List.of(new EvolutionEntry("jynx ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COPYCAT,1),
                         new MoveLearnSetEntry(Move.LEECH_LIFE,34),
@@ -165,9 +166,9 @@ public class AyreianSmoochum extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 31, 5.4, List.of(
+                    new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

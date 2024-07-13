@@ -1,6 +1,149 @@
 {
    "target": "cobblemon:donphan",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "ground",
+  "abilities": [
+    "snowcloak",
+    "oblivious",
+    "h:thickfat"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 100,
+    "defence": 120,
+    "special_attack": 50,
+    "special_defence": 40,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 123,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "36:stompingtantrum",
+    "44:zenheadbutt",
+    "1:tackle",
+    "10:endure",
+    "1:defensecurl",
+    "40:iciclecrash",
+    "1:iceball",
+    "52:glaciallance",
+    "28:avalanche",
+    "32:takedown",
+    "1:bodypress",
+    "24:bulldoze",
+    "14:headbutt",
+    "20:iciclespear",
+    "7:steamroller",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:mist",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandtomb",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdonphan.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 90,
+    "attack": 1,
+    "defence": 120,
+    "special_attack": 50,
+    "special_defence": 40,
+    "speed": 100
+  },
+  "height": 11,
+  "weight": 1200,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Africanusan",
   "primaryType": "ground",
   "secondaryType": "rock",
@@ -89,8 +232,147 @@
   "weight": 1200,
   "aspects": ["africanusan"],
   "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "abilities": [
+    "icebody",
+    "raindish"  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 110,
+    "special_attack": 50,
+    "special_defence": 115,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:bubble",
+    "19:irondefense",
+    "43:blizzard",
+    "24:aurorabeam",
+    "1:auroraveil",
+    "50:hydrosteam",
+    "1:hornattack",
+    "1:flameburst",
+    "1:growl",
+    "30:scald",
+    "1:iceshard",
+    "0:weatherball",
+    "37:icebeam",
+    "15:hail",
+    "6:rapidspin",
+    "tm:attract",
+    "tm:block",
+    "tm:bounce",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lastresort",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:solarbeam"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiandonphan.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 1450,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
 }
 ], "features": [
-"africanusan"
+"epoch",
+"africanusan",
+"ayreian"
   ]
 }

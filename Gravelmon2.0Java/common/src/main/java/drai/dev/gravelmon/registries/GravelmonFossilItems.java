@@ -686,8 +686,31 @@ public class GravelmonFossilItems {
             "toe_fossil",
             "reptor");
 
+    //Vega
+    public static RegistrySupplier<Item> ENIGMA_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.ERODED_PILLAR.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon()
+            ),
+            "enigma_fossil",
+            "gatiriopteryx");
+    public static RegistrySupplier<Item> SHINY_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.BIRCH_TREE.uncommon(),
+                    BaseCobblemonDigSites.ERODED_PILLAR.uncommon(),
+                    BaseCobblemonDigSites.OAK_TREE.uncommon()
+            ),
+            "shiny_fossil",
+            "therapex");
+    public static RegistrySupplier<Item> VENOM_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.PRESERVED_SKELETON.uncommon(),
+                    BaseCobblemonDigSites.MUD_PIT.uncommon(),
+                    BaseCobblemonDigSites.SUBMERGED_IMPACT.uncommon()
+            ),
+            "venom_fossil",
+            "astralaxy");
 
-    public static void touch() {
-
-    }
+    public static void touch() {}
 }

@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "delta_spider"
+        "deltaspider"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation3_deltaspidermetagross",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "delta_spider",
+        "deltaspider",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

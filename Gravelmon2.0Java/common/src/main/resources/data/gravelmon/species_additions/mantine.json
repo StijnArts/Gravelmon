@@ -1,6 +1,169 @@
 {
    "target": "cobblemon:mantine",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "abilities": [
+    "raindish",
+    "voltabsorb",
+    "h:drizzle"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 40,
+    "defence": 130,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 85,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "24:waterpulse",
+    "28:soak",
+    "56:hurricane",
+    "1:thunderwave",
+    "8:aquajet",
+    "44:voltswitch",
+    "4:thundershock",
+    "36:muddywater",
+    "48:electrify",
+    "1:watergun",
+    "1:discharge",
+    "12:whirlpool",
+    "20:shockwave",
+    "16:electricterrain",
+    "32:tailwind",
+    "40:roost",
+    "1:charge",
+    "61:thunder",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magnetrise",
+    "tm:memento",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochmantine.desc"
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 40,
+    "defence": 2,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 75
+  },
+  "height": 21,
+  "weight": 2200,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Seviian",
   "primaryType": "electric",
   "secondaryType": "poison",
@@ -133,8 +296,167 @@
   "weight": 2200,
   "aspects": ["seviian"],
   "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "electric",
+  "secondaryType": "ground",
+  "abilities": [
+    "electricsurge",
+    "sandspit"  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 140,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "28:dig",
+    "1:tackle",
+    "12:mudshot",
+    "32:airslash",
+    "44:spikes",
+    "40:bounce",
+    "1:thundershock",
+    "4:shoreup",
+    "24:paraboliccharge",
+    "20:amnesia",
+    "0:iondeluge",
+    "8:wingattack",
+    "36:thunderbolt",
+    "1:mudbomb",
+    "48:earthquake",
+    "54:thunder",
+    "16:wideguard",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:airslash",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:confide",
+    "tm:defog",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:dualwingbeat",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:liquidation",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:round",
+    "tm:scald",
+    "tm:seedbomb",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:toxic",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "egg:twister",
+    "egg:haze",
+    "egg:slam",
+    "egg:mirrorcoat",
+    "egg:splash",
+    "egg:tailwind",
+    "egg:confuseray"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianmantine.desc"
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 2200,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
 }
 ], "features": [
-"seviian"
+"epoch",
+"seviian",
+"ayreian"
   ]
 }

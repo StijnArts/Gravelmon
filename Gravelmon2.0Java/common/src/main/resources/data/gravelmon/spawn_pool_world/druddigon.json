@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochdruddigon-1",
+      "pokemon": "druddigon epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "novrandruddigon-1",
       "pokemon": "druddigon novran",
       "presets": [
@@ -35,6 +53,23 @@
 "biomes": [ "#cobblemon:is_highlands",
 "#cobblemon:is_mountain" ],
         "canSeeSky": false
+      }
+    }
+,
+    {
+      "id": "ayreiandruddigon-1",
+      "pokemon": "druddigon ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "29-53",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ],
+        "canSeeSky": true
       }
     }
 

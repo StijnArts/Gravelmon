@@ -17,6 +17,153 @@
  }
   ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "bug",
+  "abilities": [
+    "raindish",
+    "h:toxicboost"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 110,
+    "defence": 92,
+    "special_attack": 46,
+    "special_defence": 60,
+    "speed": 72
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 159,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "19:bugbite",
+    "25:grassyglide",
+    "16:bite",
+    "44:strengthsap",
+    "41:crunch",
+    "47:petalblizzard",
+    "37:lunge",
+    "61:powerwhip",
+    "7:snaptrap",
+    "1:growth",
+    "1:vinewhip",
+    "13:ingrain",
+    "29:poisonfang",
+    "tm:airslash",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:magicalleaf",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:pollenpuff",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:strugglebug",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn",
+    "tm:weatherball",
+    "tm:workup",
+    "egg:sleeppowder",
+    "egg:stunspore",
+    "egg:leechlife",
+    "egg:xscissor",
+    "egg:synthesis",
+    "egg:leechseed",
+    "egg:ragepowder",
+    "egg:psychicfangs",
+    "egg:facade"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcarnivine.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 74,
+    "attack": 2,
+    "defence": 92,
+    "special_attack": 46,
+    "special_defence": 60,
+    "speed": 72
+  },
+  "height": 14,
+  "weight": 270,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Seviian",
   "primaryType": "poison",
   "secondaryType": "steel",
@@ -150,6 +297,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "seviian"
   ]
 }

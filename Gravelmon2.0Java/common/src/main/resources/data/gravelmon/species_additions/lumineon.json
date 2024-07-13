@@ -25,6 +25,145 @@
     ]
       },
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "fairy",
+  "abilities": [
+    "cutecharm",
+    "h:liquidvoice"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 52,
+    "defence": 79,
+    "special_attack": 91,
+    "special_defence": 99,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2",
+    "fairy"
+  ],
+  "moves": [
+    "13:waterpulse",
+    "58:hydropump",
+    "1:waterpledge",
+    "23:aquaring",
+    "34:hypervoice",
+    "1:watergun",
+    "1:babydolleyes",
+    "42:sparklingaria",
+    "30:dazzlinggleam",
+    "7:lifedew",
+    "27:mistball",
+    "4:echoedvoice",
+    "42:decorate",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:flipturn",
+    "tm:hail",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:swift",
+    "tm:tailglow",
+    "tm:terrainpulse",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochlumineon.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 59,
+    "attack": 52,
+    "defence": 79,
+    "special_attack": 2,
+    "special_defence": 99,
+    "speed": 95
+  },
+  "height": 12,
+  "weight": 240,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Lagoonan",
   "primaryType": "ghost",
   "abilities": [
@@ -132,6 +271,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "lagoonan"
   ]
 }

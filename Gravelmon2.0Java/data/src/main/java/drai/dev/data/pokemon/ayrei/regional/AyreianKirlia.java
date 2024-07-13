@@ -73,7 +73,10 @@ public class AyreianKirlia extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.AMORPHOUS),
                 List.of("It uses wind currents to dance about in the night sky, even while hunting."),
-                List.of(),
+                List.of(new EvolutionEntry("gardevoir ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone"),
+                        new EvolutionEntry("gallade ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:mystic_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.CALM_MIND,35),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -171,13 +174,14 @@ public class AyreianKirlia extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEX,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 35, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Kirlia");
 
     }

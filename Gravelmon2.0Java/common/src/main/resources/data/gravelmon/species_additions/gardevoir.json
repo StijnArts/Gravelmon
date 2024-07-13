@@ -1,6 +1,150 @@
 {
    "target": "cobblemon:gardevoir",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "dark",
+  "secondaryType": "poison",
+  "abilities": [
+    "serenegrace",
+    "stalwart"  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 125,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 233,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like",
+    "amorphous"
+  ],
+  "moves": [
+    "5:acid",
+    "36:nastyplot",
+    "1:moonblast",
+    "13:hypnosis",
+    "24:trick",
+    "45:acidrain",
+    "39:destinybond",
+    "9:haunt",
+    "33:sludgebomb",
+    "27:hex",
+    "20:corrode",
+    "tm:acidrain",
+    "tm:attract",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:corrosivegas",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgardevoir.desc"
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 68,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 3,
+    "special_defence": 125,
+    "speed": 105
+  },
+  "height": 16,
+  "weight": 484,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Fligian",
   "primaryType": "fairy",
   "secondaryType": "fighting",
@@ -388,9 +532,186 @@
   "weight": 484,
   "aspects": ["delta"],
   "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "flying",
+  "abilities": [
+    "galewings",
+    "lightningrod"  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 53,
+    "defence": 110,
+    "special_attack": 85,
+    "special_defence": 88,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like",
+    "amorphous"
+  ],
+  "moves": [
+    "56:hurricane",
+    "35:calmmind",
+    "1:airslash",
+    "1:ominouswind",
+    "1:raindance",
+    "1:doubleteam",
+    "1:gust",
+    "9:hypnosis",
+    "28:wish",
+    "49:healpulse",
+    "1:growl",
+    "18:aircutter",
+    "0:tailwind",
+    "15:teleport",
+    "12:weatherball",
+    "23:roost",
+    "1:lifedew",
+    "63:thunder",
+    "tm:allyswitch",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confide",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:guardswap",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:painsplit",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:snore",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:thief",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:toxic",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tm:blizzard",
+    "tm:icywind",
+    "tm:hex"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiangardevoir.desc"
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 16,
+  "weight": 584,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "fligian",
-"delta"
+"delta",
+"ayreian"
   ]
 }

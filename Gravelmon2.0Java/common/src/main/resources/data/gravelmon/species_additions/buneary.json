@@ -1,6 +1,151 @@
 {
    "target": "cobblemon:buneary",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "secondaryType": "ice",
+  "abilities": [
+    "costar",
+    "dancer",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 66,
+    "defence": 44,
+    "special_attack": 85,
+    "special_defence": 44,
+    "speed": 56
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "20:luckychant",
+    "28:doublekick",
+    "36:jumpkick",
+    "1:babydolleyes",
+    "1:powdersnow",
+    "56:tripleaxel",
+    "12:iceshard",
+    "16:cometpunch",
+    "32:moonlight",
+    "52:instruct",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:gammaray",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:tripleaxel",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:punishment",
+    "egg:poweruppunch",
+    "egg:covet",
+    "egg:charm",
+    "egg:captivate",
+    "egg:hail",
+    "egg:attract",
+    "egg:swordsdance",
+    "egg:foulplay"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbuneary.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 66,
+    "defence": 44,
+    "special_attack": 85,
+    "special_defence": 44,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 55,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "fighting",
   "abilities": [
@@ -218,6 +363,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:reapatisse",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_reapatisse",
+      "texture": "cobblemon:textures/pokemon/vanguard/reapatisse.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/reapatisse_shiny.png"
+    }
+  ]
+}

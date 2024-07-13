@@ -1,6 +1,168 @@
 {
    "target": "cobblemon:onix",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "rock",
+  "abilities": [
+    "icebody",
+    "sturdy",
+    "h:slushrush"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 85,
+    "defence": 120,
+    "special_attack": 70,
+    "special_defence": 30,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 77,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:bind",
+    "1:harden",
+    "13:stealthrock",
+    "37:dig",
+    "1:tackle",
+    "7:rockthrow",
+    "1:curse",
+    "34:iciclecrash",
+    "46:crunch",
+    "62:glaciallance",
+    "25:avalanche",
+    "52:coil",
+    "16:rockpolish",
+    "43:rockslide",
+    "22:rockblast",
+    "4:iceshard",
+    "31:screech",
+    "10:rocktomb",
+    "57:earthquake",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragondance",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:mirrorshot",
+    "tm:moonblast",
+    "tm:mudslide",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:icefang",
+    "egg:endeavor",
+    "egg:ironhead",
+    "egg:zenheadbutt",
+    "egg:ancientpower",
+    "egg:heavyslam",
+    "egg:auroraveil",
+    "egg:bulldoze",
+    "egg:iciclespear",
+    "egg:uproar"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochonix.desc"
+  ],
+  "baseScale": 1.4666666666666668,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 35,
+    "attack": 85,
+    "defence": 1,
+    "special_attack": 70,
+    "special_defence": 30,
+    "speed": 45
+  },
+  "height": 88,
+  "weight": 2100,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Hoennian",
   "primaryType": "rock",
   "secondaryType": "ice",
@@ -127,6 +289,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "hoennian"
   ]
 }

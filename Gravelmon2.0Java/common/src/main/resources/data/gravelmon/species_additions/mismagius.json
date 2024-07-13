@@ -1,6 +1,148 @@
 {
    "target": "cobblemon:mismagius",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "light",
+  "secondaryType": "sound",
+  "abilities": [
+    "serenegrace",
+    "levitate",
+    "h:healer"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 35,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 115,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "56:safeguard",
+    "66:boomburst",
+    "46:hypervoice",
+    "1:sweetkiss",
+    "50:aurasphere",
+    "10:echoedvoice",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:payday",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochmismagius.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 35,
+    "defence": 60,
+    "special_attack": 1,
+    "special_defence": 115,
+    "speed": 105
+  },
+  "height": 9,
+  "weight": 44,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Norheiman",
   "primaryType": "ghost",
   "secondaryType": "grass",
@@ -344,6 +486,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "norheiman",
 "hizian",
 "delta"

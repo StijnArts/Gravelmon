@@ -1,6 +1,164 @@
 {
    "target": "cobblemon:shinx",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "dark",
+  "secondaryType": "dragon",
+  "abilities": [
+    "guts",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 45,
+    "defence": 44,
+    "special_attack": 45,
+    "special_defence": 30,
+    "speed": 44
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 235,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 53,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "12:bite",
+    "36:crunch",
+    "20:breakingswipe",
+    "16:partingshot",
+    "28:lashout",
+    "48:dragondance",
+    "24:nobleroar",
+    "tm:acidrain",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gunkshot",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:spikes",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:nightslash",
+    "egg:doubleedge",
+    "egg:punishment",
+    "egg:howl",
+    "egg:glare",
+    "egg:psychicfangs",
+    "egg:facade"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochshinx.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 1,
+    "defence": 44,
+    "special_attack": 45,
+    "special_defence": 30,
+    "speed": 44
+  },
+  "height": 5,
+  "weight": 95,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "steel",
   "secondaryType": "poison",
@@ -489,6 +647,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "ayreian",
 "kaskadian"

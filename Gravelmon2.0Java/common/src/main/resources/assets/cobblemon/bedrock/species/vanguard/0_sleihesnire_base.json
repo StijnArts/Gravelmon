@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sleihesnire",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_sleihesnire",
+      "texture": "cobblemon:textures/pokemon/vanguard/sleihesnire.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/sleihesnire_shiny.png"
+    }
+  ]
+}

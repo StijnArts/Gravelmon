@@ -1,6 +1,146 @@
 {
    "target": "cobblemon:gloom",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "cosmic",
+  "abilities": [
+    "effectspore"  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 75,
+    "special_attack": 45,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 138,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "52:fleurcannon",
+    "5:swift",
+    "17:magicalleaf",
+    "47:moonblast",
+    "56:seedflare",
+    "26:mirrorcoat",
+    "11:confusion",
+    "1:megadrain",
+    "8:growth",
+    "17:grassyterrain",
+    "20:psybeam",
+    "36:moonlight",
+    "43:lunardance",
+    "23:sleeppowder",
+    "39:pollenpuff",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:metronome",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:playrough",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:wonderroom"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgloom.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 75,
+    "special_attack": 2,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "height": 8,
+  "weight": 86,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Egho",
   "primaryType": "ghost",
   "secondaryType": "poison",
@@ -174,6 +314,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "egho"
   ]
 }

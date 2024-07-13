@@ -1,6 +1,293 @@
 {
    "target": "cobblemon:camerupt",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fire",
+  "secondaryType": "water",
+  "abilities": [
+    "dryskin",
+    "steamengine",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 50,
+    "defence": 70,
+    "special_attack": 30,
+    "special_defence": 105,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "19:waterpulse",
+    "40:strangesteam",
+    "43:steameruption",
+    "1:tackle",
+    "36:haze",
+    "12:aquaring",
+    "8:watergun",
+    "23:rest",
+    "47:eruption",
+    "1:growl",
+    "15:flameburst",
+    "28:brine",
+    "39:scald",
+    "34:lavaplume",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:grassyterrain",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:playrough",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scald",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:solarbeam",
+    "tm:steameruption",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcamerupt.desc"
+  ],
+  "baseScale": 0.31666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 50,
+    "defence": 70,
+    "special_attack": 30,
+    "special_defence": 105,
+    "speed": 75
+  },
+  "height": 19,
+  "weight": 2200,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "ice",
+  "secondaryType": "rock",
+  "abilities": [
+    "bulletproof",
+    "filter"  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 110,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "32:irondefense",
+    "1:tackle",
+    "8:rockthrow",
+    "43:iciclecrash",
+    "5:iceball",
+    "16:amnesia",
+    "64:glaciallance",
+    "22:avalanche",
+    "36:rockslide",
+    "40:yawn",
+    "1:growl",
+    "29:bodypress",
+    "19:headbutt",
+    "26:rockblast",
+    "46:playrough",
+    "1:hail",
+    "50:shieldbash",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:crunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:memento",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcameruptone.desc"
+  ],
+  "baseScale": 0.3833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 1,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "height": 23,
+  "weight": 2200,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "poison",
   "abilities": [
@@ -485,6 +772,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "delta",
 "ayreian",
 "cefiran"

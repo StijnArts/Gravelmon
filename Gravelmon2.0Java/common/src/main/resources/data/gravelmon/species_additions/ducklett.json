@@ -1,6 +1,134 @@
 {
    "target": "cobblemon:ducklett",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "light",
+  "secondaryType": "flying",
+  "abilities": [
+    "friendguard",
+    "serenegrace",
+    "h:earlybird"
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 39,
+    "defence": 40,
+    "special_attack": 65,
+    "special_defence": 64,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "flying"
+  ],
+  "moves": [
+    "57:hurricane",
+    "18:aurorabeam",
+    "38:typhoon",
+    "30:airslash",
+    "7:safeguard",
+    "4:sweetkiss",
+    "10:aircutter",
+    "35:roost",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bravebird",
+    "tm:brine",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:tailwind",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:wonderroom",
+    "tm:workup",
+    "egg:decorate",
+    "egg:tailwind",
+    "egg:spotlight"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochducklett.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 62,
+    "attack": 39,
+    "defence": 40,
+    "special_attack": 65,
+    "special_defence": 64,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 55,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Ayreian",
   "primaryType": "flying",
   "secondaryType": "fairy",
@@ -182,6 +310,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "ayreian"
   ]
 }

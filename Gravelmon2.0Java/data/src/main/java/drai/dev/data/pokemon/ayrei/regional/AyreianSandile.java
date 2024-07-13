@@ -73,7 +73,8 @@ public class AyreianSandile extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Sandile is small, but its legs and lower body are powerful. Pushing snow aside as it goes, Sandile moves through the tundra as if it's swimming."),
-                List.of(),
+                List.of(new EvolutionEntry("krokorok ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HONE_CLAWS,6),
                         new MoveLearnSetEntry(Move.DIG,21),
@@ -148,10 +149,10 @@ public class AyreianSandile extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPITE,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 26, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochmantine-1",
+      "pokemon": "mantine epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "seviianmantine-1",
       "pokemon": "mantine seviian",
       "presets": [
@@ -19,6 +37,23 @@
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_cold" ]    }
+    }
+,
+    {
+      "id": "ayreianmantine-1",
+      "pokemon": "mantine ayreian",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "30-54",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
     }
 
 ]

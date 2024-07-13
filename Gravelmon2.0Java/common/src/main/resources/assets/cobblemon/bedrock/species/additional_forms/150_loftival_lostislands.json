@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "lost_islands"
+        "lostislands"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:ferroa_lostislandsloftival",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "lost_islands",
+        "lostislands",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

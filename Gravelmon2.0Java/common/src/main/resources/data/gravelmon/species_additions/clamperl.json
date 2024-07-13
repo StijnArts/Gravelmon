@@ -31,6 +31,129 @@
  }
   ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "psychic",
+  "abilities": [
+    "telepathy",
+    "friendguard",
+    "h:rattled"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 34,
+    "defence": 105,
+    "special_attack": 32,
+    "special_defence": 34,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 69,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "1:irondefense",
+    "1:mindblast",
+    "1:reflect",
+    "50:powertrick",
+    "1:lightscreen",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:workup",
+    "egg:refresh",
+    "egg:confuseray",
+    "egg:barrier",
+    "egg:aquaring",
+    "egg:shellsmash"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochclamperl.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 35,
+    "attack": 34,
+    "defence": 105,
+    "special_attack": 32,
+    "special_defence": 1,
+    "speed": 105
+  },
+  "height": 4,
+  "weight": 525,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "dragon",
   "abilities": [
@@ -177,6 +300,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

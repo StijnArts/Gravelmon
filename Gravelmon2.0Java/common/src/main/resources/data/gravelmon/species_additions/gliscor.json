@@ -1,6 +1,159 @@
 {
    "target": "cobblemon:gliscor",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "rock",
+  "secondaryType": "dragon",
+  "abilities": [
+    "innerfocus",
+    "battlearmor",
+    "h:solidrock"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 95,
+    "defence": 125,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 179,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "52:outrage",
+    "4:rockthrow",
+    "34:meanlook",
+    "10:bite",
+    "56:stoneedge",
+    "23:feintattack",
+    "38:crunch",
+    "19:breakingswipe",
+    "60:hammerarm",
+    "27:dragontail",
+    "30:rockslide",
+    "16:nightshade",
+    "43:dragonrush",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:drainpunch",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:outrage",
+    "tm:phantomforce",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:possession",
+    "tm:powergem",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scaleshot",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stealthrock",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgliscor.desc"
+  ],
+  "baseScale": 0.3333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 95,
+    "attack": 95,
+    "defence": 2,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 95
+  },
+  "height": 20,
+  "weight": 425,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Hizian",
   "primaryType": "ice",
   "secondaryType": "flying",
@@ -93,6 +246,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "hizian"
   ]
 }

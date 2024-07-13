@@ -73,7 +73,8 @@ public class AyreianJynx extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Behind the unassuming face lies a cold set of teeth, which it uses to catch prey. It can levitate for a short while using a weird power."),
-                List.of(),
+                List.of(new EvolutionEntry("wraifanggal", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COPYCAT,1),
                         new MoveLearnSetEntry(Move.POLTERGEIST,58),
@@ -167,9 +168,10 @@ public class AyreianJynx extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_CLAW,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 53, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

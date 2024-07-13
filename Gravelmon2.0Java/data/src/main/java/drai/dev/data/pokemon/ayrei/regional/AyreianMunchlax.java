@@ -73,7 +73,8 @@ public class AyreianMunchlax extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It feels immense joy from harassing others. You'll often find them in the wild, throwing rocks or snow at people and Pokemon."),
-                List.of(),
+                List.of(new EvolutionEntry("snorlax ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLING,32),
                         new MoveLearnSetEntry(Move.FLAIL,44),
@@ -178,8 +179,8 @@ public class AyreianMunchlax extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISSURE,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochdragonair-1",
+      "pokemon": "dragonair epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "norheimandragonair-1",
       "pokemon": "dragonair norheiman",
       "presets": [
@@ -33,6 +51,23 @@
       "weight": 0.9,
       "condition": {
 "biomes": [ "#cobblemon:is_freshwater" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiandragonair-1",
+      "pokemon": "dragonair ayreian",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-54",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ],
         "canSeeSky": true
       }
     }

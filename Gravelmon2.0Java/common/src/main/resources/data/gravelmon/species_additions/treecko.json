@@ -1,6 +1,150 @@
 {
    "target": "cobblemon:treecko",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "abilities": [
+    "colorchange",
+    "compoundeyes",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 70,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "25:glare",
+    "17:uturn",
+    "33:xscissor",
+    "7:firstimpression",
+    "1:camouflage",
+    "21:scaleshot",
+    "41:leechlife",
+    "54:megahorn",
+    "13:breakingswipe",
+    "10:furycutter",
+    "37:dragondance",
+    "4:detect",
+    "tm:acrobatics",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:breakingswipe",
+    "tm:bulletseed",
+    "tm:coaching",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:drainpunch",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:magicalleaf",
+    "tm:outrage",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stoneedge",
+    "tm:strugglebug",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:workup",
+    "egg:crosschop",
+    "egg:attackorder",
+    "egg:healorder",
+    "egg:stickyweb",
+    "egg:agility",
+    "egg:triplekick",
+    "egg:skittersmack",
+    "egg:fellstinger"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtreecko.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 70,
+    "special_defence": 40,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 50,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Fligian",
   "primaryType": "rock",
   "abilities": [
@@ -277,6 +421,178 @@
   "cannotDynamax": false
 },
 {
+  "name": "Ayreian",
+  "primaryType": "bug",
+  "abilities": [
+    "mimicry",
+    "stakeout"  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 55,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "1:pound",
+    "15:honeclaws",
+    "8:quickattack",
+    "1:leer",
+    "12:furycutter",
+    "20:strugglebug",
+    "25:slash",
+    "38:naturepower",
+    "43:bugbuzz",
+    "35:dualchop",
+    "30:pinmissile",
+    "49:detect",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:assurance",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:confide",
+    "tm:crosspoison",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:leafblade",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:naturepower",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:xscissor",
+    "tm:leechlife"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiantreecko.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "treecko_grovyle_ayreian",
+      "variant": "level_up",
+      "result": "grovyle ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 50,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+},
+{
   "name": "Mystic",
   "primaryType": "flying",
   "abilities": [
@@ -385,8 +701,10 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "fligian",
 "delta",
+"ayreian",
 "mystic"
   ]
 }

@@ -1,6 +1,152 @@
 {
    "target": "cobblemon:bergmite",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "rock",
+  "abilities": [
+    "pressure",
+    "h:solidrock"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 69,
+    "defence": 85,
+    "special_attack": 28,
+    "special_defence": 32,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "42:irondefense",
+    "10:sandstorm",
+    "1:harden",
+    "29:stealthrock",
+    "1:rockthrow",
+    "18:bite",
+    "54:stoneedge",
+    "22:accelerock",
+    "33:crunch",
+    "5:mudsport",
+    "38:rockslide",
+    "26:bulldoze",
+    "64:headsmash",
+    "46:spikyshield",
+    "50:earthquake",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dragonbreath",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:mudslide",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:rockpolish",
+    "egg:wideguard",
+    "egg:explosion",
+    "egg:heavyslam",
+    "egg:heatcrash",
+    "egg:rocktomb",
+    "egg:shieldbash",
+    "egg:selfdestruct"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbergmite.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 69,
+    "defence": 1,
+    "special_attack": 28,
+    "special_defence": 32,
+    "speed": 35
+  },
+  "height": 10,
+  "weight": 995,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "ice",
   "secondaryType": "ground",
@@ -284,6 +430,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan",
 "delta"
   ]

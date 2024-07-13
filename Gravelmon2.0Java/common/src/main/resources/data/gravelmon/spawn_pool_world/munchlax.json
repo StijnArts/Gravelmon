@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochmunchlax-1",
+      "pokemon": "munchlax epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "varitasianmunchlax-1",
       "pokemon": "munchlax varitasian",
       "presets": [
@@ -35,6 +53,23 @@
       "condition": {
 "biomes": [ "#cobblemon:is_floral" ],
         "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianmunchlax-1",
+      "pokemon": "munchlax ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
         "canSeeSky": true
       }
     }

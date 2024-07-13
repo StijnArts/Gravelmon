@@ -15,6 +15,149 @@
  }
   ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ground",
+  "secondaryType": "grass",
+  "abilities": [
+    "waterabsorb",
+    "sandveil",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 15,
+    "defence": 50,
+    "special_attack": 15,
+    "special_defence": 85,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "7:leechseed",
+    "27:sandstorm",
+    "44:energyball",
+    "14:spikes",
+    "31:gigadrain",
+    "1:sandattack",
+    "20:magicalleaf",
+    "1:mudslap",
+    "11:megadrain",
+    "4:growth",
+    "24:scorchingsands",
+    "48:synthesis",
+    "35:spikyshield",
+    "40:earthpower",
+    "1:absorb",
+    "tm:attract",
+    "tm:bulkup",
+    "tm:bulletseed",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:magicalleaf",
+    "tm:mudslide",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:spikyshield",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:workup",
+    "egg:sunnyday",
+    "egg:solarbeam",
+    "egg:needlearm",
+    "egg:pinmissile",
+    "egg:stealthrock",
+    "egg:endure",
+    "egg:petaldance"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbonsly.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 80,
+    "attack": 15,
+    "defence": 1,
+    "special_attack": 15,
+    "special_defence": 85,
+    "speed": 75
+  },
+  "height": 5,
+  "weight": 150,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Novran",
   "primaryType": "rock",
   "secondaryType": "ice",
@@ -170,6 +313,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "novran"
   ]
 }

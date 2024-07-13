@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochgallade-1",
+      "pokemon": "gallade epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "fligiangallade-1",
       "pokemon": "gallade fligian",
       "presets": [
@@ -34,6 +52,24 @@
       "condition": {
 "biomes": [ "#cobblemon:is_snowy" ],
         "isThundering": true,
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiangallade-1",
+      "pokemon": "gallade ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "34-54",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands",
+"#cobblemon:is_mountain" ],
         "canSeeSky": true
       }
     }

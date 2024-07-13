@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:morphias",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_morphias",
+      "texture": "cobblemon:textures/pokemon/vanguard/morphias.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/morphias_shiny.png"
+    }
+  ]
+}

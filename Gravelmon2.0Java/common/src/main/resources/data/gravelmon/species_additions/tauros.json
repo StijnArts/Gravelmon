@@ -2,6 +2,156 @@
    "target": "cobblemon:tauros",
   "preEvolution": "calfpint",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fire",
+  "secondaryType": "electric",
+  "abilities": [
+    "flashfire",
+    "reckless",
+    "h:runaway"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 100,
+    "defence": 95,
+    "special_attack": 110,
+    "special_defence": 30,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "41:agility",
+    "56:flareblitz",
+    "1:tackle",
+    "11:thunderwave",
+    "29:voltswitch",
+    "3:tailwhip",
+    "24:spark",
+    "15:flamecharge",
+    "19:pursuit",
+    "51:doubleedge",
+    "35:takedown",
+    "61:volttackle",
+    "45:wildcharge",
+    "8:charge",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:chargebeam",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:magnetrise",
+    "tm:mysticalfire",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sleeptalk",
+    "tm:steelroller",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:iondeluge",
+    "egg:stomp",
+    "egg:rest",
+    "egg:firefang",
+    "egg:thunderfang",
+    "egg:thrash",
+    "egg:bodyslam",
+    "egg:crunch",
+    "egg:closecombat",
+    "egg:firelash"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtauros.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 95,
+    "attack": 1,
+    "defence": 95,
+    "special_attack": 110,
+    "special_defence": 30,
+    "speed": 60
+  },
+  "height": 14,
+  "weight": 884,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Africanusan",
   "primaryType": "normal",
   "secondaryType": "steel",
@@ -89,6 +239,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "africanusan"
   ]
 }

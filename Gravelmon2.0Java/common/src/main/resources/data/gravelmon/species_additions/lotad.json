@@ -1,6 +1,165 @@
 {
    "target": "cobblemon:lotad",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "abilities": [
+    "solarpower",
+    "h:drought"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 20,
+    "defence": 30,
+    "special_attack": 30,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 44,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "20:sandstorm",
+    "60:solarbeam",
+    "48:energyball",
+    "28:gigadrain",
+    "1:sandattack",
+    "6:mudslap",
+    "3:megadrain",
+    "9:growth",
+    "24:scorchingsands",
+    "38:earthpower",
+    "1:absorb",
+    "33:mudslide",
+    "43:quicksand",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:gunkshot",
+    "tm:healbell",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:memento",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:spikyshield",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:petaldance",
+    "egg:teeterdance",
+    "egg:spikes",
+    "egg:flail",
+    "egg:pinmissile",
+    "egg:leechseed",
+    "egg:razorleaf",
+    "egg:spikyshield",
+    "egg:rototiller",
+    "egg:sunnyday",
+    "egg:ingrain"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochlotad.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 20,
+    "defence": 30,
+    "special_attack": 30,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "height": 5,
+  "weight": 26,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Egho",
   "primaryType": "fire",
   "secondaryType": "steel",
@@ -330,6 +489,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "egho",
 "delta"
   ]

@@ -1,6 +1,145 @@
 {
    "target": "cobblemon:zorua",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "dark",
+  "abilities": [
+    "snowcloak",
+    "moxie",
+    "h:anticipation"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 75,
+    "defence": 40,
+    "special_attack": 75,
+    "special_defence": 60,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "29:nightslash",
+    "58:honeclaws",
+    "1:leer",
+    "1:scratch",
+    "21:bite",
+    "33:icepunch",
+    "37:slash",
+    "45:iciclecrash",
+    "41:crunch",
+    "5:pursuit",
+    "13:snarl",
+    "17:icefang",
+    "1:iceshard",
+    "49:playrough",
+    "25:scaryface",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:charm",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:furycutter",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:mist",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:tripleaxel",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:knockoff",
+    "egg:partingshot",
+    "egg:darkestlariat",
+    "egg:psychicfangs",
+    "egg:brickbreak"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochzorua.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 1,
+    "defence": 40,
+    "special_attack": 75,
+    "special_defence": 60,
+    "speed": 40
+  },
+  "height": 7,
+  "weight": 125,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Mythian",
   "primaryType": "fire",
   "abilities": [
@@ -229,6 +368,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "mythian",
 "alteran"
   ]

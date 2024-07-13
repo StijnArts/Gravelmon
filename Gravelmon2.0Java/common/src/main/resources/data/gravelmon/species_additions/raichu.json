@@ -1,6 +1,146 @@
 {
    "target": "cobblemon:raichu",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "sound",
+  "secondaryType": "steel",
+  "abilities": [
+    "lightningrod",
+    "h:soundproof"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 55,
+    "special_attack": 120,
+    "special_defence": 110,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 218,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "moves": [
+    "24:agility",
+    "4:thundershock",
+    "56:boomburst",
+    "20:mirrorshot",
+    "8:doubleteam",
+    "1:nuzzle",
+    "36:overdrive",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailglow",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochraichu.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 55,
+    "special_attack": 120,
+    "special_defence": 110,
+    "speed": 3
+  },
+  "height": 8,
+  "weight": 300,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "flying",
   "secondaryType": "fairy",
@@ -283,6 +423,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "x"
   ]

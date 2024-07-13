@@ -1,6 +1,137 @@
 {
    "target": "cobblemon:pidgeotto",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye",
+    "refrigerate",
+    "h:galewings"
+  ],
+  "baseStats": {
+    "hp": 63,
+    "attack": 45,
+    "defence": 55,
+    "special_attack": 71,
+    "special_defence": 65,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 122,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "33:agility",
+    "61:mirrormove",
+    "53:blizzard",
+    "13:icywind",
+    "1:featherdance",
+    "9:gust",
+    "1:powdersnow",
+    "64:razorwind",
+    "17:whirlwind",
+    "45:tailwind",
+    "37:roost",
+    "41:icebeam",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bravebird",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:featherdance",
+    "tm:hail",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochpidgeotto.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 63,
+    "attack": 45,
+    "defence": 55,
+    "special_attack": 71,
+    "special_defence": 65,
+    "speed": 2
+  },
+  "height": 11,
+  "weight": 300,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "dark",
   "secondaryType": "dragon",
@@ -472,6 +603,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "mythian",
 "ayreian"

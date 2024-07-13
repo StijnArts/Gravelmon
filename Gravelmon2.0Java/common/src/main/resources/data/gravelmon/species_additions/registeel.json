@@ -1,6 +1,135 @@
 {
    "target": "cobblemon:registeel",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "psychic",
+  "abilities": [
+    "dazzling",
+    "screencleaner"  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 75,
+    "defence": 150,
+    "special_attack": 50,
+    "special_defence": 75,
+    "speed": 150
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 261,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:mindblast",
+    "13:swift",
+    "34:extrasensory",
+    "38:gammaray",
+    "53:bigbang",
+    "43:futuresight",
+    "29:cosmicpower",
+    "4:confusion",
+    "21:recover",
+    "48:trickroom",
+    "25:psybeam",
+    "1:stardust",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:gyroball",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochregisteel.desc"
+  ],
+  "baseScale": 0.31666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 80,
+    "attack": 75,
+    "defence": 2,
+    "special_attack": 50,
+    "special_defence": 75,
+    "speed": 150
+  },
+  "height": 19,
+  "weight": 2050,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "fire",
   "abilities": [
@@ -169,6 +298,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

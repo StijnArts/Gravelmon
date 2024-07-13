@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:wraifanggal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_wraifanggal",
+      "texture": "cobblemon:textures/pokemon/vanguard/wraifanggal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/wraifanggal_shiny.png"
+    }
+  ]
+}

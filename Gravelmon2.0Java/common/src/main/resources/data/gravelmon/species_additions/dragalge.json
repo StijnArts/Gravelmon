@@ -1,6 +1,128 @@
 {
    "target": "cobblemon:dragalge",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "water",
+  "abilities": [
+    "overgrow",
+    "torrent",
+    "h:protean"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 55,
+    "defence": 44,
+    "special_attack": 100,
+    "special_defence": 107,
+    "speed": 123
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "moves": [
+    "1:bubble",
+    "17:waterpulse",
+    "4:smokescreen",
+    "54:hydropump",
+    "40:energyball",
+    "29:gigadrain",
+    "51:leafstorm",
+    "11:raindance",
+    "14:leaftornado",
+    "7:megadrain",
+    "21:growth",
+    "25:brine",
+    "44:synthesis",
+    "1:absorb",
+    "tm:attract",
+    "tm:brine",
+    "tm:bulletseed",
+    "tm:energyball",
+    "tm:flipturn",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:magicalleaf",
+    "tm:mist",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:soak",
+    "tm:solarbeam",
+    "tm:synthesis",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:weatherball"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdragalge.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 55,
+    "defence": 44,
+    "special_attack": 100,
+    "special_defence": 2,
+    "speed": 123
+  },
+  "height": 18,
+  "weight": 815,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "poison",
   "secondaryType": "ghost",
@@ -258,6 +380,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan",
 "novran"
   ]

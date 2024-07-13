@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochskiddo-1",
+      "pokemon": "skiddo epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "vesitanskiddo-1",
       "pokemon": "skiddo vesitan",
       "presets": [
@@ -16,6 +34,23 @@
       "weight": 5.4,
       "condition": {
 "biomes": [ "#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianskiddo-1",
+      "pokemon": "skiddo ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-32",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
         "canSeeSky": true
       }
     }

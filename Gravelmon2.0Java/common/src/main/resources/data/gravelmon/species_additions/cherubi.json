@@ -1,6 +1,147 @@
 {
    "target": "cobblemon:cherubi",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "ice",
+  "abilities": [
+    "snowcloak"  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 25,
+    "defence": 40,
+    "special_attack": 45,
+    "special_defence": 67,
+    "speed": 53
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 55,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "11:leechseed",
+    "27:freezedry",
+    "45:petaldance",
+    "55:blizzard",
+    "32:energyball",
+    "18:magicalleaf",
+    "36:flowershield",
+    "14:icywind",
+    "1:babydolleyes",
+    "1:powdersnow",
+    "8:megadrain",
+    "23:grasswhistle",
+    "40:icebeam",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:synthesis",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup",
+    "egg:gigadrain",
+    "egg:sweetscent",
+    "egg:tickle",
+    "egg:naturepower",
+    "egg:healpulse",
+    "egg:healingwish",
+    "egg:aromatherapy",
+    "egg:craftyshield",
+    "egg:mist",
+    "egg:synthesis"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcherubi.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 45,
+    "attack": 25,
+    "defence": 40,
+    "special_attack": 1,
+    "special_defence": 67,
+    "speed": 53
+  },
+  "height": 4,
+  "weight": 33,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Africanusan",
   "primaryType": "grass",
   "secondaryType": "poison",
@@ -265,6 +406,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "africanusan",
 "novran"
   ]

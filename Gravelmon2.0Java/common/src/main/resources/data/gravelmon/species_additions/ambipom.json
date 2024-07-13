@@ -1,6 +1,156 @@
 {
    "target": "cobblemon:ambipom",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "normal",
+  "secondaryType": "psychic",
+  "abilities": [
+    "comatose"  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 71,
+    "special_attack": 110,
+    "special_defence": 90,
+    "speed": 71
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "29:calmmind",
+    "32:slackoff",
+    "43:dreameater",
+    "8:sleeptalk",
+    "11:swift",
+    "36:extrasensory",
+    "4:tickle",
+    "8:snore",
+    "1:confusion",
+    "39:psychicterrain",
+    "18:yawn",
+    "1:doubleslap",
+    "53:expandingforce",
+    "25:psybeam",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochambipom.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 71,
+    "special_attack": 110,
+    "special_defence": 90,
+    "speed": 2
+  },
+  "height": 12,
+  "weight": 203,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "ghost",
   "secondaryType": "normal",
@@ -502,6 +652,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "relic",
 "kaskadian"

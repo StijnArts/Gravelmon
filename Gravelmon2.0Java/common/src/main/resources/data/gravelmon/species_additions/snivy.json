@@ -1,6 +1,163 @@
 {
    "target": "cobblemon:snivy",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "abilities": [
+    "cursedbody",
+    "wonderskin",
+    "h:shadowshield"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 55,
+    "special_attack": 63,
+    "special_defence": 45,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "4:leer",
+    "34:shadowball",
+    "37:nightdaze",
+    "13:ominouswind",
+    "10:curse",
+    "16:drainingkiss",
+    "19:grudge",
+    "1:haunt",
+    "7:ember",
+    "25:hex",
+    "47:perishsong",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:grudge",
+    "egg:hypnosis",
+    "egg:dreameater",
+    "egg:nightmare",
+    "egg:willowisp",
+    "egg:nightshade",
+    "egg:futuresight",
+    "egg:pursuit",
+    "egg:meanlook",
+    "egg:destinybond"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsnivy.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 55,
+    "special_attack": 63,
+    "special_defence": 45,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 81,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "water",
   "abilities": [
@@ -159,8 +316,160 @@
   "weight": 81,
   "aspects": ["delta"],
   "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "steel",
+  "secondaryType": "psychic",
+  "abilities": [
+    "corrosion",
+    "poisontouch"  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 64,
+    "special_attack": 45,
+    "special_defence": 51,
+    "speed": 59
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "moves": [
+    "24:venoshock",
+    "4:leer",
+    "13:acidspray",
+    "32:flashcannon",
+    "10:metalclaw",
+    "28:coil",
+    "41:toxic",
+    "1:confusion",
+    "7:poisongas",
+    "37:psyshock",
+    "16:acidarmor",
+    "20:psybeam",
+    "tm:aquatail",
+    "tm:attract",
+    "tm:bind",
+    "tm:brutalswing",
+    "tm:calmmind",
+    "tm:confide",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gastroacid",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:muddywater",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:partingshot",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rocksmash",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:snore",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sludgebomb",
+    "tm:raindance",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:workup"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiansnivy.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "snivy_servine_ayreian",
+      "variant": "level_up",
+      "result": "servine ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 17
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 911,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
 }
 ], "features": [
-"delta"
+"epoch",
+"delta",
+"ayreian"
   ]
 }

@@ -1,15 +1,5 @@
 {
    "target": "cobblemon:golbat",
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:amaze_drive",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-      },
   "evolutions": [
     {
       "id": "golbat_omeon",
@@ -23,6 +13,147 @@
       "requiredContext": "gravelmon:amaze_drive",
       "permanent": true   
  }
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:amaze_drive",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+      },
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "dark",
+  "secondaryType": "sound",
+  "abilities": [
+    "levitate",
+    "h:merciless"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 159,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "53:plague",
+    "17:bite",
+    "1:crosspoison",
+    "38:crunch",
+    "14:taunt",
+    "55:uproar",
+    "11:pursuit",
+    "42:leechlife",
+    "34:screech",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dragondance",
+    "tm:drainingkiss",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:furycutter",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:nastyplot",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:soundbarrier",
+    "tm:steelwing",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgolbat.desc"
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 2
+  },
+  "height": 16,
+  "weight": 550,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
   ]
-
 }

@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "cefiran_fire"
+        "cefiranfire"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_cefiranmeowthfire",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "cefiran_fire",
+        "cefiranfire",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

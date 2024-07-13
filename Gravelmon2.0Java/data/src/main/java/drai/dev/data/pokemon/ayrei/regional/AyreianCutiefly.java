@@ -73,7 +73,8 @@ public class AyreianCutiefly extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FAIRY),
                 List.of("It propels itself forward by combusting its sweat, which creates a small explosion as it is similar to gunpowder."),
-                List.of(),
+                List.of(new EvolutionEntry("ribombee ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,48),
                         new MoveLearnSetEntry(Move.SPARKLECLUSTER,56),
@@ -150,13 +151,14 @@ public class AyreianCutiefly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AROMATIC_MIST,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Cutiefly");
 
     }

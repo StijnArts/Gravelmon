@@ -106,10 +106,10 @@
   },
   "height": 5,
   "weight": 90,
-  "aspects": ["alteran_summer_coat"],
+  "aspects": ["alteransummercoat"],
   "cannotDynamax": false
 }
 ], "features": [
-"alteran_summer_coat"
+"alteransummercoat"
   ]
 }

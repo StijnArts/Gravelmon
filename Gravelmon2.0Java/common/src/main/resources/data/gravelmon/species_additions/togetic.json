@@ -419,9 +419,208 @@
   "weight": 165,
   "aspects": ["hubian"],
   "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "fire",
+  "secondaryType": "ice",
+  "abilities": [
+    "friendguard",
+    "superluck"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 85,
+    "defence": 75,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "fairy"
+  ],
+  "moves": [
+    "52:blizzard",
+    "1:aurorabeam",
+    "12:charm",
+    "36:safeguard",
+    "28:afteryou",
+    "40:followme",
+    "1:sweetkiss",
+    "16:ancientpower",
+    "32:psychocut",
+    "20:yawn",
+    "44:firelash",
+    "1:growl",
+    "24:flameburst",
+    "1:iceshard",
+    "0:heatwave",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:airslash",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:charm",
+    "tm:confide",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:fly",
+    "tm:frustration",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:healbell",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:metronome",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:return",
+    "tm:roost",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:telekinesis",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trick",
+    "tm:uproar",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tm:flareblitz",
+    "tm:nightslash",
+    "tm:iciclespear",
+    "tm:wildcharge",
+    "tm:blazekick",
+    "tm:swordsdance",
+    "tm:shadowclaw",
+    "tm:icywind",
+    "tm:icebeam"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiantogetic.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "togetic_togenix",
+      "variant": "level_up",
+      "result": "togenix",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 48
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 32,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
 }
 ], "features": [
 "varitasian",
-"hubian"
+"hubian",
+"ayreian"
   ]
 }

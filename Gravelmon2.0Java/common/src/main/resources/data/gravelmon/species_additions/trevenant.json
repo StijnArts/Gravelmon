@@ -1,6 +1,152 @@
 {
    "target": "cobblemon:trevenant",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "abilities": [
+    "drought",
+    "chlorophyll",
+    "h:longreach"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 95,
+    "defence": 76,
+    "special_attack": 46,
+    "special_defence": 90,
+    "speed": 82
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "amorphous"
+  ],
+  "moves": [
+    "7:leechseed",
+    "36:confuseray",
+    "64:solarbeam",
+    "1:branchpoke",
+    "44:hornleech",
+    "60:pyroball",
+    "24:bulletseed",
+    "11:hypnosis",
+    "20:willowisp",
+    "40:leaftornado",
+    "16:flamewheel",
+    "4:ember",
+    "28:flameburst",
+    "56:growth",
+    "48:ingrain",
+    "1:astonish",
+    "52:woodhammer",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:burningjealousy",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:magicalleaf",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtrevenant.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 2,
+    "defence": 76,
+    "special_attack": 46,
+    "special_defence": 90,
+    "speed": 82
+  },
+  "height": 15,
+  "weight": 710,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Varitasian",
   "primaryType": "ghost",
   "secondaryType": "poison",
@@ -322,6 +468,166 @@
   "cannotDynamax": false
 },
 {
+  "name": "Ayreian",
+  "primaryType": "ghost",
+  "secondaryType": "fairy",
+  "abilities": [
+    "naturalcure",
+    "prankster"  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 50,
+    "defence": 76,
+    "special_attack": 56,
+    "special_defence": 90,
+    "speed": 102
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "amorphous"
+  ],
+  "moves": [
+    "52:leechseed",
+    "12:confuseray",
+    "24:glare",
+    "1:shadowclaw",
+    "1:branchpoke",
+    "36:shadowball",
+    "44:moonblast",
+    "32:curse",
+    "16:willowisp",
+    "48:destinybond",
+    "1:fairywind",
+    "1:ingrain",
+    "28:hex",
+    "1:astonish",
+    "20:dazzlinggleam",
+    "40:decorate",
+    "tm:allyswitch",
+    "tm:attract",
+    "tm:block",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:confide",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:naturepower",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:roleplay",
+    "tm:round",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:telekinesis",
+    "tm:thief",
+    "tm:toxic",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:venomdrench",
+    "tm:willowisp",
+    "tm:worryseed",
+    "tm:xscissor"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiantrevenant.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 15,
+  "weight": 710,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+},
+{
   "name": "Kaskadian",
   "primaryType": "ghost",
   "secondaryType": "poison",
@@ -460,8 +766,10 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "varitasian",
 "delta",
+"ayreian",
 "kaskadian"
   ]
 }

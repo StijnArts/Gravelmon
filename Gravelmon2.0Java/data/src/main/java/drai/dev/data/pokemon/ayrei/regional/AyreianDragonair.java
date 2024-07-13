@@ -73,7 +73,8 @@ public class AyreianDragonair extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("Dragonair passively stores high amounts of energy in its armor, which is released all at once when its about to evolve."),
-                List.of(),
+                List.of(new EvolutionEntry("dragonite ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,20),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,46),
@@ -135,13 +136,15 @@ public class AyreianDragonair extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AUDIOBREAK,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 54, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Dragonair");
 
     }

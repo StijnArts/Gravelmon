@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:togenix",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_togenix",
+      "texture": "cobblemon:textures/pokemon/vanguard/togenix.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/togenix_shiny.png"
+    }
+  ]
+}

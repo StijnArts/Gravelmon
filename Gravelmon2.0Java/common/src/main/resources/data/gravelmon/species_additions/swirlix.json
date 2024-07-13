@@ -1,6 +1,148 @@
 {
    "target": "cobblemon:swirlix",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "flying",
+  "secondaryType": "light",
+  "abilities": [
+    "keeneye",
+    "h:aerilate"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 35,
+    "defence": 50,
+    "special_attack": 60,
+    "special_defence": 65,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "16:aurorabeam",
+    "34:airslash",
+    "4:sweetkiss",
+    "40:aurasphere",
+    "20:aircutter",
+    "24:mist",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:coaching",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:featherdance",
+    "tm:hail",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "egg:featherdance",
+    "egg:defog",
+    "egg:tailwind",
+    "egg:morningsun",
+    "egg:signalbeam",
+    "egg:typhoon",
+    "egg:safeguard",
+    "egg:hurricane",
+    "egg:dazzlinggleam"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochswirlix.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 35,
+    "defence": 50,
+    "special_attack": 60,
+    "special_defence": 1,
+    "speed": 75
+  },
+  "height": 4,
+  "weight": 35,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "fairy",
   "secondaryType": "normal",
@@ -246,6 +388,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan",
 "x"
   ]

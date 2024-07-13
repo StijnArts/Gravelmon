@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:therapex",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_therapex",
+      "texture": "cobblemon:textures/pokemon/vanguard/therapex.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/therapex_shiny.png"
+    }
+  ]
+}

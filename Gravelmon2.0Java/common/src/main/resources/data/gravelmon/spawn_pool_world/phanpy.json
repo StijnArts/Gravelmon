@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochphanpy-1",
+      "pokemon": "phanpy epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "africanusanphanpy-1",
       "pokemon": "phanpy africanusan",
       "presets": [
@@ -16,6 +34,23 @@
       "weight": 3.8,
       "condition": {
 "biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianphanpy-1",
+      "pokemon": "phanpy ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "11-32",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
         "canSeeSky": true
       }
     }

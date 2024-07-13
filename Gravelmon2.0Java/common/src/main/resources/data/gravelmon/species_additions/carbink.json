@@ -1,6 +1,147 @@
 {
    "target": "cobblemon:carbink",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "light",
+  "secondaryType": "rock",
+  "abilities": [
+    "levitate",
+    "roughskin",
+    "h:sturdy"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 150,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 150
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "moves": [
+    "32:asteroidbelt",
+    "4:harden",
+    "12:stealthrock",
+    "44:moonblast",
+    "28:flash",
+    "16:rockpolish",
+    "36:powergem",
+    "tm:aurasphere",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mudslide",
+    "tm:payday",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:aurasphere",
+    "egg:geomancy",
+    "egg:gammaray",
+    "egg:auroraveil",
+    "egg:wish",
+    "egg:heavyslam"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcarbink.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 1,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 150
+  },
+  "height": 3,
+  "weight": 2557,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Ayreian",
   "primaryType": "rock",
   "secondaryType": "steel",
@@ -149,6 +290,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "ayreian"
   ]
 }

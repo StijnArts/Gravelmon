@@ -1,6 +1,164 @@
 {
    "target": "cobblemon:tentacool",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "secondaryType": "water",
+  "abilities": [
+    "suctioncups",
+    "h:overcoat"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 20,
+    "defence": 60,
+    "special_attack": 60,
+    "special_defence": 50,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 67,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "15:waterpulse",
+    "38:eeriespell",
+    "12:aquaring",
+    "1:supersonic",
+    "41:moonblast",
+    "31:gammaray",
+    "1:watergun",
+    "63:waterspout",
+    "27:magiccoat",
+    "18:signalbeam",
+    "47:cosmicpower",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:expandingforce",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:soak",
+    "tm:steameruption",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "egg:whirlpool",
+    "egg:octolock",
+    "egg:octazooka",
+    "egg:meteorbeam",
+    "egg:trickroom",
+    "egg:wonderroom",
+    "egg:magicroom",
+    "egg:rapidspin",
+    "egg:hyperbeam"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtentacool.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 70,
+    "attack": 20,
+    "defence": 60,
+    "special_attack": 60,
+    "special_defence": 1,
+    "speed": 75
+  },
+  "height": 9,
+  "weight": 455,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "grass",
   "secondaryType": "poison",
@@ -431,6 +589,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "hoennian",
 "relic"

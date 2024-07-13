@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "delta_berry"
+        "deltaberry"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltaberrydwebble",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "delta_berry",
+        "deltaberry",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

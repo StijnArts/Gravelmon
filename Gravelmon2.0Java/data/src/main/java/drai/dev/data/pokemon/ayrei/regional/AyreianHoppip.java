@@ -73,7 +73,8 @@ public class AyreianHoppip extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("The eye motifs on its wings have similar properties to hypnotizing devices. It feeds off of dreams."),
-                List.of(),
+                List.of(new EvolutionEntry("skiploom ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,12),
                         new MoveLearnSetEntry(Move.MEMENTO,34),
@@ -140,13 +141,14 @@ public class AyreianHoppip extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENDURE,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Hoppip");
 
     }

@@ -73,7 +73,8 @@ public class AyreianPhanpy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is strong despite its compact size. It can easily pick up and carry an adult human on its back."),
-                List.of(),
+                List.of(new EvolutionEntry("donphan ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_TOMB,15),
                         new MoveLearnSetEntry(Move.FLAIL,6),
@@ -139,8 +140,8 @@ public class AyreianPhanpy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HIGH_HORSEPOWER,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

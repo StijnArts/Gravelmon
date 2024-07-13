@@ -73,6 +73,141 @@
  }
   ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "abilities": [
+    "emergencyexit",
+    "runaway",
+    "h:eartheater"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 95,
+    "defence": 70,
+    "special_attack": 45,
+    "special_defence": 40,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "12:glare",
+    "20:skittersmack",
+    "24:dig",
+    "56:plague",
+    "36:poisonjab",
+    "4:supersonic",
+    "52:endeavor",
+    "8:fellstinger",
+    "44:coil",
+    "32:leechlife",
+    "40:toxicspikes",
+    "28:screech",
+    "40:venomdrench",
+    "16:poisonfang",
+    "tm:acidrain",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:corrosivegas",
+    "tm:curse",
+    "tm:defog",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:leechlife",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:stealthrock",
+    "tm:strugglebug",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn",
+    "tm:workup",
+    "egg:minimize",
+    "egg:agility",
+    "egg:batonpass",
+    "egg:endure",
+    "egg:bugbite",
+    "egg:crosspoison",
+    "egg:poisontail",
+    "egg:infestation"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdunsparce.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 95,
+    "defence": 70,
+    "special_attack": 45,
+    "special_defence": 40,
+    "speed": 65
+  },
+  "height": 15,
+  "weight": 140,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "bug",
   "secondaryType": "water",
@@ -372,6 +507,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "hoennian"
   ]

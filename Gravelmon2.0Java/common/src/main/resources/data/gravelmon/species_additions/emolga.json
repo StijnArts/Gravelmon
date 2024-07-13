@@ -1,6 +1,154 @@
 {
    "target": "cobblemon:emolga",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "poison",
+  "secondaryType": "flying",
+  "abilities": [
+    "merciless",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 55,
+    "special_attack": 113,
+    "special_defence": 40,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 150,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "23:agility",
+    "54:plague",
+    "18:aerialace",
+    "1:leer",
+    "10:bite",
+    "7:glide",
+    "4:doubleteam",
+    "49:crunch",
+    "59:uproar",
+    "27:acrobatics",
+    "15:poisonfang",
+    "tm:acidrain",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:featherdance",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:wish",
+    "tm:workup",
+    "egg:tailwind",
+    "egg:defog",
+    "egg:feintattack",
+    "egg:roost",
+    "egg:crosspoison",
+    "egg:supersonic",
+    "egg:confuseray",
+    "egg:poisontail"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochemolga.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 55,
+    "special_attack": 113,
+    "special_defence": 40,
+    "speed": 2
+  },
+  "height": 4,
+  "weight": 50,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "fire",
   "secondaryType": "dark",
@@ -323,6 +471,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "hoennian"
   ]

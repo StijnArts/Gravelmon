@@ -1,6 +1,145 @@
 {
    "target": "cobblemon:liepard",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "light",
+  "secondaryType": "cosmic",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 80,
+    "defence": 55,
+    "special_attack": 120,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 156,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "24:honeclaws",
+    "42:tailglow",
+    "1:scratch",
+    "11:furyswipes",
+    "34:slash",
+    "8:swift",
+    "28:gammaray",
+    "21:flash",
+    "54:aurasphere",
+    "38:extremespeed",
+    "1:growl",
+    "31:moonlight",
+    "58:megakick",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailglow",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochliepard.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 80,
+    "defence": 55,
+    "special_attack": 120,
+    "special_defence": 50,
+    "speed": 2
+  },
+  "height": 11,
+  "weight": 375,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "ghost",
   "secondaryType": "fairy",
@@ -196,6 +335,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

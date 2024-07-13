@@ -1,6 +1,163 @@
 {
    "target": "cobblemon:lanturn",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "light",
+  "secondaryType": "dark",
+  "abilities": [
+    "marvelscale",
+    "megalauncher",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 38,
+    "defence": 78,
+    "special_attack": 77,
+    "special_defence": 86,
+    "speed": 76
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2"
+  ],
+  "moves": [
+    "44:darkpulse",
+    "14:aurorabeam",
+    "48:tailglow",
+    "1:supersonic",
+    "11:blackout",
+    "53:aurasphere",
+    "61:darkvoid",
+    "1:signalbeam",
+    "57:geomancy",
+    "17:trick",
+    "36:partingshot",
+    "28:topsyturvy",
+    "24:screech",
+    "40:dazzlinggleam",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:flipturn",
+    "tm:frostbite",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:memento",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailglow",
+    "tm:taunt",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochlanturn.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 38,
+    "defence": 78,
+    "special_attack": 77,
+    "special_defence": 86,
+    "speed": 76
+  },
+  "height": 12,
+  "weight": 225,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "ghost",
   "secondaryType": "fire",
@@ -280,6 +437,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "hoennian"
   ]

@@ -1,6 +1,139 @@
 {
    "target": "cobblemon:sunkern",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "abilities": [
+    "flashfire",
+    "solarpower",
+    "h:drought"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 235,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 36,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "13:leechseed",
+    "40:solarbeam",
+    "25:gigadrain",
+    "21:magicalleaf",
+    "31:fierydance",
+    "7:willowisp",
+    "28:morningsun",
+    "37:aromatherapy",
+    "1:megadrain",
+    "1:growth",
+    "4:ember",
+    "19:flameburst",
+    "16:ingrain",
+    "34:dazzlinggleam",
+    "43:overheat",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:dazzlinggleam",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:pollenpuff",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:workup",
+    "egg:sleeppowder",
+    "egg:helpinghand",
+    "egg:grassyterrain",
+    "egg:leafstorm",
+    "egg:inferno"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsunkern.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 1,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "height": 3,
+  "weight": 18,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "fire",
   "secondaryType": "poison",
@@ -173,6 +306,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

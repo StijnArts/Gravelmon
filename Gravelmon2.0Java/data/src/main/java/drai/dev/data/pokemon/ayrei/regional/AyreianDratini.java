@@ -73,7 +73,8 @@ public class AyreianDratini extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("The first instance of Dratini sightings where under a meteor shower, so it is theorized that it came from space."),
-                List.of(),
+                List.of(new EvolutionEntry("dragonair ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,20),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,46),
@@ -135,13 +136,15 @@ public class AyreianDratini extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AUDIOBREAK,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 26, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Dratini");
 
     }

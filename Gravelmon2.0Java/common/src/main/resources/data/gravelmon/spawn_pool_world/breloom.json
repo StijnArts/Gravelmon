@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochbreloom-1",
+      "pokemon": "breloom epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "alteranbreloom-1",
       "pokemon": "breloom alteran",
       "presets": [
@@ -16,6 +34,23 @@
       "weight": 3.0,
       "condition": {
 "biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianbreloom-1",
+      "pokemon": "breloom ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-45",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
         "canSeeSky": true
       }
     }

@@ -1,6 +1,150 @@
 {
    "target": "cobblemon:amaura",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fairy",
+  "secondaryType": "dragon",
+  "abilities": [
+    "friendguard",
+    "h:multiscale"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 49,
+    "defence": 45,
+    "special_attack": 36,
+    "special_defence": 77,
+    "speed": 73
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 71,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "7:aromaticmist",
+    "44:calmmind",
+    "17:charm",
+    "17:captivate",
+    "14:drainingkiss",
+    "48:hypervoice",
+    "62:dracometeor",
+    "1:fairywind",
+    "1:twister",
+    "36:dazzlinggleam",
+    "53:moonlight",
+    "24:mistball",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:chargebeam",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:swift",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:rest",
+    "egg:lightscreen",
+    "egg:barrier",
+    "egg:auroraveil"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochamaura.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 49,
+    "defence": 45,
+    "special_attack": 36,
+    "special_defence": 77,
+    "speed": 73
+  },
+  "height": 13,
+  "weight": 252,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "grass",
   "secondaryType": "water",
@@ -175,6 +319,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

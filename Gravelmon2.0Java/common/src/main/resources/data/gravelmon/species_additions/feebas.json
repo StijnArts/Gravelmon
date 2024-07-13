@@ -1,6 +1,273 @@
 {
    "target": "cobblemon:feebas",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "light",
+  "secondaryType": "fairy",
+  "abilities": [
+    "wonderskin",
+    "stormdrain",
+    "h:marvelscale"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 15,
+    "defence": 20,
+    "special_attack": 80,
+    "special_defence": 10,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 40,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "moves": [
+    "15:flail",
+    "1:watergun",
+    "10:flash",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragondance",
+    "tm:drainingkiss",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:substitute",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wish"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochfeebas.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 20,
+    "attack": 15,
+    "defence": 20,
+    "special_attack": 80,
+    "special_defence": 10,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 74,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "fire",
+  "abilities": [
+    "dryskin"  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 10,
+    "defence": 65,
+    "special_attack": 40,
+    "special_defence": 15,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 40,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "10:smokescreen",
+    "15:flail",
+    "5:ember",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:breakingswipe",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragondance",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:meteorbeam",
+    "tm:mudslide",
+    "tm:mysticalfire",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:workup",
+    "egg:smog",
+    "egg:harden",
+    "egg:tarshot",
+    "egg:mudshot",
+    "egg:flameburst"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochfeebasone.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 20,
+    "attack": 10,
+    "defence": 1,
+    "special_attack": 40,
+    "special_defence": 15,
+    "speed": 50
+  },
+  "height": 6,
+  "weight": 74,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "ghost",
   "abilities": [
@@ -264,6 +531,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "delta",
 "seviian"
   ]

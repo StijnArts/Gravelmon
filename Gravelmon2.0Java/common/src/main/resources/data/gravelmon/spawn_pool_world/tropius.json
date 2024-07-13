@@ -42,6 +42,24 @@
     }
 ,
     {
+      "id": "ayreiantropius-1",
+      "pokemon": "tropius ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "15-45",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_tropical_island" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "kaskadiantropius-1",
       "pokemon": "tropius kaskadian",
       "presets": [

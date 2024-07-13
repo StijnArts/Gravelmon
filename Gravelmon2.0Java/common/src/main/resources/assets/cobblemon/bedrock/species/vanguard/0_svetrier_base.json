@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:svetrier",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_svetrier",
+      "texture": "cobblemon:textures/pokemon/vanguard/svetrier.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/svetrier_shiny.png"
+    }
+  ]
+}

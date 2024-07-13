@@ -1,6 +1,142 @@
 {
    "target": "cobblemon:sharpedo",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "steel",
+  "secondaryType": "flying",
+  "abilities": [
+    "flareboost",
+    "speedboost"  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 75,
+    "defence": 65,
+    "special_attack": 115,
+    "special_defence": 75,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "32:steelwing",
+    "23:smokescreen",
+    "20:magnetbomb",
+    "13:sonicboom",
+    "1:tackle",
+    "1:leer",
+    "1:airslash",
+    "4:supersonic",
+    "59:boomburst",
+    "7:focusenergy",
+    "9:metalsound",
+    "26:barrage",
+    "47:aeroblast",
+    "64:razorwind",
+    "36:screech",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:flamethrower",
+    "tm:gammaray",
+    "tm:gyroball",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:steelroller",
+    "tm:steelwing",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsharpedo.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 75,
+    "defence": 65,
+    "special_attack": 115,
+    "special_defence": 75,
+    "speed": 2
+  },
+  "height": 18,
+  "weight": 888,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "X",
   "primaryType": "water",
   "secondaryType": "ghost",
@@ -143,6 +279,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "x"
   ]
 }

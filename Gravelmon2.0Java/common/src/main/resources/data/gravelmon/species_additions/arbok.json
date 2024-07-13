@@ -31,6 +31,148 @@
  }
   ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ground",
+  "secondaryType": "poison",
+  "abilities": [
+    "corrosion",
+    "sandspit"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 110,
+    "defence": 69,
+    "special_attack": 100,
+    "special_defence": 65,
+    "speed": 69
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 153,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "moves": [
+    "1:wrap",
+    "37:dig",
+    "47:thousandwaves",
+    "62:gunkshot",
+    "1:leer",
+    "51:poisonjab",
+    "11:bite",
+    "17:toxicthread",
+    "41:crunch",
+    "28:hypnosis",
+    "44:coil",
+    "44:toxic",
+    "54:leechlife",
+    "24:bulldoze",
+    "20:poisonfang",
+    "14:steamroller",
+    "4:poisonsting",
+    "tm:attract",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:furycutter",
+    "tm:hiddenpower",
+    "tm:icefang",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epocharbok.desc"
+  ],
+  "baseScale": 0.5833333333333334,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 2,
+    "defence": 69,
+    "special_attack": 100,
+    "special_defence": 65,
+    "speed": 69
+  },
+  "height": 35,
+  "weight": 650,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Alteran",
   "primaryType": "fighting",
   "abilities": [
@@ -133,6 +275,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "alteran"
   ]
 }

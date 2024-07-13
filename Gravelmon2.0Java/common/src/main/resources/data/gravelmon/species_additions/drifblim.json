@@ -1,6 +1,135 @@
 {
    "target": "cobblemon:drifblim",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fire",
+  "secondaryType": "flying",
+  "abilities": [
+    "flamebody",
+    "unburden",
+    "h:whitesmoke"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 90,
+    "defence": 78,
+    "special_attack": 95,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 174,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "20:defog",
+    "8:sunnyday",
+    "39:bounce",
+    "16:glide",
+    "5:defensecurl",
+    "12:flamecharge",
+    "32:aeroblast",
+    "24:acrobatics",
+    "1:firelash",
+    "35:tailwind",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bounce",
+    "tm:confuseray",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:echoedvoice",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gyroball",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:willowisp",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdrifblim.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 90,
+    "defence": 78,
+    "special_attack": 95,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "height": 12,
+  "weight": 150,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "fire",
   "secondaryType": "flying",
@@ -463,12 +592,13 @@
   },
   "height": 12,
   "weight": 150,
-  "aspects": ["amaze_all"],
+  "aspects": ["amazeall"],
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "ayreian",
-"amaze_all"
+"amazeall"
   ]
 }

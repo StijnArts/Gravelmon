@@ -299,6 +299,158 @@
   "cannotDynamax": false
 },
 {
+  "name": "Ayreian",
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "abilities": [
+    "chlorophyll",
+    "seedsower"  ],
+  "baseStats": {
+    "hp": 109,
+    "attack": 68,
+    "defence": 88,
+    "special_attack": 71,
+    "special_defence": 102,
+    "speed": 92
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "moves": [
+    "36:solarbeam",
+    "1:leer",
+    "10:stomp",
+    "41:dragonpulse",
+    "50:leafstorm",
+    "16:magicalleaf",
+    "1:dragonbreath",
+    "21:dragonhammer",
+    "1:razorleaf",
+    "26:leaftornado",
+    "61:dracometeor",
+    "6:sweetscent",
+    "1:growth",
+    "1:terrainpulse",
+    "46:synthesis",
+    "1:weatherball",
+    "56:earthpower",
+    "30:naturalgift",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:confide",
+    "tm:cut",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:dragonpulse",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fly",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:roost",
+    "tm:round",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:tailwind",
+    "tm:toxic",
+    "tm:worryseed",
+    "egg:headbutt",
+    "egg:slam",
+    "egg:razorwind",
+    "egg:leechseed",
+    "egg:naturepower",
+    "egg:leafstorm",
+    "egg:synthesis",
+    "egg:curse",
+    "egg:leafblade",
+    "egg:dragondance",
+    "egg:bulletseed",
+    "egg:naturalgift",
+    "egg:dragonhammer"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiantropius.desc"
+  ],
+  "baseScale": 0.3333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 20,
+  "weight": 1000,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+},
+{
   "name": "Kaskadian",
   "primaryType": "grass",
   "secondaryType": "ground",
@@ -440,6 +592,7 @@
 ], "features": [
 "hizian",
 "aristosian",
+"ayreian",
 "kaskadian"
   ]
 }

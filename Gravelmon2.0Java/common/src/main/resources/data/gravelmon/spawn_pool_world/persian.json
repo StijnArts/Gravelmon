@@ -4,8 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochpersian-1",
+      "pokemon": "persian epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "cefiranpersianfire-1",
-      "pokemon": "persian cefiran_fire",
+      "pokemon": "persian cefiranfire",
       "presets": [
           "natural"
       ],
@@ -23,7 +41,7 @@
 ,
     {
       "id": "cefiranpersianice-1",
-      "pokemon": "persian cefiran_ice",
+      "pokemon": "persian cefiranice",
       "presets": [
           "natural"
       ],
@@ -43,7 +61,7 @@
 ,
     {
       "id": "cefiranpersianelectric-1",
-      "pokemon": "persian cefiran_electric",
+      "pokemon": "persian cefiranelectric",
       "presets": [
           "natural"
       ],

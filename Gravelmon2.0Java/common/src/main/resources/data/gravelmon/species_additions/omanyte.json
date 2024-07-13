@@ -1,6 +1,148 @@
 {
    "target": "cobblemon:omanyte",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "psychic",
+  "abilities": [
+    "magicbounce",
+    "magicguard"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 25,
+    "defence": 85,
+    "special_attack": 35,
+    "special_defence": 55,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 71,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "34:darkpulse",
+    "20:reflect",
+    "20:lightscreen",
+    "29:flash",
+    "38:protect",
+    "1:withdraw",
+    "4:confusion",
+    "7:trick",
+    "47:dazzlinggleam",
+    "52:expandingforce",
+    "24:psybeam",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "egg:psychicterrain",
+    "egg:magiccoat",
+    "egg:magicroom",
+    "egg:storedpower",
+    "egg:extrasensory",
+    "egg:mist",
+    "egg:reflecttype",
+    "egg:synchronoise",
+    "egg:confuseray",
+    "egg:tickle"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochomanyte.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 25,
+    "defence": 85,
+    "special_attack": 35,
+    "special_defence": 1,
+    "speed": 100
+  },
+  "height": 4,
+  "weight": 75,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Novran",
   "primaryType": "rock",
   "secondaryType": "dragon",
@@ -173,6 +315,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "novran"
   ]
 }

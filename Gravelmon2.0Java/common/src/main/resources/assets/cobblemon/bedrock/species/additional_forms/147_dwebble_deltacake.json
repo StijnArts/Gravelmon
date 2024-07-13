@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "delta_cake"
+        "deltacake"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltacakedwebble",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "delta_cake",
+        "deltacake",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

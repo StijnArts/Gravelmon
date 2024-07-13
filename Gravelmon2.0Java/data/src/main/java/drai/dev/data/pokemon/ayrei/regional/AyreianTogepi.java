@@ -73,7 +73,8 @@ public class AyreianTogepi extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This rare bird Pokemon hatches at the top of the coldest peaks, as its fire burns bright even at negative temperatures."),
-                List.of(),
+                List.of(new EvolutionEntry("togetic ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PSYCHO_CUT,32),
                         new MoveLearnSetEntry(Move.SUNNY_DAY,24),
@@ -163,8 +164,9 @@ public class AyreianTogepi extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AERIAL_ACE,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,6 +1,153 @@
 {
    "target": "cobblemon:blitzle",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fairy",
+  "secondaryType": "light",
+  "abilities": [
+    "quickfeet",
+    "naturalcure",
+    "h:pastelveil"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 60,
+    "defence": 32,
+    "special_attack": 96,
+    "special_defence": 30,
+    "speed": 32
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "39:agility",
+    "1:quickattack",
+    "29:charm",
+    "15:stomp",
+    "29:captivate",
+    "53:healingwish",
+    "4:tailwhip",
+    "8:covet",
+    "34:extremespeed",
+    "43:playrough",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:mirrorshot",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nobleroar",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:takedown",
+    "egg:doubleedge",
+    "egg:mistyterrain",
+    "egg:endure",
+    "egg:mefirst",
+    "egg:allyswitch",
+    "egg:helpinghand"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochblitzle.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 45,
+    "attack": 60,
+    "defence": 32,
+    "special_attack": 96,
+    "special_defence": 30,
+    "speed": 1
+  },
+  "height": 8,
+  "weight": 298,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Seviian",
   "primaryType": "ice",
   "secondaryType": "electric",
@@ -141,6 +288,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "seviian"
   ]
 }

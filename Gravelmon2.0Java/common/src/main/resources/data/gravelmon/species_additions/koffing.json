@@ -1,6 +1,155 @@
 {
    "target": "cobblemon:koffing",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fire",
+  "secondaryType": "poison",
+  "abilities": [
+    "levitate",
+    "whitesmoke",
+    "h:magmaarmor"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 35,
+    "special_defence": 65,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "44:corrosivegas",
+    "54:memento",
+    "30:sunnyday",
+    "12:haze",
+    "1:defensecurl",
+    "16:incinerate",
+    "9:smog",
+    "47:flamethrower",
+    "51:acidrain",
+    "40:destinybond",
+    "57:eruption",
+    "1:poisongas",
+    "5:ember",
+    "26:flameburst",
+    "34:scald",
+    "19:clearsmog",
+    "37:lavaplume",
+    "23:corrode",
+    "tm:acidrain",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:corrosivegas",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:gyroball",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:memento",
+    "tm:mudslide",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scald",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:stealthrock",
+    "tm:steameruption",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:workup",
+    "egg:curse",
+    "egg:heatcrash",
+    "egg:sludgebomb",
+    "egg:fierydance"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochkoffing.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 35,
+    "special_defence": 1,
+    "speed": 85
+  },
+  "height": 6,
+  "weight": 10,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Qamoran",
   "primaryType": "poison",
   "secondaryType": "fire",
@@ -425,6 +574,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "qamoran",
 "delta",
 "relic"

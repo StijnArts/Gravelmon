@@ -1,6 +1,126 @@
 {
    "target": "cobblemon:spiritomb",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "secondaryType": "light",
+  "abilities": [
+    "flareboost"  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 92,
+    "defence": 108,
+    "special_attack": 35,
+    "special_defence": 92,
+    "speed": 108
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "40:gammaray",
+    "60:bigbang",
+    "15:flash",
+    "35:cosmicpower",
+    "30:blackhole",
+    "45:dazzlinggleam",
+    "1:stardust",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:flareblitz",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:toxic",
+    "tm:wish",
+    "egg:astralbarrage",
+    "egg:darkpulse",
+    "egg:destinybond",
+    "egg:disable",
+    "egg:selfdestruct",
+    "egg:explosion"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochspiritomb.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 50,
+    "attack": 92,
+    "defence": 1,
+    "special_attack": 35,
+    "special_defence": 92,
+    "speed": 108
+  },
+  "height": 10,
+  "weight": 9990,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "X",
   "primaryType": "ghost",
   "secondaryType": "grass",
@@ -126,6 +246,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "x"
   ]
 }

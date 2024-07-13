@@ -73,7 +73,8 @@ public class AyreianRalts extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.AMORPHOUS),
                 List.of("Its black plumage is said to bring misfortune to others near it."),
-                List.of(),
+                List.of(new EvolutionEntry("kirlia", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CALM_MIND,35),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -170,13 +171,14 @@ public class AyreianRalts extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEX,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 24, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Ralts");
 
     }

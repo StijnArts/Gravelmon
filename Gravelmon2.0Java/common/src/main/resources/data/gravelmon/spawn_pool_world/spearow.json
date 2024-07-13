@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochspearow-1",
+      "pokemon": "spearow epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "eghospearow-1",
       "pokemon": "spearow egho",
       "presets": [
@@ -18,6 +36,23 @@
 "biomes": [ "#cobblemon:is_hills",
 "#cobblemon:is_temperate" ],
         "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianspearow-1",
+      "pokemon": "spearow ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "9-31",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ],
         "canSeeSky": true
       }
     }

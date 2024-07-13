@@ -1,6 +1,169 @@
 {
    "target": "cobblemon:munchlax",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "psychic",
+  "abilities": [
+    "moody",
+    "gluttony",
+    "h:thickfat"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 20,
+    "defence": 90,
+    "special_attack": 5,
+    "special_defence": 85,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 92,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 78,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "48:storedpower",
+    "52:blizzard",
+    "44:calmmind",
+    "4:defensecurl",
+    "12:drainingkiss",
+    "36:extrasensory",
+    "16:icywind",
+    "32:amnesia",
+    "20:spitup",
+    "20:stockpile",
+    "1:confusion",
+    "1:growl",
+    "20:swallow",
+    "28:psybeam",
+    "40:icebeam",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:defog",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteormash",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:mindblast",
+    "egg:belch",
+    "egg:doubleedge",
+    "egg:zenheadbutt",
+    "egg:rest"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochmunchlax.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 20,
+    "defence": 90,
+    "special_attack": 5,
+    "special_defence": 85,
+    "speed": 85
+  },
+  "height": 6,
+  "weight": 1050,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Varitasian",
   "primaryType": "dark",
   "abilities": [
@@ -353,9 +516,200 @@
   "weight": 1050,
   "aspects": ["delta"],
   "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "ice",
+  "abilities": [
+    "thickfat",
+    "icebody"  ],
+  "baseStats": {
+    "hp": 135,
+    "attack": 85,
+    "defence": 40,
+    "special_attack": 5,
+    "special_defence": 40,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "32:fling",
+    "44:flail",
+    "1:tackle",
+    "8:recycle",
+    "1:lick",
+    "16:bite",
+    "22:icepunch",
+    "4:defensecurl",
+    "12:covet",
+    "36:amnesia",
+    "40:metronome",
+    "20:stockpile",
+    "28:bodyslam",
+    "48:bellydrum",
+    "24:screech",
+    "52:lastresort",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:confide",
+    "tm:covet",
+    "tm:doubleteam",
+    "tm:earthquake",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:frustration",
+    "tm:gunkshot",
+    "tm:hiddenpower",
+    "tm:hydropump",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:lastresort",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:payday",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:return",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swagger",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:lick",
+    "egg:charm",
+    "egg:doubleedge",
+    "egg:curse",
+    "egg:whirlwind",
+    "egg:pursuit",
+    "egg:zenheadbutt",
+    "egg:counter",
+    "egg:naturalgift",
+    "egg:afteryou",
+    "egg:selfdestruct",
+    "egg:belch",
+    "egg:fissure"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianmunchlax.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "munchlax_snorlax_ayreian",
+      "variant": "level_up",
+      "result": "snorlax ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 1050,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "varitasian",
-"delta"
+"delta",
+"ayreian"
   ]
 }

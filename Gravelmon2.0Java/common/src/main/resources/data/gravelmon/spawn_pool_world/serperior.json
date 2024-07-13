@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochserperior-1",
+      "pokemon": "serperior epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltaserperior-1",
       "pokemon": "serperior delta",
       "presets": [
@@ -17,6 +35,24 @@
       "condition": {
 "biomes": [ "#cobblemon:is_freshwater" ],
         "canSeeSky": false
+      }
+    }
+,
+    {
+      "id": "ayreianserperior-1",
+      "pokemon": "serperior ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
       }
     }
 

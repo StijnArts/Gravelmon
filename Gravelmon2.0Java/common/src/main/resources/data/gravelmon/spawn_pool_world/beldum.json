@@ -4,8 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochbeldum-1",
+      "pokemon": "beldum epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltaspiderbeldum-1",
-      "pokemon": "beldum delta_spider",
+      "pokemon": "beldum deltaspider",
       "presets": [
           "natural"
       ],
@@ -22,7 +40,7 @@
 ,
     {
       "id": "deltaruinbeldum-1",
-      "pokemon": "beldum delta_ruin",
+      "pokemon": "beldum deltaruin",
       "presets": [
           "jungle_pyramid"
       ],

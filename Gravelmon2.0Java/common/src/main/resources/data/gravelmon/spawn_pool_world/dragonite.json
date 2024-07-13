@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochdragonite-1",
+      "pokemon": "dragonite epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltadragonite-1",
       "pokemon": "dragonite delta",
       "presets": [
@@ -16,6 +34,23 @@
       "weight": 2.0,
       "condition": {
 "biomes": [ "#cobblemon:is_freshwater" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiandragonite-1",
+      "pokemon": "dragonite ayreian",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "54-68",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ],
         "canSeeSky": true
       }
     }

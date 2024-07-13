@@ -1,7 +1,171 @@
 {
    "target": "cobblemon:bulbasaur",
-  "preEvolution": "virilis",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "fairy",
+  "abilities": [
+    "fairyaura",
+    "icescales",
+    "h:pastelveil"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 49,
+    "defence": 49,
+    "special_attack": 45,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "moves": [
+    "1:tackle",
+    "19:aurorabeam",
+    "58:calmmind",
+    "24:reflect",
+    "49:moonblast",
+    "24:lightscreen",
+    "3:powdersnow",
+    "6:fairywind",
+    "12:mist",
+    "28:frostbreath",
+    "41:dazzlinggleam",
+    "45:icebeam",
+    "9:hail",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:mistyterrain",
+    "egg:cosmicpower",
+    "egg:aurasphere",
+    "egg:blizzard",
+    "egg:psychic",
+    "egg:amnesia",
+    "egg:powergem"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbulbasaur.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 45,
+    "attack": 49,
+    "defence": 49,
+    "special_attack": 1,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "height": 7,
+  "weight": 69,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Egho",
   "primaryType": "grass",
   "secondaryType": "rock",
@@ -500,6 +664,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "egho",
 "delta",
 "ayreian"

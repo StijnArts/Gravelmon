@@ -73,7 +73,8 @@ public class AyreianVenonat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night."),
-                List.of(),
+                List.of(new EvolutionEntry("dunemoth", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DISABLE,1),
                         new MoveLearnSetEntry(Move.POISON_POWDER,13),
@@ -134,8 +135,8 @@ public class AyreianVenonat extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 31, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -64,9 +64,9 @@
   "preEvolution": "petiolis",
   "evolutions": [
     {
-      "id": "virilis_bulbasaur",
+      "id": "virilis_lupercalis",
       "variant": "level_up",
-      "result": "bulbasaur",
+      "result": "Lupercalis",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

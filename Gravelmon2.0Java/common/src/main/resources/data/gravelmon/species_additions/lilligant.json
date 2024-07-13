@@ -147,7 +147,7 @@
   },
   "height": 11,
   "weight": 163,
-  "aspects": ["delta_water"],
+  "aspects": ["deltawater"],
   "cannotDynamax": false
 },
 {
@@ -310,7 +310,7 @@
   },
   "height": 11,
   "weight": 163,
-  "aspects": ["delta_fairy"],
+  "aspects": ["deltafairy"],
   "cannotDynamax": false
 },
 {
@@ -413,8 +413,8 @@
   "cannotDynamax": false
 }
 ], "features": [
-"delta_water",
-"delta_fairy",
+"deltawater",
+"deltafairy",
 "cefiran"
   ]
 }

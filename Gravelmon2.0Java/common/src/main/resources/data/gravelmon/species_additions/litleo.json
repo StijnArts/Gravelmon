@@ -1,6 +1,142 @@
 {
    "target": "cobblemon:litleo",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "sound",
+  "abilities": [
+    "intimidate"  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 73,
+    "defence": 58,
+    "special_attack": 72,
+    "special_defence": 50,
+    "speed": 58
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 74,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "46:closecombat",
+    "15:bite",
+    "1:roar",
+    "5:furyswipes",
+    "39:crunch",
+    "50:uproar",
+    "28:yawn",
+    "1:growl",
+    "20:icefang",
+    "43:frostbite",
+    "11:iceshard",
+    "8:howl",
+    "23:nobleroar",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:crunch",
+    "tm:dragonclaw",
+    "tm:echoedvoice",
+    "tm:firefang",
+    "tm:flareblitz",
+    "tm:frostbite",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:mist",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "egg:pursuit",
+    "egg:rest",
+    "egg:psychicfangs",
+    "egg:thunderfang",
+    "egg:slash",
+    "egg:honeclaws",
+    "egg:charm",
+    "egg:jawlock",
+    "egg:iciclecrash",
+    "egg:aquatail"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochlitleo.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 58,
+    "attack": 1,
+    "defence": 58,
+    "special_attack": 72,
+    "special_defence": 50,
+    "speed": 58
+  },
+  "height": 6,
+  "weight": 135,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Hizian",
   "primaryType": "ghost",
   "abilities": [
@@ -103,6 +239,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "hizian"
   ]
 }

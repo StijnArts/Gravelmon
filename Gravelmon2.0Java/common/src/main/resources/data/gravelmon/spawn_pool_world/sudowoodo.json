@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochsudowoodo-1",
+      "pokemon": "sudowoodo epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "novransudowoodo-1",
       "pokemon": "sudowoodo novran",
       "presets": [
@@ -22,7 +40,7 @@
 ,
     {
       "id": "amazeallsudowoodo-1",
-      "pokemon": "sudowoodo amaze_all",
+      "pokemon": "sudowoodo amazeall",
       "presets": [
           "natural"
       ],

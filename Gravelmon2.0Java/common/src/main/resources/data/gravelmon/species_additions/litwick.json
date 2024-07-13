@@ -1,6 +1,143 @@
 {
    "target": "cobblemon:litwick",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "light",
+  "secondaryType": "ghost",
+  "abilities": [
+    "wanderingspirit",
+    "transistor",
+    "h:dazzling"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 40,
+    "special_attack": 50,
+    "special_defence": 65,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 55,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "40:shadowball",
+    "27:mirrorshot",
+    "52:curse",
+    "22:paraboliccharge",
+    "11:flash",
+    "32:discharge",
+    "36:morningsun",
+    "60:photongeyser",
+    "7:chargebeam",
+    "48:thunderbolt",
+    "18:hex",
+    "44:dazzlinggleam",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:electricterrain",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:magnetrise",
+    "tm:memento",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wonderroom",
+    "egg:shadowsneak",
+    "egg:electricterrain",
+    "egg:signalbeam",
+    "egg:twinbeam",
+    "egg:explosion",
+    "egg:shockwave",
+    "egg:selfdestruct"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochlitwick.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 40,
+    "special_attack": 1,
+    "special_defence": 65,
+    "speed": 45
+  },
+  "height": 3,
+  "weight": 31,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "fairy",
   "secondaryType": "fire",
@@ -170,6 +307,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

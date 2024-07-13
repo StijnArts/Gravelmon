@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochpikachu-1",
+      "pokemon": "pikachu epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltapikachu-1",
       "pokemon": "pikachu delta",
       "presets": [
@@ -23,7 +41,7 @@
 ,
     {
       "id": "pikachufemalex-1",
-      "pokemon": "pikachu female_x",
+      "pokemon": "pikachu femalex",
       "presets": [
           "natural"
       ],
@@ -39,7 +57,7 @@
 ,
     {
       "id": "pikachumalex-1",
-      "pokemon": "pikachu male_x",
+      "pokemon": "pikachu malex",
       "presets": [
           "natural"
       ],

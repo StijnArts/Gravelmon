@@ -4,8 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochcrustle-1",
+      "pokemon": "crustle epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltaberrycrustle-1",
-      "pokemon": "crustle delta_berry",
+      "pokemon": "crustle deltaberry",
       "presets": [
           "near_berry_bush"
       ],
@@ -22,7 +40,7 @@
 ,
     {
       "id": "deltacakecrustle-1",
-      "pokemon": "crustle delta_cake",
+      "pokemon": "crustle deltacake",
       "presets": [
           "natural"
       ],

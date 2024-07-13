@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochlucario-1",
+      "pokemon": "lucario epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltalucario-1",
       "pokemon": "lucario delta",
       "presets": [
@@ -33,6 +51,22 @@
       "weight": 1.0,
       "condition": {
 "biomes": [ "#cobblemon:nether/is_wasteland" ]
+      }
+    }
+,
+    {
+      "id": "ayreianlucario-1",
+      "pokemon": "lucario ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-54",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
       }
     }
 ,

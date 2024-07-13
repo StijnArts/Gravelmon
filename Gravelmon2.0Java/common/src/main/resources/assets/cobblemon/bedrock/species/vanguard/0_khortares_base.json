@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:khortares",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_khortares",
+      "texture": "cobblemon:textures/pokemon/vanguard/khortares.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/khortares_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:saureon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_saureon",
+      "texture": "cobblemon:textures/pokemon/vanguard/saureon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/saureon_shiny.png"
+    }
+  ]
+}

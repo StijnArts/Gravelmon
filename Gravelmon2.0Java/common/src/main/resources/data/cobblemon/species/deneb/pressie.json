@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pressie",
-  "nationalPokedexNumber": 4785,
+  "nationalPokedexNumber": 4814,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -181,6 +181,18 @@
 
       ],
       "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ },
+    {
+      "id": "pressie_lapras_ayreian",
+      "variant": "item_interact",
+      "result": "lapras ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone",
       "permanent": true   
  }
   ],

@@ -1,6 +1,266 @@
 {
    "target": "cobblemon:voltorb",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "abilities": [
+    "speedboost",
+    "h:snowcloak"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 25,
+    "special_attack": 80,
+    "special_defence": 45,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:tackle",
+    "60:auroraveil",
+    "41:explosion",
+    "4:defensecurl",
+    "52:iciclecrash",
+    "11:iceball",
+    "27:spitup",
+    "22:avalanche",
+    "6:rollout",
+    "27:stockpile",
+    "48:mirrorcoat",
+    "45:rockslide",
+    "20:bide",
+    "27:swallow",
+    "56:headsmash",
+    "37:mist",
+    "1:iceshard",
+    "16:rocktomb",
+    "13:hail",
+    "1:batonpass",
+    "9:rapidspin",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:flipturn",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:mist",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sleeptalk",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochvoltorb.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 25,
+    "special_attack": 80,
+    "special_defence": 45,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 104,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "cosmic",
+  "secondaryType": "rock",
+  "abilities": [
+    "pressure",
+    "aftermath",
+    "h:sturdy"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 45,
+    "special_attack": 100,
+    "special_defence": 55,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "20:asteroidbelt",
+    "4:harden",
+    "11:stealthrock",
+    "9:swift",
+    "41:explosion",
+    "51:moonblast",
+    "29:gammaray",
+    "26:diamondstorm",
+    "6:eerieimpulse",
+    "1:stardust",
+    "tm:aurasphere",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:powergem",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swift",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochvoltorbone.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 45,
+    "special_attack": 100,
+    "special_defence": 55,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 2004,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Norheiman",
   "primaryType": "electric",
   "secondaryType": "ice",
@@ -394,6 +654,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "norheiman",
 "ayreian",
 "mystic"

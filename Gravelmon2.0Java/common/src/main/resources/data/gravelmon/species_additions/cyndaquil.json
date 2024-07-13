@@ -1,6 +1,295 @@
 {
    "target": "cobblemon:cyndaquil",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "steel",
+  "secondaryType": "normal",
+  "abilities": [
+    "motordrive",
+    "analytic",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 50,
+    "special_attack": 52,
+    "special_defence": 39,
+    "speed": 43
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "mineral"
+  ],
+  "moves": [
+    "43:irondefense",
+    "20:magnetbomb",
+    "1:tackle",
+    "24:doublehit",
+    "28:crushclaw",
+    "10:spark",
+    "14:visegrip",
+    "32:shiftgear",
+    "17:metalsound",
+    "6:snaptrap",
+    "1:growl",
+    "47:ironhead",
+    "62:gearup",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:spikes",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:reversal",
+    "egg:covet",
+    "egg:bodyslam",
+    "egg:metalclaw"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcyndaquil.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 1,
+    "defence": 50,
+    "special_attack": 52,
+    "special_defence": 39,
+    "speed": 43
+  },
+  "height": 5,
+  "weight": 79,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "ice",
+  "abilities": [
+    "refrigerate",
+    "snowcloak"  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 32,
+    "defence": 43,
+    "special_attack": 65,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "57:blizzard",
+    "32:twinbeam",
+    "49:flashcannon",
+    "13:icywind",
+    "41:diamondstorm",
+    "10:mist",
+    "21:glaciate",
+    "45:triattack",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:hail",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:furyswipes",
+    "egg:quickattack",
+    "egg:reversal",
+    "egg:thrash",
+    "egg:foresight",
+    "egg:covet",
+    "egg:howl",
+    "egg:crushclaw",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:extrasensory",
+    "egg:naturepower"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcyndaquilone.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 59,
+    "attack": 32,
+    "defence": 43,
+    "special_attack": 65,
+    "special_defence": 60,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 79,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Egho",
   "primaryType": "fire",
   "secondaryType": "electric",
@@ -532,6 +821,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "egho",
 "delta",
 "ayreian"

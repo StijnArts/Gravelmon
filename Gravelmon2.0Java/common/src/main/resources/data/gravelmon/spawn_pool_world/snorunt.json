@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochsnorunt-1",
+      "pokemon": "snorunt epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltasnorunt-1",
       "pokemon": "snorunt delta",
       "presets": [
@@ -18,6 +36,24 @@
 "biomes": [ "#cobblemon:nether/is_fungus",
 "#cobblemon:nether/is_mountain",
 "#cobblemon:nether/is_desert" ]
+      }
+    }
+,
+    {
+      "id": "ayreiansnorunt-1",
+      "pokemon": "snorunt ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-34",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove" ],
+        "timeRange": "night",
+        "canSeeSky": true
       }
     }
 ,

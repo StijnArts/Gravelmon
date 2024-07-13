@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochkirlia-1",
+      "pokemon": "kirlia epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "fligiankirlia-1",
       "pokemon": "kirlia fligian",
       "presets": [
@@ -34,6 +52,24 @@
       "condition": {
 "biomes": [ "#cobblemon:is_snowy" ],
         "isThundering": true,
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiankirlia-1",
+      "pokemon": "kirlia ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "18-35",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands",
+"#cobblemon:is_mountain" ],
         "canSeeSky": true
       }
     }

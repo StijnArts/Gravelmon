@@ -1,6 +1,141 @@
 {
    "target": "cobblemon:magmortar",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "abilities": [
+    "icebody",
+    "h:megalauncher"
+  ],
+  "baseStats": {
+    "hp": 108,
+    "attack": 105,
+    "defence": 79,
+    "special_attack": 68,
+    "special_defence": 105,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 243,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "22:waterpulse",
+    "33:darkpulse",
+    "43:hydropump",
+    "54:blizzard",
+    "15:aurorabeam",
+    "1:leer",
+    "19:haze",
+    "12:aquaring",
+    "29:icepunch",
+    "40:raindance",
+    "5:watergun",
+    "8:iceball",
+    "48:waterspout",
+    "1:powdersnow",
+    "19:mist",
+    "26:acidarmor",
+    "36:icebeam",
+    "40:hail",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:darkpulse",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:gammaray",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:soak",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochmagmortar.desc"
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 105,
+    "defence": 79,
+    "special_attack": 68,
+    "special_defence": 105,
+    "speed": 75
+  },
+  "height": 16,
+  "weight": 680,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "water",
   "secondaryType": "steel",
@@ -179,6 +314,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

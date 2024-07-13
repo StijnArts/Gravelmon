@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochhoopa-1",
+      "pokemon": "hoopa epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltahoopa-1",
       "pokemon": "hoopa delta",
       "presets": [
@@ -23,7 +41,7 @@
 ,
     {
       "id": "deltahoopaunleashed-1",
-      "pokemon": "hoopa delta_unleashed",
+      "pokemon": "hoopa deltaunleashed",
       "presets": [
           "natural"
       ],

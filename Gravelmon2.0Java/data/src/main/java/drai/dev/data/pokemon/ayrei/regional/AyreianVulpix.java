@@ -73,7 +73,8 @@ public class AyreianVulpix extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It burrows in the various dunes of the desert it lives in, and pounces on prey at the opportune moment. It can go without water for weeks."),
-                List.of(),
+                List.of(new EvolutionEntry("ninetales ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DISABLE,4),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,8),
@@ -154,8 +155,9 @@ public class AyreianVulpix extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 27, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

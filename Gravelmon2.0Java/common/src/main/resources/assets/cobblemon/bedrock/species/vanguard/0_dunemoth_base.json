@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dunemoth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_dunemoth",
+      "texture": "cobblemon:textures/pokemon/vanguard/dunemoth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/dunemoth_shiny.png"
+    }
+  ]
+}

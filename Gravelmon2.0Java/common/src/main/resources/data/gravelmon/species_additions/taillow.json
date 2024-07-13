@@ -15,6 +15,139 @@
       ],
       "permanent": true   
  }
+  ],
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "abilities": [
+    "hustle",
+    "defiant",
+    "h:earlybird"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 30,
+    "special_attack": 65,
+    "special_defence": 45,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 54,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "29:agility",
+    "41:drillpeck",
+    "21:pluck",
+    "1:doubleteam",
+    "17:payback",
+    "25:cheapshot",
+    "9:focusenergy",
+    "1:peck",
+    "33:knockoff",
+    "37:lashout",
+    "49:bravebird",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:featherdance",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:steelwing",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:pursuit",
+    "egg:dualwingbeat",
+    "egg:roost",
+    "egg:steelwing",
+    "egg:nightslash",
+    "egg:tailwind",
+    "egg:honeclaws",
+    "egg:taunt",
+    "egg:foulplay"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtaillow.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 30,
+    "special_attack": 65,
+    "special_defence": 45,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 23,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
   ]
-
 }

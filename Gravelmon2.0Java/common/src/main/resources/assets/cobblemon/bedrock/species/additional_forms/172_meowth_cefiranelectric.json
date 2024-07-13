@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "cefiran_electric"
+        "cefiranelectric"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_cefiranmeowthelectric",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "cefiran_electric",
+        "cefiranelectric",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

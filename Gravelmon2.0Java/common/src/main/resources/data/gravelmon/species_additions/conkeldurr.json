@@ -1,6 +1,437 @@
 {
    "target": "cobblemon:conkeldurr",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "secondaryType": "fighting",
+  "abilities": [
+    "unnerve",
+    "cursedbody",
+    "h:shadowtag"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 100,
+    "defence": 95,
+    "special_attack": 45,
+    "special_defence": 100,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 227,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "12:shadowpunch",
+    "56:memento",
+    "40:suckerpunch",
+    "32:spiritshackle",
+    "1:leer",
+    "44:shadowball",
+    "4:vacuumwave",
+    "48:revenge",
+    "52:hammerarm",
+    "28:screech",
+    "1:astonish",
+    "16:bulkup",
+    "24:drainpunch",
+    "8:scaryface",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:meteormash",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochconkeldurr.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 100,
+    "defence": 95,
+    "special_attack": 45,
+    "special_defence": 100,
+    "speed": 65
+  },
+  "height": 14,
+  "weight": 870,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "grass",
+  "secondaryType": "fighting",
+  "abilities": [
+    "oblivious",
+    "sheerforce",
+    "h:ironfist"
+  ],
+  "baseStats": {
+    "hp": 115,
+    "attack": 110,
+    "defence": 105,
+    "special_attack": 45,
+    "special_defence": 60,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 253,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:pound",
+    "8:armthrust",
+    "36:zenheadbutt",
+    "48:superpower",
+    "1:leer",
+    "4:branchpoke",
+    "32:leafblade",
+    "44:hammerarm",
+    "16:bulkup",
+    "24:noretreat",
+    "28:drainpunch",
+    "52:woodhammer",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:crunch",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:magicalleaf",
+    "tm:meteormash",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochconkeldurrone.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 115,
+    "attack": 3,
+    "defence": 105,
+    "special_attack": 45,
+    "special_defence": 60,
+    "speed": 70
+  },
+  "height": 14,
+  "weight": 870,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "fighting",
+  "secondaryType": "grass",
+  "abilities": [
+    "guts",
+    "sheerforce"  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 140,
+    "defence": 95,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:pound",
+    "12:karatechop",
+    "24:slam",
+    "54:superpower",
+    "60:grassyglide",
+    "1:leer",
+    "48:stoneedge",
+    "1:brickbreak",
+    "8:leafage",
+    "4:lowkick",
+    "42:hammerarm",
+    "30:seedbomb",
+    "36:dynamicpunch",
+    "16:bulkup",
+    "20:needlearm",
+    "0:woodhammer",
+    "tm:attract",
+    "tm:block",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:trailblaze",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confide",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:return",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snore",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:workup"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianconkeldurr.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 870,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+},
+{
   "name": "Kaskadian",
   "primaryType": "fighting",
   "secondaryType": "grass",
@@ -128,6 +559,9 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
+"ayreian",
 "kaskadian"
   ]
 }

@@ -36,6 +36,24 @@
         "canSeeSky": true
       }
     }
+,
+    {
+      "id": "ayreiantogetic-1",
+      "pokemon": "togetic ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
 
 ]
 }

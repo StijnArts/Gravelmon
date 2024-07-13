@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochmeowth-1",
+      "pokemon": "meowth epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "eldiwanmeowth-1",
       "pokemon": "meowth eldiwan",
       "presets": [
@@ -23,7 +41,7 @@
 ,
     {
       "id": "cefiranmeowthfire-1",
-      "pokemon": "meowth cefiran_fire",
+      "pokemon": "meowth cefiranfire",
       "presets": [
           "natural"
       ],
@@ -40,7 +58,7 @@
 ,
     {
       "id": "cefiranmeowthice-1",
-      "pokemon": "meowth cefiran_ice",
+      "pokemon": "meowth cefiranice",
       "presets": [
           "natural"
       ],
@@ -59,7 +77,7 @@
 ,
     {
       "id": "cefiranmeowthelectric-1",
-      "pokemon": "meowth cefiran_electric",
+      "pokemon": "meowth cefiranelectric",
       "presets": [
           "natural"
       ],

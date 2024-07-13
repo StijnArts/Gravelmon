@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochtreecko-1",
+      "pokemon": "treecko epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "fligiantreecko-1",
       "pokemon": "treecko fligian",
       "presets": [
@@ -38,6 +56,22 @@
       "anticondition": {
 "biomes": [ "#cobblemon:is_cold",
 "#cobblemon:is_arid" ]    }
+    }
+,
+    {
+      "id": "ayreiantreecko-1",
+      "pokemon": "treecko ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
     }
 ,
     {

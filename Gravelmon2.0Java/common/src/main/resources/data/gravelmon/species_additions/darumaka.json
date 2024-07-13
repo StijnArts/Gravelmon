@@ -1,6 +1,162 @@
 {
    "target": "cobblemon:darumaka",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "sound",
+  "abilities": [
+    "vitalspirit",
+    "unaware",
+    "h:hustle"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 65,
+    "special_attack": 30,
+    "special_defence": 15,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "61:superpower",
+    "1:branchpoke",
+    "38:stuffcheeks",
+    "44:uproar",
+    "4:rollout",
+    "50:seedbomb",
+    "56:bellydrum",
+    "12:screech",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:bulletseed",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:gyroball",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:magicalleaf",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:soundbarrier",
+    "tm:spikyshield",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:rest",
+    "egg:yawn",
+    "egg:hammerarm",
+    "egg:takedown",
+    "egg:rocktomb",
+    "egg:bodypress",
+    "egg:howl",
+    "egg:supersonic",
+    "egg:drumbeating"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdarumaka.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 80,
+    "attack": 1,
+    "defence": 65,
+    "special_attack": 30,
+    "special_defence": 15,
+    "speed": 55
+  },
+  "height": 6,
+  "weight": 375,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "dark",
   "secondaryType": "ghost",
@@ -173,6 +329,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

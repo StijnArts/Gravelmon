@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:narwail",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_narwail",
+      "texture": "cobblemon:textures/pokemon/vanguard/narwail.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/narwail_shiny.png"
+    }
+  ]
+}

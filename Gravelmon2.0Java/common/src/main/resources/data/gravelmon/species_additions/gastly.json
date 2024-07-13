@@ -1,6 +1,138 @@
 {
    "target": "cobblemon:gastly",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "abilities": [
+    "filter",
+    "cloudnine",
+    "h:snowwarning"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 30,
+    "special_attack": 85,
+    "special_defence": 100,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "26:defog",
+    "61:blizzard",
+    "15:icywind",
+    "1:powdersnow",
+    "4:mist",
+    "53:tailwind",
+    "34:frostbreath",
+    "38:weatherball",
+    "46:icebeam",
+    "11:hail",
+    "tm:acidrain",
+    "tm:airslash",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:echoedvoice",
+    "tm:frostbite",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:tailwind",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wish",
+    "egg:auroraveil",
+    "egg:hurricane",
+    "egg:raindance",
+    "egg:triattack",
+    "egg:freezedry"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgastly.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 30,
+    "special_attack": 1,
+    "special_defence": 100,
+    "speed": 35
+  },
+  "height": 13,
+  "weight": 1,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Havaiian",
   "primaryType": "ghost",
   "secondaryType": "fire",
@@ -605,6 +737,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "havaiian",
 "x",
 "ayreian",

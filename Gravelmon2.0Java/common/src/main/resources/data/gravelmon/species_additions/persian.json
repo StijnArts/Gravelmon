@@ -41,6 +41,151 @@
     ]
       },
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "electric",
+  "abilities": [
+    "static",
+    "infiltrator",
+    "h:electricsurge"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 125,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 154,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:copycat",
+    "40:agility",
+    "36:electroball",
+    "1:thundershock",
+    "1:electrify",
+    "18:flash",
+    "10:nuzzle",
+    "14:chargebeam",
+    "1:growl",
+    "6:fakeout",
+    "23:electricterrain",
+    "27:milkdrink",
+    "43:risingvoltage",
+    "47:dazzlinggleam",
+    "52:thunder",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:chargebeam",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:dragonclaw",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:quicksand",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailglow",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochpersian.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 125,
+    "special_defence": 80,
+    "speed": 2
+  },
+  "height": 10,
+  "weight": 320,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Cefiranfire",
   "primaryType": "normal",
   "secondaryType": "fire",
@@ -148,7 +293,7 @@
   },
   "height": 10,
   "weight": 320,
-  "aspects": ["cefiran_fire"],
+  "aspects": ["cefiranfire"],
   "cannotDynamax": false
 },
 {
@@ -259,7 +404,7 @@
   },
   "height": 10,
   "weight": 320,
-  "aspects": ["cefiran_ice"],
+  "aspects": ["cefiranice"],
   "cannotDynamax": false
 },
 {
@@ -370,12 +515,13 @@
   },
   "height": 10,
   "weight": 320,
-  "aspects": ["cefiran_electric"],
+  "aspects": ["cefiranelectric"],
   "cannotDynamax": false
 }
 ], "features": [
-"cefiran_fire",
-"cefiran_ice",
-"cefiran_electric"
+"epoch",
+"cefiranfire",
+"cefiranice",
+"cefiranelectric"
   ]
 }

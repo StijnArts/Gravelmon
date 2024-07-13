@@ -73,7 +73,8 @@ public class AyreianHattrem extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("Its leg-hairs have enough power to bend a metal pole in two. Because of this, they have no natural predators, and thrive in gloomy forests."),
-                List.of(),
+                List.of(new EvolutionEntry("hatterene ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BRUTAL_SWING,0),
                         new MoveLearnSetEntry(Move.SKITTER_SMACK,25),
@@ -129,9 +130,9 @@ public class AyreianHattrem extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AGILITY,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 42, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

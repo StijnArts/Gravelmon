@@ -4,6 +4,41 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochjynx-1",
+      "pokemon": "jynx epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianjynx-1",
+      "pokemon": "jynx ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-53",
+      "weight": 1.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
       "id": "kaskadianjynx-1",
       "pokemon": "jynx kaskadian",
       "presets": [

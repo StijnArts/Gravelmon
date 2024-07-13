@@ -73,7 +73,8 @@ public class AyreianFraxure extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("Fraxure uses it's blade like tusks to cut down anyone who threatens it's territory, and unlike it's predecessor, their tusks can grow back."),
-                List.of(),
+                List.of(new EvolutionEntry("haxorus ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,27),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -152,8 +153,8 @@ public class AyreianFraxure extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 51, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

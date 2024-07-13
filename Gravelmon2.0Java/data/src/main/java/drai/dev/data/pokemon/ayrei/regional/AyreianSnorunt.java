@@ -73,7 +73,8 @@ public class AyreianSnorunt extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.MINERAL),
                 List.of("It attaches itself to the ceiling of volcanic caves to absorb heat, which it then releases to fly around."),
-                List.of(),
+                List.of(new EvolutionEntry("glalie ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,35),
                         new MoveLearnSetEntry(Move.SUNNY_DAY,47),
@@ -142,8 +143,9 @@ public class AyreianSnorunt extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 34, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

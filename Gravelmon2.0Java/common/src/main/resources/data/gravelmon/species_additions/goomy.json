@@ -1,6 +1,154 @@
 {
    "target": "cobblemon:goomy",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fairy",
+  "secondaryType": "normal",
+  "abilities": [
+    "sweetveil",
+    "dazzling",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 30,
+    "special_defence": 35,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:pound",
+    "28:followme",
+    "13:sweetkiss",
+    "50:thrash",
+    "25:spiritbreak",
+    "7:protect",
+    "38:spitup",
+    "46:wish",
+    "1:babydolleyes",
+    "10:barrage",
+    "38:stockpile",
+    "1:sweetscent",
+    "22:recover",
+    "31:bodyslam",
+    "38:swallow",
+    "19:headbutt",
+    "42:playrough",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:gyroball",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:counter",
+    "egg:zenheadbutt",
+    "egg:bide",
+    "egg:metronome",
+    "egg:stuffcheeks",
+    "egg:selfdestruct",
+    "egg:batonpass",
+    "egg:metronome",
+    "egg:explosion",
+    "egg:recycle",
+    "egg:decorate"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgoomy.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 30,
+    "special_defence": 1,
+    "speed": 75
+  },
+  "height": 3,
+  "weight": 28,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "dragon",
   "secondaryType": "psychic",
@@ -401,6 +549,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan",
 "delta",
 "hoennian"

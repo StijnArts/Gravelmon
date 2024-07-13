@@ -1,6 +1,136 @@
 {
    "target": "cobblemon:skrelp",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "water",
+  "abilities": [
+    "overgrow",
+    "torrent",
+    "h:protean"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 30,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "moves": [
+    "1:bubble",
+    "17:waterpulse",
+    "4:smokescreen",
+    "54:hydropump",
+    "40:energyball",
+    "29:gigadrain",
+    "51:leafstorm",
+    "11:raindance",
+    "14:leaftornado",
+    "7:megadrain",
+    "21:growth",
+    "25:brine",
+    "44:synthesis",
+    "1:absorb",
+    "tm:attract",
+    "tm:brine",
+    "tm:bulletseed",
+    "tm:energyball",
+    "tm:flipturn",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:magicalleaf",
+    "tm:mist",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:soak",
+    "tm:solarbeam",
+    "tm:synthesis",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "egg:acidarmor",
+    "egg:haze",
+    "egg:waterspout",
+    "egg:grassyterrain",
+    "egg:icywind",
+    "egg:aquajet",
+    "egg:sludgewave",
+    "egg:bubblebeam"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochskrelp.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 30,
+    "special_attack": 70,
+    "special_defence": 1,
+    "speed": 60
+  },
+  "height": 5,
+  "weight": 73,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "poison",
   "secondaryType": "normal",
@@ -276,6 +406,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan",
 "novran"
   ]

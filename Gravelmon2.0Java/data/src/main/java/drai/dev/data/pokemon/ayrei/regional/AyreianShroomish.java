@@ -73,7 +73,8 @@ public class AyreianShroomish extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("It spouts poison spores from the top of its head. These spores cause pain all over if inhaled."),
-                List.of(),
+                List.of(new EvolutionEntry("breloom ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ACID,8),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -136,8 +137,8 @@ public class AyreianShroomish extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAIN_PUNCH,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

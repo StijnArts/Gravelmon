@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochdratini-1",
+      "pokemon": "dratini epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltadratini-1",
       "pokemon": "dratini delta",
       "presets": [
@@ -16,6 +34,23 @@
       "weight": 9.0,
       "condition": {
 "biomes": [ "#cobblemon:is_freshwater" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiandratini-1",
+      "pokemon": "dratini ayreian",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "6-26",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ],
         "canSeeSky": true
       }
     }

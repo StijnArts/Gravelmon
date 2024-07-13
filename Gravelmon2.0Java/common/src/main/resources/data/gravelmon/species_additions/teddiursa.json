@@ -1,6 +1,174 @@
 {
    "target": "cobblemon:teddiursa",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "secondaryType": "cosmic",
+  "abilities": [
+    "toughclaws",
+    "h:clearbody"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "moves": [
+    "10:shadowpunch",
+    "21:shadowclaw",
+    "37:spiritshackle",
+    "52:spectralthief",
+    "1:scratch",
+    "7:helpinghand",
+    "13:feintattack",
+    "58:possession",
+    "29:cosmicpower",
+    "25:bodyslam",
+    "1:astonish",
+    "43:moonlight",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dragonclaw",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:expandingforce",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:payday",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:phantomforce",
+    "egg:nightslash",
+    "egg:throatchop",
+    "egg:nobleroar",
+    "egg:honeclaws"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochteddiursa.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 1,
+    "speed": 70
+  },
+  "height": 6,
+  "weight": 88,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Hoennian",
   "primaryType": "normal",
   "secondaryType": "fire",
@@ -416,6 +584,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "hoennian",
 "seviian",
 "cefiran"

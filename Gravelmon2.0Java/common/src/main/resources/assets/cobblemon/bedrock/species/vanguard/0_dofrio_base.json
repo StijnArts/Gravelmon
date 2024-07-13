@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dofrio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_dofrio",
+      "texture": "cobblemon:textures/pokemon/vanguard/dofrio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/dofrio_shiny.png"
+    }
+  ]
+}

@@ -114,7 +114,7 @@ public class Pokemon {
         if (key.isBlank()) {
             key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName(), "");
         }
-        if(originalPokemon.endsWith("One")) key = key.substring(0, key.length()-3);
+        if(getClass().getSimpleName().endsWith("One")) key = key.substring(0, key.length()-3);
         var forms = ADDITIONAL_FORMS.computeIfAbsent(key.toLowerCase(), k -> new ArrayList<>());
         forms.add(pokemon);
 //        POKEMON_REGISTRY.remove(this.name.toLowerCase().replaceAll("\\W",""));

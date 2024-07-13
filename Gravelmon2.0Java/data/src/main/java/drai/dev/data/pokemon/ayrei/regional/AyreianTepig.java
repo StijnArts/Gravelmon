@@ -73,7 +73,8 @@ public class AyreianTepig extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It can be seen sleeping soundly in lava lakes. A sick Tepig can be dangerous, as it will drool the accumulated magma from its nostrils."),
-                List.of(),
+                List.of(new EvolutionEntry("pignite ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HIGH_HORSEPOWER,35),
                         new MoveLearnSetEntry(Move.MUD_SHOT,13),
@@ -144,8 +145,8 @@ public class AyreianTepig extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURN_UP,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

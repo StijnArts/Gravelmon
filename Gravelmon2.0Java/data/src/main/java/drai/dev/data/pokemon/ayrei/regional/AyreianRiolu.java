@@ -73,7 +73,8 @@ public class AyreianRiolu extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Still new to the concept of Cyberspace, this Pokemon is the bioproduct of superfluous files from Lucario."),
-                List.of(),
+                List.of(new EvolutionEntry("lucario ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,32),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
@@ -168,9 +169,8 @@ public class AyreianRiolu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OVERHEAT,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 28, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

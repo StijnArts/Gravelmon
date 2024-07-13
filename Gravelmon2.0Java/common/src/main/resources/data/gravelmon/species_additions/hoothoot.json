@@ -1,6 +1,285 @@
 {
    "target": "cobblemon:hoothoot",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "psychic",
+  "secondaryType": "light",
+  "abilities": [
+    "dazzling"  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 30,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 71,
+    "speed": 61
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 52,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "15:aurorabeam",
+    "33:calmmind",
+    "27:mirrorshot",
+    "30:extrasensory",
+    "1:gust",
+    "21:disarmingvoice",
+    "43:aurasphere",
+    "47:psychic",
+    "18:skillswap",
+    "1:confusion",
+    "39:healpulse",
+    "4:kinesis",
+    "24:roost",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:featherdance",
+    "tm:focusblast",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:tailwind",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:wonderroom",
+    "egg:storedpower",
+    "egg:hypnosis",
+    "egg:defog",
+    "egg:hurricane",
+    "egg:icywind",
+    "egg:relicsong",
+    "egg:mindreader"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochhoothoot.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 58,
+    "attack": 30,
+    "defence": 55,
+    "special_attack": 1,
+    "special_defence": 71,
+    "speed": 61
+  },
+  "height": 7,
+  "weight": 212,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "abilities": [
+    "insomnia",
+    "bigpecks",
+    "h:snowwarning"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 75,
+    "special_defence": 25,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 52,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "47:drillpeck",
+    "1:supersonic",
+    "9:glide",
+    "44:iciclecrash",
+    "12:covet",
+    "50:glaciallance",
+    "22:avalanche",
+    "55:uproar",
+    "6:pursuit",
+    "1:peck",
+    "16:mist",
+    "3:iceshard",
+    "37:roost",
+    "41:hail",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:featherdance",
+    "tm:focusblast",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:tailwind",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:aeroblast",
+    "egg:supersonic",
+    "egg:glide",
+    "egg:whirlwind",
+    "egg:featherdance",
+    "egg:tailwind",
+    "egg:defog"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochhoothootone.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 75,
+    "special_defence": 25,
+    "speed": 70
+  },
+  "height": 7,
+  "weight": 212,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Enjinnian",
   "primaryType": "psychic",
   "abilities": [
@@ -480,6 +759,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "enjinnian",
 "egho",
 "delta"

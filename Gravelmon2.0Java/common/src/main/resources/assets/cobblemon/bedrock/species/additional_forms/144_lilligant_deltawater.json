@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "delta_water"
+        "deltawater"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation5_deltawaterlilligant",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "delta_water",
+        "deltawater",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

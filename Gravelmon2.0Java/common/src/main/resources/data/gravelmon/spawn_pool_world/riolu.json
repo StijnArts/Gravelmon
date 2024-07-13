@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochriolu-1",
+      "pokemon": "riolu epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltariolu-1",
       "pokemon": "riolu delta",
       "presets": [
@@ -33,6 +51,22 @@
       "weight": 9.0,
       "condition": {
 "biomes": [ "#cobblemon:nether/is_wasteland" ]
+      }
+    }
+,
+    {
+      "id": "ayreianriolu-1",
+      "pokemon": "riolu ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-28",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
       }
     }
 ,

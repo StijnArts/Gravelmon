@@ -1,6 +1,147 @@
 {
    "target": "cobblemon:hitmonchan",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fire",
+  "secondaryType": "fighting",
+  "abilities": [
+    "ironfist",
+    "quickfeet",
+    "h:noguard"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 99,
+    "special_attack": 70,
+    "special_defence": 35,
+    "speed": 96
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 159,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "28:firepunch",
+    "1:vitalthrow",
+    "1:superpower",
+    "1:tackle",
+    "1:helpinghand",
+    "1:courtchange",
+    "54:pyroball",
+    "1:covet",
+    "10:poweruppunch",
+    "1:flamecharge",
+    "7:focusenergy",
+    "1:achillesheel",
+    "1:return",
+    "37:mirrorcoat",
+    "49:dynamicpunch",
+    "4:fakeout",
+    "14:machpunch",
+    "23:cometpunch",
+    "18:bulkup",
+    "41:drainpunch",
+    "37:counter",
+    "45:blazekick",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:drainpunch",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:memento",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:terrainpulse",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochhitmonchan.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 1,
+    "special_attack": 70,
+    "special_defence": 35,
+    "speed": 96
+  },
+  "height": 14,
+  "weight": 502,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Qamoran",
   "primaryType": "fighting",
   "secondaryType": "fairy",
@@ -259,9 +400,167 @@
   "weight": 165,
   "aspects": ["varitasian"],
   "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "fighting",
+  "secondaryType": "dark",
+  "abilities": [
+    "keeneye",
+    "ironfist"  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 120,
+    "defence": 99,
+    "special_attack": 56,
+    "special_defence": 35,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "21:quickguard",
+    "24:firepunch",
+    "28:shadowpunch",
+    "0:suckerpunch",
+    "1:tackle",
+    "36:closecombat",
+    "1:helpinghand",
+    "24:icepunch",
+    "1:feint",
+    "8:poweruppunch",
+    "1:focusenergy",
+    "1:vacuumwave",
+    "44:focuspunch",
+    "16:revenge",
+    "8:assurance",
+    "40:darkestlariat",
+    "1:fakeout",
+    "24:thunderpunch",
+    "4:machpunch",
+    "1:bulletpunch",
+    "32:knockoff",
+    "1:drainpunch",
+    "12:detect",
+    "tm:agility",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confide",
+    "tm:covet",
+    "tm:doubleteam",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:frustration",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:icepunch",
+    "tm:laserfocus",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:return",
+    "tm:revenge",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:uproar",
+    "tm:workup"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianhitmonchan.desc"
+  ],
+  "preEvolution": "tyrogue",
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 14,
+  "weight": 502,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "qamoran",
-"varitasian"
+"varitasian",
+"ayreian"
   ]
 }

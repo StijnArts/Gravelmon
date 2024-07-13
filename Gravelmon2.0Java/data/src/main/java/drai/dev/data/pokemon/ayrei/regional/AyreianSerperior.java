@@ -66,7 +66,7 @@ public class AyreianSerperior extends drai.dev.data.pokemon.Pokemon {
                         90,
                         110),
                 List.of(Ability.CORROSION,Ability.NEUTRALIZING_GAS), null,
-                33, 3760,
+                18, 3760,
                 new Stats(0,0,3,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -142,8 +142,8 @@ public class AyreianSerperior extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:klawbby",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_klawbby",
+      "texture": "cobblemon:textures/pokemon/vanguard/klawbby.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/klawbby_shiny.png"
+    }
+  ]
+}

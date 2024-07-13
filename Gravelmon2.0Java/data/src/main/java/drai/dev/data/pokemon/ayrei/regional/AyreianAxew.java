@@ -73,7 +73,8 @@ public class AyreianAxew extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("They play with each other by knocking their large tusks together. Their tusks break sometimes, but they grow back so quickly that it isn't a concern."),
-                List.of(),
+                List.of(new EvolutionEntry("fraxure ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,27),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -152,8 +153,8 @@ public class AyreianAxew extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRST_IMPRESSION,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -17,6 +17,156 @@
  }
   ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "electric",
+  "secondaryType": "rock",
+  "abilities": [
+    "magnetpull",
+    "static",
+    "h:soundproof"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 125,
+    "defence": 100,
+    "special_attack": 85,
+    "special_defence": 55,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:harden",
+    "48:plasmafists",
+    "4:rockthrow",
+    "44:stoneedge",
+    "20:spark",
+    "8:accelerock",
+    "12:focusenergy",
+    "52:guillotine",
+    "28:thunderpunch",
+    "56:rockwrecker",
+    "24:stormthrow",
+    "32:swordsdance",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:chargebeam",
+    "tm:closecombat",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:electricterrain",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:meteormash",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:iondeluge",
+    "egg:magnetrise",
+    "egg:flail",
+    "egg:thrash",
+    "egg:charge"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochpinsir.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 2,
+    "defence": 100,
+    "special_attack": 85,
+    "special_defence": 55,
+    "speed": 70
+  },
+  "height": 15,
+  "weight": 550,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Hizian",
   "primaryType": "steel",
   "secondaryType": "bug",
@@ -387,6 +537,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "hizian",
 "hoennian",
 "ayreian"

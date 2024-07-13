@@ -1,6 +1,159 @@
 {
    "target": "cobblemon:klefki",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "secondaryType": "steel",
+  "abilities": [
+    "frisk",
+    "baddreams"  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 71,
+    "defence": 90,
+    "special_attack": 80,
+    "special_defence": 67,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 123,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "48:memento",
+    "4:confuseray",
+    "32:dreameater",
+    "12:ominouswind",
+    "1:blackout",
+    "56:foulplay",
+    "40:magicroom",
+    "32:hypnosis",
+    "16:metalsound",
+    "32:nightmare",
+    "1:haunt",
+    "60:steelbeam",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:gyroball",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:sandstorm",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "egg:switcheroo",
+    "egg:magnetrise",
+    "egg:speedswap",
+    "egg:powerswap",
+    "egg:thief"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochklefki.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 62,
+    "attack": 71,
+    "defence": 1,
+    "special_attack": 80,
+    "special_defence": 67,
+    "speed": 100
+  },
+  "height": 2,
+  "weight": 30,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Ayreian",
   "primaryType": "electric",
   "secondaryType": "fairy",
@@ -236,6 +389,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "ayreian",
 "cefiran"
   ]

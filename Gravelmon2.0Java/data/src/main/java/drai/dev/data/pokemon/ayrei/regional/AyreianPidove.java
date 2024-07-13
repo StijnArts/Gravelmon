@@ -73,7 +73,8 @@ public class AyreianPidove extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It snobs other Pokemon, even shoving them aside when there's food nearby. Due to its small size, most of the time it's sent running with its tail between its legs."),
-                List.of(),
+                List.of(new EvolutionEntry("tranquill ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GUNK_SHOT,44),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -131,13 +132,14 @@ public class AyreianPidove extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 25, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Pidove");
 
     }

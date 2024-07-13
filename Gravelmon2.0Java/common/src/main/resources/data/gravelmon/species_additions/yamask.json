@@ -1,6 +1,146 @@
 {
    "target": "cobblemon:yamask",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "sound",
+  "secondaryType": "ghost",
+  "abilities": [
+    "soundproof",
+    "synchronize",
+    "h:vitalspirit"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 25,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 80,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "moves": [
+    "16:encore",
+    "40:shadowball",
+    "12:round",
+    "52:boomburst",
+    "8:nightshade",
+    "60:powertrick",
+    "28:hex",
+    "1:astonish",
+    "36:instruct",
+    "tm:attract",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:focusblast",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:workup",
+    "egg:ominouswind",
+    "egg:memento",
+    "egg:bellydrum",
+    "egg:confuseray",
+    "egg:destinybond",
+    "egg:curse"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochyamask.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 38,
+    "attack": 25,
+    "defence": 45,
+    "special_attack": 1,
+    "special_defence": 80,
+    "speed": 45
+  },
+  "height": 5,
+  "weight": 15,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Varitasian",
   "primaryType": "ghost",
   "secondaryType": "steel",
@@ -458,6 +598,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "varitasian",
 "delta",
 "x"

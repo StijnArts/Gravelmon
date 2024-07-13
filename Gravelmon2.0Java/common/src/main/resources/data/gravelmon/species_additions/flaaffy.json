@@ -1,6 +1,149 @@
 {
    "target": "cobblemon:flaaffy",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fairy",
+  "secondaryType": "flying",
+  "abilities": [
+    "aromaveil",
+    "serenegrace",
+    "h:pixilate"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 60,
+    "special_defence": 70,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 128,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "field"
+  ],
+  "moves": [
+    "57:fleurcannon",
+    "53:hurricane",
+    "16:cottonspore",
+    "50:tailglow",
+    "30:airslash",
+    "4:sweetkiss",
+    "1:gust",
+    "12:aircutter",
+    "1:fairywind",
+    "26:tailwind",
+    "1:confide",
+    "34:roost",
+    "38:dazzlinggleam",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:featherdance",
+    "tm:hail",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:payday",
+    "tm:playrough",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:tailglow",
+    "tm:tailwind",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochflaaffy.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 60,
+    "special_defence": 2,
+    "speed": 85
+  },
+  "height": 8,
+  "weight": 133,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Aristosian",
   "primaryType": "electric",
   "secondaryType": "dark",
@@ -272,6 +415,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "aristosian",
 "mythian"
   ]

@@ -55,14 +55,6 @@ public class GravelmonStarters {
                                 "Mudkip mystic=true level=10"
                         )
                 ));
-        GravelmonStarterManager.registerNewStarter("Sinnoh",
-                createCategory("Ayrei Sinnoh",
-                        List.of(
-                                "Turtwig ayreian=true level=10",
-                                "Chimchar ayreian=true level=10",
-                                "Piplup ayreian=true level=10"
-                        )
-                ));
         GravelmonStarterManager.registerNewStarter("Kalos",
                 createCategory("Vesitas",
                         List.of(

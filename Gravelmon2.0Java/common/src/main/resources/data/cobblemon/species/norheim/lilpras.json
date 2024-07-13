@@ -183,6 +183,18 @@
       ],
       "requiredContext": "cobblemon:thunder_stone",
       "permanent": true   
+ },
+    {
+      "id": "lilpras_lapras_ayreian",
+      "variant": "item_interact",
+      "result": "lapras ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.18333333333333335,

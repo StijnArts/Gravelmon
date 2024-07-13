@@ -73,7 +73,8 @@ public class AyreianPhantump extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.AMORPHOUS),
                 List.of("After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit's rebirth as this Pokémon."),
-                List.of(),
+                List.of(new EvolutionEntry("trevenant ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,52),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,12),
@@ -153,8 +154,9 @@ public class AyreianPhantump extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DISABLE,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 27, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

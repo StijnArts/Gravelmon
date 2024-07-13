@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "alteran_summer_coat"
+        "alteransummercoat"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_alterannidoransummercoat",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "alteran_summer_coat",
+        "alteransummercoat",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

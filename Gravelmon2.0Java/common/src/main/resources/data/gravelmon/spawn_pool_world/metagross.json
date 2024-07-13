@@ -4,8 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochmetagross-1",
+      "pokemon": "metagross epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltaspidermetagross-1",
-      "pokemon": "metagross delta_spider",
+      "pokemon": "metagross deltaspider",
       "presets": [
           "natural"
       ],
@@ -22,7 +40,7 @@
 ,
     {
       "id": "deltaruinmetagross-1",
-      "pokemon": "metagross delta_ruin",
+      "pokemon": "metagross deltaruin",
       "presets": [
           "jungle_pyramid"
       ],

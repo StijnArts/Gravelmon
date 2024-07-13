@@ -1,6 +1,148 @@
 {
    "target": "cobblemon:furret",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "secondaryType": "poison",
+  "abilities": [
+    "mummy",
+    "innardsout",
+    "h:corrosion"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 41,
+    "defence": 54,
+    "special_attack": 85,
+    "special_defence": 95,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "4:disable",
+    "43:memento",
+    "14:recycle",
+    "1:infestation",
+    "25:curse",
+    "21:belch",
+    "52:hivemind",
+    "1:toxic",
+    "46:acidrain",
+    "31:destinybond",
+    "7:poisongas",
+    "37:sludgebomb",
+    "1:defendorder",
+    "17:hex",
+    "11:sludge",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:corrosivegas",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochfurret.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 41,
+    "defence": 54,
+    "special_attack": 85,
+    "special_defence": 95,
+    "speed": 2
+  },
+  "height": 18,
+  "weight": 325,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Aristosian",
   "primaryType": "normal",
   "secondaryType": "grass",
@@ -156,6 +298,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "aristosian"
   ]
 }

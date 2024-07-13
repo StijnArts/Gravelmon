@@ -4,6 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochsnorlax-1",
+      "pokemon": "snorlax epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltasnorlax-1",
       "pokemon": "snorlax delta",
       "presets": [
@@ -17,6 +35,23 @@
       "condition": {
 "biomes": [ "#cobblemon:is_floral" ],
         "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiansnorlax-1",
+      "pokemon": "snorlax ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "29-54",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
         "canSeeSky": true
       }
     }

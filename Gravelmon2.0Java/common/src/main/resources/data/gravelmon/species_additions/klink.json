@@ -1,6 +1,146 @@
 {
    "target": "cobblemon:klink",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "sound",
+  "secondaryType": "steel",
+  "abilities": [
+    "levitate",
+    "owntempo",
+    "h:motordrive"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 70,
+    "special_attack": 30,
+    "special_defence": 35,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 130,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "20:irondefense",
+    "16:magnetbomb",
+    "6:supersonic",
+    "36:gyroball",
+    "40:shiftgear",
+    "28:metalsound",
+    "1:iondeluge",
+    "20:autotomize",
+    "32:geargrind",
+    "44:ironhead",
+    "28:screech",
+    "60:boltstrike",
+    "4:charge",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gyroball",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:magnetrise",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochklink.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 1,
+    "special_attack": 30,
+    "special_defence": 35,
+    "speed": 60
+  },
+  "height": 3,
+  "weight": 210,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Varitasian",
   "primaryType": "steel",
   "secondaryType": "ground",
@@ -141,6 +281,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "varitasian"
   ]
 }

@@ -21,14 +21,14 @@ public class AdditionSpawnPoolWorldJSONWriter {
         Pokemon.ADDITIONAL_FORMS.entrySet().forEach(set -> {
             try {
                 Files.createDirectories(new File(dir).toPath());
-                writeSpawn(set, dir);
+                writeSpawn(set, dir, resourcesDir);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         });
     }
 
-    private synchronized static void writeSpawn(Map.Entry<String, List<Pokemon>> set, String dir) throws IOException {
+    private synchronized static void writeSpawn(Map.Entry<String, List<Pokemon>> set, String dir, String resourcesDir) throws IOException {
 
         String fileContents = "{\n" +
                 "  \"enabled\": true,\n" +
@@ -38,6 +38,15 @@ public class AdditionSpawnPoolWorldJSONWriter {
         if (!set.getValue().isEmpty()) {
             var isFirstForm = true;
             for (Pokemon pokemon : set.getValue()) {
+                var aspect = pokemon.getAdditionalAspect().getName();
+                if(pokemon.getName().endsWith("One")) {
+                    aspect += "two";
+                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                }
+                if(pokemon.getName().endsWith("Two")) {
+                    aspect += "three";
+                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                }
                 if (!Pokemon.FOSSIL_POKEMON.contains(pokemon)) {
                     if (isFirstForm) {
                         isFirstForm = false;
@@ -47,7 +56,7 @@ public class AdditionSpawnPoolWorldJSONWriter {
                     fileContents += "    {\n" +
                             "      \"id\": \"" + pokemon.getCleanName() + "-1\",\n" +
                             "      \"pokemon\": \"" + Pokemon.getKeysByValue(Pokemon.ADDITIONAL_FORMS, pokemon).stream().findFirst().get() +
-                            " " + pokemon.getAdditionalAspect().name().toLowerCase() + "\",\n" +
+                            " " + aspect + "\",\n" +
                             "      \"presets\": [\n          ";
 
                     boolean isFirstSpawnPreset = true;
@@ -102,7 +111,7 @@ public class AdditionSpawnPoolWorldJSONWriter {
                                     "    {\n" +
                                             "      \"id\": \"" + form.getCleanName() + "_" + pokemon.getCleanName() + "-1\",\n" +
                                             "      \"pokemon\": \"" + Pokemon.getKeysByValue(Pokemon.ADDITIONAL_FORMS, pokemon).stream().findFirst() +
-                                            " " + pokemon.getAdditionalAspect().name().toLowerCase() + "\",\n" +
+                                            " " + aspect + "\",\n" +
                                             "      \"presets\": [ ";
                             boolean isFirstFormSpawnPreset = true;
                             for (SpawnPreset spawnPreset : form.getSpawnPresets()) {

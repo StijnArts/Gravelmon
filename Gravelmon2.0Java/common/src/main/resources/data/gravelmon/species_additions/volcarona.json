@@ -1,6 +1,269 @@
 {
    "target": "cobblemon:volcarona",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "abilities": [
+    "static",
+    "tintedlens",
+    "h:swarm"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 75,
+    "defence": 65,
+    "special_attack": 85,
+    "special_defence": 135,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 248,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "28:agility",
+    "8:infestation",
+    "12:electroweb",
+    "24:voltswitch",
+    "44:bugbuzz",
+    "1:thundershock",
+    "52:hivemind",
+    "40:discharge",
+    "20:shockwave",
+    "48:thunderbolt",
+    "56:thunder",
+    "4:stringshot",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:dazzlinggleam",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:electricterrain",
+    "tm:energyball",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:hurricane",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:scorchingsands",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:synthesis",
+    "tm:tailglow",
+    "tm:tailwind",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochvolcarona.desc"
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 75,
+    "defence": 65,
+    "special_attack": 3,
+    "special_defence": 135,
+    "speed": 105
+  },
+  "height": 16,
+  "weight": 460,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "cosmic",
+  "secondaryType": "bug",
+  "abilities": [
+    "dazzling"  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 75,
+    "defence": 65,
+    "special_attack": 85,
+    "special_defence": 135,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 248,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "8:infestation",
+    "44:bugbuzz",
+    "52:hivemind",
+    "24:astralbarrage",
+    "48:blackhole",
+    "4:stringshot",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gammaray",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:pinmissile",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:uturn",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochvolcaronaone.desc"
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 75,
+    "defence": 65,
+    "special_attack": 3,
+    "special_defence": 135,
+    "speed": 105
+  },
+  "height": 16,
+  "weight": 460,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "dark",
   "secondaryType": "poison",
@@ -384,6 +647,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "delta",
 "mythian"
   ]

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:parlomai",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_parlomai",
+      "texture": "cobblemon:textures/pokemon/vanguard/parlomai.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/parlomai_shiny.png"
+    }
+  ]
+}

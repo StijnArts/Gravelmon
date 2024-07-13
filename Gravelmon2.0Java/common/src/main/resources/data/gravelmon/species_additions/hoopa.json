@@ -1,6 +1,162 @@
 {
    "target": "cobblemon:hoopa",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fighting",
+  "secondaryType": "dark",
+  "abilities": [
+    "longreach",
+    "scrappy",
+    "h:powerspot"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 140,
+    "defence": 90,
+    "special_attack": 80,
+    "special_defence": 130,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "10:armthrust",
+    "61:nastyplot",
+    "50:wonderroom",
+    "1:feint",
+    "15:lightscreen",
+    "50:magicroom",
+    "1:trick",
+    "1:confusion",
+    "1:destinybond",
+    "44:phantomforce",
+    "1:hyperspacehole",
+    "50:trickroom",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dragondance",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:possession",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochhoopa.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 90,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "flying",
   "abilities": [
@@ -377,11 +533,12 @@
   },
   "height": 5,
   "weight": 90,
-  "aspects": ["delta_unleashed"],
+  "aspects": ["deltaunleashed"],
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
-"delta_unleashed"
+"deltaunleashed"
   ]
 }

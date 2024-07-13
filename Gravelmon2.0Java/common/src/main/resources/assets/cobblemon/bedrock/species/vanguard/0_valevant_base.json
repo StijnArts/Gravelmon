@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:valevant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_valevant",
+      "texture": "cobblemon:textures/pokemon/vanguard/valevant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/valevant_shiny.png"
+    }
+  ]
+}

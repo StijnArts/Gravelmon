@@ -1,0 +1,84 @@
+{
+  "species": "cobblemon:unfezant",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_ayreianunfezant",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianunfezant.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_ayreianunfezant",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianunfezant_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_ayreianunfezant",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianunfezant_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_ayreianunfezant",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianunfezant_female_shiny.png",
+      "layers": []
+    }
+  ]
+}

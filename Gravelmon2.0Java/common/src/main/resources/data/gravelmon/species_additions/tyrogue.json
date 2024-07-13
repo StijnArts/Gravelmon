@@ -1,6 +1,177 @@
 {
    "target": "cobblemon:tyrogue",
+  "evolutions": [
+    {
+      "id": "tyrogue_hitmonlee_ayreian",
+      "variant": "item_interact",
+      "result": "hitmonlee ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
+ },
+    {
+      "id": "tyrogue_hitmonchan_ayreian",
+      "variant": "item_interact",
+      "result": "hitmonchan ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ },
+    {
+      "id": "tyrogue_hitmontop_ayreian",
+      "variant": "item_interact",
+      "result": "hitmontop ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
+ }
+  ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fighting",
+  "secondaryType": "normal",
+  "abilities": [
+    "scrappy",
+    "longreach",
+    "h:noguard"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 35,
+    "defence": 35,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 42,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "32:vitalthrow",
+    "1:tackle",
+    "49:superpower",
+    "1:helpinghand",
+    "37:courtchange",
+    "28:covet",
+    "10:poweruppunch",
+    "7:focusenergy",
+    "23:achillesheel",
+    "45:return",
+    "4:fakeout",
+    "14:machpunch",
+    "18:bulkup",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:drainpunch",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:memento",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:payday",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:terrainpulse",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:meditate",
+    "egg:bulletpunch",
+    "egg:workup",
+    "egg:bestow",
+    "egg:circlethrow",
+    "egg:highjumpkick",
+    "egg:vacuumwave",
+    "egg:endure"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtyrogue.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 35,
+    "attack": 1,
+    "defence": 35,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "height": 7,
+  "weight": 210,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Qamoran",
   "primaryType": "fighting",
   "secondaryType": "fairy",
@@ -358,6 +529,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "qamoran",
 "varitasian"
   ]

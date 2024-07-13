@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [
-        "alteran_winter_coat"
+        "alteranwintercoat"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",
       "poser": "cobblemon:generation1_alterannidoranwintercoat",
@@ -32,7 +32,7 @@
     },
     {
       "aspects": [
-        "alteran_winter_coat",
+        "alteranwintercoat",
         "shiny"
       ],
       "model": "cobblemon:cutout_gravelmon.geo",

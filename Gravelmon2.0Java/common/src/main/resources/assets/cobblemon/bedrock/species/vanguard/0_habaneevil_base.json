@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:habaneevil",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_habaneevil",
+      "texture": "cobblemon:textures/pokemon/vanguard/habaneevil.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/habaneevil_shiny.png"
+    }
+  ]
+}

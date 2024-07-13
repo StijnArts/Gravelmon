@@ -73,7 +73,8 @@ public class AyreianSpearow extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Populates more in grassy area than cold ones for unknown reasons. It leaves shards of ice wherever it sleeps."),
-                List.of(),
+                List.of(new EvolutionEntry("fearow ayreian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,25),
                         new MoveLearnSetEntry(Move.DRILL_PECK,36),
@@ -138,13 +139,14 @@ public class AyreianSpearow extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAZOR_WIND,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 9, 31, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Spearow");
 
     }

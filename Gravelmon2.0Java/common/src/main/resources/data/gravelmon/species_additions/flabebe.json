@@ -1,6 +1,153 @@
 {
    "target": "cobblemon:flabebe",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fairy",
+  "secondaryType": "water",
+  "abilities": [
+    "raindish",
+    "h:mistysurge"
+  ],
+  "baseStats": {
+    "hp": 44,
+    "attack": 28,
+    "defence": 58,
+    "special_attack": 42,
+    "special_defence": 61,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 225,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:bubble",
+    "61:fleurcannon",
+    "56:petaldance",
+    "15:magicalleaf",
+    "4:babydolleyes",
+    "7:whirlpool",
+    "28:aromatherapy",
+    "24:bubblebeam",
+    "12:lifedew",
+    "43:decorate",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magicalleaf",
+    "tm:meteorbeam",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:solarbeam",
+    "tm:soundbarrier",
+    "tm:substitute",
+    "tm:synthesis",
+    "tm:tailglow",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:workup",
+    "egg:captivate",
+    "egg:charm",
+    "egg:tearfullook",
+    "egg:waterpledge",
+    "egg:mistyterrain",
+    "egg:craftyshield"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochflabebe.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 44,
+    "attack": 28,
+    "defence": 58,
+    "special_attack": 42,
+    "special_defence": 1,
+    "speed": 70
+  },
+  "height": 1,
+  "weight": 1,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "fairy",
   "secondaryType": "grass",
@@ -253,6 +400,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan",
 "varitasian"
   ]

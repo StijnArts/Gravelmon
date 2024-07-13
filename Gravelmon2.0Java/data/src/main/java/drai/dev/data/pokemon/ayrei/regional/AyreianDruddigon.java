@@ -58,7 +58,7 @@ import java.util.*;
 public class AyreianDruddigon extends drai.dev.data.pokemon.Pokemon {
     public AyreianDruddigon(String name, Aspect aspect) {
         super(name, aspect, "Druddigon",
-                Type.ELECTRIC,Type.POISON,
+                Type.ELECTRIC,Type.COSMIC,
                 new Stats(82,
                         110,
                         120,
@@ -165,8 +165,8 @@ public class AyreianDruddigon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 53, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

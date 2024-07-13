@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:astralaxy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_astralaxy",
+      "texture": "cobblemon:textures/pokemon/vanguard/astralaxy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/astralaxy_shiny.png"
+    }
+  ]
+}

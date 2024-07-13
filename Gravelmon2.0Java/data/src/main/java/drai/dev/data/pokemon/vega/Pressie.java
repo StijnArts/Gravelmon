@@ -32,7 +32,9 @@ public class Pressie extends Pokemon {
                         new EvolutionEntry("mythianlapras", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))),
                         new EvolutionEntry("novranlapras", EvolutionType.ITEM_INTERACT, false, List.of(),
-                                List.of(),List.of(),"cobblemon:thunder_stone")),
+                                List.of(),List.of(),"cobblemon:thunder_stone"),
+                        new EvolutionEntry("lapras ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,1),

@@ -1,6 +1,159 @@
 {
    "target": "cobblemon:beldum",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "secondaryType": "psychic",
+  "abilities": [
+    "filter",
+    "fullmetalbody",
+    "h:analytic"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 80,
+    "special_attack": 30,
+    "special_defence": 55,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "50:irondefense",
+    "1:tackle",
+    "1:swift",
+    "44:gammaray",
+    "56:extrasensory",
+    "68:meteorbeam",
+    "38:magiccoat",
+    "33:astralbarrage",
+    "1:confusion",
+    "28:psybeam",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:expandingforce",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gammaray",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:mirrorshot",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbeldum.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 1,
+    "special_attack": 30,
+    "special_defence": 55,
+    "speed": 60
+  },
+  "height": 6,
+  "weight": 952,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Deltaspider",
   "primaryType": "ground",
   "secondaryType": "bug",
@@ -99,7 +252,7 @@
   },
   "height": 6,
   "weight": 476,
-  "aspects": ["delta_spider"],
+  "aspects": ["deltaspider"],
   "cannotDynamax": false
 },
 {
@@ -193,11 +346,12 @@
   },
   "height": 6,
   "weight": 952,
-  "aspects": ["delta_ruin"],
+  "aspects": ["deltaruin"],
   "cannotDynamax": false
 }
 ], "features": [
-"delta_spider",
-"delta_ruin"
+"epoch",
+"deltaspider",
+"deltaruin"
   ]
 }

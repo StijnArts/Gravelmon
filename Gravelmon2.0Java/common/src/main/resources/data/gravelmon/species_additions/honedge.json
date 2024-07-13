@@ -1,6 +1,144 @@
 {
    "target": "cobblemon:honedge",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fairy",
+  "abilities": [
+    "telepathy",
+    "magicguard",
+    "h:megalauncher"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 35,
+    "defence": 60,
+    "special_attack": 68,
+    "special_defence": 50,
+    "speed": 67
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 222,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "40:reflect",
+    "40:lightscreen",
+    "28:aurasphere",
+    "1:imprison",
+    "24:mirrorcoat",
+    "16:autotomize",
+    "36:healpulse",
+    "4:fairywind",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wish",
+    "tm:wonderroom",
+    "egg:barrier",
+    "egg:kinesis",
+    "egg:confusion",
+    "egg:eeriespell",
+    "egg:extrasensory",
+    "egg:psychicterrain"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochhonedge.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 45,
+    "attack": 35,
+    "defence": 60,
+    "special_attack": 1,
+    "special_defence": 50,
+    "speed": 67
+  },
+  "height": 8,
+  "weight": 20,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Africanusan",
   "primaryType": "steel",
   "secondaryType": "fighting",
@@ -106,6 +244,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "africanusan"
   ]
 }

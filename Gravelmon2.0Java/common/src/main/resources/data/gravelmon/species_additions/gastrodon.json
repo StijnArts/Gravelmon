@@ -1,6 +1,146 @@
 {
    "target": "cobblemon:gastrodon",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "dragon",
+  "secondaryType": "normal",
+  "abilities": [
+    "gooey",
+    "friendguard"  ],
+  "baseStats": {
+    "hp": 114,
+    "attack": 57,
+    "defence": 77,
+    "special_attack": 44,
+    "special_defence": 91,
+    "speed": 102
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "28:glare",
+    "49:dragonenergy",
+    "13:helpinghand",
+    "1:followme",
+    "16:dragonbreath",
+    "9:protect",
+    "5:mimic",
+    "1:twister",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:curse",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragondance",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:moonblast",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:substitute",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgastrodon.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 57,
+    "defence": 77,
+    "special_attack": 44,
+    "special_defence": 91,
+    "speed": 102
+  },
+  "height": 9,
+  "weight": 299,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Fligian",
   "primaryType": "water",
   "secondaryType": "ghost",
@@ -281,6 +421,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "fligian",
 "rican"
   ]

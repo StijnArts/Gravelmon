@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.ayrei.regional;
 
 
+import drai.dev.data.pokemon.*;
 import drai.dev.data.pokemon.amavi.*;
 import drai.dev.data.pokemon.dhiome.*;
 import drai.dev.data.pokemon.mushi.*;
@@ -53,6 +54,7 @@ import drai.dev.data.pokemon.norheim.*;
 import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelsextendedbattles.*;
 
 import java.util.*;
 public class AyreianHitmontop extends drai.dev.data.pokemon.Pokemon {
@@ -153,15 +155,17 @@ public class AyreianHitmontop extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WEATHER_BALL,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 46, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hitmontop");
-
+           setPreEvolution("tyrogue");
+        Pokemon.addAdditionalEvolution("tyrogue", new EvolutionEntry("hitmontop ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:shiny_stone") );
     }
 
 

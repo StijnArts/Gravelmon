@@ -55,8 +55,17 @@ public class AdditionalFormAssetsJSONWriter {
                     var game = pokemon.getGame();
                     var regularAspects = new JsonArray();
                     var shinyAspects = new JsonArray();
-                    regularAspects.add(pokemon.getAdditionalAspect().name().toLowerCase());
-                    shinyAspects.add(pokemon.getAdditionalAspect().name().toLowerCase());
+                    var aspect = pokemon.getAdditionalAspect().getName();
+                    if(pokemon.getName().endsWith("One")) {
+                        aspect += "two";
+                        SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                    }
+                    if(pokemon.getName().endsWith("Two")) {
+                        aspect += "three";
+                        SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                    }
+                    regularAspects.add(aspect);
+                    shinyAspects.add(aspect);
                     shinyAspects.add("shiny");
                     regularVariation.add("aspects", regularAspects);
                     shinyVariation.add("aspects", shinyAspects);
@@ -100,9 +109,9 @@ public class AdditionalFormAssetsJSONWriter {
                         regularFemaleVariation.add("aspects", regularFemaleAspects);
                         shinyFemaleVariation.add("aspects", shinyFemaleAspects);
                         regularFemaleAspects.add("female");
-                        regularFemaleAspects.add(pokemon.getAdditionalAspect().name().toLowerCase());
+                        regularFemaleAspects.add(aspect);
                         shinyFemaleAspects.add("female");
-                        shinyFemaleAspects.add(pokemon.getAdditionalAspect().name().toLowerCase());
+                        shinyFemaleAspects.add(aspect);
                         shinyFemaleAspects.add("shiny");
                         regularFemaleVariation.add("model", new JsonPrimitive("cobblemon:cutout_gravelmon.geo"));
                         shinyFemaleVariation.add("model", new JsonPrimitive("cobblemon:cutout_gravelmon.geo"));
@@ -180,7 +189,7 @@ public class AdditionalFormAssetsJSONWriter {
 //                            createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), form.getCleanName() + "_" + pokemon.getCleanName() + "_shiny.png", resourcesDir);
 //                        }
 //                    }
-                    BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + pokemon.getAdditionalAspect().getName() + ".json"));
+                    BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + aspect + ".json"));
                     writer.write(gson.toJson(fileContents));
                     writer.close();
                     createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + ".png", resourcesDir);

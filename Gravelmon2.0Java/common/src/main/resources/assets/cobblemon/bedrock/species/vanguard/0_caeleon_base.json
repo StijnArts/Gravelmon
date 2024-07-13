@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:caeleon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:vanguard_caeleon",
+      "texture": "cobblemon:textures/pokemon/vanguard/caeleon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/caeleon_shiny.png"
+    }
+  ]
+}
