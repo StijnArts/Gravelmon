@@ -67,7 +67,7 @@ public class EpochGastrodon extends drai.dev.data.pokemon.Pokemon {
                         102),
                 List.of(Ability.GOOEY,Ability.FRIEND_GUARD), Ability.DISHEARTEN,
                 9, 299,
-                new Stats(2,57,77,44,91,102), 100,
+                new Stats(2,0,0,0,0,0), 100,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,

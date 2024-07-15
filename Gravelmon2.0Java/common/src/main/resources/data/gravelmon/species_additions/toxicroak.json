@@ -1,6 +1,164 @@
 {
    "target": "cobblemon:toxicroak",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "abilities": [
+    "poisontouch",
+    "telepathy",
+    "h:effectspore"
+  ],
+  "baseStats": {
+    "hp": 83,
+    "attack": 112,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "54:gunkshot",
+    "42:poisonjab",
+    "1:mindblast",
+    "16:round",
+    "20:hypnosis",
+    "39:toxic",
+    "4:growl",
+    "1:venomdrench",
+    "45:swordsdance",
+    "1:poisonsting",
+    "tm:acidrain",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:closecombat",
+    "tm:confuseray",
+    "tm:corrosivegas",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:firepunch",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:soak",
+    "tm:steameruption",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trickroom",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wonderroom",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtoxicroak.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 83,
+    "attack": 2,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "height": 13,
+  "weight": 444,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "fire",
   "abilities": [
@@ -177,6 +335,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

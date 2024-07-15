@@ -1,6 +1,272 @@
 {
    "target": "cobblemon:dodrio",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "secondaryType": "flying",
+  "abilities": [
+    "earlybird",
+    "competitive"  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 105,
+    "special_defence": 100,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "29:airslash",
+    "10:swift",
+    "51:moonblast",
+    "13:blackout",
+    "1:gust",
+    "23:hypnosis",
+    "41:psychic",
+    "59:meteorbeam",
+    "33:cosmicpower",
+    "7:confusion",
+    "26:psybeam",
+    "47:moonlight",
+    "1:triattack",
+    "1:stardust",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:expandingforce",
+    "tm:featherdance",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdodrio.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 105,
+    "special_defence": 100,
+    "speed": 2
+  },
+  "height": 18,
+  "weight": 852,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "abilities": [
+    "cutecharm",
+    "h:waterveil"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 125,
+    "special_defence": 60,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "58:beakblast",
+    "48:drillpeck",
+    "22:charm",
+    "4:aquajet",
+    "33:safeguard",
+    "22:captivate",
+    "53:surgingstrikes",
+    "14:heartstamp",
+    "25:pluck",
+    "1:babydolleyes",
+    "7:attract",
+    "40:liquidation",
+    "1:peck",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:featherdance",
+    "tm:flipturn",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:memento",
+    "tm:mirrorshot",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:substitute",
+    "tm:tailwind",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdodrioone.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 70,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 2,
+    "special_defence": 60,
+    "speed": 75
+  },
+  "height": 18,
+  "weight": 852,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "psychic",
   "abilities": [
@@ -424,6 +690,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "delta",
 "seviian",
 "hoennian"

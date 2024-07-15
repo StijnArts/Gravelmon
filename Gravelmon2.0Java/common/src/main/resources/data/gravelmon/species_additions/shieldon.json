@@ -1,0 +1,159 @@
+{
+   "target": "cobblemon:shieldon",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "steel",
+  "abilities": [
+    "soundproof",
+    "h:steelworker"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 42,
+    "defence": 118,
+    "special_attack": 30,
+    "special_defence": 42,
+    "speed": 88
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "22:irondefense",
+    "30:metalburst",
+    "1:tackle",
+    "34:endure",
+    "26:smartstrike",
+    "46:iciclecrash",
+    "1:metalclaw",
+    "42:gyroball",
+    "1:protect",
+    "14:metalsound",
+    "9:taunt",
+    "18:avalanche",
+    "38:ironhead",
+    "6:iceshard",
+    "51:shieldbash",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dazzlinggleam",
+    "tm:dragonbreath",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:geomancy",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:tripleaxel",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:wideguard",
+    "egg:zenheadbutt",
+    "egg:headbutt",
+    "egg:powersplit",
+    "egg:powerswap",
+    "egg:doubleedge",
+    "egg:bodyslam",
+    "egg:steelroller",
+    "egg:frostbite",
+    "egg:stealthrock"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochshieldon.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 30,
+    "attack": 42,
+    "defence": 1,
+    "special_attack": 30,
+    "special_defence": 42,
+    "speed": 88
+  },
+  "height": 5,
+  "weight": 570,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

@@ -16,6 +16,132 @@
       ],
       "permanent": true   
  }
+  ],
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "electric",
+  "secondaryType": "dark",
+  "abilities": [
+    "swiftswim",
+    "h:rattled"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 10,
+    "defence": 55,
+    "special_attack": 80,
+    "special_defence": 15,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 40,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2",
+    "dragon"
+  ],
+  "moves": [
+    "15:flail",
+    "5:bite",
+    "10:spark",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:chargebeam",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragondance",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:firefang",
+    "tm:frostbite",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:hiddenpower",
+    "tm:icefang",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochmagikarp.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 20,
+    "attack": 10,
+    "defence": 55,
+    "special_attack": 80,
+    "special_defence": 15,
+    "speed": 1
+  },
+  "height": 9,
+  "weight": 100,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
   ]
-
 }

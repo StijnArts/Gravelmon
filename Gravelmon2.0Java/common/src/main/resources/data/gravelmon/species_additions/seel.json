@@ -1,6 +1,167 @@
 {
    "target": "cobblemon:seel",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "ground",
+  "abilities": [
+    "unaware",
+    "soundproof",
+    "h:thickfat"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 25,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "13:waterpulse",
+    "7:encore",
+    "23:flipturn",
+    "34:slackoff",
+    "4:sandattack",
+    "37:muddywater",
+    "10:stuffcheeks",
+    "1:watergun",
+    "41:spitup",
+    "54:waterspout",
+    "41:stockpile",
+    "51:megahorn",
+    "1:mudslap",
+    "19:yawn",
+    "41:swallow",
+    "44:bodypress",
+    "47:earthpower",
+    "26:wideguard",
+    "30:mudslide",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:mist",
+    "tm:mudslide",
+    "tm:nobleroar",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:soak",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:earthpower",
+    "egg:rollout",
+    "egg:iceball",
+    "egg:rest",
+    "egg:snore",
+    "egg:sleeptalk",
+    "egg:shoreup",
+    "egg:waterspout",
+    "egg:bounce",
+    "egg:heavyslam"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochseel.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 25,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "height": 11,
+  "weight": 1800,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Qamoran",
   "primaryType": "water",
   "secondaryType": "grass",
@@ -341,6 +502,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "qamoran",
 "norheiman",
 "hoennian"

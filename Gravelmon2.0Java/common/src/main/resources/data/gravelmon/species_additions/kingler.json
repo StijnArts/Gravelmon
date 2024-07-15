@@ -1,0 +1,143 @@
+{
+   "target": "cobblemon:kingler",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "ground",
+  "secondaryType": "rock",
+  "abilities": [
+    "waterabsorb",
+    "guts",
+    "h:sandforce"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 130,
+    "defence": 115,
+    "special_attack": 75,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "4:harden",
+    "35:dig",
+    "10:smackdown",
+    "1:rockthrow",
+    "39:stoneedge",
+    "1:sandattack",
+    "1:visegrip",
+    "26:brickbreak",
+    "7:metalclaw",
+    "47:shellsmash",
+    "1:rockslide",
+    "52:crabhammer",
+    "14:bulldoze",
+    "43:earthquake",
+    "32:swordsdance",
+    "29:wideguard",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:breakingswipe",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:flipturn",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:mudslide",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scald",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochkingler.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 2,
+    "defence": 115,
+    "special_attack": 75,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "height": 13,
+  "weight": 600,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

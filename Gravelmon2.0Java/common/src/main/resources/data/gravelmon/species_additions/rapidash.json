@@ -1,6 +1,134 @@
 {
    "target": "cobblemon:rapidash",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "secondaryType": "fire",
+  "abilities": [
+    "infiltrator",
+    "aftermath",
+    "h:reckless"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 105,
+    "defence": 75,
+    "special_attack": 110,
+    "special_defence": 70,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "7:shadowsneak",
+    "54:flareblitz",
+    "16:confuseray",
+    "4:sunnyday",
+    "30:spiritshackle",
+    "39:spectralthief",
+    "1:tailwhip",
+    "48:possession",
+    "13:flamecharge",
+    "1:wildcharge",
+    "1:astonish",
+    "34:playrough",
+    "44:blazekick",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:burningjealousy",
+    "tm:closecombat",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:earthpower",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochrapidash.desc"
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 105,
+    "defence": 75,
+    "special_attack": 110,
+    "special_defence": 70,
+    "speed": 2
+  },
+  "height": 17,
+  "weight": 950,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Africanusan",
   "primaryType": "flying",
   "secondaryType": "steel",
@@ -285,6 +413,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "africanusan",
 "x"
   ]

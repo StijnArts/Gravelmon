@@ -1,6 +1,158 @@
 {
    "target": "cobblemon:clobbopus",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "abilities": [
+    "contrary",
+    "arenatrap",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 68,
+    "defence": 65,
+    "special_attack": 27,
+    "special_defence": 25,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "human_like"
+  ],
+  "moves": [
+    "22:armthrust",
+    "58:closecombat",
+    "1:leer",
+    "7:aquajet",
+    "1:clamp",
+    "26:block",
+    "54:surgingstrikes",
+    "1:poweruppunch",
+    "1:rocksmash",
+    "14:lowsweep",
+    "11:brutalswing",
+    "30:lashout",
+    "34:drainpunch",
+    "4:detect",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:drainpunch",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:gammaray",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:octazooka",
+    "egg:flipturn",
+    "egg:submission",
+    "egg:soak",
+    "egg:suckerpunch",
+    "egg:obstruct",
+    "egg:circlethrow",
+    "egg:superpower"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochclobbopus.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 1,
+    "defence": 65,
+    "special_attack": 27,
+    "special_defence": 25,
+    "speed": 65
+  },
+  "height": 6,
+  "weight": 40,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Novran",
   "primaryType": "fighting",
   "secondaryType": "poison",
@@ -173,6 +325,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "novran"
   ]
 }

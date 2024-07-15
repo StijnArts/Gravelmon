@@ -1,0 +1,162 @@
+{
+   "target": "cobblemon:throh",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "rock",
+  "secondaryType": "fighting",
+  "abilities": [
+    "bulletproof",
+    "dryskin",
+    "h:solidrock"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 90,
+    "defence": 115,
+    "special_attack": 45,
+    "special_defence": 30,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 163,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "10:quickguard",
+    "35:irondefense",
+    "1:vitalthrow",
+    "1:leer",
+    "5:rockthrow",
+    "55:hammerarm",
+    "40:bodypress",
+    "50:rockwrecker",
+    "25:knockoff",
+    "20:bulkup",
+    "45:shieldbash",
+    "15:wideguard",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:substitute",
+    "egg:submission",
+    "egg:seismictoss",
+    "egg:armthrust",
+    "egg:rollout",
+    "egg:obstruct",
+    "egg:quash"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochthroh.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 90,
+    "defence": 115,
+    "special_attack": 45,
+    "special_defence": 30,
+    "speed": 105
+  },
+  "height": 13,
+  "weight": 555,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

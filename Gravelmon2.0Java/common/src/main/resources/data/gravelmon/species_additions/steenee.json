@@ -1,6 +1,298 @@
 {
    "target": "cobblemon:steenee",
    "forms": [{
+  "name": "Epochtwo",
+  "primaryType": "poison",
+  "secondaryType": "fighting",
+  "abilities": [
+    "ironbarbs",
+    "powerofalchemy",
+    "h:unburden"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 66,
+    "defence": 40,
+    "special_attack": 62,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 102,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3",
+    "amorphous"
+  ],
+  "moves": [
+    "20:doublekick",
+    "27:acupressure",
+    "1:reversal",
+    "31:taunt",
+    "1:spikecannon",
+    "23:brutalswing",
+    "53:highjumpkick",
+    "44:recover",
+    "1:fakeout",
+    "5:toxicspikes",
+    "16:poisonfang",
+    "39:drainpunch",
+    "12:detect",
+    "1:poisonsting",
+    "tm:acidrain",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:gunkshot",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:magicalleaf",
+    "tm:memento",
+    "tm:meteormash",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:pollenpuff",
+    "tm:poweruppunch",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:strugglebug",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsteeneeone.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 52,
+    "attack": 66,
+    "defence": 40,
+    "special_attack": 62,
+    "special_defence": 40,
+    "speed": 2
+  },
+  "height": 7,
+  "weight": 82,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epoch",
+  "primaryType": "light",
+  "secondaryType": "dark",
+  "abilities": [
+    "darkaura",
+    "h:aurabreak"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 67,
+    "defence": 48,
+    "special_attack": 48,
+    "special_defence": 35,
+    "speed": 62
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 102,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "12:feintattack",
+    "1:feint",
+    "33:torment",
+    "15:flatter",
+    "4:playnice",
+    "36:lashout",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:burningjealousy",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:meteormash",
+    "tm:mirrorshot",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsteenee.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 1,
+    "defence": 48,
+    "special_attack": 48,
+    "special_defence": 35,
+    "speed": 62
+  },
+  "height": 7,
+  "weight": 82,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Varitasian",
   "primaryType": "ghost",
   "secondaryType": "bug",
@@ -164,6 +456,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epochtwo",
+"epoch",
 "varitasian"
   ]
 }

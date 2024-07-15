@@ -1,6 +1,149 @@
 {
    "target": "cobblemon:dugtrio",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "secondaryType": "ground",
+  "abilities": [
+    "infiltrator",
+    "moldbreaker",
+    "h:arenatrap"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 70,
+    "special_attack": 120,
+    "special_defence": 50,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 92,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 149,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "8:sandtomb",
+    "32:dig",
+    "36:suckerpunch",
+    "28:shadowclaw",
+    "44:spectralthief",
+    "1:scratch",
+    "4:growl",
+    "16:bulldoze",
+    "48:phantomforce",
+    "1:astonish",
+    "12:rocktomb",
+    "40:earthquake",
+    "tm:attract",
+    "tm:bulldoze",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:soundbarrier",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdugtrio.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 70,
+    "special_attack": 120,
+    "special_defence": 50,
+    "speed": 2
+  },
+  "height": 7,
+  "weight": 333,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Nostan",
   "primaryType": "ground",
   "secondaryType": "grass",
@@ -660,6 +803,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "nostan",
 "norheiman",
 "delta",

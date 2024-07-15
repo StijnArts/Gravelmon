@@ -2,6 +2,7 @@ package drai.dev.data.pokemon;
 
 import drai.dev.data.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -114,7 +115,14 @@ public class Pokemon {
         if (key.isBlank()) {
             key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().getName(), "");
         }
-        if(getClass().getSimpleName().endsWith("One")) key = key.substring(0, key.length()-3);
+        String className = getClass().getSimpleName();
+        for (int i = 0; i < 20; i++) {
+            String numberAsWord = EnglishNumberToWords.convert(i);
+            if(className.endsWith(StringUtils.capitalize(numberAsWord.toLowerCase()))){
+                key = key.substring(0, key.length()-numberAsWord.length());
+                break;
+            }
+        }
         var forms = ADDITIONAL_FORMS.computeIfAbsent(key.toLowerCase(), k -> new ArrayList<>());
         forms.add(pokemon);
 //        POKEMON_REGISTRY.remove(this.name.toLowerCase().replaceAll("\\W",""));

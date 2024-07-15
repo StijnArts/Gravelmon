@@ -1,6 +1,149 @@
 {
    "target": "cobblemon:seedot",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "abilities": [
+    "leafguard",
+    "flamebody",
+    "h:chlorophyll"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 55,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 44,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "grass"
+  ],
+  "moves": [
+    "15:firespin",
+    "28:sunnyday",
+    "50:solarbeam",
+    "33:gigadrain",
+    "19:magicalleaf",
+    "47:fierydance",
+    "53:flamethrower",
+    "8:megadrain",
+    "5:ember",
+    "12:growth",
+    "24:flameburst",
+    "39:synthesis",
+    "1:absorb",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bounce",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:coaching",
+    "tm:curse",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:magicalleaf",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:leechseed",
+    "egg:defog",
+    "egg:morningsun",
+    "egg:sleeppowder",
+    "egg:airslash",
+    "egg:naturepower"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochseedot.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 1,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 55
+  },
+  "height": 5,
+  "weight": 40,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "electric",
   "abilities": [
@@ -143,6 +286,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

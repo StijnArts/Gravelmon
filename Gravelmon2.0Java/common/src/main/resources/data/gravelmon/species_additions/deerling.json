@@ -1,0 +1,147 @@
+{
+   "target": "cobblemon:deerling",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "normal",
+  "secondaryType": "fire",
+  "abilities": [
+    "flamebody",
+    "quickfeet",
+    "h:limber"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 45,
+    "special_attack": 85,
+    "special_defence": 35,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "56:flareblitz",
+    "1:quickattack",
+    "20:sunnyday",
+    "4:leer",
+    "13:charm",
+    "13:captivate",
+    "28:doublekick",
+    "44:jumpkick",
+    "10:flamecharge",
+    "7:protect",
+    "32:morningsun",
+    "40:doubleedge",
+    "16:hornattack",
+    "60:highjumpkick",
+    "52:solarblade",
+    "48:swordsdance",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:charm",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:incinerate",
+    "tm:mist",
+    "tm:mysticalfire",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:playrough",
+    "egg:stomp",
+    "egg:infernalblade",
+    "egg:blazekick",
+    "egg:lastresort",
+    "egg:triplekick",
+    "egg:thrash",
+    "egg:flamewheel",
+    "egg:batonpass",
+    "egg:endeavor"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdeerling.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 45,
+    "special_attack": 85,
+    "special_defence": 35,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 505,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

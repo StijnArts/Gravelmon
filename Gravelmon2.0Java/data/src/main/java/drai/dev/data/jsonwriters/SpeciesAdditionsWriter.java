@@ -2,6 +2,7 @@ package drai.dev.data.jsonwriters;
 
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.*;
 import org.apache.commons.lang3.*;
@@ -122,15 +123,7 @@ public class SpeciesAdditionsWriter {
                 } else {
                     fileContents += ",\n";
                 }
-                var aspect = pokemon.getAdditionalAspect().getName();
-                if(pokemon.getName().endsWith("One")) {
-                    aspect += "two";
-                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
-                }
-                if(pokemon.getName().endsWith("Two")) {
-                    aspect += "three";
-                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
-                }
+                var aspect = getAccurateAspect(resourcesDir, pokemon);
                 fileContents += "{\n" + "  \"name\": \"" + StringUtils.capitalize(aspect) + "\",\n";
                 fileContents += "  \"primaryType\": \"" + pokemon.getPrimaryType().getName() + "\",\n";
                 if (pokemon.getSecondaryType() != null) {
@@ -326,6 +319,20 @@ public class SpeciesAdditionsWriter {
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
         writer.write(fileContents);
         writer.close();
+    }
+
+    private static String getAccurateAspect(String resourcesDir, Pokemon pokemon) throws IOException {
+        var aspect = pokemon.getAdditionalAspect().getName();
+        var pokemonName = pokemon.getName();
+        for (int i = 0; i < 20; i++) {
+            String numberAsWord = EnglishNumberToWords.convert(i);
+            if(pokemonName.endsWith(StringUtils.capitalize(numberAsWord.toLowerCase()))){
+                aspect += EnglishNumberToWords.convert(i+1);
+                SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                return aspect;
+            }
+        }
+        return aspect;
     }
 
     @NotNull

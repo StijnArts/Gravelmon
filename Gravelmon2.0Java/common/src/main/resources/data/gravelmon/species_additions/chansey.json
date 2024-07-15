@@ -1,6 +1,166 @@
 {
    "target": "cobblemon:chansey",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "normal",
+  "secondaryType": "steel",
+  "abilities": [
+    "analytic",
+    "h:download"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 85,
+    "defence": 105,
+    "special_attack": 50,
+    "special_defence": 55,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 395,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:pound",
+    "20:endeavor",
+    "7:defensecurl",
+    "4:covet",
+    "24:gyroball",
+    "1:nuzzle",
+    "36:doubleedge",
+    "52:steelroller",
+    "28:healpulse",
+    "32:bodyslam",
+    "16:geargrind",
+    "40:ironhead",
+    "48:eggbomb",
+    "12:doubleslap",
+    "44:softboiled",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:earthquake",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gyroball",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:spikyshield",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:retaliate",
+    "egg:doubleironbash",
+    "egg:magnetbomb",
+    "egg:doublehit",
+    "egg:heavyslam",
+    "egg:selfdestruct",
+    "egg:explosion"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochchansey.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 85,
+    "defence": 105,
+    "special_attack": 50,
+    "special_defence": 55,
+    "speed": 75
+  },
+  "height": 11,
+  "weight": 346,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Fligian",
   "primaryType": "fire",
   "secondaryType": "normal",
@@ -410,6 +570,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "fligian",
 "egho"
   ]

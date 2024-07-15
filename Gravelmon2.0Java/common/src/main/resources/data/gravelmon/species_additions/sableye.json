@@ -17,6 +17,318 @@
  }
   ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fire",
+  "secondaryType": "dark",
+  "abilities": [
+    "flamebody",
+    "infiltrator",
+    "h:speedboost"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 110,
+    "defence": 75,
+    "special_attack": 110,
+    "special_defence": 45,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 133,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "39:embargo",
+    "57:flareblitz",
+    "42:suckerpunch",
+    "1:leer",
+    "48:throatchop",
+    "1:scratch",
+    "3:supersonic",
+    "24:feintattack",
+    "53:foulplay",
+    "21:flamecharge",
+    "30:quash",
+    "36:willowisp",
+    "12:taunt",
+    "33:firelash",
+    "6:ember",
+    "45:stonesurge",
+    "15:assurance",
+    "18:detect",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:burningjealousy",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:geomancy",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:powergem",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scorchingsands",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:workup",
+    "egg:nastyplot",
+    "egg:feint",
+    "egg:beatup",
+    "egg:nightshade",
+    "egg:trick",
+    "egg:glare",
+    "egg:imprison",
+    "egg:torment",
+    "egg:lavaplume",
+    "egg:flamethrower",
+    "egg:burnup",
+    "egg:followme",
+    "egg:powertrip"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsableye.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 1,
+    "defence": 75,
+    "special_attack": 110,
+    "special_defence": 45,
+    "speed": 65
+  },
+  "height": 5,
+  "weight": 110,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "water",
+  "secondaryType": "bug",
+  "abilities": [
+    "tintedlens",
+    "h:suctioncups"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 100,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 133,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "33:agility",
+    "45:attackorder",
+    "6:bugbite",
+    "21:skittersmack",
+    "30:poisonjab",
+    "1:aquajet",
+    "24:uturn",
+    "1:supersonic",
+    "12:fellstinger",
+    "9:doubleteam",
+    "39:crunch",
+    "36:leechlife",
+    "48:fishiousrend",
+    "27:knockoff",
+    "3:lifedew",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:brine",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:pinmissile",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:soak",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:workup",
+    "egg:recover",
+    "egg:psychicfangs",
+    "egg:flatter",
+    "egg:minimize",
+    "egg:feintattack",
+    "egg:suckerpunch",
+    "egg:foulplay",
+    "egg:cheapshot",
+    "egg:torment",
+    "egg:embargo",
+    "egg:octazooka"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsableyeone.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 90,
+    "attack": 1,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 110
+  },
+  "height": 5,
+  "weight": 110,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Enjinnian",
   "primaryType": "ice",
   "secondaryType": "ghost",
@@ -522,6 +834,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "enjinnian",
 "delta",
 "cefiran"

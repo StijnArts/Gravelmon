@@ -1,0 +1,137 @@
+{
+   "target": "cobblemon:toucannon",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "abilities": [
+    "flowerveil",
+    "symbiosis",
+    "h:skilllink"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 85,
+    "special_attack": 90,
+    "special_defence": 55,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 218,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "13:pluck",
+    "26:bulletseed",
+    "1:leafage",
+    "13:razorleaf",
+    "5:sweetscent",
+    "20:aromatherapy",
+    "1:peck",
+    "23:dualwingbeat",
+    "34:screech",
+    "38:junglehealing",
+    "45:woodhammer",
+    "49:bravebird",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:energyball",
+    "tm:featherdance",
+    "tm:focusblast",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:magicalleaf",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtoucannon.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 70,
+    "attack": 3,
+    "defence": 85,
+    "special_attack": 90,
+    "special_defence": 55,
+    "speed": 75
+  },
+  "height": 11,
+  "weight": 260,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

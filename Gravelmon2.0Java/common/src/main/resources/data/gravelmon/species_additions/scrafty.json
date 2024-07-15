@@ -1,6 +1,139 @@
 {
    "target": "cobblemon:scrafty",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "sound",
+  "secondaryType": "dark",
+  "abilities": [
+    "prankster",
+    "quickdraw"  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 105,
+    "defence": 80,
+    "special_attack": 58,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 171,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "12:fling",
+    "1:leer",
+    "47:throatchop",
+    "60:boomburst",
+    "56:foulplay",
+    "4:powertrip",
+    "18:chatter",
+    "35:partingshot",
+    "10:thief",
+    "4:punishment",
+    "21:workup",
+    "7:beatup",
+    "41:swagger",
+    "1:dazzlinggleam",
+    "27:scaryface",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:meteormash",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:soundbarrier",
+    "tm:stealthrock",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochscrafty.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 1,
+    "defence": 80,
+    "special_attack": 58,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "height": 11,
+  "weight": 300,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "grass",
   "abilities": [
@@ -178,6 +311,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

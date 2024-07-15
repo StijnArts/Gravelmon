@@ -1,6 +1,151 @@
 {
    "target": "cobblemon:piplup",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "abilities": [
+    "slushrush"  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 61,
+    "defence": 53,
+    "special_attack": 40,
+    "special_defence": 51,
+    "speed": 56
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "39:drillpeck",
+    "15:aquaring",
+    "8:clamp",
+    "36:iciclecrash",
+    "25:avalanche",
+    "1:peck",
+    "32:mist",
+    "11:iceshard",
+    "18:iciclespear",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bravebird",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:charm",
+    "tm:coaching",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:featherdance",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:return",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:tripleaxel",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:teeterdance",
+    "egg:icywind",
+    "egg:hail"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochpiplup.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 53,
+    "attack": 61,
+    "defence": 53,
+    "special_attack": 1,
+    "special_defence": 51,
+    "speed": 56
+  },
+  "height": 4,
+  "weight": 52,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Interian",
   "primaryType": "bug",
   "abilities": [
@@ -105,6 +250,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "interian"
   ]
 }

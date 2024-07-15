@@ -1,0 +1,138 @@
+{
+   "target": "cobblemon:talonflame",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "electric",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye",
+    "galvanize",
+    "h:galewings"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 90,
+    "defence": 77,
+    "special_attack": 126,
+    "special_defence": 59,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "51:drillpeck",
+    "7:quickattack",
+    "1:leer",
+    "54:boltbeak",
+    "14:spark",
+    "11:featherdance",
+    "17:wingattack",
+    "59:doubleedge",
+    "63:volttackle",
+    "1:peck",
+    "47:tailwind",
+    "43:wildcharge",
+    "24:roost",
+    "21:chipaway",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:boltbeak",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:bulletseed",
+    "tm:chargebeam",
+    "tm:closecombat",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:falseswipe",
+    "tm:featherdance",
+    "tm:flareblitz",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:knockoff",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtalonflame.desc"
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 82,
+    "attack": 90,
+    "defence": 77,
+    "special_attack": 126,
+    "special_defence": 59,
+    "speed": 3
+  },
+  "height": 12,
+  "weight": 245,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

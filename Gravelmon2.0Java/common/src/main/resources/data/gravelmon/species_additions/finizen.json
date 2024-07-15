@@ -1,0 +1,152 @@
+{
+   "target": "cobblemon:finizen",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "water",
+  "abilities": [
+    "waterveil"  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 35,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_2"
+  ],
+  "moves": [
+    "15:waterpulse",
+    "42:encore",
+    "28:freezedry",
+    "21:charm",
+    "24:flipturn",
+    "9:aquajet",
+    "21:captivate",
+    "32:bounce",
+    "46:surgingstrikes",
+    "1:supersonic",
+    "38:iciclecrash",
+    "1:watergun",
+    "12:focusenergy",
+    "6:powdersnow",
+    "4:iceshard",
+    "18:glaciate",
+    "54:icebeam",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:echoedvoice",
+    "tm:flipturn",
+    "tm:frostbite",
+    "tm:hail",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:memento",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:soundbarrier",
+    "tm:steameruption",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:workup",
+    "egg:icywind",
+    "egg:megahorn",
+    "egg:raindance",
+    "egg:hail",
+    "egg:screech"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochfinizen.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 35,
+    "speed": 1
+  },
+  "height": 13,
+  "weight": 602,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

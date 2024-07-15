@@ -1,6 +1,271 @@
 {
    "target": "cobblemon:roserade",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ground",
+  "secondaryType": "fairy",
+  "abilities": [
+    "sharpness",
+    "justified",
+    "h:dazzling"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 125,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 70,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 232,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "65:thousandwaves",
+    "4:lovelykiss",
+    "7:covet",
+    "20:spiritbreak",
+    "60:playrough",
+    "35:swordsdance",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochroserade.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 3,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 70,
+    "speed": 105
+  },
+  "height": 9,
+  "weight": 145,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "abilities": [
+    "leafguard",
+    "ironbarbs"  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 125,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 232,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "55:petaldance",
+    "45:dragonpulse",
+    "20:magicalleaf",
+    "15:dragonbreath",
+    "60:dracometeor",
+    "4:megadrain",
+    "1:growth",
+    "35:purify",
+    "40:appleacid",
+    "1:absorb",
+    "7:sleeppowder",
+    "7:stunspore",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:breakingswipe",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragondance",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochroseradeone.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 65,
+    "special_attack": 3,
+    "special_defence": 125,
+    "speed": 105
+  },
+  "height": 9,
+  "weight": 145,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "dark",
   "secondaryType": "fairy",
@@ -623,6 +888,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "delta",
 "x",
 "ayreian",

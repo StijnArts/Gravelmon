@@ -1,0 +1,155 @@
+{
+   "target": "cobblemon:popplio",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "abilities": [
+    "chlorophyll",
+    "leafguard",
+    "h:grassysurge"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 39,
+    "defence": 55,
+    "special_attack": 44,
+    "special_defence": 71,
+    "speed": 56
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "field"
+  ],
+  "moves": [
+    "6:leechseed",
+    "18:poisonpowder",
+    "53:fleurcannon",
+    "36:petaldance",
+    "42:solarbeam",
+    "47:sunnyday",
+    "30:energyball",
+    "27:gigadrain",
+    "21:drainingkiss",
+    "15:disarmingvoice",
+    "33:aromatherapy",
+    "9:megadrain",
+    "1:growl",
+    "12:growth",
+    "1:fairywind",
+    "24:floralhealing",
+    "3:absorb",
+    "18:stunspore",
+    "18:sleeppowder",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:mistyterrain",
+    "tm:playrough",
+    "tm:pollenpuff",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:weatherball",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "egg:flowershield",
+    "egg:spikyshield",
+    "egg:naturalgift",
+    "egg:worryseed",
+    "egg:amnesia",
+    "egg:aromaticmist",
+    "egg:refresh",
+    "egg:pollenpuff"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochpopplio.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 39,
+    "defence": 55,
+    "special_attack": 1,
+    "special_defence": 71,
+    "speed": 56
+  },
+  "height": 4,
+  "weight": 75,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

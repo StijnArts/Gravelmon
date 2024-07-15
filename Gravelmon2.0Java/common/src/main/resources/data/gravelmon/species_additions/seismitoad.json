@@ -1,0 +1,137 @@
+{
+   "target": "cobblemon:seismitoad",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisontouch",
+    "stormdrain",
+    "h:protean"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 70,
+    "defence": 105,
+    "special_attack": 70,
+    "special_defence": 94,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 225,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "10:poisonpowder",
+    "1:acid",
+    "49:energyball",
+    "32:gigadrain",
+    "5:aquaring",
+    "16:magicalleaf",
+    "45:muddywater",
+    "42:spore",
+    "1:mudslap",
+    "57:acidrain",
+    "1:megadrain",
+    "35:sludgewave",
+    "1:toxicspikes",
+    "29:acidarmor",
+    "10:stunspore",
+    "13:sludge",
+    "22:sleeppowder",
+    "tm:acidrain",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulletseed",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:hiddenpower",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:magicalleaf",
+    "tm:mudslide",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:stealthrock",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochseismitoad.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 95,
+    "attack": 70,
+    "defence": 1,
+    "special_attack": 70,
+    "special_defence": 94,
+    "speed": 75
+  },
+  "height": 15,
+  "weight": 620,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

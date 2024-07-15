@@ -1,6 +1,145 @@
 {
    "target": "cobblemon:galvantula",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "bug",
+  "secondaryType": "dark",
+  "abilities": [
+    "emergencyexit",
+    "immunity",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 100,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug",
+    "monster"
+  ],
+  "moves": [
+    "24:nightslash",
+    "1:gastroacid",
+    "28:toxicthread",
+    "32:uturn",
+    "12:blackout",
+    "20:fellstinger",
+    "44:crunch",
+    "1:pursuit",
+    "36:leechlife",
+    "40:partingshot",
+    "9:powder",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bounce",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:uturn",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgalvantula.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 100,
+    "speed": 2
+  },
+  "height": 8,
+  "weight": 143,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "X",
   "primaryType": "bug",
   "secondaryType": "ice",
@@ -126,6 +265,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "x"
   ]
 }

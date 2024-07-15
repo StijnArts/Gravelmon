@@ -1,6 +1,170 @@
 {
    "target": "cobblemon:charmander",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ground",
+  "secondaryType": "dragon",
+  "abilities": [
+    "moxie",
+    "sandforce",
+    "h:poisonheal"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 50,
+    "defence": 47,
+    "special_attack": 65,
+    "special_defence": 42,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "32:stompingtantrum",
+    "4:smokescreen",
+    "1:leer",
+    "1:scratch",
+    "40:bonemerang",
+    "36:crunch",
+    "18:dragontail",
+    "21:bonerush",
+    "48:earthquake",
+    "28:scaryface",
+    "12:tarshot",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:charm",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:drainpunch",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:meteormash",
+    "tm:mudslide",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaleshot",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:rockthrow",
+    "egg:smackdown",
+    "egg:bite",
+    "egg:metalclaw",
+    "egg:dragonrush",
+    "egg:rockslide",
+    "egg:gunkshot"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcharmander.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 1,
+    "defence": 47,
+    "special_attack": 65,
+    "special_defence": 42,
+    "speed": 50
+  },
+  "height": 6,
+  "weight": 85,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Egho",
   "primaryType": "fire",
   "secondaryType": "dragon",
@@ -536,6 +700,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "egho",
 "delta",
 "ayreian"

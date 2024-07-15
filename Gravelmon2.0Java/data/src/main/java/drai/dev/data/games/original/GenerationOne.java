@@ -219,7 +219,6 @@ public class GenerationOne extends Game {
         pokemon.add(new EpochOnix("", Aspect.EPOCH));
         pokemon.add(new EpochZubat("", Aspect.EPOCH));
         pokemon.add(new EpochGolbat("", Aspect.EPOCH));
-        pokemon.add(new EpochCrobat("", Aspect.EPOCH));
         pokemon.add(new EpochTangela("", Aspect.EPOCH));
         pokemon.add(new EpochMagikarp("", Aspect.EPOCH));
         pokemon.add(new EpochGyarados("", Aspect.EPOCH));
@@ -281,8 +280,6 @@ public class GenerationOne extends Game {
         pokemon.add(new EpochPrimeape("", Aspect.EPOCH));
         pokemon.add(new EpochParas("", Aspect.EPOCH));
         pokemon.add(new EpochParasect("", Aspect.EPOCH));
-        pokemon.add(new EpochSentret("", Aspect.EPOCH));
-        pokemon.add(new EpochFurret("", Aspect.EPOCH));
         pokemon.add(new EpochLapras("", Aspect.EPOCH));
         pokemon.add(new EpochDiglett("", Aspect.EPOCH));
         pokemon.add(new EpochDugtrio("", Aspect.EPOCH));
@@ -316,8 +313,6 @@ public class GenerationOne extends Game {
         pokemon.add(new EpochVulpix("", Aspect.EPOCH));
         pokemon.add(new EpochNinetales("", Aspect.EPOCH));
         pokemon.add(new EpochMrmime("", Aspect.EPOCH));
-        pokemon.add(new EpochDiglettOne("", Aspect.EPOCH));
-        pokemon.add(new EpochDugtrioOne("", Aspect.EPOCH));
         pokemon.add(new EpochVoltorbOne("", Aspect.EPOCH));
         pokemon.add(new EpochElectrodeOne("", Aspect.EPOCH));
         pokemon.add(new EpochExeggcuteOne("", Aspect.EPOCH));

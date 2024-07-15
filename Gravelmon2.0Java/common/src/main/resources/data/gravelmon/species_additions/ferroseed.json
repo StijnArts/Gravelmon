@@ -1,0 +1,143 @@
+{
+   "target": "cobblemon:ferroseed",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "abilities": [
+    "ironbarbs",
+    "overgrow",
+    "h:poisonpoint"
+  ],
+  "baseStats": {
+    "hp": 44,
+    "attack": 86,
+    "defence": 91,
+    "special_attack": 10,
+    "special_defence": 24,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "53:poisonjab",
+    "29:pinmissile",
+    "33:crosspoison",
+    "49:petalblizzard",
+    "1:sweetscent",
+    "38:aromatherapy",
+    "57:powerwhip",
+    "5:vinewhip",
+    "9:ingrain",
+    "13:needlearm",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:crunch",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gammaray",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:magicalleaf",
+    "tm:memento",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:spikyshield",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:leechseed",
+    "egg:worryseed",
+    "egg:gastroacid",
+    "egg:venomdrench",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:spitup",
+    "egg:bulletseed",
+    "egg:spikes"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochferroseed.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 44,
+    "attack": 86,
+    "defence": 1,
+    "special_attack": 10,
+    "special_defence": 24,
+    "speed": 50
+  },
+  "height": 6,
+  "weight": 188,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

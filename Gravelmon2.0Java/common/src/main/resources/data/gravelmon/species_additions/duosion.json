@@ -1,6 +1,302 @@
 {
    "target": "cobblemon:duosion",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "abilities": [
+    "torrent",
+    "magicbounce",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 35,
+    "defence": 70,
+    "special_attack": 35,
+    "special_defence": 100,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:bubble",
+    "18:waterpulse",
+    "22:soak",
+    "38:freezedry",
+    "56:hydropump",
+    "29:reflect",
+    "41:extrasensory",
+    "29:lightscreen",
+    "48:psychic",
+    "4:confusion",
+    "34:recover",
+    "1:watersport",
+    "45:scald",
+    "52:trickroom",
+    "26:psyshock",
+    "14:psybeam",
+    "10:healblock",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:flipturn",
+    "tm:gammaray",
+    "tm:gigadrain",
+    "tm:hail",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mist",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:substitute",
+    "tm:terrainpulse",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:wonderroom"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochduosion.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 35,
+    "defence": 70,
+    "special_attack": 2,
+    "special_defence": 100,
+    "speed": 70
+  },
+  "height": 6,
+  "weight": 80,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "cosmic",
+  "secondaryType": "poison",
+  "abilities": [
+    "gooey",
+    "overcoat",
+    "h:analytic"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 35,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:acid",
+    "47:plague",
+    "51:confuseray",
+    "35:poisonjab",
+    "10:mindblast",
+    "39:gammaray",
+    "58:possession",
+    "54:acidrain",
+    "1:acidarmor",
+    "22:healblock",
+    "tm:acidrain",
+    "tm:attract",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:corrosivegas",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gunkshot",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trickroom",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochduosionone.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 60,
+    "attack": 1,
+    "defence": 60,
+    "special_attack": 35,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "height": 6,
+  "weight": 80,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "ghost",
   "secondaryType": "rock",
@@ -627,6 +923,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "delta",
 "hoennian",
 "kaskadian",

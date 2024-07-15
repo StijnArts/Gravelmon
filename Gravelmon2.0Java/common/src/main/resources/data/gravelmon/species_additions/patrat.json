@@ -1,0 +1,160 @@
+{
+   "target": "cobblemon:patrat",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "dark",
+  "secondaryType": "psychic",
+  "abilities": [
+    "moody",
+    "simple"  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 39,
+    "special_attack": 42,
+    "special_defence": 40,
+    "speed": 39
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 51,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "21:nightslash",
+    "28:honeclaws",
+    "3:leer",
+    "1:scratch",
+    "13:mindblast",
+    "6:bite",
+    "49:foulplay",
+    "26:crunch",
+    "31:cheapshot",
+    "18:hypnosis",
+    "33:psychicfangs",
+    "16:odorsleuth",
+    "53:powertrick",
+    "36:punishment",
+    "11:fakeout",
+    "41:psyshock",
+    "8:detect",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poisonfang",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:foresight",
+    "egg:extrasensory",
+    "egg:assurance",
+    "egg:pursuit",
+    "egg:shadowclaw",
+    "egg:nastyplot",
+    "egg:storedpower",
+    "egg:expandingforce"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochpatrat.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 45,
+    "attack": 1,
+    "defence": 39,
+    "special_attack": 42,
+    "special_defence": 40,
+    "speed": 39
+  },
+  "height": 5,
+  "weight": 116,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

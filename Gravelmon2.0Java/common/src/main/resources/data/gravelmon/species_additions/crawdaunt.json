@@ -1,6 +1,149 @@
 {
    "target": "cobblemon:crawdaunt",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "rock",
+  "secondaryType": "dark",
+  "abilities": [
+    "reckless",
+    "angershell",
+    "h:bulletproof"
+  ],
+  "baseStats": {
+    "hp": 63,
+    "attack": 120,
+    "defence": 95,
+    "special_attack": 85,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 155,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 164,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "22:embargo",
+    "1:harden",
+    "4:leer",
+    "7:rockthrow",
+    "48:endeavor",
+    "18:visegrip",
+    "11:taunt",
+    "1:pursuit",
+    "14:assurance",
+    "58:headsmash",
+    "26:rockblast",
+    "36:swordsdance",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:meteormash",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:soak",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcrawdaunt.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 63,
+    "attack": 2,
+    "defence": 95,
+    "special_attack": 85,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "height": 11,
+  "weight": 328,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Norheiman",
   "primaryType": "water",
   "secondaryType": "steel",
@@ -90,6 +233,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "norheiman"
   ]
 }

@@ -1,0 +1,136 @@
+{
+   "target": "cobblemon:barraskewda",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "ghost",
+  "abilities": [
+    "cursedbody",
+    "innardsout",
+    "h:strongjaw"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 103,
+    "defence": 75,
+    "special_attack": 121,
+    "special_defence": 60,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 123,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2"
+  ],
+  "moves": [
+    "41:aquatail",
+    "49:poltergeist",
+    "14:confuseray",
+    "1:aquajet",
+    "18:bite",
+    "10:clamp",
+    "1:thunderfang",
+    "1:spite",
+    "33:crunch",
+    "45:quash",
+    "37:taunt",
+    "1:icefang",
+    "1:firefang",
+    "1:astonish",
+    "29:poisonfang",
+    "tm:attract",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:flipturn",
+    "tm:gammaray",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:icefang",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:memento",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:soak",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:whirlpool"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbarraskewda.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 61,
+    "attack": 103,
+    "defence": 75,
+    "special_attack": 121,
+    "special_defence": 60,
+    "speed": 2
+  },
+  "height": 13,
+  "weight": 300,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

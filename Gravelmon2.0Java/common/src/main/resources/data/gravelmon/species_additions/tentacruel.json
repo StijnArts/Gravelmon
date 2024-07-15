@@ -25,6 +25,156 @@
     ]
       },
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "secondaryType": "water",
+  "abilities": [
+    "suctioncups",
+    "h:overcoat"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 40,
+    "defence": 100,
+    "special_attack": 80,
+    "special_defence": 90,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 123,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 180,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "15:waterpulse",
+    "38:eeriespell",
+    "12:aquaring",
+    "1:supersonic",
+    "41:moonblast",
+    "31:gammaray",
+    "1:watergun",
+    "63:waterspout",
+    "1:reflecttype",
+    "27:magiccoat",
+    "18:signalbeam",
+    "47:cosmicpower",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:expandingforce",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:soak",
+    "tm:steameruption",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtentacruel.desc"
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 100,
+    "attack": 40,
+    "defence": 100,
+    "special_attack": 80,
+    "special_defence": 2,
+    "speed": 105
+  },
+  "height": 16,
+  "weight": 550,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "grass",
   "secondaryType": "poison",
@@ -422,6 +572,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta",
 "hoennian",
 "relic"

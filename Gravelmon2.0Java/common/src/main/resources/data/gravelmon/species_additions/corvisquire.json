@@ -1,6 +1,135 @@
 {
    "target": "cobblemon:corvisquire",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "dark",
+  "secondaryType": "electric",
+  "abilities": [
+    "bigpecks"  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 75,
+    "defence": 63,
+    "special_attack": 70,
+    "special_defence": 29,
+    "speed": 63
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 128,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "26:nightslash",
+    "35:honeclaws",
+    "1:leer",
+    "44:obstruct",
+    "1:electrify",
+    "38:falsesurrender",
+    "55:boltbeak",
+    "14:spark",
+    "23:taunt",
+    "41:extremespeed",
+    "1:pursuit",
+    "1:nuzzle",
+    "1:torment",
+    "4:fakeout",
+    "17:knockoff",
+    "12:charge",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:boltbeak",
+    "tm:bravebird",
+    "tm:chargebeam",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:electricterrain",
+    "tm:featherdance",
+    "tm:focusblast",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcorvisquire.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 2,
+    "defence": 63,
+    "special_attack": 70,
+    "special_defence": 29,
+    "speed": 63
+  },
+  "height": 8,
+  "weight": 160,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Norheiman",
   "primaryType": "flying",
   "abilities": [
@@ -109,6 +238,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "norheiman"
   ]
 }

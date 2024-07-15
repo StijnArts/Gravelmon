@@ -1,6 +1,151 @@
 {
    "target": "cobblemon:octillery",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "abilities": [
+    "suctioncups",
+    "battery",
+    "h:stakeout"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 110,
+    "defence": 75,
+    "special_attack": 80,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "moves": [
+    "20:smokescreen",
+    "60:gunkshot",
+    "28:flipturn",
+    "1:aquajet",
+    "1:octolock",
+    "12:clamp",
+    "32:obstruct",
+    "48:surgingstrikes",
+    "4:supersonic",
+    "16:spark",
+    "36:zingzap",
+    "44:coil",
+    "1:nuzzle",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:electricterrain",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:meteorbeam",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:soak",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochoctillery.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 95,
+    "attack": 1,
+    "defence": 75,
+    "special_attack": 80,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "height": 9,
+  "weight": 285,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "fire",
   "abilities": [
@@ -172,6 +317,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

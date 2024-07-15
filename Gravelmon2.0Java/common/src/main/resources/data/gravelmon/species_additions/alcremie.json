@@ -1,6 +1,154 @@
 {
    "target": "cobblemon:alcremie",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "poison",
+  "secondaryType": "rock",
+  "abilities": [
+    "eartheater",
+    "toxicdebris",
+    "h:steamengine"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 40,
+    "defence": 75,
+    "special_attack": 64,
+    "special_defence": 110,
+    "speed": 121
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:pound",
+    "1:harden",
+    "8:acid",
+    "40:diamondstorm",
+    "54:acidrain",
+    "35:scorchingsands",
+    "49:sludgebomb",
+    "25:toxicspikes",
+    "44:acidarmor",
+    "21:sludge",
+    "31:corrode",
+    "16:tarshot",
+    "tm:acidrain",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:corrosivegas",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gunkshot",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mudslide",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:powergem",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:willowisp",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochalcremie.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 40,
+    "defence": 75,
+    "special_attack": 64,
+    "special_defence": 2,
+    "speed": 121
+  },
+  "height": 3,
+  "weight": 5,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Varitasian",
   "primaryType": "fairy",
   "secondaryType": "poison",
@@ -126,6 +274,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "varitasian"
   ]
 }

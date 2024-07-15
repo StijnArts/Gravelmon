@@ -1,6 +1,82 @@
 {
    "target": "cobblemon:ditto",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "abilities": [
+    "limber",
+    "unburden",
+    "h:imposter"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 48,
+    "defence": 48,
+    "special_attack": 48,
+    "special_defence": 48,
+    "speed": 48
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 101,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "ditto"
+  ],
+  "moves": [
+    "1:transform"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochditto.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 48,
+    "defence": 48,
+    "special_attack": 48,
+    "special_defence": 48,
+    "speed": 48
+  },
+  "height": 3,
+  "weight": 40,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Norheiman",
   "primaryType": "ice",
   "abilities": [
@@ -239,6 +315,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "norheiman",
 "delta",
 "x"

@@ -1,0 +1,146 @@
+{
+   "target": "cobblemon:monferno",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "electric",
+  "secondaryType": "fighting",
+  "abilities": [
+    "reckless",
+    "longreach",
+    "h:superluck"
+  ],
+  "baseStats": {
+    "hp": 69,
+    "attack": 68,
+    "defence": 47,
+    "special_attack": 106,
+    "special_defence": 68,
+    "speed": 47
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "moves": [
+    "16:armthrust",
+    "13:thunderwave",
+    "50:superpower",
+    "1:leer",
+    "1:scratch",
+    "7:thundershock",
+    "19:spark",
+    "40:submission",
+    "27:doubleteam",
+    "60:highjumpkick",
+    "45:thunderbolt",
+    "9:machpunch",
+    "35:wildcharge",
+    "31:stormthrow",
+    "23:charge",
+    "55:thunder",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:electricterrain",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:hiddenpower",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochmonferno.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 69,
+    "attack": 68,
+    "defence": 47,
+    "special_attack": 106,
+    "special_defence": 68,
+    "speed": 2
+  },
+  "height": 9,
+  "weight": 220,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

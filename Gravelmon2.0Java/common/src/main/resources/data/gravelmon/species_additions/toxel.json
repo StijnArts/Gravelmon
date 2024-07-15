@@ -1,0 +1,133 @@
+{
+   "target": "cobblemon:toxel",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "abilities": [
+    "unaware",
+    "simple",
+    "h:oblivious"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 54,
+    "defence": 35,
+    "special_attack": 40,
+    "special_defence": 38,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 48,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tearfullook",
+    "1:branchpoke",
+    "1:worryseed",
+    "1:rocksmash",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bulkup",
+    "tm:bulletseed",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:drainpunch",
+    "tm:energyball",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:magicalleaf",
+    "tm:meteormash",
+    "tm:nobleroar",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:spikyshield",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:synthesis",
+    "tm:toxic",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:endeavor",
+    "egg:knockoff",
+    "egg:armthrust",
+    "egg:flail",
+    "egg:thunderpunch",
+    "egg:icepunch",
+    "egg:thunderouskick"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtoxel.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 1,
+    "defence": 35,
+    "special_attack": 40,
+    "special_defence": 38,
+    "speed": 35
+  },
+  "height": 4,
+  "weight": 110,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

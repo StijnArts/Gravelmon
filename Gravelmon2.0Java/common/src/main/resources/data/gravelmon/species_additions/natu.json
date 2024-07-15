@@ -1,0 +1,148 @@
+{
+   "target": "cobblemon:natu",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "steel",
+  "secondaryType": "electric",
+  "abilities": [
+    "battery",
+    "download",
+    "h:magicbounce"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 70,
+    "defence": 40,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "23:magnetbomb",
+    "56:lockon",
+    "1:leer",
+    "42:reflect",
+    "11:spark",
+    "42:lightscreen",
+    "19:metalsound",
+    "27:discharge",
+    "4:nuzzle",
+    "51:thunderbolt",
+    "1:peck",
+    "7:gearup",
+    "7:magneticflux",
+    "19:screech",
+    "56:zapcannon",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:boltbeak",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:bulletseed",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:gammaray",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:steelwing",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:workup",
+    "egg:magnetrise",
+    "egg:metalburst",
+    "egg:synchronoise",
+    "egg:spikes",
+    "egg:selfdestruct",
+    "egg:explosion"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochnatu.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 50,
+    "attack": 70,
+    "defence": 40,
+    "special_attack": 1,
+    "special_defence": 70,
+    "speed": 45
+  },
+  "height": 2,
+  "weight": 20,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

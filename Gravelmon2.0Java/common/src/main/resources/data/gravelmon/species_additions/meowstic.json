@@ -1,0 +1,142 @@
+{
+   "target": "cobblemon:meowstic",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "psychic",
+  "secondaryType": "ghost",
+  "abilities": [
+    "telepathy",
+    "h:hustle"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 88,
+    "defence": 76,
+    "special_attack": 104,
+    "special_defence": 53,
+    "speed": 71
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 228,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 163,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "8:shadowsneak",
+    "35:honeclaws",
+    "27:shadowclaw",
+    "1:leer",
+    "43:spectralthief",
+    "11:covet",
+    "36:spiritbreak",
+    "45:powertrip",
+    "53:possession",
+    "22:imprison",
+    "16:screech",
+    "1:astonish",
+    "tm:attract",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:gammaray",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:memento",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochmeowstic.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 74,
+    "attack": 88,
+    "defence": 76,
+    "special_attack": 104,
+    "special_defence": 53,
+    "speed": 2
+  },
+  "height": 6,
+  "weight": 85,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

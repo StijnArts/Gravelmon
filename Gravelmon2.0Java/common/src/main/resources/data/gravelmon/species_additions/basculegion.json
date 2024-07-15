@@ -1,0 +1,144 @@
+{
+   "target": "cobblemon:basculegion",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "dragon",
+  "secondaryType": "ghost",
+  "abilities": [
+    "swiftswim",
+    "innerfocus",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 122,
+    "defence": 90,
+    "special_attack": 113,
+    "special_defence": 55,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 85,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2"
+  ],
+  "moves": [
+    "32:flail",
+    "4:tackle",
+    "36:spiritshackle",
+    "1:leer",
+    "1:aquajet",
+    "8:bite",
+    "60:thrash",
+    "44:crunch",
+    "52:possession",
+    "24:breakingswipe",
+    "40:partingshot",
+    "56:fishiousrend",
+    "1:astonish",
+    "28:knockoff",
+    "20:scaryface",
+    "tm:attract",
+    "tm:brine",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dragondance",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:flipturn",
+    "tm:frostbite",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:memento",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbasculegion.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 90,
+    "attack": 2,
+    "defence": 90,
+    "special_attack": 113,
+    "special_defence": 55,
+    "speed": 60
+  },
+  "height": 10,
+  "weight": 180,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

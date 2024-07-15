@@ -1,6 +1,135 @@
 {
    "target": "cobblemon:gorebyss",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "bug",
+  "abilities": [
+    "swarm",
+    "marvelscale",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 54,
+    "defence": 65,
+    "special_attack": 52,
+    "special_defence": 134,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 123,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "16:waterpulse",
+    "50:hydropump",
+    "5:leer",
+    "1:infestation",
+    "28:gigadrain",
+    "34:extrasensory",
+    "55:hivemind",
+    "45:coil",
+    "1:whirlpool",
+    "1:octazooka",
+    "14:strugglebug",
+    "19:brine",
+    "23:defendorder",
+    "tm:attract",
+    "tm:brine",
+    "tm:coaching",
+    "tm:crunch",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:icefang",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:memento",
+    "tm:mist",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgorebyss.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 105,
+    "attack": 54,
+    "defence": 65,
+    "special_attack": 1,
+    "special_defence": 134,
+    "speed": 75
+  },
+  "height": 18,
+  "weight": 226,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Novran",
   "primaryType": "water",
   "secondaryType": "fairy",
@@ -332,6 +461,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "novran",
 "delta"
   ]

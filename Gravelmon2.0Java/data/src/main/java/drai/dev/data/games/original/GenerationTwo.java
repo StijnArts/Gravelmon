@@ -239,7 +239,6 @@ public class GenerationTwo extends Game {
         pokemon.add(new EpochCorsola("", Aspect.EPOCH));
         pokemon.add(new EpochMantine("", Aspect.EPOCH));
         pokemon.add(new EpochMurkrow("", Aspect.EPOCH));
-        pokemon.add(new EpochHonchkrow("", Aspect.EPOCH));
         pokemon.add(new EpochBlissey("", Aspect.EPOCH));
         pokemon.add(new EpochPichu("", Aspect.EPOCH));
         pokemon.add(new EpochIgglybuff("", Aspect.EPOCH));
@@ -285,6 +284,9 @@ public class GenerationTwo extends Game {
         pokemon.add(new EpochSkiploomOne("", Aspect.EPOCH));
         pokemon.add(new EpochJumpluffOne("", Aspect.EPOCH));
         pokemon.add(new EpochSkarmory("", Aspect.EPOCH));
+        pokemon.add(new EpochSentret("", Aspect.EPOCH));
+        pokemon.add(new EpochFurret("", Aspect.EPOCH));
+        pokemon.add(new EpochCrobat("", Aspect.EPOCH));
     }
 
     private void addMythianPokemon() {

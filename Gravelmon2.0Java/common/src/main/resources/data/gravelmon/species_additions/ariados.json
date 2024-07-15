@@ -1,6 +1,137 @@
 {
    "target": "cobblemon:ariados",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "dark",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisontouch",
+    "prankster",
+    "h:merciless"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 100,
+    "defence": 70,
+    "special_attack": 85,
+    "special_defence": 55,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 137,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "51:plague",
+    "1:leer",
+    "18:bite",
+    "21:toxicthread",
+    "41:obstruct",
+    "44:falsesurrender",
+    "1:powertrip",
+    "37:crunch",
+    "47:megahorn",
+    "7:torment",
+    "29:lunge",
+    "14:toxicspikes",
+    "11:poisonfang",
+    "4:poisonsting",
+    "tm:attract",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:hiddenpower",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:memento",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochariados.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 80,
+    "attack": 2,
+    "defence": 70,
+    "special_attack": 85,
+    "special_defence": 55,
+    "speed": 70
+  },
+  "height": 11,
+  "weight": 335,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Ayreian",
   "primaryType": "bug",
   "secondaryType": "dark",
@@ -156,6 +287,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "ayreian"
   ]
 }

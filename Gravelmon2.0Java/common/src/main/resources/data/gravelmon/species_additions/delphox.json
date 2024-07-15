@@ -1,6 +1,164 @@
 {
    "target": "cobblemon:delphox",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "cosmic",
+  "abilities": [
+    "magicguard",
+    "magicbounce",
+    "h:magician"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 55,
+    "defence": 76,
+    "special_attack": 98,
+    "special_defence": 114,
+    "speed": 106
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 240,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:bubble",
+    "5:soak",
+    "44:mindreader",
+    "1:swift",
+    "40:moonblast",
+    "24:gammaray",
+    "32:extrasensory",
+    "1:hiddenpower",
+    "1:futuresight",
+    "14:bubblebeam",
+    "20:teatime",
+    "36:scald",
+    "17:lifedew",
+    "48:lunardance",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:expandingforce",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdelphox.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 55,
+    "defence": 76,
+    "special_attack": 3,
+    "special_defence": 114,
+    "speed": 106
+  },
+  "height": 15,
+  "weight": 390,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "grass",
   "secondaryType": "ghost",
@@ -98,6 +256,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan"
   ]
 }

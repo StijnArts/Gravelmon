@@ -1,6 +1,159 @@
 {
    "target": "cobblemon:deino",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "psychic",
+  "secondaryType": "dragon",
+  "abilities": [
+    "competitive",
+    "h:anticipation"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 45,
+    "defence": 50,
+    "special_attack": 38,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "1:smokescreen",
+    "11:allyswitch",
+    "36:gastroacid",
+    "44:dragonpulse",
+    "40:extrasensory",
+    "16:dragonbreath",
+    "48:psychoshift",
+    "56:magiccoat",
+    "1:confusion",
+    "62:psychoboost",
+    "20:psybeam",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:psychic",
+    "egg:echoedvoice",
+    "egg:nobleroar",
+    "egg:venomdrench",
+    "egg:venoshock",
+    "egg:corrode",
+    "egg:dragonpulse"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdeino.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 45,
+    "defence": 50,
+    "special_attack": 38,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "height": 8,
+  "weight": 173,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "ground",
   "secondaryType": "poison",
@@ -179,6 +332,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "delta"
   ]
 }

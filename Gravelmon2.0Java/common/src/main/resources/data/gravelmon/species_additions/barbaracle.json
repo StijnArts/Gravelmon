@@ -1,6 +1,158 @@
 {
    "target": "cobblemon:barbaracle",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "abilities": [
+    "sturdy",
+    "telepathy",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 115,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3",
+    "water_1"
+  ],
+  "moves": [
+    "20:irondefense",
+    "1:wonderroom",
+    "1:swift",
+    "16:ancientpower",
+    "60:futuresight",
+    "32:diamondstorm",
+    "1:confusion",
+    "36:recover",
+    "40:powergem",
+    "1:trickroom",
+    "28:psyshock",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:moonblast",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbarbaracle.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 105,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 2,
+    "special_defence": 115,
+    "speed": 80
+  },
+  "height": 13,
+  "weight": 960,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "rock",
   "secondaryType": "steel",
@@ -96,6 +248,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan"
   ]
 }

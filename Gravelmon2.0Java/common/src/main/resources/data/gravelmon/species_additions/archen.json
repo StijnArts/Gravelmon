@@ -1,6 +1,170 @@
 {
    "target": "cobblemon:archen",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "electric",
+  "secondaryType": "dragon",
+  "abilities": [
+    "galewings",
+    "static",
+    "h:voltabsorb"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 74,
+    "defence": 55,
+    "special_attack": 70,
+    "special_defence": 92,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 71,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "dragon"
+  ],
+  "moves": [
+    "44:agility",
+    "54:hurricane",
+    "1:leer",
+    "18:voltswitch",
+    "4:thundershock",
+    "11:dragonbreath",
+    "33:featherdance",
+    "7:thundercage",
+    "66:dracometeor",
+    "15:shockwave",
+    "1:peck",
+    "23:tailwind",
+    "61:thunder",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:breakingswipe",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:closecombat",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:drainingkiss",
+    "tm:dualwingbeat",
+    "tm:electricterrain",
+    "tm:falseswipe",
+    "tm:featherdance",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:icefang",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:magnetrise",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:drillpeck",
+    "egg:acrobatics",
+    "egg:knockoff",
+    "egg:boltbeak",
+    "egg:extremespeed",
+    "egg:dualwingbeat"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epocharchen.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 55,
+    "attack": 74,
+    "defence": 55,
+    "special_attack": 1,
+    "special_defence": 92,
+    "speed": 55
+  },
+  "height": 5,
+  "weight": 95,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Ayreian",
   "primaryType": "dark",
   "secondaryType": "dragon",
@@ -182,6 +346,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "ayreian"
   ]
 }

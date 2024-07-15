@@ -1,6 +1,158 @@
 {
    "target": "cobblemon:exploud",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "electric",
+  "secondaryType": "sound",
+  "abilities": [
+    "motordrive",
+    "h:battery"
+  ],
+  "baseStats": {
+    "hp": 104,
+    "attack": 56,
+    "defence": 63,
+    "special_attack": 88,
+    "special_defence": 106,
+    "speed": 73
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 221,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "moves": [
+    "8:sonicboom",
+    "61:boomburst",
+    "51:hypervoice",
+    "12:thundercage",
+    "36:discharge",
+    "45:iondeluge",
+    "1:nuzzle",
+    "25:shockwave",
+    "41:overdrive",
+    "5:echoedvoice",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:soundbarrier",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochexploud.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 3,
+    "attack": 56,
+    "defence": 63,
+    "special_attack": 88,
+    "special_defence": 106,
+    "speed": 73
+  },
+  "height": 15,
+  "weight": 840,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Kaskadian",
   "primaryType": "normal",
   "secondaryType": "steel",
@@ -145,6 +297,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "kaskadian"
   ]
 }

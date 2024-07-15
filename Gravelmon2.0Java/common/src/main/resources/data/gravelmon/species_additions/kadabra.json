@@ -1,6 +1,139 @@
 {
    "target": "cobblemon:kadabra",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fighting",
+  "secondaryType": "normal",
+  "abilities": [
+    "innerfocus",
+    "steadfast",
+    "h:purepower"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 35,
+    "defence": 55,
+    "special_attack": 80,
+    "special_defence": 90,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "40:suckerpunch",
+    "17:poweruppunch",
+    "9:hiddenpower",
+    "13:focusenergy",
+    "28:coaching",
+    "47:return",
+    "34:rest",
+    "51:highjumpkick",
+    "4:machpunch",
+    "25:knockoff",
+    "44:triattack",
+    "9:rapidspin",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:expandingforce",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochkadabra.desc"
+  ],
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 65,
+    "attack": 35,
+    "defence": 55,
+    "special_attack": 80,
+    "special_defence": 90,
+    "speed": 2
+  },
+  "height": 13,
+  "weight": 565,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Ayreian",
   "primaryType": "dark",
   "secondaryType": "fighting",
@@ -196,6 +329,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "ayreian"
   ]
 }

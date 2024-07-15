@@ -1,6 +1,160 @@
 {
    "target": "cobblemon:noivern",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "sound",
+  "secondaryType": "dragon",
+  "abilities": [
+    "keeneye",
+    "h:punkrock"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 90,
+    "defence": 75,
+    "special_attack": 113,
+    "special_defence": 88,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 187,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "dragon"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "50:outrage",
+    "16:bite",
+    "38:dragonpulse",
+    "7:supersonic",
+    "12:glide",
+    "1:hypervoice",
+    "22:dragonbreath",
+    "28:doubleteam",
+    "41:crunch",
+    "59:dracometeor",
+    "44:screech",
+    "25:nobleroar",
+    "54:clangingscales",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:breakingswipe",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dualwingbeat",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:stealthrock",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochnoivern.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 95,
+    "attack": 90,
+    "defence": 75,
+    "special_attack": 113,
+    "special_defence": 88,
+    "speed": 2
+  },
+  "height": 15,
+  "weight": 850,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "fairy",
   "secondaryType": "dragon",
@@ -710,6 +864,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan",
 "delta",
 "seviian",

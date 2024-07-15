@@ -3,8 +3,8 @@ package drai.dev.data.games.registry;
 import drai.dev.data.*;
 import drai.dev.data.games.*;
 import drai.dev.data.games.original.*;
+import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.firstbatch.*;
-import drai.dev.data.games.pokemmo.pbs.*;
 import drai.dev.data.games.pokemmo.secondbatch.*;
 
 import java.util.*;

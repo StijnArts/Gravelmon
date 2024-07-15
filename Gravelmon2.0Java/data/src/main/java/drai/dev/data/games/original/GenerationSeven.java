@@ -118,12 +118,12 @@ public class GenerationSeven extends Game {
         pokemon.add(new EpochMudsdale("", Aspect.EPOCH));
         pokemon.add(new EpochSalandit("", Aspect.EPOCH));
         pokemon.add(new EpochSalazzle("", Aspect.EPOCH));
-        pokemon.add(new EpochTapukoko("", Aspect.EPOCH));
-        pokemon.add(new EpochTapulele("", Aspect.EPOCH));
-        pokemon.add(new EpochTapubulu("", Aspect.EPOCH));
-        pokemon.add(new EpochTapufini("", Aspect.EPOCH));
         pokemon.add(new EpochWimpod("", Aspect.EPOCH));
         pokemon.add(new EpochGolisopod("", Aspect.EPOCH));
+        pokemon.add(new EpochBounsweet("", Aspect.EPOCH));
+        pokemon.add(new EpochSteenee("", Aspect.EPOCH));
+        pokemon.add(new EpochTsareena("", Aspect.EPOCH));
+        pokemon.add(new EpochComfey("", Aspect.EPOCH));
 
     }
 }

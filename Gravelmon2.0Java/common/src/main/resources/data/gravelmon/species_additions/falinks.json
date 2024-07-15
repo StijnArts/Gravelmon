@@ -1,6 +1,128 @@
 {
    "target": "cobblemon:falinks",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "abilities": [
+    "purepower"  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 65,
+    "defence": 90,
+    "special_attack": 75,
+    "special_defence": 65,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "moves": [
+    "29:gammaray",
+    "42:risingvoltage",
+    "57:beatup",
+    "5:stardust",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:metronome",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochfalinks.desc"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 85,
+    "attack": 2,
+    "defence": 90,
+    "special_attack": 75,
+    "special_defence": 65,
+    "speed": 90
+  },
+  "height": 30,
+  "weight": 620,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Norheiman",
   "primaryType": "steel",
   "secondaryType": "fighting",
@@ -179,6 +301,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "norheiman"
   ]
 }

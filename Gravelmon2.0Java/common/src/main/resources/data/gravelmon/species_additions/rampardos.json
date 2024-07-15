@@ -1,6 +1,146 @@
 {
    "target": "cobblemon:rampardos",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "dragon",
+  "secondaryType": "dark",
+  "abilities": [
+    "intimidate",
+    "steelworker",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 87,
+    "attack": 145,
+    "defence": 60,
+    "special_attack": 108,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "24:nightslash",
+    "1:leer",
+    "6:metalclaw",
+    "46:irontail",
+    "10:pursuit",
+    "19:assurance",
+    "37:ironhead",
+    "33:swagger",
+    "28:dragonclaw",
+    "15:scaryface",
+    "42:swordsdance",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:earthquake",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:meteormash",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scaleshot",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochrampardos.desc"
+  ],
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 87,
+    "attack": 2,
+    "defence": 60,
+    "special_attack": 108,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "height": 16,
+  "weight": 1025,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Novran",
   "primaryType": "rock",
   "secondaryType": "fire",
@@ -171,6 +311,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "novran"
   ]
 }

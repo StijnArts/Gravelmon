@@ -1,6 +1,129 @@
 {
    "target": "cobblemon:swellow",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "abilities": [
+    "hustle",
+    "defiant",
+    "h:earlybird"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 60,
+    "special_attack": 100,
+    "special_defence": 70,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 159,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "29:agility",
+    "41:drillpeck",
+    "21:pluck",
+    "1:doubleteam",
+    "17:payback",
+    "25:cheapshot",
+    "9:focusenergy",
+    "1:peck",
+    "1:beatup",
+    "33:knockoff",
+    "37:lashout",
+    "49:bravebird",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:featherdance",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:steelwing",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochswellow.desc"
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 60,
+    "special_attack": 100,
+    "special_defence": 70,
+    "speed": 2
+  },
+  "height": 7,
+  "weight": 198,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Armiran",
   "primaryType": "electric",
   "secondaryType": "flying",
@@ -149,6 +272,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "armiran"
   ]
 }

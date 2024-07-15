@@ -1,6 +1,148 @@
 {
    "target": "cobblemon:greninja",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "electric",
+  "secondaryType": "ghost",
+  "abilities": [
+    "voltabsorb",
+    "static"  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 95,
+    "defence": 67,
+    "special_attack": 122,
+    "special_defence": 103,
+    "speed": 71
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "18:confuseray",
+    "1:thundershock",
+    "1:extrasensory",
+    "14:paraboliccharge",
+    "43:doubleteam",
+    "21:shockwave",
+    "5:trick",
+    "39:thunderbolt",
+    "1:growl",
+    "1:hex",
+    "8:charge",
+    "tm:attract",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:electricterrain",
+    "tm:falseswipe",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:magnetrise",
+    "tm:memento",
+    "tm:meteorbeam",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochgreninja.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 72,
+    "attack": 95,
+    "defence": 67,
+    "special_attack": 122,
+    "special_defence": 103,
+    "speed": 3
+  },
+  "height": 15,
+  "weight": 400,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "fire",
   "secondaryType": "poison",
@@ -522,6 +664,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "vesitan",
 "delta",
 "x",

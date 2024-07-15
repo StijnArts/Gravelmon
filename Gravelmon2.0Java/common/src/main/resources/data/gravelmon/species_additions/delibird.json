@@ -39,6 +39,148 @@
     ]
       },
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "dark",
+  "abilities": [
+    "grassysurge",
+    "pickpocket",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 95,
+    "defence": 80,
+    "special_attack": 85,
+    "special_defence": 20,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 58,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "21:leechseed",
+    "28:suckerpunch",
+    "31:grassyglide",
+    "13:worryseed",
+    "59:throatchop",
+    "46:uturn",
+    "50:falsesurrender",
+    "1:leafage",
+    "34:taunt",
+    "9:pursuit",
+    "37:acrobatics",
+    "40:partingshot",
+    "5:peck",
+    "43:seedbomb",
+    "1:fakeout",
+    "54:woodhammer",
+    "tm:acrobatics",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:breakingswipe",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:wish",
+    "egg:switcheroo",
+    "egg:feint",
+    "egg:needlearm",
+    "egg:drillpeck",
+    "egg:hammerarm"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdelibird.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 1,
+    "defence": 80,
+    "special_attack": 85,
+    "special_defence": 20,
+    "speed": 75
+  },
+  "height": 3,
+  "weight": 13,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Cefiran",
   "primaryType": "dark",
   "secondaryType": "flying",
@@ -140,6 +282,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "cefiran"
   ]
 }

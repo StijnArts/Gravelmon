@@ -1,6 +1,147 @@
 {
    "target": "cobblemon:parasect",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "bug",
+  "secondaryType": "ghost",
+  "abilities": [
+    "effectspore",
+    "dryskin",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 40,
+    "defence": 90,
+    "special_attack": 45,
+    "special_defence": 100,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug",
+    "grass"
+  ],
+  "moves": [
+    "8:poisonpowder",
+    "21:speedswap",
+    "1:infestation",
+    "5:acidspray",
+    "24:gigadrain",
+    "1:firstimpression",
+    "31:spore",
+    "11:megadrain",
+    "39:destinybond",
+    "35:sludgebomb",
+    "14:hex",
+    "8:stunspore",
+    "8:sleeppowder",
+    "21:powerswap",
+    "21:guardswap",
+    "tm:acidrain",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:memento",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:pinmissile",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:stealthrock",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochparasect.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 40,
+    "defence": 1,
+    "special_attack": 45,
+    "special_defence": 100,
+    "speed": 75
+  },
+  "height": 10,
+  "weight": 295,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Fligian",
   "primaryType": "ghost",
   "secondaryType": "dark",
@@ -154,6 +295,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "fligian"
   ]
 }

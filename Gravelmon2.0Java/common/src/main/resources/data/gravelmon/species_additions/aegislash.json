@@ -1,6 +1,519 @@
 {
    "target": "cobblemon:aegislash",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fairy",
+  "secondaryType": "steel",
+  "abilities": [
+    "telepathy",
+    "magicguard",
+    "h:megalauncher"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 65,
+    "defence": 80,
+    "special_attack": 100,
+    "special_defence": 81,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 222,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 234,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "40:reflect",
+    "40:lightscreen",
+    "28:aurasphere",
+    "1:imprison",
+    "24:mirrorcoat",
+    "16:autotomize",
+    "36:healpulse",
+    "4:fairywind",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wish",
+    "tm:wonderroom"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochaegislash.desc"
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 79,
+    "attack": 65,
+    "defence": 80,
+    "special_attack": 2,
+    "special_defence": 81,
+    "speed": 95
+  },
+  "height": 17,
+  "weight": 530,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "abilities": [
+    "skilllink",
+    "h:longreach"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 105,
+    "defence": 60,
+    "special_attack": 105,
+    "special_defence": 110,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 222,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 234,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "40:thousandarrows",
+    "24:fling",
+    "16:luckychant",
+    "48:spiritshackle",
+    "1:flashcannon",
+    "32:bulletseed",
+    "28:pinmissile",
+    "4:focusenergy",
+    "12:barrage",
+    "44:snipeshot",
+    "36:partingshot",
+    "tm:airslash",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:iciclespear",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:magicalleaf",
+    "tm:mirrorshot",
+    "tm:pinmissile",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochaegislashone.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 70,
+    "attack": 2,
+    "defence": 60,
+    "special_attack": 105,
+    "special_defence": 110,
+    "speed": 50
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochthree",
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "abilities": [
+    "defiant",
+    "adaptability",
+    "h:sharpness"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 105,
+    "defence": 85,
+    "special_attack": 100,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 222,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 234,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "36:nightslash",
+    "4:honeclaws",
+    "32:luckychant",
+    "1:furyswipes",
+    "20:smartstrike",
+    "12:flamecharge",
+    "52:infernalblade",
+    "16:sharpen",
+    "1:firelash",
+    "44:guillotine",
+    "8:falseswipe",
+    "24:swordsdance",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:dragondance",
+    "tm:falseswipe",
+    "tm:flareblitz",
+    "tm:furycutter",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:sleeptalk",
+    "tm:steelroller",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochaegislashtwo.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 105,
+    "attack": 2,
+    "defence": 85,
+    "special_attack": 100,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["epochthree"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochfour",
+  "primaryType": "ground",
+  "secondaryType": "steel",
+  "abilities": [
+    "static",
+    "transistor",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 110,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 222,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 234,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "12:irondefense",
+    "4:thunderwave",
+    "1:sandattack",
+    "24:smartstrike",
+    "20:spark",
+    "32:rockpolish",
+    "36:landswrath",
+    "44:hammerarm",
+    "16:bulldoze",
+    "40:ironhead",
+    "28:knockoff",
+    "1:steamroller",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:chargebeam",
+    "tm:closecombat",
+    "tm:confuseray",
+    "tm:earthpower",
+    "tm:electricterrain",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:meteormash",
+    "tm:mudslide",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochaegislashthree.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 3,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 110
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["epochfour"],
+  "cannotDynamax": false
+},
+{
   "name": "Africanusan",
   "primaryType": "steel",
   "secondaryType": "fighting",
@@ -225,6 +738,10 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
+"epochthree",
+"epochfour",
 "africanusan",
 "x"
   ]

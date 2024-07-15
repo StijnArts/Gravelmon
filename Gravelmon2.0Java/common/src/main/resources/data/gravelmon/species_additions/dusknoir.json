@@ -1,6 +1,148 @@
 {
    "target": "cobblemon:dusknoir",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "abilities": [
+    "blaze",
+    "levitate",
+    "h:whitesmoke"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 105,
+    "defence": 70,
+    "special_attack": 100,
+    "special_defence": 105,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 236,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "7:shadowsneak",
+    "10:firespin",
+    "56:flareblitz",
+    "36:spiritshackle",
+    "1:leer",
+    "32:shadowball",
+    "16:ominouswind",
+    "13:willowisp",
+    "28:mysticalfire",
+    "19:flamewheel",
+    "40:flamethrower",
+    "4:ember",
+    "44:phantomforce",
+    "24:hex",
+    "1:astonish",
+    "52:heatwave",
+    "60:burnup",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdusknoir.desc"
+  ],
+  "baseScale": 0.3666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 1,
+    "defence": 70,
+    "special_attack": 100,
+    "special_defence": 105,
+    "speed": 70
+  },
+  "height": 22,
+  "weight": 1066,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Fligian",
   "primaryType": "steel",
   "secondaryType": "ghost",
@@ -96,6 +238,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "fligian"
   ]
 }

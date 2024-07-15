@@ -1,6 +1,140 @@
 {
    "target": "cobblemon:cinccino",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "secondaryType": "fairy",
+  "abilities": [
+    "shadowtag",
+    "cottondown",
+    "h:fluffy"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 105,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "amorphous"
+  ],
+  "moves": [
+    "20:charm",
+    "1:cottonguard",
+    "20:captivate",
+    "16:ominouswind",
+    "12:drainingkiss",
+    "40:hypervoice",
+    "4:tickle",
+    "1:haunt",
+    "36:perishsong",
+    "28:moonlight",
+    "tm:attract",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:wonderroom"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcinccino.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 70,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 1,
+    "special_defence": 105,
+    "speed": 105
+  },
+  "height": 5,
+  "weight": 75,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Ayreian",
   "primaryType": "electric",
   "secondaryType": "dark",
@@ -158,6 +292,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "ayreian"
   ]
 }

@@ -1,6 +1,177 @@
 {
    "target": "cobblemon:bidoof",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "normal",
+  "abilities": [
+    "superluck",
+    "pickup",
+    "h:simple"
+  ],
+  "baseStats": {
+    "hp": 69,
+    "attack": 65,
+    "defence": 35,
+    "special_attack": 26,
+    "special_defence": 25,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "44:stompingtantrum",
+    "47:aquatail",
+    "1:tackle",
+    "51:superpower",
+    "32:flipturn",
+    "1:aquajet",
+    "5:defensecurl",
+    "39:crunch",
+    "25:takedown",
+    "1:growl",
+    "17:thief",
+    "28:bulldoze",
+    "11:headbutt",
+    "58:earthquake",
+    "8:steamroller",
+    "35:swordsdance",
+    "21:razorshell",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:crunch",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:falseswipe",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:liquidation",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:payday",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:quicksand",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandtomb",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:spikes",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:surgingstrikes",
+    "egg:doubleedge",
+    "egg:cheapshot",
+    "egg:falsesurrender",
+    "egg:jawlock",
+    "egg:switcheroo",
+    "egg:partingshot",
+    "egg:faketears",
+    "egg:rollout",
+    "egg:rockclimb",
+    "egg:attackorder"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochbidoof.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 65,
+    "defence": 35,
+    "special_attack": 26,
+    "special_defence": 25,
+    "speed": 35
+  },
+  "height": 5,
+  "weight": 200,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Kaskadian",
   "primaryType": "normal",
   "secondaryType": "steel",
@@ -114,6 +285,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "kaskadian"
   ]
 }

@@ -273,7 +273,6 @@ public class GenerationThree extends Game {
         pokemon.add(new EpochManectric("", Aspect.EPOCH));
         pokemon.add(new EpochTorkoal("", Aspect.EPOCH));
         pokemon.add(new EpochRoselia("", Aspect.EPOCH));
-        pokemon.add(new EpochLuvdisc("", Aspect.EPOCH));
         pokemon.add(new EpochAbsolOne("", Aspect.EPOCH));
         pokemon.add(new EpochSableyeOne("", Aspect.EPOCH));
         pokemon.add(new EpochSwabluOne("", Aspect.EPOCH));
@@ -320,9 +319,6 @@ public class GenerationThree extends Game {
         pokemon.add(new EpochMiloticOne("", Aspect.EPOCH));
         pokemon.add(new EpochSkitty("", Aspect.EPOCH));
         pokemon.add(new EpochDelcatty("", Aspect.EPOCH));
-        pokemon.add(new EpochRegirock("", Aspect.EPOCH));
-        pokemon.add(new EpochRegice("", Aspect.EPOCH));
-        pokemon.add(new EpochRegisteel("", Aspect.EPOCH));
 
     }
 

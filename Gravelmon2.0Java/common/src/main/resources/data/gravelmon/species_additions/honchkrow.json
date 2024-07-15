@@ -1,6 +1,293 @@
 {
    "target": "cobblemon:honchkrow",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "bigpecks",
+    "intimidate",
+    "h:cloudnine"
+  ],
+  "baseStats": {
+    "hp": 125,
+    "attack": 90,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 177,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "47:beakblast",
+    "33:drillpeck",
+    "15:pluck",
+    "38:foulplay",
+    "51:thrash",
+    "11:covet",
+    "5:furyattack",
+    "1:partingshot",
+    "1:peck",
+    "8:grasswhistle",
+    "18:tailwind",
+    "27:roost",
+    "23:facade",
+    "59:bravebird",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:coaching",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:featherdance",
+    "tm:focusblast",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:magicalleaf",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochhonchkrow.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 90,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 105
+  },
+  "height": 9,
+  "weight": 273,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "psychic",
+  "secondaryType": "flying",
+  "abilities": [
+    "telepathy",
+    "magicguard"  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 100,
+    "defence": 62,
+    "special_attack": 86,
+    "special_defence": 100,
+    "speed": 62
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 177,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "46:eeriespell",
+    "52:hurricane",
+    "57:calmmind",
+    "41:wonderroom",
+    "1:extrasensory",
+    "41:magicroom",
+    "1:gust",
+    "13:wingattack",
+    "5:telekinesis",
+    "35:dualwingbeat",
+    "41:trickroom",
+    "1:astonish",
+    "31:roost",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:featherdance",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:metronome",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochhonchkrowone.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 95,
+    "attack": 2,
+    "defence": 62,
+    "special_attack": 86,
+    "special_defence": 100,
+    "speed": 62
+  },
+  "height": 9,
+  "weight": 273,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
   "name": "Hizian",
   "primaryType": "flying",
   "secondaryType": "grass",
@@ -91,6 +378,8 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
+"epochtwo",
 "hizian"
   ]
 }

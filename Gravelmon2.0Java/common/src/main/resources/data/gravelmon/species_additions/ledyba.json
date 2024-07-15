@@ -17,6 +17,148 @@
  }
   ],
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "bug",
+  "secondaryType": "steel",
+  "abilities": [
+    "clearbody",
+    "tintedlens",
+    "h:heatproof"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 53,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "54:storedpower",
+    "1:infestation",
+    "30:reflect",
+    "41:airslash",
+    "38:bugbuzz",
+    "6:supersonic",
+    "25:mirrorshot",
+    "30:lightscreen",
+    "22:metalsound",
+    "33:autotomize",
+    "49:quiverdance",
+    "14:silverwind",
+    "22:screech",
+    "1:detect",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:energyball",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gigadrain",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:mirrorshot",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailglow",
+    "tm:tailwind",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:uturn",
+    "tm:wildcharge",
+    "tm:workup",
+    "egg:discharge",
+    "egg:metalburst",
+    "egg:aircutter",
+    "egg:stickyweb",
+    "egg:chargebeam"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochledyba.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 1,
+    "special_defence": 70,
+    "speed": 55
+  },
+  "height": 10,
+  "weight": 108,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Relic",
   "primaryType": "fire",
   "secondaryType": "steel",
@@ -153,6 +295,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "relic"
   ]
 }

@@ -1,6 +1,137 @@
 {
    "target": "cobblemon:huntail",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "abilities": [
+    "static",
+    "moldbreaker",
+    "h:unnerve"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 134,
+    "defence": 55,
+    "special_attack": 112,
+    "special_defence": 54,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 123,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "23:disable",
+    "16:flipturn",
+    "1:aquajet",
+    "9:bite",
+    "14:cheapshot",
+    "28:crunch",
+    "45:coil",
+    "5:screech",
+    "34:wildcharge",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:brine",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:hiddenpower",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:meteorbeam",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:soak",
+    "tm:steameruption",
+    "tm:swift",
+    "tm:tailglow",
+    "tm:taunt",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochhuntail.desc"
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 75,
+    "attack": 1,
+    "defence": 55,
+    "special_attack": 112,
+    "special_defence": 54,
+    "speed": 55
+  },
+  "height": 17,
+  "weight": 270,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Novran",
   "primaryType": "water",
   "secondaryType": "dragon",
@@ -321,6 +452,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "novran",
 "delta"
   ]

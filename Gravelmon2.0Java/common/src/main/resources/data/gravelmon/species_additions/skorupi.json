@@ -1,6 +1,166 @@
 {
    "target": "cobblemon:skorupi",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "ground",
+  "secondaryType": "poison",
+  "abilities": [
+    "sheerforce",
+    "sniper",
+    "h:poisonpoint"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 90,
+    "special_attack": 65,
+    "special_defence": 30,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "6:sandtomb",
+    "18:honeclaws",
+    "21:skittersmack",
+    "36:dig",
+    "1:leer",
+    "42:poisonjab",
+    "39:xscissor",
+    "3:visegrip",
+    "9:fellstinger",
+    "27:crosspoison",
+    "48:crunch",
+    "45:acupressure",
+    "24:bulldoze",
+    "30:toxicspikes",
+    "15:poisonfang",
+    "54:earthquake",
+    "12:steamroller",
+    "1:poisonsting",
+    "tm:attract",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:geomancy",
+    "tm:gunkshot",
+    "tm:hiddenpower",
+    "tm:hivemind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:strugglebug",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:sandattack",
+    "egg:xscissor",
+    "egg:crosspoison",
+    "egg:nightslash",
+    "egg:slash",
+    "egg:stompingtantrum",
+    "egg:stealthrock",
+    "egg:venomdrench",
+    "egg:skittersmack",
+    "egg:gastroacid"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochskorupi.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 1,
+    "special_attack": 65,
+    "special_defence": 30,
+    "speed": 55
+  },
+  "height": 8,
+  "weight": 120,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Hizian",
   "primaryType": "ground",
   "abilities": [
@@ -102,6 +262,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "hizian"
   ]
 }

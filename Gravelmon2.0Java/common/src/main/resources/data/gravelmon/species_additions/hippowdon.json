@@ -1,6 +1,145 @@
 {
    "target": "cobblemon:hippowdon",
    "forms": [{
+  "name": "Epoch",
+  "primaryType": "grass",
+  "secondaryType": "water",
+  "abilities": [
+    "raindish",
+    "flowerveil",
+    "h:ripen"
+  ],
+  "baseStats": {
+    "hp": 138,
+    "attack": 122,
+    "defence": 128,
+    "special_attack": 37,
+    "special_defence": 48,
+    "speed": 52
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 184,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "12:leechseed",
+    "24:slackoff",
+    "1:clamp",
+    "5:raindance",
+    "8:razorleaf",
+    "35:liquidation",
+    "1:growl",
+    "28:bodyslam",
+    "56:headsmash",
+    "47:ingrain",
+    "31:tropkick",
+    "43:woodhammer",
+    "39:wideguard",
+    "tm:aromatherapy",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:crunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:hypervoice",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:magicalleaf",
+    "tm:mist",
+    "tm:mudslide",
+    "tm:playrough",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:soak",
+    "tm:solarbeam",
+    "tm:spikyshield",
+    "tm:stealthrock",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochhippowdon.desc"
+  ],
+  "baseScale": 0.3333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 122,
+    "defence": 128,
+    "special_attack": 37,
+    "special_defence": 48,
+    "speed": 52
+  },
+  "height": 20,
+  "weight": 3000,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
   "name": "Armiran",
   "primaryType": "water",
   "secondaryType": "steel",
@@ -146,6 +285,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"epoch",
 "armiran"
   ]
 }

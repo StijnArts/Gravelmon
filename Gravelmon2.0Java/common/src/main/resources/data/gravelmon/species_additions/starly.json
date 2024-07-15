@@ -1,0 +1,128 @@
+{
+   "target": "cobblemon:starly",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "sound",
+  "secondaryType": "flying",
+  "abilities": [
+    "cloudnine",
+    "h:galewings"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 15,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 49,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "5:sonicboom",
+    "21:round",
+    "42:airslash",
+    "1:sandattack",
+    "1:gust",
+    "24:tailwind",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:featherdance",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:weatherball",
+    "tm:wish",
+    "tm:workup"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochstarly.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 50,
+    "attack": 15,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 20,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}
