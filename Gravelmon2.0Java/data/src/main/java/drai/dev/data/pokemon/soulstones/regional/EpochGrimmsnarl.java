@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGrimmsnarl extends drai.dev.data.pokemon.Pokemon {
     public EpochGrimmsnarl(String name, Aspect aspect) {
-        super(name, aspect,"EpochGrimmsnarl",
+        super(name, aspect, "EpochGrimmsnarl",
                 Type.GROUND,Type.FAIRY,
                 new Stats(85,
                         105,
@@ -67,7 +67,7 @@ public class EpochGrimmsnarl extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.TANGLING_HAIR,Ability.STORM_DRAIN), Ability.PRANKSTER,
                 15, 610,
-                new Stats(85,3,80,50,105,85), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 1.0,
                 255, ExperienceGroup.MEDIUM_FAST,
                 70,

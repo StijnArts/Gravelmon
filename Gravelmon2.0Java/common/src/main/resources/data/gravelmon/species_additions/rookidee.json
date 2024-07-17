@@ -114,6 +114,22 @@
   "pokedex": [
     "cobblemon.species.epochrookidee.desc"
   ],
+  "evolutions": [
+    {
+      "id": "rookidee_epoch_corvisquire",
+      "variant": "level_up",
+      "result": "epoch corvisquire",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -122,12 +138,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 40,
+    "hp": 0,
     "attack": 1,
-    "defence": 47,
-    "special_attack": 50,
-    "special_defence": 17,
-    "speed": 47
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 2,
   "weight": 18,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRampardos extends drai.dev.data.pokemon.Pokemon {
     public EpochRampardos(String name, Aspect aspect) {
-        super(name, aspect,"EpochRampardos",
+        super(name, aspect, "EpochRampardos",
                 Type.DRAGON,Type.DARK,
                 new Stats(87,
                         145,
@@ -67,7 +67,7 @@ public class EpochRampardos extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.INTIMIDATE,Ability.STEELWORKER), Ability.SHEER_FORCE,
                 16, 1025,
-                new Stats(87,2,60,108,45,50), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.875,
                 173, ExperienceGroup.ERRATIC,
                 70,

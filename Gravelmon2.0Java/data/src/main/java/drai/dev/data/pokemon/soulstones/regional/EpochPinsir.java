@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPinsir extends drai.dev.data.pokemon.Pokemon {
     public EpochPinsir(String name, Aspect aspect) {
-        super(name, aspect,"EpochPinsir",
+        super(name, aspect, "EpochPinsir",
                 Type.ELECTRIC,Type.ROCK,
                 new Stats(65,
                         125,
@@ -67,7 +67,7 @@ public class EpochPinsir extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.MAGNET_PULL,Ability.STATIC), Ability.SOUNDPROOF,
                 15, 550,
-                new Stats(65,2,100,85,55,70), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 175, ExperienceGroup.SLOW,
                 70,
@@ -172,11 +172,10 @@ public class EpochPinsir extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARGE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 54, 1.8, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.AMETHYST_GEODE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pinsir");

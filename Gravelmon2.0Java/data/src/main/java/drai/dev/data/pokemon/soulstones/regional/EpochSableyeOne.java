@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSableyeOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSableyeOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSableyeOne",
+        super(name, aspect, "EpochSableyeOne",
                 Type.WATER,Type.BUG,
                 new Stats(90,
                         100,
@@ -67,7 +67,7 @@ public class EpochSableyeOne extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.LEECHINGFANGS,Ability.TINTED_LENS), Ability.SUCTION_CUPS,
                 5, 110,
-                new Stats(90,1,80,50,50,110), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 133, ExperienceGroup.MEDIUM_SLOW,
                 70,

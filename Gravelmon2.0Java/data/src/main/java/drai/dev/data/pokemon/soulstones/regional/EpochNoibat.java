@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNoibat extends drai.dev.data.pokemon.Pokemon {
     public EpochNoibat(String name, Aspect aspect) {
-        super(name, aspect,"EpochNoibat",
+        super(name, aspect, "EpochNoibat",
                 Type.SOUND,Type.DRAGON,
                 new Stats(60,
                         65,
@@ -67,13 +67,14 @@ public class EpochNoibat extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.CACOPHONY,Ability.IRREDEEMABLE), Ability.PUNK_ROCK,
                 5, 80,
-                new Stats(60,65,35,85,65,1), 200,
+                new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 49, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.DRAGON),
                 List.of("They emit high-pitched screeches as a means of stunning and disabling their foe in combat."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch noivern", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SHATTER,35),

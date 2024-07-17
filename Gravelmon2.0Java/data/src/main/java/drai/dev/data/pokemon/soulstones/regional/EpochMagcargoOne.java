@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagcargoOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMagcargoOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMagcargoOne",
+        super(name, aspect, "EpochMagcargoOne",
                 Type.WATER,Type.PSYCHIC,
                 new Stats(100,
                         40,
@@ -67,7 +67,7 @@ public class EpochMagcargoOne extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.WATER_VEIL,Ability.CLEAR_BODY), Ability.PSYCHIC_SURGE,
                 8, 550,
-                new Stats(100,40,75,2,110,90), 75,
+                new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 151, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -180,13 +180,14 @@ public class EpochMagcargoOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 33, 52, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Magcargo");
 
     }

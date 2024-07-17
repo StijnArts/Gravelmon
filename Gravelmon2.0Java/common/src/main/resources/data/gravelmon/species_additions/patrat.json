@@ -134,6 +134,22 @@
   "pokedex": [
     "cobblemon.species.epochpatrat.desc"
   ],
+  "evolutions": [
+    {
+      "id": "patrat_epoch_watchog",
+      "variant": "level_up",
+      "result": "epoch watchog",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -142,12 +158,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 45,
+    "hp": 0,
     "attack": 1,
-    "defence": 39,
-    "special_attack": 42,
-    "special_defence": 40,
-    "speed": 39
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 5,
   "weight": 116,

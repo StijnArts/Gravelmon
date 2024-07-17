@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHatenna extends drai.dev.data.pokemon.Pokemon {
     public EpochHatenna(String name, Aspect aspect) {
-        super(name, aspect,"EpochHatenna",
+        super(name, aspect, "EpochHatenna",
                 Type.PSYCHIC,Type.GHOST,
                 new Stats(42,
                         30,
@@ -67,13 +67,14 @@ public class EpochHatenna extends drai.dev.data.pokemon.Pokemon {
                         53),
                 List.of(Ability.CURIOUS_MEDICINE,Ability.SHADOW_SHIELD), Ability.DRY_SKIN,
                 4, 34,
-                new Stats(42,30,45,1,56,53), 235,
+                new Stats(0,0,0,1,0,0), 235,
                 0.0,
                 53, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon is known for living an isolated life in locations far away from civilization. For that reason, it is often misunderstood."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch hattrem", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EERIE_SPELL,34),
                         new MoveLearnSetEntry(Move.ROLE_PLAY,4),

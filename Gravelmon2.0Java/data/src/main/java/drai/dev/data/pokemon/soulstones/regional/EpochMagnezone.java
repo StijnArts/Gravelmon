@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagnezone extends drai.dev.data.pokemon.Pokemon {
     public EpochMagnezone(String name, Aspect aspect) {
-        super(name, aspect,"EpochMagnezone",
+        super(name, aspect, "EpochMagnezone",
                 Type.COSMIC,Type.STEEL,
                 new Stats(70,
                         70,
@@ -67,7 +67,7 @@ public class EpochMagnezone extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.FRISK,Ability.TRANSISTOR), Ability.MAGNET_PULL,
                 12, 1800,
-                new Stats(70,70,115,3,130,90), 100,
+                new Stats(0,0,0,3,0,0), 100,
                 -1.0,
                 241, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -162,9 +162,8 @@ public class EpochMagnezone extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WONDER_ROOM,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 48, 58, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

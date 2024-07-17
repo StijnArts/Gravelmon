@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLudicolo extends drai.dev.data.pokemon.Pokemon {
     public EpochLudicolo(String name, Aspect aspect) {
-        super(name, aspect,"EpochLudicolo",
+        super(name, aspect, "EpochLudicolo",
                 Type.GRASS,Type.GROUND,
                 new Stats(110,
                         45,
@@ -67,7 +67,7 @@ public class EpochLudicolo extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.SYNTHESIZE,Ability.SOLAR_POWER), Ability.DROUGHT,
                 15, 550,
-                new Stats(2,45,70,60,100,95), 95,
+                new Stats(2,0,0,0,0,0), 95,
                 0.5,
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,

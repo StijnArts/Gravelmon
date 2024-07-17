@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochClefable extends drai.dev.data.pokemon.Pokemon {
     public EpochClefable(String name, Aspect aspect) {
-        super(name, aspect,"EpochClefable",
+        super(name, aspect, "EpochClefable",
                 Type.COSMIC,Type.FAIRY,
                 new Stats(90,
                         50,
@@ -67,7 +67,7 @@ public class EpochClefable extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.FAIRY_AURA,Ability.MISTY_SURGE), Ability.SHIELD_DUST,
                 13, 400,
-                new Stats(3,50,73,70,95,105), 85,
+                new Stats(3,0,0,0,0,0), 85,
                 0.0,
                 217, ExperienceGroup.FAST,
                 70,
@@ -192,9 +192,8 @@ public class EpochClefable extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

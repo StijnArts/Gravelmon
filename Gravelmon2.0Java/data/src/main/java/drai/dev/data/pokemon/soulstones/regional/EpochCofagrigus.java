@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCofagrigus extends drai.dev.data.pokemon.Pokemon {
     public EpochCofagrigus(String name, Aspect aspect) {
-        super(name, aspect,"EpochCofagrigus",
+        super(name, aspect, "EpochCofagrigus",
                 Type.SOUND,Type.GHOST,
                 new Stats(58,
                         40,
@@ -67,7 +67,7 @@ public class EpochCofagrigus extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.SOUNDPROOF,Ability.SYNCHRONIZE), Ability.VITAL_SPIRIT,
                 17, 765,
-                new Stats(58,40,80,1,125,90), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.5,
                 169, ExperienceGroup.MEDIUM_FAST,
                 70,

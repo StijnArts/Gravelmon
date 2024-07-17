@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAraquanidOne extends drai.dev.data.pokemon.Pokemon {
     public EpochAraquanidOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochAraquanidOne",
+        super(name, aspect, "EpochAraquanidOne",
                 Type.BUG,Type.PSYCHIC,
                 new Stats(68,
                         85,
@@ -67,7 +67,7 @@ public class EpochAraquanidOne extends drai.dev.data.pokemon.Pokemon {
                         72),
                 List.of(Ability.MERCILESS,Ability.COMPOUND_EYES), Ability.TERRORIZE,
                 18, 820,
-                new Stats(68,1,92,87,50,72), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 159, ExperienceGroup.MEDIUM_FAST,
                 70,

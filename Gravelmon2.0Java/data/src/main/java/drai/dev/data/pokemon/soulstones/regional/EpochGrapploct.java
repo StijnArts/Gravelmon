@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGrapploct extends drai.dev.data.pokemon.Pokemon {
     public EpochGrapploct(String name, Aspect aspect) {
-        super(name, aspect,"EpochGrapploct",
+        super(name, aspect, "EpochGrapploct",
                 Type.WATER,Type.FIGHTING,
                 new Stats(90,
                         98,
@@ -67,7 +67,7 @@ public class EpochGrapploct extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.CONTRARY,Ability.ARENA_TRAP), Ability.MOLD_BREAKER,
                 16, 390,
-                new Stats(90,2,100,50,42,100), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 168, ExperienceGroup.MEDIUM_SLOW,
                 70,

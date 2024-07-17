@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPoochyena extends drai.dev.data.pokemon.Pokemon {
     public EpochPoochyena(String name, Aspect aspect) {
-        super(name, aspect,"EpochPoochyena",
+        super(name, aspect, "EpochPoochyena",
                 Type.ICE,
                 new Stats(35,
                         65,
@@ -67,13 +67,14 @@ public class EpochPoochyena extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.INTIMIDATE,Ability.MOXIE), Ability.STRONG_JAW,
                 5, 136,
-                new Stats(35,1,35,35,20,30), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is a scavenger on tundras and open snowy fields. Its fur blends well into its environment that it seemingly shows up out of no where because of its agility."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch mightyena", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HONE_CLAWS,38),
                         new MoveLearnSetEntry(Move.TACKLE,1),

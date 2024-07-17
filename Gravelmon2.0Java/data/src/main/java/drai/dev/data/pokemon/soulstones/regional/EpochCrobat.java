@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCrobat extends drai.dev.data.pokemon.Pokemon {
     public EpochCrobat(String name, Aspect aspect) {
-        super(name, aspect,"EpochCrobat",
+        super(name, aspect, "EpochCrobat",
                 Type.DARK,Type.SOUND,
                 new Stats(85,
                         95,
@@ -67,7 +67,7 @@ public class EpochCrobat extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.LEVITATE,Ability.LEECHINGFANGS), Ability.MERCILESS,
                 18, 750,
-                new Stats(85,95,80,120,65,3), 100,
+                new Stats(0,0,0,0,0,3), 100,
                 0.5,
                 241, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -155,13 +155,14 @@ public class EpochCrobat extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 61, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Crobat");
 
     }

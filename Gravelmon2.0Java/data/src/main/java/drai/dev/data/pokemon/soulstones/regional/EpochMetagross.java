@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMetagross extends drai.dev.data.pokemon.Pokemon {
     public EpochMetagross(String name, Aspect aspect) {
-        super(name, aspect,"EpochMetagross",
+        super(name, aspect, "EpochMetagross",
                 Type.COSMIC,Type.PSYCHIC,
                 new Stats(80,
                         95,
@@ -67,7 +67,7 @@ public class EpochMetagross extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.FILTER,Ability.FULL_METAL_BODY), Ability.ANALYTIC,
                 16, 5500,
-                new Stats(80,95,3,70,135,90), 75,
+                new Stats(0,0,3,0,0,0), 75,
                 -1.0,
                 270, ExperienceGroup.SLOW,
                 70,

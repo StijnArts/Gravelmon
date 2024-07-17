@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGalvantula extends drai.dev.data.pokemon.Pokemon {
     public EpochGalvantula(String name, Aspect aspect) {
-        super(name, aspect,"EpochGalvantula",
+        super(name, aspect, "EpochGalvantula",
                 Type.BUG,Type.DARK,
                 new Stats(80,
                         105,
@@ -67,7 +67,7 @@ public class EpochGalvantula extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.EMERGENCY_EXIT,Ability.IMMUNITY), Ability.INTIMIDATE,
                 8, 143,
-                new Stats(80,105,45,70,100,2), 100,
+                new Stats(0,0,0,0,0,2), 100,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
                 70,

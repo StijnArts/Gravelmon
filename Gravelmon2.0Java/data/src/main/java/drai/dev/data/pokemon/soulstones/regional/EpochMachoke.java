@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMachoke extends drai.dev.data.pokemon.Pokemon {
     public EpochMachoke(String name, Aspect aspect) {
-        super(name, aspect,"EpochMachoke",
+        super(name, aspect, "EpochMachoke",
                 Type.GROUND,Type.FIGHTING,
                 new Stats(90,
                         100,
@@ -67,13 +67,14 @@ public class EpochMachoke extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.SAND_FORCE,Ability.NO_GUARD), Ability.INTIMIDATE,
                 15, 705,
-                new Stats(90,2,80,65,40,50), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.25,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It is prone to entering into a rage when it loses things. The fact that it has only one eye to find lost articles does not help either."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch machamp", EvolutionType.TRADE, false, List.of(),
+ List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.ARM_THRUST,8),
@@ -154,8 +155,8 @@ public class EpochMachoke extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 42, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

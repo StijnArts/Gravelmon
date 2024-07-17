@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShelgon extends drai.dev.data.pokemon.Pokemon {
     public EpochShelgon(String name, Aspect aspect) {
-        super(name, aspect,"EpochShelgon",
+        super(name, aspect, "EpochShelgon",
                 Type.FIRE,Type.POISON,
                 new Stats(65,
                         75,
@@ -67,13 +67,14 @@ public class EpochShelgon extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.FLAME_BODY,Ability.POISON_TOUCH), Ability.DRAGONS_MAW,
                 11, 1105,
-                new Stats(65,75,2,50,80,50), 90,
+                new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 147, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("The molten shell on its body should not be allowed to cool otherwise it will become significantly weighed down and immobilize it under the weight."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch salamence", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,10),
                         new MoveLearnSetEntry(Move.VENOSHOCK,25),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlowpoke extends drai.dev.data.pokemon.Pokemon {
     public EpochSlowpoke(String name, Aspect aspect) {
-        super(name, aspect,"EpochSlowpoke",
+        super(name, aspect, "EpochSlowpoke",
                 Type.NORMAL,
                 new Stats(80,
                         60,
@@ -67,13 +67,16 @@ public class EpochSlowpoke extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.OBLIVIOUS,Ability.OWN_TEMPO), Ability.GLUTTONY,
                 12, 360,
-                new Stats(1,60,60,15,40,60), 190,
+                new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 63, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.BUG),
                 List.of("This Pokemon likes to always have a reserve of honey on its tail so in case it is hungry, it can always taste some off the tail rather than trying to find more."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch slowbro", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"))),
+new EvolutionEntry("epoch slowking", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,9),
                         new MoveLearnSetEntry(Move.SKITTER_SMACK,24),
@@ -149,11 +152,11 @@ public class EpochSlowpoke extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DECORATE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.HONEY_TREE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Slowpoke");

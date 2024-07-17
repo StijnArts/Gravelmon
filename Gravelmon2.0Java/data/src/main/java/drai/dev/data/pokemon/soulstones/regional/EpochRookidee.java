@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRookidee extends drai.dev.data.pokemon.Pokemon {
     public EpochRookidee(String name, Aspect aspect) {
-        super(name, aspect,"EpochRookidee",
+        super(name, aspect, "EpochRookidee",
                 Type.DARK,Type.ELECTRIC,
                 new Stats(40,
                         55,
@@ -67,13 +67,14 @@ public class EpochRookidee extends drai.dev.data.pokemon.Pokemon {
                         47),
                 List.of(Ability.BIG_PECKS,Ability.CONDUCTOR), Ability.BLACKLIGHT,
                 2, 18,
-                new Stats(40,1,47,50,17,47), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 49, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is said that whenever you see one of these, a thunder storm is close behind."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch corvisquire", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,26),
                         new MoveLearnSetEntry(Move.SHORTFUSE,7),

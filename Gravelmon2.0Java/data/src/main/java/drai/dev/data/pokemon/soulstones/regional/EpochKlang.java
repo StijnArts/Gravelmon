@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKlang extends drai.dev.data.pokemon.Pokemon {
     public EpochKlang(String name, Aspect aspect) {
-        super(name, aspect,"EpochKlang",
+        super(name, aspect, "EpochKlang",
                 Type.SOUND,Type.STEEL,
                 new Stats(60,
                         90,
@@ -67,13 +67,14 @@ public class EpochKlang extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.LEVITATE,Ability.OWN_TEMPO), Ability.MOTOR_DRIVE,
                 6, 510,
-                new Stats(60,90,2,50,60,85), 123,
+                new Stats(0,0,2,0,0,0), 123,
                 -1.0,
                 154, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is able to synchronize its attacks based on the internal clock that allows it to amplify its damage."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch klinklang", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),
                         new MoveLearnSetEntry(Move.SONICCRASH,54),

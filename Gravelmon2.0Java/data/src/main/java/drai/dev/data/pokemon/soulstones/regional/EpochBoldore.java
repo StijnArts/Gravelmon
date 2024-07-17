@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBoldore extends drai.dev.data.pokemon.Pokemon {
     public EpochBoldore(String name, Aspect aspect) {
-        super(name, aspect,"EpochBoldore",
+        super(name, aspect, "EpochBoldore",
                 Type.ICE,Type.WATER,
                 new Stats(70,
                         55,
@@ -67,13 +67,14 @@ public class EpochBoldore extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.ICE_BODY,Ability.HYDRATION), Ability.SNOW_WARNING,
                 9, 1020,
-                new Stats(70,1,75,40,90,70), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Due to the ongoing climate crisis, parts of icebergs that have since melted and separated away turn into Boldores."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gigalith", EvolutionType.TRADE, false, List.of(), 
+ List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,16),
                         new MoveLearnSetEntry(Move.OCEANBLAST,44),

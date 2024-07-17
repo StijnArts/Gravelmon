@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochApplin extends drai.dev.data.pokemon.Pokemon {
     public EpochApplin(String name, Aspect aspect) {
-        super(name, aspect,"EpochApplin",
+        super(name, aspect, "EpochApplin",
                 Type.STEEL,
                 new Stats(40,
                         40,
@@ -67,13 +67,18 @@ public class EpochApplin extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.OBLIVIOUS,Ability.CANNONFIRE), Ability.BULLETPROOF,
                 42, 305,
-                new Stats(40,40,1,20,40,40), 155,
+                new Stats(0,0,1,0,0,0), 155,
                 0.5,
                 52, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It would ordinarily be able to roll around quite easily, however it is very noisy in doing so because the clamp gets dragged along with it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch flapple", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_belt"),
+new EvolutionEntry("epoch appletun", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone"),
+new EvolutionEntry("epoch dipplin", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,32),
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,19),

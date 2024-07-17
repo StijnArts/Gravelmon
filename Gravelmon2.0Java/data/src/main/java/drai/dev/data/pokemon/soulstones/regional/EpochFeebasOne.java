@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFeebasOne extends drai.dev.data.pokemon.Pokemon {
     public EpochFeebasOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochFeebasOne",
+        super(name, aspect, "EpochFeebasOne",
                 Type.FIRE,
                 new Stats(20,
                         10,
@@ -67,13 +67,14 @@ public class EpochFeebasOne extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.SCORCHSCALE,Ability.DRY_SKIN), Ability.DISHEARTEN,
                 6, 74,
-                new Stats(20,10,1,40,15,50), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 40, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("This Pokemon enjoys frolicking in hot lava, as a result, its population has grown significantly because it has no natural predators in this habitat."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo milotic", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,10),
                         new MoveLearnSetEntry(Move.FLAIL,15),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSerperior extends drai.dev.data.pokemon.Pokemon {
     public EpochSerperior(String name, Aspect aspect) {
-        super(name, aspect,"EpochSerperior",
+        super(name, aspect, "EpochSerperior",
                 Type.GHOST,
                 new Stats(75,
                         75,
@@ -67,7 +67,7 @@ public class EpochSerperior extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.CURSED_BODY,Ability.WONDER_SKIN), Ability.SHADOW_SHIELD,
                 33, 630,
-                new Stats(75,75,95,113,75,3), 90,
+                new Stats(0,0,0,0,0,3), 90,
                 0.875,
                 238, ExperienceGroup.MEDIUM_SLOW,
                 70,

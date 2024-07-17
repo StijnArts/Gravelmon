@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDunsparce extends drai.dev.data.pokemon.Pokemon {
     public EpochDunsparce(String name, Aspect aspect) {
-        super(name, aspect,"EpochDunsparce",
+        super(name, aspect, "EpochDunsparce",
                 Type.BUG,Type.POISON,
                 new Stats(100,
                         95,
@@ -67,13 +67,14 @@ public class EpochDunsparce extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.EMERGENCY_EXIT,Ability.RUN_AWAY), Ability.EARTH_EATER,
                 15, 140,
-                new Stats(1,95,70,45,40,65), 190,
+                new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 145, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its strategy is to perpetually find hosts, infest them, and siphon energy to strengthen itself and then move onto the next host and continue the cycle."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dudunsparce", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.GLARE,12),
                         new MoveLearnSetEntry(Move.SKITTER_SMACK,20),
@@ -146,9 +147,8 @@ public class EpochDunsparce extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.INFESTATION,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 25, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

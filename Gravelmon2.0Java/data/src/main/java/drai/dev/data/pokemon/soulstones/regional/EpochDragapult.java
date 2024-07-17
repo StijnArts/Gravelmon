@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDragapult extends drai.dev.data.pokemon.Pokemon {
     public EpochDragapult(String name, Aspect aspect) {
-        super(name, aspect,"EpochDragapult",
+        super(name, aspect, "EpochDragapult",
                 Type.STEEL,Type.FLYING,
                 new Stats(115,
                         70,
@@ -67,7 +67,7 @@ public class EpochDragapult extends drai.dev.data.pokemon.Pokemon {
                         120),
                 List.of(Ability.WHITE_SMOKE,Ability.INFILTRATOR), Ability.WEAK_ARMOR,
                 30, 500,
-                new Stats(115,70,75,120,100,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 300, ExperienceGroup.SLOW,
                 70,

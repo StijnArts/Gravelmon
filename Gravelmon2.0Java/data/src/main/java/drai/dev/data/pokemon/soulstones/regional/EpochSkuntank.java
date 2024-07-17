@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkuntank extends drai.dev.data.pokemon.Pokemon {
     public EpochSkuntank(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkuntank",
+        super(name, aspect, "EpochSkuntank",
                 Type.NORMAL,Type.POISON,
                 new Stats(85,
                         113,
@@ -67,7 +67,7 @@ public class EpochSkuntank extends drai.dev.data.pokemon.Pokemon {
                         61),
                 List.of(Ability.SUPER_LUCK,Ability.NEUTRALIZING_GAS), Ability.FUR_COAT,
                 10, 380,
-                new Stats(85,2,67,92,61,61), 123,
+                new Stats(0,2,0,0,0,0), 123,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,

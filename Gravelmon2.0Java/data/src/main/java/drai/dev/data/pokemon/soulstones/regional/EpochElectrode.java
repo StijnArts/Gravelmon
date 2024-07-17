@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochElectrode extends drai.dev.data.pokemon.Pokemon {
     public EpochElectrode(String name, Aspect aspect) {
-        super(name, aspect,"EpochElectrode",
+        super(name, aspect, "EpochElectrode",
                 Type.ICE,
                 new Stats(60,
                         100,
@@ -67,7 +67,7 @@ public class EpochElectrode extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.SPEED_BOOST,Ability.PACKEDSNOW), Ability.SNOW_CLOAK,
                 12, 666,
-                new Stats(60,100,60,110,50,2), 100,
+                new Stats(0,0,0,0,0,2), 100,
                 -1.0,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -134,13 +134,13 @@ public class EpochElectrode extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Electrode");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPersian extends drai.dev.data.pokemon.Pokemon {
     public EpochPersian(String name, Aspect aspect) {
-        super(name, aspect,"EpochPersian",
+        super(name, aspect, "EpochPersian",
                 Type.ELECTRIC,
                 new Stats(65,
                         50,
@@ -67,7 +67,7 @@ public class EpochPersian extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.STATIC,Ability.INFILTRATOR), Ability.ELECTRIC_SURGE,
                 10, 320,
-                new Stats(65,50,60,125,80,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -159,8 +159,8 @@ public class EpochPersian extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

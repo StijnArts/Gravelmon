@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGreedent extends drai.dev.data.pokemon.Pokemon {
     public EpochGreedent(String name, Aspect aspect) {
-        super(name, aspect,"EpochGreedent",
+        super(name, aspect, "EpochGreedent",
                 Type.ICE,Type.NORMAL,
                 new Stats(120,
                         95,
@@ -67,7 +67,7 @@ public class EpochGreedent extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.CHEEK_POUCH,Ability.STRONG_JAW), Ability.GLUTTONY,
                 6, 60,
-                new Stats(2,95,95,20,55,75), 90,
+                new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,

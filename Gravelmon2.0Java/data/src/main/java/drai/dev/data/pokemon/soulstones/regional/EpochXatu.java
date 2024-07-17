@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochXatu extends drai.dev.data.pokemon.Pokemon {
     public EpochXatu(String name, Aspect aspect) {
-        super(name, aspect,"EpochXatu",
+        super(name, aspect, "EpochXatu",
                 Type.STEEL,Type.ELECTRIC,
                 new Stats(75,
                         95,
@@ -67,7 +67,7 @@ public class EpochXatu extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.BATTERY,Ability.DOWNLOAD), Ability.MAGIC_BOUNCE,
                 15, 150,
-                new Stats(75,95,65,1,95,70), 100,
+                new Stats(0,0,0,1,0,0), 100,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -154,9 +154,8 @@ public class EpochXatu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 47, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

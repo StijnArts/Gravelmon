@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHypno extends drai.dev.data.pokemon.Pokemon {
     public EpochHypno(String name, Aspect aspect) {
-        super(name, aspect,"EpochHypno",
+        super(name, aspect, "EpochHypno",
                 Type.DARK,Type.FIGHTING,
                 new Stats(80,
                         105,
@@ -67,7 +67,7 @@ public class EpochHypno extends drai.dev.data.pokemon.Pokemon {
                         73),
                 List.of(Ability.REALISM,Ability.MOLD_BREAKER), Ability.MOXIE,
                 16, 756,
-                new Stats(80,105,85,72,2,73), 100,
+                new Stats(0,0,0,0,2,0), 100,
                 0.5,
                 169, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -157,9 +157,9 @@ public class EpochHypno extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

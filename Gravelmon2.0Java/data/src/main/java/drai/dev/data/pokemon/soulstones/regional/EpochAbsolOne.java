@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAbsolOne extends drai.dev.data.pokemon.Pokemon {
     public EpochAbsolOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochAbsolOne",
+        super(name, aspect, "EpochAbsolOne",
                 Type.PSYCHIC,Type.COSMIC,
                 new Stats(65,
                         80,
@@ -67,7 +67,7 @@ public class EpochAbsolOne extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.MAGIC_GUARD,Ability.SNIPER), Ability.NEBULACLOUD,
                 12, 470,
-                new Stats(65,80,1,75,45,95), 80,
+                new Stats(0,0,1,0,0,0), 80,
                 0.5,
                 163, ExperienceGroup.MEDIUM_SLOW,
                 70,

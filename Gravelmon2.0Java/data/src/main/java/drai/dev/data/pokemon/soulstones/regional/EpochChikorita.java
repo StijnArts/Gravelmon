@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChikorita extends drai.dev.data.pokemon.Pokemon {
     public EpochChikorita(String name, Aspect aspect) {
-        super(name, aspect,"EpochChikorita",
+        super(name, aspect, "EpochChikorita",
                 Type.FAIRY,Type.GRASS,
                 new Stats(55,
                         49,
@@ -67,13 +67,14 @@ public class EpochChikorita extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.IMMUNITY,Ability.TRIAGE), Ability.FLOWER_VEIL,
                 9, 64,
-                new Stats(55,49,60,35,1,70), 90,
+                new Stats(0,0,0,0,1,0), 90,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("It produces a lovely aroma whenever it is feeling happy."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch bayleef", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,9),
                         new MoveLearnSetEntry(Move.PETAL_DANCE,54),
@@ -160,8 +161,8 @@ public class EpochChikorita extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NYMPHSSPELL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -217,6 +217,20 @@
   "pokedex": [
     "cobblemon.species.epochporygon2.desc"
   ],
+  "evolutions": [
+    {
+      "id": "porygon2_epoch_porygonz",
+      "variant": "item_interact",
+      "result": "epoch porygonz",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:swarm_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -225,12 +239,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 85,
+    "hp": 0,
     "attack": 2,
-    "defence": 90,
-    "special_attack": 80,
-    "special_defence": 60,
-    "speed": 95
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 325,

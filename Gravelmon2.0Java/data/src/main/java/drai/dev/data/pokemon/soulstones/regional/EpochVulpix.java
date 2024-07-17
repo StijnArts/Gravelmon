@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVulpix extends drai.dev.data.pokemon.Pokemon {
     public EpochVulpix(String name, Aspect aspect) {
-        super(name, aspect,"EpochVulpix",
+        super(name, aspect, "EpochVulpix",
                 Type.COSMIC,
                 new Stats(38,
                         41,
@@ -67,13 +67,14 @@ public class EpochVulpix extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.ASTRALMAJESTY,Ability.CHARISMA), Ability.STARSTRUCK,
                 6, 99,
-                new Stats(38,41,40,65,50,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.0,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The stars on its tails are all in the form of various constellations."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ninetales", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.METEORSHOWER,1),
                         new MoveLearnSetEntry(Move.URANOMETRIA,56),
@@ -181,8 +182,7 @@ public class EpochVulpix extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGolbat extends drai.dev.data.pokemon.Pokemon {
     public EpochGolbat(String name, Aspect aspect) {
-        super(name, aspect,"EpochGolbat",
+        super(name, aspect, "EpochGolbat",
                 Type.DARK,Type.SOUND,
                 new Stats(75,
                         80,
@@ -67,13 +67,14 @@ public class EpochGolbat extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.LEVITATE,Ability.LEECHINGFANGS), Ability.MERCILESS,
                 16, 550,
-                new Stats(75,80,65,90,60,2), 160,
+                new Stats(0,0,0,0,0,2), 160,
                 0.5,
                 159, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Its teeth are much sharper and are capable of draining blood. It is known for its rapid speed and stealth."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch crobat", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAGUE,53),
                         new MoveLearnSetEntry(Move.DARKWHISPERS,1),
@@ -154,13 +155,14 @@ public class EpochGolbat extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 43, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Golbat");
 
     }

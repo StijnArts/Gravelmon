@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMisdreavus extends drai.dev.data.pokemon.Pokemon {
     public EpochMisdreavus(String name, Aspect aspect) {
-        super(name, aspect,"EpochMisdreavus",
+        super(name, aspect, "EpochMisdreavus",
                 Type.LIGHT,Type.SOUND,
                 new Stats(80,
                         30,
@@ -67,13 +67,14 @@ public class EpochMisdreavus extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.SERENE_GRACE,Ability.LEVITATE), Ability.HEALER,
                 7, 10,
-                new Stats(80,30,60,85,1,95), 90,
+                new Stats(0,0,0,0,1,0), 90,
                 0.5,
                 87, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon is able to sing heavenly choirs. Once you have heard its refrains, you feel more pure."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch mismagius", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,32),
                         new MoveLearnSetEntry(Move.GUARDIANANGEL,23),
@@ -194,9 +195,9 @@ public class EpochMisdreavus extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELEGY,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

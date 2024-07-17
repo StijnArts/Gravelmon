@@ -128,6 +128,20 @@
   "pokedex": [
     "cobblemon.species.epochespurr.desc"
   ],
+  "evolutions": [
+    {
+      "id": "espurr_epoch_meowstic",
+      "variant": "item_interact",
+      "result": "epoch meowstic",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -136,12 +150,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 62,
+    "hp": 0,
     "attack": 1,
-    "defence": 49,
-    "special_attack": 73,
-    "special_defence": 48,
-    "speed": 45
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 35,

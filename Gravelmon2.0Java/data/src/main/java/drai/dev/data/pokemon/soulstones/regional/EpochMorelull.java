@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMorelull extends drai.dev.data.pokemon.Pokemon {
     public EpochMorelull(String name, Aspect aspect) {
-        super(name, aspect,"EpochMorelull",
+        super(name, aspect, "EpochMorelull",
                 Type.GHOST,Type.GRASS,
                 new Stats(60,
                         45,
@@ -67,13 +67,14 @@ public class EpochMorelull extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.BAD_DREAMS,Ability.TORMENTED), Ability.CURIOUS_MEDICINE,
                 2, 15,
-                new Stats(60,45,55,30,1,80), 190,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Its illuminating ability mixed with volcanic ash infected it, making its skin poisonous to the touch."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch shiinotic", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,7),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,4),

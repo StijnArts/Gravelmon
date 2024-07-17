@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochExeggcute extends drai.dev.data.pokemon.Pokemon {
     public EpochExeggcute(String name, Aspect aspect) {
-        super(name, aspect,"EpochExeggcute",
-                Type.ELECTRIC,Type.POISON,
+        super(name, aspect, "EpochExeggcute",
+                Type.ELECTRIC,Type.NUCLEAR,
                 new Stats(50,
                         40,
                         40,
@@ -67,13 +67,14 @@ public class EpochExeggcute extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.LEVITATE,Ability.STATIC), Ability.LIGHTNING_ROD,
                 4, 25,
-                new Stats(50,40,40,1,80,40), 100,
+                new Stats(0,0,0,1,0,0), 100,
                 -1.0,
                 65, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon was created as a consequence of a nuclear fallout. It's not clear what it looked like prior to this event."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch exeggutor", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,1),
                         new MoveLearnSetEntry(Move.VENOSHOCK,17),
@@ -156,9 +157,8 @@ public class EpochExeggcute extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SATELLITERAY,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

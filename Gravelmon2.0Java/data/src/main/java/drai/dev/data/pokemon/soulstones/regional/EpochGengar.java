@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGengar extends drai.dev.data.pokemon.Pokemon {
     public EpochGengar(String name, Aspect aspect) {
-        super(name, aspect,"EpochGengar",
+        super(name, aspect, "EpochGengar",
                 Type.ICE,Type.FLYING,
                 new Stats(65,
                         60,
@@ -67,7 +67,7 @@ public class EpochGengar extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.FILTER,Ability.CLOUD_NINE), Ability.SNOW_WARNING,
                 15, 405,
-                new Stats(65,60,60,3,130,70), 100,
+                new Stats(0,0,0,3,0,0), 100,
                 0.5,
                 225, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -146,8 +146,9 @@ public class EpochGengar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 57, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSwabluOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSwabluOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSwabluOne",
+        super(name, aspect, "EpochSwabluOne",
                 Type.ELECTRIC,Type.FLYING,
                 new Stats(45,
                         30,
@@ -67,13 +67,14 @@ public class EpochSwabluOne extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.CLOUD_NINE,Ability.VOLT_ABSORB), Ability.STORM_DRAIN,
                 4, 12,
-                new Stats(45,30,50,50,1,75), 255,
+                new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 62, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("When these Pokemon giggle, it will create a nearby thunderclap, so whatever you do, do not tickle them!"),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo altaria", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,53),
                         new MoveLearnSetEntry(Move.RALLENTANDO,20),

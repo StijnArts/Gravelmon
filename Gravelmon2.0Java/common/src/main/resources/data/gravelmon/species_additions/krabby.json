@@ -126,6 +126,22 @@
   "pokedex": [
     "cobblemon.species.epochkrabby.desc"
   ],
+  "evolutions": [
+    {
+      "id": "krabby_epoch_kingler",
+      "variant": "level_up",
+      "result": "epoch kingler",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -134,12 +150,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 30,
+    "hp": 0,
     "attack": 1,
-    "defence": 90,
-    "special_attack": 50,
-    "special_defence": 25,
-    "speed": 25
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 4,
   "weight": 65,

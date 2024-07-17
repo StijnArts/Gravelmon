@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNinetales extends drai.dev.data.pokemon.Pokemon {
     public EpochNinetales(String name, Aspect aspect) {
-        super(name, aspect,"EpochNinetales",
+        super(name, aspect, "EpochNinetales",
                 Type.COSMIC,
                 new Stats(73,
                         66,
@@ -67,7 +67,7 @@ public class EpochNinetales extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.ASTRALMAJESTY,Ability.CHARISMA), Ability.STARSTRUCK,
                 11, 199,
-                new Stats(73,66,75,105,1,105), 75,
+                new Stats(0,0,0,0,1,0), 75,
                 0.0,
                 177, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -172,8 +172,7 @@ public class EpochNinetales extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

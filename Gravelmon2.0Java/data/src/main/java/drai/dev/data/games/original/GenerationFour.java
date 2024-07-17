@@ -182,6 +182,9 @@ public class GenerationFour extends Game {
         pokemon.add(new EpochTurtwig("", Aspect.EPOCH));
         pokemon.add(new EpochGrotle("", Aspect.EPOCH));
         pokemon.add(new EpochTorterra("", Aspect.EPOCH));
+        pokemon.add(new EpochChimchar("", Aspect.EPOCH));
+        pokemon.add(new EpochMonferno("", Aspect.EPOCH));
+        pokemon.add(new EpochInfernape("", Aspect.EPOCH));
         pokemon.add(new EpochPiplup("", Aspect.EPOCH));
         pokemon.add(new EpochPrinplup("", Aspect.EPOCH));
         pokemon.add(new EpochEmpoleon("", Aspect.EPOCH));
@@ -196,9 +199,6 @@ public class GenerationFour extends Game {
         pokemon.add(new EpochBonsly("", Aspect.EPOCH));
         pokemon.add(new EpochElectivire("", Aspect.EPOCH));
         pokemon.add(new EpochMagmortar("", Aspect.EPOCH));
-        pokemon.add(new EpochChimchar("", Aspect.EPOCH));
-        pokemon.add(new EpochMonferno("", Aspect.EPOCH));
-        pokemon.add(new EpochInfernape("", Aspect.EPOCH));
         pokemon.add(new EpochHippopotas("", Aspect.EPOCH));
         pokemon.add(new EpochHippowdon("", Aspect.EPOCH));
         pokemon.add(new EpochBronzor("", Aspect.EPOCH));

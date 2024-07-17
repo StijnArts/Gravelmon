@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMetang extends drai.dev.data.pokemon.Pokemon {
     public EpochMetang(String name, Aspect aspect) {
-        super(name, aspect,"EpochMetang",
+        super(name, aspect, "EpochMetang",
                 Type.COSMIC,Type.PSYCHIC,
                 new Stats(60,
                         55,
@@ -67,13 +67,14 @@ public class EpochMetang extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.FILTER,Ability.FULL_METAL_BODY), Ability.ANALYTIC,
                 12, 2025,
-                new Stats(60,55,2,50,75,80), 75,
+                new Stats(0,0,2,0,0,0), 75,
                 -1.0,
                 147, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It was sent to the Orion Region to adapt, evolve and study the local population. It transmits knowledge to its interstellar owner seamlessly."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch metagross", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,50),
                         new MoveLearnSetEntry(Move.METEORSHOWER,6),

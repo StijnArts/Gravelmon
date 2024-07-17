@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAriados extends drai.dev.data.pokemon.Pokemon {
     public EpochAriados(String name, Aspect aspect) {
-        super(name, aspect,"EpochAriados",
+        super(name, aspect, "EpochAriados",
                 Type.DARK,Type.POISON,
                 new Stats(80,
                         100,
@@ -67,7 +67,7 @@ public class EpochAriados extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.POISON_TOUCH,Ability.PRANKSTER), Ability.MERCILESS,
                 11, 335,
-                new Stats(80,2,70,85,55,70), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 137, ExperienceGroup.FAST,
                 70,
@@ -146,9 +146,9 @@ public class EpochAriados extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 45, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

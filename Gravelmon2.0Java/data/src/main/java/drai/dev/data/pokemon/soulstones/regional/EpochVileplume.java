@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVileplume extends drai.dev.data.pokemon.Pokemon {
     public EpochVileplume(String name, Aspect aspect) {
-        super(name, aspect,"EpochVileplume",
+        super(name, aspect, "EpochVileplume",
                 Type.GRASS,Type.COSMIC,
                 new Stats(85,
                         70,
@@ -67,7 +67,7 @@ public class EpochVileplume extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.EFFECT_SPORE,Ability.STARSTRUCK), Ability.VITALITY,
                 12, 186,
-                new Stats(85,70,105,3,100,75), 90,
+                new Stats(0,0,0,3,0,0), 90,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -172,9 +172,8 @@ public class EpochVileplume extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WONDER_ROOM,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 43, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

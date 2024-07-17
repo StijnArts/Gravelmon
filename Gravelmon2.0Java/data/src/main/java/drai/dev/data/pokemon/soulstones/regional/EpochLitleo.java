@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLitleo extends drai.dev.data.pokemon.Pokemon {
     public EpochLitleo(String name, Aspect aspect) {
-        super(name, aspect,"EpochLitleo",
+        super(name, aspect, "EpochLitleo",
                 Type.ICE,Type.SOUND,
                 new Stats(58,
                         73,
@@ -67,13 +67,14 @@ public class EpochLitleo extends drai.dev.data.pokemon.Pokemon {
                         58),
                 List.of(Ability.INTIMIDATE,Ability.ICYVEINS), Ability.NOBILITY,
                 6, 135,
-                new Stats(58,1,58,72,50,58), 200,
+                new Stats(0,1,0,0,0,0), 200,
                 0.5,
                 74, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("From an early age, they are able to hunt on the snowy plains. Their fur allows them to blend into the snow making them excellent predators."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch pyroar", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,46),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSteeneeOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSteeneeOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSteeneeOne",
+        super(name, aspect, "EpochSteeneeOne",
                 Type.POISON,Type.FIGHTING,
                 new Stats(52,
                         66,
@@ -67,13 +67,14 @@ public class EpochSteeneeOne extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.IRON_BARBS,Ability.POWER_OF_ALCHEMY), Ability.UNBURDEN,
                 7, 82,
-                new Stats(52,66,40,62,40,2), 120,
+                new Stats(0,0,0,0,0,2), 120,
                 0.0,
                 102, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.AMORPHOUS),
                 List.of("Its spikes can be launched like projectiles and are often used to break down obstacles or tree branches that have fruits."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo tsareena", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.STRAFE,8),
                         new MoveLearnSetEntry(Move.DOUBLE_KICK,20),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTentacruel extends drai.dev.data.pokemon.Pokemon {
     public EpochTentacruel(String name, Aspect aspect) {
-        super(name, aspect,"EpochTentacruel",
+        super(name, aspect, "EpochTentacruel",
                 Type.COSMIC,Type.WATER,
                 new Stats(100,
                         40,
@@ -67,7 +67,7 @@ public class EpochTentacruel extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.DARKMATTER,Ability.SUCTION_CUPS), Ability.OVERCOAT,
                 16, 550,
-                new Stats(100,40,100,80,2,105), 123,
+                new Stats(0,0,0,0,2,0), 123,
                 0.5,
                 180, ExperienceGroup.SLOW,
                 70,
@@ -181,13 +181,17 @@ public class EpochTentacruel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 31, 53, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN, Biome.IS_END)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.MAXY,"32")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Tentacruel");
 
     }

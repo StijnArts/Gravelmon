@@ -126,6 +126,22 @@
   "pokedex": [
     "cobblemon.species.epochhippopotas.desc"
   ],
+  "evolutions": [
+    {
+      "id": "hippopotas_epoch_hippowdon",
+      "variant": "level_up",
+      "result": "epoch hippowdon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -134,12 +150,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 70,
-    "attack": 70,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 36,
-    "special_defence": 38,
-    "speed": 41
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 8,
   "weight": 495,

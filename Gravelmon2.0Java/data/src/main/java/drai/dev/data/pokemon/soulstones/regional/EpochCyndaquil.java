@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCyndaquil extends drai.dev.data.pokemon.Pokemon {
     public EpochCyndaquil(String name, Aspect aspect) {
-        super(name, aspect,"EpochCyndaquil",
+        super(name, aspect, "EpochCyndaquil",
                 Type.STEEL,Type.NORMAL,
                 new Stats(60,
                         65,
@@ -67,13 +67,14 @@ public class EpochCyndaquil extends drai.dev.data.pokemon.Pokemon {
                         43),
                 List.of(Ability.MOTOR_DRIVE,Ability.ANALYTIC), Ability.TECHNICIAN,
                 5, 79,
-                new Stats(60,1,50,52,39,43), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("They are often found as rodents in factories or other metal-rich facilities. It is unclear how the gear managed to append to its body."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch quilava", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,43),
                         new MoveLearnSetEntry(Move.POWERDRILL,39),
@@ -177,9 +178,8 @@ public class EpochCyndaquil extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHUTDOWN,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

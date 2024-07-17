@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKricketot extends drai.dev.data.pokemon.Pokemon {
     public EpochKricketot(String name, Aspect aspect) {
-        super(name, aspect,"EpochKricketot",
+        super(name, aspect, "EpochKricketot",
                 Type.BUG,Type.SOUND,
                 new Stats(47,
                         20,
@@ -67,13 +67,14 @@ public class EpochKricketot extends drai.dev.data.pokemon.Pokemon {
                         47),
                 List.of(Ability.SHED_SKIN,Ability.SWARM), Ability.VIRTUOSO,
                 3, 22,
-                new Stats(47,20,30,1,50,47), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 39, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("During the evening, they will put on concerts for other wild Pokemon in the habitat."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch kricketune", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,9),
                         new MoveLearnSetEntry(Move.RALLENTANDO,22),

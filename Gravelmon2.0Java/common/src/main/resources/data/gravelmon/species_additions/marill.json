@@ -137,6 +137,22 @@
   "pokedex": [
     "cobblemon.species.epochmarill.desc"
   ],
+  "evolutions": [
+    {
+      "id": "marill_epoch_azumarill",
+      "variant": "level_up",
+      "result": "epoch azumarill",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -146,11 +162,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 2,
-    "attack": 35,
-    "defence": 55,
-    "special_attack": 25,
-    "special_defence": 35,
-    "speed": 55
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 4,
   "weight": 85,

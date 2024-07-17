@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWimpod extends drai.dev.data.pokemon.Pokemon {
     public EpochWimpod(String name, Aspect aspect) {
-        super(name, aspect,"EpochWimpod",
+        super(name, aspect, "EpochWimpod",
                 Type.BUG,Type.POISON,
                 new Stats(25,
                         35,
@@ -67,13 +67,14 @@ public class EpochWimpod extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.WIMP_OUT,Ability.RUN_AWAY), Ability.SHED_SKIN,
                 5, 120,
-                new Stats(25,35,40,80,20,1), 90,
+                new Stats(0,0,0,0,0,1), 90,
                 0.5,
                 46, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It scurries around leaving a trail of poison as it passes. People should be careful of where they step as it can burn through the soles of their shoes."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch golisopod", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),

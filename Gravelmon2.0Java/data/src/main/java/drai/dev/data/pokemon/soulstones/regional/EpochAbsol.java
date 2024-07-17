@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAbsol extends drai.dev.data.pokemon.Pokemon {
     public EpochAbsol(String name, Aspect aspect) {
-        super(name, aspect,"EpochAbsol",
+        super(name, aspect, "EpochAbsol",
                 Type.LIGHT,
                 new Stats(65,
                         130,
@@ -67,7 +67,7 @@ public class EpochAbsol extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.PUREHEART,Ability.SUPER_LUCK), Ability.STALWART,
                 12, 470,
-                new Stats(65,2,60,75,75,60), 80,
+                new Stats(0,2,0,0,0,0), 80,
                 0.5,
                 163, ExperienceGroup.MEDIUM_SLOW,
                 70,

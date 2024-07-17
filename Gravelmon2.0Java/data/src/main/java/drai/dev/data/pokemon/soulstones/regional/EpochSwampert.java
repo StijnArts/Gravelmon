@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSwampert extends drai.dev.data.pokemon.Pokemon {
     public EpochSwampert(String name, Aspect aspect) {
-        super(name, aspect,"EpochSwampert",
+        super(name, aspect, "EpochSwampert",
                 Type.COSMIC,Type.FIRE,
                 new Stats(110,
                         70,
@@ -67,7 +67,7 @@ public class EpochSwampert extends drai.dev.data.pokemon.Pokemon {
                         120),
                 List.of(Ability.STARSTRUCK,Ability.FILTER), Ability.NEBULACLOUD,
                 15, 819,
-                new Stats(110,70,90,60,2,120), 90,
+                new Stats(0,0,0,0,2,0), 90,
                 0.875,
                 241, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -186,9 +186,8 @@ public class EpochSwampert extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

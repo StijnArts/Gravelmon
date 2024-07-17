@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFloette extends drai.dev.data.pokemon.Pokemon {
     public EpochFloette(String name, Aspect aspect) {
-        super(name, aspect,"EpochFloette",
+        super(name, aspect, "EpochFloette",
                 Type.FAIRY,Type.WATER,
                 new Stats(54,
                         35,
@@ -67,13 +67,14 @@ public class EpochFloette extends drai.dev.data.pokemon.Pokemon {
                         88),
                 List.of(Ability.RAIN_DISH,Ability.SYNTHESIZE), Ability.MISTY_SURGE,
                 2, 9,
-                new Stats(54,35,67,52,2,88), 120,
+                new Stats(0,0,0,0,2,0), 120,
                 0.0,
                 130, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon carries around a part of its coral bed around with it wherever it goes."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch florges", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.FLEUR_CANNON,61),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochClaydol extends drai.dev.data.pokemon.Pokemon {
     public EpochClaydol(String name, Aspect aspect) {
-        super(name, aspect,"EpochClaydol",
+        super(name, aspect, "EpochClaydol",
                 Type.ELECTRIC,Type.PSYCHIC,
                 new Stats(100,
                         50,
@@ -67,7 +67,7 @@ public class EpochClaydol extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.LEVITATE,Ability.CLEAR_BODY), Ability.PSYCHIC_SURGE,
                 15, 1080,
-                new Stats(100,50,85,75,2,95), 100,
+                new Stats(0,0,0,0,2,0), 100,
                 -1.0,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -150,9 +150,8 @@ public class EpochClaydol extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKingler extends drai.dev.data.pokemon.Pokemon {
     public EpochKingler(String name, Aspect aspect) {
-        super(name, aspect,"EpochKingler",
+        super(name, aspect, "EpochKingler",
                 Type.GROUND,Type.ROCK,
                 new Stats(55,
                         130,
@@ -67,7 +67,7 @@ public class EpochKingler extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.WATER_ABSORB,Ability.GUTS), Ability.SAND_FORCE,
                 13, 600,
-                new Stats(55,2,115,75,50,50), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -150,8 +150,8 @@ public class EpochKingler extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

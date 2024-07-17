@@ -131,6 +131,22 @@
   "pokedex": [
     "cobblemon.species.epochdiglett.desc"
   ],
+  "evolutions": [
+    {
+      "id": "diglett_epoch_dugtrio",
+      "variant": "level_up",
+      "result": "epoch dugtrio",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -139,11 +155,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
-    "attack": 75,
-    "defence": 25,
-    "special_attack": 95,
-    "special_defence": 35,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 2,

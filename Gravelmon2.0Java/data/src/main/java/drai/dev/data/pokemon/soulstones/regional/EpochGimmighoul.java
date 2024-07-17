@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGimmighoul extends drai.dev.data.pokemon.Pokemon {
     public EpochGimmighoul(String name, Aspect aspect) {
-        super(name, aspect,"EpochGimmighoul",
+        super(name, aspect, "EpochGimmighoul",
                 Type.BUG,
                 new Stats(45,
                         75,
@@ -67,13 +67,14 @@ public class EpochGimmighoul extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.SWARM,Ability.SAND_VEIL), Ability.ARENA_TRAP,
                 3, 50,
-                new Stats(45,1,70,10,30,70), 95,
+                new Stats(0,1,0,0,0,0), 95,
                 -1.0,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon lives inside a mound of soil. As it grows, it collects more soil to build its mound."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gholdengo", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,51),
                         new MoveLearnSetEntry(Move.BUG_BITE,1),

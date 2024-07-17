@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDubwool extends drai.dev.data.pokemon.Pokemon {
     public EpochDubwool(String name, Aspect aspect) {
-        super(name, aspect,"EpochDubwool",
+        super(name, aspect, "EpochDubwool",
                 Type.ROCK,Type.NORMAL,
                 new Stats(72,
                         93,
@@ -67,7 +67,7 @@ public class EpochDubwool extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.ROUGH_SKIN,Ability.STURDY), Ability.ROCK_HEAD,
                 13, 2430,
-                new Stats(72,2,100,93,52,80), 127,
+                new Stats(0,2,0,0,0,0), 127,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,

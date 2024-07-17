@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMurkrowOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMurkrowOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMurkrowOne",
+        super(name, aspect, "EpochMurkrowOne",
                 Type.PSYCHIC,Type.FLYING,
                 new Stats(60,
                         75,
@@ -67,13 +67,14 @@ public class EpochMurkrowOne extends drai.dev.data.pokemon.Pokemon {
                         57),
                 List.of(Ability.TELEPATHY,Ability.MAGIC_GUARD), Ability.SPELLCASTER,
                 5, 21,
-                new Stats(60,75,57,81,75,1), 80,
+                new Stats(0,0,0,0,0,1), 80,
                 0.5,
                 81, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They are often used as familiars to wizards so they pick up a fair bit of magical skill by themselves from their wizard masters."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo honchkrow", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.EERIE_SPELL,46),
                         new MoveLearnSetEntry(Move.HURRICANE,52),
@@ -204,13 +205,15 @@ public class EpochMurkrowOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRIVEGA,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Murkrow");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMrrime extends drai.dev.data.pokemon.Pokemon {
     public EpochMrrime(String name, Aspect aspect) {
-        super(name, aspect,"EpochMrrime",
+        super(name, aspect, "EpochMrrime",
                 Type.SOUND,Type.PSYCHIC,
                 new Stats(100,
                         45,
@@ -67,7 +67,7 @@ public class EpochMrrime extends drai.dev.data.pokemon.Pokemon {
                         125),
                 List.of(Ability.OBLIVIOUS,Ability.TRACE), Ability.SCREEN_CLEANER,
                 15, 582,
-                new Stats(100,45,45,3,110,125), 90,
+                new Stats(0,0,0,3,0,0), 90,
                 0.5,
                 182, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -180,9 +180,8 @@ public class EpochMrrime extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 58, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

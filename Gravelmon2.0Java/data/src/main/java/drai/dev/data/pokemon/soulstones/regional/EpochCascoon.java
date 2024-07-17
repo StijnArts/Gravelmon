@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCascoon extends drai.dev.data.pokemon.Pokemon {
     public EpochCascoon(String name, Aspect aspect) {
-        super(name, aspect,"EpochCascoon",
+        super(name, aspect, "EpochCascoon",
                 Type.BUG,Type.ICE,
                 new Stats(40,
                         50,
@@ -67,13 +67,14 @@ public class EpochCascoon extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.ICE_BODY,Ability.CLEAR_BODY), Ability.OVERCOAT,
                 7, 115,
-                new Stats(40,50,2,15,20,55), 120,
+                new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 72, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("During its cocoon stage, one of its strategies is to stay perfectly still to blend into snow and avoid predators until it evolves."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dustox", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,5),
                         new MoveLearnSetEntry(Move.HARDEN,1),

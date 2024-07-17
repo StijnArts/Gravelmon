@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTapufini extends drai.dev.data.pokemon.Pokemon {
     public EpochTapufini(String name, Aspect aspect) {
-        super(name, aspect,"EpochTapufini",
+        super(name, aspect, "EpochTapufini",
                 Type.POISON,Type.GHOST,
                 new Stats(70,
                         75,
@@ -67,7 +67,7 @@ public class EpochTapufini extends drai.dev.data.pokemon.Pokemon {
                         130),
                 List.of(Ability.CORROSION,Ability.SHED_SKIN), Ability.KEEN_EYE,
                 13, 212,
-                new Stats(70,75,115,85,3,130), 3,
+                new Stats(0,0,0,0,3,0), 3,
                 -1.0,
                 285, ExperienceGroup.SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDruddigon extends drai.dev.data.pokemon.Pokemon {
     public EpochDruddigon(String name, Aspect aspect) {
-        super(name, aspect,"EpochDruddigon",
+        super(name, aspect, "EpochDruddigon",
                 Type.DRAGON,Type.FIGHTING,
                 new Stats(77,
                         120,
@@ -67,7 +67,7 @@ public class EpochDruddigon extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.ROUGH_SKIN,Ability.TOUGH_CLAWS), Ability.BATTLE_ARMOR,
                 16, 1390,
-                new Stats(77,2,90,68,60,70), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 170, ExperienceGroup.MEDIUM_FAST,
                 70,

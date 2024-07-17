@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSolosisOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSolosisOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSolosisOne",
+        super(name, aspect, "EpochSolosisOne",
                 Type.COSMIC,Type.POISON,
                 new Stats(45,
                         60,
@@ -67,13 +67,14 @@ public class EpochSolosisOne extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.GOOEY,Ability.OVERCOAT), Ability.ANALYTIC,
                 3, 10,
-                new Stats(45,1,50,20,65,50), 200,
+                new Stats(0,1,0,0,0,0), 200,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("They are small parasites from interstellar space. They lie in wait underground until they can evolve."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo duosion", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,18),
                         new MoveLearnSetEntry(Move.ACID,1),

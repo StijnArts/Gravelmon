@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBeheeyem extends drai.dev.data.pokemon.Pokemon {
     public EpochBeheeyem(String name, Aspect aspect) {
-        super(name, aspect,"EpochBeheeyem",
+        super(name, aspect, "EpochBeheeyem",
                 Type.COSMIC,Type.DARK,
                 new Stats(115,
                         70,
@@ -67,7 +67,7 @@ public class EpochBeheeyem extends drai.dev.data.pokemon.Pokemon {
                         115),
                 List.of(Ability.GENIUS,Ability.IMMUNITY), Ability.FULL_METAL_BODY,
                 10, 345,
-                new Stats(115,70,95,2,50,115), 90,
+                new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 170, ExperienceGroup.MEDIUM_FAST,
                 70,

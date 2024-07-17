@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSneasel extends drai.dev.data.pokemon.Pokemon {
     public EpochSneasel(String name, Aspect aspect) {
-        super(name, aspect,"EpochSneasel",
+        super(name, aspect, "EpochSneasel",
                 Type.DARK,Type.GRASS,
                 new Stats(65,
                         95,
@@ -67,13 +67,18 @@ public class EpochSneasel extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.SPEED_BOOST,Ability.SHARPNESS), Ability.ROUGH_SKIN,
                 9, 280,
-                new Stats(65,95,65,90,50,1), 123,
+                new Stats(0,0,0,0,0,1), 123,
                 0.5,
                 86, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("A Sneasel adorns its face with face painting in hunting parties to appear more threatening. In groups, they can quickly surround and overwhelm their prey."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch sneasler", EvolutionType.LEVEL_UP, List.of(), 
+                            List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
+                            new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
+                            new EvolutionEntry("epoch weavile", EvolutionType.LEVEL_UP, List.of(),
+                                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
+                            new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,37),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,24),
@@ -175,9 +180,8 @@ public class EpochSneasel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OBSTRUCT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

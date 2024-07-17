@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTyphlosion extends drai.dev.data.pokemon.Pokemon {
     public EpochTyphlosion(String name, Aspect aspect) {
-        super(name, aspect,"EpochTyphlosion",
+        super(name, aspect, "EpochTyphlosion",
                 Type.STEEL,Type.NORMAL,
                 new Stats(100,
                         109,
@@ -67,7 +67,7 @@ public class EpochTyphlosion extends drai.dev.data.pokemon.Pokemon {
                         78),
                 List.of(Ability.MOTOR_DRIVE,Ability.ANALYTIC), Ability.TECHNICIAN,
                 17, 795,
-                new Stats(100,2,85,92,70,78), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -170,9 +170,8 @@ public class EpochTyphlosion extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

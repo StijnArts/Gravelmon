@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTangela extends drai.dev.data.pokemon.Pokemon {
     public EpochTangela(String name, Aspect aspect) {
-        super(name, aspect,"EpochTangela",
+        super(name, aspect, "EpochTangela",
                 Type.GROUND,Type.GRASS,
                 new Stats(65,
                         75,
@@ -67,13 +67,14 @@ public class EpochTangela extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.SAND_RUSH,Ability.STORM_DRAIN), Ability.WATER_ABSORB,
                 10, 100,
-                new Stats(65,75,1,90,50,40), 100,
+                new Stats(0,0,1,0,0,0), 100,
                 0.5,
                 87, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Despite its appearance, it is very lightweight. It is very susceptible to strong breezes and can be knocked around easily."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch tangrowth", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,46),
                         new MoveLearnSetEntry(Move.SAND_TOMB,4),
@@ -157,8 +158,9 @@ public class EpochTangela extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDSHACKLES,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 35, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShiinotic extends drai.dev.data.pokemon.Pokemon {
     public EpochShiinotic(String name, Aspect aspect) {
-        super(name, aspect,"EpochShiinotic",
+        super(name, aspect, "EpochShiinotic",
                 Type.GHOST,Type.GRASS,
                 new Stats(90,
                         50,
@@ -67,7 +67,7 @@ public class EpochShiinotic extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.BAD_DREAMS,Ability.TORMENTED), Ability.CURIOUS_MEDICINE,
                 10, 115,
-                new Stats(90,50,75,60,2,110), 100,
+                new Stats(0,0,0,0,2,0), 100,
                 0.5,
                 142, ExperienceGroup.MEDIUM_FAST,
                 70,

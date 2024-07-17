@@ -131,6 +131,22 @@
   "pokedex": [
     "cobblemon.species.epochmorgrem.desc"
   ],
+  "evolutions": [
+    {
+      "id": "morgrem_epoch_grimmsnarl",
+      "variant": "level_up",
+      "result": "epoch grimmsnarl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -139,12 +155,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
+    "hp": 0,
     "attack": 1,
-    "defence": 45,
-    "special_attack": 50,
-    "special_defence": 85,
-    "speed": 75
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 8,
   "weight": 125,
@@ -279,6 +295,22 @@
   "pokedex": [
     "cobblemon.species.epochmorgremone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "morgrem_epochtwo_grimmsnarl",
+      "variant": "level_up",
+      "result": "epochtwo grimmsnarl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -287,12 +319,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
+    "hp": 0,
     "attack": 1,
-    "defence": 70,
-    "special_attack": 65,
-    "special_defence": 55,
-    "speed": 70
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 8,
   "weight": 125,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLombre extends drai.dev.data.pokemon.Pokemon {
     public EpochLombre(String name, Aspect aspect) {
-        super(name, aspect,"EpochLombre",
+        super(name, aspect, "EpochLombre",
                 Type.GRASS,Type.GROUND,
                 new Stats(75,
                         35,
@@ -67,13 +67,14 @@ public class EpochLombre extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.SYNTHESIZE,Ability.SOLAR_POWER), Ability.DROUGHT,
                 12, 325,
-                new Stats(1,35,50,50,70,60), 120,
+                new Stats(1,0,0,0,0,0), 120,
                 0.5,
                 119, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("This Pokemon thrives in intense sunlight. It retains fresh water so lost wanderers in the desert will typically ask it for water when they are thirsty."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ludicolo", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:sand_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,20),
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,60),

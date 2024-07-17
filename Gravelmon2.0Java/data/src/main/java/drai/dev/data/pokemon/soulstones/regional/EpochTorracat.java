@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTorracat extends drai.dev.data.pokemon.Pokemon {
     public EpochTorracat(String name, Aspect aspect) {
-        super(name, aspect,"EpochTorracat",
+        super(name, aspect, "EpochTorracat",
                 Type.FIGHTING,Type.COSMIC,
                 new Stats(65,
                         95,
@@ -67,13 +67,14 @@ public class EpochTorracat extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.STEADFAST,Ability.SCRAPPY), Ability.TOUGH_CLAWS,
                 7, 250,
-                new Stats(65,95,50,90,70,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.875,
                 147, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its scarf has amplified its other senses and has gives foes the false sense of comfort that they are fighting a foe with a handicap."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch incineroar", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SKY_UPPERCUT,37),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,14),

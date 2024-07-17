@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDodrioOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDodrioOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDodrioOne",
+        super(name, aspect, "EpochDodrioOne",
                 Type.WATER,Type.FLYING,
                 new Stats(70,
                         100,
@@ -67,7 +67,7 @@ public class EpochDodrioOne extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.CUTE_CHARM,Ability.AFFECTION), Ability.WATER_VEIL,
                 18, 852,
-                new Stats(70,100,60,2,60,75), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -165,11 +165,10 @@ public class EpochDodrioOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dodrio");

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBlitzle extends drai.dev.data.pokemon.Pokemon {
     public EpochBlitzle(String name, Aspect aspect) {
-        super(name, aspect,"EpochBlitzle",
+        super(name, aspect, "EpochBlitzle",
                 Type.FAIRY,Type.LIGHT,
                 new Stats(45,
                         60,
@@ -67,13 +67,14 @@ public class EpochBlitzle extends drai.dev.data.pokemon.Pokemon {
                         32),
                 List.of(Ability.QUICK_FEET,Ability.NATURAL_CURE), Ability.PASTEL_VEIL,
                 8, 298,
-                new Stats(45,60,32,96,30,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Blitzle's fur is freeing and lightweight, allowing them to have an extra aerodynamic boost and reach incredible speeds when running."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch zebstrika", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,22),
                         new MoveLearnSetEntry(Move.AGILITY,39),

@@ -47,6 +47,17 @@ public class GravelmonStarters {
                                 "Totodile egho=true level=10"
                         )
                 ));
+        GravelmonStarterManager.registerNewStarter("Johto",
+                createCategory("Epoch Johto",
+                        List.of(
+                                "Chikorita epoch=true level=10",
+                                "Cyndaquil epoch=true level=10",
+                                "Totodile epoch=true level=10",
+                                "Chikorita epochtwo=true level=10",
+                                "Cyndaquil epochtwo=true level=10",
+                                "Totodile epochtwo=true level=10"
+                        )
+                ));
         GravelmonStarterManager.registerNewStarter("Hoenn",
                 createCategory("Zakos",
                         List.of(

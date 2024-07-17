@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochConkeldurrOne extends drai.dev.data.pokemon.Pokemon {
     public EpochConkeldurrOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochConkeldurrOne",
+        super(name, aspect, "EpochConkeldurrOne",
                 Type.GRASS,Type.FIGHTING,
                 new Stats(115,
                         110,
@@ -67,7 +67,7 @@ public class EpochConkeldurrOne extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.OBLIVIOUS,Ability.SHEER_FORCE), Ability.IRON_FIST,
                 14, 870,
-                new Stats(115,3,105,45,60,70), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.25,
                 253, ExperienceGroup.MEDIUM_SLOW,
                 70,

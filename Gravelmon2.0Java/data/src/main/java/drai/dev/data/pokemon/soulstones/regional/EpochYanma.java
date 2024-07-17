@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochYanma extends drai.dev.data.pokemon.Pokemon {
     public EpochYanma(String name, Aspect aspect) {
-        super(name, aspect,"EpochYanma",
+        super(name, aspect, "EpochYanma",
                 Type.BUG,Type.WATER,
                 new Stats(65,
                         75,
@@ -67,13 +67,14 @@ public class EpochYanma extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.STORM_DRAIN,Ability.COMPOUND_EYES), Ability.LEVITATE,
                 12, 380,
-                new Stats(65,75,45,95,65,1), 75,
+                new Stats(0,0,0,0,0,1), 75,
                 0.5,
                 78, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("You know you can find them when you hear a loud, persistent buzzing noise in swampy areas."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch yanmega", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGONFLYCHARGE,49),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -171,13 +172,14 @@ public class EpochYanma extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POISON_JAB,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 12, 36, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Yanma");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDeino extends drai.dev.data.pokemon.Pokemon {
     public EpochDeino(String name, Aspect aspect) {
-        super(name, aspect,"EpochDeino",
+        super(name, aspect, "EpochDeino",
                 Type.PSYCHIC,Type.DRAGON,
                 new Stats(72,
                         45,
@@ -67,13 +67,14 @@ public class EpochDeino extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.COMPETITIVE,Ability.ATTUNEMENT), Ability.ANTICIPATION,
                 8, 173,
-                new Stats(1,45,50,38,45,50), 90,
+                new Stats(1,0,0,0,0,0), 90,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("It harbours a deep psychic energy that you can see emitting from the spike on its head."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch zweilous", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.DRAGONMAGIC,26),

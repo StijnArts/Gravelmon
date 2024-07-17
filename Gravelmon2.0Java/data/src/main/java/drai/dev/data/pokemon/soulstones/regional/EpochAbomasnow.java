@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAbomasnow extends drai.dev.data.pokemon.Pokemon {
     public EpochAbomasnow(String name, Aspect aspect) {
-        super(name, aspect,"EpochAbomasnow",
+        super(name, aspect, "EpochAbomasnow",
                 Type.GRASS,
                 new Stats(90,
                         92,
@@ -67,7 +67,7 @@ public class EpochAbomasnow extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.HARVEST,Ability.RIPEN), Ability.THICK_FAT,
                 22, 1355,
-                new Stats(90,1,95,30,92,95), 123,
+                new Stats(0,1,0,0,0,0), 123,
                 0.5,
                 173, ExperienceGroup.SLOW,
                 70,

@@ -138,6 +138,22 @@
   "pokedex": [
     "cobblemon.species.epochwhismur.desc"
   ],
+  "evolutions": [
+    {
+      "id": "whismur_epoch_loudred",
+      "variant": "level_up",
+      "result": "epoch loudred",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -147,11 +163,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 21,
-    "defence": 23,
-    "special_attack": 48,
-    "special_defence": 61,
-    "speed": 23
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 163,

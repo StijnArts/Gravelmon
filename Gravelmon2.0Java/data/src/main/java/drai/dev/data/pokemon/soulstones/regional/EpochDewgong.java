@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDewgong extends drai.dev.data.pokemon.Pokemon {
     public EpochDewgong(String name, Aspect aspect) {
-        super(name, aspect,"EpochDewgong",
+        super(name, aspect, "EpochDewgong",
                 Type.WATER,Type.GROUND,
                 new Stats(102,
                         67,
@@ -67,7 +67,7 @@ public class EpochDewgong extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.UNAWARE,Ability.SOUNDPROOF), Ability.THICK_FAT,
                 17, 2400,
-                new Stats(102,67,80,53,2,105), 100,
+                new Stats(0,0,0,0,2,0), 100,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -159,13 +159,15 @@ public class EpochDewgong extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 38, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_BEACH))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Dewgong");
 
     }

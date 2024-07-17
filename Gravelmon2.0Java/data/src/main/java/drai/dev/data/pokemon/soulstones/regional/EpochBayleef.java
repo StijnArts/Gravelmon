@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBayleef extends drai.dev.data.pokemon.Pokemon {
     public EpochBayleef(String name, Aspect aspect) {
-        super(name, aspect,"EpochBayleef",
+        super(name, aspect, "EpochBayleef",
                 Type.FAIRY,Type.GRASS,
                 new Stats(65,
                         62,
@@ -67,13 +67,14 @@ public class EpochBayleef extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.IMMUNITY,Ability.TRIAGE), Ability.FLOWER_VEIL,
                 12, 158,
-                new Stats(65,62,1,55,63,85), 90,
+                new Stats(0,0,1,0,0,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("Its leaf necklace is valuable because it has curative properties. Poachers often hunt them to sell these necklaces in the black market."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch meganium", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,9),
                         new MoveLearnSetEntry(Move.PETAL_DANCE,54),
@@ -151,8 +152,8 @@ public class EpochBayleef extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

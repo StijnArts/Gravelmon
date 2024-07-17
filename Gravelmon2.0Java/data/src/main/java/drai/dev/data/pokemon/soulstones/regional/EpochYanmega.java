@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochYanmega extends drai.dev.data.pokemon.Pokemon {
     public EpochYanmega(String name, Aspect aspect) {
-        super(name, aspect,"EpochYanmega",
+        super(name, aspect, "EpochYanmega",
                 Type.BUG,Type.WATER,
                 new Stats(86,
                         106,
@@ -67,7 +67,7 @@ public class EpochYanmega extends drai.dev.data.pokemon.Pokemon {
                         56),
                 List.of(Ability.STORM_DRAIN,Ability.COMPOUND_EYES), Ability.LEVITATE,
                 19, 515,
-                new Stats(86,2,76,95,96,56), 80,
+                new Stats(0,2,0,0,0,0), 80,
                 0.5,
                 180, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -163,13 +163,14 @@ public class EpochYanmega extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 34, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Yanmega");
 
     }

@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -123,12 +123,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 95,
+    "hp": 0,
     "attack": 2,
-    "defence": 94,
-    "special_attack": 71,
-    "special_defence": 55,
-    "speed": 100
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 65,
   "weight": 2350,

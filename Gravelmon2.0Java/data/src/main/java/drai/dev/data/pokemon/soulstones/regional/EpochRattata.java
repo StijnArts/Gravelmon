@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRattata extends drai.dev.data.pokemon.Pokemon {
     public EpochRattata(String name, Aspect aspect) {
-        super(name, aspect,"EpochRattata",
+        super(name, aspect, "EpochRattata",
                 Type.PSYCHIC,Type.NORMAL,
                 new Stats(45,
                         41,
@@ -67,13 +67,14 @@ public class EpochRattata extends drai.dev.data.pokemon.Pokemon {
                         56),
                 List.of(Ability.TELEPATHY,Ability.RATTLED), Ability.MAGIC_GUARD,
                 3, 35,
-                new Stats(45,41,1,55,30,56), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 51, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The hairs on its back stand when it senses danger. As a result, their population are notoriously difficult to control."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch raticate", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ENCORE,44),
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,1),
@@ -175,9 +176,8 @@ public class EpochRattata extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FACADE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

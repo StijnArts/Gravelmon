@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRoggenrolaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochRoggenrolaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochRoggenrolaOne",
+        super(name, aspect, "EpochRoggenrolaOne",
                 Type.ROCK,Type.ELECTRIC,
                 new Stats(55,
                         30,
@@ -67,13 +67,14 @@ public class EpochRoggenrolaOne extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.MAGNET_PULL,Ability.LEVITATE), Ability.ELECTRIC_SURGE,
                 4, 180,
-                new Stats(55,30,1,30,55,65), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon moves by using its built in static energy to propel it in the direction it wants to go."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo boldore", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,36),

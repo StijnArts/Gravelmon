@@ -135,6 +135,22 @@
   "pokedex": [
     "cobblemon.species.epochanorith.desc"
   ],
+  "evolutions": [
+    {
+      "id": "anorith_epoch_armaldo",
+      "variant": "level_up",
+      "result": "epoch armaldo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
@@ -143,12 +159,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 45,
+    "hp": 0,
     "attack": 1,
-    "defence": 50,
-    "special_attack": 75,
-    "special_defence": 40,
-    "speed": 50
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 7,
   "weight": 125,

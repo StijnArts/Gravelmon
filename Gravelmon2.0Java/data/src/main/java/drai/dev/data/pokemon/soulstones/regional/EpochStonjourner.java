@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStonjourner extends drai.dev.data.pokemon.Pokemon {
     public EpochStonjourner(String name, Aspect aspect) {
-        super(name, aspect,"EpochStonjourner",
+        super(name, aspect, "EpochStonjourner",
                 Type.ELECTRIC,Type.SOUND,
                 new Stats(100,
                         115,
@@ -67,7 +67,7 @@ public class EpochStonjourner extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.BATTERY,Ability.ANALYTIC), Ability.ANTIGRAVITY,
                 25, 5200,
-                new Stats(100,115,2,50,20,80), 123,
+                new Stats(0,0,2,0,0,0), 123,
                 0.5,
                 165, ExperienceGroup.SLOW,
                 70,

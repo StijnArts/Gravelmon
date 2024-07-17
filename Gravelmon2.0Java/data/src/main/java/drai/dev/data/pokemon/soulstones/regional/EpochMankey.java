@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMankey extends drai.dev.data.pokemon.Pokemon {
     public EpochMankey(String name, Aspect aspect) {
-        super(name, aspect,"EpochMankey",
+        super(name, aspect, "EpochMankey",
                 Type.SOUND,Type.FIGHTING,
                 new Stats(50,
                         70,
@@ -67,13 +67,14 @@ public class EpochMankey extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.ANGER_POINT,Ability.DEFIANT), Ability.BERSERK,
                 5, 280,
-                new Stats(50,1,45,60,35,45), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is exceptionally resilient because it is able to use its screeching noise offensively to drown out and annoy anyone that dare crosses its path."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch primeape", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,8),
                         new MoveLearnSetEntry(Move.FRENZY,54),
@@ -182,8 +183,8 @@ public class EpochMankey extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BATTLE_CRY,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

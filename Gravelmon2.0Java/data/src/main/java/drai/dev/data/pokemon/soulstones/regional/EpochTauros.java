@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTauros extends drai.dev.data.pokemon.Pokemon {
     public EpochTauros(String name, Aspect aspect) {
-        super(name, aspect,"EpochTauros",
+        super(name, aspect, "EpochTauros",
                 Type.FIRE,Type.ELECTRIC,
                 new Stats(95,
                         100,
@@ -67,7 +67,7 @@ public class EpochTauros extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.FLASH_FIRE,Ability.RECKLESS), Ability.RUN_AWAY,
                 14, 884,
-                new Stats(95,1,95,110,30,60), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 1.0,
                 172, ExperienceGroup.SLOW,
                 70,
@@ -162,8 +162,8 @@ public class EpochTauros extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_LASH,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 45, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

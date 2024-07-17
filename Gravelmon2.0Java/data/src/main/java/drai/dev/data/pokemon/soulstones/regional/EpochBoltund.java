@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBoltund extends drai.dev.data.pokemon.Pokemon {
     public EpochBoltund(String name, Aspect aspect) {
-        super(name, aspect,"EpochBoltund",
+        super(name, aspect, "EpochBoltund",
                 Type.NORMAL,
                 new Stats(70,
                         90,
@@ -67,7 +67,7 @@ public class EpochBoltund extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.TOUGH_CLAWS,Ability.STEADFAST), Ability.ADAPTABILITY,
                 10, 340,
-                new Stats(70,90,80,120,60,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 172, ExperienceGroup.FAST,
                 70,

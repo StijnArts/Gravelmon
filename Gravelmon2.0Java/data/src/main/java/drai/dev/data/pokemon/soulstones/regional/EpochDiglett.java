@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDiglett extends drai.dev.data.pokemon.Pokemon {
     public EpochDiglett(String name, Aspect aspect) {
-        super(name, aspect,"EpochDiglett",
+        super(name, aspect, "EpochDiglett",
                 Type.GHOST,Type.GROUND,
                 new Stats(50,
                         75,
@@ -67,13 +67,14 @@ public class EpochDiglett extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.INFILTRATOR,Ability.MOLD_BREAKER), Ability.ARENA_TRAP,
                 2, 8,
-                new Stats(50,75,25,95,35,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It likes to keep its eyes closed to mask itself as an ordinary gravestone. When people let their guard down, it will spook them."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dugtrio", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_TOMB,8),
                         new MoveLearnSetEntry(Move.DIG,32),
@@ -173,8 +174,8 @@ public class EpochDiglett extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMACK_DOWN,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

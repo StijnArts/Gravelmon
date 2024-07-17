@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWingull extends drai.dev.data.pokemon.Pokemon {
     public EpochWingull(String name, Aspect aspect) {
-        super(name, aspect,"EpochWingull",
+        super(name, aspect, "EpochWingull",
                 Type.DARK,Type.FLYING,
                 new Stats(45,
                         50,
@@ -67,13 +67,14 @@ public class EpochWingull extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.PICKUP,Ability.LEADERSHIP), Ability.EARLY_BIRD,
                 6, 95,
-                new Stats(45,50,30,85,30,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FLYING),
                 List.of("It frequents beaches and steals food from vacationers. Allegedly, they have a cove somewhere where they hoard all of their finds."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch pelipper", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BEAK_BLAST,49),
                         new MoveLearnSetEntry(Move.LEER,1),

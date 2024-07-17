@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStaryu extends drai.dev.data.pokemon.Pokemon {
     public EpochStaryu(String name, Aspect aspect) {
-        super(name, aspect,"EpochStaryu",
+        super(name, aspect, "EpochStaryu",
                 Type.COSMIC,Type.ROCK,
                 new Stats(45,
                         30,
@@ -67,13 +67,14 @@ public class EpochStaryu extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SYNCHRONIZE,Ability.FILTER), Ability.FORTIFICATION,
                 8, 345,
-                new Stats(45,30,55,1,85,55), 225,
+                new Stats(0,0,0,1,0,0), 225,
                 -1.0,
                 68, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("They are commonly found in caves, rich in ore and other minerals. Its body is translucent and light to the touch."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch starmie", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTEROID_BELT,51),
                         new MoveLearnSetEntry(Move.HARDEN,1),
@@ -159,9 +160,8 @@ public class EpochStaryu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

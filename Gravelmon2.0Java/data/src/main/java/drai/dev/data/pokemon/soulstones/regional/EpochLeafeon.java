@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLeafeon extends drai.dev.data.pokemon.Pokemon {
     public EpochLeafeon(String name, Aspect aspect) {
-        super(name, aspect,"EpochLeafeon",
+        super(name, aspect, "EpochLeafeon",
                 Type.BUG,
                 new Stats(120,
                         55,
@@ -67,7 +67,7 @@ public class EpochLeafeon extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.SHIELD_DUST,Ability.TINTED_LENS), Ability.SWARM,
                 10, 255,
-                new Stats(120,55,60,2,140,50), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.875,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -182,8 +182,8 @@ public class EpochLeafeon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

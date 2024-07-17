@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShedinja extends drai.dev.data.pokemon.Pokemon {
     public EpochShedinja(String name, Aspect aspect) {
-        super(name, aspect,"EpochShedinja",
+        super(name, aspect, "EpochShedinja",
                 Type.LIGHT,Type.BUG,
                 new Stats(1,
                         30,
@@ -67,7 +67,7 @@ public class EpochShedinja extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.WONDER_GUARD), null,
                 8, 12,
-                new Stats(2,30,45,80,100,30), 90,
+                new Stats(2,0,0,0,0,0), 90,
                 -1.0,
                 83, ExperienceGroup.ERRATIC,
                 70,

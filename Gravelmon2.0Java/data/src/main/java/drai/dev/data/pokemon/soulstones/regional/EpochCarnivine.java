@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCarnivine extends drai.dev.data.pokemon.Pokemon {
     public EpochCarnivine(String name, Aspect aspect) {
-        super(name, aspect,"EpochCarnivine",
+        super(name, aspect, "EpochCarnivine",
                 Type.GRASS,Type.BUG,
                 new Stats(74,
                         110,
@@ -67,7 +67,7 @@ public class EpochCarnivine extends drai.dev.data.pokemon.Pokemon {
                         72),
                 List.of(Ability.RAIN_DISH,Ability.POUNCE), Ability.TOXIC_BOOST,
                 14, 270,
-                new Stats(74,2,92,46,60,72), 200,
+                new Stats(0,2,0,0,0,0), 200,
                 0.5,
                 159, ExperienceGroup.SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFerroseed extends drai.dev.data.pokemon.Pokemon {
     public EpochFerroseed(String name, Aspect aspect) {
-        super(name, aspect,"EpochFerroseed",
+        super(name, aspect, "EpochFerroseed",
                 Type.GRASS,
                 new Stats(44,
                         86,
@@ -67,13 +67,14 @@ public class EpochFerroseed extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.IRON_BARBS,Ability.OVERGROW), Ability.POISON_POINT,
                 6, 188,
-                new Stats(44,86,1,10,24,50), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It camouflages well into its surroundings. It uses its beautiful flowers to attract prey and will then bring them down through a volley of thorns."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ferrothorn", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THORNPRISON,1),
                         new MoveLearnSetEntry(Move.SPOIL,18),

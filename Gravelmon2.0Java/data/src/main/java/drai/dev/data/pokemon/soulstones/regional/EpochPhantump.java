@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPhantump extends drai.dev.data.pokemon.Pokemon {
     public EpochPhantump(String name, Aspect aspect) {
-        super(name, aspect,"EpochPhantump",
+        super(name, aspect, "EpochPhantump",
                 Type.GRASS,Type.FIRE,
                 new Stats(43,
                         70,
@@ -67,13 +67,14 @@ public class EpochPhantump extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.DROUGHT,Ability.CHLOROPHYLL), Ability.LONG_REACH,
                 4, 70,
-                new Stats(43,1,48,33,60,55), 150,
+                new Stats(0,1,0,0,0,0), 150,
                 0.5,
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.AMORPHOUS),
                 List.of("When this Pokemon was first seen burning, it was said to be a message from a god."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch trevenant", EvolutionType.TRADE, false, List.of(), 
+ List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,7),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,36),

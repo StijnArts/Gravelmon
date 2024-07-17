@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPoliwhirl extends drai.dev.data.pokemon.Pokemon {
     public EpochPoliwhirl(String name, Aspect aspect) {
-        super(name, aspect,"EpochPoliwhirl",
+        super(name, aspect, "EpochPoliwhirl",
                 Type.WATER,Type.GROUND,
                 new Stats(80,
                         80,
@@ -67,13 +67,16 @@ public class EpochPoliwhirl extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.DRY_SKIN,Ability.LIQUID_VOICE), Ability.SWIFT_SWIM,
                 10, 200,
-                new Stats(1,80,55,65,65,40), 120,
+                new Stats(1,0,0,0,0,0), 120,
                 0.5,
                 135, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Poliwhirl are extremely territorial, and produce deep loud bellows to each other to signal their territory. However, they have a soft spot for Poliwag."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch poliwrath", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:water_stone"),
+new EvolutionEntry("epoch politoed", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DIG,29),
                         new MoveLearnSetEntry(Move.MUD_SHOT,14),
@@ -177,9 +180,8 @@ public class EpochPoliwhirl extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 39, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

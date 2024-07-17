@@ -115,6 +115,20 @@
   "pokedex": [
     "cobblemon.species.epochmagmar.desc"
   ],
+  "evolutions": [
+    {
+      "id": "magmar_epoch_magmortar",
+      "variant": "item_interact",
+      "result": "epoch magmortar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
@@ -124,11 +138,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 90,
-    "defence": 74,
-    "special_attack": 78,
-    "special_defence": 90,
-    "speed": 70
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 13,
   "weight": 445,

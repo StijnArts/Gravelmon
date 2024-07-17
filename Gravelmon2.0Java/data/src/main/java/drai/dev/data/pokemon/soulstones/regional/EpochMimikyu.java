@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMimikyu extends drai.dev.data.pokemon.Pokemon {
     public EpochMimikyu(String name, Aspect aspect) {
-        super(name, aspect,"EpochMimikyu",
+        super(name, aspect, "EpochMimikyu",
                 Type.ICE,Type.GHOST,
                 new Stats(55,
                         115,
@@ -67,7 +67,7 @@ public class EpochMimikyu extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.DISGUISE), null,
                 2, 7,
-                new Stats(55,2,106,80,54,80), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 167, ExperienceGroup.MEDIUM_FAST,
                 70,

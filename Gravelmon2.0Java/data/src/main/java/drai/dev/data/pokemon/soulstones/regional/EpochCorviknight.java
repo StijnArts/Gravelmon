@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCorviknight extends drai.dev.data.pokemon.Pokemon {
     public EpochCorviknight(String name, Aspect aspect) {
-        super(name, aspect,"EpochCorviknight",
+        super(name, aspect, "EpochCorviknight",
                 Type.DARK,Type.ELECTRIC,
                 new Stats(75,
                         100,
@@ -67,7 +67,7 @@ public class EpochCorviknight extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.BIG_PECKS,Ability.CONDUCTOR), Ability.BLACKLIGHT,
                 22, 750,
-                new Stats(75,3,86,100,39,85), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.5,
                 248, ExperienceGroup.MEDIUM_SLOW,
                 70,

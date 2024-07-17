@@ -127,6 +127,22 @@
   "pokedex": [
     "cobblemon.species.epochdrowzee.desc"
   ],
+  "evolutions": [
+    {
+      "id": "drowzee_epoch_hypno",
+      "variant": "level_up",
+      "result": "epoch hypno",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -135,12 +151,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
-    "attack": 75,
-    "defence": 60,
-    "special_attack": 43,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 1,
-    "speed": 45
+    "speed": 0
   },
   "height": 16,
   "weight": 756,

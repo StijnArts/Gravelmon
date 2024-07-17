@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLotad extends drai.dev.data.pokemon.Pokemon {
     public EpochLotad(String name, Aspect aspect) {
-        super(name, aspect,"EpochLotad",
+        super(name, aspect, "EpochLotad",
                 Type.GRASS,Type.GROUND,
                 new Stats(50,
                         20,
@@ -67,13 +67,14 @@ public class EpochLotad extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.SYNTHESIZE,Ability.SOLAR_POWER), Ability.DROUGHT,
                 5, 26,
-                new Stats(1,20,30,30,50,40), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 44, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("This Pokémon lives in deserts and masquerades as an ordinary cactus to hide from predators while is is still young."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch lombre", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,20),
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,60),

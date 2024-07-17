@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDedenne extends drai.dev.data.pokemon.Pokemon {
     public EpochDedenne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDedenne",
+        super(name, aspect, "EpochDedenne",
                 Type.SOUND,Type.FAIRY,
                 new Stats(67,
                         28,
@@ -67,7 +67,7 @@ public class EpochDedenne extends drai.dev.data.pokemon.Pokemon {
                         72),
                 List.of(Ability.CACOPHONY,Ability.VIRTUOSO), Ability.FLUFFY,
                 2, 22,
-                new Stats(67,28,72,101,91,2), 180,
+                new Stats(0,0,0,0,0,2), 180,
                 0.5,
                 151, ExperienceGroup.MEDIUM_FAST,
                 70,

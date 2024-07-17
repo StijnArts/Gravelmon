@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStufful extends drai.dev.data.pokemon.Pokemon {
     public EpochStufful(String name, Aspect aspect) {
-        super(name, aspect,"EpochStufful",
+        super(name, aspect, "EpochStufful",
                 Type.GHOST,Type.FIGHTING,
                 new Stats(70,
                         75,
@@ -67,13 +67,14 @@ public class EpochStufful extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.INFILTRATOR,Ability.MOLD_BREAKER), Ability.CURSED_BODY,
                 5, 68,
-                new Stats(70,1,50,30,45,70), 140,
+                new Stats(0,1,0,0,0,0), 140,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon has haunted a carelessly discarded stuffed animal and enjoys scaring ungrateful or bratty children."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch bewear", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,4),
                         new MoveLearnSetEntry(Move.FLAIL,28),

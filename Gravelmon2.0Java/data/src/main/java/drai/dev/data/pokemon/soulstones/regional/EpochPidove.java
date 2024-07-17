@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPidove extends drai.dev.data.pokemon.Pokemon {
     public EpochPidove(String name, Aspect aspect) {
-        super(name, aspect,"EpochPidove",
+        super(name, aspect, "EpochPidove",
                 Type.PSYCHIC,Type.FAIRY,
                 new Stats(50,
                         40,
@@ -67,13 +67,14 @@ public class EpochPidove extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.PUREHEART,Ability.GENIUS), Ability.HEALER,
                 3, 21,
-                new Stats(50,40,1,55,20,50), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 53, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Where people go, these Pokémon follow. They do not like to be left alone and forms bonds with other pokemon very easily."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch tranquill", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICKSPELL,12),
                         new MoveLearnSetEntry(Move.CHARM,26),

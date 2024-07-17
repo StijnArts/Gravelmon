@@ -140,6 +140,22 @@
   "pokedex": [
     "cobblemon.species.epochtotodile.desc"
   ],
+  "evolutions": [
+    {
+      "id": "totodile_epoch_croconaw",
+      "variant": "level_up",
+      "result": "epoch croconaw",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -148,12 +164,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
+    "hp": 0,
     "attack": 1,
-    "defence": 64,
-    "special_attack": 48,
-    "special_defence": 44,
-    "speed": 43
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 95,
@@ -292,6 +308,22 @@
   "pokedex": [
     "cobblemon.species.epochtotodileone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "totodile_epochtwo_croconaw",
+      "variant": "level_up",
+      "result": "epochtwo croconaw",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -300,12 +332,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
+    "hp": 0,
     "attack": 1,
-    "defence": 48,
-    "special_attack": 43,
-    "special_defence": 44,
-    "speed": 64
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 95,

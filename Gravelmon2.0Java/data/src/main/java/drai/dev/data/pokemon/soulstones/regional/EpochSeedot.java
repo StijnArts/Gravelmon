@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSeedot extends drai.dev.data.pokemon.Pokemon {
     public EpochSeedot(String name, Aspect aspect) {
-        super(name, aspect,"EpochSeedot",
+        super(name, aspect, "EpochSeedot",
                 Type.GRASS,Type.FIRE,
                 new Stats(30,
                         30,
@@ -67,13 +67,14 @@ public class EpochSeedot extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.LEAF_GUARD,Ability.FLAME_BODY), Ability.CHLOROPHYLL,
                 5, 40,
-                new Stats(30,30,1,20,30,55), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 44, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("They hunt in small groups as their small stature allows them to go unnoticed until it is too late when they are able to quickly outnumber their prey."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch nuzleaf", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,15),
                         new MoveLearnSetEntry(Move.SUNNY_DAY,28),

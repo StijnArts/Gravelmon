@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDustox extends drai.dev.data.pokemon.Pokemon {
     public EpochDustox(String name, Aspect aspect) {
-        super(name, aspect,"EpochDustox",
+        super(name, aspect, "EpochDustox",
                 Type.BUG,Type.ICE,
                 new Stats(80,
                         80,
@@ -67,7 +67,7 @@ public class EpochDustox extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.ICE_BODY,Ability.SNOW_WARNING), Ability.ICE_SCALES,
                 12, 316,
-                new Stats(80,80,3,85,40,85), 100,
+                new Stats(0,0,3,0,0,0), 100,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBlissey extends drai.dev.data.pokemon.Pokemon {
     public EpochBlissey(String name, Aspect aspect) {
-        super(name, aspect,"EpochBlissey",
+        super(name, aspect, "EpochBlissey",
                 Type.NORMAL,Type.STEEL,
                 new Stats(105,
                         100,
@@ -67,12 +67,12 @@ public class EpochBlissey extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.TERMINATOR,Ability.ANALYTIC), Ability.DOWNLOAD,
                 15, 468,
-                new Stats(3,100,120,55,75,85), 80,
+                new Stats(3,0,0,0,0,0), 80,
                 0.0,
                 608, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
-                List.of("The inventor of the B.L.I.S.S.E.Y allegedly installed a 'Terminator' mode but it's not clear how to trigger this mode."),
+                List.of("The inventor of the B.L.I.S.S.E.Y allegedly installed a Terminator mode but its not clear how to trigger this mode."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -168,9 +168,8 @@ public class EpochBlissey extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 40, 75, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

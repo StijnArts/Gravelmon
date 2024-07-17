@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTrubbish extends drai.dev.data.pokemon.Pokemon {
     public EpochTrubbish(String name, Aspect aspect) {
-        super(name, aspect,"EpochTrubbish",
+        super(name, aspect, "EpochTrubbish",
                 Type.ELECTRIC,Type.POISON,
                 new Stats(62,
                         40,
@@ -67,13 +67,14 @@ public class EpochTrubbish extends drai.dev.data.pokemon.Pokemon {
                         67),
                 List.of(Ability.CONDUCTOR,Ability.TOXIC_DEBRIS), Ability.ELECTRIC_SURGE,
                 6, 310,
-                new Stats(62,40,55,40,1,67), 190,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Have you ever thrown away your batteries in the garbage instead of recycling properly? Well guess what, you’re to blame for the rise of these nasty Trubbish!"),
-                List.of(),
+                List.of(new EvolutionEntry("epoch garbodor", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.PAIN_SPLIT,33),
                         new MoveLearnSetEntry(Move.RECYCLE,1),

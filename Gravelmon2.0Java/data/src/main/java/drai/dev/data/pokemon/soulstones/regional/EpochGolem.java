@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGolem extends drai.dev.data.pokemon.Pokemon {
     public EpochGolem(String name, Aspect aspect) {
-        super(name, aspect,"EpochGolem",
+        super(name, aspect, "EpochGolem",
                 Type.ROCK,Type.FIRE,
                 new Stats(90,
                         110,
@@ -67,7 +67,7 @@ public class EpochGolem extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.STEAM_ENGINE,Ability.STURDY), Ability.DRY_SKIN,
                 17, 6000,
-                new Stats(90,110,3,35,40,90), 100,
+                new Stats(0,0,3,0,0,0), 100,
                 0.5,
                 223, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -152,9 +152,8 @@ public class EpochGolem extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 39, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

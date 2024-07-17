@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochEelektrik extends drai.dev.data.pokemon.Pokemon {
     public EpochEelektrik(String name, Aspect aspect) {
-        super(name, aspect,"EpochEelektrik",
+        super(name, aspect, "EpochEelektrik",
                 Type.BUG,Type.GROUND,
                 new Stats(65,
                         70,
@@ -67,13 +67,14 @@ public class EpochEelektrik extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.SAND_VEIL,Ability.ARENA_TRAP), Ability.EARTH_EATER,
                 12, 220,
-                new Stats(65,2,85,55,45,85), 123,
+                new Stats(0,2,0,0,0,0), 123,
                 0.5,
                 142, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.AMORPHOUS),
                 List.of("These Pokémon come out of their burrows to feed on smaller bugs and insects within caves and sandy dunes."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch eelektross", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,45),
                         new MoveLearnSetEntry(Move.SKITTER_SMACK,20),

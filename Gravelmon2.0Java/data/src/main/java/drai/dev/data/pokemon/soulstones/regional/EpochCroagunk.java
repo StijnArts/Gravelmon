@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCroagunk extends drai.dev.data.pokemon.Pokemon {
     public EpochCroagunk(String name, Aspect aspect) {
-        super(name, aspect,"EpochCroagunk",
+        super(name, aspect, "EpochCroagunk",
                 Type.POISON,Type.PSYCHIC,
                 new Stats(48,
                         67,
@@ -67,13 +67,14 @@ public class EpochCroagunk extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.POISON_TOUCH,Ability.TELEPATHY), Ability.EFFECT_SPORE,
                 7, 230,
-                new Stats(48,1,35,60,55,35), 140,
+                new Stats(0,1,0,0,0,0), 140,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Rumour has it that if you lick one, you can achieve a trance-like high but you might also contract an incurable disease."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch toxicroak", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GUNK_SHOT,54),
                         new MoveLearnSetEntry(Move.WAIL,30),

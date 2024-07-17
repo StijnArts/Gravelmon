@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSnorunt extends drai.dev.data.pokemon.Pokemon {
     public EpochSnorunt(String name, Aspect aspect) {
-        super(name, aspect,"EpochSnorunt",
+        super(name, aspect, "EpochSnorunt",
                 Type.GHOST,
                 new Stats(50,
                         70,
@@ -67,13 +67,17 @@ public class EpochSnorunt extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.CURSED_BODY,Ability.PRESSURE), Ability.PRANKSTER,
                 7, 168,
-                new Stats(50,1,60,60,30,30), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.MINERAL),
                 List.of("It is found in large numbers in tombs and crypts. They will often remain motionless and then mass attack grave robbers."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch glalie", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")), List.of(), "cobblemon:dusk_stone"),
+new EvolutionEntry("epoch froslass", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,15),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,30),

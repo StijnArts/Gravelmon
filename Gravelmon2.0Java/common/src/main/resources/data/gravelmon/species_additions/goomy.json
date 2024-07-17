@@ -128,6 +128,22 @@
   "pokedex": [
     "cobblemon.species.epochgoomy.desc"
   ],
+  "evolutions": [
+    {
+      "id": "goomy_epoch_sliggoo",
+      "variant": "level_up",
+      "result": "epoch sliggoo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -136,12 +152,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
-    "attack": 50,
-    "defence": 45,
-    "special_attack": 30,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 1,
-    "speed": 75
+    "speed": 0
   },
   "height": 3,
   "weight": 28,

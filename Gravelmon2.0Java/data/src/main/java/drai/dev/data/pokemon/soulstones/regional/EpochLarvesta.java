@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLarvesta extends drai.dev.data.pokemon.Pokemon {
     public EpochLarvesta(String name, Aspect aspect) {
-        super(name, aspect,"EpochLarvesta",
+        super(name, aspect, "EpochLarvesta",
                 Type.BUG,Type.ELECTRIC,
                 new Stats(55,
                         85,
@@ -67,13 +67,14 @@ public class EpochLarvesta extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.STATIC,Ability.TINTED_LENS), Ability.SWARM,
                 11, 288,
-                new Stats(55,1,55,60,50,55), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 72, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("You can often find this Pokemon nibbling on electric wires to siphon the electrical current within as food."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch volcarona", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,28),
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,44),

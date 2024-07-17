@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHelioptile extends drai.dev.data.pokemon.Pokemon {
     public EpochHelioptile(String name, Aspect aspect) {
-        super(name, aspect,"EpochHelioptile",
+        super(name, aspect, "EpochHelioptile",
                 Type.DRAGON,Type.ROCK,
                 new Stats(44,
                         38,
@@ -67,13 +67,14 @@ public class EpochHelioptile extends drai.dev.data.pokemon.Pokemon {
                         43),
                 List.of(Ability.MULTISCALE,Ability.STEADFAST), Ability.COMPETITIVE,
                 5, 60,
-                new Stats(44,38,33,70,61,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("The small snakes on this Pokemon's head are an extension of its body. Their fangs seep venom and the poison can paralyze a foe ten times its size."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch heliolisk", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,29),
                         new MoveLearnSetEntry(Move.ACID,13),

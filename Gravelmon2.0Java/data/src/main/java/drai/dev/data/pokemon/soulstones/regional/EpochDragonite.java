@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDragonite extends drai.dev.data.pokemon.Pokemon {
     public EpochDragonite(String name, Aspect aspect) {
-        super(name, aspect,"EpochDragonite",
+        super(name, aspect, "EpochDragonite",
                 Type.LIGHT,Type.DRAGON,
                 new Stats(91,
                         94,
@@ -67,7 +67,7 @@ public class EpochDragonite extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.DAZZLING,Ability.PUREHEART), Ability.MARVEL_SCALE,
                 22, 2100,
-                new Stats(91,94,95,130,90,3), 90,
+                new Stats(0,0,0,0,0,3), 90,
                 0.5,
                 270, ExperienceGroup.SLOW,
                 70,
@@ -185,8 +185,9 @@ public class EpochDragonite extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 54, 67, .2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"false"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

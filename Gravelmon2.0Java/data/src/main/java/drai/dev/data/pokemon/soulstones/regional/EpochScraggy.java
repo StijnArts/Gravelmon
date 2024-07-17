@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochScraggy extends drai.dev.data.pokemon.Pokemon {
     public EpochScraggy(String name, Aspect aspect) {
-        super(name, aspect,"EpochScraggy",
+        super(name, aspect, "EpochScraggy",
                 Type.SOUND,Type.DARK,
                 new Stats(50,
                         65,
@@ -67,13 +67,14 @@ public class EpochScraggy extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.PRANKSTER,Ability.QUICK_DRAW), Ability.CACOPHONY,
                 6, 118,
-                new Stats(50,1,60,48,65,60), 180,
+                new Stats(0,1,0,0,0,0), 180,
                 0.5,
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon often inhabits the urban centres and hideaway areas. It is often sharing its mix tape with others in hopes of catching its big break."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch scrafty", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLING,12),
                         new MoveLearnSetEntry(Move.LEER,1),

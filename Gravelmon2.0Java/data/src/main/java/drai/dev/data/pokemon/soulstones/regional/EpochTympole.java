@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTympole extends drai.dev.data.pokemon.Pokemon {
     public EpochTympole(String name, Aspect aspect) {
-        super(name, aspect,"EpochTympole",
+        super(name, aspect, "EpochTympole",
                 Type.GRASS,Type.POISON,
                 new Stats(50,
                         40,
@@ -67,13 +67,14 @@ public class EpochTympole extends drai.dev.data.pokemon.Pokemon {
                         54),
                 List.of(Ability.POISON_TOUCH,Ability.STORM_DRAIN), Ability.PROTEAN,
                 5, 45,
-                new Stats(50,40,55,40,1,54), 255,
+                new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 59, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It has spent too much time near the water's edge such that it has started to grow mushrooms."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch palpitoad", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,10),
                         new MoveLearnSetEntry(Move.ACID,1),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagnetonOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMagnetonOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMagnetonOne",
+        super(name, aspect, "EpochMagnetonOne",
                 Type.ROCK,Type.PSYCHIC,
                 new Stats(90,
                         25,
@@ -67,13 +67,14 @@ public class EpochMagnetonOne extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.LEVITATE,Ability.SOLID_ROCK), Ability.TINTED_LENS,
                 10, 600,
-                new Stats(90,25,95,2,110,90), 123,
+                new Stats(0,0,0,2,0,0), 123,
                 -1.0,
                 163, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("T.Magneton form when 3 T.Magnemite psychically fuse together. The dominant one can be identified by having an extra crystal on its body."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo magnezone", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.MINERALWAVE,15),
                         new MoveLearnSetEntry(Move.REFLECT,31),
@@ -170,9 +171,9 @@ public class EpochMagnetonOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 46, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

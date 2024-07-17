@@ -118,6 +118,22 @@
   "pokedex": [
     "cobblemon.species.epochbaltoy.desc"
   ],
+  "evolutions": [
+    {
+      "id": "baltoy_epoch_claydol",
+      "variant": "level_up",
+      "result": "epoch claydol",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -126,12 +142,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
-    "attack": 20,
-    "defence": 55,
-    "special_attack": 55,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 1,
-    "speed": 70
+    "speed": 0
   },
   "height": 5,
   "weight": 215,

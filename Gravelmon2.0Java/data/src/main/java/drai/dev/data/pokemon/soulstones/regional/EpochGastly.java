@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGastly extends drai.dev.data.pokemon.Pokemon {
     public EpochGastly(String name, Aspect aspect) {
-        super(name, aspect,"EpochGastly",
+        super(name, aspect, "EpochGastly",
                 Type.ICE,Type.FLYING,
                 new Stats(30,
                         30,
@@ -67,13 +67,14 @@ public class EpochGastly extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.FILTER,Ability.CLOUD_NINE), Ability.SNOW_WARNING,
                 13, 1,
-                new Stats(30,30,30,1,100,35), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Whenever hail falls, you can likely credit a Gastly as being responsible for starting it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch haunter", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,22),
                         new MoveLearnSetEntry(Move.DEFOG,26),
@@ -155,8 +156,9 @@ public class EpochGastly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONECHILL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 27, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

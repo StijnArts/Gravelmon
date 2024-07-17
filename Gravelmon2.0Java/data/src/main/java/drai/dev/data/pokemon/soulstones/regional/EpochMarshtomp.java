@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMarshtomp extends drai.dev.data.pokemon.Pokemon {
     public EpochMarshtomp(String name, Aspect aspect) {
-        super(name, aspect,"EpochMarshtomp",
+        super(name, aspect, "EpochMarshtomp",
                 Type.COSMIC,Type.FIRE,
                 new Stats(80,
                         60,
@@ -67,13 +67,14 @@ public class EpochMarshtomp extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.STARSTRUCK,Ability.FILTER), Ability.NEBULACLOUD,
                 7, 280,
-                new Stats(80,60,70,50,1,85), 90,
+                new Stats(0,0,0,0,1,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("The flares that come off the surface of its head resemble ears but it is actually just a very unstable part of its body that is constantly combusting."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch swampert", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,4),
                         new MoveLearnSetEntry(Move.ASTEROID_BELT,10),
@@ -186,9 +187,8 @@ public class EpochMarshtomp extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

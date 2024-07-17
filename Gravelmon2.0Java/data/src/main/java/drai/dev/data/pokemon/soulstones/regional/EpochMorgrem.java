@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMorgrem extends drai.dev.data.pokemon.Pokemon {
     public EpochMorgrem(String name, Aspect aspect) {
-        super(name, aspect,"EpochMorgrem",
+        super(name, aspect, "EpochMorgrem",
                 Type.GROUND,Type.FAIRY,
                 new Stats(60,
                         85,
@@ -67,13 +67,14 @@ public class EpochMorgrem extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.TANGLING_HAIR,Ability.STORM_DRAIN), Ability.PRANKSTER,
                 8, 125,
-                new Stats(60,1,45,50,85,75), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 1.0,
                 130, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("As it ages, it gets a very bad case of skin acne and greasy hair. It attempts to use mud to mask these imperfections and insecurities."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch grimmsnarl", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONTINENTALRIFT,59),
                         new MoveLearnSetEntry(Move.SAND_TOMB,1),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStaravia extends drai.dev.data.pokemon.Pokemon {
     public EpochStaravia(String name, Aspect aspect) {
-        super(name, aspect,"EpochStaravia",
+        super(name, aspect, "EpochStaravia",
                 Type.SOUND,Type.FLYING,
                 new Stats(60,
                         25,
@@ -67,13 +67,14 @@ public class EpochStaravia extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.CLOUD_NINE,Ability.CACOPHONY), Ability.GALE_WINGS,
                 6, 155,
-                new Stats(60,25,65,80,70,2), 120,
+                new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 119, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They often vie among one another to create the best solo performance or improvisation to attract potential mates."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch staraptor", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEEPINGWIND,46),
                         new MoveLearnSetEntry(Move.SONIC_BOOM,5),

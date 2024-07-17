@@ -262,11 +262,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 20,
-    "defence": 35,
-    "special_attack": 75,
-    "special_defence": 20,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 12,

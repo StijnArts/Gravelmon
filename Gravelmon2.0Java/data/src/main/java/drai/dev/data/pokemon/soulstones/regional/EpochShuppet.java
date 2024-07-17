@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShuppet extends drai.dev.data.pokemon.Pokemon {
     public EpochShuppet(String name, Aspect aspect) {
-        super(name, aspect,"EpochShuppet",
+        super(name, aspect, "EpochShuppet",
                 Type.FAIRY,Type.DARK,
                 new Stats(44,
                         75,
@@ -67,13 +67,14 @@ public class EpochShuppet extends drai.dev.data.pokemon.Pokemon {
                         33),
                 List.of(Ability.DISARRAY,Ability.INFILTRATOR), Ability.PRANKSTER,
                 6, 23,
-                new Stats(44,1,35,65,43,33), 225,
+                new Stats(0,1,0,0,0,0), 225,
                 0.5,
                 59, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon is used to cheer up sick children in hospitals, however, many children have developed a fear of them instead."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch banette", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINFULSMITE,26),
                         new MoveLearnSetEntry(Move.EMBARGO,38),

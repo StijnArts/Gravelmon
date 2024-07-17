@@ -140,12 +140,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 90,
+    "hp": 0,
     "attack": 3,
-    "defence": 89,
-    "special_attack": 105,
-    "special_defence": 55,
-    "speed": 89
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 14,
   "weight": 420,

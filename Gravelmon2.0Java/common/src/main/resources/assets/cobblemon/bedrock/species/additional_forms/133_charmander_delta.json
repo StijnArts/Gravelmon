@@ -37,7 +37,7 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltacharmander.geo",
       "poser": "cobblemon:generation1_deltacharmander",
       "texture": "cobblemon:textures/pokemon/generation1/deltacharmander/deltacharmander_shiny.png",
       "layers": [

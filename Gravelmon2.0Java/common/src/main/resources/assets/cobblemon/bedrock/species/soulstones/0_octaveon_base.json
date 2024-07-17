@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:octaveon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:soulstones_octaveon",
+      "texture": "cobblemon:textures/pokemon/soulstones/octaveon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/octaveon_shiny.png"
+    }
+  ]
+}

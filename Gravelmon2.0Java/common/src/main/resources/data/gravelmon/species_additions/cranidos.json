@@ -127,6 +127,22 @@
   "pokedex": [
     "cobblemon.species.epochcranidos.desc"
   ],
+  "evolutions": [
+    {
+      "id": "cranidos_epoch_rampardos",
+      "variant": "level_up",
+      "result": "epoch rampardos",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -135,12 +151,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 67,
+    "hp": 0,
     "attack": 1,
-    "defence": 40,
-    "special_attack": 78,
-    "special_defence": 30,
-    "speed": 30
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 9,
   "weight": 315,

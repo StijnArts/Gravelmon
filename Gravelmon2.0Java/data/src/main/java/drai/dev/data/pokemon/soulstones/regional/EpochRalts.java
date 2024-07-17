@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRalts extends drai.dev.data.pokemon.Pokemon {
     public EpochRalts(String name, Aspect aspect) {
-        super(name, aspect,"EpochRalts",
+        super(name, aspect, "EpochRalts",
                 Type.DARK,Type.POISON,
                 new Stats(30,
                         35,
@@ -67,13 +67,14 @@ public class EpochRalts extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.RUN_AWAY,Ability.QUICK_FEET), Ability.RATTLED,
                 4, 66,
-                new Stats(1,35,35,40,35,35), 235,
+                new Stats(1,0,0,0,0,0), 235,
                 0.5,
                 40, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.AMORPHOUS),
                 List.of("It tries to keep to itself and stays in secluded environments away from other people because of trust issues."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch kirlia", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,30),
                         new MoveLearnSetEntry(Move.POISON_JAB,33),

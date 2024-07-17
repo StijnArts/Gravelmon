@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochArrokuda extends drai.dev.data.pokemon.Pokemon {
     public EpochArrokuda(String name, Aspect aspect) {
-        super(name, aspect,"EpochArrokuda",
+        super(name, aspect, "EpochArrokuda",
                 Type.WATER,Type.GHOST,
                 new Stats(41,
                         63,
@@ -67,13 +67,14 @@ public class EpochArrokuda extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.CURSED_BODY,Ability.INNARDS_OUT), Ability.STRONG_JAW,
                 5, 10,
-                new Stats(41,63,50,76,30,1), 155,
+                new Stats(0,0,0,0,0,1), 155,
                 0.5,
                 56, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("This Pokemon is bitter tasting and any unfortunate bird Pokemon that ends up eating it will have to contend with a bad stomach ache that follows shortly after."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch barraskewda", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUA_TAIL,41),
                         new MoveLearnSetEntry(Move.POLTERGEIST,49),

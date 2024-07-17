@@ -128,6 +128,22 @@
   "pokedex": [
     "cobblemon.species.epochdragonair.desc"
   ],
+  "evolutions": [
+    {
+      "id": "dragonair_epoch_dragonite",
+      "variant": "level_up",
+      "result": "epoch dragonite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.6666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -136,11 +152,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 61,
-    "attack": 64,
-    "defence": 55,
-    "special_attack": 120,
-    "special_defence": 60,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 2
   },
   "height": 40,

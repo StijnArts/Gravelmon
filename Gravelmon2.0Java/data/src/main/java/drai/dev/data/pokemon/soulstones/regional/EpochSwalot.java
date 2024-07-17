@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSwalot extends drai.dev.data.pokemon.Pokemon {
     public EpochSwalot(String name, Aspect aspect) {
-        super(name, aspect,"EpochSwalot",
+        super(name, aspect, "EpochSwalot",
                 Type.GROUND,
                 new Stats(80,
                         50,
@@ -67,7 +67,7 @@ public class EpochSwalot extends drai.dev.data.pokemon.Pokemon {
                         120),
                 List.of(Ability.WATER_COMPACTION,Ability.WATER_ABSORB), Ability.SAND_STREAM,
                 17, 800,
-                new Stats(80,50,90,40,2,120), 100,
+                new Stats(0,0,0,0,2,0), 100,
                 0.5,
                 163, ExperienceGroup.FLUCTUATING,
                 70,
@@ -146,8 +146,9 @@ public class EpochSwalot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

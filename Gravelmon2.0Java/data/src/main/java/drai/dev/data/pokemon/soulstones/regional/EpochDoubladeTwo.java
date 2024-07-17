@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDoubladeTwo extends drai.dev.data.pokemon.Pokemon {
     public EpochDoubladeTwo(String name, Aspect aspect) {
-        super(name, aspect,"EpochDoubladeTwo",
+        super(name, aspect, "EpochDoubladeTwo",
                 Type.FIRE,
                 new Stats(99,
                         90,
@@ -66,14 +66,15 @@ public class EpochDoubladeTwo extends drai.dev.data.pokemon.Pokemon {
                         35,
                         49),
                 List.of(Ability.DEFIANT,Ability.ADAPTABILITY), Ability.SHARPNESS,
-                0, 0,
-                new Stats(99,2,80,95,35,49), 222,
+                8, 20,
+                new Stats(0,2,0,0,0,0), 222,
                 0.5,
                 157, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon masquerades as a blazing axe."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo aegislash", EvolutionType.ITEM_INTERACT, false, List.of(),
+ List.of(), List.of(), "cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,36),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,4),

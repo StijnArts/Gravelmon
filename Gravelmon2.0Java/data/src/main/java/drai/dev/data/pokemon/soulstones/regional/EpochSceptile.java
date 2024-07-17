@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSceptile extends drai.dev.data.pokemon.Pokemon {
     public EpochSceptile(String name, Aspect aspect) {
-        super(name, aspect,"EpochSceptile",
+        super(name, aspect, "EpochSceptile",
                 Type.BUG,Type.DRAGON,
                 new Stats(105,
                         100,
@@ -67,7 +67,7 @@ public class EpochSceptile extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.COLOR_CHANGE,Ability.COMPOUND_EYES), Ability.REGENERATOR,
                 17, 522,
-                new Stats(105,1,95,110,65,65), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -159,8 +159,8 @@ public class EpochSceptile extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

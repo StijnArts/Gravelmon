@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochComfey extends drai.dev.data.pokemon.Pokemon {
     public EpochComfey(String name, Aspect aspect) {
-        super(name, aspect,"EpochComfey",
+        super(name, aspect, "EpochComfey",
                 Type.FAIRY,Type.WATER,
                 new Stats(51,
                         52,
@@ -67,7 +67,7 @@ public class EpochComfey extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.NATURAL_CURE,Ability.REGENERATOR), Ability.MAGIC_BOUNCE,
                 1, 3,
-                new Stats(51,52,100,90,2,110), 123,
+                new Stats(0,0,0,0,2,0), 123,
                 0.0,
                 170, ExperienceGroup.FAST,
                 70,

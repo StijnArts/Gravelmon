@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLanturn extends drai.dev.data.pokemon.Pokemon {
     public EpochLanturn(String name, Aspect aspect) {
-        super(name, aspect,"EpochLanturn",
+        super(name, aspect, "EpochLanturn",
                 Type.LIGHT,Type.DARK,
                 new Stats(105,
                         38,
@@ -67,7 +67,7 @@ public class EpochLanturn extends drai.dev.data.pokemon.Pokemon {
                         76),
                 List.of(Ability.MARVEL_SCALE,Ability.MEGA_LAUNCHER), Ability.REGENERATOR,
                 12, 225,
-                new Stats(2,38,78,77,86,76), 75,
+                new Stats(2,0,0,0,0,0), 75,
                 0.5,
                 161, ExperienceGroup.SLOW,
                 70,
@@ -172,13 +172,15 @@ public class EpochLanturn extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 27, 43, .4, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Lanturn");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSpheal extends drai.dev.data.pokemon.Pokemon {
     public EpochSpheal(String name, Aspect aspect) {
-        super(name, aspect,"EpochSpheal",
+        super(name, aspect, "EpochSpheal",
                 Type.ICE,Type.GROUND,
                 new Stats(60,
                         50,
@@ -67,13 +67,14 @@ public class EpochSpheal extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.WATER_ABSORB,Ability.SWIFT_SWIM), Ability.OBLIVIOUS,
                 8, 395,
-                new Stats(1,50,60,25,35,60), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("This Pokémon's body is covered in blubber and is impressively round. Despite its tuft of hair, it's faster for Spheal to roll around than walk."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch sealeo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHORE_UP,16),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),

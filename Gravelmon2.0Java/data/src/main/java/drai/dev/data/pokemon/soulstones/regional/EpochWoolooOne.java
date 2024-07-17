@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWoolooOne extends drai.dev.data.pokemon.Pokemon {
     public EpochWoolooOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochWoolooOne",
+        super(name, aspect, "EpochWoolooOne",
                 Type.GRASS,
                 new Stats(48,
                         65,
@@ -67,13 +67,14 @@ public class EpochWoolooOne extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.HARVEST,Ability.GRASS_PELT), Ability.GLUTTONY,
                 6, 60,
-                new Stats(48,65,1,67,20,60), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 122, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They are regularly farmed as the bushes on these Pokemon are constantly bearing berries and fruits."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo dubwool", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,11),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,40),

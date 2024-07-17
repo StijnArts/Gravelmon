@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKricketune extends drai.dev.data.pokemon.Pokemon {
     public EpochKricketune(String name, Aspect aspect) {
-        super(name, aspect,"EpochKricketune",
+        super(name, aspect, "EpochKricketune",
                 Type.BUG,Type.SOUND,
                 new Stats(81,
                         40,
@@ -67,7 +67,7 @@ public class EpochKricketune extends drai.dev.data.pokemon.Pokemon {
                         81),
                 List.of(Ability.SHED_SKIN,Ability.SWARM), Ability.VIRTUOSO,
                 10, 255,
-                new Stats(81,40,61,2,86,81), 90,
+                new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 134, ExperienceGroup.MEDIUM_SLOW,
                 70,

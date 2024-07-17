@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMimejr extends drai.dev.data.pokemon.Pokemon {
     public EpochMimejr(String name, Aspect aspect) {
-        super(name, aspect,"EpochMimejr",
+        super(name, aspect, "EpochMimejr",
                 Type.SOUND,Type.PSYCHIC,
                 new Stats(60,
                         25,
@@ -67,13 +67,14 @@ public class EpochMimejr extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.OBLIVIOUS,Ability.TRACE), Ability.SCREEN_CLEANER,
                 6, 130,
-                new Stats(60,25,25,60,1,75), 145,
+                new Stats(0,0,0,0,1,0), 145,
                 0.5,
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It busks on the side streets of large urban centres. The irony is that it is mute despite being a Sound type."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch mrmime", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SOUND_BARRIER,36),
                         new MoveLearnSetEntry(Move.ENCORE,4),
@@ -187,9 +188,8 @@ public class EpochMimejr extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

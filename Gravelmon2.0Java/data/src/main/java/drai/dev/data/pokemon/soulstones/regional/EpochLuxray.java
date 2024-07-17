@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLuxray extends drai.dev.data.pokemon.Pokemon {
     public EpochLuxray(String name, Aspect aspect) {
-        super(name, aspect,"EpochLuxray",
+        super(name, aspect, "EpochLuxray",
                 Type.DARK,Type.DRAGON,
                 new Stats(90,
                         95,
@@ -67,7 +67,7 @@ public class EpochLuxray extends drai.dev.data.pokemon.Pokemon {
                         89),
                 List.of(Ability.REALISM,Ability.GUTS), Ability.TOUGH_CLAWS,
                 14, 420,
-                new Stats(90,3,89,105,55,89), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.5,
                 235, ExperienceGroup.MEDIUM_SLOW,
                 70,

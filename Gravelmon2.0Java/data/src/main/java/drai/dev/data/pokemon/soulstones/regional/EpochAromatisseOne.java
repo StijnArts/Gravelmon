@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAromatisseOne extends drai.dev.data.pokemon.Pokemon {
     public EpochAromatisseOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochAromatisseOne",
+        super(name, aspect, "EpochAromatisseOne",
                 Type.FAIRY,Type.DARK,
                 new Stats(101,
                         59,
@@ -67,7 +67,7 @@ public class EpochAromatisseOne extends drai.dev.data.pokemon.Pokemon {
                         102),
                 List.of(Ability.POWER_SPOT,Ability.PRANKSTER), Ability.RECEIVER,
                 8, 155,
-                new Stats(2,59,119,29,52,102), 200,
+                new Stats(2,0,0,0,0,0), 200,
                 0.5,
                 162, ExperienceGroup.MEDIUM_FAST,
                 70,

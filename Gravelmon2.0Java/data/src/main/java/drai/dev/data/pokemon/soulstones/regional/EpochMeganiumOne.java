@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMeganiumOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMeganiumOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMeganiumOne",
+        super(name, aspect, "EpochMeganiumOne",
                 Type.ELECTRIC,Type.STEEL,
                 new Stats(100,
                         82,
@@ -67,7 +67,7 @@ public class EpochMeganiumOne extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.LIGHTNING_ROD,Ability.SURGE_SURFER), Ability.MAGNET_PULL,
                 18, 1005,
-                new Stats(1,82,90,80,83,90), 90,
+                new Stats(1,0,0,0,0,0), 90,
                 0.875,
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -163,9 +163,8 @@ public class EpochMeganiumOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE,  36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

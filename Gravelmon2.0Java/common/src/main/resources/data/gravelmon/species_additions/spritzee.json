@@ -166,6 +166,20 @@
   "pokedex": [
     "cobblemon.species.epochspritzee.desc"
   ],
+  "evolutions": [
+    {
+      "id": "spritzee_epoch_aromatisse",
+      "variant": "item_interact",
+      "result": "epoch aromatisse",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:black_sludge",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -175,11 +189,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 63,
-    "defence": 60,
-    "special_attack": 23,
-    "special_defence": 42,
-    "speed": 75
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 2,
   "weight": 5,
@@ -311,6 +325,20 @@
   "pokedex": [
     "cobblemon.species.epochspritzeeone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "spritzee_epochtwo_aromatisse",
+      "variant": "item_interact",
+      "result": "epochtwo aromatisse",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -320,11 +348,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 43,
-    "defence": 85,
-    "special_attack": 23,
-    "special_defence": 32,
-    "speed": 80
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 2,
   "weight": 5,

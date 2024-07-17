@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBuneary extends drai.dev.data.pokemon.Pokemon {
     public EpochBuneary(String name, Aspect aspect) {
-        super(name, aspect,"EpochBuneary",
+        super(name, aspect, "EpochBuneary",
                 Type.COSMIC,Type.ICE,
                 new Stats(55,
                         66,
@@ -67,13 +67,14 @@ public class EpochBuneary extends drai.dev.data.pokemon.Pokemon {
                         56),
                 List.of(Ability.COSTAR,Ability.DANCER), Ability.TECHNICIAN,
                 4, 55,
-                new Stats(55,66,44,85,44,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.0,
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This little bunny is headed for stardom! It practices every day until it perfects its technique, which then allows it to evolve into a real star."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch lopunny", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LUCKY_CHANT,20),
                         new MoveLearnSetEntry(Move.WOOINGHUG,24),

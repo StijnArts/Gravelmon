@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBewear extends drai.dev.data.pokemon.Pokemon {
     public EpochBewear(String name, Aspect aspect) {
-        super(name, aspect,"EpochBewear",
+        super(name, aspect, "EpochBewear",
                 Type.GHOST,Type.FIGHTING,
                 new Stats(120,
                         125,
@@ -67,7 +67,7 @@ public class EpochBewear extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.INFILTRATOR,Ability.MOLD_BREAKER), Ability.CURSED_BODY,
                 21, 1350,
-                new Stats(120,2,80,40,55,80), 70,
+                new Stats(0,2,0,0,0,0), 70,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,

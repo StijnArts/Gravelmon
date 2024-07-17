@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAipom extends drai.dev.data.pokemon.Pokemon {
     public EpochAipom(String name, Aspect aspect) {
-        super(name, aspect,"EpochAipom",
+        super(name, aspect, "EpochAipom",
                 Type.NORMAL,Type.PSYCHIC,
                 new Stats(60,
                         40,
@@ -67,13 +67,14 @@ public class EpochAipom extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.COMATOSE), null,
                 8, 115,
-                new Stats(60,40,60,80,60,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 72, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Despite the appearance of being asleep, its psychic powers allow it to behave and function perfectly normally."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ambipom", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.CALM_MIND,29),
                         new MoveLearnSetEntry(Move.DETERMINATION,58),
@@ -189,9 +190,8 @@ public class EpochAipom extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUBSTITUTE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 28, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

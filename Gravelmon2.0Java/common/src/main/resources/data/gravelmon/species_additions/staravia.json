@@ -102,6 +102,22 @@
   "pokedex": [
     "cobblemon.species.epochstaravia.desc"
   ],
+  "evolutions": [
+    {
+      "id": "staravia_epoch_staraptor",
+      "variant": "level_up",
+      "result": "epoch staraptor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -110,11 +126,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
-    "attack": 25,
-    "defence": 65,
-    "special_attack": 80,
-    "special_defence": 70,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 2
   },
   "height": 6,

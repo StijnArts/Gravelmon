@@ -123,6 +123,19 @@
   "pokedex": [
     "cobblemon.species.epochscyther.desc"
   ],
+  "evolutions": [
+    {
+      "id": "scyther_epoch_scizor",
+      "variant": "trade",
+      "result": "epoch scizor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
@@ -131,12 +144,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 70,
+    "hp": 0,
     "attack": 2,
-    "defence": 80,
-    "special_attack": 105,
-    "special_defence": 55,
-    "speed": 80
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 15,
   "weight": 560,

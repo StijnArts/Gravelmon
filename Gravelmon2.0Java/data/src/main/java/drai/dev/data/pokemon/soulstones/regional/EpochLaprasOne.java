@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLaprasOne extends drai.dev.data.pokemon.Pokemon {
     public EpochLaprasOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochLaprasOne",
+        super(name, aspect, "EpochLaprasOne",
                 Type.GROUND,Type.DRAGON,
                 new Stats(140,
                         95,
@@ -67,7 +67,7 @@ public class EpochLaprasOne extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.THICK_FAT,Ability.SAND_FORCE), Ability.DRAGONS_MAW,
                 25, 2200,
-                new Stats(2,95,70,80,55,95), 90,
+                new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 187, ExperienceGroup.SLOW,
                 70,
@@ -171,8 +171,8 @@ public class EpochLaprasOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAIL_SLAP,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPichu extends drai.dev.data.pokemon.Pokemon {
     public EpochPichu(String name, Aspect aspect) {
-        super(name, aspect,"EpochPichu",
+        super(name, aspect, "EpochPichu",
                 Type.SOUND,Type.STEEL,
                 new Stats(20,
                         25,
@@ -67,13 +67,14 @@ public class EpochPichu extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.CACOPHONY,Ability.LIGHTNING_ROD), Ability.SOUNDPROOF,
                 3, 20,
-                new Stats(20,25,15,60,50,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 41, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It often gets lost because it is too busy listening to its music to take note of its surroundings."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch pikachu", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,24),
                         new MoveLearnSetEntry(Move.GENTLECHIMES,28),
@@ -173,9 +174,8 @@ public class EpochPichu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISSILESHOT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 21, 5.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

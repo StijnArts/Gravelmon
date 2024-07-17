@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPolitoed extends drai.dev.data.pokemon.Pokemon {
     public EpochPolitoed(String name, Aspect aspect) {
-        super(name, aspect,"EpochPolitoed",
+        super(name, aspect, "EpochPolitoed",
                 Type.WATER,Type.FIGHTING,
                 new Stats(90,
                         110,
@@ -67,7 +67,7 @@ public class EpochPolitoed extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.JUSTIFIED,Ability.PUREHEART), Ability.STEELWORKER,
                 11, 339,
-                new Stats(90,110,95,70,3,80), 100,
+                new Stats(0,0,0,0,3,0), 100,
                 0.5,
                 225, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -176,9 +176,8 @@ public class EpochPolitoed extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

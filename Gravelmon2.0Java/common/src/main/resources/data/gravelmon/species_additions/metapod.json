@@ -62,6 +62,22 @@
   "pokedex": [
     "cobblemon.species.epochmetapod.desc"
   ],
+  "evolutions": [
+    {
+      "id": "metapod_epoch_butterfree",
+      "variant": "level_up",
+      "result": "epoch butterfree",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
@@ -70,12 +86,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
-    "attack": 20,
+    "hp": 0,
+    "attack": 0,
     "defence": 2,
-    "special_attack": 20,
-    "special_defence": 25,
-    "speed": 35
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 7,
   "weight": 99,

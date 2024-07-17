@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBuizel extends drai.dev.data.pokemon.Pokemon {
     public EpochBuizel(String name, Aspect aspect) {
-        super(name, aspect,"EpochBuizel",
+        super(name, aspect, "EpochBuizel",
                 Type.WATER,Type.STEEL,
                 new Stats(50,
                         55,
@@ -67,13 +67,14 @@ public class EpochBuizel extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.SHARPNESS,Ability.IRON_BARBS), Ability.LIGHT_METAL,
                 7, 295,
-                new Stats(50,55,65,85,40,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.MINERAL),
                 List.of("This Pokemon is able to use the small turbine on its tail to quickly wade through polluted waters and cleanse them of impurities."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch floatzel", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,19),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,47),

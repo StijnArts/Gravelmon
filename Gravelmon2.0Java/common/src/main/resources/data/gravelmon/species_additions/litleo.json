@@ -116,6 +116,22 @@
   "pokedex": [
     "cobblemon.species.epochlitleo.desc"
   ],
+  "evolutions": [
+    {
+      "id": "litleo_epoch_pyroar",
+      "variant": "level_up",
+      "result": "epoch pyroar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -124,12 +140,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 58,
+    "hp": 0,
     "attack": 1,
-    "defence": 58,
-    "special_attack": 72,
-    "special_defence": 50,
-    "speed": 58
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 135,

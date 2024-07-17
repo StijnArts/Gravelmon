@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKirlia extends drai.dev.data.pokemon.Pokemon {
     public EpochKirlia(String name, Aspect aspect) {
-        super(name, aspect,"EpochKirlia",
+        super(name, aspect, "EpochKirlia",
                 Type.DARK,Type.POISON,
                 new Stats(40,
                         55,
@@ -67,13 +67,19 @@ public class EpochKirlia extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.RUN_AWAY,Ability.QUICK_FEET), Ability.RATTLED,
                 8, 202,
-                new Stats(40,55,45,60,55,2), 120,
+                new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 97, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.AMORPHOUS),
                 List.of("It can channel its negative emotions into its attacks adding a level of intensity that would otherwise not be present."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gardevoir", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
+new EvolutionEntry("epoch gallade", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,30),
                         new MoveLearnSetEntry(Move.POISON_JAB,33),

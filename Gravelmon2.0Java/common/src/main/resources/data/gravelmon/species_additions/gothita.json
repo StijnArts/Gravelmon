@@ -128,6 +128,22 @@
   "pokedex": [
     "cobblemon.species.epochgothita.desc"
   ],
+  "evolutions": [
+    {
+      "id": "gothita_epoch_gothorita",
+      "variant": "level_up",
+      "result": "epoch gothorita",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -136,12 +152,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 45,
-    "attack": 55,
-    "defence": 40,
-    "special_attack": 55,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 1,
-    "speed": 65
+    "speed": 0
   },
   "height": 4,
   "weight": 58,
@@ -281,6 +297,22 @@
   "pokedex": [
     "cobblemon.species.epochgothitaone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "gothita_epochtwo_gothorita",
+      "variant": "level_up",
+      "result": "epochtwo gothorita",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -289,12 +321,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 45,
+    "hp": 0,
     "attack": 1,
-    "defence": 40,
-    "special_attack": 45,
-    "special_defence": 55,
-    "speed": 55
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 4,
   "weight": 58,

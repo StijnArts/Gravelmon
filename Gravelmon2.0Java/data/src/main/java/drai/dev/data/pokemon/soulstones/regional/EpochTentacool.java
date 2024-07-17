@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTentacool extends drai.dev.data.pokemon.Pokemon {
     public EpochTentacool(String name, Aspect aspect) {
-        super(name, aspect,"EpochTentacool",
+        super(name, aspect, "EpochTentacool",
                 Type.COSMIC,Type.WATER,
                 new Stats(70,
                         20,
@@ -67,13 +67,14 @@ public class EpochTentacool extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.DARKMATTER,Ability.SUCTION_CUPS), Ability.OVERCOAT,
                 9, 455,
-                new Stats(70,20,60,60,1,75), 190,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 67, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("The starry pattern on its body copies the pattern of the stars in the night sky above it when it is swimming."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch tentacruel", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,15),
                         new MoveLearnSetEntry(Move.EERIE_SPELL,38),
@@ -192,13 +193,17 @@ public class EpochTentacool extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPER_BEAM,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 11, 29, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN, Biome.IS_END)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.MAXY,"32")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Tentacool");
 
     }

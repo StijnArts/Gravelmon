@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTimburrOne extends drai.dev.data.pokemon.Pokemon {
     public EpochTimburrOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochTimburrOne",
+        super(name, aspect, "EpochTimburrOne",
                 Type.GRASS,Type.FIGHTING,
                 new Stats(75,
                         70,
@@ -67,13 +67,14 @@ public class EpochTimburrOne extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.OBLIVIOUS,Ability.SHEER_FORCE), Ability.IRON_FIST,
                 6, 125,
-                new Stats(75,1,55,35,35,35), 180,
+                new Stats(0,1,0,0,0,0), 180,
                 0.25,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It is small and stupid. It often bashes its head against tree trunks for amusement."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo gurdurr", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.ARM_THRUST,8),

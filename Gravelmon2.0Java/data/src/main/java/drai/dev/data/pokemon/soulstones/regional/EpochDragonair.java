@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDragonair extends drai.dev.data.pokemon.Pokemon {
     public EpochDragonair(String name, Aspect aspect) {
-        super(name, aspect,"EpochDragonair",
+        super(name, aspect, "EpochDragonair",
                 Type.LIGHT,Type.DRAGON,
                 new Stats(61,
                         64,
@@ -67,13 +67,14 @@ public class EpochDragonair extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.DAZZLING,Ability.PUREHEART), Ability.MARVEL_SCALE,
                 40, 165,
-                new Stats(61,64,55,120,60,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 147, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("In certain fables, these Pokemon were considered to be favoured pets of some of the gods."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dragonite", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),
                         new MoveLearnSetEntry(Move.FABLEDRUSH,34),
@@ -185,8 +186,9 @@ public class EpochDragonair extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 45, 1.3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"false"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

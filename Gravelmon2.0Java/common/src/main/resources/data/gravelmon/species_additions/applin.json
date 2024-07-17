@@ -134,6 +134,44 @@
   "pokedex": [
     "cobblemon.species.epochapplin.desc"
   ],
+  "evolutions": [
+    {
+      "id": "applin_epoch_flapple",
+      "variant": "item_interact",
+      "result": "epoch flapple",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:black_belt",
+      "permanent": true   
+ },
+    {
+      "id": "applin_epoch_appletun",
+      "variant": "item_interact",
+      "result": "epoch appletun",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true   
+ },
+    {
+      "id": "applin_epoch_dipplin",
+      "variant": "item_interact",
+      "result": "epoch dipplin",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:black_sludge",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.7000000000000001,
   "hitbox": {
     "width": 6.0,
@@ -142,12 +180,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 40,
-    "attack": 40,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 20,
-    "special_defence": 40,
-    "speed": 40
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 42,
   "weight": 305,

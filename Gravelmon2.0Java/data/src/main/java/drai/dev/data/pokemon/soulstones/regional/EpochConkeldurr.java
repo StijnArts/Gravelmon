@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochConkeldurr extends drai.dev.data.pokemon.Pokemon {
     public EpochConkeldurr(String name, Aspect aspect) {
-        super(name, aspect,"EpochConkeldurr",
+        super(name, aspect, "EpochConkeldurr",
                 Type.GHOST,Type.FIGHTING,
                 new Stats(100,
                         100,
@@ -67,7 +67,7 @@ public class EpochConkeldurr extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.UNNERVE,Ability.CURSED_BODY), Ability.SHADOW_TAG,
                 14, 870,
-                new Stats(1,100,95,45,100,65), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.25,
                 227, ExperienceGroup.MEDIUM_SLOW,
                 70,

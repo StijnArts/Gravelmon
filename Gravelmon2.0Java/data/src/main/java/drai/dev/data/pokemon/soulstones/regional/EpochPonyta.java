@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPonyta extends drai.dev.data.pokemon.Pokemon {
     public EpochPonyta(String name, Aspect aspect) {
-        super(name, aspect,"EpochPonyta",
+        super(name, aspect, "EpochPonyta",
                 Type.GHOST,Type.FIRE,
                 new Stats(60,
                         75,
@@ -67,13 +67,14 @@ public class EpochPonyta extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.INFILTRATOR,Ability.AFTERMATH), Ability.RECKLESS,
                 10, 300,
-                new Stats(60,75,65,90,55,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 82, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It runs so fast that it looks like it disappears into shadow only to return with a blaze."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch rapidash", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,7),
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,54),
@@ -150,8 +151,8 @@ public class EpochPonyta extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LASH_OUT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 32, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

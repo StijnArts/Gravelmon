@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWhirlipede extends drai.dev.data.pokemon.Pokemon {
     public EpochWhirlipede(String name, Aspect aspect) {
-        super(name, aspect,"EpochWhirlipede",
+        super(name, aspect, "EpochWhirlipede",
                 Type.STEEL,Type.COSMIC,
                 new Stats(60,
                         30,
@@ -67,13 +67,14 @@ public class EpochWhirlipede extends drai.dev.data.pokemon.Pokemon {
                         71),
                 List.of(Ability.TELEPATHY,Ability.TINTED_LENS), Ability.ANALYTIC,
                 12, 585,
-                new Stats(60,30,2,50,50,71), 120,
+                new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 126, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("The meteorite that it discovered has enabled it to move things with its mind. The rock is now more in control of the host body than the original Whirlipede."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch scolipede", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,26),
                         new MoveLearnSetEntry(Move.SHRAPNEL,30),

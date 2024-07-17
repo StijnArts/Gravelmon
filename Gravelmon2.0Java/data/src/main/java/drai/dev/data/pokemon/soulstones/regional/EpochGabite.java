@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGabite extends drai.dev.data.pokemon.Pokemon {
     public EpochGabite(String name, Aspect aspect) {
-        super(name, aspect,"EpochGabite",
+        super(name, aspect, "EpochGabite",
                 Type.GHOST,Type.DRAGON,
                 new Stats(68,
                         90,
@@ -67,13 +67,14 @@ public class EpochGabite extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.UNNERVE,Ability.HYPER_CUTTER), Ability.PRESSURE,
                 14, 560,
-                new Stats(68,2,55,82,60,55), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 144, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It has a range of possible habitats because it is the manifestation of a sinister force or aura and wherever that can be found, a Gabite likely will manifest."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch garchomp", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SHADOW_CLAW,28),

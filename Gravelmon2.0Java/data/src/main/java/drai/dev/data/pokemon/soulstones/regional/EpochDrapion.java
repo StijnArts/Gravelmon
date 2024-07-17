@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDrapion extends drai.dev.data.pokemon.Pokemon {
     public EpochDrapion(String name, Aspect aspect) {
-        super(name, aspect,"EpochDrapion",
+        super(name, aspect, "EpochDrapion",
                 Type.GROUND,Type.POISON,
                 new Stats(70,
                         90,
@@ -67,7 +67,7 @@ public class EpochDrapion extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.SHEER_FORCE,Ability.SNIPER), Ability.POISON_POINT,
                 13, 615,
-                new Stats(70,90,2,95,60,75), 90,
+                new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 175, ExperienceGroup.SLOW,
                 70,

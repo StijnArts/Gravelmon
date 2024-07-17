@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPiplup extends drai.dev.data.pokemon.Pokemon {
     public EpochPiplup(String name, Aspect aspect) {
-        super(name, aspect,"EpochPiplup",
+        super(name, aspect, "EpochPiplup",
                 Type.WATER,Type.ICE,
                 new Stats(53,
                         61,
@@ -67,13 +67,14 @@ public class EpochPiplup extends drai.dev.data.pokemon.Pokemon {
                         56),
                 List.of(Ability.ICYVEINS,Ability.SLUSH_RUSH), Ability.NOBILITY,
                 4, 52,
-                new Stats(53,61,53,1,51,56), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.875,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("It is not very good at walking and falls over easily. When it falls behind its group, it needs to quickly waddle to catch up."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch prinplup", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRILL_PECK,39),
                         new MoveLearnSetEntry(Move.SNOWFLAKES,4),

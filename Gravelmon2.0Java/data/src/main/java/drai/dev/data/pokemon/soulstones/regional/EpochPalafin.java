@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPalafin extends drai.dev.data.pokemon.Pokemon {
     public EpochPalafin(String name, Aspect aspect) {
-        super(name, aspect,"EpochPalafin",
+        super(name, aspect, "EpochPalafin",
                 Type.ICE,Type.WATER,
                 new Stats(100,
                         100,
@@ -67,7 +67,7 @@ public class EpochPalafin extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.WATER_VEIL,Ability.GENIUS), Ability.PUREHEART,
                 13, 602,
-                new Stats(100,100,87,115,40,1), 95,
+                new Stats(0,0,0,0,0,1), 95,
                 0.5,
                 160, ExperienceGroup.SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCacturne extends drai.dev.data.pokemon.Pokemon {
     public EpochCacturne(String name, Aspect aspect) {
-        super(name, aspect,"EpochCacturne",
+        super(name, aspect, "EpochCacturne",
                 Type.ICE,Type.FIGHTING,
                 new Stats(70,
                         95,
@@ -67,7 +67,7 @@ public class EpochCacturne extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.IRON_FIST,Ability.DEFIANT), Ability.PACKEDSNOW,
                 13, 774,
-                new Stats(70,2,95,65,55,95), 123,
+                new Stats(0,2,0,0,0,0), 123,
                 0.5,
                 166, ExperienceGroup.MEDIUM_SLOW,
                 70,

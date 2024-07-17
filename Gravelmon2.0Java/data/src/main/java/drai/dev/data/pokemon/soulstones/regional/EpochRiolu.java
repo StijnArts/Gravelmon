@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRiolu extends drai.dev.data.pokemon.Pokemon {
     public EpochRiolu(String name, Aspect aspect) {
-        super(name, aspect,"EpochRiolu",
+        super(name, aspect, "EpochRiolu",
                 Type.PSYCHIC,
                 new Stats(55,
                         35,
@@ -67,13 +67,14 @@ public class EpochRiolu extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.MAGIC_BOUNCE,Ability.CHARISMA), Ability.SPELLCASTER,
                 7, 202,
-                new Stats(55,35,30,1,55,40), 75,
+                new Stats(0,0,0,1,0,0), 75,
                 0.875,
                 57, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Pokemon trains daily in honing its power in the mystic arts. It is thought that Riolu first appeared after falling from a wormhole to another dimension."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch lucario", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_GUARD,32),
                         new MoveLearnSetEntry(Move.SIPHON,4),

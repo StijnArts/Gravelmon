@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBounsweet extends drai.dev.data.pokemon.Pokemon {
     public EpochBounsweet(String name, Aspect aspect) {
-        super(name, aspect,"EpochBounsweet",
+        super(name, aspect, "EpochBounsweet",
                 Type.LIGHT,Type.DARK,
                 new Stats(38,
                         47,
@@ -67,13 +67,14 @@ public class EpochBounsweet extends drai.dev.data.pokemon.Pokemon {
                         32),
                 List.of(Ability.LIGHTAURA,Ability.DARK_AURA), Ability.AURA_BREAK,
                 3, 32,
-                new Stats(38,1,30,38,25,32), 235,
+                new Stats(0,1,0,0,0,0), 235,
                 0.0,
                 42, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It represents a perfect balance with good and evil. However, the forces are constantly at war with one another."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch steenee", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,18),
                         new MoveLearnSetEntry(Move.SINFULSMITE,21),

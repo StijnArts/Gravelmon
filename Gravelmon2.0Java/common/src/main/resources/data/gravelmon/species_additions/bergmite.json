@@ -126,6 +126,22 @@
   "pokedex": [
     "cobblemon.species.epochbergmite.desc"
   ],
+  "evolutions": [
+    {
+      "id": "bergmite_epoch_avalugg",
+      "variant": "level_up",
+      "result": "epoch avalugg",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -134,12 +150,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 69,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 28,
-    "special_defence": 32,
-    "speed": 35
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 995,

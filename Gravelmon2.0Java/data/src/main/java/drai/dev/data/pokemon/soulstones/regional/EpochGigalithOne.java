@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGigalithOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGigalithOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGigalithOne",
+        super(name, aspect, "EpochGigalithOne",
                 Type.ROCK,Type.ELECTRIC,
                 new Stats(85,
                         70,
@@ -67,7 +67,7 @@ public class EpochGigalithOne extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.MAGNET_PULL,Ability.LEVITATE), Ability.ELECTRIC_SURGE,
                 17, 2600,
-                new Stats(85,3,85,75,105,110), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.5,
                 232, ExperienceGroup.MEDIUM_SLOW,
                 70,

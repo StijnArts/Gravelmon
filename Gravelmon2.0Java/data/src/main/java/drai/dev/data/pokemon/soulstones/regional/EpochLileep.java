@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLileep extends drai.dev.data.pokemon.Pokemon {
     public EpochLileep(String name, Aspect aspect) {
-        super(name, aspect,"EpochLileep",
+        super(name, aspect, "EpochLileep",
                 Type.NORMAL,Type.FLYING,
                 new Stats(66,
                         31,
@@ -67,13 +67,14 @@ public class EpochLileep extends drai.dev.data.pokemon.Pokemon {
                         57),
                 List.of(Ability.AIR_LOCK,Ability.KEEN_EYE), Ability.BULLETPROOF,
                 10, 238,
-                new Stats(66,31,57,1,81,57), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.875,
                 71, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("This Pokémon can be restored from a fossil. It is said that the centrifugal force it was able to generate allowed it to become airborne."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch cradily", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFOG,20),
                         new MoveLearnSetEntry(Move.DETERMINATION,60),

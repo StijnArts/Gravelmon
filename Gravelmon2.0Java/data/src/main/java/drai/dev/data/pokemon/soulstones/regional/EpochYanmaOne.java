@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochYanmaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochYanmaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochYanmaOne",
+        super(name, aspect, "EpochYanmaOne",
                 Type.STEEL,Type.SOUND,
                 new Stats(65,
                         95,
@@ -67,13 +67,14 @@ public class EpochYanmaOne extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.WEAK_ARMOR,Ability.LEVITATE), Ability.OWN_TEMPO,
                 12, 380,
-                new Stats(65,95,45,95,45,1), 75,
+                new Stats(0,0,0,0,0,1), 75,
                 0.5,
                 78, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("This Pokemon is made of a fine aluminum alloy. If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo yanmega", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:ocarina")),
                 List.of(
                         new MoveLearnSetEntry(Move.STEEL_WING,17),
                         new MoveLearnSetEntry(Move.SONICCRASH,68),
@@ -176,13 +177,13 @@ public class EpochYanmaOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PARTING_SHOT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 12, 36, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Yanma");
 
     }

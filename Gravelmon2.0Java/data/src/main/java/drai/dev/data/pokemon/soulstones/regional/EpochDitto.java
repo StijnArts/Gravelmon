@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDitto extends drai.dev.data.pokemon.Pokemon {
     public EpochDitto(String name, Aspect aspect) {
-        super(name, aspect,"EpochDitto",
+        super(name, aspect, "EpochDitto",
                 Type.COSMIC,
                 new Stats(48,
                         48,
@@ -67,7 +67,7 @@ public class EpochDitto extends drai.dev.data.pokemon.Pokemon {
                         48),
                 List.of(Ability.LIMBER,Ability.UNBURDEN), Ability.IMPOSTER,
                 3, 40,
-                new Stats(1,48,48,48,48,48), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 -1.0,
                 101, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -78,8 +78,8 @@ public class EpochDitto extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRANSFORM,1)                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSableye extends drai.dev.data.pokemon.Pokemon {
     public EpochSableye(String name, Aspect aspect) {
-        super(name, aspect,"EpochSableye",
+        super(name, aspect, "EpochSableye",
                 Type.FIRE,Type.DARK,
                 new Stats(75,
                         110,
@@ -67,7 +67,7 @@ public class EpochSableye extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.FLAME_BODY,Ability.INFILTRATOR), Ability.SPEED_BOOST,
                 5, 110,
-                new Stats(75,1,75,110,45,65), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 133, ExperienceGroup.MEDIUM_SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLitwick extends drai.dev.data.pokemon.Pokemon {
     public EpochLitwick(String name, Aspect aspect) {
-        super(name, aspect,"EpochLitwick",
+        super(name, aspect, "EpochLitwick",
                 Type.LIGHT,Type.GHOST,
                 new Stats(40,
                         35,
@@ -67,13 +67,14 @@ public class EpochLitwick extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.WANDERING_SPIRIT,Ability.TRANSISTOR), Ability.DAZZLING,
                 3, 31,
-                new Stats(40,35,40,1,65,45), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 55, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("When a Litwick possesses a lightbulb, it is said that it drains its power more rapidly to heal itself."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch lampent", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ECTOPLASM,56),
                         new MoveLearnSetEntry(Move.SHADOW_BALL,40),

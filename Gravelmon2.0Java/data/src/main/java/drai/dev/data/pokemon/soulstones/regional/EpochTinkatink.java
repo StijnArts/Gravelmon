@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTinkatink extends drai.dev.data.pokemon.Pokemon {
     public EpochTinkatink(String name, Aspect aspect) {
-        super(name, aspect,"EpochTinkatink",
+        super(name, aspect, "EpochTinkatink",
                 Type.GHOST,Type.DRAGON,
                 new Stats(50,
                         68,
@@ -67,13 +67,14 @@ public class EpochTinkatink extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.DRAGONS_MAW,Ability.BONECOLLECTOR), Ability.RATTLED,
                 4, 89,
-                new Stats(50,1,64,45,25,45), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 0.0,
                 59, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It likes to make various sculptures using the bones it collects. It's unclear where it finds all these bones to begin with."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch tinkatuff", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),
                         new MoveLearnSetEntry(Move.POLTERGEIST,61),

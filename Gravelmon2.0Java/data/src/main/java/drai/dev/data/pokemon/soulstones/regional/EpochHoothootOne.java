@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHoothootOne extends drai.dev.data.pokemon.Pokemon {
     public EpochHoothootOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochHoothootOne",
+        super(name, aspect, "EpochHoothootOne",
                 Type.ICE,Type.FLYING,
                 new Stats(60,
                         60,
@@ -67,13 +67,14 @@ public class EpochHoothootOne extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.INSOMNIA,Ability.BIG_PECKS), Ability.SNOW_WARNING,
                 7, 212,
-                new Stats(1,60,50,75,25,70), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 52, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is able to tilt its head 270 degrees. It uses this as a means of being able to scan its full surroundings."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo noctowl", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,27),
                         new MoveLearnSetEntry(Move.DRILL_PECK,47),
@@ -157,8 +158,8 @@ public class EpochHoothootOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

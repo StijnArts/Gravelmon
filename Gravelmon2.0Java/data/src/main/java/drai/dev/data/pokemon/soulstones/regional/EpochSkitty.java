@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkitty extends drai.dev.data.pokemon.Pokemon {
     public EpochSkitty(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkitty",
+        super(name, aspect, "EpochSkitty",
                 Type.GHOST,Type.NORMAL,
                 new Stats(55,
                         42,
@@ -67,13 +67,14 @@ public class EpochSkitty extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.BERSERK,Ability.ETHEREAL), Ability.MAGIC_GUARD,
                 6, 110,
-                new Stats(55,42,55,1,68,60), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.0,
                 52, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("An evil spirit that was being hunted quickly possessed a nearby Skitty due to the latter being a relatively easy target."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch delcatty", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DARK_PULSE,43),
                         new MoveLearnSetEntry(Move.SIPHON,13),

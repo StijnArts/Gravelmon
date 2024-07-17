@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPolteageist extends drai.dev.data.pokemon.Pokemon {
     public EpochPolteageist(String name, Aspect aspect) {
-        super(name, aspect,"EpochPolteageist",
+        super(name, aspect, "EpochPolteageist",
                 Type.WATER,Type.POISON,
                 new Stats(80,
                         65,
@@ -67,7 +67,7 @@ public class EpochPolteageist extends drai.dev.data.pokemon.Pokemon {
                         109),
                 List.of(Ability.MOODY,Ability.WEAK_ARMOR), Ability.BERSERK,
                 2, 4,
-                new Stats(80,65,65,2,119,109), 123,
+                new Stats(0,0,0,2,0,0), 123,
                 -1.0,
                 178, ExperienceGroup.MEDIUM_FAST,
                 70,

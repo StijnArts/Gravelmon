@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLuvdisc extends drai.dev.data.pokemon.Pokemon {
     public EpochLuvdisc(String name, Aspect aspect) {
-        super(name, aspect,"EpochLuvdisc",
+        super(name, aspect, "EpochLuvdisc",
                 Type.WATER,Type.SOUND,
                 new Stats(55,
                         85,
@@ -67,7 +67,7 @@ public class EpochLuvdisc extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.HEALER,Ability.DRIZZLE), Ability.HUSTLE,
                 6, 87,
-                new Stats(55,85,70,100,65,1), 225,
+                new Stats(0,0,0,0,0,1), 225,
                 0.0,
                 116, ExperienceGroup.FAST,
                 70,

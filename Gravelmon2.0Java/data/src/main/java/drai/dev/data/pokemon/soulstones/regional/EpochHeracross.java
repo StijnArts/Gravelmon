@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHeracross extends drai.dev.data.pokemon.Pokemon {
     public EpochHeracross(String name, Aspect aspect) {
-        super(name, aspect,"EpochHeracross",
+        super(name, aspect, "EpochHeracross",
                 Type.BUG,Type.GROUND,
                 new Stats(80,
                         105,
@@ -67,7 +67,7 @@ public class EpochHeracross extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.TOXIC_BOOST,Ability.POISON_HEAL), Ability.LONG_REACH,
                 15, 540,
-                new Stats(80,2,95,95,40,85), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 175, ExperienceGroup.SLOW,
                 70,
@@ -168,8 +168,8 @@ public class EpochHeracross extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDSHACKLES,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

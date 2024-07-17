@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVenipede extends drai.dev.data.pokemon.Pokemon {
     public EpochVenipede(String name, Aspect aspect) {
-        super(name, aspect,"EpochVenipede",
+        super(name, aspect, "EpochVenipede",
                 Type.BUG,Type.COSMIC,
                 new Stats(45,
                         25,
@@ -67,13 +67,14 @@ public class EpochVenipede extends drai.dev.data.pokemon.Pokemon {
                         56),
                 List.of(Ability.TELEPATHY,Ability.TINTED_LENS), Ability.ANALYTIC,
                 4, 53,
-                new Stats(45,25,1,40,35,56), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 52, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("A Venipede happened upon a meteorite that had special powers thereby giving it extraterrestrial powers."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch whirlipede", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,26),
                         new MoveLearnSetEntry(Move.SHRAPNEL,30),

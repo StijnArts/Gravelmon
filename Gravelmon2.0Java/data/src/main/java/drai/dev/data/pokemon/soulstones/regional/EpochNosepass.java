@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNosepass extends drai.dev.data.pokemon.Pokemon {
     public EpochNosepass(String name, Aspect aspect) {
-        super(name, aspect,"EpochNosepass",
+        super(name, aspect, "EpochNosepass",
                 Type.GRASS,Type.PSYCHIC,
                 new Stats(40,
                         95,
@@ -67,13 +67,14 @@ public class EpochNosepass extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.NATURAL_CURE,Ability.PICKPOCKET), Ability.CHLOROPHYLL,
                 10, 970,
-                new Stats(40,1,60,75,95,60), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 75, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It travels in small hunting parties and use shrill voices to signal when it finds trouble. They mutter to each other in unintelligible growls."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch probopass", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,34),
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,20),
@@ -174,11 +175,10 @@ public class EpochNosepass extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THORNPRISON,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 27, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TROPICAL_ISLAND))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Nosepass");

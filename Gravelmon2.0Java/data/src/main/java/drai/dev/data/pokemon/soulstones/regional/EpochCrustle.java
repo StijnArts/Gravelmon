@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCrustle extends drai.dev.data.pokemon.Pokemon {
     public EpochCrustle(String name, Aspect aspect) {
-        super(name, aspect,"EpochCrustle",
+        super(name, aspect, "EpochCrustle",
                 Type.BUG,Type.WATER,
                 new Stats(70,
                         95,
@@ -67,7 +67,7 @@ public class EpochCrustle extends drai.dev.data.pokemon.Pokemon {
                         125),
                 List.of(Ability.HYPER_CUTTER,Ability.ROCKY_PAYLOAD), Ability.SHEER_FORCE,
                 14, 2000,
-                new Stats(70,95,105,35,2,125), 75,
+                new Stats(0,0,0,0,2,0), 75,
                 0.5,
                 170, ExperienceGroup.MEDIUM_FAST,
                 70,

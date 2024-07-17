@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSwadloon extends drai.dev.data.pokemon.Pokemon {
     public EpochSwadloon(String name, Aspect aspect) {
-        super(name, aspect,"EpochSwadloon",
+        super(name, aspect, "EpochSwadloon",
                 Type.STEEL,Type.DARK,
                 new Stats(55,
                         33,
@@ -67,13 +67,14 @@ public class EpochSwadloon extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.LEVITATE), null,
                 5, 73,
-                new Stats(55,33,2,42,110,70), 120,
+                new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 133, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Dark energies swirl beneath the cowl of its robe, undetectable by most. It harbours sinister energy from a galaxy far far away."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch leavanny", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.CHAOSBLAST,1),
                         new MoveLearnSetEntry(Move.MANIPULATION,36),

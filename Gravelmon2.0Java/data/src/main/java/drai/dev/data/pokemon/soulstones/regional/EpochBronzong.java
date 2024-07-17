@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBronzong extends drai.dev.data.pokemon.Pokemon {
     public EpochBronzong(String name, Aspect aspect) {
-        super(name, aspect,"EpochBronzong",
+        super(name, aspect, "EpochBronzong",
                 Type.GRASS,Type.ROCK,
                 new Stats(87,
                         106,
@@ -67,7 +67,7 @@ public class EpochBronzong extends drai.dev.data.pokemon.Pokemon {
                         79),
                 List.of(Ability.SOLID_ROCK,Ability.ROCK_HEAD), Ability.OVERGROW,
                 13, 1870,
-                new Stats(87,1,89,33,106,79), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGolduck extends drai.dev.data.pokemon.Pokemon {
     public EpochGolduck(String name, Aspect aspect) {
-        super(name, aspect,"EpochGolduck",
+        super(name, aspect, "EpochGolduck",
                 Type.GROUND,Type.PSYCHIC,
                 new Stats(95,
                         62,
@@ -67,7 +67,7 @@ public class EpochGolduck extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.SYNCHRONIZE,Ability.DISHEARTEN), Ability.INTUITION,
                 17, 766,
-                new Stats(95,62,63,2,110,90), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -162,8 +162,9 @@ public class EpochGolduck extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 53, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

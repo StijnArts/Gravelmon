@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSunkern extends drai.dev.data.pokemon.Pokemon {
     public EpochSunkern(String name, Aspect aspect) {
-        super(name, aspect,"EpochSunkern",
+        super(name, aspect, "EpochSunkern",
                 Type.GRASS,Type.FIRE,
                 new Stats(50,
                         50,
@@ -67,13 +67,14 @@ public class EpochSunkern extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.FLASH_FIRE,Ability.SOLAR_POWER), Ability.DROUGHT,
                 3, 18,
-                new Stats(50,50,50,1,50,50), 235,
+                new Stats(0,0,0,1,0,0), 235,
                 0.5,
                 36, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It is a toss-up whether the Sunkern will sprout and grow into a Sunflora or whether the fire it emits will consume it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch sunflora", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,13),
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,40),
@@ -146,9 +147,8 @@ public class EpochSunkern extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.INFERNO,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDartrix extends drai.dev.data.pokemon.Pokemon {
     public EpochDartrix(String name, Aspect aspect) {
-        super(name, aspect,"EpochDartrix",
+        super(name, aspect, "EpochDartrix",
                 Type.FIRE,Type.FLYING,
                 new Stats(72,
                         64,
@@ -67,13 +67,14 @@ public class EpochDartrix extends drai.dev.data.pokemon.Pokemon {
                         72),
                 List.of(Ability.STALWART,Ability.INTUITION), Ability.COMPETITIVE,
                 7, 160,
-                new Stats(2,64,67,75,80,72), 90,
+                new Stats(2,0,0,0,0,0), 90,
                 0.875,
                 147, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is very particular about making the flames flare exactly evenly around its body as it is a way of showing off."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch decidueye", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,52),
                         new MoveLearnSetEntry(Move.SUNNY_DAY,9),

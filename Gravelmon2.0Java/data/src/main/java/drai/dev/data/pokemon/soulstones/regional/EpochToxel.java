@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochToxel extends drai.dev.data.pokemon.Pokemon {
     public EpochToxel(String name, Aspect aspect) {
-        super(name, aspect,"EpochToxel",
+        super(name, aspect, "EpochToxel",
                 Type.GRASS,
                 new Stats(40,
                         54,
@@ -67,13 +67,14 @@ public class EpochToxel extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.UNAWARE,Ability.SIMPLE), Ability.OBLIVIOUS,
                 4, 110,
-                new Stats(40,1,35,40,38,35), 75,
+                new Stats(0,1,0,0,0,0), 75,
                 0.5,
                 48, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It lazes about for most of the day. It often uses a nearby branch to scratch itself rather than using its own hands."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch toxtricity", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,1),
                         new MoveLearnSetEntry(Move.BRANCH_POKE,1),

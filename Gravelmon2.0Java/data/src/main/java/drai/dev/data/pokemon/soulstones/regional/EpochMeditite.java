@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMeditite extends drai.dev.data.pokemon.Pokemon {
     public EpochMeditite(String name, Aspect aspect) {
-        super(name, aspect,"EpochMeditite",
+        super(name, aspect, "EpochMeditite",
                 Type.LIGHT,Type.FIGHTING,
                 new Stats(30,
                         30,
@@ -67,13 +67,14 @@ public class EpochMeditite extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.WONDER_SKIN,Ability.SHIELD_DUST), Ability.BATTLE_ARMOR,
                 6, 112,
-                new Stats(30,30,65,60,1,75), 180,
+                new Stats(0,0,0,0,1,0), 180,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It is found in mountainous areas as it believes that by enduring harsh climates and adversity, it can find true salvation and inner peace."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch medicham", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_GUARD,9),
                         new MoveLearnSetEntry(Move.BATTLEOFWITS,31),

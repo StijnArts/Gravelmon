@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMunna extends drai.dev.data.pokemon.Pokemon {
     public EpochMunna(String name, Aspect aspect) {
-        super(name, aspect,"EpochMunna",
+        super(name, aspect, "EpochMunna",
                 Type.ELECTRIC,
                 new Stats(45,
                         29,
@@ -67,13 +67,14 @@ public class EpochMunna extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.DOWNLOAD,Ability.TRACE), Ability.STATIC,
                 6, 233,
-                new Stats(45,29,25,1,77,65), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon needs regular security updates uploaded every Tuesday to ensure that it is protected against viruses on the Internet."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch musharna", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LOCKON,48),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,4),

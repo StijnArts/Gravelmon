@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPorygonz extends drai.dev.data.pokemon.Pokemon {
     public EpochPorygonz(String name, Aspect aspect) {
-        super(name, aspect,"EpochPorygonz",
+        super(name, aspect, "EpochPorygonz",
                 Type.BUG,Type.DARK,
                 new Stats(85,
                         135,
@@ -67,7 +67,7 @@ public class EpochPorygonz extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.PRANKSTER,Ability.DOWNLOAD), Ability.EMERGENCY_EXIT,
                 9, 340,
-                new Stats(85,3,70,110,60,75), 30,
+                new Stats(0,3,0,0,0,0), 30,
                 -1.0,
                 268, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -180,9 +180,8 @@ public class EpochPorygonz extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 44, 67, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

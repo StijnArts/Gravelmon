@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPelipper extends drai.dev.data.pokemon.Pokemon {
     public EpochPelipper(String name, Aspect aspect) {
-        super(name, aspect,"EpochPelipper",
+        super(name, aspect, "EpochPelipper",
                 Type.DARK,Type.FLYING,
                 new Stats(70,
                         95,
@@ -67,7 +67,7 @@ public class EpochPelipper extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.PICKUP,Ability.LEADERSHIP), Ability.EARLY_BIRD,
                 12, 280,
-                new Stats(70,95,70,75,2,100), 90,
+                new Stats(0,0,0,0,2,0), 90,
                 0.5,
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,

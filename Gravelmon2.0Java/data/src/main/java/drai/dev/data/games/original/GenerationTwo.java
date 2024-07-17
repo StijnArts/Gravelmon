@@ -188,6 +188,7 @@ public class GenerationTwo extends Game {
         pokemon.add(new EpochTotodile("", Aspect.EPOCH));
         pokemon.add(new EpochCroconaw("", Aspect.EPOCH));
         pokemon.add(new EpochFeraligatr("", Aspect.EPOCH));
+
         pokemon.add(new EpochChikoritaOne("", Aspect.EPOCH));
         pokemon.add(new EpochBayleefOne("", Aspect.EPOCH));
         pokemon.add(new EpochMeganiumOne("", Aspect.EPOCH));

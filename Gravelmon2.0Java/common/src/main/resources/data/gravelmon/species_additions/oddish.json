@@ -129,6 +129,22 @@
   "pokedex": [
     "cobblemon.species.epochoddish.desc"
   ],
+  "evolutions": [
+    {
+      "id": "oddish_epoch_gloom",
+      "variant": "level_up",
+      "result": "epoch gloom",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -137,12 +153,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
-    "attack": 45,
-    "defence": 65,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 70,
-    "speed": 55
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 5,
   "weight": 54,

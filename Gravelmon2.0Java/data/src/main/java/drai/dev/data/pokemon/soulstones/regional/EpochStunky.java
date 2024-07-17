@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStunky extends drai.dev.data.pokemon.Pokemon {
     public EpochStunky(String name, Aspect aspect) {
-        super(name, aspect,"EpochStunky",
+        super(name, aspect, "EpochStunky",
                 Type.NORMAL,Type.POISON,
                 new Stats(63,
                         63,
@@ -67,13 +67,14 @@ public class EpochStunky extends drai.dev.data.pokemon.Pokemon {
                         41),
                 List.of(Ability.SUPER_LUCK,Ability.NEUTRALIZING_GAS), Ability.FUR_COAT,
                 4, 192,
-                new Stats(63,63,47,74,41,1), 225,
+                new Stats(0,0,0,0,0,1), 225,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("If the foul-smelling liquid it sprays gets on you, there is no salvaging or cleaning your outfit, and it may as well be incinerated."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch skuntank", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,6),
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,24),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDewpiderOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDewpiderOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDewpiderOne",
+        super(name, aspect, "EpochDewpiderOne",
                 Type.BUG,Type.PSYCHIC,
                 new Stats(38,
                         55,
@@ -67,13 +67,14 @@ public class EpochDewpiderOne extends drai.dev.data.pokemon.Pokemon {
                         42),
                 List.of(Ability.MERCILESS,Ability.COMPOUND_EYES), Ability.TERRORIZE,
                 3, 40,
-                new Stats(38,1,42,52,40,42), 200,
+                new Stats(0,1,0,0,0,0), 200,
                 0.5,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("It has eyes covering its entire body, which enables it to have a full 360-degree field of vision."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo araquanid", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBARGO,36),
                         new MoveLearnSetEntry(Move.SKITTER_SMACK,24),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLiepard extends drai.dev.data.pokemon.Pokemon {
     public EpochLiepard(String name, Aspect aspect) {
-        super(name, aspect,"EpochLiepard",
+        super(name, aspect, "EpochLiepard",
                 Type.LIGHT,Type.COSMIC,
                 new Stats(85,
                         80,
@@ -67,7 +67,7 @@ public class EpochLiepard extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.POUNCE,Ability.DARKMATTER), Ability.GENIUS,
                 11, 375,
-                new Stats(85,80,55,120,50,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 156, ExperienceGroup.MEDIUM_FAST,
                 70,

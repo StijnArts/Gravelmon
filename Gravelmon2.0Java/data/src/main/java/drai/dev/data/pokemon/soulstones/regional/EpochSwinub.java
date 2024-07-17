@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSwinub extends drai.dev.data.pokemon.Pokemon {
     public EpochSwinub(String name, Aspect aspect) {
-        super(name, aspect,"EpochSwinub",
+        super(name, aspect, "EpochSwinub",
                 Type.ELECTRIC,Type.GROUND,
                 new Stats(50,
                         55,
@@ -67,13 +67,14 @@ public class EpochSwinub extends drai.dev.data.pokemon.Pokemon {
                         25),
                 List.of(Ability.STATIC,Ability.GALVANIZE), Ability.OVERCOAT,
                 4, 65,
-                new Stats(50,1,45,50,25,25), 225,
+                new Stats(0,1,0,0,0,0), 225,
                 0.5,
                 50, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Rubbing its fur first can make you give off static electricity."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch piloswine", EvolutionType.LEVEL_UP, List.of(), 
+                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,27),
                         new MoveLearnSetEntry(Move.ENDURE,24),
@@ -158,9 +159,9 @@ public class EpochSwinub extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HONE_CLAWS,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 26, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

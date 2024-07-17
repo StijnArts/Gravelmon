@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLedyba extends drai.dev.data.pokemon.Pokemon {
     public EpochLedyba(String name, Aspect aspect) {
-        super(name, aspect,"EpochLedyba",
+        super(name, aspect, "EpochLedyba",
                 Type.BUG,Type.STEEL,
                 new Stats(40,
                         40,
@@ -67,13 +67,14 @@ public class EpochLedyba extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.CLEAR_BODY,Ability.TINTED_LENS), Ability.HEATPROOF,
                 10, 108,
-                new Stats(40,40,50,1,70,55), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 53, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Due to their small size and bug-like appearance, they are often used by spy agencies to remotely observe targets or persons of interest."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ledian", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STORED_POWER,54),
                         new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -159,8 +160,8 @@ public class EpochLedyba extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POLLENBLAST,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBagon extends drai.dev.data.pokemon.Pokemon {
     public EpochBagon(String name, Aspect aspect) {
-        super(name, aspect,"EpochBagon",
+        super(name, aspect, "EpochBagon",
                 Type.FIRE,Type.POISON,
                 new Stats(45,
                         55,
@@ -67,13 +67,14 @@ public class EpochBagon extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.FLAME_BODY,Ability.POISON_TOUCH), Ability.DRAGONS_MAW,
                 6, 421,
-                new Stats(45,1,60,50,60,30), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("This Pokemon is a playful creature by nature, but it needs to be reined in because it can inadvertently start large fires if it gets up to too much trouble."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch shelgon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,10),
                         new MoveLearnSetEntry(Move.VENOSHOCK,25),

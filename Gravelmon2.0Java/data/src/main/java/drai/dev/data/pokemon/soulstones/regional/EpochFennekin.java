@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFennekin extends drai.dev.data.pokemon.Pokemon {
     public EpochFennekin(String name, Aspect aspect) {
-        super(name, aspect,"EpochFennekin",
+        super(name, aspect, "EpochFennekin",
                 Type.WATER,Type.COSMIC,
                 new Stats(50,
                         30,
@@ -67,13 +67,14 @@ public class EpochFennekin extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.MAGIC_GUARD,Ability.MAGIC_BOUNCE), Ability.MAGICIAN,
                 4, 94,
-                new Stats(50,30,45,1,67,60), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.875,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This little Pokemon has a plethora of potential hidden inside of it. However, it does not know yet whether to use it selflessly or not..."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch braixen", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.SOAK,5),

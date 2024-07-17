@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLarvitar extends drai.dev.data.pokemon.Pokemon {
     public EpochLarvitar(String name, Aspect aspect) {
-        super(name, aspect,"EpochLarvitar",
+        super(name, aspect, "EpochLarvitar",
                 Type.STEEL,Type.DRAGON,
                 new Stats(60,
                         64,
@@ -67,13 +67,14 @@ public class EpochLarvitar extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.MAGNET_PULL,Ability.MOLD_BREAKER), Ability.HEAVY_METAL,
                 6, 720,
-                new Stats(60,1,55,31,35,55), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It is frequently posted as sentries around high-security zones. It uses a mix of antennae and sonar signals to reveal hidden enemies."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch pupitar", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,35),
                         new MoveLearnSetEntry(Move.DRACOSHRED,49),
@@ -173,9 +174,8 @@ public class EpochLarvitar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 8, 28, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

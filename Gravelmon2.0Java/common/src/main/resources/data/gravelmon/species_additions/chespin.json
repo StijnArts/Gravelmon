@@ -131,6 +131,22 @@
   "pokedex": [
     "cobblemon.species.epochchespin.desc"
   ],
+  "evolutions": [
+    {
+      "id": "chespin_epoch_quilladin",
+      "variant": "level_up",
+      "result": "epoch quilladin",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -139,12 +155,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 56,
-    "attack": 56,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 38,
-    "special_defence": 40,
-    "speed": 48
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 4,
   "weight": 90,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochZorua extends drai.dev.data.pokemon.Pokemon {
     public EpochZorua(String name, Aspect aspect) {
-        super(name, aspect,"EpochZorua",
+        super(name, aspect, "EpochZorua",
                 Type.ICE,Type.DARK,
                 new Stats(40,
                         75,
@@ -67,13 +67,14 @@ public class EpochZorua extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.SNOW_CLOAK,Ability.MOXIE), Ability.ANTICIPATION,
                 7, 125,
-                new Stats(40,1,40,75,60,40), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.875,
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They are very loyal creatures and can hunt in small packs. Due to their loyalty, they are subservient to the alpha of each pack."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch zoroark", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,29),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,58),

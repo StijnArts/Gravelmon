@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSealeo extends drai.dev.data.pokemon.Pokemon {
     public EpochSealeo(String name, Aspect aspect) {
-        super(name, aspect,"EpochSealeo",
+        super(name, aspect, "EpochSealeo",
                 Type.ICE,Type.GROUND,
                 new Stats(80,
                         70,
@@ -67,13 +67,14 @@ public class EpochSealeo extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.WATER_ABSORB,Ability.SWIFT_SWIM), Ability.OBLIVIOUS,
                 11, 876,
-                new Stats(2,70,85,45,45,85), 120,
+                new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 144, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("This Pokémon enjoys having its mane brushed and will happily clap when you play with its ears."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch walrein", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,1),
                         new MoveLearnSetEntry(Move.SHORE_UP,16),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochToxicroak extends drai.dev.data.pokemon.Pokemon {
     public EpochToxicroak(String name, Aspect aspect) {
-        super(name, aspect,"EpochToxicroak",
+        super(name, aspect, "EpochToxicroak",
                 Type.POISON,Type.PSYCHIC,
                 new Stats(83,
                         112,
@@ -67,7 +67,7 @@ public class EpochToxicroak extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.POISON_TOUCH,Ability.TELEPATHY), Ability.EFFECT_SPORE,
                 13, 444,
-                new Stats(83,2,60,95,80,60), 75,
+                new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,

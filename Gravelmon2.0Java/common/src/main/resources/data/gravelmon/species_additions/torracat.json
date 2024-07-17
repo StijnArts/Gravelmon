@@ -122,6 +122,22 @@
   "pokedex": [
     "cobblemon.species.epochtorracat.desc"
   ],
+  "evolutions": [
+    {
+      "id": "torracat_epoch_incineroar",
+      "variant": "level_up",
+      "result": "epoch incineroar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
@@ -130,11 +146,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
-    "attack": 95,
-    "defence": 50,
-    "special_attack": 90,
-    "special_defence": 70,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 2
   },
   "height": 7,

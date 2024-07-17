@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSandile extends drai.dev.data.pokemon.Pokemon {
     public EpochSandile(String name, Aspect aspect) {
-        super(name, aspect,"EpochSandile",
+        super(name, aspect, "EpochSandile",
                 Type.WATER,Type.DARK,
                 new Stats(50,
                         52,
@@ -67,13 +67,14 @@ public class EpochSandile extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.STALWART,Ability.CANNONFIRE), Ability.SCREEN_CLEANER,
                 7, 152,
-                new Stats(50,1,45,65,35,45), 180,
+                new Stats(0,1,0,0,0,0), 180,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It likes attacking seafaring vessels and raiding them of food and other treasures. They are often found congregating in coves or islands."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch krokorok", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,16),
                         new MoveLearnSetEntry(Move.FRENZY,51),

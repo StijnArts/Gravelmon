@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochArbok extends drai.dev.data.pokemon.Pokemon {
     public EpochArbok(String name, Aspect aspect) {
-        super(name, aspect,"EpochArbok",
+        super(name, aspect, "EpochArbok",
                 Type.GROUND,Type.POISON,
                 new Stats(55,
                         110,
@@ -67,7 +67,7 @@ public class EpochArbok extends drai.dev.data.pokemon.Pokemon {
                         69),
                 List.of(Ability.CORROSION,Ability.SAND_SPIT), Ability.LEECHINGFANGS,
                 35, 650,
-                new Stats(55,2,69,100,65,69), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 153, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -160,9 +160,8 @@ public class EpochArbok extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_DESERT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

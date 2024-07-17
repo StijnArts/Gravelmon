@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTorterra extends drai.dev.data.pokemon.Pokemon {
     public EpochTorterra(String name, Aspect aspect) {
-        super(name, aspect,"EpochTorterra",
+        super(name, aspect, "EpochTorterra",
                 Type.DRAGON,Type.FIRE,
                 new Stats(95,
                         109,
@@ -67,7 +67,7 @@ public class EpochTorterra extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.SOLID_ROCK,Ability.FLAME_BODY), Ability.SHELL_ARMOR,
                 22, 3100,
-                new Stats(95,2,105,56,75,85), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.875,
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,

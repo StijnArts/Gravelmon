@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlakoth extends drai.dev.data.pokemon.Pokemon {
     public EpochSlakoth(String name, Aspect aspect) {
-        super(name, aspect,"EpochSlakoth",
+        super(name, aspect, "EpochSlakoth",
                 Type.ICE,Type.NORMAL,
                 new Stats(60,
                         70,
@@ -67,13 +67,14 @@ public class EpochSlakoth extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.THICK_FAT,Ability.GLUTTONY), Ability.ANGER_POINT,
                 8, 240,
-                new Stats(1,70,60,30,25,35), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 56, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon is said to hibernate throughout the year. It's not clear how this is possible."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch vigoroth", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.FLAIL,38),

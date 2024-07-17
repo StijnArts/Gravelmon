@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCopperajah extends drai.dev.data.pokemon.Pokemon {
     public EpochCopperajah(String name, Aspect aspect) {
-        super(name, aspect,"EpochCopperajah",
+        super(name, aspect, "EpochCopperajah",
                 Type.GROUND,Type.PSYCHIC,
                 new Stats(97,
                         50,
@@ -67,7 +67,7 @@ public class EpochCopperajah extends drai.dev.data.pokemon.Pokemon {
                         99),
                 List.of(Ability.CHARISMA,Ability.FILTER), Ability.TROPICALHIDE,
                 30, 6500,
-                new Stats(97,50,94,2,110,99), 90,
+                new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,

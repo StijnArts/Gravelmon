@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochParasect extends drai.dev.data.pokemon.Pokemon {
     public EpochParasect(String name, Aspect aspect) {
-        super(name, aspect,"EpochParasect",
+        super(name, aspect, "EpochParasect",
                 Type.BUG,Type.GHOST,
                 new Stats(75,
                         40,
@@ -67,7 +67,7 @@ public class EpochParasect extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.EFFECT_SPORE,Ability.DRY_SKIN), Ability.CONTRARY,
                 10, 295,
-                new Stats(75,40,1,45,100,75), 75,
+                new Stats(0,0,1,0,0,0), 75,
                 0.5,
                 142, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -159,9 +159,8 @@ public class EpochParasect extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VITALITYDRAIN,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 43, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

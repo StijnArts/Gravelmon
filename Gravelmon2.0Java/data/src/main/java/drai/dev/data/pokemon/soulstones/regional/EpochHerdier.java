@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHerdier extends drai.dev.data.pokemon.Pokemon {
     public EpochHerdier(String name, Aspect aspect) {
-        super(name, aspect,"EpochHerdier",
+        super(name, aspect, "EpochHerdier",
                 Type.DARK,Type.GHOST,
                 new Stats(75,
                         90,
@@ -67,13 +67,14 @@ public class EpochHerdier extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.GLUTTONY,Ability.DEFIANT), Ability.STRONG_JAW,
                 9, 147,
-                new Stats(75,2,65,80,25,65), 120,
+                new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 130, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Forced to survive on its own, it has submitted fully to its feral instinct and can be difficult to tame."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch stoutland", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),
                         new MoveLearnSetEntry(Move.FRENZY,50),

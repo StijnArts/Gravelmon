@@ -135,6 +135,22 @@
   "pokedex": [
     "cobblemon.species.epochcroconaw.desc"
   ],
+  "evolutions": [
+    {
+      "id": "croconaw_epoch_feraligatr",
+      "variant": "level_up",
+      "result": "epoch feraligatr",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
@@ -143,12 +159,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
+    "hp": 0,
     "attack": 1,
-    "defence": 80,
-    "special_attack": 63,
-    "special_defence": 59,
-    "speed": 58
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 11,
   "weight": 250,
@@ -280,6 +296,22 @@
   "pokedex": [
     "cobblemon.species.epochcroconawone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "croconaw_epochtwo_feraligatr",
+      "variant": "level_up",
+      "result": "epochtwo feraligatr",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
@@ -288,12 +320,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
+    "hp": 0,
     "attack": 1,
-    "defence": 63,
-    "special_attack": 58,
-    "special_defence": 59,
-    "speed": 80
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 11,
   "weight": 250,

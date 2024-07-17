@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDoubladeOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDoubladeOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDoubladeOne",
+        super(name, aspect, "EpochDoubladeOne",
                 Type.GRASS,
                 new Stats(63,
                         95,
@@ -66,14 +66,15 @@ public class EpochDoubladeOne extends drai.dev.data.pokemon.Pokemon {
                         95,
                         45),
                 List.of(Ability.SHARPSHOOTER,Ability.SKILL_LINK), Ability.LONG_REACH,
-                0, 0,
-                new Stats(63,2,55,95,95,45), 222,
+                8, 20,
+                new Stats(0,2,0,0,0,0), 222,
                 0.5,
                 157, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon masquerades as a bow in tune with nature."),
-                List.of(),
+                List.of(new EvolutionEntry("epochone aegislash", EvolutionType.ITEM_INTERACT, false, List.of(),
+ List.of(), List.of(), "cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.THOUSAND_ARROWS,40),
                         new MoveLearnSetEntry(Move.THORNPRISON,1),

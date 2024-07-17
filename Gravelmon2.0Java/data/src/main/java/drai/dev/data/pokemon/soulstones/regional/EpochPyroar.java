@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPyroar extends drai.dev.data.pokemon.Pokemon {
     public EpochPyroar(String name, Aspect aspect) {
-        super(name, aspect,"EpochPyroar",
+        super(name, aspect, "EpochPyroar",
                 Type.ICE,Type.SOUND,
                 new Stats(80,
                         109,
@@ -67,7 +67,7 @@ public class EpochPyroar extends drai.dev.data.pokemon.Pokemon {
                         72),
                 List.of(Ability.INTIMIDATE,Ability.ICYVEINS), Ability.NOBILITY,
                 15, 815,
-                new Stats(80,2,72,106,68,72), 200,
+                new Stats(0,2,0,0,0,0), 200,
                 0.5,
                 177, ExperienceGroup.MEDIUM_SLOW,
                 70,

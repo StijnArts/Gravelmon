@@ -114,6 +114,20 @@
   "pokedex": [
     "cobblemon.species.epochmagneton.desc"
   ],
+  "evolutions": [
+    {
+      "id": "magneton_epoch_magnezone",
+      "variant": "item_interact",
+      "result": "epoch magnezone",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:iron_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -122,12 +136,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
-    "attack": 60,
-    "defence": 95,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 2,
-    "special_defence": 120,
-    "speed": 70
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 600,
@@ -252,6 +266,20 @@
   "pokedex": [
     "cobblemon.species.epochmagnetonone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "magneton_epochtwo_magnezone",
+      "variant": "item_interact",
+      "result": "epochtwo magnezone",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -260,12 +288,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 90,
-    "attack": 25,
-    "defence": 95,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 2,
-    "special_defence": 110,
-    "speed": 90
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 600,

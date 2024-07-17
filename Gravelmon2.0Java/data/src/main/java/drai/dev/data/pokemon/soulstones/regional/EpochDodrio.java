@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDodrio extends drai.dev.data.pokemon.Pokemon {
     public EpochDodrio(String name, Aspect aspect) {
-        super(name, aspect,"EpochDodrio",
+        super(name, aspect, "EpochDodrio",
                 Type.COSMIC,Type.FLYING,
                 new Stats(80,
                         60,
@@ -67,7 +67,7 @@ public class EpochDodrio extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.EARLY_BIRD,Ability.COMPETITIVE), Ability.DISHEARTEN,
                 18, 852,
-                new Stats(80,60,60,105,100,2), 100,
+                new Stats(0,0,0,0,0,2), 100,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -154,9 +154,8 @@ public class EpochDodrio extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

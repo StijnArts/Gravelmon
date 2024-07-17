@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSalazzle extends drai.dev.data.pokemon.Pokemon {
     public EpochSalazzle(String name, Aspect aspect) {
-        super(name, aspect,"EpochSalazzle",
+        super(name, aspect, "EpochSalazzle",
                 Type.ELECTRIC,Type.WATER,
                 new Stats(68,
                         111,
@@ -67,7 +67,7 @@ public class EpochSalazzle extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.UNNERVE,Ability.SWIFT_SWIM), Ability.POISON_HEAL,
                 12, 222,
-                new Stats(68,111,60,117,64,2), 95,
+                new Stats(0,0,0,0,0,2), 95,
                 0.0,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,

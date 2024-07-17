@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGothita extends drai.dev.data.pokemon.Pokemon {
     public EpochGothita(String name, Aspect aspect) {
-        super(name, aspect,"EpochGothita",
+        super(name, aspect, "EpochGothita",
                 Type.FAIRY,Type.FIGHTING,
                 new Stats(45,
                         55,
@@ -67,13 +67,14 @@ public class EpochGothita extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.FRISK,Ability.IMMUNITY), Ability.CANNONFIRE,
                 4, 58,
-                new Stats(45,55,40,55,1,65), 200,
+                new Stats(0,0,0,0,1,0), 200,
                 0.0,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("This Pokemon is very nimble and agile. It is able to pull off weird gymnastic stunts because of its small stature and flexibility."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gothorita", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,22),
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,54),

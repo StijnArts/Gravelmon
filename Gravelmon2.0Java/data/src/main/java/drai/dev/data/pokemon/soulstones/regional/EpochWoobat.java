@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWoobat extends drai.dev.data.pokemon.Pokemon {
     public EpochWoobat(String name, Aspect aspect) {
-        super(name, aspect,"EpochWoobat",
+        super(name, aspect, "EpochWoobat",
                 Type.POISON,Type.FLYING,
                 new Stats(75,
                         70,
@@ -67,13 +67,14 @@ public class EpochWoobat extends drai.dev.data.pokemon.Pokemon {
                         43),
                 List.of(Ability.INFILTRATOR,Ability.SPEED_BOOST), Ability.GUTS,
                 4, 21,
-                new Stats(75,70,43,67,45,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FIELD),
                 List.of("Its fangs are extra sharp to enable this Pokemon to pierce the skin of its target and drain its blood quickly."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch swoobat", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAGUE,47),
                         new MoveLearnSetEntry(Move.WAIL,27),

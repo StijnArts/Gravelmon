@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMonferno extends drai.dev.data.pokemon.Pokemon {
     public EpochMonferno(String name, Aspect aspect) {
-        super(name, aspect,"EpochMonferno",
+        super(name, aspect, "EpochMonferno",
                 Type.ELECTRIC,Type.FIGHTING,
                 new Stats(69,
                         68,
@@ -67,13 +67,14 @@ public class EpochMonferno extends drai.dev.data.pokemon.Pokemon {
                         47),
                 List.of(Ability.RECKLESS,Ability.LONG_REACH), Ability.SUPER_LUCK,
                 9, 220,
-                new Stats(69,68,47,106,68,2), 100,
+                new Stats(0,0,0,0,0,2), 100,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("Due to its speed, it is able to create illusions of itself that can encircle and confuse a foe."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch infernape", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,16),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,13),

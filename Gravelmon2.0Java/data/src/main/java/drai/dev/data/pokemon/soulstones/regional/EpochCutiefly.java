@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCutiefly extends drai.dev.data.pokemon.Pokemon {
     public EpochCutiefly(String name, Aspect aspect) {
-        super(name, aspect,"EpochCutiefly",
+        super(name, aspect, "EpochCutiefly",
                 Type.BUG,Type.FLYING,
                 new Stats(40,
                         45,
@@ -67,13 +67,14 @@ public class EpochCutiefly extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.PRANKSTER,Ability.SPEED_BOOST), Ability.STENCH,
                 1, 2,
-                new Stats(40,45,40,84,55,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FLYING),
                 List.of("It is so small that it is sometimes hard to see them. However, they are very quick and difficult to hit unless you have a specialized swatter."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ribombee", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,14),
                         new MoveLearnSetEntry(Move.POISON_POWDER,6),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKabutops extends drai.dev.data.pokemon.Pokemon {
     public EpochKabutops(String name, Aspect aspect) {
-        super(name, aspect,"EpochKabutops",
+        super(name, aspect, "EpochKabutops",
                 Type.BUG,Type.GRASS,
                 new Stats(70,
                         115,
@@ -67,7 +67,7 @@ public class EpochKabutops extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.SWARM,Ability.SNIPER), Ability.HYPER_CUTTER,
                 13, 405,
-                new Stats(70,2,80,115,55,60), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.875,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -141,8 +141,8 @@ public class EpochKabutops extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDelcattyOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDelcattyOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDelcattyOne",
+        super(name, aspect, "EpochDelcattyOne",
                 Type.GRASS,Type.LIGHT,
                 new Stats(75,
                         42,
@@ -67,7 +67,7 @@ public class EpochDelcattyOne extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.CHLOROPHYLL,Ability.GRASS_PELT), Ability.GRASSY_SURGE,
                 11, 326,
-                new Stats(75,42,85,1,98,100), 100,
+                new Stats(0,0,0,1,0,0), 100,
                 0.0,
                 140, ExperienceGroup.FAST,
                 70,

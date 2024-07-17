@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVoltorbOne extends drai.dev.data.pokemon.Pokemon {
     public EpochVoltorbOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochVoltorbOne",
+        super(name, aspect, "EpochVoltorbOne",
                 Type.COSMIC,Type.ROCK,
                 new Stats(40,
                         40,
@@ -67,13 +67,14 @@ public class EpochVoltorbOne extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.PRESSURE,Ability.AFTERMATH), Ability.STURDY,
                 5, 2004,
-                new Stats(40,40,45,100,55,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 -1.0,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is the beginning of a small planet and is accreting matter to grow in size and density. It will eventually be able to generate its own gravitational force."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo electrode", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTEROID_BELT,20),
                         new MoveLearnSetEntry(Move.HARDEN,4),
@@ -165,9 +166,8 @@ public class EpochVoltorbOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 34, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

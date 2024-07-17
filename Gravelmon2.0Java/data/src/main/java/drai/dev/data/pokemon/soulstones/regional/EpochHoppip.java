@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHoppip extends drai.dev.data.pokemon.Pokemon {
     public EpochHoppip(String name, Aspect aspect) {
-        super(name, aspect,"EpochHoppip",
+        super(name, aspect, "EpochHoppip",
                 Type.ICE,Type.SOUND,
                 new Stats(35,
                         25,
@@ -67,13 +67,14 @@ public class EpochHoppip extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.LEVITATE,Ability.SHIELD_DUST), Ability.SNOW_WARNING,
                 4, 5,
-                new Stats(35,25,40,50,1,55), 255,
+                new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("When it blows around in the wind, it is able to attract and collect snowflakes to its body eventually creating a small trail."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch skiploom", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LOVELOOP,9),
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,25),
@@ -168,13 +169,15 @@ public class EpochHoppip extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 25, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Hoppip");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochClobbopus extends drai.dev.data.pokemon.Pokemon {
     public EpochClobbopus(String name, Aspect aspect) {
-        super(name, aspect,"EpochClobbopus",
+        super(name, aspect, "EpochClobbopus",
                 Type.WATER,Type.FIGHTING,
                 new Stats(60,
                         68,
@@ -67,13 +67,14 @@ public class EpochClobbopus extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.CONTRARY,Ability.ARENA_TRAP), Ability.MOLD_BREAKER,
                 6, 40,
-                new Stats(60,1,65,27,25,65), 180,
+                new Stats(0,1,0,0,0,0), 180,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.HUMAN_LIKE),
                 List.of("This Pokemon's tentacles are so strong that many other foes do not dare try to challenge it for food when hunting."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch grapploct", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_belt")),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,22),
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,58),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSandygast extends drai.dev.data.pokemon.Pokemon {
     public EpochSandygast(String name, Aspect aspect) {
-        super(name, aspect,"EpochSandygast",
+        super(name, aspect, "EpochSandygast",
                 Type.GHOST,Type.ICE,
                 new Stats(65,
                         40,
@@ -67,13 +67,14 @@ public class EpochSandygast extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.WATER_ABSORB,Ability.INFILTRATOR), Ability.SNOW_WARNING,
                 5, 700,
-                new Stats(65,40,1,15,80,65), 140,
+                new Stats(0,0,1,0,0,0), 140,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The toque is the closest thing it has to a friend because when it tries to befriend children, they run away in fear."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch palossand", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,4),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,18),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPineco extends drai.dev.data.pokemon.Pokemon {
     public EpochPineco(String name, Aspect aspect) {
-        super(name, aspect,"EpochPineco",
+        super(name, aspect, "EpochPineco",
                 Type.ROCK,Type.FAIRY,
                 new Stats(45,
                         35,
@@ -67,13 +67,14 @@ public class EpochPineco extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.STURDY,Ability.BULLETPROOF), Ability.OVERCOAT,
                 6, 72,
-                new Stats(45,35,1,35,60,55), 190,
+                new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Miners need to be careful not to hit a Pineco as precious ores and gems are often found encrusted in the rocky surface of its skin."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch forretress", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,39),
                         new MoveLearnSetEntry(Move.MISTY_EXPLOSION,54),
@@ -184,11 +185,9 @@ public class EpochPineco extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 33, 6, List.of(
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.AMETHYST_GEODE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pineco");

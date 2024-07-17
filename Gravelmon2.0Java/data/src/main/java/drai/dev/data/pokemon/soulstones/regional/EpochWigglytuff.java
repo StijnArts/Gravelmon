@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWigglytuff extends drai.dev.data.pokemon.Pokemon {
     public EpochWigglytuff(String name, Aspect aspect) {
-        super(name, aspect,"EpochWigglytuff",
+        super(name, aspect, "EpochWigglytuff",
                 Type.WATER,Type.NORMAL,
                 new Stats(100,
                         50,
@@ -67,7 +67,7 @@ public class EpochWigglytuff extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.SIMPLE,Ability.RAIN_DISH), Ability.WATER_BUBBLE,
                 20, 5,
-                new Stats(3,50,80,60,65,80), 92,
+                new Stats(3,0,0,0,0,0), 92,
                 0.0,
                 196, ExperienceGroup.FAST,
                 70,
@@ -158,13 +158,14 @@ public class EpochWigglytuff extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 54, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Wigglytuff");
 
     }

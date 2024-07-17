@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTynamo extends drai.dev.data.pokemon.Pokemon {
     public EpochTynamo(String name, Aspect aspect) {
-        super(name, aspect,"EpochTynamo",
+        super(name, aspect, "EpochTynamo",
                 Type.BUG,Type.GROUND,
                 new Stats(35,
                         55,
@@ -67,13 +67,14 @@ public class EpochTynamo extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.WIMP_OUT), null,
                 2, 3,
-                new Stats(35,55,50,50,35,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 55, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.AMORPHOUS),
                 List.of("Due to its weak, undeveloped form, it only surfaces for food, preferring to stay underground for as long as it can because it cannot defend itself well."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch eelektrik", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,45),
                         new MoveLearnSetEntry(Move.SKITTER_SMACK,20),

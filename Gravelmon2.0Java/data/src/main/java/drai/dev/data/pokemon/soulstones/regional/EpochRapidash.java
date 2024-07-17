@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRapidash extends drai.dev.data.pokemon.Pokemon {
     public EpochRapidash(String name, Aspect aspect) {
-        super(name, aspect,"EpochRapidash",
+        super(name, aspect, "EpochRapidash",
                 Type.GHOST,Type.FIRE,
                 new Stats(65,
                         105,
@@ -67,7 +67,7 @@ public class EpochRapidash extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.INFILTRATOR,Ability.AFTERMATH), Ability.RECKLESS,
                 17, 950,
-                new Stats(65,105,75,110,70,2), 100,
+                new Stats(0,0,0,0,0,2), 100,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -144,8 +144,8 @@ public class EpochRapidash extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 38, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

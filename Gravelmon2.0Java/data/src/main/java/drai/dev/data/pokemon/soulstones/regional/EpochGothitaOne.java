@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGothitaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGothitaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGothitaOne",
+        super(name, aspect, "EpochGothitaOne",
                 Type.POISON,Type.SOUND,
                 new Stats(45,
                         50,
@@ -67,13 +67,14 @@ public class EpochGothitaOne extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SHED_SKIN,Ability.DISHEARTEN), Ability.STAKEOUT,
                 4, 58,
-                new Stats(45,1,40,45,55,55), 200,
+                new Stats(0,1,0,0,0,0), 200,
                 0.0,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("When it is angered, it will hiss and shoot petrifying gazes at the subject of their anger to temporarily immobilize them."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo gothorita", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,39),
                         new MoveLearnSetEntry(Move.ACID,7),

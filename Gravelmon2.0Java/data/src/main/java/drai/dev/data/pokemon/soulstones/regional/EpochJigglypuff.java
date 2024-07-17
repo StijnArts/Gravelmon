@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochJigglypuff extends drai.dev.data.pokemon.Pokemon {
     public EpochJigglypuff(String name, Aspect aspect) {
-        super(name, aspect,"EpochJigglypuff",
+        super(name, aspect, "EpochJigglypuff",
                 Type.WATER,Type.NORMAL,
                 new Stats(50,
                         30,
@@ -67,13 +67,14 @@ public class EpochJigglypuff extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.SIMPLE,Ability.RAIN_DISH), Ability.WATER_BUBBLE,
                 15, 2,
-                new Stats(2,30,50,35,55,50), 170,
+                new Stats(2,0,0,0,0,0), 170,
                 0.0,
                 95, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.WATER_1),
                 List.of("When it gets angry, it huffs and puffs to make itself bigger to show it means business. Often though, many people do not take it seriously."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch wigglytuff", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.SOAK,17),
@@ -157,13 +158,14 @@ public class EpochJigglypuff extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 34, 1.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Jigglypuff");
 
     }

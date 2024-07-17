@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochEmboar extends drai.dev.data.pokemon.Pokemon {
     public EpochEmboar(String name, Aspect aspect) {
-        super(name, aspect,"EpochEmboar",
+        super(name, aspect, "EpochEmboar",
                 Type.GROUND,Type.ROCK,
                 new Stats(105,
                         100,
@@ -67,7 +67,7 @@ public class EpochEmboar extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.ROCK_HEAD,Ability.DRY_SKIN), Ability.CLAYFORM,
                 16, 1500,
-                new Stats(105,3,118,60,55,90), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.875,
                 264, ExperienceGroup.MEDIUM_SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAnnihilape extends drai.dev.data.pokemon.Pokemon {
     public EpochAnnihilape(String name, Aspect aspect) {
-        super(name, aspect,"EpochAnnihilape",
+        super(name, aspect, "EpochAnnihilape",
                 Type.SOUND,Type.FIGHTING,
                 new Stats(95,
                         115,
@@ -67,7 +67,7 @@ public class EpochAnnihilape extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.ANGER_POINT,Ability.DEFIANT), Ability.BERSERK,
                 12, 560,
-                new Stats(95,3,80,100,65,80), 95,
+                new Stats(0,3,0,0,0,0), 95,
                 0.5,
                 268, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -172,8 +172,8 @@ public class EpochAnnihilape extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 53, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRaichu extends drai.dev.data.pokemon.Pokemon {
     public EpochRaichu(String name, Aspect aspect) {
-        super(name, aspect,"EpochRaichu",
+        super(name, aspect, "EpochRaichu",
                 Type.SOUND,Type.STEEL,
                 new Stats(60,
                         70,
@@ -67,7 +67,7 @@ public class EpochRaichu extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.CACOPHONY,Ability.LIGHTNING_ROD), Ability.SOUNDPROOF,
                 8, 300,
-                new Stats(60,70,55,120,110,3), 75,
+                new Stats(0,0,0,0,0,3), 75,
                 0.5,
                 218, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -168,9 +168,8 @@ public class EpochRaichu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 56, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagcargo extends drai.dev.data.pokemon.Pokemon {
     public EpochMagcargo(String name, Aspect aspect) {
-        super(name, aspect,"EpochMagcargo",
+        super(name, aspect, "EpochMagcargo",
                 Type.POISON,Type.STEEL,
                 new Stats(90,
                         60,
@@ -67,7 +67,7 @@ public class EpochMagcargo extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.UNAWARE,Ability.LIQUID_OOZE), Ability.CORROSION,
                 8, 550,
-                new Stats(90,60,2,30,110,90), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 144, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -146,9 +146,8 @@ public class EpochMagcargo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

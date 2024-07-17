@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBraviary extends drai.dev.data.pokemon.Pokemon {
     public EpochBraviary(String name, Aspect aspect) {
-        super(name, aspect,"EpochBraviary",
+        super(name, aspect, "EpochBraviary",
                 Type.FIRE,Type.FLYING,
                 new Stats(100,
                         123,
@@ -67,7 +67,7 @@ public class EpochBraviary extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.KEEN_EYE,Ability.DEFIANT), Ability.BLAZE,
                 15, 410,
-                new Stats(100,2,75,95,57,75), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 179, ExperienceGroup.SLOW,
                 70,

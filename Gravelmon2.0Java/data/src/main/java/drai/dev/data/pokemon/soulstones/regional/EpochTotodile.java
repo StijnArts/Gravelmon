@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTotodile extends drai.dev.data.pokemon.Pokemon {
     public EpochTotodile(String name, Aspect aspect) {
-        super(name, aspect,"EpochTotodile",
+        super(name, aspect, "EpochTotodile",
                 Type.FIGHTING,Type.GROUND,
                 new Stats(50,
                         65,
@@ -67,13 +67,14 @@ public class EpochTotodile extends drai.dev.data.pokemon.Pokemon {
                         43),
                 List.of(Ability.DRY_SKIN,Ability.NO_GUARD), Ability.MOXIE,
                 6, 95,
-                new Stats(50,1,64,48,44,43), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It has no feeling of fear and often challenges foes much larger and faster than it without batting an eye, sometimes to its demise."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch croconaw", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,24),
                         new MoveLearnSetEntry(Move.FRENZY,55),
@@ -187,9 +188,8 @@ public class EpochTotodile extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLOCK,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

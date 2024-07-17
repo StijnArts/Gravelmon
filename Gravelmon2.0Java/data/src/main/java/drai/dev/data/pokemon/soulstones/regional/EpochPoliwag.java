@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPoliwag extends drai.dev.data.pokemon.Pokemon {
     public EpochPoliwag(String name, Aspect aspect) {
-        super(name, aspect,"EpochPoliwag",
+        super(name, aspect, "EpochPoliwag",
                 Type.WATER,Type.GROUND,
                 new Stats(70,
                         70,
@@ -67,13 +67,14 @@ public class EpochPoliwag extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.DRY_SKIN,Ability.LIQUID_VOICE), Ability.SWIFT_SWIM,
                 6, 124,
-                new Stats(1,70,30,40,60,30), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("This Pokemon loves mud. If it is away from mud or water for too long however, its skin goes dry and cracks."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch poliwhirl", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DIG,29),
                         new MoveLearnSetEntry(Move.MUD_SHOT,14),
@@ -188,8 +189,7 @@ public class EpochPoliwag extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

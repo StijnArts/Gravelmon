@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHattrem extends drai.dev.data.pokemon.Pokemon {
     public EpochHattrem(String name, Aspect aspect) {
-        super(name, aspect,"EpochHattrem",
+        super(name, aspect, "EpochHattrem",
                 Type.PSYCHIC,Type.GHOST,
                 new Stats(57,
                         40,
@@ -67,13 +67,14 @@ public class EpochHattrem extends drai.dev.data.pokemon.Pokemon {
                         73),
                 List.of(Ability.CURIOUS_MEDICINE,Ability.SHADOW_SHIELD), Ability.DRY_SKIN,
                 6, 48,
-                new Stats(57,40,65,2,86,73), 120,
+                new Stats(0,0,0,2,0,0), 120,
                 0.0,
                 130, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon is known for being able to sing haunting songs or cast spells that can inflict terror on their target rendering them immobile."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch hatterene", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EERIE_SPELL,34),
                         new MoveLearnSetEntry(Move.ROLE_PLAY,4),

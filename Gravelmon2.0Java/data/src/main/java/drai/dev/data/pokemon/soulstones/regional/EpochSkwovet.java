@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkwovet extends drai.dev.data.pokemon.Pokemon {
     public EpochSkwovet(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkwovet",
+        super(name, aspect, "EpochSkwovet",
                 Type.ICE,Type.NORMAL,
                 new Stats(70,
                         55,
@@ -67,13 +67,14 @@ public class EpochSkwovet extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.CHEEK_POUCH,Ability.STRONG_JAW), Ability.GLUTTONY,
                 3, 25,
-                new Stats(1,55,55,25,35,35), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 55, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It often perches itself on frozen over trees to nibble on the fruits or leaves that have frozen over."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch greedent", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SUPER_FANG,35),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRowlet extends drai.dev.data.pokemon.Pokemon {
     public EpochRowlet(String name, Aspect aspect) {
-        super(name, aspect,"EpochRowlet",
+        super(name, aspect, "EpochRowlet",
                 Type.FIRE,Type.FLYING,
                 new Stats(54,
                         46,
@@ -67,13 +67,14 @@ public class EpochRowlet extends drai.dev.data.pokemon.Pokemon {
                         54),
                 List.of(Ability.STALWART,Ability.INTUITION), Ability.COMPETITIVE,
                 3, 15,
-                new Stats(54,46,50,1,60,54), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("The flames around its neck are a method it uses to keep itself warm."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dartrix", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,52),
                         new MoveLearnSetEntry(Move.SUNNY_DAY,9),

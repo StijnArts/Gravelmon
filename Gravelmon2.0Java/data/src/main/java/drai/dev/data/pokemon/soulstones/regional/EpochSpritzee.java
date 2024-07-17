@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSpritzee extends drai.dev.data.pokemon.Pokemon {
     public EpochSpritzee(String name, Aspect aspect) {
-        super(name, aspect,"EpochSpritzee",
+        super(name, aspect, "EpochSpritzee",
                 Type.FAIRY,Type.POISON,
                 new Stats(78,
                         63,
@@ -67,13 +67,14 @@ public class EpochSpritzee extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.CURIOUS_MEDICINE,Ability.HEALER), Ability.POISON_TOUCH,
                 2, 5,
-                new Stats(1,63,60,23,42,75), 200,
+                new Stats(1,0,0,0,0,0), 200,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It has an array of various poisons and salves at its disposal that it can use to either cure or infect its enemies."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch aromatisse", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,21),
                         new MoveLearnSetEntry(Move.PLAGUE,44),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSentret extends drai.dev.data.pokemon.Pokemon {
     public EpochSentret(String name, Aspect aspect) {
-        super(name, aspect,"EpochSentret",
+        super(name, aspect, "EpochSentret",
                 Type.GHOST,Type.POISON,
                 new Stats(45,
                         25,
@@ -67,13 +67,14 @@ public class EpochSentret extends drai.dev.data.pokemon.Pokemon {
                         48),
                 List.of(Ability.MUMMY,Ability.INNARDS_OUT), Ability.CORROSION,
                 8, 60,
-                new Stats(45,25,34,48,60,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 43, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It stalks the roadway where it was killed in hopes of exacting its vengeance on the motorist that took its life."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch furret", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PHEROMONESTREAM,40),
                         new MoveLearnSetEntry(Move.DISABLE,4),
@@ -172,9 +173,9 @@ public class EpochSentret extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 26, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBoldoreOne extends drai.dev.data.pokemon.Pokemon {
     public EpochBoldoreOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochBoldoreOne",
+        super(name, aspect, "EpochBoldoreOne",
                 Type.ROCK,Type.ELECTRIC,
                 new Stats(65,
                         45,
@@ -67,13 +67,14 @@ public class EpochBoldoreOne extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.MAGNET_PULL,Ability.LEVITATE), Ability.ELECTRIC_SURGE,
                 9, 1020,
-                new Stats(65,1,70,50,85,85), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its energy is dangerously unstable and it periodically gives off charged electrical novas that can fry electrical appliances."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo gigalith", EvolutionType.TRADE, false, List.of(), 
+ List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,36),

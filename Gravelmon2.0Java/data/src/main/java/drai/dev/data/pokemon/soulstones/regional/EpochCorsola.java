@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCorsola extends drai.dev.data.pokemon.Pokemon {
     public EpochCorsola(String name, Aspect aspect) {
-        super(name, aspect,"EpochCorsola",
+        super(name, aspect, "EpochCorsola",
                 Type.WATER,Type.POISON,
                 new Stats(55,
                         45,
@@ -67,13 +67,14 @@ public class EpochCorsola extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.LIQUID_OOZE,Ability.FILTER), Ability.POWER_OF_ALCHEMY,
                 6, 50,
-                new Stats(55,45,1,45,65,100), 123,
+                new Stats(0,0,1,0,0,0), 123,
                 0.0,
                 144, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
                 List.of("The waste that humans create eventually end up making its way to oceans and open seas, where the marine life such as Corsola have to pay the price."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch cursola", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,16),
                         new MoveLearnSetEntry(Move.ACID,1),
@@ -164,13 +165,14 @@ public class EpochCorsola extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TIDALWAVE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 8, 29, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Corsola");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDarmanitan extends drai.dev.data.pokemon.Pokemon {
     public EpochDarmanitan(String name, Aspect aspect) {
-        super(name, aspect,"EpochDarmanitan",
+        super(name, aspect, "EpochDarmanitan",
                 Type.GRASS,Type.SOUND,
                 new Stats(110,
                         130,
@@ -67,7 +67,7 @@ public class EpochDarmanitan extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.VITAL_SPIRIT,Ability.UNAWARE), Ability.ZEN_MODE,
                 13, 929,
-                new Stats(110,2,80,55,25,80), 123,
+                new Stats(0,2,0,0,0,0), 123,
                 0.5,
                 168, ExperienceGroup.MEDIUM_SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochInfernape extends drai.dev.data.pokemon.Pokemon {
     public EpochInfernape(String name, Aspect aspect) {
-        super(name, aspect,"EpochInfernape",
+        super(name, aspect, "EpochInfernape",
                 Type.ELECTRIC,Type.FIGHTING,
                 new Stats(106,
                         84,
@@ -67,7 +67,7 @@ public class EpochInfernape extends drai.dev.data.pokemon.Pokemon {
                         61),
                 List.of(Ability.RECKLESS,Ability.LONG_REACH), Ability.SUPER_LUCK,
                 12, 550,
-                new Stats(106,84,61,138,84,3), 100,
+                new Stats(0,0,0,0,0,3), 100,
                 0.875,
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,

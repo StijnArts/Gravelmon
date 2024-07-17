@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChinchou extends drai.dev.data.pokemon.Pokemon {
     public EpochChinchou(String name, Aspect aspect) {
-        super(name, aspect,"EpochChinchou",
+        super(name, aspect, "EpochChinchou",
                 Type.LIGHT,Type.DARK,
                 new Stats(80,
                         28,
@@ -67,13 +67,14 @@ public class EpochChinchou extends drai.dev.data.pokemon.Pokemon {
                         56),
                 List.of(Ability.MARVEL_SCALE,Ability.MEGA_LAUNCHER), Ability.REGENERATOR,
                 5, 120,
-                new Stats(1,28,58,47,61,56), 190,
+                new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 66, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("It is found in the darkest waters even if they are not very deep. The light source they emit are often helpful to other species within the ecosystem."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch lanturn", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DARK_PULSE,44),
                         new MoveLearnSetEntry(Move.AURORA_BEAM,14),
@@ -182,13 +183,15 @@ public class EpochChinchou extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FAKE_TEARS,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 8, 27, 4, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Chinchou");
 
     }

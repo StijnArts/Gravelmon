@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKrokorok extends drai.dev.data.pokemon.Pokemon {
     public EpochKrokorok(String name, Aspect aspect) {
-        super(name, aspect,"EpochKrokorok",
+        super(name, aspect, "EpochKrokorok",
                 Type.WATER,Type.DARK,
                 new Stats(60,
                         67,
@@ -67,13 +67,14 @@ public class EpochKrokorok extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.STALWART,Ability.CANNONFIRE), Ability.SCREEN_CLEANER,
                 10, 334,
-                new Stats(60,2,55,74,45,50), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 123, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It leads small raiding groups in the ocean to attack ships and other marine vessels. They are very aggressive if confronted."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch krookodile", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,16),
                         new MoveLearnSetEntry(Move.FRENZY,51),

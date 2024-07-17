@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMusharna extends drai.dev.data.pokemon.Pokemon {
     public EpochMusharna(String name, Aspect aspect) {
-        super(name, aspect,"EpochMusharna",
+        super(name, aspect, "EpochMusharna",
                 Type.ELECTRIC,Type.BUG,
                 new Stats(75,
                         59,
@@ -67,7 +67,7 @@ public class EpochMusharna extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.DOWNLOAD,Ability.TINTED_LENS), Ability.MOODY,
                 11, 605,
-                new Stats(75,59,60,2,117,60), 75,
+                new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 170, ExperienceGroup.FAST,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMachampOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMachampOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMachampOne",
+        super(name, aspect, "EpochMachampOne",
                 Type.FIGHTING,Type.PSYCHIC,
                 new Stats(75,
                         60,
@@ -67,7 +67,7 @@ public class EpochMachampOne extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.PARENTAL_BOND,Ability.MOLD_BREAKER), Ability.SCRAPPY,
                 16, 1300,
-                new Stats(75,2,85,90,105,90), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.25,
                 227, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -171,9 +171,8 @@ public class EpochMachampOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 58, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

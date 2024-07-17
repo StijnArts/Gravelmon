@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSobble extends drai.dev.data.pokemon.Pokemon {
     public EpochSobble(String name, Aspect aspect) {
-        super(name, aspect,"EpochSobble",
+        super(name, aspect, "EpochSobble",
                 Type.WATER,Type.SOUND,
                 new Stats(50,
                         40,
@@ -67,13 +67,14 @@ public class EpochSobble extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.RAIN_DISH,Ability.REQUIEM), Ability.CACOPHONY,
                 3, 40,
-                new Stats(50,40,40,1,70,50), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("During thunderstorms, this Pokemon will play its flute to soothe nearby Pokemon that get upset from the thunderstorms."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch drizzile", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.SIPHON,15),

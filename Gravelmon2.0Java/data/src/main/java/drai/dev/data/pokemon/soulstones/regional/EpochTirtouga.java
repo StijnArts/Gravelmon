@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTirtouga extends drai.dev.data.pokemon.Pokemon {
     public EpochTirtouga(String name, Aspect aspect) {
-        super(name, aspect,"EpochTirtouga",
+        super(name, aspect, "EpochTirtouga",
                 Type.STEEL,Type.GROUND,
                 new Stats(54,
                         78,
@@ -67,13 +67,14 @@ public class EpochTirtouga extends drai.dev.data.pokemon.Pokemon {
                         53),
                 List.of(Ability.UNBREAKABLE,Ability.SHELL_ARMOR), Ability.ROUGH_SKIN,
                 7, 165,
-                new Stats(54,78,1,22,45,53), 90,
+                new Stats(0,0,1,0,0,0), 90,
                 0.875,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its shell is nigh impenetrable, but its underbelly is vulnerable. If flipped over, this Pokemon will flail about trying to reposition itself."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch carracosta", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,36),
                         new MoveLearnSetEntry(Move.POWERDRILL,33),

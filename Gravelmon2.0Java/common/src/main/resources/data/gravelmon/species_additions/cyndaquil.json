@@ -130,6 +130,22 @@
   "pokedex": [
     "cobblemon.species.epochcyndaquil.desc"
   ],
+  "evolutions": [
+    {
+      "id": "cyndaquil_epoch_quilava",
+      "variant": "level_up",
+      "result": "epoch quilava",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -138,12 +154,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
+    "hp": 0,
     "attack": 1,
-    "defence": 50,
-    "special_attack": 52,
-    "special_defence": 39,
-    "speed": 43
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 5,
   "weight": 79,
@@ -269,6 +285,22 @@
   "pokedex": [
     "cobblemon.species.epochcyndaquilone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "cyndaquil_epochtwo_quilava",
+      "variant": "level_up",
+      "result": "epochtwo quilava",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -277,11 +309,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 59,
-    "attack": 32,
-    "defence": 43,
-    "special_attack": 65,
-    "special_defence": 60,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 5,

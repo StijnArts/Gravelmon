@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBudewOne extends drai.dev.data.pokemon.Pokemon {
     public EpochBudewOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochBudewOne",
+        super(name, aspect, "EpochBudewOne",
                 Type.GRASS,Type.DRAGON,
                 new Stats(40,
                         30,
@@ -67,13 +67,14 @@ public class EpochBudewOne extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.LEAF_GUARD,Ability.IRON_BARBS), Ability.SYNTHESIZE,
                 2, 12,
-                new Stats(40,30,35,1,70,55), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.0,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Pokémon attempts to stay hidden or tries to camouflage itself near densely populated trees until it is ready to bloom as that is when it evolves."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo roselia", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PETAL_DANCE,55),
                         new MoveLearnSetEntry(Move.EDENFRUIT,50),

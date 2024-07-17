@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochIgglybuff extends drai.dev.data.pokemon.Pokemon {
     public EpochIgglybuff(String name, Aspect aspect) {
-        super(name, aspect,"EpochIgglybuff",
+        super(name, aspect, "EpochIgglybuff",
                 Type.WATER,Type.NORMAL,
                 new Stats(45,
                         15,
@@ -67,13 +67,14 @@ public class EpochIgglybuff extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.SIMPLE,Ability.RAIN_DISH), Ability.WATER_BUBBLE,
                 2, 1,
-                new Stats(1,15,40,25,45,40), 170,
+                new Stats(1,0,0,0,0,0), 170,
                 0.0,
                 42, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.WATER_1),
                 List.of("This Pokemon can manifest wherever water can be found... from the depths of the ocean, to a kitchen sink. They are very small in size so almost unnoticeable."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch jigglypuff", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.SOAK,17),
@@ -165,13 +166,14 @@ public class EpochIgglybuff extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TIDALWAVE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 21, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Igglybuff");
 
     }

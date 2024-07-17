@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDelphox extends drai.dev.data.pokemon.Pokemon {
     public EpochDelphox(String name, Aspect aspect) {
-        super(name, aspect,"EpochDelphox",
+        super(name, aspect, "EpochDelphox",
                 Type.WATER,Type.COSMIC,
                 new Stats(85,
                         55,
@@ -67,7 +67,7 @@ public class EpochDelphox extends drai.dev.data.pokemon.Pokemon {
                         106),
                 List.of(Ability.MAGIC_GUARD,Ability.MAGIC_BOUNCE), Ability.MAGICIAN,
                 15, 390,
-                new Stats(85,55,76,3,114,106), 90,
+                new Stats(0,0,0,3,0,0), 90,
                 0.875,
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,

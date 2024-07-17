@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVibrava extends drai.dev.data.pokemon.Pokemon {
     public EpochVibrava(String name, Aspect aspect) {
-        super(name, aspect,"EpochVibrava",
+        super(name, aspect, "EpochVibrava",
                 Type.ICE,Type.DRAGON,
                 new Stats(50,
                         70,
@@ -67,13 +67,14 @@ public class EpochVibrava extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.CLOUD_NINE,Ability.ICE_SCALES), Ability.SNOW_CLOAK,
                 11, 153,
-                new Stats(50,1,50,50,70,50), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 119, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("It frequently comes out in the early morning to feast on the bugs and other small critters that come out from the snow."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch flygon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),
                         new MoveLearnSetEntry(Move.BLIZZARD,62),

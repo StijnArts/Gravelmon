@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGyarados extends drai.dev.data.pokemon.Pokemon {
     public EpochGyarados(String name, Aspect aspect) {
-        super(name, aspect,"EpochGyarados",
+        super(name, aspect, "EpochGyarados",
                 Type.ELECTRIC,Type.DARK,
                 new Stats(95,
                         125,
@@ -67,7 +67,7 @@ public class EpochGyarados extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.ANGER_POINT,Ability.BLACKLIGHT), Ability.STRONG_JAW,
                 65, 2350,
-                new Stats(95,2,94,71,55,100), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 189, ExperienceGroup.SLOW,
                 70,
@@ -152,13 +152,16 @@ public class EpochGyarados extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 21, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.MAXY,"30")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Gyarados");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCroconaw extends drai.dev.data.pokemon.Pokemon {
     public EpochCroconaw(String name, Aspect aspect) {
-        super(name, aspect,"EpochCroconaw",
+        super(name, aspect, "EpochCroconaw",
                 Type.FIGHTING,Type.GROUND,
                 new Stats(65,
                         80,
@@ -67,13 +67,14 @@ public class EpochCroconaw extends drai.dev.data.pokemon.Pokemon {
                         58),
                 List.of(Ability.DRY_SKIN,Ability.NO_GUARD), Ability.MOXIE,
                 11, 250,
-                new Stats(65,1,80,63,59,58), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("They are known for raiding in small groups so can be quite threatening when they assemble in small gangs to raid local towns."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch feraligatr", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,24),
                         new MoveLearnSetEntry(Move.FRENZY,55),
@@ -179,9 +180,8 @@ public class EpochCroconaw extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE,  16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKakuna extends drai.dev.data.pokemon.Pokemon {
     public EpochKakuna(String name, Aspect aspect) {
-        super(name, aspect,"EpochKakuna",
+        super(name, aspect, "EpochKakuna",
                 Type.BUG,Type.STEEL,
                 new Stats(45,
                         20,
@@ -67,13 +67,14 @@ public class EpochKakuna extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.SHED_SKIN,Ability.SHIELD_DUST), Ability.WIMP_OUT,
                 6, 100,
-                new Stats(45,20,2,25,35,40), 120,
+                new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 72, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It is used for surveillance measures and employs an innocuous Kakuna disguise to avoid attracting attention."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch beedrill", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_CAGE,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
@@ -84,8 +85,8 @@ public class EpochKakuna extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 19, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

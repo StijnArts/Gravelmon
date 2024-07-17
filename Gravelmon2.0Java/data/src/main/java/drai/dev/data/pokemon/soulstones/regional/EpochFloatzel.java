@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFloatzel extends drai.dev.data.pokemon.Pokemon {
     public EpochFloatzel(String name, Aspect aspect) {
-        super(name, aspect,"EpochFloatzel",
+        super(name, aspect, "EpochFloatzel",
                 Type.WATER,Type.STEEL,
                 new Stats(80,
                         95,
@@ -67,7 +67,7 @@ public class EpochFloatzel extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SHARPNESS,Ability.IRON_BARBS), Ability.LIGHT_METAL,
                 11, 335,
-                new Stats(80,95,105,115,50,2), 75,
+                new Stats(0,0,0,0,0,2), 75,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,

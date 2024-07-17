@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFlygon extends drai.dev.data.pokemon.Pokemon {
     public EpochFlygon(String name, Aspect aspect) {
-        super(name, aspect,"EpochFlygon",
+        super(name, aspect, "EpochFlygon",
                 Type.ICE,Type.DRAGON,
                 new Stats(80,
                         90,
@@ -67,7 +67,7 @@ public class EpochFlygon extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.CLOUD_NINE,Ability.ICE_SCALES), Ability.SNOW_CLOAK,
                 20, 820,
-                new Stats(80,1,80,100,90,80), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 234, ExperienceGroup.MEDIUM_SLOW,
                 70,

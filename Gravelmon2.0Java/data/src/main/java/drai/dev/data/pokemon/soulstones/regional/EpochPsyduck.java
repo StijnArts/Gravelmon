@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPsyduck extends drai.dev.data.pokemon.Pokemon {
     public EpochPsyduck(String name, Aspect aspect) {
-        super(name, aspect,"EpochPsyduck",
+        super(name, aspect, "EpochPsyduck",
                 Type.GROUND,Type.PSYCHIC,
                 new Stats(65,
                         50,
@@ -67,13 +67,14 @@ public class EpochPsyduck extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.SYNCHRONIZE,Ability.DISHEARTEN), Ability.INTUITION,
                 8, 196,
-                new Stats(65,50,60,1,70,50), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("The gem on its head is capable of allowing it to see briefly into the future, which allows it to anticipate attacks."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch golduck", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,27),
                         new MoveLearnSetEntry(Move.QUICKSPELL,8),
@@ -172,8 +173,9 @@ public class EpochPsyduck extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDDY_WATER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

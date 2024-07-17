@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDonphan extends drai.dev.data.pokemon.Pokemon {
     public EpochDonphan(String name, Aspect aspect) {
-        super(name, aspect,"EpochDonphan",
+        super(name, aspect, "EpochDonphan",
                 Type.ICE,Type.GROUND,
                 new Stats(90,
                         100,
@@ -67,7 +67,7 @@ public class EpochDonphan extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.SNOW_CLOAK,Ability.OBLIVIOUS), Ability.THICK_FAT,
                 11, 1200,
-                new Stats(90,1,120,50,40,100), 123,
+                new Stats(0,1,0,0,0,0), 123,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -157,10 +157,10 @@ public class EpochDonphan extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 48, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_PLAINS))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

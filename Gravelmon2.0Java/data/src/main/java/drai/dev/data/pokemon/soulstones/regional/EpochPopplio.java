@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPopplio extends drai.dev.data.pokemon.Pokemon {
     public EpochPopplio(String name, Aspect aspect) {
-        super(name, aspect,"EpochPopplio",
+        super(name, aspect, "EpochPopplio",
                 Type.GRASS,Type.FAIRY,
                 new Stats(55,
                         39,
@@ -67,13 +67,14 @@ public class EpochPopplio extends drai.dev.data.pokemon.Pokemon {
                         56),
                 List.of(Ability.CHLOROPHYLL,Ability.LEAF_GUARD), Ability.GRASSY_SURGE,
                 4, 75,
-                new Stats(55,39,55,1,71,56), 100,
+                new Stats(0,0,0,1,0,0), 100,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FIELD),
                 List.of("Its collar is made from petals. The colour of the collar is said to change with the seasons."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch brionne", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,6),
                         new MoveLearnSetEntry(Move.POISON_POWDER,18),

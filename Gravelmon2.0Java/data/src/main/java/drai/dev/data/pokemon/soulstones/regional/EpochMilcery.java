@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMilcery extends drai.dev.data.pokemon.Pokemon {
     public EpochMilcery(String name, Aspect aspect) {
-        super(name, aspect,"EpochMilcery",
+        super(name, aspect, "EpochMilcery",
                 Type.POISON,Type.ROCK,
                 new Stats(45,
                         30,
@@ -67,13 +67,14 @@ public class EpochMilcery extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.EARTH_EATER,Ability.TOXIC_DEBRIS), Ability.STEAM_ENGINE,
                 2, 3,
-                new Stats(45,30,40,24,1,70), 200,
+                new Stats(0,0,0,0,1,0), 200,
                 0.0,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokémon is the toxic residue that manifests near locations rich in fossil fuels. Its body is very hot to the touch."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch alcremie", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:sand_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),

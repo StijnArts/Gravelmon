@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHoundour extends drai.dev.data.pokemon.Pokemon {
     public EpochHoundour(String name, Aspect aspect) {
-        super(name, aspect,"EpochHoundour",
+        super(name, aspect, "EpochHoundour",
                 Type.FIRE,Type.LIGHT,
                 new Stats(55,
                         30,
@@ -67,13 +67,14 @@ public class EpochHoundour extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.STEADFAST,Ability.SERENE_GRACE), Ability.FRIEND_GUARD,
                 6, 108,
-                new Stats(55,30,50,1,70,50), 120,
+                new Stats(0,0,0,1,0,0), 120,
                 0.5,
                 66, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It was a noble animal in life, and the best friend that humans can have. What? Can you not see its halo?"),
-                List.of(),
+                List.of(new EvolutionEntry("epoch houndoom", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.FLASH_CANNON,38),
@@ -179,9 +180,8 @@ public class EpochHoundour extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FANTASYSEAL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_SOUL_FIRE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

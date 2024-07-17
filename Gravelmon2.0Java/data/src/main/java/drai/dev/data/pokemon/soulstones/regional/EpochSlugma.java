@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlugma extends drai.dev.data.pokemon.Pokemon {
     public EpochSlugma(String name, Aspect aspect) {
-        super(name, aspect,"EpochSlugma",
+        super(name, aspect, "EpochSlugma",
                 Type.POISON,
                 new Stats(55,
                         50,
@@ -67,13 +67,14 @@ public class EpochSlugma extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.UNAWARE,Ability.LIQUID_OOZE), Ability.CORROSION,
                 7, 350,
-                new Stats(55,50,45,1,70,65), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It is a species of Pokémon that lives and feeds in areas full of toxic waste. It can ooze into multiple several autonomous parts, albeit slowly."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch magcargo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHRAPNEL,23),
                         new MoveLearnSetEntry(Move.SIPHON,11),
@@ -158,9 +159,8 @@ public class EpochSlugma extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWALLOW,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

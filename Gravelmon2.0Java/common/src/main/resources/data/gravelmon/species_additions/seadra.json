@@ -120,6 +120,20 @@
   "pokedex": [
     "cobblemon.species.epochseadra.desc"
   ],
+  "evolutions": [
+    {
+      "id": "seadra_epoch_kingdra",
+      "variant": "item_interact",
+      "result": "epoch kingdra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
@@ -128,12 +142,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 80,
-    "attack": 45,
-    "defence": 65,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 75,
-    "speed": 90
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 12,
   "weight": 250,
@@ -257,6 +271,20 @@
   "pokedex": [
     "cobblemon.species.epochseadraone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "seadra_epochtwo_kingdra",
+      "variant": "item_interact",
+      "result": "epochtwo kingdra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:swarm_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
@@ -265,12 +293,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 45,
-    "defence": 65,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 105,
-    "speed": 85
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 12,
   "weight": 250,

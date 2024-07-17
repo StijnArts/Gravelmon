@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGligar extends drai.dev.data.pokemon.Pokemon {
     public EpochGligar(String name, Aspect aspect) {
-        super(name, aspect,"EpochGligar",
+        super(name, aspect, "EpochGligar",
                 Type.ROCK,Type.DRAGON,
                 new Stats(85,
                         75,
@@ -67,13 +67,14 @@ public class EpochGligar extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.INNER_FOCUS,Ability.BATTLE_ARMOR), Ability.SOLID_ROCK,
                 11, 648,
-                new Stats(85,75,1,55,35,75), 100,
+                new Stats(0,0,1,0,0,0), 100,
                 0.5,
                 86, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It can enter into a state of perfect stillness that it can fool people into thinking it is really a statue."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gliscor", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:solid_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -190,13 +191,14 @@ public class EpochGligar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POISON_FANG,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 33, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Gligar");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPidgeot extends drai.dev.data.pokemon.Pokemon {
     public EpochPidgeot(String name, Aspect aspect) {
-        super(name, aspect,"EpochPidgeot",
+        super(name, aspect, "EpochPidgeot",
                 Type.ICE,Type.FLYING,
                 new Stats(83,
                         60,
@@ -67,7 +67,7 @@ public class EpochPidgeot extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.KEEN_EYE,Ability.REFRIGERATE), Ability.GALE_WINGS,
                 15, 395,
-                new Stats(83,60,75,101,90,3), 90,
+                new Stats(0,0,0,0,0,3), 90,
                 0.5,
                 216, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -153,13 +153,14 @@ public class EpochPidgeot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Pidgeot");
 
     }

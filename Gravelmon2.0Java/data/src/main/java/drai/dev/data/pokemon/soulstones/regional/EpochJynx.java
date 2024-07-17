@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochJynx extends drai.dev.data.pokemon.Pokemon {
     public EpochJynx(String name, Aspect aspect) {
-        super(name, aspect,"EpochJynx",
+        super(name, aspect, "EpochJynx",
                 Type.SOUND,Type.ICE,
                 new Stats(85,
                         35,
@@ -67,7 +67,7 @@ public class EpochJynx extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.COMPETITIVE,Ability.OBLIVIOUS), Ability.PUNK_ROCK,
                 14, 406,
-                new Stats(85,35,50,2,95,95), 90,
+                new Stats(0,0,0,2,0,0), 90,
                 0.0,
                 159, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -169,8 +169,8 @@ public class EpochJynx extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 47, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

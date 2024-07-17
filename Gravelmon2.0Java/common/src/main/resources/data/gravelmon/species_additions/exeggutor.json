@@ -3,7 +3,7 @@
    "forms": [{
   "name": "Epoch",
   "primaryType": "electric",
-  "secondaryType": "poison",
+  "secondaryType": "nuclear",
   "abilities": [
     "levitate",
     "static",
@@ -124,12 +124,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 85,
-    "attack": 65,
-    "defence": 70,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 115,
-    "speed": 75
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 20,
   "weight": 1200,
@@ -262,12 +262,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 95,
-    "attack": 100,
-    "defence": 75,
-    "special_attack": 105,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 2,
-    "speed": 105
+    "speed": 0
   },
   "height": 20,
   "weight": 1200,

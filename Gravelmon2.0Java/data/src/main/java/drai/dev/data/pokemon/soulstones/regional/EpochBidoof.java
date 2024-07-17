@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBidoof extends drai.dev.data.pokemon.Pokemon {
     public EpochBidoof(String name, Aspect aspect) {
-        super(name, aspect,"EpochBidoof",
+        super(name, aspect, "EpochBidoof",
                 Type.WATER,Type.NORMAL,
                 new Stats(69,
                         65,
@@ -67,13 +67,14 @@ public class EpochBidoof extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.SUPER_LUCK,Ability.PICKUP), Ability.SIMPLE,
                 5, 200,
-                new Stats(1,65,35,26,25,35), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("It likes to build small structures on water using logs, tree branches, and leaves."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch bibarel", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,44),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,47),

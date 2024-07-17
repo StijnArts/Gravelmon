@@ -114,6 +114,22 @@
   "pokedex": [
     "cobblemon.species.epochmagnemite.desc"
   ],
+  "evolutions": [
+    {
+      "id": "magnemite_epoch_magneton",
+      "variant": "level_up",
+      "result": "epoch magneton",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -122,12 +138,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 25,
-    "attack": 35,
-    "defence": 70,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 95,
-    "speed": 55
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 60,
@@ -252,6 +268,22 @@
   "pokedex": [
     "cobblemon.species.epochmagnemiteone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "magnemite_epochtwo_magneton",
+      "variant": "level_up",
+      "result": "epochtwo magneton",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -260,12 +292,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 15,
-    "defence": 70,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 85,
-    "speed": 65
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 60,

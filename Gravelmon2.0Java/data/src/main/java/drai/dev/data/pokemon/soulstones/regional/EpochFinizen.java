@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFinizen extends drai.dev.data.pokemon.Pokemon {
     public EpochFinizen(String name, Aspect aspect) {
-        super(name, aspect,"EpochFinizen",
+        super(name, aspect, "EpochFinizen",
                 Type.ICE,Type.WATER,
                 new Stats(80,
                         60,
@@ -67,13 +67,14 @@ public class EpochFinizen extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.WATER_VEIL,Ability.GENIUS), Ability.PUREHEART,
                 13, 602,
-                new Stats(80,60,60,90,35,1), 200,
+                new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 63, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_2),
                 List.of("Its curiosity often leads it to wander easily as it follows ships before it realizes that it has been separated from the rest of its pod."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch palafin", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,15),
                         new MoveLearnSetEntry(Move.ENCORE,42),

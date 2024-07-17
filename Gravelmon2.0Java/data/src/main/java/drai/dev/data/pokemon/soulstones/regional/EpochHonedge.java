@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHonedge extends drai.dev.data.pokemon.Pokemon {
     public EpochHonedge(String name, Aspect aspect) {
-        super(name, aspect,"EpochHonedge",
+        super(name, aspect, "EpochHonedge",
                 Type.FAIRY,
                 new Stats(45,
                         35,
@@ -67,13 +67,14 @@ public class EpochHonedge extends drai.dev.data.pokemon.Pokemon {
                         67),
                 List.of(Ability.TELEPATHY,Ability.MAGIC_GUARD), Ability.MEGA_LAUNCHER,
                 8, 20,
-                new Stats(45,35,60,1,50,67), 222,
+                new Stats(0,0,0,1,0,0), 222,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It appears in multiple different weapon formats within the Orion region to allow its owner the flexibility in case they are not skilled in one specific weapon."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch doublade", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICKSPELL,1),
                         new MoveLearnSetEntry(Move.REFLECT,40),

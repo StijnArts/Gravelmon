@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLapras extends drai.dev.data.pokemon.Pokemon {
     public EpochLapras(String name, Aspect aspect) {
-        super(name, aspect,"EpochLapras",
+        super(name, aspect, "EpochLapras",
                 Type.FIRE,Type.ROCK,
                 new Stats(130,
                         85,
@@ -67,7 +67,7 @@ public class EpochLapras extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.STORM_DRAIN,Ability.WATER_COMPACTION), Ability.WATER_ABSORB,
                 25, 2200,
-                new Stats(2,85,80,60,85,95), 90,
+                new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 187, ExperienceGroup.SLOW,
                 70,
@@ -169,13 +169,14 @@ public class EpochLapras extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOIL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 46, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.LAVA_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
            setLangFileName("Lapras");
 
     }

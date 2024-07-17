@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNinjask extends drai.dev.data.pokemon.Pokemon {
     public EpochNinjask(String name, Aspect aspect) {
-        super(name, aspect,"EpochNinjask",
+        super(name, aspect, "EpochNinjask",
                 Type.DARK,Type.BUG,
                 new Stats(65,
                         90,
@@ -67,7 +67,7 @@ public class EpochNinjask extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.INFILTRATOR,Ability.DEFIANT), Ability.SPEED_BOOST,
                 8, 120,
-                new Stats(65,90,50,160,45,2), 120,
+                new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 160, ExperienceGroup.ERRATIC,
                 70,

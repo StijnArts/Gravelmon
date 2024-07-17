@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCranidos extends drai.dev.data.pokemon.Pokemon {
     public EpochCranidos(String name, Aspect aspect) {
-        super(name, aspect,"EpochCranidos",
+        super(name, aspect, "EpochCranidos",
                 Type.DRAGON,
                 new Stats(67,
                         105,
@@ -67,13 +67,14 @@ public class EpochCranidos extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.INTIMIDATE,Ability.STEELWORKER), Ability.SHEER_FORCE,
                 9, 315,
-                new Stats(67,1,40,78,30,30), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 70, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with headbutts."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch rampardos", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,24),
                         new MoveLearnSetEntry(Move.FRENZY,56),

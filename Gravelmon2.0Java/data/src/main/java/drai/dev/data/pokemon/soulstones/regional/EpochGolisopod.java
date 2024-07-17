@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGolisopod extends drai.dev.data.pokemon.Pokemon {
     public EpochGolisopod(String name, Aspect aspect) {
-        super(name, aspect,"EpochGolisopod",
+        super(name, aspect, "EpochGolisopod",
                 Type.BUG,Type.POISON,
                 new Stats(100,
                         115,
@@ -67,7 +67,7 @@ public class EpochGolisopod extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.MERCILESS,Ability.HYPER_CUTTER), Ability.SHED_SKIN,
                 20, 1080,
-                new Stats(100,115,2,100,35,90), 90,
+                new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 186, ExperienceGroup.MEDIUM_FAST,
                 70,

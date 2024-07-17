@@ -136,6 +136,22 @@
   "pokedex": [
     "cobblemon.species.epochgrovyle.desc"
   ],
+  "evolutions": [
+    {
+      "id": "grovyle_epoch_sceptile",
+      "variant": "level_up",
+      "result": "epoch sceptile",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -144,12 +160,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
+    "hp": 0,
     "attack": 1,
-    "defence": 75,
-    "special_attack": 85,
-    "special_defence": 50,
-    "speed": 50
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 9,
   "weight": 216,

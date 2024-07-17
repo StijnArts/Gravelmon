@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkorupi extends drai.dev.data.pokemon.Pokemon {
     public EpochSkorupi(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkorupi",
+        super(name, aspect, "EpochSkorupi",
                 Type.GROUND,Type.POISON,
                 new Stats(40,
                         50,
@@ -67,13 +67,14 @@ public class EpochSkorupi extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SHEER_FORCE,Ability.SNIPER), Ability.POISON_POINT,
                 8, 120,
-                new Stats(40,50,1,65,30,55), 120,
+                new Stats(0,0,1,0,0,0), 120,
                 0.5,
                 66, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It buries into the sand awaiting potential prey and when they are exactly above, will jump out and sting them to immobilize and disable their target."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch drapion", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_TOMB,6),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,18),

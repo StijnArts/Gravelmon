@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGlaceon extends drai.dev.data.pokemon.Pokemon {
     public EpochGlaceon(String name, Aspect aspect) {
-        super(name, aspect,"EpochGlaceon",
+        super(name, aspect, "EpochGlaceon",
                 Type.ROCK,
                 new Stats(120,
                         110,
@@ -67,7 +67,7 @@ public class EpochGlaceon extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.WONDER_SKIN,Ability.SOLID_ROCK), Ability.ADAPTABILITY,
                 8, 259,
-                new Stats(120,1,60,65,110,60), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.875,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -207,16 +207,13 @@ public class EpochGlaceon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                    new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Glaceon");
-
     }
-
-
 }

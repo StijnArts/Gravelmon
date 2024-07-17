@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLuxio extends drai.dev.data.pokemon.Pokemon {
     public EpochLuxio(String name, Aspect aspect) {
-        super(name, aspect,"EpochLuxio",
+        super(name, aspect, "EpochLuxio",
                 Type.DARK,Type.DRAGON,
                 new Stats(70,
                         65,
@@ -67,13 +67,14 @@ public class EpochLuxio extends drai.dev.data.pokemon.Pokemon {
                         59),
                 List.of(Ability.REALISM,Ability.GUTS), Ability.TOUGH_CLAWS,
                 9, 305,
-                new Stats(70,2,59,70,40,59), 120,
+                new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 127, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Because its wings are not fully developed, it relies on its speed and toxic fangs to protect itself from would-be predators."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch luxray", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),
                         new MoveLearnSetEntry(Move.DRAGONBLOOD,1),

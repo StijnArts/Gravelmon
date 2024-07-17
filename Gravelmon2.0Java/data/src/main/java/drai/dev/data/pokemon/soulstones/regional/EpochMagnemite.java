@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagnemite extends drai.dev.data.pokemon.Pokemon {
     public EpochMagnemite(String name, Aspect aspect) {
-        super(name, aspect,"EpochMagnemite",
+        super(name, aspect, "EpochMagnemite",
                 Type.COSMIC,Type.STEEL,
                 new Stats(25,
                         35,
@@ -67,13 +67,14 @@ public class EpochMagnemite extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.FRISK,Ability.TRANSISTOR), Ability.MAGNET_PULL,
                 3, 60,
-                new Stats(25,35,70,1,95,55), 150,
+                new Stats(0,0,0,1,0,0), 150,
                 -1.0,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is sent out by the primary Magnezone mothership as a small observer to study certain environments, take samples and return."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch magneton", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LOCKON,57),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,7),
@@ -161,9 +162,8 @@ public class EpochMagnemite extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WONDER_ROOM,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 9, 32, 5.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

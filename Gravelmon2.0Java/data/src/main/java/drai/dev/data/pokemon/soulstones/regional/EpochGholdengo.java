@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGholdengo extends drai.dev.data.pokemon.Pokemon {
     public EpochGholdengo(String name, Aspect aspect) {
-        super(name, aspect,"EpochGholdengo",
+        super(name, aspect, "EpochGholdengo",
                 Type.BUG,Type.GROUND,
                 new Stats(127,
                         133,
@@ -67,7 +67,7 @@ public class EpochGholdengo extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.HIVEBODY,Ability.SAND_FORCE), Ability.ARENA_TRAP,
                 14, 980,
-                new Stats(127,2,110,25,50,105), 95,
+                new Stats(0,2,0,0,0,0), 95,
                 -1.0,
                 275, ExperienceGroup.SLOW,
                 70,

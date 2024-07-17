@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBasculegion extends drai.dev.data.pokemon.Pokemon {
     public EpochBasculegion(String name, Aspect aspect) {
-        super(name, aspect,"EpochBasculegion",
+        super(name, aspect, "EpochBasculegion",
                 Type.DRAGON,Type.GHOST,
                 new Stats(90,
                         122,
@@ -67,7 +67,7 @@ public class EpochBasculegion extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.SWIFT_SWIM,Ability.INNER_FOCUS), Ability.ADAPTABILITY,
                 10, 180,
-                new Stats(90,2,90,113,55,60), 85,
+                new Stats(0,2,0,0,0,0), 85,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,

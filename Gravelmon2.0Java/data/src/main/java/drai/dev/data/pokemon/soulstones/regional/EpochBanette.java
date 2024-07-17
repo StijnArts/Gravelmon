@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBanette extends drai.dev.data.pokemon.Pokemon {
     public EpochBanette(String name, Aspect aspect) {
-        super(name, aspect,"EpochBanette",
+        super(name, aspect, "EpochBanette",
                 Type.FAIRY,Type.DARK,
                 new Stats(74,
                         120,
@@ -67,7 +67,7 @@ public class EpochBanette extends drai.dev.data.pokemon.Pokemon {
                         63),
                 List.of(Ability.DISARRAY,Ability.INFILTRATOR), Ability.PRANKSTER,
                 11, 125,
-                new Stats(74,2,55,80,63,63), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 159, ExperienceGroup.FAST,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochArchen extends drai.dev.data.pokemon.Pokemon {
     public EpochArchen(String name, Aspect aspect) {
-        super(name, aspect,"EpochArchen",
+        super(name, aspect, "EpochArchen",
                 Type.ELECTRIC,Type.DRAGON,
                 new Stats(55,
                         74,
@@ -67,13 +67,14 @@ public class EpochArchen extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.GALE_WINGS,Ability.STATIC), Ability.VOLT_ABSORB,
                 5, 95,
-                new Stats(55,74,55,1,92,55), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.875,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.DRAGON),
                 List.of("This Pokémon was successfully restored from a fossil. It was said that its wing flaps could cause thunder claps in ancient times."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch archeops", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,44),
                         new MoveLearnSetEntry(Move.HURRICANE,54),

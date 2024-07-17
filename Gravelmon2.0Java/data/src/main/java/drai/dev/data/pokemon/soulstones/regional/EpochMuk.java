@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMuk extends drai.dev.data.pokemon.Pokemon {
     public EpochMuk(String name, Aspect aspect) {
-        super(name, aspect,"EpochMuk",
+        super(name, aspect, "EpochMuk",
                 Type.GRASS,Type.GROUND,
                 new Stats(70,
                         60,
@@ -67,7 +67,7 @@ public class EpochMuk extends drai.dev.data.pokemon.Pokemon {
                         150),
                 List.of(Ability.LIQUID_OOZE,Ability.RAIN_DISH), Ability.WATER_COMPACTION,
                 12, 300,
-                new Stats(70,60,2,10,60,150), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -165,8 +165,8 @@ public class EpochMuk extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 51, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -112,6 +112,22 @@
   "pokedex": [
     "cobblemon.species.epochherdier.desc"
   ],
+  "evolutions": [
+    {
+      "id": "herdier_epoch_stoutland",
+      "variant": "level_up",
+      "result": "epoch stoutland",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -120,12 +136,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 75,
+    "hp": 0,
     "attack": 2,
-    "defence": 65,
-    "special_attack": 80,
-    "special_defence": 25,
-    "speed": 65
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 9,
   "weight": 147,

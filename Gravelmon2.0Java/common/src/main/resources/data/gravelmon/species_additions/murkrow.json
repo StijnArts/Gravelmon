@@ -123,6 +123,20 @@
   "pokedex": [
     "cobblemon.species.epochmurkrow.desc"
   ],
+  "evolutions": [
+    {
+      "id": "murkrow_epoch_honchkrow",
+      "variant": "item_interact",
+      "result": "epoch honchkrow",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:air_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -131,12 +145,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 81,
-    "attack": 70,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 54,
-    "special_defence": 30,
-    "speed": 85
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 5,
   "weight": 21,
@@ -282,6 +296,20 @@
   "pokedex": [
     "cobblemon.species.epochmurkrowone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "murkrow_epochtwo_honchkrow",
+      "variant": "item_interact",
+      "result": "epochtwo honchkrow",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -290,11 +318,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
-    "attack": 75,
-    "defence": 57,
-    "special_attack": 81,
-    "special_defence": 75,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 5,

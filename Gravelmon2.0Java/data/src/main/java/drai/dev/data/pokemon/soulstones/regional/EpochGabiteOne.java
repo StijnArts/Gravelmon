@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGabiteOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGabiteOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGabiteOne",
+        super(name, aspect, "EpochGabiteOne",
                 Type.WATER,Type.DRAGON,
                 new Stats(77,
                         68,
@@ -67,13 +67,14 @@ public class EpochGabiteOne extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.ROUGH_SKIN,Ability.STAKEOUT), Ability.INTIMIDATE,
                 14, 560,
-                new Stats(77,2,60,90,50,65), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 144, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("T.Gabites are able to perform various tricks and often included as part of circus troupes for aquatic stunts."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo garchomp", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGONFURY,6),
                         new MoveLearnSetEntry(Move.FLIP_TURN,36),

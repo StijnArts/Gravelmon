@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMightyena extends drai.dev.data.pokemon.Pokemon {
     public EpochMightyena(String name, Aspect aspect) {
-        super(name, aspect,"EpochMightyena",
+        super(name, aspect, "EpochMightyena",
                 Type.ICE,
                 new Stats(70,
                         100,
@@ -67,7 +67,7 @@ public class EpochMightyena extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.INTIMIDATE,Ability.MOXIE), Ability.STRONG_JAW,
                 10, 370,
-                new Stats(70,2,70,80,40,60), 127,
+                new Stats(0,2,0,0,0,0), 127,
                 0.5,
                 147, ExperienceGroup.MEDIUM_FAST,
                 70,

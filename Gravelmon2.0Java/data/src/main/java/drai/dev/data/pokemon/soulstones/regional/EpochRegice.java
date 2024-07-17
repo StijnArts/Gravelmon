@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRegice extends drai.dev.data.pokemon.Pokemon {
     public EpochRegice(String name, Aspect aspect) {
-        super(name, aspect,"EpochRegice",
+        super(name, aspect, "EpochRegice",
                 Type.GRASS,
                 new Stats(105,
                         100,
@@ -67,7 +67,7 @@ public class EpochRegice extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.ROUGH_SKIN,Ability.OVERCOAT), Ability.OVERGROW,
                 18, 1750,
-                new Stats(105,100,3,50,25,100), 75,
+                new Stats(0,0,3,0,0,0), 75,
                 -1.0,
                 261, ExperienceGroup.SLOW,
                 70,

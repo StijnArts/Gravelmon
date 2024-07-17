@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBibarel extends drai.dev.data.pokemon.Pokemon {
     public EpochBibarel(String name, Aspect aspect) {
-        super(name, aspect,"EpochBibarel",
+        super(name, aspect, "EpochBibarel",
                 Type.WATER,Type.GROUND,
                 new Stats(89,
                         95,
@@ -67,7 +67,7 @@ public class EpochBibarel extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.SUPER_LUCK,Ability.PARENTAL_BOND), Ability.SIMPLE,
                 10, 315,
-                new Stats(89,2,70,61,45,50), 127,
+                new Stats(0,2,0,0,0,0), 127,
                 0.5,
                 144, ExperienceGroup.MEDIUM_FAST,
                 70,

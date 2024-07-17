@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHitmonchan extends drai.dev.data.pokemon.Pokemon {
     public EpochHitmonchan(String name, Aspect aspect) {
-        super(name, aspect,"EpochHitmonchan",
+        super(name, aspect, "EpochHitmonchan",
                 Type.FIRE,Type.FIGHTING,
                 new Stats(75,
                         80,
@@ -67,7 +67,7 @@ public class EpochHitmonchan extends drai.dev.data.pokemon.Pokemon {
                         96),
                 List.of(Ability.IRON_FIST,Ability.QUICK_FEET), Ability.NO_GUARD,
                 14, 502,
-                new Stats(75,80,1,70,35,96), 100,
+                new Stats(0,0,1,0,0,0), 100,
                 1.0,
                 159, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -158,9 +158,8 @@ public class EpochHitmonchan extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

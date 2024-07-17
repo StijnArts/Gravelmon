@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSurskitOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSurskitOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSurskitOne",
+        super(name, aspect, "EpochSurskitOne",
                 Type.GRASS,Type.FLYING,
                 new Stats(40,
                         30,
@@ -67,13 +67,14 @@ public class EpochSurskitOne extends drai.dev.data.pokemon.Pokemon {
                         52),
                 List.of(Ability.FLOWER_VEIL,Ability.TRIAGE), Ability.REGENERATOR,
                 5, 17,
-                new Stats(40,30,32,65,50,1), 200,
+                new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It masks itself as a seed of a larger fruit but it is actually a scavenger that likes to eat a lot of that fruit."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo masquerain", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,4),
                         new MoveLearnSetEntry(Move.PETAL_DANCE,54),

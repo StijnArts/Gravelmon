@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShroomish extends drai.dev.data.pokemon.Pokemon {
     public EpochShroomish(String name, Aspect aspect) {
-        super(name, aspect,"EpochShroomish",
+        super(name, aspect, "EpochShroomish",
                 Type.STEEL,
                 new Stats(60,
                         40,
@@ -67,13 +67,14 @@ public class EpochShroomish extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.SOUNDPROOF,Ability.AFTERMATH), Ability.CLEAR_BODY,
                 4, 45,
-                new Stats(1,40,70,35,40,70), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 59, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It was used in civil wars and planted in the jungle where rebels would hide. Due to its unsuspecting appearance, many rebels would step on them and set off the mine."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch breloom", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEEPINGWIND,39),
                         new MoveLearnSetEntry(Move.SONIC_BOOM,10),
@@ -156,11 +157,11 @@ public class EpochShroomish extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOMBARDMENT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Shroomish");

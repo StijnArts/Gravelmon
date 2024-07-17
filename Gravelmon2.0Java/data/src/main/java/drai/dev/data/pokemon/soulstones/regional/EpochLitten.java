@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLitten extends drai.dev.data.pokemon.Pokemon {
     public EpochLitten(String name, Aspect aspect) {
-        super(name, aspect,"EpochLitten",
+        super(name, aspect, "EpochLitten",
                 Type.FIGHTING,Type.COSMIC,
                 new Stats(50,
                         70,
@@ -67,13 +67,14 @@ public class EpochLitten extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.STEADFAST,Ability.SCRAPPY), Ability.TOUGH_CLAWS,
                 4, 43,
-                new Stats(50,70,40,70,50,1), 90,
+                new Stats(0,0,0,0,0,1), 90,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The scarf that is tied around its eyes is to help it enhance its other senses, making it a more adept fighter."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch torracat", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SKY_UPPERCUT,37),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,14),

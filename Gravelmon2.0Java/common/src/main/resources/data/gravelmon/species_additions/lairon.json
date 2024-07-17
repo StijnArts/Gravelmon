@@ -126,6 +126,20 @@
   "pokedex": [
     "cobblemon.species.epochlairon.desc"
   ],
+  "evolutions": [
+    {
+      "id": "lairon_epoch_aggron",
+      "variant": "item_interact",
+      "result": "epoch aggron",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:swarm_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -134,12 +148,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 70,
-    "attack": 90,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 45,
-    "special_defence": 50,
-    "speed": 80
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 9,
   "weight": 1200,

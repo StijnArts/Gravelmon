@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBayleefOne extends drai.dev.data.pokemon.Pokemon {
     public EpochBayleefOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochBayleefOne",
+        super(name, aspect, "EpochBayleefOne",
                 Type.ELECTRIC,Type.STEEL,
                 new Stats(80,
                         62,
@@ -67,13 +67,14 @@ public class EpochBayleefOne extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.LIGHTNING_ROD,Ability.SURGE_SURFER), Ability.MAGNET_PULL,
                 12, 158,
-                new Stats(1,62,70,60,63,70), 90,
+                new Stats(1,0,0,0,0,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("When it thunder storms, this Pokemon can use the electrical rod on its head to attract certain electrical attacks."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo meganium", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_GLOW,46),
                         new MoveLearnSetEntry(Move.REFLECT,21),
@@ -163,9 +164,8 @@ public class EpochBayleefOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

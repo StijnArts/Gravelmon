@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVaporeon extends drai.dev.data.pokemon.Pokemon {
     public EpochVaporeon(String name, Aspect aspect) {
-        super(name, aspect,"EpochVaporeon",
+        super(name, aspect, "EpochVaporeon",
                 Type.GROUND,
                 new Stats(140,
                         120,
@@ -67,7 +67,7 @@ public class EpochVaporeon extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SAND_VEIL,Ability.ARENA_TRAP), Ability.EMERGENCY_EXIT,
                 10, 290,
-                new Stats(2,120,100,60,50,55), 100,
+                new Stats(2,0,0,0,0,0), 100,
                 0.875,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -170,8 +170,8 @@ public class EpochVaporeon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

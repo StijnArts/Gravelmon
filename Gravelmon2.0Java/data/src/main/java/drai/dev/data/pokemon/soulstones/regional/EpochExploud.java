@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochExploud extends drai.dev.data.pokemon.Pokemon {
     public EpochExploud(String name, Aspect aspect) {
-        super(name, aspect,"EpochExploud",
+        super(name, aspect, "EpochExploud",
                 Type.ELECTRIC,Type.SOUND,
                 new Stats(104,
                         56,
@@ -67,7 +67,7 @@ public class EpochExploud extends drai.dev.data.pokemon.Pokemon {
                         73),
                 List.of(Ability.MOTOR_DRIVE,Ability.CACOPHONY), Ability.BATTERY,
                 15, 840,
-                new Stats(3,56,63,88,106,73), 90,
+                new Stats(3,0,0,0,0,0), 90,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
                 70,

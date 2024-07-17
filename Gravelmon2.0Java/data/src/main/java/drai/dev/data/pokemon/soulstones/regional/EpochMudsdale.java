@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMudsdale extends drai.dev.data.pokemon.Pokemon {
     public EpochMudsdale(String name, Aspect aspect) {
-        super(name, aspect,"EpochMudsdale",
+        super(name, aspect, "EpochMudsdale",
                 Type.NORMAL,
                 new Stats(100,
                         115,
@@ -67,7 +67,7 @@ public class EpochMudsdale extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.TANGLING_HAIR,Ability.SCRAPPY), Ability.RECKLESS,
                 25, 9200,
-                new Stats(100,2,100,55,55,75), 123,
+                new Stats(0,2,0,0,0,0), 123,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,

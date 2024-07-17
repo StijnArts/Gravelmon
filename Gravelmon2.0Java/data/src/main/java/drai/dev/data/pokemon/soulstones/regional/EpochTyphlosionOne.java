@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTyphlosionOne extends drai.dev.data.pokemon.Pokemon {
     public EpochTyphlosionOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochTyphlosionOne",
+        super(name, aspect, "EpochTyphlosionOne",
                 Type.ICE,
                 new Stats(98,
                         64,
@@ -67,7 +67,7 @@ public class EpochTyphlosionOne extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.REFRIGERATE,Ability.SNOW_CLOAK), Ability.ICYVEINS,
                 17, 795,
-                new Stats(98,64,78,3,100,85), 90,
+                new Stats(0,0,0,3,0,0), 90,
                 0.875,
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -154,9 +154,8 @@ public class EpochTyphlosionOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

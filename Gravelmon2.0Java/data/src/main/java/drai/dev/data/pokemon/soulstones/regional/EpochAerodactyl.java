@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAerodactyl extends drai.dev.data.pokemon.Pokemon {
     public EpochAerodactyl(String name, Aspect aspect) {
-        super(name, aspect,"EpochAerodactyl",
+        super(name, aspect, "EpochAerodactyl",
                 Type.DRAGON,Type.FLYING,
                 new Stats(80,
                         105,
@@ -67,7 +67,7 @@ public class EpochAerodactyl extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.INTIMIDATE,Ability.INNER_FOCUS), Ability.SPEED_BOOST,
                 18, 590,
-                new Stats(80,105,65,130,60,2), 100,
+                new Stats(0,0,0,0,0,2), 100,
                 0.875,
                 180, ExperienceGroup.SLOW,
                 70,
@@ -159,13 +159,14 @@ public class EpochAerodactyl extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_SLIDE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Aerodactyl");
 
     }

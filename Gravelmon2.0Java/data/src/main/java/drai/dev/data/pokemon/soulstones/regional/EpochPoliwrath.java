@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPoliwrath extends drai.dev.data.pokemon.Pokemon {
     public EpochPoliwrath(String name, Aspect aspect) {
-        super(name, aspect,"EpochPoliwrath",
+        super(name, aspect, "EpochPoliwrath",
                 Type.WATER,Type.GROUND,
                 new Stats(105,
                         95,
@@ -67,7 +67,7 @@ public class EpochPoliwrath extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.DRY_SKIN,Ability.LIQUID_VOICE), Ability.SWIFT_SWIM,
                 13, 540,
-                new Stats(2,95,75,70,90,75), 100,
+                new Stats(2,0,0,0,0,0), 100,
                 0.5,
                 230, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -178,9 +178,8 @@ public class EpochPoliwrath extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSeadraOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSeadraOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSeadraOne",
+        super(name, aspect, "EpochSeadraOne",
                 Type.BUG,Type.FLYING,
                 new Stats(55,
                         45,
@@ -67,13 +67,14 @@ public class EpochSeadraOne extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.COMPOUND_EYES,Ability.INTIMIDATE), Ability.SWARM,
                 12, 250,
-                new Stats(55,45,65,1,105,85), 75,
+                new Stats(0,0,0,1,0,0), 75,
                 0.5,
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FLYING),
                 List.of("They roam around in small swarms to appear more threatening. They are capable of applying some deadly stings to anyone that irritates them."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo kingdra", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,42),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -162,14 +163,20 @@ public class EpochSeadraOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 27, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Seadra");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+
+        setCanFly(true);
+
+        setLangFileName("Seadra");
 
     }
 

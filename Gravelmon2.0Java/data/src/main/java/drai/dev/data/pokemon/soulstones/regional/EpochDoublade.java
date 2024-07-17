@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDoublade extends drai.dev.data.pokemon.Pokemon {
     public EpochDoublade(String name, Aspect aspect) {
-        super(name, aspect,"EpochDoublade",
+        super(name, aspect, "EpochDoublade",
                 Type.FAIRY,
                 new Stats(64,
                         60,
@@ -67,13 +67,14 @@ public class EpochDoublade extends drai.dev.data.pokemon.Pokemon {
                         89),
                 List.of(Ability.TELEPATHY,Ability.MAGIC_GUARD), Ability.MEGA_LAUNCHER,
                 8, 20,
-                new Stats(64,60,75,2,70,89), 222,
+                new Stats(0,0,0,2,0,0), 222,
                 0.5,
                 157, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("The different weapon formats it appears in is dependent on the inherent skill level of the person wielding them."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch aegislash", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICKSPELL,1),
                         new MoveLearnSetEntry(Move.REFLECT,40),

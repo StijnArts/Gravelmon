@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSeel extends drai.dev.data.pokemon.Pokemon {
     public EpochSeel(String name, Aspect aspect) {
-        super(name, aspect,"EpochSeel",
+        super(name, aspect, "EpochSeel",
                 Type.WATER,Type.GROUND,
                 new Stats(85,
                         40,
@@ -67,13 +67,14 @@ public class EpochSeel extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.UNAWARE,Ability.SOUNDPROOF), Ability.THICK_FAT,
                 11, 1800,
-                new Stats(1,40,60,25,45,75), 190,
+                new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("It lazes about on small islands when it tires of diving for food. It spends most of its day eating and sleeping."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dewgong", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,13),
                         new MoveLearnSetEntry(Move.ENCORE,7),
@@ -170,13 +171,15 @@ public class EpochSeel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUAKESLAM,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 11, 32, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_BEACH))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Seel");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagmar extends drai.dev.data.pokemon.Pokemon {
     public EpochMagmar(String name, Aspect aspect) {
-        super(name, aspect,"EpochMagmar",
+        super(name, aspect, "EpochMagmar",
                 Type.WATER,Type.ICE,
                 new Stats(93,
                         90,
@@ -67,13 +67,14 @@ public class EpochMagmar extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.ICE_BODY,Ability.ICYVEINS), Ability.MEGA_LAUNCHER,
                 13, 445,
-                new Stats(1,90,74,78,90,70), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.25,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It can be found both on frozen tundra, glaciers and in frozen oceans roaming in isolation."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch magmortar", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,22),
                         new MoveLearnSetEntry(Move.DARK_PULSE,33),
@@ -144,8 +145,8 @@ public class EpochMagmar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 45, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

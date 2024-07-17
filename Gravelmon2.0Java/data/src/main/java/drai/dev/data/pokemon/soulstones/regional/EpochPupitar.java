@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPupitar extends drai.dev.data.pokemon.Pokemon {
     public EpochPupitar(String name, Aspect aspect) {
-        super(name, aspect,"EpochPupitar",
+        super(name, aspect, "EpochPupitar",
                 Type.STEEL,Type.DRAGON,
                 new Stats(80,
                         84,
@@ -67,13 +67,14 @@ public class EpochPupitar extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.MAGNET_PULL,Ability.MOLD_BREAKER), Ability.HEAVY_METAL,
                 12, 1520,
-                new Stats(80,1,80,41,45,80), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 144, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("When it gets angry, it starts to overheat. Its inventor anticipated the need to create several exhaust vents to provide it ample avenues to let off heat."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch tyranitar", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,35),
                         new MoveLearnSetEntry(Move.DRACOSHRED,49),
@@ -159,9 +160,8 @@ public class EpochPupitar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 30, 53, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

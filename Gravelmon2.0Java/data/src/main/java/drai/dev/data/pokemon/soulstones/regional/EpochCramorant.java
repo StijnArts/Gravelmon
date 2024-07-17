@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCramorant extends drai.dev.data.pokemon.Pokemon {
     public EpochCramorant(String name, Aspect aspect) {
-        super(name, aspect,"EpochCramorant",
+        super(name, aspect, "EpochCramorant",
                 Type.NORMAL,Type.FLYING,
                 new Stats(70,
                         105,
@@ -67,7 +67,7 @@ public class EpochCramorant extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SNIPER,Ability.OWN_TEMPO), Ability.BIG_PECKS,
                 8, 180,
-                new Stats(70,105,2,85,65,55), 90,
+                new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,

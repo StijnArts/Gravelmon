@@ -109,6 +109,20 @@
   "pokedex": [
     "cobblemon.species.epochstaryu.desc"
   ],
+  "evolutions": [
+    {
+      "id": "staryu_epoch_starmie",
+      "variant": "item_interact",
+      "result": "epoch starmie",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -117,12 +131,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 45,
-    "attack": 30,
-    "defence": 55,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 85,
-    "speed": 55
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 8,
   "weight": 345,

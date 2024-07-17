@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRoserade extends drai.dev.data.pokemon.Pokemon {
     public EpochRoserade(String name, Aspect aspect) {
-        super(name, aspect,"EpochRoserade",
+        super(name, aspect, "EpochRoserade",
                 Type.GROUND,Type.FAIRY,
                 new Stats(60,
                         125,
@@ -67,7 +67,7 @@ public class EpochRoserade extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.SHARPNESS,Ability.JUSTIFIED), Ability.DAZZLING,
                 9, 145,
-                new Stats(60,3,65,90,70,105), 75,
+                new Stats(0,3,0,0,0,0), 75,
                 0.0,
                 232, ExperienceGroup.MEDIUM_SLOW,
                 70,

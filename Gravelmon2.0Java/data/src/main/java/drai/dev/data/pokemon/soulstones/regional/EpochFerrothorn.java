@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFerrothorn extends drai.dev.data.pokemon.Pokemon {
     public EpochFerrothorn(String name, Aspect aspect) {
-        super(name, aspect,"EpochFerrothorn",
+        super(name, aspect, "EpochFerrothorn",
                 Type.GRASS,
                 new Stats(74,
                         116,
@@ -67,7 +67,7 @@ public class EpochFerrothorn extends drai.dev.data.pokemon.Pokemon {
                         94),
                 List.of(Ability.IRON_BARBS,Ability.OVERGROW), Ability.POISON_POINT,
                 10, 1100,
-                new Stats(74,116,2,20,54,94), 90,
+                new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 171, ExperienceGroup.MEDIUM_FAST,
                 70,

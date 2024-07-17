@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDrakloak extends drai.dev.data.pokemon.Pokemon {
     public EpochDrakloak(String name, Aspect aspect) {
-        super(name, aspect,"EpochDrakloak",
+        super(name, aspect, "EpochDrakloak",
                 Type.STEEL,Type.FLYING,
                 new Stats(68,
                         60,
@@ -67,13 +67,14 @@ public class EpochDrakloak extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.WHITE_SMOKE,Ability.INFILTRATOR), Ability.WEAK_ARMOR,
                 14, 110,
-                new Stats(68,60,50,82,80,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 144, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Rather than seeking out immense speed, Drakloaks much prefer to perform tricks in the air and create various pictures in the cloud trails they form."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dragapult", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,24),
                         new MoveLearnSetEntry(Move.SHRAPNEL,32),

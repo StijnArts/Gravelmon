@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochScizor extends drai.dev.data.pokemon.Pokemon {
     public EpochScizor(String name, Aspect aspect) {
-        super(name, aspect,"EpochScizor",
+        super(name, aspect, "EpochScizor",
                 Type.LIGHT,Type.STEEL,
                 new Stats(70,
                         75,
@@ -67,7 +67,7 @@ public class EpochScizor extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.WHITEOUT,Ability.MEGA_LAUNCHER), Ability.TECHNICIAN,
                 18, 1180,
-                new Stats(70,75,90,2,90,90), 85,
+                new Stats(0,0,0,2,0,0), 85,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -172,9 +172,8 @@ public class EpochScizor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 39, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

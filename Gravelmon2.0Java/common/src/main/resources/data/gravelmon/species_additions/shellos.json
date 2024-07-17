@@ -119,6 +119,22 @@
   "pokedex": [
     "cobblemon.species.epochshellos.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epoch_gastrodon",
+      "variant": "level_up",
+      "result": "epoch gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -128,11 +144,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 48,
-    "defence": 58,
-    "special_attack": 24,
-    "special_defence": 50,
-    "speed": 69
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 63,
@@ -178,14 +194,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -275,6 +291,22 @@
   "pokedex": [
     "cobblemon.species.epochshellosone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epochone_gastrodon",
+      "variant": "level_up",
+      "result": "epochone gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -283,12 +315,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 64,
-    "attack": 40,
-    "defence": 40,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 75,
-    "speed": 59
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 63,
@@ -333,14 +365,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -425,6 +457,22 @@
   "pokedex": [
     "cobblemon.species.epochshellostwo.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epochtwo_gastrodon",
+      "variant": "level_up",
+      "result": "epochtwo gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -433,12 +481,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
-    "attack": 60,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 45,
-    "special_defence": 40,
-    "speed": 45
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 63,
@@ -484,14 +532,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -587,6 +635,22 @@
   "pokedex": [
     "cobblemon.species.epochshellosthree.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epochthree_gastrodon",
+      "variant": "level_up",
+      "result": "epochthree gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -595,11 +659,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 65,
-    "defence": 60,
-    "special_attack": 75,
-    "special_defence": 40,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 3,
@@ -646,14 +710,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -742,6 +806,22 @@
   "pokedex": [
     "cobblemon.species.epochshellosfour.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epochshellos_gastrodon",
+      "variant": "level_up",
+      "result": "epochshellos gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -750,12 +830,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
+    "hp": 0,
     "attack": 1,
-    "defence": 80,
-    "special_attack": 30,
-    "special_defence": 50,
-    "speed": 65
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 63,
@@ -801,14 +881,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -906,6 +986,22 @@
   "pokedex": [
     "cobblemon.species.epochshellosfive.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epochfive_gastrodon",
+      "variant": "level_up",
+      "result": "epochfive gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -914,12 +1010,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
-    "attack": 37,
-    "defence": 69,
-    "special_attack": 45,
-    "special_defence": 50,
-    "speed": 69
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 63,
@@ -965,14 +1061,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -1059,6 +1155,22 @@
   "pokedex": [
     "cobblemon.species.epochshellossix.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epochsix_gastrodon",
+      "variant": "level_up",
+      "result": "epochsix gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -1067,11 +1179,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
-    "attack": 60,
-    "defence": 45,
-    "special_attack": 65,
-    "special_defence": 60,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 3,
@@ -1118,14 +1230,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -1209,6 +1321,22 @@
   "pokedex": [
     "cobblemon.species.epochshellosseven.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epochseven_gastrodon",
+      "variant": "level_up",
+      "result": "epochseven gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -1217,12 +1345,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 64,
+    "hp": 0,
     "attack": 1,
-    "defence": 59,
-    "special_attack": 57,
-    "special_defence": 40,
-    "speed": 40
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 63,
@@ -1268,14 +1396,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -1364,6 +1492,22 @@
   "pokedex": [
     "cobblemon.species.epochshelloseight.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epocheight_gastrodon",
+      "variant": "level_up",
+      "result": "epocheight gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -1372,15 +1516,15 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 64,
-    "attack": 62,
-    "defence": 69,
-    "special_attack": 40,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 1,
-    "speed": 70
+    "speed": 0
   },
-  "height": 0,
-  "weight": 0,
+  "height": 3,
+  "weight": 63,
   "aspects": ["epochnine"],
   "cannotDynamax": false
 },
@@ -1423,14 +1567,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -1522,6 +1666,22 @@
   "pokedex": [
     "cobblemon.species.epochshellosnine.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epochnine_gastrodon",
+      "variant": "level_up",
+      "result": "epochnine gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -1530,12 +1690,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 64,
-    "attack": 30,
-    "defence": 50,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 76,
-    "speed": 45
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 63,
@@ -1581,14 +1741,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -1688,6 +1848,22 @@
   "pokedex": [
     "cobblemon.species.epochshellosten.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epochten_gastrodon",
+      "variant": "level_up",
+      "result": "epochten gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -1696,11 +1872,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 60,
-    "defence": 55,
-    "special_attack": 60,
-    "special_defence": 45,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 3,
@@ -1745,14 +1921,14 @@
         }
     }
   },
-  "catchRate": 100,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 166,
+  "baseExperienceYield": 65,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-    "monster",
+    "amorphous",
     "dragon"
   ],
   "moves": [
@@ -1843,6 +2019,22 @@
   "pokedex": [
     "cobblemon.species.epochshelloseleven.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shellos_epocheleven_gastrodon",
+      "variant": "level_up",
+      "result": "epocheleven gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -1851,12 +2043,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
-    "attack": 50,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 40,
-    "special_defence": 46,
-    "speed": 53
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 63,

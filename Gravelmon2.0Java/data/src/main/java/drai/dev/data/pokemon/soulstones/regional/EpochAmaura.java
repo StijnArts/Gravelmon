@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAmaura extends drai.dev.data.pokemon.Pokemon {
     public EpochAmaura(String name, Aspect aspect) {
-        super(name, aspect,"EpochAmaura",
+        super(name, aspect, "EpochAmaura",
                 Type.FAIRY,Type.DRAGON,
                 new Stats(82,
                         49,
@@ -67,13 +67,15 @@ public class EpochAmaura extends drai.dev.data.pokemon.Pokemon {
                         73),
                 List.of(Ability.FRIEND_GUARD,Ability.ATTUNEMENT), Ability.MULTISCALE,
                 13, 252,
-                new Stats(1,49,45,36,77,73), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.5,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It accompanies people that are lost in nightmares back to safety and away from danger. It uses its abilities to shield sleeping people from evil forces."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch aurorus", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37"),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AROMATIC_MIST,7),
                         new MoveLearnSetEntry(Move.CALM_MIND,44),

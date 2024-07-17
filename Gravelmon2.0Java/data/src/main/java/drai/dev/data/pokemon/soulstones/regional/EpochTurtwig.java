@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTurtwig extends drai.dev.data.pokemon.Pokemon {
     public EpochTurtwig(String name, Aspect aspect) {
-        super(name, aspect,"EpochTurtwig",
+        super(name, aspect, "EpochTurtwig",
                 Type.DRAGON,Type.FIRE,
                 new Stats(55,
                         68,
@@ -67,13 +67,14 @@ public class EpochTurtwig extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SOLID_ROCK,Ability.FLAME_BODY), Ability.SHELL_ARMOR,
                 4, 102,
-                new Stats(55,1,64,31,45,55), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("The volcanic formation on its back is relatively immature so the embers that are still hardening are very hot and occasionally smoke."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch grotle", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HEATSIPHON,35),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,5),

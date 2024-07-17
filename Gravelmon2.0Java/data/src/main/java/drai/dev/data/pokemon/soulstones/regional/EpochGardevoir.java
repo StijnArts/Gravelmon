@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGardevoir extends drai.dev.data.pokemon.Pokemon {
     public EpochGardevoir(String name, Aspect aspect) {
-        super(name, aspect,"EpochGardevoir",
+        super(name, aspect, "EpochGardevoir",
                 Type.DARK,Type.POISON,
                 new Stats(68,
                         65,
@@ -67,7 +67,7 @@ public class EpochGardevoir extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.SERENE_GRACE,Ability.STALWART), Ability.NOBILITY,
                 16, 484,
-                new Stats(68,65,65,3,125,105), 90,
+                new Stats(0,0,0,3,0,0), 90,
                 0.0,
                 233, ExperienceGroup.SLOW,
                 70,

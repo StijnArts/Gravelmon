@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSnom extends drai.dev.data.pokemon.Pokemon {
     public EpochSnom(String name, Aspect aspect) {
-        super(name, aspect,"EpochSnom",
+        super(name, aspect, "EpochSnom",
                 Type.ROCK,
                 new Stats(30,
                         25,
@@ -67,13 +67,14 @@ public class EpochSnom extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.WIMP_OUT,Ability.RUN_AWAY), Ability.SHED_SKIN,
                 3, 38,
-                new Stats(30,25,35,1,45,30), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 37, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Due to its small stature, it hides under rocks to avoid detection. If it is found, it uses its adorable appearance to convince predators to spare it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch frosmoth", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,15),

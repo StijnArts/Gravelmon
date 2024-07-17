@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDuosionOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDuosionOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDuosionOne",
+        super(name, aspect, "EpochDuosionOne",
                 Type.COSMIC,Type.POISON,
                 new Stats(60,
                         75,
@@ -67,13 +67,14 @@ public class EpochDuosionOne extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.GOOEY,Ability.OVERCOAT), Ability.ANALYTIC,
                 6, 80,
-                new Stats(60,1,60,35,80,60), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 130, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("When it has siphoned enough energy from its surroundings, it evolves and migrates to continue its parasitic lifecycle."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo reuniclus", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,18),
                         new MoveLearnSetEntry(Move.ACID,1),

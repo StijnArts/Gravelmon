@@ -117,6 +117,20 @@
   "pokedex": [
     "cobblemon.species.epochgraveler.desc"
   ],
+  "evolutions": [
+    {
+      "id": "graveler_epoch_golem",
+      "variant": "item_interact",
+      "result": "epoch golem",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -125,12 +139,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 70,
-    "attack": 85,
+    "hp": 0,
+    "attack": 0,
     "defence": 2,
-    "special_attack": 25,
-    "special_defence": 35,
-    "speed": 80
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 1600,
@@ -285,6 +299,19 @@
   "pokedex": [
     "cobblemon.species.epochgravelerone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "graveler_epochtwo_golem",
+      "variant": "trade",
+      "result": "epochtwo golem",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -293,12 +320,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 75,
-    "attack": 95,
+    "hp": 0,
+    "attack": 0,
     "defence": 2,
-    "special_attack": 20,
-    "special_defence": 25,
-    "speed": 95
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 1100,

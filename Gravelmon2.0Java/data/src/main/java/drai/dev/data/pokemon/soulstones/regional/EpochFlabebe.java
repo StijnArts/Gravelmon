@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFlabebe extends drai.dev.data.pokemon.Pokemon {
     public EpochFlabebe(String name, Aspect aspect) {
-        super(name, aspect,"EpochFlabb",
+        super(name, aspect, "EpochFlabb",
                 Type.FAIRY,Type.WATER,
                 new Stats(44,
                         28,
@@ -17,13 +17,14 @@ public class EpochFlabebe extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.RAIN_DISH,Ability.SYNTHESIZE), Ability.MISTY_SURGE,
                 1, 1,
-                new Stats(44,28,58,42,1,70), 225,
+                new Stats(0,0,0,0,1,0), 225,
                 0.0,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon has made a sort of nest in a coral bed and gotten very attached to it but it can walk away at any time."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch floette", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.FLEUR_CANNON,61),

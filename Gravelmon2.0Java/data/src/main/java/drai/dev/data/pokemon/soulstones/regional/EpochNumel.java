@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNumel extends drai.dev.data.pokemon.Pokemon {
     public EpochNumel(String name, Aspect aspect) {
-        super(name, aspect,"EpochNumel",
+        super(name, aspect, "EpochNumel",
                 Type.FIRE,Type.WATER,
                 new Stats(85,
                         40,
@@ -67,13 +67,14 @@ public class EpochNumel extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.DRY_SKIN,Ability.STEAM_ENGINE), Ability.FLASH_FIRE,
                 7, 240,
-                new Stats(1,40,40,25,70,45), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When it is happy, it can trigger a fountain of steam to come out from the pool on its back."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch camerupt", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,19),
                         new MoveLearnSetEntry(Move.STRANGE_STEAM,40),

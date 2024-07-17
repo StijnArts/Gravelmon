@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGloom extends drai.dev.data.pokemon.Pokemon {
     public EpochGloom(String name, Aspect aspect) {
-        super(name, aspect,"EpochGloom",
+        super(name, aspect, "EpochGloom",
                 Type.GRASS,Type.COSMIC,
                 new Stats(70,
                         60,
@@ -67,13 +67,16 @@ public class EpochGloom extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.EFFECT_SPORE,Ability.STARSTRUCK), Ability.VITALITY,
                 8, 86,
-                new Stats(70,60,75,2,80,65), 120,
+                new Stats(0,0,0,2,0,0), 120,
                 0.5,
                 138, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Throughout the lunar cycle, their scents grow progressively stronger and more pleasing."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch vileplume", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:leaf_stone"),
+new EvolutionEntry("epoch bellossom", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.METEORSHOWER,14),
                         new MoveLearnSetEntry(Move.FLEUR_CANNON,52),
@@ -169,9 +172,8 @@ public class EpochGloom extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WONDER_ROOM,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 42, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRegirock extends drai.dev.data.pokemon.Pokemon {
     public EpochRegirock(String name, Aspect aspect) {
-        super(name, aspect,"EpochRegirock",
+        super(name, aspect, "EpochRegirock",
                 Type.FLYING,
                 new Stats(105,
                         25,
@@ -67,7 +67,7 @@ public class EpochRegirock extends drai.dev.data.pokemon.Pokemon {
                         200),
                 List.of(Ability.HYDRATION,Ability.RAIN_DISH), Ability.DRIZZLE,
                 17, 2300,
-                new Stats(105,25,100,50,3,200), 75,
+                new Stats(0,0,0,0,3,0), 75,
                 -1.0,
                 261, ExperienceGroup.SLOW,
                 70,

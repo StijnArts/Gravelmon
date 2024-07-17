@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGoldeen extends drai.dev.data.pokemon.Pokemon {
     public EpochGoldeen(String name, Aspect aspect) {
-        super(name, aspect,"EpochGoldeen",
+        super(name, aspect, "EpochGoldeen",
                 Type.POISON,Type.WATER,
                 new Stats(55,
                         25,
@@ -67,13 +67,14 @@ public class EpochGoldeen extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.STORM_DRAIN,Ability.STENCH), Ability.RAIN_DISH,
                 6, 150,
-                new Stats(55,25,50,1,77,60), 225,
+                new Stats(0,0,0,1,0,0), 225,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("This Goldeen is believed to have started multiplying in the sewers after it got exposed to some disposed of chemicals."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch seaking", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,10),
                         new MoveLearnSetEntry(Move.AGILITY,20),
@@ -156,13 +157,17 @@ public class EpochGoldeen extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLUDGE_WAVE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Goldeen");
 
     }

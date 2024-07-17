@@ -144,6 +144,20 @@
   "pokedex": [
     "cobblemon.species.epochursaring.desc"
   ],
+  "evolutions": [
+    {
+      "id": "ursaring_epoch_ursaluna",
+      "variant": "item_interact",
+      "result": "epoch ursaluna",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
@@ -152,12 +166,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 85,
+    "hp": 0,
     "attack": 1,
-    "defence": 70,
-    "special_attack": 85,
-    "special_defence": 75,
-    "speed": 100
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 18,
   "weight": 1258,

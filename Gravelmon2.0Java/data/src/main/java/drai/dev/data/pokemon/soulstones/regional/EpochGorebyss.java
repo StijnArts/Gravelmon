@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGorebyss extends drai.dev.data.pokemon.Pokemon {
     public EpochGorebyss(String name, Aspect aspect) {
-        super(name, aspect,"EpochGorebyss",
+        super(name, aspect, "EpochGorebyss",
                 Type.WATER,Type.BUG,
                 new Stats(105,
                         54,
@@ -67,7 +67,7 @@ public class EpochGorebyss extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.SWARM,Ability.MARVEL_SCALE), Ability.NATURAL_CURE,
                 18, 226,
-                new Stats(105,54,65,1,134,75), 123,
+                new Stats(0,0,0,1,0,0), 123,
                 0.5,
                 170, ExperienceGroup.ERRATIC,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFlorges extends drai.dev.data.pokemon.Pokemon {
     public EpochFlorges(String name, Aspect aspect) {
-        super(name, aspect,"EpochFlorges",
+        super(name, aspect, "EpochFlorges",
                 Type.FAIRY,Type.WATER,
                 new Stats(78,
                         55,
@@ -67,7 +67,7 @@ public class EpochFlorges extends drai.dev.data.pokemon.Pokemon {
                         134),
                 List.of(Ability.RAIN_DISH,Ability.SYNTHESIZE), Ability.MISTY_SURGE,
                 11, 100,
-                new Stats(78,55,108,65,3,134), 95,
+                new Stats(0,0,0,0,3,0), 95,
                 0.0,
                 276, ExperienceGroup.MEDIUM_FAST,
                 70,

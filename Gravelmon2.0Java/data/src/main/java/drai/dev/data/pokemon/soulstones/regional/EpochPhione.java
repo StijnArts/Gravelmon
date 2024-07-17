@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPhione extends drai.dev.data.pokemon.Pokemon {
     public EpochPhione(String name, Aspect aspect) {
-        super(name, aspect,"EpochPhione",
+        super(name, aspect, "EpochPhione",
                 Type.FAIRY,
                 new Stats(100,
                         100,
@@ -67,7 +67,7 @@ public class EpochPhione extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.INTUITION,Ability.ATTUNEMENT), Ability.WONDER_SKIN,
                 4, 31,
-                new Stats(1,100,100,100,100,100), 80,
+                new Stats(1,0,0,0,0,0), 80,
                 -1.0,
                 216, ExperienceGroup.SLOW,
                 70,

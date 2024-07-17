@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBarraskewda extends drai.dev.data.pokemon.Pokemon {
     public EpochBarraskewda(String name, Aspect aspect) {
-        super(name, aspect,"EpochBarraskewda",
+        super(name, aspect, "EpochBarraskewda",
                 Type.WATER,Type.GHOST,
                 new Stats(61,
                         103,
@@ -67,7 +67,7 @@ public class EpochBarraskewda extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.CURSED_BODY,Ability.INNARDS_OUT), Ability.STRONG_JAW,
                 13, 300,
-                new Stats(61,103,75,121,60,2), 123,
+                new Stats(0,0,0,0,0,2), 123,
                 0.5,
                 172, ExperienceGroup.SLOW,
                 70,

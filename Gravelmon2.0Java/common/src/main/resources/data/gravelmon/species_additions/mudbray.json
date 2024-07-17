@@ -128,6 +128,22 @@
   "pokedex": [
     "cobblemon.species.epochmudbray.desc"
   ],
+  "evolutions": [
+    {
+      "id": "mudbray_epoch_mudsdale",
+      "variant": "level_up",
+      "result": "epoch mudsdale",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -136,12 +152,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 70,
+    "hp": 0,
     "attack": 1,
-    "defence": 70,
-    "special_attack": 45,
-    "special_defence": 45,
-    "speed": 55
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 1100,

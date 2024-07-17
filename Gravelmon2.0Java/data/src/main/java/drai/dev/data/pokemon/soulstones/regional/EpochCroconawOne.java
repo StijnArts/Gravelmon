@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCroconawOne extends drai.dev.data.pokemon.Pokemon {
     public EpochCroconawOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochCroconawOne",
+        super(name, aspect, "EpochCroconawOne",
                 Type.DARK,Type.FIRE,
                 new Stats(65,
                         80,
@@ -67,13 +67,14 @@ public class EpochCroconawOne extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.STRONG_JAW,Ability.SHEER_FORCE), Ability.BLAZE,
                 11, 250,
-                new Stats(65,1,63,58,59,80), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("It is unclear if the 'flame' on its back is really fire, or a malicious force that has manifested."),
-                List.of(),
+                List.of("It is unclear if the flame on its back is really fire, or a malicious force that has manifested."),
+                List.of(new EvolutionEntry("epochtwo feraligatr", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINFULSMITE,22),
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,50),
@@ -166,9 +167,8 @@ public class EpochCroconawOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_SOUL_FIRE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

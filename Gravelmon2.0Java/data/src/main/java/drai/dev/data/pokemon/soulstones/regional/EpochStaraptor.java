@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStaraptor extends drai.dev.data.pokemon.Pokemon {
     public EpochStaraptor(String name, Aspect aspect) {
-        super(name, aspect,"EpochStaraptor",
+        super(name, aspect, "EpochStaraptor",
                 Type.SOUND,Type.FLYING,
                 new Stats(80,
                         35,
@@ -67,7 +67,7 @@ public class EpochStaraptor extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.CLOUD_NINE,Ability.CACOPHONY), Ability.GALE_WINGS,
                 12, 249,
-                new Stats(80,35,85,110,95,3), 90,
+                new Stats(0,0,0,0,0,3), 90,
                 0.5,
                 218, ExperienceGroup.MEDIUM_SLOW,
                 70,

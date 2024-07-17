@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochProbopass extends drai.dev.data.pokemon.Pokemon {
     public EpochProbopass(String name, Aspect aspect) {
-        super(name, aspect,"EpochProbopass",
+        super(name, aspect, "EpochProbopass",
                 Type.GRASS,Type.PSYCHIC,
                 new Stats(60,
                         105,
@@ -67,7 +67,7 @@ public class EpochProbopass extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.NATURAL_CURE,Ability.PICKPOCKET), Ability.CHLOROPHYLL,
                 14, 3400,
-                new Stats(60,1,95,60,115,90), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -165,11 +165,10 @@ public class EpochProbopass extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 49, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TROPICAL_ISLAND))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Probopass");

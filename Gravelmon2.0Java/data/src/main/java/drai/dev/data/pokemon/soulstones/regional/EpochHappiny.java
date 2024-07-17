@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHappiny extends drai.dev.data.pokemon.Pokemon {
     public EpochHappiny(String name, Aspect aspect) {
-        super(name, aspect,"EpochHappiny",
+        super(name, aspect, "EpochHappiny",
                 Type.NORMAL,Type.STEEL,
                 new Stats(40,
                         45,
@@ -67,13 +67,14 @@ public class EpochHappiny extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.TERMINATOR,Ability.ANALYTIC), Ability.DOWNLOAD,
                 6, 244,
-                new Stats(1,45,35,30,25,45), 130,
+                new Stats(1,0,0,0,0,0), 130,
                 0.0,
                 110, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("The H.A.P.P.I.N.Y model 700 was invented to provide its owner with expedient access to healing facilities while travelling."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch chansey", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.STATICSHOCK,9),
@@ -175,9 +176,8 @@ public class EpochHappiny extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

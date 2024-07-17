@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochScyther extends drai.dev.data.pokemon.Pokemon {
     public EpochScyther(String name, Aspect aspect) {
-        super(name, aspect,"EpochScyther",
+        super(name, aspect, "EpochScyther",
                 Type.LIGHT,Type.DARK,
                 new Stats(70,
                         110,
@@ -67,13 +67,14 @@ public class EpochScyther extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.IRRADIATE,Ability.SHARPNESS), Ability.TECHNICIAN,
                 15, 560,
-                new Stats(70,2,80,105,55,80), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 100, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Its blades are made of pure light, and are able to slice through virtually anything. Unfortunately, because of this it has issues picking up food."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch scizor", EvolutionType.TRADE, false, List.of(), 
+ List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,16),
                         new MoveLearnSetEntry(Move.SINFULSMITE,20),
@@ -179,9 +180,8 @@ public class EpochScyther extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRI_ATTACK,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 38, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTapubulu extends drai.dev.data.pokemon.Pokemon {
     public EpochTapubulu(String name, Aspect aspect) {
-        super(name, aspect,"EpochTapubulu",
+        super(name, aspect, "EpochTapubulu",
                 Type.FIRE,Type.GHOST,
                 new Stats(70,
                         130,
@@ -67,7 +67,7 @@ public class EpochTapubulu extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.DROUGHT,Ability.SOLAR_POWER), Ability.RECKLESS,
                 19, 455,
-                new Stats(70,3,115,75,85,95), 3,
+                new Stats(0,3,0,0,0,0), 3,
                 -1.0,
                 285, ExperienceGroup.SLOW,
                 70,

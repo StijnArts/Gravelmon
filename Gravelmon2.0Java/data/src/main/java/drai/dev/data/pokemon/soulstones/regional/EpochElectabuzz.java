@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochElectabuzz extends drai.dev.data.pokemon.Pokemon {
     public EpochElectabuzz(String name, Aspect aspect) {
-        super(name, aspect,"EpochElectabuzz",
+        super(name, aspect, "EpochElectabuzz",
                 Type.BUG,Type.FIGHTING,
                 new Stats(90,
                         103,
@@ -67,13 +67,14 @@ public class EpochElectabuzz extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.DEFIANT,Ability.INTIMIDATE), Ability.MOXIE,
                 11, 300,
-                new Stats(90,2,97,75,60,65), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.25,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It has no fear, and will willingly take on enemies much larger and stronger in size without flinching. Arguably, this can be seen as both a strength and a weakness."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch electivire", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_belt")),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.BUG_BITE,15),
@@ -158,8 +159,8 @@ public class EpochElectabuzz extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 47, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

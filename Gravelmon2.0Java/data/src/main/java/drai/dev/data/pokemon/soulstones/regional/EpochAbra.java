@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAbra extends drai.dev.data.pokemon.Pokemon {
     public EpochAbra(String name, Aspect aspect) {
-        super(name, aspect,"EpochAbra",
+        super(name, aspect, "EpochAbra",
                 Type.FIGHTING,Type.NORMAL,
                 new Stats(45,
                         25,
@@ -67,13 +67,14 @@ public class EpochAbra extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.INNER_FOCUS,Ability.STEADFAST), Ability.PURE_POWER,
                 9, 195,
-                new Stats(45,25,50,70,70,1), 200,
+                new Stats(0,0,0,0,0,1), 200,
                 0.25,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It meditates for most of the day. Most observers believe it to be asleep but its spirit has transcended to a plane of enlightenment."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch kadabra", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,40),
                         new MoveLearnSetEntry(Move.BATTLEOFWITS,21),
@@ -164,8 +165,8 @@ public class EpochAbra extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FAKE_OUT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkittyOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSkittyOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkittyOne",
+        super(name, aspect, "EpochSkittyOne",
                 Type.GRASS,Type.LIGHT,
                 new Stats(55,
                         32,
@@ -67,13 +67,14 @@ public class EpochSkittyOne extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.CHLOROPHYLL,Ability.GRASS_PELT), Ability.GRASSY_SURGE,
                 6, 110,
-                new Stats(55,32,65,1,68,60), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.0,
                 52, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("A T. Skitty is very protective of the weed on its tail. It is rumoured that if a strong breeze blows it away, the Skitty will also perish."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo delcatty", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,1),
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,40),

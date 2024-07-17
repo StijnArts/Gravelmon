@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBasculin extends drai.dev.data.pokemon.Pokemon {
     public EpochBasculin(String name, Aspect aspect) {
-        super(name, aspect,"EpochBasculin",
+        super(name, aspect, "EpochBasculin",
                 Type.DRAGON,Type.GHOST,
                 new Stats(70,
                         107,
@@ -67,13 +67,14 @@ public class EpochBasculin extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SWIFT_SWIM,Ability.INNER_FOCUS), Ability.ADAPTABILITY,
                 10, 180,
-                new Stats(70,2,85,93,50,55), 85,
+                new Stats(0,2,0,0,0,0), 85,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("They can be very damaging to sensitive ecosystems because they are able to devour a lot of the available food supply very quickly."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch basculegion", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,48),
                         new MoveLearnSetEntry(Move.FLAIL,32),

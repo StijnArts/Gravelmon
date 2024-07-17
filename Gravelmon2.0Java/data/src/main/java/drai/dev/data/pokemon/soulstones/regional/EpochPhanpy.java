@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPhanpy extends drai.dev.data.pokemon.Pokemon {
     public EpochPhanpy(String name, Aspect aspect) {
-        super(name, aspect,"EpochPhanpy",
+        super(name, aspect, "EpochPhanpy",
                 Type.ICE,Type.GROUND,
                 new Stats(80,
                         60,
@@ -67,13 +67,14 @@ public class EpochPhanpy extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.SNOW_CLOAK,Ability.OBLIVIOUS), Ability.THICK_FAT,
                 5, 335,
-                new Stats(1,60,70,40,20,60), 120,
+                new Stats(1,0,0,0,0,0), 120,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon likes to curl into a ball and toboggan down snowy hills in races against others of its herd."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch donphan", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,36),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,44),
@@ -165,10 +166,10 @@ public class EpochPhanpy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 29, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_PLAINS))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVullaby extends drai.dev.data.pokemon.Pokemon {
     public EpochVullaby(String name, Aspect aspect) {
-        super(name, aspect,"EpochVullaby",
+        super(name, aspect, "EpochVullaby",
                 Type.GROUND,Type.FLYING,
                 new Stats(70,
                         75,
@@ -67,13 +67,14 @@ public class EpochVullaby extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SAND_RUSH,Ability.SAND_VEIL), Ability.ANGER_POINT,
                 5, 90,
-                new Stats(70,75,1,60,45,55), 190,
+                new Stats(0,0,1,0,0,0), 190,
                 0.0,
                 74, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It does not matter that a Vullaby may have hatched many months ago, it still carries the egg shell that it was born in around as pants."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch mandibuzz", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THOUSAND_ARROWS,47),
                         new MoveLearnSetEntry(Move.DRILL_PECK,51),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNincada extends drai.dev.data.pokemon.Pokemon {
     public EpochNincada(String name, Aspect aspect) {
-        super(name, aspect,"EpochNincada",
+        super(name, aspect, "EpochNincada",
                 Type.NORMAL,Type.BUG,
                 new Stats(30,
                         55,
@@ -67,13 +67,18 @@ public class EpochNincada extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.SWARM,Ability.COMPOUND_EYES), Ability.SHELL_ARMOR,
                 5, 55,
-                new Stats(30,55,1,45,30,40), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 53, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It harbours two conflicting energies deep within its body, that are in constant battle with one another, vying for escape."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ninjask", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))),
+new EvolutionEntry("epoch shedinja", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINFULSMITE,25),
                         new MoveLearnSetEntry(Move.AGILITY,28),

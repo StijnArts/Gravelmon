@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBeldum extends drai.dev.data.pokemon.Pokemon {
     public EpochBeldum(String name, Aspect aspect) {
-        super(name, aspect,"EpochBeldum",
+        super(name, aspect, "EpochBeldum",
                 Type.COSMIC,Type.PSYCHIC,
                 new Stats(40,
                         35,
@@ -67,13 +67,14 @@ public class EpochBeldum extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.FILTER,Ability.FULL_METAL_BODY), Ability.ANALYTIC,
                 6, 952,
-                new Stats(40,35,1,30,55,60), 75,
+                new Stats(0,0,1,0,0,0), 75,
                 -1.0,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is said to be an alien inhabiting an interstellar object that crash landed in the Orion Region."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch metang", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,50),
                         new MoveLearnSetEntry(Move.METEORSHOWER,6),

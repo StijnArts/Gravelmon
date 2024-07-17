@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNumelOne extends drai.dev.data.pokemon.Pokemon {
     public EpochNumelOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochNumelOne",
+        super(name, aspect, "EpochNumelOne",
                 Type.ICE,Type.ROCK,
                 new Stats(60,
                         70,
@@ -67,13 +67,14 @@ public class EpochNumelOne extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.BULLETPROOF,Ability.FILTER), Ability.FORTIFICATION,
                 11, 480,
-                new Stats(60,1,60,35,35,45), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its breath can crystallize the air around it into snowflakes."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo camerupt", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,32),
                         new MoveLearnSetEntry(Move.TACKLE,1),

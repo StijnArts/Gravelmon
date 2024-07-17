@@ -57,8 +57,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochExeggutor extends drai.dev.data.pokemon.Pokemon {
     public EpochExeggutor(String name, Aspect aspect) {
-        super(name, aspect,"EpochExeggutor",
-                Type.ELECTRIC,Type.POISON,
+        super(name, aspect, "EpochExeggutor",
+                Type.ELECTRIC,Type.NUCLEAR,
                 new Stats(85,
                         65,
                         70,
@@ -67,7 +67,7 @@ public class EpochExeggutor extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.LEVITATE,Ability.STATIC), Ability.CORROSION,
                 20, 1200,
-                new Stats(85,65,70,1,115,75), 100,
+                new Stats(0,0,0,1,0,0), 100,
                 -1.0,
                 186, ExperienceGroup.SLOW,
                 70,
@@ -147,9 +147,8 @@ public class EpochExeggutor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

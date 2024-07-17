@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWooloo extends drai.dev.data.pokemon.Pokemon {
     public EpochWooloo(String name, Aspect aspect) {
-        super(name, aspect,"EpochWooloo",
+        super(name, aspect, "EpochWooloo",
                 Type.ROCK,Type.NORMAL,
                 new Stats(47,
                         60,
@@ -67,13 +67,14 @@ public class EpochWooloo extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.ROUGH_SKIN,Ability.STURDY), Ability.ROCK_HEAD,
                 16, 1000,
-                new Stats(47,60,1,68,30,45), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 122, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Its 'wool', if it can even be called that, is made of hardened boulders. The rocks are almost impenetrable."),
-                List.of(),
+                List.of("Its wool, if it can even be called that, is made of hardened boulders. The rocks are almost impenetrable."),
+                List.of(new EvolutionEntry("epoch dubwool", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,32),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,35),

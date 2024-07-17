@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFearow extends drai.dev.data.pokemon.Pokemon {
     public EpochFearow(String name, Aspect aspect) {
-        super(name, aspect,"EpochFearow",
+        super(name, aspect, "EpochFearow",
                 Type.WATER,Type.FLYING,
                 new Stats(61,
                         98,
@@ -67,7 +67,7 @@ public class EpochFearow extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.SNIPER,Ability.MOLD_BREAKER), Ability.SUPER_LUCK,
                 12, 380,
-                new Stats(61,98,75,100,61,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 155, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -152,13 +152,14 @@ public class EpochFearow extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 25, 44, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Fearow");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochInteleon extends drai.dev.data.pokemon.Pokemon {
     public EpochInteleon(String name, Aspect aspect) {
-        super(name, aspect,"EpochInteleon",
+        super(name, aspect, "EpochInteleon",
                 Type.WATER,Type.SOUND,
                 new Stats(70,
                         60,
@@ -67,7 +67,7 @@ public class EpochInteleon extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.RAIN_DISH,Ability.REQUIEM), Ability.CACOPHONY,
                 19, 452,
-                new Stats(70,60,65,2,125,90), 90,
+                new Stats(0,0,0,2,0,0), 90,
                 0.875,
                 265, ExperienceGroup.MEDIUM_SLOW,
                 70,

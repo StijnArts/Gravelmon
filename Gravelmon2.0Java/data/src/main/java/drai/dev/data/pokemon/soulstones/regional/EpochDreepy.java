@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDreepy extends drai.dev.data.pokemon.Pokemon {
     public EpochDreepy(String name, Aspect aspect) {
-        super(name, aspect,"EpochDreepy",
+        super(name, aspect, "EpochDreepy",
                 Type.STEEL,Type.FLYING,
                 new Stats(28,
                         40,
@@ -67,13 +67,14 @@ public class EpochDreepy extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.WHITE_SMOKE,Ability.INFILTRATOR), Ability.WEAK_ARMOR,
                 5, 20,
-                new Stats(28,40,30,62,60,1), 90,
+                new Stats(0,0,0,0,0,1), 90,
                 0.5,
                 54, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon has very small vents so it is unable to travel very long distances but more so sputters along the way."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch drakloak", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,24),
                         new MoveLearnSetEntry(Move.SHRAPNEL,32),

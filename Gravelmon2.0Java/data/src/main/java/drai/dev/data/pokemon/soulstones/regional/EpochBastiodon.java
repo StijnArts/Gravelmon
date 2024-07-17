@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBastiodon extends drai.dev.data.pokemon.Pokemon {
     public EpochBastiodon(String name, Aspect aspect) {
-        super(name, aspect,"EpochBastiodon",
+        super(name, aspect, "EpochBastiodon",
                 Type.ICE,Type.STEEL,
                 new Stats(60,
                         72,
@@ -67,7 +67,7 @@ public class EpochBastiodon extends drai.dev.data.pokemon.Pokemon {
                         138),
                 List.of(Ability.SOUNDPROOF,Ability.FORTIFICATION), Ability.STEELWORKER,
                 13, 1495,
-                new Stats(60,72,2,30,27,138), 90,
+                new Stats(0,0,2,0,0,0), 90,
                 0.875,
                 173, ExperienceGroup.ERRATIC,
                 70,

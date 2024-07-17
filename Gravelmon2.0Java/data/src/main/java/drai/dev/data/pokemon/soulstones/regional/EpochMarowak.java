@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMarowak extends drai.dev.data.pokemon.Pokemon {
     public EpochMarowak(String name, Aspect aspect) {
-        super(name, aspect,"EpochMarowak",
+        super(name, aspect, "EpochMarowak",
                 Type.WATER,Type.ROCK,
                 new Stats(110,
                         70,
@@ -67,7 +67,7 @@ public class EpochMarowak extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.ROCK_HEAD,Ability.SAP_SIPPER), Ability.SYNTHESIZE,
                 10, 450,
-                new Stats(2,70,80,45,50,70), 75,
+                new Stats(2,0,0,0,0,0), 75,
                 0.5,
                 149, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -161,13 +161,13 @@ public class EpochMarowak extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 36, 53, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Marowak");
 
     }

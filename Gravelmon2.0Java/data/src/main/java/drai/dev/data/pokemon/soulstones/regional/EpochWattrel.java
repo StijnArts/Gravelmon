@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWattrel extends drai.dev.data.pokemon.Pokemon {
     public EpochWattrel(String name, Aspect aspect) {
-        super(name, aspect,"EpochWattrel",
+        super(name, aspect, "EpochWattrel",
                 Type.ICE,Type.ROCK,
                 new Stats(40,
                         55,
@@ -67,13 +67,14 @@ public class EpochWattrel extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.SKILL_LINK,Ability.STURDY), Ability.TECHNICIAN,
                 4, 36,
-                new Stats(40,55,40,70,40,1), 180,
+                new Stats(0,0,0,0,0,1), 180,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("It is very fast and is able to launch sharpened projectiles from its wings to maim its prey and close the distance on them quickly so they cannot escape."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch kilowattrel", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,43),
                         new MoveLearnSetEntry(Move.SMACK_DOWN,11),

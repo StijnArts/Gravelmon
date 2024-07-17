@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGurdurr extends drai.dev.data.pokemon.Pokemon {
     public EpochGurdurr(String name, Aspect aspect) {
-        super(name, aspect,"EpochGurdurr",
+        super(name, aspect, "EpochGurdurr",
                 Type.GHOST,Type.FIGHTING,
                 new Stats(80,
                         80,
@@ -67,13 +67,14 @@ public class EpochGurdurr extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.UNNERVE,Ability.CURSED_BODY), Ability.SHADOW_TAG,
                 12, 400,
-                new Stats(1,80,75,40,80,50), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.25,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It changes its makeup to match the same as what was worn by its last victim."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch conkeldurr", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_belt")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,12),
                         new MoveLearnSetEntry(Move.MEMENTO,56),

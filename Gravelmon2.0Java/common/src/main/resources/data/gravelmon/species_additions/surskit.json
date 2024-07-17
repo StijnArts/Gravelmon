@@ -158,6 +158,22 @@
   "pokedex": [
     "cobblemon.species.epochsurskit.desc"
   ],
+  "evolutions": [
+    {
+      "id": "surskit_epoch_masquerain",
+      "variant": "level_up",
+      "result": "epoch masquerain",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -166,11 +182,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 40,
-    "attack": 20,
-    "defence": 32,
-    "special_attack": 65,
-    "special_defence": 60,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 5,
@@ -299,6 +315,22 @@
   "pokedex": [
     "cobblemon.species.epochsurskitone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "surskit_epochtwo_masquerain",
+      "variant": "level_up",
+      "result": "epochtwo masquerain",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -307,11 +339,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 40,
-    "attack": 30,
-    "defence": 32,
-    "special_attack": 65,
-    "special_defence": 50,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 5,

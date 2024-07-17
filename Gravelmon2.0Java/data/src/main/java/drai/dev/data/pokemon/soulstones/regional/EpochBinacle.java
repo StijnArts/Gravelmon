@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBinacle extends drai.dev.data.pokemon.Pokemon {
     public EpochBinacle(String name, Aspect aspect) {
-        super(name, aspect,"EpochBinacle",
+        super(name, aspect, "EpochBinacle",
                 Type.ROCK,Type.PSYCHIC,
                 new Stats(54,
                         35,
@@ -67,13 +67,14 @@ public class EpochBinacle extends drai.dev.data.pokemon.Pokemon {
                         46),
                 List.of(Ability.STURDY,Ability.TELEPATHY), Ability.SHEER_FORCE,
                 5, 310,
-                new Stats(54,35,49,1,67,46), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("Its latent psychic power allows it to levitate a number of rocks and sediment around it as a way to show off."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch barbaracle", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),
                         new MoveLearnSetEntry(Move.QUICKSPELL,8),

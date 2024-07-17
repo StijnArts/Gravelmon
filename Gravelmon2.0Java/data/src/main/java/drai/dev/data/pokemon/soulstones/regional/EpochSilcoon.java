@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSilcoon extends drai.dev.data.pokemon.Pokemon {
     public EpochSilcoon(String name, Aspect aspect) {
-        super(name, aspect,"EpochSilcoon",
+        super(name, aspect, "EpochSilcoon",
                 Type.BUG,Type.PSYCHIC,
                 new Stats(40,
                         20,
@@ -67,13 +67,14 @@ public class EpochSilcoon extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.TELEPATHY,Ability.CLEAR_BODY), Ability.OVERCOAT,
                 6, 100,
-                new Stats(40,20,55,15,2,65), 120,
+                new Stats(0,0,0,0,2,0), 120,
                 0.5,
                 72, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("While it is in the cocoon stage, it uses its budding psychic powers to camouflage itself from predators."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch beautifly", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.CONFUSION,5),

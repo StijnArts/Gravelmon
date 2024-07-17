@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBounsweetOne extends drai.dev.data.pokemon.Pokemon {
     public EpochBounsweetOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochBounsweetOne",
+        super(name, aspect, "EpochBounsweetOne",
                 Type.POISON,Type.FIGHTING,
                 new Stats(42,
                         34,
@@ -67,13 +67,14 @@ public class EpochBounsweetOne extends drai.dev.data.pokemon.Pokemon {
                         38),
                 List.of(Ability.IRON_BARBS,Ability.POWER_OF_ALCHEMY), Ability.UNBURDEN,
                 3, 32,
-                new Stats(1,34,38,32,26,38), 235,
+                new Stats(1,0,0,0,0,0), 235,
                 0.0,
                 42, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.AMORPHOUS),
                 List.of("The flowers on its head secrete a noxious smelling liquid that can cause a variety of destabilizing effects from sleep to paralysis."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo steenee", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRAFE,8),
                         new MoveLearnSetEntry(Move.DOUBLE_KICK,20),

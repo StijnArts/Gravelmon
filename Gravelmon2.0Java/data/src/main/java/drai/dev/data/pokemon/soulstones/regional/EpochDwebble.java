@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDwebble extends drai.dev.data.pokemon.Pokemon {
     public EpochDwebble(String name, Aspect aspect) {
-        super(name, aspect,"EpochDwebble",
+        super(name, aspect, "EpochDwebble",
                 Type.BUG,Type.WATER,
                 new Stats(40,
                         55,
@@ -67,13 +67,14 @@ public class EpochDwebble extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.HYPER_CUTTER,Ability.ROCKY_PAYLOAD), Ability.SHEER_FORCE,
                 3, 145,
-                new Stats(40,55,75,25,1,85), 190,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_3),
                 List.of("It collects various small articles found on the sea floor to append to its shell as a means of showing off."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch crustle", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,12),
                         new MoveLearnSetEntry(Move.SKITTER_SMACK,24),

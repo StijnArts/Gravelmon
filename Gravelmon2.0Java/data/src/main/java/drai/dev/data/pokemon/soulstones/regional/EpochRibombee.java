@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRibombee extends drai.dev.data.pokemon.Pokemon {
     public EpochRibombee(String name, Aspect aspect) {
-        super(name, aspect,"EpochRibombee",
+        super(name, aspect, "EpochRibombee",
                 Type.BUG,Type.FLYING,
                 new Stats(60,
                         85,
@@ -67,7 +67,7 @@ public class EpochRibombee extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.PRANKSTER,Ability.SPEED_BOOST), Ability.STENCH,
                 2, 5,
-                new Stats(60,85,40,114,95,2), 75,
+                new Stats(0,0,0,0,0,2), 75,
                 0.5,
                 162, ExperienceGroup.MEDIUM_FAST,
                 70,

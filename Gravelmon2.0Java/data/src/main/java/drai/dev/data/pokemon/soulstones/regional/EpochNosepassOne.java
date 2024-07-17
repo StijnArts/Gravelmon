@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNosepassOne extends drai.dev.data.pokemon.Pokemon {
     public EpochNosepassOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochNosepassOne",
+        super(name, aspect, "EpochNosepassOne",
                 Type.ELECTRIC,
                 new Stats(65,
                         85,
@@ -67,13 +67,14 @@ public class EpochNosepassOne extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.BATTERY,Ability.SURGE_SURFER), Ability.ELECTRIC_SURGE,
                 10, 370,
-                new Stats(65,1,70,50,85,70), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 75, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is often used as a portable light source but its stubby legs means it often needs to be carried around since it can't usually keep up with walking speed."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo probopass", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LOCKON,53),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,8),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTranquill extends drai.dev.data.pokemon.Pokemon {
     public EpochTranquill(String name, Aspect aspect) {
-        super(name, aspect,"EpochTranquill",
+        super(name, aspect, "EpochTranquill",
                 Type.PSYCHIC,Type.FAIRY,
                 new Stats(60,
                         70,
@@ -67,13 +67,14 @@ public class EpochTranquill extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.PUREHEART,Ability.GENIUS), Ability.HEALER,
                 6, 150,
-                new Stats(60,70,1,75,35,60), 120,
+                new Stats(0,0,1,0,0,0), 120,
                 0.5,
                 125, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("A protective bunch, it rushes to aid its injured allies no matter what danger surrounds it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch unfezant", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICKSPELL,12),
                         new MoveLearnSetEntry(Move.CHARM,26),

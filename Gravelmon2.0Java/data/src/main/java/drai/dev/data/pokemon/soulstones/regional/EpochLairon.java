@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLairon extends drai.dev.data.pokemon.Pokemon {
     public EpochLairon(String name, Aspect aspect) {
-        super(name, aspect,"EpochLairon",
+        super(name, aspect, "EpochLairon",
                 Type.BUG,Type.ROCK,
                 new Stats(70,
                         90,
@@ -67,13 +67,14 @@ public class EpochLairon extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.SWARM,Ability.FORTIFICATION), Ability.SKILL_LINK,
                 9, 1200,
-                new Stats(70,90,1,45,50,80), 100,
+                new Stats(0,0,1,0,0,0), 100,
                 0.5,
                 151, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("It works co-operatively in well-defined colonies with each unit reprising a unique role towards the construction, defense or sustainment of the colony."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch aggron", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,41),
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,54),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMachop extends drai.dev.data.pokemon.Pokemon {
     public EpochMachop(String name, Aspect aspect) {
-        super(name, aspect,"EpochMachop",
+        super(name, aspect, "EpochMachop",
                 Type.GROUND,Type.FIGHTING,
                 new Stats(75,
                         85,
@@ -67,13 +67,14 @@ public class EpochMachop extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.SAND_FORCE,Ability.NO_GUARD), Ability.INTIMIDATE,
                 8, 195,
-                new Stats(75,1,50,35,35,35), 180,
+                new Stats(0,1,0,0,0,0), 180,
                 0.25,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("With its one eye, it lacks a spatial sense but what it lacks in this sense, it makes up for through brute strength."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch machoke", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.ARM_THRUST,8),
@@ -163,8 +164,8 @@ public class EpochMachop extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DUAL_CHOP,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

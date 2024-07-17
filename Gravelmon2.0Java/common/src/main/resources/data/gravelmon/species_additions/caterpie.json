@@ -57,6 +57,22 @@
   "pokedex": [
     "cobblemon.species.epochcaterpie.desc"
   ],
+  "evolutions": [
+    {
+      "id": "caterpie_epoch_metapod",
+      "variant": "level_up",
+      "result": "epoch metapod",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 10
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -66,11 +82,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 20,
-    "defence": 35,
-    "special_attack": 45,
-    "special_defence": 30,
-    "speed": 20
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 29,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTapukoko extends drai.dev.data.pokemon.Pokemon {
     public EpochTapukoko(String name, Aspect aspect) {
-        super(name, aspect,"EpochTapukoko",
+        super(name, aspect, "EpochTapukoko",
                 Type.BUG,Type.GHOST,
                 new Stats(70,
                         115,
@@ -67,7 +67,7 @@ public class EpochTapukoko extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.POISON_HEAL,Ability.TOXIC_BOOST), Ability.UNNERVE,
                 18, 205,
-                new Stats(70,115,85,130,95,3), 3,
+                new Stats(0,0,0,0,0,3), 3,
                 -1.0,
                 285, ExperienceGroup.SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMurkrow extends drai.dev.data.pokemon.Pokemon {
     public EpochMurkrow(String name, Aspect aspect) {
-        super(name, aspect,"EpochMurkrow",
+        super(name, aspect, "EpochMurkrow",
                 Type.NORMAL,Type.FLYING,
                 new Stats(81,
                         70,
@@ -67,13 +67,14 @@ public class EpochMurkrow extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.BIG_PECKS,Ability.INTIMIDATE), Ability.CLOUD_NINE,
                 5, 21,
-                new Stats(81,70,1,54,30,85), 80,
+                new Stats(0,0,1,0,0,0), 80,
                 0.5,
                 81, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is not clear where it found the leaf that it constantly chews on, but if you attempt to take it from the Murkrow, it will peck you relentlessly."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch honchkrow", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:air_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BEAK_BLAST,47),
                         new MoveLearnSetEntry(Move.DRILL_PECK,33),
@@ -168,13 +169,13 @@ public class EpochMurkrow extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAUNT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 27, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Murkrow");
 
     }

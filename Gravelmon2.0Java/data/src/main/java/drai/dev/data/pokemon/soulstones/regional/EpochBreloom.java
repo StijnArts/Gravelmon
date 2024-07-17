@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBreloom extends drai.dev.data.pokemon.Pokemon {
     public EpochBreloom(String name, Aspect aspect) {
-        super(name, aspect,"EpochBreloom",
+        super(name, aspect, "EpochBreloom",
                 Type.STEEL,Type.FIGHTING,
                 new Stats(60,
                         95,
@@ -67,7 +67,7 @@ public class EpochBreloom extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.ANALYTIC,Ability.TRACE), Ability.TECHNICIAN,
                 12, 392,
-                new Stats(60,2,110,70,95,60), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 161, ExperienceGroup.FLUCTUATING,
                 70,
@@ -151,11 +151,11 @@ public class EpochBreloom extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Breloom");

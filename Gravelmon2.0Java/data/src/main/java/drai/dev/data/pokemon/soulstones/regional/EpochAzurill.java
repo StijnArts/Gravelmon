@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAzurill extends drai.dev.data.pokemon.Pokemon {
     public EpochAzurill(String name, Aspect aspect) {
-        super(name, aspect,"EpochAzurill",
+        super(name, aspect, "EpochAzurill",
                 Type.FIGHTING,
                 new Stats(40,
                         20,
@@ -67,13 +67,14 @@ public class EpochAzurill extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.FLUFFY,Ability.THICK_FAT), Ability.FUR_COAT,
                 2, 20,
-                new Stats(1,20,45,20,20,45), 150,
+                new Stats(1,0,0,0,0,0), 150,
                 0.0,
                 38, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It is surprisingly resilient and can take a lot of punishment because of the foam material it is made from."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch marill", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,28),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -168,11 +169,11 @@ public class EpochAzurill extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COURT_CHANGE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 19, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Azurill");

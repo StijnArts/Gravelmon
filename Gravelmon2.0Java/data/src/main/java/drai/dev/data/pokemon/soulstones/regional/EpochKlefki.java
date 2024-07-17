@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKlefki extends drai.dev.data.pokemon.Pokemon {
     public EpochKlefki(String name, Aspect aspect) {
-        super(name, aspect,"EpochKlefki",
+        super(name, aspect, "EpochKlefki",
                 Type.GHOST,Type.STEEL,
                 new Stats(62,
                         71,
@@ -67,7 +67,7 @@ public class EpochKlefki extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.FRISK,Ability.BAD_DREAMS), Ability.DISARRAY,
                 2, 30,
-                new Stats(62,71,1,80,67,100), 123,
+                new Stats(0,0,1,0,0,0), 123,
                 0.5,
                 165, ExperienceGroup.FAST,
                 70,

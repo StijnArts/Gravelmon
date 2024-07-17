@@ -14,19 +14,6 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/evolve_me.png"
-    },
-    {
-      "aspects": [
-        "female"
-      ],
-      "texture": "cobblemon:textures/pokemon/evolve_me.png"
-    },
-    {
-      "aspects": [
-        "female",
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/evolve_me.png"
     }
   ]
 }

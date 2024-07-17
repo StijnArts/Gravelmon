@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochToxtricity extends drai.dev.data.pokemon.Pokemon {
     public EpochToxtricity(String name, Aspect aspect) {
-        super(name, aspect,"EpochToxtricity",
+        super(name, aspect, "EpochToxtricity",
                 Type.GRASS,Type.FIGHTING,
                 new Stats(75,
                         105,
@@ -67,7 +67,7 @@ public class EpochToxtricity extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.ROCK_HEAD,Ability.RECKLESS), Ability.SHEER_FORCE,
                 16, 400,
-                new Stats(75,2,75,95,77,75), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 176, ExperienceGroup.MEDIUM_SLOW,
                 70,

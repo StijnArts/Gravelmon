@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVanilliteOne extends drai.dev.data.pokemon.Pokemon {
     public EpochVanilliteOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochVanilliteOne",
+        super(name, aspect, "EpochVanilliteOne",
                 Type.FIRE,Type.ROCK,
                 new Stats(36,
                         40,
@@ -67,13 +67,14 @@ public class EpochVanilliteOne extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.MAGMA_ARMOR,Ability.FLAME_BODY), Ability.WATER_ABSORB,
                 4, 57,
-                new Stats(36,40,50,1,75,50), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 61, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its body can get so hot that sometimes, simple water is rendered ineffective against it and will just evaporate on contact."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo vanillish", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.MINERALWAVE,20),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAggron extends drai.dev.data.pokemon.Pokemon {
     public EpochAggron(String name, Aspect aspect) {
-        super(name, aspect,"EpochAggron",
+        super(name, aspect, "EpochAggron",
                 Type.BUG,Type.ROCK,
                 new Stats(80,
                         115,
@@ -67,7 +67,7 @@ public class EpochAggron extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.SWARM,Ability.FORTIFICATION), Ability.SKILL_LINK,
                 21, 3600,
-                new Stats(80,115,2,55,65,105), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 239, ExperienceGroup.SLOW,
                 70,

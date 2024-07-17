@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHippopotas extends drai.dev.data.pokemon.Pokemon {
     public EpochHippopotas(String name, Aspect aspect) {
-        super(name, aspect,"EpochHippopotas",
+        super(name, aspect, "EpochHippopotas",
                 Type.GRASS,Type.WATER,
                 new Stats(70,
                         70,
@@ -67,13 +67,14 @@ public class EpochHippopotas extends drai.dev.data.pokemon.Pokemon {
                         41),
                 List.of(Ability.RAIN_DISH,Ability.FLOWER_VEIL), Ability.RIPEN,
                 8, 495,
-                new Stats(70,70,1,36,38,41), 140,
+                new Stats(0,0,1,0,0,0), 140,
                 0.5,
                 66, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is able to jump into puddles and rapidly absorb the water up. For this reason, they are used frequently to clean up spills."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch hippowdon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,12),
                         new MoveLearnSetEntry(Move.THORNPRISON,1),

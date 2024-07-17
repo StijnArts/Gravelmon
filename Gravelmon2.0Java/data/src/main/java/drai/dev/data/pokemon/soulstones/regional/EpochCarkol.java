@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCarkol extends drai.dev.data.pokemon.Pokemon {
     public EpochCarkol(String name, Aspect aspect) {
-        super(name, aspect,"EpochCarkol",
+        super(name, aspect, "EpochCarkol",
                 Type.ROCK,Type.GROUND,
                 new Stats(80,
                         60,
@@ -67,13 +67,14 @@ public class EpochCarkol extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.STAMINA,Ability.VITALITY), Ability.SAND_STREAM,
                 11, 780,
-                new Stats(80,60,2,50,40,80), 120,
+                new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 144, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon enjoys adding various precious minerals to its pile that it engages in drilling of its own."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch coalossal", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,12),
                         new MoveLearnSetEntry(Move.DRILL_RUN,38),

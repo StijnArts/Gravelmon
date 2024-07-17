@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochExeggcuteOne extends drai.dev.data.pokemon.Pokemon {
     public EpochExeggcuteOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochExeggcuteOne",
+        super(name, aspect, "EpochExeggcuteOne",
                 Type.FIRE,Type.ROCK,
                 new Stats(60,
                         50,
@@ -67,13 +67,14 @@ public class EpochExeggcuteOne extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.FLAME_BODY,Ability.WHITE_SMOKE), Ability.DROUGHT,
                 4, 25,
-                new Stats(60,50,45,60,1,80), 90,
+                new Stats(0,0,0,0,1,0), 90,
                 0.5,
                 65, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon is often confused for being ordinary scorching embers because it is so small. They are defenseless when singled out."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo exeggutor", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,40),
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,30),
@@ -161,9 +162,8 @@ public class EpochExeggcuteOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOIL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

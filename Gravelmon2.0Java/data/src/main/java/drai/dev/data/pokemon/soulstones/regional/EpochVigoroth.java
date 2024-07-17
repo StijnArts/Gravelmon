@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVigoroth extends drai.dev.data.pokemon.Pokemon {
     public EpochVigoroth(String name, Aspect aspect) {
-        super(name, aspect,"EpochVigoroth",
+        super(name, aspect, "EpochVigoroth",
                 Type.ICE,Type.FIGHTING,
                 new Stats(80,
                         90,
@@ -67,13 +67,14 @@ public class EpochVigoroth extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.DEFIANT,Ability.VITAL_SPIRIT), Ability.ANGER_POINT,
                 14, 465,
-                new Stats(80,90,80,90,45,2), 120,
+                new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 154, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("When this Pokemon was first fed a Chople Berry, it said in response 'fam, this berry tastes low key sus af tho fr ong'"),
-                List.of(),
+                List.of("When this Pokemon was first fed a Chople Berry, it said in response fam, this berry tastes low key sus af tho fr ong"),
+                List.of(new EvolutionEntry("epoch slaking", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.ARM_THRUST,14),

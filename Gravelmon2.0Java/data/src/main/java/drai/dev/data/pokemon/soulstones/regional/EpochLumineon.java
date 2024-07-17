@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLumineon extends drai.dev.data.pokemon.Pokemon {
     public EpochLumineon(String name, Aspect aspect) {
-        super(name, aspect,"EpochLumineon",
+        super(name, aspect, "EpochLumineon",
                 Type.WATER,Type.FAIRY,
                 new Stats(59,
                         52,
@@ -67,7 +67,7 @@ public class EpochLumineon extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.CUTE_CHARM,Ability.DISHEARTEN), Ability.LIQUID_VOICE,
                 12, 240,
-                new Stats(59,52,79,2,99,95), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 161, ExperienceGroup.ERRATIC,
                 70,

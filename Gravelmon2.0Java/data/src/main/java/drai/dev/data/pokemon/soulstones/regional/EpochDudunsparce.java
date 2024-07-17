@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDudunsparce extends drai.dev.data.pokemon.Pokemon {
     public EpochDudunsparce(String name, Aspect aspect) {
-        super(name, aspect,"EpochDudunsparce",
+        super(name, aspect, "EpochDudunsparce",
                 Type.BUG,Type.POISON,
                 new Stats(120,
                         120,
@@ -67,7 +67,7 @@ public class EpochDudunsparce extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.SHED_SKIN,Ability.WEAK_ARMOR), Ability.EARTH_EATER,
                 15, 140,
-                new Stats(2,120,80,55,60,85), 190,
+                new Stats(2,0,0,0,0,0), 190,
                 0.5,
                 145, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -138,9 +138,8 @@ public class EpochDudunsparce extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 51, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

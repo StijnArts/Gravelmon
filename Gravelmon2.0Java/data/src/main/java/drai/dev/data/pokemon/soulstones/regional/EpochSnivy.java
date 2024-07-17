@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSnivy extends drai.dev.data.pokemon.Pokemon {
     public EpochSnivy(String name, Aspect aspect) {
-        super(name, aspect,"EpochSnivy",
+        super(name, aspect, "EpochSnivy",
                 Type.GHOST,
                 new Stats(45,
                         45,
@@ -67,13 +67,14 @@ public class EpochSnivy extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.CURSED_BODY,Ability.WONDER_SKIN), Ability.SHADOW_SHIELD,
                 6, 81,
-                new Stats(45,45,55,63,45,1), 90,
+                new Stats(0,0,0,0,0,1), 90,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This friendly spirit wants nothing but to reach afterlife. It poses no threat whatsoever."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch servine", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,4),
                         new MoveLearnSetEntry(Move.SHADOW_BALL,34),

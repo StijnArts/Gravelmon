@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGeodude extends drai.dev.data.pokemon.Pokemon {
     public EpochGeodude(String name, Aspect aspect) {
-        super(name, aspect,"EpochGeodude",
+        super(name, aspect, "EpochGeodude",
                 Type.ROCK,Type.FIRE,
                 new Stats(60,
                         70,
@@ -67,13 +67,14 @@ public class EpochGeodude extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.STEAM_ENGINE,Ability.STURDY), Ability.DRY_SKIN,
                 4, 603,
-                new Stats(60,70,1,15,25,60), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its body is hot to the touch as it was recently formed from magma floes. Simply touching it can cause second degree burns."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch graveler", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HEATSIPHON,33),
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,54),
@@ -158,9 +159,8 @@ public class EpochGeodude extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLARESWEEP,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 23, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

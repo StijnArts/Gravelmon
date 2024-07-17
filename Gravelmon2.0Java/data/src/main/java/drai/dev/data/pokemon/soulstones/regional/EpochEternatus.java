@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochEternatus extends drai.dev.data.pokemon.Pokemon {
     public EpochEternatus(String name, Aspect aspect) {
-        super(name, aspect,"EpochEternatus",
+        super(name, aspect, "EpochEternatus",
                 Type.GHOST,Type.DRAGON,
                 new Stats(140,
                         85,
@@ -67,7 +67,7 @@ public class EpochEternatus extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.PRESSURE), null,
                 200, 9500,
-                new Stats(3,85,95,130,145,95), 255,
+                new Stats(3,0,0,0,0,0), 255,
                 -1.0,
                 345, ExperienceGroup.SLOW,
                 70,

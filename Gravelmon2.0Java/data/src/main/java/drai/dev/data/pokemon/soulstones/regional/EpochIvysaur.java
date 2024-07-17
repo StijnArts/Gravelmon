@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochIvysaur extends drai.dev.data.pokemon.Pokemon {
     public EpochIvysaur(String name, Aspect aspect) {
-        super(name, aspect,"EpochIvysaur",
+        super(name, aspect, "EpochIvysaur",
                 Type.ICE,Type.FAIRY,
                 new Stats(60,
                         62,
@@ -67,13 +67,14 @@ public class EpochIvysaur extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.FAIRY_AURA,Ability.ICE_SCALES), Ability.PASTEL_VEIL,
                 10, 130,
-                new Stats(60,62,63,1,80,80), 100,
+                new Stats(0,0,0,1,0,0), 100,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.MINERAL),
                 List.of("It has become so deeply intertwined with its crystal that any poacher that seeks to take its crystal will inevitably kill this creature too."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch venusaur", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.MINERALWAVE,15),
@@ -182,8 +183,8 @@ public class EpochIvysaur extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochElgyem extends drai.dev.data.pokemon.Pokemon {
     public EpochElgyem(String name, Aspect aspect) {
-        super(name, aspect,"EpochElgyem",
+        super(name, aspect, "EpochElgyem",
                 Type.COSMIC,Type.DARK,
                 new Stats(75,
                         45,
@@ -67,13 +67,14 @@ public class EpochElgyem extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.GENIUS,Ability.IMMUNITY), Ability.FULL_METAL_BODY,
                 5, 90,
-                new Stats(75,45,65,1,35,85), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 67, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("This Pokémon is supposed to represent a soldier sent by an advanced civilization to study a species and evaluate them to eventually become a subservient colony."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch beheeyem", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SIPHON,6),
                         new MoveLearnSetEntry(Move.MIND_READER,50),

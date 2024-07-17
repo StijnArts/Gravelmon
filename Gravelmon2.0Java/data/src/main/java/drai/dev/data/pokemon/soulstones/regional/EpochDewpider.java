@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDewpider extends drai.dev.data.pokemon.Pokemon {
     public EpochDewpider(String name, Aspect aspect) {
-        super(name, aspect,"EpochDewpider",
+        super(name, aspect, "EpochDewpider",
                 Type.LIGHT,Type.ELECTRIC,
                 new Stats(38,
                         40,
@@ -67,13 +67,14 @@ public class EpochDewpider extends drai.dev.data.pokemon.Pokemon {
                         72),
                 List.of(Ability.TANGLED_FEET,Ability.COMPOUND_EYES), Ability.LIGHTBULB,
                 3, 40,
-                new Stats(38,40,52,27,1,72), 200,
+                new Stats(0,0,0,0,1,0), 200,
                 0.5,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It flickers when it is upset or emotional. It will turn the light it emits off when it is in danger so predators cannot pursue it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch araquanid", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,8),
                         new MoveLearnSetEntry(Move.STATICSHOCK,4),

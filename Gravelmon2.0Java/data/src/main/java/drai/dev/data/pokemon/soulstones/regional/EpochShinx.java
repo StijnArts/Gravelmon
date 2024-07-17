@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShinx extends drai.dev.data.pokemon.Pokemon {
     public EpochShinx(String name, Aspect aspect) {
-        super(name, aspect,"EpochShinx",
+        super(name, aspect, "EpochShinx",
                 Type.DARK,Type.DRAGON,
                 new Stats(55,
                         45,
@@ -67,13 +67,14 @@ public class EpochShinx extends drai.dev.data.pokemon.Pokemon {
                         44),
                 List.of(Ability.REALISM,Ability.GUTS), Ability.TOUGH_CLAWS,
                 5, 95,
-                new Stats(55,1,44,45,30,44), 235,
+                new Stats(0,1,0,0,0,0), 235,
                 0.5,
                 53, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is unable to use its wings to fly long distances quite yet, but they are able to float in the air for short periods by flapping them fiercely."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch luxio", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),
                         new MoveLearnSetEntry(Move.DRAGONBLOOD,1),

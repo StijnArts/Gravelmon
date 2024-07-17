@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKilowattrel extends drai.dev.data.pokemon.Pokemon {
     public EpochKilowattrel(String name, Aspect aspect) {
-        super(name, aspect,"EpochKilowattrel",
+        super(name, aspect, "EpochKilowattrel",
                 Type.ICE,Type.ROCK,
                 new Stats(70,
                         105,
@@ -67,7 +67,7 @@ public class EpochKilowattrel extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.SKILL_LINK,Ability.STURDY), Ability.TECHNICIAN,
                 14, 386,
-                new Stats(70,105,60,125,70,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 172, ExperienceGroup.MEDIUM_SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSawk extends drai.dev.data.pokemon.Pokemon {
     public EpochSawk(String name, Aspect aspect) {
-        super(name, aspect,"EpochSawk",
+        super(name, aspect, "EpochSawk",
                 Type.ROCK,Type.FIGHTING,
                 new Stats(75,
                         125,
@@ -67,7 +67,7 @@ public class EpochSawk extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.STURDY,Ability.ROCK_HEAD), Ability.CLAYFORM,
                 14, 510,
-                new Stats(75,2,65,95,40,65), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 163, ExperienceGroup.MEDIUM_FAST,
                 70,

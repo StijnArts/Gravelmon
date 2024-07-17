@@ -279,6 +279,42 @@
       "permanent": true   
  },
     {
+      "id": "eevee_galaxeon",
+      "variant": "item_interact",
+      "result": "galaxeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_prismeon",
+      "variant": "item_interact",
+      "result": "prismeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_octaveon",
+      "variant": "item_interact",
+      "result": "octaveon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:ocarina",
+      "permanent": true   
+ },
+    {
       "id": "eevee_oreon",
       "variant": "item_interact",
       "result": "oreon",
@@ -647,6 +683,21 @@
         "percentage": 10
       },
       {
+        "item": "cobblemon:moon_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:ocarina",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
         "item": "minecraft:cookie",
         "quantityRange": "1-1",
         "percentage": 10
@@ -858,6 +909,104 @@
   "pokedex": [
     "cobblemon.species.epocheevee.desc"
   ],
+  "evolutions": [
+    {
+      "id": "eevee_epoch_vaporeon",
+      "variant": "item_interact",
+      "result": "epoch vaporeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_epoch_jolteon",
+      "variant": "item_interact",
+      "result": "epoch jolteon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:air_stone",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_epoch_flareon",
+      "variant": "item_interact",
+      "result": "epoch flareon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:solid_stone",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_epoch_leafeon",
+      "variant": "item_interact",
+      "result": "epoch leafeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:silver_powder",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_epoch_glaceon",
+      "variant": "item_interact",
+      "result": "epoch glaceon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_epoch_espeon",
+      "variant": "item_interact",
+      "result": "epoch espeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:black_sludge",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_epoch_umbreon",
+      "variant": "item_interact",
+      "result": "epoch umbreon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:black_belt",
+      "permanent": true   
+ },
+    {
+      "id": "eevee_epoch_sylveon",
+      "variant": "item_interact",
+      "result": "epoch sylveon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -866,12 +1015,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 70,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 90,
-    "special_defence": 70,
-    "speed": 75
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 65,

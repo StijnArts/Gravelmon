@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGurdurrOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGurdurrOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGurdurrOne",
+        super(name, aspect, "EpochGurdurrOne",
                 Type.GRASS,Type.FIGHTING,
                 new Stats(85,
                         90,
@@ -67,13 +67,14 @@ public class EpochGurdurrOne extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.OBLIVIOUS,Ability.SHEER_FORCE), Ability.IRON_FIST,
                 12, 400,
-                new Stats(85,2,85,40,55,50), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.25,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("They are big and bulky because of constantly carrying around large logs of wood. They are able to effortlessly bench press the log."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo conkeldurr", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.ARM_THRUST,8),

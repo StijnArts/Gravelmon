@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRolycoly extends drai.dev.data.pokemon.Pokemon {
     public EpochRolycoly(String name, Aspect aspect) {
-        super(name, aspect,"EpochRolycoly",
+        super(name, aspect, "EpochRolycoly",
                 Type.ROCK,Type.GROUND,
                 new Stats(30,
                         40,
@@ -67,13 +67,14 @@ public class EpochRolycoly extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.STAMINA,Ability.VITALITY), Ability.SAND_STREAM,
                 3, 120,
-                new Stats(30,40,1,30,20,60), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 48, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Valuable minerals, gems and precious stones can be found in the rubble of its body."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch carkol", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,12),
                         new MoveLearnSetEntry(Move.DRILL_RUN,38),

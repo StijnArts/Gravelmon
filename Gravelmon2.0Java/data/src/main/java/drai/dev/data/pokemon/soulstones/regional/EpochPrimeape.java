@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPrimeape extends drai.dev.data.pokemon.Pokemon {
     public EpochPrimeape(String name, Aspect aspect) {
-        super(name, aspect,"EpochPrimeape",
+        super(name, aspect, "EpochPrimeape",
                 Type.SOUND,Type.FIGHTING,
                 new Stats(75,
                         100,
@@ -67,13 +67,14 @@ public class EpochPrimeape extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.ANGER_POINT,Ability.DEFIANT), Ability.BERSERK,
                 10, 320,
-                new Stats(75,2,70,90,50,70), 75,
+                new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 159, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("A Primeape uses its screeching to get even with people or Pokemon that have previously annoyed it. Only when you have surrendered, will it relent."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch annihilape", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:ocarina")),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,8),
                         new MoveLearnSetEntry(Move.FRENZY,54),
@@ -171,8 +172,8 @@ public class EpochPrimeape extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 46, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochQuilava extends drai.dev.data.pokemon.Pokemon {
     public EpochQuilava(String name, Aspect aspect) {
-        super(name, aspect,"EpochQuilava",
+        super(name, aspect, "EpochQuilava",
                 Type.STEEL,Type.NORMAL,
                 new Stats(75,
                         85,
@@ -67,13 +67,14 @@ public class EpochQuilava extends drai.dev.data.pokemon.Pokemon {
                         58),
                 List.of(Ability.MOTOR_DRIVE,Ability.ANALYTIC), Ability.TECHNICIAN,
                 9, 190,
-                new Stats(75,2,65,68,54,58), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("It uses the gears on its body to calibrate its balance, stay grounded, and focus its attacks."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch typhlosion", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,43),
                         new MoveLearnSetEntry(Move.POWERDRILL,39),
@@ -169,9 +170,8 @@ public class EpochQuilava extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

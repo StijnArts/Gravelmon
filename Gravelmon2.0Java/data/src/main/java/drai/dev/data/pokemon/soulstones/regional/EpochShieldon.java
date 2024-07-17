@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShieldon extends drai.dev.data.pokemon.Pokemon {
     public EpochShieldon(String name, Aspect aspect) {
-        super(name, aspect,"EpochShieldon",
+        super(name, aspect, "EpochShieldon",
                 Type.ICE,Type.STEEL,
                 new Stats(30,
                         42,
@@ -67,13 +67,14 @@ public class EpochShieldon extends drai.dev.data.pokemon.Pokemon {
                         88),
                 List.of(Ability.SOUNDPROOF,Ability.FORTIFICATION), Ability.STEELWORKER,
                 5, 570,
-                new Stats(30,42,1,30,42,88), 90,
+                new Stats(0,0,1,0,0,0), 90,
                 0.875,
                 70, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Its head is said to be made of an ancient crystal that is as hard as steel."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch bastiodon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,22),
                         new MoveLearnSetEntry(Move.METAL_BURST,30),

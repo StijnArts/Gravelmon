@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochQuagsire extends drai.dev.data.pokemon.Pokemon {
     public EpochQuagsire(String name, Aspect aspect) {
-        super(name, aspect,"EpochQuagsire",
+        super(name, aspect, "EpochQuagsire",
                 Type.FAIRY,Type.FIRE,
                 new Stats(105,
                         35,
@@ -67,7 +67,7 @@ public class EpochQuagsire extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.SUPER_LUCK,Ability.WATER_ABSORB), Ability.SIMPLE,
                 14, 750,
-                new Stats(1,35,95,25,85,85), 90,
+                new Stats(1,0,0,0,0,0), 90,
                 0.5,
                 151, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -177,13 +177,15 @@ public class EpochQuagsire extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 48, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Quagsire");
 
     }

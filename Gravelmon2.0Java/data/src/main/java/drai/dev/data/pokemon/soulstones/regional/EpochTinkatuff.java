@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTinkatuff extends drai.dev.data.pokemon.Pokemon {
     public EpochTinkatuff(String name, Aspect aspect) {
-        super(name, aspect,"EpochTinkatuff",
+        super(name, aspect, "EpochTinkatuff",
                 Type.GHOST,Type.DRAGON,
                 new Stats(65,
                         85,
@@ -67,13 +67,14 @@ public class EpochTinkatuff extends drai.dev.data.pokemon.Pokemon {
                         62),
                 List.of(Ability.DRAGONS_MAW,Ability.BONECOLLECTOR), Ability.RATTLED,
                 7, 591,
-                new Stats(65,1,78,55,35,62), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.0,
                 133, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It hunts in small parties for dragons. Individually, they are not very threatening, but in a small band, they can outnumber and overwhelm a foe."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch tinkaton", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),
                         new MoveLearnSetEntry(Move.POLTERGEIST,61),

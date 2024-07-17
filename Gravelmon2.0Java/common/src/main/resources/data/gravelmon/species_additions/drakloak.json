@@ -122,6 +122,22 @@
   "pokedex": [
     "cobblemon.species.epochdrakloak.desc"
   ],
+  "evolutions": [
+    {
+      "id": "drakloak_epoch_dragapult",
+      "variant": "level_up",
+      "result": "epoch dragapult",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -130,11 +146,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 68,
-    "attack": 60,
-    "defence": 50,
-    "special_attack": 82,
-    "special_defence": 80,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 2
   },
   "height": 14,

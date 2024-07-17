@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDoubladeThree extends drai.dev.data.pokemon.Pokemon {
     public EpochDoubladeThree(String name, Aspect aspect) {
-        super(name, aspect,"EpochDoubladeThree",
+        super(name, aspect, "EpochDoubladeThree",
                 Type.GROUND,
                 new Stats(59,
                         80,
@@ -66,14 +66,15 @@ public class EpochDoubladeThree extends drai.dev.data.pokemon.Pokemon {
                         45,
                         99),
                 List.of(Ability.STATIC,Ability.TRANSISTOR), Ability.CONTRARY,
-                0, 0,
-                new Stats(59,80,2,65,45,99), 222,
+                8, 20,
+                new Stats(0,0,2,0,0,0), 222,
                 0.5,
                 157, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon masquerades as a charged mace."),
-                List.of(),
+                List.of(new EvolutionEntry("epochthree aegislash", EvolutionType.ITEM_INTERACT, false, List.of(),
+ List.of(), List.of(), "gravelmon:solid_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,12),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,4),

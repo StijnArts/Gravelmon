@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVanillish extends drai.dev.data.pokemon.Pokemon {
     public EpochVanillish(String name, Aspect aspect) {
-        super(name, aspect,"EpochVanillish",
+        super(name, aspect, "EpochVanillish",
                 Type.POISON,
                 new Stats(71,
                         45,
@@ -67,13 +67,14 @@ public class EpochVanillish extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.EARTH_EATER,Ability.TOXIC_DEBRIS), Ability.STICKY_HOLD,
                 11, 410,
-                new Stats(71,45,1,44,55,80), 120,
+                new Stats(0,0,1,0,0,0), 120,
                 0.5,
                 138, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It's unknown where exactly the Pokemon ends and the trail of sludge begins. There is a suspicion that it varies from one to another."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch vanilluxe", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DISABLE,20),
                         new MoveLearnSetEntry(Move.HARDEN,1),

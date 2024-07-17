@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochClefairy extends drai.dev.data.pokemon.Pokemon {
     public EpochClefairy(String name, Aspect aspect) {
-        super(name, aspect,"EpochClefairy",
+        super(name, aspect, "EpochClefairy",
                 Type.COSMIC,Type.FAIRY,
                 new Stats(70,
                         30,
@@ -67,13 +67,14 @@ public class EpochClefairy extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.FAIRY_AURA,Ability.MISTY_SURGE), Ability.SHIELD_DUST,
                 6, 75,
-                new Stats(2,30,48,45,65,65), 150,
+                new Stats(2,0,0,0,0,0), 150,
                 0.0,
                 113, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("When their wings flutter, they spread pixie dust around them. In sufficient quantities, this can allow a person to be able to fly."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch clefable", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.METEORSHOWER,8),
                         new MoveLearnSetEntry(Move.FLUTTER,19),
@@ -191,9 +192,8 @@ public class EpochClefairy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 43, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

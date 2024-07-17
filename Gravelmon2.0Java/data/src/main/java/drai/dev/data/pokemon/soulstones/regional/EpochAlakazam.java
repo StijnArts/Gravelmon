@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAlakazam extends drai.dev.data.pokemon.Pokemon {
     public EpochAlakazam(String name, Aspect aspect) {
-        super(name, aspect,"EpochAlakazam",
+        super(name, aspect, "EpochAlakazam",
                 Type.FIGHTING,Type.NORMAL,
                 new Stats(85,
                         50,
@@ -67,7 +67,7 @@ public class EpochAlakazam extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.INNER_FOCUS,Ability.STEADFAST), Ability.PURE_POWER,
                 15, 480,
-                new Stats(85,50,75,90,110,3), 100,
+                new Stats(0,0,0,0,0,3), 100,
                 0.25,
                 225, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -156,8 +156,8 @@ public class EpochAlakazam extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 53, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTorkoal extends drai.dev.data.pokemon.Pokemon {
     public EpochTorkoal(String name, Aspect aspect) {
-        super(name, aspect,"EpochTorkoal",
+        super(name, aspect, "EpochTorkoal",
                 Type.ELECTRIC,
                 new Stats(70,
                         65,
@@ -67,7 +67,7 @@ public class EpochTorkoal extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.ELECTRIC_SURGE,Ability.LEVITATE), Ability.DRIZZLE,
                 5, 804,
-                new Stats(70,65,2,20,105,100), 90,
+                new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
                 70,

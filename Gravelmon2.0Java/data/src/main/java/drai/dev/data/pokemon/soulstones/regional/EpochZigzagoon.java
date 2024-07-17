@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochZigzagoon extends drai.dev.data.pokemon.Pokemon {
     public EpochZigzagoon(String name, Aspect aspect) {
-        super(name, aspect,"EpochZigzagoon",
+        super(name, aspect, "EpochZigzagoon",
                 Type.GROUND,Type.DARK,
                 new Stats(38,
                         41,
@@ -67,13 +67,14 @@ public class EpochZigzagoon extends drai.dev.data.pokemon.Pokemon {
                         41),
                 List.of(Ability.POUNCE,Ability.INSOMNIA), Ability.GLUTTONY,
                 4, 175,
-                new Stats(38,41,30,60,30,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Zigzagoons are ordinarily not strong enough to hunt by themselves and instead feast on what is discarded by stronger predators in their habitat."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch linoone", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,23),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,18),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPiloswine extends drai.dev.data.pokemon.Pokemon {
     public EpochPiloswine(String name, Aspect aspect) {
-        super(name, aspect,"EpochPiloswine",
+        super(name, aspect, "EpochPiloswine",
                 Type.ELECTRIC,Type.GROUND,
                 new Stats(100,
                         90,
@@ -67,13 +67,14 @@ public class EpochPiloswine extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.STATIC,Ability.GALVANIZE), Ability.OVERCOAT,
                 11, 558,
-                new Stats(1,90,90,75,50,45), 75,
+                new Stats(1,0,0,0,0,0), 75,
                 0.5,
                 158, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its fur is exceptionally warm and are often found in rocky areas where they graze on small grassy patches."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch mamoswine", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,27),
                         new MoveLearnSetEntry(Move.ENDURE,24),
@@ -151,9 +152,9 @@ public class EpochPiloswine extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 47, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

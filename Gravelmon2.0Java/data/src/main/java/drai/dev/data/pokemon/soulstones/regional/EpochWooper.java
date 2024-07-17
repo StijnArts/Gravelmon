@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWooper extends drai.dev.data.pokemon.Pokemon {
     public EpochWooper(String name, Aspect aspect) {
-        super(name, aspect,"EpochWooper",
+        super(name, aspect, "EpochWooper",
                 Type.FAIRY,Type.FIRE,
                 new Stats(45,
                         15,
@@ -67,13 +67,14 @@ public class EpochWooper extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.SUPER_LUCK,Ability.WATER_ABSORB), Ability.SIMPLE,
                 4, 85,
-                new Stats(1,15,35,25,55,35), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 42, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("This Pokemon is viewed as a lucky charm. It tends to play near geysers and can sense when they are about to erupt."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch quagsire", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRANGE_STEAM,44),
                         new MoveLearnSetEntry(Move.STEAM_ERUPTION,60),
@@ -188,13 +189,15 @@ public class EpochWooper extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TITANIASLAW,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Wooper");
 
     }

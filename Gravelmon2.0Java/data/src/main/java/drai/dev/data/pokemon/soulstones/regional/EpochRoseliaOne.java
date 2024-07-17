@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRoseliaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochRoseliaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochRoseliaOne",
+        super(name, aspect, "EpochRoseliaOne",
                 Type.GRASS,Type.DRAGON,
                 new Stats(50,
                         60,
@@ -67,13 +67,14 @@ public class EpochRoseliaOne extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.LEAF_GUARD,Ability.IRON_BARBS), Ability.SYNTHESIZE,
                 3, 20,
-                new Stats(50,60,45,2,100,80), 150,
+                new Stats(0,0,0,2,0,0), 150,
                 0.0,
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("The thorns on this Pokemon can cause very deep gashes. Even experienced florists need to be very careful when handling this Pokemon."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo roserade", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.PETAL_DANCE,55),
                         new MoveLearnSetEntry(Move.EDENFRUIT,50),

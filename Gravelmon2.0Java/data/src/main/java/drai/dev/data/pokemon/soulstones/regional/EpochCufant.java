@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCufant extends drai.dev.data.pokemon.Pokemon {
     public EpochCufant(String name, Aspect aspect) {
-        super(name, aspect,"EpochCufant",
+        super(name, aspect, "EpochCufant",
                 Type.GROUND,Type.PSYCHIC,
                 new Stats(72,
                         40,
@@ -67,13 +67,14 @@ public class EpochCufant extends drai.dev.data.pokemon.Pokemon {
                         54),
                 List.of(Ability.CHARISMA,Ability.FILTER), Ability.TROPICALHIDE,
                 12, 1000,
-                new Stats(72,40,54,1,70,54), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MINERAL),
                 List.of("This Pokemon is too lazy to reach for fruit in trees despite its long trunk so it instead uses its psychic powers to telepathically retrieve the fruit."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch copperajah", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.STORED_POWER,33),
                         new MoveLearnSetEntry(Move.TACKLE,1),

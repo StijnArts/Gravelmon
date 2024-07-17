@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochEkans extends drai.dev.data.pokemon.Pokemon {
     public EpochEkans(String name, Aspect aspect) {
-        super(name, aspect,"EpochEkans",
+        super(name, aspect, "EpochEkans",
                 Type.GROUND,Type.POISON,
                 new Stats(40,
                         70,
@@ -67,13 +67,14 @@ public class EpochEkans extends drai.dev.data.pokemon.Pokemon {
                         54),
                 List.of(Ability.CORROSION,Ability.SAND_SPIT), Ability.LEECHINGFANGS,
                 20, 69,
-                new Stats(40,1,44,60,40,54), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("The rhythmic sound of an Ekans's tail is enough to put its foe to sleep when it can then move in to consume it whole."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch arbok", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONTINENTALRIFT,58),
                         new MoveLearnSetEntry(Move.WRAP,1),
@@ -168,9 +169,8 @@ public class EpochEkans extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGONGNAW,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_DESERT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

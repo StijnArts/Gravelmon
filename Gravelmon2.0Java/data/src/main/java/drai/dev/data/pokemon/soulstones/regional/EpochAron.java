@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAron extends drai.dev.data.pokemon.Pokemon {
     public EpochAron(String name, Aspect aspect) {
-        super(name, aspect,"EpochAron",
+        super(name, aspect, "EpochAron",
                 Type.BUG,Type.ROCK,
                 new Stats(50,
                         70,
@@ -67,13 +67,14 @@ public class EpochAron extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.SWARM,Ability.FORTIFICATION), Ability.SKILL_LINK,
                 4, 600,
-                new Stats(50,70,1,40,40,60), 180,
+                new Stats(0,0,1,0,0,0), 180,
                 0.5,
                 66, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("It is capable of burrowing deep underground and building large, sprawling nests where they breed and can quickly spread."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch lairon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,41),
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,54),

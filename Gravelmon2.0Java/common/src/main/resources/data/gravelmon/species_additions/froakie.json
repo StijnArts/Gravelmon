@@ -131,6 +131,22 @@
   "pokedex": [
     "cobblemon.species.epochfroakie.desc"
   ],
+  "evolutions": [
+    {
+      "id": "froakie_epoch_frogadier",
+      "variant": "level_up",
+      "result": "epoch frogadier",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -139,11 +155,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 41,
-    "attack": 56,
-    "defence": 40,
-    "special_attack": 71,
-    "special_defence": 62,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 3,

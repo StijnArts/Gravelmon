@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCentiskorch extends drai.dev.data.pokemon.Pokemon {
     public EpochCentiskorch(String name, Aspect aspect) {
-        super(name, aspect,"EpochCentiskorch",
+        super(name, aspect, "EpochCentiskorch",
                 Type.BUG,Type.POISON,
                 new Stats(100,
                         125,
@@ -67,7 +67,7 @@ public class EpochCentiskorch extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.LEECHINGFANGS,Ability.MERCILESS), Ability.POISON_TOUCH,
                 30, 1200,
-                new Stats(100,2,65,95,50,90), 75,
+                new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,

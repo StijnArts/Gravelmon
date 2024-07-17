@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTepig extends drai.dev.data.pokemon.Pokemon {
     public EpochTepig(String name, Aspect aspect) {
-        super(name, aspect,"EpochTepig",
+        super(name, aspect, "EpochTepig",
                 Type.GROUND,Type.ROCK,
                 new Stats(65,
                         53,
@@ -67,13 +67,14 @@ public class EpochTepig extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.ROCK_HEAD,Ability.DRY_SKIN), Ability.CLAYFORM,
                 5, 99,
-                new Stats(1,53,55,45,35,55), 90,
+                new Stats(1,0,0,0,0,0), 90,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon couldn't be happier than when it's frolicking in a puddle of mud."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch pignite", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,37),
                         new MoveLearnSetEntry(Move.TACKLE,1),

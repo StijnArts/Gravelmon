@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDhelmise extends drai.dev.data.pokemon.Pokemon {
     public EpochDhelmise(String name, Aspect aspect) {
-        super(name, aspect,"EpochDhelmise",
+        super(name, aspect, "EpochDhelmise",
                 Type.BUG,Type.COSMIC,
                 new Stats(70,
                         46,
@@ -67,7 +67,7 @@ public class EpochDhelmise extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.IMMUNITY,Ability.UNAWARE), Ability.INTUITION,
                 39, 2100,
-                new Stats(70,46,60,2,131,110), 85,
+                new Stats(0,0,0,2,0,0), 85,
                 -1.0,
                 181, ExperienceGroup.MEDIUM_FAST,
                 70,

@@ -144,6 +144,22 @@
   "pokedex": [
     "cobblemon.species.epochcharmander.desc"
   ],
+  "evolutions": [
+    {
+      "id": "charmander_epoch_charmeleon",
+      "variant": "level_up",
+      "result": "epoch charmeleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -152,12 +168,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
+    "hp": 0,
     "attack": 1,
-    "defence": 47,
-    "special_attack": 65,
-    "special_defence": 42,
-    "speed": 50
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 85,

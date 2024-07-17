@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGarchompOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGarchompOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGarchompOne",
+        super(name, aspect, "EpochGarchompOne",
                 Type.WATER,Type.DRAGON,
                 new Stats(112,
                         100,
@@ -67,7 +67,7 @@ public class EpochGarchompOne extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.ROUGH_SKIN,Ability.STAKEOUT), Ability.INTIMIDATE,
                 19, 950,
-                new Stats(112,3,90,118,85,95), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.5,
                 270, ExperienceGroup.SLOW,
                 70,

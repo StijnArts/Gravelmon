@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMukOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMukOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMukOne",
+        super(name, aspect, "EpochMukOne",
                 Type.FIRE,Type.GROUND,
                 new Stats(105,
                         85,
@@ -67,7 +67,7 @@ public class EpochMukOne extends drai.dev.data.pokemon.Pokemon {
                         120),
                 List.of(Ability.MAGMA_ARMOR,Ability.FLAME_BODY), Ability.CLAYFORM,
                 12, 300,
-                new Stats(1,85,75,50,65,120), 75,
+                new Stats(1,0,0,0,0,0), 75,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -170,13 +170,13 @@ public class EpochMukOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 39, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.LAVA_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
            setLangFileName("Muk");
 
     }

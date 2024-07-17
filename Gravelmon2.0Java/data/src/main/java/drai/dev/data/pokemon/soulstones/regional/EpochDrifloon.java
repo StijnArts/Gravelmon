@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDrifloon extends drai.dev.data.pokemon.Pokemon {
     public EpochDrifloon(String name, Aspect aspect) {
-        super(name, aspect,"EpochDrifloon",
+        super(name, aspect, "EpochDrifloon",
                 Type.FIRE,Type.FLYING,
                 new Stats(80,
                         55,
@@ -67,13 +67,14 @@ public class EpochDrifloon extends drai.dev.data.pokemon.Pokemon {
                         49),
                 List.of(Ability.FLAME_BODY,Ability.UNBURDEN), Ability.WHITE_SMOKE,
                 4, 12,
-                new Stats(1,55,49,70,45,49), 125,
+                new Stats(1,0,0,0,0,0), 125,
                 0.5,
                 70, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The fact that it is filled with helium makes it very lightweight and prone to fly off into the wind unless restrained down to the ground."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch drifblim", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HEATSIPHON,48),
                         new MoveLearnSetEntry(Move.DEFOG,20),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAromatisse extends drai.dev.data.pokemon.Pokemon {
     public EpochAromatisse(String name, Aspect aspect) {
-        super(name, aspect,"EpochAromatisse",
+        super(name, aspect, "EpochAromatisse",
                 Type.FAIRY,Type.POISON,
                 new Stats(101,
                         89,
@@ -67,7 +67,7 @@ public class EpochAromatisse extends drai.dev.data.pokemon.Pokemon {
                         99),
                 List.of(Ability.CURIOUS_MEDICINE,Ability.HEALER), Ability.POISON_TOUCH,
                 8, 155,
-                new Stats(2,89,92,29,52,99), 200,
+                new Stats(2,0,0,0,0,0), 200,
                 0.5,
                 162, ExperienceGroup.MEDIUM_FAST,
                 70,

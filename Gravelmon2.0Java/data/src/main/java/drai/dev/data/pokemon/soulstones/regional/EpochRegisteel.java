@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRegisteel extends drai.dev.data.pokemon.Pokemon {
     public EpochRegisteel(String name, Aspect aspect) {
-        super(name, aspect,"EpochRegisteel",
+        super(name, aspect, "EpochRegisteel",
                 Type.PSYCHIC,
                 new Stats(80,
                         75,
@@ -67,7 +67,7 @@ public class EpochRegisteel extends drai.dev.data.pokemon.Pokemon {
                         150),
                 List.of(Ability.DAZZLING,Ability.SCREEN_CLEANER), Ability.SPELLCASTER,
                 19, 2050,
-                new Stats(80,75,2,50,75,150), 75,
+                new Stats(0,0,2,0,0,0), 75,
                 -1.0,
                 261, ExperienceGroup.SLOW,
                 70,

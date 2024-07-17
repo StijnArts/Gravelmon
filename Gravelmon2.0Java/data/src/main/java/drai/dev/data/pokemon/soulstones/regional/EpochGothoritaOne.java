@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGothoritaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGothoritaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGothoritaOne",
+        super(name, aspect, "EpochGothoritaOne",
                 Type.POISON,Type.SOUND,
                 new Stats(60,
                         70,
@@ -67,13 +67,14 @@ public class EpochGothoritaOne extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.SHED_SKIN,Ability.DISHEARTEN), Ability.STAKEOUT,
                 7, 180,
-                new Stats(60,1,70,55,70,65), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.0,
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("The rattling sound its tail produces will often intensify when it finds prey, betraying its ability to hunt effectively."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo gothitelle", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,39),
                         new MoveLearnSetEntry(Move.ACID,7),

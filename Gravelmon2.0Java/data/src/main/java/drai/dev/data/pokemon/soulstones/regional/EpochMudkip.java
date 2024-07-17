@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMudkip extends drai.dev.data.pokemon.Pokemon {
     public EpochMudkip(String name, Aspect aspect) {
-        super(name, aspect,"EpochMudkip",
+        super(name, aspect, "EpochMudkip",
                 Type.COSMIC,Type.FIRE,
                 new Stats(60,
                         40,
@@ -67,13 +67,14 @@ public class EpochMudkip extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.STARSTRUCK,Ability.FILTER), Ability.NEBULACLOUD,
                 4, 76,
-                new Stats(60,40,50,40,1,70), 90,
+                new Stats(0,0,0,0,1,0), 90,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("The surface of its skin is exceptionally hot and unstable. It periodically gives off bursts of energy so it is not recommended to pet it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch marshtomp", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,4),
                         new MoveLearnSetEntry(Move.ASTEROID_BELT,10),
@@ -193,9 +194,8 @@ public class EpochMudkip extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OVERHEAT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

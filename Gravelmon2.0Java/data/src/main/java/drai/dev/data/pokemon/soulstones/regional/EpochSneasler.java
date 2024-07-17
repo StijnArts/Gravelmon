@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSneasler extends drai.dev.data.pokemon.Pokemon {
     public EpochSneasler(String name, Aspect aspect) {
-        super(name, aspect,"EpochSneasler",
+        super(name, aspect, "EpochSneasler",
                 Type.FIGHTING,Type.GRASS,
                 new Stats(90,
                         100,
@@ -67,7 +67,7 @@ public class EpochSneasler extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.SCRAPPY,Ability.INTIMIDATE), Ability.BATTLE_ARMOR,
                 11, 340,
-                new Stats(90,1,85,105,45,85), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -163,9 +163,9 @@ public class EpochSneasler extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 51, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

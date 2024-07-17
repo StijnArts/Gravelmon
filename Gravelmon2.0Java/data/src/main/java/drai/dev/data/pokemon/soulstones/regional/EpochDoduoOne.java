@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDoduoOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDoduoOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDoduoOne",
+        super(name, aspect, "EpochDoduoOne",
                 Type.WATER,Type.FLYING,
                 new Stats(45,
                         75,
@@ -67,13 +67,14 @@ public class EpochDoduoOne extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.CUTE_CHARM,Ability.AFFECTION), Ability.WATER_VEIL,
                 14, 392,
-                new Stats(45,75,35,1,35,55), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It will immerse itself up to its waist in water at most to hunt for fish. It usually does not like wading in further despite being a Water-type."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo dodrio", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LOVEBURST,44),
                         new MoveLearnSetEntry(Move.BEAK_BLAST,58),
@@ -175,11 +176,10 @@ public class EpochDoduoOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BATON_PASS,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Doduo");

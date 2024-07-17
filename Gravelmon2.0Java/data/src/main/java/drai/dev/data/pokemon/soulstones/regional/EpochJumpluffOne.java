@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochJumpluffOne extends drai.dev.data.pokemon.Pokemon {
     public EpochJumpluffOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochJumpluffOne",
+        super(name, aspect, "EpochJumpluffOne",
                 Type.BUG,Type.LIGHT,
                 new Stats(85,
                         45,
@@ -67,7 +67,7 @@ public class EpochJumpluffOne extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.SHIELD_DUST,Ability.EFFECT_SPORE), Ability.LEVITATE,
                 8, 30,
-                new Stats(85,45,70,100,85,3), 90,
+                new Stats(0,0,0,0,0,3), 90,
                 0.5,
                 207, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -173,13 +173,13 @@ public class EpochJumpluffOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Jumpluff");
 
     }

@@ -61,6 +61,22 @@
   "pokedex": [
     "cobblemon.species.epochwurmple.desc"
   ],
+  "evolutions": [
+    {
+      "id": "wurmple_epoch_silcoon",
+      "variant": "level_up",
+      "result": "epoch silcoon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 10
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -70,11 +86,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 20,
-    "defence": 35,
-    "special_attack": 20,
-    "special_defence": 45,
-    "speed": 30
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 36,
@@ -143,6 +159,22 @@
   "pokedex": [
     "cobblemon.species.epochwurmpleone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "wurmple_epoch_cascoon",
+      "variant": "level_up",
+      "result": "epoch cascoon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 10
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -152,11 +184,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 45,
-    "defence": 35,
-    "special_attack": 20,
-    "special_defence": 20,
-    "speed": 30
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 36,

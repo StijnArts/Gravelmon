@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBeautifly extends drai.dev.data.pokemon.Pokemon {
     public EpochBeautifly(String name, Aspect aspect) {
-        super(name, aspect,"EpochBeautifly",
+        super(name, aspect, "EpochBeautifly",
                 Type.BUG,Type.PSYCHIC,
                 new Stats(80,
                         50,
@@ -67,7 +67,7 @@ public class EpochBeautifly extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.TELEPATHY,Ability.PSYCHIC_SURGE), Ability.CHARISMA,
                 10, 284,
-                new Stats(80,50,70,2,90,70), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 178, ExperienceGroup.MEDIUM_FAST,
                 70,

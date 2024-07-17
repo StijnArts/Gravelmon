@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKrabby extends drai.dev.data.pokemon.Pokemon {
     public EpochKrabby(String name, Aspect aspect) {
-        super(name, aspect,"EpochKrabby",
+        super(name, aspect, "EpochKrabby",
                 Type.GROUND,Type.ROCK,
                 new Stats(30,
                         105,
@@ -67,13 +67,14 @@ public class EpochKrabby extends drai.dev.data.pokemon.Pokemon {
                         25),
                 List.of(Ability.WATER_ABSORB,Ability.GUTS), Ability.SAND_FORCE,
                 4, 65,
-                new Stats(30,1,90,50,25,25), 225,
+                new Stats(0,1,0,0,0,0), 225,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("They look like harmless sandy rocks while disguised, but when stepped on, they will furiously chase you to pinch you back."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch kingler", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,4),
                         new MoveLearnSetEntry(Move.DIG,35),
@@ -160,8 +161,8 @@ public class EpochKrabby extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FACADE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

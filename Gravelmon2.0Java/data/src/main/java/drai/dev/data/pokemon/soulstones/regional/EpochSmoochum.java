@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSmoochum extends drai.dev.data.pokemon.Pokemon {
     public EpochSmoochum(String name, Aspect aspect) {
-        super(name, aspect,"EpochSmoochum",
+        super(name, aspect, "EpochSmoochum",
                 Type.SOUND,Type.ICE,
                 new Stats(45,
                         15,
@@ -67,13 +67,14 @@ public class EpochSmoochum extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.COMPETITIVE,Ability.OBLIVIOUS), Ability.PUNK_ROCK,
                 4, 60,
-                new Stats(45,15,30,1,85,65), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.0,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Its voice cracks easily when it tries to reach high notes. It is still training its voice but it has a long way to go."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch jynx", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,24),
                         new MoveLearnSetEntry(Move.BLIZZARD,57),
@@ -174,8 +175,8 @@ public class EpochSmoochum extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FREEZEDRY,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 25, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

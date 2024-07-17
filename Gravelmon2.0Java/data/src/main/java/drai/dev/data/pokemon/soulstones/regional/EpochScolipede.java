@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochScolipede extends drai.dev.data.pokemon.Pokemon {
     public EpochScolipede(String name, Aspect aspect) {
-        super(name, aspect,"EpochScolipede",
+        super(name, aspect, "EpochScolipede",
                 Type.STEEL,Type.COSMIC,
                 new Stats(95,
                         35,
@@ -67,7 +67,7 @@ public class EpochScolipede extends drai.dev.data.pokemon.Pokemon {
                         99),
                 List.of(Ability.TELEPATHY,Ability.TINTED_LENS), Ability.ANALYTIC,
                 25, 2005,
-                new Stats(1,35,99,72,85,99), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.5,
                 218, ExperienceGroup.MEDIUM_SLOW,
                 70,

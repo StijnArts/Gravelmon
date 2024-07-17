@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSwirlix extends drai.dev.data.pokemon.Pokemon {
     public EpochSwirlix(String name, Aspect aspect) {
-        super(name, aspect,"EpochSwirlix",
+        super(name, aspect, "EpochSwirlix",
                 Type.FLYING,Type.LIGHT,
                 new Stats(55,
                         35,
@@ -67,13 +67,14 @@ public class EpochSwirlix extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.IRRADIATE,Ability.CHARISMA), Ability.AERILATE,
                 4, 35,
-                new Stats(55,35,50,60,1,75), 200,
+                new Stats(0,0,0,0,1,0), 200,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It is lightweight and easily blown around by a strong breeze. It enjoys travelling in small packs so that they can bounce off one another in strong winds."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch slurpuff", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,13),
                         new MoveLearnSetEntry(Move.REPENTANCE,46),

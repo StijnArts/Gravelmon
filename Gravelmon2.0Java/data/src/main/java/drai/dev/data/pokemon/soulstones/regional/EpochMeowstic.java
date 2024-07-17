@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMeowstic extends drai.dev.data.pokemon.Pokemon {
     public EpochMeowstic(String name, Aspect aspect) {
-        super(name, aspect,"EpochMeowstic",
+        super(name, aspect, "EpochMeowstic",
                 Type.PSYCHIC,Type.GHOST,
                 new Stats(74,
                         88,
@@ -67,7 +67,7 @@ public class EpochMeowstic extends drai.dev.data.pokemon.Pokemon {
                         71),
                 List.of(Ability.REALISM,Ability.TELEPATHY), Ability.HUSTLE,
                 6, 85,
-                new Stats(74,88,76,104,53,2), 228,
+                new Stats(0,0,0,0,0,2), 228,
                 0.5,
                 163, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -167,7 +167,6 @@ public class EpochMeowstic extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-        setHasGenderDifferences(true);
            setLangFileName("Meowstic");
 
     }

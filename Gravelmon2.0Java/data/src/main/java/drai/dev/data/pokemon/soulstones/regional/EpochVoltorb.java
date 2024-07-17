@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVoltorb extends drai.dev.data.pokemon.Pokemon {
     public EpochVoltorb(String name, Aspect aspect) {
-        super(name, aspect,"EpochVoltorb",
+        super(name, aspect, "EpochVoltorb",
                 Type.ICE,
                 new Stats(50,
                         65,
@@ -67,13 +67,14 @@ public class EpochVoltorb extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.SPEED_BOOST,Ability.PACKEDSNOW), Ability.SNOW_CLOAK,
                 5, 104,
-                new Stats(50,65,25,80,45,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 -1.0,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is often confused as being a snowball which has resulted in many instances of small children throwing them at others."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch electrode", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.AURORA_VEIL,60),
@@ -134,13 +135,13 @@ public class EpochVoltorb extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 34, 3.8, List.of(
+                    new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Voltorb");
 
     }

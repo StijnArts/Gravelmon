@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWailord extends drai.dev.data.pokemon.Pokemon {
     public EpochWailord(String name, Aspect aspect) {
-        super(name, aspect,"EpochWailord",
+        super(name, aspect, "EpochWailord",
                 Type.GHOST,Type.WATER,
                 new Stats(120,
                         50,
@@ -67,7 +67,7 @@ public class EpochWailord extends drai.dev.data.pokemon.Pokemon {
                         115),
                 List.of(Ability.ETHEREAL,Ability.INNARDS_OUT), Ability.TORMENTED,
                 145, 3980,
-                new Stats(2,50,65,80,80,115), 100,
+                new Stats(2,0,0,0,0,0), 100,
                 0.5,
                 175, ExperienceGroup.FLUCTUATING,
                 70,
@@ -170,13 +170,16 @@ public class EpochWailord extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 41, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Wailord");
 
     }

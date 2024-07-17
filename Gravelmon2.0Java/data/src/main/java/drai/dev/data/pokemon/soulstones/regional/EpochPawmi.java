@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPawmi extends drai.dev.data.pokemon.Pokemon {
     public EpochPawmi(String name, Aspect aspect) {
-        super(name, aspect,"EpochPawmi",
+        super(name, aspect, "EpochPawmi",
                 Type.NORMAL,
                 new Stats(45,
                         50,
@@ -67,13 +67,14 @@ public class EpochPawmi extends drai.dev.data.pokemon.Pokemon {
                         25),
                 List.of(Ability.NORMALIZE,Ability.FLUFFY), Ability.SPEED_BOOST,
                 3, 25,
-                new Stats(45,50,40,60,20,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 48, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is normally very reserved and doesn't like strangers, but when it warms up to a person, it will become one of its best friends."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch pawmo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,39),
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,23),

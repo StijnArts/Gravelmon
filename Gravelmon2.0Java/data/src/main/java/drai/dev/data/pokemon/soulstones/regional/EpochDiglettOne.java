@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDiglettOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDiglettOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDiglettOne",
+        super(name, aspect, "EpochDiglettOne",
                 Type.ICE,
                 new Stats(50,
                         45,
@@ -67,13 +67,14 @@ public class EpochDiglettOne extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.SNOW_CLOAK,Ability.PACKEDSNOW), Ability.REGENERATOR,
                 2, 8,
-                new Stats(50,45,45,95,45,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Alongside Cacnea and Voltorb, this Pokemon often gets confused as ordinary snow."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo dugtrio", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,23),
                         new MoveLearnSetEntry(Move.FREEZEDRY,39),

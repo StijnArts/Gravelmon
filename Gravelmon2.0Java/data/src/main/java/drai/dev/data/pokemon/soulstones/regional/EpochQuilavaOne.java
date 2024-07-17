@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochQuilavaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochQuilavaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochQuilavaOne",
+        super(name, aspect, "EpochQuilavaOne",
                 Type.ICE,
                 new Stats(78,
                         39,
@@ -67,13 +67,14 @@ public class EpochQuilavaOne extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.REFRIGERATE,Ability.SNOW_CLOAK), Ability.ICYVEINS,
                 9, 190,
-                new Stats(78,39,58,1,80,65), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It can curl into a ball such that it is able to present itself as a natural formation of ice crystals."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo typhlosion", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BLIZZARD,57),
                         new MoveLearnSetEntry(Move.SNOWFLAKES,1),
@@ -154,9 +155,8 @@ public class EpochQuilavaOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

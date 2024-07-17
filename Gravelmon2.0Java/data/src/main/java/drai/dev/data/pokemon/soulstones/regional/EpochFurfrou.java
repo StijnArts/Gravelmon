@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFurfrou extends drai.dev.data.pokemon.Pokemon {
     public EpochFurfrou(String name, Aspect aspect) {
-        super(name, aspect,"EpochFurfrou",
+        super(name, aspect, "EpochFurfrou",
                 Type.FLYING,
                 new Stats(70,
                         75,
@@ -67,7 +67,7 @@ public class EpochFurfrou extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.ADAPTABILITY), null,
                 12, 280,
-                new Stats(70,75,65,115,75,2), 120,
+                new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
                 70,

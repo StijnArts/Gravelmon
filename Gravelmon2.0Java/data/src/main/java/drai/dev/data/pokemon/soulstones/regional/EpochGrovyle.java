@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGrovyle extends drai.dev.data.pokemon.Pokemon {
     public EpochGrovyle(String name, Aspect aspect) {
-        super(name, aspect,"EpochGrovyle",
+        super(name, aspect, "EpochGrovyle",
                 Type.BUG,Type.DRAGON,
                 new Stats(60,
                         85,
@@ -67,13 +67,14 @@ public class EpochGrovyle extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.COLOR_CHANGE,Ability.COMPOUND_EYES), Ability.REGENERATOR,
                 9, 216,
-                new Stats(60,1,75,85,50,50), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It has a long tongue that it uses to quickly swallow up smaller insects and has the ability to fan the spikes on its body out at predators."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch sceptile", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,45),
                         new MoveLearnSetEntry(Move.GLARE,25),
@@ -159,8 +160,8 @@ public class EpochGrovyle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

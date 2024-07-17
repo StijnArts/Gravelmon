@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGrotle extends drai.dev.data.pokemon.Pokemon {
     public EpochGrotle(String name, Aspect aspect) {
-        super(name, aspect,"EpochGrotle",
+        super(name, aspect, "EpochGrotle",
                 Type.DRAGON,Type.FIRE,
                 new Stats(75,
                         89,
@@ -67,13 +67,14 @@ public class EpochGrotle extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.SOLID_ROCK,Ability.FLAME_BODY), Ability.SHELL_ARMOR,
                 11, 970,
-                new Stats(75,1,85,36,55,65), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("The volcanic formation on its back has hardened but there are small vents that have created that allow the built in heat to periodically escape."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch torterra", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HEATSIPHON,35),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,5),

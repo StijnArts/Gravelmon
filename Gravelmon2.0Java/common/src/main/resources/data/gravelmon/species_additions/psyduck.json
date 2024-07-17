@@ -128,6 +128,22 @@
   "pokedex": [
     "cobblemon.species.epochpsyduck.desc"
   ],
+  "evolutions": [
+    {
+      "id": "psyduck_epoch_golduck",
+      "variant": "level_up",
+      "result": "epoch golduck",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -136,12 +152,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
-    "attack": 50,
-    "defence": 60,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 70,
-    "speed": 50
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 8,
   "weight": 196,

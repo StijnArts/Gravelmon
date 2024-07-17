@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochShellos extends drai.dev.data.pokemon.Pokemon {
     public EpochShellos(String name, Aspect aspect) {
-        super(name, aspect,"EpochShellos",
+        super(name, aspect, "EpochShellos",
                 Type.DRAGON,Type.NORMAL,
                 new Stats(86,
                         48,
@@ -67,13 +67,14 @@ public class EpochShellos extends drai.dev.data.pokemon.Pokemon {
                         69),
                 List.of(Ability.GOOEY,Ability.FRIEND_GUARD), Ability.DISHEARTEN,
                 3, 63,
-                new Stats(1,48,58,24,50,69), 190,
+                new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.DRAGON),
                 List.of("It is an invasive species from another universe. Apparently, it is able to mimic the appearance of popular Dragon-type Pokemon."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gastrodon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGONBLOOD,20),
                         new MoveLearnSetEntry(Move.GLARE,28),

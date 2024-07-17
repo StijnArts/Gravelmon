@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGrowlithe extends drai.dev.data.pokemon.Pokemon {
     public EpochGrowlithe(String name, Aspect aspect) {
-        super(name, aspect,"EpochGrowlithe",
+        super(name, aspect, "EpochGrowlithe",
                 Type.COSMIC,Type.DRAGON,
                 new Stats(55,
                         70,
@@ -67,13 +67,14 @@ public class EpochGrowlithe extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.DAZZLING,Ability.OPAQUENESS), Ability.ASTRALMAJESTY,
                 7, 190,
-                new Stats(55,1,45,70,60,50), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 0.25,
                 70, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("In various myths, it is said that Growlithe were stationed as guardians to areas of cosmic significance and the guardians of forbidden knowledge."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch arcanine", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGONFURY,1),
                         new MoveLearnSetEntry(Move.ANTIMATTER,28),
@@ -190,8 +191,7 @@ public class EpochGrowlithe extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

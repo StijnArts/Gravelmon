@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochElectivire extends drai.dev.data.pokemon.Pokemon {
     public EpochElectivire(String name, Aspect aspect) {
-        super(name, aspect,"EpochElectivire",
+        super(name, aspect, "EpochElectivire",
                 Type.BUG,Type.FIGHTING,
                 new Stats(100,
                         120,
@@ -67,7 +67,7 @@ public class EpochElectivire extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.DEFIANT,Ability.INTIMIDATE), Ability.MOXIE,
                 18, 1386,
-                new Stats(100,2,105,80,65,70), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.25,
                 243, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -158,8 +158,8 @@ public class EpochElectivire extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 56, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

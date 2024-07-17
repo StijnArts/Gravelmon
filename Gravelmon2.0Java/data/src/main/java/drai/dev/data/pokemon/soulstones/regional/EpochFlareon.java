@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFlareon extends drai.dev.data.pokemon.Pokemon {
     public EpochFlareon(String name, Aspect aspect) {
-        super(name, aspect,"EpochFlareon",
+        super(name, aspect, "EpochFlareon",
                 Type.STEEL,
                 new Stats(60,
                         100,
@@ -67,7 +67,7 @@ public class EpochFlareon extends drai.dev.data.pokemon.Pokemon {
                         120),
                 List.of(Ability.HEATPROOF,Ability.IRON_BARBS), Ability.INTIMIDATE,
                 9, 2500,
-                new Stats(60,100,1,50,60,120), 100,
+                new Stats(0,0,1,0,0,0), 100,
                 0.875,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -190,9 +190,9 @@ public class EpochFlareon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

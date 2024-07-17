@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMantyke extends drai.dev.data.pokemon.Pokemon {
     public EpochMantyke(String name, Aspect aspect) {
-        super(name, aspect,"EpochMantyke",
+        super(name, aspect, "EpochMantyke",
                 Type.WATER,Type.ELECTRIC,
                 new Stats(45,
                         30,
@@ -67,13 +67,14 @@ public class EpochMantyke extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.RAIN_DISH,Ability.VOLT_ABSORB), Ability.DRIZZLE,
                 10, 650,
-                new Stats(45,30,1,55,55,60), 85,
+                new Stats(0,0,1,0,0,0), 85,
                 0.5,
                 69, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("When hunting for prey, they like to swim quickly and create small electrically charged whirlpools that will shock anything caught within it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch mantine", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,24),
                         new MoveLearnSetEntry(Move.SOAK,28),
@@ -189,13 +190,16 @@ public class EpochMantyke extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NUZZLE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 6, 27, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Mantyke");
 
     }

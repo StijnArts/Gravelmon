@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVanillite extends drai.dev.data.pokemon.Pokemon {
     public EpochVanillite(String name, Aspect aspect) {
-        super(name, aspect,"EpochVanillite",
+        super(name, aspect, "EpochVanillite",
                 Type.POISON,
                 new Stats(56,
                         35,
@@ -67,13 +67,14 @@ public class EpochVanillite extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.EARTH_EATER,Ability.TOXIC_DEBRIS), Ability.STICKY_HOLD,
                 4, 57,
-                new Stats(56,35,1,39,45,60), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 61, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Whether this Pokemon was created from raw toxic waste found in dumping grounds or was already there is a mystery."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch vanillish", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DISABLE,20),
                         new MoveLearnSetEntry(Move.HARDEN,1),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMamoswineOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMamoswineOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMamoswineOne",
+        super(name, aspect, "EpochMamoswineOne",
                 Type.GRASS,Type.GROUND,
                 new Stats(110,
                         120,
@@ -67,7 +67,7 @@ public class EpochMamoswineOne extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.LEAF_GUARD,Ability.THICK_FAT), Ability.RECKLESS,
                 25, 2910,
-                new Stats(110,2,120,75,55,50), 92,
+                new Stats(0,2,0,0,0,0), 92,
                 0.5,
                 239, ExperienceGroup.SLOW,
                 70,
@@ -167,9 +167,8 @@ public class EpochMamoswineOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 48, 61, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

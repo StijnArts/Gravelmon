@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPignite extends drai.dev.data.pokemon.Pokemon {
     public EpochPignite(String name, Aspect aspect) {
-        super(name, aspect,"EpochPignite",
+        super(name, aspect, "EpochPignite",
                 Type.GROUND,Type.ROCK,
                 new Stats(80,
                         83,
@@ -67,13 +67,14 @@ public class EpochPignite extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.ROCK_HEAD,Ability.DRY_SKIN), Ability.CLAYFORM,
                 10, 555,
-                new Stats(80,2,85,55,50,65), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.875,
                 146, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon loves cannonballing into large pools of mud. It attempts to curl up and make as big a splash as it can right after a rainfall."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch emboar", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,37),
                         new MoveLearnSetEntry(Move.TACKLE,1),

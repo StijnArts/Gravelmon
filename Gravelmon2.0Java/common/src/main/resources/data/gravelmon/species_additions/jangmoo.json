@@ -129,6 +129,22 @@
   "pokedex": [
     "cobblemon.species.epochjangmoo.desc"
   ],
+  "evolutions": [
+    {
+      "id": "jangmoo_epoch_hakamoo",
+      "variant": "level_up",
+      "result": "epoch hakamoo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -137,12 +153,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
+    "hp": 0,
     "attack": 1,
-    "defence": 65,
-    "special_attack": 30,
-    "special_defence": 50,
-    "speed": 55
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 297,

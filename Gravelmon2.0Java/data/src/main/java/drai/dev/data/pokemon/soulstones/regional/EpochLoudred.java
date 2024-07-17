@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLoudred extends drai.dev.data.pokemon.Pokemon {
     public EpochLoudred(String name, Aspect aspect) {
-        super(name, aspect,"EpochLoudred",
+        super(name, aspect, "EpochLoudred",
                 Type.ELECTRIC,Type.SOUND,
                 new Stats(84,
                         41,
@@ -67,13 +67,14 @@ public class EpochLoudred extends drai.dev.data.pokemon.Pokemon {
                         43),
                 List.of(Ability.MOTOR_DRIVE,Ability.CACOPHONY), Ability.BATTERY,
                 10, 405,
-                new Stats(2,41,43,68,81,43), 120,
+                new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 126, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("This Pokemon is the life of the party. It can drop a sick beat and has better moves than most humans."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch exploud", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SONIC_BOOM,8),
                         new MoveLearnSetEntry(Move.BOOMINGBEATS,32),

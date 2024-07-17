@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTeddiursa extends drai.dev.data.pokemon.Pokemon {
     public EpochTeddiursa(String name, Aspect aspect) {
-        super(name, aspect,"EpochTeddiursa",
+        super(name, aspect, "EpochTeddiursa",
                 Type.GHOST,Type.COSMIC,
                 new Stats(60,
                         50,
@@ -67,13 +67,15 @@ public class EpochTeddiursa extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.ETHEREAL,Ability.TOUGH_CLAWS), Ability.CLEAR_BODY,
                 6, 88,
-                new Stats(60,50,50,55,1,70), 120,
+                new Stats(0,0,0,0,1,0), 120,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("The degree of transparency in its body follows the lunar cycle. During full moons, it is fully corporeal while during new moons, it is fully ethereal."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ursaring", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,10),
                         new MoveLearnSetEntry(Move.SHADOW_CLAW,21),
@@ -200,9 +202,9 @@ public class EpochTeddiursa extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COUPDEGRACE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 27, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

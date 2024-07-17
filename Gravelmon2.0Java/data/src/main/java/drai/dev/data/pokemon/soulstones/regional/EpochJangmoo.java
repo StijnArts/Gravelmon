@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochJangmoo extends drai.dev.data.pokemon.Pokemon {
     public EpochJangmoo(String name, Aspect aspect) {
-        super(name, aspect,"EpochJangmoo",
+        super(name, aspect, "EpochJangmoo",
                 Type.STEEL,Type.FIGHTING,
                 new Stats(55,
                         60,
@@ -67,13 +67,14 @@ public class EpochJangmoo extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.BATTLE_ARMOR,Ability.SHARPNESS), Ability.HUSTLE,
                 6, 297,
-                new Stats(55,1,65,30,50,55), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("This Pokemon keeps a sword safely sheathed away near its tail that it can use as a weapon."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch hakamoo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_GUARD,18),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,53),

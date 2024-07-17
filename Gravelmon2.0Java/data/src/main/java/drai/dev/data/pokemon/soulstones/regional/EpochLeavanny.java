@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLeavanny extends drai.dev.data.pokemon.Pokemon {
     public EpochLeavanny(String name, Aspect aspect) {
-        super(name, aspect,"EpochLeavanny",
+        super(name, aspect, "EpochLeavanny",
                 Type.STEEL,Type.DARK,
                 new Stats(75,
                         103,
@@ -67,7 +67,7 @@ public class EpochLeavanny extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.NOBILITY,Ability.SHARPNESS), Ability.FULL_METAL_BODY,
                 12, 205,
-                new Stats(75,3,80,102,50,80), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.5,
                 225, ExperienceGroup.MEDIUM_SLOW,
                 70,

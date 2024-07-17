@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPawmo extends drai.dev.data.pokemon.Pokemon {
     public EpochPawmo(String name, Aspect aspect) {
-        super(name, aspect,"EpochPawmo",
+        super(name, aspect, "EpochPawmo",
                 Type.NORMAL,
                 new Stats(60,
                         75,
@@ -67,13 +67,14 @@ public class EpochPawmo extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.NORMALIZE,Ability.FLUFFY), Ability.SPEED_BOOST,
                 4, 65,
-                new Stats(60,75,60,85,30,1), 80,
+                new Stats(0,0,0,0,0,1), 80,
                 0.5,
                 123, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is very skittish and loud noises tend to scare it easily. It tries to be brave but it often will run in fear."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch pawmot", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,39),
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,23),

@@ -123,6 +123,22 @@
   "pokedex": [
     "cobblemon.species.epochchikorita.desc"
   ],
+  "evolutions": [
+    {
+      "id": "chikorita_epoch_bayleef",
+      "variant": "level_up",
+      "result": "epoch bayleef",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -131,12 +147,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 49,
-    "defence": 60,
-    "special_attack": 35,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 1,
-    "speed": 70
+    "speed": 0
   },
   "height": 9,
   "weight": 64,
@@ -271,6 +287,22 @@
   "pokedex": [
     "cobblemon.species.epochchikoritaone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "chikorita_epochtwo_bayleef",
+      "variant": "level_up",
+      "result": "epochtwo bayleef",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -280,11 +312,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 49,
-    "defence": 55,
-    "special_attack": 45,
-    "special_defence": 49,
-    "speed": 55
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 9,
   "weight": 64,

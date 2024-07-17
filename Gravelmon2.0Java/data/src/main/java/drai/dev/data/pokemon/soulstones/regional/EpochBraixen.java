@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBraixen extends drai.dev.data.pokemon.Pokemon {
     public EpochBraixen(String name, Aspect aspect) {
-        super(name, aspect,"EpochBraixen",
+        super(name, aspect, "EpochBraixen",
                 Type.WATER,Type.COSMIC,
                 new Stats(66,
                         45,
@@ -67,13 +67,14 @@ public class EpochBraixen extends drai.dev.data.pokemon.Pokemon {
                         78),
                 List.of(Ability.MAGIC_GUARD,Ability.MAGIC_BOUNCE), Ability.MAGICIAN,
                 10, 145,
-                new Stats(66,45,65,2,87,78), 90,
+                new Stats(0,0,0,2,0,0), 90,
                 0.875,
                 143, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("After undergoing rigorous training, this Pokemon is able to talk to the dead using any reflective surface, albeit for a short period of time."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch delphox", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.SOAK,5),

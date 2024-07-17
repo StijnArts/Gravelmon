@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFrogadier extends drai.dev.data.pokemon.Pokemon {
     public EpochFrogadier(String name, Aspect aspect) {
-        super(name, aspect,"EpochFrogadier",
+        super(name, aspect, "EpochFrogadier",
                 Type.ELECTRIC,Type.GHOST,
                 new Stats(54,
                         63,
@@ -67,13 +67,14 @@ public class EpochFrogadier extends drai.dev.data.pokemon.Pokemon {
                         56),
                 List.of(Ability.VOLT_ABSORB,Ability.STATIC), Ability.CONDUCTOR,
                 6, 109,
-                new Stats(54,63,52,97,83,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("When this Pokemon hops, it gives off small sparks. It is very quick when it does dash around that can make it look like the ground is lit up with an electrical current."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch greninja", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,18),
                         new MoveLearnSetEntry(Move.DEATHWALTZ,48),

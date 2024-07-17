@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCacnea extends drai.dev.data.pokemon.Pokemon {
     public EpochCacnea(String name, Aspect aspect) {
-        super(name, aspect,"EpochCacnea",
+        super(name, aspect, "EpochCacnea",
                 Type.ICE,Type.FIGHTING,
                 new Stats(50,
                         65,
@@ -67,13 +67,14 @@ public class EpochCacnea extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.IRON_FIST,Ability.DEFIANT), Ability.PACKEDSNOW,
                 4, 513,
-                new Stats(50,1,65,55,35,65), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 67, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("There is a story for small children that says that Cacnea came to life when a child gave it a carrot for a nose."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch cacturne", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,13),
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,34),

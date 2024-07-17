@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochElectrodeOne extends drai.dev.data.pokemon.Pokemon {
     public EpochElectrodeOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochElectrodeOne",
+        super(name, aspect, "EpochElectrodeOne",
                 Type.COSMIC,Type.ROCK,
                 new Stats(60,
                         50,
@@ -67,7 +67,7 @@ public class EpochElectrodeOne extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.PRESSURE,Ability.AFTERMATH), Ability.STURDY,
                 12, 4506,
-                new Stats(60,50,70,150,80,2), 123,
+                new Stats(0,0,0,0,0,2), 123,
                 -1.0,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -166,9 +166,8 @@ public class EpochElectrodeOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 54, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHonchkrowOne extends drai.dev.data.pokemon.Pokemon {
     public EpochHonchkrowOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochHonchkrowOne",
+        super(name, aspect, "EpochHonchkrowOne",
                 Type.PSYCHIC,Type.FLYING,
                 new Stats(95,
                         100,
@@ -67,7 +67,7 @@ public class EpochHonchkrowOne extends drai.dev.data.pokemon.Pokemon {
                         62),
                 List.of(Ability.TELEPATHY,Ability.MAGIC_GUARD), Ability.SPELLCASTER,
                 9, 273,
-                new Stats(95,2,62,86,100,62), 80,
+                new Stats(0,2,0,0,0,0), 80,
                 0.5,
                 177, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -193,13 +193,15 @@ public class EpochHonchkrowOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 38, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Honchkrow");
 
     }

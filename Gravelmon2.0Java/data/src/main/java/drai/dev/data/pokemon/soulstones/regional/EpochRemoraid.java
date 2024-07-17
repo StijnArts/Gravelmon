@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRemoraid extends drai.dev.data.pokemon.Pokemon {
     public EpochRemoraid(String name, Aspect aspect) {
-        super(name, aspect,"EpochRemoraid",
+        super(name, aspect, "EpochRemoraid",
                 Type.WATER,Type.ELECTRIC,
                 new Stats(45,
                         85,
@@ -67,13 +67,14 @@ public class EpochRemoraid extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.STATIC,Ability.BATTERY), Ability.STAKEOUT,
                 6, 120,
-                new Stats(45,1,35,65,35,35), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
                 List.of("This Pokemon can zip around in water because it is able to use the electrical energy it generates to give it a speed boost."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch octillery", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,20),
                         new MoveLearnSetEntry(Move.GUNK_SHOT,60),
@@ -167,13 +168,16 @@ public class EpochRemoraid extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HELPING_HAND,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Remoraid");
 
     }

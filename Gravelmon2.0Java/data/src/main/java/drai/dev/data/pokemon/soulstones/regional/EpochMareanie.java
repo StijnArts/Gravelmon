@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMareanie extends drai.dev.data.pokemon.Pokemon {
     public EpochMareanie(String name, Aspect aspect) {
-        super(name, aspect,"EpochMareanie",
+        super(name, aspect, "EpochMareanie",
                 Type.GRASS,Type.POISON,
                 new Stats(50,
                         55,
@@ -67,13 +67,14 @@ public class EpochMareanie extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.ARENA_TRAP,Ability.PRESSURE), Ability.POISON_POINT,
                 4, 80,
-                new Stats(50,55,1,40,30,65), 190,
+                new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("This deceitful Pokemon pretends to be nothing more than a shrub to catch its prey off-guard. It oozes one of the most lethal poisons in the world."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch toxapex", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,9),
                         new MoveLearnSetEntry(Move.THORNPRISON,13),

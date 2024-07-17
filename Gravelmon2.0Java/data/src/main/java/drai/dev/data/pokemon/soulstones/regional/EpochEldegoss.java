@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochEldegoss extends drai.dev.data.pokemon.Pokemon {
     public EpochEldegoss(String name, Aspect aspect) {
-        super(name, aspect,"EpochEldegoss",
+        super(name, aspect, "EpochEldegoss",
                 Type.DARK,Type.GRASS,
                 new Stats(60,
                         80,
@@ -67,7 +67,7 @@ public class EpochEldegoss extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.POISON_HEAL,Ability.TOXIC_BOOST), Ability.COTTON_DOWN,
                 5, 25,
-                new Stats(60,80,90,50,2,100), 75,
+                new Stats(0,0,0,0,2,0), 75,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,

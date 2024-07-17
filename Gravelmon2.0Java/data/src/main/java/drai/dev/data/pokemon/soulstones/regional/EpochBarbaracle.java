@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBarbaracle extends drai.dev.data.pokemon.Pokemon {
     public EpochBarbaracle(String name, Aspect aspect) {
-        super(name, aspect,"EpochBarbaracle",
+        super(name, aspect, "EpochBarbaracle",
                 Type.ROCK,Type.PSYCHIC,
                 new Stats(105,
                         60,
@@ -67,7 +67,7 @@ public class EpochBarbaracle extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.STURDY,Ability.TELEPATHY), Ability.SHEER_FORCE,
                 13, 960,
-                new Stats(105,60,60,2,115,80), 255,
+                new Stats(0,0,0,2,0,0), 255,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,

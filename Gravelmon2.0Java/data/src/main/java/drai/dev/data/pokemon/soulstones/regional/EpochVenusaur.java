@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVenusaur extends drai.dev.data.pokemon.Pokemon {
     public EpochVenusaur(String name, Aspect aspect) {
-        super(name, aspect,"EpochVenusaur",
+        super(name, aspect, "EpochVenusaur",
                 Type.ICE,Type.FAIRY,
                 new Stats(80,
                         82,
@@ -67,7 +67,7 @@ public class EpochVenusaur extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.FAIRY_AURA,Ability.ICE_SCALES), Ability.PASTEL_VEIL,
                 20, 1000,
-                new Stats(80,82,88,2,100,90), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.875,
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -183,8 +183,8 @@ public class EpochVenusaur extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

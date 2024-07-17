@@ -128,6 +128,22 @@
   "pokedex": [
     "cobblemon.species.epochsilicobra.desc"
   ],
+  "evolutions": [
+    {
+      "id": "silicobra_epoch_sandaconda",
+      "variant": "level_up",
+      "result": "epoch sandaconda",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
@@ -136,12 +152,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
+    "hp": 0,
     "attack": 1,
-    "defence": 50,
-    "special_attack": 35,
-    "special_defence": 62,
-    "speed": 48
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 22,
   "weight": 76,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGulpin extends drai.dev.data.pokemon.Pokemon {
     public EpochGulpin(String name, Aspect aspect) {
-        super(name, aspect,"EpochGulpin",
+        super(name, aspect, "EpochGulpin",
                 Type.GROUND,
                 new Stats(65,
                         33,
@@ -67,13 +67,14 @@ public class EpochGulpin extends drai.dev.data.pokemon.Pokemon {
                         76),
                 List.of(Ability.WATER_COMPACTION,Ability.WATER_ABSORB), Ability.SAND_STREAM,
                 4, 103,
-                new Stats(65,33,63,25,1,76), 225,
+                new Stats(0,0,0,0,1,0), 225,
                 0.5,
                 60, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokémon's small stature and colour allows it to camoflage in desert environments to protect itself from predators."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch swalot", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,1),
                         new MoveLearnSetEntry(Move.SAND_TOMB,1),
@@ -157,8 +158,9 @@ public class EpochGulpin extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLUDGE_WAVE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 37, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

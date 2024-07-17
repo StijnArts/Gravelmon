@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSwablu extends drai.dev.data.pokemon.Pokemon {
     public EpochSwablu(String name, Aspect aspect) {
-        super(name, aspect,"EpochSwablu",
+        super(name, aspect, "EpochSwablu",
                 Type.POISON,Type.DRAGON,
                 new Stats(55,
                         30,
@@ -67,13 +67,14 @@ public class EpochSwablu extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.NEUTRALIZING_GAS,Ability.LEVITATE), Ability.GALE_WINGS,
                 4, 12,
-                new Stats(55,30,1,50,50,55), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 62, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.FLYING),
                 List.of("After flying through sulfuric clouds, it slowly became infected with them, which has made it sluggish when flying."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch altaria", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,5),
                         new MoveLearnSetEntry(Move.DRAGONMAGIC,8),

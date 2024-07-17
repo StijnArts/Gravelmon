@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCarvanha extends drai.dev.data.pokemon.Pokemon {
     public EpochCarvanha(String name, Aspect aspect) {
-        super(name, aspect,"EpochCarvanha",
+        super(name, aspect, "EpochCarvanha",
                 Type.STEEL,Type.FLYING,
                 new Stats(40,
                         55,
@@ -67,13 +67,14 @@ public class EpochCarvanha extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.FLARE_BOOST,Ability.SPEED_BOOST), Ability.SHARPSHOOTER,
                 8, 208,
-                new Stats(40,55,40,75,55,1), 225,
+                new Stats(0,0,0,0,0,1), 225,
                 0.5,
                 61, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is capable of breaking the speed of sound quite easily. It is able to dodge and evade enemy missiles easily."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch sharpedo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEEL_WING,32),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,23),
@@ -174,13 +175,13 @@ public class EpochCarvanha extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 35, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_END  ))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Carvanha");
 
     }

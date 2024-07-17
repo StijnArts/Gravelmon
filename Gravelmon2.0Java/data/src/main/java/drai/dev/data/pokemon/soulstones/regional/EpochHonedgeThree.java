@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHonedgeThree extends drai.dev.data.pokemon.Pokemon {
     public EpochHonedgeThree(String name, Aspect aspect) {
-        super(name, aspect,"EpochHonedgeThree",
+        super(name, aspect, "EpochHonedgeThree",
                 Type.GROUND,
                 new Stats(45,
                         60,
@@ -66,14 +66,15 @@ public class EpochHonedgeThree extends drai.dev.data.pokemon.Pokemon {
                         28,
                         77),
                 List.of(Ability.STATIC,Ability.TRANSISTOR), Ability.CONTRARY,
-                0, 0,
-                new Stats(45,60,1,35,28,77), 222,
+                8, 20,
+                new Stats(0,0,1,0,0,0), 222,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon masquerades as a charged mace."),
-                List.of(),
+                List.of(new EvolutionEntry("epochthree doublade", EvolutionType.LEVEL_UP, List.of(),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,12),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,4),

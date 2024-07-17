@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCubone extends drai.dev.data.pokemon.Pokemon {
     public EpochCubone(String name, Aspect aspect) {
-        super(name, aspect,"EpochCubone",
+        super(name, aspect, "EpochCubone",
                 Type.WATER,Type.ROCK,
                 new Stats(90,
                         55,
@@ -67,13 +67,14 @@ public class EpochCubone extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.ROCK_HEAD,Ability.SAP_SIPPER), Ability.SYNTHESIZE,
                 4, 65,
-                new Stats(1,55,60,35,30,50), 190,
+                new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It wields some of the surviving coral from the reefs it inhabits as a weapon to ward off foes."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch marowak", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,16),
                         new MoveLearnSetEntry(Move.ROCK_THROW,1),
@@ -167,13 +168,13 @@ public class EpochCubone extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 7, 26, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Cubone");
 
     }

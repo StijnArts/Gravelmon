@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKommoo extends drai.dev.data.pokemon.Pokemon {
     public EpochKommoo(String name, Aspect aspect) {
-        super(name, aspect,"EpochKommoo",
+        super(name, aspect, "EpochKommoo",
                 Type.STEEL,Type.FIGHTING,
                 new Stats(120,
                         100,
@@ -67,7 +67,7 @@ public class EpochKommoo extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.BATTLE_ARMOR,Ability.SHARPNESS), Ability.HUSTLE,
                 16, 782,
-                new Stats(120,3,115,75,80,110), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.5,
                 270, ExperienceGroup.SLOW,
                 70,

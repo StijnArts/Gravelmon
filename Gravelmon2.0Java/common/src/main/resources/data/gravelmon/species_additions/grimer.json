@@ -140,6 +140,22 @@
   "pokedex": [
     "cobblemon.species.epochgrimer.desc"
   ],
+  "evolutions": [
+    {
+      "id": "grimer_epoch_muk",
+      "variant": "level_up",
+      "result": "epoch muk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -148,12 +164,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 40,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 10,
-    "special_defence": 40,
-    "speed": 90
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 9,
   "weight": 300,
@@ -303,6 +319,22 @@
   "pokedex": [
     "cobblemon.species.epochgrimerone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "grimer_epochtwo_muk",
+      "variant": "level_up",
+      "result": "epochtwo muk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -312,11 +344,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 60,
-    "defence": 50,
-    "special_attack": 25,
-    "special_defence": 40,
-    "speed": 70
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 9,
   "weight": 300,

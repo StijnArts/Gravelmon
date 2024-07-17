@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochZweilous extends drai.dev.data.pokemon.Pokemon {
     public EpochZweilous(String name, Aspect aspect) {
-        super(name, aspect,"EpochZweilous",
+        super(name, aspect, "EpochZweilous",
                 Type.PSYCHIC,Type.DRAGON,
                 new Stats(92,
                         65,
@@ -67,13 +67,14 @@ public class EpochZweilous extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.COMPETITIVE,Ability.ATTUNEMENT), Ability.ANTICIPATION,
                 14, 500,
-                new Stats(2,65,70,58,65,70), 90,
+                new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 147, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("Their psychic power has allowed it to telepathically have two floating heads however the heads cannot drift too far away from its body."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch hydreigon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.DRAGONMAGIC,26),

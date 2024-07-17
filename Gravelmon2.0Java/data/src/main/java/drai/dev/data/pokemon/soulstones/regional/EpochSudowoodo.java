@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSudowoodo extends drai.dev.data.pokemon.Pokemon {
     public EpochSudowoodo(String name, Aspect aspect) {
-        super(name, aspect,"EpochSudowoodo",
+        super(name, aspect, "EpochSudowoodo",
                 Type.GROUND,Type.GRASS,
                 new Stats(90,
                         40,
@@ -67,7 +67,7 @@ public class EpochSudowoodo extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.WATER_ABSORB,Ability.SAND_VEIL), Ability.ADAPTABILITY,
                 12, 380,
-                new Stats(90,40,2,70,110,110), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 144, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -150,8 +150,9 @@ public class EpochSudowoodo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 54, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

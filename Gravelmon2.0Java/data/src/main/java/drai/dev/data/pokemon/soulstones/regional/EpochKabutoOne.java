@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKabutoOne extends drai.dev.data.pokemon.Pokemon {
     public EpochKabutoOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochKabutoOne",
+        super(name, aspect, "EpochKabutoOne",
                 Type.ELECTRIC,Type.COSMIC,
                 new Stats(30,
                         90,
@@ -67,13 +67,14 @@ public class EpochKabutoOne extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.MOXIE,Ability.SHEER_FORCE), Ability.STATIC,
                 5, 115,
-                new Stats(30,1,70,75,45,45), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("This Pokemon is thought to be a cybernetic predator from a distant planet. It crash landed several million years ago."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo kabutops", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,30),
                         new MoveLearnSetEntry(Move.DIMENSIONWARP,25),
@@ -179,9 +180,8 @@ public class EpochKabutoOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEECH_LIFE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 34, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

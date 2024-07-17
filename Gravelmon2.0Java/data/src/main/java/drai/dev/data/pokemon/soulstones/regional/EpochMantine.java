@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMantine extends drai.dev.data.pokemon.Pokemon {
     public EpochMantine(String name, Aspect aspect) {
-        super(name, aspect,"EpochMantine",
+        super(name, aspect, "EpochMantine",
                 Type.WATER,Type.ELECTRIC,
                 new Stats(85,
                         40,
@@ -67,7 +67,7 @@ public class EpochMantine extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.RAIN_DISH,Ability.VOLT_ABSORB), Ability.DRIZZLE,
                 21, 2200,
-                new Stats(85,40,2,70,85,75), 85,
+                new Stats(0,0,2,0,0,0), 85,
                 0.5,
                 170, ExperienceGroup.SLOW,
                 70,
@@ -179,13 +179,16 @@ public class EpochMantine extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 31, 48, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Mantine");
 
     }

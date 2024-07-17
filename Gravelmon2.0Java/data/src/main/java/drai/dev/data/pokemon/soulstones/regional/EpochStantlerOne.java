@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStantlerOne extends drai.dev.data.pokemon.Pokemon {
     public EpochStantlerOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochStantlerOne",
+        super(name, aspect, "EpochStantlerOne",
                 Type.ELECTRIC,
                 new Stats(73,
                         115,
@@ -67,13 +67,14 @@ public class EpochStantlerOne extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.RECKLESS,Ability.SHEER_FORCE), Ability.MOTOR_DRIVE,
                 14, 712,
-                new Stats(73,1,62,85,65,65), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 163, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is constantly channeling an electrical current between the two nodes on its head, even when it is asleep."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo wyrdeer", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,23),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -164,8 +165,9 @@ public class EpochStantlerOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FABLEDRUSH,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 23, 43, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

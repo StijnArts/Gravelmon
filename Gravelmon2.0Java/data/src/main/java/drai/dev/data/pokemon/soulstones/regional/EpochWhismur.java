@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWhismur extends drai.dev.data.pokemon.Pokemon {
     public EpochWhismur(String name, Aspect aspect) {
-        super(name, aspect,"EpochWhismur",
+        super(name, aspect, "EpochWhismur",
                 Type.ELECTRIC,Type.SOUND,
                 new Stats(64,
                         21,
@@ -67,13 +67,14 @@ public class EpochWhismur extends drai.dev.data.pokemon.Pokemon {
                         23),
                 List.of(Ability.MOTOR_DRIVE,Ability.CACOPHONY), Ability.BATTERY,
                 6, 163,
-                new Stats(1,21,23,48,61,23), 190,
+                new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 48, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("It just enjoys vibing. Nothing and no one will stop it from having a good time."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch loudred", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SONIC_BOOM,8),
                         new MoveLearnSetEntry(Move.BOOMINGBEATS,32),

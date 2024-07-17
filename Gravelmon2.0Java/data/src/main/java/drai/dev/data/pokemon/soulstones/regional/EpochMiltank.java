@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMiltank extends drai.dev.data.pokemon.Pokemon {
     public EpochMiltank(String name, Aspect aspect) {
-        super(name, aspect,"EpochMiltank",
+        super(name, aspect, "EpochMiltank",
                 Type.NORMAL,Type.GRASS,
                 new Stats(115,
                         80,
@@ -67,7 +67,7 @@ public class EpochMiltank extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.GRASS_PELT,Ability.SAP_SIPPER), Ability.TRIAGE,
                 12, 755,
-                new Stats(2,80,105,75,30,85), 95,
+                new Stats(2,0,0,0,0,0), 95,
                 0.0,
                 172, ExperienceGroup.SLOW,
                 70,
@@ -178,8 +178,8 @@ public class EpochMiltank extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BELL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 51, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

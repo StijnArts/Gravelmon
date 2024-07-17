@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCharizard extends drai.dev.data.pokemon.Pokemon {
     public EpochCharizard(String name, Aspect aspect) {
-        super(name, aspect,"EpochCharizard",
+        super(name, aspect, "EpochCharizard",
                 Type.GROUND,Type.DRAGON,
                 new Stats(95,
                         90,
@@ -67,7 +67,7 @@ public class EpochCharizard extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.MOXIE,Ability.SAND_FORCE), Ability.POISON_HEAL,
                 17, 905,
-                new Stats(95,2,80,100,84,85), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.875,
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -186,8 +186,8 @@ public class EpochCharizard extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFrillish extends drai.dev.data.pokemon.Pokemon {
     public EpochFrillish(String name, Aspect aspect) {
-        super(name, aspect,"EpochFrillish",
+        super(name, aspect, "EpochFrillish",
                 Type.GRASS,Type.POISON,
                 new Stats(55,
                         25,
@@ -67,13 +67,14 @@ public class EpochFrillish extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.EFFECT_SPORE,Ability.REGENERATOR), Ability.RAIN_DISH,
                 12, 330,
-                new Stats(55,25,45,40,1,90), 190,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 67, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("They are very mischievous Pokemon because they often like to expel their spores when people wander by to infect them with a poison or paralyzing agent."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch jellicent", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,20),
                         new MoveLearnSetEntry(Move.POISON_POWDER,12),

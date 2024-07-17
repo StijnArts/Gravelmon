@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSylveon extends drai.dev.data.pokemon.Pokemon {
     public EpochSylveon(String name, Aspect aspect) {
-        super(name, aspect,"EpochSylveon",
+        super(name, aspect, "EpochSylveon",
                 Type.DRAGON,
                 new Stats(65,
                         95,
@@ -67,7 +67,7 @@ public class EpochSylveon extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.ANGER_POINT,Ability.MOODY), Ability.CONTRARY,
                 10, 235,
-                new Stats(65,95,2,110,60,65), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.875,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,

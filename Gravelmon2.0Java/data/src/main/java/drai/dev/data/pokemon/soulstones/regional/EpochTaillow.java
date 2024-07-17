@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTaillow extends drai.dev.data.pokemon.Pokemon {
     public EpochTaillow(String name, Aspect aspect) {
-        super(name, aspect,"EpochTaillow",
+        super(name, aspect, "EpochTaillow",
                 Type.DARK,Type.FLYING,
                 new Stats(40,
                         50,
@@ -67,13 +67,14 @@ public class EpochTaillow extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.HUSTLE,Ability.DEFIANT), Ability.EARLY_BIRD,
                 3, 23,
-                new Stats(40,50,30,65,45,1), 200,
+                new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 54, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They are considered pests by many urban dwellers as they often perch themselves on the rooftops or balconies of tall urban buildings."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch swellow", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,29),
                         new MoveLearnSetEntry(Move.DRILL_PECK,41),

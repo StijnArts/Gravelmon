@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCorvisquire extends drai.dev.data.pokemon.Pokemon {
     public EpochCorvisquire(String name, Aspect aspect) {
-        super(name, aspect,"EpochCorvisquire",
+        super(name, aspect, "EpochCorvisquire",
                 Type.DARK,Type.ELECTRIC,
                 new Stats(65,
                         75,
@@ -67,13 +67,14 @@ public class EpochCorvisquire extends drai.dev.data.pokemon.Pokemon {
                         63),
                 List.of(Ability.BIG_PECKS,Ability.CONDUCTOR), Ability.BLACKLIGHT,
                 8, 160,
-                new Stats(65,2,63,70,29,63), 120,
+                new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 128, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It flaps its wings to create small sparks to scare off potential predators and intimidate others."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch corviknight", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,26),
                         new MoveLearnSetEntry(Move.SHORTFUSE,7),

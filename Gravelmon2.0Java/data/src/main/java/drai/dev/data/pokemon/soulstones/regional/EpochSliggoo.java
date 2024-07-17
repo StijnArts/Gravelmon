@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSliggoo extends drai.dev.data.pokemon.Pokemon {
     public EpochSliggoo(String name, Aspect aspect) {
-        super(name, aspect,"EpochSliggoo",
+        super(name, aspect, "EpochSliggoo",
                 Type.FAIRY,Type.NORMAL,
                 new Stats(88,
                         75,
@@ -67,13 +67,14 @@ public class EpochSliggoo extends drai.dev.data.pokemon.Pokemon {
                         93),
                 List.of(Ability.SWEET_VEIL,Ability.DAZZLING), Ability.REGENERATOR,
                 8, 175,
-                new Stats(88,75,83,60,2,93), 100,
+                new Stats(0,0,0,0,2,0), 100,
                 0.5,
                 158, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("This Pokemon is very sticky and will decompose if it stays under the sun for too long."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch goodra", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.FABLEDRUSH,35),

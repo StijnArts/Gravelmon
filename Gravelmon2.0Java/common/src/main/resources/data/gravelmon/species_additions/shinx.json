@@ -138,6 +138,22 @@
   "pokedex": [
     "cobblemon.species.epochshinx.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shinx_epoch_luxio",
+      "variant": "level_up",
+      "result": "epoch luxio",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -146,12 +162,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
+    "hp": 0,
     "attack": 1,
-    "defence": 44,
-    "special_attack": 45,
-    "special_defence": 30,
-    "speed": 44
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 5,
   "weight": 95,

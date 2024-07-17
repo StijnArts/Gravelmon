@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMismagius extends drai.dev.data.pokemon.Pokemon {
     public EpochMismagius(String name, Aspect aspect) {
-        super(name, aspect,"EpochMismagius",
+        super(name, aspect, "EpochMismagius",
                 Type.LIGHT,Type.SOUND,
                 new Stats(85,
                         35,
@@ -67,7 +67,7 @@ public class EpochMismagius extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.SERENE_GRACE,Ability.LEVITATE), Ability.HEALER,
                 9, 44,
-                new Stats(85,35,60,1,115,105), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.5,
                 173, ExperienceGroup.FAST,
                 70,
@@ -187,9 +187,9 @@ public class EpochMismagius extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

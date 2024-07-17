@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChespin extends drai.dev.data.pokemon.Pokemon {
     public EpochChespin(String name, Aspect aspect) {
-        super(name, aspect,"EpochChespin",
+        super(name, aspect, "EpochChespin",
                 Type.GROUND,Type.LIGHT,
                 new Stats(56,
                         56,
@@ -67,13 +67,14 @@ public class EpochChespin extends drai.dev.data.pokemon.Pokemon {
                         48),
                 List.of(Ability.SAND_STREAM,Ability.IRON_BARBS), Ability.OVERCOAT,
                 4, 90,
-                new Stats(56,56,1,38,40,48), 90,
+                new Stats(0,0,1,0,0,0), 90,
                 0.875,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It burrows deep in the ground of caves. It will emerge when it needs to find food."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch quilladin", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,33),
                         new MoveLearnSetEntry(Move.SAND_TOMB,10),

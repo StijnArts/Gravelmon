@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFlaaffy extends drai.dev.data.pokemon.Pokemon {
     public EpochFlaaffy(String name, Aspect aspect) {
-        super(name, aspect,"EpochFlaaffy",
+        super(name, aspect, "EpochFlaaffy",
                 Type.FAIRY,Type.FLYING,
                 new Stats(60,
                         45,
@@ -67,13 +67,14 @@ public class EpochFlaaffy extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.AROMA_VEIL,Ability.SERENE_GRACE), Ability.PIXILATE,
                 8, 133,
-                new Stats(60,45,45,60,2,85), 120,
+                new Stats(0,0,0,0,2,0), 120,
                 0.5,
                 128, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("Its wool is made of cotton candy. It is said that if you eat some, it will give you wings."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ampharos", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FLEUR_CANNON,57),
                         new MoveLearnSetEntry(Move.HURRICANE,53),
@@ -169,13 +170,13 @@ public class EpochFlaaffy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 33, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Flaaffy");
 
     }

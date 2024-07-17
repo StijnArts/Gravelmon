@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBonsly extends drai.dev.data.pokemon.Pokemon {
     public EpochBonsly(String name, Aspect aspect) {
-        super(name, aspect,"EpochBonsly",
+        super(name, aspect, "EpochBonsly",
                 Type.GROUND,Type.GRASS,
                 new Stats(80,
                         15,
@@ -67,13 +67,14 @@ public class EpochBonsly extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.WATER_ABSORB,Ability.SAND_VEIL), Ability.ADAPTABILITY,
                 5, 150,
-                new Stats(80,15,1,15,85,75), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It can be found near other cacti as a flower growing in an otherwise desolate environment."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch sudowoodo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,7),
                         new MoveLearnSetEntry(Move.SANDSTORM,27),
@@ -157,8 +158,9 @@ public class EpochBonsly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PETAL_DANCE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLillipup extends drai.dev.data.pokemon.Pokemon {
     public EpochLillipup(String name, Aspect aspect) {
-        super(name, aspect,"EpochLillipup",
+        super(name, aspect, "EpochLillipup",
                 Type.DARK,Type.GHOST,
                 new Stats(55,
                         70,
@@ -67,13 +67,14 @@ public class EpochLillipup extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.GLUTTONY,Ability.DEFIANT), Ability.STRONG_JAW,
                 4, 41,
-                new Stats(55,1,45,65,15,45), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 55, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Left to fend for itself, its vital spirit and resilience allowed it to survive but it lacks trust in humans after initially being abandoned."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch herdier", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),
                         new MoveLearnSetEntry(Move.FRENZY,50),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochYamask extends drai.dev.data.pokemon.Pokemon {
     public EpochYamask(String name, Aspect aspect) {
-        super(name, aspect,"EpochYamask",
+        super(name, aspect, "EpochYamask",
                 Type.SOUND,Type.GHOST,
                 new Stats(38,
                         25,
@@ -67,13 +67,14 @@ public class EpochYamask extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.SOUNDPROOF,Ability.SYNCHRONIZE), Ability.VITAL_SPIRIT,
                 5, 15,
-                new Stats(38,25,45,1,80,45), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("It rhythmically pounds away at its drum in a consistent pattern. It is not clear what the rhythm relates to or what it means."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch cofagrigus", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:ocarina")),
                 List.of(
                         new MoveLearnSetEntry(Move.ENCORE,16),
                         new MoveLearnSetEntry(Move.BOOMINGBEATS,32),

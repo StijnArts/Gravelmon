@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlaking extends drai.dev.data.pokemon.Pokemon {
     public EpochSlaking(String name, Aspect aspect) {
-        super(name, aspect,"EpochSlaking",
+        super(name, aspect, "EpochSlaking",
                 Type.ICE,Type.NORMAL,
                 new Stats(120,
                         130,
@@ -67,7 +67,7 @@ public class EpochSlaking extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.THICK_FAT,Ability.GLUTTONY), Ability.ANGER_POINT,
                 20, 1305,
-                new Stats(3,130,100,90,50,80), 95,
+                new Stats(3,0,0,0,0,0), 95,
                 0.5,
                 285, ExperienceGroup.SLOW,
                 70,

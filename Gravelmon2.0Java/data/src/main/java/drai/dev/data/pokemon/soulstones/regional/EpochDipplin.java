@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDipplin extends drai.dev.data.pokemon.Pokemon {
     public EpochDipplin(String name, Aspect aspect) {
-        super(name, aspect,"EpochDipplin",
+        super(name, aspect, "EpochDipplin",
                 Type.STEEL,Type.POISON,
                 new Stats(100,
                         40,
@@ -67,7 +67,7 @@ public class EpochDipplin extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.EARTH_EATER,Ability.STEADFAST), Ability.CORROSION,
                 44, 1400,
-                new Stats(100,40,80,1,105,60), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.5,
                 170, ExperienceGroup.ERRATIC,
                 70,

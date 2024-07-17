@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAnorith extends drai.dev.data.pokemon.Pokemon {
     public EpochAnorith(String name, Aspect aspect) {
-        super(name, aspect,"EpochAnorith",
+        super(name, aspect, "EpochAnorith",
                 Type.POISON,Type.ROCK,
                 new Stats(45,
                         95,
@@ -67,13 +67,14 @@ public class EpochAnorith extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.SHELL_ARMOR,Ability.UNBREAKABLE), Ability.POISON_TOUCH,
                 7, 125,
-                new Stats(45,1,50,75,40,50), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 71, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("Despite their small stature, the venom from its pincers were said to be able to incapacitate much larger predators."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch armaldo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),
                         new MoveLearnSetEntry(Move.BUG_BITE,28),

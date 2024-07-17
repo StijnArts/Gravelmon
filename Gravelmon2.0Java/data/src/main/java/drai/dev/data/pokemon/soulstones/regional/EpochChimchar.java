@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChimchar extends drai.dev.data.pokemon.Pokemon {
     public EpochChimchar(String name, Aspect aspect) {
-        super(name, aspect,"EpochChimchar",
+        super(name, aspect, "EpochChimchar",
                 Type.ELECTRIC,Type.FIGHTING,
                 new Stats(49,
                         53,
@@ -67,13 +67,14 @@ public class EpochChimchar extends drai.dev.data.pokemon.Pokemon {
                         39),
                 List.of(Ability.RECKLESS,Ability.LONG_REACH), Ability.SUPER_LUCK,
                 5, 62,
-                new Stats(49,53,39,76,53,1), 100,
+                new Stats(0,0,0,0,0,1), 100,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("Because of its size and speed, it can dash very quickly that it almost appears to be teleporting from one place to another."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch monferno", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,16),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,13),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWurmpleOne extends drai.dev.data.pokemon.Pokemon {
     public EpochWurmpleOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochWurmpleOne",
+        super(name, aspect, "EpochWurmpleOne",
                 Type.BUG,Type.ICE,
                 new Stats(45,
                         45,
@@ -67,13 +67,14 @@ public class EpochWurmpleOne extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.ICE_BODY,Ability.GLUTTONY), Ability.COMPOUND_EYES,
                 3, 36,
-                new Stats(1,45,35,20,20,30), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Its carapace allows it to shelter from cold temperatures so it is often found in snowy forests and tundras."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch cascoon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,5),
                         new MoveLearnSetEntry(Move.INFESTATION,1),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWeezing extends drai.dev.data.pokemon.Pokemon {
     public EpochWeezing(String name, Aspect aspect) {
-        super(name, aspect,"EpochWeezing",
+        super(name, aspect, "EpochWeezing",
                 Type.FIRE,Type.POISON,
                 new Stats(85,
                         70,
@@ -67,7 +67,7 @@ public class EpochWeezing extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.LEVITATE,Ability.WHITE_SMOKE), Ability.MAGMA_ARMOR,
                 12, 95,
-                new Stats(85,70,70,60,2,110), 100,
+                new Stats(0,0,0,0,2,0), 100,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -152,9 +152,8 @@ public class EpochWeezing extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

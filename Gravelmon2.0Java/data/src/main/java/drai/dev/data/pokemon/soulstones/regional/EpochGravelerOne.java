@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGravelerOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGravelerOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGravelerOne",
+        super(name, aspect, "EpochGravelerOne",
                 Type.GHOST,Type.ROCK,
                 new Stats(75,
                         95,
@@ -67,13 +67,14 @@ public class EpochGravelerOne extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.SHADOW_SHIELD,Ability.AURA_BREAK), Ability.LONG_REACH,
                 10, 1100,
-                new Stats(75,95,2,20,25,95), 120,
+                new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon emanates such strong spectral energy that it is able to use these ghostly powers to land attacks from afar."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo golem", EvolutionType.TRADE, false, List.of(), 
+ List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,18),
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,4),
@@ -199,9 +200,8 @@ public class EpochGravelerOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

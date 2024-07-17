@@ -129,6 +129,22 @@
   "pokedex": [
     "cobblemon.species.epochshuppet.desc"
   ],
+  "evolutions": [
+    {
+      "id": "shuppet_epoch_banette",
+      "variant": "level_up",
+      "result": "epoch banette",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -137,12 +153,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 44,
+    "hp": 0,
     "attack": 1,
-    "defence": 35,
-    "special_attack": 65,
-    "special_defence": 43,
-    "speed": 33
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 23,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDrifblim extends drai.dev.data.pokemon.Pokemon {
     public EpochDrifblim(String name, Aspect aspect) {
-        super(name, aspect,"EpochDrifblim",
+        super(name, aspect, "EpochDrifblim",
                 Type.FIRE,Type.FLYING,
                 new Stats(130,
                         90,
@@ -67,7 +67,7 @@ public class EpochDrifblim extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.FLAME_BODY,Ability.UNBURDEN), Ability.WHITE_SMOKE,
                 12, 150,
-                new Stats(2,90,78,95,50,55), 100,
+                new Stats(2,0,0,0,0,0), 100,
                 0.5,
                 174, ExperienceGroup.FLUCTUATING,
                 70,

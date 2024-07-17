@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPincurchin extends drai.dev.data.pokemon.Pokemon {
     public EpochPincurchin(String name, Aspect aspect) {
-        super(name, aspect,"EpochPincurchin",
+        super(name, aspect, "EpochPincurchin",
                 Type.SOUND,Type.NORMAL,
                 new Stats(101,
                         48,
@@ -67,7 +67,7 @@ public class EpochPincurchin extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.UNAWARE,Ability.POWER_SPOT), Ability.CACOPHONY,
                 3, 10,
-                new Stats(101,2,95,15,91,85), 75,
+                new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 152, ExperienceGroup.MEDIUM_FAST,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDubwoolOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDubwoolOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDubwoolOne",
+        super(name, aspect, "EpochDubwoolOne",
                 Type.GRASS,
                 new Stats(82,
                         100,
@@ -67,7 +67,7 @@ public class EpochDubwoolOne extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.HARVEST,Ability.GRASS_PELT), Ability.GLUTTONY,
                 13, 430,
-                new Stats(82,100,2,93,35,85), 127,
+                new Stats(0,0,2,0,0,0), 127,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,

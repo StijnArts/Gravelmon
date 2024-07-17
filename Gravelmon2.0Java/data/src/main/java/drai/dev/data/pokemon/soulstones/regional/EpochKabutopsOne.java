@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKabutopsOne extends drai.dev.data.pokemon.Pokemon {
     public EpochKabutopsOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochKabutopsOne",
+        super(name, aspect, "EpochKabutopsOne",
                 Type.ELECTRIC,Type.COSMIC,
                 new Stats(80,
                         115,
@@ -67,7 +67,7 @@ public class EpochKabutopsOne extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.MOXIE,Ability.SHEER_FORCE), Ability.STATIC,
                 13, 405,
-                new Stats(80,2,80,95,55,70), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.875,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -172,9 +172,8 @@ public class EpochKabutopsOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 45, 65, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

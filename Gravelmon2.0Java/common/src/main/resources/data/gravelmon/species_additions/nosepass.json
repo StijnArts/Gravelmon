@@ -137,6 +137,22 @@
   "pokedex": [
     "cobblemon.species.epochnosepass.desc"
   ],
+  "evolutions": [
+    {
+      "id": "nosepass_epoch_probopass",
+      "variant": "level_up",
+      "result": "epoch probopass",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -145,12 +161,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 40,
+    "hp": 0,
     "attack": 1,
-    "defence": 60,
-    "special_attack": 75,
-    "special_defence": 95,
-    "speed": 60
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 970,
@@ -279,6 +295,20 @@
   "pokedex": [
     "cobblemon.species.epochnosepassone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "nosepass_epochtwo_probopass",
+      "variant": "item_interact",
+      "result": "epochtwo probopass",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -287,12 +317,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
+    "hp": 0,
     "attack": 1,
-    "defence": 70,
-    "special_attack": 50,
-    "special_defence": 85,
-    "speed": 70
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 370,

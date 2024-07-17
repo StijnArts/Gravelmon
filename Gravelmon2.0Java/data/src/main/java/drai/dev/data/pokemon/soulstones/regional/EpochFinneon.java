@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFinneon extends drai.dev.data.pokemon.Pokemon {
     public EpochFinneon(String name, Aspect aspect) {
-        super(name, aspect,"EpochFinneon",
+        super(name, aspect, "EpochFinneon",
                 Type.WATER,Type.FAIRY,
                 new Stats(49,
                         49,
@@ -67,13 +67,14 @@ public class EpochFinneon extends drai.dev.data.pokemon.Pokemon {
                         66),
                 List.of(Ability.CUTE_CHARM,Ability.DISHEARTEN), Ability.LIQUID_VOICE,
                 4, 70,
-                new Stats(49,49,55,1,75,66), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 66, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.FAIRY),
                 List.of("Depending on the temperature of the water it swims in, the colour of its body and fins will change accordingly."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch lumineon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,13),
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,58),

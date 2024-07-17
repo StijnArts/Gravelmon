@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAurorus extends drai.dev.data.pokemon.Pokemon {
     public EpochAurorus(String name, Aspect aspect) {
-        super(name, aspect,"EpochAurorus",
+        super(name, aspect, "EpochAurorus",
                 Type.FAIRY,Type.DRAGON,
                 new Stats(123,
                         67,
@@ -67,7 +67,7 @@ public class EpochAurorus extends drai.dev.data.pokemon.Pokemon {
                         102),
                 List.of(Ability.FRIEND_GUARD,Ability.ATTUNEMENT), Ability.MULTISCALE,
                 27, 2550,
-                new Stats(2,67,72,48,109,102), 100,
+                new Stats(2,0,0,0,0,0), 100,
                 0.5,
                 104, ExperienceGroup.MEDIUM_FAST,
                 70,

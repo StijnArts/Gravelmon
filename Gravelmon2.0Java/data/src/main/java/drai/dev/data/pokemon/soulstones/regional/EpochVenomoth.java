@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVenomoth extends drai.dev.data.pokemon.Pokemon {
     public EpochVenomoth(String name, Aspect aspect) {
-        super(name, aspect,"EpochVenomoth",
+        super(name, aspect, "EpochVenomoth",
                 Type.BUG,Type.GRASS,
                 new Stats(100,
                         90,
@@ -67,7 +67,7 @@ public class EpochVenomoth extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.SHIELD_DUST,Ability.PROTEAN), Ability.TINTED_LENS,
                 15, 125,
-                new Stats(2,90,50,90,50,70), 75,
+                new Stats(2,0,0,0,0,0), 75,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -161,13 +161,14 @@ public class EpochVenomoth extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 47, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Venomoth");
 
     }

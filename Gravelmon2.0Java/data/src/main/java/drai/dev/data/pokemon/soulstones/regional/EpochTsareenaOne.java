@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTsareenaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochTsareenaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochTsareenaOne",
+        super(name, aspect, "EpochTsareenaOne",
                 Type.POISON,Type.FIGHTING,
                 new Stats(74,
                         120,
@@ -67,7 +67,7 @@ public class EpochTsareenaOne extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.IRON_BARBS,Ability.POWER_OF_ALCHEMY), Ability.UNBURDEN,
                 12, 214,
-                new Stats(74,3,90,86,50,90), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.0,
                 230, ExperienceGroup.MEDIUM_SLOW,
                 70,

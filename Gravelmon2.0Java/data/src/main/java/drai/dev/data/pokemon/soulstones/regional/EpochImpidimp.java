@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochImpidimp extends drai.dev.data.pokemon.Pokemon {
     public EpochImpidimp(String name, Aspect aspect) {
-        super(name, aspect,"EpochImpidimp",
+        super(name, aspect, "EpochImpidimp",
                 Type.GROUND,Type.FAIRY,
                 new Stats(50,
                         65,
@@ -67,13 +67,14 @@ public class EpochImpidimp extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.TANGLING_HAIR,Ability.STORM_DRAIN), Ability.PRANKSTER,
                 4, 55,
-                new Stats(50,65,30,1,65,60), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 1.0,
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("It likes playing in pools of mud so it finds itself right at home in swamps or damp forested areas."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch morgrem", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONTINENTALRIFT,59),
                         new MoveLearnSetEntry(Move.SAND_TOMB,1),

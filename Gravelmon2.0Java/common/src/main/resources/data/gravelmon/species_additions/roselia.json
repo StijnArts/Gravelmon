@@ -112,6 +112,20 @@
   "pokedex": [
     "cobblemon.species.epochroselia.desc"
   ],
+  "evolutions": [
+    {
+      "id": "roselia_epoch_roserade",
+      "variant": "item_interact",
+      "result": "epoch roserade",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -120,12 +134,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
+    "hp": 0,
     "attack": 2,
-    "defence": 45,
-    "special_attack": 65,
-    "special_defence": 60,
-    "speed": 80
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 20,
@@ -258,6 +272,20 @@
   "pokedex": [
     "cobblemon.species.epochroseliaone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "roselia_epochtwo_roserade",
+      "variant": "item_interact",
+      "result": "epochtwo roserade",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -266,12 +294,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
-    "attack": 60,
-    "defence": 45,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 2,
-    "special_defence": 100,
-    "speed": 80
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 20,

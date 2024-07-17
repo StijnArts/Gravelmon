@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochEspeon extends drai.dev.data.pokemon.Pokemon {
     public EpochEspeon(String name, Aspect aspect) {
-        super(name, aspect,"EpochEspeon",
+        super(name, aspect, "EpochEspeon",
                 Type.POISON,
                 new Stats(110,
                         130,
@@ -67,7 +67,7 @@ public class EpochEspeon extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.POISON_TOUCH,Ability.INFILTRATOR), Ability.SNIPER,
                 9, 265,
-                new Stats(110,1,60,120,50,55), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.875,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -167,8 +167,8 @@ public class EpochEspeon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

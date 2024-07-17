@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSizzlipede extends drai.dev.data.pokemon.Pokemon {
     public EpochSizzlipede(String name, Aspect aspect) {
-        super(name, aspect,"EpochSizzlipede",
+        super(name, aspect, "EpochSizzlipede",
                 Type.BUG,Type.POISON,
                 new Stats(50,
                         75,
@@ -67,13 +67,14 @@ public class EpochSizzlipede extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.LEECHINGFANGS,Ability.MERCILESS), Ability.POISON_TOUCH,
                 7, 10,
-                new Stats(50,1,45,65,20,50), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Despite its small stature, it is feared by many predators because if it's going down, it will use its poison to take its predator down with it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch centiskorch", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,15),
                         new MoveLearnSetEntry(Move.GLARE,34),

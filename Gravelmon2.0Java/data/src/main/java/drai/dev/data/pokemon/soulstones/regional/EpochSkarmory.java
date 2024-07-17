@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkarmory extends drai.dev.data.pokemon.Pokemon {
     public EpochSkarmory(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkarmory",
+        super(name, aspect, "EpochSkarmory",
                 Type.ROCK,Type.FIGHTING,
                 new Stats(65,
                         110,
@@ -67,7 +67,7 @@ public class EpochSkarmory extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.SAND_RUSH,Ability.BATTLE_ARMOR), Ability.GUTS,
                 17, 505,
-                new Stats(65,1,95,95,25,75), 25,
+                new Stats(0,1,0,0,0,0), 25,
                 0.5,
                 163, ExperienceGroup.SLOW,
                 70,
@@ -191,13 +191,14 @@ public class EpochSkarmory extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDEROUS_KICK,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Skarmory");
 
     }

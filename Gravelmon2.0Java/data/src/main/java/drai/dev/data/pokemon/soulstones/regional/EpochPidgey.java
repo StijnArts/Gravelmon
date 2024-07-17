@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPidgey extends drai.dev.data.pokemon.Pokemon {
     public EpochPidgey(String name, Aspect aspect) {
-        super(name, aspect,"EpochPidgey",
+        super(name, aspect, "EpochPidgey",
                 Type.ICE,Type.FLYING,
                 new Stats(40,
                         35,
@@ -67,13 +67,14 @@ public class EpochPidgey extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.KEEN_EYE,Ability.REFRIGERATE), Ability.GALE_WINGS,
                 3, 18,
-                new Stats(40,35,40,56,45,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It often falls asleep on trees and allows snow to collect. It is actually perfectly content to have the snow accumulate than shake it off when it awakens."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch pidgeotto", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,33),
                         new MoveLearnSetEntry(Move.MIRROR_MOVE,61),
@@ -164,13 +165,14 @@ public class EpochPidgey extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONECHILL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Pidgey");
 
     }

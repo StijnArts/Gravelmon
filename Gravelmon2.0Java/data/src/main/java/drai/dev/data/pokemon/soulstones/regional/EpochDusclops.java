@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDusclops extends drai.dev.data.pokemon.Pokemon {
     public EpochDusclops(String name, Aspect aspect) {
-        super(name, aspect,"EpochDusclops",
+        super(name, aspect, "EpochDusclops",
                 Type.FIRE,Type.GHOST,
                 new Stats(60,
                         95,
@@ -67,13 +67,14 @@ public class EpochDusclops extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.BLAZE,Ability.LEVITATE), Ability.WHITE_SMOKE,
                 16, 306,
-                new Stats(60,1,60,85,95,60), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 159, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It is said that anyone that manages to touch its eye will be maimed with third degree burns."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dusknoir", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,7),
                         new MoveLearnSetEntry(Move.FIRE_SPIN,10),

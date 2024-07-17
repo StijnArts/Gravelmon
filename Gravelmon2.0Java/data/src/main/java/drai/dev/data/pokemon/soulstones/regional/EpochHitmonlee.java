@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHitmonlee extends drai.dev.data.pokemon.Pokemon {
     public EpochHitmonlee(String name, Aspect aspect) {
-        super(name, aspect,"EpochHitmonlee",
+        super(name, aspect, "EpochHitmonlee",
                 Type.PSYCHIC,Type.FLYING,
                 new Stats(50,
                         120,
@@ -67,7 +67,7 @@ public class EpochHitmonlee extends drai.dev.data.pokemon.Pokemon {
                         53),
                 List.of(Ability.LIMBER,Ability.LONG_REACH), Ability.SPEED_BOOST,
                 15, 498,
-                new Stats(50,120,87,110,35,2), 100,
+                new Stats(0,0,0,0,0,2), 100,
                 1.0,
                 159, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -167,9 +167,8 @@ public class EpochHitmonlee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

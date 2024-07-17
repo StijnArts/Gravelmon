@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFletchinder extends drai.dev.data.pokemon.Pokemon {
     public EpochFletchinder(String name, Aspect aspect) {
-        super(name, aspect,"EpochFletchinder",
+        super(name, aspect, "EpochFletchinder",
                 Type.ELECTRIC,Type.FLYING,
                 new Stats(72,
                         78,
@@ -67,13 +67,14 @@ public class EpochFletchinder extends drai.dev.data.pokemon.Pokemon {
                         52),
                 List.of(Ability.KEEN_EYE,Ability.GALVANIZE), Ability.GALE_WINGS,
                 7, 160,
-                new Stats(72,78,55,80,45,2), 255,
+                new Stats(0,0,0,0,0,2), 255,
                 0.5,
                 120, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is very territorial and can be reckless as it matures. As a young upstart, its ability to use electricity has made it impulsive and overconfident."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch talonflame", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_STRIKE,34),
                         new MoveLearnSetEntry(Move.DRILL_PECK,51),

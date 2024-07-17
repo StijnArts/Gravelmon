@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHippowdon extends drai.dev.data.pokemon.Pokemon {
     public EpochHippowdon(String name, Aspect aspect) {
-        super(name, aspect,"EpochHippowdon",
+        super(name, aspect, "EpochHippowdon",
                 Type.GRASS,Type.WATER,
                 new Stats(138,
                         122,
@@ -67,7 +67,7 @@ public class EpochHippowdon extends drai.dev.data.pokemon.Pokemon {
                         52),
                 List.of(Ability.RAIN_DISH,Ability.FLOWER_VEIL), Ability.RIPEN,
                 20, 3000,
-                new Stats(1,122,128,37,48,52), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.5,
                 184, ExperienceGroup.SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPalpitoad extends drai.dev.data.pokemon.Pokemon {
     public EpochPalpitoad(String name, Aspect aspect) {
-        super(name, aspect,"EpochPalpitoad",
+        super(name, aspect, "EpochPalpitoad",
                 Type.GRASS,Type.POISON,
                 new Stats(75,
                         55,
@@ -67,13 +67,14 @@ public class EpochPalpitoad extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.POISON_TOUCH,Ability.STORM_DRAIN), Ability.PROTEAN,
                 8, 170,
-                new Stats(75,55,75,50,2,60), 120,
+                new Stats(0,0,0,0,2,0), 120,
                 0.5,
                 134, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("As it started to migrate further inland into swamp areas, mushrooms began to grow on its damp body and has now become inseparable from its skin."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch seismitoad", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,10),
                         new MoveLearnSetEntry(Move.ACID,1),

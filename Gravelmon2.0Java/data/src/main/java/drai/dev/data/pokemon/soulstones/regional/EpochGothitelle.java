@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGothitelle extends drai.dev.data.pokemon.Pokemon {
     public EpochGothitelle(String name, Aspect aspect) {
-        super(name, aspect,"EpochGothitelle",
+        super(name, aspect, "EpochGothitelle",
                 Type.FAIRY,Type.FIGHTING,
                 new Stats(70,
                         115,
@@ -67,7 +67,7 @@ public class EpochGothitelle extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.FRISK,Ability.IMMUNITY), Ability.CANNONFIRE,
                 15, 440,
-                new Stats(70,2,65,90,55,95), 92,
+                new Stats(0,2,0,0,0,0), 92,
                 0.0,
                 221, ExperienceGroup.MEDIUM_SLOW,
                 70,

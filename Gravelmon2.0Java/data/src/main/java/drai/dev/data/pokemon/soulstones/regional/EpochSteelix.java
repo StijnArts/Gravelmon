@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSteelix extends drai.dev.data.pokemon.Pokemon {
     public EpochSteelix(String name, Aspect aspect) {
-        super(name, aspect,"EpochSteelix",
+        super(name, aspect, "EpochSteelix",
                 Type.ICE,Type.ROCK,
                 new Stats(75,
                         115,
@@ -67,7 +67,7 @@ public class EpochSteelix extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.ICE_BODY,Ability.STURDY), Ability.SLUSH_RUSH,
                 92, 4000,
-                new Stats(75,115,2,60,55,65), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 179, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -170,9 +170,9 @@ public class EpochSteelix extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

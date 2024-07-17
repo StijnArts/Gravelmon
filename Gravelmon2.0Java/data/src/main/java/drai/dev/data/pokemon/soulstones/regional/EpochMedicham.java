@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMedicham extends drai.dev.data.pokemon.Pokemon {
     public EpochMedicham(String name, Aspect aspect) {
-        super(name, aspect,"EpochMedicham",
+        super(name, aspect, "EpochMedicham",
                 Type.LIGHT,Type.FIGHTING,
                 new Stats(60,
                         50,
@@ -67,7 +67,7 @@ public class EpochMedicham extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.WONDER_SKIN,Ability.SHIELD_DUST), Ability.BATTLE_ARMOR,
                 13, 315,
-                new Stats(60,50,85,80,2,95), 90,
+                new Stats(0,0,0,0,2,0), 90,
                 0.5,
                 144, ExperienceGroup.MEDIUM_FAST,
                 70,

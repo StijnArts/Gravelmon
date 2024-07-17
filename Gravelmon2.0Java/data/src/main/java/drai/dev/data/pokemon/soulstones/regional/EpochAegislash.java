@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAegislash extends drai.dev.data.pokemon.Pokemon {
     public EpochAegislash(String name, Aspect aspect) {
-        super(name, aspect,"EpochAegislash",
+        super(name, aspect, "EpochAegislash",
                 Type.FAIRY,Type.STEEL,
                 new Stats(79,
                         65,
@@ -67,7 +67,7 @@ public class EpochAegislash extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.TELEPATHY,Ability.MAGIC_GUARD), Ability.MEGA_LAUNCHER,
                 17, 530,
-                new Stats(79,65,80,2,81,95), 222,
+                new Stats(0,0,0,2,0,0), 222,
                 0.5,
                 234, ExperienceGroup.MEDIUM_FAST,
                 70,

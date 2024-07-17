@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlurpuff extends drai.dev.data.pokemon.Pokemon {
     public EpochSlurpuff(String name, Aspect aspect) {
-        super(name, aspect,"EpochSlurpuff",
+        super(name, aspect, "EpochSlurpuff",
                 Type.FLYING,Type.LIGHT,
                 new Stats(75,
                         50,
@@ -67,7 +67,7 @@ public class EpochSlurpuff extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.IRRADIATE,Ability.CHARISMA), Ability.AERILATE,
                 8, 50,
-                new Stats(75,50,60,105,1,105), 200,
+                new Stats(0,0,0,0,1,0), 200,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMareep extends drai.dev.data.pokemon.Pokemon {
     public EpochMareep(String name, Aspect aspect) {
-        super(name, aspect,"EpochMareep",
+        super(name, aspect, "EpochMareep",
                 Type.FAIRY,Type.FLYING,
                 new Stats(55,
                         35,
@@ -67,13 +67,14 @@ public class EpochMareep extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.AROMA_VEIL,Ability.SERENE_GRACE), Ability.PIXILATE,
                 6, 78,
-                new Stats(55,35,35,40,1,60), 235,
+                new Stats(0,0,0,0,1,0), 235,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("Its wool actually makes it weigh less overall eventually allowing it to become airborne."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch flaaffy", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLEUR_CANNON,57),
                         new MoveLearnSetEntry(Move.HURRICANE,53),
@@ -179,13 +180,13 @@ public class EpochMareep extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HALLOWEDGROUND,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Mareep");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkeledirge extends drai.dev.data.pokemon.Pokemon {
     public EpochSkeledirge(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkeledirge",
+        super(name, aspect, "EpochSkeledirge",
                 Type.GRASS,Type.ROCK,
                 new Stats(104,
                         100,
@@ -67,7 +67,7 @@ public class EpochSkeledirge extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.STRONG_JAW,Ability.REGENERATOR), Ability.UNAWARE,
                 16, 3265,
-                new Stats(104,1,110,66,65,85), 95,
+                new Stats(0,1,0,0,0,0), 95,
                 0.875,
                 265, ExperienceGroup.MEDIUM_SLOW,
                 70,

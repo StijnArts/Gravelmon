@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAppletun extends drai.dev.data.pokemon.Pokemon {
     public EpochAppletun(String name, Aspect aspect) {
-        super(name, aspect,"EpochAppletun",
+        super(name, aspect, "EpochAppletun",
                 Type.STEEL,Type.DRAGON,
                 new Stats(110,
                         75,
@@ -67,7 +67,7 @@ public class EpochAppletun extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.OBLIVIOUS,Ability.CANNONFIRE), Ability.SIMPLE,
                 44, 1400,
-                new Stats(110,75,2,30,40,110), 90,
+                new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 170, ExperienceGroup.ERRATIC,
                 70,

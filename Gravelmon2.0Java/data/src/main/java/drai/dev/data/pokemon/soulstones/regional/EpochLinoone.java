@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLinoone extends drai.dev.data.pokemon.Pokemon {
     public EpochLinoone(String name, Aspect aspect) {
-        super(name, aspect,"EpochLinoone",
+        super(name, aspect, "EpochLinoone",
                 Type.GROUND,Type.DARK,
                 new Stats(78,
                         70,
@@ -67,13 +67,14 @@ public class EpochLinoone extends drai.dev.data.pokemon.Pokemon {
                         61),
                 List.of(Ability.POUNCE,Ability.INSOMNIA), Ability.GLUTTONY,
                 5, 325,
-                new Stats(78,70,61,100,50,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 147, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The spots that form on its skin are from its poor dietary choices it made as a Zigzagoon."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch obstagoon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,23),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,18),

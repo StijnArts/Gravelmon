@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRoselia extends drai.dev.data.pokemon.Pokemon {
     public EpochRoselia(String name, Aspect aspect) {
-        super(name, aspect,"EpochRoselia",
+        super(name, aspect, "EpochRoselia",
                 Type.GROUND,Type.FAIRY,
                 new Stats(50,
                         100,
@@ -67,13 +67,14 @@ public class EpochRoselia extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.SHARPNESS,Ability.JUSTIFIED), Ability.DAZZLING,
                 3, 20,
-                new Stats(50,2,45,65,60,80), 150,
+                new Stats(0,2,0,0,0,0), 150,
                 0.0,
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It can execute moves and dances with eloquence that invokes confidence and inspiration among those privileged to watch it fight."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch roserade", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEETNOTHINGS,25),
                         new MoveLearnSetEntry(Move.LOVEBURST,40),

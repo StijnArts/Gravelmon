@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTrumbeak extends drai.dev.data.pokemon.Pokemon {
     public EpochTrumbeak(String name, Aspect aspect) {
-        super(name, aspect,"EpochTrumbeak",
+        super(name, aspect, "EpochTrumbeak",
                 Type.GRASS,Type.FLYING,
                 new Stats(45,
                         85,
@@ -67,13 +67,14 @@ public class EpochTrumbeak extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.FLOWER_VEIL,Ability.SYMBIOSIS), Ability.SKILL_LINK,
                 6, 148,
-                new Stats(45,1,50,85,40,50), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 124, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("A vile nuisance, these Pokemon like to pick on unsuspecting tourists by carpet bombing their vehicles while they are relaxing on the beach."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch toucannon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORTISSIMO,41),
                         new MoveLearnSetEntry(Move.MEGAPHONE,9),

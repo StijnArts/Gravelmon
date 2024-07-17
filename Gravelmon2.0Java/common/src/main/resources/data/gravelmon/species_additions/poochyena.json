@@ -125,6 +125,22 @@
   "pokedex": [
     "cobblemon.species.epochpoochyena.desc"
   ],
+  "evolutions": [
+    {
+      "id": "poochyena_epoch_mightyena",
+      "variant": "level_up",
+      "result": "epoch mightyena",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -133,12 +149,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 35,
+    "hp": 0,
     "attack": 1,
-    "defence": 35,
-    "special_attack": 35,
-    "special_defence": 20,
-    "speed": 30
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 5,
   "weight": 136,

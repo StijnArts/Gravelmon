@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochOctillery extends drai.dev.data.pokemon.Pokemon {
     public EpochOctillery(String name, Aspect aspect) {
-        super(name, aspect,"EpochOctillery",
+        super(name, aspect, "EpochOctillery",
                 Type.WATER,Type.ELECTRIC,
                 new Stats(95,
                         110,
@@ -67,7 +67,7 @@ public class EpochOctillery extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.SUCTION_CUPS,Ability.BATTERY), Ability.STAKEOUT,
                 9, 285,
-                new Stats(95,1,75,80,45,75), 75,
+                new Stats(0,1,0,0,0,0), 75,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -159,13 +159,16 @@ public class EpochOctillery extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 32, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Octillery");
 
     }

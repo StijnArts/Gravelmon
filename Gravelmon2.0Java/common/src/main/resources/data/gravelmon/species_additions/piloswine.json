@@ -119,6 +119,20 @@
   "pokedex": [
     "cobblemon.species.epochpiloswine.desc"
   ],
+  "evolutions": [
+    {
+      "id": "piloswine_epoch_mamoswine",
+      "variant": "item_interact",
+      "result": "epoch mamoswine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
@@ -128,11 +142,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 90,
-    "defence": 90,
-    "special_attack": 75,
-    "special_defence": 50,
-    "speed": 45
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 11,
   "weight": 558,
@@ -269,6 +283,20 @@
   "pokedex": [
     "cobblemon.species.epochpiloswineone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "piloswine_epochtwo_mamoswine",
+      "variant": "item_interact",
+      "result": "epochtwo mamoswine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
@@ -277,12 +305,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 90,
+    "hp": 0,
     "attack": 1,
-    "defence": 100,
-    "special_attack": 55,
-    "special_defence": 50,
-    "speed": 45
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 11,
   "weight": 558,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochOddish extends drai.dev.data.pokemon.Pokemon {
     public EpochOddish(String name, Aspect aspect) {
-        super(name, aspect,"EpochOddish",
+        super(name, aspect, "EpochOddish",
                 Type.GRASS,Type.COSMIC,
                 new Stats(60,
                         45,
@@ -67,13 +67,14 @@ public class EpochOddish extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.EFFECT_SPORE,Ability.STARSTRUCK), Ability.VITALITY,
                 5, 54,
-                new Stats(60,45,65,1,70,55), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("During full moons, the leaves on their head will sparkle."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gloom", EvolutionType.LEVEL_UP, List.of(), 
+                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.METEORSHOWER,14),
                         new MoveLearnSetEntry(Move.FLEUR_CANNON,52),
@@ -179,9 +180,8 @@ public class EpochOddish extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POLLEN_PUFF,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 26, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

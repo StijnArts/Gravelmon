@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHakamoo extends drai.dev.data.pokemon.Pokemon {
     public EpochHakamoo(String name, Aspect aspect) {
-        super(name, aspect,"EpochHakamoo",
+        super(name, aspect, "EpochHakamoo",
                 Type.STEEL,Type.FIGHTING,
                 new Stats(70,
                         80,
@@ -67,13 +67,14 @@ public class EpochHakamoo extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.BATTLE_ARMOR,Ability.SHARPNESS), Ability.HUSTLE,
                 12, 470,
-                new Stats(70,2,85,50,75,90), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 147, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("This Pokemon is an adept warrior that it is able to use its sword, its tail, or its claws as weapons, all with equal proficiency."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch kommoo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_GUARD,18),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,53),

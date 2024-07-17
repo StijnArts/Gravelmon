@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochElectrike extends drai.dev.data.pokemon.Pokemon {
     public EpochElectrike(String name, Aspect aspect) {
-        super(name, aspect,"EpochElectrike",
+        super(name, aspect, "EpochElectrike",
                 Type.GROUND,Type.GHOST,
                 new Stats(40,
                         65,
@@ -67,13 +67,14 @@ public class EpochElectrike extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.INTIMIDATE,Ability.MOXIE), Ability.CURSED_BODY,
                 6, 152,
-                new Stats(40,65,30,65,45,1), 120,
+                new Stats(0,0,0,0,0,1), 120,
                 0.5,
                 59, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It wears a skull of an animal it scavenged as a sort of trophy to protect itself. No one has actually seen what it looks like under the skull."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch manectric", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LICK,4),

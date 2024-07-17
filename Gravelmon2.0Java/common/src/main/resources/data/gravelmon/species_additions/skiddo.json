@@ -120,6 +120,22 @@
   "pokedex": [
     "cobblemon.species.epochskiddo.desc"
   ],
+  "evolutions": [
+    {
+      "id": "skiddo_epoch_gogoat",
+      "variant": "level_up",
+      "result": "epoch gogoat",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -129,11 +145,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 80,
-    "defence": 48,
-    "special_attack": 87,
-    "special_defence": 32,
-    "speed": 47
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 9,
   "weight": 310,

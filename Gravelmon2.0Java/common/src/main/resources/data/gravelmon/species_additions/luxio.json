@@ -131,6 +131,22 @@
   "pokedex": [
     "cobblemon.species.epochluxio.desc"
   ],
+  "evolutions": [
+    {
+      "id": "luxio_epoch_luxray",
+      "variant": "level_up",
+      "result": "epoch luxray",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -139,12 +155,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 70,
+    "hp": 0,
     "attack": 2,
-    "defence": 59,
-    "special_attack": 70,
-    "special_defence": 40,
-    "speed": 59
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 9,
   "weight": 305,

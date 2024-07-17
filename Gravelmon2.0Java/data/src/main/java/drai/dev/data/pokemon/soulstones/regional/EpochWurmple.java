@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWurmple extends drai.dev.data.pokemon.Pokemon {
     public EpochWurmple(String name, Aspect aspect) {
-        super(name, aspect,"EpochWurmple",
+        super(name, aspect, "EpochWurmple",
                 Type.BUG,Type.PSYCHIC,
                 new Stats(45,
                         20,
@@ -67,13 +67,14 @@ public class EpochWurmple extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.TELEPATHY,Ability.GLUTTONY), Ability.COMPOUND_EYES,
                 3, 36,
-                new Stats(1,20,35,20,45,30), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It is able to telepathically sense small insects that it can feed on making its ability to hunt for prey very easy."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch silcoon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSION,5),
                         new MoveLearnSetEntry(Move.INFESTATION,1),

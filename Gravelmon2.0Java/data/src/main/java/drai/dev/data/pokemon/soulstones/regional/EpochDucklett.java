@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDucklett extends drai.dev.data.pokemon.Pokemon {
     public EpochDucklett(String name, Aspect aspect) {
-        super(name, aspect,"EpochDucklett",
+        super(name, aspect, "EpochDucklett",
                 Type.LIGHT,Type.FLYING,
                 new Stats(62,
                         39,
@@ -67,13 +67,14 @@ public class EpochDucklett extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.FRIEND_GUARD,Ability.SERENE_GRACE), Ability.EARLY_BIRD,
                 5, 55,
-                new Stats(62,39,40,65,64,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FLYING),
                 List.of("It is said that its feathers bring good luck. It honks several times if it is happy similar to a dog wagging its tail."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch swanna", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AERIALPULSE,50),
                         new MoveLearnSetEntry(Move.HURRICANE,57),

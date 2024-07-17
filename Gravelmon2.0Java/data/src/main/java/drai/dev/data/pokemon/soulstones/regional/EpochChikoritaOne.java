@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChikoritaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochChikoritaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochChikoritaOne",
+        super(name, aspect, "EpochChikoritaOne",
                 Type.ELECTRIC,Type.STEEL,
                 new Stats(65,
                         49,
@@ -67,13 +67,14 @@ public class EpochChikoritaOne extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.LIGHTNING_ROD,Ability.SURGE_SURFER), Ability.MAGNET_PULL,
                 9, 64,
-                new Stats(1,49,55,45,49,55), 90,
+                new Stats(1,0,0,0,0,0), 90,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("This Pokemon has electrical currents swirling from its antennae that it can channel and redirect in any direction it chooses."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo bayleef", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_GLOW,46),
                         new MoveLearnSetEntry(Move.REFLECT,21),
@@ -170,9 +171,8 @@ public class EpochChikoritaOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERBOLT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

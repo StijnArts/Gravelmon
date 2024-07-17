@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFeraligatr extends drai.dev.data.pokemon.Pokemon {
     public EpochFeraligatr(String name, Aspect aspect) {
-        super(name, aspect,"EpochFeraligatr",
+        super(name, aspect, "EpochFeraligatr",
                 Type.FIGHTING,Type.GROUND,
                 new Stats(85,
                         105,
@@ -67,7 +67,7 @@ public class EpochFeraligatr extends drai.dev.data.pokemon.Pokemon {
                         78),
                 List.of(Ability.DRY_SKIN,Ability.NO_GUARD), Ability.MOXIE,
                 23, 888,
-                new Stats(85,3,100,83,79,78), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -180,9 +180,8 @@ public class EpochFeraligatr extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

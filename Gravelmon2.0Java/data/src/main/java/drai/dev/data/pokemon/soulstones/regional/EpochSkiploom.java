@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkiploom extends drai.dev.data.pokemon.Pokemon {
     public EpochSkiploom(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkiploom",
+        super(name, aspect, "EpochSkiploom",
                 Type.ICE,Type.SOUND,
                 new Stats(55,
                         35,
@@ -67,13 +67,14 @@ public class EpochSkiploom extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.LEVITATE,Ability.SHIELD_DUST), Ability.SNOW_WARNING,
                 6, 10,
-                new Stats(55,35,50,70,65,2), 120,
+                new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 119, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("When the snowflakes it attracts accumulates in size, Skiploom are able to make them almost orbit around its body when it chimes."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch jumpluff", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LOVELOOP,9),
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,25),
@@ -159,13 +160,15 @@ public class EpochSkiploom extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 37, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Skiploom");
 
     }

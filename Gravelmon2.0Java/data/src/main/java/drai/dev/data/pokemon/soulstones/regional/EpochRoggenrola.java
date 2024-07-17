@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRoggenrola extends drai.dev.data.pokemon.Pokemon {
     public EpochRoggenrola(String name, Aspect aspect) {
-        super(name, aspect,"EpochRoggenrola",
+        super(name, aspect, "EpochRoggenrola",
                 Type.ICE,Type.WATER,
                 new Stats(55,
                         35,
@@ -67,13 +67,14 @@ public class EpochRoggenrola extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.ICE_BODY,Ability.HYDRATION), Ability.SNOW_WARNING,
                 4, 180,
-                new Stats(55,35,1,25,55,45), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Each one that forms is said to have come from massive glaciers that existed several hundred years ago."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch boldore", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,16),
                         new MoveLearnSetEntry(Move.OCEANBLAST,44),

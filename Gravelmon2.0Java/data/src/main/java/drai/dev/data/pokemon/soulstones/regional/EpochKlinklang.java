@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKlinklang extends drai.dev.data.pokemon.Pokemon {
     public EpochKlinklang(String name, Aspect aspect) {
-        super(name, aspect,"EpochKlinklang",
+        super(name, aspect, "EpochKlinklang",
                 Type.SOUND,Type.STEEL,
                 new Stats(60,
                         110,
@@ -67,7 +67,7 @@ public class EpochKlinklang extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.LEVITATE,Ability.OWN_TEMPO), Ability.MOTOR_DRIVE,
                 6, 810,
-                new Stats(60,110,3,90,60,85), 80,
+                new Stats(0,0,3,0,0,0), 80,
                 -1.0,
                 234, ExperienceGroup.MEDIUM_SLOW,
                 70,

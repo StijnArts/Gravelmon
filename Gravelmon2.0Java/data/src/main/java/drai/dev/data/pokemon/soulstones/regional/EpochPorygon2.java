@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPorygon2 extends drai.dev.data.pokemon.Pokemon {
     public EpochPorygon2(String name, Aspect aspect) {
-        super(name, aspect,"EpochPorygon2",
+        super(name, aspect, "EpochPorygon2",
                 Type.BUG,Type.DARK,
                 new Stats(85,
                         105,
@@ -67,13 +67,14 @@ public class EpochPorygon2 extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.PRANKSTER,Ability.DOWNLOAD), Ability.EMERGENCY_EXIT,
                 6, 325,
-                new Stats(85,2,90,80,60,95), 95,
+                new Stats(0,2,0,0,0,0), 95,
                 -1.0,
                 180, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Once it is able to access a computer, it can quickly spread across other connected systems. It lies in wait to sabotage at the right moment."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch porygonz", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,64),
                         new MoveLearnSetEntry(Move.BUG_BITE,11),
@@ -180,9 +181,8 @@ public class EpochPorygon2 extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 44, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -133,6 +133,20 @@
   "pokedex": [
     "cobblemon.species.epochdoduo.desc"
   ],
+  "evolutions": [
+    {
+      "id": "doduo_epoch_dodrio",
+      "variant": "item_interact",
+      "result": "epoch dodrio",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -141,11 +155,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
-    "attack": 35,
-    "defence": 35,
-    "special_attack": 75,
-    "special_defence": 75,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 14,
@@ -278,6 +292,22 @@
   "pokedex": [
     "cobblemon.species.epochdoduoone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "doduo_epochtwo_dodrio",
+      "variant": "level_up",
+      "result": "epochtwo dodrio",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -286,12 +316,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 45,
-    "attack": 75,
-    "defence": 35,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 35,
-    "speed": 55
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 14,
   "weight": 392,

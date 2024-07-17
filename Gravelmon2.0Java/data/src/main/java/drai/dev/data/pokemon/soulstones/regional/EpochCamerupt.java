@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCamerupt extends drai.dev.data.pokemon.Pokemon {
     public EpochCamerupt(String name, Aspect aspect) {
-        super(name, aspect,"EpochCamerupt",
+        super(name, aspect, "EpochCamerupt",
                 Type.FIRE,Type.WATER,
                 new Stats(130,
                         50,
@@ -67,7 +67,7 @@ public class EpochCamerupt extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.DRY_SKIN,Ability.STEAM_ENGINE), Ability.FLASH_FIRE,
                 19, 2200,
-                new Stats(1,50,70,30,105,75), 150,
+                new Stats(1,0,0,0,0,0), 150,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,

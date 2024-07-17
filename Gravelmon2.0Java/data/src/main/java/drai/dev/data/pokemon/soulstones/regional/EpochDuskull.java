@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDuskull extends drai.dev.data.pokemon.Pokemon {
     public EpochDuskull(String name, Aspect aspect) {
-        super(name, aspect,"EpochDuskull",
+        super(name, aspect, "EpochDuskull",
                 Type.FIRE,Type.GHOST,
                 new Stats(35,
                         65,
@@ -67,13 +67,14 @@ public class EpochDuskull extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.BLAZE,Ability.LEVITATE), Ability.WHITE_SMOKE,
                 8, 150,
-                new Stats(35,65,35,1,65,35), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 59, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The flame that burns in its soul is enough to absorb the life force of anyone that wanders too close to it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dusclops", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,7),
                         new MoveLearnSetEntry(Move.FIRE_SPIN,10),

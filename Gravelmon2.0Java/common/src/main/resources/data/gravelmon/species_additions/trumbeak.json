@@ -111,6 +111,22 @@
   "pokedex": [
     "cobblemon.species.epochtrumbeak.desc"
   ],
+  "evolutions": [
+    {
+      "id": "trumbeak_epoch_toucannon",
+      "variant": "level_up",
+      "result": "epoch toucannon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -119,12 +135,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 45,
+    "hp": 0,
     "attack": 1,
-    "defence": 50,
-    "special_attack": 85,
-    "special_defence": 40,
-    "speed": 50
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 148,

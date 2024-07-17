@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWailmer extends drai.dev.data.pokemon.Pokemon {
     public EpochWailmer(String name, Aspect aspect) {
-        super(name, aspect,"EpochWailmer",
+        super(name, aspect, "EpochWailmer",
                 Type.GHOST,Type.WATER,
                 new Stats(95,
                         40,
@@ -67,13 +67,14 @@ public class EpochWailmer extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.ETHEREAL,Ability.INNARDS_OUT), Ability.TORMENTED,
                 20, 1300,
-                new Stats(1,40,55,60,50,100), 125,
+                new Stats(1,0,0,0,0,0), 125,
                 0.5,
                 80, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_2),
                 List.of("It was young and defenseless when it was killed by poachers. Now it roams the seas, always crying out in anguish as it relives its pain."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch wailord", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,12),
                         new MoveLearnSetEntry(Move.DARK_PULSE,41),
@@ -181,14 +182,18 @@ public class EpochWailmer extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TIDALWAVE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 35, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Wailmer");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+
+        setLangFileName("Wailmer");
 
     }
 

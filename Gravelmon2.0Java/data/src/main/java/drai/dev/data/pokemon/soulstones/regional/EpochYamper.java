@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochYamper extends drai.dev.data.pokemon.Pokemon {
     public EpochYamper(String name, Aspect aspect) {
-        super(name, aspect,"EpochYamper",
+        super(name, aspect, "EpochYamper",
                 Type.NORMAL,
                 new Stats(45,
                         55,
@@ -67,13 +67,14 @@ public class EpochYamper extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.TOUGH_CLAWS,Ability.STEADFAST), Ability.ADAPTABILITY,
                 3, 135,
-                new Stats(1,55,54,66,30,40), 255,
+                new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 54, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon has earned the nickname of Man's best friend because it is the most faithful Pokemon. Many humans have domesticated it for this reason."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch boltund", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_STRIKE,42),
                         new MoveLearnSetEntry(Move.TACKLE,1),

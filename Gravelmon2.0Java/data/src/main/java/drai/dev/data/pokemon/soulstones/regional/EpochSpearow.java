@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSpearow extends drai.dev.data.pokemon.Pokemon {
     public EpochSpearow(String name, Aspect aspect) {
-        super(name, aspect,"EpochSpearow",
+        super(name, aspect, "EpochSpearow",
                 Type.WATER,Type.FLYING,
                 new Stats(30,
                         60,
@@ -67,13 +67,14 @@ public class EpochSpearow extends drai.dev.data.pokemon.Pokemon {
                         41),
                 List.of(Ability.SNIPER,Ability.MOLD_BREAKER), Ability.SUPER_LUCK,
                 3, 20,
-                new Stats(30,60,40,60,31,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 52, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It hunts in small flocks and will chatter among themselves to cooperate and signal to one another when they have found a source of food."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch fearow", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MIRROR_MOVE,5),
                         new MoveLearnSetEntry(Move.POWERDRILL,33),
@@ -159,13 +160,14 @@ public class EpochSpearow extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWALLOW,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Spearow");
 
     }

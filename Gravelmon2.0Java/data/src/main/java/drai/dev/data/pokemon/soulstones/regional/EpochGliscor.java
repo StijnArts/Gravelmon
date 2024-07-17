@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGliscor extends drai.dev.data.pokemon.Pokemon {
     public EpochGliscor(String name, Aspect aspect) {
-        super(name, aspect,"EpochGliscor",
+        super(name, aspect, "EpochGliscor",
                 Type.ROCK,Type.DRAGON,
                 new Stats(95,
                         95,
@@ -67,7 +67,7 @@ public class EpochGliscor extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.INNER_FOCUS,Ability.BATTLE_ARMOR), Ability.SOLID_ROCK,
                 20, 425,
-                new Stats(95,95,2,55,45,95), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -181,13 +181,14 @@ public class EpochGliscor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 33, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Gliscor");
 
     }

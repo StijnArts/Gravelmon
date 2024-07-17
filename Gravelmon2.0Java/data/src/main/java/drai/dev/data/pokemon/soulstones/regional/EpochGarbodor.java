@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGarbodor extends drai.dev.data.pokemon.Pokemon {
     public EpochGarbodor(String name, Aspect aspect) {
-        super(name, aspect,"EpochGarbodor",
+        super(name, aspect, "EpochGarbodor",
                 Type.ELECTRIC,Type.POISON,
                 new Stats(80,
                         60,
@@ -67,7 +67,7 @@ public class EpochGarbodor extends drai.dev.data.pokemon.Pokemon {
                         102),
                 List.of(Ability.CONDUCTOR,Ability.TOXIC_DEBRIS), Ability.ELECTRIC_SURGE,
                 19, 1073,
-                new Stats(80,60,82,60,2,102), 123,
+                new Stats(0,0,0,0,2,0), 123,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,

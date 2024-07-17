@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSteenee extends drai.dev.data.pokemon.Pokemon {
     public EpochSteenee(String name, Aspect aspect) {
-        super(name, aspect,"EpochSteenee",
+        super(name, aspect, "EpochSteenee",
                 Type.LIGHT,Type.DARK,
                 new Stats(40,
                         67,
@@ -67,13 +67,14 @@ public class EpochSteenee extends drai.dev.data.pokemon.Pokemon {
                         62),
                 List.of(Ability.LIGHTAURA,Ability.DARK_AURA), Ability.AURA_BREAK,
                 7, 82,
-                new Stats(40,1,48,48,35,62), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 0.0,
                 102, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("Steenee represents the folk saying of Within every bit of light, there is darkness; Within every bit of darkness there is light."),
-                List.of(),
+                List.of("Steenee represents the folk saying of 'Within every bit of light, there is darkness; Within every bit of darkness there is light.'"),
+                List.of(new EvolutionEntry("epoch tsareena", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,18),
                         new MoveLearnSetEntry(Move.SINFULSMITE,21),

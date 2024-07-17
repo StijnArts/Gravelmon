@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHorsea extends drai.dev.data.pokemon.Pokemon {
     public EpochHorsea(String name, Aspect aspect) {
-        super(name, aspect,"EpochHorsea",
+        super(name, aspect, "EpochHorsea",
                 Type.WATER,Type.LIGHT,
                 new Stats(75,
                         25,
@@ -67,13 +67,14 @@ public class EpochHorsea extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.NATURAL_CURE,Ability.HYDRATION), Ability.MEGA_LAUNCHER,
                 4, 80,
-                new Stats(75,25,35,1,45,55), 225,
+                new Stats(0,0,0,1,0,0), 225,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("They can use their tail fins to give them a quick burst of speed when they find themselves trapped in an aggressive sea current."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch seadra", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,17),
                         new MoveLearnSetEntry(Move.OCEANBLAST,43),
@@ -179,13 +180,16 @@ public class EpochHorsea extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRACARYS,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Horsea");
 
     }

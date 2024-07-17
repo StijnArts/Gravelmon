@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFuecoco extends drai.dev.data.pokemon.Pokemon {
     public EpochFuecoco(String name, Aspect aspect) {
-        super(name, aspect,"EpochFuecoco",
+        super(name, aspect, "EpochFuecoco",
                 Type.GRASS,Type.ROCK,
                 new Stats(67,
                         59,
@@ -67,13 +67,14 @@ public class EpochFuecoco extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.STRONG_JAW,Ability.REGENERATOR), Ability.UNAWARE,
                 4, 98,
-                new Stats(67,59,1,36,35,50), 95,
+                new Stats(0,0,1,0,0,0), 95,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It tends to sleep on land at night, but will hunt for fish in ponds and rivers within jungles, swamps and desert oases."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch crocalor", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THORNPRISON,4),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,51),

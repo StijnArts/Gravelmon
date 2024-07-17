@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGreninja extends drai.dev.data.pokemon.Pokemon {
     public EpochGreninja(String name, Aspect aspect) {
-        super(name, aspect,"EpochGreninja",
+        super(name, aspect, "EpochGreninja",
                 Type.ELECTRIC,Type.GHOST,
                 new Stats(72,
                         95,
@@ -67,7 +67,7 @@ public class EpochGreninja extends drai.dev.data.pokemon.Pokemon {
                         71),
                 List.of(Ability.VOLT_ABSORB,Ability.STATIC), Ability.CONDUCTOR,
                 15, 400,
-                new Stats(72,95,67,122,103,3), 90,
+                new Stats(0,0,0,0,0,3), 90,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,

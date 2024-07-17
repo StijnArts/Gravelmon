@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWalrein extends drai.dev.data.pokemon.Pokemon {
     public EpochWalrein(String name, Aspect aspect) {
-        super(name, aspect,"EpochWalrein",
+        super(name, aspect, "EpochWalrein",
                 Type.ICE,Type.GROUND,
                 new Stats(110,
                         100,
@@ -67,7 +67,7 @@ public class EpochWalrein extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.WATER_ABSORB,Ability.SWIFT_SWIM), Ability.OBLIVIOUS,
                 14, 1506,
-                new Stats(3,100,100,65,55,100), 90,
+                new Stats(3,0,0,0,0,0), 90,
                 0.5,
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,

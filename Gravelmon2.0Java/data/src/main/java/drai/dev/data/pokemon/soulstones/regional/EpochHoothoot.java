@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHoothoot extends drai.dev.data.pokemon.Pokemon {
     public EpochHoothoot(String name, Aspect aspect) {
-        super(name, aspect,"EpochHoothoot",
+        super(name, aspect, "EpochHoothoot",
                 Type.PSYCHIC,Type.LIGHT,
                 new Stats(58,
                         30,
@@ -67,13 +67,14 @@ public class EpochHoothoot extends drai.dev.data.pokemon.Pokemon {
                         61),
                 List.of(Ability.INTUITION,Ability.DAZZLING), Ability.VITALITY,
                 7, 212,
-                new Stats(58,30,55,1,71,61), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 52, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Found most often in wintry climates, it keeps itself warm with its lunar aura it emits rather than its feathers."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch noctowl", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AURORA_BEAM,15),
                         new MoveLearnSetEntry(Move.CALM_MIND,33),
@@ -167,13 +168,15 @@ public class EpochHoothoot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REVITALIZE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 9, 32, 4.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Hoothoot");
 
     }

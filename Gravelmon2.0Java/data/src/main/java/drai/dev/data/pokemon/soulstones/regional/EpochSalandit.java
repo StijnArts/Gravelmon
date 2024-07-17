@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSalandit extends drai.dev.data.pokemon.Pokemon {
     public EpochSalandit(String name, Aspect aspect) {
-        super(name, aspect,"EpochSalandit",
+        super(name, aspect, "EpochSalandit",
                 Type.ELECTRIC,Type.WATER,
                 new Stats(48,
                         71,
@@ -67,13 +67,14 @@ public class EpochSalandit extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.UNNERVE,Ability.SWIFT_SWIM), Ability.POISON_HEAL,
                 6, 48,
-                new Stats(48,71,40,77,44,1), 120,
+                new Stats(0,0,0,0,0,1), 120,
                 0.0,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It is able to dim the fluorescent sacs on its skin to conceal itself from predators in deep sea and underwater caves."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch salazzle", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBARGO,37),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,42),

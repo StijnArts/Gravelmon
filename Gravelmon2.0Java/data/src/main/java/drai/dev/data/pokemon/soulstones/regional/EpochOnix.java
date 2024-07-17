@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochOnix extends drai.dev.data.pokemon.Pokemon {
     public EpochOnix(String name, Aspect aspect) {
-        super(name, aspect,"EpochOnix",
+        super(name, aspect, "EpochOnix",
                 Type.ICE,Type.ROCK,
                 new Stats(35,
                         85,
@@ -67,13 +67,14 @@ public class EpochOnix extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.ICE_BODY,Ability.STURDY), Ability.SLUSH_RUSH,
                 88, 2100,
-                new Stats(35,85,1,70,30,45), 100,
+                new Stats(0,0,1,0,0,0), 100,
                 0.5,
                 77, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It can easily blend itself into the surroundings of a glacier. Some explorers have confused sudden movement of a glacier with the movement of an Onix."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch steelix", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BIND,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
@@ -180,9 +181,9 @@ public class EpochOnix extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.UPROAR,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

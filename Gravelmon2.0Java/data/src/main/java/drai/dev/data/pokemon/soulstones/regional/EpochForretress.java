@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochForretress extends drai.dev.data.pokemon.Pokemon {
     public EpochForretress(String name, Aspect aspect) {
-        super(name, aspect,"EpochForretress",
+        super(name, aspect, "EpochForretress",
                 Type.ROCK,Type.FAIRY,
                 new Stats(80,
                         50,
@@ -67,7 +67,7 @@ public class EpochForretress extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.STURDY,Ability.BULLETPROOF), Ability.OVERCOAT,
                 12, 1258,
-                new Stats(80,50,1,55,100,80), 75,
+                new Stats(0,0,1,0,0,0), 75,
                 0.5,
                 163, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -174,11 +174,9 @@ public class EpochForretress extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, 1, List.of(
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.AMETHYST_GEODE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Forretress");

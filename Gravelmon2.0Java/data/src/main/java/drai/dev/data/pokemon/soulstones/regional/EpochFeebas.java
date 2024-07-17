@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFeebas extends drai.dev.data.pokemon.Pokemon {
     public EpochFeebas(String name, Aspect aspect) {
-        super(name, aspect,"EpochFeebas",
+        super(name, aspect, "EpochFeebas",
                 Type.LIGHT,Type.FAIRY,
                 new Stats(20,
                         15,
@@ -67,13 +67,14 @@ public class EpochFeebas extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.WONDER_SKIN,Ability.STORM_DRAIN), Ability.MARVEL_SCALE,
                 6, 74,
-                new Stats(20,15,20,80,10,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 40, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("Although unattractive and unpopular, its marvelous vitality has made it a subject of research."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch milotic", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FLAIL,15),
                         new MoveLearnSetEntry(Move.FAIRYRING,5),

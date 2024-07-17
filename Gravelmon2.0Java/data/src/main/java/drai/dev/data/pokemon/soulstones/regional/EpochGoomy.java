@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGoomy extends drai.dev.data.pokemon.Pokemon {
     public EpochGoomy(String name, Aspect aspect) {
-        super(name, aspect,"EpochGoomy",
+        super(name, aspect, "EpochGoomy",
                 Type.FAIRY,Type.NORMAL,
                 new Stats(65,
                         50,
@@ -67,13 +67,14 @@ public class EpochGoomy extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.SWEET_VEIL,Ability.DAZZLING), Ability.REGENERATOR,
                 3, 28,
-                new Stats(65,50,45,30,1,75), 100,
+                new Stats(0,0,0,0,1,0), 100,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("These Pokemon appear in many different flavours: sour apple, cherry, blue razz, lemon, orange and grape. Can you collect them all?"),
-                List.of(),
+                List.of(new EvolutionEntry("epoch sliggoo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.FABLEDRUSH,35),

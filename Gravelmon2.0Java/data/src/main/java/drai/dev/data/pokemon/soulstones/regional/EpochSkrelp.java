@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkrelp extends drai.dev.data.pokemon.Pokemon {
     public EpochSkrelp(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkrelp",
+        super(name, aspect, "EpochSkrelp",
                 Type.GRASS,Type.WATER,
                 new Stats(60,
                         50,
@@ -67,13 +67,14 @@ public class EpochSkrelp extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.OVERGROW,Ability.TORRENT), Ability.PROTEAN,
                 5, 73,
-                new Stats(60,50,30,70,1,60), 225,
+                new Stats(0,0,0,0,1,0), 225,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("It is able to change its pigment colour to camouflage within beds of seaweed so that it is able to easily harvest and feed on algae on the sea floor."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch dragalge", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.WATER_PULSE,17),

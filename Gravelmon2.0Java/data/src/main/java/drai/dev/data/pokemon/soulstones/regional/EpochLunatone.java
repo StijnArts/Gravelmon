@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLunatone extends drai.dev.data.pokemon.Pokemon {
     public EpochLunatone(String name, Aspect aspect) {
-        super(name, aspect,"EpochLunatone",
+        super(name, aspect, "EpochLunatone",
                 Type.ICE,Type.COSMIC,
                 new Stats(70,
                         55,
@@ -67,7 +67,7 @@ public class EpochLunatone extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.ICE_BODY,Ability.CLEAR_BODY), Ability.CLOUD_NINE,
                 10, 1680,
-                new Stats(70,55,65,2,110,100), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 -1.0,
                 154, ExperienceGroup.FAST,
                 70,
@@ -161,9 +161,8 @@ public class EpochLunatone extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASTRALWIND,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 54, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

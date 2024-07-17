@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMudkipOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMudkipOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMudkipOne",
+        super(name, aspect, "EpochMudkipOne",
                 Type.ROCK,Type.LIGHT,
                 new Stats(70,
                         40,
@@ -67,13 +67,14 @@ public class EpochMudkipOne extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.SOLID_ROCK,Ability.WONDER_SKIN), Ability.ATTUNEMENT,
                 4, 76,
-                new Stats(70,40,40,1,70,40), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("It has very precious crystals encrusted in its skin. As it is the weakest of its evolutionary line, poachers often hunt these Pokemon first."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo marshtomp", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.REJUVENATE,6),
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,12),
@@ -172,9 +173,8 @@ public class EpochMudkipOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIAMOND_STORM,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSpinarak extends drai.dev.data.pokemon.Pokemon {
     public EpochSpinarak(String name, Aspect aspect) {
-        super(name, aspect,"EpochSpinarak",
+        super(name, aspect, "EpochSpinarak",
                 Type.DARK,Type.POISON,
                 new Stats(55,
                         60,
@@ -67,13 +67,14 @@ public class EpochSpinarak extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.POISON_TOUCH,Ability.PRANKSTER), Ability.MERCILESS,
                 5, 85,
-                new Stats(55,1,50,50,35,50), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 50, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It can spin elaborate webs with different pictures in the webs. It uses these pictures to attract prey where it traps them and then allows them to be consumed."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch ariados", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,25),
                         new MoveLearnSetEntry(Move.PLAGUE,51),
@@ -154,9 +155,9 @@ public class EpochSpinarak extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STICKY_WEB,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSinistea extends drai.dev.data.pokemon.Pokemon {
     public EpochSinistea(String name, Aspect aspect) {
-        super(name, aspect,"EpochSinistea",
+        super(name, aspect, "EpochSinistea",
                 Type.WATER,Type.POISON,
                 new Stats(50,
                         45,
@@ -67,13 +67,14 @@ public class EpochSinistea extends drai.dev.data.pokemon.Pokemon {
                         54),
                 List.of(Ability.MOODY,Ability.WEAK_ARMOR), Ability.BERSERK,
                 1, 2,
-                new Stats(50,45,45,1,64,54), 120,
+                new Stats(0,0,0,1,0,0), 120,
                 -1.0,
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("The wine that it has isn't actually poisonous... it just is if you've had too much."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch polteageist", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,20),
                         new MoveLearnSetEntry(Move.ACID,6),

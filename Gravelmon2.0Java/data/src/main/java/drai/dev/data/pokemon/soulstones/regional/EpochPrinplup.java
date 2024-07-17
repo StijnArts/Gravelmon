@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPrinplup extends drai.dev.data.pokemon.Pokemon {
     public EpochPrinplup(String name, Aspect aspect) {
-        super(name, aspect,"EpochPrinplup",
+        super(name, aspect, "EpochPrinplup",
                 Type.WATER,Type.ICE,
                 new Stats(64,
                         81,
@@ -67,13 +67,14 @@ public class EpochPrinplup extends drai.dev.data.pokemon.Pokemon {
                         76),
                 List.of(Ability.ICYVEINS,Ability.SLUSH_RUSH), Ability.NOBILITY,
                 8, 230,
-                new Stats(64,81,68,2,66,76), 90,
+                new Stats(0,0,0,2,0,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("They are strong divers and often hunt for small fish Pokemon in freezing waters."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch empoleon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRILL_PECK,39),
                         new MoveLearnSetEntry(Move.SNOWFLAKES,4),

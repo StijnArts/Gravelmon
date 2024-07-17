@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGothorita extends drai.dev.data.pokemon.Pokemon {
     public EpochGothorita(String name, Aspect aspect) {
-        super(name, aspect,"EpochGothorita",
+        super(name, aspect, "EpochGothorita",
                 Type.FAIRY,Type.FIGHTING,
                 new Stats(60,
                         75,
@@ -67,13 +67,14 @@ public class EpochGothorita extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.FRISK,Ability.IMMUNITY), Ability.CANNONFIRE,
                 7, 180,
-                new Stats(60,1,60,65,45,85), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.0,
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("This Pokemon likes to pull pranks on people. Its laugh is intoxicating and able to readily disable a foe."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gothitelle", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,22),
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,54),

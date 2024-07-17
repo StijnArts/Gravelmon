@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFalinks extends drai.dev.data.pokemon.Pokemon {
     public EpochFalinks(String name, Aspect aspect) {
-        super(name, aspect,"EpochFalinks",
+        super(name, aspect, "EpochFalinks",
                 Type.COSMIC,
                 new Stats(85,
                         65,
@@ -67,7 +67,7 @@ public class EpochFalinks extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.PURE_POWER,Ability.GENIUS), Ability.NEBULACLOUD,
                 30, 620,
-                new Stats(85,2,90,75,65,90), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 -1.0,
                 165, ExperienceGroup.MEDIUM_FAST,
                 70,

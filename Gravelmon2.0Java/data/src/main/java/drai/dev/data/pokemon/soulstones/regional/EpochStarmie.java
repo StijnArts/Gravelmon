@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStarmie extends drai.dev.data.pokemon.Pokemon {
     public EpochStarmie(String name, Aspect aspect) {
-        super(name, aspect,"EpochStarmie",
+        super(name, aspect, "EpochStarmie",
                 Type.COSMIC,Type.ROCK,
                 new Stats(75,
                         75,
@@ -67,7 +67,7 @@ public class EpochStarmie extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.SYNCHRONIZE,Ability.FILTER), Ability.FORTIFICATION,
                 11, 800,
-                new Stats(75,75,80,2,110,80), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 -1.0,
                 182, ExperienceGroup.SLOW,
                 70,
@@ -161,9 +161,8 @@ public class EpochStarmie extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

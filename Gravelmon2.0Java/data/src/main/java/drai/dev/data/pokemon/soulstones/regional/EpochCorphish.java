@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCorphish extends drai.dev.data.pokemon.Pokemon {
     public EpochCorphish(String name, Aspect aspect) {
-        super(name, aspect,"EpochCorphish",
+        super(name, aspect, "EpochCorphish",
                 Type.ROCK,Type.DARK,
                 new Stats(43,
                         80,
@@ -67,13 +67,14 @@ public class EpochCorphish extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.RECKLESS,Ability.ANGER_SHELL), Ability.BULLETPROOF,
                 6, 115,
-                new Stats(43,1,65,55,30,35), 205,
+                new Stats(0,1,0,0,0,0), 205,
                 0.5,
                 62, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It congregates along beaches and show off by crushing progressively larger rocks in its pincers to attract potential mates."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch crawdaunt", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBARGO,22),
                         new MoveLearnSetEntry(Move.HARDEN,1),

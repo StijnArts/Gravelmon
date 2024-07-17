@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDrilburOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDrilburOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDrilburOne",
+        super(name, aspect, "EpochDrilburOne",
                 Type.ICE,Type.LIGHT,
                 new Stats(50,
                         30,
@@ -67,13 +67,14 @@ public class EpochDrilburOne extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.WONDER_SKIN,Ability.PRISM_ARMOR), Ability.ROCKY_PAYLOAD,
                 3, 85,
-                new Stats(50,30,50,1,75,55), 120,
+                new Stats(0,0,0,1,0,0), 120,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When light beams bounce off this Pokemon, it can produce and warp the colours into colourful displays."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo excadrill", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FREEZEDRY,24),
                         new MoveLearnSetEntry(Move.MINERALWAVE,8),

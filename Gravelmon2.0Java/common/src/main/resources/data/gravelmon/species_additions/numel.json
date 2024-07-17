@@ -127,6 +127,22 @@
   "pokedex": [
     "cobblemon.species.epochnumel.desc"
   ],
+  "evolutions": [
+    {
+      "id": "numel_epoch_camerupt",
+      "variant": "level_up",
+      "result": "epoch camerupt",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
@@ -136,11 +152,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 40,
-    "defence": 40,
-    "special_attack": 25,
-    "special_defence": 70,
-    "speed": 45
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 7,
   "weight": 240,
@@ -285,6 +301,22 @@
   "pokedex": [
     "cobblemon.species.epochnumelone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "numel_epochtwo_camerupt",
+      "variant": "level_up",
+      "result": "epochtwo camerupt",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,
@@ -293,12 +325,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
+    "hp": 0,
     "attack": 1,
-    "defence": 60,
-    "special_attack": 35,
-    "special_defence": 35,
-    "speed": 45
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 11,
   "weight": 480,

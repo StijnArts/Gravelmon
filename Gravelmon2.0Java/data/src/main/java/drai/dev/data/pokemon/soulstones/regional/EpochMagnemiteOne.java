@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagnemiteOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMagnemiteOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMagnemiteOne",
+        super(name, aspect, "EpochMagnemiteOne",
                 Type.ROCK,Type.PSYCHIC,
                 new Stats(55,
                         15,
@@ -67,13 +67,14 @@ public class EpochMagnemiteOne extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.LEVITATE,Ability.SOLID_ROCK), Ability.TINTED_LENS,
                 3, 60,
-                new Stats(55,15,70,1,85,65), 65,
+                new Stats(0,0,0,1,0,0), 65,
                 -1.0,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("A T.Magnemite's core contains a variety of crystals, some of which are extremely valuable, leading it to being hunted to near extinction as a result."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo magneton", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MINERALWAVE,15),
                         new MoveLearnSetEntry(Move.REFLECT,31),
@@ -170,9 +171,9 @@ public class EpochMagnemiteOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSurskit extends drai.dev.data.pokemon.Pokemon {
     public EpochSurskit(String name, Aspect aspect) {
-        super(name, aspect,"EpochSurskit",
+        super(name, aspect, "EpochSurskit",
                 Type.GHOST,
                 new Stats(40,
                         20,
@@ -67,13 +67,14 @@ public class EpochSurskit extends drai.dev.data.pokemon.Pokemon {
                         52),
                 List.of(Ability.INTIMIDATE,Ability.TINTED_LENS), Ability.WANDERING_SPIRIT,
                 5, 17,
-                new Stats(40,20,32,65,60,1), 200,
+                new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.BUG),
                 List.of("It is often found hovering around ponds and large reeds so that it can surprise other water-dwelling Pokemon."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch masquerain", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,7),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,39),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLedian extends drai.dev.data.pokemon.Pokemon {
     public EpochLedian(String name, Aspect aspect) {
-        super(name, aspect,"EpochLedian",
+        super(name, aspect, "EpochLedian",
                 Type.BUG,Type.STEEL,
                 new Stats(60,
                         45,
@@ -67,7 +67,7 @@ public class EpochLedian extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.CLEAR_BODY,Ability.TINTED_LENS), Ability.HEATPROOF,
                 14, 356,
-                new Stats(60,45,75,2,95,80), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 137, ExperienceGroup.FAST,
                 70,
@@ -153,8 +153,8 @@ public class EpochLedian extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 43, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

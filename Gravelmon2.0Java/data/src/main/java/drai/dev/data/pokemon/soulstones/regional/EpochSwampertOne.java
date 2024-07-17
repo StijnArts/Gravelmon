@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSwampertOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSwampertOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSwampertOne",
+        super(name, aspect, "EpochSwampertOne",
                 Type.ROCK,Type.LIGHT,
                 new Stats(120,
                         75,
@@ -67,7 +67,7 @@ public class EpochSwampertOne extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.SOLID_ROCK,Ability.WONDER_SKIN), Ability.ATTUNEMENT,
                 15, 819,
-                new Stats(120,75,80,3,110,80), 90,
+                new Stats(0,0,0,3,0,0), 90,
                 0.875,
                 241, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -165,9 +165,8 @@ public class EpochSwampertOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAmbipom extends drai.dev.data.pokemon.Pokemon {
     public EpochAmbipom(String name, Aspect aspect) {
-        super(name, aspect,"EpochAmbipom",
+        super(name, aspect, "EpochAmbipom",
                 Type.NORMAL,Type.PSYCHIC,
                 new Stats(80,
                         60,
@@ -67,7 +67,7 @@ public class EpochAmbipom extends drai.dev.data.pokemon.Pokemon {
                         71),
                 List.of(Ability.COMATOSE), null,
                 12, 203,
-                new Stats(80,60,71,110,90,2), 190,
+                new Stats(0,0,0,0,0,2), 190,
                 0.5,
                 169, ExperienceGroup.FAST,
                 70,
@@ -179,9 +179,8 @@ public class EpochAmbipom extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

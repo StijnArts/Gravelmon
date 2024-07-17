@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTimburr extends drai.dev.data.pokemon.Pokemon {
     public EpochTimburr(String name, Aspect aspect) {
-        super(name, aspect,"EpochTimburr",
+        super(name, aspect, "EpochTimburr",
                 Type.GHOST,Type.FIGHTING,
                 new Stats(75,
                         60,
@@ -67,13 +67,14 @@ public class EpochTimburr extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.UNNERVE,Ability.CURSED_BODY), Ability.SHADOW_TAG,
                 6, 125,
-                new Stats(1,60,45,35,55,35), 180,
+                new Stats(1,0,0,0,0,0), 180,
                 0.25,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("The stuff of nightmares; this Pokemon has affixed a blunt instrument on the end of its slab of wood to use as a weapon."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gurdurr", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,12),
                         new MoveLearnSetEntry(Move.MEMENTO,56),

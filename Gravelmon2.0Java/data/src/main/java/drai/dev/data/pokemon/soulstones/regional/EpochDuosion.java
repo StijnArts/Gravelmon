@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDuosion extends drai.dev.data.pokemon.Pokemon {
     public EpochDuosion(String name, Aspect aspect) {
-        super(name, aspect,"EpochDuosion",
+        super(name, aspect, "EpochDuosion",
                 Type.WATER,Type.PSYCHIC,
                 new Stats(60,
                         35,
@@ -67,13 +67,14 @@ public class EpochDuosion extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.TORRENT,Ability.MAGIC_BOUNCE), Ability.TECHNICIAN,
                 6, 80,
-                new Stats(60,35,70,2,100,70), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 130, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It exhibited significant psychic potential when it was just a single-celled organism. Imagine the power it possesses now that it has evolved."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch reuniclus", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.WATER_PULSE,18),

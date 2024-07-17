@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochYanmegaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochYanmegaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochYanmegaOne",
+        super(name, aspect, "EpochYanmegaOne",
                 Type.STEEL,Type.SOUND,
                 new Stats(86,
                         116,
@@ -67,7 +67,7 @@ public class EpochYanmegaOne extends drai.dev.data.pokemon.Pokemon {
                         56),
                 List.of(Ability.WEAK_ARMOR,Ability.LEVITATE), Ability.OWN_TEMPO,
                 19, 515,
-                new Stats(86,2,66,115,76,56), 80,
+                new Stats(0,2,0,0,0,0), 80,
                 0.5,
                 180, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -170,13 +170,13 @@ public class EpochYanmegaOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 33, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Yanmega");
 
     }

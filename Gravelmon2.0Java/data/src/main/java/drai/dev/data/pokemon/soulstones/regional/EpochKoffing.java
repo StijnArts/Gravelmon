@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKoffing extends drai.dev.data.pokemon.Pokemon {
     public EpochKoffing(String name, Aspect aspect) {
-        super(name, aspect,"EpochKoffing",
+        super(name, aspect, "EpochKoffing",
                 Type.FIRE,Type.POISON,
                 new Stats(60,
                         50,
@@ -67,13 +67,14 @@ public class EpochKoffing extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.LEVITATE,Ability.WHITE_SMOKE), Ability.MAGMA_ARMOR,
                 6, 10,
-                new Stats(60,50,45,35,1,85), 190,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The result of unifying poisonous gas, steam and a superheated atmosphere. Highly volatile, these Koffing are capable of spewing fireballs."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch weezing", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CORROSIVE_GAS,44),
                         new MoveLearnSetEntry(Move.MEMENTO,54),
@@ -157,9 +158,8 @@ public class EpochKoffing extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIERY_DANCE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 34, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

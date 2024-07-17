@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMorgremOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMorgremOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMorgremOne",
+        super(name, aspect, "EpochMorgremOne",
                 Type.FIRE,Type.DARK,
                 new Stats(60,
                         80,
@@ -67,13 +67,14 @@ public class EpochMorgremOne extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.VENGEFUL,Ability.GLUTTONY), Ability.IRREDEEMABLE,
                 8, 125,
-                new Stats(60,1,70,65,55,70), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 1.0,
                 130, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("It is very protective of the embers in its hand. It is rumoured that it is actually the soul it received from making a bargain with a greedy human."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo grimmsnarl", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_PUNCH,1),
                         new MoveLearnSetEntry(Move.SINFULSMITE,16),

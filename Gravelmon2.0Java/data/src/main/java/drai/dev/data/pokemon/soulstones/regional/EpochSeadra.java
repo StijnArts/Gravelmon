@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSeadra extends drai.dev.data.pokemon.Pokemon {
     public EpochSeadra(String name, Aspect aspect) {
-        super(name, aspect,"EpochSeadra",
+        super(name, aspect, "EpochSeadra",
                 Type.WATER,Type.LIGHT,
                 new Stats(80,
                         45,
@@ -67,13 +67,14 @@ public class EpochSeadra extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.NATURAL_CURE,Ability.HYDRATION), Ability.MEGA_LAUNCHER,
                 12, 250,
-                new Stats(80,45,65,1,75,90), 75,
+                new Stats(0,0,0,1,0,0), 75,
                 0.5,
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("In dark places, it can control the intensity of the lights on its fins and tails to provide added visibility."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch kingdra", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,17),
                         new MoveLearnSetEntry(Move.OCEANBLAST,43),
@@ -169,13 +170,16 @@ public class EpochSeadra extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 24, 38, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Seadra");
 
     }

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochServine extends drai.dev.data.pokemon.Pokemon {
     public EpochServine(String name, Aspect aspect) {
-        super(name, aspect,"EpochServine",
+        super(name, aspect, "EpochServine",
                 Type.GHOST,
                 new Stats(60,
                         60,
@@ -67,13 +67,14 @@ public class EpochServine extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.CURSED_BODY,Ability.WONDER_SKIN), Ability.SHADOW_SHIELD,
                 8, 160,
-                new Stats(60,60,75,83,60,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.875,
                 145, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("People over the centuries have grown afraid for naught of this Pokemon. It is slowly, but surely losing its friendly demeanor."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch serperior", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,4),
                         new MoveLearnSetEntry(Move.SHADOW_BALL,34),

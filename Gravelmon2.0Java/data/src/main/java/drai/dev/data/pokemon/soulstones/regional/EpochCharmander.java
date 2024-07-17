@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCharmander extends drai.dev.data.pokemon.Pokemon {
     public EpochCharmander(String name, Aspect aspect) {
-        super(name, aspect,"EpochCharmander",
+        super(name, aspect, "EpochCharmander",
                 Type.GROUND,Type.DRAGON,
                 new Stats(55,
                         50,
@@ -67,13 +67,14 @@ public class EpochCharmander extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.MOXIE,Ability.SAND_FORCE), Ability.POISON_HEAL,
                 6, 85,
-                new Stats(55,1,47,65,42,50), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It enjoys playing in the mud of certain badlands or barren areas. They prefer to live alone or in very small family units."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch charmeleon", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,32),
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),
@@ -193,8 +194,8 @@ public class EpochCharmander extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUNK_SHOT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

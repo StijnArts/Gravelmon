@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHitmontop extends drai.dev.data.pokemon.Pokemon {
     public EpochHitmontop(String name, Aspect aspect) {
-        super(name, aspect,"EpochHitmontop",
+        super(name, aspect, "EpochHitmontop",
                 Type.ELECTRIC,Type.DARK,
                 new Stats(50,
                         100,
@@ -67,7 +67,7 @@ public class EpochHitmontop extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.SHARPSHOOTER,Ability.PRECISION), Ability.CONDUCTOR,
                 14, 480,
-                new Stats(50,1,70,70,95,70), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 1.0,
                 159, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -178,9 +178,8 @@ public class EpochHitmontop extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

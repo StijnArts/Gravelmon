@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMagmortar extends drai.dev.data.pokemon.Pokemon {
     public EpochMagmortar(String name, Aspect aspect) {
-        super(name, aspect,"EpochMagmortar",
+        super(name, aspect, "EpochMagmortar",
                 Type.WATER,Type.ICE,
                 new Stats(108,
                         105,
@@ -67,7 +67,7 @@ public class EpochMagmortar extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.ICE_BODY,Ability.ICYVEINS), Ability.MEGA_LAUNCHER,
                 16, 680,
-                new Stats(1,105,79,68,105,75), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.25,
                 243, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -145,8 +145,8 @@ public class EpochMagmortar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 54, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

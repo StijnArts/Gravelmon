@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWatchog extends drai.dev.data.pokemon.Pokemon {
     public EpochWatchog(String name, Aspect aspect) {
-        super(name, aspect,"EpochWatchog",
+        super(name, aspect, "EpochWatchog",
                 Type.DARK,Type.PSYCHIC,
                 new Stats(60,
                         72,
@@ -67,7 +67,7 @@ public class EpochWatchog extends drai.dev.data.pokemon.Pokemon {
                         69),
                 List.of(Ability.MOODY,Ability.SIMPLE), Ability.DISARRAY,
                 11, 270,
-                new Stats(60,1,69,80,70,69), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 147, ExperienceGroup.MEDIUM_FAST,
                 70,

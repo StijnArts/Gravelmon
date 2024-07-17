@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGoodra extends drai.dev.data.pokemon.Pokemon {
     public EpochGoodra(String name, Aspect aspect) {
-        super(name, aspect,"EpochGoodra",
+        super(name, aspect, "EpochGoodra",
                 Type.FAIRY,Type.NORMAL,
                 new Stats(110,
                         100,
@@ -67,7 +67,7 @@ public class EpochGoodra extends drai.dev.data.pokemon.Pokemon {
                         130),
                 List.of(Ability.SWEET_VEIL,Ability.DAZZLING), Ability.REGENERATOR,
                 20, 1505,
-                new Stats(110,100,110,80,3,130), 100,
+                new Stats(0,0,0,0,3,0), 100,
                 0.5,
                 270, ExperienceGroup.SLOW,
                 70,

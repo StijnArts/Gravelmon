@@ -143,6 +143,22 @@
   "pokedex": [
     "cobblemon.species.epochmunchlax.desc"
   ],
+  "evolutions": [
+    {
+      "id": "munchlax_epoch_snorlax",
+      "variant": "level_up",
+      "result": "epoch snorlax",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -152,11 +168,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 20,
-    "defence": 90,
-    "special_attack": 5,
-    "special_defence": 85,
-    "speed": 85
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 1050,

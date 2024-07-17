@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochToucannon extends drai.dev.data.pokemon.Pokemon {
     public EpochToucannon(String name, Aspect aspect) {
-        super(name, aspect,"EpochToucannon",
+        super(name, aspect, "EpochToucannon",
                 Type.GRASS,Type.FLYING,
                 new Stats(70,
                         110,
@@ -67,7 +67,7 @@ public class EpochToucannon extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.FLOWER_VEIL,Ability.SYMBIOSIS), Ability.SKILL_LINK,
                 11, 260,
-                new Stats(70,3,85,90,55,75), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.5,
                 218, ExperienceGroup.MEDIUM_FAST,
                 70,

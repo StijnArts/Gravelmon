@@ -127,6 +127,20 @@
   "pokedex": [
     "cobblemon.species.epochyanma.desc"
   ],
+  "evolutions": [
+    {
+      "id": "yanma_epoch_yanmega",
+      "variant": "item_interact",
+      "result": "epoch yanmega",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
@@ -135,11 +149,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
-    "attack": 75,
-    "defence": 45,
-    "special_attack": 95,
-    "special_defence": 65,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 12,
@@ -265,6 +279,20 @@
   "pokedex": [
     "cobblemon.species.epochyanmaone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "yanma_epochtwo_yanmega",
+      "variant": "item_interact",
+      "result": "epochtwo yanmega",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:humming_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
@@ -273,11 +301,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
-    "attack": 95,
-    "defence": 45,
-    "special_attack": 95,
-    "special_defence": 45,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 12,

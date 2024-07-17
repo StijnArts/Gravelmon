@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochImpidimpOne extends drai.dev.data.pokemon.Pokemon {
     public EpochImpidimpOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochImpidimpOne",
+        super(name, aspect, "EpochImpidimpOne",
                 Type.FIRE,Type.DARK,
                 new Stats(50,
                         60,
@@ -67,13 +67,14 @@ public class EpochImpidimpOne extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.VENGEFUL,Ability.GLUTTONY), Ability.IRREDEEMABLE,
                 4, 55,
-                new Stats(50,1,50,35,45,60), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 1.0,
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("It is rumoured to have spawned in the fires of the underworld and has somehow made its way to the mortal plane."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo morgrem", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINFULSMITE,16),
                         new MoveLearnSetEntry(Move.EMBARGO,31),

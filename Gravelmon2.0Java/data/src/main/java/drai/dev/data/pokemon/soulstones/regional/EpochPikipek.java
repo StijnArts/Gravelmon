@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPikipek extends drai.dev.data.pokemon.Pokemon {
     public EpochPikipek(String name, Aspect aspect) {
-        super(name, aspect,"EpochPikipek",
+        super(name, aspect, "EpochPikipek",
                 Type.GRASS,Type.FLYING,
                 new Stats(35,
                         75,
@@ -67,13 +67,14 @@ public class EpochPikipek extends drai.dev.data.pokemon.Pokemon {
                         30),
                 List.of(Ability.FLOWER_VEIL,Ability.SYMBIOSIS), Ability.SKILL_LINK,
                 3, 12,
-                new Stats(35,1,30,65,30,30), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They are very messy birds and will frequently make nests in the roofs of hotels or resorts where numerous tourists frequent."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch trumbeak", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORTISSIMO,41),
                         new MoveLearnSetEntry(Move.MEGAPHONE,9),

@@ -49,6 +49,7 @@ public class GameRegistry {
         games.add(new OrohnHavai());
         games.add(new EternalForest());
         games.add(new Norheim());
+        games.add(new Soulstones());
         games.add(new Crozoic());
         games.add(new Lonava());
         games.add(new Lockemon());

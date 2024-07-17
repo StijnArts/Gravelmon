@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMudbray extends drai.dev.data.pokemon.Pokemon {
     public EpochMudbray(String name, Aspect aspect) {
-        super(name, aspect,"EpochMudbray",
+        super(name, aspect, "EpochMudbray",
                 Type.NORMAL,
                 new Stats(70,
                         100,
@@ -67,13 +67,14 @@ public class EpochMudbray extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.TANGLING_HAIR,Ability.SCRAPPY), Ability.RECKLESS,
                 10, 1100,
-                new Stats(70,1,70,45,45,55), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 77, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon is often used to teach children how to ride horse Pokemon because they are smaller and easier to climb on."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch mudsdale", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HIGH_HORSEPOWER,24),
                         new MoveLearnSetEntry(Move.HEAD_CHARGE,50),

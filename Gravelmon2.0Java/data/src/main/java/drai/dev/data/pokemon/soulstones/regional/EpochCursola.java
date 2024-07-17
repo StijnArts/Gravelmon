@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCursola extends drai.dev.data.pokemon.Pokemon {
     public EpochCursola(String name, Aspect aspect) {
-        super(name, aspect,"EpochCursola",
+        super(name, aspect, "EpochCursola",
                 Type.WATER,Type.POISON,
                 new Stats(60,
                         60,
@@ -67,7 +67,7 @@ public class EpochCursola extends drai.dev.data.pokemon.Pokemon {
                         115),
                 List.of(Ability.LIQUID_OOZE,Ability.FILTER), Ability.POWER_OF_ALCHEMY,
                 10, 4,
-                new Stats(60,60,1,45,115,115), 80,
+                new Stats(0,0,1,0,0,0), 80,
                 0.0,
                 179, ExperienceGroup.FAST,
                 70,
@@ -157,13 +157,14 @@ public class EpochCursola extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 32, 51, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Cursola");
 
     }

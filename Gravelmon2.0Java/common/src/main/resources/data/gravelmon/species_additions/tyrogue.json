@@ -151,6 +151,44 @@
   "pokedex": [
     "cobblemon.species.epochtyrogue.desc"
   ],
+  "evolutions": [
+    {
+      "id": "tyrogue_epoch_hitmonlee",
+      "variant": "item_interact",
+      "result": "epoch hitmonlee",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:air_stone",
+      "permanent": true   
+ },
+    {
+      "id": "tyrogue_epoch_hitmonchan",
+      "variant": "item_interact",
+      "result": "epoch hitmonchan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ },
+    {
+      "id": "tyrogue_epoch_hitmontop",
+      "variant": "item_interact",
+      "result": "epoch hitmontop",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.11666666666666665,
   "hitbox": {
     "width": 6.0,
@@ -159,12 +197,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 35,
+    "hp": 0,
     "attack": 1,
-    "defence": 35,
-    "special_attack": 35,
-    "special_defence": 35,
-    "speed": 35
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 7,
   "weight": 210,

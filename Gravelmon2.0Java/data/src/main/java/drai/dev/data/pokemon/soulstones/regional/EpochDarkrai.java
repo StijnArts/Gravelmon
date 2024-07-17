@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDarkrai extends drai.dev.data.pokemon.Pokemon {
     public EpochDarkrai(String name, Aspect aspect) {
-        super(name, aspect,"EpochDarkrai",
+        super(name, aspect, "EpochDarkrai",
                 Type.LIGHT,
                 new Stats(70,
                         70,
@@ -67,7 +67,7 @@ public class EpochDarkrai extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.HEALER,Ability.MAGIC_BOUNCE), Ability.LEVITATE,
                 15, 505,
-                new Stats(70,70,90,2,135,110), 75,
+                new Stats(0,0,0,2,0,0), 75,
                 -1.0,
                 270, ExperienceGroup.SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGeodudeOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGeodudeOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGeodudeOne",
+        super(name, aspect, "EpochGeodudeOne",
                 Type.GHOST,Type.ROCK,
                 new Stats(60,
                         80,
@@ -67,13 +67,14 @@ public class EpochGeodudeOne extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.SHADOW_SHIELD,Ability.AURA_BREAK), Ability.LONG_REACH,
                 4, 203,
-                new Stats(60,80,1,15,15,70), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("A spirit has possessed and empowered this Geodude giving it spectral powers."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo graveler", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,18),
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,4),
@@ -209,8 +210,7 @@ public class EpochGeodudeOne extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

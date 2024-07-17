@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCherrim extends drai.dev.data.pokemon.Pokemon {
     public EpochCherrim(String name, Aspect aspect) {
-        super(name, aspect,"EpochCherrim",
+        super(name, aspect, "EpochCherrim",
                 Type.GRASS,Type.ICE,
                 new Stats(70,
                         40,
@@ -67,7 +67,7 @@ public class EpochCherrim extends drai.dev.data.pokemon.Pokemon {
                         93),
                 List.of(Ability.WINTERGIFT), null,
                 5, 93,
-                new Stats(70,40,60,2,92,93), 75,
+                new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
                 70,

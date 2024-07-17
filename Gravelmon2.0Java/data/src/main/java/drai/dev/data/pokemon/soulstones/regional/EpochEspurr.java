@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochEspurr extends drai.dev.data.pokemon.Pokemon {
     public EpochEspurr(String name, Aspect aspect) {
-        super(name, aspect,"EpochEspurr",
+        super(name, aspect, "EpochEspurr",
                 Type.PSYCHIC,Type.GHOST,
                 new Stats(62,
                         78,
@@ -67,13 +67,14 @@ public class EpochEspurr extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.REALISM,Ability.TELEPATHY), Ability.HUSTLE,
                 3, 35,
-                new Stats(62,1,49,73,48,45), 228,
+                new Stats(0,1,0,0,0,0), 228,
                 0.5,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("A malicious spirit has possessed this poor Espurr. If it refuses any commands, the spirit will hurt it, compelling it into obedience."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch meowstic", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,8),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,35),

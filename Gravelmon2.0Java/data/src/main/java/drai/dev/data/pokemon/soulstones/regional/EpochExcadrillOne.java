@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochExcadrillOne extends drai.dev.data.pokemon.Pokemon {
     public EpochExcadrillOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochExcadrillOne",
+        super(name, aspect, "EpochExcadrillOne",
                 Type.ICE,Type.LIGHT,
                 new Stats(85,
                         50,
@@ -67,7 +67,7 @@ public class EpochExcadrillOne extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.WONDER_SKIN,Ability.PRISM_ARMOR), Ability.ROCKY_PAYLOAD,
                 7, 404,
-                new Stats(85,50,85,2,110,90), 123,
+                new Stats(0,0,0,2,0,0), 123,
                 0.5,
                 178, ExperienceGroup.MEDIUM_FAST,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMinccino extends drai.dev.data.pokemon.Pokemon {
     public EpochMinccino(String name, Aspect aspect) {
-        super(name, aspect,"EpochMinccino",
+        super(name, aspect, "EpochMinccino",
                 Type.GHOST,Type.FAIRY,
                 new Stats(50,
                         35,
@@ -67,13 +67,14 @@ public class EpochMinccino extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.SHADOW_TAG,Ability.COTTON_DOWN), Ability.FLUFFY,
                 4, 58,
-                new Stats(50,35,40,1,65,65), 255,
+                new Stats(0,0,0,1,0,0), 255,
                 0.0,
                 60, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.AMORPHOUS),
                 List.of("After this Minccino was abused during its life, its spirit has come back and taken up a doll as its host in hopes of finding a better owner."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch cinccino", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DEATHWALTZ,53),
                         new MoveLearnSetEntry(Move.CHARM,20),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochThroh extends drai.dev.data.pokemon.Pokemon {
     public EpochThroh(String name, Aspect aspect) {
-        super(name, aspect,"EpochThroh",
+        super(name, aspect, "EpochThroh",
                 Type.ROCK,Type.FIGHTING,
                 new Stats(80,
                         90,
@@ -67,7 +67,7 @@ public class EpochThroh extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.BULLETPROOF,Ability.DRY_SKIN), Ability.SOLID_ROCK,
                 13, 555,
-                new Stats(2,90,115,45,30,105), 90,
+                new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 163, ExperienceGroup.MEDIUM_FAST,
                 70,

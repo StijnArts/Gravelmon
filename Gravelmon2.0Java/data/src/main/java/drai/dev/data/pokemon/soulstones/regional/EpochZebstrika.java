@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochZebstrika extends drai.dev.data.pokemon.Pokemon {
     public EpochZebstrika(String name, Aspect aspect) {
-        super(name, aspect,"EpochZebstrika",
+        super(name, aspect, "EpochZebstrika",
                 Type.FAIRY,Type.LIGHT,
                 new Stats(75,
                         110,
@@ -67,7 +67,7 @@ public class EpochZebstrika extends drai.dev.data.pokemon.Pokemon {
                         68),
                 List.of(Ability.QUICK_FEET,Ability.NATURAL_CURE), Ability.PASTEL_VEIL,
                 16, 795,
-                new Stats(75,110,68,126,50,2), 75,
+                new Stats(0,0,0,0,0,2), 75,
                 0.5,
                 174, ExperienceGroup.MEDIUM_FAST,
                 70,

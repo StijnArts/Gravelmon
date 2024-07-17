@@ -3,7 +3,7 @@
    "forms": [{
   "name": "Epoch",
   "primaryType": "electric",
-  "secondaryType": "poison",
+  "secondaryType": "nuclear",
   "abilities": [
     "levitate",
     "static",
@@ -122,6 +122,20 @@
   "pokedex": [
     "cobblemon.species.epochexeggcute.desc"
   ],
+  "evolutions": [
+    {
+      "id": "exeggcute_epoch_exeggutor",
+      "variant": "item_interact",
+      "result": "epoch exeggutor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -130,12 +144,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
-    "attack": 40,
-    "defence": 40,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 80,
-    "speed": 40
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 4,
   "weight": 25,
@@ -265,6 +279,20 @@
   "pokedex": [
     "cobblemon.species.epochexeggcuteone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "exeggcute_epochtwo_exeggutor",
+      "variant": "item_interact",
+      "result": "epochtwo exeggutor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -273,12 +301,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
-    "attack": 50,
-    "defence": 45,
-    "special_attack": 60,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 1,
-    "speed": 80
+    "speed": 0
   },
   "height": 4,
   "weight": 25,

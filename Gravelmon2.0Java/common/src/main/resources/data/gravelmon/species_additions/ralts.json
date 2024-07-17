@@ -154,6 +154,22 @@
   "pokedex": [
     "cobblemon.species.epochralts.desc"
   ],
+  "evolutions": [
+    {
+      "id": "ralts_epoch_kirlia",
+      "variant": "level_up",
+      "result": "epoch kirlia",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -163,11 +179,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 35,
-    "defence": 35,
-    "special_attack": 40,
-    "special_defence": 35,
-    "speed": 35
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 4,
   "weight": 66,

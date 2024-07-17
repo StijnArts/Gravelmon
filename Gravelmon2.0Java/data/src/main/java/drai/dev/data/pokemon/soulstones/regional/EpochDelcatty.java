@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDelcatty extends drai.dev.data.pokemon.Pokemon {
     public EpochDelcatty(String name, Aspect aspect) {
-        super(name, aspect,"EpochDelcatty",
+        super(name, aspect, "EpochDelcatty",
                 Type.GHOST,Type.NORMAL,
                 new Stats(75,
                         52,
@@ -67,7 +67,7 @@ public class EpochDelcatty extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.BERSERK,Ability.ETHEREAL), Ability.MAGIC_GUARD,
                 11, 326,
-                new Stats(1,52,75,85,98,100), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.0,
                 140, ExperienceGroup.FAST,
                 70,

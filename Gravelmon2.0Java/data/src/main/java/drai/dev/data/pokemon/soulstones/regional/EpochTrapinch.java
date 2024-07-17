@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTrapinch extends drai.dev.data.pokemon.Pokemon {
     public EpochTrapinch(String name, Aspect aspect) {
-        super(name, aspect,"EpochTrapinch",
+        super(name, aspect, "EpochTrapinch",
                 Type.ICE,
                 new Stats(45,
                         65,
@@ -67,13 +67,14 @@ public class EpochTrapinch extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.CLOUD_NINE,Ability.ICE_SCALES), Ability.SNOW_CLOAK,
                 7, 150,
-                new Stats(45,1,45,30,60,45), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It allows the small snow structure on its nose act as a trap. When potential prey approach, it will quickly snap at them."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch vibrava", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),
                         new MoveLearnSetEntry(Move.BLIZZARD,62),

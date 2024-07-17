@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochReuniclus extends drai.dev.data.pokemon.Pokemon {
     public EpochReuniclus(String name, Aspect aspect) {
-        super(name, aspect,"EpochReuniclus",
+        super(name, aspect, "EpochReuniclus",
                 Type.WATER,Type.PSYCHIC,
                 new Stats(70,
                         45,
@@ -67,7 +67,7 @@ public class EpochReuniclus extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.TORRENT,Ability.MAGIC_BOUNCE), Ability.TECHNICIAN,
                 10, 201,
-                new Stats(70,45,95,3,130,95), 100,
+                new Stats(0,0,0,3,0,0), 100,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
                 70,

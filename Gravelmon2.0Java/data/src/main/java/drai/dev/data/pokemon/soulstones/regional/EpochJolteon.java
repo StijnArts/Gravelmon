@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochJolteon extends drai.dev.data.pokemon.Pokemon {
     public EpochJolteon(String name, Aspect aspect) {
-        super(name, aspect,"EpochJolteon",
+        super(name, aspect, "EpochJolteon",
                 Type.FLYING,
                 new Stats(60,
                         50,
@@ -67,7 +67,7 @@ public class EpochJolteon extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.DRIZZLE,Ability.LIGHTNING_ROD), Ability.CLOUD_NINE,
                 8, 245,
-                new Stats(60,50,55,140,120,2), 100,
+                new Stats(0,0,0,0,0,2), 100,
                 0.875,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -176,7 +176,7 @@ public class EpochJolteon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

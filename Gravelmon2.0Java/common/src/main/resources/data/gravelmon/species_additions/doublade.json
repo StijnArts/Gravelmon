@@ -112,6 +112,20 @@
   "pokedex": [
     "cobblemon.species.epochdoublade.desc"
   ],
+  "evolutions": [
+    {
+      "id": "doublade_epoch_aegislash",
+      "variant": "item_interact",
+      "result": "epoch aegislash",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -120,12 +134,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 64,
-    "attack": 60,
-    "defence": 75,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 2,
-    "special_defence": 70,
-    "speed": 89
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 8,
   "weight": 20,
@@ -231,7 +245,21 @@
   "pokedex": [
     "cobblemon.species.epochdoubladeone.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "doublade_epochone_aegislash",
+      "variant": "item_interact",
+      "result": "epochone aegislash",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -239,15 +267,15 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 63,
+    "hp": 0,
     "attack": 2,
-    "defence": 55,
-    "special_attack": 95,
-    "special_defence": 95,
-    "speed": 45
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "height": 0,
-  "weight": 0,
+  "height": 8,
+  "weight": 20,
   "aspects": ["epochtwo"],
   "cannotDynamax": false
 },
@@ -352,7 +380,21 @@
   "pokedex": [
     "cobblemon.species.epochdoubladetwo.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "doublade_epochtwo_aegislash",
+      "variant": "item_interact",
+      "result": "epochtwo aegislash",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -360,15 +402,15 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 99,
+    "hp": 0,
     "attack": 2,
-    "defence": 80,
-    "special_attack": 95,
-    "special_defence": 35,
-    "speed": 49
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "height": 0,
-  "weight": 0,
+  "height": 8,
+  "weight": 20,
   "aspects": ["epochthree"],
   "cannotDynamax": false
 },
@@ -487,7 +529,21 @@
   "pokedex": [
     "cobblemon.species.epochdoubladethree.desc"
   ],
-  "baseScale": 0.1,
+  "evolutions": [
+    {
+      "id": "doublade_epochthree_aegislash",
+      "variant": "item_interact",
+      "result": "epochthree aegislash",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:iron_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -495,15 +551,15 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 59,
-    "attack": 80,
+    "hp": 0,
+    "attack": 0,
     "defence": 2,
-    "special_attack": 65,
-    "special_defence": 45,
-    "speed": 99
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "height": 0,
-  "weight": 0,
+  "height": 8,
+  "weight": 20,
   "aspects": ["epochfour"],
   "cannotDynamax": false
 },

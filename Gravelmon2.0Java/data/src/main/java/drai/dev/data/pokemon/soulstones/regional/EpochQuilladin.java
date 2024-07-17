@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochQuilladin extends drai.dev.data.pokemon.Pokemon {
     public EpochQuilladin(String name, Aspect aspect) {
-        super(name, aspect,"EpochQuilladin",
+        super(name, aspect, "EpochQuilladin",
                 Type.GROUND,Type.LIGHT,
                 new Stats(66,
                         78,
@@ -67,13 +67,14 @@ public class EpochQuilladin extends drai.dev.data.pokemon.Pokemon {
                         63),
                 List.of(Ability.SAND_STREAM,Ability.IRON_BARBS), Ability.OVERCOAT,
                 7, 290,
-                new Stats(66,78,2,52,51,63), 90,
+                new Stats(0,0,2,0,0,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It uses the crystals on its back as a light source to help it navigate through dark areas."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch chesnaught", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,33),
                         new MoveLearnSetEntry(Move.SAND_TOMB,10),

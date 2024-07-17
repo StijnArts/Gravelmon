@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGible extends drai.dev.data.pokemon.Pokemon {
     public EpochGible(String name, Aspect aspect) {
-        super(name, aspect,"EpochGible",
+        super(name, aspect, "EpochGible",
                 Type.GHOST,Type.DRAGON,
                 new Stats(58,
                         70,
@@ -67,13 +67,14 @@ public class EpochGible extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.UNNERVE,Ability.HYPER_CUTTER), Ability.PRESSURE,
                 7, 205,
-                new Stats(58,1,40,42,50,40), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("When travelers complain about a spectral force or report hearing growling noises or some sort of sinister aura, it was likely that of a Gible."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gabite", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SHADOW_CLAW,28),

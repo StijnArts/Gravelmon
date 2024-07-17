@@ -124,6 +124,22 @@
   "pokedex": [
     "cobblemon.species.epochkrokorok.desc"
   ],
+  "evolutions": [
+    {
+      "id": "krokorok_epoch_krookodile",
+      "variant": "level_up",
+      "result": "epoch krookodile",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -132,12 +148,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 60,
+    "hp": 0,
     "attack": 2,
-    "defence": 55,
-    "special_attack": 74,
-    "special_defence": 45,
-    "speed": 50
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 334,

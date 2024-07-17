@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGolurk extends drai.dev.data.pokemon.Pokemon {
     public EpochGolurk(String name, Aspect aspect) {
-        super(name, aspect,"EpochGolurk",
+        super(name, aspect, "EpochGolurk",
                 Type.STEEL,Type.PSYCHIC,
                 new Stats(94,
                         99,
@@ -67,7 +67,7 @@ public class EpochGolurk extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.LONG_REACH,Ability.IRON_FIST), Ability.OVERCOAT,
                 28, 3300,
-                new Stats(94,2,105,55,75,75), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 -1.0,
                 169, ExperienceGroup.MEDIUM_FAST,
                 70,

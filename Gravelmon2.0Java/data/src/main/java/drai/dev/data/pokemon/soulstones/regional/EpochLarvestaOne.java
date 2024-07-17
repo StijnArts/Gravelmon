@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLarvestaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochLarvestaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochLarvestaOne",
+        super(name, aspect, "EpochLarvestaOne",
                 Type.COSMIC,Type.BUG,
                 new Stats(55,
                         85,
@@ -67,13 +67,14 @@ public class EpochLarvestaOne extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.NEBULACLOUD,Ability.DAZZLING), Ability.STARSTRUCK,
                 11, 288,
-                new Stats(55,1,55,60,50,55), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 72, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It is said to be a Pokemon from a different galaxy altogether, and it actually managed to travel here by opening a wormhole."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo volcarona", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,44),
                         new MoveLearnSetEntry(Move.BUG_BITE,16),

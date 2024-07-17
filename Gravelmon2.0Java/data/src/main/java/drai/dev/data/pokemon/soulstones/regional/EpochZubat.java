@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochZubat extends drai.dev.data.pokemon.Pokemon {
     public EpochZubat(String name, Aspect aspect) {
-        super(name, aspect,"EpochZubat",
+        super(name, aspect, "EpochZubat",
                 Type.DARK,Type.SOUND,
                 new Stats(35,
                         50,
@@ -67,13 +67,14 @@ public class EpochZubat extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.LEVITATE,Ability.LEECHINGFANGS), Ability.MERCILESS,
                 8, 75,
-                new Stats(35,50,35,60,30,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 49, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They are naughty Pokemon and often will pull pranks on travelers passing by in their cave."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch golbat", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAGUE,53),
                         new MoveLearnSetEntry(Move.DARKWHISPERS,1),
@@ -165,13 +166,14 @@ public class EpochZubat extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEAN_LOOK,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Zubat");
 
     }

@@ -204,6 +204,9 @@ public class GenerationThree extends Game {
         pokemon.add(new EpochMudkip("", Aspect.EPOCH));
         pokemon.add(new EpochMarshtomp("", Aspect.EPOCH));
         pokemon.add(new EpochSwampert("", Aspect.EPOCH));
+        pokemon.add(new EpochMudkipOne("", Aspect.EPOCH));
+        pokemon.add(new EpochMarshtompOne("", Aspect.EPOCH));
+        pokemon.add(new EpochSwampertOne("", Aspect.EPOCH));
 
         pokemon.add(new EpochWailmer("", Aspect.EPOCH));
         pokemon.add(new EpochWailord("", Aspect.EPOCH));
@@ -277,9 +280,6 @@ public class GenerationThree extends Game {
         pokemon.add(new EpochSableyeOne("", Aspect.EPOCH));
         pokemon.add(new EpochSwabluOne("", Aspect.EPOCH));
         pokemon.add(new EpochAltariaOne("", Aspect.EPOCH));
-        pokemon.add(new EpochMudkipOne("", Aspect.EPOCH));
-        pokemon.add(new EpochMarshtompOne("", Aspect.EPOCH));
-        pokemon.add(new EpochSwampertOne("", Aspect.EPOCH));
         pokemon.add(new EpochSurskitOne("", Aspect.EPOCH));
         pokemon.add(new EpochMasquerainOne("", Aspect.EPOCH));
         pokemon.add(new EpochClamperl("", Aspect.EPOCH));

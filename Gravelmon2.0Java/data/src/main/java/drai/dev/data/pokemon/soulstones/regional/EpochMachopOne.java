@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMachopOne extends drai.dev.data.pokemon.Pokemon {
     public EpochMachopOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochMachopOne",
+        super(name, aspect, "EpochMachopOne",
                 Type.FIGHTING,Type.PSYCHIC,
                 new Stats(50,
                         35,
@@ -67,13 +67,14 @@ public class EpochMachopOne extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.PARENTAL_BOND,Ability.MOLD_BREAKER), Ability.SCRAPPY,
                 8, 195,
-                new Stats(50,1,55,55,65,55), 180,
+                new Stats(0,1,0,0,0,0), 180,
                 0.25,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("This Pokemon is beginning to tap into its psychic potential. As a result, its stand is weakly formed and highly transparent."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo machoke", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEEPINGWIND,47),
                         new MoveLearnSetEntry(Move.STORED_POWER,55),
@@ -177,9 +178,8 @@ public class EpochMachopOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

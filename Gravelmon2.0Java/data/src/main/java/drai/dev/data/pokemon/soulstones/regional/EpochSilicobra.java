@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSilicobra extends drai.dev.data.pokemon.Pokemon {
     public EpochSilicobra(String name, Aspect aspect) {
-        super(name, aspect,"EpochSilicobra",
+        super(name, aspect, "EpochSilicobra",
                 Type.WATER,
                 new Stats(50,
                         70,
@@ -67,13 +67,14 @@ public class EpochSilicobra extends drai.dev.data.pokemon.Pokemon {
                         48),
                 List.of(Ability.COLOR_CHANGE,Ability.SWIFT_SWIM), Ability.WATER_COMPACTION,
                 22, 76,
-                new Stats(50,1,50,35,62,48), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 63, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Certain bustlers have managed to train Silicobras to perform tricks with its buoy as a form of entertainment."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch sandaconda", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUA_TAIL,38),
                         new MoveLearnSetEntry(Move.GLARE,31),

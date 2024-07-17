@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHoundoom extends drai.dev.data.pokemon.Pokemon {
     public EpochHoundoom(String name, Aspect aspect) {
-        super(name, aspect,"EpochHoundoom",
+        super(name, aspect, "EpochHoundoom",
                 Type.FIRE,Type.LIGHT,
                 new Stats(85,
                         55,
@@ -67,7 +67,7 @@ public class EpochHoundoom extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.STEADFAST,Ability.SERENE_GRACE), Ability.FRIEND_GUARD,
                 14, 350,
-                new Stats(85,55,80,1,95,80), 90,
+                new Stats(0,0,0,1,0,0), 90,
                 0.5,
                 175, ExperienceGroup.SLOW,
                 70,
@@ -170,9 +170,8 @@ public class EpochHoundoom extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 40, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_SOUL_FIRE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

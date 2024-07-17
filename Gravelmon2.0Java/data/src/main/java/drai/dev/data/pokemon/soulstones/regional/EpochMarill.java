@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMarill extends drai.dev.data.pokemon.Pokemon {
     public EpochMarill(String name, Aspect aspect) {
-        super(name, aspect,"EpochMarill",
+        super(name, aspect, "EpochMarill",
                 Type.FIGHTING,
                 new Stats(45,
                         35,
@@ -67,13 +67,14 @@ public class EpochMarill extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.FLUFFY,Ability.THICK_FAT), Ability.FUR_COAT,
                 4, 85,
-                new Stats(2,35,55,25,35,55), 190,
+                new Stats(2,0,0,0,0,0), 190,
                 0.5,
                 88, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("As it has continued to be punched, its seams have started to come undone that the material it is made from has started to poke through."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch azumarill", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,28),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -168,11 +169,11 @@ public class EpochMarill extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SEISMIC_TOSS,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 32, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Marill");

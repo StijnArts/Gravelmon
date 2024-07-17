@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSkiddo extends drai.dev.data.pokemon.Pokemon {
     public EpochSkiddo(String name, Aspect aspect) {
-        super(name, aspect,"EpochSkiddo",
+        super(name, aspect, "EpochSkiddo",
                 Type.ROCK,Type.ICE,
                 new Stats(56,
                         80,
@@ -67,13 +67,14 @@ public class EpochSkiddo extends drai.dev.data.pokemon.Pokemon {
                         47),
                 List.of(Ability.GUTS,Ability.MOXIE), Ability.SLUSH_RUSH,
                 9, 310,
-                new Stats(1,80,48,87,32,47), 160,
+                new Stats(1,0,0,0,0,0), 160,
                 0.5,
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is very territorial and typically battles others in its herd from a young age, to sharpen its horn and assert dominance among its peers."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch gogoat", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,40),
                         new MoveLearnSetEntry(Move.TACKLE,1),

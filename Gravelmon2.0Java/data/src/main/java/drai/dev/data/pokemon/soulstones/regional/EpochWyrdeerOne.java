@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochWyrdeerOne extends drai.dev.data.pokemon.Pokemon {
     public EpochWyrdeerOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochWyrdeerOne",
+        super(name, aspect, "EpochWyrdeerOne",
                 Type.ELECTRIC,
                 new Stats(93,
                         125,
@@ -67,7 +67,7 @@ public class EpochWyrdeerOne extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.RECKLESS,Ability.SHEER_FORCE), Ability.MOTOR_DRIVE,
                 18, 951,
-                new Stats(93,2,72,85,70,80), 95,
+                new Stats(0,2,0,0,0,0), 95,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
@@ -158,8 +158,9 @@ public class EpochWyrdeerOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 43, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

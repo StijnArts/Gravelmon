@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHorseaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochHorseaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochHorseaOne",
+        super(name, aspect, "EpochHorseaOne",
                 Type.BUG,Type.FLYING,
                 new Stats(30,
                         30,
@@ -67,13 +67,14 @@ public class EpochHorseaOne extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.COMPOUND_EYES,Ability.INTIMIDATE), Ability.SWARM,
                 4, 80,
-                new Stats(30,30,40,1,75,60), 225,
+                new Stats(0,0,0,1,0,0), 225,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FLYING),
                 List.of("It is responsible for pollinating many flowers in local fields and forests. When they do so, you can hear a loud buzzing noise."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo seadra", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,42),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -173,14 +174,20 @@ public class EpochHorseaOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLEEP_POWDER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Horsea");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+
+        setCanFly(true);
+
+        setLangFileName("Horsea");
 
     }
 

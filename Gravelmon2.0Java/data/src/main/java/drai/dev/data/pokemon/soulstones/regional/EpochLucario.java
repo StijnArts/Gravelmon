@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLucario extends drai.dev.data.pokemon.Pokemon {
     public EpochLucario(String name, Aspect aspect) {
-        super(name, aspect,"EpochLucario",
+        super(name, aspect, "EpochLucario",
                 Type.PSYCHIC,Type.DARK,
                 new Stats(85,
                         70,
@@ -67,7 +67,7 @@ public class EpochLucario extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.MAGIC_BOUNCE,Ability.CHARISMA), Ability.SPELLCASTER,
                 12, 540,
-                new Stats(85,70,70,120,80,1), 90,
+                new Stats(0,0,0,0,0,1), 90,
                 0.875,
                 184, ExperienceGroup.MEDIUM_SLOW,
                 70,

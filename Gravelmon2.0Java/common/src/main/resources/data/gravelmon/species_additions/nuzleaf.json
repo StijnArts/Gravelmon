@@ -118,6 +118,20 @@
   "pokedex": [
     "cobblemon.species.epochnuzleaf.desc"
   ],
+  "evolutions": [
+    {
+      "id": "nuzleaf_epoch_shiftry",
+      "variant": "item_interact",
+      "result": "epoch shiftry",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -126,12 +140,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 70,
-    "attack": 50,
-    "defence": 40,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 2,
-    "special_defence": 80,
-    "speed": 40
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 280,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochToxapex extends drai.dev.data.pokemon.Pokemon {
     public EpochToxapex(String name, Aspect aspect) {
-        super(name, aspect,"EpochToxapex",
+        super(name, aspect, "EpochToxapex",
                 Type.GRASS,Type.POISON,
                 new Stats(75,
                         95,
@@ -67,7 +67,7 @@ public class EpochToxapex extends drai.dev.data.pokemon.Pokemon {
                         120),
                 List.of(Ability.ARENA_TRAP,Ability.PRESSURE), Ability.POISON_POINT,
                 7, 145,
-                new Stats(75,95,1,35,50,120), 75,
+                new Stats(0,0,1,0,0,0), 75,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,

@@ -23,7 +23,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -105,6 +105,22 @@
   "pokedex": [
     "cobblemon.species.epochvoltorb.desc"
   ],
+  "evolutions": [
+    {
+      "id": "voltorb_epoch_electrode",
+      "variant": "level_up",
+      "result": "epoch electrode",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -113,11 +129,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 25,
-    "special_attack": 80,
-    "special_defence": 45,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 5,
@@ -240,6 +256,22 @@
   "pokedex": [
     "cobblemon.species.epochvoltorbone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "voltorb_epochtwo_electrode",
+      "variant": "level_up",
+      "result": "epochtwo electrode",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -248,11 +280,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 40,
-    "attack": 40,
-    "defence": 45,
-    "special_attack": 100,
-    "special_defence": 55,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 5,

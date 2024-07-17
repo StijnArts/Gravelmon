@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSandaconda extends drai.dev.data.pokemon.Pokemon {
     public EpochSandaconda(String name, Aspect aspect) {
-        super(name, aspect,"EpochSandaconda",
+        super(name, aspect, "EpochSandaconda",
                 Type.WATER,
                 new Stats(70,
                         115,
@@ -67,7 +67,7 @@ public class EpochSandaconda extends drai.dev.data.pokemon.Pokemon {
                         72),
                 List.of(Ability.COLOR_CHANGE,Ability.SWIFT_SWIM), Ability.WATER_COMPACTION,
                 38, 655,
-                new Stats(70,1,82,71,100,72), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 179, ExperienceGroup.MEDIUM_FAST,
                 70,

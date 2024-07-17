@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDusknoir extends drai.dev.data.pokemon.Pokemon {
     public EpochDusknoir(String name, Aspect aspect) {
-        super(name, aspect,"EpochDusknoir",
+        super(name, aspect, "EpochDusknoir",
                 Type.FIRE,Type.GHOST,
                 new Stats(75,
                         105,
@@ -67,7 +67,7 @@ public class EpochDusknoir extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.BLAZE,Ability.LEVITATE), Ability.WHITE_SMOKE,
                 22, 1066,
-                new Stats(75,1,70,100,105,70), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 236, ExperienceGroup.FAST,
                 70,

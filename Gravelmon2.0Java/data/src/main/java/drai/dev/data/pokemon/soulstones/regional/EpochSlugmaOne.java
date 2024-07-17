@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlugmaOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSlugmaOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSlugmaOne",
+        super(name, aspect, "EpochSlugmaOne",
                 Type.WATER,Type.PSYCHIC,
                 new Stats(75,
                         25,
@@ -67,13 +67,14 @@ public class EpochSlugmaOne extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.WATER_VEIL,Ability.CLEAR_BODY), Ability.PSYCHIC_SURGE,
                 7, 350,
-                new Stats(75,25,50,1,70,55), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.WATER_3),
                 List.of("This Pokemon is very small and found along the sea floor or in small ponds. It will suck up dead algae that have fallen to the bottom of the sea floor as food."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo magcargo", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.STRANGE_STEAM,48),
@@ -189,13 +190,14 @@ public class EpochSlugmaOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TIDALWAVE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 12, 31, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Slugma");
 
     }

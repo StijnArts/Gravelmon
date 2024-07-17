@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAlcremie extends drai.dev.data.pokemon.Pokemon {
     public EpochAlcremie(String name, Aspect aspect) {
-        super(name, aspect,"EpochAlcremie",
+        super(name, aspect, "EpochAlcremie",
                 Type.POISON,Type.ROCK,
                 new Stats(85,
                         40,
@@ -67,7 +67,7 @@ public class EpochAlcremie extends drai.dev.data.pokemon.Pokemon {
                         121),
                 List.of(Ability.EARTH_EATER,Ability.TOXIC_DEBRIS), Ability.STEAM_ENGINE,
                 3, 5,
-                new Stats(85,40,75,64,2,121), 100,
+                new Stats(0,0,0,0,2,0), 100,
                 0.0,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,

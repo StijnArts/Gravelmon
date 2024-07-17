@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochArmaldo extends drai.dev.data.pokemon.Pokemon {
     public EpochArmaldo(String name, Aspect aspect) {
-        super(name, aspect,"EpochArmaldo",
+        super(name, aspect, "EpochArmaldo",
                 Type.POISON,Type.ROCK,
                 new Stats(75,
                         125,
@@ -67,7 +67,7 @@ public class EpochArmaldo extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.SHELL_ARMOR,Ability.UNBREAKABLE), Ability.POISON_TOUCH,
                 15, 682,
-                new Stats(75,2,100,45,70,80), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.875,
                 173, ExperienceGroup.ERRATIC,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDurant extends drai.dev.data.pokemon.Pokemon {
     public EpochDurant(String name, Aspect aspect) {
-        super(name, aspect,"EpochDurant",
+        super(name, aspect, "EpochDurant",
                 Type.BUG,Type.FIRE,
                 new Stats(58,
                         112,
@@ -67,7 +67,7 @@ public class EpochDurant extends drai.dev.data.pokemon.Pokemon {
                         48),
                 List.of(Ability.ANGER_POINT,Ability.MAGMA_ARMOR), Ability.RECKLESS,
                 3, 330,
-                new Stats(58,2,109,109,48,48), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 169, ExperienceGroup.MEDIUM_FAST,
                 70,

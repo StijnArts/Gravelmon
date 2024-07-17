@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNoctowlOne extends drai.dev.data.pokemon.Pokemon {
     public EpochNoctowlOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochNoctowlOne",
+        super(name, aspect, "EpochNoctowlOne",
                 Type.ICE,Type.FLYING,
                 new Stats(95,
                         85,
@@ -67,7 +67,7 @@ public class EpochNoctowlOne extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.INSOMNIA,Ability.BIG_PECKS), Ability.SNOW_WARNING,
                 16, 408,
-                new Stats(2,85,70,85,35,105), 90,
+                new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -150,8 +150,8 @@ public class EpochNoctowlOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 43, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

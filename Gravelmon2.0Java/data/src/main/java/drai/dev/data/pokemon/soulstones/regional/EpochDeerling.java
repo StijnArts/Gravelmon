@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDeerling extends drai.dev.data.pokemon.Pokemon {
     public EpochDeerling(String name, Aspect aspect) {
-        super(name, aspect,"EpochDeerling",
+        super(name, aspect, "EpochDeerling",
                 Type.NORMAL,Type.FIRE,
                 new Stats(60,
                         65,
@@ -67,13 +67,14 @@ public class EpochDeerling extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.FLAME_BODY,Ability.QUICK_FEET), Ability.LIMBER,
                 11, 505,
-                new Stats(60,65,45,85,35,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 67, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its flames flare up when it is either in distress or very happy, making it difficult to properly understand and care for."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch sawsbuck", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,56),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),

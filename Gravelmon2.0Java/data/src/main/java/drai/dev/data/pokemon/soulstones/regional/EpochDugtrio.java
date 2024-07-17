@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDugtrio extends drai.dev.data.pokemon.Pokemon {
     public EpochDugtrio(String name, Aspect aspect) {
-        super(name, aspect,"EpochDugtrio",
+        super(name, aspect, "EpochDugtrio",
                 Type.GHOST,Type.GROUND,
                 new Stats(75,
                         100,
@@ -67,7 +67,7 @@ public class EpochDugtrio extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.INFILTRATOR,Ability.MOLD_BREAKER), Ability.ARENA_TRAP,
                 7, 333,
-                new Stats(75,100,70,120,50,2), 92,
+                new Stats(0,0,0,0,0,2), 92,
                 0.5,
                 149, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -163,8 +163,8 @@ public class EpochDugtrio extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 43, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

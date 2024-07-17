@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCyndaquilOne extends drai.dev.data.pokemon.Pokemon {
     public EpochCyndaquilOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochCyndaquilOne",
+        super(name, aspect, "EpochCyndaquilOne",
                 Type.ICE,
                 new Stats(59,
                         32,
@@ -67,13 +67,14 @@ public class EpochCyndaquilOne extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.REFRIGERATE,Ability.SNOW_CLOAK), Ability.ICYVEINS,
                 5, 79,
-                new Stats(59,32,43,65,60,1), 90,
+                new Stats(0,0,0,0,0,1), 90,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Because of this Pokemon's small stature, it tries to keep a low profile. If it is startled, the ice on its back glistens brightly."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo quilava", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BLIZZARD,57),
                         new MoveLearnSetEntry(Move.SNOWFLAKES,1),
@@ -165,9 +166,8 @@ public class EpochCyndaquilOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURE_POWER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

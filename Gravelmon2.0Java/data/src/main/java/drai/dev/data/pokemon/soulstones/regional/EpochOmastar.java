@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochOmastar extends drai.dev.data.pokemon.Pokemon {
     public EpochOmastar(String name, Aspect aspect) {
-        super(name, aspect,"EpochOmastar",
+        super(name, aspect, "EpochOmastar",
                 Type.PSYCHIC,
                 new Stats(100,
                         40,
@@ -67,7 +67,7 @@ public class EpochOmastar extends drai.dev.data.pokemon.Pokemon {
                         125),
                 List.of(Ability.MAGIC_BOUNCE,Ability.MAGIC_GUARD), Ability.SPELLCASTER,
                 10, 350,
-                new Stats(100,40,110,55,2,125), 90,
+                new Stats(0,0,0,0,2,0), 90,
                 0.875,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -158,11 +158,11 @@ public class EpochOmastar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Omastar");

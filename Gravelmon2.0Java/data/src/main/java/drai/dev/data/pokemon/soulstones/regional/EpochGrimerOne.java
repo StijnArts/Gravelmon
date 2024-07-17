@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGrimerOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGrimerOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGrimerOne",
+        super(name, aspect, "EpochGrimerOne",
                 Type.FIRE,Type.GROUND,
                 new Stats(80,
                         60,
@@ -67,13 +67,14 @@ public class EpochGrimerOne extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.MAGMA_ARMOR,Ability.FLAME_BODY), Ability.CLAYFORM,
                 9, 300,
-                new Stats(1,60,50,25,40,70), 190,
+                new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon appears in volcanically active areas. It can lob hot lava formed from its body from a distance to singe and immobilize enemies."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo muk", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.FIRE_PUNCH,32),
@@ -183,13 +184,13 @@ public class EpochGrimerOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMOKESCREEN,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 12, 33, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.LAVA_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
            setLangFileName("Grimer");
 
     }

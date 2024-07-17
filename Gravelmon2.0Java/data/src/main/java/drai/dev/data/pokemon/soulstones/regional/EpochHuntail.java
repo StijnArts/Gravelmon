@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHuntail extends drai.dev.data.pokemon.Pokemon {
     public EpochHuntail(String name, Aspect aspect) {
-        super(name, aspect,"EpochHuntail",
+        super(name, aspect, "EpochHuntail",
                 Type.WATER,Type.DARK,
                 new Stats(75,
                         134,
@@ -67,7 +67,7 @@ public class EpochHuntail extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.STATIC,Ability.MOLD_BREAKER), Ability.UNNERVE,
                 17, 270,
-                new Stats(75,1,55,112,54,55), 123,
+                new Stats(0,1,0,0,0,0), 123,
                 0.5,
                 170, ExperienceGroup.ERRATIC,
                 70,

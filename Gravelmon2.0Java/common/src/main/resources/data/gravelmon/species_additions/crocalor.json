@@ -135,6 +135,22 @@
   "pokedex": [
     "cobblemon.species.epochcrocalor.desc"
   ],
+  "evolutions": [
+    {
+      "id": "crocalor_epoch_skeledirge",
+      "variant": "level_up",
+      "result": "epoch skeledirge",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.16666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -143,12 +159,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 81,
+    "hp": 0,
     "attack": 1,
-    "defence": 90,
-    "special_attack": 49,
-    "special_defence": 45,
-    "speed": 68
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 307,

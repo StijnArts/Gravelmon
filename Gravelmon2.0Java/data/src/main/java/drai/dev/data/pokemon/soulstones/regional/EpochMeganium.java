@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMeganium extends drai.dev.data.pokemon.Pokemon {
     public EpochMeganium(String name, Aspect aspect) {
-        super(name, aspect,"EpochMeganium",
+        super(name, aspect, "EpochMeganium",
                 Type.FAIRY,Type.GRASS,
                 new Stats(85,
                         72,
@@ -67,7 +67,7 @@ public class EpochMeganium extends drai.dev.data.pokemon.Pokemon {
                         120),
                 List.of(Ability.IMMUNITY,Ability.TRIAGE), Ability.FLOWER_VEIL,
                 18, 1005,
-                new Stats(85,72,1,75,73,120), 90,
+                new Stats(0,0,1,0,0,0), 90,
                 0.875,
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -152,8 +152,8 @@ public class EpochMeganium extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1,  List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

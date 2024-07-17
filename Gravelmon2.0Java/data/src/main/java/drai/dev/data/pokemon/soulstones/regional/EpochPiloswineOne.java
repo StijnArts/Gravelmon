@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPiloswineOne extends drai.dev.data.pokemon.Pokemon {
     public EpochPiloswineOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochPiloswineOne",
+        super(name, aspect, "EpochPiloswineOne",
                 Type.GRASS,Type.GROUND,
                 new Stats(90,
                         110,
@@ -67,13 +67,14 @@ public class EpochPiloswineOne extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.LEAF_GUARD,Ability.THICK_FAT), Ability.RECKLESS,
                 11, 558,
-                new Stats(90,1,100,55,50,45), 75,
+                new Stats(0,1,0,0,0,0), 75,
                 0.5,
                 158, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When grazing, it can keep perfectly still that it is often mistaken as a hedge or a small bush."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo mamoswine", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,30),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -167,9 +168,8 @@ public class EpochPiloswineOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

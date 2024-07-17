@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDarumaka extends drai.dev.data.pokemon.Pokemon {
     public EpochDarumaka(String name, Aspect aspect) {
-        super(name, aspect,"EpochDarumaka",
+        super(name, aspect, "EpochDarumaka",
                 Type.GRASS,Type.SOUND,
                 new Stats(80,
                         70,
@@ -67,13 +67,14 @@ public class EpochDarumaka extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.VITAL_SPIRIT,Ability.UNAWARE), Ability.HUSTLE,
                 6, 375,
-                new Stats(80,1,65,30,15,55), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is known for starting noisy riots in the jungle whether it be from pounding its chest or screeching from the treetops."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch darmanitan", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESTLEAP,16),
                         new MoveLearnSetEntry(Move.TACKLE,1),

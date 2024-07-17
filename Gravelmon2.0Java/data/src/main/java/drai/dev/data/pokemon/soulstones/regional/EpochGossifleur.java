@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGossifleur extends drai.dev.data.pokemon.Pokemon {
     public EpochGossifleur(String name, Aspect aspect) {
-        super(name, aspect,"EpochGossifleur",
+        super(name, aspect, "EpochGossifleur",
                 Type.DARK,Type.GRASS,
                 new Stats(40,
                         40,
@@ -67,13 +67,14 @@ public class EpochGossifleur extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.POISON_HEAL,Ability.TOXIC_BOOST), Ability.COTTON_DOWN,
                 4, 22,
-                new Stats(40,40,50,10,1,70), 190,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("The presence of it in a field is a forewarning of eventual rot and decay coming to the area."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch eldegoss", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SIPHON,7),
                         new MoveLearnSetEntry(Move.THORNPRISON,4),

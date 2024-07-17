@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAzumarill extends drai.dev.data.pokemon.Pokemon {
     public EpochAzumarill(String name, Aspect aspect) {
-        super(name, aspect,"EpochAzumarill",
+        super(name, aspect, "EpochAzumarill",
                 Type.FIGHTING,
                 new Stats(90,
                         50,
@@ -67,7 +67,7 @@ public class EpochAzumarill extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.FLUFFY,Ability.THICK_FAT), Ability.FUR_COAT,
                 8, 285,
-                new Stats(3,50,90,50,50,90), 75,
+                new Stats(3,0,0,0,0,0), 75,
                 0.5,
                 310, ExperienceGroup.FAST,
                 70,
@@ -158,11 +158,11 @@ public class EpochAzumarill extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Azumarill");

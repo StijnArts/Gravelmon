@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBellossom extends drai.dev.data.pokemon.Pokemon {
     public EpochBellossom(String name, Aspect aspect) {
-        super(name, aspect,"EpochBellossom",
+        super(name, aspect, "EpochBellossom",
                 Type.GRASS,Type.PSYCHIC,
                 new Stats(85,
                         70,
@@ -67,7 +67,7 @@ public class EpochBellossom extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.EFFECT_SPORE,Ability.STARSTRUCK), Ability.STAMINA,
                 4, 58,
-                new Stats(85,70,75,55,3,105), 90,
+                new Stats(0,0,0,0,3,0), 90,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -172,9 +172,8 @@ public class EpochBellossom extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WONDER_ROOM,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 43, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

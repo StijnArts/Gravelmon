@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNoctowl extends drai.dev.data.pokemon.Pokemon {
     public EpochNoctowl(String name, Aspect aspect) {
-        super(name, aspect,"EpochNoctowl",
+        super(name, aspect, "EpochNoctowl",
                 Type.PSYCHIC,Type.LIGHT,
                 new Stats(73,
                         45,
@@ -67,7 +67,7 @@ public class EpochNoctowl extends drai.dev.data.pokemon.Pokemon {
                         82),
                 List.of(Ability.INTUITION,Ability.DAZZLING), Ability.VITALITY,
                 16, 408,
-                new Stats(73,45,70,2,115,82), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -157,13 +157,15 @@ public class EpochNoctowl extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WONDER_ROOM,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 46, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Noctowl");
 
     }

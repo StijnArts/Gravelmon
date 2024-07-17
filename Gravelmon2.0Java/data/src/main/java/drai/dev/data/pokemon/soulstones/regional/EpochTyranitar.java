@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTyranitar extends drai.dev.data.pokemon.Pokemon {
     public EpochTyranitar(String name, Aspect aspect) {
-        super(name, aspect,"EpochTyranitar",
+        super(name, aspect, "EpochTyranitar",
                 Type.STEEL,Type.DRAGON,
                 new Stats(120,
                         104,
@@ -67,7 +67,7 @@ public class EpochTyranitar extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.MAGNET_PULL,Ability.MOLD_BREAKER), Ability.HEAVY_METAL,
                 20, 2020,
-                new Stats(1,104,130,51,95,100), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.5,
                 270, ExperienceGroup.SLOW,
                 70,
@@ -159,9 +159,8 @@ public class EpochTyranitar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 67, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

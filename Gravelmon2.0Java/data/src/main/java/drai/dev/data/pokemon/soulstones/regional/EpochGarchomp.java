@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGarchomp extends drai.dev.data.pokemon.Pokemon {
     public EpochGarchomp(String name, Aspect aspect) {
-        super(name, aspect,"EpochGarchomp",
+        super(name, aspect, "EpochGarchomp",
                 Type.GHOST,Type.DRAGON,
                 new Stats(108,
                         120,
@@ -67,7 +67,7 @@ public class EpochGarchomp extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.UNNERVE,Ability.HYPER_CUTTER), Ability.PRESSURE,
                 19, 950,
-                new Stats(108,3,85,102,90,95), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.5,
                 270, ExperienceGroup.SLOW,
                 70,

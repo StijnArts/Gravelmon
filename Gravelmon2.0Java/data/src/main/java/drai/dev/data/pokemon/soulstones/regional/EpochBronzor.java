@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBronzor extends drai.dev.data.pokemon.Pokemon {
     public EpochBronzor(String name, Aspect aspect) {
-        super(name, aspect,"EpochBronzor",
+        super(name, aspect, "EpochBronzor",
                 Type.GRASS,Type.ROCK,
                 new Stats(57,
                         66,
@@ -67,13 +67,14 @@ public class EpochBronzor extends drai.dev.data.pokemon.Pokemon {
                         44),
                 List.of(Ability.SOLID_ROCK,Ability.ROCK_HEAD), Ability.OVERGROW,
                 5, 605,
-                new Stats(57,1,44,23,66,44), 255,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.MINERAL),
                 List.of("It was once used to guard sacred temples and ruins. Over time, the effects of weather have worn away at it and vines have grown over it."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch bronzong", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,15),
                         new MoveLearnSetEntry(Move.HARDEN,1),

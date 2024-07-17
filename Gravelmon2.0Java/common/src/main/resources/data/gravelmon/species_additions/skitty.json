@@ -128,6 +128,20 @@
   "pokedex": [
     "cobblemon.species.epochskittyone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "skitty_epochtwo_delcatty",
+      "variant": "item_interact",
+      "result": "epochtwo delcatty",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -136,12 +150,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 32,
-    "defence": 65,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 68,
-    "speed": 60
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 110,
@@ -294,6 +308,20 @@
   "pokedex": [
     "cobblemon.species.epochskitty.desc"
   ],
+  "evolutions": [
+    {
+      "id": "skitty_epoch_delcatty",
+      "variant": "item_interact",
+      "result": "epoch delcatty",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -302,12 +330,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 42,
-    "defence": 55,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 68,
-    "speed": 60
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 110,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochOmanyte extends drai.dev.data.pokemon.Pokemon {
     public EpochOmanyte(String name, Aspect aspect) {
-        super(name, aspect,"EpochOmanyte",
+        super(name, aspect, "EpochOmanyte",
                 Type.PSYCHIC,
                 new Stats(55,
                         25,
@@ -67,13 +67,14 @@ public class EpochOmanyte extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.MAGIC_BOUNCE,Ability.MAGIC_GUARD), Ability.SPELLCASTER,
                 4, 75,
-                new Stats(55,25,85,35,1,100), 90,
+                new Stats(0,0,0,0,1,0), 90,
                 0.875,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It can use its magical hat to perform tricks. It is also capable of stepping into the hat and disappearing but it is not clear where it goes or how it comes back."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch omastar", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DARK_PULSE,34),
                         new MoveLearnSetEntry(Move.QUICKSPELL,1),
@@ -169,11 +170,11 @@ public class EpochOmanyte extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TICKLE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 4, List.of(
+                    new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Omanyte");

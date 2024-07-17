@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSlowbro extends drai.dev.data.pokemon.Pokemon {
     public EpochSlowbro(String name, Aspect aspect) {
-        super(name, aspect,"EpochSlowbro",
+        super(name, aspect, "EpochSlowbro",
                 Type.NORMAL,Type.BUG,
                 new Stats(95,
                         110,
@@ -67,7 +67,7 @@ public class EpochSlowbro extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.OBLIVIOUS,Ability.OWN_TEMPO), Ability.HONEY_GATHER,
                 16, 785,
-                new Stats(95,110,2,50,65,70), 75,
+                new Stats(0,0,2,0,0,0), 75,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -146,11 +146,11 @@ public class EpochSlowbro extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.HONEY_TREE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Slowbro");

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSolrock extends drai.dev.data.pokemon.Pokemon {
     public EpochSolrock(String name, Aspect aspect) {
-        super(name, aspect,"EpochSolrock",
+        super(name, aspect, "EpochSolrock",
                 Type.FIRE,Type.COSMIC,
                 new Stats(70,
                         110,
@@ -67,7 +67,7 @@ public class EpochSolrock extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.OVERCOAT,Ability.FLAME_BODY), Ability.FLASH_FIRE,
                 12, 1540,
-                new Stats(70,2,100,85,55,65), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 -1.0,
                 154, ExperienceGroup.FAST,
                 70,
@@ -169,9 +169,8 @@ public class EpochSolrock extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CATAPULT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 54, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

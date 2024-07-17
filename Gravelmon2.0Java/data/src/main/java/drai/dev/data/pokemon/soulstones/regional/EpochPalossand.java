@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPalossand extends drai.dev.data.pokemon.Pokemon {
     public EpochPalossand(String name, Aspect aspect) {
-        super(name, aspect,"EpochPalossand",
+        super(name, aspect, "EpochPalossand",
                 Type.GHOST,Type.ICE,
                 new Stats(110,
                         55,
@@ -67,7 +67,7 @@ public class EpochPalossand extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.WATER_ABSORB,Ability.INFILTRATOR), Ability.SNOW_WARNING,
                 13, 2500,
-                new Stats(110,55,2,35,110,105), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,

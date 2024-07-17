@@ -137,6 +137,20 @@
   "pokedex": [
     "cobblemon.species.epochmrmime.desc"
   ],
+  "evolutions": [
+    {
+      "id": "mrmime_epoch_mrrime",
+      "variant": "item_interact",
+      "result": "epoch mrrime",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:humming_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,
@@ -145,12 +159,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 90,
-    "attack": 40,
-    "defence": 40,
-    "special_attack": 90,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 2,
-    "speed": 110
+    "speed": 0
   },
   "height": 13,
   "weight": 545,

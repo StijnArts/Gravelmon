@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFeraligatrOne extends drai.dev.data.pokemon.Pokemon {
     public EpochFeraligatrOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochFeraligatrOne",
+        super(name, aspect, "EpochFeraligatrOne",
                 Type.DARK,Type.FIRE,
                 new Stats(85,
                         105,
@@ -67,7 +67,7 @@ public class EpochFeraligatrOne extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.STRONG_JAW,Ability.SHEER_FORCE), Ability.BLAZE,
                 23, 888,
-                new Stats(85,2,93,68,79,100), 90,
+                new Stats(0,2,0,0,0,0), 90,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -166,9 +166,8 @@ public class EpochFeraligatrOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_SOUL_FIRE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

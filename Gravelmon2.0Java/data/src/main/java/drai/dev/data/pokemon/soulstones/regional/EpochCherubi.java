@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCherubi extends drai.dev.data.pokemon.Pokemon {
     public EpochCherubi(String name, Aspect aspect) {
-        super(name, aspect,"EpochCherubi",
+        super(name, aspect, "EpochCherubi",
                 Type.GRASS,Type.ICE,
                 new Stats(45,
                         25,
@@ -67,13 +67,14 @@ public class EpochCherubi extends drai.dev.data.pokemon.Pokemon {
                         53),
                 List.of(Ability.SNOW_CLOAK), null,
                 4, 33,
-                new Stats(45,25,40,1,67,53), 190,
+                new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 55, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("Contrary to popular belief, it actually thrives in freezing environments and being covered in snow or frost actually helps it grow faster."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch cherrim", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,11),
                         new MoveLearnSetEntry(Move.FREEZEDRY,27),

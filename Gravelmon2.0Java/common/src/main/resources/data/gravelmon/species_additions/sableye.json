@@ -160,12 +160,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 75,
+    "hp": 0,
     "attack": 1,
-    "defence": 75,
-    "special_attack": 110,
-    "special_defence": 45,
-    "speed": 65
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 5,
   "weight": 110,
@@ -316,12 +316,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 90,
+    "hp": 0,
     "attack": 1,
-    "defence": 80,
-    "special_attack": 50,
-    "special_defence": 50,
-    "speed": 110
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 5,
   "weight": 110,

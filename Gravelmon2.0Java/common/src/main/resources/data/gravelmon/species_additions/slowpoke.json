@@ -130,6 +130,34 @@
   "pokedex": [
     "cobblemon.species.epochslowpoke.desc"
   ],
+  "evolutions": [
+    {
+      "id": "slowpoke_epoch_slowbro",
+      "variant": "level_up",
+      "result": "epoch slowbro",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "slowpoke_epoch_slowking",
+      "variant": "item_interact",
+      "result": "epoch slowking",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:swarm_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
@@ -139,11 +167,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 60,
-    "defence": 60,
-    "special_attack": 15,
-    "special_defence": 40,
-    "speed": 60
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 12,
   "weight": 360,

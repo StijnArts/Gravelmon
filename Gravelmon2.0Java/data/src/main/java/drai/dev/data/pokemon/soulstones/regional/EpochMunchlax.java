@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMunchlax extends drai.dev.data.pokemon.Pokemon {
     public EpochMunchlax(String name, Aspect aspect) {
-        super(name, aspect,"EpochMunchlax",
+        super(name, aspect, "EpochMunchlax",
                 Type.ICE,Type.PSYCHIC,
                 new Stats(105,
                         20,
@@ -67,13 +67,14 @@ public class EpochMunchlax extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.MOODY,Ability.GLUTTONY), Ability.THICK_FAT,
                 6, 1050,
-                new Stats(1,20,90,5,85,85), 92,
+                new Stats(1,0,0,0,0,0), 92,
                 0.875,
                 78, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Its fur is very thick that despite living in very cold habitats, it doesn't feel cold."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch snorlax", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,24),
                         new MoveLearnSetEntry(Move.STORED_POWER,48),
@@ -179,9 +180,8 @@ public class EpochMunchlax extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 31, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

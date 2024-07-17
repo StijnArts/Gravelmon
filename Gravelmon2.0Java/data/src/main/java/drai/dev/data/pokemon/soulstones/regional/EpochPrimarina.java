@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPrimarina extends drai.dev.data.pokemon.Pokemon {
     public EpochPrimarina(String name, Aspect aspect) {
-        super(name, aspect,"EpochPrimarina",
+        super(name, aspect, "EpochPrimarina",
                 Type.GRASS,Type.FAIRY,
                 new Stats(100,
                         64,
@@ -67,7 +67,7 @@ public class EpochPrimarina extends drai.dev.data.pokemon.Pokemon {
                         106),
                 List.of(Ability.CHLOROPHYLL,Ability.LEAF_GUARD), Ability.GRASSY_SURGE,
                 18, 440,
-                new Stats(100,64,85,2,111,106), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,

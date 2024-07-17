@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSnorlax extends drai.dev.data.pokemon.Pokemon {
     public EpochSnorlax(String name, Aspect aspect) {
-        super(name, aspect,"EpochSnorlax",
+        super(name, aspect, "EpochSnorlax",
                 Type.ICE,Type.PSYCHIC,
                 new Stats(160,
                         45,
@@ -67,7 +67,7 @@ public class EpochSnorlax extends drai.dev.data.pokemon.Pokemon {
                         115),
                 List.of(Ability.MOODY,Ability.GLUTTONY), Ability.THICK_FAT,
                 21, 4600,
-                new Stats(2,45,110,10,100,115), 85,
+                new Stats(2,0,0,0,0,0), 85,
                 0.875,
                 189, ExperienceGroup.SLOW,
                 70,
@@ -184,9 +184,8 @@ public class EpochSnorlax extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 57, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

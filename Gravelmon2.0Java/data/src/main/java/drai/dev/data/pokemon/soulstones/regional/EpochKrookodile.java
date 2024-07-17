@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKrookodile extends drai.dev.data.pokemon.Pokemon {
     public EpochKrookodile(String name, Aspect aspect) {
-        super(name, aspect,"EpochKrookodile",
+        super(name, aspect, "EpochKrookodile",
                 Type.WATER,Type.DARK,
                 new Stats(97,
                         87,
@@ -67,7 +67,7 @@ public class EpochKrookodile extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.STALWART,Ability.CANNONFIRE), Ability.SCREEN_CLEANER,
                 15, 963,
-                new Stats(97,3,90,100,65,80), 90,
+                new Stats(0,3,0,0,0,0), 90,
                 0.5,
                 234, ExperienceGroup.MEDIUM_SLOW,
                 70,

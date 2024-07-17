@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTyrogue extends drai.dev.data.pokemon.Pokemon {
     public EpochTyrogue(String name, Aspect aspect) {
-        super(name, aspect,"EpochTyrogue",
+        super(name, aspect, "EpochTyrogue",
                 Type.FIGHTING,Type.NORMAL,
                 new Stats(35,
                         35,
@@ -67,13 +67,18 @@ public class EpochTyrogue extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.SCRAPPY,Ability.LONG_REACH), Ability.NO_GUARD,
                 7, 210,
-                new Stats(35,1,35,35,35,35), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 1.0,
                 42, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Pokemon is said to be the alter-ego and secret identity of a famous superhero..."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch hitmonlee", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:air_stone"),
+new EvolutionEntry("epoch hitmonchan", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:fire_stone"),
+new EvolutionEntry("epoch hitmontop", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_STRIKE,41),
                         new MoveLearnSetEntry(Move.VITAL_THROW,32),
@@ -145,9 +150,8 @@ public class EpochTyrogue extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENDURE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

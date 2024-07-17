@@ -133,6 +133,32 @@
   "pokedex": [
     "cobblemon.species.epochclamperl.desc"
   ],
+  "evolutions": [
+    {
+      "id": "clamperl_epoch_huntail",
+      "variant": "item_interact",
+      "result": "epoch huntail",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ },
+    {
+      "id": "clamperl_epoch_gorebyss",
+      "variant": "item_interact",
+      "result": "epoch gorebyss",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:swarm_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -141,12 +167,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 35,
-    "attack": 34,
-    "defence": 105,
-    "special_attack": 32,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 1,
-    "speed": 105
+    "speed": 0
   },
   "height": 4,
   "weight": 525,

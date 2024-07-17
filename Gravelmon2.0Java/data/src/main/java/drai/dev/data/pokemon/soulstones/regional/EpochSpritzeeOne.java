@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSpritzeeOne extends drai.dev.data.pokemon.Pokemon {
     public EpochSpritzeeOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochSpritzeeOne",
+        super(name, aspect, "EpochSpritzeeOne",
                 Type.FAIRY,Type.DARK,
                 new Stats(78,
                         43,
@@ -67,13 +67,14 @@ public class EpochSpritzeeOne extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.POWER_SPOT,Ability.PRANKSTER), Ability.RECEIVER,
                 2, 5,
-                new Stats(1,43,85,23,32,80), 200,
+                new Stats(1,0,0,0,0,0), 200,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It likes to carry around a lot of gold and shiny objects, although it's not clear how it does this given its small size."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo aromatisse", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_STRIKE,44),
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,36),

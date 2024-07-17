@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochBergmite extends drai.dev.data.pokemon.Pokemon {
     public EpochBergmite(String name, Aspect aspect) {
-        super(name, aspect,"EpochBergmite",
+        super(name, aspect, "EpochBergmite",
                 Type.ROCK,
                 new Stats(55,
                         69,
@@ -67,13 +67,14 @@ public class EpochBergmite extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.IMPENETRABLE,Ability.PRESSURE), Ability.SOLID_ROCK,
                 10, 995,
-                new Stats(55,69,1,28,32,35), 255,
+                new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It is made of extra jagged rock so when it launches itself in full-body tackles at its enemy, it can pierce and significantly damage them."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch avalugg", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,42),
                         new MoveLearnSetEntry(Move.SANDSTORM,10),

@@ -187,6 +187,20 @@
   "pokedex": [
     "cobblemon.species.epochdunsparce.desc"
   ],
+  "evolutions": [
+    {
+      "id": "dunsparce_epoch_dudunsparce",
+      "variant": "item_interact",
+      "result": "epoch dudunsparce",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:swarm_stone",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
@@ -196,11 +210,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 95,
-    "defence": 70,
-    "special_attack": 45,
-    "special_defence": 40,
-    "speed": 65
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 15,
   "weight": 140,

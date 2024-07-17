@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochClamperl extends drai.dev.data.pokemon.Pokemon {
     public EpochClamperl(String name, Aspect aspect) {
-        super(name, aspect,"EpochClamperl",
+        super(name, aspect, "EpochClamperl",
                 Type.PSYCHIC,
                 new Stats(35,
                         34,
@@ -67,13 +67,16 @@ public class EpochClamperl extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.TELEPATHY,Ability.FRIEND_GUARD), Ability.RATTLED,
                 4, 525,
-                new Stats(35,34,105,32,1,105), 255,
+                new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 69, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("This Pokemon is in a perpetual state of fear that it has sealed itself off in a psychic bubble. It is terrified of bugs and of the darkness in particular."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch huntail", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:water_stone"),
+new EvolutionEntry("epoch gorebyss", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,1),
                         new MoveLearnSetEntry(Move.MIND_BLAST,1),

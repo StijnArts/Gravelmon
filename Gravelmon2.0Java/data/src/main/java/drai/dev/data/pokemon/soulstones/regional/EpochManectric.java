@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochManectric extends drai.dev.data.pokemon.Pokemon {
     public EpochManectric(String name, Aspect aspect) {
-        super(name, aspect,"EpochManectric",
+        super(name, aspect, "EpochManectric",
                 Type.GROUND,Type.GHOST,
                 new Stats(70,
                         115,
@@ -67,7 +67,7 @@ public class EpochManectric extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.INTIMIDATE,Ability.MOXIE), Ability.CURSED_BODY,
                 15, 402,
-                new Stats(70,115,55,105,55,2), 90,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 166, ExperienceGroup.SLOW,
                 70,

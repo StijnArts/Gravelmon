@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochLampent extends drai.dev.data.pokemon.Pokemon {
     public EpochLampent(String name, Aspect aspect) {
-        super(name, aspect,"EpochLampent",
+        super(name, aspect, "EpochLampent",
                 Type.LIGHT,Type.GHOST,
                 new Stats(50,
                         40,
@@ -67,13 +67,14 @@ public class EpochLampent extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.WANDERING_SPIRIT,Ability.TRANSISTOR), Ability.DAZZLING,
                 6, 130,
-                new Stats(50,40,55,2,85,65), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 130, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It possesses street lights and pranks municipal workers into thinking the lamp light has fused. It then scares the workers when they come to repair them."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch chandelure", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ECTOPLASM,56),
                         new MoveLearnSetEntry(Move.SHADOW_BALL,40),

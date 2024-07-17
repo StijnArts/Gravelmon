@@ -151,6 +151,22 @@
   "pokedex": [
     "cobblemon.species.epochgabite.desc"
   ],
+  "evolutions": [
+    {
+      "id": "gabite_epoch_garchomp",
+      "variant": "level_up",
+      "result": "epoch garchomp",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 48
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -159,12 +175,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 68,
+    "hp": 0,
     "attack": 2,
-    "defence": 55,
-    "special_attack": 82,
-    "special_defence": 60,
-    "speed": 55
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 14,
   "weight": 560,
@@ -299,6 +315,22 @@
   "pokedex": [
     "cobblemon.species.epochgabiteone.desc"
   ],
+  "evolutions": [
+    {
+      "id": "gabite_epochtwo_garchomp",
+      "variant": "level_up",
+      "result": "epochtwo garchomp",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 48
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,
@@ -307,12 +339,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 77,
+    "hp": 0,
     "attack": 2,
-    "defence": 60,
-    "special_attack": 90,
-    "special_defence": 50,
-    "speed": 65
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 14,
   "weight": 560,

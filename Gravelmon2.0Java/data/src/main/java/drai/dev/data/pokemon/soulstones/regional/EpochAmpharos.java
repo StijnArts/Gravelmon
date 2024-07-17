@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochAmpharos extends drai.dev.data.pokemon.Pokemon {
     public EpochAmpharos(String name, Aspect aspect) {
-        super(name, aspect,"EpochAmpharos",
+        super(name, aspect, "EpochAmpharos",
                 Type.FAIRY,Type.FLYING,
                 new Stats(100,
                         65,
@@ -67,7 +67,7 @@ public class EpochAmpharos extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.AROMA_VEIL,Ability.SERENE_GRACE), Ability.PIXILATE,
                 14, 615,
-                new Stats(1,65,65,75,95,110), 100,
+                new Stats(1,0,0,0,0,0), 100,
                 0.5,
                 230, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -170,13 +170,13 @@ public class EpochAmpharos extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Ampharos");
 
     }

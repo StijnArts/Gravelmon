@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochManaphy extends drai.dev.data.pokemon.Pokemon {
     public EpochManaphy(String name, Aspect aspect) {
-        super(name, aspect,"EpochManaphy",
+        super(name, aspect, "EpochManaphy",
                 Type.FAIRY,
                 new Stats(100,
                         100,
@@ -67,7 +67,7 @@ public class EpochManaphy extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.INTUITION,Ability.ATTUNEMENT), Ability.WONDER_SKIN,
                 3, 14,
-                new Stats(3,100,100,100,100,100), 75,
+                new Stats(3,0,0,0,0,0), 75,
                 -1.0,
                 270, ExperienceGroup.SLOW,
                 70,

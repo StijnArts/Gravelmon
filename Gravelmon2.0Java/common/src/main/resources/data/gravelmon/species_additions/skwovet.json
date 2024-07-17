@@ -131,6 +131,22 @@
   "pokedex": [
     "cobblemon.species.epochskwovet.desc"
   ],
+  "evolutions": [
+    {
+      "id": "skwovet_epoch_greedent",
+      "variant": "level_up",
+      "result": "epoch greedent",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -140,11 +156,11 @@
   "baseFriendship": 70,
   "evYield": {
     "hp": 1,
-    "attack": 55,
-    "defence": 55,
-    "special_attack": 25,
-    "special_defence": 35,
-    "speed": 35
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 3,
   "weight": 25,

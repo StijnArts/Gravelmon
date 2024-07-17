@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochJoltik extends drai.dev.data.pokemon.Pokemon {
     public EpochJoltik(String name, Aspect aspect) {
-        super(name, aspect,"EpochJoltik",
+        super(name, aspect, "EpochJoltik",
                 Type.BUG,Type.DARK,
                 new Stats(60,
                         67,
@@ -67,13 +67,14 @@ public class EpochJoltik extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.EMERGENCY_EXIT,Ability.IMMUNITY), Ability.INTIMIDATE,
                 1, 6,
-                new Stats(60,67,30,62,60,1), 190,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("It is said these Pokemon don't actually appear in real life but are mere instances of your worst nightmares manifesting in reality."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch galvantula", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,24),
                         new MoveLearnSetEntry(Move.SPOIL,16),

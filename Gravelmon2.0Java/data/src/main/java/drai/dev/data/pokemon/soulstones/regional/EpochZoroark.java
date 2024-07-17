@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochZoroark extends drai.dev.data.pokemon.Pokemon {
     public EpochZoroark(String name, Aspect aspect) {
-        super(name, aspect,"EpochZoroark",
+        super(name, aspect, "EpochZoroark",
                 Type.ICE,Type.DARK,
                 new Stats(70,
                         115,
@@ -67,7 +67,7 @@ public class EpochZoroark extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.SNOW_CLOAK,Ability.MOXIE), Ability.ANTICIPATION,
                 16, 811,
-                new Stats(70,2,60,115,90,60), 100,
+                new Stats(0,2,0,0,0,0), 100,
                 0.875,
                 179, ExperienceGroup.MEDIUM_SLOW,
                 70,

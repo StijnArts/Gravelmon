@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSeaking extends drai.dev.data.pokemon.Pokemon {
     public EpochSeaking(String name, Aspect aspect) {
-        super(name, aspect,"EpochSeaking",
+        super(name, aspect, "EpochSeaking",
                 Type.POISON,Type.WATER,
                 new Stats(90,
                         40,
@@ -67,7 +67,7 @@ public class EpochSeaking extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.STORM_DRAIN,Ability.STENCH), Ability.RAIN_DISH,
                 13, 390,
-                new Stats(90,40,70,2,102,80), 123,
+                new Stats(0,0,0,2,0,0), 123,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -149,13 +149,17 @@ public class EpochSeaking extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 33, 56, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Seaking");
 
     }

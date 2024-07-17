@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSunflora extends drai.dev.data.pokemon.Pokemon {
     public EpochSunflora(String name, Aspect aspect) {
-        super(name, aspect,"EpochSunflora",
+        super(name, aspect, "EpochSunflora",
                 Type.GRASS,Type.FIRE,
                 new Stats(75,
                         50,
@@ -67,7 +67,7 @@ public class EpochSunflora extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.FLASH_FIRE,Ability.SOLAR_POWER), Ability.DROUGHT,
                 8, 85,
-                new Stats(75,50,70,2,105,85), 120,
+                new Stats(0,0,0,2,0,0), 120,
                 0.5,
                 149, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -140,9 +140,8 @@ public class EpochSunflora extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 41, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

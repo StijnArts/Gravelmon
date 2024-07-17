@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDelibird extends drai.dev.data.pokemon.Pokemon {
     public EpochDelibird(String name, Aspect aspect) {
-        super(name, aspect,"EpochDelibird",
+        super(name, aspect, "EpochDelibird",
                 Type.GRASS,Type.DARK,
                 new Stats(75,
                         95,
@@ -67,7 +67,7 @@ public class EpochDelibird extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.GRASSY_SURGE,Ability.PICKPOCKET), Ability.ADAPTABILITY,
                 3, 13,
-                new Stats(75,1,80,85,20,75), 200,
+                new Stats(0,1,0,0,0,0), 200,
                 0.5,
                 58, ExperienceGroup.FAST,
                 70,
@@ -153,9 +153,8 @@ public class EpochDelibird extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HAMMER_ARM,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

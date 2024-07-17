@@ -25,7 +25,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -115,12 +115,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 95,
+    "hp": 0,
     "attack": 2,
-    "defence": 60,
-    "special_attack": 95,
-    "special_defence": 100,
-    "speed": 80
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 10,
   "weight": 295,

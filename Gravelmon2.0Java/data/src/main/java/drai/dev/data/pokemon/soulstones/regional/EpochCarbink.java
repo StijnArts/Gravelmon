@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCarbink extends drai.dev.data.pokemon.Pokemon {
     public EpochCarbink(String name, Aspect aspect) {
-        super(name, aspect,"EpochCarbink",
+        super(name, aspect, "EpochCarbink",
                 Type.LIGHT,Type.ROCK,
                 new Stats(50,
                         50,
@@ -67,7 +67,7 @@ public class EpochCarbink extends drai.dev.data.pokemon.Pokemon {
                         150),
                 List.of(Ability.LEVITATE,Ability.ROUGH_SKIN), Ability.STURDY,
                 3, 2557,
-                new Stats(50,50,1,50,50,150), 80,
+                new Stats(0,0,1,0,0,0), 80,
                 -1.0,
                 100, ExperienceGroup.SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochJellicent extends drai.dev.data.pokemon.Pokemon {
     public EpochJellicent(String name, Aspect aspect) {
-        super(name, aspect,"EpochJellicent",
+        super(name, aspect, "EpochJellicent",
                 Type.GRASS,Type.POISON,
                 new Stats(90,
                         40,
@@ -67,7 +67,7 @@ public class EpochJellicent extends drai.dev.data.pokemon.Pokemon {
                         120),
                 List.of(Ability.EFFECT_SPORE,Ability.REGENERATOR), Ability.RAIN_DISH,
                 22, 1350,
-                new Stats(90,40,80,50,2,120), 123,
+                new Stats(0,0,0,0,2,0), 123,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,

@@ -160,6 +160,20 @@
   "pokedex": [
     "cobblemon.species.epochcorsola.desc"
   ],
+  "evolutions": [
+    {
+      "id": "corsola_epoch_cursola",
+      "variant": "item_interact",
+      "result": "epoch cursola",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:black_sludge",
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -168,12 +182,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 45,
+    "hp": 0,
+    "attack": 0,
     "defence": 1,
-    "special_attack": 45,
-    "special_defence": 65,
-    "speed": 100
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 6,
   "weight": 50,

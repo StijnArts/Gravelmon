@@ -16,14 +16,14 @@ public class LangJSONWriter {
     private static String dir = "";
     public static void writeLang(Game game, String resourcesDir) {
         dir = resourcesDir;
-        game.getPokemon().forEach(pokemon -> {writePokemon(pokemon);});
+        game.getPokemon().forEach(pokemon -> {writePokemon(pokemon, game);});
     }
 
     public static void writeTranslationKey(String key, String text){
         contents+="    \""+key+"\": \"" + text + "\",\n";
     }
 
-    private static void writePokemon(Pokemon pokemon) {
+    private static void writePokemon(Pokemon pokemon, Game game) {
         int dexEntryCounter = 1;
         if(pokemon.isNew()) {
             if (isFirst) {
@@ -39,9 +39,15 @@ public class LangJSONWriter {
 
             if(pokemon.getDexEntries().size() > 0){
                 for (String entry : pokemon.getDexEntries()) {
-                    contents += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc\": \"" +
-                            (pokemon.getAdditionalAspect() != null ? "["+ StringUtils.capitalize(pokemon.getAdditionalAspect().name().toLowerCase().replaceAll("_"," ")) + " " +
-                                    StringUtils.capitalize(Pokemon.getKeysByValue(Pokemon.ADDITIONAL_FORMS, pokemon).stream().findFirst().get()) +"] " : "") + entry + "\"";
+                    contents += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc\": \"";
+                    if
+                            (pokemon.getAdditionalAspect() != null){
+                        contents += "["+ StringUtils.capitalize(pokemon.getAdditionalAspect().name().toLowerCase().replaceAll("_"," ")) + " " +
+                                StringUtils.capitalize(Pokemon.getKeysByValue(Pokemon.ADDITIONAL_FORMS, pokemon).stream().findFirst().get()) +"] ";
+                    } else {
+                        contents += "["+ StringUtils.capitalize(game.getName().toLowerCase().replaceAll("_"," ")) + "] ";
+                    }
+                    contents += entry + "\"";
                     dexEntryCounter++;
                 }
             }

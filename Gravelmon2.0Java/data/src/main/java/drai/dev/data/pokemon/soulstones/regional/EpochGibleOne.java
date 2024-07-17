@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGibleOne extends drai.dev.data.pokemon.Pokemon {
     public EpochGibleOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochGibleOne",
+        super(name, aspect, "EpochGibleOne",
                 Type.WATER,Type.DRAGON,
                 new Stats(58,
                         55,
@@ -67,13 +67,14 @@ public class EpochGibleOne extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.ROUGH_SKIN,Ability.STAKEOUT), Ability.INTIMIDATE,
                 7, 205,
-                new Stats(58,1,35,67,40,45), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("T.Gibles are able to speed through the water faster than most other Pokemon at its level."),
-                List.of(),
+                List.of(new EvolutionEntry("epochtwo gabite", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGONFURY,6),
                         new MoveLearnSetEntry(Move.FLIP_TURN,36),

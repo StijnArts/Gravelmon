@@ -131,6 +131,22 @@
   "pokedex": [
     "cobblemon.species.epochtinkatink.desc"
   ],
+  "evolutions": [
+    {
+      "id": "tinkatink_epoch_tinkatuff",
+      "variant": "level_up",
+      "result": "epoch tinkatuff",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -139,12 +155,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
+    "hp": 0,
     "attack": 1,
-    "defence": 64,
-    "special_attack": 45,
-    "special_defence": 25,
-    "speed": 45
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 4,
   "weight": 89,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTreecko extends drai.dev.data.pokemon.Pokemon {
     public EpochTreecko(String name, Aspect aspect) {
-        super(name, aspect,"EpochTreecko",
+        super(name, aspect, "EpochTreecko",
                 Type.BUG,Type.DRAGON,
                 new Stats(50,
                         60,
@@ -67,13 +67,14 @@ public class EpochTreecko extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.COLOR_CHANGE,Ability.COMPOUND_EYES), Ability.REGENERATOR,
                 5, 50,
-                new Stats(50,60,50,70,40,1), 100,
+                new Stats(0,0,0,0,0,1), 100,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It is able to lay perfectly still for hours and blend into the environment. It lies in wait until its prey steps upon its trap and then handily disposes of its foe."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch grovyle", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,45),
                         new MoveLearnSetEntry(Move.GLARE,25),
@@ -168,8 +169,8 @@ public class EpochTreecko extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FELL_STINGER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

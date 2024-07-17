@@ -37,7 +37,7 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltacharmeleon.geo",
       "poser": "cobblemon:generation1_deltacharmeleon",
       "texture": "cobblemon:textures/pokemon/generation1/deltacharmeleon/deltacharmeleon_shiny.png",
       "layers": [

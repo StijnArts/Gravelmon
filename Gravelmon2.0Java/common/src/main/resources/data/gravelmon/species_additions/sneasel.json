@@ -164,6 +164,44 @@
   "pokedex": [
     "cobblemon.species.epochsneasel.desc"
   ],
+  "evolutions": [
+    {
+      "id": "sneasel_epoch_sneasler",
+      "variant": "level_up",
+      "result": "epoch sneasler",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "time_range",
+          "range": day
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "sneasel_epoch_weavile",
+      "variant": "level_up",
+      "result": "epoch weavile",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "time_range",
+          "range": night
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -172,11 +210,11 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 65,
-    "attack": 95,
-    "defence": 65,
-    "special_attack": 90,
-    "special_defence": 50,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
     "speed": 1
   },
   "height": 9,

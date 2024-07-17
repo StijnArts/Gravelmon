@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCharmeleon extends drai.dev.data.pokemon.Pokemon {
     public EpochCharmeleon(String name, Aspect aspect) {
-        super(name, aspect,"EpochCharmeleon",
+        super(name, aspect, "EpochCharmeleon",
                 Type.GROUND,Type.DRAGON,
                 new Stats(66,
                         70,
@@ -67,13 +67,14 @@ public class EpochCharmeleon extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.MOXIE,Ability.SAND_FORCE), Ability.POISON_HEAL,
                 11, 190,
-                new Stats(66,1,60,80,64,65), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("Sometimes found in rocky, mountainous regions, they are adept mountain climbers and can scale uneven terrains with ease."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch charizard", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,32),
                         new MoveLearnSetEntry(Move.DRACOSHRED,44),
@@ -186,8 +187,8 @@ public class EpochCharmeleon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

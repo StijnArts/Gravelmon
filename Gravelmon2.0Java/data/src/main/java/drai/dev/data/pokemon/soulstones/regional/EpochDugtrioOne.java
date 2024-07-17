@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDugtrioOne extends drai.dev.data.pokemon.Pokemon {
     public EpochDugtrioOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochDugtrioOne",
+        super(name, aspect, "EpochDugtrioOne",
                 Type.ICE,
                 new Stats(75,
                         90,
@@ -67,7 +67,7 @@ public class EpochDugtrioOne extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.SNOW_CLOAK,Ability.PACKEDSNOW), Ability.REGENERATOR,
                 7, 333,
-                new Stats(75,90,70,110,90,2), 92,
+                new Stats(0,0,0,0,0,2), 92,
                 0.5,
                 149, ExperienceGroup.MEDIUM_FAST,
                 70,

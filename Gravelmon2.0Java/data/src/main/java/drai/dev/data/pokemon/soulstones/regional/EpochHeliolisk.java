@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochHeliolisk extends drai.dev.data.pokemon.Pokemon {
     public EpochHeliolisk(String name, Aspect aspect) {
-        super(name, aspect,"EpochHeliolisk",
+        super(name, aspect, "EpochHeliolisk",
                 Type.DRAGON,Type.ROCK,
                 new Stats(71,
                         49,
@@ -67,7 +67,7 @@ public class EpochHeliolisk extends drai.dev.data.pokemon.Pokemon {
                         83),
                 List.of(Ability.MULTISCALE,Ability.STEADFAST), Ability.COMPETITIVE,
                 10, 210,
-                new Stats(71,49,73,100,105,1), 75,
+                new Stats(0,0,0,0,0,1), 75,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,

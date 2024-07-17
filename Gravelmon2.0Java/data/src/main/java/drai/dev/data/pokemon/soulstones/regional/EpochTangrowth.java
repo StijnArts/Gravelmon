@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTangrowth extends drai.dev.data.pokemon.Pokemon {
     public EpochTangrowth(String name, Aspect aspect) {
-        super(name, aspect,"EpochTangrowth",
+        super(name, aspect, "EpochTangrowth",
                 Type.GROUND,Type.GRASS,
                 new Stats(100,
                         100,
@@ -67,7 +67,7 @@ public class EpochTangrowth extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.SAND_RUSH,Ability.STORM_DRAIN), Ability.WATER_ABSORB,
                 20, 400,
-                new Stats(100,100,2,80,60,70), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 187, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -147,8 +147,9 @@ public class EpochTangrowth extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

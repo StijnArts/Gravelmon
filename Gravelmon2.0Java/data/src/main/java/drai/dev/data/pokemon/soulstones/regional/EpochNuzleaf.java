@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochNuzleaf extends drai.dev.data.pokemon.Pokemon {
     public EpochNuzleaf(String name, Aspect aspect) {
-        super(name, aspect,"EpochNuzleaf",
+        super(name, aspect, "EpochNuzleaf",
                 Type.GRASS,Type.FIRE,
                 new Stats(70,
                         50,
@@ -67,13 +67,14 @@ public class EpochNuzleaf extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.LEAF_GUARD,Ability.FLAME_BODY), Ability.CHLOROPHYLL,
                 10, 280,
-                new Stats(70,50,40,2,80,40), 120,
+                new Stats(0,0,0,2,0,0), 120,
                 0.5,
                 119, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("The torch it holds is precious to it. When it evolves from a Seedot, it finds and bonds with a torch and treats it as an extension of its body."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch shiftry", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,15),
                         new MoveLearnSetEntry(Move.SUNNY_DAY,28),

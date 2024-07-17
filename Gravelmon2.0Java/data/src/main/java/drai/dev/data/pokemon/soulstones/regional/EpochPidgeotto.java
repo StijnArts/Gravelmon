@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPidgeotto extends drai.dev.data.pokemon.Pokemon {
     public EpochPidgeotto(String name, Aspect aspect) {
-        super(name, aspect,"EpochPidgeotto",
+        super(name, aspect, "EpochPidgeotto",
                 Type.ICE,Type.FLYING,
                 new Stats(63,
                         45,
@@ -67,13 +67,14 @@ public class EpochPidgeotto extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.KEEN_EYE,Ability.REFRIGERATE), Ability.GALE_WINGS,
                 11, 300,
-                new Stats(63,45,55,71,65,2), 120,
+                new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 122, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("The ice that forms on its wings can be sharpened and flung at targets like icy projectiles."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch pidgeot", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,33),
                         new MoveLearnSetEntry(Move.MIRROR_MOVE,61),
@@ -152,13 +153,14 @@ public class EpochPidgeotto extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 43, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Pidgeotto");
 
     }

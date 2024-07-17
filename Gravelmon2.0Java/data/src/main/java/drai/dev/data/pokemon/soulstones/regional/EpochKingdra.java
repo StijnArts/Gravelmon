@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKingdra extends drai.dev.data.pokemon.Pokemon {
     public EpochKingdra(String name, Aspect aspect) {
-        super(name, aspect,"EpochKingdra",
+        super(name, aspect, "EpochKingdra",
                 Type.WATER,Type.LIGHT,
                 new Stats(100,
                         55,
@@ -67,7 +67,7 @@ public class EpochKingdra extends drai.dev.data.pokemon.Pokemon {
                         110),
                 List.of(Ability.NATURAL_CURE,Ability.HYDRATION), Ability.MEGA_LAUNCHER,
                 18, 1520,
-                new Stats(100,55,90,2,95,110), 90,
+                new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 243, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -169,13 +169,16 @@ public class EpochKingdra extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 39, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Kingdra");
 
     }

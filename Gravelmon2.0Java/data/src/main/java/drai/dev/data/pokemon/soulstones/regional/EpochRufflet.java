@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochRufflet extends drai.dev.data.pokemon.Pokemon {
     public EpochRufflet(String name, Aspect aspect) {
-        super(name, aspect,"EpochRufflet",
+        super(name, aspect, "EpochRufflet",
                 Type.FIRE,Type.FLYING,
                 new Stats(70,
                         83,
@@ -67,13 +67,14 @@ public class EpochRufflet extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.KEEN_EYE,Ability.DEFIANT), Ability.BLAZE,
                 15, 410,
-                new Stats(70,1,50,75,37,50), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 70, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is just learning to spit fire. As it matures, the fire becomes hotter and more intense."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch braviary", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BEAK_BLAST,59),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,14),

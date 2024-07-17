@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPurrloin extends drai.dev.data.pokemon.Pokemon {
     public EpochPurrloin(String name, Aspect aspect) {
-        super(name, aspect,"EpochPurrloin",
+        super(name, aspect, "EpochPurrloin",
                 Type.LIGHT,Type.COSMIC,
                 new Stats(45,
                         50,
@@ -67,13 +67,14 @@ public class EpochPurrloin extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.POUNCE,Ability.DARKMATTER), Ability.GENIUS,
                 4, 101,
-                new Stats(45,50,35,75,40,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Some say that if you cross its path, you will be doomed to bad luck for a day. However, its halo suggests otherwise."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch liepard", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HONE_CLAWS,24),
                         new MoveLearnSetEntry(Move.PURGE,28),

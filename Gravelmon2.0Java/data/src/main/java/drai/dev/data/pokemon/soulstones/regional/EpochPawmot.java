@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochPawmot extends drai.dev.data.pokemon.Pokemon {
     public EpochPawmot(String name, Aspect aspect) {
-        super(name, aspect,"EpochPawmot",
+        super(name, aspect, "EpochPawmot",
                 Type.NORMAL,
                 new Stats(70,
                         105,
@@ -67,7 +67,7 @@ public class EpochPawmot extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.NORMALIZE,Ability.FLUFFY), Ability.SPEED_BOOST,
                 9, 410,
-                new Stats(70,105,70,115,40,2), 95,
+                new Stats(0,0,0,0,0,2), 95,
                 0.5,
                 245, ExperienceGroup.MEDIUM_FAST,
                 70,

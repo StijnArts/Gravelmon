@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochStantler extends drai.dev.data.pokemon.Pokemon {
     public EpochStantler(String name, Aspect aspect) {
-        super(name, aspect,"EpochStantler",
+        super(name, aspect, "EpochStantler",
                 Type.ICE,Type.GRASS,
                 new Stats(73,
                         90,
@@ -67,13 +67,14 @@ public class EpochStantler extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.SERENE_GRACE,Ability.HARVEST), Ability.PROTEAN,
                 14, 712,
-                new Stats(73,1,62,85,90,65), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 163, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Various berries form a key element of a Stantler's diet. They enjoy them so much that their antlers grow some of their own during the autumn season."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch wyrdeer", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,38),
                         new MoveLearnSetEntry(Move.FREEZEDRY,49),
@@ -155,9 +156,8 @@ public class EpochStantler extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENTRAINMENT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 41, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

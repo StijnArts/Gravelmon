@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCubchoo extends drai.dev.data.pokemon.Pokemon {
     public EpochCubchoo(String name, Aspect aspect) {
-        super(name, aspect,"EpochCubchoo",
+        super(name, aspect, "EpochCubchoo",
                 Type.NORMAL,
                 new Stats(60,
                         60,
@@ -67,13 +67,14 @@ public class EpochCubchoo extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.GLUTTONY,Ability.FUR_COAT), Ability.GUTS,
                 5, 85,
-                new Stats(60,1,50,55,40,40), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is in constant competition with Slowpoke for honey and other shiny things. Its cuteness allows it to dodge consequences from its theft."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch beartic", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,39),
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,47),

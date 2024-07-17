@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDrilbur extends drai.dev.data.pokemon.Pokemon {
     public EpochDrilbur(String name, Aspect aspect) {
-        super(name, aspect,"EpochDrilbur",
+        super(name, aspect, "EpochDrilbur",
                 Type.GROUND,Type.SOUND,
                 new Stats(60,
                         85,
@@ -67,13 +67,14 @@ public class EpochDrilbur extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.ANTIGRAVITY,Ability.MOLD_BREAKER), Ability.SAND_FORCE,
                 3, 85,
-                new Stats(60,1,40,68,30,45), 120,
+                new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("While it is blind, it uses sonic waves to find its way and navigate through caves and deep tunnels."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch excadrill", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SONICCRASH,56),
                         new MoveLearnSetEntry(Move.POWERDRILL,40),

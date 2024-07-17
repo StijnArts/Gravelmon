@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochGolett extends drai.dev.data.pokemon.Pokemon {
     public EpochGolett(String name, Aspect aspect) {
-        super(name, aspect,"EpochGolett",
+        super(name, aspect, "EpochGolett",
                 Type.STEEL,Type.PSYCHIC,
                 new Stats(64,
                         69,
@@ -67,13 +67,14 @@ public class EpochGolett extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.LONG_REACH,Ability.IRON_FIST), Ability.OVERCOAT,
                 10, 920,
-                new Stats(64,1,65,35,45,45), 190,
+                new Stats(0,1,0,0,0,0), 190,
                 -1.0,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("These Pokémon are thought to have come to the Orion Region through a meteorite from outer space as evidenced by their extra-terrestrial colour."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch golurk", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"43")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,18),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochKlink extends drai.dev.data.pokemon.Pokemon {
     public EpochKlink(String name, Aspect aspect) {
-        super(name, aspect,"EpochKlink",
+        super(name, aspect, "EpochKlink",
                 Type.SOUND,Type.STEEL,
                 new Stats(40,
                         65,
@@ -67,13 +67,14 @@ public class EpochKlink extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.LEVITATE,Ability.OWN_TEMPO), Ability.MOTOR_DRIVE,
                 3, 210,
-                new Stats(40,65,1,30,35,60), 130,
+                new Stats(0,0,1,0,0,0), 130,
                 -1.0,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon has an internal clock that allows it to keep time so you do not need to carry around a watch or check your phone to confirm the time."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch klang", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),
                         new MoveLearnSetEntry(Move.SONICCRASH,54),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFletchling extends drai.dev.data.pokemon.Pokemon {
     public EpochFletchling(String name, Aspect aspect) {
-        super(name, aspect,"EpochFletchling",
+        super(name, aspect, "EpochFletchling",
                 Type.ELECTRIC,Type.FLYING,
                 new Stats(55,
                         50,
@@ -67,13 +67,14 @@ public class EpochFletchling extends drai.dev.data.pokemon.Pokemon {
                         33),
                 List.of(Ability.KEEN_EYE,Ability.GALVANIZE), Ability.GALE_WINGS,
                 3, 17,
-                new Stats(55,50,48,62,30,1), 255,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("As a small immature bird, it has not yet learned to control its built-in electricity and will sometimes periodically shock itself as it learns."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch fletchinder", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_STRIKE,34),
                         new MoveLearnSetEntry(Move.DRILL_PECK,51),

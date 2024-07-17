@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochButterfree extends drai.dev.data.pokemon.Pokemon {
     public EpochButterfree(String name, Aspect aspect) {
-        super(name, aspect,"EpochButterfree",
+        super(name, aspect, "EpochButterfree",
                 Type.BUG,Type.FAIRY,
                 new Stats(85,
                         50,
@@ -67,7 +67,7 @@ public class EpochButterfree extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.SHIELD_DUST,Ability.TINTED_LENS), Ability.MISTY_SURGE,
                 11, 320,
-                new Stats(85,50,60,2,95,75), 90,
+                new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 178, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -176,13 +176,14 @@ public class EpochButterfree extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 23, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Butterfree");
 
     }

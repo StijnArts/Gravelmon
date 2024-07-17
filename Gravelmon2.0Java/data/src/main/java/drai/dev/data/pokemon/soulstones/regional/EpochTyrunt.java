@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochTyrunt extends drai.dev.data.pokemon.Pokemon {
     public EpochTyrunt(String name, Aspect aspect) {
-        super(name, aspect,"EpochTyrunt",
+        super(name, aspect, "EpochTyrunt",
                 Type.FIRE,Type.ICE,
                 new Stats(58,
                         89,
@@ -67,13 +67,15 @@ public class EpochTyrunt extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.MOXIE,Ability.BLAZE), Ability.RECKLESS,
                 8, 260,
-                new Stats(58,1,77,48,45,45), 90,
+                new Stats(0,1,0,0,0,0), 90,
                 0.875,
                 72, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("Despite its body being freezing cold to the touch, it is unclear how it is able to simultaneously have flames burning perpetually."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch tyrantrum", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37"),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,66),
                         new MoveLearnSetEntry(Move.TACKLE,1),

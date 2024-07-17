@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochChandelure extends drai.dev.data.pokemon.Pokemon {
     public EpochChandelure(String name, Aspect aspect) {
-        super(name, aspect,"EpochChandelure",
+        super(name, aspect, "EpochChandelure",
                 Type.LIGHT,Type.GHOST,
                 new Stats(70,
                         65,
@@ -67,7 +67,7 @@ public class EpochChandelure extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.WANDERING_SPIRIT,Ability.TRANSISTOR), Ability.DAZZLING,
                 10, 343,
-                new Stats(70,65,75,2,120,85), 100,
+                new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 234, ExperienceGroup.MEDIUM_SLOW,
                 70,

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochObstagoon extends drai.dev.data.pokemon.Pokemon {
     public EpochObstagoon(String name, Aspect aspect) {
-        super(name, aspect,"EpochObstagoon",
+        super(name, aspect, "EpochObstagoon",
                 Type.GROUND,Type.DARK,
                 new Stats(93,
                         101,
@@ -67,12 +67,12 @@ public class EpochObstagoon extends drai.dev.data.pokemon.Pokemon {
                         71),
                 List.of(Ability.POUNCE,Ability.INSOMNIA), Ability.GLUTTONY,
                 16, 460,
-                new Stats(93,101,90,105,60,3), 90,
+                new Stats(0,0,0,0,0,3), 90,
                 0.5,
                 260, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("It has finally become strong enough to mobilize a pack of Zigzagoons and Linoones. It acts as a type of 'alpha' to lead their pack."),
+                List.of("It has finally become strong enough to mobilize a pack of Zigzagoons and Linoones. It acts as a type of alpha to lead their pack."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,23),

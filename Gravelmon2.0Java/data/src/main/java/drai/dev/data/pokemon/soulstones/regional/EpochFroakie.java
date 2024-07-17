@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochFroakie extends drai.dev.data.pokemon.Pokemon {
     public EpochFroakie(String name, Aspect aspect) {
-        super(name, aspect,"EpochFroakie",
+        super(name, aspect, "EpochFroakie",
                 Type.ELECTRIC,Type.GHOST,
                 new Stats(41,
                         56,
@@ -67,13 +67,14 @@ public class EpochFroakie extends drai.dev.data.pokemon.Pokemon {
                         44),
                 List.of(Ability.VOLT_ABSORB,Ability.STATIC), Ability.CONDUCTOR,
                 3, 70,
-                new Stats(41,56,40,71,62,1), 90,
+                new Stats(0,0,0,0,0,1), 90,
                 0.875,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("When it thunder storms, this Pokemon attracts lightning and is not remotely fazed by it. In fact, it quite enjoys it!"),
-                List.of(),
+                List.of(new EvolutionEntry("epoch frogadier", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,18),
                         new MoveLearnSetEntry(Move.DEATHWALTZ,48),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochDrowzee extends drai.dev.data.pokemon.Pokemon {
     public EpochDrowzee(String name, Aspect aspect) {
-        super(name, aspect,"EpochDrowzee",
+        super(name, aspect, "EpochDrowzee",
                 Type.DARK,Type.FIGHTING,
                 new Stats(60,
                         75,
@@ -67,13 +67,14 @@ public class EpochDrowzee extends drai.dev.data.pokemon.Pokemon {
                         45),
                 List.of(Ability.REALISM,Ability.MOLD_BREAKER), Ability.MOXIE,
                 16, 756,
-                new Stats(60,75,60,43,1,45), 190,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It is a brutish Pokemon that will fight others in its tribe for scraps of meat. It gets easily irritated and always resorts to violence."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch hypno", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,21),
                         new MoveLearnSetEntry(Move.FRENZY,57),
@@ -168,9 +169,9 @@ public class EpochDrowzee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLATULENCE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 32, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

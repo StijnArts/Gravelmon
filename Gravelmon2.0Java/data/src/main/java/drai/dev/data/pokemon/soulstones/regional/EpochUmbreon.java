@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochUmbreon extends drai.dev.data.pokemon.Pokemon {
     public EpochUmbreon(String name, Aspect aspect) {
-        super(name, aspect,"EpochUmbreon",
+        super(name, aspect, "EpochUmbreon",
                 Type.FIGHTING,
                 new Stats(65,
                         95,
@@ -67,7 +67,7 @@ public class EpochUmbreon extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.SCRAPPY,Ability.MOLD_BREAKER), Ability.INNER_FOCUS,
                 10, 270,
-                new Stats(65,1,65,120,120,60), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.875,
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -171,8 +171,8 @@ public class EpochUmbreon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

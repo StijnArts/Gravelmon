@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVanilluxe extends drai.dev.data.pokemon.Pokemon {
     public EpochVanilluxe(String name, Aspect aspect) {
-        super(name, aspect,"EpochVanilluxe",
+        super(name, aspect, "EpochVanilluxe",
                 Type.POISON,
                 new Stats(91,
                         60,
@@ -67,7 +67,7 @@ public class EpochVanilluxe extends drai.dev.data.pokemon.Pokemon {
                         105),
                 List.of(Ability.EARTH_EATER,Ability.TOXIC_DEBRIS), Ability.STICKY_HOLD,
                 13, 575,
-                new Stats(91,60,2,59,80,105), 100,
+                new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 241, ExperienceGroup.SLOW,
                 70,

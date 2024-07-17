@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochMilotic extends drai.dev.data.pokemon.Pokemon {
     public EpochMilotic(String name, Aspect aspect) {
-        super(name, aspect,"EpochMilotic",
+        super(name, aspect, "EpochMilotic",
                 Type.LIGHT,Type.FAIRY,
                 new Stats(90,
                         65,
@@ -67,7 +67,7 @@ public class EpochMilotic extends drai.dev.data.pokemon.Pokemon {
                         130),
                 List.of(Ability.WONDER_SKIN,Ability.MISTY_SURGE), Ability.MARVEL_SCALE,
                 62, 1620,
-                new Stats(90,65,90,70,2,130), 123,
+                new Stats(0,0,0,0,2,0), 123,
                 0.5,
                 189, ExperienceGroup.ERRATIC,
                 70,

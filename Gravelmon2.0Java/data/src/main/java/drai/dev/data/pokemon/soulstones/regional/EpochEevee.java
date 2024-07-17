@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochEevee extends drai.dev.data.pokemon.Pokemon {
     public EpochEevee(String name, Aspect aspect) {
-        super(name, aspect,"EpochEevee",
+        super(name, aspect, "EpochEevee",
                 Type.GHOST,
                 new Stats(55,
                         70,
@@ -67,13 +67,28 @@ public class EpochEevee extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.CURSED_BODY,Ability.SHADOW_TAG), Ability.INSOMNIA,
                 3, 65,
-                new Stats(55,70,1,90,70,75), 100,
+                new Stats(0,0,1,0,0,0), 100,
                 0.875,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon was subjected to cruelty in life which has affected its unstable genetic makeup, allowing it to evolve into different variations."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch vaporeon", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:sun_stone"),
+new EvolutionEntry("epoch jolteon", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:air_stone"),
+new EvolutionEntry("epoch flareon", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:solid_stone"),
+new EvolutionEntry("epoch leafeon", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:silver_powder"),
+new EvolutionEntry("epoch glaceon", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone"),
+new EvolutionEntry("epoch espeon", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_sludge"),
+new EvolutionEntry("epoch umbreon", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "cobblemon:black_belt"),
+new EvolutionEntry("epoch sylveon", EvolutionType.ITEM_INTERACT, false, List.of(), 
+ List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,10),
                         new MoveLearnSetEntry(Move.DISABLE,35),
@@ -161,9 +176,8 @@ public class EpochEevee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 7, 28, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

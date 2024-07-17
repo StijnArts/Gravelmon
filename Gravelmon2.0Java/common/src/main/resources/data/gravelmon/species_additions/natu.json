@@ -122,6 +122,22 @@
   "pokedex": [
     "cobblemon.species.epochnatu.desc"
   ],
+  "evolutions": [
+    {
+      "id": "natu_epoch_xatu",
+      "variant": "level_up",
+      "result": "epoch xatu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -130,12 +146,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 50,
-    "attack": 70,
-    "defence": 40,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
     "special_attack": 1,
-    "special_defence": 70,
-    "speed": 45
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 2,
   "weight": 20,

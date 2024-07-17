@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochCrocalor extends drai.dev.data.pokemon.Pokemon {
     public EpochCrocalor(String name, Aspect aspect) {
-        super(name, aspect,"EpochCrocalor",
+        super(name, aspect, "EpochCrocalor",
                 Type.GRASS,Type.ROCK,
                 new Stats(81,
                         78,
@@ -67,13 +67,14 @@ public class EpochCrocalor extends drai.dev.data.pokemon.Pokemon {
                         68),
                 List.of(Ability.STRONG_JAW,Ability.REGENERATOR), Ability.UNAWARE,
                 10, 307,
-                new Stats(81,1,90,49,45,68), 95,
+                new Stats(0,1,0,0,0,0), 95,
                 0.875,
                 144, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It often curls up into a ball to pretend to be a rock to attract unsuspecting bugs. It can then quickly spring into action to surprise its meal."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch skeledirge", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THORNPRISON,4),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,51),

@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochReuniclusOne extends drai.dev.data.pokemon.Pokemon {
     public EpochReuniclusOne(String name, Aspect aspect) {
-        super(name, aspect,"EpochReuniclusOne",
+        super(name, aspect, "EpochReuniclusOne",
                 Type.COSMIC,Type.POISON,
                 new Stats(70,
                         95,
@@ -67,7 +67,7 @@ public class EpochReuniclusOne extends drai.dev.data.pokemon.Pokemon {
                         85),
                 List.of(Ability.GOOEY,Ability.OVERCOAT), Ability.ANALYTIC,
                 10, 201,
-                new Stats(70,1,85,55,100,85), 100,
+                new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
                 70,

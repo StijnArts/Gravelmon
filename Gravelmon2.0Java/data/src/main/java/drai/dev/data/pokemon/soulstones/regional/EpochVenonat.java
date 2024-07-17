@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochVenonat extends drai.dev.data.pokemon.Pokemon {
     public EpochVenonat(String name, Aspect aspect) {
-        super(name, aspect,"EpochVenonat",
+        super(name, aspect, "EpochVenonat",
                 Type.BUG,Type.GRASS,
                 new Stats(65,
                         55,
@@ -67,13 +67,14 @@ public class EpochVenonat extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.SHIELD_DUST,Ability.PROTEAN), Ability.TINTED_LENS,
                 10, 300,
-                new Stats(1,55,40,55,40,50), 190,
+                new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Their ability to camouflage easily has lead to them becoming a bit of a pest that are hard to exterminate. However, fire is still very useful against them."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch venomoth", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,17),
                         new MoveLearnSetEntry(Move.DRAGONFLYCHARGE,44),
@@ -169,7 +170,7 @@ public class EpochVenonat extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

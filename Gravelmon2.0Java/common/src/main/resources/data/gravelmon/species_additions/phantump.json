@@ -131,6 +131,19 @@
   "pokedex": [
     "cobblemon.species.epochphantump.desc"
   ],
+  "evolutions": [
+    {
+      "id": "phantump_epoch_trevenant",
+      "variant": "trade",
+      "result": "epoch trevenant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -139,12 +152,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 43,
+    "hp": 0,
     "attack": 1,
-    "defence": 48,
-    "special_attack": 33,
-    "special_defence": 60,
-    "speed": 55
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "height": 4,
   "weight": 70,

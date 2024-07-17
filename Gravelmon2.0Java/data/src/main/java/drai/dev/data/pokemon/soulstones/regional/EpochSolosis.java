@@ -57,7 +57,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class EpochSolosis extends drai.dev.data.pokemon.Pokemon {
     public EpochSolosis(String name, Aspect aspect) {
-        super(name, aspect,"EpochSolosis",
+        super(name, aspect, "EpochSolosis",
                 Type.WATER,Type.PSYCHIC,
                 new Stats(45,
                         20,
@@ -67,13 +67,14 @@ public class EpochSolosis extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.TORRENT,Ability.MAGIC_BOUNCE), Ability.TECHNICIAN,
                 3, 10,
-                new Stats(45,20,60,1,85,60), 200,
+                new Stats(0,0,0,1,0,0), 200,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("They do not like light and are found in dark waters. They use their remote psychic ability to find food to sustain itself."),
-                List.of(),
+                List.of(new EvolutionEntry("epoch duosion", EvolutionType.LEVEL_UP, List.of(), 
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.WATER_PULSE,18),

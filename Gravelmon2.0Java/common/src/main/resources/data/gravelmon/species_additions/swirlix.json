@@ -122,6 +122,22 @@
   "pokedex": [
     "cobblemon.species.epochswirlix.desc"
   ],
+  "evolutions": [
+    {
+      "id": "swirlix_epoch_slurpuff",
+      "variant": "level_up",
+      "result": "epoch slurpuff",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
   "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
@@ -130,12 +146,12 @@
   },
   "baseFriendship": 70,
   "evYield": {
-    "hp": 55,
-    "attack": 35,
-    "defence": 50,
-    "special_attack": 60,
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
     "special_defence": 1,
-    "speed": 75
+    "speed": 0
   },
   "height": 4,
   "weight": 35,
