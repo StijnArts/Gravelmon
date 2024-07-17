@@ -7,16 +7,16 @@
       "id": "epochfinneon-1",
       "pokemon": "finneon epoch",
       "presets": [
-          "natural"
+          "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "11-32",
+      "weight": 4.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "timeRange": "day",
         "canSeeSky": true
       }
     }

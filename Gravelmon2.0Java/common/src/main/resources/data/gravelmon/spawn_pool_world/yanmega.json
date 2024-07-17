@@ -7,16 +7,15 @@
       "id": "epochyanmega-1",
       "pokemon": "yanmega epoch",
       "presets": [
-          "natural"
+          "water_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "34-54",
+      "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_swamp" ],
         "canSeeSky": true
       }
     }
@@ -25,17 +24,15 @@
       "id": "epochyanmegaone-1",
       "pokemon": "yanmega epochtwo",
       "presets": [
-          "natural"
+          "water_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "33-54",
+      "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_deep_dark" ]
       }
     }
 ,

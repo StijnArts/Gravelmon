@@ -7,16 +7,15 @@
       "id": "epochtaillow-1",
       "pokemon": "taillow epoch",
       "presets": [
-          "natural"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
+      "bucket": "uncommon",
+      "level": "5-27",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_temperate" ],
         "canSeeSky": true
       }
     }

@@ -146,12 +146,7 @@
         },
         {
           "variant": "properties",
-          "target": gender=male,
-          "contains": true
-        },
-        {
-          "variant": "properties",
-          "target": gender=male,
+          "target": gender=female,
           "contains": true
         }
       ],

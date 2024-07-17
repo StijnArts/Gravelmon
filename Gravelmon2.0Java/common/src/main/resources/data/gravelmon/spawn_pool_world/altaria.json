@@ -12,12 +12,11 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "32-54",
+      "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_basalt" ]
       }
     }
 ,
@@ -25,16 +24,16 @@
       "id": "epochaltariaone-1",
       "pokemon": "altaria epochtwo",
       "presets": [
-          "natural"
+          "water_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "surface",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "35-55",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#minecraft:is_ocean" ],
+        "isThundering": true,
         "canSeeSky": true
       }
     }

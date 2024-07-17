@@ -154,7 +154,7 @@ public class EpochTorkoal extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WEATHER_BALL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

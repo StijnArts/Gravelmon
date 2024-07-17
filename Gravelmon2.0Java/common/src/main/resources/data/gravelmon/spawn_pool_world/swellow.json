@@ -7,16 +7,15 @@
       "id": "epochswellow-1",
       "pokemon": "swellow epoch",
       "presets": [
-          "natural"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "22-43",
+      "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_temperate" ],
         "canSeeSky": true
       }
     }

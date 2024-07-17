@@ -7,17 +7,16 @@
       "id": "epochsurskit-1",
       "pokemon": "surskit epoch",
       "presets": [
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "surface",
+      "bucket": "rare",
+      "level": "9-29",
+      "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_temperate" ],
+        "timeRange": "night"
       }
     }
 ,
@@ -25,17 +24,16 @@
       "id": "epochsurskitone-1",
       "pokemon": "surskit epochtwo",
       "presets": [
-          "natural"
+          "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "11-31",
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_tropical",
+"#cobblemon:is_jungle" ]
       }
     }
 

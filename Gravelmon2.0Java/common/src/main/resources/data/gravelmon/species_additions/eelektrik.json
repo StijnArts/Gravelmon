@@ -142,7 +142,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:swarm_stone",
+      "requiredContext": "cobblemon:silver_powder",
       "permanent": true   
  }
   ],

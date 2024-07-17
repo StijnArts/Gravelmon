@@ -130,7 +130,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:humming_stone",
+      "requiredContext": "gravelmon:ocarina",
       "permanent": true   
  }
   ],

@@ -7,16 +7,15 @@
       "id": "epochbibarel-1",
       "pokemon": "bibarel epoch",
       "presets": [
-          "natural"
+          "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "17-37",
+      "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_swamp" ],
         "canSeeSky": true
       }
     }

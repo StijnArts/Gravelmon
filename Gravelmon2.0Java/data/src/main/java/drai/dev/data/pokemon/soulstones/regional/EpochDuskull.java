@@ -169,13 +169,13 @@ public class EpochDuskull extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GLARE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 9, 29, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.LAVA_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Duskull");
 
     }

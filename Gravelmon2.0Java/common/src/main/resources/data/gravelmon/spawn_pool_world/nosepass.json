@@ -7,17 +7,16 @@
       "id": "epochnosepass-1",
       "pokemon": "nosepass epoch",
       "presets": [
-          "natural"
+          "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "9-27",
+      "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_tropical_island" ]
       }
     }
 ,
@@ -30,12 +29,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "11-36",
+      "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_highlands" ],
+        "canSeeSky": true,
+        "isThundering": true
       }
     }
 ,

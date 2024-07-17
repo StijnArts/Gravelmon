@@ -59,12 +59,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -155,7 +155,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:swarm_stone",
+      "requiredContext": "cobblemon:silver_powder",
       "permanent": true   
  }
   ],

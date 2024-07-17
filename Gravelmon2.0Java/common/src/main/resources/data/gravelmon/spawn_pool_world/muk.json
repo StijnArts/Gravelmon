@@ -24,17 +24,15 @@
       "id": "epochmukone-1",
       "pokemon": "muk epochtwo",
       "presets": [
-          "natural"
+          "lava_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "surface",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "39-54",
+      "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_nether" ]
       }
     }
 ,

@@ -7,16 +7,16 @@
       "id": "epochmilotic-1",
       "pokemon": "milotic epoch",
       "presets": [
-          "natural"
+          "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
+      "context": "submerged",
+      "bucket": "rare",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_deep_dark" ],
+        "timeRange": "30",
         "canSeeSky": true
       }
     }
@@ -25,17 +25,15 @@
       "id": "epochmiloticone-1",
       "pokemon": "milotic epochtwo",
       "presets": [
-          "natural"
+          "underlava"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "34-54",
+      "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_nether" ]
       }
     }
 ,

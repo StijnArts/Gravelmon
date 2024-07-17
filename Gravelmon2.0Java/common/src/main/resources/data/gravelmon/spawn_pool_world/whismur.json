@@ -7,16 +7,15 @@
       "id": "epochwhismur-1",
       "pokemon": "whismur epoch",
       "presets": [
-          "natural"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "4-23",
+      "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_snowy" ],
         "canSeeSky": true
       }
     }

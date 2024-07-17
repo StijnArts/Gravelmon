@@ -7,17 +7,15 @@
       "id": "epochpinsir-1",
       "pokemon": "pinsir epoch",
       "presets": [
-          "natural"
+          "amethyst_geode"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "26-54",
+      "weight": 1.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+        "canSeeSky": false
       }
     }
 ,

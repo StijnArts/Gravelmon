@@ -76,8 +76,7 @@ public class EpochSnorunt extends drai.dev.data.pokemon.Pokemon {
                 List.of(new EvolutionEntry("epoch glalie", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")), List.of(), "cobblemon:dusk_stone"),
 new EvolutionEntry("epoch froslass", EvolutionType.ITEM_INTERACT, false, List.of(), 
- List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"),
-new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")), List.of(), "cobblemon:dusk_stone")),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,15),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,30),
@@ -169,9 +168,9 @@ new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=mal
                         new MoveLearnSetEntry(Move.BEAT_UP,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 27, 4.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

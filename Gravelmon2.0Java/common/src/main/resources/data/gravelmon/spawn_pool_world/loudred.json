@@ -7,16 +7,15 @@
       "id": "epochloudred-1",
       "pokemon": "loudred epoch",
       "presets": [
-          "natural"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "22-45",
+      "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_snowy" ],
         "canSeeSky": true
       }
     }

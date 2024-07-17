@@ -167,8 +167,8 @@ public class EpochCacnea extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PARRY,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 31, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

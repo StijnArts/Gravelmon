@@ -7,16 +7,16 @@
       "id": "epochwingull-1",
       "pokemon": "wingull epoch",
       "presets": [
-          "natural"
+          "shipwreck"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "7-29",
+      "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_beach",
+"#minecraft:is_deep_ocean" ],
         "canSeeSky": true
       }
     }

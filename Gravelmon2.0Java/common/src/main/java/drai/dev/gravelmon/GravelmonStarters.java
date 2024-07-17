@@ -1,11 +1,14 @@
 package drai.dev.gravelmon;
 
+import com.llamalad7.mixinextras.utils.*;
 import drai.dev.gravelsextendedbattles.starters.*;
 import org.apache.commons.lang3.*;
 
 import java.util.*;
 
 public class GravelmonStarters {
+    public static final Map<String, String> LANG_ENTRIES = new HashMap<>();
+
     public static void injectStarters() {
         GravelmonStarterManager.registerNewStarter("Kanto",
                 createCategory("Egho Kanto",
@@ -60,6 +63,14 @@ public class GravelmonStarters {
                 ));
         GravelmonStarterManager.registerNewStarter("Hoenn",
                 createCategory("Zakos",
+                        List.of(
+                                "Treecko mystic=true level=10",
+                                "Torchic mystic=true level=10",
+                                "Mudkip mystic=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Sinnoh",
+                createCategory("Epoch Sinnoh",
                         List.of(
                                 "Treecko mystic=true level=10",
                                 "Torchic mystic=true level=10",
@@ -386,7 +397,9 @@ public class GravelmonStarters {
     }
 
     private static StarterCategoryDataHolder createCategory(String name, List<String> starters) {
-        return new StarterCategoryDataHolder(StringUtils.capitalize(name), "cobblemon.starterselection.category." + GravelmonUtils.getCleanName(name.toLowerCase().replaceAll(" ", "")),
+        var lang = "cobblemon.starterselection.category." + GravelmonUtils.getCleanName(name.toLowerCase().replaceAll(" ", ""));
+        LANG_ENTRIES.put(lang, name);
+        return new StarterCategoryDataHolder(StringUtils.capitalize(name), lang ,
                 starters);
     }
 }

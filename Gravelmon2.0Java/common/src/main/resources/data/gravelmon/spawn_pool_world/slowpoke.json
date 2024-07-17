@@ -7,16 +7,15 @@
       "id": "epochslowpoke-1",
       "pokemon": "slowpoke epoch",
       "presets": [
-          "natural"
+          "honey_tree"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_forest" ],
         "canSeeSky": true
       }
     }

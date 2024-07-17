@@ -7,16 +7,15 @@
       "id": "epochshellos-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -25,16 +24,15 @@
       "id": "epochshellosone-1",
       "pokemon": "shellos epochtwo",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -43,16 +41,15 @@
       "id": "epochshellostwo-1",
       "pokemon": "shellos epochthree",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -61,16 +58,15 @@
       "id": "epochshellosthree-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -79,16 +75,15 @@
       "id": "epochshellosfour-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -97,16 +92,15 @@
       "id": "epochshellosfive-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -115,16 +109,15 @@
       "id": "epochshellossix-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -133,16 +126,15 @@
       "id": "epochshellosseven-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -151,16 +143,15 @@
       "id": "epochshelloseight-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -169,16 +160,15 @@
       "id": "epochshellosnine-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -187,16 +177,15 @@
       "id": "epochshellosten-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }
@@ -205,16 +194,15 @@
       "id": "epochshelloseleven-1",
       "pokemon": "shellos epoch",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

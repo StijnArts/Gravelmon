@@ -10,14 +10,15 @@
           "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "11-29",
+      "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_deep_ocean",
+"#minecraft:is_end" ],
+        "timeRange": "night",
+        "maxY": 32
       }
     }
 ,

@@ -12,11 +12,11 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "7-25",
+      "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_snowy" ],
+        "isRaining": true,
         "canSeeSky": true
       }
     }
@@ -29,13 +29,11 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "rare",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_jungle" ]
       }
     }
 ,

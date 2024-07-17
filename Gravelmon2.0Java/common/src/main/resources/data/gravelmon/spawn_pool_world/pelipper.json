@@ -7,16 +7,16 @@
       "id": "epochpelipper-1",
       "pokemon": "pelipper epoch",
       "presets": [
-          "natural"
+          "shipwreck"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "39-56",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_beach",
+"#minecraft:is_deep_ocean" ],
         "canSeeSky": true
       }
     }

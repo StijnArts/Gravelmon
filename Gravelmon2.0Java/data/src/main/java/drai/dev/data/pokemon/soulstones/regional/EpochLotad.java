@@ -180,8 +180,8 @@ public class EpochLotad extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.INGRAIN,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 24, 4.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,8 +15,7 @@
       "level": "41-54",
       "weight": 0.4,
       "condition": {
-"biomes": [ "#minecraft:is_end" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_snowy" ]
       }
     }
 ,
@@ -28,13 +27,11 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "39-54",
+      "weight": 1.1,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_end" ]
       }
     }
 ,

@@ -7,16 +7,15 @@
       "id": "epochbidoof-1",
       "pokemon": "bidoof epoch",
       "presets": [
-          "natural"
+          "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "uncommon",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_swamp" ],
         "canSeeSky": true
       }
     }

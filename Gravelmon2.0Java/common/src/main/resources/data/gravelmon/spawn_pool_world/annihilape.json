@@ -12,11 +12,10 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "41-53",
+      "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "minecraft:cherry_grove" ],
         "canSeeSky": true
       }
     }

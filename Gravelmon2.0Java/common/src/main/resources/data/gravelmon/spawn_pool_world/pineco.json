@@ -7,17 +7,15 @@
       "id": "epochpineco-1",
       "pokemon": "pineco epoch",
       "presets": [
-          "natural"
+          "amethyst_geode"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+
       }
     }
 

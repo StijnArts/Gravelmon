@@ -23,17 +23,15 @@
       "id": "epochdodrioone-1",
       "pokemon": "dodrio epochtwo",
       "presets": [
-          "natural"
+          "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "32-45",
+      "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_jungle" ]
       }
     }
 ,

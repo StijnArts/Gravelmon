@@ -7,16 +7,15 @@
       "id": "epochhippopotas-1",
       "pokemon": "hippopotas epoch",
       "presets": [
-          "natural"
+          "water_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "surface",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "21-43",
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_desert" ],
         "canSeeSky": true
       }
     }

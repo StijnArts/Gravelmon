@@ -539,7 +539,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:iron_stone",
+      "requiredContext": "gravelmon:solid_stone",
       "permanent": true   
  }
   ],

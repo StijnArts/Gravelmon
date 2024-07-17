@@ -7,17 +7,15 @@
       "id": "epochbronzor-1",
       "pokemon": "bronzor epoch",
       "presets": [
-          "natural"
+          "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "11-38",
+      "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_jungle" ]
       }
     }
 ,

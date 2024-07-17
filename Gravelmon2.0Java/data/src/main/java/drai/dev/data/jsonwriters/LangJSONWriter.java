@@ -1,6 +1,7 @@
 package drai.dev.data.jsonwriters;
 
 import drai.dev.data.attributes.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -17,6 +18,10 @@ public class LangJSONWriter {
     public static void writeLang(Game game, String resourcesDir) {
         dir = resourcesDir;
         game.getPokemon().forEach(pokemon -> {writePokemon(pokemon, game);});
+    }
+
+    public static void writeStarterCategories(){
+        GravelmonStarters.LANG_ENTRIES.forEach(LangJSONWriter::writeTranslationKey);
     }
 
     public static void writeTranslationKey(String key, String text){

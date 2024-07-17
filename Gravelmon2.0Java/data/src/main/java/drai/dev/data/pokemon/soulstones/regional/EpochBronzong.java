@@ -157,11 +157,10 @@ public class EpochBronzong extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bronzong");

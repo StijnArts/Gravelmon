@@ -75,8 +75,7 @@ public class EpochKirlia extends drai.dev.data.pokemon.Pokemon {
                 List.of("It can channel its negative emotions into its attacks adding a level of intensity that would otherwise not be present."),
                 List.of(new EvolutionEntry("epoch gardevoir", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
-new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"),
-new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
+new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"))),
 new EvolutionEntry("epoch gallade", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"),
 new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")))),
@@ -185,8 +184,8 @@ new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=mal
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 45, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

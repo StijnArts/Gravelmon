@@ -24,17 +24,15 @@
       "id": "epochgrimerone-1",
       "pokemon": "grimer epochtwo",
       "presets": [
-          "natural"
+          "lava_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "surface",
       "bucket": "common",
-      "level": "3-22",
+      "level": "12-33",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_nether" ]
       }
     }
 ,

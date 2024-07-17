@@ -7,17 +7,16 @@
       "id": "epochcubone-1",
       "pokemon": "cubone epoch",
       "presets": [
-          "natural"
+          "reef",
+          "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "7-26",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_ocean" ]
       }
     }
 
