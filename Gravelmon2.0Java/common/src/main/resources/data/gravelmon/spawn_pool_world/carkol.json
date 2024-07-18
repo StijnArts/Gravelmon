@@ -7,17 +7,16 @@
       "id": "epochcarkol-1",
       "pokemon": "carkol epoch",
       "presets": [
-          "natural"
+          "gemstones"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "18-42",
+      "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": false
       }
     }
 

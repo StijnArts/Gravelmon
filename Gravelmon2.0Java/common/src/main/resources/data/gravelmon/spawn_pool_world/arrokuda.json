@@ -7,16 +7,15 @@
       "id": "epocharrokuda-1",
       "pokemon": "arrokuda epoch",
       "presets": [
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "11-32",
+      "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_spooky" ],
         "canSeeSky": true
       }
     }

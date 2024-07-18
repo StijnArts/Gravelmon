@@ -158,13 +158,15 @@ public class EpochDucklett extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EROSION,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 36, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
+        setCanSwim(true);
            setLangFileName("Ducklett");
 
     }

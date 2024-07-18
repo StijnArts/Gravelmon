@@ -7,17 +7,16 @@
       "id": "epochfloette-1",
       "pokemon": "floette epoch",
       "presets": [
-          "natural"
+          "reef",
+          "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "22-41",
+      "weight": 1.1,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_ocean" ]
       }
     }
 ,

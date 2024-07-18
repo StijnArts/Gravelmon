@@ -7,16 +7,15 @@
       "id": "epochklefki-1",
       "pokemon": "klefki epoch",
       "presets": [
-          "natural"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "21-47",
+      "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_savanna" ],
         "canSeeSky": true
       }
     }

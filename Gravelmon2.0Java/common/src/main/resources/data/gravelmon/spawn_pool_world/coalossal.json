@@ -7,17 +7,16 @@
       "id": "epochcoalossal-1",
       "pokemon": "coalossal epoch",
       "presets": [
-          "natural"
+          "gemstones"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "38-56",
+      "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": false
       }
     }
 

@@ -7,17 +7,17 @@
       "id": "epochswanna-1",
       "pokemon": "swanna epoch",
       "presets": [
-          "natural"
+          "natural",
+          "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "32-51",
+      "weight": 0.7,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "day"
       }
     }
 ,

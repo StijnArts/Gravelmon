@@ -104,6 +104,9 @@ public class GenerationSeven extends Game {
         pokemon.add(new EpochToucannon("", Aspect.EPOCH));
         pokemon.add(new EpochStufful("", Aspect.EPOCH));
         pokemon.add(new EpochBewear("", Aspect.EPOCH));
+        pokemon.add(new EpochBounsweet("", Aspect.EPOCH));
+        pokemon.add(new EpochSteenee("", Aspect.EPOCH));
+        pokemon.add(new EpochTsareena("", Aspect.EPOCH));
         pokemon.add(new EpochBounsweetOne("", Aspect.EPOCH));
         pokemon.add(new EpochSteeneeOne("", Aspect.EPOCH));
         pokemon.add(new EpochTsareenaOne("", Aspect.EPOCH));
@@ -120,9 +123,6 @@ public class GenerationSeven extends Game {
         pokemon.add(new EpochSalazzle("", Aspect.EPOCH));
         pokemon.add(new EpochWimpod("", Aspect.EPOCH));
         pokemon.add(new EpochGolisopod("", Aspect.EPOCH));
-        pokemon.add(new EpochBounsweet("", Aspect.EPOCH));
-        pokemon.add(new EpochSteenee("", Aspect.EPOCH));
-        pokemon.add(new EpochTsareena("", Aspect.EPOCH));
         pokemon.add(new EpochComfey("", Aspect.EPOCH));
 
     }

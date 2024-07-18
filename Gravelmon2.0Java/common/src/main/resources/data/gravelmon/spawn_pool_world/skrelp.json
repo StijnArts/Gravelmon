@@ -7,17 +7,16 @@
       "id": "epochskrelp-1",
       "pokemon": "skrelp epoch",
       "presets": [
-          "natural"
+          "foliage",
+          "underwater"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "11-34",
+      "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_ocean" ]
       }
     }
 ,

@@ -11,13 +11,12 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "26-43",
+      "weight": 1.1,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_swamp" ],
+        "timeRange": "night"
       }
     }
 ,
@@ -25,17 +24,16 @@
       "id": "epochvanillishone-1",
       "pokemon": "vanillish epochtwo",
       "presets": [
-          "natural"
+          "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "25-45",
+      "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_basalt" ]
       }
     }
 ,

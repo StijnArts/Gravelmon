@@ -7,17 +7,16 @@
       "id": "epocharomatisse-1",
       "pokemon": "aromatisse epoch",
       "presets": [
-          "natural"
+          "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "33-48",
+      "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky" ],
+        "canSeeSky": false
       }
     }
 ,
@@ -29,14 +28,16 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "35-52",
+      "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
-      }
+"biomes": [ "#cobblemon:is_forest" ],
+        "timeRange": "night"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:has_season/summer",
+"#cobblemon:has_season/winter" ]    }
     }
 ,
     {

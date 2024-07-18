@@ -7,17 +7,16 @@
       "id": "epochrolycoly-1",
       "pokemon": "rolycoly epoch",
       "presets": [
-          "natural"
+          "gemstones"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "8-31",
+      "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": false
       }
     }
 

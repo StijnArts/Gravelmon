@@ -85,6 +85,22 @@ public class GravelmonStarters {
                                 "Froakie vesitan=true level=10"
                         )
                 ));
+        GravelmonStarterManager.registerNewStarter("Kalos",
+                createCategory("Epoch Kalos",
+                        List.of(
+                                "Chespin epoch=true level=10",
+                                "Fennekin epoch=true level=10",
+                                "Froakie epoch=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Alola",
+                createCategory("Epoch Alola",
+                        List.of(
+                                "rowlet epoch=true level=10",
+                                "litten epoch=true level=10",
+                                "popplio epoch=true level=10"
+                        )
+                ));
         GravelmonStarterManager.registerNewStarter(null,
                 createCategory("Urobos",
                         List.of(

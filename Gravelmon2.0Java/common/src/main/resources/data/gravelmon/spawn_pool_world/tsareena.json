@@ -4,24 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epochtsareenaone-1",
-      "pokemon": "tsareena epochtwo",
-      "presets": [
-          "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
-      "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
-      }
-    }
-,
-    {
       "id": "epochtsareena-1",
       "pokemon": "tsareena epoch",
       "presets": [
@@ -29,13 +11,27 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "18-41",
+      "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "epochtsareenaone-1",
+      "pokemon": "tsareena epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-52",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
       }
     }
 

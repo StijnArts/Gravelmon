@@ -7,16 +7,16 @@
       "id": "epochsandile-1",
       "pokemon": "sandile epoch",
       "presets": [
+          "village",
           "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "9-28",
+      "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_beach" ],
         "canSeeSky": true
       }
     }

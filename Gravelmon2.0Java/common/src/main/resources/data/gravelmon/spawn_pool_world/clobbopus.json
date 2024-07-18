@@ -7,16 +7,15 @@
       "id": "epochclobbopus-1",
       "pokemon": "clobbopus epoch",
       "presets": [
-          "natural"
+          "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "9-31",
+      "weight": 4.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

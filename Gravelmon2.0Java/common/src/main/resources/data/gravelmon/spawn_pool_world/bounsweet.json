@@ -4,6 +4,22 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epochbounsweet-1",
+      "pokemon": "bounsweet epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-31",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
       "id": "epochbounsweetone-1",
       "pokemon": "bounsweet epochtwo",
       "presets": [
@@ -12,30 +28,10 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "11-32",
+      "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
-      }
-    }
-,
-    {
-      "id": "epochbounsweet-1",
-      "pokemon": "bounsweet epoch",
-      "presets": [
-          "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
-      "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky" ]
       }
     }
 ,

@@ -7,16 +7,16 @@
       "id": "epochprimarina-1",
       "pokemon": "primarina epoch",
       "presets": [
-          "natural"
+          "natural",
+          "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_floral" ],
         "canSeeSky": true
       }
     }

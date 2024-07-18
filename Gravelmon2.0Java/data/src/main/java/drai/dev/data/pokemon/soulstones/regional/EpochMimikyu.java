@@ -168,11 +168,11 @@ public class EpochMimikyu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIRIT_SHACKLE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 45, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mimikyu");

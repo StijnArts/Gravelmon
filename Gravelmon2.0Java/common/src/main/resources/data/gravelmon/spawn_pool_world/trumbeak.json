@@ -7,18 +7,20 @@
       "id": "epochtrumbeak-1",
       "pokemon": "trumbeak epoch",
       "presets": [
-          "natural"
+          "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "18-41",
+      "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_forest" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:has_season/summer",
+"#cobblemon:has_season/winter" ]    }
     }
 
 ]

@@ -7,16 +7,16 @@
       "id": "epochkrokorok-1",
       "pokemon": "krokorok epoch",
       "presets": [
+          "village",
           "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "21-43",
+      "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_beach" ],
         "canSeeSky": true
       }
     }

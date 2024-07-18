@@ -7,17 +7,16 @@
       "id": "epochdragalge-1",
       "pokemon": "dragalge epoch",
       "presets": [
-          "natural"
+          "foliage",
+          "underwater"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "43-58",
+      "weight": 1.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_ocean" ]
       }
     }
 ,

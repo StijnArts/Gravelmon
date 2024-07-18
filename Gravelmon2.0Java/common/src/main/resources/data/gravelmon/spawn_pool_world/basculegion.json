@@ -7,16 +7,16 @@
       "id": "epochbasculegion-1",
       "pokemon": "basculegion epoch",
       "presets": [
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "37-51",
+      "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "minecraft:cherry_grove",
+"#cobblemon:is_bamboo" ],
         "canSeeSky": true
       }
     }

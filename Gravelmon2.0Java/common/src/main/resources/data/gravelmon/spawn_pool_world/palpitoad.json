@@ -7,17 +7,16 @@
       "id": "epochpalpitoad-1",
       "pokemon": "palpitoad epoch",
       "presets": [
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "23-41",
+      "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky",
+"#cobblemon:is_mushroom" ]
       }
     }
 

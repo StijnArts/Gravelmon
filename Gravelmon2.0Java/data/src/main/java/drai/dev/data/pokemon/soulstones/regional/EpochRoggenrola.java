@@ -149,9 +149,8 @@ public class EpochRoggenrola extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TIDALWAVE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 27, 4.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

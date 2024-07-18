@@ -126,5 +126,7 @@ public class Gorochu extends Pokemon {
         setModeled(true);
         setBaseScale(1);
         setHitbox(1,1);
+        addAdditionalEvolution("pikachu", new EvolutionEntry("gorochu", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:fire_stone"));
     }
 }

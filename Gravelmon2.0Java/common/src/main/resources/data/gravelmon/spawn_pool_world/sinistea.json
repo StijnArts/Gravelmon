@@ -7,17 +7,16 @@
       "id": "epochsinistea-1",
       "pokemon": "sinistea epoch",
       "presets": [
-          "natural"
+          "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
+      "bucket": "uncommon",
+      "level": "11-35",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky" ],
+        "canSeeSky": false
       }
     }
 

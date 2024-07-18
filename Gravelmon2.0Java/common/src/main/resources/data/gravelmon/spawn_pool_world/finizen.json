@@ -7,16 +7,15 @@
       "id": "epochfinizen-1",
       "pokemon": "finizen epoch",
       "presets": [
-          "natural"
+          "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_frozen" ],
         "canSeeSky": true
       }
     }

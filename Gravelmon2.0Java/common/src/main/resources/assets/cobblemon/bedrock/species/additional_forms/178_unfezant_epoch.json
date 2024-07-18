@@ -58,6 +58,27 @@
           "name": "tail"
         }
       ]
+    },
+    {
+      "aspects": [
+        "female",
+        "epoch"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_epochunfezant",
+      "texture": "cobblemon:textures/pokemon/generation5/epochunfezant_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:generation5_epochunfezant",
+      "texture": "cobblemon:textures/pokemon/generation5/epochunfezant_female_shiny.png",
+      "layers": []
     }
   ]
 }

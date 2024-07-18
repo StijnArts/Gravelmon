@@ -7,17 +7,17 @@
       "id": "epochducklett-1",
       "pokemon": "ducklett epoch",
       "presets": [
-          "natural"
+          "natural",
+          "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "9-36",
+      "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "day"
       }
     }
 ,

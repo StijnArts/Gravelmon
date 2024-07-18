@@ -103,9 +103,11 @@ public class GenerationEight extends Game {
         pokemon.add(new EpochImpidimp("", Aspect.EPOCH));
         pokemon.add(new EpochMorgrem("", Aspect.EPOCH));
         pokemon.add(new EpochGrimmsnarl("", Aspect.EPOCH));
+        pokemon.add(new EpochImpidimpOne("", Aspect.EPOCH));
+        pokemon.add(new EpochMorgremOne("", Aspect.EPOCH));
+        pokemon.add(new EpochGrimmsnarlOne("", Aspect.EPOCH));
         pokemon.add(new EpochGossifleur("", Aspect.EPOCH));
         pokemon.add(new EpochEldegoss("", Aspect.EPOCH));
-        pokemon.add(new EpochCursola("", Aspect.EPOCH));
         pokemon.add(new EpochSilicobra("", Aspect.EPOCH));
         pokemon.add(new EpochSandaconda("", Aspect.EPOCH));
         pokemon.add(new EpochSinistea("", Aspect.EPOCH));
@@ -114,16 +116,16 @@ public class GenerationEight extends Game {
         pokemon.add(new EpochGreedent("", Aspect.EPOCH));
         pokemon.add(new EpochToxel("", Aspect.EPOCH));
         pokemon.add(new EpochToxtricity("", Aspect.EPOCH));
-        pokemon.add(new EpochMrrime("", Aspect.EPOCH));
         pokemon.add(new EpochApplin("", Aspect.EPOCH));
         pokemon.add(new EpochFlapple("", Aspect.EPOCH));
         pokemon.add(new EpochAppletun("", Aspect.EPOCH));
         pokemon.add(new EpochWooloo("", Aspect.EPOCH));
         pokemon.add(new EpochDubwool("", Aspect.EPOCH));
+        pokemon.add(new EpochWoolooOne("", Aspect.EPOCH));
+        pokemon.add(new EpochDubwoolOne("", Aspect.EPOCH));
         pokemon.add(new EpochArrokuda("", Aspect.EPOCH));
         pokemon.add(new EpochBarraskewda("", Aspect.EPOCH));
         pokemon.add(new EpochFalinks("", Aspect.EPOCH));
-        pokemon.add(new EpochObstagoon("", Aspect.EPOCH));
         pokemon.add(new EpochIndeedee("", Aspect.EPOCH));
         pokemon.add(new EpochPincurchin("", Aspect.EPOCH));
         pokemon.add(new EpochRolycoly("", Aspect.EPOCH));
@@ -133,8 +135,6 @@ public class GenerationEight extends Game {
         pokemon.add(new EpochDrakloak("", Aspect.EPOCH));
         pokemon.add(new EpochDragapult("", Aspect.EPOCH));
         pokemon.add(new EpochStonjourner("", Aspect.EPOCH));
-        pokemon.add(new EpochWoolooOne("", Aspect.EPOCH));
-        pokemon.add(new EpochDubwoolOne("", Aspect.EPOCH));
         pokemon.add(new EpochSnom("", Aspect.EPOCH));
         pokemon.add(new EpochFrosmoth("", Aspect.EPOCH));
         pokemon.add(new EpochCramorant("", Aspect.EPOCH));
@@ -149,14 +149,15 @@ public class GenerationEight extends Game {
         pokemon.add(new EpochHatenna("", Aspect.EPOCH));
         pokemon.add(new EpochHattrem("", Aspect.EPOCH));
         pokemon.add(new EpochHatterene("", Aspect.EPOCH));
-        pokemon.add(new EpochImpidimpOne("", Aspect.EPOCH));
-        pokemon.add(new EpochMorgremOne("", Aspect.EPOCH));
-        pokemon.add(new EpochGrimmsnarlOne("", Aspect.EPOCH));
+        pokemon.add(new EpochEternatus("", Aspect.EPOCH));
+
+        pokemon.add(new EpochMrrime("", Aspect.EPOCH));
+        pokemon.add(new EpochCursola("", Aspect.EPOCH));
+        pokemon.add(new EpochObstagoon("", Aspect.EPOCH));
         pokemon.add(new EpochUrsaluna("", Aspect.EPOCH));
         pokemon.add(new EpochWyrdeer("", Aspect.EPOCH));
         pokemon.add(new EpochWyrdeerOne("", Aspect.EPOCH));
         pokemon.add(new EpochSneasler("", Aspect.EPOCH));
         pokemon.add(new EpochBasculegion("", Aspect.EPOCH));
-        pokemon.add(new EpochEternatus("", Aspect.EPOCH));
     }
 }

@@ -171,13 +171,14 @@ public class EpochWattrel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLOCK,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 36, 4.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Wattrel");
 
     }
