@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Dialapis extends drai.dev.data.pokemon.Pokemon {
-    public Dialapis() {
+    public Dialapis(Stats stats) {
         super("Dialapis",
                 Type.ROCK,
                 new Stats(0,

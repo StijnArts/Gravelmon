@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Reaphid extends drai.dev.data.pokemon.Pokemon {
-    public Reaphid() {
+    public Reaphid(Stats stats) {
         super("Reaphid",
                 Type.BUG, Type.GHOST,
                 new Stats(0,

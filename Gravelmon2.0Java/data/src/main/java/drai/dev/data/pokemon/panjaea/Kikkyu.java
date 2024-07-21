@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Kikkyu extends drai.dev.data.pokemon.Pokemon {
-    public Kikkyu() {
+    public Kikkyu(Stats stats) {
         super("Kikkyu",
                 Type.ELECTRIC, Type.FIGHTING,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Psychu extends drai.dev.data.pokemon.Pokemon {
-    public Psychu() {
+    public Psychu(Stats stats) {
         super("Psychu",
                 Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Elklore extends drai.dev.data.pokemon.Pokemon {
-    public Elklore() {
+    public Elklore(Stats stats) {
         super("Elklore",
                 Type.GRASS, Type.FAIRY,
                 new Stats(0,

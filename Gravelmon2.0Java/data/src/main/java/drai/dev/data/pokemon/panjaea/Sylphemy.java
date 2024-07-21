@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Sylphemy extends drai.dev.data.pokemon.Pokemon {
-    public Sylphemy() {
+    public Sylphemy(Stats stats) {
         super("Sylphemy",
                 Type.FLYING, Type.GHOST,
                 new Stats(0,

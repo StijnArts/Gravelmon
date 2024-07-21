@@ -76,8 +76,8 @@ public class Xenoverse extends Game {
         pokemon.add(new Birigiri());
         pokemon.add(new Chubiburny());
         pokemon.add(new Goombear());
-        pokemon.add(new Manticoeur());
-        pokemon.add(new Fatail());
+        pokemon.add(new Manticoeur().setUsesBigModel());
+        pokemon.add(new Fatail().setUsesBigModel());
         pokemon.add(new Reindear());
         pokemon.add(new Reindigo());
         pokemon.add(new Sosqwatch());
@@ -90,7 +90,7 @@ public class Xenoverse extends Game {
         pokemon.add(new Scaracno());
         pokemon.add(new Scaracluo());
         pokemon.add(new Scarphasmo());
-        pokemon.add(new Tokakle());
+        pokemon.add(new Tokakle().setUsesBigModel());
         pokemon.add(new Donanas());
         pokemon.add(new Chimaooze());
         //TODO add sound pledge move to eevee learnset

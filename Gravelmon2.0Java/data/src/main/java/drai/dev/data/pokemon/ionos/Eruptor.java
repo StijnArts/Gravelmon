@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Eruptor extends drai.dev.data.pokemon.Pokemon {
-    public Eruptor() {
+    public Eruptor(Stats stats) {
         super("Eruptor",
                 Type.ROCK, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

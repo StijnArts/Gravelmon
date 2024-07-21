@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Rugrant extends drai.dev.data.pokemon.Pokemon {
-    public Rugrant() {
+    public Rugrant(Stats stats) {
         super("Rugrant",
                 Type.BUG, Type.FAIRY,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gilactic extends drai.dev.data.pokemon.Pokemon {
-    public Gilactic() {
+    public Gilactic(Stats stats) {
         super("Gilactic",
                 Type.WATER, Type.FAIRY,
                 new Stats(0,

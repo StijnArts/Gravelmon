@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Shorebeard extends drai.dev.data.pokemon.Pokemon {
-    public Shorebeard() {
+    public Shorebeard(Stats stats) {
         super("Shorebeard",
                 Type.NORMAL, Type.FLYING,
                 new Stats(0,

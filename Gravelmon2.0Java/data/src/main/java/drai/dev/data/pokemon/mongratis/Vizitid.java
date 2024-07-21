@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Vizitid extends drai.dev.data.pokemon.Pokemon {
-    public Vizitid() {
+    public Vizitid(Stats stats) {
         super("Vizitid",
                 Type.GHOST, Type.PSYCHIC,
                 new Stats(0,

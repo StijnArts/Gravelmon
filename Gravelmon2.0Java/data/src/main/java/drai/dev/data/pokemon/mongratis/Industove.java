@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Industove extends drai.dev.data.pokemon.Pokemon {
-    public Industove() {
+    public Industove(Stats stats) {
         super("Industove",
                 Type.STEEL, Type.FIRE,
                 new Stats(0,

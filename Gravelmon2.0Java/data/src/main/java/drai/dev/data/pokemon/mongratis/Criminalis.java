@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Criminalis extends drai.dev.data.pokemon.Pokemon {
-    public Criminalis() {
+    public Criminalis(Stats stats) {
         super("Criminalis",
                 Type.FLYING,
                 new Stats(0,

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Irritabull extends drai.dev.data.pokemon.Pokemon {
-    public Irritabull() {
+    public Irritabull(Stats stats) {
         super("Irritabull",
                 Type.GROUND, Type.DARK,
-                new Stats(97,
-                        130,
-                        82,
-                        45,
-                        103,
-                        43),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -61,6 +61,9 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.chaosinvestia.regional.*;
 import drai.dev.data.pokemon.soulstones.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
+
+import java.util.*;
+
 public class Terranov extends drai.dev.data.games.registry.Game {
     public Terranov() {
         super("Terranov");
@@ -73,34 +76,47 @@ public class Terranov extends drai.dev.data.games.registry.Game {
         pokemon.add(new Canyne());
         pokemon.add(new Palamute());
         pokemon.add(new Spiribird());
-//        pokemon.add(new Wiggler());   Missing Stats
-//        pokemon.add(new WigglerQueen());   Missing Stats
-//        pokemon.add(new Velocidrome());   Missing Stats
-//        pokemon.add(new Gendrome());   Missing Stats
-//        pokemon.add(new Iodrome());   Missing Stats
-//        pokemon.add(new Giadrome());   Missing Stats
-//        pokemon.add(new GreatJaggi());   Missing Stats
+        pokemon.add(new Wiggler());   
+        pokemon.add(new WigglerQueen(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Velocidrome(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Gendrome(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Iodrome(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Giadrome(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Izuchi());
+        pokemon.add(new GreatJaggi(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new GreatIzuchi());
         pokemon.add(new Jagras());
         pokemon.add(new GreatJagras());
-//        pokemon.add(new Girros());   Missing Stats
-//        pokemon.add(new GreatGirros());   Missing Stats
-//        pokemon.add(new Dodogama());   Missing Stats
-//        pokemon.add(new Bulldrome());   Missing Stats
+        pokemon.add(new Girros());   
+        pokemon.add(new GreatGirros(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Dodogama(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Bulldrome(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Arzuros());
-//        pokemon.add(new Lagombi());   Missing Stats
+        pokemon.add(new Lagombi(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new KuluYaKu());
         pokemon.add(new Wailnard());
         pokemon.add(new Qurupeco());
         pokemon.add(new Melynx());
-//        pokemon.add(new Konchu());   Missing Stats
+        pokemon.add(new Konchu(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new YianKutKu());
         pokemon.add(new YianGaruga());
-//        pokemon.add(new VespoidQueen());   Missing Stats
+        pokemon.add(new VespoidQueen(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Ludroth());
         pokemon.add(new RoyalLudroth());
-//        pokemon.add(new Congalala());   Missing Stats
+        pokemon.add(new Congalala(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new PukeiPukei());
         pokemon.add(new Baggi());
         pokemon.add(new GreatBaggi());
@@ -108,49 +124,77 @@ public class Terranov extends drai.dev.data.games.registry.Game {
         pokemon.add(new Gigginox());
         pokemon.add(new Tetsupole());
         pokemon.add(new Tetsucabra());
-//        pokemon.add(new Aknosom());   Missing Stats
-//        pokemon.add(new Hypnocatrice());   Missing Stats
-//        pokemon.add(new Duffel());   Missing Stats
-//        pokemon.add(new Beotodus());   Missing Stats
+        pokemon.add(new Aknosom(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Hypnocatrice(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Duffel(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Beotodus(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Hermitaur());
         pokemon.add(new DaimyoHermitaur());
         pokemon.add(new Ceanataur());
         pokemon.add(new ShogunCeanataur());
-//        pokemon.add(new GreatWroggi());   Missing Stats
-//        pokemon.add(new Barroth());   Missing Stats
-//        pokemon.add(new Malfestio());   Missing Stats
-//        pokemon.add(new Gobul());   Missing Stats
-//        pokemon.add(new Nibelsnarf());   Missing Stats
-//        pokemon.add(new Gajau());   Missing Stats
-//        pokemon.add(new Jyuratodus());   Missing Stats
+        pokemon.add(new GreatWroggi(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Barroth(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Malfestio(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Gobul(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Nibelsnarf(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Gajau(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Jyuratodus(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Paolumu());
-//        pokemon.add(new Blango());   Missing Stats
-//        pokemon.add(new Blangonga());   Missing Stats
-//        pokemon.add(new Tetranadon());   Missing Stats
-//        pokemon.add(new Banbaro());   Missing Stats
-//        pokemon.add(new Khezu());   Missing Stats
-//        pokemon.add(new Nerscylla());   Missing Stats
-//        pokemon.add(new Zammie());   Missing Stats
-//        pokemon.add(new Zamite());   Missing Stats
-//        pokemon.add(new Zamtrios());   Missing Stats
-//        pokemon.add(new Bishaten());   Missing Stats
-//        pokemon.add(new Somnacanth());   Missing Stats
-//        pokemon.add(new Cephadrome());   Missing Stats
-//        pokemon.add(new Lavasioth());   Missing Stats
-//        pokemon.add(new Plesioth());   Missing Stats
-//        pokemon.add(new Seltas());   Missing Stats
-//        pokemon.add(new SeltasQueen());   Missing Stats
-//        pokemon.add(new TobiKadachi());   Missing Stats
+        pokemon.add(new Blango());
+        pokemon.add(new Blangonga(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Tetranadon(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Banbaro(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Khezu(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Nerscylla(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Zammie());
+        pokemon.add(new Zamite());
+        pokemon.add(new Zamtrios(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Bishaten(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Somnacanth(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Cephadrome(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Lavasioth(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Plesioth(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Seltas());   
+        pokemon.add(new SeltasQueen(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new TobiKadachi(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Anjanath());
-//        pokemon.add(new Odogaron());   Missing Stats
+        pokemon.add(new Odogaron(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Legiana());
-//        pokemon.add(new Najarala());   Missing Stats
-//        pokemon.add(new Uragaan());   Missing Stats
+        pokemon.add(new Najarala(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Uragaan(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Nargacuga());
         pokemon.add(new Rathian());
         pokemon.add(new Rathalos());
         pokemon.add(new Lagiacrus());
-//        pokemon.add(new Popo());   Missing Stats
+        pokemon.add(new Popo(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Gammoth());
         pokemon.add(new Astalos());
         pokemon.add(new Mizutsune());
@@ -159,55 +203,82 @@ public class Terranov extends drai.dev.data.games.registry.Game {
         pokemon.add(new Gravios());
         pokemon.add(new Monoblos());
         pokemon.add(new Diablos());
-//        pokemon.add(new Barioth());   Missing Stats
+        pokemon.add(new Barioth(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Zinogre());
         pokemon.add(new Brachydios());
         pokemon.add(new Duramboros());
         pokemon.add(new Lunagaron());
         pokemon.add(new Magnamalo());
-//        pokemon.add(new Espinas());   Missing Stats
-//        pokemon.add(new Uroktor());   Missing Stats
+        pokemon.add(new Espinas(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Uroktor());
         pokemon.add(new Agnaktor());
         pokemon.add(new Tigrex());
-//        pokemon.add(new GossHarag());   Missing Stats
-//        pokemon.add(new Rachnoid());   Missing Stats
-//        pokemon.add(new RaknaKadaki());   Missing Stats
+        pokemon.add(new GossHarag(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Rachnoid());   
+        pokemon.add(new RaknaKadaki(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Seregios());
-//        pokemon.add(new GoreMagala());   Missing Stats
-//        pokemon.add(new ShagaruMagala());   Missing Stats
+        pokemon.add(new GoreMagala(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new ShagaruMagala(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Kirin());
         pokemon.add(new Deviljho());
         pokemon.add(new Bazelgeuse());
         pokemon.add(new Rajang());
-//        pokemon.add(new KushalaDaora());   Missing Stats
+        pokemon.add(new KushalaDaora(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Teostra());
-//        pokemon.add(new Chameleos());   Missing Stats
-//        pokemon.add(new LaoShanLung());   Missing Stats
-//        pokemon.add(new ShenGaoren());   Missing Stats
+        pokemon.add(new Chameleos(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new LaoShanLung(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new ShenGaoren(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
         pokemon.add(new Nergigante());
         pokemon.add(new VaalHazak());
-//        pokemon.add(new Velkhana());   Missing Stats
-//        pokemon.add(new JhenMohran());   Missing Stats
-//        pokemon.add(new DahrenMohran());   Missing Stats
-//        pokemon.add(new Velkhana());   Missing Stats
+        pokemon.add(new Velkhana(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new JhenMohran(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new DahrenMohran(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));
         pokemon.add(new ZorahMagdaros());
         pokemon.add(new Valstrax());
-//        pokemon.add(new Malzeno());   Missing Stats
-//        pokemon.add(new Akantor());   Missing Stats
-//        pokemon.add(new Ukanlos());   Missing Stats
-//        pokemon.add(new YamaTsukami());   Missing Stats
-//        pokemon.add(new Ceadeus());   Missing Stats
-//        pokemon.add(new Gogmazios());   Missing Stats
-//        pokemon.add(new Dalamadur());   Missing Stats
-//        pokemon.add(new AhtalKa());  Missing Stats
+        pokemon.add(new Malzeno(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Akantor(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Ukanlos(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new YamaTsukami(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Ceadeus(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Gogmazios(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Dalamadur(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new AhtalKa(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));  
         pokemon.add(new Ibushi());
-//        pokemon.add(new Narwa());   Missing Stats
-//        pokemon.add(new Gaismagorm());   Missing Stats
-//        pokemon.add(new Xenojiiva());   Missing Stats
-//        pokemon.add(new Safijiiva());   Missing Stats
-//        pokemon.add(new Alatreon());   Missing Stats
-//        pokemon.add(new DireMiralis());   Missing Stats
-//        pokemon.add(new Fatalis());   Missing Stats
+        pokemon.add(new Narwa(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Gaismagorm(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Xenojiiva(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Safijiiva(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Alatreon(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new DireMiralis(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Fatalis(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
     }
 
 }

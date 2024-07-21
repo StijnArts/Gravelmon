@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Polterglas extends drai.dev.data.pokemon.Pokemon {
-    public Polterglas() {
+    public Polterglas(Stats stats) {
         super("Polterglas",
                 Type.GHOST, Type.STEEL,
                 new Stats(0,

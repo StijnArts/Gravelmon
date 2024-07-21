@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hemorobbin extends drai.dev.data.pokemon.Pokemon {
-    public Hemorobbin() {
+    public Hemorobbin(Stats stats) {
         super("Hemorobbin",
                 Type.DARK, Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 19, 1873,
                 new Stats(0,0,0,0,0,0), 45,

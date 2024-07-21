@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Nozzleisk extends drai.dev.data.pokemon.Pokemon {
-    public Nozzleisk() {
+    public Nozzleisk(Stats stats) {
         super("Nozzleisk",
                 Type.WATER,
                 new Stats(0,

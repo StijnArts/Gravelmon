@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Navigale extends drai.dev.data.pokemon.Pokemon {
-    public Navigale() {
+    public Navigale(Stats stats) {
         super("Navigale",
                 Type.ELECTRIC, Type.FLYING,
                 new Stats(0,

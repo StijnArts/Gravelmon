@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Varmot extends drai.dev.data.pokemon.Pokemon {
-    public Varmot() {
+    public Varmot(Stats stats) {
         super("Varmot",
                 Type.NORMAL,
                 new Stats(0,

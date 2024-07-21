@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Amperator extends drai.dev.data.pokemon.Pokemon {
-    public Amperator() {
+    public Amperator(Stats stats) {
         super("Amperator",
                 Type.ELECTRIC, Type.BUG,
                 new Stats(0,

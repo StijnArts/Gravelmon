@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mantism extends drai.dev.data.pokemon.Pokemon {
-    public Mantism() {
+    public Mantism(Stats stats) {
         super("Mantism",
                 Type.GHOST, Type.BUG,
                 new Stats(0,

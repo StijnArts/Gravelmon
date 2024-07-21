@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Luvly extends drai.dev.data.pokemon.Pokemon {
-    public Luvly() {
+    public Luvly(Stats stats) {
         super("Luvly",
                 Type.FAIRY,
                 new Stats(0,

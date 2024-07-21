@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Kiwee extends drai.dev.data.pokemon.Pokemon {
-    public Kiwee() {
+    public Kiwee(Stats stats) {
         super("Kiwee",
                 Type.GRASS,
                 new Stats(0,

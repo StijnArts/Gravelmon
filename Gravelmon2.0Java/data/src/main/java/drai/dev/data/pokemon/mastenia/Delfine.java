@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Delfine extends drai.dev.data.pokemon.Pokemon {
-    public Delfine() {
+    public Delfine(Stats stats) {
         super("Delfine",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(0,

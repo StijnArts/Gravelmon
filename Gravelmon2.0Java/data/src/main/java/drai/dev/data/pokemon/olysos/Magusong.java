@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Magusong extends drai.dev.data.pokemon.Pokemon {
-    public Magusong() {
+    public Magusong(Stats stats) {
         super("Magusong",
                 Type.DARK, Type.FLYING,
                 new Stats(0,

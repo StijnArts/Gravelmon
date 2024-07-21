@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Scavengila extends drai.dev.data.pokemon.Pokemon {
-    public Scavengila() {
+    public Scavengila(Stats stats) {
         super("Scavengila",
                 Type.GROUND, Type.POISON,
                 new Stats(0,

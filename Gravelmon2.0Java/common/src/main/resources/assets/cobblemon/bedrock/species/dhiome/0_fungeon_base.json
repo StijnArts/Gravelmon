@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fungeon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_fungeon",
+      "texture": "cobblemon:textures/pokemon/dhiome/fungeon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/fungeon_shiny.png"
+    }
+  ]
+}

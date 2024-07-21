@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Suncada extends drai.dev.data.pokemon.Pokemon {
-    public Suncada() {
+    public Suncada(Stats stats) {
         super("Suncada",
                 Type.BUG, Type.FLYING,
                 new Stats(0,

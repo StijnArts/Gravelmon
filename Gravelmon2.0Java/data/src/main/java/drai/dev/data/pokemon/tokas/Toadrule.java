@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Toadrule extends drai.dev.data.pokemon.Pokemon {
-    public Toadrule() {
+    public Toadrule(Stats stats) {
         super("Toadrule",
                 Type.GRASS, Type.POISON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.POISON_TOUCH), Ability.POISON_TOUCH,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

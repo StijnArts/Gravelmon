@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Durmor extends drai.dev.data.pokemon.Pokemon {
-    public Durmor() {
+    public Durmor(Stats stats) {
         super("Durmor",
                 Type.STEEL,
                 new Stats(0,

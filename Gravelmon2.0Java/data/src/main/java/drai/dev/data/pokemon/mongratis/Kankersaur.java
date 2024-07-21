@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Kankersaur extends drai.dev.data.pokemon.Pokemon {
-    public Kankersaur() {
+    public Kankersaur(Stats stats) {
         super("Kankersaur",
                 Type.ROCK, Type.POISON,
                 new Stats(0,

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class GoreMagala extends drai.dev.data.pokemon.Pokemon {
-    public GoreMagala() {
+    public GoreMagala(Stats stats) {
         super("GoreMagala",
                 Type.DARK, Type.QUESTION_MARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

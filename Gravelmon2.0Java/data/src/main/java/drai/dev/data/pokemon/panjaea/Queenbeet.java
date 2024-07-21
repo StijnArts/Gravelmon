@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Queenbeet extends drai.dev.data.pokemon.Pokemon {
-    public Queenbeet() {
+    public Queenbeet(Stats stats) {
         super("Queenbeet",
                 Type.GRASS, Type.FLYING,
                 new Stats(0,

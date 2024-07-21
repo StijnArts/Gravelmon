@@ -61,6 +61,9 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.chaosinvestia.regional.*;
 import drai.dev.data.pokemon.soulstones.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
+
+import java.util.*;
+
 public class Ruskow extends drai.dev.data.games.registry.Game {
     public Ruskow() {
         super("Ruskow");
@@ -68,79 +71,110 @@ public class Ruskow extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new Eleplant());   Missing Stats
-//        pokemon.add(new Herbederm());   Missing Stats
+        pokemon.add(new Eleplant());   
+        pokemon.add(new Herbederm());   
         pokemon.add(new Mammahonia());
-//        pokemon.add(new Bollokin());   Missing Stats
-//        pokemon.add(new Flamabull());   Missing Stats
-//        pokemon.add(new Audhroch());   Missing Stats
-//        pokemon.add(new Newtiny());   Missing Stats
-//        pokemon.add(new Salamarsh());   Missing Stats
-//        pokemon.add(new Caudatidal());   Missing Stats
-//        pokemon.add(new Coocun());   Missing Stats
-//        pokemon.add(new Cocadeux());   Missing Stats
-//        pokemon.add(new Cocatrois());   Missing Stats
-//        pokemon.add(new Pilfur());   Missing Stats
-//        pokemon.add(new Pikpossum());   Missing Stats
-//        pokemon.add(new Nimf());   Missing Stats
-//        pokemon.add(new Trusshy());   Missing Stats
-//        pokemon.add(new Dayfly());   Missing Stats
-//        pokemon.add(new Duskito());   Missing Stats
-//        pokemon.add(new Kupal());   Missing Stats
-//        pokemon.add(new Cheervona());   Missing Stats
-//        pokemon.add(new Taracub());   Missing Stats
-//        pokemon.add(new Dentdeleo());   Missing Stats
-//        pokemon.add(new Dandylion());   Missing Stats
-//        pokemon.add(new Cervidear());   Missing Stats
-//        pokemon.add(new Pedenki());   Missing Stats
-//        pokemon.add(new Rasclove());   Missing Stats
-//        pokemon.add(new Inkling());   Missing Stats
-//        pokemon.add(new Inkap());   Missing Stats
-//        pokemon.add(new Inklassy());   Missing Stats
-//        pokemon.add(new Sorrowmin());   Missing Stats
-//        pokemon.add(new Ermourne());   Missing Stats
-//        pokemon.add(new Weepsel());   Missing Stats
-//        pokemon.add(new Magixy());   Missing Stats
-//        pokemon.add(new Magimancy());   Missing Stats
-//        pokemon.add(new Critatter());   Missing Stats
-//        pokemon.add(new Critippet());   Missing Stats
-//        pokemon.add(new Critabard());   Missing Stats
-//        pokemon.add(new Spectung());   Missing Stats
-//        pokemon.add(new Hauntung());   Missing Stats
-//        pokemon.add(new Phantung());   Missing Stats
-//        pokemon.add(new Maluce());   Missing Stats
-//        pokemon.add(new Nitemori());   Missing Stats
-//        pokemon.add(new Llima());   Missing Stats
-//        pokemon.add(new Rocpaca());   Missing Stats
-//        pokemon.add(new Jewellama());   Missing Stats
-//        pokemon.add(new Crovus());   Missing Stats
-//        pokemon.add(new Cawpin());   Missing Stats
-//        pokemon.add(new Flambe());   Missing Stats
-//        pokemon.add(new Fricasheep());   Missing Stats
-//        pokemon.add(new Searies());   Missing Stats
-//        pokemon.add(new Lullamb());   Missing Stats
-//        pokemon.add(new Shleepy());   Missing Stats
-//        pokemon.add(new Mismol());   Missing Stats
-//        pokemon.add(new Hokumol());   Missing Stats
-//        pokemon.add(new Boovine());   Missing Stats
-//        pokemon.add(new Tumblwee());   Missing Stats
-//        pokemon.add(new Jumblweed());   Missing Stats
-//        pokemon.add(new Troublweed());   Missing Stats
-//        pokemon.add(new Poisoma());   Missing Stats
-//        pokemon.add(new Coronatox());   Missing Stats
-//        pokemon.add(new Spuro());   Missing Stats
-//        pokemon.add(new Spurtail());   Missing Stats
-//        pokemon.add(new Walabrume());   Missing Stats
-//        pokemon.add(new Kangarain());   Missing Stats
-//        pokemon.add(new Stormaroo());   Missing Stats
-//        pokemon.add(new Cadavish());   Missing Stats
-//        pokemon.add(new Carcashark());   Missing Stats
-//        pokemon.add(new Shoales());   Missing Stats
-//        pokemon.add(new Palaices());   Missing Stats
-//        pokemon.add(new Dolfun());   Missing Stats
-//        pokemon.add(new Tropiaqua());   Missing Stats
-//        pokemon.add(new Peruna());   Missing Stats
-//        pokemon.add(new Mantill());   Missing Stats
+        pokemon.add(new Bollokin());   
+        pokemon.add(new Flamabull());   
+        pokemon.add(new Audhroch(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Newtiny());   
+        pokemon.add(new Salamarsh());   
+        pokemon.add(new Caudatidal(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Coocun());   
+        pokemon.add(new Cocadeux());   
+        pokemon.add(new Cocatrois(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Pilfur());   
+        pokemon.add(new Pikpossum(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Nimf());   
+        pokemon.add(new Trusshy());   
+        pokemon.add(new Dayfly(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Duskito(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Kupal());   
+        pokemon.add(new Cheervona(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Taracub());   
+        pokemon.add(new Dentdeleo());   
+        pokemon.add(new Dandylion(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Cervidear(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Pedenki(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Rasclove(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Inkling());   
+        pokemon.add(new Inkap());   
+        pokemon.add(new Inklassy(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Sorrowmin());   
+        pokemon.add(new Ermourne());   
+        pokemon.add(new Weepsel(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Magixy());   
+        pokemon.add(new Magimancy(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Critatter());   
+        pokemon.add(new Critippet());   
+        pokemon.add(new Critabard(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Spectung());   
+        pokemon.add(new Hauntung());   
+        pokemon.add(new Phantung(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Maluce());   
+        pokemon.add(new Nitemori(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Llima());   
+        pokemon.add(new Rocpaca());   
+        pokemon.add(new Jewellama(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Crovus());   
+        pokemon.add(new Cawpin(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Flambe());   
+        pokemon.add(new Fricasheep());   
+        pokemon.add(new Searies(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Lullamb());   
+        pokemon.add(new Shleepy(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Mismol());   
+        pokemon.add(new Hokumol(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Boovine(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Tumblwee());   
+        pokemon.add(new Jumblweed());   
+        pokemon.add(new Troublweed(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Poisoma());   
+        pokemon.add(new Coronatox(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Spuro());   
+        pokemon.add(new Spurtail(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Walabrume());   
+        pokemon.add(new Kangarain());   
+        pokemon.add(new Stormaroo(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Cadavish());   
+        pokemon.add(new Carcashark(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Shoales());   
+        pokemon.add(new Palaices(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Dolfun());   
+        pokemon.add(new Tropiaqua(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Peruna(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+//        pokemon.add(new Mantill());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Maneral());   Missing Art
 //        pokemon.add(new Dripem());   Missing Art
 //        pokemon.add(new Blowelt());   Missing Art
@@ -179,14 +213,15 @@ public class Ruskow extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Peroleum());   Missing Art
 //        pokemon.add(new Chafern());   Missing Art
 //        pokemon.add(new Cirgrus());   Missing Art
-//        pokemon.add(new Pavogue());   Missing Stats
+//        pokemon.add(new Pavogue());   
 //        pokemon.add(new Sovynik());   Missing Art
 //        pokemon.add(new Ussernaut());   Missing Art
 //        pokemon.add(new Eetie());   Missing Art
 //        pokemon.add(new Youefo());   Missing Art
-//        pokemon.add(new Catopact());   Missing Stats
-//        pokemon.add(new Spectreflek());   Missing Stats
-//        pokemon.add(new Polterglas());   Missing Stats
+        pokemon.add(new Catopact());   
+        pokemon.add(new Spectreflek());   
+        pokemon.add(new Polterglas(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
 //        pokemon.add(new Sleazer());   Missing Art
 //        pokemon.add(new Plagrusomr());   Missing Art
 //        pokemon.add(new Torspeedo());   Missing Art
@@ -200,14 +235,15 @@ public class Ruskow extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Harlequeen());   Missing Art
 //        pokemon.add(new Teddilite());   Missing Art
 //        pokemon.add(new Bearionette());   Missing Art
-//        pokemon.add(new Oozion());   Missing Stats
-//        pokemon.add(new Gloopzion());   Missing Stats
-//        pokemon.add(new Nomix());   Missing Stats
+        pokemon.add(new Oozion());   
+        pokemon.add(new Gloopzion(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+//        pokemon.add(new Nomix());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Clerix());   Missing Art
 //        pokemon.add(new Sorcerix());   Missing Art
 //        pokemon.add(new Combatix());   Missing Art
 //        pokemon.add(new Bandix());   Missing Art
-//        pokemon.add(new Judodo());   Missing Stats
+//        pokemon.add(new Judodo());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Solotussle());   Missing Art
 //        pokemon.add(new Keewee());   Missing Art
 //        pokemon.add(new Behemoa());   Missing Art

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Ukanlos extends drai.dev.data.pokemon.Pokemon {
-    public Ukanlos() {
+    public Ukanlos(Stats stats) {
         super("Ukanlos",
                 Type.ICE, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

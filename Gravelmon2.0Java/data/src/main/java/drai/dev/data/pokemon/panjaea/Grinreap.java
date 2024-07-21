@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Grinreap extends drai.dev.data.pokemon.Pokemon {
-    public Grinreap() {
+    public Grinreap(Stats stats) {
         super("Grinreap",
                 Type.DARK,
                 new Stats(0,

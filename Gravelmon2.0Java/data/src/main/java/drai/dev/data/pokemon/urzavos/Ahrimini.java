@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Ahrimini extends drai.dev.data.pokemon.Pokemon {
-    public Ahrimini() {
+    public Ahrimini(Stats stats) {
         super("Ahrimini",
                 Type.DARK, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.TINTED_LENS,
                 7, 68,
                 new Stats(0,0,0,0,0,0), 200,

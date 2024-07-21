@@ -73,7 +73,8 @@ public class Seigoni extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("When it sheds one of its spiked cones, it will continue to carry it like a club. It clears out excess plant life from its territory by smashing and uprooting it with its cone."),
-                List.of(),
+                List.of(new EvolutionEntry("seigoxic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FACEPLANT,1),
                         new MoveLearnSetEntry(Move.POISON_POWDER,1),

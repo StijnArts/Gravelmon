@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:venchill",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_venchill",
+      "texture": "cobblemon:textures/pokemon/dhiome/venchill.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/venchill_shiny.png"
+    }
+  ]
+}

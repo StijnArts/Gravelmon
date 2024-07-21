@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Leonet extends drai.dev.data.pokemon.Pokemon {
-    public Leonet() {
+    public Leonet(Stats stats) {
         super("Leonet",
                 Type.ICE, Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.THICK_FAT,Ability.REGENERATOR), Ability.FLUFFY,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

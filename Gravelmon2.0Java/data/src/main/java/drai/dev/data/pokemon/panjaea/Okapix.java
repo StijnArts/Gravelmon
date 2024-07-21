@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Okapix extends drai.dev.data.pokemon.Pokemon {
-    public Okapix() {
+    public Okapix(Stats stats) {
         super("Okapix",
                 Type.FAIRY,
                 new Stats(0,

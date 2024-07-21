@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Colossesar extends drai.dev.data.pokemon.Pokemon {
-    public Colossesar() {
+    public Colossesar(Stats stats) {
         super("Colossesar",
                 Type.FIGHTING,
                 new Stats(0,

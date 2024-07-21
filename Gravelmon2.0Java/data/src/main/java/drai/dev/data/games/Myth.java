@@ -97,9 +97,6 @@ public class Myth extends Game
         pokemon.add(new Caitlit());
         pokemon.add(new Caitfyr());
         pokemon.add(new Blazesidhe());
-        pokemon.add(new Hissiorite());
-        pokemon.add(new Cobarett());
-        pokemon.add(new Pythonova());
         pokemon.add(new Waelin());
         pokemon.add(new Skreychee());
         pokemon.add(new Bindshii());
@@ -113,12 +110,6 @@ public class Myth extends Game
         pokemon.add(new Raccane());
         pokemon.add(new Draccane());
         pokemon.add(new Raccolossus());
-        pokemon.add(new Baulder());
-        pokemon.add(new Dredrock());
-        pokemon.add(new Tekagon());
-        pokemon.add(new Lavee());
-        pokemon.add(new Lavare());
-        pokemon.add(new Lavarator());
         pokemon.add(new Combateon());
         pokemon.add(new Crystaleon());
         pokemon.add(new Toxeon());

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Shockfull extends drai.dev.data.pokemon.Pokemon {
-    public Shockfull() {
+    public Shockfull(Stats stats) {
         super("Shockfull",
                 Type.ELECTRIC, Type.NORMAL,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Wakkabana extends drai.dev.data.pokemon.Pokemon {
-    public Wakkabana() {
+    public Wakkabana(Stats stats) {
         super("Wakkabana",
                 Type.STEEL, Type.ELECTRIC,
                 new Stats(0,

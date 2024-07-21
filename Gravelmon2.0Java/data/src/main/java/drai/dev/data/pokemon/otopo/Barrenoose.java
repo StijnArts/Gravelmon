@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Barrenoose extends drai.dev.data.pokemon.Pokemon {
-    public Barrenoose() {
+    public Barrenoose(Stats stats) {
         super("Barrenoose",
                 Type.FLYING, Type.GROUND,
                 new Stats(0,

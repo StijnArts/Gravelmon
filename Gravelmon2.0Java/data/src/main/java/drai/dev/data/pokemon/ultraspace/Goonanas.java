@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Goonanas extends drai.dev.data.pokemon.Pokemon {
-    public Goonanas() {
+    public Goonanas(Stats stats) {
         super("Goonanas",
                 Type.POISON, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.BEAST_BOOST), Ability.BEAST_BOOST,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

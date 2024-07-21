@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Constellapin extends drai.dev.data.pokemon.Pokemon {
-    public Constellapin() {
+    public Constellapin(Stats stats) {
         super("Constellapin",
                 Type.FAIRY, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 9, 113,
                 new Stats(0,0,0,0,0,0), 60,

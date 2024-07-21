@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Terrainiac extends drai.dev.data.pokemon.Pokemon {
-    public Terrainiac() {
+    public Terrainiac(Stats stats) {
         super("Terrainiac",
                 Type.DARK, Type.GRASS,
                 new Stats(0,

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mander",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:crozoic_mander",
+      "texture": "cobblemon:textures/pokemon/crozoic/mander.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crozoic/mander_shiny.png"
+    }
+  ]
+}

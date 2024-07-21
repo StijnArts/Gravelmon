@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Brimscorch extends drai.dev.data.pokemon.Pokemon {
-    public Brimscorch() {
+    public Brimscorch(Stats stats) {
         super("Brimscorch",
                 Type.FIRE, Type.ROCK,
                 new Stats(0,

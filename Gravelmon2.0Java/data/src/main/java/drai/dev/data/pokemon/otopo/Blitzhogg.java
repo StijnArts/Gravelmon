@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Blitzhogg extends drai.dev.data.pokemon.Pokemon {
-    public Blitzhogg() {
+    public Blitzhogg(Stats stats) {
         super("Blitzhogg",
                 Type.ELECTRIC, Type.GROUND,
                 new Stats(0,

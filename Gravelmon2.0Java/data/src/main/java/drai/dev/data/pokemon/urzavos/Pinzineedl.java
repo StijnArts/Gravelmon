@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Pinzineedl extends drai.dev.data.pokemon.Pokemon {
-    public Pinzineedl() {
+    public Pinzineedl(Stats stats) {
         super("Pinzineedl",
                 Type.GRASS, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.GRASSY_SURGE,Ability.ELECTRIC_SURGE), Ability.COMPETITIVE,
                 11, 399,
                 new Stats(0,0,0,0,0,0), 75,

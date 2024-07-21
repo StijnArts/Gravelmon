@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Heatant extends drai.dev.data.pokemon.Pokemon {
-    public Heatant() {
+    public Heatant(Stats stats) {
         super("Heatant",
                 Type.BUG, Type.FIRE,
                 new Stats(0,

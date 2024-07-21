@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tsunamink extends drai.dev.data.pokemon.Pokemon {
-    public Tsunamink() {
+    public Tsunamink(Stats stats) {
         super("Tsunamink",
                 Type.WATER, Type.ICE,
                 new Stats(0,

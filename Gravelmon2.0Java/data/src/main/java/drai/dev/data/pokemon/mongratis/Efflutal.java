@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Efflutal extends drai.dev.data.pokemon.Pokemon {
-    public Efflutal() {
+    public Efflutal(Stats stats) {
         super("Efflutal",
                 Type.PSYCHIC, Type.FIRE,
                 new Stats(0,

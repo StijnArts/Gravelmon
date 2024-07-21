@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Haebidon extends drai.dev.data.pokemon.Pokemon {
-    public Haebidon() {
+    public Haebidon(Stats stats) {
         super("Haebidon",
                 Type.DRAGON, Type.DARK,
                 new Stats(0,

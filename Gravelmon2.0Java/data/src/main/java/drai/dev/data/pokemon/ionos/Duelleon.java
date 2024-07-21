@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Duelleon extends drai.dev.data.pokemon.Pokemon {
-    public Duelleon() {
+    public Duelleon(Stats stats) {
         super("Duelleon",
                 Type.FIGHTING, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.DEFIANT), Ability.SHEER_FORCE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

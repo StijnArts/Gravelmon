@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class SeltasQueen extends drai.dev.data.pokemon.Pokemon {
-    public SeltasQueen() {
+    public SeltasQueen(Stats stats) {
         super("SeltasQueen",
                 Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

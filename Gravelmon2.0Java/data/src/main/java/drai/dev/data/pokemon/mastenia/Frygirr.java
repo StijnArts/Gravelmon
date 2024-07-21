@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Frygirr extends drai.dev.data.pokemon.Pokemon {
-    public Frygirr() {
+    public Frygirr(Stats stats) {
         super("Frygirr",
                 Type.FIRE, Type.ELECTRIC,
                 new Stats(0,

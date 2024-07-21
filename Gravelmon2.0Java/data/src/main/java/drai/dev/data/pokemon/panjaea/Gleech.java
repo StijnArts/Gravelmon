@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gleech extends drai.dev.data.pokemon.Pokemon {
-    public Gleech() {
+    public Gleech(Stats stats) {
         super("Gleech",
                 Type.BUG,
                 new Stats(0,

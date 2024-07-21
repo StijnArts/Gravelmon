@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Searies extends drai.dev.data.pokemon.Pokemon {
-    public Searies() {
+    public Searies(Stats stats) {
         super("Searies",
                 Type.FIRE,
                 new Stats(0,

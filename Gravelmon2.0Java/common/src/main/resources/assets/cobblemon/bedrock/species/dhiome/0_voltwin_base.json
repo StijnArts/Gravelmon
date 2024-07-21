@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:voltwin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_voltwin",
+      "texture": "cobblemon:textures/pokemon/dhiome/voltwin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/voltwin_shiny.png"
+    }
+  ]
+}

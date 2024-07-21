@@ -3,7 +3,9 @@ package drai.dev.data.games.original;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
+import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.avoris.regional.*;
 import drai.dev.data.pokemon.azure.regional.*;
@@ -33,6 +35,24 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new TheossianCottonee("", Aspect.THEOSSIAN)); TODO
+//        pokemon.add(new TheossianWhimsicott("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianPetilil("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianLilligant("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianDwebble("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianCrustle("", Aspect.THEOSSIAN));
+
+//        pokemon.add(new NodorranOshawott("", Aspect.NODORRAN)); TODO
+//        pokemon.add(new NodorranDewott("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranSamurott("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranFoongus("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranAmoonguss("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranCubchoo("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranBeartic("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranTynamo("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new NodorranEelektrik("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new NodorranEelektross("", Aspect.NODORRAN)); MISSING ART
+
         registerSoulstonesVariants();
 
         pokemon.add(new AfricanusanGothita("", Aspect.AFRICANUSAN));
@@ -202,13 +222,13 @@ public class GenerationFive extends Game {
         pokemon.add(new AyreianVanilluxe("", Aspect.AYREIAN));
 
         //Kaskadian
-        pokemon.add(new KaskadianExcadrill("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianGurdurr("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianConkeldurr("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianSolosis("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianDuosion("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianReuniclus("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianGolett("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianExcadrill("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianGurdurr("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianConkeldurr("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianSolosis("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianDuosion("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianReuniclus("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianGolett("", Aspect.KASKADIAN).setUsesBigModel());
 
         //Azure (Mystic)
         pokemon.add(new MysticSolosis("", Aspect.MYSTIC));

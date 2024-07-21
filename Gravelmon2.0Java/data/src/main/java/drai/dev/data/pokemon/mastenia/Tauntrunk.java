@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tauntrunk extends drai.dev.data.pokemon.Pokemon {
-    public Tauntrunk() {
+    public Tauntrunk(Stats stats) {
         super("Tauntrunk",
                 Type.GROUND, Type.GRASS,
                 new Stats(0,

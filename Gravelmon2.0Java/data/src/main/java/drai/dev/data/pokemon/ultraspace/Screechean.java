@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Screechean extends drai.dev.data.pokemon.Pokemon {
-    public Screechean() {
+    public Screechean(Stats stats) {
         super("Screechean",
                 Type.GHOST, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.BEAST_BOOST), Ability.BEAST_BOOST,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

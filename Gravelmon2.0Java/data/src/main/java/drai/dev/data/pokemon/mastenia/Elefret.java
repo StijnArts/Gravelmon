@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Elefret extends drai.dev.data.pokemon.Pokemon {
-    public Elefret() {
+    public Elefret(Stats stats) {
         super("Elefret",
                 Type.GRASS, Type.FAIRY,
                 new Stats(0,

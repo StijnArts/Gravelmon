@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Knoknok extends drai.dev.data.pokemon.Pokemon {
-    public Knoknok() {
+    public Knoknok(Stats stats) {
         super("Knoknok",
                 Type.STEEL, Type.GHOST,
                 new Stats(0,

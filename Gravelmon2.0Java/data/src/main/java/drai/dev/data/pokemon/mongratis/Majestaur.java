@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Majestaur extends drai.dev.data.pokemon.Pokemon {
-    public Majestaur() {
+    public Majestaur(Stats stats) {
         super("Majestaur",
                 Type.FIGHTING,
                 new Stats(0,

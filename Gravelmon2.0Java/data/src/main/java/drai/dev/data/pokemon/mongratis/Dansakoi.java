@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Dansakoi extends drai.dev.data.pokemon.Pokemon {
-    public Dansakoi() {
+    public Dansakoi(Stats stats) {
         super("Dansakoi",
                 Type.FIGHTING,
                 new Stats(0,

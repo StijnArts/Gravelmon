@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Spinnotaur extends drai.dev.data.pokemon.Pokemon {
-    public Spinnotaur() {
+    public Spinnotaur(Stats stats) {
         super("Spinnotaur",
                 Type.GROUND, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

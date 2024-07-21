@@ -2,7 +2,10 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.africanus.regional.*;
+import drai.dev.data.pokemon.ionos.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
+import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.azure.regional.*;
@@ -37,6 +40,28 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new OlysosianSkorupi("", Aspect.OLYSOSIAN)); Missing Art
+//        pokemon.add(new OlysosianDrapion("", Aspect.OLYSOSIAN)); MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new OlysosianBuneary("", Aspect.OLYSOSIAN)); MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new OlysosianLopunny("", Aspect.OLYSOSIAN)); Missing Art
+
+//        pokemon.add(new TheossianShinx("", Aspect.THEOSSIAN)); TODO
+//        pokemon.add(new TheossianLuxio("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianLuxray("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianCroagunk("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianToxicroak("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianYanmega("", Aspect.THEOSSIAN));
+
+//        pokemon.add(new NodorranChimchar("", Aspect.NODORRAN)); TODO
+//        pokemon.add(new NodorranMonferno("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranInfernape("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranDrifblim("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranDrifloon("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranHippopotas("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranHippowdon("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranProbopass("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranBonsly("", Aspect.NODORRAN));
+
         registerSoulstonesVariants();
 
         pokemon.add(new AfricanusanBronzor("", Aspect.AFRICANUSAN));
@@ -52,7 +77,7 @@ public class GenerationFour extends Game {
 //        pokemon.add(new IonosianShellos(422));   Missing Stats
 //        pokemon.add(new IonosianGastrodon(423));   Missing Art
 //        pokemon.add(new IonosianMimeJr(439));   Missing Art
-//        pokemon.add(new IonosianMunchlax(446));   Missing Stats
+        pokemon.add(new IonosianMunchlax("", Aspect.IONOSIAN));   Missing Stats
 
         pokemon.add(new FligianShellos("", Aspect.FLIGIAN));
         pokemon.add(new FligianGastrodon("", Aspect.FLIGIAN));
@@ -149,14 +174,14 @@ public class GenerationFour extends Game {
         //Kaskadian
         pokemon.add(new KaskadianBidoof("", Aspect.KASKADIAN));
         pokemon.add(new KaskadianBibarel("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianShinx("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianLuxio("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianLuxray("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianAmbipom("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianShinx("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianLuxio("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianLuxray("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianAmbipom("", Aspect.KASKADIAN).setUsesBigModel());
         pokemon.add(new AmazeAllDrifblim("", Aspect.AMAZE_ALL));
-        pokemon.add(new KaskadianSkuntank("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianSnover("", Aspect.KASKADIAN));
-        pokemon.add(new KaskadianAbomasnow("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianSkuntank("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianSnover("", Aspect.KASKADIAN).setUsesBigModel());
+        pokemon.add(new KaskadianAbomasnow("", Aspect.KASKADIAN).setUsesBigModel());
         pokemon.add(new SolRotom("", Aspect.SOL));
         pokemon.add(new SwayRotom("", Aspect.SWAY));
         pokemon.add(new BrawlRotom("", Aspect.BRAWL));

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Coronatox extends drai.dev.data.pokemon.Pokemon {
-    public Coronatox() {
+    public Coronatox(Stats stats) {
         super("Coronatox",
                 Type.POISON, Type.GROUND,
                 new Stats(0,

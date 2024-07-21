@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Punky extends drai.dev.data.pokemon.Pokemon {
-    public Punky() {
+    public Punky(Stats stats) {
         super("Punky",
                 Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.FRISK,Ability.MOXIE), Ability.PRANKSTER,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

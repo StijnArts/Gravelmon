@@ -5,9 +5,7 @@ import drai.dev.data.attributes.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 
@@ -89,6 +87,7 @@ public class Pokemon {
     @Nullable
     private Aspect formAdditionAspect;
     private Game game;
+    private boolean usesBigModel = false;
 
     public Pokemon(String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, double baseScale, double portraitScale, List<PokemonForm> forms) {
         this(name, primaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets, baseScale, portraitScale, forms);
@@ -908,5 +907,15 @@ public class Pokemon {
 
     public void setLearnSet(List<MoveLearnSetEntry> moves){
         this.learnSet = moves;
+    }
+
+    public Pokemon setUsesBigModel() {
+        this.usesBigModel = true;
+//        this.baseScale = baseScale / 4;
+        return  this;
+    }
+
+    public boolean usesBigModel(){
+        return usesBigModel;
     }
 }

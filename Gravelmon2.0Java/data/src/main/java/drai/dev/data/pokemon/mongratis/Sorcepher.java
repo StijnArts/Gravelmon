@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Sorcepher extends drai.dev.data.pokemon.Pokemon {
-    public Sorcepher() {
+    public Sorcepher(Stats stats) {
         super("Sorcepher",
                 Type.PSYCHIC,
                 new Stats(0,

@@ -11,30 +11,30 @@ public class EternalForest extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Smettle());
-        pokemon.add(new Smyucca());
-        pokemon.add(new Demonagave());
-        pokemon.add(new Pachyball());
-        pokemon.add(new Pachyndou());
-        pokemon.add(new Pachyvory());
-        pokemon.add(new Squini());
-        pokemon.add(new Squinja());
-        pokemon.add(new Squartial());
-        pokemon.add(new Wormini());
-        pokemon.add(new Wormeel());
-        pokemon.add(new Malarva());
-        pokemon.add(new Mosdeng());
-        pokemon.add(new Mosboom());
-        pokemon.add(new Antager());
-        pokemon.add(new Antoldier());
-        pokemon.add(new Hamerry());
-        pokemon.add(new Hamysos());
-        pokemon.add(new Goatanaa());
-        pokemon.add(new Goaturly());
-        pokemon.add(new Pomara());
-        pokemon.add(new Dashean());
-        pokemon.add(new Boonny());
-        pokemon.add(new Rabball());
-        pokemon.add(new Lagorite());
+        pokemon.add(new Smettle().setUsesBigModel());
+        pokemon.add(new Smyucca().setUsesBigModel());
+        pokemon.add(new Demonagave().setUsesBigModel());
+        pokemon.add(new Pachyball().setUsesBigModel());
+        pokemon.add(new Pachyndou().setUsesBigModel());
+        pokemon.add(new Pachyvory().setUsesBigModel());
+        pokemon.add(new Squini().setUsesBigModel());
+        pokemon.add(new Squinja().setUsesBigModel());
+        pokemon.add(new Squartial().setUsesBigModel());
+        pokemon.add(new Wormini().setUsesBigModel());
+        pokemon.add(new Wormeel().setUsesBigModel());
+        pokemon.add(new Malarva().setUsesBigModel());
+        pokemon.add(new Mosdeng().setUsesBigModel());
+        pokemon.add(new Mosboom().setUsesBigModel());
+        pokemon.add(new Antager().setUsesBigModel());
+        pokemon.add(new Antoldier().setUsesBigModel());
+        pokemon.add(new Hamerry().setUsesBigModel());
+        pokemon.add(new Hamysos().setUsesBigModel());
+        pokemon.add(new Goatanaa().setUsesBigModel());
+        pokemon.add(new Goaturly().setUsesBigModel());
+        pokemon.add(new Pomara().setUsesBigModel());
+        pokemon.add(new Dashean().setUsesBigModel());
+        pokemon.add(new Boonny().setUsesBigModel());
+        pokemon.add(new Rabball().setUsesBigModel());
+        pokemon.add(new Lagorite().setUsesBigModel());
     }
 }

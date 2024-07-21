@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Octusy extends drai.dev.data.pokemon.Pokemon {
-    public Octusy() {
+    public Octusy(Stats stats) {
         super("Octusy",
                 Type.WATER, Type.FAIRY,
                 new Stats(0,

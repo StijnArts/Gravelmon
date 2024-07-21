@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gluttiny extends drai.dev.data.pokemon.Pokemon {
-    public Gluttiny() {
+    public Gluttiny(Stats stats) {
         super("Gluttiny",
                 Type.DARK, Type.DRAGON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

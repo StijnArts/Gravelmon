@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Morturtle extends drai.dev.data.pokemon.Pokemon {
-    public Morturtle() {
+    public Morturtle(Stats stats) {
         super("Morturtle",
                 Type.GROUND, Type.ROCK,
                 new Stats(0,

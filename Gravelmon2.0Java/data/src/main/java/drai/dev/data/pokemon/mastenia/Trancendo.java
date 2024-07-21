@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Trancendo extends drai.dev.data.pokemon.Pokemon {
-    public Trancendo() {
+    public Trancendo(Stats stats) {
         super("Trancendo",
                 Type.PSYCHIC,
                 new Stats(0,

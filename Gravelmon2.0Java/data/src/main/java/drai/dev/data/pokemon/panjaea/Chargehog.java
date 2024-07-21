@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Chargehog extends drai.dev.data.pokemon.Pokemon {
-    public Chargehog() {
+    public Chargehog(Stats stats) {
         super("Chargehog",
                 Type.ELECTRIC,
                 new Stats(0,

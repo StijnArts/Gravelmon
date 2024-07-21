@@ -182,6 +182,18 @@
       "permanent": true   
  },
     {
+      "id": "eevee_fungeon",
+      "variant": "item_interact",
+      "result": "fungeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "minecraft:red_mushroom",
+      "permanent": true   
+ },
+    {
       "id": "eevee_cefireon",
       "variant": "item_interact",
       "result": "cefireon",
@@ -674,6 +686,11 @@
       },
       {
         "item": "gravelmon:varia_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:red_mushroom",
         "quantityRange": "1-1",
         "percentage": 10
       },

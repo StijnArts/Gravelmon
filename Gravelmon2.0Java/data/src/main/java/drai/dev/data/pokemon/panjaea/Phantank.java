@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Phantank extends drai.dev.data.pokemon.Pokemon {
-    public Phantank() {
+    public Phantank(Stats stats) {
         super("Phantank",
                 Type.WATER, Type.STEEL,
                 new Stats(0,

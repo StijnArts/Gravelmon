@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Chromeleon extends drai.dev.data.pokemon.Pokemon {
-    public Chromeleon() {
+    public Chromeleon(Stats stats) {
         super("Chromeleon",
                 Type.DARK, Type.STEEL,
                 new Stats(0,

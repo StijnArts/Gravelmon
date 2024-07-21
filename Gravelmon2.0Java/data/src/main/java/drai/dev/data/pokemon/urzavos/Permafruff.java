@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Permafruff extends drai.dev.data.pokemon.Pokemon {
-    public Permafruff() {
+    public Permafruff(Stats stats) {
         super("Permafruff",
                 Type.ICE, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 14, 1043,
                 new Stats(0,0,0,0,0,0), 45,

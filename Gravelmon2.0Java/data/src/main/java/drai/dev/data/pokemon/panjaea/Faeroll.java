@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Faeroll extends drai.dev.data.pokemon.Pokemon {
-    public Faeroll() {
+    public Faeroll(Stats stats) {
         super("Faeroll",
                 Type.GROUND, Type.FAIRY,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tuffettry extends drai.dev.data.pokemon.Pokemon {
-    public Tuffettry() {
+    public Tuffettry(Stats stats) {
         super("Tuffettry",
                 Type.NORMAL, Type.FAIRY,
                 new Stats(0,

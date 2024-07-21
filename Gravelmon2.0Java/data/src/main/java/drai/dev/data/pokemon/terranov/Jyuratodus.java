@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Jyuratodus extends drai.dev.data.pokemon.Pokemon {
-    public Jyuratodus() {
+    public Jyuratodus(Stats stats) {
         super("Jyuratodus",
                 Type.WATER, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

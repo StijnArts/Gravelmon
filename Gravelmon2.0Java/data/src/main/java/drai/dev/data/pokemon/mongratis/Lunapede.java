@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Lunapede extends drai.dev.data.pokemon.Pokemon {
-    public Lunapede() {
+    public Lunapede(Stats stats) {
         super("Lunapede",
                 Type.BUG,
                 new Stats(0,

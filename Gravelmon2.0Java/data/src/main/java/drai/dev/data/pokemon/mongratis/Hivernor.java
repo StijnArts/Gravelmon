@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hivernor extends drai.dev.data.pokemon.Pokemon {
-    public Hivernor() {
+    public Hivernor(Stats stats) {
         super("Hivernor",
                 Type.BUG, Type.PSYCHIC,
                 new Stats(0,

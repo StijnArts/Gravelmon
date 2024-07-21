@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Donguana extends drai.dev.data.pokemon.Pokemon {
-    public Donguana() {
+    public Donguana(Stats stats) {
         super("Donguana",
                 Type.DARK, Type.POISON,
                 new Stats(0,

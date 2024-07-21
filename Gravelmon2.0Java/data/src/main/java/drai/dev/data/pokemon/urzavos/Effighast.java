@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Effighast extends drai.dev.data.pokemon.Pokemon {
-    public Effighast() {
+    public Effighast(Stats stats) {
         super("Effighast",
                 Type.GHOST, Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 20, 68,
                 new Stats(0,0,0,0,0,0), 60,

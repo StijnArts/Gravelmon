@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Maraudair extends drai.dev.data.pokemon.Pokemon {
-    public Maraudair() {
+    public Maraudair(Stats stats) {
         super("Maraudair",
                 Type.DARK, Type.FLYING,
                 new Stats(0,

@@ -80,8 +80,6 @@ public class Vanguard extends Game {
         pokemon.add(new Solacor());
         pokemon.add(new Dunmyth());
         pokemon.add(new Dundragon());
-        pokemon.add(new Merlicun());
-        pokemon.add(new Firomenis());
         pokemon.add(new Wolfum());
         pokemon.add(new Supiritto());
         pokemon.add(new Infernadeer());

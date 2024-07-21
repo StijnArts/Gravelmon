@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:polynett",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "dhioman"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_dhiomanpolynett",
+      "texture": "cobblemon:textures/pokemon/atlas/dhiomanpolynett.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dhioman",
+        "shiny"
+      ],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:atlas_dhiomanpolynett",
+      "texture": "cobblemon:textures/pokemon/atlas/dhiomanpolynett_shiny.png",
+      "layers": [
+        {
+          "name": "glow"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "tail"
+        }
+      ]
+    }
+  ]
+}

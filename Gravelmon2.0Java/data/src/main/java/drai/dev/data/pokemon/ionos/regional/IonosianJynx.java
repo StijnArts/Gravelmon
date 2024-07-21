@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class IonosianJynx extends drai.dev.data.pokemon.Pokemon {
-    public IonosianJynx(String name, Aspect aspect) {
+    public IonosianJynx(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Jynx",
                 Type.WATER, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

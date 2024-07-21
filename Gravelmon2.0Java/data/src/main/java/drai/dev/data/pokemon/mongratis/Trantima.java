@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Trantima extends drai.dev.data.pokemon.Pokemon {
-    public Trantima() {
+    public Trantima(Stats stats) {
         super("Trantima",
                 Type.BUG, Type.STEEL,
                 new Stats(0,

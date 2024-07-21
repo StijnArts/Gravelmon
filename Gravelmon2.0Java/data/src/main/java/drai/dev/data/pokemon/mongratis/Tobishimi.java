@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tobishimi extends drai.dev.data.pokemon.Pokemon {
-    public Tobishimi() {
+    public Tobishimi(Stats stats) {
         super("Tobishimi",
                 Type.DRAGON,
                 new Stats(0,

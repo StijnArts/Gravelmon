@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Savagnile extends drai.dev.data.pokemon.Pokemon {
-    public Savagnile() {
+    public Savagnile(Stats stats) {
         super("Savagnile",
                 Type.DARK, Type.WATER,
                 new Stats(0,

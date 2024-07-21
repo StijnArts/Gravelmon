@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Sizzly extends drai.dev.data.pokemon.Pokemon {
-    public Sizzly() {
+    public Sizzly(Stats stats) {
         super("Sizzly",
                 Type.FIRE,
                 new Stats(0,

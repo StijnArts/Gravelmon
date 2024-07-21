@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hogriks extends drai.dev.data.pokemon.Pokemon {
-    public Hogriks() {
+    public Hogriks(Stats stats) {
         super("Hogriks",
                 Type.GROUND, Type.ROCK,
                 new Stats(0,

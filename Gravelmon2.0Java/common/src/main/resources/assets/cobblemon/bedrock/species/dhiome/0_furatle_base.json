@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:furatle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_furatle",
+      "texture": "cobblemon:textures/pokemon/dhiome/furatle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/furatle_shiny.png"
+    }
+  ]
+}

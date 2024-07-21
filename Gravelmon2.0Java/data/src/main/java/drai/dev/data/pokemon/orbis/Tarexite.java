@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tarexite extends drai.dev.data.pokemon.Pokemon {
-    public Tarexite() {
+    public Tarexite(Stats stats) {
         super("Tarexite",
                 Type.GROUND, Type.FIRE,
                 new Stats(0,

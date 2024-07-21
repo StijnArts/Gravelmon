@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Cervidear extends drai.dev.data.pokemon.Pokemon {
-    public Cervidear() {
+    public Cervidear(Stats stats) {
         super("Cervidear",
                 Type.NORMAL,
                 new Stats(0,

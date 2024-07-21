@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Magimancy extends drai.dev.data.pokemon.Pokemon {
-    public Magimancy() {
+    public Magimancy(Stats stats) {
         super("Magimancy",
                 Type.DARK, Type.FAIRY,
                 new Stats(0,

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Plumbee extends drai.dev.data.pokemon.Pokemon {
-    public Plumbee() {
+    public Plumbee(Stats stats) {
         super("Plumbee",
                 Type.BUG, Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.DRY_SKIN), Ability.DRY_SKIN,
                 2, 9,
                 new Stats(0,0,0,0,0,0), 255,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Conferocious extends drai.dev.data.pokemon.Pokemon {
-    public Conferocious() {
+    public Conferocious(Stats stats) {
         super("Conferocious",
                 Type.ROCK, Type.GRASS,
                 new Stats(0,

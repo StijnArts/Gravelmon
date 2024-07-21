@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class IonosianFeraligatr extends drai.dev.data.pokemon.Pokemon {
-    public IonosianFeraligatr(String name, Aspect aspect) {
+    public IonosianFeraligatr(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Feraligatr",
                 Type.WATER, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.TORRENT), Ability.STRONG_JAW,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -2,8 +2,12 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.africanus.regional.*;
+import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
+import drai.dev.data.pokemon.mastenia.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
+import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.aristos.regional.*;
@@ -37,6 +41,36 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new TheossianSunflora("", Aspect.THEOSSIAN)); TODO
+//        pokemon.add(new TheossianSpinarak("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianAriados("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianMareep("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianFlaaffy("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianAmpharos("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianHoppip("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianSkiploom("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianJumpluff("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianMiltank("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianWooper("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianQuagsire("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianHeracross("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianBellossom("", Aspect.THEOSSIAN));
+//        pokemon.add(new TheossianYanma("", Aspect.THEOSSIAN));
+
+//        pokemon.add(new NodorranHoothoot("", Aspect.NODORRAN)); TODO
+//        pokemon.add(new NodorranNoctowl("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranSteelix("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranSudowoodo("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranSunflora("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranTeddiursa("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranUrsaring("", Aspect.NODORRAN));
+
+//        pokemon.add(new MastenianWooper("", Aspect.MASTENIAN)); TODO
+//        pokemon.add(new MastenianChinchou("", Aspect.MASTENIAN));
+//        pokemon.add(new MastenianLanturn("", Aspect.MASTENIAN));
+//        pokemon.add(new MastenianLarvitar("", Aspect.MASTENIAN));
+//        pokemon.add(new MastenianPupitar("", Aspect.MASTENIAN));
+
         registerSoulstonesVariants();
 
         pokemon.add(new AfricanusanSlowking("", Aspect.AFRICANUSAN));
@@ -46,20 +80,23 @@ public class GenerationTwo extends Game {
 //        pokemon.add(new LagoonanRemoraid("", Aspect.LAGOONAN)); TODO
 //        pokemon.add(new LagoonanOctillery("", Aspect.LAGOONAN));
 
-//        pokemon.add(new IonosianBayleef(153));   Missing Stats
-//        pokemon.add(new IonosianMeganium(154));   Missing Stats
-//        pokemon.add(new IonosianCyndaquil(155));   Missing Art
-//        pokemon.add(new IonosianQuilava(156));   Missing Stats
-//        pokemon.add(new IonosianTyphlosion(157));   Missing Stats
-//        pokemon.add(new IonosianTotodile(158));   Missing Stats
-//        pokemon.add(new IonosianCroconaw(159));   Missing Stats
-//        pokemon.add(new IonosianFeraligatr(160));   Missing Stats
-//        pokemon.add(new IonosianNatu(177));   Missing Stats
-//        pokemon.add(new IonosianXatu(178));   Missing Stats
-//        pokemon.add(new IonosianGirafarig(203));   Missing Stats
-//        pokemon.add(new IonosianGranbull(210));   Missing Stats
-//        pokemon.add(new IonosianShuckle(213));   Missing Stats
-//        pokemon.add(new IonosianSmoochum(238));   Missing Stats
+        pokemon.add(new IonosianChikorita("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianBayleef("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianMeganium("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   Missing Stats
+        pokemon.add(new IonosianCyndaquil("", Aspect.IONOSIAN));   Missing Stats //Sprite on desktop
+        pokemon.add(new IonosianQuilava("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianTyphlosion("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   Missing Stats
+        pokemon.add(new IonosianTotodile("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianCroconaw("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianFeraligatr("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   Missing Stats
+        pokemon.add(new IonosianNatu("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianXatu("", Aspect.IONOSIAN,new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   Missing Stats
+        pokemon.add(new IonosianGirafarig("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL,
+                List.of(StatType.SPEED))));   Missing Stats
+//        pokemon.add(new IonosianGranbull("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianShuckle("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL,
+                List.of(StatType.SPEED))));   Missing Stats
+        pokemon.add(new IonosianSmoochum("", Aspect.IONOSIAN));   Missing Stats
 
         pokemon.add(new FligianAipom("Aipom", Aspect.FLIGIAN));
         pokemon.add(new FligianBlissey("Blissey", Aspect.FLIGIAN));

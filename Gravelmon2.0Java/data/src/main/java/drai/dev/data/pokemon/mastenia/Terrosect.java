@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Terrosect extends drai.dev.data.pokemon.Pokemon {
-    public Terrosect() {
+    public Terrosect(Stats stats) {
         super("Terrosect",
                 Type.BUG,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Umbreeze extends drai.dev.data.pokemon.Pokemon {
-    public Umbreeze() {
+    public Umbreeze(Stats stats) {
         super("Umbreeze",
                 Type.FLYING,
                 new Stats(0,

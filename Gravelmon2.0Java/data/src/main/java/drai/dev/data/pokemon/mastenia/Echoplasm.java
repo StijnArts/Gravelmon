@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Echoplasm extends drai.dev.data.pokemon.Pokemon {
-    public Echoplasm() {
+    public Echoplasm(Stats stats) {
         super("Echoplasm",
                 Type.GHOST, Type.ELECTRIC,
                 new Stats(0,

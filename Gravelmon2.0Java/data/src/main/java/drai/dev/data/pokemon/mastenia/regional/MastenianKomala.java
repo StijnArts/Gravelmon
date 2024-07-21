@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class MastenianKomala extends drai.dev.data.pokemon.Pokemon {
-    public MastenianKomala(String name, Aspect aspect) {
+    public MastenianKomala(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Komala",
                 Type.PSYCHIC, Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

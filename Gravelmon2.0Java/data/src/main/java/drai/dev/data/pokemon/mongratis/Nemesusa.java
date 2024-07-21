@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Nemesusa extends drai.dev.data.pokemon.Pokemon {
-    public Nemesusa() {
+    public Nemesusa(Stats stats) {
         super("Nemesusa",
                 Type.DARK, Type.DRAGON,
                 new Stats(0,

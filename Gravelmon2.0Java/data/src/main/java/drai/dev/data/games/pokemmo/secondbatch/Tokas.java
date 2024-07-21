@@ -70,71 +70,71 @@ public class Tokas extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new Frungus());   Missing Stats
-//        pokemon.add(new Mushribbit());   Missing Stats
-//        pokemon.add(new Toadrule());   Missing Stats
-//        pokemon.add(new Oinklit());   Missing Stats
-//        pokemon.add(new Hamferno());   Missing Stats
-//        pokemon.add(new Infernoink());   Missing Stats
-//        pokemon.add(new Bufflow());   Missing Stats
-//        pokemon.add(new Brinalo());   Missing Stats
-//        pokemon.add(new Bisonami());   Missing Stats
-//        pokemon.add(new Trilbin());   Missing Stats
+        pokemon.add(new Frungus());   
+        pokemon.add(new Mushribbit());   
+        pokemon.add(new Toadrule(new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   
+        pokemon.add(new Oinklit());   
+        pokemon.add(new Hamferno());   
+        pokemon.add(new Infernoink(new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   
+        pokemon.add(new Bufflow());   
+        pokemon.add(new Brinalo());   
+        pokemon.add(new Bisonami(new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   
+//        pokemon.add(new Trilbin());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Bintone());   Missing Art
-//        pokemon.add(new Beatrob());   Missing Stats
-//        pokemon.add(new Erliber());   Missing Stats
+//        pokemon.add(new Beatrob());   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Erliber());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Getzawyrm());   Missing Art
-//        pokemon.add(new Nutub());   Missing Stats
-//        pokemon.add(new Bubinuter());   Missing Stats
-//        pokemon.add(new Combee());   Missing Art
-//        pokemon.add(new Vespiquen());   Missing Art
+        pokemon.add(new Nutub());   
+        pokemon.add(new Bubinuter(new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   
+//        pokemon.add(new Combee());   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Vespiquen());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Mortoise());   Missing Art
 //        pokemon.add(new Clunkey());   Missing Art
-//        pokemon.add(new Arachute());   Missing Stats
+//        pokemon.add(new Arachute());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Parachnid());   Missing Art
-//        pokemon.add(new Scuddle());   Missing Stats
+//        pokemon.add(new Scuddle());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Crustancient());   Missing Art
 //        pokemon.add(new Nozlox());   Missing Art
 //        pokemon.add(new Hydrox());   Missing Art
-//        pokemon.add(new Dewmite());   Missing Stats
+//        pokemon.add(new Dewmite());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Fountic());   Missing Art
 //        pokemon.add(new Obstick());   Missing Art
 //        pokemon.add(new Stalkturnal());   Missing Art
-//        pokemon.add(new Walok());   Missing Stats
+//        pokemon.add(new Walok());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Binduga());   Missing Art
-//        pokemon.add(new Gliduki());   Missing Stats
+//        pokemon.add(new Gliduki());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Tukaleap());   Missing Art
 //        pokemon.add(new Cattack());   Missing Art
 //        pokemon.add(new Magby("", Aspect.TOKASSIAN));   Missing Art
 //        pokemon.add(new Magmar("", Aspect.TOKASSIAN));   Missing Art
-//        pokemon.add(new Koroka());   Missing Stats
-//        pokemon.add(new Goroka());   Missing Stats
+        pokemon.add(new Koroka());   
+        pokemon.add(new Goroka(new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   
 //        pokemon.add(new Snoboon());   Missing Art
 //        pokemon.add(new Boonball());   Missing Art
 //        pokemon.add(new Abomboon());   Missing Art
-//        pokemon.add(new Gexom());   Missing Stats
+//        pokemon.add(new Gexom());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Gectidact());   Missing Art
-//        pokemon.add(new Finpin());   Missing Stats
-//        pokemon.add(new Merpin());   Missing Stats
-//        pokemon.add(new Mermace());   Missing Stats
+        pokemon.add(new Finpin());   
+        pokemon.add(new Merpin());   
+        pokemon.add(new Mermace(new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   
 //        pokemon.add(new Aarkweird());   Missing Art
 //        pokemon.add(new Myrmerize());   Missing Art
 //        pokemon.add(new Tamindash());   Missing Art
 //        pokemon.add(new Corozard());   Missing Art
 //        pokemon.add(new Biolazard());   Missing Art
-//        pokemon.add(new Gravelo());   Missing Stats
-//        pokemon.add(new Minerapt());   Missing Stats
-//        pokemon.add(new Outcroptor());   Missing Stats
-//        pokemon.add(new Grebur());   Missing Stats
+        pokemon.add(new Gravelo());   
+        pokemon.add(new Minerapt());   
+        pokemon.add(new Outcroptor(new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   
+//        pokemon.add(new Grebur());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Grebloo());   Missing Art
-//        pokemon.add(new Parazyme());   Missing Stats
-//        pokemon.add(new Cytocite());   Missing Stats
-//        pokemon.add(new Snifflet());   Missing Stats
+        pokemon.add(new Parazyme());   
+        pokemon.add(new Cytocite(new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   
+//        pokemon.add(new Snifflet());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Fridgehog());   Missing Art
 //        pokemon.add(new Iciquill());   Missing Art
-//        pokemon.add(new Gestup());   Missing Stats
+//        pokemon.add(new Gestup());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Phantoll());   Missing Art
-//        pokemon.add(new Springeist());   Missing Stats
+//        pokemon.add(new Springeist());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new 215200());   Missing Art
     }
 

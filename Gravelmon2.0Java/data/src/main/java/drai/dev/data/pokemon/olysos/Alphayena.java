@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Alphayena extends drai.dev.data.pokemon.Pokemon {
-    public Alphayena() {
+    public Alphayena(Stats stats) {
         super("Alphayena",
                 Type.GROUND, Type.FIGHTING,
                 new Stats(0,

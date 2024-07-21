@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gelescent extends drai.dev.data.pokemon.Pokemon {
-    public Gelescent() {
+    public Gelescent(Stats stats) {
         super("Gelescent",
                 Type.BUG, Type.WATER,
                 new Stats(0,

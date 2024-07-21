@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Spurtail extends drai.dev.data.pokemon.Pokemon {
-    public Spurtail() {
+    public Spurtail(Stats stats) {
         super("Spurtail",
                 Type.ELECTRIC,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Majestrill extends drai.dev.data.pokemon.Pokemon {
-    public Majestrill() {
+    public Majestrill(Stats stats) {
         super("Majestrill",
                 Type.WATER,
                 new Stats(0,

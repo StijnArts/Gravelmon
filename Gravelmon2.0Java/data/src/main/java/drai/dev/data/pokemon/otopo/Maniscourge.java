@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Maniscourge extends drai.dev.data.pokemon.Pokemon {
-    public Maniscourge() {
+    public Maniscourge(Stats stats) {
         super("Maniscourge",
                 Type.DARK, Type.POISON,
                 new Stats(0,

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:primorse",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_primorse",
+      "texture": "cobblemon:textures/pokemon/dhiome/primorse.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/primorse_shiny.png"
+    }
+  ]
+}

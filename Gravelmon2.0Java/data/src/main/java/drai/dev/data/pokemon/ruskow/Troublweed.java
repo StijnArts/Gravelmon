@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Troublweed extends drai.dev.data.pokemon.Pokemon {
-    public Troublweed() {
+    public Troublweed(Stats stats) {
         super("Troublweed",
                 Type.GROUND, Type.GRASS,
                 new Stats(0,

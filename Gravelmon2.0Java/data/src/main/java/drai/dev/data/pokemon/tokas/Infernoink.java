@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Infernoink extends drai.dev.data.pokemon.Pokemon {
-    public Infernoink() {
+    public Infernoink(Stats stats) {
         super("Infernoink",
                 Type.FIRE, Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.THICK_FAT), Ability.THICK_FAT,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

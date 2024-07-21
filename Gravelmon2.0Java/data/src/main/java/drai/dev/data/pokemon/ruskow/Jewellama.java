@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Jewellama extends drai.dev.data.pokemon.Pokemon {
-    public Jewellama() {
+    public Jewellama(Stats stats) {
         super("Jewellama",
                 Type.ROCK,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Fluffury extends drai.dev.data.pokemon.Pokemon {
-    public Fluffury() {
+    public Fluffury(Stats stats) {
         super("Fluffury",
                 Type.NORMAL, Type.FIRE,
                 new Stats(0,

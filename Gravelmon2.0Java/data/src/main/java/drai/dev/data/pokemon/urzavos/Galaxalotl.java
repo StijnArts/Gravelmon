@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Galaxalotl extends drai.dev.data.pokemon.Pokemon {
-    public Galaxalotl() {
+    public Galaxalotl(Stats stats) {
         super("Galaxalotl",
                 Type.FIRE, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.BLAZE), Ability.BLAZE,
                 22, 2177,
                 new Stats(0,0,0,0,0,0), 45,

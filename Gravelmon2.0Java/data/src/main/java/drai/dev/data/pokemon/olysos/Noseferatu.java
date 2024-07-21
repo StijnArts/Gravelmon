@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Noseferatu extends drai.dev.data.pokemon.Pokemon {
-    public Noseferatu() {
+    public Noseferatu(Stats stats) {
         super("Noseferatu",
                 Type.POISON, Type.FLYING,
                 new Stats(0,

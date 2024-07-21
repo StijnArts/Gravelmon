@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Clodiva extends drai.dev.data.pokemon.Pokemon {
-    public Clodiva() {
+    public Clodiva(Stats stats) {
         super("Clodiva",
                 Type.GRASS,
                 new Stats(0,

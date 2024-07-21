@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Caudatidal extends drai.dev.data.pokemon.Pokemon {
-    public Caudatidal() {
+    public Caudatidal(Stats stats) {
         super("Caudatidal",
                 Type.WATER, Type.POISON,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Dandylion extends drai.dev.data.pokemon.Pokemon {
-    public Dandylion() {
+    public Dandylion(Stats stats) {
         super("Dandylion",
                 Type.GRASS,
                 new Stats(0,

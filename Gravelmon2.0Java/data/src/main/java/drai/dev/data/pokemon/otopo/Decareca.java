@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Decareca extends drai.dev.data.pokemon.Pokemon {
-    public Decareca() {
+    public Decareca(Stats stats) {
         super("Decareca",
                 Type.WATER, Type.GRASS,
                 new Stats(0,

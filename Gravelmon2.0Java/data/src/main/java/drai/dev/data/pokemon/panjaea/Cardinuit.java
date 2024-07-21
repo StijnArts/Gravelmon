@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Cardinuit extends drai.dev.data.pokemon.Pokemon {
-    public Cardinuit() {
+    public Cardinuit(Stats stats) {
         super("Cardinuit",
                 Type.DARK, Type.FLYING,
                 new Stats(0,

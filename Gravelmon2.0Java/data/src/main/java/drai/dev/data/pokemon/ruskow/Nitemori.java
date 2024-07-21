@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Nitemori extends drai.dev.data.pokemon.Pokemon {
-    public Nitemori() {
+    public Nitemori(Stats stats) {
         super("Nitemori",
                 Type.DARK, Type.FLYING,
                 new Stats(0,

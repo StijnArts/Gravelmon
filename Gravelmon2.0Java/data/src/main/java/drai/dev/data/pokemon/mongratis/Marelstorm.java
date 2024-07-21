@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Marelstorm extends drai.dev.data.pokemon.Pokemon {
-    public Marelstorm() {
+    public Marelstorm(Stats stats) {
         super("Marelstorm",
                 Type.WATER, Type.STEEL,
                 new Stats(0,

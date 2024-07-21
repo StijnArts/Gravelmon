@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mollusciron extends drai.dev.data.pokemon.Pokemon {
-    public Mollusciron() {
+    public Mollusciron(Stats stats) {
         super("Mollusciron",
                 Type.STEEL, Type.POISON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

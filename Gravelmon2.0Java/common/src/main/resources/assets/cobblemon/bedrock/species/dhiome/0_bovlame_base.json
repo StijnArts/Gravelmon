@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bovlame",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_bovlame",
+      "texture": "cobblemon:textures/pokemon/dhiome/bovlame.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/bovlame_shiny.png"
+    }
+  ]
+}

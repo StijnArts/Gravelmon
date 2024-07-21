@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Ramster extends drai.dev.data.pokemon.Pokemon {
-    public Ramster() {
+    public Ramster(Stats stats) {
         super("Ramster",
                 Type.GROUND,
                 new Stats(0,

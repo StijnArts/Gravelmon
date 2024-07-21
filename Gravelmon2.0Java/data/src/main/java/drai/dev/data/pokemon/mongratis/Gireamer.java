@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gireamer extends drai.dev.data.pokemon.Pokemon {
-    public Gireamer() {
+    public Gireamer(Stats stats) {
         super("Gireamer",
                 Type.PSYCHIC, Type.NORMAL,
                 new Stats(0,

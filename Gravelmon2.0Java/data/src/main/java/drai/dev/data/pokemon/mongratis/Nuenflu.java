@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Nuenflu extends drai.dev.data.pokemon.Pokemon {
-    public Nuenflu() {
+    public Nuenflu(Stats stats) {
         super("Nuenflu",
                 Type.NORMAL, Type.ICE,
                 new Stats(0,

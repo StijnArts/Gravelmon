@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Oppwold extends drai.dev.data.pokemon.Pokemon {
-    public Oppwold() {
+    public Oppwold(Stats stats) {
         super("Oppwold",
                 Type.GRASS, Type.STEEL,
                 new Stats(0,

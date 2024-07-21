@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nebulent",
-  "nationalPokedexNumber": 1472,
+  "nationalPokedexNumber": 1498,
   "primaryType": "poison",
   "abilities": [
     "shedskin",
@@ -118,6 +118,20 @@
       "learnableMoves": [],
       "requirements": [
 
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "nebulent_draligne",
+      "variant": "level_up",
+      "result": "draligne",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
       ],
       "permanent": true   
  }

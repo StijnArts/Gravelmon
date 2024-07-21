@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Peaknighted extends drai.dev.data.pokemon.Pokemon {
-    public Peaknighted() {
+    public Peaknighted(Stats stats) {
         super("Peaknighted",
                 Type.PSYCHIC, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.UNNERVE,Ability.RIVALRY), Ability.BIG_PECKS,
                 18, 953,
                 new Stats(0,0,0,0,0,0), 45,

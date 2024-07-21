@@ -121,8 +121,8 @@ public class AdditionalFormAssetsJSONWriter {
                         shinyFemaleVariation.add("texture", new JsonPrimitive("cobblemon:textures/pokemon/" + game.getName().toLowerCase() + "/" + pokemon.getCleanName() + "_female_shiny.png"));
                         regularFemaleVariation.add("layers", new JsonArray(0));
                         shinyFemaleVariation.add("layers", new JsonArray(0));
-                        createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_female.png", resourcesDir);
-                        createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_female_shiny.png", resourcesDir);
+                        createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_female.png", resourcesDir, pokemon.usesBigModel());
+                        createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_female_shiny.png", resourcesDir, pokemon.usesBigModel());
                     }
 //                    for (PokemonForm form : pokemon.getForms()) {
 //                        if (!pokemon.isModeled()) {
@@ -192,8 +192,8 @@ public class AdditionalFormAssetsJSONWriter {
                     BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + aspect + ".json"));
                     writer.write(gson.toJson(fileContents));
                     writer.close();
-                    createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + ".png", resourcesDir);
-                    createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_shiny.png", resourcesDir);
+                    createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + ".png", resourcesDir, pokemon.usesBigModel());
+                    createPlaceholderTextureIfNotExists(game.getName().toLowerCase(), pokemon.getCleanName() + "_shiny.png", resourcesDir, pokemon.usesBigModel());
 
                 }
             }

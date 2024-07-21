@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Bisonami extends drai.dev.data.pokemon.Pokemon {
-    public Bisonami() {
+    public Bisonami(Stats stats) {
         super("Bisonami",
                 Type.WATER, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

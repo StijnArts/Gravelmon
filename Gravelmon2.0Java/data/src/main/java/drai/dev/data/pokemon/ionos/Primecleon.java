@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Primecleon extends drai.dev.data.pokemon.Pokemon {
-    public Primecleon() {
+    public Primecleon(Stats stats) {
         super("Primecleon",
                 Type.ROCK, Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.COLOR_CHANGE), Ability.PROTEAN,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

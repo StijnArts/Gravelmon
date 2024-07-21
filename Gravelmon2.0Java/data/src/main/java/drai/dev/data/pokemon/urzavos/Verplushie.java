@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Verplushie extends drai.dev.data.pokemon.Pokemon {
-    public Verplushie() {
+    public Verplushie(Stats stats) {
         super("Verplushie",
                 Type.NORMAL, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 5, 45,
                 new Stats(0,0,0,0,0,0), 80,

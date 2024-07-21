@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gaiaminth extends drai.dev.data.pokemon.Pokemon {
-    public Gaiaminth() {
+    public Gaiaminth(Stats stats) {
         super("Gaiaminth",
                 Type.GROUND, Type.ROCK,
                 new Stats(0,

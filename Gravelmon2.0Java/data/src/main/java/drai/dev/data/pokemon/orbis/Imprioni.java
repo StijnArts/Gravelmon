@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Imprioni extends drai.dev.data.pokemon.Pokemon {
-    public Imprioni() {
+    public Imprioni(Stats stats) {
         super("Imprioni",
                 Type.WATER, Type.GHOST,
                 new Stats(0,

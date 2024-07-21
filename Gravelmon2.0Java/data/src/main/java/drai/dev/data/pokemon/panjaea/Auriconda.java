@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Auriconda extends drai.dev.data.pokemon.Pokemon {
-    public Auriconda() {
+    public Auriconda(Stats stats) {
         super("Auriconda",
                 Type.STEEL, Type.POISON,
                 new Stats(0,

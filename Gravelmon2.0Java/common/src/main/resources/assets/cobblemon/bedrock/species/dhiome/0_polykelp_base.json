@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:polykelp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_polykelp",
+      "texture": "cobblemon:textures/pokemon/dhiome/polykelp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/polykelp_shiny.png"
+    }
+  ]
+}

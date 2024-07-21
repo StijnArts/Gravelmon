@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Critabard extends drai.dev.data.pokemon.Pokemon {
-    public Critabard() {
+    public Critabard(Stats stats) {
         super("Critabard",
                 Type.DARK, Type.FIGHTING,
                 new Stats(0,

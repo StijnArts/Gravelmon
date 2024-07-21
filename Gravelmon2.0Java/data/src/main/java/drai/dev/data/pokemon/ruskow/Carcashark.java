@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Carcashark extends drai.dev.data.pokemon.Pokemon {
-    public Carcashark() {
+    public Carcashark(Stats stats) {
         super("Carcashark",
                 Type.WATER, Type.DARK,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mallowisp extends drai.dev.data.pokemon.Pokemon {
-    public Mallowisp() {
+    public Mallowisp(Stats stats) {
         super("Mallowisp",
                 Type.GHOST, Type.FIRE,
                 new Stats(0,

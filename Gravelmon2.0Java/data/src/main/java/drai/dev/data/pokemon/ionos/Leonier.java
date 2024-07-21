@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Leonier extends drai.dev.data.pokemon.Pokemon {
-    public Leonier() {
+    public Leonier(Stats stats) {
         super("Leonier",
                 Type.WATER, Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.THICK_FAT,Ability.GLUTTONY), Ability.FLUFFY,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

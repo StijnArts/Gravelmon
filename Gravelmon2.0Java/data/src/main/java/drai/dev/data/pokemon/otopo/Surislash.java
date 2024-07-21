@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Surislash extends drai.dev.data.pokemon.Pokemon {
-    public Surislash() {
+    public Surislash(Stats stats) {
         super("Surislash",
                 Type.GROUND,
                 new Stats(0,

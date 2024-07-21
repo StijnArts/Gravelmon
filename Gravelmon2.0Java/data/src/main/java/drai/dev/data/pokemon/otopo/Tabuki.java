@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tabuki extends drai.dev.data.pokemon.Pokemon {
-    public Tabuki() {
+    public Tabuki(Stats stats) {
         super("Tabuki",
                 Type.DARK,
                 new Stats(0,

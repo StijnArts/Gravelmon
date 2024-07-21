@@ -241,7 +241,7 @@ public class Atlas extends drai.dev.data.games.registry.Game {
         pokemon.add(new Needoon());
         pokemon.add(new Needella());
         pokemon.add(new Polynett());
-//        pokemon.add(new DhiomanPolynett());Member of line Not Finished
+        pokemon.add(new DhiomanPolynett("", Aspect.DHIOMAN));
         pokemon.add(new Polyzap());
         pokemon.add(new Jollancer());
         pokemon.add(new Krillzaingel());

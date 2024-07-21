@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Pedenki extends drai.dev.data.pokemon.Pokemon {
-    public Pedenki() {
+    public Pedenki(Stats stats) {
         super("Pedenki",
                 Type.ELECTRIC,
                 new Stats(0,

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cropiki",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_cropiki",
+      "texture": "cobblemon:textures/pokemon/dhiome/cropiki.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/cropiki_shiny.png"
+    }
+  ]
+}

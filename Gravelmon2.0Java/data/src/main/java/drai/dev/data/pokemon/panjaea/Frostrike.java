@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Frostrike extends drai.dev.data.pokemon.Pokemon {
-    public Frostrike() {
+    public Frostrike(Stats stats) {
         super("Frostrike",
                 Type.ICE, Type.FIGHTING,
                 new Stats(0,

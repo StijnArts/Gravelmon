@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gonut extends drai.dev.data.pokemon.Pokemon {
-    public Gonut() {
+    public Gonut(Stats stats) {
         super("Gonut",
                 Type.ROCK, Type.PSYCHIC,
                 new Stats(0,

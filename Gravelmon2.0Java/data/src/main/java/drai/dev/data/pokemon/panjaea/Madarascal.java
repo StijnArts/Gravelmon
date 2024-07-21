@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Madarascal extends drai.dev.data.pokemon.Pokemon {
-    public Madarascal() {
+    public Madarascal(Stats stats) {
         super("Madarascal",
                 Type.GRASS, Type.DARK,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Crucibat extends drai.dev.data.pokemon.Pokemon {
-    public Crucibat() {
+    public Crucibat(Stats stats) {
         super("Crucibat",
                 Type.FIRE, Type.ROCK,
                 new Stats(0,

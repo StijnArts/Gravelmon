@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Terraor extends drai.dev.data.pokemon.Pokemon {
-    public Terraor() {
+    public Terraor(Stats stats) {
         super("Terraor",
                 Type.FIRE, Type.GHOST,
                 new Stats(0,

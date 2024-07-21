@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Planktarges extends drai.dev.data.pokemon.Pokemon {
-    public Planktarges() {
+    public Planktarges(Stats stats) {
         super("Planktarges",
                 Type.WATER, Type.FAIRY,
                 new Stats(0,

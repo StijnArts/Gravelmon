@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Moocean extends drai.dev.data.pokemon.Pokemon {
-    public Moocean() {
+    public Moocean(Stats stats) {
         super("Moocean",
                 Type.WATER, Type.FAIRY,
                 new Stats(0,

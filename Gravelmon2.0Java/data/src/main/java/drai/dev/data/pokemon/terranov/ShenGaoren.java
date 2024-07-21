@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class ShenGaoren extends drai.dev.data.pokemon.Pokemon {
-    public ShenGaoren() {
+    public ShenGaoren(Stats stats) {
         super("ShenGaoren",
                 Type.BUG, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -6,6 +6,7 @@ import drai.dev.data.pokemon.ottora.*;
 import drai.dev.data.pokemon.amavi.*;
 import drai.dev.data.pokemon.dhiome.*;
 import drai.dev.data.pokemon.mushi.*;
+import drai.dev.data.pokemon.ottora.regional.*;
 import drai.dev.data.pokemon.theos.*;
 import drai.dev.data.pokemon.kuria.*;
 import drai.dev.data.pokemon.ottora.*;
@@ -63,6 +64,8 @@ import drai.dev.data.pokemon.chaosinvestia.regional.*;
 import drai.dev.data.pokemon.soulstones.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 
+import java.util.*;
+
 public class Ottora extends drai.dev.data.games.registry.Game {
     public Ottora() {
         super("Ottora");
@@ -70,6 +73,9 @@ public class Ottora extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new OttoranHonedge("", Aspect.OTTORAN));
+        pokemon.add(new OttoranDoublade("", Aspect.OTTORAN));
+
         pokemon.add(new Hopling());
         pokemon.add(new Bunbush());
         pokemon.add(new Inflagulo());
@@ -89,26 +95,29 @@ public class Ottora extends drai.dev.data.games.registry.Game {
         pokemon.add(new Finook());
         pokemon.add(new Aubat());
         pokemon.add(new Dustbun());
-//        pokemon.add(new Levieon());   Missing Stats
-//        pokemon.add(new Duneon());   Missing Stats
-//        pokemon.add(new Sporita());   Missing Stats
-//        pokemon.add(new Doznale());   Missing Stats
-//        pokemon.add(new Impidimp(859));   Missing Stats
-//        pokemon.add(new Fawnt());   Missing Stats
-//        pokemon.add(new Salfurrr());   Missing Stats
-//        pokemon.add(new Specture());   Missing Stats
-//        pokemon.add(new Pidunce());   Missing Stats
-//        pokemon.add(new Minmallow());   Missing Stats
-//        pokemon.add(new Netyke());   Missing Stats
-//        pokemon.add(new Disix());   Missing Stats
-//        pokemon.add(new Diielve());   Missing Stats
-//        pokemon.add(new Giiem());   Missing Stats
-//        pokemon.add(new Howltlaw());   Missing Stats
-//        pokemon.add(new Honedge(679));   Missing Stats
-//        pokemon.add(new Doublade(680));   Missing Stats
-//        pokemon.add(new Aegistump());   Missing Stats
-//        pokemon.add(new Chainslash());   Missing Stats
-//        pokemon.add(new Copurr());   Missing Stats
+        pokemon.add(new Levieon(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   Missing Stats
+        pokemon.add(new Duneon(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   Missing Stats
+//        pokemon.add(new Sporita());   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Doznale());   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Impidimp(859));   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Fawnt());   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Salfurrr());   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Specture());   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Pidunce());   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Minmallow());   MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new Netyke());   MEMBER OF LINE NOT FINISHED
+        pokemon.add(new Disix());   Missing Stats
+        pokemon.add(new Diielve());   Missing Stats
+        pokemon.add(new Giiem());   Missing Stats
+        pokemon.add(new Howltlaw());   Missing Stats
+        pokemon.add(new Aegistump(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   Missing Stats
+        pokemon.add(new Chainslash(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   Missing Stats
+        pokemon.add(new Copurr(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   Missing Stats
     }
 
 }

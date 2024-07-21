@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Oscillacone extends drai.dev.data.pokemon.Pokemon {
-    public Oscillacone() {
+    public Oscillacone(Stats stats) {
         super("Oscillacone",
                 Type.ELECTRIC, Type.STEEL,
                 new Stats(0,

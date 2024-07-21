@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Strickhen extends drai.dev.data.pokemon.Pokemon {
-    public Strickhen() {
+    public Strickhen(Stats stats) {
         super("Strickhen",
                 Type.FIGHTING, Type.FLYING,
                 new Stats(0,

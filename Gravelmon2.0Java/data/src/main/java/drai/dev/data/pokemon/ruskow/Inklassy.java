@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Inklassy extends drai.dev.data.pokemon.Pokemon {
-    public Inklassy() {
+    public Inklassy(Stats stats) {
         super("Inklassy",
                 Type.POISON, Type.FAIRY,
                 new Stats(0,

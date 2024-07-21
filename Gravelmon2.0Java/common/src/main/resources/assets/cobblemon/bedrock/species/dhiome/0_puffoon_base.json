@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:puffoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_puffoon",
+      "texture": "cobblemon:textures/pokemon/dhiome/puffoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/puffoon_shiny.png"
+    }
+  ]
+}

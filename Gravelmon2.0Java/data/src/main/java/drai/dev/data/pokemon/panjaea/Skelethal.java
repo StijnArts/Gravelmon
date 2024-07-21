@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Skelethal extends drai.dev.data.pokemon.Pokemon {
-    public Skelethal() {
+    public Skelethal(Stats stats) {
         super("Skelethal",
                 Type.POISON, Type.FLYING,
                 new Stats(0,

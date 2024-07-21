@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Huskules extends drai.dev.data.pokemon.Pokemon {
-    public Huskules() {
+    public Huskules(Stats stats) {
         super("Huskules",
                 Type.NORMAL,
                 new Stats(0,

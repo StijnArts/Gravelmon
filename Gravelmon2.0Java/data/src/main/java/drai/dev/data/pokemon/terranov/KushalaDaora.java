@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class KushalaDaora extends drai.dev.data.pokemon.Pokemon {
-    public KushalaDaora() {
+    public KushalaDaora(Stats stats) {
         super("KushalaDaora",
                 Type.FLYING, Type.DRAGON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.STEELY_SPIRIT), Ability.STEELY_SPIRIT,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

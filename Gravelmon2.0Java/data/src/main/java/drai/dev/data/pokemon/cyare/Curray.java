@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Curray extends drai.dev.data.pokemon.Pokemon {
-    public Curray() {
+    public Curray(Stats stats) {
         super("Curray",
                 Type.ELECTRIC,
                 new Stats(0,

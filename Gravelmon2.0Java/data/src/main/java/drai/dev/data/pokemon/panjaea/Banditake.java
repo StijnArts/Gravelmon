@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Banditake extends drai.dev.data.pokemon.Pokemon {
-    public Banditake() {
+    public Banditake(Stats stats) {
         super("Banditake",
                 Type.GRASS, Type.ROCK,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tentarule extends drai.dev.data.pokemon.Pokemon {
-    public Tentarule() {
+    public Tentarule(Stats stats) {
         super("Tentarule",
                 Type.PSYCHIC, Type.WATER,
                 new Stats(0,

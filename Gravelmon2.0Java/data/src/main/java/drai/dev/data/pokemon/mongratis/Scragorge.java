@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Scragorge extends drai.dev.data.pokemon.Pokemon {
-    public Scragorge() {
+    public Scragorge(Stats stats) {
         super("Scragorge",
                 Type.GROUND, Type.DRAGON,
                 new Stats(0,

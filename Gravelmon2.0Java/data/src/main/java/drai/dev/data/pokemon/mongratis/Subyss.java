@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Subyss extends drai.dev.data.pokemon.Pokemon {
-    public Subyss() {
+    public Subyss(Stats stats) {
         super("Subyss",
                 Type.GHOST, Type.WATER,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Wyntry extends drai.dev.data.pokemon.Pokemon {
-    public Wyntry() {
+    public Wyntry(Stats stats) {
         super("Wyntry",
                 Type.ICE, Type.BUG,
                 new Stats(0,

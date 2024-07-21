@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Chrysurge extends drai.dev.data.pokemon.Pokemon {
-    public Chrysurge() {
+    public Chrysurge(Stats stats) {
         super("Chrysurge",
                 Type.ELECTRIC, Type.FIGHTING,
                 new Stats(0,

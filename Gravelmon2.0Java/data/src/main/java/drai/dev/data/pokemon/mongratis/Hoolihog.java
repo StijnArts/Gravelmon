@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hoolihog extends drai.dev.data.pokemon.Pokemon {
-    public Hoolihog() {
+    public Hoolihog(Stats stats) {
         super("Hoolihog",
                 Type.DARK,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Forbiddron extends drai.dev.data.pokemon.Pokemon {
-    public Forbiddron() {
+    public Forbiddron(Stats stats) {
         super("Forbiddron",
                 Type.POISON, Type.GHOST,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gloopzion extends drai.dev.data.pokemon.Pokemon {
-    public Gloopzion() {
+    public Gloopzion(Stats stats) {
         super("Gloopzion",
                 Type.POISON,
                 new Stats(0,

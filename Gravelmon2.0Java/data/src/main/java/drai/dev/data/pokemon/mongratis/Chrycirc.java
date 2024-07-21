@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Chrycirc extends drai.dev.data.pokemon.Pokemon {
-    public Chrycirc() {
+    public Chrycirc(Stats stats) {
         super("Chrycirc",
                 Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(0,

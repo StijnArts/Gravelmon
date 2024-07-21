@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Roogilist extends drai.dev.data.pokemon.Pokemon {
-    public Roogilist() {
+    public Roogilist(Stats stats) {
         super("Roogilist",
                 Type.NORMAL, Type.FIGHTING,
                 new Stats(0,

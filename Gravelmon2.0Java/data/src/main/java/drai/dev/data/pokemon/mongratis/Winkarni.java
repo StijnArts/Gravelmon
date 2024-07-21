@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Winkarni extends drai.dev.data.pokemon.Pokemon {
-    public Winkarni() {
+    public Winkarni(Stats stats) {
         super("Winkarni",
                 Type.POISON, Type.PSYCHIC,
                 new Stats(0,

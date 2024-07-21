@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Scruffian extends drai.dev.data.pokemon.Pokemon {
-    public Scruffian() {
+    public Scruffian(Stats stats) {
         super("Scruffian",
                 Type.DARK, Type.POISON,
                 new Stats(0,

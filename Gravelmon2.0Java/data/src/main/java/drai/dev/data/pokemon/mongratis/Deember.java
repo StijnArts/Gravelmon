@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Deember extends drai.dev.data.pokemon.Pokemon {
-    public Deember() {
+    public Deember(Stats stats) {
         super("Deember",
                 Type.FIRE, Type.LIGHT,
                 new Stats(0,

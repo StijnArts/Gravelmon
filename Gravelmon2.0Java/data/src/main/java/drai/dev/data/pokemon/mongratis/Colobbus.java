@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Colobbus extends drai.dev.data.pokemon.Pokemon {
-    public Colobbus() {
+    public Colobbus(Stats stats) {
         super("Colobbus",
                 Type.ROCK, Type.FIGHTING,
                 new Stats(0,

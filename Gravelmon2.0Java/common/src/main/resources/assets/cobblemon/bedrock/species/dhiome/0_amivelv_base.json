@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:amivelv",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_amivelv",
+      "texture": "cobblemon:textures/pokemon/dhiome/amivelv.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/amivelv_shiny.png"
+    }
+  ]
+}

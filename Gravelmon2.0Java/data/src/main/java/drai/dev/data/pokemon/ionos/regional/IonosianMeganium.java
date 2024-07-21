@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class IonosianMeganium extends drai.dev.data.pokemon.Pokemon {
-    public IonosianMeganium(String name, Aspect aspect) {
+    public IonosianMeganium(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Meganium",
                 Type.GRASS, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.OVERGROW), Ability.SAND_VEIL,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

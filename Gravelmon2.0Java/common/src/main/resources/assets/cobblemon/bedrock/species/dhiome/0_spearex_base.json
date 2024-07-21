@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:spearex",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_spearex",
+      "texture": "cobblemon:textures/pokemon/dhiome/spearex.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/spearex_shiny.png"
+    }
+  ]
+}

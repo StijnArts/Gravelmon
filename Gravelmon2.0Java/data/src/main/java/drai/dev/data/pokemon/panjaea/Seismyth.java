@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Seismyth extends drai.dev.data.pokemon.Pokemon {
-    public Seismyth() {
+    public Seismyth(Stats stats) {
         super("Seismyth",
                 Type.GROUND, Type.FLYING,
                 new Stats(0,

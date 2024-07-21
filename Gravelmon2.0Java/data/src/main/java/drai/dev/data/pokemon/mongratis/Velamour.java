@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Velamour extends drai.dev.data.pokemon.Pokemon {
-    public Velamour() {
+    public Velamour(Stats stats) {
         super("Velamour",
                 Type.FAIRY,
                 new Stats(0,

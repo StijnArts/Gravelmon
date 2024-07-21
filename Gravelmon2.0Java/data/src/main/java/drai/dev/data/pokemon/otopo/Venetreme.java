@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Venetreme extends drai.dev.data.pokemon.Pokemon {
-    public Venetreme() {
+    public Venetreme(Stats stats) {
         super("Venetreme",
                 Type.POISON,
                 new Stats(0,

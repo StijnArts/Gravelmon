@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Pikpossum extends drai.dev.data.pokemon.Pokemon {
-    public Pikpossum() {
+    public Pikpossum(Stats stats) {
         super("Pikpossum",
                 Type.DARK,
                 new Stats(0,

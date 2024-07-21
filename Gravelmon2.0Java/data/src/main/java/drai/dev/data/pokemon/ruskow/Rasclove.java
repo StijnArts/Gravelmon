@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Rasclove extends drai.dev.data.pokemon.Pokemon {
-    public Rasclove() {
+    public Rasclove(Stats stats) {
         super("Rasclove",
                 Type.NORMAL, Type.GRASS,
                 new Stats(0,

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:belyad",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_belyad",
+      "texture": "cobblemon:textures/pokemon/dhiome/belyad.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/belyad_shiny.png"
+    }
+  ]
+}

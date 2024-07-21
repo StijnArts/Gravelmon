@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Thounder extends drai.dev.data.pokemon.Pokemon {
-    public Thounder() {
+    public Thounder(Stats stats) {
         super("Thounder",
                 Type.ELECTRIC, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 17, 748,
                 new Stats(0,0,0,0,0,0), 45,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Stalagator extends drai.dev.data.pokemon.Pokemon {
-    public Stalagator() {
+    public Stalagator(Stats stats) {
         super("Stalagator",
                 Type.ICE, Type.WATER,
                 new Stats(0,

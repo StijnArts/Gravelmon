@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Bumblebaa extends drai.dev.data.pokemon.Pokemon {
-    public Bumblebaa() {
+    public Bumblebaa(Stats stats) {
         super("Bumblebaa",
                 Type.NORMAL, Type.BUG,
                 new Stats(0,

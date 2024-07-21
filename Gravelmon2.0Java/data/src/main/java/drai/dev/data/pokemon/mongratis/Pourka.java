@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Pourka extends drai.dev.data.pokemon.Pokemon {
-    public Pourka() {
+    public Pourka(Stats stats) {
         super("Pourka",
                 Type.WATER,
                 new Stats(0,

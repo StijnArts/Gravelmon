@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mawvile extends drai.dev.data.pokemon.Pokemon {
-    public Mawvile() {
+    public Mawvile(Stats stats) {
         super("Mawvile",
                 Type.GHOST, Type.WATER,
                 new Stats(0,

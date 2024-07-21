@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Galaxey extends drai.dev.data.pokemon.Pokemon {
-    public Galaxey() {
+    public Galaxey(Stats stats) {
         super("Galaxey",
                 Type.PSYCHIC, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

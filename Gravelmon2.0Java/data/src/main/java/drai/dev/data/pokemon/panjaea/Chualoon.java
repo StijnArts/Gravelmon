@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Chualoon extends drai.dev.data.pokemon.Pokemon {
-    public Chualoon() {
+    public Chualoon(Stats stats) {
         super("Chualoon",
                 Type.FIRE, Type.DRAGON,
                 new Stats(0,

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mudragon extends drai.dev.data.pokemon.Pokemon {
-    public Mudragon() {
+    public Mudragon(Stats stats) {
         super("Mudragon",
                 Type.GROUND, Type.DRAGON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

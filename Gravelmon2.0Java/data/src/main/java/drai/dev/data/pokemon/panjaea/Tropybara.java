@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tropybara extends drai.dev.data.pokemon.Pokemon {
-    public Tropybara() {
+    public Tropybara(Stats stats) {
         super("Tropybara",
                 Type.GRASS, Type.PSYCHIC,
                 new Stats(0,

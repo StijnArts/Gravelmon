@@ -22,48 +22,7 @@ public class Theos extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new TheossianSunflora("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianSpinarak("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianAriados("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianRaichu("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianMareep("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianFlaaffy("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianAmpharos("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianHoppip("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianSkiploom("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianJumpluff("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianTauros("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianMiltank("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianGrowlithe("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianArcanine("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianWooper("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianQuagsire("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianHeracross("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianVenonat("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianVenomoth("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianShinx("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianLuxio("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianLuxray("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianOddish("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianGloom("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianVileplume("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianBellossom("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianCroagunk("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianToxicroak("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianBellsprout("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianWeepinbell("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianVictreebel("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianYanma("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianYanmega("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianFlabebe("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianFloette("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianFlorges("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianCottonee("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianWhimsicott("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianPetilil("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianLilligant("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianDwebble("", Aspect.THEOSSIAN));
-        pokemon.add(new TheossianCrustle("", Aspect.THEOSSIAN));
+
         pokemon.add(new Meowdow());
         pokemon.add(new Purrleo());
         pokemon.add(new Herculeo());
@@ -82,7 +41,7 @@ public class Theos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Crickick());
         pokemon.add(new Pestor());
         pokemon.add(new Punkosom());
-//        pokemon.add(new Cupilla());   Missing Stats
+        pokemon.add(new Cupilla());
         pokemon.add(new Silkute());
         pokemon.add(new Flutterfly());
         pokemon.add(new Squibble());

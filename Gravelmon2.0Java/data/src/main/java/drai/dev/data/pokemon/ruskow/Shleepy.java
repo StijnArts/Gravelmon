@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Shleepy extends drai.dev.data.pokemon.Pokemon {
-    public Shleepy() {
+    public Shleepy(Stats stats) {
         super("Shleepy",
                 Type.PSYCHIC, Type.NORMAL,
                 new Stats(0,

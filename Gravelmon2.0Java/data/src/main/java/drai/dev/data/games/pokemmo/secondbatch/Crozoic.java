@@ -86,18 +86,18 @@ public class Crozoic extends drai.dev.data.games.registry.Game {
         pokemon.add(new Therislash(new Stats(514, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Brainibash());
         pokemon.add(new Brainiache(new Stats(506, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
-//        pokemon.add(new Seigoni()); TODO
-//        pokemon.add(new Seigoxic()); TODO
+        pokemon.add(new Seigoni());
+        pokemon.add(new Seigoxic(new Stats(500, StatArchetype.FAST_SUPPORT, List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Seanodont(new Stats(387, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
         pokemon.add(new Chillaxo());
         pokemon.add(new Kulapack());
         pokemon.add(new Shroolumn(new Stats(477, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));
         pokemon.add(new Fishereel(new Stats(467, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPEED))));
-//        pokemon.add(new Mander()); TODO
-//        pokemon.add(new Umander()); TODO
+        pokemon.add(new Mander());
+        pokemon.add(new Umander(new Stats(467, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         pokemon.add(new Cryoptera(new Stats(456, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
-//        pokemon.add(new Shredpole()); TODO
-//        pokemon.add(new Oblitoad()); TODO
+        pokemon.add(new Shredpole());
+        pokemon.add(new Oblitoad(new Stats(455, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         pokemon.add(new Stricycle());
         pokemon.add(new Mimentron());
         pokemon.add(new Ovimourn());

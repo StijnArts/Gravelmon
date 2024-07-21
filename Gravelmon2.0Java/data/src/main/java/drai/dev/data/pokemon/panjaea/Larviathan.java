@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Larviathan extends drai.dev.data.pokemon.Pokemon {
-    public Larviathan() {
+    public Larviathan(Stats stats) {
         super("Larviathan",
                 Type.BUG, Type.DRAGON,
                 new Stats(0,

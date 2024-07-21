@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Draphin extends drai.dev.data.pokemon.Pokemon {
-    public Draphin() {
+    public Draphin(Stats stats) {
         super("Draphin",
                 Type.WATER, Type.PSYCHIC,
                 new Stats(0,

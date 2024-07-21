@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slugly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_slugly",
+      "texture": "cobblemon:textures/pokemon/dhiome/slugly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/slugly_shiny.png"
+    }
+  ]
+}

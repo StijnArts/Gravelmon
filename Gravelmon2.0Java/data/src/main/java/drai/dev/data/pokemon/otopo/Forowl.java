@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Forowl extends drai.dev.data.pokemon.Pokemon {
-    public Forowl() {
+    public Forowl(Stats stats) {
         super("Forowl",
                 Type.GRASS, Type.FLYING,
                 new Stats(0,

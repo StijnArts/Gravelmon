@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Pomprim extends drai.dev.data.pokemon.Pokemon {
-    public Pomprim() {
+    public Pomprim(Stats stats) {
         super("Pomprim",
                 Type.GRASS, Type.FAIRY,
                 new Stats(0,

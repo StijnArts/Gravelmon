@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Boliath extends drai.dev.data.pokemon.Pokemon {
-    public Boliath() {
+    public Boliath(Stats stats) {
         super("Boliath",
                 Type.ROCK,
                 new Stats(0,

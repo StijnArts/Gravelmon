@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Kuruhinomi extends drai.dev.data.pokemon.Pokemon {
-    public Kuruhinomi() {
+    public Kuruhinomi(Stats stats) {
         super("Kuruhinomi",
                 Type.FIRE, Type.GHOST,
                 new Stats(0,

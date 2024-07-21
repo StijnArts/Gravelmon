@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Pupallet extends drai.dev.data.pokemon.Pokemon {
-    public Pupallet() {
+    public Pupallet(Stats stats) {
         super("Pupallet",
                 Type.BUG,
                 new Stats(0,

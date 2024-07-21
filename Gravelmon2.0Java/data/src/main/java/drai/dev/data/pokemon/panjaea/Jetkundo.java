@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Jetkundo extends drai.dev.data.pokemon.Pokemon {
-    public Jetkundo() {
+    public Jetkundo(Stats stats) {
         super("Jetkundo",
                 Type.ELECTRIC, Type.FIGHTING,
                 new Stats(0,

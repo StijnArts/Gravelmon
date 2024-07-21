@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Ogrean extends drai.dev.data.pokemon.Pokemon {
-    public Ogrean() {
+    public Ogrean(Stats stats) {
         super("Ogrean",
                 Type.DARK, Type.ELECTRIC,
                 new Stats(0,

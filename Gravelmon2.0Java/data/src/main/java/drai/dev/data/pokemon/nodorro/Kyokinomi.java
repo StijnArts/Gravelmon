@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Kyokinomi extends drai.dev.data.pokemon.Pokemon {
-    public Kyokinomi() {
+    public Kyokinomi(Stats stats) {
         super("Kyokinomi",
                 Type.GHOST, Type.WATER,
                 new Stats(0,

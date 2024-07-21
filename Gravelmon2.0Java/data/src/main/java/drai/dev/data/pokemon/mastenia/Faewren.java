@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Faewren extends drai.dev.data.pokemon.Pokemon {
-    public Faewren() {
+    public Faewren(Stats stats) {
         super("Faewren",
                 Type.FAIRY, Type.FLYING,
                 new Stats(0,

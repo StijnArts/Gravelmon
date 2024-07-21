@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Dustfully extends drai.dev.data.pokemon.Pokemon {
-    public Dustfully() {
+    public Dustfully(Stats stats) {
         super("Dustfully",
                 Type.GROUND,
                 new Stats(0,

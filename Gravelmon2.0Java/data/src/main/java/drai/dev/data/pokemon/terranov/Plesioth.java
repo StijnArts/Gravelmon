@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Plesioth extends drai.dev.data.pokemon.Pokemon {
-    public Plesioth() {
+    public Plesioth(Stats stats) {
         super("Plesioth",
                 Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LONG_REACH), Ability.LONG_REACH,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

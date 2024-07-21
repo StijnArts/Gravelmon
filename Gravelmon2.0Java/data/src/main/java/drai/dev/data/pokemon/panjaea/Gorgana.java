@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gorgana extends drai.dev.data.pokemon.Pokemon {
-    public Gorgana() {
+    public Gorgana(Stats stats) {
         super("Gorgana",
                 Type.POISON, Type.FAIRY,
                 new Stats(0,

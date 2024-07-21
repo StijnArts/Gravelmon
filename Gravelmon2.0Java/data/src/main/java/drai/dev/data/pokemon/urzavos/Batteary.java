@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Batteary extends drai.dev.data.pokemon.Pokemon {
-    public Batteary() {
+    public Batteary(Stats stats) {
         super("Batteary",
                 Type.FIRE, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 18, 1869,
                 new Stats(0,0,0,0,0,0), 40,

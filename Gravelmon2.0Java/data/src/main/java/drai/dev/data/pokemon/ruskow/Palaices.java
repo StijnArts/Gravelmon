@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Palaices extends drai.dev.data.pokemon.Pokemon {
-    public Palaices() {
+    public Palaices(Stats stats) {
         super("Palaices",
                 Type.WATER, Type.GROUND,
                 new Stats(0,

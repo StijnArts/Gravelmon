@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Thissblade extends drai.dev.data.pokemon.Pokemon {
-    public Thissblade() {
+    public Thissblade(Stats stats) {
         super("Thissblade",
                 Type.GRASS, Type.FIGHTING,
                 new Stats(0,

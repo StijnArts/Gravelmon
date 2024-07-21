@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Bubinuter extends drai.dev.data.pokemon.Pokemon {
-    public Bubinuter() {
+    public Bubinuter(Stats stats) {
         super("Bubinuter",
                 Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.PARENTAL_BOND), Ability.PARENTAL_BOND,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

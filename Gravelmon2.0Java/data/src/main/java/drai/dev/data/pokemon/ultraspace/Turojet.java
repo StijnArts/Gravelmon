@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Turojet extends drai.dev.data.pokemon.Pokemon {
-    public Turojet() {
+    public Turojet(Stats stats) {
         super("Turojet",
                 Type.FLYING, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LIGHT_METAL), Ability.FLARE_BOOST,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

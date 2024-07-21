@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mulevolent extends drai.dev.data.pokemon.Pokemon {
-    public Mulevolent() {
+    public Mulevolent(Stats stats) {
         super("Mulevolent",
                 Type.DARK,
                 new Stats(0,

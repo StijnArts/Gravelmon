@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Kalaxodon extends drai.dev.data.pokemon.Pokemon {
-    public Kalaxodon() {
+    public Kalaxodon(Stats stats) {
         super("Kalaxodon",
                 Type.NORMAL,
                 new Stats(0,

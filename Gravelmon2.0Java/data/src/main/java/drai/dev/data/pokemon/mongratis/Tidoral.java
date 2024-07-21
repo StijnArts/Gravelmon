@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tidoral extends drai.dev.data.pokemon.Pokemon {
-    public Tidoral() {
+    public Tidoral(Stats stats) {
         super("Tidoral",
                 Type.WATER, Type.ROCK,
                 new Stats(0,

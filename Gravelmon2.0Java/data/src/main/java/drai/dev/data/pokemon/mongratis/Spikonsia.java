@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Spikonsia extends drai.dev.data.pokemon.Pokemon {
-    public Spikonsia() {
+    public Spikonsia(Stats stats) {
         super("Spikonsia",
                 Type.GRASS, Type.GROUND,
                 new Stats(0,

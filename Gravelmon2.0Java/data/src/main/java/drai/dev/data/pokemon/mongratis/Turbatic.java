@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Turbatic extends drai.dev.data.pokemon.Pokemon {
-    public Turbatic() {
+    public Turbatic(Stats stats) {
         super("Turbatic",
                 Type.NORMAL, Type.FLYING,
                 new Stats(0,

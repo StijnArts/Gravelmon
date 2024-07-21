@@ -1,11 +1,14 @@
 package drai.dev.data.games.pokemmo.secondbatch;
 
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.pastelisland.Panthevil;
 import drai.dev.data.pokemon.pastelisland.Rascat;
 import drai.dev.data.pokemon.pastelisland.regional.*;
 import drai.dev.data.pokemon.pastelisland.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
+import java.util.*;
 
 public class PastelIsland extends drai.dev.data.games.registry.Game {
     public PastelIsland() {
@@ -56,8 +59,9 @@ public class PastelIsland extends drai.dev.data.games.registry.Game {
         pokemon.add(new Rascat());
         pokemon.add(new Panthevil());
         pokemon.add(new Florgae());
-//        pokemon.add(new Friylash());   Missing Stats
-//        pokemon.add(new Majestrill());   Missing Stats
+        pokemon.add(new Friylash()); 
+        pokemon.add(new Majestrill(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED)))); 
         pokemon.add(new Dametal());
         pokemon.add(new Damaleo());
         pokemon.add(new Searth());
@@ -70,27 +74,33 @@ public class PastelIsland extends drai.dev.data.games.registry.Game {
         pokemon.add(new Sourprion());
         pokemon.add(new Banksund());
         pokemon.add(new Bossey());
-//        pokemon.add(new PsyEye());   Missing Stats
-//        pokemon.add(new Hyprentice());   Missing Stats
-//        pokemon.add(new Hallusage());   Missing Stats
-//        pokemon.add(new Giruffle());   Missing Stats
-//        pokemon.add(new Sparaffe());   Missing Stats
-//        pokemon.add(new Trojaraffe());   Missing Stats
-//        pokemon.add(new Dimnewt());   Missing Stats
-//        pokemon.add(new Spimeleon());   Missing Stats
-//        pokemon.add(new Donguana());   Missing Stats
-//        pokemon.add(new Malloh());   Missing Stats
-//        pokemon.add(new Marshamie());   Missing Stats
-//        pokemon.add(new Mallowisp());   Missing Stats
-        pokemon.add(new Cobblelf());
+        pokemon.add(new PsyEye());   
+        pokemon.add(new Hyprentice());   
+        pokemon.add(new Hallusage(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Giruffle());   
+        pokemon.add(new Sparaffe());   
+        pokemon.add(new Trojaraffe(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Dimnewt());   
+        pokemon.add(new Spimeleon());   
+        pokemon.add(new Donguana(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Malloh());   
+        pokemon.add(new Marshamie());   
+        pokemon.add(new Mallowisp(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+//        pokemon.add(new Cobblelf()); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Elfishoe());   Missing Art
 //        pokemon.add(new Sabatelf());   Missing Art
-//        pokemon.add(new Leetch());   Missing Stats
-//        pokemon.add(new Pariahsite());   Missing Stats
-//        pokemon.add(new Haebidon());   Missing Stats
-//        pokemon.add(new Rooklite());   Missing Stats
-//        pokemon.add(new Militite());   Missing Stats
-//        pokemon.add(new Colossesar());   Missing Stats
+        pokemon.add(new Leetch());   
+        pokemon.add(new Pariahsite());   
+        pokemon.add(new Haebidon(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
+        pokemon.add(new Rooklite());   
+        pokemon.add(new Militite());   
+        pokemon.add(new Colossesar(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   
     }
 
 }

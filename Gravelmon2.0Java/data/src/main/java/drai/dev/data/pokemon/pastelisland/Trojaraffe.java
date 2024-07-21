@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Trojaraffe extends drai.dev.data.pokemon.Pokemon {
-    public Trojaraffe() {
+    public Trojaraffe(Stats stats) {
         super("Trojaraffe",
                 Type.FIGHTING, Type.STEEL,
                 new Stats(0,

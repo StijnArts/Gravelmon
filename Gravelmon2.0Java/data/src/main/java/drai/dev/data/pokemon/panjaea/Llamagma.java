@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Llamagma extends drai.dev.data.pokemon.Pokemon {
-    public Llamagma() {
+    public Llamagma(Stats stats) {
         super("Llamagma",
                 Type.FIRE,
                 new Stats(0,

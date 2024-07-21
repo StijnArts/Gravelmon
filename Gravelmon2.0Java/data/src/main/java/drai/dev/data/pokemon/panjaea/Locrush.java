@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Locrush extends drai.dev.data.pokemon.Pokemon {
-    public Locrush() {
+    public Locrush(Stats stats) {
         super("Locrush",
                 Type.BUG, Type.FIGHTING,
                 new Stats(0,

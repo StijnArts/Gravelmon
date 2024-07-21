@@ -94,7 +94,7 @@ public class Mystis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Barbait());
         pokemon.add(new Rustail());
         pokemon.add(new Crimsoni());
-        pokemon.add(new Hedgeheat());
+//        pokemon.add(new Hedgeheat()); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Porcupyre());   Missing Art
         pokemon.add(new Dragift());
         pokemon.add(new Giftyrant());
@@ -105,12 +105,12 @@ public class Mystis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Oiligator());
         pokemon.add(new Colorlish());
         pokemon.add(new Marvelish());
-//        pokemon.add(new Topolter());   Missing Stats
-//        pokemon.add(new Boodini());   Missing Art
+        pokemon.add(new Topolter());
+        pokemon.add(new Boodini());
         pokemon.add(new Bookalf());
         pokemon.add(new Faebull());
         pokemon.add(new Drakrash());
-        pokemon.add(new Hummingale());
+//        pokemon.add(new Hummingale()); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new 410468());   Missing Art
         pokemon.add(new Staretue());
 //        pokemon.add(new Snowpent());   Missing Art
@@ -133,7 +133,6 @@ public class Mystis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Psyclaw());
         pokemon.add(new Mirawing());
         pokemon.add(new Magitate());
-//        pokemon.add(new Dunsparce(206));
         pokemon.add(new Dubsparce());
         pokemon.add(new Sparcnidria());
         pokemon.add(new Dimshade()); //Renamed from Dimwraith
@@ -154,10 +153,8 @@ public class Mystis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Charpy());
         pokemon.add(new Casstrike());
         pokemon.add(new Frogoopy());
-//        pokemon.add(new Croagunk(453));
-//        pokemon.add(new Toxicroak(454));
         pokemon.add(new Staticroak());
-        pokemon.add(new Astrowatt());
+//        pokemon.add(new Astrowatt());MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Battefry());   Missing Art
 //        pokemon.add(new Salmonock());   Missing Art
 //        pokemon.add(new Bearrier());   Missing Art

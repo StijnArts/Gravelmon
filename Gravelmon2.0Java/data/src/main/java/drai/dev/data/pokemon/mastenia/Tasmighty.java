@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tasmighty extends drai.dev.data.pokemon.Pokemon {
-    public Tasmighty() {
+    public Tasmighty(Stats stats) {
         super("Tasmighty",
                 Type.DARK,
                 new Stats(0,

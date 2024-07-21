@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Corvosene extends drai.dev.data.pokemon.Pokemon {
-    public Corvosene() {
+    public Corvosene(Stats stats) {
         super("Corvosene",
                 Type.DARK, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 16, 454,
                 new Stats(0,0,0,0,0,0), 50,

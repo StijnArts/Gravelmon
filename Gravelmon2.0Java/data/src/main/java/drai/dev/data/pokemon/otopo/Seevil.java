@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Seevil extends drai.dev.data.pokemon.Pokemon {
-    public Seevil() {
+    public Seevil(Stats stats) {
         super("Seevil",
                 Type.BUG, Type.DARK,
                 new Stats(0,

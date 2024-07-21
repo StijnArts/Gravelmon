@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Suryala extends drai.dev.data.pokemon.Pokemon {
-    public Suryala() {
+    public Suryala(Stats stats) {
         super("Suryala",
                 Type.GRASS, Type.FIRE,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tropiaqua extends drai.dev.data.pokemon.Pokemon {
-    public Tropiaqua() {
+    public Tropiaqua(Stats stats) {
         super("Tropiaqua",
                 Type.WATER,
                 new Stats(0,

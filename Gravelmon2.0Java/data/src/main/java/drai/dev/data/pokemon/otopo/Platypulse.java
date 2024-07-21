@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Platypulse extends drai.dev.data.pokemon.Pokemon {
-    public Platypulse() {
+    public Platypulse(Stats stats) {
         super("Platypulse",
                 Type.POISON, Type.ELECTRIC,
                 new Stats(0,

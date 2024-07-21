@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Swanix extends drai.dev.data.pokemon.Pokemon {
-    public Swanix() {
+    public Swanix(Stats stats) {
         super("Swanix",
                 Type.FIRE, Type.FLYING,
                 new Stats(0,

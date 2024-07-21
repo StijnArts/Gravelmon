@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Qwirm extends drai.dev.data.pokemon.Pokemon {
-    public Qwirm() {
+    public Qwirm(Stats stats) {
         super("Qwirm",
                 Type.GROUND, Type.BUG,
                 new Stats(0,

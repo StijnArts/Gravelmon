@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Orukul extends drai.dev.data.pokemon.Pokemon {
-    public Orukul() {
+    public Orukul(Stats stats) {
         super("Orukul",
                 Type.ROCK, Type.PSYCHIC,
-                new Stats(32,
-                        55,
-                        113,
-                        123,
-                        95,
-                        67),
+                stats,
                 List.of(Ability.LEVITATE), Ability.ANALYTIC,
                 14, 0,
                 new Stats(0,0,0,0,0,0), 50,

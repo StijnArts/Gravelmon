@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Shockatoo extends drai.dev.data.pokemon.Pokemon {
-    public Shockatoo() {
+    public Shockatoo(Stats stats) {
         super("Shockatoo",
                 Type.ELECTRIC, Type.FLYING,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Strigallant extends drai.dev.data.pokemon.Pokemon {
-    public Strigallant() {
+    public Strigallant(Stats stats) {
         super("Strigallant",
                 Type.GRASS, Type.FLYING,
                 new Stats(0,

@@ -12,6 +12,7 @@ public class JSONOutputGenerator {
         AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
         FossilJSONWriter.writeFossils(resourcesDir);
         PokeBallEffectWriter.writeEffects(resourcesDir);
+        LangJSONWriter.writeStarterCategories();
         generateLangFile();
         for(Game game : GameRegistry.games){
             generateJsonFiles(game,resourcesDir);
@@ -19,7 +20,6 @@ public class JSONOutputGenerator {
         //LangJSONWriter.writePlaceholder();
         //SpeciesDataJSONWriter.writePlaceholder(resourcesDir);
         //Additional Forms
-        LangJSONWriter.writeStarterCategories();
         LangJSONWriter.finalizeLang(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
     }

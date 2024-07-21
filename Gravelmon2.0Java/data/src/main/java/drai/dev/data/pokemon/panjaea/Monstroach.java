@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Monstroach extends drai.dev.data.pokemon.Pokemon {
-    public Monstroach() {
+    public Monstroach(Stats stats) {
         super("Monstroach",
                 Type.BUG, Type.DARK,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hardgoyle extends drai.dev.data.pokemon.Pokemon {
-    public Hardgoyle() {
+    public Hardgoyle(Stats stats) {
         super("Hardgoyle",
                 Type.ROCK, Type.FLYING,
                 new Stats(0,

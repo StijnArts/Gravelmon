@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Leazury extends drai.dev.data.pokemon.Pokemon {
-    public Leazury() {
+    public Leazury(Stats stats) {
         super("Leazury",
                 Type.STEEL, Type.DARK,
                 new Stats(0,

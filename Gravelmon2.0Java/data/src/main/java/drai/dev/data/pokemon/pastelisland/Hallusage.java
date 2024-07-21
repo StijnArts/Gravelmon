@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hallusage extends drai.dev.data.pokemon.Pokemon {
-    public Hallusage() {
+    public Hallusage(Stats stats) {
         super("Hallusage",
                 Type.PSYCHIC, Type.FAIRY,
                 new Stats(0,

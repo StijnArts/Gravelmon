@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tiamond extends drai.dev.data.pokemon.Pokemon {
-    public Tiamond() {
+    public Tiamond(Stats stats) {
         super("Tiamond",
                 Type.ROCK, Type.DRAGON,
                 new Stats(0,

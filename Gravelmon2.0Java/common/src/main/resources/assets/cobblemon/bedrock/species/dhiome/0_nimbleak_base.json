@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nimbleak",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_nimbleak",
+      "texture": "cobblemon:textures/pokemon/dhiome/nimbleak.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/nimbleak_shiny.png"
+    }
+  ]
+}

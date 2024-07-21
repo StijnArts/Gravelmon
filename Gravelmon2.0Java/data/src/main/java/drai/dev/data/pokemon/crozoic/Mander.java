@@ -73,7 +73,8 @@ public class Mander extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.WATER_1),
                 List.of("Sometimes, what could be mistaken for a person in the corner of your eye is actually a Mander sneaking around. Using its antenna, it casts an illusion to completely hide itself when spotted."),
-                List.of(),
+                List.of(new EvolutionEntry("umander", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.PSYCHICNOISE,1),

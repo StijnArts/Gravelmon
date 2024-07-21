@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Metalodon extends drai.dev.data.pokemon.Pokemon {
-    public Metalodon() {
+    public Metalodon(Stats stats) {
         super("Metalodon",
                 Type.STEEL, Type.WATER,
                 new Stats(0,

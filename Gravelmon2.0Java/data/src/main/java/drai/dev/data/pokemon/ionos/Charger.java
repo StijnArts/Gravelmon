@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Charger extends drai.dev.data.pokemon.Pokemon {
-    public Charger() {
+    public Charger(Stats stats) {
         super("Charger",
                 Type.ROCK, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

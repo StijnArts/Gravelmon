@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Audhroch extends drai.dev.data.pokemon.Pokemon {
-    public Audhroch() {
+    public Audhroch(Stats stats) {
         super("Audhroch",
                 Type.FIRE, Type.STEEL,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mothumbra extends drai.dev.data.pokemon.Pokemon {
-    public Mothumbra() {
+    public Mothumbra(Stats stats) {
         super("Mothumbra",
                 Type.BUG, Type.DARK,
                 new Stats(0,

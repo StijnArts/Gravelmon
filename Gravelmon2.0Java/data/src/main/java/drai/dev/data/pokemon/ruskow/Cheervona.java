@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Cheervona extends drai.dev.data.pokemon.Pokemon {
-    public Cheervona() {
+    public Cheervona(Stats stats) {
         super("Cheervona",
                 Type.GRASS, Type.FAIRY,
                 new Stats(0,

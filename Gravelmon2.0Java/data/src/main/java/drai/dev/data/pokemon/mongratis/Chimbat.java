@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Chimbat extends drai.dev.data.pokemon.Pokemon {
-    public Chimbat() {
+    public Chimbat(Stats stats) {
         super("Chimbat",
                 Type.FIRE, Type.FLYING,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Weepsel extends drai.dev.data.pokemon.Pokemon {
-    public Weepsel() {
+    public Weepsel(Stats stats) {
         super("Weepsel",
                 Type.WATER, Type.GHOST,
                 new Stats(0,

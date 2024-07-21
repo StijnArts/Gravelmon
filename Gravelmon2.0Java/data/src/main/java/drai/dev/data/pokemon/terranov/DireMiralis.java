@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class DireMiralis extends drai.dev.data.pokemon.Pokemon {
-    public DireMiralis() {
+    public DireMiralis(Stats stats) {
         super("DireMiralis",
                 Type.FIRE, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.REGENERATOR), Ability.REGENERATOR,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

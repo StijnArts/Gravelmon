@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Peadazzled extends drai.dev.data.pokemon.Pokemon {
-    public Peadazzled() {
+    public Peadazzled(Stats stats) {
         super("Peadazzled",
                 Type.PSYCHIC, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.UNNERVE,Ability.INTIMIDATE), Ability.RATTLED,
                 15, 748,
                 new Stats(0,0,0,0,0,0), 45,

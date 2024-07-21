@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gardial extends drai.dev.data.pokemon.Pokemon {
-    public Gardial() {
+    public Gardial(Stats stats) {
         super("Gardial",
                 Type.PSYCHIC, Type.FIRE,
                 new Stats(0,

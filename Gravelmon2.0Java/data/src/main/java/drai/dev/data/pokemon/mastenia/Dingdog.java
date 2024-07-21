@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Dingdog extends drai.dev.data.pokemon.Pokemon {
-    public Dingdog() {
+    public Dingdog(Stats stats) {
         super("Dingdog",
                 Type.NORMAL, Type.GROUND,
                 new Stats(0,

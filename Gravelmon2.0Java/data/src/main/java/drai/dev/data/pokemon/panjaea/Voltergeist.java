@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Voltergeist extends drai.dev.data.pokemon.Pokemon {
-    public Voltergeist() {
+    public Voltergeist(Stats stats) {
         super("Voltergeist",
                 Type.GHOST, Type.ELECTRIC,
                 new Stats(0,

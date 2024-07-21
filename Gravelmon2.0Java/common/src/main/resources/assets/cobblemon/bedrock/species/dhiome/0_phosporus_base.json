@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:phosporus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_phosporus",
+      "texture": "cobblemon:textures/pokemon/dhiome/phosporus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/phosporus_shiny.png"
+    }
+  ]
+}

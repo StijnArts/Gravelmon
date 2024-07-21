@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Webruiser extends drai.dev.data.pokemon.Pokemon {
-    public Webruiser() {
+    public Webruiser(Stats stats) {
         super("Webruiser",
                 Type.BUG, Type.FIGHTING,
                 new Stats(0,

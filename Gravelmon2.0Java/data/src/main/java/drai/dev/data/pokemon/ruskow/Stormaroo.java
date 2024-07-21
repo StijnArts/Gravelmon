@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Stormaroo extends drai.dev.data.pokemon.Pokemon {
-    public Stormaroo() {
+    public Stormaroo(Stats stats) {
         super("Stormaroo",
                 Type.WATER, Type.ELECTRIC,
                 new Stats(0,

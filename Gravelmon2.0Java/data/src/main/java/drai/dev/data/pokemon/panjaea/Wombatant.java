@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Wombatant extends drai.dev.data.pokemon.Pokemon {
-    public Wombatant() {
+    public Wombatant(Stats stats) {
         super("Wombatant",
                 Type.FIGHTING,
                 new Stats(0,

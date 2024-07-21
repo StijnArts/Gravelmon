@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class YamaTsukami extends drai.dev.data.pokemon.Pokemon {
-    public YamaTsukami() {
+    public YamaTsukami(Stats stats) {
         super("YamaTsukami",
                 Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

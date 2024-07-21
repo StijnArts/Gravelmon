@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Negagen extends drai.dev.data.pokemon.Pokemon {
-    public Negagen() {
+    public Negagen(Stats stats) {
         super("Negagen",
                 Type.GHOST, Type.ELECTRIC,
                 new Stats(0,

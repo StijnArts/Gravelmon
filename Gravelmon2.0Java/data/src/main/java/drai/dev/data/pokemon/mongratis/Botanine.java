@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Botanine extends drai.dev.data.pokemon.Pokemon {
-    public Botanine() {
+    public Botanine(Stats stats) {
         super("Botanine",
                 Type.GRASS,
                 new Stats(0,

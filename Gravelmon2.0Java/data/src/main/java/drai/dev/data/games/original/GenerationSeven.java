@@ -2,6 +2,7 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.africanus.regional.*;
+import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -26,6 +27,8 @@ public class GenerationSeven extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new MastenianKomala("", Aspect.MASTENIAN, new Stats(0, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED)))); MISSING STATS
+
         registerSoulstonesVariants();
 
         pokemon.add(new AfricanusanComfey("", Aspect.AFRICANUSAN));
@@ -69,7 +72,7 @@ public class GenerationSeven extends Game {
         pokemon.add(new AyreianGumshoos("", Aspect.AYREIAN));
 
         //Kaskadian
-        pokemon.add(new KaskadianPalossand("", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianPalossand("", Aspect.KASKADIAN).setUsesBigModel());
         pokemon.add(new KaskadianBruxish("", Aspect.KASKADIAN));
 
         //Azure (Mystic)

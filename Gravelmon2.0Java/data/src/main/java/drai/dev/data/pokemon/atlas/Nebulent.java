@@ -23,7 +23,9 @@ public class Nebulent extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("This Pokemon's venom is extremely poisonous. It hunts at night, when its body blends in with the night sky."),
                 List.of(new EvolutionEntry("slithair", EvolutionType.TRADE, List.of(),
-                        List.of())
+                        List.of()),
+                        new EvolutionEntry("draligne", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),

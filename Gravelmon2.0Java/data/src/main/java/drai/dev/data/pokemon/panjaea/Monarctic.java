@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Monarctic extends drai.dev.data.pokemon.Pokemon {
-    public Monarctic() {
+    public Monarctic(Stats stats) {
         super("Monarctic",
                 Type.BUG, Type.ICE,
                 new Stats(0,

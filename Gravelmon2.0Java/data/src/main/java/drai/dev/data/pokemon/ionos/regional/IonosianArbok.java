@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class IonosianArbok extends drai.dev.data.pokemon.Pokemon {
-    public IonosianArbok(String name, Aspect aspect) {
+    public IonosianArbok(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Arbok",
                 Type.POISON, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.MOXIE), Ability.BAD_DREAMS,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

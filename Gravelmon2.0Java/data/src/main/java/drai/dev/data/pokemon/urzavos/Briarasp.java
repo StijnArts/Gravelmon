@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Briarasp extends drai.dev.data.pokemon.Pokemon {
-    public Briarasp() {
+    public Briarasp(Stats stats) {
         super("Briarasp",
                 Type.BUG, Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 544,
                 new Stats(0,0,0,0,0,0), 45,

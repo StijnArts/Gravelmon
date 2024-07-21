@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Cryscrawler extends drai.dev.data.pokemon.Pokemon {
-    public Cryscrawler() {
+    public Cryscrawler(Stats stats) {
         super("Cryscrawler",
                 Type.ROCK, Type.BUG,
                 new Stats(0,

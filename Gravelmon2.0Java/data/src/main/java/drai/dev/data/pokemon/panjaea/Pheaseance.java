@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Pheaseance extends drai.dev.data.pokemon.Pokemon {
-    public Pheaseance() {
+    public Pheaseance(Stats stats) {
         super("Pheaseance",
                 Type.FLYING, Type.PSYCHIC,
                 new Stats(0,

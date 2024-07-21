@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Imagamma extends drai.dev.data.pokemon.Pokemon {
-    public Imagamma() {
+    public Imagamma(Stats stats) {
         super("Imagamma",
                 Type.BUG, Type.PSYCHIC,
                 new Stats(0,

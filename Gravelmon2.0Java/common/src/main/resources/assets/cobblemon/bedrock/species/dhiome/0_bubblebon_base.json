@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bubblebon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_bubblebon",
+      "texture": "cobblemon:textures/pokemon/dhiome/bubblebon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/bubblebon_shiny.png"
+    }
+  ]
+}

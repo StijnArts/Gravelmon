@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Sparkatoo extends drai.dev.data.pokemon.Pokemon {
-    public Sparkatoo() {
+    public Sparkatoo(Stats stats) {
         super("Sparkatoo",
                 Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(0,

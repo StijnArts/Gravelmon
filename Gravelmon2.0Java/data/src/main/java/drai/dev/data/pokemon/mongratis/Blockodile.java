@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Blockodile extends drai.dev.data.pokemon.Pokemon {
-    public Blockodile() {
+    public Blockodile(Stats stats) {
         super("Blockodile",
                 Type.ROCK, Type.GROUND,
                 new Stats(0,

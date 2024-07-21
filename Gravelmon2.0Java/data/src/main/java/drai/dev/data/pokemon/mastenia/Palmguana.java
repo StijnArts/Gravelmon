@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Palmguana extends drai.dev.data.pokemon.Pokemon {
-    public Palmguana() {
+    public Palmguana(Stats stats) {
         super("Palmguana",
                 Type.GRASS, Type.WATER,
                 new Stats(0,

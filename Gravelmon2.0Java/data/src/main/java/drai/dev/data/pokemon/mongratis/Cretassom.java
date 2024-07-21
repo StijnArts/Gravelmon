@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Cretassom extends drai.dev.data.pokemon.Pokemon {
-    public Cretassom() {
+    public Cretassom(Stats stats) {
         super("Cretassom",
                 Type.GRASS, Type.DRAGON,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Stormmer extends drai.dev.data.pokemon.Pokemon {
-    public Stormmer() {
+    public Stormmer(Stats stats) {
         super("Stormmer",
                 Type.STEEL, Type.ELECTRIC,
                 new Stats(0,

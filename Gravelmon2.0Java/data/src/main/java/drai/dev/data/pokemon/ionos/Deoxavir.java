@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Deoxavir extends drai.dev.data.pokemon.Pokemon {
-    public Deoxavir() {
+    public Deoxavir(Stats stats) {
         super("Deoxavir",
                 Type.POISON, Type.PSYCHIC,
                 new Stats(50,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Qualder extends drai.dev.data.pokemon.Pokemon {
-    public Qualder() {
+    public Qualder(Stats stats) {
         super("Qualder",
                 Type.ROCK,
                 new Stats(0,

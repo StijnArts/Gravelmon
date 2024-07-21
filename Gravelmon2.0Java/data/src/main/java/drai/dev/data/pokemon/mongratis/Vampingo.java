@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Vampingo extends drai.dev.data.pokemon.Pokemon {
-    public Vampingo() {
+    public Vampingo(Stats stats) {
         super("Vampingo",
                 Type.GHOST, Type.FLYING,
                 new Stats(0,

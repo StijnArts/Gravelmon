@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Goroka extends drai.dev.data.pokemon.Pokemon {
-    public Goroka() {
+    public Goroka(Stats stats) {
         super("Goroka",
                 Type.ROCK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.ROCKFALL), Ability.ROCK_HEAD,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Injelligent extends drai.dev.data.pokemon.Pokemon {
-    public Injelligent() {
+    public Injelligent(Stats stats) {
         super("Injelligent",
                 Type.WATER, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.TORRENT), Ability.TORRENT,
                 17, 363,
                 new Stats(0,0,0,0,0,0), 45,

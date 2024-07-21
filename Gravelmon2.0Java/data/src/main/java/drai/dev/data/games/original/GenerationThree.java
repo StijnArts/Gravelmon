@@ -1,6 +1,12 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.ionos.regional.*;
+import drai.dev.data.pokemon.mastenia.*;
+import drai.dev.data.pokemon.mastenia.MastenianVolbeat;
+import drai.dev.data.pokemon.mastenia.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
+import drai.dev.data.pokemon.olysos.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
@@ -35,11 +41,30 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO
+//        pokemon.add(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
+
+//        pokemon.add(new NodorranTreecko("", Aspect.NODORRAN));  MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new NodorranGrovyle("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new NodorranSceptile("", Aspect.NODORRAN)); Missing art
+//        pokemon.add(new NodorranNosepass("", Aspect.NODORRAN)); TODO
+
+//        pokemon.add(new MastenianTreecko("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new MastenianGrovyle("", Aspect.MASTENIAN)); MISSING ART
+//        pokemon.add(new MastenianTorchic("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new MastenianCombusken("", Aspect.MASTENIAN)); MISSING ART
+//        pokemon.add(new MastenianMudkip("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
+//        pokemon.add(new MastenianShroomish("", Aspect.MASTENIAN)); TODO
+//        pokemon.add(new MastenianBreloom("", Aspect.MASTENIAN)); TODO
+//        pokemon.add(new MastenianIllumise("", Aspect.MASTENIAN)); MISSING ART
+//        pokemon.add(new MastenianVolbeat("", Aspect.MASTENIAN)); TODO
+
         registerSoulstonesVariants();
 
-//        pokemon.add(new IonosianTrapinch(328));   Missing Stats
-//        pokemon.add(new IonosianVibrava(329));   Missing Stats
-//        pokemon.add(new IonosianFlygon(330));   Missing Stats
+        pokemon.add(new IonosianTrapinch("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianVibrava("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianFlygon("", Aspect.IONOSIAN, new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));   Missing Stats
 
         pokemon.add(new FligianTreecko("Treecko", Aspect.FLIGIAN));
         pokemon.add(new FligianGrovyle("Grovyle", Aspect.FLIGIAN));
@@ -53,8 +78,8 @@ public class GenerationThree extends Game {
         pokemon.add(new FligianDuskull("Duskull", Aspect.FLIGIAN));
         pokemon.add(new FligianDusclops("Dusclops", Aspect.FLIGIAN));
 
-//        pokemon.add(new EnjinnianElectrike(309));Member of line Not Finished
-//        pokemon.add(new EnjinnianManectric(310));Member of line Not Finished
+        pokemon.add(new EnjinnianElectrike("", Aspect.ENJINNIAN));
+        pokemon.add(new EnjinnianManectric("", Aspect.ENJINNIAN));
 
         pokemon.add(new EnjinnianSableye("Sableye", Aspect.ENJINNIAN));
 
@@ -169,7 +194,7 @@ public class GenerationThree extends Game {
         pokemon.add(new SorceryCastform("Castform", Aspect.SORCERY));
         pokemon.add(new ShadyCastform("Castform", Aspect.SHADY));
         pokemon.add(new LovelyCastform("Castform", Aspect.LOVELY));
-        pokemon.add(new KaskadianTropius("Tropius", Aspect.KASKADIAN));
+        pokemon.add(new KaskadianTropius("Tropius", Aspect.KASKADIAN).setUsesBigModel());
 
         //Azure (Mystic)
         pokemon.add(new MysticTreecko("Treecko", Aspect.MYSTIC));

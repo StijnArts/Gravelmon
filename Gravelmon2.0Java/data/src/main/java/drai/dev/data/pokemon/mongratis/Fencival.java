@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Fencival extends drai.dev.data.pokemon.Pokemon {
-    public Fencival() {
+    public Fencival(Stats stats) {
         super("Fencival",
                 Type.STEEL, Type.FIGHTING,
                 new Stats(0,

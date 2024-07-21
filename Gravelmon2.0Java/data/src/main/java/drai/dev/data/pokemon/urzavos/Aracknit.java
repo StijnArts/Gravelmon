@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Aracknit extends drai.dev.data.pokemon.Pokemon {
-    public Aracknit() {
+    public Aracknit(Stats stats) {
         super("Aracknit",
                 Type.NORMAL, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 5, 36,
                 new Stats(0,0,0,0,0,0), 80,

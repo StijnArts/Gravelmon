@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Turteller extends drai.dev.data.pokemon.Pokemon {
-    public Turteller() {
+    public Turteller(Stats stats) {
         super("Turteller",
                 Type.PSYCHIC, Type.STEEL,
                 new Stats(0,

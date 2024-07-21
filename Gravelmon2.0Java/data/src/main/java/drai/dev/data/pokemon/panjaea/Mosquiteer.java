@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mosquiteer extends drai.dev.data.pokemon.Pokemon {
-    public Mosquiteer() {
+    public Mosquiteer(Stats stats) {
         super("Mosquiteer",
                 Type.STEEL, Type.FLYING,
                 new Stats(0,

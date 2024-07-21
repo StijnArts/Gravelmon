@@ -1,5 +1,6 @@
 {
    "target": "cobblemon:bulbasaur",
+  "preEvolution": "petishell",
    "forms": [{
   "name": "Epoch",
   "primaryType": "ice",

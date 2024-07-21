@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Krakarock extends drai.dev.data.pokemon.Pokemon {
-    public Krakarock() {
+    public Krakarock(Stats stats) {
         super("Krakarock",
                 Type.GRASS, Type.ROCK,
                 new Stats(0,

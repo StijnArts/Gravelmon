@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Abbylusk extends drai.dev.data.pokemon.Pokemon {
-    public Abbylusk() {
+    public Abbylusk(Stats stats) {
         super("Mob93185",
                 Type.WATER,
                 new Stats(0,

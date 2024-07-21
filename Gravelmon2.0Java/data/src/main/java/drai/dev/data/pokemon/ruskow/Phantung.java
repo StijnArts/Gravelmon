@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Phantung extends drai.dev.data.pokemon.Pokemon {
-    public Phantung() {
+    public Phantung(Stats stats) {
         super("Phantung",
                 Type.GHOST,
                 new Stats(0,

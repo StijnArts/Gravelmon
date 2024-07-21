@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shisapien",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_shisapien",
+      "texture": "cobblemon:textures/pokemon/dhiome/shisapien.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/shisapien_shiny.png"
+    }
+  ]
+}

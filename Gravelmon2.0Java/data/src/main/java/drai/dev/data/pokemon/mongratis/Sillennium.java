@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Sillennium extends drai.dev.data.pokemon.Pokemon {
-    public Sillennium() {
+    public Sillennium(Stats stats) {
         super("Sillennium",
                 Type.ROCK, Type.PSYCHIC,
                 new Stats(0,

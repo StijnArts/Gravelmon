@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Anu extends drai.dev.data.pokemon.Pokemon {
-    public Anu() {
+    public Anu(Stats stats) {
         super("Anu",
                 Type.DARK, Type.PSYCHIC,
                 new Stats(0,

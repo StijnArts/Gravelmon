@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:keenine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:dhiome_keenine",
+      "texture": "cobblemon:textures/pokemon/dhiome/keenine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/keenine_shiny.png"
+    }
+  ]
+}

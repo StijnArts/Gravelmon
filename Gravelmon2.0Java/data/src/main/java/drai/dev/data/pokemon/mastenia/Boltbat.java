@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Boltbat extends drai.dev.data.pokemon.Pokemon {
-    public Boltbat() {
+    public Boltbat(Stats stats) {
         super("Boltbat",
                 Type.ELECTRIC, Type.FLYING,
                 new Stats(0,

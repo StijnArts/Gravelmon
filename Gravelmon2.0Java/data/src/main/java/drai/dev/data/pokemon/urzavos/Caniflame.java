@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Caniflame extends drai.dev.data.pokemon.Pokemon {
-    public Caniflame() {
+    public Caniflame(Stats stats) {
         super("Caniflame",
                 Type.FIRE, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 816,
                 new Stats(0,0,0,0,0,0), 45,

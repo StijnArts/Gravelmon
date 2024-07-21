@@ -147,9 +147,9 @@ public class Fliga extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Sobalo());   Missing Art
         pokemon.add(new Bowvine());
         pokemon.add(new Stingpin());
-//        pokemon.add(new Slith()); Member of line Not Finished
-//        pokemon.add(new Amalgin());   Missing Stats
-//        pokemon.add(new Chimericon()); Member of line Not Finished
+        pokemon.add(new Slith());
+        pokemon.add(new Amalgin());
+        pokemon.add(new Chimericon());
         pokemon.add(new Growlain());
 //        pokemon.add(new Tristous());   Missing Art
 //        pokemon.add(new Lancarot());   Missing Art

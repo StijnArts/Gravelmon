@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Trasharp extends drai.dev.data.pokemon.Pokemon {
-    public Trasharp() {
+    public Trasharp(Stats stats) {
         super("Trasharp",
                 Type.NORMAL,
                 new Stats(0,

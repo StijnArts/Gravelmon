@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Flamothra extends drai.dev.data.pokemon.Pokemon {
-    public Flamothra() {
+    public Flamothra(Stats stats) {
         super("Flamothra",
                 Type.BUG, Type.FIRE,
                 new Stats(0,

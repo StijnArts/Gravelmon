@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Brambazard extends drai.dev.data.pokemon.Pokemon {
-    public Brambazard() {
+    public Brambazard(Stats stats) {
         super("Brambazard",
                 Type.GRASS, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LIMBER), Ability.OVERGROW,
                 18, 998,
                 new Stats(0,0,0,0,0,0), 90,

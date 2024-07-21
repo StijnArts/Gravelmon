@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Flixtrix extends drai.dev.data.pokemon.Pokemon {
-    public Flixtrix() {
+    public Flixtrix(Stats stats) {
         super("Flixtrix",
                 Type.DARK, Type.ELECTRIC,
                 new Stats(0,

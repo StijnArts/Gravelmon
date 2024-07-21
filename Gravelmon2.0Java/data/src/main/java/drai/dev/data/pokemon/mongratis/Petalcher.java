@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Petalcher extends drai.dev.data.pokemon.Pokemon {
-    public Petalcher() {
+    public Petalcher(Stats stats) {
         super("Petalcher",
                 Type.POISON,
                 new Stats(0,

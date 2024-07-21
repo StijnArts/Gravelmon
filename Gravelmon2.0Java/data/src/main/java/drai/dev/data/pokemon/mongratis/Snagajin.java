@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Snagajin extends drai.dev.data.pokemon.Pokemon {
-    public Snagajin() {
+    public Snagajin(Stats stats) {
         super("Snagajin",
                 Type.DRAGON, Type.GHOST,
                 new Stats(0,

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Steadix extends drai.dev.data.pokemon.Pokemon {
-    public Steadix() {
+    public Steadix(Stats stats) {
         super("Steadix",
                 Type.STEEL, Type.DRAGON,
                 new Stats(0,

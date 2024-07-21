@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Nitmarig extends drai.dev.data.pokemon.Pokemon {
-    public Nitmarig() {
+    public Nitmarig(Stats stats) {
         super("Nitmarig",
                 Type.GHOST, Type.NORMAL,
                 new Stats(0,

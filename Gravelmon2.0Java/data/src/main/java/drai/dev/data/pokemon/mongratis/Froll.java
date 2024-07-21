@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Froll extends drai.dev.data.pokemon.Pokemon {
-    public Froll() {
+    public Froll(Stats stats) {
         super("Froll",
                 Type.ICE,
                 new Stats(0,

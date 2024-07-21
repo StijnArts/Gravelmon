@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Glowyrm extends drai.dev.data.pokemon.Pokemon {
-    public Glowyrm() {
+    public Glowyrm(Stats stats) {
         super("Glowyrm",
                 Type.BUG, Type.DRAGON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

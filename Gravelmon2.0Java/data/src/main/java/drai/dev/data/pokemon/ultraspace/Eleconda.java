@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Eleconda extends drai.dev.data.pokemon.Pokemon {
-    public Eleconda() {
+    public Eleconda(Stats stats) {
         super("Eleconda",
                 Type.ELECTRIC, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

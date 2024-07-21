@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Papilitite extends drai.dev.data.pokemon.Pokemon {
-    public Papilitite() {
+    public Papilitite(Stats stats) {
         super("Papilitite",
                 Type.BUG, Type.ROCK,
                 new Stats(0,

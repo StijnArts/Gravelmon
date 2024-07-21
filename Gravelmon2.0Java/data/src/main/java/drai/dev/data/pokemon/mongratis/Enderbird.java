@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Enderbird extends drai.dev.data.pokemon.Pokemon {
-    public Enderbird() {
+    public Enderbird(Stats stats) {
         super("Enderbird",
                 Type.GHOST, Type.POISON,
                 new Stats(0,

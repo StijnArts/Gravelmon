@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Minothorn extends drai.dev.data.pokemon.Pokemon {
-    public Minothorn() {
+    public Minothorn(Stats stats) {
         super("Minothorn",
                 Type.GRASS, Type.FIGHTING,
                 new Stats(0,

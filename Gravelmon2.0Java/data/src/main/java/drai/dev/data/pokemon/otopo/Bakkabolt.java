@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Bakkabolt extends drai.dev.data.pokemon.Pokemon {
-    public Bakkabolt() {
+    public Bakkabolt(Stats stats) {
         super("Pteronize",
                 Type.ELECTRIC, Type.DARK,
                 new Stats(0,

@@ -135,7 +135,7 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": gender=male,
+          "target": "gender=male",
           "contains": true
         }
       ],
@@ -151,7 +151,7 @@
       "requirements": [
         {
           "variant": "properties",
-          "target": gender=female,
+          "target": "gender=female",
           "contains": true
         }
       ],

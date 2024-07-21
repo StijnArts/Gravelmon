@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Jawar extends drai.dev.data.pokemon.Pokemon {
-    public Jawar() {
+    public Jawar(Stats stats) {
         super("Jawar",
                 Type.FIRE, Type.POISON,
                 new Stats(0,

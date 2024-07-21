@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Reabuto extends drai.dev.data.pokemon.Pokemon {
-    public Reabuto() {
+    public Reabuto(Stats stats) {
         super("Reabuto",
                 Type.DARK, Type.WATER,
                 new Stats(0,

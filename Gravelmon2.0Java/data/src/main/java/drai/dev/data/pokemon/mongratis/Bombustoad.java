@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Bombustoad extends drai.dev.data.pokemon.Pokemon {
-    public Bombustoad() {
+    public Bombustoad(Stats stats) {
         super("Bombustoad",
                 Type.FIRE,
                 new Stats(0,
