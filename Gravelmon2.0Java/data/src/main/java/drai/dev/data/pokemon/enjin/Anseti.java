@@ -6,10 +6,15 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Anseti extends drai.dev.data.pokemon.Pokemon {
-    public Anseti(Stats stats) {
+    public Anseti() {
         super("Anseti",
                 Type.PSYCHIC,
-                stats,
+                new Stats(69,
+                        29,
+                        49,
+                        89,
+                        99,
+                        69),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -14,8 +14,10 @@ public enum StatArchetype {
     SLOW_BULKY_SPECIAL_ATTACKER(135, 50, 135, 135, 115, 30),
     SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER(135, 50, 155, 135, 95, 30),
     FAST_SPECIAL_WALL(135, 50, 65, 75, 155, 110),
+    FAST_PHYSICAL_WALL(135, 75, 155, 50, 65, 110),
     SPECIAL_WALL(165, 50, 75, 75, 195, 30),
-    PHYSICAL_WALL(165, 75, 195, 50, 50, 30);
+    PHYSICAL_WALL(165, 75, 195, 50, 50, 30),
+    ALL_ROUND(100, 100, 100, 100, 100, 100);
 
 
     StatArchetype(int hp, int attack, int defence, int specialAttack, int specialDefence, int speed) {
