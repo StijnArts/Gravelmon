@@ -6,10 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Sunling extends drai.dev.data.pokemon.Pokemon {
-    public Sunling(Stats stats) {
+    public Sunling() {
         super("Sunling",
                 Type.FIRE,
-                stats,
+                new Stats(0,0,0,0,0,0),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

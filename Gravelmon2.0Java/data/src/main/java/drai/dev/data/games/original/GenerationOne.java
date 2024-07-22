@@ -83,16 +83,16 @@ public class GenerationOne extends Game {
         pokemon.add(new AfricanusanMachamp("", Aspect.AFRICANUSAN));
 
         pokemon.add(new IonosianEkans("", Aspect.IONOSIAN));   Missing Stats
-        pokemon.add(new IonosianArbok("", Aspect.IONOSIAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new IonosianArbok("", Aspect.IONOSIAN, new Stats(448, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   Missing Stats
 //        pokemon.add(new IonosianHypno("", Aspect.IONOSIAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
 //                List.of(StatType.SPEED))));   Member of line not finished
-        pokemon.add(new IonosianStarmie("", Aspect.IONOSIAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new IonosianStarmie("", Aspect.IONOSIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   Missing Stats
-        pokemon.add(new IonosianJynx("", Aspect.IONOSIAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new IonosianJynx("", Aspect.IONOSIAN, new Stats(455, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   Missing Stats
-        pokemon.add(new IonosianSnorlax("", Aspect.IONOSIAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   Missing Stats
+        pokemon.add(new IonosianSnorlax("", Aspect.IONOSIAN, new Stats(540, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.HP))));   Missing Stats
 
         pokemon.add(new FligianBellsprout("", Aspect.FLIGIAN));
         pokemon.add(new FligianWeepinbell("", Aspect.FLIGIAN));

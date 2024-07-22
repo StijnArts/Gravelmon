@@ -6,10 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mushi extends drai.dev.data.pokemon.Pokemon {
-    public Mushi(Stats stats) {
+    public Mushi() {
         super("Mushi",
                 Type.POISON, Type.GRASS,
-                stats,
+                new Stats(0,0,0,0,0,0),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

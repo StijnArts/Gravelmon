@@ -63,8 +63,8 @@ public class GenerationThree extends Game {
 
         pokemon.add(new IonosianTrapinch("", Aspect.IONOSIAN));   Missing Stats
         pokemon.add(new IonosianVibrava("", Aspect.IONOSIAN));   Missing Stats
-        pokemon.add(new IonosianFlygon("", Aspect.IONOSIAN, new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   Missing Stats
+        pokemon.add(new IonosianFlygon("", Aspect.IONOSIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));   Missing Stats
 
         pokemon.add(new FligianTreecko("Treecko", Aspect.FLIGIAN));
         pokemon.add(new FligianGrovyle("Grovyle", Aspect.FLIGIAN));

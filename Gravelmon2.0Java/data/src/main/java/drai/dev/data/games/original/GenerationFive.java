@@ -1,7 +1,9 @@
 package drai.dev.data.games.original;
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
+import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
@@ -27,6 +29,8 @@ import drai.dev.data.pokemon.radicalred.*;
 import drai.dev.data.pokemon.ayrei.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
+
+import java.util.*;
 
 public class GenerationFive extends Game {
     public GenerationFive() {
@@ -64,7 +68,7 @@ public class GenerationFive extends Game {
 //        pokemon.add(new LagoonanChandelure("", Aspect.LAGOONAN));
 
 //        pokemon.add(new IonosianKarrablast(588));   Missing Art
-//        pokemon.add(new IonosianDruddigon(621));   Missing Stats
+        pokemon.add(new IonosianDruddigon("", Aspect.IONOSIAN, new Stats(485, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of())));   Missing Stats
 
         pokemon.add(new FligianVanillite("", Aspect.FLIGIAN));
         pokemon.add(new FligianVanillish("", Aspect.FLIGIAN));

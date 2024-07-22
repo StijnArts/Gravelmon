@@ -82,20 +82,25 @@ public class GenerationTwo extends Game {
 
         pokemon.add(new IonosianChikorita("", Aspect.IONOSIAN));   Missing Stats
         pokemon.add(new IonosianBayleef("", Aspect.IONOSIAN));   Missing Stats
-        pokemon.add(new IonosianMeganium("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   Missing Stats
+        pokemon.add(new IonosianMeganium("", Aspect.IONOSIAN, new Stats(525, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.HP))));   Missing Stats
         pokemon.add(new IonosianCyndaquil("", Aspect.IONOSIAN));   Missing Stats //Sprite on desktop
         pokemon.add(new IonosianQuilava("", Aspect.IONOSIAN));   Missing Stats
-        pokemon.add(new IonosianTyphlosion("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   Missing Stats
+        pokemon.add(new IonosianTyphlosion("", Aspect.IONOSIAN, new Stats(534, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(StatType.SPECIAL_ATTACK))));   Missing Stats
         pokemon.add(new IonosianTotodile("", Aspect.IONOSIAN));   Missing Stats
         pokemon.add(new IonosianCroconaw("", Aspect.IONOSIAN));   Missing Stats
-        pokemon.add(new IonosianFeraligatr("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   Missing Stats
+        pokemon.add(new IonosianFeraligatr("", Aspect.IONOSIAN, new Stats(530, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));   Missing Stats
         pokemon.add(new IonosianNatu("", Aspect.IONOSIAN));   Missing Stats
-        pokemon.add(new IonosianXatu("", Aspect.IONOSIAN,new Stats(0, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));   Missing Stats
-        pokemon.add(new IonosianGirafarig("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL,
+        pokemon.add(new IonosianXatu("", Aspect.IONOSIAN,new Stats(470, StatArchetype.PHYSICAL_WALL,
+                List.of(StatType.HP))));   Missing Stats
+        pokemon.add(new IonosianGirafarig("", Aspect.IONOSIAN, new Stats(455, StatArchetype.BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   Missing Stats
 //        pokemon.add(new IonosianGranbull("", Aspect.IONOSIAN));   Missing Stats
-        pokemon.add(new IonosianShuckle("", Aspect.IONOSIAN, new Stats(0, StatArchetype.PHYSICAL_WALL,
-                List.of(StatType.SPEED))));   Missing Stats
+        pokemon.add(new IonosianShuckle("", Aspect.IONOSIAN, new Stats(505, StatArchetype.FAST_PHYSICAL_WALL,
+                List.of(StatType.DEFENCE, StatType.DEFENCE, StatType.DEFENCE, StatType.SPECIAL_DEFENCE, StatType.SPECIAL_DEFENCE,
+                        StatType.SPECIAL_DEFENCE))));   Missing Stats
         pokemon.add(new IonosianSmoochum("", Aspect.IONOSIAN));   Missing Stats
 
         pokemon.add(new FligianAipom("Aipom", Aspect.FLIGIAN));
