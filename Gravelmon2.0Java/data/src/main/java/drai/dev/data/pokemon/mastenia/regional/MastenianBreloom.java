@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class MastenianBreloom extends drai.dev.data.pokemon.Pokemon {
-    public MastenianBreloom(String name, Aspect aspect) {
+    public MastenianBreloom(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Breloom",
                 Type.DRAGON,Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.EFFECT_SPORE,Ability.OUTBURST), Ability.TECHNICIAN,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

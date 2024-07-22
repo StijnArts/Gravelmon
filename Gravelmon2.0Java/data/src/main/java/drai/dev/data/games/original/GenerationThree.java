@@ -54,10 +54,12 @@ public class GenerationThree extends Game {
 //        pokemon.add(new MastenianTorchic("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new MastenianCombusken("", Aspect.MASTENIAN)); MISSING ART
 //        pokemon.add(new MastenianMudkip("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-//        pokemon.add(new MastenianShroomish("", Aspect.MASTENIAN)); TODO
-//        pokemon.add(new MastenianBreloom("", Aspect.MASTENIAN)); TODO
+        pokemon.add(new MastenianShroomish("", Aspect.MASTENIAN)); Missing Stats
+        pokemon.add(new MastenianBreloom("", Aspect.MASTENIAN, new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK)))); Missing Stats
 //        pokemon.add(new MastenianIllumise("", Aspect.MASTENIAN)); MISSING ART
-//        pokemon.add(new MastenianVolbeat("", Aspect.MASTENIAN)); TODO
+        pokemon.add(new MastenianVolbeat("", Aspect.MASTENIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK)))); Missing Stats
 
         registerSoulstonesVariants();
 

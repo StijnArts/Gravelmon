@@ -32,8 +32,8 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Cobarett());
         pokemon.add(new Pythonova());
         pokemon.add(new Ninoala());   
-        pokemon.add(new Koaninja(new Stats(0, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));   
-        pokemon.add(new Anu(new Stats(0, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));   
+        pokemon.add(new Koaninja(new Stats(430, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
+        pokemon.add(new Anu(new Stats(340, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
         pokemon.add(new Merlicun());
         pokemon.add(new Firomenis());
         pokemon.add(new Baoby());

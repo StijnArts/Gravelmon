@@ -1,4 +1,4 @@
-package drai.dev.data.pokemon.mastenia;
+package drai.dev.data.pokemon.mastenia.regional;
 
 
 import drai.dev.data.attributes.*;
@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class MastenianVolbeat extends drai.dev.data.pokemon.Pokemon {
-    public MastenianVolbeat(String name, Aspect aspect) {
+    public MastenianVolbeat(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Volbeat",
                 Type.BUG, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
