@@ -30,4 +30,32 @@ public enum StatArchetype {
     }
 
     public int hp, attack, defence, specialAttack, specialDefence, speed;
+
+    public static StatArchetype findClosestArchetype(Stats pokemonStats) {
+        StatArchetype closestArchetype = null;
+        double minDistance = Double.MAX_VALUE;
+
+        for (StatArchetype archetype : StatArchetype.values()) {
+            Stats archetypeStats = new Stats(archetype.hp, archetype.attack, archetype.defence, archetype.specialAttack, archetype.specialDefence, archetype.speed);
+            double distance = calculateDistance(pokemonStats, archetypeStats);
+
+            if (distance < minDistance) {
+                minDistance = distance;
+                closestArchetype = archetype;
+            }
+        }
+
+        return closestArchetype;
+    }
+
+    public static double calculateDistance(Stats stats1, Stats stats2) {
+        return Math.sqrt(
+                Math.pow(stats1.getHP() - stats2.getHP(), 2) +
+                        Math.pow(stats1.getAttack() - stats2.getAttack(), 2) +
+                        Math.pow(stats1.getDefence() - stats2.getDefence(), 2) +
+                        Math.pow(stats1.getSpecialAttack() - stats2.getSpecialAttack(), 2) +
+                        Math.pow(stats1.getSpecialDefence() - stats2.getSpecialDefence(), 2) +
+                        Math.pow(stats1.getSpeed() - stats2.getSpeed(), 2)
+        );
+    }
 }

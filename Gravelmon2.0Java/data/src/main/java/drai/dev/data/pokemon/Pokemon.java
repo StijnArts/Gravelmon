@@ -102,7 +102,7 @@ public class Pokemon {
 
 
     protected static void addAdditionalEvolution(String from, EvolutionEntry evolutionEntry) {
-        if(from.contains(" ")){
+        if (from.contains(" ")) {
             return;
         }
         var forms = ADDITIONAL_EVOLUTIONS.computeIfAbsent(from, k -> new ArrayList<>());
@@ -117,8 +117,8 @@ public class Pokemon {
         String className = getClass().getSimpleName();
         for (int i = 0; i < 20; i++) {
             String numberAsWord = EnglishNumberToWords.convert(i);
-            if(className.endsWith(StringUtils.capitalize(numberAsWord.toLowerCase()))){
-                key = key.substring(0, key.length()-numberAsWord.length());
+            if (className.endsWith(StringUtils.capitalize(numberAsWord.toLowerCase()))) {
+                key = key.substring(0, key.length() - numberAsWord.length());
                 break;
             }
         }
@@ -298,7 +298,7 @@ public class Pokemon {
         }
         System.out.println(pokemonThatEvolveIntoThemselves);
 //        System.out.println(pokemonWithZeroBaseStats);
-        System.out.println(pokemonWithZeroCatchrate);
+//        System.out.println(pokemonWithZeroCatchrate);
         System.out.println(pokemonWithMoreThanTwoSpawnPresets);
         System.out.println("Evolution Items:");
         for (String item : EVOLUTION_ITEMS) System.out.println(item + ",");
@@ -329,8 +329,8 @@ public class Pokemon {
                 }
             }
 
-            for (var form : pokemon.forms){
-                if(form.getAbilities().contains(form.getHiddenAbility())){
+            for (var form : pokemon.forms) {
+                if (form.getAbilities().contains(form.getHiddenAbility())) {
                     form.setHiddenAbility(null);
                 }
                 for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
@@ -352,12 +352,27 @@ public class Pokemon {
             if (pokemon.stats.isEmpty()) {
                 pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
             }
-            if(pokemon.getAbilities().contains(pokemon.hiddenAbility)){
+            if (pokemon.getAbilities().contains(pokemon.hiddenAbility)) {
                 pokemon.hiddenAbility = null;
             }
 
-            if(Gravelmon.FOSSIL_MAP.containsValue(pokemon.getCleanName()) || Gravelmon.FOSSIL_MAP.containsValue(pokemon.getPreEvolution())){
+            if (Gravelmon.FOSSIL_MAP.containsValue(pokemon.getCleanName()) || Gravelmon.FOSSIL_MAP.containsValue(pokemon.getPreEvolution())) {
                 FOSSIL_POKEMON.add(pokemon);
+            }
+
+            if (pokemon.getLearnSet().isEmpty()) {
+                pokemon.setLearnSet(MoveListFiller.resolveMoveList(pokemon));
+            }
+
+            if (0 == pokemon.getCatchRate()) {
+                var baseStatTotal = pokemon.getStats().getTotal();
+                if (baseStatTotal == 600) {
+                    pokemon.setCatchRate(45);
+                } else if (baseStatTotal > 570) {
+                    pokemon.setCatchRate(3);
+                } else {
+                    pokemon.setCatchRate(resolveNumber(baseStatTotal));
+                }
             }
         }
         System.out.println(pokemonWithZeroBaseStats);
@@ -366,7 +381,7 @@ public class Pokemon {
             var pokemon = POKEMON_REGISTRY.get(additionalEvolutionEntrySet.getKey());
             for (var evolutionEntry : additionalEvolutionEntrySet.getValue()) {
                 Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
-                if(result == null) continue;
+                if (result == null) continue;
                 if (pokemon == null) {
                     if (evolutionEntry.getRequiredContext() != null) {
                         addAdditionalItemDrop(additionalEvolutionEntrySet.getKey(), evolutionEntry.getRequiredContext(), result);
@@ -393,18 +408,42 @@ public class Pokemon {
         }
     }
 
+    public static int resolveNumber(int inputNumber) {
+        // Define the input and output ranges
+        int inputMin = 180;
+        int inputMax = 570;
+        int outputMin = 30;
+        int outputMax = 255;
+
+        // Ensure the input number is within the expected range
+        if (inputNumber < inputMin) {
+            inputNumber = inputMin;
+        } else if (inputNumber > inputMax) {
+            inputNumber = inputMax;
+        }
+
+        // Calculate the output using linear interpolation
+        double outputNumber = outputMax - ((double) (inputNumber - inputMin) / (inputMax - inputMin)) * (outputMax - outputMin);
+
+        return (int) Math.round(outputNumber);
+    }
+
+    private void setCatchRate(int i) {
+        catchRate = i;
+    }
+
     protected static void addAdditionalItemDrop(String from, String evolutionItem, Pokemon result) {
         if (evolutionItem.contains("gravelmon")) {
             if (!EVOLUTION_ITEMS.contains(evolutionItem)) {
                 EVOLUTION_ITEMS.add(evolutionItem);
             }
         }
-        if(!ADDITIONAL_DROPS.containsKey(from)){
+        if (!ADDITIONAL_DROPS.containsKey(from)) {
             ADDITIONAL_DROPS.put(from, new ArrayList<>());
         }
 
         ADDITIONAL_DROPS.get(from).add(new ItemDrop(evolutionItem, 10, 1, 1));
-        if(result != null){
+        if (result != null) {
             result.setDropAmount(1);
             result.getDrops().add(new ItemDrop(evolutionItem, 40, 1, 1));
         }
@@ -905,17 +944,17 @@ public class Pokemon {
         this.drops = drops;
     }
 
-    public void setLearnSet(List<MoveLearnSetEntry> moves){
+    public void setLearnSet(List<MoveLearnSetEntry> moves) {
         this.learnSet = moves;
     }
 
     public Pokemon setUsesBigModel() {
         this.usesBigModel = true;
 //        this.baseScale = baseScale / 4;
-        return  this;
+        return this;
     }
 
-    public boolean usesBigModel(){
+    public boolean usesBigModel() {
         return usesBigModel;
     }
 }
