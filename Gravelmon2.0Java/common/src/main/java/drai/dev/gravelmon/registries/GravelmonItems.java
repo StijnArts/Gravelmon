@@ -51,7 +51,6 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> XENOVERSAL_RING = item("xenoversal_ring");
     public static RegistrySupplier<Item> INDUCTIVE_RING = item("inductive_ring");
 
-    //todo integrate new items
     public static RegistrySupplier<Item> GOLDEN_FEATHER = item("golden_feather");
     public static RegistrySupplier<Item> PIXIE_DUST = item("pixie_dust");
     public static RegistrySupplier<Item> OCARINA = item("ocarina");

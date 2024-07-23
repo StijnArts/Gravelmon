@@ -1,11 +1,11 @@
-package drai.dev.data.games;
+package drai.dev.data.games.og;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.pokemon.xenoverse.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+
 public class Xenoverse extends Game {
     public Xenoverse() {
         super("Xenoverse");

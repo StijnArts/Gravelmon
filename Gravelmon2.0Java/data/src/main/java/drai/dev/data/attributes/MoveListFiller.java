@@ -16,10 +16,18 @@ public class MoveListFiller {
         List<MoveLearnSetEntry> learnSet = new ArrayList<>();
         List<List<Move>> moveOptions = getMoveOptions(statArchetype, pokemon.getPrimaryType(), pokemon.getSecondaryType());
         var iterators = moveOptions.stream().map(List::listIterator).toList();
-        for(int level : MOVE_LEARNING_LEVELS.get(pokemon.getExperienceGroup())){
+        var shouldContinue = true;
+        var levelIterator = 0;
+        while(shouldContinue) {
+            var level = MOVE_LEARNING_LEVELS.get(pokemon.getExperienceGroup()).get(levelIterator);
             for (int i = 0; i < moveOptions.size(); i++) {
-                learnSet.add(new MoveLearnSetEntry(iterators.get(i).next(), level));
+                var move = iterators.get(i).next();
+                if(move==null) continue;
+                learnSet.add(new MoveLearnSetEntry(move, level));
+                if(i == moveOptions.size()-1) shouldContinue = false;
+                break;
             }
+            if(levelIterator == MOVE_LEARNING_LEVELS.get(pokemon.getExperienceGroup()).size()-1) shouldContinue = false;
         }
         return learnSet;
     }

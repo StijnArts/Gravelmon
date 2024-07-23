@@ -1,12 +1,10 @@
-package drai.dev.data.games;
+package drai.dev.data.games.og;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.fliga.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.flux.regional.*;
 import drai.dev.data.pokemon.uranium.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Uranium extends Game {
     public Uranium() { super("Uranium"); }

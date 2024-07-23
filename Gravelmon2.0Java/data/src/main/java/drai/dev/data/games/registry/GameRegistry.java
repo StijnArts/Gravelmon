@@ -1,7 +1,7 @@
 package drai.dev.data.games.registry;
 
 import drai.dev.data.*;
-import drai.dev.data.games.*;
+import drai.dev.data.games.og.*;
 import drai.dev.data.games.original.*;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.firstbatch.*;
@@ -12,7 +12,6 @@ import java.util.*;
 public class GameRegistry {
     public static ArrayList<Game> games = new ArrayList<>();
     public static void registerGames(){
-        //TODO add the better nether biomes to the nether biomes tags
         games.add(new GenerationOne());
         games.add(new GenerationTwo());
         games.add(new GenerationThree());
