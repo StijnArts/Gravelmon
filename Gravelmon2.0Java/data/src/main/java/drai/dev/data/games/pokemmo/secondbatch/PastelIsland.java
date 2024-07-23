@@ -17,22 +17,6 @@ public class PastelIsland extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new PastelianLedyba("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianLedian("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianFlabebe("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianFloette("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianGirafarig("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianShellder("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianCloyster("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianSneasel("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianWeavile("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianGothita("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianGothorita("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianGothitelle("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianSmeargle("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianChansey("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianKoffing("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianWeezing("", Aspect.PASTELIAN));
         pokemon.add(new Geckamp());
         pokemon.add(new Gecktricity());
         pokemon.add(new Geckolt());
@@ -60,7 +44,7 @@ public class PastelIsland extends drai.dev.data.games.registry.Game {
         pokemon.add(new Panthevil());
         pokemon.add(new Florgae());
         pokemon.add(new Friylash()); 
-        pokemon.add(new Majestrill(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Majestrill(new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED)))); 
         pokemon.add(new Dametal());
         pokemon.add(new Damaleo());
@@ -76,31 +60,31 @@ public class PastelIsland extends drai.dev.data.games.registry.Game {
         pokemon.add(new Bossey());
         pokemon.add(new PsyEye());   
         pokemon.add(new Hyprentice());   
-        pokemon.add(new Hallusage(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Hallusage(new Stats(500, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_ATTACK))));
         pokemon.add(new Giruffle());   
         pokemon.add(new Sparaffe());   
-        pokemon.add(new Trojaraffe(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Trojaraffe(new Stats(500, StatArchetype.FAST_PHYSICAL_WALL,
+                List.of(StatType.DEFENCE))));
         pokemon.add(new Dimnewt());   
         pokemon.add(new Spimeleon());   
-        pokemon.add(new Donguana(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Donguana(new Stats(500, StatArchetype.BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.HP))));
         pokemon.add(new Malloh());   
         pokemon.add(new Marshamie());   
-        pokemon.add(new Mallowisp(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Mallowisp(new Stats(490, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_ATTACK))));
 //        pokemon.add(new Cobblelf()); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Elfishoe());   Missing Art
 //        pokemon.add(new Sabatelf());   Missing Art
         pokemon.add(new Leetch());   
         pokemon.add(new Pariahsite());   
-        pokemon.add(new Haebidon(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Haebidon(new Stats(530, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.DEFENCE))));
         pokemon.add(new Rooklite());   
         pokemon.add(new Militite());   
-        pokemon.add(new Colossesar(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Colossesar(new Stats(530, StatArchetype.BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.HP))));
     }
 
 }

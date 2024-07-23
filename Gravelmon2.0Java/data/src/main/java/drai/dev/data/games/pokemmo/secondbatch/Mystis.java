@@ -12,10 +12,6 @@ public class Mystis extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new MystisianImpidimp("", Aspect.MYSTISIAN));
-        pokemon.add(new MystisianMorgrem("", Aspect.MYSTISIAN));
-        pokemon.add(new MystisianGrimmsnarl("", Aspect.MYSTISIAN));
-        pokemon.add(new MystisianAbsol("", Aspect.MYSTISIAN));
 
         pokemon.add(new Munchmite());
         pokemon.add(new Larbor());

@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Plumbee extends drai.dev.data.pokemon.Pokemon {
-    public Plumbee(Stats stats) {
+    public Plumbee() {
         super("Plumbee",
                 Type.BUG, Type.GRASS,
                 stats,

@@ -2,6 +2,7 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
+import drai.dev.data.pokemon.mystis.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
@@ -21,6 +22,10 @@ public class GenerationEight extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new MystisianImpidimp("", Aspect.MYSTISIAN)); TODO
+        pokemon.add(new MystisianMorgrem("", Aspect.MYSTISIAN));
+        pokemon.add(new MystisianGrimmsnarl("", Aspect.MYSTISIAN));
+
         registerSoulstonesVariants();
 
 //        pokemon.add(new OttoranImpidimp("", Aspect.OTTORAN)); MEMBER OF LINE NOT FINISHED

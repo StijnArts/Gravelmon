@@ -5,6 +5,7 @@ import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.mastenia.*;
 import drai.dev.data.pokemon.mastenia.MastenianVolbeat;
 import drai.dev.data.pokemon.mastenia.regional.*;
+import drai.dev.data.pokemon.mystis.regional.*;
 import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.olysos.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
@@ -41,6 +42,8 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new MystisianAbsol("", Aspect.MYSTISIAN)); TODO
+
         pokemon.add(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO
         pokemon.add(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
 

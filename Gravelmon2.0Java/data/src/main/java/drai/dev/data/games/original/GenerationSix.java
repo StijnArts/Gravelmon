@@ -6,6 +6,7 @@ import drai.dev.data.pokemon.chaosinvestia.*;
 import drai.dev.data.pokemon.chaosinvestia.regional.*;
 import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
+import drai.dev.data.pokemon.pastelisland.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -30,6 +31,9 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new PastelianFlabebe("", Aspect.PASTELIAN)); TODO
+        pokemon.add(new PastelianFloette("", Aspect.PASTELIAN));
+
 //        pokemon.add(new TheossianFlabebe("", Aspect.THEOSSIAN)); TODO
 //        pokemon.add(new TheossianFloette("", Aspect.THEOSSIAN));
 //        pokemon.add(new TheossianFlorges("", Aspect.THEOSSIAN));

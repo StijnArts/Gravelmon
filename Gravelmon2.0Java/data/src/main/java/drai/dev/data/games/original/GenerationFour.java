@@ -4,6 +4,7 @@ import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.nodorro.regional.*;
+import drai.dev.data.pokemon.pastelisland.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -40,6 +41,8 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new PastelianWeavile("", Aspect.PASTELIAN)); TODO
+
 //        pokemon.add(new OlysosianSkorupi("", Aspect.OLYSOSIAN)); Missing Art
 //        pokemon.add(new OlysosianDrapion("", Aspect.OLYSOSIAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new OlysosianBuneary("", Aspect.OLYSOSIAN)); MEMBER OF LINE NOT FINISHED

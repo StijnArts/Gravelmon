@@ -6,6 +6,7 @@ import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.nodorro.regional.*;
+import drai.dev.data.pokemon.pastelisland.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -39,6 +40,10 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new PastelianGothita("", Aspect.PASTELIAN)); TODO
+        pokemon.add(new PastelianGothorita("", Aspect.PASTELIAN));
+        pokemon.add(new PastelianGothitelle("", Aspect.PASTELIAN));
+
 //        pokemon.add(new TheossianCottonee("", Aspect.THEOSSIAN)); TODO
 //        pokemon.add(new TheossianWhimsicott("", Aspect.THEOSSIAN));
 //        pokemon.add(new TheossianPetilil("", Aspect.THEOSSIAN));

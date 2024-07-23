@@ -6,6 +6,7 @@ import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.nodorro.regional.*;
+import drai.dev.data.pokemon.pastelisland.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -41,6 +42,12 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new PastelianLedyba("", Aspect.PASTELIAN)); TODO
+        pokemon.add(new PastelianLedian("", Aspect.PASTELIAN));
+        pokemon.add(new PastelianGirafarig("", Aspect.PASTELIAN));
+        pokemon.add(new PastelianSneasel("", Aspect.PASTELIAN));
+        pokemon.add(new PastelianSmeargle("", Aspect.PASTELIAN));
+
 //        pokemon.add(new TheossianSunflora("", Aspect.THEOSSIAN)); TODO
 //        pokemon.add(new TheossianSpinarak("", Aspect.THEOSSIAN));
 //        pokemon.add(new TheossianAriados("", Aspect.THEOSSIAN));
