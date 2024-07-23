@@ -9,12 +9,7 @@ public class Ferocidile extends drai.dev.data.pokemon.Pokemon {
     public Ferocidile(Stats stats) {
         super("Ferocidile",
                 Type.WATER, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -41,13 +41,13 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO
-//        pokemon.add(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
+        pokemon.add(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO
+        pokemon.add(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
 
 //        pokemon.add(new NodorranTreecko("", Aspect.NODORRAN));  MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new NodorranGrovyle("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new NodorranSceptile("", Aspect.NODORRAN)); Missing art
-//        pokemon.add(new NodorranNosepass("", Aspect.NODORRAN)); TODO
+        pokemon.add(new NodorranNosepass("", Aspect.NODORRAN)); TODO
 
 //        pokemon.add(new MastenianTreecko("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new MastenianGrovyle("", Aspect.MASTENIAN)); MISSING ART

@@ -58,14 +58,14 @@ public class GenerationOne extends Game {
 
 //        pokemon.add(new NodorranEkans("", Aspect.NODORRAN)); TODO
 //        pokemon.add(new NodorranArbok("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranGastly("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranHaunter("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranGengar("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranMagikarp("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranGyarados("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranOnix("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranKoffing("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranWeezing("", Aspect.NODORRAN));
+        pokemon.add(new NodorranGastly("", Aspect.NODORRAN));
+        pokemon.add(new NodorranHaunter("", Aspect.NODORRAN));
+        pokemon.add(new NodorranGengar("", Aspect.NODORRAN));
+        pokemon.add(new NodorranMagikarp("", Aspect.NODORRAN));
+        pokemon.add(new NodorranGyarados("", Aspect.NODORRAN));
+        pokemon.add(new NodorranOnix("", Aspect.NODORRAN));
+        pokemon.add(new NodorranKoffing("", Aspect.NODORRAN));
+        pokemon.add(new NodorranWeezing("", Aspect.NODORRAN));
 
 //        pokemon.add(new MastenianTentacool("", Aspect.MASTENIAN)); TODO
 //        pokemon.add(new MastenianPsyduck("", Aspect.MASTENIAN)); TODO

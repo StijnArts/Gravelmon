@@ -9,12 +9,7 @@ public class Brimscorch extends drai.dev.data.pokemon.Pokemon {
     public Brimscorch(Stats stats) {
         super("Brimscorch",
                 Type.FIRE, Type.ROCK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

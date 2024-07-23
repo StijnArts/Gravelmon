@@ -9,12 +9,7 @@ public class Faewren extends drai.dev.data.pokemon.Pokemon {
     public Faewren(Stats stats) {
         super("Faewren",
                 Type.FAIRY, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.CUTE_CHARM), Ability.PIXILATE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

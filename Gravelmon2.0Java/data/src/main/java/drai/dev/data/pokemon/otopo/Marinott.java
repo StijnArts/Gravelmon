@@ -9,12 +9,7 @@ public class Marinott extends drai.dev.data.pokemon.Pokemon {
     public Marinott(Stats stats) {
         super("Marinott",
                 Type.WATER, Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

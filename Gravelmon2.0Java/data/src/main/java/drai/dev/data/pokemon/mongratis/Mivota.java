@@ -9,12 +9,7 @@ public class Mivota extends drai.dev.data.pokemon.Pokemon {
     public Mivota(Stats stats) {
         super("Mivota",
                 Type.PSYCHIC, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

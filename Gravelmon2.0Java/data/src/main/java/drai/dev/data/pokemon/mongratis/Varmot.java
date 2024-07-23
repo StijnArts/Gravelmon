@@ -9,12 +9,7 @@ public class Varmot extends drai.dev.data.pokemon.Pokemon {
     public Varmot(Stats stats) {
         super("Varmot",
                 Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

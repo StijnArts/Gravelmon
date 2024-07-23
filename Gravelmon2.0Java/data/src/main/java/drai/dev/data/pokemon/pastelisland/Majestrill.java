@@ -9,12 +9,7 @@ public class Majestrill extends drai.dev.data.pokemon.Pokemon {
     public Majestrill(Stats stats) {
         super("Majestrill",
                 Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

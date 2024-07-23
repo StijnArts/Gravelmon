@@ -9,12 +9,7 @@ public class Scavengila extends drai.dev.data.pokemon.Pokemon {
     public Scavengila(Stats stats) {
         super("Scavengila",
                 Type.GROUND, Type.POISON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

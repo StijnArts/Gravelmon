@@ -9,12 +9,7 @@ public class Ogrean extends drai.dev.data.pokemon.Pokemon {
     public Ogrean(Stats stats) {
         super("Ogrean",
                 Type.DARK, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.RELENTLESS,Ability.MAGIC_BOUNCE), Ability.WIND_POWER,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

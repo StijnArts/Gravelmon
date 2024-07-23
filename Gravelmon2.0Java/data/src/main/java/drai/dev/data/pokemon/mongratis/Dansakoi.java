@@ -9,12 +9,7 @@ public class Dansakoi extends drai.dev.data.pokemon.Pokemon {
     public Dansakoi(Stats stats) {
         super("Dansakoi",
                 Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

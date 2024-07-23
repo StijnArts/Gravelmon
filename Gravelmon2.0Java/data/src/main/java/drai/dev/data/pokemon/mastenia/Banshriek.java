@@ -9,12 +9,7 @@ public class Banshriek extends drai.dev.data.pokemon.Pokemon {
     public Banshriek(Stats stats) {
         super("Banshriek",
                 Type.GHOST, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LEVITATE), Ability.PUNK_ROCK,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

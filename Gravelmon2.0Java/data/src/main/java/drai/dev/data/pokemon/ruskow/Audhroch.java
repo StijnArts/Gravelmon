@@ -9,12 +9,7 @@ public class Audhroch extends drai.dev.data.pokemon.Pokemon {
     public Audhroch(Stats stats) {
         super("Audhroch",
                 Type.FIRE, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.BLAZE), Ability.ANGER_POINT,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

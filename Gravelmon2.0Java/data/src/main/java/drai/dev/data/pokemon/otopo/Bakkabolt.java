@@ -9,12 +9,7 @@ public class Bakkabolt extends drai.dev.data.pokemon.Pokemon {
     public Bakkabolt(Stats stats) {
         super("Pteronize",
                 Type.ELECTRIC, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.STATIC), Ability.STATIC,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -9,12 +9,7 @@ public class Toxwine extends drai.dev.data.pokemon.Pokemon {
     public Toxwine(Stats stats) {
         super("Toxwine",
                 Type.POISON, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

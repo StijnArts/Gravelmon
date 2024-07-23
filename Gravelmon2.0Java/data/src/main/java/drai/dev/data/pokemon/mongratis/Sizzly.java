@@ -9,12 +9,7 @@ public class Sizzly extends drai.dev.data.pokemon.Pokemon {
     public Sizzly(Stats stats) {
         super("Sizzly",
                 Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 27, 2850,
                 new Stats(0,0,0,0,0,0), 45,

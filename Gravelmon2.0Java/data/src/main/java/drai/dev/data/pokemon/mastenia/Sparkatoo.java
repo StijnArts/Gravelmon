@@ -9,12 +9,7 @@ public class Sparkatoo extends drai.dev.data.pokemon.Pokemon {
     public Sparkatoo(Stats stats) {
         super("Sparkatoo",
                 Type.PSYCHIC, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LEVITATE,Ability.KEEN_EYE), Ability.MAGIC_BOUNCE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

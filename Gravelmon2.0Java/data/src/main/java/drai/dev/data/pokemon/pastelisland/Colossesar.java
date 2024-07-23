@@ -9,12 +9,7 @@ public class Colossesar extends drai.dev.data.pokemon.Pokemon {
     public Colossesar(Stats stats) {
         super("Colossesar",
                 Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.GUTS,Ability.IRON_FIST), Ability.SHEER_FORCE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -9,12 +9,7 @@ public class Kyokinomi extends drai.dev.data.pokemon.Pokemon {
     public Kyokinomi(Stats stats) {
         super("Kyokinomi",
                 Type.GHOST, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

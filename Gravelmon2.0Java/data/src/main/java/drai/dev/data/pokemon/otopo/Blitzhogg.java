@@ -9,12 +9,7 @@ public class Blitzhogg extends drai.dev.data.pokemon.Pokemon {
     public Blitzhogg(Stats stats) {
         super("Blitzhogg",
                 Type.ELECTRIC, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

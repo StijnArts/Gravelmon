@@ -9,12 +9,7 @@ public class Gilactic extends drai.dev.data.pokemon.Pokemon {
     public Gilactic(Stats stats) {
         super("Gilactic",
                 Type.WATER, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

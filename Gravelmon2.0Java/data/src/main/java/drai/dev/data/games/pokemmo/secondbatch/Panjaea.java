@@ -17,54 +17,54 @@ public class Panjaea extends drai.dev.data.games.registry.Game {
     public void registerPokemon() {
         pokemon.add(new Owleaf());   
         pokemon.add(new Fowliage());   
-        pokemon.add(new Strigallant(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Strigallant(new Stats(524, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   
         pokemon.add(new Coalverine());   
         pokemon.add(new Charmaul());   
-        pokemon.add(new Brimscorch(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Brimscorch(new Stats(530, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
         pokemon.add(new Raindolph());   
         pokemon.add(new Elkreek());   
-        pokemon.add(new Moocean(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Moocean(new Stats(528, StatArchetype.BULKY_SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Caterpolar());   
         pokemon.add(new Cryosalis());   
-        pokemon.add(new Monarctic(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Monarctic(new Stats(420, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Leetle());   
         pokemon.add(new Cherupace());   
-        pokemon.add(new Larviathan(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Larviathan(new Stats(450, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.DEFENCE, StatType.ATTACK))));
 //        pokemon.add(new Sassquish());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new 341676());   Missing Art
         pokemon.add(new Malacute());   
-        pokemon.add(new Huskules(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Huskules(new Stats(440, StatArchetype.FAST_SUPPORT,
+                List.of(StatType.ATTACK))));
         pokemon.add(new Turfin());   
-        pokemon.add(new Metalodon(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Metalodon(new Stats(440, StatArchetype.BULKY_SPECIAL_ATTACKER,
+                List.of(StatType.DEFENCE))));
         pokemon.add(new Frostkey());   
-        pokemon.add(new Frostrike(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Frostrike(new Stats(445, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.DEFENCE))));
         pokemon.add(new Smallet());   
-        pokemon.add(new Stormmer(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        pokemon.add(new Kikkyu(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Stormmer(new Stats(390, StatArchetype.BULKY_SPECIAL_ATTACKER,
+                List.of(StatType.DEFENCE))));
+        pokemon.add(new Kikkyu(new Stats(380, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.SPEED))));   
         pokemon.add(new Necreon());
         pokemon.add(new Tauroot());   
         pokemon.add(new Taurmor());   
-        pokemon.add(new Minothorn(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Minothorn(new Stats(510, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
         pokemon.add(new Cinduck());   
         pokemon.add(new Volswan());   
-        pokemon.add(new Swanix(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Swanix(new Stats(510, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   
         pokemon.add(new Minkler());   
         pokemon.add(new Lagoonorak());   
-        pokemon.add(new Tsunamink(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        pokemon.add(new Rugrant(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Tsunamink(new Stats(510, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
+        pokemon.add(new Rugrant(new Stats(310, StatArchetype.BULKY_SUPPORT,
                 List.of(StatType.SPEED))));   
         pokemon.add(new Perdizzy());   
         pokemon.add(new Perdazzle());   

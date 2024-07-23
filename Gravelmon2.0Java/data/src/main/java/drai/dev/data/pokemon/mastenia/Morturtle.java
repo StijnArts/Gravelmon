@@ -9,12 +9,7 @@ public class Morturtle extends drai.dev.data.pokemon.Pokemon {
     public Morturtle(Stats stats) {
         super("Morturtle",
                 Type.GROUND, Type.ROCK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SAND_STREAM), Ability.SAND_FORCE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -9,12 +9,7 @@ public class Desertusk extends drai.dev.data.pokemon.Pokemon {
     public Desertusk(Stats stats) {
         super("Desertusk",
                 Type.GROUND, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 21, 5610,
                 new Stats(1,1,0,0,0,0), 45,

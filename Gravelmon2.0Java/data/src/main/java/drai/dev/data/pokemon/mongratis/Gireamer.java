@@ -9,12 +9,7 @@ public class Gireamer extends drai.dev.data.pokemon.Pokemon {
     public Gireamer(Stats stats) {
         super("Gireamer",
                 Type.PSYCHIC, Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

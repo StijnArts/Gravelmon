@@ -9,12 +9,7 @@ public class Seismyth extends drai.dev.data.pokemon.Pokemon {
     public Seismyth(Stats stats) {
         super("Seismyth",
                 Type.GROUND, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

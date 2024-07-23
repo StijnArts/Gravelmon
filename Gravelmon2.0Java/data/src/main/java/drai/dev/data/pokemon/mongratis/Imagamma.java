@@ -9,12 +9,7 @@ public class Imagamma extends drai.dev.data.pokemon.Pokemon {
     public Imagamma(Stats stats) {
         super("Imagamma",
                 Type.BUG, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

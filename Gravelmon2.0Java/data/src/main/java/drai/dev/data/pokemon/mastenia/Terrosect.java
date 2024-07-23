@@ -9,12 +9,7 @@ public class Terrosect extends drai.dev.data.pokemon.Pokemon {
     public Terrosect(Stats stats) {
         super("Terrosect",
                 Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.TECHNICIAN), Ability.TECHNICIAN,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

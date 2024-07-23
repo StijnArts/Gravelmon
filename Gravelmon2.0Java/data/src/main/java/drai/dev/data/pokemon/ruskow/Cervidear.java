@@ -9,12 +9,7 @@ public class Cervidear extends drai.dev.data.pokemon.Pokemon {
     public Cervidear(Stats stats) {
         super("Cervidear",
                 Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

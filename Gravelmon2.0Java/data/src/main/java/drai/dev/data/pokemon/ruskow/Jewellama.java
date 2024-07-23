@@ -9,12 +9,7 @@ public class Jewellama extends drai.dev.data.pokemon.Pokemon {
     public Jewellama(Stats stats) {
         super("Jewellama",
                 Type.ROCK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

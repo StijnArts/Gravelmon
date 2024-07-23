@@ -91,7 +91,7 @@ public class Olysos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Peckussion());
         pokemon.add(new Inferpillar());
         pokemon.add(new Flamupet());
-        pokemon.add(new Flamothra(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Flamothra(new Stats(420, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   
 //        pokemon.add(new Gnaphid());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Locusteror());   Missing Art
@@ -101,8 +101,8 @@ public class Olysos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Happetite());
         pokemon.add(new Serposter());
         pokemon.add(new Venobat());
-        pokemon.add(new Noseferatu(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Noseferatu(new Stats(430, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
         pokemon.add(new Tryprock());
         pokemon.add(new Trypagnet());
         pokemon.add(new Trypolisk());
@@ -140,8 +140,8 @@ public class Olysos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Maganon());
         pokemon.add(new Eruptinon());
         pokemon.add(new Tortorge());
-        pokemon.add(new Alphayena(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Alphayena(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(StatType.SPEED, StatType.ATTACK))));
         pokemon.add(new Pepstep());
         pokemon.add(new Devilance());
 //        pokemon.add(new Twoghast());   Missing Art
@@ -175,8 +175,8 @@ public class Olysos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Kaisaos());
         pokemon.add(new Monokron());
         pokemon.add(new Klepeck());
-        pokemon.add(new Magusong(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        pokemon.add(new Magusong(new Stats(440, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_ATTACK))));
 //        pokemon.add(new Yukibi());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Yukiku());   Missing Art
 //        pokemon.add(new Safrion());   MEMBER OF LINE NOT FINISHED
@@ -196,8 +196,9 @@ public class Olysos extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Chrysow());   Missing Art
 //        pokemon.add(new Worrym());   Missing Art
 //        pokemon.add(new Sangorko());   Missing Art
-        pokemon.add(new Zombark());
-        pokemon.add(new Serenine(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Zombark(new Stats(380, StatArchetype.FAST_SUPPORT,
+                List.of(StatType.SPEED))));
+        pokemon.add(new Serenine(new Stats(380, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   
     }
 

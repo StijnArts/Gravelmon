@@ -9,12 +9,7 @@ public class Wyntry extends drai.dev.data.pokemon.Pokemon {
     public Wyntry(Stats stats) {
         super("Wyntry",
                 Type.ICE, Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

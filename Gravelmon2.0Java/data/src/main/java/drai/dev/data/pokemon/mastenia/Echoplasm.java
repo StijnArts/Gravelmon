@@ -9,12 +9,7 @@ public class Echoplasm extends drai.dev.data.pokemon.Pokemon {
     public Echoplasm(Stats stats) {
         super("Echoplasm",
                 Type.GHOST, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SHADOW_TAG), Ability.PUNK_ROCK,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

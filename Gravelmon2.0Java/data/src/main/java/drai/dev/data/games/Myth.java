@@ -18,7 +18,7 @@ import drai.dev.data.pokemon.mongratis.Tekagon;
 import drai.dev.data.pokemon.mongratis.Titaneon;
 import drai.dev.data.pokemon.mushi.*;
 import drai.dev.data.pokemon.myth.*;
-import drai.dev.data.pokemon.ottora.Duneon;
+import drai.dev.data.pokemon.myth.Duneon;
 import drai.dev.data.pokemon.panjaea.Toxeon;
 import drai.dev.data.pokemon.theos.*;
 import drai.dev.data.pokemon.kuria.*;

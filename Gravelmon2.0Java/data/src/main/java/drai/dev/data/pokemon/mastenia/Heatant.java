@@ -9,12 +9,7 @@ public class Heatant extends drai.dev.data.pokemon.Pokemon {
     public Heatant(Stats stats) {
         super("Heatant",
                 Type.BUG, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -9,12 +9,7 @@ public class Bumblebaa extends drai.dev.data.pokemon.Pokemon {
     public Bumblebaa(Stats stats) {
         super("Bumblebaa",
                 Type.NORMAL, Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

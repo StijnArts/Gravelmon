@@ -9,12 +9,7 @@ public class Ferocice extends drai.dev.data.pokemon.Pokemon {
     public Ferocice(Stats stats) {
         super("Ferocice",
                 Type.FIRE, Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.PRESSURE), Ability.STORM_DRAIN,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

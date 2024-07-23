@@ -9,12 +9,7 @@ public class Delfine extends drai.dev.data.pokemon.Pokemon {
     public Delfine(Stats stats) {
         super("Delfine",
                 Type.WATER, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SWIFT_SWIM), Ability.HYDRATION,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

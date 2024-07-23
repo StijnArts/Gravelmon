@@ -30,8 +30,7 @@ public class Orbis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Glowva());
         pokemon.add(new Sectalamp());
         pokemon.add(new Grubbrush());
-        pokemon.add(new Pupallet(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));
+        pokemon.add(new Pupallet());
         pokemon.add(new Beasel());
         pokemon.add(new Squeebee());
         pokemon.add(new Baldy());
@@ -39,7 +38,7 @@ public class Orbis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Stickigum());
         pokemon.add(new Stickisticky());
         pokemon.add(new Solseed());
-        pokemon.add(new Suryala(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Suryala(new Stats(410, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));
         pokemon.add(new Bellchsia());
         pokemon.add(new Fuchsiella());
@@ -87,16 +86,16 @@ public class Orbis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Debruin());
         pokemon.add(new Bourubble());
         pokemon.add(new Uninail());
-        pokemon.add(new Desertusk(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));
+        pokemon.add(new Desertusk(new Stats(430, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
         pokemon.add(new Burrorm());
         pokemon.add(new Burryrm());
         pokemon.add(new Baybee());
         pokemon.add(new Drillbee());
         pokemon.add(new Diggbee());
         pokemon.add(new Honarchee());
-        pokemon.add(new Tarexite(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));
+        pokemon.add(new Tarexite(new Stats(410, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Weyabitt());
         pokemon.add(new Weyatonne());
         pokemon.add(new Pomdan()); //Renamed from Pompuff
@@ -118,11 +117,11 @@ public class Orbis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Turtlantis());
         pokemon.add(new Ittibitti());
         pokemon.add(new Nemish());
-        pokemon.add(new Imprioni(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));
+        pokemon.add(new Imprioni(new Stats(410, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.HP))));
         pokemon.add(new Slugcus());
-        pokemon.add(new Clownemone(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));
+        pokemon.add(new Clownemone(new Stats(410, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.DEFENCE))));
         pokemon.add(new Finsail());
         pokemon.add(new Jellybag());
         pokemon.add(new Trasphin());
@@ -133,8 +132,8 @@ public class Orbis extends drai.dev.data.games.registry.Game {
         pokemon.add(new Gryphoyal());
         pokemon.add(new Zodiaking());
         pokemon.add(new Aburago());
-        pokemon.add(new Terraor(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));
+        pokemon.add(new Terraor(new Stats(430, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Shadovizor());
         pokemon.add(new Whaloon());
         pokemon.add(new Orcloud());

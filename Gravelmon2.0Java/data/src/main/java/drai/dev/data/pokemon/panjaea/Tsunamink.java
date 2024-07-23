@@ -9,12 +9,7 @@ public class Tsunamink extends drai.dev.data.pokemon.Pokemon {
     public Tsunamink(Stats stats) {
         super("Tsunamink",
                 Type.WATER, Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

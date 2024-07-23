@@ -9,12 +9,7 @@ public class Mantism extends drai.dev.data.pokemon.Pokemon {
     public Mantism(Stats stats) {
         super("Mantism",
                 Type.GHOST, Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

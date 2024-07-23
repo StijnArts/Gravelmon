@@ -9,12 +9,7 @@ public class Devidare extends drai.dev.data.pokemon.Pokemon {
     public Devidare(Stats stats) {
         super("Devidare",
                 Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.PICKUP,Ability.RECKLESS), Ability.JUSTIFIED,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

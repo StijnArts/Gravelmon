@@ -9,12 +9,7 @@ public class Stormmer extends drai.dev.data.pokemon.Pokemon {
     public Stormmer(Stats stats) {
         super("Stormmer",
                 Type.STEEL, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

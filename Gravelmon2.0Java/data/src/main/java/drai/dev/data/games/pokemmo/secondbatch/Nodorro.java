@@ -32,7 +32,7 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
         pokemon.add(new Ratamie());
         pokemon.add(new Betterfree());
         pokemon.add(new Imicada());
-        pokemon.add(new Suncada(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Suncada(new Stats(370, StatArchetype.FAST_SPECIAL_WALL,
                 List.of(StatType.SPEED))));
         pokemon.add(new Lumiscent());
         pokemon.add(new Koiver());
@@ -40,8 +40,8 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
         pokemon.add(new Rockillo());
         pokemon.add(new Armarolla());
         pokemon.add(new Armodrilla());
-        pokemon.add(new Qualder(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));
+        pokemon.add(new Qualder(new Stats(495, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
 //        pokemon.add(new hakid()); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Hackile());   Missing Art
         pokemon.add(new furanea());
@@ -113,10 +113,10 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
         pokemon.add(new Terranguis());
         pokemon.add(new Leviathrus());
         pokemon.add(new Scaelicius());
-        pokemon.add(new Kuruhinomi(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Kuruhinomi(new Stats(580, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.SPEED))));
         pokemon.add(new Kanyonomi());
-        pokemon.add(new Kyokinomi(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,
+        pokemon.add(new Kyokinomi(new Stats(580, StatArchetype.FAST_SPECIAL_WALL,
                 List.of(StatType.SPEED))));
         pokemon.add(new Protagobits());
 //        pokemon.add(new Trafficlight());   Missing Art

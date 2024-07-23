@@ -9,12 +9,7 @@ public class Nuenflu extends drai.dev.data.pokemon.Pokemon {
     public Nuenflu(Stats stats) {
         super("Nuenflu",
                 Type.NORMAL, Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.PICKUP), Ability.PICKUP,
                 8, 48,
                 new Stats(0,0,0,0,0,0), 0,

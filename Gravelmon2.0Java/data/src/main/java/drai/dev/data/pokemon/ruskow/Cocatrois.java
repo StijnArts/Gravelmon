@@ -9,12 +9,7 @@ public class Cocatrois extends drai.dev.data.pokemon.Pokemon {
     public Cocatrois(Stats stats) {
         super("Cocatrois",
                 Type.FLYING, Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.EARLY_BIRD), Ability.BIG_PECKS,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

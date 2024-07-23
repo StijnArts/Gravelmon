@@ -46,13 +46,13 @@ public class GenerationFive extends Game {
 //        pokemon.add(new TheossianDwebble("", Aspect.THEOSSIAN));
 //        pokemon.add(new TheossianCrustle("", Aspect.THEOSSIAN));
 
-//        pokemon.add(new NodorranOshawott("", Aspect.NODORRAN)); TODO
-//        pokemon.add(new NodorranDewott("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranSamurott("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranFoongus("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranAmoonguss("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranCubchoo("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranBeartic("", Aspect.NODORRAN));
+        pokemon.add(new NodorranOshawott("", Aspect.NODORRAN)); TODO
+        pokemon.add(new NodorranDewott("", Aspect.NODORRAN));
+        pokemon.add(new NodorranSamurott("", Aspect.NODORRAN));
+        pokemon.add(new NodorranFoongus("", Aspect.NODORRAN));
+        pokemon.add(new NodorranAmoonguss("", Aspect.NODORRAN));
+        pokemon.add(new NodorranCubchoo("", Aspect.NODORRAN));
+        pokemon.add(new NodorranBeartic("", Aspect.NODORRAN));
 //        pokemon.add(new NodorranTynamo("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new NodorranEelektrik("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new NodorranEelektross("", Aspect.NODORRAN)); MISSING ART

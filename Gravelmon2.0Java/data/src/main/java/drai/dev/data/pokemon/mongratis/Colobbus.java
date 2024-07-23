@@ -9,12 +9,7 @@ public class Colobbus extends drai.dev.data.pokemon.Pokemon {
     public Colobbus(Stats stats) {
         super("Colobbus",
                 Type.ROCK, Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 22, 0,
                 new Stats(0,0,0,0,0,0), 0,

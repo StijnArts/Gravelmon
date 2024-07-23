@@ -9,12 +9,7 @@ public class Tropybara extends drai.dev.data.pokemon.Pokemon {
     public Tropybara(Stats stats) {
         super("Tropybara",
                 Type.GRASS, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

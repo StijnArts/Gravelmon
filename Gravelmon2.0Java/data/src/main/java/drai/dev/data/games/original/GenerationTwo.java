@@ -57,13 +57,13 @@ public class GenerationTwo extends Game {
 //        pokemon.add(new TheossianBellossom("", Aspect.THEOSSIAN));
 //        pokemon.add(new TheossianYanma("", Aspect.THEOSSIAN));
 
-//        pokemon.add(new NodorranHoothoot("", Aspect.NODORRAN)); TODO
-//        pokemon.add(new NodorranNoctowl("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranSteelix("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranSudowoodo("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranSunflora("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranTeddiursa("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranUrsaring("", Aspect.NODORRAN));
+        pokemon.add(new NodorranHoothoot("", Aspect.NODORRAN)); TODO
+        pokemon.add(new NodorranNoctowl("", Aspect.NODORRAN));
+        pokemon.add(new NodorranSteelix("", Aspect.NODORRAN));
+        pokemon.add(new NodorranSudowoodo("", Aspect.NODORRAN));
+        pokemon.add(new NodorranSunflora("", Aspect.NODORRAN));
+        pokemon.add(new NodorranTeddiursa("", Aspect.NODORRAN));
+        pokemon.add(new NodorranUrsaring("", Aspect.NODORRAN));
 
 //        pokemon.add(new MastenianWooper("", Aspect.MASTENIAN)); TODO
 //        pokemon.add(new MastenianChinchou("", Aspect.MASTENIAN));

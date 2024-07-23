@@ -9,12 +9,7 @@ public class Marelstorm extends drai.dev.data.pokemon.Pokemon {
     public Marelstorm(Stats stats) {
         super("Marelstorm",
                 Type.WATER, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -9,12 +9,7 @@ public class Blockodile extends drai.dev.data.pokemon.Pokemon {
     public Blockodile(Stats stats) {
         super("Blockodile",
                 Type.ROCK, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.DRY_SKIN,Ability.ROCK_HEAD), Ability.STRONG_JAW,
                 10, 153,
                 new Stats(0,0,0,0,0,0), 0,

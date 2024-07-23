@@ -9,12 +9,7 @@ public class Mondrog extends drai.dev.data.pokemon.Pokemon {
     public Mondrog(Stats stats) {
         super("Mondrog",
                 Type.GRASS, Type.ROCK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 80, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -9,12 +9,7 @@ public class Caudatidal extends drai.dev.data.pokemon.Pokemon {
     public Caudatidal(Stats stats) {
         super("Caudatidal",
                 Type.WATER, Type.POISON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.TORRENT), Ability.POISON_POINT,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

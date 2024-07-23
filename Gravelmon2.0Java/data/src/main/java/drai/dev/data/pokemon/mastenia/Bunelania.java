@@ -9,12 +9,7 @@ public class Bunelania extends drai.dev.data.pokemon.Pokemon {
     public Bunelania(Stats stats) {
         super("Bunelania",
                 Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.PIXILATE), Ability.WATER_ABSORB,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

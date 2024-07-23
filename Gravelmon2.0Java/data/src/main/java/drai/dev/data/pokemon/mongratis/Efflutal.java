@@ -9,12 +9,7 @@ public class Efflutal extends drai.dev.data.pokemon.Pokemon {
     public Efflutal(Stats stats) {
         super("Efflutal",
                 Type.PSYCHIC, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 6, 99,
                 new Stats(0,0,0,0,0,0), 40,

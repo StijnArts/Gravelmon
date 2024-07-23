@@ -9,12 +9,7 @@ public class Palmguana extends drai.dev.data.pokemon.Pokemon {
     public Palmguana(Stats stats) {
         super("Palmguana",
                 Type.GRASS, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

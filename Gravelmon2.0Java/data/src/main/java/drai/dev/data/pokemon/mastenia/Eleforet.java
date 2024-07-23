@@ -9,12 +9,7 @@ public class Eleforet extends drai.dev.data.pokemon.Pokemon {
     public Eleforet(Stats stats) {
         super("Elefret",
                 Type.GRASS, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.FLOWER_VEIL), Ability.FAIRY_AURA,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

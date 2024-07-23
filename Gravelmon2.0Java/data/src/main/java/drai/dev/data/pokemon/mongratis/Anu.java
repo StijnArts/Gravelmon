@@ -9,12 +9,7 @@ public class Anu extends drai.dev.data.pokemon.Pokemon {
     public Anu(Stats stats) {
         super("Anu",
                 Type.DARK, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.QUICK_FEET), Ability.QUICK_FEET,
                 4, 14,
                 new Stats(0,0,0,0,0,0), 0,

@@ -9,12 +9,7 @@ public class Pikpossum extends drai.dev.data.pokemon.Pokemon {
     public Pikpossum(Stats stats) {
         super("Pikpossum",
                 Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.PICKUP), Ability.PICKPOCKET,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -9,12 +9,7 @@ public class Terraor extends drai.dev.data.pokemon.Pokemon {
     public Terraor(Stats stats) {
         super("Terraor",
                 Type.FIRE, Type.GHOST,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.FLASH_FIRE), Ability.FLASH_FIRE,
                 6, 2,
                 new Stats(0,0,0,2,0,0), 45,

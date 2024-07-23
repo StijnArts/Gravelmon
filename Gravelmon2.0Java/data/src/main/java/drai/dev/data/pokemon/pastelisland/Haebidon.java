@@ -9,12 +9,7 @@ public class Haebidon extends drai.dev.data.pokemon.Pokemon {
     public Haebidon(Stats stats) {
         super("Haebidon",
                 Type.DRAGON, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.INTIMIDATE,Ability.SUCTION_CUPS), Ability.OVERCOAT,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

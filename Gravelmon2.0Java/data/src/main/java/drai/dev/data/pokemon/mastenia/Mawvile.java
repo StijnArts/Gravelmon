@@ -9,12 +9,7 @@ public class Mawvile extends drai.dev.data.pokemon.Pokemon {
     public Mawvile(Stats stats) {
         super("Mawvile",
                 Type.GHOST, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.STRONG_JAW,Ability.HYPER_CUTTER), Ability.INTIMIDATE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

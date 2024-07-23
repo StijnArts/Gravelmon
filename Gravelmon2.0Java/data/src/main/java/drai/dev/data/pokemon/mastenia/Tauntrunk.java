@@ -9,12 +9,7 @@ public class Tauntrunk extends drai.dev.data.pokemon.Pokemon {
     public Tauntrunk(Stats stats) {
         super("Tauntrunk",
                 Type.GROUND, Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.IRON_BARBS), Ability.SKILL_LINK,
                 21, 0,
                 new Stats(0,0,0,0,0,0), 0,

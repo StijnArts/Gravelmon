@@ -9,12 +9,7 @@ public class Barrenoose extends drai.dev.data.pokemon.Pokemon {
     public Barrenoose(Stats stats) {
         super("Barrenoose",
                 Type.FLYING, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

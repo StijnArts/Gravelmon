@@ -9,12 +9,7 @@ public class Terrainiac extends drai.dev.data.pokemon.Pokemon {
     public Terrainiac(Stats stats) {
         super("Terrainiac",
                 Type.DARK, Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.STRONG_JAW,Ability.INTIMIDATE), Ability.MOXIE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

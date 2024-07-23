@@ -9,12 +9,7 @@ public class Sporkupine extends drai.dev.data.pokemon.Pokemon {
     public Sporkupine(Stats stats) {
         super("Za559349",
                 Type.ELECTRIC, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

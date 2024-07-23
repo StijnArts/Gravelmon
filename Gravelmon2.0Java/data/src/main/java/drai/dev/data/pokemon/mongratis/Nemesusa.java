@@ -9,12 +9,7 @@ public class Nemesusa extends drai.dev.data.pokemon.Pokemon {
     public Nemesusa(Stats stats) {
         super("Nemesusa",
                 Type.DARK, Type.DRAGON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

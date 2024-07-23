@@ -52,15 +52,15 @@ public class GenerationFour extends Game {
 //        pokemon.add(new TheossianToxicroak("", Aspect.THEOSSIAN));
 //        pokemon.add(new TheossianYanmega("", Aspect.THEOSSIAN));
 
-//        pokemon.add(new NodorranChimchar("", Aspect.NODORRAN)); TODO
-//        pokemon.add(new NodorranMonferno("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranInfernape("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranDrifblim("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranDrifloon("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranHippopotas("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranHippowdon("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranProbopass("", Aspect.NODORRAN));
-//        pokemon.add(new NodorranBonsly("", Aspect.NODORRAN));
+        pokemon.add(new NodorranChimchar("", Aspect.NODORRAN)); TODO
+        pokemon.add(new NodorranMonferno("", Aspect.NODORRAN));
+        pokemon.add(new NodorranInfernape("", Aspect.NODORRAN));
+        pokemon.add(new NodorranDrifblim("", Aspect.NODORRAN));
+        pokemon.add(new NodorranDrifloon("", Aspect.NODORRAN));
+        pokemon.add(new NodorranHippopotas("", Aspect.NODORRAN));
+        pokemon.add(new NodorranHippowdon("", Aspect.NODORRAN));
+        pokemon.add(new NodorranProbopass("", Aspect.NODORRAN));
+        pokemon.add(new NodorranBonsly("", Aspect.NODORRAN));
 
         registerSoulstonesVariants();
 

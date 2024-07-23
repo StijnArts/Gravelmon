@@ -9,12 +9,7 @@ public class Dialapis extends drai.dev.data.pokemon.Pokemon {
     public Dialapis(Stats stats) {
         super("Dialapis",
                 Type.ROCK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 8, 0,
                 new Stats(0,0,0,0,0,0), 0,

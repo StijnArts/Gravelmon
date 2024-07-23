@@ -9,12 +9,7 @@ public class Botanine extends drai.dev.data.pokemon.Pokemon {
     public Botanine(Stats stats) {
         super("Botanine",
                 Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 16, 650,
                 new Stats(0,0,0,0,0,3), 45,

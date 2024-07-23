@@ -9,12 +9,7 @@ public class Pomprim extends drai.dev.data.pokemon.Pokemon {
     public Pomprim(Stats stats) {
         super("Pomprim",
                 Type.GRASS, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

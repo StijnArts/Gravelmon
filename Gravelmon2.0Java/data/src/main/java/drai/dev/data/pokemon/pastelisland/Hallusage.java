@@ -9,12 +9,7 @@ public class Hallusage extends drai.dev.data.pokemon.Pokemon {
     public Hallusage(Stats stats) {
         super("Hallusage",
                 Type.PSYCHIC, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.TRIAGE), Ability.PSYCHIC_SURGE,
                 6, 0,
                 new Stats(0,0,0,0,0,0), 0,

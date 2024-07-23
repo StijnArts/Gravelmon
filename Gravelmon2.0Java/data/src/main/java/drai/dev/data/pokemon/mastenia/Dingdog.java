@@ -9,12 +9,7 @@ public class Dingdog extends drai.dev.data.pokemon.Pokemon {
     public Dingdog(Stats stats) {
         super("Dingdog",
                 Type.NORMAL, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.STRONG_JAW), Ability.SCRAPPY,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

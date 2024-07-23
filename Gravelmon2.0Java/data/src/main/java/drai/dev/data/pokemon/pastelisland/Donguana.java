@@ -9,12 +9,7 @@ public class Donguana extends drai.dev.data.pokemon.Pokemon {
     public Donguana(Stats stats) {
         super("Donguana",
                 Type.DARK, Type.POISON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.PRANKSTER), Ability.COLOR_CHANGE,
                 23, 0,
                 new Stats(0,0,0,0,0,0), 0,

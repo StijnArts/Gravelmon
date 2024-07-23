@@ -9,12 +9,7 @@ public class Suryala extends drai.dev.data.pokemon.Pokemon {
     public Suryala(Stats stats) {
         super("Suryala",
                 Type.GRASS, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 150,
                 new Stats(1,0,0,1,0,0), 60,

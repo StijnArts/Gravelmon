@@ -9,12 +9,7 @@ public class Boltbat extends drai.dev.data.pokemon.Pokemon {
     public Boltbat(Stats stats) {
         super("Boltbat",
                 Type.ELECTRIC, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.STATIC), Ability.FLUFFY,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

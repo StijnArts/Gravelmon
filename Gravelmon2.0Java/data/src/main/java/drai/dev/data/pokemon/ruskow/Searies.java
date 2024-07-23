@@ -9,12 +9,7 @@ public class Searies extends drai.dev.data.pokemon.Pokemon {
     public Searies(Stats stats) {
         super("Searies",
                 Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

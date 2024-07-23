@@ -9,12 +9,7 @@ public class Voltergeist extends drai.dev.data.pokemon.Pokemon {
     public Voltergeist(Stats stats) {
         super("Voltergeist",
                 Type.GHOST, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

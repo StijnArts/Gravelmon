@@ -9,12 +9,7 @@ public class Rugrant extends drai.dev.data.pokemon.Pokemon {
     public Rugrant(Stats stats) {
         super("Rugrant",
                 Type.BUG, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

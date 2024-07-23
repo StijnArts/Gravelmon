@@ -9,12 +9,7 @@ public class Hivernor extends drai.dev.data.pokemon.Pokemon {
     public Hivernor(Stats stats) {
         super("Hivernor",
                 Type.BUG, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 16, 0,
                 new Stats(0,0,0,0,0,0), 0,

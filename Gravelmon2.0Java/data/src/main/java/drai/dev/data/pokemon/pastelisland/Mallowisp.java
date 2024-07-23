@@ -9,12 +9,7 @@ public class Mallowisp extends drai.dev.data.pokemon.Pokemon {
     public Mallowisp(Stats stats) {
         super("Mallowisp",
                 Type.GHOST, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.GOOEY), Ability.STICKY_HOLD,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

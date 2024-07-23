@@ -9,12 +9,7 @@ public class Platypulse extends drai.dev.data.pokemon.Pokemon {
     public Platypulse(Stats stats) {
         super("Platypulse",
                 Type.POISON, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SUPERCHARGE), Ability.SUPERCHARGE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

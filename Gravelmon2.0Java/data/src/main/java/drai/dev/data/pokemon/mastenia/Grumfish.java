@@ -9,12 +9,7 @@ public class Grumfish extends drai.dev.data.pokemon.Pokemon {
     public Grumfish(Stats stats) {
         super("Grumfish",
                 Type.GROUND, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SAND_SPIT,Ability.CHEEK_POUCH), Ability.ANGER_POINT,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
