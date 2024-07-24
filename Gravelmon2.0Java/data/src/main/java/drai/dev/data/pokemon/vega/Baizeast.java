@@ -108,8 +108,7 @@ public class Baizeast extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 52, 1.7, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,

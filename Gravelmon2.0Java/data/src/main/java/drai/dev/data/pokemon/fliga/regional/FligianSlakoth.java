@@ -92,8 +92,7 @@ public class FligianSlakoth extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.FLIGA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

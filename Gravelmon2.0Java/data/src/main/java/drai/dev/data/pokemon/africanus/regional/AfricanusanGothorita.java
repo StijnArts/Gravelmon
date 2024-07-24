@@ -97,8 +97,8 @@ public class AfricanusanGothorita extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 47, 1.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_ARID)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

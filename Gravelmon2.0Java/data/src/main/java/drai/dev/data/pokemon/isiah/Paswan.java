@@ -42,8 +42,7 @@ public class Paswan extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 45, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FOREST))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,

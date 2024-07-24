@@ -45,8 +45,7 @@ public class Harmosoar extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 54, .14, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

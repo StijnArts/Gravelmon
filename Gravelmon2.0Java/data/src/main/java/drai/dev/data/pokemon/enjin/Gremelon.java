@@ -25,18 +25,15 @@ public class Gremelon extends drai.dev.data.pokemon.Pokemon {
                 List.of("This Pokémon is incredibly sneaky, often pretending to be a normal melon, then popping out and tripping its victim using vines!"),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.BRAMBLEUP,1),
-                        new MoveLearnSetEntry(Move.VINE_WHIP,1),
-                        new MoveLearnSetEntry(Move.BEAT_UP,1),
-                        new MoveLearnSetEntry(Move.KNOCK_OFF,1),
-                        new MoveLearnSetEntry(Move.BULLET_SEED,1)                        ),
+
+                ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SUMMER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gremelon");

@@ -102,7 +102,6 @@ public class Chegrin extends Pokemon {
                         new ItemDrop("minecraft:raw_cod",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 28, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),

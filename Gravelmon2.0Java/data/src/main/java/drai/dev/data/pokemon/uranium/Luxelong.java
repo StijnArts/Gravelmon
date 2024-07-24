@@ -108,8 +108,7 @@ public class Luxelong extends Pokemon {
                 List.of(Label.URANIUM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 68, 0.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS))),
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,

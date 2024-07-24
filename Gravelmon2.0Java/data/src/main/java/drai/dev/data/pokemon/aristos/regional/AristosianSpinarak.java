@@ -83,7 +83,6 @@ public class AristosianSpinarak extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 25, 5.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(),

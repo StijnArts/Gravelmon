@@ -11,7 +11,7 @@ public class Spectouch extends drai.dev.data.pokemon.Pokemon {
                 Type.GHOST,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                12, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,13 +22,17 @@ public class Spectouch extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 28, 45, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+
+        setCanFly(true);
            setLangFileName("Spectouch");
 
     }

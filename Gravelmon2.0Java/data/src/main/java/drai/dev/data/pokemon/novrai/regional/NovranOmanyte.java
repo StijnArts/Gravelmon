@@ -112,8 +112,7 @@ public class NovranOmanyte extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 11, 36, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -172,8 +172,8 @@ public class EpochAltariaOne extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.COMMON, 35, 55, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true")
                 ), List.of(),
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,

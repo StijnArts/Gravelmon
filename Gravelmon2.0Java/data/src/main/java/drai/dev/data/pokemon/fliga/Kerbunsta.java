@@ -46,9 +46,8 @@ public class Kerbunsta extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.FLIGA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

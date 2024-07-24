@@ -92,8 +92,7 @@ public class Sonoreef extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MYTHIRE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 24, 41, .5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,

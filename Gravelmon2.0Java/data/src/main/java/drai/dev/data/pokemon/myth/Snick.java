@@ -54,8 +54,7 @@ public class Snick extends Pokemon {
                 List.of(Label.MYTH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,

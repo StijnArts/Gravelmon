@@ -46,8 +46,7 @@ public class KaskadianBibarel extends Pokemon {
                 List.of(Label.GEN4,Label.LOCKEMON),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 39, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.2, 0.3,

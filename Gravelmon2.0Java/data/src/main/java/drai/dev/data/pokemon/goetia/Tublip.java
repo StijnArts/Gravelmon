@@ -11,7 +11,7 @@ public class Tublip extends drai.dev.data.pokemon.Pokemon {
                 Type.POISON, Type.WATER,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                7, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,13 +22,14 @@ public class Tublip extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 21, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_MAGMA),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Tublip");
 
     }

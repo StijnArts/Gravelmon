@@ -38,9 +38,8 @@ public class Tadit extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.NORHEIM),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 1, 16, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());

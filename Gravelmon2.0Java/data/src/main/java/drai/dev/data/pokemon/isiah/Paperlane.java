@@ -45,8 +45,7 @@ public class Paperlane extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 43, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

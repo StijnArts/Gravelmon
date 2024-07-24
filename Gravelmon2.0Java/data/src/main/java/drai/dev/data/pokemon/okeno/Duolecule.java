@@ -43,8 +43,8 @@ public class Duolecule extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 27, 1.6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

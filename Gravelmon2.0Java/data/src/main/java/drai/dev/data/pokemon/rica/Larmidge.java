@@ -40,8 +40,7 @@ public class Larmidge extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.RICA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 11, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND))
                 ), List.of(),
                 List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,

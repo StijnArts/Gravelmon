@@ -40,9 +40,8 @@ public class Florown extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MIDAMIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 56, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

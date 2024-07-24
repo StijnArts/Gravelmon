@@ -52,9 +52,8 @@ public class Warshrike extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER))),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

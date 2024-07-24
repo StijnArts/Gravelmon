@@ -46,7 +46,6 @@ public class AlteranEshouten extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 20, 49, 0.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),

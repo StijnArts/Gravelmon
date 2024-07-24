@@ -74,8 +74,7 @@ public class Yandeddo extends Pokemon {
                 0,
                 List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 53, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.FOLIAGE),
                 0.4, 0.3,

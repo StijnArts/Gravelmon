@@ -11,8 +11,8 @@ public class Buffaloam extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER, Type.GROUND,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,8 +22,8 @@ public class Buffaloam extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

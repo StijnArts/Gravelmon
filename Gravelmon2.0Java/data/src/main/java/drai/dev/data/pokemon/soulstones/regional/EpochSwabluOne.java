@@ -180,8 +180,8 @@ public class EpochSwabluOne extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.COMMON, 12, 33, 7, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true")
                 ), List.of(),
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,

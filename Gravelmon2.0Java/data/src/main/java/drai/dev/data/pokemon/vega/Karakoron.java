@@ -63,7 +63,6 @@ public class Karakoron extends Pokemon {
                 List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 62, 0.06, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_MOUNTAIN, Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

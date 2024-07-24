@@ -85,8 +85,7 @@ public class Basille extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 6, 19, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_FLORAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_FLORAL))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,

@@ -108,7 +108,7 @@ public class Sealkie extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 19, 7.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());

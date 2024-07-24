@@ -129,8 +129,7 @@ public class EghoCharizard extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:coal",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 48, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.42, 0.3,

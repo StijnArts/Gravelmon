@@ -65,24 +65,32 @@ public class Nematon extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                4, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("It thrives in dirty water where it can absorb nutrients through its skin. It hates being dry and actively avoids the sun."),
-                List.of(),
+                List.of(new EvolutionEntry("helminthon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"minecraft:rotten_flesh"),
+                        new EvolutionEntry("capaciton", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"minecraft:hopper"),
+                        new EvolutionEntry("trematon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"minecraft:spider_eye")),
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Nematon");
 
     }

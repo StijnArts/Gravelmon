@@ -46,8 +46,8 @@ public class Clairbuoyant extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 29, 43, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -107,8 +107,7 @@ public class Clotaku extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 19, 7.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,

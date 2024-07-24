@@ -166,8 +166,8 @@ public class AyreianTogepi extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

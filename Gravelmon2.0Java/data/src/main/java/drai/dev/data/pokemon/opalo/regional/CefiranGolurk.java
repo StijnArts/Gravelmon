@@ -41,8 +41,7 @@ public class CefiranGolurk extends Pokemon {
                 List.of(Label.GEN5,Label.OPAL),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 44, 70, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,

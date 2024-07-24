@@ -11,7 +11,7 @@ public class Coldier extends drai.dev.data.pokemon.Pokemon {
                 Type.DARK, Type.ICE,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                6, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -44,10 +44,10 @@ public class Coldier extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 33, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -150,7 +150,7 @@ public class EpochHonedgeOne extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 31, 5.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

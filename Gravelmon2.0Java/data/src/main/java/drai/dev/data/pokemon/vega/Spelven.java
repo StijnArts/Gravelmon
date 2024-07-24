@@ -106,8 +106,7 @@ public class Spelven extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 39, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,

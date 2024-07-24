@@ -19,322 +19,322 @@ public class Goetia extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Nymfaun());   Missing Stats
-        pokemon.add(new Faeribou());   Missing Stats
-        pokemon.add(new Moosquatch(new Stats(535, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Slowth());   Missing Stats
-        pokemon.add(new Mossloth());   Missing Stats
-        pokemon.add(new Slowgrowth(new Stats(532, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Pinonkey());   Missing Stats
-        pokemon.add(new Donkeyata());   Missing Stats
-        pokemon.add(new Fiestaur(new Stats(534, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Taratinder());   Missing Stats
-        pokemon.add(new Tarantorch());   Missing Stats
-        pokemon.add(new Charantula(new Stats(534, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Seamian());   Missing Stats
-        pokemon.add(new Mermonkey());   Missing Stats
-        pokemon.add(new Panseidon(new Stats(533, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Cowet());   Missing Stats
-        pokemon.add(new Moistox());   Missing Stats
-        pokemon.add(new Buffaloam(new Stats(531, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Glaby());   Missing Stats
-        pokemon.add(new Glaboar(new Stats(380, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Weevoll());   Missing Stats
-        pokemon.add(new Bollweave(new Stats(403, StatArchetype.FAST_SUPPORT, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Beegan());   Missing Stats
-        pokemon.add(new Beegarden(new Stats(370, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Hikoon());   Missing Stats
-        pokemon.add(new Emoth(new Stats(370, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Houndworm());   Missing Stats
-        pokemon.add(new Wearwolf(new Stats(378, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Fursoot());   Missing Stats
-        pokemon.add(new Lousidogg(new Stats(381, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Gooeyduck());   Missing Stats
-        pokemon.add(new Gooeygoose(new Stats(367, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Poofly(new Stats(280, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Beelobuzz(new Stats(280, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Spitsen());   Missing Stats
-        pokemon.add(new Salimute());   Missing Stats
-        pokemon.add(new Slobbernard(new Stats(512, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Burroworm(new Stats(312, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Bingus());   Missing Stats
-        pokemon.add(new Crungus());   Missing Stats
-        pokemon.add(new Sphingus(new Stats(480, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Grubolt());   Missing Stats
-        pokemon.add(new Zapupa());   Missing Stats
-        pokemon.add(new Buzzkill(new Stats(484, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Mayflown(new Stats(350, StatArchetype.FAST_SUPPORT, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Bleech());   Missing Stats
-        pokemon.add(new Hiruleech(new Stats(410, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Lumini());   Missing Stats
-        pokemon.add(new Lampupa());   Missing Stats
-        pokemon.add(new Glowyrm(new Stats(423, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Decompost());   Missing Stats
-        pokemon.add(new Gorgompost(new Stats(411, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Flamingoop(new Stats(365, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Beddybug(new Stats(324, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Honeyjou());   Missing Stats
-        pokemon.add(new Glutthoney(new Stats(435, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Mintooth(new Stats(376, StatArchetype.BULKY_SUPPORT, List.of(HP))));   Missing Stats
-        pokemon.add(new Icypod());   Missing Stats
-        pokemon.add(new Isoberg(new Stats(405, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE, ATTACK))));   Missing Stats
-        pokemon.add(new Rumpork());   Missing Stats
-        pokemon.add(new Porkupid(new Stats(412, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Brickabrack());   Missing Stats
-        pokemon.add(new Brickwald());   Missing Stats
-        pokemon.add(new Brickozuna(new Stats(435, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Toadsgool(new Stats(312, StatArchetype.BULKY_SUPPORT, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Acrology());   Missing Stats
-        pokemon.add(new Astropheles(new Stats(432, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Tarankey());   Missing Stats
-        pokemon.add(new Tarankong(new Stats(423, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Plagior(new Stats(334, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Beeball());   Missing Stats
-        pokemon.add(new Beemason());   Missing Stats
-        pokemon.add(new Beebegone(new Stats(487, StatArchetype.PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Sparkete());   Missing Stats
-        pokemon.add(new Plasmakate());   Missing Stats
-        pokemon.add(new Plasmagician(new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Balloony());   Missing Stats
-        pokemon.add(new Derangible(new Stats(451, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Dadrone());   Missing Stats
-        pokemon.add(new Airlantic(new Stats(445, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Chumbas());   Missing Stats
-        pokemon.add(new Chunderbolt(new Stats(451, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Bogchamp(new Stats(451, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Marisite());   Missing Stats
-        pokemon.add(new Marrowite(new Stats(432, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Barrelsite(new Stats(432, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Squorm());   Missing Stats
-        pokemon.add(new Ragrand());   Missing Stats
-        pokemon.add(new Bobbilisk(new Stats(511, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Boggeyman(new Stats(453, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Shockter());   Missing Stats
-        pokemon.add(new Surgeon(new Stats(450, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Belfry());   Missing Stats
-        pokemon.add(new Strigori());   Missing Stats
-        pokemon.add(new Demontor(new Stats(523, StatArchetype.FAST_SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Rotegg());   Missing Stats
-        pokemon.add(new Fowlest());   Missing Stats
-        pokemon.add(new Krakatori(new Stats(523, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Nematon());   Missing Stats
-        pokemon.add(new Helminthon(new Stats(456, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Capaciton(new Stats(456, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Trematon(new Stats(456, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Cylily());   Missing Stats
-        pokemon.add(new Tamanily());   Missing Stats
-        pokemon.add(new Verdanteater(new Stats(511, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Rowbug());   Missing Stats
-        pokemon.add(new Bugboat(new Stats(423, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Scaround());   Missing Stats
-        pokemon.add(new Scaroyal(new Stats(435, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Scarazor(new Stats(435, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Gremtrail(new Stats(376, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Araphosa());   Missing Stats
-        pokemon.add(new Zaraphosa(new Stats(456, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Waruphosa(new Stats(456, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Aviculor(new Stats(456, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Nepixie());   Missing Stats
-        pokemon.add(new Neprite());   Missing Stats
-        pokemon.add(new Nympenthes(new Stats(435, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Neprechaun(new Stats(435, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Ghoti());   Missing Stats
-        pokemon.add(new Inferatu(new Stats(440, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Astronotilus(new Stats(350, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Snotme());   Missing Stats
-        pokemon.add(new Facsimilee());   Missing Stats
-        pokemon.add(new Theftidee(new Stats(467, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Lansquid());   Missing Stats
-        pokemon.add(new Calispade());   Missing Stats
-        pokemon.add(new Archraken(new Stats(475, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Larvot());   Missing Stats
-        pokemon.add(new Rabbot(new Stats(412, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Grunje());   Missing Stats
-        pokemon.add(new Grunjerk(new Stats(423, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK))));   Missing Stats
-        pokemon.add(new Magboil(new Stats(356, StatArchetype.SPECIAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Docteria());   Missing Stats
-        pokemon.add(new Epimedic(new Stats(454, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Padull());   Missing Stats
-        pokemon.add(new Sawface(new Stats(434, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Smogout());   Missing Stats
-        pokemon.add(new Miasmog(new Stats(434, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Hydura());   Missing Stats
-        pokemon.add(new Scyllabyss(new Stats(435, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Medusting());   Missing Stats
-        pokemon.add(new Charybyss(new Stats(451, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Nepolyp());   Missing Stats
-        pokemon.add(new Polypitcher());   Missing Stats
-        pokemon.add(new Polypenthes(new Stats(512, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Trogleech());   Missing Stats
-        pokemon.add(new Troglobite());   Missing Stats
-        pokemon.add(new Troglobeast(new Stats(514, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Flattery());   Missing Stats
-        pokemon.add(new Oddcast(new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Pozzombie(new Stats(376, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Barnacorn());   Missing Stats
-        pokemon.add(new Barnoose(new Stats(434, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Feferococo(new Stats(376, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Saccarin(new Stats(356, StatArchetype.FAST_SUPPORT, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Woebegong(new Stats(367, StatArchetype.BULKY_SUPPORT, List.of(HP))));   Missing Stats
-        pokemon.add(new Rivotter());   Missing Stats
-        pokemon.add(new Jaguatter(new Stats(452, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Mabalone());   Missing Stats
-        pokemon.add(new Mollusciron(new Stats(445, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Larvatinum());   Missing Stats
-        pokemon.add(new Cassowar());   Missing Stats
-        pokemon.add(new Casspartan(new Stats(511, StatArchetype.PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Ornake());   Missing Stats
-        pokemon.add(new Flamboa(new Stats(469, StatArchetype.FAST_SUPPORT, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Flitch());   Missing Stats
-        pokemon.add(new Fitorfly());   Missing Stats
-        pokemon.add(new Supafly(new Stats(435, StatArchetype.SPECIAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Borpion());   Missing Stats
-        pokemon.add(new Panorpion(new Stats(435, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Canibble(new Stats(342, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Peernut(new Stats(341, StatArchetype.BULKY_SUPPORT, List.of(HP))));   Missing Stats
-        pokemon.add(new Embrystic(new Stats(344, StatArchetype.FAST_SUPPORT, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Shromp());   Missing Stats
-        pokemon.add(new Clobster(new Stats(423, StatArchetype.PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Prawnage(new Stats(423, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Shrude());   Missing Stats
-        pokemon.add(new Radfink(new Stats(413, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Fluffloat());   Missing Stats
-        pokemon.add(new Colonoodle());   Missing Stats
-        pokemon.add(new Tenthereal(new Stats(531, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Jelsparc()); Missing Stats //renamed from Jelectric
-        pokemon.add(new Jelightning(new Stats(451, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Huffalimp(new Stats(412, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Burstank(new Stats(412, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Debutaint());   Missing Stats
-        pokemon.add(new Promenude());   Missing Stats
-        pokemon.add(new Glautillion(new Stats(521, StatArchetype.SPECIAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Lilacorn());   Missing Stats
-        pokemon.add(new Wisterious(new Stats(487, StatArchetype.PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Cattermaul(new Stats(376, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Katybud());   Missing Stats
-        pokemon.add(new Thornydid(new Stats(423, StatArchetype.FAST_SUPPORT, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Candelaria());   Missing Stats
-        pokemon.add(new Lanternaria(new Stats(433, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Crestrap());   Missing Stats
-        pokemon.add(new Sundraco(new Stats(423, StatArchetype.PHYSICAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Eelabyss(new Stats(411, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Loguts());   Missing Stats
-        pokemon.add(new Herocust(new Stats(423, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Mustmite());   Missing Stats
-        pokemon.add(new Dustmighty(new Stats(422, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Aardvolt(new Stats(345, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Catfeine(new Stats(341, StatArchetype.FAST_SUPPORT, List.of(HP))));   Missing Stats
-        pokemon.add(new Kittypillar());   Missing Stats
-        pokemon.add(new Fuzzilk());   Missing Stats
-        pokemon.add(new Bombun(new Stats(503, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Stingray(new Stats(412, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Suglide());   Missing Stats
-        pokemon.add(new Coolugo(new Stats(476, StatArchetype.FAST_SUPPORT, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Luxuroe());   Missing Stats
-        pokemon.add(new Aristocarp(new Stats(451, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Icesight());   Missing Stats
-        pokemon.add(new Icestalk(new Stats(444, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Venigoon());   Missing Stats
-        pokemon.add(new Venigaloot(new Stats(431, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Charmix());   Missing Stats
-        pokemon.add(new Charmatch(new Stats(422, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Ravolt(new Stats(387, StatArchetype.SPECIAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Lubub());   Missing Stats
-        pokemon.add(new Heartery(new Stats(412, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Ventherm());   Missing Stats
-        pokemon.add(new Volchemo(new Stats(432, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Tublip(new Stats(321, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Narpoon(new Stats(321, StatArchetype.MIXED_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Hantom());   Missing Stats
-        pokemon.add(new Spectouch(new Stats(421, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
+        pokemon.add(new Nymfaun());
+        pokemon.add(new Faeribou());
+        pokemon.add(new Moosquatch(new Stats(535, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Slowth());
+        pokemon.add(new Mossloth());
+        pokemon.add(new Slowgrowth(new Stats(532, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Pinonkey());
+        pokemon.add(new Donkeyata());
+        pokemon.add(new Fiestaur(new Stats(534, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Taratinder());
+        pokemon.add(new Tarantorch());
+        pokemon.add(new Charantula(new Stats(534, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Seamian());
+        pokemon.add(new Mermonkey());
+        pokemon.add(new Panseidon(new Stats(533, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Cowet());
+        pokemon.add(new Moistox());
+        pokemon.add(new Buffaloam(new Stats(531, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Glaby());
+        pokemon.add(new Glaboar(new Stats(380, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Weevoll());
+        pokemon.add(new Bollweave(new Stats(403, StatArchetype.FAST_SUPPORT, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Beegan());
+        pokemon.add(new Beegarden(new Stats(370, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Hikoon());
+        pokemon.add(new Emoth(new Stats(370, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Houndworm());
+        pokemon.add(new Wearwolf(new Stats(378, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Fursoot());
+        pokemon.add(new Lousidogg(new Stats(381, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Gooeyduck());
+        pokemon.add(new Gooeygoose(new Stats(367, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Poofly(new Stats(280, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Beelobuzz(new Stats(280, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Spitsen());
+        pokemon.add(new Salimute());
+        pokemon.add(new Slobbernard(new Stats(512, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Burroworm(new Stats(312, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Bingus());
+        pokemon.add(new Crungus());
+        pokemon.add(new Sphingus(new Stats(480, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Grubolt());
+        pokemon.add(new Zapupa());
+        pokemon.add(new Buzzkill(new Stats(484, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Mayflown(new Stats(350, StatArchetype.FAST_SUPPORT, List.of(SPEED))));
+        pokemon.add(new Bleech());
+        pokemon.add(new Hiruleech(new Stats(410, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Lumini());
+        pokemon.add(new Lampupa());
+        pokemon.add(new Glowyrm(new Stats(423, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Decompost());
+        pokemon.add(new Gorgompost(new Stats(411, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Flamingoop(new Stats(365, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Beddybug(new Stats(324, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Honeyjou());
+        pokemon.add(new Glutthoney(new Stats(435, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Mintooth(new Stats(376, StatArchetype.BULKY_SUPPORT, List.of(HP))));
+        pokemon.add(new Icypod());
+        pokemon.add(new Isoberg(new Stats(405, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE, ATTACK))));
+        pokemon.add(new Rumpork());
+        pokemon.add(new Porkupid(new Stats(412, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Brickabrack());
+        pokemon.add(new Brickwald());
+        pokemon.add(new Brickozuna(new Stats(435, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Toadsgool(new Stats(312, StatArchetype.BULKY_SUPPORT, List.of(DEFENCE))));
+        pokemon.add(new Acrology());
+        pokemon.add(new Astropheles(new Stats(432, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Tarankey());
+        pokemon.add(new Tarankong(new Stats(423, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Plagior(new Stats(334, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Beeball());
+        pokemon.add(new Beemason());
+        pokemon.add(new Beebegone(new Stats(487, StatArchetype.PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Sparkete());
+        pokemon.add(new Plasmakate());
+        pokemon.add(new Plasmagician(new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Balloony());
+        pokemon.add(new Derangible(new Stats(451, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Dadrone());
+        pokemon.add(new Airlantic(new Stats(445, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Chumbas());
+        pokemon.add(new Chunderbolt(new Stats(451, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Bogchamp(new Stats(451, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Marisite());
+        pokemon.add(new Marrowite(new Stats(432, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Barrelsite(new Stats(432, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Squorm());
+        pokemon.add(new Ragrand());
+        pokemon.add(new Bobbilisk(new Stats(511, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Boggeyman(new Stats(453, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Shockter());
+        pokemon.add(new Surgeon(new Stats(450, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Belfry());
+        pokemon.add(new Strigori());
+        pokemon.add(new Demontor(new Stats(523, StatArchetype.FAST_SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Rotegg());
+        pokemon.add(new Fowlest());
+        pokemon.add(new Krakatori(new Stats(523, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Nematon());
+        pokemon.add(new Helminthon(new Stats(456, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Capaciton(new Stats(456, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Trematon(new Stats(456, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Cylily());
+        pokemon.add(new Tamanily());
+        pokemon.add(new Verdanteater(new Stats(511, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Rowbug());
+        pokemon.add(new Bugboat(new Stats(423, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Scaround());
+        pokemon.add(new Scaroyal(new Stats(435, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Scarazor(new Stats(435, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Gremtrail(new Stats(376, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Araphosa());
+        pokemon.add(new Zaraphosa(new Stats(456, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Waruphosa(new Stats(456, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Aviculor(new Stats(456, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Nepixie());
+        pokemon.add(new Neprite());
+        pokemon.add(new Nympenthes(new Stats(435, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Neprechaun(new Stats(435, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Ghoti());
+        pokemon.add(new Inferatu(new Stats(440, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Astronotilus(new Stats(350, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Snotme());
+        pokemon.add(new Facsimilee());
+        pokemon.add(new Theftidee(new Stats(467, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Lansquid());
+        pokemon.add(new Calispade());
+        pokemon.add(new Archraken(new Stats(475, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Larvot());
+        pokemon.add(new Rabbot(new Stats(412, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Grunje());
+        pokemon.add(new Grunjerk(new Stats(423, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK))));
+        pokemon.add(new Magboil(new Stats(356, StatArchetype.SPECIAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Docteria());
+        pokemon.add(new Epimedic(new Stats(454, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Padull());
+        pokemon.add(new Sawface(new Stats(434, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Smogout());
+        pokemon.add(new Miasmog(new Stats(434, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Hydura());
+        pokemon.add(new Scyllabyss(new Stats(435, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Medusting());
+        pokemon.add(new Charybyss(new Stats(451, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Nepolyp());
+        pokemon.add(new Polypitcher());
+        pokemon.add(new Polypenthes(new Stats(512, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Trogleech());
+        pokemon.add(new Troglobite());
+        pokemon.add(new Troglobeast(new Stats(514, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Flattery());
+        pokemon.add(new Oddcast(new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Pozzombie(new Stats(376, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Barnacorn());
+        pokemon.add(new Barnoose(new Stats(434, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Feferococo(new Stats(376, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Saccarin(new Stats(356, StatArchetype.FAST_SUPPORT, List.of(SPEED))));
+        pokemon.add(new Woebegong(new Stats(367, StatArchetype.BULKY_SUPPORT, List.of(HP))));
+        pokemon.add(new Rivotter());
+        pokemon.add(new Jaguatter(new Stats(452, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Mabalone());
+        pokemon.add(new Mollusciron(new Stats(445, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Larvatinum(new Stats(321, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Cassowar());
+        pokemon.add(new Casspartan(new Stats(511, StatArchetype.PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Ornake());
+        pokemon.add(new Flamboa(new Stats(469, StatArchetype.FAST_SUPPORT, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Flitch());
+        pokemon.add(new Fitorfly());
+        pokemon.add(new Supafly(new Stats(435, StatArchetype.SPECIAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Borpion());
+        pokemon.add(new Panorpion(new Stats(435, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Canibble(new Stats(342, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Peernut(new Stats(341, StatArchetype.BULKY_SUPPORT, List.of(HP))));
+        pokemon.add(new Embrystic(new Stats(344, StatArchetype.FAST_SUPPORT, List.of(SPEED))));
+        pokemon.add(new Shromp());
+        pokemon.add(new Clobster(new Stats(423, StatArchetype.PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Prawnage(new Stats(423, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Shrude());
+        pokemon.add(new Radfink(new Stats(413, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Fluffloat());
+        pokemon.add(new Colonoodle());
+        pokemon.add(new Tenthereal(new Stats(531, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Jelsparc());  //renamed from Jelectric
+        pokemon.add(new Jelightning(new Stats(451, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Huffalimp(new Stats(412, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Burstank(new Stats(412, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Debutaint());
+        pokemon.add(new Promenude());
+        pokemon.add(new Glautillion(new Stats(521, StatArchetype.SPECIAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Lilacorn());
+        pokemon.add(new Wisterious(new Stats(487, StatArchetype.PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Cattermaul(new Stats(376, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Katybud());
+        pokemon.add(new Thornydid(new Stats(423, StatArchetype.FAST_SUPPORT, List.of(SPEED))));
+        pokemon.add(new Candelaria());
+        pokemon.add(new Lanternaria(new Stats(433, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Crestrap());
+        pokemon.add(new Sundraco(new Stats(423, StatArchetype.PHYSICAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Eelabyss(new Stats(411, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Loguts());
+        pokemon.add(new Herocust(new Stats(423, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Mustmite());
+        pokemon.add(new Dustmighty(new Stats(422, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Aardvolt(new Stats(345, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Catfeine(new Stats(341, StatArchetype.FAST_SUPPORT, List.of(HP))));
+        pokemon.add(new Kittypillar());
+        pokemon.add(new Fuzzilk());
+        pokemon.add(new Bombun(new Stats(503, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Stingray(new Stats(412, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Suglide());
+        pokemon.add(new Coolugo(new Stats(476, StatArchetype.FAST_SUPPORT, List.of(DEFENCE))));
+        pokemon.add(new Luxuroe());
+        pokemon.add(new Aristocarp(new Stats(451, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Icesight());
+        pokemon.add(new Icestalk(new Stats(444, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Venigoon());
+        pokemon.add(new Venigaloot(new Stats(431, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Charmix());
+        pokemon.add(new Charmatch(new Stats(422, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Ravolt(new Stats(387, StatArchetype.SPECIAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Lubub());
+        pokemon.add(new Heartery(new Stats(412, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Ventherm());
+        pokemon.add(new Volchemo(new Stats(432, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Tublip(new Stats(321, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Narpoon(new Stats(321, StatArchetype.MIXED_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Hantom());
+        pokemon.add(new Spectouch(new Stats(421, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
         pokemon.add(new Jawee());
         pokemon.add(new Jawsome());
-        pokemon.add(new Whirlybug());   Missing Stats
-        pokemon.add(new Shellicopter(new Stats(421, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Aviatrice(new Stats(421, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Hagloop(new Stats(375, StatArchetype.FAST_SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Nyareis());   Missing Stats
-        pokemon.add(new Eunash(new Stats(411, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Termini());   Missing Stats
-        pokemon.add(new Termulch());   Missing Stats
-        pokemon.add(new Termajesty(new Stats(508, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Toxsick(new Stats(387, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Sirenatee(new Stats(387, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Elegrace(new Stats(387, StatArchetype.FAST_SUPPORT, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Hierophant(new Stats(387, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Nitpick());   Missing Stats
-        pokemon.add(new Cootiepie(new Stats(451, StatArchetype.SPECIAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Gurugan());   Missing Stats
-        pokemon.add(new Guruvelt(new Stats(423, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Pierrot());   Missing Stats
-        pokemon.add(new Aukward());   Missing Stats
-        pokemon.add(new Puffoon(new Stats(511, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));   Missing Stats
-        pokemon.add(new Icykandji());   Missing Stats
-        pokemon.add(new Iglookandji(new Stats(474, StatArchetype.FAST_SPECIAL_WALL, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Sparassid(new Stats(360, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Crickid());   Missing Stats
-        pokemon.add(new Grylloket());   Missing Stats
-        pokemon.add(new Coolstroyr(new Stats(512, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Lorable(new Stats(365, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Sproutot());   Missing Stats
-        pokemon.add(new Scaregrow(new Stats(411, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Elefin());   Missing Stats
-        pokemon.add(new Makarel(new Stats(451, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Brackish());   Missing Stats
-        pokemon.add(new Lagoon());   Missing Stats
-        pokemon.add(new Billabong(new Stats(487, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Lizava(new Stats(387, StatArchetype.PHYSICAL_WALL, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Bugbear(new Stats(333, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Caesoil());   Missing Stats
-        pokemon.add(new Mudragon(new Stats(431, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Spyaye());   Missing Stats
-        pokemon.add(new Scryaye(new Stats(432, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Ewwgie());   Missing Stats
-        pokemon.add(new Skeezer(new Stats(421, StatArchetype.SPECIAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Tenrock());   Missing Stats
-        pokemon.add(new Ratstar(new Stats(398, StatArchetype.PHYSICAL_WALL, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Polyfreight(new Stats(376, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Tuskoar());   Missing Stats
-        pokemon.add(new Tuskoble(new Stats(412, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Gastare(new Stats(312, StatArchetype.PHYSICAL_WALL, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Espergo(new Stats(312, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Psyphon());   Missing Stats
-        pokemon.add(new Psydaria(new Stats(422, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Malease(new Stats(376, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Bohole(new Stats(381, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Peathog());   Missing Stats
-        pokemon.add(new Wartbog(new Stats(430, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Pictog(new Stats(387, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Androck(new Stats(345, StatArchetype.SPECIAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Maningauz());   Missing Stats
-        pokemon.add(new Sarcophacoon(new Stats(423, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Beedazzle(new Stats(423, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Wormachine(new Stats(312, StatArchetype.PHYSICAL_WALL, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Denkipede(new Stats(321, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Traplure(new Stats(345, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Axelure(new Stats(345, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Abyspook());   Missing Stats
-        pokemon.add(new Abyssoul(new Stats(433, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK, SPEED))));   Missing Stats
-        pokemon.add(new Catterbrain(new Stats(311, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Twistree(new Stats(345, StatArchetype.FAST_SUPPORT, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Twisbee());   Missing Stats
-        pokemon.add(new Figabee(new Stats(401, StatArchetype.FAST_SUPPORT, List.of(HP))));   Missing Stats
-        pokemon.add(new Fumball());   Missing Stats
-        pokemon.add(new Trickytreat(new Stats(411, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Woodron());   Missing Stats
-        pokemon.add(new Troytron(new Stats(435, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));   Missing Stats
-        pokemon.add(new Monstauk());   Missing Stats
-        pokemon.add(new Monstale(new Stats(444, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(ATTACK))));   Missing Stats
-        pokemon.add(new Caskry());   Missing Stats
-        pokemon.add(new Mausomber(new Stats(434, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
-        pokemon.add(new Widoweb());   Missing Stats
-        pokemon.add(new Widowitch(new Stats(412, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats
-        pokemon.add(new Impelial());   Missing Stats
-        pokemon.add(new Ashmodeus(new Stats(423, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Marlequin(new Stats(321, StatArchetype.FAST_SUPPORT, List.of(SPEED))));   Missing Stats
-        pokemon.add(new Kojaku());   Missing Stats
-        pokemon.add(new Fujaku(new Stats(433, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));   Missing Stats
-        pokemon.add(new Vasbar(new Stats(345, StatArchetype.PHYSICAL_WALL, List.of(HP))));   Missing Stats
+        pokemon.add(new Whirlybug());
+        pokemon.add(new Shellicopter(new Stats(421, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Aviatrice(new Stats(421, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Hagloop(new Stats(375, StatArchetype.FAST_SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Nyareis());
+        pokemon.add(new Eunash(new Stats(411, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Termini());
+        pokemon.add(new Termulch());
+        pokemon.add(new Termajesty(new Stats(508, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Toxsick(new Stats(387, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Sirenatee(new Stats(387, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Elegrace(new Stats(387, StatArchetype.FAST_SUPPORT, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Hierophant(new Stats(387, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Nitpick());
+        pokemon.add(new Cootiepie(new Stats(451, StatArchetype.SPECIAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Gurugan());
+        pokemon.add(new Guruvelt(new Stats(423, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Pierrot());
+        pokemon.add(new Aukward());
+        pokemon.add(new Puffoon(new Stats(511, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));
+        pokemon.add(new Icykandji());
+        pokemon.add(new Iglookandji(new Stats(474, StatArchetype.FAST_SPECIAL_WALL, List.of(SPEED))));
+        pokemon.add(new Sparassid(new Stats(360, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Crickid());
+        pokemon.add(new Grylloket());
+        pokemon.add(new Coolstroyr(new Stats(512, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Lorable(new Stats(365, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Sproutot());
+        pokemon.add(new Scaregrow(new Stats(411, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Elefin());
+        pokemon.add(new Makarel(new Stats(451, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Brackish());
+        pokemon.add(new Lagoon());
+        pokemon.add(new Billabong(new Stats(487, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Lizava(new Stats(387, StatArchetype.PHYSICAL_WALL, List.of(DEFENCE))));
+        pokemon.add(new Bugbear(new Stats(333, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Caesoil());
+        pokemon.add(new Mudragon(new Stats(431, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Spyaye());
+        pokemon.add(new Scryaye(new Stats(432, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Ewwgie());
+        pokemon.add(new Skeezer(new Stats(421, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        pokemon.add(new Tenrock());
+        pokemon.add(new Ratstar(new Stats(398, StatArchetype.PHYSICAL_WALL, List.of(DEFENCE))));
+        pokemon.add(new Polyfreight(new Stats(376, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Tuskoar());
+        pokemon.add(new Tuskoble(new Stats(412, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Gastare());
+        pokemon.add(new Espergo(new Stats(312, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Psyphon());
+        pokemon.add(new Psydaria(new Stats(422, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Malease(new Stats(376, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Bohole(new Stats(381, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Peathog());
+        pokemon.add(new Wartbog(new Stats(430, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Pictog(new Stats(387, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Androck(new Stats(345, StatArchetype.SPECIAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Maningauz());
+        pokemon.add(new Sarcophacoon(new Stats(423, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Beedazzle(new Stats(423, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
+        pokemon.add(new Wormachine(new Stats(312, StatArchetype.PHYSICAL_WALL, List.of(DEFENCE))));
+        pokemon.add(new Denkipede(new Stats(321, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Traplure(new Stats(345, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Axelure(new Stats(345, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Abyspook());
+        pokemon.add(new Abyssoul(new Stats(433, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK, SPEED))));
+        pokemon.add(new Catterbrain(new Stats(311, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Twistree(new Stats(345, StatArchetype.FAST_SUPPORT, List.of(SPEED))));
+        pokemon.add(new Twisbee());
+        pokemon.add(new Figabee(new Stats(401, StatArchetype.FAST_SUPPORT, List.of(HP))));
+        pokemon.add(new Fumball());
+        pokemon.add(new Trickytreat(new Stats(411, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Woodron());
+        pokemon.add(new Troytron(new Stats(435, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        pokemon.add(new Monstauk());
+        pokemon.add(new Monstale(new Stats(444, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(ATTACK))));
+        pokemon.add(new Caskry());
+        pokemon.add(new Mausomber(new Stats(434, StatArchetype.PHYSICAL_WALL, List.of(HP))));
+        pokemon.add(new Widoweb());
+        pokemon.add(new Widowitch(new Stats(412, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        pokemon.add(new Impelial());
+        pokemon.add(new Ashmodeus(new Stats(423, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Marlequin(new Stats(321, StatArchetype.FAST_SUPPORT, List.of(SPEED))));
+        pokemon.add(new Kojaku());
+        pokemon.add(new Fujaku(new Stats(433, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        pokemon.add(new Vasbar(new Stats(345, StatArchetype.PHYSICAL_WALL, List.of(HP))));   
         pokemon.add(new Combatant());   Missing Stats
         pokemon.add(new Sergeant());   Missing Stats
         pokemon.add(new Militant(new Stats(487, StatArchetype.PHYSICAL_ATTACKER, List.of(SPECIAL_DEFENCE))));   Missing Stats

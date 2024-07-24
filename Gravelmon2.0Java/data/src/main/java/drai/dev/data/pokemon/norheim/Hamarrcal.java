@@ -48,7 +48,7 @@ public class Hamarrcal extends drai.dev.data.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-            ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+            ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

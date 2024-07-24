@@ -11,7 +11,7 @@ public class Roswain extends drai.dev.data.pokemon.Pokemon {
                 Type.GRASS,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                8, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,8 +22,8 @@ public class Roswain extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 43, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

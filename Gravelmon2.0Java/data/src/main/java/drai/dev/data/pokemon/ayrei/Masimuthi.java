@@ -165,8 +165,7 @@ public class Masimuthi extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.VANGUARD),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 32, 51, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL, SpawnPreset.FRESHWATER),
                 0.28, 0.3,

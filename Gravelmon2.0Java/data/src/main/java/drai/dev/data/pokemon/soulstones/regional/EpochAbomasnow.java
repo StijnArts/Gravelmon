@@ -169,7 +169,7 @@ public class EpochAbomasnow extends drai.dev.data.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 40, 54, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

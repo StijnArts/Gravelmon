@@ -43,7 +43,6 @@ public class Flamelin extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),

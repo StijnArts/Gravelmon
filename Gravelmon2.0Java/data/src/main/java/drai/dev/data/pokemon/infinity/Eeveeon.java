@@ -97,8 +97,7 @@ public class Eeveeon extends Pokemon {
                 List.of(Label.INFINITY),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.24, 0.3,

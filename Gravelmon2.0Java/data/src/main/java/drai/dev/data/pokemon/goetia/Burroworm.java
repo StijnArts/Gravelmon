@@ -11,7 +11,7 @@ public class Burroworm extends drai.dev.data.pokemon.Pokemon {
                 Type.BUG, Type.GROUND,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                5, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,11 +22,11 @@ public class Burroworm extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 4.7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Burroworm");

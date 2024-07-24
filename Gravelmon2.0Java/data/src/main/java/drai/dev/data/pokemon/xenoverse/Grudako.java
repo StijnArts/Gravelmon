@@ -81,8 +81,7 @@ public class Grudako extends Pokemon {
                 List.of(Label.XENOVERSE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 49, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,

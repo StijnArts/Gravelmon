@@ -173,7 +173,7 @@ public class EpochAromatisseOne extends drai.dev.data.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 52, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER ))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_WINTER ))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -11,7 +11,7 @@ public class Clampere extends drai.dev.data.pokemon.Pokemon {
                 Type.ELECTRIC, Type.BUG,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                5, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -20,7 +20,6 @@ public class Clampere extends drai.dev.data.pokemon.Pokemon {
                 List.of("Added Oct 27 2021 Etymology: clamp + ampere"),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.PINCH,1),
                         new MoveLearnSetEntry(Move.LEECH_LIFE,"tm"),
                         new MoveLearnSetEntry(Move.BRUTAL_SWING,"tm"),
                         new MoveLearnSetEntry(Move.NASTY_PLOT,"tm"),
@@ -59,13 +58,14 @@ public class Clampere extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 12, 37, 1.34, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Clampere");
 
     }

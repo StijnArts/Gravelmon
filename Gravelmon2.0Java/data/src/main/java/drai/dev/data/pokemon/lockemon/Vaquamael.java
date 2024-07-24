@@ -48,8 +48,7 @@ public class Vaquamael extends Pokemon {
                 List.of(Label.LOCKEMON),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,

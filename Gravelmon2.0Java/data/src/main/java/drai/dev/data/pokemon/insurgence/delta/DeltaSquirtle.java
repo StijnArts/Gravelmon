@@ -136,8 +136,8 @@ public class DeltaSquirtle extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,

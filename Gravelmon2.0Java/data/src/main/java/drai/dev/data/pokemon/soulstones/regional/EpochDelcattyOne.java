@@ -164,8 +164,8 @@ public class EpochDelcattyOne extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 48, .8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FLORAL, Biome.IS_PLAINS)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

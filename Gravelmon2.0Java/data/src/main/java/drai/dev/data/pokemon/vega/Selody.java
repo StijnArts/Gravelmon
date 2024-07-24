@@ -118,7 +118,7 @@ public class Selody extends Pokemon {
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 35, 56, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());

@@ -78,8 +78,7 @@ public class Illime extends Pokemon {
                 0,
                 List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 19, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,

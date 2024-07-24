@@ -360,8 +360,10 @@ public class Pokemon {
                 FOSSIL_POKEMON.add(pokemon);
             }
 
-            if (pokemon.getLearnSet().isEmpty()) {
-                pokemon.setLearnSet(MoveListFiller.resolveMoveList(pokemon));
+            if (pokemon.getLearnSet().isEmpty() || pokemon.getLearnSet().stream().noneMatch(moveLearnSetEntry -> StringUtils.isNumeric(moveLearnSetEntry.getCondition()))) {
+                var newMoveSet = MoveListFiller.resolveMoveList(pokemon);
+                newMoveSet.addAll(pokemon.getLearnSet());
+                pokemon.setLearnSet(newMoveSet);
             }
 
             if (0 == pokemon.getCatchRate()) {

@@ -94,8 +94,7 @@ public class Takuni extends Pokemon {
                 0,
                 List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 19, 7.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,

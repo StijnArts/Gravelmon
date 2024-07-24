@@ -114,8 +114,8 @@ public class Atillohunn extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 49, 10, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL, SpawnPreset.WILD),
                 0.28, 0.3,

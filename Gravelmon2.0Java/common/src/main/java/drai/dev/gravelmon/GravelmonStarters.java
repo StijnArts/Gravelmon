@@ -418,6 +418,17 @@ public class GravelmonStarters {
                                 "Shellop level=10"
                         )
                 ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Goetia",
+                        List.of(
+                                "Nymfaun level=10",
+                                "Pinonkey level=10",
+                                "Seamian level=10",
+                                "Slowth level=10",
+                                "Taratinder level=10",
+                                "Cowet level=10"
+                        )
+                ));
     }
 
     private static StarterCategoryDataHolder createCategory(String name, List<String> starters) {

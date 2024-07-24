@@ -115,8 +115,7 @@ public class Gorochu extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:redstone",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 51, 2.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.29, 0.3,

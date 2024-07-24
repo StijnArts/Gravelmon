@@ -11,8 +11,8 @@ public class Charantula extends drai.dev.data.pokemon.Pokemon {
                 Type.FIRE, Type.BUG,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,9 +22,8 @@ public class Charantula extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

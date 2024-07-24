@@ -47,7 +47,7 @@ public class Yggdraflygg extends drai.dev.data.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());

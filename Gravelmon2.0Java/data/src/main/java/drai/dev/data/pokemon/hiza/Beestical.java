@@ -45,8 +45,7 @@ public class Beestical extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.HIZA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 54, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING))
                 ), List.of(),
                 List.of(SpawnPreset.HONEY_TREE),
                 0.28, 0.3,

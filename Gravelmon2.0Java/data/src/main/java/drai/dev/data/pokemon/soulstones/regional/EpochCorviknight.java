@@ -154,7 +154,7 @@ public class EpochCorviknight extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 37, 55, 0.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

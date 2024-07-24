@@ -51,8 +51,7 @@ public class Guruchi extends Pokemon {
                 List.of(Label.LOCKEMON),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 19, 44, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,

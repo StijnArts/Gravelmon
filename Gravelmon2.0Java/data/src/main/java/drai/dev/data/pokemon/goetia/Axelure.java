@@ -11,7 +11,7 @@ public class Axelure extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER, Type.GHOST,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,13 +22,16 @@ public class Axelure extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 23, 47, 2.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.MAXY,"40")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Axelure");
 
     }

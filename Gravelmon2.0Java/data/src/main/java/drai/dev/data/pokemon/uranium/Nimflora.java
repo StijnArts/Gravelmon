@@ -114,8 +114,7 @@ public class Nimflora extends Pokemon {
                 List.of(Label.URANIUM),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 41, 1.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,

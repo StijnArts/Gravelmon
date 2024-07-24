@@ -11,7 +11,7 @@ public class Surgeon extends drai.dev.data.pokemon.Pokemon {
                 Type.ELECTRIC, Type.GHOST,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                16, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,9 +22,9 @@ public class Surgeon extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 51, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

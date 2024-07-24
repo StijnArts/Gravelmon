@@ -46,8 +46,7 @@ public class Marchawk extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 17, 33, 1.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

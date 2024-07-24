@@ -11,7 +11,7 @@ public class Bugboat extends drai.dev.data.pokemon.Pokemon {
                 Type.BUG, Type.WATER,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                9, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,13 +22,16 @@ public class Bugboat extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 24, 45, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Bugboat");
 
     }

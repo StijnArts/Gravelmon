@@ -47,8 +47,7 @@ public class Weeduck extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.NORHEIM),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 18, 46, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,

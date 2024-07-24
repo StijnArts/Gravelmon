@@ -45,8 +45,7 @@ public class Centree extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.AMAVI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 59, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_PLAINS))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

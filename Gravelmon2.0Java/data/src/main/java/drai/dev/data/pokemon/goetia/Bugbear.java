@@ -11,7 +11,7 @@ public class Bugbear extends drai.dev.data.pokemon.Pokemon {
                 Type.BUG, Type.POISON,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                6, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,11 +22,10 @@ public class Bugbear extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 41, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BIRCH))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.HONEY_TREE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bugbear");

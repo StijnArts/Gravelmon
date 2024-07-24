@@ -94,9 +94,8 @@ public class Bonsquire extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 25, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NEAR_CAMPFIRE),
                 0.28, 0.3,
                 List.of());

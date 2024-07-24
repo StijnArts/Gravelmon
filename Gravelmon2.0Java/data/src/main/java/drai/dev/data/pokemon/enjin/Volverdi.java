@@ -11,7 +11,7 @@ public class Volverdi extends drai.dev.data.pokemon.Pokemon {
                 Type.PSYCHIC,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                2, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,13 +22,16 @@ public class Volverdi extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 13, 41, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Volverdi");
 
     }
