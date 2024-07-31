@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:priminpup",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_priminpup",
+      "texture": "cobblemon:textures/pokemon/enjin/priminpup.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/priminpup_shiny.png"
+    }
+  ]
+}

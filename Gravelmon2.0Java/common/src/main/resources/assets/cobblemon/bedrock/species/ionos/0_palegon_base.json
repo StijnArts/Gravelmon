@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:palegon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_palegon",
+      "texture": "cobblemon:textures/pokemon/ionos/palegon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/palegon_shiny.png"
+    }
+  ]
+}

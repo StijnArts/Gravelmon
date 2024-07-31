@@ -17,8 +17,8 @@
       "condition": {
 "biomes": [ "minecraft:cherry_grove",
 "#cobblemon:is_bamboo" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

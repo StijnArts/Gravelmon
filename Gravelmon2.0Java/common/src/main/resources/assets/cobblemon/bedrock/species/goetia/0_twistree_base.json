@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:twistree",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_twistree",
+      "texture": "cobblemon:textures/pokemon/goetia/twistree.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/twistree_shiny.png"
+    }
+  ]
+}

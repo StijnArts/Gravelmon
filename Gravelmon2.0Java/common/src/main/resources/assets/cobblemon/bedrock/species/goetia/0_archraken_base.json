@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:archraken",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_archraken",
+      "texture": "cobblemon:textures/pokemon/goetia/archraken.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/archraken_shiny.png"
+    }
+  ]
+}

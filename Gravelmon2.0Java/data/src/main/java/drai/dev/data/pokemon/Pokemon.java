@@ -306,10 +306,19 @@ public class Pokemon {
         for (int i = zeroStatPokemon.size() - 1; i > -1; i--) {
             var pokemon = zeroStatPokemon.get(i);
             if (!pokemon.evolutions.isEmpty()) {
-                var pokemonToCopy = pokemon.evolutions.stream().map(evolutionEntry -> evolutionEntry.getResult().toLowerCase())
-                        .filter(result -> POKEMON_REGISTRY.containsKey(result))
-                        .map(result -> POKEMON_REGISTRY.get(result))
-                        .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
+                Optional<Pokemon> pokemonToCopy = pokemon.evolutions.stream().map(evolutionEntry -> evolutionEntry.getResult().toLowerCase())
+//                            .filter(result -> POKEMON_REGISTRY.containsKey(result))
+                            .map(result -> {
+                                Pokemon pokemon1 = POKEMON_REGISTRY.get(result);
+                                if(pokemon1 == null && result.contains(" ")){
+                                    var split = result.split(" ");
+                                    pokemon1 = POKEMON_REGISTRY.get(split[1]+split[0]);
+                                }
+                                return pokemon1;
+                            })
+                            .filter(Objects::nonNull)
+                            .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
+
                 if (pokemonToCopy.isPresent()) {
                     var evolutionStats = pokemonToCopy.get().stats;
                     pokemon.stats = new Stats(evolutionStats, 0.7);

@@ -16,8 +16,8 @@
       "weight": 2.0,
       "condition": {
 "biomes": [ "#minecraft:is_deep_ocean" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_beach" ]    }

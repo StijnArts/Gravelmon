@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:macrochip",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_macrochip",
+      "texture": "cobblemon:textures/pokemon/enjin/macrochip.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/macrochip_shiny.png"
+    }
+  ]
+}

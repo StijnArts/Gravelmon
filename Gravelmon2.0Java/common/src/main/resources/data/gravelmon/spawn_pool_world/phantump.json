@@ -32,8 +32,8 @@
       "weight": 1.8,
       "condition": {
 "biomes": [ "#cobblemon:is_taiga" ],
-        "timeRange": "day",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "day"
       }
     }
 ,
@@ -70,8 +70,8 @@
       "weight": 4.0,
       "condition": {
 "biomes": [ "#cobblemon:is_swamp" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
 ,

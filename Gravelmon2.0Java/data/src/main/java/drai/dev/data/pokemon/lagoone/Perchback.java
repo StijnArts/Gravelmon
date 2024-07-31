@@ -68,7 +68,7 @@ public class Perchback extends drai.dev.data.pokemon.Pokemon {
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 145, 9400,
                 new Stats(2,0,0,0,0,0), 25,
-                0.0,
+                -1,
                 189, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
@@ -77,13 +77,16 @@ public class Perchback extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 33, 65, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Perchback");
 
     }

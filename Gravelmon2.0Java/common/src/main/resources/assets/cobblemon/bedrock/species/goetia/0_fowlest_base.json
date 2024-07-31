@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fowlest",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_fowlest",
+      "texture": "cobblemon:textures/pokemon/goetia/fowlest.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/fowlest_shiny.png"
+    }
+  ]
+}

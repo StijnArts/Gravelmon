@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:webbewulf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_webbewulf",
+      "texture": "cobblemon:textures/pokemon/lagoone/webbewulf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/webbewulf_shiny.png"
+    }
+  ]
+}

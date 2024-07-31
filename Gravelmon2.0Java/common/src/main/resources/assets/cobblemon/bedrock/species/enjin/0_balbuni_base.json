@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:balbuni",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_balbuni",
+      "texture": "cobblemon:textures/pokemon/enjin/balbuni.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/balbuni_shiny.png"
+    }
+  ]
+}

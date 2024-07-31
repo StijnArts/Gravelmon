@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:grimongrel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_grimongrel",
+      "texture": "cobblemon:textures/pokemon/goetia/grimongrel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/grimongrel_shiny.png"
+    }
+  ]
+}

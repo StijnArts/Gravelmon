@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:thornip",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_thornip",
+      "texture": "cobblemon:textures/pokemon/enjin/thornip.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/thornip_shiny.png"
+    }
+  ]
+}

@@ -48,6 +48,7 @@
     "field"
   ],
   "moves": [
+    "1:tackle",
     "tm:facade",
     "tm:naturepower",
     "tm:frustration",

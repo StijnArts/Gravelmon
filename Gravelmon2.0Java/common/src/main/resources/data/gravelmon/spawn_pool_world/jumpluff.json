@@ -16,8 +16,8 @@
       "weight": 0.4,
       "condition": {
 "biomes": [ "#cobblemon:is_snowy" ],
-        "isRaining": true,
-        "canSeeSky": true
+        "canSeeSky": true,
+        "isRaining": true
       }
     }
 ,
@@ -49,8 +49,7 @@
       "level": "28-47",
       "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky" ]
       }
     }
 

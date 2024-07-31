@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crestrap",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_crestrap",
+      "texture": "cobblemon:textures/pokemon/goetia/crestrap.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/crestrap_shiny.png"
+    }
+  ]
+}

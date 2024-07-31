@@ -17,8 +17,8 @@
       "condition": {
 "biomes": [ "#cobblemon:is_badlands",
 "#cobblemon:is_desert" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
 

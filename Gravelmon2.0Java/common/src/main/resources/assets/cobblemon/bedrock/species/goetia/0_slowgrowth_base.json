@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slowgrowth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_slowgrowth",
+      "texture": "cobblemon:textures/pokemon/goetia/slowgrowth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/slowgrowth_shiny.png"
+    }
+  ]
+}

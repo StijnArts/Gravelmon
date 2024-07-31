@@ -36,6 +36,22 @@
     }
 ,
     {
+      "id": "ionosiancroconaw-1",
+      "pokemon": "croconaw ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ]
+      }
+    }
+,
+    {
       "id": "eghocroconaw-1",
       "pokemon": "croconaw egho",
       "presets": [

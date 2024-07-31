@@ -19,7 +19,7 @@
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/winter" ]    }
+"biomes": [ "#cobblemon:is_taiga" ]    }
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:knightmor",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_knightmor",
+      "texture": "cobblemon:textures/pokemon/ionos/knightmor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/knightmor_shiny.png"
+    }
+  ]
+}

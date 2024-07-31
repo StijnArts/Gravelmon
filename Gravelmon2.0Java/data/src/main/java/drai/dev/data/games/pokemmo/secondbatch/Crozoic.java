@@ -71,7 +71,7 @@ public class Crozoic extends drai.dev.data.games.registry.Game {
     public Crozoic() {
         super("Crozoic");
     }
-
+//TODO update when all other ones are done
     @Override
     public void registerPokemon() {
         pokemon.add(new Arovee());

@@ -11,7 +11,7 @@ public class Chatart extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER, Type.FLYING,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                6, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,13 +22,15 @@ public class Chatart extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 54, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        addAdditionalEvolution("chatot", new EvolutionEntry("chatart", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_BEACH.getId() + ":" + Biome.IS_BEACH.getName() +"\""))));
+        setCanFly(true);
            setLangFileName("Chatart");
 
     }

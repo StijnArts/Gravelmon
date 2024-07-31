@@ -36,6 +36,23 @@
     }
 ,
     {
+      "id": "ionosiantyphlosion-1",
+      "pokemon": "typhlosion ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_wasteland" ]
+      }
+    }
+,
+    {
       "id": "eghotyphlosion-1",
       "pokemon": "typhlosion egho",
       "presets": [

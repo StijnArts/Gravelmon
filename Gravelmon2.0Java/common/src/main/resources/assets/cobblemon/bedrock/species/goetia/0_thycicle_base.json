@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:thycicle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_thycicle",
+      "texture": "cobblemon:textures/pokemon/goetia/thycicle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/thycicle_shiny.png"
+    }
+  ]
+}

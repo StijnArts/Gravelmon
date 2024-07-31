@@ -23,8 +23,8 @@ public class Mossloth extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("mossloth", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
+                List.of(new EvolutionEntry("Slowgrowth", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(                        ),
                 List.of(Label.GOETIA),
                 0, List.of(

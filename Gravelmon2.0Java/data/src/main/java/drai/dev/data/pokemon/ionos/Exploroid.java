@@ -16,7 +16,7 @@ public class Exploroid extends drai.dev.data.pokemon.Pokemon {
                         75,
                         75),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                0, 0,
+                5, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
@@ -27,13 +27,13 @@ public class Exploroid extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Exploroid");
 
     }

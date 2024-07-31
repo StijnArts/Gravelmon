@@ -17,8 +17,8 @@
       "condition": {
 "biomes": [ "#cobblemon:is_volvanic",
 "minecraft:cherry_grove" ],
-        "timeRange": "day",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "day"
       }
     }
   ]

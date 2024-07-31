@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blizzund",
-  "nationalPokedexNumber": 5633,
+  "nationalPokedexNumber": 5807,
   "primaryType": "ice",
   "abilities": [
     "frisk",
@@ -48,6 +48,7 @@
     "field"
   ],
   "moves": [
+    "1:powdersnow",
     "tm:facade",
     "tm:frustration",
     "tm:hiddenpower",

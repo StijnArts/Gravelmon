@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:perilouse",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_perilouse",
+      "texture": "cobblemon:textures/pokemon/goetia/perilouse.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/perilouse_shiny.png"
+    }
+  ]
+}

@@ -17,8 +17,8 @@
       "condition": {
 "biomes": [ "#cobblemon:is_floral",
 "#cobblemon:is_plains" ],
-        "timeRange": "day",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "day"
       }
     }
 ,

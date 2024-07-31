@@ -65,14 +65,19 @@ public class Cockapoll extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.KEEN_EYE), Ability.BIG_PECKS,
-                0, 0,
+                6, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("rayquazaapoll knows a lot about responsibility but rarely shows what it has been taught. Leading groups of cleffaatoto during great berry heists, wooperapoll is usually the worst of the bunch."),
-                List.of(),
+                List.of(new EvolutionEntry("sheagull", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""))),
+                        new EvolutionEntry("pharature", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -91,13 +96,14 @@ public class Cockapoll extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,56)                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 17, 44, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BIRCH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Cockapoll");
 
     }

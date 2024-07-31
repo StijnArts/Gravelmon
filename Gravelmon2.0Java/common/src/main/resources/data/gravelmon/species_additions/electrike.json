@@ -168,8 +168,159 @@
   "weight": 152,
   "aspects": ["epoch"],
   "cannotDynamax": false
+},
+{
+  "name": "Enjinnian",
+  "primaryType": "electric",
+  "secondaryType": "dark",
+  "abilities": [
+    "static",
+    "lightningrod",
+    "h:minus"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 40,
+    "special_attack": 65,
+    "special_defence": 40,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 59,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:thunderwave",
+    "4:leer",
+    "7:howl",
+    "10:quickattack",
+    "13:spark",
+    "16:odorsleuth",
+    "19:thunderfang",
+    "24:bite",
+    "29:discharge",
+    "34:roar",
+    "39:wildcharge",
+    "44:charge",
+    "49:thunder",
+    "tm:snore",
+    "tm:irontail",
+    "tm:uproar",
+    "tm:signalbeam",
+    "tm:shockwave",
+    "tm:magnetrise",
+    "tm:roar",
+    "tm:flamethrower",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:thunder",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:rest",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalk",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:facade",
+    "tm:chargebeam",
+    "tm:round",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:snarl",
+    "tm:confide",
+    "tm:headbutt",
+    "tm:swift",
+    "tm:curse",
+    "tm:crunch",
+    "tm:switcheroo",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:discharge",
+    "tm:flameburst",
+    "tm:electroball",
+    "tm:eerieimpulse"  ],
+  "labels": [
+    "enjin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.enjinnianelectrike.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "electrike_manectric_enjinnian",
+      "variant": "level_up",
+      "result": "manectric enjinnian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 152,
+  "aspects": ["enjinnian"],
+  "cannotDynamax": false
 }
 ], "features": [
-"epoch"
+"epoch",
+"enjinnian"
   ]
 }

@@ -41,7 +41,7 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new PastelianWeavile("", Aspect.PASTELIAN)); TODO
+//        pokemon.add(new PastelianWeavile("", Aspect.PASTELIAN)); TODO
 
 //        pokemon.add(new OlysosianSkorupi("", Aspect.OLYSOSIAN)); Missing Art
 //        pokemon.add(new OlysosianDrapion("", Aspect.OLYSOSIAN)); MEMBER OF LINE NOT FINISHED
@@ -55,15 +55,15 @@ public class GenerationFour extends Game {
 //        pokemon.add(new TheossianToxicroak("", Aspect.THEOSSIAN));
 //        pokemon.add(new TheossianYanmega("", Aspect.THEOSSIAN));
 
-        pokemon.add(new NodorranChimchar("", Aspect.NODORRAN)); TODO
-        pokemon.add(new NodorranMonferno("", Aspect.NODORRAN));
-        pokemon.add(new NodorranInfernape("", Aspect.NODORRAN));
-        pokemon.add(new NodorranDrifblim("", Aspect.NODORRAN));
-        pokemon.add(new NodorranDrifloon("", Aspect.NODORRAN));
-        pokemon.add(new NodorranHippopotas("", Aspect.NODORRAN));
-        pokemon.add(new NodorranHippowdon("", Aspect.NODORRAN));
-        pokemon.add(new NodorranProbopass("", Aspect.NODORRAN));
-        pokemon.add(new NodorranBonsly("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranChimchar("", Aspect.NODORRAN)); TODO
+//        pokemon.add(new NodorranMonferno("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranInfernape("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranDrifblim("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranDrifloon("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranHippopotas("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranHippowdon("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranProbopass("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranBonsly("", Aspect.NODORRAN));
 
         registerSoulstonesVariants();
 
@@ -80,7 +80,7 @@ public class GenerationFour extends Game {
 //        pokemon.add(new IonosianShellos(422));   Missing Stats
 //        pokemon.add(new IonosianGastrodon(423));   Missing Art
 //        pokemon.add(new IonosianMimeJr(439));   Missing Art
-        pokemon.add(new IonosianMunchlax("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianMunchlax("", Aspect.IONOSIAN));
 
         pokemon.add(new FligianShellos("", Aspect.FLIGIAN));
         pokemon.add(new FligianGastrodon("", Aspect.FLIGIAN));

@@ -16,8 +16,8 @@
       "weight": 4.0,
       "condition": {
 "biomes": [ "#cobblemon:nether/is_forest" ],
-        "timeRange": "day",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "day"
       }
     }
   ]

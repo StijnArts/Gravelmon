@@ -7,15 +7,16 @@
       "id": "titanice-1",
       "pokemon": "titanice",
       "presets": [
-          "near_water"
+          "water_surface"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
-      "level": "19-54",
-      "weight": 4.2,
+      "level": "39-56",
+      "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_frozen" ]
+"biomes": [ "#cobblemon:is_frozen" ],
+        "canSeeSky": true
       }
     }
   ]

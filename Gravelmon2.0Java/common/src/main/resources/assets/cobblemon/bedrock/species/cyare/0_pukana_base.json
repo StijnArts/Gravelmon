@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pukana",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_pukana",
+      "texture": "cobblemon:textures/pokemon/cyare/pukana.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/pukana_shiny.png"
+    }
+  ]
+}

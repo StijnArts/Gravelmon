@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shinpanzee",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_shinpanzee",
+      "texture": "cobblemon:textures/pokemon/ionos/shinpanzee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/shinpanzee_shiny.png"
+    }
+  ]
+}

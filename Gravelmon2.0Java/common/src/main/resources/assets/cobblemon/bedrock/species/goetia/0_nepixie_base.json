@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nepixie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_nepixie",
+      "texture": "cobblemon:textures/pokemon/goetia/nepixie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/nepixie_shiny.png"
+    }
+  ]
+}

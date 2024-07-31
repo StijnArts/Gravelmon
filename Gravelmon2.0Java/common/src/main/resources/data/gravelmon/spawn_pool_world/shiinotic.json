@@ -35,8 +35,8 @@
       "condition": {
 "biomes": [ "#cobblemon:is_mushroom",
 "#cobblemon:is_jungle" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
 

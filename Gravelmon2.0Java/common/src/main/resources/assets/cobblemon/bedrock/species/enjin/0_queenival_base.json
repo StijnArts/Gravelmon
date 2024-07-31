@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:queenival",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_queenival",
+      "texture": "cobblemon:textures/pokemon/enjin/queenival.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/queenival_shiny.png"
+    }
+  ]
+}

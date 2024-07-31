@@ -68,7 +68,7 @@ public class Titaneon extends Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_CLAW, "egg"),
                         new MoveLearnSetEntry(Move.SKULL_BASH, "egg")
                 ),
-                List.of(Label.MYTH),
+                List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),

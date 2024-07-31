@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:zomboo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_zomboo",
+      "texture": "cobblemon:textures/pokemon/goetia/zomboo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/zomboo_shiny.png"
+    }
+  ]
+}

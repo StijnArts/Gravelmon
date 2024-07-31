@@ -17,7 +17,6 @@
       "condition": {
 "biomes": [ "#cobblemon:is_grassland",
 "#cobblemon:is_forest" ],
-        "canSeeSky": true,
         "timeRange": "night"
       }
     }

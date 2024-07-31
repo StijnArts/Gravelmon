@@ -46,7 +46,7 @@ public class Soakcuff extends Pokemon {
                         new MoveLearnSetEntry(Move.BRINE, "egg"),
                         new MoveLearnSetEntry(Move.LIQUIDATION, "egg")
                 ),
-                List.of(Label.MYTH),
+                List.of(Label.MONGRATIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 23, 48, 0.3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COAST)),

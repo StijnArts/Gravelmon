@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shellicopter",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_shellicopter",
+      "texture": "cobblemon:textures/pokemon/goetia/shellicopter.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/shellicopter_shiny.png"
+    }
+  ]
+}

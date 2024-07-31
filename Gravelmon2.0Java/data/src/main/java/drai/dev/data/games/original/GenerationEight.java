@@ -22,17 +22,17 @@ public class GenerationEight extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new MystisianImpidimp("", Aspect.MYSTISIAN)); TODO
-        pokemon.add(new MystisianMorgrem("", Aspect.MYSTISIAN));
-        pokemon.add(new MystisianGrimmsnarl("", Aspect.MYSTISIAN));
+//        pokemon.add(new MystisianImpidimp("", Aspect.MYSTISIAN)); TODO
+//        pokemon.add(new MystisianMorgrem("", Aspect.MYSTISIAN));
+//        pokemon.add(new MystisianGrimmsnarl("", Aspect.MYSTISIAN));
 
         registerSoulstonesVariants();
 
 //        pokemon.add(new OttoranImpidimp("", Aspect.OTTORAN)); MEMBER OF LINE NOT FINISHED
 
-//        pokemon.add(new LagoonanHattena("", Aspect.LAGOONAN)); TODO
-//        pokemon.add(new LagoonanHattrem("", Aspect.LAGOONAN));
-//        pokemon.add(new LagoonanHatterene("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanHattena("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanHattrem("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanHatterene("", Aspect.LAGOONAN));
 
         pokemon.add(new NovranWooloo("", Aspect.NOVRAN));
         pokemon.add(new NovranDubwool("", Aspect.NOVRAN));

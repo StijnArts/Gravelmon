@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:marlequin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_marlequin",
+      "texture": "cobblemon:textures/pokemon/goetia/marlequin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/marlequin_shiny.png"
+    }
+  ]
+}

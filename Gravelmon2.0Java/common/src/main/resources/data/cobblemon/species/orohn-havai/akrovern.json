@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "akrovern",
-  "nationalPokedexNumber": 3070,
+  "nationalPokedexNumber": 3096,
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
@@ -50,6 +50,8 @@
     "dragon"
   ],
   "moves": [
+    "1:scratch",
+    "1:metalclaw",
     "tm:falseswipe",
     "tm:facade",
     "tm:frustration",

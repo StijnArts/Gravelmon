@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:termini",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_termini",
+      "texture": "cobblemon:textures/pokemon/goetia/termini.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/termini_shiny.png"
+    }
+  ]
+}

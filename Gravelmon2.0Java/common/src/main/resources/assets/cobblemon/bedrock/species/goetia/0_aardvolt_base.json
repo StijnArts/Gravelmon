@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:aardvolt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_aardvolt",
+      "texture": "cobblemon:textures/pokemon/goetia/aardvolt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/aardvolt_shiny.png"
+    }
+  ]
+}

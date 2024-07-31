@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:monstauk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_monstauk",
+      "texture": "cobblemon:textures/pokemon/goetia/monstauk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/monstauk_shiny.png"
+    }
+  ]
+}

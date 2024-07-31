@@ -15,8 +15,7 @@
       "level": "33-58",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_overworld" ]
       }
     }
   ]

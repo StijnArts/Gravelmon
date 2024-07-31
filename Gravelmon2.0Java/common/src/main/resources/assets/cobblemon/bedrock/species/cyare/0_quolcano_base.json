@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:quolcano",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_quolcano",
+      "texture": "cobblemon:textures/pokemon/cyare/quolcano.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/quolcano_shiny.png"
+    }
+  ]
+}

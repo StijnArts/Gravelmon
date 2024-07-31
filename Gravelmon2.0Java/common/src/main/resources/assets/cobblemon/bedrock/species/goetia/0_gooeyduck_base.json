@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gooeyduck",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_gooeyduck",
+      "texture": "cobblemon:textures/pokemon/goetia/gooeyduck.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/gooeyduck_shiny.png"
+    }
+  ]
+}

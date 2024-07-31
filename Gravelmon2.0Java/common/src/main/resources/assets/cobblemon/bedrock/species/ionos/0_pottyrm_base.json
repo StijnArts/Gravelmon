@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pottyrm",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_pottyrm",
+      "texture": "cobblemon:textures/pokemon/ionos/pottyrm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/pottyrm_shiny.png"
+    }
+  ]
+}

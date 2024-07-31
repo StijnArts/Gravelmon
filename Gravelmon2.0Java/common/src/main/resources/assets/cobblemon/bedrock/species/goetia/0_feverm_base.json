@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:feverm",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_feverm",
+      "texture": "cobblemon:textures/pokemon/goetia/feverm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/feverm_shiny.png"
+    }
+  ]
+}

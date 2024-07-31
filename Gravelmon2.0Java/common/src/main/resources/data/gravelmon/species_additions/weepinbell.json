@@ -1,6 +1,110 @@
 {
    "target": "cobblemon:weepinbell",
    "forms": [{
+  "name": "Fligian",
+  "primaryType": "grass",
+  "secondaryType": "dark",
+  "abilities": [
+    "corrosion"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 85,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 55,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 137,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:leer",
+    "1:poisonsting",
+    "4:absorb",
+    "7:growth",
+    "10:leechseed",
+    "13:sandattack",
+    "16:bulletseed",
+    "19:powertrip",
+    "22:ingrain",
+    "26:payback",
+    "30:spikes",
+    "34:suckerpunch",
+    "38:pinmissile",
+    "42:energyball",
+    "46:cottonspore",
+    "50:sandstorm",
+    "54:destinybond"  ],
+  "labels": [
+    "fliga",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fligianweepinbell.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "weepinbell_victreebel_fligian",
+      "variant": "item_interact",
+      "result": "victreebel fligian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 0,
+  "aspects": ["fligian"],
+  "cannotDynamax": false
+},
+{
   "name": "Aristosian",
   "primaryType": "grass",
   "secondaryType": "fire",
@@ -168,6 +272,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"fligian",
 "aristosian"
   ]
 }

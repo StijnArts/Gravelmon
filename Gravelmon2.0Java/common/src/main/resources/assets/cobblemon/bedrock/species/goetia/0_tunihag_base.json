@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tunihag",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_tunihag",
+      "texture": "cobblemon:textures/pokemon/goetia/tunihag.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/tunihag_shiny.png"
+    }
+  ]
+}

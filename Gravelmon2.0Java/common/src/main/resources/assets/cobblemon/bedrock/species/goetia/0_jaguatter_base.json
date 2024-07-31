@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:jaguatter",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_jaguatter",
+      "texture": "cobblemon:textures/pokemon/goetia/jaguatter.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/jaguatter_shiny.png"
+    }
+  ]
+}

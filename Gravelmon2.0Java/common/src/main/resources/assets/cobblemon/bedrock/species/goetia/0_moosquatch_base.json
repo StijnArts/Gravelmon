@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:moosquatch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_moosquatch",
+      "texture": "cobblemon:textures/pokemon/goetia/moosquatch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/moosquatch_shiny.png"
+    }
+  ]
+}

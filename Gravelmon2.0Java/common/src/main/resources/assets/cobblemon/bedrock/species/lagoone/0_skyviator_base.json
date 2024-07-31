@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:skyviator",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_skyviator",
+      "texture": "cobblemon:textures/pokemon/lagoone/skyviator.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/skyviator_shiny.png"
+    }
+  ]
+}

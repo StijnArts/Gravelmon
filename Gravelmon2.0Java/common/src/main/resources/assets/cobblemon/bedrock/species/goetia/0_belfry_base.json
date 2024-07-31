@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:belfry",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_belfry",
+      "texture": "cobblemon:textures/pokemon/goetia/belfry.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/belfry_shiny.png"
+    }
+  ]
+}

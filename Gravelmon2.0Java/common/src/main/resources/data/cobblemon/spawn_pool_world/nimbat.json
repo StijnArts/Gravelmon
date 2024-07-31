@@ -17,8 +17,8 @@
       "condition": {
 "biomes": [ "#cobblemon:is_sky",
 "#cobblemon:is_mountain" ],
-        "isThundering": true,
-        "canSeeSky": true
+        "canSeeSky": true,
+        "isThundering": true
       }
     }
   ]

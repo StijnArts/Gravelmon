@@ -16,8 +16,8 @@
       "weight": 3.0,
       "condition": {
 "biomes": [ "#cobblemon:is_overworld" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

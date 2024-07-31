@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pupive",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_pupive",
+      "texture": "cobblemon:textures/pokemon/cyare/pupive.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/pupive_shiny.png"
+    }
+  ]
+}

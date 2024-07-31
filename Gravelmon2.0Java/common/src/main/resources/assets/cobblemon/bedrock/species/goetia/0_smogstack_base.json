@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:smogstack",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_smogstack",
+      "texture": "cobblemon:textures/pokemon/goetia/smogstack.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/smogstack_shiny.png"
+    }
+  ]
+}

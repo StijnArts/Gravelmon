@@ -345,6 +345,97 @@
   "cannotDynamax": false
 },
 {
+  "name": "Ionosian",
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 36,
+    "attack": 66,
+    "defence": 39,
+    "special_attack": 19,
+    "special_defence": 39,
+    "speed": 56
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:watergun",
+    "1:metalclaw"  ],
+  "labels": [
+    "ionos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ionosiantotodile.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "totodile_croconaw_ionosian",
+      "variant": "level_up",
+      "result": "croconaw ionosian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 0,
+  "aspects": ["ionosian"],
+  "cannotDynamax": false
+},
+{
   "name": "Egho",
   "primaryType": "water",
   "secondaryType": "poison",
@@ -704,6 +795,7 @@
 ], "features": [
 "epoch",
 "epochtwo",
+"ionosian",
 "egho",
 "ayreian"
   ]

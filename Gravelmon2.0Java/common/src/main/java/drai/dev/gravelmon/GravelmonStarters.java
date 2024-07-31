@@ -27,6 +27,14 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Kanto",
+                createCategory("Form - Kanto",
+                        List.of(
+                                "Bulbasaur forman=true level=10",
+                                "Charmander forman=true level=10",
+                                "Squirtle forman=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Kanto",
                 createCategory("Torren",
                         List.of(
                                 "Bulbasaur delta=true level=10",
@@ -51,6 +59,22 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Johto",
+                createCategory("Form - Johto",
+                        List.of(
+                                "Chikorita forman=true level=10",
+                                "Cyndaquil forman=true level=10",
+                                "Totodile forman=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Johto",
+                createCategory("Ionos - Johto",
+                        List.of(
+                                "Chikorita ionosian=true level=10",
+                                "Cyndaquil ionosian=true level=10",
+                                "Totodile ionosian=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Johto",
                 createCategory("Epoch - Johto",
                         List.of(
                                 "Chikorita epoch=true level=10",
@@ -59,6 +83,14 @@ public class GravelmonStarters {
                                 "Chikorita epochtwo=true level=10",
                                 "Cyndaquil epochtwo=true level=10",
                                 "Totodile epochtwo=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Hoenn",
+                createCategory("Form - Hoenn",
+                        List.of(
+                                "Treecko forman=true level=10",
+                                "Torchic forman=true level=10",
+                                "Mudkip forman=true level=10"
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Hoenn",
@@ -72,9 +104,9 @@ public class GravelmonStarters {
         GravelmonStarterManager.registerNewStarter("Sinnoh",
                 createCategory("Epoch - Sinnoh",
                         List.of(
-                                "Treecko mystic=true level=10",
-                                "Torchic mystic=true level=10",
-                                "Mudkip mystic=true level=10"
+                                "Turtwig epoch=true level=10",
+                                "Chimchar epoch=true level=10",
+                                "Piplup epoch=true level=10"
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Kalos",
@@ -427,6 +459,14 @@ public class GravelmonStarters {
                                 "Slowth level=10",
                                 "Taratinder level=10",
                                 "Cowet level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Ionos",
+                        List.of(
+                                "Shrubbie level=10",
+                                "Radarent level=10",
+                                "Chompper level=10"
                         )
                 ));
     }

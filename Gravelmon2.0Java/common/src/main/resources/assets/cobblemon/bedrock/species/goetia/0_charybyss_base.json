@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:charybyss",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_charybyss",
+      "texture": "cobblemon:textures/pokemon/goetia/charybyss.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/charybyss_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tuskoar-1",
+      "pokemon": "tuskoar",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-32",
+      "weight": 3.5,
+      "condition": {
+"biomes": [ "minecraft:birch_forest" ]
+      }
+    }
+  ]
+}

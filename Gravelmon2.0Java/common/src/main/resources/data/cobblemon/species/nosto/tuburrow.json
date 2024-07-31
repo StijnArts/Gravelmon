@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tuburrow",
-  "nationalPokedexNumber": 3658,
+  "nationalPokedexNumber": 3684,
   "primaryType": "ground",
   "abilities": [
     "sturdy",
@@ -48,6 +48,7 @@
     "bug"
   ],
   "moves": [
+    "1:mudslap",
     "tm:signalbeam",
     "tm:skittersmack",
     "tm:knockoff",

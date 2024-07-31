@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kiwern",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_kiwern",
+      "texture": "cobblemon:textures/pokemon/cyare/kiwern.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/kiwern_shiny.png"
+    }
+  ]
+}

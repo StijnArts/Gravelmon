@@ -28,6 +28,20 @@
         }
       ],
       "permanent": true   
+ },
+    {
+      "id": "chatot_chatart",
+      "variant": "level_up",
+      "result": "chatart",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_beach"
+        }
+      ],
+      "permanent": true   
  }
   ]
 

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:peernut",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_peernut",
+      "texture": "cobblemon:textures/pokemon/goetia/peernut.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/peernut_shiny.png"
+    }
+  ]
+}

@@ -7,17 +7,15 @@
       "id": "puffume-1",
       "pokemon": "puffume",
       "presets": [
-          "mansion"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-39",
-      "weight": 6.0,
+      "level": "10-34",
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_badlands",
-"#cobblemon:is_sky" ],
-        "canSeeSky": false
+"biomes": [ "#cobblemon:is_swamp" ]
       }
     }
   ]

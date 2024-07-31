@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vaxxine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_vaxxine",
+      "texture": "cobblemon:textures/pokemon/goetia/vaxxine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/vaxxine_shiny.png"
+    }
+  ]
+}

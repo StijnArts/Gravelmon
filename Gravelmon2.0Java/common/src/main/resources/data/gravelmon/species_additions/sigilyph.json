@@ -1,5 +1,6 @@
 {
    "target": "cobblemon:sigilyph",
+  "preEvolution": "sigiping",
    "forms": [{
   "name": "Norheiman",
   "primaryType": "dark",

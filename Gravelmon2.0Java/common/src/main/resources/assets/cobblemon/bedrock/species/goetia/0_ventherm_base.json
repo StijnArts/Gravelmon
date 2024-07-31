@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ventherm",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_ventherm",
+      "texture": "cobblemon:textures/pokemon/goetia/ventherm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/ventherm_shiny.png"
+    }
+  ]
+}

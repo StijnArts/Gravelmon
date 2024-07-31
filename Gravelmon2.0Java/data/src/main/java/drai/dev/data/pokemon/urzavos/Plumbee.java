@@ -9,7 +9,7 @@ public class Plumbee extends drai.dev.data.pokemon.Pokemon {
     public Plumbee() {
         super("Plumbee",
                 Type.BUG, Type.GRASS,
-                stats,
+                new Stats(0,0,0,0,0,0),
                 List.of(Ability.DRY_SKIN), Ability.DRY_SKIN,
                 2, 9,
                 new Stats(0,0,0,0,0,0), 255,

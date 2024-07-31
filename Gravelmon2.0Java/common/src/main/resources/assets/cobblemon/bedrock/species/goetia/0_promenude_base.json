@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:promenude",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_promenude",
+      "texture": "cobblemon:textures/pokemon/goetia/promenude.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/promenude_shiny.png"
+    }
+  ]
+}

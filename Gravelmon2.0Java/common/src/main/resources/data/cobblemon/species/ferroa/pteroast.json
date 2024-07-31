@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pteroast",
-  "nationalPokedexNumber": 1870,
+  "nationalPokedexNumber": 1896,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -47,6 +47,8 @@
     "flying"
   ],
   "moves": [
+    "1:ember",
+    "1:metalclaw",
     "tm:defog",
     "tm:shockwave",
     "tm:snatch",

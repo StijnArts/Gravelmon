@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:decompost",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_decompost",
+      "texture": "cobblemon:textures/pokemon/goetia/decompost.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/decompost_shiny.png"
+    }
+  ]
+}

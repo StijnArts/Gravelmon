@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:debutaint",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_debutaint",
+      "texture": "cobblemon:textures/pokemon/goetia/debutaint.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/debutaint_shiny.png"
+    }
+  ]
+}

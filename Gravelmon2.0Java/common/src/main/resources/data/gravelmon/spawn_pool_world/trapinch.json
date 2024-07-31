@@ -20,6 +20,22 @@
     }
 ,
     {
+      "id": "ionosiantrapinch-1",
+      "pokemon": "trapinch ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-38",
+      "weight": 4.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+,
+    {
       "id": "ayreiantrapinch-1",
       "pokemon": "trapinch ayreian",
       "presets": [

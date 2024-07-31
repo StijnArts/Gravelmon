@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:volverdi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_volverdi",
+      "texture": "cobblemon:textures/pokemon/enjin/volverdi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/volverdi_shiny.png"
+    }
+  ]
+}

@@ -16,8 +16,8 @@
       "weight": 0.02,
       "condition": {
 "biomes": [ "#minecraft:is_ocean" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

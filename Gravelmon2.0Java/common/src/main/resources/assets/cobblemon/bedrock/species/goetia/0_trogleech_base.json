@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:trogleech",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_trogleech",
+      "texture": "cobblemon:textures/pokemon/goetia/trogleech.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/trogleech_shiny.png"
+    }
+  ]
+}

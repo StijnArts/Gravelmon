@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:brickozuna",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_brickozuna",
+      "texture": "cobblemon:textures/pokemon/goetia/brickozuna.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/brickozuna_shiny.png"
+    }
+  ]
+}

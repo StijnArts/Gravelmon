@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sigiping-1",
+      "pokemon": "sigiping",
+      "presets": [
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-25",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

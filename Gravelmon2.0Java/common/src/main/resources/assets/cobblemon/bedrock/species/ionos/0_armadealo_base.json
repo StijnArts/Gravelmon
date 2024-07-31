@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:armadealo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_armadealo",
+      "texture": "cobblemon:textures/pokemon/ionos/armadealo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/armadealo_shiny.png"
+    }
+  ]
+}

@@ -36,6 +36,23 @@
     }
 ,
     {
+      "id": "ionosianquilava-1",
+      "pokemon": "quilava ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_wasteland" ]
+      }
+    }
+,
+    {
       "id": "eghoquilava-1",
       "pokemon": "quilava egho",
       "presets": [

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fujaku",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_fujaku",
+      "texture": "cobblemon:textures/pokemon/goetia/fujaku.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/fujaku_shiny.png"
+    }
+  ]
+}

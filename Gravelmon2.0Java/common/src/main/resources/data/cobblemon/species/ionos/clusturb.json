@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "clusturb",
+  "nationalPokedexNumber": 5303,
+  "primaryType": "electric",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 51,
+    "attack": 27,
+    "defence": 53,
+    "special_attack": 92,
+    "special_defence": 53,
+    "speed": 77
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 155,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:thundershock",
+    "1:vacuumwave"  ],
+  "labels": [
+    "ionos",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.clusturb.desc"
+  ],
+  "preEvolution": "bultin",
+  "evolutions": [
+    {
+      "id": "clusturb_shortulp",
+      "variant": "item_interact",
+      "result": "Shortulp",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

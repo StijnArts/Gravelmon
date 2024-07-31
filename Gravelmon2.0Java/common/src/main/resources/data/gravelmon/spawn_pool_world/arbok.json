@@ -20,6 +20,23 @@
     }
 ,
     {
+      "id": "ionosianarbok-1",
+      "pokemon": "arbok ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 1.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "alteranarbok-1",
       "pokemon": "arbok alteran",
       "presets": [

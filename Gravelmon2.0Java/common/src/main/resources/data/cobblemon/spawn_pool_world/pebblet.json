@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pebblet-1",
+      "pokemon": "pebblet",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_hills",
+"#cobblemon:is_highlands" ]
+      }
+    }
+  ]
+}

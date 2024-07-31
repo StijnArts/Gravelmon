@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gurugan",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_gurugan",
+      "texture": "cobblemon:textures/pokemon/goetia/gurugan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/gurugan_shiny.png"
+    }
+  ]
+}

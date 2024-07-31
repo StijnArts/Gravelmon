@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:catterbrain",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_catterbrain",
+      "texture": "cobblemon:textures/pokemon/goetia/catterbrain.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/catterbrain_shiny.png"
+    }
+  ]
+}

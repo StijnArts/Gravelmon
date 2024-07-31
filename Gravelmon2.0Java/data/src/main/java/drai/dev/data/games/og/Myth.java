@@ -1,9 +1,9 @@
 package drai.dev.data.games.og;
 
 import drai.dev.data.games.registry.*;
-import drai.dev.data.pokemon.mongratis.Dampurr;
-import drai.dev.data.pokemon.mongratis.Delugar;
-import drai.dev.data.pokemon.mongratis.Titaneon;
+import drai.dev.data.pokemon.myth.Dampurr;
+import drai.dev.data.pokemon.myth.Delugar;
+import drai.dev.data.pokemon.myth.Titaneon;
 import drai.dev.data.pokemon.myth.*;
 import drai.dev.data.pokemon.myth.Duneon;
 import drai.dev.data.pokemon.panjaea.Toxeon;

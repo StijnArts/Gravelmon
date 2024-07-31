@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:necrophagus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_necrophagus",
+      "texture": "cobblemon:textures/pokemon/goetia/necrophagus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/necrophagus_shiny.png"
+    }
+  ]
+}

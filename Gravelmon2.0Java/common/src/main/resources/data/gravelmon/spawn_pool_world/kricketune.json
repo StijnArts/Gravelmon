@@ -16,8 +16,8 @@
       "weight": 0.4,
       "condition": {
 "biomes": [ "#cobblemon:is_temperate" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
 ,

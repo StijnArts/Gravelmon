@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:phasmyst",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_phasmyst",
+      "texture": "cobblemon:textures/pokemon/cyare/phasmyst.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/phasmyst_shiny.png"
+    }
+  ]
+}

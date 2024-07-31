@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sagittary",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_sagittary",
+      "texture": "cobblemon:textures/pokemon/goetia/sagittary.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/sagittary_shiny.png"
+    }
+  ]
+}

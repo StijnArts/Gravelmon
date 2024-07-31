@@ -40,9 +40,9 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new PastelianGothita("", Aspect.PASTELIAN)); TODO
-        pokemon.add(new PastelianGothorita("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianGothitelle("", Aspect.PASTELIAN));
+//        pokemon.add(new PastelianGothita("", Aspect.PASTELIAN)); TODO
+//        pokemon.add(new PastelianGothorita("", Aspect.PASTELIAN));
+//        pokemon.add(new PastelianGothitelle("", Aspect.PASTELIAN));
 
 //        pokemon.add(new TheossianCottonee("", Aspect.THEOSSIAN)); TODO
 //        pokemon.add(new TheossianWhimsicott("", Aspect.THEOSSIAN));
@@ -51,13 +51,13 @@ public class GenerationFive extends Game {
 //        pokemon.add(new TheossianDwebble("", Aspect.THEOSSIAN));
 //        pokemon.add(new TheossianCrustle("", Aspect.THEOSSIAN));
 
-        pokemon.add(new NodorranOshawott("", Aspect.NODORRAN)); TODO
-        pokemon.add(new NodorranDewott("", Aspect.NODORRAN));
-        pokemon.add(new NodorranSamurott("", Aspect.NODORRAN));
-        pokemon.add(new NodorranFoongus("", Aspect.NODORRAN));
-        pokemon.add(new NodorranAmoonguss("", Aspect.NODORRAN));
-        pokemon.add(new NodorranCubchoo("", Aspect.NODORRAN));
-        pokemon.add(new NodorranBeartic("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranOshawott("", Aspect.NODORRAN)); TODO
+//        pokemon.add(new NodorranDewott("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranSamurott("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranFoongus("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranAmoonguss("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranCubchoo("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranBeartic("", Aspect.NODORRAN));
 //        pokemon.add(new NodorranTynamo("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new NodorranEelektrik("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new NodorranEelektross("", Aspect.NODORRAN)); MISSING ART
@@ -68,12 +68,13 @@ public class GenerationFive extends Game {
         pokemon.add(new AfricanusanGothorita("", Aspect.AFRICANUSAN));
         pokemon.add(new AfricanusanGothitelle("", Aspect.AFRICANUSAN));
 
-//        pokemon.add(new LagoonanLitwick("", Aspect.LAGOONAN)); TODO
-//        pokemon.add(new LagoonanLampent("", Aspect.LAGOONAN));
-//        pokemon.add(new LagoonanChandelure("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanLitwick("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanLampent("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanChandelure("", Aspect.LAGOONAN));
 
 //        pokemon.add(new IonosianKarrablast(588));   Missing Art
-        pokemon.add(new IonosianDruddigon("", Aspect.IONOSIAN, new Stats(485, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of())));   Missing Stats
+        pokemon.add(new IonosianDruddigon("", Aspect.IONOSIAN,
+                new Stats(485, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of())));
 
         pokemon.add(new FligianVanillite("", Aspect.FLIGIAN));
         pokemon.add(new FligianVanillish("", Aspect.FLIGIAN));

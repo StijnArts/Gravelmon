@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:astropheles",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_astropheles",
+      "texture": "cobblemon:textures/pokemon/goetia/astropheles.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/astropheles_shiny.png"
+    }
+  ]
+}

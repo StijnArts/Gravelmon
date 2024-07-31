@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:yatatree",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_yatatree",
+      "texture": "cobblemon:textures/pokemon/ionos/yatatree.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/yatatree_shiny.png"
+    }
+  ]
+}

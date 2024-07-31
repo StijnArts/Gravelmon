@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:urnada",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_urnada",
+      "texture": "cobblemon:textures/pokemon/cyare/urnada.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/urnada_shiny.png"
+    }
+  ]
+}

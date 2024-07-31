@@ -18,6 +18,23 @@
 "biomes": [ "#cobblemon:is_deep_dark" ]
       }
     }
+,
+    {
+      "id": "ionosiannatu-1",
+      "pokemon": "natu ionosian",
+      "presets": [
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "13-32",
+      "weight": 4.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": false
+      }
+    }
 
 ]
 }

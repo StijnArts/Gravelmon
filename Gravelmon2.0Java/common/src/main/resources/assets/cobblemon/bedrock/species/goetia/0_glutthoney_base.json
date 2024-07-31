@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glutthoney",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_glutthoney",
+      "texture": "cobblemon:textures/pokemon/goetia/glutthoney.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/glutthoney_shiny.png"
+    }
+  ]
+}

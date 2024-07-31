@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:clownfisk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_clownfisk",
+      "texture": "cobblemon:textures/pokemon/ionos/clownfisk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/clownfisk_shiny.png"
+    }
+  ]
+}

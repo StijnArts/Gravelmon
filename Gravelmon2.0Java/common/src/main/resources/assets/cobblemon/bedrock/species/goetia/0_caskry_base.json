@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:caskry",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_caskry",
+      "texture": "cobblemon:textures/pokemon/goetia/caskry.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/caskry_shiny.png"
+    }
+  ]
+}

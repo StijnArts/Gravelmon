@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cherm",
-  "nationalPokedexNumber": 3645,
+  "nationalPokedexNumber": 3671,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -48,6 +48,9 @@
     "grass"
   ],
   "moves": [
+    "1:absorb",
+    "1:synthesis",
+    "1:vacuumwave",
     "tm:grassyglide",
     "tm:synthesis",
     "tm:worryseed",

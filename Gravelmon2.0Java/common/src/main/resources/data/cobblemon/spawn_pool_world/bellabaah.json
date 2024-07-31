@@ -17,8 +17,8 @@
       "condition": {
 "biomes": [ "#cobblemon:is_highlands",
 "#cobblemon:is_mountain" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

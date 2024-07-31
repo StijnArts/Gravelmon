@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mutungus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_mutungus",
+      "texture": "cobblemon:textures/pokemon/ionos/mutungus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/mutungus_shiny.png"
+    }
+  ]
+}

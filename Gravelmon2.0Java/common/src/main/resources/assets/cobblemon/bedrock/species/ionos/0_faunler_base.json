@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:faunler",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_faunler",
+      "texture": "cobblemon:textures/pokemon/ionos/faunler.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/faunler_shiny.png"
+    }
+  ]
+}

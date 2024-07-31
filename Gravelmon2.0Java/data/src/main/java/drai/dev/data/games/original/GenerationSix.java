@@ -31,8 +31,8 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new PastelianFlabebe("", Aspect.PASTELIAN)); TODO
-        pokemon.add(new PastelianFloette("", Aspect.PASTELIAN));
+//        pokemon.add(new PastelianFlabebe("", Aspect.PASTELIAN)); TODO
+//        pokemon.add(new PastelianFloette("", Aspect.PASTELIAN));
 
 //        pokemon.add(new TheossianFlabebe("", Aspect.THEOSSIAN)); TODO
 //        pokemon.add(new TheossianFloette("", Aspect.THEOSSIAN));
@@ -47,8 +47,8 @@ public class GenerationSix extends Game {
 //       pokemon.add(new OttoranHonedge("", Aspect.OTTORAN)); TODO
 //       pokemon.add(new OttoranDoublade("", Aspect.OTTORAN));
 
-//        pokemon.add(new LagoonanBinacle("", Aspect.LAGOONAN)); TODO
-//        pokemon.add(new LagoonanBarbaracle("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanBinacle("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanBarbaracle("", Aspect.LAGOONAN));
 
 //        pokemon.add(new IonosianInkay("", Aspect.IONOSIAN));   Missing Art
 

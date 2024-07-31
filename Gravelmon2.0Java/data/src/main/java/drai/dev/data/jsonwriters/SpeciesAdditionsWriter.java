@@ -177,7 +177,9 @@ public class SpeciesAdditionsWriter {
                         "        },\n" +
                         "        \"swim\": {\n" +
                         "            \"swimSpeed\": " + pokemon.getSwimSpeed() + ",\n" +
-                        "            \"canSwimInWater\": " + pokemon.canSwim() + ",\n" +
+                        "            \"canSwimInWater\": " + pokemon.canSwim() + ",\n";
+                if(pokemon.getSpawnContext() == SpawnContext.SURFACE) fileContents += "            \"canWalkOnWater\": true,\n";
+                fileContents +=
                         "            \"canBreatheUnderwater\": " + pokemon.canBreathUnderwater() + "\n" +
                         "        }\n" +
                         "    }\n" +

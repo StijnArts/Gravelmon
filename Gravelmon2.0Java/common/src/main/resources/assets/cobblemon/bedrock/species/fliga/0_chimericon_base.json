@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chimericon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_chimericon",
+      "texture": "cobblemon:textures/pokemon/fliga/chimericon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fliga/chimericon_shiny.png"
+    }
+  ]
+}

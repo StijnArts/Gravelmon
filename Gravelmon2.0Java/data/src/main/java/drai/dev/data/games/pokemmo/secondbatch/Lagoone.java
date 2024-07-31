@@ -70,33 +70,33 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         pokemon.add(new Raizinger());
         pokemon.add(new Sandime());
         pokemon.add(new Starena());
-        //TODO
-//        pokemon.add(new Gloomineon());
-//        pokemon.add(new Boulblin());
-//        pokemon.add(new Colossalgae());
-//        pokemon.add(new Plumeron());
-//        pokemon.add(new Kickalon());
-//        pokemon.add(new Wandream());
-//        pokemon.add(new Crocrux());
-//        pokemon.add(new Caimarune());
-//        pokemon.add(new Barbeetle());
-//        pokemon.add(new Grapearl());
-//        pokemon.add(new Jamowar());
-//        pokemon.add(new Perchback());
-//        pokemon.add(new Skyviator());
-//        pokemon.add(new Crawlycan());
-//        pokemon.add(new Webbewulf());
-//        pokemon.add(new Edeereal());
-//        pokemon.add(new Crystalker());
-//        pokemon.add(new Tyfang());
-//        pokemon.add(new Furycane());
-//        pokemon.add(new Mantilist());
-//        pokemon.add(new Pummelot());
-//        pokemon.add(new Festivowl());
-//        pokemon.add(new Gobblelisk());
-//        pokemon.add(new Drasalys());
-//        pokemon.add(new Dralytra());
-//        pokemon.add(new Corabdis());
+
+        pokemon.add(new Gloomineon());
+        pokemon.add(new Boulblin());
+        pokemon.add(new Colossalgae());
+        pokemon.add(new Plumeron());
+        pokemon.add(new Kickalon());
+        pokemon.add(new Wandream());
+        pokemon.add(new Crocrux());
+        pokemon.add(new Caimarune());
+        pokemon.add(new Barbeetle());
+        pokemon.add(new Grapearl());
+        pokemon.add(new Jamowar());
+        pokemon.add(new Perchback());
+        pokemon.add(new Skyviator());
+        pokemon.add(new Crawlycan());
+        pokemon.add(new Webbewulf());
+        pokemon.add(new Edeereal());
+        pokemon.add(new Crystalker());
+        pokemon.add(new Tyfang());
+        pokemon.add(new Furycane());
+        pokemon.add(new Mantilist());
+        pokemon.add(new Pummelot());
+        pokemon.add(new Festivowl());
+        pokemon.add(new Gobblelisk());
+        pokemon.add(new Drasalys());
+        pokemon.add(new Dralytra());
+        pokemon.add(new Corabdis());
 
     }
 

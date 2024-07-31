@@ -32,8 +32,7 @@
       "weight": 0.4,
       "condition": {
 "biomes": [ "#cobblemon:is_forest" ],
-        "isThundering": true,
-        "canSeeSky": true
+        "isThundering": true
       }
     }
 

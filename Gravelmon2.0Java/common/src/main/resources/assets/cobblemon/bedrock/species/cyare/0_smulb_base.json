@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:smulb",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_smulb",
+      "texture": "cobblemon:textures/pokemon/cyare/smulb.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/smulb_shiny.png"
+    }
+  ]
+}

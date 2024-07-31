@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hagnoz",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_hagnoz",
+      "texture": "cobblemon:textures/pokemon/goetia/hagnoz.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/hagnoz_shiny.png"
+    }
+  ]
+}

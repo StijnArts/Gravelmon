@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wormeaty",
-  "nationalPokedexNumber": 1995,
+  "nationalPokedexNumber": 2021,
   "primaryType": "flying",
   "secondaryType": "poison",
   "abilities": [
@@ -50,7 +50,12 @@
     "amorphous"
   ],
   "moves": [
-  ],
+    "1:gust",
+    "1:acid",
+    "1:bulkup",
+    "1:bulkup",
+    "1:healbell",
+    "1:toxic"  ],
   "labels": [
     "enriko",
     "joke",

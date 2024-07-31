@@ -33,7 +33,6 @@
       "weight": 0.9,
       "condition": {
 "biomes": [ "#cobblemon:is_bamboo" ],
-        "canSeeSky": true,
         "timeRange": "night"
       },
       "anticondition": {

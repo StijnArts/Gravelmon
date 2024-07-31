@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:primecleon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_primecleon",
+      "texture": "cobblemon:textures/pokemon/ionos/primecleon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/primecleon_shiny.png"
+    }
+  ]
+}

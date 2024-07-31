@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rokubandy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_rokubandy",
+      "texture": "cobblemon:textures/pokemon/ionos/rokubandy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/rokubandy_shiny.png"
+    }
+  ]
+}

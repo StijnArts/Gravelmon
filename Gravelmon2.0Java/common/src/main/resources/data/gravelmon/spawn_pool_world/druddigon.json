@@ -21,6 +21,23 @@
     }
 ,
     {
+      "id": "ionosiandruddigon-1",
+      "pokemon": "druddigon ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-54",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": false
+      }
+    }
+,
+    {
       "id": "novrandruddigon-1",
       "pokemon": "druddigon novran",
       "presets": [

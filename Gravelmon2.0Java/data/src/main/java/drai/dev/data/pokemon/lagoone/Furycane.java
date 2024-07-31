@@ -77,13 +77,15 @@ public class Furycane extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 40, 61, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Furycane");
 
     }

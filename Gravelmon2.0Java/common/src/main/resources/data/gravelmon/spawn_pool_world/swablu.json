@@ -33,8 +33,8 @@
       "weight": 7.0,
       "condition": {
 "biomes": [ "#minecraft:is_ocean" ],
-        "isThundering": true,
-        "canSeeSky": true
+        "canSeeSky": true,
+        "isThundering": true
       }
     }
 ,

@@ -6,17 +6,12 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class IonosianGranbull extends drai.dev.data.pokemon.Pokemon {
-    public IonosianGranbull(String name, Aspect aspect) {
+    public IonosianGranbull(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Granbull",
                 Type.FAIRY, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.12,
                 0, ExperienceGroup.ERRATIC,
@@ -27,13 +22,15 @@ public class IonosianGranbull extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 54, 1.7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+            addAdditionalEvolution("snubbull", new EvolutionEntry("granbull ionosian", EvolutionType.LEVEL_UP, List.of(),
+                    List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_BADLANDS.getId() + ":" + Biome.IS_BADLANDS.getName() +"\""))));
            setLangFileName("Granbull");
 
     }

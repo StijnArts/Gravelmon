@@ -11,8 +11,8 @@ public class Gildthera extends drai.dev.data.pokemon.Pokemon {
                 Type.DARK, Type.STEEL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 0,
+                new Stats(0,0,0,0,0,0), 10,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,8 +22,8 @@ public class Gildthera extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

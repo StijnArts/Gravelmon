@@ -23,7 +23,7 @@ public class Palnemone extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("palnemone", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Hermitwin", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(                        ),
                 List.of(Label.GOETIA),

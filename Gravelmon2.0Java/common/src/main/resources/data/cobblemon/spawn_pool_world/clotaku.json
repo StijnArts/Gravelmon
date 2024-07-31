@@ -15,8 +15,7 @@
       "level": "3-19",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_magical" ]
       }
     }
   ]

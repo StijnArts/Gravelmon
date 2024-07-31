@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:taurion",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_taurion",
+      "texture": "cobblemon:textures/pokemon/ionos/taurion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/taurion_shiny.png"
+    }
+  ]
+}

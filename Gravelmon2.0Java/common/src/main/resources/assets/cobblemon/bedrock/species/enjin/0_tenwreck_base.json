@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tenwreck",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_tenwreck",
+      "texture": "cobblemon:textures/pokemon/enjin/tenwreck.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/tenwreck_shiny.png"
+    }
+  ]
+}

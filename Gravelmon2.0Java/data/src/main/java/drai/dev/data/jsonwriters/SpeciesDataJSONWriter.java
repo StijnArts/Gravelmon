@@ -29,7 +29,7 @@ public class SpeciesDataJSONWriter {
                     throw new RuntimeException(e);
                 }
             } else {
-                if (true) {
+                if (false) {
                     try {
                         pokemon.setEvolutions(new ArrayList<>());
                         String aspect = " " + pokemon.getAdditionalAspect().getName();
@@ -110,7 +110,9 @@ public class SpeciesDataJSONWriter {
                 "        },\n" +
                 "        \"swim\": {\n" +
                 "            \"swimSpeed\": " + pokemon.getSwimSpeed() + ",\n" +
-                "            \"canSwimInWater\": " + pokemon.canSwim() + ",\n" +
+                "            \"canSwimInWater\": " + pokemon.canSwim() + ",\n";
+        if(pokemon.getSpawnContext() == SpawnContext.SURFACE) fileContents += "            \"canWalkOnWater\": true,\n";
+        fileContents +=
                 "            \"canBreatheUnderwater\": " + pokemon.canBreathUnderwater() + "\n" +
                 "        }\n" +
                 "    }\n" +

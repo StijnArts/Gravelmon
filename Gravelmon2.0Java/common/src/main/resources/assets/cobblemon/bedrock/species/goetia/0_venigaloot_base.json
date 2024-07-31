@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:venigaloot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_venigaloot",
+      "texture": "cobblemon:textures/pokemon/goetia/venigaloot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/venigaloot_shiny.png"
+    }
+  ]
+}

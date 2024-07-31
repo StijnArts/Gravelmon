@@ -16,8 +16,8 @@
       "weight": 6.0,
       "condition": {
 "biomes": [ "#cobblemon:is_overworld" ],
-        "isRaining": true,
-        "canSeeSky": true
+        "canSeeSky": true,
+        "isRaining": true
       }
     }
   ]

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fursoot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_fursoot",
+      "texture": "cobblemon:textures/pokemon/goetia/fursoot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/fursoot_shiny.png"
+    }
+  ]
+}

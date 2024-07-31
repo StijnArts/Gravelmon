@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sakano",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_sakano",
+      "texture": "cobblemon:textures/pokemon/cyare/sakano.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/sakano_shiny.png"
+    }
+  ]
+}

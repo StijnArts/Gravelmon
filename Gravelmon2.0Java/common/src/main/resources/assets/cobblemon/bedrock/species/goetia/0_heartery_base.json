@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:heartery",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_heartery",
+      "texture": "cobblemon:textures/pokemon/goetia/heartery.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/heartery_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:galats",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_galats",
+      "texture": "cobblemon:textures/pokemon/enjin/galats.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/galats_shiny.png"
+    }
+  ]
+}

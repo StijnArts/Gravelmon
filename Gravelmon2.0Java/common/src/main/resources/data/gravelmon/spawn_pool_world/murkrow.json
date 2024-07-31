@@ -32,8 +32,8 @@
       "weight": 4.0,
       "condition": {
 "biomes": [ "#cobblemon:is_magical" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
 ,
@@ -49,11 +49,10 @@
       "level": "16-41",
       "weight": 5.4,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_forest" ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/winter" ]    }
+"biomes": [ "#cobblemon:is_taiga" ]    }
     }
 
 ]

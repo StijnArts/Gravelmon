@@ -4,6 +4,22 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "fligianbellsprout-1",
+      "pokemon": "bellsprout fligian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-21",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
       "id": "aristosianbellsprout-1",
       "pokemon": "bellsprout aristosian",
       "presets": [

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:grainum",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_grainum",
+      "texture": "cobblemon:textures/pokemon/cyare/grainum.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/grainum_shiny.png"
+    }
+  ]
+}

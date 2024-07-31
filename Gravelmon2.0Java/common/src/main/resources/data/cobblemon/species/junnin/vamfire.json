@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vamfire",
-  "nationalPokedexNumber": 2892,
+  "nationalPokedexNumber": 2918,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -47,6 +47,8 @@
     "flying"
   ],
   "moves": [
+    "1:ember",
+    "1:metalclaw",
     "tm:lashout",
     "tm:blastburn",
     "tm:burningjealousy",

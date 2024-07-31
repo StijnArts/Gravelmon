@@ -32,8 +32,7 @@
       "level": "11-36",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_bamboo" ]
       }
     }
 

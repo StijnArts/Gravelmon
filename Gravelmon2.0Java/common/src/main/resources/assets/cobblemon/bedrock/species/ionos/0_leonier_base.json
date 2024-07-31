@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:leonier",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_leonier",
+      "texture": "cobblemon:textures/pokemon/ionos/leonier.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/leonier_shiny.png"
+    }
+  ]
+}

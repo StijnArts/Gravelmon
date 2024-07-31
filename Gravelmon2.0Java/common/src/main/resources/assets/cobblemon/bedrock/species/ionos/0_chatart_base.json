@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chatart",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_chatart",
+      "texture": "cobblemon:textures/pokemon/ionos/chatart.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/chatart_shiny.png"
+    }
+  ]
+}

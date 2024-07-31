@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sawface",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_sawface",
+      "texture": "cobblemon:textures/pokemon/goetia/sawface.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/sawface_shiny.png"
+    }
+  ]
+}

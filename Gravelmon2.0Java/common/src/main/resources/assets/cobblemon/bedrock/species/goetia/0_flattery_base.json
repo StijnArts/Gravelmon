@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:flattery",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_flattery",
+      "texture": "cobblemon:textures/pokemon/goetia/flattery.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/flattery_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lunectric",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_lunectric",
+      "texture": "cobblemon:textures/pokemon/enjin/lunectric.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/lunectric_shiny.png"
+    }
+  ]
+}

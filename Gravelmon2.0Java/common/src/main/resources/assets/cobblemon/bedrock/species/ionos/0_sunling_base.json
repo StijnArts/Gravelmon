@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sunling",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_sunling",
+      "texture": "cobblemon:textures/pokemon/ionos/sunling.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/sunling_shiny.png"
+    }
+  ]
+}

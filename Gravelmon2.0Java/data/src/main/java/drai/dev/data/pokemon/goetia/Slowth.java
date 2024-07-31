@@ -23,7 +23,7 @@ public class Slowth extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("mossloth", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Mossloth", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(                        ),
                 List.of(Label.GOETIA),

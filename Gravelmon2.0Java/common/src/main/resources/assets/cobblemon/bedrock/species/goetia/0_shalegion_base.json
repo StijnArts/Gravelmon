@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shalegion",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_shalegion",
+      "texture": "cobblemon:textures/pokemon/goetia/shalegion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/shalegion_shiny.png"
+    }
+  ]
+}

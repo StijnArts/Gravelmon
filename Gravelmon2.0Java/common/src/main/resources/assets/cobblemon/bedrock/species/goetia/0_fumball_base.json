@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fumball",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_fumball",
+      "texture": "cobblemon:textures/pokemon/goetia/fumball.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/fumball_shiny.png"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "enigmore",
-  "nationalPokedexNumber": 1895,
+  "nationalPokedexNumber": 1921,
   "primaryType": "psychic",
   "secondaryType": "rock",
   "abilities": [
@@ -49,6 +49,8 @@
     "water_3"
   ],
   "moves": [
+    "1:confusion",
+    "1:rockthrow",
     "tm:bind",
     "tm:bugbite",
     "tm:shockwave",

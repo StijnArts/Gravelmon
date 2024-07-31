@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:katybud",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_katybud",
+      "texture": "cobblemon:textures/pokemon/goetia/katybud.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/katybud_shiny.png"
+    }
+  ]
+}

@@ -16,8 +16,8 @@
       "weight": 0.4,
       "condition": {
 "biomes": [ "#cobblemon:is_desert" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
 

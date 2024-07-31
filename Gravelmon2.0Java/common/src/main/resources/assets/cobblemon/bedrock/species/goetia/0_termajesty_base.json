@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:termajesty",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_termajesty",
+      "texture": "cobblemon:textures/pokemon/goetia/termajesty.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/termajesty_shiny.png"
+    }
+  ]
+}

@@ -36,7 +36,7 @@
         "timeRange": "night"
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer",
+"biomes": [ "#cobblemon:is_jungle",
 "#cobblemon:has_season/winter" ]    }
     }
 ,
@@ -53,8 +53,8 @@
       "weight": 3.8,
       "condition": {
 "biomes": [ "#cobblemon:is_magical" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
 

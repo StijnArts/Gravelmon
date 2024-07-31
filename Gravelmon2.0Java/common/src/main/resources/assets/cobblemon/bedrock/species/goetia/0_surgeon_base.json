@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:surgeon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_surgeon",
+      "texture": "cobblemon:textures/pokemon/goetia/surgeon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/surgeon_shiny.png"
+    }
+  ]
+}

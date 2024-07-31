@@ -185,6 +185,108 @@
   "cannotDynamax": false
 },
 {
+  "name": "Lagoonan",
+  "primaryType": "ice",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 65,
+    "defence": 35,
+    "special_attack": 65,
+    "special_defence": 35,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "moves": [
+    "1:powdersnow"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.lagoonanremoraid.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "remoraid_crystalker",
+      "variant": "item_interact",
+      "result": "crystalker",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:ice_stone",
+      "permanent": true   
+ },
+    {
+      "id": "remoraid_octillery_lagoonan",
+      "variant": "level_up",
+      "result": "octillery lagoonan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 120,
+  "aspects": ["lagoonan"],
+  "cannotDynamax": false
+},
+{
   "name": "Delta",
   "primaryType": "fire",
   "abilities": [
@@ -347,6 +449,7 @@
 }
 ], "features": [
 "epoch",
+"lagoonan",
 "delta"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sollis",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_sollis",
+      "texture": "cobblemon:textures/pokemon/cyare/sollis.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/sollis_shiny.png"
+    }
+  ]
+}

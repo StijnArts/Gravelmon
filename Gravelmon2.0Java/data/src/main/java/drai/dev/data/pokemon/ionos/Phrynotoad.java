@@ -11,7 +11,7 @@ public class Phrynotoad extends drai.dev.data.pokemon.Pokemon {
                 Type.FIRE, Type.ROCK,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                16, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -22,13 +22,14 @@ public class Phrynotoad extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 59, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_VOLCANIC, Biome.IS_NETHER))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Phrynotoad");
 
     }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:oddcast",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_oddcast",
+      "texture": "cobblemon:textures/pokemon/goetia/oddcast.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/oddcast_shiny.png"
+    }
+  ]
+}

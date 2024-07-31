@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "titaneon",
-  "nationalPokedexNumber": 4540,
+  "nationalPokedexNumber": 4558,
   "primaryType": "steel",
   "abilities": [
     "keeneye"  ],
@@ -45,7 +45,7 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:metalclaw"  ],
   "labels": [
     "mongratis",
     "not_modeled"

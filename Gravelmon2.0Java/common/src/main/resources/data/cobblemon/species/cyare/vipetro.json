@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "vipetro",
+  "nationalPokedexNumber": 6133,
+  "primaryType": "rock",
+  "secondaryType": "poison",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 24,
+    "defence": 49,
+    "special_attack": 70,
+    "special_defence": 49,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 174,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:rockthrow",
+    "1:acid"  ],
+  "labels": [
+    "cyare",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vipetro.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "vipetro_serpentide",
+      "variant": "level_up",
+      "result": "serpentide",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:roswain",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_roswain",
+      "texture": "cobblemon:textures/pokemon/enjin/roswain.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/roswain_shiny.png"
+    }
+  ]
+}

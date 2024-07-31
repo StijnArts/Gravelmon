@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "navatoria",
-  "nationalPokedexNumber": 2432,
+  "nationalPokedexNumber": 2458,
   "primaryType": "flying",
   "secondaryType": "water",
   "abilities": [
@@ -46,7 +46,12 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:gust",
+    "1:watergun",
+    "1:bulkup",
+    "1:bulkup",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
   "labels": [
     "aristos",
     "not_modeled"

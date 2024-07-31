@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:woodron",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_woodron",
+      "texture": "cobblemon:textures/pokemon/goetia/woodron.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/woodron_shiny.png"
+    }
+  ]
+}

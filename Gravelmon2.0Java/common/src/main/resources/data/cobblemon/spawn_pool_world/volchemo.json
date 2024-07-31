@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "volchemo-1",
+      "pokemon": "volchemo",
+      "presets": [
+          "near_magma"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "41-54",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ]
+      }
+    }
+  ]
+}

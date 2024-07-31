@@ -157,8 +157,102 @@
   "weight": 20,
   "aspects": ["epoch"],
   "cannotDynamax": false
+},
+{
+  "name": "Ionosian",
+  "primaryType": "flying",
+  "secondaryType": "ghost",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 38,
+    "defence": 104,
+    "special_attack": 25,
+    "special_defence": 25,
+    "speed": 14
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 182,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:peck",
+    "1:lick",
+    "1:bulkup",
+    "1:curse"  ],
+  "labels": [
+    "ionos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ionosiannatu.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "natu_xatu_ionosian",
+      "variant": "level_up",
+      "result": "xatu ionosian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 0,
+  "aspects": ["ionosian"],
+  "cannotDynamax": false
 }
 ], "features": [
-"epoch"
+"epoch",
+"ionosian"
   ]
 }

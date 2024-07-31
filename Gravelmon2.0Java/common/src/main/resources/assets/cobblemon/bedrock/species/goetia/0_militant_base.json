@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:militant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_militant",
+      "texture": "cobblemon:textures/pokemon/goetia/militant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/militant_shiny.png"
+    }
+  ]
+}

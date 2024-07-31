@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:midryu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_midryu",
+      "texture": "cobblemon:textures/pokemon/cyare/midryu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/midryu_shiny.png"
+    }
+  ]
+}

@@ -4,6 +4,23 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "ionosianshuckle-1",
+      "pokemon": "shuckle ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-44",
+      "weight": 1.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
       "id": "deltashuckle-1",
       "pokemon": "shuckle delta",
       "presets": [

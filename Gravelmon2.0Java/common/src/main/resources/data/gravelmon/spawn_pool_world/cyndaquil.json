@@ -36,6 +36,23 @@
     }
 ,
     {
+      "id": "ionosiancyndaquil-1",
+      "pokemon": "cyndaquil ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_wasteland" ]
+      }
+    }
+,
+    {
       "id": "eghocyndaquil-1",
       "pokemon": "cyndaquil egho",
       "presets": [

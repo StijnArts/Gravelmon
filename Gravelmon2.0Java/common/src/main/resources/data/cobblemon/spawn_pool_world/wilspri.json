@@ -16,8 +16,7 @@
       "weight": 6.7,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_forest" ],
-        "canSeeSky": true
+"#cobblemon:is_forest" ]
       }
     }
   ]

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:clampere",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_clampere",
+      "texture": "cobblemon:textures/pokemon/enjin/clampere.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/clampere_shiny.png"
+    }
+  ]
+}

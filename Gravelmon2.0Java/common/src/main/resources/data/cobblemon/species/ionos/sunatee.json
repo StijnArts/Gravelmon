@@ -1,0 +1,84 @@
+{
+  "implemented": true,
+  "name": "sunatee",
+  "nationalPokedexNumber": 5233,
+  "primaryType": "fire",
+  "secondaryType": "electric",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 118,
+    "attack": 35,
+    "defence": 77,
+    "special_attack": 84,
+    "special_defence": 99,
+    "speed": 42
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 96,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:ember",
+    "1:thundershock",
+    "1:bulkup",
+    "1:bulkup"  ],
+  "labels": [
+    "ionos",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sunatee.desc"
+  ],
+  "preEvolution": "sunling",
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -16,7 +16,6 @@
       "weight": 0.2,
       "condition": {
 "biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true,
         "timeRange": "day"
       }
     }

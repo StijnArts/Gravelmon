@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:phonana",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_phonana",
+      "texture": "cobblemon:textures/pokemon/goetia/phonana.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/phonana_shiny.png"
+    }
+  ]
+}

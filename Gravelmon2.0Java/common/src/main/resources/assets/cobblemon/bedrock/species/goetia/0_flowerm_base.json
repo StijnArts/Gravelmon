@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:flowerm",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_flowerm",
+      "texture": "cobblemon:textures/pokemon/goetia/flowerm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/flowerm_shiny.png"
+    }
+  ]
+}

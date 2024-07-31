@@ -16,8 +16,7 @@
       "weight": 8.0,
       "condition": {
 "biomes": [ "#cobblemon:is_taiga",
-"#cobblemon:is_magical" ],
-        "canSeeSky": true
+"#cobblemon:is_magical" ]
       }
     }
   ]

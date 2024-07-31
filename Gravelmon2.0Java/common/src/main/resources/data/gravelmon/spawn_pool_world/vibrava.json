@@ -20,6 +20,22 @@
     }
 ,
     {
+      "id": "ionosianvibrava-1",
+      "pokemon": "vibrava ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-51",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+,
+    {
       "id": "ayreianvibrava-1",
       "pokemon": "vibrava ayreian",
       "presets": [

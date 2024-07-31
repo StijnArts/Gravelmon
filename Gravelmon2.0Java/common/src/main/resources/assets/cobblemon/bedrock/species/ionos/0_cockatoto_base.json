@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cockatoto",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_cockatoto",
+      "texture": "cobblemon:textures/pokemon/ionos/cockatoto.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/cockatoto_shiny.png"
+    }
+  ]
+}

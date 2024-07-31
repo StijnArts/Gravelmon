@@ -20,6 +20,23 @@
     }
 ,
     {
+      "id": "lagoonanbarbaracle-1",
+      "pokemon": "barbaracle lagoonan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "41-61",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
       "id": "vesitanbarbaracle-1",
       "pokemon": "barbaracle vesitan",
       "presets": [

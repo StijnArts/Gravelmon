@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tenrock",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_tenrock",
+      "texture": "cobblemon:textures/pokemon/goetia/tenrock.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/tenrock_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:suglide",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_suglide",
+      "texture": "cobblemon:textures/pokemon/goetia/suglide.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/suglide_shiny.png"
+    }
+  ]
+}

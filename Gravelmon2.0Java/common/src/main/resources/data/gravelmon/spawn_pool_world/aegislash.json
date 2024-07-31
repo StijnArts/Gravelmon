@@ -34,8 +34,8 @@
 "biomes": [ "#cobblemon:is_forest" ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/winter",
-"#cobblemon:has_season/summer" ]    }
+"biomes": [ "#cobblemon:is_taiga",
+"#cobblemon:is_jungle" ]    }
     }
 ,
     {

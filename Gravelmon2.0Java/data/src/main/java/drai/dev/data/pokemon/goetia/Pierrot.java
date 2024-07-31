@@ -72,7 +72,7 @@ public class Pierrot extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("It frequently trips over its own feet and tumbles down hills."),
-                List.of(new EvolutionEntry("pierrot", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Aukward", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(                        ),
                 List.of(Label.GOETIA),

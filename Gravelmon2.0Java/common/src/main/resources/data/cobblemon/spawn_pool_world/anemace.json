@@ -16,8 +16,8 @@
       "weight": 0.4,
       "condition": {
 "biomes": [ "#cobblemon:is_warm_ocean" ],
-        "timeRange": "day",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "day"
       }
     }
   ]

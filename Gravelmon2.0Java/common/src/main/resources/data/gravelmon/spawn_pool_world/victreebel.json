@@ -4,6 +4,22 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "fligianvictreebel-1",
+      "pokemon": "victreebel fligian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "39-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
       "id": "aristosianvictreebel-1",
       "pokemon": "victreebel aristosian",
       "presets": [

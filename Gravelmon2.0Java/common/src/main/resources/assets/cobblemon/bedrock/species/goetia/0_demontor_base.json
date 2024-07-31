@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:demontor",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_demontor",
+      "texture": "cobblemon:textures/pokemon/goetia/demontor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/demontor_shiny.png"
+    }
+  ]
+}

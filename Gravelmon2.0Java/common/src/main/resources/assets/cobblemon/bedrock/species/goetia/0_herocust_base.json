@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:herocust",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_herocust",
+      "texture": "cobblemon:textures/pokemon/goetia/herocust.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/herocust_shiny.png"
+    }
+  ]
+}

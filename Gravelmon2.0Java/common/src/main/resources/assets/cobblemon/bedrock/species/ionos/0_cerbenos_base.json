@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cerbenos",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_cerbenos",
+      "texture": "cobblemon:textures/pokemon/ionos/cerbenos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/cerbenos_shiny.png"
+    }
+  ]
+}

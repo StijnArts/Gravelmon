@@ -16,7 +16,7 @@ public class Sheagull extends drai.dev.data.pokemon.Pokemon {
                         90,
                         70),
                 List.of(Ability.KEEN_EYE,Ability.SERENE_GRACE), Ability.BIG_PECKS,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
@@ -47,13 +47,14 @@ public class Sheagull extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKY_ATTACK,64)                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BIRCH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Sheagull");
 
     }

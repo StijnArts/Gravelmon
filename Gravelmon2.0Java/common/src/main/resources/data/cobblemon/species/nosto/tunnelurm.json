@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tunnelurm",
-  "nationalPokedexNumber": 3659,
+  "nationalPokedexNumber": 3685,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -49,6 +49,12 @@
     "bug"
   ],
   "moves": [
+    "1:mudslap",
+    "1:metalclaw",
+    "1:shoreup",
+    "1:irondefense",
+    "1:healbell",
+    "1:healbell",
     "tm:signalbeam",
     "tm:skittersmack",
     "tm:knockoff",

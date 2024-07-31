@@ -3,7 +3,6 @@ package drai.dev.data.games.original;
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.mastenia.*;
-import drai.dev.data.pokemon.mastenia.MastenianVolbeat;
 import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.mystis.regional.*;
 import drai.dev.data.pokemon.nodorro.regional.*;
@@ -42,34 +41,34 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new MystisianAbsol("", Aspect.MYSTISIAN)); TODO
+//        pokemon.add(new MystisianAbsol("", Aspect.MYSTISIAN)); TODO
 
-        pokemon.add(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO
-        pokemon.add(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
+//        pokemon.add(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO
+//        pokemon.add(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
 
 //        pokemon.add(new NodorranTreecko("", Aspect.NODORRAN));  MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new NodorranGrovyle("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new NodorranSceptile("", Aspect.NODORRAN)); Missing art
-        pokemon.add(new NodorranNosepass("", Aspect.NODORRAN)); TODO
+//        pokemon.add(new NodorranNosepass("", Aspect.NODORRAN)); TODO
 
 //        pokemon.add(new MastenianTreecko("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new MastenianGrovyle("", Aspect.MASTENIAN)); MISSING ART
 //        pokemon.add(new MastenianTorchic("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new MastenianCombusken("", Aspect.MASTENIAN)); MISSING ART
 //        pokemon.add(new MastenianMudkip("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-        pokemon.add(new MastenianShroomish("", Aspect.MASTENIAN)); Missing Stats
-        pokemon.add(new MastenianBreloom("", Aspect.MASTENIAN, new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK)))); Missing Stats
+//        pokemon.add(new MastenianShroomish("", Aspect.MASTENIAN)); Missing Stats
+//        pokemon.add(new MastenianBreloom("", Aspect.MASTENIAN, new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER,
+//                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK)))); Missing Stats
 //        pokemon.add(new MastenianIllumise("", Aspect.MASTENIAN)); MISSING ART
-        pokemon.add(new MastenianVolbeat("", Aspect.MASTENIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK)))); Missing Stats
+//        pokemon.add(new MastenianVolbeat("", Aspect.MASTENIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
+//                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK)))); Missing Stats
 
         registerSoulstonesVariants();
 
-        pokemon.add(new IonosianTrapinch("", Aspect.IONOSIAN));   Missing Stats
-        pokemon.add(new IonosianVibrava("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianTrapinch("", Aspect.IONOSIAN));
+        pokemon.add(new IonosianVibrava("", Aspect.IONOSIAN));
         pokemon.add(new IonosianFlygon("", Aspect.IONOSIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));   Missing Stats
+                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
 
         pokemon.add(new FligianTreecko("Treecko", Aspect.FLIGIAN));
         pokemon.add(new FligianGrovyle("Grovyle", Aspect.FLIGIAN));

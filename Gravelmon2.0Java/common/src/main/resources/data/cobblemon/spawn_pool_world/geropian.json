@@ -19,7 +19,7 @@
       },
       "anticondition": {
 "biomes": [ "#cobblemon:has_season/summer",
-"#cobblemon:has_season/winter" ]    }
+"#cobblemon:is_taiga" ]    }
     }
   ]
 }

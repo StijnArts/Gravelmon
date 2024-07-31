@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tomabi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_tomabi",
+      "texture": "cobblemon:textures/pokemon/cyare/tomabi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/tomabi_shiny.png"
+    }
+  ]
+}

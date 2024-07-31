@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:atomant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_atomant",
+      "texture": "cobblemon:textures/pokemon/goetia/atomant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/atomant_shiny.png"
+    }
+  ]
+}

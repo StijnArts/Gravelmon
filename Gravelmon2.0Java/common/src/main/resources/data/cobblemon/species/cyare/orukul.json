@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "orukul",
-  "nationalPokedexNumber": 5871,
+  "nationalPokedexNumber": 6115,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -9,12 +9,12 @@
     "h:analytic"
   ],
   "baseStats": {
-    "hp": 32,
-    "attack": 55,
-    "defence": 113,
-    "special_attack": 123,
-    "special_defence": 95,
-    "speed": 67
+    "hp": 89,
+    "attack": 38,
+    "defence": 62,
+    "special_attack": 89,
+    "special_defence": 69,
+    "speed": 62
   },
   "behaviour": {
     "resting": {

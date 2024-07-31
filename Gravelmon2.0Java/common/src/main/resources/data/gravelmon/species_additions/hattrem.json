@@ -149,6 +149,97 @@
   "cannotDynamax": false
 },
 {
+  "name": "Lagoonan",
+  "primaryType": "fairy",
+  "secondaryType": "water",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 57,
+    "attack": 40,
+    "defence": 65,
+    "special_attack": 86,
+    "special_defence": 73,
+    "speed": 49
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:disarmingvoice",
+    "1:watergun"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.lagoonanhattrem.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "hattrem_hatterene_lagoonan",
+      "variant": "level_up",
+      "result": "hatterene lagoonan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 52
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 48,
+  "aspects": ["lagoonan"],
+  "cannotDynamax": false
+},
+{
   "name": "Novran",
   "primaryType": "grass",
   "secondaryType": "fairy",
@@ -451,6 +542,7 @@
 }
 ], "features": [
 "epoch",
+"lagoonan",
 "novran",
 "ayreian"
   ]

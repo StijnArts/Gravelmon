@@ -171,6 +171,97 @@
   "cannotDynamax": false
 },
 {
+  "name": "Lagoonan",
+  "primaryType": "ghost",
+  "secondaryType": "fire",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 52,
+    "defence": 67,
+    "special_attack": 56,
+    "special_defence": 39,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:lick",
+    "1:ember"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.lagoonanbinacle.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "binacle_barbaracle_lagoonan",
+      "variant": "level_up",
+      "result": "barbaracle lagoonan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 41
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 310,
+  "aspects": ["lagoonan"],
+  "cannotDynamax": false
+},
+{
   "name": "Vesitan",
   "primaryType": "rock",
   "secondaryType": "ground",
@@ -285,6 +376,7 @@
 }
 ], "features": [
 "epoch",
+"lagoonan",
 "vesitan"
   ]
 }

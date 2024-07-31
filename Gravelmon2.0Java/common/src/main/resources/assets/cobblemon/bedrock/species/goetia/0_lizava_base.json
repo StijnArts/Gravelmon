@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lizava",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_lizava",
+      "texture": "cobblemon:textures/pokemon/goetia/lizava.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/lizava_shiny.png"
+    }
+  ]
+}

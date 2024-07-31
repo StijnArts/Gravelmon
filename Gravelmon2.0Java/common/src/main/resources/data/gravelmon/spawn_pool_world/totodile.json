@@ -36,6 +36,22 @@
     }
 ,
     {
+      "id": "ionosiantotodile-1",
+      "pokemon": "totodile ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ]
+      }
+    }
+,
+    {
       "id": "eghototodile-1",
       "pokemon": "totodile egho",
       "presets": [

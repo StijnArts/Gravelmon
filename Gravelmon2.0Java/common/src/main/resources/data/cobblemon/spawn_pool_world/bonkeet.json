@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bonkeet-1",
+      "pokemon": "bonkeet",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "38-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+  ]
+}

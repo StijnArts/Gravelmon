@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:charantula",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_charantula",
+      "texture": "cobblemon:textures/pokemon/goetia/charantula.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/charantula_shiny.png"
+    }
+  ]
+}

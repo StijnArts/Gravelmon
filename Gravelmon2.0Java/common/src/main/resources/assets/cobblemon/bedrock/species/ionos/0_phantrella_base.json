@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:phantrella",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_phantrella",
+      "texture": "cobblemon:textures/pokemon/ionos/phantrella.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/phantrella_shiny.png"
+    }
+  ]
+}

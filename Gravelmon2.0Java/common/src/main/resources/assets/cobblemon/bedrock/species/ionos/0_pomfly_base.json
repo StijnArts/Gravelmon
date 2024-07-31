@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pomfly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_pomfly",
+      "texture": "cobblemon:textures/pokemon/ionos/pomfly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/pomfly_shiny.png"
+    }
+  ]
+}

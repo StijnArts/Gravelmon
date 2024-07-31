@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:billabong",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_billabong",
+      "texture": "cobblemon:textures/pokemon/goetia/billabong.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/billabong_shiny.png"
+    }
+  ]
+}

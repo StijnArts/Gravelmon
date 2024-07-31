@@ -20,6 +20,23 @@
     }
 ,
     {
+      "id": "lagoonanbinacle-1",
+      "pokemon": "binacle lagoonan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-41",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
       "id": "vesitanbinacle-1",
       "pokemon": "binacle vesitan",
       "presets": [

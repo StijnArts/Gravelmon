@@ -18,6 +18,22 @@
 "biomes": [ "#minecraft:is_end" ]
       }
     }
+,
+    {
+      "id": "ionosianstarmie-1",
+      "pokemon": "starmie ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-54",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
 
 ]
 }

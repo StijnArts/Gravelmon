@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:inferatu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_inferatu",
+      "texture": "cobblemon:textures/pokemon/goetia/inferatu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/inferatu_shiny.png"
+    }
+  ]
+}

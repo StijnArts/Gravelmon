@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:brackish",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_brackish",
+      "texture": "cobblemon:textures/pokemon/goetia/brackish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/brackish_shiny.png"
+    }
+  ]
+}

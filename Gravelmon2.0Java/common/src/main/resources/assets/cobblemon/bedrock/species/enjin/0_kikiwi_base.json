@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kikiwi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_kikiwi",
+      "texture": "cobblemon:textures/pokemon/enjin/kikiwi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/kikiwi_shiny.png"
+    }
+  ]
+}

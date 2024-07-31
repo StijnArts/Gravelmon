@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:poxopon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_poxopon",
+      "texture": "cobblemon:textures/pokemon/goetia/poxopon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/poxopon_shiny.png"
+    }
+  ]
+}

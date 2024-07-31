@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:typhur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_typhur",
+      "texture": "cobblemon:textures/pokemon/ionos/typhur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/typhur_shiny.png"
+    }
+  ]
+}

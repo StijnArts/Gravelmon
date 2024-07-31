@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:prickary",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_prickary",
+      "texture": "cobblemon:textures/pokemon/goetia/prickary.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/prickary_shiny.png"
+    }
+  ]
+}

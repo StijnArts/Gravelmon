@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shamseed",
-  "nationalPokedexNumber": 3840,
+  "nationalPokedexNumber": 3866,
   "primaryType": "grass",
   "abilities": [
     "superluck",
@@ -49,6 +49,7 @@
     "fairy"
   ],
   "moves": [
+    "1:absorb",
     "tm:return",
     "tm:frustration",
     "tm:facade",

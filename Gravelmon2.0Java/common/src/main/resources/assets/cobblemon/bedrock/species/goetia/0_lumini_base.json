@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lumini",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_lumini",
+      "texture": "cobblemon:textures/pokemon/goetia/lumini.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/lumini_shiny.png"
+    }
+  ]
+}

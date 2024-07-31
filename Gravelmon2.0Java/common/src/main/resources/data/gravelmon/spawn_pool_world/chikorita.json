@@ -37,6 +37,24 @@
     }
 ,
     {
+      "id": "ionosianchikorita-1",
+      "pokemon": "chikorita ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+,
+    {
       "id": "eghochikorita-1",
       "pokemon": "chikorita egho",
       "presets": [

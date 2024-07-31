@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:poofly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_poofly",
+      "texture": "cobblemon:textures/pokemon/goetia/poofly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/poofly_shiny.png"
+    }
+  ]
+}

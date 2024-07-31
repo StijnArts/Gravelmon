@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "paratweet",
-  "nationalPokedexNumber": 3652,
+  "nationalPokedexNumber": 3678,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -49,6 +49,8 @@
     "flying"
   ],
   "moves": [
+    "1:tackle",
+    "1:gust",
     "tm:dualwingbeat",
     "tm:tailwind",
     "tm:helpinghand",

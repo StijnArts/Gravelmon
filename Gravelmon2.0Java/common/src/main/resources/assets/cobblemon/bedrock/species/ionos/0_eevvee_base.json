@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:eevvee",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_eevvee",
+      "texture": "cobblemon:textures/pokemon/ionos/eevvee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/eevvee_shiny.png"
+    }
+  ]
+}

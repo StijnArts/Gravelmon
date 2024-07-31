@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:faigalope",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_faigalope",
+      "texture": "cobblemon:textures/pokemon/ionos/faigalope.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/faigalope_shiny.png"
+    }
+  ]
+}

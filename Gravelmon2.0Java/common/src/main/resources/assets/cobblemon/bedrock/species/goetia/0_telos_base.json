@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:telos",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_telos",
+      "texture": "cobblemon:textures/pokemon/goetia/telos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/telos_shiny.png"
+    }
+  ]
+}

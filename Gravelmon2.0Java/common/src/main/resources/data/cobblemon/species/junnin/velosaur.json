@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "velosaur",
-  "nationalPokedexNumber": 2880,
+  "nationalPokedexNumber": 2906,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -49,6 +49,8 @@
     "monster"
   ],
   "moves": [
+    "1:absorb",
+    "1:gust",
     "tm:dualwingbeat",
     "tm:frenzyplant",
     "tm:grasspledge",

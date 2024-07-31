@@ -15,8 +15,7 @@
       "level": "55-68",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_magical" ]
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_hills" ]    }

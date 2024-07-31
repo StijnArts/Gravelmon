@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:jelightning",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_jelightning",
+      "texture": "cobblemon:textures/pokemon/goetia/jelightning.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/jelightning_shiny.png"
+    }
+  ]
+}

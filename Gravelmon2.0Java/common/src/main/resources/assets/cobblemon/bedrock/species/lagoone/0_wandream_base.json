@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:wandream",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_wandream",
+      "texture": "cobblemon:textures/pokemon/lagoone/wandream.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/wandream_shiny.png"
+    }
+  ]
+}

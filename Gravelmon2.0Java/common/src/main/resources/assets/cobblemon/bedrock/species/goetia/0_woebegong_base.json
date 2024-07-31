@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:woebegong",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_woebegong",
+      "texture": "cobblemon:textures/pokemon/goetia/woebegong.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/woebegong_shiny.png"
+    }
+  ]
+}

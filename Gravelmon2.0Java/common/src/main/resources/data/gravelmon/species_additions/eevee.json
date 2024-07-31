@@ -573,6 +573,20 @@
       "permanent": true   
  },
     {
+      "id": "eevee_duneon",
+      "variant": "level_up",
+      "result": "duneon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_sandy"
+        }
+      ],
+      "permanent": true   
+ },
+    {
       "id": "eevee_ascenteon",
       "variant": "level_up",
       "result": "ascenteon",

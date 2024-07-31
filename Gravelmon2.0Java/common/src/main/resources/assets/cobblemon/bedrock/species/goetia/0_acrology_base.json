@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:acrology",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_acrology",
+      "texture": "cobblemon:textures/pokemon/goetia/acrology.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/acrology_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crunchawtle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_crunchawtle",
+      "texture": "cobblemon:textures/pokemon/ionos/crunchawtle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/crunchawtle_shiny.png"
+    }
+  ]
+}

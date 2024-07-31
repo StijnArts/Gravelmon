@@ -16,8 +16,8 @@
       "weight": 14.0,
       "condition": {
 "biomes": [ "#cobblemon:is_warm_ocean" ],
-        "isThundering": true,
-        "canSeeSky": true
+        "canSeeSky": true,
+        "isThundering": true
       }
     }
   ]

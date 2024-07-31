@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tigearth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_tigearth",
+      "texture": "cobblemon:textures/pokemon/goetia/tigearth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/tigearth_shiny.png"
+    }
+  ]
+}

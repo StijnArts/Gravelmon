@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sergeant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_sergeant",
+      "texture": "cobblemon:textures/pokemon/goetia/sergeant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/sergeant_shiny.png"
+    }
+  ]
+}

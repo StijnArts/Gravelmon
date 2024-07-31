@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:charmatch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_charmatch",
+      "texture": "cobblemon:textures/pokemon/goetia/charmatch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/charmatch_shiny.png"
+    }
+  ]
+}

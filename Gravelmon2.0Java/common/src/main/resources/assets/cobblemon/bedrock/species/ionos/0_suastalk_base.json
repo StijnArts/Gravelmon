@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:suastalk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_suastalk",
+      "texture": "cobblemon:textures/pokemon/ionos/suastalk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/suastalk_shiny.png"
+    }
+  ]
+}

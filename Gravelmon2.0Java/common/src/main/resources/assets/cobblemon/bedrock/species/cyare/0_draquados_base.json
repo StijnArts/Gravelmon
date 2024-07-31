@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:draquados",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_draquados",
+      "texture": "cobblemon:textures/pokemon/cyare/draquados.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/draquados_shiny.png"
+    }
+  ]
+}

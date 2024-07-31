@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:aristocarp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_aristocarp",
+      "texture": "cobblemon:textures/pokemon/goetia/aristocarp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/aristocarp_shiny.png"
+    }
+  ]
+}

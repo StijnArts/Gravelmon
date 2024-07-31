@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:grunjerk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_grunjerk",
+      "texture": "cobblemon:textures/pokemon/goetia/grunjerk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/grunjerk_shiny.png"
+    }
+  ]
+}

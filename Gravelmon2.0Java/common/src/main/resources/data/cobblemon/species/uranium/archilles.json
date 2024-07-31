@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "archilles",
-  "nationalPokedexNumber": 2437,
+  "nationalPokedexNumber": 2463,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -115,14 +115,11 @@
     "egg:swordsdance"  ],
   "labels": [
     "uranium",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.archilles.desc"
   ],
-  "preEvolution": "raptorch",
   "baseScale": 0.31666666666666665,
   "hitbox": {
     "width": 6.0,

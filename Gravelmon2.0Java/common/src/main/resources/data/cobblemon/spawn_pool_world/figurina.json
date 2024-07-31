@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "figurina-1",
+      "pokemon": "figurina",
+      "presets": [
+          "underwater",
+          "shipwreck"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "23-45",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:terraintula",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_terraintula",
+      "texture": "cobblemon:textures/pokemon/goetia/terraintula.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/terraintula_shiny.png"
+    }
+  ]
+}

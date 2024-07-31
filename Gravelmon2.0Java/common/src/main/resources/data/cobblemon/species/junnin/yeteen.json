@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yeteen",
-  "nationalPokedexNumber": 2882,
+  "nationalPokedexNumber": 2908,
   "primaryType": "grass",
   "secondaryType": "ice",
   "abilities": [
@@ -47,6 +47,8 @@
     "grass"
   ],
   "moves": [
+    "1:absorb",
+    "1:powdersnow",
     "tm:grasspledge",
     "tm:grassyglide",
     "tm:helpinghand",

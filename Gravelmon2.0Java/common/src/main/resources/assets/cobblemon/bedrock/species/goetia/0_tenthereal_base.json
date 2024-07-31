@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tenthereal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_tenthereal",
+      "texture": "cobblemon:textures/pokemon/goetia/tenthereal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/tenthereal_shiny.png"
+    }
+  ]
+}

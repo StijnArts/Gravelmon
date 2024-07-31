@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gooeygoose",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_gooeygoose",
+      "texture": "cobblemon:textures/pokemon/goetia/gooeygoose.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/gooeygoose_shiny.png"
+    }
+  ]
+}

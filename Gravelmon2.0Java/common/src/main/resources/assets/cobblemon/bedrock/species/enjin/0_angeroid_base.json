@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:angeroid",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_angeroid",
+      "texture": "cobblemon:textures/pokemon/enjin/angeroid.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/angeroid_shiny.png"
+    }
+  ]
+}

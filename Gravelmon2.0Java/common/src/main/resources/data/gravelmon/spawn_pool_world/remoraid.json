@@ -21,6 +21,22 @@
     }
 ,
     {
+      "id": "lagoonanremoraid-1",
+      "pokemon": "remoraid lagoonan",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "13-36",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_frozen" ]
+      }
+    }
+,
+    {
       "id": "deltaremoraid-1",
       "pokemon": "remoraid delta",
       "presets": [

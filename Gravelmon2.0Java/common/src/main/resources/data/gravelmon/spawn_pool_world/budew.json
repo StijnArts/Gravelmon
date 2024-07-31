@@ -16,8 +16,7 @@
       "weight": 5.0,
       "condition": {
 "biomes": [ "#cobblemon:is_floral",
-"#cobblemon:is_magical" ],
-        "canSeeSky": true
+"#cobblemon:is_magical" ]
       }
     }
 ,

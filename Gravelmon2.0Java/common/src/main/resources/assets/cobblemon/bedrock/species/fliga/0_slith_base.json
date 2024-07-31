@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slith",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fliga_slith",
+      "texture": "cobblemon:textures/pokemon/fliga/slith.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fliga/slith_shiny.png"
+    }
+  ]
+}

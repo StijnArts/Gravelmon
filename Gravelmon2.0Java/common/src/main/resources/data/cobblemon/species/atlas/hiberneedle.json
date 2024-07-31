@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hiberneedle",
-  "nationalPokedexNumber": 5606,
+  "nationalPokedexNumber": 5780,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -49,6 +49,12 @@
     "field"
   ],
   "moves": [
+    "1:absorb",
+    "1:lowkick",
+    "1:synthesis",
+    "1:drainpunch",
+    "1:poisonpowder",
+    "1:coaching",
     "tm:falseswipe",
     "tm:facade",
     "tm:naturepower",

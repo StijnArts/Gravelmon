@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:astronotilus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_astronotilus",
+      "texture": "cobblemon:textures/pokemon/goetia/astronotilus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/astronotilus_shiny.png"
+    }
+  ]
+}

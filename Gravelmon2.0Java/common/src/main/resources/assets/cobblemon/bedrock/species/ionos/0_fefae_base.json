@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fefae",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_fefae",
+      "texture": "cobblemon:textures/pokemon/ionos/fefae.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/fefae_shiny.png"
+    }
+  ]
+}

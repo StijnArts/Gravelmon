@@ -16,8 +16,7 @@
       "weight": 0.4,
       "condition": {
 "biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_plains" ],
-        "canSeeSky": true
+"#cobblemon:is_plains" ]
       }
     }
   ]

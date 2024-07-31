@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hiruleech",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_hiruleech",
+      "texture": "cobblemon:textures/pokemon/goetia/hiruleech.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/hiruleech_shiny.png"
+    }
+  ]
+}

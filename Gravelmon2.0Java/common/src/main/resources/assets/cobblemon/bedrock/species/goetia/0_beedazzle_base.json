@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:beedazzle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_beedazzle",
+      "texture": "cobblemon:textures/pokemon/goetia/beedazzle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/beedazzle_shiny.png"
+    }
+  ]
+}

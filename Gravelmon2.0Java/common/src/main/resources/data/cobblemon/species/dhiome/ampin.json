@@ -49,6 +49,8 @@
     "field"
   ],
   "moves": [
+    "1:mudslap",
+    "1:thundershock",
     "tm:attract",
     "tm:bulldoze",
     "tm:chargebeam",

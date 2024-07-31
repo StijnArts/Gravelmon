@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bellagon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_bellagon",
+      "texture": "cobblemon:textures/pokemon/ionos/bellagon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/bellagon_shiny.png"
+    }
+  ]
+}

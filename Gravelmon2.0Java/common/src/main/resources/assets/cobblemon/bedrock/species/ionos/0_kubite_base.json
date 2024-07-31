@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kubite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_kubite",
+      "texture": "cobblemon:textures/pokemon/ionos/kubite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/kubite_shiny.png"
+    }
+  ]
+}

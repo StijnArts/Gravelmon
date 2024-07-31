@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "infesteak",
-  "nationalPokedexNumber": 1994,
+  "nationalPokedexNumber": 2020,
   "primaryType": "flying",
   "secondaryType": "poison",
   "abilities": [
@@ -50,7 +50,12 @@
     "amorphous"
   ],
   "moves": [
-  ],
+    "1:gust",
+    "1:acid",
+    "1:bulkup",
+    "1:bulkup",
+    "1:healbell",
+    "1:toxic"  ],
   "labels": [
     "enriko",
     "joke",

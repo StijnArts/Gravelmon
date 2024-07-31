@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:barrelsite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_barrelsite",
+      "texture": "cobblemon:textures/pokemon/goetia/barrelsite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/barrelsite_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mefowl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_mefowl",
+      "texture": "cobblemon:textures/pokemon/goetia/mefowl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/mefowl_shiny.png"
+    }
+  ]
+}

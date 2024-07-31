@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gildthera",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_gildthera",
+      "texture": "cobblemon:textures/pokemon/ionos/gildthera.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/gildthera_shiny.png"
+    }
+  ]
+}

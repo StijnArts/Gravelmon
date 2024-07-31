@@ -21,6 +21,22 @@
     }
 ,
     {
+      "id": "lagoonanlitwick-1",
+      "pokemon": "litwick lagoonan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-32",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+,
+    {
       "id": "deltalitwick-1",
       "pokemon": "litwick delta",
       "presets": [
@@ -32,8 +48,7 @@
       "level": "5-25",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_magical" ]
       }
     }
 

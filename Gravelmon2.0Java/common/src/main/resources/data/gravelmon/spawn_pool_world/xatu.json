@@ -18,6 +18,23 @@
 "biomes": [ "#cobblemon:is_deep_dark" ]
       }
     }
+,
+    {
+      "id": "ionosianxatu-1",
+      "pokemon": "xatu ionosian",
+      "presets": [
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "24-51",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": false
+      }
+    }
 
 ]
 }

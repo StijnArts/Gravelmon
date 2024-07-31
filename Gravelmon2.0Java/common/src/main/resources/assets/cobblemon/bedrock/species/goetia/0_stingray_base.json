@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:stingray",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_stingray",
+      "texture": "cobblemon:textures/pokemon/goetia/stingray.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/stingray_shiny.png"
+    }
+  ]
+}

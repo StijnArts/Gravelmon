@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "icypod-1",
+      "pokemon": "icypod",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "8-34",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_frozen" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

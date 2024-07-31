@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:humini",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_humini",
+      "texture": "cobblemon:textures/pokemon/ionos/humini.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/humini_shiny.png"
+    }
+  ]
+}

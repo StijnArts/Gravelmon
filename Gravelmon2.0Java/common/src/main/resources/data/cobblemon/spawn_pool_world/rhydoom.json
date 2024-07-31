@@ -19,7 +19,7 @@
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer",
+"biomes": [ "#cobblemon:is_jungle",
 "#cobblemon:is_temperate",
 "#cobblemon:is_beach" ]    }
     }

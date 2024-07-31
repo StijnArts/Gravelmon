@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:squorm",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_squorm",
+      "texture": "cobblemon:textures/pokemon/goetia/squorm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/squorm_shiny.png"
+    }
+  ]
+}

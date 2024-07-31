@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:snoutfly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_snoutfly",
+      "texture": "cobblemon:textures/pokemon/ionos/snoutfly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/snoutfly_shiny.png"
+    }
+  ]
+}

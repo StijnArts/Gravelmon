@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:poisstone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_poisstone",
+      "texture": "cobblemon:textures/pokemon/cyare/poisstone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/poisstone_shiny.png"
+    }
+  ]
+}

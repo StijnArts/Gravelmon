@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:grunje",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_grunje",
+      "texture": "cobblemon:textures/pokemon/goetia/grunje.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/grunje_shiny.png"
+    }
+  ]
+}

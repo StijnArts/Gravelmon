@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:putrigeist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_putrigeist",
+      "texture": "cobblemon:textures/pokemon/cyare/putrigeist.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/putrigeist_shiny.png"
+    }
+  ]
+}

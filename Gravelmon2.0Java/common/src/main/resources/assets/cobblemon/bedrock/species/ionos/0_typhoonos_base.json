@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:typhoonos",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_typhoonos",
+      "texture": "cobblemon:textures/pokemon/ionos/typhoonos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/typhoonos_shiny.png"
+    }
+  ]
+}

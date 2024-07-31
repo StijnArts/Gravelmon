@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kiwatt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_kiwatt",
+      "texture": "cobblemon:textures/pokemon/enjin/kiwatt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/kiwatt_shiny.png"
+    }
+  ]
+}

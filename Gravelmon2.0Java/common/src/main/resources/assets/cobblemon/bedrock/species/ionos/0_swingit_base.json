@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:swingit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_swingit",
+      "texture": "cobblemon:textures/pokemon/ionos/swingit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/swingit_shiny.png"
+    }
+  ]
+}

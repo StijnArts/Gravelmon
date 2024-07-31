@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tauracho",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_tauracho",
+      "texture": "cobblemon:textures/pokemon/ionos/tauracho.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/tauracho_shiny.png"
+    }
+  ]
+}

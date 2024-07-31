@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:wizadow",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_wizadow",
+      "texture": "cobblemon:textures/pokemon/cyare/wizadow.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/wizadow_shiny.png"
+    }
+  ]
+}

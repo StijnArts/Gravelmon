@@ -27,13 +27,14 @@ public class LagoonanOctillery extends drai.dev.data.pokemon.Pokemon {
                 List.of(                        ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 24, 47, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Octillery");
 
     }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:peathog",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_peathog",
+      "texture": "cobblemon:textures/pokemon/goetia/peathog.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/peathog_shiny.png"
+    }
+  ]
+}

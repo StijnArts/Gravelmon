@@ -20,6 +20,22 @@
     }
 ,
     {
+      "id": "ionosianflygon-1",
+      "pokemon": "flygon ionosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "45-61",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+,
+    {
       "id": "ayreianflygon-1",
       "pokemon": "flygon ayreian",
       "presets": [

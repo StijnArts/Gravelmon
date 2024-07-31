@@ -15,8 +15,7 @@
       "level": "26-46",
       "weight": 1.6,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_forest" ]
       }
     }
   ]

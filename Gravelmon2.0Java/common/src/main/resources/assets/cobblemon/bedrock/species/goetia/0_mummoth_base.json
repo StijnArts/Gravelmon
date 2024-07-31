@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mummoth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_mummoth",
+      "texture": "cobblemon:textures/pokemon/goetia/mummoth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/mummoth_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tricity",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_tricity",
+      "texture": "cobblemon:textures/pokemon/cyare/tricity.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/tricity_shiny.png"
+    }
+  ]
+}

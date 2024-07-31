@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tranoler",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_tranoler",
+      "texture": "cobblemon:textures/pokemon/ionos/tranoler.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/tranoler_shiny.png"
+    }
+  ]
+}

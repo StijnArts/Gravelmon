@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:brickwald",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_brickwald",
+      "texture": "cobblemon:textures/pokemon/goetia/brickwald.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/brickwald_shiny.png"
+    }
+  ]
+}

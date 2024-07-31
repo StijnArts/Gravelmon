@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:helminthon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_helminthon",
+      "texture": "cobblemon:textures/pokemon/goetia/helminthon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/helminthon_shiny.png"
+    }
+  ]
+}

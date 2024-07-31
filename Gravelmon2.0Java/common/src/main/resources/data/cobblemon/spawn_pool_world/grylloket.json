@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "grylloket-1",
+      "pokemon": "grylloket",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "21-45",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "minecraft:birch_forest" ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:maningauz",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_maningauz",
+      "texture": "cobblemon:textures/pokemon/goetia/maningauz.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/maningauz_shiny.png"
+    }
+  ]
+}

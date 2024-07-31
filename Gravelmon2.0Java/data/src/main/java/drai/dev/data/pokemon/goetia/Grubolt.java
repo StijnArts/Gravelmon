@@ -23,7 +23,7 @@ public class Grubolt extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("Its soft body makes it vulnerable, so its mother prepares a chamber for it to feed in."),
-                List.of(new EvolutionEntry("zapupa", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Zapupa", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(                        ),
                 List.of(Label.GOETIA),

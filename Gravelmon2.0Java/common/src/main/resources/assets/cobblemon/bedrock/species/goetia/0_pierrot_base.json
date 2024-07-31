@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pierrot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_pierrot",
+      "texture": "cobblemon:textures/pokemon/goetia/pierrot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/pierrot_shiny.png"
+    }
+  ]
+}

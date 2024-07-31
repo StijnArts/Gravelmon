@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bugboat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_bugboat",
+      "texture": "cobblemon:textures/pokemon/goetia/bugboat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/bugboat_shiny.png"
+    }
+  ]
+}

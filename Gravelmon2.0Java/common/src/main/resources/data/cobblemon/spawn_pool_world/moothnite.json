@@ -17,7 +17,6 @@
       "condition": {
 "biomes": [ "#cobblemon:is_magical",
 "#cobblemon:is_forest" ],
-        "canSeeSky": true,
         "timeRange": "night"
       }
     }

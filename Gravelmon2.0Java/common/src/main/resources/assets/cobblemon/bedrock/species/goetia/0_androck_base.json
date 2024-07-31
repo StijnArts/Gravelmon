@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:androck",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_androck",
+      "texture": "cobblemon:textures/pokemon/goetia/androck.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/androck_shiny.png"
+    }
+  ]
+}

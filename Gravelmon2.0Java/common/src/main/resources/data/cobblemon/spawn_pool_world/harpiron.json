@@ -16,8 +16,8 @@
       "weight": 0.8,
       "condition": {
 "biomes": [ "#cobblemon:is_sandy" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

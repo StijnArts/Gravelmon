@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:varingpard",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_varingpard",
+      "texture": "cobblemon:textures/pokemon/goetia/varingpard.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/varingpard_shiny.png"
+    }
+  ]
+}

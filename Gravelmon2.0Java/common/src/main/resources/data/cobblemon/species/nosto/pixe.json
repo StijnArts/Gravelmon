@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pixe",
-  "nationalPokedexNumber": 3689,
+  "nationalPokedexNumber": 3715,
   "primaryType": "electric",
   "abilities": [
     "download"  ],
@@ -45,6 +45,7 @@
     "mineral"
   ],
   "moves": [
+    "1:thundershock",
     "tm:bugbite",
     "tm:signalbeam",
     "tm:skittersmack",

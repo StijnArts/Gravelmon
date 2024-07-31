@@ -21,6 +21,22 @@
     }
 ,
     {
+      "id": "lagoonanoctillery-1",
+      "pokemon": "octillery lagoonan",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "24-47",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_frozen" ]
+      }
+    }
+,
+    {
       "id": "deltaoctillery-1",
       "pokemon": "octillery delta",
       "presets": [

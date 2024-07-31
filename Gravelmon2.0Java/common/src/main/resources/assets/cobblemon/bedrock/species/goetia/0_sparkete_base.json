@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sparkete",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_sparkete",
+      "texture": "cobblemon:textures/pokemon/goetia/sparkete.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/sparkete_shiny.png"
+    }
+  ]
+}

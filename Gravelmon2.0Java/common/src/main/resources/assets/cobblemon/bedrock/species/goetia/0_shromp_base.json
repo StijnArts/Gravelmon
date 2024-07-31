@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shromp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_shromp",
+      "texture": "cobblemon:textures/pokemon/goetia/shromp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/shromp_shiny.png"
+    }
+  ]
+}

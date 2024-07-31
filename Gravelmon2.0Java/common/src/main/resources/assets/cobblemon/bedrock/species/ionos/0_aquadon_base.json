@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:aquadon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_aquadon",
+      "texture": "cobblemon:textures/pokemon/ionos/aquadon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/aquadon_shiny.png"
+    }
+  ]
+}

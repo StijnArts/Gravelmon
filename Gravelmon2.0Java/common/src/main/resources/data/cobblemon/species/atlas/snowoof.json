@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snowoof",
-  "nationalPokedexNumber": 5632,
+  "nationalPokedexNumber": 5806,
   "primaryType": "ice",
   "abilities": [
     "frisk",
@@ -48,6 +48,7 @@
     "field"
   ],
   "moves": [
+    "1:powdersnow",
     "tm:facade",
     "tm:frustration",
     "tm:hiddenpower",

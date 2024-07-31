@@ -15,12 +15,25 @@ public class MoveListFiller {
         var statArchetype = StatArchetype.findClosestArchetype(pokemon.getStats());
         List<MoveLearnSetEntry> learnSet = new ArrayList<>();
         List<List<Move>> moveOptions = getMoveOptions(statArchetype, pokemon.getPrimaryType(), pokemon.getSecondaryType());
-        var iterators = moveOptions.stream().map(List::listIterator).toList();
+        if(moveOptions.isEmpty()){
+            return learnSet;
+        }
+        List<Iterator<Move>> iterators = new ArrayList<>();
+        for(List<Move> moves : moveOptions){
+            if(moves == null) {
+                System.out.println();
+            }
+            iterators.add(moves.iterator());
+        }
+
         var shouldContinue = true;
         var levelIterator = 0;
+        var iterator = 0;
         while(shouldContinue) {
+            if(iterator == moveOptions.size()) iterator = 0;
             var level = MOVE_LEARNING_LEVELS.get(pokemon.getExperienceGroup()).get(levelIterator);
-            for (int i = 0; i < moveOptions.size(); i++) {
+            for (int i = iterator; i < moveOptions.size(); i++) {
+                iterator ++;
                 var move = iterators.get(i).next();
                 if(move==null) continue;
                 learnSet.add(new MoveLearnSetEntry(move, level));
@@ -71,6 +84,20 @@ public class MoveListFiller {
     }
 
     private static List<Move> getFastMoves(String attackingType, Type primaryType) {
+        if(attackingType.equalsIgnoreCase("mixed")) {
+            var l1 = LEVEL_UP_SETS.get("fastspecial").get(primaryType);
+            var l2 = LEVEL_UP_SETS.get("fastphysical").get(primaryType);
+            ArrayList<Move> mergedList = new ArrayList<>();
+            Iterator<Move> i = l1.iterator();
+            while (i.hasNext()) {
+                mergedList.add(i.next());
+            }
+            i=l2.iterator();
+            while (i.hasNext()) {
+                mergedList.add(i.next());
+            }
+            return mergedList;
+        }
         return LEVEL_UP_SETS.get("fast"+attackingType).get(primaryType);
     }
 
@@ -144,7 +171,7 @@ public class MoveListFiller {
         var fastSpecialMovesPerType = getFastSpecialMovesPerType(types);
         var fastPhysicalPerType = getFastPhysicalMovesPerType(types);
         LEVEL_UP_SETS.put("special", specialMovesPerType);
-        LEVEL_UP_SETS.put("attack", attackMovesPerType);
+        LEVEL_UP_SETS.put("physical", attackMovesPerType);
         LEVEL_UP_SETS.put("defensive", defensiveMovesPerType);
         LEVEL_UP_SETS.put("support", supportMovesPerType);
         LEVEL_UP_SETS.put("fastphysical", fastPhysicalPerType);
@@ -431,6 +458,16 @@ public class MoveListFiller {
                 Move.MOONBLAST
 
         ));
+        specialMoves.put(Type.BUG, List.of(
+                Move.STRUGGLE_BUG,
+                Move.STRING_SHOT,
+                Move.SILVER_WIND,
+                Move.SIGNAL_BEAM,
+                Move.INFESTATION,
+                Move.UTURN,
+                Move.BUG_BUZZ
+
+        ));
         return specialMoves;
     }
 
@@ -600,6 +637,16 @@ public class MoveListFiller {
                 Move.DAZZLING_GLEAM,
                 Move.PLAY_ROUGH,
                 Move.SPIRIT_BREAK
+
+        ));
+        physicalMoves.put(Type.BUG, List.of(
+                Move.STRUGGLE_BUG,
+                Move.STRING_SHOT,
+                Move.LEECH_LIFE,
+                Move.LUNGE,
+                Move.XSCISSOR,
+                Move.UTURN,
+                Move.MEGAHORN
 
         ));
         return physicalMoves;

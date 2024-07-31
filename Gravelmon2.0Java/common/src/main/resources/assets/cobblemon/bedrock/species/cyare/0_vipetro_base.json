@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vipetro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:cyare_vipetro",
+      "texture": "cobblemon:textures/pokemon/cyare/vipetro.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cyare/vipetro_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:figabee",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_figabee",
+      "texture": "cobblemon:textures/pokemon/goetia/figabee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/figabee_shiny.png"
+    }
+  ]
+}

@@ -19,7 +19,7 @@
 "#cobblemon:is_spooky" ]
       },
       "anticondition": {
-"biomes": [ "#cobblemon:has_season/summer" ]    }
+"biomes": [ "#cobblemon:is_jungle" ]    }
     }
   ]
 }

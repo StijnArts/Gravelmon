@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lilacorn",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_lilacorn",
+      "texture": "cobblemon:textures/pokemon/goetia/lilacorn.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/lilacorn_shiny.png"
+    }
+  ]
+}

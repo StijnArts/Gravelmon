@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:scubargon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_scubargon",
+      "texture": "cobblemon:textures/pokemon/ionos/scubargon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/scubargon_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:leaplip",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_leaplip",
+      "texture": "cobblemon:textures/pokemon/ionos/leaplip.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/leaplip_shiny.png"
+    }
+  ]
+}

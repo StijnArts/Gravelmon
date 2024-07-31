@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sarcophacoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_sarcophacoon",
+      "texture": "cobblemon:textures/pokemon/goetia/sarcophacoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/sarcophacoon_shiny.png"
+    }
+  ]
+}

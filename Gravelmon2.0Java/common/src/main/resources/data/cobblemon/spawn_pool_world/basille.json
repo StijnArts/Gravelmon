@@ -16,8 +16,7 @@
       "weight": 8.0,
       "condition": {
 "biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_floral" ],
-        "canSeeSky": true
+"#cobblemon:is_floral" ]
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_snowy" ]    }

@@ -15,12 +15,11 @@
       "level": "36-53",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_forest" ]
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:has_season/winter" ]    }
+"#cobblemon:is_taiga" ]    }
     }
   ]
 }

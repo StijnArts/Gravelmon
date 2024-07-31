@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sigiping",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_sigiping",
+      "texture": "cobblemon:textures/pokemon/ionos/sigiping.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/sigiping_shiny.png"
+    }
+  ]
+}

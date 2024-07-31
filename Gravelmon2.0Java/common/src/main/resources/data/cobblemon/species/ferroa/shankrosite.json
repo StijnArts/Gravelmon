@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shankrosite",
-  "nationalPokedexNumber": 1866,
+  "nationalPokedexNumber": 1892,
   "primaryType": "rock",
   "abilities": [
     "rockhead",
@@ -48,6 +48,9 @@
     "mineral"
   ],
   "moves": [
+    "1:rockthrow",
+    "1:healbell",
+    "1:vacuumwave",
     "tm:bodypress",
     "tm:bodyslam",
     "tm:heavyslam",

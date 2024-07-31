@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:spidirt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_spidirt",
+      "texture": "cobblemon:textures/pokemon/goetia/spidirt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/spidirt_shiny.png"
+    }
+  ]
+}

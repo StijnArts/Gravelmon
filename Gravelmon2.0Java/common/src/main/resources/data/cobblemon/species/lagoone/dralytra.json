@@ -1,0 +1,84 @@
+{
+  "implemented": true,
+  "name": "dralytra",
+  "nationalPokedexNumber": 1603,
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 68,
+    "defence": 84,
+    "special_attack": 138,
+    "special_defence": 89,
+    "speed": 101
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:strugglebug",
+    "1:scratch",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.dralytra.desc"
+  ],
+  "preEvolution": "drasalys",
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 132,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

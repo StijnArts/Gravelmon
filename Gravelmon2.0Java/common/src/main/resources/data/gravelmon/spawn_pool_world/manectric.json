@@ -16,8 +16,25 @@
       "weight": 1.0,
       "condition": {
 "biomes": [ "#cobblemon:is_badlands" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "enjinnianmanectric-1",
+      "pokemon": "manectric enjinnian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-41",
+      "weight": 1.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "timeRange": "night"
       }
     }
 

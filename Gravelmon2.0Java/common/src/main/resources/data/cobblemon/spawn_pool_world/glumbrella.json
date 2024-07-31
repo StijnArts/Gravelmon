@@ -17,8 +17,8 @@
       "condition": {
 "biomes": [ "#cobblemon:is_temperate" ],
         "isRaining": true,
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crabuddy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_crabuddy",
+      "texture": "cobblemon:textures/pokemon/goetia/crabuddy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/crabuddy_shiny.png"
+    }
+  ]
+}

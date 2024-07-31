@@ -65,8 +65,8 @@ public class Pacemeon extends drai.dev.data.pokemon.Pokemon {
                         100,
                         40),
                 List.of(Ability.SAND_FORCE), Ability.SCRAPPY,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                9, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.87,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -93,11 +93,11 @@ public class Pacemeon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EARTH_POWER,68)                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 35, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pacemeon");

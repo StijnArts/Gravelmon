@@ -32,8 +32,7 @@
       "level": "5-31",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_bamboo" ]
       }
     }
 ,
@@ -67,8 +66,7 @@
       "level": "5-31",
       "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_magical" ]
       }
     }
 

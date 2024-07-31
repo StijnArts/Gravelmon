@@ -17,8 +17,8 @@
       "condition": {
 "biomes": [ "#cobblemon:is_sky",
 "#cobblemon:is_magical" ],
-        "timeRange": "day",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "day"
       }
     }
 ,
@@ -52,8 +52,8 @@
       "weight": 5.0,
       "condition": {
 "biomes": [ "#cobblemon:is_swamp" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
 ,

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:epimedic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_epimedic",
+      "texture": "cobblemon:textures/pokemon/goetia/epimedic.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/epimedic_shiny.png"
+    }
+  ]
+}

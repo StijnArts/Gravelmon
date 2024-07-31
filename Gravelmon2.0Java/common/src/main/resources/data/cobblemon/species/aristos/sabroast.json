@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabroast",
-  "nationalPokedexNumber": 2433,
+  "nationalPokedexNumber": 2459,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -46,7 +46,8 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:absorb",
+    "1:ember"  ],
   "labels": [
     "aristos",
     "not_modeled"

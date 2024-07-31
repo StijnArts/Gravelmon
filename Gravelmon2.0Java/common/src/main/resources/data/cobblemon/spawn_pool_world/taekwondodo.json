@@ -16,8 +16,8 @@
       "weight": 0.3,
       "condition": {
 "biomes": [ "#cobblemon:is_tropical_island" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

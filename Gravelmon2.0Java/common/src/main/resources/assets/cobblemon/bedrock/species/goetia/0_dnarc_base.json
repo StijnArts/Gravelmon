@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dnarc",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_dnarc",
+      "texture": "cobblemon:textures/pokemon/goetia/dnarc.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/dnarc_shiny.png"
+    }
+  ]
+}

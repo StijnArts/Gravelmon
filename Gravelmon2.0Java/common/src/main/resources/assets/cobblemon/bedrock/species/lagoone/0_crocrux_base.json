@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crocrux",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_crocrux",
+      "texture": "cobblemon:textures/pokemon/lagoone/crocrux.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/crocrux_shiny.png"
+    }
+  ]
+}

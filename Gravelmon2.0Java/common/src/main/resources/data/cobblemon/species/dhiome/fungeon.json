@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 58,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -55,7 +55,9 @@
     ]
   },
   "moves": [
-  ],
+    "1:acid",
+    "1:bulkup",
+    "1:toxic"  ],
   "labels": [
     "dhiome",
     "not_modeled"

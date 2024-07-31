@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bandiero",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_bandiero",
+      "texture": "cobblemon:textures/pokemon/goetia/bandiero.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/bandiero_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hermitwin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_hermitwin",
+      "texture": "cobblemon:textures/pokemon/goetia/hermitwin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/hermitwin_shiny.png"
+    }
+  ]
+}

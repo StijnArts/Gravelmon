@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phanta",
-  "nationalPokedexNumber": 5679,
+  "nationalPokedexNumber": 5853,
   "primaryType": "ghost",
   "abilities": [
     "pressure"  ],
@@ -45,7 +45,7 @@
     "undiscovered"
   ],
   "moves": [
-  ],
+    "1:lick"  ],
   "labels": [
     "atlas",
     "not_modeled"

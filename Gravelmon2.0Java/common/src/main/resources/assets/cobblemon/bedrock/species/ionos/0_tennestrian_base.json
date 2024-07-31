@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tennestrian",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_tennestrian",
+      "texture": "cobblemon:textures/pokemon/ionos/tennestrian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/tennestrian_shiny.png"
+    }
+  ]
+}

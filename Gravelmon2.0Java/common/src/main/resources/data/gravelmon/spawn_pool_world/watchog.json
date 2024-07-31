@@ -16,8 +16,8 @@
       "weight": 0.9,
       "condition": {
 "biomes": [ "#cobblemon:is_badlands" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
 

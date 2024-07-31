@@ -44,11 +44,11 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new PastelianShellder("", Aspect.PASTELIAN)); TODO
-        pokemon.add(new PastelianCloyster("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianChansey("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianKoffing("", Aspect.PASTELIAN));
-        pokemon.add(new PastelianWeezing("", Aspect.PASTELIAN));
+//        pokemon.add(new PastelianShellder("", Aspect.PASTELIAN)); TODO
+//        pokemon.add(new PastelianCloyster("", Aspect.PASTELIAN));
+//        pokemon.add(new PastelianChansey("", Aspect.PASTELIAN));
+//        pokemon.add(new PastelianKoffing("", Aspect.PASTELIAN));
+//        pokemon.add(new PastelianWeezing("", Aspect.PASTELIAN));
 
 //        pokemon.add(new TheossianRaichu("", Aspect.THEOSSIAN)); TODO
 //        pokemon.add(new TheossianTauros("", Aspect.THEOSSIAN));
@@ -65,14 +65,14 @@ public class GenerationOne extends Game {
 
 //        pokemon.add(new NodorranEkans("", Aspect.NODORRAN)); TODO
 //        pokemon.add(new NodorranArbok("", Aspect.NODORRAN));
-        pokemon.add(new NodorranGastly("", Aspect.NODORRAN));
-        pokemon.add(new NodorranHaunter("", Aspect.NODORRAN));
-        pokemon.add(new NodorranGengar("", Aspect.NODORRAN));
-        pokemon.add(new NodorranMagikarp("", Aspect.NODORRAN));
-        pokemon.add(new NodorranGyarados("", Aspect.NODORRAN));
-        pokemon.add(new NodorranOnix("", Aspect.NODORRAN));
-        pokemon.add(new NodorranKoffing("", Aspect.NODORRAN));
-        pokemon.add(new NodorranWeezing("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranGastly("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranHaunter("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranGengar("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranMagikarp("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranGyarados("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranOnix("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranKoffing("", Aspect.NODORRAN));
+//        pokemon.add(new NodorranWeezing("", Aspect.NODORRAN));
 
 //        pokemon.add(new MastenianTentacool("", Aspect.MASTENIAN)); TODO
 //        pokemon.add(new MastenianPsyduck("", Aspect.MASTENIAN)); TODO
@@ -89,17 +89,17 @@ public class GenerationOne extends Game {
         pokemon.add(new AfricanusanMachoke("", Aspect.AFRICANUSAN));
         pokemon.add(new AfricanusanMachamp("", Aspect.AFRICANUSAN));
 
-        pokemon.add(new IonosianEkans("", Aspect.IONOSIAN));   Missing Stats
+        pokemon.add(new IonosianEkans("", Aspect.IONOSIAN));
         pokemon.add(new IonosianArbok("", Aspect.IONOSIAN, new Stats(448, StatArchetype.SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   Missing Stats
+                List.of(StatType.SPEED))));
 //        pokemon.add(new IonosianHypno("", Aspect.IONOSIAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
 //                List.of(StatType.SPEED))));   Member of line not finished
         pokemon.add(new IonosianStarmie("", Aspect.IONOSIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   Missing Stats
+                List.of(StatType.SPEED))));
         pokemon.add(new IonosianJynx("", Aspect.IONOSIAN, new Stats(455, StatArchetype.SPECIAL_ATTACKER,
-                List.of(StatType.SPEED))));   Missing Stats
+                List.of(StatType.SPEED))));
         pokemon.add(new IonosianSnorlax("", Aspect.IONOSIAN, new Stats(540, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
-                List.of(StatType.HP))));   Missing Stats
+                List.of(StatType.HP))));
 
         pokemon.add(new FligianBellsprout("", Aspect.FLIGIAN));
         pokemon.add(new FligianWeepinbell("", Aspect.FLIGIAN));

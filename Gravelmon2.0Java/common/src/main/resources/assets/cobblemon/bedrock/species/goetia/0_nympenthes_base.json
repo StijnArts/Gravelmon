@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nympenthes",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_nympenthes",
+      "texture": "cobblemon:textures/pokemon/goetia/nympenthes.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/nympenthes_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:axelure",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_axelure",
+      "texture": "cobblemon:textures/pokemon/goetia/axelure.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/axelure_shiny.png"
+    }
+  ]
+}

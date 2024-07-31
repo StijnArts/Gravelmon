@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:clownemone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_clownemone",
+      "texture": "cobblemon:textures/pokemon/ionos/clownemone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/clownemone_shiny.png"
+    }
+  ]
+}

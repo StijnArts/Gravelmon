@@ -17,8 +17,8 @@
       "condition": {
 "biomes": [ "#cobblemon:is_forest",
 "#cobblemon:is_swamp" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

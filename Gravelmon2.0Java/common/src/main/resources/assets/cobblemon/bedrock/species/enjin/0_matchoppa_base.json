@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:matchoppa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_matchoppa",
+      "texture": "cobblemon:textures/pokemon/enjin/matchoppa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/matchoppa_shiny.png"
+    }
+  ]
+}

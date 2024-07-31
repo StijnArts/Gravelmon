@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sushef",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_sushef",
+      "texture": "cobblemon:textures/pokemon/goetia/sushef.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/sushef_shiny.png"
+    }
+  ]
+}

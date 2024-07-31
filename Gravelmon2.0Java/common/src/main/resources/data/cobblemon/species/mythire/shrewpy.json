@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shrewpy",
-  "nationalPokedexNumber": 3832,
+  "nationalPokedexNumber": 3858,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -48,6 +48,7 @@
     "field"
   ],
   "moves": [
+    "1:tackle",
     "tm:covet",
     "tm:helpinghand",
     "tm:lastresort",

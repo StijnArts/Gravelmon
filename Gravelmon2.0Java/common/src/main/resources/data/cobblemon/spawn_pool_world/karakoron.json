@@ -18,7 +18,6 @@
 "biomes": [ "#cobblemon:is_magical",
 "#cobblemon:is_mountain",
 "#cobblemon:is_spooky" ],
-        "canSeeSky": true,
         "timeRange": "night"
       }
     }

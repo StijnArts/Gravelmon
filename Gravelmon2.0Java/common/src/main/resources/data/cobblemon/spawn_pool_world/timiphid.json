@@ -16,8 +16,7 @@
       "weight": 8.0,
       "condition": {
 "biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_grassland" ],
-        "canSeeSky": true
+"#cobblemon:is_grassland" ]
       },
       "anticondition": {
 "biomes": [ "#minecraft:is_ocean" ]    }

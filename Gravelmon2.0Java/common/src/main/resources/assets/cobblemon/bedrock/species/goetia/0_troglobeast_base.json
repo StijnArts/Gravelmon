@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:troglobeast",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_troglobeast",
+      "texture": "cobblemon:textures/pokemon/goetia/troglobeast.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/troglobeast_shiny.png"
+    }
+  ]
+}

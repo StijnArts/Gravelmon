@@ -16,8 +16,8 @@
       "weight": 4.0,
       "condition": {
 "biomes": [ "#cobblemon:is_savanna" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

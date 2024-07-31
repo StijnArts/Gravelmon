@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:grumchick",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_grumchick",
+      "texture": "cobblemon:textures/pokemon/ionos/grumchick.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/grumchick_shiny.png"
+    }
+  ]
+}

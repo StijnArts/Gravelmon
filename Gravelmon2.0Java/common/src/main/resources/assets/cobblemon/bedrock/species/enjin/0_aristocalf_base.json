@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:aristocalf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:enjin_aristocalf",
+      "texture": "cobblemon:textures/pokemon/enjin/aristocalf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/aristocalf_shiny.png"
+    }
+  ]
+}

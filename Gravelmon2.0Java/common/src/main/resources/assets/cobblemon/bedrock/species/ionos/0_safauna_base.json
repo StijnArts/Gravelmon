@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:safauna",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_safauna",
+      "texture": "cobblemon:textures/pokemon/ionos/safauna.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/safauna_shiny.png"
+    }
+  ]
+}

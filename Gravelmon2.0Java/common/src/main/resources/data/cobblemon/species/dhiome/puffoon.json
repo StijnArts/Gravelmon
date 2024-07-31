@@ -5,7 +5,9 @@
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
-    "keeneye"  ],
+    "keeneye",
+    "h:keeneye"
+  ],
   "baseStats": {
     "hp": 136,
     "attack": 52,
@@ -43,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-    "field"
+
   ],
   "moves": [
     "1:pound",

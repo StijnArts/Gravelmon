@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mantilist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:lagoone_mantilist",
+      "texture": "cobblemon:textures/pokemon/lagoone/mantilist.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lagoone/mantilist_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "larvot-1",
+      "pokemon": "larvot",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ]
+      }
+    }
+  ]
+}

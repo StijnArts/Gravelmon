@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:skeezer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_skeezer",
+      "texture": "cobblemon:textures/pokemon/goetia/skeezer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/skeezer_shiny.png"
+    }
+  ]
+}

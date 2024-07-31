@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:relido",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ionos_relido",
+      "texture": "cobblemon:textures/pokemon/ionos/relido.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/relido_shiny.png"
+    }
+  ]
+}

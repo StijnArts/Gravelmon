@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bombun",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:goetia_bombun",
+      "texture": "cobblemon:textures/pokemon/goetia/bombun.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/bombun_shiny.png"
+    }
+  ]
+}

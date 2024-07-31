@@ -16,8 +16,8 @@
       "weight": 0.1,
       "condition": {
 "biomes": [ "#cobblemon:is_jungle" ],
-        "timeRange": "night",
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]
