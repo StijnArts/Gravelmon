@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cublog",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_cublog",
+      "texture": "cobblemon:textures/pokemon/raian/cublog.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/cublog_shiny.png"
+    }
+  ]
+}

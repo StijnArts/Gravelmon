@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cloacoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_cloacoon",
+      "texture": "cobblemon:textures/pokemon/bago/cloacoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/cloacoon_shiny.png"
+    }
+  ]
+}

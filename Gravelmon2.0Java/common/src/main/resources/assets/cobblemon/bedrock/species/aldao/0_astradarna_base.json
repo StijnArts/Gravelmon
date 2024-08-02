@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:astradarna",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_astradarna",
+      "texture": "cobblemon:textures/pokemon/aldao/astradarna.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/astradarna_shiny.png"
+    }
+  ]
+}

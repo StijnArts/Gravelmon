@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:orcarize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_orcarize",
+      "texture": "cobblemon:textures/pokemon/palmia/orcarize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/orcarize_shiny.png"
+    }
+  ]
+}

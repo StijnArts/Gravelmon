@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:draudager",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_draudager",
+      "texture": "cobblemon:textures/pokemon/norse/draudager.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/draudager_shiny.png"
+    }
+  ]
+}

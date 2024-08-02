@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sparkadillo",
-  "nationalPokedexNumber": 5173,
+  "nationalPokedexNumber": 6011,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -52,11 +52,14 @@
     "1:mudslap"  ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sparkadillo.desc"
   ],
+  "preEvolution": "radarent",
   "evolutions": [
     {
       "id": "sparkadillo_armadealo",

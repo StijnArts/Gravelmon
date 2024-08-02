@@ -2,6 +2,83 @@
    "target": "cobblemon:lapras",
   "preEvolution": "pressie",
    "forms": [{
+  "name": "Forman",
+  "primaryType": "rock",
+  "secondaryType": "dragon",
+  "abilities": [
+    "marvelscale"  ],
+  "baseStats": {
+    "hp": 116,
+    "attack": 62,
+    "defence": 134,
+    "special_attack": 116,
+    "special_defence": 81,
+    "speed": 23
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 52,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:rockthrow",
+    "1:scratch",
+    "1:bulkup",
+    "1:bulkup"  ],
+  "labels": [
+    "form",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.formanlapras.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": ["forman"],
+  "cannotDynamax": false
+},
+{
   "name": "Epoch",
   "primaryType": "fire",
   "secondaryType": "rock",
@@ -898,6 +975,7 @@
   "cannotDynamax": false
 }
 ], "features": [
+"forman",
 "epoch",
 "epochtwo",
 "novran",

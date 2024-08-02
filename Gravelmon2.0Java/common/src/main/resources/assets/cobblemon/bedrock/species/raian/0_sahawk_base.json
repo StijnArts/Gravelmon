@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sahawk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_sahawk",
+      "texture": "cobblemon:textures/pokemon/raian/sahawk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/sahawk_shiny.png"
+    }
+  ]
+}

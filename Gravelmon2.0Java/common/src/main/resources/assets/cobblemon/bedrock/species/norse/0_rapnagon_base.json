@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rapnagon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_rapnagon",
+      "texture": "cobblemon:textures/pokemon/norse/rapnagon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/rapnagon_shiny.png"
+    }
+  ]
+}

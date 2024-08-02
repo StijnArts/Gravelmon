@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:orcpine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_orcpine",
+      "texture": "cobblemon:textures/pokemon/raian/orcpine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/orcpine_shiny.png"
+    }
+  ]
+}

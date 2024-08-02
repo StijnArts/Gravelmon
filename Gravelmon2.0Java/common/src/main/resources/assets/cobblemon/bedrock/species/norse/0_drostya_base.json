@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:drostya",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_drostya",
+      "texture": "cobblemon:textures/pokemon/norse/drostya.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/drostya_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:jazarnab",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_jazarnab",
+      "texture": "cobblemon:textures/pokemon/palmia/jazarnab.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/jazarnab_shiny.png"
+    }
+  ]
+}

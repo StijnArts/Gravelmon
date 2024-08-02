@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cynomotar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_cynomotar",
+      "texture": "cobblemon:textures/pokemon/palmia/cynomotar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/cynomotar_shiny.png"
+    }
+  ]
+}

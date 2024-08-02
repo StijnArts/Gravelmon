@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dragorai",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_dragorai",
+      "texture": "cobblemon:textures/pokemon/form/dragorai.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/dragorai_shiny.png"
+    }
+  ]
+}

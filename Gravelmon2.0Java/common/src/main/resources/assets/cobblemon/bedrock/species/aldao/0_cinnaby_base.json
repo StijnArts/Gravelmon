@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cinnaby",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_cinnaby",
+      "texture": "cobblemon:textures/pokemon/aldao/cinnaby.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/cinnaby_shiny.png"
+    }
+  ]
+}

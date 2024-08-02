@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:walitan",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_walitan",
+      "texture": "cobblemon:textures/pokemon/palmia/walitan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/walitan_shiny.png"
+    }
+  ]
+}

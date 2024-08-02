@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:algaphin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_algaphin",
+      "texture": "cobblemon:textures/pokemon/form/algaphin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/algaphin_shiny.png"
+    }
+  ]
+}

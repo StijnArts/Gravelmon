@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:zokinub",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_zokinub",
+      "texture": "cobblemon:textures/pokemon/trizor/zokinub.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/zokinub_shiny.png"
+    }
+  ]
+}

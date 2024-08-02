@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mudarek",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_mudarek",
+      "texture": "cobblemon:textures/pokemon/palmia/mudarek.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/mudarek_shiny.png"
+    }
+  ]
+}

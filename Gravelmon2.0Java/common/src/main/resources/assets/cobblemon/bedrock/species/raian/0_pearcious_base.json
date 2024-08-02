@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pearcious",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_pearcious",
+      "texture": "cobblemon:textures/pokemon/raian/pearcious.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/pearcious_shiny.png"
+    }
+  ]
+}

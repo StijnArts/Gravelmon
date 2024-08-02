@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:darrpler",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_darrpler",
+      "texture": "cobblemon:textures/pokemon/palmia/darrpler.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/darrpler_shiny.png"
+    }
+  ]
+}

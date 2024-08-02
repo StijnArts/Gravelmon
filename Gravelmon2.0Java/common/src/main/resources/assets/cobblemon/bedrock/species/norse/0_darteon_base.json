@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:darteon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_darteon",
+      "texture": "cobblemon:textures/pokemon/norse/darteon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/darteon_shiny.png"
+    }
+  ]
+}

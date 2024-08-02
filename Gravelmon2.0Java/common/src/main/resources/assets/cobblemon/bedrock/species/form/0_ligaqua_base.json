@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ligaqua",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_ligaqua",
+      "texture": "cobblemon:textures/pokemon/form/ligaqua.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/ligaqua_shiny.png"
+    }
+  ]
+}

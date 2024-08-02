@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cianbul",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_cianbul",
+      "texture": "cobblemon:textures/pokemon/palmia/cianbul.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/cianbul_shiny.png"
+    }
+  ]
+}

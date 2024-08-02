@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lavades",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_lavades",
+      "texture": "cobblemon:textures/pokemon/norse/lavades.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/lavades_shiny.png"
+    }
+  ]
+}

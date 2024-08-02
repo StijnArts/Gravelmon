@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pineque",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_pineque",
+      "texture": "cobblemon:textures/pokemon/raian/pineque.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/pineque_shiny.png"
+    }
+  ]
+}

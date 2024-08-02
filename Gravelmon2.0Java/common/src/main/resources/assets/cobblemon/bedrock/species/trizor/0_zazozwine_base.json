@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:zazozwine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_zazozwine",
+      "texture": "cobblemon:textures/pokemon/trizor/zazozwine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/zazozwine_shiny.png"
+    }
+  ]
+}

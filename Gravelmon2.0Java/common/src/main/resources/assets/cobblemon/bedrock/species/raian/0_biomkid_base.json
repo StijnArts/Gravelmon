@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:biomkid",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_biomkid",
+      "texture": "cobblemon:textures/pokemon/raian/biomkid.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/biomkid_shiny.png"
+    }
+  ]
+}

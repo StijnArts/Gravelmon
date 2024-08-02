@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cheeda",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_cheeda",
+      "texture": "cobblemon:textures/pokemon/raian/cheeda.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/cheeda_shiny.png"
+    }
+  ]
+}

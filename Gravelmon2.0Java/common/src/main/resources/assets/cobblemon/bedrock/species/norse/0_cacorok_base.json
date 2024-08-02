@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cacorok",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_cacorok",
+      "texture": "cobblemon:textures/pokemon/norse/cacorok.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/cacorok_shiny.png"
+    }
+  ]
+}

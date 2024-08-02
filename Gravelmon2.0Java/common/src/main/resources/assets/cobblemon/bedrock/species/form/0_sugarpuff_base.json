@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sugarpuff",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_sugarpuff",
+      "texture": "cobblemon:textures/pokemon/form/sugarpuff.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/sugarpuff_shiny.png"
+    }
+  ]
+}

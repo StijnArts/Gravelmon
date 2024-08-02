@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:centirok",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_centirok",
+      "texture": "cobblemon:textures/pokemon/norse/centirok.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/centirok_shiny.png"
+    }
+  ]
+}

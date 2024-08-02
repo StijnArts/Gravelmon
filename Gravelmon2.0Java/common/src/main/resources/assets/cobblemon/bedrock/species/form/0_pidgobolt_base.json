@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pidgobolt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_pidgobolt",
+      "texture": "cobblemon:textures/pokemon/form/pidgobolt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/pidgobolt_shiny.png"
+    }
+  ]
+}

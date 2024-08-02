@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ratatox",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_ratatox",
+      "texture": "cobblemon:textures/pokemon/palmia/ratatox.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/ratatox_shiny.png"
+    }
+  ]
+}

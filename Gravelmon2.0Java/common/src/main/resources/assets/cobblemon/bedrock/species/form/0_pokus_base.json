@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pokus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_pokus",
+      "texture": "cobblemon:textures/pokemon/form/pokus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/pokus_shiny.png"
+    }
+  ]
+}

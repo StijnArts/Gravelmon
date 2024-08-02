@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:froprince",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_froprince",
+      "texture": "cobblemon:textures/pokemon/trizor/froprince.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/froprince_shiny.png"
+    }
+  ]
+}

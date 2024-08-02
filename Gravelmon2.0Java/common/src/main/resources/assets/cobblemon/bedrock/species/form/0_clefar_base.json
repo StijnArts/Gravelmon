@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:clefar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_clefar",
+      "texture": "cobblemon:textures/pokemon/form/clefar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/clefar_shiny.png"
+    }
+  ]
+}

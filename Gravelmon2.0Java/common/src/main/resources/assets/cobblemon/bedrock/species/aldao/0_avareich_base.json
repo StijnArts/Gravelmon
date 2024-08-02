@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:avareich",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_avareich",
+      "texture": "cobblemon:textures/pokemon/aldao/avareich.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/avareich_shiny.png"
+    }
+  ]
+}

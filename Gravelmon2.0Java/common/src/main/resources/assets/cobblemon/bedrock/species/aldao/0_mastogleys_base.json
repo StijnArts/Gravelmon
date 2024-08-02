@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mastogleys",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_mastogleys",
+      "texture": "cobblemon:textures/pokemon/aldao/mastogleys.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/mastogleys_shiny.png"
+    }
+  ]
+}

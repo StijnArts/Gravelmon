@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:evigekko",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_evigekko",
+      "texture": "cobblemon:textures/pokemon/raian/evigekko.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/evigekko_shiny.png"
+    }
+  ]
+}

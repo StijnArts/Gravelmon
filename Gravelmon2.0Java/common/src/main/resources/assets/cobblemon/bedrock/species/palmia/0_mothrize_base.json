@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mothrize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_mothrize",
+      "texture": "cobblemon:textures/pokemon/palmia/mothrize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/mothrize_shiny.png"
+    }
+  ]
+}

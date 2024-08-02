@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bigabellz",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_bigabellz",
+      "texture": "cobblemon:textures/pokemon/norse/bigabellz.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/bigabellz_shiny.png"
+    }
+  ]
+}

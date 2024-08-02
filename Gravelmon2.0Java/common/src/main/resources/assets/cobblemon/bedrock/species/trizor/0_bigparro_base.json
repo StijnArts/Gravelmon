@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bigparro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_bigparro",
+      "texture": "cobblemon:textures/pokemon/trizor/bigparro.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/bigparro_shiny.png"
+    }
+  ]
+}

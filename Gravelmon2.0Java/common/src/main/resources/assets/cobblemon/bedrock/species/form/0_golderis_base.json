@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:golderis",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_golderis",
+      "texture": "cobblemon:textures/pokemon/form/golderis.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/golderis_shiny.png"
+    }
+  ]
+}

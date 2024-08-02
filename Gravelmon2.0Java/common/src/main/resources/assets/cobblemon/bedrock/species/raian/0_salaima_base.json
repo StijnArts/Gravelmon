@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:salaima",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_salaima",
+      "texture": "cobblemon:textures/pokemon/raian/salaima.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/salaima_shiny.png"
+    }
+  ]
+}

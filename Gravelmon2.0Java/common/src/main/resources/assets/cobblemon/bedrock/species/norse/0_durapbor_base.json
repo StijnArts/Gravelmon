@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:durapbor",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_durapbor",
+      "texture": "cobblemon:textures/pokemon/norse/durapbor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/durapbor_shiny.png"
+    }
+  ]
+}

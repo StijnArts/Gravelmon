@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vambat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_vambat",
+      "texture": "cobblemon:textures/pokemon/aldao/vambat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/vambat_shiny.png"
+    }
+  ]
+}

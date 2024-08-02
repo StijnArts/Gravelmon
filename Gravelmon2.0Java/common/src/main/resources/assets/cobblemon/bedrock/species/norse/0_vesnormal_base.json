@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vesnormal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_vesnormal",
+      "texture": "cobblemon:textures/pokemon/norse/vesnormal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/vesnormal_shiny.png"
+    }
+  ]
+}

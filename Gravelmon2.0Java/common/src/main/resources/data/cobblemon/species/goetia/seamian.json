@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seamian",
-  "nationalPokedexNumber": 6193,
+  "nationalPokedexNumber": 7031,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -32,6 +32,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

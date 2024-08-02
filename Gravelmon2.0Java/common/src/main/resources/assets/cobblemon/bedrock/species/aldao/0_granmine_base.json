@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:granmine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_granmine",
+      "texture": "cobblemon:textures/pokemon/aldao/granmine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/granmine_shiny.png"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swondola",
-  "nationalPokedexNumber": 5876,
+  "nationalPokedexNumber": 6714,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -32,6 +32,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }

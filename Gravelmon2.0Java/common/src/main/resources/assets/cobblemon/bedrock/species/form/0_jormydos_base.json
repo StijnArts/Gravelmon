@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:jormydos",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_jormydos",
+      "texture": "cobblemon:textures/pokemon/form/jormydos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/jormydos_shiny.png"
+    }
+  ]
+}

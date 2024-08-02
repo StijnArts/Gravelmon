@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:royray",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_royray",
+      "texture": "cobblemon:textures/pokemon/norse/royray.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/royray_shiny.png"
+    }
+  ]
+}

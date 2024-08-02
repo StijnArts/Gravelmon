@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caimar",
-  "nationalPokedexNumber": 5644,
+  "nationalPokedexNumber": 6482,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -33,6 +33,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

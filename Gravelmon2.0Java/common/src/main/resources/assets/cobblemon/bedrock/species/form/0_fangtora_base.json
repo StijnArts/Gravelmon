@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fangtora",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_fangtora",
+      "texture": "cobblemon:textures/pokemon/form/fangtora.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/fangtora_shiny.png"
+    }
+  ]
+}

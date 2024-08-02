@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tanccoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_tanccoon",
+      "texture": "cobblemon:textures/pokemon/norse/tanccoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/tanccoon_shiny.png"
+    }
+  ]
+}

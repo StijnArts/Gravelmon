@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gloefa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_gloefa",
+      "texture": "cobblemon:textures/pokemon/norse/gloefa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/gloefa_shiny.png"
+    }
+  ]
+}

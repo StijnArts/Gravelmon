@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ashaha",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_ashaha",
+      "texture": "cobblemon:textures/pokemon/aldao/ashaha.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/ashaha_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sycrog",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_sycrog",
+      "texture": "cobblemon:textures/pokemon/raian/sycrog.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/sycrog_shiny.png"
+    }
+  ]
+}

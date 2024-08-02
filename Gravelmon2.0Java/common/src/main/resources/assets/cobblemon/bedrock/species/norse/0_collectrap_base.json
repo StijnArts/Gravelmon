@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:collectrap",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_collectrap",
+      "texture": "cobblemon:textures/pokemon/norse/collectrap.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/collectrap_shiny.png"
+    }
+  ]
+}

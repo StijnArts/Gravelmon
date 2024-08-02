@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slugem",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_slugem",
+      "texture": "cobblemon:textures/pokemon/form/slugem.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/slugem_shiny.png"
+    }
+  ]
+}

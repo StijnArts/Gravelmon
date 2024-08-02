@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:turtace",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_turtace",
+      "texture": "cobblemon:textures/pokemon/raian/turtace.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/turtace_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gorire",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_gorire",
+      "texture": "cobblemon:textures/pokemon/trizor/gorire.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/gorire_shiny.png"
+    }
+  ]
+}

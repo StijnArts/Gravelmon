@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:beninroz",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_beninroz",
+      "texture": "cobblemon:textures/pokemon/raian/beninroz.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/beninroz_shiny.png"
+    }
+  ]
+}

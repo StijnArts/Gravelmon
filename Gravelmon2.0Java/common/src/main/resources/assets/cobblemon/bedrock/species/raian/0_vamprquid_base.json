@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vamprquid",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_vamprquid",
+      "texture": "cobblemon:textures/pokemon/raian/vamprquid.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/vamprquid_shiny.png"
+    }
+  ]
+}

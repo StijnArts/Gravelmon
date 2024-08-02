@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:digasdon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_digasdon",
+      "texture": "cobblemon:textures/pokemon/aldao/digasdon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/digasdon_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:headfetchd",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_headfetchd",
+      "texture": "cobblemon:textures/pokemon/form/headfetchd.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/headfetchd_shiny.png"
+    }
+  ]
+}

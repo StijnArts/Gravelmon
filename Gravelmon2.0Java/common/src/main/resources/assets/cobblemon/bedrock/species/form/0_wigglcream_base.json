@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:wigglcream",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_wigglcream",
+      "texture": "cobblemon:textures/pokemon/form/wigglcream.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/wigglcream_shiny.png"
+    }
+  ]
+}

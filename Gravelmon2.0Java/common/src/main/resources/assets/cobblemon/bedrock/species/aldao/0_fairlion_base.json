@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fairlion",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_fairlion",
+      "texture": "cobblemon:textures/pokemon/aldao/fairlion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/fairlion_shiny.png"
+    }
+  ]
+}

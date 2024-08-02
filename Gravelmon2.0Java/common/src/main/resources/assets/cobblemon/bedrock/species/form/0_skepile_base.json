@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:skepile",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_skepile",
+      "texture": "cobblemon:textures/pokemon/form/skepile.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/skepile_shiny.png"
+    }
+  ]
+}

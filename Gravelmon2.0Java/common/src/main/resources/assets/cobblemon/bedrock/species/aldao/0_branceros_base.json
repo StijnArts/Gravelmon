@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:branceros",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_branceros",
+      "texture": "cobblemon:textures/pokemon/aldao/branceros.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/branceros_shiny.png"
+    }
+  ]
+}

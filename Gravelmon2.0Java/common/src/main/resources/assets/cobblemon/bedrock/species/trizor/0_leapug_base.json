@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:leapug",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_leapug",
+      "texture": "cobblemon:textures/pokemon/trizor/leapug.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/leapug_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:icyety",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_icyety",
+      "texture": "cobblemon:textures/pokemon/trizor/icyety.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/icyety_shiny.png"
+    }
+  ]
+}

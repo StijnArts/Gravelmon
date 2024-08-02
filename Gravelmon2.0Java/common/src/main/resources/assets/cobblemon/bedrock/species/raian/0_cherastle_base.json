@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cherastle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_cherastle",
+      "texture": "cobblemon:textures/pokemon/raian/cherastle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/cherastle_shiny.png"
+    }
+  ]
+}

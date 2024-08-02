@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ertheno",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_ertheno",
+      "texture": "cobblemon:textures/pokemon/raian/ertheno.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/ertheno_shiny.png"
+    }
+  ]
+}

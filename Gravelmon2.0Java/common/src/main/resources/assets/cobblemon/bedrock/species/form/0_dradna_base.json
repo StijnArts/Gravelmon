@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dradna",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_dradna",
+      "texture": "cobblemon:textures/pokemon/form/dradna.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/dradna_shiny.png"
+    }
+  ]
+}

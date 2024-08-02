@@ -82,13 +82,15 @@ public class AdditionalFormAssetsJSONWriter {
                     var tail = new JsonObject();
                     var emissive = new JsonObject();
                     var emissive2 = new JsonObject();
+                    var color = new JsonObject();
                     var transparentEmissive = new JsonObject();
                     glow.add("name", new JsonPrimitive("glow"));
                     flame.add("name", new JsonPrimitive("flame"));
                     tail.add("name", new JsonPrimitive("tail"));
                     emissive.add("name", new JsonPrimitive("emissive"));
                     emissive2.add("name", new JsonPrimitive("emissive2"));
-                    transparentEmissive.add("name", new JsonPrimitive("emissive2"));
+                    transparentEmissive.add("name", new JsonPrimitive("transparentEmissive"));
+                    color.add("name", new JsonPrimitive("color"));
                     layers.add(glow);
                     layers.add(emissive2);
                     layers.add(emissive);

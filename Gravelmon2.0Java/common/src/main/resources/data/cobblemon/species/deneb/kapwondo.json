@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kapwondo",
-  "nationalPokedexNumber": 4822,
+  "nationalPokedexNumber": 5660,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -34,6 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

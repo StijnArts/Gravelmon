@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:umleaf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_umleaf",
+      "texture": "cobblemon:textures/pokemon/raian/umleaf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/umleaf_shiny.png"
+    }
+  ]
+}

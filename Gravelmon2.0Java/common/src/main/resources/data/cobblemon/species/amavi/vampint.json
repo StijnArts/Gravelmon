@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vampint",
-  "nationalPokedexNumber": 6018,
+  "nationalPokedexNumber": 6856,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -32,6 +32,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }

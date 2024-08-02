@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hungrebe",
-  "nationalPokedexNumber": 3424,
+  "nationalPokedexNumber": 4134,
   "primaryType": "flying",
   "secondaryType": "water",
   "abilities": [
@@ -34,6 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

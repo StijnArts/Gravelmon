@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:howolver",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_howolver",
+      "texture": "cobblemon:textures/pokemon/aldao/howolver.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/howolver_shiny.png"
+    }
+  ]
+}

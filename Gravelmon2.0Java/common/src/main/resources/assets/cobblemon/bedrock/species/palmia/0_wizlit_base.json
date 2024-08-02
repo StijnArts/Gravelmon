@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:wizlit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_wizlit",
+      "texture": "cobblemon:textures/pokemon/palmia/wizlit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/wizlit_shiny.png"
+    }
+  ]
+}

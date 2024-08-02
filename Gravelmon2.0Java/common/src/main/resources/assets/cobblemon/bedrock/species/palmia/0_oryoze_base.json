@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:oryoze",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_oryoze",
+      "texture": "cobblemon:textures/pokemon/palmia/oryoze.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/oryoze_shiny.png"
+    }
+  ]
+}

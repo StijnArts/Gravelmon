@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bulblute",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_bulblute",
+      "texture": "cobblemon:textures/pokemon/palmia/bulblute.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/bulblute_shiny.png"
+    }
+  ]
+}

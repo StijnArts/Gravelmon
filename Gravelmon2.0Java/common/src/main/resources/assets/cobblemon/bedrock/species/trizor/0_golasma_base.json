@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:golasma",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_golasma",
+      "texture": "cobblemon:textures/pokemon/trizor/golasma.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/golasma_shiny.png"
+    }
+  ]
+}

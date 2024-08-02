@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:arnabar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_arnabar",
+      "texture": "cobblemon:textures/pokemon/palmia/arnabar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/arnabar_shiny.png"
+    }
+  ]
+}

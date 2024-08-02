@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:herramal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_herramal",
+      "texture": "cobblemon:textures/pokemon/palmia/herramal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/herramal_shiny.png"
+    }
+  ]
+}

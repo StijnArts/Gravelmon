@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bearboo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_bearboo",
+      "texture": "cobblemon:textures/pokemon/aldao/bearboo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/bearboo_shiny.png"
+    }
+  ]
+}

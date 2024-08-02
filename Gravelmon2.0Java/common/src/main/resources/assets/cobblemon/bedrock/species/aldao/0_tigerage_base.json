@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tigerage",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_tigerage",
+      "texture": "cobblemon:textures/pokemon/aldao/tigerage.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/tigerage_shiny.png"
+    }
+  ]
+}

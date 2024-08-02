@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:katinop",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_katinop",
+      "texture": "cobblemon:textures/pokemon/form/katinop.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/katinop_shiny.png"
+    }
+  ]
+}

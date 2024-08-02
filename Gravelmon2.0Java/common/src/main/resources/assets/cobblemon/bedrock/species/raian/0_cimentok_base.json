@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cimentok",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_cimentok",
+      "texture": "cobblemon:textures/pokemon/raian/cimentok.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/cimentok_shiny.png"
+    }
+  ]
+}

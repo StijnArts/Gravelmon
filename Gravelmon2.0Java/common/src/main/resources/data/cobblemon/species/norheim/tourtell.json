@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tourtell",
-  "nationalPokedexNumber": 3248,
+  "nationalPokedexNumber": 3958,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -35,6 +35,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sheetom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_sheetom",
+      "texture": "cobblemon:textures/pokemon/bago/sheetom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/sheetom_shiny.png"
+    }
+  ]
+}

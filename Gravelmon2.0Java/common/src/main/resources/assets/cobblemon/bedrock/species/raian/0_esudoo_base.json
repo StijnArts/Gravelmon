@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:esudoo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_esudoo",
+      "texture": "cobblemon:textures/pokemon/raian/esudoo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/esudoo_shiny.png"
+    }
+  ]
+}

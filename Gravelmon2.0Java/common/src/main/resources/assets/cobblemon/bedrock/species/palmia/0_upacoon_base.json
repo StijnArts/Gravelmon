@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:upacoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_upacoon",
+      "texture": "cobblemon:textures/pokemon/palmia/upacoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/upacoon_shiny.png"
+    }
+  ]
+}

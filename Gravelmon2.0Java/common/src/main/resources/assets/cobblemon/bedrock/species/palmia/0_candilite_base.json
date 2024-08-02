@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:candilite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_candilite",
+      "texture": "cobblemon:textures/pokemon/palmia/candilite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/candilite_shiny.png"
+    }
+  ]
+}

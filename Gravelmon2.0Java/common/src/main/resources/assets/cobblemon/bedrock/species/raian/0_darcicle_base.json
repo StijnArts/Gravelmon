@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:darcicle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_darcicle",
+      "texture": "cobblemon:textures/pokemon/raian/darcicle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/darcicle_shiny.png"
+    }
+  ]
+}

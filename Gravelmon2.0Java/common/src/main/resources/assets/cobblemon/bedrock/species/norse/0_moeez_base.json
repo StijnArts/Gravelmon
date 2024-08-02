@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:moeez",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_moeez",
+      "texture": "cobblemon:textures/pokemon/norse/moeez.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/moeez_shiny.png"
+    }
+  ]
+}

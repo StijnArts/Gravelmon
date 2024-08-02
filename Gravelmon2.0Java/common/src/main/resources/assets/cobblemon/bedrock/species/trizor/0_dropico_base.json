@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dropico",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_dropico",
+      "texture": "cobblemon:textures/pokemon/trizor/dropico.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/dropico_shiny.png"
+    }
+  ]
+}

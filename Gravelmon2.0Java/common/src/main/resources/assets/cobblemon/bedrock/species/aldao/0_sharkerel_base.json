@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sharkerel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_sharkerel",
+      "texture": "cobblemon:textures/pokemon/aldao/sharkerel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/sharkerel_shiny.png"
+    }
+  ]
+}

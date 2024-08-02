@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:snorzza",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_snorzza",
+      "texture": "cobblemon:textures/pokemon/bago/snorzza.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/snorzza_shiny.png"
+    }
+  ]
+}

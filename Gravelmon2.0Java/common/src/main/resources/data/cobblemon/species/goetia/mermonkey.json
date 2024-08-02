@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mermonkey",
-  "nationalPokedexNumber": 6194,
+  "nationalPokedexNumber": 7032,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -32,6 +32,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

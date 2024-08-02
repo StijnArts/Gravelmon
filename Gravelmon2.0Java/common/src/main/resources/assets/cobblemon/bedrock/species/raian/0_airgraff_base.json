@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:airgraff",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_airgraff",
+      "texture": "cobblemon:textures/pokemon/raian/airgraff.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/airgraff_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:weroy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_weroy",
+      "texture": "cobblemon:textures/pokemon/palmia/weroy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/weroy_shiny.png"
+    }
+  ]
+}

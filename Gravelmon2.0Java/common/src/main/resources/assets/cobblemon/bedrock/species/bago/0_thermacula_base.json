@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:thermacula",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_thermacula",
+      "texture": "cobblemon:textures/pokemon/bago/thermacula.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/thermacula_shiny.png"
+    }
+  ]
+}

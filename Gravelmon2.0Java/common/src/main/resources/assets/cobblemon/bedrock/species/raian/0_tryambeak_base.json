@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tryambeak",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_tryambeak",
+      "texture": "cobblemon:textures/pokemon/raian/tryambeak.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/tryambeak_shiny.png"
+    }
+  ]
+}

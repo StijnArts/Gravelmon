@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:geneleon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_geneleon",
+      "texture": "cobblemon:textures/pokemon/raian/geneleon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/geneleon_shiny.png"
+    }
+  ]
+}

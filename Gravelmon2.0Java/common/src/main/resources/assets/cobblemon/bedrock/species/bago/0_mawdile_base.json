@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mawdile",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_mawdile",
+      "texture": "cobblemon:textures/pokemon/bago/mawdile.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/mawdile_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glowfly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_glowfly",
+      "texture": "cobblemon:textures/pokemon/form/glowfly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/glowfly_shiny.png"
+    }
+  ]
+}

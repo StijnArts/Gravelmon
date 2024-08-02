@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:finstamp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_finstamp",
+      "texture": "cobblemon:textures/pokemon/palmia/finstamp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/finstamp_shiny.png"
+    }
+  ]
+}

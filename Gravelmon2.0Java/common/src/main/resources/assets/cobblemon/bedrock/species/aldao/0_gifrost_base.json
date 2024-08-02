@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gifrost",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_gifrost",
+      "texture": "cobblemon:textures/pokemon/aldao/gifrost.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/gifrost_shiny.png"
+    }
+  ]
+}

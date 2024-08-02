@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scubella",
-  "nationalPokedexNumber": 5829,
+  "nationalPokedexNumber": 6667,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -35,6 +35,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

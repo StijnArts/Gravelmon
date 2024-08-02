@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:collecjunk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_collecjunk",
+      "texture": "cobblemon:textures/pokemon/trizor/collecjunk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/collecjunk_shiny.png"
+    }
+  ]
+}

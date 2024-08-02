@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:snowchic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_snowchic",
+      "texture": "cobblemon:textures/pokemon/aldao/snowchic.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/snowchic_shiny.png"
+    }
+  ]
+}

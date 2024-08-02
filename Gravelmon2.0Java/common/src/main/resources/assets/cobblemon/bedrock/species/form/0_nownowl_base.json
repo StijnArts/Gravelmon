@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nownowl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_nownowl",
+      "texture": "cobblemon:textures/pokemon/form/nownowl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/nownowl_shiny.png"
+    }
+  ]
+}

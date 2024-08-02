@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:blayna",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_blayna",
+      "texture": "cobblemon:textures/pokemon/raian/blayna.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/blayna_shiny.png"
+    }
+  ]
+}

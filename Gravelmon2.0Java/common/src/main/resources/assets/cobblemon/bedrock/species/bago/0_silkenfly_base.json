@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:silkenfly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_silkenfly",
+      "texture": "cobblemon:textures/pokemon/bago/silkenfly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/silkenfly_shiny.png"
+    }
+  ]
+}

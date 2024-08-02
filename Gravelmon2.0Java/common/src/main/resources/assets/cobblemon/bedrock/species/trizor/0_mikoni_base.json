@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mikoni",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_mikoni",
+      "texture": "cobblemon:textures/pokemon/trizor/mikoni.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/mikoni_shiny.png"
+    }
+  ]
+}

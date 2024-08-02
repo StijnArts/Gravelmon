@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:swabear",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_swabear",
+      "texture": "cobblemon:textures/pokemon/form/swabear.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/swabear_shiny.png"
+    }
+  ]
+}

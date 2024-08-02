@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:froosorn",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_froosorn",
+      "texture": "cobblemon:textures/pokemon/norse/froosorn.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/froosorn_shiny.png"
+    }
+  ]
+}

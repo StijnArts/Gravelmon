@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kiwalon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_kiwalon",
+      "texture": "cobblemon:textures/pokemon/raian/kiwalon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/kiwalon_shiny.png"
+    }
+  ]
+}

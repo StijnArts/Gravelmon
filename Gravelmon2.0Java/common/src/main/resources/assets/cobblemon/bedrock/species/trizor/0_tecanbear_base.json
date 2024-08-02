@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tecanbear",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_tecanbear",
+      "texture": "cobblemon:textures/pokemon/trizor/tecanbear.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/tecanbear_shiny.png"
+    }
+  ]
+}

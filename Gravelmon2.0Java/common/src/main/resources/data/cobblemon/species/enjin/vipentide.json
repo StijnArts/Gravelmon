@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vipentide",
-  "nationalPokedexNumber": 5154,
+  "nationalPokedexNumber": 5992,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -34,6 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }

@@ -112,7 +112,7 @@
   "pokedex": [
     "cobblemon.species.leekadon.desc"
   ],
-  "preEvolution": "onioni",
+  "preEvolution": "akoni",
   "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,

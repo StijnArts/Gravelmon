@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:morlocking",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_morlocking",
+      "texture": "cobblemon:textures/pokemon/aldao/morlocking.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/morlocking_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:reroyox",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_reroyox",
+      "texture": "cobblemon:textures/pokemon/palmia/reroyox.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/reroyox_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:littora",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_littora",
+      "texture": "cobblemon:textures/pokemon/form/littora.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/littora_shiny.png"
+    }
+  ]
+}

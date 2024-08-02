@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:exatoxicy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_exatoxicy",
+      "texture": "cobblemon:textures/pokemon/form/exatoxicy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/exatoxicy_shiny.png"
+    }
+  ]
+}

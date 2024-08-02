@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:miteking",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_miteking",
+      "texture": "cobblemon:textures/pokemon/palmia/miteking.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/miteking_shiny.png"
+    }
+  ]
+}

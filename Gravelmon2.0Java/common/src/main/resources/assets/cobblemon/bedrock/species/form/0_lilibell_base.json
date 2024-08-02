@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lilibell",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_lilibell",
+      "texture": "cobblemon:textures/pokemon/form/lilibell.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/lilibell_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cracklin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_cracklin",
+      "texture": "cobblemon:textures/pokemon/aldao/cracklin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/cracklin_shiny.png"
+    }
+  ]
+}

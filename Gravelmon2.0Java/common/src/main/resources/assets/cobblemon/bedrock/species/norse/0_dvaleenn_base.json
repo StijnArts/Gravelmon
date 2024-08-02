@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dvaleenn",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_dvaleenn",
+      "texture": "cobblemon:textures/pokemon/norse/dvaleenn.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/dvaleenn_shiny.png"
+    }
+  ]
+}

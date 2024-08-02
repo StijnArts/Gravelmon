@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "buzzkill",
-  "nationalPokedexNumber": 6224,
+  "nationalPokedexNumber": 7062,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -52,11 +52,14 @@
     "1:quickattack"  ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.buzzkill.desc"
   ],
+  "preEvolution": "zapupa",
   "baseScale": 0.2333333333333333,
   "hitbox": {
     "width": 6.0,

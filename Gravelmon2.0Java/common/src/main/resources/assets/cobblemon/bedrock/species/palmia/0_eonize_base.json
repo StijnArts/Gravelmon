@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:eonize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_eonize",
+      "texture": "cobblemon:textures/pokemon/palmia/eonize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/eonize_shiny.png"
+    }
+  ]
+}

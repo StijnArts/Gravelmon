@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chooni",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_chooni",
+      "texture": "cobblemon:textures/pokemon/trizor/chooni.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/chooni_shiny.png"
+    }
+  ]
+}

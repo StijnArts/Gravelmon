@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:foxairy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_foxairy",
+      "texture": "cobblemon:textures/pokemon/aldao/foxairy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/foxairy_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:raychu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_raychu",
+      "texture": "cobblemon:textures/pokemon/form/raychu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/raychu_shiny.png"
+    }
+  ]
+}

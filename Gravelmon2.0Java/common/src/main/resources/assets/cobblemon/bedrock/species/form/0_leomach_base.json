@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:leomach",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_leomach",
+      "texture": "cobblemon:textures/pokemon/form/leomach.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/leomach_shiny.png"
+    }
+  ]
+}

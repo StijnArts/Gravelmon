@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:flotago",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_flotago",
+      "texture": "cobblemon:textures/pokemon/norse/flotago.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/flotago_shiny.png"
+    }
+  ]
+}

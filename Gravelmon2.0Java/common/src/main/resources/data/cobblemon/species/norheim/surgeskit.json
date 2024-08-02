@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "surgeskit",
-  "nationalPokedexNumber": 3239,
+  "nationalPokedexNumber": 3949,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -34,6 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }

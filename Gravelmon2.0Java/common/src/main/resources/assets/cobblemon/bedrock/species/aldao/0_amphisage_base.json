@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:amphisage",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_amphisage",
+      "texture": "cobblemon:textures/pokemon/aldao/amphisage.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/amphisage_shiny.png"
+    }
+  ]
+}

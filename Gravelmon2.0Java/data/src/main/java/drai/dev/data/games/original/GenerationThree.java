@@ -1,12 +1,14 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.form.regional.*;
 import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.mastenia.*;
 import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.mystis.regional.*;
 import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.olysos.regional.*;
+import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
@@ -34,6 +36,10 @@ import drai.dev.data.pokemon.xenoverse.xspecies.*;
 
 import java.util.*;
 
+import static drai.dev.data.attributes.StatArchetype.PHYSICAL_ATTACKER;
+import static drai.dev.data.attributes.StatArchetype.SPECIAL_ATTACKER;
+import static drai.dev.data.attributes.StatType.*;
+
 public class GenerationThree extends Game {
     public GenerationThree() {
         super("generation3");
@@ -41,6 +47,22 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new RaianianWhismur("", Aspect.RAIANIAN).setUsesBigModel()); //TODO
+        pokemon.add(new RaianianLoudred("", Aspect.RAIANIAN).setUsesBigModel());
+        pokemon.add(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490, PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());
+        pokemon.add(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465, PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))).setUsesBigModel());
+        pokemon.add(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+
+        //TODO
+        pokemon.add(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
+
+        //TODO
+        pokemon.add(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).setUsesBigModel());
+
+        pokemon.add(new FormanTreecko("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanTorchic("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanMudkip("", Aspect.FORMAN).setUsesBigModel());
+
 //        pokemon.add(new MystisianAbsol("", Aspect.MYSTISIAN)); TODO
 
 //        pokemon.add(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO

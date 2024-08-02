@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:picact",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_picact",
+      "texture": "cobblemon:textures/pokemon/bago/picact.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/picact_shiny.png"
+    }
+  ]
+}

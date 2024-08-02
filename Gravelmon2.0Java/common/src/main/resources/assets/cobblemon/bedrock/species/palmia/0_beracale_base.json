@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:beracale",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_beracale",
+      "texture": "cobblemon:textures/pokemon/palmia/beracale.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/beracale_shiny.png"
+    }
+  ]
+}

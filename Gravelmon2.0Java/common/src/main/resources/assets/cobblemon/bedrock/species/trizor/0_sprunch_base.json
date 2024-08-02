@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sprunch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_sprunch",
+      "texture": "cobblemon:textures/pokemon/trizor/sprunch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/sprunch_shiny.png"
+    }
+  ]
+}

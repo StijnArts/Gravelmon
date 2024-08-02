@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cellurize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_cellurize",
+      "texture": "cobblemon:textures/pokemon/palmia/cellurize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/cellurize_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dodenius",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_dodenius",
+      "texture": "cobblemon:textures/pokemon/raian/dodenius.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/dodenius_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:groomoot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_groomoot",
+      "texture": "cobblemon:textures/pokemon/form/groomoot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/groomoot_shiny.png"
+    }
+  ]
+}

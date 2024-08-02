@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:camottle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_camottle",
+      "texture": "cobblemon:textures/pokemon/trizor/camottle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/camottle_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shargill",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_shargill",
+      "texture": "cobblemon:textures/pokemon/raian/shargill.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/shargill_shiny.png"
+    }
+  ]
+}

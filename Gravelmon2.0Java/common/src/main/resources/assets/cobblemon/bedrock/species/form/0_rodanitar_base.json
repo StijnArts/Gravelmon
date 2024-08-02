@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rodanitar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_rodanitar",
+      "texture": "cobblemon:textures/pokemon/form/rodanitar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/rodanitar_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sealio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_sealio",
+      "texture": "cobblemon:textures/pokemon/form/sealio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/sealio_shiny.png"
+    }
+  ]
+}

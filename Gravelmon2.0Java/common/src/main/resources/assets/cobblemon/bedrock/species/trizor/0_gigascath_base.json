@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gigascath",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_gigascath",
+      "texture": "cobblemon:textures/pokemon/trizor/gigascath.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/gigascath_shiny.png"
+    }
+  ]
+}

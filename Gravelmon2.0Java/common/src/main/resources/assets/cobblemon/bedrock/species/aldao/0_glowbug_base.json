@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glowbug",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_glowbug",
+      "texture": "cobblemon:textures/pokemon/aldao/glowbug.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/glowbug_shiny.png"
+    }
+  ]
+}

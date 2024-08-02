@@ -27,14 +27,14 @@ public class SpeciesAssetsJSONWriter {
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
-            } else {
+            } /*else {
                 try {
                     Files.createDirectories(new File(dir).toPath());
                     writeReplacedPokemon(pokemon, game, dir, resourcesDir, gson);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
-            }
+            }*/
         });
     }
 

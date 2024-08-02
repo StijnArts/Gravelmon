@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:groublin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_groublin",
+      "texture": "cobblemon:textures/pokemon/aldao/groublin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/groublin_shiny.png"
+    }
+  ]
+}

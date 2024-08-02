@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mintrap",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_mintrap",
+      "texture": "cobblemon:textures/pokemon/norse/mintrap.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/mintrap_shiny.png"
+    }
+  ]
+}

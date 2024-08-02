@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:securider",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_securider",
+      "texture": "cobblemon:textures/pokemon/raian/securider.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/securider_shiny.png"
+    }
+  ]
+}

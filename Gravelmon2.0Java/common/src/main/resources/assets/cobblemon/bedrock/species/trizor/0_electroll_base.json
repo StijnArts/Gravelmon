@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:electroll",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_electroll",
+      "texture": "cobblemon:textures/pokemon/trizor/electroll.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/electroll_shiny.png"
+    }
+  ]
+}

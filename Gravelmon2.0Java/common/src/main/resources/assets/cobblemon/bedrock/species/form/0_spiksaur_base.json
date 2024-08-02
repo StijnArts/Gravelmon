@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:spiksaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_spiksaur",
+      "texture": "cobblemon:textures/pokemon/form/spiksaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/spiksaur_shiny.png"
+    }
+  ]
+}

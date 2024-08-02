@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dustear",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_dustear",
+      "texture": "cobblemon:textures/pokemon/aldao/dustear.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/dustear_shiny.png"
+    }
+  ]
+}

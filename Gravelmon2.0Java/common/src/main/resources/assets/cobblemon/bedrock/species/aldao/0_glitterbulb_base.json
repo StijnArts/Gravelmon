@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glitterbulb",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_glitterbulb",
+      "texture": "cobblemon:textures/pokemon/aldao/glitterbulb.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/glitterbulb_shiny.png"
+    }
+  ]
+}

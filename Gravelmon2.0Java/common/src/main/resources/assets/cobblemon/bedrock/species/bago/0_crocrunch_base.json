@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crocrunch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_crocrunch",
+      "texture": "cobblemon:textures/pokemon/bago/crocrunch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/crocrunch_shiny.png"
+    }
+  ]
+}

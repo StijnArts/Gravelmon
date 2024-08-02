@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:roybear",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_roybear",
+      "texture": "cobblemon:textures/pokemon/trizor/roybear.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/roybear_shiny.png"
+    }
+  ]
+}

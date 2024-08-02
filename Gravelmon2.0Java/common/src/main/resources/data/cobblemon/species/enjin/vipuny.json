@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vipuny",
-  "nationalPokedexNumber": 5153,
+  "nationalPokedexNumber": 5991,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -35,6 +35,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }

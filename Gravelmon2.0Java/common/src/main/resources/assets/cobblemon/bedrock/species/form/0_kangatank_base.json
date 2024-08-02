@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kangatank",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_kangatank",
+      "texture": "cobblemon:textures/pokemon/form/kangatank.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/kangatank_shiny.png"
+    }
+  ]
+}

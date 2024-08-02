@@ -7,6 +7,7 @@ import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.pastelisland.regional.*;
+import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -40,6 +41,9 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new PalmianPawniard("", Aspect.PALMIAN).setUsesBigModel()); //TODO
+        pokemon.add(new PalmianBisharp("", Aspect.PALMIAN).setUsesBigModel());
+
 //        pokemon.add(new PastelianGothita("", Aspect.PASTELIAN)); TODO
 //        pokemon.add(new PastelianGothorita("", Aspect.PASTELIAN));
 //        pokemon.add(new PastelianGothitelle("", Aspect.PASTELIAN));

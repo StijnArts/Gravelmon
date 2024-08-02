@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crystsap",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_crystsap",
+      "texture": "cobblemon:textures/pokemon/raian/crystsap.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/crystsap_shiny.png"
+    }
+  ]
+}

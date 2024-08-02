@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "puriphin",
-  "nationalPokedexNumber": 5545,
+  "nationalPokedexNumber": 6383,
   "primaryType": "water",
   "abilities": [
     "clearbody",
@@ -33,6 +33,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

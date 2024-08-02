@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bloomnate",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_bloomnate",
+      "texture": "cobblemon:textures/pokemon/raian/bloomnate.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/bloomnate_shiny.png"
+    }
+  ]
+}

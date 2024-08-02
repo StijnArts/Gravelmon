@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:purgrize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_purgrize",
+      "texture": "cobblemon:textures/pokemon/palmia/purgrize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/purgrize_shiny.png"
+    }
+  ]
+}

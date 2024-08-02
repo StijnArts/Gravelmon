@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sneezwiz",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_sneezwiz",
+      "texture": "cobblemon:textures/pokemon/bago/sneezwiz.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/sneezwiz_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:atsoni",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_atsoni",
+      "texture": "cobblemon:textures/pokemon/trizor/atsoni.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/atsoni_shiny.png"
+    }
+  ]
+}

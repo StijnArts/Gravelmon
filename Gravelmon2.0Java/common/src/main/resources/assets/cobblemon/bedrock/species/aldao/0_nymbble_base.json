@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nymbble",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_nymbble",
+      "texture": "cobblemon:textures/pokemon/aldao/nymbble.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/nymbble_shiny.png"
+    }
+  ]
+}

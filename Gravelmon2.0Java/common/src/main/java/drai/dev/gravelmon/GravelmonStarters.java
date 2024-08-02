@@ -75,14 +75,27 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Johto",
-                createCategory("Epoch - Johto",
+                createCategory("Epoch - Johto 1",
                         List.of(
                                 "Chikorita epoch=true level=10",
                                 "Cyndaquil epoch=true level=10",
-                                "Totodile epoch=true level=10",
+                                "Totodile epoch=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Johto",
+                createCategory("Epoch - Johto 2",
+                        List.of(
                                 "Chikorita epochtwo=true level=10",
                                 "Cyndaquil epochtwo=true level=10",
                                 "Totodile epochtwo=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Johto",
+                createCategory("URC - Johto",
+                        List.of(
+                                "Chikotize level=10",
+                                "Cyndaqize level=10",
+                                "Totodize level=10"
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Hoenn",
@@ -286,14 +299,24 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Junnin",
+                createCategory("Junnin 1",
                         List.of(
                                 "Eucuwala level=10",
                                 "Kindlemur level=10",
-                                "Liqueel level=10",
+                                "Liqueel level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Junnin 2",
+                        List.of(
                                 "Reptling level=10",
                                 "Woolvry level=10",
-                                "Dimetrus level=10",
+                                "Dimetrus level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Junnin 3",
+                        List.of(
                                 "Yetini level=10",
                                 "Batorch level=10",
                                 "Lochsea level=10"
@@ -316,14 +339,24 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Norheim",
+                createCategory("Norheim 1",
                         List.of(
                                 "Gnatle level=10",
                                 "Bunbear level=10",
-                                "Pouffy level=10",
+                                "Pouffy level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Norheim 2",
+                        List.of(
                                 "Lilyquack level=10",
                                 "Ignewt level=10",
-                                "Buppie level=10",
+                                "Buppie level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Norheim 3",
+                        List.of(
                                 "Minkit level=10",
                                 "Calfyr level=10",
                                 "Bayby level=10"
@@ -426,17 +459,32 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Atlas",
+                createCategory("Atlas 1",
                         List.of(
                                 "Fawnlora level=10",
                                 "Scorchet level=10",
-                                "Finjoy level=10",
+                                "Finjoy level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Atlas 2",
+                        List.of(
                                 "Baneep level=10",
                                 "Vulkidna level=10",
-                                "Pumpel level=10",
+                                "Pumpel level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Atlas 3",
+                        List.of(
                                 "Instick level=10",
                                 "Ruflame level=10",
-                                "Caimar level=10",
+                                "Caimar level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Atlas 4",
+                        List.of(
                                 "Nawdile level=10",
                                 "Barkindle level=10",
                                 "Watuber level=10"
@@ -451,11 +499,16 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Goetia",
+                createCategory("Goetia 1",
                         List.of(
                                 "Nymfaun level=10",
                                 "Pinonkey level=10",
-                                "Seamian level=10",
+                                "Seamian level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Goetia 2",
+                        List.of(
                                 "Slowth level=10",
                                 "Taratinder level=10",
                                 "Cowet level=10"
@@ -467,6 +520,94 @@ public class GravelmonStarters {
                                 "Shrubbie level=10",
                                 "Radarent level=10",
                                 "Chompper level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Trizor 1",
+                        List.of(
+                                "Babear level=10",
+                                "Gorire level=10",
+                                "Spactrish level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Trizor 2",
+                        List.of(
+                                "Lizaflage level=10",
+                                "Kapalze level=10",
+                                "Dropico level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Palmia",
+                        List.of(
+                                "Wizlit level=10",
+                                "Oryoze level=10",
+                                "Squcale level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Norse 1",
+                        List.of(
+                                "Loctus level=10",
+                                "Lavades level=10",
+                                "Rayside level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Norse 2",
+                        List.of(
+                                "Lizanir level=10",
+                                "Moroll level=10",
+                                "Gloefa level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Norse 3",
+                        List.of(
+                                "Bearmal level=10",
+                                "Draukid level=10",
+                                "Roboi level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Norse 4",
+                        List.of(
+                                "Scalasaur level=10",
+                                "Clawmander level=10",
+                                "Flortle level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Raian 1",
+                        List.of(
+                                "Migraff level=10",
+                                "Hymbr level=10",
+                                "Aquama level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Raian 2",
+                        List.of(
+                                "Snaprick level=10",
+                                "Sycrog level=10",
+                                "Dagekko level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Raian 3",
+                        List.of(
+                                "Solice level=10",
+                                "Watchost level=10",
+                                "Clasoil level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Aldao",
+                        List.of(
+                                "Pupfleur level=10",
+                                "Cubby level=10",
+                                "Nymbble level=10"
                         )
                 ));
     }

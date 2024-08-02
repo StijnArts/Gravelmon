@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:waraoni",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_waraoni",
+      "texture": "cobblemon:textures/pokemon/trizor/waraoni.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/waraoni_shiny.png"
+    }
+  ]
+}

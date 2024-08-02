@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:starledi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_starledi",
+      "texture": "cobblemon:textures/pokemon/form/starledi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/starledi_shiny.png"
+    }
+  ]
+}

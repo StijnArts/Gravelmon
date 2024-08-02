@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "soakcuff",
-  "nationalPokedexNumber": 4534,
+  "nationalPokedexNumber": 5372,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -70,12 +70,15 @@
     "egg:brine",
     "egg:liquidation"  ],
   "labels": [
-    "myth",
-    "not_modeled"
+    "mongratis",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.soakcuff.desc"
   ],
+  "preEvolution": "dampurr",
   "evolutions": [
     {
       "id": "soakcuff_delugar",

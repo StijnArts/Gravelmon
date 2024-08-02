@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:siscorp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_siscorp",
+      "texture": "cobblemon:textures/pokemon/form/siscorp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/siscorp_shiny.png"
+    }
+  ]
+}

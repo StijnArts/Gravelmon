@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:maditize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_maditize",
+      "texture": "cobblemon:textures/pokemon/palmia/maditize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/maditize_shiny.png"
+    }
+  ]
+}

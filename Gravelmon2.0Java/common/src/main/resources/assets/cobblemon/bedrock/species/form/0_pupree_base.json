@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pupree",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_pupree",
+      "texture": "cobblemon:textures/pokemon/form/pupree.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/pupree_shiny.png"
+    }
+  ]
+}

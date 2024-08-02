@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hazaire",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_hazaire",
+      "texture": "cobblemon:textures/pokemon/raian/hazaire.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/hazaire_shiny.png"
+    }
+  ]
+}

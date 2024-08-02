@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:orbavil",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_orbavil",
+      "texture": "cobblemon:textures/pokemon/trizor/orbavil.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/orbavil_shiny.png"
+    }
+  ]
+}

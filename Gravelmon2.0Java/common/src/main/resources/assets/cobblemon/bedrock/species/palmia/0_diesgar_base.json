@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:diesgar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_diesgar",
+      "texture": "cobblemon:textures/pokemon/palmia/diesgar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/diesgar_shiny.png"
+    }
+  ]
+}

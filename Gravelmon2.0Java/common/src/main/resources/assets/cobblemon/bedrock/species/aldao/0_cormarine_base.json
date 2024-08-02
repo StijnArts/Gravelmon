@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cormarine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_cormarine",
+      "texture": "cobblemon:textures/pokemon/aldao/cormarine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/cormarine_shiny.png"
+    }
+  ]
+}

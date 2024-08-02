@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:searoyal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_searoyal",
+      "texture": "cobblemon:textures/pokemon/trizor/searoyal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/searoyal_shiny.png"
+    }
+  ]
+}

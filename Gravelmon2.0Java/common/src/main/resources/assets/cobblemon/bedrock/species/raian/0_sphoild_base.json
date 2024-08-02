@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sphoild",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_sphoild",
+      "texture": "cobblemon:textures/pokemon/raian/sphoild.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/sphoild_shiny.png"
+    }
+  ]
+}

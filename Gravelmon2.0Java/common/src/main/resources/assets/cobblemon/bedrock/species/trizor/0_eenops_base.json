@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:eenops",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_eenops",
+      "texture": "cobblemon:textures/pokemon/trizor/eenops.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/eenops_shiny.png"
+    }
+  ]
+}

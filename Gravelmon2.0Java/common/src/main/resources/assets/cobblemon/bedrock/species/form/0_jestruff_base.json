@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:jestruff",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_jestruff",
+      "texture": "cobblemon:textures/pokemon/form/jestruff.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/jestruff_shiny.png"
+    }
+  ]
+}

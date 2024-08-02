@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:frozymp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_frozymp",
+      "texture": "cobblemon:textures/pokemon/aldao/frozymp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/frozymp_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:terrotryma",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_terrotryma",
+      "texture": "cobblemon:textures/pokemon/raian/terrotryma.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/terrotryma_shiny.png"
+    }
+  ]
+}

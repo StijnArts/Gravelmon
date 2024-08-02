@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lizaflage",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_lizaflage",
+      "texture": "cobblemon:textures/pokemon/trizor/lizaflage.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/lizaflage_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:polurize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_polurize",
+      "texture": "cobblemon:textures/pokemon/palmia/polurize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/polurize_shiny.png"
+    }
+  ]
+}

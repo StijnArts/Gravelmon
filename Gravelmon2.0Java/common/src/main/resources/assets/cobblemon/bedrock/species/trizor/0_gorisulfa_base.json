@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gorisulfa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_gorisulfa",
+      "texture": "cobblemon:textures/pokemon/trizor/gorisulfa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/gorisulfa_shiny.png"
+    }
+  ]
+}

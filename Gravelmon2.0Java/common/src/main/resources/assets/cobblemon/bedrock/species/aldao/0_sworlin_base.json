@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sworlin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_sworlin",
+      "texture": "cobblemon:textures/pokemon/aldao/sworlin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/sworlin_shiny.png"
+    }
+  ]
+}

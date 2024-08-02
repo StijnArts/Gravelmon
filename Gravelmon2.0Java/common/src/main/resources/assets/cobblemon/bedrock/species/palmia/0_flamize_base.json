@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:flamize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_flamize",
+      "texture": "cobblemon:textures/pokemon/palmia/flamize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/flamize_shiny.png"
+    }
+  ]
+}

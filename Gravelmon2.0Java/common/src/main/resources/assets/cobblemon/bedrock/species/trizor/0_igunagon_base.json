@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:igunagon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_igunagon",
+      "texture": "cobblemon:textures/pokemon/trizor/igunagon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/igunagon_shiny.png"
+    }
+  ]
+}

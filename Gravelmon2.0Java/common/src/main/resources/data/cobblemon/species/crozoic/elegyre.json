@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elegyre",
-  "nationalPokedexNumber": 3433,
+  "nationalPokedexNumber": 4143,
   "primaryType": "flying",
   "abilities": [
     "windrider",
@@ -34,6 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }

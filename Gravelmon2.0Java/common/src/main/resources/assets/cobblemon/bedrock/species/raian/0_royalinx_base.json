@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:royalinx",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_royalinx",
+      "texture": "cobblemon:textures/pokemon/raian/royalinx.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/royalinx_shiny.png"
+    }
+  ]
+}

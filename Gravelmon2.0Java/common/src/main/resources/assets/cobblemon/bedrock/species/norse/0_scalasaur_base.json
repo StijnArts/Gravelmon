@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:scalasaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_scalasaur",
+      "texture": "cobblemon:textures/pokemon/norse/scalasaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/scalasaur_shiny.png"
+    }
+  ]
+}

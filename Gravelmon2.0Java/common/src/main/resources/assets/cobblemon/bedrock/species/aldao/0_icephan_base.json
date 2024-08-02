@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:icephan",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_icephan",
+      "texture": "cobblemon:textures/pokemon/aldao/icephan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/icephan_shiny.png"
+    }
+  ]
+}

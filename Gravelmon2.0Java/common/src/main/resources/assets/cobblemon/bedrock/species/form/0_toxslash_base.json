@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:toxslash",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_toxslash",
+      "texture": "cobblemon:textures/pokemon/form/toxslash.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/toxslash_shiny.png"
+    }
+  ]
+}

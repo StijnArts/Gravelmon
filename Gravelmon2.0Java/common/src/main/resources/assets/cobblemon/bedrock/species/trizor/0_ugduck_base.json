@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ugduck",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_ugduck",
+      "texture": "cobblemon:textures/pokemon/trizor/ugduck.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/ugduck_shiny.png"
+    }
+  ]
+}

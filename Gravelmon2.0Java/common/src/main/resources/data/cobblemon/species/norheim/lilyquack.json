@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lilyquack",
-  "nationalPokedexNumber": 3174,
+  "nationalPokedexNumber": 3884,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -34,6 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }

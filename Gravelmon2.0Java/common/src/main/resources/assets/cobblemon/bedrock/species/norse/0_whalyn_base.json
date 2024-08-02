@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:whalyn",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_whalyn",
+      "texture": "cobblemon:textures/pokemon/norse/whalyn.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/whalyn_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:panpot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_panpot",
+      "texture": "cobblemon:textures/pokemon/aldao/panpot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/panpot_shiny.png"
+    }
+  ]
+}

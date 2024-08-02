@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:botachi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_botachi",
+      "texture": "cobblemon:textures/pokemon/aldao/botachi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/botachi_shiny.png"
+    }
+  ]
+}

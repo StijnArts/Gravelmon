@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:burnpixie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_burnpixie",
+      "texture": "cobblemon:textures/pokemon/trizor/burnpixie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/burnpixie_shiny.png"
+    }
+  ]
+}

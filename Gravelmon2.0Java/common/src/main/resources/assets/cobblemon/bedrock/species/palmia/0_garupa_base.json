@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:garupa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_garupa",
+      "texture": "cobblemon:textures/pokemon/palmia/garupa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/garupa_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lileaf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_lileaf",
+      "texture": "cobblemon:textures/pokemon/raian/lileaf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/lileaf_shiny.png"
+    }
+  ]
+}

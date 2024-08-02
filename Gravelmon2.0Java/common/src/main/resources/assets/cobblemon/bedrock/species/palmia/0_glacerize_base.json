@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glacerize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_glacerize",
+      "texture": "cobblemon:textures/pokemon/palmia/glacerize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/glacerize_shiny.png"
+    }
+  ]
+}

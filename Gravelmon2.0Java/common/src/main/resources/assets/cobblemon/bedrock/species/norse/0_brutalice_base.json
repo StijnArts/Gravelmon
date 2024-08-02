@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:brutalice",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_brutalice",
+      "texture": "cobblemon:textures/pokemon/norse/brutalice.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/brutalice_shiny.png"
+    }
+  ]
+}

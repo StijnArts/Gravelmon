@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glameleon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_glameleon",
+      "texture": "cobblemon:textures/pokemon/form/glameleon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/glameleon_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fetrio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_fetrio",
+      "texture": "cobblemon:textures/pokemon/trizor/fetrio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/fetrio_shiny.png"
+    }
+  ]
+}

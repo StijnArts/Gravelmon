@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:parotish",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_parotish",
+      "texture": "cobblemon:textures/pokemon/raian/parotish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/parotish_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:polimud",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_polimud",
+      "texture": "cobblemon:textures/pokemon/palmia/polimud.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/polimud_shiny.png"
+    }
+  ]
+}

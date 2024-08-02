@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hollose",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_hollose",
+      "texture": "cobblemon:textures/pokemon/palmia/hollose.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/hollose_shiny.png"
+    }
+  ]
+}

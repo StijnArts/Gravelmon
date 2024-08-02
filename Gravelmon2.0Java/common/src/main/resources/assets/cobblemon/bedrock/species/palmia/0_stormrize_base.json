@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:stormrize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_stormrize",
+      "texture": "cobblemon:textures/pokemon/palmia/stormrize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/stormrize_shiny.png"
+    }
+  ]
+}

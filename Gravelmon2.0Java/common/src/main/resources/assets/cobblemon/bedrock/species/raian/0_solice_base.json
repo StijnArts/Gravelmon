@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:solice",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_solice",
+      "texture": "cobblemon:textures/pokemon/raian/solice.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/solice_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gakioni",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_gakioni",
+      "texture": "cobblemon:textures/pokemon/trizor/gakioni.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/gakioni_shiny.png"
+    }
+  ]
+}

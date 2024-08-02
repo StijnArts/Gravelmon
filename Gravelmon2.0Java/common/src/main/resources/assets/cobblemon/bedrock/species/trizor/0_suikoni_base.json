@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:suikoni",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_suikoni",
+      "texture": "cobblemon:textures/pokemon/trizor/suikoni.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/suikoni_shiny.png"
+    }
+  ]
+}

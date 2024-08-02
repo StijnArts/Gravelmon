@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chiwaw",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_chiwaw",
+      "texture": "cobblemon:textures/pokemon/aldao/chiwaw.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/chiwaw_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:jaklaze",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_jaklaze",
+      "texture": "cobblemon:textures/pokemon/raian/jaklaze.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/jaklaze_shiny.png"
+    }
+  ]
+}

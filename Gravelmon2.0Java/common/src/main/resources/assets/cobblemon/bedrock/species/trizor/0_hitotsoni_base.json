@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hitotsoni",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_hitotsoni",
+      "texture": "cobblemon:textures/pokemon/trizor/hitotsoni.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/hitotsoni_shiny.png"
+    }
+  ]
+}

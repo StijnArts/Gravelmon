@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cattail",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_cattail",
+      "texture": "cobblemon:textures/pokemon/bago/cattail.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/cattail_shiny.png"
+    }
+  ]
+}

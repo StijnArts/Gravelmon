@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rosper",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_rosper",
+      "texture": "cobblemon:textures/pokemon/trizor/rosper.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/rosper_shiny.png"
+    }
+  ]
+}

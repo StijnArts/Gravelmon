@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:basitrus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_basitrus",
+      "texture": "cobblemon:textures/pokemon/palmia/basitrus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/basitrus_shiny.png"
+    }
+  ]
+}

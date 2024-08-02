@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chainown",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_chainown",
+      "texture": "cobblemon:textures/pokemon/form/chainown.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/chainown_shiny.png"
+    }
+  ]
+}

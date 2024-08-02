@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "foaloch",
-  "nationalPokedexNumber": 3877,
+  "nationalPokedexNumber": 4715,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -35,6 +35,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

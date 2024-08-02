@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:greedyme",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_greedyme",
+      "texture": "cobblemon:textures/pokemon/aldao/greedyme.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/greedyme_shiny.png"
+    }
+  ]
+}

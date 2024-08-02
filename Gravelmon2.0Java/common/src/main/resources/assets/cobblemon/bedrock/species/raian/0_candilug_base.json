@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:candilug",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_candilug",
+      "texture": "cobblemon:textures/pokemon/raian/candilug.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/candilug_shiny.png"
+    }
+  ]
+}

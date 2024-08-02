@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:jembirit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_jembirit",
+      "texture": "cobblemon:textures/pokemon/raian/jembirit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/jembirit_shiny.png"
+    }
+  ]
+}

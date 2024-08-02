@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:desol",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_desol",
+      "texture": "cobblemon:textures/pokemon/palmia/desol.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/desol_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hymbr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_hymbr",
+      "texture": "cobblemon:textures/pokemon/raian/hymbr.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/hymbr_shiny.png"
+    }
+  ]
+}

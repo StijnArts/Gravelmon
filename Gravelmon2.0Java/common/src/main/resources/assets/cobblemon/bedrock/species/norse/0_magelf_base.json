@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:magelf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_magelf",
+      "texture": "cobblemon:textures/pokemon/norse/magelf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/magelf_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:potling",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fra_potling",
+      "texture": "cobblemon:textures/pokemon/fra/potling.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fra/potling_shiny.png"
+    }
+  ]
+}

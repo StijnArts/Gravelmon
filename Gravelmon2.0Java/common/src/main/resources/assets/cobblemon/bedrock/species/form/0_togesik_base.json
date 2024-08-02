@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:togesik",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_togesik",
+      "texture": "cobblemon:textures/pokemon/form/togesik.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/togesik_shiny.png"
+    }
+  ]
+}

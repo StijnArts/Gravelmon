@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "overroard",
-  "nationalPokedexNumber": 5488,
+  "nationalPokedexNumber": 6326,
   "primaryType": "rock",
   "secondaryType": "water",
   "abilities": [
@@ -34,6 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shadowl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_shadowl",
+      "texture": "cobblemon:textures/pokemon/aldao/shadowl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/shadowl_shiny.png"
+    }
+  ]
+}

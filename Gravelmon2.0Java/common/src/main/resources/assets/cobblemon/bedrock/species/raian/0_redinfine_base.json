@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:redinfine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_redinfine",
+      "texture": "cobblemon:textures/pokemon/raian/redinfine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/redinfine_shiny.png"
+    }
+  ]
+}

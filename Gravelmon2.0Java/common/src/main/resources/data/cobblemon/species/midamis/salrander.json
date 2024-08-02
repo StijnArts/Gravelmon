@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "salrander",
-  "nationalPokedexNumber": 4630,
+  "nationalPokedexNumber": 5468,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -35,6 +35,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

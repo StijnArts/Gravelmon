@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:beroxic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_beroxic",
+      "texture": "cobblemon:textures/pokemon/trizor/beroxic.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/beroxic_shiny.png"
+    }
+  ]
+}

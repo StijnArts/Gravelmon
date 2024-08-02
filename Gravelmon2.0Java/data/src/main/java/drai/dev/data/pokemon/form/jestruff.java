@@ -72,7 +72,7 @@ public class Jestruff extends drai.dev.data.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
-                List.of("null"),
+                List.of(""),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.FORM),

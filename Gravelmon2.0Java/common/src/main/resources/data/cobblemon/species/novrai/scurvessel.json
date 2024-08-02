@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scurvessel",
-  "nationalPokedexNumber": 5549,
+  "nationalPokedexNumber": 6387,
   "primaryType": "dark",
   "secondaryType": "water",
   "abilities": [
@@ -35,6 +35,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rewt",
-  "nationalPokedexNumber": 4629,
+  "nationalPokedexNumber": 5467,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -32,6 +32,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

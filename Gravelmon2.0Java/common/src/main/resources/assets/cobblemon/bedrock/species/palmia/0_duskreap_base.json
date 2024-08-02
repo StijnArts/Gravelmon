@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:duskreap",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_duskreap",
+      "texture": "cobblemon:textures/pokemon/palmia/duskreap.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/duskreap_shiny.png"
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
   "implemented": true,
   "name": "grubolt",
-  "nationalPokedexNumber": 6222,
+  "nationalPokedexNumber": 7060,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 33,
+    "attack": 60,
+    "defence": 35,
+    "special_attack": 17,
+    "special_defence": 35,
+    "speed": 51
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 226,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -59,7 +59,7 @@
     {
       "id": "grubolt_zapupa",
       "variant": "level_up",
-      "result": "zapupa",
+      "result": "Zapupa",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:morevil",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_morevil",
+      "texture": "cobblemon:textures/pokemon/trizor/morevil.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/morevil_shiny.png"
+    }
+  ]
+}

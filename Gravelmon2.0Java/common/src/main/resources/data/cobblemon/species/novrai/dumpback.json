@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dumpback",
-  "nationalPokedexNumber": 5546,
+  "nationalPokedexNumber": 6384,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -34,6 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:maestryme",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_maestryme",
+      "texture": "cobblemon:textures/pokemon/raian/maestryme.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/maestryme_shiny.png"
+    }
+  ]
+}

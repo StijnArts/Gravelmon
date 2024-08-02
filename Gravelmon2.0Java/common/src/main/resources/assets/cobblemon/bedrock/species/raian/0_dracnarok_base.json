@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dracnarok",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_dracnarok",
+      "texture": "cobblemon:textures/pokemon/raian/dracnarok.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/dracnarok_shiny.png"
+    }
+  ]
+}

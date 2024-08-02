@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "crabuddy",
-  "nationalPokedexNumber": 6546,
+  "nationalPokedexNumber": 7384,
   "primaryType": "water",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 60,
+    "attack": 17,
+    "defence": 59,
+    "special_attack": 51,
+    "special_defence": 35,
+    "speed": 9
   },
   "behaviour": {
     "resting": {
@@ -35,7 +35,7 @@
         }
     }
   },
-  "catchRate": 255,
+  "catchRate": 226,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,

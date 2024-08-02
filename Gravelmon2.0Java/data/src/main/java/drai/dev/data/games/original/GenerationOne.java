@@ -2,10 +2,12 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.africanus.regional.*;
+import drai.dev.data.pokemon.form.regional.*;
 import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.pastelisland.regional.*;
+import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -37,6 +39,9 @@ import drai.dev.data.pokemon.xenoverse.xspecies.*;
 
 import java.util.*;
 
+import static drai.dev.data.attributes.StatArchetype.*;
+import static drai.dev.data.attributes.StatType.*;
+
 public class GenerationOne extends Game {
     public GenerationOne() {
         super("generation1");
@@ -44,6 +49,30 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new PalmianRattata("", Aspect.PALMIAN).setUsesBigModel()); //TODO
+        pokemon.add(new PalmianRaticate("", Aspect.PALMIAN).setUsesBigModel());
+        pokemon.add(new PalmianGastly("", Aspect.PALMIAN).setUsesBigModel());
+        pokemon.add(new PalmianExeggcute("", Aspect.PALMIAN).setUsesBigModel());
+        pokemon.add(new PalmianExeggutor("", Aspect.PALMIAN, new Stats(530, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
+        pokemon.add(new PalmianGrowlithe("", Aspect.PALMIAN).setUsesBigModel());
+        pokemon.add(new PalmianArcanine("", Aspect.PALMIAN, new Stats(555, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
+        pokemon.add(new PalmianMagikarp("", Aspect.PALMIAN).setUsesBigModel());
+        pokemon.add(new PalmianPoliwag("", Aspect.PALMIAN).setUsesBigModel());
+        pokemon.add(new PalmianPoliwhirl("", Aspect.PALMIAN).setUsesBigModel());
+
+        //TODO
+        pokemon.add(new RaianianArcanine("", Aspect.RAIANIAN, new Stats(555, FAST_SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
+        pokemon.add(new RaianianScyther("", Aspect.RAIANIAN).setUsesBigModel());
+        pokemon.add(new RaianianDragonite("", Aspect.RAIANIAN, new Stats(600, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+        pokemon.add(new RaianianDragoniteOne("", Aspect.RAIANIAN, new Stats(600, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
+
+        pokemon.add(new TrizoranOnix("", Aspect.TRIZORAN).setUsesBigModel()); //TODO
+
+        pokemon.add(new NorsePikachu("", Aspect.NORSE).setUsesBigModel()); //TODO
+        pokemon.add(new NorseRaichu("", Aspect.NORSE, new Stats(485, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+
+        formanPokemon();
+
 //        pokemon.add(new PastelianShellder("", Aspect.PASTELIAN)); TODO
 //        pokemon.add(new PastelianCloyster("", Aspect.PASTELIAN));
 //        pokemon.add(new PastelianChansey("", Aspect.PASTELIAN));
@@ -241,6 +270,100 @@ public class GenerationOne extends Game {
         pokemon.add(new CefiranPersianIce("Persian", Aspect.CEFIRAN_ICE));
         pokemon.add(new CefiranMeowthElectric("Meowth", Aspect.CEFIRAN_ELECTRIC));
         pokemon.add(new CefiranPersianElectric("Persian", Aspect.CEFIRAN_ELECTRIC));
+    }
+
+    private void formanPokemon() {
+
+        pokemon.add(new FormanBulbasaur("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanCharmander("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanSquirtle("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanCaterpie("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanWeedle("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanPidgey("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanRattata("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanSpearow("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanFearow("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanEkans("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanPikachu("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanSandshrew("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanNidoranfemale("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanNidorina("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanNidoqueen("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanNidoranmale("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanNidorino("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanNidoking("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanClefairy("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanVulpix("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanJigglypuff("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanZubat("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanGolbat("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanOddish("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanParas("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanVenonat("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanDiglett("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanDugtrio("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanMeowth("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanPsyduck("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanGolduck("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanMankey("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanGrowlithe("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanPoliwag("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanAbra("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanMachop("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanBellsprout("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanTentacool("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanGeodude("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanPonyta("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanSlowpoke("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanSlowbro("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanMagnemite("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanFarfetchd("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanDoduo("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanSeel("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanGrimer("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanShellder("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanCloyster("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanGastly("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanHaunter("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanGengar("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanOnix("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanDrowzee("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanKrabby("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanVoltorb("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanExeggcute("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanCubone("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanMarowak("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanHitmonlee("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanHitmonchan("", Aspect.FORMAN).setUsesBigModel());
+//        pokemon.add(new FormanLickitung("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+        pokemon.add(new FormanKoffing("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanWeezing("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanRhyhorn("", Aspect.FORMAN).setUsesBigModel());
+//        pokemon.add(new FormanChansey("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+//        pokemon.add(new FormanTangela("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+        pokemon.add(new FormanKangaskhan("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanHorsea("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanSeadra("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanGoldeen("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanStaryu("", Aspect.FORMAN).setUsesBigModel());
+//        pokemon.add(new FormanMrmime("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+        pokemon.add(new FormanScyther("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanJynx("", Aspect.FORMAN).setUsesBigModel());
+//        pokemon.add(new FormanElectabuzz("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+//        pokemon.add(new FormanMagmar("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+        pokemon.add(new FormanPinsir("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanTauros("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanMagikarp("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanLapras("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanDitto("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanEevee("", Aspect.FORMAN).setUsesBigModel());
+//        pokemon.add(new FormanPorygon("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+//        pokemon.add(new FormanSnorlax("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+        pokemon.add(new FormanArticuno("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanZapdos("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanMoltres("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanDratini("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanDragonair("", Aspect.FORMAN).setUsesBigModel());
     }
 
     private void registerSoulstonesVariants() {

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chikotize",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_chikotize",
+      "texture": "cobblemon:textures/pokemon/palmia/chikotize.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/chikotize_shiny.png"
+    }
+  ]
+}

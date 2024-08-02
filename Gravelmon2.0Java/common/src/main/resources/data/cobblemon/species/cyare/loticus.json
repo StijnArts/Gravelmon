@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "loticus",
-  "nationalPokedexNumber": 6093,
+  "nationalPokedexNumber": 6931,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -32,6 +32,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

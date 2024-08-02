@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cafheft",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_cafheft",
+      "texture": "cobblemon:textures/pokemon/aldao/cafheft.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/cafheft_shiny.png"
+    }
+  ]
+}

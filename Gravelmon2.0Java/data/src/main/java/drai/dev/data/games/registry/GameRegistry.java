@@ -5,6 +5,9 @@ import drai.dev.data.games.og.*;
 import drai.dev.data.games.original.*;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.firstbatch.*;
+import drai.dev.data.games.pokemmo.instagram.*;
+import drai.dev.data.games.pokemmo.instagram.eldark.*;
+import drai.dev.data.games.pokemmo.instagram.fra.*;
 import drai.dev.data.games.pokemmo.secondbatch.*;
 
 import java.util.*;
@@ -45,6 +48,13 @@ public class GameRegistry {
         games.add(new Flux());
         games.add(new Hiza());
         games.add(new Junnin());
+        games.add(new Raian());
+        games.add(new Norse());
+        games.add(new Trizor());
+        games.add(new Palmia());
+        games.add(new Fra());
+        games.add(new Bago());
+        games.add(new Aldao());
         games.add(new OrohnHavai());
         games.add(new EternalForest());
         games.add(new Norheim());
@@ -54,6 +64,7 @@ public class GameRegistry {
         games.add(new Lockemon());
         games.add(new Nosto());
         games.add(new Umbra());
+        games.add(new Form());
         games.add(new BlazingEmerald());
         games.add(new Mythire());
         games.add(new Fliga());

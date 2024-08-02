@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gheiflect",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_gheiflect",
+      "texture": "cobblemon:textures/pokemon/bago/gheiflect.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/gheiflect_shiny.png"
+    }
+  ]
+}

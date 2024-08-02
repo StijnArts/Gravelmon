@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pyroxall",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_pyroxall",
+      "texture": "cobblemon:textures/pokemon/palmia/pyroxall.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/pyroxall_shiny.png"
+    }
+  ]
+}

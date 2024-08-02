@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:emperoffin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_emperoffin",
+      "texture": "cobblemon:textures/pokemon/raian/emperoffin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/emperoffin_shiny.png"
+    }
+  ]
+}

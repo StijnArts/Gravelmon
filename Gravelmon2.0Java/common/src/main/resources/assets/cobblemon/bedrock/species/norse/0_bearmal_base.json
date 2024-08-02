@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bearmal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_bearmal",
+      "texture": "cobblemon:textures/pokemon/norse/bearmal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/bearmal_shiny.png"
+    }
+  ]
+}

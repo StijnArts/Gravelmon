@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "albacross",
-  "nationalPokedexNumber": 4163,
+  "nationalPokedexNumber": 5001,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -32,6 +32,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

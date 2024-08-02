@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:veswater",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_veswater",
+      "texture": "cobblemon:textures/pokemon/norse/veswater.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/veswater_shiny.png"
+    }
+  ]
+}

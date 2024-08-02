@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dusklyr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_dusklyr",
+      "texture": "cobblemon:textures/pokemon/palmia/dusklyr.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/dusklyr_shiny.png"
+    }
+  ]
+}

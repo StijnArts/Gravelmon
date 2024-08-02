@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vetesper",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_vetesper",
+      "texture": "cobblemon:textures/pokemon/trizor/vetesper.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/vetesper_shiny.png"
+    }
+  ]
+}

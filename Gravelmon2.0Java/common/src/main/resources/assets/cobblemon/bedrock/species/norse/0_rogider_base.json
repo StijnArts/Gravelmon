@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rogider",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_rogider",
+      "texture": "cobblemon:textures/pokemon/norse/rogider.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/rogider_shiny.png"
+    }
+  ]
+}

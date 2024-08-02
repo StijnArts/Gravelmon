@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:spearetle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_spearetle",
+      "texture": "cobblemon:textures/pokemon/raian/spearetle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/spearetle_shiny.png"
+    }
+  ]
+}

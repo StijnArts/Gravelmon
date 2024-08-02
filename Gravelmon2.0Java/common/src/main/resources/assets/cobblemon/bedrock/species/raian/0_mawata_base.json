@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mawata",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_mawata",
+      "texture": "cobblemon:textures/pokemon/raian/mawata.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/mawata_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:stingall",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_stingall",
+      "texture": "cobblemon:textures/pokemon/palmia/stingall.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/stingall_shiny.png"
+    }
+  ]
+}

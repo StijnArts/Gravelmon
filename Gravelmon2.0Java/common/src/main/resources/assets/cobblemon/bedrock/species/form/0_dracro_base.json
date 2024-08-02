@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dracro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_dracro",
+      "texture": "cobblemon:textures/pokemon/form/dracro.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/dracro_shiny.png"
+    }
+  ]
+}

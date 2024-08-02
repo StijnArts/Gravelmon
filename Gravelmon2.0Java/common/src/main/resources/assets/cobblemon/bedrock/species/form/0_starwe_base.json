@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:starwe",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_starwe",
+      "texture": "cobblemon:textures/pokemon/form/starwe.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/starwe_shiny.png"
+    }
+  ]
+}

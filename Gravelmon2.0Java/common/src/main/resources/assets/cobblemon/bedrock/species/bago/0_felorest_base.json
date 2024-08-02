@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:felorest",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_felorest",
+      "texture": "cobblemon:textures/pokemon/bago/felorest.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/felorest_shiny.png"
+    }
+  ]
+}

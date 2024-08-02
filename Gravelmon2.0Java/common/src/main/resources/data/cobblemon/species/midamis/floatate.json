@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "floatate",
-  "nationalPokedexNumber": 4654,
+  "nationalPokedexNumber": 5492,
   "primaryType": "water",
   "abilities": [
     "triage",
@@ -33,6 +33,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

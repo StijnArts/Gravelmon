@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:flacowl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_flacowl",
+      "texture": "cobblemon:textures/pokemon/palmia/flacowl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/flacowl_shiny.png"
+    }
+  ]
+}

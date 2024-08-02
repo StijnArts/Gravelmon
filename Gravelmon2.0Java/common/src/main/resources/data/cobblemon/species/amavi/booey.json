@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "booey",
-  "nationalPokedexNumber": 5973,
+  "nationalPokedexNumber": 6811,
   "primaryType": "ghost",
   "secondaryType": "electric",
   "abilities": [
@@ -32,6 +32,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": false
         }
     }

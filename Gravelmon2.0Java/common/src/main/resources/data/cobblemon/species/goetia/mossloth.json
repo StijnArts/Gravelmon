@@ -1,17 +1,17 @@
 {
   "implemented": true,
   "name": "mossloth",
-  "nationalPokedexNumber": 6185,
+  "nationalPokedexNumber": 7023,
   "primaryType": "grass",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 81,
+    "attack": 28,
+    "defence": 81,
+    "special_attack": 81,
+    "special_defence": 83,
+    "speed": 16
   },
   "behaviour": {
     "resting": {
@@ -45,7 +45,8 @@
     "field"
   ],
   "moves": [
-    "1:absorb"  ],
+    "1:absorb",
+    "1:synthesis"  ],
   "labels": [
     "goetia",
     "not_modeled",
@@ -58,15 +59,15 @@
   "preEvolution": "slowth",
   "evolutions": [
     {
-      "id": "mossloth_mossloth",
+      "id": "mossloth_slowgrowth",
       "variant": "level_up",
-      "result": "mossloth",
+      "result": "Slowgrowth",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 15
+          "minLevel": 34
         }
       ],
       "permanent": true   

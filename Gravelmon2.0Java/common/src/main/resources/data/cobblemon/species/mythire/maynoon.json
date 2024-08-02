@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maynoon",
-  "nationalPokedexNumber": 3884,
+  "nationalPokedexNumber": 4722,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -33,6 +33,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

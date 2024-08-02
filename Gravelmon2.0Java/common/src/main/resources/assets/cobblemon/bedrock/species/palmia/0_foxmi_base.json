@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:foxmi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_foxmi",
+      "texture": "cobblemon:textures/pokemon/palmia/foxmi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/foxmi_shiny.png"
+    }
+  ]
+}

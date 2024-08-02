@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bintat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_bintat",
+      "texture": "cobblemon:textures/pokemon/raian/bintat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/bintat_shiny.png"
+    }
+  ]
+}

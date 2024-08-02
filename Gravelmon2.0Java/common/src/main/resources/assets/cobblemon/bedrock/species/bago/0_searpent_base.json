@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:searpent",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_searpent",
+      "texture": "cobblemon:textures/pokemon/bago/searpent.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/searpent_shiny.png"
+    }
+  ]
+}

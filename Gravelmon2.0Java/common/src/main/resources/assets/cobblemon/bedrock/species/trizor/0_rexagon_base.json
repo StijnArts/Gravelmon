@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rexagon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_rexagon",
+      "texture": "cobblemon:textures/pokemon/trizor/rexagon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/rexagon_shiny.png"
+    }
+  ]
+}

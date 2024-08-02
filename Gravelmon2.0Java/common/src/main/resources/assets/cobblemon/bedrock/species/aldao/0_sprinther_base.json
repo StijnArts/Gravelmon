@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sprinther",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_sprinther",
+      "texture": "cobblemon:textures/pokemon/aldao/sprinther.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/sprinther_shiny.png"
+    }
+  ]
+}

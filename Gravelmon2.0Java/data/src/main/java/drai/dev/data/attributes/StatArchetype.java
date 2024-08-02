@@ -17,6 +17,7 @@ public enum StatArchetype {
     FAST_PHYSICAL_WALL(135, 75, 155, 50, 65, 110),
     SPECIAL_WALL(165, 50, 75, 75, 195, 30),
     PHYSICAL_WALL(165, 75, 195, 50, 50, 30),
+    MIXED_WALL(135, 60, 195, 45, 195, 30),
     ALL_ROUND(100, 100, 100, 100, 100, 100);
 
 

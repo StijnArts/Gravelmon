@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:congumo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_congumo",
+      "texture": "cobblemon:textures/pokemon/raian/congumo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/congumo_shiny.png"
+    }
+  ]
+}

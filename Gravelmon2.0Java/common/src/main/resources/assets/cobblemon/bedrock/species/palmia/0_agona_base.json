@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:agona",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_agona",
+      "texture": "cobblemon:textures/pokemon/palmia/agona.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/agona_shiny.png"
+    }
+  ]
+}

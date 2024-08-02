@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:snaprick",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_snaprick",
+      "texture": "cobblemon:textures/pokemon/raian/snaprick.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/snaprick_shiny.png"
+    }
+  ]
+}

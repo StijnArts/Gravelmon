@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:arnistix",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_arnistix",
+      "texture": "cobblemon:textures/pokemon/aldao/arnistix.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/arnistix_shiny.png"
+    }
+  ]
+}

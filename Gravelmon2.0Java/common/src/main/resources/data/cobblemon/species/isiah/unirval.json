@@ -1,18 +1,18 @@
 {
   "implemented": true,
   "name": "unirval",
-  "nationalPokedexNumber": 4498,
+  "nationalPokedexNumber": 5336,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
     "keeneye"  ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 103,
+    "attack": 87,
+    "defence": 103,
+    "special_attack": 36,
+    "special_defence": 79,
+    "speed": 63
   },
   "behaviour": {
     "resting": {

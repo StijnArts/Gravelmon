@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:yetroll",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_yetroll",
+      "texture": "cobblemon:textures/pokemon/norse/yetroll.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/yetroll_shiny.png"
+    }
+  ]
+}

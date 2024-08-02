@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vedotel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_vedotel",
+      "texture": "cobblemon:textures/pokemon/norse/vedotel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/vedotel_shiny.png"
+    }
+  ]
+}

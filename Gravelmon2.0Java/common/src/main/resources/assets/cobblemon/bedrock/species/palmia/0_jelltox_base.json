@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:jelltox",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_jelltox",
+      "texture": "cobblemon:textures/pokemon/palmia/jelltox.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/jelltox_shiny.png"
+    }
+  ]
+}

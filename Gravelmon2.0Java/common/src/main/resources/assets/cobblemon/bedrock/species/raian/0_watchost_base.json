@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:watchost",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_watchost",
+      "texture": "cobblemon:textures/pokemon/raian/watchost.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/watchost_shiny.png"
+    }
+  ]
+}

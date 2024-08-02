@@ -83,10 +83,12 @@ public class MoveListFiller {
         return lists;
     }
 
-    private static List<Move> getFastMoves(String attackingType, Type primaryType) {
+    private static List<Move> getFastMoves(String attackingType, Type type) {
         if(attackingType.equalsIgnoreCase("mixed")) {
-            var l1 = LEVEL_UP_SETS.get("fastspecial").get(primaryType);
-            var l2 = LEVEL_UP_SETS.get("fastphysical").get(primaryType);
+            var l1 = LEVEL_UP_SETS.get("fastspecial").get(type);
+            var l2 = LEVEL_UP_SETS.get("fastphysical").get(type);
+            if(l1 == null) l1 = LEVEL_UP_SETS.get("fastspecial").get(type.getSubstitutionType());
+            if(l2 == null) l2 = LEVEL_UP_SETS.get("fastphysical").get(type.getSubstitutionType());
             ArrayList<Move> mergedList = new ArrayList<>();
             Iterator<Move> i = l1.iterator();
             while (i.hasNext()) {
@@ -98,21 +100,30 @@ public class MoveListFiller {
             }
             return mergedList;
         }
-        return LEVEL_UP_SETS.get("fast"+attackingType).get(primaryType);
+        var moves = LEVEL_UP_SETS.get("fast"+attackingType).get(type);
+        if (moves == null) moves = LEVEL_UP_SETS.get("fast"+attackingType).get(type.getSubstitutionType());
+        return moves;
     }
 
     private static List<Move> getSupportMoves(Type type) {
-        return LEVEL_UP_SETS.get("support").get(type);
+        var moves = LEVEL_UP_SETS.get("support").get(type);
+        if (moves == null) moves = LEVEL_UP_SETS.get("support").get(type.getSubstitutionType());
+        return moves;
     }
 
     private static List<Move> getDefensiveMoves(Type type) {
-        return LEVEL_UP_SETS.get("defensive").get(type);
+
+        var moves = LEVEL_UP_SETS.get("defensive").get(type);
+        if (moves == null) moves = LEVEL_UP_SETS.get("defensive").get(type.getSubstitutionType());
+        return moves;
     }
 
     private static List<Move> getAttackingMoves(String attackingType, Type type) {
         if(attackingType.equalsIgnoreCase("mixed")) {
             var l1 = LEVEL_UP_SETS.get("special").get(type);
             var l2 = LEVEL_UP_SETS.get("physical").get(type);
+            if(l1 == null) l1 = LEVEL_UP_SETS.get("special").get(type.getSubstitutionType());
+            if(l2 == null) l2 = LEVEL_UP_SETS.get("special").get(type.getSubstitutionType());
             ArrayList<Move> mergedList = new ArrayList<>();
             Iterator<Move> i = l1.iterator();
             while (i.hasNext()) {
@@ -124,7 +135,10 @@ public class MoveListFiller {
             }
             return mergedList;
         }
-        return LEVEL_UP_SETS.get(attackingType).get(type);
+        var attackingMoves = LEVEL_UP_SETS.get(attackingType);
+        var moves = attackingMoves.get(type);
+        if (moves == null) moves = LEVEL_UP_SETS.get(attackingType).get(type.getSubstitutionType());
+        return moves;
     }
 
     private static String getOverArchingArchetype(StatArchetype statArchetype) {

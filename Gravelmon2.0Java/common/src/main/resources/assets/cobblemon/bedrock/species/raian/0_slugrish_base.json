@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slugrish",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_slugrish",
+      "texture": "cobblemon:textures/pokemon/raian/slugrish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/slugrish_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:garruff",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_garruff",
+      "texture": "cobblemon:textures/pokemon/norse/garruff.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/garruff_shiny.png"
+    }
+  ]
+}

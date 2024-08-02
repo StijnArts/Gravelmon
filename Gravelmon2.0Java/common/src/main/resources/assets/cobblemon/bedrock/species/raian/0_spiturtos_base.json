@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:spiturtos",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_spiturtos",
+      "texture": "cobblemon:textures/pokemon/raian/spiturtos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/spiturtos_shiny.png"
+    }
+  ]
+}

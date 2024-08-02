@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:potthos",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fra_potthos",
+      "texture": "cobblemon:textures/pokemon/fra/potthos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fra/potthos_shiny.png"
+    }
+  ]
+}

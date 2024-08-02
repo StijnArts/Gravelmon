@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pangoleo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_pangoleo",
+      "texture": "cobblemon:textures/pokemon/aldao/pangoleo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/pangoleo_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vargri",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_vargri",
+      "texture": "cobblemon:textures/pokemon/palmia/vargri.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/vargri_shiny.png"
+    }
+  ]
+}

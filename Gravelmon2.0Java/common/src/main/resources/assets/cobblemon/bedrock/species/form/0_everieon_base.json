@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:everieon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_everieon",
+      "texture": "cobblemon:textures/pokemon/form/everieon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/everieon_shiny.png"
+    }
+  ]
+}

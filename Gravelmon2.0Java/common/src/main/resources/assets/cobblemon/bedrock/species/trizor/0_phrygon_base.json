@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:phrygon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_phrygon",
+      "texture": "cobblemon:textures/pokemon/trizor/phrygon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/phrygon_shiny.png"
+    }
+  ]
+}

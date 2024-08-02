@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:scandibe",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_scandibe",
+      "texture": "cobblemon:textures/pokemon/norse/scandibe.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/scandibe_shiny.png"
+    }
+  ]
+}

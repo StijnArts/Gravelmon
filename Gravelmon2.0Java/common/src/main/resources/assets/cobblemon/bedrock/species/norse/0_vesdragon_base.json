@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vesdragon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_vesdragon",
+      "texture": "cobblemon:textures/pokemon/norse/vesdragon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/vesdragon_shiny.png"
+    }
+  ]
+}

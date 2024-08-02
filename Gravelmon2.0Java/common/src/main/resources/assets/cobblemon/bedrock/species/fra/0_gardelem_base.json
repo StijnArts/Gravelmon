@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gardelem",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fra_gardelem",
+      "texture": "cobblemon:textures/pokemon/fra/gardelem.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fra/gardelem_shiny.png"
+    }
+  ]
+}

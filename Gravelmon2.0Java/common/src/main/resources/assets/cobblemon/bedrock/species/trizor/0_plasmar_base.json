@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:plasmar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_plasmar",
+      "texture": "cobblemon:textures/pokemon/trizor/plasmar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/plasmar_shiny.png"
+    }
+  ]
+}

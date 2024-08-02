@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tecnorilla",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_tecnorilla",
+      "texture": "cobblemon:textures/pokemon/trizor/tecnorilla.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/tecnorilla_shiny.png"
+    }
+  ]
+}

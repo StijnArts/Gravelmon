@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dimelf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:norse_dimelf",
+      "texture": "cobblemon:textures/pokemon/norse/dimelf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norse/dimelf_shiny.png"
+    }
+  ]
+}

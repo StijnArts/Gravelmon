@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:coatity",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_coatity",
+      "texture": "cobblemon:textures/pokemon/raian/coatity.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/coatity_shiny.png"
+    }
+  ]
+}

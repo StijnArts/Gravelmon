@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:egubloom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_egubloom",
+      "texture": "cobblemon:textures/pokemon/form/egubloom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/egubloom_shiny.png"
+    }
+  ]
+}

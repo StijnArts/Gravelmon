@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:joorit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_joorit",
+      "texture": "cobblemon:textures/pokemon/palmia/joorit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/joorit_shiny.png"
+    }
+  ]
+}

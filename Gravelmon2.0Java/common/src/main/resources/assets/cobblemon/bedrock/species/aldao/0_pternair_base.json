@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pternair",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_pternair",
+      "texture": "cobblemon:textures/pokemon/aldao/pternair.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/pternair_shiny.png"
+    }
+  ]
+}

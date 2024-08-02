@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slugmud",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_slugmud",
+      "texture": "cobblemon:textures/pokemon/aldao/slugmud.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/slugmud_shiny.png"
+    }
+  ]
+}

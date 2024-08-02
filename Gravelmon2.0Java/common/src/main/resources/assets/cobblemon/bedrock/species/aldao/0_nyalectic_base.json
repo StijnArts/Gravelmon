@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nyalectic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_nyalectic",
+      "texture": "cobblemon:textures/pokemon/aldao/nyalectic.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/nyalectic_shiny.png"
+    }
+  ]
+}

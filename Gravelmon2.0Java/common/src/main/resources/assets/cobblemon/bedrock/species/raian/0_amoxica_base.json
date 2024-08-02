@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:amoxica",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:raian_amoxica",
+      "texture": "cobblemon:textures/pokemon/raian/amoxica.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/raian/amoxica_shiny.png"
+    }
+  ]
+}

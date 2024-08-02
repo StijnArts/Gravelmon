@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ejoort",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_ejoort",
+      "texture": "cobblemon:textures/pokemon/palmia/ejoort.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/ejoort_shiny.png"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swandola",
-  "nationalPokedexNumber": 3730,
+  "nationalPokedexNumber": 4440,
   "primaryType": "normal",
   "secondaryType": "water",
   "abilities": [
@@ -34,6 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
+            "canWalkOnWater": true,
             "canBreatheUnderwater": true
         }
     }

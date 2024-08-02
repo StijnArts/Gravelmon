@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:yadazard",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:palmia_yadazard",
+      "texture": "cobblemon:textures/pokemon/palmia/yadazard.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/palmia/yadazard_shiny.png"
+    }
+  ]
+}

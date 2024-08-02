@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rexdew",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_rexdew",
+      "texture": "cobblemon:textures/pokemon/trizor/rexdew.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/rexdew_shiny.png"
+    }
+  ]
+}

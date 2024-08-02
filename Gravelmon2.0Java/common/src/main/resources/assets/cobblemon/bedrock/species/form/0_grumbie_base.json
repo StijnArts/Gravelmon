@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:grumbie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:form_grumbie",
+      "texture": "cobblemon:textures/pokemon/form/grumbie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/form/grumbie_shiny.png"
+    }
+  ]
+}

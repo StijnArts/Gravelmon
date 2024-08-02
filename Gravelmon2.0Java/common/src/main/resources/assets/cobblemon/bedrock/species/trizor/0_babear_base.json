@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:babear",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:trizor_babear",
+      "texture": "cobblemon:textures/pokemon/trizor/babear.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/trizor/babear_shiny.png"
+    }
+  ]
+}

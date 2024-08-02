@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:craggoat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_craggoat",
+      "texture": "cobblemon:textures/pokemon/aldao/craggoat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/craggoat_shiny.png"
+    }
+  ]
+}

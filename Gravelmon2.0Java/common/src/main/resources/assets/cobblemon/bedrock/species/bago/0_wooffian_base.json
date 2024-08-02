@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:wooffian",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:bago_wooffian",
+      "texture": "cobblemon:textures/pokemon/bago/wooffian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/bago/wooffian_shiny.png"
+    }
+  ]
+}

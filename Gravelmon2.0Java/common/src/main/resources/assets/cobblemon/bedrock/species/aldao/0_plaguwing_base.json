@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:plaguwing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:aldao_plaguwing",
+      "texture": "cobblemon:textures/pokemon/aldao/plaguwing.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aldao/plaguwing_shiny.png"
+    }
+  ]
+}
