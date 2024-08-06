@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:siaspor",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_siaspor",
+      "texture": "cobblemon:textures/pokemon/mahal/siaspor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/siaspor_shiny.png"
+    }
+  ]
+}

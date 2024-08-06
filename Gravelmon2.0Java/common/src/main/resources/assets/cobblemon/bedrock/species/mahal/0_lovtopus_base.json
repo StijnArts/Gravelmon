@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lovtopus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_lovtopus",
+      "texture": "cobblemon:textures/pokemon/mahal/lovtopus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/lovtopus_shiny.png"
+    }
+  ]
+}

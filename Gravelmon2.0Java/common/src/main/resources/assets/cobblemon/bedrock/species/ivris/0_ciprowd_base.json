@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ciprowd",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_ciprowd",
+      "texture": "cobblemon:textures/pokemon/ivris/ciprowd.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/ciprowd_shiny.png"
+    }
+  ]
+}

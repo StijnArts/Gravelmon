@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:zapplem",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_zapplem",
+      "texture": "cobblemon:textures/pokemon/arom/zapplem.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/zapplem_shiny.png"
+    }
+  ]
+}

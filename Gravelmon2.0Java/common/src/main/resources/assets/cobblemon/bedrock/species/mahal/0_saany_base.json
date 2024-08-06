@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:saany",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_saany",
+      "texture": "cobblemon:textures/pokemon/mahal/saany.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/saany_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ferosail",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_ferosail",
+      "texture": "cobblemon:textures/pokemon/ivris/ferosail.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/ferosail_shiny.png"
+    }
+  ]
+}

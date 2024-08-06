@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hedgehootz",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_hedgehootz",
+      "texture": "cobblemon:textures/pokemon/mahal/hedgehootz.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/hedgehootz_shiny.png"
+    }
+  ]
+}

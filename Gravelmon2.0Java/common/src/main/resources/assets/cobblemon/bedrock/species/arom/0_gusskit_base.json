@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gusskit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_gusskit",
+      "texture": "cobblemon:textures/pokemon/arom/gusskit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/gusskit_shiny.png"
+    }
+  ]
+}

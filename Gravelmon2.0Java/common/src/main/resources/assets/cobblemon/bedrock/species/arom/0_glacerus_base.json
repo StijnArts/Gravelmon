@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glacerus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_glacerus",
+      "texture": "cobblemon:textures/pokemon/arom/glacerus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/glacerus_shiny.png"
+    }
+  ]
+}

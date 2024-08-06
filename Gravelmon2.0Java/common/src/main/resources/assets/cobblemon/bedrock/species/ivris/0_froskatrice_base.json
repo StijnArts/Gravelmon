@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:froskatrice",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_froskatrice",
+      "texture": "cobblemon:textures/pokemon/ivris/froskatrice.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/froskatrice_shiny.png"
+    }
+  ]
+}

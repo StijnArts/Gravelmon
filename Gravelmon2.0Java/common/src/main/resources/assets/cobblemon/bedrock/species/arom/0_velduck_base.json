@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:velduck",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_velduck",
+      "texture": "cobblemon:textures/pokemon/arom/velduck.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/velduck_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:furburnape",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_furburnape",
+      "texture": "cobblemon:textures/pokemon/mahal/furburnape.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/furburnape_shiny.png"
+    }
+  ]
+}

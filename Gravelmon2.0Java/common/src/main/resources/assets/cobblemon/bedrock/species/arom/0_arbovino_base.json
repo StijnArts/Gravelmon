@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:arbovino",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_arbovino",
+      "texture": "cobblemon:textures/pokemon/arom/arbovino.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/arbovino_shiny.png"
+    }
+  ]
+}

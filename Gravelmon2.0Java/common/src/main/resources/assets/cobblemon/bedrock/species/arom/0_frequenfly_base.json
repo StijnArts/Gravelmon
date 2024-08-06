@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:frequenfly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_frequenfly",
+      "texture": "cobblemon:textures/pokemon/arom/frequenfly.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/frequenfly_shiny.png"
+    }
+  ]
+}

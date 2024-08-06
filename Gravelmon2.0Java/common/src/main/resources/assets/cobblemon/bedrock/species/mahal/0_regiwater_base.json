@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:regiwater",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_regiwater",
+      "texture": "cobblemon:textures/pokemon/mahal/regiwater.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/regiwater_shiny.png"
+    }
+  ]
+}

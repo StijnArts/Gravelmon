@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:athlerkoma",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_athlerkoma",
+      "texture": "cobblemon:textures/pokemon/mahal/athlerkoma.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/athlerkoma_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vespargo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_vespargo",
+      "texture": "cobblemon:textures/pokemon/arom/vespargo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/vespargo_shiny.png"
+    }
+  ]
+}

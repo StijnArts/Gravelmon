@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pomgranon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_pomgranon",
+      "texture": "cobblemon:textures/pokemon/mahal/pomgranon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/pomgranon_shiny.png"
+    }
+  ]
+}

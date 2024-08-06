@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:aromiasma",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_aromiasma",
+      "texture": "cobblemon:textures/pokemon/arom/aromiasma.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/aromiasma_shiny.png"
+    }
+  ]
+}

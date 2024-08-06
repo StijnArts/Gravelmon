@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gondozia",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_gondozia",
+      "texture": "cobblemon:textures/pokemon/arom/gondozia.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/gondozia_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ferociousfins",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_ferociousfins",
+      "texture": "cobblemon:textures/pokemon/ivris/ferociousfins.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/ferociousfins_shiny.png"
+    }
+  ]
+}

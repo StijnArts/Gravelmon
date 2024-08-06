@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:aromianmilkitt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_aromianmilkitt",
+      "texture": "cobblemon:textures/pokemon/arom/aromianmilkitt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/aromianmilkitt_shiny.png"
+    }
+  ]
+}

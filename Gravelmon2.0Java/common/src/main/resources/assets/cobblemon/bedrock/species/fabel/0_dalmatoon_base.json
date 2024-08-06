@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dalmatoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_dalmatoon",
+      "texture": "cobblemon:textures/pokemon/fabel/dalmatoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/dalmatoon_shiny.png"
+    }
+  ]
+}

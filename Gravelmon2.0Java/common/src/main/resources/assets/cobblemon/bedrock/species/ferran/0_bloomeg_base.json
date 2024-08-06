@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bloomeg",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_bloomeg",
+      "texture": "cobblemon:textures/pokemon/ferran/bloomeg.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/bloomeg_shiny.png"
+    }
+  ]
+}

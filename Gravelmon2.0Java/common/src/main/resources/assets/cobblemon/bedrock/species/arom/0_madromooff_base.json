@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:madromooff",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_madromooff",
+      "texture": "cobblemon:textures/pokemon/arom/madromooff.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/madromooff_shiny.png"
+    }
+  ]
+}

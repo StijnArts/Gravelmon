@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:flammurai",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_flammurai",
+      "texture": "cobblemon:textures/pokemon/ivris/flammurai.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/flammurai_shiny.png"
+    }
+  ]
+}

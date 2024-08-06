@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:yetrigori",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_yetrigori",
+      "texture": "cobblemon:textures/pokemon/mahal/yetrigori.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/yetrigori_shiny.png"
+    }
+  ]
+}

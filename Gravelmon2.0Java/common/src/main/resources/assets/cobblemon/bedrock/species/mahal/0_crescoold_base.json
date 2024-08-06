@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crescoold",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_crescoold",
+      "texture": "cobblemon:textures/pokemon/mahal/crescoold.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/crescoold_shiny.png"
+    }
+  ]
+}

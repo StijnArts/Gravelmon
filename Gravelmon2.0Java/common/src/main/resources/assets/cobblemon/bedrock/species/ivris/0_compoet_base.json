@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:compoet",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_compoet",
+      "texture": "cobblemon:textures/pokemon/ivris/compoet.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/compoet_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:drastell",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_drastell",
+      "texture": "cobblemon:textures/pokemon/ivris/drastell.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/drastell_shiny.png"
+    }
+  ]
+}

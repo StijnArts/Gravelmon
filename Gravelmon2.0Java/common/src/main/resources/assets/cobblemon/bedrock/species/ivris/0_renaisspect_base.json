@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:renaisspect",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_renaisspect",
+      "texture": "cobblemon:textures/pokemon/ivris/renaisspect.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/renaisspect_shiny.png"
+    }
+  ]
+}

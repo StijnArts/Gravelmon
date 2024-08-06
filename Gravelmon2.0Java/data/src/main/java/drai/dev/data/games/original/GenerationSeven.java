@@ -2,7 +2,10 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.africanus.regional.*;
-import drai.dev.data.pokemon.mastenia.regional.*;
+import drai.dev.data.pokemon.fabel.regional.*;
+import drai.dev.data.pokemon.ferran.regional.*;
+import drai.dev.data.pokemon.ivris.regional.*;
+import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -27,6 +30,24 @@ public class GenerationSeven extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new FabelianYungoos("", Aspect.FABELIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FabelianGumshoos("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMudbray("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMinior("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianSandygast("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianPyukumuku("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianDhelmise("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMimikyu("", Aspect.FABELIAN).setUsesBigModel());
+
+        pokemon.add(new MahalianSandygast("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+        pokemon.add(new MahalianPalossand("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianCrabrawler("", Aspect.MAHALIAN).setUsesBigModel());
+
+        pokemon.add(new FerranianBounsweet("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+
+        pokemon.add(new IvrisianPikipek("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+        pokemon.add(new IvrisianTrumbeak("", Aspect.IVRISIAN).setUsesBigModel());
+
 //        pokemon.add(new MastenianKomala("", Aspect.MASTENIAN, new Stats(0, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED)))); MISSING STATS
 
         registerSoulstonesVariants();

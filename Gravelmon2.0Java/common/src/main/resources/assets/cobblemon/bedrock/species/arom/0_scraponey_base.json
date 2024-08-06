@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:scraponey",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_scraponey",
+      "texture": "cobblemon:textures/pokemon/arom/scraponey.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/scraponey_shiny.png"
+    }
+  ]
+}

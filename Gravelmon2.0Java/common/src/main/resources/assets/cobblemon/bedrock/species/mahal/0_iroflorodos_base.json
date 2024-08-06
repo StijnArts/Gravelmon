@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:iroflorodos",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_iroflorodos",
+      "texture": "cobblemon:textures/pokemon/mahal/iroflorodos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/iroflorodos_shiny.png"
+    }
+  ]
+}

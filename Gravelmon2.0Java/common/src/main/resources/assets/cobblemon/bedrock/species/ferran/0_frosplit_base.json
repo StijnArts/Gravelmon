@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:frosplit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_frosplit",
+      "texture": "cobblemon:textures/pokemon/ferran/frosplit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/frosplit_shiny.png"
+    }
+  ]
+}

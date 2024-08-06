@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:momearve",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_momearve",
+      "texture": "cobblemon:textures/pokemon/mahal/momearve.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/momearve_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kelpelago",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_kelpelago",
+      "texture": "cobblemon:textures/pokemon/ivris/kelpelago.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/kelpelago_shiny.png"
+    }
+  ]
+}

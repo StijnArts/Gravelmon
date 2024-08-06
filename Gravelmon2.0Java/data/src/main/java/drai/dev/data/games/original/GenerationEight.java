@@ -1,8 +1,12 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.arom.regional.*;
+import drai.dev.data.pokemon.fabel.regional.*;
+import drai.dev.data.pokemon.ferran.regional.*;
+import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
-import drai.dev.data.pokemon.mystis.regional.*;
+import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
@@ -22,6 +26,30 @@ public class GenerationEight extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new AromianStonjourner("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+
+        pokemon.add(new FabelianWyrdeer("", Aspect.FABELIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FabelianHatenna("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianHattrem("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianApplin("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianFalinks("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianSinistea("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianPolteageist("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianWooloo("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianDubwool("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMilcery("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianImpidimp("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMorgrem("", Aspect.FABELIAN).setUsesBigModel());
+
+        pokemon.add(new MahalianSinistea("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+        pokemon.add(new MahalianPolteageist("", Aspect.MAHALIAN).setUsesBigModel());
+
+        pokemon.add(new FerranianSinistea("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FerranianApplin("", Aspect.FERRANIAN).setUsesBigModel());
+
+        pokemon.add(new IvrisianSinistea("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+        pokemon.add(new IvrisianPerrserker("", Aspect.IVRISIAN).setUsesBigModel());
+
 //        pokemon.add(new MystisianImpidimp("", Aspect.MYSTISIAN)); TODO
 //        pokemon.add(new MystisianMorgrem("", Aspect.MYSTISIAN));
 //        pokemon.add(new MystisianGrimmsnarl("", Aspect.MYSTISIAN));

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:montattro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_montattro",
+      "texture": "cobblemon:textures/pokemon/arom/montattro.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/montattro_shiny.png"
+    }
+  ]
+}

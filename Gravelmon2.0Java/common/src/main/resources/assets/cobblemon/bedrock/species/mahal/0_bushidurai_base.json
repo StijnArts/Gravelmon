@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bushidurai",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_bushidurai",
+      "texture": "cobblemon:textures/pokemon/mahal/bushidurai.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/bushidurai_shiny.png"
+    }
+  ]
+}

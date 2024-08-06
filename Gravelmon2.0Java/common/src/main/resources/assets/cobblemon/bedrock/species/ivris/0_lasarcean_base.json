@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lasarcean",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_lasarcean",
+      "texture": "cobblemon:textures/pokemon/ivris/lasarcean.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/lasarcean_shiny.png"
+    }
+  ]
+}

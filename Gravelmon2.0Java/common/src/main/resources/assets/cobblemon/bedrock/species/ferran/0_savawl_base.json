@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:savawl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_savawl",
+      "texture": "cobblemon:textures/pokemon/ferran/savawl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/savawl_shiny.png"
+    }
+  ]
+}

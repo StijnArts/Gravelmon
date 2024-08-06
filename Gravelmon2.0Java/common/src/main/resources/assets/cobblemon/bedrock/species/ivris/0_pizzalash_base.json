@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pizzalash",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_pizzalash",
+      "texture": "cobblemon:textures/pokemon/ivris/pizzalash.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/pizzalash_shiny.png"
+    }
+  ]
+}

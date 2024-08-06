@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:poeternal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_poeternal",
+      "texture": "cobblemon:textures/pokemon/ivris/poeternal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/poeternal_shiny.png"
+    }
+  ]
+}

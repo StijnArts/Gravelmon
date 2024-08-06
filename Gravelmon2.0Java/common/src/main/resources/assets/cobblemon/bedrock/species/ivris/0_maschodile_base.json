@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:maschodile",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_maschodile",
+      "texture": "cobblemon:textures/pokemon/ivris/maschodile.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/maschodile_shiny.png"
+    }
+  ]
+}

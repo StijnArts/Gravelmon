@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gingaucand",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_gingaucand",
+      "texture": "cobblemon:textures/pokemon/fabel/gingaucand.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/gingaucand_shiny.png"
+    }
+  ]
+}

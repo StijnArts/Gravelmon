@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sponpoi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_sponpoi",
+      "texture": "cobblemon:textures/pokemon/arom/sponpoi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/sponpoi_shiny.png"
+    }
+  ]
+}

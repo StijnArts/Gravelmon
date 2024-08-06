@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:marbellezza",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_marbellezza",
+      "texture": "cobblemon:textures/pokemon/ivris/marbellezza.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/marbellezza_shiny.png"
+    }
+  ]
+}

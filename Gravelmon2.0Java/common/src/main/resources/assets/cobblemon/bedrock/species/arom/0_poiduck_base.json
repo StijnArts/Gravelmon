@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:poiduck",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_poiduck",
+      "texture": "cobblemon:textures/pokemon/arom/poiduck.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/poiduck_shiny.png"
+    }
+  ]
+}

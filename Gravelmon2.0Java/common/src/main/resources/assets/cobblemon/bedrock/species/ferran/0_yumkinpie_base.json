@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:yumkinpie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_yumkinpie",
+      "texture": "cobblemon:textures/pokemon/ferran/yumkinpie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/yumkinpie_shiny.png"
+    }
+  ]
+}

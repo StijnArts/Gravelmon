@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ciciano",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_ciciano",
+      "texture": "cobblemon:textures/pokemon/arom/ciciano.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/ciciano_shiny.png"
+    }
+  ]
+}

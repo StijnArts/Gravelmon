@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:silvursa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_silvursa",
+      "texture": "cobblemon:textures/pokemon/ivris/silvursa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/silvursa_shiny.png"
+    }
+  ]
+}

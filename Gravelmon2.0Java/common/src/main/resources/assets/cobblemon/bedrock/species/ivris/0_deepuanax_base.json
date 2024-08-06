@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:deepuanax",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_deepuanax",
+      "texture": "cobblemon:textures/pokemon/ivris/deepuanax.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/deepuanax_shiny.png"
+    }
+  ]
+}

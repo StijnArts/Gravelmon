@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rowybara",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_rowybara",
+      "texture": "cobblemon:textures/pokemon/arom/rowybara.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/rowybara_shiny.png"
+    }
+  ]
+}

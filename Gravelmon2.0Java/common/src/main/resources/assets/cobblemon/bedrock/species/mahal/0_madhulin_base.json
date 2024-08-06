@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:madhulin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_madhulin",
+      "texture": "cobblemon:textures/pokemon/mahal/madhulin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/madhulin_shiny.png"
+    }
+  ]
+}

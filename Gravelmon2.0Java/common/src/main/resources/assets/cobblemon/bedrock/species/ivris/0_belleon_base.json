@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:belleon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_belleon",
+      "texture": "cobblemon:textures/pokemon/ivris/belleon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/belleon_shiny.png"
+    }
+  ]
+}

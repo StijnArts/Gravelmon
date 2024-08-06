@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:doggoof",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_doggoof",
+      "texture": "cobblemon:textures/pokemon/arom/doggoof.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/doggoof_shiny.png"
+    }
+  ]
+}

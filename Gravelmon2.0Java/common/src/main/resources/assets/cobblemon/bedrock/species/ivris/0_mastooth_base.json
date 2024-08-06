@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mastooth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_mastooth",
+      "texture": "cobblemon:textures/pokemon/ivris/mastooth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/mastooth_shiny.png"
+    }
+  ]
+}

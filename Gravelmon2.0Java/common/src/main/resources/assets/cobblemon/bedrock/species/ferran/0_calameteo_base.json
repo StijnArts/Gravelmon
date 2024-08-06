@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:calameteo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_calameteo",
+      "texture": "cobblemon:textures/pokemon/ferran/calameteo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/calameteo_shiny.png"
+    }
+  ]
+}

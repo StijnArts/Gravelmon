@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:babybara",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_babybara",
+      "texture": "cobblemon:textures/pokemon/ferran/babybara.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/babybara_shiny.png"
+    }
+  ]
+}

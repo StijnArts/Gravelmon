@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:colossalleaf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_colossalleaf",
+      "texture": "cobblemon:textures/pokemon/ivris/colossalleaf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/colossalleaf_shiny.png"
+    }
+  ]
+}

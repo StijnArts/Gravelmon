@@ -610,6 +610,46 @@ public class GravelmonStarters {
                                 "Nymbble level=10"
                         )
                 ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Aldao",
+                        List.of(
+                                "Pupfleur level=10",
+                                "Cubby level=10",
+                                "Nymbble level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Ivris",
+                        List.of(
+                                "Hezard level=10",
+                                "Calburn level=10",
+                                "Amppo level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Ferran",
+                        List.of(
+                                "Chamaerol level=10",
+                                "Hogoat level=10",
+                                "Platyblub level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Mahal",
+                        List.of(
+                                "Honylin level=10",
+                                "Saany level=10",
+                                "Wavalo level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Aroma",
+                        List.of(
+                                "Spramarro level=10",
+                                "Blaapra level=10",
+                                "Blubbybara level=10"
+                        )
+                ));
     }
 
     private static StarterCategoryDataHolder createCategory(String name, List<String> starters) {

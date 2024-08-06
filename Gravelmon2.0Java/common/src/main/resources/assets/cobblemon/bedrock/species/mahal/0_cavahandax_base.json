@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cavahandax",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_cavahandax",
+      "texture": "cobblemon:textures/pokemon/mahal/cavahandax.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/cavahandax_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tandoroanix",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_tandoroanix",
+      "texture": "cobblemon:textures/pokemon/mahal/tandoroanix.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/tandoroanix_shiny.png"
+    }
+  ]
+}

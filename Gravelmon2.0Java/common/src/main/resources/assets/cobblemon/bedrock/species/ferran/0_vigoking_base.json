@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vigoking",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_vigoking",
+      "texture": "cobblemon:textures/pokemon/ferran/vigoking.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/vigoking_shiny.png"
+    }
+  ]
+}

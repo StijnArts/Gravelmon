@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:puddacuta",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_puddacuta",
+      "texture": "cobblemon:textures/pokemon/arom/puddacuta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/puddacuta_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tracoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_tracoon",
+      "texture": "cobblemon:textures/pokemon/ferran/tracoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/tracoon_shiny.png"
+    }
+  ]
+}

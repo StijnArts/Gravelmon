@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:winetergeist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_winetergeist",
+      "texture": "cobblemon:textures/pokemon/ivris/winetergeist.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/winetergeist_shiny.png"
+    }
+  ]
+}

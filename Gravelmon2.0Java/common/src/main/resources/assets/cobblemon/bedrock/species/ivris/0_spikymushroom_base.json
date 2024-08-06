@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:spikymushroom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_spikymushroom",
+      "texture": "cobblemon:textures/pokemon/ivris/spikymushroom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/spikymushroom_shiny.png"
+    }
+  ]
+}

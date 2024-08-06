@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:yanmonsta",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_yanmonsta",
+      "texture": "cobblemon:textures/pokemon/mahal/yanmonsta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/yanmonsta_shiny.png"
+    }
+  ]
+}

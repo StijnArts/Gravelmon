@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:spinacuta",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_spinacuta",
+      "texture": "cobblemon:textures/pokemon/mahal/spinacuta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/spinacuta_shiny.png"
+    }
+  ]
+}

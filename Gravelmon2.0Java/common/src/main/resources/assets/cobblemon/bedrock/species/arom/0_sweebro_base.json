@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sweebro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_sweebro",
+      "texture": "cobblemon:textures/pokemon/arom/sweebro.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/sweebro_shiny.png"
+    }
+  ]
+}

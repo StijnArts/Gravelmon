@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tiramisoul",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_tiramisoul",
+      "texture": "cobblemon:textures/pokemon/arom/tiramisoul.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/tiramisoul_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cacturst",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_cacturst",
+      "texture": "cobblemon:textures/pokemon/ferran/cacturst.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/cacturst_shiny.png"
+    }
+  ]
+}

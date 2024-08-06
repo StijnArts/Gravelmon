@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crickerist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_crickerist",
+      "texture": "cobblemon:textures/pokemon/ferran/crickerist.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/crickerist_shiny.png"
+    }
+  ]
+}

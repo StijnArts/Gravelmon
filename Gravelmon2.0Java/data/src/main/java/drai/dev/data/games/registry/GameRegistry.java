@@ -6,7 +6,9 @@ import drai.dev.data.games.original.*;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.firstbatch.*;
 import drai.dev.data.games.pokemmo.instagram.*;
+import drai.dev.data.games.pokemmo.instagram.artworks218.*;
 import drai.dev.data.games.pokemmo.instagram.eldark.*;
+import drai.dev.data.games.pokemmo.instagram.federex.*;
 import drai.dev.data.games.pokemmo.instagram.fra.*;
 import drai.dev.data.games.pokemmo.secondbatch.*;
 
@@ -63,6 +65,7 @@ public class GameRegistry {
         games.add(new Lonava());
         games.add(new Lockemon());
         games.add(new Nosto());
+        games.add(new Ivris());
         games.add(new Umbra());
         games.add(new Form());
         games.add(new BlazingEmerald());
@@ -83,6 +86,12 @@ public class GameRegistry {
         games.add(new Atlas());
         games.add(new Amavi());
         games.add(new Cyare());
+        games.add(new Ferran());
+        games.add(new Mahal());
+        games.add(new Fabel());
+        games.add(new Aroma());
+        games.add(new Sahl());
+        games.add(new Elb());
         games.add(new Goetia());
     }
 }

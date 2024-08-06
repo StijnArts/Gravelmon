@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:breestaa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_breestaa",
+      "texture": "cobblemon:textures/pokemon/arom/breestaa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/breestaa_shiny.png"
+    }
+  ]
+}

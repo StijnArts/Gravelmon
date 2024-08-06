@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ratoxicate",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_ratoxicate",
+      "texture": "cobblemon:textures/pokemon/fabel/ratoxicate.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/ratoxicate_shiny.png"
+    }
+  ]
+}

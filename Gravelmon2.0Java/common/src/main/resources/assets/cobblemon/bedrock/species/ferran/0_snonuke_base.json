@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:snonuke",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_snonuke",
+      "texture": "cobblemon:textures/pokemon/ferran/snonuke.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/snonuke_shiny.png"
+    }
+  ]
+}

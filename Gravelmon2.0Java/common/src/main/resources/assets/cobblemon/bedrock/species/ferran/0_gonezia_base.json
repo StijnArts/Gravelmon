@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gonezia",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_gonezia",
+      "texture": "cobblemon:textures/pokemon/ferran/gonezia.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/gonezia_shiny.png"
+    }
+  ]
+}

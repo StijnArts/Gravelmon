@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shrookle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_shrookle",
+      "texture": "cobblemon:textures/pokemon/fabel/shrookle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/shrookle_shiny.png"
+    }
+  ]
+}

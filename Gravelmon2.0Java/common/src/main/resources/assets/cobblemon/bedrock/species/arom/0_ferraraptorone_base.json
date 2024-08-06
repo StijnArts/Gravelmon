@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ferraraptorone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_ferraraptorone",
+      "texture": "cobblemon:textures/pokemon/arom/ferraraptorone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/ferraraptorone_shiny.png"
+    }
+  ]
+}

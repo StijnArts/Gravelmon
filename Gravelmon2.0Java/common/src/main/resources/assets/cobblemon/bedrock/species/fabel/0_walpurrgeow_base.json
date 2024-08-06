@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:walpurrgeow",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_walpurrgeow",
+      "texture": "cobblemon:textures/pokemon/fabel/walpurrgeow.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/walpurrgeow_shiny.png"
+    }
+  ]
+}

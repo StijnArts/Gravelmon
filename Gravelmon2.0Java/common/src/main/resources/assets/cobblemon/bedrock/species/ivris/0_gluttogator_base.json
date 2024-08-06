@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gluttogator",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_gluttogator",
+      "texture": "cobblemon:textures/pokemon/ivris/gluttogator.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/gluttogator_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dusdreacub",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_dusdreacub",
+      "texture": "cobblemon:textures/pokemon/mahal/dusdreacub.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/dusdreacub_shiny.png"
+    }
+  ]
+}

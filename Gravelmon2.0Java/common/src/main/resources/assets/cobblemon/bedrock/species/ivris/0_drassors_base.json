@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:drassors",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_drassors",
+      "texture": "cobblemon:textures/pokemon/ivris/drassors.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/drassors_shiny.png"
+    }
+  ]
+}

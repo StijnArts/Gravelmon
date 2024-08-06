@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dontiff",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_dontiff",
+      "texture": "cobblemon:textures/pokemon/ivris/dontiff.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/dontiff_shiny.png"
+    }
+  ]
+}

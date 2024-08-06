@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:prosciuthough",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_prosciuthough",
+      "texture": "cobblemon:textures/pokemon/ivris/prosciuthough.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/prosciuthough_shiny.png"
+    }
+  ]
+}

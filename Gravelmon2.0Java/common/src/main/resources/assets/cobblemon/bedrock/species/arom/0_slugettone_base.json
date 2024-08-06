@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:slugettone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_slugettone",
+      "texture": "cobblemon:textures/pokemon/arom/slugettone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/slugettone_shiny.png"
+    }
+  ]
+}

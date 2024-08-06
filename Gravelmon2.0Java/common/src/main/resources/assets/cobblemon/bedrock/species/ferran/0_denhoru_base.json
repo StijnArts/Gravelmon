@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:denhoru",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_denhoru",
+      "texture": "cobblemon:textures/pokemon/ferran/denhoru.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/denhoru_shiny.png"
+    }
+  ]
+}

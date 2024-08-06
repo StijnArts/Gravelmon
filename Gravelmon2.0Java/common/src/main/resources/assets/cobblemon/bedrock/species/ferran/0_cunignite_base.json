@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cunignite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_cunignite",
+      "texture": "cobblemon:textures/pokemon/ferran/cunignite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/cunignite_shiny.png"
+    }
+  ]
+}

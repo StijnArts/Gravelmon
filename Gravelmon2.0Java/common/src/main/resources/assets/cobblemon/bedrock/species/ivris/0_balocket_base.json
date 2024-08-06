@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:balocket",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_balocket",
+      "texture": "cobblemon:textures/pokemon/ivris/balocket.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/balocket_shiny.png"
+    }
+  ]
+}

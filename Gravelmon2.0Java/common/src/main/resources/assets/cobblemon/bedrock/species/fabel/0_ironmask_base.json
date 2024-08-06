@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ironmask",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_ironmask",
+      "texture": "cobblemon:textures/pokemon/fabel/ironmask.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/ironmask_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:basiria",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_basiria",
+      "texture": "cobblemon:textures/pokemon/fabel/basiria.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/basiria_shiny.png"
+    }
+  ]
+}

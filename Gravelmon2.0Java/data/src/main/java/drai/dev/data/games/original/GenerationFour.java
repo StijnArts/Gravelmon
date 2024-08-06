@@ -2,12 +2,13 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.africanus.regional.*;
+import drai.dev.data.pokemon.arom.regional.*;
+import drai.dev.data.pokemon.fabel.regional.*;
 import drai.dev.data.pokemon.ionos.regional.*;
-import drai.dev.data.pokemon.nodorro.regional.*;
-import drai.dev.data.pokemon.pastelisland.regional.*;
+import drai.dev.data.pokemon.ivris.regional.*;
+import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
-import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.azure.regional.*;
@@ -46,6 +47,25 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
+
+        pokemon.add(new AromianGabite("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+        pokemon.add(new AromianGarchomp("", Aspect.AROMIAN).setUsesBigModel());
+
+        pokemon.add(new FabelianSnover("", Aspect.FABELIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FabelianChatot("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianPachirisu("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianGlameow("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianBidoof("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianBibarel("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianSnorunt("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianCherubi("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new MahalianMantyke("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianSpiritomb("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianHippopotas("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianHippowdon("", Aspect.MAHALIAN).setUsesBigModel());
+
+        pokemon.add(new IvrisianRiolu("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+
         pokemon.add(new PalmianGible("", Aspect.PALMIAN).setUsesBigModel()); //TODO
         pokemon.add(new PalmianGabite("", Aspect.PALMIAN).setUsesBigModel());
         pokemon.add(new PalmianGarchomp("", Aspect.PALMIAN, new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK, StatType.ATTACK))).setUsesBigModel());

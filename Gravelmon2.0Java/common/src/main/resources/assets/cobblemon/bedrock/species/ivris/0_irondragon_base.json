@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:irondragon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_irondragon",
+      "texture": "cobblemon:textures/pokemon/ivris/irondragon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/irondragon_shiny.png"
+    }
+  ]
+}

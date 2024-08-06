@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:casanoistra",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_casanoistra",
+      "texture": "cobblemon:textures/pokemon/ferran/casanoistra.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/casanoistra_shiny.png"
+    }
+  ]
+}

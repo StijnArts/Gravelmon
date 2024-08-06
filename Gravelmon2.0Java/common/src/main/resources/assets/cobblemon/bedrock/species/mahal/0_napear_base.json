@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:napear",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_napear",
+      "texture": "cobblemon:textures/pokemon/mahal/napear.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/napear_shiny.png"
+    }
+  ]
+}

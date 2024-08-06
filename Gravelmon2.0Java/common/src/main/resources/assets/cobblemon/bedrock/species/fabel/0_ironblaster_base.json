@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ironblaster",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_ironblaster",
+      "texture": "cobblemon:textures/pokemon/fabel/ironblaster.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/ironblaster_shiny.png"
+    }
+  ]
+}

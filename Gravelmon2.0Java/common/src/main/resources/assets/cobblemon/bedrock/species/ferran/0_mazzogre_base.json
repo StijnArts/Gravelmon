@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mazzogre",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_mazzogre",
+      "texture": "cobblemon:textures/pokemon/ferran/mazzogre.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/mazzogre_shiny.png"
+    }
+  ]
+}

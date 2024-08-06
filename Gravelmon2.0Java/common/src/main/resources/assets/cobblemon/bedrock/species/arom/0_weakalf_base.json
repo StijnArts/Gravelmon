@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:weakalf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_weakalf",
+      "texture": "cobblemon:textures/pokemon/arom/weakalf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/weakalf_shiny.png"
+    }
+  ]
+}

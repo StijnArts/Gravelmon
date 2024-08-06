@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:starshep",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_starshep",
+      "texture": "cobblemon:textures/pokemon/mahal/starshep.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/starshep_shiny.png"
+    }
+  ]
+}

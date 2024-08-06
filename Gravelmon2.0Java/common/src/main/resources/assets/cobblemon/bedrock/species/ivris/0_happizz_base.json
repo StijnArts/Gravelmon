@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:happizz",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_happizz",
+      "texture": "cobblemon:textures/pokemon/ivris/happizz.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/happizz_shiny.png"
+    }
+  ]
+}

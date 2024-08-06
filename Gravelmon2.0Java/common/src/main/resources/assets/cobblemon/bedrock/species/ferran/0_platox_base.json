@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:platox",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_platox",
+      "texture": "cobblemon:textures/pokemon/ferran/platox.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/platox_shiny.png"
+    }
+  ]
+}

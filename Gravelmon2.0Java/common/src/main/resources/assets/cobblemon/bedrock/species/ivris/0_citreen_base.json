@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:citreen",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_citreen",
+      "texture": "cobblemon:textures/pokemon/ivris/citreen.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/citreen_shiny.png"
+    }
+  ]
+}

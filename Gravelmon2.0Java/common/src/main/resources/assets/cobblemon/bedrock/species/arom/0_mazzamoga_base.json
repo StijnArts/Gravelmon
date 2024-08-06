@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mazzamoga",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_mazzamoga",
+      "texture": "cobblemon:textures/pokemon/arom/mazzamoga.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/mazzamoga_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lemlin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_lemlin",
+      "texture": "cobblemon:textures/pokemon/arom/lemlin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/lemlin_shiny.png"
+    }
+  ]
+}

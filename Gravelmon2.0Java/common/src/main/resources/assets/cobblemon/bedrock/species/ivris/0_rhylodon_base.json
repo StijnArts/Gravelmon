@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rhylodon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_rhylodon",
+      "texture": "cobblemon:textures/pokemon/ivris/rhylodon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/rhylodon_shiny.png"
+    }
+  ]
+}

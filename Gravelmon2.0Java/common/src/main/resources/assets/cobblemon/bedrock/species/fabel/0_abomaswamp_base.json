@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:abomaswamp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_abomaswamp",
+      "texture": "cobblemon:textures/pokemon/fabel/abomaswamp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/abomaswamp_shiny.png"
+    }
+  ]
+}

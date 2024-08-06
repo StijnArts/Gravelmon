@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.arom.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
@@ -19,6 +20,9 @@ public class GenerationNine extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new AromianSmoliv("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+        pokemon.add(new AromianDolliv("", Aspect.AROMIAN).setUsesBigModel());
+
         registerSoulstoneMons();
 
         pokemon.add(new QamoranRabsca("", Aspect.QAMORAN));

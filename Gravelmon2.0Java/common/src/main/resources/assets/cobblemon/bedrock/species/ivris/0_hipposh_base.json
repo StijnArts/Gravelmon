@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hipposh",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_hipposh",
+      "texture": "cobblemon:textures/pokemon/ivris/hipposh.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/hipposh_shiny.png"
+    }
+  ]
+}

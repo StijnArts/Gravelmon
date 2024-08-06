@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:priwabor",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_priwabor",
+      "texture": "cobblemon:textures/pokemon/mahal/priwabor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/priwabor_shiny.png"
+    }
+  ]
+}

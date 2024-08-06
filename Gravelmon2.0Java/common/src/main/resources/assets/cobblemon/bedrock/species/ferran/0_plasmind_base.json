@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:plasmind",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_plasmind",
+      "texture": "cobblemon:textures/pokemon/ferran/plasmind.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/plasmind_shiny.png"
+    }
+  ]
+}

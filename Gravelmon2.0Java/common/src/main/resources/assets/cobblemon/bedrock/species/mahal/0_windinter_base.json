@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:windinter",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_windinter",
+      "texture": "cobblemon:textures/pokemon/mahal/windinter.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/windinter_shiny.png"
+    }
+  ]
+}

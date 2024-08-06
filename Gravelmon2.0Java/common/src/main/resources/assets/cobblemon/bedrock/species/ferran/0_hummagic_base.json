@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hummagic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_hummagic",
+      "texture": "cobblemon:textures/pokemon/ferran/hummagic.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/hummagic_shiny.png"
+    }
+  ]
+}

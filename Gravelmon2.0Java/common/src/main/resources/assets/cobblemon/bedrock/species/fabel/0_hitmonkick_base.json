@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hitmonkick",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_hitmonkick",
+      "texture": "cobblemon:textures/pokemon/fabel/hitmonkick.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/hitmonkick_shiny.png"
+    }
+  ]
+}

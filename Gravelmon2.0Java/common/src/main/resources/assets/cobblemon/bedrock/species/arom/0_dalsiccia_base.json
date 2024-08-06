@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dalsiccia",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_dalsiccia",
+      "texture": "cobblemon:textures/pokemon/arom/dalsiccia.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/dalsiccia_shiny.png"
+    }
+  ]
+}

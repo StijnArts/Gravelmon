@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:koincarp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_koincarp",
+      "texture": "cobblemon:textures/pokemon/mahal/koincarp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/koincarp_shiny.png"
+    }
+  ]
+}

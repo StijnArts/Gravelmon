@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:wrrazal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_wrrazal",
+      "texture": "cobblemon:textures/pokemon/ivris/wrrazal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/wrrazal_shiny.png"
+    }
+  ]
+}

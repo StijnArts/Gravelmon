@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:monsarella",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_monsarella",
+      "texture": "cobblemon:textures/pokemon/ivris/monsarella.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/monsarella_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:braxanist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_braxanist",
+      "texture": "cobblemon:textures/pokemon/ivris/braxanist.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/braxanist_shiny.png"
+    }
+  ]
+}

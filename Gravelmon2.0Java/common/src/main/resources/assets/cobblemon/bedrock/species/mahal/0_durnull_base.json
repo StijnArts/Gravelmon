@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:durnull",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_durnull",
+      "texture": "cobblemon:textures/pokemon/mahal/durnull.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/durnull_shiny.png"
+    }
+  ]
+}

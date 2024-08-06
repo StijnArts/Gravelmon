@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cutelon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_cutelon",
+      "texture": "cobblemon:textures/pokemon/arom/cutelon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/cutelon_shiny.png"
+    }
+  ]
+}

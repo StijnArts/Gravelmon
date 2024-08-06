@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chamaelik",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_chamaelik",
+      "texture": "cobblemon:textures/pokemon/ferran/chamaelik.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/chamaelik_shiny.png"
+    }
+  ]
+}

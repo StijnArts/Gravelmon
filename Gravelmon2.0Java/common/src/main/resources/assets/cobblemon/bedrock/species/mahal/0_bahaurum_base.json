@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bahaurum",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_bahaurum",
+      "texture": "cobblemon:textures/pokemon/mahal/bahaurum.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/bahaurum_shiny.png"
+    }
+  ]
+}

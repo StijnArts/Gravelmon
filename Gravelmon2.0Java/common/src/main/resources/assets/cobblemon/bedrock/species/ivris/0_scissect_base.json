@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:scissect",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_scissect",
+      "texture": "cobblemon:textures/pokemon/ivris/scissect.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/scissect_shiny.png"
+    }
+  ]
+}

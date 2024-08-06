@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dumonke",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_dumonke",
+      "texture": "cobblemon:textures/pokemon/mahal/dumonke.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/dumonke_shiny.png"
+    }
+  ]
+}

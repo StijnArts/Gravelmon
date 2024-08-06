@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:thoraco",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_thoraco",
+      "texture": "cobblemon:textures/pokemon/ferran/thoraco.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/thoraco_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sabandolin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_sabandolin",
+      "texture": "cobblemon:textures/pokemon/mahal/sabandolin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/sabandolin_shiny.png"
+    }
+  ]
+}

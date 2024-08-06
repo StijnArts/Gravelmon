@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ferreon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_ferreon",
+      "texture": "cobblemon:textures/pokemon/ivris/ferreon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/ferreon_shiny.png"
+    }
+  ]
+}

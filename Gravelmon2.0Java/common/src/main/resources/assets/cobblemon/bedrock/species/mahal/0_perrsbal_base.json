@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:perrsbal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_perrsbal",
+      "texture": "cobblemon:textures/pokemon/mahal/perrsbal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/perrsbal_shiny.png"
+    }
+  ]
+}

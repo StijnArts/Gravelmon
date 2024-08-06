@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:spander",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_spander",
+      "texture": "cobblemon:textures/pokemon/ivris/spander.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/spander_shiny.png"
+    }
+  ]
+}

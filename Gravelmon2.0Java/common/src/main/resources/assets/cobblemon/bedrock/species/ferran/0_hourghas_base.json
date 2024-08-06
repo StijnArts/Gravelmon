@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hourghas",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_hourghas",
+      "texture": "cobblemon:textures/pokemon/ferran/hourghas.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/hourghas_shiny.png"
+    }
+  ]
+}

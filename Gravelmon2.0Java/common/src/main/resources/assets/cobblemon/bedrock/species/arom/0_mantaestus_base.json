@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mantaestus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_mantaestus",
+      "texture": "cobblemon:textures/pokemon/arom/mantaestus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/mantaestus_shiny.png"
+    }
+  ]
+}

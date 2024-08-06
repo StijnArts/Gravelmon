@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:reptifia",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_reptifia",
+      "texture": "cobblemon:textures/pokemon/arom/reptifia.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/reptifia_shiny.png"
+    }
+  ]
+}

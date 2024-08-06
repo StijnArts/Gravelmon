@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dutchmise",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_dutchmise",
+      "texture": "cobblemon:textures/pokemon/fabel/dutchmise.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/dutchmise_shiny.png"
+    }
+  ]
+}

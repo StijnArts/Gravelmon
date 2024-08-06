@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:whislong",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_whislong",
+      "texture": "cobblemon:textures/pokemon/ferran/whislong.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/whislong_shiny.png"
+    }
+  ]
+}

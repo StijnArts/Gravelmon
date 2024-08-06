@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:woodendurr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_woodendurr",
+      "texture": "cobblemon:textures/pokemon/fabel/woodendurr.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/woodendurr_shiny.png"
+    }
+  ]
+}

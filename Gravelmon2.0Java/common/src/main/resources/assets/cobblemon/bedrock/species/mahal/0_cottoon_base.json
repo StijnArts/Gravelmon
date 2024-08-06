@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cottoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_cottoon",
+      "texture": "cobblemon:textures/pokemon/mahal/cottoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/cottoon_shiny.png"
+    }
+  ]
+}

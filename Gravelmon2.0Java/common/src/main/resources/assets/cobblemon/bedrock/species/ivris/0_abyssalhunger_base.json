@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:abyssalhunger",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_abyssalhunger",
+      "texture": "cobblemon:textures/pokemon/ivris/abyssalhunger.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/abyssalhunger_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:purrlite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_purrlite",
+      "texture": "cobblemon:textures/pokemon/fabel/purrlite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/purrlite_shiny.png"
+    }
+  ]
+}

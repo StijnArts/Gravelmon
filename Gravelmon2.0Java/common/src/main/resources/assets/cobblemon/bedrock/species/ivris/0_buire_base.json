@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:buire",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_buire",
+      "texture": "cobblemon:textures/pokemon/ivris/buire.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/buire_shiny.png"
+    }
+  ]
+}

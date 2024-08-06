@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:capronze",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_capronze",
+      "texture": "cobblemon:textures/pokemon/mahal/capronze.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/capronze_shiny.png"
+    }
+  ]
+}

@@ -2,13 +2,13 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
+import drai.dev.data.pokemon.arom.regional.*;
 import drai.dev.data.pokemon.chaosinvestia.*;
 import drai.dev.data.pokemon.chaosinvestia.regional.*;
-import drai.dev.data.pokemon.ionos.regional.*;
+import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
-import drai.dev.data.pokemon.pastelisland.regional.*;
+import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
-import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
@@ -31,6 +31,14 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new AromianSpritzee("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+        pokemon.add(new AromianAromatisse("", Aspect.AROMIAN).setUsesBigModel());
+
+        pokemon.add(new MahalianBunnelby("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+        pokemon.add(new MahalianDiggersby("", Aspect.MAHALIAN).setUsesBigModel());
+
+        pokemon.add(new IvrisianSpritzee("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+
 //        pokemon.add(new PastelianFlabebe("", Aspect.PASTELIAN)); TODO
 //        pokemon.add(new PastelianFloette("", Aspect.PASTELIAN));
 

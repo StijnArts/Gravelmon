@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vivijaka",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_vivijaka",
+      "texture": "cobblemon:textures/pokemon/mahal/vivijaka.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/vivijaka_shiny.png"
+    }
+  ]
+}

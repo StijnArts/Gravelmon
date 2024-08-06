@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:platypuf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_platypuf",
+      "texture": "cobblemon:textures/pokemon/ferran/platypuf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/platypuf_shiny.png"
+    }
+  ]
+}

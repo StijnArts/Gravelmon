@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:viperoyal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_viperoyal",
+      "texture": "cobblemon:textures/pokemon/ivris/viperoyal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/viperoyal_shiny.png"
+    }
+  ]
+}

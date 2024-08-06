@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:varanion",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_varanion",
+      "texture": "cobblemon:textures/pokemon/ivris/varanion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/varanion_shiny.png"
+    }
+  ]
+}

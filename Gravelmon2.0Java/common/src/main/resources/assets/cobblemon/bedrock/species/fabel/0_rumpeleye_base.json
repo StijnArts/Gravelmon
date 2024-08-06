@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:rumpeleye",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_rumpeleye",
+      "texture": "cobblemon:textures/pokemon/fabel/rumpeleye.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/rumpeleye_shiny.png"
+    }
+  ]
+}

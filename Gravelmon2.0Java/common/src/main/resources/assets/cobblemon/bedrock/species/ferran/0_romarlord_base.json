@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:romarlord",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_romarlord",
+      "texture": "cobblemon:textures/pokemon/ferran/romarlord.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/romarlord_shiny.png"
+    }
+  ]
+}

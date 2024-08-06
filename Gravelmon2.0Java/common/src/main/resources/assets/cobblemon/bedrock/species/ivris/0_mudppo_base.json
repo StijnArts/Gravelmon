@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mudppo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_mudppo",
+      "texture": "cobblemon:textures/pokemon/ivris/mudppo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/mudppo_shiny.png"
+    }
+  ]
+}

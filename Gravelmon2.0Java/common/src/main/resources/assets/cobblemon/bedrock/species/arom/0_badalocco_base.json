@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:badalocco",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_badalocco",
+      "texture": "cobblemon:textures/pokemon/arom/badalocco.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/badalocco_shiny.png"
+    }
+  ]
+}

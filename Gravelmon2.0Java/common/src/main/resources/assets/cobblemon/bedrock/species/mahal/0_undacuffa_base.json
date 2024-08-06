@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:undacuffa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_undacuffa",
+      "texture": "cobblemon:textures/pokemon/mahal/undacuffa.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/undacuffa_shiny.png"
+    }
+  ]
+}

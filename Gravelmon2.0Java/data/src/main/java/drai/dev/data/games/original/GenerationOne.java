@@ -2,14 +2,14 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.africanus.regional.*;
+import drai.dev.data.pokemon.fabel.regional.*;
+import drai.dev.data.pokemon.ferran.regional.*;
 import drai.dev.data.pokemon.form.regional.*;
 import drai.dev.data.pokemon.ionos.regional.*;
-import drai.dev.data.pokemon.mastenia.regional.*;
-import drai.dev.data.pokemon.nodorro.regional.*;
-import drai.dev.data.pokemon.pastelisland.regional.*;
+import drai.dev.data.pokemon.ivris.regional.*;
+import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
-import drai.dev.data.pokemon.theos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.aristos.regional.*;
@@ -49,6 +49,35 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new FabelianOddish("", Aspect.FABELIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FabelianGloom("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianOnix("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianPoliwag("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianPoliwhirl("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMeowth("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianRattata("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianSeel("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianDewgong("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianJynx("", Aspect.FABELIAN).setUsesBigModel());
+
+        pokemon.add(new MahalianMeowth("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+        pokemon.add(new MahalianMankey("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianDratini("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianDragonair("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianStaryu("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianRaichu("", Aspect.MAHALIAN).setUsesBigModel());
+
+        pokemon.add(new FerranianRhyhorn("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FerranianMeowth("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FerranianMachop("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianMachoke("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianMachamp("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianLapras("", Aspect.FERRANIAN).setUsesBigModel());
+
+        pokemon.add(new IvrisianMeowth("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+        pokemon.add(new IvrisianMagikarp("", Aspect.IVRISIAN).setUsesBigModel());
+        pokemon.add(new IvrisianGyarados("", Aspect.IVRISIAN).setUsesBigModel());
+
         pokemon.add(new PalmianRattata("", Aspect.PALMIAN).setUsesBigModel()); //TODO
         pokemon.add(new PalmianRaticate("", Aspect.PALMIAN).setUsesBigModel());
         pokemon.add(new PalmianGastly("", Aspect.PALMIAN).setUsesBigModel());

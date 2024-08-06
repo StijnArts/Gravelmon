@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:roughblades",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_roughblades",
+      "texture": "cobblemon:textures/pokemon/ivris/roughblades.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/roughblades_shiny.png"
+    }
+  ]
+}

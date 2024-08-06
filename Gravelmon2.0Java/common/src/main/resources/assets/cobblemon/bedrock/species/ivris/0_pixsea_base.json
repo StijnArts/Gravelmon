@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:pixsea",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_pixsea",
+      "texture": "cobblemon:textures/pokemon/ivris/pixsea.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/pixsea_shiny.png"
+    }
+  ]
+}

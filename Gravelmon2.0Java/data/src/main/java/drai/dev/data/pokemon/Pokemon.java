@@ -361,6 +361,7 @@ public class Pokemon {
             if (pokemon.stats.isEmpty()) {
                 pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
             }
+            if (pokemon.getAbilities().isEmpty()) pokemon.getAbilities().add(Ability.KEEN_EYE);
             if (pokemon.getAbilities().contains(pokemon.hiddenAbility)) {
                 pokemon.hiddenAbility = null;
             }

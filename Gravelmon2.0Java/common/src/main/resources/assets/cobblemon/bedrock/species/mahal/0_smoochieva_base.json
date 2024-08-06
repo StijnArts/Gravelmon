@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:smoochieva",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_smoochieva",
+      "texture": "cobblemon:textures/pokemon/mahal/smoochieva.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/smoochieva_shiny.png"
+    }
+  ]
+}

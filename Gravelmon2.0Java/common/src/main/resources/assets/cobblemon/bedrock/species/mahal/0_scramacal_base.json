@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:scramacal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:mahal_scramacal",
+      "texture": "cobblemon:textures/pokemon/mahal/scramacal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mahal/scramacal_shiny.png"
+    }
+  ]
+}

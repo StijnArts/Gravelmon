@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:meleenee",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ferran_meleenee",
+      "texture": "cobblemon:textures/pokemon/ferran/meleenee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferran/meleenee_shiny.png"
+    }
+  ]
+}

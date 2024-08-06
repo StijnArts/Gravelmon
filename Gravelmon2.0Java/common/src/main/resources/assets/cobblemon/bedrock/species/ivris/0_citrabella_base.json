@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:citrabella",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_citrabella",
+      "texture": "cobblemon:textures/pokemon/ivris/citrabella.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/citrabella_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gigargolith",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_gigargolith",
+      "texture": "cobblemon:textures/pokemon/arom/gigargolith.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/gigargolith_shiny.png"
+    }
+  ]
+}

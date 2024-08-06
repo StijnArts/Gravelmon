@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ironjet",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_ironjet",
+      "texture": "cobblemon:textures/pokemon/ivris/ironjet.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/ironjet_shiny.png"
+    }
+  ]
+}

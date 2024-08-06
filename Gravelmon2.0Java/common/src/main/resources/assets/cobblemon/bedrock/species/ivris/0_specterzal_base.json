@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:specterzal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_specterzal",
+      "texture": "cobblemon:textures/pokemon/ivris/specterzal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/specterzal_shiny.png"
+    }
+  ]
+}

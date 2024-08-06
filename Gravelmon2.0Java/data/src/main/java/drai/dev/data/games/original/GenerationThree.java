@@ -1,8 +1,12 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.elb.regional.*;
+import drai.dev.data.pokemon.fabel.regional.*;
+import drai.dev.data.pokemon.ferran.regional.*;
 import drai.dev.data.pokemon.form.regional.*;
 import drai.dev.data.pokemon.ionos.regional.*;
+import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.mastenia.*;
 import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.mystis.regional.*;
@@ -47,6 +51,33 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+
+        pokemon.add(new FabelianRalts("", Aspect.FABELIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FabelianKirlia("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianSableye("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianSwablu("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianBeldum("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMetang("", Aspect.FABELIAN).setUsesBigModel());
+        pokemon.add(new FabelianMetagross("", Aspect.FABELIAN).setUsesBigModel());
+
+        pokemon.add(new MahalianTorkoal("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+        pokemon.add(new MahalianPoochyena("", Aspect.MAHALIAN).setUsesBigModel());
+        pokemon.add(new MahalianMightyena("", Aspect.MAHALIAN).setUsesBigModel());
+
+        pokemon.add(new ElbianSlakoth("", Aspect.ELBIAN).setUsesBigModel()); //TODO
+        pokemon.add(new ElbianVigoroth("", Aspect.ELBIAN).setUsesBigModel());
+        pokemon.add(new ElbianGulpin("", Aspect.ELBIAN).setUsesBigModel());
+        pokemon.add(new ElbianSwalot("", Aspect.ELBIAN).setUsesBigModel());
+
+        pokemon.add(new FerranianBarboach("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+        pokemon.add(new FerranianWhiscash("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianSlakoth("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianVigoroth("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianWailord("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianBagon("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianShelgon("", Aspect.FERRANIAN).setUsesBigModel());
+        pokemon.add(new FerranianSalamence("", Aspect.FERRANIAN).setUsesBigModel());
+
         pokemon.add(new RaianianWhismur("", Aspect.RAIANIAN).setUsesBigModel()); //TODO
         pokemon.add(new RaianianLoudred("", Aspect.RAIANIAN).setUsesBigModel());
         pokemon.add(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490, PHYSICAL_ATTACKER, List.of(HP))).setUsesBigModel());

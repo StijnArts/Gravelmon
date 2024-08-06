@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:loafelon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_loafelon",
+      "texture": "cobblemon:textures/pokemon/arom/loafelon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/loafelon_shiny.png"
+    }
+  ]
+}

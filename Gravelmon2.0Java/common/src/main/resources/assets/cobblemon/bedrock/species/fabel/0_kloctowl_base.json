@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kloctowl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_kloctowl",
+      "texture": "cobblemon:textures/pokemon/fabel/kloctowl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/kloctowl_shiny.png"
+    }
+  ]
+}

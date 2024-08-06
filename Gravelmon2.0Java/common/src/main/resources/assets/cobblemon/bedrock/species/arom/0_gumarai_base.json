@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gumarai",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_gumarai",
+      "texture": "cobblemon:textures/pokemon/arom/gumarai.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/gumarai_shiny.png"
+    }
+  ]
+}

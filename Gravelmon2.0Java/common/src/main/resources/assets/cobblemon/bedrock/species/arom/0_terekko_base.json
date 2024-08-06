@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:terekko",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_terekko",
+      "texture": "cobblemon:textures/pokemon/arom/terekko.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/terekko_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:furiouspunches",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_furiouspunches",
+      "texture": "cobblemon:textures/pokemon/ivris/furiouspunches.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/furiouspunches_shiny.png"
+    }
+  ]
+}

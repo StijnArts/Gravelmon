@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:domoru",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:sahl_domoru",
+      "texture": "cobblemon:textures/pokemon/sahl/domoru.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sahl/domoru_shiny.png"
+    }
+  ]
+}

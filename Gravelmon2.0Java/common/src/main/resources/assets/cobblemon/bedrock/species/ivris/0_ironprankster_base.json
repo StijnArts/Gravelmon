@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ironprankster",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_ironprankster",
+      "texture": "cobblemon:textures/pokemon/ivris/ironprankster.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/ironprankster_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:stonleaner",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_stonleaner",
+      "texture": "cobblemon:textures/pokemon/arom/stonleaner.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/stonleaner_shiny.png"
+    }
+  ]
+}

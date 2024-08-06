@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:schattenwolf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_schattenwolf",
+      "texture": "cobblemon:textures/pokemon/fabel/schattenwolf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/schattenwolf_shiny.png"
+    }
+  ]
+}

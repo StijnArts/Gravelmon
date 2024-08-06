@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:santhill",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_santhill",
+      "texture": "cobblemon:textures/pokemon/arom/santhill.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/santhill_shiny.png"
+    }
+  ]
+}

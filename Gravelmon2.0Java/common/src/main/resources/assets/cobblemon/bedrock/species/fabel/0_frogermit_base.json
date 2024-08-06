@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:frogermit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_frogermit",
+      "texture": "cobblemon:textures/pokemon/fabel/frogermit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/frogermit_shiny.png"
+    }
+  ]
+}

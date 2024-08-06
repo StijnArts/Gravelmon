@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gardefleur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:fabel_gardefleur",
+      "texture": "cobblemon:textures/pokemon/fabel/gardefleur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fabel/gardefleur_shiny.png"
+    }
+  ]
+}
