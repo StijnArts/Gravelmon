@@ -1,0 +1,101 @@
+{
+  "implemented": true,
+  "name": "nymphemeral",
+  "nationalPokedexNumber": 4013,
+  "primaryType": "bug",
+  "secondaryType": "ghost",
+  "abilities": [
+    "cursedbody",
+    "shadowtag",
+    "h:perishbody"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 85,
+    "special_attack": 85,
+    "special_defence": 90,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canWalkOnWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 158,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:dig",
+    "1:falseswipe",
+    "1:grudge",
+    "1:harden",
+    "1:metalclaw",
+    "1:mudslap",
+    "1:sandattack",
+    "1:scratch",
+    "1:shadowclaw",
+    "15:confuseray",
+    "23:absorb",
+    "29:shadowsneak",
+    "36:furyswipes",
+    "43:mindreader",
+    "50:shadowball",
+    "57:spite",
+    "64:phantomforce"  ],
+  "labels": [
+    "mythire",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.nymphemeral.desc"
+  ],
+  "preEvolution": "maynoon",
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochvenonat-1",
+      "pokemon": "venonat epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+,
+    {
+      "id": "hizianvenonat-1",
+      "pokemon": "venonat hizian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "hoennianvenonat-1",
+      "pokemon": "venonat hoennian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "timeRange": "night",
+        "canSeeSky": false
+      }
+    }
+,
+    {
+      "id": "ayreianvenonat-1",
+      "pokemon": "venonat ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "7-31",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_sandy" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

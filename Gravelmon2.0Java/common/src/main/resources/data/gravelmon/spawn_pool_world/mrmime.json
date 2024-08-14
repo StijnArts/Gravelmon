@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochmrmime-1",
+      "pokemon": "mrmime epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-43",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
+      "id": "avorianmrmime-1",
+      "pokemon": "mrmime avorian",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-46",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_freezing" ]    }
+    }
+
+]
+}

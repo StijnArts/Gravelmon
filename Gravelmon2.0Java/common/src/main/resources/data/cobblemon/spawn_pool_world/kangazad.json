@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kangazad-1",
+      "pokemon": "kangazad",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "1-23",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+   "target": "cobblemon:sabolt",
+   "forms": [{
+  "name": "Terrestrial",
+  "primaryType": "electric",
+  "secondaryType": "dark",
+  "abilities": [
+    "intimidate"  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 66,
+    "defence": 70,
+    "special_attack": 78,
+    "special_defence": 68,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
+  "moves": [
+    "1:thunderpunch",
+    "1:knockoff",
+    "1:meanlook",
+    "1:thundershock",
+    "1:tackle",
+    "6:pursuit",
+    "8:embargo",
+    "13:assurance",
+    "18:shockwave",
+    "23:suckerpunch",
+    "28:scaryface",
+    "32:thunderbolt",
+    "36:discharge",
+    "40:nastyplot",
+    "45:nightdaze",
+    "51:glare",
+    "56:phantomforce",
+    "61:volttackle",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:round",
+    "tm:chargebeam",
+    "tm:brutalswing",
+    "tm:embargo",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:darkpulse",
+    "tutor:electroweb",
+    "tutor:flash",
+    "tutor:foulplay",
+    "tutor:knockoff",
+    "tutor:magnetrise",
+    "tutor:secretpower",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:snore"  ],
+  "labels": [
+    "xenoverse",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.saboltterrestrial.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sabolt_sabolt_terrestrialfalse",
+      "variant": "level_up",
+      "result": "sabolt terrestrial=false",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "sabolt_sabolt_xenoversal",
+      "variant": "level_up",
+      "result": "sabolt xenoversal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:xenoversal_ring"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 8,
+  "weight": 217,
+  "aspects": ["terrestrial"],
+  "cannotDynamax": false
+},
+{
+  "name": "Xenoversal",
+  "primaryType": "electric",
+  "secondaryType": "dark",
+  "abilities": [
+    "download"  ],
+  "baseStats": {
+    "hp": 118,
+    "attack": 67,
+    "defence": 123,
+    "special_attack": 142,
+    "special_defence": 90,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:eerieimpulse",
+    "1:darkeningbolt",
+    "1:metalburst",
+    "1:crunch",
+    "1:meanlook",
+    "1:thundershock",
+    "1:flamethrower",
+    "1:scald",
+    "1:dragonpulse",
+    "1:dazzlinggleam",
+    "1:energyball",
+    "1:hypervoice",
+    "1:flashcannon",
+    "1:tackle",
+    "6:pursuit",
+    "8:embargo",
+    "13:assurance",
+    "18:shockwave",
+    "23:suckerpunch",
+    "28:scaryface",
+    "32:thunderbolt",
+    "36:darkeningbolt",
+    "40:nastyplot",
+    "45:nightdaze",
+    "51:glare",
+    "56:throatchop",
+    "61:volttackle",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:round",
+    "tm:chargebeam",
+    "tm:brutalswing",
+    "tm:embargo",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:darkpulse",
+    "tutor:electroweb",
+    "tutor:flash",
+    "tutor:foulplay",
+    "tutor:knockoff",
+    "tutor:magnetrise",
+    "tutor:secretpower",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:snore"  ],
+  "labels": [
+    "xenoverse",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.saboltxenoversal.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sabolt_sabolt_terrestrial",
+      "variant": "level_up",
+      "result": "sabolt terrestrial",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:terrestrial_ring"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "sabolt_sabolt_xenoversalfalse",
+      "variant": "level_up",
+      "result": "sabolt xenoversal=false",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 17,
+  "weight": 1110,
+  "aspects": ["xenoversal"],
+  "cannotDynamax": false
+}
+], "features": [
+"terrestrial",
+"xenoversal"
+  ]
+}

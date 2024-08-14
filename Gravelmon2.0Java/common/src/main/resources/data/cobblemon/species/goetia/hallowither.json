@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "hallowither",
+  "nationalPokedexNumber": 6707,
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "abilities": [
+    "keeneye",
+    "h:grassysurge"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 80,
+    "defence": 120,
+    "special_attack": 80,
+    "special_defence": 95,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:scaryface",
+    "3:grasswhistle",
+    "6:nightshade",
+    "9:magicalleaf",
+    "13:confuseray",
+    "17:shadowsneak",
+    "20:feintattack",
+    "24:grassknot",
+    "27:willowisp",
+    "30:leafshield",
+    "34:shadowpunch",
+    "37:leafblade",
+    "40:faketears",
+    "47:painsplit",
+    "50:terrorize",
+    "54:destinybond",
+    "57:leafstorm"  ],
+  "labels": [
+    "goetia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hallowither.desc"
+  ],
+  "baseScale": 0.5666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 34,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

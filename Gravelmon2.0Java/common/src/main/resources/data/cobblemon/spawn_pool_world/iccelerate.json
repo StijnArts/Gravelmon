@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "iccelerate-1",
+      "pokemon": "iccelerate",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-54",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

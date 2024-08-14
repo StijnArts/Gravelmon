@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochgolurk-1",
+      "pokemon": "golurk epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "43-57",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep_dark" ]
+      }
+    }
+,
+    {
+      "id": "deltagolurk-1",
+      "pokemon": "golurk delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "44-70",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_desert" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "cefirangolurk-1",
+      "pokemon": "golurk cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "44-70",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+
+]
+}

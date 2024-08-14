@@ -1,0 +1,101 @@
+{
+  "implemented": true,
+  "name": "zaptenna",
+  "nationalPokedexNumber": 3011,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "abilities": [
+    "voltabsorb",
+    "static",
+    "h:lightningrod"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 105,
+    "special_defence": 90,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 214,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:tickle",
+    "4:leechlife",
+    "7:tickle",
+    "10:protect",
+    "15:strugglebug",
+    "21:shockwave",
+    "26:bugbite",
+    "31:stickyweb",
+    "36:discharge",
+    "42:charge",
+    "48:bugbuzz",
+    "54:thunderbolt",
+    "59:quiverdance",
+    "64:zapcannon",
+    "tm:confuseray",
+    "tm:signalbeam",
+    "tm:electroweb",
+    "tm:paraboliccharge"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.zaptenna.desc"
+  ],
+  "preEvolution": "zapcoon",
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

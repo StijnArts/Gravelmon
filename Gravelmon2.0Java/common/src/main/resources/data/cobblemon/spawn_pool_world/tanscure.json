@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tanscure-1",
+      "pokemon": "tanscure",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-36",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

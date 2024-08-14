@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "marchawk-1",
+      "pokemon": "marchawk",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "17-33",
+      "weight": 1.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains",
+"#cobblemon:is_forest" ]
+      }
+    }
+  ]
+}

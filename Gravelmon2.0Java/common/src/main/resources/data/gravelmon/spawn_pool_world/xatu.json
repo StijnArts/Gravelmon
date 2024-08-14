@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochxatu-1",
+      "pokemon": "xatu epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-47",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep_dark" ]
+      }
+    }
+,
+    {
+      "id": "ionosianxatu-1",
+      "pokemon": "xatu ionosian",
+      "presets": [
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "24-51",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": false
+      }
+    }
+
+]
+}

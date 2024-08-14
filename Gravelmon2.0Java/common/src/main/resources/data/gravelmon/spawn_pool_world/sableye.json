@@ -1,0 +1,91 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochsableye-1",
+      "pokemon": "sableye epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-44",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_wasteland" ]
+      }
+    }
+,
+    {
+      "id": "epochsableyeone-1",
+      "pokemon": "sableye epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "23-45",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "enjinniansableye-1",
+      "pokemon": "sableye enjinnian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-37",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "deltasableye-1",
+      "pokemon": "sableye delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-48",
+      "weight": 3.2,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_desert" ]
+      }
+    }
+,
+    {
+      "id": "cefiransableye-1",
+      "pokemon": "sableye cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-57",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": false
+      }
+    }
+
+]
+}

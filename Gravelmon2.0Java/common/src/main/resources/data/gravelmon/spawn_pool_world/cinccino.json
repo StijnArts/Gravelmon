@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochcinccino-1",
+      "pokemon": "cinccino epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-52",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
+      "id": "ayreiancinccino-1",
+      "pokemon": "cinccino ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "32-56",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_sandy" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+
+]
+}

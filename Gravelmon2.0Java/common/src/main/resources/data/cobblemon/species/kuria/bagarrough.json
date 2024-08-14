@@ -1,0 +1,99 @@
+{
+  "implemented": true,
+  "name": "bagarrough",
+  "nationalPokedexNumber": 4425,
+  "primaryType": "fighting",
+  "secondaryType": "ground",
+  "abilities": [
+    "opportunist",
+    "h:moxie"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 125,
+    "defence": 100,
+    "special_attack": 55,
+    "special_defence": 80,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 247,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:defensecurl",
+    "1:hornattack",
+    "1:rollout",
+    "1:sunnyday",
+    "7:bulldoze",
+    "14:taunt",
+    "21:rapidspin",
+    "28:brickbreak",
+    "35:stompingtantrum",
+    "42:knockoff",
+    "49:earthquake",
+    "56:gigaimpact",
+    "63:closecombat",
+    "70:endeavor",
+    "77:megahorn",
+    "84:headsmash",
+    "91:headlongrush"  ],
+  "labels": [
+    "kuria",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bagarrough.desc"
+  ],
+  "preEvolution": "tsandchi",
+  "baseScale": 0.3333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 20,
+  "weight": 1051,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

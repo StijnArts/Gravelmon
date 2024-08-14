@@ -1,0 +1,131 @@
+{
+  "implemented": true,
+  "name": "bouldalo",
+  "nationalPokedexNumber": 5864,
+  "primaryType": "normal",
+  "secondaryType": "rock",
+  "abilities": [
+    "moldbreaker",
+    "reckless"  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 135,
+    "defence": 80,
+    "special_attack": 55,
+    "special_defence": 65,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:growl",
+    "4:rocksmash",
+    "8:rockthrow",
+    "12:stomp",
+    "16:takedown",
+    "20:rockclimb",
+    "25:rockslide",
+    "29:rockclimb",
+    "33:rockpolish",
+    "37:earthquake",
+    "42:taunt",
+    "48:doubleedge",
+    "51:zenheadbutt",
+    "56:superpower",
+    "61:stealthrock",
+    "67:headsmash",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:doubleteam",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:followme",
+    "tm:rockwrecker"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bouldalo.desc"
+  ],
+  "preEvolution": "tamarawk",
+  "baseScale": 0.31666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

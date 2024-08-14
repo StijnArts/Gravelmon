@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochporygon-1",
+      "pokemon": "porygon epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "varitasianporygon-1",
+      "pokemon": "porygon varitasian",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lilyquack-1",
+      "pokemon": "lilyquack",
+      "presets": [
+          "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+  ]
+}

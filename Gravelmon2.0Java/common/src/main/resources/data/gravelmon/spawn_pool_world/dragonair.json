@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochdragonair-1",
+      "pokemon": "dragonair epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-45",
+      "weight": 1.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "isRaining": false,
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "norheimandragonair-1",
+      "pokemon": "dragonair norheiman",
+      "presets": [
+          "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "35-54",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "deltadragonair-1",
+      "pokemon": "dragonair delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "30-42",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_freshwater" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiandragonair-1",
+      "pokemon": "dragonair ayreian",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-54",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

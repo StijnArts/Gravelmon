@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "yuvirro-1",
+      "pokemon": "yuvirro",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "33-47",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest",
+"#cobblemon:is_grassland" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_jungle" ]    }
+    }
+  ]
+}

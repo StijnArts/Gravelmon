@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dralytra-1",
+      "pokemon": "dralytra",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "45-58",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+  ]
+}

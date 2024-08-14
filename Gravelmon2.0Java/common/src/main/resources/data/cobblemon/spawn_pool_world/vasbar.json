@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vasbar-1",
+      "pokemon": "vasbar",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-41",
+      "weight": 1.1,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+  ]
+}

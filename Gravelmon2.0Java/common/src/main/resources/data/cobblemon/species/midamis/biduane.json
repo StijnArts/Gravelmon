@@ -1,0 +1,136 @@
+{
+  "implemented": true,
+  "name": "biduane",
+  "nationalPokedexNumber": 4740,
+  "primaryType": "ghost",
+  "secondaryType": "flying",
+  "abilities": [
+    "naturalcure",
+    "h:rattled"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 50,
+    "special_attack": 45,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 220,
+  "maleRatio": 0.125,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:confide",
+    "7:safeguard",
+    "12:wingattack",
+    "15:ominouswind",
+    "18:confuseray",
+    "23:shadowball",
+    "26:featherdance",
+    "29:nightmare",
+    "34:tailwind",
+    "37:hypervoice",
+    "40:perishsong",
+    "tm:gust",
+    "tm:psychic",
+    "tm:mimic",
+    "tm:skyattack",
+    "tm:destinybond",
+    "tm:painsplit",
+    "tm:uproar",
+    "tm:willowisp"  ],
+  "labels": [
+    "midamis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.biduane.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "biduane_bidengel",
+      "variant": "level_up",
+      "result": "bidengel",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "biduane_bidread",
+      "variant": "level_up",
+      "result": "bidread",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

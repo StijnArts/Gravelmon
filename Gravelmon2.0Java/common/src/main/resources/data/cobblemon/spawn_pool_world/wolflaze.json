@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wolflaze-1",
+      "pokemon": "wolflaze",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "rockabill",
+  "nationalPokedexNumber": 2764,
+  "primaryType": "rock",
+  "secondaryType": "flying",
+  "abilities": [
+    "stamina",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 113,
+    "defence": 101,
+    "special_attack": 40,
+    "special_defence": 77,
+    "speed": 96
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 72,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "field"
+  ],
+  "moves": [
+    "1:leer",
+    "1:quickattack",
+    "1:rockthrow",
+    "1:wingattack",
+    "9:dragonbreath",
+    "12:ancientpower",
+    "15:pluck",
+    "18:quickguard",
+    "21:uturn",
+    "24:rockslide",
+    "27:scaryface",
+    "30:crunch",
+    "33:agility",
+    "36:tailwind",
+    "41:dragonclaw",
+    "46:thrash",
+    "51:endeavor"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.rockabill.desc"
+  ],
+  "preEvolution": "kookabill",
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,59 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochserperior-1",
+      "pokemon": "serperior epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "deltaserperior-1",
+      "pokemon": "serperior delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-57",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_freshwater" ],
+        "canSeeSky": false
+      }
+    }
+,
+    {
+      "id": "ayreianserperior-1",
+      "pokemon": "serperior ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

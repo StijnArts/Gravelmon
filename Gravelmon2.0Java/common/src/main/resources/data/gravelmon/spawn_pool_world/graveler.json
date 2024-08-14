@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochgraveler-1",
+      "pokemon": "graveler epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-43",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_basalt" ]
+      }
+    }
+,
+    {
+      "id": "epochgravelerone-1",
+      "pokemon": "graveler epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-43",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "deltagraveler-1",
+      "pokemon": "graveler delta",
+      "presets": [
+          "jungle_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "24-41",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

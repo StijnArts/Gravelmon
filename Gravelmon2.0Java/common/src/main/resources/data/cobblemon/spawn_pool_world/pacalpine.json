@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pacalpine-1",
+      "pokemon": "pacalpine",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-53",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

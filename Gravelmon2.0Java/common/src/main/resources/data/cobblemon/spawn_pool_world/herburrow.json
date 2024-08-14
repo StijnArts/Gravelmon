@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "herburrow-1",
+      "pokemon": "herburrow",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest",
+"#cobblemon:is_grassland" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+  ]
+}

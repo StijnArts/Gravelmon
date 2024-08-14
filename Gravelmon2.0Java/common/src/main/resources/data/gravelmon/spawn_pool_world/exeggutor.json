@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochexeggutor-1",
+      "pokemon": "exeggutor epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "41-56",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep_dark" ]
+      }
+    }
+,
+    {
+      "id": "epochexeggutorone-1",
+      "pokemon": "exeggutor epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-54",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_wasteland" ]
+      }
+    }
+
+]
+}

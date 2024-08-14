@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "flamingoop-1",
+      "pokemon": "flamingoop",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-35",
+      "weight": 1.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochpelipper-1",
+      "pokemon": "pelipper epoch",
+      "presets": [
+          "shipwreck"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "39-56",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach",
+"#minecraft:is_deep_ocean" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

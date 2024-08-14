@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class FabelianSugarva extends drai.dev.data.pokemon.Pokemon {
     public FabelianSugarva(String s, Aspect fabelian) {
-        super(s, fabelian, "Fabeliansugarva",
+        super(s, fabelian,"Fabeliansugarva",
                 Type.BUG,Type.NORMAL,
                 new Stats(0,
                         0,
@@ -34,7 +34,7 @@ public class FabelianSugarva extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sugarva");
+           setLangFileName("Fabeliansugarva");
 
     }
 

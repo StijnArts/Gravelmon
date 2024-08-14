@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochrapidash-1",
+      "pokemon": "rapidash epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "38-54",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
+      "id": "africanusanrapidash-1",
+      "pokemon": "rapidash africanusan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "49-54",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "rapidashx-1",
+      "pokemon": "rapidash x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-56",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+
+]
+}

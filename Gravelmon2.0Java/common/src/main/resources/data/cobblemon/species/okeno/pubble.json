@@ -1,0 +1,164 @@
+{
+  "implemented": true,
+  "name": "pubble",
+  "nationalPokedexNumber": 4847,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:rockhead"
+  ],
+  "baseStats": {
+    "hp": 63,
+    "attack": 44,
+    "defence": 55,
+    "special_attack": 53,
+    "special_defence": 55,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:pound",
+    "5:growl",
+    "8:watergun",
+    "10:rockthrow",
+    "14:odorsleuth",
+    "21:headbutt",
+    "24:smackdown",
+    "27:brine",
+    "31:rockblast",
+    "35:waterfall",
+    "39:doubleedge",
+    "43:headsmash",
+    "48:hydrocannon",
+    "tm:bulkup",
+    "tm:endure",
+    "tm:icefang",
+    "tm:hydropump",
+    "tm:naturepower",
+    "tm:hypervoice",
+    "tm:heavyslam",
+    "tm:bodyslam",
+    "tm:liquidation",
+    "tm:lunge",
+    "tm:rototiller",
+    "tm:focusenergy",
+    "tm:protect",
+    "tm:return",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:toxic",
+    "tm:taunt",
+    "tm:holdback",
+    "tm:psychup",
+    "tm:hiddenpower",
+    "tm:fling",
+    "tm:thief",
+    "tm:snatch",
+    "tm:dig",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:snowscape",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:sandstorm",
+    "tm:weatherball",
+    "tm:roar",
+    "tm:facade",
+    "tm:endeavor",
+    "tm:ironhead",
+    "tm:wildcharge",
+    "tm:nightslash",
+    "tm:shadowclaw",
+    "tm:sludgebomb",
+    "tm:reversal",
+    "tm:aquatail",
+    "tm:scald",
+    "tm:playrough",
+    "tm:dive",
+    "tm:surf",
+    "tm:rocksmash",
+    "tm:rockclimb",
+    "tm:watersport",
+    "tm:muddywater",
+    "tm:mudsport",
+    "tm:mudbomb",
+    "tm:accelerock",
+    "tm:headsmash",
+    "tm:yawn",
+    "tm:acidspray"  ],
+  "labels": [
+    "okeno",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.pubble.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "pubble_bouldog",
+      "variant": "level_up",
+      "result": "bouldog",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

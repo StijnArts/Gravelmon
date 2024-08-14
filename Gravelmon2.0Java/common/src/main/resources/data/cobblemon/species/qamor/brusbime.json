@@ -1,0 +1,104 @@
+{
+  "implemented": true,
+  "name": "brusbime",
+  "nationalPokedexNumber": 4210,
+  "primaryType": "normal",
+  "secondaryType": "steel",
+  "abilities": [
+    "rockhead"  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 99,
+    "defence": 80,
+    "special_attack": 20,
+    "special_defence": 45,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 110,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "moves": [
+    "1:courtchange",
+    "4:howl",
+    "8:bite",
+    "12:focusenergy",
+    "16:uproar",
+    "19:irondefense",
+    "25:gyroball",
+    "29:takedown",
+    "34:block",
+    "37:submission",
+    "43:doubleedge",
+    "46:ironhead",
+    "50:heavyslam",
+    "58:headsmash",
+    "tm:jawlock",
+    "tm:headsmash",
+    "tm:thrash",
+    "tm:zenheadbutt",
+    "tm:snore",
+    "tm:thunderfang",
+    "tm:counter",
+    "tm:skullbash",
+    "tm:endure"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.brusbime.desc"
+  ],
+  "preEvolution": "puglup",
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

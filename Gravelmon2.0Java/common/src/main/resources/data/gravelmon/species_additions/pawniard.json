@@ -1,0 +1,313 @@
+{
+   "target": "cobblemon:pawniard",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "flying",
+  "secondaryType": "fighting",
+  "abilities": [
+    "defiant",
+    "frisk",
+    "h:windforce"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 85,
+    "defence": 70,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:whirlwind",
+    "1:feint",
+    "6:focusenergy",
+    "9:karatechop",
+    "14:detect",
+    "17:cometpunch",
+    "22:tailwind",
+    "25:poweruppunch",
+    "30:blazekick",
+    "33:skydrop",
+    "41:crosschop",
+    "46:agility",
+    "49:acrobatics",
+    "54:highjumpkick",
+    "57:bulkup",
+    "62:hurricane",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:frustration",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:roost",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:skillswap",
+    "tm:shadowclaw",
+    "tm:stoneedge",
+    "tm:psychup",
+    "tm:drainpunch",
+    "tm:xscissor",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:acrobatics",
+    "tm:achillesheel",
+    "tm:skydrop",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:cut",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:aircutter",
+    "tutor:blazekick",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:dualchop",
+    "tutor:defog",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:helpinghand",
+    "tutor:highjumpkick",
+    "tutor:hurricane",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:seismictoss",
+    "tutor:signalbeam",
+    "tutor:skyattack",
+    "tutor:snore",
+    "tutor:superpower",
+    "tutor:tailwind",
+    "tutor:thunderpunch",
+    "tutor:twister",
+    "tutor:vacuumwave",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltapawniard.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "pawniard_bisharp_delta",
+      "variant": "level_up",
+      "result": "bisharp delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 52
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 225,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Hoennian",
+  "primaryType": "fairy",
+  "secondaryType": "steel",
+  "abilities": [
+    "pickup",
+    "h:oblivious"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 65,
+    "defence": 75,
+    "special_attack": 30,
+    "special_defence": 65,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:cut",
+    "3:charm",
+    "7:protect",
+    "13:safeguard",
+    "19:slash",
+    "25:helpinghand",
+    "31:playrough",
+    "37:ironhead",
+    "43:return",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:shimmershot",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:xscissor",
+    "tm:cut",
+    "tm:strength",
+    "tm:rocksmash",
+    "egg:glare"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen5",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianpawniard.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "pawniard_bisharp_hoennian",
+      "variant": "level_up",
+      "result": "bisharp hoennian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 133,
+  "aspects": ["hoennian"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta",
+"hoennian"
+  ]
+}

@@ -104,6 +104,8 @@ public class EghoShellder extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.23, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
         this.setLangFileName("Shellder");
         this.setPortraitXYZ(0,1.8,0);
                 this.setPreEvolution("shellder");

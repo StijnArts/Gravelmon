@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochtinkatink-1",
+      "pokemon": "tinkatink epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "8-27",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+
+]
+}

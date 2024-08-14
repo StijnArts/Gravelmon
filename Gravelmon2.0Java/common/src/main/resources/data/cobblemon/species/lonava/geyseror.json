@@ -1,0 +1,126 @@
+{
+  "implemented": true,
+  "name": "geyseror",
+  "nationalPokedexNumber": 3479,
+  "primaryType": "fire",
+  "secondaryType": "water",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 89,
+    "defence": 84,
+    "special_attack": 122,
+    "special_defence": 75,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 255,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "mineral"
+  ],
+  "moves": [
+    "1:eruption",
+    "6:watergun",
+    "13:smokescreen",
+    "15:stomp",
+    "19:waterpulse",
+    "22:flameburst",
+    "24:clearsmog",
+    "28:mist",
+    "33:scald",
+    "37:lavaplume",
+    "41:wideguard",
+    "48:earthpower",
+    "55:steameruption",
+    "63:burnup",
+    "tm:bodypress",
+    "tm:focusblast",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:willowisp",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:attract",
+    "tm:confide",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:return",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:raindance",
+    "tm:scald",
+    "tm:surf",
+    "tm:liquidation",
+    "tm:flareblitz",
+    "tm:harden",
+    "tm:rollout",
+    "tm:superpower",
+    "tm:firespin",
+    "tm:brine"  ],
+  "labels": [
+    "lonava",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.geyseror.desc"
+  ],
+  "preEvolution": "dousear",
+  "baseScale": 0.45,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 27,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

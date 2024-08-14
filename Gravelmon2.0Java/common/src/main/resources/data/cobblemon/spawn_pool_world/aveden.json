@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aveden-1",
+      "pokemon": "aveden",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "17-39",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold" ]    }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "donkeyata-1",
+      "pokemon": "donkeyata",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

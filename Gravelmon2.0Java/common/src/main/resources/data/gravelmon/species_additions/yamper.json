@@ -1,0 +1,170 @@
+{
+   "target": "cobblemon:yamper",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "normal",
+  "abilities": [
+    "toughclaws",
+    "steadfast",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 55,
+    "defence": 54,
+    "special_attack": 66,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 54,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "19:charm",
+    "31:slackoff",
+    "11:bite",
+    "16:stomp",
+    "19:captivate",
+    "1:tailwhip",
+    "9:covet",
+    "34:crunch",
+    "13:odorsleuth",
+    "45:return",
+    "49:doubleedge",
+    "27:bodyslam",
+    "5:workup",
+    "23:bonerush",
+    "37:playrough",
+    "53:lastresort",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:crunch",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:focusblast",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:payday",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:takedown",
+    "egg:headbutt",
+    "egg:payday",
+    "egg:slash",
+    "egg:endeavor",
+    "egg:superfang",
+    "egg:roar",
+    "egg:nobleroar"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochyamper.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "yamper_epoch_boltund",
+      "variant": "level_up",
+      "result": "epoch boltund",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 135,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

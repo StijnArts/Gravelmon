@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochmunna-1",
+      "pokemon": "munna epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-35",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+
+]
+}

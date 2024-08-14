@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochslakoth-1",
+      "pokemon": "slakoth epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-23",
+      "weight": 4.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ]
+      }
+    }
+,
+    {
+      "id": "fligianslakoth-1",
+      "pokemon": "slakoth fligian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+
+]
+}

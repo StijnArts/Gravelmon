@@ -1,0 +1,535 @@
+{
+   "target": "cobblemon:vibrava",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "dragon",
+  "abilities": [
+    "cloudnine",
+    "icescales",
+    "h:snowcloak"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 70,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 119,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "62:blizzard",
+    "1:bite",
+    "1:supersonic",
+    "67:quiverdance",
+    "12:icefang",
+    "1:iceshard",
+    "24:screech",
+    "20:iciclespear",
+    "32:hail",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:calmmind",
+    "tm:coaching",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:frostbite",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:haze",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mist",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:toxic",
+    "tm:tripleaxel",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochvibrava.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "vibrava_epoch_flygon",
+      "variant": "level_up",
+      "result": "epoch flygon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 153,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ionosian",
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 23,
+    "defence": 51,
+    "special_attack": 93,
+    "special_defence": 51,
+    "speed": 93
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 152,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:strugglebug",
+    "1:scratch",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
+  "labels": [
+    "ionos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ionosianvibrava.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "vibrava_flygon_ionosian",
+      "variant": "level_up",
+      "result": "flygon ionosian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 0,
+  "aspects": ["ionosian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 40,
+    "defence": 30,
+    "special_attack": 70,
+    "special_defence": 80,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 119,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug",
+    "dragon"
+  ],
+  "moves": [
+    "1:strugglebug",
+    "1:astonish",
+    "1:supersonic",
+    "1:bite",
+    "12:acidspray",
+    "16:sludge",
+    "20:signalbeam",
+    "24:snarl",
+    "28:venoshock",
+    "32:icywind",
+    "38:bugbuzz",
+    "44:toxic",
+    "tutor:aerialace",
+    "tutor:airslash",
+    "tutor:attract",
+    "tutor:blizzard",
+    "tutor:bodyslam",
+    "tutor:breakingswipe",
+    "tutor:brutalswing",
+    "tutor:bugbite",
+    "tutor:bugbuzz",
+    "tutor:bulldoze",
+    "tutor:confide",
+    "tutor:crunch",
+    "tutor:defog",
+    "tutor:dig",
+    "tutor:doubleteam",
+    "tutor:dragonpulse",
+    "tutor:dragontail",
+    "tutor:dualwingbeat",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:fly",
+    "tutor:focusenergy",
+    "tutor:frustration",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hiddenpower",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:mudshot",
+    "tutor:outrage",
+    "tutor:poweruppunch",
+    "tutor:protect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:roost",
+    "tutor:round",
+    "tutor:scaleshot",
+    "tutor:screech",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:solarbeam",
+    "tutor:steelwing",
+    "tutor:strength",
+    "tutor:strugglebug",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:throatchop",
+    "tutor:thunderpunch",
+    "tutor:toxic",
+    "tutor:uproar",
+    "tutor:uturn",
+    "egg:quickattack",
+    "egg:gust",
+    "egg:flail",
+    "egg:furycutter",
+    "egg:bugbite",
+    "egg:feint",
+    "egg:firstimpression"  ],
+  "labels": [
+    "gen3",
+    "vanguard",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianvibrava.desc"
+  ],
+  "preEvolution": "trapinch form=ayreian",
+  "evolutions": [
+    {
+      "id": "vibrava_flygon_ayreian",
+      "variant": "level_up",
+      "result": "flygon ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 153,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Cefiran",
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 70,
+    "defence": 50,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:sonicboom",
+    "1:sandattack",
+    "1:feintattack",
+    "1:sandtomb",
+    "4:sandattack",
+    "7:feintattack",
+    "10:sandtomb",
+    "13:mudslap",
+    "17:tackle",
+    "21:signalbeam",
+    "25:rockslide",
+    "29:supersonic",
+    "34:screech",
+    "35:dragonbreath",
+    "39:bugbuzz",
+    "44:leechlife",
+    "49:boomburst"  ],
+  "labels": [
+    "gen3",
+    "opal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranvibrava.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "vibrava_flygon_cefiran",
+      "variant": "level_up",
+      "result": "flygon cefiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 153,
+  "aspects": ["cefiran"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"ionosian",
+"ayreian",
+"cefiran"
+  ]
+}

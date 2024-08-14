@@ -1,0 +1,125 @@
+{
+  "implemented": true,
+  "name": "royalert",
+  "nationalPokedexNumber": 5027,
+  "primaryType": "fire",
+  "secondaryType": "ground",
+  "abilities": [
+    "blaze",
+    "h:flamebody"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 120,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 75,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 209,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "moves": [
+    "1:thunderfang",
+    "1:tackle",
+    "1:tailwhip",
+    "1:ember",
+    "1:sandattack",
+    "3:ember",
+    "7:sandattack",
+    "11:bite",
+    "13:flamecharge",
+    "16:bulldoze",
+    "18:magnitude",
+    "23:roar",
+    "26:flamewheel",
+    "31:willowisp",
+    "36:firefang",
+    "42:crunch",
+    "50:scaryface",
+    "58:earthquake",
+    "64:flareblitz",
+    "tm:ancientpower",
+    "tm:frustration",
+    "tm:dig",
+    "tm:flamecharge",
+    "tm:willowisp",
+    "tm:strength",
+    "tutor:rocktomb",
+    "tutor:focusenergy",
+    "tutor:doublekick",
+    "tutor:hyperfang",
+    "tutor:firespin",
+    "tutor:spikes",
+    "tutor:incinerate",
+    "tutor:endeavor",
+    "tutor:fireblast",
+    "egg:curse",
+    "egg:howl",
+    "egg:magmaring",
+    "egg:mirrorcoat",
+    "egg:mudslap",
+    "egg:outrage",
+    "egg:superfang",
+    "egg:wildcharge"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.royalert.desc"
+  ],
+  "preEvolution": "gardleon",
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 648,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochpopplio-1",
+      "pokemon": "popplio epoch",
+      "presets": [
+          "natural",
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_floral" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cropiki-1",
+      "pokemon": "cropiki",
+      "presets": [
+          "near_crops"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "6-28",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_temperate" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

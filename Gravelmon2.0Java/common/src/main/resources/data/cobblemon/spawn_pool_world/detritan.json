@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "detritan-1",
+      "pokemon": "detritan",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "33-51",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

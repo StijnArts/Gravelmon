@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pressie-1",
+      "pokemon": "pressie",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "3-19",
+      "weight": 10.0,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean",
+"#cobblemon:is_coast" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochcofagrigus-1",
+      "pokemon": "cofagrigus epoch",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-54",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "canSeeSky": false
+      }
+    }
+,
+    {
+      "id": "deltacofagrigus-1",
+      "pokemon": "cofagrigus delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-58",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep_dark" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "cofagrigusx-1",
+      "pokemon": "cofagrigus x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-46",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+
+]
+}

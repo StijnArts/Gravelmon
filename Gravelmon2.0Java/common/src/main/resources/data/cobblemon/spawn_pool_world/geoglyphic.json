@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "geoglyphic-1",
+      "pokemon": "geoglyphic",
+      "presets": [
+          "trail_ruins",
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "34-56",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochgoomy-1",
+      "pokemon": "goomy epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-35",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "vesitangoomy-1",
+      "pokemon": "goomy vesitan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-34",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "deltagoomy-1",
+      "pokemon": "goomy delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ]
+      }
+    }
+,
+    {
+      "id": "hoenniangoomy-1",
+      "pokemon": "goomy hoennian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+
+]
+}

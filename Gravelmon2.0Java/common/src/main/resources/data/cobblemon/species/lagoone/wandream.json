@@ -1,0 +1,79 @@
+{
+  "implemented": true,
+  "name": "wandream",
+  "nationalPokedexNumber": 1584,
+  "primaryType": "psychic",
+  "abilities": [
+    "zenmode",
+    "h:comatose"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 80,
+    "special_attack": 90,
+    "special_defence": 90,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 160,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:confusion"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.wandream.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 320,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

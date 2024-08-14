@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "leaflit",
+  "nationalPokedexNumber": 1299,
+  "primaryType": "grass",
+  "abilities": [
+    "rattled",
+    "h:leafguard"
+  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 48,
+    "defence": 46,
+    "special_attack": 48,
+    "special_defence": 30,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 58,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "field"
+  ],
+  "moves": [
+    "1:withdraw",
+    "9:quickattack",
+    "12:camouflage",
+    "16:razorleaf",
+    "19:fakeout",
+    "23:leaftornado",
+    "26:takedown",
+    "30:naturepower",
+    "34:leafblade",
+    "39:mefirst",
+    "44:quickguard",
+    "49:leafstorm",
+    "54:lastresort",
+    "tm:superpower",
+    "tm:gigadrain",
+    "tm:seedbomb",
+    "tm:leafstorm",
+    "tm:snarl",
+    "tm:foulplay",
+    "tm:zenheadbutt",
+    "tm:dig",
+    "tm:playrough",
+    "tm:allyswitch",
+    "tm:healbell",
+    "tm:solarbeam",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:rest",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:sludgebomb",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalk",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:shadowball",
+    "tm:facade",
+    "tm:naturepower",
+    "tm:taunt",
+    "tm:uturn",
+    "tm:payback",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:echoedvoice",
+    "tm:workup",
+    "tm:infestation",
+    "tm:safeguard",
+    "tm:fakeout",
+    "tm:followme",
+    "tm:snatch",
+    "tm:naturalgift",
+    "tm:suckerpunch",
+    "tm:finalgambit"  ],
+  "labels": [
+    "rica",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.leaflit.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "leaflit_fauxiage",
+      "variant": "level_up",
+      "result": "fauxiage",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

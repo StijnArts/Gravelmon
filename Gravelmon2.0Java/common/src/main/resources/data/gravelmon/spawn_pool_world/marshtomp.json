@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochmarshtomp-1",
+      "pokemon": "marshtomp epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "epochmarshtompone-1",
+      "pokemon": "marshtomp epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ]
+      }
+    }
+,
+    {
+      "id": "mysticmarshtomp-1",
+      "pokemon": "marshtomp mystic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

@@ -1,0 +1,111 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochmuk-1",
+      "pokemon": "muk epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-51",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochmukone-1",
+      "pokemon": "muk epochtwo",
+      "presets": [
+          "lava_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "39-54",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ]
+      }
+    }
+,
+    {
+      "id": "novranmuk-1",
+      "pokemon": "muk novran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "38-50",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "eghomuk-1",
+      "pokemon": "muk egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-44",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_soul_sand",
+"#cobblemon:nether/is_toxic" ]
+      }
+    }
+,
+    {
+      "id": "deltamuk-1",
+      "pokemon": "muk delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-58",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianmuk-1",
+      "pokemon": "muk ayreian",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-47",
+      "weight": 0.18,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

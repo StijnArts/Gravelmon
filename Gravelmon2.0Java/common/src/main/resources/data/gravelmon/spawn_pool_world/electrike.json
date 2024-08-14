@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochelectrike-1",
+      "pokemon": "electrike epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-32",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "enjinnianelectrike-1",
+      "pokemon": "electrike enjinnian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "timeRange": "night"
+      }
+    }
+
+]
+}

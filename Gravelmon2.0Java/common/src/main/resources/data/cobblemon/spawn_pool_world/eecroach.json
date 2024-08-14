@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "eecroach-1",
+      "pokemon": "eecroach",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-27",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+  ]
+}

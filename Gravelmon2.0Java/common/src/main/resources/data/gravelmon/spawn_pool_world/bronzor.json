@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochbronzor-1",
+      "pokemon": "bronzor epoch",
+      "presets": [
+          "jungle_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-38",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+,
+    {
+      "id": "africanusanbronzor-1",
+      "pokemon": "bronzor africanusan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": false
+      }
+    }
+
+]
+}

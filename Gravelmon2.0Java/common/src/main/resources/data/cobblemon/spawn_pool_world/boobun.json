@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "boobun-1",
+      "pokemon": "boobun",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-44",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

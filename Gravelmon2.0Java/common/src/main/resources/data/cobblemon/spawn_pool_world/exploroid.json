@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "exploroid-1",
+      "pokemon": "exploroid",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "22-54",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+  ]
+}

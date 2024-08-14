@@ -1,0 +1,111 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochgrimer-1",
+      "pokemon": "grimer epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgrimerone-1",
+      "pokemon": "grimer epochtwo",
+      "presets": [
+          "lava_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "12-33",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ]
+      }
+    }
+,
+    {
+      "id": "novrangrimer-1",
+      "pokemon": "grimer novran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "eghogrimer-1",
+      "pokemon": "grimer egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-22",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_soul_sand",
+"#cobblemon:nether/is_toxic" ]
+      }
+    }
+,
+    {
+      "id": "deltagrimer-1",
+      "pokemon": "grimer delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-35",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiangrimer-1",
+      "pokemon": "grimer ayreian",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "15-32",
+      "weight": 1.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

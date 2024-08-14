@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochblitzle-1",
+      "pokemon": "blitzle epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-36",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_floral",
+"#cobblemon:is_magical" ],
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "seviianblitzle-1",
+      "pokemon": "blitzle seviian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_temperate",
+"#cobblemon:is_arid" ]    }
+    }
+
+]
+}

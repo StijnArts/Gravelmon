@@ -1,0 +1,141 @@
+{
+  "implemented": true,
+  "name": "cheecub",
+  "nationalPokedexNumber": 5912,
+  "primaryType": "electric",
+  "abilities": [
+    "quickfeet",
+    "h:motordrive"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 20,
+    "special_attack": 40,
+    "special_defence": 25,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 205,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:bite",
+    "1:electrify",
+    "1:nuzzle",
+    "1:tackle",
+    "1:tailwhip",
+    "15:roar",
+    "20:spark",
+    "28:charm",
+    "34:crunch",
+    "41:charge",
+    "48:wildcharge",
+    "55:playrough",
+    "62:electricterrain",
+    "1:wildcharge",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:uturn",
+    "tm:chargebeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:acrobatics",
+    "tm:shadowclaw",
+    "tm:thief",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:roar",
+    "tm:bulkup",
+    "tm:taunt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:electricterrain"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cheecub.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cheecub_speeda",
+      "variant": "level_up",
+      "result": "speeda",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

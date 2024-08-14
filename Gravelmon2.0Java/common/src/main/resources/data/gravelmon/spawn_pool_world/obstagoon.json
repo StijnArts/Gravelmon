@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochobstagoon-1",
+      "pokemon": "obstagoon epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "38-53",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianobstagoon-1",
+      "pokemon": "obstagoon ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "40-54",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "day"
+      }
+    }
+
+]
+}

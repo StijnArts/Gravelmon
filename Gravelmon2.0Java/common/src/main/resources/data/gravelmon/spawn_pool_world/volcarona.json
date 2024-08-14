@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochvolcarona-1",
+      "pokemon": "volcarona epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-65",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_magical" ],
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "epochvolcaronaone-1",
+      "pokemon": "volcarona epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-65",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "deltavolcarona-1",
+      "pokemon": "volcarona delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-68",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "canSeeSky": false
+      }
+    }
+,
+    {
+      "id": "mythianvolcarona-1",
+      "pokemon": "volcarona mythian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-70",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "night"
+      }
+    }
+
+]
+}

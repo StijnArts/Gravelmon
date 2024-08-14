@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochducklett-1",
+      "pokemon": "ducklett epoch",
+      "presets": [
+          "natural",
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-36",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "ayreianducklett-1",
+      "pokemon": "ducklett ayreian",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "4-40",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove",
+"#cobblemon:is_floral",
+"#cobblemon:is_magical" ],
+        "timeRange": "day"
+      }
+    }
+
+]
+}

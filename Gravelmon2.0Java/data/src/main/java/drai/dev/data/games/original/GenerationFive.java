@@ -46,44 +46,44 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new AromianKlink("", Aspect.AROMIAN).setUsesBigModel()); //TODO
-        pokemon.add(new AromianKlang("", Aspect.AROMIAN).setUsesBigModel());
-        pokemon.add(new AromianVanillite("", Aspect.AROMIAN).setUsesBigModel());
-        pokemon.add(new AromianVanillish("", Aspect.AROMIAN).setUsesBigModel());
-
-        pokemon.add(new FabelianYamask("", Aspect.FABELIAN).setUsesBigModel()); //tODo
-        pokemon.add(new FabelianLillipup("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianHerdier("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianRoggenrola("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianBoldore("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianTimburr("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianGurdurr("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianWoobat("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianLitwick("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianLampent("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianChandelure("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianDeino("", Aspect.FABELIAN).setUsesBigModel());
-
-        pokemon.add(new MahalianTornadus("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-        pokemon.add(new MahalianThundurus("", Aspect.MAHALIAN).setUsesBigModel());
-        pokemon.add(new MahalianLandorus("", Aspect.MAHALIAN).setUsesBigModel());
-        pokemon.add(new MahalianLarvesta("", Aspect.MAHALIAN).setUsesBigModel());
-        pokemon.add(new MahalianTrubbish("", Aspect.MAHALIAN).setUsesBigModel());
-        pokemon.add(new MahalianGarbodor("", Aspect.MAHALIAN).setUsesBigModel());
-
-        pokemon.add(new SahlianCobalion("", Aspect.SAHLIAN).setUsesBigModel()); //TODO
-        pokemon.add(new SahlianTerrakion("", Aspect.SAHLIAN).setUsesBigModel());
-        pokemon.add(new SahlianVirizion("", Aspect.SAHLIAN).setUsesBigModel());
-
-        pokemon.add(new FerranianPatrat("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
-        pokemon.add(new FerranianWatchog("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianYamask("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianVirizion("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianTerrakion("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianCobalion("", Aspect.FERRANIAN).setUsesBigModel());
-
-        pokemon.add(new PalmianPawniard("", Aspect.PALMIAN).setUsesBigModel()); //TODO
-        pokemon.add(new PalmianBisharp("", Aspect.PALMIAN).setUsesBigModel());
+//        pokemon.add(new AromianKlink("", Aspect.AROMIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new AromianKlang("", Aspect.AROMIAN).setUsesBigModel());
+//        pokemon.add(new AromianVanillite("", Aspect.AROMIAN).setUsesBigModel());
+//        pokemon.add(new AromianVanillish("", Aspect.AROMIAN).setUsesBigModel());
+//
+//        pokemon.add(new FabelianYamask("", Aspect.FABELIAN).setUsesBigModel()); //tODo
+//        pokemon.add(new FabelianLillipup("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianHerdier("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianRoggenrola("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianBoldore("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianTimburr("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianGurdurr("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianWoobat("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianLitwick("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianLampent("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianChandelure("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianDeino("", Aspect.FABELIAN).setUsesBigModel());
+//
+//        pokemon.add(new MahalianTornadus("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new MahalianThundurus("", Aspect.MAHALIAN).setUsesBigModel());
+//        pokemon.add(new MahalianLandorus("", Aspect.MAHALIAN).setUsesBigModel());
+//        pokemon.add(new MahalianLarvesta("", Aspect.MAHALIAN).setUsesBigModel());
+//        pokemon.add(new MahalianTrubbish("", Aspect.MAHALIAN).setUsesBigModel());
+//        pokemon.add(new MahalianGarbodor("", Aspect.MAHALIAN).setUsesBigModel());
+//
+//        pokemon.add(new SahlianCobalion("", Aspect.SAHLIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new SahlianTerrakion("", Aspect.SAHLIAN).setUsesBigModel());
+//        pokemon.add(new SahlianVirizion("", Aspect.SAHLIAN).setUsesBigModel());
+//
+//        pokemon.add(new FerranianPatrat("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new FerranianWatchog("", Aspect.FERRANIAN).setUsesBigModel());
+//        pokemon.add(new FerranianYamask("", Aspect.FERRANIAN).setUsesBigModel());
+//        pokemon.add(new FerranianVirizion("", Aspect.FERRANIAN).setUsesBigModel());
+//        pokemon.add(new FerranianTerrakion("", Aspect.FERRANIAN).setUsesBigModel());
+//        pokemon.add(new FerranianCobalion("", Aspect.FERRANIAN).setUsesBigModel());
+//
+//        pokemon.add(new PalmianPawniard("", Aspect.PALMIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new PalmianBisharp("", Aspect.PALMIAN).setUsesBigModel());
 
 //        pokemon.add(new PastelianGothita("", Aspect.PASTELIAN)); TODO
 //        pokemon.add(new PastelianGothorita("", Aspect.PASTELIAN));

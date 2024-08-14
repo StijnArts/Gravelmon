@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochpsyduck-1",
+      "pokemon": "psyduck epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "qamoranpsyduck-1",
+      "pokemon": "psyduck qamoran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+
+]
+}

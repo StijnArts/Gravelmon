@@ -1,0 +1,109 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochroserade-1",
+      "pokemon": "roserade epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_floral",
+"#cobblemon:is_magical" ]
+      }
+    }
+,
+    {
+      "id": "epochroseradeone-1",
+      "pokemon": "roserade epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "38-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island",
+"#cobblemon:is_jungle" ],
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "deltaroserade-1",
+      "pokemon": "roserade delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-48",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
+      "id": "roseradex-1",
+      "pokemon": "roserade x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "34-57",
+      "weight": 1.6,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "ayreianroserade-1",
+      "pokemon": "roserade ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "41-58",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "relicroserade-1",
+      "pokemon": "roserade relic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "41-51",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_floral" ]    }
+    }
+
+]
+}

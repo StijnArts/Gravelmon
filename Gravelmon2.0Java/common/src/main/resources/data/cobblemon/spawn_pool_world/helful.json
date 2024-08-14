@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "helful-1",
+      "pokemon": "helful",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_sandy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

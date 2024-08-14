@@ -1,0 +1,79 @@
+{
+  "implemented": true,
+  "name": "gildthera",
+  "nationalPokedexNumber": 5443,
+  "primaryType": "dark",
+  "secondaryType": "steel",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 102,
+    "attack": 126,
+    "defence": 111,
+    "special_attack": 54,
+    "special_defence": 97,
+    "speed": 87
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 10,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:bite",
+    "1:metalclaw"  ],
+  "labels": [
+    "ionos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.gildthera.desc"
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

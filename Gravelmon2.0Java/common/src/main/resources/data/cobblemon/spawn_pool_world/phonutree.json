@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "phonutree-1",
+      "pokemon": "phonutree",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "42-57",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chaust-1",
+      "pokemon": "chaust",
+      "presets": [
+          "treetop"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "1-14",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_taiga" ]    }
+    }
+  ]
+}

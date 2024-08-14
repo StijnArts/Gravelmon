@@ -1,0 +1,97 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochaltaria-1",
+      "pokemon": "altaria epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "32-54",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_basalt" ]
+      }
+    }
+,
+    {
+      "id": "epochaltariaone-1",
+      "pokemon": "altaria epochtwo",
+      "presets": [
+          "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "35-55",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ],
+        "canSeeSky": true,
+        "isThundering": true
+      }
+    }
+,
+    {
+      "id": "varitasianaltaria-1",
+      "pokemon": "altaria varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 0.02,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "eghoaltaria-1",
+      "pokemon": "altaria egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-50",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianaltaria-1",
+      "pokemon": "altaria ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-54",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo",
+"minecraft:cherry_grove",
+"#cobblemon:is_volvanic" ],
+        "canSeeSky": true,
+        "isRaining": true
+      }
+    }
+
+]
+}

@@ -1,0 +1,332 @@
+{
+   "target": "cobblemon:clamperl",
+  "evolutions": [
+    {
+      "id": "clamperl_huntail_novran",
+      "variant": "level_up",
+      "result": "huntail novran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:deep_sea_tooth"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "clamperl_gorebyss_novran",
+      "variant": "level_up",
+      "result": "gorebyss novran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:deep_sea_scale"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "psychic",
+  "abilities": [
+    "telepathy",
+    "friendguard",
+    "h:rattled"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 34,
+    "defence": 105,
+    "special_attack": 32,
+    "special_defence": 34,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 69,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "1:irondefense",
+    "1:mindblast",
+    "1:reflect",
+    "50:powertrick",
+    "1:lightscreen",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mist",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicterrain",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:workup",
+    "egg:refresh",
+    "egg:confuseray",
+    "egg:barrier",
+    "egg:aquaring",
+    "egg:shellsmash"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochclamperl.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "clamperl_epoch_huntail",
+      "variant": "item_interact",
+      "result": "epoch huntail",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ },
+    {
+      "id": "clamperl_epoch_gorebyss",
+      "variant": "item_interact",
+      "result": "epoch gorebyss",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:silver_powder",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 525,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "dragon",
+  "abilities": [
+    "pressure",
+    "h:battlearmor"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 65,
+    "defence": 85,
+    "special_attack": 74,
+    "special_defence": 55,
+    "speed": 32
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 69,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:clamp",
+    "1:twister",
+    "1:irondefense",
+    "1:dragonbreath",
+    "50:shellsmash",
+    "tm:toxic",
+    "tm:dragonpulse",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:embargo",
+    "tm:gyroball",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:dracojet",
+    "tm:sleeptalk",
+    "tm:achillesheel",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:dragonify",
+    "tm:secretpower",
+    "tutor:acid",
+    "tutor:block",
+    "tutor:bodyslam",
+    "tutor:dracometeor",
+    "tutor:endure",
+    "tutor:irondefense",
+    "tutor:mimic",
+    "tutor:outrage",
+    "tutor:snore",
+    "tutor:superfang",
+    "tutor:twister"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaclamperl.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "clamperl_huntail_delta",
+      "variant": "level_up",
+      "result": "huntail delta",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dragon_fang"
+        }
+      ],
+      "permanent": true   
+ },
+    {
+      "id": "clamperl_gorebyss_delta",
+      "variant": "level_up",
+      "result": "gorebyss delta",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dragon_scale"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 525,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"delta"
+  ]
+}

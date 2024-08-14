@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sunling-1",
+      "pokemon": "sunling",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "13-34",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochcacnea-1",
+      "pokemon": "cacnea epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-31",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "neocacnea-1",
+      "pokemon": "cacnea neo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "cacneax-1",
+      "pokemon": "cacnea x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "15-34",
+      "weight": 3.3,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+
+]
+}

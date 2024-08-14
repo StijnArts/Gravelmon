@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "coldier-1",
+      "pokemon": "coldier",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-33",
+      "weight": 1.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#minecraft:is_ocean" ]    }
+    }
+  ]
+}

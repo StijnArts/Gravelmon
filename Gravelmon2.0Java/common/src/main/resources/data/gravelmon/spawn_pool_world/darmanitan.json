@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochdarmanitan-1",
+      "pokemon": "darmanitan epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+,
+    {
+      "id": "deltadarmanitan-1",
+      "pokemon": "darmanitan delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-58",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      }
+    }
+
+]
+}

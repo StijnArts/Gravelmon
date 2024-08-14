@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochskeledirge-1",
+      "pokemon": "skeledirge epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+
+]
+}

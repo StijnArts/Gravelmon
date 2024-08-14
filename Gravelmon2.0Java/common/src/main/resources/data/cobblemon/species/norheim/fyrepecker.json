@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "fyrepecker",
+  "nationalPokedexNumber": 3241,
+  "primaryType": "flying",
+  "secondaryType": "fire",
+  "abilities": [
+    "bigpecks",
+    "skilllink",
+    "h:steelworker"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 115,
+    "defence": 65,
+    "special_attack": 75,
+    "special_defence": 65,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 163,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:furyattack",
+    "16:flameburst",
+    "20:screech",
+    "26:steelwing",
+    "30:featherdance",
+    "38:roost",
+    "44:drillpeck",
+    "48:smartstrike",
+    "54:swordsdance",
+    "58:drillrun",
+    "64:flareblitz"  ],
+  "labels": [
+    "norheim",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.fyrepecker.desc"
+  ],
+  "preEvolution": "firipeck",
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

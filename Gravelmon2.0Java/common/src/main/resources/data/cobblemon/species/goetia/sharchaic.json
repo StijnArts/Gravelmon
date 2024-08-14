@@ -1,0 +1,84 @@
+{
+  "implemented": true,
+  "name": "sharchaic",
+  "nationalPokedexNumber": 6661,
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 113,
+    "attack": 113,
+    "defence": 113,
+    "special_attack": 40,
+    "special_defence": 96,
+    "speed": 43
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:watergun",
+    "1:rockthrow",
+    "1:bulkup",
+    "1:bulkup"  ],
+  "labels": [
+    "goetia",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sharchaic.desc"
+  ],
+  "preEvolution": "sharagged",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -49,58 +49,58 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new FabelianOddish("", Aspect.FABELIAN).setUsesBigModel()); //TODO
-        pokemon.add(new FabelianGloom("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianOnix("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianPoliwag("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianPoliwhirl("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianMeowth("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianRattata("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianSeel("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianDewgong("", Aspect.FABELIAN).setUsesBigModel());
-        pokemon.add(new FabelianJynx("", Aspect.FABELIAN).setUsesBigModel());
-
-        pokemon.add(new MahalianMeowth("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
-        pokemon.add(new MahalianMankey("", Aspect.MAHALIAN).setUsesBigModel());
-        pokemon.add(new MahalianDratini("", Aspect.MAHALIAN).setUsesBigModel());
-        pokemon.add(new MahalianDragonair("", Aspect.MAHALIAN).setUsesBigModel());
-        pokemon.add(new MahalianStaryu("", Aspect.MAHALIAN).setUsesBigModel());
-        pokemon.add(new MahalianRaichu("", Aspect.MAHALIAN).setUsesBigModel());
-
-        pokemon.add(new FerranianRhyhorn("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
-        pokemon.add(new FerranianMeowth("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
-        pokemon.add(new FerranianMachop("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianMachoke("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianMachamp("", Aspect.FERRANIAN).setUsesBigModel());
-        pokemon.add(new FerranianLapras("", Aspect.FERRANIAN).setUsesBigModel());
-
-        pokemon.add(new IvrisianMeowth("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
-        pokemon.add(new IvrisianMagikarp("", Aspect.IVRISIAN).setUsesBigModel());
-        pokemon.add(new IvrisianGyarados("", Aspect.IVRISIAN).setUsesBigModel());
-
-        pokemon.add(new PalmianRattata("", Aspect.PALMIAN).setUsesBigModel()); //TODO
-        pokemon.add(new PalmianRaticate("", Aspect.PALMIAN).setUsesBigModel());
-        pokemon.add(new PalmianGastly("", Aspect.PALMIAN).setUsesBigModel());
-        pokemon.add(new PalmianExeggcute("", Aspect.PALMIAN).setUsesBigModel());
-        pokemon.add(new PalmianExeggutor("", Aspect.PALMIAN, new Stats(530, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
-        pokemon.add(new PalmianGrowlithe("", Aspect.PALMIAN).setUsesBigModel());
-        pokemon.add(new PalmianArcanine("", Aspect.PALMIAN, new Stats(555, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
-        pokemon.add(new PalmianMagikarp("", Aspect.PALMIAN).setUsesBigModel());
-        pokemon.add(new PalmianPoliwag("", Aspect.PALMIAN).setUsesBigModel());
-        pokemon.add(new PalmianPoliwhirl("", Aspect.PALMIAN).setUsesBigModel());
-
-        //TODO
-        pokemon.add(new RaianianArcanine("", Aspect.RAIANIAN, new Stats(555, FAST_SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
-        pokemon.add(new RaianianScyther("", Aspect.RAIANIAN).setUsesBigModel());
-        pokemon.add(new RaianianDragonite("", Aspect.RAIANIAN, new Stats(600, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
-        pokemon.add(new RaianianDragoniteOne("", Aspect.RAIANIAN, new Stats(600, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
-
-        pokemon.add(new TrizoranOnix("", Aspect.TRIZORAN).setUsesBigModel()); //TODO
-
-        pokemon.add(new NorsePikachu("", Aspect.NORSE).setUsesBigModel()); //TODO
-        pokemon.add(new NorseRaichu("", Aspect.NORSE, new Stats(485, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
-
-        formanPokemon();
+//        pokemon.add(new FabelianOddish("", Aspect.FABELIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new FabelianGloom("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianOnix("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianPoliwag("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianPoliwhirl("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianMeowth("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianRattata("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianSeel("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianDewgong("", Aspect.FABELIAN).setUsesBigModel());
+//        pokemon.add(new FabelianJynx("", Aspect.FABELIAN).setUsesBigModel());
+//
+//        pokemon.add(new MahalianMeowth("", Aspect.MAHALIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new MahalianMankey("", Aspect.MAHALIAN).setUsesBigModel());
+//        pokemon.add(new MahalianDratini("", Aspect.MAHALIAN).setUsesBigModel());
+//        pokemon.add(new MahalianDragonair("", Aspect.MAHALIAN).setUsesBigModel());
+//        pokemon.add(new MahalianStaryu("", Aspect.MAHALIAN).setUsesBigModel());
+//        pokemon.add(new MahalianRaichu("", Aspect.MAHALIAN).setUsesBigModel());
+//
+//        pokemon.add(new FerranianRhyhorn("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new FerranianMeowth("", Aspect.FERRANIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new FerranianMachop("", Aspect.FERRANIAN).setUsesBigModel());
+//        pokemon.add(new FerranianMachoke("", Aspect.FERRANIAN).setUsesBigModel());
+//        pokemon.add(new FerranianMachamp("", Aspect.FERRANIAN).setUsesBigModel());
+//        pokemon.add(new FerranianLapras("", Aspect.FERRANIAN).setUsesBigModel());
+//
+//        pokemon.add(new IvrisianMeowth("", Aspect.IVRISIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new IvrisianMagikarp("", Aspect.IVRISIAN).setUsesBigModel());
+//        pokemon.add(new IvrisianGyarados("", Aspect.IVRISIAN).setUsesBigModel());
+//
+//        pokemon.add(new PalmianRattata("", Aspect.PALMIAN).setUsesBigModel()); //TODO
+//        pokemon.add(new PalmianRaticate("", Aspect.PALMIAN).setUsesBigModel());
+//        pokemon.add(new PalmianGastly("", Aspect.PALMIAN).setUsesBigModel());
+//        pokemon.add(new PalmianExeggcute("", Aspect.PALMIAN).setUsesBigModel());
+//        pokemon.add(new PalmianExeggutor("", Aspect.PALMIAN, new Stats(530, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))).setUsesBigModel());
+//        pokemon.add(new PalmianGrowlithe("", Aspect.PALMIAN).setUsesBigModel());
+//        pokemon.add(new PalmianArcanine("", Aspect.PALMIAN, new Stats(555, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).setUsesBigModel());
+//        pokemon.add(new PalmianMagikarp("", Aspect.PALMIAN).setUsesBigModel());
+//        pokemon.add(new PalmianPoliwag("", Aspect.PALMIAN).setUsesBigModel());
+//        pokemon.add(new PalmianPoliwhirl("", Aspect.PALMIAN).setUsesBigModel());
+//
+//        //TODO
+//        pokemon.add(new RaianianArcanine("", Aspect.RAIANIAN, new Stats(555, FAST_SPECIAL_ATTACKER, List.of(SPEED))).setUsesBigModel());
+//        pokemon.add(new RaianianScyther("", Aspect.RAIANIAN).setUsesBigModel());
+//        pokemon.add(new RaianianDragonite("", Aspect.RAIANIAN, new Stats(600, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).setUsesBigModel());
+//        pokemon.add(new RaianianDragoniteOne("", Aspect.RAIANIAN, new Stats(600, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).setUsesBigModel());
+//
+//        pokemon.add(new TrizoranOnix("", Aspect.TRIZORAN).setUsesBigModel()); //TODO
+//
+//        pokemon.add(new NorsePikachu("", Aspect.NORSE).setUsesBigModel()); //TODO
+//        pokemon.add(new NorseRaichu("", Aspect.NORSE, new Stats(485, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
+//
+//        formanPokemon();
 
 //        pokemon.add(new PastelianShellder("", Aspect.PASTELIAN)); TODO
 //        pokemon.add(new PastelianCloyster("", Aspect.PASTELIAN));

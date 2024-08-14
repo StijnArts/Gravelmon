@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochsurskit-1",
+      "pokemon": "surskit epoch",
+      "presets": [
+          "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "rare",
+      "level": "9-29",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_temperate" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "epochsurskitone-1",
+      "pokemon": "surskit epochtwo",
+      "presets": [
+          "foliage"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-31",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical",
+"#cobblemon:is_jungle" ]
+      }
+    }
+
+]
+}

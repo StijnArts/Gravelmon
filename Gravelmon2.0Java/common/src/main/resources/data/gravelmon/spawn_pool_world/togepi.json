@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "varitasiantogepi-1",
+      "pokemon": "togepi varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "4-24",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "hubiantogepi-1",
+      "pokemon": "togepi hubian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "4-24",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiantogepi-1",
+      "pokemon": "togepi ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+
+]
+}

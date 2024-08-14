@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochbewear-1",
+      "pokemon": "bewear epoch",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "27-43",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "mysticbewear-1",
+      "pokemon": "bewear mystic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "27-38",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+
+]
+}

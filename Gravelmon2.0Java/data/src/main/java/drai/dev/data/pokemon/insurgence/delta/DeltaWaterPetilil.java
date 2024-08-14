@@ -94,12 +94,15 @@ public class DeltaWaterPetilil extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 27, 9.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 13, 27, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
         this.setLangFileName("Petilil");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ganimede-1",
+      "pokemon": "ganimede",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "65-70",
+      "weight": 5.0E-6,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky" ],
+        "maxY": 40
+      }
+    }
+  ]
+}

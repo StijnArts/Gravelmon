@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochhakamoo-1",
+      "pokemon": "hakamoo epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-45",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ]
+      }
+    }
+
+]
+}

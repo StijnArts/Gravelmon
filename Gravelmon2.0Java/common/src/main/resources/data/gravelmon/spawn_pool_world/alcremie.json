@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochalcremie-1",
+      "pokemon": "alcremie epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-54",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_soul_sand" ]
+      }
+    }
+,
+    {
+      "id": "varitasianalcremie-1",
+      "pokemon": "alcremie varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "22-50",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+
+]
+}

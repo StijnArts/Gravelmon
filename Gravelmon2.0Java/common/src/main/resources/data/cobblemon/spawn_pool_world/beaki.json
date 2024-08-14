@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "beaki-1",
+      "pokemon": "beaki",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-52",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

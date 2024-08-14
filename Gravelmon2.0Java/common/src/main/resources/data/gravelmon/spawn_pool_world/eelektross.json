@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epocheelektross-1",
+      "pokemon": "eelektross epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-54",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "varitasianeelektross-1",
+      "pokemon": "eelektross varitasian",
+      "presets": [
+          "natural",
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "45-60",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "hoennianeelektross-1",
+      "pokemon": "eelektross hoennian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "52-68",
+      "weight": 0.07,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ],
+        "maxY": 40,
+        "canSeeSky": false
+      }
+    }
+
+]
+}

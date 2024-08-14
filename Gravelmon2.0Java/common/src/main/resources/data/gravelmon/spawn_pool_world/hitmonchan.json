@@ -1,0 +1,73 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochhitmonchan-1",
+      "pokemon": "hitmonchan epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-45",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+,
+    {
+      "id": "qamoranhitmonchan-1",
+      "pokemon": "hitmonchan qamoran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-46",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+,
+    {
+      "id": "varitasianhitmonchan-1",
+      "pokemon": "hitmonchan varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-46",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "ayreianhitmonchan-1",
+      "pokemon": "hitmonchan ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-46",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+
+]
+}

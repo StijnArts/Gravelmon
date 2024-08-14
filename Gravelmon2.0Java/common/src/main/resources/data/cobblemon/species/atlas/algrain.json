@@ -1,0 +1,108 @@
+{
+  "implemented": true,
+  "name": "algrain",
+  "nationalPokedexNumber": 5898,
+  "primaryType": "grass",
+  "abilities": [
+    "waterabsorb",
+    "damp",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 54,
+    "defence": 46,
+    "special_attack": 59,
+    "special_defence": 46,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:absorb",
+    "5:watersport",
+    "9:wrap",
+    "14:knockoff",
+    "17:synthesis",
+    "21:megadrain",
+    "25:tickle",
+    "29:aquaring",
+    "33:brine",
+    "38:grassknot",
+    "42:growth",
+    "48:wringout",
+    "53:powerwhip"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.algrain.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "algrain_kelpush",
+      "variant": "level_up",
+      "result": "kelpush",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

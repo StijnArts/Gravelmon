@@ -1,0 +1,98 @@
+{
+  "implemented": true,
+  "name": "stingpin",
+  "nationalPokedexNumber": 4176,
+  "primaryType": "dark",
+  "secondaryType": "dragon",
+  "abilities": [
+    "hustle",
+    "h:sharpness"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 117,
+    "defence": 69,
+    "special_attack": 72,
+    "special_defence": 61,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "human_like"
+  ],
+  "moves": [
+    "1:leer",
+    "4:trick",
+    "7:feintattack",
+    "11:dragonrage",
+    "15:slash",
+    "20:breakingswipe",
+    "24:meanlook",
+    "28:suckerpunch",
+    "30:swordsdance",
+    "32:taunt",
+    "36:throatchop",
+    "40:dragonrush",
+    "44:irontail",
+    "48:partingshot",
+    "51:knockoff",
+    "55:acupressure",
+    "59:fakeout",
+    "63:outrage"  ],
+  "labels": [
+    "fliga",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.stingpin.desc"
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 827,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

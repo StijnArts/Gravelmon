@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochsteelix-1",
+      "pokemon": "steelix epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-54",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ],
+        "canSeeSky": false
+      }
+    }
+
+]
+}

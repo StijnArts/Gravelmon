@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochprobopass-1",
+      "pokemon": "probopass epoch",
+      "presets": [
+          "foliage"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-49",
+      "weight": 1.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_tropical_island" ]
+      }
+    }
+,
+    {
+      "id": "epochprobopassone-1",
+      "pokemon": "probopass epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "36-51",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands" ],
+        "canSeeSky": true,
+        "isThundering": true
+      }
+    }
+
+]
+}

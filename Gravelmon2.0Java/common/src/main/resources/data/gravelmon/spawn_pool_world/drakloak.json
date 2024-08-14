@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochdrakloak-1",
+      "pokemon": "drakloak epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "30-45",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "hoenniandrakloak-1",
+      "pokemon": "drakloak hoennian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-48",
+      "weight": 0.54,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_soul_fire" ]
+      }
+    }
+
+]
+}

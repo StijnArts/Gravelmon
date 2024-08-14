@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochbasculegion-1",
+      "pokemon": "basculegion epoch",
+      "presets": [
+          "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "37-51",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove",
+"#cobblemon:is_bamboo" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

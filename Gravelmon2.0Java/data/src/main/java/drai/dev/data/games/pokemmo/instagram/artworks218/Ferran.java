@@ -1,9 +1,10 @@
 package drai.dev.data.games.pokemmo.instagram.artworks218;
 
 
+import drai.dev.data.pokemon.arom.*;
 import drai.dev.data.pokemon.elb.*;
 import drai.dev.data.pokemon.ferran.*;
-import drai.dev.data.pokemon.ferran.regional.*;
+import drai.dev.data.pokemon.ferran.Romarlord;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Ferran extends drai.dev.data.games.registry.Game {
@@ -43,7 +44,6 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         pokemon.add(new Flapurgess().setUsesBigModel());
         pokemon.add(new Jackozard().setUsesBigModel());
         pokemon.add(new Yumkinpie().setUsesBigModel());
-        pokemon.add(new YumkinpieOne().setUsesBigModel());
         pokemon.add(new Froby().setUsesBigModel());
         pokemon.add(new Froyena().setUsesBigModel());
         pokemon.add(new Frovalan().setUsesBigModel());
@@ -74,7 +74,6 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         pokemon.add(new Owizard().setUsesBigModel());
         pokemon.add(new Capernoir().setUsesBigModel());
         pokemon.add(new Casanoistra().setUsesBigModel());
-        pokemon.add(new CasanoistraOne().setUsesBigModel());
         pokemon.add(new Viras().setUsesBigModel());
         pokemon.add(new Viradle().setUsesBigModel());
         pokemon.add(new Tracoon().setUsesBigModel());
@@ -112,7 +111,7 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         pokemon.add(new Savannage().setUsesBigModel());
         pokemon.add(new Plasmind().setUsesBigModel());
         pokemon.add(new Skadeer().setUsesBigModel());
-        pokemon.add(new PlasmindOne().setUsesBigModel());
+        pokemon.add(new Coadeer().setUsesBigModel());
         pokemon.add(new Crickerist().setUsesBigModel());
         pokemon.add(new Mantunfu().setUsesBigModel());
         pokemon.add(new Glorm().setUsesBigModel());

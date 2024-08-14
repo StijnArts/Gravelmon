@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochbeedrill-1",
+      "pokemon": "beedrill epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-35",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

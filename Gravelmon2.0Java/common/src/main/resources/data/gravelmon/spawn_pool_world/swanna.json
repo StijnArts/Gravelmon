@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochswanna-1",
+      "pokemon": "swanna epoch",
+      "presets": [
+          "natural",
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-51",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "ayreianswanna-1",
+      "pokemon": "swanna ayreian",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-58",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove",
+"#cobblemon:is_floral",
+"#cobblemon:is_magical" ],
+        "timeRange": "day"
+      }
+    }
+
+]
+}

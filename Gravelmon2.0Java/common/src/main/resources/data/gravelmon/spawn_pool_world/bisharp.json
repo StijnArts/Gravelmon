@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltabisharp-1",
+      "pokemon": "bisharp delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-43",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain",
+"#cobblemon:is_sky" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "bisharpx-1",
+      "pokemon": "bisharp x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "51-68",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "hoennianbisharp-1",
+      "pokemon": "bisharp hoennian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "50-65",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+
+]
+}

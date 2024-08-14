@@ -1,0 +1,191 @@
+{
+   "target": "cobblemon:tyrunt",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "fire",
+  "secondaryType": "ice",
+  "abilities": [
+    "moxie",
+    "blaze",
+    "h:reckless"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 89,
+    "defence": 77,
+    "special_attack": 48,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 72,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "66:flareblitz",
+    "1:tackle",
+    "1:roar",
+    "1:tailwhip",
+    "32:crunch",
+    "12:flamecharge",
+    "54:uproar",
+    "48:doubleedge",
+    "20:icefang",
+    "36:frostbite",
+    "24:firefang",
+    "28:screech",
+    "16:scaryface",
+    "42:blazekick",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:frostbite",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:hail",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:meteormash",
+    "tm:mist",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stoneedge",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:avalanche",
+    "egg:iceshard",
+    "egg:flamewheel",
+    "egg:skullbash",
+    "egg:heatcrash",
+    "egg:furyswipes",
+    "egg:slash"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochtyrunt.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "tyrunt_epoch_tyrantrum",
+      "variant": "level_up",
+      "result": "epoch tyrantrum",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        },
+        {
+          "variant": "time_range",
+          "range": day
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 260,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

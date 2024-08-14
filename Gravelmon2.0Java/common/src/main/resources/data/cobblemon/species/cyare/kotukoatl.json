@@ -1,0 +1,135 @@
+{
+  "implemented": true,
+  "name": "kotukoatl",
+  "nationalPokedexNumber": 6180,
+  "primaryType": "electric",
+  "secondaryType": "flying",
+  "abilities": [
+    "static",
+    "cloudnine",
+    "h:innerfocus"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 65,
+    "speed": 130
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "6:flash",
+    "9:thundershock",
+    "13:thunderwave",
+    "16:aircutter",
+    "21:whirlwind",
+    "25:shockwave",
+    "30:roost",
+    "34:drillpeck",
+    "40:thunderbolt",
+    "46:agility",
+    "53:airslash",
+    "61:thunder",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:chargebeam",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:facade",
+    "tm:fly",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roost",
+    "tm:round",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skydrop",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup"  ],
+  "labels": [
+    "cyare",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.kotukoatl.desc"
+  ],
+  "preEvolution": "shockatoo",
+  "baseScale": 0.3333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 20,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

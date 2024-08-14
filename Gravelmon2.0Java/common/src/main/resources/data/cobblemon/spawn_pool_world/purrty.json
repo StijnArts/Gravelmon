@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "purrty-1",
+      "pokemon": "purrty",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-32",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+  ]
+}

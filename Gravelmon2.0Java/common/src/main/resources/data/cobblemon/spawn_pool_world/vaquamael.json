@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vaquamael-1",
+      "pokemon": "vaquamael",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-45",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+  ]
+}

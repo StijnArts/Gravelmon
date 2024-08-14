@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "spinox-1",
+      "pokemon": "spinox",
+      "presets": [
+          "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "22-46",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_river" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

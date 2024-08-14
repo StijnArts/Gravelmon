@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochsunflora-1",
+      "pokemon": "sunflora epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-41",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_forest" ]
+      }
+    }
+,
+    {
+      "id": "deltasunflora-1",
+      "pokemon": "sunflora delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "22-39",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_crimson" ]
+      }
+    }
+
+]
+}

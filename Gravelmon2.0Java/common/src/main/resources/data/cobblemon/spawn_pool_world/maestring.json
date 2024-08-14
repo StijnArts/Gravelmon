@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "maestring-1",
+      "pokemon": "maestring",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "1-22",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_cold" ]    }
+    }
+  ]
+}

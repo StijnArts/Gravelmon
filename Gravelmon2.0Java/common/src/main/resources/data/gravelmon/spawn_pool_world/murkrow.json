@@ -1,0 +1,59 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochmurkrow-1",
+      "pokemon": "murkrow epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-27",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains" ]
+      }
+    }
+,
+    {
+      "id": "epochmurkrowone-1",
+      "pokemon": "murkrow epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-32",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "hizianmurkrow-1",
+      "pokemon": "murkrow hizian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "16-41",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_taiga" ]    }
+    }
+
+]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "arctikull-1",
+      "pokemon": "arctikull",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "69-70",
+      "weight": 5.0E-4,
+      "condition": {
+"biomes": [ "#cobblemon:has_season/winter" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

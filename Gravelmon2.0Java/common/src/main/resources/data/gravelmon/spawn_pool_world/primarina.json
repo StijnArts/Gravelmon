@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochprimarina-1",
+      "pokemon": "primarina epoch",
+      "presets": [
+          "natural",
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_floral" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

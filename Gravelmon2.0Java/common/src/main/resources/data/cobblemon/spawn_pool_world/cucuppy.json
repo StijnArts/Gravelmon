@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cucuppy-1",
+      "pokemon": "cucuppy",
+      "presets": [
+          "near_crops"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-32",
+      "weight": 1.6,
+      "condition": {
+"biomes": [ "#cobblemon:has_season/summer" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

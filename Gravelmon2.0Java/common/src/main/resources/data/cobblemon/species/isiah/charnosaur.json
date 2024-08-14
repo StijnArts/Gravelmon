@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "charnosaur",
+  "nationalPokedexNumber": 4630,
+  "primaryType": "rock",
+  "secondaryType": "fire",
+  "abilities": [
+    "battlearmor",
+    "h:whitesmoke"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 110,
+    "defence": 77,
+    "special_attack": 106,
+    "special_defence": 72,
+    "speed": 96
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 188,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:firefang",
+    "8:rollout",
+    "15:smokescreen",
+    "22:ember",
+    "29:yawn",
+    "36:rockblast",
+    "46:incinerate",
+    "56:ancientpower",
+    "60:flareblitz",
+    "66:explosion",
+    "tm:explosion",
+    "tm:falseswipe",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:round",
+    "tm:brickbreak",
+    "tm:solarbeam",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:overheat",
+    "tm:flamecharge",
+    "tm:incinerate",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:thief",
+    "tm:brutalswing",
+    "tm:sludgebomb",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:dig",
+    "tm:dragonclaw",
+    "tm:dragontail",
+    "tm:attract",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:sunnyday",
+    "tm:sandstorm",
+    "tm:stealthrock",
+    "tm:roar",
+    "tm:bulkup",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:willowisp"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.charnosaur.desc"
+  ],
+  "preEvolution": "lizmoke",
+  "baseScale": 0.3333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 20,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

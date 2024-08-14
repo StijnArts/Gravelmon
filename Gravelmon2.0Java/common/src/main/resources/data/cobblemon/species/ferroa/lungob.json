@@ -1,0 +1,169 @@
+{
+  "implemented": true,
+  "name": "lungob",
+  "nationalPokedexNumber": 1791,
+  "primaryType": "normal",
+  "secondaryType": "ground",
+  "abilities": [
+    "hydration",
+    "soundproof",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 20,
+    "defence": 50,
+    "special_attack": 20,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 88,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2",
+    "field"
+  ],
+  "moves": [
+    "1:endure",
+    "5:mudslap",
+    "9:mudsport",
+    "12:yawn",
+    "15:mudbomb",
+    "19:roar",
+    "23:echoedvoice",
+    "27:bodyslam",
+    "30:amnesia",
+    "33:scorchingsands",
+    "36:aquaring",
+    "40:earthpower",
+    "44:uproar",
+    "48:slackoff",
+    "51:belch",
+    "tm:attract",
+    "tm:bide",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bubblebeam",
+    "tm:bulkup",
+    "tm:chargebeam",
+    "tm:counter",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:facade",
+    "tm:fissure",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:liquidation",
+    "tm:mimic",
+    "tm:protect",
+    "tm:rage",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:skullbash",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:strength",
+    "tm:submission",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:watergun",
+    "tm:waterfall",
+    "tm:workup",
+    "tm:mudslide",
+    "tm:ancientpower",
+    "tm:razorwind",
+    "tm:gastroacid",
+    "tm:watersport",
+    "tm:flail",
+    "tm:psychup"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.lungob.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "lungob_dessibello",
+      "variant": "level_up",
+      "result": "dessibello",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

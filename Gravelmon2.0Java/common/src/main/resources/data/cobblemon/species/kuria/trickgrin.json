@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "trickgrin",
+  "nationalPokedexNumber": 4399,
+  "primaryType": "dark",
+  "secondaryType": "fairy",
+  "abilities": [
+    "pickpocket",
+    "prankster"  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 133,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:disarmingvoice",
+    "4:charm",
+    "7:pursuit",
+    "10:attract",
+    "13:drainingkiss",
+    "16:confide",
+    "19:feintattack",
+    "25:dazzlinggleam",
+    "28:mistyterrain",
+    "31:newmoon",
+    "34:flatter",
+    "37:darkpulse",
+    "40:lovelykiss",
+    "43:moonblast",
+    "46:moonlight",
+    "50:lunarcannon"  ],
+  "labels": [
+    "kuria",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.trickgrin.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 5,
+  "weight": 135,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

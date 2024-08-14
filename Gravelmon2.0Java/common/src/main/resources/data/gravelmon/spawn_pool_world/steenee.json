@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochsteenee-1",
+      "pokemon": "steenee epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "18-41",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "epochsteeneeone-1",
+      "pokemon": "steenee epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-39",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
+      "id": "varitasiansteenee-1",
+      "pokemon": "steenee varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-29",
+      "weight": 0.18,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+
+]
+}

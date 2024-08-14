@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochchesnaught-1",
+      "pokemon": "chesnaught epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ]
+      }
+    }
+,
+    {
+      "id": "vesitanchesnaught-1",
+      "pokemon": "chesnaught vesitan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo" ]
+      }
+    }
+
+]
+}

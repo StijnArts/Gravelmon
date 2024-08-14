@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "alpacurrent-1",
+      "pokemon": "alpacurrent",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-43",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands",
+"#cobblemon:is_plateau" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

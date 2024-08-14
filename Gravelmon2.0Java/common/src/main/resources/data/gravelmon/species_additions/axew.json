@@ -1,0 +1,340 @@
+{
+   "target": "cobblemon:axew",
+   "forms": [{
+  "name": "Delta",
+  "primaryType": "water",
+  "abilities": [
+    "strongjaw",
+    "waterveil",
+    "h:swiftswim"
+  ],
+  "baseStats": {
+    "hp": 46,
+    "attack": 87,
+    "defence": 60,
+    "special_attack": 30,
+    "special_defence": 40,
+    "speed": 57
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:scratch",
+    "4:leer",
+    "7:bite",
+    "10:whirlpool",
+    "13:aquajet",
+    "16:scaryface",
+    "20:poisonfang",
+    "24:icefang",
+    "28:crunch",
+    "32:agility",
+    "36:taunt",
+    "41:aquatail",
+    "46:swordsdance",
+    "50:thrash",
+    "56:hydropump",
+    "61:gigaimpact",
+    "tm:honeclaws",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:falseswipe",
+    "tm:brine",
+    "tm:fling",
+    "tm:dragontail",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:swordsdance",
+    "tm:xscissor",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:dracojet",
+    "tm:sleeptalk",
+    "tm:achillesheel",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:rocksmash",
+    "tm:cut",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:acid",
+    "tutor:aquatail",
+    "tutor:counter",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:furycutter",
+    "tutor:headbutt",
+    "tutor:icywind",
+    "tutor:mimic",
+    "tutor:outrage",
+    "tutor:snore",
+    "tutor:superfang",
+    "tutor:superpower",
+    "tutor:waterpulse",
+    "tutor:whirlpool"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaaxew.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "axew_fraxure_delta",
+      "variant": "level_up",
+      "result": "fraxure delta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 180,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "dragon",
+  "secondaryType": "steel",
+  "abilities": [
+    "rivalry",
+    "prismarmor"  ],
+  "baseStats": {
+    "hp": 46,
+    "attack": 87,
+    "defence": 75,
+    "special_attack": 42,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "27:irondefense",
+    "1:leer",
+    "42:outrage",
+    "1:scratch",
+    "3:bite",
+    "33:laserfocus",
+    "15:slash",
+    "6:metalclaw",
+    "24:crunch",
+    "12:taunt",
+    "36:scaleshot",
+    "45:guillotine",
+    "9:assurance",
+    "30:dualchop",
+    "18:dragonclaw",
+    "48:gigaimpact",
+    "21:scaryface",
+    "39:swordsdance",
+    "tm:aerialace",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:attract",
+    "tm:breakingswipe",
+    "tm:confide",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:dracometeor",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dualchop",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:irontail",
+    "tm:outrage",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:xscissor",
+    "egg:counter",
+    "egg:nightslash",
+    "egg:endeavor",
+    "egg:harden",
+    "egg:firstimpression"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianaxew.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "axew_fraxure_ayreian",
+      "variant": "level_up",
+      "result": "fraxure ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 180,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+}
+], "features": [
+"delta",
+"ayreian"
+  ]
+}

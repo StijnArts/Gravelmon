@@ -113,7 +113,7 @@ public class Royjibiv extends Pokemon {
                 List.of(Label.SAGE),
                 1, List.of(
                         new ItemDrop("gravelmon:kaleidoscope",25, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 54, 65, 0.5, List.of(
+                SpawnContext.SUBMERGED, SpawnPool.RARE, 54, 65, 0.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

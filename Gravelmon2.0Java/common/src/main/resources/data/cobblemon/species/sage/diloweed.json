@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "diloweed",
+  "nationalPokedexNumber": 1149,
+  "primaryType": "grass",
+  "secondaryType": "rock",
+  "abilities": [
+    "roughskin",
+    "sandforce",
+    "h:bulletproof"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 45,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "grass",
+    "field"
+  ],
+  "moves": [
+    "1:rockpolish",
+    "1:rapidspin",
+    "1:sandattack",
+    "5:rockthrow",
+    "9:defensecurl",
+    "13:razorleaf",
+    "17:rollout",
+    "21:leafshield",
+    "25:bulldoze",
+    "29:steamroller",
+    "33:leechseed",
+    "37:rockslide",
+    "41:shieldbash",
+    "45:mimic",
+    "49:seedbomb",
+    "53:dig",
+    "57:stoneedge",
+    "61:naturepower",
+    "65:sandstorm",
+    "tm:honeclaws",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:endure",
+    "tm:rocksmash",
+    "tm:shadowclaw",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:bulletseed",
+    "tm:shieldbash",
+    "tm:cut",
+    "tm:strength"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.diloweed.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "diloweed_pangolash",
+      "variant": "level_up",
+      "result": "pangolash",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 271,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

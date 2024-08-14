@@ -47,7 +47,7 @@ public class Vespidron extends drai.dev.data.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.HONEY_TREE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Vespidron");

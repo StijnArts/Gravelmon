@@ -1,0 +1,97 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochswablu-1",
+      "pokemon": "swablu epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:nether/is_basalt" ]
+      }
+    }
+,
+    {
+      "id": "epochswabluone-1",
+      "pokemon": "swablu epochtwo",
+      "presets": [
+          "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "12-33",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ],
+        "canSeeSky": true,
+        "isThundering": true
+      }
+    }
+,
+    {
+      "id": "varitasianswablu-1",
+      "pokemon": "swablu varitasian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "16-34",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "eghoswablu-1",
+      "pokemon": "swablu egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianswablu-1",
+      "pokemon": "swablu ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "16-34",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo",
+"minecraft:cherry_grove",
+"#cobblemon:is_volvanic" ],
+        "canSeeSky": true,
+        "isRaining": true
+      }
+    }
+
+]
+}

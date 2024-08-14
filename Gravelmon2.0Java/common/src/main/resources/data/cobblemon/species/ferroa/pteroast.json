@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+  "name": "pteroast",
+  "nationalPokedexNumber": 1896,
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "abilities": [
+    "levitate"  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "flying"
+  ],
+  "moves": [
+    "1:ember",
+    "1:metalclaw",
+    "tm:defog",
+    "tm:shockwave",
+    "tm:snatch",
+    "tm:snore",
+    "tm:uproar",
+    "tm:bounce",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:drillrun",
+    "tm:endeavor",
+    "tm:ironhead",
+    "tm:laserfocus",
+    "tm:tailwind",
+    "tm:zenheadbutt",
+    "tm:dragonpulse",
+    "tm:earthpower",
+    "tm:heatwave",
+    "tm:hypervoice",
+    "tm:outrage",
+    "tm:skyattack",
+    "tm:dualwingbeat",
+    "tm:burningjealousy",
+    "tm:scaleshot",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bide",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragonrage",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:fly",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:mimic",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rage",
+    "tm:razorwind",
+    "tm:rest",
+    "tm:return",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:shadowclaw",
+    "tm:skullbash",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:whirlwind",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.pteroast.desc"
+  ],
+  "baseScale": 0.2333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

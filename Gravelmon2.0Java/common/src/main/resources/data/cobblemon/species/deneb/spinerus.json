@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "spinerus",
+  "nationalPokedexNumber": 5171,
+  "primaryType": "rock",
+  "secondaryType": "dragon",
+  "abilities": [
+    "rockhead",
+    "h:pressure"
+  ],
+  "baseStats": {
+    "hp": 63,
+    "attack": 112,
+    "defence": 98,
+    "special_attack": 62,
+    "special_defence": 67,
+    "speed": 93
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 125,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "4:roar",
+    "8:ancientpower",
+    "12:charm",
+    "16:bite",
+    "20:dragontail",
+    "24:stomp",
+    "28:rockslide",
+    "32:crunch",
+    "36:dragonclaw",
+    "40:thrash",
+    "44:earthquake",
+    "48:horndrill",
+    "tm:dig",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:snore",
+    "tm:protect",
+    "tm:scaryface",
+    "tm:charm",
+    "tm:attract",
+    "tm:sandstorm",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:rockblast",
+    "tm:assurance",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:round",
+    "tm:bulldoze",
+    "tm:stompingtantrum",
+    "tm:bodyslam",
+    "tm:earthquake",
+    "tm:substitute",
+    "tm:outrage",
+    "tm:endure",
+    "tm:sleeptalk",
+    "tm:irontail",
+    "tm:crunch",
+    "tm:superpower",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:closecombat",
+    "tm:darkpulse",
+    "tm:dragonpulse",
+    "tm:earthpower",
+    "tm:zenheadbutt",
+    "tm:ironhead",
+    "tm:stoneedge",
+    "tm:stealthrock",
+    "tm:playrough",
+    "tm:psychicfangs",
+    "tutor:lashout",
+    "tutor:meteorbeam",
+    "tutor:scaleshot",
+    "egg:curse",
+    "egg:poisonfang",
+    "egg:rockpolish",
+    "egg:rockthrow"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.spinerus.desc"
+  ],
+  "preEvolution": "sailodon",
+  "baseScale": 0.31666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 178,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

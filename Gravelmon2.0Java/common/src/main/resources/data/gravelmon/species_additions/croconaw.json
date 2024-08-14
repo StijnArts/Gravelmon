@@ -1,0 +1,801 @@
+{
+   "target": "cobblemon:croconaw",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "fighting",
+  "secondaryType": "ground",
+  "abilities": [
+    "dryskin",
+    "noguard",
+    "h:moxie"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 63,
+    "special_defence": 59,
+    "speed": 58
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "24:armthrust",
+    "1:leer",
+    "10:bite",
+    "39:brickbreak",
+    "32:crunch",
+    "20:bulldoze",
+    "47:dynamicpunch",
+    "1:firefang",
+    "7:machpunch",
+    "43:swagger",
+    "28:bulkup",
+    "51:earthquake",
+    "17:scaryface",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:nobleroar",
+    "tm:outrage",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poisonfang",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:quicksand",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcroconaw.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "croconaw_epoch_feraligatr",
+      "variant": "level_up",
+      "result": "epoch feraligatr",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 250,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Epochtwo",
+  "primaryType": "dark",
+  "secondaryType": "fire",
+  "abilities": [
+    "strongjaw",
+    "sheerforce",
+    "h:blaze"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 63,
+    "special_attack": 58,
+    "special_defence": 59,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "50:flareblitz",
+    "41:spiritshackle",
+    "1:leer",
+    "13:bite",
+    "43:crunch",
+    "20:flamecharge",
+    "1:pursuit",
+    "8:flamewheel",
+    "27:firefang",
+    "33:screech",
+    "15:scaryface",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:closecombat",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dracometeor",
+    "tm:dragonbreath",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scorchingsands",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochcroconawone.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "croconaw_epochtwo_feraligatr",
+      "variant": "level_up",
+      "result": "epochtwo feraligatr",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 250,
+  "aspects": ["epochtwo"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ionosian",
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 95,
+    "defence": 56,
+    "special_attack": 28,
+    "special_defence": 56,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:watergun",
+    "1:metalclaw",
+    "1:flipturn",
+    "1:bulletpunch"  ],
+  "labels": [
+    "ionos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ionosiancroconaw.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "croconaw_feraligatr_ionosian",
+      "variant": "level_up",
+      "result": "feraligatr ionosian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.11666666666666665,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 0,
+  "aspects": ["ionosian"],
+  "cannotDynamax": false
+},
+{
+  "name": "Egho",
+  "primaryType": "water",
+  "secondaryType": "poison",
+  "abilities": [
+    "merciless",
+    "h:speedboost"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 70,
+    "defence": 59,
+    "special_attack": 70,
+    "special_defence": 54,
+    "speed": 87
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "moves": [
+    "1:sludge",
+    "1:poisontail",
+    "1:agility",
+    "1:poisonsting",
+    "1:mudslap",
+    "6:watergun",
+    "8:acid",
+    "13:crushclaw",
+    "15:toxicspikes",
+    "23:waterpulse",
+    "25:superfang",
+    "31:crosschop",
+    "33:mudshot",
+    "39:leechlife",
+    "42:nastyplot",
+    "48:darkpulse",
+    "50:jumpkick",
+    "55:sludgebomb",
+    "57:hydropump",
+    "tm:honeclaws",
+    "tm:dragonclaw",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hail",
+    "tm:bulkup",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:sludgewave",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:scald",
+    "tm:fling",
+    "tm:incinerate",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:psychup",
+    "tm:rockslide",
+    "tm:dragontail",
+    "tm:workup",
+    "tm:poisonjab",
+    "tm:dreameater",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:rocksmash",
+    "tm:snarl",
+    "tm:waterpulse",
+    "tm:muddywater",
+    "tm:cut",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tm:flashflood",
+    "tm:cinderbreath",
+    "tutor:aquatail",
+    "tutor:darkpulse",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:firepunch",
+    "tutor:foulplay",
+    "tutor:irontail",
+    "tutor:megakick",
+    "tutor:signalbeam",
+    "tutor:suckerpunch",
+    "tutor:zenheadbutt",
+    "egg:acidarmor",
+    "egg:acidspray",
+    "egg:aquajet",
+    "egg:aurasphere",
+    "egg:batonpass",
+    "egg:crunch",
+    "egg:poisonfang",
+    "egg:rapidspin",
+    "egg:thunderfang",
+    "egg:waterpledge"  ],
+  "labels": [
+    "gen2",
+    "infinity",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghocroconaw.desc"
+  ],
+  "preEvolution": "totodile form=egho",
+  "evolutions": [
+    {
+      "id": "croconaw_feraligatr_egho",
+      "variant": "level_up",
+      "result": "feraligatr egho",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 250,
+  "aspects": ["egho"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "water",
+  "secondaryType": "dragon",
+  "abilities": [
+    "toughclaws",
+    "multiscale",
+    "h:torrent"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 68,
+    "special_attack": 53,
+    "special_defence": 54,
+    "speed": 68
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 162,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "5:honeclaws",
+    "6:aquajet",
+    "13:bite",
+    "15:breakingswipe",
+    "17:icefang",
+    "24:scaleshot",
+    "27:crunch",
+    "33:aquatail",
+    "40:dragonpulse",
+    "45:liquidation",
+    "50:thrash",
+    "58:dragondance",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:attract",
+    "tutor:blizzard",
+    "tutor:block",
+    "tutor:brickbreak",
+    "tutor:confide",
+    "tutor:cut",
+    "tutor:dig",
+    "tutor:dive",
+    "tutor:doubleteam",
+    "tutor:dragonclaw",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:fling",
+    "tutor:focuspunch",
+    "tutor:frustration",
+    "tutor:hail",
+    "tutor:hiddenpower",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:poweruppunch",
+    "tutor:protect",
+    "tutor:raindance",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:rockslide",
+    "tutor:rocktomb",
+    "tutor:round",
+    "tutor:scald",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:spite",
+    "tutor:substitute",
+    "tutor:superpower",
+    "tutor:surf",
+    "tutor:swagger",
+    "tutor:swordsdance",
+    "tutor:toxic",
+    "tutor:uproar",
+    "tutor:waterfall",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "tutor:whirlpool",
+    "tutor:workup",
+    "egg:crunch",
+    "egg:thrash",
+    "egg:hydropump",
+    "egg:ancientpower",
+    "egg:mudsport",
+    "egg:watersport",
+    "egg:icepunch",
+    "egg:metalclaw",
+    "egg:dragondance",
+    "egg:aquajet",
+    "egg:faketears",
+    "egg:block",
+    "egg:waterpulse",
+    "egg:flatter"  ],
+  "labels": [
+    "gen2",
+    "vanguard",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiancroconaw.desc"
+  ],
+  "preEvolution": "totodile form=ayreian",
+  "evolutions": [
+    {
+      "id": "croconaw_feraligatr_ayreian",
+      "variant": "level_up",
+      "result": "feraligatr ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 250,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"epochtwo",
+"ionosian",
+"egho",
+"ayreian"
+  ]
+}

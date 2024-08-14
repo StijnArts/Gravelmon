@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fowlkly-1",
+      "pokemon": "fowlkly",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochslowbro-1",
+      "pokemon": "slowbro epoch",
+      "presets": [
+          "honey_tree"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "34-54",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+,
+    {
+      "id": "africanusanslowbro-1",
+      "pokemon": "slowbro africanusan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-51",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "novranslowbro-1",
+      "pokemon": "slowbro novran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "37-49",
+      "weight": 0.54,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+
+]
+}

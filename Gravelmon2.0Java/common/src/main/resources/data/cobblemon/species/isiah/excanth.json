@@ -1,0 +1,92 @@
+{
+  "implemented": true,
+  "name": "excanth",
+  "nationalPokedexNumber": 4654,
+  "primaryType": "poison",
+  "secondaryType": "ice",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 111,
+    "attack": 145,
+    "defence": 131,
+    "special_attack": 72,
+    "special_defence": 124,
+    "speed": 97
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:leer",
+    "5:powdersnow",
+    "9:mist",
+    "12:smog",
+    "15:disable",
+    "18:iciclespear",
+    "22:toxicspikes",
+    "25:avalanche",
+    "28:screech",
+    "32:razorwind",
+    "38:toxic",
+    "43:icebeam",
+    "47:embargo",
+    "52:blizzard",
+    "57:sheercold"  ],
+  "labels": [
+    "isiah",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.excanth.desc"
+  ],
+  "baseScale": 0.5833333333333334,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 35,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

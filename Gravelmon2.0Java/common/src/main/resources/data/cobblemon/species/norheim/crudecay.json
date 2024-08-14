@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "crudecay",
+  "nationalPokedexNumber": 3311,
+  "primaryType": "dark",
+  "secondaryType": "poison",
+  "abilities": [
+    "liquidooze",
+    "h:innardsout"
+  ],
+  "baseStats": {
+    "hp": 106,
+    "attack": 106,
+    "defence": 60,
+    "special_attack": 81,
+    "special_defence": 106,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3",
+    "bug"
+  ],
+  "moves": [
+    "1:scaryface",
+    "5:endure",
+    "10:sludge",
+    "20:meanlook",
+    "26:suckerpunch",
+    "30:gastroacid",
+    "40:crunch",
+    "46:acidarmor",
+    "50:gunkshot",
+    "56:toxic",
+    "62:memento",
+    "tm:bonerush",
+    "tm:liquidation",
+    "tm:crushclaw",
+    "tm:crunch",
+    "tm:nastyplot"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.crudecay.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

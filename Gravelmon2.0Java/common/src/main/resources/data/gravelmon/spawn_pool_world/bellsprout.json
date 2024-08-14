@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fligianbellsprout-1",
+      "pokemon": "bellsprout fligian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-21",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
+      "id": "aristosianbellsprout-1",
+      "pokemon": "bellsprout aristosian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "kaskadianbellsprout-1",
+      "pokemon": "bellsprout kaskadian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "7-30",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_arid",
+"#cobblemon:is_cold" ]    }
+    }
+
+]
+}

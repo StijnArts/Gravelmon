@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "titanice-1",
+      "pokemon": "titanice",
+      "presets": [
+          "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "rare",
+      "level": "39-56",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_frozen" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "spidirt-1",
+      "pokemon": "spidirt",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-23",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+  ]
+}

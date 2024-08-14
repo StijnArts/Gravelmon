@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochskuntank-1",
+      "pokemon": "skuntank epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "41-54",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_temperate" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_plains" ]    }
+    }
+,
+    {
+      "id": "kaskadianskuntank-1",
+      "pokemon": "skuntank kaskadian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "34-48",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_taiga" ]    }
+    }
+
+]
+}

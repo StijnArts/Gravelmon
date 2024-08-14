@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gleamur-1",
+      "pokemon": "gleamur",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-54",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "timeRange": "night"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_taiga" ]    }
+    }
+  ]
+}

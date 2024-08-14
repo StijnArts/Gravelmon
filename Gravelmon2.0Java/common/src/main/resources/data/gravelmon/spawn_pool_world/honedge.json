@@ -1,0 +1,92 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochhonedge-1",
+      "pokemon": "honedge epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "6-31",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+,
+    {
+      "id": "epochhonedgeone-1",
+      "pokemon": "honedge epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "6-31",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_taiga",
+"#cobblemon:is_jungle" ]    }
+    }
+,
+    {
+      "id": "epochhonedgetwo-1",
+      "pokemon": "honedge epochthree",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "6-31",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_old_growth_taiga" ]
+      }
+    }
+,
+    {
+      "id": "epochhonedgethree-1",
+      "pokemon": "honedge epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "6-31",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ]
+      }
+    }
+,
+    {
+      "id": "africanusanhonedge-1",
+      "pokemon": "honedge africanusan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "11-32",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna",
+"#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

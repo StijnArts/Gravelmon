@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochpineco-1",
+      "pokemon": "pineco epoch",
+      "presets": [
+          "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 6.0,
+      "condition": {
+
+      }
+    }
+
+]
+}

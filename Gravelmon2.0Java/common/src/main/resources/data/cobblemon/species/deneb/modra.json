@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "name": "modra",
+  "nationalPokedexNumber": 5047,
+  "primaryType": "poison",
+  "abilities": [
+    "liquidooze",
+    "h:shedskin"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 75,
+    "defence": 65,
+    "special_attack": 40,
+    "special_defence": 45,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 92,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "1:leer",
+    "1:tackle",
+    "6:bite",
+    "10:smokescreen",
+    "13:poisontail",
+    "18:focusenergy",
+    "22:dragonrage",
+    "25:toxic",
+    "30:poisonfang",
+    "34:roar",
+    "42:workup",
+    "46:crosspoison",
+    "49:swagger",
+    "54:gunkshot",
+    "tm:swordsdance",
+    "tm:headbutt",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:darkpulse",
+    "tm:icywind",
+    "tm:poisonjab",
+    "tm:irontail",
+    "tm:irondefense",
+    "tm:haze",
+    "tm:shadowball",
+    "tm:sludgebomb",
+    "tm:mudbomb",
+    "tm:surf",
+    "tm:strength",
+    "tutor:dig",
+    "tutor:hiddenpower",
+    "tutor:shadowclamp",
+    "tutor:rest",
+    "tutor:toxic",
+    "tutor:iciclecrash",
+    "tutor:bugnoise",
+    "tutor:hydropump",
+    "egg:acid",
+    "egg:acidspray",
+    "egg:aquatail",
+    "egg:bodyslam",
+    "egg:bulldoze",
+    "egg:crunch",
+    "egg:dig",
+    "egg:dracometeor",
+    "egg:dragonrage",
+    "egg:earthquake",
+    "egg:firespin",
+    "egg:flamethrower",
+    "egg:frostbite",
+    "egg:gigaimpact",
+    "egg:mudshot",
+    "egg:overheat",
+    "egg:protect",
+    "egg:rage",
+    "egg:raindance",
+    "egg:safeguard",
+    "egg:scald",
+    "egg:shadowclamp",
+    "egg:stoneedge",
+    "egg:sunnyday",
+    "egg:twister"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.modra.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "modra_komoragon",
+      "variant": "level_up",
+      "result": "komoragon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 673,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

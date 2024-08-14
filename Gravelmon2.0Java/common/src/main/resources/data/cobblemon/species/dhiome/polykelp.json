@@ -1,0 +1,131 @@
+{
+  "implemented": true,
+  "name": "polykelp",
+  "nationalPokedexNumber": 1515,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 105,
+    "defence": 92,
+    "special_attack": 45,
+    "special_defence": 81,
+    "speed": 73
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:constrict",
+    "5:supersonic",
+    "8:bind",
+    "12:disable",
+    "15:whirlpool",
+    "19:confuseray",
+    "23:electroweb",
+    "26:waterpulse",
+    "29:aquaring",
+    "39:acidarmor",
+    "44:discharge",
+    "49:hydropump",
+    "56:mirrorcoat",
+    "63:wringout",
+    "69:electricterrain",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:round",
+    "tm:signalbeam",
+    "tm:scald",
+    "tm:surf",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:chargebeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:voltswitch",
+    "tm:flashcannon",
+    "tm:blizzard",
+    "tm:icebeam",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:calmmind",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:electricterrain",
+    "tm:rapidspin",
+    "tm:soak"  ],
+  "labels": [
+    "dhiome",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.polykelp.desc"
+  ],
+  "preEvolution": "polynett form=dhioman",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

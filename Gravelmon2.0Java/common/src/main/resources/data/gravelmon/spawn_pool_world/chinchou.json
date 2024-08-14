@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochchinchou-1",
+      "pokemon": "chinchou epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "8-27",
+      "weight": 4.0,
+      "condition": {
+        "canSeeSky": false
+      }
+    }
+,
+    {
+      "id": "deltachinchou-1",
+      "pokemon": "chinchou delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_desert",
+"#cobblemon:nether/is_wasteland" ]
+      }
+    }
+,
+    {
+      "id": "hoennianchinchou-1",
+      "pokemon": "chinchou hoennian",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "9-31",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#minecraft:is_deep_ocean" ],
+        "maxY": 48
+      }
+    }
+
+]
+}

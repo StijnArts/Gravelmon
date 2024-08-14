@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochcubone-1",
+      "pokemon": "cubone epoch",
+      "presets": [
+          "reef",
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "7-26",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ]
+      }
+    }
+
+]
+}

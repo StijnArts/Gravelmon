@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochleavanny-1",
+      "pokemon": "leavanny epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-51",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep_dark" ]
+      }
+    }
+
+]
+}

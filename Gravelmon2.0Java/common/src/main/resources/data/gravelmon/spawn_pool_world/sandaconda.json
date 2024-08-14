@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochsandaconda-1",
+      "pokemon": "sandaconda epoch",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "28-51",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "hiziansandaconda-1",
+      "pokemon": "sandaconda hizian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "36-50",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:is_thermal" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

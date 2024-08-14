@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "conamite-1",
+      "pokemon": "conamite",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-43",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ]
+      }
+    }
+  ]
+}

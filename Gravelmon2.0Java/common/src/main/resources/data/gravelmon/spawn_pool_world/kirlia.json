@@ -1,0 +1,76 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochkirlia-1",
+      "pokemon": "kirlia epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-45",
+      "weight": 1.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "fligiankirlia-1",
+      "pokemon": "kirlia fligian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-29",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+,
+    {
+      "id": "deltakirlia-1",
+      "pokemon": "kirlia delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-38",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "isThundering": true,
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiankirlia-1",
+      "pokemon": "kirlia ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "18-35",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

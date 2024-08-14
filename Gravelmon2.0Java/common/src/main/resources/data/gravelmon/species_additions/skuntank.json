@@ -1,0 +1,24 @@
+{
+   "target": "cobblemon:skuntank",
+  "evolutions": [
+    {
+      "id": "skuntank_skuntank_kaskadian",
+      "variant": "level_up",
+      "result": "skuntank kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_cold"
+        }
+      ],
+      "permanent": true   
+ }
+  ]
+
+}

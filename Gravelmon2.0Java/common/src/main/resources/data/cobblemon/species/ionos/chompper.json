@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "chompper",
+  "nationalPokedexNumber": 5303,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:strongjaw"
+  ],
+  "baseStats": {
+    "hp": 43,
+    "attack": 46,
+    "defence": 58,
+    "special_attack": 39,
+    "special_defence": 49,
+    "speed": 22
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 211,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:growl",
+    "1:tackle",
+    "6:watergun",
+    "10:bite",
+    "14:mist",
+    "17:waterpulse",
+    "21:stomp",
+    "24:stockpile",
+    "28:razorshell",
+    "32:crunch",
+    "36:bodyslam",
+    "41:liquidation",
+    "45:workup",
+    "49:doubleedge",
+    "53:hydropump"  ],
+  "labels": [
+    "ionos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.chompper.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "chompper_crunchawtle",
+      "variant": "level_up",
+      "result": "crunchawtle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

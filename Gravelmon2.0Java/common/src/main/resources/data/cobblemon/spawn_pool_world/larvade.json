@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "larvade-1",
+      "pokemon": "larvade",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "8-31",
+      "weight": 5.2,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+  ]
+}

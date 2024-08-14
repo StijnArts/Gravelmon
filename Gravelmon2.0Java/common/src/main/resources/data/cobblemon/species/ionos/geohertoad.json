@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "geohertoad",
+  "nationalPokedexNumber": 5335,
+  "primaryType": "fire",
+  "secondaryType": "rock",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 93,
+    "defence": 79,
+    "special_attack": 27,
+    "special_defence": 67,
+    "speed": 15
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 151,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:ember",
+    "1:rockthrow",
+    "1:bulkup",
+    "1:bulkup"  ],
+  "labels": [
+    "ionos",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.geohertoad.desc"
+  ],
+  "preEvolution": "bubupole",
+  "evolutions": [
+    {
+      "id": "geohertoad_phrynotoad",
+      "variant": "level_up",
+      "result": "phrynotoad",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

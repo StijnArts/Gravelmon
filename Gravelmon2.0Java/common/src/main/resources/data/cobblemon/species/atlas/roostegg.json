@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "roostegg",
+  "nationalPokedexNumber": 5818,
+  "primaryType": "fire",
+  "secondaryType": "flying",
+  "abilities": [
+    "rockhead",
+    "h:reckless"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 111,
+    "defence": 70,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 91
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 164,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:pound",
+    "6:peck",
+    "10:copycat",
+    "14:flamecharge",
+    "17:doubleslap",
+    "21:doublekick",
+    "25:facade",
+    "27:wingattack",
+    "32:taunt",
+    "36:flamethrower",
+    "46:uproar",
+    "51:flareblitz",
+    "55:skullbash",
+    "61:closecombat",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:echoedvoice",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:roost",
+    "tm:round",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thief",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:softboiled"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.roostegg.desc"
+  ],
+  "preEvolution": "yolken",
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

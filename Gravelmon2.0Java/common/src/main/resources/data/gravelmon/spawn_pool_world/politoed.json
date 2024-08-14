@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochpolitoed-1",
+      "pokemon": "politoed epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "41-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+
+]
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "phantique-1",
+      "pokemon": "phantique",
+      "presets": [
+          "trail_ruins"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "27-45",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ]
+      }
+    }
+  ]
+}

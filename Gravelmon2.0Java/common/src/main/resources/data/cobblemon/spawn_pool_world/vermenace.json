@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vermenace-1",
+      "pokemon": "vermenace",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "23-38",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

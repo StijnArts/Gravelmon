@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class FabelianCottoon extends drai.dev.data.pokemon.Pokemon {
     public FabelianCottoon(String s, Aspect fabelian) {
-        super(s, fabelian, "Fabeliancottoon",
+        super(s, fabelian,"Fabeliancottoon",
                 Type.BUG,Type.NORMAL,
                 new Stats(0,
                         0,
@@ -34,7 +34,7 @@ public class FabelianCottoon extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cottoon");
+           setLangFileName("Fabeliancottoon");
 
     }
 

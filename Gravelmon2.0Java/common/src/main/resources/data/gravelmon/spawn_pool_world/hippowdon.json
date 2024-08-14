@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochhippowdon-1",
+      "pokemon": "hippowdon epoch",
+      "presets": [
+          "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "38-54",
+      "weight": 0.67,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "armiranhippowdon-1",
+      "pokemon": "hippowdon armiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-52",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_coast",
+"#cobblemon:is_beach" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

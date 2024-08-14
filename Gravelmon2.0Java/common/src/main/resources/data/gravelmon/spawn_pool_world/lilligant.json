@@ -1,0 +1,59 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltawaterlilligant-1",
+      "pokemon": "lilligant deltawater",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "27-48",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#minecraft:is_deep_ocean" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold" ]    }
+    }
+,
+    {
+      "id": "deltafairylilligant-1",
+      "pokemon": "lilligant deltafairy",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-27",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical",
+"#cobblemon:is_floral" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "cefiranlilligant-1",
+      "pokemon": "lilligant cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "27-48",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove" ]
+      }
+    }
+
+]
+}

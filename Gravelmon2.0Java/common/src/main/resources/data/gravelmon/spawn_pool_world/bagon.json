@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochbagon-1",
+      "pokemon": "bagon epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "6-34",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

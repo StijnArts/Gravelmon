@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "caeleon-1",
+      "pokemon": "caeleon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "44-56",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

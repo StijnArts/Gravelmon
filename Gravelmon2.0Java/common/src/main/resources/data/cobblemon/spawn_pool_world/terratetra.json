@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "terratetra-1",
+      "pokemon": "terratetra",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-46",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

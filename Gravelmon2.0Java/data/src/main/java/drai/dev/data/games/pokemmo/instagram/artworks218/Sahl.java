@@ -18,7 +18,6 @@ public class Sahl extends drai.dev.data.games.registry.Game {
         pokemon.add(new Suimoru().setUsesBigModel());
         pokemon.add(new Kinmoru().setUsesBigModel());
         pokemon.add(new Domoru().setUsesBigModel());
-        pokemon.add(new DomoruOne().setUsesBigModel());
         pokemon.add(new Araemon().setUsesBigModel());
     }
 

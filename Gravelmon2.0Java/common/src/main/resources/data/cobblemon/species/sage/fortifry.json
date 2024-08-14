@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "fortifry",
+  "nationalPokedexNumber": 1190,
+  "primaryType": "water",
+  "abilities": [
+    "adaptability",
+    "swiftswim",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 40,
+    "defence": 48,
+    "special_attack": 45,
+    "special_defence": 67,
+    "speed": 43
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 59,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2",
+    "dragon"
+  ],
+  "moves": [
+    "1:splash",
+    "1:pound",
+    "1:watergun",
+    "7:whirlpool",
+    "14:covet",
+    "21:waterpulse",
+    "28:flail",
+    "35:wish",
+    "42:frustration",
+    "49:endure",
+    "56:brine",
+    "63:perishsong",
+    "70:finalgambit",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:endure",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:waterpulse",
+    "tm:surf",
+    "tm:dive",
+    "tm:waterfall",
+    "egg:agility",
+    "egg:amnesia",
+    "egg:aquatail",
+    "egg:confuseray",
+    "egg:dragonpulse",
+    "egg:soak",
+    "egg:whirlpool"  ],
+  "labels": [
+    "sage"
+  ],
+  "pokedex": [
+    "cobblemon.species.fortifry.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "fortifry_oarwish",
+      "variant": "level_up",
+      "result": "oarwish",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "wish"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 109,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

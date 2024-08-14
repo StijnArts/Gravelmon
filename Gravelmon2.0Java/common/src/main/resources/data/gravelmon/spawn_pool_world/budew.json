@@ -1,0 +1,109 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochbudew-1",
+      "pokemon": "budew epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_floral",
+"#cobblemon:is_magical" ]
+      }
+    }
+,
+    {
+      "id": "epochbudewone-1",
+      "pokemon": "budew epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "2-23",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island",
+"#cobblemon:is_jungle" ],
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "deltabudew-1",
+      "pokemon": "budew delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "2-18",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+,
+    {
+      "id": "budewx-1",
+      "pokemon": "budew x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "4-17",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "ayreianbudew-1",
+      "pokemon": "budew ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-28",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "relicbudew-1",
+      "pokemon": "budew relic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-28",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_floral" ]    }
+    }
+
+]
+}

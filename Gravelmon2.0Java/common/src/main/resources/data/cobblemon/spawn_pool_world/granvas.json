@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "granvas-1",
+      "pokemon": "granvas",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-36",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

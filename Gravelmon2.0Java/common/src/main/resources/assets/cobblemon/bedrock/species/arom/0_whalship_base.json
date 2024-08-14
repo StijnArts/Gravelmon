@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:whalship",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_whalship",
+      "texture": "cobblemon:textures/pokemon/arom/whalship.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/whalship_shiny.png"
+    }
+  ]
+}

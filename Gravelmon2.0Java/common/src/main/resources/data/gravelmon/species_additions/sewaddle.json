@@ -1,0 +1,102 @@
+{
+   "target": "cobblemon:sewaddle",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "steel",
+  "secondaryType": "dark",
+  "abilities": [
+    "runaway"  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 53,
+    "defence": 42,
+    "special_attack": 70,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:transform",
+    "egg:siphon",
+    "egg:mirrorcoat",
+    "egg:mindreader",
+    "egg:psychicterrain",
+    "egg:extrasensory",
+    "egg:speedswap"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochsewaddle.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sewaddle_epoch_swadloon",
+      "variant": "level_up",
+      "result": "epoch swadloon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 25,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch"
+  ]
+}

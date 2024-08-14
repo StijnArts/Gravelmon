@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochskarmory-1",
+      "pokemon": "skarmory epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-54",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "hoennianskarmory-1",
+      "pokemon": "skarmory hoennian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-46",
+      "weight": 10.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_thermal",
+"#cobblemon:nether/is_basalt",
+"#cobblemon:nether/is_soul_sand" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

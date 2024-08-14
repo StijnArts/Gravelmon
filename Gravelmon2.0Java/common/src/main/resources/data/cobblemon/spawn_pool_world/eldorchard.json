@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "eldorchard-1",
+      "pokemon": "eldorchard",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-54",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:has_season/autumn",
+"#cobblemon:has_season/summer",
+"#cobblemon:is_taiga" ]    }
+    }
+  ]
+}

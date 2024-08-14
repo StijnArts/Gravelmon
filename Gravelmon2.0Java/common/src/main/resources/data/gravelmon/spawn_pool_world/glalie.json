@@ -1,0 +1,76 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochglalie-1",
+      "pokemon": "glalie epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-54",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "deltaglalie-1",
+      "pokemon": "glalie delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "34-58",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_mountain" ]
+      }
+    }
+,
+    {
+      "id": "ayreianglalie-1",
+      "pokemon": "glalie ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-54",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "cefiranglalie-1",
+      "pokemon": "glalie cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "41-48",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+
+]
+}

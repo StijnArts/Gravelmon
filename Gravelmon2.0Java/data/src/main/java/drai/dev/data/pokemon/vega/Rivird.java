@@ -87,7 +87,7 @@ public class Rivird extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 19, 6.0, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 6, 19, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BEACH, Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),

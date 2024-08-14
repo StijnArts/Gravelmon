@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "bronkilles",
+  "nationalPokedexNumber": 6127,
+  "primaryType": "grass",
+  "secondaryType": "fighting",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 105,
+    "defence": 140,
+    "special_attack": 50,
+    "special_defence": 67,
+    "speed": 108
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "field"
+  ],
+  "moves": [
+    "1:tailwhip",
+    "1:tackle",
+    "7:vinewhip",
+    "11:razorleaf",
+    "15:yawn",
+    "20:hornattack",
+    "24:submission",
+    "27:retaliate",
+    "32:leechseed",
+    "39:milkdrink",
+    "45:hornleech",
+    "51:closecombat",
+    "57:leafstorm"  ],
+  "labels": [
+    "amavi",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bronkilles.desc"
+  ],
+  "preEvolution": "coltroy",
+  "baseScale": 0.45,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 27,
+  "weight": 1034,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

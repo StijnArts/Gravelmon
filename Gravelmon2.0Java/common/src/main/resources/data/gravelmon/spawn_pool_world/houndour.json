@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochhoundour-1",
+      "pokemon": "houndour epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-32",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_soul_fire" ]
+      }
+    }
+,
+    {
+      "id": "norheimanhoundour-1",
+      "pokemon": "houndour norheiman",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "8-33",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

@@ -1,0 +1,420 @@
+{
+   "target": "cobblemon:rapidash",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "ghost",
+  "secondaryType": "fire",
+  "abilities": [
+    "infiltrator",
+    "aftermath",
+    "h:reckless"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 105,
+    "defence": 75,
+    "special_attack": 110,
+    "special_defence": 70,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "7:shadowsneak",
+    "54:flareblitz",
+    "16:confuseray",
+    "4:sunnyday",
+    "30:spiritshackle",
+    "39:spectralthief",
+    "1:tailwhip",
+    "48:possession",
+    "13:flamecharge",
+    "1:wildcharge",
+    "1:astonish",
+    "34:playrough",
+    "44:blazekick",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:burningjealousy",
+    "tm:closecombat",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:earthpower",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:highhorsepower",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:memento",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochrapidash.desc"
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 17,
+  "weight": 950,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Africanusan",
+  "primaryType": "flying",
+  "secondaryType": "steel",
+  "abilities": [
+    "runaway",
+    "flashfire"  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 110,
+    "defence": 70,
+    "special_attack": 105,
+    "special_defence": 100,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "25:steelwing",
+    "37:agility",
+    "1:quickattack",
+    "17:stomp",
+    "45:bounce",
+    "1:tailwhip",
+    "21:pluck",
+    "41:flashcannon",
+    "15:metalclaw",
+    "47:irontail",
+    "9:gust",
+    "13:wingattack",
+    "33:aeroblast",
+    "35:acrobatics",
+    "29:takedown",
+    "1:growl",
+    "1:peck",
+    "34:ironhead",
+    "49:bravebird"  ],
+  "labels": [
+    "africanus",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.africanusanrapidash.desc"
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 950,
+  "aspects": ["africanusan"],
+  "cannotDynamax": false
+},
+{
+  "name": "X",
+  "primaryType": "flying",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 115
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Storm",
+      "pokedex": [
+    "cobblemon.species.rapidashx.desc1"
+  ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "abilities": [
+    "keeneye",
+      ],
+      "baseScale": 1.25,
+        "hitbox": {
+          "width": 0.9,
+          "height": 2.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 80,
+        "defence": 70,
+        "special_attack": 140,
+        "special_defence": 60,
+        "speed": 145
+      },
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 175,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "experienceGroup": "medium_fast",
+      "eggCycles": 26,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "xenoverse",
+    "gen1"
+      ],
+      "aspects": [
+        "storm"
+      ],
+      "height": 1,
+      "weight": 9000,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 26,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:substitute",
+    "1:magnetrise",
+    "1:discharge",
+    "1:thunder",
+    "1:tackle",
+    "1:growl",
+    "1:tailwhip",
+    "1:gust",
+    "1:defog",
+    "15:aircutter",
+    "20:agility",
+    "25:bounce",
+    "30:stomp",
+    "35:cottonguard",
+    "40:discharge",
+    "43:takedown",
+    "49:airslash",
+    "56:hurricane",
+    "63:wildcharge",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:roost",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:chargebeam",
+    "tm:skydrop",
+    "tm:acrobatics",
+    "tm:smartstrike",
+    "tm:gigaimpact",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:swordsdance",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tutor:aircutter",
+    "tutor:bounce",
+    "tutor:flash",
+    "tutor:heatwave",
+    "tutor:hurricane",
+    "tutor:icywind",
+    "tutor:lowkick",
+    "tutor:secretpower",
+    "tutor:shockwave",
+    "tutor:snore",
+    "tutor:tailwind"  ],
+  "labels": [
+    "xenoverse",
+    "gen1",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.rapidashx.desc"
+  ],
+  "preEvolution": "ponyta form=x",
+  "baseScale": 1.25,
+  "hitbox": {
+    "width": 0.9,
+    "height": 2.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 17,
+  "weight": 900,
+  "aspects": ["x"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"africanusan",
+"x"
+  ]
+}

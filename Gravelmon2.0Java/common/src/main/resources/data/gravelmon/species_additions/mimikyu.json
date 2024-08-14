@@ -1,0 +1,309 @@
+{
+   "target": "cobblemon:mimikyu",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "ice",
+  "secondaryType": "ghost",
+  "abilities": [
+    "disguise"  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 115,
+    "defence": 106,
+    "special_attack": 80,
+    "special_defence": 54,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 167,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "9:shadowsneak",
+    "43:zenheadbutt",
+    "12:honeclaws",
+    "21:shadowclaw",
+    "38:spectralthief",
+    "1:scratch",
+    "30:slash",
+    "57:possession",
+    "1:growl",
+    "15:icefang",
+    "48:frostbite",
+    "6:iceshard",
+    "1:astonish",
+    "tm:airslash",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:frostbite",
+    "tm:gammaray",
+    "tm:hail",
+    "tm:haze",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:memento",
+    "tm:metronome",
+    "tm:mist",
+    "tm:nastyplot",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:possession",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shadowpunch",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:willowisp",
+    "tm:wish",
+    "tm:workup",
+    "egg:psychocut",
+    "egg:rest",
+    "egg:grudge",
+    "egg:iciclespear",
+    "egg:spiritshackle"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochmimikyu.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 7,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ayreian",
+  "primaryType": "ghost",
+  "secondaryType": "normal",
+  "abilities": [
+    "disguise"  ],
+  "baseStats": {
+    "hp": 115,
+    "attack": 70,
+    "defence": 75,
+    "special_attack": 86,
+    "special_defence": 60,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:copycat",
+    "6:shadowsneak",
+    "60:poltergeist",
+    "30:honeclaws",
+    "48:painsplit",
+    "1:substitute",
+    "42:shadowclaw",
+    "1:scratch",
+    "36:crushclaw",
+    "12:doubleteam",
+    "18:babydolleyes",
+    "24:mimic",
+    "1:wildcharge",
+    "1:astonish",
+    "54:playrough",
+    "tm:afteryou",
+    "tm:attract",
+    "tm:beatup",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confide",
+    "tm:covet",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:lastresort",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:snore",
+    "tm:spite",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:xscissor",
+    "egg:grudge",
+    "egg:destinybond",
+    "egg:curse",
+    "egg:nightmare"  ],
+  "labels": [
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianmimikyu.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 7,
+  "aspects": ["ayreian"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"ayreian"
+  ]
+}

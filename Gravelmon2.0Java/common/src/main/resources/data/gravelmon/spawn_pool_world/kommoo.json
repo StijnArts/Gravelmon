@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochkommoo-1",
+      "pokemon": "kommoo epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "45-61",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ]
+      }
+    }
+
+]
+}

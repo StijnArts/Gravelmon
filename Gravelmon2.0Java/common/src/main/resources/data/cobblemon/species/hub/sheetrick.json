@@ -1,0 +1,116 @@
+{
+  "implemented": true,
+  "name": "sheetrick",
+  "nationalPokedexNumber": 1614,
+  "primaryType": "ghost",
+  "secondaryType": "normal",
+  "abilities": [
+    "tangledfeet"  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 70,
+    "defence": 67,
+    "special_attack": 70,
+    "special_defence": 67,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 149,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:roleplay",
+    "5:rapidspin",
+    "10:feintattack",
+    "15:curse",
+    "20:doublekick",
+    "25:nightshade",
+    "30:suckerpunch",
+    "35:triplekick",
+    "40:shadowball",
+    "50:teeterdance",
+    "55:phantomforce",
+    "tm:acrobatics",
+    "tm:bide",
+    "tm:counter",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:flash",
+    "tm:frustration",
+    "tm:grassknot",
+    "tm:hiddenpower",
+    "tm:megakick",
+    "tm:metronome",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:teleport",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:whirlwind",
+    "tm:uturn"  ],
+  "labels": [
+    "hub",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sheetrick.desc"
+  ],
+  "baseScale": 0.16666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,160 @@
+{
+  "implemented": true,
+  "name": "tarantailor",
+  "nationalPokedexNumber": 5476,
+  "primaryType": "bug",
+  "abilities": [
+    "innerfocus",
+    "h:overcoat"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 95,
+    "defence": 75,
+    "special_attack": 55,
+    "special_defence": 75,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:pounce",
+    "9:bite",
+    "13:bugbite",
+    "15:spiderweb",
+    "18:silktrap",
+    "20:charm",
+    "29:pursuit",
+    "32:crunch",
+    "36:leechlife",
+    "40:tickle",
+    "43:stickyweb",
+    "47:firstimpression",
+    "52:suckerpunch",
+    "56:lunge",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:zenheadbutt",
+    "tm:recycle",
+    "tm:trick",
+    "tm:knockoff",
+    "tm:foulplay",
+    "tm:lunge",
+    "tm:endeavor",
+    "tm:suckerpunch",
+    "tm:toxicthread",
+    "tm:magiccoat",
+    "tm:snore",
+    "tm:bugbite",
+    "tm:focusenergy",
+    "tm:nastyplot",
+    "tm:skittersmack",
+    "tm:workup",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:gigadrain",
+    "tm:return",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:rocksmash",
+    "tm:signalbeam",
+    "tm:honeclaws",
+    "tm:falseswipe",
+    "tm:psychocut",
+    "tm:curse",
+    "tm:acrobatics",
+    "tm:shadowclaw",
+    "tm:gigaimpact",
+    "tm:swordsdance",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tm:infestation",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:snarl",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:attract",
+    "tm:leechlife",
+    "tm:cut",
+    "tm:wrap",
+    "tm:electroweb",
+    "tm:pinmissile",
+    "tm:afteryou",
+    "tm:switcheroo",
+    "tm:block"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.tarantailor.desc"
+  ],
+  "preEvolution": "wibow",
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

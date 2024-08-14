@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "incendaur-1",
+      "pokemon": "incendaur",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-56",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

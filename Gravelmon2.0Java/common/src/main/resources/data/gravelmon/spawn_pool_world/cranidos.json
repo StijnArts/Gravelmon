@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochcranidos-1",
+      "pokemon": "cranidos epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-35",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "novrancranidos-1",
+      "pokemon": "cranidos novran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

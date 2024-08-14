@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochskwovet-1",
+      "pokemon": "skwovet epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-27",
+      "weight": 4.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ]
+      }
+    }
+
+]
+}

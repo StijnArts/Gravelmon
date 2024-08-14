@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochgarchomp-1",
+      "pokemon": "garchomp epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "48-65",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "epochgarchompone-1",
+      "pokemon": "garchomp epochtwo",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "48-65",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "armirangarchomp-1",
+      "pokemon": "garchomp armiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "51-67",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": false
+      }
+    }
+
+]
+}

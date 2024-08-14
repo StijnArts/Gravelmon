@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochshiftry-1",
+      "pokemon": "shiftry epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "43-56",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "timeRange": "day"
+      }
+    }
+,
+    {
+      "id": "deltashiftry-1",
+      "pokemon": "shiftry delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-59",
+      "weight": 0.02,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ],
+        "timeRange": "night"
+      }
+    }
+
+]
+}

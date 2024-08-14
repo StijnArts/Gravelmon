@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochroggenrola-1",
+      "pokemon": "roggenrola epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "7-27",
+      "weight": 4.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ]
+      }
+    }
+,
+    {
+      "id": "epochroggenrolaone-1",
+      "pokemon": "roggenrola epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-32",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ]
+      }
+    }
+,
+    {
+      "id": "armiranroggenrola-1",
+      "pokemon": "roggenrola armiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "timeRange": "night"
+      }
+    }
+
+]
+}

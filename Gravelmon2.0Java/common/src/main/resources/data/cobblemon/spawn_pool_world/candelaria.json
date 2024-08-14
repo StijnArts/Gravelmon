@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "candelaria-1",
+      "pokemon": "candelaria",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "8-27",
+      "weight": 4.8,
+      "condition": {
+"biomes": [ "minecraft:birch_forest" ]
+      }
+    }
+  ]
+}

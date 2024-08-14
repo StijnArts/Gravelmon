@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cattermaul-1",
+      "pokemon": "cattermaul",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "17-39",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "minecraft:birch_forest" ]
+      }
+    }
+  ]
+}

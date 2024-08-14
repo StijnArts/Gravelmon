@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochvenomoth-1",
+      "pokemon": "venomoth epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-47",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+,
+    {
+      "id": "hizianvenomoth-1",
+      "pokemon": "venomoth hizian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-45",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "cefiranvenomoth-1",
+      "pokemon": "venomoth cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-45",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+
+]
+}

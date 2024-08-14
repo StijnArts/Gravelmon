@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "curstar",
+  "nationalPokedexNumber": 5255,
+  "primaryType": "dark",
+  "secondaryType": "water",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 40,
+    "defence": 65,
+    "special_attack": 45,
+    "special_defence": 65,
+    "speed": 15
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 52,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:leer",
+    "1:bubble",
+    "6:astonish",
+    "10:wrap",
+    "13:assurance",
+    "17:waterpulse",
+    "22:confuseray",
+    "28:meanlook",
+    "33:darkpulse",
+    "36:recover",
+    "41:wringout",
+    "47:punishment",
+    "52:hydropump",
+    "tm:camouflage",
+    "tm:nastyplot",
+    "tm:lashout",
+    "tm:powerwhip",
+    "tm:fellstinger",
+    "tm:psybeam"  ],
+  "labels": [
+    "enjin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.curstar.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 70,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

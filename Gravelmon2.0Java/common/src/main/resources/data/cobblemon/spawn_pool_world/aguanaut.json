@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aguanaut-1",
+      "pokemon": "aguanaut",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-42",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_coast" ]
+      }
+    }
+  ]
+}

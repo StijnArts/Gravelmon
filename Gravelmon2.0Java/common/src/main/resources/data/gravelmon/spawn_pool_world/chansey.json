@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochchansey-1",
+      "pokemon": "chansey epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-43",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "fligianchansey-1",
+      "pokemon": "chansey fligian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "27-43",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_forest" ]
+      }
+    }
+,
+    {
+      "id": "eghochansey-1",
+      "pokemon": "chansey egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-40",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+
+]
+}

@@ -1,0 +1,73 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochmagnemite-1",
+      "pokemon": "magnemite epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "9-32",
+      "weight": 5.1,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "epochmagnemiteone-1",
+      "pokemon": "magnemite epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": false
+      }
+    }
+,
+    {
+      "id": "eghomagnemite-1",
+      "pokemon": "magnemite egho",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-22",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush" ]
+      }
+    }
+,
+    {
+      "id": "ayreianmagnemite-1",
+      "pokemon": "magnemite ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 1.8,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_wasteland" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

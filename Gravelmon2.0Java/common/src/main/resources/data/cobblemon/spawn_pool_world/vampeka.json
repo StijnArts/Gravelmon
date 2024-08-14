@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vampeka-1",
+      "pokemon": "vampeka",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-46",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest",
+"#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

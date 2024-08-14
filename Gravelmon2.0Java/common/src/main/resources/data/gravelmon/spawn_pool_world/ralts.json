@@ -1,0 +1,76 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochralts-1",
+      "pokemon": "ralts epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "4-25",
+      "weight": 4.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "fligianralts-1",
+      "pokemon": "ralts fligian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+,
+    {
+      "id": "deltaralts-1",
+      "pokemon": "ralts delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 18.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "isThundering": true,
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianralts-1",
+      "pokemon": "ralts ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-24",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

@@ -1,0 +1,506 @@
+{
+   "target": "cobblemon:shellder",
+  "evolutions": [
+    {
+      "id": "shellder_shellder_egho",
+      "variant": "item_interact",
+      "result": "shellder egho",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:slowpoke_tail",
+      "permanent": true   
+ }
+  ],
+   "forms": [{
+  "name": "Nostan",
+  "primaryType": "steel",
+  "abilities": [
+    "shellarmor",
+    "heavymetal",
+    "h:megalauncher"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 60,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 25,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:watergun",
+    "4:withdraw",
+    "8:supersonic",
+    "13:iciclespear",
+    "16:protect",
+    "20:leer",
+    "25:clamp",
+    "28:iceshard",
+    "32:razorshell",
+    "37:aurorabeam",
+    "40:whirlpool",
+    "44:brine",
+    "49:irondefense",
+    "52:icebeam",
+    "56:shellsmash",
+    "61:hydropump",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:snore",
+    "tm:liquidation",
+    "tm:waterpulse",
+    "tm:payback",
+    "tm:blizzard",
+    "tm:snowscape",
+    "tm:icebeam",
+    "tm:attract",
+    "tm:bide",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:explosion",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:mimic",
+    "tm:protect",
+    "tm:return",
+    "tm:round",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:triattack",
+    "tm:rage",
+    "tm:toxic",
+    "tm:reflect",
+    "tm:rest",
+    "tm:teleport",
+    "tm:bubblebeam",
+    "tm:raindance",
+    "tm:surf",
+    "tm:watergun",
+    "tm:takedown",
+    "tm:twineedle",
+    "tm:bubblebeam",
+    "tm:screech",
+    "tm:barrier",
+    "tm:rapidspin",
+    "tm:iciclespear",
+    "tm:mudshot",
+    "tm:rockblast",
+    "tm:aquaring",
+    "tm:avalanche"  ],
+  "labels": [
+    "nosto",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.nostanshellder.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "shellder_cloyster_nostan",
+      "variant": "item_interact",
+      "result": "cloyster nostan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": ["nostan"],
+  "cannotDynamax": false
+},
+{
+  "name": "Norheiman",
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "abilities": [
+    "shellarmor",
+    "steelworker",
+    "h:overcoat"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 90,
+    "special_attack": 40,
+    "special_defence": 60,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:spikes",
+    "1:withdraw",
+    "1:rapidspin",
+    "1:protect",
+    "1:acid",
+    "5:gastroacid",
+    "9:watergun",
+    "13:metalsound",
+    "15:bubble",
+    "17:absorb",
+    "19:aquaring",
+    "20:acidspray",
+    "23:bubblebeam",
+    "27:mirrorshot",
+    "33:razorshell",
+    "36:leechlife",
+    "38:spite",
+    "42:irondefense",
+    "45:poisonfang",
+    "48:hydropump",
+    "52:shellsmash",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:scald",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:rocksmash",
+    "tm:snarl",
+    "tm:waterpulse",
+    "tm:muddywater",
+    "tm:cut",
+    "tm:surf",
+    "tm:strength",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:darkpulse",
+    "tutor:earthpower",
+    "tutor:gigadrain",
+    "tutor:irontail",
+    "tutor:suckerpunch",
+    "egg:belch",
+    "egg:bite",
+    "egg:clearsmog",
+    "egg:dragontail",
+    "egg:gunkshot",
+    "egg:refresh",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.norheimanshellder.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "shellder_hingjaw",
+      "variant": "level_up",
+      "result": "hingjaw",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "mirrorshot"
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": ["norheiman"],
+  "cannotDynamax": false
+},
+{
+  "name": "Egho",
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "abilities": [
+    "ironbarbs",
+    "h:superluck"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 40,
+    "defence": 70,
+    "special_attack": 55,
+    "special_defence": 57,
+    "speed": 31
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:spikes",
+    "1:withdraw",
+    "1:rapidspin",
+    "1:protect",
+    "1:acid",
+    "5:gastroacid",
+    "9:watergun",
+    "13:metalsound",
+    "15:bubble",
+    "17:absorb",
+    "19:aquaring",
+    "20:acidspray",
+    "23:bubblebeam",
+    "27:mirrorshot",
+    "33:razorshell",
+    "36:leechlife",
+    "38:spite",
+    "42:irondefense",
+    "45:poisonfang",
+    "48:hydropump",
+    "52:shellsmash",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:scald",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:rocksmash",
+    "tm:snarl",
+    "tm:waterpulse",
+    "tm:muddywater",
+    "tm:cut",
+    "tm:surf",
+    "tm:strength",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:darkpulse",
+    "tutor:earthpower",
+    "tutor:gigadrain",
+    "tutor:irontail",
+    "tutor:suckerpunch",
+    "egg:belch",
+    "egg:bite",
+    "egg:clearsmog",
+    "egg:dragontail",
+    "egg:gunkshot",
+    "egg:refresh",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow"  ],
+  "labels": [
+    "gen1",
+    "infinity",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghoshellder.desc"
+  ],
+  "preEvolution": "shellder",
+  "evolutions": [
+    {
+      "id": "shellder_skulkraken",
+      "variant": "level_up",
+      "result": "skulkraken",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 39
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 410,
+  "aspects": ["egho"],
+  "cannotDynamax": false
+}
+], "features": [
+"nostan",
+"norheiman",
+"egho"
+  ]
+}

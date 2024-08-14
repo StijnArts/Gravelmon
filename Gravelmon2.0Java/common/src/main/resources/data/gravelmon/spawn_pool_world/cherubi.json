@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochcherubi-1",
+      "pokemon": "cherubi epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-31",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ]
+      }
+    }
+,
+    {
+      "id": "africanusancherubi-1",
+      "pokemon": "cherubi africanusan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "11-31",
+      "weight": 4.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "novrancherubi-1",
+      "pokemon": "cherubi novran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-29",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

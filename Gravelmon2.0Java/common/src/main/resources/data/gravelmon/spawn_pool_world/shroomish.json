@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochshroomish-1",
+      "pokemon": "shroomish epoch",
+      "presets": [
+          "jungle_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-32",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "timeRange": "night"
+      }
+    }
+,
+    {
+      "id": "alteranshroomish-1",
+      "pokemon": "shroomish alteran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreianshroomish-1",
+      "pokemon": "shroomish ayreian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "encreech-1",
+      "pokemon": "encreech",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "25-43",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ]
+      }
+    }
+  ]
+}

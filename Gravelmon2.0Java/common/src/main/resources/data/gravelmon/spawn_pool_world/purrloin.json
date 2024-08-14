@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochpurrloin-1",
+      "pokemon": "purrloin epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "7-34",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+,
+    {
+      "id": "deltapurrloin-1",
+      "pokemon": "purrloin delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-26",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical",
+"#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      }
+    }
+
+]
+}

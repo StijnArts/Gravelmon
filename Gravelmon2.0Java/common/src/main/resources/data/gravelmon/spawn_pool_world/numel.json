@@ -1,0 +1,117 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochnumel-1",
+      "pokemon": "numel epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-32",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochnumelone-1",
+      "pokemon": "numel epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "8-35",
+      "weight": 4.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_forest",
+"#cobblemon:is_plains",
+"#cobblemon:is_plateau" ]    }
+    }
+,
+    {
+      "id": "norheimannumel-1",
+      "pokemon": "numel norheiman",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_forest" ]    }
+    }
+,
+    {
+      "id": "deltanumel-1",
+      "pokemon": "numel delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 12.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "isRaining": true,
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ayreiannumel-1",
+      "pokemon": "numel ayreian",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-30",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "cefirannumel-1",
+      "pokemon": "numel cefiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-30",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

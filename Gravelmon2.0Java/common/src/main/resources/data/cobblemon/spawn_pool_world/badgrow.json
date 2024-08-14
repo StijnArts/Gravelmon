@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "badgrow-1",
+      "pokemon": "badgrow",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland",
+"#cobblemon:is_forest" ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

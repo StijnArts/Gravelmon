@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "carvesque-1",
+      "pokemon": "carvesque",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "29-43",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

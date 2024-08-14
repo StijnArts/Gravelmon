@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:scippoloom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:arom_scippoloom",
+      "texture": "cobblemon:textures/pokemon/arom/scippoloom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arom/scippoloom_shiny.png"
+    }
+  ]
+}

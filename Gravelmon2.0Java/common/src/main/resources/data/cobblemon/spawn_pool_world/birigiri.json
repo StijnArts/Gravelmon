@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "birigiri-1",
+      "pokemon": "birigiri",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "8-31",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_river" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

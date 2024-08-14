@@ -1,0 +1,159 @@
+{
+  "implemented": true,
+  "name": "pingushion",
+  "nationalPokedexNumber": 5710,
+  "primaryType": "ice",
+  "secondaryType": "steel",
+  "abilities": [
+    "snowwarning",
+    "ironbarbs",
+    "h:fluffy"
+  ],
+  "baseStats": {
+    "hp": 125,
+    "attack": 87,
+    "defence": 52,
+    "special_attack": 101,
+    "special_defence": 81,
+    "speed": 59
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 177,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "flying"
+  ],
+  "moves": [
+    "1:powdersnow",
+    "10:headbutt",
+    "14:iciclespear",
+    "16:snowscape",
+    "20:wingattack",
+    "23:freezedry",
+    "28:steelwing",
+    "31:acupressure",
+    "35:bodyslam",
+    "40:frostbreath",
+    "44:aquajet",
+    "51:tickle",
+    "54:cottonguard",
+    "58:gyroball",
+    "62:blizzard",
+    "tm:headbutt",
+    "tm:ironhead",
+    "tm:recycle",
+    "tm:liquidation",
+    "tm:icywind",
+    "tm:snore",
+    "tm:ominouswind",
+    "tm:hydropump",
+    "tm:encore",
+    "tm:tripleaxel",
+    "tm:steelbeam",
+    "tm:workup",
+    "tm:snowscape",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:return",
+    "tm:airslash",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:signalbeam",
+    "tm:focusblast",
+    "tm:waterpulse",
+    "tm:curse",
+    "tm:payback",
+    "tm:smartstrike",
+    "tm:gigaimpact",
+    "tm:avalanche",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:bulldoze",
+    "tm:irontail",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:naturalgift",
+    "tm:magnetrise",
+    "tm:confide",
+    "tm:steelwing",
+    "tm:bodypress",
+    "tm:icespinner",
+    "tm:attract",
+    "tm:auroraveil",
+    "tm:aquatail",
+    "tm:surf",
+    "tm:strength",
+    "tm:rockclimb",
+    "tm:waterfall",
+    "tm:spikes",
+    "tm:charm",
+    "tm:metalburst",
+    "tm:mist",
+    "tm:helpinghand"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pingushion.desc"
+  ],
+  "preEvolution": "pinguin",
+  "baseScale": 0.21666666666666667,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

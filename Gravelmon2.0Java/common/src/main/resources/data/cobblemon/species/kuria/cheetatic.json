@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "cheetatic",
+  "nationalPokedexNumber": 4397,
+  "primaryType": "normal",
+  "secondaryType": "electric",
+  "abilities": [
+    "static",
+    "competitive",
+    "h:motordrive"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 100,
+    "special_defence": 60,
+    "speed": 140
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 154,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:switcheroo",
+    "1:scratch",
+    "1:growl",
+    "1:bite",
+    "1:fakeout",
+    "6:ember",
+    "9:fakeout",
+    "14:furyswipes",
+    "17:screech",
+    "22:feintattack",
+    "25:taunt",
+    "28:firefang",
+    "33:icefang",
+    "38:thunderfang",
+    "44:honeclaws",
+    "47:playrough",
+    "53:nightslash"  ],
+  "labels": [
+    "kuria",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cheetatic.desc"
+  ],
+  "preEvolution": "steetic",
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 17,
+  "weight": 499,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

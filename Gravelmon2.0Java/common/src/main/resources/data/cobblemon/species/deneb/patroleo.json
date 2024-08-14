@@ -1,0 +1,133 @@
+{
+  "implemented": true,
+  "name": "patroleo",
+  "nationalPokedexNumber": 5025,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:flamebody"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 61,
+    "defence": 55,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 51
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "3:ember",
+    "7:sandattack",
+    "11:bite",
+    "13:flamecharge",
+    "17:magnitude",
+    "21:roar",
+    "23:takedown",
+    "27:willowisp",
+    "31:firefang",
+    "33:crunch",
+    "37:swagger",
+    "41:flamethrower",
+    "43:doubleedge",
+    "tutor:rocktomb",
+    "tutor:focusenergy",
+    "tutor:doublekick",
+    "tutor:hyperfang",
+    "tutor:firespin",
+    "tutor:spikes",
+    "tutor:incinerate",
+    "tutor:endeavor",
+    "tutor:fireblast",
+    "tm:ancientpower",
+    "tm:frustration",
+    "tm:dig",
+    "tm:flamecharge",
+    "tm:willowisp",
+    "tm:strength",
+    "egg:curse",
+    "egg:howl",
+    "egg:magmaring",
+    "egg:mirrorcoat",
+    "egg:mudslap",
+    "egg:outrage",
+    "egg:superfang",
+    "egg:wildcharge"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.patroleo.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "patroleo_gardleon",
+      "variant": "level_up",
+      "result": "gardleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 53,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

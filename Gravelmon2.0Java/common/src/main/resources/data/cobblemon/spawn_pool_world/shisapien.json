@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shisapien-1",
+      "pokemon": "shisapien",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "42-57",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

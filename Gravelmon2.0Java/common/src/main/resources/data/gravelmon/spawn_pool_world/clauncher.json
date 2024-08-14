@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vesitanclauncher-1",
+      "pokemon": "clauncher vesitan",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "23-44",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "seviianclauncher-1",
+      "pokemon": "clauncher seviian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+
+]
+}

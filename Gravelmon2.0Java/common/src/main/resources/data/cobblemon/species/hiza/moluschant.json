@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "moluschant",
+  "nationalPokedexNumber": 2824,
+  "primaryType": "dark",
+  "secondaryType": "psychic",
+  "abilities": [
+    "magician",
+    "h:protean"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 59,
+    "defence": 100,
+    "special_attack": 106,
+    "special_defence": 80,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 160,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:hypnosis",
+    "1:peck",
+    "1:reversal",
+    "1:tackle",
+    "1:wrap",
+    "9:payback",
+    "12:pluck",
+    "15:psybeam",
+    "18:swagger",
+    "21:slash",
+    "24:nightslash",
+    "27:psychocut",
+    "33:switcheroo",
+    "37:foulplay",
+    "42:topsyturvy",
+    "47:superpower"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.moluschant.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochtoxapex-1",
+      "pokemon": "toxapex epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "36-51",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+,
+    {
+      "id": "toxapexx-1",
+      "pokemon": "toxapex x",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-57",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "hoenniantoxapex-1",
+      "pokemon": "toxapex hoennian",
+      "presets": [
+          "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "40-55",
+      "weight": 0.9,
+      "condition": {
+        "canSeeSky": false
+      }
+    }
+
+]
+}

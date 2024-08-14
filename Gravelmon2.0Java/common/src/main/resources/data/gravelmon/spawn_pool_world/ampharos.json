@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochampharos-1",
+      "pokemon": "ampharos epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "37-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "mythianampharos-1",
+      "pokemon": "ampharos mythian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "30-51",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_forest" ]
+      }
+    }
+
+]
+}

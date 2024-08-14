@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "reavler",
+  "nationalPokedexNumber": 3344,
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye",
+    "h:pickpocket"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 95,
+    "defence": 55,
+    "special_attack": 95,
+    "special_defence": 85,
+    "speed": 115
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
+  "moves": [
+    "1:razorwind",
+    "1:leer",
+    "1:scratch",
+    "6:taunt",
+    "12:quickattack",
+    "18:metalclaw",
+    "24:icywind",
+    "30:furyswipes",
+    "36:honeclaws",
+    "42:beatup",
+    "48:agility",
+    "54:screech",
+    "60:slash",
+    "egg:bite",
+    "egg:counter",
+    "egg:doublehit",
+    "egg:fakeout",
+    "egg:feint",
+    "egg:iceshard",
+    "egg:iciclecrash",
+    "egg:spite",
+    "tm:takedown",
+    "tm:faketears",
+    "tm:agility",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:lowkick",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:facade",
+    "tm:aerialace",
+    "tm:snarl",
+    "tm:metalclaw",
+    "tm:swift",
+    "tm:icywind",
+    "tm:lowsweep",
+    "tm:fling",
+    "tm:avalanche",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:snowscape",
+    "tm:dig",
+    "tm:falseswipe",
+    "tm:brickbreak",
+    "tm:shadowclaw",
+    "tm:foulplay",
+    "tm:icepunch",
+    "tm:sleeptalk",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:taunt",
+    "tm:swordsdance",
+    "tm:darkpulse",
+    "tm:substitute",
+    "tm:xscissor",
+    "tm:shadowball",
+    "tm:surf",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:reversal",
+    "tm:icebeam",
+    "tm:nastyplot",
+    "tm:blizzard",
+    "tm:gigaimpact",
+    "tm:terablast"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.reavler.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

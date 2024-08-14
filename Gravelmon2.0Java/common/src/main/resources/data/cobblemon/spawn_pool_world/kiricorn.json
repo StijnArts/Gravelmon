@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kiricorn-1",
+      "pokemon": "kiricorn",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "34-61",
+      "weight": 3.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+  ]
+}

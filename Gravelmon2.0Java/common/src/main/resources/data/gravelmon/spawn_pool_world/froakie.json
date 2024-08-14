@@ -1,0 +1,73 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochfroakie-1",
+      "pokemon": "froakie epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_forest" ]
+      }
+    }
+,
+    {
+      "id": "vesitanfroakie-1",
+      "pokemon": "froakie vesitan",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:nether/is_forest" ]
+      }
+    }
+,
+    {
+      "id": "deltafroakie-1",
+      "pokemon": "froakie delta",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "armiranfroakie-1",
+      "pokemon": "froakie armiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 9.0,
+      "condition": {
+        "canSeeSky": false,
+        "maxY": 10
+      }
+    }
+
+]
+}

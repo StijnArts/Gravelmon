@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochfinizen-1",
+      "pokemon": "finizen epoch",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_frozen" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

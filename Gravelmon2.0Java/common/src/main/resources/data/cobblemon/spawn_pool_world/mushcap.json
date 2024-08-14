@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mushcap-1",
+      "pokemon": "mushcap",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-24",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mushroom",
+"#cobblemon:is_magical" ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+   "target": "cobblemon:dewgong",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "water",
+  "secondaryType": "ground",
+  "abilities": [
+    "unaware",
+    "soundproof",
+    "h:thickfat"
+  ],
+  "baseStats": {
+    "hp": 102,
+    "attack": 67,
+    "defence": 80,
+    "special_attack": 53,
+    "special_defence": 73,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "13:waterpulse",
+    "7:encore",
+    "23:flipturn",
+    "34:slackoff",
+    "4:sandattack",
+    "37:muddywater",
+    "10:stuffcheeks",
+    "1:watergun",
+    "1:amnesia",
+    "41:spitup",
+    "54:waterspout",
+    "41:stockpile",
+    "51:megahorn",
+    "1:mudslap",
+    "19:yawn",
+    "41:swallow",
+    "44:bodypress",
+    "47:earthpower",
+    "26:wideguard",
+    "30:mudslide",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:mist",
+    "tm:mudslide",
+    "tm:nobleroar",
+    "tm:protect",
+    "tm:quicksand",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:soak",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochdewgong.desc"
+  ],
+  "baseScale": 0.2833333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 2400,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Qamoran",
+  "primaryType": "water",
+  "secondaryType": "grass",
+  "abilities": [
+    "waterbubble"  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 70,
+    "defence": 95,
+    "special_attack": 70,
+    "special_defence": 80,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "1:headbutt",
+    "1:absorb",
+    "3:growl",
+    "11:leechseed",
+    "13:encore",
+    "17:magicalleaf",
+    "21:rest",
+    "23:lifedew",
+    "27:synthesis",
+    "31:aquajet",
+    "33:brine",
+    "37:takedown",
+    "41:dive",
+    "43:aquatail",
+    "47:soak",
+    "51:safeguard",
+    "53:leafstorm"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.qamorandewgong.desc"
+  ],
+  "preEvolution": "seel form=qamoran",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 165,
+  "aspects": ["qamoran"],
+  "cannotDynamax": false
+},
+{
+  "name": "Hoennian",
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "abilities": [
+    "thickfat",
+    "h:swiftswim"
+  ],
+  "baseStats": {
+    "hp": 135,
+    "attack": 115,
+    "defence": 85,
+    "special_attack": 45,
+    "special_defence": 70,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:cometpunch",
+    "1:swindle",
+    "1:aquajet",
+    "1:hornattack",
+    "9:pursuit",
+    "17:beatup",
+    "21:knockoff",
+    "29:slackoff",
+    "34:knucklefins",
+    "42:icepunch",
+    "50:megahorn",
+    "64:bulkup",
+    "tm:scald",
+    "tm:toxic",
+    "tm:hail",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:veiledsky",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:freezedry",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:shimmershot",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:surf",
+    "tm:strength",
+    "tm:rocksmash",
+    "tm:waterfall",
+    "tm:dive",
+    "egg:iceshard",
+    "egg:shadowpunch",
+    "egg:fakeout"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen1",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoenniandewgong.desc"
+  ],
+  "preEvolution": "seel form=hoennian",
+  "baseScale": 0.26666666666666666,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 1120,
+  "aspects": ["hoennian"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"qamoran",
+"hoennian"
+  ]
+}

@@ -1,0 +1,430 @@
+{
+   "target": "cobblemon:raichu",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "sound",
+  "secondaryType": "steel",
+  "abilities": [
+    "lightningrod",
+    "h:soundproof"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 55,
+    "special_attack": 120,
+    "special_defence": 110,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 218,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "moves": [
+    "24:agility",
+    "4:thundershock",
+    "56:boomburst",
+    "20:mirrorshot",
+    "8:doubleteam",
+    "1:nuzzle",
+    "36:overdrive",
+    "tm:acrobatics",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:meteormash",
+    "tm:mirrorshot",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:round",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:soundbarrier",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailglow",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochraichu.desc"
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 8,
+  "weight": 300,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Delta",
+  "primaryType": "flying",
+  "secondaryType": "fairy",
+  "abilities": [
+    "cutecharm",
+    "cloudnine",
+    "h:galewings"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defence": 55,
+    "special_attack": 90,
+    "special_defence": 80,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 243,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:gust",
+    "1:rapidspin",
+    "1:quickattack",
+    "1:moonblast",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:roost",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:retaliate",
+    "tm:gigaimpact",
+    "tm:psychup",
+    "tm:thunderwave",
+    "tm:drainpunch",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:acrobatics",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:silverwind",
+    "tm:lunarcannon",
+    "tm:skydrop",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:pluck",
+    "tm:secretpower",
+    "tm:flash",
+    "tm:rocksmash",
+    "tm:fly",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:aircutter",
+    "tutor:aquatail",
+    "tutor:bodyslam",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:defog",
+    "tutor:dynamicpunch",
+    "tutor:endure",
+    "tutor:focuspunch",
+    "tutor:headbutt",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hurricane",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:mimic",
+    "tutor:ominouswind",
+    "tutor:seismictoss",
+    "tutor:signalbeam",
+    "tutor:skyattack",
+    "tutor:snore",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:thunderpunch",
+    "tutor:twister",
+    "egg:volttackle"  ],
+  "labels": [
+    "insurgence",
+    "gen1",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaraichu.desc"
+  ],
+  "preEvolution": "pikachu form=delta",
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 8,
+  "weight": 300,
+  "aspects": ["delta"],
+  "cannotDynamax": false
+},
+{
+  "name": "X",
+  "primaryType": "steel",
+  "abilities": [
+    "magnetpull",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 150,
+    "defence": 39,
+    "special_attack": 55,
+    "special_defence": 33,
+    "speed": 153
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 218,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:flashcannon",
+    "1:voltswitch",
+    "1:uturn",
+    "1:ironhead",
+    "1:thunder",
+    "1:growl",
+    "1:tailwhip",
+    "1:thunderbolt",
+    "1:mirrorshot",
+    "1:reflect",
+    "1:agility",
+    "1:fakeout",
+    "1:xscissor",
+    "1:feint",
+    "1:doubleteam",
+    "1:thunderwave",
+    "1:metalsound",
+    "1:nastyplot",
+    "1:irontail",
+    "1:lockon",
+    "1:jetstrike",
+    "1:gearup",
+    "1:meteormash",
+    "1:nuzzle",
+    "1:bulletpunch",
+    "1:swordsdance",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:round",
+    "tm:substitute",
+    "tutor:secretpower"  ],
+  "labels": [
+    "xenoverse",
+    "gen1"
+  ],
+  "pokedex": [
+    "cobblemon.species.raichux.desc"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 8,
+  "weight": 260,
+  "aspects": ["x"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"delta",
+"x"
+  ]
+}

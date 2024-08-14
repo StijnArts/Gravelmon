@@ -1,0 +1,229 @@
+{
+   "target": "cobblemon:starmie",
+  "evolutions": [
+    {
+      "id": "starmie_starmie_ionosian",
+      "variant": "item_interact",
+      "result": "starmie ionosian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:astral_stone",
+      "permanent": true   
+ }
+  ],
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "cosmic",
+  "secondaryType": "rock",
+  "abilities": [
+    "synchronize",
+    "filter"  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 80,
+    "special_attack": 100,
+    "special_defence": 110,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 182,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "51:asteroidbelt",
+    "1:harden",
+    "1:healingwish",
+    "6:swift",
+    "18:flash",
+    "47:psychic",
+    "1:vacuumwave",
+    "26:signalbeam",
+    "34:diamondstorm",
+    "38:cosmicpower",
+    "1:moonlight",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:haze",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:mirrorshot",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:mudslide",
+    "tm:nastyplot",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:quicksand",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:wish"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochstarmie.desc"
+  ],
+  "baseScale": 0.18333333333333335,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 800,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Ionosian",
+  "primaryType": "steel",
+  "secondaryType": "fire",
+  "abilities": [
+    "keeneye"  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 39,
+    "defence": 78,
+    "special_attack": 113,
+    "special_defence": 78,
+    "speed": 134
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 61,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:metalclaw",
+    "1:ember",
+    "1:vacuumwave",
+    "1:vacuumwave"  ],
+  "labels": [
+    "ionos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ionosianstarmie.desc"
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 0,
+  "aspects": ["ionosian"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"ionosian"
+  ]
+}

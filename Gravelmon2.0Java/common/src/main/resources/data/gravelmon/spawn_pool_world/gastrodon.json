@@ -1,0 +1,245 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochgastrodon-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodonone-1",
+      "pokemon": "gastrodon epochtwo",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodontwo-1",
+      "pokemon": "gastrodon epochthree",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodonthree-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodonfour-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodonfive-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodonsix-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodonseven-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodoneight-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodonnine-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodonten-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "epochgastrodoneleven-1",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "30-54",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "fligiangastrodon-1",
+      "pokemon": "gastrodon fligian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-43",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "ricangastrodon-1",
+      "pokemon": "gastrodon rican",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "31-46",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+
+]
+}

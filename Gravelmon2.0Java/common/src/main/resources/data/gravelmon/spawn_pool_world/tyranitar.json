@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochtyranitar-1",
+      "pokemon": "tyranitar epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-67",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep_dark" ]
+      }
+    }
+,
+    {
+      "id": "tyranitarx-1",
+      "pokemon": "tyranitar x",
+      "presets": [
+          "end_city"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "55-70",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+,
+    {
+      "id": "armirantyranitar-1",
+      "pokemon": "tyranitar armiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "51-67",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#minecraft:is_nether" ],
+        "canSeeSky": false
+      }
+    }
+
+]
+}

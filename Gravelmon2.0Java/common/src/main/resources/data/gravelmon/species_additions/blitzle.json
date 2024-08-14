@@ -1,0 +1,310 @@
+{
+   "target": "cobblemon:blitzle",
+   "forms": [{
+  "name": "Epoch",
+  "primaryType": "fairy",
+  "secondaryType": "light",
+  "abilities": [
+    "quickfeet",
+    "naturalcure",
+    "h:pastelveil"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 60,
+    "defence": 32,
+    "special_attack": 96,
+    "special_defence": 30,
+    "speed": 32
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "39:agility",
+    "1:quickattack",
+    "29:charm",
+    "15:stomp",
+    "29:captivate",
+    "53:healingwish",
+    "4:tailwhip",
+    "8:covet",
+    "34:extremespeed",
+    "43:playrough",
+    "tm:airslash",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:expandingforce",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:gammaray",
+    "tm:geomancy",
+    "tm:healbell",
+    "tm:hiddenpower",
+    "tm:hypervoice",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:memento",
+    "tm:mirrorshot",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:nobleroar",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "egg:takedown",
+    "egg:doubleedge",
+    "egg:mistyterrain",
+    "egg:endure",
+    "egg:mefirst",
+    "egg:allyswitch",
+    "egg:helpinghand"  ],
+  "labels": [
+    "soulstones",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.epochblitzle.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "blitzle_epoch_zebstrika",
+      "variant": "level_up",
+      "result": "epoch zebstrika",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.13333333333333333,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 8,
+  "weight": 298,
+  "aspects": ["epoch"],
+  "cannotDynamax": false
+},
+{
+  "name": "Seviian",
+  "primaryType": "ice",
+  "secondaryType": "electric",
+  "abilities": [
+    "lightningrod",
+    "illuminate",
+    "h:icebody"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 32,
+    "special_attack": 65,
+    "special_defence": 32,
+    "speed": 76
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:quickattack",
+    "4:tailwhip",
+    "8:charge",
+    "11:icywind",
+    "15:thunderwave",
+    "18:iceshard",
+    "22:pursuit",
+    "25:spark",
+    "29:iciclecrash",
+    "32:discharge",
+    "36:agility",
+    "39:wildcharge",
+    "43:icebeam",
+    "49:freezedry",
+    "tm:blizzard",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:flash",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:risingvoltage",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "egg:doublekick",
+    "egg:doubleedge",
+    "egg:endure",
+    "egg:feint",
+    "egg:icywind",
+    "egg:mefirst",
+    "egg:rage",
+    "egg:sandattack",
+    "egg:screech",
+    "egg:snatch",
+    "egg:takedown"  ],
+  "labels": [
+    "radicalred",
+    "gen5",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.seviianblitzle.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "blitzle_zebstrika_seviian",
+      "variant": "level_up",
+      "result": "zebstrika seviian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ],
+      "permanent": true   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 9,
+  "weight": 298,
+  "aspects": ["seviian"],
+  "cannotDynamax": false
+}
+], "features": [
+"epoch",
+"seviian"
+  ]
+}

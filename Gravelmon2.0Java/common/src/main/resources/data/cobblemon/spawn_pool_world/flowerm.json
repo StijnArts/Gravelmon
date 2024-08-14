@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "flowerm-1",
+      "pokemon": "flowerm",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "11-31",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

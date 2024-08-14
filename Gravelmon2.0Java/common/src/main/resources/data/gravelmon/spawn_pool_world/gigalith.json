@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochgigalith-1",
+      "pokemon": "gigalith epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-56",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ]
+      }
+    }
+,
+    {
+      "id": "epochgigalithone-1",
+      "pokemon": "gigalith epochtwo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "41-56",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ]
+      }
+    }
+,
+    {
+      "id": "armirangigalith-1",
+      "pokemon": "gigalith armiran",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "38-60",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "timeRange": "night"
+      }
+    }
+
+]
+}

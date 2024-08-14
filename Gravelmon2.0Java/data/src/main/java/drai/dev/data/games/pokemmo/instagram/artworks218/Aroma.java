@@ -112,14 +112,12 @@ public class Aroma extends drai.dev.data.games.registry.Game {
         pokemon.add(new Cutelon().setUsesBigModel());
         pokemon.add(new Loafelon().setUsesBigModel());
         pokemon.add(new Caebelon().setUsesBigModel());
-        pokemon.add(new CaebelonOne().setUsesBigModel());
         pokemon.add(new Breabatch().setUsesBigModel());
         pokemon.add(new Breabecue().setUsesBigModel());
         pokemon.add(new Clavase().setUsesBigModel());
         pokemon.add(new Terapota().setUsesBigModel());
         pokemon.add(new Reptifia().setUsesBigModel());
         pokemon.add(new Ferraraptor().setUsesBigModel());
-        pokemon.add(new FerraraptorOne().setUsesBigModel());
         pokemon.add(new Sponpoi().setUsesBigModel());
         pokemon.add(new Ritturtell().setUsesBigModel());
         pokemon.add(new Poironell().setUsesBigModel());

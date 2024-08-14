@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epochfletchinder-1",
+      "pokemon": "fletchinder epoch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "17-32",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ]
+      }
+    }
+,
+    {
+      "id": "ayreianfletchinder-1",
+      "pokemon": "fletchinder ayreian",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "17-39",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+
+]
+}

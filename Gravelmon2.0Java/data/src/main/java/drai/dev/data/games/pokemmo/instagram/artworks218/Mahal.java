@@ -3,7 +3,6 @@ package drai.dev.data.games.pokemmo.instagram.artworks218;
 
 import drai.dev.data.pokemon.fabel.*;
 import drai.dev.data.pokemon.mahal.*;
-import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.orohnhavai.Cottoon;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -80,7 +79,6 @@ public class Mahal extends drai.dev.data.games.registry.Game {
         pokemon.add(new Windinter().setUsesBigModel());
         pokemon.add(new Crescoold().setUsesBigModel());
         pokemon.add(new Priwabor().setUsesBigModel());
-        pokemon.add(new PriwaborOne().setUsesBigModel());
         pokemon.add(new Squittel().setUsesBigModel());
         pokemon.add(new Batmirrel().setUsesBigModel());
         pokemon.add(new Puffaguish().setUsesBigModel());
