@@ -100,7 +100,7 @@ public class GenerationOne extends Game {
 //        pokemon.add(new NorsePikachu("", Aspect.NORSE).setUsesBigModel()); //TODO
 //        pokemon.add(new NorseRaichu("", Aspect.NORSE, new Stats(485, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).setUsesBigModel());
 //
-//        formanPokemon();
+        formanPokemon();
 
 //        pokemon.add(new PastelianShellder("", Aspect.PASTELIAN)); TODO
 //        pokemon.add(new PastelianCloyster("", Aspect.PASTELIAN));
@@ -323,6 +323,7 @@ public class GenerationOne extends Game {
         pokemon.add(new FormanNidoking("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanClefairy("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanVulpix("", Aspect.FORMAN).setUsesBigModel());
+        pokemon.add(new FormanNinetales("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanJigglypuff("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanZubat("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanGolbat("", Aspect.FORMAN).setUsesBigModel());
@@ -364,7 +365,7 @@ public class GenerationOne extends Game {
         pokemon.add(new FormanMarowak("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanHitmonlee("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanHitmonchan("", Aspect.FORMAN).setUsesBigModel());
-//        pokemon.add(new FormanLickitung("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+        pokemon.add(new FormanLickitung("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanKoffing("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanWeezing("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanRhyhorn("", Aspect.FORMAN).setUsesBigModel());

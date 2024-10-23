@@ -79,9 +79,6 @@ public class Form extends drai.dev.data.games.registry.Game {
         pokemon.add(new Metapede().setUsesBigModel());
         pokemon.add(new Golderis().setUsesBigModel());
         pokemon.add(new Dragorai().setUsesBigModel());
-        pokemon.add(new Infrax().setUsesBigModel());
-        pokemon.add(new Boronay().setUsesBigModel());
-        pokemon.add(new Radoraz().setUsesBigModel());
         pokemon.add(new Mewters().setUsesBigModel());
         pokemon.add(new Meu().setUsesBigModel());
         pokemon.add(new Sawtears().setUsesBigModel());
