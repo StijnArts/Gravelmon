@@ -41,7 +41,7 @@ public class Ottora extends drai.dev.data.games.registry.Game {
         pokemon.add(new Levieon(new Stats(525, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));
         pokemon.add(new Bankeon(new Stats(525, StatArchetype.FAST_SPECIAL_WALL,
-                List.of(StatType.SPECIAL_DEFENCE))));
+                List.of(StatType.SPECIAL_DEFENCE)))); //renamed from duneon
 //        pokemon.add(new Sporita());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Doznale());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Impidimp(859));   MEMBER OF LINE NOT FINISHED

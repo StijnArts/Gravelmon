@@ -16,7 +16,7 @@ public class Okeno extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Batornado()); //Member of line not Finished
 //        pokemon.add(new 420471());   Missing Art
 //        pokemon.add(new 455818());   Missing Art
-//        pokemon.add(new 490334());   Missing Art
+//        pokemon.add(new Komotox());   //Member of line not Finished
         pokemon.add(new Pubble());
         pokemon.add(new Bouldog());
         pokemon.add(new Vinagruff());
@@ -38,15 +38,16 @@ public class Okeno extends drai.dev.data.games.registry.Game {
         pokemon.add(new Feygon());
         pokemon.add(new Deevigon());
         pokemon.add(new Caballgon());
+//        pokemon.add(new Tubaride()); todo
         pokemon.add(new Squeezoa());
 //        pokemon.add(new Searside()); TODO
-//        pokemon.add(new Searshore());
+//        pokemon.add(new Erupshell());
         pokemon.add(new Frirate());
         pokemon.add(new Piratross());
         pokemon.add(new Albagross());
         pokemon.add(new Lepikite());
-//        pokemon.add(new Humwing()); //Member of line not Finished
-//        pokemon.add(new HummingEVO()); //Missing Art
+//        pokemon.add(new Humwing()); todo
+//        pokemon.add(new Colibreeze());
         pokemon.add(new Kitweed());
         pokemon.add(new Felifluff());
         pokemon.add(new Empurroar());
@@ -143,6 +144,7 @@ public class Okeno extends drai.dev.data.games.registry.Game {
 //        pokemon.add(new Magnit()); //Member of line not Finished
 //        pokemon.add(new Vesoul()); TODO
 //        pokemon.add(new Marajar());
+//        pokemon.add(new Exoscythe());
         pokemon.add(new Coastone());
         pokemon.add(new Sandieval());
         pokemon.add(new Desplash());

@@ -218,7 +218,7 @@ public enum Ability {
     SHED_SKIN("shedskin", true),
     SHEER_FORCE("sheerforce", true),
     SHELL_ARMOR("shellarmor", true),
-    SHIELD_DUST("shielddust", true),
+    SHIELD_DUST("SHIELD_DUST", true),
     SHIELDS_DOWN("shieldsdown", true),
     SIMPLE("simple", true),
     SKILL_LINK("skilllink", true),

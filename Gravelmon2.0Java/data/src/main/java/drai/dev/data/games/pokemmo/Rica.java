@@ -129,7 +129,7 @@ public class Rica extends drai.dev.data.games.registry.Game {
         pokemon.add(new Lazyrd());
         pokemon.add(new Ampeck());
         pokemon.add(new Boombird());
-//        pokemon.add(new mara()); //Missing Art
+//        pokemon.add(new Amara()); todo
 //        pokemon.add(new Torkit()); //Member of Line not Finished
 //        pokemon.add(new Scimitear()); //Missing Art
 //        pokemon.add(new Seroseed());//Missing Art
@@ -142,12 +142,15 @@ public class Rica extends drai.dev.data.games.registry.Game {
         pokemon.add(new Delibo());
         pokemon.add(new Helibo());
         pokemon.add(new Drocopter());
+//        pokemon.add(new Slitharjo()); todo
         pokemon.add(new Coliber());
         pokemon.add(new Coliboom());
 //        pokemon.add(new Dracoma()); //Missing Art
 //        pokemon.add(new Atmotail()); //Missing Art
 //        pokemon.add(new Predapex()); //Missing Art
-        pokemon.add(new Barnub());
+//        pokemon.add(new Bactiny());//Member of Line not Finished
+//        pokemon.add(new Liquphage());//Member of Line not Finished
+//        pokemon.add(new Calcichor()); //Missing Art
         pokemon.add(new Detritan());
         pokemon.add(new Moreel());
         pokemon.add(new Darscale());

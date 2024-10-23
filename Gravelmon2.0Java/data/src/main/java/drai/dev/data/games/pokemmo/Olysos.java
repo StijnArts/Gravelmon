@@ -87,6 +87,7 @@ public class Olysos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Devilance());
 //        pokemon.add(new Twoghast());   Missing Art
 //        pokemon.add(new Forcaken());   Missing Art
+//        pokemon.add(new Scroul());   MEMBER OF LINE NOT FINISHED
 //        pokemon.add(new Scrolock());   Missing Art
         pokemon.add(new Skarawel());
 //        pokemon.add(new Traplat());MEMBER OF LINE NOT FINISHED

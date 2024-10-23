@@ -91,6 +91,7 @@ public class Enjin extends drai.dev.data.games.registry.Game {
         pokemon.add(new Vipentide());
         pokemon.add(new Pterabonk());
         pokemon.add(new Smashzal());
+//        pokemon.add(new Dullahaunt()); todo
         pokemon.add(new Gossnow());
         pokemon.add(new Curdwaul());
         pokemon.add(new Cubreeze());

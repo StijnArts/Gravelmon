@@ -2,6 +2,7 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.arom.regional.*;
+import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
@@ -41,6 +42,11 @@ public class GenerationNine extends Game {
         pokemon.add(new AyreianQuaxly("", Aspect.AYREIAN));
         pokemon.add(new AyreianQuaxwell("", Aspect.AYREIAN));
         pokemon.add(new AyreianQuaquaval("", Aspect.AYREIAN));
+
+        //Lagoon
+        pokemon.add(new LagoonanTinkatink("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanTinkatuff("", Aspect.LAGOONAN));
+        pokemon.add(new LagoonanTinkaton("", Aspect.LAGOONAN));
 
 //        pokemon.add(new AristosianFlittle(955)); Missing Art
 

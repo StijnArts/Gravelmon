@@ -106,6 +106,7 @@ public class Avalos extends drai.dev.data.games.registry.Game {
         pokemon.add(new Newcleaur());
         pokemon.add(new Chilormangur());
         pokemon.add(new Operlogica());
+//        pokemon.add(new Wushenli()); todo
     }
 
 }

@@ -46,8 +46,9 @@ public class Otopo extends drai.dev.data.games.registry.Game {
                 List.of(StatType.SPEED))));
         pokemon.add(new Pilomoss());
         pokemon.add(new Arbomoss());
-        pokemon.add(new Impostoth());
+//        pokemon.add(new Buzzling()); todo
         pokemon.add(new Furrbee());
+//        pokemon.add(new Clonector()); todo
         pokemon.add(new Antillery());
         pokemon.add(new Reavair());
         pokemon.add(new Maraudair(new Stats(0, StatArchetype.FAST_SPECIAL_ATTACKER,

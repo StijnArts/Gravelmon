@@ -57,8 +57,9 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         pokemon.add(new Flintlaw());
         pokemon.add(new Burnslinger());
         pokemon.add(new Shockitt());
-        pokemon.add(new Felightnin());
+        pokemon.add(new Felightning());
         pokemon.add(new Zenithera());
+//        pokemon.add(new Driftilla()); todo
         pokemon.add(new Rudeworm());
         pokemon.add(new Coldera());
         pokemon.add(new Coldozer());
@@ -72,6 +73,8 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
 
         pokemon.add(new Gloomineon());
         pokemon.add(new Boulblin());
+//        pokemon.add(new Lonestone()); todo
+//        pokemon.add(new Geminie());
         pokemon.add(new Colossalgae());
         pokemon.add(new Plumeron());
         pokemon.add(new Kickalon());
@@ -79,6 +82,7 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         pokemon.add(new Crocrux());
         pokemon.add(new Caimarune());
         pokemon.add(new Barbeetle());
+//        pokemon.add(new Scourgeon()); todo
         pokemon.add(new Grapearl());
         pokemon.add(new Jamowar());
         pokemon.add(new Perchback());
@@ -86,15 +90,20 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         pokemon.add(new Crawlycan());
         pokemon.add(new Webbewulf());
         pokemon.add(new Edeereal());
+//        pokemon.add(new Stingfray()); todo
         pokemon.add(new Crystalker());
         pokemon.add(new Tyfang());
         pokemon.add(new Furycane());
+//        pokemon.add(new Gangill()); todo
+//        pokemon.add(new Codfather());
         pokemon.add(new Mantilist());
         pokemon.add(new Pummelot());
         pokemon.add(new Festivowl());
         pokemon.add(new Gobblelisk());
         pokemon.add(new Drasalys());
         pokemon.add(new Dralytra());
+//        pokemon.add(new Skullocaris()); todo
+//        pokemon.add(new Exovision());
         pokemon.add(new Corabdis());
 
     }

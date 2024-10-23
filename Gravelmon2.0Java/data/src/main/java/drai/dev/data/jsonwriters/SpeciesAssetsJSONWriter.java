@@ -47,7 +47,7 @@ public class SpeciesAssetsJSONWriter {
     }
 
     private static void writePokemon(Pokemon pokemon, Game game, String dir, String resourcesDir, Gson gson, boolean isReplacement) throws IOException {
-        if (pokemon.isNew() && !pokemon.isModeled()) {
+        if (pokemon.isNew()) {
             JsonObject fileContents = new JsonObject();
             fileContents.add("species", new JsonPrimitive("cobblemon:" + pokemon.getCleanName()));
             fileContents.add("order", new JsonPrimitive(0));

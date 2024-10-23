@@ -160,7 +160,7 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         pokemon.add(new Brambeat());
         pokemon.add(new Baobash());
         pokemon.add(new Larvozer());
-        pokemon.add(new Armanzer());
+        pokemon.add(new Armophant());
         pokemon.add(new Bountius());
         pokemon.add(new Hollotite());
         pokemon.add(new Stalacpace());

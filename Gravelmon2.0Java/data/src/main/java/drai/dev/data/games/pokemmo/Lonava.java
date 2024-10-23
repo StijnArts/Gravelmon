@@ -36,6 +36,7 @@ public class Lonava extends drai.dev.data.games.registry.Game {
         pokemon.add(new Swallop());
 //        pokemon.add(new Shrey()); //renamed from shrude TODO
 //        pokemon.add(new Ashrute());
+//        pokemon.add(new Polebite());
         pokemon.add(new Flightjar());
 //        pokemon.add(new Fungroove()); TODO
 //        pokemon.add(new Discodelic());
@@ -77,6 +78,7 @@ public class Lonava extends drai.dev.data.games.registry.Game {
         pokemon.add(new Boongus());
         pokemon.add(new Oogashroomga());
         pokemon.add(new Gassault());
+//        pokemon.add(new Goldenghast()); todo
         pokemon.add(new Burnshee());
         pokemon.add(new Dragimo());
         pokemon.add(new Sphagern());
