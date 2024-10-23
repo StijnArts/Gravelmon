@@ -4,8 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligianbellsprout-1",
-      "pokemon": "bellsprout fligian",
+      "id": "formanbellsprout-1",
+      "pokemon": "bellsprout forman",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "avalossianbellsprout-1",
+      "pokemon": "bellsprout avalossian",
       "presets": [
           "natural"
       ],

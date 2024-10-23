@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barbray",
-  "nationalPokedexNumber": 4168,
+  "nationalPokedexNumber": 5050,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -127,7 +127,7 @@
   "pokedex": [
     "cobblemon.species.barbray.desc"
   ],
-  "preEvolution": "qwilfish form=fligian",
+  "preEvolution": "qwilfish form=avalossian",
   "baseScale": 0.18333333333333335,
   "hitbox": {
     "width": 6.0,

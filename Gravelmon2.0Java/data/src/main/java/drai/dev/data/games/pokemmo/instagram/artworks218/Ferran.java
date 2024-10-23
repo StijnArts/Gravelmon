@@ -116,7 +116,6 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         pokemon.add(new Mantunfu().setUsesBigModel());
         pokemon.add(new Glorm().setUsesBigModel());
         pokemon.add(new Glowero().setUsesBigModel());
-        pokemon.add(new Tricerior().setUsesBigModel());
         pokemon.add(new Meleenee().setUsesBigModel());
         pokemon.add(new Empeero().setUsesBigModel());
         pokemon.add(new Perrinnip().setUsesBigModel());

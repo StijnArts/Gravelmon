@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligianparaudio-1",
-      "pokemon": "paraudio fligian",
+      "id": "avalossianparaudio-1",
+      "pokemon": "paraudio avalossian",
       "presets": [
           "village"
       ],

@@ -79,7 +79,7 @@ public class Uranium extends Game {
         pokemon.add(new S51());
         pokemon.add(new S51A());
         pokemon.add(new Paraudio());
-        pokemon.add(new AvalossianParaudio("", Aspect.Avalossian));
+        pokemon.add(new AvalossianParaudio("", Aspect.AVALOSSIAN));
         pokemon.add(new Paraboom());
         pokemon.add(new Chimical());
         pokemon.add(new Chimaconda());

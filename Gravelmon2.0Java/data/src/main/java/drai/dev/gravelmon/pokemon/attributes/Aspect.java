@@ -96,7 +96,7 @@ public enum Aspect {
     AYREIAN,
     KASKADIAN,
     MYSTIC,
-    Avalossian,
+    AVALOSSIAN,
     ENJINNIAN,
     NOVRAN,
     NEO,

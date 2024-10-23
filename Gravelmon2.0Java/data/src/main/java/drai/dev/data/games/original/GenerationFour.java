@@ -125,11 +125,11 @@ public class GenerationFour extends Game {
 //        pokemon.add(new IonosianMimeJr(439));   Missing Art
         pokemon.add(new IonosianMunchlax("", Aspect.IONOSIAN));
 
-        pokemon.add(new AvalossianShellos("", Aspect.Avalossian));
-        pokemon.add(new AvalossianGastrodon("", Aspect.Avalossian));
-        pokemon.add(new AvalossianHappiny("", Aspect.Avalossian));
-        pokemon.add(new AvalossianGallade("", Aspect.Avalossian));
-        pokemon.add(new AvalossianDusknoir("", Aspect.Avalossian));
+        pokemon.add(new AvalossianShellos("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianGastrodon("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianHappiny("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianGallade("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianDusknoir("", Aspect.AVALOSSIAN));
 
         pokemon.add(new RicanShellos("", Aspect.RICAN));
         pokemon.add(new RicanGastrodon("", Aspect.RICAN));

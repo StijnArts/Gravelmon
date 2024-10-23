@@ -154,9 +154,9 @@ public class GenerationTwo extends Game {
                         StatType.SPECIAL_DEFENCE))));
         pokemon.add(new IonosianSmoochum("", Aspect.IONOSIAN));
 
-        pokemon.add(new AvalossianAipom("Aipom", Aspect.Avalossian));
-        pokemon.add(new AvalossianBlissey("Blissey", Aspect.Avalossian));
-        pokemon.add(new AvalossianQwilfish("Qwilfish", Aspect.Avalossian));
+        pokemon.add(new AvalossianAipom("Aipom", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianBlissey("Blissey", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianQwilfish("Qwilfish", Aspect.AVALOSSIAN));
 
         pokemon.add(new EnjinnianHoothoot("Hoothoot", Aspect.ENJINNIAN));
         pokemon.add(new EnjinnianNoctowl("Noctowl", Aspect.ENJINNIAN));
@@ -300,8 +300,8 @@ public class GenerationTwo extends Game {
         pokemon.add(new FormanSlowking("", Aspect.FORMAN).setUsesBigModel());
 //        pokemon.add(new FormanMisdreavus("", Aspect.FORMAN).setUsesBigModel()); //Member of line not finished
         pokemon.add(new FormanUnown("", Aspect.FORMAN).setUsesBigModel());
-//        pokemon.add(new FormanWobbuffet("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-//        pokemon.add(new FormanGirafarig("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+//        pokemon.add(new For manWobbuffet("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+        pokemon.add(new FormanGirafarig("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
         pokemon.add(new FormanPineco("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanForretress("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanDunsparce("", Aspect.FORMAN).setUsesBigModel());
@@ -313,7 +313,7 @@ public class GenerationTwo extends Game {
         pokemon.add(new FormanShuckle("", Aspect.FORMAN).setUsesBigModel());
         pokemon.add(new FormanHeracross("", Aspect.FORMAN).setUsesBigModel());
 //        pokemon.add(new FormanSneasel("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
-//        pokemon.add(new FormanTeddiursa("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
+        pokemon.add(new FormanTeddiursa("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
         pokemon.add(new FormanSlugma("", Aspect.FORMAN).setUsesBigModel());
 //        pokemon.add(new FormanSwinub("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished
 //        pokemon.add(new FormanPiloswine("", Aspect.FORMAN).setUsesBigModel());//Member of line not finished

@@ -191,7 +191,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "ghost",
   "abilities": [
     "pickup",
@@ -285,7 +285,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fligianaipom.desc"
+    "cobblemon.species.avalossianaipom.desc"
   ],
   "evolutions": [
     {
@@ -334,7 +334,7 @@
   },
   "height": 6,
   "weight": 0,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -710,7 +710,7 @@
 }
 ], "features": [
 "epoch",
-"fligian",
+"avalossian",
 "delta",
 "relic"
   ]

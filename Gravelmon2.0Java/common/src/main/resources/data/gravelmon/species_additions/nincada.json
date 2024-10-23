@@ -161,7 +161,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -254,7 +254,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fligiannincada.desc"
+    "cobblemon.species.avalossiannincada.desc"
   ],
   "evolutions": [
     {
@@ -289,11 +289,11 @@
   },
   "height": 5,
   "weight": 55,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 }
 ], "features": [
 "epoch",
-"fligian"
+"avalossian"
   ]
 }

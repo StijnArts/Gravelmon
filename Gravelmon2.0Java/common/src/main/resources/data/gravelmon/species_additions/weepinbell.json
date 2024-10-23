@@ -1,7 +1,7 @@
 {
    "target": "cobblemon:weepinbell",
    "forms": [{
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -68,13 +68,13 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fligianweepinbell.desc"
+    "cobblemon.species.avalossianweepinbell.desc"
   ],
   "evolutions": [
     {
-      "id": "weepinbell_victreebel_fligian",
+      "id": "weepinbell_victreebel_Avalossian",
       "variant": "item_interact",
-      "result": "victreebel fligian",
+      "result": "victreebel Avalossian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -101,7 +101,7 @@
   },
   "height": 7,
   "weight": 0,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -272,7 +272,7 @@
   "cannotDynamax": false
 }
 ], "features": [
-"fligian",
+"avalossian",
 "aristosian"
   ]
 }

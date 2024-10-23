@@ -49,6 +49,10 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new AspectRhyhorn("", Aspect.AROM).setUsesBigModel()); //TODO
+//        pokemon.add(new AspectMeowth("", Aspect.AROM).setUsesBigModel()); //TODO
+
+
 //        pokemon.add(new FabelianOddish("", Aspect.FABELIAN).setUsesBigModel()); //TODO
 //        pokemon.add(new FabelianGloom("", Aspect.FABELIAN).setUsesBigModel());
 //        pokemon.add(new FabelianOnix("", Aspect.FABELIAN).setUsesBigModel());
@@ -159,12 +163,12 @@ public class GenerationOne extends Game {
         pokemon.add(new IonosianSnorlax("", Aspect.IONOSIAN, new Stats(540, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.HP))));
 
-        pokemon.add(new AvalossianBellsprout("", Aspect.Avalossian));
-        pokemon.add(new AvalossianWeepinbell("", Aspect.Avalossian));
-        pokemon.add(new AvalossianVictreebel("", Aspect.Avalossian));
-        pokemon.add(new AvalossianParas("", Aspect.Avalossian));
-        pokemon.add(new AvalossianParasect("", Aspect.Avalossian));
-        pokemon.add(new AvalossianChansey("", Aspect.Avalossian));
+        pokemon.add(new AvalossianBellsprout("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianWeepinbell("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianVictreebel("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianParas("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianParasect("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianChansey("", Aspect.AVALOSSIAN));
 
         pokemon.add(new NovranSlowpoke("", Aspect.NOVRAN));
         pokemon.add(new NovranSlowbro("", Aspect.NOVRAN));

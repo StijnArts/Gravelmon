@@ -145,7 +145,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -289,9 +289,9 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fligiangardevoir.desc"
+    "cobblemon.species.avalossiangardevoir.desc"
   ],
-  "preEvolution": "kirlia form=fligian",
+  "preEvolution": "kirlia form=avalossian",
   "baseScale": 0.26666666666666666,
   "hitbox": {
     "width": 6.0,
@@ -309,7 +309,7 @@
   },
   "height": 16,
   "weight": 484,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -710,7 +710,7 @@
 }
 ], "features": [
 "epoch",
-"fligian",
+"avalossian",
 "delta",
 "ayreian"
   ]

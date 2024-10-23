@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chipzalcoatl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_chipzalcoatl",
+      "texture": "cobblemon:textures/pokemon/ivris/chipzalcoatl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/chipzalcoatl_shiny.png"
+    }
+  ]
+}

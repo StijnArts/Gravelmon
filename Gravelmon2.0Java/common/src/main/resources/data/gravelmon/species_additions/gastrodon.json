@@ -1797,7 +1797,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -1906,9 +1906,9 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fligiangastrodon.desc"
+    "cobblemon.species.avalossiangastrodon.desc"
   ],
-  "preEvolution": "shellos form=fligian",
+  "preEvolution": "shellos form=avalossian",
   "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
@@ -1926,7 +1926,7 @@
   },
   "height": 9,
   "weight": 299,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -2089,7 +2089,7 @@
 "epochten",
 "epocheleven",
 "epochtwelve",
-"fligian",
+"avalossian",
 "rican"
   ]
 }

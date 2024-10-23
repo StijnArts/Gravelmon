@@ -2,6 +2,8 @@ package drai.dev.data.games.pokemmo.instagram.artworks218;
 
 
 import drai.dev.data.pokemon.arom.*;
+import drai.dev.data.pokemon.arom.Romarlord;
+import drai.dev.data.pokemon.ferran.*;
 
 public class Aroma extends drai.dev.data.games.registry.Game {
     public Aroma() {
@@ -126,6 +128,17 @@ public class Aroma extends drai.dev.data.games.registry.Game {
         pokemon.add(new Twallgon().setUsesBigModel());
         pokemon.add(new Strowacor().setUsesBigModel());
         pokemon.add(new Justret().setUsesBigModel());
+        pokemon.add(new Belldong().setUsesBigModel());
+        pokemon.add(new Diveloon().setUsesBigModel());
+        pokemon.add(new Diveblim().setUsesBigModel());
+        pokemon.add(new Divemarine().setUsesBigModel());
+        pokemon.add(new Terribull().setUsesBigModel());
+        pokemon.add(new Twiparok().setUsesBigModel());
+        pokemon.add(new Purrow().setUsesBigModel());
+        pokemon.add(new Tricerior().setUsesBigModel());
+        pokemon.add(new Clouffing().setUsesBigModel());
+        pokemon.add(new Breezing().setUsesBigModel());
+        pokemon.add(new Lumedian().setUsesBigModel());
         pokemon.add(new Piozizi().setUsesBigModel());
         pokemon.add(new Pioorso().setUsesBigModel());
         pokemon.add(new Piopeca().setUsesBigModel());

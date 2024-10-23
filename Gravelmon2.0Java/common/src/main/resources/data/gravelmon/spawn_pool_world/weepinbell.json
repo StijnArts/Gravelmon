@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligianweepinbell-1",
-      "pokemon": "weepinbell fligian",
+      "id": "avalossianweepinbell-1",
+      "pokemon": "weepinbell avalossian",
       "presets": [
           "natural"
       ],

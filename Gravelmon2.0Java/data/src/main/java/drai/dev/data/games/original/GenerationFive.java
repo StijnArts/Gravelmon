@@ -121,8 +121,8 @@ public class GenerationFive extends Game {
         pokemon.add(new IonosianDruddigon("", Aspect.IONOSIAN,
                 new Stats(485, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of())));
 
-        pokemon.add(new AvalossianVanillite("", Aspect.Avalossian));
-        pokemon.add(new AvalossianVanillish("", Aspect.Avalossian));
+        pokemon.add(new AvalossianVanillite("", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianVanillish("", Aspect.AVALOSSIAN));
 
         pokemon.add(new NovranHerdier("", Aspect.NOVRAN));
         pokemon.add(new NovranStoutland("", Aspect.NOVRAN));

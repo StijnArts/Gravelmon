@@ -168,7 +168,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "normal",
   "abilities": [
     "oblivious",
@@ -281,13 +281,13 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fligianslakoth.desc"
+    "cobblemon.species.avalossianslakoth.desc"
   ],
   "evolutions": [
     {
-      "id": "slakoth_vigoroth_fligian",
+      "id": "slakoth_vigoroth_avalossian",
       "variant": "level_up",
-      "result": "vigoroth fligian",
+      "result": "vigoroth avalossian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -316,11 +316,11 @@
   },
   "height": 8,
   "weight": 240,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 }
 ], "features": [
 "epoch",
-"fligian"
+"avalossian"
   ]
 }

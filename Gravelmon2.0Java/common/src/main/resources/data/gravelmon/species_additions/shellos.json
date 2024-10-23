@@ -2056,7 +2056,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -2157,13 +2157,13 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fligianshellos.desc"
+    "cobblemon.species.avalossianshellos.desc"
   ],
   "evolutions": [
     {
-      "id": "shellos_gastrodon_fligian",
+      "id": "shellos_gastrodon_avalossian",
       "variant": "level_up",
-      "result": "gastrodon fligian",
+      "result": "gastrodon avalossian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -2192,7 +2192,7 @@
   },
   "height": 3,
   "weight": 63,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -2368,7 +2368,7 @@
 "epochten",
 "epocheleven",
 "epochtwelve",
-"fligian",
+"avalossian",
 "rican"
   ]
 }

@@ -191,7 +191,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "fairy",
   "abilities": [
     "cutecharm",
@@ -329,13 +329,13 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fligianralts.desc"
+    "cobblemon.species.avalossianralts.desc"
   ],
   "evolutions": [
     {
-      "id": "ralts_kirlia_fligian",
+      "id": "ralts_kirlia_avalossian",
       "variant": "level_up",
-      "result": "kirlia fligian",
+      "result": "kirlia avalossian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -364,7 +364,7 @@
   },
   "height": 4,
   "weight": 66,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -712,7 +712,7 @@
 }
 ], "features": [
 "epoch",
-"fligian",
+"avalossian",
 "delta",
 "ayreian"
   ]

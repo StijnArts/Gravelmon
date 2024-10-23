@@ -317,7 +317,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
@@ -424,13 +424,13 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fligianvanillite.desc"
+    "cobblemon.species.avalossianvanillite.desc"
   ],
   "evolutions": [
     {
-      "id": "vanillite_vanillish_fligian",
+      "id": "vanillite_vanillish_avalossian",
       "variant": "level_up",
-      "result": "vanillish fligian",
+      "result": "vanillish avalossian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -459,7 +459,7 @@
   },
   "height": 4,
   "weight": 410,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -771,7 +771,7 @@
 ], "features": [
 "epoch",
 "epochtwo",
-"fligian",
+"avalossian",
 "novran",
 "ayreian"
   ]

@@ -1,7 +1,7 @@
 {
    "target": "cobblemon:paraudio",
    "forms": [{
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -138,7 +138,7 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fligianparaudio.desc"
+    "cobblemon.species.avalossianparaudio.desc"
   ],
   "evolutions": [
     {
@@ -173,10 +173,10 @@
   },
   "height": 15,
   "weight": 478,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 }
 ], "features": [
-"fligian"
+"avalossian"
   ]
 }

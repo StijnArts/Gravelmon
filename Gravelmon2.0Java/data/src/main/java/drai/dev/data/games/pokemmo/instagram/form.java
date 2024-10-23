@@ -2,8 +2,6 @@ package drai.dev.data.games.pokemmo.instagram;
 
 
 import drai.dev.data.pokemon.form.*;
-import drai.dev.data.pokemon.form.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Form extends drai.dev.data.games.registry.Game {
     public Form() {
@@ -135,7 +133,7 @@ public class Form extends drai.dev.data.games.registry.Game {
         pokemon.add(new Rodanitar().setUsesBigModel());
         pokemon.add(new Celeby().setUsesBigModel());
         pokemon.add(new Muecko().setUsesBigModel());
-        pokemon.add(new Skepile().setUsesBigModel());
+        pokemon.add(new Skeptile().setUsesBigModel());
         pokemon.add(new Galatoo().setUsesBigModel());
         pokemon.add(new Secrebuyo().setUsesBigModel());
         pokemon.add(new Salathyst().setUsesBigModel());

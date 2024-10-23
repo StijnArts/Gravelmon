@@ -193,7 +193,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -335,14 +335,14 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fligiankirlia.desc"
+    "cobblemon.species.avalossiankirlia.desc"
   ],
-  "preEvolution": "ralts form=fligian",
+  "preEvolution": "ralts form=avalossian",
   "evolutions": [
     {
-      "id": "kirlia_gallade_fligian",
+      "id": "kirlia_gallade_avalossian",
       "variant": "item_interact",
-      "result": "gallade fligian",
+      "result": "gallade avalossian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -356,9 +356,9 @@
       "permanent": true   
  },
     {
-      "id": "kirlia_gardevoir_fligian",
+      "id": "kirlia_gardevoir_avalossian",
       "variant": "level_up",
-      "result": "gardevoir fligian",
+      "result": "gardevoir avalossian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -387,7 +387,7 @@
   },
   "height": 8,
   "weight": 202,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -768,7 +768,7 @@
 }
 ], "features": [
 "epoch",
-"fligian",
+"avalossian",
 "delta",
 "ayreian"
   ]

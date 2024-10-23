@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "therierrrm",
-  "nationalPokedexNumber": 4159,
+  "nationalPokedexNumber": 5041,
   "primaryType": "ground",
   "secondaryType": "normal",
   "abilities": [
@@ -119,7 +119,7 @@
   "pokedex": [
     "cobblemon.species.therierrrm.desc"
   ],
-  "preEvolution": "vigoroth form=fligian",
+  "preEvolution": "vigoroth form=avalossian",
   "baseScale": 0.3333333333333333,
   "hitbox": {
     "width": 6.0,

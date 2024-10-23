@@ -161,7 +161,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "rock",
   "abilities": [
     "sandforce",
@@ -226,13 +226,13 @@
     "not_modeled"
   ],
   "pokedex": [
-    "cobblemon.species.fligiantreecko.desc"
+    "cobblemon.species.avalossiantreecko.desc"
   ],
   "evolutions": [
     {
-      "id": "treecko_grovyle_fligian",
+      "id": "treecko_grovyle_avalossian",
       "variant": "level_up",
-      "result": "grovyle fligian",
+      "result": "grovyle avalossian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -261,7 +261,7 @@
   },
   "height": 5,
   "weight": 104,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -718,7 +718,7 @@
 }
 ], "features": [
 "epoch",
-"fligian",
+"avalossian",
 "delta",
 "ayreian",
 "mystic"

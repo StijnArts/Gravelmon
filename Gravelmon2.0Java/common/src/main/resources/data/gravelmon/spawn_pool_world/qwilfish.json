@@ -4,8 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligianqwilfish-1",
-      "pokemon": "qwilfish fligian",
+      "id": "formanqwilfish-1",
+      "pokemon": "qwilfish forman",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+,
+    {
+      "id": "avalossianqwilfish-1",
+      "pokemon": "qwilfish avalossian",
       "presets": [
           "underwater"
       ],

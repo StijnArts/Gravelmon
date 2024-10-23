@@ -6,6 +6,10 @@ import drai.dev.data.games.original.*;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.*;
 import drai.dev.data.games.pokemmo.instagram.*;
+import drai.dev.data.games.pokemmo.instagram.artworks218.*;
+import drai.dev.data.games.pokemmo.instagram.eldark.*;
+import drai.dev.data.games.pokemmo.instagram.federex.*;
+import drai.dev.data.games.pokemmo.instagram.fra.*;
 
 import java.util.*;
 
@@ -45,13 +49,14 @@ public class GameRegistry {
         games.add(new Flux());
         games.add(new Hiza());
         games.add(new Junnin());
-//        games.add(new Raian());
-//        games.add(new Norse());
-//        games.add(new Trizor());
-//        games.add(new Palmia());
-//        games.add(new Fra());
-//        games.add(new Bago());
-//        games.add(new Aldao());
+        games.add(new Raian());
+        games.add(new Norse());
+        games.add(new Trizor());
+        games.add(new Palmia());
+        games.add(new Fra());
+        games.add(new Borazul());
+        games.add(new Bago());
+        games.add(new Aldao());
         games.add(new OrohnHavai());
         games.add(new EternalForest());
         games.add(new Norheim());
@@ -60,7 +65,7 @@ public class GameRegistry {
         games.add(new Lonava());
         games.add(new Lockemon());
         games.add(new Nosto());
-//        games.add(new Ivris());
+        games.add(new Ivris());
         games.add(new Umbra());
         games.add(new Form());
         games.add(new BlazingEmerald());
@@ -81,12 +86,12 @@ public class GameRegistry {
         games.add(new Atlas());
         games.add(new Amavi());
         games.add(new Cyare());
-//        games.add(new Ferran());
-//        games.add(new Mahal());
-//        games.add(new Fabel());
-//        games.add(new Aroma());
-//        games.add(new Sahl());
-//        games.add(new Elb());
+        games.add(new Ferran());
+        games.add(new Mahal());
+        games.add(new Fabel());
+        games.add(new Aroma());
+        games.add(new Sahl());
+        games.add(new Elb());
         games.add(new Goetia());
     }
 }

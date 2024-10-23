@@ -130,6 +130,11 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         pokemon.add(new Chivapplir().setUsesBigModel());
         pokemon.add(new Ciderpent().setUsesBigModel());
         pokemon.add(new Strudlung().setUsesBigModel());
+        pokemon.add(new Sapplamander().setUsesBigModel());
+        pokemon.add(new Rosavern().setUsesBigModel());
+        pokemon.add(new Crispae().setUsesBigModel());
+        pokemon.add(new Corekatrisp().setUsesBigModel());
+        pokemon.add(new Chipzalcoatl().setUsesBigModel());
         pokemon.add(new Wrrazal().setUsesBigModel());
         pokemon.add(new Specterzal().setUsesBigModel());
         pokemon.add(new IronJaws().setUsesBigModel());

@@ -51,6 +51,7 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new AromianChimecho("", Aspect.AROMIAN).setUsesBigModel()); //TODO
 
 //        pokemon.add(new FabelianRalts("", Aspect.FABELIAN).setUsesBigModel()); //TODO
 //        pokemon.add(new FabelianKirlia("", Aspect.FABELIAN).setUsesBigModel());
@@ -123,17 +124,17 @@ public class GenerationThree extends Game {
         pokemon.add(new IonosianFlygon("", Aspect.IONOSIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
 
-        pokemon.add(new AvalossianTreecko("Treecko", Aspect.Avalossian));
-        pokemon.add(new AvalossianGrovyle("Grovyle", Aspect.Avalossian));
-        pokemon.add(new AvalossianSceptile("Sceptile", Aspect.Avalossian));
-        pokemon.add(new AvalossianRalts("Ralts", Aspect.Avalossian));
-        pokemon.add(new AvalossianKirlia("Kirlia", Aspect.Avalossian));
-        pokemon.add(new AvalossianGardevoir("Gardevoir", Aspect.Avalossian));
-        pokemon.add(new AvalossianSlakoth("Slakoth", Aspect.Avalossian));
-        pokemon.add(new AvalossianVigoroth("Vigoroth", Aspect.Avalossian));
-        pokemon.add(new AvalossianNincada("Nincada", Aspect.Avalossian));
-        pokemon.add(new AvalossianDuskull("Duskull", Aspect.Avalossian));
-        pokemon.add(new AvalossianDusclops("Dusclops", Aspect.Avalossian));
+        pokemon.add(new AvalossianTreecko("Treecko", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianGrovyle("Grovyle", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianSceptile("Sceptile", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianRalts("Ralts", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianKirlia("Kirlia", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianGardevoir("Gardevoir", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianSlakoth("Slakoth", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianVigoroth("Vigoroth", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianNincada("Nincada", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianDuskull("Duskull", Aspect.AVALOSSIAN));
+        pokemon.add(new AvalossianDusclops("Dusclops", Aspect.AVALOSSIAN));
 
         pokemon.add(new EnjinnianElectrike("", Aspect.ENJINNIAN));
         pokemon.add(new EnjinnianManectric("", Aspect.ENJINNIAN));

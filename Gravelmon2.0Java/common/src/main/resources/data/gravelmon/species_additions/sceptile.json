@@ -137,7 +137,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "rock",
   "abilities": [
     "sandforce",
@@ -205,9 +205,9 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fligiansceptile.desc"
+    "cobblemon.species.avalossiansceptile.desc"
   ],
-  "preEvolution": "grovyle form=fligian",
+  "preEvolution": "grovyle form=avalossian",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
@@ -225,7 +225,7 @@
   },
   "height": 18,
   "weight": 0,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -843,7 +843,7 @@
 }
 ], "features": [
 "epoch",
-"fligian",
+"avalossian",
 "delta",
 "armiran",
 "ayreian",

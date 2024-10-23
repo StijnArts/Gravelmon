@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:corekatrisp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "poser": "cobblemon:ivris_corekatrisp",
+      "texture": "cobblemon:textures/pokemon/ivris/corekatrisp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ivris/corekatrisp_shiny.png"
+    }
+  ]
+}

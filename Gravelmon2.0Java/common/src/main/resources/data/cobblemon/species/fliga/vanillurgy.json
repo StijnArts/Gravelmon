@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vanillurgy",
-  "nationalPokedexNumber": 4164,
+  "nationalPokedexNumber": 5046,
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
@@ -116,7 +116,7 @@
   "pokedex": [
     "cobblemon.species.vanillurgy.desc"
   ],
-  "preEvolution": "vanillish form=fligian",
+  "preEvolution": "vanillish form=avalossian",
   "baseScale": 0.21666666666666667,
   "hitbox": {
     "width": 6.0,

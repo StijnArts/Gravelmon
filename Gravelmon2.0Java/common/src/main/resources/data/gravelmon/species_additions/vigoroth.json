@@ -161,7 +161,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "normal",
   "abilities": [
     "angerpoint",
@@ -276,9 +276,9 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fligianvigoroth.desc"
+    "cobblemon.species.avalossianvigoroth.desc"
   ],
-  "preEvolution": "slakoth form=fligian",
+  "preEvolution": "slakoth form=avalossian",
   "evolutions": [
     {
       "id": "vigoroth_therierrrm",
@@ -312,11 +312,11 @@
   },
   "height": 14,
   "weight": 465,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 }
 ], "features": [
 "epoch",
-"fligian"
+"avalossian"
   ]
 }

@@ -143,7 +143,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "steel",
   "secondaryType": "ghost",
   "abilities": [
@@ -214,9 +214,9 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fligiandusknoir.desc"
+    "cobblemon.species.avalossiandusknoir.desc"
   ],
-  "preEvolution": "dusclops form=fligian",
+  "preEvolution": "dusclops form=avalossian",
   "baseScale": 0.3666666666666667,
   "hitbox": {
     "width": 6.0,
@@ -234,11 +234,11 @@
   },
   "height": 22,
   "weight": 1066,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 }
 ], "features": [
 "epoch",
-"fligian"
+"avalossian"
   ]
 }

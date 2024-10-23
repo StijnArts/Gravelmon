@@ -177,7 +177,7 @@
   "cannotDynamax": false
 },
 {
-  "name": "Fligian",
+  "name": "Avalossian",
   "primaryType": "fire",
   "secondaryType": "normal",
   "abilities": [
@@ -365,14 +365,14 @@
     "fakemonevolution"
   ],
   "pokedex": [
-    "cobblemon.species.fligianchansey.desc"
+    "cobblemon.species.avalossianchansey.desc"
   ],
-  "preEvolution": "happiny form=fligian",
+  "preEvolution": "happiny form=avalossian",
   "evolutions": [
     {
-      "id": "chansey_blissey_fligian",
+      "id": "chansey_blissey_avalossian",
       "variant": "level_up",
-      "result": "blissey fligian",
+      "result": "blissey avalossian",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -401,7 +401,7 @@
   },
   "height": 11,
   "weight": 346,
-  "aspects": ["fligian"],
+  "aspects": ["avalossian"],
   "cannotDynamax": false
 },
 {
@@ -587,7 +587,7 @@
 }
 ], "features": [
 "epoch",
-"fligian",
+"avalossian",
 "egho"
   ]
 }

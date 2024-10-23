@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cottoon",
-  "nationalPokedexNumber": 3002,
+  "nationalPokedexNumber": 3735,
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
@@ -55,14 +55,11 @@
     "20:leechseed"  ],
   "labels": [
     "orohnhavai",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.cottoon.desc"
   ],
-  "preEvolution": "chenileaf",
   "evolutions": [
     {
       "id": "cottoon_sedavlin",
