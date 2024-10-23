@@ -4,13 +4,8 @@ import drai.dev.data.*;
 import drai.dev.data.games.og.*;
 import drai.dev.data.games.original.*;
 import drai.dev.data.games.pbs.*;
-import drai.dev.data.games.pokemmo.firstbatch.*;
+import drai.dev.data.games.pokemmo.*;
 import drai.dev.data.games.pokemmo.instagram.*;
-import drai.dev.data.games.pokemmo.instagram.artworks218.*;
-import drai.dev.data.games.pokemmo.instagram.eldark.*;
-import drai.dev.data.games.pokemmo.instagram.federex.*;
-import drai.dev.data.games.pokemmo.instagram.fra.*;
-import drai.dev.data.games.pokemmo.secondbatch.*;
 
 import java.util.*;
 
@@ -70,7 +65,7 @@ public class GameRegistry {
         games.add(new Form());
         games.add(new BlazingEmerald());
         games.add(new Mythire());
-        games.add(new Fliga());
+        games.add(new Avalos());
         games.add(new Daybreak());
         games.add(new Qamor());
         games.add(new Vanguard());

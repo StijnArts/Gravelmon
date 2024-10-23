@@ -20,7 +20,7 @@ import drai.dev.data.pokemon.avoris.regional.*;
 import drai.dev.data.pokemon.azure.regional.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
-import drai.dev.data.pokemon.fliga.regional.*;
+import drai.dev.data.pokemon.avalos.regional.*;
 import drai.dev.data.pokemon.flux.regional.*;
 import drai.dev.data.pokemon.hiza.regional.*;
 import drai.dev.data.pokemon.infinity.regional.*;
@@ -121,8 +121,8 @@ public class GenerationFive extends Game {
         pokemon.add(new IonosianDruddigon("", Aspect.IONOSIAN,
                 new Stats(485, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of())));
 
-        pokemon.add(new FligianVanillite("", Aspect.FLIGIAN));
-        pokemon.add(new FligianVanillish("", Aspect.FLIGIAN));
+        pokemon.add(new AvalossianVanillite("", Aspect.Avalossian));
+        pokemon.add(new AvalossianVanillish("", Aspect.Avalossian));
 
         pokemon.add(new NovranHerdier("", Aspect.NOVRAN));
         pokemon.add(new NovranStoutland("", Aspect.NOVRAN));

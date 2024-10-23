@@ -23,7 +23,7 @@ import drai.dev.data.pokemon.cyare.*;
 import drai.dev.data.pokemon.olysos.*;
 import drai.dev.data.pokemon.nodorro.*;
 import drai.dev.data.pokemon.orbis.*;
-import drai.dev.data.pokemon.fliga.*;
+import drai.dev.data.pokemon.avalos.*;
 import drai.dev.data.pokemon.ruskow.*;
 import drai.dev.data.pokemon.otopo.*;
 import drai.dev.data.pokemon.goetia.*;

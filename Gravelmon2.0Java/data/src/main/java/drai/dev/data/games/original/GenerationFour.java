@@ -14,7 +14,7 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.azure.regional.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
-import drai.dev.data.pokemon.fliga.regional.*;
+import drai.dev.data.pokemon.avalos.regional.*;
 import drai.dev.data.pokemon.hiza.regional.*;
 import drai.dev.data.pokemon.hub.regional.*;
 import drai.dev.data.pokemon.infinity.regional.*;
@@ -125,11 +125,11 @@ public class GenerationFour extends Game {
 //        pokemon.add(new IonosianMimeJr(439));   Missing Art
         pokemon.add(new IonosianMunchlax("", Aspect.IONOSIAN));
 
-        pokemon.add(new FligianShellos("", Aspect.FLIGIAN));
-        pokemon.add(new FligianGastrodon("", Aspect.FLIGIAN));
-        pokemon.add(new FligianHappiny("", Aspect.FLIGIAN));
-        pokemon.add(new FligianGallade("", Aspect.FLIGIAN));
-        pokemon.add(new FligianDusknoir("", Aspect.FLIGIAN));
+        pokemon.add(new AvalossianShellos("", Aspect.Avalossian));
+        pokemon.add(new AvalossianGastrodon("", Aspect.Avalossian));
+        pokemon.add(new AvalossianHappiny("", Aspect.Avalossian));
+        pokemon.add(new AvalossianGallade("", Aspect.Avalossian));
+        pokemon.add(new AvalossianDusknoir("", Aspect.Avalossian));
 
         pokemon.add(new RicanShellos("", Aspect.RICAN));
         pokemon.add(new RicanGastrodon("", Aspect.RICAN));

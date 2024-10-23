@@ -17,7 +17,7 @@ import drai.dev.data.pokemon.aristos.regional.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
 import drai.dev.data.pokemon.enjin.regional.*;
-import drai.dev.data.pokemon.fliga.regional.*;
+import drai.dev.data.pokemon.avalos.regional.*;
 import drai.dev.data.pokemon.flux.regional.*;
 import drai.dev.data.pokemon.hiza.regional.*;
 import drai.dev.data.pokemon.hub.regional.*;
@@ -154,9 +154,9 @@ public class GenerationTwo extends Game {
                         StatType.SPECIAL_DEFENCE))));
         pokemon.add(new IonosianSmoochum("", Aspect.IONOSIAN));
 
-        pokemon.add(new FligianAipom("Aipom", Aspect.FLIGIAN));
-        pokemon.add(new FligianBlissey("Blissey", Aspect.FLIGIAN));
-        pokemon.add(new FligianQwilfish("Qwilfish", Aspect.FLIGIAN));
+        pokemon.add(new AvalossianAipom("Aipom", Aspect.Avalossian));
+        pokemon.add(new AvalossianBlissey("Blissey", Aspect.Avalossian));
+        pokemon.add(new AvalossianQwilfish("Qwilfish", Aspect.Avalossian));
 
         pokemon.add(new EnjinnianHoothoot("Hoothoot", Aspect.ENJINNIAN));
         pokemon.add(new EnjinnianNoctowl("Noctowl", Aspect.ENJINNIAN));

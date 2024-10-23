@@ -17,7 +17,7 @@ import drai.dev.data.pokemon.avoris.regional.*;
 import drai.dev.data.pokemon.azure.regional.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
-import drai.dev.data.pokemon.fliga.regional.*;
+import drai.dev.data.pokemon.avalos.regional.*;
 import drai.dev.data.pokemon.flux.regional.*;
 import drai.dev.data.pokemon.hiza.regional.*;
 import drai.dev.data.pokemon.infinity.regional.*;
@@ -159,12 +159,12 @@ public class GenerationOne extends Game {
         pokemon.add(new IonosianSnorlax("", Aspect.IONOSIAN, new Stats(540, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.HP))));
 
-        pokemon.add(new FligianBellsprout("", Aspect.FLIGIAN));
-        pokemon.add(new FligianWeepinbell("", Aspect.FLIGIAN));
-        pokemon.add(new FligianVictreebel("", Aspect.FLIGIAN));
-        pokemon.add(new FligianParas("", Aspect.FLIGIAN));
-        pokemon.add(new FligianParasect("", Aspect.FLIGIAN));
-        pokemon.add(new FligianChansey("", Aspect.FLIGIAN));
+        pokemon.add(new AvalossianBellsprout("", Aspect.Avalossian));
+        pokemon.add(new AvalossianWeepinbell("", Aspect.Avalossian));
+        pokemon.add(new AvalossianVictreebel("", Aspect.Avalossian));
+        pokemon.add(new AvalossianParas("", Aspect.Avalossian));
+        pokemon.add(new AvalossianParasect("", Aspect.Avalossian));
+        pokemon.add(new AvalossianChansey("", Aspect.Avalossian));
 
         pokemon.add(new NovranSlowpoke("", Aspect.NOVRAN));
         pokemon.add(new NovranSlowbro("", Aspect.NOVRAN));

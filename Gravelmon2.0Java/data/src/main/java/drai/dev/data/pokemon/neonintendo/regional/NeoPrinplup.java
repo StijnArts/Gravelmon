@@ -5,7 +5,7 @@ import drai.dev.data.pokemon.pastelisland.*;
 import drai.dev.data.pokemon.neonintendo.*;
 import drai.dev.data.pokemon.nodorro.*;
 import drai.dev.data.pokemon.orbis.*;
-import drai.dev.data.pokemon.fliga.*;
+import drai.dev.data.pokemon.avalos.*;
 import drai.dev.data.pokemon.ruskow.*;
 import drai.dev.data.pokemon.otopo.*;
 import drai.dev.data.pokemon.goetia.*;
